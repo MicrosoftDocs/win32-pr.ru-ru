@@ -4,12 +4,12 @@ ms.assetid: 096c2e1a-7fd7-49ab-aa24-7d7c779d9e79
 title: Атрибут MF_PD_ASF_FILEPROPERTIES_FILE_ID (Вмконтаинер. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a92d20351c11df4feebd732c670cbacabf3bd67f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 131f82e15d63cca7c398894f9dd486936b20642fad4ffb2b241ec866e6dd33d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105656565"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118741010"
 ---
 # <a name="mf_pd_asf_fileproperties_file_id-attribute"></a>\_ \_ \_ \_ Атрибут идентификатора файла филепропертиес MF PD ASF \_
 
@@ -19,20 +19,20 @@ ms.locfileid: "105656565"
 
 **GUID**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут применяется к дескрипторам представления для содержимого ASF.
 
 Метод [**имфасфконтентинфо:: женератепресентатиондескриптор**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-generatepresentationdescriptor) создает этот атрибут из метаданных ASF.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                     |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Вмконтаинер. h</dt> </dl> |
 
 

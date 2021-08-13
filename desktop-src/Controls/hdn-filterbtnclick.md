@@ -3,7 +3,7 @@ title: Код уведомления HDN_FILTERBTNCLICK (Коммктрл. h)
 description: Уведомляет родительское окно элемента управления заголовка при нажатии кнопки фильтра или в ответ на \_ сообщение СЕТИТЕМ HDM. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: 36b85cdc-1022-4568-8891-0c919c850fd4
 keywords:
-- HDN_FILTERBTNCLICK кода уведомления элементы управления Windows
+- HDN_FILTERBTNCLICK кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c3dbbdab8adf0bee400d591f3d8b4cec6fa1ea81
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 01ba216c9946854ccfc6a651db90ab1dd5ed106dfca6ddf568d485c33dae70ab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891502"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119435514"
 ---
 # <a name="hdn_filterbtnclick-notification-code"></a>\_Код уведомления ХДН филтербтнкликк
 
@@ -49,14 +49,14 @@ HDN_FILTERBTNCLICK
 
 Если вы возвращаете **значение true**, код уведомления [ХДН \_ филтерчанже](hdn-filterchange.md) будет отправлен в родительское окно элемента управления заголовка. Этот код уведомления дает родительскому окну возможность синхронизировать свои элементы пользовательского интерфейса. Возвращает **значение false** , если не нужно отправлять уведомление.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

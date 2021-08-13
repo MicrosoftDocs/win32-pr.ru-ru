@@ -4,16 +4,16 @@ description: Коды ошибок агента Microsoft
 ms.assetid: 39bc203a-c260-46f5-a30a-7324bae2e2cf
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70e675daa3167b72f711e2545e00c78633213ed5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 48e483c053f1cfa4d3bb57606629885470fa28f73644c9a26cb35a76a3354b84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118747856"
 ---
 # <a name="microsoft-agent-error-codes"></a>Коды ошибок агента Microsoft
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 Microsoft Agent возвращает следующие сведения об ошибке:
 
@@ -95,7 +95,7 @@ Microsoft Agent возвращает следующие сведения об о
 
  
 
-\* Ошибки, описания которых содержат звездочки, являются системными ошибками Windows. Они предоставляются здесь, потому что они могут обычно возникать в приложениях с поддержкой агентов. Сведения о других ошибках, не включенных здесь, см. в документации по Platform SDK.
+\*ошибки, описания которых содержат звездочку, Windows системных ошибок. Они предоставляются здесь, потому что они могут обычно возникать в приложениях с поддержкой агентов. Сведения о других ошибках, не включенных здесь, см. в документации по Platform SDK.
 
  
 

@@ -3,7 +3,7 @@ title: Перечисление Превиевдисплайстиле
 description: Используется Иресултсвиевер Превиевстиле для установки или определения используемого в настоящий момент стиля дисплея.
 ms.assetid: ccbbfe38-0719-41e0-9331-cc0c1be651eb
 keywords:
-- Перечисление Превиевдисплайстиле. устаревшие функции среды Windows
+- превиевдисплайстиле перечисления устаревших компонентов среды Windows
 topic_type:
 - apiref
 api_name:
@@ -14,17 +14,17 @@ api_type:
 - IDLDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 11902821ec9fdbbaa9ab8d3fda8971f42fc28c1f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bd98a439daeadfd2af6135c1519aea8f981f94394ac68efe142a64037e70a25f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118753398"
 ---
 # <a name="previewdisplaystyle-enumeration"></a>Перечисление Превиевдисплайстиле
 
 > [!NOTE]
-> Windows Desktop Search 2. x — это устаревшая технология, которая изначально была доступна в качестве надстройки для Windows XP и Windows Server 2003. В более поздних выпусках используйте [API поиска Windows](../search/-search-reference-entry-page.md) . 
+> Windows настольный поиск 2. x — это устаревшая технология, которая изначально была доступна в качестве надстройки для Windows XP и Windows Server 2003. в более поздних выпусках используйте вместо этого [API Windows поиска](../search/-search-reference-entry-page.md) . 
 
 Используется [**иресултсвиевер::P ревиевстиле**](-search-2x-iresultsviewer-previewstyle.md) , чтобы задать или определить используемый в настоящее время стиль дисплея.
 
@@ -74,7 +74,7 @@ typedef enum PreviewDisplayStyleEnum {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

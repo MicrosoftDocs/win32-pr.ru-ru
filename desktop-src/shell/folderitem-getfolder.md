@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: d08c774b53d1fa0db74a7d8d282c4f88f237cfd4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad1f136fdc59291b36bb5d609269b97e7ab7a5f9d74eccbbedf204d4c2d4e014
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103808027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118458884"
 ---
 # <a name="folderitemgetfolder-property"></a>FolderItem. @ Folder, свойство
 
@@ -41,9 +41,9 @@ objGetFolder = FolderItem.GetFolder
 
 ## <a name="examples"></a>Примеры
 
-**В следующем примере для получения** объекта [**Folder**](folder.md) для папки System32 используется функция GetObject. Правильное использование показано в JScript, VBScript и Visual Basic.
+**В следующем примере для получения** объекта [**Folder**](folder.md) для папки System32 используется функция GetObject. правильное использование отображается для JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -158,13 +158,13 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                           |
 | Заголовок<br/>                   | <dl> <dt>Шлобж. h (включение Шлдисп. h)</dt> </dl>        |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                         |

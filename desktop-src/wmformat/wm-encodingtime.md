@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d27119a9b54e3de22fe620f556c672bd4fe1a17
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 20c76de789bd6ca88a9bbc2f3bb68381b3816524a07cbf97dc1a35b2526179a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104069189"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118431845"
 ---
 # <a name="wmencodingtime"></a>WM/Енкодингтиме
 
@@ -31,9 +31,9 @@ g \_ всзвменкодингтиме
 
 **fileTime** (**тип ВМТ, \_ \_ QWORD**)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Этот атрибут использует значение FILETIME, которое представляет собой 64-разрядное значение, представляющее число единиц времени 100-наносекундных, истекших с 1 января 1601 г. Дополнительные сведения о параметре FILETIME см. в разделе "сведения о системе Windows" пакета Platform SDK.
+Этот атрибут использует значение FILETIME, которое представляет собой 64-разрядное значение, представляющее число единиц времени 100-наносекундных, истекших с 1 января 1601 г. дополнительные сведения о FILETIME см. в разделе Windows Сведения о системе пакета Platform SDK.
 
 Этот атрибут не является закодированным. Его необходимо задать вручную, если вы хотите включить его в файлы.
 
@@ -44,9 +44,9 @@ g \_ всзвменкодингтиме
 [**Список атрибутов**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

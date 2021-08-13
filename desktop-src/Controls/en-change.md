@@ -3,7 +3,7 @@ title: Код уведомления EN_CHANGE (Winuser. h)
 description: Посылается, когда пользователь затратил действие, которое может изменить текст в элементе управления "поле ввода".
 ms.assetid: 8a04e6fb-ae9d-4d94-8047-6de96df899f5
 keywords:
-- EN_CHANGE кода уведомления элементы управления Windows
+- EN_CHANGE кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b8ef26d1ec4f8ec1dc93e54d46b88c4fe7cc872b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b86dbfb90376a85df09cad854882fa2616e6b7cb247cab4106850608a4b96ad4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119437054"
 ---
 # <a name="en_change-notification-code"></a>\_Код уведомления об изменении EN
 
@@ -53,21 +53,21 @@ EN_CHANGE
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **Расширенное редактирование:** Поддерживается в Microsoft Rich Edit 1,0 и более поздних версиях. Чтобы получить \_ коды уведомлений о смене, укажите [**енм \_ изменения**](rich-edit-control-event-mask-flags.md) в маске, отправленной с сообщением [**\_ SETEVENTMASK EM**](em-seteventmask.md) . Дополнительные сведения о совместимости расширенных версий редактирования с различными версиями системы см. в разделе [Общие сведения об элементах управления редактированием](about-rich-edit-controls.md).
 
 \_Код уведомления о смене на короткое время не отправляется, если используется [**\_ Многострочный стиль ES**](edit-control-styles.md) и текст отправляется через [**WM \_ SETTEXT**](/windows/desktop/winmsg/wm-settext).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Header<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
@@ -75,7 +75,7 @@ EN_CHANGE
 
 <dl> <dt>
 
-**Ссылки**
+**Ссылка**
 </dt> <dt>
 
 [\_Обновление EN](en-update.md)

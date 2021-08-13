@@ -4,12 +4,12 @@ ms.assetid: 25dbd083-5815-4b25-bfdc-4d14f96d2b45
 title: документковерфронт
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 301b67c9a741caa48024646854b208ac5dffbb20
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: f2552ec33acce2d86af824450bdd9c38de8763ab21d7c6202d9b3da646efda78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118732934"
 ---
 # <a name="documentcoverfront"></a>документковерфронт
 

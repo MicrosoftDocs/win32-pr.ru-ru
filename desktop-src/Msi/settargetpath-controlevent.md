@@ -4,12 +4,12 @@ ms.assetid: 5649da99-1541-47ab-9d2e-b33a705998ec
 title: Сеттаржетпас таблице ControlEvent событие
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36812d291ab4410b08c577e6d118c3ff9e5dc0b4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 40e49e9447d7d2e67dce85e7d60638c18a949ecbc87800d12a60bc94d971cb30
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118625074"
 ---
 # <a name="settargetpath-controlevent"></a>Сеттаржетпас таблице ControlEvent событие
 
@@ -35,7 +35,7 @@ ms.locfileid: "104265412"
 
 Элемент управления " [кнопка](pushbutton-control.md) " в диалоговом окне обзора связан с этим событием в таблице [таблице ControlEvent событие](controlevent-table.md) , чтобы проверить выбранный путь перед возвратом в диалоговое окно выбора.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Не пытайтесь настроить целевой путь, если компоненты, использующие эти пути, уже установлены для текущего пользователя или для другого пользователя. Проверьте свойство [**продуктстате**](productstate.md) перед публикацией сеттаржетпас таблице ControlEvent событие, чтобы определить, установлен ли продукт, содержащий компонент.
 

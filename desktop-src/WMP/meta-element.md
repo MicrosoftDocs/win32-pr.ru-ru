@@ -3,7 +3,7 @@ title: Элемент meta
 description: Элемент meta указывает метаданные, которые применяются ко всему списку воспроизведения.
 ms.assetid: 7248e1d9-ebd1-48cb-9019-89a35eac27ae
 keywords:
-- Проигрыватель Windows Media, элемент meta
+- элемент meta проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9f3c41c25a0df0895c645c34f97495712b113ffc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b2e4120b3eceea6d2a664edec9b48a46d33ad19b788bb820458a8802dccd2d9a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651816"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119415744"
 ---
 # <a name="meta-element"></a>Элемент meta
 
@@ -59,7 +59,7 @@ ms.locfileid: "105651816"
 
 ## <a name="remarks"></a>Remarks
 
-Создатель списка воспроизведения Windows Media может задать для атрибута Name элемента meta любую строку. В следующем списке показаны некоторые стандартные атрибуты имени, которые находятся в списках воспроизведения Windows Media, созданных проигрывателем Windows Media и другими компонентами Майкрософт.
+создатель списка воспроизведения Windows Media может задать для атрибута name элемента meta любую строку. в следующем списке показаны некоторые стандартные атрибуты имени, которые находятся в Windows списках воспроизведения мультимедиа, созданных проигрыватель Windows Media и другими компонентами майкрософт.
 
 -   Автор
 -   Категория
@@ -81,13 +81,13 @@ ms.locfileid: "105651816"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии.<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии.<br/> |
 
 
 
@@ -98,7 +98,7 @@ ms.locfileid: "105651816"
 [**Элемент head**](head-element.md)
 </dt> <dt>
 
-[**Справочник по элементам списка воспроизведения Windows Media**](windows-media-playlist-elements-reference.md)
+[**Windows Справочник по элементам списка воспроизведения мультимедиа**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
  

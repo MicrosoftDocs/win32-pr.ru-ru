@@ -15,23 +15,23 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3300fd88c0dd1e1fca55722bf58350e28f3c3b08
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 38ddb306ee6fdcbd1eb792b2c29ca367adc0f4b88cc25dfcbdde22c2638258d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118765050"
 ---
 # <a name="jet_ls"></a>JET_LS
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jet_ls"></a>JET_LS
 
 **JET_LS** тип данных содержит контекстный обработчик для локального хранилища (Ls). Этот маркер может быть связан с курсором или таблицей и может ссылаться на динамически выделенные ресурсы.
 
-**Windows XP: JET_LS** введен в Windows XP.
+**Windows xp: JET_LS** введены в Windows xp.
 
 ```cpp
     typedef JET_API_PTR JET_LS;
@@ -43,7 +43,7 @@ JET_LS
 
 Значение JET_LSNil указывает на недопустимый обработчик контекста.
 
-### <a name="remarks"></a>Комментарии
+### <a name="remarks"></a>Remarks
 
 Обработчик контекста изначально связан с типом данных **JET_LS** с помощью [жетсетлс](./jetsetls-function.md). Маркер контекста можно извлечь из типа данных **JET_LS** с помощью [жетжетлс](./jetgetls-function.md).
 
@@ -83,7 +83,7 @@ JET_LS
 </table>
 
 
-### <a name="requirements"></a>Требования
+### <a name="requirements"></a>Requirements (Требования)
 
 <table>
 <colgroup>
@@ -93,11 +93,11 @@ JET_LS
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista или Windows XP.</p></td>
+<td><p>требуется Windows Vista или Windows XP.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008 или Windows Server 2003.</p></td>
+<td><p>требуется Windows server 2008 или Windows server 2003.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>
@@ -107,7 +107,7 @@ JET_LS
 </table>
 
 
-### <a name="see-also"></a>См. также:
+### <a name="see-also"></a>См. также
 
 [жетсетлс](./jetsetls-function.md)  
 [жетжетлс](./jetgetls-function.md)

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: e09f6833fbf07c99fdbce9c02b020bcbb5361408
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 3ef9ed639383b468b68f75e43f1b38b2952795ceb1990f580a766174334dadd7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108104102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118452830"
 ---
 # <a name="shelltrayproperties-method"></a>Shell. Трайпропертиес, метод
 
@@ -47,9 +47,9 @@ Shell.TrayProperties() As Integer
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере показано использование **трайпропертиес** . Правильное использование показано в JScript, VBScript и Visual Basic.
+В следующем примере показано использование **трайпропертиес** . правильное использование отображается для JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -99,13 +99,13 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                           |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                         |

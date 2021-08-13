@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: e873019d6fbfb21de8be430d7960f697b39eeca7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0f68dbeefefbe675199522dfbc5b1dab81b8a2840fa8b7d5189c72b811fcba7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118900960"
 ---
 # <a name="qualifiers-object"></a>Квалификатор, объект
 
@@ -40,7 +40,7 @@ ms.locfileid: "105685380"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Объект **квалификаторов** имеет эти свойства.
 
@@ -48,21 +48,21 @@ ms.locfileid: "105685380"
 
 | Свойство                                           | Тип доступа          | Описание                                                                                                                                                                                                                     |
 |:---------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**\_NewEnum**](qualifiers-newenum.md)<br/> | Только для чтения<br/> | Извлекает интерфейс [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) для объекта, который может быть использован для перечисления коллекции. Это свойство скрыто в Visual Basic Scripting Edition (VBScript).<br/> |
-| [**Расчета**](qualifiers-count.md)<br/>       | Только для чтения<br/> | Возвращает количество квалификаторов в коллекции.<br/>                                                                                                                                                                |
+| [**\_NewEnum**](qualifiers-newenum.md)<br/> | Только для чтения<br/> | Извлекает интерфейс [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) для объекта, который может быть использован для перечисления коллекции. это свойство скрыто в Visual Basic scripting Edition (VBScript).<br/> |
+| [**Count**](qualifiers-count.md)<br/>       | Только для чтения<br/> | Возвращает количество квалификаторов в коллекции.<br/>                                                                                                                                                                |
 | [**Элемент**](qualifiers-item.md)<br/>         | Только для чтения<br/> | Извлекает объект [**квалификатора**](qualifier.md) , представляющий индексированный квалификатор коллекции. Это свойство по умолчанию.<br/>                                                                             |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Не удается создать объект **квалификаторов** .
 
 Свойство CAPICOM объекта [**полициинформатион. квалификаторы**](policyinformation-qualifiers.md) возвращает объект **квалификаторов** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

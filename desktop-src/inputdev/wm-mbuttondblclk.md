@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f9dd012051e9845fa2de608725f0f8b6af38334
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b63506ff4501005a0f3711b81c2a00fbf0a70116e122fd03a74ad2eebc01f280
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104533998"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119451684"
 ---
 # <a name="wm_mbuttondblclk-message"></a>\_Сообщение МБУТТОНДБЛКЛК WM
 
@@ -74,7 +74,7 @@ ms.locfileid: "104533998"
 
 Если приложение обрабатывает это сообщение, оно должно вернуть ноль.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы получить горизонтальное и вертикальное расположение, используйте следующий код:
 
@@ -95,7 +95,7 @@ yPos = GET_Y_LPARAM(lParam);
 
 Только окна, имеющие стиль **CS \_ дблклкс** , могут получить сообщения **WM \_ мбуттондблклк** , которые система создает, когда пользователь нажимает, отпускает и снова нажимает среднюю кнопку мыши в пределах времени двойного щелчка системы. Двойной щелчок средней кнопки мыши на самом деле приводит к созданию четырех сообщений: [**WM \_ мбуттондовн**](wm-mbuttondown.md), [**WM \_ Мбуттонуп**](wm-mbuttonup.md), **WM \_ мбуттондблклк** и **WM \_ мбуттонуп** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

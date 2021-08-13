@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 79eb172641cbd96e2ed0fa6631bc18718340628f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a95d57edb7992c9511e34480190580d34ad42da23c64c4297f5e4ebb75a95e73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104997866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118452131"
 ---
 # <a name="shellfolderview-object"></a>Объект Шеллфолдервиев
 
@@ -72,7 +72,7 @@ ms.locfileid: "104997866"
 |:--------------------------------------------------------------|:---------------------|:-------------------------------------------------------------------------------------------------------------|
 | [**Приложение**](shellfolderview-application.md)<br/> | Только для чтения<br/> | Содержит объект приложения объекта.<br/>                                                         |
 | [**фокуседитем**](shellfolderview-focuseditem.md)<br/> | Только для чтения<br/> | Возвращает объект [**FolderItem**](folderitem.md) , представляющий элемент, имеющий фокус ввода.<br/> |
-| [**Folder**](shellfolderview-folder.md)<br/>           | Только для чтения<br/> | Возвращает объект [**Folder**](folder.md) , представляющий представление.<br/>                                  |
+| [**Папка**](shellfolderview-folder.md)<br/>           | Только для чтения<br/> | Возвращает объект [**Folder**](folder.md) , представляющий представление.<br/>                                  |
 | [**Parent**](shellfolderview-parent.md)<br/>           | Только для чтения<br/> | Не реализован.<br/>                                                                                  |
 | [**Индекса**](shellfolderview-script.md)<br/>           | Только для чтения<br/> | Не рекомендуется.<br/>                                                                                       |
 | [**виевоптионс**](shellfolderview-viewoptions.md)<br/> | Только для чтения<br/> | Возвращает набор флагов, указывающих текущие параметры представления.<br/>                                |
@@ -81,13 +81,13 @@ ms.locfileid: "104997866"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                           |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                         |

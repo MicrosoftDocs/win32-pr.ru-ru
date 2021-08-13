@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - gdi32.dll
-ms.openlocfilehash: d72f3d8bbb7d3063fe6982c6d1de99b2f721f005
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f62d310526d95cf4ab6d1727a3ba43eec147f320b04c0692a89d52305b7f3589
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104423566"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118743551"
 ---
 # <a name="configureopmprotectedoutput-function"></a>Функция Конфигуреопмпротектедаутпут
 
@@ -79,20 +79,20 @@ NTSTATUS WINAPI ConfigureOPMProtectedOutput(
 
 Если метод завершается успешно, возвращается **состояние \_ Success**. В противном случае возвращается код ошибки **NTSTATUS** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложения должны вызывать метод [**иопмвидеуутпут:: Configure**](/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-configure) вместо вызова этой функции.
 
 Эта функция не имеет связанной библиотеки импорта. Для вызова этой функции необходимо использовать функции [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) для динамической привязки к Gdi32.dll.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                 |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Gdi32.dll</dt> </dl> |
 
 

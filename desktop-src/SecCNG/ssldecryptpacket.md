@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ncrypt.dll
-ms.openlocfilehash: cd568596b7e780242c0ff8d9c522a9e1758c60b5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0b058fbb01183ccf0582c0fa196bec71bfaffa2e8a44739c1ea5fb01a8148174
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118906706"
 ---
 # <a name="ssldecryptpacket-function"></a>Функция Сслдекриптпаккет
 
@@ -128,18 +128,18 @@ SECURITY_STATUS WINAPI SslDecryptPacket(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Длина пакета может быть равна нулю, например при расшифровке сообщения "Хеллорекуест".
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                     |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Сслпровидер. h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 

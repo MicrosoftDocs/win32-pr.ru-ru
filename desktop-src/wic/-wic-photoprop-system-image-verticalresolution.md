@@ -4,12 +4,12 @@ ms.assetid: a58b7463-3572-4ca8-8299-93d92d2f06fb
 title: Политика метаданных фотографии System. Image. Вертикалресолутион
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02e895ef9e1181a3ec40b474940c6dfaaa3e1329
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c9962a00be34d227756d295e992174d6e80b6d058fc32af29ad9cde58a04ed07
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702303"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118710287"
 ---
 # <a name="systemimageverticalresolution-photo-metadata-policy"></a>Политика метаданных фотографии System. Image. Вертикалресолутион
 
@@ -41,7 +41,7 @@ VT \_ R8
 
 
 
-| Заказ | Путь                   | Формат диска |
+| Номер | Путь                   | Формат диска |
 |-------|------------------------|-------------|
 | 1     | /APP1/IFD/{ushort = 283} |             |
 | 2     | /КСМП/Тифф: Иресолутион  |             |
@@ -54,7 +54,7 @@ VT \_ R8
 
 
 
-| Заказ | Путь                        |
+| Номер | Путь                        |
 |-------|-----------------------------|
 | 1     | /APP1/IFD/EXIF/{ushort = 283} |
 | 2     | /КСМП/Тифф: иресолутион       |
@@ -69,7 +69,7 @@ VT \_ R8
 
 
 
-| Заказ | Путь                      | Формат диска |
+| Номер | Путь                      | Формат диска |
 |-------|---------------------------|-------------|
 | 1     | /ИФД/ексиф/{ушорт = 283}    |             |
 | 2     | /ИФД/КСМП/Тифф: Иресолутион |             |
@@ -82,7 +82,7 @@ VT \_ R8
 
 
 
-| Заказ | Путь                      |
+| Номер | Путь                      |
 |-------|---------------------------|
 | 1     | /ИФД/ексиф/{ушорт = 283}    |
 | 2     | /ИФД/КСМП/Тифф: иресолутион |
@@ -91,9 +91,9 @@ VT \_ R8
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

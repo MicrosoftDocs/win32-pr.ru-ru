@@ -1,6 +1,6 @@
 ---
 title: WMT_PROP_DATATYPE (Вмкодекдсп. h)
-description: Текущую документацию по кодекам Windows Media и обработчикам цифровых сигналов см. в статье интерфейсы API аудио-и видеокодеков Windows Media и DSP. | WMT_PROP_DATATYPE (Вмкодекдсп. h)
+description: текущую документацию по Windows кодеков мультимедиа и обработчикам цифровых сигналов см. в разделе Windows media Audio и Video кодек и DSP api. | WMT_PROP_DATATYPE (Вмкодекдсп. h)
 ms.assetid: d86cbadd-16da-448d-bda9-db1219db3cf9
 keywords:
 - WMT_PROP_DATATYPE формат Windows Media
@@ -14,24 +14,24 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d33ef165584b75d1a1129fb64bcb7e266545de7d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b6d907b6f0df9ff8eb5a5e59e470b28d5b9682ec97fc37a32ab21b13f0eca6d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118697826"
 ---
 # <a name="wmt_prop_datatype"></a>\_ \_ тип данных ВМТ Prop
 
-Текущую документацию по кодекам Windows Media и обработчикам цифровых сигналов см [. в статье интерфейсы API аудио-и видеокодеков Windows Media и DSP.](/previous-versions//dd464626(v=vs.85))
+текущую документацию по Windows кодеков мультимедиа и обработчикам цифровых сигналов см [. в разделе Windows media Audio и Video кодек и DSP api.](/previous-versions//dd464626(v=vs.85))
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 

@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: f94f63a7f38822b5f0f08fbed0b6f406c16ec9cd
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d351fde8745edb1892e6498c9c5dd74497fc57ca66ab9860801705774d807580
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108113562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118451850"
 ---
 # <a name="wm_cpl_launch-message"></a>\_Сообщение о \_ запуске WM CPL
 
@@ -28,13 +28,13 @@ ms.locfileid: "108113562"
 
 Это сообщение не содержит параметров.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>CPL. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>CPL. h</dt> </dl> |
 
 
 

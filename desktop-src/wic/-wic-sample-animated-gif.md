@@ -5,25 +5,25 @@ title: Пример анимированного GIF-файла WIC
 ms.topic: article
 ms.date: 03/19/2021
 ms.custom: project-verbatim
-ms.openlocfilehash: afb0c1368e2c66d40d1be4095ec56d5daeb5ab53
-ms.sourcegitcommit: af120ad5c30da2fc5eb717ca2a1c4c45878efd71
+ms.openlocfilehash: 925beb45b58bdecb7d12505a9d2067cbcb9e6fbf1867786286f18333fea986e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "105651568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118709608"
 ---
 # <a name="wic-animated-gif-sample"></a>Пример анимированного GIF-файла WIC
 
 В этом примере демонстрируется декодирование различных кадров в файле GIF, чтение соответствующих метаданных для каждого кадра, составление кадров и визуализация анимации с помощью Direct2D.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 Этот пример имеет следующие требования.
 
 | Требование | Значение |
 |-|-|
 | Минимальная версия клиента | Windows 7 |
-| Минимальное Windows SDK | [Пакет средств разработки программного обеспечения (SDK)](https://msdn.microsoft.com/windowsvista/bb980924.aspx) для Windows 7 |
+| минимальное Windows SDK | [пакет средств разработки программного обеспечения (SDK) для Windows 7 (Windows)](https://msdn.microsoft.com/windowsvista/bb980924.aspx) |
 
 ## <a name="downloading-the-sample"></a>Скачивание примера
 
@@ -31,7 +31,7 @@ ms.locfileid: "105651568"
 
 ## <a name="building-the-sample"></a>Создание примера
 
-### <a name="using-visual-studio-preferred-method"></a>Использование Visual Studio (предпочтительный метод)
+### <a name="using-visual-studio-preferred-method"></a>использование Visual Studio (предпочтительный метод)
 
 1. Откройте проводник и перейдите к каталогу.
 2. Дважды щелкните значок файла. sln (решение), чтобы открыть файл в Visual Studio.
@@ -50,7 +50,7 @@ ms.locfileid: "105651568"
 
 ## <a name="see-also"></a>См. также раздел
 
-[Кодек Microsoft Windows Imaging](-wic-lh.md)
+[кодек Microsoft Windows imaging](-wic-lh.md)
 
 [Руководство по программированию](-wic-programming-guide.md)
 

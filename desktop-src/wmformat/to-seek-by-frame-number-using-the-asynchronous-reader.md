@@ -12,12 +12,12 @@ keywords:
 - потоки видео, асинхронные читатели
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 169f5e1ac1e6034bc1db6f610e80af50dd3a0215
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: e218384b1a27bb3240ac74ad9af6d8298945bb57dfaf635531cb4cbb9aaa9611
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104069551"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118432617"
 ---
 # <a name="to-seek-by-frame-number-using-the-asynchronous-reader"></a>Поиск по номеру кадра с помощью асинхронного модуля чтения
 
@@ -29,7 +29,7 @@ ms.locfileid: "104069551"
 2.  Задайте начальный номер кадра и длительность, вызвав [**IWMReaderAdvanced3:: стартатпоситион**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced3-startatposition). Необходимо указать номер потока для видеопотока с индексированием кадров. Модуль чтения синхронизирует остальные выходные данные с временем представления указанного кадра указанного потока и начинает доставку выходных данных.
 3.  Обработайте примеры, как обычно в реализации метода **ивмреадеркаллбакк:: OnSample** .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -42,9 +42,9 @@ ms.locfileid: "104069551"
 [**Работа с индексами**](working-with-indexes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: ToggleButton, элемент
 description: Представляет элемент управления "выключатель".
 ms.assetid: f26a90e6-9e9a-4fde-8753-50b8b1d09f80
 keywords:
-- Лента Windows для элемента ToggleButton
+- элемент ToggleButton Windows лента
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 652ea7b535f41cc3dbb40f25bbe49ab4fe52f5ff
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: 2e17c4f9ea6aa557db6c1f9b98aca60b6da351936a70b783a0618217c03ba7b1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104336143"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119441594"
 ---
 # <a name="togglebutton-element"></a>ToggleButton, элемент
 
@@ -62,7 +62,7 @@ ms.locfileid: "104336143"
 <tr class="even">
 <td><strong>CommandName</strong><br/></td>
 <td>xs: Поситивеинтежер или xs: String<br/></td>
-<td>Нет<br/></td>
+<td>нет<br/></td>
 <td>Связывает элемент с <a href="windowsribbon-element-command.md"><strong>командой</strong></a>.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs: Поситивеинтежер или xs: String)<br/> </dt> <dd> Строка, целочисленное значение в диапазоне от 2 до 59999 включительно или шестнадцатеричное значение между 0x2 и 0xea5f включительно. <br/> Значение должно быть уникальным в XML-документе ленты. <br/> Максимальная длина: 100 символов. <br/> </dd> </dl></td>
 </tr>
@@ -93,7 +93,7 @@ ms.locfileid: "104336143"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Необязательный или обязательный в зависимости от родительского элемента.
 

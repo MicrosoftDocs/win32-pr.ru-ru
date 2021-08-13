@@ -4,12 +4,12 @@ ms.assetid: 258ea139-581f-4b94-9655-43ecf1e77f10
 title: Компоненты ASF Вмконтаинер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d7d1c1b76683cfe01dc0970ab1c077580215d2b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3c4d39edd9241a856d5ef854d91bc1198cb090ddf653960b19905407c28279a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118736750"
 ---
 # <a name="wmcontainer-asf-components"></a>Компоненты ASF Вмконтаинер
 
@@ -28,7 +28,7 @@ ms.locfileid: "103998645"
 В следующих разделах содержатся пошаговые инструкции по использованию Вмконтаинер для чтения или записи файлов ASF.
 
 -   [Руководство. чтение файла ASF с помощью объектов Вмконтаинер](tutorial--reading-an-asf-file.md)
--   [Руководство. копирование потоков ASF с помощью объектов Вмконтаинер](tutorial--copying-asf-streams-from-one-file-to-another.md)
+-   [руководство. копирование ASF Потоки с помощью объектов вмконтаинер](tutorial--copying-asf-streams-from-one-file-to-another.md)
 -   [Учебник. запись файла WMA с помощью объектов Вмконтаинер](tutorial--writing-a-wma-file-by-using-cbr-encoding.md)
 
 ## <a name="about-wm-container"></a>О контейнере WM
@@ -41,7 +41,7 @@ ms.locfileid: "103998645"
 
 Все операции, выполняемые объектами Вмконтаинер, являются синхронными, то есть они блокируют вызывающий поток.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

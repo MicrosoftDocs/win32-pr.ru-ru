@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de184a639de7beee7ac05bdf63609ae29a0f034b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 318d43f0b6d8a16d6e76ae3d12f934e41e265197690a955cfe148dd71176f440
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104133791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118735216"
 ---
 # <a name="auto3state-control"></a>Элемент управления AUTO3STATE
 
@@ -53,7 +53,7 @@ AUTO3STATE text, id, x, y, width, height [, style [, extended-style]]
 [**Установка**](checkbox-control.md)
 </dt> <dt>
 
-[**CONTROL**](control-control.md)
+[**ЭЛЕМЕНТА**](control-control.md)
 </dt> <dt>
 
 [**STATE3**](state3-control.md)
@@ -62,6 +62,6 @@ AUTO3STATE text, id, x, y, width, height [, style [, extended-style]]
 [Стили окна](/windows/desktop/winmsg/window-styles)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

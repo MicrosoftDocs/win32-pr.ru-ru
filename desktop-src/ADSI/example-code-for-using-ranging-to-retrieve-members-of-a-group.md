@@ -1,6 +1,6 @@
 ---
 title: Пример кода для использования в качестве значения для получения членов группы
-description: В следующем примере кода для получения членов группы используется диапазон с помощью объектов ActiveX (ADO).
+description: в следующем примере кода для получения членов группы используется диапазон с ActiveX объектами каталога (ADO).
 ms.assetid: baebefd5-7ac6-4d36-a5a4-0796d790abee
 ms.tgt_platform: multiple
 keywords:
@@ -8,18 +8,18 @@ keywords:
 - Пример кода C/C++ ADSI с использованием различных способов получения членов группы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c596134b8c20bc777c77b65e6fe349884dda25a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 31d68920d19135387ec76003ca621472ea9266102d84930e4af84e13b886335b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118691847"
 ---
 # <a name="example-code-for-using-ranging-to-retrieve-members-of-a-group"></a>Пример кода для использования в качестве значения для получения членов группы
 
-В следующем примере кода для получения членов группы используется диапазон с помощью объектов ActiveX (ADO).
+в следующем примере кода для получения членов группы используется диапазон с ActiveX объектами каталога (ADO).
 
-В следующем фрагменте кода требуется ссылка на библиотеку Microsoft объекты данных ActiveX 6,0.
+в следующем фрагменте кода требуется ссылка на библиотеку Microsoft объекты данных ActiveX 6,0.
 
 
 ```VB
@@ -110,9 +110,9 @@ End Module
 
 
 
- 
+ 
 
- 
+ 
 
 
 

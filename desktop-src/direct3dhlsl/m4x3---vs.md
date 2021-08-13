@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7608b1187cc90cf4914bdd42a197cc6044d53734
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: bdf4fb45fd38fe7d5acec95d750a050144a408c7fd1dedc44be858bc00aa58ae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104986312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119457424"
 ---
 # <a name="m4x3---vs"></a>m4x3 — VS
 
@@ -31,13 +31,13 @@ ms.locfileid: "104986312"
 
  
 
-где
+where
 
 -   DST — это регистр назначения. Result является вектором из трех компонентов.
 -   src0 — это исходный регистр, представляющий 4-компонентный вектор.
 -   src1 — это исходный регистр, представляющий матрицу 4x3, которая соответствует первому из трех последовательных регистров.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -79,7 +79,7 @@ dp4   r0.z, r1, c2
 
 Модификаторы свиззле и отрицания недопустимы для регистра src1. Регистр летнего времени и src0 не могут совпадать.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

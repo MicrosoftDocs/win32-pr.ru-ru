@@ -4,12 +4,12 @@ ms.assetid: 1eae5962-b4e0-4947-a6d2-63713a68198c
 title: Бумажная форма анализа рукописного текста
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e94d366c77e19bd5c32d3d1e4efa286cb3b089ae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4069efd5ba8763e00e9b3170ffb0a39a4a70c4d66d07d3c8bf08bc3688f57ed0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118718650"
 ---
 # <a name="ink-analysis-scanned-paper-form"></a>Бумажная форма анализа рукописного текста
 
@@ -17,9 +17,9 @@ ms.locfileid: "104262902"
 
 ## <a name="features-demonstrated"></a>Демонстрируемые возможности
 
-В этом примере приложения демонстрируются следующие возможности API анализа рукописного ввода и Windows Forms элементов управления рукописного ввода:
+в этом примере приложения демонстрируются следующие возможности API анализа рукописного ввода и Windows Forms элементов управления рукописного ввода:
 
--   Загрузка печатной формы. В этом примере форма импортируется из изображения в формате PNG.
+-   Загрузка печатной формы. В этом примере форма импортируется из изображения в формате .png.
 -   Сбор и отрисовка рукописного ввода поверх сканируемой формы.
 -   Использование объекта [InkAnalyzer](/previous-versions/ms583671(v=vs.100)) для анализа рукописного текста.
 -   Создание объектов [аналисишинтноде](/previous-versions/ms573018(v=vs.100)) для улучшения результатов рукописного ввода.
@@ -28,15 +28,15 @@ ms.locfileid: "104262902"
 
 ## <a name="project-references"></a>Ссылки проекта
 
-Пример доступен в виде приложения Windows Forms или Windows Presentation Foundation. Ссылки на Windows Forms версии:
+пример доступен в виде приложения Windows Forms или Windows Presentation Foundation. ссылки на Windows Forms версии:
 
 -   Microsoft.Ink.dll
 -   Microsoft.Ink.Analysis.dll
 
-Версия Windows Presentation Foundation ссылается на IAWinFX.dll в дополнение к основным Windows Presentation Foundation библиотекам DLL.
+версия Windows Presentation Foundation ссылается на IAWinFX.dll в дополнение к основным Windows Presentation Foundation библиотекам dll.
 
 > [!Note]  
-> Для Windows Presentation Foundation версии этого образца (найден в каталоге XAML) требуется, чтобы в системе были установлены расширения Windows Presentation Foundation для Microsoft Visual Studio 2005.
+> для Windows Presentation Foundation версии этого образца (найден в каталоге XAML) требуется, чтобы в системе были установлены расширения Windows Presentation Foundation для Microsoft Visual Studio 2005.
 
  
 
@@ -50,7 +50,7 @@ ms.locfileid: "104262902"
 
 Преобразованная Текстовая форма содержит то же изображение, а — страницу, на которой приложение отображает распознанный текст. При нажатии кнопки анализ приложение выполняет анализ рукописного ввода в синхронном режиме, а результаты распознавания отображаются на вкладке преобразованная Текстовая форма.
 
-## <a name="functionality"></a>Функциональность
+## <a name="functionality"></a>функциональное назначение;
 
 Это приложение использует [InkOverlay](/previous-versions/ms552322(v=vs.100)) для включения записи. Объект InkOverlay хорошо подходит для создания заметок и создания базовых кривых. Основным предполагаемым использованием этого объекта является отображение рукописных данных в виде рукописных данных. Класс main для анализа рукописного ввода — это класс [InkAnalyzer](/previous-versions/ms583671(v=vs.100)) . При вызове метода [Analyze](/previous-versions/ms568971(v=vs.100)) объекта InkAnalyzer анализ рукописного ввода выполняется синхронно.
 

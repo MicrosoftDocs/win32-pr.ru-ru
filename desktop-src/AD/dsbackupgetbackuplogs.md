@@ -17,16 +17,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a02c5c7234810623a95dea030f0c623cca92293
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6d4a240ef514fc62450a04f512f04d985380b79fa20daaee9ff4b27ccb71027a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988775"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118430110"
 ---
 # <a name="dsbackupgetbackuplogs-function"></a>Функция Дсбаккупжетбаккуплогс
 
-\[Эта функция доступна для использования в операционных системах, указанных в разделе требования. В последующих версиях он может быть изменен или недоступен. Начиная с Windows Vista, вместо нее следует использовать [Служба теневого копирования томов (VSS)](../vss/volume-shadow-copy-service-overview.md) .\]
+\[Эта функция доступна для использования в операционных системах, указанных в разделе требования. В последующих версиях он может быть изменен или недоступен. начиная с Windows Vista используйте вместо этого [служба теневого копирования томов (VSS)](../vss/volume-shadow-copy-service-overview.md) .\]
 
 Функция **дсбаккупжетбаккуплогс** получает список файлов журнала, для которых необходимо создать резервную копию для данного контекста резервного копирования.
 
@@ -101,11 +101,11 @@ HRESULT DsBackupGetBackupLogs(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **дсбаккупжетбаккуплогс** предоставляет список файлов журналов, необходимых для резервного копирования. Полная резервная копия состоит из файлов базы данных, предоставляемых функцией [**дсбаккупжетдатабасенамес**](dsbackupgetdatabasenames.md) и файлами журнала. Добавочное резервное копирование Active Directory серверов не поддерживается.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 79c197b5-a551-4e17-ab92-6eac99da4647
 title: System. Media. Класссекондарид
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc36518a9069ffb3d704f809340e2b7e8fd71e96
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ac683f7246871f66df814bdbcab7751caf01b65d4e9b6960ef2dd4171bdb3495
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108092302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118725798"
 ---
 # <a name="systemmediaclasssecondaryid"></a>System. Media. Класссекондарид
 
@@ -32,7 +32,7 @@ propertyDescription
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

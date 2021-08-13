@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 5aa2229e88123cc1d52f65f1edf032c46f819229
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ce6e120361972ac1ff4dbed5d37808dffa0f010af64feda365f65aad8dd393f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105647885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118293116"
 ---
 # <a name="id3dxrendertosurfacebeginscene-method"></a>Метод ID3DXRenderToSurface:: Бегинсцене
 
@@ -71,7 +71,7 @@ HRESULT BeginScene(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9core. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9core. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

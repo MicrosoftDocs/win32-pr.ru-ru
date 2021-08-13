@@ -4,12 +4,12 @@ ms.assetid: 4956c4ab-b71e-4960-b750-f3a79b87baac
 title: Функция QueryContextAttributes (CredSSP) (Sspi.h)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 191c3c8d3b2b5bd829aaf8eb45bacadbbd2bbade
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b8ff421a2173f2ce2c5521e0706b53c3f6c326038179345d139acd0a157c7d61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105719554"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118920233"
 ---
 # <a name="querycontextattributes-credssp-function"></a>Функция QueryContextAttributes (CredSSP)
 
@@ -57,7 +57,7 @@ SECURITY_STATUS SEC_ENTRY QueryContextAttributes(
 | <span id="SECPKG_ATTR_PACKAGE_INFO"></span><span id="secpkg_attr_package_info"></span><dl> <dt>**SECPKG \_ \_ \_ Сведения о пакете attr**</dt> <dt>10</dt> </dl>                                                | Параметр *pBuffer* содержит указатель на структуру [**секпкгконтекст \_ PackageInfo**](/windows/win32/api/sspi/ns-sspi-secpkginfoa).<br/> Возвращает сведения о используемом поставщике служб.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | <span id="SECPKG_ATTR_SERVER_AUTH_FLAGS"></span><span id="secpkg_attr_server_auth_flags"></span><dl> <dt>**SECPKG \_ \_ \_ \_ Флаги проверки подлинности сервера attr**</dt> <dt>0x80000083</dt> </dl>                        | Параметр *pBuffer* содержит указатель на структуру [**\_ флагов секпкгконтекст**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_flags) , которая задает сведения о флагах в текущем контексте безопасности.<br/> Этот атрибут поддерживается только в клиенте.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | <span id="SECPKG_ATTR_SIZES"></span><span id="secpkg_attr_sizes"></span><dl> <dt>**SECPKG \_ \_Размеры attr**</dt> <dt>0x0</dt> </dl>                                                                     | Параметр *pBuffer* содержит указатель на структуру [**\_ размеров секпкгконтекст**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_sizes) .<br/> Запрашивает размеры структур, используемых в функциях для каждого сообщения и обмене данными проверки подлинности.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| <span id="SECPKG_ATTR_SUBJECT_SECURITY_ATTRIBUTES"></span><span id="secpkg_attr_subject_security_attributes"></span><dl> <dt>**SECPKG \_ \_ \_ \_ Атрибуты безопасности субъекта attr**</dt> <dt>124</dt> </dl> | Параметр *pBuffer* содержит указатель на структуру [**секпкгконтекст \_ субжектаттрибутес**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_subjectattributes) .<br/> Это значение возвращает сведения об атрибутах безопасности для соединения.<br/> Это значение поддерживается только на сервере CredSSP.<br/> Windows **server 2008, Windows Vista, Windows server 2003 и Windows XP:** Это значение не поддерживается.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| <span id="SECPKG_ATTR_SUBJECT_SECURITY_ATTRIBUTES"></span><span id="secpkg_attr_subject_security_attributes"></span><dl> <dt>**SECPKG \_ \_ \_ \_ Атрибуты безопасности субъекта attr**</dt> <dt>124</dt> </dl> | Параметр *pBuffer* содержит указатель на структуру [**секпкгконтекст \_ субжектаттрибутес**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_subjectattributes) .<br/> Это значение возвращает сведения об атрибутах безопасности для соединения.<br/> Это значение поддерживается только на сервере CredSSP.<br/> **Windows server 2008, Windows Vista, Windows Server 2003 и Windows XP:** Это значение не поддерживается.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 
 
 
@@ -89,20 +89,20 @@ SECURITY_STATUS SEC_ENTRY QueryContextAttributes(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Структура, на которую указывает параметр *pBuffer* , зависит от запрашиваемого атрибута.
 
 Хотя вызывающий объект должен выделить структуру *pBuffer* , он выделяет любой объем памяти, необходимый для хранения членов переменной размера в структуре *pBuffer* . Память, выделенная поставщиком общих служб, должна быть освобождена путем вызова функции [**фриконтекстбуффер**](/windows/win32/api/sspi/nf-sspi-freecontextbuffer) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                         |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                   |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                         |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                   |
 | Header<br/>                   | <dl> <dt>SSPI. h (включая Security. h)</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Secur32. lib</dt> </dl>                 |
 | DLL<br/>                      | <dl> <dt>Secur32.dll</dt> </dl>                 |

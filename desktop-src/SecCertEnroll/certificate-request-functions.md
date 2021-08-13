@@ -4,12 +4,12 @@ ms.assetid: f4630095-6ba2-46f7-8825-e7a5b1cb185a
 title: Функции запроса сертификата
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04191f49949f662a9b9d780726f7ac7a40b370ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5e07fb348b335562863f04226a2fb729bfbcbdaba27cb574a04c87075a64653a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118902573"
 ---
 # <a name="certificate-request-functions"></a>Функции запроса сертификата
 
@@ -40,7 +40,7 @@ ms.locfileid: "104080357"
 -   [ремовепендингрекуествстр](#removependingrequestwstr)
 -   [Сброс](#reset)
 -   [сетпендингрекуестинфовстр](#setpendingrequestinfowstr)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="createfilepkcs10wstr"></a>createFilePKCS10WStr
 
@@ -102,7 +102,7 @@ ms.locfileid: "104080357"
 
 Библиотека CertEnroll.dll напрямую не реализует функции для удаления ожидающего запроса на сертификат. Можно вызвать свойство [**каконфигстринг**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-get_caconfigstring) объекта [**IX509Enrollment**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509enrollment) , чтобы получить строку конфигурации, но только для активного объекта регистрации.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

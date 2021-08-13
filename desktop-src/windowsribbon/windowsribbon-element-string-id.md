@@ -3,7 +3,7 @@ title: String.Id, свойство
 description: Представляет уникальный идентификатор строкового ресурса.
 ms.assetid: 393da279-bdf6-4796-a546-1931cbe49113
 keywords:
-- Лента Windows для свойства String.Id
+- лента Windows свойства String.Id
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c3ab87327ed4f11a901fb8a201e72137ab62c7a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 15f9c1af4ba32982ce52ba470f6b3d1996abe11c81bdd520a4e50203adb56093
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119441654"
 ---
 # <a name="stringid-property"></a>String.Id, свойство
 
@@ -47,7 +47,7 @@ ms.locfileid: "104137194"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Необязательный элемент.
 
@@ -78,14 +78,14 @@ ms.locfileid: "104137194"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>              |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>              |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/> |
 
 
 

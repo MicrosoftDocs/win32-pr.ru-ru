@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 994ede49563b1d4e568769be48a0e60592fe3dde
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 0d8c915c340e69eedc8b66a1665b6e600c0134b66cb6cd81fe6b803681e5fdeb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104986245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118789500"
 ---
 # <a name="texture2dmipsoperator----function"></a>Texture2D:: MIPS. Operator, функция
 
@@ -61,7 +61,7 @@ R mips.Operator[][](
 
 Переменная ресурса, доступная только для чтения.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 ### <a name="usage-example"></a>Пример использования
 
@@ -80,7 +80,7 @@ float4 f = tex.mips[mip][pos_xy];
 
 
 
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
+| Вершина | Поверхности | Домен | Геометрия | Пиксель | Службы вычислений |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

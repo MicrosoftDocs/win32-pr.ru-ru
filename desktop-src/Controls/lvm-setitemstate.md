@@ -3,7 +3,7 @@ title: Сообщение LVM_SETITEMSTATE (Коммктрл. h)
 description: Изменяет состояние элемента в элементе управления "представление списка". Это сообщение можно отправить явно или с помощью \_ макроса Сетитемстате ListView.
 ms.assetid: aecd14dd-cfd0-4c7c-bddc-f65022de68c9
 keywords:
-- Элементы управления Windows для LVM_SETITEMSTATE сообщений
+- элементы управления Windows сообщений LVM_SETITEMSTATE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b2120d6d1d2cd3044368ebb343cdf0fe240d805c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 92b7375ad7edb32459fe6029081ec0a872d3673c90003e34ca21cd795d3a79ee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119217419"
 ---
 # <a name="lvm_setitemstate-message"></a>\_Сообщение LVM сетитемстате
 
@@ -47,18 +47,18 @@ ms.locfileid: "104136062"
 
 Если сообщение отправляется явным образом, оно возвращает **true** в случае успеха или **false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значение состояния элемента включает набор битовых флагов, указывающих на состояние элемента. Значение состояния может также включать индексы списка изображений, указывающие изображение состояния элемента и изображение оверлея.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

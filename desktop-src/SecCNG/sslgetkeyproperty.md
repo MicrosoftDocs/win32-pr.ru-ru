@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ncrypt.dll
-ms.openlocfilehash: 42952b76bfb46eeeb31b9f76b1f677e7b3b8e3e4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b86f8a2e76573122bcfcf809d5301bc6bf70690467527f4dc69a5ec12419f56b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118906122"
 ---
 # <a name="sslgetkeyproperty-function"></a>Функция Сслжеткэйпроперти
 
@@ -53,7 +53,7 @@ SECURITY_STATUS WINAPI SslGetKeyProperty(
 *псзпроперти* \[ окне\]
 </dt> <dd>
 
-Указатель на строку в Юникоде, завершающуюся нулем, которая содержит имя извлекаемого свойства. Это может быть один из стандартных [**идентификаторов свойств хранилища ключей**](key-storage-property-identifiers.md) или идентификатор настраиваемого свойства.
+Указатель на строку в Юникоде, завершающуюся нулем, которая содержит имя извлекаемого свойства. это может быть один из предопределенных [**ключевых служба хранилища идентификаторов свойств**](key-storage-property-identifiers.md) или идентификатор настраиваемого свойства.
 
 </dd> <dt>
 
@@ -97,14 +97,14 @@ SECURITY_STATUS WINAPI SslGetKeyProperty(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                     |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Сслпровидер. h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 

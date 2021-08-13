@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c217be1e0c6bde740c815f5a990509a6a87ef0f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ae91ae5353aa0e9c02414e90a8364d86bdc56c0cdcc4f4586656f28f92f100ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989342"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118909173"
 ---
 # <a name="winbio_unit_schema-structure"></a>\_ \_ Структура схемы единицы винбио
 
@@ -109,7 +109,7 @@ typedef struct _WINBIO_UNIT_SCHEMA {
 -   \_индикатор возможности \_ винбио
 -   \_ \_ виртуальный датчик возможностей \_ винбио
     > [!Note]  
-    > Константа **\_ \_ виртуального \_ датчика возможностей Винбио** применяется только для Windows 10 и более поздних версий.
+    > константа **\_ \_ виртуального \_ датчика возможностей винбио** применяется только для Windows 10 и более поздних версий.
 
      
 
@@ -157,14 +157,14 @@ typedef struct _WINBIO_UNIT_SCHEMA {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                                    |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                                                       |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                                    |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Винбио \_ types. h (include винбио. h)</dt> </dl> |
 
 

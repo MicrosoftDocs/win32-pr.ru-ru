@@ -4,12 +4,12 @@ ms.assetid: 8668d0f1-9d54-4c56-bb19-09498252bec4
 title: Атрибут MF_TOPONODE_WORKQUEUE_MMCSS_CLASS (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 824c9dbdc9b12bbc8fead9ab6ae722fca1e6643a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6630cf22d3afe270b2a032304fd9de3118e73e75e28da4116418894271237a71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105719392"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118739848"
 ---
 # <a name="mf_toponode_workqueue_mmcss_class-attribute"></a>\_ \_ \_ Атрибут класса MMCSS топоноде ворккуеуе MF \_
 
@@ -19,7 +19,7 @@ ms.locfileid: "105719392"
 
 Строка расширенных символов
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут применяется к исходным узлам **( \_ \_ \_ узел топологии MF саурцестреам**). Этот атрибут является необязательным.
 
@@ -27,14 +27,14 @@ ms.locfileid: "105719392"
 
 Константа GUID для этого атрибута экспортируется из мфууид. lib.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                               |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 

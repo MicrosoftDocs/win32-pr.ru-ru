@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ncrypt.dll
-ms.openlocfilehash: d46c1284b208975126067ff295507b51def9133b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48f657f565c239f797fd67b108ce3b18b692dfabc0248e1005465e9123ac492d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662867"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118907176"
 ---
 # <a name="sslcomputeeapkeyblock-function"></a>Функция Сслкомпутиапкэйблокк
 
@@ -118,14 +118,14 @@ SECURITY_STATUS WINAPI SslComputeEapKeyBlock(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                     |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Сслпровидер. h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 

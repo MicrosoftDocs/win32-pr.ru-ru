@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: bb9a9911c242a678d9de5aea0d9ec7508ceb8775
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: f3fb118e7f4b60aa4362628820662e9c7e7a2079e35673d951f11d2dc3c0ea7e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104273559"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118788957"
 ---
 # <a name="texture2darraygatheralphasfloatint2int2int2int2uint-function"></a>Функция Texture2DArray:: Гасералфа (S, float, int2, int2, int2, int2, uint)
 
@@ -114,7 +114,7 @@ TemplateType GatherAlpha(
 
 Значение из четырех компонентов, тип которого совпадает с типом шаблона.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Примеры текстур можно использовать для интерполяции билинейной.
 
@@ -122,7 +122,7 @@ TemplateType GatherAlpha(
 
 
 
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
+| Вершина | Поверхности | Домен | Геометрия | Пиксель | Службы вычислений |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

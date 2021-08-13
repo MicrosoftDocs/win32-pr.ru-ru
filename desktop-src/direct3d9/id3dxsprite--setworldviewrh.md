@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: f7521f60f819829fc72ba907b57d4e4eb13682a0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 54da854fff0aeb2001e674218a7e7868971a6cf43af7bc00606b124c3f082b9c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713766"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118800422"
 ---
 # <a name="id3dxspritesetworldviewrh-method"></a>Метод ID3DXSprite:: Сетворлдвиеврх
 
@@ -65,17 +65,17 @@ HRESULT SetWorldViewRH(
 
 Если метод выполнен успешно, возвращается значение S \_ . Если метод завершается с ошибкой, будет возвращено следующее значение. D3DERR \_ инвалидкалл
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Вызов этого метода (или to [**ID3DXSprite:: сетворлдвиевлх**](id3dxsprite--setworldviewlh.md)) требуется, если спрайт будет подготовлен к просмотру с помощью [ \_ \_ объявления D3DXSprite](d3dxsprite.md), D3DXSprite \_ \_ сортировки \_ глубины \_ Фронттобакк или D3DXSprite \_ \_ сортировки \_ глубины \_ бакктофронт в [**ID3DXSprite:: Begin**](id3dxsprite--begin.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9core. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9core. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 
