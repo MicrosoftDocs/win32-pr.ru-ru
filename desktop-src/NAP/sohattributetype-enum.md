@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: db164bbedf2267aaa5941a21a56ccfd53e1e1646
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1c3fabf3a8911274b912f3762dd07d0c64fc4111d22e372d1962a92221f1d068
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104340990"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118939061"
 ---
 # <a name="sohattributetype-enumeration"></a>Перечисление Сохаттрибутетипе
 
@@ -164,7 +164,7 @@ typedef enum tagSoHAttributeType {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Структура [**сохаттрибутевалуе**](sohattributevalue-union.md) определяет значения атрибутов, соответствующие каждому типу атрибута.
 
@@ -178,14 +178,14 @@ typedef enum tagSoHAttributeType {
 
 Остальные типы предназначены только для помощи SHA и SHV.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                       |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Наппротокол. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Наппротокол. idl</dt> </dl> |
 

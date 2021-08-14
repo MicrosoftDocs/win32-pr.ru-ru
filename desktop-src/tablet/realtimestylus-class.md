@@ -13,24 +13,24 @@ api_type:
 - COM
 api_location:
 - RTSCom.dll
-ms.openlocfilehash: 7e0b7e92d4a3da0bf8186f001bc9f9bec850bedd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ea3fd1cba6e23997cdf9896e793c5776ce84b245bea10868f7f505c54de21aa0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104349382"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118716002"
 ---
 # <a name="realtimestylus-class"></a>Класс RealTimeStylus
 
 Реализует COM-интерфейс [**иреалтиместилус**](/windows/desktop/api/RTSCom/nn-rtscom-irealtimestylus) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/>                                                   |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/>                                                   |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                                       |
 | Header<br/>                   | <dl> <dt>Ртском. h (также требуется Ртском \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RTSCom.dll</dt> </dl>                           |

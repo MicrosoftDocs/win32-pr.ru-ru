@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 47c51374b7dcd62ac208e0aa8811a8d693ce0ac6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 39adccfbd4b852b8a8caeab602d089ae52ed56bb4367e3af6c11763c39a2b7e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104997043"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118509573"
 ---
 # <a name="interlockedexchange-function"></a>Функция Интерлоккедексчанже
 
@@ -28,9 +28,9 @@ ms.locfileid: "104997043"
 
 ``` syntax
 void InterlockedExchange(
-  in  UINT dest,
-  in  UINT value,
-  out UINT original_value
+  in  UINT dest,
+  in  UINT value,
+  out UINT original_value
 );
 ```
 
@@ -69,7 +69,7 @@ void InterlockedExchange(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта операция может выполняться только с скалярными ресурсами и переменными общей памяти. Существует три возможных способа использования этой функции. Первый — когда R является переменной общей памяти. В этом случае функция выполняет операцию с регистром общей памяти, на который ссылается dest. Второй сценарий заключается в том, что R является типом переменной ресурса. В этом сценарии функция выполняет операцию с расположением ресурса, на которое ссылается dest. Наконец, третий сценарий происходит, когда R является локальным типом переменной. В этом сценарии функция сокращается до операции, выполняемой с помощью локальных операций. Эта операция доступна только в том случае, если R доступен для чтения и записи.
 
@@ -83,7 +83,7 @@ void InterlockedExchange(
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -95,6 +95,6 @@ void InterlockedExchange(
 [Модель шейдера 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

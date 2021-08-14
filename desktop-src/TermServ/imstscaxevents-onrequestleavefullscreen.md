@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e814d6153e32fdf4fa498a6630fc9ca2908510e2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 74f82cd71942f559039a175fdfff9319cae5ea35a73d4698760be4642a23c448
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103802722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117757348"
 ---
 # <a name="imstscaxeventsonrequestleavefullscreen-method"></a>Метод Имстскаксевентс:: Онрекуестлеавефуллскрин
 
@@ -45,13 +45,13 @@ void OnRequestLeaveFullScreen();
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В полноэкранном режиме, поддерживающем контейнеры, контейнер должен оставить стандартный полноэкранный режим в ответ на это событие.
 
 Дополнительные сведения о веб-подключение к удаленному рабочему столу см. в разделе [требования для веб-подключение к удаленному рабочему столу](requirements-for-remote-desktop-web-connection.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

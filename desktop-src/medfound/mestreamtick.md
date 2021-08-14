@@ -4,12 +4,12 @@ ms.assetid: 1a00fff1-c3ab-4965-a663-3c15bb48ea98
 title: Событие Местреамтикк (Мфобжектс. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 27123569e991043a534883964ba94e4955d60a40
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 42b72a61964e296ac5f7aa69eb2be6773b622f7b44df8300affa0150af2f8a77
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711213"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974063"
 ---
 # <a name="mestreamtick-event"></a>Событие Местреамтикк
 
@@ -27,7 +27,7 @@ ms.locfileid: "105711213"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это событие сигнализирует о пропуске в данных. Событие уведомляет подчиненные компоненты, чтобы не ждать каких бы то ни было данных в указанное время.
 
@@ -51,14 +51,14 @@ ms.locfileid: "105711213"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                     |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Мфобжектс. h (включение Мфидл. h)</dt> </dl> |
 
 

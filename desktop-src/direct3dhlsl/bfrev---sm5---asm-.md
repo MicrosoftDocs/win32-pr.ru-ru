@@ -4,12 +4,12 @@ description: Обратный 32-разрядное число.
 ms.assetid: 24F8209A-093E-4737-BF50-12F228024E9D
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 11bf0f07b6c66babf8e7f91108f86ba753420fc2
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 87263a4ab2a4db54c25944905c36d81a4773e2f4eec40336b35fda03111dc3dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104996927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119983544"
 ---
 # <a name="bfrev-sm5---asm"></a>бфрев (SM5-ASM)
 
@@ -35,7 +35,7 @@ ms.locfileid: "104996927"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Например, при наличии 0x12345678 результат будет 0x1e6a2c48.
 
@@ -43,7 +43,7 @@ ms.locfileid: "104996927"
 
 
 
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
+| Вершина | Поверхности | Домен | Геометрия | Пиксель | Службы вычислений |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -59,7 +59,7 @@ ms.locfileid: "104996927"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
 | [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Нет        |
 | [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Нет        |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
@@ -70,7 +70,7 @@ ms.locfileid: "104996927"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

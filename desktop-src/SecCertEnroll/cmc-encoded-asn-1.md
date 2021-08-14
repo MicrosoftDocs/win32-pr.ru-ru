@@ -4,12 +4,12 @@ ms.assetid: 57e99f2c-76c3-4b4c-8e78-9b45bfa55d9a
 title: В формате CMC с кодировкой ASN. 1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59d2ec300708f457d1e7c6c1608c1c519dfd9744
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b7a22ddd91b3c5d1a5a874cdc51527248dae5e10fcddbc52376d9518b639839e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118902030"
 ---
 # <a name="cmc-encoded-asn1"></a>В формате CMC с кодировкой ASN. 1
 
@@ -302,7 +302,7 @@ CertificateTemplate=User
 CertUtil: -asn command completed successfully.
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

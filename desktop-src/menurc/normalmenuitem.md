@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c90efe624346e30483c42f6f8ff51cd6d3550922
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f47fef5e1481d56671cd525061f1a5fcf88481213671bac45c923cfbae0ebbd0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104340515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118733694"
 ---
 # <a name="normalmenuitem-structure"></a>Структура НОРМАЛМЕНУИТЕМ
 
@@ -73,13 +73,13 @@ typedef struct {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Существует одна структура **нормалменуитем** для каждого пункта меню, которая не открывает меню или подменю. Укажите последний пункт меню в меню, установив для элемента **Resinfo:** значение **МФР \_ End**.
 
 Разделитель меню — это специальный тип элемента меню, который неактивен, но отображается в виде разделительной линии между двумя активными элементами меню. Чтобы указать разделитель меню, оставьте пустой элемент **менутекст** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

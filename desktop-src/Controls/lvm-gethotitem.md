@@ -3,7 +3,7 @@ title: Сообщение LVM_GETHOTITEM (Коммктрл. h)
 description: Извлекает индекс горячего элемента. Это сообщение можно отправить явным образом или использовать \_ макрос Жесотитем ListView.
 ms.assetid: f80189da-6c8b-4faf-925a-0c33fedf8c4e
 keywords:
-- Элементы управления Windows для LVM_GETHOTITEM сообщений
+- элементы управления Windows сообщений LVM_GETHOTITEM
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 56c7bbfb845518eb40b55556df5294d59cff3d7c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 743bd7a80a58bec41fa5a75f24b0e333ab33ad152909adb6ea69a9c4ca0fd78b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958403"
 ---
 # <a name="lvm_gethotitem-message"></a>\_Сообщение LVM жесотитем
 
@@ -39,14 +39,14 @@ ms.locfileid: "104137122"
 
 Возвращает индекс неактивного элемента.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

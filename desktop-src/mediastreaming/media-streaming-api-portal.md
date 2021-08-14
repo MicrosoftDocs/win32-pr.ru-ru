@@ -1,19 +1,19 @@
 ---
-title: API потоковой передачи Windows Media
-description: API потоковой передачи Windows Media
+title: Windows API потоковой передачи мультимедиа
+description: Windows API потоковой передачи мультимедиа
 ms.assetid: 24b2824b-59ea-4479-80c3-f4515285edfa
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 703720c596f3c53adbcc40ae078673934644dc8e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 899be7e80801cfb85b539a719736c2bd8ffe92dd3e6d09dbef05fd5cb804cf87
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108087592"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972173"
 ---
-# <a name="windows-media-streaming-api"></a>API потоковой передачи Windows Media
+# <a name="windows-media-streaming-api"></a>Windows API потоковой передачи мультимедиа
 
-## <a name="purpose"></a>Цель
+## <a name="purpose"></a>Назначение
 
 API потоковой передачи мультимедиа моделирует устройства для воспроизведения цифровых мультимедийных данных (ДМР) и сервера мультимедиа (DMS) в соответствии с рекомендациями по использованию DLNA для простоты использования программного обеспечения, позволяя разработчикам создавать приложения с помощью цифрового мультимедиа-контроллера (DMC), цифрового проигрывателя (DMP) и контроллера push-уведомлений (+ PU +), как определено в руководстве по DLNA.
 

@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: f60c1581ae7c4585de48eea943cc23b4d87fa4c4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 95f27905a59fd8ce7c84cfc1166b59cb38356934b3603b0cec7f56c2365a3984
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104997787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968113"
 ---
 # <a name="smc_getinfo-message"></a>\_Сообщение SMC info
 
@@ -48,11 +48,11 @@ SMC_GETINFO
 
 Возвратите \_ ОК.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Это уведомление получает метод [**ишеллменукаллбакк:: каллбакксм**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenucallback-callbacksm) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

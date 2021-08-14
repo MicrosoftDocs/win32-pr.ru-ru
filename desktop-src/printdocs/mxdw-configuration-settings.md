@@ -1,19 +1,19 @@
 ---
-description: Средство записи документов XPS (Майкрософт) (МКСДВ) позволяет пользователям создавать файлы документов XPS путем печати из любого приложения Windows.
+description: средство записи документов xps (майкрософт) (мксдв) позволяет пользователям создавать файлы документов xps путем печати из любого Windows приложения.
 ms.assetid: 1fa50337-2df7-48d3-a179-0ca5ae3dfda3
-title: Параметры конфигурации МКСДВ
+title: Параметры конфигурации мксдв
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4026a99baa33ec50bc3ad129ef6610a428f83ab
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 7a75d45ea3ad9c8c74280d1e70e418ee0bf4823d1f0332e3d5c772d29976cf2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105684810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971193"
 ---
-# <a name="mxdw-configuration-settings"></a>Параметры конфигурации МКСДВ
+# <a name="mxdw-configuration-settings"></a>Параметры конфигурации мксдв
 
-Средство записи документов XPS (Майкрософт) (МКСДВ) позволяет пользователям создавать файлы документов XPS путем печати из любого приложения Windows. Разработчики приложений могут управлять следующими параметрами вывода МКСДВ с помощью частей PrintTicket и PrintCapabilities [схемы печати](./printschema.md).
+средство записи документов xps (майкрософт) (мксдв) позволяет пользователям создавать файлы документов xps путем печати из любого Windows приложения. Разработчики приложений могут управлять следующими параметрами вывода МКСДВ с помощью частей PrintTicket и PrintCapabilities [схемы печати](./printschema.md).
 
 ## <a name="jobinterleaving"></a>жобинтерлеавинг
 
@@ -123,7 +123,7 @@ xmlns:ns0000=http://schemas.microsoft.com/windows/2006/06/printing/printschemake
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

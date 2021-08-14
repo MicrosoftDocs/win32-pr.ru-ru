@@ -4,12 +4,12 @@ ms.assetid: 726dffe9-682f-445b-92a7-2246ad4e3848
 title: Ссылка на X файл
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a757c8d6a656fb161929983fed18706a7a172c5f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a6c760b402e77d0b521fb22eb845de5fc0650d7325a093b97e8f48b30b2ee6fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104139231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119986104"
 ---
 # <a name="x-file-reference"></a>Ссылка на X файл
 
@@ -24,7 +24,7 @@ ms.locfileid: "104139231"
 
 Интерфейсы и функции в заголовке Дксфиле. h доступны для поддержки устаревших приложений. См. раздел [Справочник по X (Legacy)](dx9-graphics-reference-x-file.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

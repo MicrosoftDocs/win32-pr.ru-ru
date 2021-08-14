@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ca1f73d1174590db5948f54f5c51c91a8c65a8c5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6352c7ce596a59d69b21f1ba424ac50b471e13cd97320f0df184bce2e1abd295
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104535084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118733909"
 ---
 # <a name="menuex_template_item-structure"></a>\_ \_ Структура элемента шаблона менуекс
 
@@ -109,11 +109,11 @@ typedef struct {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Расширенный шаблон меню состоит из структуры [**\_ \_ заголовка шаблона менуекс**](menuex-template-header.md) , за которой следуют одна или несколько структурных **\_ \_ элементов шаблона менуекс** . Структуры **\_ \_ элементов шаблона менуекс** , которые имеют переменную длину, вычисляются по границам **DWORD** . Чтобы создать меню из расширенного шаблона меню в памяти, используйте функцию [**лоадменуиндирект**](/windows/desktop/api/Winuser/nf-winuser-loadmenuindirecta) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

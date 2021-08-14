@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d464d6f455e04f2366cb790a962eb85dcbe5180e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4990a20ce5074b0b7e141ef23ed1a87769864172a0814e3b79d70db4aec05d4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104138966"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118685260"
 ---
 # <a name="ms-ds-behavior-version-attribute"></a>атрибут версии MS-DS-Behavior
 

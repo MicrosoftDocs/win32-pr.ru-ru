@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: af2097ee682aec7da0ca36df9e4b465fb360f814
-ms.sourcegitcommit: b95a94ffffda33f9ebbdd41787c01866444b4cf4
+ms.openlocfilehash: 63a0cfd212767a0219af83d734d3562edacc84901098afcf77c786d8895f32d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "104133374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118512880"
 ---
 # <a name="ps_1_4-source-register-modifiers-for-texld-texcrd"></a>\_ \_ модификаторы исходного регистра PS 1 4 для текслд, текскрд
 
@@ -30,14 +30,14 @@ ms.locfileid: "104133374"
 |---------------------------|----------------------------|--------------|
 | \_DZ                      | Разделить компоненты x, y по z | регистрация \_ DZ |
 | \_db                      | Разделить компоненты x, y по z | регистрация \_ базы данных |
-| \_dw                      | Деление компонентов x, y на w | регистрация \_ хранилища данных |
-| \_Da                      | Деление компонентов x, y на w | регистрация \_ Da |
+| \_DW                      | Деление компонентов x, y на w | регистрация \_ хранилища данных |
+| \_da                      | Деление компонентов x, y на w | регистрация \_ Da |
 
 
 
- 
+ 
 
-### <a name="remarks"></a>Примечания
+### <a name="remarks"></a>Remarks
 
 \_Модификатор DZ или \_ DB выполняет следующие действия:
 
@@ -63,16 +63,16 @@ w' is undefined
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Модификаторы исходных регистров исходного шейдера пикселей](dx9-graphics-reference-asm-ps-registers-modifiers-source.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

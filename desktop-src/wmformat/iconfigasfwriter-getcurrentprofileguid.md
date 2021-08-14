@@ -1,6 +1,6 @@
 ---
 title: Иконфигасфвритер Жеткуррентпрофилегуид, метод
-description: Метод Жеткуррентпрофилегуид извлекает текущий GUID профиля системы Windows Media.
+description: метод жеткуррентпрофилегуид извлекает текущий идентификатор GUID профиля системы носителя Windows.
 ms.assetid: e7a2ecc0-48d4-446c-852a-0d7677cbbe71
 keywords:
 - Формат Windows Media, Жеткуррентпрофилегуид метод
@@ -15,23 +15,23 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 49282ed6ea33db8052e167568e5b5fa70cda9e01
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5ae1c626658509d4260f814550c053de7389b0aed45c9c583e0e059e390a24f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104338796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118433643"
 ---
 # <a name="iconfigasfwritergetcurrentprofileguid-method"></a>Метод Иконфигасфвритер:: Жеткуррентпрофилегуид
 
-Метод **жеткуррентпрофилегуид** ИЗВЛЕКАЕТ текущий GUID профиля системы Windows Media.
+метод **жеткуррентпрофилегуид** извлекает текущий идентификатор GUID профиля системы носителя Windows.
 
 ## <a name="syntax"></a>Синтаксис
 
 
 ```C++
 HRESULT GetCurrentProfileGuid(
-  [out] GUID *pProfileGuid
+  [out] GUID *pProfileGuid
 );
 ```
 
@@ -52,9 +52,9 @@ HRESULT GetCurrentProfileGuid(
 
 Если метод завершается успешно, возвращается значение S \_ ОК. В случае сбоя возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Этот метод не используется с пользовательскими профилями (включая все профили, включающие потоки, использующие аудиокодеки Windows Media и видеокодеки), так как все такие профили создаются приложениями и не имеют идентификатора GUID. Если системный профиль не загружен, *ппрофилегуид* будет иметь **значение NULL**.
+этот метод не используется с пользовательскими профилями (включая все профили, которые включают потоки, использующие видеокодеки Windows Media), так как все такие профили создаются приложениями и не имеют идентификатора GUID. Если системный профиль не загружен, *ппрофилегуид* будет иметь **значение NULL**.
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -63,6 +63,6 @@ HRESULT GetCurrentProfileGuid(
 [**Интерфейс Иконфигасфвритер**](/previous-versions/windows/desktop/legacy/dd743205(v=vs.85))
 </dt> </dl>
 
- 
+ 
 
- 
+ 

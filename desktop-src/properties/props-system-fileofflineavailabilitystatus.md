@@ -4,12 +4,12 @@ ms.assetid: 46b03632-702e-46df-8204-33ada85adbee
 title: System. Филеоффлинеаваилабилитистатус
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05ca5c3f004c89cfb7b8625f9eb939a42f7fe842
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d3aff7de27d1f901e00a73b0c9b2a4b6e3030a0c3b8911f6761c1b7979ae38d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103910176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118727452"
 ---
 # <a name="systemfileofflineavailabilitystatus"></a>System. Филеоффлинеаваилабилитистатус
 
@@ -91,11 +91,11 @@ propertyDescription
             defineToken = FILEOFFLINEAVAILABILITYSTATUS_PROP_PARTIALLYAVAILABLEOFFLINE
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 6d30b13e-f4c6-4bc4-8735-15c398c099f1
 title: Целевой альфа-канал прорисовки (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b70f395406559782172448b5555daff056ffd54c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: bcf5d4701b2d09334d605cf2c90ef0e03b06ea7886ea875ce8ec8ff9cbc428ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104536509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118797939"
 ---
 # <a name="render-target-alpha-direct3d-9"></a>Целевой альфа-канал прорисовки (Direct3D 9)
 
@@ -42,7 +42,7 @@ D3DRS_DESTBLENDALPHA
 -   Дестблендоп является одним из факторов смешения в [**D3DBLEND**](./d3dblend.md).
 -   Рендертаржеталфа — это Последнее смешение альфа-значения.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

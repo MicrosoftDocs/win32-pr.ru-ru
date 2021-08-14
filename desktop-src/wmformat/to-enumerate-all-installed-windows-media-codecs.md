@@ -1,22 +1,22 @@
 ---
-title: Перечисление всех установленных кодеков Windows Media
-description: Перечисление всех установленных кодеков Windows Media
+title: перечисление всех установленных Windows кодеков мультимедиа
+description: перечисление всех установленных Windows кодеков мультимедиа
 ms.assetid: 651c8624-0b66-4d0e-a25f-6c4b1a94e849
 keywords:
-- потоки, перечисление установленных кодеков Windows Media
+- потоки, перечисление установленных Windows кодеков мультимедиа
 - кодеки, перечисления
 - потоки, индексы кодеков
 - кодеки, индексы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6db9a35913dde13f563ee57d54ee5e7de87d82cc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b63f58f94cf36e18fcbaa31bb9cff0dd8b5ab4717cc88e6f05657c7a2c72b429
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105710141"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118699816"
 ---
-# <a name="to-enumerate-all-installed-windows-media-codecs"></a>Перечисление всех установленных кодеков Windows Media
+# <a name="to-enumerate-all-installed-windows-media-codecs"></a>перечисление всех установленных Windows кодеков мультимедиа
 
 Интерфейсы данных кодека используют индексы кодеков для распознавания отдельных кодеков. Кодеки индексируются независимо для аудио и видео. Внутри одного типа кодеков индексы находятся в диапазоне от 0 до одного меньшего числа кодеков этого типа.
 
@@ -144,16 +144,16 @@ HRESULT GetCodecNames(IWMCodecInfo3* pCodecInfo)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Получение сведений о конфигурации потока из кодеков**](getting-stream-configuration-information-from-codecs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

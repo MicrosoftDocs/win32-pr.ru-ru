@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 829bd0423ab6add41b17f59d308aea850c5b2f42
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: df59b10400729150a13f2a8a5476c46507867777f71641a01ea0c08e064b4c40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118910520"
 ---
 # <a name="winbio_extended_engine_info-structure"></a>\_ \_ Структура сведений о расширенном подсистеме винбио \_
 
@@ -88,7 +88,7 @@ typedef struct _WINBIO_EXTENDED_ENGINE_INFO {
 
 </dd> <dt>
 
-**Specific**
+**Зависящ**
 </dt> <dd>
 
 Сведения о возможностях и требованиях к регистрации адаптера подсистемы для биометрического модуля, связанного с конкретным биометрической метрикой.
@@ -189,7 +189,7 @@ typedef struct _WINBIO_EXTENDED_ENGINE_INFO {
 
 </dd> </dl> </dd> </dl> </dd> <dt>
 
-**IRI**
+**Ирисы**
 </dt> <dd>
 
 Сведения о возможностях и требованиях к регистрации адаптера подсистемы для биометрического модуля, связанного с шаблонами IRI.
@@ -237,14 +237,14 @@ typedef struct _WINBIO_EXTENDED_ENGINE_INFO {
 
 </dd> </dl> </dd> </dl> </dd> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                                                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2016\]<br/>                                                                                                                     |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                                                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2016 \[ только классические приложения\]<br/>                                                                                                                     |
 | Header<br/>                   | <dl> <dt>Винбио \_ types. h (включите винбио. h для клиентских приложений или винбио \_ Adapters. h для адаптеров).</dt> </dl> |
 
 

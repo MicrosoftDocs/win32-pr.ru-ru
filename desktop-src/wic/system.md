@@ -1,17 +1,17 @@
 ---
 description: Этот раздел содержит политики метаданных фотографий для системных свойств.
 ms.assetid: F4F9C95D-FDD4-4862-8399-30A8C2A4A3EC
-title: Система (компонент Windows Imaging)
+title: система (компонент для работы с образами Windows)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bbc070464a00ec7bb125313a51762250056c2efa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 92824420fdbe18a9f0b8d6520ad07883181f8700a98ff718f1a331ac05383a01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118709231"
 ---
-# <a name="system-windows-imaging-component"></a>Система (компонент Windows Imaging)
+# <a name="system-windows-imaging-component"></a>система (компонент для работы с образами Windows)
 
 Этот раздел содержит политики метаданных фотографий для системных свойств.
 

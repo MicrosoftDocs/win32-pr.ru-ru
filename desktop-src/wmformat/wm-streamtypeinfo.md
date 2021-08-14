@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c410b470e9ddb4ec874325d9c1cca2839c00b1d
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 6fb40926d5ecba3aea2c7f2db64850152c66a25861d4422fddf04670c76d8148
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104411702"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118698276"
 ---
 # <a name="wmstreamtypeinfo"></a>WM/Стреамтипеинфо
 
@@ -31,7 +31,7 @@ g \_ всзвмстреамтипеинфо
 
 [**WM \_ \_ \_ сведения о типе потока**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_stream_type_info) (**\_ \_ двоичный тип ВМТ**)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут применяется к конкретным потокам. Этот атрибут нельзя получить для потока 0.
 
@@ -46,9 +46,9 @@ g \_ всзвмстреамтипеинфо
 [**Список атрибутов**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

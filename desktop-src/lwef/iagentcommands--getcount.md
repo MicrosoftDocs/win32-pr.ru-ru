@@ -4,16 +4,16 @@ description: Иаженткоммандс вычислить
 ms.assetid: 17140eda-17b0-49c2-8d50-5a38a553191a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65ece3e007b644b370ee721cef2d273fa50d43ce
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 810f9fc268bc13558e4e51a3b64dd6f5b1d54caa5a055d9c90b6a8d11c48b3c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104412785"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118749828"
 ---
 # <a name="iagentcommandsgetcount"></a>Иаженткоммандс:: NOCOUNT
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT GetCount(
@@ -36,6 +36,6 @@ HRESULT GetCount(
 
 *пдвкаунт* включает только число [**команд**](/windows/desktop/lwef/the-command-object) , определяемых в коллекции [**команд**](/windows/desktop/lwef/the-commands-collection-object) . Сервер или другие записи клиента не включены.
 
- 
+ 
 
- 
+ 

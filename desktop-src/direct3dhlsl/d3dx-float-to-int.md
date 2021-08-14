@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c127ef20cdd21cbc83e466f75844b4f80f47f948
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: fb76c5c459daaaba4dd7d038b65b9dc34e895f283b66545684ef1f5fb10c95cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104548111"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118516667"
 ---
 # <a name="d3dx_float_to_int-function"></a>\_Функция D3DX float \_ to \_ int
 
@@ -38,14 +38,14 @@ INT D3DX_FLOAT_to_INT(
 
 <dl> <dt>
 
-*\_3,3* 
+*\_V* 
 </dt> <dd>
 
 Значение v.
 
 </dd> <dt>
 
-*\_Измените* 
+*\_Масштабирование* 
 </dt> <dd>
 
 Значение масштаба.
@@ -56,13 +56,13 @@ INT D3DX_FLOAT_to_INT(
 
 Преобразованное значение FLOAT
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|--------------------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3DX \_ дксгиформатконверт. inl</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3DX \_ дксгиформатконверт. inl</dt> </dl> |
 
 
 

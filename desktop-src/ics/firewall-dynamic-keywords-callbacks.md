@@ -6,18 +6,18 @@ keywords:
 ms.topic: article
 ms.date: 05/17/2021
 ms.localizationpriority: low
-ms.openlocfilehash: 6707ecebdd09359fc6b692a0ebf3d95a645676af
-ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
+ms.openlocfilehash: fbb4b92f4a1ac9f7cedcd5b9bcb47792977fb757ee8e3715af8474c757e51a3a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "112681191"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118759177"
 ---
 # <a name="firewall-dynamic-keywords-callbacks"></a>Обратные вызовы динамических ключевых слов брандмауэра
 
 Динамические ключевые слова брандмауэра содержат следующие обратные вызовы.
 
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>Содержание раздела
 
  (фвпму. h) ()
 

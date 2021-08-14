@@ -1,19 +1,19 @@
 ---
-description: Этот раздел содержит общие сведения и практические руководства, в которых описываются декодеры битовой карты компонента Windows Imaging Component (WIC), используемые при декодировании цифровых изображений.
+description: в этом разделе приводятся общие сведения и инструкции, описывающие Windows декодеры изображений компонента imaging Component (WIC), которые используются при декодировании цифровых изображений.
 ms.assetid: a5d166f1-341b-496e-b63f-ecfae89032ff
 title: Декодирование цифровых изображений
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c1a5e83712d2163ce77f9f3b74ec3afedc46f85
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7a48614218d1d32c4fe2795d3115e01aa7859d8938270eaa0c11dd3d3b481e87
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105719728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118711329"
 ---
 # <a name="decoding-digital-images"></a>Декодирование цифровых изображений
 
-Этот раздел содержит общие сведения и практические руководства, в которых описываются декодеры битовой карты компонента Windows Imaging Component (WIC), используемые при декодировании цифровых изображений.
+в этом разделе приводятся общие сведения и инструкции, описывающие Windows декодеры изображений компонента imaging Component (WIC), которые используются при декодировании цифровых изображений.
 
 ## <a name="in-this-section"></a>В этом разделе
 
@@ -29,7 +29,7 @@ ms.locfileid: "105719728"
 
  
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [Руководство по программированию](-wic-programming-guide.md)
 

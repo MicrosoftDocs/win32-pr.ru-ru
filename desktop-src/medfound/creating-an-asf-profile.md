@@ -4,12 +4,12 @@ ms.assetid: 9633bc88-12bd-404a-b779-878eb1ee5699
 title: Создание профиля ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08ed9553811645b8589de7fb1805f1a307c4bdef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 80a0225a6ff17f68c5443fce15f9bdc196901313ccaaebdde2f7f34c49860538
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118743251"
 ---
 # <a name="creating-an-asf-profile"></a>Создание профиля ASF
 
@@ -18,13 +18,13 @@ ms.locfileid: "105682376"
 -   [Создать новый профиль](#create-a-new-profile)
 -   [Получение профиля из объекта ASF Контентинфо](#get-the-profile-from-the-asf-contentinfo-object)
 -   [Получение профиля из дескриптора презентации](#get-the-profile-from-a-presentation-descriptor)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="create-a-new-profile"></a>Создать новый профиль
 
-Чтобы создать пустой профиль ASF, вызовите функцию [**мфкреатеасфпрофиле**](/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfprofile) . Эта функция возвращает указатель на интерфейс [**имфасфпрофиле**](/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfprofile) . Приложение может использовать этот интерфейс для добавления потоков в профиль и настройки каждого из потоков. Дополнительные сведения см. в разделе [Создание и настройка потоков ASF](creating-and-configuring-asf-streams.md).
+Чтобы создать пустой профиль ASF, вызовите функцию [**мфкреатеасфпрофиле**](/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfprofile) . Эта функция возвращает указатель на интерфейс [**имфасфпрофиле**](/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfprofile) . Приложение может использовать этот интерфейс для добавления потоков в профиль и настройки каждого из потоков. дополнительные сведения см. в разделе [создание и настройка ASF Потоки](creating-and-configuring-asf-streams.md).
 
-При необходимости приложение может добавлять взаимоисключающие объекты в два или более потоков. См. раздел [Использование взаимного исключения для потоков ASF](using-mutual-exclusion-for-asf-streams.md).
+При необходимости приложение может добавлять взаимоисключающие объекты в два или более потоков. см. раздел [использование взаимного исключения для ASF Потоки](using-mutual-exclusion-for-asf-streams.md).
 
 ## <a name="get-the-profile-from-the-asf-contentinfo-object"></a>Получение профиля из объекта ASF Контентинфо
 
@@ -34,7 +34,7 @@ ms.locfileid: "105682376"
 
 ## <a name="get-the-profile-from-a-presentation-descriptor"></a>Получение профиля из дескриптора презентации
 
-Объект профиля существующего файла ASF можно получить из [дескриптора презентации](presentation-descriptors.md) для файла или из объекта [ASF контентинфо](asf-contentinfo-object.md) . В этом случае профиль уже настроен и содержит параметры для всех потоков в файле. Это может быть полезно, если требуется изменить существующий профиль ASF. Например, может потребоваться повторное Кодирование видеофайла Windows Media с более низкой скоростью.
+Объект профиля существующего файла ASF можно получить из [дескриптора презентации](presentation-descriptors.md) для файла или из объекта [ASF контентинфо](asf-contentinfo-object.md) . В этом случае профиль уже настроен и содержит параметры для всех потоков в файле. Это может быть полезно, если требуется изменить существующий профиль ASF. например, может потребоваться перекодировать файл мультимедиа Windows с более низкой скоростью.
 
 Чтобы получить профиль из дескриптора презентации, вызовите [**мфкреатеасфпрофилефромпресентатиондескриптор**](/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfprofilefrompresentationdescriptor). Эта функция анализирует дескриптор представления и заполняет профиль ASF сведениями о файле мультимедиа. Функция возвращает указатель на интерфейс Имфасфпрофиле. Затем этот интерфейс можно использовать для изменения профиля.
 
@@ -103,7 +103,7 @@ HRESULT GetASFProfile(PCWSTR pszFileName, IMFASFProfile** ppProfile)
 
 В этом примере для высвобождения указателей интерфейса используется [саферелеасе](saferelease.md) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 14b05b72-ae5d-416a-8ea5-9d9716c0967f
 title: Событие InkEdit. KeyDown (с. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 07cee260d4c902534b9b234e0e30d0b60645c579
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 55ab1c1b54f9f60d4bd0868f6e093505e21255991502653712a540728394664c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967142"
 ---
 # <a name="inkeditkeydown-event"></a>Событие InkEdit. KeyDown
 
@@ -61,17 +61,17 @@ HRESULT KeyDown(
 
 Если это событие завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод события определен в интерфейсе **\_ иинкедитевентс** . Интерфейс **\_ иинкедитевентс** реализует интерфейс [**IDISPATCH**](/windows/win32/api/oaidl/nn-oaidl-idispatch) с идентификатором DISPID \_ иикэйдовн.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/>                                                 |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/>                                                 |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>«С». h (также требует \_ ввода i. c)</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>InkEd.dll</dt> </dl>                          |

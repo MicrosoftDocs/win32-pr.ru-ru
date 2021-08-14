@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 72f35df1e463ff89441938e4cae19a890821baf9
-ms.sourcegitcommit: f01bc6744cea55ad1aeeace7981a30b567e6fe60
+ms.openlocfilehash: 048b63d24e87d97f0e0223083a91694c0471b9e38ad21afbc487c02d711d720d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104070859"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118504680"
 ---
 # <a name="waveprefixcountbits-function"></a>Функция Вавепрефикскаунтбитс
 
@@ -50,7 +50,7 @@ uint WavePrefixCountBits(
 
 Сумма всех заданных переменных типа Boolean задается равным true во всех активных желобах с индексами, меньшими, чем текущая полоса.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта функция поддерживается из модели шейдеров 6,0 на всех стадиях шейдера. 
 

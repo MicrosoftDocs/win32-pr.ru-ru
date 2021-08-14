@@ -4,12 +4,12 @@ ms.assetid: 4a6be647-3e73-47a1-acfa-7d6d0a2fb2f4
 title: Таблица Публишкомпонент
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bb0edfd811873242629c36257fdce5a80fe9d91
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c0abd7567e8327aa36a120fd5a13115cb191e1660566e9d480446295dca53cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118376387"
 ---
 # <a name="publishcomponent-table"></a>Таблица Публишкомпонент
 
@@ -21,11 +21,11 @@ ms.locfileid: "105673680"
 
 | Столбец      | Type                         | Ключ | Допускает значения NULL |
 |-------------|------------------------------|-----|----------|
-| ComponentId | [GUID](guid.md)             | Да   | Нет        |
-| Квалификатор   | [Text](text.md)             | Да   | Нет        |
-| Компонент\_ | [Идентификатор](identifier.md) | Да   | Нет        |
-| AppData     | [Text](text.md)             | Нет   | Да        |
-| Функция\_   | [Идентификатор](identifier.md) | Нет   | Нет        |
+| ComponentId | [GUID](guid.md)             | Д   | Нет        |
+| Квалификатор   | [Text](text.md)             | Д   | Нет        |
+| Компонент\_ | [Идентификатор](identifier.md) | Д   | Нет        |
+| AppData     | [Text](text.md)             | Нет   | Д        |
+| Компонент\_   | [Идентификатор](identifier.md) | Нет   | Нет        |
 
 
 
@@ -70,7 +70,7 @@ ms.locfileid: "105673680"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта таблица упоминается при выполнении [действия публишкомпонентс](publishcomponents-action.md) или [унпублишкомпонентс](unpublishcomponents-action.md) .
 

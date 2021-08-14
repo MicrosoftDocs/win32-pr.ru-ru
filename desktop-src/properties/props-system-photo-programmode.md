@@ -4,12 +4,12 @@ ms.assetid: 81fbd968-935a-4600-9346-9c14d1eb3f12
 title: System. photo. Программоде
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2a6ba817d4722b97b28d0966233f8fdea1de7f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 85651818feca3d7e3859533d9a8f30fbccc6df4e5c500ac194e5a1c979e58452
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118723664"
 ---
 # <a name="systemphotoprogrammode"></a>System. photo. Программоде
 
@@ -130,11 +130,11 @@ propertyDescription
             defineName = PHOTO_PROGRAMMODE_LANDSCAPE
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

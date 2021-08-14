@@ -42,16 +42,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b83f32b9f98a24d0ed4d9995bf5fcb7eaa3a2b6c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b39dd6e2656ad73623df9d6a92d514e90371bc3761563e5f24c41211680c2455
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137775"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118909953"
 ---
 # <a name="winbio_operation_type-constants"></a>\_ \_ Константы типа операции винбио
 
-Следующие константы могут возвращаться биометрическая платформа Windows в [**\_ асинхронном \_ результате винбио**](/windows/desktop/api/Winbio/ns-winbio-winbio_async_result) для указания типа выполняемой асинхронной операции.
+следующие константы могут возвращаться биометрическая платформа Windows в [**\_ асинхронном \_ результате винбио**](/windows/desktop/api/Winbio/ns-winbio-winbio_async_result) для указания типа выполняемой асинхронной операции.
 
 <dl> <dt>
 
@@ -458,14 +458,14 @@ ms.locfileid: "104137775"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                                                                                               |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                                                                                     |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                                                                                               |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                                                                                     |
 | Header<br/>                   | <dl> <dt>Винбио \_ types. h (включите винбио. h для клиентских приложений или винбио \_ Adapters. h для адаптеров).</dt> </dl> |
 
 

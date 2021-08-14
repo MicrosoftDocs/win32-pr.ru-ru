@@ -1,17 +1,17 @@
 ---
 description: Каждый файл ASF содержит один или несколько потоков. Объект профиля ASF представляет коллекцию потоков ASF. Для кодирования ASF необходимо создать и настроить потоки, которые необходимо закодировать.
 ms.assetid: cc89e8bc-58ff-48e2-9668-0dcd6cfd25e1
-title: Создание и настройка потоков ASF
+title: создание и настройка ASF Потоки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8eabce588022dd66947f34e4dcd9db61f26448b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58c780de3fa0abb5db29e3e5e5ed049b78aca7898966e8f7e8595b504804da91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105656099"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118743243"
 ---
-# <a name="creating-and-configuring-asf-streams"></a>Создание и настройка потоков ASF
+# <a name="creating-and-configuring-asf-streams"></a>создание и настройка ASF Потоки
 
 Каждый файл ASF содержит один или несколько потоков. Объект [профиля ASF](asf-profile.md) представляет коллекцию потоков ASF. Для кодирования ASF необходимо создать и настроить потоки, которые необходимо закодировать.
 
@@ -29,7 +29,7 @@ ms.locfileid: "105656099"
 -   [Настройка значений сегментов с утечкой](#setting-leaky-bucket-values)
 -   [Расширения полезных данных](#payload-extensions)
 -   [Добавление потока в профиль](#adding-a-stream-to-the-profile)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="creating-a-new-stream"></a>Создание нового потока
 
@@ -47,7 +47,7 @@ ms.locfileid: "105656099"
 
 ## <a name="assigning-stream-numbers"></a>Назначение номеров потоков
 
-Потокам всех типов должен быть присвоен номер потока. Номера потоков не должны быть последовательными, но должны находиться в диапазоне от 1 до 127. Чтобы назначить номера потоков, вызовите метод [**имфасфстреамконфиг:: сетстреамнумбер**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-setstreamnumber). Чтобы получить вызов номера потока, [**имфасфстреамконфиг:: жетстреамнумбер**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-getstreamnumber).
+Потоки всех типов должен быть назначен номер потока. Номера потоков не должны быть последовательными, но должны находиться в диапазоне от 1 до 127. Чтобы назначить номера потоков, вызовите метод [**имфасфстреамконфиг:: сетстреамнумбер**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-setstreamnumber). Чтобы получить вызов номера потока, [**имфасфстреамконфиг:: жетстреамнумбер**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-getstreamnumber).
 
 > [!Note]  
 > Номер потока отличается от индекса потока, который используется при получении потоков в профиле с помощью [**имфасфпрофиле::-Stream**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getstream). Индекс потока — это число, присвоенное потоку объектом Profile. Индексы потоков находятся в диапазоне от 0 до числа потоков, полученных с помощью [**имфасфпрофиле:: жетстреамкаунт**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getstreamcount). Вы также можете получить поток из профиля по номеру потока, вызвав [**имфасфпрофиле:: жетстреамбинумбер**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getstreambynumber).
@@ -80,7 +80,7 @@ ms.locfileid: "105656099"
 
 Настроенный профиль должен быть установлен для объекта Контентинфо путем вызова [**имфасфконтентинфо:: сетпрофиле**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-setprofile). При внесении изменений в существующий поток необходимо снова добавить его в профиль и задать профиль для объекта Контентинфо.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

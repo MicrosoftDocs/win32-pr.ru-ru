@@ -4,12 +4,12 @@ ms.assetid: 37bda1e0-5dd2-455c-9627-4e7e1b0e04d3
 title: Импорт и экспорт ключей
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8be59cc5f5c4b3d1a98fa30cf4e967d5469d2f1f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a4b6c26069911d771697bf06f7464aa14ab7f099e4a0e06991d2fd992efa44a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118907705"
 ---
 # <a name="key-import-and-export"></a>Импорт и экспорт ключей
 
@@ -21,7 +21,7 @@ ms.locfileid: "105662124"
 
 ## <a name="asymmetric-keys"></a>асимметричные ключи;
 
-Чтобы импортировать асимметричные (или [*открытые/закрытые*](/windows/desktop/SecGloss/p-gly)) пары ключей, в которых используется один ключ для шифрования, а другой используется для расшифровки некоторых данных, можно использовать любую из функций [**BCryptImportKeyPair**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptimportkeypair) или [**нкриптимпорткэй**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptimportkey) . Поставщик CNG должен кодировать пару ключей, используя поддерживаемый тип [*BLOB-объекта ключа*](/windows/desktop/SecGloss/k-gly) . [**BCryptExportKey**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptexportkey) можно использовать для создания большого двоичного объекта с закодированным ключом. [Структуры CNG](cng-structures.md) описывают основные типы и структуры больших двоичных объектов, поддерживаемые поставщиком хранилища ключей (Майкрософт).
+Чтобы импортировать асимметричные (или [*открытые/закрытые*](/windows/desktop/SecGloss/p-gly)) пары ключей, в которых используется один ключ для шифрования, а другой используется для расшифровки некоторых данных, можно использовать любую из функций [**BCryptImportKeyPair**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptimportkeypair) или [**нкриптимпорткэй**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptimportkey) . Поставщик CNG должен кодировать пару ключей, используя поддерживаемый тип [*BLOB-объекта ключа*](/windows/desktop/SecGloss/k-gly) . [**BCryptExportKey**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptexportkey) можно использовать для создания большого двоичного объекта с закодированным ключом. [структуры CNG](cng-structures.md) описывают ключевые типы и структуры больших двоичных объектов, которые поддерживает поставщик служба хранилища Microsoft key.
 
 Чтобы [**BCryptExportKey**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptexportkey) создать сохраненную пару ключей, BLOB-объект входного ключа должен содержать [*закрытый ключ*](/windows/desktop/SecGloss/p-gly). [*Открытые ключи*](/windows/desktop/SecGloss/p-gly) не сохраняются.
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2b378cd97bc9779951d62873d393009c98d32823
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0102716529471b3e867e17b0e9b635274cdfc28ec603f239d66c76ffb0fdaa19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104412992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119983214"
 ---
 # <a name="register"></a>регистрация
 
@@ -26,12 +26,12 @@ ms.locfileid: "104412992"
 
 
 
-| : Register ( *\[ \_ профиль \] шейдера*, * \# \[ \] подкомпонент типа* ) |
+| : Register ( *\[ \_ профиль \] шейдера*, *\# \[ \] подкомпонент типа* ) |
 |----------------------------------------------------------------|
 
 
 
- 
+ 
 
 ## <a name="parameters"></a>Параметры
 
@@ -64,20 +64,20 @@ ms.locfileid: "104412992"
     |------|----------------------------|
     | b    | Буфер констант            |
     | t    | Текстура и буфер текстуры |
-    | c    | Смещение буфера              |
+    | с    | Смещение буфера              |
     | s    | Образец                    |
     | u    | Представление неупорядоченного доступа      |
 
     
 
-     
+     
 
 -   *\#* номер регистра, который является целым числом.
 -   *Подкомпонентом* является Необязательное целое число.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Вы можете добавить одно или несколько назначений Register в одно и то же объявление переменной, разделяя их пробелами.
 
@@ -85,7 +85,7 @@ ms.locfileid: "104412992"
 
 ## <a name="examples"></a>Примеры
 
-Ниже приводится несколько примеров.
+Ниже приведены некоторые примеры:
 
 
 ```
@@ -120,6 +120,6 @@ sampler myVar : register( ps, s[2] )
 [Переменные (DirectX HLSL)](dx-graphics-hlsl-variables.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fffb8b39216895ce4ebce6924ca7cc99b5366cbf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3d7d1212f3f1467c0fb505e84dffdd9cc6bb381c19d8ccc34ad38ee46562ec6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988426"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118882629"
 ---
 # <a name="systemmonitordatapointcount-property"></a>Системмонитор. Датапоинткаунт, свойство
 
@@ -40,18 +40,18 @@ Property DataPointCount As Long
 
 Количество точек данных, отображаемых в представлении для линейного графика. Значение по умолчанию — 100 точек данных. Допустимый диапазон значений: от 2 до 1 000.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство используется только в том случае, если [**системмонитор. DataSourceType**](systemmonitor-datasourcetype.md) является **сисмонкуррентактивити**.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Сисмон. ocx</dt> </dl> |
 
 

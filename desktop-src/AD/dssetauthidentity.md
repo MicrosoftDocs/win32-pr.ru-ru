@@ -17,16 +17,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 40d973d5f818b4bd81278a1466487ae89ebf888f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a8e4f990d1fa0c6a6a22b0068ea207be61b4aece441977b976f32f82b7b75c8b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491235"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118695509"
 ---
 # <a name="dssetauthidentity-function"></a>Функция Дссетаусидентити
 
-\[Эта функция доступна для использования в операционных системах, указанных в разделе требования. В последующих версиях он может быть изменен или недоступен. Начиная с Windows Vista, вместо нее следует использовать [Служба теневого копирования томов (VSS)](../vss/volume-shadow-copy-service-overview.md) .\]
+\[Эта функция доступна для использования в операционных системах, указанных в разделе требования. В последующих версиях он может быть изменен или недоступен. начиная с Windows Vista используйте вместо этого [служба теневого копирования томов (VSS)](../vss/volume-shadow-copy-service-overview.md) .\]
 
 Функция **дссетаусидентити** задает контекст безопасности, в котором вызываются API-интерфейсы резервного копирования каталога.
 
@@ -72,11 +72,11 @@ HRESULT DsSetAuthIdentity(
 
 В случае успеха возвращает стандартные коды успешного выполнения **HRESULT** . в противном случае возвращается код ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если **дссетаусидентити** не вызывается, предполагается, что используется контекст безопасности текущего процесса.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

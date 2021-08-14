@@ -20,12 +20,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 64d2b609a7a49a9b319c15745600aa54193350e5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9ca781f960f51c8f7804d56f3b2f5531517c3f16505f40dd48d442857fa58bf5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967993"
 ---
 # <a name="systemrestore-class"></a>Класс SystemRestore
 
@@ -60,10 +60,10 @@ class SystemRestore
 | Метод                                                             | Описание                                                 |
 |:-------------------------------------------------------------------|:------------------------------------------------------------|
 | [**креатересторепоинт**](createrestorepoint-systemrestore.md)     | Создает точку восстановления.<br/>                         |
-| [**Отключить**](disable-systemrestore.md)                           | Отключает мониторинг на определенном диске.<br/>       |
-| [**Включить**](enable-systemrestore.md)                             | Включает наблюдение на определенном диске.<br/>        |
+| [**Включен**](disable-systemrestore.md)                           | Отключает мониторинг на определенном диске.<br/>       |
+| [**Параметр**](enable-systemrestore.md)                             | Включает наблюдение на определенном диске.<br/>        |
 | [**жетластресторестатус**](getlastrestorestatus-systemrestore.md) | Возвращает состояние последнего восстановления системы.<br/> |
-| [**Восстановлен**](restore-systemrestore.md)                           | Инициирует восстановление системы.<br/>                      |
+| [**Восстановить**](restore-systemrestore.md)                           | Инициирует восстановление системы.<br/>                      |
 
 
 
@@ -170,7 +170,7 @@ class SystemRestore
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Список точек восстановления можно получить с помощью метода [**SwbemServices. инстанцесоф**](/windows/desktop/WmiSdk/swbemservices-instancesof) , чтобы получить коллекцию объектов **SystemRestore** . Для указания точки восстановления можно использовать свойства класса.
 
@@ -193,13 +193,13 @@ next
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                       |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                       |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                         |
 | Пространство имен<br/>                | Корневой каталог \\ по умолчанию<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>SR. mof</dt> </dl> |

@@ -26,12 +26,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 00e78834c0a3a782c5fdc48cd52a67b85aa2a241
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad3893670927096e036a6076abed51a6026618136d4e6d5a45ca9d8e59af96de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103808381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119981234"
 ---
 # <a name="cim_processor-class-hyper-v-management"></a>Класс CIM_Processor (Управление Hyper-V)
 
@@ -65,7 +65,7 @@ class CIM_Processor : CIM_LogicalDevice
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ процессора CIM** имеет следующие свойства.
 
@@ -287,7 +287,7 @@ class CIM_Processor : CIM_LogicalDevice
 
 <span id="Pentium_R__Pro"></span><span id="pentium_r__pro"></span><span id="PENTIUM_R__PRO"></span>
 
-**Pentium (R) Pro** (12)
+**процессор Pentium (R) Pro** (12)
 
 
 </dt> <dd></dd> <dt>
@@ -1858,7 +1858,7 @@ class CIM_Processor : CIM_LogicalDevice
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -3,7 +3,7 @@ title: Работа с выходами
 description: Работа с выходами
 ms.assetid: e2e14e88-dddc-496d-8087-1455da0821e3
 keywords:
-- Windows Media Format SDK, работа с выходами
+- Windows Пакет SDK для формата мультимедиа, работа с выходами
 - Расширенный формат систем (ASF), работа с выходами
 - ASF (Расширенный системный формат), работа с выходами
 - Расширенный формат систем (ASF), выходные номера и форматы
@@ -11,12 +11,12 @@ keywords:
 - выходные числа и форматы, сведения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d089a645838a295e07eb740927d75238473cc4f
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 274e5b4980ef14126006d3f19fe0717aa9eb6fd5c1a8f7baaf91e35084faeacb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103788731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118697728"
 ---
 # <a name="working-with-outputs"></a>Работа с выходами
 
@@ -31,7 +31,7 @@ ms.locfileid: "103788731"
 -   [Выявление выходных номеров](to-identify-output-numbers.md)
 -   [Назначение форматов вывода](assigning-output-formats.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -44,9 +44,9 @@ ms.locfileid: "103788731"
 [**Чтение файлов ASF**](reading-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf639364ead2e4188e56677bb68930592c4e5d5c
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 2ec60f7fec008d23bf40667d897a1fc4e24ecb92ada7210ef79b3788610067d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104000251"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117795247"
 ---
 # <a name="glnormal3sv-function"></a>Функция glNormal3sv
 
@@ -51,7 +51,7 @@ void WINAPI glNormal3sv(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Текущее значение нормали задается для заданных координат при каждом вызове функции **glNormal3sv** .
 
@@ -63,7 +63,7 @@ void WINAPI glNormal3sv(
 
 [**глисенабле**](glisenabled.md) с аргументом \_ нормализации GL
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

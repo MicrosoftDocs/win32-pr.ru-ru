@@ -4,12 +4,12 @@ description: Максимальное целое число со знаком д
 ms.assetid: E15E9F25-CFC6-435F-B931-A50EA1C8621C
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 21e4cfb806bf6387752255bbd87d0a7095db3cee
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 7e8c51db8442df3c906c0de07fc47308b816681536ae18cbf80e047608dcc48d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104412219"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118795156"
 ---
 # <a name="atomic_imax-sm5---asm"></a>Атомарный \_ Имакс (SM5-ASM)
 
@@ -36,7 +36,7 @@ ms.locfileid: "104412219"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта операция выполняет атомарную операцию с одним компонентом 32-битным числом операндов, *src0* в *летнее* время в 32-бит на компонент, адрес *дстаддресс*.
 
@@ -58,7 +58,7 @@ ms.locfileid: "104412219"
 
 
 
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
+| Вершина | Поверхности | Домен | Геометрия | Пиксель | Службы вычислений |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | X     | X       |
 
@@ -70,7 +70,7 @@ ms.locfileid: "104412219"
 
 
 
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
+| Вершина | Поверхности | Домен | Геометрия | Пиксель | Службы вычислений |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -86,7 +86,7 @@ ms.locfileid: "104412219"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
 | [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Нет        |
 | [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Нет        |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
@@ -97,7 +97,7 @@ ms.locfileid: "104412219"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

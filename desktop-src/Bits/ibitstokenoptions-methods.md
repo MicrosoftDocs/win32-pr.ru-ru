@@ -4,12 +4,12 @@ description: Интерфейс Ибитстокеноптионс предос�
 ms.assetid: 1C78E31B-0536-4319-A148-8ED9D0F698BB
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f59438ffdb57420da803ac51e105125c872b99e0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cde7821d706f37b61d50a9344fff088fd27bac83651f863efba91df20aa33aa5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986177"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118959323"
 ---
 # <a name="ibitstokenoptions-methods"></a>Методы Ибитстокеноптионс
 
@@ -23,9 +23,9 @@ ms.locfileid: "103986177"
 -   [**Метод Клеархелпертокен**](/windows/desktop/api/Bits4_0/nf-bits4_0-ibitstokenoptions-clearhelpertoken)
 -   [**Метод Жеселпертокенсид**](/windows/desktop/api/Bits4_0/nf-bits4_0-ibitstokenoptions-gethelpertokensid)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 2515bbab-025f-4f00-8564-a732d68edea3
 title: Сообщение DFM_WM_DRAWITEM (Шлобж. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 67255fea5c39bebc995e5c53d90378536b12921b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7190d445490b581967c8dda67e170eb5db5665dfa59302313d7af736b275944d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118969473"
 ---
 # <a name="dfm_wm_drawitem-message"></a>\_Сообщение DFM WM \_ DRAWITEM
 
@@ -50,20 +50,20 @@ DFM_WM_DRAWITEM
 
 Если приложение обрабатывает это сообщение, оно должно возвращать **значение true**.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Элемент **итемактион** структуры [**дравитемструкт**](/windows/win32/api/winuser/ns-winuser-drawitemstruct) указывает операцию рисования, которую должно выполнить приложение.
 
 Перед возвратом из обработки этого сообщения приложение должно убедиться, что контекст устройства, определенный членом **HDC** структуры [**дравитемструкт**](/windows/win32/api/winuser/ns-winuser-drawitemstruct) , находится в состоянии по умолчанию.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                      |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                      |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Шлобж. h</dt> </dl> |
 
 

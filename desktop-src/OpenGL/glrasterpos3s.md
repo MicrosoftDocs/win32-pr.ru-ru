@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a24070ef6c3af6c31102469893772c16cf1a29d1
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: bebaa1a1ccad7ec1a2b73310aa8a4772f82cc11d3fe8c3eaf6b101ff730006b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104273430"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117795075"
 ---
 # <a name="glrasterpos3s-function"></a>Функция glRasterPos3s
 
@@ -67,7 +67,7 @@ void WINAPI glRasterPos3s(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 OpenGL поддерживает трехмерное расположение в координатах окна. Это расположение, называемое растровой позицией, сохраняется с точностью до точки. Он используется для размещения операций записи пикселей и точечных рисунков. См. раздел [**глбитмап**](glbitmap.md), [**глдравпикселс**](gldrawpixels.md)и [**глкопипикселс**](glcopypixels.md).
 
@@ -103,7 +103,7 @@ OpenGL поддерживает трехмерное расположение в
 [**глжет**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) с аргументом GL \_ Текущая \_ растровая \_ текстура \_  
 </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

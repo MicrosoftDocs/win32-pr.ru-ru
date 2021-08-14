@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b99b11b499d6454b9654874397a9307b1a99447
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 627654b7a70d9980fcb3773abbd1d8e780af024520417ddccd7916c420823ad8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103892882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118959743"
 ---
 # <a name="ntfrs-subscriber-class"></a>Класс NTFRS-Subscriber
 
@@ -69,9 +69,9 @@ ms.locfileid: "103892882"
 
 
 
-## <a name="windows-2000-server-attributes"></a>Атрибуты сервера Windows 2000
+## <a name="windows-2000-server-attributes"></a>атрибуты сервера Windows 2000
 
-Этот класс содержит следующие атрибуты для сервера Windows 2000:
+этот класс содержит следующие атрибуты для сервера Windows 2000:
 
 
 
@@ -101,15 +101,15 @@ ms.locfileid: "103892882"
 | [**Флаги FRS**](a-frsflags.md)                                           | Неверно     | **NTFRS — подписчик**            |
 | [**FRS — ссылка на член**](a-frsmemberreference.md)                      | Неверно     | **NTFRS — подписчик**            |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                 | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**FRS-root-путь**](a-frsrootpath.md)                                    | True      | **NTFRS — подписчик**            |
+| [**FRS-root-путь**](a-frsrootpath.md)                                    | Верно      | **NTFRS — подписчик**            |
 | [**Служба FRS-Service-Command**](a-frsservicecommand.md)                        | Неверно     | **NTFRS — подписчик**            |
 | [**Служба FRS-Service-Command-Status**](a-frsservicecommandstatus.md)           | Неверно     | **NTFRS — подписчик**            |
-| [**Каталог FRS-промежуточного хранения**](a-frsstagingpath.md)                              | True      | **NTFRS — подписчик**            |
+| [**Каталог FRS-промежуточного хранения**](a-frsstagingpath.md)                              | Верно      | **NTFRS — подписчик**            |
 | [**FRS-Time-Last-Command**](a-frstimelastcommand.md)                     | Неверно     | **NTFRS — подписчик**            |
 | [**FRS-Time-Last-config-Change**](a-frstimelastconfigchange.md)          | Неверно     | **NTFRS — подписчик**            |
 | [**FRS-Update — время ожидания**](a-frsupdatetimeout.md)                          | Неверно     | **NTFRS — подписчик**            |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**Тип экземпляра**](a-instancetype.md)                                   | True      | [**Вверх**](c-top.md)<br/> |
+| [**Тип экземпляра**](a-instancetype.md)                                   | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)             | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Удалено**](a-isdeleted.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/> |
@@ -122,10 +122,10 @@ ms.locfileid: "103892882"
 | [**MS-DS-Consistencу-Guid**](a-ms-ds-consistencyguid.md)                 | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                   | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                  | True      | [**Вверх**](c-top.md)<br/> |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                  | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Obj-расп-имя**](a-distinguishedname.md)                              | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**Объект — Категория**](a-objectcategory.md)                               | True      | [**Вверх**](c-top.md)<br/> |
-| [**Объектный класс**](a-objectclass.md)                                     | True      | [**Вверх**](c-top.md)<br/> |
+| [**Объект — Категория**](a-objectcategory.md)                               | Верно      | [**Вверх**](c-top.md)<br/> |
+| [**Объектный класс**](a-objectclass.md)                                     | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Объект — GUID**](a-objectguid.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Версия объекта**](a-objectversion.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)               | Неверно     | [**Вверх**](c-top.md)<br/> |
@@ -188,9 +188,9 @@ ms.locfileid: "103892882"
 
 
 
-## <a name="windows-server-2003-attributes"></a>Атрибуты Windows Server 2003
+## <a name="windows-server-2003-attributes"></a>Windows Атрибуты сервера 2003
 
-Этот класс содержит следующие атрибуты для Windows Server 2003:
+этот класс содержит следующие атрибуты для Windows Server 2003:
 
 
 
@@ -220,15 +220,15 @@ ms.locfileid: "103892882"
 | [**Флаги FRS**](a-frsflags.md)                                             | Неверно     | **NTFRS — подписчик**            |
 | [**FRS — ссылка на член**](a-frsmemberreference.md)                        | Неверно     | **NTFRS — подписчик**            |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                   | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**FRS-root-путь**](a-frsrootpath.md)                                      | True      | **NTFRS — подписчик**            |
+| [**FRS-root-путь**](a-frsrootpath.md)                                      | Верно      | **NTFRS — подписчик**            |
 | [**Служба FRS-Service-Command**](a-frsservicecommand.md)                          | Неверно     | **NTFRS — подписчик**            |
 | [**Служба FRS-Service-Command-Status**](a-frsservicecommandstatus.md)             | Неверно     | **NTFRS — подписчик**            |
-| [**Каталог FRS-промежуточного хранения**](a-frsstagingpath.md)                                | True      | **NTFRS — подписчик**            |
+| [**Каталог FRS-промежуточного хранения**](a-frsstagingpath.md)                                | Верно      | **NTFRS — подписчик**            |
 | [**FRS-Time-Last-Command**](a-frstimelastcommand.md)                       | Неверно     | **NTFRS — подписчик**            |
 | [**FRS-Time-Last-config-Change**](a-frstimelastconfigchange.md)            | Неверно     | **NTFRS — подписчик**            |
 | [**FRS-Update — время ожидания**](a-frsupdatetimeout.md)                            | Неверно     | **NTFRS — подписчик**            |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**Тип экземпляра**](a-instancetype.md)                                     | True      | [**Вверх**](c-top.md)<br/> |
+| [**Тип экземпляра**](a-instancetype.md)                                     | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)               | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Удалено**](a-isdeleted.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/> |
@@ -258,10 +258,10 @@ ms.locfileid: "103892882"
 | [**MS-дов-Owner-BL**](a-ownerbl.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                     | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | True      | [**Вверх**](c-top.md)<br/> |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**Объект — Категория**](a-objectcategory.md)                                 | True      | [**Вверх**](c-top.md)<br/> |
-| [**Объектный класс**](a-objectclass.md)                                       | True      | [**Вверх**](c-top.md)<br/> |
+| [**Объект — Категория**](a-objectcategory.md)                                 | Верно      | [**Вверх**](c-top.md)<br/> |
+| [**Объектный класс**](a-objectclass.md)                                       | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Объект — GUID**](a-objectguid.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Версия объекта**](a-objectversion.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                 | Неверно     | [**Вверх**](c-top.md)<br/> |
@@ -325,9 +325,9 @@ ms.locfileid: "103892882"
 
 
 
-## <a name="windows-server-2003-r2-attributes"></a>Атрибуты Windows Server 2003 R2
+## <a name="windows-server-2003-r2-attributes"></a>Windows Атрибуты сервера 2003 R2
 
-Этот класс содержит следующие атрибуты для Windows Server 2003 R2:
+этот класс содержит следующие атрибуты для Windows Server 2003 R2:
 
 
 
@@ -357,15 +357,15 @@ ms.locfileid: "103892882"
 | [**Флаги FRS**](a-frsflags.md)                                             | Неверно     | **NTFRS — подписчик**            |
 | [**FRS — ссылка на член**](a-frsmemberreference.md)                        | Неверно     | **NTFRS — подписчик**            |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                   | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**FRS-root-путь**](a-frsrootpath.md)                                      | True      | **NTFRS — подписчик**            |
+| [**FRS-root-путь**](a-frsrootpath.md)                                      | Верно      | **NTFRS — подписчик**            |
 | [**Служба FRS-Service-Command**](a-frsservicecommand.md)                          | Неверно     | **NTFRS — подписчик**            |
 | [**Служба FRS-Service-Command-Status**](a-frsservicecommandstatus.md)             | Неверно     | **NTFRS — подписчик**            |
-| [**Каталог FRS-промежуточного хранения**](a-frsstagingpath.md)                                | True      | **NTFRS — подписчик**            |
+| [**Каталог FRS-промежуточного хранения**](a-frsstagingpath.md)                                | Верно      | **NTFRS — подписчик**            |
 | [**FRS-Time-Last-Command**](a-frstimelastcommand.md)                       | Неверно     | **NTFRS — подписчик**            |
 | [**FRS-Time-Last-config-Change**](a-frstimelastconfigchange.md)            | Неверно     | **NTFRS — подписчик**            |
 | [**FRS-Update — время ожидания**](a-frsupdatetimeout.md)                            | Неверно     | **NTFRS — подписчик**            |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**Тип экземпляра**](a-instancetype.md)                                     | True      | [**Вверх**](c-top.md)<br/> |
+| [**Тип экземпляра**](a-instancetype.md)                                     | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)               | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Удалено**](a-isdeleted.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/> |
@@ -398,10 +398,10 @@ ms.locfileid: "103892882"
 | [**Мссфу-30-POSIX-член-of**](a-mssfu30posixmemberof.md)                  | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                     | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | True      | [**Вверх**](c-top.md)<br/> |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**Объект — Категория**](a-objectcategory.md)                                 | True      | [**Вверх**](c-top.md)<br/> |
-| [**Объектный класс**](a-objectclass.md)                                       | True      | [**Вверх**](c-top.md)<br/> |
+| [**Объект — Категория**](a-objectcategory.md)                                 | Верно      | [**Вверх**](c-top.md)<br/> |
+| [**Объектный класс**](a-objectclass.md)                                       | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Объект — GUID**](a-objectguid.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Версия объекта**](a-objectversion.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                 | Неверно     | [**Вверх**](c-top.md)<br/> |
@@ -465,9 +465,9 @@ ms.locfileid: "103892882"
 
 
 
-## <a name="windows-server-2008-attributes"></a>Атрибуты Windows Server 2008
+## <a name="windows-server-2008-attributes"></a>Windows Атрибуты сервера 2008
 
-Этот класс содержит следующие атрибуты для Windows Server 2008:
+этот класс содержит следующие атрибуты для Windows Server 2008:
 
 
 
@@ -497,15 +497,15 @@ ms.locfileid: "103892882"
 | [**Флаги FRS**](a-frsflags.md)                                                | Неверно     | **NTFRS — подписчик**            |
 | [**FRS — ссылка на член**](a-frsmemberreference.md)                           | Неверно     | **NTFRS — подписчик**            |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                      | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**FRS-root-путь**](a-frsrootpath.md)                                         | True      | **NTFRS — подписчик**            |
+| [**FRS-root-путь**](a-frsrootpath.md)                                         | Верно      | **NTFRS — подписчик**            |
 | [**Служба FRS-Service-Command**](a-frsservicecommand.md)                             | Неверно     | **NTFRS — подписчик**            |
 | [**Служба FRS-Service-Command-Status**](a-frsservicecommandstatus.md)                | Неверно     | **NTFRS — подписчик**            |
-| [**Каталог FRS-промежуточного хранения**](a-frsstagingpath.md)                                   | True      | **NTFRS — подписчик**            |
+| [**Каталог FRS-промежуточного хранения**](a-frsstagingpath.md)                                   | Верно      | **NTFRS — подписчик**            |
 | [**FRS-Time-Last-Command**](a-frstimelastcommand.md)                          | Неверно     | **NTFRS — подписчик**            |
 | [**FRS-Time-Last-config-Change**](a-frstimelastconfigchange.md)               | Неверно     | **NTFRS — подписчик**            |
 | [**FRS-Update — время ожидания**](a-frsupdatetimeout.md)                               | Неверно     | **NTFRS — подписчик**            |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**Тип экземпляра**](a-instancetype.md)                                        | True      | [**Вверх**](c-top.md)<br/> |
+| [**Тип экземпляра**](a-instancetype.md)                                        | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                  | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Удалено**](a-isdeleted.md)                                              | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/> |
@@ -549,10 +549,10 @@ ms.locfileid: "103892882"
 | [**Мссфу-30-POSIX-член-of**](a-mssfu30posixmemberof.md)                     | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                        | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                       | True      | [**Вверх**](c-top.md)<br/> |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                       | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**Объект — Категория**](a-objectcategory.md)                                    | True      | [**Вверх**](c-top.md)<br/> |
-| [**Объектный класс**](a-objectclass.md)                                          | True      | [**Вверх**](c-top.md)<br/> |
+| [**Объект — Категория**](a-objectcategory.md)                                    | Верно      | [**Вверх**](c-top.md)<br/> |
+| [**Объектный класс**](a-objectclass.md)                                          | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Объект — GUID**](a-objectguid.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Версия объекта**](a-objectversion.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                    | Неверно     | [**Вверх**](c-top.md)<br/> |
@@ -616,9 +616,9 @@ ms.locfileid: "103892882"
 
 
 
-## <a name="windows-server-2008-r2-attributes"></a>Атрибуты Windows Server 2008 R2
+## <a name="windows-server-2008-r2-attributes"></a>Windows Атрибуты сервера 2008 R2
 
-Этот класс содержит следующие атрибуты для Windows Server 2008 R2:
+этот класс содержит следующие атрибуты для Windows Server 2008 R2:
 
 
 
@@ -648,15 +648,15 @@ ms.locfileid: "103892882"
 | [**Флаги FRS**](a-frsflags.md)                                                  | Неверно     | **NTFRS — подписчик**            |
 | [**FRS — ссылка на член**](a-frsmemberreference.md)                             | Неверно     | **NTFRS — подписчик**            |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                        | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**FRS-root-путь**](a-frsrootpath.md)                                           | True      | **NTFRS — подписчик**            |
+| [**FRS-root-путь**](a-frsrootpath.md)                                           | Верно      | **NTFRS — подписчик**            |
 | [**Служба FRS-Service-Command**](a-frsservicecommand.md)                               | Неверно     | **NTFRS — подписчик**            |
 | [**Служба FRS-Service-Command-Status**](a-frsservicecommandstatus.md)                  | Неверно     | **NTFRS — подписчик**            |
-| [**Каталог FRS-промежуточного хранения**](a-frsstagingpath.md)                                     | True      | **NTFRS — подписчик**            |
+| [**Каталог FRS-промежуточного хранения**](a-frsstagingpath.md)                                     | Верно      | **NTFRS — подписчик**            |
 | [**FRS-Time-Last-Command**](a-frstimelastcommand.md)                            | Неверно     | **NTFRS — подписчик**            |
 | [**FRS-Time-Last-config-Change**](a-frstimelastconfigchange.md)                 | Неверно     | **NTFRS — подписчик**            |
 | [**FRS-Update — время ожидания**](a-frsupdatetimeout.md)                                 | Неверно     | **NTFRS — подписчик**            |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**Тип экземпляра**](a-instancetype.md)                                          | True      | [**Вверх**](c-top.md)<br/> |
+| [**Тип экземпляра**](a-instancetype.md)                                          | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                    | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Удалено**](a-isdeleted.md)                                                | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/> |
@@ -707,10 +707,10 @@ ms.locfileid: "103892882"
 | [**Мссфу-30-POSIX-член-of**](a-mssfu30posixmemberof.md)                       | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                          | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                         | True      | [**Вверх**](c-top.md)<br/> |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                         | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**Объект — Категория**](a-objectcategory.md)                                      | True      | [**Вверх**](c-top.md)<br/> |
-| [**Объектный класс**](a-objectclass.md)                                            | True      | [**Вверх**](c-top.md)<br/> |
+| [**Объект — Категория**](a-objectcategory.md)                                      | Верно      | [**Вверх**](c-top.md)<br/> |
+| [**Объектный класс**](a-objectclass.md)                                            | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Объект — GUID**](a-objectguid.md)                                              | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Версия объекта**](a-objectversion.md)                                        | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                      | Неверно     | [**Вверх**](c-top.md)<br/> |
@@ -774,7 +774,7 @@ ms.locfileid: "103892882"
 
 
 
-## <a name="windows-server-2012-attributes"></a>Атрибуты Windows Server 2012
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012 Атрибута
 
 Этот класс содержит следующие атрибуты для Windows Server 2012:
 
@@ -806,15 +806,15 @@ ms.locfileid: "103892882"
 | [**Флаги FRS**](a-frsflags.md)                                                              | Неверно     | **NTFRS — подписчик**            |
 | [**FRS — ссылка на член**](a-frsmemberreference.md)                                         | Неверно     | **NTFRS — подписчик**            |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**FRS-root-путь**](a-frsrootpath.md)                                                       | True      | **NTFRS — подписчик**            |
+| [**FRS-root-путь**](a-frsrootpath.md)                                                       | Верно      | **NTFRS — подписчик**            |
 | [**Служба FRS-Service-Command**](a-frsservicecommand.md)                                           | Неверно     | **NTFRS — подписчик**            |
 | [**Служба FRS-Service-Command-Status**](a-frsservicecommandstatus.md)                              | Неверно     | **NTFRS — подписчик**            |
-| [**Каталог FRS-промежуточного хранения**](a-frsstagingpath.md)                                                 | True      | **NTFRS — подписчик**            |
+| [**Каталог FRS-промежуточного хранения**](a-frsstagingpath.md)                                                 | Верно      | **NTFRS — подписчик**            |
 | [**FRS-Time-Last-Command**](a-frstimelastcommand.md)                                        | Неверно     | **NTFRS — подписчик**            |
 | [**FRS-Time-Last-config-Change**](a-frstimelastconfigchange.md)                             | Неверно     | **NTFRS — подписчик**            |
 | [**FRS-Update — время ожидания**](a-frsupdatetimeout.md)                                             | Неверно     | **NTFRS — подписчик**            |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                                   | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**Тип экземпляра**](a-instancetype.md)                                                      | True      | [**Вверх**](c-top.md)<br/> |
+| [**Тип экземпляра**](a-instancetype.md)                                                      | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                                | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Удалено**](a-isdeleted.md)                                                            | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                                        | Неверно     | [**Вверх**](c-top.md)<br/> |
@@ -864,17 +864,17 @@ ms.locfileid: "103892882"
 | [**MS-DS-выводит-List-BL**](a-msds-revealedlistbl.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-Tasks-для-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-Tasks-for-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**MS-DS-TDO-исходящий трафик — BL**](a-msds-tdoegressbl.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/> |
+| [**ms-DS-TDO-Egress-BL**](a-msds-tdoegressbl.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-TDO-входящий трафик — BL**](a-msds-tdoingressbl.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-value-type-Reference-BL**](a-msds-valuetypereferencebl.md)                         | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-дов-Owner-BL**](a-ownerbl.md)                                                        | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Мссфу-30-POSIX-член-of**](a-mssfu30posixmemberof.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                                     | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                     | True      | [**Вверх**](c-top.md)<br/> |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                     | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                                 | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**Объект — Категория**](a-objectcategory.md)                                                  | True      | [**Вверх**](c-top.md)<br/> |
-| [**Объектный класс**](a-objectclass.md)                                                        | True      | [**Вверх**](c-top.md)<br/> |
+| [**Объект — Категория**](a-objectcategory.md)                                                  | Верно      | [**Вверх**](c-top.md)<br/> |
+| [**Объектный класс**](a-objectclass.md)                                                        | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Объект — GUID**](a-objectguid.md)                                                          | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Версия объекта**](a-objectversion.md)                                                    | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/> |

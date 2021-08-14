@@ -4,12 +4,12 @@ ms.assetid: 4cd48b69-6f7b-4b13-86f3-b38969025f70
 title: Атрибут MF_SOURCE_READER_MEDIASOURCE_CHARACTERISTICS (Мфреадврите. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de4d1ed026f7b74f290446af74a6cf9947612617
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: f5ec5461bc289517490ae11bdd507895cd1ad434c53b1665ac5c6394907f15a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104351712"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118739974"
 ---
 # <a name="mf_source_reader_mediasource_characteristics-attribute"></a>\_ \_ \_ Атрибут характеристик медиасаурце для СЧИТЫВАНИя источника MF \_
 
@@ -21,7 +21,7 @@ ms.locfileid: "104351712"
 
 Значение представляет собой побитовое **или** для флагов перечисления [**мфмедиасаурце \_ характеристик**](/windows/desktop/api/mfidl/ne-mfidl-mfmediasource_characteristics) .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы получить этот атрибут, вызовите метод [**имфсаурцереадер:: жетпресентатионаттрибуте**](/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-getpresentationattribute) в модуле чтения исходного кода. Задайте для параметра *двстреаминдекс* значение **MF \_ \_ Reader source \_ медиасаурце** , а параметр *guidAttribute* — значение MF \_ source \_ Reader \_ медиасаурце \_ характеристики.
 
@@ -59,14 +59,14 @@ HRESULT GetSourceFlags(IMFSourceReader *pReader, ULONG *pulFlags)
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 7 \|\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 R2 \|\]<br/>                           |
+| Минимальная версия клиента<br/> | \[приложения UWP для классических приложений Windows 7 \|\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для настольных приложений Server 2008 R2 \|\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Мфреадврите. h</dt> </dl> |
 
 

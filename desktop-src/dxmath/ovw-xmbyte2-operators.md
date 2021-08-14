@@ -4,12 +4,12 @@ ms.assetid: 402876b9-731e-4c30-b48f-bca67ed6dad1
 title: Операторы XMBYTE2
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 23d27dde34e06f1e8daffbbdb00f26eab2c71fc0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a5a70b68c363638a60bfb84c05cb5f7ee79344f28a89d2f0b6ebcb5372467c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118501650"
 ---
 # <a name="xmbyte2-operators"></a>Операторы XMBYTE2
 
@@ -32,7 +32,7 @@ ms.locfileid: "105711532"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

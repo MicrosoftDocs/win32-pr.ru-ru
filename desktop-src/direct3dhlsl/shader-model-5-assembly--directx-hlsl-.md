@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 64e84cc84741a524bc6592980c5c2aba82f8be74
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 8d62936d1b5dd1372e978ed1f5aa4104b44422b574bb8ee364cb7a92e11ffd7c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104996866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119981514"
 ---
 # <a name="shader-model-5-assembly"></a>Сборка Shader Model 5
 
@@ -145,7 +145,7 @@ ms.locfileid: "104996866"
 [IAdd](iadd--sm4---asm-.md)  
 [**ибфе**](ibfe--sm5---asm-.md)  
 [иек](ieq--sm4---asm-.md)  
-[if](if--sm4---asm-.md)  
+[if](if--sm4---asm-.md) (если);  
 [иже](ige--sm4---asm-.md)  
 [илт](ilt--sm4---asm-.md)  
 [имад](imad--sm4---asm-.md)  
@@ -225,19 +225,19 @@ ms.locfileid: "104996866"
 [ушр](ushr--sm5---asm-.md)  
 [усубб](usubb--sm5---asm-.md)  
 [утоф](utof--sm4---asm-.md)  
-[xor](xor--sm4---asm-.md)  
+[XOR](xor--sm4---asm-.md)  
 </dl>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Справочник по шейдеру ASM](dx9-graphics-reference-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
