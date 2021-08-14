@@ -4,16 +4,16 @@ ms.assetid: 3e3288dd-155a-41d0-9d43-5f49ed4c4a9d
 title: Объекты ядра
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a7cf8c46e4754c46e81cfd959f62de052332594
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f115229d11485ec14d530d87fb0e26451aaa1059752ae8d52cea40849256802b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104570397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117958231"
 ---
 # <a name="kernel-objects"></a>Объекты ядра
 
-Дескрипторы объектов ядра зависят от процесса. То есть процесс должен либо создать объект, либо открыть существующий объект для получения обработчика объекта ядра. Ограничение по процессу для дескрипторов ядра составляет 2 ^ 24. Однако дескрипторы хранятся в выгружаемом пуле, поэтому фактическое количество создаваемых дескрипторов зависит от объема доступной памяти. Число дескрипторов, которые можно создать в 32-разрядной системе Windows, значительно ниже, чем 2 ^ 24.
+Дескрипторы объектов ядра зависят от процесса. То есть процесс должен либо создать объект, либо открыть существующий объект для получения обработчика объекта ядра. Ограничение по процессу для дескрипторов ядра составляет 2 ^ 24. Однако дескрипторы хранятся в выгружаемом пуле, поэтому фактическое количество создаваемых дескрипторов зависит от объема доступной памяти. количество дескрипторов, которые можно создать на 32-разрядной Windows, значительно ниже, чем 2 ^ 24.
 
 Любой процесс может создать новый обработчик для существующего объекта ядра (даже созданный другим процессом) при условии, что процесс знает имя объекта и имеет доступ к нему в режиме безопасности. Дескрипторы объектов ядра включают права доступа, указывающие действия, которые могут быть предоставлены или запрещены процессу. Приложение задает права доступа при создании объекта или получении существующего обработчика объекта. Каждый тип объекта ядра поддерживает собственный набор прав доступа. Например, дескрипторы событий могут иметь установленный или ожидающий доступ (или оба), дескрипторы файлов могут иметь доступ на чтение или запись (или и то, и другое) и т. д. Дополнительные сведения см. в разделе [защищаемые объекты](/windows/desktop/SecAuthZ/securable-objects).
 
@@ -54,10 +54,10 @@ ms.locfileid: "104570397"
 | Коммуникационное устройство        | [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea)                                                                                                                                                                                                                                   | [**CloseHandle**](/windows/win32/api/handleapi/nf-handleapi-closehandle)                                                      |
 | Входные данные консоли                | [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea)с Конин $                                                                                                                                                                                                                      | [**CloseHandle**](/windows/win32/api/handleapi/nf-handleapi-closehandle)                                                      |
 | Буфер экрана консоли        | [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea)с конаут $                                                                                                                                                                                                                     | [**CloseHandle**](/windows/win32/api/handleapi/nf-handleapi-closehandle)                                                      |
-| Персональный компьютер                      | [**жетсреаддесктоп**](/windows/desktop/api/winuser/nf-winuser-getthreaddesktop)                                                                                                                                                                                                                     | Приложения не могут удалить этот объект.                                                 |
+| Рабочий стол                      | [**жетсреаддесктоп**](/windows/desktop/api/winuser/nf-winuser-getthreaddesktop)                                                                                                                                                                                                                     | Приложения не могут удалить этот объект.                                                 |
 | Событие                        | [**CreateEvent**](/windows/desktop/api/synchapi/nf-synchapi-createeventa), [**креативентекс**](/windows/desktop/api/synchapi/nf-synchapi-createeventexa), [**опеневент**](/windows/desktop/api/synchapi/nf-synchapi-openeventa)                                                                                                                                                     | [**CloseHandle**](/windows/win32/api/handleapi/nf-handleapi-closehandle)                                                      |
 | Журнал событий                    | [**Опеневентлог**](/windows/desktop/api/winbase/nf-winbase-openeventloga), [**регистеревентсаурце**](/windows/desktop/api/winbase/nf-winbase-registereventsourcea), [**опенбаккупевентлог**](/windows/desktop/api/winbase/nf-winbase-openbackupeventloga)                                                                                                                     | [**клосивентлог**](/windows/desktop/api/winbase/nf-winbase-closeeventlog)                                                 |
-| Файл                         | [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea)                                                                                                                                                                                                                                 | [**CloseHandle**](/windows/win32/api/handleapi/nf-handleapi-closehandle), [ **DeleteFile**](/windows/desktop/api/fileapi/nf-fileapi-deletefilea)                     |
+| File                         | [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea)                                                                                                                                                                                                                                 | [**CloseHandle**](/windows/win32/api/handleapi/nf-handleapi-closehandle), [ **DeleteFile**](/windows/desktop/api/fileapi/nf-fileapi-deletefilea)                     |
 | Сопоставление файлов                 | [**CreateFileMapping**](/windows/desktop/api/winbase/nf-winbase-createfilemappinga), [ **OpenFileMapping**](/windows/desktop/api/winbase/nf-winbase-openfilemappinga)                                                                                                                                                                          | [**CloseHandle**](/windows/win32/api/handleapi/nf-handleapi-closehandle)                                                      |
 | Найти файл                    | [**FindFirstFile**](/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea)                                                                                                                                                                                                                             | [**финдклосе**](/windows/desktop/api/fileapi/nf-fileapi-findclose)                                                           |
 | Куча                         | [**хеапкреате**](/windows/desktop/api/heapapi/nf-heapapi-heapcreate)                                                                                                                                                                                                                                 | [**хеапдестрой**](/windows/desktop/api/heapapi/nf-heapapi-heapdestroy)                                                     |
@@ -80,7 +80,7 @@ ms.locfileid: "104570397"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

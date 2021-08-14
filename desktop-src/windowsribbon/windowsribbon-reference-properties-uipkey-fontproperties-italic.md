@@ -4,12 +4,12 @@ description: Определяет свойство UI \_ PKEY \_ фонтпро�
 ms.assetid: 53edd88e-ed7e-4385-9fd9-bfa90be348cd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d0dfa07b5112e91d8c25a4ff8c4f31175adf9b7
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 000bb72e1ba43b29f5e3815fe42d0ace454ff0219a188a128b422e4a621af210
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118438539"
 ---
 # <a name="ui_pkey_fontproperties_italic"></a>Пользовательский интерфейс \_ PKEY \_ фонтпропертиес \_ курсивом
 
@@ -31,7 +31,7 @@ UI \_ PKEY \_ фонтпропертиес \_ Italic используется п
 
 Значение свойства находится в перечислении [**\_ Фонтпропертиес пользовательского интерфейса**](/windows/desktop/api/uiribbon/ne-uiribbon-ui_fontproperties) .
 
-Значение по умолчанию — `UI_FONTPROPERTIES_NOTSET`.
+Значение по умолчанию — `UI_FONTPROPERTIES_NOTSET`.
 
 В следующей таблице описаны свойства и результат пользовательского интерфейса.
 

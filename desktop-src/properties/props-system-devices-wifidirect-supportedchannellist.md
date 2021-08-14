@@ -4,12 +4,12 @@ ms.assetid: 57875502-e6ac-4b2a-9c51-b467d5feab9d
 title: System. Devices. Вифидирект. Суппортедчаннеллист
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7126d34e1aec4077eb2005e7c9d752d63daf7061
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d166e9f047242c6f469bc31885213676596358322996d91b9d0f0284020fcf2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105702176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118466975"
 ---
 # <a name="systemdeviceswifidirectsupportedchannellist"></a>System. Devices. Вифидирект. Суппортедчаннеллист
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

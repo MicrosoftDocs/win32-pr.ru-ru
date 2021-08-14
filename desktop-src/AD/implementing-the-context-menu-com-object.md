@@ -8,12 +8,12 @@ keywords:
 - контекстное меню COM-объекта в Active Directory, реализация
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a34d6b487d130327b379ed845f2d0157f2b28056
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 53ac371ea64239c18de2a8f30c969eb6d920221f0a802f18ceeebfef2c3991e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "105654288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118187652"
 ---
 # <a name="implementing-the-context-menu-com-object"></a>Реализация COM-объекта контекстного меню
 
@@ -39,6 +39,6 @@ ms.locfileid: "105654288"
 
 [**IContextMenu:: инвокекомманд**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand) вызывается, когда выбран один из пунктов меню, устанавливаемых расширением контекстного меню. Контекстное меню выполняет или инициирует нужные действия в ответ на этот метод.
 
- 
+ 
 
- 
+ 

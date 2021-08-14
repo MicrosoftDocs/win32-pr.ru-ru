@@ -7,12 +7,12 @@ keywords:
 - Active Directory примеры Active Directory, проверка членства в группе
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2043808dc31fb3c154a050fb77a7e4f44f44632d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c929580bec3717f0dd1bd82520af7755061112eca7a28226275f796f4d41af22
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103773214"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118191155"
 ---
 # <a name="example-code-for-checking-for-membership-in-a-group"></a>Пример кода для проверки членства в группе
 
@@ -356,9 +356,9 @@ void PrintBanner(LPOLESTR pwszBanner)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

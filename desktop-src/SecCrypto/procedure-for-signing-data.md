@@ -4,12 +4,12 @@ ms.assetid: 89caf4d3-727f-472b-9a09-e81b4ff4d127
 title: Процедура для подписи данных
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba289928ab39c690e1c44bdbf65c77c18b7edab3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 10bae09c97fa42086f853d43b2a5a9dc02f0cbdbe2dd946fefe5d39e28a32104
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105683499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117977557"
 ---
 # <a name="procedure-for-signing-data"></a>Процедура для подписи данных
 

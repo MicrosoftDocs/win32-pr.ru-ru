@@ -7,16 +7,16 @@ keywords:
 - Active Directory примеры Active Directory, Добавление члена в группу
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a64a41fac871c6793ee4d0db1f4be79c9fbd0d1
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: f5cccccca0fa701b4f5bc1ce9b350ac1073c6da7614c7292724138b2d433ef2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103987991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118191297"
 ---
 # <a name="example-code-for-adding-a-member-to-a-group"></a>Пример кода для добавления члена в группу
 
-В этом разделе содержатся примеры кода, которые добавляют элемент в группу. В сценариях Visual Basic Scripting Edition (VBScript) и C++ добавляется член путем добавления объекта [**iAds**](/windows/desktop/api/iads/nn-iads-iads) , представляющего элемент, в объект [**иадсграуп**](/windows/desktop/api/iads/nn-iads-iadsgroup) , представляющий группу. В Visual Basic .NET и C# примеры изменяют свойство Member объекта [DirectoryEntry](/dotnet/api/system.directoryservices.directoryentry) , представляющего группу.
+В этом разделе содержатся примеры кода, которые добавляют элемент в группу. в сценариях Visual Basic scripting Edition (VBScript) и C++ добавляется член путем добавления объекта [**IADs**](/windows/desktop/api/iads/nn-iads-iads) , представляющего элемент, в объект [**иадсграуп**](/windows/desktop/api/iads/nn-iads-iadsgroup) , представляющий группу. в Visual Basic .net и C# примеры изменяют свойство member объекта [DirectoryEntry](/dotnet/api/system.directoryservices.directoryentry) , представляющего группу.
 
 
 В следующих примерах кода C# добавляется существующий элемент в группу. Функция принимает путь ADsPath контейнера группы и различающееся имя члена, добавляемого в группу. Путь ADsPath используется для создания объекта [DirectoryEntry](/dotnet/api/system.directoryservices.directoryentry) , представляющего группу. Метод [пропертивалуеколлектион. Add](/dotnet/api/system.directoryservices.propertyvaluecollection.add#System_DirectoryServices_PropertyValueCollection_Add_System_Object_) добавляет в группу член, различающееся имя которого было передано в функцию. Затем функция использует метод [DirectoryEntry. CommitChanges](/dotnet/api/system.directoryservices.directoryentry.commitchanges#System_DirectoryServices_DirectoryEntry_CommitChanges) для записи новых сведений о членах в базу данных.
@@ -66,7 +66,7 @@ private void AddMemberToGroup(
 
 
 
-В следующем Visual Basic примеров кода .NET добавляется существующий элемент в группу. Функция принимает путь ADsPath контейнера группы и различающееся имя члена, добавляемого в группу. Путь ADsPath используется для создания объекта [DirectoryEntry](/dotnet/api/system.directoryservices.directoryentry) , представляющего группу. Метод [пропертивалуеколлектион. Add](/dotnet/api/system.directoryservices.propertyvaluecollection.add#System_DirectoryServices_PropertyValueCollection_Add_System_Object_) добавляет в группу член, различающееся имя которого было передано в функцию. Затем функция использует метод [DirectoryEntry. CommitChanges](/dotnet/api/system.directoryservices.directoryentry.commitchanges#System_DirectoryServices_DirectoryEntry_CommitChanges) для записи новых сведений о членах в базу данных.
+в следующем Visual Basic примеров кода .net добавляется существующий элемент в группу. Функция принимает путь ADsPath контейнера группы и различающееся имя члена, добавляемого в группу. Путь ADsPath используется для создания объекта [DirectoryEntry](/dotnet/api/system.directoryservices.directoryentry) , представляющего группу. Метод [пропертивалуеколлектион. Add](/dotnet/api/system.directoryservices.propertyvaluecollection.add#System_DirectoryServices_PropertyValueCollection_Add_System_Object_) добавляет в группу член, различающееся имя которого было передано в функцию. Затем функция использует метод [DirectoryEntry. CommitChanges](/dotnet/api/system.directoryservices.directoryentry.commitchanges#System_DirectoryServices_DirectoryEntry_CommitChanges) для записи новых сведений о членах в базу данных.
 
 Вызовите функцию со следующими параметрами:
 
@@ -313,7 +313,7 @@ HRESULT AddMemberToGroup(IADsGroup * pGroup, IADs* pIADsNewMember)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

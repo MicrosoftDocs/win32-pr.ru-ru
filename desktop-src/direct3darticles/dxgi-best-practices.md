@@ -4,12 +4,12 @@ description: В этой статье обсуждаются проблемы с
 ms.assetid: 2df92ffe-1bfc-d682-2770-20cf0c831c9b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f576368674d05af74e3161d4251301ebc066a489
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: be992fe2346868eb3481482325297a2c9ec27ee61bdd2c65f83b0f916fc22308
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413418"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118290241"
 ---
 # <a name="directx-graphics-infrastructure-dxgi-best-practices"></a>Графическая инфраструктура DirectX (DXGI): рекомендации
 
@@ -75,13 +75,13 @@ DXGI пытается упростить этот подход, объедини
 
 ## <a name="dxgi-11"></a>DXGI 1,1
 
-Среда выполнения Direct3D 11, включенная в Windows 7 и установленная на Windows Vista (см. [KB971644](https://support.microsoft.com/kb/971644)), включает в себя версию 1,1 для DXGI. Это обновление добавляет определения для ряда новых форматов (особенно BGRA, 10-разрядного смещения x2 и BC6H и BC7 для сжатия текстур Direct3D 11), а также новую версию фабрики DXGI и интерфейсов адаптеров ([**CreateDXGIFactory1**](/windows/desktop/api/dxgi/nf-dxgi-createdxgifactory1), [**IDXGIFactory1**](/windows/desktop/api/dxgi/nn-dxgi-idxgifactory1), [**IDXGIAdapter1**](/windows/desktop/api/dxgi/nn-dxgi-idxgiadapter1)) для перечисления подключений к удаленному рабочему столу.
+среда выполнения Direct3D 11, входящая в Windows 7 и установленную на Windows Vista (см. [KB971644](https://support.microsoft.com/kb/971644)), включает в себя версию 1,1 для DXGI. Это обновление добавляет определения для ряда новых форматов (особенно BGRA, 10-разрядного смещения x2 и BC6H и BC7 для сжатия текстур Direct3D 11), а также новую версию фабрики DXGI и интерфейсов адаптеров ([**CreateDXGIFactory1**](/windows/desktop/api/dxgi/nf-dxgi-createdxgifactory1), [**IDXGIFactory1**](/windows/desktop/api/dxgi/nn-dxgi-idxgifactory1), [**IDXGIAdapter1**](/windows/desktop/api/dxgi/nn-dxgi-idxgiadapter1)) для перечисления подключений к удаленному рабочему столу.
 
 При использовании Direct3D 11 среда выполнения по умолчанию будет использовать DXGI 1,1 при вызове [**D3D11CreateDevice**](/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice) или [**D3D11CreateDeviceAndSwapChain**](/windows/desktop/api/d3d11/nf-d3d11-d3d11createdeviceandswapchain) с пустым указателем [**идксгиадаптер**](/windows/desktop/api/dxgi/nn-dxgi-idxgiadapter) . Смешивание использования DXGI 1,0 и DXGI 1,1 в одном процессе не поддерживается. Смешивание экземпляров объектов DXGI из разных фабрик в одном процессе также не поддерживается. Таким образом, при использовании DirectX 11 любое явное использование интерфейсов DXGI использует [**IDXGIFactory1**](/windows/desktop/api/dxgi/nn-dxgi-idxgifactory1) , созданную точкой входа [**CreateDXGIFactory1**](/windows/desktop/api/dxgi/nf-dxgi-createdxgifactory1) в "DXGI.DLL", чтобы гарантировать, что приложение всегда использует DXGI 1,1.
 
 ## <a name="dxgi-12"></a>DXGI 1,2
 
-Среда выполнения Direct3D 11,1, входящая в состав Windows 8, также включает версию 1,2 для DXGI.
+среда выполнения Direct3D 11,1, включенная в Windows 8, также включает в себя версию 1,2 для DXGI.
 
 DXGI 1,2 включает следующие функции.
 
@@ -96,6 +96,6 @@ DXGI 1,2 включает следующие функции.
 
 Дополнительные сведения о возможностях DXGI 1,2 см. в разделе [улучшения dxgi 1,2](/windows/desktop/direct3ddxgi/dxgi-1-2-improvements).
 
- 
+ 
 
- 
+ 

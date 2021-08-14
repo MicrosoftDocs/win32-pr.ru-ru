@@ -4,16 +4,16 @@ description: Следующая программа устанавливает к
 ms.assetid: 85605ecf-bc82-48ac-8b36-ee43862a3bc9
 ms.tgt_platform: multiple
 keywords:
-- Регистрация и разрешение Windows Sockets AD, пример кода, установка класса службы РНР
+- Windows Регистрация и разрешение имен сокетов, пример кода, установка класса службы РНР
 - Установка класса службы РНР Active Directory, пример кода
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f1b918e22d15bca59018048de8d43969b18e8f5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 26afe0fda2fa03e9631a098963c6c3f061e8e300fa0c54664ab4c50e3a513390
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104252782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118190328"
 ---
 # <a name="example-code-for-installing-an-rnr-service-class"></a>Пример кода для установки класса службы РНР
 
@@ -170,9 +170,9 @@ cleanup:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

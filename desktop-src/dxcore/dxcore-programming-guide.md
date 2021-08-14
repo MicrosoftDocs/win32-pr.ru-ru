@@ -4,12 +4,12 @@ description: Руководство по программированию с п�
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 06/20/2019
-ms.openlocfilehash: 475469f027d3db2e4a29673c5a674990192a2fe3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2e7efb5fcad08b2640d0a2ed4de58544df9430f3e49b6f6e804726dd6e76c51e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105719148"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118279674"
 ---
 # <a name="dxcore-programming-guide"></a>Руководство по программированию для DXCore
 
@@ -22,7 +22,7 @@ ms.locfileid: "105719148"
 | [Перечисление адаптеров с использованием DXCore](dxcore-enum-adapters.md) | Рассмотрим основные функции Дкскоре с примерами кода, а также полный листинг исходного кода для минимального приложения Дкскоре. |
 | [Приложение DXCore с минимальным набором функций](dxcore-source-code.md) | Полный листинг исходного кода для минимального Дкскоре приложения. |
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 * [Справочник по Дкскоре](./dxcore-reference.md)
 * [Графика Direct3D 12](../direct3d12/direct3d-12-graphics.md)

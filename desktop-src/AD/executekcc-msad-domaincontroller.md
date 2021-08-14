@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fcce017f86042181d2e80ae3614e3fc1cbccc676
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 48295638f105b79ea24a55965ca3ec75ee0ad6b9982c74664f8bfecdd0681cfe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105654555"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118189625"
 ---
 # <a name="executekcc-method-of-the-msad_domaincontroller-class"></a>Метод Ексекутеккк \_ класса DOMAINCONTROLLER МСАД
 
@@ -84,7 +84,7 @@ void ExecuteKCC(
 
 Этот метод не возвращает значение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -15,12 +15,12 @@ keywords:
 - интерфейсы, Итекстчилдпровидер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d21102abfef7cee0553850ac01c4f759f81988e3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1e5c7bfb1852a02efc7baa789e137a4c05e2c2e85a65606109b26a622dfafcf4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103793615"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117929050"
 ---
 # <a name="textchild-control-pattern"></a>Шаблон элемента управления Текстчилд
 
@@ -58,11 +58,11 @@ ms.locfileid: "103793615"
 
 
 
- 
+ 
 
 Этот шаблон элемента управления не имеет связанных методов или событий.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 **Зрения**
 

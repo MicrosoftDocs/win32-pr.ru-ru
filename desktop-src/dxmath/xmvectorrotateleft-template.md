@@ -4,12 +4,12 @@ ms.assetid: ba3698ed-212d-4ef0-846a-4099d0e1abec
 title: Шаблон Ксмвекторротателефт (Директксмас. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e5b52fccebeb93803fdc33346fa4ee5e873c1d5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cbb3d2a06f775e99b275d7333816307f494c5b2a4a7cc0183eaddc4ee4cd8950
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118499407"
 ---
 # <a name="xmvectorrotateleft-template"></a>Шаблон Ксмвекторротателефт
 
@@ -38,7 +38,7 @@ template<uint32_t Elements> XMVECTOR XMVectorRotateLeft(
 
 Возвращает повернутое [**ксмвектор**](xmvector-data-type.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция является версией шаблона [**ксмвекторротателефт**](/windows/win32/api/directxmath/nf-directxmath-xmvectorrotateleft) , в которой аргумент *Elements* является значением шаблона.
 
@@ -51,15 +51,15 @@ template<uint32_t Elements> XMVECTOR XMVectorRotateLeft(
 
 ### <a name="platform-requirements"></a>Требования к платформе
 
-Microsoft Visual Studio 2010 или Microsoft Visual Studio 2012 с Windows SDK для Windows 8. Поддерживается для классических приложений Win32, приложений для Магазина Windows и Windows Phone 8 приложений.
+Microsoft Visual Studio 2010 или Microsoft Visual Studio 2012 с Windows SDK для Windows 8. поддерживается для классических приложений Win32, приложений для магазина Windows и Windows Phone 8 приложений.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Директксмас. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Директксмас. h</dt> </dl> |
 
 
 

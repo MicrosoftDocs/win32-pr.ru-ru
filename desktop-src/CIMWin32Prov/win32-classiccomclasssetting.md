@@ -40,12 +40,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5f263a888ce9dea80444023faff57998bc3f2c1c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4aa3a60b68902bbcf7728866d24e5cedd831eac35ba629a3e2516a885a28efaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118418245"
 ---
 # <a name="win32_classiccomclasssetting-class"></a>\_Класс Win32 классиккомкласссеттинг
 
@@ -94,7 +94,7 @@ class Win32_ClassicCOMClassSetting : Win32_COMSetting
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ классиккомкласссеттинг** имеет следующие свойства.
 
@@ -148,7 +148,7 @@ class Win32_ClassicCOMClassSetting : Win32_COMSetting
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -484,7 +484,7 @@ class Win32_ClassicCOMClassSetting : Win32_COMSetting
 Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32Registry \| hKey \_ Local \_ Machine \\ \\ Software \\ \\ Classes \\ \\ CLSID \\ \\ {GUID} \\ \\ ToolBoxBitmap32 \[ Default \] ")
 </dt> </dl>
 
-Имя модуля и идентификатор ресурса для мелкого (16x16) точечного рисунка, используемого для кнопки панели инструментов или панели элементов. Используется, если COM-компонент является элементом управления OLE или ActiveX.
+Имя модуля и идентификатор ресурса для мелкого (16x16) точечного рисунка, используемого для кнопки панели инструментов или панели элементов. используется, если COM-компонент является элементом управления OLE или ActiveX.
 
 </dd> <dt>
 
@@ -520,7 +520,7 @@ class Win32_ClassicCOMClassSetting : Win32_COMSetting
 
 </dd> <dt>
 
-**Version**
+**Версия**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -552,11 +552,11 @@ class Win32_ClassicCOMClassSetting : Win32_COMSetting
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ классиккомкласссеттинг** является производным от [**Win32 \_ комсеттинг**](win32-comsetting.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

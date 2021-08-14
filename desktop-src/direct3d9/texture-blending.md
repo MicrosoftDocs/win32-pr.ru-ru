@@ -4,12 +4,12 @@ ms.assetid: vs|directx_sdk|~\texture_blending.htm
 title: Смешение текстур (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a89a87160bb85c1f62339380d46fa4b39736609
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 688be4c80fb87d0d96f8f930ed85c9cc934fc4392151196ec0c510a4cbe482bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103806863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118291615"
 ---
 # <a name="texture-blending-direct3d-9"></a>Смешение текстур (Direct3D 9)
 
@@ -52,7 +52,7 @@ Direct3D поддерживает однопроходное наложение 
 -   [Многопроходное смешение текстур (Direct3D 9)](multipass-texture-blending.md)
 -   [Светлое сопоставление с текстурами (Direct3D 9)](light-mapping-with-textures.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

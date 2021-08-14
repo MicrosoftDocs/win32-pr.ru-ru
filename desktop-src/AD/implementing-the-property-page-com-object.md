@@ -8,12 +8,12 @@ keywords:
 - COM-объект страницы свойств, реализация
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55962002ca059ad6e9c137925d1ba21ba9adc513
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 2504c27bcf4703bb49a3e8620c287c30ae9017ab6e65345d003f2acb6c9b544e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103890419"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118187615"
 ---
 # <a name="implementing-the-property-page-com-object"></a>Реализация COM-объекта страницы свойств
 
@@ -25,8 +25,8 @@ ms.locfileid: "103890419"
 -   [Работа с объектом уведомления](#working-with-the-notification-object)
 -   [Прочее](#miscellaneous)
 -   [Вкладки свойств с множественным выбором](#multiple-selection-property-sheets)
--   [Новые с Windows Server 2003](#new-with-windows-server-2003)
--   [См. также](#related-topics)
+-   [новые с Windows Server 2003](#new-with-windows-server-2003)
+-   [Связанные темы](#related-topics)
 
 ## <a name="implementing-ishellextinit"></a>Реализация Ишеллекстинит
 
@@ -129,7 +129,7 @@ UINT CALLBACK CPropSheetExt::PageCallbackProc(  HWND hWnd,
 > [!Note]  
 > В отличие от большинства методов и функций COM, [**адспропжетинитинфо**](/windows/desktop/api/Adsprop/nf-adsprop-adspropgetinitinfo) не увеличивает счетчик ссылок для объекта [**идиректорйобжект**](/windows/desktop/api/iads/nn-iads-idirectoryobject) . **Идиректорйобжект** не должно освобождаться, пока число ссылок не будет увеличиваться вручную.
 
- 
+ 
 
 При первом создании страницы свойств расширение должно зарегистрировать страницу с объектом уведомления, вызвав [**адспропсесвнд**](/windows/desktop/api/Adsprop/nf-adsprop-adspropsethwnd) с маркером окна страницы.
 
@@ -143,7 +143,7 @@ UINT CALLBACK CPropSheetExt::PageCallbackProc(  HWND hWnd,
 
 ## <a name="multiple-selection-property-sheets"></a>Страницы свойств Multiple-Selection
 
-В операционных системах Windows Server 2003 и более поздних версий оснастки администрирования консоли управления Active Directory поддерживают расширения для нескольких объектов каталога. Эти страницы свойств отображаются, когда свойства просматриваются более чем по одному элементу за раз. Основное различие между расширением таблицы свойств с одним выбором и расширением таблицы свойств с множественным выбором заключается в том, что структура [**дсобжектнамес**](/windows/desktop/api/Dsclient/ns-dsclient-dsobjectnames) , предоставляемая форматом буфера обмена [**Кфстр \_ дсобжектнамес**](/previous-versions/windows/desktop/mmc/cfstr-dsobjectnames-clipboard-format) в [**ишеллекстинит:: Initialize**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize) , будет содержать более одной структуры [**дсобжект**](/windows/desktop/api/Dsclient/ns-dsclient-dsobject) .
+в операционных системах Windows Server 2003 и более поздних версий оснастки MMC Active Directory администрирования поддерживают расширения страниц свойств для нескольких объектов каталога. Эти страницы свойств отображаются, когда свойства просматриваются более чем по одному элементу за раз. Основное различие между расширением таблицы свойств с одним выбором и расширением таблицы свойств с множественным выбором заключается в том, что структура [**дсобжектнамес**](/windows/desktop/api/Dsclient/ns-dsclient-dsobjectnames) , предоставляемая форматом буфера обмена [**Кфстр \_ дсобжектнамес**](/previous-versions/windows/desktop/mmc/cfstr-dsobjectnames-clipboard-format) в [**ишеллекстинит:: Initialize**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize) , будет содержать более одной структуры [**дсобжект**](/windows/desktop/api/Dsclient/ns-dsclient-dsobject) .
 
 При создании объекта уведомления расширение таблицы свойств с множественным выбором должно передавать уникальное имя, предоставленное оснасткой, а не имя, созданное расширением. Чтобы получить уникальное имя, запросите формат буфера обмена [**кфстр \_ DS \_ мултиселектпроппаже**](cfstr-ds-multiselectproppage.md) из [**IDataObject**](/windows/win32/api/objidl/nn-objidl-idataobject) , полученного из [**ишеллекстинит:: Initialize**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize). Эти данные являются **хглобал** , содержащим строку в Юникоде, завершающуюся нулем, которая является уникальным именем. Это уникальное имя затем передается функции [**адспропкреатенотифйобж**](/windows/desktop/api/Adsprop/nf-adsprop-adspropcreatenotifyobj) для создания объекта уведомления. Пример функции **креатеадснотификатионобжект** в [примере кода для реализации com-объекта страницы свойств](example-code-for-implementation-of-the-property-sheet-com-object.md) демонстрирует, как это сделать правильно, а также обеспечить совместимость с более ранними версиями оснастки, которые не поддерживают вкладки свойств с множественным выбором.
 
@@ -151,21 +151,21 @@ UINT CALLBACK CPropSheetExt::PageCallbackProc(  HWND hWnd,
 
 Расширение вкладки свойств с множественным выбором регистрируется в атрибуте [**админмултиселектпропертипажес**](/windows/desktop/ADSchema/a-adminmultiselectpropertypages) .
 
-## <a name="new-with-windows-server-2003"></a>Новые с Windows Server 2003
+## <a name="new-with-windows-server-2003"></a>новые с Windows Server 2003
 
-Ниже перечислены новые возможности Windows Server 2003.
+ниже перечислены новые возможности Windows Server 2003.
 
 Если на странице свойств обнаружена ошибка, [**адспропсендеррормессаже**](/windows/desktop/api/Adsprop/nf-adsprop-adspropsenderrormessage) можно вызвать с соответствующими данными об ошибке. **Адспропсендеррормессаже** будет хранить все сообщения об ошибках в очереди. Эти сообщения будут отображаться при следующем вызове [**адспропшоверрордиалог**](/windows/desktop/api/Adsprop/nf-adsprop-adspropshowerrordialog) . Когда **адспропшоверрордиалог** возвращает, сообщения в очереди удаляются.
 
-В Windows Server 2003 введена функция [**адспропсесвндвиститле**](/windows/desktop/api/Adsprop/nf-adsprop-adspropsethwndwithtitle) . Эта функция похожа на [**адспропсесвнд**](/windows/desktop/api/Adsprop/nf-adsprop-adspropsethwnd), но включает заголовок страницы. Это позволяет диалоговое окно ошибки, отображаемое [**адспропшоверрордиалог**](/windows/desktop/api/Adsprop/nf-adsprop-adspropshowerrordialog) , позволяет пользователю получить более полезные данные. Если расширение страницы свойств использует функцию **адспропшоверрордиалог** , то расширение должно использовать **адспропсесвндвиститле** , а не **адспропсесвнд**.
+Windows В сервере 2003 введена функция [**адспропсесвндвиститле**](/windows/desktop/api/Adsprop/nf-adsprop-adspropsethwndwithtitle) . Эта функция похожа на [**адспропсесвнд**](/windows/desktop/api/Adsprop/nf-adsprop-adspropsethwnd), но включает заголовок страницы. Это позволяет диалоговое окно ошибки, отображаемое [**адспропшоверрордиалог**](/windows/desktop/api/Adsprop/nf-adsprop-adspropshowerrordialog) , позволяет пользователю получить более полезные данные. Если расширение страницы свойств использует функцию **адспропшоверрордиалог** , то расширение должно использовать **адспропсесвндвиститле** , а не **адспропсесвнд**.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Пример кода для реализации COM-объекта страницы свойств](example-code-for-implementation-of-the-property-sheet-com-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

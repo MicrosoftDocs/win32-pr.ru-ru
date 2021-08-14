@@ -1,19 +1,19 @@
 ---
-description: В следующих примерах C# и Visual Basic Scripting Edition (VBScript) демонстрируется экспорт моментального снимка виртуальной машины.
+description: в следующих примерах C# и Visual Basic scripting Edition (VBScript) демонстрируется экспорт моментального снимка виртуальной машины.
 ms.assetid: 4DEC4962-99E1-42BB-81B1-8530BF9C4B92
 title: Экспорт моментального снимка виртуальной машины
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7bef5cb0f86c1de1b82c294760f7e2a33539218b
-ms.sourcegitcommit: 3d9eb6638763fee8b87c378657458f814182e36c
+ms.openlocfilehash: 07b8ce51f8cddeb648b5d4a5c58166eda3fcd2841a55f2eeda9e4f42e3f3e8fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105664793"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118393358"
 ---
 # <a name="exporting-a-snapshot-of-a-virtual-machine"></a>Экспорт моментального снимка виртуальной машины
 
-В следующих примерах C# и Visual Basic Scripting Edition (VBScript) демонстрируется экспорт моментального снимка виртуальной машины. Примеры, демонстрирующие экспорт виртуальной машины, можно найти в разделе [**експортсистемдефинитион**](exportsystemdefinition-msvm-virtualsystemmanagementservice.md) .
+в следующих примерах C# и Visual Basic scripting Edition (VBScript) демонстрируется экспорт моментального снимка виртуальной машины. Примеры, демонстрирующие экспорт виртуальной машины, можно найти в разделе [**експортсистемдефинитион**](exportsystemdefinition-msvm-virtualsystemmanagementservice.md) .
 
 Упоминаемые служебные программы C# можно найти в [общих служебных программах для примеров виртуализации (v2)](common-utilities-for-the-virtualization-samples-v2.md).
 
@@ -337,7 +337,7 @@ End Function
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 [Экспорт конфигурации виртуальной машины](exporting-the-configuration-of-a-virtual-machine.md)
 

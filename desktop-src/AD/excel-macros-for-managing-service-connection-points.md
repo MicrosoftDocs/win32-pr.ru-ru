@@ -1,6 +1,6 @@
 ---
-title: Макросы Excel для управления точками подключения службы
-description: Точки подключения службы можно управлять с помощью простых макросов Excel.
+title: Excel Макросы для управления точками подключения службы
+description: точки подключения службы можно управлять с помощью простых макросов Excel.
 ms.assetid: da8a7363-6814-4c26-b259-53e6f6ba98cd
 ms.tgt_platform: multiple
 ms.topic: article
@@ -10,18 +10,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 69bc3561962b063c9128d46934d3cb87b84e0a24
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f0f6d0897e7579fab45e5b952c3f03456f73a38183f07e87235f671f795763d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105654190"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118189622"
 ---
-# <a name="excel-macros-for-managing-service-connection-points"></a>Макросы Excel для управления точками подключения службы
+# <a name="excel-macros-for-managing-service-connection-points"></a>Excel Макросы для управления точками подключения службы
 
-Точки подключения службы можно управлять с помощью простых макросов Excel.
+точки подключения службы можно управлять с помощью простых макросов Excel.
 
-В следующем макросе Excel показаны минимальные требования к созданию новой точки подключения службы.
+в следующем макросе Excel показаны минимальные требования для создания новой точки подключения службы.
 
 
 ```VB
@@ -57,7 +57,7 @@ End Sub
 
 
 
-В следующем макросе Excel показано, как удалить образец точки подключения службы.
+в следующем макросе Excel показано, как удалить образец точки подключения службы.
 
 
 ```VB
@@ -78,9 +78,9 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 
 
 
 

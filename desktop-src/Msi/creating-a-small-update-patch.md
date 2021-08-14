@@ -1,15 +1,15 @@
 ---
-description: При создании исправления для установщик Windows незначительного обновления следуйте приведенным ниже рекомендациям.
+description: при создании исправления для установщик Windows незначительного обновления следуйте приведенным ниже рекомендациям.
 ms.assetid: 0e57c2aa-e86a-4161-9749-c7963182a6d5
 title: Создание небольшого исправления обновления
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d948c871baed7fbc15545ed9669c9864ce954799
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0b2c3dffac099358b924914b5dbd86871ba370241c42a2e3fd5caef2d8f12ff4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118379399"
 ---
 # <a name="creating-a-small-update-patch"></a>Создание небольшого исправления обновления
 

@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: ccff6ad8d99692d066728c99dd74ab07640af4fa
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 66be06bf3a8433a7dba1eb28e6123adb03d622803745838158aa80bda0e8e594
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104142307"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118417995"
 ---
 # <a name="win32_clustershare-class"></a>\_Класс Win32 клустершаре
 
@@ -76,7 +76,7 @@ class Win32_ClusterShare : Win32_Share
 | Метод                                                    | Описание                                                      |
 |:----------------------------------------------------------|:-----------------------------------------------------------------|
 | [**Создания**](create-win32-clustershare.md)               | Создает новый экземпляр **Win32 \_ клустершаре** .<br/>       |
-| [**Удалить**](delete-win32-clustershare.md)               | Удаляет экземпляр **Win32 \_ клустершаре** .<br/>           |
+| [**Удален**](delete-win32-clustershare.md)               | Удаляет экземпляр **Win32 \_ клустершаре** .<br/>           |
 | [**жетакцессмаск**](getaccessmask-win32-clustershare.md) | Возвращает точечный рисунок с правами доступа к общей папке.<br/> |
 | [**сетшареинфо**](setshareinfo-win32-clustershare.md)   | Задает параметры общего ресурса.<br/>           |
 
@@ -126,7 +126,7 @@ class Win32_ClusterShare : Win32_Share
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -198,7 +198,7 @@ class Win32_ClusterShare : Win32_Share
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -210,9 +210,9 @@ class Win32_ClusterShare : Win32_Share
 Квалификаторы: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API \| Network Management Structures \| [**Share \_ \_ 1**](/windows/desktop/api/lmshare/ns-lmshare-share_info_1) \| shi1 \_ NetName")
 </dt> </dl>
 
-Псевдоним, заданный для пути, настроенного в качестве общего ресурса в компьютерной системе под Windows.
+Псевдоним, заданный для пути, настроенного в качестве общего ресурса в компьютерной системе, на которой работает Windows.
 
-Windows 2008 пример: " \\ Server01 \\ Public" — Windows Server 2008 требует, чтобы в имени был размещен UNC-путь.
+Windows 2008 пример: " \\ SERVER01 \\ public"-Windows Server 2008 необходимо поместить в имя UNC.
 
 Это свойство наследуется [**от \_ общего ресурса Win32**](win32-share.md).
 
@@ -230,7 +230,7 @@ Windows 2008 пример: " \\ Server01 \\ Public" — Windows Server 2008 тр
 Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API \| Network Management Structures \| [**Общая \_ информация \_ 502**](/windows/desktop/api/lmshare/ns-lmshare-share_info_502) \| shi502 \_ путь")
 </dt> </dl>
 
-Локальный путь к общей папке Windows.
+локальный путь к Windows общему ресурсу.
 
 Пример: "C: \\ Program Files"
 
@@ -362,7 +362,7 @@ Windows 2008 пример: " \\ Server01 \\ Public" — Windows Server 2008 тр
 
 </dd> <dt>
 
-**Тип**
+**Type**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **UInt32**
@@ -438,7 +438,7 @@ Windows 2008 пример: " \\ Server01 \\ Public" — Windows Server 2008 тр
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

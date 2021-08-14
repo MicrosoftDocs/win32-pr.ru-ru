@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 8f2fd5953d770d541e704b7dc7fe8580e98b3066
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0a1126563b00861ab8b8168832f72189c3a3828378f5d89c4b74e49f68b09bd4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118417914"
 ---
 # <a name="win32_comapplicationsettings-class"></a>\_Класс Win32 комаппликатионсеттингс
 
@@ -46,7 +46,7 @@ class Win32_COMApplicationSettings : CIM_ElementSetting
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ комаппликатионсеттингс** имеет следующие свойства.
 
@@ -84,11 +84,11 @@ class Win32_COMApplicationSettings : CIM_ElementSetting
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ комаппликатионсеттингс** является производным от [**CIM \_ елементсеттинг**](cim-elementsetting.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: a206fe22-12c8-ac2b-ee37-20cfff35841a
 title: Константы библиотеки Директксмас
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4809c72fbd5cec27b549be29ebced81839c89723
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fb63bc687dd6bf3cc1dcc5e1801b500761480c7b8443b7a786a05211b9fb729d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118500391"
 ---
 # <a name="directxmath-library-constants"></a>Константы библиотеки Директксмас
 
@@ -31,7 +31,7 @@ ms.locfileid: "105701860"
 <tbody>
 <tr class="odd">
 <td>DIRECTXMATH_VERSION<br/></td>
-<td>Версия библиотеки Директксмас. Первоначальный предварительный выпуск был 300, последняя версия Windows 8 — 303, Windows 8.1ная версия — 305. Версии XNA Math 200, 201, 202, 203, 204 и т. д. Он определяется как символ препроцессора.<br/></td>
+<td>Версия библиотеки Директксмас. первоначальный предварительный выпуск был 300, Windows 8 окончательная версия — 303, Windows 8.1ная версия — 305. Версии XNA Math 200, 201, 202, 203, 204 и т. д. Он определяется как символ препроцессора.<br/></td>
 </tr>
 <tr class="even">
 <td>XM_PI<br/></td>
@@ -714,14 +714,14 @@ ms.locfileid: "105701860"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 
 <span id="DirectXMath_Programming_Reference"></span><span id="directxmath_programming_reference"></span><span id="DIRECTXMATH_PROGRAMMING_REFERENCE"></span>[Справочник по программированию Директксмас](ovw-xnamath-reference.md)
 </dt> <dd></dd> </dl>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

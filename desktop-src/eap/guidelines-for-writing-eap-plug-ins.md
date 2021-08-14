@@ -4,12 +4,12 @@ description: Библиотеки DLL или подключаемые модул
 ms.assetid: 79b9bc54-6eb0-4e01-822e-af83fc475ec5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0cdc2d437df61811e6fb24b3a9b4ff406ced4905
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: c786da1ca026039ffd052f1213b2904dbfa602ee67c6d74aed7a0fe11fd9d566
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "105710217"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118499159"
 ---
 # <a name="guidelines-for-writing-eap-dlls"></a>Рекомендации по написанию DLL-библиотек EAP
 
@@ -28,11 +28,11 @@ ms.locfileid: "105710217"
     > [!Note]  
     > Если ваш протокол EAP не поддерживает проверку подлинности компьютера, он должен проверить флаг проверки подлинности на компьютере, использующий аутентификацию **\_ \_ \_ \_ EAP** в поле **ффлагс** в [**\_ \_ входе PPP EAP**](/windows/desktop/api/Raseapif/ns-raseapif-ppp_eap_input), и вернуть ошибку.
 
-     
+     
 
- 
+ 
 
- 
+ 
 
 
 

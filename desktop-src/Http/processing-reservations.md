@@ -4,12 +4,12 @@ description: Резервирование для частей пространс
 ms.assetid: deab6323-d114-463b-a0e7-acd173149b63
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a0a78fd6d374ede14e0eba7c1b22ad33ba50648
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: c5c4f0e38f5994687bfe26d1334300c0aa7fbbd3f8096abcf60e6c523e7d030a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104414081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118393766"
 ---
 # <a name="processing-reservations"></a>Обработка резервирований
 
@@ -24,7 +24,7 @@ ms.locfileid: "104414081"
 
 
 
- 
+ 
 
 Эти неявные резервирования не могут быть удалены. Однако явное резервирование root можно делегировать другим пользователям. При резервировании, как показано ниже, будут созданы такие делегирования:
 
@@ -37,13 +37,13 @@ ms.locfileid: "104414081"
 
 
 
- 
+ 
 
 Если эти делегированные резервирования удаляются системным администратором, владение пространством имен возвращается к неявному резервированию для соответствующих значений узла и порта.
 
- 
+ 
 
- 
+ 
 
 
 

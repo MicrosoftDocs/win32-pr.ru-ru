@@ -4,12 +4,12 @@ ms.assetid: 9b94ab86-2a6a-4abd-ab56-95315f473226
 title: Отрисовка из буферов вершин и индексов (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cbc42da3f25787d42b0bdccdd808013f51bfa3e4
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 0e4290dc2ff40e1ec0448e3948342aa3b02ac62bf9866a44958ea53bee9658d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103894313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118092643"
 ---
 # <a name="rendering-from-vertex-and-index-buffers-direct3d-9"></a>Отрисовка из буферов вершин и индексов (Direct3D 9)
 
@@ -115,7 +115,7 @@ DrawIndexedPrimitive( D3DPT_TRIANGLELIST, // PrimitiveType
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

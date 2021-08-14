@@ -4,12 +4,12 @@ ms.assetid: vs|directx_sdk|~\materials.htm
 title: Материалы (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64e75953fd5839e1b3e7b9cc89b7331147cdb585
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 5e8140de30243c7a0f7290715da3d0720cd15cea769bd78cbf66893c0082062d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104564148"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118092961"
 ---
 # <a name="materials-direct3d-9"></a>Материалы (Direct3D 9)
 
@@ -106,7 +106,7 @@ if(FAILED(hr))
 | Отражающее | (R:0, G:0, B:0, A:0) |
 | Окружающее  | (R:0, G:0, B:0, A:0) |
 | Эмиссионное | (R:0, G:0, B:0, A:0) |
-| Мощный    | (0,0)                |
+| Питание    | (0,0)                |
 
 
 
@@ -137,7 +137,7 @@ if(FAILED(hr))
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

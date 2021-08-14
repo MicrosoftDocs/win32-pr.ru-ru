@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 928122f3526fb369be09bc19407d866c6d313fbb
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 96ff8e833e0c00c353072b6d34c7862b1093152183bc989cc889cd65140a5ab6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104356023"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118301725"
 ---
 # <a name="id3dx10threadpumppurgeallitems-method"></a>ID3DX10ThreadPump: метод:P Уржеаллитемс
 
@@ -50,7 +50,7 @@ HRESULT PurgeAllItems();
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>D3DX10. lib</dt> </dl> |
 
 

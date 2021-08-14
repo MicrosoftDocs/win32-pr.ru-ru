@@ -7,12 +7,12 @@ keywords:
 - влияние безопасности при поиске Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26feee840c0668b2ea9412932a27927bb1c00012
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 429150489f2ab4d00015744beff72ee2b90b0399afd3d43f9263d39cadbaecd7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103773235"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118191624"
 ---
 # <a name="effects-of-security-on-searching"></a>Влияние безопасности при поиске
 
@@ -30,9 +30,9 @@ E \_ ADS \_ Недопустимый \_ \_ объект домена
 
 \_ \_ \_ не \_ найдено свойство E ADS
 
- 
+ 
 
- 
+ 
 
 
 

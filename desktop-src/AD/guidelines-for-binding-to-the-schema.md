@@ -8,12 +8,12 @@ keywords:
 - Схема AD, привязка к
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65bf246a4ea1ded5c7d80c52abb8ac9192182b3b
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: a1492814bbce4b359a16c10f1d92340ae06d0f3c58177cd125a0b0c861f32f76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103890423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118188688"
 ---
 # <a name="guidelines-for-binding-to-the-schema"></a>Рекомендации по привязке к схеме
 
@@ -36,6 +36,6 @@ ms.locfileid: "103890423"
 -   Для запроса объектов **attributeSchema** и **classSchema** . Для поиска классов или атрибутов, соответствующих заданному фильтру, необходимо выполнить привязку к контейнеру схемы и выполнить одноуровневый поиск.
 -   Для добавления или изменения атрибутов или классов. Абстрактная схема доступна только для чтения. его нельзя использовать для изменения или расширения схемы. Имейте в виду, что изменения должны выполняться на контроллере домена, который является хозяином схемы. Дополнительные сведения см. в разделе [Предварительные требования для установки расширения схемы](prerequisites-for-installing-a-schema-extension.md).
 
- 
+ 
 
- 
+ 

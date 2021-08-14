@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c56f259a35026bb47a5e58b7b364b52d9bedbc5e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b57cc9423fd8e6ef7ccfe94ad70195204ab0f3fe566f008b4c7606938a1349fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118498174"
 ---
 # <a name="apijetsetcurrentindex3-method"></a>API. JetSetCurrentIndex3, метод
 
@@ -84,7 +84,7 @@ public static void JetSetCurrentIndex3(
 
 <!-- end list -->
 
-  - index  
+  - индекс  
     Тип: [System. String](/dotnet/api/system.string)  
     
     Имя выбранного индекса. Если это значение равно null или пуст, первичный индекс будет выбран.

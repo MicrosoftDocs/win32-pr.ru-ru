@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 13d10aa4dff84f06d6afb9934770fd38efbe64d9
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: d128cd0dda52a17f7eefd0e4f110601aba5e13cd64c06e80e2a8c71e6c02c508
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104070637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118498716"
 ---
 # <a name="baseeapmethodconfig-schema"></a>Схема басиапмесодконфиг
 
@@ -22,16 +22,16 @@ ms.locfileid: "104070637"
 
 -   [Сложные типы схемы басиапмесодконфиг](baseeapmethodconfigschema-complex-types.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [EAPHost и схема прежних версий](eaphost-schemas.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

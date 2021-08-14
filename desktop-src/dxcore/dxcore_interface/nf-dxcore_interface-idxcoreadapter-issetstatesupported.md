@@ -4,12 +4,12 @@ description: Определяет, поддерживает ли этот объ
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 284e38a622c882fce04278d9134908f55c9a25cb
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: dc63b541a552f1b01792e9f503acc7aeee03ce5ac6cc92e7b70e271ae62a50ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118278982"
 ---
 # <a name="idxcoreadapterissetstatesupported-method"></a>Метод Идкскореадаптер:: Иссетстатесуппортед
 
@@ -34,7 +34,7 @@ virtual bool STDMETHODCALLTYPE IsSetStateSupported(
 
 Тип: **bool** .
 
-Возвращает  `true`   значение, если этот объект адаптера дкскоре и текущая операционная система (ОС) поддерживают задание указанного состояния адаптера. В противном случае возвращает  `false` .
+Возвращает `true` значение, если этот объект адаптера дкскоре и текущая операционная система (ОС) поддерживают задание указанного состояния адаптера. В противном случае возвращается `false`.
 
 ## <a name="see-also"></a>См. также раздел
 

@@ -8,12 +8,12 @@ keywords:
 - Сопоставление пользовательского интерфейса, объект Group AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe2277c24f621f8e32f46b9e9571d0d0d4de9cfc
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 308b3bafc24f8b8419b23c351d981f4f01961885cd535ac2d24b96cd62e17633
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104069765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118188968"
 ---
 # <a name="group-object-user-interface-mapping"></a>Сопоставление пользовательского интерфейса объекта группы
 
@@ -32,7 +32,7 @@ ms.locfileid: "104069765"
 
 | Метка пользовательского интерфейса                      | Атрибут в домен Active Directory Services     |
 |-------------------------------|---------------------------------------------------|
-| Имя группы (пред-Windows 2000) | [**SAM-имя учетной записи**](/windows/desktop/ADSchema/a-samaccountname) |
+| имя группы (до Windows 2000) | [**SAM-имя учетной записи**](/windows/desktop/ADSchema/a-samaccountname) |
 | Описание                   | [**Описание**](/windows/desktop/ADSchema/a-description)         |
 | E-Mail                        | [**Адреса электронной почты**](/windows/desktop/ADSchema/a-mail)           |
 | Область групп                   | [**Тип группы**](/windows/desktop/ADSchema/a-grouptype)            |
@@ -81,11 +81,11 @@ ms.locfileid: "104069765"
 |------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | Имя                               | [**Под управлением**](/windows/desktop/ADSchema/a-managedby)                                                                                          |
 | Руководитель может обновить список членов | Нет. Запись ACE с разрешением "разрешить членов записи" добавляется к учетной записи, указанной по **имени**.                        |
-| Office                             | Атрибут [**физической доставки — Office-Name**](/windows/desktop/ADSchema/a-physicaldeliveryofficename) учетной записи, идентифицируемой по **имени**. |
+| Office                             | атрибут [**физической доставки-Office-name**](/windows/desktop/ADSchema/a-physicaldeliveryofficename) учетной записи, идентифицируемой по **имени**. |
 | Улица                             | Атрибут [**улицы-Address**](/windows/desktop/ADSchema/a-street) учетной записи, идентифицируемой по **имени**.                                    |
-| Город                               | Атрибут [**local-name**](/windows/desktop/ADSchema/a-l) учетной записи, идентифицируемой по **имени**.                                          |
+| City                               | Атрибут [**local-name**](/windows/desktop/ADSchema/a-l) учетной записи, идентифицируемой по **имени**.                                          |
 | область, республика, край, округ;                     | Атрибут [**State-or-провинция-Name**](/windows/desktop/ADSchema/a-st) учетной записи, идентифицируемой по **имени**.                                |
-| Страна или регион                     | Атрибут [**Country-Name**](/windows/desktop/ADSchema/a-c) учетной записи, идентифицируемой по **имени**.                                           |
+| Страна                     | Атрибут [**Country-Name**](/windows/desktop/ADSchema/a-c) учетной записи, идентифицируемой по **имени**.                                           |
 | Номер телефона                   | Атрибут [**номера телефона**](/windows/desktop/ADSchema/a-telephonenumber) учетной записи, идентифицируемой по **имени**.                         |
 | Номер факса                         | Атрибут " [**Факс-телефон-номер**](/windows/desktop/ADSchema/a-facsimiletelephonenumber) " учетной записи, идентифицируемой по **имени**.      |
 

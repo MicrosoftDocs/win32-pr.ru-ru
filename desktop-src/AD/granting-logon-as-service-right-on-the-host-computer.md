@@ -5,12 +5,12 @@ ms.assetid: 1b217650-4397-4e28-b53e-8b03f3caf903
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95ef2bb87c3cf461e67cb7da20f36d9ac07fb362
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ef53e68feb9312bb8efdca285716aa5b6ea077e2e85f6c5538eb13532b51a8ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103773148"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118188958"
 ---
 # <a name="granting-logon-as-service-right-on-the-host-computer"></a>Предоставление прав на вход в качестве службы на главном компьютере
 
@@ -18,9 +18,9 @@ ms.locfileid: "103773148"
 
 Дополнительные сведения о том, как программно предоставить право на вход в качестве службы, см. в [примере кода лсапривс](https://www.google.com/#q=LSAPrivs).
 
- 
+ 
 
- 
+ 
 
 
 

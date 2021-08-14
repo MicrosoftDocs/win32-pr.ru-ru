@@ -7,12 +7,12 @@ keywords:
 - Рекомендации по выбору учетной записи входа в службу AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5bb8f5b4fe6a57863c09c9563454fc3ec09e75c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1a976927130a3585be2e6130dbb71b37fa0c69660b6ae953e28909fad3db570f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067370"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118188678"
 ---
 # <a name="guidelines-for-selecting-a-service-logon-account"></a>Рекомендации по выбору учетной записи входа в службу
 
@@ -26,9 +26,9 @@ ms.locfileid: "104067370"
 -   [Учетные записи пользователей домена](domain-user-accounts.md).
 -   [Учетная запись LocalSystem](the-localsystem-account.md).
 
- 
+ 
 
- 
+ 
 
 
 

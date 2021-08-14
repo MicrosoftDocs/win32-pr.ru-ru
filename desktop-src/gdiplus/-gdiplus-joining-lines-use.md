@@ -4,12 +4,12 @@ ms.assetid: 4ec3e76a-2531-4869-a5b0-c595198e8345
 title: Соединение строк
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b2ab0bc53239b9a0d9327a26e25eed1c93c685b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b2aa93eac405bd77f6d87b2a8b86edc8a4043a57de3e4c4d5f31fb45acecc955
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104555665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118066978"
 ---
 # <a name="joining-lines"></a>Соединение строк
 

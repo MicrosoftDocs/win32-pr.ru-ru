@@ -4,12 +4,12 @@ description: WinINet позволяет приложениям перемеща�
 ms.assetid: 23763672-765f-4bbc-95c9-c28775e91f3d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8310c2b83b81fc18b84d39153ed3dc7afda0df5a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 70942fea5865fa96c9ee81ab996238e3f382471a701ac44969d1ff8797c8780d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070299"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118113984"
 ---
 # <a name="ftp-sessions"></a>Сеансы FTP
 
@@ -73,7 +73,7 @@ WinINet позволяет выполнять следующие действи�
 
 
 
- 
+ 
 
 ### <a name="starting-an-ftp-session"></a>Запуск сеанса FTP
 
@@ -560,10 +560,10 @@ BOOL WINAPI RenameFtpFile( HWND hDlg, HINTERNET hConnection,
 
 
 > [!Note]  
-> WinINet не поддерживает реализации серверов. Кроме того, его не следует использовать из службы. Для серверных реализаций или служб используйте [службы Microsoft Windows HTTP Services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet не поддерживает реализации серверов. Кроме того, его не следует использовать из службы. для серверных реализаций или служб используйте [Microsoft Windows HTTP services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
- 
+ 
 
- 
+ 
 
- 
+ 

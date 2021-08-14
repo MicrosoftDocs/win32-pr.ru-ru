@@ -4,12 +4,12 @@ ms.assetid: 0d7ce9ca-9f34-4842-bd49-9211ae4454de
 title: Сведения о источнике Sequencer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d8de3e0ff46cab1e68b767294633ecd09ebc161
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09d81799a8bc1e46ade10989bbe485c69e839832fce0ded14220c536809e23e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104542175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118065566"
 ---
 # <a name="about-the-sequencer-source"></a>Сведения о источнике Sequencer
 
@@ -31,14 +31,14 @@ ms.locfileid: "104542175"
 
 ![Схема, показывающая поток данных из сегментов имфмедиасессион, имфсекуенцерсаурце и списка воспроизведения, ведущих к имфмедиасаурце](images/dbf41a05-d8cc-4502-9cd3-74e5d1ce04a0.gif)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Создание списка воспроизведения](how-to-create-a-playlist.md)
 </dt> <dt>
 
-[Топологии](topologies.md)
+[Топологий](topologies.md)
 </dt> <dt>
 
 [Использование источника Sequencer](using-the-sequencer-source.md)

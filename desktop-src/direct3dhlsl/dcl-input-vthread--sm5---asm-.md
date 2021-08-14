@@ -4,12 +4,12 @@ description: Объявите идентификаторы входных дан
 ms.assetid: C041863A-32B0-4588-A1A9-E416AF9B723C
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fbf6a7bb19feef95eae9cc153911407b206fde16
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 07c7eef8fe85ae39fb61d9e34b600805d38f7b92d5dbceb7dc2218b1515b6d36
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103785019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118286202"
 ---
 # <a name="dcl_input-vthread-sm5---asm"></a>дкл \_ input всреад (SM5-ASM)
 
@@ -45,7 +45,7 @@ ms.locfileid: "103785019"
 
 
 
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
+| Вершина | Поверхности | Домен | Geometry | Пиксель | Вычисления |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          |       | X       |
 
@@ -72,7 +72,7 @@ ms.locfileid: "103785019"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

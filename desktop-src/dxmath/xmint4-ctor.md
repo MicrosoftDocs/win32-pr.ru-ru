@@ -4,12 +4,12 @@ ms.assetid: 8b4084b1-513f-4de7-94ac-1bbafb5ba042
 title: Конструкторы XMINT4 (Директксмас. h)
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: d26084965b3825418a4ce8d76ac5396553b807e0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b9c77e44ffced552af4592667813435200989cb52d322549031fd63620b24b28
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118500041"
 ---
 # <a name="xmint4-constructors"></a>Конструкторы XMINT4
 
@@ -70,13 +70,13 @@ ms.locfileid: "105708495"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Директксмас. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Директксмас. h</dt> </dl> |
 
 
 

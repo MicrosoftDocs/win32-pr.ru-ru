@@ -4,12 +4,12 @@ description: API HTTP позволяет приложениям выполнят
 ms.assetid: 5118b48b-b44c-4cf5-9754-ce23c5a0b87e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c1b0a310f9fe86b2e6972aa2dff3d3b7fc05965
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9b240438ada7fce186f334df3175b8ecc5b557626c5f1f085cdf82965fb32365
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105661591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118393756"
 ---
 # <a name="run-time-configuration"></a>Конфигурация Run-Time
 
@@ -19,9 +19,9 @@ API HTTP позволяет приложениям выполнять динам
 -   Регистрация для URL-адресов. После создания сеанса сервера приложение может зарегистрироваться для получения URL-адресов, создав одну или несколько групп URL-адресов. Группа URL-адресов — это группа URL-адресов, к которым будут применяться одни и те же свойства. Приложение создает группу URL-адресов, вызывая функцию [**хттпкреатеурлграуп**](/windows/desktop/api/Http/nf-http-httpcreateurlgroup) , а затем добавляет нужные URL-адреса путем вызова функции [**хттпаддурлтаурлграуп**](/windows/desktop/api/Http/nf-http-httpaddurltourlgroup) . После регистрации приложения для URL-адресов путем создания группы URL-адресов и связывания группы URL-адресов с очередью запросов (см. раздел [Создание и привязка к очереди запросов](creating-and-binding-to-a-request-queue.md)) все запросы, поступающие из этих URL-адресов, направляются в очередь запросов, связанную с этим приложением. Дополнительные сведения о свойствах задав для группы URL-адресов см. в разделе [ **хттпсетурлграуппроперти**](/windows/desktop/api/Http/nf-http-httpseturlgroupproperty)
 -   Включение функций путем задания свойств HTTP-сервера, таких как [Проверка подлинности](authentication-in-http-version-2-0.md), [ведение журнала](server-side-logging-in-http-version-2-0.md), параметры качества обслуживания, время ожидания, включенное состояние и сведения о привязке. Дополнительные сведения о настройке свойств см. в разделе [**\_ \_ свойство HTTP-сервера**](/windows/desktop/api/Http/ne-http-http_server_property).
 
- 
+ 
 
- 
+ 
 
 
 

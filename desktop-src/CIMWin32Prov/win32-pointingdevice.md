@@ -1,5 +1,5 @@
 ---
-description: '\_Класс WMI поинтингдевице инструментария Win32 представляет устройство ввода, используемое для указания и выбора регионов на дисплее компьютерной системы под Windows.'
+description: '\_Класс WMI поинтингдевице инструментария Win32 представляет устройство ввода, используемое для указания и выбора регионов на дисплее компьютерной системы, на которой работает Windows.'
 ms.assetid: ed81abe3-3d8f-48aa-ab64-9e6c87e44f64
 ms.tgt_platform: multiple
 title: Класс Win32_PointingDevice
@@ -49,16 +49,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 3e4f2359e19476dfae111fc361f48e6f73d8cfac
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: acf2c33c3561d6024afd196c86eee4aa61af492ec43a4f8a827dfea6fb1d5d4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655701"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118417060"
 ---
 # <a name="win32_pointingdevice-class"></a>\_Класс Win32 поинтингдевице
 
-Класс **WMI \_ поинтингдевице** [инструментария](../wmisdk/retrieving-a-class.md) Win32 представляет устройство ввода, используемое для указания и выбора регионов на дисплее компьютерной системы под Windows. Все устройства, используемые для работы с указателем, или указывают на отображение на компьютере, работающем под Windows, являются членами этого класса.
+Класс **WMI \_ поинтингдевице** [инструментария](../wmisdk/retrieving-a-class.md) Win32 представляет устройство ввода, используемое для указания и выбора регионов на дисплее компьютерной системы, на которой работает Windows. любое устройство, используемое для работы с указателем, или указание на отображение в компьютерной системе, где работает Windows, является членом этого класса.
 
 Следующий пример синтаксиса — упрощенный MOF-код, который включает все наследуемые свойства. Свойства перечислены в алфавитном порядке, а не в MOF.
 
@@ -335,7 +335,7 @@ class Win32_PointingDevice : CIM_PointingDevice
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -424,12 +424,12 @@ class Win32_PointingDevice : CIM_PointingDevice
 
 <span id="The_driver_for_this_device_needs_a_resource_that_Windows_cannot_manage."></span><span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>
 
-<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**Драйверу для этого устройства требуется ресурс, который Windows не может управлять.** (5)
+<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**драйверу для этого устройства нужен ресурс, который Windows не может управлять.** (5)
 
 
 </dt> <dd>
 
-Драйверу для устройства требуется ресурс, который Windows не может управлять.
+драйверу для устройства требуется ресурс, который Windows не может управляться.
 
 </dd> <dt>
 
@@ -636,23 +636,23 @@ Windows не удается найти все ресурсы, используе
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Это устройство все еще настраивается Windows.** (25)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows все еще настраивает это устройство.** (25)
 
 
 </dt> <dd>
 
-Устройство все еще настраивается.
+Windows все еще настраивает устройство.
 
 </dd> <dt>
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Это устройство все еще настраивается Windows.** (26)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows все еще настраивает это устройство.** (26)
 
 
 </dt> <dd>
 
-Устройство все еще настраивается.
+Windows все еще настраивает устройство.
 
 </dd> <dt>
 
@@ -702,7 +702,7 @@ Windows не удается найти все ресурсы, используе
 
 <span id="This_device_is_not_working_properly_because_Windows_cannot_load_the_drivers_required_for_this_device."></span><span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>
 
-<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**Это устройство работает неправильно, так как Windows не может загрузить драйверы, необходимые для этого устройства.** 1-31
+<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**это устройство работает неправильно, так как Windows не может загрузить драйверы, необходимые для этого устройства.** 1-31
 
 
 </dt> <dd>
@@ -889,7 +889,7 @@ Windows не удается найти все ресурсы, используе
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32API \| System Information functions \| Системпараметерсинфо"), [**Units**](../wmisdk/standard-qualifiers.md) ("миккэйс")
+квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32API \| Сведения о системе functions \| системпараметерсинфо"), [**units**](../wmisdk/standard-qualifiers.md) ("миккэйс")
 </dt> </dl>
 
 Одно из двух значений ускорения. Чувствительность указывающего устройства удваивается (переключается с первого на второе значение), когда указывающее устройство перемещает расстояние, превышающее это пороговое значение.
@@ -991,7 +991,7 @@ Left-Handed операция
 Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| hKey \_ локальный \_ компьютер \\ \\ System \\ \\ ControlSet001 \\ \\ \\ \\ класс управления \| дривердеск")
 </dt> </dl>
 
-Тип оборудования, используемого для указывающего устройства Windows.
+тип оборудования, используемого для Windows указывающего устройства.
 
 Пример: "мышь MICROSOFT PS2"
 
@@ -1009,7 +1009,7 @@ Left-Handed операция
 Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| hKey \_ локальный \_ компьютер \\ \\ System \\ \\ CurrentControlSet \\ \\ \\ \\ класс управления \| инфпас")
 </dt> </dl>
 
-Имя INF-файла для указывающего устройства Windows.
+имя inf-файла для Windows указывающего устройства.
 
 Пример: "AB. INF"
 
@@ -1027,7 +1027,7 @@ Left-Handed операция
 Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| hKey \_ локальный \_ компьютер \\ \\ System \\ \\ CurrentControlSet \\ \\ \\ \\ класс управления \| инфсектион")
 </dt> </dl>
 
-Файл INF, содержащий сведения о конфигурации для указывающего устройства Windows.
+раздел inf-файла, в котором содержатся сведения о конфигурации для Windows указывающего устройства.
 
 </dd> <dt>
 
@@ -1097,7 +1097,7 @@ Left-Handed операция
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -1144,7 +1144,7 @@ Left-Handed операция
 Квалификаторы: [**схема**](../wmisdk/standard-qualifiers.md) ("Win32")
 </dt> </dl>
 
-Идентификатор устройства Windows самонастраивающийся логического устройства.
+Windows Самонастраивающийся идентификатор устройства логического устройства.
 
 Это свойство наследуется [**от \_ CIM**](cim-logicaldevice.md)-унаследованной модели.
 
@@ -1358,7 +1358,7 @@ Left-Handed операция
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32API \| System Information functions \| Системпараметерсинфо"), [**Units**](../wmisdk/standard-qualifiers.md) ("миккэйс")
+квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32API \| Сведения о системе functions \| системпараметерсинфо"), [**units**](../wmisdk/standard-qualifiers.md) ("миккэйс")
 </dt> </dl>
 
 Одно из двух пороговых значений ускорения. Система удваивает скорость перемещения указателя, когда указатель мыши перемещает расстояние больше этого значения. Так как это увеличение скорости происходит после того, как значение **даублеспидсрешолд** выполнено, указатель эффективно перемещается в четыре раза больше его исходной скорости.
@@ -1614,11 +1614,11 @@ Left-Handed операция
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ поинтингдевице** является производным от [**CIM \_ поинтингдевице**](cim-pointingdevice.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

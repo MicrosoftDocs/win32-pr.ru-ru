@@ -7,19 +7,19 @@ keywords:
 - Active Directory примеры Active Directory, Поиск пользователей
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34d587cf6264017fccb35fc7a82ac1e2c68c1785
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: b974299416a508546fd8bc6108890579726c9dba6b01bb485f2160f04491923e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104412771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118190166"
 ---
 # <a name="example-code-for-searching-for-users"></a>Пример кода для поиска пользователей
 
 В следующем примере кода осуществляется поиск пользователей в домене учетной записи пользователя, под которой выполняется вызывающий процесс.
 
 -   [Пример C++](#c-example)
--   [Пример Visual Basic](#visual-basic-example)
+-   [Visual Basic Например](#visual-basic-example)
 
 ## <a name="c-example"></a>Пример C++
 
@@ -484,9 +484,9 @@ HRESULT FindUsers(IDirectorySearch *pContainerToSearch,  //  IDirectorySearch po
 
 
 
-## <a name="visual-basic-example"></a>Пример Visual Basic
+## <a name="visual-basic-example"></a>Visual Basic Например
 
-В следующем примере кода Visual Basic выполняется поиск пользователей с указанной фамилией в текущем домене и возвращение атрибутов Name и [**distinguishedName**](/windows/desktop/ADSchema/a-distinguishedname) для найденных объектов. В следующем примере кода для выполнения поиска используется ADO.
+в следующем примере кода Visual Basic выполняется поиск пользователей с указанной фамилией в текущем домене и возвращение атрибутов name и [**distinguishedName**](/windows/desktop/ADSchema/a-distinguishedname) для найденных объектов. В следующем примере кода для выполнения поиска используется ADO.
 
 
 ```VB
@@ -619,6 +619,6 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 

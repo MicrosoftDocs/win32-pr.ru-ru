@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a581293426c421de0dd76636a9f446f245f6ab32
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: fa9d9103b317482e3fbd2cf1187775335f551a224f111f1b9e4d8c149f70a39b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118421645"
 ---
 # <a name="cim_productphysicalelements-class"></a>\_Класс CIM продуктфисикалелементс
 
@@ -51,7 +51,7 @@ class CIM_ProductPhysicalElements
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ продуктфисикалелементс** имеет следующие свойства.
 
@@ -86,13 +86,13 @@ class CIM_ProductPhysicalElements
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Инструментарий WMI не реализует этот класс.
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

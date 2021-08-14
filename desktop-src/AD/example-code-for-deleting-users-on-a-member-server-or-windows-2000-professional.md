@@ -1,10 +1,10 @@
 ---
-title: Пример кода для удаления пользователей на рядовом сервере или в Windows 2000 Professional
+title: пример кода для удаления пользователей на рядовом сервере или Windows 2000 Professional
 description: В этом разделе содержится пример кода, показывающий, как удалить пользователя на рядовом сервере или рабочей станции.
 ms.assetid: 04469061-f95c-4810-99d0-03d98b70d3d3
 ms.tgt_platform: multiple
 keywords:
-- Active Directory примеры Active Directory, удаление пользователей на рядовом сервере или в Windows 2000 Professional
+- Active Directory примеры Active Directory, удаления пользователей на рядовом сервере или Windows 2000 Professional
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:
@@ -12,16 +12,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e4831fb1276f71245e6de46f61c9428267491d05
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2da6ad3a0c8bacf10dbf4e0210e35076d4d4bf9c76b082c861428ae3198f14d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067378"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118190747"
 ---
-# <a name="example-code-for-deleting-users-on-a-member-server-or-windows-2000-professional"></a>Пример кода для удаления пользователей на рядовом сервере или в Windows 2000 Professional
+# <a name="example-code-for-deleting-users-on-a-member-server-or-windows-2000-professional"></a>пример кода для удаления пользователей на рядовом сервере или Windows 2000 Professional
 
-Следующий Visual Basic код удаляет пользователя на рядовом сервере или рабочей станции.
+следующий Visual Basic код удаляет пользователя на рядовом сервере или рабочей станции.
 
 
 ```VB
@@ -78,9 +78,9 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 
 
 
 

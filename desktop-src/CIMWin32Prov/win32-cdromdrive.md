@@ -1,5 +1,5 @@
 ---
-description: Представляет дисковод компакт-дисков в компьютерной системе под управлением Windows.
+description: Представляет устройство чтения компакт-дисков в компьютерной системе, на которой работает Windows.
 ms.assetid: 08087976-ca88-4ac8-9456-0d8bd799e66c
 ms.tgt_platform: multiple
 title: Класс Win32_CDROMDrive
@@ -65,16 +65,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 6c352d2ee717f5eb888b49d6e5e8ff456cc5a85f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1148cffe4e6a13aac1b873a95cd57233ae65addeb5aca15dfe8ccdab834d730c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118418255"
 ---
 # <a name="win32_cdromdrive-class"></a>\_Класс Win32 кдромдриве
 
-[Класс WMI](/windows/desktop/WmiSdk/retrieving-a-class) **\_ кдромдриве для Win32** представляет дисковод компакт-дисков в компьютерной системе под управлением Windows.
+Класс **WMI \_ кдромдриве** [инструментария](/windows/desktop/WmiSdk/retrieving-a-class) Win32 представляет устройство чтения компакт-дисков в компьютерной системе, на которой работает Windows.
 
 > [!Note]  
 > Имейте в виду, что имя диска не соответствует назначенному устройству букве логического диска.
@@ -381,7 +381,7 @@ class Win32_CDROMDrive : CIM_CDROMDrive
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**arrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ("индексированный"), [**Маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF. \|Устройства хранения DMTF \| 001,9 "," MIF. \|Устройства хранения DMTF \| 001,11 "," MIF. \|Устройства хранения DMTF \| 001,12 "," MIF. \|Диски DMTF \| 003,7 "), [**Моделкорреспонденце**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM \_ медиаакцессдевице**](cim-mediaaccessdevice.md).**Капабилитидескриптионс**")
+Квалификаторы: [**arrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ("индексированный"), [**Маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF. DMTF \| служба хранилища устройства \| 001,9 "," MIF. DMTF \| служба хранилища устройства \| 001,11 "," MIF. DMTF \| служба хранилища устройства \| 001,12 "," MIF. \|Диски DMTF \| 003,7 "), [**Моделкорреспонденце**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM \_ медиаакцессдевице**](cim-mediaaccessdevice.md).**Капабилитидескриптионс**")
 </dt> </dl>
 
 Массив возможностей устройства доступа к носителю. Например, устройство может поддерживать произвольный доступ (3), съемный носитель (7) и автоматическую чистку (9).
@@ -509,7 +509,7 @@ class Win32_CDROMDrive : CIM_CDROMDrive
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -589,7 +589,7 @@ class Win32_CDROMDrive : CIM_CDROMDrive
 Квалификаторы: [**схема**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")
 </dt> </dl>
 
-Код ошибки Windows Configuration Manager.
+Windows Configuration Manager код ошибки.
 
 Это свойство наследуется [**от \_ CIM**](cim-logicaldevice.md)-унаследованной модели.
 
@@ -648,12 +648,12 @@ class Win32_CDROMDrive : CIM_CDROMDrive
 
 <span id="The_driver_for_this_device_needs_a_resource_that_Windows_cannot_manage."></span><span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>
 
-<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**Драйверу для этого устройства требуется ресурс, который Windows не может управлять.** (5)
+<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**драйверу для этого устройства нужен ресурс, который Windows не может управлять.** (5)
 
 
 </dt> <dd>
 
-Драйверу для устройства требуется ресурс, который Windows не может управлять.
+драйверу для устройства требуется ресурс, который Windows не может управляться.
 
 </dd> <dt>
 
@@ -860,23 +860,23 @@ Windows не удается найти все ресурсы, используе
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Это устройство все еще настраивается Windows.** (25)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows все еще настраивает это устройство.** (25)
 
 
 </dt> <dd>
 
-Устройство все еще настраивается.
+Windows все еще настраивает устройство.
 
 </dd> <dt>
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Это устройство все еще настраивается Windows.** (26)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows все еще настраивает это устройство.** (26)
 
 
 </dt> <dd>
 
-Устройство все еще настраивается.
+Windows все еще настраивает устройство.
 
 </dd> <dt>
 
@@ -926,7 +926,7 @@ Windows не удается найти все ресурсы, используе
 
 <span id="This_device_is_not_working_properly_because_Windows_cannot_load_the_drivers_required_for_this_device."></span><span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>
 
-<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**Это устройство работает неправильно, так как Windows не может загрузить драйверы, необходимые для этого устройства.** 1-31
+<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**это устройство работает неправильно, так как Windows не может загрузить драйверы, необходимые для этого устройства.** 1-31
 
 
 </dt> <dd>
@@ -1136,7 +1136,7 @@ Windows не удается найти все ресурсы, используе
 Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API \| Файловая система-функции \| [**жетволумеинформатион**](/windows/desktop/api/fileapi/nf-fileapi-getvolumeinformationa)")
 </dt> </dl>
 
-Флаги файловой системы, связанные с устройством чтения компакт-дисков Windows. Этот параметр может быть любым сочетанием флагов, **но \_ \_ Сжатие файлов FS и файл** **\_ \_ - \_ Vol** со степенью сжатия являются взаимоисключающими.
+флаги файловой системы, связанные с дисководом Windows CD-rom. Этот параметр может быть любым сочетанием флагов, **но \_ \_ Сжатие файлов FS и файл** **\_ \_ - \_ Vol** со степенью сжатия являются взаимоисключающими.
 
 <dt>
 
@@ -1230,7 +1230,7 @@ Windows не удается найти все ресурсы, используе
 
 <span id="Supports_Remote_Storage"></span><span id="supports_remote_storage"></span><span id="SUPPORTS_REMOTE_STORAGE"></span>
 
-<span id="Supports_Remote_Storage"></span><span id="supports_remote_storage"></span><span id="SUPPORTS_REMOTE_STORAGE"></span>**Поддержка удаленного хранилища** (256)
+<span id="Supports_Remote_Storage"></span><span id="supports_remote_storage"></span><span id="SUPPORTS_REMOTE_STORAGE"></span>**поддерживает удаленное служба хранилища** (256)
 
 
 </dt> <dd>
@@ -1296,7 +1296,7 @@ Windows не удается найти все ресурсы, используе
 
 <span id="Supports_Named_Streams"></span><span id="supports_named_streams"></span><span id="SUPPORTS_NAMED_STREAMS"></span>
 
-<span id="Supports_Named_Streams"></span><span id="supports_named_streams"></span><span id="SUPPORTS_NAMED_STREAMS"></span>**Поддерживает именованные потоки** (262144)
+<span id="Supports_Named_Streams"></span><span id="supports_named_streams"></span><span id="SUPPORTS_NAMED_STREAMS"></span>**поддерживает именованные Потоки** (262144)
 
 
 </dt> <dd>
@@ -1372,7 +1372,7 @@ Windows не удается найти все ресурсы, используе
 Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32Registry")
 </dt> </dl>
 
-Изготовитель устройства чтения компакт-дисков Windows.
+изготовитель дисковода компакт-дисков Windows.
 
 Пример: "ПЛЕКСТОР"
 
@@ -1410,7 +1410,7 @@ Windows не удается найти все ресурсы, используе
 Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API \| Файловая система-функции \| [**жетволумеинформатион**](/windows/desktop/api/fileapi/nf-fileapi-getvolumeinformationa)")
 </dt> </dl>
 
-Максимальная длина компонента имени файла, поддерживаемого дисководом компакт-дисков Windows. Компонент имени файла часть имени файла между символами обратной косой черты. Значение можно использовать, чтобы указать, что в указанной файловой системе поддерживаются длинные имена. Например, для файловой системы FAT, поддерживающей длинные имена, функция сохраняет значение 255, а не предыдущий индикатор 8,3. Длинные имена также могут поддерживаться в системах, использующих файловую систему NTFS.
+максимальная длина компонента имени файла, поддерживаемого дисководом Windows CD-ROM. Компонент имени файла часть имени файла между символами обратной косой черты. Значение можно использовать, чтобы указать, что в указанной файловой системе поддерживаются длинные имена. Например, для файловой системы FAT, поддерживающей длинные имена, функция сохраняет значение 255, а не предыдущий индикатор 8,3. Длинные имена также могут поддерживаться в системах, использующих файловую систему NTFS.
 
 Пример: 255
 
@@ -1534,7 +1534,7 @@ Windows не удается найти все ресурсы, используе
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -1594,7 +1594,7 @@ Windows не удается найти все ресурсы, используе
 Квалификаторы: [**схема**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")
 </dt> </dl>
 
-Идентификатор устройства Windows самонастраивающийся логического устройства.
+Windows Самонастраивающийся идентификатор устройства логического устройства.
 
 Это свойство наследуется [**от \_ CIM**](cim-logicaldevice.md)-унаследованной модели.
 
@@ -1728,7 +1728,7 @@ Windows не удается найти все ресурсы, используе
 Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32Registry \| ревисионлевел")
 </dt> </dl>
 
-Уровень редакции встроенного по устройства чтения компакт-дисков Windows.
+уровень редакции встроенного по Windows дисководе компакт-дисков.
 
 </dd> <dt>
 
@@ -1798,7 +1798,7 @@ Windows не удается найти все ресурсы, используе
 Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API \| DeviceIoControl \| ioctl \_ SCSI \_ Get \_ Address")
 </dt> </dl>
 
-Номер идентификатора SCSI устройства чтения компакт-дисков Windows.
+номер идентификатора SCSI Windows дисковода компакт-дисков.
 
 Пример: 0
 
@@ -2063,7 +2063,7 @@ Windows не удается найти все ресурсы, используе
 Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API \| Файловая система-функции \| [**жетволумеинформатион**](/windows/desktop/api/fileapi/nf-fileapi-getvolumeinformationa)")
 </dt> </dl>
 
-Имя тома компакт-диска Windows.
+имя тома дисковода компакт-дисков Windows.
 
 </dd> <dt>
 
@@ -2085,7 +2085,7 @@ Windows не удается найти все ресурсы, используе
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ кдромдриве** является производным от [**CIM \_ кдромдриве**](cim-cdromdrive.md) , который является производным от [**CIM \_ медиаакцессдевице**](cim-mediaaccessdevice.md). Класс **CIM \_ медиаакцессдевице** является производным от [**CIM \_**](cim-logicaldevice.md)с параметром.
 
@@ -2110,7 +2110,7 @@ Next
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
