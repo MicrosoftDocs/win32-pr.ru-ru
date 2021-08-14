@@ -8,20 +8,20 @@ keywords:
 - ADSI ADSI, поставщики услуг, маршрутизатор
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24b3bc413374231af0fcc3215e2f791760cd94c7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: da98553461ae2b76ef7871840e9274d24e68f82e32378511e3232cb81882bb8c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986123"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118429114"
 ---
 # <a name="adsi-router"></a>Маршрутизатор ADSI
 
 Маршрутизатор ADSI располагается между клиентом и поставщиками ADSI. Он реализует основной набор объектов, которые предлагают базовые функции и службы, общие для всех поставщиков. Таким образом, любая функция, поддерживаемая в маршрутизаторе, также поддерживается в любом поставщике, если только не выбирает в противном случае. Модуль маршрутизатора ADSI соответствует Activeds.dll.
 
- 
+ 
 
- 
+ 
 
 
 

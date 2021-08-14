@@ -1,5 +1,5 @@
 ---
-description: Портативные устройства Windows поддерживают следующие свойства SMS.
+description: Windows Портативные устройства поддерживают следующие свойства SMS.
 ms.assetid: d821f378-522f-4f0a-825b-6b15295e7b12
 title: Свойства SMS (Портабледевице. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: c43917c8c26027713b4e5076e8eb3789b95f08e6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 12b68a962fc79dd75d6ff90635be5dbe99f36c3170f06cd7d79af2eb23317e98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105717861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118193585"
 ---
 # <a name="sms-properties"></a>Свойства SMS
 
-Портативные устройства Windows поддерживают следующие свойства SMS.
+Windows Портативные устройства поддерживают следующие свойства SMS.
 
 
 
@@ -37,13 +37,13 @@ ms.locfileid: "105717861"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Портабледевице. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Портабледевице. h</dt> </dl> |
 
 
 

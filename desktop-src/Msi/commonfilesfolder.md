@@ -4,24 +4,24 @@ ms.assetid: b5695525-52f8-46b6-bd67-9bd2fdc71e52
 title: Коммонфилесфолдер, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d47d52419ffd080cabfb6cfd40cdf2dd27e3672
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 70c93b27d51f57e2948427c6e579e6b5f7405472bdda0ec8d7eaefe56eb5de6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668642"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118380117"
 ---
 # <a name="commonfilesfolder-property"></a>Коммонфилесфолдер, свойство
 
 Установщик задает для свойства **коммонфилесфолдер** полный путь к папке Common Files для текущего пользователя.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

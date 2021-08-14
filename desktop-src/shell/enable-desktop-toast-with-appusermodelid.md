@@ -9,35 +9,35 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbSyntax
-ms.openlocfilehash: bd02a0ec6512aa7637f0d6b2b281e1b862e61d3d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 517c2b72e830c00b105048adc63923291f896cd5d0d77569c91b1aa12e034e60
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104985088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118459796"
 ---
 # <a name="how-to-enable-desktop-toast-notifications-through-an-appusermodelid"></a>Включение всплывающих уведомлений рабочего стола через AppUserModelID
 
-В этом разделе показано, как создать ярлык для приложения, назначить ему [AppUserModelID](appids.md)и установить его на начальном экране. Настоятельно рекомендуется делать это в установщик Windows, а не в коде приложения. Если на начальном экране или во **всех программах** не установлен допустимый ярлык, вы не сможете создавать всплывающие уведомления из классического приложения.
+В этом разделе показано, как создать ярлык для приложения, назначить ему [AppUserModelID](appids.md)и установить его на начальном экране. настоятельно рекомендуется делать это в установщик Windows, а не в коде приложения. Если на начальном экране или во **всех программах** не установлен допустимый ярлык, вы не сможете создавать всплывающие уведомления из классического приложения.
 
 > [!Note]  
 > Примеры методов, используемых в этом разделе, взяты из [примера всплывающего уведомления на рабочем столе](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/DesktopToasts).
 
  
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
 -   COM
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   Библиотеки
     -   C++: Runtime. Object. lib
-    -   C \# : Windows. winmd
--   В \# . пакет кода Windows API для Microsoft .NET Framework
--   Версия Microsoft Visual Studio, поддерживающая не менее Windows 8
+    -   В. \# Windows. WinMD
+-   в \# . Windows пакет кода API для Microsoft платформа .NET Framework
+-   версия Microsoft Visual Studio, поддерживающая по меньшей мере Windows 8
 
 ## <a name="instructions"></a>Инструкции
 
@@ -144,11 +144,11 @@ HRESULT DesktopToastsApp::InstallShortcut(_In_z_ wchar_t *shortcutPath)
 
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
-В качестве альтернативы подходу, приведенному в этом разделе, можно использовать платформу, такую как установщик Windows XML (WiX), для создания ярлыка и его развертывания в составе установщик Windows. В этом случае этот код следует включать в MSI, а не в код приложения. Дополнительные сведения см. в примере файла конфигурации WiX, входящего в состав примера " [Отправка всплывающих уведомлений из классических приложений](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/Toast%20notifications%20sample%20(Windows%208)) ".
+в качестве альтернативы подходу, приведенному в этом разделе, можно использовать платформу, такую как установщик Windows XML (WiX), для создания ярлыка и его развертывания в составе установщик Windows. В этом случае этот код следует включать в MSI, а не в код приложения. Дополнительные сведения см. в примере файла конфигурации WiX, входящего в состав примера " [Отправка всплывающих уведомлений из классических приложений](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/Toast%20notifications%20sample%20(Windows%208)) ".
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -161,7 +161,7 @@ HRESULT DesktopToastsApp::InstallShortcut(_In_z_ wchar_t *shortcutPath)
 [Идентификаторы модели пользователя приложения (Аппусермоделидс)](appids.md)
 </dt> <dt>
 
-[Руководство. Установка средств установщик Windows XML (WiX)](/previous-versions/windows/server-essentials/gg513936(v=msdn.10))
+[руководство. установка средств установщик Windows XML (WiX)](/previous-versions/windows/server-essentials/gg513936(v=msdn.10))
 </dt> <dt>
 
 [XML-схема всплывающих уведомлений](/uwp/schemas/tiles/toastschema/schema-root)

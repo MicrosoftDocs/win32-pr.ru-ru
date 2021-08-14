@@ -13,12 +13,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: df3897c67ed65eeec5ace49dac1088ca35223a35
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1d9b82f8a97c1ca47734b5bb0a1db09167510978c53f86870df01f2acc59b2ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118394728"
 ---
 # <a name="hwconfig_nic-class"></a>\_Класс сетевого адаптера хвконфиг
 
@@ -36,13 +36,13 @@ class HWConfig_NIC : HWConfig
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **\_ сетевого адаптера хвконфиг** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ сетевого адаптера хвконфиг** имеет следующие свойства.
 
@@ -64,13 +64,13 @@ NICName
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                   |
 
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 370548bb9899ce84173f2321a129aaeda1c6fe81
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: b5ceff1f9a4ef2f6c95a8dac12ff689995efe4fdd3619cf48e11043967fec053
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104334560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118385517"
 ---
 # <a name="lcid-switch"></a>/LCID, параметр
 
@@ -34,18 +34,18 @@ midl /lcid localeID
 *localeID* 
 </dt> <dd>
 
-Указывает 32-разрядный идентификатор локали, используемый в поддержке национальных языков Windows. Код локали должен быть указан в десятичном формате.
+указывает 32-разрядный идентификатор локали, используемый в Windows поддержки национальных языков. Код локали должен быть указан в десятичном формате.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Во входных файлах можно использовать локализованные комментарии, строки, хелпстрингс и идентификаторы. В частности, параметр **/LCID** обеспечивает полную поддержку DBCS для представления азиатских языков, таких как японский, китайский и корейский.
 
 > [!Note]  
 > Параметр **/LCID** доступен в MIDL версии 3.01.75 и более поздних.
 
- 
+ 
 
 ## <a name="examples"></a>Примеры
 
@@ -61,9 +61,9 @@ midl /lcid localeID
 [**намного**](lcid.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

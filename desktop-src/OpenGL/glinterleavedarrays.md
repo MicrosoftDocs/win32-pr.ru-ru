@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 41403210e78d1a65dd700561243846d6e45bad67
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ce3b37186614fa431585c1e5a932edab946afd6d881ba1cf8eb5c5690220f603
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104414993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118938565"
 ---
 # <a name="glinterleavedarrays-function"></a>Функция Глинтерлеаведаррайс
 
@@ -56,7 +56,7 @@ void WINAPI glInterleavedArrays(
 
 </dd> <dt>
 
-*указатель* 
+*вид* 
 </dt> <dd>
 
 Указатель на первый элемент агрегатного массива.
@@ -81,7 +81,7 @@ void WINAPI glInterleavedArrays(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 С помощью функции **глинтерлеаведаррайс** можно одновременно указать и включить несколько чередующихся цветов, нормалей, текстур и массивов вершин, элементы которых являются частью более крупного статистического элемента массива. Для некоторых архитектур памяти это более эффективно, чем указание массивов отдельно.
 
@@ -108,7 +108,7 @@ void WINAPI glInterleavedArrays(
 
 Функция **глинтерлеаведаррайс** реализуется на стороне клиента без протокола. Так как параметры массива вершин являются состояниями на стороне клиента, они не сохраняются и не восстанавливаются [**глпушаттриб**](glpushattrib.md) и **глпопаттриб**. Вместо этого используйте [**глпушклиентаттриб**](glpushclientattrib.md) и **глпопклиентаттриб** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

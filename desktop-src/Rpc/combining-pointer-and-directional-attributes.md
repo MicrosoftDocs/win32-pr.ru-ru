@@ -4,12 +4,12 @@ description: Несколько предостережений применяю�
 ms.assetid: f381af3e-0dad-4ce1-afb9-083402b6249c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23f81d4d6214cde1202bfdab37dbfbb42b2fbcb3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 40d66f745aba319a9d78f4cdf32e284a4160afd602b0dbb5a6c1e320255629a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103778878"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118931737"
 ---
 # <a name="combining-pointer-and-directional-attributes"></a>Сочетание атрибутов указателя и направления
 
@@ -18,9 +18,9 @@ ms.locfileid: "103778878"
 -   [Внедренные Out-Only указатели ссылок](embedded-out-only-reference-pointers.md)
 -   [Out-недопустимые параметры уникальности или полного указателя не приняты](out-only-unique-or-full-pointer-parameters-not-accepted.md)
 
- 
+ 
 
- 
+ 
 
 
 

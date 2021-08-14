@@ -3,19 +3,19 @@ title: Как работают свойства
 description: Как работают свойства
 ms.assetid: 469af852-593c-4b54-8dc3-b76ad460fa77
 keywords:
-- Подключаемые модули проигрывателя Windows Media, пример свойств Echo
+- проигрыватель Windows Media подключаемых модулей, свойства образца Echo
 - подключаемые модули, свойства образца Echo
 - подключаемые модули обработки цифровых сигналов, свойства образца эха
 - Подключаемые модули DSP, свойства образца Echo
 - Пример подключаемого модуля "Echo DSP", свойства
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ad37b71ddc6a097dd43e1ac41147c571f81a67a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7cdefea3fce39b70d20d2f100d36cc4aeb8770bd15cd5cd0bf0978cd08f2259f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103777099"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118339138"
 ---
 # <a name="how-properties-work"></a>Как работают свойства
 
@@ -29,16 +29,16 @@ ms.locfileid: "103777099"
 -   [Изменение свойства Scale](modifying-the-scale-property.md)
 -   [Добавление свойства "Mix!"](adding-the-wet-mix-property.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Свойства образца Echo**](echo-sample-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

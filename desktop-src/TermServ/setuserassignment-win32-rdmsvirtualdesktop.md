@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f02e1cc935e344edd6a9c52016052e082e08d8f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f38f87209ba8c8ebd82637f72cea2e798844e6081cd000f2161ee21681422e40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118349415"
 ---
 # <a name="setuserassignment-method-of-the-win32_rdmsvirtualdesktop-class"></a>Метод Сетусерассигнмент \_ класса Win32 рдмсвиртуалдесктоп
 
@@ -62,7 +62,7 @@ uint32 SetUserAssignment(
 
 Возвращает значение 0 при успешном выполнении, в противном случае возвращает код ошибки WMI.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -16,12 +16,12 @@ keywords:
 - карты ключей
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba337b05fcff1bd0bb0e948e36e7d290eacb9604
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1a20e73c9a361487468870698d3c36d59ef35bb6a28da1b03957dd24f1d7b7dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104331568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118136410"
 ---
 # <a name="the-midi-mapper-architecture"></a>Архитектура сопоставителя MIDI
 
@@ -29,15 +29,15 @@ ms.locfileid: "104331568"
 
 -   [Схема канала](the-channel-map.md)
 -   [Карты исправлений](patch-maps.md)
--   [Карты ключей](key-maps.md)
+-   [ключевые Карты](key-maps.md)
 
 На следующем рисунке показаны роли канала, исправления и карты ключей в карте установки MIDI.
 
 ![роли карт каналов, исправлений и ключей в образе карты установки MIDI](images/mmap-a02.gif)
 
- 
+ 
 
- 
+ 
 
 
 

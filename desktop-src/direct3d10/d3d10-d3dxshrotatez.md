@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 55e4663057bd25ac9768a5913963a5511b662f11
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 2ea15bf7bbcbea68fabf592ec8bad409990038d03fb1f4014f760b92d124408b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108108532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119990024"
 ---
 # <a name="d3dxshrotatez-function-d3dx10h"></a>Функция D3DXSHRotateZ (D3DX10. h)
 
@@ -92,18 +92,18 @@ FLOAT* D3DXSHRotateZ(
 -   l — это степень базовой функции.
 -   m — это базовый индекс функции для заданного значения l и диапазон от-l до l включительно.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>D3DX10. lib</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

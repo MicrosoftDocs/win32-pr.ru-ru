@@ -1,5 +1,5 @@
 ---
-description: 'Метод IMpeg2PsiParser:: Жеткаунтофпрограмс. Реализация этого метода предоставляется в виде образца кода с помощью пакета SDK DirectShow. Это не поддерживаемый API-интерфейс DirectShow.'
+description: 'метод IMpeg2PsiParser:: жеткаунтофпрограмс. реализация этого метода предоставляется в виде образца кода с помощью пакета SDK для DirectShow. он не является поддерживаемым DirectShow API.'
 ms.assetid: 282dd779-9aca-46e3-a791-cb9ea86f637d
 title: 'Метод IMpeg2PsiParser:: Жеткаунтофпрограмс'
 ms.topic: reference
@@ -12,16 +12,16 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: d6bfe698a45ea1cfe0a4bac6e65b839292bc1996
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c0c5609f82db98caea02e08f1e4fbd3877eeccbae25a5e83da3ac2804577b100
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108119432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118398111"
 ---
 # <a name="impeg2psiparsergetcountofprograms-method"></a>Метод IMpeg2PsiParser:: Жеткаунтофпрограмс
 
-Реализация этого метода предоставляется в виде образца кода с помощью пакета SDK DirectShow. Это не поддерживаемый API-интерфейс DirectShow.
+реализация этого метода предоставляется в виде образца кода с помощью пакета SDK для DirectShow. он не является поддерживаемым DirectShow API.
 
 `GetCountOfPrograms`Метод извлекает количество программ в транспортном потоке.
 
@@ -61,7 +61,7 @@ HRESULT GetCountOfPrograms(
 
  
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

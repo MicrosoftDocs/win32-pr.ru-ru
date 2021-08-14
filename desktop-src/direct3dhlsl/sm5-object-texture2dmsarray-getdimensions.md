@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e22a225178c2fa965ea842b8c86692d09b87168f
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 6d6f9d4fc24cb1f8933bdb67796aebe3fe7d7406b114eea8a12f507c5f04591f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104353722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118508430"
 ---
 # <a name="texture2dmsarraygetdimensions-function"></a>Функция Texture2DMSArray:: Dimension
 
@@ -77,9 +77,9 @@ void GetDimensions(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Nothing
+Ничего
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Это список перегруженных версий этого метода.
 
@@ -97,7 +97,7 @@ void GetDimensions(out float Width,
 
 
 
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
+| Вершина | Поверхности | Домен | Геометрия | Пиксель | Службы вычислений |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     | x       |
 

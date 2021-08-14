@@ -7,12 +7,12 @@ keywords:
 - Пример кода для использования поиска VLV
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2049d0650728066789f23921caf697e8aaa9d988
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3e3714216e985ac4b45227fa1d9db10826d0fe1f32ab636a711fe98790647238
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104328427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118428437"
 ---
 # <a name="example-code-for-using-a-vlv-search"></a>Пример кода для использования поиска VLV
 
@@ -474,9 +474,9 @@ HRESULT GetVLVItemsByString(HWND hwndListbox,
 
 
 
- 
+ 
 
- 
+ 
 
 
 

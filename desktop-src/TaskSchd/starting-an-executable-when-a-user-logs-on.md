@@ -6,12 +6,12 @@ keywords:
 - Планировщик задач примеры планировщик задач, триггер входа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ffa758546dbd08b6ccf27412f38891589cb9643
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5bd7cfc8412e33df47841cf33d2a4950061d39d77fbe76d3b896b5d220b04b8a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410593"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118132126"
 ---
 # <a name="starting-an-executable-when-a-user-logs-on"></a>Запуск исполняемого файла при входе пользователя в систему
 
@@ -23,22 +23,22 @@ ms.locfileid: "104410593"
 
 ## <a name="logontrigger-examples"></a>Примеры Логонтригжер
 
-В следующих примерах запускается блокнот после входа пользователя в систему.
+следующие примеры запускаются Блокнот после входа пользователя в систему.
 
 -   [Пример триггера LOGON (скрипт)](logon-trigger-example--scripting-.md)
 -   [Пример триггера LOGON (C++)](logon-trigger-example--c---.md)
 -   [Пример триггера LOGON (XML)](logon-trigger-example--xml-.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Использование планировщик задач](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

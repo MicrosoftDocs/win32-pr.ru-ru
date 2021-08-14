@@ -22,12 +22,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ddfc9be9805406ab76b166e2a34bc47a7f5e9ab5
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 3c367e9c00caff78bb3e64263c1622de45fa6e640e78d88239e1ed25a6f68558
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103784119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989864"
 ---
 # <a name="itssbtargettargetload-property"></a>Свойство Итссбтаржет:: Таржетлоад
 
@@ -50,11 +50,11 @@ HRESULT get_TargetLoad(
 
 Число, представляющее относительную нагрузку на целевой объект.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Вес ожидающего сеанса относительно активного сеанса можно изменить, задав значение параметра *\_ коннектионестаблишментпеналти балансировки нагрузки* для брокера подключений. Этот параметр находится в разделе реестра **HKLM \\ System \\ CurrentControlSet \\ Services \\ Tssdis \\ Parameters** . Значение по умолчанию 1 указывает, что ожидающие сеансы имеют тот же вес, что и активные сеансы.
 
-Это свойство доступно в Windows Server 2012 R2 с [KB3091411](https://support.microsoft.com/kb/3091411) , установленным в интерфейсе [**итссбтаржетекс**](itssbtargetex.md) .
+это свойство доступно в Windows Server 2012 R2 с [KB3091411](https://support.microsoft.com/kb/3091411) , установленным в интерфейсе [**итссбтаржетекс**](itssbtargetex.md) .
 
 ## <a name="requirements"></a>Требования
 
@@ -83,7 +83,7 @@ HRESULT get_TargetLoad(
 <td>IID_ITsSbTarget определяется следующим образом:
 <ul>
 <li>16616ECC-272D-411D-B324-126893033856</li>
-<li>e85e10ea-db0b-4752-b456-5fd5840901c0 на Windows Server 2008 R2</li>
+<li>e85e10ea-db0b-4752-b456-5fd5840901c0 на сервере Windows 2008 R2</li>
 </ul></td>
 </tr>
 </tbody>

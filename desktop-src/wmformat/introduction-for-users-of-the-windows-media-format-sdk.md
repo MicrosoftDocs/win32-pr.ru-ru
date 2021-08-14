@@ -1,13 +1,13 @@
 ---
-title: Общие сведения о пользователях пакета SDK Windows Media Format
-description: Общие сведения о пользователях пакета SDK Windows Media Format
+title: общие сведения о пользователях пакета SDK для Windows Media Format
+description: общие сведения о пользователях пакета SDK для Windows Media Format
 ms.assetid: 21f06c43-213e-4fbf-a33a-c1890b4b40ce
 keywords:
-- Windows Media Format SDK, расширенные API клиента DRM
-- Пакет SDK для Windows Media Format, расширенные API клиента
-- Windows Media Format SDK, расширенные API
-- Windows Media Format SDK, API
-- Windows Media Format SDK, управление цифровыми правами (DRM)
+- Windows Пакет SDK для Media Format, расширенные API клиента DRM
+- Windows Пакет SDK для формата мультимедиа, расширенные API клиента
+- Windows Пакет SDK для формата мультимедиа, расширенные API
+- Windows Пакет SDK для формата мультимедиа, API
+- Windows Пакет SDK для формата мультимедиа, управление цифровыми правами (DRM)
 - Управление цифровыми правами (DRM), расширенные API клиента
 - DRM (Управление цифровыми правами), расширенные API клиента
 - Управление цифровыми правами (DRM), расширенные API
@@ -18,37 +18,37 @@ keywords:
 - Расширенные API клиента, о
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 538978305e4df952ed97e063b3512ce9fd5cfc34
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7eb1994e5e4960613e992f198833f2fb2e3ff2a21181e98bae5d6823fbb31a8c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410995"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119392564"
 ---
-# <a name="introduction-for-users-of-the-windows-media-format-sdk"></a>Общие сведения о пользователях пакета SDK Windows Media Format
+# <a name="introduction-for-users-of-the-windows-media-format-sdk"></a>общие сведения о пользователях пакета SDK для Windows Media Format
 
-Большая часть функциональных возможностей, обеспечиваемых расширенными API клиента DRM Windows Media, аналогична функциональным возможностям, предоставляемым объектами пакета SDK Windows Media Format. Пакет Windows Media Format SDK предоставляет разработчикам объекты, необходимые для создания, доступа и управления файлами мультимедиа, использующими структуру файлов ASF. Так как Windows Media DRM предназначена для защиты файлов ASF, клиентские функции DRM были добавлены в пакет SDK Windows Media Format.
+большая часть функциональных возможностей, обеспечиваемых расширенными api клиента DRM Windows media, аналогична функциональным возможностям, предоставляемым объектами пакета SDK Windows формата мультимедиа. пакет SDK для Windows media Format предоставляет разработчикам объекты, необходимые для создания, доступа и управления файлами мультимедиа, использующими структуру файлов ASF. так как Windows Media drm предназначен для защиты ASF-файлов, функции drm на стороне клиента были добавлены в пакет SDK для Windows Media Format.
 
-Расширенные API клиента Windows Media DRM выпускаются совместно с платформой цифрового мультимедиа следующего поколения Майкрософт, Microsoft Media Foundationным пакетом SDK. Media Foundation будет включать функции ASF, которые перекрывают некоторые функции пакета SDK Windows Media Format. Поскольку теперь существуют два пакета Microsoft SDK для работы с файлами ASF, функциональность DRM на стороне клиента отделяется от Windows Media Format SDK до расширенных API клиента DRM Windows Media. Доступ к этим API можно получить у пользователей Windows Media Format SDK и Media Foundation SDK. В настоящее время эти API-интерфейсы входят в состав установочного пакета пакета SDK Windows Media Format и задокументированы в пакете Windows Media Format SDK. Однако расширенные API клиента DRM Windows Media реализуются в собственной библиотеке и имеют собственный файл заголовка. После установки пакета SDK для формата Windows Media эти API можно использовать самостоятельно, не включая заголовки или библиотеки пакета SDK Windows Media Format в приложение.
+расширенные api-интерфейсы Windows Media DRM передаются вместе с платформой цифрового мультимедиа следующего поколения майкрософт, Microsoft Media Foundationным пакетом SDK. Media Foundation будет включать функции ASF, которые перекрывают некоторые функции пакета SDK Windows формата мультимедиа. поскольку теперь существуют два пакета sdk для Microsoft, которые управляют файлами ASF, функциональность DRM на стороне клиента отделяется от комплекта Windows media Format SDK до Windows расширенных api-интерфейсов media DRM. доступ к этим api можно получить у пользователей из пакета sdk для Windows Media Format и пакета sdk для Media Foundation. в настоящее время эти api-интерфейсы включены в состав установочного пакета пакета sdk для Windows media format и задокументированы как часть комплекта Windows media format sdk. однако расширенные api клиента DRM для Windows мультимедиа реализованы в собственной библиотеке и имеют собственный файл заголовка. после установки пакета sdk для Windows media format эти api-интерфейсы можно использовать самостоятельно, не включая Windows заголовки или библиотеки пакета SDK для формата носителя в приложение.
 
-При разработке приложений, использующих пакет SDK для формата Windows Media, необходимо решить, использовать ли функциональные возможности DRM, предоставляемые пакетом SDK, или использовать расширенные API клиента DRM Windows Media. Хотя многие функции этих двух пакетов SDK очень похожи, расширенные API клиента DRM Windows Media предлагают следующие функции, недоступные пользователям старых подпрограмм DRM:
+при разработке приложений, использующих пакет sdk для Windows media Format, необходимо решить, использовать ли функциональные возможности DRM, предоставляемые пакетом sdk, или использовать расширенные api клиента DRM для Windows Media. хотя многие функции этих двух пакетов sdk очень похожи, расширенные api-интерфейсы Windows Media DRM предлагают следующие функции, недоступные пользователям старых подпрограмм DRM:
 
 -   Возможность импортировать содержимое, защищенное сторонней системой управления правами.
--   Возможность экспорта содержимого, защищенного Windows Media DRM, в систему управления правами сторонних производителей.
+-   возможность экспорта содержимого, защищенного Windows Media DRM, в систему управления правами сторонних производителей.
 -   Прямое перечисление лицензий в хранилище лицензий.
 -   Простой запрос агрегированных прав на основе идентификатора ключа (нет необходимости загружать файл мультимедиа).
 -   Возможность продлить отозванные компоненты с помощью стандартного интерфейса Media Foundation **имфконтентенаблер**.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[**О расширенных API-интерфейсах клиента DRM Windows Media**](about-the-windows-media-drm-client-extended-apis.md)
+[**сведения о расширенных api-интерфейсах клиента DRM Windows Media**](about-the-windows-media-drm-client-extended-apis.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

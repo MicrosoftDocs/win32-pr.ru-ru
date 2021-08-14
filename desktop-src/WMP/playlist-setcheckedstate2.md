@@ -3,7 +3,7 @@ title: Список воспроизведения. setCheckedState2
 description: Метод setCheckedState2 устанавливает состояние Checked элемента с указанным индексом в элементе списка воспроизведения.
 ms.assetid: 241221a3-810b-422d-8f73-25c5b5c82c70
 keywords:
-- Проигрыватель Windows Media Player. setCheckedState2
+- проигрыватель Windows Media списка воспроизведения. setCheckedState2
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 37cc9c821ae783e79d327e93b0c2f297fb75eab1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b6b95cb332c5f5a9d86e6f49484b27c1ab5802f28b18195f610395a1c732e369
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118336223"
 ---
 # <a name="playlistsetcheckedstate2"></a>Список воспроизведения. setCheckedState2
 
@@ -50,17 +50,17 @@ ms.locfileid: "105704119"
 
 Этот метод возвращает **логическое значение**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод может работать с вложенными списками воспроизведения и заменять метод **сетчеккедстате** , который не может. Вы можете задать для всех элементов запрошенное состояние, указав значение 1 в параметре *Item* .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 

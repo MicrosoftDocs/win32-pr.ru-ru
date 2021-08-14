@@ -15,18 +15,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a192b90f38d9b306c59f275d1fed3933d5cbd56a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 23c3ba6689f52d592d9c9799b6c7bec0acd58e1afcbc8e7a18e0cb9dbe6db98b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136310"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118351297"
 ---
 # <a name="itssbresourcepluginstoreex-interface"></a>Интерфейс Итссбресаурцеплугинсторикс
 
 Предоставляет методы, позволяющие подключаемым модулям ресурсов хранить объекты, такие как сеансы и целевые объекты. Эти методы добавляют, удаляют и запрашивают эти объекты.
 
-Этот интерфейс доступен только в Windows Server 2012 R2 с установленным [KB3091411](https://support.microsoft.com/kb/3091411) . Методы [**аккуиретаржетлокк**](/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcepluginstore-acquiretargetlock) и [**релеасетаржетлокк**](/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcepluginstore-releasetargetlock) интерфейса [**Итссбресаурцеплугинсторе**](/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcepluginstore) доступны начиная с Windows Server 2016.
+этот интерфейс доступен только в Windows Server 2012 R2 с установленным [KB3091411](https://support.microsoft.com/kb/3091411) . Методы [**аккуиретаржетлокк**](/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcepluginstore-acquiretargetlock) и [**релеасетаржетлокк**](/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcepluginstore-releasetargetlock) интерфейса [**итссбресаурцеплугинсторе**](/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcepluginstore) доступны начиная с Windows Server 2016.
 
 ## <a name="members"></a>Элементы
 
@@ -71,7 +71,7 @@ ms.locfileid: "104136310"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

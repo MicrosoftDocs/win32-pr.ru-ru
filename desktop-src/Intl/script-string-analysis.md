@@ -4,12 +4,12 @@ ms.assetid: aa93d631-3cfc-449d-9d04-c1f851129c6c
 title: SCRIPT_STRING_ANALYSIS (usp10. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ef9bf7e2a3a592a279b593d986220350a3d8f72
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b9481c641f182015d7a318c21c490f45fcc934e0df1baa52483707628eb4daa1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105651113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118390303"
 ---
 # <a name="script_string_analysis"></a>\_анализ строки скрипта \_
 
@@ -22,13 +22,13 @@ typedef void* SCRIPT_STRING_ANALYSIS;
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Это непрозрачная структура, которая выделяется динамически и извлекается с помощью [**скриптстринганалисе**](/windows/desktop/api/Usp10/nf-usp10-scriptstringanalyse). Он необходим и для всех остальных функций ** \* скриптстринг* _.
+Это непрозрачная структура, которая выделяется динамически и извлекается с помощью [**скриптстринганалисе**](/windows/desktop/api/Usp10/nf-usp10-scriptstringanalyse). Он необходим и для всех остальных **функций \* скриптстринг** .
 
-Так как анализ может быть большим, важно, чтобы приложение вызывало [_ *скриптстрингфри* *](/windows/desktop/api/Usp10/nf-usp10-scriptstringfree) сразу после завершения строки.
+Так как анализ может быть большим, важно, чтобы приложение вызывало [**скриптстрингфри**](/windows/desktop/api/Usp10/nf-usp10-scriptstringfree) , как только оно завершится строкой.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

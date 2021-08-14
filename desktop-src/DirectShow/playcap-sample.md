@@ -4,12 +4,12 @@ ms.assetid: 3faba514-23b7-4107-aca6-5b113a0ca164
 title: Пример Плайкап
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f916ac1241410eee5046e1ad24a9350bf4256c83
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 27acecdfd0757d4fd9b085b7d09d1372ead0a33b2aebd95684e1a33367b57765
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105682179"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982594"
 ---
 # <a name="playcap-sample"></a>Пример Плайкап
 
@@ -23,15 +23,15 @@ ms.locfileid: "105682179"
 
 ## <a name="downloading-the-sample"></a>Загрузка образца
 
-Чтобы скачать примеры пакета SDK для DirectShow, установите последнюю версию [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
+чтобы скачать примеры пакета SDK для DirectShow, установите последнюю версию [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
 
-Этот пример устанавливается по следующему пути: *\[ \] корневые примеры SDK* \\ \\ мультимедиа \\ DirectShow \\ Capture \\ плайкап.
+этот пример устанавливается по следующему пути: *\[ \] корневые примеры SDK* \\ \\ мультимедиа \\ DirectShow \\ Capture \\ плайкап.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Примеры DirectShow](directshow-samples.md)
+[DirectShow Регистрируют](directshow-samples.md)
 </dt> </dl>
 
  

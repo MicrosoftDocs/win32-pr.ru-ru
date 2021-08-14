@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8366fd5c42f68c495d544c20c3382b4e9fd37665
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ece5f0aa96140b6fa16b5fbde1a857f1e14f1570ad7fc734626a27ac660a65ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103804055"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118360411"
 ---
 # <a name="glflush-function"></a>Функция Глфлуш
 
@@ -54,7 +54,7 @@ void WINAPI glFlush(void);
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Различные реализации OpenGL блокируют буферы в нескольких разных местах, включая сетевые буферы и сам графический ускоритель. Функция **глфлуш** очищает все эти буферы, что приводит к тому, что все выданные команды выполняются так быстро, как они принимаются фактическим подсистемой визуализации. Хотя это выполнение может быть не выполнено в течение определенного периода времени, оно завершается в течение ограниченного времени.
 
@@ -62,7 +62,7 @@ void WINAPI glFlush(void);
 
 Функция **глфлуш** может возвращаться в любое время. Он не ждет завершения выполнения всех ранее выданных функций OpenGL.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

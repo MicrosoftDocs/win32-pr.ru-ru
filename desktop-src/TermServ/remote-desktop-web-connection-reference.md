@@ -1,5 +1,5 @@
 ---
-title: удаленный рабочий стол интерфейсов элементов управления ActiveX
+title: интерфейсы удаленный рабочий стол ActiveX элементов управления
 description: Интерфейсы, которые можно использовать для создания и развертывания виртуальных каналов, поддерживающих скрипт, в службы удаленных рабочих столов веб-приложениях.
 ms.assetid: 8258411e-eef6-4dcf-a7a2-7d04b0ea3744
 ms.tgt_platform: multiple
@@ -8,16 +8,16 @@ keywords:
 - Протокол удаленного рабочего стола (RDP) службы удаленных рабочих столов, интерфейсы
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a80c80dcf9799efe2eb5609f54142fd0780cfe54
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: feac7c2ab5d836191f5321d87fafc50350f1d5713bf18cb27dbb879aff127271
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104338212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119988674"
 ---
-# <a name="remote-desktop-activex-control-interfaces"></a>удаленный рабочий стол интерфейсов элементов управления ActiveX
+# <a name="remote-desktop-activex-control-interfaces"></a>интерфейсы удаленный рабочий стол ActiveX элементов управления
 
-Удаленный рабочий стол элемент управления ActiveX поддерживает следующие интерфейсы с поддержкой скриптов и необрабатываемых скриптов, которые группируются в соответствии с иерархией наследования.
+элемент управления ActiveX удаленный рабочий стол поддерживает следующие интерфейсы с поддержкой скриптов и необрабатываемых скриптов, которые группируются в соответствии с иерархией наследования.
 
 ## <a name="in-this-section"></a>Содержание раздела
 
@@ -131,70 +131,70 @@ ms.locfileid: "104338212"
 [**IMsRdpClientAdvancedSettings6**](imsrdpclientadvancedsettings6.md)
 </dt> <dd>
 
-Отображает свойства, управляющие дополнительными параметрами элементов управления ActiveX.
+отображает свойства, управляющие расширенными параметрами управления ActiveX.
 
 </dd> <dt>
 
 [**IMsRdpClientAdvancedSettings7**](imsrdpclientadvancedsettings7.md)
 </dt> <dd>
 
-Предоставляет методы и свойства, управляющие дополнительными параметрами элемента управления ActiveX.
+предоставляет методы и свойства, управляющие дополнительными параметрами элемента управления ActiveX.
 
 </dd> <dt>
 
 [**IMsRdpClientAdvancedSettings8**](imsrdpclientadvancedsettings8.md)
 </dt> <dd>
 
-Предоставляет методы и свойства, управляющие дополнительными параметрами элемента управления ActiveX удаленный рабочий стол.
+предоставляет методы и свойства, управляющие дополнительными параметрами элемента управления ActiveX удаленный рабочий стол.
 
 </dd> <dt>
 
 [**имсрдпклиентнонскриптабле**](imsrdpclientnonscriptable-interface.md)
 </dt> <dd>
 
-Предоставляет доступ к необрабатываемым свойствам удаленного сеанса клиента на удаленный рабочий стол элементе управления ActiveX. Является производным от интерфейса [**имстскнонскриптабле**](imstscnonscriptable-interface.md) .
+предоставляет доступ к необрабатываемым свойствам удаленного сеанса клиента на удаленный рабочий стол элементе управления ActiveX. Является производным от интерфейса [**имстскнонскриптабле**](imstscnonscriptable-interface.md) .
 
 </dd> <dt>
 
 [**IMsRdpClientNonScriptable2**](imsrdpclientnonscriptable2.md)
 </dt> <dd>
 
-Предоставляет доступ к необрабатываемым свойствам удаленного сеанса клиента на удаленный рабочий стол элементе управления ActiveX. Является производным от интерфейса [**имсрдпклиентнонскриптабле**](imsrdpclientnonscriptable-interface.md) .
+предоставляет доступ к необрабатываемым свойствам удаленного сеанса клиента на удаленный рабочий стол элементе управления ActiveX. Является производным от интерфейса [**имсрдпклиентнонскриптабле**](imsrdpclientnonscriptable-interface.md) .
 
 </dd> <dt>
 
 [**IMsRdpClientNonScriptable3**](imsrdpclientnonscriptable3.md)
 </dt> <dd>
 
-Предоставляет доступ к необрабатываемым свойствам удаленного сеанса клиента на удаленный рабочий стол элементе управления ActiveX. Является производным от интерфейса [**IMsRdpClientNonScriptable2**](imsrdpclientnonscriptable2.md) .
+предоставляет доступ к необрабатываемым свойствам удаленного сеанса клиента на удаленный рабочий стол элементе управления ActiveX. Является производным от интерфейса [**IMsRdpClientNonScriptable2**](imsrdpclientnonscriptable2.md) .
 
 </dd> <dt>
 
 [**IMsRdpClientNonScriptable4**](imsrdpclientnonscriptable4.md)
 </dt> <dd>
 
-Предоставляет доступ к необрабатываемым свойствам удаленного сеанса клиента на удаленный рабочий стол элементе управления ActiveX. Является производным от интерфейса [**IMsRdpClientNonScriptable3**](imsrdpclientnonscriptable3.md) .
+предоставляет доступ к необрабатываемым свойствам удаленного сеанса клиента на удаленный рабочий стол элементе управления ActiveX. Является производным от интерфейса [**IMsRdpClientNonScriptable3**](imsrdpclientnonscriptable3.md) .
 
 </dd> <dt>
 
 [**IMsRdpClientNonScriptable5**](imsrdpclientnonscriptable5.md)
 </dt> <dd>
 
-Предоставляет доступ к необрабатываемым свойствам удаленного сеанса клиента на удаленный рабочий стол элементе управления ActiveX. Является производным от интерфейса [**IMsRdpClientNonScriptable4**](imsrdpclientnonscriptable4.md) .
+предоставляет доступ к необрабатываемым свойствам удаленного сеанса клиента на удаленный рабочий стол элементе управления ActiveX. Является производным от интерфейса [**IMsRdpClientNonScriptable4**](imsrdpclientnonscriptable4.md) .
 
 </dd> <dt>
 
 [**имсрдпклиентсекуредсеттингс**](imsrdpclientsecuredsettings-interface.md)
 </dt> <dd>
 
-Содержит методы для получения и задания свойств элемента управления удаленный рабочий стол ActiveX, которые ограничены конкретными зонами безопасности URL-адресов Internet Explorer.
+содержит методы для получения и задания свойств элемента управления удаленный рабочий стол ActiveX, которые ограничены конкретными зонами безопасности URL-адресов Internet Explorer.
 
 </dd> <dt>
 
 [**IMsRdpClientSecuredSettings2**](imsrdpclientsecuredsettings2.md)
 </dt> <dd>
 
-Определяет дополнительные свойства элемента управления ActiveX удаленный рабочий стол, которые ограничены конкретными зонами безопасности URL-адресов Internet Explorer.
+определяет дополнительные свойства элемента управления удаленный рабочий стол ActiveX, которые ограничены конкретными зонами безопасности URL-адресов Internet Explorer.
 
 </dd> <dt>
 
@@ -327,14 +327,14 @@ ms.locfileid: "104338212"
 [**имстскнонскриптабле**](imstscnonscriptable-interface.md)
 </dt> <dd>
 
-Содержит свойства и методы, связанные с применением пароля к элементу управления ActiveX удаленный рабочий стол.
+содержит свойства и методы, связанные с применением пароля к элементу управления удаленный рабочий стол ActiveX.
 
 </dd> <dt>
 
 [**имстсксекуредсеттингс**](imstscsecuredsettings-interface.md)
 </dt> <dd>
 
-Содержит методы для получения и задания свойств элемента управления удаленный рабочий стол ActiveX, которые ограничены конкретными зонами безопасности URL-адресов Internet Explorer.
+содержит методы для получения и задания свойств элемента управления удаленный рабочий стол ActiveX, которые ограничены конкретными зонами безопасности URL-адресов Internet Explorer.
 
 </dd> <dt>
 
@@ -364,7 +364,7 @@ ms.locfileid: "104338212"
 
 Предоставляет методы, необходимые для настройки параметров подключения для клиентского элемента управления контейнера приложения протокол удаленного рабочего стола (RDP).
 
-Чтобы получить указатель на этот интерфейс, используйте свойство [**Settings**](iremotedesktopclient-settings.md) [**иремотедесктопклиент**](/windows/win32/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclient).
+чтобы получить указатель на этот интерфейс, используйте свойство [**Параметры**](iremotedesktopclient-settings.md) [**иремотедесктопклиент**](/windows/win32/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclient).
 
 </dd> <dt>
 
@@ -402,13 +402,13 @@ ms.locfileid: "104338212"
 
 Общее описание методов свойств см. в разделе [методы свойств интерфейса](/windows/desktop/ADSI/interface-property-methods).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Справочник по службы удаленных рабочих столов](terminal-services-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

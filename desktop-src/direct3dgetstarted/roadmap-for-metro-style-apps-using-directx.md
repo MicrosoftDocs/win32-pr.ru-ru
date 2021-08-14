@@ -4,12 +4,12 @@ description: Ниже приведены основные ресурсы, кот
 ms.assetid: d7921f38-e384-4a83-b458-ee71f7044468
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11b285e850bd952a0a24638a2bd8c3c0b2d987d0
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 5940e775de65d6d22a9b244d1bd0b881240cf296b740c9a0be9c38f3ab0725a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119983894"
 ---
 # <a name="roadmap-for-desktop-directx-apps"></a>Дорожная карта для классических приложений DirectX
 
@@ -17,18 +17,18 @@ ms.locfileid: "110343569"
 
 ## <a name="get-started"></a>Начало работы
 
-Ниже приведены некоторые ключевые темы. Настройка проекта DirectX, акклиматинг себя в Windows и примеры приложений.
+Ниже приведены некоторые ключевые темы. настройка проекта DirectX, акклиматинг вас на Windows и примеры приложений.
 
 | Раздел | Описание |
 |-|-|
-| [Создание первого приложения Windows с помощью DirectX](building-your-first-directx-app.md) | Используйте это основное руководство, чтобы приступить к разработке приложений DirectX, а затем воспользуйтесь руководством, чтобы продолжить изучение DirectX. |
+| [создание первого Windows приложения с помощью DirectX](building-your-first-directx-app.md) | Используйте это основное руководство, чтобы приступить к разработке приложений DirectX, а затем воспользуйтесь руководством, чтобы продолжить изучение DirectX. |
 | [Начало работы с DirectX для Windows](getting-started-with-a-directx-game.md) | Ознакомьтесь с действиями, которые необходимо предпринять, чтобы начать разработку игры с помощью DirectX и C++. |
 | [Полный код для платформы DirectX](complete-code-sample-for-using-a-corewindow-with-directx.md) | Получите код для базовой платформы рендеринга DirectX. |
 | [Использование Direct3D 11](/windows/desktop/direct3d11/how-to-use-direct3d-11) | В этом разделе показано, как использовать API Microsoft Direct3D 11 для выполнения нескольких распространенных задач. |
 | [Руководство по программированию для Direct3D 11](/windows/desktop/direct3d11/dx-graphics-overviews) | Руководство по программированию содержит сведения об использовании программируемого конвейера Microsoft Direct3D 11 для создания трехмерной графики в реальном времени для настольных приложений. |
 | [Средства для графики DirectX](/windows/desktop/direct3dtools/dx-graphics-tools) | Документация по средствам, используемым для поддержки разработки DirectX. |
 | [Новые возможности Direct3D 11](/windows/desktop/direct3d11/dx-graphics-overviews-introduction) | Разделение всех функций, добавленных в последние версии DirectX и Direct3D (в настоящее время 11,2). |
-| [Скачайте Visual Studio 2013](https://msdn.microsoft.com/windows/apps/br229516.aspx) | Для создания игр для Магазина Windows необходимо иметь Visual Studio Express 2013 для Windows Desktop. Обзор Visual Studio см. в статье [Разработка приложений для Магазина Windows с помощью Visual studio 2012](/previous-versions/windows/apps/br211384(v=win.10)). Сведения о новых возможностях Visual Studio см. в разделе Основные сведения о [продукте для Visual Studio 2013](/previous-versions/visualstudio/visual-studio-2013/bb386063(v=vs.120)). |
+| [Скачайте Visual Studio 2013](https://msdn.microsoft.com/windows/apps/br229516.aspx) | для создания игр Windows Store необходимо иметь Visual Studio Express 2013 для Windows Desktop. обзор Visual Studio см. в статье [разработка приложений магазина Windows с помощью Visual Studio 2012](/previous-versions/windows/apps/br211384(v=win.10)). сведения о новых возможностях в Visual Studio см. в разделе основные сведения о [продуктах для Visual Studio 2013](/previous-versions/visualstudio/visual-studio-2013/bb386063(v=vs.120)). |
 | [Где находится пакет SDK для DirectX?](../directx-sdk--august-2009-.md) | Содержит рекомендации для разработчики, желающих перенести свои проекты DirectX в Microsoft Visual Studio. |
 
 ## <a name="sample-applications"></a>Примеры приложений
@@ -63,7 +63,7 @@ ms.locfileid: "110343569"
 | [HLSL Direct3D](/windows/desktop/direct3dhlsl/dx-graphics-hlsl) | Справочная документация по языку High-Level шейдера, синтаксису и правилам, используемым для определения программ шейдера, выполняемых как часть графического конвейера в унифицированной модели шейдера. |
 | [Графический интерфейс DirectX (DXGI)](/windows/desktop/direct3ddxgi/dx-graphics-dxgi) | Документация по интерфейсам API низкого уровня, используемым для получения интерфейса GPU и системных ресурсов. |
 | [Direct2D](/windows/desktop/Direct2D/direct2d-portal) | Документация по интерфейсам API Direct2D, поддерживающим Рисование двумерных примитивов. Как правило, Direct2D используется для настраиваемых пользовательских интерфейсов, обработки изображений и пакетирования и простых игр. |
-| [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) | Документация по интерфейсам API DirectWrite, поддерживающим отрисовку и масштабирование пользовательского шрифта. |
+| [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) | документация по DirectWriteным интерфейсам api, поддерживающим отрисовку и масштабирование пользовательского шрифта. |
 | [Компонент обработки изображений Windows (WIC)](/windows/desktop/wic/-wic-api) | Документация по API-интерфейсам WIC, которые используются для чтения различных форматов растровых изображений и управления ими. |
 | [Поверхности DirectDraw (DDS)](/windows/desktop/direct3ddds/dx-graphics-dds) для текстур | Документация по API-интерфейсам DDS, которые используются для сжатия 2D-текстур и распаковки в сочетании с API-интерфейсами WIC. |
 | [DirectXMath](/windows/desktop/dxmath/directxmath-portal) | Документация по интерфейсам API Директксмас, поддерживающим Direct3D с набором типов и функций, которые подходят для трехмерной разработки графики в режиме реального времени. (Ранее Кснамас.) |
@@ -89,7 +89,7 @@ ms.locfileid: "110343569"
 
 ## <a name="work-with-c"></a>Работа с C++
 
-Если вы давно используете C++ на платформах Windows, то некоторые могут выглядеть немного иначе. Ниже приведены некоторые ссылки на разделы, которые помогут вам получить маркер в отношении разницы.
+если вы давно используете C++ на Windowsных платформах, то некоторые могут выглядеть немного иначе. Ниже приведены некоторые ссылки на разделы, которые помогут вам получить маркер в отношении разницы.
 
 > [!NOTE]
 > Некоторые из этих статей помогут вам в обслуживании приложения C++/CX. Однако в новых приложениях мы рекомендуем использовать [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt). C++/WinRT — это полностью стандартная проекция языка C++17 для API среды выполнения Windows (WinRT), реализованная как библиотека на основе файлов заголовков и предназначенная для предоставления вам первоклассного доступа к современным интерфейсам API Windows.
@@ -99,20 +99,20 @@ ms.locfileid: "110343569"
 | [**Справочник по языку Visual C++ (C++/CX)**](/cpp/cppcx/visual-c-language-reference-c-cx?view=vs-2019) | Страница высокого уровня со ссылкой на содержимое, связанное с C++. |
 | [**Краткий справочник (среда выполнения Windows и Visual C++)**](/cpp/cppcx/quick-reference-c-cx?view=vs-2019) | Таблица, в которой содержатся краткие сведения об операторах и ключевых словах расширений компонентов Visual C++ (C++/CX). |
 | [**Система типов (C++/CX)**](/cpp/cppcx/type-system-c-cx?view=vs-2019) | Справочное содержимое для типов, поддерживаемых C++/CX. |
-| [**Пространства имен (C++/CX)**](/cpp/cppcx/namespaces-reference-c-cx?view=vs-2019) | Справочное содержимое для пространств имен, содержащих типы, относящиеся к C++, которые можно использовать в приложениях для Магазина Windows. |
+| [**Пространства имен (C++/CX)**](/cpp/cppcx/namespaces-reference-c-cx?view=vs-2019) | справочное содержимое для пространств имен, содержащих типы, относящиеся к C++, которые можно использовать в приложениях Windows Store. |
 
 | Раздел | Описание |
 |-|-|
 | [Асинхронное программирование (DirectX и C++)](/previous-versions/windows/apps/hh994919(v=win.10)) | Сведения о асинхронном и многопоточном программировании для приложений и игр DirectX. |
-| [Асинхронное программирование на языке C++](/previous-versions/windows/apps/hh780559(v=win.10)) | Описывает основные способы использования класса Task для получения среда выполнения Windows асинхронных методов. |
+| [Асинхронное программирование на языке C++](/previous-versions/windows/apps/hh780559(v=win.10)) | описывает основные способы использования класса task для получения среда выполнения Windows асинхронных методов. |
 | [**Класс Task (среда выполнения с параллелизмом)**](/previous-versions/visualstudio/visual-studio-2012/hh750113(v=vs.110)) | Справочная документация по классу Task. |
 | [Параллелизм задач (среда выполнения с параллелизмом)](/previous-versions/visualstudio/visual-studio-2010/dd492427(v=vs.100)) | Подробное обсуждение класса Task и его использование. |
 
-## <a name="additional-useful-libraries-for-windows-c-programming"></a>Дополнительные полезные библиотеки для программирования на языке Windows C++
+## <a name="additional-useful-libraries-for-windows-c-programming"></a>дополнительные полезные библиотеки для программирования Windows C++
 
 | Раздел | Описание |
 |-|-|
-| [Библиотека стандартных шаблонов C++](https://msdn.microsoft.com/library/c191tb28(v=VS.71).aspx) | Типы среда выполнения Windows хорошо воспроизводятся с помощью стандартных типов библиотек шаблонов. Большинство приложений для Магазина Windows на C++ используют стандартные коллекции и алгоритмы библиотек шаблонов, за исключением границ ABI. |
+| [Библиотека стандартных шаблонов C++](https://msdn.microsoft.com/library/c191tb28(v=VS.71).aspx) | Windows Типы среды выполнения хорошо воспроизводятся с использованием стандартных типов библиотек шаблонов. большинство приложений C++ Windows магазина используют стандартные коллекции и алгоритмы библиотек шаблонов, за исключением границ ABI. |
 | [Библиотека параллельных шаблонов](/previous-versions/visualstudio/visual-studio-2010/dd492418(v=vs.100)) | PPL предоставляет алгоритмы и типы, которые упрощают параллелизм задач и параллелизм данных в ЦП.  |
 | [C++ Accelerated Massive Parallelism (C++ AMP)](/previous-versions/visualstudio/visual-studio-2012/hh265137(v=vs.110)) | C++ AMP предоставляет доступ к GPU для обеспечения параллелизма данных общего назначения на видеоадаптерах, поддерживающих DirectX 11. |
 
@@ -120,8 +120,8 @@ ms.locfileid: "110343569"
 
 | Раздел | Описание |
 |-|-|
-| [Блог о играх для Windows и DirectX](https://walbourn.github.io/) | Регулярно обновляемый блог с помощью ключевого участника DirectX dev и всего отличного ресурса для DirectX разработчики. |
-| [Блог разработчиков Windows DirectX](https://devblogs.microsoft.com/directx/) | Официальный блог по Windows DirectX. |
-| [Блог Шон харгреаве для DirectX](https://www.shawnhargreaves.com/blogindex.html)) | Блог разработки от другого хорошо известного участника Windows DirectX dev. |
+| [блоги для Windows и DirectX](https://walbourn.github.io/) | Регулярно обновляемый блог с помощью ключевого участника DirectX dev и всего отличного ресурса для DirectX разработчики. |
+| [Windows Блог разработчиков DirectX](https://devblogs.microsoft.com/directx/) | официальный блог Windows DirectX. |
+| [Блог Шон харгреаве для DirectX](https://www.shawnhargreaves.com/blogindex.html)) | блог разработки от другого хорошо соблюдающий Windows участника DirectX dev. |
 | [Набор инструментов DirectX](https://directxtk.codeplex.com/) | Сайт CodePlex для набора средств DirectX (Дкстк), который содержит ряд полезных API поддержки для загрузки сеток, воспроизведения звуков и других распространенных поведений. |
 | [Библиотеки обработки текстур DirectXTex](https://directxtex.codeplex.com/) | Сайт плекса кода для библиотеки обработки текстур DirectX (Дкстекс), который содержит API-интерфейсы поддержки для обработки текстур и сжатия и распаковки. |

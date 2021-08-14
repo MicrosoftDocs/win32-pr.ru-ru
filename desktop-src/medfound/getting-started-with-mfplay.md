@@ -4,12 +4,12 @@ ms.assetid: 55612f49-5995-4bdf-aa12-8a853e5a2b24
 title: начало работы с Мфплай
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fd9e0405d3138a22e0d20e94849d416b29d62945
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bc2afb0b20189501530116c252a4d11a9b3e2d8d0dff07482b1998b73400071e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104496800"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118063501"
 ---
 # <a name="getting-started-with-mfplay"></a>начало работы с Мфплай
 
@@ -17,7 +17,7 @@ ms.locfileid: "104496800"
 
 Мфплай — это API для создания приложений воспроизведения мультимедиа на C++.
 
-В этом разделе содержатся следующие подразделы.
+Этот раздел состоит из следующих подразделов.
 
 -   [Требования](#requirements)
 -   [О Мфплай](#about-mfplay)
@@ -27,11 +27,11 @@ ms.locfileid: "104496800"
 -   [Получение сведений о файле мультимедиа](#getting-information-about-a-media-file)
 -   [Управление воспроизведением видео](#managing-video-playback)
 -   [Ограничения Мфплай](#limitations-of-mfplay)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
-Для Мфплай требуется Windows 7.
+для мфплай требуется Windows 7.
 
 ## <a name="about-mfplay"></a>О Мфплай
 
@@ -314,7 +314,7 @@ void OnPaint(HWND hwnd)
 -   Мфплай не поддерживает смешивание нескольких видеопотоков.
 -   Мфплай поддерживаются только форматы мультимедиа, которые поддерживаются встроенными в Media Foundation. (Сюда относятся сторонние Media Foundation компоненты, которые могут быть установлены в системе.)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

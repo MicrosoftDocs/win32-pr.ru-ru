@@ -4,12 +4,12 @@ ms.assetid: c28d9afa-152c-43b5-9892-7a38fae8c593
 title: Таблица Модуликсклусион
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8fb4cc136937d5a01bd16a42c138532dd524ee1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 008d10e65d81b5668821e1a999cf08f5a10c55db3372a4b0230d560462a977c9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104424009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996444"
 ---
 # <a name="moduleexclusion-table"></a>Таблица Модуликсклусион
 
@@ -21,12 +21,12 @@ ms.locfileid: "104424009"
 
 | Столбец             | Type                         | Ключ | Допускает значения NULL |
 |--------------------|------------------------------|-----|----------|
-| ModuleID           | [Идентификатор](identifier.md) | Да   | Нет        |
-| модулелангуаже     | [Integer](integer.md)       | Да   | Нет        |
-| ексклудедид         | [Идентификатор](identifier.md) | Да   | Нет        |
-| ексклудедлангуаже   | [Integer](integer.md)       | Да   | Нет        |
-| ексклудедминверсион | [Version](version.md)       |     | Да        |
-| ексклудедмаксверсион | [Version](version.md)       |     | Да        |
+| ModuleID           | [Идентификатор](identifier.md) | Д   | Нет        |
+| модулелангуаже     | [Integer](integer.md)       | Д   | Нет        |
+| ексклудедид         | [Идентификатор](identifier.md) | Д   | Нет        |
+| ексклудедлангуаже   | [Integer](integer.md)       | Д   | Нет        |
+| ексклудедминверсион | [Версия](version.md)       |     | Д        |
+| ексклудедмаксверсион | [Версия](version.md)       |     | Д        |
 
 
 

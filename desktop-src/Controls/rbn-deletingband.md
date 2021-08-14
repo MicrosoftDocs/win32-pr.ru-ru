@@ -3,7 +3,7 @@ title: Код уведомления RBN_DELETINGBAND (Коммктрл. h)
 description: Посылается элементом управления главной панели, когда удаляется полоса. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: 92840cb1-375e-4c37-bde4-7ba02a1ff4f1
 keywords:
-- RBN_DELETINGBAND кода уведомления элементы управления Windows
+- RBN_DELETINGBAND кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf810fd8800d7774a0dbf9a65cdf08c2d53d92ba
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6174bec0ad2ca659182330bd8da22e078df61c5f09b15cf9027e0092e1f0f339
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119985074"
 ---
 # <a name="rbn_deletingband-notification-code"></a>\_Код уведомления РБН делетингбанд
 
@@ -49,14 +49,14 @@ RBN_DELETINGBAND
 
 Возвращаемое значение для этого уведомления не используется.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

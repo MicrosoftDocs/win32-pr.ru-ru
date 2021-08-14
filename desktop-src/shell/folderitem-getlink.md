@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: d12c0fbd296610174c8b8363602288f59fcb9714
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7f4eaf3019ad46599fe572cdc403738d281f97eecd0b09752cdcc35335abb856
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104143054"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118224068"
 ---
 # <a name="folderitemgetlink-property"></a>FolderItem. соединение свойства
 
@@ -41,9 +41,9 @@ objGetLink = FolderItem.GetLink
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере метод **GetObject используется для** получения объекта [**шелллинкобжект**](shelllinkobject-object.md) для ярлыка Internet Explorer. Правильное использование показано в JScript, VBScript и Visual Basic.
+В следующем примере метод **GetObject используется для** получения объекта [**шелллинкобжект**](shelllinkobject-object.md) для ярлыка Internet Explorer. правильное использование отображается для JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -157,13 +157,13 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                           |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                         |

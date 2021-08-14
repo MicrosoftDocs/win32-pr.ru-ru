@@ -4,12 +4,12 @@ ms.assetid: 8966ac3e-a92b-4d68-b40b-e32a4173f869
 title: Рекомендации по программированию (локальные файловые системы)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a5d63c231c88da95efc0e5078506bf9fc0d6d9a
-ms.sourcegitcommit: 3d9dce1bd6c84e2b51759e940aa95aa9b459cd20
+ms.openlocfilehash: 79a98c244dac3fb4a9f6b73d11067af64512e0cfd54e58078bd87a2582b0c2de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "105684798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119981884"
 ---
 # <a name="programming-considerations-local-file-systems"></a>Рекомендации по программированию (локальные файловые системы)
 
@@ -23,7 +23,7 @@ ms.locfileid: "105684798"
 
     **Windows Server 2003 и Windows XP:** Существует ограничение в 31 точки повторного анализа по любому указанному пути.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

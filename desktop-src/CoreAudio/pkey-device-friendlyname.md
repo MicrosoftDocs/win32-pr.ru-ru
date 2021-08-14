@@ -4,12 +4,12 @@ ms.assetid: 3ccd6a78-8bc3-4a46-8f11-7c2ae8a23c63
 title: PKEY_Device_FriendlyName (Функтиондисковерикэйс \_ девпкэй. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fab8b8f30e04ae66356fb0910e3767d74b7b697a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 148a9d7f87b32b7175aa794f769d2fa67b42c86c44e8cc7bf773d3fa6b09d106
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895305"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118406430"
 ---
 # <a name="pkey_device_friendlyname"></a>PKEY \_ устройство \_ FriendlyName
 
@@ -19,14 +19,14 @@ ms.locfileid: "103895305"
 
 Элемент **пвсзвал** структуры **пропвариант** указывает на строку расширенных символов, заканчивающуюся нулем, которая содержит понятное имя устройства конечной точки.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                        |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Функтиондисковерикэйс \_ девпкэй. h</dt> </dl> |
 
 

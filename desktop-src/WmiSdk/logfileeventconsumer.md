@@ -22,12 +22,12 @@ api_type:
 - DllExport
 api_location:
 - Wbemcons.dll
-ms.openlocfilehash: 462989b740aaf6a6bd78968c951b7c676038cea5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dbcf0f90a8bca0cf1f648f74d1b58d7037b79fa8bc9d2d13c4fe2c6dc8306eba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996524"
 ---
 # <a name="logfileeventconsumer-class"></a>Класс Логфиливентконсумер
 
@@ -56,7 +56,7 @@ class LogFileEventConsumer : __EventConsumer
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **логфиливентконсумер** имеет следующие свойства.
 
@@ -112,7 +112,7 @@ class LogFileEventConsumer : __EventConsumer
 Тип доступа: только для чтения
 </dt> </dl>
 
-Имя компьютера, на который инструментарий управления Windows (WMI) (WMI) отправляет события.
+имя компьютера, на который инструментарий управления Windows (WMI) (WMI) отправляет события.
 
 Это свойство наследуется от [**\_ \_ евентконсумер**](--eventconsumer.md).
 
@@ -153,7 +153,7 @@ class LogFileEventConsumer : __EventConsumer
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -182,7 +182,7 @@ class LogFileEventConsumer : __EventConsumer
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > **Логфиливентконсумер** не защищает файл журнала. Поэтому при настройке **логфиливентконсумер** важно указать каталог, защищенный с учетом требуемого уровня.
@@ -195,7 +195,7 @@ class LogFileEventConsumer : __EventConsumer
 
 Пример использования **логфиливентконсумер** для создания потребителя см. в разделе [запись в файл журнала на основе события](writing-to-a-log-file-based-on-an-event.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

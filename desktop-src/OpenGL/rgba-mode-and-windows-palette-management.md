@@ -1,22 +1,22 @@
 ---
-title: Режим RGBA и управление палитрами Windows
+title: режим RGBA и управление палитрами Windows
 description: Хотя большинство приложений GDI обычно используют Индексирование цветов с помощью логических палитр, режим RGBA обычно является предпочтительным для приложений OpenGL. Он работает лучше, чем сопоставление цветов для различных эффектов, таких как заливка, освещение, туман и сопоставление текстур.
 ms.assetid: 68c35173-e792-4770-9404-5503344f475b
 keywords:
-- OpenGL в Windows, режим RGBA
-- OpenGL в Windows, управление палитрами
+- OpenGL на Windows, режим RGBA
+- OpenGL на Windows, управление палитрами
 - Режим RGBA OpenGL
 - Управление палитрами OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2e04110d1dfe489a145a8de9bdc7c3d9b726acd
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 53016764636cadd9fe85e0478905958788ca2557a308375bc8d6d9826462c6b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105661773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118932956"
 ---
-# <a name="rgba-mode-and-windows-palette-management"></a>Режим RGBA и управление палитрами Windows
+# <a name="rgba-mode-and-windows-palette-management"></a>режим RGBA и управление палитрами Windows
 
 Хотя большинство приложений GDI обычно используют Индексирование цветов с помощью логических палитр, режим RGBA обычно является предпочтительным для приложений OpenGL. Он работает лучше, чем сопоставление цветов для различных эффектов, таких как заливка, освещение, туман и сопоставление текстур.
 
@@ -297,6 +297,6 @@ main(int argc, char *argv[])
 
 
 
- 
+ 
 
- 
+ 

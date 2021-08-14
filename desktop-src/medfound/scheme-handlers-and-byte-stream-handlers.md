@@ -4,12 +4,12 @@ ms.assetid: b0113527-f22c-4519-b1cf-fea54bff4090
 title: Обработчики схем и обработчики Byte-Stream
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54976f45c7f07e12b6f095297231d306d0644704
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cc7bde81a02762cd9c82e0a7d031582c856da6984ab231775580ddf249caca23
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711404"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118058237"
 ---
 # <a name="scheme-handlers-and-byte-stream-handlers"></a>Обработчики схем и обработчики Byte-Stream
 
@@ -92,7 +92,7 @@ HKEY_LOCAL_MACHINE
 
 Обработчики потока байтов предоставляют интерфейс [**имфбитестреамхандлер**](/windows/desktop/api/mfidl/nn-mfidl-imfbytestreamhandler) . Если сопоставитель источника находит соответствующий обработчик потока байтов, он вызывает [**имфбитестреамхандлер:: бегинкреатеобжект**](/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamhandler-begincreateobject). Входные данные для этого метода являются указателем на байтовый поток, а также исходным URL-адресом, если он доступен. Обработчик потока байтов считывает данные из потока байтов до тех пор, пока не проанализирует достаточно данных для создания источника мультимедиа.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

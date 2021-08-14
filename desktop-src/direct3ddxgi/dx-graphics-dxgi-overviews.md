@@ -4,12 +4,12 @@ ms.assetid: bcbeb4bc-3bd1-40ed-b176-a8091cc6ee9f
 title: Руководством по программированию для DXGI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7834b2fc68019dccfb8ab8b2e62698465ff1ea2d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ee0ac41155557c14ca41f8e0ea9f1836247bd3b78da213c1fbbed521499eae7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104262314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118518387"
 ---
 # <a name="programming-guide-for-dxgi"></a>Руководством по программированию для DXGI
 
@@ -27,7 +27,7 @@ ms.locfileid: "104262314"
 | [Усовершенствования DXGI 1,4](dxgi-1-4-improvements.md)<br/>                                                                      | В DXGI 1,4 добавлены или изменены следующие функциональные возможности, в основном поддерживающие Direct3D 12. <br/>                                                           |
 | [Усовершенствования DXGI 1,5](dxgi-1-5-improvements.md)<br/>                                                                      | В DXGI 1,5 добавлены следующие функциональные возможности для поддержки более гибкого указания и дублирования форматов выходных данных.<br/>                                |
 | [Усовершенствования DXGI 1,6](dxgi-1-6-improvements.md)<br/>                                                                      | Для обнаружения HDR-отображений в DXGI 1,6 добавлены следующие функциональные возможности.<br/>                                                                       |
-| [Использование DirectX с дисплеями с широким динамическим диапазоном и расширенным управлением цветами](../direct3darticles/high-dynamic-range.md)     | В этом разделе представлен технический обзор визуализации содержимого Direct3D 11 и Direct3D 12 с высоким динамическим диапазоном на HDR10 дисплеи с помощью расширенной поддержки цветов Windows 10.<br/> |
+| [Использование DirectX с дисплеями с широким динамическим диапазоном и расширенным управлением цветами](../direct3darticles/high-dynamic-range.md)     | в этом разделе представлен технический обзор визуализации содержимого direct3d 11 и direct3d 12 с высоким динамическим диапазоном на HDR10 дисплеи с помощью Windows 10 расширенная поддержка цвета.<br/> |
 | [Отображение частоты обновления переменных](variable-refresh-rate-displays.md)<br/>                                                    | Для отображения частоты обновления переменных требуется *разрыв* , так как он также называется «вертикальной синхронизации-Off».<br/>                                                    |
 | [Использование гамма-коррекции](using-gamma-correction.md)<br/>                                                                    | Гамма-коррекция или гамма для краткости — это имя нелинейной операции, используемой системами для кодирования и дешифрования значений пикселей в изображениях.<br/>                        |
 | [Поддержка формата для функции Direct3D 10Level9 9,1 Hardware](format-support-for-direct3d-feature-level-9-1-hardware.md)<br/> | В этом разделе указываются форматы (значения [**\_ формата DXGI**](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) ), которые поддерживаются в оборудовании Direct3D 10Level9 9,1.<br/>        |
@@ -45,7 +45,7 @@ ms.locfileid: "104262314"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

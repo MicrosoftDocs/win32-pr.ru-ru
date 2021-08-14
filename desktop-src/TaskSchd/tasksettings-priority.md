@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 282c688d63bb21f2dc0bab43acde7f089fa960b2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f7b24c0281e8df314b070e0569176899b96071e1ef43caab17af4978e74f6b18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988290"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118354831"
 ---
 # <a name="tasksettingspriority-property"></a>Тасксеттингс. Priority, свойство
 
@@ -42,7 +42,7 @@ TaskSettings.Priority As Integer
 
 Уровень приоритета (0-10) задачи. Значение по умолчанию — 7.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Уровень приоритета 0 является наивысшим приоритетом, а уровень приоритета 10 — самым низким приоритетом. По умолчанию используется значение 7. Уровни приоритета 7 и 8 используются для фоновых задач, а уровни приоритета 4, 5 и 6 используются для интерактивных задач.
 
@@ -70,14 +70,14 @@ TaskSettings.Priority As Integer
 
 При чтении или записи XML для задачи этот параметр указывается в элементе [**Priority (сеттингстипе)**](taskschedulerschema-priority-settingstype-element.md) схемы планировщик задач.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                    |
 | Библиотека типов<br/>             | <dl> <dt>Тасксчд. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

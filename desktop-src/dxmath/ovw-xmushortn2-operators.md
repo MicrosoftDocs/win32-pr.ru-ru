@@ -4,12 +4,12 @@ ms.assetid: 5ed4be52-518a-4f3a-84b3-b95a8092c1bc
 title: Операторы XMUSHORTN2
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cac202786fa26bcbdf7d02a0e0eebde8df7b656
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 807d532811d70f2ed8fa45f7857ffd59a038ff96dba8cc721c1b5eab8ae2120e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103898257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118500698"
 ---
 # <a name="xmushortn2-operators"></a>Операторы XMUSHORTN2
 
@@ -32,7 +32,7 @@ ms.locfileid: "103898257"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

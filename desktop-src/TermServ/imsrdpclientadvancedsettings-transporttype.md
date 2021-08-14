@@ -19,16 +19,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0664e0c792725dc112baf786d63c5175eb450dcc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7829e39db819cf43e58856e4ea7ecd8d76621a78b9d45544a85034703e6ba9b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118352979"
 ---
 # <a name="imsrdpclientadvancedsettingstransporttype-property"></a>Свойство Имсрдпклиентадванцедсеттингс:: TransportType
 
-Указывает тип транспорта, используемый клиентом. Это свойство не используется удаленный рабочий стол элементом управления ActiveX.
+Указывает тип транспорта, используемый клиентом. это свойство не используется элементом управления удаленный рабочий стол ActiveX.
 
 Это свойство доступно для чтения и записи.
 
@@ -49,13 +49,13 @@ HRESULT get_TransportType(
 
 ## <a name="property-value"></a>Значение свойства
 
-Задает тип транспорта. Этот метод может быть выполнен, но набор значений никогда не используется элементом управления удаленный рабочий стол ActiveX.
+Задает тип транспорта. этот метод может быть выполнен, но набор значений никогда не используется элементом управления удаленный рабочий стол ActiveX.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Дополнительные сведения о веб-подключение к удаленному рабочему столу см. в разделе [требования для веб-подключение к удаленному рабочему столу](requirements-for-remote-desktop-web-connection.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

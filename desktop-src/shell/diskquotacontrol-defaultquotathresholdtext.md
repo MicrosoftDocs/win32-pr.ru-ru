@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: b3b209c7c8e71b49fd3b9fce90b9ea30b584bd65
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f16c32b46544d3966ae5e3a097576074d28bcfa40ce568cd591d37f9d3d0552
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104143936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118459907"
 ---
 # <a name="diskquotacontroldefaultquotathresholdtext-property"></a>Дисккуотаконтрол. Дефаулткуотасрешолдтекст, свойство
 
@@ -39,11 +39,11 @@ DefaultQuotaThresholdText = DiskQuotaControl.DefaultQuotaThresholdText
 
 Строковое значение, содержащее порог квоты по умолчанию для тома.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Пороговое значение квоты по умолчанию применяется автоматически к новым пользователям тома. Если использование диска пользователем превышает это значение, а свойство [**логкуотасрешолд**](diskquotacontrol-logquotathreshold.md) имеет значение **true**, система создает запись в журнале событий. Например, если пороговое значение по умолчанию — 10,0 МБ, значение свойства равно "10,0 МБ". Если для тома не задано пороговое значение по умолчанию, свойство имеет значение "без ограничений" или локализованный эквивалент.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

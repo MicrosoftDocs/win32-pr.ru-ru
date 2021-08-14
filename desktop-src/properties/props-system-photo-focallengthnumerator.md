@@ -4,12 +4,12 @@ ms.assetid: 32c40f4e-a19f-4a61-bc6e-01c891187c68
 title: System. photo. Фокалленгснумератор
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61f18c77b0bb1cce94123b5ce55a989de9b72c88
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dbe012cfd38334bc3eb17aacd80c6c987f962f5bc8cb62194b2600cb537bdf33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264229"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118229566"
 ---
 # <a name="systemphotofocallengthnumerator"></a>System. photo. Фокалленгснумератор
 
@@ -30,11 +30,11 @@ propertyDescription
       type = UInt32
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

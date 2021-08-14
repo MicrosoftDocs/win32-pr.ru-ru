@@ -4,12 +4,12 @@ ms.assetid: efb42dbb-30ea-426a-a281-b5b732085805
 title: Операторы XMINT4
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b9dd1e9b55e7d46e7edd0a2b210a630c61b375b3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d0ed1d34fec850e3586b388b564aab0893bd176c5561e3c5a729280cd677f768
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119979594"
 ---
 # <a name="xmint4-operators"></a>Операторы XMINT4
 
@@ -32,7 +32,7 @@ ms.locfileid: "104080466"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

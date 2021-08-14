@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 047ec3411186f09f3d0e76da27158aa8ee91d4cc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 391db343723af04536ac970e1d8beb0d7c7fb4bb1fe47ac15846a877999f4e6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104142862"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118417636"
 ---
 # <a name="win32_dependentservice-class"></a>\_Класс Win32 депендентсервице
 
@@ -48,7 +48,7 @@ class Win32_DependentService : CIM_ServiceServiceDependency
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ депендентсервице** имеет следующие свойства.
 
@@ -150,11 +150,11 @@ class Win32_DependentService : CIM_ServiceServiceDependency
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ депендентсервице** является производным от [**CIM \_ сервицесервицедепенденци**](cim-serviceservicedependency.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

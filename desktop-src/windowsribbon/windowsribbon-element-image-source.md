@@ -3,7 +3,7 @@ title: Свойство Image. Source
 description: Представляет путь к каталогу образа.
 ms.assetid: 174a518a-e9a3-4461-a9a3-d61b62d2b718
 keywords:
-- Свойство Image. Source ленты Windows
+- свойство Image. Source Windows лента
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ace2a907280a11c54452b54bfb6172539980e38
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 20612f0d25f914cb4c80ae77bb001a678af79e4605c3e1358ed7e33f6b19d805
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103801900"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118202409"
 ---
 # <a name="imagesource-property"></a>Свойство Image. Source
 
@@ -43,11 +43,11 @@ ms.locfileid: "103801900"
 
 | Элемент                                                 |
 |---------------------------------------------------------|
-| [**Образ**](windowsribbon-element-image.md)<br/> |
+| [**Изображение**](windowsribbon-element-image.md)<br/> |
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Необязательный элемент.
 
@@ -84,14 +84,14 @@ ms.locfileid: "103801900"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>              |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>              |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/> |
 
 
 

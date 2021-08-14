@@ -4,12 +4,12 @@ ms.assetid: 13e95222-e94f-44d1-939d-26646d932a32
 title: System. Contact. БусинессаддрессЦити
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6b3812a3a6a9df15a35fdd8adefc634bb46f303
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 36c6b3287dbad87428053633bff6d118f9fb5fed81627cf1db8497b80ce0d809
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118468473"
 ---
 # <a name="systemcontactbusinessaddresscity"></a>System. Contact. БусинессаддрессЦити
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

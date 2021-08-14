@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 24a56e832600b551dd3ab43ea93d59c5805af630
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fe08288929a5f14c4a920c52121c2ccfbdb35888f2ed220291e30e53a3ef0c6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118364839"
 ---
 # <a name="labeled_bit-structure"></a>\_Битовая структура с меткой
 
@@ -62,13 +62,13 @@ typedef struct _LABELED_BIT {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Массив **\_ битовых структур с метками** используется для определения набора пар битов меток. Указатель на массив указывается в элементе **лплабеледбит** структуры [набора](set.md) . Эти пары используются, если требуется отобразить метку на основе параметра каждого бита. Как правило, этот тип набора используется для указания значения битов (ON или OFF).
 
 Если задан бит BIT, сетевой монитор отображает только биты, включенные в массив **набора** структур. Биты, которые не находятся в структуре **набора** , не отображаются.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX9Shader.h
-ms.openlocfilehash: 05b034a48635e3a5a6d1a3dbdfbabd0fe2933b5c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1a343930f55323016895007f858a7fe188418eeab24b16859c2d773e39c9e73b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694128"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118524105"
 ---
 # <a name="d3dxtx_version"></a>\_Версия D3DXTX
 
@@ -32,13 +32,13 @@ ms.locfileid: "105694128"
 
 Макрос возвращает маркер версии для описания процедурной текстуры.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3DX9Shader. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3DX9Shader. h</dt> </dl> |
 
 
 

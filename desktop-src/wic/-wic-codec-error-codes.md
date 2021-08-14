@@ -1,19 +1,19 @@
 ---
-description: Этот документ содержит список кодов ошибок, определенных компонентом Windows Imaging Component (WIC).
+description: этот документ содержит список кодов ошибок, определенных компонентом imaging Windows (WIC).
 ms.assetid: 1ded909c-311b-49e3-ba23-b22cd7a77bc6
 title: Коды ошибок кодека
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd502ca1866114e2b471059bc9d9af1b0f96309f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8fb8f3911516f11c4a0614461786d6f94eaf00e038e53babb47d4df595797bdb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118207263"
 ---
 # <a name="codec-error-codes"></a>Коды ошибок кодека
 
-Этот документ содержит список кодов ошибок, определенных компонентом Windows Imaging Component (WIC).
+этот документ содержит список кодов ошибок, определенных компонентом imaging Windows (WIC).
 
 -   [Ошибки WIC по коду](#wic-errors-by-code)
 -   [Ошибки WIC по значению](#wic-errors-by-value)
