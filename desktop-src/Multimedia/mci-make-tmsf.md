@@ -3,7 +3,7 @@ title: Макрос MCI_MAKE_TMSF (МЦиапи. h)
 description: '\_ \_ Макрос make тмсф создает значение времени в упакованном формате дорожек/минут/секунд/кадров (тмсф) из заданных дорожек, минут, секунд и значений кадров.'
 ms.assetid: ff2d6938-0ff7-46d5-92be-42b4b6f35524
 keywords:
-- MCI_MAKE_TMSF макросов Windows мультимедиа
+- MCI_MAKE_TMSF макрос Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f06cd6a400f742b49dc29063e8473465ad7e32dc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ec038e0eb1e46c46162c9a2139f03881689db5fe1ee5993a8e135e5d92d67984
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672890"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118138407"
 ---
 # <a name="mci_make_tmsf-macro"></a>\_Макрос make \_ тмсф
 
@@ -43,14 +43,14 @@ DWORD MCI_MAKE_TMSF(
 
 <dl> <dt>
 
-*tracks* 
+*трассировк* 
 </dt> <dd>
 
 Число дорожек.
 
 </dd> <dt>
 
-*тезис* 
+*minutes* 
 </dt> <dd>
 
 Количество минут.
@@ -75,7 +75,7 @@ DWORD MCI_MAKE_TMSF(
 
 Возвращает время в упакованном формате ТМСФ.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Время в формате ТМСФ выражается как значение **DWORD** с наименьшим значащим байтом, содержащим дорожки, следующий младший значащий байт, содержащий минуты, следующий младший значащий байт, содержащий секунды, и самый значащий байт, содержащий кадры.
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: b03f91d0737b29b98adeb7e6a56bf9eccd35cc8f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 26562af3716648540843684bf6c7c901174d36ee1bd615a75d3d98094cc61c77
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669141"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117772820"
 ---
 # <a name="capicom_attribute-enumeration"></a>\_Перечисление АТРИБУТОВ CAPICOM
 
@@ -36,11 +36,11 @@ ms.locfileid: "105669141"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Тип **перечисления \_ атрибутов CAPICOM** используется свойством [**Attribute.Name**](attribute-name.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

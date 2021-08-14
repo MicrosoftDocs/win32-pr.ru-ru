@@ -4,12 +4,12 @@ ms.assetid: add98d8f-6846-4dd6-b0e2-a4b6e89cbcc5
 title: Блочное сжатие (Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7c3a74fba0b4c7c2adade210a9a54952b5d1269
-ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
+ms.openlocfilehash: edf93a9d475b21b54baa59f9324a7f69b043bb0c21787c0c2892bfdbe2f6c66d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "114436550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118101305"
 ---
 # <a name="block-compression-direct3d-10"></a>Блочное сжатие (Direct3D 10)
 
@@ -31,7 +31,7 @@ ms.locfileid: "114436550"
     -   [BC4](#bc4)
     -   [BC5](#bc5)
 -   [Преобразование формата с помощью Direct3D 10,1](#format-conversion-using-direct3d-101)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="how-does-block-compression-work"></a>Как работает сжатие блокировок?
 
@@ -482,7 +482,7 @@ Direct3D 10,1 обеспечивает копирование между пре�
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

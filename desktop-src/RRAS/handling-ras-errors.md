@@ -6,12 +6,12 @@ keywords:
 - RAS службы удаленного доступа, ошибки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f37c18a795f5675fc6df80da6027526f81a87010
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b870678eb2dbe95c190bc67415b9abb5481c33918429194404893349c0d7f7a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103778404"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117791282"
 ---
 # <a name="handling-ras-errors"></a>Обработка ошибок RAS
 
@@ -19,9 +19,9 @@ ms.locfileid: "103778404"
 
 Коды ошибок, которые определяют ошибки RAS, определяются в файле расеррор. h. Клиент RAS может использовать функцию [**расжетеррорстринг**](/windows/desktop/api/Ras/nf-ras-rasgeterrorstringa) для получения отображаемой строки, описывающей ошибку. Описание этих ошибок см. в статье [коды ошибок маршрутизации и удаленного доступа](routing-and-remote-access-error-codes.md) .
 
- 
+ 
 
- 
+ 
 
 
 

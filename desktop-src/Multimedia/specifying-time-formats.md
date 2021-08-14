@@ -9,12 +9,12 @@ keywords:
 - Макрос МЦивндусефрамес
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e390e811bde4d797572c19f372923906f6b738b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 50c14303879a3d13d018be8691eb1947ee1ed67907df796ae38cffc3936bf2ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104330059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117801707"
 ---
 # <a name="specifying-time-formats"></a>Указание форматов времени
 
@@ -25,11 +25,11 @@ ms.locfileid: "104330059"
 > [!Note]  
 > Непостоянное форматирование, например дорожные и SMPTE, может вызвать нестабильное поведение панели инструментов. Для этих форматов времени может потребоваться отключить панель инструментов, указав \_ стиль окна мЦивндф ноплайбар при создании окна мЦивнд.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

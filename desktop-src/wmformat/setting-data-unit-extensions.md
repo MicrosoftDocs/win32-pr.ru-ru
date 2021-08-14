@@ -9,12 +9,12 @@ keywords:
 - потоки, расширения модулей данных
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 822a05a6e6bcbb9f0101d32eed05f2b6c5c68dc8
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: f1bb88e9aa0c3bc00d4c21a1c262b7ff4a44fbc2f426f139b3b782a0bbdb7b83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104533047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118197486"
 ---
 # <a name="setting-data-unit-extensions"></a>Настройка модулей обработки данных
 
@@ -24,7 +24,7 @@ ms.locfileid: "104533047"
 
 Чтобы добавить Расширенные данные в образец, используйте метод [**INSSBuffer3:: SetProperty**](/previous-versions/windows/desktop/api/Wmsbuffer/nf-wmsbuffer-inssbuffer3-setproperty) . Сведения о расширениях модулей данных, настроенных в потоке, можно получить с помощью методов [**IWMStreamConfig2:: жетдатаунитекстенсионкаунт**](/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-getdataunitextensioncount) и [**IWMStreamConfig2:: жетдатаунитекстенсион**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-getdataunitextension) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -34,9 +34,9 @@ ms.locfileid: "104533047"
 [**Запись файлов ASF**](writing-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: eed2297a4546250cfe9e360029f11b2e4e6e67d1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 18e6acc2aa4b765e9219eff479280df814f1089dc27366c5d175dcdeda4fd890
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669517"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117771559"
 ---
 # <a name="certificateprivatekey-property"></a>Свойство Certificate. PrivateKey
 
@@ -41,13 +41,13 @@ Certificate.PrivateKey As PrivateKey
 
 Объект [**PrivateKey**](privatekey.md) , представляющий закрытый ключ, связанный с сертификатом.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если задать для свойства **PrivateKey** значение Nothing, связь между закрытым ключом и сертификатом будет удалена, но закрытый ключ не будет удален. Чтобы удалить закрытый ключ, вызовите метод [**PrivateKey. Delete**](privatekey-delete.md) , а затем установите для этого свойства значение Nothing.
 
 Это свойство вызывает CAPICOM \_ E \_ не \_ разрешено, если оно задано из веб-приложения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -64,7 +64,7 @@ Certificate.PrivateKey As PrivateKey
 
 <dl> <dt>
 
-[**Certificate**](certificate.md)
+[**Сертификат**](certificate.md)
 </dt> </dl>
 
  

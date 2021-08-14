@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Cabinet.dll
-ms.openlocfilehash: 2e1096cdb7909f49fbcac7c32891210b25637c90
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cbcb53aae008423ac56bb489d43f6fd78016a9b1f716be21390a6dfc1de00404
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118162068"
 ---
 # <a name="extract-function"></a>Извлечение функции
 
@@ -42,7 +42,7 @@ HRESULT Extract(
 
 <dl> <dt>
 
-*ps* 
+*PS* 
 </dt> <dd>
 
 Указатель на структуру [**сеанса**](session.md) , содержащую сведения о текущем сеансе.
@@ -60,7 +60,7 @@ HRESULT Extract(
 
 Если функция завершается успешно, возвращается значение **\_ ОК**; в противном случае возвращается код ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция не имеет связанной библиотеки импорта или файла заголовка. его необходимо вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 

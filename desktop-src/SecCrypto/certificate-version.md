@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 48d67ac2154f63573cb8b75686b3846e14b0ed65
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 10abf278d1b9c0d761b8819b461b785b2b4b025f71904ae50b09b7c66161f2ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117771044"
 ---
 # <a name="certificateversion-property"></a>Свойство Certificate. Version
 
@@ -41,7 +41,7 @@ Certificate.Version As Long
 
 Номер версии сертификата.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -58,7 +58,7 @@ Certificate.Version As Long
 
 <dl> <dt>
 
-[**Certificate**](certificate.md)
+[**Сертификат**](certificate.md)
 </dt> </dl>
 
  

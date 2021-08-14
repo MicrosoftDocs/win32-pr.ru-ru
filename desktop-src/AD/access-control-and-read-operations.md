@@ -7,12 +7,12 @@ keywords:
 - Управление доступом и операции чтения AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6aac8797828dd6322723a95f5e2048f986f1230d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6f11dfd0b8d65bf0346f66fa4d7b959cb2893718bef44303d3774b19c29a97ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118025504"
 ---
 # <a name="access-control-and-read-operations"></a>Операции контроля доступа и чтения
 
@@ -26,9 +26,9 @@ ms.locfileid: "104067277"
 
 Влияние безопасности на операции чтения не обязательно является ошибкой. Например, операция поиска может выполняться успешно, но результаты поиска не включают объекты или свойства, к которым вызывающий объект не имеет доступа.
 
- 
+ 
 
- 
+ 
 
 
 

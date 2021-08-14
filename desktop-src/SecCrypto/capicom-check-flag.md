@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: 47b6168fb87ebbb65b07eadfe9adaf488934e252
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4b9fbc5ec1717acbd32c70ea3467465daf47de5d41af794a5164f44174a602d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665189"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117772516"
 ---
 # <a name="capicom_check_flag-enumeration"></a>\_ \_ Перечисление флагов CAPICOM Check
 
@@ -45,7 +45,7 @@ ms.locfileid: "105665189"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

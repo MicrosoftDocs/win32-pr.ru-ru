@@ -4,16 +4,16 @@ ms.assetid: c3859590-7674-4315-b171-3747e5d9350b
 title: WPD_CONTENT_TYPE_DOCUMENT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af8a0a902fb30eb0343a3846eaf3668a4a005a82
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47684fa261b3455adba371c81095dea5cc5243266a662a922da7108e0d3b07c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081336"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118193515"
 ---
 # <a name="wpd_content_type_document"></a>\_ \_ документ типа содержимого \_ WPD
 
-Объект, описывающий его тип как \_ документ типа содержимого WPD, \_ \_ представляет документ. К примерам относятся Microsoft Office файлы Word, Microsoft Office файлы Excel, обычные текстовые файлы и другие собственные форматы документов.
+Объект, описывающий его тип как \_ документ типа содержимого WPD, \_ \_ представляет документ. к примерам относятся Microsoft Office файлы Word, файлы Microsoft Office Excel, обычные текстовые файлы и другие собственные форматы документов.
 
 Этот тип объектов может содержать следующие свойства.
 
@@ -72,7 +72,7 @@ ms.locfileid: "104081336"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

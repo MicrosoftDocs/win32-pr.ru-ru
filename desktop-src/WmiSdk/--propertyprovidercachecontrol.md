@@ -15,12 +15,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 1d153049a9635b4b77a1ad09ca0ee64835b9bcfa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 33edad107859328e9a81a6c77c3c02e29e2ee3aebbbe411ee20fb438e51517a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104264803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118110542"
 ---
 # <a name="__propertyprovidercachecontrol-class"></a>\_\_Класс Пропертипровидеркачеконтрол
 
@@ -43,7 +43,7 @@ class __PropertyProviderCacheControl
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ \_ пропертипровидеркачеконтрол** имеет следующие свойства.
 
@@ -62,7 +62,7 @@ class __PropertyProviderCacheControl
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ \_ пропертипровидеркачеконтрол** является производным от [**\_ \_ CacheControl**](--cachecontrol.md). Дополнительные сведения см. [в разделе выгрузка поставщика](unloading-a-provider.md).
 

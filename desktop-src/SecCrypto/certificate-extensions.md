@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: cc96dee9c33bb3f76e1fb17acb2000f9740d1b5b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e700fda2fb99e0ea0a3dfd8690fdfedbdeecb21bc84bfdb08cbf1f179536cbef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117771616"
 ---
 # <a name="icertificate2extensions-method"></a>Метод ICertificate2:: Extensions
 
@@ -44,7 +44,7 @@ Certificate.Extensions()
 
 Объект [**Extensions**](extensions.md) , представляющий все расширения, связанные с сертификатом.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

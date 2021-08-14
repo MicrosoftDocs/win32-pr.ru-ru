@@ -4,12 +4,12 @@ ms.assetid: 1dc4d04f-7e7c-42a1-bd71-4549f83a806e
 title: System. Calendar. в сети
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22cd1682ba43ff22ca4b89a2524eaf242e787d86
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 05632fa37ce07be617b106665f1d0e9b0d05ede486634efc1358159c3b7fba61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104544743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118055724"
 ---
 # <a name="systemcalendarisonline"></a>System. Calendar. в сети
 
@@ -44,11 +44,11 @@ propertyDescription
       type = Boolean
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 325b5c45fc6ae626363de286a6e131f1782cb83f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b049338bd741281c5b7f012fe4ae7ae443cc2c4b6f9dd7f29591e7616fb8b5dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117770391"
 ---
 # <a name="certificatestatuscertificates-property"></a>Цертификатестатус. Certificates, свойство
 
@@ -39,7 +39,7 @@ CertificateStatus.Certificates As Certificates
 
 Объект [**Certificates**](certificates.md) , представляющий коллекцию сертификатов, которые могут использоваться для создания цепочки сертификатов.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

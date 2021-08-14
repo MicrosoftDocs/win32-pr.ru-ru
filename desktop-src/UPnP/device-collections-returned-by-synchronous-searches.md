@@ -4,12 +4,12 @@ description: Коллекции устройств — это объекты, с
 ms.assetid: 45455c3f-7281-4f96-a609-2efd2cf36aa2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fd581b7c79fe67a825e411d53e8c44c0f3d4326
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 94901dd2f3988327c32d7c21799ff4db7647e76fd987247e903501bd8937851a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104134286"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117755530"
 ---
 # <a name="device-collections-returned-by-synchronous-searches"></a>Коллекции устройств, возвращенные синхронным поиском
 
@@ -84,6 +84,6 @@ HRESULT TraverseCollection(IUPnPDevices * pDevices)
 
 Первым шагом является запрос нового перечислителя для коллекции с помощью свойства [**\_ NewEnum**](/windows/win32/api/upnp/nf-upnp-iupnpdevices-get__newenum) . Он возвращает перечислитель в качестве интерфейса [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) . Пример кода вызывает [**IUnknown:: QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) для получения интерфейса [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) . Затем пример кода устанавливает перечислитель в начало коллекции, вызывая метод [**IEnumVARIANT:: Reset**](/windows/win32/api/oaidl/nf-oaidl-ienumvariant-reset) . Наконец, в примере кода вызывается метод [**IEnumVARIANT:: Next**](/windows/win32/api/oaidl/nf-oaidl-ienumvariant-next) для прохода по коллекции. Объекты устройств в коллекции содержатся в структурах **Variant** . Эти структуры содержат указатели на интерфейсы [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) в объектах устройств. Чтобы получить интерфейс [**иупнпдевице**](/windows/desktop/api/Upnp/nn-upnp-iupnpdevice) , пример кода вызывает **QueryInterface** в интерфейсе **IDispatch** .
 
- 
+ 
 
- 
+ 

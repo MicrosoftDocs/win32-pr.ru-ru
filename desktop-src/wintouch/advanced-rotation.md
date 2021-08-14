@@ -3,20 +3,20 @@ title: Расширенный Поворот
 description: В этом разделе объясняется, как повернуть объект в зависимости от того, где пользователь выполняет манипуляции с вращением.
 ms.assetid: 56b339b1-a062-4c0e-91c8-aec08a17bc65
 keywords:
-- Касание Windows, поворот
-- Касание Windows, Расширенный Поворот
-- Касание Windows, манипуляции
+- Windows Сенсорный ввод, поворот
+- Windows Сенсорный ввод, Расширенный Поворот
+- Windows Сенсорный ввод, манипуляции
 - манипуляции, вращение
 - манипуляции, Расширенный Поворот
 - вращение, дополнительно
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc3a84679f4189d28941262cda2585887b0932c5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1a6dda17ae8076061f7b5b7b935afb2b7f8e5fb10cb270280f7edbb8c23aa896
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118199520"
 ---
 # <a name="advanced-rotation"></a>Расширенный Поворот
 
@@ -46,7 +46,7 @@ RotateVector(FLOAT *vector, FLOAT *tVector, FLOAT fAngle) {
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -56,9 +56,9 @@ RotateVector(FLOAT *vector, FLOAT *tVector, FLOAT fAngle) {
 [Манипуляции](getting-started-with-manipulations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

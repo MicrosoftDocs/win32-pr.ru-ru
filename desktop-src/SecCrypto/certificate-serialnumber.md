@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 6dbd9485891cc89e686cef118e12dd43ec400f60
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f69836534dc9a45bcdecd88be83d9051c24852d966c0d0a4949016ff7feea3e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117771275"
 ---
 # <a name="certificateserialnumber-property"></a>Свойство Certificate. SerialNumber
 
@@ -41,7 +41,7 @@ Certificate.SerialNumber As String
 
 Строка, содержащая серийный номер сертификата.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

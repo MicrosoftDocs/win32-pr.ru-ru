@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 3e256329bc235f7fe5a0428ba33710fa6b838f04
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 947cda4094491702fa0f847e6a8abd4fed7bcbe9bd3504c5f8aec2097b0d6b8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103810948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118220940"
 ---
 # <a name="ishellfoldersearchablefindstring-method"></a>Метод Ишеллфолдерсеарчабле:: FindString
 
@@ -54,18 +54,18 @@ HRESULT FindString(
 *пдвфлагс* \[ окне\]
 </dt> <dd>
 
-Введите: **DWORD \** _
+Тип: **DWORD \***
 
-Флаги в настоящее время не определены; Задайте значение _ * NULL * *.
+Флаги в настоящее время не определены; Задайте **значение NULL**.
 
 </dd> <dt>
 
 *пунконасинксеарч* \[ окне\]
 </dt> <dd>
 
-Тип: **[**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) \** _
+Тип: **[ **IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown)\***
 
-Указатель на объект типа [_ *IUnknown* *](/windows/win32/api/unknwn/nn-unknwn-iunknown). Этот объект должен поддерживать интерфейс [**ишеллфолдерсеарчаблекаллбакк**](ishellfoldersearchablecallback.md) . Если обратный вызов не требуется, задайте значение **null** .
+Указатель на объект типа [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown). Этот объект должен поддерживать интерфейс [**ишеллфолдерсеарчаблекаллбакк**](ishellfoldersearchablecallback.md) . Если обратный вызов не требуется, задайте значение **null** .
 
 </dd> <dt>
 
@@ -84,7 +84,7 @@ HRESULT FindString(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

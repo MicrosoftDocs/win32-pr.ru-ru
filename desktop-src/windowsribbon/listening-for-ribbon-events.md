@@ -1,22 +1,22 @@
 ---
 title: Прослушивание событий ленты
-description: Платформа Windows Ribbon использует инфраструктуру трассировки событий для Windows (ETW), позволяющую разработчикам узнать, как пользователи взаимодействуют с лентой приложения.
+description: платформа Windows Ribbon использует функцию трассировки событий для Windows (ETW), чтобы разработчики могли узнать, как пользователи взаимодействуют с лентой приложения.
 ms.assetid: F29A8E41-C902-410E-BD28-653E078320E9
 keywords:
-- Лента Windows, события
+- Windows Лента, события
 - Лента, события
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fcbfb2c6417c1423cb785b6b80de4396146535c2
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: f9519553a40cd613085949d4650c2689e817f387e47e9ab4380b629464e90d2b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104339449"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118202974"
 ---
 # <a name="listening-for-ribbon-events"></a>Прослушивание событий ленты
 
-Платформа Windows Ribbon использует инфраструктуру [трассировки событий для Windows (ETW)](../etw/event-tracing-portal.md) , позволяющую разработчикам узнать, как пользователи взаимодействуют с лентой приложения.
+платформа Windows Ribbon использует функцию [трассировки событий для Windows (ETW)](../etw/event-tracing-portal.md) , чтобы разработчики могли узнать, как пользователи взаимодействуют с лентой приложения.
 
 ## <a name="introduction"></a>Введение
 
@@ -24,8 +24,8 @@ ms.locfileid: "104339449"
 
 При использовании событий платформы Ribbon происходит следующее.
 
-1.  Приложение ленты должно зарегистрировать прослушиватель [трассировки событий Windows (ETW)](../etw/event-tracing-portal.md) для получения уведомлений о событиях ленты из платформы ленты.
-2.  Платформа Ribbon запускает обратные вызовы событий пользовательского интерфейса ленты во время выполнения, если приложение зарегистрировало прослушиватель [трассировки событий для Windows (ETW)](../etw/event-tracing-portal.md) .
+1.  для получения уведомлений о событиях ленты из платформы ленты приложение ленты должно зарегистрировать прослушиватель [событий для трассировки Windows (ETW)](../etw/event-tracing-portal.md) .
+2.  платформа ribbon запускает обратные вызовы событий пользовательского интерфейса ribbon во время выполнения, если приложение зарегистрировало [трассировку событий для прослушивателя Windows (ETW)](../etw/event-tracing-portal.md) .
 
 ## <a name="supported-events"></a>Поддерживаемые события
 
@@ -78,7 +78,7 @@ ms.locfileid: "104339449"
 <br/></td>
 </tr>
 <tr class="odd">
-<td>Get-Help</td>
+<td>Команда</td>
 <td>Идентификатор команды<br/> Имя команды<br/> Команда события<br/> Одно из следующих расположений событий:
 <ul>
 <li>ЛЕНТЕ</li>
@@ -128,11 +128,11 @@ ms.locfileid: "104339449"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Руководства для разработчиков платформы Windows Ribbon](windowsribbon-guides-entry.md)
+[Windows Руководства для разработчиков платформы Ribbon](windowsribbon-guides-entry.md)
 </dt> <dt>
 
 [Объявление команд и элементов управления с разметкой ленты](./windowsribbon-schema.md)

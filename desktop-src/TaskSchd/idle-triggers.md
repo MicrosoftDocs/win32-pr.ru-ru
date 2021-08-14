@@ -4,12 +4,12 @@ description: Триггер простоя — это триггер на осн
 ms.assetid: f2e0b120-dadc-470f-8349-42843149bb60
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d6a19f3f6d474a9463667316e353a4803ab8fa9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 349b6ce078479df841773661bfe07b098f95d1124a68803b8b472b226d9b5df6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105681416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117760090"
 ---
 # <a name="idle-triggers-for-task-scheduler-10"></a>Триггеры бездействия для планировщик задач 1,0
 
@@ -20,22 +20,22 @@ ms.locfileid: "105681416"
 > [!Note]  
 > Если \_ задан триггер события задачи при \_ \_ \_ неактивном состоянии, члены **встарсаур**, **встартминуте** и **Type** структуры [**\_ триггера задачи**](/windows/desktop/api/Mstask/ns-mstask-task_trigger) игнорируются.
 
- 
+ 
 
 Можно задать время ожидания простоя рабочего элемента, вызвав метод [**исчедуледворкитем:: сетидлеваит**](/windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-setidlewait) . Этот метод задает период времени (в минутах), в течение которого система должна оставаться неактивной до срабатывания триггера и выполнения рабочего элемента.
 
 Чтобы получить время простоя задачи, вызовите метод [**исчедуледворкитем:: жетидлеваит**](/windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-getidlewait) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Триггеры задач](task-triggers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

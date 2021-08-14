@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: e9a6cb31a00f4d2943e68670930e6cbc4436b6b1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0c0c228a06da9d0a4dd93491908af0c0a2d0693125be57b675ca64e10378f253
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665421"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117770004"
 ---
 # <a name="certificatestatus-object"></a>Объект Цертификатестатус
 
@@ -67,13 +67,13 @@ ms.locfileid: "105665421"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Не удается создать объект **цертификатестатус** .
 
 Объект **цертификатестатус** возвращается методом [**Certificate. IsValid**](certificate-isvalid.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

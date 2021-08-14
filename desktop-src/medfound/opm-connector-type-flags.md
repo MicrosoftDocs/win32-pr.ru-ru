@@ -4,12 +4,12 @@ ms.assetid: 93e816fb-1b40-4865-9c0c-24d96c83fb7f
 title: Флаги типа соединителя ОПМ (Опмапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a3b14f1ba677822ec48cc85118fec156919794a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f921fd8c1f51c5d9d8c26ea834e9a0ab5b3d2b9eeec18486d05a78d05651bab4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103811596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117871840"
 ---
 # <a name="opm-connector-type-flags"></a>Флаги типа соединителя ОПМ
 
@@ -33,13 +33,13 @@ ms.locfileid: "103811596"
 | <span id="OPM_CONNECTOR_TYPE_DISPLAYPORT_EMBEDDED"></span><span id="opm_connector_type_displayport_embedded"></span><dl> <dt>**ОПМ \_ \_Тип соединителя \_ дисплайпорт \_ Embedded**</dt> <dt>11</dt> </dl>                      | Встроенный порт дисплея, который подключается внутренним образом к устройству дисплея. Также известен как *встроенный* Порт дисплея.<br/> Приложения не должны включать High-Bandwidth цифровые Защита содержимого (HDCP) для встроенных портов дисплея.<br/>                                                                                                                                                                                                                         |
 | <span id="OPM_CONNECTOR_TYPE_UDI_EXTERNAL"></span><span id="opm_connector_type_udi_external"></span><dl> <dt>**ОПМ \_ \_Тип соединителя \_ UDI \_ External**</dt> <dt>12</dt> </dl>                                              | Единый интерфейс интерфейса (UDI), который соединяется извне с устройством дисплея.<br/>                                                                                                                                                                                                                                                                                                                                                                                   |
 | <span id="OPM_CONNECTOR_TYPE_UDI_EMBEDDED"></span><span id="opm_connector_type_udi_embedded"></span><dl> <dt>**ОПМ \_ \_Тип соединителя \_ UDI \_ Embedded**</dt> <dt>13</dt> </dl>                                              | Встроенный UDI, который подключается к устройству просмотра внутренним образом. Также называется *интегрированной* UDI.<br/>                                                                                                                                                                                                                                                                                                                                                                  |
-| <span id="OPM_CONNECTOR_TYPE_RESERVED"></span><span id="opm_connector_type_reserved"></span><dl> <dt>**ОПМ \_ \_Тип соединителя \_ зарезервирован**</dt> <dt>14</dt> </dl>                                                           | Зарезервировано для последующего использования.<br/> Поддерживается в Windows 8.1 и более поздних версиях.<br/>                                                                                                                                                                                                                                                                                                                                                                                           |
-| <span id="OPM_CONNECTOR_TYPE_MIRACAST"></span><span id="opm_connector_type_miracast"></span><dl> <dt>**ОПМ \_ \_Тип соединителя \_ MIRACAST**</dt> <dt>15</dt> </dl>                                                           | Беспроводной соединитель Miracast.<br/> Поддерживается в Windows 8.1 и более поздних версиях.<br/>                                                                                                                                                                                                                                                                                                                                                                                     |
+| <span id="OPM_CONNECTOR_TYPE_RESERVED"></span><span id="opm_connector_type_reserved"></span><dl> <dt>**ОПМ \_ \_Тип соединителя \_ зарезервирован**</dt> <dt>14</dt> </dl>                                                           | Зарезервировано для последующего использования.<br/> поддерживается в Windows 8.1 и более поздних версиях.<br/>                                                                                                                                                                                                                                                                                                                                                                                           |
+| <span id="OPM_CONNECTOR_TYPE_MIRACAST"></span><span id="opm_connector_type_miracast"></span><dl> <dt>**ОПМ \_ \_Тип соединителя \_ MIRACAST**</dt> <dt>15</dt> </dl>                                                           | Miracastный соединитель беспроводной связи.<br/> поддерживается в Windows 8.1 и более поздних версиях.<br/>                                                                                                                                                                                                                                                                                                                                                                                     |
 | <span id="OPM_COPP_COMPATIBLE_CONNECTOR_TYPE_INTERNAL"></span><span id="opm_copp_compatible_connector_type_internal"></span><dl> <dt>**ОПМ \_ \_Внутренний 0x80000000 \_ для \_ типа \_ соединителя Копп**</dt> <dt></dt> </dl> | Внутренний соединитель. Подключение между графическим адаптером и устройством дисплея является постоянным и недоступным для пользователя. Этот флаг используется только в *режиме эмуляции Копп*. Его можно объединить с другими значениями.<br/>                                                                                                                                                                                                                                    |
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если соединитель описан как *встроенный* или *интегрированный*, он подразумевает, что соединитель является внутренним. Эти соединители имеют значение "EMBEDDED" в имени константы перечисления.
 
@@ -55,8 +55,8 @@ ms.locfileid: "103811596"
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                      |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                      |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Опмапи. h</dt> </dl> |
 
 

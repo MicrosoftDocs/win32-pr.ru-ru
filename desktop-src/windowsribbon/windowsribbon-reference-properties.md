@@ -1,24 +1,24 @@
 ---
 title: Ключи свойств
-description: Справочная документация по ключам свойств платформы Windows Ribbon, коллекции пар "ключ-значение" PROPERTYKEY и ПРОПВАРИАНТ, используемых для описания состояния команды Ribbon Framework.
+description: справочная документация по Windows ключам свойств платформы ленты, коллекции пар "ключ-значение" PROPERTYKEY и пропвариант, используемых для описания состояния команды Ribbon framework.
 ms.assetid: 12bc7fda-ff69-4316-8baf-cc97e19a231c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6dbf916de92b4819797846b889b42306c7c00f21
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9a55d7c1cb84bc3491c07c566b9ae3f0ecf7b2829c84203d382339c0123650c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104411382"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118201336"
 ---
 # <a name="property-keys"></a>Ключи свойств
 
-Справочная документация по ключам свойств платформы Windows Ribbon, коллекции пар "ключ-значение" **PROPERTYKEY** и **пропвариант** , используемых для описания состояния команды Ribbon Framework.
+справочная документация по Windows ключам свойств платформы ленты, коллекции пар "ключ-значение" **PROPERTYKEY** и **пропвариант** , используемых для описания состояния команды Ribbon framework.
 
 > [!Note]  
 > Ключ должен быть уникальным в коллекции для каждой команды.
 
- 
+ 
 
 ## <a name="property-types"></a>Типы свойств
 
@@ -50,16 +50,16 @@ ms.locfileid: "104411382"
 
 Справочная документация по ключам свойств для состояния или контекста элемента управления платформы ленты.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Справочник по платформе ленты Windows](windowsribbon-reference-entry.md)
+[Windows Справочник по платформе ленты](windowsribbon-reference-entry.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

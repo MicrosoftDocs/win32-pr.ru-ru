@@ -3,18 +3,18 @@ title: Манипуляции и инерция
 description: В этом разделе содержатся разделы, относящиеся к манипуляциям и инерции.
 ms.assetid: ba56fa56-c74f-47ac-a15c-ba82a0521995
 keywords:
-- Касание Windows, манипуляции
-- Касание Windows, инерция
+- Windows Сенсорный ввод, манипуляции
+- Windows Сенсорный ввод, инерция
 - манипуляции, о
 - инерция, сведения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a55def8acb5f3dcf517ae90f4f220511e0650a1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 03d47661630fd0cc3f14125d1590816145d48a0f3485cedde68c76b52064eb4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067611"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118199492"
 ---
 # <a name="manipulations-and-inertia"></a>Манипуляции и инерция
 
@@ -26,23 +26,23 @@ ms.locfileid: "104067611"
 
 | Раздел                                                   | Описание                               |
 |---------------------------------------------------------|-------------------------------------------|
-| [Манипуляции](getting-started-with-manipulations.md) | Объясняет манипуляции с Windows Touch. |
-| [Инерция](getting-started-with-inertia.md)             | Описание инерции для Windows Touch.       |
+| [Манипуляции](getting-started-with-manipulations.md) | объясняет манипуляции с Windows Touch. |
+| [Инерция](getting-started-with-inertia.md)             | описание инерции для Windowsного касания.       |
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Руководство по программированию](programming-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,8 +3,8 @@ title: О сочетаниях клавиш
 description: В этом разделе обсуждаются сочетания клавиш.
 ms.assetid: cbf7619d-289d-40c9-9a06-6ce47026d43f
 keywords:
-- Пользовательский интерфейс Windows, ввод данных пользователем
-- Пользовательский интерфейс Windows, сочетания клавиш
+- Windows Пользовательский интерфейс, ввод данных пользователем
+- Windows Пользовательский интерфейс, сочетания клавиш
 - Ввод данных пользователем, сочетания клавиш
 - захват вводимых пользователем данных, сочетания клавиш
 - сочетания клавиш
@@ -14,12 +14,12 @@ keywords:
 - таблицы сочетаний клавиш
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88e97f0b4997d15d55601e571270276e7d7a3bd4
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 1b81240feb0ca21028c9d1813f4c8004e1c3bb932fe1ec8767e3719c26e7a5db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117870739"
 ---
 # <a name="about-keyboard-accelerators"></a>О сочетаниях клавиш
 

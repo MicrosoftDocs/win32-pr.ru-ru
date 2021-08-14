@@ -4,12 +4,12 @@ ms.assetid: e720cf0d-b034-48e2-a13e-e97dd23b2beb
 title: Предложение ORDER BY
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3eaa3c834ca2fe04222ef2ae452a0119bf391b9b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f3815ddecc659a47d7cf2c8547b49e878c54ba6bf8537e2589eea4441d9d3f7c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104144080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118227189"
 ---
 # <a name="order-by-clause"></a>Предложение ORDER BY
 

@@ -1,6 +1,6 @@
 ---
-title: Настройка веб-потоков
-description: Настройка веб-потоков
+title: настройка веб-Потоки
+description: настройка веб-Потоки
 ms.assetid: 1eeb6243-5095-4dba-994c-2083beda7b78
 keywords:
 - потоки, Настройка веб-потоков
@@ -8,14 +8,14 @@ keywords:
 - Веб-потоки, Настройка
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 27c91c36788b858b2378ebf46b553f076c5ec490
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a8df1ced96a772a26b674fb47a30a8664d6431ff946328f45467554857b1ee4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104331944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118199125"
 ---
-# <a name="configuring-web-streams"></a>Настройка веб-потоков
+# <a name="configuring-web-streams"></a>настройка веб-Потоки
 
 Веб-потоки являются специализированным типом потока передачи файлов, используемого для доставки файлов, связанных с веб-сайтом, в одном потоке. Настройка веб-потока приведена в следующей таблице.
 
@@ -38,24 +38,24 @@ ms.locfileid: "104331944"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[**Общая конфигурация для всех потоков**](configuration-common-to-all-streams.md)
+[**общая конфигурация для всех Потоки**](configuration-common-to-all-streams.md)
 </dt> <dt>
 
 [**Настройка произвольных типов потоков**](configuring-arbitrary-stream-types.md)
 </dt> <dt>
 
-[**Веб-потоки**](web-streams.md)
+[**веб-Потоки**](web-streams.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

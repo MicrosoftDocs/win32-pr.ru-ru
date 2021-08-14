@@ -4,12 +4,12 @@ ms.assetid: edbcfba6-7b79-4d53-84e3-2e4227e17369
 title: Сообщение WM_NULL (Winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b445e13200bdeb2947e4d8fd363a1a39f0c86db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e9ade89ee83a7d0d0b9d012248da729facbd07d269387a86cd4dfac873b76be3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264522"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118199950"
 ---
 # <a name="wm_null-message"></a>\_Сообщение NULL WM
 
@@ -48,13 +48,13 @@ ms.locfileid: "104264522"
 
 Приложение возвращает нуль, если обрабатывает это сообщение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Например, если приложение установило какой-либо **обработчик \_ сообщений** и желает предотвратить обработку сообщения, функция обратного вызова [**жетмсгпрок**](/previous-versions/windows/desktop/legacy/ms644981(v=vs.85)) может изменить номер сообщения на **WM \_ null** , чтобы получатель игнорировал его.
 
 В качестве другого примера приложение может проверить, отвечает ли окно на сообщения, отправив сообщение **WM \_ null** с помощью функции [**функции sendmessagetimeout**](/windows/win32/api/winuser/nf-winuser-sendmessagetimeouta) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -62,7 +62,7 @@ ms.locfileid: "104264522"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
@@ -70,7 +70,7 @@ ms.locfileid: "104264522"
 
 <dl> <dt>
 
-[Обзор Windows](windows.md)
+[Windows Средств](windows.md)
 </dt> </dl>
 
  

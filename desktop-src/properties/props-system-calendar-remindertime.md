@@ -4,12 +4,12 @@ ms.assetid: 62d6ee4c-959c-44a1-a340-b858d1c7a953
 title: System. Calendar. Реминдертиме
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 896694aab3ef009d6ed7cbafbb8f83027dc62712
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb356293000f3c91c340ad5565573d1d73239b13993419a04935912efb99c537
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117867264"
 ---
 # <a name="systemcalendarremindertime"></a>System. Calendar. Реминдертиме
 
@@ -44,11 +44,11 @@ propertyDescription
       type = DateTime
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

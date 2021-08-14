@@ -3,7 +3,7 @@ title: Сообщение WM_CAP_DLG_VIDEOCOMPRESSION (VFW. h)
 description: В \_ сообщении о \_ видеокомпрессионе WM Cap \_ появляется диалоговое окно, в котором пользователь может выбрать программу сжатия для использования в процессе записи.
 ms.assetid: 526e4b5d-49a4-4bb5-92d6-cdd567636354
 keywords:
-- WM_CAP_DLG_VIDEOCOMPRESSION сообщения Windows мультимедиа
+- сообщение WM_CAP_DLG_VIDEOCOMPRESSION Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d851f73df7adbc205585eb7c69ad9d4d969aba66
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 816aeb26455ba375b4446edc275ec4fbaa318b67b1fea64bd6049760f45d8235
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071593"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118135447"
 ---
 # <a name="wm_cap_dlg_videocompression-message"></a>\_ \_ Сообщение видеокомпрессион с диалогом WM Cap \_
 
@@ -38,7 +38,7 @@ lParam = 0L;
 
 Возвращает **значение true** в случае успеха или **false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте это сообщение с драйверами записи, предоставляющими кадры только в формате RGB для бизнес-аналитики \_ . Это сообщение наиболее полезно в операции записи шага для объединения захвата и сжатия в одной операции. Сжатие кадров с программным компрессором в рамках операции записи в реальном времени, скорее всего, занимает слишком много времени.
 

@@ -1,33 +1,33 @@
 ---
 title: Объявление команд и элементов управления с разметкой ленты
-description: Платформа Windows Ribbon использует язык разметки на основе XAML (XAML) для декларативной реализации внешнего вида приложения с лентой.
+description: платформа Windows Ribbon использует язык разметки на основе XAML (XAML) для декларативной реализации внешнего вида приложения с лентой.
 ms.assetid: 76bacfb3-ecaf-47b3-be97-afa5e7e52330
 keywords:
-- Лента Windows, структура разметки
+- Windows Лента, структура разметки
 - Лента, структура разметки
-- Лента Windows, отделение презентации от логики команды
+- Windows Лента, отделение представления от логики команды
 - Лента, отделение представления от логики команды
-- Лента Windows, компоненты
+- Windows Лента, компоненты
 - Лента, компоненты
-- система команд для ленты Windows
-- элементы управления для ленты Windows
+- система команд для Windows ленты
+- элементы управления для Windows ленты
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c97c5c193332ce217709c825a58f0ae546c03c9c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 20ae6c8d62012fac240c6d044c688295d89d8d5899e3673a3b914d8d142111d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118201326"
 ---
 # <a name="declaring-commands-and-controls-with-ribbon-markup"></a>Объявление команд и элементов управления с разметкой ленты
 
-Платформа Windows Ribbon использует язык разметки на основе XAML (XAML) для декларативной реализации внешнего вида приложения с лентой.
+платформа Windows Ribbon использует язык разметки на основе XAML (XAML) для декларативной реализации внешнего вида приложения с лентой.
 
 -   [Отделение представления от логики команды](#separating-presentation-from-command-logic)
 -   [Структура разметки](#markup-structure)
 -   [Компоненты ленты](#ribbon-components)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="separating-presentation-from-command-logic"></a>Отделение представления от логики команды
 
@@ -165,7 +165,7 @@ ms.locfileid: "104413384"
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -175,6 +175,6 @@ ms.locfileid: "104413384"
 [Компиляция разметки ленты](windowsribbon-intentcl.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,21 +4,21 @@ description: Элемент Shape (VML)
 ms.assetid: bc0db691-f0f0-4a99-adbb-8a5f5cfd9c00
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 085fb26339aa4db26b3b8680db9f706990102278
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: d1ce528e8579bda60a00a2a835d3ffe89667be6bfed7a13308b4826cf131bda6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104413952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117754169"
 ---
 # <a name="shape-element-vml"></a>Элемент Shape (VML)
 
-В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+в этом разделе описывается функция VML, которая является устаревшей по отношению к Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
 
 > [!Note]  
-> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
+> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). сведения, рекомендации и рекомендации относительно текущей версии Windows Internet explorer см. в [центре разработчиков internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Элемент верхнего уровня, используемый для описания фигуры.
 
@@ -67,8 +67,8 @@ ms.locfileid: "104413952"
 | [Поле — сверху](msdn-online-vml-margin-top-attribute.md)                                             | Задает верхнюю границу содержащего прямоугольника фигуры относительно привязки фигуры.       |
 | [MSO-расположение — по горизонтали](msdn-online-vml-mso-position-horizontal-attribute.md)                   | Задает данные горизонтального позиционирования для объектов в Microsoft Word.                       |
 | [MSO — расположение — по горизонтали](msdn-online-vml-mso-position-horizontal-relative-attribute.md) | Указывает относительные данные по горизонтали для объектов в Microsoft Word.                     |
-| [MSO — расположение — вертикально](msdn-online-vml-mso-position-vertical-attribute.md)                       | Задает вертикальное расположение данных для объектов в Microsoft Word.                            |
-| [MSO-расположение — по вертикали](msdn-online-vml-mso-position-vertical-relative-attribute.md)     | Задает относительное расположение данных по вертикали для объектов в Microsoft Word.                       |
+| [MSO — расположение — вертикально](msdn-online-vml-mso-position-vertical-attribute.md)                       | Указывает данные вертикального расположения для объектов в Microsoft Word.                            |
+| [MSO-расположение — по вертикали](msdn-online-vml-mso-position-vertical-relative-attribute.md)     | Задает относительную вертикальную размещает данные для объектов в Microsoft Word.                       |
 | [MSO-Wrap — расстояние-снизу](msdn-online-vml-mso-wrap-distance-bottom-attribute.md)                 | Определяет расстояние от нижней стороны фигуры до текста, который обтекает вокруг него.       |
 | [MSO-Wrap — расстояние-слева](msdn-online-vml-mso-wrap-distance-left-attribute.md)                     | Определяет расстояние от левой стороны фигуры до текста, который обтекает вокруг него.         |
 | [MSO-Wrap — расстояние вправо](msdn-online-vml-mso-wrap-distance-right-attribute.md)                   | Определяет расстояние от правой стороны фигуры до текста, который обтекает вокруг него.        |
@@ -87,7 +87,7 @@ ms.locfileid: "104413952"
 | [Поворот](rotation-attribute--shape--vml.md)                                                     | Определяет угол поворота фигуры.                                                     |
 | [рулеинитиатор](msdn-online-vml-ruleinitiator-attribute.md)                                       | Определяет, будет ли использоваться обработчик правил.                                                |
 | [рулепрокси](msdn-online-vml-ruleproxy-attribute.md)                                               | Определяет, будет ли использоваться прокси-сервер для обработчика правил.                                  |
-| [спт](msdn-online-vml-spt-attribute.md)                                                           | Определяет число, используемое внутренне Microsoft Office для определения типов фигур.              |
+| [спт](msdn-online-vml-spt-attribute.md)                                                           | определяет число, используемое внутренне Microsoft Office для определения типов фигур.              |
 | [строкеколор](msdn-online-vml-strokecolor-attribute.md)                                           | Определяет цвет кисти, которая обозначает контур фигуры.                                      |
 | [Заштриховывать](msdn-online-vml-stroked-attribute.md)                                                   | Определяет, будет ли контур обводкам.                                                      |
 | [строкевеигхт](msdn-online-vml-strokeweight-attribute.md)                                         | Определяет толщину кисти, которая обозначает контур фигуры.                                  |
@@ -96,7 +96,7 @@ ms.locfileid: "104413952"
 | [Целевой объект](msdn-online-vml-target-attribute.md)                                                     | Определяет фрейм или окно, в котором будет отображаться URL-адрес.                                     |
 | [Title](title-attribute--shape--vml.md)                                                           | Определяет текст, отображаемый при наведении указателя мыши на фигуру.                        |
 | [Top](msdn-online-vml-top-attribute.md)                                                           | Определяет расположение фигуры относительно элемента, расположенного над ним в потоке страницы.    |
-| [Тип](type-attribute--shape--vml.md)                                                             | Определяет ссылку на идентификатор элемента [шапетипе](msdn-online-vml-shapetype-element.md) . |
+| [Type](type-attribute--shape--vml.md)                                                             | Определяет ссылку на идентификатор элемента [шапетипе](msdn-online-vml-shapetype-element.md) . |
 | [усердравн](msdn-online-vml-userdrawn-attribute.md)                                               | Определяет, добавил ли пользователь фигуру к главному слайду.                             |
 | [усерхидден](msdn-online-vml-userhidden-attribute.md)                                             | Определяет, скрыта ли привязка скрипта.                                                  |
 | [Видимость](msdn-online-vml-visibility-attribute.md)                                             | Определяет, отображается ли фигура.                                                       |
@@ -106,7 +106,7 @@ ms.locfileid: "104413952"
 
 
 
- 
+ 
 
 **Замечания**
 
@@ -125,7 +125,7 @@ ms.locfileid: "104413952"
 
 
 
-Кроме того, необходимо добавить следующий код в элемент [**HTML**](https://msdn.microsoft.com/library/ms535255(v=VS.85).aspx) веб-страницы, чтобы получить правильные схемы для расширений VML и Microsoft Office. Если вы не используете расширения Office, можно опустить вторую схему.
+кроме того, необходимо добавить следующий код в элемент [**HTML**](https://msdn.microsoft.com/library/ms535255(v=VS.85).aspx) веб-страницы, чтобы получить правильные схемы для расширений VML и Microsoft Office. если вы не используете расширения Office, можно опустить вторую схему.
 
 
 ```HTML
@@ -135,7 +135,7 @@ xmlns:o="urn:schemas-microsoft-com:office:office"
 
 
 
-Для регистрации поведения расширений VML и Microsoft Office в элементе [**Style**](https://developer.mozilla.org/docs/Web/HTML/Element/style) необходимо также иметь следующее. Если вы не используете расширения Office, можно опустить второе определение поведения.
+для регистрации поведения расширений VML и Microsoft Office в элементе [**STYLE**](https://developer.mozilla.org/docs/Web/HTML/Element/style) необходимо также иметь следующее. если вы не используете расширения Office, можно опустить второе определение поведения.
 
 
 ```HTML
@@ -157,7 +157,7 @@ o\:* { behavior: url(#default#VML); }
 | [Выдавливания](msdn-online-vml-extrusion-element.md) | Определяет объем фигуры. |
 | [Заполнить](msdn-online-vml-fill-element.md)           | Определяет заливку для фигуры.       |
 | [Формулы](msdn-online-vml-formulas-element.md)   | Определяет формулы для фигуры.     |
-| [Handles](msdn-online-vml-handles-element.md)     | Определяет дескрипторы для фигуры.      |
+| [Маркеры](msdn-online-vml-handles-element.md)     | Определяет дескрипторы для фигуры.      |
 | [имажедата](msdn-online-vml-imagedata-element.md) | Определяет данные изображения для фигуры.   |
 | [Блокировки](msdn-online-vml-locks-element.md)         | Определяет блокировку для фигуры.       |
 | [Путь](msdn-online-vml-path-element.md)           | Определяет контур для фигуры.       |
@@ -169,7 +169,7 @@ o\:* { behavior: url(#default#VML); }
 
 
 
- 
+ 
 
 **Другие элементы**
 
@@ -185,7 +185,7 @@ o\:* { behavior: url(#default#VML); }
 
 
 
- 
+ 
 
 **Предопределенные фигуры**
 
@@ -197,7 +197,7 @@ o\:* { behavior: url(#default#VML); }
 |----------------------------------------------------|-----------------------------------|
 | [Rect](msdn-online-vml-rect-element.md)           | Определяет прямоугольник для фигуры.  |
 | [раундрект](msdn-online-vml-roundrect-element.md) | Определяет круглый прямоугольник для фигуры. |
-| [Line](msdn-online-vml-line-element.md)           | Определяет линию для фигуры.       |
+| [Линия](msdn-online-vml-line-element.md)           | Определяет линию для фигуры.       |
 | [Ломаная линия](msdn-online-vml-polyline-element.md)   | Определяет ломаную линию для фигуры.   |
 | [Овал](msdn-online-vml-oval-element.md)           | Определяет овал для фигуры.      |
 | [Изображение](msdn-online-vml-image-element.md)         | Определяет изображение для фигуры.     |
@@ -206,7 +206,7 @@ o\:* { behavior: url(#default#VML); }
 
 
 
- 
+ 
 
 **См. также:**
 
@@ -239,6 +239,6 @@ o\:* { behavior: url(#default#VML);}
 
 
 
- 
+ 
 
- 
+ 

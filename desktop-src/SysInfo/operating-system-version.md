@@ -4,12 +4,12 @@ ms.assetid: 1a70b1d9-ed66-4201-9921-4e26e4001020
 title: Версия операционной системы
 ms.topic: article
 ms.date: 09/15/2020
-ms.openlocfilehash: 73eb9a81880f29f9292713af46c5c79a7e9eb2de
-ms.sourcegitcommit: 7ea69db68bca2b1592802e676ada8432a2583410
+ms.openlocfilehash: ae90f4eac5546fccd7513d781234896fbbbda93ff3723a9ac1db438321ecf214
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "104070803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117763956"
 ---
 # <a name="operating-system-version"></a>Версия операционной системы
 
@@ -17,26 +17,26 @@ ms.locfileid: "104070803"
 
 В следующей таблице перечислены последние номера версий операционной системы.
 
-| Операционная система | Номер версии |
+| Операционная система | номер версии; |
 |------------------|----------------|
-| Windows 10       | 10,0\*         |
-| Windows Server 2019 | 10,0\*      |
+| Windows 10,       | 10,0\*         |
+| Windows Server 2019 | 10,0\*      |
 | Windows Server 2016 | 10,0\*      |
-| Windows 8.1      | 6.3\*          |
+| Windows 8.1      | 6.3\*          |
 | Windows Server 2012 R2 | 6.3\*    |
 | Windows 8        | 6.2            |
 | Windows Server 2012 | 6.2         |
 | Windows 7        | 6.1            |
 | Windows Server 2008 R2 | 6.1      |
-| Windows Server 2008 | 6.0         |
-| Windows Vista    | 6.0            |
+| Windows Server 2008 | 6,0         |
+| Windows Vista    | 6,0            |
 | Windows Server 2003 R2 | 5,2      |
 | Windows Server 2003 | 5,2         |
 | Windows XP 64-bit Edition | 5,2   |
 | Windows XP | 5.1                  |
 | Windows 2000     | 5.0            |
 
-**\*** Для приложений, которые были объявлены для Windows 8.1 или Windows 10. Приложения, не проявляющиеся манифестом для Windows 8.1 или Windows 10, возвращают значение версии ОС Windows 8 (6,2). Чтобы выполнить манифест приложений для Windows 8.1 или Windows 10, см. статью [Настройка приложения для Windows](targeting-your-application-at-windows-8-1.md).<br/>
+**\*** для приложений, которые были объявлены для Windows 8.1 или Windows 10. приложения, не проявляющиеся манифестом для Windows 8.1 или Windows 10, возвращают значение Windows 8 версии ос (6,2). чтобы выполнить манифест приложений для Windows 8.1 или Windows 10, см. [сведения в разделе настройка приложения для Windows](targeting-your-application-at-windows-8-1.md).<br/>
 
 Определение текущей операционной системы обычно не является лучшим способом определить, имеется ли определенная функция операционной системы. Это связано с тем, что операционная система могла добавить новые функции в распространяемую библиотеку DLL. Вместо использования [вспомогательных функций API версии](version-helper-apis.md) для определения платформы или номера версии операционной системы проверьте наличие самой функции.
 
@@ -50,5 +50,5 @@ ms.locfileid: "104070803"
 
 Обратите внимание, что 32-разрядное приложение может определить, выполняется ли оно в эмуляторе WOW64, вызвав функцию [**IsWow64Process**](/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process) . Он может получить дополнительные сведения о процессоре, вызвав функцию [**жетнативесистеминфо**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getnativesysteminfo) .
 
-Дополнительные сведения см. в статье [сведения о выпуске Windows 10](/windows/release-information/) и на [странице фактов жизненного цикла Windows](https://support.microsoft.com/help/13853/windows-lifecycle-fact-sheet).
+дополнительные сведения см. в разделе [Windows 10 сведения о выпуске](/windows/release-information/) и [Windows таблице фактов жизненного цикла](https://support.microsoft.com/help/13853/windows-lifecycle-fact-sheet).
 

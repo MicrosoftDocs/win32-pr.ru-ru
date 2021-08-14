@@ -4,12 +4,12 @@ description: Справочник по индексированию ресурс
 ms.assetid: 15f41d83-d729-45e4-a6bb-5f8c6b78293c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef99acafe4fbdadef26c5947145ad734ec44b7bd
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: aaf308ff3040588e18797d242a5872d3396c87fd8426b98e32c0acf6a61267a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108117552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117870035"
 ---
 # <a name="package-resource-indexing-pri-reference"></a>Справочник по индексированию ресурсов пакетов (PRI)
 

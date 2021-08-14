@@ -1,6 +1,6 @@
 ---
 title: Структура WMDRMNET_POLICY_TRANSCRYPTPLAY (Вмдрмсдк. h)
-description: '\_ \_ Структура ТРАНСКРИПТПЛАЙ политики вмдрмнет содержит сведения о политике для воспроизведения содержимого с помощью Windows Media DRM для сетевых устройств.'
+description: '\_ \_ структура транскриптплай политики вмдрмнет содержит сведения о политике для воспроизведения содержимого с помощью Windows Media DRM для сетевых устройств.'
 ms.assetid: 95671c58-a593-40bb-856e-28ad1cba340e
 keywords:
 - Формат WMDRMNET_POLICY_TRANSCRYPTPLAY структуры Windows Media
@@ -15,16 +15,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0681251428b87b323c9ad3e73277ec8cdd2b95f0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8fe64c796a1f2f15e4733e7dd3d82e918306fb95d78c61fb85ad2d813d946d60
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105647962"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118195509"
 ---
 # <a name="wmdrmnet_policy_transcryptplay-structure"></a>\_ \_ Структура ТРАНСКРИПТПЛАЙ политики вмдрмнет
 
-Структура **\_ \_ транскриптплай политики вмдрмнет** содержит сведения о политике для воспроизведения содержимого с помощью Windows Media DRM для сетевых устройств.
+структура **\_ \_ транскриптплай политики вмдрмнет** содержит сведения о политике для воспроизведения содержимого с помощью Windows Media DRM для сетевых устройств.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -56,17 +56,17 @@ typedef struct WMDRMNET_POLICY_TRANSCRYPTPLAY {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Нет.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Вмдрмсдк. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмдрмсдк. h</dt> </dl> |
 
 
 

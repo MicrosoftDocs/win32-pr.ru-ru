@@ -4,12 +4,12 @@ ms.assetid: e8adc655-0252-4a43-8a62-b08e96f5744e
 title: Сообщение WM_COMPACTING (Winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fb94e77a1c6b27701b26ed4b7e6e01f326aaa40
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 553662bccb223ed7fb987df5d2918e3d8d1c6ab95f125cbacbd50c1e2484c0c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702579"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118200575"
 ---
 # <a name="wm_compacting-message"></a>\_Сообщение о сжатии WM
 
@@ -18,7 +18,7 @@ ms.locfileid: "105702579"
 Окно получает это сообщение через функцию [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) .
 
 > [!Note]  
-> Это сообщение предоставляется только для обеспечения совместимости с 16-разрядными приложениями на базе Windows.
+> это сообщение предоставляется только для обеспечения совместимости с 16-разрядными приложениями на основе Windows.
 
  
 
@@ -53,11 +53,11 @@ ms.locfileid: "105702579"
 
 Если приложение обрабатывает это сообщение, оно должно вернуть ноль.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Когда приложение получает это сообщение, оно должно освободить максимально возможный объем памяти, принимая во внимание текущий уровень активности приложения и общее число приложений, выполняющихся в системе.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -65,7 +65,7 @@ ms.locfileid: "105702579"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
@@ -73,7 +73,7 @@ ms.locfileid: "105702579"
 
 <dl> <dt>
 
-[Обзор Windows](windows.md)
+[Windows Средств](windows.md)
 </dt> </dl>
 
  

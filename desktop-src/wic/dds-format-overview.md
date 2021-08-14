@@ -1,19 +1,19 @@
 ---
-description: Содержит сведения о кодека машинного кода DDS, доступном через компонент Windows Imaging Component (WIC).
+description: содержит сведения о кодека машинного кода DDS, доступном через компонент Windows imaging (WIC).
 ms.assetid: 6CFDD674-C8AE-4F29-B2E5-C9C9431CB85A
 title: Общие сведения о формате DDS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f860a5759218575acb53be5f2142e71aa34e9554
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: f6a9fd00f17d17b7bb227a04e56bbc9369de86eb03f9c953a73267400d4a6df9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444955"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118204481"
 ---
 # <a name="dds-format-overview"></a>Общие сведения о формате DDS
 
-В этом разделе содержатся сведения о кодека машинного кода DDS, доступном через компонент Windows Imaging Component (WIC).
+в этом разделе содержатся сведения о кодека машинного кода DDS, доступном через компонент Windows imaging (WIC).
 
 ## <a name="codec-identity"></a>Удостоверение кодека
 
@@ -35,7 +35,7 @@ ms.locfileid: "111444955"
 
 
 
-| Компонент        | Понятное имя            | Код GUID                                |
+| Компонент        | Понятное имя            | GUID                                |
 |------------------|--------------------------|-------------------------------------|
 | Формат контейнера | GUID \_ контаинерформатддс | 9967cb95-2e85-4ac8-8ca283d7ccd425c9 |
 | Показан          | \_ВИКДДСДЕКОДЕР CLSID     | 9053699f-a341-429d-9e90ee437cf80c73 |

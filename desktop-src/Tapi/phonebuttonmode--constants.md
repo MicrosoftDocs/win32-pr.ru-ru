@@ -4,12 +4,12 @@ ms.assetid: 7bf337ee-acda-42fe-b50b-370aad50dc03
 title: Константы PHONEBUTTONMODE_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a4ee5e9835b7df06773bc1429641c91597c15e6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9424c23a9fe6497c657081dd9e197526dc5eb897ad773b1e03fb33c9f08113df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105680111"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117761306"
 ---
 # <a name="phonebuttonmode_-constants"></a>\_Константы фонебуттонмоде
 
@@ -77,13 +77,13 @@ ms.locfileid: "105680111"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Без расширяемости. Все 32 бит зарезервированы.
 
 Этот тип перечисления используется в структуре данных [**фонекапс**](/windows/desktop/api/Tapi/ns-tapi-phonecaps) для описания значения, связанного с кнопками телефона.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

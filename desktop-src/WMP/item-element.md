@@ -3,19 +3,19 @@ title: ITEM, элемент
 description: ITEM, элемент
 ms.assetid: e9791009-67d0-46f3-a69a-2520eaea21cd
 keywords:
-- Обложки проигрывателя Windows Media, элемент ITEM
+- обложки проигрыватель Windows Media, элемент ITEM
 - обложки, элемент ITEM
 - ITEM, элемент
 - Справочник по обложкам, элементу ITEM
 - элементы, элемент
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91e9e692685dc41d17284611181d49de50bf4e32
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4e9f03d7ae7946e65c7535e504bb27d6de6fe46f9a96220f3285768e76360055
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986339"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118119323"
 ---
 # <a name="item-element"></a>ITEM, элемент
 
@@ -31,23 +31,23 @@ ms.locfileid: "103986339"
 
 
 
- 
+ 
 
 > [!Note]  
-> Для этого элемента требуется проигрыватель Windows Media для Windows XP или более поздней версии.
+> для этого элемента требуется проигрыватель Windows Media для Windows XP или более поздней версии.
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Справочник по программированию для обложки**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,19 +1,19 @@
 ---
 title: Сведения об управлении сетью
-description: Функции управления сетью позволяют управлять сетевыми папками как проводником Windows и командой net. Вы также можете управлять учетными записями пользователей в качестве диспетчера пользователей.
+description: функции управления сетью позволяют управлять сетевыми папками в обозревателе Windows Explorer и командой Net. Вы также можете управлять учетными записями пользователей в качестве диспетчера пользователей.
 ms.assetid: c1c5fba2-95f5-4d47-81ce-0701009d86d3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 609155e595e02ce9ec1f6231c7280078f84e1623
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9c4281aadb0a6585f1a882f58c8edaa13475f9edcbeb5d87ecc9d1d52b6dbeed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104330467"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117797404"
 ---
 # <a name="about-network-management"></a>Сведения об управлении сетью
 
-Функции управления сетью позволяют управлять сетевыми папками как проводником Windows и командой net. Вы также можете управлять учетными записями пользователей в качестве диспетчера пользователей.
+функции управления сетью позволяют управлять сетевыми папками в обозревателе Windows Explorer и командой Net. Вы также можете управлять учетными записями пользователей в качестве диспетчера пользователей.
 
 Дополнительные сведения см. в следующих разделах:
 
@@ -22,7 +22,7 @@ ms.locfileid: "104330467"
 -   [Сопоставление интерфейсов ADSI с функциями управления сетью](mapping-adsi-interfaces-to-the-network-management-functions.md)
 -   [Данные управления сетью](network-management-data.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -32,9 +32,9 @@ ms.locfileid: "104330467"
 [Справочник по управлению сетью](network-management-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

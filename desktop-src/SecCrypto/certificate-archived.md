@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: e1d8cdea3e43bbe10ee87f8f4aa605740a15e6ac
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d2e3ab848caa24cb77a8cb45e992eeac7365af0de743fa148b07b484239fa658
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105649111"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117771953"
 ---
 # <a name="certificatearchived-property"></a>Заархивированное Свойство Certificate.
 
@@ -41,7 +41,7 @@ Certificate.Archived As Boolean
 
 Логическое значение, указывающее, архивируется ли сертификат. Если **значение — true**, сертификат архивируется. Обратите внимание, что изменение значения с **false** на **true** архивирует сертификат.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство вызывает CAPICOM \_ E \_ не \_ разрешено при создании скрипта из веб-приложения.
 
@@ -50,7 +50,7 @@ Certificate.Archived As Boolean
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

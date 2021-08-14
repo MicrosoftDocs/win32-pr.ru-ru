@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ctl3d32.dll
-ms.openlocfilehash: 4b855c162d9d5f1c43a15d1ebd7219da6f847f37
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9f58236891b8a673102905e0ef0c108ac9da6e6192788abea9c6e79baf8acfcc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118162162"
 ---
 # <a name="ctl3dregister-function"></a>Функция Ctl3dRegister
 
@@ -50,7 +50,7 @@ BOOL Ctl3dRegister(
 
 Возвращает **значение true** , если трехмерные эффекты активны; в противном случае возвращается **значение false**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение, использующее CTL3D сегодня, должно вызывать эту функцию в WinMain.
 

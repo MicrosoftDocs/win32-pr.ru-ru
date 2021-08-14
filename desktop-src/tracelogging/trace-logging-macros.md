@@ -4,12 +4,12 @@ description: Трацелоггинг определяет следующие м
 ms.assetid: 412881F2-329E-4537-8CBF-0DF79DA181C5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63e67261a443b06aef99fe4c93ef50d98e1d82ac
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ed2343ac4721fea06eb2bb005bfaebfd3ed3628673c168e5fbe05fb0203f8dfb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105710341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118218415"
 ---
 # <a name="tracelogging-macros"></a>Трацелоггинг макросы
 
@@ -26,7 +26,7 @@ ms.locfileid: "105710341"
 -   [**трацелоггингвритестоп**](/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingwritestop)
 -   [**трацелоггингвритетагжед**](/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingwritetagged)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -36,6 +36,6 @@ ms.locfileid: "105710341"
 [TraceLogging](trace-logging-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

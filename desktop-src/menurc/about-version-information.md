@@ -9,12 +9,12 @@ keywords:
 - конфликты файлов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25bf5c0914ba28b9a5178f99a94f83f57ac99550
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: fd7b7916e77d29fa21aa6eb68e223d43a1415c36058fbe00e2d3abb9c4cae979
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104412857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117870720"
 ---
 # <a name="about-version-information"></a>Сведения о версии
 
@@ -27,8 +27,8 @@ ms.locfileid: "104412857"
 
 Функции сведений о версии позволяют приложениям запрашивать сведения о файле в ресурсе версии и представлять их в четком формате. Эти сведения включают назначение файла, автора, номер версии и т. д.
 
-Сведения о версии можно добавлять в любые файлы, которые могут иметь ресурсы Windows, такие как DLL, исполняемые файлы или файлы шрифтов FON. Чтобы добавить сведения, создайте [ресурс versionInfo](/windows/desktop/menurc/versioninfo-resource) и используйте компилятор ресурсов для компиляции ресурса.
+сведения о версии можно добавить в любые файлы, которые могут иметь Windows ресурсы, такие как dll, исполняемые файлы или файлы шрифтов fon. Чтобы добавить сведения, создайте [ресурс versionInfo](/windows/desktop/menurc/versioninfo-resource) и используйте компилятор ресурсов для компиляции ресурса.
 
- 
+ 
 
- 
+ 

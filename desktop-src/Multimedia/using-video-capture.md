@@ -3,16 +3,16 @@ title: Использование видеозаписи
 description: Использование видеозаписи
 ms.assetid: fe8adb8f-b8e5-4af9-9faf-96a9cd375521
 keywords:
-- Видео для Windows (VFW), запись видео
-- VFW (видео для Windows), запись видео
+- видео для Windows (VFW), записи видео
+- VFW (видео для Windows), видеозапись
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 076395b7d5393540bcd9ba82ef9b9cdeb200da50
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c3e857108a6a781385081b8166c4a794f9e5121133d36ffd663f812504cc0da1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103778059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118136048"
 ---
 # <a name="using-video-capture"></a>Использование видеозаписи
 
@@ -37,9 +37,9 @@ ms.locfileid: "103778059"
 -   [Создание функции обратного вызова ошибки](creating-an-error-callback-function.md)
 -   [Создание функции обратного вызова Frame](creating-a-frame-callback-function.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,19 +1,19 @@
 ---
-description: Данные, представляющие эскиз в \_ формате потока VT, поддерживаемый Windows GDI+ и кодеками Windows, такими как JPG и PNG.
+description: данные, представляющие эскиз в \_ формате потока VT, поддерживаемые Windows GDI+ и Windows кодеках, таких как .jpg и .png.
 ms.assetid: 7ffdf9e4-69b1-4946-8867-73696cd241e0
 title: System. Сумбнаилстреам
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 378fbb885dfac216186fbc402090a2786d2b27ed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ecabbcc3f634e3ff2e614b81a839f2108dfd4261fa1a3ec7e06cc07e74c05cf7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117864266"
 ---
 # <a name="systemthumbnailstream"></a>System. Сумбнаилстреам
 
-Данные, представляющие эскиз в \_ формате потока VT, поддерживаемый Windows GDI+ и кодеками Windows, такими как JPG и PNG.
+данные, представляющие эскиз в \_ формате потока VT, поддерживаемые Windows GDI+ и Windows кодеках, таких как .jpg и .png.
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81"></a>Windows 10, версия 1703, Windows 10, версия 1607, Windows 10, версия 1511, Windows 10, версия 1507, Windows 8.1
 
@@ -47,11 +47,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
