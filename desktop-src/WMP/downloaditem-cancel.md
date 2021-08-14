@@ -3,9 +3,9 @@ title: Довнлоадитем. Cancel, метод
 description: Обратите внимание, что в этом разделе описываются функции, предназначенные для использования Интернет-магазинами. Использование этой функции вне контекста Интернет-магазина не поддерживается. Метод Cancel отменяет скачивание.
 ms.assetid: b3715fde-6a83-45fa-92ea-1cbffbee7274
 keywords:
-- метод Cancel проигрыватель Windows Media Player
-- метод Cancel проигрыватель Windows Media Player, класс Довнлоадитем
-- Класс Довнлоадитем Windows Media Player, метод Cancel
+- метод cancel проигрыватель Windows Media
+- метод cancel проигрыватель Windows Media, класс довнлоадитем
+- класс довнлоадитем проигрыватель Windows Media, метод cancel
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c14d538e85d0930a43db883e226c007bea70de24
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6208719b5ac2e81fb9175db9de67bcf1f00ad7c34787ed1ab45251abd517bd65
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698946"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117749735"
 ---
 # <a name="downloaditemcancel-method"></a>Довнлоадитем. Cancel, метод
 
@@ -49,17 +49,17 @@ DownloadItem.cancel()
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Отмененные элементы не удаляются из коллекции загрузки. Отмененные элементы возвращают **довнлоадстате** значение 4 (отменено).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии.<br/>                                 |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии.<br/>                                 |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

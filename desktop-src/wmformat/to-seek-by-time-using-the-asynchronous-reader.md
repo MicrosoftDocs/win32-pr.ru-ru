@@ -10,12 +10,12 @@ keywords:
 - асинхронные читатели, поиск по времени
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06f3e24c04d75d762aef6bac498d4b4c8dfa9552
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 070d480cade395cdbead99b1aedde8928c6fb18b4af15bf6b72c1bcc0dcd6dc3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103788814"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118196463"
 ---
 # <a name="to-seek-by-time-using-the-asynchronous-reader"></a>Поиск по времени с помощью асинхронного модуля чтения
 
@@ -23,7 +23,7 @@ ms.locfileid: "103788814"
 
 Чтобы найти данные в файле ASF с помощью асинхронного модуля чтения, вызовите [**ивмреадер:: Start**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-start), передав требуемое время и длительность части файла, который требуется считать *кнсстарт* и *кнсдуратион* соответственно.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -39,9 +39,9 @@ ms.locfileid: "103788814"
 [**Работа с индексами**](working-with-indexes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

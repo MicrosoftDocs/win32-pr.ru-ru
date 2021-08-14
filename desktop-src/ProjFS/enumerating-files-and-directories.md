@@ -4,12 +4,12 @@ description: Описывает, как поставщик Прожфс учас
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 09/25/2018
 ms.topic: article
-ms.openlocfilehash: e0712ceb927388b090a84a89f80f0e2d3a1befbb
-ms.sourcegitcommit: 80d74c0bf4fc402865a1ad223480abe1ce4d1115
+ms.openlocfilehash: 606b379e206cdbc64726e0ea97aed34e00f5253ecbffb7f8b7d42469b0cbb5fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "103789139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117792817"
 ---
 # <a name="enumerating-files-and-directories"></a>Перечисление файлов и каталогов
 
@@ -51,7 +51,7 @@ ms.locfileid: "103789139"
 
     > Если резервное хранилище поддерживает символьные ссылки, поставщик должен использовать **[PrjFillDirEntryBuffer2](/windows/win32/api/projectedfslib/nf-projectedfslib-prjfilldirentrybuffer2)** для заполнения буфера, предоставленного параметром _дирентрибуфферхандле_ обратного вызова.  **PrjFillDirEntryBuffer2** поддерживает дополнительные входные данные буфера, позволяющие поставщику указать, что запись перечисления является символьной ссылкой и что ее целью является.  В противном случае он ведет себя так, как описано выше, для **пржфиллдирентрибуффер**.  В следующем примере используется **PrjFillDirEntryBuffer2** для демонстрации поддержки символьных ссылок.
     >
-    > Обратите внимание, что **PrjFillDirEntryBuffer2** поддерживается в Windows 10, версия 2004.  Поставщик должен проверять наличие **PrjFillDirEntryBuffer2**, например, с помощью **[GetProcAddress](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress)**.
+    > обратите внимание, что **PrjFillDirEntryBuffer2** поддерживается в Windows 10 версии 2004.  Поставщик должен проверять наличие **PrjFillDirEntryBuffer2**, например, с помощью **[GetProcAddress](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress)**.
 
     ```C++
     typedef struct MY_ENUM_ENTRY MY_ENUM_ENTRY;

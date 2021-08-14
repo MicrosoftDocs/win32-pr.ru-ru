@@ -4,18 +4,18 @@ ms.assetid: vs|winui|~\winui\windowsuserinterface\windowing\windowproperties.htm
 title: Свойства окна
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87a06be9fca67dedeb98afd7a56638622dabc858
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e82aba0544e1763d36c0378e5d06dc25d48f3297ba8bc8b3bd8687dbba4b0afe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105719524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118200595"
 ---
 # <a name="window-properties"></a>Свойства окна
 
 Свойство окна — это любые данные, назначенные окну. Свойство окна обычно представляет собой обработчик данных, зависящих от окна, но может быть любым значением. Каждое свойство окна определяется по имени строки.
 
-### <a name="in-this-section"></a>в этом разделе
+### <a name="in-this-section"></a>В этом разделе
 
 
 

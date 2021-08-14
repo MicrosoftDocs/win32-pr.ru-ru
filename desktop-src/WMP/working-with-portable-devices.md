@@ -3,26 +3,26 @@ title: Работа с портативными устройствами
 description: Работа с портативными устройствами
 ms.assetid: 145ede07-a23b-486b-a561-9c87a48b72a8
 keywords:
-- Проигрыватель Windows Media, переносные устройства
-- Объектная модель проигрывателя Windows Media, переносные устройства
+- проигрыватель Windows Media, портативные устройства
+- объектная модель проигрыватель Windows Media, переносные устройства
 - Объектная модель, портативные устройства
-- Элемент управления ActiveX проигрывателя Windows Media, переносные устройства
-- Элемент управления ActiveX, переносные устройства
-- Мобильный элемент управления ActiveX проигрывателя Windows Media, портативные устройства
-- Проигрыватель Windows Media Mobile, переносные устройства
+- проигрыватель Windows Media ActiveX элемент управления, портативные устройства
+- ActiveX элемент управления, переносные устройства
+- проигрыватель Windows Media мобильный ActiveX элемент управления, переносные устройства
+- проигрыватель Windows Media Мобильные, портативные устройства
 - портативные устройства, о
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b64c6e7047864b899a2d7dca2ba4754cc7cb5dc2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 34cbff16b293ac4ab438c1b018608497d2a61cdfa6fb727332d5b50a27de313c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104332379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117745510"
 ---
 # <a name="working-with-portable-devices"></a>Работа с портативными устройствами
 
-В этом разделе описывается использование удаленного элемента управления ActiveX проигрывателя Windows Media для работы с портативными устройствами.
+в этом разделе описывается использование удаленного элемента управления проигрыватель Windows Media ActiveX для работы с портативными устройствами.
 
 В примерах кода в этом разделе используются классы библиотеки активных шаблонов (ATL), такие как **CComPtr**.
 
@@ -161,16 +161,16 @@ enum UIState
 -   [Отображение хода выполнения синхронизации](showing-synchronization-progress.md)
 -   [Управление списками воспроизведения синхронизации](managing-synchronization-playlists.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Управление проигрывателем**](player-control-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

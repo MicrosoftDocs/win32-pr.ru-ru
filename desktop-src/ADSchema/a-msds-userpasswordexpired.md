@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 73d99143c470e58d1b1cb5e0cbd7e5302618ff0a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: a187f9d0b2be2feeca076d7c7eef82a34ca5827a9d07c76b2d711a5196f84ba8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104262266"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118425360"
 ---
 # <a name="ms-ds-user-password-expired-attribute"></a>Атрибут ms-DS-User-Password-Expires
 
@@ -36,7 +36,7 @@ ms.locfileid: "104262266"
 | Частота обновления  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1858              |
 | System-ID — GUID    | 565c7ab5-e13e-47f6-abb5-de741806f125 |
-| Синтаксис            | [**Логическая**](s-boolean.md)         |
+| Синтаксис            | [**Логическое**](s-boolean.md)         |
 
 
 
@@ -53,7 +53,7 @@ ms.locfileid: "104262266"
 | Идентификатор ссылки                | \-                                                                |
 | MAPI-Id                | \-                                                                |
 | System-Only            | Неверно                                                             |
-| Является однозначным       | True                                                              |
+| Является однозначным       | Верно                                                              |
 | Индексируется             | Неверно                                                             |
 | В глобальном каталоге      | Неверно                                                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                      |
@@ -65,7 +65,7 @@ ms.locfileid: "104262266"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В ADAM этот атрибут заменяет флаг " [**ADS" \_ УФ " \_ \_ срок действия пароля истек**](/windows/desktop/api/iads/ne-iads-ads_user_flag_enum) " атрибута [**userAccountControl**](a-useraccountcontrol.md) .
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msident.dll
-ms.openlocfilehash: 0b0fd06ef4b582987e41c2343f2d4596db6b8528
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 32c375f37fbc0bc6352a79c9eb37be56578b236f6131c4ead1ea721cc53ce5e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104985680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118220076"
 ---
 # <a name="iuseridentity2setname-method"></a>Метод IUserIdentity2:: SetName
 
@@ -44,7 +44,7 @@ HRESULT SetName(
 *pszName* \[ окне\]
 </dt> <dd>
 
-Тип: **WCHAR \** _
+Тип: **WCHAR \***
 
 Строка расширенных символов, содержащая новое имя удостоверения.
 
@@ -52,11 +52,11 @@ HRESULT SetName(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Тип: _ *HRESULT**
+Тип: **HRESULT**
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -8,20 +8,20 @@ keywords:
 - Функция Иксетстатуспрок
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39ef5449e8d4e985217ee60f075d22b16dcc5c3b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 44707cb6a8fbdb19b1d71fed6c71498b51936b9d089354277c6767586b4b8267
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105681462"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118373523"
 ---
 # <a name="monitoring-the-progress-of-compressors-and-decompressors"></a>Мониторинг хода сжатия и распаковки
 
 Приложение может отслеживать ход выполнения длительной операции, выполняемой программой сжатия или распаковки, отправляя ей адрес функции обратного вызова. Для отправки адреса в программу сжатия или распаковку можно использовать функцию [**иксетстатуспрок**](/windows/desktop/api/Vfw/nf-vfw-icsetstatusproc) . Когда программа сжатия или распаковки получает этот адрес, она отправляет в функцию сообщения о состоянии. Эти сообщения указывают, что операция запускается, останавливается, выдается или продолжается.
 
- 
+ 
 
- 
+ 
 
 
 

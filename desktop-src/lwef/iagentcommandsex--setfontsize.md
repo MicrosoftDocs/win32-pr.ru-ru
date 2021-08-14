@@ -4,16 +4,16 @@ description: Иаженткоммандсекс Сетфонтсизе
 ms.assetid: 095f78d2-ef91-4880-ad49-dd9a94f02891
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19bb9a638141dc3cebe683748500510ea848a664
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: b92319178f2fbceb7b2e0cad9bdb35b740ebeaf108f864edb84b4413353e85e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104487592"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118477206"
 ---
 # <a name="iagentcommandsexsetfontsize"></a>Иаженткоммандсекс:: Сетфонтсизе
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT SetFontSize(
@@ -38,11 +38,11 @@ HRESULT SetFontSize(
 
 Это свойство применяется только к символу, используемому вашим клиентским приложением. Этот параметр не влияет на другие клиенты символов или других символов клиентского приложения.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [**Иаженткоммандсекс:: FontSize**](iagentcommandsex--getfontsize.md), [**Иаженткоммандсекс:: жетфонтнаме**](iagentcommandsex--getfontname.md), [**иаженткоммандсекс:: сетфонтнаме**](iagentcommandsex--setfontname.md)
 
 
- 
+ 
 
- 
+ 

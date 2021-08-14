@@ -5,12 +5,12 @@ ms.assetid: c7c6d1a3-d0c8-469e-ae1e-a848ef7fee2b
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6dd62a50021c485c7bf51cdc9caff4360e4cc863
-ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
+ms.openlocfilehash: f46e4052b2c7277f49f898a290d689928b5838c0562042c0ba8937c5daf00210
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111989429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118362320"
 ---
 # <a name="internet-authentication-service--network-policy-server"></a>Служба проверки подлинности в Интернете & сервер политики сети
 
@@ -26,7 +26,7 @@ ms.locfileid: "111989429"
 
 ## <a name="network-policy-server"></a>Сервер политики сети
 
-Сервер политики сети является реализацией корпорации Майкрософт сервера и прокси-сервера RADIUS и доступен на серверах Windows, начиная с Windows Server 2008.
+сервер политики сети является реализацией корпорации майкрософт сервера и прокси-сервера RADIUS и доступен на Windows серверах, начиная с Windows Server 2008.
 
 Сервер политики сети поддерживает те же два набора API, что и IAS: API [расширений сервера политики сети](ias-extensions.md) и [API объектов данных сервера](server-data-objects.md).
 

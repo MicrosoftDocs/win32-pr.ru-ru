@@ -4,12 +4,12 @@ ms.assetid: 9bb56d80-670e-4b2b-bf3f-40d0a75a89b6
 title: структуредкуерисампле
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64da74b56658f74b056c64c314a2986ddce45ba3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cab8f32a3ed58133893ed5c38c16c2ac242e9a28c6384a4e354bb6b0524c5a1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692191"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118462579"
 ---
 # <a name="structuredquerysample"></a>структуредкуерисампле
 
@@ -21,9 +21,9 @@ ms.locfileid: "105692191"
 - [Загрузка образца](#downloading-the-sample)
 - [Создание примера](#building-the-sample)
 - [Запуск примера](#running-the-sample)
-- [См. также](#related-topics)
+- [Связанные темы](#related-topics)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Продукт     | Версия продукта          |
 |-------------|--------------------------|
@@ -39,24 +39,24 @@ ms.locfileid: "105692191"
 | GitHub        | [структуредкуерисампле](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/StructuredQuerySample)  |
 
 > [!NOTE]  
-> Для всех версий Windows, включая Windows 7, рекомендуется загрузить примеры непосредственно из GitHub, чтобы получить самую последнюю версию.
+> для всех версий Windows, включая Windows 7, рекомендуется загружать образцы непосредственно из GitHub для наиболее актуальной версии.
 
 ## <a name="building-the-sample"></a>Построение образца
 
-1. Откройте проводник Windows и перейдите в каталог проекта **структуредкуерисампле** .
+1. откройте обозреватель Windows и перейдите в каталог проекта **структуредкуерисампле** .
 2. Дважды щелкните значок файла Структуредкуерисампле. sln, чтобы открыть проект в Visual Studio.
 
     > [!NOTE]  
-    > Файл SLN был создан в более старой версии Visual Studio, поэтому его обновление потребуется, если используется Visual Studio 2012 или более поздняя версия. Это не повлияет на поведение образца.
+    > файл sln был создан в более ранней версии Visual Studio, поэтому его обновление потребуется при использовании Visual Studio 2012 или более поздних версий. Это не повлияет на поведение образца.
 
-3. В меню **Сборка** выберите пункт **построить решение**.
+3. В меню **Построение** выберите пункт **Построить решение**.
 
 ## <a name="running-the-sample"></a>Запуск примера
 
-1. Перейдите в каталог, содержащий новый исполняемый файл, с помощью окна командной строки или проводника Windows.
-2. В командной строке введите `StructuredQuerySample.exe` или в проводнике Windows дважды щелкните значок StructuredQuerySample.exe.
+1. перейдите в каталог, содержащий новый исполняемый файл, используя окно командной строки или проводник Windows.
+2. в командной строке введите `StructuredQuerySample.exe` или в Windows Explorer дважды щелкните значок StructuredQuerySample.exe.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 ### <a name="reference"></a>Справочник
 

@@ -4,12 +4,12 @@ ms.assetid: 59a7cb76-77f2-4698-831a-8777aa982d3f
 title: Свойство MFPKEY_AVGFRAMERATE (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 64fd9ca79e3b9acf8872c7032d6943c3084628d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: acfb50dcfb0eb08953b2569d529919df26fcd63e23fd7b6b428f4b59f1c7c530
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117874058"
 ---
 # <a name="mfpkey_avgframerate-property"></a>МФПКЭЙ \_ авгфрамерате, свойство
 
@@ -23,14 +23,14 @@ g \_ всзвмвкавгфрамерате
 
 VT \_ R8
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: 1e5365594a5a1cf1f06691c63b37c04f38530575
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2000bd582475a227fdb638649ee1a634e488a21a7c09d84dd6e21dafc5e9aa42
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117772645"
 ---
 # <a name="capicom_certificate_save_as_type-enumeration"></a>\_ \_ \_ \_ Перечисление типа файла CAPICOM Certificate
 
@@ -35,11 +35,11 @@ ms.locfileid: "105668525"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Тип перечисления **CAPICOM \_ Certificate- \_ \_ \_ Type** используется методом [**Certificate. Save**](certificate-save.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

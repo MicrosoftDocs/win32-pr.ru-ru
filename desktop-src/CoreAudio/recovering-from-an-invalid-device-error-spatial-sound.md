@@ -3,12 +3,12 @@ description: Восстановление после ошибки Invalid-Device
 title: Восстановление после ошибки Invalid-Device (пространственный звук)
 ms.topic: article
 ms.date: 10/29/2020
-ms.openlocfilehash: 1ec4f040aff10f2d118b20c489e74d792c907113
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 124d4a804c2f99c051fee50d1c8d819d794b87a5943c216951e0c72870de8c18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104142412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118406222"
 ---
 # <a name="recovering-from-an-invalid-device-error-spatial-sound"></a>Восстановление после ошибки Invalid-Device (пространственный звук)
 
@@ -45,7 +45,7 @@ ms.locfileid: "104142412"
 Обратите внимание, что для обеих стратегий, перечисленных выше, одни и те же действия можно применить к приложениям, использующим интерфейсы [испатиалаудиубжектрендерстреамформетадата](/windows/win32/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudioobjectrenderstreamformetadata) или [испатиалаудиубжектрендерстреамфорхртф](/windows/win32/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectrenderstreamforhrtf) . Просто замените **испатиалаудиубжектрендерстреам** в описанных выше шагах на интерфейсы Metadata или хртф.
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 [Восстановление после ошибки Invalid-Device](recovering-from-an-invalid-device-error.md) 

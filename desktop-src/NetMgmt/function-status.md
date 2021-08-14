@@ -4,20 +4,20 @@ description: Функции управления сетью возвращают
 ms.assetid: 193ffba5-ff8f-48fb-839e-a162aae58a8f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 363d4d45cd0d6a8f0445b24e10b24c7da04a3f72
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2d4d9f88593d15a1a1aca8af596c5576433aad3af97ae23fa5f455fda3474411
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104258650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117797350"
 ---
 # <a name="function-status"></a>Состояние функции
 
 Функции управления сетью возвращают ноль при успешном выполнении; ненулевое значение кода возврата указывает на ошибку. Так как функции управления сетью используют RPC, определения ошибок включают в себя коды ошибок RPC. Дополнительные сведения см. в разделе [коды ошибок управления сетью](network-management-error-codes.md).
 
- 
+ 
 
- 
+ 
 
 
 

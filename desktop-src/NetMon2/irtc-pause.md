@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: d42af1912365a4237889e4e46d0fb3343377c772
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1ad7ce342c1e0053622bfb77161ecd1e5d81c25d09af179108065b445dd4dc35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108110682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118365079"
 ---
 # <a name="irtcpause-method"></a>ИРТК: метод:P Аусе
 
@@ -50,8 +50,8 @@ HRESULT STDMETHODCALLTYPE Pause();
 |-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_запись нмерр \_ приостановлена**</dt> </dl> | Запись уже приостановлена.<br/>                                                                                     |
 | <dl> <dt>**НМЕРР \_ не \_ захватывается**</dt> </dl>  | НПП не захватывает данные. Вызовите [ИРТК:: Start](irtc-start.md) , чтобы начать запись.<br/>                            |
-| <dl> <dt>**НМЕРР \_ не \_ подключен**</dt> </dl>  | НПП не подключен к сети. Вызовите [ИРТК:: Connect](irtc-connect.md) , чтобы подключить НПП к сети.<br/> |
-| <dl> <dt>**НМЕРР \_ не в \_ реальном времени**</dt> </dl>   | НПП подключается к сети, но не с методом [ИРТК:: Connect](irtc-connect.md) .<br/>                     |
+| <dl> <dt>**НМЕРР \_ не \_ подключен**</dt> </dl>  | НПП не подключен к сети. вызовите [иртк:: Подключение](irtc-connect.md) , чтобы подключить нпп к сети.<br/> |
+| <dl> <dt>**НМЕРР \_ не в \_ реальном времени**</dt> </dl>   | нпп подключается к сети, но не с помощью метода [иртк:: Подключение](irtc-connect.md) .<br/>                     |
 
 
 
@@ -65,7 +65,7 @@ HRESULT STDMETHODCALLTYPE Pause();
 
 Чтобы перезапустить захват [ИРТК:: Resume](irtc-resume.md). Чтобы прерывать запись, вызовите [ИРТК:: останавливаться](irtc-stop.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -78,14 +78,14 @@ HRESULT STDMETHODCALLTYPE Pause();
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 
 [иртк](irtc.md)
 </dt> <dt>
 
-[ИРТК:: Connect](irtc-connect.md)
+[иртк:: Подключение](irtc-connect.md)
 </dt> <dt>
 
 [ИРТК:: Resume](irtc-resume.md)

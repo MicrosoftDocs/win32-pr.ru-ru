@@ -4,12 +4,12 @@ ms.assetid: 87e46ec9-ed5f-4ff5-a382-34eb164f4e66
 title: Константы LINEBEARERMODE_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dc7d48689dd435e0a07e1ce9fa5a2a9915b1bf69
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 87bb03664b6e904cbce7e376eb111675430ea86b8e6880211d76d5b364467097
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117761769"
 ---
 # <a name="linebearermode_-constants"></a>\_Константы линебеарермоде
 
@@ -97,13 +97,13 @@ ms.locfileid: "105689390"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Старшие 16 бит можно назначить для расширений для конкретных устройств. 16 младших разрядов зарезервированы.
 
 Обратите внимание, что режим носителя и тип мультимедиа являются разными понятиями. Режим носителя вызова указывает на качество телефонного подключения, которое предоставляется в основном в сети. Тип носителя вызова указывает на тип информационного потока, который передается через этот вызов. Факсы группы 3 или модемы данных — это типы мультимедиа, использующие вызов с режимом носителя 3,1 кГц.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

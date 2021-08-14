@@ -3,7 +3,7 @@ title: КУСТОМСЛИДЕР. Поситионимаже
 description: Атрибут Поситионимаже указывает или получает карту изображения, используемую для определения того, какое изображение должно быть отображено из файла изображения.
 ms.assetid: 7e99dc21-ebba-438a-a983-190dbe429578
 keywords:
-- Проигрыватель Windows Media КУСТОМСЛИДЕР. Поситионимаже
+- кустомслидер. поситионимаже проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: dc92a9c263e2b450e64d526ccfc7976fdd6227a4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 727601ceb7ed078e40a284ab291f2e182a4270682b5f1db104515e31d3dbe2ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117749999"
 ---
 # <a name="customsliderpositionimage"></a>КУСТОМСЛИДЕР. Поситионимаже
 
@@ -32,7 +32,7 @@ ms.locfileid: "105694405"
 
 Этот атрибут является **строкой** для чтения и записи, содержащей имя файла изображения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут является обязательным и должен быть указан.
 
@@ -134,13 +134,13 @@ ms.locfileid: "105694405"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

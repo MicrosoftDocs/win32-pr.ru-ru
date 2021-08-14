@@ -4,12 +4,12 @@ ms.assetid: 1772cb6a-3650-4b12-ac80-c8f8d941d206
 title: System. GPS. спутники
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cad34e1f303a38662213197a37378aa6be2bb04
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8041c189b6d962cb89cc7476920e26e1fecf3c8d6a45e9d3018f809c413456b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105647321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117866164"
 ---
 # <a name="systemgpssatellites"></a>System. GPS. спутники
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

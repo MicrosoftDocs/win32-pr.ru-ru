@@ -3,21 +3,21 @@ title: Определение приоритетов потоков
 description: Определение приоритетов потоков
 ms.assetid: 6b3e9b03-62ef-422b-97ab-197d1cd15beb
 keywords:
-- Windows Media Format SDK, определение приоритетов потоков
+- Windows Пакет SDK для формата мультимедиа, определение приоритетов потоков
 - Расширенный системный формат (ASF), определение приоритетов потоков
 - ASF (Расширенный системный формат), определение приоритетов потоков
-- Пакет SDK Windows Media Format, порядок приоритетов для потоков
+- Windows Пакет SDK для формата мультимедиа, порядок приоритетов для потоков
 - Расширенный системный формат (ASF), порядок приоритета для потоков
 - ASF (Расширенный системный формат), порядок приоритета для потоков
 - потоки, определение приоритетов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: abe1628ef050d393cd2d98e73708d5a9ad6c3be4
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 9fd34bab6a7957d7cbcdf97a78fc3d8be1f663d43ef1eb1ec8d4c575571ad0a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104069584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118197280"
 ---
 # <a name="stream-prioritization"></a>Определение приоритетов потоков
 
@@ -25,7 +25,7 @@ ms.locfileid: "104069584"
 
 Определение приоритетов потоков настраивается с помощью объекта определения приоритетов потоков и добавляется в профиль. Профиль может содержать только один объект определения приоритетов потоков.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -50,9 +50,9 @@ ms.locfileid: "104069584"
 [**Использование определения приоритетов потоков**](using-stream-prioritization.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 6943b405-0807-412b-a149-fc3a8ece1b48
 title: События сеанса звука
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90ec5de18c883f817c2f650ccfc48ad0149ac84e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: cf0c3441a7f6f6835070a530c4ebb8985354b2701f312f2f085c5e449f12cbf0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118407228"
 ---
 # <a name="audio-session-events"></a>События сеанса звука
 
@@ -203,7 +203,7 @@ public:
 
 Пример кода, который регистрирует и отменяет регистрацию интерфейса [**иаудиосессионевентс**](/windows/desktop/api/Audiopolicy/nn-audiopolicy-iaudiosessionevents) клиента, см. в разделе [события аудио для устаревших аудио приложений](audio-events-for-legacy-audio-applications.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: f4b2666f4006cd2a583809725749d16daf8e6e6a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e92c3b0087935f57cba2774cc28347399d2557e140672805e93019cda227d786
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665185"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117771090"
 ---
 # <a name="icertificate2template-method"></a>Метод ICertificate2:: Template
 
@@ -40,7 +40,7 @@ Certificate.Template()
 
 Этот метод не имеет параметров.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

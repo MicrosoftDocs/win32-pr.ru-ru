@@ -4,12 +4,12 @@ description: Клиент может зарегистрироваться для
 ms.assetid: 90dc98eb-0d0b-4450-848b-c7cedab75a52
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c3a98062fee73c481c1f47c32fa7eeb5465a112
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7049478a5be834b08b7bb17ad9ebfb0fdf70736837f27d53e7900bf7bfdc88dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104329603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117788623"
 ---
 # <a name="registering-for-change-notification"></a>Регистрация для уведомления об изменениях
 
@@ -21,9 +21,9 @@ ms.locfileid: "104329603"
 
 Пример кода, демонстрирующий использование этих функций, см. в разделе [Регистрация для уведомления об изменениях](register-for-change-notification.md).
 
- 
+ 
 
- 
+ 
 
 
 

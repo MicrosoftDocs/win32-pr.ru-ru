@@ -4,12 +4,12 @@ description: в этом образце кода показана разметк
 ms.assetid: 1505aaea-76d2-47bc-bdc9-12e761da93f9
 ms.topic: article
 ms.date: 07/13/2021
-ms.openlocfilehash: cfe75d13a69e0122766e51a00bcb1b15d52eab4e
-ms.sourcegitcommit: 63c93e0ad0b48d60b11008767196718feb475cb0
+ms.openlocfilehash: 0f1299bdc20b1b94a5113d3cfcdda205b6ad8e513a59706d708362fbc8383bd8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "113691713"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118202122"
 ---
 # <a name="htmleditribbon-sample"></a>Пример Хтмледитриббон
 
@@ -22,7 +22,7 @@ ms.locfileid: "113691713"
 - [Поддержка](#support)
 - [Минимальные требования](#minimum-requirements)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Пример для MFC см. в разделе [Хтмледит Sample: заключает в оболочку элемент управления редактированием в Internet Explorer MSHTML](https://msdn.microsoft.com/library/ea8hhwb6(VS.80).aspx).
 
@@ -58,7 +58,7 @@ ms.locfileid: "113691713"
 
 | Требование | Значение |
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента | Windows 7<br/> Windows vista с пакетом обновления 2 (sp2) и [обновлением платформы для Windows Vista](https://msdn.microsoft.com/library/dd378748.aspx)<br/>         |
+| Минимальная версия клиента | Windows 7<br/> Windows vista с пакетом обновления 2 (sp2) и [обновлением платформы для Windows Vista](https://msdn.microsoft.com/library/dd378748.aspx)<br/>         |
 | Минимальная версия сервера | Windows Server 2008 R2<br/> Windows сервер 2008 с пакетом обновления 2 (SP2) и [обновлением платформы для Windows Server 2008](https://msdn.microsoft.com/library/dd378748.aspx)<br/> |
 | Пакет Windows SDK              | 7.0                                                                                                                                                                      |
 | Visual Studio            | 2008                                                                                                                                                                     |

@@ -3,7 +3,7 @@ title: Код уведомления TVN_DELETEITEM (Коммктрл. h)
 description: Сообщает родительскому окну элемента управления древовидного представления о том, что элемент удаляется. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: 0d8801e0-02ae-40c9-8625-83d98b434d0a
 keywords:
-- TVN_DELETEITEM кода уведомления элементы управления Windows
+- TVN_DELETEITEM кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2953ca0cf272b102a08fba0516d4891dccde9daf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9244fd7a848adc3f2d82f48177482c0ffb8cbe1484bc501accfb7ffab3aefbc1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104490839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118408250"
 ---
 # <a name="tvn_deleteitem-notification-code"></a>\_Код уведомления ТВН DELETEITEM
 
@@ -51,18 +51,18 @@ TVN_DELETEITEM
 
 Возвращаемое значение игнорируется.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если член **lParam** структуры [**твитем**](/windows/win32/api/commctrl/ns-commctrl-tvitema) указывает на память, выделенную приложением, вы можете освободить его при получении \_ кода уведомления ТВН DELETEITEM.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **ТВН \_ ДЕЛЕТЕИТЕМВ** (Юникод) и **ТВН \_ делетеитема** (ANSI)<br/>             |
 

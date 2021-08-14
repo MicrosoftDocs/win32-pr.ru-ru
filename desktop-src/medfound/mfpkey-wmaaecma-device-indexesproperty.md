@@ -4,12 +4,12 @@ ms.assetid: 42b6b82b-ac64-4a07-956c-473dd57a128d
 title: Свойство MFPKEY_WMAAECMA_DEVICE_INDEXES (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b377e4335e78e81c8e7d3c5a9a0c1d00b8f9bae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4c4e9fd9eae8d53f1fa19bd8b55d94d292b9cd6cbf214b7a71a6473f1af647f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103898206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117873003"
 ---
 # <a name="mfpkey_wmaaecma_device_indexes-property"></a>\_ \_ \_ Свойство индексов устройства мфпкэй вмааекма
 
@@ -27,11 +27,11 @@ VT \_ I4
 
 (-1,-1).
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [DSP для записи речи](voicecapturedmo.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Задайте это свойство при использовании DSP в режиме исходного кода. DSP игнорирует это свойство в режиме фильтрации.
 
@@ -60,14 +60,14 @@ varDeviceIndexes.lVal = (unsigned long)(iSpeakerIndex << 16) +
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 

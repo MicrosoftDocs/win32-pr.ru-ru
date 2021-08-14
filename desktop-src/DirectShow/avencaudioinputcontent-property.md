@@ -4,12 +4,12 @@ ms.assetid: 10e35d7f-06b8-427f-9309-167358ccbd6f
 title: Свойство Авенкаудиоинпутконтент (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f0a2006efa769169e0fe3debc7c025bc829a3586
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 38e5132e276d5e526e83a84415f50f22e4a6bce1bc985d830285825e4a1c72a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104140491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117824214"
 ---
 # <a name="avencaudioinputcontent-property"></a>Авенкаудиоинпутконтент, свойство
 
@@ -29,14 +29,14 @@ ms.locfileid: "104140491"
 
 Значение этого свойства является членом перечисления [**еавенкаудиоинпутконтент**](/windows/win32/api/codecapi/ne-codecapi-eavencaudioinputcontent) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 

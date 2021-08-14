@@ -3,7 +3,7 @@ title: Сообщение MCIWNDM_GET_DEST (VFW. h)
 description: Сообщение МЦИВНДМ \_ Get \_ dest получает координаты прямоугольника назначения, используемого для масштабирования или растяжения изображений файла AVI во время воспроизведения. Это сообщение можно отправить явно или с помощью макроса МЦивнджетдест.
 ms.assetid: d4d8a3eb-aad4-4435-a23b-7a9c55fc194d
 keywords:
-- MCIWNDM_GET_DEST сообщения Windows мультимедиа
+- сообщение MCIWNDM_GET_DEST Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab5f16b434caef56e6c6aa97bfd767770dc05ee1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b4a6326485bece572b03ceeca687ca4468b6d866c25c738c32d13763fd0931a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071091"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117802908"
 ---
 # <a name="mciwndm_get_dest-message"></a>МЦИВНДМ \_ Получение \_ сообщения о приемнике
 
@@ -49,7 +49,7 @@ lParam = (LPARAM) (LPRECT) prc;
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

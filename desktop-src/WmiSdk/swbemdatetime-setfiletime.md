@@ -16,18 +16,18 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: ca3e36a284e3700e166e86f6786218bada8f369e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 138685ba4d6b63591bf460da3cdba219685f015d54789ca60a52660845b2e41a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117739463"
 ---
 # <a name="swbemdatetimesetfiletime-method"></a>SWbemDateTime. Сетфилетиме, метод
 
 Метод **сетфилетиме** объекта [**SWbemDateTime**](swbemdatetime.md) преобразует дату в строковом формате **fileTime** в формат [даты и времени CIM](date-and-time-format.md) .
 
-Формат **fileTime** — это 64-разрядная структура DateTime, представляющая число единиц с 100 до 1 января 1601 г. Инструментарий управления Windows (WMI) (WMI) рассматривает значения **fileTime** как строковые представления беззнаковых 64-разрядных чисел.
+Формат **fileTime** — это 64-разрядная структура DateTime, представляющая число единиц с 100 до 1 января 1601 г. Windows Инструментарий управления (WMI) рассматривает значения **fileTime** как строковые представления беззнаковых 64-разрядных чисел.
 
 Описание синтаксиса см. в разделе [соглашения о документе для API скриптов](document-conventions-for-the-scripting-api.md).
 
@@ -78,7 +78,7 @@ SWbemDateTime.SetFileTime( _
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 После успешного вызова **сетфилетиме** значение [**DateTime**](datetime.md) всегда интерпретируется как абсолютное значение (**DateTime**) [**, а**](swbemdatetime-isinterval.md) параметру IsFalse — значение **false**.
 
@@ -86,7 +86,7 @@ SWbemDateTime.SetFileTime( _
 
 Примеры использования объекта [**SWbemDateTime**](swbemdatetime.md) для преобразования значений [**DateTime**](datetime.md) CIM в формат **fileTime** или в формат **\_ даты VT** см. в разделе [задачи WMI: даты и время](wmi-tasks--dates-and-times.md). Описание формата **DateTime** в CIM см. в разделе [Формат даты и времени](date-and-time-format.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

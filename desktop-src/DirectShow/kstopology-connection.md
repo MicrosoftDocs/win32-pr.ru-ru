@@ -1,5 +1,5 @@
 ---
-description: Этот раздел относится к пакету обновления 2 (SP2) для Windows XP или более поздней версии. \_Структура подключения кстопологи описывает соединение узла в фильтре потоковой передачи (KS). Узел можно подключить к другому узлу в фильтре или к закрепления фильтра.
+description: этот раздел относится к Windows XP с пакетом обновления 2 (sp2) или более поздней версии. \_Структура подключения кстопологи описывает соединение узла в фильтре потоковой передачи (KS). Узел можно подключить к другому узлу в фильтре или к закрепления фильтра.
 ms.assetid: 8fca47b7-4c52-46db-809c-77a0e3414276
 title: Структура KSTOPOLOGY_CONNECTION (KS. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - Ks.h
-ms.openlocfilehash: f523d378a54311845781c144b33e131d5875e41e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 80a7b6f046edd1cd7f602487a11d6a79c375276814f9374f4142d148699bb8b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118397248"
 ---
 # <a name="kstopology_connection-structure"></a>\_Структура подключения кстопологи
 
-Этот раздел относится к пакету обновления 2 (SP2) для Windows XP или более поздней версии.
+этот раздел относится к Windows XP с пакетом обновления 2 (sp2) или более поздней версии.
 
 Структура **\_ подключения кстопологи** описывает соединение узла в фильтре потоковой передачи (KS). Узел можно подключить к другому узлу в фильтре или к закрепления фильтра.
 
@@ -72,13 +72,13 @@ typedef struct {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>KS. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>KS. h</dt> </dl> |
 
 
 
@@ -86,7 +86,7 @@ typedef struct {
 
 <dl> <dt>
 
-[Структуры DirectShow](directshow-structures.md)
+[DirectShow Сотрудник](directshow-structures.md)
 </dt> <dt>
 
 [**Икстопологинфо:: Get \_ ConnectionInfo**](/previous-versions/windows/desktop/api/Vidcap/nf-vidcap-ikstopologyinfo-get_connectioninfo)

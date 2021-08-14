@@ -8,12 +8,12 @@ keywords:
 - Active Directory Active Directory, наследование разрешений
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d76db80497b54e71c806f3ccff9df549f9b2c1a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9b48ff4d913cbd8bf16f7b2c67adf86d61515298dcac267291641d30504e1e32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104252776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118187527"
 ---
 # <a name="inheritance-and-delegation-of-administration"></a>Наследование и делегирование администрирования
 
@@ -23,7 +23,7 @@ ms.locfileid: "104252776"
 
 
 
-| Flag                                                     | Описание                                                                                                                                     |
+| Флаг                                                     | Описание                                                                                                                                     |
 |----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 | **ADS \_ ацефлаг \_ наследовать \_ ACE**<br/>                | Приводит к наследованию элемента управления доступом в дереве.<br/>                                                                                     |
 | **ADS \_ ацефлаг \_ без \_ распространения \_ наследования \_ ACE**<br/> | Приводит к тому, что ACE наследуется только на один уровень в дереве.<br/>                                                                      |

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 0bec068622683172116bf8c4f6e88450d5752920
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 10f3e0dd09b37821a00f2c10f99c0ea6d509ff388e9d7394a8b2c4958438f979
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118364849"
 ---
 # <a name="labeled_dword-structure"></a>\_Структура DWORD с меткой
 
@@ -54,11 +54,11 @@ typedef struct _LABELED_DWORD {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент **лплабеледдвордтабле** структуры [Set](set.md) указывает на массив структур **набора** , определяющих один или несколько элементов **Label** в парах значений DWORD. Эти пары используются, если требуется отобразить метку вместо определенного значения DWORD, найденного в пакете протокола.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

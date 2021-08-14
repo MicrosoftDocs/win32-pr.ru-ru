@@ -24,12 +24,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 91004ca276140271e8d73c3fc226e83c4e03d1fc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09efeac38babb057621cb6f25d14d3a631c12242e91982ae3ab9e79570416be5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263346"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118395350"
 ---
 # <a name="cswitch-class"></a>Класс Ксвитч
 
@@ -58,13 +58,13 @@ class CSwitch : Thread_V2
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **ксвитч** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **ксвитч** имеет следующие свойства.
 
@@ -173,7 +173,7 @@ class CSwitch : Thread_V2
 | 4     | Завершен                                    |
 | 5     | Ожидание                                       |
 | 6     | Переход                                    |
-| 7     | Деферредреади (добавляется для Windows Server 2003) |
+| 7     | деферредреади (добавляется для Windows Server 2003) |
 
 
 
@@ -331,18 +331,18 @@ class CSwitch : Thread_V2
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эти события создают большой объем событий.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 85fe008880d9613586d38dba7afaca39bb29f72f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7ce3fc7246a7962ea852167cdc93e25e4d8ab11976eb3cf2868642bb906c41fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669334"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117771545"
 ---
 # <a name="icertificate2keyusage-method"></a>Метод ICertificate2:: Кэйусаже
 
@@ -41,7 +41,7 @@ Certificate.KeyUsage()
 
 Этот метод не имеет параметров.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -61,7 +61,7 @@ Certificate.KeyUsage()
 [Криптографические объекты](cryptography-objects.md)
 </dt> <dt>
 
-[**Certificate**](certificate.md)
+[**Сертификат**](certificate.md)
 </dt> </dl>
 
  

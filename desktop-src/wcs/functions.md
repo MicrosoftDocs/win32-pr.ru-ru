@@ -3,8 +3,8 @@ title: Функции (WCS)
 description: В следующих разделах функции WCS упорядочены по категориям. Это позволяет просматривать функции, связанные с использованием, в одном разделе. Страницы ссылок на функции упорядочены в алфавитном порядке.
 ms.assetid: aba45dbd-6fc2-4788-87f0-043579fa53f9
 keywords:
-- Цветовая система Windows (WCS), функции
-- WCS (цветовая система Windows), функции
+- Windows Система цветовой системы (WCS), функции
+- WCS (Windows цветовая система), функции
 - Управление цветом изображений, функции
 - Управление цветом, функции
 - цвета, функции
@@ -13,12 +13,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: faec94aa33471bf56922a865b657e558a63d8457
-ms.sourcegitcommit: 4570ac533e129ff88b23f2c2b69e0140ead3a4a4
+ms.openlocfilehash: 09508cf58d1edd87ed14aeee257a6667b5f90106e35c0de7d29a0d7304dd193a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "105721072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117851950"
 ---
 # <a name="wcs-functions"></a>Функции WCS
 

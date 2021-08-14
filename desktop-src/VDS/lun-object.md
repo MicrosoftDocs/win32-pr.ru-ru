@@ -4,16 +4,16 @@ ms.assetid: ea22bd6d-4a7a-4674-82e9-08460914ff8e
 title: LUN, объект
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad74fa65802adb1439360fb2fcdb423c642ef736
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d315e33b8d253e346b42b01f86a85379aadace73e517a169cc653214a9c674d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674353"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118347495"
 ---
 # <a name="lun-object"></a>LUN, объект
 
-\[Начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API управления хранилищами Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API Windows служба хранилища управления](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 Объект LUN (логический номер устройства) моделирует логическую единицу адресного пространства хранилища, созданного поставщиком оборудования и выпадающего подсистемой. Каждый LUN состоит по крайней мере из одного плекса LUN, который, в свою очередь, состоит из экстентов одного или нескольких дисков.
 
@@ -60,7 +60,7 @@ ms.locfileid: "105674353"
 | Интерфейсы, которые всегда предоставляются этим объектом                                                 | [**ивдслун**](/windows/desktop/api/Vds/nn-vds-ivdslun)                                                                                                                                                                                                                                                                                          |
 | Интерфейсы, которые всегда предоставляются этим объектом в службе VDS 1,1 и 2,0 Fibre Channel только поставщики | [**ивдслунконтроллерпортс**](/windows/desktop/api/Vds/nn-vds-ivdsluncontrollerports)                                                                                                                                                                                                                                                            |
 | Интерфейсы, которые всегда предоставляются этим объектом в поставщиках iSCSI для VDS 1,1 и 2,0         | [**ивдслунискси**](/windows/desktop/api/Vds/nn-vds-ivdsluniscsi)                                                                                                                                                                                                                                                                                |
-| Интерфейсы, которые могут предоставляться этим объектом\*                                                   | [**Ивдсмаинтенанце**](/windows/desktop/api/Vds/nn-vds-ivdsmaintenance), [**ивдслунмпио**](/windows/desktop/api/Vds/nn-vds-ivdslunmpio), [**ивдслуннаминг**](/windows/desktop/api/Vds/nn-vds-ivdslunnaming)и [**ивдслуннумбер**](/windows/desktop/api/Vds/nn-vds-ivdslunnumber)**windows Server 2008, Windows Vista и Windows Server 2003:** интерфейс [**ивдслуннумбер**](/windows/desktop/api/Vds/nn-vds-ivdslunnumber) не поддерживается.<br/> |
+| Интерфейсы, которые могут предоставляться этим объектом\*                                                   | [**ивдсмаинтенанце**](/windows/desktop/api/Vds/nn-vds-ivdsmaintenance), [**ивдслунмпио**](/windows/desktop/api/Vds/nn-vds-ivdslunmpio), [**ивдслуннаминг**](/windows/desktop/api/Vds/nn-vds-ivdslunnaming)и [**ивдслуннумбер**](/windows/desktop/api/Vds/nn-vds-ivdslunnumber)**Windows server 2008, Windows Vista и Windows server 2003:** интерфейс [**ивдслуннумбер**](/windows/desktop/api/Vds/nn-vds-ivdslunnumber) не поддерживается.<br/> |
 | Связанные перечисления                                                                           | Служба [**VDS \_ \_Флаг LUN**](/windows/desktop/api/Vds/ne-vds-vds_lun_flag) и [**\_ \_ состояние LUN VDS**](/windows/desktop/api/Vds/ne-vds-vds_lun_status)и [**\_ \_ тип LUN VDS**](/windows/desktop/api/Vds/ne-vds-vds_lun_type)                                                                                                                                                                                   |
 | Связанные структуры                                                                             | Служба [**VDS \_ \_Сведения о LUN**](/windows/desktop/api/VdsLun/ns-vdslun-vds_lun_information), "Служба [**VDS \_ LUN \_**](/windows/desktop/api/Vds/ns-vds-vds_lun_prop)" и [**\_ \_ уведомление о LUN VDS**](/windows/desktop/api/Vds/ns-vds-vds_lun_notification)                                                                                                                                                            |
 
@@ -70,7 +70,7 @@ ms.locfileid: "105674353"
 
 \* См. раздел [объект диска](disk-object.md) для дополнительного интерфейса ([**ивдсдиск**](/windows/desktop/api/Vds/nn-vds-ivdsdisk)), который предоставляется, если LUN размещается в виде диска на локальном компьютере узла.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

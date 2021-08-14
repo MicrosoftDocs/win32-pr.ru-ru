@@ -15,12 +15,12 @@ api_type:
 api_location:
 - Inkdiv.dll
 - Inkdiv.dll.dll
-ms.openlocfilehash: c0658504303968803bd2abff063694701d121390
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d7dd98aaef627bac6a26340464c14c4e46c07d6a23f32c2664651503b5d79014
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118220835"
 ---
 # <a name="inkdivider-class"></a>Класс Инкдивидер
 
@@ -54,7 +54,7 @@ ms.locfileid: "105684207"
 
 | Метод                              | Описание                                                                                                                                                        |
 |:------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Деление**](/windows/win32/api/msinkaut15/nf-msinkaut15-iinkdivider-divide) | Возвращает объект [**иинкдивисионресулт**](/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult) , содержащий структурную информацию о штрихах в объекте **инкдивидер** .<br/> |
+| [**Divide**](/windows/win32/api/msinkaut15/nf-msinkaut15-iinkdivider-divide) | Возвращает объект [**иинкдивисионресулт**](/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult) , содержащий структурную информацию о штрихах в объекте **инкдивидер** .<br/> |
 
 
 
@@ -76,7 +76,7 @@ ms.locfileid: "105684207"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для создания экземпляра этого объекта можно вызвать метод [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) в C++.
 
@@ -100,13 +100,13 @@ ms.locfileid: "105684207"
 
 **Инкдивидер** в настоящее время не поддерживает вертикальные языки. Чтобы объект **инкдивидер** мог правильно распознать эти языки, объект [**иинкрекогнизер**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer) для языка должен поддерживать функцию Free input, а символы должны быть записаны слева направо.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/>                                                           |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/>                                                           |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                                               |
 | Header<br/>                   | <dl> <dt>Msinkaut15. h (также требуется Msinkaut15 \_ i. c)</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Inkdiv.dll</dt> </dl>                                   |

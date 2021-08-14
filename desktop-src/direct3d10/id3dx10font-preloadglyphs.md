@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: fdb67b8a25912c6efc49ef27082d3b6b4e843b33
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 358523135db83f2ec7f973fce403a44d2f0ece82ab60cf9527cb612ccde61e49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703800"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118540340"
 ---
 # <a name="id3dx10fontpreloadglyphs-method"></a>ID3DX10Font: метод:P Релоадглифс
 
@@ -65,19 +65,19 @@ HRESULT PreloadGlyphs(
 
 Если метод выполнен успешно, возвращается значение S \_ . В случае сбоя метода возвращаемое значение может быть одним из следующих: D3DERR \_ инвалидкалл, D3DXERR \_ INVALIDDATA.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод создает текстуры, которые содержат глифы входных данных. Глифы рисуются в виде ряда треугольников.
 
 Глифы не будут отображаться на устройстве; ID3DX10Font: для отрисовки глифов необходимо по-прежнему вызывать метод:D Равтекст. Однако предварительная загрузка глифов в видеопамять ID3DX10Font::D Равтекст будет использовать значительно меньше ресурсов ЦП.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>D3DX10. lib</dt> </dl> |
 
 

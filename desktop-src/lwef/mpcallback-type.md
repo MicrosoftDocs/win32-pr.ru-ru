@@ -3,8 +3,8 @@ title: Перечисление MPCALLBACK_TYPE (Мпклиент. h)
 description: Возможные типы обратного вызова.
 ms.assetid: 8E4F50B7-0F02-434D-B91E-C9966C92CDC0
 keywords:
-- MPCALLBACK_TYPE перечисления устаревшие функции среды Windows
-- PMPCALLBACK_TYPE указателя перечисления устаревшие функции среды Windows
+- MPCALLBACK_TYPE перечисления устаревших Windows компонентов среды
+- PMPCALLBACK_TYPEные компоненты среды Windows указателя перечисления
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a3fd310f3733d36dd92ace1c7a5286bcf73a75f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 35c1d6e92acc7c789b5f6d85184ba74970e12bedcc5cd412fc378b8c8dfeb066
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104490014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117883558"
 ---
 # <a name="mpcallback_type-enumeration"></a>\_Перечисление типов мпкаллбакк
 
@@ -108,14 +108,14 @@ typedef enum tagMPCALLBACK_TYPE {
 <span id="MPCALLBACK_MAXVALUE"></span><span id="mpcallback_maxvalue"></span>**МПКАЛЛБАКК \_ MaxValue**
 </dt> <dd></dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
 
 

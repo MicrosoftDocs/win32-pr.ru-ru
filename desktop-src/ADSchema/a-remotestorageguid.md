@@ -1,10 +1,10 @@
 ---
-title: Атрибут Remote-Storage-GUID
+title: атрибут Remote-служба хранилища-GUID
 description: Этот атрибут содержит идентификатор GUID для объекта удаленного хранилища.
 ms.assetid: 9051666f-539c-4339-8652-3ebdab1af301
 ms.tgt_platform: multiple
 keywords:
-- Схема AD атрибута удаленного хранилища GUID
+- схема AD атрибута Remote-служба хранилища-GUID
 - Схема AD атрибута Ремотесторажегуид
 topic_type:
 - apiref
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f09677b970af3251664edd3901315189acfe18dc
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 54b3f00137661f73356a8b0af41ca0f2882b0b0c6b0f5bfb210d185e7a1b3243
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105655072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118423780"
 ---
-# <a name="remote-storage-guid-attribute"></a>Атрибут Remote-Storage-GUID
+# <a name="remote-storage-guid-attribute"></a>атрибут Remote-служба хранилища-GUID
 
 Этот атрибут содержит идентификатор GUID для объекта удаленного хранилища.
 
@@ -29,7 +29,7 @@ ms.locfileid: "105655072"
 
 | Ввод | Значение |
 |-------------------|---------------------------------------------|
-| CN                | Remote-Storage-GUID                         |
+| CN                | Remote-служба хранилища-GUID                         |
 | LDAP-отображаемое имя | ремотесторажегуид                           |
 | Размер              | \-                                          |
 | Привилегия обновления  | \-                                          |
@@ -58,7 +58,7 @@ ms.locfileid: "105655072"
 | Идентификатор ссылки                | \-                                                                             |
 | MAPI-Id                | \-                                                                             |
 | System-Only            | Неверно                                                                          |
-| Является однозначным       | True                                                                           |
+| Является однозначным       | Верно                                                                           |
 | Индексируется             | Неверно                                                                          |
 | В глобальном каталоге      | Неверно                                                                          |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                   |
@@ -66,7 +66,7 @@ ms.locfileid: "105655072"
 | Range-Upper            | \-                                                                             |
 | Search-Flags           | 0x00000000                                                                     |
 | System-Flags           | 0x00000010                                                                     |
-| Классы, используемые в        | [**Точка удаленного хранилища службы**](c-remotestorageservicepoint.md)<br/> |
+| Классы, используемые в        | [**удаленная служба хранилища-точка службы**](c-remotestorageservicepoint.md)<br/> |
 
 
 
@@ -79,7 +79,7 @@ ms.locfileid: "105655072"
 | Идентификатор ссылки                | \-                                                                             |
 | MAPI-Id                | \-                                                                             |
 | System-Only            | Неверно                                                                          |
-| Является однозначным       | True                                                                           |
+| Является однозначным       | Верно                                                                           |
 | Индексируется             | Неверно                                                                          |
 | В глобальном каталоге      | Неверно                                                                          |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                   |
@@ -87,7 +87,7 @@ ms.locfileid: "105655072"
 | Range-Upper            | \-                                                                             |
 | Search-Flags           | 0x00000000                                                                     |
 | System-Flags           | 0x00000010                                                                     |
-| Классы, используемые в        | [**Точка удаленного хранилища службы**](c-remotestorageservicepoint.md)<br/> |
+| Классы, используемые в        | [**удаленная служба хранилища-точка службы**](c-remotestorageservicepoint.md)<br/> |
 
 
 
@@ -100,7 +100,7 @@ ms.locfileid: "105655072"
 | Идентификатор ссылки                | \-                                                                             |
 | MAPI-Id                | \-                                                                             |
 | System-Only            | Неверно                                                                          |
-| Является однозначным       | True                                                                           |
+| Является однозначным       | Верно                                                                           |
 | Индексируется             | Неверно                                                                          |
 | В глобальном каталоге      | Неверно                                                                          |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                   |
@@ -108,7 +108,7 @@ ms.locfileid: "105655072"
 | Range-Upper            | \-                                                                             |
 | Search-Flags           | 0x00000000                                                                     |
 | System-Flags           | 0x00000010                                                                     |
-| Классы, используемые в        | [**Точка удаленного хранилища службы**](c-remotestorageservicepoint.md)<br/> |
+| Классы, используемые в        | [**удаленная служба хранилища-точка службы**](c-remotestorageservicepoint.md)<br/> |
 
 
 
@@ -121,7 +121,7 @@ ms.locfileid: "105655072"
 | Идентификатор ссылки                | \-                                                                             |
 | MAPI-Id                | \-                                                                             |
 | System-Only            | Неверно                                                                          |
-| Является однозначным       | True                                                                           |
+| Является однозначным       | Верно                                                                           |
 | Индексируется             | Неверно                                                                          |
 | В глобальном каталоге      | Неверно                                                                          |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                   |
@@ -129,7 +129,7 @@ ms.locfileid: "105655072"
 | Range-Upper            | \-                                                                             |
 | Search-Flags           | 0x00000000                                                                     |
 | System-Flags           | 0x00000010                                                                     |
-| Классы, используемые в        | [**Точка удаленного хранилища службы**](c-remotestorageservicepoint.md)<br/> |
+| Классы, используемые в        | [**удаленная служба хранилища-точка службы**](c-remotestorageservicepoint.md)<br/> |
 
 
 
@@ -142,7 +142,7 @@ ms.locfileid: "105655072"
 | Идентификатор ссылки                | \-                                                                             |
 | MAPI-Id                | \-                                                                             |
 | System-Only            | Неверно                                                                          |
-| Является однозначным       | True                                                                           |
+| Является однозначным       | Верно                                                                           |
 | Индексируется             | Неверно                                                                          |
 | В глобальном каталоге      | Неверно                                                                          |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                   |
@@ -150,7 +150,7 @@ ms.locfileid: "105655072"
 | Range-Upper            | \-                                                                             |
 | Search-Flags           | 0x00000000                                                                     |
 | System-Flags           | 0x00000010                                                                     |
-| Классы, используемые в        | [**Точка удаленного хранилища службы**](c-remotestorageservicepoint.md)<br/> |
+| Классы, используемые в        | [**удаленная служба хранилища-точка службы**](c-remotestorageservicepoint.md)<br/> |
 
 
 
@@ -163,7 +163,7 @@ ms.locfileid: "105655072"
 | Идентификатор ссылки                | \-                                                                             |
 | MAPI-Id                | \-                                                                             |
 | System-Only            | Неверно                                                                          |
-| Является однозначным       | True                                                                           |
+| Является однозначным       | Верно                                                                           |
 | Индексируется             | Неверно                                                                          |
 | В глобальном каталоге      | Неверно                                                                          |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                   |
@@ -171,7 +171,7 @@ ms.locfileid: "105655072"
 | Range-Upper            | \-                                                                             |
 | Search-Flags           | 0x00000000                                                                     |
 | System-Flags           | 0x00000010                                                                     |
-| Классы, используемые в        | [**Точка удаленного хранилища службы**](c-remotestorageservicepoint.md)<br/> |
+| Классы, используемые в        | [**удаленная служба хранилища-точка службы**](c-remotestorageservicepoint.md)<br/> |
 
 
 

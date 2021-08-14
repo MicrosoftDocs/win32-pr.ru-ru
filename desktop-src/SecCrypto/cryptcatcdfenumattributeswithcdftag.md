@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Wintrust.dll
-ms.openlocfilehash: bd3c5905c57d234d42cd89d18c2a141c4026250f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f1bffd01865b524b0f06003a6a46b8f81542d7f6113f98db55202e08d8dd7ee9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104540999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117768899"
 ---
 # <a name="cryptcatcdfenumattributeswithcdftag-function"></a>Функция Крипткаткдфенуматтрибутесвискдфтаг
 
@@ -89,7 +89,7 @@ CRYPTCATATTRIBUTE* WINAPI CryptCATCDFEnumAttributesWithCDFTag(
 
 После успешного выполнения эта функция возвращает указатель на структуру [**крипткататтрибуте**](/windows/win32/api/mscat/ns-mscat-cryptcatattribute) . При сбое функция **крипткаткдфенуматтрибутесвискдфтаг** возвращает **пустой** указатель.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обычно эта функция вызывается в цикле для перечисления всех атрибутов члена файла каталога в CDF. Перед входом в цикл задайте  для Ппреваттр **значение NULL**. Функция возвращает указатель на первый атрибут. Задайте *ппреваттр* в качестве возвращаемого значения функции для последующих итераций цикла.
 
@@ -135,14 +135,14 @@ CRYPTCATATTRIBUTE* WINAPI CryptCATCDFEnumAttributesWithCDFTag(
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>Wintrust.dll</dt> </dl> |
 
 

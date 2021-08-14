@@ -4,12 +4,12 @@ ms.assetid: df3b6ed7-830b-4635-9295-fff05cc35891
 title: Операции Multiple-Monitor (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04427db6c91ff85706040589a89f6fdcfb3761e3
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: da4f175c136cd432223eeaaf32cf44bfbb08e724b54b8afe1dbb9717c2d79a4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105710628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117728214"
 ---
 # <a name="multiple-monitor-operations-direct3d-9"></a>Операции Multiple-Monitor (Direct3D 9)
 
@@ -27,7 +27,7 @@ ms.locfileid: "105710628"
 
 Устройства, которые не входят в первую категорию — устройства, созданные другим объектом Direct3D, созданные в другом окне фокуса и созданные для адаптера с уже полноэкранным устройством, не могут быть сброшены и остаются в состоянии потери до тех пор, пока не будет утрачен монопольный режим. В результате приложение с несколькими мониторами может размещать несколько устройств в полноэкранном режиме, но только если все эти устройства предназначены для разных адаптеров, созданы одним и тем же объектом Direct3D и совместно используют одно и то же окно фокуса.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

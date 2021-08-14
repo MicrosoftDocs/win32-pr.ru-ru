@@ -4,12 +4,12 @@ ms.assetid: eb491644-bf59-4439-9e9b-bcafde619d66
 title: System. Итемнамесортоверриде
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d79f9bb07eb15eb5d25fbfa1e95d4c0f80b35611
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 64c555007ae7bd2a0c7ca5f16e6e3ad26449942b2c7031b81a03317d0d6212a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265691"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117865887"
 ---
 # <a name="systemitemnamesortoverride"></a>System. Итемнамесортоверриде
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

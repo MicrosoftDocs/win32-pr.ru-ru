@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 7ea37ae758ec599198fc35a1fd2a4b89ff25a087
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 93180f168820acce2bf2564ef108c509713a22e68cfa16fbb8f2abeff17b5bc5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103898534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118313526"
 ---
 # <a name="swbemprivilegesetitem-method"></a>Свбемпривилежесет. Item, метод
 
@@ -47,7 +47,7 @@ objPrivilege = .Item( _
 *ипривилеже* 
 </dt> <dd>
 
-Обязательный. Одна из констант WMI из группы [**вбемпривилежеенум**](/windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemprivilegeenum) . Эти константы по сути представляют собой целые числа, представляющие определенные привилегии. Например, чтобы получить привилегию, позволяющую завершить работу системы Windows, используйте константу **вбемпривилежешутдовн** или числовой эквивалент 23 (0x17).
+Обязательный. Одна из констант WMI из группы [**вбемпривилежеенум**](/windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemprivilegeenum) . Эти константы по сути представляют собой целые числа, представляющие определенные привилегии. например, чтобы получить право на завершение работы Windowsной системы, используйте константу **вбемпривилежешутдовн** или числовой эквивалент, равный 23 (0x17).
 
 </dd> </dl>
 
@@ -94,7 +94,7 @@ Next
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

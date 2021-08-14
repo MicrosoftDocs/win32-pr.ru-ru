@@ -4,12 +4,12 @@ ms.assetid: 9c66c71d-fdfd-42ae-895c-2fc842b5bc7a
 title: Функции Wait
 ms.topic: article
 ms.date: 06/25/2020
-ms.openlocfilehash: f5a21b0d95a316b926fcaad037004edc8c418246
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 15bfc37dcd8fe541c14b9a0693c7b743cae6ed3e548c418baf0585f078e6d59a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117764968"
 ---
 # <a name="wait-functions"></a>Функции Wait
 
@@ -22,7 +22,7 @@ ms.locfileid: "105664064"
 -   [Ожидание адреса](#waiting-on-an-address)
 -   [Функции ожидания и интервалы времени ожидания](#wait-functions-and-time-out-intervals)
 -   [Функции ожидания и объекты синхронизации](#wait-functions-and-synchronization-objects)
--   [Функции Wait и создание окон](#wait-functions-and-creating-windows)
+-   [Функции Wait и создание Windows](#wait-functions-and-creating-windows)
 
 ## <a name="single-object-wait-functions"></a>Функции ожидания с одним объектом
 
@@ -79,7 +79,7 @@ ms.locfileid: "105664064"
 -   Для состояния таймера синхронизации задано несигнальное состояние.
 -   Функции Wait не затрагивают состояния событий ручного сброса, таймера, процесса, потока и входных объектов консоли вручную.
 
-## <a name="wait-functions-and-creating-windows"></a>Функции Wait и создание окон
+## <a name="wait-functions-and-creating-windows"></a>Функции Wait и создание Windows
 
 Необходимо соблюдать осторожность при использовании функций ожидания и кода, который напрямую или косвенно создает Windows. Если поток создает какие-либо окна, он должен обрабатывать сообщения. Широковещательные сообщения отправляются во все окна системы. Если у вас есть поток, использующий функцию Wait без интервала ожидания, система взаимоблокируется. Два примера кода, который косвенно создает окна — DDE и функция **CoInitialize** . Поэтому при наличии потока, создающего окна, используйте [**мсгваитформултиплеобжектс**](/windows/desktop/api/Winuser/nf-winuser-msgwaitformultipleobjects) или [**мсгваитформултиплеобжектсекс**](/windows/desktop/api/Winuser/nf-winuser-msgwaitformultipleobjectsex), а не другие функции Wait.
 

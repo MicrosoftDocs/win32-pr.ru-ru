@@ -4,16 +4,16 @@ description: Иажентчарактерекс Жетаутопопупмену
 ms.assetid: c29bfd6e-c7eb-426e-be38-2fa0bdb13211
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0c7a3b8d1075c596f27af17df34c7cb94d8a1ab
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d2b9e23f9c8d9f6fefcc7b2606ebd18ab31ff93c8f8f82c1faf692f92545662d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986678"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118477982"
 ---
 # <a name="iagentcharacterexgetautopopupmenu"></a>Иажентчарактерекс:: Жетаутопопупмену
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT GetAutoPopupMenu(
@@ -38,14 +38,14 @@ HRESULT GetAutoPopupMenu(
 
 Это свойство применяется только к символу, используемому вашим клиентским приложением. Этот параметр не влияет на другие клиенты символов или других символов клиентского приложения.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [**Иажентчарактерекс:: сетаутопопупмену**](iagentcharacterex--setautopopupmenu.md), [ **иажентчарактерекс:: шовпопупмену**](iagentcharacterex--showpopupmenu.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

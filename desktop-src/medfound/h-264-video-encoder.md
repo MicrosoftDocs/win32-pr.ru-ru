@@ -4,12 +4,12 @@ ms.assetid: 4d4c768f-b76a-40ca-8736-2f592a4f4cc4
 title: Кодировщик видео H. 264
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5631239e9db0ddf078848bc3c4a04282e7e79990
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 04d1c1c8af4487d02cbb8405ebf341458424074a3d8c3cae53bff4207f73490c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117879098"
 ---
 # <a name="h264-video-encoder"></a>Кодировщик видео H. 264
 
@@ -116,14 +116,14 @@ ms.locfileid: "105711356"
 
 Требования к кодеку для ХКК кодировщика см. в разделе " **сертифицированный аппаратный кодировщик** " ниже.
 
-В Windows 7 поддерживаются следующие свойства.
+в Windows 7 поддерживаются следующие свойства.
 
 
 
 | Свойство                                                                              | Описание                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**CODECAPI_AVEncCommonRateControlMode**](../directshow/avenccommonratecontrolmode-property.md) | Задает режим управления скоростью. См. заметки. Режим по умолчанию — это неограниченная переменная с битовой скоростью (VBR).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| [**CODECAPI_AVEncCommonQuality**](../directshow/avenccommonquality-property.md)                 | Задает уровень качества. Это свойство применяется, когда режим управления скоростью имеет значение VBR на основе качества (**eAVEncCommonRateControlMode_Quality**). Допустимый диапазон: 1 – 100. Значение по умолчанию — 70. <br/> Чтобы задать этот параметр, задайте свойство перед вызовом [**имфтрансформ:: сетаутпуттипе**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-setoutputtype). <br/> Чтобы задать этот параметр в Windows 7, задайте свойство перед вызовом [**имфтрансформ:: сетаутпуттипе**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-setoutputtype). Кодировщик игнорирует изменения после установки типа выходных данных. <br/> В Windows 8 это свойство можно задать в любое время во время кодирования. Изменения применяются, начиная со следующего входного кадра. <br/> Внутренне кодировщик преобразует это свойство в значение [авенквидеоенкодекп](codecapi-avencvideoencodeqp.md) . <br/> |
+| [**CODECAPI_AVEncCommonQuality**](../directshow/avenccommonquality-property.md)                 | Задает уровень качества. Это свойство применяется, когда режим управления скоростью имеет значение VBR на основе качества (**eAVEncCommonRateControlMode_Quality**). Допустимый диапазон: 1 – 100. Значение по умолчанию — 70. <br/> Чтобы задать этот параметр, задайте свойство перед вызовом [**имфтрансформ:: сетаутпуттипе**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-setoutputtype). <br/> чтобы задать этот параметр в Windows 7, задайте свойство перед вызовом [**имфтрансформ:: сетаутпуттипе**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-setoutputtype). Кодировщик игнорирует изменения после установки типа выходных данных. <br/> в Windows 8 это свойство можно задать в любое время во время кодирования. Изменения применяются, начиная со следующего входного кадра. <br/> Внутренне кодировщик преобразует это свойство в значение [авенквидеоенкодекп](codecapi-avencvideoencodeqp.md) . <br/> |
 
 
 
@@ -164,7 +164,7 @@ ms.locfileid: "105711356"
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/DirectShow/avenccommonmeanbitrate-property">CODECAPI_AVEncCommonMeanBitRate</a></td>
-<td>Задает среднюю скорость потока в битах в секунду. Это свойство не учитывается, если режим управления скоростью имеет значение <strong>eAVEncCommonRateControlMode_Quality</strong>. <br/> Допустимый диапазон: [1... 2 ³ ² – 1]. <br/> В режимах CBR и неограниченных VBR средняя скорость определяет конечный размер файла. В режиме CBR средняя скорость потока — это также скорость, с которой сжатые биты преобразуются из &quot; сегмента утечки. &quot; (Дополнительные сведения см. в разделе <a href="the-leaky-bucket-buffer-model.md">модель буфера для сегмента утечки</a>.) <br/> В Windows 7 средняя скорость потока определяется атрибутом <a href="mf-mt-avg-bitrate-attribute.md">MF_MT_AVG_BITRATE</a> типа носителя. <br/> В Windows 8 можно задать среднюю скорость потока, используя либо атрибут <a href="mf-mt-avg-bitrate-attribute.md">MF_MT_AVG_BITRATE</a> , либо свойство <a href="/windows/desktop/DirectShow/avenccommonmeanbitrate-property">CODECAPI_AVEncCommonMeanBitRate</a> . Если заданы оба значения, CODECAPI_AVEncCommonMeanBitRate переопределений. В Windows 8 можно задать среднюю скорость потока во время кодирования. При изменении частоты разрядов кодировщик использует адаптивную кодировку.<br/></td>
+<td>Задает среднюю скорость потока в битах в секунду. Это свойство не учитывается, если режим управления скоростью имеет значение <strong>eAVEncCommonRateControlMode_Quality</strong>. <br/> Допустимый диапазон: [1... 2 ³ ² – 1]. <br/> В режимах CBR и неограниченных VBR средняя скорость определяет конечный размер файла. В режиме CBR средняя скорость потока — это также скорость, с которой сжатые биты преобразуются из &quot; сегмента утечки. &quot; (Дополнительные сведения см. в разделе <a href="the-leaky-bucket-buffer-model.md">модель буфера для сегмента утечки</a>.) <br/> в Windows 7 средняя скорость потока определяется атрибутом <a href="mf-mt-avg-bitrate-attribute.md">MF_MT_AVG_BITRATE</a> для типа носителя. <br/> в Windows 8 можно задать среднюю скорость потока с помощью атрибута <a href="mf-mt-avg-bitrate-attribute.md">MF_MT_AVG_BITRATE</a> или свойства <a href="/windows/desktop/DirectShow/avenccommonmeanbitrate-property">CODECAPI_AVEncCommonMeanBitRate</a> . Если заданы оба значения, CODECAPI_AVEncCommonMeanBitRate переопределений. в Windows 8 можно задать среднюю скорость потока во время кодирования. При изменении частоты разрядов кодировщик использует адаптивную кодировку.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/DirectShow/avenccommonqualityvsspeed-property">CODECAPI_AVEncCommonQualityVsSpeed</a></td>
@@ -229,7 +229,7 @@ ms.locfileid: "105711356"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Кодировщик поддерживает следующие режимы управления скоростью.
 
@@ -248,20 +248,20 @@ ms.locfileid: "105711356"
 
 Для CBR и режима с ограничением VBR требуется Windows 8.
 
-В Windows 8 кодировщик устанавливает следующие атрибуты в выходных данных:
+в Windows 8 кодировщик устанавливает следующие атрибуты в выходных данных:
 
 -   [MFSampleExtension_DecodeTimestamp](mfsampleextension-decodetimestamp.md)
 -   [MFSampleExtension_VideoEncodePictureType](mfsampleextension-videoencodepicturetype.md)
 -   [MFSampleExtension_VideoEncodeQP](mfsampleextension-videoencodeqp.md)
 
 > [!Note]  
-> Предыдущая версия документации неправильно объявила, что кодировщик поддерживается в Windows Server 2008 R2.
+> предыдущая версия документации неправильно объявила, что кодировщик поддерживается на Windows Server 2008 R2.
 
  
 
 ### <a name="multithreading"></a>Многопоточность
 
-В Windows 8 кодировщик поддерживает два режима кодирования:
+в Windows 8 кодировщик поддерживает два режима кодирования:
 
 -   **Кодирование фрагмента.** В этом режиме срезы кодируются параллельно. Каждый срез кодируется в другом потоке. Этот режим имеет низкую задержку, так как один рисунок кодируется параллельно. Однако этот подход не масштабируется по мере увеличения числа ядер, так как количество срезов ограничено количеством макроблокк строк во входном изображении.
 -   **Многокадровая кодировка.** В этом режиме кодировщик принимает несколько кадров входных данных и кодирует их параллельно. Этот режим лучше масштабируется в многоядерной среде, но в нем появились дополнительные задержки.
@@ -270,7 +270,7 @@ ms.locfileid: "105711356"
 
 Чтобы задать число рабочих потоков, используемых кодировщиком, задайте свойство [CODECAPI_AVEncNumWorkerThreads](codecapi-avencnumworkerthreads.md) .
 
-В Windows 7 кодировщик всегда использует кодирование среза.
+в Windows 7 кодировщик всегда использует кодирование среза.
 
 ### <a name="certified-hardware-encoder"></a>Сертифицированный аппаратный кодировщик
 
@@ -278,7 +278,7 @@ ms.locfileid: "105711356"
 
 Ниже приведен набор обязательных и необязательных свойств **икодекапи** для кодировщиков, которые проходят сертификацию кодировщика ХКК.
 
-Следующие свойства **икодекапи** для Windows 8 и Windows 8.1 являются обязательными:
+требуются следующие свойства Windows 8 и Windows 8.1 **икодекапи** :
 
 -   [CODECAPI_AVEncCommonRateControlMode](../directshow/avenccommonratecontrolmode-property.md)
 -   [CODECAPI_AVEncCommonQuality](../directshow/avenccommonquality-property.md)
@@ -290,7 +290,7 @@ ms.locfileid: "105711356"
 -   [CODECAPI_AVEncVideoEncodeQP](codecapi-avencvideoencodeqp.md)
 -   [CODECAPI_AVEncVideoForceKeyFrame](codecapi-avencvideoforcekeyframe.md)
 
-Следующие свойства Windows 8.1 **икодекапи** являются необязательными, но проверяются в ХКК, если они поддерживаются.
+следующие свойства Windows 8.1 **икодекапи** являются необязательными, но проверяются в хкк, если они поддерживаются.
 
 -   [CODECAPI_AVEncVideoMinQP](codecapi-avencvideominqp.md)
 -   [CODECAPI_AVEncVideoLTRBufferControl](codecapi-avencvideoltrbuffercontrol.md)
@@ -306,7 +306,7 @@ ms.locfileid: "105711356"
 -   [CODECAPI_AVEncVideoTemporalLayerCount](codecapi-avencvideotemporallayercount.md) (динамический)
 -   [CODECAPI_AVEncH264CABACEnable](codecapi-avench264cabacenable.md)
 
-Следующие свойства **икодекапи** для Windows 8 и Windows 8.1 являются необязательными, но проверяются в ХКК, если они поддерживаются.
+следующие свойства Windows 8 и Windows 8.1 **икодекапи** являются необязательными, но проверяются в хкк, если они поддерживаются.
 
 -   [CODECAPI_AVEncVideoTemporalLayerCount](codecapi-avencvideotemporallayercount.md) (статический)
 -   [CODECAPI_AVLowLatencyMode](codecapi-avlowlatencymode.md)
@@ -315,13 +315,13 @@ ms.locfileid: "105711356"
 
 -   [CODECAPI_AVEncMPVDefaultBPictureCount](../directshow/avencmpvdefaultbpicturecount-property.md)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                               |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                               |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                |
 | DLL<br/>                      | <dl> <dt>Mfh264enc.dll</dt> </dl> |
 

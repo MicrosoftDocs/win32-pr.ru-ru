@@ -5,23 +5,23 @@ ms.assetid: eb5c8606-d3f0-4c33-9035-7b7b1369cb0d
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9911397c1de3521ccb5a275405416d8b88c1fa6f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 77390a6aa67e946de6d69dd3d1bc28a76907b7ad31b497d4921c7a2d7493c328
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118361732"
 ---
 # <a name="obtaining-accounting-properties"></a>Получение свойств учета
 
 > [!Note]  
-> Служба проверки подлинности в Интернете (IAS) переименовала сервер политики сети (NPS), начиная с Windows Server 2008. Содержимое этого раздела относится как к IAS, так и к NPS. По всему тексту NPS используется для ссылки на все версии службы, включая версии, изначально называемые IAS.
+> служба проверки подлинности в интернете (IAS) переименовала сервер политики сети (NPS), начиная с Windows Server 2008. Содержимое этого раздела относится как к IAS, так и к NPS. По всему тексту NPS используется для ссылки на все версии службы, включая версии, изначально называемые IAS.
 
- 
+ 
 
 Объект Account является одним из объектов в коллекции обработчиков запросов. Значением перечисления для коллекции обработчиков запросов является **свойство \_ службы IAS \_ рекуессандлерс \_ Collection**. Имя обработчика для объекта учета — Microsoft Accounting.
 
-Следующий Visual Basic код обращается к свойствам, доступным в обработчике объектов учета.
+следующий Visual Basic код обращается к свойствам, доступным в обработчике объектов учета.
 
 
 ```VB
@@ -43,7 +43,7 @@ vtTemp = sdoRequestHandler.GetProperty(PROPERTY_ACCOUNTING_LOG_OPEN_NEW_SIZE)
 
 Получив объект Microsoft account, получите интерфейс [**исдо**](/windows/desktop/api/sdoias/nn-sdoias-isdo) для объекта с помощью [**IUnknown:: QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)). В разделе [Получение ПОЛЬЗОВАТЕЛЬСКОГО SDO](/windows/desktop/Nps/sdo-retrieving-a-user-sdo) содержится код C++, демонстрирующий получение интерфейса **исдо** для объекта. Затем можно использовать метод [**исдо::**](/windows/desktop/api/sdoias/nf-sdoias-isdo-getproperty) GetObject для получения значений свойств для объекта Microsoft account.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -65,6 +65,6 @@ vtTemp = sdoRequestHandler.GetProperty(PROPERTY_ACCOUNTING_LOG_OPEN_NEW_SIZE)
 [**иаспропертиес**](/windows/desktop/api/sdoias/ne-sdoias-iasproperties)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

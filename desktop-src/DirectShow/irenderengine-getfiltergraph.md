@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 4c4750e6127c0d57758e46b2309f4d91afc110e0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8208d886cd23dab797a9f89d3c050c9f46eff60c8cdd78c27c89dae7396c557a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105674849"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118397585"
 ---
 # <a name="irenderenginegetfiltergraph-method"></a>Метод Ирендеренгине:: Жетфилтерграф
 
@@ -68,9 +68,9 @@ HRESULT GetFilterGraph(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Используйте метод [**ирендеренгине:: коннектфронтенд**](irenderengine-connectfrontend.md) для создания внешнего интерфейса графа фильтра. Для предварительного просмотра используйте [**ирендеренгине:: рендераутпутпинс**](irenderengine-renderoutputpins.md) для завершения работы со графом. Для выходных данных файла Подключите внешний интерфейс к комбинации модуля записи мультиплексора или файла. Дополнительные сведения см. [в разделе Подготовка проекта к просмотру](rendering-a-project.md).
+Используйте метод [**ирендеренгине:: коннектфронтенд**](irenderengine-connectfrontend.md) для создания внешнего интерфейса графа фильтра. Для предварительного просмотра используйте [**ирендеренгине:: рендераутпутпинс**](irenderengine-renderoutputpins.md) для завершения работы со графом. Для выходных данных файла Подключите внешний интерфейс к комбинации модуля записи мультиплексора или файла. Дополнительные сведения см. [в разделе подготовка Project](rendering-a-project.md).
 
 Полученный граф можно запустить, приостановить, остановить и найти. Однако скорость воспроизведения не может быть изменена.
 
@@ -82,17 +82,17 @@ HRESULT GetFilterGraph(
  
 
 > [!Note]  
-> Чтобы получить Кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (SP1).
+> чтобы получить кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (sp1).
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Кедит. h</dt> </dl>      |
+| Заголовок<br/>  | <dl> <dt>Кедит. h</dt> </dl>      |
 | Библиотека<br/> | <dl> <dt>Стрмиидс. lib</dt> </dl> |
 
 

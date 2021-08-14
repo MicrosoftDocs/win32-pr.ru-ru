@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: ef2f502d30116def68aa43269b3020d404ce177d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09ace233291d5eac285ac1115866a54cb9792c85aefbb8faa5a2d1f6c37393e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117857585"
 ---
 # <a name="shelllinkobjectgeticonlocation-method"></a>Шелллинкобжект. Жетиконлокатион, метод
 
@@ -42,7 +42,7 @@ iRetVal = ShellLinkObject.GetIconLocation(
 *спас* \[ заполняет\]
 </dt> <dd>
 
-Тип: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr) \** _
+Тип: **[ **BSTR**](/previous-versions/windows/desktop/automat/bstr)\***
 
 При возврате из этого метода он содержит полный путь к файлу, содержащему значок.
 
@@ -50,15 +50,15 @@ iRetVal = ShellLinkObject.GetIconLocation(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Тип: _*Integer \**_
+Тип: **Integer \***
 
-Возвращает индекс значка в файле, указанном параметром _sPath *.
+Возвращает индекс значка в файле, указанном параметром *спас*.
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере показано правильное использование этого метода для JScript, VBScript и Visual Basic.
+в следующем примере показано правильное использование этого метода для JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -169,13 +169,13 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>                                           |
+| Минимальная версия клиента<br/> | Windows 2000 Professional с SP3 \[ только для настольных приложений\]<br/>                                           |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                          |
 | Заголовок<br/>                   | <dl> <dt>Шлобж \_ Core. h (включение шлдисп. h)</dt> </dl> |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                        |

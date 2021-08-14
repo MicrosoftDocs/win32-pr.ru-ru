@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 6dd0d1159132e594b6d48ea6799da5846eeb626e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 8023b9db00834b10fcce84510df5ccbafec0c7a2f6654ef73d71754e7c563044
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108103802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118365584"
 ---
 # <a name="iespstart-method"></a>Метод ИЕСП:: Start
 
@@ -59,8 +59,8 @@ HRESULT STDMETHODCALLTYPE Start(
 |-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_запись нмерр \_ приостановлена**</dt> </dl> | Запись приостановлена и должна быть остановлена, прежде чем ее можно будет перезапустить. Вызовите [ИЕСП:: останавливаться](iesp-stop.md) , чтобы прерывать запись.<br/> |
 | <dl> <dt>**НМЕРР \_ запись**</dt> </dl>       | Запись уже запущена.<br/>                                                                                             |
-| <dl> <dt>**НМЕРР \_ не \_ подключен**</dt> </dl>  | НПП не подключен к сети. Вызовите [ИЕСП:: Connect](iesp-connect.md) , чтобы подключить НПП к сети.<br/>          |
-| <dl> <dt>**НМЕРР \_ не \_ ESP**</dt> </dl>        | НПП подключается к сети, но не с методом [ИЕСП:: Connect](iesp-connect.md) .<br/>                              |
+| <dl> <dt>**НМЕРР \_ не \_ подключен**</dt> </dl>  | НПП не подключен к сети. вызовите [иесп:: Подключение](iesp-connect.md) , чтобы подключить нпп к сети.<br/>          |
+| <dl> <dt>**НМЕРР \_ не \_ ESP**</dt> </dl>        | нпп подключается к сети, но не с помощью метода [иесп:: Подключение](iesp-connect.md) .<br/>                              |
 
 
 
@@ -68,7 +68,7 @@ HRESULT STDMETHODCALLTYPE Start(
 
 ## <a name="remarks"></a>Remarks
 
-Расположение [*файла записи*](c.md) указывается в реестре Windows, но для изменения расположения каталога можно использовать сетевой монитор.
+расположение [*файла записи*](c.md) указывается в реестре Windows, но для изменения расположения каталога можно использовать сетевой монитор.
 
 При перезапуске записи с помощью методов ИЕСП:: Start и [ИЕСП:: останавливают](iesp-stop.md) необходимо вызвать метод [ИЕСП:: Configure](iesp-configure.md) для повторной настройки подключения при каждом вызове ИЕСП:: Start для перезапуска записи данных. При запуске и отмене записи с помощью этих трех методов создается новый файл записи при каждом запуске записи.
 
@@ -77,7 +77,7 @@ HRESULT STDMETHODCALLTYPE Start(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -90,7 +90,7 @@ HRESULT STDMETHODCALLTYPE Start(
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 
@@ -100,7 +100,7 @@ HRESULT STDMETHODCALLTYPE Start(
 [ИЕСП:: Configure](iesp-configure.md)
 </dt> <dt>
 
-[ИЕСП:: Connect](iesp-connect.md)
+[иесп:: Подключение](iesp-connect.md)
 </dt> <dt>
 
 [ИЕСП::P Аусе](iesp-pause.md)

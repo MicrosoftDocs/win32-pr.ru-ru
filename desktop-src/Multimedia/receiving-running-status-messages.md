@@ -8,27 +8,27 @@ keywords:
 - запись звука MIDI, состояние выполнения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0a4d12a19f525a6fa673747063774bf4507d65b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8f4d782e1e25c718ddd177d1d9baf471d0715d70680b65920052e85d6fffc551
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410649"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118371349"
 ---
 # <a name="receiving-running-status-messages"></a>Получение сообщений Running-Status
 
 *Стандартная спецификация файлов MIDI 1,0* позволяет использовать *состояние выполнения* , если сообщение имеет тот же самый байт состояния, что и предыдущее сообщение. Если используется состояние выполнения, то байт состояния последующих сообщений можно опустить. Все драйверы устройств ввода MIDI необходимы для расширения сообщений, использующих состояние выполнения, в полные сообщения, чтобы всегда отправлять сообщения MIDI от драйвера устройства ввода MIDI.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Запись звука MIDI](recording-midi-audio.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

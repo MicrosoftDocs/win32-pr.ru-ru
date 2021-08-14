@@ -4,16 +4,16 @@ ms.assetid: 708212ca-d148-4079-8052-3bf6696a33ab
 title: Отображение диалоговых окон записи VFW
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45b8b51b164630a8fa6e91b2e68ca8a9a3a875b6
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 2713cc4d2eba52626c66974eed23f2c1752a1268fea78a30ca2bc9d7babc3a27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103805387"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117821142"
 ---
 # <a name="display-vfw-capture-dialog-boxes"></a>Отображение диалоговых окон записи VFW
 
-Устройство записи, которое по-прежнему использует драйвер Video для Windows (VFW), может поддерживать любое из следующих трех диалоговых окон, которые используются для настройки устройства.
+устройство записи, которое по-прежнему использует драйвер видео для Windows (VFW), может поддерживать любое из следующих трех диалоговых окон, которые используются для настройки устройства.
 
 
 
@@ -58,7 +58,7 @@ pControl->Run();
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: e61208f15772a43138e6cd7a38fd6327445bdfa5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cd16ee40bfb480b3e7eacef2bc4681e61fdb24ace1ac68985e2016ce11b7c0e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104985821"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118219633"
 ---
 # <a name="taskbar-thumbnail-toolbar-sample"></a>Пример: панель инструментов эскизов на панели задач
 
@@ -27,7 +27,7 @@ ms.locfileid: "104985821"
 -   [Загрузка образца](#downloading-the-sample)
 -   [Создание примера](#building-the-sample)
 -   [Запуск примера](#running-the-sample)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="description"></a>Описание
 
@@ -37,7 +37,7 @@ ms.locfileid: "104985821"
 -   [**ITaskbarList3:: Сумббарсетимажелист**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-thumbbarsetimagelist)
 -   Структура [**сумббуттон**](/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-thumbbutton)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -63,25 +63,25 @@ ms.locfileid: "104985821"
 1.  Откройте окно командной строки и перейдите в каталог проекта **таскбарсумбнаилтулбар** .
 2.  Введите `msbuild ThumbnailToolbar.sln`.
 
-Чтобы создать пример с использованием Microsoft Visual Studio (предпочтительно):
+чтобы создать пример с использованием Microsoft Visual Studio (предпочтительно):
 
-1.  Откройте проводник Windows и перейдите в каталог проекта **таскбарсумбнаилтулбар** .
+1.  откройте обозреватель Windows и перейдите в каталог проекта **таскбарсумбнаилтулбар** .
 2.  Дважды щелкните значок файла Сумбнаилтулбар. sln, чтобы открыть проект в Visual Studio.
-3.  В меню **Сборка** выберите пункт **построить решение**.
+3.  В меню **Построение** выберите пункт **Построить решение**.
 
 ## <a name="running-the-sample"></a>Запуск примера
 
-1.  Перейдите в каталог, содержащий новый исполняемый файл (например, `C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\WinUI\Shell\AppShellIntegration\TaskbarThumbnailToolbar\Debug` ), с помощью командной строки или проводника Windows.
+1.  перейдите в каталог, содержащий новый исполняемый файл (например, `C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\WinUI\Shell\AppShellIntegration\TaskbarThumbnailToolbar\Debug` ), с помощью командной строки или обозревателя Windows.
 
     -   При использовании командной строки введите `ThumbnailToolbar.exe` .
-    -   Если используется проводник Windows, дважды щелкните значок для ThumbnailToolbar.exe.
+    -   если используется обозреватель Windows, дважды щелкните значок ThumbnailToolbar.exe.
 
     Откроется новое окно со связанной кнопкой панели задач.
 
 2.  Наведите указатель мыши на кнопку **сумбнаилтулбар** на панели задач, чтобы отображалось окно предварительного просмотра. Щелкните одну из трех кнопок (зеленый, желтый, красный), показанную на панели инструментов предварительного просмотра.
 3.  Выберите **выход** в меню **файл** окна, чтобы завершить работу программы.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

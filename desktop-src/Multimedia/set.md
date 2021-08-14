@@ -3,7 +3,7 @@ title: команда Set
 description: Команда Set устанавливает параметры управления для устройства. Эта команда распознает аудио компакт-диск, цифровое видео, устройство MIDI Sequencer, ВИДЕОМАГНИТОФОН, видеодиск, наложение видео и аудио-файлы.
 ms.assetid: 1ec4d84e-372a-4b6d-b694-f5afb41f90b2
 keywords:
-- Задание команд мультимедиа Windows
+- команда set Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 914743db038b0cae32b53fa79b7696ddba1ad05b
-ms.sourcegitcommit: 8276af9231bdbf5a7334299f0d13fc8ff069a065
+ms.openlocfilehash: 75f407a1e360cfbd6407f7ada29192addece7f7a968a2437326dc091fe0d9522
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "105674510"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118371016"
 ---
 # <a name="set-command"></a>команда Set
 
@@ -544,7 +544,7 @@ _stprintf_s(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При создании файла для хранения данных определяются некоторые свойства аудио-данных с волнами. Эти свойства описывают, как данные структурированы в файле и не могут быть изменены после начала записи. Эти свойства определяются в следующем списке.
 
@@ -563,7 +563,7 @@ _stprintf_s(
 set mysound time format ms bitspersample 8 channels 1 samplespersec 11025
 ```
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

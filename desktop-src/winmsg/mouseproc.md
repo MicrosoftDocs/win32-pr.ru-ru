@@ -32,12 +32,12 @@ api_name: ''
 targetos: Windows
 req.typenames: ''
 req.redist: ''
-ms.openlocfilehash: abdd74b5fed93e2c2ddbc8d037a657b779a62a05
-ms.sourcegitcommit: 61bde60d4c3bc09defc3dcdb64c0ddadf52b214e
+ms.openlocfilehash: fa1528ce2910e563e3fe930fe19960aa43b437b22c53c03d0febc51b98bcc55b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "105700833"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118200695"
 ---
 # <a name="mouseproc-function"></a>Функция Маусепрок
 
@@ -93,7 +93,7 @@ LRESULT CALLBACK MouseProc(
 Если *нкоде* больше или равен нулю и процедура обработчика не обработала сообщение, настоятельно рекомендуется вызвать метод **каллнекссукекс** и вернуть возвращаемое значение. в противном случае другие приложения, которые установили [WH_MOUSEные](about-hooks.md) обработчики, не будут получать уведомления о ловушках и могут вести себя неправильно.
 Если процедура обработки сообщения обрабатывает сообщение, она может вернуть ненулевое значение, чтобы система не могла передать сообщение в целевую процедуру окна.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение устанавливает процедуру-обработчик, указывая тип обработчика WH_MOUSE и указатель на процедуру-обработчик в вызове функции **сетвиндовшукекс** .
 

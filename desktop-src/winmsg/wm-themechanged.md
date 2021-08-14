@@ -4,12 +4,12 @@ ms.assetid: 1a4051ac-cc6e-4520-ab66-d0a41a8a4c73
 title: Сообщение WM_THEMECHANGED (Winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7bc15ab64126ff8972b858ef43ddd4d92cd62f58
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b070cb492fa5db94acb97cd07f3de87455189d542aaaad2a51a3e0ecc6b4268d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103809550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118199913"
 ---
 # <a name="wm_themechanged-message"></a>\_Сообщение СЕМЕЧАНЖЕД WM
 
@@ -46,7 +46,7 @@ ms.locfileid: "103809550"
 
 Если приложение обрабатывает это сообщение, оно должно вернуть ноль.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Окно получает это сообщение через функцию [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) .
 
@@ -61,15 +61,15 @@ ms.locfileid: "103809550"
 
 После вещания **WM \_ семечанжед** все существующие дескрипторы тем недопустимы. При получении сообщения **WM \_ семечанжед** окно, поддерживающее темы, должно освободить и повторно открыть любые существующие дескрипторы темы. Если функция [**опенсемедата**](/windows/win32/api/uxtheme/nf-uxtheme-openthemedata) возвращает **значение NULL**, окно не должно рисоваться.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Header<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

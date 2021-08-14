@@ -3,9 +3,9 @@ title: Ивмплибрарисервицес Жетлибрарибитипе, 
 description: Метод Жетлибрарибитипе возвращает интерфейс Ивмплибрари, представляющий библиотеку с указанным типом и индексом.
 ms.assetid: 2507c764-a2cf-42f9-ad44-eaf040b78891
 keywords:
-- Жетлибрарибитипе метод Windows Media Player
-- Жетлибрарибитипе метод проигрывателя Windows Media Player, интерфейс Ивмплибрарисервицес
-- Интерфейс Ивмплибрарисервицес Windows Media Player, метод Жетлибрарибитипе
+- проигрыватель Windows Media метода жетлибрарибитипе
+- проигрыватель Windows Media метода жетлибрарибитипе, интерфейс ивмплибрарисервицес
+- проигрыватель Windows Media интерфейса ивмплибрарисервицес, метод жетлибрарибитипе
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d57fcc71f912fe1ee896ec893ea8f556eeb2277
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f83d74c8c03f8b08936c3693c77e211cd87a8b42c2d020c26ee5133406a2a042
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669263"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117746212"
 ---
 # <a name="iwmplibraryservicesgetlibrarybytype-method"></a>Метод Ивмплибрарисервицес:: Жетлибрарибитипе
 
@@ -73,17 +73,17 @@ Implements IWMPLibraryServices.getLibraryByType
 
 Интерфейс **вмплиб. ивмплибрари** для возвращаемой библиотеки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Существует только одна локальная Библиотека, и библиотеки дисков доступны только на компакт-дисках с данными и DVD-дисках, содержащих мультимедийное содержимое.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 11.<br/>                                                                                    |
+| Версия<br/>   | проигрыватель Windows Media 11.<br/>                                                                                    |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

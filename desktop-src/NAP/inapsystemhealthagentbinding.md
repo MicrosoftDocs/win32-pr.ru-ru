@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d38d1331996e34c6879fc2e98ce566ce6802527a
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 38fe66a5cd6883114ff46da3e98174d299f1813e670ed5ce67ee3843dc210d18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105674665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117799189"
 ---
 # <a name="inapsystemhealthagentbinding-interface"></a>Интерфейс Инапсистемхеалсажентбиндинг
 
@@ -60,18 +60,18 @@ ms.locfileid: "105674665"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Все API-интерфейсы в этом интерфейсе будут возвращать **RPC \_ E \_ disconnected** , если напажент остановлен. После перезапуска этот объект будет автоматически восстановлен и повторно привязан к Напажент.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                      |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                      |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>Напсистемхеалсажент. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Напсистемхеалсажент. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>               |

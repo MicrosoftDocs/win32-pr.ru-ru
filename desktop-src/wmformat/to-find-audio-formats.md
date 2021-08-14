@@ -9,12 +9,12 @@ keywords:
 - звуковые потоки, форматы аудио
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d85897d4d76a3bdb1e99902eb4f52336a3ad0874
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5c596c8efc1fc5315ad68bad51676888823ac4b3518232ec948ce38b2fb77075
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104338297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118196510"
 ---
 # <a name="to-find-audio-formats"></a>Поиск форматов аудио
 
@@ -241,16 +241,16 @@ Exit:
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[**Настройка звуковых потоков**](configuring-audio-streams.md)
+[**настройка Потоки аудио**](configuring-audio-streams.md)
 </dt> <dt>
 
 [**Перечисление форматов кодеков**](to-enumerate-codec-formats.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

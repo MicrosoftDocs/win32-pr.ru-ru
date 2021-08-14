@@ -3,13 +3,13 @@ title: Получение сведений о каталоге
 description: Получение сведений о каталоге
 ms.assetid: f2ec795f-6e6f-4c0c-9332-f1e96524221a
 keywords:
-- Интернет-магазины проигрывателя Windows Media, получение сведений о каталоге
+- проигрыватель Windows Media интернет-магазинов, получение сведений о каталоге
 - Интернет-магазины, получение сведений о каталоге
 - Тип 1 Интернет-магазины, получение сведений о каталоге
-- Интернет-магазины проигрывателя Windows Media, диагностические сведения о каталогах
+- проигрыватель Windows Media интернет-магазинов, диагностические сведения о каталогах
 - Интернет-магазины, диагностические сведения о каталогах
 - Тип 1 Интернет-магазины, диагностические сведения о каталогах
-- Интернет-магазины проигрывателя Windows Media, catcomp.exe
+- проигрыватель Windows Media интернет-магазинов, catcomp.exe
 - Интернет-магазины, catcomp.exe
 - Введите 1 Интернет-магазины, catcomp.exe
 - catcomp.exe
@@ -17,12 +17,12 @@ keywords:
 - получение сведений о каталоге
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e721d6ba3e4d6b5106cf44446d4c96ed842ccd61
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ae3b28da6d2d5f5143dab0664c10d0c906f971a6a60e4fdb502f4331fa71f408
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103778263"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118570205"
 ---
 # <a name="retrieving-catalog-information"></a>Получение сведений о каталоге
 
@@ -53,9 +53,9 @@ catcomp info C:\Catalog210\catalog.wmdb track 3256
 
 
 
- 
+ 
 
- 
+ 
 
 
 

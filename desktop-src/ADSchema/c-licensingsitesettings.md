@@ -1,10 +1,10 @@
 ---
-title: Лицензирование-Site-Settings, класс
+title: лицензирование — сайт — Параметры класс
 description: Указывает на сервер лицензирования для сайта.
 ms.assetid: b1573bfc-e81b-4b94-858d-5cc274c07d1a
 ms.tgt_platform: multiple
 keywords:
-- Лицензирование-сайт — параметры-схема AD
+- схема AD для класса лицензирования-Site-Параметры
 - Схема AD класса Лиценсингситесеттингс
 topic_type:
 - apiref
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9cbc58149017a02364ab8e4d77d0233122d200b7
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 15fe1a722c0ba3f8d8a9e31b63a03ac02070e2b5358b499efb2287dbbdde2832
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105654756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118423085"
 ---
-# <a name="licensing-site-settings-class"></a>Лицензирование-Site-Settings, класс
+# <a name="licensing-site-settings-class"></a>лицензирование — сайт — Параметры класс
 
 Указывает на сервер лицензирования для сайта.
 
@@ -29,7 +29,7 @@ ms.locfileid: "105654756"
 
 | Ввод | Значение |
 |-------------------|--------------------------------------|
-| CN                | Лицензирование-Site-Settings              |
+| CN                | лицензирование — сайт — Параметры              |
 | LDAP-отображаемое имя | лиценсингситесеттингс                |
 | Привилегия обновления  | \-                                   |
 | Частота обновления  | \-                                   |
@@ -60,7 +60,7 @@ ms.locfileid: "105654756"
 | Governs-Id                  | 1.2.840.113556.1.5.78                                                                        |
 | По умолчанию-скрытие значения        | 1                                                                                            |
 | RDN-Атри-ID                  | [**Common-Name**](a-cn.md)<br/>                                                       |
-| Подкласс                 | [**Приложение-сайт — параметры**](c-applicationsitesettings.md)<br/>                    |
+| Подкласс                 | [**приложение — сайт — Параметры**](c-applicationsitesettings.md)<br/>                    |
 | Возможные старшие          | [**Сайт**](c-site.md)                                                                       |
 | Вспомогательные классы           | \-                                                                                           |
 | NT-Security-дескриптор      | О:БАГ: BAD: S:                                                                                 |
@@ -69,9 +69,9 @@ ms.locfileid: "105654756"
 
 
 
-## <a name="windows-2000-server-attributes"></a>Атрибуты сервера Windows 2000
+## <a name="windows-2000-server-attributes"></a>атрибуты сервера Windows 2000
 
-Этот класс содержит следующие атрибуты для сервера Windows 2000:
+этот класс содержит следующие атрибуты для сервера Windows 2000:
 
 
 
@@ -83,7 +83,7 @@ ms.locfileid: "105654756"
 | [**Allowed-Attributes-эффективен**](a-allowedattributeseffective.md)      | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Allowed-Child-classes**](a-allowedchildclasses.md)                    | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Allowed-Child-classes-эффективен**](a-allowedchildclasseseffective.md) | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
-| [**Имя приложения**](a-applicationname.md)                             | Неверно     | [**Приложение-сайт — параметры**](c-applicationsitesettings.md)<br/> |
+| [**Имя приложения**](a-applicationname.md)                             | Неверно     | [**приложение — сайт — Параметры**](c-applicationsitesettings.md)<br/> |
 | [**Плацдарм-Server-List-BL**](a-bridgeheadserverlistbl.md)             | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Каноническое имя**](a-canonicalname.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Common-Name**](a-cn.md)                                               | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
@@ -99,7 +99,7 @@ ms.locfileid: "105654756"
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)             | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                 | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
-| [**Тип экземпляра**](a-instancetype.md)                                   | True      | [**Вверх**](c-top.md)<br/>                                           |
+| [**Тип экземпляра**](a-instancetype.md)                                   | Верно      | [**Вверх**](c-top.md)<br/>                                           |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)             | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Удалено**](a-isdeleted.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
@@ -112,11 +112,11 @@ ms.locfileid: "105654756"
 | [**MS-DS-Consistencу-Guid**](a-ms-ds-consistencyguid.md)                 | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                   | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
-| [**Список уведомлений**](a-notificationlist.md)                           | Неверно     | [**Приложение-сайт — параметры**](c-applicationsitesettings.md)<br/> |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                  | True      | [**Вверх**](c-top.md)<br/>                                           |
+| [**Список уведомлений**](a-notificationlist.md)                           | Неверно     | [**приложение — сайт — Параметры**](c-applicationsitesettings.md)<br/> |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                  | Верно      | [**Вверх**](c-top.md)<br/>                                           |
 | [**Obj-расп-имя**](a-distinguishedname.md)                              | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
-| [**Объект — Категория**](a-objectcategory.md)                               | True      | [**Вверх**](c-top.md)<br/>                                           |
-| [**Объектный класс**](a-objectclass.md)                                     | True      | [**Вверх**](c-top.md)<br/>                                           |
+| [**Объект — Категория**](a-objectcategory.md)                               | Верно      | [**Вверх**](c-top.md)<br/>                                           |
+| [**Объектный класс**](a-objectclass.md)                                     | Верно      | [**Вверх**](c-top.md)<br/>                                           |
 | [**Объект — GUID**](a-objectguid.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Версия объекта**](a-objectversion.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
@@ -137,7 +137,7 @@ ms.locfileid: "105654756"
 | [**Server-Reference-BL**](a-serverreferencebl.md)                        | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**"Показать" — "Расширенный просмотр"**](a-showinadvancedviewonly.md)            | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Site-Object-BL**](a-siteobjectbl.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
-| [**Сайт-сервер**](a-siteserver.md)                                       | Неверно     | **Лицензирование-Site-Settings**                                               |
+| [**Сайт-сервер**](a-siteserver.md)                                       | Неверно     | **лицензирование — сайт — Параметры**                                               |
 | [**Подразделы-ReFS**](a-subrefs.md)                                             | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**субсчемасубентри**](a-subschemasubentry.md)                          | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Системные флаги**](a-systemflags.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
@@ -170,7 +170,7 @@ ms.locfileid: "105654756"
 | Governs-Id                  | 1.2.840.113556.1.5.78                                                                        |
 | По умолчанию-скрытие значения        | 1                                                                                            |
 | RDN-Атри-ID                  | [**Common-Name**](a-cn.md)<br/>                                                       |
-| Подкласс                 | [**Приложение-сайт — параметры**](c-applicationsitesettings.md)<br/>                    |
+| Подкласс                 | [**приложение — сайт — Параметры**](c-applicationsitesettings.md)<br/>                    |
 | Возможные старшие          | [**Сайт**](c-site.md)                                                                       |
 | Вспомогательные классы           | \-                                                                                           |
 | NT-Security-дескриптор      | О:БАГ: BAD: S:                                                                                 |
@@ -179,9 +179,9 @@ ms.locfileid: "105654756"
 
 
 
-## <a name="windows-server-2003-attributes"></a>Атрибуты Windows Server 2003
+## <a name="windows-server-2003-attributes"></a>Windows Атрибуты сервера 2003
 
-Этот класс содержит следующие атрибуты для Windows Server 2003:
+этот класс содержит следующие атрибуты для Windows Server 2003:
 
 
 
@@ -193,7 +193,7 @@ ms.locfileid: "105654756"
 | [**Allowed-Attributes-эффективен**](a-allowedattributeseffective.md)        | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Allowed-Child-classes**](a-allowedchildclasses.md)                      | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Allowed-Child-classes-эффективен**](a-allowedchildclasseseffective.md)   | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
-| [**Имя приложения**](a-applicationname.md)                               | Неверно     | [**Приложение-сайт — параметры**](c-applicationsitesettings.md)<br/> |
+| [**Имя приложения**](a-applicationname.md)                               | Неверно     | [**приложение — сайт — Параметры**](c-applicationsitesettings.md)<br/> |
 | [**Плацдарм-Server-List-BL**](a-bridgeheadserverlistbl.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Каноническое имя**](a-canonicalname.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Common-Name**](a-cn.md)                                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
@@ -209,7 +209,7 @@ ms.locfileid: "105654756"
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                   | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
-| [**Тип экземпляра**](a-instancetype.md)                                     | True      | [**Вверх**](c-top.md)<br/>                                           |
+| [**Тип экземпляра**](a-instancetype.md)                                     | Верно      | [**Вверх**](c-top.md)<br/>                                           |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Удалено**](a-isdeleted.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
@@ -239,11 +239,11 @@ ms.locfileid: "105654756"
 | [**MS-дов-Owner-BL**](a-ownerbl.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                     | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
-| [**Список уведомлений**](a-notificationlist.md)                             | Неверно     | [**Приложение-сайт — параметры**](c-applicationsitesettings.md)<br/> |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | True      | [**Вверх**](c-top.md)<br/>                                           |
+| [**Список уведомлений**](a-notificationlist.md)                             | Неверно     | [**приложение — сайт — Параметры**](c-applicationsitesettings.md)<br/> |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | Верно      | [**Вверх**](c-top.md)<br/>                                           |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
-| [**Объект — Категория**](a-objectcategory.md)                                 | True      | [**Вверх**](c-top.md)<br/>                                           |
-| [**Объектный класс**](a-objectclass.md)                                       | True      | [**Вверх**](c-top.md)<br/>                                           |
+| [**Объект — Категория**](a-objectcategory.md)                                 | Верно      | [**Вверх**](c-top.md)<br/>                                           |
+| [**Объектный класс**](a-objectclass.md)                                       | Верно      | [**Вверх**](c-top.md)<br/>                                           |
 | [**Объект — GUID**](a-objectguid.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Версия объекта**](a-objectversion.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                 | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
@@ -264,7 +264,7 @@ ms.locfileid: "105654756"
 | [**Server-Reference-BL**](a-serverreferencebl.md)                          | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**"Показать" — "Расширенный просмотр"**](a-showinadvancedviewonly.md)              | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Site-Object-BL**](a-siteobjectbl.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
-| [**Сайт-сервер**](a-siteserver.md)                                         | Неверно     | **Лицензирование-Site-Settings**                                               |
+| [**Сайт-сервер**](a-siteserver.md)                                         | Неверно     | **лицензирование — сайт — Параметры**                                               |
 | [**Структурный объектный класс**](a-structuralobjectclass.md)                  | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Подразделы-ReFS**](a-subrefs.md)                                               | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**субсчемасубентри**](a-subschemasubentry.md)                            | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
@@ -298,7 +298,7 @@ ms.locfileid: "105654756"
 | Governs-Id                  | 1.2.840.113556.1.5.78                                                                        |
 | По умолчанию-скрытие значения        | 1                                                                                            |
 | RDN-Атри-ID                  | [**Common-Name**](a-cn.md)<br/>                                                       |
-| Подкласс                 | [**Приложение-сайт — параметры**](c-applicationsitesettings.md)<br/>                    |
+| Подкласс                 | [**приложение — сайт — Параметры**](c-applicationsitesettings.md)<br/>                    |
 | Возможные старшие          | [**Сайт**](c-site.md)                                                                       |
 | Вспомогательные классы           | \-                                                                                           |
 | NT-Security-дескриптор      | О:БАГ: BAD: S:                                                                                 |
@@ -307,9 +307,9 @@ ms.locfileid: "105654756"
 
 
 
-## <a name="windows-server-2003-r2-attributes"></a>Атрибуты Windows Server 2003 R2
+## <a name="windows-server-2003-r2-attributes"></a>Windows Атрибуты сервера 2003 R2
 
-Этот класс содержит следующие атрибуты для Windows Server 2003 R2:
+этот класс содержит следующие атрибуты для Windows Server 2003 R2:
 
 
 
@@ -321,7 +321,7 @@ ms.locfileid: "105654756"
 | [**Allowed-Attributes-эффективен**](a-allowedattributeseffective.md)        | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Allowed-Child-classes**](a-allowedchildclasses.md)                      | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Allowed-Child-classes-эффективен**](a-allowedchildclasseseffective.md)   | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
-| [**Имя приложения**](a-applicationname.md)                               | Неверно     | [**Приложение-сайт — параметры**](c-applicationsitesettings.md)<br/> |
+| [**Имя приложения**](a-applicationname.md)                               | Неверно     | [**приложение — сайт — Параметры**](c-applicationsitesettings.md)<br/> |
 | [**Плацдарм-Server-List-BL**](a-bridgeheadserverlistbl.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Каноническое имя**](a-canonicalname.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Common-Name**](a-cn.md)                                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
@@ -337,7 +337,7 @@ ms.locfileid: "105654756"
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                   | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
-| [**Тип экземпляра**](a-instancetype.md)                                     | True      | [**Вверх**](c-top.md)<br/>                                           |
+| [**Тип экземпляра**](a-instancetype.md)                                     | Верно      | [**Вверх**](c-top.md)<br/>                                           |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Удалено**](a-isdeleted.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
@@ -370,11 +370,11 @@ ms.locfileid: "105654756"
 | [**Мссфу-30-POSIX-член-of**](a-mssfu30posixmemberof.md)                  | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                     | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
-| [**Список уведомлений**](a-notificationlist.md)                             | Неверно     | [**Приложение-сайт — параметры**](c-applicationsitesettings.md)<br/> |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | True      | [**Вверх**](c-top.md)<br/>                                           |
+| [**Список уведомлений**](a-notificationlist.md)                             | Неверно     | [**приложение — сайт — Параметры**](c-applicationsitesettings.md)<br/> |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | Верно      | [**Вверх**](c-top.md)<br/>                                           |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
-| [**Объект — Категория**](a-objectcategory.md)                                 | True      | [**Вверх**](c-top.md)<br/>                                           |
-| [**Объектный класс**](a-objectclass.md)                                       | True      | [**Вверх**](c-top.md)<br/>                                           |
+| [**Объект — Категория**](a-objectcategory.md)                                 | Верно      | [**Вверх**](c-top.md)<br/>                                           |
+| [**Объектный класс**](a-objectclass.md)                                       | Верно      | [**Вверх**](c-top.md)<br/>                                           |
 | [**Объект — GUID**](a-objectguid.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Версия объекта**](a-objectversion.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                 | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
@@ -395,7 +395,7 @@ ms.locfileid: "105654756"
 | [**Server-Reference-BL**](a-serverreferencebl.md)                          | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**"Показать" — "Расширенный просмотр"**](a-showinadvancedviewonly.md)              | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Site-Object-BL**](a-siteobjectbl.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
-| [**Сайт-сервер**](a-siteserver.md)                                         | Неверно     | **Лицензирование-Site-Settings**                                               |
+| [**Сайт-сервер**](a-siteserver.md)                                         | Неверно     | **лицензирование — сайт — Параметры**                                               |
 | [**Структурный объектный класс**](a-structuralobjectclass.md)                  | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Подразделы-ReFS**](a-subrefs.md)                                               | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**субсчемасубентри**](a-subschemasubentry.md)                            | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
@@ -429,7 +429,7 @@ ms.locfileid: "105654756"
 | Governs-Id                  | 1.2.840.113556.1.5.78                                                                        |
 | По умолчанию-скрытие значения        | 1                                                                                            |
 | RDN-Атри-ID                  | [**Common-Name**](a-cn.md)<br/>                                                       |
-| Подкласс                 | [**Приложение-сайт — параметры**](c-applicationsitesettings.md)<br/>                    |
+| Подкласс                 | [**приложение — сайт — Параметры**](c-applicationsitesettings.md)<br/>                    |
 | Возможные старшие          | [**Сайт**](c-site.md)                                                                       |
 | Вспомогательные классы           | \-                                                                                           |
 | NT-Security-дескриптор      | О:БАГ: BAD: S:                                                                                 |
@@ -438,9 +438,9 @@ ms.locfileid: "105654756"
 
 
 
-## <a name="windows-server-2008-attributes"></a>Атрибуты Windows Server 2008
+## <a name="windows-server-2008-attributes"></a>Windows Атрибуты сервера 2008
 
-Этот класс содержит следующие атрибуты для Windows Server 2008:
+этот класс содержит следующие атрибуты для Windows Server 2008:
 
 
 
@@ -452,7 +452,7 @@ ms.locfileid: "105654756"
 | [**Allowed-Attributes-эффективен**](a-allowedattributeseffective.md)           | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Allowed-Child-classes**](a-allowedchildclasses.md)                         | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Allowed-Child-classes-эффективен**](a-allowedchildclasseseffective.md)      | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
-| [**Имя приложения**](a-applicationname.md)                                  | Неверно     | [**Приложение-сайт — параметры**](c-applicationsitesettings.md)<br/> |
+| [**Имя приложения**](a-applicationname.md)                                  | Неверно     | [**приложение — сайт — Параметры**](c-applicationsitesettings.md)<br/> |
 | [**Плацдарм-Server-List-BL**](a-bridgeheadserverlistbl.md)                  | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Каноническое имя**](a-canonicalname.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Common-Name**](a-cn.md)                                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
@@ -468,7 +468,7 @@ ms.locfileid: "105654756"
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                  | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                      | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
-| [**Тип экземпляра**](a-instancetype.md)                                        | True      | [**Вверх**](c-top.md)<br/>                                           |
+| [**Тип экземпляра**](a-instancetype.md)                                        | Верно      | [**Вверх**](c-top.md)<br/>                                           |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                  | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Удалено**](a-isdeleted.md)                                              | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
@@ -512,11 +512,11 @@ ms.locfileid: "105654756"
 | [**Мссфу-30-POSIX-член-of**](a-mssfu30posixmemberof.md)                     | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                        | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
-| [**Список уведомлений**](a-notificationlist.md)                                | Неверно     | [**Приложение-сайт — параметры**](c-applicationsitesettings.md)<br/> |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                       | True      | [**Вверх**](c-top.md)<br/>                                           |
+| [**Список уведомлений**](a-notificationlist.md)                                | Неверно     | [**приложение — сайт — Параметры**](c-applicationsitesettings.md)<br/> |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                       | Верно      | [**Вверх**](c-top.md)<br/>                                           |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
-| [**Объект — Категория**](a-objectcategory.md)                                    | True      | [**Вверх**](c-top.md)<br/>                                           |
-| [**Объектный класс**](a-objectclass.md)                                          | True      | [**Вверх**](c-top.md)<br/>                                           |
+| [**Объект — Категория**](a-objectcategory.md)                                    | Верно      | [**Вверх**](c-top.md)<br/>                                           |
+| [**Объектный класс**](a-objectclass.md)                                          | Верно      | [**Вверх**](c-top.md)<br/>                                           |
 | [**Объект — GUID**](a-objectguid.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Версия объекта**](a-objectversion.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                    | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
@@ -537,7 +537,7 @@ ms.locfileid: "105654756"
 | [**Server-Reference-BL**](a-serverreferencebl.md)                             | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**"Показать" — "Расширенный просмотр"**](a-showinadvancedviewonly.md)                 | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Site-Object-BL**](a-siteobjectbl.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
-| [**Сайт-сервер**](a-siteserver.md)                                            | Неверно     | **Лицензирование-Site-Settings**                                               |
+| [**Сайт-сервер**](a-siteserver.md)                                            | Неверно     | **лицензирование — сайт — Параметры**                                               |
 | [**Структурный объектный класс**](a-structuralobjectclass.md)                     | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Подразделы-ReFS**](a-subrefs.md)                                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**субсчемасубентри**](a-subschemasubentry.md)                               | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
@@ -571,7 +571,7 @@ ms.locfileid: "105654756"
 | Governs-Id                  | 1.2.840.113556.1.5.78                                                                        |
 | По умолчанию-скрытие значения        | 1                                                                                            |
 | RDN-Атри-ID                  | [**Common-Name**](a-cn.md)<br/>                                                       |
-| Подкласс                 | [**Приложение-сайт — параметры**](c-applicationsitesettings.md)<br/>                    |
+| Подкласс                 | [**приложение — сайт — Параметры**](c-applicationsitesettings.md)<br/>                    |
 | Возможные старшие          | [**Сайт**](c-site.md)                                                                       |
 | Вспомогательные классы           | \-                                                                                           |
 | NT-Security-дескриптор      | О:БАГ: BAD: S:                                                                                 |
@@ -580,9 +580,9 @@ ms.locfileid: "105654756"
 
 
 
-## <a name="windows-server-2008-r2-attributes"></a>Атрибуты Windows Server 2008 R2
+## <a name="windows-server-2008-r2-attributes"></a>Windows Атрибуты сервера 2008 R2
 
-Этот класс содержит следующие атрибуты для Windows Server 2008 R2:
+этот класс содержит следующие атрибуты для Windows Server 2008 R2:
 
 
 
@@ -594,7 +594,7 @@ ms.locfileid: "105654756"
 | [**Allowed-Attributes-эффективен**](a-allowedattributeseffective.md)             | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Allowed-Child-classes**](a-allowedchildclasses.md)                           | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Allowed-Child-classes-эффективен**](a-allowedchildclasseseffective.md)        | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
-| [**Имя приложения**](a-applicationname.md)                                    | Неверно     | [**Приложение-сайт — параметры**](c-applicationsitesettings.md)<br/> |
+| [**Имя приложения**](a-applicationname.md)                                    | Неверно     | [**приложение — сайт — Параметры**](c-applicationsitesettings.md)<br/> |
 | [**Плацдарм-Server-List-BL**](a-bridgeheadserverlistbl.md)                    | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Каноническое имя**](a-canonicalname.md)                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Common-Name**](a-cn.md)                                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
@@ -610,7 +610,7 @@ ms.locfileid: "105654756"
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                    | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                        | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
-| [**Тип экземпляра**](a-instancetype.md)                                          | True      | [**Вверх**](c-top.md)<br/>                                           |
+| [**Тип экземпляра**](a-instancetype.md)                                          | Верно      | [**Вверх**](c-top.md)<br/>                                           |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                    | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Удалено**](a-isdeleted.md)                                                | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
@@ -661,11 +661,11 @@ ms.locfileid: "105654756"
 | [**Мссфу-30-POSIX-член-of**](a-mssfu30posixmemberof.md)                       | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                          | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
-| [**Список уведомлений**](a-notificationlist.md)                                  | Неверно     | [**Приложение-сайт — параметры**](c-applicationsitesettings.md)<br/> |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                         | True      | [**Вверх**](c-top.md)<br/>                                           |
+| [**Список уведомлений**](a-notificationlist.md)                                  | Неверно     | [**приложение — сайт — Параметры**](c-applicationsitesettings.md)<br/> |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                         | Верно      | [**Вверх**](c-top.md)<br/>                                           |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
-| [**Объект — Категория**](a-objectcategory.md)                                      | True      | [**Вверх**](c-top.md)<br/>                                           |
-| [**Объектный класс**](a-objectclass.md)                                            | True      | [**Вверх**](c-top.md)<br/>                                           |
+| [**Объект — Категория**](a-objectcategory.md)                                      | Верно      | [**Вверх**](c-top.md)<br/>                                           |
+| [**Объектный класс**](a-objectclass.md)                                            | Верно      | [**Вверх**](c-top.md)<br/>                                           |
 | [**Объект — GUID**](a-objectguid.md)                                              | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Версия объекта**](a-objectversion.md)                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                      | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
@@ -686,7 +686,7 @@ ms.locfileid: "105654756"
 | [**Server-Reference-BL**](a-serverreferencebl.md)                               | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**"Показать" — "Расширенный просмотр"**](a-showinadvancedviewonly.md)                   | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Site-Object-BL**](a-siteobjectbl.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
-| [**Сайт-сервер**](a-siteserver.md)                                              | Неверно     | **Лицензирование-Site-Settings**                                               |
+| [**Сайт-сервер**](a-siteserver.md)                                              | Неверно     | **лицензирование — сайт — Параметры**                                               |
 | [**Структурный объектный класс**](a-structuralobjectclass.md)                       | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Подразделы-ReFS**](a-subrefs.md)                                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**субсчемасубентри**](a-subschemasubentry.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
@@ -720,7 +720,7 @@ ms.locfileid: "105654756"
 | Governs-Id                  | 1.2.840.113556.1.5.78                                                                        |
 | По умолчанию-скрытие значения        | 1                                                                                            |
 | RDN-Атри-ID                  | [**Common-Name**](a-cn.md)<br/>                                                       |
-| Подкласс                 | [**Приложение-сайт — параметры**](c-applicationsitesettings.md)<br/>                    |
+| Подкласс                 | [**приложение — сайт — Параметры**](c-applicationsitesettings.md)<br/>                    |
 | Возможные старшие          | [**Сайт**](c-site.md)                                                                       |
 | Вспомогательные классы           | \-                                                                                           |
 | NT-Security-дескриптор      | О:БАГ: BAD: S:                                                                                 |
@@ -729,7 +729,7 @@ ms.locfileid: "105654756"
 
 
 
-## <a name="windows-server-2012-attributes"></a>Атрибуты Windows Server 2012
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012 Атрибута
 
 Этот класс содержит следующие атрибуты для Windows Server 2012:
 
@@ -743,7 +743,7 @@ ms.locfileid: "105654756"
 | [**Allowed-Attributes-эффективен**](a-allowedattributeseffective.md)                         | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Allowed-Child-classes**](a-allowedchildclasses.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Allowed-Child-classes-эффективен**](a-allowedchildclasseseffective.md)                    | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
-| [**Имя приложения**](a-applicationname.md)                                                | Неверно     | [**Приложение-сайт — параметры**](c-applicationsitesettings.md)<br/> |
+| [**Имя приложения**](a-applicationname.md)                                                | Неверно     | [**приложение — сайт — Параметры**](c-applicationsitesettings.md)<br/> |
 | [**Плацдарм-Server-List-BL**](a-bridgeheadserverlistbl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Каноническое имя**](a-canonicalname.md)                                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Common-Name**](a-cn.md)                                                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
@@ -759,7 +759,7 @@ ms.locfileid: "105654756"
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
-| [**Тип экземпляра**](a-instancetype.md)                                                      | True      | [**Вверх**](c-top.md)<br/>                                           |
+| [**Тип экземпляра**](a-instancetype.md)                                                      | Верно      | [**Вверх**](c-top.md)<br/>                                           |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Удалено**](a-isdeleted.md)                                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
@@ -809,18 +809,18 @@ ms.locfileid: "105654756"
 | [**MS-DS-выводит-List-BL**](a-msds-revealedlistbl.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**MS-DS-Tasks-для-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**MS-DS-Tasks-for-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
-| [**MS-DS-TDO-исходящий трафик — BL**](a-msds-tdoegressbl.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
+| [**ms-DS-TDO-Egress-BL**](a-msds-tdoegressbl.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**MS-DS-TDO-входящий трафик — BL**](a-msds-tdoingressbl.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**MS-DS-value-type-Reference-BL**](a-msds-valuetypereferencebl.md)                         | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**MS-дов-Owner-BL**](a-ownerbl.md)                                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Мссфу-30-POSIX-член-of**](a-mssfu30posixmemberof.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                                     | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
-| [**Список уведомлений**](a-notificationlist.md)                                              | Неверно     | [**Приложение-сайт — параметры**](c-applicationsitesettings.md)<br/> |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                     | True      | [**Вверх**](c-top.md)<br/>                                           |
+| [**Список уведомлений**](a-notificationlist.md)                                              | Неверно     | [**приложение — сайт — Параметры**](c-applicationsitesettings.md)<br/> |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                     | Верно      | [**Вверх**](c-top.md)<br/>                                           |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
-| [**Объект — Категория**](a-objectcategory.md)                                                  | True      | [**Вверх**](c-top.md)<br/>                                           |
-| [**Объектный класс**](a-objectclass.md)                                                        | True      | [**Вверх**](c-top.md)<br/>                                           |
+| [**Объект — Категория**](a-objectcategory.md)                                                  | Верно      | [**Вверх**](c-top.md)<br/>                                           |
+| [**Объектный класс**](a-objectclass.md)                                                        | Верно      | [**Вверх**](c-top.md)<br/>                                           |
 | [**Объект — GUID**](a-objectguid.md)                                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Версия объекта**](a-objectversion.md)                                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
@@ -841,7 +841,7 @@ ms.locfileid: "105654756"
 | [**Server-Reference-BL**](a-serverreferencebl.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**"Показать" — "Расширенный просмотр"**](a-showinadvancedviewonly.md)                               | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Site-Object-BL**](a-siteobjectbl.md)                                                     | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
-| [**Сайт-сервер**](a-siteserver.md)                                                          | Неверно     | **Лицензирование-Site-Settings**                                               |
+| [**Сайт-сервер**](a-siteserver.md)                                                          | Неверно     | **лицензирование — сайт — Параметры**                                               |
 | [**Структурный объектный класс**](a-structuralobjectclass.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**Подразделы-ReFS**](a-subrefs.md)                                                                | Неверно     | [**Вверх**](c-top.md)<br/>                                           |
 | [**субсчемасубентри**](a-subschemasubentry.md)                                             | Неверно     | [**Вверх**](c-top.md)<br/>                                           |

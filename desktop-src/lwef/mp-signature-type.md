@@ -3,8 +3,8 @@ title: Перечисление MP_SIGNATURE_TYPE (Мпклиент. h)
 description: Возможные типы сигнатур.
 ms.assetid: 44B195A8-866D-4B87-9576-54E00658F9B3
 keywords:
-- MP_SIGNATURE_TYPE перечисления устаревшие функции среды Windows
-- PMP_SIGNATURE_TYPE указателя перечисления устаревшие функции среды Windows
+- MP_SIGNATURE_TYPE перечисления устаревших Windows компонентов среды
+- PMP_SIGNATURE_TYPEные компоненты среды Windows указателя перечисления
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b99f7140706e9a6d3fa32e7eb346ef6478f3f26
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3289f0cbc3eeb85f553adf97078b7d3c5c53a686e914f86a4edb80c5244f72af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104490395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117883717"
 ---
 # <a name="mp_signature_type-enumeration"></a>\_ \_ Перечисление типов сигнатур MP
 
@@ -76,14 +76,14 @@ typedef enum tagMP_SIGNATURE_TYPE {
 <span id="MP_SIGNATURE_TYPES_MAXVALUE"></span><span id="mp_signature_types_maxvalue"></span>**\_типы сигнатур \_ MP \_ MaxValue**
 </dt> <dd></dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
 
 
