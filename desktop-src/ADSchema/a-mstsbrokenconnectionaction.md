@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b8b48beadd31964cbfe48dbe477a9463e16db77b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c7cf31e02a31b750a5d555f3357f28059196360c6f18e25c855a69ad8974243d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103804925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118424779"
 ---
 # <a name="ms-ts-broken-connection-action-attribute"></a>атрибут MS-TS-сломанных подключений — действие
 
@@ -36,7 +36,7 @@ ms.locfileid: "103804925"
 | Частота обновления  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1985              |
 | System-ID — GUID    | 1cf41bba-5604-463e-94d6-1a1287b72ca3 |
-| Синтаксис            | [**Логическая**](s-boolean.md)         |
+| Синтаксис            | [**Логическое**](s-boolean.md)         |
 
 
 
@@ -55,7 +55,7 @@ ms.locfileid: "103804925"
 | Идентификатор ссылки                | \-                                |
 | MAPI-Id                | \-                                |
 | System-Only            | Неверно                             |
-| Является однозначным       | True                              |
+| Является однозначным       | Верно                              |
 | Индексируется             | Неверно                             |
 | В глобальном каталоге      | Неверно                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                      |
@@ -63,7 +63,7 @@ ms.locfileid: "103804925"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -76,7 +76,7 @@ ms.locfileid: "103804925"
 | Идентификатор ссылки                | \-                                |
 | MAPI-Id                | \-                                |
 | System-Only            | Неверно                             |
-| Является однозначным       | True                              |
+| Является однозначным       | Верно                              |
 | Индексируется             | Неверно                             |
 | В глобальном каталоге      | Неверно                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                      |
@@ -84,7 +84,7 @@ ms.locfileid: "103804925"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -97,7 +97,7 @@ ms.locfileid: "103804925"
 | Идентификатор ссылки                | \-                                |
 | MAPI-Id                | \-                                |
 | System-Only            | Неверно                             |
-| Является однозначным       | True                              |
+| Является однозначным       | Верно                              |
 | Индексируется             | Неверно                             |
 | В глобальном каталоге      | Неверно                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                      |

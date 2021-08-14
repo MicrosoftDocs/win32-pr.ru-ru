@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 2df8ad2d673d96dced84630b1a641c7e4f27ceb2
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: fba443d4a2e05794f8c1965e46a61c65edae50b95845f0f80faa0c0ab6c6bf71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104986525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118510959"
 ---
 # <a name="rcp---ps"></a>rcp-PS
 
@@ -31,12 +31,12 @@ ms.locfileid: "104986525"
 
  
 
-где
+where
 
 -   DST — это регистр назначения.
 -   src является исходным регистром. Для исходного регистра требуется явное использование репликации свиззле, то есть только один из компонентов. x,. y,. z,. w свиззле (или. r,. g,. b,. a эквивалент) должен быть указан.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -54,7 +54,7 @@ ms.locfileid: "104986525"
 
 Точность должна составлять по крайней мере 1,0/(2 ²) абсолютную ошибку в диапазоне (1,0, 2,0), так как распространенные реализации будут разделять мантисса и экспоненту.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

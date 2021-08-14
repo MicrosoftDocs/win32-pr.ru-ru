@@ -7,12 +7,12 @@ keywords:
 - Active Directory примеры Active Directory, определение режима работы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a059a750cf98efc066ac510c2c8acf58a65ab8c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a2bb4a7d00a61298ad8b9b29d9208a50023a6885360d31b14933f83a3102ab1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104486604"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118190777"
 ---
 # <a name="example-code-for-determining-the-operation-mode"></a>Пример кода для определения режима работы
 
@@ -59,7 +59,7 @@ return hr;
 
 
 
-В следующем примере кода Visual Basic считывается свойство **нтмикседдомаин** домена и определяется режим работы.
+в следующем примере кода Visual Basic считывается свойство **нтмикседдомаин** домена и определяется режим работы.
 
 
 ```VB
@@ -142,7 +142,7 @@ End Sub
 
 
 
-Следующий пример кода Visual Basic сценариев выпуска считывает свойство **нтмикседдомаин** домена и определяет режим работы.
+следующий пример кода Visual Basic сценариев выпуска считывает свойство **нтмикседдомаин** домена и определяет режим работы.
 
 
 ```VB
@@ -217,9 +217,9 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 
 
 
 

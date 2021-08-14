@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGuids.lib
 - PortableDeviceGuids.dll
-ms.openlocfilehash: 10a356fbb8591568a9f99d9b92d681a46754a960
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 8180cef03e0eb11a0e05fa52b8fdb20ed35d7e820873913b2ab00311282f1ddf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108083211"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118430798"
 ---
 # <a name="ienumportabledeviceconnectorsreset-method"></a>Метод Иенумпортабледевицеконнекторс:: Reset
 
@@ -52,13 +52,13 @@ HRESULT Reset();
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                                                                                             |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                                                                                             |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                                                                                              |
 | Header<br/>                   | <dl> <dt>Девпкэй. h; </dt> <dt>Портабледевицеконнектапи. h</dt> </dl> |
 | IDL<br/>                      | <dl> <dt>Портабледевицеконнектапи. idl</dt> </dl>                                                                |
@@ -66,7 +66,7 @@ HRESULT Reset();
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

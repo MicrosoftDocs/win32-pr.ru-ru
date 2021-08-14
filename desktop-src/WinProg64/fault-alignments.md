@@ -3,15 +3,15 @@ title: Ошибки выравнивания
 description: Ошибки выравнивания
 ms.assetid: 16e69aec-3aec-4684-bf37-b3e5db6e4f87
 keywords:
-- ошибки выравнивания в 64-разрядном программировании для Windows
+- ошибки выравнивания 64-bit Windows программирование
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 318a7a55010ac148354d000ece32c91a8652f821
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d813a47cb3428c57ee6235442491f26f8d126a997dd7fcfa6844d551e7958b92
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105710335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119412914"
 ---
 # <a name="alignment-faults"></a>Ошибки выравнивания
 
@@ -21,6 +21,6 @@ ms.locfileid: "105710335"
 
 В системах x64 и ARM64 все ошибки выравнивания обрабатываются сочетанием оборудования и программного обеспечения. Для оптимальной производительности весь доступ к памяти должен быть правильно согласован. Кроме того, в ARM64 следует избегать несогласованного [доступа к переменным с блокировкой](/windows/desktop/Sync/interlocked-variable-access) , так как эти операции не являются атомарными.
 
- 
+ 
 
- 
+ 

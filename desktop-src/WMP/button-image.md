@@ -3,7 +3,7 @@ title: BUTTON. Image
 description: Атрибут Image указывает или получает изображение кнопки по умолчанию.
 ms.assetid: d0d97f14-2c4d-4769-b45c-c6cde7282bea
 keywords:
-- КНОПКА. изображение проигрыватель Windows Media Player
+- проигрыватель Windows Media BUTTON. image
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d27363383d72110ebe7b3e94187013ab701a6a3c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 85874c79db8f3174b70af68c3ff1e58511c3f00cc7d648389dbca971c7efd96e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118342912"
 ---
 # <a name="buttonimage"></a>BUTTON. Image
 
@@ -31,7 +31,7 @@ ms.locfileid: "105698996"
 
 Этот атрибут является **строкой** для чтения и записи, содержащей имя файла изображения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Поддерживаются форматы изображений BMP, JPG, PNG и GIF (включая анимированные GIF).
 
@@ -41,13 +41,13 @@ ms.locfileid: "105698996"
 
 Если изображение не может быть получено, отображается изображение по умолчанию (изображение Красного x).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

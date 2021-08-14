@@ -1,19 +1,19 @@
 ---
-description: 'Windows Vista и более поздние версии: NLS определяет несколько псевдо-национальных настроек для использования в дополнение к существующим языкам Windows.'
+description: 'Windows Vista и более поздних версий: NLS определяет несколько псевдо-национальных настроек для использования в дополнение к существующим языкам Windows.'
 ms.assetid: 8ec3038e-da18-47fc-a689-dd9162a41faa
 title: Pseudo-Locales
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bad7d4b161440cade65f24fb0157d42958c64d19
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e099ee2af283c38aff3de7813fec64b5d43c6ac5873549856b27fd224c3e0d61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118390418"
 ---
 # <a name="pseudo-locales"></a>Pseudo-Locales
 
-**Windows Vista и более поздние версии:** NLS определяет несколько псевдо-национальных настроек для использования в дополнение к существующим языкам Windows. Используйте эти псевдо-национальные настройки для тестирования локализации приложений. Сведения о реализации см. [в разделе использование Pseudo-Locales для тестирования локализации](using-pseudo-locales-for-localization-testing.md).
+**Windows Vista и более поздних версий:** NLS определяет несколько псевдо-языков для использования в дополнение к существующим языкам Windows. Используйте эти псевдо-национальные настройки для тестирования локализации приложений. Сведения о реализации см. [в разделе использование Pseudo-Locales для тестирования локализации](using-pseudo-locales-for-localization-testing.md).
 
 ## <a name="supported-pseudo-locales"></a>Поддерживаемые Pseudo-Locales
 
@@ -52,7 +52,7 @@ ms.locfileid: "105682623"
 
 \[Шěđлеśđαỳ!!! \] , 8 ōф \[ μäŕςћ!! \] ōф 2006
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

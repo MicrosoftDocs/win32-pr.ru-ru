@@ -4,12 +4,12 @@ ms.assetid: 5b94f7b8-ced8-4f49-bba2-30d15bafba4e
 title: System. photo. Гаинконтролнумератор
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3a8650405d95e2ef714bd39ef9702177610742e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 594319282634c062233ad0e8bb683a0f5a4f5e859b4636c1a046bd67d4359cea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118228889"
 ---
 # <a name="systemphotogaincontrolnumerator"></a>System. photo. Гаинконтролнумератор
 
@@ -30,11 +30,11 @@ propertyDescription
       type = UInt32
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

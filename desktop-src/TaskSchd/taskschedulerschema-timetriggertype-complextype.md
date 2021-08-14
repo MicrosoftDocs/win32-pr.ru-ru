@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6f44f0959a9f67e4bfee0b0ef5dd7f095ffbadce
-ms.sourcegitcommit: b3a9abea47dea7374eac0f9a95a652ac6977fb2e
+ms.openlocfilehash: c03ede1b87f3969d12256df16c0b05c109391876a12c256190966c8befc7f2fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "107734139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118355752"
 ---
 # <a name="timetriggertype-complex-type"></a>Сложный тип Тиметригжертипе
 
@@ -51,18 +51,18 @@ ms.locfileid: "107734139"
 
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Remarks
 
 Обратите внимание, что этот элемент не добавляет никаких дочерних элементов к элементам, определенным сложным типом [**тригжербасетипе**](taskschedulerschema-triggerbasetype-complextype.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

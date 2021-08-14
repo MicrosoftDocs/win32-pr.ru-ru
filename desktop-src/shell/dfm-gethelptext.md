@@ -14,12 +14,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 2428fe6696ff5949a0b25487437c8f3408b95f65
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d1035ae82a8caf4c9ada5a859663d0d20286b433a9bf527831c29157d8dd6894
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108097072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117860939"
 ---
 # <a name="dfm_gethelptext-message"></a>\_Сообщение DFM жеселптекст
 
@@ -62,14 +62,14 @@ DFM_GETHELPTEXT
 
 [**DFM \_ ИНВОКЕКОММАНДЕКС**](dfm-invokecommandex.md) — это расширенная версия этого сообщения, которая предоставляет дополнительные сведения для обратного вызова. Используйте **DFM \_ инвокекоммандекс** , если в реализации требуется дополнительная информация, предоставляемая этим интерфейсом.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                      |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                      |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Шлобж. h</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **DFM \_ ЖЕСЕЛПТЕКСТ** (ANSI)<br/>                                              |
 

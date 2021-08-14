@@ -1,6 +1,6 @@
 ---
 title: g_wszWMVCProduceDummyFrames (Вмкодекдсп. h)
-description: Текущую документацию по кодекам Windows Media и обработчикам цифровых сигналов см. в статье интерфейсы API аудио-и видеокодеков Windows Media и DSP. | g_wszWMVCProduceDummyFrames (Вмкодекдсп. h)
+description: текущую документацию по Windows кодеков мультимедиа и обработчикам цифровых сигналов см. в разделе Windows media Audio и Video кодек и DSP api. | g_wszWMVCProduceDummyFrames (Вмкодекдсп. h)
 ms.assetid: da52f80a-3ec1-4929-9206-9daf0aae4fe5
 keywords:
 - g_wszWMVCProduceDummyFrames формат Windows Media
@@ -14,24 +14,24 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c853e104a61b6bc196b583c56ec64023dd2d99db
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fc90d709915599d98a7dac6079a2927cff876f83c8a4582b72f200475c5312fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105717931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118198485"
 ---
 # <a name="g_wszwmvcproducedummyframes"></a>g \_ всзвмвкпродуцедуммифрамес
 
-Текущую документацию по кодекам Windows Media и обработчикам цифровых сигналов см [. в статье интерфейсы API аудио-и видеокодеков Windows Media и DSP.](/previous-versions//dd464626(v=vs.85))
+текущую документацию по Windows кодеков мультимедиа и обработчикам цифровых сигналов см [. в разделе Windows media Audio и Video кодек и DSP api.](/previous-versions//dd464626(v=vs.85))
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 

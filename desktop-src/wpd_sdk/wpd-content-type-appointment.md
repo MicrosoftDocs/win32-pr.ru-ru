@@ -4,12 +4,12 @@ ms.assetid: d41c26ef-9f51-4ba7-b1a4-57abec91925e
 title: WPD_CONTENT_TYPE_APPOINTMENT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b1ec4a316690241372bc7d0fa13789731dde925
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 159f80246b14c121e386f1122a70dce27e717481ec02897c06b9061821a8c0fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118193548"
 ---
 # <a name="wpd_content_type_appointment"></a>\_тип содержимого WPD — \_ \_ встреча
 
@@ -66,7 +66,7 @@ ms.locfileid: "105702772"
 
 Обычно эти объекты не размещают ресурсы.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

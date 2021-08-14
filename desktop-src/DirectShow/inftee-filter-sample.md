@@ -4,20 +4,20 @@ ms.assetid: ba401528-9706-41fb-99d1-2bc3ffc05f1a
 title: Образец фильтра Инфти
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3cd0fc5a1d550e0327da0d0d3dd47c8847ffafee
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 2bd0bbbb4df30f549a8ea0ba15d33696dcb7c108cbeffa6658bbb1842291517d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105673074"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118398022"
 ---
 # <a name="inftee-filter-sample"></a>Образец фильтра Инфти
 
 ## <a name="description"></a>Описание
 
-Фильтр Инфти предоставляет образец реализации фильтра [tee для неограниченного ПИН-кода](infinite-pin-tee-filter.md) DirectShow. Фильтр имеет один входной ПИН-код и динамическое число закрепления выходных данных. Все примеры носителей, отправляемые в фильтр, доставляются одновременно со всех выходных контактов.
+фильтр инфти предоставляет пример DirectShow реализации фильтра [неограниченного пин-кода Tee](infinite-pin-tee-filter.md) . Фильтр имеет один входной ПИН-код и динамическое число закрепления выходных данных. Все примеры носителей, отправляемые в фильтр, доставляются одновременно со всех выходных контактов.
 
-Этот фильтр отображается в Графедит под именем "пример бесконечного ПИН-кода Tee", чтобы отличать его от стандартного бесконечного фильтра tee, предоставляемого в DirectShow.
+Этот фильтр отображается в Графедит под именем "пример бесконечного ПИН-кода Tee", чтобы отличать его от стандартного бесконечного фильтра tee, предоставленного в DirectShow.
 
 ## <a name="usage"></a>Использование
 
@@ -27,15 +27,15 @@ ms.locfileid: "105673074"
 
 ## <a name="downloading-the-sample"></a>Загрузка образца
 
-Чтобы скачать примеры пакета SDK для DirectShow, установите последнюю версию [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
+чтобы скачать примеры пакета SDK для DirectShow, установите последнюю версию [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
 
-Этот пример устанавливается по следующему пути: *\[ \] корневые примеры SDK* \\ \\ мультимедиа \\ DirectShow \\ фильтры \\ инфти.
+этот пример устанавливается по следующему пути: *\[ \] корневые примеры SDK* \\ \\ мультимедиа \\ DirectShow \\ фильтры \\ инфти.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Примеры DirectShow](directshow-samples.md)
+[DirectShow Регистрируют](directshow-samples.md)
 </dt> </dl>
 
  

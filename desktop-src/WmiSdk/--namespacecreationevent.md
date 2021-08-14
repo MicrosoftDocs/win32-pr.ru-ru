@@ -17,12 +17,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 8432bcfb2c96c70b91a7f0d187297217082e2d28
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f84e0c584d3afb63b166523a5920d4d5b3367638bc0000c33a8cfba979e64c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105673955"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118320728"
 ---
 # <a name="__namespacecreationevent-class"></a>\_\_Класс Намеспацекреатионевент
 
@@ -47,7 +47,7 @@ class __NamespaceCreationEvent : __NamespaceOperationEvent
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ \_ намеспацекреатионевент** имеет следующие свойства.
 
@@ -94,11 +94,11 @@ class __NamespaceCreationEvent : __NamespaceOperationEvent
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ \_ намеспацекреатионевент** является производным от [**\_ \_ намеспацеоператионевент**](--namespaceoperationevent.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

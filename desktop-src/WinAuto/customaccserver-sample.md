@@ -4,12 +4,12 @@ description: Пример Кустомакксервер
 ms.assetid: 8c3636ef-0993-4ded-a3c0-05cf2de777bb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f7f8ee7d82361177af07aa7ad53a6137c39bc38
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 71ebf1ecde2821208d788b20b5cb0fc1a00403c1607fb4604eb92845daf49d41
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118325993"
 ---
 # <a name="customaccserver-sample"></a>Пример Кустомакксервер
 
@@ -20,7 +20,7 @@ ms.locfileid: "108088012"
 -   [Минимальные требования](#minimum-requirements)
 -   [Создание примера](#building-the-sample)
 -   [Запуск примера](#running-the-sample)
--   [Связанные разделы](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="description"></a>Описание
 
@@ -28,13 +28,13 @@ ms.locfileid: "108088012"
 
 ## <a name="download-information"></a>Сведения о загрузке
 
-Пример Кустомакксервер устанавливается как часть [пакета средств разработки программного обеспечения Microsoft Windows (SDK)](https://msdn.microsoft.com/windowsvista/bb980924.aspx) и доступен в следующем расположении.
+пример кустомакксервер устанавливается в составе [пакета средств разработки Microsoft Windows Software Development Kit (SDK)](https://msdn.microsoft.com/windowsvista/bb980924.aspx) и доступен в следующем расположении.
 
 
 
 | Расположение    | Путь или URL-адрес                                                                           |
 |-------------|------------------------------------------------------------------------------------|
-| Пакет Windows SDK | % Program Files% \\ Microsoft SDK \\ версии Windows — \\ \[ \] \\ примеры \\ винуи \\ MSAA |
+| Пакет Windows SDK | % Program files% \\ Microsoft sdk \\ Windows \\ \[ номер версии \] \\ примеры \\ винуи \\ msaa |
 
 
 
@@ -56,25 +56,25 @@ ms.locfileid: "108088012"
 
 ## <a name="building-the-sample"></a>Построение образца
 
-Чтобы построить пример с помощью Visual Studio 2008, выполните следующие действия.
+чтобы построить пример с помощью Visual Studio 2008:
 
-1.  Запустите средство настройки пакета средств разработки программного обеспечения (SDK) для Microsoft Windows, поставляемое вместе с пакетом SDK, чтобы добавить в Visual Studio каталоги включения пакета SDK.
-2.  Откройте проводник Windows и перейдите в каталог проекта.
+1.  запустите средство настройки пакета Microsoft Windows Software Development Kit (sdk), поставляемое вместе с пакетом sdk, чтобы добавить каталоги включения пакета sdk в Visual Studio.
+2.  откройте обозреватель Windows и перейдите в каталог проекта.
 3.  Дважды щелкните значок файла. sln (решение), чтобы открыть проект в Visual Studio.
 4.  В меню **Сборка** выберите пункт **построить решение** , чтобы выполнить сборку решения. Приложение будет построено в \\ каталоге отладки или выпуска по умолчанию \\ .
 
-Чтобы построить пример из командной строки, см. раздел Создание образцов в заметках о выпуске Windows SDK в следующем расположении:% Program Files% \\ Microsoft SDKs \\ Windows \\ v 7.0 \\ReleaseNotes.htm
+чтобы построить пример из командной строки, см. раздел создание образцов в заметках о выпуске Windows SDK в следующем расположении:% Program files% \\ Microsoft sdk \\ Windows \\ v 7.0 \\ReleaseNotes.htm
 
 ## <a name="running-the-sample"></a>Запуск примера
 
-Запуск примера:
+Для выполнения образца:
 
-1.  Перейдите в каталог, содержащий новый исполняемый файл, с помощью командной строки или проводника Windows.
-2.  Введите AccServer.exe в командной строке или дважды щелкните значок AccServer.exe, чтобы запустить его из проводника Windows.
+1.  перейдите в каталог, содержащий новый исполняемый файл, используя командную строку или обозреватель Windows.
+2.  введите AccServer.exe в командной строке или дважды щелкните значок AccServer.exe, чтобы запустить его из проводника Windows.
 
-Чтобы запустить из Visual Studio, нажмите клавишу F5 или выберите команду **начать отладку** в меню **Отладка** .
+чтобы запустить из Visual Studio, нажмите клавишу F5 или выберите команду **начать отладку** в меню **отладка** .
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

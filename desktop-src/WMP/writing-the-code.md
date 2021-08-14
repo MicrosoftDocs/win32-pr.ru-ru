@@ -3,19 +3,19 @@ title: Написание кода
 description: Написание кода
 ms.assetid: dd760de6-1779-4526-ad3e-9e814da8d62e
 keywords:
-- Обложки Windows Media Player для мобильных устройств, написание кода
+- проигрыватель Windows Media Обложки для мобильных устройств, написание кода
 - обложки, написание кода
 - Создание обложек, написание кода
-- Написание кода для обложек, проигрывателя Windows Media Mobile
+- написание кода для обложек, проигрыватель Windows Media Mobile
 - Написание кода для обложек, о
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3834255bd8cb1da14c2712ab69e4da6d750c32e8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bac63a871be65dd4217d65a7d9353531bc9253e1881e8ba6fedb6da94fe113e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104411395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117745520"
 ---
 # <a name="writing-the-code"></a>Написание кода
 
@@ -33,16 +33,16 @@ ms.locfileid: "104411395"
 
 Дополнительные сведения об особенностях файлов определения обложки см. в [справочнике по обложкам](skin-reference.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Путеводитель по обложкам**](skin-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

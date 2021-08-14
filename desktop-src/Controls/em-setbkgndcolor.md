@@ -3,7 +3,7 @@ title: Сообщение EM_SETBKGNDCOLOR (RichEdit. h)
 description: В \_ сообщении EM сетбкгндколор задается цвет фона для элемента управления Rich Edit.
 ms.assetid: 0ad191cd-6370-493e-bfe2-5aa8d81ed999
 keywords:
-- Элементы управления Windows для EM_SETBKGNDCOLOR сообщений
+- элементы управления Windows сообщений EM_SETBKGNDCOLOR
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 091f04909e2660498f1380628439c067b5438b6c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1173c2da9f3c04e49211224bd269d79c0634e1cb3f8ea959f6b58e354fdf0dda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118412658"
 ---
 # <a name="em_setbkgndcolor-message"></a>\_Сообщение СЕТБКГНДКОЛОР EM
 
@@ -47,14 +47,14 @@ ms.locfileid: "103892485"
 
 Это сообщение возвращает исходный цвет фона.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

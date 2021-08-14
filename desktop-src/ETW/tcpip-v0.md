@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 20cbe5c03d686ae8a4b1558899362251ba219e0c
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: a235cc28de75eb3c2150d4f6579305352fd92664f76f813b233b566f1740e0c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117814450"
 ---
 # <a name="tcpip_v0-class"></a>\_Класс TcpIp v0
 
@@ -38,18 +38,18 @@ class TcpIp_V0 : MSNT_SystemTrace
 
 Класс **TcpIp \_ v0** не определяет никаких членов.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                   |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

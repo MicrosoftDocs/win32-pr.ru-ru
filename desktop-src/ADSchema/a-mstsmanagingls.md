@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 75944922fc648d124d9e10f8039a1fd94c28841f
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e8c79a91032e6f34f3cc69b9d7f172d9e28c0e757c20bda14f651b8810f71138
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104138858"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118424122"
 ---
 # <a name="ms-ts-managingls-attribute"></a>Атрибут MS-TS-Манагинглс
 
@@ -55,8 +55,8 @@ ms.locfileid: "104138858"
 | Идентификатор ссылки                | \-           |
 | MAPI-Id                | \-           |
 | System-Only            | Неверно        |
-| Является однозначным       | True         |
-| Индексируется             | True         |
+| Является однозначным       | Верно         |
+| Индексируется             | Верно         |
 | В глобальном каталоге      | Неверно        |
 | NT-Security-дескриптор | О:БАГ: BAD: S: |
 | Range-Lower            | \-           |
@@ -76,8 +76,8 @@ ms.locfileid: "104138858"
 | Идентификатор ссылки                | \-           |
 | MAPI-Id                | \-           |
 | System-Only            | Неверно        |
-| Является однозначным       | True         |
-| Индексируется             | True         |
+| Является однозначным       | Верно         |
+| Индексируется             | Верно         |
 | В глобальном каталоге      | Неверно        |
 | NT-Security-дескриптор | О:БАГ: BAD: S: |
 | Range-Lower            | \-           |
@@ -97,8 +97,8 @@ ms.locfileid: "104138858"
 | Идентификатор ссылки                | \-           |
 | MAPI-Id                | \-           |
 | System-Only            | Неверно        |
-| Является однозначным       | True         |
-| Индексируется             | True         |
+| Является однозначным       | Верно         |
+| Индексируется             | Верно         |
 | В глобальном каталоге      | Неверно        |
 | NT-Security-дескриптор | О:БАГ: BAD: S: |
 | Range-Lower            | \-           |

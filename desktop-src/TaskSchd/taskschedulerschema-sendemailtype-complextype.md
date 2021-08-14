@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 959e0b8f03223eb23b7a7bec69ba9b2aeea66447
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0242700b2f22050741d9de175b7dae532cc5ef4bb2097fadb23799ce3b2f82b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672900"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118356346"
 ---
 # <a name="sendemailtype-complex-type"></a>Сложный тип Сендемаилтипе
 
@@ -83,26 +83,26 @@ ms.locfileid: "105672900"
 | Элемент                                                                        | Тип                                                                         | Описание                                                                                      |
 |--------------------------------------------------------------------------------|------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | [**Вложения**](taskschedulerschema-attachments-sendemailtype-element.md)   | [**аттачментстипе**](taskschedulerschema-attachmentstype-complextype.md)   | Указывает список вложений в сообщении электронной почты.<br/>                                 |
-| [**Скрытая копия**](taskschedulerschema-bcc-sendemailtype-element.md)                   | **string**                                                                   | Указывает адреса электронной почты, используемые в строке СК сообщения электронной почты.<br/>               |
-| [**Текст**](taskschedulerschema-body-sendemailtype-element.md)                 | **string**                                                                   | Задает текст в тексте сообщения электронной почты.<br/>                                  |
-| [**Кому**](taskschedulerschema-cc-sendemailtype-element.md)                     | **string**                                                                   | Указывает адреса электронной почты, используемые в строке CC сообщения электронной почты.<br/>                |
-| [**Исходный тип**](taskschedulerschema-from-sendemailtype-element.md)                 | **string**                                                                   | Указывает адрес электронной почты отправителя.<br/>                                            |
+| [**Скрытая копия**](taskschedulerschema-bcc-sendemailtype-element.md)                   | **строка**                                                                   | Указывает адреса электронной почты, используемые в строке СК сообщения электронной почты.<br/>               |
+| [**Текст**](taskschedulerschema-body-sendemailtype-element.md)                 | **строка**                                                                   | Задает текст в тексте сообщения электронной почты.<br/>                                  |
+| [**Кому**](taskschedulerschema-cc-sendemailtype-element.md)                     | **строка**                                                                   | Указывает адреса электронной почты, используемые в строке CC сообщения электронной почты.<br/>                |
+| [**Исходный тип**](taskschedulerschema-from-sendemailtype-element.md)                 | **строка**                                                                   | Указывает адрес электронной почты отправителя.<br/>                                            |
 | [**хеадерфиелдс**](taskschedulerschema-headerfields-sendemailtype-element.md) | [**хеадерфиелдстипе**](taskschedulerschema-headerfieldstype-complextype.md) | Задает поля заголовка и их значения, используемые в заголовке сообщения электронной почты.<br/> |
-| [**ReplyTo**](taskschedulerschema-replyto-sendemailtype-element.md)           | **string**                                                                   | Указывает адреса электронной почты, на которые вы ответили в сообщении электронной почты.<br/>               |
-| [**Сервером**](taskschedulerschema-server-sendemailtype-element.md)             | [**нонемптистринг**](taskschedulerschema-nonemptystring-simpletype.md)      | Указывает сервер электронной почты, используемый для отправки сообщения электронной почты. <br/>                           |
-| [**Субъект**](taskschedulerschema-subject-sendemailtype-element.md)           | **string**                                                                   | Указывает тему сообщения электронной почты.<br/>                                           |
-| [**Кому**](taskschedulerschema-to-sendemailtype-element.md)                     | **string**                                                                   | Указывает адреса электронной почты, на которые будет отправлено сообщение электронной почты.<br/>                        |
+| [**ReplyTo**](taskschedulerschema-replyto-sendemailtype-element.md)           | **строка**                                                                   | Указывает адреса электронной почты, на которые вы ответили в сообщении электронной почты.<br/>               |
+| [**Сервер**](taskschedulerschema-server-sendemailtype-element.md)             | [**нонемптистринг**](taskschedulerschema-nonemptystring-simpletype.md)      | Указывает сервер электронной почты, используемый для отправки сообщения электронной почты. <br/>                           |
+| [**Тема**](taskschedulerschema-subject-sendemailtype-element.md)           | **строка**                                                                   | Указывает тему сообщения электронной почты.<br/>                                           |
+| [**Кому**](taskschedulerschema-to-sendemailtype-element.md)                     | **строка**                                                                   | Указывает адреса электронной почты, на которые будет отправлено сообщение электронной почты.<br/>                        |
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

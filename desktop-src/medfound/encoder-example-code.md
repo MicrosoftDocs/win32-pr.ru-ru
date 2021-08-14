@@ -1,19 +1,19 @@
 ---
-description: В этом разделе показан пример кода, который служит оболочкой для кодировщика Windows Media Audio (WMA) в классе C++ с именем Квмаенкодер.
+description: в этом разделе показан пример кода, который служит оболочкой для кодировщика Windows Media Audio (WMA) в классе C++ с именем квмаенкодер.
 ms.assetid: 59bd5b6a-86fe-4d39-ab7c-9563ac1a8e94
 title: Пример кода кодировщика
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dfa38e779a7751c22f2c463999619e77e05ef09b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9acf77224b71618068cb42e0b46e15b1063ae333cb1ed3f147ef1ee85e1b4207
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105710819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117879438"
 ---
 # <a name="encoder-example-code"></a>Пример кода кодировщика
 
-В этом разделе показан пример кода, который служит оболочкой для кодировщика Windows Media Audio (WMA) в классе C++ с именем `CWmaEncoder` .
+в этом разделе показан пример кода, который служит оболочкой для кодировщика Windows Media Audio (WMA) в классе C++ с именем `CWmaEncoder` .
 
 -   [Объявление класса](#class-declaration)
 -   [Инициализация](#initialize)
@@ -24,7 +24,7 @@ ms.locfileid: "105710819"
 -   [ProcessInput](#processinput)
 -   [ProcessOutput](#processoutput)
 -   [Остановка](#drain)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 На этот код ссылаются несколько разделов:
 
@@ -428,7 +428,7 @@ HRESULT CWmaEncoder::Drain()
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -3,7 +3,7 @@ title: Сообщение WM_CAP_GET_MCI_DEVICE (VFW. h)
 description: В сообщении о получении крепления WM получается \_ \_ \_ \_ имя устройства MCI, установленное ранее с помощью \_ \_ \_ сообщения устройства mci Set с закреплениями WM \_ . Это сообщение можно отправить явно или с помощью макроса КапжетмЦидевиценаме.
 ms.assetid: c5d7d955-ab6a-4959-b79e-9ff35a282ba2
 keywords:
-- WM_CAP_GET_MCI_DEVICE сообщения Windows мультимедиа
+- сообщение WM_CAP_GET_MCI_DEVICE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d0960ff9aa1366802611f444383212c4bcc45bcb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b9471177693bfbd5646d93e8487395cdf330b8281a1f43fa00d79dc690e6d718
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104488964"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117800661"
 ---
 # <a name="wm_cap_get_mci_device-message"></a>\_Закрепление \_ WM \_ Получение \_ сообщения устройства mci
 
@@ -56,7 +56,7 @@ lParam = (LPARAM) (LPVOID) (LPSTR) (szName);
 
 Возвращает **значение true** в случае успеха или **false** в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

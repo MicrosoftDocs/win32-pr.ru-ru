@@ -21,12 +21,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 56d3a9517df9af92f428000ed064b2bb88b348a0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d53499c383c6fcf9ae2774427afcea2ea339408ff0292a3d4ce15286a4a75298
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672522"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118131323"
 ---
 # <a name="cim_setting-class-remote-desktop-services"></a>Класс CIM_Setting (службы удаленных рабочих столов)
 
@@ -54,13 +54,13 @@ class CIM_Setting : CIM_ManagedSystemElement
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ параметров CIM** имеет эти свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -111,7 +111,7 @@ class CIM_Setting : CIM_ManagedSystemElement
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -202,7 +202,7 @@ class CIM_Setting : CIM_ManagedSystemElement
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

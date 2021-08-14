@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: b7a2f1f71f81296f56be779a4c6eea746ebd0963
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f53bd254699360de760a9ff60d385020b9c48213d19ce40d53b5b3ebc5ce56e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108086242"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118194115"
 ---
 # <a name="iportabledevicevaluesgetcount-method"></a>Метод Ипортабледевицевалуес:: NOCOUNT
 
@@ -61,18 +61,18 @@ HRESULT GetCount(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Портабледевицетипес. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Портабледевицетипес. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>Портабледевицегуидс. lib</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

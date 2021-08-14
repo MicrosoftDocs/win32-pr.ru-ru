@@ -1,24 +1,24 @@
 ---
-description: Интерфейсы для служб редактирования DirectShow
+description: интерфейсы для DirectShow редактирования служб
 ms.assetid: e7fdb387-83b3-4fa2-9608-2f5dc95975bf
-title: Интерфейсы для служб редактирования DirectShow
+title: интерфейсы для DirectShow редактирования служб
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dba286a340693407287ed370ed401ac6b039593c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 00e913ec6bf17a11a4b772d288b9404113cd6bdc70bf441ed20dcbc69a086f9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103806484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118397595"
 ---
-# <a name="interfaces-for-directshow-editing-services"></a>Интерфейсы для служб редактирования DirectShow
+# <a name="interfaces-for-directshow-editing-services"></a>интерфейсы для DirectShow редактирования служб
 
 > [!Note]  
 > \[Не рекомендуется. Этот API может быть удален из будущих выпусков Windows.\]
 
  
 
-В этом разделе содержатся справочные разделы, посвященные интерфейсам [служб редактирования DirectShow](directshow-editing-services.md) (DES).
+в этом разделе содержатся справочные разделы по интерфейсам [служб редактирования DirectShow](directshow-editing-services.md) (DES).
 
 
 
@@ -59,11 +59,11 @@ ms.locfileid: "103806484"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Справочник по службам редактирования DirectShow в C++](directshow-editing-services-c---reference.md)
+[DirectShow Справочник по службам редактирования в C++](directshow-editing-services-c---reference.md)
 </dt> </dl>
 
  

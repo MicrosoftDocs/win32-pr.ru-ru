@@ -8,12 +8,12 @@ keywords:
 - Атрибуты Active Directory, индексированные
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c280d5390d666b6b0f95f49972e4c569f046865b
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: cabd205fea66b198096a9a9427822eb4ba0ccb609fb3e6fef0854fa91848371c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "105654287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118187588"
 ---
 # <a name="indexed-attributes-ad-ds"></a>Индексированные атрибуты (AD DS)
 
@@ -33,16 +33,16 @@ ms.locfileid: "105654287"
 
 ```
 HKEY_LOCAL_MACHINE
-   SYSTEM
-      Current Control Set
-         Services
-            NTDS
-               Diagnostics
-                  9 Internal Processing
+   SYSTEM
+      Current Control Set
+         Services
+            NTDS
+               Diagnostics
+                  9 Internal Processing
 ```
 
 Дополнительные сведения о других битах в свойстве [**searchFlags**](/windows/desktop/ADSchema/a-searchflags) см. в разделе [характеристики атрибутов](characteristics-of-attributes.md).
 
- 
+ 
 
- 
+ 

@@ -5,12 +5,12 @@ ms.assetid: 9821AEDF-E83D-4034-863A-2B820D9B7455
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e41892e7deff23c8d11f8be1c38dac3fcba1de9
-ms.sourcegitcommit: 4c00910ed754d7d0a68c9a833751d714c06e3b39
+ms.openlocfilehash: bc560a71ac602f7c78d41e4805d90cb404c2210790b462fb5353b9e5b3ad48f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "104548967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118529300"
 ---
 # <a name="dynamic-indexing-using-hlsl-51"></a>Динамическое индексирование с помощью HLSL 5.1
 
@@ -19,7 +19,7 @@ ms.locfileid: "104548967"
 -   [Настройка шейдера пикселей](#set-up-the-pixel-shader)
 -   [Настройка корневой подписи](#set-up-the-root-signature)
 -   [Создание текстур](#create-the-textures)
--   [Отправка данных текстуры](#upload-the-texture-data)
+-   [Upload данных текстуры](#upload-the-texture-data)
 -   [Загрузка текстуры диффузии](#load-the-diffuse-texture)
 -   [Создание образца](#create-a-sampler)
 -   [Динамическое изменение индекса корневого параметра](#dynamically-change-the-root-parameter-index)
@@ -100,7 +100,7 @@ fxc /Zi /E"PSSceneMain" /Od /Fo"dynamic_indexing_pixel.cso" /ps"_5_1" /nologo /e
 | [**\_DESC корневой \_ подписи CD3DX12 \_**](cd3dx12-root-signature-desc.md) | [**\_ \_ Флаги корневой подписи D3D12 \_**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_root_signature_flags)   |
 | [**ID3DBlob**](/previous-versions/windows/desktop/legacy/ff728743(v=vs.85))                                   |                                                                       |
 | [**D3D12SerializeRootSignature**](/windows/desktop/api/d3d12/nf-d3d12-d3d12serializerootsignature)    | [**\_Версия корневой \_ СИГНАТУРы D3D \_**](/windows/desktop/api/d3d12/ne-d3d12-d3d_root_signature_version)   |
-| [**креатерутсигнатуре**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createrootsignature)       |                                                                       |
+| [**CreateRootSignature**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createrootsignature)       |                                                                       |
 
 
 
@@ -190,7 +190,7 @@ fxc /Zi /E"PSSceneMain" /Od /Fo"dynamic_indexing_pixel.cso" /ps"_5_1" /nologo /e
 </dl></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommittedresource"><strong>креатекоммиттедресаурце</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommittedresource"><strong>CreateCommittedResource</strong></a></td>
 <td><dl><a href="cd3dx12-heap-properties.md"><strong>CD3DX12_HEAP_PROPERTIES</strong></a><br />
 <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_type"><strong>D3D12_HEAP_TYPE</strong></a><br />
 <a href=""></a>[<strong>D3D12_HEAP_FLAG</strong>] (/Windows/Desktop/API/d3d12/Ne-d3d12-d3d12_heap_flags)<br />
@@ -211,7 +211,7 @@ fxc /Zi /E"PSSceneMain" /Od /Fo"dynamic_indexing_pixel.cso" /ps"_5_1" /nologo /e
 
  
 
-## <a name="upload-the-texture-data"></a>Отправка данных текстуры
+## <a name="upload-the-texture-data"></a>Upload данных текстуры
 
 Данные текстуры передаются в графический процессор через кучу для отправки, а СРВС создаются для каждого и хранятся в куче-дескрипторе SRV.
 
@@ -258,11 +258,11 @@ fxc /Zi /E"PSSceneMain" /Od /Fo"dynamic_indexing_pixel.cso" /ps"_5_1" /nologo /e
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="getrequiredintermediatesize.md"><strong>жетрекуирединтермедиатесизе</strong></a></td>
+<td><a href="getrequiredintermediatesize.md"><strong>GetRequiredIntermediateSize</strong></a></td>
 
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommittedresource"><strong>креатекоммиттедресаурце</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommittedresource"><strong>CreateCommittedResource</strong></a></td>
 <td><dl><a href="cd3dx12-heap-properties.md"><strong>CD3DX12_HEAP_PROPERTIES</strong></a><br />
 <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_type"><strong>D3D12_HEAP_TYPE</strong></a><br />
 <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_flags"><strong>D3D12_HEAP_FLAG</strong></a><br />
@@ -279,7 +279,7 @@ fxc /Zi /E"PSSceneMain" /Od /Fo"dynamic_indexing_pixel.cso" /ps"_5_1" /nologo /e
 
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier"><strong>ресаурцебарриер</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier"><strong>ResourceBarrier</strong></a></td>
 <td><dl><a href="/windows/desktop/direct3d12/cd3dx12-resource-barrier"><strong>CD3DX12_RESOURCE_BARRIER</strong></a><br />
 <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states"><strong>D3D12_RESOURCE_STATES</strong></a><br />
 </dl></td>
@@ -362,7 +362,7 @@ fxc /Zi /E"PSSceneMain" /Od /Fo"dynamic_indexing_pixel.cso" /ps"_5_1" /nologo /e
 </dl></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommittedresource"><strong>креатекоммиттедресаурце</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommittedresource"><strong>CreateCommittedResource</strong></a></td>
 <td><dl><a href="cd3dx12-heap-properties.md"><strong>CD3DX12_HEAP_PROPERTIES</strong></a><br />
 <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_type"><strong>D3D12_HEAP_TYPE</strong></a><br />
 <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_flags"><strong>D3D12_HEAP_FLAG</strong></a><br />
@@ -371,11 +371,11 @@ fxc /Zi /E"PSSceneMain" /Od /Fo"dynamic_indexing_pixel.cso" /ps"_5_1" /nologo /e
 </dl></td>
 </tr>
 <tr class="odd">
-<td><a href="getrequiredintermediatesize.md"><strong>жетрекуирединтермедиатесизе</strong></a></td>
+<td><a href="getrequiredintermediatesize.md"><strong>GetRequiredIntermediateSize</strong></a></td>
 
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommittedresource"><strong>креатекоммиттедресаурце</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommittedresource"><strong>CreateCommittedResource</strong></a></td>
 <td><dl><a href="cd3dx12-heap-properties.md"><strong>CD3DX12_HEAP_PROPERTIES</strong></a><br />
 <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_type"><strong>D3D12_HEAP_TYPE</strong></a><br />
 <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_flags"><strong>D3D12_HEAP_FLAG</strong></a><br />
@@ -388,7 +388,7 @@ fxc /Zi /E"PSSceneMain" /Od /Fo"dynamic_indexing_pixel.cso" /ps"_5_1" /nologo /e
 
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier"><strong>ресаурцебарриер</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier"><strong>ResourceBarrier</strong></a></td>
 <td><dl><a href="/windows/desktop/direct3d12/cd3dx12-resource-barrier"><strong>CD3DX12_RESOURCE_BARRIER</strong></a><br />
 <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states"><strong>D3D12_RESOURCE_STATES</strong></a><br />
 </dl></td>
@@ -461,12 +461,12 @@ D3D12_FLOAT32_MAX (<a href="constants.md"><strong>константы</strong></a
 </dl></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createsampler"><strong>креатесамплер</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createsampler"><strong>CreateSampler</strong></a></td>
 
 </tr>
 <tr class="odd">
 <td><a href="cd3dx12-cpu-descriptor-handle.md"><strong>CD3DX12_CPU_DESCRIPTOR_HANDLE</strong></a></td>
-<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12descriptorheap-getcpudescriptorhandleforheapstart"><strong>жеткпудескрипторхандлефорхеапстарт</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12descriptorheap-getcpudescriptorhandleforheapstart"><strong>GetCPUDescriptorHandleForHeapStart</strong></a></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_shader_resource_view_desc"><strong>D3D12_SHADER_RESOURCE_VIEW_DESC</strong></a></td>
@@ -475,7 +475,7 @@ D3D12_FLOAT32_MAX (<a href="constants.md"><strong>константы</strong></a
 </dl></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createshaderresourceview"><strong>креатешадерресаурцевиев</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createshaderresourceview"><strong>CreateShaderResourceView</strong></a></td>
 
 </tr>
 <tr class="even">
@@ -486,7 +486,7 @@ D3D12_FLOAT32_MAX (<a href="constants.md"><strong>константы</strong></a
 </dl></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createshaderresourceview"><strong>креатешадерресаурцевиев</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createshaderresourceview"><strong>CreateShaderResourceView</strong></a></td>
 
 </tr>
 </tbody>
@@ -527,10 +527,10 @@ D3D12_FLOAT32_MAX (<a href="constants.md"><strong>константы</strong></a
 
 | Поток вызовов                                                                                          | Параметры |
 |----------------------------------------------------------------------------------------------------|------------|
-| [**сетпипелинестате**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpipelinestate)                             |            |
+| [**SetPipelineState**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpipelinestate)                             |            |
 | [**SetGraphicsRoot32BitConstant**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setgraphicsroot32bitconstant)     |            |
-| [**сетграфиксрутдескриптортабле**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setgraphicsrootdescriptortable) |            |
-| [**дравиндексединстанцед**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-drawindexedinstanced)                     |            |
+| [**SetGraphicsRootDescriptorTable**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setgraphicsrootdescriptortable) |            |
+| [**DrawIndexedInstanced**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-drawindexedinstanced)                     |            |
 
 ## <a name="run-the-sample"></a>Запуск примера
 
@@ -542,7 +542,7 @@ D3D12_FLOAT32_MAX (<a href="constants.md"><strong>константы</strong></a
 
 <dl> <dt>
 
-[Пошаговые инструкции по коду D3D12](d3d12-code-walk-throughs.md)
+[Пошаговые руководства по коду D3D12](d3d12-code-walk-throughs.md)
 </dt> <dt>
 
 [Effect — средство компилятора](/windows/desktop/direct3dtools/fxc)
@@ -557,5 +557,5 @@ D3D12_FLOAT32_MAX (<a href="constants.md"><strong>константы</strong></a
 [Модель шейдера 5,1](/windows/desktop/direct3dhlsl/shader-model-5-1)
 </dt> <dt>
 
-[Указание корневых подписей в HLSL](specifying-root-signatures-in-hlsl.md)
+[Определение корневых подписей в HLSL](specifying-root-signatures-in-hlsl.md)
 </dt> </dl>

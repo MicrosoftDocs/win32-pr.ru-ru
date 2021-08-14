@@ -14,12 +14,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: c2e726d97821a7a7143f4971a4918227235adb9c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 723a64b4e34c58b49f0ffa0851af836a536ff86ea23ee1b966a8ec243267950c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262598"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118306372"
 ---
 # <a name="ieventsubscription3subscriberapplicationid-property"></a>Свойство IEventSubscription3:: Субскрибераппликатионид
 
@@ -50,7 +50,7 @@ HRESULT get_SubscriberApplicationID(
 
 Этот метод может возвращать стандартные возвращаемые значения E \_ INVALIDARG, e \_ OUTOFMEMORY, e \_ непредвиденные, e \_ Fail и S \_ ОК.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

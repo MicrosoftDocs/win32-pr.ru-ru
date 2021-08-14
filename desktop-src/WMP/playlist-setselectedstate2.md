@@ -3,7 +3,7 @@ title: Список воспроизведения. setSelectedState2
 description: Метод setSelectedState2 задает выбранное состояние элемента с указанным индексом в элементе списка воспроизведения.
 ms.assetid: 990b834a-f7ed-45b8-99e1-3efd7f4447f4
 keywords:
-- Проигрыватель Windows Media Player. setSelectedState2
+- проигрыватель Windows Media списка воспроизведения. setSelectedState2
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e1a4e317543765fb24755516a0637b16958ad679
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1f952d00486fe2419ab48592c7624299ef466c5dfa2b96d53fefb308fc537488
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105658135"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118335816"
 ---
 # <a name="playlistsetselectedstate2"></a>Список воспроизведения. setSelectedState2
 
@@ -50,17 +50,17 @@ ms.locfileid: "105658135"
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод может работать с вложенными списками воспроизведения и заменять метод **сетселектедстате** , который не может. Вы можете задать для всех элементов запрошенное состояние, указав значение 1 в параметре *Item* .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 

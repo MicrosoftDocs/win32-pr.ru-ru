@@ -1,5 +1,5 @@
 ---
-description: Портативные устройства Windows поддерживают следующие свойства образа.
+description: Windows Портативные устройства поддерживают следующие свойства изображения.
 ms.assetid: fb1707a7-16b0-4073-b21d-2ba2f4fd76f7
 title: Свойства изображения (Портабледевице. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 959a008d9c30991058226e52db6e45ed417ee6e4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0d2ebe552a66dadf6b9bec6a0a741d85e1c7f1f018ef108e36ec1bb3cb4b6165
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118430763"
 ---
 # <a name="image-properties"></a>Свойства изображения
 
-Портативные устройства Windows поддерживают следующие свойства образа.
+Windows Портативные устройства поддерживают следующие свойства изображения.
 
 
 
@@ -41,13 +41,13 @@ ms.locfileid: "105669453"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Портабледевице. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Портабледевице. h</dt> </dl> |
 
 
 

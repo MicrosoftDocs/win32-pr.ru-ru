@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 2e391e942e581d0f80d46b0f59b9b273d7bff499
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3893b7acef182005603f4a80a51caf159b54dd31cc2a966d5dc9940a5164681d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655674"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118418517"
 ---
 # <a name="takeownershipex-method-of-the-win32_directory-class"></a>Метод Такеовнершипекс \_ класса каталога Win32
 
@@ -123,7 +123,7 @@ uint32 TakeOwnerShipEx(
 **12**
 </dt> <dd>
 
-Платформа не является Windows.
+Платформа не Windows.
 
 </dd> <dt>
 
@@ -171,7 +171,7 @@ uint32 TakeOwnerShipEx(
 
 ## <a name="examples"></a>Примеры
 
-Следующий код скрипта Visual Basic вызывает метод [**такеовнершипекс**](takeownershipex-method-in-class-cim-directory.md) , чтобы стать владельцем папки C: \\ TEMP.
+следующий код скрипта Visual Basic вызывает метод [**такеовнершипекс**](takeownershipex-method-in-class-cim-directory.md) , чтобы стать владельцем папки C: \\ temp.
 
 
 ```VB
@@ -195,7 +195,7 @@ wscript.echo objOutParams.ReturnValue
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

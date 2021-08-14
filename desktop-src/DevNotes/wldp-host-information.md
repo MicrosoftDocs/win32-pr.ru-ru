@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - wldp.h
-ms.openlocfilehash: ad20be7fa5887e42c09248d04e14f5ff8cffcd54
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: cc1bed8fd104b4aa6abb83d3eb7e19faa37a0301429312c8f0799e256ce32ec6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104072357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118404073"
 ---
 # <a name="wldp_host_information-structure"></a>\_ \_ Структура сведений о узле WLDP
 
@@ -70,14 +70,14 @@ typedef struct _WLDP_HOST_INFORMATION {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                              |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                              |
 | Header<br/>                   | <dl> <dt>Wldp. h</dt> </dl> |
 
 

@@ -26,12 +26,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 00a37d52add8c9697371fd0ee8d0a24d9c487f61
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4c10da966b4568a3296b93e2cbb8cd2408601d344b71d3dfcc5a21f9ca7bd2ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990526"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118420391"
 ---
 # <a name="cim_versioncompatibilitycheck-class"></a>\_Класс CIM версионкомпатибилитичекк
 
@@ -80,7 +80,7 @@ class CIM_VersionCompatibilityCheck : CIM_Check
 
 | Метод                                                                 | Описание                                                   |
 |:-----------------------------------------------------------------------|:--------------------------------------------------------------|
-| [**Вызвать**](invoke-method-in-class-cim-versioncompatibilitycheck.md) | Выполняет определенное действие. Не реализовано инструментарием WMI.<br/> |
+| [**Invoke**](invoke-method-in-class-cim-versioncompatibilitycheck.md) | Выполняет определенное действие. Не реализовано инструментарием WMI.<br/> |
 
 
 
@@ -118,7 +118,7 @@ class CIM_VersionCompatibilityCheck : CIM_Check
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -186,7 +186,7 @@ class CIM_VersionCompatibilityCheck : CIM_Check
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -433,7 +433,7 @@ HP-UX
 
 </dt> <dd>
 
-Windows 3. x
+Windows 3
 
 </dd> <dt>
 
@@ -515,7 +515,7 @@ Windows CE
 
 <span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>
 
-<span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>**Зависящая от UNIX** (24)
+<span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>**зависящие UNIX** (24)
 
 
 </dt> <dd></dd> <dt>
@@ -643,7 +643,7 @@ BS2000/OSD
 
 <span id="Interactive_UNIX"></span><span id="interactive_unix"></span><span id="INTERACTIVE_UNIX"></span>
 
-<span id="Interactive_UNIX"></span><span id="interactive_unix"></span><span id="INTERACTIVE_UNIX"></span>**Интерактивная UNIX** (40)
+<span id="Interactive_UNIX"></span><span id="interactive_unix"></span><span id="INTERACTIVE_UNIX"></span>**интерактивный UNIX** (40)
 
 
 </dt> <dd></dd> <dt>
@@ -655,7 +655,7 @@ BS2000/OSD
 
 </dt> <dd>
 
-ОС BSD UNIX
+UNIX BSD
 
 </dd> <dt>
 
@@ -809,7 +809,7 @@ Mac OS 9
 
 </dd> <dt>
 
-**Version**
+**Версия**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -832,13 +832,13 @@ Mac OS 9
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Инструментарий WMI не реализует этот класс.
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

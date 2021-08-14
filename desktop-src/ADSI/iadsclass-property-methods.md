@@ -59,12 +59,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 358bc33347f035af92303a4ce9879105cd247a3f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0b8640c6a1d1f12ef959530b72618a503245992fae791dce4e6b9e9aec05bcb6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118428303"
 ---
 # <a name="iadsclass-property-methods"></a>Методы свойств Иадскласс
 
@@ -74,7 +74,7 @@ ms.locfileid: "104136882"
 
 <dl> <dt>
 
-**Выделяет**
+**Аннотация**
 </dt> <dd> <dl>
 
 Логическое значение, указывающее, является ли этот класс абстрактным или неабстрактным. Если **значение равно true**, этот класс является абстрактным и не может быть создан напрямую в службе каталогов. Абстрактные классы могут использоваться только как классы суперклассов.
@@ -568,7 +568,7 @@ Cleanup:
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

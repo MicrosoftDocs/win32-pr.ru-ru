@@ -15,12 +15,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 53464073dd59837ba8026bbec03118055fba20cd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 62edb05f401c5ed69092c432f20a7ee96c98afd369e4a4cb0a1acde30e166013
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119413024"
 ---
 # <a name="cleanupcredentialcache-function"></a>Функция Клеанупкредентиалкаче
 
@@ -43,7 +43,7 @@ BOOL WINAPI CleanupCredentialCache(void);
 
 **Значение true** , если функция выполнена. в противном случае — **значение false**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **клеанупкредентиалкаче** реализуется следующими поставщиками общих служб:
 
@@ -59,11 +59,11 @@ BOOL WINAPI CleanupCredentialCache(void);
 Как и все остальные аспекты API WinINet, эта функция не может быть безопасно вызвана из DllMain или конструкторов и деструкторов глобальных объектов.
 
 > [!Note]  
-> WinINet не поддерживает реализации серверов. Кроме того, его не следует использовать из службы. Для серверных реализаций или служб используйте [службы Microsoft Windows HTTP Services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet не поддерживает реализации серверов. Кроме того, его не следует использовать из службы. для серверных реализаций или служб используйте [Microsoft Windows HTTP services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

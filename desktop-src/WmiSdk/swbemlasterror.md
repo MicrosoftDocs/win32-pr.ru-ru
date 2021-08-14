@@ -39,12 +39,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: a00d8e3421800acab7cc4958ddc1e6a75f101958
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a73312c38857b57f3ffeec8fcaf8a9ea5847001393d0a03d4916da76ffcb8c0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118314463"
 ---
 # <a name="swbemlasterror-object"></a>Объект Свбемластеррор
 
@@ -71,20 +71,20 @@ ms.locfileid: "105692704"
 | **ассоЦиаторсасинк\_**                                   | Не используется. Объект [**SWbemObject**](swbemobject.md) предоставляет тот же метод.<br/> |
 | [**Клонировать\_**](swbemlasterror-clone-.md)                 | Создает копию текущего объекта.<br/>                                               |
 | [**CompareTo\_**](swbemlasterror-compareto-.md)         | Проверяет два объекта на равенство.<br/>                                                   |
-| **Удалить\_**                                             | Не используется. Объект [**SWbemObject**](swbemobject.md) предоставляет тот же метод.<br/> |
+| **Удален\_**                                             | Не используется. Объект [**SWbemObject**](swbemobject.md) предоставляет тот же метод.<br/> |
 | **DeleteAsync\_**                                        | Не используется. Объект [**SWbemObject**](swbemobject.md) предоставляет тот же метод.<br/> |
 | **ExecMethod\_**                                         | Не используется. Объект [**SWbemObject**](swbemobject.md) предоставляет тот же метод.<br/> |
 | **ексекмесодасинк\_**                                    | Не используется. Объект [**SWbemObject**](swbemobject.md) предоставляет тот же метод.<br/> |
 | [**жетобжекттекст\_**](swbemlasterror-getobjecttext-.md) | Извлекает текстовое представление объекта, написанного с помощью синтаксиса MOF.<br/>       |
-| **Экземпляры\_**                                          | Не используется. Объект [**SWbemObject**](swbemobject.md) предоставляет тот же метод.<br/> |
+| **Вхождений\_**                                          | Не используется. Объект [**SWbemObject**](swbemobject.md) предоставляет тот же метод.<br/> |
 | **инстанцесасинк\_**                                     | Не используется. Объект [**SWbemObject**](swbemobject.md) предоставляет тот же метод.<br/> |
 | **PUT\_**                                                | Не используется. Объект [**SWbemObject**](swbemobject.md) предоставляет тот же метод.<br/> |
 | **путасинк\_**                                           | Не используется. Объект [**SWbemObject**](swbemobject.md) предоставляет тот же метод.<br/> |
-| **Ссылки\_**                                         | Не используется. Объект [**SWbemObject**](swbemobject.md) предоставляет тот же метод.<br/> |
+| **Справочные материалы\_**                                         | Не используется. Объект [**SWbemObject**](swbemobject.md) предоставляет тот же метод.<br/> |
 | **референцесасинк\_**                                    | Не используется. Объект [**SWbemObject**](swbemobject.md) предоставляет тот же метод.<br/> |
 | **SpawnDerivedClass\_**                                  | Не используется. Объект [**SWbemObject**](swbemobject.md) предоставляет тот же метод.<br/> |
 | **SpawnInstance\_**                                      | Не используется. Объект [**SWbemObject**](swbemobject.md) предоставляет тот же метод.<br/> |
-| **Подклассы\_**                                         | Не используется. Объект [**SWbemObject**](swbemobject.md) предоставляет тот же метод.<br/> |
+| **используются подклассы ;\_**                                         | Не используется. Объект [**SWbemObject**](swbemobject.md) предоставляет тот же метод.<br/> |
 | **субклассесасинк\_**                                    | Не используется. Объект [**SWbemObject**](swbemobject.md) предоставляет тот же метод.<br/> |
 
 
@@ -238,7 +238,7 @@ else
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -7,12 +7,12 @@ keywords:
 - Ресурс ресурса TEXTINCLUDE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8887c002bc3564288eb99fdb373ac26c286d1bf7
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 4937eb9d5fb9bba7b174aa9543be8b3f2eb41c90c6bc20a72650114f57fb4fa8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103987498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117869910"
 ---
 # <a name="resource-definition-statements"></a>Операторы Resource-Definition
 
@@ -38,7 +38,7 @@ ms.locfileid: "103987498"
 | [**Откроется**](dialog-resource.md)             | Определяет шаблон, который приложение может использовать для создания диалоговых окон.                                                                                                          |
 | [**диаложекс**](dialogex-resource.md)         | Определяет шаблон, который приложение может использовать для создания диалоговых окон.                                                                                                          |
 | [**ШРИФТОВ**](font-resource.md)                 | Указывает имя файла, содержащего шрифт.                                                                                                                              |
-| [**HTML**](html-resource.md)                 | Указывает HTML-файл.                                                                                                                                                         |
+| [**ЭЛЕМЕНТОВ**](html-resource.md)                 | Указывает HTML-файл.                                                                                                                                                         |
 | [**ЗНАЧОК**](icon-resource.md)                 | Определяет значок или анимированный значок путем его именования и указания имени файла, содержащего его. (Чтобы использовать определенный значок, приложение запрашивает его по имени.)            |
 | [**МЕНЮ**](menu-resource.md)                 | Определяет внешний вид и функцию меню.                                                                                                                                  |
 | [**менуекс**](menuex-resource.md)             | Определяет внешний вид и функцию меню.                                                                                                                                  |
@@ -55,7 +55,7 @@ ms.locfileid: "103987498"
 
 
 
- 
+ 
 
 Дополнительные сведения о предопределенных ресурсах MFC см. в разделе [TN023](/cpp/mfc/tn023-standard-mfc-resources?view=vs-2019) и [TN024](/cpp/mfc/tn024-mfc-defined-messages-and-resources?view=vs-2019).
 
@@ -63,14 +63,14 @@ ms.locfileid: "103987498"
 
 
 
-| Control                                            | Описание                                                                 |
+| Элемент                                            | Описание                                                                 |
 |----------------------------------------------------|-----------------------------------------------------------------------------|
 | [**AUTO3STATE**](auto3state-control.md)           | Создает автоматически контрольный флажок с тремя состояниями.                         |
 | [**Автофлажок**](autocheckbox-control.md)       | Создает элемент управления "Автоматический флажок".                                     |
 | [**Автоradiobutton**](autoradiobutton-control.md) | Создает автоматический элемент управления "переключатель".                                  |
 | [**Установка**](checkbox-control.md)               | Создает элемент управления "флажок".                                                |
 | [**COMBOBOX**](combobox-control.md)               | Создает элемент управления "поле со списком".                                                |
-| [**CONTROL**](control-control.md)                 | Создает элемент управления, определяемый приложением.                                     |
+| [**ЭЛЕМЕНТА**](control-control.md)                 | Создает элемент управления, определяемый приложением.                                     |
 | [**СТОЛБЕЦ CTEXT**](ctext-control.md)                     | Создает элемент управления с центром текста.                                            |
 | [**дефпушбуттон**](defpushbutton-control.md)     | Создает элемент управления "кнопка по умолчанию".                                       |
 | [**EDITTEXT**](edittext-control.md)               | Создает элемент управления Edit.                                                    |
@@ -87,7 +87,7 @@ ms.locfileid: "103987498"
 
 
 
- 
+ 
 
 ## <a name="statements"></a>Инструкции
 
@@ -108,8 +108,8 @@ ms.locfileid: "103987498"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
