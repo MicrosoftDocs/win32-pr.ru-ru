@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6c6809f56c8b589c97b103fdd71ccbd1292110ad
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 872e1df390dda30739881d9f221f5d6c63bbfbca311a1f07c3d94eac8c4d43d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104986409"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118506503"
 ---
 # <a name="texturecubearraygathergreensfloatuint-function"></a>Функция Текстурекубеаррай:: Гасергрин (S, float, uint)
 
@@ -74,7 +74,7 @@ TemplateType GatherGreen(
 
 Значение из четырех компонентов, тип которого совпадает с типом шаблона.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Примеры текстур можно использовать для интерполяции билинейной.
 
@@ -82,7 +82,7 @@ TemplateType GatherGreen(
 
 
 
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
+| Вершина | Поверхности | Домен | Геометрия | Пиксель | Службы вычислений |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

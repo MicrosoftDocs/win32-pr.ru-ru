@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - NewDev.dll
-ms.openlocfilehash: 76a458ae071c61b9f1030aad535c4d4c6a31078c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: cb12e87ceee4812ffc8c0e39d961ce631e26c4ab8ca7ae555785c8ad8381ca01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104142211"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118405313"
 ---
 # <a name="installnewdevice-function"></a>Функция Инсталлневдевице
 
@@ -72,7 +72,7 @@ BOOL WINAPI InstallNewDevice(
 
 Эта функция не имеет связанной библиотеки импорта. Для динамической привязки к NewDev.dll необходимо использовать функции [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

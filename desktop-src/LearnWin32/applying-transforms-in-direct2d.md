@@ -4,12 +4,12 @@ description: Применение преобразований в Direct2D
 ms.assetid: 4b54dcfc-f915-4e4a-aa88-ee23c341c2a4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8edddbb3150f16428c56bd4c6da828c9b2ce594e
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: ab83cb9a7981ada944de07e362c2f568889a84a4f90f2171150fbab948ab3a6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103791653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118388494"
 ---
 # <a name="applying-transforms-in-direct2d"></a>Применение преобразований в Direct2D
 
@@ -109,7 +109,7 @@ void Scene::RenderScene()
 }
 ```
 
-Вы можете скачать полный проект Visual Studio из [примера Direct2D Clock](direct2d-clock-sample.md). (Только для развлечений, в качестве версии для загрузки добавляется радиальная градианта на циферблат часов.)
+вы можете скачать полный проект Visual Studio из [примера Direct2D Clock](direct2d-clock-sample.md). (Только для развлечений, в качестве версии для загрузки добавляется радиальная градианта на циферблат часов.)
 
 ## <a name="combining-transforms"></a>Объединение преобразований
 

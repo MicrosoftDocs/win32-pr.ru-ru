@@ -3,7 +3,7 @@ title: Сообщение MCIWNDM_OPENINTERFACE (VFW. h)
 description: Сообщение МЦИВНДМ \_ опенинтерфаце присоединяет поток данных или файл, связанный с указанным интерфейсом, к окну мЦивнд. Это сообщение можно отправить явно или с помощью макроса МЦивндопенинтерфаце.
 ms.assetid: 73cbd637-d315-4b39-a978-2b72aed1f303
 keywords:
-- MCIWNDM_OPENINTERFACE сообщения Windows мультимедиа
+- сообщение MCIWNDM_OPENINTERFACE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c40453f4d587429508a5aae19bc432fc46088ae
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 83097ad6301dbfdb4636a8478c2df8e544207df334efd27fe9695f15e0693533
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104414724"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118373548"
 ---
 # <a name="mciwndm_openinterface-message"></a>\_Сообщение мЦивндм опенинтерфаце
 
@@ -49,7 +49,7 @@ lParam = (LPARAM) (LPUNKNOWN) pUnk;
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

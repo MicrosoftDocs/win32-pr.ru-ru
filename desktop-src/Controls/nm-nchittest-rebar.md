@@ -3,7 +3,7 @@ title: Код уведомления NM_NCHITTEST (Главная панель) 
 description: Код уведомления NM_NCHITTEST (Главная панель) — отправляется элементом управления главной панели, когда элемент управления получает \_ сообщение WM нчиттест. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: b345d83e-682d-4067-a783-689d64f9b7bc
 keywords:
-- Элементы управления Windows для кода уведомления NM_NCHITTEST (Главная панель)
+- элементы управления Windows кода уведомления NM_NCHITTEST (главная панель)
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a7935f1b3e990db55518c9d22537e8fb6db97962
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: b5831ca9dbeda35c7757613cae1d31db921aa80f4b749d4c9407339a2531abcf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108112332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118410705"
 ---
 # <a name="nm_nchittest-rebar-notification-code"></a>\_Код уведомления "NM нчиттест" (Главная панель)
 
@@ -49,14 +49,14 @@ NM_NCHITTEST
 
 Возвращает ноль, чтобы разрешить главной панели выполнять обработку сообщения проверки попадания по умолчанию или возвращать одно из значений НТ, \* задокументированных в [**\_ нчиттест WM**](/windows/desktop/inputdev/wm-nchittest) , для переопределения обработки проверки нажатия по умолчанию.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

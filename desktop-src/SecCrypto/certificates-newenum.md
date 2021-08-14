@@ -1,5 +1,5 @@
 ---
-description: '\_Свойство NewEnum сертификатов Извлекает интерфейс IEnumVARIANT для объекта, который можно использовать для перечисления коллекции. Это свойство скрыто в Visual Basic Scripting Edition (VBScript).'
+description: '\_Свойство NewEnum сертификатов Извлекает интерфейс IEnumVARIANT для объекта, который можно использовать для перечисления коллекции. это свойство скрыто в Visual Basic scripting Edition (VBScript).'
 ms.assetid: bbe6c82c-1949-4d81-bb87-3f05613efa6d
 title: Certificates._NewEnum, свойство
 ms.topic: reference
@@ -13,18 +13,18 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 71760f23bbb19d32c3caf8011eb87b8d03941eac
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: eab4395e24b12b8e9492c6f18f595a91e192a59c53309411433b49881cd4fd4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689404"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117770516"
 ---
 # <a name="certificates_newenum-property"></a>Сертификаты. \_ Свойство NewEnum
 
 \[CAPICOM — это 32-разрядный компонент, доступный для использования в следующих операционных системах: Windows Server 2008, Windows Vista и Windows XP. Вместо этого используйте [**класс X509Certificate2Collection**](/dotnet/api/system.security.cryptography.x509certificates.x509certificate2collection?view=netcore-3.1) в пространстве имен [**System. Security. Cryptography. X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) .\]
 
-Свойство **\_ NewEnum** Извлекает интерфейс [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) для объекта, который можно использовать для перечисления коллекции. Это свойство скрыто в Visual Basic Scripting Edition (VBScript).
+Свойство **\_ NewEnum** Извлекает интерфейс [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) для объекта, который можно использовать для перечисления коллекции. это свойство скрыто в Visual Basic scripting Edition (VBScript).
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -39,11 +39,11 @@ Certificates._NewEnum As IUnknown
 
 Интерфейс [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) объекта, который может использоваться для перечисления коллекции.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Это свойство автоматически используется для внутренних целей при использовании `For Each In` конструкции в Visual Basic Scripting Edition (VBScript).
+это свойство автоматически используется для внутренних целей при использовании `For Each In` конструкции в Visual Basic scripting Edition (VBScript).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

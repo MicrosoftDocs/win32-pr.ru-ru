@@ -8,12 +8,12 @@ keywords:
 - Active Directory, использование, взаимная проверка подлинности, RPC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05a8591056293c916205b5b600c1b1a061d169f0
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 75c7d5ea3632d08671861b72267419efd54c1a6a89770fbde72543596b29fa8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103890407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118186059"
 ---
 # <a name="mutual-authentication-in-rpc-applications"></a>Взаимная проверка подлинности в приложениях RPC
 
@@ -53,11 +53,11 @@ ms.locfileid: "103890407"
 
 Дополнительные сведения об олицетворении клиента RPC см. в разделе [олицетворение](/windows/desktop/Rpc/client-impersonation)клиента.
 
-Дополнительные сведения можно найти в разделе
+Дополнительные сведения см. в разделе:
 
 -   [Публикация с помощью службы имен RPC (Рпкнс)](publishing-with-the-rpc-name-service-rpcns.md)
 -   [Основы безопасности RPC](/windows/desktop/Rpc/rpc-security-essentials)
 
- 
+ 
 
- 
+ 

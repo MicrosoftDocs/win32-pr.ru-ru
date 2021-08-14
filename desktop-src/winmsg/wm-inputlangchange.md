@@ -1,15 +1,15 @@
 ---
 description: Отправляется в самое верхнее окно после изменения языка ввода приложения. Необходимо внести все зависящие от приложения параметры и передать сообщение функции Дефвиндовпрок, которая передает сообщение всем дочерним окнам первого уровня.
 ms.assetid: 4d403b1d-f6f7-40d5-9bf5-6a9c4da0803c
-title: Сообщение WM_INPUTLANGCHANGE (Winuser. h)
+title: Сообщение WM_INPUTLANGCHANGE (Winuser.h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b7e2ceb943290fceab13bf6f22c3d9dafbac27a8
-ms.sourcegitcommit: 40dddb65cba5c5470631f1f4c78218edf7e515de
+ms.openlocfilehash: 72f56367045fe72a8288220e1aeef662e648d702c3b48ead23bf179142dff92c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/01/2021
-ms.locfileid: "108332409"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118436249"
 ---
 # <a name="wm_inputlangchange-message"></a>\_Сообщение ИНПУТЛАНГЧАНЖЕ WM
 
@@ -51,7 +51,7 @@ ms.locfileid: "108332409"
 
 Приложение должно вернуть ненулевое значение, если обрабатывает это сообщение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Вы можете получить [имя локали](../Intl/locale-names.md) клавиатуры с помощью функции [лЦидтолокаленаме](/windows/win32/api/winnls/nf-winnls-lcidtolocalename) . С помощью имени языкового стандарта можно использовать [современные функции языкового стандарта](/windows/win32/intl/calling-the--locale-name--functions):
 
@@ -67,21 +67,21 @@ case WM_INPUTLANGCHANGE:
 }
 ```
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 ## <a name="see-also"></a>См. также раздел
 
-**Ссылка**
+**Ссылки**
 
 - [**дефвиндовпрок**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 - [**WM \_ инпутлангчанжерекуест**](wm-inputlangchangerequest.md)
 
-**Основные понятия**
+**Зрения**
 
 - [Windows](windows.md) 

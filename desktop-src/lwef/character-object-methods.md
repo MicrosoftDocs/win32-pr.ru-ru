@@ -4,20 +4,20 @@ description: Методы символьных объектов
 ms.assetid: 0f926b7b-c1cf-4bd6-ba8c-1b2877eb1d24
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 19bb0dbb256c99660cbce1613c9fdd27d85a92dc
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 141c0fbcfe26e198984fd4a4d8c6c67858085e41178786d2cb78d2938231fdf2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103987375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118480318"
 ---
 # <a name="character-object-methods"></a>Методы символьных объектов
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 Сервер также предоставляет методы для каждого символа в коллекции [**символов**](/windows/desktop/lwef/the-characters-object) . Поддерживаются следующие методы:
 
--   [**Вызова**](activate-method.md)
+-   [**Активировать**](activate-method.md)
 -   [**жестуреат**](gestureat-method.md)
 -   [**Получить**](get-method.md)
 -   [**Скрыть**](hide-method.md)
@@ -25,15 +25,15 @@ ms.locfileid: "103987375"
 -   [**Прослушивание**](listen-method.md)
 -   [**MoveTo**](moveto-method.md)
 -   [**Воспроизведение**](play-method.md)
--   [**Казывающи**](show-method.md)
+-   [**Показать**](show-method.md)
 -   [**шовпопупмену**](showpopupmenu-method.md)
 -   [**Speak**](speak-method.md)
--   [**Stop**](stop-method.md)
+-   [**Позиции**](stop-method.md)
 -   [**стопалл**](stopall-method.md)
 -   [**Ситуацию**](think-method.md)
 -   [**Ожидание**](wait-method.md)
 
-Чтобы использовать метод, сослаться на символ в коллекции. В VBScript и Visual Basic это можно сделать, указав идентификатор символа:
+Чтобы использовать метод, сослаться на символ в коллекции. в VBScript и Visual Basic это можно сделать, указав идентификатор символа:
 
 
 ```
@@ -52,7 +52,7 @@ ms.locfileid: "103987375"
 
 
 
-Чтобы упростить синтаксис кода, можно определить переменную объекта и задать для нее ссылку на символьный объект в коллекции [**символов**](/windows/desktop/lwef/the-characters-object) . Затем можно использовать переменную для ссылки на методы или свойства символа. В следующем примере показано, как это можно сделать с помощью инструкции Visual Basic Set:
+Чтобы упростить синтаксис кода, можно определить переменную объекта и задать для нее ссылку на символьный объект в коллекции [**символов**](/windows/desktop/lwef/the-characters-object) . Затем можно использовать переменную для ссылки на методы или свойства символа. в следующем примере показано, как это можно сделать с помощью инструкции Visual Basic Set:
 
 
 ```
@@ -81,7 +81,7 @@ ms.locfileid: "103987375"
 
 
 
-В Visual Basic 5,0 можно также создать ссылку, объявляя переменную как [**символьный**](/windows/desktop/lwef/the-characters-object)объект:
+в Visual Basic 5,0 можно также создать ссылку, объявляя переменную как [**символьный**](/windows/desktop/lwef/the-characters-object)объект:
 
 
 ```
@@ -171,6 +171,6 @@ ms.locfileid: "103987375"
 
 
 
- 
+ 
 
- 
+ 

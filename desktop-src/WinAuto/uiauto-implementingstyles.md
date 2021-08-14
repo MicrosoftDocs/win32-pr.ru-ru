@@ -15,12 +15,12 @@ keywords:
 - интерфейсы, Истилеспровидер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 611e2f1979aaa4744ce3ff39965053f63399b2b9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a66e52a6829e592cc659d5ce47b51a09b6d8910d4bd2c41a1e03c9b661d027fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103793351"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118324092"
 ---
 # <a name="styles-control-pattern"></a>Шаблон элемента управления Styles
 
@@ -32,7 +32,7 @@ ms.locfileid: "103793351"
 
 -   [Правила и соглашения реализации](#implementation-guidelines-and-conventions)
 -   [Обязательные члены для **истилеспровидер**](#required-members-for-istylesprovider)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="implementation-guidelines-and-conventions"></a>Правила и соглашения реализации
 
@@ -59,17 +59,17 @@ ms.locfileid: "103793351"
 | [**FillColor**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-istylesprovider-get_fillcolor)                       | Свойство    | Нет  |
 | [**филлпаттернколор**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-istylesprovider-get_fillpatterncolor)         | Свойство    | Нет  |
 | [**филлпаттернстиле**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-istylesprovider-get_fillpatternstyle)         | Свойство    | Нет  |
-| [**Фигурная**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-istylesprovider-get_shape)                               | Свойство    | Нет  |
+| [**Фигура**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-istylesprovider-get_shape)                               | Свойство    | Нет  |
 | [**стилеид**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-istylesprovider-get_styleid)                           | Свойство    | Нет  |
 | [**ИмяСтиля**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-istylesprovider-get_stylename)                       | Свойство    | Нет  |
 
 
 
- 
+ 
 
 Этот шаблон элемента управления не имеет связанных методов или событий.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -82,6 +82,6 @@ ms.locfileid: "103793351"
 [Общие сведения о дереве модели автоматизации пользовательского интерфейса](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

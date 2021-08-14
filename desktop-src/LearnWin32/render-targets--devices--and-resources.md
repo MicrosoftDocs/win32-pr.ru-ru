@@ -4,12 +4,12 @@ description: Отрисовка целевых объектов, устройс�
 ms.assetid: cf48c2ce-16ad-4e61-8900-501c7c27da23
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eeddd84e12c52e0fd0ae82dab8b5e8741a2e0891
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 381d6e696cc9dce47cc8dad05b0e546371d50c51012daba725eb08f20d247eae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104337201"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118387646"
 ---
 # <a name="render-targets-devices-and-resources"></a>Отрисовка целевых объектов, устройств и ресурсов
 
@@ -147,6 +147,6 @@ HRESULT MainWindow::CreateGraphicsResources()
 
 [Рисование с использованием Direct2D](drawing-with-direct2d.md)
 
- 
+ 
 
- 
+ 

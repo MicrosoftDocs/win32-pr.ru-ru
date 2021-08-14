@@ -11,12 +11,12 @@ api_name:
 - subscriberIdType
 api_type:
 - Schema
-ms.openlocfilehash: c3c776bbd721bbb03b4f5549f87d48248a35206b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aac83be84ae313f572d82e6b4c9a2afb14beeb7e15c531eaae7efd67bcc90464
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104072723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117881368"
 ---
 # <a name="subscriberidtype-simple-type"></a>Простой тип Субскриберидтипе
 
@@ -34,13 +34,13 @@ ms.locfileid: "104072723"
 </xs:simpleType>
 ```
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 7 \|\]<br/> |
+| Минимальная версия клиента<br/> | \[приложения UWP для классических приложений Windows 7 \|\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                         |
 
 

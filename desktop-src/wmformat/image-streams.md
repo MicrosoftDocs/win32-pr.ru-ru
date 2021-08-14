@@ -3,21 +3,21 @@ title: Потоки изображений
 description: Потоки изображений
 ms.assetid: 17a945aa-463a-4aac-82cc-68b49c720c0a
 keywords:
-- Windows Media Format SDK, потоки изображений
+- Windows Пакет SDK для формата мультимедиа, потоки изображений
 - Расширенный системный формат (ASF), потоки изображений
 - ASF (Расширенный системный формат), потоки изображений
-- Windows Media Format SDK, потоки
+- Windows Пакет SDK для формата мультимедиа, потоки
 - Расширенный системный формат (ASF), потоки
 - ASF (Расширенный системный формат), потоки
 - потоки изображений, о
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 280d029715a3c722d05ee335a3a88ae4632cabbb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c2067710e6b2be627bd16125d73e567a2f1ba1557ae01b81f55712d8c5a7b8bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104331608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118702868"
 ---
 # <a name="image-streams"></a>Потоки изображений
 
@@ -25,25 +25,25 @@ ms.locfileid: "104331608"
 
 Потоки изображений подобны видеопотокам в том, что они создаются из несжатых образцов, сжатых как часть процесса записи файлов, но они также подобны произвольным потокам, так как необходимо назначить для содержимого скорость потока и окно буфера, не полагаясь на свойства, назначенные кодеком.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[**Произвольные потоки**](arbitrary-streams.md)
+[**произвольный Потоки**](arbitrary-streams.md)
 </dt> <dt>
 
 [**Функции файлов ASF**](asf-file-features.md)
 </dt> <dt>
 
-[**Потоки аудио и видео**](audio-and-video-streams.md)
+[**аудио и видео Потоки**](audio-and-video-streams.md)
 </dt> <dt>
 
-[**Запись потоков изображений**](writing-image-streams.md)
+[**запись образа Потоки**](writing-image-streams.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

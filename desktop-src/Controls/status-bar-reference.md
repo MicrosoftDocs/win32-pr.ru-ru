@@ -1,17 +1,17 @@
 ---
-title: Строка состояния
+title: Status Bar
 description: В этом разделе содержатся сведения об элементах программирования, используемых элементами управления "строка состояния".
 ms.assetid: 77923055-9d00-4528-bda7-b602a26b577f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca6e46f1c573b75439cc10aa27ae3245e47e3de9
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: a1be3ea518b63118fc80b02b382943c40ba2fd13b15713488b351b5d6cc827e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "103794767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119696494"
 ---
-# <a name="status-bar"></a>Строка состояния
+# <a name="status-bar"></a>Status Bar
 
 В этом разделе содержатся сведения об элементах программирования, используемых элементами управления "строка состояния".
 

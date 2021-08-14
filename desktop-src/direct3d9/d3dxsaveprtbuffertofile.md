@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: b796ee24be44bf65be7df938bdfe85d6784cc5f3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0bfa3d06970d138ff1c868403c20bb41cf14f0a5cbb7116cbe0f0843a51258dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694134"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118524534"
 ---
 # <a name="d3dxsaveprtbuffertofile-function"></a>Функция D3DXSavePRTBufferToFile
 
@@ -54,7 +54,7 @@ HRESULT D3DXSavePRTBufferToFile(
 
 Если метод выполнен успешно, возвращается значение **D3D \_ ОК**. В случае сбоя метода возвращаемое значение может быть **D3DERR \_ инвалидкалл**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Параметр компилятора также определяет версию функции. Если определен Юникод, вызов функции разрешается в [D3DXSavePRTBufferToFileW](). В противном случае вызов функции разрешается в **D3DXSavePRTBufferToFileA**.
 
@@ -76,11 +76,11 @@ struct PRTHeader
 
 Блок данных, следующий за заголовком, — это `NumSamples * NumCoeffs * NumChannels * sizeof(float)` байты.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 ## <a name="see-also"></a>См. также раздел

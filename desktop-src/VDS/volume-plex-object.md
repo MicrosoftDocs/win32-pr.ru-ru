@@ -4,16 +4,16 @@ ms.assetid: 9e770bfc-2bcb-45f0-a7fc-ba526349839e
 title: Объект плекса тома
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54a858bc6ce98761bb687e8dca473b1b68879da8
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: c140cbf50e1939be7f62499aa90a299e07c157cd22b1a2e039e5e7bb2053b497
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104350892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118603035"
 ---
 # <a name="volume-plex-object"></a>Объект плекса тома
 
-\[Начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API управления хранилищами Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API Windows служба хранилища управления](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 Объект плекса тома моделирует Плекс тома, содержащийся в томе. Только зеркальный том может иметь несколько плексов; все остальные типы томов имеют один плекс. Каждый плекс содержит копию данных на томе. Служба VDS поддерживает четыре типа плексов томов: простой, составной, чередующийся и чередующийся с четностью. Описание каждого из этих типов томов см. в разделе [объект Volume](volume-object.md).
 
@@ -39,7 +39,7 @@ ms.locfileid: "104350892"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

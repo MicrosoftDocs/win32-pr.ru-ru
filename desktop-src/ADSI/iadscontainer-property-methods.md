@@ -23,12 +23,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c5196addda0d9ff89f8a4976f3197bbeeae07044
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 13515bcf90c926db839aad60d49599967ee0d24bedbe0deb4b7d1d21c3c016e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118428089"
 ---
 # <a name="iadscontainer-property-methods"></a>Методы свойств Иадсконтаинер
 
@@ -63,7 +63,7 @@ HRESULT get_Count(
 
 </dt> </dl> </dd> <dt>
 
-**Фильтр**
+**Filter**
 </dt> <dd> <dl>
 
 Возвращает или задает фильтр, используемый для выбора классов объектов в заданном перечислении. Это массив вариантов, каждый элемент которого является именем класса схемы. Если параметр **Filter** не установлен или установлен в значение Empty, перечислитель получает все объекты всех классов.
@@ -121,13 +121,13 @@ HRESULT put_Hints(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Процессы перечисления в разделе [**иадсконтаинер:: Get \_ \_ NewEnum**](/windows/desktop/api/Iads/nf-iads-iadscontainer-get__newenum) и **иадсконтаинер:: Get \_** выполняются для содержащихся в кэше объектов. Если контейнер содержит большое количество объектов, это может повлиять на производительность. Чтобы повысить производительность, отключите кэш, настройте соответствующий размер страницы и используйте интерфейс [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch) . По этой причине свойство " **число получаемых \_ объектов** " не поддерживается поставщиком Microsoft LDAP.
 
 ## <a name="examples"></a>Примеры
 
-В следующем Visual Basic примере кода показано, как можно использовать методы свойств [**иадсконтаинер**](/windows/desktop/api/Iads/nn-iads-iadscontainer) .
+в следующем Visual Basic примере кода показано, как можно использовать методы свойств [**иадсконтаинер**](/windows/desktop/api/Iads/nn-iads-iadscontainer) .
 
 
 ```VB
@@ -226,7 +226,7 @@ Cleanup:
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

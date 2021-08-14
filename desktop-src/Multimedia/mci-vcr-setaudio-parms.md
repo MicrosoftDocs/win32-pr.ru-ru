@@ -3,7 +3,7 @@ title: Структура MCI_VCR_SETAUDIO_PARMS (видеомагнитофон
 description: '\_ \_ Структура пармс СЕТАУДИО видеомагнитофона MCI \_ содержит параметры для \_ команды MCI сетаудио для устройств записи видеокассет.'
 ms.assetid: 328d8e63-7ddd-4c9b-85d6-2e56fd802dbc
 keywords:
-- MCI_VCR_SETAUDIO_PARMS структура мультимедиа Windows
+- структура MCI_VCR_SETAUDIO_PARMS Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 143345f494f381054335d2dfec3b0c10222adca4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fa07d4cf8b88eb246019bf18dd1c1328413718a70b17ebb16e27606958473f5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117802962"
 ---
 # <a name="mci_vcr_setaudio_parms-structure"></a>\_Структура пармс видеомагнитофона MCI \_ сетаудио \_
 
@@ -71,11 +71,11 @@ typedef struct tagMCI_VCR_SETAUDIO_PARMS {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При назначении данных членам этой структуры установите соответствующие флаги в параметре *фдвкомманд* функции [**мЦисендкомманд**](/previous-versions//dd757160(v=vs.85)) , чтобы проверить элементы.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

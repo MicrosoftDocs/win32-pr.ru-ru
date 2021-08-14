@@ -4,12 +4,12 @@ description: Идентифицирует \_ \_ закрепленное сво�
 ms.assetid: 906b2ab9-1ed7-46a6-88bc-e8f9160ab60c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8637f11404090313751647058ee41acbad3d9bf8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9f1bfbbab458c12277c3ed881963005f80485b028a5291d42089d1ef431e3954
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104258723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118201489"
 ---
 # <a name="ui_pkey_pinned"></a>Пользовательский интерфейс \_ PKEY \_ закреплен
 
@@ -17,21 +17,21 @@ ms.locfileid: "104258723"
 
 ```
 propertyDescription
-   name = UI_PKEY_Pinned
-   shellPKey = UI_PKEY_Pinned
-   formatID = 00000351-7363-696e-8441798acf5aebb7
-   propID = 351
-   typeInfo
-      type = VT_BOOL
-   booleanFormat
-      formatAs = VARIANT_TRUE=-1, VARIANT_FALSE=0
+   name = UI_PKEY_Pinned
+   shellPKey = UI_PKEY_Pinned
+   formatID = 00000351-7363-696e-8441798acf5aebb7
+   propID = 351
+   typeInfo
+      type = VT_BOOL
+   booleanFormat
+      formatAs = VARIANT_TRUE=-1, VARIANT_FALSE=0
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 \_ \_ Закрепленный пользовательский интерфейс (PKEY) используется приложением для запроса, является ли элемент в [меню "приложение](windowsribbon-controls-applicationmenu.md) " закрепленным или постоянным, между экземплярами приложения. Например, элемент в списке недавно использовавшихся элементов доступен и не удаляет список MRU-элементов, пока не будет снят закрепление.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -44,9 +44,9 @@ propertyDescription
 [Недавние элементы](windowsribbon-controls-recentitems.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

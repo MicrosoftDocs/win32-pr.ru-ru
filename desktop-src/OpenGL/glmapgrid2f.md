@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 087e42aa3d490ec605b4478d5691b256271268f5
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: f37975e7ca88f829286872b5352ff3e59d84fd4d123d457defb01b6d14003dad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104273403"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118358941"
 ---
 # <a name="glmapgrid2f-function"></a>Функция glMapGrid2f
 
@@ -45,7 +45,7 @@ void WINAPI glMapGrid2f(
 
 <dl> <dt>
 
-*понижен* 
+*un* 
 </dt> <dd>
 
 Число секций в диапазоне диапазонов сетки \[ : U1, U2 \] . Это значение должно быть положительным.
@@ -104,7 +104,7 @@ void WINAPI glMapGrid2f(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функции **глмапгрид** и [глевалмеш](glevalmesh-functions.md) используются совместно для эффективного создания и вычисления ряда значений домена сопоставлений с равными пробелами. Функция Глевалмеш выполняет шаг с целым доменом одномерной или двухмерной сетки, диапазон которого представляет собой домен карт оценки, заданных в [**glMap1**](glmap1.md) и [**glMap2**](glmap2.md).
 
@@ -132,7 +132,7 @@ void WINAPI glMapGrid2f(
 [**глжет**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) с аргументами \_ \_ сегментами сетки GL MAP2 \_  
 </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

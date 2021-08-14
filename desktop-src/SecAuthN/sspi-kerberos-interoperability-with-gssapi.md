@@ -4,26 +4,26 @@ ms.assetid: 3ab29ee9-42d8-498b-b507-13f8efa0b0e2
 title: Взаимодействие SSPI/Kerberos с GSSAPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f9efaae6b2433d76dff290d57e27e893885692a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5907c79fbf4ef53a40b9dc2198715f216794de5634c60c66fe3d767bfe4af026
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103808350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118916831"
 ---
 # <a name="sspikerberos-interoperability-with-gssapi"></a>Взаимодействие SSPI/Kerberos с GSSAPI
 
 Следует соблюдать осторожность при использовании [*поставщика поддержки безопасности*](../secgloss/s-gly.md) [*Kerberos*](../secgloss/k-gly.md) (SSP), если требуется взаимодействие с GSSAPI. Следующие соглашения о коде позволяют обеспечить взаимодействие с приложениями на основе GSSAPI:
 
--   [Имена, совместимые с Windows](#windows-compatible-names)
+-   [имена, совместимые с Windows](#windows-compatible-names)
 -   [Аутентификация](#authentication)
 -   [Целостность и конфиденциальность сообщений](#message-integrity-and-privacy)
 
-Пример кода можно найти в пакете SDK для платформы "примеры \\ безопасности \\ SSPI \\ GSS". Кроме того, эквивалентный пример для UNIX распространяется в дистрибутивах MIT и Хеимдал Kerberos, а также в клиенте и на сервере GSS.
+Пример кода можно найти в пакете SDK для платформы "примеры \\ безопасности \\ SSPI \\ GSS". кроме того, эквивалентный пример UNIX распространяется в распределениях Kerberos MIT и хеимдал, а также в клиенте и сервере GSS.
 
 ## <a name="windows-compatible-names"></a>Имена Windows-Compatible
 
-Функции GSSAPI используют формат имени, известный как \_ имя службы NT для GSS \_ \_ , как указано в RFC. Например, sample@host.dom.com — это имя, которое можно использовать в приложении на основе GSSAPI. Операционная система Windows не распознает \_ \_ Формат имени службы NT GSS \_ , а полное [*имя субъекта-службы*](../secgloss/s-gly.md), например sample/host.dom.com@REALM , должно использоваться.
+Функции GSSAPI используют формат имени, известный как \_ имя службы NT для GSS \_ \_ , как указано в RFC. Например, sample@host.dom.com — это имя, которое можно использовать в приложении на основе GSSAPI. операционная система Windows не распознает \_ \_ формат имени службы nt gss \_ , а полное [*имя субъекта-службы*](../secgloss/s-gly.md), например sample/host.dom.com@REALM , должно использоваться.
 
 ## <a name="authentication"></a>Аутентификация
 

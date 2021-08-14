@@ -3,7 +3,7 @@ title: Фонтконтрол, элемент
 description: Представляет элемент управления "Шрифт", который является специализированным контейнером для отдельных элементов управления, предназначенных для обработки шрифтов.
 ms.assetid: 98eddab5-28cb-4b9d-a788-ee28dd6055b1
 keywords:
-- Лента Windows для элемента Фонтконтрол
+- элемент фонтконтрол Windows лента
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 42c9d900c2af4f7f8ba26f5ac8dbbdc0d055668d
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 7c7b068246da9b26a4b3547e27abd1a9b60c8fd70de10e4edd2438463a156633
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118202526"
 ---
 # <a name="fontcontrol-element"></a>Фонтконтрол, элемент
 
@@ -196,7 +196,7 @@ ms.locfileid: "111443405"
 <dt><span></span><span></span><strong></strong> условия<br/> </dt> <dd> По умолчанию. Отображает вертикальные шрифты, которые <strong>отображаются на панели</strong> управления " <strong>шрифты</strong> ". <br/> </dd> <dt><span></span><span></span><strong></strong> IsFalse<br/> </dt> <dd> Позволяет приложению, не поддерживающему вертикальный текст, скрывать любые вертикальные шрифты, которые отображаются <strong>на панели</strong> управления <strong>шрифтами</strong> .<br/>
 <blockquote>
 [!Note]<br />
-В Windows Vista панель управления « <strong>шрифты</strong> » не предлагает функции <strong>отображения</strong> или <strong>скрытия</strong> . В этом случае атрибут <em>шоввертикалфонтс</em> должен иметь значение <code>False</code> .
+в Windows Vista панель управления " <strong>шрифты</strong> " не предлагает функции <strong>отображения</strong> или <strong>скрытия</strong> . В этом случае атрибут <em>шоввертикалфонтс</em> должен иметь значение <code>False</code> .
 </blockquote>
 <br/> </dd> </dl></td>
 </tr>
@@ -317,7 +317,7 @@ ms.locfileid: "111443405"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-* **Минимальная поддерживаемая система**: Windows 7
+* **минимальная поддерживаемая система**: Windows 7
 * **Может быть пустым**: Да
 
 

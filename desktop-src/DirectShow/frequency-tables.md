@@ -4,12 +4,12 @@ ms.assetid: 58a680ea-1f88-4900-8820-c30a2f3e3901
 title: Частоты таблиц
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 933152c7ac38eefe91468aff8bc3a8eb3ced05df
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: db832144aedb8f64d18692a30a8e8c7d812c4cbd517b1b9ab31bd9cdc231019b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104139359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118401262"
 ---
 # <a name="frequency-tables"></a>Частоты таблиц
 
@@ -19,7 +19,7 @@ ms.locfileid: "104139359"
 
 Большинство операторов кабелей, не связанных с США, можно рассылать по частоте их выбора, часто смешивание частот из разных стандартов в одном и том же канале. Таким образом, таблица частоты "Уникабле" используется для любой страны или региона, где отсутствует стандартный центр стандартов кабельного канала. Кроме того, предоставляется механизм переопределения отдельных частот в таблицах частоты. Этот механизм описан в следующем разделе: [переопределение частоты](frequency-overrides.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

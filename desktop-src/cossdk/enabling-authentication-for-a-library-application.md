@@ -4,12 +4,12 @@ ms.assetid: 80c80c14-ceef-4a74-810d-6aa3cc320cef
 title: Включение проверки подлинности для библиотечного приложения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74cfa9f2a6a5e3c1312fa13e0aff1e9f4ea17e4c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bceb3d5799ee8fac1d8eb266e6513c4d2a759adb10b78b2117424b08f8c5d6ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117736423"
 ---
 # <a name="enabling-authentication-for-a-library-application"></a>Включение проверки подлинности для библиотечного приложения
 
@@ -27,7 +27,7 @@ ms.locfileid: "105682354"
 
 4.  Нажмите кнопку **ОК**.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -1,6 +1,6 @@
 ---
-title: Пользовательские элементы управления для микшера звука
-description: Пользовательские элементы управления для микшера звука
+title: пользовательские элементы управления аудио Mixer
+description: пользовательские элементы управления аудио Mixer
 ms.assetid: 6ab7a016-a4c1-4eef-ba97-7031d7425ee2
 keywords:
 - мультимедиа аудио, элементы управления микшера
@@ -11,20 +11,20 @@ keywords:
 - миксерс, пользовательские элементы управления
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35c6b6d747009df035e3911c2823e99e9436195e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 618e6eb8109f60d83e71fa9f8bcd7ee03e275e452e8ff825ae46a19adf88c3d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103779331"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118375693"
 ---
-# <a name="audio-mixer-custom-controls"></a>Пользовательские элементы управления для микшера звука
+# <a name="audio-mixer-custom-controls"></a>пользовательские элементы управления аудио Mixer
 
 Пользовательские элементы управления являются наиболее универсальными элементами управления микшера. Эти элементы управления позволяют драйверу микшера определять характеристики элемента управления, а также визуальное представление элемента управления.
 
- 
+ 
 
- 
+ 
 
 
 

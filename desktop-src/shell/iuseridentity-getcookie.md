@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msident.dll
-ms.openlocfilehash: 96cafb13f2c90c41e4aa6dcaaa72cf052757d0ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8b4abb13735b2ce370623ad8e5b79a8d9830b34a3d566fb57c0539d6f2c6095
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118220121"
 ---
 # <a name="iuseridentitygetcookie-method"></a>Метод Иусеридентити:: Кука
 
@@ -44,9 +44,9 @@ HRESULT GetCookie(
 *пуидкукие* \[ заполняет\]
 </dt> <dd>
 
-Тип: **GUID \** _
+Тип: **GUID \***
 
-Указатель на значение _ *GUID**, которое получает файл cookie, используемый для уникальной идентификации этого удостоверения пользователя.
+Указатель на значение **идентификатора GUID** , которое получает файл cookie, используемый для уникальной идентификации этого удостоверения пользователя.
 
 </dd> </dl>
 
@@ -56,7 +56,7 @@ HRESULT GetCookie(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -76,7 +76,7 @@ HRESULT GetCookie(
 
 <dl> <dt>
 
-[**IUserIdentity**](iuseridentity.md)
+[**иусеридентити**](iuseridentity.md)
 </dt> <dt>
 
 [**GetOrdinal**](iuseridentity2-getordinal.md)

@@ -15,16 +15,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1818a49e7977dbb4dfa31ebac1dae7651adb8d45
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 94f79b850c7d5f48e5f409e5380ad7345288187b8939b752b4f282b2274a99cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105650387"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117790968"
 ---
 # <a name="ip_next_hop_address-structure"></a>\_ \_ Структура адреса следующего ПРЫЖКа IP \_
 
-\[Этот API был заменен API [диспетчера таблиц маршрутизации версии 2](about-routing-table-manager-version-2.md) и не будет доступен за пределами Windows Server 2003. Приложения должны использовать API диспетчера таблиц маршрутизации версии 2.\]
+\[этот api был заменен api [диспетчера таблиц маршрутизации версии 2](about-routing-table-manager-version-2.md) и не будет доступен за пределами Windows Server 2003. Приложения должны использовать API диспетчера таблиц маршрутизации версии 2.\]
 
 Структура **IP \_ - \_ \_ адреса следующего прыжка** содержит адрес маршрутизатора следующего прыжка для IP-маршрута.
 
@@ -58,11 +58,11 @@ typedef struct _IP_NEXT_HOP_ADDRESS {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Структура **IP \_ - \_ \_ адреса следующего прыжка** является определением структуры [**IP- \_ сети**](ip-network.md) . Typedef находится в RTM. h.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

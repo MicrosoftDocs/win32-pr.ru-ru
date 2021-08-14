@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: cbcea308a8daaa8b9fdf15be765dc5d3a0df182c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f822bed433af6e3fab0250e06a04911ee10187039036211974b046b32df6b7b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117823110"
 ---
 # <a name="cbasepropertypageonapplychanges-method"></a>Кбасепропертипаже. Онаппличанжес, метод
 
@@ -44,7 +44,7 @@ virtual HRESULT OnApplyChanges();
 
 Реализация базового класса возвращает значение S \_ ОК.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Метод [**кбасепропертипаже:: Apply**](cbasepropertypage-apply.md) вызывает, `OnApplyChanges` Если флаг [**кбасепропертипаже:: m \_ бдирти**](cbasepropertypage-m-bdirty.md) имеет **значение true**. Переопределите `OnApplyChanges` для обработки изменений и сбросьте **m \_ Бдирти** в **значение false**.
 
@@ -61,13 +61,13 @@ HRESULT CMyProp::OnApplyChanges(void)
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Кпроп. h (включение Streams. h)</dt> </dl>                                                                                     |
+| Заголовок<br/>  | <dl> <dt>кпроп. h (включает Потоки. h)</dt> </dl>                                                                                     |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

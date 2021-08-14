@@ -4,16 +4,16 @@ description: Мовекаусе, свойство
 ms.assetid: 8f78a6da-8498-4a39-a4b9-5ab7a43d97f5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dfc7f91d068befa2b919c04818c46dbc1a48faa0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: aa797338e64edfd67ae2347f2983df624464df923a64883e3adc5143671b15dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117883835"
 ---
 # <a name="movecause-property"></a>Мовекаусе, свойство
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 <dl> <dt>
 
@@ -27,7 +27,7 @@ ms.locfileid: "103888447"
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Syntax**
 </dt> <dd>
 
-*Агент*. **Символы ("***чарактерид***"). Мовекаусе**
+*Агент*. **Символы ("**_чарактерид_*_"). Мовекаусе_*
 
 
 
@@ -41,22 +41,22 @@ ms.locfileid: "103888447"
 
 
 
- 
+ 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство можно использовать для определения того, что привело к перемещению символа, когда несколько приложений совместно используют один и тот же символ. Эти значения совпадают с значениями, возвращаемыми событием [**Move**](move-event.md) .
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [**Событие перемещения**](move-event.md), [ **метод moveTo**](moveto-method.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

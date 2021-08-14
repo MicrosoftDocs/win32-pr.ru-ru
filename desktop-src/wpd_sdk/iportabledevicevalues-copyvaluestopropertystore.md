@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: d6ab6b4614c336d3e0da50c0291b2e69a260ae1f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2d134cb61831426451b1c6068bde5ca787b027fbe5b153587b45d9693ef739c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118697251"
 ---
 # <a name="iportabledevicevaluescopyvaluestopropertystore-method"></a>Метод Ипортабледевицевалуес:: Копивалуестопропертисторе
 
@@ -61,19 +61,19 @@ HRESULT CopyValuesToPropertyStore(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод не преобразует значения VT \_ LPWSTR в VT \_ BSTR. Многие внешние приложения или компоненты, взаимодействующие с приложением, например некоторые приложения оболочки, используют интерфейс **ипропертисторе** . Этот метод обеспечивает быстрый и простой способ обмена данными с этими программами.
 
-Этот метод поддерживается в Windows Vista и более поздних версиях Windows.
+этот метод поддерживается в Windows Vista и более поздних версиях Windows.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Портабледевицетипес. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Портабледевицетипес. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>Портабледевицегуидс. lib</dt> </dl> |
 
 

@@ -4,16 +4,16 @@ description: Иажентбаллун Жетнумлинес
 ms.assetid: 82deeed0-d4a7-46e4-9077-edd933dcf4e2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a7d66c18d75af77a2559efc86f775710fb32e6e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 461ebc4fa7c7e0ae9080544e9114db9f8c179925dae665925d893288f95de027
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104411357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118478628"
 ---
 # <a name="iagentballoongetnumlines"></a>Иажентбаллун:: Жетнумлинес
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT GetNumLines(
@@ -36,14 +36,14 @@ HRESULT GetNumLines(
 
 Сервер Microsoft Agent автоматически прокручивает строки, отображаемые для речевого вывода, в окне всплывающей программы. Число строк для текстового всплывающего слова определяется в редакторе символов Microsoft Agent. Оно не может быть изменено приложением.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [**Иажентбаллун:: Жетнумчарсперлине**](iagentballoon--getnumcharsperline.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ddec51fbdfecd407a68b3e168a82af449decce6a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: eb083c2a90a791099f6438f2911ac9735ecd4dada9118811aa0ff581a8db37ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105701065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118699024"
 ---
 # <a name="wm_individualize_status-structure-drmexternalsh"></a>Структура WM_INDIVIDUALIZE_STATUS (Дрмекстерналс. h)
 
@@ -95,11 +95,11 @@ typedef struct _WMIndividualizeStatus {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта структура заполняется компонентами времени выполнения DRM и отправляется в приложения в параметре *pValue* метода [**ивмстатускаллбакк:: OnStatus**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus) , если событие равно ВМТ \_ индивидуализируйте. Приложение получает это событие несколько раз во время процесса загрузки.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -107,7 +107,7 @@ typedef struct _WMIndividualizeStatus {
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                      |
-| Версия<br/>                  | Пакет SDK для Windows Media Format 7 или более поздние версии пакета SDK<br/>                       |
+| Версия<br/>                  | Windows Пакет SDK для формата мультимедиа 7 или более поздние версии пакета SDK<br/>                       |
 | Header<br/>                   | <dl> <dt>Дрмекстерналс. h</dt> </dl> |
 
 

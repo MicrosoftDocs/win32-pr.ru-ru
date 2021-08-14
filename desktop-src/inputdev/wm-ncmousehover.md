@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cde2e70b04602de5936e945789007a6c5fea8542
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 323464d32a2529475823003e51d5bbf0b15c616e32edb0622efe5be7f94dfb4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071938"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119611464"
 ---
 # <a name="wm_ncmousehover-message"></a>\_Сообщение НКМАУСЕХОВЕР WM
 
@@ -56,7 +56,7 @@ ms.locfileid: "104071938"
 
 Если приложение обрабатывает это сообщение, оно должно вернуть ноль.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Отслеживание наведения при наведении останавливается при создании сообщения. Приложение должно вызвать [**TrackMouseEven**](/windows/win32/api/winuser/nf-winuser-trackmouseevent) еще раз, если требуется дальнейшее отслеживание поведения при наведении указателя мыши.
 
@@ -75,7 +75,7 @@ yPos = GET_Y_LPARAM(lParam);
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

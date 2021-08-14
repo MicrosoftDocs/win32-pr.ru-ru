@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c52661c4fa1ebce57011f4424901dd1ec18250f
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 1975dcf38a04fc127de199e7cc663c8af41b63e6ce8f92d38be2115316ed0727
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103986982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118382845"
 ---
 # <a name="switch_is-attribute"></a>параметр \_ имеет атрибут
 
@@ -116,7 +116,7 @@ typedef struct [[ struct-tag ]]
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Discriminant, связанный с **\[ параметром \_ \]** , должен быть определен на том же логическом уровне, что и объединение:
 
@@ -166,7 +166,7 @@ typedef struct _WINNER_TYPE
 [Инкапсулированные объединения](encapsulated-unions.md)
 </dt> <dt>
 
-[**перечисления**](enum.md)
+[**enum**](enum.md)
 </dt> <dt>
 
 [**первый \_ —**](first-is.md)
@@ -190,7 +190,7 @@ typedef struct _WINNER_TYPE
 [Неинкапсулированные объединения](nonencapsulated-unions.md)
 </dt> <dt>
 
-[**ptr**](ptr.md)
+[**указатель**](ptr.md)
 </dt> <dt>
 
 [**ref**](ref.md)
@@ -199,7 +199,7 @@ typedef struct _WINNER_TYPE
 [**размер \_ равен**](size-is.md)
 </dt> <dt>
 
-[**Строка**](string.md)
+[**строка**](string.md)
 </dt> <dt>
 
 [**struct**](struct.md)
@@ -214,9 +214,9 @@ typedef struct _WINNER_TYPE
 [**однозначно**](unique.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

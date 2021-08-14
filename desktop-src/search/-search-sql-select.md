@@ -4,12 +4,12 @@ ms.assetid: 334aa2b9-0ef2-4a4b-9352-de5ded95afa6
 title: Инструкция SELECT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e05832dab0184870a626fa4bce502d908c9b05f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1df8cc5f4b6bab673d20c981e44386d3fdbd651b5a2753d8c965ee55023a6562
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118227199"
 ---
 # <a name="select-statement"></a>Инструкция SELECT
 
@@ -44,7 +44,7 @@ SELECT [TOP <positive integer>] <column> [ {, <column>} ...]
 
 Если запрос возвращает документ, в котором нет запрошенного столбца, значение этого столбца для документа равно **null**.
 
-В инструкции SELECT необходимо указать хотя бы одно имя столбца. В запросе язык SQL (SQL) вы можете использовать звездочку ( \* ), чтобы указать, что должны возвращаться все столбцы в таблице. Однако определенный и фиксированный набор свойств не применяется ко всем документам. По этой причине в спецификаторе инструкции SELECT не допускается использование звездочки SQL <columns> .
+В инструкции SELECT необходимо указать хотя бы одно имя столбца. в запросе язык SQL (SQL) вы можете использовать звездочку ( \* ), чтобы указать, что должны возвращаться все столбцы в таблице. Однако определенный и фиксированный набор свойств не применяется ко всем документам. по этой причине символ звездочки SQL не разрешен в <columns> спецификаторе инструкции SELECT.
 
 ## <a name="getting-the-top-n-results"></a>Получение первых n результатов
 
@@ -74,7 +74,7 @@ SELECT TOP 10 System.ItemName, System.ItemUrl FROM SystemIndex WHERE CONTAINS('M
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

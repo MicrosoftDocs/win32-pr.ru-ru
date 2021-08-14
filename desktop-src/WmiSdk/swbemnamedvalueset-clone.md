@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 17678d36a553c84c008f606c647d7ff1fa9dfadc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9158901a39fa80e49404912ee5458c416069bbe354e19059ef4622ae4257fda9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103814321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118314195"
 ---
 # <a name="swbemnamedvaluesetclone-method"></a>Свбемнамедвалуесет. Clone, метод
 
@@ -67,11 +67,11 @@ objwbemNamedValueSet = .Clone( _
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте этот метод для дублирования коллекции [**свбемнамедвалуесет**](swbemnamedvalueset.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

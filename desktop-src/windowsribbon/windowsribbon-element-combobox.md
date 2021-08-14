@@ -3,7 +3,7 @@ title: Элемент ComboBox
 description: Представляет элемент управления "поле со списком".
 ms.assetid: d796e26b-44c2-4e11-b1a5-2ede5bcff676
 keywords:
-- Лента Windows для элемента ComboBox
+- элемент ComboBox Windows лента
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 60ad8866b655be587e0c3d0f123d8bc59b6b8a21
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 60ee7a03d25508df45469577f4d4159b5db5f5190f188ca594b71f176d037526
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117851197"
 ---
 # <a name="combobox-element"></a>Элемент ComboBox
 
@@ -130,7 +130,7 @@ ms.locfileid: "111443585"
 <td><a href="windowsribbon-element-quickaccesstoolbar-applicationdefaults.md"><strong>Куиккакцесстулбар. Аппликатиондефаултс</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-Windows 8 и более поздние версии.
+Windows 8 и более поздних версий.
 </blockquote>
 <br/> <br/></td>
 </tr>
@@ -151,7 +151,7 @@ Windows 8 и более поздние версии.
 
 Поскольку **ComboBox** является исключительно коллекцией элементов, он не поддерживает командные элементы. Он также является единственным элементом управления "Коллекция", который не поддерживает пространство команд (набор команд, объявленных в разметке и перечисленных в нижней части коллекции элементов или коллекции команд). Дополнительные сведения см. в разделе [Работа с галереями](ribbon-controls-galleries.md).
 
-На следующем снимке экрана показан элемент управления [поля со списком](windowsribbon-controls-combobox.md) ленты в Windows Live Movie Maker.
+на следующем снимке экрана показан элемент управления ["поле со списком"](windowsribbon-controls-combobox.md) на ленте Киностудия Windows Live.
 
 ![снимок экрана элемента управления ComboBox на ленте Microsoft Paint.](images/controls/combobox.png)
 
@@ -191,7 +191,7 @@ Windows 8 и более поздние версии.
 
 ## <a name="element-information"></a>Сведения об элементе
 
-* **Минимальная поддерживаемая система**: Windows 7
+* **минимальная поддерживаемая система**: Windows 7
 * **Может быть пустым**: Да
 
 

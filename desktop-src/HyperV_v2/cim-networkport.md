@@ -24,12 +24,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 9e3ac64b55e17d0526527ebbaca168c3f7b289f9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aa69b2728f3d0cdb97bcc972ef6b72ab5bd0df3202df60e92f87e161ea9a1702
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272079"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119694714"
 ---
 # <a name="cim_networkport-class"></a>\_Класс CIM нетворкпорт
 
@@ -61,7 +61,7 @@ class CIM_NetworkPort : CIM_LogicalPort
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ нетворкпорт** имеет следующие свойства.
 
@@ -325,7 +325,7 @@ class CIM_NetworkPort : CIM_LogicalPort
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

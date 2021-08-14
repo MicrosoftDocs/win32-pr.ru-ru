@@ -4,12 +4,12 @@ ms.assetid: d2d5825e-02a5-44b8-8615-55b7259d24ba
 title: Сообщение WM_NCCALCSIZE (Winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b7d63fea3ad0a80bba686d8d86aa5354f0bb45b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6f0a73b469a920bcba79cc19670a7b9536c1bac9e0b0ffcab7ddf5930b984dae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711950"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118200080"
 ---
 # <a name="wm_nccalcsize-message"></a>\_Сообщение НККАЛКСИЗЕ WM
 
@@ -73,15 +73,15 @@ ms.locfileid: "105711950"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Окно может быть перерисовано в зависимости от того, задан ли стиль класса [CS \_ ХРЕДРАВ](about-window-classes.md) или CS \_ вредрав. Это обратно совместимая по умолчанию обработка этого сообщения с помощью функции [**дефвиндовпрок**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) (в дополнение к обычным вычислениям клиентского прямоугольника, описанным в предыдущей таблице).
 
 Если параметр *wParam* имеет **значение true**, то возвращение 0 без обработки прямоугольников [**\_ params нккалксизе**](/windows/win32/api/winuser/ns-winuser-nccalcsize_params) приведет к тому, что клиентская область изменится на размер окна, включая фрейм окна. Это приведет к удалению рамки окна и элементов заголовков из окна, в результате чего отображается только область клиента.
 
-Начиная с Windows Vista, удаление стандартного кадра путем простого возврата значения 0, если параметр *wParam* имеет **значение true** , не влияет на кадры, которые расширены в клиентскую область с помощью функции [**DwmExtendFrameIntoClientArea**](/windows/win32/api/dwmapi/nf-dwmapi-dwmextendframeintoclientarea) . Будет удален только стандартный фрейм.
+начиная с Windows Vista, удаление стандартного кадра путем простого возврата значения 0, если параметр *wParam* имеет **значение TRUE** , не влияет на кадры, которые расширены в клиентскую область с помощью функции [**DwmExtendFrameIntoClientArea**](/windows/win32/api/dwmapi/nf-dwmapi-dwmextendframeintoclientarea) . Будет удален только стандартный фрейм.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -89,7 +89,7 @@ ms.locfileid: "105711950"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

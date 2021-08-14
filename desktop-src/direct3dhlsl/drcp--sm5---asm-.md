@@ -4,12 +4,12 @@ description: Вычисление взаимной точности с двой�
 ms.assetid: 499A14D6-36DB-4860-94D1-887D931E60D4
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 770159f5007b08f5482ba8b58634b44e7f3e6ef0
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 9539a53b27840b51d0a1d2e9904c744aa3f5c3e60bd9dc21a6bf72ba9291efa4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118515346"
 ---
 # <a name="drcp-sm5---asm"></a>дркп (SM5-ASM)
 
@@ -35,7 +35,7 @@ ms.locfileid: "107998341"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Инструкция ДРКП создается компилятором HLSL только при явном вызове с помощью функции RCP (), если в качестве аргумента используется Double. Точность этой инструкции должна быть 1,0 ULP.
 
@@ -79,7 +79,7 @@ ms.locfileid: "107998341"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
 | [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Нет        |
 | [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Нет        |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |

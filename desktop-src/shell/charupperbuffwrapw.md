@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Shlwapi.dll
-ms.openlocfilehash: dacc5e7609ca7f91bf7c66651d7ba9bdd11ab688
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 288a119586e9f2e58172daaba33a8b9f27c791aa0005b5349f47cb0b2670a631
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104540554"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117861559"
 ---
 # <a name="charupperbuffwrapw-function"></a>Функция Чаруппербуффврапв
 
-\[**Чаруппербуффврапв** доступен для использования в Windows XP. Она может быть недоступна в последующих версиях. На своем месте следует использовать [**чаруппербуффв**](/windows/win32/api/winuser/nf-winuser-charupperbuffa) .\]
+\[**чаруппербуффврапв** доступен для использования в Windows XP. Она может быть недоступна в последующих версиях. На своем месте следует использовать [**чаруппербуффв**](/windows/win32/api/winuser/nf-winuser-charupperbuffa) .\]
 
 Преобразует символы нижнего регистра в буфере в символы верхнего регистра. Функция преобразует символы на месте.
 
@@ -71,20 +71,20 @@ DWORD CharUpperBuffWrapW(
 
 Число обработанных символов.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Предпочтительным методом является использование [**чаруппербуффв**](/windows/win32/api/winuser/nf-winuser-charupperbuffa) в сочетании с уровнем Майкрософт для Юникода (мслу).
 
 **Чаруппербуффврапв** должен вызываться напрямую из Shlwapi.dll с использованием порядкового номера 44.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                          |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Shlwapi.dll (версия 5,0 или более поздняя)</dt> </dl> |
 
 

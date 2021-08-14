@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 88931d83674ffa84288b4bec10e3c9dba15c812a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9b7a07ed6ab5b94138c0c04d40782496535e0ae4a3eff0f443c89d7ccd0c4b1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105710303"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118198385"
 ---
 # <a name="iconfigasfwritergetcurrentprofile-method"></a>Метод Иконфигасфвритер:: Жеткуррентпрофиле
 
@@ -31,7 +31,7 @@ ms.locfileid: "105710303"
 
 ```C++
 HRESULT GetCurrentProfile(
-  [out] IWMProfile **ppProfile
+  [out] IWMProfile **ppProfile
 );
 ```
 
@@ -52,7 +52,7 @@ HRESULT GetCurrentProfile(
 
 Если метод завершается успешно, возвращается значение S \_ ОК. В случае сбоя возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если метод завершается успешно, возвращаемый им указатель **ивмпрофиле** имеет необработанный счетчик ссылок. Не забудьте освободить интерфейс по завершении его использования.
 
@@ -63,6 +63,6 @@ HRESULT GetCurrentProfile(
 [**Интерфейс Иконфигасфвритер**](/previous-versions/windows/desktop/legacy/dd743205(v=vs.85))
 </dt> </dl>
 
- 
+ 
 
- 
+ 

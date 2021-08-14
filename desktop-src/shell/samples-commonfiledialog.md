@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 42dc86cb1e777f3580a7f6fb349310621b703913
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d2cb9a1a89f122d41066de75002ea0ed2c575a6208a06f0be99b5c7c7bfd2b97
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999050"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117858587"
 ---
 # <a name="common-file-dialog-sample"></a>Пример: стандартное диалоговое окно выбора файла
 
@@ -26,9 +26,9 @@ ms.locfileid: "103999050"
 -   [Загрузка образца](#downloading-the-sample)
 -   [Создание примера](#building-the-sample)
 -   [Запуск примера](#running-the-sample)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -57,7 +57,7 @@ ms.locfileid: "103999050"
 
 Инструкции по созданию образца см. в файле сведений, прилагаемом к примеру.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

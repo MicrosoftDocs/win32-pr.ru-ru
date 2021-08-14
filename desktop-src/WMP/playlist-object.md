@@ -3,7 +3,7 @@ title: Объект списка воспроизведения
 description: Объект списка воспроизведения предоставляет способ организации мультимедийных элементов в списке для простоты работы с помощью следующих свойств и методов.
 ms.assetid: c2d2f265-b207-4b82-bb76-aee467f00659
 keywords:
-- Проигрыватель Windows Media, объект списка воспроизведения
+- проигрыватель Windows Media объекта списка воспроизведения
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d517e13f8da103b1f9cee9498cce58a62eaf6462
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 0709b24779d3aac90d496b38b4654596479ad7a9122660158b53b4b2e75ba622
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104068774"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118336722"
 ---
 # <a name="playlist-object"></a>Объект списка воспроизведения
 
@@ -37,7 +37,7 @@ ms.locfileid: "104068774"
 
 
 
- 
+ 
 
 Объект **списка воспроизведения** поддерживает следующие методы.
 
@@ -57,7 +57,7 @@ ms.locfileid: "104068774"
 
 
 
- 
+ 
 
 Доступ к объекту **списка воспроизведения** осуществляется с помощью следующих свойств и методов.
 
@@ -65,7 +65,7 @@ ms.locfileid: "104068774"
 
 | Объект                                              | Свойство или метод                                                                                                                                                                                                                                                                 |
 |-----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [ROM](cdrom-object.md)                           | [список воспроизведения](cdrom-playlist.md)                                                                                                                                                                                                                                                     |
+| [ROM](cdrom-object.md)                           | [списком](cdrom-playlist.md)                                                                                                                                                                                                                                                     |
 | [медиаколлектион](mediacollection-object.md)       | [жеталл](mediacollection-getall.md), [жетбялбум](mediacollection-getbyalbum.md), [жетбяттрибуте](mediacollection-getbyattribute.md), [жетбяусор](mediacollection-getbyauthor.md), [жетбиженре](mediacollection-getbygenre.md), [жетбинаме](mediacollection-getbyname.md) |
 | [Игрок](player-object.md)                         | [куррентплайлист](player-currentplaylist.md), [невплайлист](player-newplaylist.md)                                                                                                                                                                                               |
 | [плайлистаррай](playlistarray-object.md)           | [Item](playlistarray-item.md)                                                                                                                                                                                                                                                     |
@@ -73,7 +73,7 @@ ms.locfileid: "104068774"
 
 
 
- 
+ 
 
 Так как это наиболее распространенные средства доступа, *Player*. **куррентплайлист** используется в целях иллюстрации в разделах синтаксиса Reference.
 
@@ -84,9 +84,9 @@ ms.locfileid: "104068774"
 [**Справочник по объектной модели для создания сценариев**](object-model-reference-for-scripting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

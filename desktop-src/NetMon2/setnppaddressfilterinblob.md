@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Npptools.dll
-ms.openlocfilehash: 39e8a85599fa63b1320d707f648731a195dbb48e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da2119b30f690acf5deac46d43d9382e75c6caf1c2e9f41784a4b34f7f80e257
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674333"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118363820"
 ---
 # <a name="setnppaddressfilterinblob-function"></a>Функция Сетнппаддрессфилтеринблоб
 
@@ -60,7 +60,7 @@ DWORD SetNPPAddressFilterInBlob(
 
 Если функция завершается неудачно, возвращается значение НМЕРР, указывающее на ошибку.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

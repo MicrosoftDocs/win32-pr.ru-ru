@@ -3,7 +3,7 @@ title: Команда MCI_BREAK (Ммсистем. h)
 description: Команда MCI \_ break задает ключ разрыва для устройства MCI. MCI поддерживает эту команду напрямую, а не передает ее на устройство. С помощью этой команды можно использовать любое приложение MCI.
 ms.assetid: 127b5179-2838-4bde-8d0c-37a4cc87fa4d
 keywords:
-- MCI_BREAK команды мультимедиа Windows
+- команда MCI_BREAK Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 33b17e3796192344ef974fed1af7229d41746aaf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 07006ddfb38e1a57f6e08cb73d9b33021d139b9542245aec137e0969378140e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104490131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117803973"
 ---
 # <a name="mci_break-command"></a>\_Команда MCI Break
 
@@ -68,7 +68,7 @@ MCIERROR mciSendCommand(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Может потребоваться несколько раз нажать клавишу Break, чтобы прервать операцию ожидания. Нажатие клавиши break после завершения ожидания устройства отменяет возможность отправки перерыва в приложение. Если приложение содержит действие, определенное для кода виртуального ключа, оно может случайно ответить на прерывание. Например, приложение, использующее VK \_ Cancel для сочетания клавиш, может ответить на клавишу Ctrl + Break по умолчанию, если она нажата после отмены ожидания.
 
@@ -97,7 +97,7 @@ MCIERROR mciSendCommand(
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -105,7 +105,7 @@ MCIERROR mciSendCommand(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 

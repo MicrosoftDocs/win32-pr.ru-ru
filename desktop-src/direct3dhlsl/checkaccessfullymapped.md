@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c7310e0ebac496fc8f5a56ba3843b7496b8ce7c7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8e7241fa5546edffb2b7c5ff36d2e43919e6d0b6fef9ff617c0fb63a674ffee5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103793177"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118516677"
 ---
 # <a name="checkaccessfullymapped-function"></a>Функция Чеккакцессфуллимаппед
 
@@ -28,7 +28,7 @@ ms.locfileid: "103793177"
 
 ``` syntax
 bool CheckAccessFullyMapped(
-  in uint_only status
+  in uint_only status
 );
 ```
 
@@ -51,7 +51,7 @@ bool CheckAccessFullyMapped(
 
 Возвращает **логическое** значение, указывающее, были ли в [мозаичном ресурсе](/windows/desktop/direct3d11/direct3d-11-2-features)доступны сопоставленные плитки из операции **выборки**, **сбора** или **загрузки** . Возвращает **значение true** , если все значения из операции обращаются к сопоставленным плиткам; в противном случае возвращает **значение false** , если какие бы то ни было значения были взяты из несопоставленной плитки.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 ### <a name="minimum-shader-model"></a>Минимальная модель шейдера
 
@@ -61,23 +61,23 @@ bool CheckAccessFullyMapped(
 
 | Модель шейдера                                                                | Поддерживается |
 |-----------------------------------------------------------------------------|-----------|
-| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | да       |
+| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | Да       |
 
 
 
- 
+ 
 
 Эта функция поддерживается в следующих типах шейдеров:
 
 
 
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
+| Вершина | Поверхности | Домен | Геометрия | Пиксель | Службы вычислений |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     | x       |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -86,6 +86,6 @@ bool CheckAccessFullyMapped(
 [Встроенные функции](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

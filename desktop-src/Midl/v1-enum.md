@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b8183b8b91c4a061e6b91c67ab83bca6393751f4
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 4d7afb814cde879f0ada5124b1a19d8ac8b8c851deafcda7e75295a6e5338f68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103889675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118382788"
 ---
 # <a name="v1_enum-attribute"></a>\_атрибут перечисления v1
 
@@ -34,7 +34,7 @@ ms.locfileid: "103889675"
 
 Этот атрибут не имеет параметров.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Использование атрибута **\[ \_ Enum \] версии v1** для передачи перечислимого типа в качестве 32-разрядной сущности повышает эффективность упаковки и распаковки данных, когда такое перечисление внедряется в структуры или объединения.
 
@@ -54,18 +54,18 @@ typedef [v1_enum] enum
 
 <dl> <dt>
 
-[**перечисления**](enum.md)
+[**enum**](enum.md)
 </dt> <dt>
 
 [Файл определения интерфейса (IDL)](interface-definition-idl-file.md)
 </dt> <dt>
 
-[**поддерживаем**](long.md)
+[**long**](long.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

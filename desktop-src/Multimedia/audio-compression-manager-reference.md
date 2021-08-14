@@ -3,7 +3,7 @@ title: Справочник по диспетчеру аудиосжатия
 description: Справочник по диспетчеру аудиосжатия
 ms.assetid: a4e234c7-4dd3-4269-90a5-5de2c8837c0f
 keywords:
-- Мультимедиа Windows, Справочник по ACM
+- Windows мультимедиа, справочник по ACM
 - мультимедиа, Справочник по ACM
 - мультимедиа аудио, Справочник по ACM
 - аудио, Справочник по ACM)
@@ -13,12 +13,12 @@ keywords:
 - Справочник по ACM, сведения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d365b0a69ecd94a07811b24762aa4bffdc8c9f1
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 29729fa19e67fb4695d8e6eca986488735d9b4529d9479615665a9ba2b5f3360
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104533107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118375801"
 ---
 # <a name="audio-compression-manager-reference"></a>Справочник по диспетчеру аудиосжатия
 
@@ -38,7 +38,7 @@ ms.locfileid: "104533107"
 -   [**акмдриверпрок**](/windows/desktop/api/Msacm/nc-msacm-acmdriverproc)
 -   [**акмдриверремове**](/windows/desktop/api/Msacm/nf-msacm-acmdriverremove)
 
-## <a name="filters"></a>фильтры;
+## <a name="filters"></a>Фильтры
 
 -   [**акмфилтерчусе**](/windows/win32/api/msacm/ns-msacm-acmfilterchoose)
 -   [**акмфилтерчусехукпрок**](/windows/desktop/api/Msacm/nc-msacm-acmfilterchoosehookproc)
@@ -84,13 +84,13 @@ ms.locfileid: "104533107"
 -   [**акмжетверсион**](/windows/desktop/api/Msacm/nf-msacm-acmgetversion)
 -   [**акмметрикс**](/windows/desktop/api/Msacm/nf-msacm-acmmetrics)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Диспетчер аудиосжатия](audio-compression-manager.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

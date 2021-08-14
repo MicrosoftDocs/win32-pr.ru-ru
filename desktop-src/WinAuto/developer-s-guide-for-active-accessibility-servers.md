@@ -4,12 +4,12 @@ description: Руководством разработчика для Active Acc
 ms.assetid: 5ecf34dd-aab4-4fae-80a9-1086d92839f2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56cec4b97ccc23e4aca965122a49d9ed29534496
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e62f4393282d1e61cfdd1b8d91bab4735d87346cee21e20f7145e5e1953ac358
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410678"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118325441"
 ---
 # <a name="developers-guide-for-active-accessibility-servers"></a>Руководством разработчика для Active Accessibility серверов
 
@@ -22,9 +22,9 @@ ms.locfileid: "104410678"
 -   [Как работать с WM \_ GetObject](how-to-handle-wm-getobject.md)
 -   [Сочетания клавиш для предоставления настраиваемых элементов пользовательского интерфейса](shortcuts-for-exposing-custom-user-interface-elements.md)
 
- 
+ 
 
- 
+ 
 
 
 

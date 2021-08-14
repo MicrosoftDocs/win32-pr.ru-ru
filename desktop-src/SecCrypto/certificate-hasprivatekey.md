@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 43110e48a1172977ad979d6ec2d94c5b8e3ffc50
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ac38a62e11d75e21de5fd61dffd821cb4384e4e9b59d2bf11f6e217589ab578b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117771547"
 ---
 # <a name="icertificate2hasprivatekey-method"></a>Метод ICertificate2:: HasPrivateKey
 
@@ -41,7 +41,7 @@ Certificate.HasPrivateKey()
 
 Этот метод не имеет параметров.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -64,7 +64,7 @@ Certificate.HasPrivateKey()
 [Криптографические объекты](cryptography-objects.md)
 </dt> <dt>
 
-[**Certificate**](certificate.md)
+[**Сертификат**](certificate.md)
 </dt> </dl>
 
  

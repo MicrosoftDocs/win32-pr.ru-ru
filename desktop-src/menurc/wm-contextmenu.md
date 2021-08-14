@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff7764926709bfc8ab6aa95be330a9d45d38bc48
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0c036bf0711f208bae25657d572102a7f4d82525076ee1d0b6f4ebd6598e8197
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105710479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118472509"
 ---
 # <a name="wm_contextmenu-message"></a>\_Сообщение WM CONTEXTMENU
 
@@ -56,7 +56,7 @@ ms.locfileid: "105710479"
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Окно может обработать это сообщение, отображая контекстное меню с помощью функций [**метод TrackPopupMenu**](/windows/desktop/api/Winuser/nf-winuser-trackpopupmenu) или [**траккпопупменуекс**](/windows/desktop/api/Winuser/nf-winuser-trackpopupmenuex) . Чтобы получить горизонтальные и вертикальные позиции, используйте следующий код.
 
@@ -74,7 +74,7 @@ yPos = GET_Y_LPARAM(lParam);
 
 Если контекстное меню создается на основе клавиатуры, например, если пользователь вводит SHIFT + F10, координаты x и y равны-1, и приложение должно отобразить контекстное меню в месте текущего выделения, а не в (Кспос, ИПОС).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -82,7 +82,7 @@ yPos = GET_Y_LPARAM(lParam);
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

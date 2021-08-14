@@ -11,12 +11,12 @@ keywords:
 - макрос Капкаптуресетсетуп
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 878c76ab1e380fe878cd8c9493163bcb71e574cf
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1b6211edf3ce3fb86b4c0430c685ff05ff7f95c718c0a89e7ba782ae342feb18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103779976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117801268"
 ---
 # <a name="time-limit"></a>Ограничение времени
 
@@ -24,9 +24,9 @@ ms.locfileid: "103779976"
 
 Вы можете получить значения для **флимитенаблед** и **втимелимит** с помощью сообщения о [**\_ \_ \_ \_ настройке получения закрепления WM**](wm-cap-get-sequence-setup.md) (или макроса [**капкаптурежетсетуп**](/windows/desktop/api/Vfw/nf-vfw-capcapturegetsetup) ). Вы можете включить таймер для операции записи, указав значение **true** в качестве значения параметра **флимитенаблед**, или можно задать длительность операции записи, указав в параметрах **втимелимит** время. После установки этих членов отправьте обновленную структуру [**каптурепармс**](/windows/win32/api/vfw/ns-vfw-captureparms) в окно Capture с помощью сообщения [**\_ установки закрепления WM \_ Set \_ Sequence \_**](wm-cap-set-sequence-setup.md) (или макроса [**капкаптуресетсетуп**](/windows/desktop/api/Vfw/nf-vfw-capcapturesetsetup) ). По умолчанию **флимитенаблед** имеет значение **false**.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: FBFE2143-DC40-40F3-83CE-E6D8841F9C11
 title: Дескрипторы защиты
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11814df2af5bd9abee4260f4aadab5bb74c77a9f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4e99d4ec8de08ad2f657d2b3ac1992ce6e399ede277f8fde3e12f0732571b01a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118907256"
 ---
 # <a name="protection-descriptors"></a>Дескрипторы защиты
 
@@ -129,7 +129,7 @@ Descriptor = [ Protector-or
 
 При вызове функции [**нкрипткреатепротектиондескриптор**](/windows/desktop/api/NCryptprotect/nf-ncryptprotect-ncryptcreateprotectiondescriptor) необходимо указать строку правила (или отображаемое имя, связанное со строкой правила). Кроме того, так как строки правил дескриптора защиты достаточно громоздки для использования и запоминаются, можно связать отображаемое имя со строкой правила и зарегистрировать оба метода с помощью функции [**нкриптрегистерпротектиондескрипторнаме**](/windows/desktop/api/NCryptprotect/nf-ncryptprotect-ncryptregisterprotectiondescriptorname) . Затем можно использовать отображаемое имя в **нкрипткреатепротектиондескриптор**.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

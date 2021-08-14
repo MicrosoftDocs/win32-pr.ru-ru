@@ -7,12 +7,12 @@ MSHAttr:
 title: Админроамконтрол (v4)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a92ba97fd2657b28d1c845598825aae648124d36
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: ec631626c937555ae24460be82bd5322a0ae63185922b5e09249526118b35c9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106388872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117882016"
 ---
 # <a name="span-idwwan_profile_v4element_1_adminroamcontrolspanmodemdmconfigprofileadminroamcontrol-v4"></a><span id="WWAN_profile_v4.element_1_AdminRoamControl"></span>Модемдмконфигпрофиле \/ админроамконтрол (v4)
 
@@ -40,11 +40,11 @@ ms.locfileid: "106388872"
 
 ### <a name="span-idattributesspanspan-idattributesspanattributes"></a><span id="attributes"></span><span id="ATTRIBUTES"></span>Атрибуты
 
-Отсутствует.
+Нет.
 
 ### <a name="span-idchild_elementsspanspan-idchild_elementsspanspan-idchild_elementsspanchild-elements"></a><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>Дочерние элементы
 
-Отсутствует.
+Нет.
 
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Родительские элементы
 
@@ -74,7 +74,7 @@ ms.locfileid: "106388872"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 <table>
 <colgroup>
