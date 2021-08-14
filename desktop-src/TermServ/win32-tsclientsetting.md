@@ -70,12 +70,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 204f38570e1e023ca070ed1845e4574d9570b8ff
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dff3e4eb9d99288914fb6d4e9a6e2d22aa38689cdc6b60f227e7e5ba2e0c5323
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118349368"
 ---
 # <a name="win32_tsclientsetting-class"></a>\_Класс Win32 тсклиентсеттинг
 
@@ -189,9 +189,9 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 Тип доступа: чтение и запись
 </dt> </dl>
 
-Указывает, следует ли включить расширенную графику RemoteFX для RemoteApp.
+указывает, следует ли включить расширенную графику RemoteFX для RemoteApp.
 
-**Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** Это свойство недоступно до Windows Server 2012 R2 и Windows 8.1.
+**Windows Server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows Server 2008 и Windows Vista:** это свойство недоступно до Windows Server 2012 R2 и Windows 8.1.
 
 <dt>
 
@@ -249,7 +249,7 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 
 Указывает, разрешено ли перенаправление захвата звука.
 
-**Windows Server 2008 и Windows Vista:** Это свойство недоступно до Windows Server 2008 R2 и Windows 7.
+**Windows Server 2008 и Windows Vista:** это свойство недоступно до Windows Server 2008 R2 и Windows 7.
 
 <dt>
 
@@ -317,7 +317,7 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 
 Указывает, является ли режим AVC444 предпочтительным.
 
-**Windows 8.1, Windows server 2012 R2, Windows 8, Windows server 2012, Windows 7, Windows server 2008 R2, Windows Vista и Windows server 2008:** Это свойство недоступно до Windows 10 или Windows Server 2016.
+**Windows 8.1, Windows Server 2012 R2, Windows 8, Windows Server 2012, Windows 7, Windows server 2008 R2, Windows Vista и Windows server 2008:** это свойство недоступно до Windows 10 или Windows Server 2016.
 
 <dt>
 
@@ -337,7 +337,7 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -727,7 +727,7 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 
 Указывает качество образа для взаимодействия с RDP.
 
-**Windows 7, Windows server 2008 R2, Windows Vista и Windows server 2008:** Это свойство недоступно до Windows 8 или Windows Server 2012.
+**Windows 7, Windows server 2008 R2, Windows Vista и Windows Server 2008:** это свойство недоступно до Windows 8 или Windows Server 2012.
 
 <dt>
 
@@ -765,7 +765,7 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 
 Указывает, использует ли сервер узла сеансов удаленных рабочих столов аппаратный модуль визуализации графики в качестве адаптера по умолчанию.
 
-**Windows 7, Windows server 2008 R2, Windows Vista и Windows server 2008:** Это свойство недоступно до Windows 8 или Windows Server 2012.
+**Windows 7, Windows server 2008 R2, Windows Vista и Windows Server 2008:** это свойство недоступно до Windows 8 или Windows Server 2012.
 
 <dt>
 
@@ -851,7 +851,7 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 
 Максимальное число мониторов, поддерживаемое сервером. Чтобы изменить это свойство, используйте метод [**сетмаксмониторс**](setmaxmonitors-win32-tsclientsetting.md) .
 
-**Windows Server 2008 и Windows Vista:** Это свойство недоступно до Windows Server 2008 R2 и Windows 7.
+**Windows Server 2008 и Windows Vista:** это свойство недоступно до Windows Server 2008 R2 и Windows 7.
 
 </dd> <dt>
 
@@ -866,7 +866,7 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 
 Максимальное разрешение по оси X, поддерживаемое сервером. Чтобы изменить это свойство, используйте метод [**сетмаксксресолутион**](setmaxxresolution-win32-tsclientsetting.md) .
 
-**Windows Server 2008 и Windows Vista:** Это свойство недоступно до Windows Server 2008 R2 и Windows 7.
+**Windows Server 2008 и Windows Vista:** это свойство недоступно до Windows Server 2008 R2 и Windows 7.
 
 </dd> <dt>
 
@@ -881,11 +881,11 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 
 Максимальное разрешение по оси Y, поддерживаемое сервером. Чтобы изменить это свойство, используйте метод [**сетмаксиресолутион**](setmaxyresolution-win32-tsclientsetting.md) .
 
-**Windows Server 2008 и Windows Vista:** Это свойство недоступно до Windows Server 2008 R2 и Windows 7.
+**Windows Server 2008 и Windows Vista:** это свойство недоступно до Windows Server 2008 R2 и Windows 7.
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -948,7 +948,7 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 
 Указывает, настроено ли свойство **адванцедремотеаппграфикс** сервером или групповой политикой.
 
-**Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** Это свойство недоступно до Windows Server 2012 R2 и Windows 8.1.
+**Windows Server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows Server 2008 и Windows Vista:** это свойство недоступно до Windows Server 2012 R2 и Windows 8.1.
 
 <dt>
 
@@ -1012,7 +1012,7 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 
 Указывает, настроено ли свойство **аудиокаптурередир** сервером или групповой политикой.
 
-**Windows Server 2008 и Windows Vista:** Это свойство недоступно до Windows Server 2008 R2 и Windows 7.
+**Windows Server 2008 и Windows Vista:** это свойство недоступно до Windows Server 2008 R2 и Windows 7.
 
 <dt>
 
@@ -1062,7 +1062,7 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 2 (0x2)
 </dt> <dd>
 
-Значение по умолчанию
+По умолчанию
 
 </dd> </dl>
 
@@ -1079,7 +1079,7 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 
 Указывает, как настроено свойство **AVC444ModePreferredis** .
 
-**Windows 8.1, Windows server 2012 R2, Windows 8, Windows server 2012, Windows 7, Windows server 2008 R2, Windows Vista и Windows server 2008:** Это свойство недоступно до Windows 10 или Windows Server 2016.
+**Windows 8.1, Windows Server 2012 R2, Windows 8, Windows Server 2012, Windows 7, Windows server 2008 R2, Windows Vista и Windows server 2008:** это свойство недоступно до Windows 10 или Windows Server 2016.
 
 <dt>
 
@@ -1129,7 +1129,7 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 2 (0x2)
 </dt> <dd>
 
-Значение по умолчанию
+По умолчанию
 
 </dd> </dl>
 
@@ -1165,7 +1165,7 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 2 (0x2)
 </dt> <dd>
 
-Значение по умолчанию
+По умолчанию
 
 </dd> </dl>
 
@@ -1201,7 +1201,7 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 2 (0x2)
 </dt> <dd>
 
-Значение по умолчанию
+По умолчанию
 
 </dd> </dl>
 
@@ -1237,7 +1237,7 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 2 (0x2)
 </dt> <dd>
 
-Значение по умолчанию
+По умолчанию
 
 </dd> </dl>
 
@@ -1273,7 +1273,7 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 2 (0x2)
 </dt> <dd>
 
-Значение по умолчанию
+По умолчанию
 
 </dd> </dl>
 
@@ -1309,7 +1309,7 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 2 (0x2)
 </dt> <dd>
 
-Значение по умолчанию
+По умолчанию
 
 </dd> </dl>
 
@@ -1326,7 +1326,7 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 
 Указывает, как настраивается **енкодеимажекуалити** .
 
-**Windows 7, Windows server 2008 R2, Windows Vista и Windows server 2008:** Это свойство недоступно до Windows 8 или Windows Server 2012.
+**Windows 7, Windows server 2008 R2, Windows Vista и Windows Server 2008:** это свойство недоступно до Windows 8 или Windows Server 2012.
 
 <dt>
 
@@ -1357,7 +1357,7 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 
 Указывает, как настраивается **хардвареграфиксадаптер** .
 
-**Windows 7, Windows server 2008 R2, Windows Vista и Windows server 2008:** Это свойство недоступно до Windows 8 или Windows Server 2012.
+**Windows 7, Windows server 2008 R2, Windows Vista и Windows Server 2008:** это свойство недоступно до Windows 8 или Windows Server 2012.
 
 <dt>
 
@@ -1407,7 +1407,7 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 2 (0x2)
 </dt> <dd>
 
-Значение по умолчанию
+По умолчанию
 
 </dd> </dl>
 
@@ -1443,11 +1443,11 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 2 (0x2)
 </dt> <dd>
 
-Значение по умолчанию
+По умолчанию
 
 </dd> </dl>
 
-**Windows Server 2008 и Windows Vista:** Это свойство недоступно до Windows Server 2008 R2 и Windows 7.
+**Windows Server 2008 и Windows Vista:** это свойство недоступно до Windows Server 2008 R2 и Windows 7.
 
 </dd> <dt>
 
@@ -1462,7 +1462,7 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 
 Указывает, настроены ли свойства **максксресолутион** и **максиресолутион** сервером, групповой политикой или по умолчанию.
 
-**Windows Server 2008 и Windows Vista:** Это свойство недоступно до Windows Server 2008 R2 и Windows 7.
+**Windows Server 2008 и Windows Vista:** это свойство недоступно до Windows Server 2008 R2 и Windows 7.
 
 <dt>
 
@@ -1483,7 +1483,7 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 2 (0x2)
 </dt> <dd>
 
-Значение по умолчанию
+По умолчанию
 
 </dd> </dl>
 
@@ -1529,7 +1529,7 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 
 Указывает, как настраивается **ремотесессионпрофиле** .
 
-**Windows 7, Windows server 2008 R2, Windows Vista и Windows server 2008:** Это свойство недоступно до Windows 8 или Windows Server 2012.
+**Windows 7, Windows server 2008 R2, Windows Vista и Windows Server 2008:** это свойство недоступно до Windows 8 или Windows Server 2012.
 
 <dt>
 
@@ -1560,7 +1560,7 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 
 Указывает, как настроено свойство **селектнетворкдетект** .
 
-**Windows 7, Windows server 2008 R2, Windows Vista и Windows server 2008:** Это свойство недоступно до Windows 8 или Windows Server 2012.
+**Windows 7, Windows server 2008 R2, Windows Vista и Windows Server 2008:** это свойство недоступно до Windows 8 или Windows Server 2012.
 
 <dt>
 
@@ -1591,7 +1591,7 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 
 Указывает, как настроено свойство **селекттранспорт** .
 
-**Windows 7, Windows server 2008 R2, Windows Vista и Windows server 2008:** Это свойство недоступно до Windows 8 или Windows Server 2012.
+**Windows 7, Windows server 2008 R2, Windows Vista и Windows Server 2008:** это свойство недоступно до Windows 8 или Windows Server 2012.
 
 <dt>
 
@@ -1622,7 +1622,7 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 
 Указывает, настроено ли свойство **видеоплайбаккредир** сервером или групповой политикой.
 
-**Windows Server 2008 и Windows Vista:** Это свойство недоступно до Windows Server 2008 R2 и Windows 7.
+**Windows Server 2008 и Windows Vista:** это свойство недоступно до Windows Server 2008 R2 и Windows 7.
 
 <dt>
 
@@ -1672,7 +1672,7 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 2 (0x2)
 </dt> <dd>
 
-Значение по умолчанию
+По умолчанию
 
 </dd> </dl>
 
@@ -1689,7 +1689,7 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 
 Указывает профиль для взаимодействия с RDP.
 
-**Windows 7, Windows server 2008 R2, Windows Vista и Windows server 2008:** Это свойство недоступно до Windows 8 или Windows Server 2012.
+**Windows 7, Windows server 2008 R2, Windows Vista и Windows Server 2008:** это свойство недоступно до Windows 8 или Windows Server 2012.
 
 <dt>
 
@@ -1727,7 +1727,7 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 
 Указывает, используется ли обнаружение сети.
 
-**Windows 7, Windows server 2008 R2, Windows Vista и Windows server 2008:** Это свойство недоступно до Windows 8 или Windows Server 2012.
+**Windows 7, Windows server 2008 R2, Windows Vista и Windows Server 2008:** это свойство недоступно до Windows 8 или Windows Server 2012.
 
 <dt>
 
@@ -1772,7 +1772,7 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 
 Указывает, какие транспортные протоколы можно использовать для доступа к серверу по протоколу RDP.
 
-**Windows 7, Windows server 2008 R2, Windows Vista и Windows server 2008:** Это свойство недоступно до Windows 8 или Windows Server 2012.
+**Windows 7, Windows server 2008 R2, Windows Vista и Windows Server 2008:** это свойство недоступно до Windows 8 или Windows Server 2012.
 
 <dt>
 
@@ -1901,7 +1901,7 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 
 Указывает, разрешено ли перенаправление воспроизведения видео.
 
-**Windows Server 2008 и Windows Vista:** Это свойство недоступно до Windows Server 2008 R2 и Windows 7.
+**Windows Server 2008 и Windows Vista:** это свойство недоступно до Windows Server 2008 R2 и Windows 7.
 
 <dt>
 
@@ -1958,13 +1958,13 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Имейте в виду, что станция окна, связанная с сеансом консоли, не может получить доступ к методам и свойствам этого класса. Если предпринимается попытка сделать это, указав "Console" в качестве значения свойства **терминалнаме** , методы этого объекта будут возвращать **WBEM \_ E \_ не \_ поддерживаются**. Этот код ошибки также возвращается, если станция окна пытается вызвать методы этого объекта для добавления или изменения свойств безопасности учетных записей LocalSystem, LocalService или NetworkService.
 
-Чтобы подключиться к \\ корневому \\ \\ пространству имен CIMV2 терминалсервицес, уровень проверки подлинности должен включать в себя конфиденциальность пакетов. Для вызовов C/C++ это уровень проверки подлинности **AUTHN на \_ \_ \_ уровне \_ \_ безопасности RPC C уровня "PKT**". Для Visual Basic и написания сценариев это уровень проверки подлинности **вбемаусентикатионлевелпктприваци** или "пктприваци" со значением шесть.
+Чтобы подключиться к \\ корневому \\ \\ пространству имен CIMV2 терминалсервицес, уровень проверки подлинности должен включать в себя конфиденциальность пакетов. Для вызовов C/C++ это уровень проверки подлинности **AUTHN на \_ \_ \_ уровне \_ \_ безопасности RPC C уровня "PKT**". для Visual Basic и написания сценариев это уровень проверки подлинности **вбемаусентикатионлевелпктприваци** или "пктприваци" со значением шесть.
 
-В следующем примере Visual Basic Scripting Edition (VBScript) показано, как подключиться к удаленному компьютеру с использованием конфиденциальности пакетов.
+в следующем примере Visual Basic scripting Edition (VBScript) показано, как подключиться к удаленному компьютеру с использованием конфиденциальности пакетов.
 
 
 ```VB
@@ -1975,9 +1975,9 @@ Set objServices = GetObject( _
 
 
 
-Файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). MOF-файлы не устанавливаются в составе пакета средств разработки программного обеспечения Microsoft Windows (SDK). Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
+файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). файлы MOF не устанавливаются в составе пакета средств разработки программного обеспечения Microsoft Windows Software Development Kit (SDK). Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

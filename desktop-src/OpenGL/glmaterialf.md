@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c77cb1be5595f4a872988bbc6480d4cd6f65aae2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8aac97cf68996beb5472ff5f11e559af8b58ded31ab12fe5a33ab33d37b13b42
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105682122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118358933"
 ---
 # <a name="glmaterialf-function"></a>Функция Глматериалф
 
@@ -90,7 +90,7 @@ void WINAPI glMaterialf(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глматериалф** присваивает значения материальным параметрам. Существует два соответствующих набора параметров материала. Первый, *внешний* набор, используется для затенения точек, линий, точечных рисунков и всех многоугольников (если двустороннее освещение отключено) или только для внешних многоугольников (если включено двустороннее освещение). Другой набор, с *обратным переходом*, используется для затенения задних многоугольников только при включении двустороннего освещения. Дополнительные сведения об односторонним и двустороннем вычислениях освещения см. в разделе [**гллигхтмодел**](gllightmodel-functions.md) .
 
@@ -104,7 +104,7 @@ void WINAPI glMaterialf(
 
 [**глжетматериал**](glgetmaterial.md)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

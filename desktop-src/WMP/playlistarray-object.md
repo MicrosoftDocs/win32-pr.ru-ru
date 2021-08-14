@@ -3,7 +3,7 @@ title: Объект Плайлистаррай
 description: Объект Плайлистаррай предоставляет способ доступа к спискам воспроизведения по номеру индекса.
 ms.assetid: 8a29f36c-9c7c-4bc7-9adb-b34cc4231d81
 keywords:
-- Проигрыватель Windows Media Object Плайлистаррай
+- проигрыватель Windows Media объекта плайлистаррай
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2660b991cdc2885377140f2b99a647285fc4008c
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: e062ed6b7dee583bb68771dee243fe7271d95ba2728184bf453e5e77f9d21a3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103889368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118334989"
 ---
 # <a name="playlistarray-object"></a>Объект Плайлистаррай
 
@@ -34,7 +34,7 @@ ms.locfileid: "103889368"
 
 
 
- 
+ 
 
 Объект **плайлистаррай** поддерживает следующий метод.
 
@@ -46,7 +46,7 @@ ms.locfileid: "103889368"
 
 
 
- 
+ 
 
 Доступ к объекту **плайлистаррай** осуществляется с помощью следующих методов.
 
@@ -58,7 +58,7 @@ ms.locfileid: "103889368"
 
 
 
- 
+ 
 
 В целях иллюстрации, *Player*. *плайлистколлектион*. **жеталл** используется в разделах синтаксиса Reference.
 
@@ -69,9 +69,9 @@ ms.locfileid: "103889368"
 [**Справочник по объектной модели для создания сценариев**](object-model-reference-for-scripting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

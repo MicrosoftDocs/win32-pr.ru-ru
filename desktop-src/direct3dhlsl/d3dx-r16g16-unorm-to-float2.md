@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fba4ca1bb02e66289ec66d0ec4f58978800f6538
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3aab22773a643ad7ef233871c673b92a60aeed722b78be15e4bd0918ed836fc5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104354553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117727376"
 ---
 # <a name="d3dx_r16g16_unorm_to_float2-function"></a>D3DX \_ R16G16 \_ UNORM \_ to \_ FLOAT2 Function
 
@@ -48,13 +48,13 @@ XMFLOAT2 D3DX_R16G16_UNORM_to_FLOAT2(
 
 Распакованные данные шейдера.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|--------------------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3DX \_ дксгиформатконверт. inl</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3DX \_ дксгиформатконверт. inl</dt> </dl> |
 
 
 

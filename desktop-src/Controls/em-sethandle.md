@@ -3,7 +3,7 @@ title: Сообщение EM_SETHANDLE (Winuser. h)
 description: Задает маркер памяти, который будет использоваться многострочным элементом управления "поле ввода".
 ms.assetid: 0eae9365-62af-4040-8a51-273997a00b81
 keywords:
-- Элементы управления Windows для EM_SETHANDLE сообщений
+- элементы управления Windows сообщений EM_SETHANDLE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac8f918d056db1000c6018f55d89095a73a15109
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b3ece3eb9c385b5f4d468a7dd2f08ff3335a4314b4c90569cdba453c4815728f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118412595"
 ---
 # <a name="em_sethandle-message"></a>\_Сообщение СЕСАНДЛЕ EM
 
@@ -47,7 +47,7 @@ ms.locfileid: "104137162"
 
 Это сообщение не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Прежде чем приложение установит новый обработчик памяти, оно должно отправить сообщение [**EM- \_ Handle**](em-gethandle.md) для получения маркера текущего буфера памяти и освободить эту память.
 
@@ -57,15 +57,15 @@ ms.locfileid: "104137162"
 
 **Расширенное редактирование:** Сообщение **EM \_ сесандле** не поддерживается. Элементы управления Rich Edit не хранят текст как простой массив символов.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Header<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

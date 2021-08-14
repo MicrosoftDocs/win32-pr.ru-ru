@@ -4,16 +4,16 @@ ms.assetid: bfbba5df-ce06-4012-a7b1-55d8ea580942
 title: Использование функций Скриптстринг
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93a2df5e7515bd605ad48cc7a246941e9b6f08f2
-ms.sourcegitcommit: 3d718d8f69d3f86eaecf94c5705d761c5a9ef4a1
+ms.openlocfilehash: 6685af7dad2c9e1b8d0cf460d526155f967a9105e1b107047afb99c18a5124f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104070814"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118389410"
 ---
 # <a name="using-the-scriptstring-functions"></a>Использование функций Скриптстринг
 
-Для приложения, которое работает с неформатированным текстом, Uniscribe предоставляет функции **скриптстринг \*** . Эти функции похожи на [**ExtTextOut**](/windows/win32/api/wingdi/nf-wingdi-exttextouta), [**DrawText**](/windows/win32/api/winuser/nf-winuser-drawtext)и [**жеттекстекстент**](/cpp/mfc/reference/cdc-class#gettextextent), но они обеспечивают полную поддержку сложных скриптов, включая размещение курсора. Эти функции похожи на другие функции Uniscribe, но адаптированы к более простым требованиям обработки обычного текста.
+Для приложения, которое работает с неформатированным текстом, Uniscribe предоставляет функции **скриптстринг \** _. Эти функции похожи на [_ *ExtTextOut* *](/windows/win32/api/wingdi/nf-wingdi-exttextouta), [**DrawText**](/windows/win32/api/winuser/nf-winuser-drawtext)и [**жеттекстекстент**](/cpp/mfc/reference/cdc-class#gettextextent), но они обеспечивают полную поддержку сложных скриптов, включая размещение курсора. Эти функции похожи на другие функции Uniscribe, но адаптированы к более простым требованиям обработки обычного текста.
 
 В следующей таблице описаны функции **скриптстринг \*** и любые аналоги в других функциях Uniscribe.
 
@@ -52,7 +52,7 @@ ms.locfileid: "104070814"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Usp10/nf-usp10-scriptstringgetorder"><strong>скриптстрингжетордер</strong></a></td>
-<td>Сопоставляет позиции глифов символов аналогичным образом для <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">жетчарактерплацемент</a>, только для устаревшего использования. Эта функция плохо работает с скриптами, которые создают более одного глифа для каждой кодовой точки.</td>
+<td>Карты позиции глифов символов аналогичным образом для <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">жетчарактерплацемент</a>, только для устаревшего использования. Эта функция плохо работает с скриптами, которые создают более одного глифа для каждой кодовой точки.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Usp10/nf-usp10-scriptstringout"><strong>скриптстрингаут</strong></a></td>
@@ -83,13 +83,13 @@ ms.locfileid: "104070814"
 
 Чтобы отобразить только обычный текст без каких бы то ни было изменений, приложение должно вызвать [**скриптстринганалисе**](/windows/desktop/api/Usp10/nf-usp10-scriptstringanalyse), [**скриптстрингаут**](/windows/desktop/api/Usp10/nf-usp10-scriptstringout), а затем [**скриптстрингфри**](/windows/desktop/api/Usp10/nf-usp10-scriptstringfree). Другие функции используются для изменения обычного текста перед отображением.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Использование Uniscribe](using-uniscribe.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

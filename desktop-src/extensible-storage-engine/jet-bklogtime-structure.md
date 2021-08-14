@@ -15,23 +15,23 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0b3ebfd1c0b807a491695ba18d6735e0230a16fe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b34740d582e341cce3b2fd0b28203b7346a4de1d94a8586289be8ab252247943
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693438"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118487726"
 ---
 # <a name="jet_bklogtime-structure"></a>Структура JET_BKLOGTIME
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jet_bklogtime-structure"></a>Структура JET_BKLOGTIME
 
 Структура **JET_BKLOGTIME** содержит элементы даты и времени события. Это расширение [JET_LOGTIME](./jet-logtime-structure.md).
 
-**Windows Vista: JET_BKLOGTIME** впервые появился в Windows Vista.
+**Windows vista: JET_BKLOGTIME** введены в Windows vista.
 
 ```cpp
     typedef struct {
@@ -118,7 +118,7 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p>Потоковая Архивация</p></td>
-<td><p>Ноль (0)</p></td>
+<td><p>0 (ноль)</p></td>
 </tr>
 <tr class="even">
 <td><p>Резервное копирование моментальных снимков</p></td>
@@ -132,11 +132,11 @@ _**Применимо к:** Windows | Windows Server_
 
 Это поле следует игнорировать.
 
-### <a name="remarks"></a>Комментарии
+### <a name="remarks"></a>Remarks
 
 Эта структура используется при отладке.
 
-### <a name="requirements"></a>Требования
+### <a name="requirements"></a>Requirements (Требования)
 
 <table>
 <colgroup>
@@ -146,11 +146,11 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista.</p></td>
+<td><p>требуется Windows Vista.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008.</p></td>
+<td><p><strong>Сервер</strong></p></td>
+<td><p>требуется Windows Server 2008.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>
@@ -160,7 +160,7 @@ _**Применимо к:** Windows | Windows Server_
 </table>
 
 
-### <a name="see-also"></a>См. также:
+### <a name="see-also"></a>См. также
 
 [JET_LOGTIME](./jet-logtime-structure.md)  
 [JET_DBINFOMISC](./jet-dbinfomisc-structure.md)

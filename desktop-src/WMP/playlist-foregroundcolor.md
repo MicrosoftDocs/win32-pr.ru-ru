@@ -3,7 +3,7 @@ title: Список воспроизведения. foregroundColor
 description: Атрибут foregroundColor указывает или получает цвет переднего плана.
 ms.assetid: a83ceeec-033e-4060-b968-1d19bd7e391b
 keywords:
-- Проигрыватель Windows Media Player. foregroundColor
+- проигрыватель Windows Media списка воспроизведения. foregroundColor
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 754544dec05319a6d4f1ce0d14b593969d543813
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 98dbacf3d6439dc379c41163557189b98b8cdcc27db82eb4ec1bb04ad8de03be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105647950"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118336760"
 ---
 # <a name="playlistforegroundcolor"></a>Список воспроизведения. foregroundColor
 
@@ -29,15 +29,15 @@ ms.locfileid: "105647950"
 
 ## <a name="possible-values"></a>Возможные значения
 
-Этот атрибут является **строкой** для чтения и записи, содержащей любое значение цвета Microsoft Internet Explorer. Он имеет значение по умолчанию, равное цвету системного текста Windows.
+Этот атрибут является **строкой** для чтения и записи, содержащей любое значение цвета Microsoft Internet Explorer. он имеет значение по умолчанию, равное Windows цвету текста системы.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

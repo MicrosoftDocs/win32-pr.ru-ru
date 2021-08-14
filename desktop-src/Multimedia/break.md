@@ -3,7 +3,7 @@ title: Команда break
 description: Команда Break задает ключ для прерывания команды, которая была вызвана с помощью параметра \ 0034; Wait \ 0034; RAS. Эта команда является системной командой MCI; он интерпретируется непосредственно MCI.
 ms.assetid: 959df85f-5020-4e37-952b-15ba5e6fb672
 keywords:
-- прерывание команды мультимедиа Windows
+- команда break Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f727fb6cf375e09a260ee68f62eac83816ff5d4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f99c8609b1364d374d91965816fde2d9c48b750d7bf0b3f6fb2957ed205a85a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104492825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118375476"
 ---
 # <a name="break-command"></a>Команда break
 
@@ -75,7 +75,7 @@ _stprintf_s(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если ключ разрыва включен и пользователь нажимает клавишу, определенную с помощью кода виртуального ключа, указанного в параметре *лпсзвирткэй* , устройство возвращает управление приложению. По возможности команда продолжит выполнение.
 
@@ -87,7 +87,7 @@ _stprintf_s(
 break mysound on 113
 ```
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

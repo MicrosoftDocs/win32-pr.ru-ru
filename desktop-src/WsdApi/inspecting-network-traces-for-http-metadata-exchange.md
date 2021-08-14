@@ -1,17 +1,17 @@
 ---
 description: Узнайте, как проверить трассировки сети для обмена метаданными HTTP. Используйте анализатор сетевых пакетов, отображающий необработанные пакеты.
 ms.assetid: b3b6c4d1-5fa3-41fb-ae1d-067638e385b0
-title: Проверка трассировки сети для обмена метаданными HTTP
+title: Проверка трассировки сети для Exchange метаданных HTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e653b0852f84382873973cd63fbd3223a245dd4
-ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
+ms.openlocfilehash: 076ead8f6ac0cf78699029189f0d34daaf0e17db3dec33d1a41bedfd0167eb2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112262686"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118311603"
 ---
-# <a name="inspecting-network-traces-for-http-metadata-exchange"></a>Проверка трассировки сети для обмена метаданными HTTP
+# <a name="inspecting-network-traces-for-http-metadata-exchange"></a>Проверка трассировки сети для Exchange метаданных HTTP
 
 Любой анализатор сетевых пакетов, который может отображать необработанные пакеты, может использоваться для проверки запросов на обмен метаданными HTTP. Рекомендуется Microsoft Network Monitor 3 (Netmon). Дополнительные сведения о netmon см. в статье [Загрузка Netmon и примеры DPWS Filters](downloading-netmon-and-sample-dpws-filters.md).
 
@@ -33,7 +33,7 @@ ms.locfileid: "112262686"
 
 ## <a name="verifying-that-messages-meet-traffic-requirements"></a>Проверка соответствия сообщений требованиям к трафику
 
-WSDAPI клиенты и узлы должны отправить сообщения, соответствующие следующим критериям. Общие сведения о шаблонах сообщений см. в статье [шаблоны сообщений обнаружения и обмена метаданными](discovery-and-metadata-exchange-message-patterns.md).
+WSDAPI клиенты и узлы должны отправить сообщения, соответствующие следующим критериям. общие сведения о шаблонах сообщений см. в разделе [обнаружение и метаданные Exchange шаблонах сообщений](discovery-and-metadata-exchange-message-patterns.md).
 
 -   Сообщения должны удовлетворять требованиям к трафику, приведенным в разделе [Проверка трассировки сети для протокола UDP WS-Discovery](inspecting-network-traces-for-udp-ws-discovery.md), если только это не является абсолютно уверенным, что WS-Discovery не используется для обмена метаданными.
 -   Должно быть установлено TCP-соединение между клиентом и первым транспортным адресом, указанным в элементе **ксаддрс** сообщения [ProbeMatch](probematches-message.md) или [ресолвематчес](resolvematches-message.md) . В следующем списке показан типичный обмен пакетами, используемый для установления TCP-соединения.

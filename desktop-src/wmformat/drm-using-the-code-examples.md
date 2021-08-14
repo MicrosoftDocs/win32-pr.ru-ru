@@ -1,25 +1,25 @@
 ---
-title: Примеры кода клиента DRM для Microsoft Windows Media
-description: Примеры кода клиента DRM для Microsoft Windows Media
+title: примеры кода клиента DRM Microsoft Windows Media
+description: примеры кода клиента DRM Microsoft Windows Media
 ms.assetid: 75db2663-9eb8-406d-b1a9-8f6092c95f9d
 keywords:
-- Windows Media Format SDK, примеры кода
-- Windows Media Format SDK, пример кода
-- Windows Media Format SDK, примеры кода DRM
+- Windows Пакет SDK для формата мультимедиа, примеры кода
+- Windows Пакет SDK для формата мультимедиа, пример кода
+- Windows Пакет SDK для формата мультимедиа, примеры кода DRM
 - Управление цифровыми правами (DRM), примеры кода
 - DRM (Управление цифровыми правами), примеры кода
 - Управление цифровыми правами (DRM), пример кода
 - DRM (Управление цифровыми правами), пример кода
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 054d1ed804873c8aca104203ee1f235ecb3856f5
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 3e14ef7e1d003dec8270bb4cfb63d5b4ead7f11751eb94dd09cd771ebd34b3ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104414420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118704217"
 ---
-# <a name="using-the-microsoft-windows-media-drm-client-code-examples"></a>Примеры кода клиента DRM для Microsoft Windows Media
+# <a name="using-the-microsoft-windows-media-drm-client-code-examples"></a>примеры кода клиента DRM Microsoft Windows Media
 
 Примеры кода включены в эту документацию, чтобы продемонстрировать использование компонентов. Примеры записываются как можно более четкие и лаконичные. При чтении примеров следует учитывать следующие соглашения.
 
@@ -48,7 +48,7 @@ ms.locfileid: "104414420"
 
     
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

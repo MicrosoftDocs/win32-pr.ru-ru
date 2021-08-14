@@ -4,12 +4,12 @@ ms.assetid: 33009587-6fb2-4331-88d7-21886125467e
 title: Свойство MFPKEY_TOTALFRAMES (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dfbdd02de8ae37918bb81691ad545b0cc3ebbca7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a0a45c67bd457fc792af2f2f3d99f6cc346fe01dbebe735b9340c79ccc54fe27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104156070"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117872981"
 ---
 # <a name="mfpkey_totalframes-property"></a>МФПКЭЙ \_ тоталфрамес, свойство
 
@@ -23,7 +23,7 @@ g \_ всзвмвктоталфрамес
 
 VT \_ I4
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это значение можно получить после завершения передачи образцов.
 
@@ -33,8 +33,8 @@ VT \_ I4
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 

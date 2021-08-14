@@ -3,7 +3,7 @@ title: Команда MCI_RECORD (Ммсистем. h)
 description: Команда MCI \_ Record начинает запись из текущей позиции или из одного указанного расположения в другое указанное расположение.
 ms.assetid: d3c4e8a3-7d81-428e-91d8-d8d63fc0aa02
 keywords:
-- MCI_RECORD команды мультимедиа Windows
+- команда MCI_RECORD Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec1cd15974753b8f40abd87b8d93622c090e2a57
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 327b9ed9b138b581bec17d8bfcfe19ae67bb07d59be2781af54e22a85e2133c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117803455"
 ---
 # <a name="mci_record-command"></a>\_Команда MCI Record
 
@@ -68,7 +68,7 @@ MCIERROR mciSendCommand(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта команда поддерживается устройствами, которые возвращают **значение true** при вызове команды [MCI \_ ЖЕТДЕВКАПС](mci-getdevcaps.md) с \_ \_ флагом MCI жетдевкапс \_ . Для драйвера МЦИВАВЕ все данные, записанные после открытия файла, отбрасываются, если файл закрывается без сохранения.
 
@@ -158,7 +158,7 @@ MCIERROR mciSendCommand(
 
 Для устройств ВИДЕОМАГНИТОФОНА *лпрекорд* указывает на структуру [**\_ \_ \_ пармс записи видеомагнитофона MCI**](mci-vcr-record-parms.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -166,7 +166,7 @@ MCIERROR mciSendCommand(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 

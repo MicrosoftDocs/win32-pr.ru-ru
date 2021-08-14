@@ -4,12 +4,12 @@ ms.assetid: 12f41eef-9953-4125-8490-07ff64967f95
 title: Обработка ошибок в COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc1979fc49ff8f14bb83b194be7e1787feaf7d86
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 04b66ecfd2d66d30b601fdc9e3e580d258ab912db5c10e3af422b9e7fde2b7a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104142967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118306553"
 ---
 # <a name="handling-errors-in-com"></a>Обработка ошибок в COM+
 
@@ -29,7 +29,7 @@ ms.locfileid: "104142967"
 | [Изменение возвращаемых значений COM+](how-com--modifies-return-values.md)<br/>               | Определяет одно условие, в котором COM+ преобразует стандартное значение HRESULT в код ошибки COM+, прежде чем передать его обратно вызывающему объекту.<br/>             |
 | [Изоляция сбоев и политика FailFast](fault-isolation-and-failfast-policy.md)<br/>       | Показывает, как изоляция сбоев и политика FailFast влияют на поведение COM+.<br/>                                                                          |
 | [Поиск источника ошибки](finding-the-source-of-an-error.md)<br/>                 | Описывает, как можно диагностировать источник и получить описание ошибок приложения. <br/>                                                       |
-| [Анализ кодов ошибок](interpreting-error-codes.md)<br/>                             | Определяет предварительный механизм обработки ошибок для Microsoft Visual C++, язык Java и Microsoft Visual Basic. <br/>                    |
+| [Анализ кодов ошибок](interpreting-error-codes.md)<br/>                             | определяет предварительный механизм обработки ошибок для Microsoft Visual C++, язык Java и Microsoft Visual Basic. <br/>                    |
 | [Устранение неполадок](troubleshooting.md)<br/>                                               | Предоставляет дополнительную помощь в диагностике ошибок.<br/>                                                                                             |
 | [Обращение в службу поддержки](contacting-support.md)<br/>                                         | Определяет важные сведения по решению проблем, которые следует предоставить при обращении в службу поддержки.<br/>                                                     |
 
@@ -42,7 +42,7 @@ ms.locfileid: "104142967"
 -   [Ускорение транзакций путем уведомления корневого объекта](speeding-transactions-by-notifying-the-root-object.md)
 -   [Обработка ошибок](handling-errors-in-queued-components.md) (для компонентов в очереди)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

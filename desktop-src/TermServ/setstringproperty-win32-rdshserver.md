@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 53d30812c0df943175f96c8ae43a4fe094725c74
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a2715271bcb73efd15acbef2097a29a978774e575a4fb115a9ef9e727e3efa91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118349395"
 ---
 # <a name="setstringproperty-method-of-the-win32_rdshserver-class"></a>Метод Сетстрингпроперти \_ класса Win32 рдшсервер
 
@@ -62,7 +62,7 @@ uint32 SetStringProperty(
 
 Возвращает значение 0 при успешном выполнении, в противном случае возвращает код ошибки WMI.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

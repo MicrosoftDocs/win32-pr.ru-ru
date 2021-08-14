@@ -4,12 +4,12 @@ ms.assetid: 2d9b642f-6b42-4fc6-839c-269bbb0f7296
 title: System. photo. Исоспид
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37f45c4a6003191918525c5d7174212003f9ac75
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 070dbe583ac8177e56e31f5856a65ab0d37204e19a8c7d75df7144af24933e52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103913715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118228748"
 ---
 # <a name="systemphotoisospeed"></a>System. photo. Исоспид
 
@@ -44,11 +44,11 @@ propertyDescription
       type = UInt16
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

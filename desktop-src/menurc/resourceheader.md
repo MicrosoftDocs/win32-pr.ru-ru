@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 41b436ebd6aeb5dc31f8ed773fbe7b12a1586185
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 78b1c6468f251ac48340baf584234f22e325b392798afad436643aa0792e8369
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105710460"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117687104"
 ---
 # <a name="resourceheader-structure"></a>Структура РЕСАУРЦЕХЕАДЕР
 
@@ -183,7 +183,7 @@ typedef struct {
 
 </dd> <dt>
 
-**Version**
+**Версия**
 </dt> <dd>
 
 Тип: **DWORD**
@@ -205,7 +205,7 @@ typedef struct {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Член типа переменной называется членом **имени** или **порядкового номера** и используется в большинстве мест в файле ресурсов, где отображается идентификатор. Первое **слово** элемента типа **Name** или **Ordinal** указывает, является ли элемент числовым значением или строкой. Если первое **слово** в члене равно значению 0xFFFF, которое является недопустимым символом Юникода, следующее **слово** является числом типа. В противном случае элемент содержит строку в Юникоде, а первое **слово** в члене — первый символ в строке имени. Дополнительные сведения об инструкциях определения ресурсов см. в разделе [инструкции определения ресурсов](./resource-definition-statements.md).
 

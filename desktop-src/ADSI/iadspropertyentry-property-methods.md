@@ -27,12 +27,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 01e82344b2b659395bb14c0500fde3214530e000
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 16b4fd6459ff2aa0a93ea050fa8e5d2133c09484c697d17fab204762e8765039
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118427657"
 ---
 # <a name="iadspropertyentry-property-methods"></a>Методы свойств Иадспропертентри
 
@@ -98,7 +98,7 @@ HRESULT put_ControlCode(
 
 </dt> </dl> </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl>
 
 Имя записи свойства. Это имя должно соответствовать имени атрибута, как определено в схеме.
@@ -156,7 +156,7 @@ HRESULT put_Values(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Каждый метод свойства поддерживает стандартные возвращаемые значения **HRESULT** , включая S \_ ОК. Дополнительные сведения о других возвращаемых значениях см. в разделе [коды ошибок ADSI](adsi-error-codes.md).
 
@@ -285,7 +285,7 @@ Cleanup:
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

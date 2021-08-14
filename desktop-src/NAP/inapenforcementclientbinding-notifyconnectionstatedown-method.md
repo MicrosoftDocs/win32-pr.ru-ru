@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3129883342f493fd56a4cc81513910e8789ca4f1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0e0e40d3b46e8c970287f49d983d89733d4858e38671ac93fb75d482c0259a73
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104535609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119803054"
 ---
 # <a name="inapenforcementclientbindingnotifyconnectionstatedown-method"></a>Метод Инапенфорцементклиентбиндинг:: Нотификоннектионстатедовн
 
@@ -71,7 +71,7 @@ HRESULT NotifyConnectionStateDown(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При отключении любого из подключений, установленных клиентом принудительного применения, клиент принудительного применения должен удалить подключение из активного списка и уведомить Напажент с помощью этого метода. Как только этот вызов возвращает, объект соединения может быть освобожден и освобожден. Напажент не будет содержать ссылки на объект Connection.
 
@@ -79,14 +79,14 @@ HRESULT NotifyConnectionStateDown(
 
 Клиент принудительного применения должен вызвать метод [**инапенфорцементклиентбиндинг:: Initialize**](inapenforcementclientbinding-initialize-method.md) перед вызовом этого или любого другого метода интерфейса [**инапенфорцементклиентбиндинг**](inapenforcementclientbinding.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                      |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                      |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>Напенфорцементклиент. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Напенфорцементклиент. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>               |

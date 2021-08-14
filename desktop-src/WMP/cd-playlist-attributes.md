@@ -3,24 +3,24 @@ title: Атрибуты списка воспроизведения компак
 description: Атрибуты списка воспроизведения компакт-диска
 ms.assetid: 3f447fa8-2d09-49c3-8efd-6bf048429a6b
 keywords:
-- Проигрыватель Windows Media, атрибуты списка воспроизведения компакт-дисков
-- Проигрыватель Windows Media Mobile, атрибуты списка воспроизведения компакт-дисков
-- Объектная модель проигрывателя Windows Media, атрибуты списка воспроизведения компакт-дисков
+- проигрыватель Windows Media, атрибуты списка воспроизведения компакт-диска
+- проигрыватель Windows Media Мобильные устройства, атрибуты списка воспроизведения CD
+- проигрыватель Windows Media объектная модель, атрибуты списка воспроизведения CD
 - Объектная модель, атрибуты списка воспроизведения CD
-- Элемент управления ActiveX, атрибуты списка воспроизведения компакт-дисков
-- Элемент управления ActiveX проигрывателя Windows Media, атрибуты списка воспроизведения компакт-дисков
-- Элемент управления мобильными устройствами ActiveX проигрывателя Windows Media, атрибуты списка воспроизведения компакт-дисков
+- ActiveX элемент управления, атрибуты списка воспроизведения CD
+- проигрыватель Windows Media ActiveX элемента управления, атрибуты списка воспроизведения компакт-дисков
+- проигрыватель Windows Media мобильные ActiveX управления, атрибуты списка воспроизведения компакт-дисков
 - Справочник по объектной модели, атрибутам списка воспроизведения компакт-дисков
 - атрибуты, списки воспроизведения
 - Атрибуты списка воспроизведения компакт-диска
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 689b2b3b722a18a0e73305b959a2b4966a3bce79
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1fdc35b110b690952ffff9ad1a525f8b0e5a634c094ac07ad066b2d09e947a15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105691331"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118342657"
 ---
 # <a name="cd-playlist-attributes"></a>Атрибуты списка воспроизведения компакт-диска
 
@@ -29,7 +29,7 @@ ms.locfileid: "105691331"
 -   [Псевдоним исполнителя](author-attribute.md)
 -   [Атрибут Author](author-attribute.md)
 -   [Атрибут Буйнов](buynow-attribute.md)
--   [Псевдоним Composer](wm-composer-attribute.md)
+-   [псевдоним Composer](wm-composer-attribute.md)
 -   [Атрибут Copyright](copyright-attribute.md)
 -   [Псевдоним жанра](wm-genre-attribute.md)
 -   [Псевдоним метки](wm-publisher-attribute.md)
@@ -44,7 +44,7 @@ ms.locfileid: "105691331"
 -   [Атрибут WM/Вмколлектионграупид](wm-wmcollectiongroupid-attribute.md)
 -   [Атрибут WM/Вмколлектионид](wm-wmcollectionid-attribute.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -57,9 +57,9 @@ ms.locfileid: "105691331"
 [**Дорожки компакт-диска**](cd-track-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

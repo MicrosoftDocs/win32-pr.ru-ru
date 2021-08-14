@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 42f98ae99814495029c67d41b05e86182c6b8b34
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0863db300f18e0231143b4f3aaa28cf4fcdb9ff1a46f4c92bd99d2092fdc088d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118221501"
 ---
 # <a name="ishelldispatchtilevertically-method"></a>Ишеллдиспатч. Тилевертикалли, метод
 
@@ -55,15 +55,15 @@ IShellDispatch.TileVertically()
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Этот метод реализован и доступен через метод [**Shell. тилевертикалли**](shell-tilevertically.md) .
 
 ## <a name="examples"></a>Примеры
 
-В следующих примерах показано использование **тилевертикалли** в JScript, VBScript и Visual Basic.
+в следующих примерах показано использование **тилевертикалли** в JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -113,13 +113,13 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                           |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                         |

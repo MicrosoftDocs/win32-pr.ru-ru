@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Apphelp.dll
-ms.openlocfilehash: 56c80c4000df95fe13486d95bb872bfc39274389
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e14c499b5f23f342192ad42b72f8a4c29f8312adbf6bbcb8310ee182cd457f18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118404433"
 ---
 # <a name="sdbgetstringtagptr-function"></a>Функция Сдбжетстрингтагптр
 
@@ -58,14 +58,14 @@ LPTSTR WINAPI SdbGetStringTagPtr(
 
 Функция возвращает указатель на строковые данные или **значение NULL** , если **TAGID** является недопустимым или не относится к типу **тегов \_ \_ String** или **\_ type тега \_ стрингреф**.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                   |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                   |
 | DLL<br/>                      | <dl> <dt>Apphelp.dll</dt> </dl> |
 
 

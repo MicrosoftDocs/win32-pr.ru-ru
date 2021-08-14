@@ -1,25 +1,25 @@
 ---
 title: Сохранение состояния ленты
-description: Платформа Windows рибон Framework (лента) предоставляет возможность сохранения состояния различных параметров и настроек пользователей во всех сеансах приложения.
+description: Windows рибон framework (лента) обеспечивает возможность сохранения состояния различных параметров и настроек пользователей во всех сеансах приложения.
 ms.assetid: f59e36be-8e3d-454a-b93c-9fc5fc5ecb47
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f4a3b704151b657bdfe95845c8473a0fd197e87b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c1e506d1cc8138f569dc21b491cc11ed58411131c0dd80532c19043c5974995e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104338313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118707950"
 ---
 # <a name="persisting-ribbon-state"></a>Сохранение состояния ленты
 
-Платформа Windows рибон Framework (лента) предоставляет возможность сохранения состояния различных параметров и настроек пользователей во всех сеансах приложения.
+Windows рибон framework (лента) обеспечивает возможность сохранения состояния различных параметров и настроек пользователей во всех сеансах приложения.
 
 -   [Введение](#introduction)
 -   [Прогнозируемый опыт работы](#a-predictable-experience)
--   [Сохранить параметры ленты](#save-ribbon-settings)
--   [Загрузить параметры ленты](#load-ribbon-settings)
--   [См. также](#related-topics)
+-   [сохранить Параметры ленты](#save-ribbon-settings)
+-   [загрузить Параметры ленты](#load-ribbon-settings)
+-   [Связанные темы](#related-topics)
 
 ## <a name="introduction"></a>Введение
 
@@ -52,7 +52,7 @@ ms.locfileid: "104338313"
     > [!Note]  
     > Свернутое состояние ленты не эквивалентно свернутому состоянию ленты. В свернутом состоянии лента полностью скрыта и не может взаимодействовать с. Платформа вызывает это состояние автоматически, если размер окна приложения уменьшается на горизонтальном или вертикальном месте до того момента, когда лента скрывает рабочую область приложения. Платформа восстанавливает ленту при увеличении размера окна приложения.
 
-     
+     
 
     На этом снимке экрана показана команда сворачивания контекстного меню **ленты** .
 
@@ -62,9 +62,9 @@ ms.locfileid: "104338313"
 
     ![снимок экрана: уменьшенная лента Microsoft Paint.](images/properties/ui-pkey-minimized.png)
 
-## <a name="save-ribbon-settings"></a>Сохранить параметры ленты
+## <a name="save-ribbon-settings"></a>сохранить Параметры ленты
 
-Метод [**иуириббон:: савесеттингстостреам**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-savesettingstostream) записывает двоичное представление постоянного состояния ленты (описанное в предыдущем разделе) в объект [IStream](/windows/win32/api/objidl/nn-objidl-istream) . Затем приложение сохраняет содержимое объекта IStream в файл или реестр Windows.
+Метод [**иуириббон:: савесеттингстостреам**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-savesettingstostream) записывает двоичное представление постоянного состояния ленты (описанное в предыдущем разделе) в объект [IStream](/windows/win32/api/objidl/nn-objidl-istream) . затем приложение сохраняет содержимое объекта IStream в файл или в реестр Windows.
 
 В следующем примере показан базовый код, необходимый для записи состояния ленты в объект [IStream](/windows/win32/api/objidl/nn-objidl-istream) с помощью метода [**Иуириббон:: савесеттингстостреам**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-savesettingstostream) .
 
@@ -98,7 +98,7 @@ HRESULT CApplication::SaveRibbonStatusToStream(
 
 
 
-## <a name="load-ribbon-settings"></a>Загрузить параметры ленты
+## <a name="load-ribbon-settings"></a>загрузить Параметры ленты
 
 Метод [**иуириббон:: лоадсеттингсфромстреам**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-loadsettingsfromstream) используется для получения постоянных сведений о состоянии ленты, хранящихся в виде объекта [IStream](/windows/win32/api/objidl/nn-objidl-istream) методом [**иуириббон:: савесеттингстостреам**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-savesettingstostream) . Сведения в объекте IStream применяются к ИНТЕРФЕЙСу Ribbon при инициализации приложения.
 
@@ -167,13 +167,13 @@ HRESULT CMyRibbonApplication::_LoadRibbonSettings(IUIRibbon* pRibbon)
 
 При синхронизации состояния ленты в группе экземпляров приложения каждое окно верхнего уровня должно прослушивать уведомление об [ \_ активации WM](../inputdev/wm-activate.md) . Деактивируемое окно верхнего уровня сохраняет свое состояние ленты с помощью метода [**иуириббон:: савесеттингстостреам**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-savesettingstostream) , а активируемое окно верхнего уровня загружает свое состояние ленты с помощью метода [**Иуириббон:: лоадсеттингсфромстреам**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-loadsettingsfromstream) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Панель быстрого доступа](windowsribbon-controls-quickaccesstoolbar.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -7,12 +7,12 @@ keywords:
 - Флаги следующего прыжка
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bd672c9b083e47c3d0a7419d03ab890c1037ce5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 45dbad78f5f10d7a9d7bf42f694f7e2fb3109c03b92dccdb5f31697f5cf8988c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068460"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117790397"
 ---
 # <a name="next-hop-flags"></a>Флаги следующего прыжка
 
@@ -27,7 +27,7 @@ ms.locfileid: "104068460"
 
 
 
- 
+ 
 
 ## <a name="next-hop-flags"></a>Флаги следующего прыжка
 
@@ -40,7 +40,7 @@ ms.locfileid: "104068460"
 
 
 
- 
+ 
 
 ## <a name="next-hop-added"></a>Добавлен следующий прыжок
 
@@ -52,11 +52,11 @@ ms.locfileid: "104068460"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: Сообщение WM_CAP_SET_SCALE (VFW. h)
 description: В \_ \_ \_ сообщении о масштабировании WM Set Scale можно включить или отключить масштабирование для видеороликов предварительного просмотра.
 ms.assetid: f15f1d18-2c5a-40c1-baa1-0d18549bee23
 keywords:
-- WM_CAP_SET_SCALE сообщения Windows мультимедиа
+- сообщение WM_CAP_SET_SCALE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fd3bfc5dc463d84c935f994519060c33f89b8c0a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3293be6917917581957df0f5dae9456274f1d2cc3eeffff5ea971c3596209a62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118369398"
 ---
 # <a name="wm_cap_set_scale-message"></a>\_Сообщение с \_ заданным \_ масштабом WM Cap
 
@@ -49,13 +49,13 @@ lParam = 0L;
 
 Возвращает **значение true** в случае успеха или **false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Изображения с предварительным просмотром — это немедленное представление захваченных кадров в окне Capture. Он не влияет на размер кадров, сохраняемых в файле.
 
 Масштабирование не оказывает никакого влияния при использовании оверлея для показа видео в буфере кадров.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

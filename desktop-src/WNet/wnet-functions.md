@@ -1,19 +1,19 @@
 ---
 title: Функции Внет
-description: Сетевые функции Windows предоставляют сведения и служебные программы для управления сетевыми ресурсами.
+description: Windows Сетевые функции предоставляют сведения и служебные программы для управления сетевыми ресурсами.
 ms.assetid: 8a83186f-a912-4c61-8137-1f6be1f3afd6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 623de7adfdb57e21f01bff8b9647d6d2d175bd63
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 771974bcc2967ddba32439bb655173f62b8478ad367e086e620ca02825a2567f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104260976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118330789"
 ---
 # <a name="wnet-functions"></a>Функции Внет
 
-Сетевые функции Windows предоставляют сведения и служебные программы для управления сетевыми ресурсами. Сетевые функции Windows можно группировать следующим образом:
+Windows Сетевые функции предоставляют сведения и служебные программы для управления сетевыми ресурсами. Windows сетевые функции можно группировать следующим образом:
 
 -   [Функции подключения](#connection-functions)
 -   [Функции перечисления](#enumeration-functions)
@@ -45,12 +45,12 @@ ms.locfileid: "104260976"
 
 
 
- 
+ 
 
 > [!Note]  
-> Функции [**внетаддконнектион**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnectiona) и [**внетканцелконнектион**](/windows/win32/api/winnetwk/nf-winnetwk-wnetcancelconnectiona) поддерживаются для обеспечения совместимости с Windows для рабочих групп. Однако новые приложения должны использовать [**WNetAddConnection2**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnection2a) или [**WNetAddConnection3**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnection3a)и [**WNetCancelConnection2**](/windows/win32/api/winnetwk/nf-winnetwk-wnetcancelconnection2a).
+> функции [**внетаддконнектион**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnectiona) и [**внетканцелконнектион**](/windows/win32/api/winnetwk/nf-winnetwk-wnetcancelconnectiona) поддерживаются для обеспечения совместимости с Windows для рабочих групп. Однако новые приложения должны использовать [**WNetAddConnection2**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnection2a) или [**WNetAddConnection3**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnection3a)и [**WNetCancelConnection2**](/windows/win32/api/winnetwk/nf-winnetwk-wnetcancelconnection2a).
 
- 
+ 
 
 ## <a name="enumeration-functions"></a>Функции перечисления
 
@@ -66,7 +66,7 @@ ms.locfileid: "104260976"
 
 
 
- 
+ 
 
 ## <a name="information-functions"></a>Информационные функции
 
@@ -84,7 +84,7 @@ ms.locfileid: "104260976"
 
 
 
- 
+ 
 
 ## <a name="user-functions"></a>Пользовательские функции
 
@@ -98,10 +98,10 @@ ms.locfileid: "104260976"
 
 
 
- 
+ 
 
 Многие функции Внет используют структуру [**нетресаурце**](/windows/desktop/api/Winnetwk/ns-winnetwk-netresourcea) для хранения информации о сетевом ресурсе.
 
- 
+ 
 
- 
+ 

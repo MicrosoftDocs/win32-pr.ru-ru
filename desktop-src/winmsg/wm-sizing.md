@@ -4,12 +4,12 @@ ms.assetid: 8cf56194-8a10-48e1-b0eb-aa3d66896599
 title: Сообщение WM_SIZING (Winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f0ab865994352eba28cdebaff3faab72a484ce0b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09645c9aaf778d5866050b45496298a46c4488e39b12f449f3ee0e8607dfc367
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103813865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118436159"
 ---
 # <a name="wm_sizing-message"></a>\_Сообщение о размере WM
 
@@ -65,7 +65,7 @@ ms.locfileid: "103813865"
 
 Приложение должно возвращать **значение true** , если обрабатывает это сообщение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -73,7 +73,7 @@ ms.locfileid: "103813865"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

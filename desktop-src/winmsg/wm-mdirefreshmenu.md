@@ -4,12 +4,12 @@ ms.assetid: 6450d84a-a0b9-45d0-9e0c-757d26502059
 title: Сообщение WM_MDIREFRESHMENU (Winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b4eafa7b84dc9389e57d379a30019505e85fb602
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 707059d3cc51703819968f929f9692dbb2422ee3f9fa77e2edb697f12257faf9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118200070"
 ---
 # <a name="wm_mdirefreshmenu-message"></a>\_Сообщение МДИРЕФРЕШМЕНУ WM
 
@@ -48,11 +48,11 @@ ms.locfileid: "105673825"
 
 Если сообщение не выполняется, возвращается значение **null**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 После отправки этого сообщения приложение должно вызвать функцию [**дравменубар**](/windows/win32/api/winuser/nf-winuser-drawmenubar) для обновления строки меню.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -60,7 +60,7 @@ ms.locfileid: "105673825"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

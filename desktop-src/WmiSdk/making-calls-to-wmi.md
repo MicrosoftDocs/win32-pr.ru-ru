@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Выполнение вызовов к WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 534e478336cdd9675e382ef9b089f2d7bc595b03
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 76adae33db786a8174879e6c7e88b62fb69f3c59598ae7f055f41865b32dbf7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104080833"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118317678"
 ---
 # <a name="making-calls-to-wmi"></a>Выполнение вызовов к WMI
 
@@ -56,7 +56,7 @@ using namespace std;
 
 Поставщики событий не должны вносить изменения в классы при обслуживании вызова. Они также не могут выдавать вызовы, связанные с событиями, например изменение фильтра событий.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

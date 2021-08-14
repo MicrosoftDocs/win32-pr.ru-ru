@@ -4,12 +4,12 @@ ms.assetid: 2bffe156-c507-437e-8f32-62aaebedd6f0
 title: Обработка потери видеоустройства
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0d083ebeb1203b0bba49a63745f62a4dff6b231
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6219518d3018aae5600e66387363bbd71e29e72b83174b370bf25377c8c6b669
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117878956"
 ---
 # <a name="handling-video-device-loss"></a>Обработка потери видеоустройства
 
@@ -19,7 +19,7 @@ ms.locfileid: "105711354"
 -   [Получение символьной ссылки на устройство](#get-the-symbolic-link-of-the-device)
 -   [Handles WM \_ девицечанже](/windows)
 -   [Отменить регистрацию для уведомления](#unregister-for-notification)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="register-for-device-notification"></a>Регистрация для уведомления устройства
 
@@ -172,7 +172,7 @@ void OnClose(HWND /*hwnd*/)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

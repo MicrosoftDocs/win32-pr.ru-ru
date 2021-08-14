@@ -7,12 +7,12 @@ keywords:
 - Сведения о коде ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d959357f2cdd094b26cde4f649c3286389b8415
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: b0f03e7c7ed7d61d56f338a8bb44d51b1890d4bd24cd7dc1e6050f1900f6ff61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104070612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118692290"
 ---
 # <a name="code-details"></a>Сведения о коде
 
@@ -21,7 +21,7 @@ ms.locfileid: "104070612"
 > [!Note]  
 > Методы [**iAds**](/windows/desktop/api/Iads/nn-iads-iads) **жетекс** и **путекс** не реализованы в компоненте "пример поставщика ADSI". Это значит, что код, реализующий Active Directory объекты, наследуемые от **iAds** , не имеет методов **жетекс** и **путекс** . Сюда входит объект класса схемы, который поддерживает [**иадскласс**](/windows/desktop/api/Iads/nn-iads-iadsclass), объект Property, поддерживающий [**иадспроперти**](/windows/desktop/api/Iads/nn-iads-iadsproperty), универсальный объект Active Directory, поддерживающий **iAds**, и любой объект контейнера, поддерживающий [**иадсконтаинер**](/windows/desktop/api/Iads/nn-iads-iadscontainer). Кроме того, в примере компонента поставщика отсутствует объект синтаксиса. Однако архитектура ADSI требует включения в объект контейнера схемы объектов синтаксиса, как и для классов схемы и объектов свойств.
 
- 
+ 
 
 В следующей таблице перечислены файлы исходного кода, которые включены в каталог примеров поставщика в пакете SDK для интерфейсов служб Active Directory.
 
@@ -61,8 +61,8 @@ ms.locfileid: "104070612"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

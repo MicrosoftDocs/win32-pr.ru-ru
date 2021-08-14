@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 8d3c0b7c7e33664f3e078eca82a6f39b1294992a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 55045d587613ea138482a3ff081dbb39dc5b7253310ed40597b908107217c8c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118094036"
 ---
 # <a name="id3dxtexturegutterhelpersetguttermap-method"></a>Метод ID3DXTextureGutterHelper:: Сетгуттермап
 
@@ -74,7 +74,7 @@ HRESULT SetGutterMap(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

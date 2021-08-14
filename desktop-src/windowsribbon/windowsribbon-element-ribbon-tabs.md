@@ -3,7 +3,7 @@ title: Свойство Ribbon. табуляции
 description: Представляет контейнер для всех основных вкладок на ленте.
 ms.assetid: b43d0544-c110-4785-85d7-935842b8f03e
 keywords:
-- Лента окна свойств ленты. табуляции
+- свойство ribbon. табуляторы Windows ленте
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4300a2385b6ada64e05e16671802460930cc2a7b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7b055a2fd8d69b45e2f7059022908b5cb91f8e790196504172c0ad1c608b78c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104489309"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118202215"
 ---
 # <a name="ribbontabs-property"></a>Свойство Ribbon. табуляции
 
@@ -41,7 +41,7 @@ ms.locfileid: "104489309"
 
 | Элемент                                             | Описание                                     |
 |-----------------------------------------------------|-------------------------------------------------|
-| [**TAB**](windowsribbon-element-tab.md)<br/> | Должен быть хотя бы один раз<br/> <br/> |
+| [**Вкладка**](windowsribbon-element-tab.md)<br/> | Должен быть хотя бы один раз<br/> <br/> |
 
 
 
@@ -55,7 +55,7 @@ ms.locfileid: "104489309"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обязательный.
 
@@ -112,14 +112,14 @@ ms.locfileid: "104489309"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>              |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>              |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/> |
 
 
 

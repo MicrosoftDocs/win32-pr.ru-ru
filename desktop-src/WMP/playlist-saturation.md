@@ -3,7 +3,7 @@ title: Список воспроизведения. насыщенность
 description: Атрибут насыщенности указывает или получает значение насыщенности раскрывающихся изображений.
 ms.assetid: 4c5dd3d9-828a-45c9-896a-9a702d354544
 keywords:
-- Проигрыватель Windows Media в списке воспроизведения. насыщенность
+- список воспроизведения. насыщенность проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 82eb53afeafb0754f0e754f68fd5ff785eaade8a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1f5ce3c576fd923dae5c7a6cb4b7227b67dbebd87c6a497fc6c48e6e453b53f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704255"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118336540"
 ---
 # <a name="playlistsaturation"></a>Список воспроизведения. насыщенность
 
@@ -31,17 +31,17 @@ ms.locfileid: "105704255"
 
 Этот атрибут является **числом** для чтения и записи (**float**) со значением в диапазоне от 0,0 до 2,0 со значением по умолчанию 1,0.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут изменяет значение насыщенности изображений, заданных атрибутами **дропдовнбаккграундимаже** и **дропдовнимаже** , если они заданы и ссылаются на 8-битные изображения BMP.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 

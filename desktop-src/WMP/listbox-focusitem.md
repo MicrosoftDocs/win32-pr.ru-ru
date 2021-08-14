@@ -3,7 +3,7 @@ title: LISTBOX. Фокуситем
 description: Атрибут Фокуситем указывает или получает строку, содержащую фокус.
 ms.assetid: 0d568bc5-6770-4e04-b99f-f535b806f865
 keywords:
-- Проигрыватель Windows Media LISTBOX. Фокуситем
+- проигрыватель Windows Media LISTBOX. фокуситем
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 781d9c09785c86643cae549fc1c4d427782880b3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 46ba6a402d32dcaa3e2b64d95b0201cd5cfa8ae0ebe76ddc3b8ece675d69fc8b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694974"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118118895"
 ---
 # <a name="listboxfocusitem"></a>LISTBOX. Фокуситем
 
@@ -31,7 +31,7 @@ ms.locfileid: "105694974"
 
 Этот атрибут является **числом** для чтения и записи (**длинное целое**).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Фокусный элемент и выбранный элемент могут отличаться. Элемент можно выбрать с помощью скрипта, но другой элемент может быть передан с помощью скрипта. Элемент с фокусом вокруг него будет иметь пунктирный прямоугольник и будет выбран при нажатии клавиши ВВОД.
 
@@ -41,7 +41,7 @@ ms.locfileid: "105694974"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
 
 
 

@@ -4,18 +4,18 @@ ms.assetid: ef97f70b-e4bf-4eb3-b643-046a9c348823
 title: ОБЪЯВЛЕНИЕ свойства
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e768f22f86dacf35009ca0e0e3ef9337ef84ab70
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: da43d291b64ed10c1ae5321a766eca6cab9c4423a26625aacd92e9591d2e3f6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118381603"
 ---
 # <a name="advertise-property"></a>ОБЪЯВЛЕНИЕ свойства
 
 Значение свойства **объявления** представляет собой список функций, разделенных запятыми. Функции должны присутствовать в столбце Feature таблицы [Feature](feature-table.md) . Чтобы установить все компоненты как объявленные, в командной строке используйте объявление = ALL. Не вводите в [таблицу свойств](property-table.md) объявление = ALL, так как при этом создается объявленный пакет, который не может быть установлен или удален.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обратите внимание, что в именах функций учитывается регистр.
 
@@ -38,13 +38,13 @@ ms.locfileid: "105668915"
 
 Установщик задает для свойства предварительно [**выбранных**](preselected.md) значений значение "1" во время возобновления приостановленной установки или при указании любого из указанных выше свойств в командной строке.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

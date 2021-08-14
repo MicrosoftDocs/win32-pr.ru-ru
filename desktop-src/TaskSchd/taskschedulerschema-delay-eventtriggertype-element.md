@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: de1117ff4f7e0f823b1b213721521e1b526125bd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f9c9523b450d5f1ea86bdf09afba26604ebfe8055661fc18c439b4e30c97169d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118357110"
 ---
 # <a name="delay-eventtriggertype-element"></a>Элемент Delay (Евенттригжертипе)
 
@@ -42,20 +42,20 @@ ms.locfileid: "105672905"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для разработки скриптов задержка триггера события задается свойством [**EventTrigger. Delay**](eventtrigger-delay.md) .
 
 Для разработки на C++ задержка триггера события задается свойством [**иевенттригжер::D елай**](/windows/desktop/api/taskschd/nf-taskschd-ieventtrigger-get_delay) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

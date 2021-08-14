@@ -3,7 +3,7 @@ title: Команда "Закрыть" (Корекрт \_ IO. h)
 description: Команда Close закрывает устройство или файл и все связанные с ним ресурсы. MCI выгружает устройство, когда все экземпляры устройства или все файлы закрываются. Все устройства MCI распознают эту команду.
 ms.assetid: 0fd7b271-b29e-4170-9a14-81b14dc8a5ee
 keywords:
-- закрыть команду мультимедиа Windows
+- команда close Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d28c255e518553c022dfc833c857b792f43fdbe8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b02acd3ebe3d45a402ae565c6fcac121f712df4374924bcb0e02c3dcadf9ceeb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807963"
 ---
 # <a name="close-command"></a>Команда "Закрыть"
 
@@ -58,7 +58,7 @@ _stprintf_s(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы закрыть все устройства, открытые в приложении, укажите идентификатор устройства "ALL" для параметра *лпсздевицеид* .
 
@@ -74,7 +74,7 @@ _stprintf_s(
 close mysound
 ```
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

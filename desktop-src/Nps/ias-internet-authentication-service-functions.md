@@ -5,19 +5,19 @@ ms.assetid: ca217314-00f9-4f9d-a9fe-ed928b3c3b3d
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5a20b424b8ef5109cea7f4d00b97f1a545b89ff
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b7cecf8ead61e94287ba4846b82f922af40068a771a9bcadd8ccb51693709c17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105681678"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118362364"
 ---
 # <a name="nps-extensions-functions"></a>Функции расширений NPS
 
 > [!Note]  
-> Служба проверки подлинности в Интернете (IAS) переименовала сервер политики сети (NPS), начиная с Windows Server 2008. Содержимое этого раздела относится как к IAS, так и к NPS. По всему тексту NPS используется для ссылки на все версии службы, включая версии, изначально называемые IAS.
+> служба проверки подлинности в интернете (IAS) переименовала сервер политики сети (NPS), начиная с Windows Server 2008. Содержимое этого раздела относится как к IAS, так и к NPS. По всему тексту NPS используется для ссылки на все версии службы, включая версии, изначально называемые IAS.
 
- 
+ 
 
 ## <a name="application-defined"></a>Определено приложением
 
@@ -50,13 +50,13 @@ ms.locfileid: "105681678"
 
 Структура [**\_ \_ массива атрибутов RADIUS**](/windows/desktop/api/authif/ns-authif-radius_attribute_array) содержит указатели на функции для следующих функций, предоставляемых NPS:
 
--   [**Добавить**](/previous-versions/ms688246(v=vs.85))
+-   [**Add**](/previous-versions/ms688246(v=vs.85))
 -   [**аттрибутеат**](/previous-versions/ms688253(v=vs.85))
 -   [**GetSize**](/previous-versions/ms688277(v=vs.85))
 -   [**инсертат**](/previous-versions/ms688296(v=vs.85))
 -   [**RemoveAt**](/previous-versions/ms688452(v=vs.85))
 -   [**SetAt**](/previous-versions/ms688456(v=vs.85))
 
- 
+ 
 
- 
+ 

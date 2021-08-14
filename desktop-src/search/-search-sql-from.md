@@ -4,12 +4,12 @@ ms.assetid: 437d36d1-dd6d-4405-8f35-c37fd04fa0f6
 title: Предложение FROM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37100a614ca7cc08cdf510f27e42b045acc1ec23
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5e6231244df2a2ec8753950ccb1a7d046c3510eff6582215d0aa3d71ebc127e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682528"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117863400"
 ---
 # <a name="from-clause"></a>Предложение FROM
 
@@ -22,7 +22,7 @@ FROM [<ComputerName>.]SystemIndex
 
 
 
-В настоящее время Поиск Windows поддерживает только один каталог — Системиндекс. Чтобы запросить локальный каталог удаленного компьютера, включите имя компьютера перед каталогом и UNC-путь на удаленном компьютере в предложении SCOPE или DIRECTORY.
+в настоящее время Windows поиска поддерживает только один каталог — системиндекс. Чтобы запросить локальный каталог удаленного компьютера, включите имя компьютера перед каталогом и UNC-путь на удаленном компьютере в предложении SCOPE или DIRECTORY.
 
 Область указывается в предложении WHERE как ограничение, как описано в разделе [предикаты Scope и Directory](-search-sql-folderdepth.md) .
 
@@ -51,7 +51,7 @@ FROM server.SystemIndex WHERE SCOPE='file://server/users' AND CONTAINS('Microsof
 **Reference**
 </dt> <dt>
 
-[Общие сведения о синтаксисе SQL Search](-search-sql-ovwofsearchquery.md)
+[общие сведения о синтаксисе SQL поиска](-search-sql-ovwofsearchquery.md)
 </dt> <dt>
 
 [Инструкция SELECT](-search-sql-select.md)

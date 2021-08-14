@@ -4,18 +4,18 @@ ms.assetid: e86d6a5d-484d-4c80-8c86-7d12d287ee21
 title: пажемедиасизепшеигхтоффсет
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5e2c0e3802a6c461fe2f9eec68b28677c254be9
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: a904b8e1d1ef9f917dae96d863563eff2b5bc8e6dd7b43a0e1d24783eb87077e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112395739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118471047"
 ---
 # <a name="pagemediasizepsheightoffset"></a>пажемедиасизепшеигхтоффсет
 
 Этот раздел не является актуальным. Самые актуальные сведения см. в [спецификации печати схемы](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
-Задает смещение, параллельное направлению ориентации канала ( [Спецификация формата файла описания PostScript-принтера](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)).
+задает смещение, параллельное направлению ориентации канала [PostScript (спецификация формата файла описания принтера](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)).
 
 -   [Сведения об элементе](#element-information)
 -   [Содержимое структуры](#structure-content)
@@ -89,7 +89,7 @@ XML-структура этого элемента:
 
 <dl> <dt>
 
-[Спецификация формата файла описания PostScript Printer](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)
+[PostScript Спецификация формата файла описания принтера](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)
 </dt> <dt>
 
 [Печать спецификации схемы](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)

@@ -1,22 +1,22 @@
 ---
-description: Включение поддержки Windows 7 для Intel AVX
+description: включение поддержки Windows 7 для Intel AVX
 ms.assetid: fe19e337-3109-42d6-a704-70662ac7c684
-title: Включение поддержки Windows 7 для Intel AVX
+title: включение поддержки Windows 7 для Intel AVX
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1509bac62634c85aa733b2c1de0c152169ac6cda
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f30469d0218f5da2c9f6df2b4f5637edffe09153ebad721f48b47401ecb1f3d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088462"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118329818"
 ---
-# <a name="enable-windows-7-support-for-intel-avx"></a>Включение поддержки Windows 7 для Intel AVX
+# <a name="enable-windows-7-support-for-intel-avx"></a>включение поддержки Windows 7 для Intel AVX
 
 ## <a name="affected-platforms"></a>Затронутые платформы
 
- **Клиенты** — Windows 7 SP1  
-**Серверы** — Windows Server 2008 R2 с пакетом обновления 1 (SP1)  
+ **клиенты** — Windows 7 с пакетом обновления 1 (SP1)  
+**серверы** — Windows Server 2008 R2 с пакетом обновления 1 (SP1)  
 
 
 ## <a name="feature-impact"></a>Воздействие на функции
@@ -78,7 +78,7 @@ Intel<sup>?</sup> Расширенные векторные расширения
 
 ## <a name="links-to-other-resources"></a>Ссылки на другие ресурсы
 
--   Дополнительные сведения о функциях Ксстате в Windows SDK см. в разделе [Отладка функций](../debug/debugging-functions.md).
+-   дополнительные сведения о функциях ксстате в Windows SDK см. в разделе [отладка функций](../debug/debugging-functions.md).
 -   Общие сведения о инструкциях и возможностях Intel AVX см. [в разделе Intel AVX: новые границы повышения производительности и эффективности энергопотребления](https://software.intel.com/articles/intel-avx-new-frontiers-in-performance-improvements-and-energy-efficiency/).
 
  

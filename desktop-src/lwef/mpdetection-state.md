@@ -3,8 +3,8 @@ title: Перечисление MPDETECTION_STATE (Мпклиент. h)
 description: Состояние обнаруженной в настоящее время угрозы.
 ms.assetid: 293771FF-A210-41D0-88A5-3B52ACAA9295
 keywords:
-- MPDETECTION_STATE перечисления устаревшие функции среды Windows
-- PMPDETECTION_STATE указателя перечисления устаревшие функции среды Windows
+- MPDETECTION_STATE перечисления устаревших Windows компонентов среды
+- PMPDETECTION_STATEные компоненты среды Windows указателя перечисления
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f9265a15641d2072d87b33af2782f17974bf07be
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0443e0c47eef4d4943d39bd671c28c19db0ff5e1fbe79e5af8d034603b1ab78d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104490005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117883521"
 ---
 # <a name="mpdetection_state-enumeration"></a>\_Перечисление состояний мпдетектион
 
@@ -96,14 +96,14 @@ typedef enum tagMPDETECTION_STATE {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
 
 

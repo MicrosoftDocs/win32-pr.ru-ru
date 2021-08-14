@@ -15,12 +15,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 9f396b588f372f26a808e97593ffcc30eac9b3ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4640570dd834b42652d04262b70ec84fac106d99f463ca22144e28ad388a0937
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103912755"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118320772"
 ---
 # <a name="__namespace-class"></a>\_\_Класс Namespace
 
@@ -43,13 +43,13 @@ class __Namespace : __SystemClass
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ \_ Namespace** имеет следующие свойства.
 
 <dl> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -65,7 +65,7 @@ class __Namespace : __SystemClass
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ \_ Namespace** является производным от [**\_ \_ системкласс**](--systemclass.md), у которого нет свойств.
 
@@ -106,7 +106,7 @@ $NameSpace| sort __namespace  | Format-Table @{Expression = "__Namespace"; Label
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

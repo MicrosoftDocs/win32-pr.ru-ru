@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 142fdda1a0c072159cdee1f21982099609472bfe
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: daaabf907d75db04eb0c760e79cb48e37814141cdfa24bdc9513db5ee189ab7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104416269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118427088"
 ---
 # <a name="ms-dns-is-signed-attribute"></a>MS-DNS-является подписанным атрибутом
 
@@ -36,7 +36,7 @@ ms.locfileid: "104416269"
 | Частота обновления  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.2130              |
 | System-ID — GUID    | aa12854c-d8fc-4d5e-91ca-368b8d829bee |
-| Синтаксис            | [**Логическая**](s-boolean.md)         |
+| Синтаксис            | [**Логическое**](s-boolean.md)         |
 
 
 
@@ -53,7 +53,7 @@ ms.locfileid: "104416269"
 | Идентификатор ссылки                | \-                                       |
 | MAPI-Id                | \-                                       |
 | System-Only            | Неверно                                    |
-| Является однозначным       | True                                     |
+| Является однозначным       | Верно                                     |
 | Индексируется             | Неверно                                    |
 | В глобальном каталоге      | Неверно                                    |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                             |

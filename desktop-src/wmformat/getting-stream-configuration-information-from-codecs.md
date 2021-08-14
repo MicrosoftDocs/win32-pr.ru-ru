@@ -11,20 +11,20 @@ keywords:
 - ИвмкодеЦинфо, о программе
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8657e03af97f9e4f1cae953d541c0e4369da193
-ms.sourcegitcommit: b04e152a7f51618fc174ffa872654623fe088db2
+ms.openlocfilehash: 10cd131bfd263e0e9a0616b6fa9b59b3f3b03ace30a199b8b79f8b3c3f3f09f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "104412683"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118433870"
 ---
 # <a name="getting-stream-configuration-information-from-codecs"></a>Получение сведений о конфигурации потока из кодеков
 
-Для потоков аудио и видео, использующих аудиокодеки Windows Media аудио и видео, необходимо получить значения для структур конфигурации потока из кодека, который вы хотите использовать. Хотя эти значения можно задать самостоятельно, использование кодеков гарантирует точность значений. Не следует изменять значения этих структур, если только в документации специально не рекомендовано конкретное изменение.
+для потоков аудио и видео, использующих аудиокодеки Windows Media audio и video, необходимо получить значения для структур конфигурации потока из кодека, который вы хотите использовать. Хотя эти значения можно задать самостоятельно, использование кодеков гарантирует точность значений. Не следует изменять значения этих структур, если только в документации специально не рекомендовано конкретное изменение.
 
 Сведения из кодеков поступают в формате кодеков. Каждый формат кодека — это единый формат потока, поддерживаемый кодеком. Дополнительные сведения о форматах потоков см. в разделе [formats](formats.md).
 
-Вы можете запросить информацию из кодеков Windows Media с помощью интерфейсов [**ивмкодеЦинфо**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo), [**IWMCodecInfo2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo2)и [**IWMCodecInfo3**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo3) объекта диспетчера профилей. Чтобы получить интерфейс [**ивмпрофилеманажер**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager) объекта диспетчера профилей, вызовите функцию [**вмкреатепрофилеманажер**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreateprofilemanager) . Вызовите **QueryInterface** для **ивмпрофилеманажер** , чтобы получить **IWMCodecInfo3**.
+вы можете запросить информацию из Windows кодеков мультимедиа с помощью интерфейсов [**ивмкодеЦинфо**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo), [**IWMCodecInfo2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo2)и [**IWMCodecInfo3**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo3) объекта диспетчера профилей. Чтобы получить интерфейс [**ивмпрофилеманажер**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager) объекта диспетчера профилей, вызовите функцию [**вмкреатепрофилеманажер**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreateprofilemanager) . Вызовите **QueryInterface** для **ивмпрофилеманажер** , чтобы получить **IWMCodecInfo3**.
 
 В следующих разделах описано, как получить необходимую информацию.
 
@@ -32,23 +32,23 @@ ms.locfileid: "104412683"
 
 | Section                                                                                                | Описание                                                                                                                                                           |
 |--------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Перечисление всех установленных кодеков Windows Media](to-enumerate-all-installed-windows-media-codecs.md) | Описывает, как использовать методы интерфейсов **ивмкодеЦинфо** и **IWMCodecInfo2** для получения имени и индекса кодека каждого установленного кодека Windows Media. |
+| [перечисление всех установленных Windows кодеков мультимедиа](to-enumerate-all-installed-windows-media-codecs.md) | описывает, как использовать методы интерфейсов **ивмкодеЦинфо** и **IWMCodecInfo2** для получения имени и индекса кодека каждого установленного кодека Windows Media. |
 | [Перечисление форматов кодеков](to-enumerate-codec-formats.md)                                           | Описывает, как получить объекты конфигурации потока из кодеков для использования в профилях.                                                                               |
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[**Настройка потоков**](configuring-streams.md)
+[**настройка Потоки**](configuring-streams.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

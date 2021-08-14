@@ -1,6 +1,6 @@
 ---
 title: g_wszWMVCDecoderComplexityRequested (Вмкодекдсп. h)
-description: Текущую документацию по кодекам Windows Media и обработчикам цифровых сигналов см. в статье интерфейсы API аудио-и видеокодеков Windows Media и DSP. | g_wszWMVCDecoderComplexityRequested (Вмкодекдсп. h)
+description: текущую документацию по Windows кодеков мультимедиа и обработчикам цифровых сигналов см. в разделе Windows media Audio и Video кодек и DSP api. | g_wszWMVCDecoderComplexityRequested (Вмкодекдсп. h)
 ms.assetid: 188f13de-6643-4fd9-939b-1afe15aa75e5
 keywords:
 - g_wszWMVCDecoderComplexityRequested формат Windows Media
@@ -14,24 +14,24 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 47fec9eec215a108debc79649977c08b621ca3b3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d26b3962e48bd9b1327c36095ade4ce0bcdde03f85e8c950bf12bb6ee31531e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105647914"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118199115"
 ---
 # <a name="g_wszwmvcdecodercomplexityrequested"></a>g \_ всзвмвкдекодеркомплекситирекуестед
 
-Текущую документацию по кодекам Windows Media и обработчикам цифровых сигналов см [. в статье интерфейсы API аудио-и видеокодеков Windows Media и DSP.](/previous-versions//dd464626(v=vs.85))
+текущую документацию по Windows кодеков мультимедиа и обработчикам цифровых сигналов см [. в разделе Windows media Audio и Video кодек и DSP api.](/previous-versions//dd464626(v=vs.85))
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 
