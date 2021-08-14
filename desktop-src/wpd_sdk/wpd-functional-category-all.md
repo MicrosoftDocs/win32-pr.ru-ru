@@ -4,12 +4,12 @@ ms.assetid: 7849f8e4-1ce3-4a26-8fee-16a66527da6b
 title: WPD_FUNCTIONAL_CATEGORY_ALL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b4b14780d16896c4d03751765f052b928ba6572
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47c420f5e1402e24f969193af018f06aff27110e843e5554fe490884acec2581
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693408"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118193052"
 ---
 # <a name="wpd_functional_category_all"></a>\_функциональная \_ Категория WPD \_ все
 
@@ -44,13 +44,13 @@ ms.locfileid: "105693408"
 | [Объект WPD, \_ \_ создающий \_ эскиз \_ из \_ ресурса](object-properties.md) | Необязательный элемент.                                                                                                                                              |
 | [\_объект WPD \_ может \_ удалить](object-properties.md)                                                                     | Требуется, если объект не может быть удален.                                                                                                              |
 | [\_ \_ языковой стандарт объекта WPD \_](object-properties.md)                                                                | Необязательный элемент.                                                                                                                                              |
-| [\_Категория функционального \_ объекта WPD \_](miscellaneous-properties.md)                      | Обязательный. Категории, определяемые переносными устройствами Windows, см. в разделе [**\_ \_ \_ функциональный \_ объект типа содержимого WPD**](wpd-content-type-functional-object.md) . |
+| [\_Категория функционального \_ объекта WPD \_](miscellaneous-properties.md)                      | Обязательный. категории, определяемые Windows портативными устройствами, см. в разделе [**\_ \_ \_ функциональный \_ объект типа содержимого WPD**](wpd-content-type-functional-object.md) . |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 85b4439389c6ee65076f710bb6ea752c73a51ecd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6d2a68c6ce910fa63588df1fa7bc1834f6ed537a2a2c9b85f24d383497a8d463
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118368613"
 ---
 # <a name="inapcertrelyingparty-interface"></a>Интерфейс Инапцертрелингпарти
 
@@ -53,14 +53,14 @@ ms.locfileid: "104071795"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                               |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                               |
 | Header<br/>                   | <dl> <dt>Напцертрелингпарти. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Напцертрелингпарти. idl</dt> </dl> |
 

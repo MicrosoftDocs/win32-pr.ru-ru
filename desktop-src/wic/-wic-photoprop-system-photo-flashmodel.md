@@ -4,12 +4,12 @@ ms.assetid: ef322823-1b87-40ea-a5e3-e7551f14e44d
 title: Политика метаданных фото для System. photo. Флашмодел
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01ade3769cb0d852239af84b769b85d5b3849589
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 15c9e45e1ef759f2bee0d383cde3bcdabe8be67dc55a463ab6c9f7e6e05889a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712301"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118204885"
 ---
 # <a name="systemphotoflashmodel-photo-metadata-policy"></a>Политика метаданных фото для System. photo. Флашмодел
 
@@ -45,7 +45,7 @@ VT \_ LPWSTR
 
 
 
-| Заказ | Путь                           | Формат диска | Формат данных | Обязательно |
+| Номер | Путь                           | Формат диска | Формат данных | Обязательно |
 |-------|--------------------------------|-------------|-------------|----------|
 | 1     | /КСМП/микрософтфото: Флашмодел | Юникод     |             | Да      |
 
@@ -59,7 +59,7 @@ VT \_ LPWSTR
 
 
 
-| Заказ | Путь                               | Формат диска | Формат данных | Обязательно |
+| Номер | Путь                               | Формат диска | Формат данных | Обязательно |
 |-------|------------------------------------|-------------|-------------|----------|
 | 1     | /ИФД/КСМП/микрософтфото: Флашмодел | Юникод     |             | Да      |
 
@@ -67,9 +67,9 @@ VT \_ LPWSTR
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

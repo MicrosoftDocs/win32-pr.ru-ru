@@ -6,12 +6,12 @@ ms.tgt_platform: multiple
 title: E (WMI)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd162feb3936712b396db016de036f78aea35a09
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ffbd1ce4685ee9901dfedca2a4b3a1b948d91c8f5b56def28494eb6c4c63e726
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118319223"
 ---
 # <a name="e-wmi"></a>E (WMI)
 
@@ -64,7 +64,7 @@ ms.locfileid: "105703000"
 <span id="wmi.gloss_extension_schema"></span><span id="WMI.GLOSS_EXTENSION_SCHEMA"></span>**Схема расширения**
 </dt> <dd>
 
-Третий уровень [*схемы CIM*](gloss-c.md), включающий в себя расширения для конкретной платформы схемы CIM, такие как Windows, UNIX и Exchange Server. См. также [*Общие*](gloss-c.md) модели и модель ядра.
+третий уровень [*схемы cim*](gloss-c.md), в который входят расширения схемы cim, зависящие от платформы, такие как Windows, UNIX и Exchange Server. См. также [*Общие*](gloss-c.md) модели и модель ядра.
 
 </dd> <dt>
 

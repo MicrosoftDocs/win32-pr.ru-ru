@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 4c24eb6e57e81c6c44922b2d6643be65198951ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cc169b8a18f97cd6fd8f51a0e8d1456e3619cfbebf0cbf1f107adfac2787bb54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118314598"
 ---
 # <a name="swbemlasterrorcompareto_-method"></a>Свбемластеррор. CompareTo, \_ метод
 
@@ -167,7 +167,7 @@ bAreEqual = .CompareTo_( _
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

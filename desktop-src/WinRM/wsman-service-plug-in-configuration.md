@@ -1,20 +1,20 @@
 ---
 title: Конфигурация подключаемого модуля службы WinRM
-description: Подключаемый модуль служба удаленного управления Windows (WinRM) должен быть зарегистрирован в каталоге WinRM, чтобы инфраструктура динамически определила набор доступных подключаемых модулей и URI ресурсов, которые они поддерживают.
+description: подключаемый модуль служба удаленного управления Windows (WinRM) должен быть зарегистрирован в каталоге WinRM, чтобы инфраструктура динамически определила набор доступных подключаемых модулей и uri ресурсов, которые они поддерживают.
 ms.assetid: d71cd244-3f10-40e3-a756-36cdf41b9cad
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 60bf618d71e55c6afd28de918198725895088559
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: 08b82b24b8631cd6a47a879a6fa0684b9b2ac9c542699396d0f0997afe14cac8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104339605"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118323723"
 ---
 # <a name="winrm-service-plug-in-configuration"></a>Конфигурация подключаемого модуля службы WinRM
 
-Подключаемый модуль служба удаленного управления Windows (WinRM) должен быть зарегистрирован в каталоге WinRM, чтобы инфраструктура динамически определила набор доступных подключаемых модулей и [*URI ресурсов*](windows-remote-management-glossary.md) , которые они поддерживают. Все [*URI ресурсов*](windows-remote-management-glossary.md) для подключаемых модулей WinRM должны соответствовать формату, определенному в RFC 3986 ( [https://www.ietf.org/rfc/rfc3986.txt](https://www.ietf.org/rfc/rfc3986.txt) ). Настройка выполняется с помощью основной службы WinRM.
+подключаемый модуль служба удаленного управления Windows (WinRM) должен быть зарегистрирован в каталоге WinRM, чтобы инфраструктура динамически определила набор доступных подключаемых модулей и [*uri ресурсов*](windows-remote-management-glossary.md) , которые они поддерживают. Все [*URI ресурсов*](windows-remote-management-glossary.md) для подключаемых модулей WinRM должны соответствовать формату, определенному в RFC 3986 ( [https://www.ietf.org/rfc/rfc3986.txt](https://www.ietf.org/rfc/rfc3986.txt) ). Настройка выполняется с помощью основной службы WinRM.
 
 Следующая команда регистрирует конфигурацию подключаемого модуля в службе WinRM:
 
@@ -130,7 +130,7 @@ winrm create http://schemas.microsoft.com/wbem/wsman/1/config/plugin?name=MyPlug
 > [!Note]  
 > Для атрибута **суппортсоптионс** можно задать значение false. Если для **суппортсоптионс** задано значение false, этот атрибут не указывается при перечислении ресурса.
 
- 
+ 
 
 </dd> <dt>
 
@@ -306,9 +306,9 @@ winrm create http://schemas.microsoft.com/wbem/wsman/1/config/plugin?name=MyPlug
 </xs:schema>
 ```
 
- 
+ 
 
- 
+ 
 
 
 

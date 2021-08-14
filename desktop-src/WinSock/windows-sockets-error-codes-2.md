@@ -1,21 +1,21 @@
 ---
-description: Коды ошибок сокетов Windows (Winsock), возвращаемые функцией Всажетластеррор.
+description: Windows Коды ошибок сокетов (Winsock), возвращаемые функцией Всажетластеррор.
 ms.assetid: 50b924f3-2c88-443b-8a90-4293fe5c3048
-title: Коды ошибок сокетов Windows (Winsock2. h)
+title: Windows Коды ошибок сокетов (Winsock2. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 81c251d63872c05623a6d1c9e3820edd2d8f670e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ece53093e7aca31d9d883680005f92ca8b30a76120209affb4dba42d6826d0bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105718087"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118322007"
 ---
-# <a name="windows-sockets-error-codes"></a>Коды ошибок сокетов Windows
+# <a name="windows-sockets-error-codes"></a>Windows Коды ошибок сокетов
 
-Большинство функций Windows Sockets 2 не возвращают конкретную причину ошибки, когда функция возвращает значение. Дополнительные сведения см. в разделе [Обработка ошибок Winsock](handling-winsock-errors.md) .
+большинство функций сокетов Windows 2 не возвращают конкретную причину ошибки, когда функция возвращает значение. Дополнительные сведения см. в разделе [Обработка ошибок Winsock](handling-winsock-errors.md) .
 
-Функция [**всажетластеррор**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror) возвращает последнюю ошибку, возникшую для вызывающего потока. Если определенная функция сокетов Windows показывает, что произошла ошибка, эту функцию следует вызывать немедленно, чтобы получить расширенный код ошибки для неудачного вызова функции. Эти коды ошибок и краткое текстовое описание, связанное с кодом ошибки, определены в файле заголовка *Winerror. h* . Функцию [**FormatMessage**](/windows/win32/api/winbase/nf-winbase-formatmessage) можно использовать для получения строки сообщения для возвращенной ошибки.
+Функция [**всажетластеррор**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror) возвращает последнюю ошибку, возникшую для вызывающего потока. если определенная функция Windows sockets указывает на возникновение ошибки, эту функцию следует вызывать немедленно, чтобы получить расширенный код ошибки для вызова функции, вызвавшей сбой. Эти коды ошибок и краткое текстовое описание, связанное с кодом ошибки, определены в файле заголовка *Winerror. h* . Функцию [**FormatMessage**](/windows/win32/api/winbase/nf-winbase-formatmessage) можно использовать для получения строки сообщения для возвращенной ошибки.
 
 Сведения о том, как выполнять обработку кодов ошибок при переносе приложений сокетов в Winsock, см. в разделе [коды ошибок — ошибки, з \_ и всажетластеррор](error-codes-errno-h-errno-and-wsagetlasterror-2.md).
 
@@ -39,11 +39,11 @@ ms.locfileid: "105718087"
 </tr>
 <tr class="even">
 <td><span id="WSA_NOT_ENOUGH_MEMORY"></span><span id="wsa_not_enough_memory"></span><dl> <dt><strong>WSA_NOT_ENOUGH_MEMORY</strong></dt> <dt>8</dt> </dl></td>
-<td><dl> <dt><span id="Insufficient_memory_available."></span><span id="insufficient_memory_available."></span><span id="INSUFFICIENT_MEMORY_AVAILABLE."></span>Недостаточно доступной памяти.</dt> <dd> Приложение использовало функцию сокетов Windows, которая непосредственно сопоставляется с функцией Windows. Функция Windows указывает на отсутствие требуемых ресурсов памяти.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Insufficient_memory_available."></span><span id="insufficient_memory_available."></span><span id="INSUFFICIENT_MEMORY_AVAILABLE."></span>Недостаточно доступной памяти.</dt> <dd> приложение использует функцию сокетов Windows, которая напрямую сопоставляется с Windowsной функцией. функция Windows указывает на отсутствие требуемых ресурсов памяти.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="WSA_INVALID_PARAMETER"></span><span id="wsa_invalid_parameter"></span><dl> <dt><strong>WSA_INVALID_PARAMETER</strong></dt> <dt>87</dt> </dl></td>
-<td><dl> <dt><span id="One_or_more_parameters_are_invalid."></span><span id="one_or_more_parameters_are_invalid."></span><span id="ONE_OR_MORE_PARAMETERS_ARE_INVALID."></span>Один или несколько параметров недопустимы.</dt> <dd> Приложение использовало функцию сокетов Windows, которая непосредственно сопоставляется с функцией Windows. Функция Windows указывает на проблему с одним или несколькими параметрами.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="One_or_more_parameters_are_invalid."></span><span id="one_or_more_parameters_are_invalid."></span><span id="ONE_OR_MORE_PARAMETERS_ARE_INVALID."></span>Один или несколько параметров недопустимы.</dt> <dd> приложение использует функцию сокетов Windows, которая напрямую сопоставляется с Windowsной функцией. функция Windows указывает на проблему с одним или несколькими параметрами.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="WSA_OPERATION_ABORTED"></span><span id="wsa_operation_aborted"></span><dl> <dt><strong>WSA_OPERATION_ABORTED</strong></dt> <dt>995</dt> </dl></td>
@@ -67,7 +67,7 @@ ms.locfileid: "105718087"
 </tr>
 <tr class="odd">
 <td><span id="WSAEACCES"></span><span id="wsaeacces"></span><dl> <dt><strong>Всаеакцес</strong></dt> <dt>10013</dt> </dl></td>
-<td><dl> <dt><span id="Permission_denied."></span><span id="permission_denied."></span><span id="PERMISSION_DENIED."></span>Отказано в разрешении.</dt> <dd> Предпринята попытка доступа к сокету методом, запрещенным его разрешениями на доступ. В качестве примера используется широковещательный адрес для функции <a href="/windows/desktop/api/winsock/nf-winsock-sendto"><strong>SendTo</strong></a> без широковещательного разрешения, установленного с помощью <a href="/windows/desktop/api/winsock/nf-winsock-setsockopt"><strong>сетсоккопт</strong></a>(SO_BROADCAST). <br/> Другая возможная причина ошибки ВСАЕАКЦЕС заключается в том, что при вызове функции <a href="/windows/desktop/api/winsock/nf-winsock-bind"><strong>BIND</strong></a> (в Windows NT 4,0 с пакетом обновления 4 (SP4) или более поздней версии) другой драйвер приложения, службы или режима ядра привязан к тому же адресу с эксклюзивным доступом. Такой эксклюзивный доступ является новой функцией Windows NT 4,0 с пакетом обновления 4 (SP4) и более поздних версий и реализуется с помощью параметра <a href="/windows/desktop/winsock/so-exclusiveaddruse">SO_EXCLUSIVEADDRUSE</a> .<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Permission_denied."></span><span id="permission_denied."></span><span id="PERMISSION_DENIED."></span>Отказано в разрешении.</dt> <dd> Предпринята попытка доступа к сокету методом, запрещенным его разрешениями на доступ. В качестве примера используется широковещательный адрес для функции <a href="/windows/desktop/api/winsock/nf-winsock-sendto"><strong>SendTo</strong></a> без широковещательного разрешения, установленного с помощью <a href="/windows/desktop/api/winsock/nf-winsock-setsockopt"><strong>сетсоккопт</strong></a>(SO_BROADCAST). <br/> другая возможная причина ошибки всаеакцес заключается в том, что при вызове функции <a href="/windows/desktop/api/winsock/nf-winsock-bind"><strong>bind</strong></a> (в Windows NT 4,0 с пакетом обновления 4 (SP4) или более поздней версии) другой драйвер приложения, службы или режима ядра привязан к тому же адресу с эксклюзивным доступом. такой эксклюзивный доступ является новой функцией Windows NT 4,0 с пакетом обновления 4 (SP4) и более поздних версий и реализуется с помощью параметра <a href="/windows/desktop/winsock/so-exclusiveaddruse">SO_EXCLUSIVEADDRUSE</a> .<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="WSAEFAULT"></span><span id="wsaefault"></span><dl> <dt><strong>Всаефаулт</strong></dt> <dt>10014</dt> </dl></td>
@@ -87,7 +87,7 @@ ms.locfileid: "105718087"
 </tr>
 <tr class="even">
 <td><span id="WSAEINPROGRESS"></span><span id="wsaeinprogress"></span><dl> <dt><strong>Всаеинпрогресс</strong></dt> <dt>10036</dt> </dl></td>
-<td><dl> <dt><span id="Operation_now_in_progress."></span><span id="operation_now_in_progress."></span><span id="OPERATION_NOW_IN_PROGRESS."></span>Операция сейчас выполняется.</dt> <dd> В данный момент выполняется блокирующая операция. Сокеты Windows поддерживают только одну операцию блокировки (для задачи или потока), а также если выполняется любой другой вызов функции (независимо от того, ссылается ли он или на какой-либо другой сокет), функция завершается с ошибкой ВСАЕИНПРОГРЕСС.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Operation_now_in_progress."></span><span id="operation_now_in_progress."></span><span id="OPERATION_NOW_IN_PROGRESS."></span>Операция сейчас выполняется.</dt> <dd> В данный момент выполняется блокирующая операция. Windows Сокеты допускают только одну операцию блокировки (по задаче или потоку), и если какой-либо другой вызов функции выполняется (независимо от того, ссылается ли он или на какой-либо другой сокет), функция завершается с ошибкой ВСАЕИНПРОГРЕСС.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="WSAEALREADY"></span><span id="wsaealready"></span><dl> <dt><strong>Всаеалреади</strong></dt> <dt>10037</dt> </dl></td>
@@ -127,7 +127,7 @@ ms.locfileid: "105718087"
 </tr>
 <tr class="even">
 <td><span id="WSAEPFNOSUPPORT"></span><span id="wsaepfnosupport"></span><dl> <dt><strong>Всаепфносуппорт</strong></dt> <dt>10046</dt> </dl></td>
-<td><dl> <dt><span id="Protocol_family_not_supported."></span><span id="protocol_family_not_supported."></span><span id="PROTOCOL_FAMILY_NOT_SUPPORTED."></span>Семейство протоколов не поддерживается.</dt> <dd> Семейство протоколов не было настроено в системе или не существует реализации для него. Это сообщение имеет немного отличающееся значение от ВСАЕАФНОСУППОРТ. Однако в большинстве случаев он является взаимозаменяемым, и все функции сокетов Windows, возвращающие одно из этих сообщений, также указывают ВСАЕАФНОСУППОРТ.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Protocol_family_not_supported."></span><span id="protocol_family_not_supported."></span><span id="PROTOCOL_FAMILY_NOT_SUPPORTED."></span>Семейство протоколов не поддерживается.</dt> <dd> Семейство протоколов не было настроено в системе или не существует реализации для него. Это сообщение имеет немного отличающееся значение от ВСАЕАФНОСУППОРТ. однако в большинстве случаев он является взаимозаменяемым, и все функции Windows sockets, возвращающие одно из этих сообщений, также указывают всаеафносуппорт.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="WSAEAFNOSUPPORT"></span><span id="wsaeafnosupport"></span><dl> <dt><strong>Всаеафносуппорт</strong></dt> <dt>10047</dt> </dl></td>
@@ -211,7 +211,7 @@ ms.locfileid: "105718087"
 </tr>
 <tr class="odd">
 <td><span id="WSAEPROCLIM"></span><span id="wsaeproclim"></span><dl> <dt><strong>Всаепроклим</strong></dt> <dt>10067</dt> </dl></td>
-<td><dl> <dt><span id="Too_many_processes."></span><span id="too_many_processes."></span><span id="TOO_MANY_PROCESSES."></span>Слишком много процессов.</dt> <dd> Реализация сокетов Windows может иметь ограничение на количество приложений, которые могут использовать его одновременно. <a href="/windows/desktop/api/winsock/nf-winsock-wsastartup"><strong>Сбой WSAStartup</strong></a> может завершиться с этой ошибкой, если достигнут предел.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Too_many_processes."></span><span id="too_many_processes."></span><span id="TOO_MANY_PROCESSES."></span>Слишком много процессов.</dt> <dd> реализация Windowsных сокетов может иметь ограничение на количество приложений, которые могут использовать его одновременно. <a href="/windows/desktop/api/winsock/nf-winsock-wsastartup"><strong>Сбой WSAStartup</strong></a> может завершиться с этой ошибкой, если достигнут предел.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="WSAEUSERS"></span><span id="wsaeusers"></span><dl> <dt><strong>Всаеусерс</strong></dt> <dt>10068</dt> </dl></td>
@@ -231,16 +231,16 @@ ms.locfileid: "105718087"
 </tr>
 <tr class="even">
 <td><span id="WSASYSNOTREADY"></span><span id="wsasysnotready"></span><dl> <dt><strong>Всасиснотреади</strong></dt> <dt>10091</dt> </dl></td>
-<td><dl> <dt><span id="Network_subsystem_is_unavailable."></span><span id="network_subsystem_is_unavailable."></span><span id="NETWORK_SUBSYSTEM_IS_UNAVAILABLE."></span>Сетевая подсистема недоступна.</dt> <dd> Эта ошибка возвращается функцией <a href="/windows/desktop/api/winsock/nf-winsock-wsastartup"><strong>сбой WSAStartup</strong></a> , если в настоящее время не удается выполнить реализацию сокетов Windows, так как базовая система, используемая для предоставления сетевых служб, в данный момент недоступна. Пользователи должны проверить следующее:<br/> </dd> </dl>
+<td><dl> <dt><span id="Network_subsystem_is_unavailable."></span><span id="network_subsystem_is_unavailable."></span><span id="NETWORK_SUBSYSTEM_IS_UNAVAILABLE."></span>Сетевая подсистема недоступна.</dt> <dd> эта ошибка возвращается функцией <a href="/windows/desktop/api/winsock/nf-winsock-wsastartup"><strong>сбой wsastartup</strong></a> , если в настоящее время не удается выполнить реализацию сокетов Windows, так как базовая система, используемая для предоставления сетевых служб, в данный момент недоступна. Пользователи должны проверить следующее:<br/> </dd> </dl>
 <ul>
-<li>, Что соответствующий DLL-файл Windows Sockets находится в текущем пути.</li>
-<li>Так как они не пытаются одновременно использовать более одной реализации сокетов Windows. Если в системе имеется несколько DLL-библиотек Winsock, убедитесь, что первая из них подходит для сетевой подсистемы, загруженной в данный момент.</li>
-<li>Документация по реализации сокетов Windows, которая позволяет убедиться в том, что все необходимые компоненты установлены и правильно настроены.</li>
+<li>, что соответствующий DLL-файл Windows sockets находится в текущем пути.</li>
+<li>что они не пытаются одновременно использовать более одной реализации Windows сокетов. Если в системе имеется несколько DLL-библиотек Winsock, убедитесь, что первая из них подходит для сетевой подсистемы, загруженной в данный момент.</li>
+<li>документация по реализации сокетов Windows, чтобы убедиться в том, что все необходимые компоненты установлены и правильно настроены.</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><span id="WSAVERNOTSUPPORTED"></span><span id="wsavernotsupported"></span><dl> <dt><strong>Всавернотсуппортед</strong></dt> <dt>10092</dt> </dl></td>
-<td><dl> <dt><span id="Winsock.dll_version_out_of_range."></span><span id="winsock.dll_version_out_of_range."></span><span id="WINSOCK.DLL_VERSION_OUT_OF_RANGE."></span> ВерсияWinsock.dll вне допустимого диапазона.</dt> <dd> Текущая реализация сокетов Windows не поддерживает версию спецификации сокетов Windows, запрошенную приложением. Убедитесь, что программа не обращается к старым версиям файлов DLL Windows Sockets.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Winsock.dll_version_out_of_range."></span><span id="winsock.dll_version_out_of_range."></span><span id="WINSOCK.DLL_VERSION_OUT_OF_RANGE."></span> ВерсияWinsock.dll вне допустимого диапазона.</dt> <dd> текущая реализация Windowsных сокетов не поддерживает версию спецификации Windowsных сокетов, запрошенную приложением. Убедитесь, что программа не обращается к старым версиям файлов DLL Windows Sockets.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="WSANOTINITIALISED"></span><span id="wsanotinitialised"></span><dl> <dt><strong>Всанотинитиалисед</strong></dt> <dt>10093</dt> </dl></td>
@@ -425,13 +425,13 @@ ms.locfileid: "105718087"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Winsock2. h; </dt> <dt>Winerror. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Winsock2. h; </dt> <dt>Winerror. h</dt> </dl> |
 
 
 

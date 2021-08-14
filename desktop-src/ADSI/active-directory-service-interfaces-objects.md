@@ -7,12 +7,12 @@ keywords:
 - объекты ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e356d9b1212b448d16bb6bba081f6141a877b0b
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: f20d75454b840597e1fd2ac0599d72d04acb1ee674f84aff40da64f9886879cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103891073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118181193"
 ---
 # <a name="active-directory-service-interfaces-objects"></a>Объекты Active Directory интерфейсов служб
 
@@ -37,10 +37,10 @@ ms.locfileid: "103891073"
 
 
 
- 
+ 
 
 Более сложные объекты ADSI могут предоставлять дополнительные интерфейсы. Например, [**иадсколлектион**](/windows/desktop/api/Iads/nn-iads-iadscollection) поддерживает методы, управляющие коллекциями элементов каталога одного и того же типа данных. Методы [**иадсграуп**](/windows/desktop/api/Iads/nn-iads-iadsgroup) управляют специальными коллекциями вариантов объектов, которые поддерживают интерфейс [**иадсмемберс**](/windows/desktop/api/Iads/nn-iads-iadsmembers) . Для поставщиков, которые его поддерживают, интерфейс [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch) поддерживает методы для запросов к службам каталогов. Кроме того, ADSI предоставляет интерфейсы, представляющие хорошо известные логические и физические элементы. Например, объекты ADSI, представляющие пользователей, поддерживают [**IADsUser**](/windows/desktop/api/Iads/nn-iads-iadsuser), которые представляют компьютеры, поддерживают [**иадскомпутер**](/windows/desktop/api/Iads/nn-iads-iadscomputer)и т. д. Дополнительные сведения об объектах ADSI см. [в разделе интерфейсы iAds и идиректорйобжект](the-iads-and-idirectoryobject-interfaces.md). Не все поставщики реализуют все интерфейсы или все методы и свойства во всех интерфейсах. Дополнительные сведения см. в [справочнике по ADSI](adsi-reference.md).
 
- 
+ 
 
- 
+ 

@@ -9,12 +9,12 @@ keywords:
 - Поиск объектов по имени
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 914faa443402a1d20698aabaf0bf4a112279a322
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 60624c62e9d28d35805af3c98f551a19f44edf9e27369cf7ded9e87621491cae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103773154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118189184"
 ---
 # <a name="finding-objects-by-name"></a>Поиск объектов по имени
 
@@ -51,9 +51,9 @@ ms.locfileid: "103773154"
 
 
 
- 
+ 
 
- 
+ 
 
 
 

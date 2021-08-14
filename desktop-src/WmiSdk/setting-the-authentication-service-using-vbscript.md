@@ -1,5 +1,5 @@
 ---
-description: При доступе к серверу инструментарий управления Windows (WMI) (WMI) с помощью скрипта можно выбрать между протоколами проверки подлинности NT LAN Manager (NTLM) или Kerberos.
+description: при доступе к серверу инструментарий управления Windows (WMI) (WMI) с помощью скрипта можно выбрать между протоколами проверки подлинности NT LAN Manager (NTLM) или Kerberos.
 ms.assetid: db2dc750-bfdd-4f6c-859b-e104814f0800
 ms.tgt_platform: multiple
 title: Настройка службы проверки подлинности с помощью VBScript
@@ -10,16 +10,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: bd2cf444560aac7ebce96b52d9abaa528bdcaa76
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 837a69df251b5bbb6cc8bef5ac0b882349fde74646ac6ed33149978b8f69ad7c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712946"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118315391"
 ---
 # <a name="setting-the-authentication-service-using-vbscript"></a>Настройка службы проверки подлинности с помощью VBScript
 
-При доступе к серверу инструментарий управления Windows (WMI) (WMI) с помощью скрипта можно выбрать между протоколами проверки подлинности NT LAN Manager (NTLM) или Kerberos. Указание Kerberos не требуется, кроме случаев использования делегирования. Дополнительные сведения см. в разделе [Подключение к третьим компьютерам-делегирование](connecting-to-a-3rd-computer-delegation.md).
+при доступе к серверу инструментарий управления Windows (WMI) (WMI) с помощью скрипта можно выбрать между протоколами проверки подлинности NT LAN Manager (NTLM) или Kerberos. Указание Kerberos не требуется, кроме случаев использования делегирования. Дополнительные сведения см. в разделе [Подключение к третьим компьютерам-делегирование](connecting-to-a-3rd-computer-delegation.md).
 
 Поскольку версии операционной системы отличаются от используемых ими служб проверки подлинности, рекомендуется не указывать значение для поля Authority при подключении к удаленной системе. Вместо этого разрешите операционной системе и распределенной версии модели объектов (DCOM) выбрать NTLM или Kerberos. Если указана служба проверки подлинности, для синтаксиса требуется имя участника на сервере, то есть имя целевого компьютера, а не контроллера домена.
 

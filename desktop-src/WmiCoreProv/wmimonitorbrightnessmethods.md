@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - WmiProv.dll
-ms.openlocfilehash: 36fe823703d5d5e4f1f6008d02c600828fe2b53f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 255cfa75ab892739ce211432ef81d32da4e1cbb3205e5467045e2d81f156d102
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674018"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118321366"
 ---
 # <a name="wmimonitorbrightnessmethods-class"></a>Класс Вмимониторбригхтнессмесодс
 
@@ -95,7 +95,7 @@ class WmiMonitorBrightnessMethods
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

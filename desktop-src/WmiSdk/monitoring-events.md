@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Отслеживание событий
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ea5d9fc6f9a12f4aa1fb7bc0ff6f66fc4dd4a7e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bb90a0a6eef87f88543e8f2414bc38bdea4f7d89c577471d79d23393f331b053
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118317118"
 ---
 # <a name="monitoring-events"></a>Отслеживание событий
 
@@ -78,7 +78,7 @@ Loop
     Язык программирования определяет используемый API.
 
     -   Для языка программирования C++ используйте [COM API для WMI](com-api-for-wmi.md).
-    -   Для Visual Basic или языков сценариев используйте [API скриптов для инструментария WMI](scripting-api-for-wmi.md).
+    -   для Visual Basic или языков сценариев используйте [API скриптов для инструментария WMI](scripting-api-for-wmi.md).
 
 2.  Начните программировать временное приложение-потребитель событий так же, как вы запускаете приложение WMI.
 

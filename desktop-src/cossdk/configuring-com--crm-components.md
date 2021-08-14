@@ -4,12 +4,12 @@ ms.assetid: d1ce3a0c-1278-498c-b5dc-4e14b26b4fc2
 title: Настройка компонентов COM+ CRM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f3614c2c34d36cb140f08529c05b31bcc5a4c7f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c79f8c9716a9a4db2888231c886d3d1a4d929dd1a8dfb9f9f359ab03ec7670b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118307453"
 ---
 # <a name="configuring-com-crm-components"></a>Настройка компонентов COM+ CRM
 
@@ -34,7 +34,7 @@ ms.locfileid: "105701284"
 
 
 
-| Компонент           | Параметры                                                                                             |
+| Компонент           | "Настройки"                                                                                             |
 |---------------------|------------------------------------------------------------------------------------------------------|
 | **Рабочая роль CRM**      | Transaction = рекуиредсинк = Есжит = ессреадинг модель = обе (или потоковая модель = апартамент)     |
 | **Компенсатор CRM** | Transaction = дисабледсинк = Дисабледжит = модель беспотоковой обработки = обе (или потоковая модель = апартамент) |
@@ -48,7 +48,7 @@ ms.locfileid: "105701284"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

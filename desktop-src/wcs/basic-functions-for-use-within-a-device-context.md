@@ -3,15 +3,15 @@ title: Основные функции для использования в ко
 description: Следующие функции WCS предоставляют базовые возможности сопоставления цветов в контекстах устройств. Они полезны для всех приложений, которым требуется реализовать управление цветом с низкой нагрузкой и минимальным вмешательством пользователя.
 ms.assetid: 199fac5e-daba-4aa3-a631-bb1eb2270b2e
 keywords:
-- Цветовая система Windows (WCS), функции
-- WCS (цветовая система Windows), функции
+- Windows Система цветовой системы (WCS), функции
+- WCS (Windows цветовая система), функции
 - Управление цветом изображений, функции
 - Управление цветом, функции
 - цвета, функции
 - Справочник по WCS, функции
 - Справочник по WCS, функциям
-- Цветовая система Windows (WCS), контексты устройств
-- WCS (цветовая система Windows), контексты устройств
+- Windows Система цветов (WCS), контексты устройств
+- WCS (Windows цветовая система), контексты устройств
 - Управление цветом изображений, контексты устройств
 - Управление цветом, контексты устройств
 - цвета, контексты устройств
@@ -21,12 +21,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fde99ed077af108ddc20c73f86e17bedfe1d4a8c
-ms.sourcegitcommit: d39e82e232f6510f843fdb8d55d25b4e9e02e880
+ms.openlocfilehash: a934c1737a7eea8b32a9589325e73300db82334a40ee47b411922b89cb61f568
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "105719861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118210983"
 ---
 # <a name="basic-functions-for-use-within-a-device-context"></a>Основные функции для использования в контексте устройства
 

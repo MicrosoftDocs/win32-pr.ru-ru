@@ -5,12 +5,12 @@ ms.assetid: 99bd1cfe-34e8-4a76-b8a4-158246ebcea9
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4045146e41f4c9ce5a46df8a1846b9ca3c64f8ed
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: eed02e201cad0ef650009be39786bfbf8d1e5dc278fcd71d29d6e635d8df0842
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104328472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118185503"
 ---
 # <a name="object-picker-dialog-box-interfaces"></a>Интерфейсы диалоговых окон средства выбора объектов
 
@@ -19,16 +19,16 @@ ms.locfileid: "104328472"
 -   [**идсобжектпиккер**](/windows/desktop/api/Objsel/nn-objsel-idsobjectpicker)
 -   [**идсобжектпиккеркредентиалс**](/windows/desktop/api/Objsel/nn-objsel-idsobjectpickercredentials)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Средство выбора объектов каталога](directory-object-picker.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

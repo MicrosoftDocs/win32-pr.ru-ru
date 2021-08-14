@@ -3,7 +3,7 @@ title: BUTTONGROUP. Шовбаккграунд
 description: Атрибут Шовбаккграунд указывает или получает значение, указывающее, отображает ли BUTTONGROUP только кнопки, или отображает полный точечный рисунок, указанный в атрибуте Image.
 ms.assetid: 5c3fc873-937c-4dad-ac18-e7a37004ee1e
 keywords:
-- Проигрыватель Windows Media BUTTONGROUP. Шовбаккграунд
+- BUTTONGROUP. шовбаккграунд проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 31cc87260d4b0fca74d6063c757e6c3dae0db850
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bb95b707fa7e14b00e86c5a65949ff9fba3ce3db32745116fa65ca4c53ac1998
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694854"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118342677"
 ---
 # <a name="buttongroupshowbackground"></a>BUTTONGROUP. Шовбаккграунд
 
@@ -35,14 +35,14 @@ ms.locfileid: "105694854"
 
 | Значение | Описание                                                                                |
 |-------|--------------------------------------------------------------------------------------------|
-| true  | Отображаются кнопки, а область, не занятая кнопками, рисуется из растрового изображения. |
+| Да  | Отображаются кнопки, а область, не занятая кнопками, рисуется из растрового изображения. |
 | false | По умолчанию. Отображаются только кнопки.                                                   |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если **шовбаккграунд** имеет значение true, будет виден весь основной **образ** .
 
@@ -50,13 +50,13 @@ ms.locfileid: "105694854"
 
 Если указано недопустимое значение, сохраняется предыдущее состояние.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

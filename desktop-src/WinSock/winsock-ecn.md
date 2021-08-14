@@ -3,12 +3,12 @@ title: Уведомление о явной перегрузке Winsock (ECN)
 description: Некоторые приложения и (или) протоколы, основанные на протоколе UDP (например, QUIC), ищут использование явного уведомления о перегрузке (ECN) кодовыми точками для повышения задержки и колебаний в перегруженных сетях.
 ms.topic: article
 ms.date: 11/13/2020
-ms.openlocfilehash: 090ac9b0575cb491aa6d726e7507223156460ace
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 79b38611cd0301d0b5d301592eec02b68c02353246c67a6c94528417623834f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110560004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118322027"
 ---
 # <a name="winsock-explicit-congestion-notification-ecn"></a>Уведомление о явной перегрузке Winsock (ECN)
 
@@ -182,7 +182,7 @@ void receiver(SOCKET sock, PSOCKADDR_STORAGE addr, LPFN_WSARECVMSG recvmsg)
 }
 ```
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 * [всажетреквипекн](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsagetrecvipecn)
 * [всасетреквипекн](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsasetrecvipecn)

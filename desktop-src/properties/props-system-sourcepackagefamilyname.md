@@ -4,12 +4,12 @@ ms.assetid: ccebd9a4-03b8-4351-ac37-0b161ddbe2c9
 title: System. Саурцепаккажефамилинаме
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72486c4d46e8f42460c8ec48ac16686fb43d4d63
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca4452e0a6d50cdede05aeb3391cc50953dd2aaf943c86f195eb72830c639dc9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118227659"
 ---
 # <a name="systemsourcepackagefamilyname"></a>System. Саурцепаккажефамилинаме
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

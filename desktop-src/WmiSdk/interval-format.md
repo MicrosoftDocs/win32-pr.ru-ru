@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Формат интервала
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e10e13d5febbce22648ec76961269ab18b1c028a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 30db455b6b39349b3da2f8328b22597d8b9c16c47387ba7f6b15d81e62ceb134
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118318540"
 ---
 # <a name="interval-format"></a>Формат интервала
 
@@ -46,7 +46,7 @@ ddddddddHHMMSS.mmmmmm:000
 00000001120032.000000:000
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

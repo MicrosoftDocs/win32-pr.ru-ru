@@ -3,7 +3,7 @@ title: Сообщение WM_CAP_SET_CALLBACK_FRAME (VFW. h)
 description: '\_ \_ \_ Сообщение кадра обратного вызова Set крепления WM \_ устанавливает функцию обратного вызова для предварительного просмотра в приложении. Авикап вызывает эту процедуру, когда окно отслеживания захватывает кадры предварительной версии. Это сообщение можно отправить явно или с помощью макроса Капсеткаллбакконфраме.'
 ms.assetid: 3882e6f6-c48c-4e50-9697-cbdf5b9342a5
 keywords:
-- WM_CAP_SET_CALLBACK_FRAME сообщения Windows мультимедиа
+- сообщение WM_CAP_SET_CALLBACK_FRAME Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b91c2f30ac0875e2f45592d3aa7e0a3ce9c296b7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f85321483639135db31750cacf76cc5f0dc4ad42e96474efa1dc17ac84ba4a79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672699"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118369512"
 ---
 # <a name="wm_cap_set_callback_frame-message"></a>\_ \_ \_ Сообщение кадра обратного вызова Set крепления WM \_
 
@@ -49,11 +49,11 @@ lParam = (LPARAM) (LPVOID) (fpProc);
 
 Возвращает **значение true** в случае успеха или **false** , если выполняется захват потоковой передачи или однокадровый сеанс записи.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Окно Capture (захват) вызывает функцию обратного вызова перед отображением кадров предварительного просмотра. Это позволяет приложению изменять фрейм при необходимости. Эта функция обратного вызова не используется во время потоковой записи видео.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

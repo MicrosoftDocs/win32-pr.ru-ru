@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Настройка проверки подлинности с помощью C++
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 293d317ac521d36bf7ff616a0340f86c364ce885
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d7b0ef3bcd1e9908815c94dacc3815fec77eaea33f2da48119dbe3178563eae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118315621"
 ---
 # <a name="setting-authentication-using-c"></a>Настройка проверки подлинности с помощью C++
 
@@ -122,7 +122,7 @@ delete pAuthIdentity;
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

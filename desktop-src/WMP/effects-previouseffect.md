@@ -3,7 +3,7 @@ title: EFFECTs. Превиаусеффект
 description: Метод Превиаусеффект Отображает предыдущую визуализацию, пропуская предустановки.
 ms.assetid: f1cfef29-0241-4028-b047-4f17bf0e9250
 keywords:
-- Effect. Превиаусеффект Windows Media Player
+- effects. превиаусеффект проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b5482e7c202d6d35f3a833b5bafc8a41dca38956
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a7e73ab00fa5092f4b67f659c30705a9e7b57a1a159d4a41017783c1f1ee91dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118339979"
 ---
 # <a name="effectspreviouseffect"></a>EFFECTs. Превиаусеффект
 
@@ -36,17 +36,17 @@ ms.locfileid: "105699207"
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод отображает предыдущую визуализацию в порядке создания. Если текущая визуализация является первой в порядке создания и если **алловалл** имеет значение false, последняя визуализация становится текущей.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

@@ -7,18 +7,18 @@ keywords:
 - Active Directory примеры Active Directory, использование глобального каталога для поиска пользователей в лесу
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bea13ac3dbc4455d10dbd56f78e50c0f2ea27301
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ac868537e1bbb8d4b2400f5cd32dd0d55efeb448b10b40ae88aaf5a35bfb2d8b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103773166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118189717"
 ---
 # <a name="example-code-for-using-the-global-catalog-to-find-users-in-a-forest"></a>Пример кода для использования глобального каталога для поиска пользователей в лесу
 
 Этот раздел содержит примеры кода, используемые для поиска пользователей в лесу.
 
-В следующем Visual Basic примере кода показано, как использовать ADSI для поиска пользователей в лесу.
+в следующем Visual Basic примере кода показано, как использовать ADSI для поиска пользователей в лесу.
 
 
 ```VB
@@ -233,9 +233,9 @@ HRESULT PrintAllUsersInGlobalCatalog()
 
 
 
- 
+ 
 
- 
+ 
 
 
 

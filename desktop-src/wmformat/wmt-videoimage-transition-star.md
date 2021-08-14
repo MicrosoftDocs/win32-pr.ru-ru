@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: af064682c4488153823164433bd432a9080336fd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2fd5a00c7cf68feea13dc0e617e5fe2adb34551032c8ec54bda6e0810fbb092e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704399"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118195174"
 ---
 # <a name="wmt_videoimage_transition_star"></a>ВМТ \_ видеоимаже \_ 1-2-3 \_
 
@@ -76,13 +76,13 @@ ms.locfileid: "105704399"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Вмсдкидл. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмсдкидл. h</dt> </dl> |
 
 
 

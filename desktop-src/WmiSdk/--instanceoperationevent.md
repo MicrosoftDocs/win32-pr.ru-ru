@@ -17,12 +17,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 1d3111b74c876cc7ffedb959eca7f46812ed92e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4e988f26b64d0d8bd4a23f853b7bf9dc92f2610936239b4363439d5c7d70170
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118320811"
 ---
 # <a name="__instanceoperationevent-class"></a>\_\_Класс Инстанцеоператионевент
 
@@ -47,7 +47,7 @@ class __InstanceOperationEvent : __Event
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ \_ инстанцеоператионевент** имеет следующие свойства.
 
@@ -94,7 +94,7 @@ class __InstanceOperationEvent : __Event
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ \_ инстанцеоператионевент** является производным от [**\_ \_ события**](--event.md).
 
@@ -132,7 +132,7 @@ class __InstanceOperationEvent : __Event
 
 Пример кода VBScript [Processing](https://Gallery.TechNet.Microsoft.Com/94c7dc4c-813a-411d-aa3f-f98982cd2a2f) в коллекции TechNet использует **\_ \_ инстанцеоператионевент** для мониторинга первого события экземпляра WMI для [**\_ процесса Win32**](/windows/desktop/CIMWin32Prov/win32-process).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -148,7 +148,7 @@ class __InstanceOperationEvent : __Event
 
 <dl> <dt>
 
-[**\_\_Событие**](/windows/desktop/WmiSdk/--event)
+[**\_\_Журнале**](/windows/desktop/WmiSdk/--event)
 </dt> <dt>
 
 [Системные классы WMI](wmi-system-classes.md)

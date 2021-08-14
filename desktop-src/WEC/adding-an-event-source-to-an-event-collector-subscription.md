@@ -5,12 +5,12 @@ ms.assetid: f0100938-1702-4ef7-b20e-a0e8df224d18
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88c639b496a00f56a38a0f9f8e72b9d099e58c17
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 905dd9b5a250f9ab12397f851f79a8374c6847235acb34013972dea445f3622b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070153"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118344216"
 ---
 # <a name="adding-an-event-source-to-a-collector-initiated-subscription"></a>Добавление источника событий к подписке, инициированной сборщиком
 
@@ -22,11 +22,11 @@ ms.locfileid: "104070153"
 >
 > С помощью этого примера кода можно добавить источник события в подписку. в командной строке можно ввести следующую команду:
 >
-> **wecutil SS** *SubscriptionName*  * */ЕСА: * * * евентсаурцеаддресс* **/АЕС/ЕСЕ**
+> **wecutil SS** *SubscriptionName* **/ЕСА:**_евентсаурцеаддресс_ **/АЕС/ЕСЕ**
 >
 > *Евентсаурцеаддресс* может иметь значение localhost для локального компьютера или полное доменное имя удаленного компьютера.
 
- 
+ 
 
 Дополнительные сведения о добавлении источников событий к исходной инициированной подписке см. в разделе [Настройка инициированной источником подписки](setting-up-a-source-initiated-subscription.md).
 
@@ -34,7 +34,7 @@ ms.locfileid: "104070153"
 
 **Добавление источника событий к подписке, инициированной сборщиком**
 
-1.  Откройте существующую подписку, указав имя подписки и права доступа в качестве параметров функции [**екопенсубскриптион**](/windows/desktop/api/Evcoll/nf-evcoll-ecopensubscription) . Дополнительные сведения о правах доступа см. в разделе [**константы сборщика событий Windows**](windows-event-collector-constants.md).
+1.  Откройте существующую подписку, указав имя подписки и права доступа в качестве параметров функции [**екопенсубскриптион**](/windows/desktop/api/Evcoll/nf-evcoll-ecopensubscription) . дополнительные сведения о правах доступа см. в разделе [**Windows константы сборщика событий**](windows-event-collector-constants.md).
 2.  Получите массив источников событий подписки, вызвав функцию [**екжетсубскриптионпроперти**](/windows/desktop/api/Evcoll/nf-evcoll-ecgetsubscriptionproperty) . Дополнительные сведения о свойствах подписки, которые можно получить, см. в разделе Перечисление [**\_ \_ \_ идентификаторов свойств подписки EC**](/windows/desktop/api/Evcoll/ne-evcoll-ec_subscription_property_id) .
 3.  Добавьте новый источник событий в массив источников событий подписки, вызвав функцию [**еЦинсертобжектаррайелемент**](/windows/desktop/api/Evcoll/nf-evcoll-ecinsertobjectarrayelement) .
 4.  Задайте свойства источника события, вызвав функцию [**ексетобжектаррайпроперти**](/windows/desktop/api/Evcoll/nf-evcoll-ecsetobjectarrayproperty) . Свойство **ексубскриптионевентсаурцеаддресс** либо устанавливается в адрес локального компьютера (localhost), либо в полное доменное имя удаленного компьютера. Дополнительные сведения о свойствах источника событий, которые можно задать, см. в разделе Перечисление **\_ \_ \_ идентификаторов свойств подписки EC** .
@@ -294,7 +294,7 @@ DWORD GetProperty(EC_HANDLE hSubscription,
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -304,9 +304,9 @@ DWORD GetProperty(EC_HANDLE hSubscription,
 [Создание подписки сборщика событий](creating-an-event-collector-subscription.md)
 </dt> <dt>
 
-[Справочник по сборщикам событий Windows](windows-event-collector-reference.md)
+[Windows Справочник по сборщикам событий](windows-event-collector-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

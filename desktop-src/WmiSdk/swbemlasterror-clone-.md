@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 7d4d43f73ab42021235db39adba0a77bc783b97a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 162944eeb4ee7ca0c72102b704e9f75851bbfb41885e6b79e86d1a438487473f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693266"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118314670"
 ---
 # <a name="swbemlasterrorclone_-method"></a>Свбемластеррор. Clone, \_ метод
 
@@ -74,13 +74,13 @@ objWbemObject = .Clone_( _
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте метод **Clone \_** для дублирования определения или экземпляра класса. Этот метод полезен, если необходимо создать резервную копию исходной копии объекта при изменении новой копии. Кроме того, используйте этот метод, чтобы создать множество новых экземпляров из одного экземпляра источника. Например, используйте [**SWbemObject. спавнинстанце \_**](swbemobject-spawninstance-.md) , чтобы создать один начальный экземпляр и использовать **свбемластеррор. Clone \_** для быстрого создания копий экземпляра 100. Впоследствии можно изменить объекты, указав конкретные значения для каждого объекта.
 
 Этот метод невозможно использовать для преобразования определения класса в экземпляр или для преобразования экземпляра в определение класса.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

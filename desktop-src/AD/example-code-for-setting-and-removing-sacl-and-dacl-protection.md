@@ -7,18 +7,18 @@ keywords:
 - Примеры Active Directory Active Directory, установка и удаление защиты списка SACL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28c77cb1da29aa650fe4559c3da27c6a00f59e98
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 6c3ed7c32ebdeb7408037e2e3fcff294f0750fb6a8dcd19837ee9154c65f0c66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "105654296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118190156"
 ---
 # <a name="example-code-for-setting-and-removing-sacl-and-dacl-protection"></a>Пример кода для настройки и удаления списка SACL и защиты списка DACL
 
 Этот раздел содержит пример кода, используемый для установки и удаления списка SACL и защиты DACL.
 
-В следующем примере кода C и C++ задаются и удаляются защищенные **\_ DACL \_ SE** и **\_ \_ защищенные элементы списка SACL** в свойстве [**иадссекуритидескриптор. Control**](/windows/desktop/ADSI/iadssecuritydescriptor-property-methods) дескриптора безопасности объекта.
+в следующем примере кода C и C++ задаются и удаляются **SE \_ \_ защищенные DACL** и SE элементы, **\_ \_ защищенные списком SACL** , в свойстве [**иадссекуритидескриптор. Control**](/windows/desktop/ADSI/iadssecuritydescriptor-property-methods) дескриптора безопасности объекта.
 
 
 ```C++
@@ -131,6 +131,6 @@ HRESULT SetSDInheritProtect(IADs *pObject, long lControl)
 
 
 
- 
+ 
 
- 
+ 

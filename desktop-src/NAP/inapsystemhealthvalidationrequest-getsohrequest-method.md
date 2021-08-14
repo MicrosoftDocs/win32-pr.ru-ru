@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 306c9307f99f91e0b0a48a1c5ffeaf19b4ea1f12
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dc9d9dc3b28aec92b7125dc2cad6bf8b843975945ca89687957d56be0ff562d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118367732"
 ---
 # <a name="inapsystemhealthvalidationrequestgetsohrequest-method"></a>Метод Инапсистемхеалсвалидатионрекуест:: Жетсохрекуест
 
@@ -78,7 +78,7 @@ HRESULT GetSoHRequest(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Параметр *сохрекуест* может возвращать **значение NULL** , если клиент не отправлял [**сохрекуест**](/windows/win32/api/naptypes/ns-naptypes-soh) в SHV. В этом сценарии SHV может заполнить **сохреспонсе** кодом ошибки [**NAP \_ E \_ Missing No \_ SoH**](nap-error-constants.md).
 
@@ -88,14 +88,14 @@ HRESULT GetSoHRequest(
 -   [**сохаттрибутетипефаилурекатегори**](sohattributetype-enum.md) =  [ **фаилурекатегориклиенткомпонент**](/windows/win32/api/naptypes/ne-naptypes-failurecategory)
 -   [**сохаттрибутетипирроркодес**](sohattributetype-enum.md)  =  [ **<SHA-Failure-Error-code>**](nap-error-constants.md)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Ни одна версия не поддерживается<br/>                                                                               |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                    |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                    |
 | Header<br/>                   | <dl> <dt>Напсистемхеалсвалидатор. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Напсистемхеалсвалидатор. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qshvhost.dll</dt> </dl>                 |

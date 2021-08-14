@@ -4,12 +4,12 @@ ms.assetid: 614ead82-b3fc-4023-8ecc-9f0212f0b194
 title: Использование Winsock
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 361e303605809bc3570d503a66788b3a32c824ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ac191f914e1a95a8331b0445fc9e73226f2fdd6661543140eae95c2540159be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711013"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118322037"
 ---
 # <a name="using-winsock"></a>Использование Winsock
 
@@ -20,14 +20,14 @@ ms.locfileid: "105711013"
 -   [начало работы с помощью Winsock](getting-started-with-winsock.md)
 -   [Безопасное программирование Winsock](secure-winsock-programming.md)
 -   [Перенос приложений сокета в Winsock](porting-socket-applications-to-winsock.md)
--   [Рекомендации по IPv6 для приложений Windows Sockets](ipv6-guide-for-windows-sockets-applications-2.md)
--   [Высокопроизводительные приложения Windows Sockets](high-performance-windows-sockets-applications-2.md)
+-   [рекомендации по IPv6 для приложений Windows sockets](ipv6-guide-for-windows-sockets-applications-2.md)
+-   [высокопроизводительные Windows приложения сокетов](high-performance-windows-sockets-applications-2.md)
 -   [Категоризация многоуровневых поставщиков услуг и приложений](categorizing-layered-service-providers-and-applications.md)
 -   [Многоадресное программирование](multicast-programming.md)
 -   [Безопасное многоадресное программирование (PGM)](reliable-multicast-programming--pgm-.md)
 -   [Трассировка Winsock](winsock-tracing.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

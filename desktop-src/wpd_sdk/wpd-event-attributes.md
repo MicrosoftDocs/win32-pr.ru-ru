@@ -1,5 +1,5 @@
 ---
-description: 'Для Windows 7 портативные устройства Windows поддерживают следующие атрибуты для событий службы устройства. Эти атрибуты возвращаются методом Ипортабледевицесервицекапабилитиес:: Жетевентаттрибутес.'
+description: 'для Windows 7 Windows портативные устройства поддерживают следующие атрибуты для событий службы устройства. Эти атрибуты возвращаются методом Ипортабледевицесервицекапабилитиес:: Жетевентаттрибутес.'
 ms.assetid: 2c71c3ec-842b-44f7-b127-5750883b33ba
 title: Атрибуты событий (Портабледевице. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 68a5964a4f64899d4aa116002b1feb14ce360498
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9ee6fe335d5e3906a923dfe5c470142cdf36fb1e521c3498963e478369a9b251
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694430"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118193295"
 ---
 # <a name="event-attributes-portabledeviceh"></a>Атрибуты событий (Портабледевице. h)
 
-Для Windows 7 портативные устройства Windows поддерживают следующие атрибуты для событий службы устройства. Эти атрибуты возвращаются методом [**ипортабледевицесервицекапабилитиес:: жетевентаттрибутес**](/windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-geteventattributes) .
+для Windows 7 Windows портативные устройства поддерживают следующие атрибуты для событий службы устройства. Эти атрибуты возвращаются методом [**ипортабледевицесервицекапабилитиес:: жетевентаттрибутес**](/windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-geteventattributes) .
 
 
 
@@ -37,13 +37,13 @@ ms.locfileid: "105694430"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Портабледевице. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Портабледевице. h</dt> </dl> |
 
 
 

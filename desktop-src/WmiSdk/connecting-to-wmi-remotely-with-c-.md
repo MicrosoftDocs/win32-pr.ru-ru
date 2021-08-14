@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 2ad9fe2008b52276a8f68149b33ae3729daaf7d9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f9ed735a1440d124a065a9f509eac7c58b1fded9be0683e361903b9f02fc1f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081211"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118319442"
 ---
 # <a name="connecting-to-wmi-remotely-with-c"></a>Удаленное подключение к инструментарию WMI с помощью C #
 
@@ -91,7 +91,7 @@ ms.locfileid: "104081211"
 
 **Удаленное подключение к инструментарию WMI с помощью C# (System. Management)**
 
-1.  Создайте объект [манажементскопе](/dotnet/api/system.management.managementscope) , используя имя компьютера и путь WMI, и подключитесь к целевому объекту с помощью вызова Манажементскопе. Connect ().
+1.  Создайте объект [манажементскопе](/dotnet/api/system.management.managementscope) , используя имя компьютера и путь WMI, и подключитесь к целевому объекту с помощью вызова манажементскопе. Подключение ().
 
     Если вы подключаетесь к удаленному компьютеру с использованием тех же учетных данных (домен и имя пользователя), которые вошли в систему, необходимо указать только путь WMI. После подключения можно сделать запрос WMI.
 
@@ -253,7 +253,7 @@ public class RemoteConnect
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

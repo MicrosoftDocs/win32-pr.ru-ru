@@ -1,21 +1,21 @@
 ---
-title: Видеозапись (мультимедиа Windows)
+title: видеозапись (Windows мультимедиа)
 description: Узнайте, как внедрить возможности захвата видео в приложение с помощью класса окна Авикап, который использует простой интерфейс на основе сообщений.
 ms.assetid: c93ecc51-e2c5-4b69-8625-c8385d53fab2
 keywords:
-- Видео для Windows (VFW), запись видео
-- VFW (видео для Windows), запись видео
+- видео для Windows (VFW), записи видео
+- VFW (видео для Windows), видеозапись
 - Авикап, о программе
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c53bcb3330511675d61fa835ddd460cf5b136e83
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 92c2433636e575888d913e86b584e11ba685b582f8093f75cbc68b1affd40a5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112395509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118370153"
 ---
-# <a name="video-capture-windows-multimedia"></a>Видеозапись (мультимедиа Windows)
+# <a name="video-capture-windows-multimedia"></a>видеозапись (Windows мультимедиа)
 
 Возможности захвата видео можно легко включить в приложение с помощью класса окна Авикап. Авикап предоставляет приложениям простой интерфейс на основе сообщений для доступа к видео и оборудованию для получения аудио-данных и управления процессом потоковой передачи видео на диск.
 

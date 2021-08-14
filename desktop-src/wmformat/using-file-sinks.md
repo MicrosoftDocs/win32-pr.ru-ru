@@ -16,12 +16,12 @@ keywords:
 - приемники, статистика
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c7a7f09a08788128719ea80a2a06d339f6398e6
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 1f94bd6698ca30a645957da36cf3b81a84f9d3e7c8ce6c598be2c39f8ac766db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104133578"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118196177"
 ---
 # <a name="using-file-sinks"></a>Использование файловых приемников
 
@@ -55,7 +55,7 @@ ms.locfileid: "104133578"
 
 Можно получить размер и длительность файла для открытого приемника, вызвав [**IWMWriterFileSink2:: GetFileSize**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriterfilesink2-getfilesize) и [**IWMWriterFileSink2:: жетфиледуратион**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriterfilesink2-getfileduration) соответственно.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -74,9 +74,9 @@ ms.locfileid: "104133578"
 [**Запись файлов ASF**](writing-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -6,12 +6,12 @@ ms.tgt_platform: multiple
 title: 'Методы Чстринг:: Find (Чстринг. h)'
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 5996ca5c06e2101fad834ce2e37df31ee435fbb3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a7f326b202d107dc192683517508446b3c785266c675e5cf27d92577311d453a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105713113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118319998"
 ---
 # <a name="chstringfind-methods"></a>Методы Чстринг:: Find
 
@@ -30,14 +30,14 @@ ms.locfileid: "105713113"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                                                                                      |
-| Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                                                                                                |
+| Минимальная версия сервера<br/> | Windows Сервер 2008<br/>                                                                                                                                |
 | Header<br/>                   | <dl> <dt>Чстринг. h (включение Фвкоммон. h)</dt> </dl>                                                    |
 | Библиотека<br/>                  | <dl> <dt>Фрамедин. lib</dt> </dl>                                                                       |
 | DLL<br/>                      | <dl> <dt>FrameDynOS.dll; </dt> <dt>FrameDyn.dll</dt> </dl> |

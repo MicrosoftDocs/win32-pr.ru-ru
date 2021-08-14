@@ -4,12 +4,12 @@ ms.assetid: 363ec646-be17-4616-8b22-091d7807c727
 title: System. photo. Максапертуре
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b55ef11f59267b9a5c8030b44c0b18c80c0f9bdf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 56556dd18054fcea574b87c9b0ab4186dc98ec49b106f7de2082b60b6fafe9c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692978"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118228188"
 ---
 # <a name="systemphotomaxaperture"></a>System. photo. Максапертуре
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

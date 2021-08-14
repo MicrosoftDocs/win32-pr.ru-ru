@@ -7,12 +7,12 @@ keywords:
 - Предоставление прав доступа учетной записи входа в службу AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22f4ea5b85e6158109338b881eeb3f59d74a3910
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 3d13d3e06432b3501961f65a3e27ca00a46f18197bef23d78e6f7ca0deec59b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "105654292"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118189083"
 ---
 # <a name="granting-access-rights-to-the-service-logon-account"></a>Предоставление прав доступа учетной записи входа в службу
 
@@ -22,6 +22,6 @@ ms.locfileid: "105654292"
 
 В некоторых случаях учетную запись пользователя службы необходимо добавить в состав одной или нескольких групп безопасности. Например, если вы создаете группу администраторов для службы, вы можете сделать ее членом группы. После этого можно предоставить группе права доступа, а не предоставлять их явным образом учетной записи службы. Дополнительные сведения о группах безопасности см. в разделе [Управление группами](managing-groups.md).
 
- 
+ 
 
- 
+ 

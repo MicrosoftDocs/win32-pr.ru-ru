@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Мониторинг данных производительности
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95cee18ba88a8aff920c2d14b5709a0fd913e2ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba4f3ddd5024fb27d83f08225fa65faaa2e7d02cdd28189c86fc979175861453
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118317108"
 ---
 # <a name="monitoring-performance-data"></a>Мониторинг данных производительности
 
@@ -22,7 +22,7 @@ ms.locfileid: "105647681"
 -   [Поставщики данных производительности](#performance-data-providers)
 -   [Использование форматированных классов данных о производительности](#using-formatted-performance-data-classes)
 -   [Использование необработанных классов данных о производительности](#using-raw-performance-data-classes)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="wmi-performance-classes"></a>Классы производительности WMI
 
@@ -161,7 +161,7 @@ Next
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

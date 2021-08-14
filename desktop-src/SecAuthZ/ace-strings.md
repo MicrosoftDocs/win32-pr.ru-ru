@@ -4,12 +4,12 @@ ms.assetid: 82c99170-784b-4724-a25b-2f2e8a2e0225
 title: Строки ACE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ed8f9aad8696bd3d3c251170f2ff79ea493ce57
-ms.sourcegitcommit: 07ba02719c9779e082b108ae74f9699fb0236c34
+ms.openlocfilehash: f60e8f4f5d3cd94f6e871b3b4962d2d548afa003c3bd4aa37a1ae8f008ce1a6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "108644186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117785405"
 ---
 # <a name="ace-strings"></a>Строки ACE
 
@@ -47,15 +47,15 @@ ace_type;ace_flags;rights;object_guid;inherit_object_guid;account_sid;(resource_
 | «AL»            | \_оповещение SDDL                             | \_ \_ Тип ACE системного \_ оповещения                                                                                                                                           |
 | НИХ            | \_аудит объектов \_ SDDL                     | \_ \_ \_ Тип ACE объекта системного \_ аудита                                                                                                                                   |
 | OL            | \_ \_ оповещение объекта SDDL                     | \_ \_ \_ Тип ACE объекта системного \_ оповещения                                                                                                                                   |
-| СТУДИ            | \_обязательная \_ Метка SDDL                  | \_Тип ACE обязательной системы \_ \_ \_ : **Windows Server 2003:** недоступен.                                                                                        |
-| СООБЩЕН            | \_ \_ разрешен доступ к обратному ВЫЗОВу SDDL \_         | ДОСТУП к \_ разрешенному \_ ответу на обратный вызов \_ Тип ACE для \_ **Windows Server 2008, windows Vista и Windows Server 2003:** недоступен.                                                |
-| XD            | \_доступ к обратному вызову SDDL \_ \_ запрещен          | \_ \_ Тип ACE "доступ запрещен" для обратного вызова \_ \_ **Windows Server 2008, windows Vista и Windows Server 2003:** недоступен.                                                 |
-| ЦЕНТРА            | \_атрибут ресурса \_ SDDL               | \_Атрибут системного \_ ресурса \_ \_ тип ACE **Windows Server 2008 R2, windows 7, Windows Server 2008, windows Vista и Windows Server 2003:** недоступно.<br/> |
-| ПОРТОВ            | \_идентификатор политики с областью действия SDDL \_ \_                | \_ \_ Идентификатор политики уровня системы \_ \_ тип ACE \_ **Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista и Windows Server 2003:** недоступно.<br/>  |
-| "КСУ"            | \_Аудит обратного вызова SDDL \_                   | \_ \_ Тип ACE обратного вызова аудита системы \_ \_ **Windows Server 2008 R2, windows 7, Windows Server 2008, windows Vista и Windows Server 2003:** недоступно.<br/>     |
-| ZA            | \_ \_ \_ разрешен доступ к объекту ОБРАТНОго вызова SDDL \_ | ДОСТУП к \_ разрешенному \_ ответному вызову \_ Тип ACE " \_ **Windows Server 2008 R2, windows 7, Windows Server 2008, windows Vista и Windows Server 2003"** недоступен.<br/>   |
-| TL            | \_ \_ Метка доверия процесса \_ SDDL             | \_ \_ Метка доверия системного \_ процесса \_ Тип ACE: \_ **Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista и Windows Server 2003:** недоступно. |
-| ШТАТ            | \_Фильтр доступа \_ SDDL                    | \_Тип ACE для фильтра доступа к системе \_ \_ \_ **: Windows Server 2016, Windows 10 версии 1607, Windows 10 версии 1511, Windows 10 версии 1507, windows Server 2012 R2, Windows 8.1, Windows Server 2012, windows 8, Windows Server 2008 R2, windows 7, Windows Server 2008, windows Vista и Windows Server 2003:** недоступно. |
+| "ML"            | \_обязательная \_ Метка SDDL                  | \_тип ACE "обязательная система" \_ \_ \_ **Windows сервера 2003:** недоступен.                                                                                        |
+| СООБЩЕН            | \_ \_ разрешен доступ к обратному ВЫЗОВу SDDL \_         | доступ к \_ разрешенному \_ ответному вызову \_ \_ типа ACE **Windows server 2008, Windows Vista и Windows server 2003:** недоступен.                                                |
+| XD            | \_доступ к обратному вызову SDDL \_ \_ запрещен          | \_ \_ тип ACE для обратного вызова с запретом доступа \_ \_ **Windows сервере 2008, Windows Vista и Windows Server 2003:** недоступно.                                                 |
+| ЦЕНТРА            | \_атрибут ресурса \_ SDDL               | \_атрибут системного \_ ресурса \_ \_ тип ACE **Windows Server 2008 R2, Windows 7, Windows server 2008, Windows Vista и Windows server 2003:** недоступно.<br/> |
+| ПОРТОВ            | \_идентификатор политики с областью действия SDDL \_ \_                | \_ \_ идентификатор политики уровня системы \_ \_ тип ACE \_ **Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista и Windows Server 2003:** недоступно.<br/>  |
+| "КСУ"            | \_Аудит обратного вызова SDDL \_                   | \_ \_ тип ACE обратного вызова аудита системы \_ \_ **Windows Server 2008 R2, Windows 7, Windows server 2008, Windows Vista и Windows server 2003:** недоступно.<br/>     |
+| ZA            | \_ \_ \_ разрешен доступ к объекту ОБРАТНОго вызова SDDL \_ | доступ к \_ разрешенному \_ ответному вызову \_ \_ тип ACE **Windows Server 2008 R2, Windows 7, Windows server 2008, Windows Vista и Windows server 2003:** недоступен.<br/>   |
+| TL            | \_ \_ Метка доверия процесса \_ SDDL             | \_ \_ тип ACE для метки доверия системного процесса \_ \_ \_ **Windows Server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista и Windows Server 2003:** недоступен. |
+| ШТАТ            | \_Фильтр доступа \_ SDDL                    | \_тип ACE "фильтр доступа к системе" \_ \_ \_ **Windows Server 2016, Windows 10 версии 1607, Windows 10 версия 1511, Windows 10 версия 1507, Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 r2, Windows 7, Windows server 2008, Windows Vista и Windows server 2003:** недоступно. |
  
 
 > [!Note]  
@@ -81,8 +81,8 @@ ace_type;ace_flags;rights;object_guid;inherit_object_guid;account_sid;(resource_
 | ID             | \_унаследовано SDDL          | УНАСЛЕДОВАНный \_ элемент ACE                |
 | СРОК             | \_ \_ успешный аудит SDDL     | \_ \_ флаг ACE успешного \_ доступа |
 | СЕРИЮ             | \_сбой аудита \_ SDDL     | неудачный \_ доступ к \_ \_ флагу ACE     |
-| Пи             | \_ \_ Фильтр защищенного доверия SDDL \_ | Флаг доверия с \_ защищенным \_ фильтром \_ ACE \_ **Windows Server 2016, Windows 10 версии 1607, Windows 10 версии 1511, Windows 10 версии 1507, windows Server 2012 R2, Windows 8.1, Windows Server 2012, windows 8, Windows Server 2008 R2, windows 7, Windows Server 2008, windows Vista и Windows Server 2003:** недоступно. |
-| Кредит             | \_Критическое для SDDL           | КРИТИЧЕСКИй \_ флаг ACE для \_ **сервера Windows Server версии 1803, windows 10 версии 1803, windows Server версии 1709, windows 10 версии 1709, windows 10 версии 1703, Windows Server 2016, windows 10 версии 1607, windows 10 версии 1511, windows 10 версии 1507, Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista и Windows Server 2003:** недоступно. |
+| Пи             | \_ \_ Фильтр защищенного доверия SDDL \_ | \_флаг доверия защищенного \_ фильтра \_ ACE \_ **Windows Server 2016, Windows 10 версии 1607, Windows 10 версии 1511, Windows 10 версии 1507, Windows Server 2012 r2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 r2, Windows 7, Windows server 2008, Windows Vista и Windows server 2003:** недоступно. |
+| Кредит             | \_Критическое для SDDL           | критический \_ \_ флаг ACE **Windows сервере версии 1803, Windows 10 версии 1803, Windows Server версии 1709, Windows 10 версии 1709, Windows 10 версии 1703, Windows Server 2016, Windows 10 версии 1607, Windows 10 версии 1511, Windows 10 версии 1507, Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows Server 2008 r2, Windows 7 Windows сервер 2008, Windows Vista и Windows Server 2003:** недоступно. |
  
 
 </dd> <dt>
@@ -150,9 +150,9 @@ ace_type;ace_flags;rights;object_guid;inherit_object_guid;account_sid;(resource_
 
 | Строка прав доступа | Константа в SDDL. h | Значение право доступа |
 |----------------------|--------------------|--------------------|
-| Nr                 | SDDL \_ — \_ Чтение не производится \_ | \_Обязательная \_ метка \_ системы \_ не \_ считывает **Windows Server 2008, Windows Vista и Windows Server 2003:** недоступно. |
-| NW                 | \_запись SDDL без \_ записи \_ | СИСТЕМная \_ обязательная \_ метка \_ не \_ записывает \_ **Windows Server 2008, Windows Vista и Windows Server 2003:** недоступно. |
-| NX                 | SDDL \_ без \_ выполнения \_ | \_Обязательная \_ метка \_ системы \_ не \_ выполняет **Windows Server 2008, Windows Vista и Windows Server 2003:** недоступно. |
+| Nr                 | SDDL \_ — \_ Чтение не производится \_ | \_обязательная \_ метка \_ системы \_ не \_ читается **Windows server 2008, Windows Vista и Windows server 2003:** недоступно. |
+| NW                 | \_запись SDDL без \_ записи \_ | \_обязательная \_ метка \_ системы \_ нет \_ записи **Windows сервер 2008, Windows Vista и Windows server 2003:** недоступно. |
+| NX                 | SDDL \_ без \_ выполнения \_ | \_обязательная \_ метка \_ системы \_ не \_ выполняет **Windows server 2008, Windows Vista и Windows server 2003:** недоступно. |
 </dd> <dt>
 
 <span id="object_guid"></span><span id="OBJECT_GUID"></span>**\_GUID объекта**
@@ -241,7 +241,7 @@ Ace Sid      : (S-1-1-0)
 
 
 
-В следующем примере показан файл, классифицированный с утверждениями ресурсов для Windows и язык SQL (SQL) с параметром PFS, имеющим значение высокий уровень влияния на бизнес.
+в следующем примере показан файл, классифицированный с помощью утверждений ресурсов для Windows и язык SQL (SQL) с заданным параметром «pfs», равным высокому бизнесу.
 
 
 ```C++

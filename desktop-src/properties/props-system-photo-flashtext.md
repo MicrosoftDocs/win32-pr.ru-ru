@@ -4,12 +4,12 @@ ms.assetid: 192cab30-2fa0-4036-b9b4-544bea8e6ac1
 title: System. photo. Флаштекст
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fea902b3890eb40c9c8d944c567b20a18412e716
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 74e0881abfa2b6fb6900503c2f7168dad98c6e398f2bffc23cc7096d1086adc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104156382"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118229808"
 ---
 # <a name="systemphotoflashtext"></a>System. photo. Флаштекст
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -3,7 +3,7 @@ title: EFFECTs. Некстеффект
 description: Метод Некстеффект отображает первую предустановку следующего представления, пропуская промежуточные предустановки.
 ms.assetid: dedd8e8b-2337-46f5-91a8-43ef54c86012
 keywords:
-- Effect. Некстеффект Windows Media Player
+- effects. некстеффект проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b84d7ec4d6095ffdac2a0f0592aa3f3e832e68e0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 359571dde65c8cb65f422de58667c715cb7a3099e79a443dd64777edbf8767d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698758"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118339989"
 ---
 # <a name="effectsnexteffect"></a>EFFECTs. Некстеффект
 
@@ -36,17 +36,17 @@ ms.locfileid: "105698758"
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод отображает первую предустановку следующего представления в порядке создания. Если текущая визуализация является последней в порядке создания и если **алловалл** имеет значение false, то первая визуализация становится текущей.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

@@ -4,12 +4,12 @@ description: Набор команд ВИДЕОМАГНИТОФОНА
 ms.assetid: e17ec75d-a98f-46ea-8bef-7e45e1696f43
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa6f84b4542b6ea87b5d05ae8d1cda2374fcac2c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 00fdc15ca4f8c151a8202642bcd11a650fa5481c979ab794552675fb109c75ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104133775"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118370260"
 ---
 # <a name="vcr-command-set"></a>Набор команд ВИДЕОМАГНИТОФОНА
 
@@ -29,7 +29,7 @@ ms.locfileid: "104133775"
 | [**как**](mark.md)               | [**\_маркер MCI**](mci-mark.md)               |
 | [**работу**](pause.md)             | [**Приостановка MCI \_**](mci-pause.md)             |
 | [**воспроизводит**](play.md)               | [**\_Воспроизведение MCI**](mci-play.md)               |
-| [**запись**](record.md)           | [**\_запись MCI**](mci-record.md)           |
+| [**записать**](record.md)           | [**\_запись MCI**](mci-record.md)           |
 | [**выход**](resume.md)           | [**\_возобновление работы MCI**](mci-resume.md)           |
 | [**поиска**](seek.md)               | [**\_Поиск MCI**](mci-seek.md)               |
 | [**параметр**](set.md)                 | [**\_набор MCI**](mci-set.md)                 |
@@ -37,7 +37,7 @@ ms.locfileid: "104133775"
 | [**сеттимекоде**](settimecode.md) | [**\_СЕТТИМЕКОДЕ MCI**](mci-settimecode.md) |
 | [**сеттунер**](settuner.md)       | [**\_СЕТТУНЕР MCI**](mci-settuner.md)       |
 | [**сетвидео**](setvideo.md)       | [**\_СЕТВИДЕО MCI**](mci-setvideo.md)       |
-| [**состояние**](status.md)           | [**\_состояние MCI**](mci-status.md)           |
+| [**status**](status.md)           | [**\_состояние MCI**](mci-status.md)           |
 | [**первом**](step.md)               | [**\_шаг MCI**](mci-step.md)               |
 | [**позиции**](stop.md)               | [**\_прерывание MCI**](mci-stop.md)               |
 | [сисинфо](sysinfo.md)             | [**\_СИСИНФО MCI**](mci-sysinfo.md)         |
@@ -45,8 +45,8 @@ ms.locfileid: "104133775"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

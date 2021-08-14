@@ -16,18 +16,18 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: b4d0c71e4748774eacab4b234092178179a4a774
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 506c897da130b9558b37637918674a7c6024adb787ac3d91e53e430a6edfcd1e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118314759"
 ---
 # <a name="swbemdatetimegetvardate-method"></a>SWbemDateTime. GetVarDate, метод
 
 Метод **GetVarDate** объекта [**SWbemDateTime**](swbemdatetime.md) преобразует значение даты и времени в формате [**DateTime**](datetime.md) CIM в формат **\_ даты VT** .
 
-Формат **\_ даты VT** — это значение даты и [**времени**](datetime.md) автоматизации типа Variant, которое Visual Basic и использование ActiveX.
+формат **\_ даты VT** — это значение даты и [**времени**](datetime.md) автоматизации типа variant, которое Visual Basic и ActiveX использования.
 
 Описание этого синтаксиса см. в разделе [соглашения о документе для API скриптов](document-conventions-for-the-scripting-api.md).
 
@@ -57,7 +57,7 @@ vdate = .GetVarDate( _
 
 Значение даты и времени в формате **\_ даты VT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **VT \_ Значения DATE** и **fileTime** не могут содержать подстановочные поля.
 
@@ -84,7 +84,7 @@ vdate = .GetVarDate( _
 
 Примеры использования объекта [**SWbemDateTime**](swbemdatetime.md) для преобразования значений [**DateTime**](datetime.md) CIM в и из параметра **fileTime** или формата **\_ даты VT** см. в разделе [задачи WMI: даты и время](wmi-tasks--dates-and-times.md). Описание формата **DateTime** в CIM см. в разделе [Формат даты и времени](date-and-time-format.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

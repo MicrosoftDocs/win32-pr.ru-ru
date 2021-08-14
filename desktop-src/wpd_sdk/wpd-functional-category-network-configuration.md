@@ -4,12 +4,12 @@ ms.assetid: c5c93ebf-0072-49c2-a109-a2edb7e1bd8d
 title: WPD_FUNCTIONAL_CATEGORY_NETWORK_CONFIGURATION
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6018243644cec4b1b83d14a51c153d9d6f5f8963
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c50c87647e206ed8dfd95a2eb4ee6f8833724a1a8a645beefc67be9254030570
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999159"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118193062"
 ---
 # <a name="wpd_functional_category_network_configuration"></a>\_Конфигурация сети для функциональной \_ категории WPD \_ \_
 
@@ -42,7 +42,7 @@ ms.locfileid: "103999159"
 | [Объект WPD, \_ \_ создающий \_ эскиз \_ из \_ ресурса](object-properties.md) | Необязательный элемент.                                                                                                                                              |
 | [\_объект WPD \_ может \_ удалить](object-properties.md)                                                                     | Требуется, если объект не может быть удален.                                                                                                              |
 | [\_ \_ языковой стандарт объекта WPD \_](object-properties.md)                                                                | Необязательный элемент.                                                                                                                                              |
-| [\_Категория функционального \_ объекта WPD \_](miscellaneous-properties.md)                      | Обязательный. Категории, определяемые переносными устройствами Windows, см. в разделе [**\_ \_ \_ функциональный \_ объект типа содержимого WPD**](wpd-content-type-functional-object.md) . |
+| [\_Категория функционального \_ объекта WPD \_](miscellaneous-properties.md)                      | Обязательный. категории, определяемые Windows портативными устройствами, см. в разделе [**\_ \_ \_ функциональный \_ объект типа содержимого WPD**](wpd-content-type-functional-object.md) . |
 | [\_ \_ \_ Допустимые типы содержимого папки WPD \_](miscellaneous-properties.md)                 | (рекомендуется).                                                                                                                                           |
 
 
@@ -53,7 +53,7 @@ ms.locfileid: "103999159"
 
 Обычно эти объекты не размещают ресурсы.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

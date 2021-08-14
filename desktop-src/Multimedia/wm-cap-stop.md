@@ -3,7 +3,7 @@ title: Сообщение WM_CAP_STOP (VFW. h)
 description: Сообщение о \_ \_ прекращении крепления WM останавливает операцию записи. Это сообщение можно отправить явно или с помощью макроса Капкаптурестоп.
 ms.assetid: 0fea82f5-f381-485a-82ae-b081b3a5e402
 keywords:
-- WM_CAP_STOP сообщения Windows мультимедиа
+- сообщение WM_CAP_STOP Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ded89ea8999fa2b29f576a6d047f5147d492bc2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8bceac7a821a42227a388de6ebc2b9ea548156ec80d1e5baba7f1e1ad708002d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103803803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118369333"
 ---
 # <a name="wm_cap_stop-message"></a>\_ \_ Сообщение об ошибке крепления WM
 
@@ -40,11 +40,11 @@ lParam = 0L;
 
 Возвращает **значение true** в случае успеха или **false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Операция отслеживания должна использовать это сообщение. Используйте сообщение [**об \_ \_ отмене крепления WM**](wm-cap-abort.md) , чтобы отказаться от текущей операции записи.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

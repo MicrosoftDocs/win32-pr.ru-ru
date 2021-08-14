@@ -9,12 +9,12 @@ keywords:
 - Службы домен Active Directory, использование, репликация
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c52364a5d92b46826c84f233628ed079696206ae
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 729a7f90261516d119ca4b0971e88c70273e0b0172e38de87d89c29696602322
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118184422"
 ---
 # <a name="replication-model-in-active-directory-domain-services"></a>Модель репликации в службах домен Active Directory
 

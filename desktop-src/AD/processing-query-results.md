@@ -8,12 +8,12 @@ keywords:
 - Active Directory, поиск, обработка результатов поиска
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 732128438162f5ee8f6fe75bb4d2ce53e0d43070
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: b0a3ba7d3dac59e5d887dc7897eb6722295842f08cb4167d5292aaace0d115c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "105654283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118185208"
 ---
 # <a name="processing-the-search-results"></a>Обработка результатов поиска
 
@@ -27,6 +27,6 @@ ms.locfileid: "105654283"
 
 Дополнительные сведения и пример кода см. в разделе [пример кода для поиска пользователей](example-code-for-searching-for-users.md).
 
- 
+ 
 
- 
+ 
