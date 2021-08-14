@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bfc230de8716566574dbe95b914d8ff22cbc2f75
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5a995dbb885631575aceedfeeb371440034558ecd40af9a1323a6edbc51e300c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118963433"
 ---
 # <a name="filerepserviceexample"></a>филерепсервицеексампле
 
@@ -25,7 +25,7 @@ ms.locfileid: "104068152"
 
 Параметры командной строки для режима клиента приведены ниже.
 
-**КлиентWsFileRepService.exe** *<Service Url>* **\[ /reporting: <Error/info/verbose>\] \[ /Encoding: <Text/binary/MTOM>\] \[ /коннектионс: ***<number of connections>*** \]**
+**КлиентWsFileRepService.exe** *<Service Url>* **\[ /reporting: <Error/info/verbose>\] \[ /Encoding: <Text/binary/MTOM>\] \[ /коннектионс:**_<number of connections>_*_\]_*
 
 <dl> <dt>
 
@@ -66,7 +66,7 @@ ms.locfileid: "104068152"
 
 Ниже приведены параметры командной строки для режима сервера.
 
-**СерверWsFileRepService.exe** *<Service Url>* **\[ /Reporting: <Error/info/verbose>\] \[ /Encoding: <Text/binary/MTOM>\] \[ /коннектионс: ***<number of connections>*** \] \[ /Чунк: ***<size of the payload per message in bytes>*** \]**
+**СерверWsFileRepService.exe** *<Service Url>* **\[ /Reporting: <Error/info/verbose>\] \[ /Encoding: <Text/binary/MTOM>\] \[ /коннектионс:** _<number of connections>_ *_\] \[ /Чунк:_*_<size of the payload per message in bytes>_*_\]_*
 
 <dl> <dt>
 
@@ -113,7 +113,7 @@ ms.locfileid: "104068152"
 -   [FileRep.mc](#filerepmc)
 -   [Филереп. RC](#filereprc)
 -   [Makefile](#makefile)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="servicecpp"></a>Service. cpp
 
@@ -3642,16 +3642,16 @@ WsFileRepService.exe: Service.obj CFileRep.obj CFileRepServer.obj CFileRepClient
     link -release -incremental:no -nologo -subsystem:console,6.01 -out:WsFileRepService.exe Service.obj CFileRep.obj CFileRepServer.obj CFileRepClient.obj CChannelManager.obj CRequest.obj FileRep.res
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [филерептулексампле](filereptoolexample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

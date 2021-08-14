@@ -34,19 +34,19 @@ api_name:
 targetos: Windows
 req.typenames: ''
 req.redist: ''
-ms.openlocfilehash: 0dfc3342f3eca5622c25d2df7319cd2323f516ff
-ms.sourcegitcommit: 1f6a1bfc1c4bb2641bc3ba44beb1f2727c94681b
+ms.openlocfilehash: a071246fadaa971b88e894dff8cb307a38d26b959d8f431972cc4be476344c9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "104983948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118047177"
 ---
 # <a name="shgetfolderpathex-function"></a>Функция Шжетфолдерпасекс
 
 ## <a name="description"></a>Описание
 
 \[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском.
-Майкрософт не дает никаких гарантий, явных или подразумеваемых, в отношении предоставленной здесь информации.\]
+Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, относительно предоставленной здесь информации.\]
 
 Получает полный путь к известной папке, идентифицируемой [кновнфолдерид](/windows/desktop/shell/knownfolderid)папки.
 Это расширяет [шжеткновнфолдерпас](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath) , позволяя задавать начальный размер строкового буфера.
@@ -104,7 +104,7 @@ HRESULT WINAPI SHGetFolderPathEx(
 
 Возвращает **S_OK** в случае успеха или значение ошибки в противном случае.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Так как [шжетфолдерпас](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha) является оболочкой для [шжеткновнфолдерпас](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath), эта функция (**шжетфолдерпасекс**) также служит расширением для **шжетфолдерпас**.
 

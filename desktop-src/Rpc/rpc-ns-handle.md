@@ -6,12 +6,12 @@ keywords:
 - RPC_NS_HANDLE
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e72ee694e08be1b30a75dc1f5b986619043d592
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e7612671b03f507bc2e722520fa775e0e999d0f1456ebfcefa971bba27b65dbd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104535105"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118926288"
 ---
 # <a name="rpc_ns_handle"></a>\_маркер NS \_ RPC
 
@@ -24,7 +24,7 @@ typedef void* RPC_NS_HANDLE;
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Маркер службы имени — это непрозрачная переменная, содержащая сведения, которые используются библиотекой времени выполнения RPC для возврата следующих данных RPC из базы данных Name-Service:
 
@@ -36,7 +36,7 @@ typedef void* RPC_NS_HANDLE;
 
 Приложения отвечают за управление параллелизмом для дескрипторов службы Name-Service в потоках.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -3,7 +3,7 @@ title: Сообщение TTM_SETTIPBKCOLOR (Коммктрл. h)
 description: Задает цвет фона в окне подсказки.
 ms.assetid: ed7860db-a221-4855-85d6-1b3b356279ed
 keywords:
-- Элементы управления Windows для TTM_SETTIPBKCOLOR сообщений
+- элементы управления Windows сообщений TTM_SETTIPBKCOLOR
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cbd830f9a9fbdad428766bd12d82c059e37418e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bb56f62e7ebc8cab8b7773048767cecbe188abf698aaae15db6f7fb73d10bd95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105654681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119433754"
 ---
 # <a name="ttm_settipbkcolor-message"></a>\_Сообщение ТТМ сеттипбкколор
 
@@ -43,18 +43,18 @@ ms.locfileid: "105654681"
 
 Возвращаемое значение для этого сообщения не используется.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если стили оформления включены, это сообщение не действует.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

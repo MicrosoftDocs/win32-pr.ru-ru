@@ -4,12 +4,12 @@ description: Для выполнения любого удаленного вы�
 ms.assetid: 7b8adba2-19aa-4179-b6b3-ef27f4383bd4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56fdd64352df4bbefc1ec41960b78109b22510c6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e8ed8bce6f97ecfc7bd257d20eebbb35d068624fe017c01a662b47fceb463b98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103889003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118926035"
 ---
 # <a name="rpc-security-essentials"></a>Основы безопасности RPC
 
@@ -27,9 +27,9 @@ ms.locfileid: "103889003"
 -   [Функции приобретения ключей](key-acquisition-functions.md)
 -   [Олицетворение клиента](client-impersonation.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 14b902f70919c79ed3e313671ede709f284a1490
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 07bcaf2ac9d5523949809b22b37f6a31bee1e7ef4243cfef52b1b034ee2e0cd9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986014"
 ---
 # <a name="interlockedor-function"></a>Функция взаимоблокировки
 
@@ -28,9 +28,9 @@ ms.locfileid: "103987532"
 
 ``` syntax
 void InterlockedOr(
-  in  UINT dest,
-  in  UINT value,
-  out UINT original_value
+  in  UINT dest,
+  in  UINT value,
+  out UINT original_value
 );
 ```
 
@@ -67,9 +67,9 @@ void InterlockedOr(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Nothing
+Ничего
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эту операцию можно выполнить только для типизированных ресурсов **типа int** или **uint** и переменных общей памяти. Существует три возможных способа использования этой функции. Первый — когда R является переменной общей памяти. В этом случае функция выполняет атомарную операцию **или** со значением регистра общей памяти, на который ссылается *dest*. Второй сценарий заключается в том, что R является типом переменной ресурса. В этом сценарии функция выполняет атомарную операцию **или** со значением расположения ресурса, на которое ссылается *dest*. Наконец, третий сценарий происходит, когда R является локальным типом переменной. В этом сценарии функция сокращается до **или** со значениями *dest* и *value*. Результат операции заменяет значение *dest*. Перегруженная функция имеет дополнительную выходную переменную, которой будет присвоено исходное значение *dest*. Перегруженная операция доступна только в том случае, если R доступен для чтения и записи.
 
@@ -83,7 +83,7 @@ Nothing
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -95,6 +95,6 @@ Nothing
 [Модель шейдера 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

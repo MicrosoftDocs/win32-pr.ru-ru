@@ -4,12 +4,12 @@ description: Объектная модель Direct3D 11 разделяет фу
 ms.assetid: b9b45d18-f7b7-40f9-ae4e-576ca7a6eba7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16b03333c6594f17d85fee28880e46928241e06c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 190b0f8f64a510c6a7cc9fea193b1ce74d6868cdd4e541effe4047d5de239e48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104983685"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117913408"
 ---
 # <a name="introduction-to-a-device-in-direct3d-11"></a>Общие сведения об устройстве в Direct3D 11
 
@@ -20,7 +20,7 @@ ms.locfileid: "104983685"
     -   [Контекст интерпретации](#immediate-context)
     -   [Отложенный контекст](#deferred-context)
 -   [Особенности работы с потоками](#threading-considerations)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="device"></a>Устройство
 
@@ -77,7 +77,7 @@ ms.locfileid: "104983685"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

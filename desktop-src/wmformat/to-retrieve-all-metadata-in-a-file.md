@@ -3,18 +3,18 @@ title: Получение всех метаданных в файле
 description: Получение всех метаданных в файле
 ms.assetid: c1de58d7-25a8-4416-9ee9-6ebe641ed640
 keywords:
-- Пакет SDK для формата Windows Media, получение метаданных
+- Windows Пакет SDK для формата мультимедиа, получение метаданных
 - Расширенный системный формат (ASF), извлечение метаданных
 - ASF (Расширенный системный формат), получение метаданных
 - метаданные, извлечение всех
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc5d63a27cd4455d8d39cebee894dfbfc8d5bf2c
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: fab81f151cbb661cc7769128e2d4371dd0b24869317d1888769ed66a60de86f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "105672247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807474"
 ---
 # <a name="to-retrieve-all-metadata-in-a-file"></a>Получение всех метаданных в файле
 
@@ -132,16 +132,16 @@ Exit:
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Получение атрибутов метаданных**](retrieving-metadata-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

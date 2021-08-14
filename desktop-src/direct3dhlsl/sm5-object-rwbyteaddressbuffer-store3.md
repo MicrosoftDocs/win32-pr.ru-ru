@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: fd27684c3adf506e086fb17f789272c6b263ab20
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: a752ada16db4800e6160ad7b1c2c0b480deee75ff760d0c7f270dac36d1cff51
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104335088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118790066"
 ---
 # <a name="store3-function"></a>Функция Store3
 
@@ -28,8 +28,8 @@ ms.locfileid: "104335088"
 
 ``` syntax
 void Store3(
-  in uint address,
-  in uint3 values
+  in uint address,
+  in uint3 values
 );
 ```
 
@@ -59,19 +59,19 @@ void Store3(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта функция поддерживается для следующих типов шейдеров:
 
 
 
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
+| Вершина | Поверхности | Домен | Геометрия | Пиксель | Службы вычислений |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     | x       |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -83,9 +83,9 @@ void Store3(
 [Модель шейдера 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

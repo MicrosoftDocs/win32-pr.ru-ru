@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ac82509fa155084cbb4ca3e6b9437728c6f853a
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: 6ff23349545c47dde2a54ea0b0911d3f792f21778f5053628929d3a98c69b0f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "105684732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026191"
 ---
 # <a name="service-proxy"></a>Прокси-сервер службы
 

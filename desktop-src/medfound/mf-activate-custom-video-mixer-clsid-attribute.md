@@ -4,12 +4,12 @@ ms.assetid: a3586e6f-a2a2-4932-8b43-a076f64c5958
 title: Атрибут MF_ACTIVATE_CUSTOM_VIDEO_MIXER_CLSID (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0cc1049fb3bc77b65fb48fe9a4c10a059b2a4651
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a110d6ef5b6cc65fcf3d81fc252737bbcc70575c2d1600751281f9222b032a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104343945"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119464584"
 ---
 # <a name="mf_activate_custom_video_mixer_clsid-attribute"></a>MF \_ активировать \_ Пользовательский \_ \_ атрибут CLSID микшера видео \_
 
@@ -19,7 +19,7 @@ ms.locfileid: "104343945"
 
 **GUID**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При создании Евр с помощью объекта активации этот атрибут можно использовать для установки пользовательского видеомикшера на Евр. Используйте этот атрибут, как показано ниже.
 
@@ -31,14 +31,14 @@ ms.locfileid: "104343945"
 
 Константа GUID для этого атрибута экспортируется из мфууид. lib.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                               |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 

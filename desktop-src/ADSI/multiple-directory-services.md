@@ -7,12 +7,12 @@ keywords:
 - ADSI для нескольких служб каталогов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ccc2e174fc1b07564f1cca6c12093a289a0c865a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 852888a6d3c0d8be9dbb8309efc57f4d29a60d83a21463a13c435e840fb96acc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104328411"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117839444"
 ---
 # <a name="multiple-directory-services"></a>Несколько служб каталогов
 
@@ -22,9 +22,9 @@ ms.locfileid: "104328411"
 
 Эти проблемы решаются в интерфейсе ADSI, в котором предусмотрен единый, согласованный, Открытый набор интерфейсов, который можно использовать для управления и использования любой службы каталогов, имеющей поставщик ADSI.
 
- 
+ 
 
- 
+ 
 
 
 

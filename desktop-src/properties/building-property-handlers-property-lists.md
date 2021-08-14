@@ -4,12 +4,12 @@ ms.assetid: b7af0491-2ece-42b5-8eea-32643854632f
 title: Использование списков свойств
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ade6cba2807e87306aa9cacb3649499d9e5ffe1
-ms.sourcegitcommit: ecd0ba4732f5264aab9baa2839c11f7fea36318f
+ms.openlocfilehash: 68dc3f25b1f0223e62a969a5b0846bcbdcaaef9fd93b45c654c367a0c1fc949d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "113481919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119397825"
 ---
 # <a name="using-property-lists"></a>Использование списков свойств
 
@@ -28,7 +28,7 @@ Prop:[flags]PropertyCanonicalName;[flags]PropertyCanonicalName;
 
 
 
-| Flag | Описание                                                                                                                                                                                   |
+| Флаг | Описание                                                                                                                                                                                   |
 |------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \*   | Не выводите свойство на **панели предварительного просмотра** , как указано в значении раздела реестра **превиевдетаилс** . Если значение этого свойства не задано, см. пример, следующий за следующей таблицей. |
 

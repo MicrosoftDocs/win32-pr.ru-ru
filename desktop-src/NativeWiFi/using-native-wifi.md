@@ -4,12 +4,12 @@ ms.assetid: ba5d0672-ba56-454c-a3f7-987060b3bc3a
 title: Использование собственного WiFi
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d290f392df0dcb43696e4a274297b7c35030f5e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 79f9398370058c44c964b2c1536b9435de9d8b2e4d939593781f492b2b058245
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104545391"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117984694"
 ---
 # <a name="using-native-wifi"></a>Использование собственного WiFi
 
@@ -31,7 +31,7 @@ ms.locfileid: "104545391"
 
 В разделе [Использование размещенной сети и общего доступа к подключению к Интернету](using-hosted-network-and-internet-connection-sharing.md) обсуждается использование беспроводной размещенной сети и общего доступа к подключению к Интернету (ICS).
 
-Пакет средств разработки программного обеспечения (SDK) для Microsoft Windows включает два примера кода, демонстрирующих использование собственного интерфейса API Wi-Fi. Кроме того, доступны образцы профилей, демонстрирующие использование различных схем профилей Wi-Fi.
+пакет средств разработки Microsoft Windows Software Development Kit (SDK) включает два примера кода, демонстрирующих использование собственного интерфейса API wi-fi. Кроме того, доступны образцы профилей, демонстрирующие использование различных схем профилей Wi-Fi.
 
 Дополнительные сведения о примерах см. в следующих разделах:
 
@@ -40,20 +40,20 @@ ms.locfileid: "104545391"
 -   [Примеры проводных профилей](wired-profile-samples.md)
 -   [Образцы профиля беспроводной связи](wireless-profile-samples.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Встроенный WiFi](portal.md)
 </dt> <dt>
 
-[Устранение неполадок беспроводных подключений Windows Vista 802,11](/previous-versions/windows/it-pro/windows-vista/cc766215(v=ws.10))
+[устранение неполадок беспроводных подключений Windows Vista 802,11](/previous-versions/windows/it-pro/windows-vista/cc766215(v=ws.10))
 </dt> <dt>
 
 [Новые возможности системной поддержки Wi-Fi](what-s-new-in-native-wifi.md)
 </dt> <dt>
 
-[Форум Windows Vista Wireless SDK](https://social.msdn.microsoft.com/Forums/b6bbd8f0-a921-480f-9b4b-845336462bc0/welcome-to-the-windows-vista-wireless-sdk-forum)
+[Windows Форум по пакету SDK для беспроводной сети Vista](https://social.msdn.microsoft.com/Forums/b6bbd8f0-a921-480f-9b4b-845336462bc0/welcome-to-the-windows-vista-wireless-sdk-forum)
 </dt> </dl>
 
  

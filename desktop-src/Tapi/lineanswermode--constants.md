@@ -4,12 +4,12 @@ ms.assetid: 35f63d92-970f-4fb8-aba9-179fc7de70f4
 title: Константы LINEANSWERMODE_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 658d5b1265d28f8cb719719e4303fde97d3fff3e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: abfb9d6491864f5be8788575d718e42cc5f5c7c337fd046c110bd5bd82eae110
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117761846"
 ---
 # <a name="lineanswermode_-constants"></a>\_Константы линеансвермоде
 
@@ -47,7 +47,7 @@ ms.locfileid: "105679908"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Без расширяемости. Все 32 бит зарезервированы.
 

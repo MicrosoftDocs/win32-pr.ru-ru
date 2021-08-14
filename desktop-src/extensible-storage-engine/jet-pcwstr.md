@@ -15,23 +15,23 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 51cd0dab17096fb8f7371a01ebabfca3abc595be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3958baa23228bdf32807cc4fdc07a471e625d553f57672e318a062038923b5af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703281"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119473894"
 ---
 # <a name="jet_pcwstr"></a>JET_PCWSTR
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jet_pcwstr"></a>JET_PCWSTR
 
 Тип данных **JET_PCWSTR** содержит константную строку в **Юникоде** , заканчивающуюся символом NULL \* .
 
-**Windows Vista: JET_PCWSTR** впервые появился в Windows Vista.
+**Windows vista: JET_PCWSTR** введены в Windows vista.
 
 ```cpp
     typedef __nullterminated const WCHAR * JET_PCWSTR;
@@ -43,7 +43,7 @@ JET_PCWSTR
 
 Константа, заканчивающаяся символом NULL, строка Юникода (char \* ).
 
-### <a name="requirements"></a>Требования
+### <a name="requirements"></a>Requirements (Требования)
 
 <table>
 <colgroup>
@@ -53,11 +53,11 @@ JET_PCWSTR
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista.</p></td>
+<td><p>требуется Windows Vista.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008.</p></td>
+<td><p>требуется Windows Server 2008.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>

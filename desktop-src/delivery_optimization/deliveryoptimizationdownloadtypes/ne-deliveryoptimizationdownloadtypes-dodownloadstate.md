@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 07/02/2019
-ms.openlocfilehash: 4fb882a26d20de3094aa46763d6e1538ccf0c643
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5df8f7b20c8cff3b905acec9852b26c9a5ee360645fddb1bec22990a8bb9daba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047142"
 ---
 # <a name="dodownloadstate-enumeration"></a>Перечисление Додовнлоадстате
 
@@ -50,10 +50,10 @@ typedef enum _DODownloadState
 | DODownloadState_Aborted | Скачивание прервано. |
 | DODownloadState_Paused | Скачивание приостановлено по требованию или из-за временной ошибки. |
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| **Минимальная версия клиента** | Windows 10, \[ только приложения Win32 версии 1809\] |
-| **Минимальная версия сервера** | Windows Server, \[ только приложения Win32 версии 1809\] |
+| **Минимальная версия клиента** | Windows 10, версия 1809 \[ Только приложения Win32\] |
+| **Минимальная версия сервера** | Windows Сервер, \[ только приложения Win32 версии 1809\] |
 | **Header** | Деливерйоптимизатиондовнлоадтипес. h |

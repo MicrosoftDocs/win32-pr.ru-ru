@@ -4,12 +4,12 @@ ms.assetid: d68de203-2d5f-4a28-bb57-1dda9fcb078a
 title: Проверка возможностей текста устройства
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fd1a4ddc0c678c775c6c068216e60ead234d757
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48c7121e7b5e2a416d06d79dba33c9a7c2eb7f6fb26d766a30b383f024e87e64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104997418"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119354854"
 ---
 # <a name="checking-the-text-capabilities-of-a-device"></a>Проверка возможностей текста устройства
 

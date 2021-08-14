@@ -4,12 +4,12 @@ description: Три типа строк и удаленный вызов про�
 ms.assetid: 186cabeb-ea3f-4213-ba71-53afe91e6e14
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 207e20b1c343ded17b5d62db2321bee380463f20
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b15467ed5a1425443cbc5a53cf35aba71725c5db68c542c292af38eb0d238cfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104338708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118924840"
 ---
 # <a name="strings-rpc"></a>Строки (RPC)
 
@@ -25,7 +25,7 @@ ms.locfileid: "104338708"
 
 
 
- 
+ 
 
 ### <a name="nonconformant-strings"></a>Несоответствующие строки
 
@@ -84,6 +84,6 @@ conformance_description<>
 
 Последнее описание предназначено для структуры, которая может иметь размер строк.
 
- 
+ 
 
- 
+ 

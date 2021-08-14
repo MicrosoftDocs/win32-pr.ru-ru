@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 90e8668d79e22107cd4338762340e55cc2a60af3
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1727b0da2ef12a3ba17775fbb38e7569161d4fb282ba82df629771e988bfb402
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103804702"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119804224"
 ---
 # <a name="ms-ds-claim-source-attribute"></a>Атрибут ms-DS-ClaimSet-Source
 
@@ -53,7 +53,7 @@ ms.locfileid: "103804702"
 | Идентификатор ссылки                | \-                                                      |
 | MAPI-Id                | \-                                                      |
 | System-Only            | Неверно                                                   |
-| Является однозначным       | True                                                    |
+| Является однозначным       | Верно                                                    |
 | Индексируется             | Неверно                                                   |
 | В глобальном каталоге      | Неверно                                                   |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                            |

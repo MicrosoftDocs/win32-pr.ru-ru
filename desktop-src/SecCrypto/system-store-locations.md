@@ -4,12 +4,12 @@ ms.assetid: 41fe9366-4c17-43bb-91d6-934c7aa87a2d
 title: Расположения системных хранилищ
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0863ffde8be5db67459908b1ec26ec73da029744
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d793d94bcb1c58bcc0d8c046b038df7e699d287b9ede3f14d6e2cb3c94ab781e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118897436"
 ---
 # <a name="system-store-locations"></a>Расположения системных хранилищ
 
@@ -81,9 +81,9 @@ HKEY_LOCAL_MACHINE
 | Системное хранилище | Физическое хранилище                                                                                    |
 |--------------|---------------------------------------------------------------------------------------------------|
 | MY           | . Параметры                                                                                          |
-| Root         | . Default. Аусрут<br/> . GroupPolicy<br/> . Компании<br/> . Карте<br/> |
-| Доверие        | . Default. GroupPolicy<br/> . Компании<br/>                                            |
-| Целостности и доступности           | . Default. GroupPolicy<br/> . Компании <br/>                                           |
+| Root         | . Default. Аусрут<br/> . GroupPolicy<br/> . Enterprise<br/> . Карте<br/> |
+| Доверие        | . Default. GroupPolicy<br/> . Enterprise<br/>                                            |
+| Целостности и доступности           | . Default. GroupPolicy<br/> . Enterprise <br/>                                           |
 
 
 
@@ -217,7 +217,7 @@ HKEY_LOCAL_MACHINE
 
  
 
-### <a name="remarks"></a>Комментарии
+### <a name="remarks"></a>Remarks
 
 Дополнительные физические хранилища могут быть связаны с системным хранилищем с помощью [**цертрегистерфисикалсторе**](/windows/desktop/api/Wincrypt/nf-wincrypt-certregisterphysicalstore).
 

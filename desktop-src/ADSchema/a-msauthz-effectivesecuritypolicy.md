@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c9c78d6e3cb23c16f289fc280f07a3a4418d5383
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 08125d1a4025146f264063b57f44730e64b3782a8b544848b3e34cb46afa4e16
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105654892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118016031"
 ---
 # <a name="ms-authz-effective-security-policy-attribute"></a>MS-authz-эффективные-безопасность-атрибут политики
 
@@ -52,10 +52,10 @@ ms.locfileid: "105654892"
 |------------------------|--------------------------------------------------------------------------------|
 | Идентификатор ссылки                | \-                                                                             |
 | MAPI-Id                | \-                                                                             |
-| System-Only            | Неверно                                                                          |
-| Является однозначным       | True                                                                           |
-| Индексируется             | Неверно                                                                          |
-| В глобальном каталоге      | Неверно                                                                          |
+| System-Only            | Нет.                                                                          |
+| Является однозначным       | Верно                                                                           |
+| Индексируется             | Нет.                                                                          |
+| В глобальном каталоге      | Нет.                                                                          |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                   |
 | Range-Lower            | \-                                                                             |
 | Range-Upper            | \-                                                                             |

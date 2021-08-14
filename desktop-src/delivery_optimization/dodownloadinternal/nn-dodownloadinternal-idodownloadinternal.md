@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 07/29/2019
-ms.openlocfilehash: 89dcf0e397e9761c1b156a4ad4b245209cf50020
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: de9079f7b87822ce950bc4e6c3ece6457e62775c32f7c0d51e76959332298bb0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104134250"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119755784"
 ---
 # <a name="idodownloadinternal-interface"></a>Интерфейс Идодовнлоадинтернал
 
@@ -37,10 +37,10 @@ ms.locfileid: "104134250"
 | [Идодовнлоадинтернал:: Жетпропертекс](./nf-dodownloadinternal-idodownloadinternal-getpropertyex.md) | Извлекает указатель на **вариант** , содержащий определенное значение расширенного свойства загрузки. |
 | [Идодовнлоадинтернал:: Сетпропертекс](./nf-dodownloadinternal-idodownloadinternal-setpropertyex.md) | Задает свойство расширенной загрузки. Метод принимает указатель на **вариант** , который содержит определенное значение свойства, применяемое к скачиванию. |
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| **Минимальная версия клиента** | Windows 10, \[ только приложения Win32 версии 1809\] |
-| **Минимальная версия сервера** | Windows Server, \[ только приложения Win32 версии 1809\] |
+| **Минимальная версия клиента** | Windows 10, версия 1809 \[ Только приложения Win32\] |
+| **Минимальная версия сервера** | Windows Сервер, \[ только приложения Win32 версии 1809\] |
 | **Header** | Додовнлоадинтернал. h |

@@ -3,7 +3,7 @@ title: Сообщение MCM_SETCALENDARBORDER (Коммктрл. h)
 description: Задает размер границы (в пикселях). Это сообщение можно отправить явным образом или с помощью \_ макроса монскал сеткалендарбордер.
 ms.assetid: 2a64a08f-a1fb-47a8-8f09-725807e87a03
 keywords:
-- Элементы управления Windows для MCM_SETCALENDARBORDER сообщений
+- элементы управления Windows сообщений MCM_SETCALENDARBORDER
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 09b870346e8d8b475833657dd83141ba1fe11715
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 08e020ad282ce21555e6c3a74198a0034013ac1d7cfac8f4eb68e52137e5f684
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104490518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119697204"
 ---
 # <a name="mcm_setcalendarborder-message"></a>\_Сообщение MCM сеткалендарбордер
 
@@ -47,14 +47,14 @@ ms.locfileid: "104490518"
 
 Не используется.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

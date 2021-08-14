@@ -3,8 +3,8 @@ title: Создание защищенных файлов
 description: Создание защищенных файлов
 ms.assetid: 5237e797-72ec-402e-81ec-ab379747e464
 keywords:
-- Windows Media Format SDK, создание защищенных файлов
-- Windows Media Format SDK, защищенные файлы
+- Windows Пакет SDK для формата мультимедиа, создание защищенных файлов
+- Windows Пакет SDK для формата мультимедиа, защищенные файлы
 - Расширенный формат систем (ASF), создание защищенных файлов
 - ASF (Расширенный системный формат), создание защищенных файлов
 - Расширенный формат систем (ASF), защищенные файлы
@@ -17,12 +17,12 @@ keywords:
 - DRM (Управление цифровыми правами), Вмстубдрм. lib
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 160a14d96da924bdb2a307bc804514a1ec3de083
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: a5be729f04f67e1a2e4319bcc8d267c798942293c2df2ee97dcc6a559af612aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104336311"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119809474"
 ---
 # <a name="creating-protected-files"></a>Создание защищенных файлов
 
@@ -36,9 +36,9 @@ ms.locfileid: "104336311"
 > [!Note]  
 > DRM не поддерживает версию этого пакета SDK на базе x64.
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -60,9 +60,9 @@ ms.locfileid: "104336311"
 [**Чтение защищенных файлов**](reading-protected-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

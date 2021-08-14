@@ -1,18 +1,18 @@
 ---
-title: Счетчики, запросы и затенения
+title: Счетчики, запросы и предикация
 description: Потоковый выход и счетчики UAV работают в Direct3D 12 в аналогичном методе для Direct3D 11, хотя теперь память для счетчиков должна выделяться приложением, драйвер не выполняет его.
 ms.assetid: 8BDDAFEF-57D4-4EF5-BB0C-6C96AF557A45
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 314c01b05ac31e5d5f8348b775c8955ae382f5ed
-ms.sourcegitcommit: 00e0a8e56d28c4c720b97f0cf424c29f547460d7
+ms.openlocfilehash: 7817484683d9defc7041cd33c1cefd1791de8ea42128925d7c904012f3cfe621
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "104549026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118098465"
 ---
-# <a name="counters-queries-and-predication"></a>Счетчики, запросы и затенения
+# <a name="counters-queries-and-predication"></a>Счетчики, запросы и предикация
 
 В этом разделе рассматриваются счетчики потокового вывода, счетчики UAV, запросы и затенения.
 

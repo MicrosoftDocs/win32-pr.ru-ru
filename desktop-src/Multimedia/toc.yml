@@ -1,4 +1,4 @@
-- name: Мультимедиа Windows
+- name: Windows Мультимедиа
   href: windows-multimedia-start-page.md
   items:
     - name: MCI
@@ -51,7 +51,7 @@
                   href: opening-a-device.md
                 - name: Получение сведений об устройстве
                   href: retrieving-information-about-a-device.md
-                - name: Получение сведений о системе MCI
+                - name: получение Сведения о системе MCI
                   href: obtaining-mci-system-information.md
                 - name: Воспроизведение устройства
                   href: playing-a-device.md
@@ -304,12 +304,12 @@
             - name: О программе Audio Миксерс
               href: about-audio-mixers.md
               items:
-                - name: Архитектура микшера
+                - name: Mixer AHA
                   href: mixer-architecture.md
                 - name: Типы элементов управления
                   href: control-types.md
                   items:
-                    - name: Пользовательские элементы управления для микшера звука
+                    - name: пользовательские элементы управления аудио Mixer
                       href: audio-mixer-custom-controls.md
                     - name: фадерс
                       href: faders.md
@@ -317,32 +317,32 @@
                       href: lists.md
                     - name: Приборов
                       href: meters.md
-                    - name: С помощью чисел
+                    - name: Числа
                       href: numbers.md
-                    - name: Ползунки
+                    - name: через ползунки;
                       href: sliders.md
-                    - name: коммутаторы;
+                    - name: Параметры
                       href: switches.md
                     - name: Элементы управления времени
                       href: time-controls.md
-                - name: Запросы устройства микшера
+                - name: Mixer Запросы устройств
                   href: mixer-device-queries.md
-                - name: Открытие и закрытие микшерных устройств
+                - name: открытие и закрытие устройств Mixer
                   href: opening-and-closing-mixer-devices.md
                 - name: Службы обратного вызова окна
                   href: window-callback-services.md
                 - name: Звуковые линии и управляющие запросы
                   href: audio-line-and-control-queries.md
-                - name: Audio Миксерс в Windows Vista
+                - name: аудио миксерс в Windows Vista
                   href: audio-mixers-in-windows-vista.md
-            - name: Справочник по звуковым микшерам
+            - name: справочник по аудио Mixer
               href: audio-mixer-reference.md
               items:
-                - name: Функции микшера звука
+                - name: функции аудио Mixer
                   href: audio-mixer-functions.md
-                - name: Структуры микшера звука
+                - name: структуры аудио Mixer
                   href: audio-mixer-structures.md
-                - name: Сообщения микшера звука
+                - name: звуковые Mixer сообщения
                   href: audio-mixer-messages.md
         - name: Цифровой интерфейс музыкальных инструментов (MIDI)
           href: musical-instrument-digital-interface--midi.md
@@ -363,9 +363,9 @@
                       href: patch-maps.md
                     - name: Скалярный том
                       href: the-volume-scalar.md
-                    - name: Карты ключей
+                    - name: ключевые Карты
                       href: key-maps.md
-                    - name: Сводка по картам и сообщениям MIDI
+                    - name: сводка по Карты и сообщениям MIDI
                       href: summary-of-maps-and-midi-messages.md
                 - name: Интерфейс управления мультимедиа (MCI)
                   href: media-control-interface--mci.md
@@ -718,30 +718,30 @@
                 - name: Потоковые операции
                   href: stream-operations.md
                   items:
-                    - name: Открытие и закрытие потоков
+                    - name: открытие и закрытие Потоки
                       href: opening-and-closing-streams.md
                     - name: Чтение из потока
                       href: reading-from-a-stream.md
                     - name: Работа с сжатыми данными видео в потоке
                       href: working-with-compressed-video-data-in-a-stream.md
-                    - name: Создание файла из существующих потоков
+                    - name: создание файла из существующего Потоки
                       href: creating-a-file-from-existing-streams.md
-                    - name: Запись потоков в файл
+                    - name: запись Потоки в файл
                       href: writing-streams-to-a-file.md
-                    - name: Размещение в потоках
+                    - name: размещение в Потоки
                       href: positioning-in-streams.md
-                    - name: Создание временных потоков
+                    - name: создание временных Потоки
                       href: creating-temporary-streams.md
-                    - name: Изменение потоков
+                    - name: изменение Потоки
                       href: editing-streams.md
             - name: Использование функций и макросов Авифиле
               href: using-avifile-functions-and-macros.md
               items:
                 - name: Открытие файла AVI
                   href: opening-an-avi-file.md
-                - name: Открытие потоков в файле AVI и закрытие файла
+                - name: открытие Потоки в файле AVI и закрытие файла
                   href: opening-streams-in-an-avi-file-and-closing-the-file.md
-                - name: Чтение потоков из файла AVI
+                - name: чтение Потоки из файла AVI
                   href: reading-streams-from-an-avi-file.md
                 - name: Чтение из одного потока и запись в другой
                   href: reading-from-one-stream-and-writing-to-another.md
@@ -848,7 +848,7 @@
                       href: keys-ending-capture.md
                     - name: Ограничение времени
                       href: time-limit.md
-                - name: Окна захвата
+                - name: Windows записи
                   href: capture-windows.md
                   items:
                     - name: Создание окна Авикап Capture
@@ -898,7 +898,7 @@
                       href: manual-frame-capture.md
                     - name: Запись Still-Image
                       href: still-image-capture.md
-                    - name: Захват без использования Хранилище дисков
+                    - name: захват без использования Хранилище дисков
                       href: capture-without-using-disk-storage.md
                     - name: Потоковая передача данных с устройства MCI
                       href: streaming-capture-from-an-mci-device.md
@@ -1079,7 +1079,7 @@
               items:
                 - name: Системные ресурсы уровня 1
                   href: level-1-system-resources.md
-                - name: Оптическое хранилище уровня 1
+                - name: оптический служба хранилища уровня 1
                   href: level-1-optical-storage.md
                 - name: Требования к аудио уровня 1
                   href: level-1-audio-requirements.md
@@ -1088,7 +1088,7 @@
               items:
                 - name: Системные ресурсы уровня 2
                   href: level-2-system-resources.md
-                - name: Оптическое хранилище уровня 2
+                - name: оптический служба хранилища уровня 2
                   href: level-2-optical-storage.md
                 - name: Требования к аудиосистеме уровня 2
                   href: level-2-audio-requirements.md
@@ -1099,7 +1099,7 @@
               href: manufacturer-identifiers.md
             - name: Идентификаторы продуктов корпорации Майкрософт
               href: microsoft-corporation-product-identifiers.md
-            - name: Драйверы звуковых систем Microsoft Windows
+            - name: драйверы звуковых систем Microsoft Windows
               href: microsoft-windows-sound-system-drivers.md
             - name: Идентификаторы продуктов
               href: product-identifiers.md
@@ -1149,7 +1149,7 @@
                       href: /previous-versions//dd743639(v=vs.85)
                     - name: сенддривермессаже
                       href: /previous-versions//dd798653(v=vs.85)
-                - name: Функции драйвера
+                - name: Функции драйверов
                   href: driver-functions.md
                   items:
                     - name: дефдриверпрок
@@ -3063,7 +3063,7 @@
               href: escape.md
             - name: freeze
               href: freeze.md
-            - name: index
+            - name: индекс
               href: index-command.md
             - name: сведения
               href: info.md
@@ -3129,7 +3129,7 @@
               href: unfreeze.md
             - name: обновить
               href: update.md
-            - name: где
+            - name: where
               href: where.md
             - name: window
               href: window.md

@@ -4,12 +4,12 @@ ms.assetid: 3148562c-0ddb-4679-92ab-769d7b96bdb4
 title: Свойство Авенкстатвидеуутпутфрамерате (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c5960f542f6e9ad85b81f91a2bec4188716266ad
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 812c448c330c44b1b01a119874e85317daee0d8f1d09f957270c8bc0e7132a51
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104262416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119258084"
 ---
 # <a name="avencstatvideooutputframerate-property"></a>Авенкстатвидеуутпутфрамерате, свойство
 
@@ -25,18 +25,18 @@ ms.locfileid: "104262416"
 
 **КОДЕКАПИ \_ авенкстатвидеуутпутфрамерате**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство доступно после завершения кодирования.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 

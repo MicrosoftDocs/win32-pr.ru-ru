@@ -3,7 +3,7 @@ title: Объект Error (пакет SDK для WMP)
 description: Объект Error предоставляет доступ к коллекции объектов Ерроритем.
 ms.assetid: 1f026ad4-0240-48fe-90ad-739a24e8a7ca
 keywords:
-- Проигрыватель Windows Media Object Error
+- объект Error проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0aae4c86dc3f5282be7a16207923e1238e217a9e
-ms.sourcegitcommit: 6f7576b297d54c0b8f9c79e02c912b83041aa4fb
+ms.openlocfilehash: c8e5b7627db2c55eb41a267f6c8d3a7a779e2f20190ca3061a49a41eb8577adb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "105691426"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117748473"
 ---
 # <a name="error-object"></a>Объект Error
 
@@ -28,13 +28,13 @@ ms.locfileid: "105691426"
 
 
 
-| Свойство                           | Описание                                        |
+| Свойство.                           | Описание                                        |
 |------------------------------------|----------------------------------------------------|
 | [ерроркаунт](error-errorcount.md) | Возвращает количество ошибок в очереди ошибок. |
 
 
 
- 
+ 
 
 Объект **Error** поддерживает следующие методы.
 
@@ -44,11 +44,11 @@ ms.locfileid: "105691426"
 |----------------------------------------------|-------------------------------------------------------------------------------------------------|
 | [клеарерроркуеуе](error-clearerrorqueue.md) | Удаляет ошибки из очереди ошибок.                                                         |
 | [Item](error-item.md)                       | Извлекает объект [ерроритем](erroritem-object.md) из очереди ошибок.                     |
-| [Справка](error-webhelp.md)                 | Открывает страницу веб-справки проигрывателя Windows Media для вывода дополнительных сведений об ошибке. |
+| [Справка](error-webhelp.md)                 | запускает проигрыватель Windows Media страницу веб-справки для вывода дополнительных сведений об ошибке. |
 
 
 
- 
+ 
 
 Доступ к объекту **Error** осуществляется через следующее свойство.
 
@@ -60,7 +60,7 @@ ms.locfileid: "105691426"
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -69,9 +69,9 @@ ms.locfileid: "105691426"
 [**Справочник по объектной модели для создания сценариев**](object-model-reference-for-scripting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

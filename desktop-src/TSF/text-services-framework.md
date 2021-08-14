@@ -4,12 +4,12 @@ description: Microsoft Windows Text Services Framework (TSF) — это сист
 ms.assetid: ecc34b2e-89e8-48a8-8a8e-442d2145fe24
 ms.topic: article
 ms.date: 01/14/2020
-ms.openlocfilehash: 9c21cae442b5fbed62c00010a17849d1d5f27b49
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: c2912538326158abbff47b4bde115c26966a751995d30a7183fafe0811ab666a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103800694"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117950961"
 ---
 # <a name="text-services-framework-text-services-framework"></a>Платформа текстовых служб (платформа текстовых служб)
 
@@ -19,15 +19,15 @@ Microsoft Windows Text Services Framework (TSF) — это системная с
 
 ## <a name="where-applicable"></a>Где применимо
 
-Платформа текстовых служб применима для компьютеров под управлением Windows, использующих текстовые службы и Windows XP или более поздние версии операционной системы.
+платформа текстовых служб применима для компьютеров на основе Windows, использующих текстовые службы и Windows XP или более поздних версий операционной системы.
 
 ## <a name="developer-audience"></a>Аудитория разработчиков
 
-Платформа текстовых служб разработана для использования с языками программирования C/C++ программистами в модели COM. Программисты должны быть знакомы с текстовыми службами для компьютеров под управлением Windows. Рекомендуется знание распознавания рукописного текста, распознавания речи и программирования для многоязычной поддержки.
+Платформа текстовых служб разработана для использования с языками программирования C/C++ программистами в модели COM. программисты должны быть знакомы с текстовыми службами для компьютеров на базе Windows. Рекомендуется знание распознавания рукописного текста, распознавания речи и программирования для многоязычной поддержки.
 
 ## <a name="run-time-requirements"></a>Требования к среде выполнения
 
-Для последнего распространяемого пакета загрузите [пакет SDK для платформы Windows 10](https://developer.microsoft.com/windows/downloads/windows-10-sdk).
+для получения последнего распространяемого пакета скачайте [пакет SDK для Windows 10 platform](https://developer.microsoft.com/windows/downloads/windows-10-sdk).
 
 Дополнительные сведения о требованиях к конкретным элементам API см. в разделе требования статьи] (/Windows/Win32/TSF/Text-Services-Framework-Reference) [справочник по TFS.
 

@@ -4,12 +4,12 @@ ms.assetid: 0327bda5-f1d7-476d-9f0f-f4d60a6a106f
 title: SENSOR_CATEGORY_LIGHT (sensors. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ca14bba297a8f445312873fc810e7d0b5ba13a4f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d42243cc5efeae54a06dd25ca92d5fa99f2d954e9115a10f77ac1278ced93125
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119406504"
 ---
 # <a name="sensor_category_light"></a>\_Категория датчика \_ : светло
 
@@ -45,13 +45,13 @@ ms.locfileid: "103897030"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                           |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                           |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                            |
 | Header<br/>                   | <dl> <dt>Sensors. h</dt> </dl> |
 

@@ -26,16 +26,16 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 321704f88da59af33f4dab99d7d681fbcbd96e1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 17908b19cba3ed047b98f4532982001019516d9b32e2799c29a6671cbd862fe7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911464"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119232684"
 ---
 # <a name="jet_indexcreatecbkeymost-property"></a>Свойство JET_INDEXCREATE. Кбкэймост
 
-Возвращает или задает максимально допустимый размер (в байтах) для ключей в индексе. Минимальный поддерживаемый максимальный размер ключа — JET_cbKeyMostMin (255), который является устаревшим максимальным размером ключа. Максимальный размер ключа зависит от размера страницы базы данных [датабасепажесизе](./jet-param-enumeration.md). Максимальный размер ключа можно получить с помощью [кэймост](./systemparameters.keymost-property.md). Этот параметр не учитывается в Windows XP и Windows Server 2003. В отличие от неуправляемого API, **индекскэймост ()** (JET_bitIndexKeyMost) не требуется, он будет добавлен автоматически.
+Возвращает или задает максимально допустимый размер (в байтах) для ключей в индексе. Минимальный поддерживаемый максимальный размер ключа — JET_cbKeyMostMin (255), который является устаревшим максимальным размером ключа. Максимальный размер ключа зависит от размера страницы базы данных [датабасепажесизе](./jet-param-enumeration.md). Максимальный размер ключа можно получить с помощью [кэймост](./systemparameters.keymost-property.md). этот параметр пропускается в Windows XP и Windows Server 2003. В отличие от неуправляемого API, **индекскэймост ()** (JET_bitIndexKeyMost) не требуется, он будет добавлен автоматически.
 
 **Пространство имен:**  [Microsoft. ISAM. ESENT. Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Сборка:**  Microsoft. ISAM. ESENT. Interop (в Microsoft.Isam.Esent.Interop.dll)

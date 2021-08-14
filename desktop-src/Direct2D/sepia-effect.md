@@ -4,12 +4,12 @@ description: Преобразовывает изображение с испол
 ms.assetid: fe321be9-6ade-bd0c-1c66-cc8042e5a5e1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf6ead1d439e86cbd35be14d1f0ae32923de408d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c30b2fcd49b30306b055f60bb3e4262a22740d8efa168ade428698c7b23ce10d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988537"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118664990"
 ---
 # <a name="sepia-effect"></a>Выцветшей, результат
 
@@ -21,7 +21,7 @@ ms.locfileid: "103988537"
 -   [Образец кода](#sample-code)
 -   [Свойства эффектов](#effect-properties)
 -   [Требования](#requirements)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="example-image"></a>Пример изображения
 
@@ -51,19 +51,19 @@ m_d2dContext->EndDraw();
 
 Свойства для выцветшейного действия определяются перечислением [**D2D1 \_ выцветшей \_ prop**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_sepia_prop) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------------|---------------------------------------------------|
-| Минимальная версия клиента | Приложения для \[ магазина Windows для классических приложений Windows 10 \|\] |
-| Минимальная версия сервера | Приложения для \[ магазина Windows для классических приложений Windows 10 \|\] |
+| Минимальная версия клиента | Windows 10 \[ классические приложения \| Windows приложения магазина\] |
+| Минимальная версия сервера | Windows 10 \[ классические приложения \| Windows приложения магазина\] |
 | Header                   | d2d1effects \_ 2. h                                  |
 | Библиотека                  | D2D1. lib, дксгуид. lib                              |
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 * [Интерфейс ID2D1Effect](/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect)
 

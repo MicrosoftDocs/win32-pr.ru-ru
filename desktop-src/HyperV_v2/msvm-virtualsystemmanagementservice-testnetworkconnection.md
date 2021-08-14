@@ -1,5 +1,5 @@
 ---
-description: Проверяет сетевое подключение виртуальной машины в среде виртуализации сети Windows.
+description: проверяет сетевое подключение виртуальной машины в среде Windows виртуализации сети.
 ms.assetid: 37d4c34d-406e-4c52-afce-b0eef754eeb3
 title: Метод Тестнетворкконнектион класса Msvm_VirtualSystemManagementService
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: e8f15faacb1b8ad683b1ea9abfa9b91f5c376dab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 66988944b6c4f4a97a450f63964d57084fc5886716d109e655921d8744bba721
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104143876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119388383"
 ---
 # <a name="testnetworkconnection-method-of-the-msvm_virtualsystemmanagementservice-class"></a>Метод Тестнетворкконнектион \_ класса Виртуалсистемманажементсервице мсвм
 
-Проверяет сетевое подключение виртуальной машины в среде виртуализации сети Windows.
+проверяет сетевое подключение виртуальной машины в среде Windows виртуализации сети.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -143,13 +143,13 @@ Mac-адрес отправителя.
 **Зависит от поставщика** (32768.65 535)
 </dt> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
+| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
 | Минимальная версия сервера<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |

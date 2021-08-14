@@ -3,7 +3,7 @@ title: Код уведомления EN_OBJECTPOSITIONS (RichEdit. h)
 description: Сообщает родительскому окну элемента управления Rich Edit, когда элемент управления считывает объекты. Форматированный элемент управления "поле ввода" отправляет этот код уведомления в виде \_ сообщения WM notify.
 ms.assetid: 1965185f-8a13-4989-8574-af8b9b30f6b0
 keywords:
-- EN_OBJECTPOSITIONS кода уведомления элементы управления Windows
+- EN_OBJECTPOSITIONS кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 35681f6734457eb6b6ebcac1bcb67227cbd3b9e9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f3be6f3f41877a56396ef021e97130f4c174516160d7243144f10ea1dfd3951b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119436694"
 ---
 # <a name="en_objectpositions-notification-code"></a>\_Код уведомления EN обжектпоситионс
 
@@ -51,18 +51,18 @@ EN_OBJECTPOSITIONS
 
 Для завершения операции **чтения** возвращается ненулевое значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы получить \_ код уведомления EN обжектпоситионс, укажите флаг [**енм \_ обжектпоситионс**](rich-edit-control-event-mask-flags.md) в маске, отправляемой с сообщением [**EM \_ SETEVENTMASK**](em-seteventmask.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 
@@ -71,7 +71,7 @@ EN_OBJECTPOSITIONS
 
 <dl> <dt>
 
-**Ссылки**
+**Ссылка**
 </dt> <dt>
 
 [**EM \_ SETEVENTMASK**](em-seteventmask.md)

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f9c800e8d8c6f78386139f822f118163f3b431f5
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 27fe6985a4dfb4e77f1052b421a6c46c617395f46b4484f046b33919a935613f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103793296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119276514"
 ---
 # <a name="step"></a>Шаг
 
@@ -50,7 +50,7 @@ ms.locfileid: "103793296"
 
 1, если параметр *x* больше или равен значению параметра *y* ; в противном случае — значение 0.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта функция использует следующую формулу: (*x*  >=  *y*)? 1:0. Функция возвращает значение 0 или 1 в зависимости от того, превышает ли параметр *x* значение параметра *y* . Чтобы вычислить гладкую интерполяцию между 0 и 1, используйте встроенную функцию [**смусстеп**](dx-graphics-hlsl-smoothstep.md) HLSL.
 
@@ -60,9 +60,9 @@ ms.locfileid: "103793296"
 
 | Имя  | [**Тип шаблона**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**Тип компонента**](dx-graphics-hlsl-intrinsic-functions.md) | Размер                           |
 |-------|----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|--------------------------------|
-| *y*   | [**Скалярная**](dx-graphics-hlsl-intrinsic-functions.md), **векторная** или **Матрица** | [**float**](/windows/desktop/WinProg/windows-data-types)                        | any                            |
-| *x*   | то же, что входные данные *y*                                                                                              | [**float**](/windows/desktop/WinProg/windows-data-types)                        | те же измерения, что и входные данные *y* |
-| *обратно* | то же, что входные данные *y*                                                                                              | [**float**](/windows/desktop/WinProg/windows-data-types)                        | те же измерения, что и входные данные *y* |
+| *y*   | [**Скалярная**](dx-graphics-hlsl-intrinsic-functions.md), **векторная** или **Матрица** | [**FLOAT**](/windows/desktop/WinProg/windows-data-types)                        | any                            |
+| *x*   | то же, что входные данные *y*                                                                                              | [**FLOAT**](/windows/desktop/WinProg/windows-data-types)                        | те же измерения, что и входные данные *y* |
+| *обратно* | то же, что входные данные *y*                                                                                              | [**FLOAT**](/windows/desktop/WinProg/windows-data-types)                        | те же измерения, что и входные данные *y* |
 
 
 
@@ -76,7 +76,7 @@ ms.locfileid: "103793296"
 
 | Модель шейдера                                                                       | Поддерживается                   |
 |------------------------------------------------------------------------------------|-----------------------------|
-| [Модели шейдеров 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) и более поздние модели шейдеров | да                         |
+| [Модели шейдеров 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) и более поздние модели шейдеров | Да                         |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md)                          | Да (VS \_ 1 \_ 1 и PS \_ 1 \_ 4) |
 
 

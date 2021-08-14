@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e52e5dafe5f0453861ddcddadf9f7115d17ee404
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 96997b7a29d4a7ca0ad586263bfe7846142963f7ba60e4bdf01a3991e3cfcbff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108086042"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119751694"
 ---
 # <a name="takeownership-method-of-the-win32_codecfile-class"></a>Метод Такеовнершип \_ класса Win32 кодекфиле
 
@@ -91,7 +91,7 @@ uint32 TakeOwnerShip();
 **12**
 </dt> <dd>
 
-Платформа не является Windows.
+Платформа не Windows.
 
 </dd> <dt>
 
@@ -137,7 +137,7 @@ uint32 TakeOwnerShip();
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -151,7 +151,7 @@ uint32 TakeOwnerShip();
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

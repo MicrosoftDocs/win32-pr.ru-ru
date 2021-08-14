@@ -4,12 +4,12 @@ description: Использование сопоставления тексту�
 ms.assetid: 77AF4BFA-09B5-4181-9408-002764F2A923
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f203c7590c3673d30315250b2b4ce2663e48c9c3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: edc81fc1bf59a974f9bd901fc96d43afc16019edce68fbaabfbf3259c0d4a3b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410958"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119752294"
 ---
 # <a name="default-texture-mapping"></a>Сопоставление текстур по умолчанию
 
@@ -17,7 +17,7 @@ ms.locfileid: "104410958"
 
 -   [Обзор](#overview)
 -   [API-интерфейсы D3D 11.3](#d3d113-apis)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="overview"></a>Обзор
 
@@ -63,16 +63,16 @@ D3D 11.3 (и D3D12) представляют собой стандартный �
 -   [**ID3D11Texture2D1:: GetDesc1**](/windows/desktop/api/D3D11_3/nf-d3d11_3-id3d11texture2d1-getdesc1) : получает свойства ресурса двухмерной текстуры.
 -   [**ID3D11Texture3D1:: GetDesc1**](/windows/desktop/api/D3D11_3/nf-d3d11_3-id3d11texture3d1-getdesc1) : получает свойства ресурса трехмерной текстуры.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Функции Direct3D 11,3](direct3d-11-3-features.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

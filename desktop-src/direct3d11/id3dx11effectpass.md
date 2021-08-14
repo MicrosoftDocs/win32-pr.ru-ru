@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a26732543d1033cfc439755df6ac397d2a28ec1b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 33b24fe0154e447cd993e8e7e939a9a023ed37183a56980dab8f5d803a0ea41e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273912"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119045982"
 ---
 # <a name="id3dx11effectpass-interface"></a>Интерфейс ID3DX11EffectPass
 
@@ -56,7 +56,7 @@ ms.locfileid: "104273912"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Проход — это блок кода, который задает объекты состояния рендеринга и шейдеры. В методе объявляется проход.
 
@@ -67,13 +67,13 @@ ms.locfileid: "104273912"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
+| Заголовок<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
 | Библиотека<br/> | <dl> <dt>Н/д (библиотека Effects 11 доступна в сети в качестве общего источника.)</dt> </dl> |
 
 

@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f8c7b073ca9be90e89a1c6b99c010707e6405323
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 63e913e68a3aea8f220c713b07becdeecb785a619b73a833bb6a0e9c3c1d37a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104274003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118979024"
 ---
 # <a name="jetgettablecolumninfo-function"></a>Функция Жетжеттаблеколумнинфо
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jetgettablecolumninfo-function"></a>Функция Жетжеттаблеколумнинфо
 
@@ -122,25 +122,25 @@ JET_ERR JET_API JetGetTableColumnInfo(
 <tr class="even">
 <td><p>JET_ColInfoBaseByColId</p></td>
 <td><p>То же, что и JET_ColInfoBase, <em>пвресулт</em> интерпретируется как <a href="gg269194(v=exchg.10).md">JET_COLUMNBASE</a>, за исключением того, что этот <em>инфолевел</em> указывает, что запрашиваемый столбец (<em>сзколумнаме</em>) не является строковым именем столбца, а указатель на <a href="gg294104(v=exchg.10).md">JET_COLUMNID</a>.</p>
-<p><strong>Windows Vista:  </strong> Он доступен в Windows Vista и более поздних версиях.</p></td>
+<p><strong>Windows Vista:</strong> он доступен в Windows Vista и более поздних версиях.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_ColInfoGrbitNonDerivedColumnsOnly</p></td>
 <td><p>Возвращать только столбцы, не являющиеся производными (если таблица является производной от шаблона).</p>
 <p>Это значение может быть логически или в <em>инфолевел</em>, когда базовый <em>инфолевел</em> JET_ColInfoList.</p>
-<p><strong>Windows Vista:  </strong> Это значение представлено в Windows Vista.</p></td>
+<p><strong>Windows Vista:</strong> это значение вводится в Windows Vista.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_ColInfoGrbitMinimalInfo</p></td>
 <td><p>Возвращать только имя столбца и значение columnid для каждого столбца.</p>
 <p>Это значение может быть логически или в <em>инфолевел</em>, когда базовый <em>инфолевел</em> JET_ColInfoList.</p>
-<p><strong>Windows Vista:  </strong> Это значение представлено в Windows Vista.</p></td>
+<p><strong>Windows Vista:</strong> это значение вводится в Windows Vista.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_ColInfoGrbitSortByColumnid</p></td>
 <td><p>Сортировать возвращенный список столбцов по columnid (по умолчанию сортировка списка по имени столбца).</p>
 <p>Это значение может быть логически или в <em>инфолевел</em>, когда базовый <em>инфолевел</em> JET_ColInfoList.</p>
-<p><strong>Windows Vista:  </strong> Это значение представлено в Windows Vista.</p></td>
+<p><strong>Windows Vista:</strong> это значение вводится в Windows Vista.</p></td>
 </tr>
 </tbody>
 </table>
@@ -148,7 +148,7 @@ JET_ERR JET_API JetGetTableColumnInfo(
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. Дополнительные сведения о возможных ошибках ESE см. в разделе [ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -195,7 +195,7 @@ JET_ERR JET_API JetGetTableColumnInfo(
 </table>
 
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 **Жетжеттаблеколумнинфо** и [жетжетколумнинфо](./jetgetcolumninfo-function.md) извлекают сведения о столбце. Различие между ними заключается в том, как определяется таблица:
 
@@ -205,7 +205,7 @@ JET_ERR JET_API JetGetTableColumnInfo(
 
 При получении данных с помощью JET_ColInfoList, JET_ColInfoListSortColumnid или JET_ColInfoListCompact будет открыта временная таблица. Временная таблица содержит данные, а структура [JET_COLUMNLIST](./jet-columnlist-structure.md) содержит достаточно сведений для прохода по временной таблице. Временная таблица должна быть закрыта с помощью [жетклосетабле](./jetclosetable-function.md).
 
-#### <a name="requirements"></a>Требования
+#### <a name="requirements"></a>Requirements (Требования)
 
 <table>
 <colgroup>
@@ -215,11 +215,11 @@ JET_ERR JET_API JetGetTableColumnInfo(
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
+<td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
+<td><p><strong>Сервер</strong></p></td>
+<td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>
@@ -241,9 +241,9 @@ JET_ERR JET_API JetGetTableColumnInfo(
 </table>
 
 
-#### <a name="see-also"></a>См. также:
+#### <a name="see-also"></a>См. также
 
-[Ошибки расширяемого подсистемы хранилища](./extensible-storage-engine-errors.md)  
+[ошибки расширенного обработчика служба хранилища](./extensible-storage-engine-errors.md)  
 [Параметры обработки ошибок](./error-handling-parameters.md)  
 [JET_COLUMNBASE](./jet-columnbase-structure.md)  
 [JET_COLUMNDEF](./jet-columndef-structure.md)  

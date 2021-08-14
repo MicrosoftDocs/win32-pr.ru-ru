@@ -3,7 +3,7 @@ title: Функция Мпупдатестарт (Мпклиент. h)
 description: Запускает операцию обновления сигнатур.
 ms.assetid: BB056356-17E5-42F0-9636-9E1C254361E4
 keywords:
-- Функции Мпупдатестарт устаревшие функции среды Windows
+- функции мпупдатестарт устаревших функций среды Windows
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 39867525529339c6b354ae771b070589ca52acfa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a61cda213ecfbb23c9ef366fcce7b5c91e806f26f0f4ebe8b45dc596b63d1b5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104492627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975894"
 ---
 # <a name="mpupdatestart-function"></a>Функция Мпупдатестарт
 
@@ -125,14 +125,14 @@ HRESULT WINAPI MpUpdateStart(
 
 Если функция завершается ошибкой, возвращаемое значение является неудачным кодом **HRESULT** . Вызывающий объект может использовать функцию [**мперрормессажеформат**](mperrormessageformat.md) для получения общего описания сообщения об ошибке.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MpClient.dll</dt> </dl> |
 

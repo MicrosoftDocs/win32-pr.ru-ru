@@ -4,12 +4,12 @@ ms.assetid: 550619be-2042-4a2c-9ad2-728474835255
 title: Атрибут MFSampleExtension_SingleField (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 217d7c43a9777982485ba350d259a59a518e26c1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 747dbeebb9bcc8e773b59467f460b12645ed50ebfbddf5bbf6845119c2bba81d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104543927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119462904"
 ---
 # <a name="mfsampleextension_singlefield-attribute"></a>Мфсампликстенсион \_ синглефиелд, атрибут
 
@@ -29,7 +29,7 @@ ms.locfileid: "104543927"
 
 [**имфсампле**](/windows/desktop/api/mfobjects/nn-mfobjects-imfsample)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если значение равно **true**, пример содержит одно поле. Если значение равно **false** или атрибут не задан, пример содержит полный кадр. (Два поля при чередовании или прогрессивный фрейм.)
 
@@ -41,14 +41,14 @@ ms.locfileid: "104543927"
 
 Константа GUID для этого атрибута экспортируется из мфууид. lib.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows Vista \|\]<br/>                              |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 \|\]<br/>                        |
+| Минимальная версия клиента<br/> | Windows \[Приложения UWP для классических приложений Vista \|\]<br/>                              |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для классических приложений сервера 2008 \|\]<br/>                        |
 | Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 

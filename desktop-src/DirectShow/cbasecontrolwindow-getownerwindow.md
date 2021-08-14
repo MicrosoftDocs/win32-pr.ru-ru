@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 4e4d3811f85abd68bcd7d625dce0e9e8963be39a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0cdb3073d1dd8055986b905d6e8f50967a304e5f294b0ffcaeddcd50d8c0ee33
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119432514"
 ---
 # <a name="cbasecontrolwindowgetownerwindow-method"></a>Кбасеконтролвиндов. Жетовнервиндов, метод
 
@@ -44,17 +44,17 @@ HWND GetOwnerWindow();
 
 Возвращает окно владельца.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Извлекает окно-владелец без вызова метода интерфейса. Используйте эту функцию-член вместо [**кбасеконтролвиндов:: Get \_ owner**](cbasecontrolwindow-get-owner.md), если только вы не вызываете ее извне с помощью метода [**ивидеовиндов:: Get \_ owner**](/windows/desktop/api/Control/nf-control-ivideowindow-get_owner) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ктлутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>ктлутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 8f802652-b2bf-45cf-8186-1ac31eef1fe1
 title: Строки дескрипторов безопасности
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8bb875bee4d35267b578193ca7cd08420722400a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: edbefeb87a7fca30f0c33d6f180315df5e5d576dc018e69dc680391050a840d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104154747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119413794"
 ---
 # <a name="security-descriptor-strings"></a>Строки дескрипторов безопасности
 

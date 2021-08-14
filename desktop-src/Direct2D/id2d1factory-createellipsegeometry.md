@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: ca991732b9a80fd93e3df3c2b72493f5195ea0a0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 85026ad8459fdb2e7ef89c1d1a6b339d8e252188e27957e8848aaf02247d2694
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119259123"
 ---
 # <a name="id2d1factorycreateellipsegeometry-methods"></a>Методы ID2D1Factory:: Креатиллипсежеометри
 
@@ -204,13 +204,13 @@ HRESULT DemoApp::CreateGeometryResources()
 
 ![Иллюстрация двух эллипсов в сочетании с четырьмя режимами объединения геометрических объектов (Union, INTERSECT, XOR и Exclude)](images/combine-modes.png)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D2d1. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>D2d1. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>D2d1. lib</dt> </dl> |
 | DLL<br/>     | <dl> <dt>D2d1.dll</dt> </dl> |
 

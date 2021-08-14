@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Scrdenrl.dll
-ms.openlocfilehash: 86a78f03929bc6cdcfc7b611944b81c59a1c9fc9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cbbccf895d06106990007584e0eb1946d74b2c092a4c27c8b7a9e279b93f7e36
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103912827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119409674"
 ---
 # <a name="iscrdenrgetcerttemplatecount-method"></a>Метод Искрденр:: Жетцерттемплатекаунт
 
@@ -78,14 +78,14 @@ SCrdEnr.getCertTemplateCount( _
 
 Значение **типа Long** , представляющее количество шаблонов сертификатов.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Ни одна версия не поддерживается<br/>                                                               |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>Scrdenrl.dll</dt> </dl> |
 | IID<br/>                      | IID \_ искрденр определен как 753988a1-1357-436d-9cf5-f089bdd67d64<br/>             |
 
