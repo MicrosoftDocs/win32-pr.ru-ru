@@ -1,15 +1,15 @@
 ---
 title: Создание частного пула датчиков
-description: Как использовать API биометрическая платформа Windows для создания частного пула датчиков.
+description: как использовать API биометрическая платформа Windows для создания частного пула датчиков.
 ms.assetid: 79944E30-A3D4-411D-A551-3B309DEA6FEA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8eda88f8a9bd0befcbf5527e52d572ec7ca55ce2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fda192ddfbb97599b1f3f58095fa75cba17e0497ac2b6e46efb56e0559997316
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104411247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119993834"
 ---
 # <a name="creating-a-private-sensor-pool"></a>Создание частного пула датчиков
 
@@ -28,7 +28,7 @@ ms.locfileid: "104411247"
 | [Удостоверение частного пула](private-pool-identity.md)<br/>                 | Содержит проект консоли идентификации.<br/>                                              |
 | [Регистрация частного пула](private-pool-enrollment.md)<br/>             | Содержит проект консоли регистрации.<br/>                                                  |
 | [Вспомогательные функции частного пула](private-pool-helper-functions.md)<br/> | Содержит вспомогательные функции для проектов консоли установки, идентификации и регистрации.<br/> |
-| [Создание клиентских приложений](creating-client-applications.md)<br/>     | Использование API биометрическая платформа Windows для создания клиентских приложений.<br/>             |
+| [Создание клиентских приложений](creating-client-applications.md)<br/>     | использование API биометрическая платформа Windows для создания клиентских приложений.<br/>             |
 
 
 

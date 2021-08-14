@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a228ca879bd9785ecd6e96ddaa66354cfc6e019c
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 4aec36b0096aaf95414cfaa6be292ed5408f64911afbcace5ebbc1af257054a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103783732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118385278"
 ---
 # <a name="win32-switch"></a>/Win32, параметр
 
@@ -31,7 +31,7 @@ midl /win32
 
 Этот параметр не имеет параметров.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Параметр **/Win32** эквивалентен установке параметра [**/env**](-env.md) в значение Win32.
 
@@ -45,9 +45,9 @@ midl /win32
 [**/win64**](-win64.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

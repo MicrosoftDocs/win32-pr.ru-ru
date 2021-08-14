@@ -4,12 +4,12 @@ ms.assetid: cc871d84-fad0-4b18-b9ad-6f3b24b0b751
 title: System. photo. Фокалпланэйресолутионденоминатор
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 916c6e12a7e16c13410c777b740148c4bf503537
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 72b876fe0a4618b07923642206cb09699fc99f14a61d71961df343c40c515d4e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103813401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118229088"
 ---
 # <a name="systemphotofocalplaneyresolutiondenominator"></a>System. photo. Фокалпланэйресолутионденоминатор
 
@@ -30,11 +30,11 @@ propertyDescription
       type = UInt32
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

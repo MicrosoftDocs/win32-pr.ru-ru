@@ -3,7 +3,7 @@ title: Выявление выходных номеров
 description: Выявление выходных номеров
 ms.assetid: a2135a71-52e6-4f62-8be8-b9886be9b37c
 keywords:
-- Windows Media Format SDK, идентифицирующие выходные номера
+- Windows Пакет SDK для формата мультимедиа, идентифицирующие выходные номера
 - Расширенный системный формат (ASF), идентифицирующие выходные номера
 - ASF (Расширенный системный формат), определение выходных номеров
 - Расширенный формат систем (ASF), выходные номера и форматы
@@ -11,12 +11,12 @@ keywords:
 - выходные числа и форматы, определение
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c08f8e9a49d672efe7c04ecdde11ca4ef297d552
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: c601481520632806ac56e12e16e1474336897d1be341c9d19df8e235d6355ab1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "105710233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118699384"
 ---
 # <a name="to-identify-output-numbers"></a>Выявление выходных номеров
 
@@ -33,11 +33,11 @@ ms.locfileid: "105710233"
 
 Синхронное средство чтения также предоставляет методы для получения связей между выходными числами и номерами потоков. Дополнительные сведения см. [в разделе Поиск номеров потоков и выходных номеров](to-find-stream-numbers-and-output-numbers.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[**Входы, потоки и выходные данные**](inputs-streams-and-outputs.md)
+[**входные данные, Потоки и выходные данные**](inputs-streams-and-outputs.md)
 </dt> <dt>
 
 [**Интерфейс Ивммедиапропс**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops)
@@ -55,9 +55,9 @@ ms.locfileid: "105710233"
 [**Работа с выходами**](working-with-outputs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

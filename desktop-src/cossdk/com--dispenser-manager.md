@@ -4,12 +4,12 @@ ms.assetid: c8986943-56a1-4668-9e80-7ab2a42333a8
 title: Диспетчер распределителя COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2422b7debb8ee12ed97444f3b16f31e663e1e71
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ec090ba8c6324363c80a00685e4bc9cfa11185fa1b95ad5db3575608c9fe60ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104538837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119991694"
 ---
 # <a name="com-dispenser-manager"></a>Диспетчер распределителя COM+
 
@@ -36,7 +36,7 @@ ms.locfileid: "104538837"
 -   Владелец может уведомить распределитель ресурсов о том, что приложению больше не требуется ресурс, а затем вернуть его в пул ресурсов.
 -   Владелец и распределитель ресурсов работают вместе для поддержания размера пула ресурсов.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

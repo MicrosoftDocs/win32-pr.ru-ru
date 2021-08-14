@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f5876a3fe0b33f96a5e10a9c712bdcadcbfca10
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0c7a73ca80eb342b9a23fcaa4b922afe8d19f00e1f22ab82f8c6027ecc43d76d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136363"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118925971"
 ---
 # <a name="rpctryexcept"></a>рпктрексцепт
 
@@ -27,9 +27,9 @@ ms.locfileid: "104136363"
 
 Дополнительные сведения см. в разделе [**рпцексцепт**](/windows/desktop/api/Rpc/nf-rpc-rpcexcept).
 
-**Windows Vista и более поздние версии Windows:**  [**рпцексцептионфилтер**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcexceptionfilter) рекомендуется для структурированной обработки исключений наиболее распространенных исключений в качестве альтернативы настраиваемым фильтрам с помощью [**рпцексцепт**](/windows/desktop/api/Rpc/nf-rpc-rpcexcept).
+**Windows Vista и более поздних версий Windows:**[**рпцексцептионфилтер**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcexceptionfilter) рекомендуется для структурированной обработки исключений наиболее распространенных исключений в качестве альтернативы настраиваемым фильтрам с помощью [**рпцексцепт**](/windows/desktop/api/Rpc/nf-rpc-rpcexcept).  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

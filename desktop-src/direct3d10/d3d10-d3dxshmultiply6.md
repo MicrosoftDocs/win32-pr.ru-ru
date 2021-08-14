@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 0768bb8be1f2f23693a431a2c0ea8f3d5a6846d2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b442d6d8c64d7c1ef0b202bd2cfa5d6d625280eb7320609a11ea89420c2bc215
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105647867"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119990004"
 ---
 # <a name="d3dxshmultiply6-function"></a>Функция D3DXSHMultiply6
 
@@ -75,7 +75,7 @@ FLOAT* D3DXSHMultiply6(
 
 Указатель на коэффициенты вывода SH.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Произведение двух функций SH в заказе N = 6 создает функцию SH в заказе 2 × *N* -1 = 11, но результаты усекаются. Это означает, что продукт работает ( *f* × *g*  =  *g* x *f* ), но не связан ( *f* × ( *g* x *h* ) ≠ ( *f* × *g* ) × *h* ).
 
@@ -97,13 +97,13 @@ sum_i(y_i(s)*c_i)
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX10Math. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX10Math. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3DX10. lib</dt> </dl>   |
 
 

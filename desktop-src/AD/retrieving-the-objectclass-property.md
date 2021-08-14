@@ -5,12 +5,12 @@ ms.assetid: 6066d9c3-f97b-482a-88c7-0fde1dc2f4c4
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f237efff1e13c7f3498a51f38588c9885fbab76
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f2c4ae206298937839a965eca787b0d56b0021cff32c7d89b06865bb27855a5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103773100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118184145"
 ---
 # <a name="retrieving-the-objectclass-attribute"></a>Получение атрибута objectClass
 
@@ -62,9 +62,9 @@ HRESULT GetClass(ADS_SEARCH_COLUMN *pcol, LPOLESTR *ppClass)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: Сообщение SB_GETUNICODEFORMAT (Коммктрл. h)
 description: SB_GETUNICODEFORMAT сообщение — получает флаг формата символов Юникода для элемента управления.
 ms.assetid: 0b2b543a-b1ef-452c-9b34-c5fbbac4aaa9
 keywords:
-- Элементы управления Windows для SB_GETUNICODEFORMAT сообщений
+- элементы управления Windows сообщений SB_GETUNICODEFORMAT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 857af43911a01ffc58b1a878be6e1875a44c76cb
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1ba6a00725b5c161e6b2a85aae9e21436e4826619b0336ffedf7eaa307c285ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108085902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118409174"
 ---
 # <a name="sb_getunicodeformat-message"></a>\_Сообщение SB жетуникодеформат
 
@@ -43,19 +43,19 @@ ms.locfileid: "108085902"
 
 Обсуждение этого сообщения см. в примечаниях по [**CCM \_ жетуникодеформат**](ccm-getunicodeformat.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

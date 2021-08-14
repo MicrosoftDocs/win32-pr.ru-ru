@@ -1,18 +1,18 @@
 ---
-title: Глоссарий Windows Touch
-description: В этом разделе приводятся определения терминов, используемых Windows Touch.
+title: Windows Глоссарий касаний
+description: в этом разделе приводятся определения терминов, используемых Windows сенсорного ввода.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 25341532-c431-41a5-ad16-c88e31fd60b1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ebc0c4b426bf43bf011b2011dc987753ec2fe542
-ms.sourcegitcommit: 622d149edf775af5a9633c2d12ccfddf7000b8fd
+ms.openlocfilehash: d23ef834622dc4c0925a1dd315c3394ec9a5a27c6f471297fe640c777db114f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "104069656"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118435979"
 ---
-# <a name="windows-touch-glossary"></a>Глоссарий Windows Touch
+# <a name="windows-touch-glossary"></a>Windows Глоссарий касаний
 
 <dl> <dt>
 

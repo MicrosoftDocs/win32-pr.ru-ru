@@ -1,5 +1,5 @@
 ---
-description: Портативные устройства Windows поддерживают следующие свойства контактов.
+description: Windows Портативные устройства поддерживают следующие свойства контактов.
 ms.assetid: 8571b5a3-c3ac-40f2-86e1-33a8d5d0e550
 title: Свойства контакта (Портабледевице. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 27f96763139cfc3c6f582c93c3d9ad2c36a3f969
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e60d01816e5054ffe6af924464f47eeee297f211e8ea82cf6aaa05089edf23a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105717941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118697630"
 ---
 # <a name="contact-properties"></a>Свойства контакта
 
-Портативные устройства Windows поддерживают следующие свойства контактов.
+Windows Портативные устройства поддерживают следующие свойства контактов.
 
 
 
@@ -95,13 +95,13 @@ ms.locfileid: "105717941"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Портабледевице. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Портабледевице. h</dt> </dl> |
 
 
 

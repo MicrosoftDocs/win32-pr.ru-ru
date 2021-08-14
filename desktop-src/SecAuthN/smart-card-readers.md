@@ -4,12 +4,12 @@ ms.assetid: 694902b9-e43c-4558-8fab-baa853f9fc4d
 title: Устройства чтения смарт-карт
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b6f4f5c4d1d487f136fb25052d44659f4b073bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 335aabe1d815e9b6d41ccfd820242209da63134797595d8a1c85f009f8551b7e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105651047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118917753"
 ---
 # <a name="smart-card-readers"></a>Устройства чтения смарт-карт
 

@@ -5,16 +5,16 @@ ms.assetid: c05c7f69-d510-4feb-b426-1ae3a3ed5e16
 ms.tgt_platform: multiple
 keywords:
 - Пример кода для поиска службы с помощью РНР запроса AD
-- Регистрация и разрешение Windows Sockets AD, пример кода, поиск службы с помощью запроса РНР
+- Windows Регистрация и разрешение имен сокетов, пример кода, поиск службы с помощью запроса РНР
 - Поиск службы с помощью РНР запроса AD, пример кода
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee1202c981de8b4f1e0bd4f4299b1aabf1be520d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 076bf1cbd2c421c9d76b595a381f2884a398c0db42002e9deedfdd2e5084095d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103773223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118191382"
 ---
 # <a name="example-code-for-locating-a-service-using-an-rnr-query"></a>Пример кода для поиска службы с помощью запроса РНР
 
@@ -97,9 +97,9 @@ int main(void)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

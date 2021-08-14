@@ -15,16 +15,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 409c2a7d93503aad4edff88070c0458efc961d23
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 16b5ea4da5b004bb4584eb119419b8c89658f36fed7e8c47514bae47d44e31b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118430006"
 ---
 # <a name="dsbackupread-function"></a>Функция Дсбаккупреад
 
-\[Эта функция доступна для использования в операционных системах, указанных в разделе требования. В последующих версиях он может быть изменен или недоступен. Начиная с Windows Vista, вместо нее следует использовать [Служба теневого копирования томов (VSS)](../vss/volume-shadow-copy-service-overview.md) .\]
+\[Эта функция доступна для использования в операционных системах, указанных в разделе требования. В последующих версиях он может быть изменен или недоступен. начиная с Windows Vista используйте вместо этого [служба теневого копирования томов (VSS)](../vss/volume-shadow-copy-service-overview.md) .\]
 
 Функция **дсбаккупреад** считывает блок данных из текущего открытого файла в буфер. Клиентское приложение должно вызывать эту функцию несколько раз, пока не будет получен весь файл резервной копии. Функция [**дсбаккупопенфиле**](dsbackupopenfile.md) предоставляет весь размер файла резервной копии.
 
@@ -94,7 +94,7 @@ HRESULT DsBackupRead(
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

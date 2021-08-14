@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 81ccdc6621f473986a572eddc9fed4c6e04d2bc4
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 5ea86b20869d99e6b9c038c1b129c502497350fc2d214c06f4ad3eb2a887f83c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103893489"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118425820"
 ---
 # <a name="ms-ds-port-ldap-attribute"></a>Атрибут ms-DS-Port-LDAP
 
@@ -53,7 +53,7 @@ ms.locfileid: "103893489"
 | Идентификатор ссылки                | \-                                       |
 | MAPI-Id                | \-                                       |
 | System-Only            | Неверно                                    |
-| Является однозначным       | True                                     |
+| Является однозначным       | Верно                                     |
 | Индексируется             | Неверно                                    |
 | В глобальном каталоге      | Неверно                                    |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                             |

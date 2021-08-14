@@ -6,12 +6,12 @@ keywords:
 - Функции ВГЛ, buffer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 66a93858b8085171a9139bc5ab329e531ddbb699
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 96b03a12cd07b76d1329f51cc982508c707e011701b072a42b099df05327842d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105674519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118618603"
 ---
 # <a name="buffer-functions"></a>Функции буфера
 

@@ -36,12 +36,12 @@ api_name:
 targetos: Windows
 req.typenames: ''
 req.redist: ''
-ms.openlocfilehash: fc0065c3964718d690149693f3c71ec4e9f676ec
-ms.sourcegitcommit: 382c7259008374408368c173e0027fb641c848fe
+ms.openlocfilehash: 6c2a66a318076588b725f74e9f03a23b8a134595b196dbf140850e72a7d78d8f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "104336620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118921863"
 ---
 # <a name="lsamanagesidnamemapping-function"></a>Функция Лсаманажесиднамемаппинг
 
@@ -86,6 +86,6 @@ void WINAPI LsaManageSidNameMapping(
 Если сопоставление успешно вставлено, возвращаемое значение будет STATUS_SUCCESS.
 В противном случае, если функция завершилась ошибкой из-за конфликта SID или имени, будет возвращена STATUS_INVALID_PARAMETER ошибка.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 ## <a name="see-also"></a>См. также раздел

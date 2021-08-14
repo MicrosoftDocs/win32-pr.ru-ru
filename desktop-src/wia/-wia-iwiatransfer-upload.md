@@ -1,7 +1,7 @@
 ---
 description: Инициирует отправку данных одного элемента от вызывающего.
 ms.assetid: 301ac5d9-b864-4c3c-bd4b-143cc4032dcb
-title: 'Метод Ивиатрансфер:: upload (WIA. h)'
+title: 'метод ивиатрансфер:: Upload (Wia. h)'
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -14,14 +14,14 @@ api_type:
 api_location:
 - Wiaguid.lib
 - Wiaguid.dll
-ms.openlocfilehash: 6aae6ca8f86d07ec052fdd59d24b0da2b96599d7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 66bd542d27f29aa8fd531b6f3d8089d296efe2d963bcf967a0c1ab07e6f0db8c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118208242"
 ---
-# <a name="iwiatransferupload-method"></a>Метод Ивиатрансфер:: upload
+# <a name="iwiatransferupload-method"></a>метод ивиатрансфер:: Upload
 
 Инициирует отправку данных одного элемента от вызывающего.
 
@@ -54,18 +54,18 @@ HRESULT Upload(
 *псаурце* \[ окне\]
 </dt> <dd>
 
-Тип: **[IStream](/windows/win32/api/objidl/nn-objidl-istream) \** _
+Тип: **[IStream](/windows/win32/api/objidl/nn-objidl-istream)\***
 
 Указывает указатель на данные [IStream](/windows/win32/api/objidl/nn-objidl-istream) .
 
 </dd> <dt>
 
-_pIWiaTransferCallback * \[ в\]
+*пивиатрансферкаллбакк* \[ окне\]
 </dt> <dd>
 
-Тип: **[**ивиатрансферкаллбакк**](-wia-iwiatransfercallback.md) \** _
+Тип: **[ **ивиатрансферкаллбакк**](-wia-iwiatransfercallback.md)\***
 
-Указывает указатель на интерфейс [_ *ивиатрансферкаллбакк* *](-wia-iwiatransfercallback.md) вызывающего объекта.
+Указывает указатель на интерфейс [**ивиатрансферкаллбакк**](-wia-iwiatransfercallback.md) вызывающего объекта.
 
 </dd> </dl>
 
@@ -75,14 +75,14 @@ _pIWiaTransferCallback * \[ в\]
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                         |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                   |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                         |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                   |
 | Header<br/>                   | <dl> <dt>WIA. h</dt> </dl>       |
 | IDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl>     |
 | Библиотека<br/>                  | <dl> <dt>Виагуид. lib</dt> </dl> |

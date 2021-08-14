@@ -7,12 +7,12 @@ keywords:
 - Перечисление групп в доменных службах Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3586b8c6d261c769cabe56def2aa9396a58fa3a5
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 3723122ef2ab70a7396b2b2821c96a20b4d92419c1e10d1c00b11ff903cb6719
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103789571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118429850"
 ---
 # <a name="enumerating-groups-in-a-domain"></a>Перечисление групп в домене
 
@@ -37,12 +37,12 @@ ms.locfileid: "103789571"
     > [!Note]  
     > Вы можете выполнить поиск с помощью предпочтения поиска **\_ области объявлений \_ одноуровневой** , чтобы ограничить поиск прямым содержимым объекта контейнера, к которому вы привязаны.
 
-     
+     
 
     [**IDirectorySearch**](/windows/desktop/api/iads/nn-iads-idirectorysearch) извлекает только значения конкретных свойств из групп. Чтобы получить значения, используйте **IDirectorySearch**. Для управления объектами Group, возвращаемыми из поиска, то есть для использования методов [**iAds**](/windows/desktop/api/iads/nn-iads-iads) или [**иадсграуп**](/windows/desktop/api/iads/nn-iads-iadsgroup) , следует явно привязать к ним. Для этого укажите **distinguishedName** в качестве одного из свойств, возвращаемых при поиске, и используйте возвращенные различающиеся имена для привязки к каждой группе, возвращаемой при поиске.
 
     Извлекаются только определенные свойства. Невозможно получить все атрибуты без явного указания всех возможных атрибутов класса Group.
 
- 
+ 
 
- 
+ 

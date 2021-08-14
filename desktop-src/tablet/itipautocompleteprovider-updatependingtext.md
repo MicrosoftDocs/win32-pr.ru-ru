@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - tiptsf.dll
-ms.openlocfilehash: 5c66e625639aa7088b1b3934a2f984d0f4097536
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 99fc67b5ba6495e2bdfb8a54de2412ca01cbdd37475d08d20d227b203f2da1bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118716434"
 ---
 # <a name="itipautocompleteproviderupdatependingtext-method"></a>Метод Итипаутокомплетепровидер:: Упдатепендингтекст
 
@@ -61,17 +61,17 @@ HRESULT UpdatePendingText(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот текст не будет содержать текст, уже вставленный в поле "поля ввода". Поставщик автозаполнения отвечает за принятие счета за текущий текст поля и выбор для создания списка автозавершения. Если *бстрпендингтекст* имеет **значение NULL**, то список автоматических завершений создается с текущим текстом слева от выделенного поля.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/>                                                                   |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/>                                                                   |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                                                       |
 | Header<br/>                   | <dl> <dt>Типаутокомплете. h (также требуется Пенинпутпанел \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Tiptsf.dll</dt> </dl>                                           |

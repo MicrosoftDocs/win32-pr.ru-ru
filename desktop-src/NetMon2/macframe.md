@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: a7901daf467a63586543c52ca8a214d5d0094982
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dcff7294d2800e797b43b3a05bd25c35418c6fb466c95130b97be73f25040d3a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662450"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118364712"
 ---
 # <a name="macframe-union"></a>Объединение МАКФРАМЕ
 
@@ -70,11 +70,11 @@ FDDI-указатель на кадр.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта структура чаще всего используется в качестве наложения. Чтобы сделать свойства первого протокола доступными, приведите кадр к тому же типу, что и для протокола.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

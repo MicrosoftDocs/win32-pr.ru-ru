@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Wxdebug.h
-ms.openlocfilehash: 5db5e78d198cc9f66aa5de6fdb0160e325b82591
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 871a8e4a04ec1dc31f3240b539a943c9c1733f083166fa4b7e6f6b52d14a466c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118401800"
 ---
 # <a name="execute_assert-macro"></a>ВЫПОЛНИТЬ \_ макрос assert
 
@@ -50,17 +50,17 @@ void EXECUTE_ASSERT(
 
 Этот макрос не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В отличие от макроса [**Assert**](assert.md) , этот макрос вычисляет выражение в розничных сборках. Если в отладочных сборках выражение имеет **значение false**, макрос отображает окно сообщения с текстом выражения, именем исходного файла и номером строки. Пользователь может игнорировать утверждение, ввести отладчик или выйти из приложения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Вксдебуг. h (включение Streams. h)</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>вксдебуг. h (включает Потоки. h)</dt> </dl> |
 
 
 

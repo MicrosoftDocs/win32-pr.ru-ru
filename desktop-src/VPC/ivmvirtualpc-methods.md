@@ -4,16 +4,16 @@ description: Интерфейс Ивмвиртуалпк предоставля�
 ms.assetid: 3098D0ED-B16F-4CA1-A76B-83B4988CB6B3
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 197ba4ea639fc6c82fc6501a03a73122af9975b5
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 102fe792e2656a45c997dec0d6e955044864837c0aa7c9366407e86810db8641
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118344301"
 ---
 # <a name="ivmvirtualpc-methods"></a>Методы Ивмвиртуалпк
 
-\[Windows Virtual PC больше не доступна для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC больше не доступен для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Интерфейс [**ивмвиртуалпк**](ivmvirtualpc.md) предоставляет следующие методы.
 
@@ -39,6 +39,6 @@ ms.locfileid: "103987684"
 -   [**Метод Сетконфигуратионвалуе**](ivmvirtualpc-setconfigurationvalue.md)
 -   [**Метод Унрегистервиртуалмачине**](ivmvirtualpc-unregistervirtualmachine.md)
 
- 
+ 
 
- 
+ 

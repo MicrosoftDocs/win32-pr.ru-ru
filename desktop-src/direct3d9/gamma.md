@@ -4,12 +4,12 @@ ms.assetid: d076140d-3e91-412a-b099-9baa52f8d7d8
 title: Гамма (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cea4b3ba224452e1c3be8f96b7136f4e4f649c8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 73ede077347d67c1657b86ad09b778625e22fd19a39c8333d7f11fec51be53b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105710563"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118523027"
 ---
 # <a name="gamma-direct3d-9"></a>Гамма (Direct3D 9)
 
@@ -54,7 +54,7 @@ D3DUSAGE_QUERY_SRGBREAD
 
 В Direct3D 9 новый флаг, [D3DPRESENT \_ линейное \_ содержимое](d3dpresent.md), доступен для [**отображения**](/windows/desktop/api) , что позволяет презентации неявным образом преобразовать из линейного пространства в sRGB/гамма 2,2. Приложения должны указывать этот флаг, если формат буфера в виде 16-разрядной плавающей запятой соответствует режиму, заданному в оконном режиме, с возможностью гаммы полноэкранного режима, при условии, \_ \_ что для \_ \_ возможностей устройств, получаемых через [**жетдевицекапс**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getdevicecaps), возвращается D3DCAPS3 линейное представление sRGB.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

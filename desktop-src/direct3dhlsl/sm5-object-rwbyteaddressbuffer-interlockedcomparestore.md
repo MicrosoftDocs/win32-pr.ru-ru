@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: abaa390ba74657e42b54a5147a7bc4006564a5fb
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: dcb19358f98c1280ddb180b7381fb7714d28cc7db145ca36577f5f97f70c9f1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103890909"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118509693"
 ---
 # <a name="interlockedcomparestore-function"></a>Функция Интерлоккедкомпаресторе
 
@@ -28,9 +28,9 @@ ms.locfileid: "103890909"
 
 ``` syntax
 void InterlockedCompareStore(
-  in UINT dest,
-  in UINT compare_value,
-  in UINT value
+  in UINT dest,
+  in UINT compare_value,
+  in UINT value
 );
 ```
 
@@ -69,7 +69,7 @@ void InterlockedCompareStore(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта операция может выполняться только с типизированными ресурсами типа int или uint и переменными общей памяти. Существует три возможных способа использования этой функции. Первый — когда R является переменной общей памяти. В этом случае функция выполняет операцию с регистром общей памяти, на который ссылается dest. Второй сценарий заключается в том, что R является типом переменной ресурса. В этом сценарии функция выполняет операцию с расположением ресурса, на которое ссылается dest. Наконец, третий сценарий происходит, когда R является локальным типом переменной. В этом сценарии функция сокращается до операции, выполняемой с помощью локальных операций.
 
@@ -83,7 +83,7 @@ void InterlockedCompareStore(
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -95,6 +95,6 @@ void InterlockedCompareStore(
 [Модель шейдера 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

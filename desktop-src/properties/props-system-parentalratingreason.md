@@ -4,12 +4,12 @@ ms.assetid: 0cd6b665-faf8-4fc5-9625-7d5edbdf7e2f
 title: System. Паренталратингреасон
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae8a527b9698bc07ce42533a75a5db487b7d11e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ea92839916d553566ff5c6bcb3f1d31cb857a9f7b5ab88007514f97ddc67f16d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104156398"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118230364"
 ---
 # <a name="systemparentalratingreason"></a>System. Паренталратингреасон
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

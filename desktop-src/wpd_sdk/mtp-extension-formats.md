@@ -4,12 +4,12 @@ ms.assetid: 318b7267-f4ba-43ad-aa24-8cfacf056558
 title: Форматы расширений MTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff86265e47071fce9fe523cfbb64f2e355ed541e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a490c29c98b454b7d563e8af46131b040f123b9de2ef689ea5ede1a2ac100ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105719559"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118193960"
 ---
 # <a name="mtp-extension-formats"></a>Форматы расширений MTP
 
@@ -28,7 +28,7 @@ ms.locfileid: "105719559"
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

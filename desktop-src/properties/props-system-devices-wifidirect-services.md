@@ -4,12 +4,12 @@ ms.assetid: 5163eff6-7f65-4602-ad9a-5b8a63e5fd1b
 title: System. Devices. Вифидирект. Services
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24c5835eba163ff524f0811c322a83e8417df867
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 212c9aa1202120e3ea24619c5a7acdb8f7aa43d574eaf02a239fe92641d4335a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118467214"
 ---
 # <a name="systemdeviceswifidirectservices"></a>System. Devices. Вифидирект. Services
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

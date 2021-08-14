@@ -3,7 +3,7 @@ title: Сообщение WIM_OPEN (Ммсистем. h)
 description: '\_При открытии входного устройства с звуковой звукозаписью сообщение о открытом формате WIM отправляется в функцию обратного вызова звукового сигнала звуковой волны.'
 ms.assetid: de18e6b2-ea28-46d9-812c-e6dac49838ee
 keywords:
-- WIM_OPEN сообщения Windows мультимедиа
+- сообщение WIM_OPEN Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 57c1661482149c90cf3f2bd6b10620cb32f380be
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 337d86c7c1262094993bbac4973b96f1d442149b07d3a48a3e88bd384fee2997
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118369757"
 ---
 # <a name="wim_open-message"></a>\_Сообщение Open WIM
 
@@ -56,7 +56,7 @@ dwParam2 = reserved
 
 Это сообщение не возвращает значение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -64,7 +64,7 @@ dwParam2 = reserved
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Lsaidprov.h
-ms.openlocfilehash: cff9056ab5ea5437bb37da9b3c01368127db11cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a8ed0d96ab7c9c63f9574472cac0daedba54e42beec244271efcc309c04dd95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103813601"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118921148"
 ---
 # <a name="onprofileloaded-function"></a>Функция Онпрофилелоадед
 
@@ -68,18 +68,18 @@ SEC_ENTRY OnProfileLoaded(
 
 Если функция завершается с ошибкой, функция возвращает ненулевой код ошибки, который является специфической для поставщика ошибкой в целях диагностики.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция вызывается каждый раз при вызове функции [**LoadUserProfile**](/windows/win32/api/userenv/nf-userenv-loaduserprofilea) . Он не синхронизирован с **LoadUserProfile**; Это значит, что **LoadUserProfile** мог вернуть, а профиль мог быть выгружен на момент вызова функции. Эта функция может вызываться несколько раз даже после загрузки профиля. Поставщик удостоверений не должен рассчитывать на то, что вызов этой функции с *загрузкой* , РАВНым true, должен сопровождаться вызовом с параметром *Loaded* , равным false.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                   |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                   |
 | Header<br/>                   | <dl> <dt>Лсаидпров. h</dt> </dl> |
 
 

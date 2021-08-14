@@ -7,12 +7,12 @@ keywords:
 - Active Directory дерева доменов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a21d2b36968615fd4e92912fdd94246ef8dda0c1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 40a1e2ed05284d2a08735b048fb41d97d6597634f711094d0a3763c2d7f8be67
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104252792"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118430527"
 ---
 # <a name="domain-trees"></a>Деревья доменов
 
@@ -34,9 +34,9 @@ Windows 2000 устанавливает отношения доверия меж
 
 ![дерево доменов пространства имен](images/namespace.png)
 
- 
+ 
 
- 
+ 
 
 
 

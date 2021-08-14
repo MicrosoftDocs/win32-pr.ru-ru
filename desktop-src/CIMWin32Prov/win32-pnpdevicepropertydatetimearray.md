@@ -19,12 +19,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: faa0fdf57e5eb4ad44cbb6ada2663baaea7b53ad
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c4b9be900ff56ce9afa9fb78d4c4fd60d43ceb509ee2f5bd8d874e47d1648df3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118417617"
 ---
 # <a name="win32_pnpdevicepropertydatetimearray-class"></a>\_Класс Win32 пнпдевицепропертидатетимеаррай
 
@@ -51,13 +51,13 @@ class Win32_PnPDevicePropertyDateTimeArray : Win32_PnPDeviceProperty
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ пнпдевицепропертидатетимеаррай** имеет следующие свойства.
 
 <dl> <dt>
 
-**Data**
+**Данные**
 </dt> <dd> <dl> <dt>
 
 Тип данных: массив **DateTime**
@@ -115,7 +115,7 @@ class Win32_PnPDevicePropertyDateTimeArray : Win32_PnPDeviceProperty
 
 </dd> <dt>
 
-**Тип**
+**Type**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **UInt32**
@@ -498,13 +498,13 @@ class Win32_PnPDevicePropertyDateTimeArray : Win32_PnPDeviceProperty
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                             |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                             |
 | Минимальная версия сервера<br/> | Windows Server 2016<br/>                                                          |
 | Пространство имен<br/>                | Корневой \\ CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Cimwin32. mof</dt> </dl> |

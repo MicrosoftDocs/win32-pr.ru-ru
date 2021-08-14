@@ -3,7 +3,7 @@ title: EDITBOX. Жетселектионстарт
 description: Метод Жетселектионстарт извлекает начальную точку выделенного текста в элементе управления EditBox.
 ms.assetid: 2d7efe14-549c-4f73-96a7-b8ce88b881ad
 keywords:
-- Жетселектионстарт Windows Media Player
+- EDITBOX. жетселектионстарт проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2508119e5b1d46d09b3531582e86caad7e7facbd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7c555cc7231440e15275dcd44a2508f1d8cc5ba53a8137db861cc71b61528ac3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699271"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118340035"
 ---
 # <a name="editboxgetselectionstart"></a>EDITBOX. Жетселектионстарт
 
@@ -36,7 +36,7 @@ ms.locfileid: "105699271"
 
 Этот метод возвращает **число** (**Long**).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если текст не выбран, этот метод возвращает позицию точки вставки.
 
@@ -44,13 +44,13 @@ ms.locfileid: "105699271"
 
 Этот метод может быть вызван только после того, как элемент управления станет видимым.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
 
 
 

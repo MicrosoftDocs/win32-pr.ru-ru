@@ -4,12 +4,12 @@ description: В этих примерах файлов IDL демонстрир�
 ms.assetid: 9c276b8a-5342-4c09-91a7-c9a9f0f83c73
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: acbcfbf5c145a1fb389cc26543cf75d8cc75a107
-ms.sourcegitcommit: 5ebaf3a456bc68cd0c6bd46c8135b67b1bf6fa54
+ms.openlocfilehash: 531d46bfcfa0ef4e4eee075ae65b64dd0c80a8f6a51543a1762a0ddcd8a03888
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "104351012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118311338"
 ---
 # <a name="anatomy-of-an-idl-file"></a>Анатомия IDL-файла
 

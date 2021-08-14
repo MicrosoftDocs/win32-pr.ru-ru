@@ -17,12 +17,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 71fb5f84ec7ad35f1d9beab32cb74db5b7591057
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 055c776c1beffe1550033d61b54256d7b2e983ca70ac13f1b9fc899920910d4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105693833"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118312923"
 ---
 # <a name="swbemrefreshableitemisset-property"></a>Свбемрефрешаблеитем. Иссет, свойство
 
@@ -43,11 +43,11 @@ SWbemRefreshableItem.IsSet As Boolean
 
 ## <a name="property-value"></a>Значение свойства
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если **свбемрефрешаблеитем. Иссет** имеет **значение true**, то элемент представляет объект [**SWbemObjectSet**](swbemobjectset.md) , а свойство [**объекта**](swbemrefreshableitem-object.md) будет иметь **значение NULL**. Если **значение равно false**, элемент представляет объект [**SWbemObject**](swbemobject.md) , а свойство **объекта** имеет **значение NULL**.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

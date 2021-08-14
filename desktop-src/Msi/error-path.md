@@ -1,5 +1,5 @@
 ---
-description: В установщик Windows версии 1,0 и 1,1 свойство Path всегда является пустой строкой. Будущие версии могут использовать это значение для возврата пути к файлу или каталогу, который не удалось создать.
+description: в установщик Windows версии 1,0 и 1,1 свойство Path всегда является пустой строкой. Будущие версии могут использовать это значение для возврата пути к файлу или каталогу, который не удалось создать.
 ms.assetid: b79dd347-acda-47d7-aa3b-c0f9a6ca1d3b
 title: Свойство Error. Path (Мержемод. h)
 ms.topic: reference
@@ -14,16 +14,16 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: 5a2e462790d6f929943fe2fe364228cd73d3deb7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7787fcd5bad5550b933b2a866308c1d5b77dd24f60fce23ebc3b227829528307
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685308"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118378155"
 ---
 # <a name="errorpath-property"></a>Свойство Error. Path
 
-В установщик Windows версии 1,0 и 1,1 свойство Path всегда является пустой строкой. Будущие версии могут использовать это значение для возврата пути к файлу или каталогу, который не удалось создать.
+в установщик Windows версии 1,0 и 1,1 свойство Path всегда является пустой строкой. Будущие версии могут использовать это значение для возврата пути к файлу или каталогу, который не удалось создать.
 
 Это свойство доступно только для чтения.
 
@@ -38,7 +38,7 @@ propVal = Error.Path
 
 ## <a name="property-value"></a>Значение свойства
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это значение допустимо только для ошибок типа Мсмеррорфилекреате или Мсмеррордиркреате. Тип ошибки можно определить, вызвав свойство [**Type**](error-type.md) объекта [**Error**](error-object.md) .
 
@@ -46,7 +46,7 @@ propVal = Error.Path
 
 См. раздел [**Получение \_ пути**](/windows/win32/api/mergemod/nf-mergemod-imsmerror-get_path) функции.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

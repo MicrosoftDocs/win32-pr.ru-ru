@@ -34,12 +34,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b40be8b8e63f210d060c0f585c9fe31328ac6ed6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: df4216b4babf74e5e5f15994c0d8387e0d5087c4f69e4d0245b59cb5765dfe88
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104340525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118352516"
 ---
 # <a name="imsrdpclientadvancedsettings5audioredirectionmode-property"></a>Свойство IMsRdpClientAdvancedSettings5:: Аудиоредиректионмоде
 
@@ -77,7 +77,7 @@ HRESULT get_AudioRedirectionMode(
 
 <span id="AUDIO_MODE_PLAY_ON_SERVER_1"></span><span id="audio_mode_play_on_server_1"></span>
 
-**Звуковые \_ файлы РЕЖИМ \_ воспроизведения \_ на \_ сервере 1** (включено перенаправление звука, а параметр — "оставить на удаленном компьютере"). Параметр "оставить на удаленном компьютере" поддерживается только при удаленном подключении к главному компьютеру под управлением Windows Vista. Если подключение установлено к главному компьютеру под Windows Server 2008, параметр "оставить на удаленном компьютере" изменится на "не воспроизводить".)
+**Звуковые \_ файлы РЕЖИМ \_ воспроизведения \_ на \_ сервере 1** (включено перенаправление звука, а параметр — "оставить на удаленном компьютере"). параметр "оставить на удаленном компьютере" поддерживается только при удаленном подключении к главному компьютеру, на котором работает Windows Vista. если подключение установлено к главному компьютеру, на котором работает Windows Server 2008, параметр "оставить на удаленном компьютере" изменится на "не воспроизводить".)
 
 
 </dt> <dd></dd> <dt>
@@ -89,7 +89,7 @@ HRESULT get_AudioRedirectionMode(
 
 </dt> <dd></dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

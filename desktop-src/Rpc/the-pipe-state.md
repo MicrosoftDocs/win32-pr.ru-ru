@@ -4,12 +4,12 @@ description: На сервере компилятор MIDL создает пер
 ms.assetid: 7cc59cb3-cf41-40f7-a28f-b896c319ae64
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6d7ec8af1907c98b7cf2098f4979dac62ef573a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8d12c5ef5549d89f3aee2833599f5930f2617478e66e16c3b78188eb63a40e7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104134179"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118924074"
 ---
 # <a name="the-pipe-state"></a>Состояние канала
 
@@ -17,6 +17,6 @@ ms.locfileid: "104134179"
 
 При передаче данных из одного файла в другой переменная *состояния* клиента может быть такой же простой, как и в случае с файлом. Оно также может быть целым числом, которое указывает на элемент в массиве. Или можно определить довольно сложную структуру состояния для выполнения дополнительных задач, таких как координация push-уведомлений и подпрограммы Pull для параметра \[ [in](/windows/desktop/Midl/in), [out](/windows/desktop/Midl/out-idl) \] .
 
- 
+ 
 
- 
+ 

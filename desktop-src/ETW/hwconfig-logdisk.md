@@ -16,12 +16,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: dce4faed913d01f76ff23177b2dad42ea74e5c08
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 01d200fc5c34546c96f6a78fd55548e8d5a7b0dacf74d46c411174beb66f6f4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104546538"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118394808"
 ---
 # <a name="hwconfig_logdisk-class"></a>\_Класс хвконфиг логдиск
 
@@ -42,13 +42,13 @@ class HWConfig_LogDisk : HWConfig
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **хвконфиг \_ логдиск** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **хвконфиг \_ логдиск** имеет следующие свойства.
 
@@ -118,13 +118,13 @@ PartitionSize
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                   |
 
 

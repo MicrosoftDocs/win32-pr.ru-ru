@@ -4,12 +4,12 @@ description: Служба BITS расширяет виртуальные кат�
 ms.assetid: 8214904e-8a95-4c4b-a1c5-91e84031587f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83fb689bb3c797a311ec7c2ef8134eb51ffd6f1a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1ce883bbd9f1af31bc7cafb10a2484f3a56ecbcffa7917a5a0e491a38da4701b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987678"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118422195"
 ---
 # <a name="virtual-directory-cleanup"></a>Очистка виртуального каталога
 
@@ -22,8 +22,8 @@ ms.locfileid: "103987678"
 > [!Note]  
 > Если планировщик задач отключена после включения виртуального каталога, процесс очистки виртуального каталога не будет работать.
 
- 
+ 
 
- 
+ 
 
- 
+ 

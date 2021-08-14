@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 3d6a2ec1693a62b16e7b147cbbdf362eadb6dd79
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fcc7315f32ee1c00928b1feefe7d7d9dbebaf9fd169cd741440ad53ce4343c87
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104348862"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118311998"
 ---
 # <a name="wmi-tasks-printers-and-printing"></a>Задачи WMI: принтеры и печать
 
@@ -28,7 +28,7 @@ ms.locfileid: "104348862"
 
 **Запуск сценария**
 
-1.  Скопируйте код и сохраните его в файле с расширением vbs, например *filename.vbs*. Убедитесь, что текстовый редактор не добавляет расширение txt в файл.
+1.  Скопируйте код и сохраните его в файле с расширением vbs, например *filename.vbs*. Убедитесь, что текстовый редактор не добавляет к файлу расширение .txt.
 2.  Откройте окно командной строки и перейдите в каталог, в котором был сохранен файл.
 3.  Введите **cscript filename.vbs** в командной строке.
 4.  Если доступ к журналу событий невозможен, проверьте, выполняется ли в командной строке с повышенными привилегиями. Некоторые журналы событий, например журнал событий безопасности, могут быть защищены с помощью элементов управления доступом пользователей (UAC).
@@ -218,7 +218,7 @@ Next</code></pre></td>
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

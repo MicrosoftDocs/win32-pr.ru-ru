@@ -488,12 +488,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f532c6b2c91b0edb25e06705ec392e6d88de036
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 95ad1b16ddb5e20d1bc2e431c96db377fd83118059ecf0d5c86b6e6fc75a0093
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104986843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118511976"
 ---
 # <a name="hlsl-errors-and-warnings"></a>Ошибки и предупреждения HLSL
 
@@ -696,7 +696,7 @@ ms.locfileid: "104986843"
 | <span id="ERR_NOT_SIMPLE_LOOP"></span><span id="err_not_simple_loop"></span><dl> <dt>**Ошибка \_ НЕ \_ простой \_ цикл**</dt> <dt>3525</dt> </dl>                                                                | Не удается сопоставить цикл с целевым объектом шейдера, так как целевой объект не поддерживает разрывы.<br/>                                                                                                                                                                                                                                                                                              |
 | <span id="ERR_GRADIENT_WITH_BREAK"></span><span id="err_gradient_with_break"></span><dl> <dt>**Ошибка \_ ГРАДИЕНТ \_ с \_ разрывом**</dt> <dt>3526</dt> </dl>                                                    | Инструкции градиента нельзя использовать в циклах с разрывами.<br/>                                                                                                                                                                                                                                                                                                                           |
 | <span id="ERR_TEXTURE_OFFSET"></span><span id="err_texture_offset"></span><dl> <dt>**Ошибка \_ \_Смещение текстуры**</dt> <dt>3527</dt> </dl>                                                                    | Для доступа к текстуре требуется смещение литерала и многопримерный индекс.<br/>                                                                                                                                                                                                                                                                                                                       |
-| <span id="ERR_CANT_BRANCH"></span><span id="err_cant_branch"></span><dl> <dt>**Ошибка \_ Не удается \_ создать ветвь**</dt> <dt>3528</dt> </dl>                                                                             | Управление потоком (ветвление) не может использоваться в этом профиле.<br/>                                                                                                                                                                                                                                                                                                                             |
+| <span id="ERR_CANT_BRANCH"></span><span id="err_cant_branch"></span><dl> <dt>**Ошибка \_ Не удается \_ создать ветвь**</dt> <dt>3528</dt> </dl>                                                                             | в этом профиле нельзя использовать элемент управления Flow (ветвление).<br/>                                                                                                                                                                                                                                                                                                                             |
 | <span id="ERR_MUST_BRANCH"></span><span id="err_must_branch"></span><dl> <dt>**Ошибка \_ НЕОБХОДИМО \_ создать ветвь**</dt> <dt>3529</dt> </dl>                                                                             | Не удается выполнить сведение с помощью управления потоком в этой конкретной ситуации.<br/>                                                                                                                                                                                                                                                                                                              |
 | <span id="ERR_BIND_INVALID"></span><span id="err_bind_invalid"></span><dl> <dt>**Ошибка \_ Привязка \_ недопустима**</dt> <dt>3530</dt> </dl>                                                                          | Выполнена Недопустимая операция привязки. Например, буферы можно привязать только к одному слоту или к одному смещению константы. Недопустимая спецификация регистра, так как определенная привязка ожидалась, но не была выполнена. невозможно смешивать элементы паккоффсет с элементами нонпаккоффсет в кбуффер.<br/>                                                                                              |
 | <span id="ERR_NEED_UNROLL_FORCED_LOOP"></span><span id="err_need_unroll_forced_loop"></span><dl> <dt>**Ошибка \_ НЕОБХОДИМО \_ выполнить откат \_ принудительного \_ цикла**</dt> <dt>3531</dt> </dl>                                       | Циклы, помеченные атрибутом Loop, не могут быть отменены.<br/>                                                                                                                                                                                                                                                                                                                    |
@@ -983,13 +983,13 @@ ms.locfileid: "104986843"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Комперрорс. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Комперрорс. h</dt> </dl> |
 
 
 

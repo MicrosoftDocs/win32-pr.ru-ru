@@ -4,17 +4,17 @@ ms.assetid: 7e57c087-53e4-443d-9227-21d9eb3cc71f
 title: Коды системных ошибок (1700-3999) (WinError. h)
 ms.topic: reference
 ms.date: 07/18/2019
-ms.openlocfilehash: 23b90db71a6e2e84b28f4aafc94475e9e82e3e7a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 707425f7714c84d92bf5bc001f57c1677183b9edbd9170236d1c629bc0aaf121
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895441"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118405605"
 ---
 # <a name="system-error-codes-1700-3999"></a>Коды системных ошибок (1700-3999)
 
 > [!NOTE]
-> Эти сведения предназначены для разработчиков, которые отлаживать системные ошибки. Для других ошибок, например проблем с Центр обновления Windows, на странице [коды ошибок](system-error-codes.md) содержится список ресурсов.
+> Эти сведения предназначены для разработчиков, которые отлаживать системные ошибки. для других ошибок, например проблем с Центр обновления Windows, на странице [коды ошибок](system-error-codes.md) содержится список ресурсов.
 
 В следующем списке приведены [коды системных ошибок](system-error-codes.md) для ошибок 1700 – 3999. Они возвращаются функцией [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) при сбое множества функций. Чтобы получить текст описания ошибки в приложении, используйте функцию [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) с флагом **формата \_ Message \_ из \_ System** .
 
@@ -1588,7 +1588,7 @@ ms.locfileid: "103895441"
 
 
 
-Указанная ошибка не является допустимым кодом ошибки RPC Windows.
+указанная ошибка не является допустимым Windows кодом ошибки RPC.
 
 
 </dt> </dl> </dd> <dt>
@@ -2933,14 +2933,14 @@ ms.locfileid: "103895441"
 </dt> </dl> </dd> </dl>
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>WinError. h</dt> </dl> |
 
 

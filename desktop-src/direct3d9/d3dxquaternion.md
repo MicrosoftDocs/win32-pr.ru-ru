@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9math.h
-ms.openlocfilehash: f67acc6389ce809c1aa5f4987d9502735fe61e49
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 9818772163d5286d764c0f025b955a663457dd853c2db0efec8ad0b0a4967c5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108115682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118524616"
 ---
 # <a name="d3dxquaternion-structure-d3dx9mathh"></a>Структура D3DXQUATERNION (D3dx9math. h)
 
@@ -64,7 +64,7 @@ typedef struct D3DXQUATERNION {
 
 </dd> <dt>
 
-**z**
+**гармошкой**
 </dt> <dd>
 
 Тип: **[ **float**](../winprog/windows-data-types.md)**
@@ -102,17 +102,17 @@ q.w = cos(theta/2)
 
 Программисты C++ могут воспользоваться преимуществами перегрузки операторов и приведения типов с помощью [**расширений D3DXQUATERNION**](d3dxquaternion-extensions.md), реализующих перегруженные конструкторы и операторы присваивания, унарные и бинарные (включая равенство).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx9math. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx9math. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

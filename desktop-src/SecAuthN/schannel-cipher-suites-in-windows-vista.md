@@ -4,12 +4,12 @@ ms.assetid: 380452e2-a9c8-4380-a3bf-9c7942a0c0c2
 title: Наборы шифров TLS в Windows Vista
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80cf270f0608666b7d766e3f063f24ea39204fd1
-ms.sourcegitcommit: b022a50bc0d11975dad6337b8f399c47234dffcf
+ms.openlocfilehash: dbf77d821612093e3015a0f8dee4cf51ae5bd9b95c653b61fe7a36271ba81ba5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "105647751"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118918657"
 ---
 # <a name="tls-cipher-suites-in-windows-vista"></a>Наборы шифров TLS в Windows Vista
 
@@ -84,8 +84,8 @@ Schannel поддерживает следующие наборы шифров. 
 
 | Раздел                                                                         | Описание                                                                                                                        |
 |-------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| [Комплекты шифров TLS](tls-cipher-suites.md)<br/>                         | Сведения о комплектах шифров, доступных по протоколу TLS в Windows Server 2003 и Windows XP.<br/>              |
-| [Протокол SSL](secure-sockets-layer-protocol.md)<br/> | Общие сведения о SSL 2,0 и 3,0, включая доступные комплекты шифров в Windows Server 2003 и Windows XP.<br/> |
+| [Комплекты шифров TLS](tls-cipher-suites.md)<br/>                         | сведения о комплектах шифров, доступных по протоколу TLS в Windows Server 2003 и Windows XP.<br/>              |
+| [Протокол SSL](secure-sockets-layer-protocol.md)<br/> | общие сведения о SSL 2,0 и 3,0, включая доступные комплекты шифров в Windows Server 2003 и Windows XP.<br/> |
 
 
 

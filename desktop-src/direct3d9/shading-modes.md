@@ -4,12 +4,12 @@ ms.assetid: vs|directx_sdk|~\shading_modes.htm
 title: Режимы заливки (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f84e791bed0098838760f10f6605f716444e7688
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 714e9610e1cae344148bf78ef39bc5e8355cb2af6395e3f92a3bc01b87860605
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104566504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118092240"
 ---
 # <a name="shading-modes-direct3d-9"></a>Режимы заливки (Direct3D 9)
 
@@ -38,7 +38,7 @@ ms.locfileid: "104566504"
 
 Дополнительные сведения см. в разделе [векторы нормали граней и вершин (Direct3D 9)](face-and-vertex-normal-vectors.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

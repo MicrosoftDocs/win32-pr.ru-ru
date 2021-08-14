@@ -7,12 +7,12 @@ keywords:
 - имя субъекта-службы AD, создание службы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5611527cc3c240eebc195058ce39daab71aeef23
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fdd4c0ac9c871c76e9e8771a688d203898674e477426ebd788ee34fe894011a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103887664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118188648"
 ---
 # <a name="how-a-service-composes-its-spns"></a>Как служба формирует свои имена участников-служб
 
@@ -30,9 +30,9 @@ ms.locfileid: "103887664"
 
 Имейте в виду, что функции [**дсжетспн**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsgetspna), [**дсвритеаккаунтспн**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dswriteaccountspna)и [**дссерверрегистерспн**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsserverregisterspna) не проверяют уникальность имен участников-служб. Так как взаимная проверка подлинности завершается неудачей, если клиент предоставляет имя SPN, которое не является уникальным, проверьте уникальность перед регистрацией имени участника-службы **Для этого выполните поиск атрибутов глобального** каталога (GC), соответствующих имени субъекта-службы. Дополнительные сведения о поиске в GC см. [в разделе Поиск в глобальном каталоге](searching-global-catalog-contents.md).
 
- 
+ 
 
- 
+ 
 
 
 

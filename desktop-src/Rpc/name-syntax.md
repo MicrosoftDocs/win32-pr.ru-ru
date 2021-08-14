@@ -4,12 +4,12 @@ description: Синтаксис удаленного вызова процеду
 ms.assetid: eb370106-bd88-4c21-b287-7b2b174185d4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d024130a5b8a873c6bfbb2194542344953625d5e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3f63c86e6fe9283855e886014787fe36361bfbcdea3bc53e4078bbb43d193293
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118927823"
 ---
 # <a name="name-syntax"></a>Синтаксис имени
 
@@ -45,9 +45,9 @@ Microsoft RPC принимает имена, соответствующие сл
 
 Косые черты позволяют указать в имени логическую структуру, но они не соответствуют логической структуре самих объектов.
 
- 
+ 
 
- 
+ 
 
 
 

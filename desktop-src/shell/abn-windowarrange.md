@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 9e7d19c7233b235a1a73e160eeacb3c51415d0bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 27c679b7ccdb5eb92ebe87676cd136c71adcda862472f6f300056511001a683a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104540586"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118225025"
 ---
 # <a name="abn_windowarrange-message"></a>\_Сообщение АБН виндоварранже
 
@@ -50,17 +50,17 @@ ABN_WINDOWARRANGE
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Система отправляет это сообщение с уведомлением дважды, если параметру *lParam* присвоено значение **true** , а параметру *lParam* присвоено значение **false**. Первое уведомление отправляется до каскадного или мозаичного разбиения окон, а второе отправляется после выполнения операции Cascade или плитки.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                           |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                           |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                  |
 | Заголовок<br/>                   | <dl> <dt>Шеллапи. h</dt> </dl> |
 

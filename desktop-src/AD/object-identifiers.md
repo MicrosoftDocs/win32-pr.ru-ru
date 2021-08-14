@@ -7,12 +7,12 @@ keywords:
 - идентификаторы объектов Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2253a6173e06f5d7b0c136a520db3e1e5a5e798e
-ms.sourcegitcommit: 8ea1a82717bd3dbb3457be0697329aa37fb13f08
+ms.openlocfilehash: af458a003c5a5a8586c32449674019fb6b241d52c4300e107898d91c75047214
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "105654259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118185515"
 ---
 # <a name="object-identifiers-ad-ds"></a>Идентификаторы объектов (AD DS)
 
@@ -36,13 +36,13 @@ OID в домен Active Directory Services включают в себя нек�
 
 
 
- 
+ 
 
 Дополнительные сведения и описание двух процедур, используемых для получения допустимых идентификаторов OID для использования при расширении схемы Active Directory, см. в разделе [Получение идентификатора объекта](obtaining-an-object-identifier.md).
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: Сообщение MCIWNDM_PUT_DEST (VFW. h)
 description: '\_Сообщение о мЦивндме размещения \_ переопределяет координаты прямоугольника назначения, используемого для масштабирования или растяжения изображений файла AVI во время воспроизведения. Это сообщение можно отправить явно или с помощью макроса МЦивндпутдест.'
 ms.assetid: 0b13d473-ef93-41a2-bbb2-09fbf264493e
 keywords:
-- MCIWNDM_PUT_DEST сообщения Windows мультимедиа
+- сообщение MCIWNDM_PUT_DEST Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba150f450f71c3593976f98c9935233918becd70
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 27eb2afdcec32d43b0352af1ead0b4c89715641fd370611542e1e5c6da9efa85
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103803364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118373525"
 ---
 # <a name="mciwndm_put_dest-message"></a>МЦИВНДМ \_ Размещение \_ сообщения о приемнике
 
@@ -49,7 +49,7 @@ lParam = (LPARAM) (LPRECT) prc;
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

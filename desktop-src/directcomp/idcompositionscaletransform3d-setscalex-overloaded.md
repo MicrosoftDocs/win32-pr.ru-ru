@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 0799c0fa93564e4db277311ae6492a5f7eb85649
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f7fc52b6b98bfcc60bdf8db1636c6ef23c0c62ea7fb382a9c17e8daa00b8ddae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105691928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118505524"
 ---
 # <a name="idcompositionscaletransform3dsetscalex-methods"></a>Методы IDCompositionScaleTransform3D:: Сетскалекс
 
@@ -34,14 +34,14 @@ ms.locfileid: "105691928"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                 |
+| Минимальная версия клиента<br/> | только Windows 8 \[ настольных приложений\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2012\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Дкомп. h</dt> </dl>   |
 | Библиотека<br/>                  | <dl> <dt>Дкомп. lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Dcomp.dll</dt> </dl> |

@@ -1,19 +1,19 @@
 ---
-description: Жетфиналпаснамебихандле, появившиеся в Windows Vista и Windows Server 2008, вернет путь из маркера.
+description: жетфиналпаснамебихандле, появившиеся в Windows Vista и Windows Server 2008, вернет путь из маркера.
 ms.assetid: 359673bf-cc4c-4881-b946-ecdbef4a7ecb
 title: Получение имени файла из маркера файла
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee7d0c6fd8ea6839fdbfbe887f7a28b38571013b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f905051fdc9c26d16c00f3f1acb2629ae06b8581abb5e5de50944a74e0c6b8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118386417"
 ---
 # <a name="obtaining-a-file-name-from-a-file-handle"></a>Получение имени файла из маркера файла
 
-[**Жетфиналпаснамебихандле**](/windows/win32/api/fileapi/nf-fileapi-getfinalpathnamebyhandlea), появившиеся в Windows Vista и windows Server 2008, вернет путь из маркера. Если это необходимо сделать в более ранних выпусках Windows, следующий пример получает имя файла из дескриптора в объект файла, используя объект сопоставления файлов. Для создания сопоставления используются функции [**CreateFileMapping**](/windows/desktop/api/WinBase/nf-winbase-createfilemappinga) и [**MapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile) . Затем для получения имени файла используется функция [**жетмаппедфиленаме**](/windows/win32/api/psapi/nf-psapi-getmappedfilenamea) . Для удаленных файлов выводится путь к устройству, полученный от этой функции. Для локальных файлов он преобразует путь для использования буквы диска и выводит этот путь. Чтобы протестировать этот код, создайте функцию **Main** , которая открывает файл с помощью функции [**CreateFile**](/windows/win32/api/fileapi/nf-fileapi-createfilea) и передает полученный в результате обработчик `GetFileNameFromHandle` .
+[**жетфиналпаснамебихандле**](/windows/win32/api/fileapi/nf-fileapi-getfinalpathnamebyhandlea), появившиеся в Windows Vista и Windows Server 2008, вернет путь из маркера. если это необходимо сделать в более ранних выпусках Windows, в следующем примере получается имя файла из дескриптора в объект file с помощью объекта сопоставления файлов. Для создания сопоставления используются функции [**CreateFileMapping**](/windows/desktop/api/WinBase/nf-winbase-createfilemappinga) и [**MapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile) . Затем для получения имени файла используется функция [**жетмаппедфиленаме**](/windows/win32/api/psapi/nf-psapi-getmappedfilenamea) . Для удаленных файлов выводится путь к устройству, полученный от этой функции. Для локальных файлов он преобразует путь для использования буквы диска и выводит этот путь. Чтобы протестировать этот код, создайте функцию **Main** , которая открывает файл с помощью функции [**CreateFile**](/windows/win32/api/fileapi/nf-fileapi-createfilea) и передает полученный в результате обработчик `GetFileNameFromHandle` .
 
 
 ```C++
@@ -142,7 +142,7 @@ int _tmain(int argc, TCHAR *argv[])
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

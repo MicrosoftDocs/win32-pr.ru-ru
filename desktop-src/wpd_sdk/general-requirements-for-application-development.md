@@ -4,16 +4,16 @@ ms.assetid: 8ac88d6f-fc4b-4253-932d-aaa3c801b18f
 title: Общие требования для разработки приложений (API-интерфейс WPD)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d16be9656f72324b8f3687bca72146320561b0d2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e9ad1ed207774494102f673bd7fb4f92acbdcb4629542d238613637d9509336c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118430883"
 ---
 # <a name="general-requirements-for-application-development-wpd-api"></a>Общие требования для разработки приложений (API-интерфейс WPD)
 
-Чтобы создать приложение для портативных устройств Windows, на компьютере должен быть установлен [пакет средств разработки программного обеспечения (SDK) для Windows](https://developer.microsoft.com/windows/downloads) . Необходимые заголовки и библиотеки отображаются в следующем списке.
+чтобы создать приложение Windows Portable devices, необходимо установить на компьютер [пакет средств разработки Windows Software Development Kit (SDK)](https://developer.microsoft.com/windows/downloads) . Необходимые заголовки и библиотеки отображаются в следующем списке.
 
 -   Портабледевицегуидс. lib
 -   Портабледевице. h
@@ -40,11 +40,11 @@ ms.locfileid: "104265283"
 
 Из файлов, приведенных в предыдущем списке, Бриджедевицесервице. h и Девицесервице. h требуются для практически любого приложения, поддерживающего службы устройств. другие файлы определяют различные типы служб устройств и будут включаться соответствующим образом.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[**Портативные устройства Windows**](/windows/desktop/windows-portable-devices)
+[**Windows Переносные устройства**](/windows/desktop/windows-portable-devices)
 </dt> </dl>
 
  

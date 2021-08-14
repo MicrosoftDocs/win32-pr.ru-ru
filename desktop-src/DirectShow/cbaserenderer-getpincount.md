@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 569a8dd4352edb0c4660fecd3e77fdfaec0ec4c4
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: fdd646458bb10287e1a76ffed897f1ea039e1b047ccf14d10aeb990ebfc74622
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108095892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118403453"
 ---
 # <a name="cbaserenderergetpincount-method"></a>Кбасерендерер. Жетпинкаунт, метод
 
@@ -48,18 +48,18 @@ virtual int GetPinCount();
 
 Этот метод реализует метод [**кбасефилтер:: жетпинкаунт**](cbasefilter-getpincount.md) , который является чистым виртуальным в классе **кбасефилтер** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ренбасе. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>ренбасе. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dbadd0d7b2ddce46894d0acdbd90507ab0721142
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 6eacc372da07c13f46ef8ac0bccaa31ff944715ed56d922907c7f9fa13a36ef9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103804973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118425661"
 ---
 # <a name="ms-ds-transformation-rules-compiled-attribute"></a>Атрибут ms-DS-преобразование-Rules-Compiled
 
@@ -52,8 +52,8 @@ ms.locfileid: "103804973"
 |------------------------|-----------------------------------------------------------------------------------------------------|
 | Идентификатор ссылки                | \-                                                                                                  |
 | MAPI-Id                | \-                                                                                                  |
-| System-Only            | True                                                                                                |
-| Является однозначным       | True                                                                                                |
+| System-Only            | Верно                                                                                                |
+| Является однозначным       | Верно                                                                                                |
 | Индексируется             | Неверно                                                                                               |
 | В глобальном каталоге      | Неверно                                                                                               |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                        |

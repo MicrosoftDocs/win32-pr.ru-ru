@@ -1,22 +1,22 @@
 ---
 title: Пример кода для добавления пользователя или группы домена в локальную группу
-description: Этот раздел содержит пример кода, показывающий, как добавить пользователя или группу домена в локальную группу на рядовом сервере или на компьютере, работающем под управлением Windows NT Workstation или Windows 2000 Professional.
+description: этот раздел содержит пример кода, показывающий, как добавить пользователя или группу домена в локальную группу на рядовом сервере или на компьютере, работающем на Windows NT Workstation или Windows 2000 Professional.
 ms.assetid: 6333ce9f-0396-4af7-9e81-f008cf4536ec
 ms.tgt_platform: multiple
 keywords:
 - Active Directory примеры Active Directory, Добавление пользователя или группы домена в локальную группу
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 539e8fbbeed3d865a0878236745b7a3c74c76d27
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bdca65c26c6ab1195dcd0d7fc3f44b36e39bed1d15e97627664754c918e57e96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103773220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118694692"
 ---
 # <a name="example-code-for-adding-a-domain-user-or-group-to-a-local-group"></a>Пример кода для добавления пользователя или группы домена в локальную группу
 
-Следующий пример кода C++ добавляет пользователя или группу домена в локальную группу на рядовом сервере или на компьютере под управлением Windows NT Workstation или Windows 2000 Professional.
+следующий пример кода C++ добавляет пользователя или группу домена в локальную группу на рядовом сервере или на компьютере, работающем на Windows NT Workstation или Windows 2000 Professional.
 
 
 ```C++
@@ -106,7 +106,7 @@ HRESULT AddDomainUserToLocalGroup(LPCWSTR pwszComputerName,
 
 
 
-В следующем Visual Basic примере кода добавляется пользователь или группа домена в локальную группу на рядовом сервере или на компьютере под управлением Windows NT Workstation или Windows 2000 Professional.
+в следующем Visual Basic примере кода добавляется пользователь или группа домена в локальную группу на рядовом сервере или на компьютере с Windows NT Workstation или Windows 2000 Professional.
 
 
 ```VB
@@ -154,9 +154,9 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 
 
 
 

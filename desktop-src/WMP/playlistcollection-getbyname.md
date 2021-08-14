@@ -3,9 +3,9 @@ title: Плайлистколлектион. Жетбинаме, метод
 description: Метод Жетбинаме извлекает объект Плайлистаррай, содержащий списки воспроизведения с указанным именем, если таковые имеются.
 ms.assetid: 0308a98d-1149-4367-b602-33fa54c1760f
 keywords:
-- Жетбинаме метод Windows Media Player
-- Жетбинаме метод Windows Media Player, класс Плайлистколлектион
-- Класс Плайлистколлектион Windows Media Player, метод Жетбинаме
+- проигрыватель Windows Media метода жетбинаме
+- проигрыватель Windows Media метода жетбинаме, класс плайлистколлектион
+- класс плайлистколлектион проигрыватель Windows Media, метод жетбинаме
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7954df8e0ccc487df77ea31b3a26dce9eea6d2e0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 300307ff011abf8b28c645901422291ccab4cf7c66a7a3ba81121ffe1c22e573
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105718033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118334645"
 ---
 # <a name="playlistcollectiongetbyname-method"></a>Плайлистколлектион. Жетбинаме, метод
 
@@ -53,7 +53,7 @@ retVal = PlaylistCollection.getByName(
 
 Этот метод возвращает объект **плайлистаррай** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте *плайлистаррай*. **количество** , определяющее, существует ли список воспроизведения. Если значение **Count** равно нулю, список воспроизведения не существует.
 
@@ -61,7 +61,7 @@ retVal = PlaylistCollection.getByName(
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере JScript используется *плайлистколлектион*. **жетбинаме** , чтобы проверить объект **плайлистколлектион** для списка воспроизведения с именем "срилист". Если существует список воспроизведения "Срилист", **жетбинаме** устанавливает в качестве текущего списка воспроизведения "срилист". Объект **Player** был создан с идентификатором "Player".
+в следующем примере JScript используется *плайлистколлектион*. **жетбинаме** , чтобы проверить объект **плайлистколлектион** для списка воспроизведения с именем "срилист". Если существует список воспроизведения "Срилист", **жетбинаме** устанавливает в качестве текущего списка воспроизведения "срилист". Объект **Player** был создан с идентификатором "Player".
 
 
 ```JScript
@@ -83,13 +83,13 @@ if (Checkit > 0){
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
@@ -107,10 +107,10 @@ if (Checkit > 0){
 [**Объект Плайлистколлектион**](playlistcollection-object.md)
 </dt> <dt>
 
-[**Settings. Медиаакцессригхтс**](settings-mediaaccessrights.md)
+[**Параметры. медиаакцессригхтс**](settings-mediaaccessrights.md)
 </dt> <dt>
 
-[**Settings. Рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
+[**Параметры. рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
  

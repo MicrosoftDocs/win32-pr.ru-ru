@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 38be5b6ba4c3f6edcd716f4d0235150e96dd692a
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: b5fb6442481574de6732aef1359cf9586b9cdcc1815d9f0b206a1f8a597f1967
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108110782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118366004"
 ---
 # <a name="idelaydcstop-method"></a>Метод Иделайдк:: останавливаться
 
@@ -57,9 +57,9 @@ HRESULT STDMETHODCALLTYPE Stop(
 
 | Код возврата                                                                                          | Описание                                                                                                                           |
 |------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**НМЕРР \_ не \_ подключен**</dt> </dl> | НПП не подключен к сети. Вызовите [иделайдк:: Connect](idelaydc-connect.md) , чтобы подключить НПП к сети.<br/> |
+| <dl> <dt>**НМЕРР \_ не \_ подключен**</dt> </dl> | НПП не подключен к сети. вызовите [иделайдк:: Подключение](idelaydc-connect.md) , чтобы подключить нпп к сети.<br/> |
 | <dl> <dt>**НМЕРР \_ не \_ захватывается**</dt> </dl> | НПП не захватывает данные. Вызовите [иделайдк:: Start](idelaydc-start.md) , чтобы начать запись.<br/>                            |
-| <dl> <dt>**НМЕРР \_ не \_ отложена**</dt> </dl>   | НПП подключается к сети, но не с методом [иделайдк:: Connect](idelaydc-connect.md) .<br/>                     |
+| <dl> <dt>**НМЕРР \_ не \_ отложена**</dt> </dl>   | нпп подключается к сети, но не с помощью метода [иделайдк:: Подключение](idelaydc-connect.md) .<br/>                     |
 
 
 
@@ -71,7 +71,7 @@ HRESULT STDMETHODCALLTYPE Stop(
 
 Когда вы останавливаете и запускаете запись, убедитесь, что вы вызываете метод [иделайдк:: Configure](idelaydc-configure.md) каждый раз, когда вызывается [Иделайдк:: Start](idelaydc-start.md) для перезапуска записи.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -84,14 +84,14 @@ HRESULT STDMETHODCALLTYPE Stop(
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 
 [иделайдк](idelaydc.md)
 </dt> <dt>
 
-[Иделайдк:: Connect](idelaydc-connect.md)
+[иделайдк:: Подключение](idelaydc-connect.md)
 </dt> <dt>
 
 [Иделайдк:: Configure](idelaydc-configure.md)
