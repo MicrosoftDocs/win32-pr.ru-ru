@@ -16,12 +16,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 08/29/2019
-ms.openlocfilehash: a6c74685911e52a671eaeb02645754a45b8d647e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b21a97d15d2666dcfe0a304f2393d6d14c5dbcc4142d8b42f43f295d8751614b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105720922"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118529134"
 ---
 # <a name="id3d12commandqueuedownlevelpresent-method"></a>ID3D12CommandQueueDownlevel: метод повторной отправки:P
 
@@ -77,15 +77,15 @@ HRESULT Present
 
 Возвращает **S_OK** при успешном выполнении или в случае сбоя HRESULT.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Значение |
 |--------|------------------|
-| Header | d3d12downlevel. h |
+| Заголовок | d3d12downlevel. h |
 | DLL    | D3D12.dll (только Windows 7) |
 
 ## <a name="see-also"></a>См. также раздел
 * [ID3D12CommandQueueDownlevel](id3d12commandqueuedownlevel.md)
 * [Интерфейсы Direct3D 12 в Windows 7](direct3d-12on7-interfaces.md)
-* [Справочник по Direct3D 12 в Windows 7 (d3d12downlevel. h)](direct3d-12on7-reference.md)
+* [справочник по Direct3D 12 на Windows 7 (d3d12downlevel. h)](direct3d-12on7-reference.md)
 * [Direct3D 12 в Windows 7](https://devblogs.microsoft.com/directx/porting-directx-12-games-to-windows-7/)

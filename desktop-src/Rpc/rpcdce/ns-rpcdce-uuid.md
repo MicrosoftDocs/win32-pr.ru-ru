@@ -4,12 +4,12 @@ description: Предоставляет уникальное обозначен�
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 09/09/2019
-ms.openlocfilehash: 95d2d420502a5d92af64c902ffa82c709639d872
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 31ff8eb22a234020e0da5b5ebb5799d5ddb0c8d1dca7bc094394f79a5ceb0c0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104133294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118925951"
 ---
 # <a name="uuid-structure"></a>Структура UUID
 
@@ -23,11 +23,11 @@ ms.locfileid: "104133294"
 typedef GUID UUID;
 ```
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Библиотеки времени выполнения RPC используют **UUID** s для проверки совместимости между клиентами и серверами, а также для выбора из нескольких реализаций интерфейса.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | &nbsp; | &nbsp; |
 | ---- |:---- |

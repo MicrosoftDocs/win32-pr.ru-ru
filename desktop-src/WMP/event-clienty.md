@@ -3,7 +3,7 @@ title: событие. Клиент
 description: Клиентский атрибут Получает координату y указателя мыши относительно клиентской области окна приложения.
 ms.assetid: 2510f140-8d46-4fb2-80f5-98064c2b838c
 keywords:
-- Проигрыватель Windows Media для события. Клиент
+- проигрыватель Windows Media события. client
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b7dde8ecbd0da40cdbfb1bc9cd72fa190bbd2463
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8b412d376794e94c0e8969600a85faaf5e4ecab039703cd35c73a0f7d5896e0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105695193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118577410"
 ---
 # <a name="eventclienty"></a>событие. Клиент
 
@@ -37,7 +37,7 @@ event.clientY
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

@@ -4,12 +4,12 @@ description: 'При работе с несовместимыми изменен
 ms.assetid: 5b893d79-b81d-4ede-8d49-71d85219c497
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9498e5c71c7ce9690da0969f234fbb9d094eca50
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f0a8736093e8189570026489bc1753145b941b7429b704e2c9c68783ddefef0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068129"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118930043"
 ---
 # <a name="examples-of-incompatible-changes"></a>Примеры несовместимых изменений
 
@@ -27,9 +27,9 @@ ms.locfileid: "104068129"
 -   Изменение импортированного типа. Тип может быть получен из другого компонента, который не является удаленным напрямую, поэтому изменение было считалось совместимым.
 -   Использование \# ifdef в IDL-файле является неправильной идеей определений типа ifdef в IDL-файле — это аварийное завершение. Неизбежно, из-за сборки или других сбоев, клиент компилируется с другим набором определений, чем сервер, и в итоге они несовместимы.
 
- 
+ 
 
- 
+ 
 
 
 

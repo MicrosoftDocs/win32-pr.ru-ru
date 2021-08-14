@@ -1,5 +1,5 @@
 ---
-description: Указывает, что страница памяти была удалена из системы из-за избыточной проверки ошибок оборудования и ошибок коррекции (ECC). Этот класс доступен только в 64-разрядных системах Windows.
+description: Указывает, что страница памяти была удалена из системы из-за избыточной проверки ошибок оборудования и ошибок коррекции (ECC). этот класс доступен только в 64-разрядных Windows системах.
 ms.assetid: 364a2520-8d7c-44f2-95f6-eea9a5531975
 title: Класс MSMCAEvent_MemoryPageRemoved
 ms.topic: reference
@@ -16,16 +16,16 @@ api_type:
 - DllExport
 api_location:
 - Wmiprov.dll
-ms.openlocfilehash: dc29c5b51531e204ab50f062dd08ef8d5abf1bbf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d8229848cf1113736e3b9a4e37cd9493b8c724c58c384387536cded4742ca3c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693450"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118558471"
 ---
 # <a name="msmcaevent_memorypageremoved-class"></a>\_Класс мсмкаевент меморипажеремовед
 
-Класс **мсмкаевент \_ меморипажеремовед** указывает на то, что страница памяти была удалена из системы в связи с избыточной проверкой ошибок оборудования и исправлением ошибок (ECC). Этот класс доступен только в 64-разрядных системах Windows.
+Класс **мсмкаевент \_ меморипажеремовед** указывает на то, что страница памяти была удалена из системы в связи с избыточной проверкой ошибок оборудования и исправлением ошибок (ECC). этот класс доступен только в 64-разрядных Windows системах.
 
 Следующий синтаксис упрощен из кода MOF-файл (MOF) и включает все его унаследованные свойства. Свойства и методы имеют алфавитный порядок, а не порядок MOF.
 
@@ -46,7 +46,7 @@ class MSMCAEvent_MemoryPageRemoved : WmiEvent
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсмкаевент \_ меморипажеремовед** имеет следующие свойства.
 
@@ -96,11 +96,11 @@ class MSMCAEvent_MemoryPageRemoved : WmiEvent
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **мсмкаевент \_ меморипажеремовед** является производным от [**WMIEvent**](wmievent.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

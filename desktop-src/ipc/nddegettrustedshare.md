@@ -15,16 +15,16 @@ api_type:
 - DllExport
 api_location:
 - Nddeapi.dll
-ms.openlocfilehash: 1f8d7e79c48e0409d8040f6d44159c473dd58ee1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 117178118f59c4f8830cab8aee6afc263d169bf58bac5ac81d3e33305b7db9fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118481934"
 ---
 # <a name="nddegettrustedshare-function"></a>Функция Нддежеттрустедшаре
 
-\[Сетевой DDE больше не поддерживается. Nddeapi.dll имеется в Windows Vista, но все вызовы функций возвращают НДДЕ \_ не \_ реализован.\]
+\[Сетевой DDE больше не поддерживается. Nddeapi.dll имеется в Windows Vista, но все вызовы функций возвращают ндде \_ не \_ реализованы.\]
 
 Извлекает параметры, связанные с общим ресурсом DDE, который находится в списке доверенных общих ресурсов пользователя сервера.
 
@@ -102,11 +102,11 @@ UINT NDdeGetTrustedShare(
 
 Если функция завершается ошибкой, возвращаемое значение является кодом ошибки, который может быть преобразован в текстовое сообщение об ошибке путем вызова [**нддежетеррорстринг**](nddegeterrorstring.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Идентификатор изменения доверенного общего ресурса отражает версию общего ресурса DDE в DSDM на момент, когда общий ресурс DDE изначально получил состояние Trusted. Идентификатор изменения доверенного общего ресурса в основном используется для удаления устаревших доверенных общих ресурсов. Однако пользователю не нужно удалять устаревшие доверенные общие папки. Агент сетевого DDE удаляет устаревшие общие папки от имени пользователя.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -125,7 +125,7 @@ UINT NDdeGetTrustedShare(
 
 <dl> <dt>
 
-[Общие сведения о сетевом платформа динамических данных Exchange](network-dynamic-data-exchange.md)
+[общие сведения о Exchange сетевых платформа динамических данных](network-dynamic-data-exchange.md)
 </dt> <dt>
 
 [Сетевые функции DDE](network-dde-functions.md)
