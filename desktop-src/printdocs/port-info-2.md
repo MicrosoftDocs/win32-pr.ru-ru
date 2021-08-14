@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 1d2186193318387bb6e37a228bd4d2fd64eca6b6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 053745ff90e022ef2ed466518a9210d6dde18d3562fdb4232d9f4d262460ea7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118470944"
 ---
 # <a name="port_info_2-structure"></a>\_Сведения о порте \_ 2 Структура
 
@@ -92,13 +92,13 @@ typedef struct _PORT_INFO_2 {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте структуру **порт \_ \_ 2** при вызове [**енумпортс**](enumports.md) , если установлено несколько мониторов, поддерживающих одни и те же порты.
 
 Элемент **фпорттипе** можно запросить для определения сведений о порте. Обратите внимание, что параметры порта не влияют на атрибуты принтера (как они возвращаются элементом **Attributes** [**\_ сведений о принтере \_ 2**](printer-info-2.md)).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -106,7 +106,7 @@ typedef struct _PORT_INFO_2 {
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Винспул. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>винспул. h (включает Windows. h)</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **\_ \_ Сведения о \_ порте 2W** (Юникод) и **\_ \_ сведения о порте \_ 2A** (ANSI)<br/>                                 |
 
 

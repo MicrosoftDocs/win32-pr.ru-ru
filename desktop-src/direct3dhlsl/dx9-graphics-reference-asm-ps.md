@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f962038c8f0f6eb4bc836da5ad7b667d454fa5e9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9a6efea68568fa62705d463bbcdad367151d7e51ce820ff0a052b388724006dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104983736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118512844"
 ---
 # <a name="pixel-shaders"></a>Шейдеры пикселей
 
@@ -26,16 +26,16 @@ ms.locfileid: "104983736"
 -   [Инструкции шейдера пикселей](dx9-graphics-reference-asm-ps-instructions.md)
 -   [Различия шейдера пикселей](dx9-graphics-reference-asm-ps-differences.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Справочник по шейдеру ASM](dx9-graphics-reference-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

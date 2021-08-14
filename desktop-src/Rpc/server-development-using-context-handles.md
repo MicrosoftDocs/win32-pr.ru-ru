@@ -4,12 +4,12 @@ description: С точки зрения разработки серверной 
 ms.assetid: 6a1aabca-4cb9-401c-90c7-0cff7a69b7b6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f743a4a6aa4a2aa7b6987bb54dc56e55cffbc76
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: db05441f7314fba628d1ec07db5f99266c595c84e672ada976b38f7576ab5d1d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068418"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118925340"
 ---
 # <a name="server-development-using-context-handles"></a>Разработка сервера с помощью дескрипторов контекста
 
@@ -115,11 +115,11 @@ void RemoteClose(PPCONTEXT_HANDLE_TYPE pphContext)
 > [!Note]  
 > Хотя ожидается, что клиент передает допустимый дескриптор контекста в вызов с \[ \] атрибутами направления in, RPC не отклоняет дескрипторы контекста **null** для этого сочетания атрибутов направления. **Нулевой** маркер контекста передается на сервер в качестве указателя **null** . \[ \] Чтобы избежать нарушения прав доступа при получении указателя **null** , необходимо написать серверный код для вызовов, содержащих in, выходной обработчик контекста.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

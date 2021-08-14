@@ -4,12 +4,12 @@ ms.assetid: cd5c0fb1-3d61-3246-3567-5c12da9b3862
 title: Трехмерные векторные функции библиотеки Директксмас
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 42294fd88e13ff1ff31cb5aaabc65e40ea25d0f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 295905a704c42b0099c730c36ad0471774353dbeb63d05e4eea0ed2532255d9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119979234"
 ---
 # <a name="directxmath-library-3d-vector-functions"></a>Трехмерные векторные функции библиотеки Директксмас
 
@@ -29,7 +29,7 @@ ms.locfileid: "105711496"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

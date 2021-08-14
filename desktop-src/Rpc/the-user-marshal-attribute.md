@@ -7,12 +7,12 @@ keywords:
 - user_marshal
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f2bb3237b2d5df001dc94ede5fb03de72b5563eb
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5d0501cfd3199d41a49da7f54919c86f9332ce976f33963f23c63a7938338da0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104488065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118923534"
 ---
 # <a name="the-user_marshal-attribute"></a>Атрибут пользовательской \_ маршалирования
 
@@ -33,7 +33,7 @@ ms.locfileid: "104488065"
 
 
 
- 
+ 
 
 Эти пользовательские подпрограммы предоставляются как клиентом, так и серверным приложением на основе атрибутов направления.
 
@@ -41,7 +41,7 @@ ms.locfileid: "104488065"
 
 Для \[ [](/windows/desktop/Midl/out-idl) \] параметра только для выхода сервер передает клиенту. Серверу требуются функции **<type> \_ усерсизе** и **<type> \_ усермаршал** , тогда как клиенту требуется функция **<type> \_ усермаршал** .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -60,6 +60,6 @@ ms.locfileid: "104488065"
 [**ндржетусермаршалинфо**](/windows/desktop/api/Rpcndr/nf-rpcndr-ndrgetusermarshalinfo)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

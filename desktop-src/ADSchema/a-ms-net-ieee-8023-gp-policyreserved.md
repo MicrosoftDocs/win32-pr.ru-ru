@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 37b2e4a6e69185f78b0f0806e776043ec182517f
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 8b2c69413aabc62f7d6596d9d6e42eef97ea437e23c2bd6deab9c7bd3f29b268
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105656785"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119300114"
 ---
 # <a name="ms-net-ieee-8023-gp-policyreserved-attribute"></a>атрибут MS-NET-IEEE-8023-GP-Полициресервед
 
@@ -54,7 +54,7 @@ ms.locfileid: "105656785"
 | Идентификатор ссылки                | \-                                                                                |
 | MAPI-Id                | \-                                                                                |
 | System-Only            | Неверно                                                                             |
-| Является однозначным       | True                                                                              |
+| Является однозначным       | Верно                                                                              |
 | Индексируется             | Неверно                                                                             |
 | В глобальном каталоге      | Неверно                                                                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                      |
@@ -75,7 +75,7 @@ ms.locfileid: "105656785"
 | Идентификатор ссылки                | \-                                                                                |
 | MAPI-Id                | \-                                                                                |
 | System-Only            | Неверно                                                                             |
-| Является однозначным       | True                                                                              |
+| Является однозначным       | Верно                                                                              |
 | Индексируется             | Неверно                                                                             |
 | В глобальном каталоге      | Неверно                                                                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                      |
@@ -96,7 +96,7 @@ ms.locfileid: "105656785"
 | Идентификатор ссылки                | \-                                                                                |
 | MAPI-Id                | \-                                                                                |
 | System-Only            | Неверно                                                                             |
-| Является однозначным       | True                                                                              |
+| Является однозначным       | Верно                                                                              |
 | Индексируется             | Неверно                                                                             |
 | В глобальном каталоге      | Неверно                                                                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                      |

@@ -4,12 +4,12 @@ ms.assetid: 85a79698-a1ae-45a4-805e-25175034fa65
 title: О программе KTM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd1c477c7f9ae54b86fcee03435310416b38ea8d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a08aca70afbd44b1c23243239ec86839639ff46c3e16e698b65e96ff8a250b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118388923"
 ---
 # <a name="about-ktm"></a>О программе KTM
 
@@ -20,7 +20,7 @@ ms.locfileid: "104081496"
 -   [Что такое транзакция?](what-is-a-transaction.md)
 -   [Работа с транзакциями](programming-model.md)
 -   [Запись диспетчер ресурсов](writing-a-resource-manager.md)
--   [Взаимодействие с другими функциями Windows](interoperability-with-other-windows-features.md)
+-   [взаимодействие с другими функциями Windows](interoperability-with-other-windows-features.md)
 -   [Права доступа и безопасности KTM](ktm-security-and-access-rights.md)
 
 Для работы KTM используется [Файловая система CLFS](/previous-versions/windows/desktop/clfs/common-log-file-system-portal) . CLFS — это система ведения журналов, которая может включать транзакции.

@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: b737947b19e93a6b8de0563128a0f1be412101ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d42f74ce58c126130bd28820283c0b4262d3e3ce6b05106ae9ff74bc280ae234
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119353934"
 ---
 # <a name="driver_info_4-structure"></a>\_Структура сведений о драйвере \_ 4
 
@@ -68,7 +68,7 @@ typedef struct _DRIVER_INFO_4 {
 **пенвиронмент**
 </dt> <dd>
 
-Указатель на строку, завершающуюся нулем, которая указывает среду, для которой был записан драйвер (например, Windows x86, Windows IA64 и Windows x64).
+указатель на строку, завершающуюся нулем, которая указывает среду, для которой был записан драйвер (например, Windows x86, Windows IA64 и Windows x64).
 
 </dd> <dt>
 
@@ -128,7 +128,7 @@ typedef struct _DRIVER_INFO_4 {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -136,7 +136,7 @@ typedef struct _DRIVER_INFO_4 {
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Винспул. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>винспул. h (включает Windows. h)</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **\_ \_ Сведения о \_ драйвере 4W** (Юникод) и **\_ \_ сведения о драйвере \_ 4A** (ANSI)<br/>                             |
 
 

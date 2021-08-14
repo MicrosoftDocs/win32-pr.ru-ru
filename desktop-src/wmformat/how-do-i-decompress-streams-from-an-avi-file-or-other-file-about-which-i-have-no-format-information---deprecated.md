@@ -1,6 +1,6 @@
 ---
 title: Разделы справки распаковать потоки из файла AVI или другого файла, о котором у меня нет сведений о форматировании
-description: Текущую документацию по кодекам Windows Media и обработчикам цифровых сигналов см. в статье интерфейсы API аудио-и видеокодеков Windows Media и DSP. | Разделы справки распаковать потоки из файла AVI или другого файла, о котором у меня нет сведений о форматировании
+description: текущую документацию по Windows кодеков мультимедиа и обработчикам цифровых сигналов см. в разделе Windows media Audio и Video кодек и DSP api. | Разделы справки распаковать потоки из файла AVI или другого файла, о котором у меня нет сведений о форматировании
 ms.assetid: ba283da2-4ae4-442e-9efc-754c4e1fe0ac
 keywords:
 - Разделы справки распаковать потоки из файла AVI или другого файла, о котором у меня нет формата Windows Media Format
@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a522fcacf51050a481aadca230cb0cccdf2dff2e
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: f92234be5c987ff7da3efdd970f180f757a08987aa9c5bf94f417e5f46fc6467
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105703599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118198495"
 ---
 # <a name="how-do-i-decompress-streams-from-an-avi-file-or-other-file-about-which-i-have-no-format-information"></a>Разделы справки распаковать потоки из файла AVI или другого файла, о котором у меня нет сведений о форматировании
 
-Текущую документацию по кодекам Windows Media и обработчикам цифровых сигналов см [. в статье интерфейсы API аудио-и видеокодеков Windows Media и DSP.](/previous-versions//dd464626(v=vs.85))
+текущую документацию по Windows кодеков мультимедиа и обработчикам цифровых сигналов см [. в разделе Windows media Audio и Video кодек и DSP api.](/previous-versions//dd464626(v=vs.85))
 
  
 

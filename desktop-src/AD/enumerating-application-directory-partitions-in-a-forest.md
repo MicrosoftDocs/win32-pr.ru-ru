@@ -8,12 +8,12 @@ keywords:
 - Разделы каталога приложений AD, перечисление в лесу
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d42bbe28ef37932394721d0c234ba3970ac263b
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 2c4e8d48b2fc93ad7a879f76f2bbaa130186706ef957320612c866cb3b9f892c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104069775"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118191371"
 ---
 # <a name="enumerating-application-directory-partitions-in-a-forest"></a>Перечисление разделов каталога приложений в лесу
 
@@ -31,6 +31,6 @@ ms.locfileid: "104069775"
 4.  Исключите раздел конфигурации из результирующего набора, сравнив атрибут [**NCName**](/windows/desktop/ADSchema/a-ncname) объекта [**crossRef**](/windows/desktop/ADSchema/c-crossref) с атрибутом **конфигуратионнамингконтекст** объекта RootDSE.
 5.  Остальные объекты [**crossRef**](/windows/desktop/ADSchema/c-crossref) в результирующем наборе представляют разделы каталога приложений.
 
- 
+ 
 
- 
+ 

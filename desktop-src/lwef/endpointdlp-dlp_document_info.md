@@ -1,6 +1,6 @@
 ---
 description: Указывает сведения о документе, связанном с операцией DLP конечной точки.
-title: Структура DLP_DOCUMENT_INFO (ендпоинтдлп. h)
+title: Структура DLP_DOCUMENT_INFO (endpointdlp.h)
 ms.topic: reference
 ms.date: 03/18/2021
 topic_type:
@@ -12,12 +12,12 @@ api_type:
 - COM
 api_location:
 - endpointdlp.h
-ms.openlocfilehash: d588b627a4d5a88162cb0af67df1b5bf4fd943f1
-ms.sourcegitcommit: 91110c16e4713ed82d7fb80562d3ddf40b5d76b2
+ms.openlocfilehash: 8aa4b6c961b4e80786e9ada480949245b032750499b38f0deead44f97a2d88fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "107495960"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118479767"
 ---
 # <a name="dlp_document_info-structure"></a>Структура DLP_DOCUMENT_INFO
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 761721a4de64e8a9168bcfea49ce7adf567ea7ef
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3e10e4eee48490e7ae998e39d71265aef74339c1979112e2fcf0e47e5b07cda7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104252740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118512945"
 ---
 # <a name="ps_1_1-ps_1_2-ps_1_3-ps_1_4"></a>PS \_ 1 \_ 1, PS \_ 1 \_ 2, PS \_ 1 \_ 3, PS \_ 1 \_ 4
 
@@ -23,7 +23,7 @@ ms.locfileid: "104252740"
 > [!Note]  
 > Поддержка HLSL для Pixel Shader 1. x является устаревшей.
 
- 
+ 
 
 ## <a name="instructions"></a>Инструкции
 
@@ -52,16 +52,16 @@ ms.locfileid: "104252740"
 -   Для PS \_ 1 \_ 0-PS \_ 1 \_ 3 Максимальное значение равно 4.
 -   Для PS \_ 1 \_ 4 максимальное значение равно 6.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Шейдеры пикселей](dx9-graphics-reference-asm-ps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

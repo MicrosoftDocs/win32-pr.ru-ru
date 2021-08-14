@@ -3,9 +3,9 @@ title: IWMPMediaCollection2 Жетбяттрибутеандмедиатипе, 
 description: Метод Жетбяттрибутеандмедиатипе возвращает интерфейс Ивмпплайлист, предоставляющий доступ к элементам мультимедиа с указанным атрибутом и типом мультимедиа.
 ms.assetid: dce9cef4-1d12-4bee-a75d-42274556c5bc
 keywords:
-- Жетбяттрибутеандмедиатипе метод Windows Media Player
-- Жетбяттрибутеандмедиатипе метод проигрывателя Windows Media Player, интерфейс IWMPMediaCollection2
-- Интерфейс IWMPMediaCollection2 Windows Media Player, метод Жетбяттрибутеандмедиатипе
+- проигрыватель Windows Media метода жетбяттрибутеандмедиатипе
+- проигрыватель Windows Media метода жетбяттрибутеандмедиатипе, интерфейс IWMPMediaCollection2
+- проигрыватель Windows Media интерфейса IWMPMediaCollection2, метод жетбяттрибутеандмедиатипе
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb1ee4e9421b4546cdc8ace6173dacab5034b905
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e08d38954dd24246b4d35b7842f890caba6eea94868901a528396e9a22b38c1a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119246441"
 ---
 # <a name="iwmpmediacollection2getbyattributeandmediatype-method"></a>Метод IWMPMediaCollection2:: Жетбяттрибутеандмедиатипе
 
@@ -82,13 +82,13 @@ Implements IWMPMediaCollection2.getByAttributeAndMediaType
 
 Интерфейс **вмплиб. ивмпплайлист** для полученного списка воспроизведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 11.<br/>                                                                                    |
+| Версия<br/>   | проигрыватель Windows Media 11.<br/>                                                                                    |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

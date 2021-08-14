@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 19587cbaa79e2b89633560a7b7889219172d0c25
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: 79145936709e43fab9b87602233225567a0067528a31036aacc11c5b425c0dfe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112010867"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118512898"
 ---
 # <a name="ps_3_0"></a>PS \_ 3 \_ 0
 
@@ -31,7 +31,7 @@ ms.locfileid: "112010867"
 
 Добавьте регистр лиц. Добавьте регистр позиций. Регистры цветов (v \# ) теперь полностью плавающей точкой, а регистры координат текстуры (t \# ) были объединены. Входные объявления принимают имена использования, и для компонентов заданной регистрации разрешено несколько использований.
 
-## <a name="dynamic-flow-control"></a>Динамическое управление потоком
+## <a name="dynamic-flow-control"></a>динамический Flow элемент управления
 
 Устройство поддерживает управление динамическими потоками ([Если bool-PS](if-bool---ps.md), [break-PS](break---ps.md)и [break \_ -PS](break-comp---ps.md)). Глубина вложенности диапазонов от 0 до 24.
 
@@ -39,7 +39,7 @@ ms.locfileid: "112010867"
 
 Количество поддерживаемых временных регистров составляет 32.
 
-## <a name="static-flow-control-nesting-depth"></a>Глубина вложения статического управления потоком
+## <a name="static-flow-control-nesting-depth"></a>глубина вложения статического элемента управления Flow
 
 Параметр [пред-PS](call---ps.md) / [каллнз](callnz-bool---ps.md)  / [Call \_ ](callnz-pred---ps.md) можно вложить в максимальную глубину 4. По отдельности инструкции [Loop-PS](loop---ps.md) / [-PS](rep---ps.md) могут быть вложены в максимальную глубину 4.
 

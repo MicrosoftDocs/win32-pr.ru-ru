@@ -4,12 +4,12 @@ ms.assetid: 84769515-3f3b-4464-9620-7b806bf905b3
 title: Основные структуры Direct3D 10
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8de2260b108ea340a97f24acf61f6ae686e00342
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5351ce55b3c693d9ceb9b7cbc953808b8926f9be59ba0eaedd7b9f495f250018
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103807954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119379974"
 ---
 # <a name="direct3d-10-core-structures"></a>Основные структуры Direct3D 10
 
@@ -60,7 +60,7 @@ typedef RECT D3D10_RECT;
 
 Документацию см. в разделе [Rect](/previous-versions//ms536136(v=vs.85)).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

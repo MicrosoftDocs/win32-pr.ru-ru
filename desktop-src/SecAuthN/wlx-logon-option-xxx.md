@@ -4,21 +4,21 @@ ms.assetid: a146427b-f3f1-4221-b2eb-ee7da451314a
 title: WLX_LOGON_OPTION_XXX (Винвлкс. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3fa8909f562b87eb3a8147b0684d9676b9ac55d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae482fa7af757a18fc3a38f809befbee94e4d59753cde8e35e01d172bcc065d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104347135"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118914763"
 ---
 # <a name="wlx_logon_option_xxx"></a>\_параметр входа \_ влкс \_ xxx
 
-\[Параметр ВЛКС \_ logon \_ \_ xxx константа больше не доступен для использования в Windows Server 2008 и Windows Vista.\]
+\[параметр влкс \_ LOGON \_ \_ XXX константа больше не доступен для использования в Windows Server 2008 и Windows Vista.\]
 
 Значения **\_ параметра влкс \_ logon \_ xxx** используются параметром *двоптионс* объекта [**влкслогжедаутсас**](/windows/desktop/api/Winwlx/nf-winwlx-wlxloggedoutsas).
 
 > [!Note]  
-> Библиотеки DLL GINA не учитываются в Windows Vista.
+> библиотеки dll GINA не учитываются в Windows Vista.
 
  
 
@@ -32,14 +32,14 @@ ms.locfileid: "104347135"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                         |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                         |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                |
 | Окончание поддержки клиента<br/>    | Windows XP<br/>                                                               |
 | Поддержка конца сервера<br/>    | Windows Server 2003<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Винвлкс. h</dt> </dl> |

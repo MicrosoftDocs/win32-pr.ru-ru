@@ -4,12 +4,12 @@ ms.assetid: 50aa9da2-3a8a-4514-9b1b-9c8364d074d0
 title: Записи Real-Time
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24bdf5bc451173a98d1c4428674d308f8b3b8d79
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dc75d05088a2f1fe4518bc8ed81ab78c65b83278d77e4c60a58957b8aca3b7a9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103913651"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119339524"
 ---
 # <a name="real-time-captures"></a>Записи Real-Time
 

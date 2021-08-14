@@ -1,15 +1,15 @@
 ---
-description: 'В следующей таблице описано, какие потоки могут срабатывать события объекта InkOverlay. Евентсреадскурсорбуттондовнфирес на Среадкурсорбуттонупфирес рукописного ввода Среадкурсордовнфирес рукописного ввода в threadCursorInRangeFires рукописного ввода threadCursorOutOfRangeFires рукописного ввода threadDoubleClick (только автоматизация). Активируется в пользовательском интерфейсе приложения (UI) Среаддаублекликк (только управляемая библиотека). Активируется в пользовательском интерфейсе приложения, Среаджестурефирес на Среадмауседовнфирес пользовательского интерфейса приложения Среадмаусемовефирес в пользовательском интерфейсе приложения Среадмаусеупфирес в пользовательском интерфейсе приложения threadMouseWheelFires в пользовательском интерфейсе приложения threadNewInAirPacketsFires на пользовательского интерфейса пользователя в threadNewPacketsFires пользовательского интерфейса приложения в пользовательском интерфейсе приложения threadPaintedFires в потоке рукописного ввода. или в потоке, который обновляет выделенный фрагмент объекта InkOverlay propertySelectionChangingFires на threadSelectionMovedFires рукописного ввода threadSelectionMovingFires на threadSelectionResizedFires рукописного ввода в threadSelectionResizingFires рукописный ввод Среадстрокефирес на рукописном Среадстрокесделетедфирес на Среадстрокесделетингфирес рукописного ввода в Среадсистемжестурефирес рукописного ввода threadTabletAddedFires в потоке рукописного ввода '
+description: 'В следующей таблице описано, какие потоки могут срабатывать события объекта InkOverlay. Евентсреадскурсорбуттондовнфирес на Среадкурсорбуттонупфирес рукописного ввода Среадкурсордовнфирес рукописного ввода в threadCursorInRangeFires рукописного ввода threadCursorOutOfRangeFires рукописного ввода threadDoubleClick (только автоматизация). Активируется в пользовательском интерфейсе приложения (UI) Среаддаублекликк (только управляемая библиотека). Активируется в пользовательском интерфейсе приложения, Среаджестурефирес на Среадмауседовнфирес пользовательского интерфейса приложения Среадмаусемовефирес в пользовательском интерфейсе приложения Среадмаусеупфирес в пользовательском интерфейсе приложения threadMouseWheelFires в пользовательском интерфейсе приложения threadNewInAirPacketsFires на е пользовательского интерфейса в приложении, поддерживающем рукописный ввод в пользовательском интерфейсе приложения threadNewPacketsFires, в пользовательском интерфейсе приложения threadPaintedFires в потоке рукописного ввода, или в потоке, который обновляет объект  Выделение Пропертиселектиончангингфирес на рукописном Среадселектионмоведфирес на рукописном Среадселектионмовингфирес на рукописном threadSelectionResizedFires рукописного ввода threadSelectionResizingFires на рукописном threadStrokeFires на рукописном вводе в threadStrokesDeletedFires на рукописном вводе threadStrokesDeletingFires на рукописном threadSystemGestureFires в потоке рукописного ввода threadTabletAddedFires '
 ms.assetid: 5d679e66-6ea1-491e-86a8-974c4ec61b96
 title: События объекта InkOverlay
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6122709f043fa94f4c1b3d04fcd1c51bb3cd8982
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 531ee197a14edf3ce0aa8595bdbcdb3ea2937d9cf863dcc6e95690088ed8ee96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702862"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118218967"
 ---
 # <a name="inkoverlay-object-events"></a>События объекта InkOverlay
 

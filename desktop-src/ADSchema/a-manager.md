@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f42c659a436f9798861f5c37df19f8d10db91127
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e87b17f3252963e03c86b5b25a3651606a004afe672f1c8ec07f419ddff3a826
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104416285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119301264"
 ---
 # <a name="manager-attribute"></a>Атрибут Manager
 
@@ -58,9 +58,9 @@ ms.locfileid: "104416285"
 | Идентификатор ссылки                | 42                                                                 |
 | MAPI-Id                | 0x8005                                                             |
 | System-Only            | Неверно                                                              |
-| Является однозначным       | True                                                               |
+| Является однозначным       | Верно                                                               |
 | Индексируется             | Неверно                                                              |
-| В глобальном каталоге      | True                                                               |
+| В глобальном каталоге      | Верно                                                               |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                       |
 | Range-Lower            | \-                                                                 |
 | Range-Upper            | \-                                                                 |
@@ -79,9 +79,9 @@ ms.locfileid: "104416285"
 | Идентификатор ссылки                | 42                                                                                                                     |
 | MAPI-Id                | 0x8005                                                                                                                 |
 | System-Only            | Неверно                                                                                                                  |
-| Является однозначным       | True                                                                                                                   |
+| Является однозначным       | Верно                                                                                                                   |
 | Индексируется             | Неверно                                                                                                                  |
-| В глобальном каталоге      | True                                                                                                                   |
+| В глобальном каталоге      | Верно                                                                                                                   |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                           |
 | Range-Lower            | \-                                                                                                                     |
 | Range-Upper            | \-                                                                                                                     |
@@ -100,9 +100,9 @@ ms.locfileid: "104416285"
 | Идентификатор ссылки                | 42                                                                                                                     |
 | MAPI-Id                | 0x8005                                                                                                                 |
 | System-Only            | Неверно                                                                                                                  |
-| Является однозначным       | True                                                                                                                   |
+| Является однозначным       | Верно                                                                                                                   |
 | Индексируется             | Неверно                                                                                                                  |
-| В глобальном каталоге      | True                                                                                                                   |
+| В глобальном каталоге      | Верно                                                                                                                   |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                           |
 | Range-Lower            | \-                                                                                                                     |
 | Range-Upper            | \-                                                                                                                     |
@@ -121,9 +121,9 @@ ms.locfileid: "104416285"
 | Идентификатор ссылки                | 42                                                                                                                     |
 | MAPI-Id                | 0x8005                                                                                                                 |
 | System-Only            | Неверно                                                                                                                  |
-| Является однозначным       | True                                                                                                                   |
+| Является однозначным       | Верно                                                                                                                   |
 | Индексируется             | Неверно                                                                                                                  |
-| В глобальном каталоге      | True                                                                                                                   |
+| В глобальном каталоге      | Верно                                                                                                                   |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                           |
 | Range-Lower            | \-                                                                                                                     |
 | Range-Upper            | \-                                                                                                                     |
@@ -142,9 +142,9 @@ ms.locfileid: "104416285"
 | Идентификатор ссылки                | 42                                                                                                                     |
 | MAPI-Id                | 0x8005                                                                                                                 |
 | System-Only            | Неверно                                                                                                                  |
-| Является однозначным       | True                                                                                                                   |
+| Является однозначным       | Верно                                                                                                                   |
 | Индексируется             | Неверно                                                                                                                  |
-| В глобальном каталоге      | True                                                                                                                   |
+| В глобальном каталоге      | Верно                                                                                                                   |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                           |
 | Range-Lower            | \-                                                                                                                     |
 | Range-Upper            | \-                                                                                                                     |
@@ -163,9 +163,9 @@ ms.locfileid: "104416285"
 | Идентификатор ссылки                | 42                                                                                                                     |
 | MAPI-Id                | 0x8005                                                                                                                 |
 | System-Only            | Неверно                                                                                                                  |
-| Является однозначным       | True                                                                                                                   |
+| Является однозначным       | Верно                                                                                                                   |
 | Индексируется             | Неверно                                                                                                                  |
-| В глобальном каталоге      | True                                                                                                                   |
+| В глобальном каталоге      | Верно                                                                                                                   |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                           |
 | Range-Lower            | \-                                                                                                                     |
 | Range-Upper            | \-                                                                                                                     |

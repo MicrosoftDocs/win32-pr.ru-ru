@@ -4,12 +4,12 @@ ms.assetid: 1e8aeda8-2810-462a-bfba-0296d854d9aa
 title: Константы LINEMEDIACONTROL_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3241a3b5f4f8a0363f30ce7aefaded0c63fc4189
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f54c7c83df769eef91afe7c310452c342a855f44391815bbc4429ac07bb6ec92
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119309974"
 ---
 # <a name="linemediacontrol_-constants"></a>\_Константы линемедиаконтрол
 
@@ -125,7 +125,7 @@ ms.locfileid: "105689120"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Старшие 16 бит можно назначить для расширений для конкретных устройств. 16 младших разрядов зарезервированы.
 
@@ -133,7 +133,7 @@ ms.locfileid: "105689120"
 
 Действия управления мультимедиа могут быть связаны с обнаружением цифр, обнаружением тонов, переходом в состояние вызова и обнаружением типа носителя. Ознакомьтесь с возможностями устройства линии, чтобы определить, доступен ли элемент управления мультимедиа в строке.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

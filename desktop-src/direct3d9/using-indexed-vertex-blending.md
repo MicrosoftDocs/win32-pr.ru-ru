@@ -4,12 +4,12 @@ ms.assetid: 4c15cfc5-afdf-48d4-8fd1-b10cbe596a1c
 title: Использование индексированного смешения вершин (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 120362e4a86081ff51aee9053d1526a9a08f014a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3a2d14e66fd934e2eaa8b403d694d203edddb229aab0795fa4a396b8baf367ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103894309"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118519479"
 ---
 # <a name="using-indexed-vertex-blending-direct3d-9"></a>Использование индексированного смешения вершин (Direct3D 9)
 
@@ -123,7 +123,7 @@ D3DVERTEXELEMENT9 decl[] =
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

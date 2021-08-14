@@ -4,16 +4,16 @@ description: Иажентнотифисинк закладка
 ms.assetid: 172042af-a524-4ea4-955d-4e3dee079344
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1febedfc962904544a49b8621812d0518026b459
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 02562b7cbf42c3445a25edc5071476da1b2d8dc53d80923ad875fddf09e5d31b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103774846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118477100"
 ---
 # <a name="iagentnotifysinkbookmark"></a>Иажентнотифисинк:: Bookmark
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT Bookmark(
@@ -36,14 +36,14 @@ HRESULT Bookmark(
 
 При включении тегов закладок в метод [**говорите**](speak-method.md) можно отнестись к возникновению этого события.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [**Иажентчарактер:: говорите**](iagentcharacter--speak.md), [теги выходных данных агента Microsoft Agent](microsoft-agent-speech-output-tags.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

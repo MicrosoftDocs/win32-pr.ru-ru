@@ -5,12 +5,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: db8cfb63-7476-42ee-9c62-031200ca46b6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fa2cc4d2d970dc6f6a526654433e9e066a57a0d
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 51faa8b2bb94ec14a6d55d11b1f76967f37ae0d29f85d2d10602a59fb848240d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103800796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118928653"
 ---
 # <a name="l-rpc"></a>L (RPC)
 
@@ -28,7 +28,7 @@ ms.locfileid: "103800796"
 <span id="_rpc_locator_glos"></span><span id="_RPC_LOCATOR_GLOS"></span>**Расположение**
 </dt> <dd>
 
-Microsoft Windows Name-Service Provider. См. также [*служба имен*](n-glos.md).
+Microsoft Windows имя — поставщик служб. См. также [*служба имен*](n-glos.md).
 
 </dd> </dl>
 

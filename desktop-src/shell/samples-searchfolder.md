@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: c86a29c4a7d01fad3b91db20035cb84751e0b78a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8af53b6617ad2d655367969195e16854715e9ab75b65416bd9c75deaa9932988
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118219820"
 ---
 # <a name="search-folder-sample"></a>Пример: поиск в папке
 
@@ -32,7 +32,7 @@ ms.locfileid: "104265465"
 
 В этом примере показано, как создать ограниченный Поиск с помощью интерфейса [**исеарчфолдеритемфактори**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-isearchfolderitemfactory) для создания элемента оболочки папки (контейнера), представляющего запрос. Результаты отображаются с помощью диалогового окна открытия файла.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

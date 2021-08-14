@@ -4,12 +4,12 @@ ms.assetid: 53d976fe-07d2-4b68-ae21-1dbd00d76942
 title: ICE49
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5edc5ba319380e92fe7d1b7410673c1c688eb337
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa16dfb082186fd13fccc4cde95abf35b99894cdc18e322eb3e57e67d29465ad
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911912"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119381804"
 ---
 # <a name="ice49"></a>ICE49
 
@@ -47,7 +47,7 @@ Reg Entry 'Reg1' is not of type REG_SZ. Default types must be REG_SZ
 
 Компоненты с **\_ SZами** , отличными от reg, являются допустимыми.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

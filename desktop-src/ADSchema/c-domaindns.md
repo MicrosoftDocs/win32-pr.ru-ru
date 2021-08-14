@@ -1,6 +1,6 @@
 ---
 title: Класс домена DNS
-description: Домен Windows NT с именем на основе DNS (DC).
+description: Windows NT домен с именем на основе DNS (DC).
 ms.assetid: 14e0ae19-0dfc-4697-8b65-d4053a682c7c
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cc41eb5cc89aafb92473a6d116e53becddbf07a4
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: de90ff2e35417d449d42f5ed6ded368d672969f1051763eca60c0a22290004d7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104535864"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119324704"
 ---
 # <a name="domain-dns-class"></a>Класс домена DNS
 
-Домен Windows NT с именованием на основе DNS (DC =).
+Windows NT домен с именованием на основе DNS (DC =).
 
 
 
@@ -71,9 +71,9 @@ ms.locfileid: "104535864"
 
 
 
-## <a name="windows-2000-server-attributes"></a>Атрибуты сервера Windows 2000
+## <a name="windows-2000-server-attributes"></a>атрибуты сервера Windows 2000
 
-Этот класс содержит следующие атрибуты для сервера Windows 2000:
+этот класс содержит следующие атрибуты для сервера Windows 2000:
 
 
 
@@ -100,7 +100,7 @@ ms.locfileid: "104535864"
 | [**Рабочий стол — профиль**](a-desktopprofile.md)                               | Неверно     | [**SAM-домен**](c-samdomain.md)<br/>                                 |
 | [**Отображаемое имя**](a-displayname.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**Отображаемое имя — печатаемое**](a-displaynameprintable.md)                  | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
-| [**Компонент домена**](a-dc.md)                                          | True      | [**Домен**](c-domain.md)<br/>                                        |
+| [**Компонент домена**](a-dc.md)                                          | Верно      | [**Домен**](c-domain.md)<br/>                                        |
 | [**Домен — политика-объект**](a-domainpolicyobject.md)                      | Неверно     | [**SAM-домен**](c-samdomain.md)<br/>                                 |
 | [**DSA-Signature**](a-dsasignature.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**DS-Core-распространение-данные**](a-dscorepropagationdata.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
@@ -113,7 +113,7 @@ ms.locfileid: "104535864"
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**GP — ссылка**](a-gplink.md)                                               | Неверно     | [**SAM-домен**](c-samdomain.md)<br/>                                 |
 | [**GP — параметры**](a-gpoptions.md)                                         | Неверно     | [**SAM-домен**](c-samdomain.md)<br/>                                 |
-| [**Тип экземпляра**](a-instancetype.md)                                   | True      | [**Вверх**](c-top.md)<br/>                                              |
+| [**Тип экземпляра**](a-instancetype.md)                                   | Верно      | [**Вверх**](c-top.md)<br/>                                              |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)             | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**Удалено**](a-isdeleted.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
@@ -140,10 +140,10 @@ ms.locfileid: "104535864"
 | [**Next-RID**](a-nextrid.md)                                             | Неверно     | [**SAM-домен**](c-samdomain.md)<br/>                                 |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                   | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**NT — смешанный домен**](a-ntmixeddomain.md)                                | Неверно     | [**SAM-домен**](c-samdomain.md)<br/>                                 |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                  | True      | [**Вверх**](c-top.md)<br/>                                              |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                  | Верно      | [**Вверх**](c-top.md)<br/>                                              |
 | [**Obj-расп-имя**](a-distinguishedname.md)                              | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
-| [**Объект — Категория**](a-objectcategory.md)                               | True      | [**Вверх**](c-top.md)<br/>                                              |
-| [**Объектный класс**](a-objectclass.md)                                     | True      | [**Вверх**](c-top.md)<br/>                                              |
+| [**Объект — Категория**](a-objectcategory.md)                               | Верно      | [**Вверх**](c-top.md)<br/>                                              |
+| [**Объектный класс**](a-objectclass.md)                                     | Верно      | [**Вверх**](c-top.md)<br/>                                              |
 | [**Объект — GUID**](a-objectguid.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**Версия объекта**](a-objectversion.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
@@ -190,9 +190,9 @@ ms.locfileid: "104535864"
 
 
 
-## <a name="windows-2000-server-extended-rights"></a>Расширенные права сервера Windows 2000
+## <a name="windows-2000-server-extended-rights"></a>расширенные права сервера Windows 2000
 
-Этот класс содержит следующие расширенные права для сервера Windows 2000:
+этот класс содержит следующие расширенные права для сервера Windows 2000:
 
 
 
@@ -232,9 +232,9 @@ ms.locfileid: "104535864"
 
 
 
-## <a name="windows-server-2003-attributes"></a>Атрибуты Windows Server 2003
+## <a name="windows-server-2003-attributes"></a>Windows Атрибуты сервера 2003
 
-Этот класс содержит следующие атрибуты для Windows Server 2003:
+этот класс содержит следующие атрибуты для Windows Server 2003:
 
 
 
@@ -261,7 +261,7 @@ ms.locfileid: "104535864"
 | [**Рабочий стол — профиль**](a-desktopprofile.md)                                         | Неверно     | [**SAM-домен**](c-samdomain.md)<br/>                                 |
 | [**Отображаемое имя**](a-displayname.md)                                               | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**Отображаемое имя — печатаемое**](a-displaynameprintable.md)                            | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
-| [**Компонент домена**](a-dc.md)                                                    | True      | [**Домен**](c-domain.md)<br/>                                        |
+| [**Компонент домена**](a-dc.md)                                                    | Верно      | [**Домен**](c-domain.md)<br/>                                        |
 | [**Домен — политика-объект**](a-domainpolicyobject.md)                                | Неверно     | [**SAM-домен**](c-samdomain.md)<br/>                                 |
 | [**DSA-Signature**](a-dsasignature.md)                                             | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**DS-Core-распространение-данные**](a-dscorepropagationdata.md)                         | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
@@ -274,7 +274,7 @@ ms.locfileid: "104535864"
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**GP — ссылка**](a-gplink.md)                                                         | Неверно     | [**SAM-домен**](c-samdomain.md)<br/>                                 |
 | [**GP — параметры**](a-gpoptions.md)                                                   | Неверно     | [**SAM-домен**](c-samdomain.md)<br/>                                 |
-| [**Тип экземпляра**](a-instancetype.md)                                             | True      | [**Вверх**](c-top.md)<br/>                                              |
+| [**Тип экземпляра**](a-instancetype.md)                                             | Верно      | [**Вверх**](c-top.md)<br/>                                              |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                       | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**Удалено**](a-isdeleted.md)                                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                               | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
@@ -324,10 +324,10 @@ ms.locfileid: "104535864"
 | [**Next-RID**](a-nextrid.md)                                                       | Неверно     | [**SAM-домен**](c-samdomain.md)<br/>                                 |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                             | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**NT — смешанный домен**](a-ntmixeddomain.md)                                          | Неверно     | [**SAM-домен**](c-samdomain.md)<br/>                                 |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                            | True      | [**Вверх**](c-top.md)<br/>                                              |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                            | Верно      | [**Вверх**](c-top.md)<br/>                                              |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
-| [**Объект — Категория**](a-objectcategory.md)                                         | True      | [**Вверх**](c-top.md)<br/>                                              |
-| [**Объектный класс**](a-objectclass.md)                                               | True      | [**Вверх**](c-top.md)<br/>                                              |
+| [**Объект — Категория**](a-objectcategory.md)                                         | Верно      | [**Вверх**](c-top.md)<br/>                                              |
+| [**Объектный класс**](a-objectclass.md)                                               | Верно      | [**Вверх**](c-top.md)<br/>                                              |
 | [**Объект — GUID**](a-objectguid.md)                                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**Версия объекта**](a-objectversion.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                         | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
@@ -375,9 +375,9 @@ ms.locfileid: "104535864"
 
 
 
-## <a name="windows-server-2003-extended-rights"></a>Расширенные права Windows Server 2003
+## <a name="windows-server-2003-extended-rights"></a>Windows Расширенные права сервера 2003
 
-Этот класс содержит следующие расширенные права для Windows Server 2003:
+этот класс содержит следующие расширенные права для Windows Server 2003:
 
 
 
@@ -402,9 +402,9 @@ ms.locfileid: "104535864"
 
 
 
-## <a name="windows-server-2003-property-sets"></a>Наборы свойств Windows Server 2003
+## <a name="windows-server-2003-property-sets"></a>Windows Сервер 2003 наборы свойств
 
-Этот класс содержит следующие наборы свойств для Windows Server 2003:
+этот класс содержит следующие наборы свойств для Windows Server 2003:
 
 
 
@@ -459,12 +459,12 @@ ms.locfileid: "104535864"
 | [**Метка времени создания**](a-createtimestamp.md)                              | Неверно     | [**Вверх**](c-top.md)<br/>       |
 | [**Описание**](a-description.md)                                        | Неверно     | [**Вверх**](c-top.md)<br/>       |
 | [**Отображаемое имя**](a-displayname.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>       |
-| [**Компонент домена**](a-dc.md)                                            | True      | [**Домен**](c-domain.md)<br/> |
+| [**Компонент домена**](a-dc.md)                                            | Верно      | [**Домен**](c-domain.md)<br/> |
 | [**DSA-Signature**](a-dsasignature.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/>       |
 | [**DS-Core-распространение-данные**](a-dscorepropagationdata.md)                 | Неверно     | [**Вверх**](c-top.md)<br/>       |
 | [**Из записи**](a-fromentry.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>       |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/>       |
-| [**Тип экземпляра**](a-instancetype.md)                                     | True      | [**Вверх**](c-top.md)<br/>       |
+| [**Тип экземпляра**](a-instancetype.md)                                     | Верно      | [**Вверх**](c-top.md)<br/>       |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)               | Неверно     | [**Вверх**](c-top.md)<br/>       |
 | [**Удалено**](a-isdeleted.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>       |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>       |
@@ -486,10 +486,10 @@ ms.locfileid: "104535864"
 | [**MS-DS-REPL-Attribute-Meta-Data**](a-msds-replattributemetadata.md)      | Неверно     | [**Вверх**](c-top.md)<br/>       |
 | [**MS-DS-REPL-value-Meta-Data**](a-msds-replvaluemetadata.md)              | Неверно     | [**Вверх**](c-top.md)<br/>       |
 | [**MS-DS-Service-Account-BL**](a-msds-serviceaccountbl.md)                 | Неверно     | [**Вверх**](c-top.md)<br/>       |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | True      | [**Вверх**](c-top.md)<br/>       |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | Верно      | [**Вверх**](c-top.md)<br/>       |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>       |
-| [**Объект — Категория**](a-objectcategory.md)                                 | True      | [**Вверх**](c-top.md)<br/>       |
-| [**Объектный класс**](a-objectclass.md)                                       | True      | [**Вверх**](c-top.md)<br/>       |
+| [**Объект — Категория**](a-objectcategory.md)                                 | Верно      | [**Вверх**](c-top.md)<br/>       |
+| [**Объектный класс**](a-objectclass.md)                                       | Верно      | [**Вверх**](c-top.md)<br/>       |
 | [**Объект — GUID**](a-objectguid.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>       |
 | [**Версия объекта**](a-objectversion.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>       |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                 | Неверно     | [**Вверх**](c-top.md)<br/>       |
@@ -570,9 +570,9 @@ ms.locfileid: "104535864"
 
 
 
-## <a name="windows-server-2003-r2-attributes"></a>Атрибуты Windows Server 2003 R2
+## <a name="windows-server-2003-r2-attributes"></a>Windows Атрибуты сервера 2003 R2
 
-Этот класс содержит следующие атрибуты для Windows Server 2003 R2:
+этот класс содержит следующие атрибуты для Windows Server 2003 R2:
 
 
 
@@ -599,7 +599,7 @@ ms.locfileid: "104535864"
 | [**Рабочий стол — профиль**](a-desktopprofile.md)                                         | Неверно     | [**SAM-домен**](c-samdomain.md)<br/>                                 |
 | [**Отображаемое имя**](a-displayname.md)                                               | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**Отображаемое имя — печатаемое**](a-displaynameprintable.md)                            | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
-| [**Компонент домена**](a-dc.md)                                                    | True      | [**Домен**](c-domain.md)<br/>                                        |
+| [**Компонент домена**](a-dc.md)                                                    | Верно      | [**Домен**](c-domain.md)<br/>                                        |
 | [**Домен — политика-объект**](a-domainpolicyobject.md)                                | Неверно     | [**SAM-домен**](c-samdomain.md)<br/>                                 |
 | [**DSA-Signature**](a-dsasignature.md)                                             | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**DS-Core-распространение-данные**](a-dscorepropagationdata.md)                         | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
@@ -612,7 +612,7 @@ ms.locfileid: "104535864"
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**GP — ссылка**](a-gplink.md)                                                         | Неверно     | [**SAM-домен**](c-samdomain.md)<br/>                                 |
 | [**GP — параметры**](a-gpoptions.md)                                                   | Неверно     | [**SAM-домен**](c-samdomain.md)<br/>                                 |
-| [**Тип экземпляра**](a-instancetype.md)                                             | True      | [**Вверх**](c-top.md)<br/>                                              |
+| [**Тип экземпляра**](a-instancetype.md)                                             | Верно      | [**Вверх**](c-top.md)<br/>                                              |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                       | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**Удалено**](a-isdeleted.md)                                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                               | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
@@ -665,10 +665,10 @@ ms.locfileid: "104535864"
 | [**Next-RID**](a-nextrid.md)                                                       | Неверно     | [**SAM-домен**](c-samdomain.md)<br/>                                 |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                             | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**NT — смешанный домен**](a-ntmixeddomain.md)                                          | Неверно     | [**SAM-домен**](c-samdomain.md)<br/>                                 |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                            | True      | [**Вверх**](c-top.md)<br/>                                              |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                            | Верно      | [**Вверх**](c-top.md)<br/>                                              |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
-| [**Объект — Категория**](a-objectcategory.md)                                         | True      | [**Вверх**](c-top.md)<br/>                                              |
-| [**Объектный класс**](a-objectclass.md)                                               | True      | [**Вверх**](c-top.md)<br/>                                              |
+| [**Объект — Категория**](a-objectcategory.md)                                         | Верно      | [**Вверх**](c-top.md)<br/>                                              |
+| [**Объектный класс**](a-objectclass.md)                                               | Верно      | [**Вверх**](c-top.md)<br/>                                              |
 | [**Объект — GUID**](a-objectguid.md)                                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**Версия объекта**](a-objectversion.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                         | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
@@ -716,9 +716,9 @@ ms.locfileid: "104535864"
 
 
 
-## <a name="windows-server-2003-r2-extended-rights"></a>Расширенные права Windows Server 2003 R2
+## <a name="windows-server-2003-r2-extended-rights"></a>Windows Расширенные права сервера 2003 R2
 
-Этот класс содержит следующие расширенные права для Windows Server 2003 R2:
+этот класс содержит следующие расширенные права для Windows Server 2003 R2:
 
 
 
@@ -743,9 +743,9 @@ ms.locfileid: "104535864"
 
 
 
-## <a name="windows-server-2003-r2-property-sets"></a>Наборы свойств Windows Server 2003 R2
+## <a name="windows-server-2003-r2-property-sets"></a>Windows Наборы свойств Server 2003 R2
 
-Этот класс содержит следующие наборы свойств для Windows Server 2003 R2:
+этот класс содержит следующие наборы свойств для Windows Server 2003 R2:
 
 
 
@@ -781,9 +781,9 @@ ms.locfileid: "104535864"
 
 
 
-## <a name="windows-server-2008-attributes"></a>Атрибуты Windows Server 2008
+## <a name="windows-server-2008-attributes"></a>Windows Атрибуты сервера 2008
 
-Этот класс содержит следующие атрибуты для Windows Server 2008:
+этот класс содержит следующие атрибуты для Windows Server 2008:
 
 
 
@@ -810,7 +810,7 @@ ms.locfileid: "104535864"
 | [**Рабочий стол — профиль**](a-desktopprofile.md)                                         | Неверно     | [**SAM-домен**](c-samdomain.md)<br/>                                 |
 | [**Отображаемое имя**](a-displayname.md)                                               | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**Отображаемое имя — печатаемое**](a-displaynameprintable.md)                            | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
-| [**Компонент домена**](a-dc.md)                                                    | True      | [**Домен**](c-domain.md)<br/>                                        |
+| [**Компонент домена**](a-dc.md)                                                    | Верно      | [**Домен**](c-domain.md)<br/>                                        |
 | [**Домен — политика-объект**](a-domainpolicyobject.md)                                | Неверно     | [**SAM-домен**](c-samdomain.md)<br/>                                 |
 | [**DSA-Signature**](a-dsasignature.md)                                             | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**DS-Core-распространение-данные**](a-dscorepropagationdata.md)                         | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
@@ -823,7 +823,7 @@ ms.locfileid: "104535864"
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**GP — ссылка**](a-gplink.md)                                                         | Неверно     | [**SAM-домен**](c-samdomain.md)<br/>                                 |
 | [**GP — параметры**](a-gpoptions.md)                                                   | Неверно     | [**SAM-домен**](c-samdomain.md)<br/>                                 |
-| [**Тип экземпляра**](a-instancetype.md)                                             | True      | [**Вверх**](c-top.md)<br/>                                              |
+| [**Тип экземпляра**](a-instancetype.md)                                             | Верно      | [**Вверх**](c-top.md)<br/>                                              |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                       | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**Удалено**](a-isdeleted.md)                                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                               | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
@@ -887,10 +887,10 @@ ms.locfileid: "104535864"
 | [**Next-RID**](a-nextrid.md)                                                       | Неверно     | [**SAM-домен**](c-samdomain.md)<br/>                                 |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                             | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**NT — смешанный домен**](a-ntmixeddomain.md)                                          | Неверно     | [**SAM-домен**](c-samdomain.md)<br/>                                 |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                            | True      | [**Вверх**](c-top.md)<br/>                                              |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                            | Верно      | [**Вверх**](c-top.md)<br/>                                              |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
-| [**Объект — Категория**](a-objectcategory.md)                                         | True      | [**Вверх**](c-top.md)<br/>                                              |
-| [**Объектный класс**](a-objectclass.md)                                               | True      | [**Вверх**](c-top.md)<br/>                                              |
+| [**Объект — Категория**](a-objectcategory.md)                                         | Верно      | [**Вверх**](c-top.md)<br/>                                              |
+| [**Объектный класс**](a-objectclass.md)                                               | Верно      | [**Вверх**](c-top.md)<br/>                                              |
 | [**Объект — GUID**](a-objectguid.md)                                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**Версия объекта**](a-objectversion.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                         | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
@@ -938,9 +938,9 @@ ms.locfileid: "104535864"
 
 
 
-## <a name="windows-server-2008-extended-rights"></a>Расширенные права Windows Server 2008
+## <a name="windows-server-2008-extended-rights"></a>Windows Расширенные права сервера 2008
 
-Этот класс содержит следующие расширенные права для Windows Server 2008:
+этот класс содержит следующие расширенные права для Windows Server 2008:
 
 
 
@@ -967,9 +967,9 @@ ms.locfileid: "104535864"
 
 
 
-## <a name="windows-server-2008-property-sets"></a>Наборы свойств Windows Server 2008
+## <a name="windows-server-2008-property-sets"></a>Windows Сервер 2008 наборы свойств
 
-Этот класс содержит следующие наборы свойств для Windows Server 2008:
+этот класс содержит следующие наборы свойств для Windows Server 2008:
 
 
 
@@ -1005,9 +1005,9 @@ ms.locfileid: "104535864"
 
 
 
-## <a name="windows-server-2008-r2-attributes"></a>Атрибуты Windows Server 2008 R2
+## <a name="windows-server-2008-r2-attributes"></a>Windows Атрибуты сервера 2008 R2
 
-Этот класс содержит следующие атрибуты для Windows Server 2008 R2:
+этот класс содержит следующие атрибуты для Windows Server 2008 R2:
 
 
 
@@ -1034,7 +1034,7 @@ ms.locfileid: "104535864"
 | [**Рабочий стол — профиль**](a-desktopprofile.md)                                         | Неверно     | [**SAM-домен**](c-samdomain.md)<br/>                                 |
 | [**Отображаемое имя**](a-displayname.md)                                               | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**Отображаемое имя — печатаемое**](a-displaynameprintable.md)                            | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
-| [**Компонент домена**](a-dc.md)                                                    | True      | [**Домен**](c-domain.md)<br/>                                        |
+| [**Компонент домена**](a-dc.md)                                                    | Верно      | [**Домен**](c-domain.md)<br/>                                        |
 | [**Домен — политика-объект**](a-domainpolicyobject.md)                                | Неверно     | [**SAM-домен**](c-samdomain.md)<br/>                                 |
 | [**DSA-Signature**](a-dsasignature.md)                                             | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**DS-Core-распространение-данные**](a-dscorepropagationdata.md)                         | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
@@ -1047,7 +1047,7 @@ ms.locfileid: "104535864"
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**GP — ссылка**](a-gplink.md)                                                         | Неверно     | [**SAM-домен**](c-samdomain.md)<br/>                                 |
 | [**GP — параметры**](a-gpoptions.md)                                                   | Неверно     | [**SAM-домен**](c-samdomain.md)<br/>                                 |
-| [**Тип экземпляра**](a-instancetype.md)                                             | True      | [**Вверх**](c-top.md)<br/>                                              |
+| [**Тип экземпляра**](a-instancetype.md)                                             | Верно      | [**Вверх**](c-top.md)<br/>                                              |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                       | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**Удалено**](a-isdeleted.md)                                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                               | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
@@ -1120,10 +1120,10 @@ ms.locfileid: "104535864"
 | [**Next-RID**](a-nextrid.md)                                                       | Неверно     | [**SAM-домен**](c-samdomain.md)<br/>                                 |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                             | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**NT — смешанный домен**](a-ntmixeddomain.md)                                          | Неверно     | [**SAM-домен**](c-samdomain.md)<br/>                                 |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                            | True      | [**Вверх**](c-top.md)<br/>                                              |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                            | Верно      | [**Вверх**](c-top.md)<br/>                                              |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
-| [**Объект — Категория**](a-objectcategory.md)                                         | True      | [**Вверх**](c-top.md)<br/>                                              |
-| [**Объектный класс**](a-objectclass.md)                                               | True      | [**Вверх**](c-top.md)<br/>                                              |
+| [**Объект — Категория**](a-objectcategory.md)                                         | Верно      | [**Вверх**](c-top.md)<br/>                                              |
+| [**Объектный класс**](a-objectclass.md)                                               | Верно      | [**Вверх**](c-top.md)<br/>                                              |
 | [**Объект — GUID**](a-objectguid.md)                                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**Версия объекта**](a-objectversion.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                         | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
@@ -1171,9 +1171,9 @@ ms.locfileid: "104535864"
 
 
 
-## <a name="windows-server-2008-r2-extended-rights"></a>Расширенные права Windows Server 2008 R2
+## <a name="windows-server-2008-r2-extended-rights"></a>Windows Расширенные права сервера 2008 R2
 
-Этот класс содержит следующие расширенные права для Windows Server 2008 R2:
+этот класс содержит следующие расширенные права для Windows Server 2008 R2:
 
 
 
@@ -1201,9 +1201,9 @@ ms.locfileid: "104535864"
 
 
 
-## <a name="windows-server-2008-r2-property-sets"></a>Наборы свойств Windows Server 2008 R2
+## <a name="windows-server-2008-r2-property-sets"></a>Windows Наборы свойств Server 2008 R2
 
-Этот класс содержит следующие наборы свойств для Windows Server 2008 R2:
+этот класс содержит следующие наборы свойств для Windows Server 2008 R2:
 
 
 
@@ -1239,7 +1239,7 @@ ms.locfileid: "104535864"
 
 
 
-## <a name="windows-server-2012-attributes"></a>Атрибуты Windows Server 2012
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012 Атрибута
 
 Этот класс содержит следующие атрибуты для Windows Server 2012:
 
@@ -1268,7 +1268,7 @@ ms.locfileid: "104535864"
 | [**Рабочий стол — профиль**](a-desktopprofile.md)                                                  | Неверно     | [**SAM-домен**](c-samdomain.md)<br/>                                 |
 | [**Отображаемое имя**](a-displayname.md)                                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**Отображаемое имя — печатаемое**](a-displaynameprintable.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
-| [**Компонент домена**](a-dc.md)                                                             | True      | [**Домен**](c-domain.md)<br/>                                        |
+| [**Компонент домена**](a-dc.md)                                                             | Верно      | [**Домен**](c-domain.md)<br/>                                        |
 | [**Домен — политика-объект**](a-domainpolicyobject.md)                                         | Неверно     | [**SAM-домен**](c-samdomain.md)<br/>                                 |
 | [**DSA-Signature**](a-dsasignature.md)                                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**DS-Core-распространение-данные**](a-dscorepropagationdata.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
@@ -1281,7 +1281,7 @@ ms.locfileid: "104535864"
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**GP — ссылка**](a-gplink.md)                                                                  | Неверно     | [**SAM-домен**](c-samdomain.md)<br/>                                 |
 | [**GP — параметры**](a-gpoptions.md)                                                            | Неверно     | [**SAM-домен**](c-samdomain.md)<br/>                                 |
-| [**Тип экземпляра**](a-instancetype.md)                                                      | True      | [**Вверх**](c-top.md)<br/>                                              |
+| [**Тип экземпляра**](a-instancetype.md)                                                      | Верно      | [**Вверх**](c-top.md)<br/>                                              |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**Удалено**](a-isdeleted.md)                                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
@@ -1349,7 +1349,7 @@ ms.locfileid: "104535864"
 | [**MS-DS-выводит-List-BL**](a-msds-revealedlistbl.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**MS-DS-Tasks-для-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**MS-DS-Tasks-for-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
-| [**MS-DS-TDO-исходящий трафик — BL**](a-msds-tdoegressbl.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
+| [**ms-DS-TDO-Egress-BL**](a-msds-tdoegressbl.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**MS-DS-TDO-входящий трафик — BL**](a-msds-tdoingressbl.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**MS-DS-USN-Последняя — синхронизация — успешное завершение**](a-msds-usnlastsyncsuccess.md)                             | Неверно     | **Домен — DNS**                                                               |
 | [**MS-DS-value-type-Reference-BL**](a-msds-valuetypereferencebl.md)                         | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
@@ -1360,10 +1360,10 @@ ms.locfileid: "104535864"
 | [**Next-RID**](a-nextrid.md)                                                                | Неверно     | [**SAM-домен**](c-samdomain.md)<br/>                                 |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**NT — смешанный домен**](a-ntmixeddomain.md)                                                   | Неверно     | [**SAM-домен**](c-samdomain.md)<br/>                                 |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                     | True      | [**Вверх**](c-top.md)<br/>                                              |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                     | Верно      | [**Вверх**](c-top.md)<br/>                                              |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
-| [**Объект — Категория**](a-objectcategory.md)                                                  | True      | [**Вверх**](c-top.md)<br/>                                              |
-| [**Объектный класс**](a-objectclass.md)                                                        | True      | [**Вверх**](c-top.md)<br/>                                              |
+| [**Объект — Категория**](a-objectcategory.md)                                                  | Верно      | [**Вверх**](c-top.md)<br/>                                              |
+| [**Объектный класс**](a-objectclass.md)                                                        | Верно      | [**Вверх**](c-top.md)<br/>                                              |
 | [**Объект — GUID**](a-objectguid.md)                                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**Версия объекта**](a-objectversion.md)                                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                              |
@@ -1411,7 +1411,7 @@ ms.locfileid: "104535864"
 
 
 
-## <a name="windows-server-2012-extended-rights"></a>Расширенные права Windows Server 2012
+## <a name="windows-server-2012-extended-rights"></a>Windows Server 2012 Расширенные права
 
 Этот класс содержит следующие расширенные права для Windows Server 2012:
 
@@ -1442,7 +1442,7 @@ ms.locfileid: "104535864"
 
 
 
-## <a name="windows-server-2012-property-sets"></a>Наборы свойств Windows Server 2012
+## <a name="windows-server-2012-property-sets"></a>Windows Server 2012 Наборы свойств
 
 Этот класс содержит следующие наборы свойств для Windows Server 2012:
 

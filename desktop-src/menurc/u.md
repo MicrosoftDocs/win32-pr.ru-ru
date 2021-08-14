@@ -5,12 +5,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: fb8826ef-4fb8-4fd2-af3e-89544ffadbea
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98b84f6ef3f31ae1c15ae8e35f6c8cada177d7ee
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 72af5521854d70b22cda4acf7caafd3cf8f7f63fd43c5660aae09ca8045b13b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "105719182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118472721"
 ---
 # <a name="u-menus-and-other-resources"></a>U (меню и другие ресурсы)
 
@@ -21,7 +21,7 @@ ms.locfileid: "105719182"
 <span id="tools.u_1_gly"></span><span id="TOOLS.U_1_GLY"></span>**Не удалось креатедестинатион**
 </dt> <dd>
 
-Компилятору ресурсов Microsoft Windows (RC) не удалось создать конечный файл. Убедитесь, что на диске достаточно места.
+компилятору ресурсов Microsoft Windows (RC) не удалось создать конечный файл. Убедитесь, что на диске достаточно места.
 
 </dd> <dt>
 

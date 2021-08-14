@@ -1,11 +1,11 @@
 ---
 title: Метод init Игасернотифи (не рекомендуется)
-description: Этот раздел интерфейса поиска на рабочем столе Windows устарел и заменен API-интерфейсом Windows Search Исеарчперсистентитемсчанжедсинк в Windows SDK. | Метод init Игасернотифи (не рекомендуется)
+description: этот Windowsный раздел интерфейса поиска на рабочем столе устарел и заменен Windows API поиска исеарчперсистентитемсчанжедсинк в Windows SDK. | Метод init Игасернотифи (не рекомендуется)
 ms.assetid: 6a5f89eb-10f4-4262-89bf-b47e345f12eb
 keywords:
-- Метод init (не рекомендуется). устаревшие функции среды Windows
-- Метод init (не рекомендуется). устаревшие функции среды Windows, интерфейс Игасернотифи
-- Интерфейс Игасернотифи устаревшие функции среды Windows, метод init (устарел)
+- метод Init (не рекомендуется). устаревшие функции Windows среды
+- метод Init (не рекомендуется). устаревшие функции Windows среды, интерфейс игасернотифи
+- интерфейс игасернотифи устаревшие функции среды Windows, метод Init (не рекомендуется)
 topic_type:
 - apiref
 api_name:
@@ -15,18 +15,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 81379bb4a9a7c6099912bfc9ebca170141d76cd2
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: db5666197524afb454927036cdd68375dfb2937197ed211646b63d80a09e5b12
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105694021"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119359306"
 ---
 # <a name="igathernotifyinit-deprecated-method"></a>Метод Игасернотифи:: init (устарел)
 
 \[**Инициализация** может быть изменена или недоступна в последующих версиях операционной системы или продукта.\]
 
-Этот раздел интерфейса поиска на рабочем столе Windows устарел и заменен API-интерфейсом Windows Search [**исеарчперсистентитемсчанжедсинк**](/windows/desktop/api/searchapi/nn-searchapi-isearchpersistentitemschangedsink) в Windows SDK.
+этот Windowsный раздел интерфейса поиска на рабочем столе устарел и заменен Windows API поиска [**исеарчперсистентитемсчанжедсинк**](/windows/desktop/api/searchapi/nn-searchapi-isearchpersistentitemschangedsink) в Windows SDK.
 
 Инициализирует интерфейс средства сбора данных. Также указывает индекс для уведомления и хранилище приложений для отслеживания.
 
@@ -78,9 +78,9 @@ void Init (Deprecated)(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Инициализация с помощью приложения = "Рсапп", Project = "Миндекс".
+инициализация с помощью приложения = "рсапп", Project = "миндекс".
 
  
 

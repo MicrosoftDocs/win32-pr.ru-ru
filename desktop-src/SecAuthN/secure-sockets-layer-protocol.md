@@ -1,24 +1,24 @@
 ---
-description: Сведения в этом разделе относятся к Windows Server 2003 и Windows XP.
+description: сведения в этом разделе относятся к Windows Server 2003 и Windows XP.
 ms.assetid: 45536902-af80-4dca-b3ce-207086844763
 title: Протокол SSL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3ed2555c854a6cc25948abe0dc83043ee632170
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: faf8e6b7232db8bef98d5170887d6be75c9770927954a40b606450bf214efdf5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103998394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118918387"
 ---
 # <a name="secure-sockets-layer-protocol"></a>Протокол SSL
 
-Сведения в этом разделе относятся к Windows Server 2003 и Windows XP. Сведения о комплектах шифров для Windows Server 2008 и Windows Vista см. в разделе комплекты [шифров в SChannel](cipher-suites-in-schannel.md).
+сведения в этом разделе относятся к Windows Server 2003 и Windows XP. сведения о комплектах шифров для Windows Server 2008 и Windows Vista см. в разделе комплекты [шифров в Schannel](cipher-suites-in-schannel.md).
 
 Schannel поддерживает версии 2,0 и 3,0 [*протокола SSL (SSL)*](../secgloss/s-gly.md).
 
 > [!Note]  
-> Начиная с Windows 10 версии 1607 и Windows Server 2016, протокол SSL 2,0 был удален и больше не поддерживается.
+> начиная с Windows 10 версии 1607 и Windows Server 2016, протокол SSL 2,0 был удален и больше не поддерживается.
 
  
 

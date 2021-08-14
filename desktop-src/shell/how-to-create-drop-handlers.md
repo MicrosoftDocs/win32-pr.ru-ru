@@ -3,12 +3,12 @@ description: Как реализовать и зарегистрировать �
 title: Создание обработчиков Drop
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 081b4349ba36a12670458a453b0622475d59d755
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d34c06aa3eae1892b5b86ce3a0f3b1198be41cd2f9dda5c9bd0956b40a53146e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118223588"
 ---
 # <a name="how-to-create-drop-handlers"></a>Создание обработчиков Drop
 
@@ -59,7 +59,7 @@ HKEY_CLASSES_ROOT
             (Default) = {00000000-1111-2222-3333-444444444444}
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: fb49a46b3a6caa559febb0ab38bc1b1bd9282025
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: aa32832c42f1e28c9e9acec1a3a9b400808a766455aa6025d10e7153e9c67dd6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119407364"
 ---
 # <a name="id3dxfiledataisreference-method"></a>Метод ID3DXFileData:: IsReference
 
@@ -44,13 +44,13 @@ BOOL IsReference();
 
 Возвращает **значение true** , если файл данных файла является ссылочным объектом. в противном случае возвращает **false** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Xof. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Xof. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>  |
 
 

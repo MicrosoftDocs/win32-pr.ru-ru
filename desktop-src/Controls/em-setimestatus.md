@@ -3,7 +3,7 @@ title: Сообщение EM_SETIMESTATUS (Winuser. h)
 description: Задает флаги состояния, определяющие взаимодействие элемента управления редактирования с редактором метода ввода (IME).
 ms.assetid: 3de2e8b5-bdd8-4b25-9427-38a11b77a17a
 keywords:
-- Элементы управления Windows для EM_SETIMESTATUS сообщений
+- элементы управления Windows сообщений EM_SETIMESTATUS
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e896c358281b2d4b5012fe13003720e0d008e6a4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bb5a3e5413c577fcecd89ebb27bc61e5fff31f7e71b3ec7e6da67523d6ee9392
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103802657"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118412401"
 ---
 # <a name="em_setimestatus-message"></a>\_Сообщение СЕТИМЕСТАТУС EM
 
@@ -69,19 +69,19 @@ ms.locfileid: "103802657"
 
 Возвращает предыдущее значение параметра *lParam* .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **Расширенное редактирование:** Сообщение **EM \_ сетиместатус** не поддерживается.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Header<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

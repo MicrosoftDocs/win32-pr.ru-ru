@@ -4,12 +4,12 @@ ms.assetid: 0175940e-2de2-4e2b-a98e-8dcc59e7020f
 title: WPD_CONTENT_TYPE_UNSPECIFIED
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd955ee5ebf31b2348efd3f70c85ae9c004edb83
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 98e6f68cf5ee2a989bbef1554217c579eab77566ee0a3d3f894961d2ac08759f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110423684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118193315"
 ---
 # <a name="wpd_content_type_unspecified"></a>\_тип содержимого WPD не \_ \_ указан
 

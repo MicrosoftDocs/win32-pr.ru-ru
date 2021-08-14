@@ -4,12 +4,12 @@ ms.assetid: b87d3e72-df7b-4a00-854e-c3706565ed7d
 title: Указание шифров SChannel и стойкости шифров
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b04ec37cfea633814881fba5bfd71ad15205a1bd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 70ef036038c3c0f759bdf4f2c2d18f0ac005ac01563d2779c5fcac02999fe5cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118917280"
 ---
 # <a name="specifying-schannel-ciphers-and-cipher-strengths"></a>Указание шифров SChannel и стойкости шифров
 

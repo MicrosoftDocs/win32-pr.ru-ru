@@ -1,19 +1,19 @@
 ---
-description: Эллиптические кривые включены в Windows 10 версий 1507 и 1511.
-title: Эллиптические кривые TLS в Windows 10 версии 1507 и 1511
+description: эллиптические кривые включены в Windows 10 версий 1507 и 1511.
+title: эллиптические кривые TLS в Windows 10 версии 1507 и 1511
 ms.topic: article
 ms.keywords: ecc curves, elliptic curves, tls elliptic curves, ECC curves, schannel, ECC, EC, Elliptic Curve Cryptography
 ms.date: 06/10/2020
-ms.openlocfilehash: c38d1014433e1274d8dff52be09d59761d3b1761
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 91dfc7dac8f45b9c4f2231f6db93e776c75544373199170146f55362f02f2be3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105719634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118915869"
 ---
-# <a name="tls-elliptic-curves-in-windows-10-version-1507-and-1511"></a>Эллиптические кривые TLS в Windows 10 версии 1507 и 1511
+# <a name="tls-elliptic-curves-in-windows-10-version-1507-and-1511"></a>эллиптические кривые TLS в Windows 10 версии 1507 и 1511
 
-Для Windows 10, 1507 и 1511, следующие эллиптические кривые включены и по умолчанию используют поставщик Microsoft Schannel в этом порядке по приоритету.
+для Windows 10 версии 1507 и 1511 следующие эллиптические кривые по умолчанию включены и по этому приоритету используют поставщик Microsoft Schannel:
 
 | Строка эллиптической кривой | Доступно в режиме FIPS |
 |-------------|--------------|
@@ -46,21 +46,21 @@ ms.locfileid: "105719634"
 ## <a name="enabling-elliptic-curves"></a>Включение эллиптических кривых
 
 Чтобы добавить эллиптические кривые, разверните групповую политику или используйте командлеты TLS.
-- Чтобы использовать групповую политику, [Настройте порядок КРИВЫХ ECC](/windows-server/security/tls/manage-tls#configuring-tls-ecc-curve-order) в разделе конфигурация компьютера > административные шаблоны > параметры конфигурации сети > SSL с списком приоритет для всех включенных эллиптических кривых.
+- чтобы использовать групповую политику, [настройте порядок кривых ECC](/windows-server/security/tls/manage-tls#configuring-tls-ecc-curve-order) в разделе конфигурация компьютера > административные шаблоны > сеть > конфигурация SSL Параметры с списком приоритет для всех включенных эллиптических кривых.
 
 - Чтобы использовать PowerShell, ознакомьтесь с [командлетами TLS](/powershell/module/tls) , чтобы получить полный список синтаксиса и описаний командлетов TLS.
 
 
 > [!NOTE]
-> До Windows 10 строки комплекта шифров были добавлены с эллиптической кривой для определения приоритета кривой. Windows 10 поддерживает настройку порядка приоритетов на основе эллиптических кривых, поэтому суффикс эллиптической кривой не является обязательным и переопределяется новым порядковым приоритетом эллиптической кривой, когда он предоставляется, чтобы разрешить организациям использовать групповую политику для настройки различных версий Windows с одинаковыми комплектами шифров.
+> до Windows 10 строки набора шифров добавляются с эллиптической кривой для определения приоритета кривой. Windows 10 поддерживает настройку порядка приоритета эллиптической кривой, поэтому суффикс эллиптической кривой не является обязательным и переопределяется новым порядковым приоритетом эллиптической кривой, когда он предоставляется, чтобы разрешить организациям использовать групповую политику для настройки различных версий Windows с одинаковыми комплектами шифров.
 
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [Настройка порядка кривых ECC TLS](/windows-server/security/tls/manage-tls#configuring-tls-ecc-curve-order)
 
 [Управление порядком TLS ECC](/windows-server/security/tls/manage-tls#managing-tls-ecc-order)
 
-[Управление кривыми ECC Windows с помощью групповая политика](/windows-server/security/tls/manage-tls#managing-windows-ecc-curves-using-group-policy)
+[управление кривыми Windows ECC с помощью групповая политика](/windows-server/security/tls/manage-tls#managing-windows-ecc-curves-using-group-policy)
 
 [Командлеты TLS](/powershell/module/tls)
