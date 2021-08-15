@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Типы счетчиков алгоритма длины очереди
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06665c2fb8fca014c7d722f0ea22cf7e86833ab0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b9fd3019e9a5e7150402266fd206d3f460f3d0ae3b07f4c6c7d51e82473e9dda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263823"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118316541"
 ---
 # <a name="queue-length-algorithm-counter-types"></a>Типы счетчиков алгоритма длины очереди
 
@@ -31,7 +31,7 @@ ms.locfileid: "104263823"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

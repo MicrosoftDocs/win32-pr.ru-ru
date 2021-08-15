@@ -4,12 +4,12 @@ ms.assetid: eb264ab7-15bb-4cd5-8af8-f979f02a7a39
 title: Синхронные запросы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3684b1fa8ea2bca1b7fb777663f2c4e50ffd36a3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e399fcef1ffba574305b70aee05d7430bcd84746458198b3d33ed6bb0848747
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117760695"
 ---
 # <a name="synchronous-requests"></a>Синхронные запросы
 

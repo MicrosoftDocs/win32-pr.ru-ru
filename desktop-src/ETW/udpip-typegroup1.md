@@ -20,12 +20,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 8d977841cbfe9a88d14056d77a9b943f4d5d4a3e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d7a34d459cd4d9cefc4abbf08a97367309b4d90b31c63148159f57fccf6646c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104985096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118393653"
 ---
 # <a name="udpip_typegroup1-class"></a>\_Класс удпип TypeGroup1
 
@@ -50,13 +50,13 @@ class UdpIp_TypeGroup1 : UdpIp
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **удпип \_ TypeGroup1** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **удпип \_ TypeGroup1** имеет следующие свойства.
 
@@ -158,7 +158,7 @@ class UdpIp_TypeGroup1 : UdpIp
 
 </dd> <dt>
 
-size
+размер;
 </dt> <dd> <dl> <dt>
 
 Тип данных: **UInt32**
@@ -196,8 +196,8 @@ size
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

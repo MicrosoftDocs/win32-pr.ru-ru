@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 087949817ac0bcbe2effe2ff136a6ce80084daa2
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 4844c14d6b60e5825b3b09f58b0d756e83b0f41c4e743684a29607a814d4f16f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "105704037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118072831"
 ---
 # <a name="jetexternalrestore-function"></a>Функция Жетекстерналресторе
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jetexternalrestore-function"></a>Функция Жетекстерналресторе
 
@@ -85,7 +85,7 @@ JET_ERR JET_API JetExternalRestore(
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. Дополнительные сведения о возможных ошибках ESE см. в разделе [ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -137,11 +137,11 @@ JET_ERR JET_API JetExternalRestore(
 </tr>
 <tr class="even">
 <td><p>JET_errBadRestoreTargetInstance</p></td>
-<td><p>Указанный <em>сзтаржетинстанцелогпас</em> не принадлежит инициализированному экземпляру. Эта ошибка будет возвращена только в Windows XP и более поздних версиях.</p></td>
+<td><p>Указанный <em>сзтаржетинстанцелогпас</em> не принадлежит инициализированному экземпляру. эта ошибка будет возвращена только в Windows XP и более поздних версиях.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errRunningInOneInstanceMode</p></td>
-<td><p>Ядру СУБД не удается выполнить внешнее восстановление или принудительное восстановление в режиме одиночного экземпляра. Эта ошибка будет возвращена только в Windows XP и более поздних версиях.</p></td>
+<td><p>Ядру СУБД не удается выполнить внешнее восстановление или принудительное восстановление в режиме одиночного экземпляра. эта ошибка будет возвращена только в Windows XP и более поздних версиях.</p></td>
 </tr>
 </tbody>
 </table>
@@ -151,7 +151,7 @@ JET_ERR JET_API JetExternalRestore(
 
 В случае сбоя подсистема не смогла восстановить базу данных. База данных находится в недопустимом состоянии, и для повторного восстановления необходимо восстановить всю базу данных. Как правило, источником такой ситуации является повреждение диска или журнала, а также другой вид непостоянного управления журналом или ненепрерывный набор журналов.
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 Чтобы понять, как работает «жесткое» восстановление, необходимо понимать, что существует три этапа восстановления, а второй этап может содержать две части. На этапе I журналы необходимы для обеспечения согласованности резервной копии базы данных (или можно использовать начальный набор добавочных журналов). В фазе II для обеспечения соответствия базы данных используются все дополнительные журналы наката. Кроме того, существует также воспроизведение дополнительных журналов наката. Этап III является стадией отката процесса восстановления.
 
@@ -165,7 +165,7 @@ JET_ERR JET_API JetExternalRestore(
 
 ![ESE_Documentation_ese1](images/Gg294088.ESE_Documentation_ese1(EXCHG.10).gif "ESE_Documentation_ese1")
 
-#### <a name="requirements"></a>Требования
+#### <a name="requirements"></a>Requirements (Требования)
 
 <table>
 <colgroup>
@@ -175,11 +175,11 @@ JET_ERR JET_API JetExternalRestore(
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
+<td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
+<td><p><strong>Сервер</strong></p></td>
+<td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>
@@ -201,7 +201,7 @@ JET_ERR JET_API JetExternalRestore(
 </table>
 
 
-#### <a name="see-also"></a>См. также:
+#### <a name="see-also"></a>См. также
 
 [JET_ERR](./jet-err.md)  
 [JET_PFNSTATUS](./jet-pfnstatus-callback-function.md)  

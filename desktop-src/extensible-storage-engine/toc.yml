@@ -1,14 +1,14 @@
-- name: Расширяемая подсистема хранилища
+- name: расширяемый модуль служба хранилища
   href: extensible-storage-engine.md
   items:
-    - name: Сведения о расширяемой подсистеме хранилища
+    - name: сведения о расширяемом подсистеме служба хранилища
       href: about-extensible-storage-engine.md
       items:
         - name: Обзор базы данных
           href: database-overview.md
         - name: Дескрипторы ESE
           href: ese-handles.md
-    - name: Использование расширенного подсистемы хранилища
+    - name: использование расширяемого механизма служба хранилища
       href: using-extensible-storage-engine.md
       items:
         - name: Столбцы
@@ -46,14 +46,14 @@
               href: reading-data-from-the-database.md
         - name: Transactions
           href: transactions.md
-        - name: Ошибки расширяемого подсистемы хранилища
+        - name: ошибки расширенного обработчика служба хранилища
           href: extensible-storage-engine-errors.md
-        - name: Расширяемые файлы подсистемы хранилища
+        - name: расширяемые файлы служба хранилища Engine
           href: extensible-storage-engine-files.md
-    - name: Справочник по расширенному подсистеме хранилища
+    - name: ссылка на расширяемый модуль служба хранилища
       href: extensible-storage-engine-reference.md
       items:
-        - name: Расширяемые функции обратного вызова подсистемы хранилища
+        - name: расширяемые функции обратного вызова служба хранилища Engine
           href: extensible-storage-engine-callback-functions.md
           items:
             - name: Функция обратного вызова JET_CALLBACK
@@ -62,7 +62,7 @@
               href: jet-pfnrealloc-callback-function.md
             - name: Функция обратного вызова JET_PFNSTATUS
               href: jet-pfnstatus-callback-function.md
-        - name: Константы расширяемых подсистемы хранилища
+        - name: расширяемые константы служба хранилища Engine
           href: extensible-storage-engine-constants.md
           items:
             - name: JET_CBTYP
@@ -81,7 +81,7 @@
               href: error-handling-constants.md
             - name: Константы ведения журнала событий
               href: event-logging-constants.md
-            - name: Параметры расширяемой системы подсистемы хранилища
+            - name: расширяемые параметры системы служба хранилища Engine
               href: extensible-storage-engine-system-parameters.md
               items:
                 - name: Параметры резервного копирования и восстановления
@@ -112,11 +112,11 @@
                   href: transaction-log-parameters.md
             - name: Недопустимые константы Handle
               href: invalid-handle-constants.md
-            - name: Максимальные константы параметров
+            - name: максимальное Параметры констант
               href: maximum-settings-constants.md
             - name: Устаревшие константы
               href: obsolete-constants.md
-        - name: Расширяемые типы данных подсистемы хранилища
+        - name: расширяемые типы данных служба хранилища Engine
           href: extensible-storage-engine-data-types.md
           items:
             - name: JET_API_PTR
@@ -153,9 +153,9 @@
               href: jet-tableid.md
             - name: WCHAR
               href: wchar.md
-        - name: Коды ошибок расширенного подсистемы хранилища
+        - name: коды ошибок расширенного механизма служба хранилища
           href: extensible-storage-engine-error-codes.md
-        - name: Расширяемые функции подсистемы хранилища
+        - name: расширяемые функции служба хранилища Engine
           href: extensible-storage-engine-functions.md
           items:
             - name: Функция JetAddColumn
@@ -476,7 +476,7 @@
               href: jetupdate-function.md
             - name: Функция JetUpdate2
               href: jetupdate2-function.md
-        - name: Расширяемые структуры подсистемы хранилища
+        - name: расширяемые структуры подсистемы служба хранилища
           href: extensible-storage-engine-structures.md
           items:
             - name: Структура JET_BKINFO
@@ -579,7 +579,7 @@
               href: jet-unicodeindex-structure.md
             - name: Структура JET_USERDEFINEDDEFAULT
               href: jet-userdefineddefault-structure.md
-    - name: Управляемый Справочник по расширенному подсистеме хранилища
+    - name: расширяемый справочник по управляемому модулю служба хранилища
       href: extensible-storage-engine-managed-reference.md
       items:
         - name: Microsoft. ISAM. ESENT

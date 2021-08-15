@@ -4,12 +4,12 @@ ms.assetid: 9dd031a8-f1fa-4753-a86b-18051c624a00
 title: System. photo. Метерингмоде
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e90fff67abe04486504ecda67684f85cb5ac1a2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cd6eb62320e8561e9c486ad34816647ac9176912d49200c56409913f4efa8e19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118228134"
 ---
 # <a name="systemphotometeringmode"></a>System. photo. Метерингмоде
 
@@ -112,11 +112,11 @@ propertyDescription
             defineName = PHOTO_METERINGMODE_PARTIAL
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

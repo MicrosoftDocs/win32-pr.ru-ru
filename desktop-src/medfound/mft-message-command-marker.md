@@ -4,12 +4,12 @@ ms.assetid: eae1d066-64af-45e2-b8bb-eddf9147ad8b
 title: MFT_MESSAGE_COMMAND_MARKER (Мфтрансформ. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3802cb94c9183d4f392fbcedcf48c0c01071298e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dc55a96ae9680b37d83ec776c66848ed04f4a30b62d1d0378035c88823d2c19d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117872174"
 ---
 # <a name="mft_message_command_marker"></a>\_ \_ маркер команды сообщения \_ MFT
 
@@ -19,7 +19,7 @@ ms.locfileid: "105711697"
 
 Произвольное значение. MFT возвращает значение клиенту в событии [метрансформмаркер](metransformmarker.md) .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы отправить это сообщение, вызовите [**имфтрансформ::P роцессмессаже**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processmessage).
 
@@ -34,14 +34,14 @@ MFT реагирует на этот мессажеас:
 
 Асинхронный МФТС должен отвечать на это сообщение, как описано. Синхронное МФТС должно игнорировать это сообщение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                               |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                                  |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                               |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Мфтрансформ. h</dt> </dl> |
 
 

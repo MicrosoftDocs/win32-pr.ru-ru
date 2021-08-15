@@ -1,31 +1,31 @@
 ---
-description: В этом разделе описано, как поддерживать ускорение видео DirectX (ДКСВА) 2,0 в фильтре декодера DirectShow.
+description: в этом разделе описано, как поддерживать ускорение видео DirectX (дксва) 2,0 в фильтре декодера DirectShow.
 ms.assetid: 40deaddb-bb17-4a34-8294-5c7dc8a8a457
 title: Поддержка ДКСВА 2,0 в DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dda956b60d4905c2392e1a50bd62ee8421b944b9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58631a407e42c0561ebee0ad2b3187e248fc2d25dc0bdf4e98ed0219d8dae916
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103898174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118238087"
 ---
 # <a name="supporting-dxva-20-in-directshow"></a>Поддержка ДКСВА 2,0 в DirectShow
 
-В этом разделе описано, как поддерживать ускорение видео DirectX (ДКСВА) 2,0 в фильтре декодера DirectShow. В частности, он описывает взаимодействие между декодером и модулем подготовки видео. В этом разделе не описывается, как реализовать декодирование ДКСВА.
+в этом разделе описано, как поддерживать ускорение видео DirectX (дксва) 2,0 в фильтре декодера DirectShow. В частности, он описывает взаимодействие между декодером и модулем подготовки видео. В этом разделе не описывается, как реализовать декодирование ДКСВА.
 
--   [Предварительные условия](#prerequisites)
+-   [Предварительные требования](#prerequisites)
 -   [Примечания по миграции](#migration-notes)
 -   [Поиск конфигурации декодера](#finding-a-decoder-configuration)
 -   [Уведомление модуля подготовки видео](#notifying-the-video-renderer)
 -   [Выделение несжатых буферов](#allocating-uncompressed-buffers)
 -   [Декодирование](#decoding)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
-## <a name="prerequisites"></a>Предварительные условия
+## <a name="prerequisites"></a>Предварительные требования
 
-В этом разделе предполагается, что вы знакомы с написанием фильтров DirectShow. Дополнительные сведения см. в разделе [Создание фильтров DirectShow](../directshow/writing-directshow-filters.md) в документации по пакету SDK для DirectShow. В примерах кода в этом разделе предполагается, что фильтр декодера является производным от класса [**ктрансформфилтер**](../directshow/ctransformfilter.md) со следующим определением класса:
+в этом разделе предполагается, что вы знакомы с написанием фильтров DirectShow. дополнительные сведения см. в разделе [создание фильтров DirectShow](../directshow/writing-directshow-filters.md) в документации по DirectShow SDK. В примерах кода в этом разделе предполагается, что фильтр декодера является производным от класса [**ктрансформфилтер**](../directshow/ctransformfilter.md) со следующим определением класса:
 
 
 ```C++
@@ -623,7 +623,7 @@ void CDecoderAllocator::Free()
 
 
 
-Дополнительные сведения о реализации пользовательских распределительов см. в разделе, посвященном [пользовательскому распределительу](../directshow/providing-a-custom-allocator.md) документации по пакету SDK для DirectShow.
+дополнительные сведения о реализации пользовательских распределительов см. в разделе, посвященном [пользовательскому распределительу](../directshow/providing-a-custom-allocator.md) в документации по DirectShow SDK.
 
 ## <a name="decoding"></a>Декодирование
 
@@ -650,9 +650,9 @@ void CDecoderAllocator::Free()
 
 В каждой паре вызовов [](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-beginframe) / [**выполнения**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-execute) бегинфраме можно вызвать метод несколько [](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-getbuffer) раз, но только один раз для каждого типа буфера дксва. Если вызвать его дважды с тем же типом буфера, данные будут перезаписаны.
 
-После вызова [**EXECUTE**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-execute)вызовите [**Имеминпутпин:: Receive**](/windows/win32/api/strmif/nf-strmif-imeminputpin-receive) , чтобы передать кадр в модуль подготовки видео, как при декодировании программного обеспечения. Метод **Receive** является асинхронным; После возврата декодер может продолжить декодирование следующего кадра. Драйвер дисплея предотвращает перезапись буфера во время использования буфера всеми командами декодирования. Декодер не должен повторно использовать поверхность для декодирования другого кадра, пока модуль подготовки отчетов не выпустит пример. Когда модуль подготовки отчетов освобождает пример, распределитель помещает пример обратно в пул доступных образцов. Чтобы получить следующий доступный пример, вызовите метод [**кбасеаутпутпин:: жетделиверибуффер**](../directshow/cbaseoutputpin-getdeliverybuffer.md), который, в свою очередь, вызывает [**имемаллокатор::**](/windows/win32/api/strmif/nf-strmif-imemallocator-getbuffer)GetNext. Дополнительные сведения см. в разделе Общие сведения о [потоке данных в DirectShow](../directshow/overview-of-data-flow-in-directshow.md) в документации по DirectShow.
+После вызова [**EXECUTE**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-execute)вызовите [**Имеминпутпин:: Receive**](/windows/win32/api/strmif/nf-strmif-imeminputpin-receive) , чтобы передать кадр в модуль подготовки видео, как при декодировании программного обеспечения. Метод **Receive** является асинхронным; После возврата декодер может продолжить декодирование следующего кадра. Драйвер дисплея предотвращает перезапись буфера во время использования буфера всеми командами декодирования. Декодер не должен повторно использовать поверхность для декодирования другого кадра, пока модуль подготовки отчетов не выпустит пример. Когда модуль подготовки отчетов освобождает пример, распределитель помещает пример обратно в пул доступных образцов. Чтобы получить следующий доступный пример, вызовите метод [**кбасеаутпутпин:: жетделиверибуффер**](../directshow/cbaseoutputpin-getdeliverybuffer.md), который, в свою очередь, вызывает [**имемаллокатор::**](/windows/win32/api/strmif/nf-strmif-imemallocator-getbuffer)GetNext. дополнительные сведения см. в разделе общие сведения о [Flow данных в DirectShow](../directshow/overview-of-data-flow-in-directshow.md) в документации по DirectShow.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

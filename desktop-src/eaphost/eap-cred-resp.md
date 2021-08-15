@@ -6,12 +6,12 @@ keywords:
 - EAP_CRED_RESP
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e5c2176377dbde0f7c02d2a7d8083ad1bcff9e71
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: d16b9bda55ed1b4aee9a9847740b25d46418c6ec3544dfdd6ba71b2c282042b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105713361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117904641"
 ---
 # <a name="eap_cred_resp"></a>подотчетное от EAP \_ cred \_
 
@@ -33,7 +33,7 @@ typedef EAP_CONFIG_INPUT_FIELD_ARRAY EAP_CRED_RESP;
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Структура **\_ \_ ОТВ** для идентификации EAP используется для поддержки единого входа (SSO).
 
@@ -45,8 +45,8 @@ typedef EAP_CONFIG_INPUT_FIELD_ARRAY EAP_CRED_RESP;
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Еаптипес. h</dt> </dl> |
 
 

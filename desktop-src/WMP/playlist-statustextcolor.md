@@ -3,7 +3,7 @@ title: Список воспроизведения. Статустексткол
 description: Атрибут Статустекстколор указывает или получает значение, обозначающее цвет текста состояния.
 ms.assetid: b88d52d6-db0b-4c57-8085-c997bf3648a6
 keywords:
-- Проигрыватель Windows Media Player. Статустекстколор
+- проигрыватель Windows Media списка воспроизведения. статустекстколор
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 956ec0e9311e789de867cca38098221a7291c6fd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c92b0f42924468ad9bb75766b4dd847902a363259519b466962e294d26fc23c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105656844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118335686"
 ---
 # <a name="playliststatustextcolor"></a>Список воспроизведения. Статустекстколор
 
@@ -31,13 +31,13 @@ ms.locfileid: "105656844"
 
 Этот атрибут является **строкой** для чтения и записи, представляющей цвет. Значение по умолчанию — None.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 10<br/> |
+| Версия<br/> | проигрыватель Windows Media 10<br/> |
 
 
 

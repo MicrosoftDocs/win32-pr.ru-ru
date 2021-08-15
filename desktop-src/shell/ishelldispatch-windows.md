@@ -1,7 +1,7 @@
 ---
-description: Метод Ишеллдиспатч. Windows — создает и возвращает объект Шеллвиндовс. Этот объект представляет коллекцию всех открытых окон, принадлежащих оболочке.
+description: Ишеллдиспатч. метод Windows — создает и возвращает объект шеллвиндовс. Этот объект представляет коллекцию всех открытых окон, принадлежащих оболочке.
 ms.assetid: 788E2106-3534-4e22-801F-677FD02BDFE0
-title: Метод Ишеллдиспатч. Windows (Шлдисп. h)
+title: Ишеллдиспатч. метод Windows (шлдисп. h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -13,14 +13,14 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 16991d6a251909e8f3b277894a96e6ad08a7f9a4
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f17e6f9ff4a8118043cf452af0647b78c7d2c4365f83a497481ee97236edb21c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108117172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118221639"
 ---
-# <a name="ishelldispatchwindows-method"></a>Ишеллдиспатч. Windows, метод
+# <a name="ishelldispatchwindows-method"></a>Ишеллдиспатч. метод Windows
 
 Создает и возвращает объект [**шеллвиндовс**](shellwindows.md) . Этот объект представляет коллекцию всех открытых окон, принадлежащих оболочке.
 
@@ -61,13 +61,13 @@ IShellDispatch.Windows() As IDispatch
 
 ## <a name="remarks"></a>Remarks
 
-Этот метод реализован и доступен через метод [**Shell. Windows**](shell-windows.md) .
+этот метод реализован и доступен через метод [**Shell. Windows**](shell-windows.md) .
 
 ## <a name="examples"></a>Примеры
 
-В следующих примерах используется **Windows** для извлечения объекта [**шеллвиндовс**](shellwindows.md) и отображается количество содержащихся в нем элементов. Сведения об использовании представлены для JScript, VBScript и Visual Basic.
+в следующих примерах используется **Windows** для получения объекта [**шеллвиндовс**](shellwindows.md) и отображается количество содержащихся в нем элементов. сведения об использовании отображаются для JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -135,13 +135,13 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                           |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                         |

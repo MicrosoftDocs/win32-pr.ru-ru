@@ -7,18 +7,18 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: bf4eb807a25b592e32a2d83436532af17462d70c
-ms.sourcegitcommit: 7d0cc7eb398fee8f5be55cd654a12d29937d643c
+ms.openlocfilehash: 67dc8c34703c834dbf0f1b651e3c118831d88abe1676feaba68ac53ecb603565
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "104351002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117825115"
 ---
 # <a name="resources-overview"></a>Общие сведения о ресурсах
 
 Ресурс Direct2D — это объект, который используется для рисования и представлен интерфейсом Direct2D, например [**ID2D1Geometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometry) или [**ID2D1RenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget). В этом разделе описываются виды ресурсов Direct2D и способы их совместного использования.
 
-В этом разделе содержатся следующие подразделы.
+Этот раздел состоит из следующих подразделов.
 
 -   [О ресурсах Direct2D](#about-direct2d-resources)
 -   [Ресурсы, независимые от устройства](#device-independent-resources)
@@ -69,7 +69,7 @@ Direct2D обеспечивает более прямое сопоставлен
 -   [**ID2D1RenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget) и интерфейсы, наследующие от него. Чтобы создать целевой объект рендеринга, используйте фабрику или другой целевой объект рендеринга.
 
 > [!Note]  
-> Начиная с Windows 8, существуют новые интерфейсы, которые создают ресурсы, зависящие от устройства. [**ID2D1Device**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1device) и [**ID2D1DeviceContext**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) могут совместно использовать ресурс, если контекст устройства и ресурс создаются из одного и того же **ID2D1Device**.
+> начиная с Windows 8, существуют новые интерфейсы, которые создают ресурсы, зависящие от устройства. [**ID2D1Device**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1device) и [**ID2D1DeviceContext**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) могут совместно использовать ресурс, если контекст устройства и ресурс создаются из одного и того же **ID2D1Device**.
 
  
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 0b35f9505758256750ae02d24d6c2a84ed0646b1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 173f744406ef2b360c0af7158e397c2001f146b9f2339bf6aaf3468b9a1465dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104156703"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117796355"
 ---
 # <a name="createprotocol-function"></a>Функция Креатепротокол
 
@@ -68,7 +68,7 @@ HPROTOCOL WINAPI CreateProtocol(
 
 Если функция завершилась неудачно, возвращается значение **null**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Библиотека DLL средства синтаксического анализа вызывает **креатепротокол** во время реализации [DllMain](dllmain-parser.md). Функция **креатепротокол** вызывается, когда операционная система ЗАГРУЖАЕТ библиотеку DLL средства синтаксического анализа в первый раз.
 
@@ -84,14 +84,14 @@ HPROTOCOL WINAPI CreateProtocol(
 
 | Для получения информации о                                                                                 | См.                                                     |
 |----------------------------------------------------------------------------------------------------|---------------------------------------------------------|
-| Какие анализаторы и как они работают с сетевой монитор.                                          | [Анализаторы](parsers.md)                                  |
+| Какие анализаторы и как они работают с сетевой монитор.                                          | [Средства синтаксического анализа](parsers.md)                                  |
 | Реализация функции **DllMain** включает в себя пример вызова **креатепротокол** в **DllMain**. | [Реализация DllMain](implementing-dllmain-parser.md) |
 
 
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

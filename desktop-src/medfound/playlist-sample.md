@@ -4,12 +4,12 @@ ms.assetid: ffe663ce-3e9a-4dfc-8904-6f055332c119
 title: Пример списка воспроизведения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f83d05762385d0de43a5d7f2bcd73cda2c6e2d51
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5e5cad2ef96c76512947a5b74e7eac54e3ad5787218e625f30fea5b8e5164177
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118239131"
 ---
 # <a name="playlist-sample"></a>Пример списка воспроизведения
 
@@ -30,7 +30,7 @@ ms.locfileid: "105711415"
 
 ## <a name="usage"></a>Использование
 
-Пример списка воспроизведения создает приложение Windows.
+пример списка воспроизведения создает приложение Windows.
 
 -   Чтобы создать новый список воспроизведения, выберите в меню **файл** пункт **Добавить в список воспроизведения** . В диалоговом окне **открытия файла** выберите один или несколько звуковых файлов. Файлы добавляются в список воспроизведения.
 -   Чтобы воспроизвести последовательность, нажмите кнопку **воспроизвести**.
@@ -65,7 +65,7 @@ ms.locfileid: "105711415"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

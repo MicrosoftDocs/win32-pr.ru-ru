@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2c85e424fc9b672944801da3d03cbaff0ca48017
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0bf9130715d35fb26b226a2b378f0eba2a853b742ee0a88319ed35f3a121f480
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117902469"
 ---
 # <a name="apijetupdate-method-jet_sesid-jet_tableid-byte--int32-int32"></a>Метод API. Жетупдате (JET_SESID, JET_TABLEID, Byte, Int32, Int32)
 
@@ -99,7 +99,7 @@ public static void JetUpdate(
     
     Возвращает фактический размер закладки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Жетупдате является последним шагом в выполнении вставки или обновления. Обновление начинается с вызова [жетпрепареупдате (JET_SESID, JET_TABLEID, JET_prep)](./api.jetprepareupdate-method.md) , а затем путем вызова [жетсетколумн (JET_SESID, JET_TABLEID, JET_COLUMNID, \[ \] , Int32, сетколумнгрбит, JET_SETINFO)](./api.jetsetcolumn-method-jet-sesid-jet-tableid-jet-columnid-byte-int32-setcolumngrbit-jet-setinfo-.md) один или несколько раз для задания состояния записи. Наконец, \[ \] для завершения операции обновления вызывается жетупдате (JET_SESID, JET_TABLEID,, Int32, Int32). Индексы обновляются только в Жетупдате или, а не во время Жетсетколумн.
 

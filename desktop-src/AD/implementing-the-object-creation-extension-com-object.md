@@ -7,12 +7,12 @@ keywords:
 - Реализация объекта COM для расширения создания объекта
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05c1a9da94caa300c1277cf6f6030357ca9d573d
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: a1c1d7eb9d3e2fe80e721068f39746e08f0ecf5a1db721658c02ec52aca39687
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104069763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118187642"
 ---
 # <a name="implementing-the-object-creation-extension-com-object"></a>Реализация COM-объекта расширения создания объекта
 
@@ -44,6 +44,6 @@ ms.locfileid: "104069763"
 
 Поскольку другие модули создания объектов могут добавлять страницы в мастер, расширение создания основного объекта может не узнать, существует ли в мастере более одной страницы. Это не является проблемой по двум причинам: во-первых, если система реализует страницу "Готово", модуль создания первичного объекта получит уведомление [**PSN \_ визнекст**](../controls/psn-wiznext.md) вместо уведомления **PSN \_ визнекст** . Во-вторых, [**commit**](/windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnewobjprimarysite-commit) завершается сбоем, если мастер содержит более одной страницы.
 
- 
+ 
 
- 
+ 

@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5d1d4fa75c8a41528e9868bc94fa638042d01cff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad04730c52bce38e462c2521dc7c34872bfcb69c3337ac6af18d09d865b9cfd3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118252518"
 ---
 # <a name="jet_snt"></a>JET_SNT
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jet_snt"></a>JET_SNT
 
@@ -52,7 +52,7 @@ _**Применимо к:** Windows | Windows Server_
 <td><p>JET_sntRequirements<br />
 7</p></td>
 <td><p>Не поддерживается.</p>
-<p><strong>Сервер Windows 2000:</strong>  Операция запущена. В этом случае последний параметр функции обратного вызова должен быть допустимым указателем на <a href="gg269328(v=exchg.10).md">JET_SNPROG</a> структуру, указывающую общее количество единиц для выполнения.</p></td>
+<p><strong>сервер Windows 2000:</strong>  Операция запущена. В этом случае последний параметр функции обратного вызова должен быть допустимым указателем на <a href="gg269328(v=exchg.10).md">JET_SNPROG</a> структуру, указывающую общее количество единиц для выполнения.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_sntProgress<br />
@@ -76,7 +76,7 @@ _**Применимо к:** Windows | Windows Server_
 <div class="alert">
 
 > [!NOTE]
-> <P>Это значение неприменимо к версиям операционной системы Windows, начиная с Windows 8.</P>
+> <P>это значение неприменимо к версиям операционной системы Windows, начиная с Windows 8.</P>
 
 
 </div></td>
@@ -95,11 +95,11 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
+<td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
+<td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>

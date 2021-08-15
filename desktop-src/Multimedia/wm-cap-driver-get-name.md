@@ -3,7 +3,7 @@ title: Сообщение WM_CAP_DRIVER_GET_NAME (VFW. h)
 description: '\_ \_ \_ Сообщение Get Name драйвера WM Cap \_ возвращает имя драйвера записи, подключенного к окну Capture (захват). Это сообщение можно отправить явно или с помощью макроса Капдривержетнаме.'
 ms.assetid: 84cecaf1-e0ff-424f-8c10-8bfe5cc2e7ea
 keywords:
-- WM_CAP_DRIVER_GET_NAME сообщения Windows мультимедиа
+- сообщение WM_CAP_DRIVER_GET_NAME Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 256b5f7913c83ddd278f3f3a05552b3d81070c73
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0dc44efae992f2967cb069c0866fbb7f9febed51ea73f94853a1b017bc57a068
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104489750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118369685"
 ---
 # <a name="wm_cap_driver_get_name-message"></a>\_Сообщение о \_ \_ получении \_ имени драйвера WM Cap
 
@@ -56,11 +56,11 @@ lParam = (LPARAM) (LPVOID) (LPSTR) (szName);
 
 Возвращает **значение true** в случае успеха или **false** , если окно записи не подключено к драйверу записи.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Имя — это текстовая строка, полученная из области ресурсов драйвера. Для этой строки приложения должны выделить примерно 80 байт. Если драйвер не содержит ресурс имени, возвращается полный путь к драйверу, указанному в реестре или в файле SYSTEM.INI.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

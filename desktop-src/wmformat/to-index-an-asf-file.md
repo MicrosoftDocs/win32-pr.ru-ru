@@ -3,18 +3,18 @@ title: Индексирование файла ASF
 description: Индексирование файла ASF
 ms.assetid: 33175444-365c-4b94-8b91-07198431062f
 keywords:
-- Windows Media Format SDK, индексирование файлов ASF
+- Windows Пакет SDK для формата мультимедиа, индексирование файлов ASF
 - Расширенный системный формат (ASF), индексирование файлов
 - ASF (Расширенный системный формат), индексирование файлов
 - индексы, индексирование файлов ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7206e1856abb9705e18e885ba06cb8253a93c84b
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 08c2e41ed60ecb8fcee39da35dbc79ec44cece8db62f3e040d42aee3374c5690
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "105681583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117845582"
 ---
 # <a name="to-index-an-asf-file"></a>Индексирование файла ASF
 
@@ -87,7 +87,7 @@ g_hEvent = NULL;
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -103,9 +103,9 @@ g_hEvent = NULL;
 [**Работа с индексами**](working-with-indexes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

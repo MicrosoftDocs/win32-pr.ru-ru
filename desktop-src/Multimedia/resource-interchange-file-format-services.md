@@ -14,12 +14,12 @@ keywords:
 - Фрагмент Metallica
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50cca3792ccded248951065c7b69f2e50d27e0ba
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 5967165996b2a7fb9ed9b40c9a1f3c5608cd3bb4eb1e6cf05ae351f6ce6f2a7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104336868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117801936"
 ---
 # <a name="resource-interchange-file-format-services"></a>Службы формата файлов обмена ресурсами
 
@@ -49,6 +49,6 @@ Metallica-файлы используют четыре символа для п�
 
 Чтобы создать новый фрагмент, используйте функцию [**ммиокреатечунк**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiocreatechunk) для записи заголовка блока в текущей позиции в открытом файле. Функции **ммиоасценд**, **ммиодесценд** и **ммиокреатечунк** используют структуру [**ммккинфо**](/windows/win32/api/mmiscapi/ns-mmiscapi-mmckinfo) для указания и получения сведений о блоках "Metallica".
 
- 
+ 
 
- 
+ 

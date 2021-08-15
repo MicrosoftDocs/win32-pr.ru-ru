@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 6a3a782dd4e29d56f5edc7a869004ac7b3fb7ccd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b558bf4df33e84fabae7e70c1722d78647514a52df8f62d05f8ecba8916c488a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104985565"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117857093"
 ---
 # <a name="shellwindows-object"></a>Объект Шеллвиндовс
 
@@ -54,19 +54,19 @@ ms.locfileid: "104985565"
 
 | Свойство                                       | Тип доступа          | Описание                                                |
 |:-----------------------------------------------|:---------------------|:-----------------------------------------------------------|
-| [**Расчета**](shellwindows-count.md)<br/> | Только для чтения<br/> | Содержит число элементов в коллекции.<br/> |
+| [**Count**](shellwindows-count.md)<br/> | Только для чтения<br/> | Содержит число элементов в коллекции.<br/> |
 
 
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                           |
 | Заголовок<br/>                   | <dl> <dt>Ексдисп. h</dt> </dl>                            |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (версия 4,71 или более поздняя)</dt> </dl> |

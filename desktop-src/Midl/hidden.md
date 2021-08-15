@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1718351ef84199b60ba720ed2f3569cfa78a0a50
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: a907a608376d9ad13f97427bd7a941b99221a0f14a6fa9fe35944ced10770b66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "105650334"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118384049"
 ---
 # <a name="hidden-attribute"></a>hidden - атрибут
 
@@ -89,7 +89,7 @@ element element-name
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Атрибут **\[ Hidden \]** позволяет удалять члены интерфейса (путем экранирования их из дальнейшего использования), сохраняя совместимость с существующим кодом. Атрибут **\[ Hidden \]** можно использовать для свойств, методов и операторов [**coclass**](coclass.md), [**DISP**](dispinterface.md), [**Interface**](interface.md)и [**Library**](library.md) .
 
@@ -135,7 +135,7 @@ library HiddenLib
 [**взаимодействия**](interface.md)
 </dt> <dt>
 
-[**библиотека**](library.md)
+[**Библиотечная**](library.md)
 </dt> <dt>
 
 [Синтаксис файла ODL](/previous-versions/windows/desktop/automat/odl-file-syntax)
@@ -144,6 +144,6 @@ library HiddenLib
 [Пример файла ODL](/previous-versions/windows/desktop/automat/odl-file-example)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -3,7 +3,7 @@ title: Сообщение LVM_GETCOLUMN (Коммктрл. h)
 description: Возвращает атрибуты столбца элемента управления "представление списка". Это сообщение можно отправить явным образом или с помощью \_ макроса DataColumn в ListView.
 ms.assetid: 59b4bbfc-6c38-4faa-8f2e-3ea5d24e55a6
 keywords:
-- Элементы управления Windows для LVM_GETCOLUMN сообщений
+- элементы управления Windows сообщений LVM_GETCOLUMN
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3eebf57138d27c31c5594f271e5d36a052b81673
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b65478d1d249740c630499fd4837e31d4eba7b992cf3ef3682c4e7b72d0706cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104489066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118411740"
 ---
 # <a name="lvm_getcolumn-message"></a>\_Сообщение LVM DataColumn
 
@@ -53,8 +53,8 @@ ms.locfileid: "104489066"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

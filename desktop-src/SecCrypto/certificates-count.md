@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: a67554530ce8c8dfdc1bfcfba1198cf778397ac2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 703b929ee4b9cbe69a0f2ff37ad7e1d0c2c0005c0aa461fc38a14baa8a8ab443
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105688869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117770553"
 ---
 # <a name="certificatescount-property"></a>Свойство Certificates. Count
 
@@ -39,11 +39,11 @@ Certificates.Count As Long
 
 Число объектов [**сертификата**](certificate.md) в коллекции. Каждый объект **сертификата** представляет один сертификат в коллекции.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 CAPICOM поддерживает только один сертификат для хранилища [*смарт-карт*](../secgloss/s-gly.md) . Даже если хранилище смарт-карт содержит более одного сертификата, это свойство будет содержать значение 1. Дополнительные сведения о хранилище смарт-карт см. в разделе **элемент \_ \_ \_ пользовательского \_ хранилища CAPICOM смарт-карты** перечисление [**\_ \_ расположения CAPICOM Store**](capicom-store-location.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

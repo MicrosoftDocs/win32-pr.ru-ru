@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_
 ms:contentKeyID: 55103645
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 66b6ada105e6f6d12cb754f288478e85d75a07e9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0669d00b9c28e5299c5b9f55f0931ec7d22921eddad5e2b6b4876199057d111d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118254271"
 ---
 # <a name="jet_indexcreate-properties"></a>Свойства JET_INDEXCREATE
 
@@ -40,7 +40,7 @@ ms.locfileid: "103999355"
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Открытое свойство" alt="Public property" /></td>
 <td><a href="dn335156(v=exchg.10).md">кбкэймост</a></td>
-<td>Возвращает или задает максимально допустимый размер (в байтах) для ключей в индексе. Минимальный поддерживаемый максимальный размер ключа — JET_cbKeyMostMin (255), который является устаревшим максимальным размером ключа. Максимальный размер ключа зависит от размера страницы базы данных <a href="hh596135(v=exchg.10).md">датабасепажесизе</a>. Максимальный размер ключа можно получить с помощью <a href="dn351156(v=exchg.10).md">кэймост</a>. Этот параметр не учитывается в Windows XP и Windows Server 2003. В отличие от неуправляемого API, <strong>индекскэймост ()</strong> (JET_bitIndexKeyMost) не требуется, он будет добавлен автоматически.</td>
+<td>Возвращает или задает максимально допустимый размер (в байтах) для ключей в индексе. Минимальный поддерживаемый максимальный размер ключа — JET_cbKeyMostMin (255), который является устаревшим максимальным размером ключа. Максимальный размер ключа зависит от размера страницы базы данных <a href="hh596135(v=exchg.10).md">датабасепажесизе</a>. Максимальный размер ключа можно получить с помощью <a href="dn351156(v=exchg.10).md">кэймост</a>. этот параметр пропускается в Windows XP и Windows Server 2003. В отличие от неуправляемого API, <strong>индекскэймост ()</strong> (JET_bitIndexKeyMost) не требуется, он будет добавлен автоматически.</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Открытое свойство" alt="Public property" /></td>

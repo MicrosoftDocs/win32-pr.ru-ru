@@ -13,12 +13,12 @@ keywords:
 - запросы к выходным устройствам MIDI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 292fbacbb4acf182d566e8c98832dfb0f993ea2b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: b493c0b3554a9a60cfc349d13a5404ec4d2b27915933c14b387df29a582406e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "105672269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118371916"
 ---
 # <a name="querying-midi-output-devices"></a>Запросы к выходным устройствам MIDI
 
@@ -30,6 +30,6 @@ ms.locfileid: "105672269"
 
 Элемент **двсуппорт** структуры **мидиауткапс** указывает, поддерживает ли драйвер устройства изменение томов, кэширование исправлений и потоковую передачу. Изменения в томе поддерживаются только внутренними устройствами синтезатора. Внешние порты вывода MIDI не поддерживают изменения томов. Сведения об изменении тома см. в разделе [изменение внутреннего тома MIDI синтезатора](changing-internal-midi-synthesizer-volume.md).
 
- 
+ 
 
- 
+ 

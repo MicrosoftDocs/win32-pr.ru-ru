@@ -11,12 +11,12 @@ keywords:
 - макрос Каппревиевскале
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af4dc293587160d950856fccb15709a11e9533bf
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9359b1380c5d6efe049bc4bea52a08a92f880af5d35558f4e65e21070f20c0cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986363"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118372373"
 ---
 # <a name="preview-and-overlay-modes"></a>Режимы просмотра и наложения
 
@@ -36,9 +36,9 @@ ms.locfileid: "103986363"
 
 Вы также можете задать расположение прокрутки видеокадра в клиентской области окна записи для режима предварительного просмотра или режима наложения, отправив сообщение с [**\_ \_ \_ прокруткой WM Cap Set**](wm-cap-set-scroll.md) (или макрос [**капсетскроллпос**](/windows/desktop/api/Vfw/nf-vfw-capsetscrollpos) ) в окно записи.
 
- 
+ 
 
- 
+ 
 
 
 

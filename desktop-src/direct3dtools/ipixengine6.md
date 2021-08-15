@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 18ebb353896e747d04ad25c33765afc15146354e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 77a984f941cce8cac32eda50b691baf3a8234e819ca3b332dc5fd916eb33eb61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104140130"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118282292"
 ---
 # <a name="span-idvspixengineipixengine6spanipixengine6-interface"></a><span id="vspixengine.ipixengine6"></span>Интерфейс IPixEngine6
 
@@ -44,7 +44,7 @@ ms.locfileid: "104140130"
 
 ## <a name="requirements"></a>Требования
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
 
  
 

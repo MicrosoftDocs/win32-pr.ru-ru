@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 3ab89f00f254778a2417644d894f1e9e81eb43cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c703150069bc839f2d20024c0de8f3197fba09c5c3571e3de818dec3f3d6737c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990830"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117860332"
 ---
 # <a name="foldergetdetailsof-method"></a>Folder. Жетдетаилсоф, метод
 
@@ -126,22 +126,22 @@ retVal = Folder.GetDetailsOf(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Тип: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr) \** _
+Тип: **[ **BSTR**](/previous-versions/windows/desktop/automat/bstr)\***
 
 Строка, содержащая извлеченные сведения.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
-> Не все методы реализуются для всех папок. Например, метод [_ *PARSENAME* *](folder-parsename.md) не реализован для папки панели управления ( \_ элементы управления CSID). При попытке вызвать нереализованный метод возникнет ошибка 0x800A01BD (Decimal 445).
+> Не все методы реализуются для всех папок. Например, метод [**PARSENAME**](folder-parsename.md) не реализован для папки панели управления ( \_ элементы управления CSID). При попытке вызвать нереализованный метод возникнет ошибка 0x800A01BD (Decimal 445).
 
  
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере **жетдетаилсоф** используется для получения типа файла с именем Clock.avi. Правильное использование показано в JScript, VBScript и Visual Basic.
+В следующем примере **жетдетаилсоф** используется для получения типа файла с именем Clock.avi. правильное использование отображается для JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -234,13 +234,13 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                           |
 | Заголовок<br/>                   | <dl> <dt>Шлобж \_ Core. h (включение шлдисп. h)</dt> </dl>  |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                         |

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Wbemsvc.dll
-ms.openlocfilehash: 22a3a15920d26f482cedfa3a596fd439ea70c2f4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 10c5fa56a96db3e46ce2c4c7941fd7a1d6fb27a1730dc3741890935782e4ace7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118318100"
 ---
 # <a name="iwbemeventsink-interface"></a>Интерфейс Ивбемевентсинк
 
@@ -48,13 +48,13 @@ ms.locfileid: "105702749"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При реализации приемника подписки на события ([**ивбемобжектсинк**](iwbemobjectsink.md) или **ивбемевентсинк**) не следует вызывать WMI из методов объекта приемника. Например, вызов [**IWbemServices:: канцеласинккалл**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-cancelasynccall) для отмены приемника из реализации [**Ивбемевентсинк:: сетсинксекурити**](/windows/desktop/api/Wbemprov/nf-wbemprov-iwbemeventsink-setsinksecurity) может повлиять на состояние WMI. Чтобы отменить подписку на события, установите флаг и вызовите **IWbemServices:: канцеласинккалл** из другого потока или объекта. Для реализаций, которые не связаны с приемником событий, например объектом, перечислением и получением запросов, можно выполнить обратный вызов к инструментарию WMI.
 
 Реализации приемника должны обрабатывать уведомление о событии в течение 100 мс, поскольку поток WMI, доставляющий уведомление о событии, не может выполнить другие действия, пока объект приемника не завершит обработку. Если для уведомления требуется большой объем обработки, приемник может использовать внутреннюю очередь для другого потока, чтобы обработать обработку.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

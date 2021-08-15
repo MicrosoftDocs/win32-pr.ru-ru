@@ -1,7 +1,7 @@
 - name: Завершение работы системы
   href: system-shutdown.md
   items:
-    - name: Изменения завершения работы Windows Vista
+    - name: изменения завершения работы для Windows Vista
       href: shutdown-changes-for-windows-vista.md
     - name: О завершении работы системы
       href: about-system-shutdown.md

@@ -14,20 +14,20 @@ keywords:
 - выбор форматов с ограниченным доступом
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 800945f4003c0fbe47d7916e0a1bf707745ff6d8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 994fffa7ef13f6febe41eb766b4ecaef7eb735f11f58d36f37adfccbb152bffa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117802044"
 ---
 # <a name="producing-a-dialog-box-for-selecting-restricted-formats"></a>Создание диалогового окна для выбора форматов с ограниченным доступом
 
 Может потребоваться использовать диалоговое окно, созданное функцией [**акмформатчусе**](/windows/desktop/api/Msacm/nf-msacm-acmformatchoose) , но ограничить или управлять форматами в диалоговом окне. Это можно сделать с помощью \_ \_ флага енаблехук акмформатчусе стилеф, чтобы привязать процедуру диалогового окна. Затем приложение может отфильтровать форматы, реагируя на сообщение [**mm \_ ACM \_ форматчусе**](mm-acm-formatchoose.md) в процедуре сообщения для диалогового окна.
 
- 
+ 
 
- 
+ 
 
 
 

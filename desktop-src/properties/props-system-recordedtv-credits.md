@@ -4,12 +4,12 @@ ms.assetid: 2a464413-c48d-48a2-b1e1-34303ee4dbfa
 title: System. Рекордедтв. кредиты
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2498e5a5e09b2e530393e7f3e643093f998fac17
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: db080fe6ee8dd697b6fc15505f38baba56c6fbab49909a4caec664ed53971814
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118227973"
 ---
 # <a name="systemrecordedtvcredits"></a>System. Рекордедтв. кредиты
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

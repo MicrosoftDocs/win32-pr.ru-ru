@@ -17,12 +17,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: d263af0eab5fc3899b45659bc8409a5e68776fe4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b5293f97eed0716b3add1d5f06513d556355b157d8e594b1f9e55cb8df6ca7ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647657"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118320626"
 ---
 # <a name="__namespaceoperationevent-class"></a>\_\_Класс Намеспацеоператионевент
 
@@ -47,7 +47,7 @@ class __NamespaceOperationEvent : __Event
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ \_ намеспацеоператионевент** имеет следующие свойства.
 
@@ -94,7 +94,7 @@ class __NamespaceOperationEvent : __Event
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ \_ намеспацеоператионевент** является производным от [**\_ \_ события**](--event.md).
 
@@ -122,7 +122,7 @@ class __NamespaceOperationEvent : __Event
 
 <dl> <dt>
 
-[**\_\_Событие**](/windows/desktop/WmiSdk/--event)
+[**\_\_Журнале**](/windows/desktop/WmiSdk/--event)
 </dt> <dt>
 
 [Системные классы WMI](wmi-system-classes.md)

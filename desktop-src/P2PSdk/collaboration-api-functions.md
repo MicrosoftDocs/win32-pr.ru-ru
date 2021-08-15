@@ -4,12 +4,12 @@ ms.assetid: 00c3c1f1-c36c-469a-a644-0ec60f02d25e
 title: Функции API совместной работы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c82c367a3c9989fa0411ce26ddf77ce8a27359e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 803e492a378b3f5b04c9f894cefa679cfbd77aff305874a706f668b970d7b53a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104156539"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117794572"
 ---
 # <a name="collaboration-api-functions"></a>Функции API совместной работы
 

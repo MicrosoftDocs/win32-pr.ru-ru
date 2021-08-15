@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 44af7a3dc82c0d4d20a2e4c6aff21f7a47837490
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bb8b4e2da0a6f1cd3c30e3d65404ecf308c71e88483e322193497216586b20b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263610"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118392447"
 ---
 # <a name="iskeypressed-method-of-the-msvm_keyboard-class"></a>Метод с нажатием клавиши для \_ класса мсвм Keyboard
 
@@ -105,7 +105,7 @@ uint32 IsKeyPressed(
 **Недостаточно памяти** (32778)
 </dt> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Метод с **нажатием клавиши** всегда будет возвращать **значение false** для **\_ меню VK** (18), **VK \_ Control** (17) и **VK \_ SHIFT** (16), так как они не являются реальными клавишами на клавиатуре. Эти виртуальные коды ключей всегда сопоставлены **с VK \_ лмену** (164), **VK \_ Лконтрол** (162) и **VK \_ лшифт** (160) соответственно методам [**пресскэй**](presskey-msvm-keyboard.md) и [**релеасекэй**](releasekey-msvm-keyboard.md) .
 
@@ -117,8 +117,8 @@ uint32 IsKeyPressed(
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

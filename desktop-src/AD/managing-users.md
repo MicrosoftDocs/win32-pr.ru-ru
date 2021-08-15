@@ -1,6 +1,6 @@
 ---
 title: Управление пользователями
-description: Учетные записи пользователей создаются и сохраняются в виде объектов в домен Active Directory Services.
+description: Сведения об управлении пользователями. Учетные записи пользователей создаются и сохраняются в виде объектов в домен Active Directory Services.
 ms.assetid: 57c83e4d-2d9f-4f22-97e2-27e2d277f014
 ms.tgt_platform: multiple
 keywords:
@@ -9,12 +9,12 @@ keywords:
 - Пользователи AD, Управление пользователями
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d1105132c6836e108a416331b2f4a6ad666c03d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0aa4c780a943d45833c3af5418337fe4d27584e2c944e19ff247479f3b29513d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103887648"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118186690"
 ---
 # <a name="managing-users"></a>Управление пользователями
 
@@ -30,11 +30,11 @@ ms.locfileid: "103887648"
 -   [Перечисление пользователей](enumerating-users.md)
 -   [Запросы пользователей](querying-for-users.md)
 -   Перемещение пользователей. Пользователь перемещается в том же виде, что и любой другой объект Active Directory. Дополнительные сведения о перемещении объектов Active Directory см. в разделе [Перемещение объектов](moving-objects.md).
--   [Управление пользователями на рядовых серверах и Windows 2000 Professional](managing-users-on-member-servers-and-windows-2000-professional.md)
+-   [управление пользователями на рядовых серверах и Windows 2000 Professional](managing-users-on-member-servers-and-windows-2000-professional.md)
 
- 
+ 
 
- 
+ 
 
 
 

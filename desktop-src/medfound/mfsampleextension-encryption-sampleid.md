@@ -4,12 +4,12 @@ ms.assetid: 09B11406-DF7B-4541-998C-68306654BADC
 title: Атрибут MFSampleExtension_Encryption_SampleID (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eb2aadcfcf895ddbfa9820a4df3a366ce409a555
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 42e89eb4213d75ea94bdb3c19ca88b2a1f3f28c8e8b1034ca452f2900f7b61ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118240876"
 ---
 # <a name="mfsampleextension_encryption_sampleid-attribute"></a>\_ \_ Атрибут Самплеид Encryption мфсампликстенсион
 
@@ -23,13 +23,13 @@ ms.locfileid: "104263518"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                         |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2012 R2 \[\]<br/>                            |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                         |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[Только классические приложения R2\]<br/>                            |
 | Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 <dl> <dt>
 

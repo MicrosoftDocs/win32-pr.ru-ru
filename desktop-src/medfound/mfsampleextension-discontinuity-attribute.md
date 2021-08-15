@@ -4,12 +4,12 @@ ms.assetid: f9e1e700-9958-404d-8b83-08f846f5a1b0
 title: Атрибут MFSampleExtension_Discontinuity (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e401a26c269a3b77d881bc74ae2c7b30d9d88f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ac76b8e4d220ece7c34277bfac031213c1c042615d7ca48677839e54b77e5da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104543951"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118241084"
 ---
 # <a name="mfsampleextension_discontinuity-attribute"></a>\_Атрибут прекращения мфсампликстенсион
 
@@ -29,7 +29,7 @@ ms.locfileid: "104543951"
 
 [**имфсампле**](/windows/desktop/api/mfobjects/nn-mfobjects-imfsample)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут применяется к примерам мультимедиа. Если этот атрибут имеет **значение true**, это означает, что в потоке произошло прекращение, и этот пример является первым, который должен появиться после разрыва.
 
@@ -43,13 +43,13 @@ ms.locfileid: "104543951"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows Vista \|\]<br/>                              |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 \|\]<br/>                        |
+| Минимальная версия клиента<br/> | Windows \[Приложения UWP для классических приложений Vista \|\]<br/>                              |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для классических приложений сервера 2008 \|\]<br/>                        |
 | Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 <dl> <dt>
 

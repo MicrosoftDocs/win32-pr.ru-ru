@@ -3,7 +3,7 @@ title: Список воспроизведения. Сетколумнресиз
 description: Метод Сетколумнресиземоде определяет, как именно изменяются размеры индексированных столбцов.
 ms.assetid: 84ca0e60-ca24-4058-ae08-5b9cf3d7c38f
 keywords:
-- Проигрыватель Windows Media Player. Сетколумнресиземоде
+- проигрыватель Windows Media списка воспроизведения. сетколумнресиземоде
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9a1b83020f4400f4f1095c84e281fe498f2b67da
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 72f356108ff016c404468a9b152b4adac247cd72ee089a9e82ea3206c4c2ffea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708618"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118335806"
 ---
 # <a name="playlistsetcolumnresizemode"></a>Список воспроизведения. Сетколумнресиземоде
 
@@ -69,7 +69,7 @@ ms.locfileid: "105708618"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

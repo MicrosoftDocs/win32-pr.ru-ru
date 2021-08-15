@@ -15,9 +15,9 @@
               href: supplicant-api-call-sequence.md
             - name: Последовательность вызовов API однорангового метода
               href: peer-method-api-call-sequence.md
-            - name: Последовательность вызовов API метода туннеля
+            - name: Tunnel Последовательность вызовов API метода
               href: tunnel-method-api-call-sequence1.md
-            - name: Последовательность вызовов API метода средства проверки подлинности
+            - name: Authenticator Последовательность вызовов API метода
               href: authenticator-method-api-call-sequence.md
         - name: EAPHost отправителей запросов
           href: eaphost-supplicants.md
@@ -38,7 +38,7 @@
         - name: Настройка значений реестра для методов EAP
           href: registry-keys-for-eap-methods.md
           items:
-            - name: Разделы реестра для методов средства проверки подлинности EAP
+            - name: разделы реестра для методов Authenticator EAP
               href: eap-authenticator-method-registry-keys.md
             - name: Разделы реестра для метода однорангового узла EAP
               href: eap-peer-method-registry-keys.md
@@ -63,7 +63,7 @@
     - name: Часто задаваемые вопросы о разработке EAPHost
       href: eaphost-development-frequently-asked-questions.md
       items:
-        - name: Общие часто задаваемые вопросы
+        - name: Общие вопросы и ответы
           href: general-frequently-asked-questions.md
         - name: Часто задаваемые вопросы о запрашивающем сторона EAPHost
           href: eaphost-supplicant-frequently-asked-questions.md
@@ -696,10 +696,10 @@
                   href: /windows/win32/api/eaptypes/ns-eaptypes-eapsimcredential
                 - name: еапусернамепассвордкредентиал
                   href: /windows/win32/api/eaptypes/ns-eaptypes-eapusernamepasswordcredential
-        - name: API-интерфейсы метода проверки подлинности EAPHost
+        - name: api метода EAPHost Authenticator
           href: eaphost-authenticator-method-apis.md
           items:
-            - name: Функции метода проверки подлинности EAPHost
+            - name: функции метода Authenticator EAPHost
               href: eap-host-authenticator-method-functions.md
               items:
                 - name: еапмесодаусентикаторбегинсессион
@@ -730,14 +730,14 @@
                   href: /windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorshutdown
                 - name: еапмесодаусентикаторупдатеиннермесодпарамс
                   href: /windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorupdateinnermethodparams
-            - name: Перечисления метода проверки подлинности EAPHost
+            - name: перечисление методов EAPHost Authenticator
               href: eap-host-authenticator-method-enumerations.md
               items:
                 - name: EAP_AUTHENTICATOR_SEND_TIMEOUT
                   href: /windows/win32/api/eapAuthenticatorTypes/ne-eapauthenticatortypes-eap_authenticator_send_timeout
                 - name: EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION
                   href: /windows/win32/api/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-eap_method_authenticator_response_action
-            - name: Структуры методов средства проверки подлинности EAPHost
+            - name: структуры методов EAPHost Authenticator
               href: eap-host-authenticator-method-structures.md
               items:
                 - name: EAP_AUTHENTICATOR_METHOD_ROUTINES

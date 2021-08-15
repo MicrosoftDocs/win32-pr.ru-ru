@@ -4,12 +4,12 @@ ms.assetid: a71a564d-934a-46e8-b555-989a6fa82337
 title: Файлы реестра
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44916618946f6541495186aa5843799c9b864fbc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f3a5caa34a075e4bffe48a542d02eec896ab28dd93fbdc2745dbc5a08effb9d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117763817"
 ---
 # <a name="registry-files"></a>Файлы реестра
 
@@ -19,9 +19,9 @@ ms.locfileid: "103998675"
 
 [**Регсавекэй**](/windows/desktop/api/Winreg/nf-winreg-regsavekeya) и [**регсавекэйекс**](/windows/desktop/api/Winreg/nf-winreg-regsavekeyexa) создают файл с атрибутом Archive. Файл создается в текущем каталоге процесса для локального ключа и в каталоге% systemroot% \\ system32 удаленного ключа.
 
-Файлы реестра имеют два следующих формата: Standard и latest. Стандартный формат — единственный формат, поддерживаемый Windows 2000. Кроме того, она поддерживается в более поздних версиях Windows для обеспечения обратной совместимости. [**Регсавекэй**](/windows/desktop/api/Winreg/nf-winreg-regsavekeya) создает файлы в стандартном формате.
+Файлы реестра имеют два следующих формата: Standard и latest. стандартный формат — единственный формат, поддерживаемый Windows 2000. кроме того, она поддерживается в более поздних версиях Windows для обеспечения обратной совместимости. [**Регсавекэй**](/windows/desktop/api/Winreg/nf-winreg-regsavekeya) создает файлы в стандартном формате.
 
-Последний формат поддерживается начиная с Windows XP. Файлы реестра, созданные в этом формате, не могут быть загружены в Windows 2000. [**Регсавекэйекс**](/windows/desktop/api/Winreg/nf-winreg-regsavekeyexa) может сохранять файлы реестра в любом формате, указывая \_ стандартный формат REG \_ или \_ последний формат REG \_ . Таким образом, его можно использовать для преобразования файлов реестра, использующих стандартный формат, в последний формат.
+последний формат поддерживается начиная с Windows XP. файлы реестра, созданные в этом формате, не могут быть загружены на Windows 2000. [**Регсавекэйекс**](/windows/desktop/api/Winreg/nf-winreg-regsavekeyexa) может сохранять файлы реестра в любом формате, указывая \_ стандартный формат REG \_ или \_ последний формат REG \_ . Таким образом, его можно использовать для преобразования файлов реестра, использующих стандартный формат, в последний формат.
 
 Чтобы записать файл реестра обратно в реестр, приложение может использовать функции [**реглоадкэй**](/windows/desktop/api/Winreg/nf-winreg-regloadkeya), [**регреплацекэй**](/windows/desktop/api/Winreg/nf-winreg-regreplacekeya)или [**регресторекэй**](/windows/desktop/api/Winreg/nf-winreg-regrestorekeya) следующим образом.
 

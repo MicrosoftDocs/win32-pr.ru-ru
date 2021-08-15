@@ -12,12 +12,12 @@ api_name:
 api_type:
 - UserDefined
 api_location: ''
-ms.openlocfilehash: 82e100092dd7c59e9cc689aa8723365fae8bed29
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5079b740d268174715b6c944787bb687cd9b8b1ecb12a27c04eeb26c79811034
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104273100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117784160"
 ---
 # <a name="authzaccesscheckcallback-callback-function"></a>Функция обратного вызова Аусзакцессчекккаллбакк
 
@@ -77,21 +77,21 @@ BOOL CALLBACK AuthzAccessCheckCallback(
 
 Если функция не может выполнить вычисление, она возвращает **значение false**. Используйте [**сетластеррор**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) , чтобы вернуть ошибку в функцию проверки доступа.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Переменные атрибутов безопасности должны присутствовать в контексте клиента, если они ссылаются на условное выражение, в противном случае термин условного выражения, ссылающийся на них, будет считаться неизвестным.
 
 Дополнительные сведения см. в статьях [как работают методы AccessCheck](how-dacls-control-access-to-an-object.md) и [централизованные политики авторизации](centralized-authorization-policy.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                   |
-| Распространяемые компоненты<br/>          | Пакет средств администрирования Windows Server 2003 в Windows XP<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                            |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                   |
+| Распространяемые компоненты<br/>          | Windows пакет средств администрирования сервера 2003 в Windows XP<br/> |
 
 
 

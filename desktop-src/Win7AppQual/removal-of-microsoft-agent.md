@@ -4,19 +4,19 @@ ms.assetid: 863d30cc-24dd-4215-a4d5-25d51a725dcd
 title: Удаление Microsoft Agent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 758b0508deb7ad54d84b3ee6290b7021fe93d47b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 983c6fd0d4084cf6b766c6d69f22db83222581c48e37879fe9e2f022604a17a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108116352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118329467"
 ---
 # <a name="removal-of-microsoft-agent"></a>Удаление Microsoft Agent
 
 ## <a name="platform"></a>Платформа
 
-**Клиенты** — Windows 7  
-**Серверы** — Windows Server 2008 R2  
+**клиенты** — Windows 7  
+**серверы** — Windows Server 2008 R2  
 
 
 
@@ -34,7 +34,7 @@ ms.locfileid: "108116352"
 
 ## <a name="description"></a>Описание
 
-Корпорация Майкрософт решила прекратить разработку технологий Microsoft Agent. Начиная с Windows 7, Microsoft Agent не будет включаться или поддерживаться в будущих версиях операционной системы Microsoft Windows. Мы рекомендуем разработчикам и перераспространителям приложений Microsoft Agent, чтобы оценить их действия, не принимая решение.
+Корпорация Майкрософт решила прекратить разработку технологий Microsoft Agent. начиная с версии Windows 7, microsoft Agent не будет включаться или поддерживаться в будущих версиях операционной системы Microsoft Windows. Мы рекомендуем разработчикам и перераспространителям приложений Microsoft Agent, чтобы оценить их действия, не принимая решение.
 
 ## <a name="manifestation"></a>Проявление
 
@@ -44,13 +44,13 @@ ms.locfileid: "108116352"
     -   Символы Мерлин, Genie, Peedy's и Роббо
     -   Редактор символов агента
     -   Все связанные программное обеспечение, средства и документация по Microsoft Agent
--   Windows 7 и более поздние версии не будут поддерживать разработку приложений или символов Microsoft Agent.
+-   Windows 7 и более поздних версий не будут поддерживать разработку приложений или символов Microsoft Agent.
 
 ## <a name="mitigation"></a>Меры по снижению риска
 
 Разработчики по-прежнему могут использовать следующие ресурсы для предыдущих версий Windows:
 
--   [Основные компоненты агента Microsoft (для использования только в Microsoft Windows 95, Windows 98 и Windows NT 4,0)](https://www.microsoft.com/downloads/details.aspx?familyid=E11BF712-7862-45BA-826D-44AE3A11836F)
+-   [основные компоненты агента microsoft (для использования только в microsoft Windows 95, Windows 98 и Windows NT 4,0)](https://www.microsoft.com/downloads/details.aspx?familyid=E11BF712-7862-45BA-826D-44AE3A11836F)
 -   [Мерлин символьный файл](https://www.microsoft.com/downloads/details.aspx?FamilyID=fee1dadd-2f23-41d0-8a81-2affd74c0aa5)
 -   [Peedy's символьный файл](https://www.microsoft.com/downloads/details.aspx?FamilyID=bd3c4655-79e4-4791-ab9d-abc7bbd133ef)
 -   [Genie символьный файл](https://www.microsoft.com/downloads/details.aspx?FamilyID=da86ba4e-bc2d-4c1d-b5a0-3183fe206414)

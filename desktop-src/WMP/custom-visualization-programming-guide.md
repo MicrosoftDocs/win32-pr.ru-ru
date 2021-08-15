@@ -3,8 +3,8 @@ title: Специальное руководством по программир
 description: Специальное руководством по программированию визуализации
 ms.assetid: a4e670b2-b70a-4f6b-8fc3-c4f5d855d723
 keywords:
-- Проигрыватель Windows Media, визуализации
-- Подключаемые модули проигрывателя Windows Media, визуализации
+- проигрыватель Windows Media, визуализации
+- подключаемые модули проигрыватель Windows Media, визуализации
 - подключаемые модули, визуализации
 - визуализации, программное руководством
 - Пользовательские визуализации, программное представление
@@ -14,12 +14,12 @@ keywords:
 - Функция Render, программное средство
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89e870915ec0052e8596708809c4151edc865fcb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a7481a34e09f2271a8bf9377ce7a92339198b985381b3fa2e277bcb6adbcab6a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105691155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117750370"
 ---
 # <a name="custom-visualization-programming-guide"></a>Специальное руководством по программированию визуализации
 
@@ -35,18 +35,18 @@ ms.locfileid: "105691155"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[**Пользовательские визуализации проигрывателя Windows Media**](windows-media-player-custom-visualizations.md)
+[**проигрыватель Windows Media Пользовательские визуализации**](windows-media-player-custom-visualizations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
