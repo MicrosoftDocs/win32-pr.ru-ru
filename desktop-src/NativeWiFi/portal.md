@@ -4,12 +4,12 @@ ms.assetid: f257bd46-6077-4295-bb90-fbc0a63133f6
 title: Встроенный WiFi
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3434ea26856d1baf785425739d076d9e1ed75b20
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de24ab117a366d494fd2ec2dbde21957ba5ed29d7ec0a71612b5b7645b716283
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119064984"
 ---
 # <a name="native-wifi"></a>Встроенный WiFi
 
@@ -23,7 +23,7 @@ ms.locfileid: "105673248"
 
 ## <a name="run-time-requirements"></a>Требования к среде выполнения
 
-Для работы собственного компонента WiFi требуются клиенты под управлением Windows Vista, Windows XP с пакетом обновления 3 (SP3) или API беспроводной локальной сети для Windows XP с пакетом обновления 2 (SP2).
+для работы собственного компонента Wifi требуются клиенты, работающие Windows Vista, Windows XP с пакетом обновления 3 (sp3) или API беспроводной локальной сети для Windows XP с пакетом обновления 2 (SP2).
 
 ## <a name="in-this-section"></a>В этом разделе
 
@@ -36,7 +36,7 @@ ms.locfileid: "105673248"
 | [Использование собственного WiFi](using-native-wifi.md)<br/>                                         | Процедуры и методы программирования, используемые с собственными WiFi. В этом разделе приводятся основные технологии программирования WiFi, такие как [встроенный пример API WiFi](native-wifi-api-sample.md), а также более сложные методы, полезные для опытных разработчиков WiFi.<br/> |
 | [Ссылка на собственный WiFi](native-wifi-reference.md)<br/>                                 | Документация по интерфейсу API Wi-Fi и схеме профиля XML.<br/>                                                                                                                                                                                                              |
 | [Нерегламентированная ссылка на беспроводной компьютер](wireless-ad-hoc-reference.md)<br/>                         | Документация по собственным интерфейсам и перечислениям WiFi ad hoc.<br/>                                                                                                                                                                                                          |
-| [Ссылка на беспроводную конфигурацию 0](wireless-zero-configuration-reference.md)<br/> | Документация по интерфейсу клиентского программного интерфейса для модуля беспроводной настройки беспроводной связи, поддерживаемого только в Windows XP.<br/>                                                                                                                                                   |
+| [Ссылка на беспроводную конфигурацию 0](wireless-zero-configuration-reference.md)<br/> | документация по интерфейсу клиентского программного интерфейса для модуля беспроводной настройки wireless Zero поддерживается только в Windows XP.<br/>                                                                                                                                                   |
 
 
 
@@ -44,9 +44,9 @@ ms.locfileid: "105673248"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-Дополнительные сведения о встроенном API Wi-Fi в более ранних версиях Windows см. на [форуме Windows Vista Wireless SDK](https://social.msdn.microsoft.com/Forums/b6bbd8f0-a921-480f-9b4b-845336462bc0/welcome-to-the-windows-vista-wireless-sdk-forum) или на [форуме по Windows XP Wireless SDK](https://social.msdn.microsoft.com/Forums/home?forum=xpwirelesssdk).
+дополнительные сведения о встроенном API Wifi в более ранних версиях Windows см. на [форуме Windows Vista wireless sdk](https://social.msdn.microsoft.com/Forums/b6bbd8f0-a921-480f-9b4b-845336462bc0/welcome-to-the-windows-vista-wireless-sdk-forum) или на [форуме по пакету sdk для беспроводных сетей Windows XP](https://social.msdn.microsoft.com/Forums/home?forum=xpwirelesssdk).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

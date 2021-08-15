@@ -5,12 +5,12 @@ ms.assetid: c55e4881-ca98-4393-a72e-f3ced687b7ca
 title: Глоссарий API для планшетных ПК
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ec2c047061f8c842f4725875d045e4895927bc1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 394b935bb36fbd4c8e4dfa429b4da341c72f5467d9023e772ef898df4a59bb47
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104542135"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967583"
 ---
 # <a name="tablet-pc-api-glossary"></a>Глоссарий API для планшетных ПК
 
@@ -254,7 +254,7 @@ ms.locfileid: "104542135"
 
 </dd> <dt>
 
-<span id="tablet.tablet_glossary_microsoft_windows_journal_note_reader"></span><span id="TABLET.TABLET_GLOSSARY_MICROSOFT_WINDOWS_JOURNAL_NOTE_READER"></span>**Средство чтения заметок журнала Microsoft Windows**
+<span id="tablet.tablet_glossary_microsoft_windows_journal_note_reader"></span><span id="TABLET.TABLET_GLOSSARY_MICROSOFT_WINDOWS_JOURNAL_NOTE_READER"></span>**средство чтения заметок журнала Microsoft Windows**
 </dt> <dd>
 
 Компонент, который принимает поток, содержащий JNT-файл, и возвращает поток, содержащий содержимое файла в формате XML, соответствующее схеме чтения заметки журнала.
@@ -334,7 +334,7 @@ ms.locfileid: "104542135"
 <span id="tablet.tablet_glossary_tablet_pc_managed_library"></span><span id="TABLET.TABLET_GLOSSARY_TABLET_PC_MANAGED_LIBRARY"></span>**Управляемая библиотека Tablet PC**
 </dt> <dd>
 
-Набор управляемых объектов, которые расширяют Microsoft .NET Framework для обеспечения поддержки ввода и вывода рукописного текста на планшетном ПК и обмена данными с другими компьютерами.
+набор управляемых объектов, которые расширяют платформа .NET Framework майкрософт для обеспечения поддержки ввода и вывода рукописного текста на планшетном пк и обмена данными с другими компьютерами.
 
 </dd> <dt>
 

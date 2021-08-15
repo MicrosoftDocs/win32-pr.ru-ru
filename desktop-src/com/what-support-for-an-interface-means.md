@@ -4,16 +4,16 @@ description: Поддержка интерфейса означает
 ms.assetid: fa5eae0f-2252-43bc-b504-de00b213cb2a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 13587bd5ff6391691c0f6bf6e38b59be019dfdb6
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 0a293ec9caa0112a20fcff27667efc3467ae5aea15c7acbc69845b4e1e2e6a0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110549059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047702"
 ---
 # <a name="what-support-for-an-interface-means"></a>Поддержка интерфейса означает
 
-Помимо интерфейса [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown) , элемент управления ActiveX или COM-объект для этого имеет значение, предопределяющее любые дополнительные функции, которые она поддерживает, через дополнительные интерфейсы. Это означает, что для интерфейса **IUnknown** не требуются никакие другие интерфейсы. В следующей таблице перечислены интерфейсы, которые может поддерживать элемент управления ActiveX, и что это означает для поддержки этого интерфейса.
+помимо интерфейса [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown) , ActiveX элемент управления или COM-объект для этого имеет значение, предопределяющее все необязательные функции, которые она поддерживает, через дополнительные интерфейсы. Это означает, что для интерфейса **IUnknown** не требуются никакие другие интерфейсы. для этого в следующей таблице перечислены интерфейсы, которые может поддерживать элемент управления ActiveX, и что это означает для поддержки этого интерфейса.
 
 
 

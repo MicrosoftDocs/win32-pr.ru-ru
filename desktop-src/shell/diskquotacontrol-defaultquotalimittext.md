@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: ea1b02e0-c480-4ef1-b6e0-1ec202d5f3c5
-ms.openlocfilehash: 14a5b5a0cc42bda17f922020a8485430797875e1
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 378d06286a0334cf6ca3056038f45be3a5919b4fd2aa88934957122bc751c141
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119094235"
 ---
 # <a name="diskquotacontroldefaultquotalimittext-property"></a>Дисккуотаконтрол. Дефаулткуоталимиттекст, свойство
 
@@ -39,7 +39,7 @@ DefaultQuotaLimitText = DiskQuotaControl.DefaultQuotaLimitText
 
 Строковое значение, содержащее ограничение квоты по умолчанию для новых пользователей тома. Например, если квота по умолчанию — 10,5 МБ, значение свойства равно "10,5 МБ". Если у тома нет квоты по умолчанию, свойство имеет значение "без ограничений" или локализованный эквивалент.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba2655924f5716e142832882441066d4772d0e63
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 46742831eaa0a014de0f6ae50271b28c922893133588758119cbf5bff7ba628b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104570549"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119491794"
 ---
 # <a name="glscaled-function"></a>Функция Глскалед
 
@@ -79,7 +79,7 @@ void WINAPI glScaled(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глскалед** создает общее масштабирование вдоль осей *x*, *y* и *z* . Три аргумента указывают требуемые коэффициенты масштабирования по каждой из трех осей. Результирующая матрица —
 

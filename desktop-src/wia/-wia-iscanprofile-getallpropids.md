@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scanprofile.h
-ms.openlocfilehash: 34cd00f626bea3b8f1350950f0d2012ce019068e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7fd54e3e1cd45c3631df9b069ddf3c2e897037efb2870d00946f0a002e12f145
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692528"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965783"
 ---
 # <a name="iscanprofilegetallpropids-method"></a>Метод Исканпрофиле:: Жеталлпропидс
 
@@ -43,16 +43,16 @@ HRESULT GetAllPropIDs(
 *число* \[ в, out\]
 </dt> <dd>
 
-Тип: **ulong \** _
+Тип: **ulong \***
 
 Количество запрошенных или возвращаемых идентификаторов свойств.
 
 </dd> <dt>
 
-_ppid * \[ out\]
+*PPID* \[ заполняет\]
 </dt> <dd>
 
-Тип: **PropID \** _
+Тип: **PropID \***
 
 Указатель на массив идентификаторов свойств.
 
@@ -60,18 +60,18 @@ _ppid * \[ out\]
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Тип: _ *HRESULT**
+Тип: **HRESULT**
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                        |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                              |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                        |
 | Header<br/>                   | <dl> <dt>Сканпрофиле. h</dt> </dl>    |
 | IDL<br/>                      | <dl> <dt>Сканпрофилес. idl</dt> </dl> |
 

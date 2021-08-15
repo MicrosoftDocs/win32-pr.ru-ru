@@ -3,7 +3,7 @@ title: Код уведомления NM_RCLICK (Toolbar) (Коммктрл. h)
 description: Посылается элементом управления ToolBar, когда пользователь нажимает на панель инструментов правой кнопкой мыши. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: e9d2d871-e922-444d-a76c-e73f249ed410
 keywords:
-- Элементы управления Windows для кода уведомления NM_RCLICK (панель инструментов)
+- элементы управления Windows кода уведомления NM_RCLICK (toolbar)
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6464c30a031aa55aef94bccd3ab852720fb14403
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 52fde315a3c68712c58b7e9466c351c6ac9a9117710ee6f285bd9ba9521ba56f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105654723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958073"
 ---
 # <a name="nm_rclick-toolbar-notification-code"></a>\_Код уведомления "NM ркликк (панель инструментов)"
 
@@ -49,14 +49,14 @@ NM_RCLICK
 
 Возвращает **значение false** , чтобы разрешить элементу управления ToolBar выполнять обработку события по умолчанию, или **значение true** , чтобы предотвратить обработку события элементом управления.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

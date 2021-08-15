@@ -12,16 +12,16 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: acb5bcfa589139e2c69e75124253f9d9a7b53a87
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 8ba7d9e26a9741f80caed84d2a4ee4198eae05736aa8dee91019452cc3345ddf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108118502"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119693124"
 ---
 # <a name="locationdispcivicaddressreportfactorystatus-property"></a>Локатиондисп. Цивикаддрессрепортфактори. status, свойство
 
-\[Объектная модель API расположения доступна для использования в операционных системах, указанных в разделе требования. В последующих версиях он может быть изменен или недоступен. Вместо этого для доступа к расположению с веб-сайта используйте [API географического расположения W3C](/previous-versions/windows/internet-explorer/ie-developer/samples/gg589513(v=vs.85)). Чтобы получить доступ к расположению из классического приложения, используйте API [**Windows. Devices. Географическое расположение**](/uwp/api/Windows.Devices.Geolocation) .\]
+\[Объектная модель API расположения доступна для использования в операционных системах, указанных в разделе требования. В последующих версиях он может быть изменен или недоступен. Вместо этого для доступа к расположению с веб-сайта используйте [API географического расположения W3C](/previous-versions/windows/internet-explorer/ie-developer/samples/gg589513(v=vs.85)). Чтобы получить доступ к расположению из классического приложения, используйте [**Windows. API Devices. Географическое расположение**](/uwp/api/Windows.Devices.Geolocation) .\]
 
 Текущее состояние отчета.
 
@@ -46,8 +46,8 @@ Status = LocationDisp.CivicAddressReportFactory.Status
 |------------------------------------------------------------------------------------------------------|----------------------------------|
 | <span id="0"></span><dl> <dt>**0,0**</dt> </dl> | Отчет не поддерживается.<br/> |
 | <span id="1"></span><dl> <dt>**1**</dt> </dl> | Ошибка.<br/>                |
-| <span id="2"></span><dl> <dt>**2**</dt> </dl> | Access denied. (Недопустимое значение {значение_утверждения} для утверждения {имя_утверждения}. Доступ запрещен.)<br/>        |
-| <span id="3"></span><dl> <dt>**3-5**</dt> </dl> | Инициализация.<br/>         |
+| <span id="2"></span><dl> <dt>**2**</dt> </dl> | Доступ запрещен.<br/>        |
+| <span id="3"></span><dl> <dt>**3**</dt> </dl> | Инициализация.<br/>         |
 | <span id="4"></span><dl> <dt>**4**</dt> </dl> | Выполняется.<br/>              |
 
 
@@ -64,7 +64,7 @@ Status = LocationDisp.CivicAddressReportFactory.Status
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                  |
 
 

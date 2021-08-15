@@ -4,12 +4,12 @@ ms.assetid: c7f50095-97ad-4e21-bd7c-de4cf595badb
 title: System. photo. Транскодедфорсинк
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b617c79514f9aaef7e27514e84fa297a0497da3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c4d88b3022d803b5e45d4b630525281c20f602b7ab770183a934df54748044e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272337"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118969983"
 ---
 # <a name="systemphototranscodedforsync"></a>System. photo. Транскодедфорсинк
 
@@ -30,11 +30,11 @@ propertyDescription
       type = Boolean
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

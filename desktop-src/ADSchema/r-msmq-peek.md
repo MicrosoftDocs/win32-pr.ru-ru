@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cacbebb19f6e45b7f4d797ef63f9a7c72c3a6eef
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e67c3e3a2b5b0f198a21805d47aedb07567005f4e15b3bcaf53cd58b51c97cb5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104139155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119081158"
 ---
 # <a name="msmq-peek-extended-right"></a>MSMQ-Просмотр расширенного права
 

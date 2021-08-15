@@ -3,7 +3,7 @@ title: INFO, команда
 description: Команда info Извлекает описание оборудования с устройства. Все устройства MCI распознают эту команду.
 ms.assetid: cdd6628b-bff8-4a0d-9dad-a63321f584ea
 keywords:
-- INFO, команда мультимедиа Windows
+- info, команда Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c6d401efca6a59d1ed3cbf433d7c33311678705d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f15675923f37a80ce694a400f18113f5178a54a3f75664008644919c6d9fc128
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104416016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119690474"
 ---
 # <a name="info-command"></a>INFO, команда
 

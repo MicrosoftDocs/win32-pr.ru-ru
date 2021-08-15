@@ -4,12 +4,12 @@ ms.assetid: 1564F6F2-844F-4392-9EB5-AA46059D514C
 title: Окна просмотра и содержимое
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 9cda367067ea860ce6a42a16e81d38393937276a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a103df916e5880380064250d05806169ff4187e6a8be0b22d2dd72d92343f38f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104563745"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118787123"
 ---
 # <a name="viewports-and-content"></a>Окна просмотра и содержимое
 
@@ -22,12 +22,12 @@ ms.locfileid: "104563745"
 - [Система координат](#coordinate-system)
 - [Преобразования](#transforms)
 - [Состояние окна просмотра](#viewport-state)
-- [См. также](#related-topics)
+- [Связанные темы](#related-topics)
 
 Окно *просмотра* — это область внутри окна, которая может принимать и обрабатывать ввод данных при взаимодействии с пользователем. Окно просмотра представляет область содержимого, которая может быть видна конечному пользователю в определенное время (также называемую клипом содержимого). Окно просмотра имеет несколько функций:
 
 - Он управляет состоянием взаимодействия (например, когда содержимое готово к управлению, когда содержимое находится в процессе обработки, когда содержимое находится в анимации инерции) и сопоставляет входные преобразования с выходными преобразованиями.
-- Он содержит содержимое, которое перемещается в ответ на взаимодействие с пользователем. Это может быть элемент HTML div (прокрутка), список с поддержкой панорамы (начальный экран Windows 8) или всплывающее меню для элемента управления Select.
+- Он содержит содержимое, которое перемещается в ответ на взаимодействие с пользователем. это может быть элемент HTML div (прокрутка), список с поддержкой панорамы (Windows 8 начальный экран) или всплывающее меню для элемента управления select.
 
 Окно просмотра создается путем вызова [**креатевиевпорт**](/windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-createviewport). В одном окне можно создать несколько окон просмотра для создания разнообразных ИНТЕРФЕЙСов.
 
@@ -169,6 +169,6 @@ ms.locfileid: "104563745"
 
 - Disabled — окно просмотра не будет обрабатывать ввод или выполнять обратные вызовы. Окно просмотра можно отключить из различных состояний, вызвав [**идиректманипулатионвиевпорт::D**](/windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-disable). Если в окне просмотра было задано автоматическое отключение, оно будет автоматически переведено в состояние отключено после обработки манипуляции. Чтобы повторно включить отключенное окно просмотра, вызовите метод [**идиректманипулатионвиевпорт:: enable**](/windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-enable).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 [Несколько окон просмотра: проверка попадания и иерархия окна просмотра](directmanipulation-multiple-vieports.md), [**активатеконфигуратион**](/windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-activateconfiguration), [**жетаутпуттрансформ**](/windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcontent-getoutputtransform), [**синкдисплайтрансформ**](/windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-syncdisplaytransform)

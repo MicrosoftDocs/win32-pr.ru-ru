@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b6aa6aa71b1738a815beee9cdc7c0f47118eb27f
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 6f05d67477bb7e6c89eddfe0a68ad47d83760762fc68cddf6f73c731886f88d1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "103821588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119697454"
 ---
 # <a name="cgenericlistaddbefore-method-wxlisth---pos-plist-parameters"></a>Кженериклист. Аддбефоре, метод (Вкслист. h) — параметры POS, pList
 
@@ -65,7 +65,7 @@ BOOL AddBefore(
 
 | Требование | Значение |
 |-|-|
-| Header | Вкслист. h (включение Streams. h) |
+| Заголовок | вкслист. h (включает Потоки. h) |
 | Библиотека| Стрмбасе. lib (розничные сборки); Стрмбасд. lib (отладочные сборки) |
 
 ## <a name="see-also"></a>См. также раздел

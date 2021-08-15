@@ -4,12 +4,12 @@ ms.assetid: 5e1d13a6-ae11-4729-b0fc-0a1620cf0738
 description: 'Дополнительные сведения о: Влиствв Sample'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7445f83d08641179f9ee0e5b3aeeee5a613f1f6b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: fefcd39c44e79ab4eec23f7becf202d1a3cd3566f6be9496e9fd61b577c87f4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957563"
 ---
 # <a name="vlistvw-sample"></a>Пример Влиствв
 
@@ -19,7 +19,7 @@ ms.locfileid: "105655983"
 -   [Минимальные требования](#minimum-requirements)
 -   [Загрузка образца](#downloading-the-sample)
 -   [Создание примера](#building-the-sample)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="description"></a>Описание
 
@@ -40,7 +40,7 @@ ms.locfileid: "105655983"
 
 ## <a name="downloading-the-sample"></a>Загрузка образца
 
-Пример Влиствв доступен на сайте GitHub в [репозитории классической выборки Windows](https://github.com/microsoft/Windows-classic-samples). Примеры элементов управления "представление списка" можно найти [здесь](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/controls/common/vlistvw) .
+пример влиствв доступен на сайте github в [репозитории классической выборки Windows](https://github.com/microsoft/Windows-classic-samples). Примеры элементов управления "представление списка" можно найти [здесь](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/controls/common/vlistvw) .
 
  
 
@@ -51,13 +51,13 @@ ms.locfileid: "105655983"
 1.  Откройте окно командной строки и перейдите в каталог проекта.
 2.  Введите `msbuild [project file]`.
 
-Чтобы построить пример с помощью Visual Studio, сделайте следующее:
+Чтобы построить пример с помощью Visual Studio:
 
-1.  Откройте проводник Windows и перейдите в каталог проекта.
+1.  откройте обозреватель Windows и перейдите в каталог проекта.
 2.  Дважды щелкните значок VCPROJ-файла, чтобы открыть проект в Visual Studio.
 3.  В меню **Сборка** выберите пункт **построить решение** , чтобы выполнить сборку решения.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

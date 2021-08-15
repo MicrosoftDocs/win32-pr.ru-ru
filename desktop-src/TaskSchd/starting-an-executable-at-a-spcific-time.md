@@ -7,12 +7,12 @@ keywords:
 - Планировщик задач примеры планировщик задач, запуск исполняемого файла
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c0ce5a1be1586e12399f1dd5d6969170bffa92f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 62276568f7c626935d8c5c518d51f58ad0a58b5c313e780ec5651067af625068
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119059962"
 ---
 # <a name="starting-an-executable-at-a-specific-time"></a>Запуск исполняемого файла в определенное время
 
@@ -24,22 +24,22 @@ ms.locfileid: "103888736"
 
 ## <a name="time-trigger-examples"></a>Примеры триггеров времени
 
-В следующих примерах запускается блокнот через 30 секунд после активации задачи:
+следующие примеры начинаются Блокнот 30 секунд после активации задачи:
 
 -   [Пример триггера времени (C++)](time-trigger-example--c---.md)
 -   [Пример триггера времени (сценарии)](time-trigger-example--scripting-.md)
 -   [Пример триггера времени (XML)](time-trigger-example--xml-.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Использование планировщик задач](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

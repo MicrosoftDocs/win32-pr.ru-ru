@@ -3,7 +3,7 @@ title: Сообщение CB_FINDSTRINGEXACT (Winuser. h)
 description: Находит первую строку списка в поле со списком, совпадающей со строкой, указанной в параметре lParam.
 ms.assetid: 9065af9f-b18e-4fd5-a8cc-f780f8d0fb05
 keywords:
-- Элементы управления Windows для CB_FINDSTRINGEXACT сообщений
+- элементы управления Windows сообщений CB_FINDSTRINGEXACT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f99d85c7dddb95bdfb168443d6f977c22273a87
-ms.sourcegitcommit: dc2f43e0f23f4a4ce239118cf9a5180f3ff0dd1d
+ms.openlocfilehash: 95010548601350b666ee65da4bd048127917dc9c1e80ac26ead844d8597a7a18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "108327179"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119079148"
 ---
 # <a name="cb_findstringexact-message"></a>\_Сообщение ФИНДСТРИНЖЕКСАКТ CB
 
@@ -59,9 +59,9 @@ ms.locfileid: "108327179"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Header<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
@@ -69,7 +69,7 @@ ms.locfileid: "108327179"
 
 <dl> <dt>
 
-**Ссылка**
+**Ссылки**
 </dt> <dt>
 
 [**\_FINDSTRING CB**](cb-findstring.md)

@@ -4,12 +4,12 @@ ms.assetid: AA31639F-EF70-4454-AC61-60755CAA684A
 title: Атрибут MFT_ENUM_HARDWARE_VENDOR_ID_Attribute
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c4d92585936e52cbb0b9b65201a5de0d3a02b9a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cff3a93abed968a26f8eead5be6a7d1872b9d4556b0d163632992cbcc21b1acd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105656553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973103"
 ---
 # <a name="mft_enum_hardware_vendor_id_attribute-attribute"></a>\_ \_ \_ \_ Атрибут атрибута идентификатора поставщика оборудования \_ перечисления MFT
 
@@ -17,26 +17,26 @@ ms.locfileid: "105656553"
 
 ## <a name="data-type"></a>Тип данных
 
-**WCHAR \** _
+**WCHAR\***
 
 ## <a name="getset"></a>Get/Set
 
-Чтобы получить этот атрибут, вызовите [_ *имфаттрибутес:: GetString* *](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getstring).
+Чтобы получить этот атрибут, вызовите метод [**имфаттрибутес:: GetString**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getstring).
 
 Чтобы задать этот атрибут, вызовите [**имфаттрибутес:: SetString**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setstring).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут является информационным и необязательным.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8 \|\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 \|\]<br/>                                |
+| Минимальная версия клиента<br/> | Windows 8 \[ приложения UWP для классических приложений \|\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ приложения UWP для классических приложений \|\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Мфтрансформ. idl</dt> </dl> |
 
 

@@ -1232,7 +1232,7 @@
         - name: Центр обеспечения безопасности Windows
           href: windows-security-center.md
           items:
-            - name: Перечисления центра безопасности Windows
+            - name: Безопасность Windows Перечисление центров
               href: windows-security-center-enumerations.md
               items:
                 - name: WSC_SECURITY_PRODUCT_STATE
@@ -1243,7 +1243,7 @@
                   href: /windows/win32/api/Wscapi/ne-wscapi-wsc_security_provider_health
                 - name: WSC_SECURITY_SIGNATURE_STATUS
                   href: /windows/win32/api/Iwscapi/ne-iwscapi-wsc_security_signature_status
-            - name: Интерфейсы центра безопасности Windows
+            - name: Безопасность Windows Интерфейсы центра
               href: windows-security-center-interfaces.md
               items:
                 - name: ивскпродукт
@@ -1268,7 +1268,7 @@
                       href: /windows/desktop/api/Iwscapi/nf-iwscapi-iwscproductlist-initialize
                     - name: Item - метод
                       href: /windows/desktop/api/Iwscapi/nf-iwscapi-iwscproductlist-get_item
-            - name: Функции центра безопасности Windows
+            - name: Безопасность Windows Функции Center
               href: windows-security-center-functions.md
               items:
                 - name: вскжетсекуритипровидерхеалс
@@ -1623,7 +1623,7 @@
               href: iprovidepropertybuilder-executebuilder.md
             - name: Метод Маппропертитобуилдер
               href: iprovidepropertybuilder-mappropertytobuilder.md
-    - name: Политика безопасного режима Windows
+    - name: Windows Политика безопасного режима
       href: windows-lockdown-policy.md
       items:
         - name: WLDP_HOST_ID

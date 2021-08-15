@@ -4,19 +4,19 @@ ms.assetid: 56a4889c-5dcf-416f-b46e-5c48277d5636
 title: Internet Explorer 8 — Защита выполнения данных/NX
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb0208cc20e78c30f42b09af78460990be20b002
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 8b1f969aa2e934f36142995150b6484dad2fa5067f6cbb5ab3a947055af375ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119998894"
 ---
 # <a name="internet-explorer-8---data-execution-protectionnx"></a>Internet Explorer 8 — Защита выполнения данных/NX
 
 ## <a name="affected-platforms"></a>Затронутые платформы
 
- **Клиенты** — Windows XP, Windows Vista, Windows 7  
-**Серверы** — windows Server 2003, windows Server 2008, windows Server 2008 R2  
+ **клиенты** — Windows XP, Windows Vista, Windows 7  
+**серверы** — Windows server 2003, Windows server 2008, Windows server 2008 R2  
 
 
 
@@ -28,7 +28,7 @@ ms.locfileid: "108088252"
 
 
 > [!Note]  
-> Internet Explorer 8 включит защиту DEP/NX при запуске в операционной системе с последним пакетом обновления. В Windows XP SP3, Windows Server 2003 SP3, Windows Vista SP1 и Windows Server 2008 по умолчанию DEP/NX включено в Internet Explorer 8.
+> Internet Explorer 8 включит защиту DEP/NX при запуске в операционной системе с последним пакетом обновления. Windows в XP sp3, Windows server 2003 SP3, Windows Vista с пакетом обновления 1 (SP1) и Windows Server 2008 по умолчанию DEP/NX включены в Internet Explorer 8.
 
  
 
@@ -48,7 +48,7 @@ DEP/NX — это функция безопасности, которая пом
 
 ## <a name="manifestation-of-impact"></a>Влияние на манифесты
 
-Ядро Windows отслеживает выполнение программы. Если ядро обнаруживает попытку выполнить код на странице памяти, которая не помечена как исполняемый объект, ядро прерывает выполнение программы, что приводит к сбою. Это мера безопасности, позволяющая гарантировать, что уязвимости, связанные с памятью (например, переполнения буфера) в приложении, нельзя использовать для выполнения произвольного кода.
+ядро Windows отслеживает выполнение программы. Если ядро обнаруживает попытку выполнить код на странице памяти, которая не помечена как исполняемый объект, ядро прерывает выполнение программы, что приводит к сбою. Это мера безопасности, позволяющая гарантировать, что уязвимости, связанные с памятью (например, переполнения буфера) в приложении, нельзя использовать для выполнения произвольного кода.
 
 ## <a name="end-user-mitigation"></a>Устранение End-User
 
@@ -66,16 +66,16 @@ DEP/NX — это функция безопасности, которая пом
 
 ## <a name="compatibility-performance-reliability-and-usability-testing"></a>Совместимость, производительность, надежность и тестирование на удобство использования
 
--   Протестируйте код с включенной функцией DEP/NX с помощью последней выпущенной версии Internet Explorer в Windows Vista SP1 или более поздней версии.
--   Протестируйте Internet Explorer 7 в Windows Vista после включения параметра DEP/NX. Чтобы включить DEP/NX для Internet Explorer 7, запустите Internet Explorer от имени администратора, а затем установите соответствующий флажок в меню Сервис > свойства обозревателя > вкладка Дополнительно.
--   Запустите средство тестирования совместимости Internet Explorer (ИЕКТТ), входящее в состав набора средств для обеспечения совместимости приложений (ACT), для выявления потенциальных проблем, связанных с изменениями DEP/NX.
+-   протестируйте код с включенной функцией DEP/NX с помощью последней выпущенной версии Internet Explorer в Windows Vista SP1 или более поздней версии.
+-   протестируйте Internet Explorer 7 в Windows Vista после включения параметра DEP/NX. Чтобы включить DEP/NX для Internet Explorer 7, запустите Internet Explorer от имени администратора, а затем установите соответствующий флажок в меню Сервис > свойства обозревателя > вкладка Дополнительно.
+-   запустите средство тестирования совместимости Internet Explorer (иектт), поставляемое вместе с набор средств совместимости приложений (акт), чтобы узнать о возможных проблемах, связанных с изменениями DEP/NX.
 
 ## <a name="links-to-other-resources"></a>Ссылки на другие ресурсы
 
 -   [Internet Explorer 8 Security, часть I: защита памяти DEP/NX](/archive/blogs/ie/)
 -   [Предотвращение выполнения данных](../memory/data-execution-prevention.md)
--   [Новые API-интерфейсы NX, добавленные в Windows Vista SP1, Windows XP SP3 и Windows Server 2008 R2](/archive/blogs/michael_howard/)
--   [Загрузка набора средств для обеспечения совместимости приложений](/windows-hardware/get-started/adk-install)
+-   [добавлены новые api-интерфейсы NX для Windows Vista с пакетом обновления 1 (SP1), Windows XP SP3 и Windows Server 2008 R2](/archive/blogs/michael_howard/)
+-   [загрузка набор средств совместимости приложений](/windows-hardware/get-started/adk-install)
 -   [Известные проблемы с функциями безопасности в Internet Explorer](/previous-versions/windows/it-pro/windows-7/cc722079(v=ws.10))
 
  

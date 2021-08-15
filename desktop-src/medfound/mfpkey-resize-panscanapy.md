@@ -4,12 +4,12 @@ ms.assetid: 9286d9eb-b390-4e7b-b0e8-3cd35dfab60c
 title: Свойство MFPKEY_RESIZE_PANSCANAPY (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e320098a3a2824b3fbd712cf807346b3eaf0da3c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f89535aa2134db9db8d99992b192a92fd39b824856fd3f6738764a11885c4117
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711779"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973423"
 ---
 # <a name="mfpkey_resize_panscanapy-property"></a>МФПКЭЙ \_ изменить размер \_ пансканапи
 
@@ -23,22 +23,22 @@ ms.locfileid: "105711779"
 
 VT \_ I4
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [DSP изменения видеоконтроллеров](videoresizer.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значение является вещественным числом с фиксированной запятой. Целая часть числа хранится в более высоком 2 байтах, а дробная часть хранится в младших 2 байтах.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 

@@ -8,12 +8,12 @@ keywords:
 - Функция Икжетинфо
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c619d13559d99b570af200298f29fcd8238c7d4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 404b6acacd97b514edcf0328a8127f97152554015694eba3f8e5bf3b76214de3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986521"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119678616"
 ---
 # <a name="getting-information-about-compressors-and-decompressors"></a>Получение сведений об упаковщиках и декомпрессорах
 
@@ -25,9 +25,9 @@ ms.locfileid: "103986521"
 
 Чтобы определить, может ли программа сжатия или декомпрессора отображать диалоговое окно о программе, отправьте сообщение [**ICM \_ о**](icm-about.md) сообщении (или используйте макрос [**иккуерябаут**](/windows/desktop/api/Vfw/nf-vfw-icqueryabout) ). Можно также отобразить диалоговое окно о программе программы сжатия или распаковки, отправив ICM \_ о сообщении и изменив значение параметра *wParam* (или с помощью макроса [**икабаут**](/windows/desktop/api/Vfw/nf-vfw-icabout) ).
 
- 
+ 
 
- 
+ 
 
 
 

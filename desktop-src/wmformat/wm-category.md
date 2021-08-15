@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b1d4fbd44cdca252a289a27468490912e0ea824
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 9baec7935ba333c55f917779cce7cac4d8d89d57b2daa4d395c0f7bd89e6338b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "105700772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118963763"
 ---
 # <a name="wmcategory"></a>WM/Category
 
@@ -38,11 +38,11 @@ g \_ всзвмкатегори
 | Тип файла | Пример значения   |
 |-----------|-----------------|
 | звук;     | "Движущие музыку" |
-| Видео     | "Домашние видео"   |
+| видео;     | "Домашние видео"   |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -51,9 +51,9 @@ g \_ всзвмкатегори
 [**Список атрибутов**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

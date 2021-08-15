@@ -15,18 +15,18 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 8641bad2c59f100b689c74e23faf727bc80d2f49
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 56d193bd2faffd51507ec4a913c7ee068b055dcf45ca756e801431659768c47d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104348885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050102"
 ---
 # <a name="swbemdatetimesetvardate-method"></a>SWbemDateTime. Сетвардате, метод
 
 Метод **сетвардате** объекта [**SWbemDateTime**](swbemdatetime.md) преобразует дату в формате VT в формат **\_ даты** [и времени CIM](date-and-time-format.md) .
 
-Значение **\_ даты VT** — это значение типа datetime, которое Visual Basic и использование ActiveX.
+значение **\_ даты VT** — это значение типа datetime, которое Visual Basic и ActiveX использования.
 
 Описание этого синтаксиса см. в разделе [соглашения о документе для API скриптов](document-conventions-for-the-scripting-api.md).
 
@@ -77,11 +77,11 @@ SWbemDateTime.SetVarDate( _
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 После успешного вызова **сетвардате** значение [**DateTime**](datetime.md) интерпретируется как абсолютное значение DateTime, а не как интервал, а свойство " [**интервал**](swbemdatetime-isinterval.md) " — в значение **false**.
 
-Встроенная функция [CDate](/previous-versions//2dt118h2(v=vs.85)) Visual Basic или VBScript предоставляет значение [**DateTime**](datetime.md) в формате **\_ даты VT** для входных данных в **сетвардате**.
+встроенная функция [CDate](/previous-versions//2dt118h2(v=vs.85)) Visual Basic или VBScript предоставляет значение [**datetime**](datetime.md) в формате **\_ даты VT** для входных данных в **сетвардате**.
 
 ## <a name="examples"></a>Примеры
 

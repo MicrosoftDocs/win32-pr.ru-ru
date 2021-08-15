@@ -4,18 +4,18 @@ ms.assetid: c48f4584-732a-468d-a651-2c09ce3c9ddd
 title: Msival2.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b70ca2ccdeaf72c5191f292a8fa3f9b4de5dd9a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c8ed1228413d5b2fab0dfab79ea4546a9d15e74c8c62e9b1ca9751699f469854
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118943881"
 ---
 # <a name="msival2exe"></a>Msival2.exe
 
 Msival2.exe — это служебная программа командной строки, которая может выполнять набор [встроенных средств оценки согласованности — ICEs](internal-consistency-evaluators-ices.md).
 
-Это средство доступно только в [компонентах Windows SDK для разработчиков установщик Windows](platform-sdk-components-for-windows-installer-developers.md).
+это средство доступно только в [компонентах Windows SDK для разработчиков установщик Windows](platform-sdk-components-for-windows-installer-developers.md).
 
 Дополнительные сведения о языке ICEs и файле CUB см. в разделе [Использование встроенных средств оценки согласованности](using-internal-consistency-evaluators.md).
 
@@ -39,11 +39,11 @@ Msival2.exe — это служебная программа командной 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Средства разработки установщик Windows](windows-installer-development-tools.md)
+[Windows Средства разработки установщика](windows-installer-development-tools.md)
 </dt> <dt>
 
 [Внутренние средства оценки согласованности — ICEs](internal-consistency-evaluators-ices.md)

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6a96a1ce53b850ec8feeba282055e8111b275bfd
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 8a211014137f35c39a6b89cd16f0e27687b4daafd89841f752312f459531cab2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104996922"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986444"
 ---
 # <a name="loop---vs"></a>цикл — VS
 
@@ -29,7 +29,7 @@ ms.locfileid: "104996922"
 
 
 
- 
+ 
 
 Где:
 
@@ -46,18 +46,18 @@ ms.locfileid: "104996922"
 
 
 
- 
+ 
 
 -   [Регистр счетчика цикла](dx9-graphics-reference-asm-vs-registers-loop-counter.md) (Al) содержит текущее число циклов и может использоваться для относительных адресов в [Постоянный целочисленный регистр](dx9-graphics-reference-asm-vs-registers-constant-integer.md) (c \# ) или [выходные регистры](dx9-graphics-reference-asm-vs-registers-vs-3-0.md) (o \# ) внутри блока цикла.
 -   i \# . x указывает число итераций. Допустимый диапазон: \[ 0, 255 \] . Обратите внимание, что эта инструкция не увеличивает или не уменьшает значение i \# . x.
 -   i \# . y указывает начальное значение регистра [счетчика циклов](dx9-graphics-reference-asm-vs-registers-loop-counter.md) (Al). Допустимый диапазон: \[ 0, 255 \] . Обратите внимание, что эта инструкция не увеличивает или не уменьшает значение i \# . y.
 -   i \# . z указывает размер шага или шаг. Допустимый диапазон — \[ 128, 127 \] .
 -   i \# . w не используется, и его значение должно быть равно 0.
--   Блоки циклов могут быть вложенными. См. раздел [ограничения вложений управления потоком](dx9-graphics-reference-asm-vs-instructions-flow-control.md).
+-   Блоки циклов могут быть вложенными. см. раздел [ограничения вложенности элемента управления Flow](dx9-graphics-reference-asm-vs-instructions-flow-control.md).
 -   При вложении значение [регистра счетчика цикла](dx9-graphics-reference-asm-vs-registers-loop-counter.md) (Al) ссылается на непосредственный блок цикла.
 -   Блоки циклов могут быть либо полностью внутри \* блока if, либо полностью окружающи его. Помещается в недопустимый.
 
-## <a name="example"></a>Например, .
+## <a name="example"></a>Пример
 
 
 ```
@@ -68,16 +68,16 @@ endloop
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера вершин](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

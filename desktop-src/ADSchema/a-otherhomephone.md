@@ -1,10 +1,10 @@
 ---
-title: Phone — Главная — другие атрибуты
+title: Телефон-Home — другой атрибут
 description: Список альтернативных номеров домашнего телефона.
 ms.assetid: 502e0a9d-301c-4c2e-98c3-8efe75c8b0cf
 ms.tgt_platform: multiple
 keywords:
-- Телефон — Главная — другая схема AD атрибутов
+- Телефон-Home — другая схема AD атрибутов
 - Схема AD атрибута Осерхомефоне
 topic_type:
 - apiref
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2ed3aa026a1e60bb644ddab81293921ac9b8271
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ecf4037d3ec3f77db0092833973b6b5b72143fec1bb65ba5fd3ab7f3ddf4b1b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103893322"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960153"
 ---
-# <a name="phone-home-other-attribute"></a>Phone — Главная — другие атрибуты
+# <a name="phone-home-other-attribute"></a>Телефон-Home — другой атрибут
 
 Список альтернативных номеров домашнего телефона.
 
@@ -29,7 +29,7 @@ ms.locfileid: "103893322"
 
 | Ввод | Значение |
 |-------------------|----------------------------------------------------------------------------------|
-| CN                | Телефон — Главная страница — другие                                                                 |
+| CN                | Телефон-Home — другие                                                                 |
 | LDAP-отображаемое имя | otherHomePhone                                                                   |
 | Размер              | \-                                                                               |
 | Привилегия обновления  | Администратор домена или владелец учетной записи.                                           |

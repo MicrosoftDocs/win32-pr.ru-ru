@@ -8,12 +8,12 @@ keywords:
 - Командная строка, Аккчеккер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34ef010b2079d364c43bf2a6e47b0e3b0f24bb37
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0d370f1b4ba5c3d9752015425e12f48311c66dfd8928c6b9fe0f011c48ee6c8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103887792"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994042"
 ---
 # <a name="the-accchecker-console"></a>Консоль Аккчеккер
 
@@ -22,7 +22,7 @@ ms.locfileid: "103887792"
 -   [Синтаксис командной строки](#command-line-syntax)
 -   [Коды ошибок командной строки](#command-line-error-codes)
 -   [Примеры командной строки](#command-line-examples)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ![средство командной строки консоли аккчеккер](images/accchecker-console.png)
 
@@ -79,7 +79,7 @@ ms.locfileid: "103887792"
 
 -   Выполнение всех проверок в окне с указанным именем.
 
-    **Аккчеккконсоле-Window "без имени — Блокнот"**
+    **аккчеккконсоле-window "без имени — Блокнот"**
 
 -   Выполните подмножество проверок для HWND, указав файл подавления.
 
@@ -87,9 +87,9 @@ ms.locfileid: "103887792"
 
 -   Запустите все проверки из новой DLL-библиотеки проверки.
 
-    **Аккчеккконсоле-Window "без имени — Блокнот" VerificationRoutine1.dll**
+    **аккчеккконсоле-window "без названия — Блокнот" VerificationRoutine1.dll**
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

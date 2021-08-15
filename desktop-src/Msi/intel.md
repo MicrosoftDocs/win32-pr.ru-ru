@@ -1,19 +1,19 @@
 ---
-description: При работе на процессоре Intel свойство Intel устанавливается установщик Windows на числовой уровень процессора.
+description: при работе на процессоре intel свойство Intel устанавливается установщик Windows на числовой уровень процессора.
 ms.assetid: c1190df2-0440-4dd1-bce5-61d899f71437
 title: Intel, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab73f35b371d3bf8323fe2a3f3de1608666bc181
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dd5b4fe488867a67da1f97ce4564bb8ce530b89417554a91a8734bee6e863f44
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105688994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013242"
 ---
 # <a name="intel-property"></a>Intel, свойство
 
-При работе на процессоре Intel свойство **Intel** устанавливается установщик Windows на числовой уровень процессора. Значения совпадают с полями *впроцессорлевел* в структуре [**системных \_ сведений**](/windows/win32/api/sysinfoapi/ns-sysinfoapi-system_info) . При работе на процессоре x64 установщик Windows устанавливает свойство **Intel** в соответствии с процессором x86, который эмулируется операционной системой компьютера x64.
+при работе на процессоре intel свойство **Intel** устанавливается установщик Windows на числовой уровень процессора. Значения совпадают с полями *впроцессорлевел* в структуре [**системных \_ сведений**](/windows/win32/api/sysinfoapi/ns-sysinfoapi-system_info) . при работе на процессоре x64 установщик Windows устанавливает свойство **Intel** в соответствии с процессором x86, который эмулируется операционной системой компьютера x64.
 
 ## <a name="requirements"></a>Требования
 
@@ -21,7 +21,7 @@ ms.locfileid: "105688994"
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

@@ -4,27 +4,27 @@ description: В этом разделе показано, как извлечь 
 ms.assetid: F3643196-F847-4EE4-97ED-75AF52D4FF8D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d453433917c211bc787f70a5d9344f1a477858e
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: fac5d0bab71fea11fe3d2aba23405f6d7ee7fb1ed8c78f2578f034ae9c84cad8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "105654397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119079498"
 ---
 # <a name="how-to-retrieve-and-set-a-hot-key"></a>Получение и задание сочетания клавиш
 
 В этом разделе показано, как извлечь или задать сочетание клавиш для элемента управления горячего ключа. Сообщение [**ХКМ \_ сесоткэй**](hkm-sethotkey.md) позволяет приложению установить сочетание клавиш для элемента управления "горячая клавиша". Приложения используют сообщение [**ХКМ- \_ горячих**](hkm-gethotkey.md) клавиш, чтобы получить виртуальный код ключа и флаги модификатора для сочетания клавиш, выбранного пользователем.
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
@@ -58,7 +58,7 @@ BOOL WINAPI ProcessHotkey(HWND hwndHot, HWND hwndMain)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

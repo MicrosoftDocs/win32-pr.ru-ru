@@ -1,27 +1,27 @@
 ---
-description: Это установщик Windows свойство указывает, когда уровень внутреннего пользовательского интерфейса был установлен на скрытие кнопки отмены.
+description: это установщик Windows свойство указывает, когда уровень внутреннего пользовательского интерфейса был установлен на скрытие кнопки отмены.
 ms.assetid: 0e842bee-32c2-41ae-97f3-bc8b34960a44
 title: Мсиуихидеканцел, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a25a940921dd4b0d91155765ee6768ec0d6d2bb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6da3c0888ea760e7e8627710b061112d350f94af569697b7ad0616d1dbacbbf0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679610"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118943992"
 ---
 # <a name="msiuihidecancel-property"></a>Мсиуихидеканцел, свойство
 
 Установщик задает для свойства **мсиуихидеканцел** значение 1, если на уровне внутреннего пользовательского интерфейса задано включение инсталлуилевел \_ Хидеканцел с функцией [**Мсисетинтерналуи**](/windows/desktop/api/Msi/nf-msi-msisetinternalui) или свойством [Duilevel](installer-uilevel.md)объекта [**установщика**](installer-object.md) или с помощью [параметров командной строки](command-line-options.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows 3,0 или более поздней версии в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик 3,0 или более поздней версии на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 
@@ -32,7 +32,7 @@ ms.locfileid: "105679610"
 [Свойства](properties.md)
 </dt> <dt>
 
-[Не поддерживается в установщик Windows 2,0 и более ранних версиях](not-supported-in-windows-installer-version-2-0.md)
+[не поддерживается в установщик Windows 2,0 и более ранних версиях](not-supported-in-windows-installer-version-2-0.md)
 </dt> </dl>
 
  

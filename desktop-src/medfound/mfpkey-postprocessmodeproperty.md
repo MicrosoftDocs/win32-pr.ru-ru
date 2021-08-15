@@ -4,12 +4,12 @@ ms.assetid: c6dab7f6-4a3e-45bb-b81c-5f4c39f9e954
 title: Свойство MFPKEY_POSTPROCESSMODE (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a4002deae63f1bdaea09ca31dd95bfec1cb594fc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dce916d0b74c25ae2a57a43acde128ce8c45e7eb42860c3d7a2f129ea2d5b3c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708586"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973553"
 ---
 # <a name="mfpkey_postprocessmode-property"></a>МФПКЭЙ \_ постпроцессмоде, свойство
 
@@ -23,7 +23,7 @@ ms.locfileid: "105708586"
 
 **VT \_ I4**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Присвойте этому свойству одно из следующих значений.
 
@@ -44,7 +44,7 @@ ms.locfileid: "105708586"
 
 Так как значение этого свойства переходит от 0 до 4, сложность декодирования, использование ресурсов ЦП и увеличение качества изображения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

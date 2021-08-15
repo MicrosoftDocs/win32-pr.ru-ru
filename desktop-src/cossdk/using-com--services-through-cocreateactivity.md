@@ -4,12 +4,12 @@ ms.assetid: af734507-516c-43f1-9c5e-c77cde1b8008
 title: Использование служб COM+ через Кокреатеактивити
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5b3296756b91d0f8ea29b1d67c11c78c431cfcd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 11b5452c99fa431e7c1927646eec7ad9b5e5fa930f3ba7d0bf242df7690325db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128666"
 ---
 # <a name="using-com-services-through-cocreateactivity"></a>Использование служб COM+ через Кокреатеактивити
 
@@ -48,7 +48,7 @@ if (FAILED(hr)) throw(hr);
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

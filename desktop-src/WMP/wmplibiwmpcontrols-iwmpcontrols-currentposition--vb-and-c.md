@@ -3,9 +3,9 @@ title: Ивмпконтролс currentPosition, свойство
 description: Свойство currentPosition Возвращает или задает текущую позицию в элементе мультимедиа в секундах с начала.
 ms.assetid: 48f5241e-7528-485e-bf47-d655ba842af2
 keywords:
-- Проигрыватель Windows Media для свойства currentPosition
-- currentPosition свойство проигрывателя Windows Media Player, интерфейс Ивмпконтролс
-- Интерфейс Ивмпконтролс Windows Media Player, свойство currentPosition
+- проигрыватель Windows Media свойства currentPosition
+- проигрыватель Windows Media свойства currentPosition, интерфейс ивмпконтролс
+- проигрыватель Windows Media интерфейса ивмпконтролс, свойство currentPosition
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fee8c2c8244d6034069f21033978ce2883ff852d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ac8eca861240256899fa19513fc1fb64cd540d47acb213f718674ebbda2d5f17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689310"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053672"
 ---
 # <a name="iwmpcontrolscurrentposition-property"></a>Свойство Ивмпконтролс:: currentPosition
 
@@ -86,7 +86,7 @@ End Sub
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

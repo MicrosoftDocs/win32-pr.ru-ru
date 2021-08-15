@@ -4,12 +4,12 @@ ms.assetid: ccc450fe-5b93-46f8-bfeb-b7b1aaf53f8e
 title: Константы формата файла изображения (Гдиплусимагинг. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0cd13a62f5b71680efc89ab8c65990302eedd328
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ad71973c870f90844a033679cd2961d988def604343af06539db3450d65461a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104987476"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117696509"
 ---
 # <a name="image-file-format-constants"></a>Константы формата файла изображения
 
@@ -19,7 +19,7 @@ ms.locfileid: "104987476"
 
 | Константа                                                                                                                                                                                                                 | Описание                                                               |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------|
-| <span id="ImageFormatBMP"></span><span id="imageformatbmp"></span><span id="IMAGEFORMATBMP"></span><dl> <dt>**имажеформатбмп**</dt> </dl>                         | Указывает формат Windows BMP.<br/>                             |
+| <span id="ImageFormatBMP"></span><span id="imageformatbmp"></span><span id="IMAGEFORMATBMP"></span><dl> <dt>**имажеформатбмп**</dt> </dl>                         | указывает формат Windows BMP.<br/>                             |
 | <span id="ImageFormatEMF"></span><span id="imageformatemf"></span><span id="IMAGEFORMATEMF"></span><dl> <dt>**имажеформатемф**</dt> </dl>                         | Указывает формат EMF.<br/>                                      |
 | <span id="ImageFormatEXIF"></span><span id="imageformatexif"></span><span id="IMAGEFORMATEXIF"></span><dl> <dt>**имажеформатексиф**</dt> </dl>                     | Указывает формат EXIF (файл изображения в формате Exchange).<br/>           |
 | <span id="ImageFormatGIF"></span><span id="imageformatgif"></span><span id="IMAGEFORMATGIF"></span><dl> <dt>**имажеформатгиф**</dt> </dl>                         | Указывает формат GIF.<br/>                                      |
@@ -29,7 +29,7 @@ ms.locfileid: "104987476"
 | <span id="ImageFormatMemoryBMP"></span><span id="imageformatmemorybmp"></span><span id="IMAGEFORMATMEMORYBMP"></span><dl> <dt>**имажеформатмеморибмп**</dt> </dl> | Указывает, что изображение было создано из битовой карты памяти.<br/> |
 | <span id="ImageFormatPNG"></span><span id="imageformatpng"></span><span id="IMAGEFORMATPNG"></span><dl> <dt>**имажеформатпнг**</dt> </dl>                         | Указывает формат PNG.<br/>                                      |
 | <span id="ImageFormatTIFF"></span><span id="imageformattiff"></span><span id="IMAGEFORMATTIFF"></span><dl> <dt>**имажеформаттифф**</dt> </dl>                     | Указывает формат TIFF.<br/>                                     |
-| <span id="ImageFormatUndefined"></span><span id="imageformatundefined"></span><span id="IMAGEFORMATUNDEFINED"></span><dl> <dt>**имажеформатундефинед**</dt> </dl> | Указывает, что GDI+ не удается определить формат.<br/>         |
+| <span id="ImageFormatUndefined"></span><span id="imageformatundefined"></span><span id="IMAGEFORMATUNDEFINED"></span><dl> <dt>**имажеформатундефинед**</dt> </dl> | указывает, что GDI+ не может определить формат.<br/>         |
 | <span id="ImageFormatWEBP"></span><span id="imageformatwebp"></span><span id="ImageFormatWEBP"></span><dl> <dt>**имажеформатвебп**</dt> </dl>                     | Указывает формат Вебп.<br/>                                     |
 | <span id="ImageFormatWMF"></span><span id="imageformatwmf"></span><span id="IMAGEFORMATWMF"></span><dl> <dt>**имажеформатвмф**</dt> </dl>                         | Указывает формат WMF.<br/>                                      |
 
@@ -41,7 +41,7 @@ ms.locfileid: "104987476"
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Гдиплусимагинг. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Гдиплусимагинг. h</dt> </dl> |
 
 
 

@@ -1,15 +1,15 @@
 ---
-description: Сведения о установщик Windows концепциях, начинающихся с буквы P, например кода пакета и исправлений.
+description: сведения о установщик Windows концепциях, начинающихся с буквы P, например кода пакета и исправлений.
 ms.assetid: 868f5ed3-b179-404b-9462-1d3a179103f8
 title: P (установщик Windows)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8923359197916a1186fe28ab0d12e4118b989bc
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: 74af2780852bcb59124390042bfdbbc7bf2e7618cdb4167f58b15fc04ab1b15b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112011106"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118942764"
 ---
 # <a name="p-windows-installer"></a>P (установщик Windows)
 
@@ -20,7 +20,7 @@ ms.locfileid: "112011106"
 <span id="_msi_package_using_windows_installer_gly"></span><span id="_MSI_PACKAGE_USING_WINDOWS_INSTALLER_GLY"></span>**пакеты**
 </dt> <dd>
 
-[*Файл.msi*](m-gly.md) и все [*Внешние исходные файлы*](e-gly.md) , на которые может указывать этот файл. Таким образом, пакет содержит все сведения, необходимые установщик Windows для запуска пользовательского интерфейса и установки или удаления приложения. Дополнительные сведения см. в разделе также [*база данных установщика*](i-gly.md).
+[*Файл.msi*](m-gly.md) и все [*Внешние исходные файлы*](e-gly.md) , на которые может указывать этот файл. таким образом, пакет содержит все сведения, необходимые установщик Windows для запуска пользовательского интерфейса и установки или удаления приложения. Дополнительные сведения см. в разделе также [*база данных установщика*](i-gly.md).
 
 </dd> <dt>
 

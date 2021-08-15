@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msident.dll
-ms.openlocfilehash: f5a7e875e92342363722858b3ac714171cb547b6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d5453a083a1db23e042d24c3da4cd2948ff70f813fcc9026a00324eade467918
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104985684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968973"
 ---
 # <a name="iuseridentity2getordinal-method"></a>Метод IUserIdentity2:: метода Ordinal
 
@@ -44,9 +44,9 @@ HRESULT GetOrdinal(
 *двординал* \[ заполняет\]
 </dt> <dd>
 
-Введите: **DWORD \** _
+Тип: **DWORD \***
 
-Указатель на значение _ *DWORD**, которое получает порядковый номер для этого удостоверения.
+Указатель на значение **DWORD** , которое получает порядковый номер для этого удостоверения.
 
 </dd> </dl>
 
@@ -56,11 +56,11 @@ HRESULT GetOrdinal(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Порядковый номер определяет порядок удостоверений в списке удостоверений, но может не сохраняться во всех операциях с удостоверениями. Чтобы получить уникальное значение для удостоверения, вызовите метод [**Кука**](iuseridentity-getcookie.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

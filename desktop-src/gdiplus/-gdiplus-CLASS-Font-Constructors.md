@@ -4,12 +4,12 @@ ms.assetid: a0169751-50f6-41d9-bd59-3c85aec1bb78
 title: Конструкторы Font. Font
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: bdf533e292734956c02d3f8a424ca619cb722c71
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ff876120655adcf58318a471ed66ddfa4502d625305d9fda37f01c966e19e0cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118977904"
 ---
 # <a name="fontfont-constructors"></a>Конструкторы Font. Font
 

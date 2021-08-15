@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7a700e0ff065e5f4758241ee0c8252965209a21f
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 8a7dd6248b7b6effc08e510ea56da6426c41dc54418bf7ee5da8cdc3c9ad965a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104998267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985714"
 ---
 # <a name="texture3dgetdimensions-function"></a>Функция Texture3D:: Dimension
 
@@ -45,7 +45,7 @@ void GetDimensions(
 
 Тип: **[ **uint**](/windows/desktop/WinProg/windows-data-types)**
 
-Необязательный параметр. Уровень mipmap (должен быть указан, если используется *нумберофлевелс* ).
+Необязательный элемент. Уровень mipmap (должен быть указан, если используется *нумберофлевелс* ).
 
 </dd> <dt>
 
@@ -87,9 +87,9 @@ void GetDimensions(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Nothing
+Ничего
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Это список перегруженных версий этого метода.
 
@@ -122,7 +122,7 @@ void GetDimensions(out float Width,
 
 
 
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
+| Вершина | Поверхности | Домен | Геометрия | Пиксель | Службы вычислений |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     | x       |
 

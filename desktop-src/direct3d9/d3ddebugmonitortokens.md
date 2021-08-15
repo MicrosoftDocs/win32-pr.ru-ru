@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 82c3ecfa7d197e1ab912dbafe0d26fcb2281e605
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ed64939714c3ee69fb30e56afe23e52e780405287c898e138ee86822f1c5e0b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104000326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989074"
 ---
 # <a name="d3ddebugmonitortokens-enumeration"></a>Перечисление D3DDEBUGMONITORTOKENS
 
@@ -62,7 +62,7 @@ typedef enum D3DDEBUGMONITORTOKENS {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения в этом перечислимом типе используются в \_ состоянии рендеринга D3DRS дебугмонитортокен и относятся только к отладочным сборкам.
 
@@ -72,7 +72,7 @@ typedef enum D3DDEBUGMONITORTOKENS {
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
 
 
 
