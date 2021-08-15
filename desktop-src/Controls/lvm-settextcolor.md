@@ -3,7 +3,7 @@ title: Сообщение LVM_SETTEXTCOLOR (Коммктрл. h)
 description: Задает цвет текста для элемента управления "представление списка". Это сообщение можно отправить явно или с помощью \_ макроса Сеттекстколор ListView.
 ms.assetid: ff90c18b-0cd7-4331-bcd8-61044e891d1f
 keywords:
-- Элементы управления Windows для LVM_SETTEXTCOLOR сообщений
+- элементы управления Windows сообщений LVM_SETTEXTCOLOR
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 64b30c965bd523cd5638c894b47fc4785ffbdd09
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c70cb9de975440a4093ef8c88992305d294cc04f362c8e9ccb3434937b78f007
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135590"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119217374"
 ---
 # <a name="lvm_settextcolor-message"></a>\_Сообщение LVM сеттекстколор
 
@@ -43,14 +43,14 @@ ms.locfileid: "104135590"
 
 Возвращает **значение true** , если успешно, или **false** в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

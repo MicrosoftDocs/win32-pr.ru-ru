@@ -19,12 +19,12 @@ api_type:
 - HeaderDef
 api_location:
 - dxva.h
-ms.openlocfilehash: 57e9ccc9420659ac09c19f2bbb7a18db519c07bc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 75038b22a30be41389311fd1a7cfb830f870859b01ba48fd9a791a42cee86dc6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119214054"
 ---
 # <a name="copp-protection-type-flags"></a>Флаги типа защиты Копп
 
@@ -44,7 +44,7 @@ ms.locfileid: "105669472"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Некоторые методы возвращают один флаг из этого типа перечисления, а некоторые методы возвращают побитовую операцию **или** для одного или нескольких флагов.
 
@@ -55,13 +55,13 @@ ms.locfileid: "105669472"
 -   Тип защиты
 -   Задать уровень защиты
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Дксва. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Дксва. h</dt> </dl> |
 
 
 

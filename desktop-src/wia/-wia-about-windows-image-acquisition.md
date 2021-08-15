@@ -1,19 +1,19 @@
 ---
-description: Интерфейс Windows Image для получения изображений (WIA) — это API и интерфейс драйвера устройства (DDI).
+description: интерфейс Windowsного получения изображений (WIA) — это API и интерфейс драйвера устройства (DDI).
 ms.assetid: 725543f8-6e33-4e22-904c-95cbec0388c8
-title: О приобретении образа Windows
+title: сведения о получении образа Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80eed6289f7a30476ea6889c947577ad003b656e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d73662083e568a109760a052994bfcbebdfcbe53f858e50a89728a01bba344d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711969"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119451304"
 ---
-# <a name="about-windows-image-acquisition"></a>О приобретении образа Windows
+# <a name="about-windows-image-acquisition"></a>сведения о получении образа Windows
 
-Интерфейс Windows Image для получения изображений (WIA) — это API и интерфейс драйвера устройства (DDI). API-интерфейс WIA предназначен для того, чтобы приложения были:
+интерфейс Windowsного получения изображений (WIA) — это API и интерфейс драйвера устройства (DDI). API-интерфейс WIA предназначен для того, чтобы приложения были:
 
 -   Работа в надежной и стабильной среде.
 -   Сократите число проблем взаимодействия.

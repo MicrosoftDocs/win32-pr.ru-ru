@@ -4,7 +4,7 @@ description: Уведомление об обновлении Фастпас.
 ms.assetid: E19F153D-DD46-4E27-9A4B-33586794DAC2
 keywords:
 - MPFASTPATH_DATA структуры устаревшие функции среды Windows
-- Функции PMPFASTPATH_DATA указателя структур в устаревшей среде Windows
+- функции PMPFASTPATH_DATA Windows указателя структур в устаревшей среде
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2850a48074fee6984564550683c7fe595d0779ff
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e138e9c45657cfc4ebeba1d1dbeed38070b6e07d09c512ec96835a04702d0c8a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105710470"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119556154"
 ---
 # <a name="mpfastpath_data-structure"></a>\_Структура данных мпфастпас
 
@@ -142,8 +142,8 @@ typedef struct tagMPFASTPATH_DATA {
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
 
 

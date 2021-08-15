@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b8fbec76e3b38f9b42c36156b2312a8e77a6b43a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 788c8e9fcc97d834843f42752d59cd6c8754fd49b99eac829ed5a68ae18cf287
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119358304"
 ---
 # <a name="jetcreatedatabase-function"></a>Функция JetCreateDatabase
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jetcreatedatabase-function"></a>Функция JetCreateDatabase
 
@@ -82,7 +82,7 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p>JET_bitDbOverwriteExisting</p></td>
-<td><p>По умолчанию, если вызывается <strong>жеткреатедатабасе</strong> и база данных уже существует, вызов API завершится ошибкой и исходная база данных не будет перезаписана. JET_bitDbOverwriteExisting изменяет это поведение, а старая база данных будет перезаписана новой. Windows XP и более поздние версии.</p></td>
+<td><p>По умолчанию, если вызывается <strong>жеткреатедатабасе</strong> и база данных уже существует, вызов API завершится ошибкой и исходная база данных не будет перезаписана. JET_bitDbOverwriteExisting изменяет это поведение, а старая база данных будет перезаписана новой. Windows XP и более поздних версий.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_bitDbRecoveryOff</p></td>
@@ -98,7 +98,7 @@ _**Применимо к:** Windows | Windows Server_
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. Дополнительные сведения о возможных ошибках ESE см. в разделе [ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -176,7 +176,7 @@ _**Применимо к:** Windows | Windows Server_
 </table>
 
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 Если база данных, указанная в *сзфиленаме* , существует и JET_bitDbOverwriteExisting не была передана, вызов API завершится ошибкой. Если JET_bitDbOverwriteExisting был передан, старый файл базы данных будет удален первым.
 
@@ -184,7 +184,7 @@ _**Применимо к:** Windows | Windows Server_
 
 **Жеткреатедатабасе** будет неявно открывать базу данных. В дальнейшем не обязательно вызывать [жетопендатабасе](./jetopendatabase-function.md).
 
-#### <a name="requirements"></a>Требования
+#### <a name="requirements"></a>Requirements (Требования)
 
 <table>
 <colgroup>
@@ -194,11 +194,11 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
+<td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
+<td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>
@@ -220,9 +220,9 @@ _**Применимо к:** Windows | Windows Server_
 </table>
 
 
-#### <a name="see-also"></a>См. также:
+#### <a name="see-also"></a>См. также
 
-[Расширяемые файлы подсистемы хранилища](./extensible-storage-engine-files.md)  
+[расширяемые файлы служба хранилища Engine](./extensible-storage-engine-files.md)  
 [JET_ERR](./jet-err.md)  
 [JET_DBID](./jet-dbid.md)  
 [JET_GRBIT](./jet-grbit.md)  

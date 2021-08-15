@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3d9types.h
-ms.openlocfilehash: 58288667954e3414aa3d8ae1550e02e7216ffb4e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f5a39827f94f0415d6235797489f6e18c5fb515a5e5c36c0f26153b7ba8303ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118988914"
 ---
 # <a name="d3dfvf_texcoordsizen"></a>D3DFVF \_ текскурдсизен
 
@@ -44,7 +44,7 @@ ms.locfileid: "105703846"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Макросы **\_ текскурдсизен D3DFVF** используют следующие константы.
 
@@ -78,7 +78,7 @@ DWORD dwFVF = D3DFVF_XYZ | D3DFVF_NORMAL | D3DFVF_DIFFUSE |
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3d9types. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3d9types. h</dt> </dl> |
 
 
 

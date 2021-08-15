@@ -4,12 +4,12 @@ ms.assetid: 63c37bd2-0289-407a-92f1-169eb5d2e02e
 title: Событие Меаудиосессионволумечанжед (Мфобжектс. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 429edd8a26ed7f4ca1e764c7fbea1c6930c4871c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 721de9751cac284cb25d390d948f0f686447c04eaa613c1fecd4bf3503bce76d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105719382"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119465404"
 ---
 # <a name="meaudiosessionvolumechanged-event"></a>Событие Меаудиосессионволумечанжед
 
@@ -30,7 +30,7 @@ ms.locfileid: "105719382"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это событие вызывается приемником потока в области САР. Событие активируется, когда Макао получает событие [**иаудиосессионевентс:: онсимплеволумечанжед**](/windows/win32/api/audiopolicy/nf-audiopolicy-iaudiosessionevents-onsimplevolumechanged) из сеанса аудио. Чтобы получить новый уровень громкости и выключить его состояние, вызовите [**имфсимплеаудиоволуме:: жетмастерволуме**](/windows/desktop/api/mfidl/nf-mfidl-imfsimpleaudiovolume-getmastervolume) и [**Имфсимплеаудиоволуме:: вкл**](/windows/desktop/api/mfidl/nf-mfidl-imfsimpleaudiovolume-getmute).
 
@@ -38,14 +38,14 @@ ms.locfileid: "105719382"
 
 Кроме того, Макао не отправляет это событие при изменении громкости канала ([**иаудиосессионевентс:: ончаннелволумечанжед**](/windows/win32/api/audiopolicy/nf-audiopolicy-iaudiosessionevents-onchannelvolumechanged)).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                     |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Мфобжектс. h (включение Мфидл. h)</dt> </dl> |
 
 

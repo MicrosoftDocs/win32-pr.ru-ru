@@ -4,12 +4,12 @@ ms.assetid: ae152dbf-44f0-417f-a85e-09bf60dcfcb0
 title: Уровни олицетворения (авторизация)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b91654f42a86e5c47069197bed084df56f5445dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fdf80f4f6b84499a94659c137c629d66a041752e5171cb3fa7220506586f36e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664307"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119414594"
 ---
 # <a name="impersonation-levels-authorization"></a>Уровни олицетворения (авторизация)
 
@@ -39,8 +39,8 @@ ms.locfileid: "105664307"
 Однако система использует основной маркер процесса, а не маркер олицетворения вызывающего потока в следующих ситуациях:
 
 -   Если олицетворенный поток вызывает функцию [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) , новый процесс всегда наследует основной маркер процесса.
--   Для функций, которым требуется привилегия SE с \_ \_ именем TCB, например функция [**LogonUser**](/windows/desktop/api/winbase/nf-winbase-logonusera) , система всегда проверяет наличие привилегии в первичном маркере процесса.
--   Для функций, которым требуется \_ привилегия разрешения \_ имен аудита SE, например функция [**обжектопенаудиталарм**](/windows/desktop/api/Winbase/nf-winbase-objectopenauditalarma) , система всегда проверяет наличие привилегии в первичном маркере процесса.
+-   для функций, которым требуется привилегия SE с \_ \_ именем TCB, например функция [**LogonUser**](/windows/desktop/api/winbase/nf-winbase-logonusera) , система всегда проверяет наличие привилегии в первичном маркере процесса.
+-   для функций, которым требуется \_ привилегия SE AUDIT \_ NAME, например функция [**обжектопенаудиталарм**](/windows/desktop/api/Winbase/nf-winbase-objectopenauditalarma) , система всегда проверяет наличие привилегии в первичном маркере процесса.
 -   При вызове функции [**опенсреадтокен**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-openthreadtoken) поток может указать, использует ли функция маркер олицетворения или первичный токен, чтобы определить, предоставлять ли запрошенный доступ.
 
  

@@ -4,12 +4,12 @@ ms.assetid: fea39283-53b1-4af1-b048-18fad6d56ec7
 title: Свойство Авенкмпвженератехеадерпицекст (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b599663a89e65f371c6020e83babcd4f6f17387
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: cd0aa1c2713586770f6f5f1cf40799fcea260194f61a60b3e16f3226dabd729f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105655574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119540874"
 ---
 # <a name="avencmpvgenerateheaderpicext-property"></a>Авенкмпвженератехеадерпицекст, свойство
 
@@ -25,7 +25,7 @@ ms.locfileid: "105655574"
 
 **КОДЕКАПИ \_ авенкмпвженератехеадерпицекст**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если значение является **вариантным \_ true**, кодировщик создает заголовки расширений изображений.
 
@@ -35,8 +35,8 @@ ms.locfileid: "105655574"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 

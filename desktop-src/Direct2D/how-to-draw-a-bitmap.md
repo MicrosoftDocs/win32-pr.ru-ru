@@ -4,12 +4,12 @@ description: Показывает, как визуализировать рас�
 ms.assetid: 9c6fc8b1-47ba-46fa-b812-2636cd8ff2b4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cbfa13b75b4fe34ce6ff2b80598fac35f8483a2f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6c76fb3a956d20f83f4de8beb8431295c86b84cf7e6908fb311ed16ea1ceefa0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103890732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119259232"
 ---
 # <a name="how-to-draw-a-bitmap"></a>Рисование точечного рисунка
 
@@ -186,7 +186,7 @@ hr = m_pRenderTarget->EndDraw();
 
 В этом примере код пропущен.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -199,6 +199,6 @@ hr = m_pRenderTarget->EndDraw();
 [Как загрузить точечный рисунок из ресурса](how-to-load-a-bitmap-from-a-resource.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

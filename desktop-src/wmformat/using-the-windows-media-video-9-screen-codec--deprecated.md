@@ -1,9 +1,9 @@
 ---
-title: Использование экранного видеокодека Windows Media видео 9 (пакет SDK для Windows Media Format 11)
-description: Текущую документацию по кодекам Windows Media и обработчикам цифровых сигналов см. в статье интерфейсы API аудио-и видеокодеков Windows Media и DSP. | Использование экранного видеокодека Windows Media видео 9 (пакет SDK для Windows Media Format 11)
+title: экранный кодек Windows media видео 9 (пакет SDK для Windows media Format 11)
+description: текущую документацию по Windows кодеков мультимедиа и обработчикам цифровых сигналов см. в разделе Windows media Audio и Video кодек и DSP api. | экранный кодек Windows media видео 9 (пакет SDK для Windows media Format 11)
 ms.assetid: 9d4d88cb-69ed-48fa-9af4-1c262aeb2dd3
 keywords:
-- Использование экранного кодека Windows Media видео 9 Windows Media Format
+- использование формата видеокодека Windows media видео Windows media 9
 topic_type:
 - apiref
 api_name:
@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c318fc5b3c71ab42a574523be3c4ecde0df5e786
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 3ce801eccd2d4d85d0ba6772d1dfab2edf7eb3346a6098d699e138693c6c6e77
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105713421"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118963913"
 ---
-# <a name="using-the-windows-media-video-9-screen-codec-windows-media-format-11-sdk"></a>Использование экранного видеокодека Windows Media видео 9 (пакет SDK для Windows Media Format 11)
+# <a name="using-the-windows-media-video-9-screen-codec-windows-media-format-11-sdk"></a>экранный кодек Windows media видео 9 (пакет SDK для Windows media Format 11)
 
-Текущую документацию по кодекам Windows Media и обработчикам цифровых сигналов см [. в статье интерфейсы API аудио-и видеокодеков Windows Media и DSP.](/previous-versions//dd464626(v=vs.85))
+текущую документацию по Windows кодеков мультимедиа и обработчикам цифровых сигналов см [. в разделе Windows media Audio и Video кодек и DSP api.](/previous-versions//dd464626(v=vs.85))
 
  
 

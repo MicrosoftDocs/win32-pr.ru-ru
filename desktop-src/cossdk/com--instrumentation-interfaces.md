@@ -4,12 +4,12 @@ ms.assetid: 009aa503-3fcd-4046-9a74-23a1a9c23e6a
 title: Интерфейсы инструментария COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 250e44e0283ccd44bbaa421d22ff1612fa5fb1c1
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e83e8f81fd2d8ea2c092a974e842c900506bb4b637eb94a07b5be48afbb68bea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104342402"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129206"
 ---
 # <a name="com-instrumentation-interfaces"></a>Интерфейсы инструментария COM+
 
@@ -26,7 +26,7 @@ ms.locfileid: "104342402"
 | [**IComApp2Events**](/windows/desktop/api/ComSvcs/nn-comsvcs-icomapp2events)<br/>                                                                               | Пользователь реализует [**IComApp2Events**](/windows/desktop/api/ComSvcs/nn-comsvcs-icomapp2events) , чтобы получать уведомления при загрузке, завершении работы или приостановке серверного приложения COM+. Подписчик также получает уведомления, если приложение помечено для повторного запуска.<br/>                                                                                          |
 | [**икомкрмевентс**](/windows/desktop/api/ComSvcs/nn-comsvcs-icomcrmevents)<br/>                                                                                 | Пользователь реализует [**икомкрмевентс**](/windows/desktop/api/ComSvcs/nn-comsvcs-icomcrmevents) , чтобы получать уведомления о начале или завершении восстановления компенсирующих диспетчер ресурсов (CRM). <br/>                                                                                                                                                          |
 | [**икомексцептионевентс**](/windows/desktop/api/ComSvcs/nn-comsvcs-icomexceptionevents)<br/>                                                                     | Пользователь реализует [**икомексцептионевентс**](/windows/desktop/api/ComSvcs/nn-comsvcs-icomexceptionevents) , чтобы получать уведомления при возникновении исключения пользователя в транзакционном компоненте. <br/>                                                                                                                                                        |
-| [**икомидентитевентс**](/windows/desktop/api/ComSvcs/nn-comsvcs-icomidentityevents)<br/>                                                                       | Интерфейс [**икомидентитевентс**](/windows/desktop/api/ComSvcs/nn-comsvcs-icomidentityevents) уведомляет подписчика о действии, которое является частью страницы службы IIS (IIS) Active Server Pages (ASP).<br/>                                                                                                                   |
+| [**икомидентитевентс**](/windows/desktop/api/ComSvcs/nn-comsvcs-icomidentityevents)<br/>                                                                       | интерфейс [**икомидентитевентс**](/windows/desktop/api/ComSvcs/nn-comsvcs-icomidentityevents) уведомляет подписчика о действии, которое является частью страницы службы IIS (IIS) Active Server pages (ASP).<br/>                                                                                                                   |
 | [**икоминстанцеевентс**](/windows/desktop/api/ComSvcs/nn-comsvcs-icominstanceevents) <br/> [**IComInstance2Events**](/windows/desktop/api/ComSvcs/nn-comsvcs-icominstance2events)<br/>        | Интерфейс [**икоминстанцеевентс**](/windows/desktop/api/ComSvcs/nn-comsvcs-icominstanceevents) или [**IComInstance2Events**](/windows/desktop/api/ComSvcs/nn-comsvcs-icominstance2events) уведомляет подписчик о создании или выпуске объекта.<br/>                                                                                                                               |
 | [**икоммесодевентс**](/windows/desktop/api/ComSvcs/nn-comsvcs-icommethodevents) <br/> [**IComMethod2Events**](/windows/desktop/api/ComSvcs/nn-comsvcs-icommethod2events)<br/>                | Пользователь реализует [**икоммесодевентс**](/windows/desktop/api/ComSvcs/nn-comsvcs-icommethodevents) или [**IComMethod2Events**](/windows/desktop/api/ComSvcs/nn-comsvcs-icommethod2events) , чтобы получать уведомления при вызове метода объекта, его возвращении или формировании исключения.<br/>                                                                                                      |
 | [**икомобжектконструктионевентс**](/windows/desktop/api/ComSvcs/nn-comsvcs-icomobjectconstructionevents)<br/>                                                   | Интерфейс [**икомобжектконструктионевентс**](/windows/desktop/api/ComSvcs/nn-comsvcs-icomobjectconstructionevents) уведомляет подписчика, если созданный объект создается в пуле объектов.<br/>                                                                                                                                               |

@@ -4,12 +4,12 @@ ms.assetid: 2d616b56-4b6a-4c3b-bbd8-d5ca03c4911f
 title: Учебник по службам COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9fd9d256b0213d3b1c58cae7d9670f87e4f4423
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: faa10e1fe951c883149f5870515839cfbece1b3cf919ecd043971d70a99d6e9c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104342342"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129036"
 ---
 # <a name="com-services-primer"></a>Учебник по службам COM+
 
@@ -23,7 +23,7 @@ COM+ предоставляет простую модель программир
 -   [Шаг 2. расширение транзакции для нескольких компонентов](step-2--extending-a-transaction-across-multiple-components.md)
 -   [Шаг 3. повторное использование компонентов](step-3--reusing-components.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

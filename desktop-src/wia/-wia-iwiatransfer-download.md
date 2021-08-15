@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Wiaguid.lib
 - Wiaguid.dll
-ms.openlocfilehash: 2863915b850588d4db018693d9081ed2907d644a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 039b7dd4579419bac744a07bbc6ddd55c4b0b2e2e713340bf256fdb95d8fc071
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104541967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119450214"
 ---
 # <a name="iwiatransferdownload-method"></a>Ивиатрансфер: метод:D гружать
 
@@ -53,9 +53,9 @@ HRESULT Download(
 *пивиатрансферкаллбакк* \[ окне\]
 </dt> <dd>
 
-Тип: **[**ивиатрансферкаллбакк**](-wia-iwiatransfercallback.md) \** _
+Тип: **[ **ивиатрансферкаллбакк**](-wia-iwiatransfercallback.md)\***
 
-Указывает указатель на интерфейс [_ *ивиатрансферкаллбакк* *](-wia-iwiatransfercallback.md) вызывающего объекта.
+Указывает указатель на интерфейс [**ивиатрансферкаллбакк**](-wia-iwiatransfercallback.md) вызывающего объекта.
 
 </dd> </dl>
 
@@ -65,18 +65,18 @@ HRESULT Download(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При скачивании папки также переносятся все дочерние элементы этой папки. Каждый элемент передается в отдельном потоке.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                         |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                   |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                         |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                   |
 | Header<br/>                   | <dl> <dt>WIA. h</dt> </dl>       |
 | IDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl>     |
 | Библиотека<br/>                  | <dl> <dt>Виагуид. lib</dt> </dl> |

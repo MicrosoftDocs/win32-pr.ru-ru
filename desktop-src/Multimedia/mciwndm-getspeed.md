@@ -3,7 +3,7 @@ title: Сообщение MCIWNDM_GETSPEED (VFW. h)
 description: Сообщение МЦИВНДМ \_ Speed получает скорость воспроизведения устройства MCI. Это сообщение можно отправить явно или с помощью макроса МЦивнджетспид.
 ms.assetid: d10a8f88-e85e-449b-8655-bb0832031d59
 keywords:
-- MCIWNDM_GETSPEED сообщения Windows мультимедиа
+- сообщение MCIWNDM_GETSPEED Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c84a8ebb3e97d4543f68f3a237add8eed7706ae2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 42749fb2f99c446dbd45bc6e2497287ab3b0ce987c9343ed4580735c760cc892
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104492819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119429254"
 ---
 # <a name="mciwndm_getspeed-message"></a>\_Сообщение МЦИВНДМ Speed
 
@@ -38,7 +38,7 @@ lParam = 0;
 
 При успешном выполнении возвращает скорость воспроизведения. Значение обычной скорости — 1000. Большие значения указывают более быстрые скорости, а меньшие значения — медленные.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

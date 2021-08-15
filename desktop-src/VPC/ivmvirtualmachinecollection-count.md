@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f641fad504c6dd593737cf35014813f49609a4aa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7012b6cb60af21b79c2daeb082755975810208e75d949160962525d450966546
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137211"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118843300"
 ---
 # <a name="ivmvirtualmachinecollectioncount-property"></a>Свойство Ивмвиртуалмачинеколлектион:: count
 
-\[Windows Virtual PC больше не доступна для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC больше не доступен для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Извлекает число виртуальных машин в этой коллекции.
 
@@ -65,7 +65,7 @@ HRESULT get_Count(
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                     |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                     |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                      |
 | Окончание поддержки клиента<br/>    | Windows 7<br/>                                                                           |
 | Продукт<br/>                  | Windows Virtual PC<br/>                                                                  |

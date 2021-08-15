@@ -1,21 +1,21 @@
 ---
-description: Установщик Windows поддерживает объявление о приложениях и функциях.
+description: установщик Windows поддерживает объявление о приложениях и функциях.
 ms.assetid: 9e5158bc-4877-49d1-9bb9-4dd17abb444d
 title: Поддержка платформ объявления
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48016241998473a5bb5ae8ecff05a14fd702f8be
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 27701963f9a7b524a99b2064f6d9cebe070dd668f1587eebc5621ce36832967d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105651240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119339734"
 ---
 # <a name="platform-support-of-advertisement"></a>Поддержка платформ объявления
 
-Установщик Windows поддерживает объявление о приложениях и функциях.
+установщик Windows поддерживает объявление о приложениях и функциях.
 
-Следующие возможности объявления доступны в Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003, Windows XP и Windows 2000.
+следующие возможности объявления доступны на Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista, Windows server 2003, Windows XP и Windows 2000.
 
 -   Ярлыки и их значки.
 
@@ -25,20 +25,20 @@ ms.locfileid: "105651240"
 
 -   Контексты CLSID и Инпрочандлер.
 
--   Install-On-Demand by OLE доступен только программно с помощью [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) (C/C++) и **функции CreateObject (Visual Basic)** или **функции GetObject (Visual Basic)**.
+-   Install-On-Demand by OLE доступен только программно с помощью [**cocreateinstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) (C/C++) и **функции CreateObject (Visual Basic)** или **функции getobject (Visual Basic)**.
 
 > [!Note]
 > Сведения AppId и typelib записываются только при установке объявленного компонента.
 > 
 > Для поддержки расширений имен файлов приложение должно быть опубликовано для Active Directory администратором с помощью групповая политика.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Установка продукта может не требовать перезагрузки, но все объявленные сочетания клавиш не будут работать, пока компьютер не будет перезагружен. Объявленные сочетания клавиш для последующих установок работают без перезагрузки.
 
 Чтобы обеспечить правильную работу объявленных сочетаний клавиш, автор пакета должен запланировать принудительную перезагрузку в конце установки.
 
-Чтобы избежать ненужных перезагрузок системы, запланируйте перезапуск, чтобы запустить его только в том случае, если не установлена ни одна версия установщик Windows.
+чтобы избежать ненужных перезагрузок системы, запланируйте перезапуск, чтобы запустить его только в том случае, если не установлена ни одна версия установщик Windows.
 
 Условные операторы могут проверять свойство [**шелладвтсуппорт**](shelladvtsupport.md) и свойство [**Version9X**](version9x.md) . Дополнительные сведения о планировании условных перезапусков см. в разделе [Перезагрузка системы](system-reboots.md) и [использование свойств в условных инструкциях](using-properties-in-conditional-statements.md).
 

@@ -4,12 +4,12 @@ description: Собирает четыре пикселей текстуры, к
 ms.assetid: 219B25AE-CBF9-4B68-B2DB-6D8C3C5B4CEA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 84387bfe027e30b338b4701ec941a9d4e1b5e242
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: cb39918bdb421123cb3e2bfe41931740e271f85a27cf36b8994d493656d91c21
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104986440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119457584"
 ---
 # <a name="gather4-sm41---asm"></a>gather4 (SM 4.1-ASM)
 
@@ -37,7 +37,7 @@ ms.locfileid: "104986440"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта операция работает только с кубической карты текстурами одного канала. Для двумерных текстур используются только режимы адресации образца, и используется верхний уровень любой MIP пирамиды.
 
@@ -69,8 +69,8 @@ ms.locfileid: "104986440"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
-| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
+| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Да       |
 | [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Нет        |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Нет        |
@@ -80,7 +80,7 @@ ms.locfileid: "104986440"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

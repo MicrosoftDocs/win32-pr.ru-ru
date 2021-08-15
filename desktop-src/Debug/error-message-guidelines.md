@@ -4,12 +4,12 @@ ms.assetid: 361833e4-b94f-4ef9-a8f5-adf543534a67
 title: Рекомендации по сообщениям об ошибках
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1787eabd43d660322577ac766880d76854c574e7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 14ceb2c89826ce45f39fdce2d0102e847c00245ba62ec3522e83725944b7f421
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103806952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119343494"
 ---
 # <a name="error-message-guidelines"></a>Рекомендации по сообщениям об ошибках
 
@@ -23,7 +23,7 @@ ms.locfileid: "103806952"
 
 Длина текста не является проблемой, если разработчик правильно обрабатывает размеры буфера. Важно, чтобы пользователь имел всю необходимую информацию для решения проблемы. Если сообщение имеет несколько аудиторий, может потребоваться предоставить отдельный текст для администраторов, конечных пользователей и разработчиков.
 
-## <a name="best-practices"></a>Рекомендации
+## <a name="best-practices"></a>Советы и рекомендации
 
 Ниже приведены способы улучшения сообщений об ошибках.
 

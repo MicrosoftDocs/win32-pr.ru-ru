@@ -14,12 +14,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: b40524405c3b284e7ec61414e36448cb37afeab8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0033bef55915865ba1945c9f17705ed40cd0d3db4cd572efd13cdadf99d4bbab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119732906"
 ---
 # <a name="__eventgenerator-class"></a>\_\_Класс Евентженератор
 
@@ -40,7 +40,7 @@ class __EventGenerator : __IndicationRelated
 
 Класс **\_ \_ евентженератор** не определяет никаких членов.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ \_ евентженератор** является производным от [**\_ \_ индикатионрелатед**](--indicationrelated.md), у которого нет свойств.
 

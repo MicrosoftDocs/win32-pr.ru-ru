@@ -1,6 +1,6 @@
 ---
 title: Пример триггера Boot (XML)
-description: В этом примере XML определяет задачу, запускающую Блокнот при загрузке системы.
+description: в этом примере XML определяет задачу, которая запускается Блокнот при загрузке системы.
 ms.assetid: 6dd7155c-6163-4408-9cef-c313134beeb0
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,22 +9,22 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a8f9f5ea10f92979b0798b12a6225f8ba74a38ee
-ms.sourcegitcommit: 40dd8501397fc79a643deb528c6c57ac2e9726ce
+ms.openlocfilehash: 75b4c9628da5ef56ec006faf9d7301661dfd0f76894ebb4f5f37cc1035d40f75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "104336038"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118860323"
 ---
 # <a name="boot-trigger-example-xml"></a>Пример триггера Boot (XML)
 
-В этом примере XML определяет задачу, запускающую Блокнот при загрузке системы.
+в этом примере XML определяет задачу, которая запускается Блокнот при загрузке системы.
 
-Чтобы зарегистрировать задачу, определенную в формате XML, можно использовать функцию [**ITaskFolder:: регистертаск**](/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertask) ([**таскфолдер. регистертаск**](taskfolder-registertask.md) для создания скриптов) или средство командной строки Schtasks.exe. Если вы используете средство Schtasks.exe (расположенное в каталоге C: \\ Windows \\ System32), для регистрации задачи выполните следующую команду: **schtasks/CREATE/XML** *<path to the XML file containing the task definition>* **/TN** *<task name>* .
+Чтобы зарегистрировать задачу, определенную в формате XML, можно использовать функцию [**ITaskFolder:: регистертаск**](/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertask) ([**таскфолдер. регистертаск**](taskfolder-registertask.md) для создания скриптов) или средство командной строки Schtasks.exe. при использовании средства Schtasks.exe (расположенного в каталоге C: \\ Windows \\ System32) можно зарегистрировать задачу с помощью следующей команды: **schtasks/create/xml** *<path to the XML file containing the task definition>* **/tn** *<task name>* .
 
-## <a name="to-define-a-task-to-start-notepad-on-system-boot"></a>Определение задачи для запуска программы «Блокнот» при загрузке системы
+## <a name="to-define-a-task-to-start-notepad-on-system-boot"></a>определение задачи для запуска Блокнот при загрузке системы
 
-В следующем примере XML показано, как определить задачу с одним действием выполнения (запуском блокнота), одним триггером загрузки, который запускает задачу при загрузке системы, и несколькими другими параметрами задач, влияющими на то, как задача обрабатывается планировщик задач.
+в следующем примере XML показано, как определить задачу с одним действием выполнения (запуск Блокнот), одним триггером загрузки, который запускает задачу при загрузке системы, а также несколько других параметров задач, влияющих на то, как задача обрабатывается планировщик задач.
 
 
 ```XML
@@ -78,18 +78,18 @@ the system is booted.
 -   [**Буттригжер**](taskschedulerschema-boottrigger-triggergroup-element.md): определяет триггер загрузки. В этом случае используются только два дочерних элемента: Начальная и конечная границы, указывающие, когда триггер активируется и деактивируется.
 -   [**Участник**](taskschedulerschema-principal-principaltype-element.md): определяет контекст безопасности, в котором выполняется задача.
 -   [**Параметры**](taskschedulerschema-settings-tasktype-element.md): определяет параметры задачи, которые планировщик задач использует для выполнения задачи.
--   [**Действия**](taskschedulerschema-actions-tasktype-element.md): определяет действия, выполняемые задачей. В этом случае Запустите Блокнот.
+-   [**Действия**](taskschedulerschema-actions-tasktype-element.md): определяет действия, выполняемые задачей. в этом случае выполняется Блокнот.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Использование планировщик задач](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

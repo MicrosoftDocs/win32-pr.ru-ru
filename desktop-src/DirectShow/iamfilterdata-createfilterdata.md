@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Quartz.dll
-ms.openlocfilehash: 0a0126266fc33dca030abad65ccf9f0d35f6e195
-ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
+ms.openlocfilehash: 81c2ba3a56ba9c09a2ce7b23bcad1a83880e61256402c291b5aebde9988218c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111989459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119428674"
 ---
 # <a name="iamfilterdatacreatefilterdata-method"></a>Метод Иамфилтердата:: Креатефилтердата
 
@@ -29,7 +29,7 @@ ms.locfileid: "111989459"
 
 `CreateFilterData`Метод создает двоичные данные реестра для фильтра. Эти данные можно записать в реестр в виде \_ двоичного подраздела reg с именем FilterData в ключе CLSID фильтра.
 
-Как правило, нет причин вызывать этот метод в приложении. Метод [**IFilterMapper2:: регистерфилтер**](/windows/desktop/api/Strmif/nf-strmif-ifiltermapper2-registerfilter) автоматически создает двоичные данные и добавляет их в правильное расположение в реестре. Дополнительные сведения см. [в разделе Регистрация фильтров DirectShow](how-to-register-directshow-filters.md).
+Как правило, нет причин вызывать этот метод в приложении. Метод [**IFilterMapper2:: регистерфилтер**](/windows/desktop/api/Strmif/nf-strmif-ifiltermapper2-registerfilter) автоматически создает двоичные данные и добавляет их в правильное расположение в реестре. дополнительные сведения см. [в статье регистрация DirectShow фильтров](how-to-register-directshow-filters.md).
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -76,11 +76,11 @@ HRESULT CreateFilterData(
 ## <a name="remarks"></a>Remarks
 
 > [!Note]  
-> Заголовок Headers \_ Data. h находится в каталоге с [образцом модуля сопоставления](mapper-sample.md) в Windows SDK.
+> заголовок headers \_ data. h находится в каталоге с [образцом модуля сопоставления](mapper-sample.md) в Windows SDK.
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

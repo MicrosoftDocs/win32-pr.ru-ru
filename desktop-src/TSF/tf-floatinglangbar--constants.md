@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c789e507b2cc56281dc61750d4fe0748bee8841
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 673a73babc04050092f41c92eb660ec0c61096aab735507947b9d31dabb7e4a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105681875"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118874541"
 ---
 # <a name="tf_floatinglangbar_-constants"></a>TF \_ флоатинглангбар \_ \* константы
 
@@ -35,7 +35,7 @@ ms.locfileid: "105681875"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Хотя в этой группе есть три константы, первичная одна — TF \_ флоатинглангбар \_ вндтитле, которая принимает СООТВЕТСТВУЮЩЕЕ значение ANSI или Unicode.
 
@@ -47,7 +47,7 @@ ms.locfileid: "105681875"
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                            |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                  |
-| Распространяемые компоненты<br/>          | TSF 1,0 в Windows 2000 профессиональная<br/>                                       |
+| Распространяемые компоненты<br/>          | TSF 1,0 на Windows 2000 Professional<br/>                                       |
 | Header<br/>                   | <dl> <dt>Ктфутб. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Ктфутб. idl</dt> </dl> |
 

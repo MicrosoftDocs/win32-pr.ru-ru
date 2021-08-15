@@ -4,12 +4,12 @@ description: Интенсивность изменения содержимог�
 ms.assetid: 2438DB36-C348-4854-AE1B-EC3C890B0B42
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 21d4543805c02cf70d9c6b7856461c427788f616
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 5c7a9697372964135e5ecb3cb5e916b0509a6a6a860ff8fa01ea0daeb1b8be4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104412143"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986654"
 ---
 # <a name="deriv_rtx-sm4---asm"></a>наследование \_ RTX (SM4-ASM)
 
@@ -35,7 +35,7 @@ ms.locfileid: "104412143"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Для каждой отметки 2x2 пикселей вычислена только одна производная пара x, y.
 
@@ -69,9 +69,9 @@ ms.locfileid: "104412143"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
-| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | да       |
-| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
+| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Да       |
+| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Да       |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Нет        |
@@ -80,7 +80,7 @@ ms.locfileid: "104412143"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

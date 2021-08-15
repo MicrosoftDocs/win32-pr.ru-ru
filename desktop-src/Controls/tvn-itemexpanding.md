@@ -3,7 +3,7 @@ title: Код уведомления TVN_ITEMEXPANDING (Коммктрл. h)
 description: Сообщает родительскому окну элемента управления древовидного представления о том, что список дочерних элементов родительского элемента собирается развернуть или свернуть. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: 5ce256df-49e5-4fbf-9cdc-79dd2edbd8ec
 keywords:
-- TVN_ITEMEXPANDING кода уведомления элементы управления Windows
+- TVN_ITEMEXPANDING кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c9ed93eacb6d5b492d509b40cc789a803d04623
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7f4403b41682590d305b527d6445c208011b368b2d2474d66720ed32d29c80ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989278"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957793"
 ---
 # <a name="tvn_itemexpanding-notification-code"></a>\_Код уведомления ТВН итемекспандинг
 
@@ -51,14 +51,14 @@ TVN_ITEMEXPANDING
 
 Возвращает **значение true** , чтобы предотвратить расширение или свертывание списка.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **ТВН \_ ИТЕМЕКСПАНДИНГВ** (Юникод) и **ТВН \_ итемекспандинга** (ANSI)<br/>       |
 

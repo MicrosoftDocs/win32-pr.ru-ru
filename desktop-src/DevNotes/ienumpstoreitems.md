@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Pstorec.dll
-ms.openlocfilehash: 11ca255cb13d998d16596bc7cc54d28d2415b227
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f5952dbaff2560ae4c2fc59af73246c2cd5c1d050bb53bc3c7b9091c8a39822f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657093"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119542244"
 ---
 # <a name="ienumpstoreitems-interface"></a>Интерфейс Иенумпстореитемс
 
-\[Защищенное хранилище (PStore) доступно для использования в Windows Server 2003 и Windows XP. Она доступна только для операций чтения в Windows Server 2008 и Windows Vista, но может быть недоступна в последующих версиях. PStore использует старую реализацию защиты данных. Разработчикам настоятельно рекомендуется использовать преимущества более надежной защиты данных, предоставляемые функциями [**CryptProtectData**](/windows/win32/api/dpapi/nf-dpapi-cryptprotectdata) и [**CryptUnprotectData**](/windows/win32/api/dpapi/nf-dpapi-cryptunprotectdata) .\]
+\[защищенные служба хранилища (Pstore) доступны для использования в Windows Server 2003 и Windows XP. она доступна только для операций чтения в Windows Server 2008 и Windows Vista, но может быть недоступна в последующих версиях. PStore использует старую реализацию защиты данных. Разработчикам настоятельно рекомендуется использовать преимущества более надежной защиты данных, предоставляемые функциями [**CryptProtectData**](/windows/win32/api/dpapi/nf-dpapi-cryptprotectdata) и [**CryptUnprotectData**](/windows/win32/api/dpapi/nf-dpapi-cryptunprotectdata) .\]
 
 Предоставляет стандартные методы перечисления COM для интерфейса [**ипсторе**](ipstore.md) .
 
@@ -43,13 +43,13 @@ ms.locfileid: "105657093"
 | [**Клонировать**](ienumpstoreitems-clone.md) | Создает другой перечислитель с тем же состоянием перечисления, что и текущий.<br/> |
 | [**Далее**](ienumpstoreitems-next.md)   | Возвращает следующий указанный элемент данных в последовательности перечисления.<br/>                          |
 | [**Перезапуск**](ienumpstoreitems-reset.md) | Выполняет сброс до начала последовательности перечисления.<br/>                                    |
-| [**Пропустить**](ienumpstoreitems-skip.md)   | Пропускает указанный элемент данных в последовательности перечисления.<br/>                              |
+| [**Сразу**](ienumpstoreitems-skip.md)   | Пропускает указанный элемент данных в последовательности перечисления.<br/>                              |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Необходимо освобождать каждый элемент после перечисления. Объект перечислителя также должен быть освобожден, если он больше не используется.
 
@@ -59,7 +59,7 @@ ms.locfileid: "105657093"
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>PStore. h</dt> </dl>    |
+| Заголовок<br/> | <dl> <dt>PStore. h</dt> </dl>    |
 | DLL<br/>    | <dl> <dt>Pstorec.dll</dt> </dl> |
 
 

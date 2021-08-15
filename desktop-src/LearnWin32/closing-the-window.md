@@ -4,12 +4,12 @@ description: Когда пользователь закрывает окно, э
 ms.assetid: f0449f11-0569-4a3a-92bc-bced7e0db516
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6422966d6b0351654632a1c77b7ebf07e2b5ffef
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 7aaf6922f730e63fa9ab38a8f6baa9009dabf77b2ffeddc2117dcd09ffc08a9b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103890656"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119328793"
 ---
 # <a name="closing-the-window"></a>Закрытие окна
 

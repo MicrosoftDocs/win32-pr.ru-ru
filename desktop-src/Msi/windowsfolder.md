@@ -1,23 +1,23 @@
 ---
-description: Установщик задает для свойства Виндовсфолдер полный путь к папке Windows.
+description: установщик задает для свойства виндовсфолдер полный путь к папке Windows.
 ms.assetid: 196f7862-8dfc-4214-845f-7dc1f5c709f3
 title: Виндовсфолдер, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ad1530c2dd82ae4d0477a8632aab82b22206a08a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5cbf8bb74099d227e28e23abed9081fd7dd26c845a43894bf4e1f9acbba681e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119145217"
 ---
 # <a name="windowsfolder-property"></a>Виндовсфолдер, свойство
 
-Установщик задает для свойства **виндовсфолдер** полный путь к папке Windows.
+установщик задает для свойства **виндовсфолдер** полный путь к папке Windows.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Эта папка является локальной, даже если она настроена для общих окон.
+Эта папка является локальной, даже если она настроена для общего Windows.
 
 ## <a name="requirements"></a>Требования
 
@@ -25,7 +25,7 @@ ms.locfileid: "105675641"
 
 | Требование | Значение |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP ознакомьтесь с [требованиями к установщик Windows Run-Time](windows-installer-portal.md) , чтобы получить сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии.<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP ознакомьтесь с [требованиями к установщик Windows Run-Time](windows-installer-portal.md) для получения сведений о минимальном Windows пакете обновления, который требуется для установщик Windows версии.<br/> |
 
 
 

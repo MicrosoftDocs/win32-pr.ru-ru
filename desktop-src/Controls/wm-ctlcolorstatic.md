@@ -3,7 +3,7 @@ title: Сообщение WM_CTLCOLORSTATIC (Winuser. h)
 description: Статический элемент управления или элемент управления "поле ввода", который доступен только для чтения или отключен, отправляет \_ сообщение WM ктлколорстатик в свое родительское окно при прорисовке элемента управления.
 ms.assetid: a171a1e8-6845-4a8e-8394-44cea99d2b0d
 keywords:
-- Элементы управления Windows для WM_CTLCOLORSTATIC сообщений
+- элементы управления Windows сообщений WM_CTLCOLORSTATIC
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 851879eeb65a00f95f8cb81cef1b6c23ece8028d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2df23b86539d07c9e1551d64f59e60e54df24ae2d48b316996542fb80c92ae8c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103802176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119539934"
 ---
 # <a name="wm_ctlcolorstatic-message"></a>\_Сообщение КТЛКОЛОРСТАТИК WM
 
@@ -59,7 +59,7 @@ WM_CTLCOLORSTATIC
 
 Если приложение обрабатывает это сообщение, возвращаемое значение является дескриптором кисти, используемой системой для рисования фона статического элемента управления.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если приложение возвращает созданную кисть (например, с помощью функции [**креатесолидбруш**](/windows/desktop/api/wingdi/nf-wingdi-createsolidbrush) или [**креатебрушиндирект**](/windows/desktop/api/wingdi/nf-wingdi-createbrushindirect) ), приложение должно освободить кисть. Если приложение возвращает системную кисть (например, которая была получена функцией [**жетстоккобжект**](/windows/desktop/api/wingdi/nf-wingdi-getstockobject) или [**жетсисколорбруш**](/windows/desktop/api/winuser/nf-winuser-getsyscolorbrush) ), приложению не нужно освобождать эту кисть.
 
@@ -101,9 +101,9 @@ WM_CTLCOLORSTATIC
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Header<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

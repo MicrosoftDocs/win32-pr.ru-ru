@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 022712ff45f213992bf3d40bd0149959e4864faa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 72c8c3a452e3115e66e4f0f6e75999cad9bce7e1eadf14b4cadd24fae640a327
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118879220"
 ---
 # <a name="flags-for-conversion-mode"></a>Флаги для режима преобразования
 
@@ -69,7 +69,7 @@ ms.locfileid: "104136194"
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                             |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                   |
-| Распространяемые компоненты<br/>          | TSF 1,0 — Windows NT 4.0, Windows 2000 Профессионаландвиндовс Мевиндовс 98<br/>   |
+| Распространяемые компоненты<br/>          | TSF 1,0 onwindows NT 4,0, Windows 2000 профессионаландвиндовс мевиндовс 98<br/>   |
 | Header<br/>                   | <dl> <dt>Ктффунк. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Ктффунк. idl</dt> </dl> |
 

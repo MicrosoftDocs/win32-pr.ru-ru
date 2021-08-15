@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: db8f1dc421aa160824a194588711e84f961ea4dd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f29bef7eb7778602a256f80cb04e47eae905a245783906c3388b576aecedee18
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103801277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119419844"
 ---
 # <a name="wm_wtssession_change-message"></a>\_ \_ Сообщение об изменении втссессион WM
 
@@ -47,7 +47,7 @@ LRESULT CALLBACK WindowProc(
 *HWND* \[ окне\]
 </dt> <dd>
 
-Обработчик для окна.
+Дескриптор для окна.
 
 </dd> <dt>
 
@@ -67,29 +67,29 @@ LRESULT CALLBACK WindowProc(
 
 <span id="WTS_CONSOLE_CONNECT"></span><span id="wts_console_connect"></span>
 
-<span id="WTS_CONSOLE_CONNECT"></span><span id="wts_console_connect"></span>**ВТС \_ \_Подключение к консоли** (0x1)
+<span id="WTS_CONSOLE_CONNECT"></span><span id="wts_console_connect"></span>**WTS \_ \_Подключение к консоли** (0x1)
 
 
 </dt> <dd>
 
-Сеанс, идентифицируемый *lParam* , был подключен к терминалу консоли или сеансу RemoteFX.
+сеанс, определенный параметром *lParam* , был подключен к терминалу консоли или сеансу RemoteFX.
 
 </dd> <dt>
 
 <span id="WTS_CONSOLE_DISCONNECT"></span><span id="wts_console_disconnect"></span>
 
-<span id="WTS_CONSOLE_DISCONNECT"></span><span id="wts_console_disconnect"></span>**ВТС \_ \_Отключение консоли** (0x2)
+<span id="WTS_CONSOLE_DISCONNECT"></span><span id="wts_console_disconnect"></span>**WTS \_ \_Отключение консоли** (0x2)
 
 
 </dt> <dd>
 
-Сеанс, идентифицируемый *lParam* , отключен от терминала консоли или сеанса RemoteFX.
+сеанс, определенный параметром *lParam* , был отключен от терминала консоли или сеанса RemoteFX.
 
 </dd> <dt>
 
 <span id="WTS_REMOTE_CONNECT"></span><span id="wts_remote_connect"></span>
 
-<span id="WTS_REMOTE_CONNECT"></span><span id="wts_remote_connect"></span>**ВТС \_ УДАЛЕНное \_ Подключение** (0x3)
+<span id="WTS_REMOTE_CONNECT"></span><span id="wts_remote_connect"></span>**WTS \_ УДАЛЕНное \_ Подключение** (0x3)
 
 
 </dt> <dd>
@@ -100,7 +100,7 @@ LRESULT CALLBACK WindowProc(
 
 <span id="WTS_REMOTE_DISCONNECT"></span><span id="wts_remote_disconnect"></span>
 
-<span id="WTS_REMOTE_DISCONNECT"></span><span id="wts_remote_disconnect"></span>**ВТС \_ УДАЛЕНное \_ Отключение** (0x4)
+<span id="WTS_REMOTE_DISCONNECT"></span><span id="wts_remote_disconnect"></span>**WTS \_ УДАЛЕНное \_ Отключение** (0x4)
 
 
 </dt> <dd>
@@ -111,7 +111,7 @@ LRESULT CALLBACK WindowProc(
 
 <span id="WTS_SESSION_LOGON"></span><span id="wts_session_logon"></span>
 
-<span id="WTS_SESSION_LOGON"></span><span id="wts_session_logon"></span>**ВТС \_ \_Вход в сеанс** (0x5)
+<span id="WTS_SESSION_LOGON"></span><span id="wts_session_logon"></span>**WTS \_ \_Вход в сеанс** (0x5)
 
 
 </dt> <dd>
@@ -122,7 +122,7 @@ LRESULT CALLBACK WindowProc(
 
 <span id="WTS_SESSION_LOGOFF"></span><span id="wts_session_logoff"></span>
 
-<span id="WTS_SESSION_LOGOFF"></span><span id="wts_session_logoff"></span>**ВТС \_ \_Выход из сеанса** (0x6)
+<span id="WTS_SESSION_LOGOFF"></span><span id="wts_session_logoff"></span>**WTS \_ \_Выход из сеанса** (0x6)
 
 
 </dt> <dd>
@@ -133,7 +133,7 @@ LRESULT CALLBACK WindowProc(
 
 <span id="WTS_SESSION_LOCK"></span><span id="wts_session_lock"></span>
 
-<span id="WTS_SESSION_LOCK"></span><span id="wts_session_lock"></span>**ВТС \_ \_Блокировка сеанса** (0x7)
+<span id="WTS_SESSION_LOCK"></span><span id="wts_session_lock"></span>**WTS \_ \_Блокировка сеанса** (0x7)
 
 
 </dt> <dd>
@@ -144,7 +144,7 @@ LRESULT CALLBACK WindowProc(
 
 <span id="WTS_SESSION_UNLOCK"></span><span id="wts_session_unlock"></span>
 
-<span id="WTS_SESSION_UNLOCK"></span><span id="wts_session_unlock"></span>**ВТС \_ \_Разблокировка сеанса** (0x8)
+<span id="WTS_SESSION_UNLOCK"></span><span id="wts_session_unlock"></span>**WTS \_ \_Разблокировка сеанса** (0x8)
 
 
 </dt> <dd>
@@ -155,7 +155,7 @@ LRESULT CALLBACK WindowProc(
 
 <span id="WTS_SESSION_REMOTE_CONTROL"></span><span id="wts_session_remote_control"></span>
 
-<span id="WTS_SESSION_REMOTE_CONTROL"></span><span id="wts_session_remote_control"></span>**ВТС \_ \_Удаленное \_ Управление сеансом** (0x9)
+<span id="WTS_SESSION_REMOTE_CONTROL"></span><span id="wts_session_remote_control"></span>**WTS \_ \_Удаленное \_ Управление сеансом** (0x9)
 
 
 </dt> <dd>
@@ -166,7 +166,7 @@ LRESULT CALLBACK WindowProc(
 
 <span id="WTS_SESSION_CREATE"></span><span id="wts_session_create"></span>
 
-<span id="WTS_SESSION_CREATE"></span><span id="wts_session_create"></span>**ВТС \_ \_Создание сеанса** (0xA)
+<span id="WTS_SESSION_CREATE"></span><span id="wts_session_create"></span>**WTS \_ \_Создание сеанса** (0xA)
 
 
 </dt> <dd>
@@ -177,7 +177,7 @@ LRESULT CALLBACK WindowProc(
 
 <span id="WTS_SESSION_TERMINATE"></span><span id="wts_session_terminate"></span>
 
-<span id="WTS_SESSION_TERMINATE"></span><span id="wts_session_terminate"></span>**ВТС \_ \_Завершение сеанса** (0xB)
+<span id="WTS_SESSION_TERMINATE"></span><span id="wts_session_terminate"></span>**WTS \_ \_Завершение сеанса** (0xB)
 
 
 </dt> <dd>
@@ -197,13 +197,13 @@ LRESULT CALLBACK WindowProc(
 
 Возвращаемое значение игнорируется.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это сообщение отправляется только приложениям, зарегистрированным для получения этого сообщения путем вызова [**втсрегистерсессионнотификатион**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsregistersessionnotification).
 
 Примеры того, как приложения могут реагировать на это сообщение, включают освобождение или получение ресурсов, связанных с консолью, определение способа рисования экрана или запуск эффектов анимации консоли.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -211,7 +211,7 @@ LRESULT CALLBACK WindowProc(
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                                 |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                                           |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Header<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

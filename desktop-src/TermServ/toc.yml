@@ -1,28 +1,28 @@
 - name: Службы удаленных рабочих столов
   href: terminal-services-portal.md
   items:
-    - name: удаленный рабочий стол элемент управления ActiveX
+    - name: удаленный рабочий стол ActiveX элемент управления
       href: remote-desktop-activex-control.md
       items:
-        - name: Использование элемента управления ActiveX удаленный рабочий стол
+        - name: использование элемента управления ActiveX удаленный рабочий стол
           href: using-remote-desktop-web-connection.md
           items:
-            - name: Внедрение удаленный рабочий стол элемента управления ActiveX на веб-страницу
+            - name: внедрение элемента управления удаленный рабочий стол ActiveX на веб-страницу
               href: embedding-the-remote-desktop-activex-control-in-a-web-page.md
             - name: Реализация виртуальных каналов с использованием скриптов с помощью веб-подключение к удаленному рабочему столу
               href: implementing-scriptable-virtual-channels-using-remote-desktop-web-connection.md
-            - name: Использование элемента управления ActiveX удаленный рабочий стол с виртуальными каналами
+            - name: использование элемента управления ActiveX удаленный рабочий стол с виртуальными каналами
               href: using-the-remote-desktop-activex-control-with-virtual-channels.md
-            - name: 'Пример веб-страницы, входящей в состав элемента управления удаленный рабочий стол ActiveX'
+            - name: 'пример веб-страницы, входящей в состав элемента управления удаленный рабочий стол ActiveX'
               href: sample-web-page-included-with-the-remote-desktop-activex-control.md
             - name: Предоставление для безопасности клиента RDP
               href: providing-for-rdp-client-security.md
             - name: Отключение функций службы удаленных рабочих столов
               href: disabling-terminal-services-features.md
-        - name: Справочник по элементу управления ActiveX удаленный рабочий стол
+        - name: справочник по элементу управления ActiveX удаленный рабочий стол
           href: remote-desktop-activex-control-reference.md
           items:
-            - name: удаленный рабочий стол интерфейсов элементов управления ActiveX
+            - name: интерфейсы удаленный рабочий стол ActiveX элементов управления
               href: remote-desktop-web-connection-reference.md
               items:
                 - name: IMsRdpCameraRedirConfig
@@ -806,7 +806,7 @@
                     - name: Методы Имстскакс
                       href: imstscax-methods.md
                       items:
-                        - name: Метод Connect
+                        - name: метод Подключение
                           href: imstscax-connect.md
                         - name: Метод Креатевиртуалчаннелс
                           href: imstscax-createvirtualchannels.md
@@ -962,7 +962,7 @@
                       items:
                         - name: метод attachEvent
                           href: /windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-attachevent
-                        - name: Метод Connect
+                        - name: метод Подключение
                           href: /windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-connect
                         - name: Метод Делетесаведкредентиалс
                           href: /windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-deletesavedcredentials
@@ -979,7 +979,7 @@
                       items:
                         - name: Свойство Actions
                           href: /windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-get_actions
-                        - name: Свойства параметров
+                        - name: 'Параметры, свойство'
                           href: iremotedesktopclient-settings.md
                         - name: 'Таучпоинтер, свойство'
                           href: /windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-get_touchpointer
@@ -1090,7 +1090,7 @@
                       items:
                         - name: Метод Серверстартапп
                           href: itsremoteprogram3-serverstartapp.md
-            - name: удаленный рабочий стол перечисления элементов управления ActiveX
+            - name: удаленный рабочий стол перечислений элементов управления ActiveX
               href: remote-desktop-activex-control-enumerations.md
               items:
                 - name: контролклосестатус
@@ -1113,7 +1113,7 @@
                   href: /windows/win32/api/rdpappcontainerclient/ne-rdpappcontainerclient-snapshotencodingtype
                 - name: снапшотформаттипе
                   href: /windows/win32/api/rdpappcontainerclient/ne-rdpappcontainerclient-snapshotformattype
-            - name: удаленный рабочий стол классов элементов управления ActiveX
+            - name: удаленный рабочий стол классы элементов управления ActiveX
               href: remote-desktop-activex-control-classes.md
               items:
                 - name: мсрдпклиент
@@ -1737,18 +1737,18 @@
               items:
                 - name: врдсграфиксчаннелтипе
                   href: /windows/win32/api/wrdsgraphicschannels/ne-wrdsgraphicschannels-wrdsgraphicschanneltype
-    - name: API перенаправления мультимедиа RemoteFX
+    - name: RemoteFX API перенаправления носителей
       href: remotefx-api.md
       items:
-        - name: Справочник по API перенаправления мультимедиа RemoteFX
+        - name: RemoteFX Справочник по API перенаправления носителей
           href: remotefx-media-redirection-api-reference.md
           items:
-            - name: Функции API перенаправления носителей RemoteFX
+            - name: RemoteFX Функции API перенаправления носителей
               href: remotefx-media-redirection-api-functions.md
               items:
                 - name: втссетрендерхинт
                   href: /windows/desktop/api/WtsHintApi/nf-wtshintapi-wtssetrenderhint
-            - name: Интерфейсы API перенаправления мультимедиа RemoteFX
+            - name: RemoteFX Интерфейсы API перенаправления носителей
               href: remotefx-media-redirection-api-interfaces.md
               items:
                 - name: ивтсбитмапрендерер
@@ -1775,7 +1775,7 @@
                   items:
                     - name: Метод метода WebMethod
                       href: /windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtspluginserviceprovider-getservice
-            - name: Структуры API перенаправления мультимедиа RemoteFX
+            - name: RemoteFX Структуры API перенаправления носителей
               href: remotefx-media-redirection-api-structures.md
               items:
                 - name: BITMAP_RENDERER_STATISTICS
@@ -1934,11 +1934,11 @@
           items:
             - name: Службы терминалов теперь службы удаленных рабочих столов
               href: terminal-services-is-now-remote-desktop-services.md
-            - name: Новые возможности Windows 7
+            - name: новые возможности Windows 7
               href: what-s-new-in-windows-7.md
-            - name: Новые возможности Windows Server 2008 R2
+            - name: новые возможности Windows Server 2008 R2
               href: what-s-new-in-windows-server-2008-r2.md
-            - name: Новые возможности Windows Server 2008
+            - name: новые возможности Windows Server 2008
               href: what-s-new-in-windows-server-2008.md
             - name: Что нового в Windows Vista
               href: what-s-new-in-windows-vista.md

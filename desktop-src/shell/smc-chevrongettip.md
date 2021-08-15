@@ -4,12 +4,12 @@ ms.assetid: 7bce4079-994c-4eb0-ab86-9044701d85a1
 title: Сообщение SMC_CHEVRONGETTIP (shobjidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 118056627d19990648e81b69aa355f3df99ec286
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e64636994743d4b13a96fe75947fb515c4dbd3edcc94e6dee0fa85efb8bc9d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104985748"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968243"
 ---
 # <a name="smc_chevrongettip-message"></a>\_Сообщение SMC чевронжеттип
 
@@ -47,11 +47,11 @@ SMC_CHEVRONGETTIP
 
 Возвратите \_ ОК.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Это уведомление получает метод [**ишеллменукаллбакк:: каллбакксм**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenucallback-callbacksm) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -1,17 +1,17 @@
 ---
 description: Основные службы телефонов — это основной набор служб, поддерживаемых всеми телефонными устройствами. Так как базовые телефонные службы определены поставщиком служб, в наборе Core существует множество различных возможностей.
 ms.assetid: 0d4f5494-a64f-4fd0-a7c4-b93204b3c069
-title: Базовые службы для телефонов
+title: базовые службы Телефон
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d2185d85816c22f0bb145b981ec16a9d125818d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a71f9865021d51267244d714ea5763b201564836cf5e9f63cd99ca3d50beb13b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674079"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118871524"
 ---
-# <a name="basic-phone-services"></a>Базовые службы для телефонов
+# <a name="basic-phone-services"></a>базовые службы Телефон
 
 Основные службы телефонов — это основной набор служб, поддерживаемых всеми телефонными устройствами. Так как базовые телефонные службы определены поставщиком служб, в наборе Core существует множество различных возможностей.
 

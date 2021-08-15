@@ -14,12 +14,12 @@ api_type:
 api_location:
 - InkDiv.dll
 - InkDiv.dll.dll
-ms.openlocfilehash: 11878e6a0ac953b9b7eb27ce21bb67001f9d88d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2e5f3060f261ba84b70272ed358a7c544f2b0e1582de310ed759b4ea40714359
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104143006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967763"
 ---
 # <a name="calldivideresults-function"></a>Функция Каллдивидересултс
 
@@ -169,17 +169,17 @@ HRESULT WINAPI CallDivideResults(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы избежать утечек памяти, необходимо освободить ресурсы для *пастрвордс*, *пастрлинес* и *пастрпараграфс*.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/>                         |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/>                         |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                             |
 | Библиотека<br/>                  | <dl> <dt>InkDiv.dll</dt> </dl> |
 

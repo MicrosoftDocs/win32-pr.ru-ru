@@ -4,12 +4,12 @@ ms.assetid: 113333c8-28d1-4b0e-8da4-0c94389d8038
 title: Извлечение файлов из ящиков
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d94f413b4ad0ee1511dde21af747cd2665a4704
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0cfd7f41d4951e43bb58fac6efb9b1fd11895373398643e7c8c9cc00821dd72d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118887255"
 ---
 # <a name="extracting-files-from-cabinets"></a>Извлечение файлов из ящиков
 

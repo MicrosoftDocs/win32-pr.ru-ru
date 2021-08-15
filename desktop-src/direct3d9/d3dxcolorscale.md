@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 74020f302a26162df1e42cb4c9f020af3f64e59c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 95ae2ea24547f566a6da014f408dbfbce5be3112a61688f69e125e91d6085493
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105674731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119241424"
 ---
 # <a name="d3dxcolorscale-function"></a>Функция D3DXColorScale
 
@@ -75,7 +75,7 @@ D3DXCOLOR* D3DXColorScale(
 
 Эта функция возвращает указатель на структуру [**D3DXCOLOR**](d3dxcolor.md) , которая является масштабируемым значением цвета.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре тоска. Таким образом, функция **D3DXColorScale** может использоваться в качестве параметра для другой функции.
 
@@ -88,13 +88,13 @@ pOut->r = pC->r * s;
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

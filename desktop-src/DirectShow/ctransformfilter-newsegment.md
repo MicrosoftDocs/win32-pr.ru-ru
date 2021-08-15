@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 0fd046288886d3e7619419dd591dd94310f56020
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a2cb83c376b012ae3474f87b0f8d26c7fb5560812c1d8ddcbb3ea62293797bb9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953553"
 ---
 # <a name="ctransformfilternewsegment-method"></a>Ктрансформфилтер. Невсегмент, метод
 
@@ -69,7 +69,7 @@ virtual HRESULT NewSegment(
 
 Возвращает значение S \_ ОК.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Метод [**ктрансформинпутпин:: невсегмент**](ctransforminputpin-newsegment.md) входного контакта вызывает этот метод. Этот метод доставляет `NewSegment` вызов нисходящего входного ПИН-кода.
 
@@ -79,7 +79,7 @@ virtual HRESULT NewSegment(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Трансфрм. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>трансфрм. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

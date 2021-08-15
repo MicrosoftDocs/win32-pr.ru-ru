@@ -1,5 +1,5 @@
 ---
-description: Регистрирует выполняющееся приложение для уведомления о событии получения образа Windows (WIA) 2,0.
+description: регистрирует выполняющееся приложение для уведомления о событии Windowsного получения изображений (WIA) 2,0.
 ms.assetid: 978dcd41-d63b-421d-b7e1-8e9368b36180
 title: 'Метод IWiaDevMgr2:: Регистеревенткаллбаккинтерфаце (WIA. h)'
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 7cd3a7e00cff56bc5d91bfc843ab79fe71aa1123
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e2658654254257c707d12f4e676aee3371f0ad491dfedeb0637508ca3f33a057
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264528"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965644"
 ---
 # <a name="iwiadevmgr2registereventcallbackinterface-method"></a>Метод IWiaDevMgr2:: Регистеревенткаллбаккинтерфаце
 
-Регистрирует выполняющееся приложение для уведомления о событии получения образа Windows (WIA) 2,0.
+регистрирует выполняющееся приложение для уведомления о событии Windowsного получения изображений (WIA) 2,0.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -64,18 +64,18 @@ HRESULT RegisterEventCallbackInterface(
 *певентгуид* \[ окне\]
 </dt> <dd>
 
-Тип: **константа \* GUID* _
+Тип: **константа \* GUID**
 
 Указывает указатель на идентификатор события, для которого регистрируется приложение. См. раздел [идентификаторы событий WIA](-wia-wia-event-identifiers.md) для стандартных идентификаторов событий.
 
 </dd> <dt>
 
-_pIWiaEventCallback * \[ в\]
+*пивиаевенткаллбакк* \[ окне\]
 </dt> <dd>
 
-Тип: **[**ивиаевенткаллбакк**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaeventcallback) \** _
+Тип: **[ **ивиаевенткаллбакк**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaeventcallback)\***
 
-Указывает указатель на интерфейс [_ *ивиаевенткаллбакк* *](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaeventcallback) , который WIA 2,0 использует для отправки уведомления о событии.
+Указывает указатель на интерфейс [**ивиаевенткаллбакк**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaeventcallback) , который WIA 2,0 использует для отправки уведомления о событии.
 
 </dd> <dt>
 
@@ -104,7 +104,7 @@ _pIWiaEventCallback * \[ в\]
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!WARNING]
 > Использование методов [**ивиадевмгр:: регистеревенткаллбаккинтерфаце**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-registereventcallbackinterface), **IWiaDevMgr2:: регистеревенткаллбаккинтерфаце** и [**девицеманажер. RegisterEvent**](/previous-versions/windows/desktop/wiaaut/-wiaaut-idevicemanager-registerevent) из того же процесса после перезапуска службы изображений может привести к нарушению прав доступа, если функции использовались до остановки службы.
@@ -120,14 +120,14 @@ _pIWiaEventCallback * \[ в\]
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                               |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                               |
 | Header<br/>                   | <dl> <dt>WIA. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl> |
 

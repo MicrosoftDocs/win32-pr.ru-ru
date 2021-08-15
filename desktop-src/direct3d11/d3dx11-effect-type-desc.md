@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ae0f4e8af391fed5717f47bb4b80398129cb98ce
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: cc045b40105a698c9d051de791991c49d2b6d0dd4672d50f344e8781999dd5c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103914799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989964"
 ---
 # <a name="d3dx11_effect_type_desc-structure"></a>\_Структура D3DX11 \_ типа \_ эффектов
 
@@ -45,7 +45,7 @@ typedef struct _D3DX11_EFFECT_TYPE_DESC {
 
 
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 <dl> <dt>
 
@@ -159,7 +159,7 @@ typedef struct _D3DX11_EFFECT_TYPE_DESC {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 D3DX11 \_ \_ тип эффектов \_ DESC используется с [ **ID3DX11EffectType:: DESC**](id3dx11effecttype-getdesc.md)
 
@@ -169,7 +169,7 @@ D3DX11 \_ \_ тип эффектов \_ DESC используется с [ **ID3
 
 | Требование | Значение |
 |-------------------|-------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx11effect. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx11effect. h</dt> </dl> |
 
 
 

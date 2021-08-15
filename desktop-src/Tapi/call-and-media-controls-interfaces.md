@@ -4,12 +4,12 @@ ms.assetid: aa43013d-826e-487b-b0a3-2d890f93a512
 title: Интерфейсы элементов управления Call и Media
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d9e80ea4ae8abcdad4c3629249faeaf30a1472d3
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 1936820838ff355ffc3c4e7fd3aba5a4df9dcdb188337d763a510bdaadee80d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103999906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118871012"
 ---
 # <a name="call-and-media-controls-interfaces"></a>Интерфейсы элементов управления Call и Media
 

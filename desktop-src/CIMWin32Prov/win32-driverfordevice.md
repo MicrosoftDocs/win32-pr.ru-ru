@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b5fb384eed80c6a614af448477c50be3204d3080
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f55025c84b8ab7e7114f5a1746d84f8fbdb6b0a7dfe952abfe84efb980430881
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655987"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119546324"
 ---
 # <a name="win32_driverfordevice-class"></a>\_Класс Win32 дриверфордевице
 
@@ -45,7 +45,7 @@ class Win32_DriverForDevice : CIM_Dependency
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ дриверфордевице** имеет следующие свойства.
 
@@ -81,7 +81,7 @@ class Win32_DriverForDevice : CIM_Dependency
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ дриверфордевице** является производным от [**\_ зависимости CIM**](cim-dependency.md).
 

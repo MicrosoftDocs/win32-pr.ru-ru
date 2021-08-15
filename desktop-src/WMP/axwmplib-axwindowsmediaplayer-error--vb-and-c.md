@@ -3,9 +3,9 @@ title: Аксвиндовсмедиаплайер. Error, свойство
 description: Свойство Error получает интерфейс Ивмперрор, предоставляющий доступ к коллекции интерфейсов Ивмперроритем.
 ms.assetid: 9acc9252-d9c6-48a7-95a3-b1dddce93795
 keywords:
-- Проигрыватель Windows Media, свойство ошибки
-- Свойство ошибки Windows Media Player, класс Аксвиндовсмедиаплайер
-- Класс Аксвиндовсмедиаплайер Windows Media Player, свойство Error
+- проигрыватель Windows Media свойства ошибки
+- свойство Error проигрыватель Windows Media, класс аксвиндовсмедиаплайер
+- класс аксвиндовсмедиаплайер проигрыватель Windows Media, свойство Error
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d379a1ae26b2d16e73805db536fd59bde1fa47b9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b29b8079e55b01e087dcfb0af2bb697e31f9645a087ff01261ca2d3f6ae1bcc9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694455"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118841296"
 ---
 # <a name="axwindowsmediaplayererror-property"></a>Аксвиндовсмедиаплайер. Error, свойство
 
@@ -56,7 +56,7 @@ Public ReadOnly Property Error As IWMPError
 
 | Требование | Значение |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                          |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                          |
 | Пространство имен<br/> | **аксвмплиб**<br/>                                                                                                    |
 | Сборка<br/>  | <dl> <dt>AxInterop.WMPLib.dll (AxInterop.WMPLib.dll.dll)</dt> </dl> |
 

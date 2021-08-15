@@ -4,23 +4,23 @@ description: Файлы заполнителей
 ms.assetid: E14655DA-CEA0-4106-B882-C9E9116FC234
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93c15037b0daec7a6521a299b6c4587c956e0be3
-ms.sourcegitcommit: 46376be61d3fa308f9b1a06d7e2fa122a39755af
+ms.openlocfilehash: a8891fef6c7fc54a66c093507b1831ab7cc6525ea96d685d06cf6fa8d9ded1e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "105661789"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119452504"
 ---
 # <a name="placeholder-files"></a>Файлы заполнителей
 
 ## <a name="platform"></a>Платформа
 
-**Клиенты —** Windows 8.1  
-**Серверы —** Windows Server 2012 R2  
+**клиенты —** Windows 8.1  
+**серверы —** Windows Server 2012 R2  
 
 ## <a name="description"></a>Описание
 
-Файлы заполнителей позволяют пользователям просматривать файлы Microsoft OneDrive и управлять ими независимо от подключения. Файлы заполнителей представляют пространство имен OneDrive, даже если файлы не кэшируются локально. Они содержат метаданные файлов и миниатюрные изображения фотографий.
+файлы заполнителей позволяют пользователям просматривать Microsoft OneDrive файлы и управлять ими независимо от подключения. файлы заполнителей представляют пространство имен OneDrive, даже если файлы не кэшируются локально. Они содержат метаданные файлов и миниатюрные изображения фотографий.
 
 ## <a name="manifestation"></a>Проявление
 
@@ -69,9 +69,9 @@ bool IsFilePlaceholder(_In_PCWSTR filePath)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

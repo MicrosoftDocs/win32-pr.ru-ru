@@ -4,12 +4,12 @@ ms.assetid: ''
 title: Перечисления видео Direct3D 12
 ms.topic: article
 ms.date: 06/03/2019
-ms.openlocfilehash: ce6033b3a89a35424fb0397c1200b973dd00ceae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 150559eef5805e878b416bf34dea2793e03a9a2d07906f073be34e795e529461
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104143144"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119357974"
 ---
 # <a name="direct3d-12-video-enumerations"></a>Перечисления видео Direct3D 12
 
@@ -51,7 +51,7 @@ ms.locfileid: "104143144"
 | [D3D12_VIDEO_SCALE_SUPPORT_FLAGS](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_scale_support_flags)  | Указывает возможности масштабирования видео.|
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

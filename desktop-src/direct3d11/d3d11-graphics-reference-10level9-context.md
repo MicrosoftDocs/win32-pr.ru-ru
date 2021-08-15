@@ -4,12 +4,12 @@ description: В этом разделе перечислены различия 
 ms.assetid: 84478b56-0306-491a-9545-0849b06d8342
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb3dc46aeeb5d629c4bf50492083d09b34de1b08
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3d5cb055e6a290a9500f65ad2d64cdd69b0eaa224e6a81359595688ba1aca657
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067510"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118990074"
 ---
 # <a name="10level9-id3d11devicecontext-methods"></a>10Level9 ссылку ID3D11DeviceContext методы
 
@@ -64,7 +64,7 @@ ms.locfileid: "104067510"
 -   [Ссылку ID3D11DeviceContext:: Вссетсамплерс](#id3d11devicecontextvssetsamplers)
 -   [Ссылку ID3D11DeviceContext:: Вссетшадер](#id3d11devicecontextvssetshader)
 -   [Ссылку ID3D11DeviceContext:: Вссетшадерресаурцес](#id3d11devicecontextvssetshaderresources)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="id3d11devicecontextcopysubresourceregion"></a>Ссылку ID3D11DeviceContext:: Кописубресаурцерегион
 
@@ -1691,7 +1691,7 @@ ms.locfileid: "104067510"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

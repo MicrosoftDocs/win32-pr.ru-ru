@@ -17,12 +17,12 @@ api_location:
 - API-MS-Win-Service-Private-L1-1-1.dll
 - Advapi32.dll
 - API-MS-Win-Service-Private-L1-1-2.dll
-ms.openlocfilehash: e327a44d613b514123862b1ddcb1bf302fea63ef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83bd7bc3f937794f14cbe1d2877bc53ce7d347a8f45fd4f0ddb3e9d0ee9a52a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118888460"
 ---
 # <a name="subscribeservicechangenotifications-function"></a>Функция Субскрибесервицечанженотификатионс
 
@@ -102,7 +102,7 @@ DWORD WINAPI SubscribeServiceChangeNotifications(
 
 Если функция завершается ошибкой, возвращаемое значение является одним из [кодов системных ошибок](/windows/desktop/Debug/system-error-codes).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция обратного вызова объявляется следующим образом:
 
@@ -127,8 +127,8 @@ typedef SC_NOTIFICATION_CALLBACK* PSC_NOTIFICATION_CALLBACK;
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                   |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                   |
 | Header<br/>                   | <dl> <dt>Винсвкп. h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>SecHost.dll</dt> </dl> |
 

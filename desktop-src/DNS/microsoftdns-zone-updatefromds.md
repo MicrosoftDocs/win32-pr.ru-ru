@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d8fd0ba4db9b182379ce2ec93508c7a3bab354a9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ca537c6440ae14d0e15dea28f62bdb919f3ed7e3348f3a64a2339e0668b5c8dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957193"
 ---
 # <a name="updatefromds-method-of-the-microsoftdns_zone-class"></a>Метод Упдатефромдс \_ класса зоны микрософтднс
 
@@ -44,11 +44,11 @@ void UpdateFromDS();
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для успешного выполнения этого метода ZoneType должен быть равен нулю, а зона должна храниться в DS.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

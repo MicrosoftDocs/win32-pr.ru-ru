@@ -4,16 +4,16 @@ ms.assetid: 1199ec91-ee06-4e6c-8d8f-1585a3da3db0
 title: Интерфейс ИтпартиЦипантевент (Конфприв. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ac6e2b43a528bc041a71962e84b4e1be62152a4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1d4f47e57bf1698a97be6811316409e596c9dfb03181e50b5f487798463c5cb9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118864464"
 ---
 # <a name="itparticipantevent-interface"></a>Интерфейс ИтпартиЦипантевент
 
-\[**ИтпартиЦипантевент** недоступен для использования в Windows Vista, windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[**итпартиЦипантевент** недоступен для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Интерфейс **итпартиЦипантевент** содержит методы, которые извлекают описание событий участника. Когда реализация метода [**иттапиевентнотификатион:: Event**](/windows/desktop/api/Tapi3if/nf-tapi3if-ittapieventnotification-event) в приложении указывает на [**\_ событие TAPI**](/windows/desktop/api/Tapi3if/ne-tapi3if-tapi_event) , равное **\_ закрытому TE**, параметр *певент* метода является указателем **IDispatch** для интерфейса **итпартиЦипантевент** . Методы этого интерфейса можно использовать для получения сведений о произошедших изменениях участника.
 

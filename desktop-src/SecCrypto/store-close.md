@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 2e3deb127ec8b19d9ec5c625f07cfaa2685b776c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e0310db88b29fea18756ecaf7a2dc142097c3a6e53dfff5892acdaf4030b9b00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118897929"
 ---
 # <a name="storeclose-method"></a>Метод Store. Close
 
@@ -43,7 +43,7 @@ Store.Close()
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 После вызова метода **Close** объект [**Store**](store.md) уничтожается.
 
@@ -62,13 +62,13 @@ Store.Close()
 
 <dl> <dt>
 
-[**Магазин**](store.md)
+[**Сообщений**](store.md)
 </dt> <dt>
 
 [**Криптографические объекты**](cryptography-objects.md)
 </dt> <dt>
 
-[**Открыт**](store-open.md)
+[**Открыть**](store-open.md)
 </dt> </dl>
 
  
