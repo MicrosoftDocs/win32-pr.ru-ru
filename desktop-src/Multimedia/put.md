@@ -3,7 +3,7 @@ title: Команда размещения
 description: Команда размещения определяет область исходного изображения и окно назначения, используемые для вывода. Эта команда распознает цифровые видеоролики и устройства наложения видео.
 ms.assetid: 55fb7192-2083-45e7-a0bf-0d72a6320f91
 keywords:
-- размещение команды мультимедиа Windows
+- команда "разместить" Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d22fb7c74c1ed469e609e7dcfdd3d36ba355cc5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 08732b0ed55464fa1a288cc13a9ac19609b480644ffa4c9dfbeb140cedbbd3c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137250"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118372383"
 ---
 # <a name="put-command"></a>Команда размещения
 
@@ -100,7 +100,7 @@ _stprintf_s(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Команда размещения определяет один или несколько следующих прямоугольников при работе с устройствами наложения видео:
 
@@ -123,7 +123,7 @@ put vboard video 120 120 200 200 frame 0 0 200 200 source 0 0 200 200
 -   Данные видео будут помещены в область размером 200 в 200 пикселей в левом верхнем углу буфера кадров.
 -   Передача выполняется из области 200 – 200-пиксель в левом верхнем углу буфера кадров в конечное окно.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

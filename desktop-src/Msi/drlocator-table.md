@@ -4,12 +4,12 @@ ms.assetid: 2b779ff7-f410-4af0-899d-4432b015d526
 title: Таблица Дрлокатор
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78df5a5af83a18a14027b88033e977b2c63d2027
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fe1765c7b8f5c38d5701c4c401eb333c7db6a7c403689b8c3100d55b5e51e28e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118378328"
 ---
 # <a name="drlocator-table"></a>Таблица Дрлокатор
 
@@ -21,10 +21,10 @@ ms.locfileid: "105650580"
 
 | Столбец      | Type                         | Ключ | Допускает значения NULL |
 |-------------|------------------------------|-----|----------|
-| Образец\_ | [Идентификатор](identifier.md) | Да   | Нет        |
+| Образец\_ | [Идентификатор](identifier.md) | Д   | Нет        |
 | Parent      | [Идентификатор](identifier.md) | Да   | Да        |
 | Путь        | [анипас](anypath.md)       | Да   | Да        |
-| Глубина       | [Integer](integer.md)       | Нет   | Да        |
+| Глубина       | [Integer](integer.md)       | Нет   | Д        |
 
 
 
@@ -64,13 +64,13 @@ ms.locfileid: "105650580"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта таблица используется с [таблицей аппсеарч](appsearch-table.md).
 
 Столбцы этой таблицы, как правило, не локализованы. Если автор решает выполнить поиск продуктов на нескольких языках, для каждого языка должна быть включена отдельная запись в таблицу.
 
-См. раздел [Поиск существующих приложений, файлов, записей реестра или INI-файлов](searching-for-existing-applications-files-registry-entries-or--ini-file-entries.md).
+См. раздел [Поиск существующих приложений, файлов, записей реестра или .ini записей файлов](searching-for-existing-applications-files-registry-entries-or--ini-file-entries.md).
 
 ## <a name="validation"></a>Проверка
 

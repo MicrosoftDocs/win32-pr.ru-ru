@@ -3,9 +3,9 @@ title: Ивмпмедиаколлектион Жетаттрибутестрин
 description: Метод Жетаттрибутестрингколлектион возвращает интерфейс Ивмпстрингколлектион, представляющий набор всех значений для указанного атрибута в типе мультимедиа.
 ms.assetid: 5ac19c04-75db-4618-9c4e-b20e2f709024
 keywords:
-- Жетаттрибутестрингколлектион метод Windows Media Player
-- Жетаттрибутестрингколлектион метод проигрывателя Windows Media Player, интерфейс Ивмпмедиаколлектион
-- Интерфейс Ивмпмедиаколлектион Windows Media Player, метод Жетаттрибутестрингколлектион
+- проигрыватель Windows Media метода жетаттрибутестрингколлектион
+- проигрыватель Windows Media метода жетаттрибутестрингколлектион, интерфейс ивмпмедиаколлектион
+- проигрыватель Windows Media интерфейса ивмпмедиаколлектион, метод жетаттрибутестрингколлектион
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bef25cd811890e82273fd5d634633e25e7ec460c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 508630ee8a377e1542f823c1afb21521206369aa3ce489c58afae47efa268880
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118331946"
 ---
 # <a name="iwmpmediacollectiongetattributestringcollection-method"></a>Метод Ивмпмедиаколлектион:: Жетаттрибутестрингколлектион
 
@@ -73,11 +73,11 @@ Implements IWMPMediaCollection.getAttributeStringCollection
 
 Интерфейс **вмплиб. ивмпстрингколлектион** для извлеченных значений.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Перед вызовом этого метода необходимо иметь доступ на чтение к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
-Сведения об атрибутах, поддерживаемых проигрывателем Windows Media, см. в [справочнике по атрибутам](attribute-reference.md).
+дополнительные сведения об атрибутах, поддерживаемых проигрыватель Windows Media, см. в [справочнике по атрибутам](attribute-reference.md).
 
 ## <a name="examples"></a>Примеры
 
@@ -153,13 +153,13 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

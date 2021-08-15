@@ -3,7 +3,7 @@ title: Команда Step
 description: Команда Step выполняет шаги по воспроизведению одного или нескольких кадров вперед или назад. Действие по умолчанию — шаг вперед одного кадра. Это команда распознает устройства Digital-Video, ВИДЕОМАГНИТОФОН и Кав-Format видеодиск.
 ms.assetid: 6017ace5-cde9-42a0-bb2f-f85d7847adc5
 keywords:
-- Пошаговая команда мультимедиа Windows
+- команда step Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6203d0b2d5dea401e8197e1261946955cd28618a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7b804ac64c2641ba1eb43ba7019ae2668c04a7d8b07fbfd20ab7b8cb570d8fab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104490476"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118370834"
 ---
 # <a name="step-command"></a>Команда Step
 
@@ -75,7 +75,7 @@ _stprintf_s(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 905fbba5-0a04-4048-80bd-f8707c4879da
 title: Пример Вавсаурце
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 050edb9df75032384f93c6e1f37c52e89f14a748
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ffba8ab5bfd5ae1ccfb4df4c90b447c412e9e835a403d496834224f012f8bad7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103898690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972543"
 ---
 # <a name="wavsource-sample"></a>Пример Вавсаурце
 
@@ -40,7 +40,7 @@ ms.locfileid: "103898690"
 
 Можно также использовать средство Топоедит для создания топологии воспроизведения, содержащей источник мультимедиа. Дополнительные сведения о Топоедит см. в разделе [топоедит](topoedit.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -54,9 +54,9 @@ ms.locfileid: "103898690"
 
 ## <a name="downloading-the-sample"></a>Загрузка образца
 
-Этот пример доступен в [репозитории GitHub с классическими примерами Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/wavsource).
+этот пример доступен в [репозитории github для классических примеров Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/wavsource).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

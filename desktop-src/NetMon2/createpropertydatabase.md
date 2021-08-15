@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 2955aa3367648c4e9e23fd748fa27d6343ef78a1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7c07f6f3e4569c06f0b3890e3ef3a26bca10b3272849fc005dfb3be6cbc2836b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673642"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118367221"
 ---
 # <a name="createpropertydatabase-function"></a>Функция Креатепропертидатабасе
 
@@ -72,13 +72,13 @@ DWORD WINAPI CreatePropertyDatabase(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **креатепропертидатабасе** должна вызываться только при реализации функции [Register](register-parser.md) . Средство синтаксического анализа использует **креатепропертидатабасе** для создания базы данных свойств, описывающей свойства протокола. Сетевой монитор использует базу данных для интерпретации информации в протоколе.
 
 Функция **креатепропертидатабасе** выделяет структуры, которые сетевой монитор должны поддерживать базу данных свойств.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

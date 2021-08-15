@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 2087dd545a37cdc4b82899cb261cfef5fdb1fda6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5dec1b2fe18dae65443b45ee6c1d2efcd1d924a72eb2817869c35406ebbc7808
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118314417"
 ---
 # <a name="swbemmethodoutparameters-property"></a>Свбеммесод. Parameters, свойство
 
@@ -42,11 +42,11 @@ SWbemMethod.OutParameters As Object
 
 ## <a name="property-value"></a>Значение свойства
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Дополнительные сведения об использовании этого свойства для получения выходных параметров из методов поставщика см. в разделе [конструирование объектов параметров и анализ объектов параметров](constructing-inparameters-objects-and-parsing-outparameters-objects.md). Обратите внимание, что любые изменения, внесенные в этот объект, не отражаются в определении базового метода.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

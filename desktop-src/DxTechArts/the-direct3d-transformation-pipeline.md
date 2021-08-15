@@ -4,12 +4,12 @@ description: В этой статье содержится техническо�
 ms.assetid: 48ae49f0-1162-c292-4bd4-34da5aadd2df
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2b97a87293a840ccd9641b1418c2005cf73a855
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: b6377e3b17cfb4ceb6eda1f4cf59a93c12fd3e6b2f7e43f29f622ed6ee12c271
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "103913943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118152374"
 ---
 # <a name="the-direct3d-transformation-pipeline"></a>Конвейер преобразования Direct3D
 
@@ -17,7 +17,7 @@ ms.locfileid: "103913943"
 
 -   [Обзор](#overview)
 -   [Конвейер преобразования](#the-transformation-pipeline)
--   [Советы по использованию](#usage-tips)
+-   [Советы использования](#usage-tips)
 
 ## <a name="overview"></a>Обзор
 
@@ -155,7 +155,7 @@ ms.locfileid: "103913943"
 
     ![экранные координаты, вычисленные и передаваемые в средство программной прорисовки](images/d3dxfrm69.gif)
 
-## <a name="usage-tips"></a>Советы по использованию
+## <a name="usage-tips"></a>Советы использования
 
 Ниже приведены некоторые советы по использованию конвейера преобразования Direct3D.
 

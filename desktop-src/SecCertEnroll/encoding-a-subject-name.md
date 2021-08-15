@@ -1,19 +1,19 @@
 ---
-description: При инициализации объекта IX500DistinguishedName с различающимся именем для указания субъекта запроса на сертификат создается Distinguished Encoding Rules (DER) синтаксическая нотация (ASN. 1).
+description: при инициализации объекта IX500DistinguishedName с различающимся именем для указания субъекта запроса на сертификат создается Distinguished Encoding Rules (DER) синтаксическая нотация (ASN. 1).
 ms.assetid: 58b05b59-2235-49bd-9543-45e786d62eaf
 title: Кодирование имени субъекта
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7fa03d95497a600c3e61fdda53820fd7a9858c68
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6dd8849bda237c174fb160c862da4399fa4a734dbc74b5e6f476e1c59d22d1fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117780083"
 ---
 # <a name="encoding-a-subject-name"></a>Кодирование имени субъекта
 
-При инициализации объекта [**IX500DistinguishedName**](/windows/desktop/api/CertEnroll/nn-certenroll-ix500distinguishedname) с различающимся именем для указания субъекта запроса на сертификат создается [*distinguished Encoding Rules*](/windows/desktop/SecGloss/d-gly) (Der) [*синтаксическая нотация*](/windows/desktop/SecGloss/a-gly) (ASN. 1). Например, предположим, что различающееся имя субъекта состоит из следующих относительных различающихся имен (Рднс):<dl> E =Administrator@jdomcsc.nttest.microsoft.com  
+при инициализации объекта [**IX500DistinguishedName**](/windows/desktop/api/CertEnroll/nn-certenroll-ix500distinguishedname) с различающимся именем для указания субъекта запроса на сертификат создается [*Distinguished Encoding Rules*](/windows/desktop/SecGloss/d-gly) (DER) [*синтаксическая нотация*](/windows/desktop/SecGloss/a-gly) (ASN. 1). Например, предположим, что различающееся имя субъекта состоит из следующих относительных различающихся имен (Рднс):<dl> E =Administrator@jdomcsc.nttest.microsoft.com  
 CN = администратор  
 CN = пользователи  
 DC = ждомкск  
@@ -103,7 +103,7 @@ DC = com
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ description: Флаг анимации в клиентской области п
 ms.assetid: 4a3ec9da-d5ae-4cd9-8222-f02143895ce4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c62e25fdb08022d53cbe9e818a0a1089988cd6a6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1ab4d451424da0a02fa55efaead05ab285b3f07936167bb6e4376de4fd25ae11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104261002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118325963"
 ---
 # <a name="client-area-animation-parameter"></a>Параметр анимации в клиентской области
 
@@ -17,6 +17,6 @@ ms.locfileid: "104261002"
 
 Приложения используют флаги **SPI \_ Жетклиентареааниматион** и **SPI \_ сетклиентареааниматион** с функцией [**системпараметерсинфо**](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) для включения или отключения анимации в клиентской области.
 
- 
+ 
 
- 
+ 

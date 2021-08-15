@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: d8ace44a7d6df9b7a2e280db7d6f5ac68caa69ea
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 86612cf089dcaeaa26b136a3dd8c52d1e20b12f7f3850fc3a515838bf834e54c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104335440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118512154"
 ---
 # <a name="endif---ps"></a>endif-PS
 
@@ -29,9 +29,9 @@ ms.locfileid: "104335440"
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -41,9 +41,9 @@ ms.locfileid: "104335440"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -56,9 +56,9 @@ ms.locfileid: "104335440"
 [else-PS](else---ps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

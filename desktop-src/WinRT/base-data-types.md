@@ -1,19 +1,19 @@
 ---
-description: В этой таблице перечислены базовые типы данных, поддерживаемые среда выполнения Windows, и указываются соответствующие типы в C \# , Visual Basic и C++.
+description: в этой таблице перечислены базовые типы данных, поддерживаемые среда выполнения Windows, и указываются соответствующие типы в C \# , Visual Basic и C++.
 ms.assetid: B5735851-EC07-48C1-92B4-CA9F768096F6
-title: среда выполнения Windows базовых типов данных
+title: Windows Базовые типы данных среды выполнения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c9c75d257194d5684d66cdf9b96abebd2b51ac8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24b9b7b088c99bf64cceff531882d5331d79e26a1d44ee0e33278ab5db7e606a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117741658"
 ---
-# <a name="windows-runtime-base-data-types"></a>среда выполнения Windows базовых типов данных
+# <a name="windows-runtime-base-data-types"></a>Windows Базовые типы данных среды выполнения
 
-В этой таблице перечислены базовые типы данных, поддерживаемые среда выполнения Windows, и указываются соответствующие типы в C \# , Visual Basic и C++.
+в этой таблице перечислены базовые типы данных, поддерживаемые среда выполнения Windows, и указываются соответствующие типы в C \# , Visual Basic и C++.
 
 
 
@@ -34,20 +34,20 @@ ms.locfileid: "105692319"
 | **Rect**     | **Rect**      | **Rect**           | **Rect**           | **Rect**               |
 | **Single**   | **Число**    | **float**          | **Single**         | **float**              |
 | **Размер**     | **Размер**      | **Размер**           | **Размер**           | **Размер**               |
-| **String**   | **String**    | **string**         | **String**         | **String^**            |
+| **String**   | **String**    | **строка**         | **String**         | **String^**            |
 | **TimeSpan** | **Число**    | **TimeSpan**       | **TimeSpan**       | **TimeSpan**           |
 | **UInt8**    | **Число**    | **byte**           | **Byte**           | **unsigned char**      |
 | **UInt16**   | **Число**    | **ushort**         | **UShort**         | **unsigned short**     |
 | **UInt32**   | **Число**    | **uint**           | **UInteger**       | **unsigned int**       |
 | **UInt64**   | **Число**    | **ulong**          | **ULong**          | **Int64 без знака \_ \_** |
 | **URI**      | **URI**       | **URI**            | **URI**            | **URI ^**               |
-| **Void**     | **Не определено.** | **void**           | **Void**           | **void**               |
+| **Void**     | **Не определено** | **void**           | **Void**           | **void**               |
 
 
 
  
 
-В следующей таблице указаны типы .NET, соответствующие типам данных среда выполнения Windows.
+в следующей таблице указаны типы .net, соответствующие типам данных среда выполнения Windows.
 
 
 

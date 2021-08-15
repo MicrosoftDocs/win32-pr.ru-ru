@@ -4,12 +4,12 @@ ms.assetid: fdc9e138-2e98-4f01-ab7b-0c3dfad5a4dd
 title: Элемент URL-адреса Симплелокатион (схема соединителя поиска)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c40f45ccecb9a1fb81a64f6d749c5050ed1958a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fce95943017f4905414f65b75086d4babdf3750505fece0b73255e0e63623e9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118226329"
 ---
 # <a name="simplelocation-url-element-search-connector-schema"></a>Элемент URL-адреса Симплелокатион (схема соединителя поиска)
 
@@ -51,7 +51,7 @@ ms.locfileid: "105692163"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Список идентификаторов GUID известных папок см. в разделе [кновнфолдерид](/windows/desktop/shell/knownfolderid) . Используйте следующий формат для значения этого элемента при использовании протокола кновнфолдер: Protocol.
 
@@ -62,11 +62,11 @@ ms.locfileid: "105692163"
 
 
 
-В следующей таблице приведены идентификаторы GUID для известных папок Windows 7.
+в следующей таблице показаны идентификаторы guid для известных папок Windows 7.
 
 
 
-| Известная папка                     | Код GUID                                         |
+| Известная папка                     | GUID                                         |
 |----------------------------------|----------------------------------------------|
 | FOLDERID \_ админтулс             | {724EF170-A42D-4FEF-9F-26-B6-0E-84-6F-BA-4F} |
 | FOLDERID \_ аппупдатес             | {a305ce99-f527-492b-8B-1A-7E-76-FA-98-D6-E4} |
@@ -202,7 +202,7 @@ ms.locfileid: "105692163"
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

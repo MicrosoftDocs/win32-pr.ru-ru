@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 573730053a93a110381637ef8e62dc08a4aa1535
-ms.sourcegitcommit: 1897c2a39b4ac4ca4b1e4aec394cef2ce2619c03
+ms.openlocfilehash: 08fa669f8c4284c26052dd68bdbe9ab4f5b99b80b8bdf9445aa3375f0a87a9c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "113316486"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118504624"
 ---
 # <a name="wavereadlaneat-function"></a>Функция Вавереадланеат
 
@@ -55,7 +55,7 @@ ms.locfileid: "113316486"
 
 Полученное значение является результатом *выражения expr*. Он будет единообразным, если *ланеиндекс* является однородным.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция фактически является широковещательной рассылкой значения на *ланеиндекс*"th".
 

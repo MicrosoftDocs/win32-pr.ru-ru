@@ -4,12 +4,12 @@ ms.assetid: EBEFED1F-D0B8-4C7E-B1FB-CDE3BDFD99AA
 title: Кодировщик MPEG-2 Audio
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2454e542ba59f4955668bd1fcefbf5dbc0f11551
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 935b6438c79e9bf78a230f707f8930f859c3fa491dab0326208d5cf79b53f474
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103898190"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118240013"
 ---
 # <a name="mpeg-2-audio-encoder"></a>Кодировщик MPEG-2 Audio
 
@@ -44,17 +44,17 @@ Microsoft Media Foundation кодировщик MPEG-2 — это [Media Foundat
 <tr class="odd">
 <td><a href="mf-mt-major-type-attribute.md">MF_MT_MAJOR_TYPE</a></td>
 <td>Основной тип.</td>
-<td>Обязательный. Необходимо <strong>MFMediaType_Audio</strong>.</td>
+<td>Обязательный элемент. Необходимо <strong>MFMediaType_Audio</strong>.</td>
 </tr>
 <tr class="even">
 <td><a href="mf-mt-subtype-attribute.md">MF_MT_SUBTYPE</a></td>
 <td>Подтип аудио.</td>
-<td>Обязательный. Необходимо <strong>MFAudioFormat_MPEG</strong>. Этот подтип используется как для MPEG-1, так и для звука MPEG-2.</td>
+<td>Обязательный элемент. Необходимо <strong>MFAudioFormat_MPEG</strong>. Этот подтип используется как для MPEG-1, так и для звука MPEG-2.</td>
 </tr>
 <tr class="odd">
 <td><a href="mf-mt-audio-samples-per-second-attribute.md">MF_MT_AUDIO_SAMPLES_PER_SECOND</a></td>
 <td>Выборок в секунду.</td>
-<td>Обязательный. Для MPEG-1 и MPEG-2 поддерживаются следующие значения:
+<td>Обязательный элемент. Для MPEG-1 и MPEG-2 поддерживаются следующие значения:
 <ul>
 <li>32000</li>
 <li>44100</li>
@@ -70,7 +70,7 @@ Microsoft Media Foundation кодировщик MPEG-2 — это [Media Foundat
 <tr class="even">
 <td><a href="mf-mt-audio-num-channels-attribute.md">MF_MT_AUDIO_NUM_CHANNELS</a></td>
 <td>Число каналов.</td>
-<td>Обязательный. Значение должно быть либо 1 (моно), либо 2 (стерео).</td>
+<td>Обязательный элемент. Значение должно быть либо 1 (моно), либо 2 (стерео).</td>
 </tr>
 <tr class="odd">
 <td><a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a></td>
@@ -120,32 +120,32 @@ Microsoft Media Foundation кодировщик MPEG-2 — это [Media Foundat
 <tr class="odd">
 <td><a href="mf-mt-major-type-attribute.md">MF_MT_MAJOR_TYPE</a></td>
 <td>Основной тип.</td>
-<td>Обязательный. Необходимо <strong>MFMediaType_Audio</strong>.</td>
+<td>Обязательный элемент. Необходимо <strong>MFMediaType_Audio</strong>.</td>
 </tr>
 <tr class="even">
 <td><a href="mf-mt-subtype-attribute.md">MF_MT_SUBTYPE</a></td>
 <td>Подтип аудио.</td>
-<td>Обязательный. Должен быть <strong>MFAudioFormat_PCM</strong> или <strong>MFAudioFormat_Float</strong>.</td>
+<td>Обязательный элемент. Должен быть <strong>MFAudioFormat_PCM</strong> или <strong>MFAudioFormat_Float</strong>.</td>
 </tr>
 <tr class="odd">
 <td><a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a></td>
 <td>Число битов на аудио выборка.</td>
-<td>Обязательный. Значение должно быть 16, если подтип имеет <strong>MFAudioFormat_PCM</strong>, или 32, если подтип имеет <strong>MFAudioFormat_Float</strong>.</td>
+<td>Обязательный элемент. Значение должно быть 16, если подтип имеет <strong>MFAudioFormat_PCM</strong>, или 32, если подтип имеет <strong>MFAudioFormat_Float</strong>.</td>
 </tr>
 <tr class="even">
 <td><a href="mf-mt-audio-samples-per-second-attribute.md">MF_MT_AUDIO_SAMPLES_PER_SECOND</a></td>
 <td>Выборок в секунду.</td>
-<td>Обязательный. Должен соответствовать типу выходных данных.</td>
+<td>Обязательный элемент. Должен соответствовать типу выходных данных.</td>
 </tr>
 <tr class="odd">
 <td><a href="mf-mt-audio-num-channels-attribute.md">MF_MT_AUDIO_NUM_CHANNELS</a></td>
 <td>Число каналов.</td>
-<td>Обязательный. Должен соответствовать типу выходных данных.</td>
+<td>Обязательный элемент. Должен соответствовать типу выходных данных.</td>
 </tr>
 <tr class="even">
 <td><a href="mf-mt-audio-block-alignment-attribute.md">MF_MT_AUDIO_BLOCK_ALIGNMENT</a></td>
 <td>Выравнивание блокировки в байтах.</td>
-<td>Обязательный. Вычислите значение следующим образом:
+<td>Обязательный элемент. Вычислите значение следующим образом:
 <ul>
 <li><strong>MFAudioFormat_PCM</strong>: число каналов × 2.</li>
 <li><strong>MFAudioFormat_Float</strong>: число каналов × 4.</li>
@@ -154,7 +154,7 @@ Microsoft Media Foundation кодировщик MPEG-2 — это [Media Foundat
 <tr class="odd">
 <td><a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a></td>
 <td>Битовая скорость закодированного потока AC3 в байтах в секунду.</td>
-<td>Обязательный. Должно равняться выравниванию блока × Samples в секунду.</td>
+<td>Обязательный элемент. Должно равняться выравниванию блока × Samples в секунду.</td>
 </tr>
 <tr class="even">
 <td><a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a></td>
@@ -209,7 +209,7 @@ MFT реализует следующие методы [**икодекапи**](
 
 Все остальные методы [**икодекапи**](/windows/win32/api/strmif/nn-strmif-icodecapi) возвращают **E \_ нотимпл**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Каждая звуковая рамка MPEG содержит как 384 (уровень 1), так и 1152 (уровень 2) аудио выборки на канал. Однако каждый входной буфер кодировщика может содержать любое количество примеров PCM. Размер каждого входного буфера должен быть кратен выравниванию блока. Кодировщик кэширует входные образцы, пока не будет достаточно для звукового фрейма MPEG.
 
@@ -414,13 +414,13 @@ MPEG-2
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                 |
 | DLL<br/>                      | <dl> <dt>Msmpeg2enc.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 <dl> <dt>
 

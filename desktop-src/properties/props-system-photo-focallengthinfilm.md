@@ -4,12 +4,12 @@ ms.assetid: d914f873-0e61-45b4-8deb-eaff854f18b7
 title: System. photo. Фокалленгсинфилм
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a3705e45ac04dc3625f42d0a9f31c570d8e5902
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e30d2dbc5bdd0749675759760845bcc01634b6922afc8dc5c32a1edac331ec99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103998334"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118229682"
 ---
 # <a name="systemphotofocallengthinfilm"></a>System. photo. Фокалленгсинфилм
 
@@ -30,11 +30,11 @@ propertyDescription
       type = UInt16
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

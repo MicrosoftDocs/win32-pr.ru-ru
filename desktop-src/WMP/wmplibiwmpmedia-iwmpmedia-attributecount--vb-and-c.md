@@ -3,9 +3,9 @@ title: Ивмпмедиа Аттрибутекаунт, свойство
 description: Свойство Аттрибутекаунт возвращает количество атрибутов, которые можно запрашивать или задавать для элемента мультимедиа.
 ms.assetid: 527298ff-365d-41b0-90dd-e236d6adf6fa
 keywords:
-- Проигрыватель Windows Media для свойства Аттрибутекаунт
-- Аттрибутекаунт свойство проигрывателя Windows Media Player, интерфейс Ивмпмедиа
-- Интерфейс Ивмпмедиа Windows Media Player, свойство Аттрибутекаунт
+- проигрыватель Windows Media свойства аттрибутекаунт
+- проигрыватель Windows Media свойства аттрибутекаунт, интерфейс ивмпмедиа
+- проигрыватель Windows Media интерфейса ивмпмедиа, свойство аттрибутекаунт
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec5a56d06a54590afd315f04a90aa582f3a364db
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 73c3139d076fd7d1cd1bad784e325c67da25b3e7dedf530a9634a2878fe3011a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669262"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117746073"
 ---
 # <a name="iwmpmediaattributecount-property"></a>Свойство Ивмпмедиа:: Аттрибутекаунт
 
@@ -51,11 +51,11 @@ Public ReadOnly Property attributeCount As System.Int32
 
 Значение **System. Int32** , которое является счетчиком.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Перед использованием этого свойства необходимо иметь доступ на чтение к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
-Сведения об атрибутах, поддерживаемых проигрывателем Windows Media, см. в [справочнике по атрибутам](attribute-reference.md).
+дополнительные сведения об атрибутах, поддерживаемых проигрыватель Windows Media, см. в [справочнике по атрибутам](attribute-reference.md).
 
 ## <a name="examples"></a>Примеры
 
@@ -127,13 +127,13 @@ attributeList.Lines = atList
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

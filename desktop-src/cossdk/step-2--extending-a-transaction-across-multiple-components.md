@@ -4,12 +4,12 @@ ms.assetid: 20a30e87-e209-45ae-bf1b-722568758c47
 title: Шаг 2. расширение транзакции для нескольких компонентов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99c6fc80016904a3ea51b7aea7fa0ec93edc47a6
-ms.sourcegitcommit: bf526e267d3991892733bdd229c66d5365cf244a
+ms.openlocfilehash: 96aa168eca7bfba29a4b00a6cd24b45d06c7610c76d47a4d6454e77295e57bc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "104350935"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117915815"
 ---
 # <a name="step-2-extending-a-transaction-across-components"></a>Шаг 2. расширение транзакции между компонентами
 
@@ -22,7 +22,7 @@ ms.locfileid: "104350935"
 
 ## <a name="description"></a>Описание
 
-[Шаг 1. Создание транзакционного компонента](step-1--creating-a-transactional-component.md) показывает, как написать простой транзакционный компонент, который обновляет сведения об авторе в базе данных Microsoft SQL Server Pubs. Шаг 2 показывает, что происходит при расширении транзакции по нескольким компонентам.
+[шаг 1. создание транзакционного компонента](step-1--creating-a-transactional-component.md) показывает, как написать простой транзакционный компонент, который обновляет сведения об авторе в базе данных Microsoft SQL Server Pubs. Шаг 2 показывает, что происходит при расширении транзакции по нескольким компонентам.
 
 В соответствии с моделью программирования COM+ `UpdateAuthorAddress` вызывает другой компонент в процессе выполнения своей работы. Второй компонент, `ValidateAuthorAddress` , проверяет адрес автора и возвращает результаты вызывающему объекту, `UpdateAuthorAddress` .
 
@@ -121,7 +121,7 @@ End Function
 -   COM+ устанавливает голосование объекта в эквивалент [**енаблекоммит**](/windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontext-enablecommit) , если только голоса компонента не были явно указаны.
 -   Явное голосование может сократить общую длительность транзакции и освободить ресурсоемкие блокировки ресурсов.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

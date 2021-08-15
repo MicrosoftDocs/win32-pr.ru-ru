@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 197c5eb82de76fb5a5f606d8a161e853b0c1e8f7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9e5c29d1ddc646ef05faad2bc283887265e8b85109fcb679924d9a5641ef13fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668939"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117823029"
 ---
 # <a name="cbasepropertypagesetobjects-method"></a>Кбасепропертипаже. Сетобжектс, метод
 
@@ -73,19 +73,19 @@ HRESULT SetObjects(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Хотя *ппунк* указывает массив указателей **IUnknown** , класс **кбасепропертипаже** предназначен только для поддержки одного связанного объекта. Если *CObjects* больше 1, метод возвращает E \_ непредвиденные.
 
 Если значение *CObject* равно 1, этот метод вызывает метод [**кбасепропертипаже:: OnConnect**](cbasepropertypage-onconnect.md) . Если значение *CObject* равно 0, этот метод вызывает метод [**кбасепропертипаже:: ondisconnect**](cbasepropertypage-ondisconnect.md) . Производный класс должен переопределять оба этих метода. Дополнительные сведения см. в комментариях к этим методам.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Кпроп. h (включение Streams. h)</dt> </dl>                                                                                     |
+| Заголовок<br/>  | <dl> <dt>кпроп. h (включает Потоки. h)</dt> </dl>                                                                                     |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

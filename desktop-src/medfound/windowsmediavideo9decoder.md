@@ -1,60 +1,60 @@
 ---
-description: Декодер видео Windows Media 9 декодирует видеопотоки, закодированные кодировщиком Windows Media Video.
+description: декодер media video 9 Windows декодирует видеопотоки, закодированные Windowsным кодировщиком мультимедиа.
 ms.assetid: 08f68d1c-c226-4bf6-abd0-fce0f9ddbc05
-title: Декодер Windows Media Video 9 (Вмкодекдсп. h)
+title: Windows Декодер Media Video 9 (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 96d89e05f82ce503016a10d5591a23bc673d0db5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b251b46c94ef88283577dbd8268c3275d8ed6aab9321c98e115a42501e2729ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105718023"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118237266"
 ---
-# <a name="windows-media-video-9-decoder"></a>Декодер Windows Media Video 9
+# <a name="windows-media-video-9-decoder"></a>Windows Декодер Media Video 9
 
-Декодер видео Windows Media 9 декодирует видеопотоки, закодированные [**кодировщиком Windows Media Video**](windowsmediavideo9encoder.md). Кодировщик и декодер поддерживают следующие четыре категории закодированного видео.
+декодер media video 9 Windows декодирует видеопотоки, закодированные [**Windowsным кодировщиком мультимедиа**](windowsmediavideo9encoder.md). Кодировщик и декодер поддерживают следующие четыре категории закодированного видео.
 
--   Простой профиль Windows Media Video 9
--   Основной профиль Windows Media Video 9
--   Расширенный профиль Windows Media Video 9
--   Изображение Windows Media Video 9,1
+-   Windows Простой профиль Media Video 9
+-   Windows Основной профиль Media Video 9
+-   Windows Расширенный профиль Media Video 9
+-   Windows Изображение Media Video 9,1
 
 ## <a name="class-identifier"></a>Идентификатор класса
 
-Идентификатор класса (CLSID) для видеодекодера Windows Media представлен константой **CLSID \_ квмвдекмедиаобжект**. Вы можете создать экземпляр видеодекодера, вызвав **CoCreateInstance**.
+идентификатор класса (CLSID) для декодера Windows Media Video представлен константой **CLSID \_ квмвдекмедиаобжект**. Вы можете создать экземпляр видеодекодера, вызвав **CoCreateInstance**.
 
 ## <a name="interfaces"></a>Интерфейсы
 
-Объект видеодекодера предоставляет интерфейс [**имедиаобжект**](/previous-versions/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject) , чтобы объект можно было использовать в качестве объекта мультимедиа DirectX (DMO), и он предоставляет интерфейс [**имфтрансформ**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) , чтобы объект можно было использовать в качестве Media Foundation преобразования (MFT).
+объект видеодекодера предоставляет интерфейс [**имедиаобжект**](/previous-versions/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject) , чтобы объект можно было использовать в качестве объекта мультимедиа DirectX (DMO), и он предоставляет интерфейс [**имфтрансформ**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) , чтобы объект можно было использовать как преобразование Media Foundation (MFT).
 
-Видеодекодер ведет себя как DMO или файл MFT в зависимости от того, какие интерфейсы вы получаете и какая версия Windows выполняется. В следующей таблице показаны условия, при которых декодер видео ведет себя как DMO или MFT.
+видеодекодер ведет себя как DMO или файл MFT в зависимости от того, какие интерфейсы вы получаете и какая версия Windows выполняется. в следующей таблице показаны условия, при которых декодер видео ведет себя в виде DMO или MFT.
 
 
 
 | Операционная система            | Поведение декодера                                                                                                                                                      |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Windows XP                  | Видеодекодер Windows Media всегда ведет себя как DMO.                                                                                                                |
-| Windows Vista и Windows 7 | По умолчанию видеодекодер Windows Media ведет себя как DMO. Если вы получаете интерфейс [**имфтрансформ**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) для видеодекодера, он ведет себя как файл MFT. |
+| Windows XP                  | декодер видео Windows Media всегда ведет себя как DMO.                                                                                                                |
+| Windows Vista и Windows 7 | по умолчанию видеодекодер Windows мультимедиа ведет себя как DMO. Если вы получаете интерфейс [**имфтрансформ**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) для видеодекодера, он ведет себя как файл MFT. |
 
 
 
  
 
-Начиная с Windows 7, декодер видео Windows Media реализует интерфейс [**идмокуалитиконтрол**](/previous-versions/windows/desktop/api/mediaobj/nn-mediaobj-idmoqualitycontrol) .
+начиная с Windows 7, декодер видео с Windows Media реализует интерфейс [**идмокуалитиконтрол**](/previous-versions/windows/desktop/api/mediaobj/nn-mediaobj-idmoqualitycontrol) .
 
 ## <a name="input-formats"></a>Форматы входных данных
 
-В следующей таблице показаны 4-символьные коды (Фаурккс), соответствующие категориям закодированных входных данных, поддерживаемых декодером Windows Media Video.
+в следующей таблице показаны коды из четырех символов (фаурккс), соответствующие категориям закодированных входных данных, которые поддерживаются декодером Windows Media Video.
 
 
 
 | Категория                               | FOURCC                                   |
 |----------------------------------------|------------------------------------------|
-| Простой профиль Windows Media Video 9   | "WMV3"                                   |
-| Основной профиль Windows Media Video 9     | "WMV3"                                   |
-| Расширенный профиль Windows Media Video 9 | "WVC1"                                   |
-| Изображение Windows Media Video 9,1          | "ВМВП" для 9,1, "WVP2" для 9,1 версии 2 |
+| Windows Простой профиль Media Video 9   | "WMV3"                                   |
+| Windows Основной профиль Media Video 9     | "WMV3"                                   |
+| Windows Расширенный профиль Media Video 9 | "WVC1"                                   |
+| Windows Изображение Media Video 9,1          | "ВМВП" для 9,1, "WVP2" для 9,1 версии 2 |
 
 
 
@@ -62,7 +62,7 @@ ms.locfileid: "105718023"
 
 ## <a name="output-formats"></a>Форматы выходных данных
 
-Декодер видео Windows Media поддерживает следующие подтипы выходных данных, когда он выступает в роли DMO.
+декодер видео Windows media поддерживает следующие подтипы выходных данных, когда он выступает в качестве DMO.
 
 -   МЕДИАСУБТИПЕ \_ NV12
 -   МЕДИАСУБТИПЕ \_ YV12
@@ -76,7 +76,7 @@ ms.locfileid: "105718023"
 -   МЕДИАСУБТИПЕ \_ RGB555
 -   МЕДИАСУБТИПЕ \_ RGB8
 
-Декодер видео Windows Media поддерживает следующие подтипы выходных данных, когда он выступает в качестве MFT.
+декодер видео Windows media поддерживает следующие подтипы выходных данных, когда он выступает в качестве MFT.
 
 -   Мфвидеоформат \_ NV12
 -   Мфвидеоформат \_ YV12
@@ -92,7 +92,7 @@ ms.locfileid: "105718023"
 
 ## <a name="properties"></a>Свойства
 
-Декодер видео Windows Media поддерживает следующие свойства.
+декодер видео Windows Media поддерживает следующие свойства.
 
 
 
@@ -110,14 +110,14 @@ ms.locfileid: "105718023"
 <tbody>
 <tr class="odd">
 <td><a href="mfpkey-decoder-deinterlacingproperty.md">MFPKEY_DECODER_DEINTERLACING</a></td>
-<td>Указывает, будет ли кодек декодировать чередующиеся видеокадры из сжатого потока в виде прогрессивных кадров.<br/> <dl> Windows XP и более поздние версии.<br />
+<td>Указывает, будет ли кодек декодировать чередующиеся видеокадры из сжатого потока в виде прогрессивных кадров.<br/> <dl> Windows XP и более поздних версий.<br />
 Простой профиль, основной профиль, расширенный профиль.<br />
 Read/write.<br />
 </dl></td>
 </tr>
 <tr class="even">
 <td><a href="mfpkey-dxva-enabledproperty.md">MFPKEY_DXVA_ENABLED</a></td>
-<td>Указывает, будет ли декодер использовать аппаратное ускорение DirectX Video, если оно доступно.<br/> <dl> Windows XP и более поздние версии.<br />
+<td>Указывает, будет ли декодер использовать аппаратное ускорение DirectX Video, если оно доступно.<br/> <dl> Windows XP и более поздних версий.<br />
 Простой профиль, основной профиль, расширенный профиль.<br />
 Доступный только на запись.<br />
 </dl></td>
@@ -131,28 +131,28 @@ Read/write.<br />
 </tr>
 <tr class="even">
 <td><a href="mfpkey-fi-enabledproperty.md">MFPKEY_FI_ENABLED</a></td>
-<td>Указывает, следует ли декодеру использовать интерполяцию кадров.<br/> <dl> Windows XP и более поздние версии.<br />
+<td>Указывает, следует ли декодеру использовать интерполяцию кадров.<br/> <dl> Windows XP и более поздних версий.<br />
 Простой профиль, основной профиль, расширенный профиль, изображение.<br />
 Доступный только на запись.<br />
 </dl></td>
 </tr>
 <tr class="odd">
 <td><a href="mfpkey-fi-supportedproperty.md">MFPKEY_FI_SUPPORTED</a></td>
-<td>Указывает, поддерживает ли декодер интерполяцию кадров.<br/> <dl> Windows XP и более поздние версии.<br />
+<td>Указывает, поддерживает ли декодер интерполяцию кадров.<br/> <dl> Windows XP и более поздних версий.<br />
 Простой профиль, основной профиль, расширенный профиль, изображение<br />
 Только для чтения.<br />
 </dl></td>
 </tr>
 <tr class="even">
 <td><a href="mfpkey-numthreadsdecproperty.md">MFPKEY_NUMTHREADSDEC</a></td>
-<td>Указывает число потоков, которые будет использовать декодер.<br/> <dl> Windows Vista и более поздние версии.<br />
+<td>Указывает число потоков, которые будет использовать декодер.<br/> <dl> Windows Vista и более поздних версий.<br />
 Простой профиль, основной профиль, расширенный профиль, изображение.<br />
 Read/write.<br />
 </dl></td>
 </tr>
 <tr class="odd">
 <td><a href="mfpkey-postprocessmodeproperty.md">MFPKEY_POSTPROCESSMODE</a></td>
-<td>Задает режим обработки, выполняемый для декодера.<br/> <dl> Windows Vista и более поздние версии.<br />
+<td>Задает режим обработки, выполняемый для декодера.<br/> <dl> Windows Vista и более поздних версий.<br />
 Простой профиль, основной профиль, расширенный профиль, изображение.<br />
 Доступный только на запись.<br />
 </dl></td>
@@ -161,7 +161,7 @@ Read/write.<br />
 <td><strong>g_wszWMVCNeedsDrain</strong></td>
 <td>Указывает, следует ли сливировать декодер.<br/> <dl> Windows 8<br />
 Только для чтения.<br />
-</dl> Это свойство используется средой выполнения формата Windows Media. Тип свойства — <strong>VARIANT_BOOL</strong>. Если значение равно <strong>VARIANT_TRUE</strong>, декодер должен быть остановлен после небесперебойности. Дополнительные сведения о стоке MFT см. в разделе <a href="basic-mft-processing-model.md">Базовая модель обработки MFT</a>.<br/>
+</dl> это свойство используется средой выполнения Windows Media Format. Тип свойства — <strong>VARIANT_BOOL</strong>. Если значение равно <strong>VARIANT_TRUE</strong>, декодер должен быть остановлен после небесперебойности. Дополнительные сведения о стоке MFT см. в разделе <a href="basic-mft-processing-model.md">Базовая модель обработки MFT</a>.<br/>
 <blockquote>
 [!Note]<br />
 Чтобы запросить это свойство, используйте интерфейс <a href="/windows/desktop/com/ipropertybag-and-ipersistpropertybag"><strong>ипропертибаг</strong></a> .
@@ -175,9 +175,9 @@ Read/write.<br />
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Максимально допустимое разрешение декодера Windows Media Video 9 — 4096x4096.
+максимальное разрешение, разрешенное декодером Windows Media Video 9, — 4096x4096.
 
 ## <a name="requirements"></a>Требования
 
@@ -191,7 +191,7 @@ Read/write.<br />
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 <dl> <dt>
 

@@ -3,7 +3,7 @@ title: EDITBOX. Border
 description: Атрибут border указывает или получает значение, указывающее, имеет ли элемент управления "поле ввода" границу. Можно задать только во время разработки.
 ms.assetid: c2de5f45-af49-4780-8fda-2593a46669f5
 keywords:
-- EDITBOX. Border окна проигрывателя Windows Media
+- EDITBOX. border проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ae6d36c9077665a95512bc5374a35275e690f903
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8cbd1c1ad8d2e75e886252147f4675bfa9ff901fe042a3b49a28a2a96ab2955a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118340045"
 ---
 # <a name="editboxborder"></a>EDITBOX. Border
 
@@ -31,17 +31,17 @@ ms.locfileid: "105698740"
 
 Этот атрибут является **логическим** , заданным во время разработки, и затем доступен только для чтения. Он имеет значение по умолчанию true.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Граница отображается в виде утопленной границы в пределах двух пикселей вокруг элемента управления "поле ввода" с системными цветами.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
 
 
 

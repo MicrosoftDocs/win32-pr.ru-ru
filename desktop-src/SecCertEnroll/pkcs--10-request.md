@@ -4,12 +4,12 @@ ms.assetid: a71cd259-e5b0-42ee-a26c-fd949386ff9d
 title: '\#Запрос PKCS 10'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86fafe438da6be82adf2c4669bce4838015beb6e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 931d8483391864cb2a47b527b71a2e392fcc1dd72eceea88de1f5112ccf09f5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684582"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117774643"
 ---
 # <a name="pkcs-10-request"></a>\#Запрос PKCS 10
 
@@ -175,7 +175,7 @@ Key Id Hash(sha1): ef b9 b3 ba 8d 71 e8 0a a1 c3 54 14 51 5b 73 45 e9 ea 59 a7
 CertUtil: -dump command completed successfully.
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

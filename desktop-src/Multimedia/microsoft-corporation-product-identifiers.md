@@ -3,18 +3,18 @@ title: Идентификаторы продуктов корпорации Ма
 description: Идентификаторы продуктов корпорации Майкрософт
 ms.assetid: ef5403ea-1aaf-4791-865a-49d9feb44a4f
 keywords:
-- Мультимедиа Windows, идентификаторы продуктов
+- Windows мультимедиа, идентификаторы продуктов
 - мультимедиа, идентификаторы продуктов
 - идентификаторы продуктов
 - мультимедийные идентификаторы продуктов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3bfd9c777281a07ebd25b6b0df3f0f4336ea638
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b0edba7b1c7cfb0716726ac15c4cf0154b7fe6d08d31667c1296f8fadcaefd48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117802834"
 ---
 # <a name="microsoft-corporation-product-identifiers"></a>Идентификаторы продуктов корпорации Майкрософт
 
@@ -31,18 +31,18 @@ ms.locfileid: "104410908"
 | Порт ввода MIDI, совместимый с MPU 401       | MM \_ MPU401 \_ MIDI                  |
 | Порт вывода MIDI, совместимый с MPU 401      | MM \_ MPU401 \_ MIDI                 |
 | Кодек MS ADPCM                           | MM \_ MSFT \_ ACM \_ MSADPCM              |
-| Стерео FM-синтезатор на звуковой плате MS     | MM \_ MSFT \_ WSS \_ фмсинс \_ стерео      |
-| Дополнительный порт звуковой платы MS                  | MM, \_ дополнительный для MSFT \_ WSS \_                  |
-| Драйвер микшера звуковой доски MS              | ММ \_ . \_ микшера WSS для MSFT \_                |
-| Ввод аудиосигнала звуковой платы MS            | MM \_ MSFT \_ WSS, \_ волна               |
-| Выходные данные звуковой платы MS Audio           | MM \_ . \_ звуковая подсистема WSS для MSFT \_              |
+| Стерео FM-синтезатор на звуковой плате MS     | MM \_ MSFT \_ Windows SharePoint Services \_ фмсинс \_ стерео      |
+| Дополнительный порт звуковой платы MS                  | MM \_ MSFT \_ Windows SharePoint Services \_ AUX                  |
+| Драйвер микшера звуковой доски MS              | мм \_ \_ Windows SharePoint Services \_ микшера MSFT                |
+| Ввод аудиосигнала звуковой платы MS            | MM \_ MSFT \_ Windows SharePoint Services \_ wave               |
+| Выходные данные звуковой платы MS Audio           | MM \_ \_ Windows SharePoint Services. \_ звуковая MSFT              |
 | Диспетчер аудиосжатия MS             | MM \_ MSFT \_ MSACM                     |
 | Фильтр MS                                | MM \_ MSFT \_ ACM \_ MSFILTER             |
-| Звуковой дополнительный порт MS OEM                    | MM \_ MSFT \_ WSS \_ OEM \_ AUX             |
-| Драйвер микшера звуковой доски MS OEM          | MM \_ , \_ \_ OEM- \_ микшер для MSFT           |
-| Стерео FM-синтезатор звуковой платы MS OEM | MM \_ MSFT \_ WSS \_ OEM \_ фмсинс \_ стерео |
-| Входная звуковая плата MS OEM Audio        | MM \_ MSFT \_ WSS \_ OEM \_ Wave          |
-| Выходные данные волны звуковой платы MS OEM       | MM \_ MSFT \_ для \_ OEM \_ WSS         |
+| Звуковой дополнительный порт MS OEM                    | MM \_ MSFT \_ Windows SharePoint Services \_ OEM \_ AUX             |
+| Драйвер микшера звуковой доски MS OEM          | MM \_ MSFT \_ Windows SharePoint Services \_ OEM- \_ микшер           |
+| Стерео FM-синтезатор звуковой платы MS OEM | MM \_ MSFT \_ Windows SharePoint Services " \_ OEM \_ фмсинс \_ стерео" |
+| Входная звуковая плата MS OEM Audio        | MM \_ MSFT \_ Windows SharePoint Services \_ \_ wave OEM          |
+| Выходные данные волны звуковой платы MS OEM       | MM \_ MSFT \_ Windows SharePoint Services \_ OEM \_         |
 | Дополнительный драйвер MS обычный (CD)               | MM \_ MSFT \_ универсальный \_ дополнительный \_ компакт-диск          |
 | Дополнительный драйвер MS обычный (в строке)          | MM \_ MSFT, \_ Универсальная \_ \_ строка AUX        |
 | Дополнительный (MIC) драйвер MS обычный              | MM \_ MSFT \_ Generic \_ AUX \_ MIC         |
@@ -62,11 +62,11 @@ ms.locfileid: "104410908"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

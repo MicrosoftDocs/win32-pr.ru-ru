@@ -6,12 +6,12 @@ keywords:
 - ACF MIDL, атрибуты, преобразование типов и маршалирование
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14367be3df97cc1185fca64e46aafe1d342f3526
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 286de08a56aba5ffc7b73fc52791238a6af62b3f0545e95aedabcf79d5623464
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118382748"
 ---
 # <a name="type-conversion-and-marshaling-acf-attributes"></a>Type-Conversion и маршалирование атрибутов ACF
 
@@ -27,13 +27,13 @@ ms.locfileid: "103986723"
 
 
 
- 
+ 
 
 Атрибуты упаковки DCE [**в \_ строке**](in-line.md) и [**вне \_ \_ строки**](out-of-line.md) не реализуются в Microsoft RPC. Компилятор MIDL автоматически маршалирует сложные типы данных в автономном виде.
 
- 
+ 
 
- 
+ 
 
 
 

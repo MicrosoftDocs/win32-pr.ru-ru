@@ -4,12 +4,12 @@ ms.assetid: 1a9244e6-2773-435a-8569-806df3a0cd39
 title: Отображать значения по умолчанию для контекста устройства
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8abcf79339d4f1cc158253d46cc3eb02ec41311
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 366c4ecb861b64d2b69836832259e6820e0f8809e4aa478d074220d133ccec55
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103898426"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117887281"
 ---
 # <a name="display-device-context-defaults"></a>Отображать значения по умолчанию для контекста устройства
 

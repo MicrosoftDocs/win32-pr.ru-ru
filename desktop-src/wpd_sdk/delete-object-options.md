@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 3a1fb8ce9a443c7cc93019804094dca84a635c40
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 018c47a383a4fcd95d25bd13b00628678c6fa4a71e608f82544429020ea3f2c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118194885"
 ---
 # <a name="delete_object_options-enumeration"></a>\_ \_ Перечисление параметров удаления объекта
 
@@ -54,17 +54,17 @@ typedef enum DELETE_OBJECT_OPTIONS {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение может получить параметры удаления, которые поддерживает устройство, вызвав [**ипортабледевицекапабилитиес:: жеткоммандоптионс**](/windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecapabilities-getcommandoptions) для команды **WPD \_ команда \_ \_ \_ DELETE \_ Objects** . Он должен проверить значение параметра типа WPD, которое **\_ \_ \_ \_ \_ \_ поддерживает рекурсивное удаление** , которое этот метод возвращает в объекте [**ипортабледевицевалуесколлектион**](iportabledevicevaluescollection.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Портабледевице. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Портабледевице. h</dt> </dl> |
 
 
 

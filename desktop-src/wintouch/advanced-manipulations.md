@@ -3,19 +3,19 @@ title: Расширенные манипуляции
 description: Просмотр целевой страницы для расширенных манипуляций с приложениями. См. ссылки на страницы обзор, расширение, вращение и перевод.
 ms.assetid: 8a1cff27-b2c0-4e72-9f4c-df656059953f
 keywords:
-- Касание Windows, манипуляции
-- Касание Windows, расширенные манипуляции
-- Касание Windows, сложные манипуляции
+- Windows Сенсорный ввод, манипуляции
+- Windows Сенсорный ввод, расширенные манипуляции
+- Windows Сенсорный ввод, сложные манипуляции
 - манипуляции, дополнительно
 - манипуляции, сложные
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48c059ad30a338fe5d413ff6c7e6e7f2e9383dc9
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 2489e86247287331880d338ff1ddf9383656be07bf3834dfc23ef68e38c63ae8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406327"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118199647"
 ---
 # <a name="advanced-manipulations"></a>Расширенные манипуляции
 

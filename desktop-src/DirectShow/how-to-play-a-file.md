@@ -4,24 +4,24 @@ ms.assetid: 3d8c5d06-8690-4298-a1d1-f21af35bcfd4
 title: Воспроизведение файла
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc84ef751db318354da36454e6a30fd2ce4bd8e7
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b7d20a021ec5053746c279598d08117c6b25a5fe6a52946fed56f19eda3cafe1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104423085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118401152"
 ---
 # <a name="how-to-play-a-file"></a>Воспроизведение файла
 
-Эта статья призвана предоставить вам версию программирования DirectShow. Он представляет простое консольное приложение, которое воспроизводит аудио-или видеофайл. Программа состоит всего из нескольких строк, но она демонстрирует некоторые возможности программирования DirectShow.
+эта статья предназначена для того, чтобы предоставить вам версию DirectShowного программирования. Он представляет простое консольное приложение, которое воспроизводит аудио-или видеофайл. программа состоит всего из нескольких строк, но она демонстрирует некоторые возможности DirectShow программирования.
 
-Как описано в статье [Введение в программирование приложений DirectShow](introduction-to-directshow-application-programming.md) , приложение DirectShow всегда выполняет те же основные действия:
+как описано в статье [DirectShow программировании приложений](introduction-to-directshow-application-programming.md) , DirectShow приложение всегда выполняет те же основные шаги:
 
-1.  Создайте экземпляр [диспетчера графа фильтров](filter-graph-manager.md).
-2.  Используйте диспетчер графа фильтров для создания графа фильтра.
+1.  создайте экземпляр [фильтра Graph Manager](filter-graph-manager.md).
+2.  используйте фильтр Graph Manager для создания графа фильтра.
 3.  Запустите граф, что приведет к перемещению данных по фильтрам.
 
-Чтобы скомпилировать и связать код в этом разделе, включите заголовочный файл DShow. h и укажите ссылку на файл статической библиотеки стрмиидс. lib. Дополнительные сведения см. в разделе [Создание приложений DirectShow](setting-up-the-build-environment.md).
+Чтобы скомпилировать и связать код в этом разделе, включите заголовочный файл DShow. h и укажите ссылку на файл статической библиотеки стрмиидс. lib. дополнительные сведения см. в разделе [создание DirectShow приложений](setting-up-the-build-environment.md).
 
 Начните [**с вызова CoInitialize**](/windows/desktop/api/objbase/nf-objbase-coinitialize) или [**CoInitializeEx**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex) для инициализации библиотеки COM:
 
@@ -38,7 +38,7 @@ if (FAILED(hr))
 
 Для простоты в этом примере игнорируется возвращаемое значение, но всегда следует проверять значение **HRESULT** из любого вызова метода.
 
-Затем вызовите [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) для создания диспетчера графа фильтров:
+затем вызовите [**cocreateinstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) для создания фильтра Graph Manager:
 
 
 ```C++
@@ -49,14 +49,14 @@ HRESULT hr = CoCreateInstance(CLSID_FilterGraph, NULL,
 
 
 
-Как показано, идентификатором класса является CLSID \_ филтерграф. Диспетчер графов фильтров предоставляется внутри внутрипроцессного DLL, поэтому контекст выполнения — **КЛСКТКС \_ INPROC \_ Server**. DirectShow поддерживает модель свободной потоковой модели, поэтому можно также вызвать [**CoInitializeEx**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex) с флагом **\_ многопотоковой инициализации** .
+Как показано, идентификатором класса является CLSID \_ филтерграф. диспетчер Graph Manager предоставляется внутри внутрипроцессного DLL, поэтому контекст выполнения — **клскткс \_ inproc \_ SERVER**. DirectShow поддерживает модель с произвольным потоком, поэтому можно также вызвать [**CoInitializeEx**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex) с флагом **\_ многопотоковой инициализации** .
 
 Вызов [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) возвращает интерфейс [**играфбуилдер**](/windows/desktop/api/Strmif/nn-strmif-igraphbuilder) , который в основном содержит методы для построения графа фильтра. Для этого примера необходимы два других интерфейса:
 
 -   [**Имедиаконтрол**](/windows/desktop/api/Control/nn-control-imediacontrol) управляет потоковой передачей. Он содержит методы для остановки и запуска графа.
--   [**Имедиаевент**](/windows/desktop/api/Control/nn-control-imediaevent) имеет методы для получения событий из диспетчера графа фильтров. В этом примере интерфейс используется для ожидания завершения воспроизведения.
+-   [**имедиаевент**](/windows/desktop/api/Control/nn-control-imediaevent) имеет методы для получения событий из фильтра Graph Manager. В этом примере интерфейс используется для ожидания завершения воспроизведения.
 
-Оба этих интерфейса предоставляются диспетчером графа фильтров. Используйте возвращенный указатель [**играфбуилдер**](/windows/desktop/api/Strmif/nn-strmif-igraphbuilder) для запроса этих запросов:
+оба этих интерфейса предоставляются фильтром Graph Manager. Используйте возвращенный указатель [**играфбуилдер**](/windows/desktop/api/Strmif/nn-strmif-igraphbuilder) для запроса этих запросов:
 
 
 ```C++
@@ -170,11 +170,11 @@ void main(void)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Основные задачи DirectShow](basic-directshow-tasks.md)
+[основные задачи DirectShow](basic-directshow-tasks.md)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ ms.assetid: 62fb3f0f-ab1f-4c61-8e7f-62908b947788
 title: Атрибут MF_TOPOLOGY_STATIC_PLAYBACK_OPTIMIZATIONS (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e6f9f7d884c49078ca02571f8ba141f9a1e13589
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f01b22e5b7e972e9d1eb453f317e8db6a902e994e83d075cd791d9261aa6ed09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117691246"
 ---
 # <a name="mf_topology_static_playback_optimizations-attribute"></a>\_ \_ \_ Атрибут статической оптимизации воспроизведения \_ топологии MF
 
@@ -29,7 +29,7 @@ ms.locfileid: "105703078"
 
 [**имфтопологи**](/windows/desktop/api/mfidl/nn-mfidl-imftopology)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Установите этот атрибут перед загрузкой топологии. Если атрибут имеет **значение true**, загрузчик топологии пытается оптимизировать конвейер перед началом воспроизведения.
 
@@ -99,14 +99,14 @@ done:
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                         |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                            |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                         |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                            |
 | Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 

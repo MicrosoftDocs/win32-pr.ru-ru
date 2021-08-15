@@ -3,7 +3,7 @@ title: EDITBOX. Едитстиле
 description: Атрибут Едитстиле указывает или получает стиль элемента управления "поле ввода".
 ms.assetid: 1b3052c4-3087-4d41-af03-d7758680cc3b
 keywords:
-- Едитстиле Windows Media Player
+- EDITBOX. едитстиле проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 229f225dfca0ec00dd4f45a4eb63f6b2503d5df1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c4d40d1933c68c4e34707f01a4d425045c773297e8567ba8ea13a88c6fbc57c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105695213"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117749465"
 ---
 # <a name="editboxeditstyle"></a>EDITBOX. Едитстиле
 
@@ -46,17 +46,17 @@ ms.locfileid: "105695213"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для этого атрибута можно задать только значение "пароль" или "Многострочный" во время разработки. Если для него задано значение "Многострочный", то во время выполнения его нельзя изменить.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
 
 
 

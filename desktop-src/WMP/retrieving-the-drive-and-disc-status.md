@@ -3,23 +3,23 @@ title: Получение состояния диска и диска
 description: Получение состояния диска и диска
 ms.assetid: 5e3e6107-d2bc-450c-a86e-5d3ef7b3092a
 keywords:
-- Проигрыватель Windows Media, запись компакт-дисков
-- Объектная модель проигрывателя Windows Media, запись компакт-дисков
+- проигрыватель Windows Media, запись компакт-дисков
+- проигрыватель Windows Media объектной модели, запись компакт-диска
 - Объектная модель, запись компакт-диска
-- Элемент управления ActiveX проигрывателя Windows Media, запись компакт-дисков
-- Элемент управления ActiveX, запись компакт-дисков
-- Мобильный элемент управления ActiveX проигрывателя Windows Media, запись компакт-дисков
-- Проигрыватель Windows Media Mobile, запись компакт-дисков
+- проигрыватель Windows Media ActiveX управления, запись компакт-дисков
+- ActiveX управления, запись компакт-дисков
+- проигрыватель Windows Media мобильный ActiveX элемент управления, запись компакт-дисков
+- проигрыватель Windows Media Мобильные устройства, запись компакт-дисков
 - Запись компакт-дисков, получение состояния диска и диска
 - запись компакт-дисков, получение состояния диска и диска
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3eab66581c336f642fd53b22f81949847d0a1c89
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 664315972158b4cf68e7f766f98be095a27d7fa8496f983305cc6baaafe784d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103890259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117746276"
 ---
 # <a name="retrieving-the-drive-and-disc-status"></a>Получение состояния диска и диска
 
@@ -48,7 +48,7 @@ if (SUCCEEDED(hr))
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -67,9 +67,9 @@ if (SUCCEEDED(hr))
 [**Получение состояния записи**](retrieving-the-burn-status.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

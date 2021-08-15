@@ -3,12 +3,12 @@
   items:
     - name: Юридическая информация
       href: '-wia-legal-information.md'
-    - name: 'Вопросы безопасности: получение образа Windows'
+    - name: 'вопросы безопасности: получение образа Windows'
       href: '-wia-security-considerations.md'
     - name: Справочник
       href: '-wia-reference.md'
       items:
-        - name: 'Новые возможности в приобретении образов Windows (WIA) 2,0'
+        - name: 'новые возможности Windows получения образа (WIA) 2,0'
           href: '-wia-whatsnew-longhorn.md'
         - name: Интерфейс прикладного программирования WIA
           href: '-wia-wia-application-programming-interface.md'
@@ -243,7 +243,7 @@
                       href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-devicecommand
                     - name: девицедлг
                       href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-devicedlg
-                    - name: диагностическая;
+                    - name: Диагностика
                       href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-diagnostic
                     - name: думпдрвитемдата
                       href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-dumpdrvitemdata
@@ -276,7 +276,7 @@
                       href: '-wia-iwiaitem2-devicecommand.md'
                     - name: девицедлг
                       href: '-wia-iwiaitem2-devicedlg.md'
-                    - name: диагностическая;
+                    - name: Диагностика
                       href: '-wia-iwiaitem2-diagnostic.md'
                     - name: енумчилдитемс
                       href: '-wia-iwiaitem2-enumchilditems.md'
@@ -314,7 +314,7 @@
                       href: /windows/desktop/api/wia_xp/nf-wia_xp-iwialog-hresult
                     - name: инитиализелог
                       href: /windows/desktop/api/wia_xp/nf-wia_xp-iwialog-initializelog
-                    - name: Журнал
+                    - name: Log
                       href: /windows/desktop/api/wia_xp/nf-wia_xp-iwialog-log
                 - name: ивиаложекс
                   href: /windows/desktop/api/wia_xp/nn-wia_xp-iwialogex
@@ -325,7 +325,7 @@
                       href: /windows/desktop/api/wia_xp/nf-wia_xp-iwialogex-hresultex
                     - name: инитиализеложекс
                       href: /windows/desktop/api/wia_xp/nf-wia_xp-iwialogex-initializelogex
-                    - name: Журнал
+                    - name: Log
                       href: /windows/desktop/api/wia_xp/nf-wia_xp-iwialogex-log
                     - name: ложекс
                       href: /windows/desktop/api/wia_xp/nf-wia_xp-iwialogex-logex
@@ -366,7 +366,7 @@
                   items:
                     - name: Отменить
                       href: '-wia-iwiatransfer-cancel.md'
-                    - name: Скачивание
+                    - name: Загрузка
                       href: '-wia-iwiatransfer-download.md'
                     - name: EnumWIA_FORMAT_INFO
                       href: '-wia-iwiatransfer-enumwia-format-info.md'
@@ -523,7 +523,7 @@
             - name: DeviceInfo
               href: '-wia-deviceinfo.md'
               items:
-                - name: Создать
+                - name: Создание
                   href: '-wia-iwiadeviceinfo-create.md'
                 - name: жетпропбид
                   href: '-wia-iwiadeviceinfo-getpropbyid.md'
@@ -572,7 +572,7 @@
                   href: '-wia-iwiadispatchitem-thumbnail.md'
                 - name: сумбвидс
                   href: '-wia-iwiadispatchitem-thumbwidth.md'
-                - name: Время
+                - name: Time
                   href: '-wia-iwiadispatchitem-time.md'
                 - name: Перенос
                   href: '-wia-iwiadispatchitem-transfer.md'
@@ -581,14 +581,14 @@
             - name: сафевиа
               href: '-wia-safewia.md'
               items:
-                - name: Создать
+                - name: Создание
                   href: '-wia-iwia-create.md'
                 - name: Устройства
                   href: '-wia-iwia-devices.md'
             - name: Одно
               href: '-wia-wia.md'
               items:
-                - name: Создать
+                - name: Создание
                   href: '-wia-iwia-create.md'
                 - name: Устройства
                   href: '-wia-iwia-devices.md'
@@ -601,7 +601,7 @@
     - name: Обзоры и учебники
       href: bumper-wia-overviews-and-tutorials.md
       items:
-        - name: О приобретении образа Windows
+        - name: сведения о получении образа Windows
           href: '-wia-about-windows-image-acquisition.md'
           items:
             - name: Архитектура WIA
@@ -616,7 +616,7 @@
               href: '-wia-wia-minidriver-service-library.md'
             - name: WIA Минидривер
               href: '-wia-wia-minidriver.md'
-        - name: Использование получения образа Windows
+        - name: использование Windows получения образа
           href: '-wia-using-windows-image-acquisition.md'
           items:
             - name: Использование объектов устройств WIA

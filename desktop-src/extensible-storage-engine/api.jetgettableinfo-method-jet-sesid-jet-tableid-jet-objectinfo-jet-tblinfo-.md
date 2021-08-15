@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: fbc95c771e2610ec23bdf503cdefa0399ee219ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3ea16557d07de673852d5fd64cbd4636df5464378e2ce8175ee5dc34422d1479
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711337"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118272290"
 ---
 # <a name="apijetgettableinfo-method-jet_sesid-jet_tableid-jet_objectinfo-jet_tblinfo"></a>Метод API. Жетжеттаблеинфо (JET_SESID, JET_TABLEID, JET_OBJECTINFO, JET_TblInfo)
 
@@ -89,7 +89,7 @@ public static void JetGetTableInfo(
     
     Тип извлекаемых данных.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта перегрузка используется со [значением по умолчанию](./jet-tblinfo-enumeration.md).
 

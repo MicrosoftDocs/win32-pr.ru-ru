@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - mfidl.h
-ms.openlocfilehash: 604fee61ae4b6a34d876de8c2863ee6dddad73d0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 885c3e9c34fa787a6877fd37eef81f470be395225594b90b2f5516a8e773eb88
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692538"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118244142"
 ---
 # <a name="mf_video_processor_algorithm_type-enumeration"></a>\_ \_ \_ Перечисление типов алгоритмов ВИДЕОпроцессора MF \_
 
@@ -60,13 +60,13 @@ typedef enum _MF_VIDEO_PROCESSOR_ALGORITHM_TYPE {
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только Windows 8.1 Классические приложения\]<br/>                                         |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2012 R2 \[\]<br/>                              |
+| Минимальная версия клиента<br/> | Windows 8.1 \[ только классические приложения\]<br/>                                         |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[Только классические приложения R2\]<br/>                              |
 | IDL<br/>                      | <dl> <dt>Мфидл. idl</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 <dl> <dt>
 

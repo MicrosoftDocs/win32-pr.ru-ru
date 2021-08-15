@@ -4,12 +4,12 @@ ms.assetid: ac6ea7a1-238e-42ae-9f10-e1db60381357
 title: EC_WMT_EVENT (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a8ce974cd83a404242fb51486f0889ac9b79e044
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ad2ae2659c26d170bef14a76c0528eb5159e92ef3598fb999215e1fbd848ea90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117819927"
 ---
 # <a name="ec_wmt_event-dshowh"></a>EC_WMT_EVENT (DShow. h)
 
@@ -49,7 +49,7 @@ ms.locfileid: "105651665"
 
 | lParam1                       | \_ВМТ \_ события \_ Data. pdata                                                                                                                       |
 |-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| ВМТ \_ получить \_ лицензию         | Указатель на структуру [**\_ \_ \_ данных лицензии WM Get**](/windows/desktop/wmformat/wm-get-license-data) . Эта структура описана в пакете SDK для формата Windows Media. |
+| ВМТ \_ получить \_ лицензию         | Указатель на структуру [**\_ \_ \_ данных лицензии WM Get**](/windows/desktop/wmformat/wm-get-license-data) . эта структура описана в пакете SDK для Windows Media Format. |
 | ВМТ \_ индивидуализируйте            | Указатель на структуру [**\_ \_ состояния WM индивидуализируйте**](/windows/desktop/wmformat/wm-individualize-status) .                                                        |
 | ВМТ \_ нуждается в \_ индивидуализации | **Значение NULL**.                                                                                                                                        |
 | ВМТ \_ без \_ прав               | Указатель на строку расширенных символов, содержащую URL-адрес запроса.                                                                                   |
@@ -63,17 +63,17 @@ ms.locfileid: "105651665"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Дополнительные сведения о включении воспроизведения файлов, защищенных с помощью DRM, см. в документации пакета Windows Media Format SDK.
+дополнительные сведения о включении воспроизведения файлов, защищенных с помощью DRM, см. в документации по пакету SDK для Windows Media Format.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>DShow. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>DShow. h</dt> </dl> |
 
 
 

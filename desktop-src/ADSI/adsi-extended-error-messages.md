@@ -7,12 +7,12 @@ keywords:
 - Расширенные сообщения об ошибках ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab374f18892c0ff336ef588dce477db60405ab19
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1a2bf4c7faef20feeb868fdcbb0e36d7f1ad5d0b9c68cc8879d5019e81e186a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118180878"
 ---
 # <a name="adsi-extended-error-messages"></a>Расширенные сообщения об ошибках ADSI
 
@@ -27,9 +27,9 @@ ms.locfileid: "104067341"
 
 Вызовите [**адсжетластеррор**](/windows/desktop/api/Adshlp/nf-adshlp-adsgetlasterror) для получения таких расширенных сообщений об ошибках. Первым параметром этой функции, *лперрор*, является значение **DWORD** . Для сервера Active Directory ADSI пытается сопоставить сообщение об ошибке LDAP с соответствующим кодом ошибки Win32 и присваивает *лперрор* значение кода ошибки Win32. Если не удается разрешить сопоставление, ADSI присваивает **ошибке \_ недопустимые \_ данные** *лперрор*, как и для любого другого сервера каталога. Во всех случаях ADSI точно передает строку описания ошибки с сервера клиенту через *лперрорбуф*, второй параметр функции **адсжетластеррор** .
 
- 
+ 
 
- 
+ 
 
 
 

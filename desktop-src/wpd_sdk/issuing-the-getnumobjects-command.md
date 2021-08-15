@@ -4,12 +4,12 @@ ms.assetid: d06690e4-f592-4b17-a5f1-baec2accc8dd
 title: Выдача команды Жетнумобжектс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd68e571b6d7003262709050d442c64a4d2461fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e3ece98e409ab4ee2774c4efdba0c84c06c60e373b5ed15aee77f5dee65d9101
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118194014"
 ---
 # <a name="issuing-the-getnumobjects-command"></a>Выдача команды Жетнумобжектс
 
@@ -183,7 +183,7 @@ HRESULT SendGetNumObjects(IPortableDevice* pDevice)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

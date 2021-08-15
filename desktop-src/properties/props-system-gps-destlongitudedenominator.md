@@ -4,12 +4,12 @@ ms.assetid: 5800ba24-0efc-4a9a-9cb7-d776822a44a2
 title: System. GPS. Дестлонгитудеденоминатор
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1cdb94292eec3c948ecddb82ee23cffa780b03d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0db888454a8039960768fa4f8e7aeaa93b64e98e787213f41a6842b023d613c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104546154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117866397"
 ---
 # <a name="systemgpsdestlongitudedenominator"></a>System. GPS. Дестлонгитудеденоминатор
 
@@ -30,11 +30,11 @@ propertyDescription
       type = Multivalue UInt32
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

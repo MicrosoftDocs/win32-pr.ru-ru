@@ -9,12 +9,12 @@ keywords:
 - Active Directory, Active Directory оптимизации поиска
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6607b9a50ef0ec367bea95f82afd89aa39fbf5b1
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 5b9d15bad8de15e4f559123d2d3cb3b6b9ec6446328e6ed4c4c52cf18355d634
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103789516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118188037"
 ---
 # <a name="how-tuple-indexing-works"></a>Как работает индексирование кортежей
 
@@ -44,12 +44,12 @@ ms.locfileid: "103789516"
 > [!Note]  
 > Каталог будет останавливаться на 32767 символов при расширении строки для индексирования кортежей.
 
- 
+ 
 
 Индекс кортежа будет содержать запись для каждого из этих кортежей. Таким образом, если пользователь выполняет поиск `*cto*` , Active Directory сервер будет искать все совпадения для "CTO" в индексе и, в данном случае, найти указатель обратно к записи с атрибутом (с индексом кортежа) со значением "Directory".
 
 Если строка поиска срединного ( `*cto*` в предыдущем примере) является достаточной, поиск будет выполняться достаточно эффективно, поскольку это значительно сокращает количество объектов, которые сервер Active Directory должен проверить для выполнения запроса.
 
- 
+ 
 
- 
+ 

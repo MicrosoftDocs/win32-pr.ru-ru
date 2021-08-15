@@ -15,16 +15,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 27855eeb3417eede371357528457248857c3e626
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 682bc8d8c4938544c85d22658b1ea175223a6e89d07416aa1fa3717285c67892
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891801"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118191897"
 ---
 # <a name="dsbackupfree-function"></a>Функция Дсбаккупфри
 
-\[Эта функция доступна для использования в операционных системах, указанных в разделе требования. В последующих версиях он может быть изменен или недоступен. Начиная с Windows Vista, вместо нее следует использовать [Служба теневого копирования томов (VSS)](../vss/volume-shadow-copy-service-overview.md) .\]
+\[Эта функция доступна для использования в операционных системах, указанных в разделе требования. В последующих версиях он может быть изменен или недоступен. начиная с Windows Vista используйте вместо этого [служба теневого копирования томов (VSS)](../vss/volume-shadow-copy-service-overview.md) .\]
 
 Функция **дсбаккупфри** освобождает память, выделенную функциями резервного копирования и восстановления домен Active Directory Services. Следующие функции выделяют память, которая должна быть освобождена с помощью функции **дсбаккупфри** .
 
@@ -59,7 +59,7 @@ VOID NTDSBCLI_API DsBackupFree(
 
 Эта функция не возвращает значение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

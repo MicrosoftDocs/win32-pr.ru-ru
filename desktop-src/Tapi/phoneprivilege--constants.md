@@ -4,12 +4,12 @@ ms.assetid: 1dc2fab9-b044-4ae3-8c16-fa450f9ef714
 title: Константы PHONEPRIVILEGE_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d6d04c074e03d6f0b7f7a6c58e4268e0bd5057a0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ae9b3f3848af8c9858522bd924ccb77d7bf1682f09b66c0cfdcb5527b93416dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117761296"
 ---
 # <a name="phoneprivilege_-constants"></a>\_Константы фонепривилеже
 
@@ -37,11 +37,11 @@ ms.locfileid: "105689530"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Без расширяемости. Все 32 бит зарезервированы.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

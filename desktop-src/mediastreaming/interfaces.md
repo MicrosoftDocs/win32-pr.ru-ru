@@ -4,12 +4,12 @@ description: API потоковой передачи мультимедиа пр
 ms.assetid: 1E25B452-D23C-4A1D-BC39-A5B719DF2C5D
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d6cdb1893af3170ae9ec5989498a007230992361
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: eb21c5c17502c887f78fa223ec2a2f8f814d3998bb75b81812eb4de9919f7342
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103988085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972193"
 ---
 # <a name="media-streaming-interfaces"></a>Интерфейсы потоковой передачи мультимедиа
 

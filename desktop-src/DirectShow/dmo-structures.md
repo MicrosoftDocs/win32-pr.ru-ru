@@ -1,27 +1,27 @@
 ---
-description: Структуры DMO
+description: DMO Сотрудник
 ms.assetid: 82c8ea74-1c5e-4370-9075-6db2ed6b2c91
-title: Структуры DMO
+title: DMO Сотрудник
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 46871c8202e6a150686a001b150fe06f645de59e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: cc36bbae0db5aacffa593a1f79545f549900ff9605c757fb76c612939ec4021d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103894818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117821068"
 ---
-# <a name="dmo-structures"></a>Структуры DMO
+# <a name="dmo-structures"></a>DMO Сотрудник
 
-В этом разделе описаны структуры объектов DirectX Media (DMO).
+в этом разделе описываются структуры объектов мультимедиа DirectX (DMO).
 
 
 
 | Структура                                                   | Описание                                                 |
 |-------------------------------------------------------------|-------------------------------------------------------------|
-| [**\_тип носителя \_ DMO**](/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type)                  | Описывает формат данных, используемых потоком в DMO. |
-| [**\_Буфер выходных \_ данных \_ DMO**](/previous-versions/windows/desktop/api/Mediaobj/ns-mediaobj-dmo_output_data_buffer) | Описывает выходной буфер, используемый DMO.                   |
-| [**\_частичный \_ MEDIATYPE для DMO**](/previous-versions/windows/desktop/api/Dmoreg/ns-dmoreg-dmo_partial_mediatype)    | Частично описывает тип мультимедиа, используемый DMO.             |
+| [**DMO \_ \_тип носителя**](/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type)                  | Описывает формат данных, используемых потоком в DMO. |
+| [**DMO \_ \_БУФЕР выходных данных \_**](/previous-versions/windows/desktop/api/Mediaobj/ns-mediaobj-dmo_output_data_buffer) | Описывает выходной буфер, используемый DMO.                   |
+| [**DMO \_ ЧАСТИЧный \_ MEDIATYPE**](/previous-versions/windows/desktop/api/Dmoreg/ns-dmoreg-dmo_partial_mediatype)    | Частично описывает тип носителя, используемый DMO.             |
 | [**\_сегмент конверта MP \_**](/previous-versions/windows/desktop/api/Medparam/ns-medparam-mp_envelope_segment)        | Определяет сегмент конверта, используемый параметром мультимедиа.      |
 | [**\_ПАРАМИНФО MP**](/previous-versions/windows/desktop/api/Medparam/ns-medparam-mp_paraminfo)                       | Содержит сведения о параметре мультимедиа.               |
 
@@ -29,11 +29,11 @@ ms.locfileid: "103894818"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Справочник по DMO](dmo-reference.md)
+[DMO IsReference](dmo-reference.md)
 </dt> </dl>
 
  
