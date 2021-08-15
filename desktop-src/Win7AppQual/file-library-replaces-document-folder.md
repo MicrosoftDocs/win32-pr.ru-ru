@@ -4,19 +4,19 @@ ms.assetid: 80b97bfc-4212-4401-a4a9-d96e2f39be60
 title: Библиотека файлов заменяет папку документа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 699c645d574012a419f77538bcc58d61a4938120
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f1e8d08b176ebf4b5801a73695ea03f60a38eeb5a1ca51e1d90d9119dae5fcaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088382"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118329674"
 ---
 # <a name="file-library-replaces-document-folder"></a>Библиотека файлов заменяет папку документа
 
 ## <a name="affected-platforms"></a>Затронутые платформы
 
-**Клиенты** — Windows 7  
-**Серверы** — Windows Server 2008 R2  
+**клиенты** — Windows 7  
+**серверы** — Windows Server 2008 R2  
 
 
 
@@ -67,7 +67,7 @@ ms.locfileid: "108088382"
 
 ## <a name="links-to-other-resources"></a>Ссылки на другие ресурсы
 
--   **Библиотеки Windows:**https://msdn.microsoft.com/library/dd758096(VS.85).aspx
+-   **Windows библиотеки:**https://msdn.microsoft.com/library/dd758096(VS.85).aspx
 -   **Синхронизация с библиотекой:**https://msdn.microsoft.com/library/dd758094(VS.85).aspx\#library\_keeping\_in\_sync
 
  

@@ -1,10 +1,10 @@
-- name: Платформа ленты Windows
+- name: Windows Платформа ленты
   href: '-uiplat-windowsribbon-entry.md'
   items:
     - name: Обзоры платформы ленты
       href: windowsribbon-overviews-entry.md
       items:
-        - name: Знакомство с платформой Windows Ribbon
+        - name: знакомство с платформой Windows Ribbon
           href: windowsribbon-introduction.md
         - name: Объявление команд и элементов управления с разметкой ленты
           href: windowsribbon-schema.md
@@ -13,7 +13,7 @@
       items:
         - name: Создание приложения для ленты
           href: windowsribbon-stepbystep.md
-        - name: Переход на платформу Windows Ribbon
+        - name: переход на платформу ленты Windows
           href: ribbon-migration.md
         - name: Основные сведения о командах и элементах управления
           href: windowsribbon-commandscontrols.md
@@ -60,7 +60,7 @@
           href: windowsribbon-controls-dropdowngallery.md
         - name: Элемент управления шрифтами
           href: windowsribbon-controls-fontcontrol.md
-        - name: Group
+        - name: Группа
           href: windowsribbon-controls-group.md
         - name: Кнопка "Справка"
           href: windowsribbon-controls-helpbutton.md
@@ -194,7 +194,7 @@
                       href: windowsribbon-element-dropdowngallery-menulayout.md
                 - name: фонтконтрол
                   href: windowsribbon-element-fontcontrol.md
-                - name: Group
+                - name: Группа
                   href: windowsribbon-element-group.md
                 - name: хелпбуттон
                   href: windowsribbon-element-helpbutton.md
@@ -241,10 +241,10 @@
                   href: windowsribbon-element-tabgroup.md
                 - name: ToggleButton
                   href: windowsribbon-element-togglebutton.md
-            - name: Прочее
+            - name: Другие
               href: windowsribbon-reference-elements-other.md
               items:
-                - name: Приложения
+                - name: Приложение
                   href: windowsribbon-element-application.md
                   items:
                     - name: Команды
@@ -338,7 +338,7 @@
               items:
                 - name: Add
                   href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuicollection-add
-                - name: Очистить
+                - name: Clear
                   href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuicollection-clear
                 - name: GetCount
                   href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuicollection-getcount

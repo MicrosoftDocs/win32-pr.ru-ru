@@ -1,6 +1,6 @@
 ---
 description: IShellDispatch4. Тоггледесктоп, метод отображает или скрывает Рабочий стол.
-title: IShellDispatch4. Тоггледесктоп, метод (Шлдисп. h)
+title: Метод IShellDispatch4.ToggleDesktop (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 60199e18-b8da-48a6-b316-e7f07ff44b78
-ms.openlocfilehash: e78c14e2aa7f918ff27b21bdab0ce71bed08a84a
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: d1cecab0450b1ce16ad2a4301801ea14aea284ac8fe7d5c1e63b5d8a211f22c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109840935"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118720778"
 ---
 # <a name="ishelldispatch4toggledesktop-method"></a>IShellDispatch4. Тоггледесктоп, метод
 
@@ -61,9 +61,9 @@ IShellDispatch4.ToggleDesktop()
 
 ## <a name="examples"></a>Примеры
 
-В следующих примерах показано правильное использование **тоггледесктоп** для JScript, VBScript и Visual Basic.
+в следующих примерах показано правильное использование **тоггледесктоп** для JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -117,9 +117,9 @@ End Sub
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                                                   |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                          |
-| Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                          |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                                                   |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                          |
+| Header<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (версия 6,0 или более поздняя)</dt> </dl> |
 

@@ -32,7 +32,7 @@ ms.locfileid: "118343598"
 
 Элемент **keywords** определяется сложным типом [**чаннелпублишингтипе**](eventmanifestschema-channelpublishingtype-complextype.md) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

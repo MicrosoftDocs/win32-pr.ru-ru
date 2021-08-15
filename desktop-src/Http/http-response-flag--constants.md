@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 96b7c34d453c1b9bbe45cf2c85ad268b414f3439
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3099012df5be9ed4a53d3072319be6dc47ede32b71567749c4668cd7870fee29
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105661865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118394412"
 ---
 # <a name="http_response_flag_-constants"></a>\_ \_ Константы флага HTTP-ответа \_
 
@@ -43,8 +43,8 @@ ms.locfileid: "105661865"
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                        |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                           |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                           |
 | Header<br/>                   | <dl> <dt>HTTP. h</dt> </dl> |
 
 

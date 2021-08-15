@@ -11,12 +11,12 @@ keywords:
 - Функция CreateEvent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cbfeb95fcf0e5d83f9a54fc0cf3cd223ac6ce19
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 70c5bdbfe46fed9fa9124a031e90af3bfefb983caf6743415d90c645afc42c6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103790212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117801204"
 ---
 # <a name="using-an-event-callback-to-process-driver-messages"></a>Использование обратного вызова события для обработки сообщений драйвера
 
@@ -24,13 +24,13 @@ ms.locfileid: "103790212"
 
 Поскольку обратные вызовы событий не получают конкретных закрытых, готовых или открытых уведомлений, приложению может потребоваться проверить состояние процесса, ожидающего выполнения после наступления события. Возможно, число задач было завершено в момент возвращения объекта [**WaitForSingleObject**](/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Звуковые блоки данных](audio-data-blocks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

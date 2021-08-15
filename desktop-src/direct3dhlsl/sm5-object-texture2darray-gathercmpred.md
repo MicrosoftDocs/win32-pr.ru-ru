@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3cf0f7094c7e535a84e6d8fd6ba7e87bb702dbfd
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: aea723bbcdc2822adb8084cbdb5feff155165158d3abaf872a96259a77accdcc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104998123"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117724615"
 ---
 # <a name="texture2darraygathercmpredsfloatfloatint-function"></a>Функция Texture2DArray:: Гасеркмпред (S, float, float, int)
 
@@ -81,7 +81,7 @@ float4 GatherCmpRed(
 
 Значение из четырех компонентов, каждый компонент которого является результатом сравнения каждого компонента.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Примеры текстур можно использовать для интерполяции билинейной.
 
@@ -89,7 +89,7 @@ float4 GatherCmpRed(
 
 
 
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
+| Вершина | Поверхности | Домен | Геометрия | Пиксель | Службы вычислений |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

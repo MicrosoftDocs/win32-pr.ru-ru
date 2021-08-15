@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Wfext.h
 ms.assetid: c5daab49-4ed5-439b-b1b7-a87f70c379f0
-ms.openlocfilehash: c4195acedbd696679a2deea2f4d6e268717566d1
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: a8aba636910735e9baa0bd3ebbcf846ecf69a2174b56372a387b541c92e59732
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117860396"
 ---
 # <a name="fmevent_toolbarload-message"></a>\_Сообщение фмевент тулбарлоад
 
@@ -42,7 +42,7 @@ ms.locfileid: "109841275"
 
 Библиотека DLL расширения должна возвращать **значение true** , чтобы добавить кнопку на панель инструментов. Если библиотека DLL возвращает **значение false**, то диспетчер файлов не добавляет кнопку.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

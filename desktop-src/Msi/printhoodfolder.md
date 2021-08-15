@@ -15,7 +15,7 @@ ms.locfileid: "118376763"
 
 Свойство **принсудфолдер** — это полный путь к папке принсуд.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

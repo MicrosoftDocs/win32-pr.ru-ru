@@ -6,12 +6,12 @@ keywords:
 - ACF MIDL, атрибуты, обработка ошибок и исключений
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d7187ab887fa1d09b18385b86065775ca0e656f
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 8f780145854a463da9a983c7dccbb24b01c2eca16437bf1254f93ec34def5395
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "105681614"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118384430"
 ---
 # <a name="error-and-exception-handling-acf-attributes"></a>Атрибуты ACF обработки ошибок и исключений
 
@@ -25,15 +25,15 @@ ms.locfileid: "105681614"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Импорт файлов и библиотек типов](importing-files-and-type-libraries.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -3,7 +3,7 @@ title: Инриббонгаллери. Менулайаут, свойство
 description: Представляет контейнер для макетов раскрывающихся меню коллекции In-Ribbon.
 ms.assetid: 89e0eb39-2790-4571-a661-ab3ebafbb13f
 keywords:
-- Лента Windows для свойства Инриббонгаллери. Менулайаут
+- инриббонгаллери. менулайаут, свойство Windows лента
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d2fc5e0eab5d8dbc35cd9cb3be96e5d5d351416
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6f3748e35280972f115ae22792f28847df675b3aafe8ac91d29d930c9fd15bca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117850768"
 ---
 # <a name="inribbongallerymenulayout-property"></a>Инриббонгаллери. Менулайаут, свойство
 
@@ -56,7 +56,7 @@ ms.locfileid: "104071208"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Необязательный элемент.
 
@@ -102,14 +102,14 @@ ms.locfileid: "104071208"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>              |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>              |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/> |
 
 
 

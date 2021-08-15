@@ -8,12 +8,12 @@ keywords:
 - ADSI, использование, проверка подлинности
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad32b2f32f115b20c99e47578ad76b73ad72a123
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 19177153d8d66f3c27db5c0c2027faa2e02b213305d760d070f5af90b6ba1058
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104487300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117840561"
 ---
 # <a name="authentication-adsi"></a>Проверка подлинности (ADSI)
 
@@ -22,7 +22,7 @@ ms.locfileid: "104487300"
 > [!Note]  
 > Функция [**ADsOpenObject**](/windows/desktop/api/Adshlp/nf-adshlp-adsopenobject) и метод [**Иадсопендсобжект:: опендсобжект**](/windows/desktop/api/Iads/nf-iads-iadsopendsobject-opendsobject) не должны использоваться для проверки учетных данных пользователя. Дополнительные сведения о проверке учетных данных пользователя см. в статье базы знаний Майкрософт 180548 [Практическое руководство. Проверка учетных данных пользователя в операционных системах Майкрософт](https://support.microsoft.com/kb/180548).
 
- 
+ 
 
 В следующем примере кода показано, как использовать метод [**опендсобжект**](/windows/desktop/api/Iads/nf-iads-iadsopendsobject-opendsobject) для проверки подлинности пользователя.
 
@@ -50,9 +50,9 @@ CleanUp:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,16 +4,16 @@ ms.assetid: 59ae22f6-aa6d-4b53-8a27-73e1e5c62755
 title: Сбор и проверка сертификатов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c0b160f373d5ade65679fcc4dd87e3c1c86dc4ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 60b793cf4aeca7d05d166a4b205b924db53faee09683cefcef7b0244a9eb0289
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117769536"
 ---
 # <a name="collecting-and-verifying-certificates"></a>Сбор и проверка сертификатов
 
-\[CAPICOM — это 32-разрядный компонент, доступный для использования в следующих операционных системах: Windows Server 2008, Windows Vista и Windows XP. Вместо этого используйте платформа .NET Framework для реализации функций безопасности. Дополнительные сведения см. [в разделе альтернативы использованию элемента CAPICOM](alternatives-to-using-capicom.md).\]
+\[CAPICOM — это 32-разрядный компонент, доступный для использования в следующих операционных системах: Windows Server 2008, Windows Vista и Windows XP. вместо этого используйте платформа .NET Framework для реализации функций безопасности. Дополнительные сведения см. [в разделе альтернативы использованию элемента CAPICOM](alternatives-to-using-capicom.md).\]
 
 Часто требуется собрать и проверить группу [*сертификатов*](../secgloss/c-gly.md) . Это часто делается для подготовки группы получателей сообщения с оболочкой. В следующем примере сертификаты в локальном хранилище перечисляются и проверяются на допустимость. Далее открывается хранилище Active Directory для получения и добавления в локальное хранилище новых сертификатов. Сертификаты, полученные из хранилища Active Directory, проверяются на допустимость и, если они действительны, добавляются в локальное хранилище. Затем оба хранилища закрываются.
 

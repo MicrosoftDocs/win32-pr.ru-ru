@@ -4,9 +4,9 @@ description: Возвращает значение флага перечисле
 ms.assetid: 18b564e6-dda1-44b9-b445-26c6183b6af9
 ms.tgt_platform: multiple
 keywords:
-- служба удаленного управления Windows метода Енумератионфлагхиерарчишаллов
-- Служба удаленного управления Windows метода Енумератионфлагхиерарчишаллов, объект WSMan
-- Объект WSMan служба удаленного управления Windows, метод Енумератионфлагхиерарчишаллов
+- служба удаленного управления Windows метода енумератионфлагхиерарчишаллов
+- служба удаленного управления Windows метода енумератионфлагхиерарчишаллов, объект WSMan
+- объект WSMan служба удаленного управления Windows, метод енумератионфлагхиерарчишаллов
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 46b74552fd88ac370ad4a3f8b885a7f61e65a053
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8f894c252de856a6845b1d98b475a51e92dc1d95b054eb77449617f6fc36bf87
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534526"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117742303"
 ---
 # <a name="wsmanenumerationflaghierarchyshallow-method"></a>Метод WSMan. Енумератионфлагхиерарчишаллов
 
@@ -56,7 +56,7 @@ WSMan.EnumerationFlagHierarchyShallow( _
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -78,7 +78,7 @@ WSMan.EnumerationFlagHierarchyShallow( _
 [**Ведущий**](wsman.md)
 </dt> <dt>
 
-[**Session**](session.md)
+[**Сеанс**](session.md)
 </dt> </dl>
 
  

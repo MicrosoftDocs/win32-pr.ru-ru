@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ef02cec318b9362b37bb83c02e4712bb0bec5d59
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 7e7af5f6c4f37fd4139e839e5ff6d52bf71b3f1fdda9f72c65e9f0a43e351a39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104986500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117723886"
 ---
 # <a name="texture2darraygatherbluesfloatintuint-function"></a>Функция Texture2DArray:: Гасерблуе (S, float, int, uint)
 
@@ -84,7 +84,7 @@ TemplateType GatherBlue(
 
 Значение из четырех компонентов, тип которого совпадает с типом шаблона.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Примеры текстур можно использовать для интерполяции билинейной.
 
@@ -92,7 +92,7 @@ TemplateType GatherBlue(
 
 
 
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
+| Вершина | Поверхности | Домен | Геометрия | Пиксель | Службы вычислений |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

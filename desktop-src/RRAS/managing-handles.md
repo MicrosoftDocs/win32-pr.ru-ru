@@ -4,12 +4,12 @@ description: Диспетчер таблиц маршрутизации подд
 ms.assetid: bcd02881-b021-414f-8a40-14baac5baac7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f24653dd98db9b0427e5a3bee3f2f6613a68ce41
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c701dbe8469baab54c427d42f9d603a976402ebb5693d1799989aeff74b65945
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117790607"
 ---
 # <a name="managing-handles"></a>Управление дескрипторами
 
@@ -20,13 +20,13 @@ ms.locfileid: "103986570"
 > [!Note]  
 > Функция [**ртмрелеасечанжеддестс**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmreleasechangeddests) должна использоваться для освобождения дескрипторов, возвращенных вызовом [**ртмжетчанжеддестс**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmgetchangeddests). Не используйте [**ртмрелеаседестс**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmreleasedests) для измененных целевых структур.
 
- 
+ 
 
 Если клиент должен сохранять конкретный маркер в информационной структуре при освобождении остальных, клиент может вызвать [**ртмреференцехандлес**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmreferencehandles) с этим обработчиком перед тем, как освободить информационную структуру. Затем этот маркер можно освободить с помощью вызова функций [**ртмрелеаседестинфо**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmreleasedestinfo), [**ртмрелеасинтитинфо**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmreleaseentityinfo), [**ртмрелеасераутеинфо**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmreleaserouteinfo) и [**ртмреласенекссопинфо**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmreleasenexthopinfo) .
 
- 
+ 
 
- 
+ 
 
 
 

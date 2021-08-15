@@ -4,7 +4,7 @@ description: Сведения о состоянии для диспетчера 
 ms.assetid: 614F14EC-64CC-4E3F-8A89-42AA1E0DC95D
 keywords:
 - MPSTATUS_INFO структуры устаревшие функции среды Windows
-- Функции PMPSTATUS_INFO указателя структур в устаревшей среде Windows
+- функции PMPSTATUS_INFO Windows указателя структур в устаревшей среде
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: efe31981f819d85d13457553beb1ce3c869b98bd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8cb93bd15fe05955c9e8d87828d4b94b08e3d577659c629b52b3f908cb045ba3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103801247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117883305"
 ---
 # <a name="mpstatus_info-structure"></a>\_Структура сведений о мпстатус
 
@@ -124,14 +124,14 @@ typedef struct tagMPSTATUS_INFO {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
 
 

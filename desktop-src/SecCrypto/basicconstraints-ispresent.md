@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 9632f0d1297f2effd7d1bcc6056b2327d7f38e26
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 646d7988b24d9ad03e55bb7ee4401875c42f7b779a81e1b80a611aaae18a93a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665529"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117773026"
 ---
 # <a name="basicconstraintsispresent-property"></a>Басикконстраинтс. Present, свойство
 
@@ -41,7 +41,7 @@ BasicConstraints.IsPresent As Boolean
 
 Если **значение — true**, имеется расширение базовых ограничений.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

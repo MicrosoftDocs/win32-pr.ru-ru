@@ -4,16 +4,16 @@ ms.assetid: 3f350312-3f1f-4020-90d0-85521ea9c7c8
 title: Добавление буквы диска к LUN
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 426a4f3bf720b21a02462edde4a381012d2084d2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 388c59a2e1b719e792855460f45fa0c04add7502f8e06aba56f0416a212a9aaa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117755503"
 ---
 # <a name="adding-a-drive-letter-to-a-lun"></a>Добавление буквы диска к LUN
 
-\[Начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API управления хранилищами Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API Windows служба хранилища управления](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 Буквы дисков можно назначать объектам томов напрямую; Однако если диск является объектом LUN, вы можете выполнить несколько дополнительных действий.
 
@@ -41,7 +41,7 @@ ms.locfileid: "105692220"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

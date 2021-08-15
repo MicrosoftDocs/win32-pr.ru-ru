@@ -4,12 +4,12 @@ ms.assetid: 68bab91f-959a-4374-bd0e-035d25745147
 title: System. GPS. Латитудеденоминатор
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f0a8b8df0200536df0b81176448f5365d0d1204
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d9dd2ff8ba444f0f9448214283140010f789bff4319fb932fc83bdbc9e7b93f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897922"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117866377"
 ---
 # <a name="systemgpslatitudedenominator"></a>System. GPS. Латитудеденоминатор
 
@@ -30,11 +30,11 @@ propertyDescription
       type = Multivalue UInt32
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

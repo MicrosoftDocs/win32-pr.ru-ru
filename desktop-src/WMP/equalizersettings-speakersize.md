@@ -3,7 +3,7 @@ title: ЕКУАЛИЗЕРСЕТТИНГС. Спеакерсизе
 description: Атрибут Спеакерсизе указывает или получает номер индекса текущего размера динамика.
 ms.assetid: 454d07bf-49cd-48a5-9724-6415a925367a
 keywords:
-- Проигрыватель Windows Media ЕКУАЛИЗЕРСЕТТИНГС. Спеакерсизе
+- екуализерсеттингс. спеакерсизе проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 26dc49af55e96d3ef8de4e8a4567b3a4296ca214
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 46d289a89a22e8c10cf669e9b55fc304826acb3ce0f72468f725e7d5fae0dfc8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117748652"
 ---
 # <a name="equalizersettingsspeakersize"></a>ЕКУАЛИЗЕРСЕТТИНГС. Спеакерсизе
 
@@ -43,19 +43,19 @@ ms.locfileid: "105694930"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Понятное имя размера динамика можно получить с помощью атрибута **куррентспеакернаме** .
 
 Этот атрибут пропускается, если **енханцедаудио** имеет значение false.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 

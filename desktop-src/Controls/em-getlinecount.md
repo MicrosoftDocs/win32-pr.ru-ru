@@ -3,7 +3,7 @@ title: Сообщение EM_GETLINECOUNT (Winuser. h)
 description: Возвращает число строк в многострочном элементе управления "поле ввода". Это сообщение можно отправить либо в элемент управления "поле ввода", либо в элемент управления Rich Edit.
 ms.assetid: 9fe63c10-7395-4f98-a672-14960a70d14f
 keywords:
-- Элементы управления Windows для EM_GETLINECOUNT сообщений
+- элементы управления Windows сообщений EM_GETLINECOUNT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 15ffbeafb13850317faccb4be44571d81b0d7e36
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 44487084da8df8edd463fc0683c9d27fcba19a2993465e5493edfd8bb7c3c6b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104489462"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118006687"
 ---
 # <a name="em_getlinecount-message-winuserh"></a>Сообщение EM_GETLINECOUNT (Winuser. h)
 
@@ -47,7 +47,7 @@ ms.locfileid: "104489462"
 
 Возвращаемое значение — это целое число, указывающее общее количество текстовых строк в элементе управления "поле ввода" или форматированном элементе управления. Если элемент управления не содержит текста, возвращается значение 1. Возвращаемое значение никогда не будет меньше 1.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Сообщение **EM \_ жетлинекаунт** извлекает общее количество текстовых строк, а не только число видимых в данный момент строк.
 
@@ -61,9 +61,9 @@ ms.locfileid: "104489462"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Header<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

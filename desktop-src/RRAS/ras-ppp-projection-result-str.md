@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a9aa3aef828249b5c72f9e7cdd1bd3b69c96832
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6ce1bb82b34490f8a1f3734225cbde1e761c575a2019a30db7790bfc7fa3c169
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103802495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117789588"
 ---
 # <a name="ras_ppp_projection_result-structure"></a>\_ \_ Структура результата проекции PPP для RAS \_
 
-\[Структура **\_ \_ \_ результата проекции PPP для RAS** не поддерживается в Windows Vista.\]
+\[структура **\_ \_ \_ результата проекции PPP для RAS** не поддерживается Windows Vista.\]
 
 Структура **\_ \_ \_ результата проекции PPP для RAS** используется для передачи результатов различных операций проекции PPP для порта.
 
@@ -62,7 +62,7 @@ typedef struct _RAS_PPP_PROJECTION_RESULT {
 **пользу**
 </dt> <dd>
 
-Структура [**\_ \_ \_ результата PPP РРР**](ras-ppp-ipxcp-result-str.md) , которая сообщает результат операции проецирования объединенной сети (IPX) PPP.
+структура [**\_ \_ \_ результата ppp ррр**](ras-ppp-ipxcp-result-str.md) , которая сообщает о результате операции проекции IPX-Exchange пакетов ppp.
 
 </dd> <dt>
 
@@ -73,11 +73,11 @@ typedef struct _RAS_PPP_PROJECTION_RESULT {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта структура сообщает результаты проекции для протоколов NetBEUI, TCP/IP и IPX. Каждая структура PPP имеет элемент **дверрор** , который указывает, является ли действительная информация в структуре допустимой. Если **дверрор** не является \_ ошибкой, другие сведения являются допустимыми. Если **дверрор** является одним из кодов ошибок в файле Winerror. h или расеррор. h, другие сведения являются недопустимыми.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

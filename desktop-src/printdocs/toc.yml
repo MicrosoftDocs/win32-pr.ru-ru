@@ -4,9 +4,9 @@
     - name: Новые возможности печати
       href: what-s-new-for-printing-in-windows-vnext.md
       items:
-        - name: Новые возможности печати в Windows 7
+        - name: новые возможности печати в Windows 7
           href: what-s-new-in-windows-7.md
-        - name: Новые возможности печати в Windows Vista
+        - name: новые возможности печати в Windows Vista
           href: what-s-new-in-windows-vista.md
     - name: Поддержка приложений для печати Опенкспс
       href: app-support-for-openxps-printing.md
@@ -1427,7 +1427,7 @@
                           href: /windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-savepackagetostream
                         - name: сетсигнатуреоригинпартнаме
                           href: /windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-setsignatureoriginpartname
-                        - name: Sign
+                        - name: вход;
                           href: /windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-sign
                     - name: икспссигнатуререкуест
                       href: /windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignaturerequest
@@ -1521,7 +1521,7 @@
         - name: Настольное приложение для печати
           href: using-printing.md
           items:
-            - name: Практические руководства. печать из программы Windows
+            - name: практические руководства. печать из программы Windows
               href: how-to--print-from-a-windows-application.md
               items:
                 - name: Инструкции. Получение сведений о задании печати от пользователя
@@ -2091,7 +2091,7 @@
             - name: Модуль записи XPS-документов (Майкрософт) (МКСДВ)
               href: microsoft-xps-document-writer.md
               items:
-                - name: Параметры конфигурации МКСДВ
+                - name: Параметры конфигурации мксдв
                   href: mxdw-configuration-settings.md
         - name: API печати XPS
           href: xps-printing.md
@@ -2175,7 +2175,7 @@
                   href: printcapabilities.md
                 - name: PrintTicket
                   href: printticket.md
-                - name: Свойство
+                - name: Свойство.
                   href: property.md
                 - name: скоредпроперти
                   href: scoredproperty.md

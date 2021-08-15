@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e84bbe9b954efff12e458ee6172665118a7b8ede
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: dfad489fe6c4eda8ea417a9f272bcc0a7d4035eb04bc675cf599e4f5381234db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104998486"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118532366"
 ---
 # <a name="id3dx11effecttechniquegetpassbyname-method"></a>Метод ID3DX11EffectTechnique:: Жетпассбинаме
 
@@ -43,7 +43,7 @@ ID3DX11EffectPass* GetPassByName(
 
 <dl> <dt>
 
-*имя*; 
+*Имя* 
 </dt> <dd>
 
 Тип: **[ **LPCSTR**](/windows/desktop/WinProg/windows-data-types)**
@@ -58,7 +58,7 @@ ID3DX11EffectPass* GetPassByName(
 
 Указатель на [**ID3DX11EffectPass**](id3dx11effectpass.md).
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Метод содержит один или несколько проходов; Получите проход, используя имя или индекс.
 
@@ -67,13 +67,13 @@ ID3DX11EffectPass* GetPassByName(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
+| Заголовок<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
 | Библиотека<br/> | <dl> <dt>Н/д (библиотека Effects 11 доступна в сети в качестве общего источника.)</dt> </dl> |
 
 

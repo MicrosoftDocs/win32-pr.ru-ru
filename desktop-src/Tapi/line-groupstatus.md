@@ -4,12 +4,12 @@ ms.assetid: 1f3210fe-a7c8-4cfa-8e36-3a88e93d68bb
 title: Сообщение LINE_GROUPSTATUS (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 22fec7c4701ee7140c02cede1901ef7998e5b60d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 62c70ba4badd27b4d42774549b4778bd77dda13f0ae7245ee6852c2b3afab164
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117761947"
 ---
 # <a name="line_groupstatus-message"></a>Строка \_ сообщения граупстатус
 
@@ -61,7 +61,7 @@ ms.locfileid: "105675373"
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

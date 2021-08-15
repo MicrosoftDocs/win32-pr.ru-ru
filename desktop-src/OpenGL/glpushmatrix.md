@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ee62b03e221f44db829a7167d642a766af8e129c
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: a0d6af41bb02c82a28b667a2b5ad62d942c036c7f744a68fa9bb79188e26ae8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104000197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117795139"
 ---
 # <a name="glpushmatrix-function"></a>Функция Глпушматрикс
 
@@ -57,7 +57,7 @@ void WINAPI glPushMatrix(void);
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Существует стек матриц для каждого режима матрицы. В \_ моделвиев режиме GL глубина стека составляет не менее 32. В двух других режимах — \_ проекция и \_ текстура GL, глубина — не менее 2. Текущая матрица в любом режиме — это матрица, расположенная в верхней части стека для этого режима.
 
@@ -85,7 +85,7 @@ void WINAPI glPushMatrix(void);
 
 **глжет** с аргументом \_ " \_ Максимальная \_ глубина текстуры стека \_ "
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
