@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 825112ec9a33ef176d5a69765837214249e33102
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 34302215cf0e773d7713f56233d38462071f1dde725a85478688cfb9ca2a4f45
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108110772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118365897"
 ---
 # <a name="idelaydcgetcontrolstate-method"></a>Метод Иделайдк:: Жетконтролстате
 
@@ -65,8 +65,8 @@ HRESULT STDMETHODCALLTYPE GetControlState(
 
 | Код возврата                                                                                          | Описание                                                                                                                           |
 |------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**НМЕРР \_ не \_ подключен**</dt> </dl> | НПП не подключен к сети. Вызовите [иделайдк:: Connect](idelaydc-connect.md) , чтобы подключить НПП к сети.<br/> |
-| <dl> <dt>**НМЕРР \_ не \_ отложена**</dt> </dl>   | НПП подключается к сети, но не с методом [иделайдк:: Connect](idelaydc-connect.md) .<br/>                     |
+| <dl> <dt>**НМЕРР \_ не \_ подключен**</dt> </dl> | НПП не подключен к сети. вызовите [иделайдк:: Подключение](idelaydc-connect.md) , чтобы подключить нпп к сети.<br/> |
+| <dl> <dt>**НМЕРР \_ не \_ отложена**</dt> </dl>   | нпп подключается к сети, но не с помощью метода [иделайдк:: Подключение](idelaydc-connect.md) .<br/>                     |
 
 
 
@@ -78,7 +78,7 @@ HRESULT STDMETHODCALLTYPE GetControlState(
 
 Методы, используемые для запуска, приостановки и остановки записи, перечислены в списке см. также ниже.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -91,14 +91,14 @@ HRESULT STDMETHODCALLTYPE GetControlState(
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 
 [иделайдк](idelaydc.md)
 </dt> <dt>
 
-[Иделайдк:: Connect](idelaydc-connect.md)
+[иделайдк:: Подключение](idelaydc-connect.md)
 </dt> <dt>
 
 [Иделайдк::P Аусе](idelaydc-pause.md)

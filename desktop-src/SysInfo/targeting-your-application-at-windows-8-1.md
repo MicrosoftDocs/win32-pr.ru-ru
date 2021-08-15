@@ -1,26 +1,26 @@
 ---
-description: В Windows 8.1 и Windows 10 функции функций и GetVersionEx не рекомендуются.
+description: в Windows 8.1 и Windows 10 функции функций и GetVersionEx не рекомендуются.
 ms.assetid: E7A1A16A-95B3-4B45-81AD-A19E33F15AE4
 title: Настройка приложения для Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0bd280451e5a1dd6a5162dd7b9ccb34495d22be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e045dff2f46501c4715e2ffebe484dfeadb3aa9f276d79c7e7c1afdbec6ba7e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104348455"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117763115"
 ---
 # <a name="targeting-your-application-for-windows"></a>Настройка приложения для Windows
 
-В Windows 8.1 и Windows 10 функции функций [**и**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getversion) [**GetVersionEx**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getversionexa) не рекомендуются. В Windows 10 функция [**верифиверсионинфо**](/windows/win32/api/winbase/nf-winbase-verifyversioninfoa) также является устаревшей. Хотя вы по-прежнему можете вызывать нерекомендуемые функции, если приложение не предназначено специально для Windows 8.1 или Windows 10, функции возвращают версию Windows 8 (6,2).
+в Windows 8.1 и Windows 10 функции функций [**и**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getversion) [**GetVersionEx**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getversionexa) не рекомендуются. в Windows 10 функция [**верифиверсионинфо**](/windows/win32/api/winbase/nf-winbase-verifyversioninfoa) также является устаревшей. хотя вы по-прежнему можете вызывать нерекомендуемые функции, если приложение не предназначено для Windows 8.1 или Windows 10, функции возвращают Windows 8 версию (6,2).
 
 > [!Note]  
-> Функции [**верифиверсионинфо и**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getversion) [Version](version-helper-apis.md) поддерживаются только для настольных приложений. [](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getversionexa) [](/windows/win32/api/winbase/nf-winbase-verifyversioninfoa) Универсальные приложения для Windows могут использовать свойство [**аналитиксинфо. versionInfo**](/uwp/api/windows.system.profile.analyticsinfo.versioninfo) для журналов телеметрии и диагностики.
+> Функции [**верифиверсионинфо и**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getversion) [Version](version-helper-apis.md) поддерживаются только для настольных приложений. [](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getversionexa) [](/windows/win32/api/winbase/nf-winbase-verifyversioninfoa) универсальные Windows приложения могут использовать свойство [**аналитиксинфо. VersionInfo**](/uwp/api/windows.system.profile.analyticsinfo.versioninfo) для журналов телеметрии и диагностики.
 
-Чтобы приложение было предназначено Windows 8.1 или Windows 10, необходимо включить [манифест приложения (исполняемый файл)](/windows/compatibility/application-executable-manifest) для исполняемого файла приложения. Затем в разделе " [ **&lt; Совместимость &gt;**](../SbsCs/application-manifests.md#compatibility) " манифеста необходимо добавить элемент **&lt; &gt; суппортедос** для каждой версии Windows, которую необходимо объявить, чтобы приложение поддерживалось.
+чтобы приложение было предназначено Windows 8.1 или Windows 10, необходимо включить [манифест приложения (исполняемый файл)](/windows/compatibility/application-executable-manifest) для исполняемого файла приложения. затем в разделе " [ **&lt; совместимость &gt;**](../SbsCs/application-manifests.md#compatibility) " манифеста необходимо добавить элемент **&lt; &gt; суппортедос** для каждой версии Windows, которую нужно объявить, чтобы приложение поддерживалось.
 
-В следующем примере показан файл манифеста приложения для приложения, поддерживающего все версии Windows с Windows Vista до Windows 10.
+в следующем примере показан файл манифеста приложения для приложения, поддерживающего все версии Windows из Windows Vista в Windows 10:
 
 ```XML
 <!-- example.exe.manifest -->
@@ -66,11 +66,11 @@ ms.locfileid: "104348455"
 </assembly>
 ```
 
-Объявление поддержки для Windows 8.1 или Windows 10 в манифесте приложения не будет оказывать никакого влияния при запуске приложения в предыдущих операционных системах.
+объявление поддержки для Windows 8.1 или Windows 10 в манифесте приложения не будет оказывать никакого влияния при запуске приложения в предыдущих операционных системах.
 
-Приведенный выше манифест приложения также включает [раздел **&lt; trustInfo &gt;**](/previous-versions/bb756929(v=msdn.10)), который указывает, как система должна обрабатывать ее в отношении [контроля учетных записей (UAC)](/windows/security/identity-protection/user-account-control/how-user-account-control-works). Добавление **trustInfo** не является обязательным, но настоятельно рекомендуется даже в том случае, если приложению не требуется определенное поведение, связанное с UAC. В частности, если вы не добавили **trustInfo** вообще, то для 32-разрядных версий x86 приложения будет применяться [виртуализация файлов UAC](/windows/security/identity-protection/user-account-control/how-user-account-control-works#virtualization), которая позволяет выполнять запись в административные папки, такие как системные папки Windows, в случае сбоя, если в противном случае они перенаправлены в пользовательскую папку «виртуалсторе».
+Приведенный выше манифест приложения также включает [раздел **&lt; trustInfo &gt;**](/previous-versions/bb756929(v=msdn.10)), который указывает, как система должна обрабатывать ее в отношении [контроля учетных записей (UAC)](/windows/security/identity-protection/user-account-control/how-user-account-control-works). Добавление **trustInfo** не является обязательным, но настоятельно рекомендуется даже в том случае, если приложению не требуется определенное поведение, связанное с UAC. в частности, если вы не добавили **trustInfo** вообще, то для 32-разрядных версий x86 приложения будет применяться [виртуализация файлов UAC](/windows/security/identity-protection/user-account-control/how-user-account-control-works#virtualization), которая позволяет выполнять запись в административные папки, такие как Windows системные папки, для успешности выполнения в случае сбоя, но перенаправляет их в определяемую пользователем папку "виртуалсторе".
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

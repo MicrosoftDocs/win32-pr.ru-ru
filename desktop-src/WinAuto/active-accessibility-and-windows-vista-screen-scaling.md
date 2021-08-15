@@ -1,19 +1,19 @@
 ---
-title: Масштабирование экрана Active Accessibility и Windows Vista
-description: Windows Vista позволяет пользователям изменять параметр точек на дюйм (DPI) таким образом, чтобы большинство элементов пользовательского интерфейса отображались крупнее.
+title: масштабирование экрана Active Accessibility и Windows Vista
+description: Windows Vista позволяет пользователям изменять параметр точек на дюйм (DPI), чтобы большинство элементов пользовательского интерфейса отображались крупнее.
 ms.assetid: c781fefd-09f0-4340-b3d3-f4e57308f392
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6db8e192dc01d4c7d75f19741cdfac7b3b08d22c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: acf9c1ff6755507541c08b34e183dd751e0941fc646a1f691e4488884e572c79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104488056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118327064"
 ---
-# <a name="active-accessibility-and-windows-vista-screen-scaling"></a>Масштабирование экрана Active Accessibility и Windows Vista
+# <a name="active-accessibility-and-windows-vista-screen-scaling"></a>масштабирование экрана Active Accessibility и Windows Vista
 
-Windows Vista позволяет пользователям изменять параметр точек на дюйм (DPI) таким образом, чтобы большинство элементов пользовательского интерфейса отображались крупнее. Хотя эта функция была доступна в Microsoft Windows, в предыдущих версиях масштабирование пришлось бы реализовать в приложениях. В Windows Vista диспетчер окон рабочего стола выполняет масштабирование по умолчанию для всех приложений, которые не обрабатывали собственное масштабирование. Клиентские приложения Microsoft Active Accessibility должны учитывать эту функцию.
+Windows Vista позволяет пользователям изменять параметр точек на дюйм (DPI), чтобы большинство элементов пользовательского интерфейса отображались крупнее. хотя эта функция была доступна в Microsoft Windows, в предыдущих версиях масштабирование пришлось бы реализовать в приложениях. в Windows Vista диспетчер окон рабочего стола выполняет масштабирование по умолчанию для всех приложений, которые не обрабатывали собственное масштабирование. Клиентские приложения Microsoft Active Accessibility должны учитывать эту функцию.
 
 ## <a name="scaling-in-windows-vista"></a>Масштабирование в Windows Vista
 
@@ -50,6 +50,6 @@ Microsoft Active Accessibility не использует логические к
 
 Если приложение выполняет прямое межпроцессное взаимодействие с приложениями, не поддерживающими dpi, возможно преобразование между логическими и физическими координатами с помощью функций [**фисикалтологикалпоинт**](/windows/win32/api/winuser/nf-winuser-physicaltologicalpoint) и [**логикалтофисикалпоинт**](/windows/win32/api/winuser/nf-winuser-logicaltophysicalpoint) .
 
- 
+ 
 
- 
+ 

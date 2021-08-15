@@ -4,12 +4,12 @@ description: Система поддерживает набор специаль
 ms.assetid: efa289bb-5965-4002-93df-116ab2621efc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5f089b28d36ffa982ca6568996126a812263af9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a289162366f5d69c501ffbea55108167324c11a1c865184105afd587f36bcfd3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105700907"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118327792"
 ---
 # <a name="accessibility-parameters"></a>Параметры специальных возможностей
 
@@ -32,7 +32,7 @@ Windows поддерживает следующие параметры спец�
 
 
 
- 
+ 
 
 Следующие системные параметры полезны для приложений со специальными возможностями. Дополнительные сведения см. в разделе Функция [**системпараметерсинфо**](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) .
 
@@ -47,15 +47,15 @@ Windows поддерживает следующие параметры спец�
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[О специальных возможностях Windows](about-windows-accessibility-features.md)
+[сведения о специальных возможностях Windows](about-windows-accessibility-features.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

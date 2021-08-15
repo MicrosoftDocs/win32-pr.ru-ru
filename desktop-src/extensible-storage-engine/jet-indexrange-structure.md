@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ecbd8151be8ef278fc1bddc12323f41abd05b09e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b5b68e7ebf6df39757ab39947201b945e35a3ece85518a3cb202525033cdd214
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118485602"
 ---
 # <a name="jet_indexrange-structure"></a>Структура JET_INDEXRANGE
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jet_indexrange-structure"></a>Структура JET_INDEXRANGE
 
@@ -77,11 +77,11 @@ _**Применимо к:** Windows | Windows Server_
 </table>
 
 
-### <a name="remarks"></a>Комментарии
+### <a name="remarks"></a>Remarks
 
 Каждая **JET_INDEXRANGE** структура, передаваемая в [жетинтерсектиндексес](./jetintersectindexes-function.md) , представляет диапазон индекса, который будет пересекаться вызовом API. Для курсора, заданного в **JET_INDEXRANGE** , должен быть уже установлен допустимый диапазон индексов с успешным вызовом [жетсетиндексранже](./jetsetindexrange-function.md).
 
-### <a name="requirements"></a>Требования
+### <a name="requirements"></a>Requirements (Требования)
 
 <table>
 <colgroup>
@@ -91,11 +91,11 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
+<td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
+<td><p><strong>Сервер</strong></p></td>
+<td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>
@@ -105,7 +105,7 @@ _**Применимо к:** Windows | Windows Server_
 </table>
 
 
-### <a name="see-also"></a>См. также:
+### <a name="see-also"></a>См. также
 
 [JET_COLUMNID](./jet-columnid.md)  
 [JET_GRBIT](./jet-grbit.md)  

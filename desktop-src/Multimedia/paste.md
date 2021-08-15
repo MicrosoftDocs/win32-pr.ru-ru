@@ -3,7 +3,7 @@ title: вставить команду
 description: Команда Вставить копирует содержимое буфера обмена в рабочую область. Устройство Digital-Video распознает эту команду.
 ms.assetid: c09418e1-2535-40d1-8912-e5ece91ee673
 keywords:
-- Команда "вставить" мультимедиа Windows
+- команда "вставить" Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 482fd744d7e6e163059330148b6e3f081d435880
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 73b93f042193c50a810ac23285224ddd234a23b2070f8db2d56d216fee037c37
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071310"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118373219"
 ---
 # <a name="paste-command"></a>вставить команду
 
@@ -79,11 +79,11 @@ _stprintf_s(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В данных, скопированных из буфера обмена, отсутствуют сигналы. Изменение становится постоянным только при явном сохранении данных. Однако воспроизведение действует так, как если бы данные были добавлены.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

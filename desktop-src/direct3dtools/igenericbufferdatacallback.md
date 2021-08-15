@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 8441802a03ad94886841d04192a7e2f77bb8e6d6
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 396b82b9bfc767fc73615a59a4d1e8577c5afb14a7a95f25298e33465174306d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105710668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117722212"
 ---
 # <a name="span-idvspixengineigenericbufferdatacallbackspanigenericbufferdatacallback-interface"></a><span id="vspixengine.igenericbufferdatacallback"></span>Интерфейс Иженерикбуффердатакаллбакк
 
@@ -42,7 +42,7 @@ ms.locfileid: "105710668"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 <table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
 

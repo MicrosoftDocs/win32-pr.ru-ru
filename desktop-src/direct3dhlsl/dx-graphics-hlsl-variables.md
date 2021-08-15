@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 5e88ea398e1fcfeb38dc079c625f9633e112d60f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 68e049970ca0d1257de8b75818a1beafcc7d6390653e90335c638298c89d9f70
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103887992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118513000"
 ---
 # <a name="variables"></a>Переменные
 
@@ -24,16 +24,16 @@ ms.locfileid: "103887992"
 -   [Типы данных](dx-graphics-hlsl-data-types.md)
 -   [Семантика](dx-graphics-hlsl-semantics.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Синтаксис языка (DirectX HLSL)](dx-graphics-hlsl-language-syntax.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

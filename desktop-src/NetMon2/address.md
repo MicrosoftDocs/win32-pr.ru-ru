@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: c577758401bede53c79fd109caa6d8b9cb3d9163
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 899d68cb4d041c032ce17ac82866488dfd443071e5368d4ba87950de66a32ce3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663456"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117796536"
 ---
 # <a name="address-structure"></a>Структура адреса
 
@@ -54,7 +54,7 @@ typedef struct _ADDRESS {
 
 <dl> <dt>
 
-**Тип**
+**Type**
 </dt> <dd>
 
 Тип адреса. Значением может быть одно из следующих.
@@ -152,7 +152,7 @@ typedef struct _ADDRESS {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

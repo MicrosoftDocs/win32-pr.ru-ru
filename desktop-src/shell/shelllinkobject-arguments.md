@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: c9b8a32eb4b935b5164ef91bf299777b36d7e53d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3124e76ec8ba46f3e8915ac24c080c3e28caad620f7de1d100eaa7bb2316d851
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104266166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117857595"
 ---
 # <a name="shelllinkobjectarguments-property"></a>Шелллинкобжект. Arguments, свойство
 
@@ -42,9 +42,9 @@ ShellLinkObject.Arguments(sArguments) = strArguments
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере **аргументы** используются для получения аргументов для ссылки на Internet Explorer, найденного в меню "Пуск" пользователя. Правильное использование показано в JScript, VBScript и Visual Basic.
+в следующем примере **аргументы** используются для получения аргументов для ссылки на Internet Explorer, найденной в меню пользователя. правильное использование отображается для JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -176,13 +176,13 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>                                           |
+| Минимальная версия клиента<br/> | Windows 2000 Professional с SP3 \[ только для настольных приложений\]<br/>                                           |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                          |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                        |

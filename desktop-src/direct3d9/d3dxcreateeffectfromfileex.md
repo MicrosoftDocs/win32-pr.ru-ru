@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: b3d97c5aa23dd0711cfb00585e5b8ba7d410fc02
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5f0b329502e6b5e957e1d8c0761fe19fa6bc1e8420269a6329435ba27a53f44c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105720935"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118526558"
 ---
 # <a name="d3dxcreateeffectfromfileex-function"></a>Функция D3DXCreateEffectFromFileEx
 
@@ -135,7 +135,7 @@ HRESULT D3DXCreateEffectFromFileEx(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. Если функция завершается ошибкой, возвращаемое значение может быть одним из следующих: D3DERR \_ инвалидкалл, D3DXERR \_ INVALIDDATA, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция является расширенной версией [**D3DXCreateEffectFromFile**](d3dxcreateeffectfromfile.md) , позволяющей приложению указывать, какие константы эффектов будут управляться приложением. Константа, управляемая приложением, игнорируется системой эффектов. Это значит, что приложение отвечает за инициализацию константы, а также сохранение и восстановление состояния при необходимости.
 
@@ -150,13 +150,13 @@ HRESULT D3DXCreateEffectFromFileEx(
 
 Параметр компилятора также определяет версию функции. Если определен Юникод, вызов функции разрешается в D3DXCreateEffectFromFileW. В противном случае вызов функции разрешается в D3DXCreateEffectFromFileA, так как используются строки ANSI.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Effect. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Effect. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>     |
 
 

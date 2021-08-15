@@ -1,19 +1,19 @@
 ---
 title: Выполнение проверки нажатия на макете текста
-description: Содержит краткое руководство по добавлению проверки попадания в приложение DirectWrite, которое отображает текст с помощью интерфейса Идвритетекстлайаут.
+description: содержит краткое руководство по добавлению проверки попадания в DirectWrite приложение, которое отображает текст с помощью интерфейса идвритетекстлайаут.
 ms.assetid: ef30c931-10f6-4317-b2ea-b446990778b9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2ca80ac641920c4e63c08f4cbb0fd9e24eb7b2d
-ms.sourcegitcommit: b7a1da2711221fa99072079bf52399cbdfc6bd9d
+ms.openlocfilehash: 3d42967b069a7a5008de75c1cecb453a6158857eb2b05d2dd0298584a67cef69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "103999994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117816577"
 ---
 # <a name="how-to-perform-hit-testing-on-a-text-layout"></a>Выполнение проверки нажатия на макете текста
 
-Содержит краткое руководство по добавлению проверки попадания в приложение [DirectWrite](direct-write-portal.md) , которое отображает текст с помощью интерфейса [**идвритетекстлайаут**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) .
+содержит краткое руководство по добавлению проверки попадания в [DirectWrite](direct-write-portal.md) приложение, которое отображает текст с помощью интерфейса [**идвритетекстлайаут**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) .
 
 Результатом работы с этим руководством является приложение, которое подчеркивает символ, который щелкнули левой кнопкой мыши, как показано на следующем снимке экрана.
 

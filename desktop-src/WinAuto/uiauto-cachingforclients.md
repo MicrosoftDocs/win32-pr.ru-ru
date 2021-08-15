@@ -16,12 +16,12 @@ keywords:
 - шаблоны элементов управления, кэширование
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69f75a7dc9491565fdfdc0ecc73808c2fb6a9d82
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ae14fb607dd66ab1a4ea99cd9836f2f74e5c863afef8465843d3ea174186ef29
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410764"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118324978"
 ---
 # <a name="caching-ui-automation-properties-and-control-patterns"></a>Кэширование свойств и шаблонов элементов управления автоматизации пользовательского интерфейса
 
@@ -40,7 +40,7 @@ ms.locfileid: "104410764"
 -   [Получение кэшированных дочерних и родительских элементов](#retrieving-cached-children-and-parents)
 -   [Получение нового моментального снимка кэша](#retrieving-a-new-snapshot-of-the-cache)
 -   [Примеры](#examples)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="cache-requests"></a>Запросы кэша
 
@@ -75,7 +75,7 @@ ms.locfileid: "104410764"
 > [!Note]  
 > Нельзя кэшировать родителей или предков корневого элемента запроса.
 
- 
+ 
 
 ## <a name="retrieving-a-new-snapshot-of-the-cache"></a>Получение нового моментального снимка кэша
 
@@ -89,7 +89,7 @@ ms.locfileid: "104410764"
 
 Примеры кода, демонстрирующие использование возможностей кэширования в модели автоматизации пользовательского интерфейса, см. [в статье Использование кэширования](uiauto-howto-use-caching.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -105,9 +105,9 @@ ms.locfileid: "104410764"
 [Общие сведения о свойствах автоматизированного пользовательского интерфейса](uiauto-propertiesoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

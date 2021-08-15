@@ -4,12 +4,12 @@ ms.assetid: 5ee02af1-1dc9-4d21-868f-4c439970b1ba
 title: Тестирование обработчиков фильтров
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d2a2b0b6a6728051ab22590a481ad23a7197692
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 62b77fe098c2413e4f582ebfd98985dd09bf0ab9b5fc2def85fc7e954804dc1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104144122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118463101"
 ---
 # <a name="testing-filter-handlers"></a>Тестирование обработчиков фильтров
 
@@ -31,7 +31,7 @@ ms.locfileid: "104144122"
   - [Пример файла журнала](#sample-log-file)
   - [Пример файла дампа](#sample-dump-file)
 - [Дополнительные ресурсы](#additional-resources)
-- [См. также](#related-topics)
+- [Связанные темы](#related-topics)
 
 > [!NOTE]  
 > Если новый обработчик фильтра для типа файла устанавливается в качестве замены для существующей регистрации фильтра, установщик должен сохранить текущую регистрацию и восстановить ее при удалении нового обработчика фильтра. Механизм фильтрации цепочек отсутствует. Таким образом, новый обработчик фильтра отвечает за репликацию всех необходимых функций старого фильтра.
@@ -41,7 +41,7 @@ ms.locfileid: "104144122"
 Набор тестов [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) состоит из трех приложений командной строки: [ifilttst.exe](#ifilttstexe), [filtdump.exe](#filtdumpexe)и [filtreg.exe](#filtregexe) и файла инициализации [ifilttst.ini](#ifilttstini).
 
 > [!IMPORTANT]
-> В Windows 7 и более поздних версиях фильтры, написанные в управляемом коде, явным образом блокируются. Фильтры должны быть написаны в машинном коде из-за потенциальных проблем с управлением версиями среды CLR при работе нескольких надстроек.
+> в Windows 7 и более поздних версиях фильтры, написанные в управляемом коде, явным образом блокируются. Фильтры должны быть написаны в машинном коде из-за потенциальных проблем с управлением версиями среды CLR при работе нескольких надстроек.
 
 ### <a name="ifilttstexe"></a>ifilttst.exe
 
@@ -218,7 +218,7 @@ Filtreg.exe перечисляет все расширения имен файл
 
 ## <a name="ifilter-test-procedure"></a>Тестовая процедура IFilter
 
-После инициализации [**фильтра IFilter**](/windows/win32/api/filter/nn-filter-ifilter) программа ifilttst.exe выполняет ряд тестов на **IFilter**. Помимо реализации процедур тестирования **IFilter** убедитесь, что реализация **IFilter** использует методы безопасного кода. См. раздел «рекомендации по обеспечению безопасного кода для Windows Search» в разделе [Реализация обработчиков фильтров в Windows Search](-search-ifilter-constructing-filters.md).
+После инициализации [**фильтра IFilter**](/windows/win32/api/filter/nn-filter-ifilter) программа ifilttst.exe выполняет ряд тестов на **IFilter**. Помимо реализации процедур тестирования **IFilter** убедитесь, что реализация **IFilter** использует методы безопасного кода. см. раздел "рекомендации по обеспечению безопасного кода для Windowsного поиска" раздела [реализация обработчиков фильтров в Windowsном поиске](-search-ifilter-constructing-filters.md).
 
 ### <a name="validation-test"></a>Проверочный тест
 
@@ -266,9 +266,9 @@ Filtreg.exe перечисляет все расширения имен файл
 
 ## <a name="ensuring-registered-items-get-indexed"></a>Проверка индексации зарегистрированных элементов
 
-Окончательная проверка [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) гарантирует, что **IFilter** будет правильно зарегистрирована и вызвана для индексации элементов, которые вы зарегистрировали для использования. Можно использовать диспетчер каталогов для инициации повторного индексирования или использования диспетчера области сканирования (CSM) для настройки правил по умолчанию, указывающих URL-адреса, которые должен обходить индексатор. После завершения индексирования используйте пользовательский интерфейс поиска Windows для поиска строки в содержимом или свойствах элементов. Если элементы были проиндексированы, они будут отображаться в результатах поиска.
+Окончательная проверка [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) гарантирует, что **IFilter** будет правильно зарегистрирована и вызвана для индексации элементов, которые вы зарегистрировали для использования. Можно использовать диспетчер каталогов для инициации повторного индексирования или использования диспетчера области сканирования (CSM) для настройки правил по умолчанию, указывающих URL-адреса, которые должен обходить индексатор. после завершения индексирования используйте пользовательский интерфейс поиска Windows, чтобы найти строку в содержимом или свойствах элементов. Если элементы были проиндексированы, они будут отображаться в результатах поиска.
 
-Дополнительные сведения о повторной индексации см. в разделе [Использование диспетчера каталогов](-search-3x-wds-mngidx-catalog-manager.md) и [диспетчера области сканирования](-search-3x-wds-extidx-csm.md). В образце кода Реиндексматчингурлс показаны способы указания файлов для повторного индексирования и способа. В образце кода Кравлскопекоммандлине показано, как определить параметры командной строки для операций индексирования диспетчера области сканирования (CSM). Оба примера кода доступны на сайте [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch).
+Дополнительные сведения о повторной индексации см. в разделе [Использование диспетчера каталогов](-search-3x-wds-mngidx-catalog-manager.md) и [диспетчера области сканирования](-search-3x-wds-extidx-csm.md). В образце кода Реиндексматчингурлс показаны способы указания файлов для повторного индексирования и способа. В образце кода Кравлскопекоммандлине показано, как определить параметры командной строки для операций индексирования диспетчера области сканирования (CSM). Оба примера кода доступны на [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch).
 
 ### <a name="sample-log-file"></a>Пример файла журнала
 
@@ -371,23 +371,23 @@ WARNING-First call to GetText() returned FILTER_E_NO_MORE_TEXT.
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-- Пример кода [ифилтерсампле](-search-sample-ifiltersample.md) , доступный на [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample), демонстрирует создание базового класса IFilter для реализации интерфейса [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) .
+- пример кода [ифилтерсампле](-search-sample-ifiltersample.md) , доступный на [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample), демонстрирует создание базового класса IFilter для реализации интерфейса [**ifilter**](/windows/win32/api/filter/nn-filter-ifilter) .
 - Общие сведения о процессе индексирования см. [в разделе процесс индексирования](-search-indexing-process-overview.md).
 - Общие сведения о типах файлов см. в разделе [типы файлов](../shell/fa-file-types.md).
 - Сведения о запросе атрибутов сопоставления файлов для типа файлов см. в разделе [перцеиведтипес, системфилеассоЦиатионс и регистрация приложения](/previous-versions/windows/desktop/legacy/cc144150(v=vs.85)).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 [Разработка обработчиков фильтров](-search-ifilter-conceptual.md)
 
-[О обработчиках фильтров в поиске Windows](-search-ifilter-about.md)
+[сведения о обработчиках фильтров в Windowsном поиске](-search-ifilter-about.md)
 
-[Рекомендации по созданию обработчиков фильтров в поиске Windows](-search-3x-wds-extidx-filters.md)
+[рекомендации по созданию обработчиков фильтров в Windowsном поиске](-search-3x-wds-extidx-filters.md)
 
 [Возвращение свойств из обработчика фильтра](-search-ifilter-property-filtering.md)
 
 [Обработчики фильтров, поставляемые с Windows](-search-ifilter-implementations.md)
 
-[Реализация обработчиков фильтров в поиске Windows](-search-ifilter-constructing-filters.md)
+[реализация обработчиков фильтров в Windowsном поиске](-search-ifilter-constructing-filters.md)
 
 [Регистрация обработчиков фильтров](-search-ifilter-registering-filters.md)

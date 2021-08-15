@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 04/17/2020
-ms.openlocfilehash: ffe64a5ca79bbe886ddae31661c06dae695259a7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5d317ba21c69b22ae9c6b7cb5be0be84cd15f561b34ec65f1f99e7335cd1badb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117884291"
 ---
 # <a name="wm_input-message"></a>\_Входное сообщение WM
 
@@ -63,17 +63,17 @@ ms.locfileid: "104415296"
 
 Если приложение обрабатывает это сообщение, оно должно вернуть ноль.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Необработанные входные данные доступны, только если приложение вызывает [**регистерравинпутдевицес**](/windows/win32/api/winuser/nf-winuser-registerrawinputdevices) с допустимыми спецификациями устройств.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Значение |
 |--------------------------|-------------------------------------------|
-| Минимальная версия клиента | Только для \[ классических приложений Windows XP\] |
-| Минимальная версия сервера | \[Только для настольных приложений Windows Server 2003\] |
-| Header | <dl> <dt>**Winuser. h (включение Windows. h)**</dt> </dl> |
+| Минимальная версия клиента | Windows \[Только классические приложения XP\] |
+| Минимальная версия сервера | Windows Только для \[ настольных приложений сервера 2003\] |
+| Header | <dl> <dt>**Winuser. h (включает Windows. h)**</dt> </dl> |
 
 ## <a name="see-also"></a>См. также раздел
 

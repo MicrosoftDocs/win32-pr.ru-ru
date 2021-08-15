@@ -3,7 +3,7 @@ title: Сообщение EM_SETSCROLLPOS (RichEdit. h)
 description: Прокручивает содержимое элемента управления Rich Edit до указанной точки.
 ms.assetid: 9ec514a4-97b1-44ab-b2ca-973b1f6fc404
 keywords:
-- Элементы управления Windows для EM_SETSCROLLPOS сообщений
+- элементы управления Windows сообщений EM_SETSCROLLPOS
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec41ac5255059b8d40f3a4c2e9b666815b9094fc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4d1d86609c1b3f4b04ade24e5ea2f3343c367bbad0a52b8e07be7c18b2282536
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104492450"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118412339"
 ---
 # <a name="em_setscrollpos-message"></a>\_Сообщение СЕТСКРОЛЛПОС EM
 
@@ -49,14 +49,14 @@ ms.locfileid: "104492450"
 
 Это сообщение всегда возвращает значение 1.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Распространяемые компоненты<br/>          | Расширенное редактирование 3,0<br/>                                                              |
 | Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 

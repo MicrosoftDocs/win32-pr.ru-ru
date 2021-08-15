@@ -1,15 +1,15 @@
 ---
-description: Узнайте о установщик Windows концепциях, начинающихся с буквы R, например с помощью сокращенного пользовательского интерфейса и устойчивости.
+description: узнайте о установщик Windows концепциях, начинающихся с буквы R, например с помощью сокращенного пользовательского интерфейса и устойчивости.
 ms.assetid: 868cb5b7-d5ab-41c7-a6d4-d7964a8ff6de
 title: R (установщик Windows)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2622ddd13bcd0c6ed7969e88eb27d41e281bf2f4
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: 2ad5e18472c1f5f579165f70cb411abf6ec2ffa937bd0d0804b4a303b19b7393
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112011277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118376106"
 ---
 # <a name="r-windows-installer"></a>R (установщик Windows)
 
@@ -41,7 +41,7 @@ ms.locfileid: "112011277"
 <span id="_msi_rollback_gly"></span><span id="_MSI_ROLLBACK_GLY"></span>**отката**
 </dt> <dd>
 
-Автоматическое восстановление исходного состояния компьютера в случае сбоя установки. Дополнительные сведения см. в разделе [ROLLBACK Installation (установщик Windows)](rollback-installation.md).
+Автоматическое восстановление исходного состояния компьютера в случае сбоя установки. дополнительные сведения см. в разделе [Rollback Installation (установщик Windows)](rollback-installation.md).
 
 </dd> </dl>
 

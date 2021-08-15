@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e8f362262b36dee0bfc9a18e57010d102b2fa2cb
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f364243e40400884287c6219698991ccf8afc0be86a85ec612a5b193253994dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104134378"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117847539"
 ---
 # <a name="iamwmbufferpasscallbacknotify-method"></a>Метод Иамвмбуфферпасскаллбакк:: notify
 
@@ -31,10 +31,10 @@ ms.locfileid: "104134378"
 
 ```C++
 HRESULT Notify(
-  [in] INSSBuffer3    *pNSSBuffer3,
-  [in] IPin           *pPin,
-  [in] REFERENCE_TIME *prtStart,
-  [in] REFERENCE_TIME *prtEnd
+  [in] INSSBuffer3    *pNSSBuffer3,
+  [in] IPin           *pPin,
+  [in] REFERENCE_TIME *prtStart,
+  [in] REFERENCE_TIME *prtEnd
 );
 ```
 
@@ -76,7 +76,7 @@ HRESULT Notify(
 
 Не указано конкретное возвращаемое значение. Вызывающий ПИН-код игнорирует значение **HRESULT**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод позволяет приложению проверять данные в буфере мультимедиа перед обработкой содержимого буфера и работать с ними. Приложение несет ответственность за знание типа носителя в ПИН-коде. Эти сведения можно получить, сначала получив сведения о потоке из профиля, а затем вызвав метод [**IConfigAsfWriter2:: стреамнумфромпин**](iconfigasfwriter2-streamnumfrompin.md) , чтобы определить, какой ПИН-код связан с каждым потоком.
 
@@ -84,7 +84,7 @@ HRESULT Notify(
 
 <dl> <dt>
 
-[**Справочник по КАСФ DirectShow**](directshow-qasf-reference.md)
+[**DirectShow Справочник по КАСФ**](directshow-qasf-reference.md)
 </dt> <dt>
 
 [**Интерфейс Иамвмбуфферпасскаллбакк**](/previous-versions/windows/desktop/api/dshowasf/nn-dshowasf-iamwmbufferpasscallback)
@@ -93,6 +93,6 @@ HRESULT Notify(
 [**Интерфейс INSSBuffer3**](/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer3)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

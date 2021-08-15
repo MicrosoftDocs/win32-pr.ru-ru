@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4dc42251b928207a2b009a18c1d88e94dcf1492a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7cb1f83cfcbe673cd2d5701e57ae1e94d4e04b59b845cd9ec7b617077da24bb0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105691795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118310260"
 ---
 # <a name="orpc_dbg_buffer-structure"></a>\_ \_ Структура буфера ОРПК dbg
 
@@ -193,11 +193,11 @@ typedef struct _ORPC_DBG_BUFFER {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Члены этой структуры имеют однобайтовый выравнивание и всегда передаются с прямым порядком байтов.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 897a544cc9974b8ffa727f2d39219cfeab82d52a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5568a9d1db49dadb9e0e6497cfd4e5af357054f930c35ec6a7e05d59d5f60965
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104533392"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117726684"
 ---
 # <a name="defi---vs"></a>дефи — VS
 
@@ -29,12 +29,12 @@ ms.locfileid: "104533392"
 
 
 
- 
+ 
 
 -   DST — это регистр назначения.
 -   Интежервалуе \# — это постоянное целочисленное значение.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -44,7 +44,7 @@ ms.locfileid: "104533392"
 
 
 
- 
+ 
 
 Инструкция дефи определяет константу целочисленного шейдера, значение которой загружается в любое время в качестве шейдера для устройства. Они называются прямыми константами. Немедленные константы имеют приоритет над константами, заданными методом API Сетвертексшадерконстанти.
 
@@ -54,7 +54,7 @@ ms.locfileid: "104533392"
 2.  Используйте методы API для задания константы.
     -   Используйте [**сетвертексшадерконстанти**](/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setvertexshaderconstanti) для установки целочисленной константы.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -67,6 +67,6 @@ ms.locfileid: "104533392"
 [дефб — VS](defb---vs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

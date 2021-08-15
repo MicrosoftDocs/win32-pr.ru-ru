@@ -4,12 +4,12 @@ ms.assetid: ca709f27-8463-4f11-92ac-2148796e640a
 title: Редактор управления доступом
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65117fe086b6a374dbd973f2cb657ec9c19cc3a7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a3ed7c210c747278d35537fc010c66b60f0057d9a61b407eb04e993f8928f2d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105650871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118914682"
 ---
 # <a name="access-control-editor"></a>Редактор управления доступом
 

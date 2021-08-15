@@ -4,12 +4,12 @@ ms.assetid: 1ca3709e-88ea-40ca-8da4-c2259365122b
 title: Атрибут MF_TOPOLOGY_PROJECTSTOP (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5730791440131cd9efdbbb94ce15a598051f1e71
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 03ab227f1fdcda99148be3106b2ea724578f30bd9fd83756cd3b9d16f46ef993
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104544335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117875401"
 ---
 # <a name="mf_topology_projectstop-attribute"></a>\_ \_ Атрибут ПРОЖЕКТСТОП топологии MF
 
@@ -21,7 +21,7 @@ ms.locfileid: "104544335"
 
 Рассматривать как значение **лонглонг** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значение задается в единицах 100 наносекунд.
 
@@ -31,14 +31,14 @@ ms.locfileid: "104544335"
 
 Константа GUID для этого атрибута экспортируется из мфууид. lib.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                               |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 

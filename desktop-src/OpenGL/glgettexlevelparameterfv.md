@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c92f8b55b41d3538f116241a0401cedf643a5e55
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 1b4068b6544c334c4ca1c8e6640ccb4752669240cdde16d0522a4e13d06ebc8c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105664909"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118359780"
 ---
 # <a name="glgettexlevelparameterfv-function"></a>Функция Глжеттекслевелпараметерфв
 
@@ -109,13 +109,13 @@ void WINAPI glGetTexLevelParameterfv(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глжеттекслевелпараметер** возвращает значение параметра текстуры *params* для определенного уровня детализации, указанного как *Level*. *Целевой* параметр определяет целевую текстуру: "текстура 1Д, плоский, 2D, текстура, двухмерная, текстура \_ прокси-сервера GL \_ \_ \_ \_ \_ \_ или \_ двухмерная текстура прокси-сервера GL \_ \_ для указания одномерного или двумерного текстурирования. Параметр *pname* указывает параметр текстуры, значение или значения которого будут возвращены.
 
 Если возникает ошибка, содержимое *параметров* не изменяется.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

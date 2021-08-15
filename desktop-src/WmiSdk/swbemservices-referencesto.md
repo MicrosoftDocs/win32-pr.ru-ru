@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 73addea189815d1594d0963fbdd6e20c562b3be3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b703ab1384286ecfc3a797f88ec18cafe8b6142acf586c7f96e4ae9b4085f7cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104156759"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118312503"
 ---
 # <a name="swbemservicesreferencesto-method"></a>SWbemServices. Референцесто, метод
 
@@ -120,7 +120,7 @@ objWbemObjectSet = .ReferencesTo( _
 
 </dt> <dd>
 
-Заставляет инструментарий управления Windows (WMI) (WMI) хранить указатели на объекты перечисления до тех пор, пока клиент не освободит перечислитель.
+заставляет инструментарий управления Windows (WMI) (WMI) хранить указатели на объекты перечисления до тех пор, пока клиент не освободит перечислитель.
 
 </dd> <dt>
 
@@ -214,11 +214,11 @@ objWbemObjectSet = .ReferencesTo( _
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Дополнительные сведения о ССЫЛКАх на связанный WQL-запрос, исходные экземпляры и объекты связи см. в разделе [соединители оператора](associators-of-statement.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

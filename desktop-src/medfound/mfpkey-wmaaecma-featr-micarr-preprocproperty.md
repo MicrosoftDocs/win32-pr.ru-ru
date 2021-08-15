@@ -4,12 +4,12 @@ ms.assetid: 0f197165-e6e5-456b-9615-1edc8ada7bb5
 title: Свойство MFPKEY_WMAAECMA_FEATR_MICARR_PREPROC (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f992d8d26ba547eb1b5d1eac470536a963209f56
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ebbba5faeb1a1e70feb1ef6182d3ac2a397a52c4a56f27e767be93f4a3fff773
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117873018"
 ---
 # <a name="mfpkey_wmaaecma_featr_micarr_preproc-property"></a>МФПКЭЙ \_ вмааекма \_ феатр \_ микарр, \_ свойство
 
@@ -27,11 +27,11 @@ ms.locfileid: "105701815"
 
 ВАРИАНТ \_ true
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [DSP для записи речи](voicecapturedmo.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Предварительная обработка может удалить стационарные звуки, мешающие обработке, например тон с фиксированным шагом.
 
@@ -52,14 +52,14 @@ ms.locfileid: "105701815"
 
 DSP использует это свойство только в том случае, если включена обработка массива микрофона.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 

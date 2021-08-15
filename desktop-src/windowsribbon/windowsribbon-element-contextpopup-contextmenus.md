@@ -3,7 +3,7 @@ title: Контекстпопуп. ContextMenus, свойство
 description: Представляет контейнер для элементов ContextMenu.
 ms.assetid: 92633689-a892-421e-a5fb-e494f4cd1ea8
 keywords:
-- Лента Windows для свойства Контекстпопуп. ContextMenu
+- свойство контекстпопуп. contextmenus Windows лента
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 12ef8ab053b9912f545c2aad931eb8ad9583ff62
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 45641f1431726ec75c60be48683f19fb3139cbd9159baaed9def3b293a48772d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105701075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117851020"
 ---
 # <a name="contextpopupcontextmenus-property"></a>Контекстпопуп. ContextMenus, свойство
 
@@ -55,7 +55,7 @@ ms.locfileid: "105701075"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Необязательный элемент.
 
@@ -152,14 +152,14 @@ ms.locfileid: "105701075"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>              |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>              |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/> |
 
 
 

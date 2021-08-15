@@ -4,12 +4,12 @@ ms.assetid: D116798F-E381-46D4-8271-8BD8CADC9D27
 title: Перечисление прямых манипуляций
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: c697f5d8467afb58537475453b08dacfa8867fb0
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 540d3b953a368ae335972d61d13c5866ffc14b40e17e83acd6fb19d5c1e15aa1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104537277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118504336"
 ---
 # <a name="direct-manipulation-enumerations"></a>Перечисление прямых манипуляций
 
@@ -35,6 +35,6 @@ ms.locfileid: "104537277"
 | [**ДИРЕКТМАНИПУЛАТИОН \_ VERTICALALIGNMENT**](/windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_verticalalignment)<br/>                | Определяет параметры вертикального выравнивания содержимого в окне просмотра.<br/>                                                                                                                                                                    |
 | [**\_Параметры окна просмотра директманипулатион \_**](/windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_viewport_options)<br/>                 | Определяет параметры поведения ввода для окна просмотра.<br/>                                                                                                                                                                                        |
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 [Ссылка на прямую манипуляцию](direct-manipulation-reference.md)

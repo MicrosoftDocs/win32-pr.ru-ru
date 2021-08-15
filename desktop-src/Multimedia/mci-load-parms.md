@@ -3,7 +3,7 @@ title: Структура MCI_LOAD_PARMS (Ммсистем. h)
 description: '\_ \_ Структура ПАРМС нагрузки MCI содержит имя файла для загрузки \_ команды MCI Load.'
 ms.assetid: 371d11cc-44db-496b-b51a-66d7b919b794
 keywords:
-- MCI_LOAD_PARMS структура мультимедиа Windows
+- структура MCI_LOAD_PARMS Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 04697a52eb9f8bb33db6063eb47e791be674f1d2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d52a5c875bbbfff6f94857bc7337a0cba1473571bfdb8edc8ccfa8f3f1a471fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103803359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118375009"
 ---
 # <a name="mci_load_parms-structure"></a>\_ \_ Структура ПАРМС загрузки MCI
 
@@ -55,11 +55,11 @@ typedef struct {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При назначении данных членам этой структуры установите соответствующие флаги в параметре *фдвкомманд* функции [**мЦисендкомманд**](/previous-versions//dd757160(v=vs.85)) , чтобы проверить элементы.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

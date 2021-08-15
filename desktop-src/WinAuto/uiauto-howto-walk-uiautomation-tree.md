@@ -4,12 +4,12 @@ description: В этом разделе содержится пример код
 ms.assetid: 41ca783d-56d1-4ad5-8f07-c265ff2e07bd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ed5c6c1bec961d4f0df83687cd19eecba6ed179
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 16fe6539a24f271f5c1e8042b1be9933a77f1118b27730d510026de1852d7938
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888228"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118324452"
 ---
 # <a name="how-to-walk-the-ui-automation-tree"></a>Пошаговое руководство по дереву модели автоматизации пользовательского интерфейса
 
@@ -17,7 +17,7 @@ ms.locfileid: "103888228"
 
 -   [Проход по потомкам элемента](#walking-through-descendants-of-an-element)
 -   [Проход по элементам предка](#walking-through-ancestor-elements)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="walking-through-descendants-of-an-element"></a>Проход по потомкам элемента
 
@@ -149,7 +149,7 @@ cleanup:
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -162,9 +162,9 @@ cleanup:
 [Разделы руководства по клиентам автоматизации пользовательского интерфейса](uiauto-howto-topics-for-uiautomation-clients.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

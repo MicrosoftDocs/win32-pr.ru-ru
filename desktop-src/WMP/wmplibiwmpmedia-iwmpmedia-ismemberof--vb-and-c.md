@@ -3,9 +3,9 @@ title: Ивмпмедиа isMemberOf, метод
 description: Метод isMemberOf возвращает значение, указывающее, является ли указанный элемент мультимедиа членом указанного списка воспроизведения.
 ms.assetid: 491e0dd5-38e5-47a5-9c94-f1d27d297f8d
 keywords:
-- isMemberOf метод Windows Media Player
-- isMemberOf метод проигрывателя Windows Media Player, интерфейс Ивмпмедиа
-- Интерфейс Ивмпмедиа Windows Media Player, метод isMemberOf
+- проигрыватель Windows Media метода isMemberOf
+- проигрыватель Windows Media метода isMemberOf, интерфейс ивмпмедиа
+- проигрыватель Windows Media интерфейса ивмпмедиа, метод isMemberOf
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f627e9b2f0e1c4b226dda13d280d521ad52df2ee
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 485121f0ac9c4c441ff90e34b90ef5c9475c22995565b018d3f0e00dc5d94740
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117746019"
 ---
 # <a name="iwmpmediaismemberof-method"></a>Метод Ивмпмедиа:: isMemberOf
 
@@ -64,7 +64,7 @@ Implements IWMPMedia.isMemberOf
 
 Значение **System. Boolean** , указывающее, является ли элемент мультимедиа членом списка воспроизведения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод не может проверять списки воспроизведения, полученные через интерфейс **ивмпмедиаколлектион** . Чтобы проверить, является ли элемент мультимедиа членом определенного списка воспроизведения, извлеките коллекцию списков воспроизведения с помощью свойства **аксвиндовсмедиаплайер. плайлистколлектион** . После получения коллекции Извлеките отдельный список воспроизведения, вызвав метод **ивмпплайлистколлектион. жетбинаме** .
 
@@ -106,13 +106,13 @@ End If
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

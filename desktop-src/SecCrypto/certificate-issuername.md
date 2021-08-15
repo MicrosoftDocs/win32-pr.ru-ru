@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 6b34b3bf198759d08fd3d0e3e4261407389a69a2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f4404a105748a79ef942f37c088a5436fc3eeea0784bb6ff814dd0782262dcf2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117771587"
 ---
 # <a name="certificateissuername-property"></a>Свойство Certificate. IssuerName
 
@@ -41,7 +41,7 @@ Certificate.IssuerName As String
 
 Строка, содержащая имя издателя сертификата.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

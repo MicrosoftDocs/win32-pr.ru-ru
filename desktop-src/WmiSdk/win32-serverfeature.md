@@ -1,5 +1,5 @@
 ---
-description: Класс Win32 \_ ServerFeature представляет компоненты, установленные на компьютере под Windows Server.
+description: класс Win32 \_ ServerFeature представляет компоненты, установленные на компьютере, на котором работает Windows Server.
 ms.assetid: fe3bb95c-7f69-47b5-9c3d-771cdc3ed9ca
 ms.tgt_platform: multiple
 title: Класс Win32_ServerFeature
@@ -17,18 +17,18 @@ api_type:
 - DllExport
 api_location:
 - ServerCompProv.dll
-ms.openlocfilehash: 1be8a2ea1d646e9d882febc7c8eba08b69bb69f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eddbd71108a5b6b65de329e1c110c965f437e4c24f7ba0a681935ba5075351fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703112"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118312141"
 ---
 # <a name="win32_serverfeature-class"></a>\_Класс Win32 ServerFeature
 
 \[Класс **Win32 \_ ServerFeature** доступен для использования в операционных системах, указанных в разделе требования. В последующих версиях он может быть изменен или недоступен. Вместо этого используйте [классы поставщика ServerManager deploymentProvider](/previous-versions/windows/desktop/srvmgrdeployprov/server-manager-deployment).\]
 
-Класс **Win32 \_ ServerFeature** представляет компоненты, установленные на компьютере под Windows Server.
+класс **Win32 \_ ServerFeature** представляет компоненты, установленные на компьютере, на котором работает Windows Server.
 
 Этот класс может использоваться разработчиками и администраторами, которым необходимо автоматизировать процесс определения функций, установленных на наборе серверных компьютеров. Экземпляры этого класса недоступны на клиентских компьютерах.
 
@@ -50,7 +50,7 @@ class Win32_ServerFeature
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ ServerFeature** имеет следующие свойства.
 
@@ -102,7 +102,7 @@ class Win32_ServerFeature
 
 8
 
-[Службы федерации Active Directory (AD FS)](/windows)
+[Active Directory Federation Services](/windows) (Службы федерации Active Directory)
 
 9
 
@@ -174,7 +174,7 @@ Hyper-V
 
 39
 
-[cистема архивации данных Windows Server функции](/windows)
+[Windows Функции резервного копирования сервера](/windows)
 
 40
 
@@ -222,7 +222,7 @@ SMTP-сервер
 
 52
 
-[Диспетчер хранилища для сетей SAN](/windows)
+[служба хранилища Диспетчер для сетей SAN](/windows)
 
 53
 
@@ -234,7 +234,7 @@ SMTP-сервер
 
 57
 
-[Multipath I/O;](/windows)
+[Multipath I/O](/windows)
 
 58
 
@@ -246,7 +246,7 @@ TFTP-клиент
 
 60
 
-[Диспетчер съемных носителей](/windows)
+[диспетчер съемных служба хранилища](/windows)
 
 61
 
@@ -334,7 +334,7 @@ TFTP-клиент
 
 351
 
-[Интегрированная среда сценариев Windows PowerShell (ISE)](/windows)<br/>
+[Windows PowerShell Интегрированная среда сценариев (ISE)](/windows)<br/>
 
 352
 
@@ -472,7 +472,7 @@ TFTP-клиент
 
 437
 
-[Поставщик хранилища цели iSCSI (поставщики оборудования VDS и VSS)](/windows)
+[поставщик служба хранилища цели iSCSI (поставщики оборудования VDS и VSS)](/windows)
 
 486
 
@@ -512,7 +512,7 @@ TFTP-клиент
 
 120
 
-[Windows Media Server](/windows)
+[Windows Сервер мультимедиа](/windows)
 
 121
 
@@ -530,7 +530,7 @@ ADFS — службы ролей (8)
 
 125
 
-[Службы федерации Active Directory (AD FS)](/windows)
+[Active Directory Federation Services](/windows) (Службы федерации Active Directory)
 
 126
 
@@ -872,7 +872,7 @@ FTP-сервер
 
 196
 
-[Поддержка клиентов Windows 2000](/windows)<br/>
+[поддержка клиентов Windows 2000](/windows)<br/>
 
 197
 
@@ -912,7 +912,7 @@ DCOM-прокси очереди сообщений
 
 [веб-служба политик регистрации сертификатов](/windows)<br/>
 
-Службы политики сети и доступа — службы ролей (14)
+политика сети и службы ролей службы Access (14)
 
 Значение
 
@@ -928,7 +928,7 @@ DCOM-прокси очереди сообщений
 
 207
 
-[Службы удаленного доступа](/windows)
+[удаленный службы Access](/windows)
 
 208
 
@@ -956,7 +956,7 @@ DCOM-прокси очереди сообщений
 
 [База данных служб UDDI](/windows)<br/>
 
-Служба активации процессов Windows — службы ролей (41)
+Windows Служба активации процессов — службы ролей (41)
 
 Значение
 
@@ -974,7 +974,7 @@ API настройки
 
 Модель процесса
 
-Платформа .NET Framework 3.5.1 — функции (36)
+платформа .NET Framework 3.5.1 — функции (36)
 
 Значение
 
@@ -1038,7 +1038,7 @@ API настройки
 
 234
 
-[Поддержка службы активации процессов Windows](/windows)
+[Windows Поддержка службы активации процессов](/windows)
 
 235
 
@@ -1076,7 +1076,7 @@ API настройки
 
 [Расширения сервера приложений для .NET 4,0](/windows)<br/>
 
-Службы развертывания Windows — роль (19)
+Windows Службы развертывания — роль (19)
 
 Значение
 
@@ -1090,7 +1090,7 @@ API настройки
 
 Транспортный сервер
 
-Службы ролей службы Active Directory Rights Management (17)
+службы ролей службы Active Directory Rights Management (17)
 
 Значение
 
@@ -1140,11 +1140,11 @@ API настройки
 
 263
 
-[Средства службы удаленных рабочих столов](/windows)<br/> [изменение имени](/windows)<br/>
+[Средства служб удаленных рабочих столов](/windows)<br/> [изменение имени](/windows)<br/>
 
 264
 
-Средства служб развертывания Windows
+Windows Средства служб развертывания
 
 265
 
@@ -1248,7 +1248,7 @@ API настройки
 
 326
 
-[Служебные программы шифрование диска BitLocker Administration](/windows)<br/>
+[Средства администрирования шифрования диска BitLocker](/windows)<br/>
 
 329
 
@@ -1268,7 +1268,7 @@ API настройки
 
 410
 
-[Клиент управления IP-адресами (IPAM)](/windows)
+[клиент управление IP-адресами (IPAM)](/windows)
 
 450
 
@@ -1276,11 +1276,11 @@ API настройки
 
 462
 
-[Средства службы Active Directory Rights Management](/windows)
+[службы Active Directory Rights Management Инструментари](/windows)
 
 465
 
-[Средство управления общими ресурсами и хранилищами](/windows)
+[средство управления общими ресурсами и служба хранилища](/windows)
 
 471
 
@@ -1296,7 +1296,7 @@ API настройки
 
 474
 
-[Средства Windows Server Update Services](/windows)
+[Средства служб Windows Server Update Services](/windows)
 
 476
 
@@ -1308,9 +1308,9 @@ API настройки
 
 480
 
-[Средства многопользовательской активации](/windows)
+[Инструменты корпоративной активации](/windows)
 
-Функции cистема архивации данных Windows Server (39)
+Windows Резервное копирование сервера — функции (39)
 
 Значение
 
@@ -1364,11 +1364,11 @@ API настройки
 
 342
 
-[Подсистема WoW64 для платформа .NET Framework 2,0 и Windows PowerShell](/windows)<br/>
+[подсистема WoW64 для платформа .NET Framework 2,0 и Windows PowerShell](/windows)<br/>
 
 343
 
-[Подсистема WoW64 для платформа .NET Framework 2,0](/windows)<br/>
+[подсистема WoW64 для платформа .NET Framework 2,0](/windows)<br/>
 
 344
 
@@ -1376,7 +1376,7 @@ API настройки
 
 345
 
-[Подсистема WoW64 для платформа .NET Framework 3,0 и 3,5](/windows)<br/>
+[подсистема WoW64 для платформа .NET Framework 3,0 и 3,5](/windows)<br/>
 
 346
 
@@ -1392,7 +1392,7 @@ API настройки
 
 349
 
-[Подсистема WoW64 для приложений на основе UNIX](/windows)<br/>
+[подсистема WoW64 для приложений на основе UNIX](/windows)<br/>
 
 Пользовательские интерфейсы и инфраструктура — службы ролей (447)
 
@@ -1420,7 +1420,7 @@ API настройки
 
 406
 
-[Подключение SQL Server](/windows)
+[SQL Server Установлен](/windows)
 
 407
 
@@ -1434,7 +1434,7 @@ API настройки
 
 [Подключение WID](/windows)
 
-Windows PowerShell — функции (417)
+функции Windows PowerShell (417)
 
 Значение
 
@@ -1442,7 +1442,7 @@ Windows PowerShell — функции (417)
 
 411
 
-[Подсистема Windows PowerShell 2,0](/windows)
+[подсистема Windows PowerShell 2,0](/windows)
 
 412
 
@@ -1454,9 +1454,9 @@ Windows PowerShell — функции (417)
 
 1000
 
-[Служба настройки требуемого состояния Windows PowerShell](/windows)
+[служба Desired State Configuration Windows PowerShell](/windows)
 
-Платформа .NET Framework 4,5-функции (418)
+платформа .NET Framework 4,5-функции (418)
 
 Значение
 
@@ -1464,7 +1464,7 @@ Windows PowerShell — функции (417)
 
 419
 
-[Расширенная платформа .NET Framework 4,5](/windows)
+[расширенная платформа .NET Framework 4,5](/windows)
 
 420
 
@@ -1508,7 +1508,7 @@ Windows PowerShell — функции (417)
 
 [Маршрутизация](#routing)
 
-Службы файлов и хранения — роль (481)
+файловые и служба хранилищаные службы — роль (481)
 
 Значение
 
@@ -1528,7 +1528,7 @@ Windows PowerShell — функции (417)
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -1554,11 +1554,11 @@ Windows PowerShell — функции (417)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Ознакомьтесь с [техническим обзором Windows Server 2008 диспетчер сервера](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753319(v=ws.10)) , чтобы узнать о возможностях сервера.
+ознакомьтесь с [техническим обзором Windows server 2008 диспетчер сервера](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753319(v=ws.10)) , чтобы узнать о возможностях сервера.
 
-Предприятия, которые не используют программное обеспечение для управления, которое сообщает о возможностях сервера, например System Center Operations Manager с установленными пакетами управления, могут получить эту информацию, запросив класс **Win32 \_ ServerFeature** .
+предприятия, которые не используют программное обеспечение для управления, которое сообщает о возможностях сервера, например System Center Operations Manager с установленными пакетами управления, могут получить эту информацию, запросив класс **Win32 \_ ServerFeature** .
 
 Функции удаленного взаимодействия WMI или WinRM можно использовать для получения сведений о компонентах сервера с удаленных серверов. Дополнительные сведения об удаленных DCOM-подключениях WMI см. в разделе [Подключение к WMI на удаленном компьютере](connecting-to-wmi-on-a-remote-computer.md). Дополнительные сведения о WinRM см. в статье Windows Remote Management (Удаленное управление Windows).
 
@@ -1575,7 +1575,7 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id="Streaming_Media_Services"></span><span id="streaming_media_services"></span><span id="STREAMING_MEDIA_SERVICES"></span>Службы потокового мультимедиа
+<span id="Streaming_Media_Services"></span><span id="streaming_media_services"></span><span id="STREAMING_MEDIA_SERVICES"></span>потоковая передача Cлужбы мультимедиа
 </dt> <dd>
 
 Больше не поддерживается
@@ -1631,21 +1631,21 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id=".NET_Framework_3.5.1_Features"></span><span id=".net_framework_3.5.1_features"></span><span id=".NET_FRAMEWORK_3.5.1_FEATURES"></span>Функции платформа .NET Framework 3.5.1
+<span id=".NET_Framework_3.5.1_Features"></span><span id=".net_framework_3.5.1_features"></span><span id=".NET_FRAMEWORK_3.5.1_FEATURES"></span>функции платформа .NET Framework 3.5.1
 </dt> <dd>
 
 Больше не поддерживается
 
 </dd> <dt>
 
-<span id="Windows_System_Resource_Manager"></span><span id="windows_system_resource_manager"></span><span id="WINDOWS_SYSTEM_RESOURCE_MANAGER"></span>диспетчер ресурсов системы Windows
+<span id="Windows_System_Resource_Manager"></span><span id="windows_system_resource_manager"></span><span id="WINDOWS_SYSTEM_RESOURCE_MANAGER"></span>Windows Системные диспетчер ресурсов
 </dt> <dd>
 
 Больше не поддерживается
 
 </dd> <dt>
 
-<span id="Windows_Server_Backup_Features"></span><span id="windows_server_backup_features"></span><span id="WINDOWS_SERVER_BACKUP_FEATURES"></span>cистема архивации данных Windows Server функции
+<span id="Windows_Server_Backup_Features"></span><span id="windows_server_backup_features"></span><span id="WINDOWS_SERVER_BACKUP_FEATURES"></span>Windows Функции резервного копирования сервера
 </dt> <dd>
 
 Больше не поддерживается
@@ -1680,21 +1680,21 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id="Windows_Internal_Database"></span><span id="windows_internal_database"></span><span id="WINDOWS_INTERNAL_DATABASE"></span>Внутренняя база данных Windows
+<span id="Windows_Internal_Database"></span><span id="windows_internal_database"></span><span id="WINDOWS_INTERNAL_DATABASE"></span>внутренняя база данных Windows
 </dt> <dd>
 
 Больше не поддерживается
 
 </dd> <dt>
 
-<span id="Storage_Manager_For_SANs"></span><span id="storage_manager_for_sans"></span><span id="STORAGE_MANAGER_FOR_SANS"></span>Диспетчер хранилища для сетей SAN
+<span id="Storage_Manager_For_SANs"></span><span id="storage_manager_for_sans"></span><span id="STORAGE_MANAGER_FOR_SANS"></span>служба хранилища Диспетчер для сетей SAN
 </dt> <dd>
 
 Больше не поддерживается
 
 </dd> <dt>
 
-<span id="Internet_Storage_Name_Server"></span><span id="internet_storage_name_server"></span><span id="INTERNET_STORAGE_NAME_SERVER"></span>Сервер службы имен хранилищ Интернета
+<span id="Internet_Storage_Name_Server"></span><span id="internet_storage_name_server"></span><span id="INTERNET_STORAGE_NAME_SERVER"></span>сервер интернет служба хранилища имя
 </dt> <dd>
 
 Больше не поддерживается
@@ -1736,7 +1736,7 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id="Quality_Windows_Audio_Video_Experience"></span><span id="quality_windows_audio_video_experience"></span><span id="QUALITY_WINDOWS_AUDIO_VIDEO_EXPERIENCE"></span>Качество звука Windows Audio Video
+<span id="Quality_Windows_Audio_Video_Experience"></span><span id="quality_windows_audio_video_experience"></span><span id="QUALITY_WINDOWS_AUDIO_VIDEO_EXPERIENCE"></span>качество звука Windows Audio Video
 </dt> <dd>
 
 Больше не поддерживается
@@ -1764,7 +1764,7 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id="Windows_Server_Migration_Tools"></span><span id="windows_server_migration_tools"></span><span id="WINDOWS_SERVER_MIGRATION_TOOLS"></span>средства миграции Windows Server
+<span id="Windows_Server_Migration_Tools"></span><span id="windows_server_migration_tools"></span><span id="WINDOWS_SERVER_MIGRATION_TOOLS"></span>Windows Средства миграции сервера
 </dt> <dd>
 
 Больше не поддерживается
@@ -1806,7 +1806,7 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id="IP_Address_Management__IPAM__Server"></span><span id="ip_address_management__ipam__server"></span><span id="IP_ADDRESS_MANAGEMENT__IPAM__SERVER"></span>Сервер управления IP-адресами (IPAM)
+<span id="IP_Address_Management__IPAM__Server"></span><span id="ip_address_management__ipam__server"></span><span id="IP_ADDRESS_MANAGEMENT__IPAM__SERVER"></span>сервер управление IP-адресами (IPAM)
 </dt> <dd>
 
 Добавлено
@@ -1820,14 +1820,14 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id=".NET_Framework_4.5"></span><span id=".net_framework_4.5"></span><span id=".NET_FRAMEWORK_4.5"></span>Платформа .NET Framework 4,5
+<span id=".NET_Framework_4.5"></span><span id=".net_framework_4.5"></span><span id=".NET_FRAMEWORK_4.5"></span>платформа .NET Framework 4,5
 </dt> <dd>
 
 Добавлено
 
 </dd> <dt>
 
-<span id="Windows_Search_Service"></span><span id="windows_search_service"></span><span id="WINDOWS_SEARCH_SERVICE"></span>Служба поиска Windows
+<span id="Windows_Search_Service"></span><span id="windows_search_service"></span><span id="WINDOWS_SEARCH_SERVICE"></span>Windows Служба поиска
 </dt> <dd>
 
 Добавлено
@@ -1855,14 +1855,14 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id=".NET_Framework_4.5_Advanced_Services"></span><span id=".net_framework_4.5_advanced_services"></span><span id=".NET_FRAMEWORK_4.5_ADVANCED_SERVICES"></span>Платформа .NET Framework 4,5 дополнительные службы
+<span id=".NET_Framework_4.5_Advanced_Services"></span><span id=".net_framework_4.5_advanced_services"></span><span id=".NET_FRAMEWORK_4.5_ADVANCED_SERVICES"></span>платформа .NET Framework 4,5 дополнительные службы
 </dt> <dd>
 
 Добавлено
 
 </dd> <dt>
 
-<span id=".NET_Framework_4.5_Features"></span><span id=".net_framework_4.5_features"></span><span id=".NET_FRAMEWORK_4.5_FEATURES"></span>Функции платформа .NET Framework 4,5
+<span id=".NET_Framework_4.5_Features"></span><span id=".net_framework_4.5_features"></span><span id=".NET_FRAMEWORK_4.5_FEATURES"></span>функции платформа .NET Framework 4,5
 </dt> <dd>
 
 Добавлено
@@ -1883,14 +1883,14 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id="File_and_Storage_Services"></span><span id="file_and_storage_services"></span><span id="FILE_AND_STORAGE_SERVICES"></span>Службы файлов и хранилища
+<span id="File_and_Storage_Services"></span><span id="file_and_storage_services"></span><span id="FILE_AND_STORAGE_SERVICES"></span>файловые и служба хранилищаные службы
 </dt> <dd>
 
 Добавлено
 
 </dd> <dt>
 
-<span id="Windows_Server_Essentials_Experience"></span><span id="windows_server_essentials_experience"></span><span id="WINDOWS_SERVER_ESSENTIALS_EXPERIENCE"></span>Опыт работы с Windows Server Essentials
+<span id="Windows_Server_Essentials_Experience"></span><span id="windows_server_essentials_experience"></span><span id="WINDOWS_SERVER_ESSENTIALS_EXPERIENCE"></span>Windows Интерфейс Essentials Server
 </dt> <dd>
 
 Добавлено
@@ -1925,14 +1925,14 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id="Single_Instance_Storage"></span><span id="single_instance_storage"></span><span id="SINGLE_INSTANCE_STORAGE"></span>Хранилище единственных экземпляров
+<span id="Single_Instance_Storage"></span><span id="single_instance_storage"></span><span id="SINGLE_INSTANCE_STORAGE"></span>служба хранилища одного экземпляра
 </dt> <dd>
 
 Больше не поддерживается
 
 </dd> <dt>
 
-<span id="Windows_Search_Service"></span><span id="windows_search_service"></span><span id="WINDOWS_SEARCH_SERVICE"></span>Служба поиска Windows
+<span id="Windows_Search_Service"></span><span id="windows_search_service"></span><span id="WINDOWS_SEARCH_SERVICE"></span>Windows Служба поиска
 </dt> <dd>
 
 Больше не поддерживается
@@ -1946,7 +1946,7 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id="iSCSI_Target_Storage_Provider__VDS_and_VSS_hardware_providers_"></span><span id="iscsi_target_storage_provider__vds_and_vss_hardware_providers_"></span><span id="ISCSI_TARGET_STORAGE_PROVIDER__VDS_AND_VSS_HARDWARE_PROVIDERS_"></span>Поставщик хранилища цели iSCSI (поставщики оборудования VDS и VSS)
+<span id="iSCSI_Target_Storage_Provider__VDS_and_VSS_hardware_providers_"></span><span id="iscsi_target_storage_provider__vds_and_vss_hardware_providers_"></span><span id="ISCSI_TARGET_STORAGE_PROVIDER__VDS_AND_VSS_HARDWARE_PROVIDERS_"></span>поставщик служба хранилища цели iSCSI (поставщики оборудования VDS и VSS)
 </dt> <dd>
 
 Добавлено
@@ -1995,7 +1995,7 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id="Windows_Media_Server"></span><span id="windows_media_server"></span><span id="WINDOWS_MEDIA_SERVER"></span>Windows Media Server
+<span id="Windows_Media_Server"></span><span id="windows_media_server"></span><span id="WINDOWS_MEDIA_SERVER"></span>Windows Сервер мультимедиа
 </dt> <dd>
 
 Больше не поддерживается.
@@ -2037,7 +2037,7 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id="Windows_Token-based_Agent"></span><span id="windows_token-based_agent"></span><span id="WINDOWS_TOKEN-BASED_AGENT"></span>Агент Windows на основе токенов
+<span id="Windows_Token-based_Agent"></span><span id="windows_token-based_agent"></span><span id="WINDOWS_TOKEN-BASED_AGENT"></span>Windows Агент на основе токенов
 </dt> <dd>
 
 Больше не поддерживается
@@ -2065,7 +2065,7 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id="Remote_Access_Services"></span><span id="remote_access_services"></span><span id="REMOTE_ACCESS_SERVICES"></span>Службы удаленного доступа
+<span id="Remote_Access_Services"></span><span id="remote_access_services"></span><span id="REMOTE_ACCESS_SERVICES"></span>удаленный службы Access
 </dt> <dd>
 
 Больше не поддерживается
@@ -2093,7 +2093,7 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id=".NET_Framework_3.5.1"></span><span id=".net_framework_3.5.1"></span><span id=".NET_FRAMEWORK_3.5.1"></span>Платформа .NET Framework 3.5.1
+<span id=".NET_Framework_3.5.1"></span><span id=".net_framework_3.5.1"></span><span id=".NET_FRAMEWORK_3.5.1"></span>платформа .NET Framework 3.5.1
 </dt> <dd>
 
 Больше не поддерживается
@@ -2121,7 +2121,7 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id=".NET_Framework_3.5.1"></span><span id=".net_framework_3.5.1"></span><span id=".NET_FRAMEWORK_3.5.1"></span>Платформа .NET Framework 3.5.1
+<span id=".NET_Framework_3.5.1"></span><span id=".net_framework_3.5.1"></span><span id=".NET_FRAMEWORK_3.5.1"></span>платформа .NET Framework 3.5.1
 </dt> <dd>
 
 Больше не поддерживается
@@ -2149,7 +2149,7 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id="Windows_Process_Activation_Service_Support"></span><span id="windows_process_activation_service_support"></span><span id="WINDOWS_PROCESS_ACTIVATION_SERVICE_SUPPORT"></span>Поддержка службы активации процессов Windows
+<span id="Windows_Process_Activation_Service_Support"></span><span id="windows_process_activation_service_support"></span><span id="WINDOWS_PROCESS_ACTIVATION_SERVICE_SUPPORT"></span>Windows Поддержка службы активации процессов
 </dt> <dd>
 
 Больше не поддерживается
@@ -2240,7 +2240,7 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id="Network_Policy_and_Access_Services"></span><span id="network_policy_and_access_services"></span><span id="NETWORK_POLICY_AND_ACCESS_SERVICES"></span>Службы политики сети и доступа
+<span id="Network_Policy_and_Access_Services"></span><span id="network_policy_and_access_services"></span><span id="NETWORK_POLICY_AND_ACCESS_SERVICES"></span>сетевая политика и службы Access
 </dt> <dd>
 
 Больше не поддерживается
@@ -2324,7 +2324,7 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id="IP_Address_Management__IPAM__Client"></span><span id="ip_address_management__ipam__client"></span><span id="IP_ADDRESS_MANAGEMENT__IPAM__CLIENT"></span>Клиент управления IP-адресами (IPAM)
+<span id="IP_Address_Management__IPAM__Client"></span><span id="ip_address_management__ipam__client"></span><span id="IP_ADDRESS_MANAGEMENT__IPAM__CLIENT"></span>клиент управление IP-адресами (IPAM)
 </dt> <dd>
 
 Добавлено
@@ -2334,14 +2334,14 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 <span id="Hyper-V_Module_for_Windows_PowerShell"></span><span id="hyper-v_module_for_windows_powershell"></span><span id="HYPER-V_MODULE_FOR_WINDOWS_POWERSHELL"></span>Модуль Hyper-V для Windows PowerShell
 </dt> <dd></dd> <dt>
 
-<span id="Active_Directory_Rights_Management_Services_Tool"></span><span id="active_directory_rights_management_services_tool"></span><span id="ACTIVE_DIRECTORY_RIGHTS_MANAGEMENT_SERVICES_TOOL"></span>Инструмент службы Active Directory Rights Management
+<span id="Active_Directory_Rights_Management_Services_Tool"></span><span id="active_directory_rights_management_services_tool"></span><span id="ACTIVE_DIRECTORY_RIGHTS_MANAGEMENT_SERVICES_TOOL"></span>службы Active Directory Rights Management Утилит
 </dt> <dd>
 
 Добавлено
 
 </dd> <dt>
 
-<span id="Share_and_Storage_Management_Tool"></span><span id="share_and_storage_management_tool"></span><span id="SHARE_AND_STORAGE_MANAGEMENT_TOOL"></span>Средство управления общими ресурсами и хранилищами
+<span id="Share_and_Storage_Management_Tool"></span><span id="share_and_storage_management_tool"></span><span id="SHARE_AND_STORAGE_MANAGEMENT_TOOL"></span>средство управления общими ресурсами и служба хранилища
 </dt> <dd>
 
 Добавлено
@@ -2369,7 +2369,7 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id="Windows_Server_Update_Services_Tools"></span><span id="windows_server_update_services_tools"></span><span id="WINDOWS_SERVER_UPDATE_SERVICES_TOOLS"></span>Средства Windows Server Update Services
+<span id="Windows_Server_Update_Services_Tools"></span><span id="windows_server_update_services_tools"></span><span id="WINDOWS_SERVER_UPDATE_SERVICES_TOOLS"></span>Windows Server Update Services Инструментари
 </dt> <dd>
 
 Добавлено
@@ -2397,7 +2397,7 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id="Windows_Server_Backup"></span><span id="windows_server_backup"></span><span id="WINDOWS_SERVER_BACKUP"></span>cистема архивации данных Windows Server
+<span id="Windows_Server_Backup"></span><span id="windows_server_backup"></span><span id="WINDOWS_SERVER_BACKUP"></span>Windows Резервное копирование сервера
 </dt> <dd>
 
 Больше не поддерживается
@@ -2439,14 +2439,14 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id="WoW64_for_.NET_Framework_2.0_and___________"></span><span id="wow64_for_.net_framework_2.0_and___________"></span><span id="WOW64_FOR_.NET_FRAMEWORK_2.0_AND___________"></span>Подсистема WoW64 для платформа .NET Framework 2,0 и PowerShell
+<span id="WoW64_for_.NET_Framework_2.0_and___________"></span><span id="wow64_for_.net_framework_2.0_and___________"></span><span id="WOW64_FOR_.NET_FRAMEWORK_2.0_AND___________"></span>подсистема WoW64 для платформа .NET Framework 2,0 и PowerShell
 </dt> <dd>
 
 Больше не поддерживается
 
 </dd> <dt>
 
-<span id="WoW64_for_.NET_Framework_2.0"></span><span id="wow64_for_.net_framework_2.0"></span><span id="WOW64_FOR_.NET_FRAMEWORK_2.0"></span>Подсистема WoW64 для платформа .NET Framework 2,0
+<span id="WoW64_for_.NET_Framework_2.0"></span><span id="wow64_for_.net_framework_2.0"></span><span id="WOW64_FOR_.NET_FRAMEWORK_2.0"></span>подсистема WoW64 для платформа .NET Framework 2,0
 </dt> <dd>
 
 Больше не поддерживается
@@ -2460,7 +2460,7 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id="WoW64_for_.NET_Framework_3.0_and_3.5"></span><span id="wow64_for_.net_framework_3.0_and_3.5"></span><span id="WOW64_FOR_.NET_FRAMEWORK_3.0_AND_3.5"></span>Подсистема WoW64 для платформа .NET Framework 3,0 и 3,5
+<span id="WoW64_for_.NET_Framework_3.0_and_3.5"></span><span id="wow64_for_.net_framework_3.0_and_3.5"></span><span id="WOW64_FOR_.NET_FRAMEWORK_3.0_AND_3.5"></span>подсистема WoW64 для платформа .NET Framework 3,0 и 3,5
 </dt> <dd>
 
 Больше не поддерживается
@@ -2488,7 +2488,7 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id="WoW64_for_Subsystem_for_UNIX-based_Applications"></span><span id="wow64_for_subsystem_for_unix-based_applications"></span><span id="WOW64_FOR_SUBSYSTEM_FOR_UNIX-BASED_APPLICATIONS"></span>Подсистема WoW64 для приложений на основе UNIX
+<span id="WoW64_for_Subsystem_for_UNIX-based_Applications"></span><span id="wow64_for_subsystem_for_unix-based_applications"></span><span id="WOW64_FOR_SUBSYSTEM_FOR_UNIX-BASED_APPLICATIONS"></span>подсистема WoW64 для приложений на основе UNIX
 </dt> <dd>
 
 Больше не поддерживается
@@ -2516,7 +2516,7 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id="SQL_Server_Connectivity"></span><span id="sql_server_connectivity"></span><span id="SQL_SERVER_CONNECTIVITY"></span>Подключение SQL Server
+<span id="SQL_Server_Connectivity"></span><span id="sql_server_connectivity"></span><span id="SQL_SERVER_CONNECTIVITY"></span>SQL Server Установлен
 </dt> <dd>
 
 Добавлено
@@ -2544,7 +2544,7 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id="Windows_PowerShell_2.0_Engine"></span><span id="windows_powershell_2.0_engine"></span><span id="WINDOWS_POWERSHELL_2.0_ENGINE"></span>Подсистема Windows PowerShell 2,0
+<span id="Windows_PowerShell_2.0_Engine"></span><span id="windows_powershell_2.0_engine"></span><span id="WINDOWS_POWERSHELL_2.0_ENGINE"></span>подсистема Windows PowerShell 2,0
 </dt> <dd>
 
 Добавлено
@@ -2558,21 +2558,21 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id="Windows_PowerShell_Web_Access"></span><span id="windows_powershell_web_access"></span><span id="WINDOWS_POWERSHELL_WEB_ACCESS"></span>Веб-доступ Windows PowerShell
+<span id="Windows_PowerShell_Web_Access"></span><span id="windows_powershell_web_access"></span><span id="WINDOWS_POWERSHELL_WEB_ACCESS"></span>Windows PowerShell Веб-доступ
 </dt> <dd>
 
 Добавлено
 
 </dd> <dt>
 
-<span id="Windows_PowerShell_Desired_State_Configuration_Service"></span><span id="windows_powershell_desired_state_configuration_service"></span><span id="WINDOWS_POWERSHELL_DESIRED_STATE_CONFIGURATION_SERVICE"></span>Служба настройки требуемого состояния Windows PowerShell
+<span id="Windows_PowerShell_Desired_State_Configuration_Service"></span><span id="windows_powershell_desired_state_configuration_service"></span><span id="WINDOWS_POWERSHELL_DESIRED_STATE_CONFIGURATION_SERVICE"></span>служба Desired State Configuration Windows PowerShell
 </dt> <dd>
 
 Добавлено
 
 </dd> <dt>
 
-<span id=".NET_Framework_4.5_Extended"></span><span id=".net_framework_4.5_extended"></span><span id=".NET_FRAMEWORK_4.5_EXTENDED"></span>Расширенная платформа .NET Framework 4,5
+<span id=".NET_Framework_4.5_Extended"></span><span id=".net_framework_4.5_extended"></span><span id=".NET_FRAMEWORK_4.5_EXTENDED"></span>расширенная платформа .NET Framework 4,5
 </dt> <dd>
 
 Добавлено
@@ -2645,7 +2645,7 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id="Storage_Services"></span><span id="storage_services"></span><span id="STORAGE_SERVICES"></span>Службы хранилища
+<span id="Storage_Services"></span><span id="storage_services"></span><span id="STORAGE_SERVICES"></span>служба хранилища Обслуживание
 </dt> <dd>
 
 Добавлено
@@ -2659,7 +2659,7 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id="Active_Directory_Rights_Management_Services_Tools"></span><span id="active_directory_rights_management_services_tools"></span><span id="ACTIVE_DIRECTORY_RIGHTS_MANAGEMENT_SERVICES_TOOLS"></span>Средства службы Active Directory Rights Management
+<span id="Active_Directory_Rights_Management_Services_Tools"></span><span id="active_directory_rights_management_services_tools"></span><span id="ACTIVE_DIRECTORY_RIGHTS_MANAGEMENT_SERVICES_TOOLS"></span>службы Active Directory Rights Management Инструментари
 </dt> <dd>
 
 Добавлено
@@ -2740,7 +2740,7 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id="iSCSI_Target_Server"></span><span id="iscsi_target_server"></span><span id="ISCSI_TARGET_SERVER"></span>Сервер цели iSCSI
+<span id="iSCSI_Target_Server"></span><span id="iscsi_target_server"></span><span id="ISCSI_TARGET_SERVER"></span>сервер цели iSCSI
 </dt> <dd>
 
 Добавлено
@@ -2793,14 +2793,14 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id="Windows_System_Resource_Manager"></span><span id="windows_system_resource_manager"></span><span id="WINDOWS_SYSTEM_RESOURCE_MANAGER"></span>диспетчер ресурсов системы Windows
+<span id="Windows_System_Resource_Manager"></span><span id="windows_system_resource_manager"></span><span id="WINDOWS_SYSTEM_RESOURCE_MANAGER"></span>Windows Системные диспетчер ресурсов
 </dt> <dd>
 
 Больше не поддерживается
 
 </dd> <dt>
 
-<span id="Removable_Storage_Manager"></span><span id="removable_storage_manager"></span><span id="REMOVABLE_STORAGE_MANAGER"></span>Диспетчер съемных носителей
+<span id="Removable_Storage_Manager"></span><span id="removable_storage_manager"></span><span id="REMOVABLE_STORAGE_MANAGER"></span>диспетчер съемных служба хранилища
 </dt> <dd>
 
 Больше не поддерживается
@@ -2849,7 +2849,7 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id="Windows_Biometric_Framework"></span><span id="windows_biometric_framework"></span><span id="WINDOWS_BIOMETRIC_FRAMEWORK"></span>биометрическая платформа Windows
+<span id="Windows_Biometric_Framework"></span><span id="windows_biometric_framework"></span><span id="WINDOWS_BIOMETRIC_FRAMEWORK"></span>Windows Биометрическая платформа
 </dt> <dd>
 
 Добавлено
@@ -2863,7 +2863,7 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id="Windows_PowerShell_Integrated_Scripting_Environment__ISE_"></span><span id="windows_powershell_integrated_scripting_environment__ise_"></span><span id="WINDOWS_POWERSHELL_INTEGRATED_SCRIPTING_ENVIRONMENT__ISE_"></span>Интегрированная среда сценариев Windows PowerShell (ISE)
+<span id="Windows_PowerShell_Integrated_Scripting_Environment__ISE_"></span><span id="windows_powershell_integrated_scripting_environment__ise_"></span><span id="WINDOWS_POWERSHELL_INTEGRATED_SCRIPTING_ENVIRONMENT__ISE_"></span>Windows PowerShell Интегрированная среда сценариев (ISE)
 </dt> <dd>
 
 Добавлено
@@ -2929,7 +2929,7 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 <span id="IIS_Hostable_Web_Core"></span><span id="iis_hostable_web_core"></span><span id="IIS_HOSTABLE_WEB_CORE"></span>Размещаемый в IIS веб-ядро
 </dt> <dd></dd> <dt>
 
-<span id="Windows_2000_Client_Support"></span><span id="windows_2000_client_support"></span><span id="WINDOWS_2000_CLIENT_SUPPORT"></span>Поддержка клиентов Windows 2000
+<span id="Windows_2000_Client_Support"></span><span id="windows_2000_client_support"></span><span id="WINDOWS_2000_CLIENT_SUPPORT"></span>поддержка клиентов Windows 2000
 </dt> <dd>
 
 Больше не поддерживается
@@ -3006,7 +3006,7 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id="Active_Directory_module_for___________Windows_PowerShell"></span><span id="active_directory_module_for___________windows_powershell"></span><span id="ACTIVE_DIRECTORY_MODULE_FOR___________WINDOWS_POWERSHELL"></span>модуль Active Directory для Windows PowerShell
+<span id="Active_Directory_module_for___________Windows_PowerShell"></span><span id="active_directory_module_for___________windows_powershell"></span><span id="ACTIVE_DIRECTORY_MODULE_FOR___________WINDOWS_POWERSHELL"></span>Модуль Active Directory для Windows PowerShell
 </dt> <dd>
 
 Добавлено
@@ -3027,14 +3027,14 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id="WoW64_for_.NET_Framework_2.0_and_Windows_PowerShell"></span><span id="wow64_for_.net_framework_2.0_and_windows_powershell"></span><span id="WOW64_FOR_.NET_FRAMEWORK_2.0_AND_WINDOWS_POWERSHELL"></span>Подсистема WoW64 для платформа .NET Framework 2,0 и Windows PowerShell
+<span id="WoW64_for_.NET_Framework_2.0_and_Windows_PowerShell"></span><span id="wow64_for_.net_framework_2.0_and_windows_powershell"></span><span id="WOW64_FOR_.NET_FRAMEWORK_2.0_AND_WINDOWS_POWERSHELL"></span>подсистема WoW64 для платформа .NET Framework 2,0 и Windows PowerShell
 </dt> <dd>
 
 Добавлено
 
 </dd> <dt>
 
-<span id="WoW64_for_.NET_Framework_2.0"></span><span id="wow64_for_.net_framework_2.0"></span><span id="WOW64_FOR_.NET_FRAMEWORK_2.0"></span>Подсистема WoW64 для платформа .NET Framework 2,0
+<span id="WoW64_for_.NET_Framework_2.0"></span><span id="wow64_for_.net_framework_2.0"></span><span id="WOW64_FOR_.NET_FRAMEWORK_2.0"></span>подсистема WoW64 для платформа .NET Framework 2,0
 </dt> <dd>
 
 Добавлено
@@ -3048,7 +3048,7 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id="WoW64_for_.NET_Framework_3.0_and_3.5"></span><span id="wow64_for_.net_framework_3.0_and_3.5"></span><span id="WOW64_FOR_.NET_FRAMEWORK_3.0_AND_3.5"></span>Подсистема WoW64 для платформа .NET Framework 3,0 и 3,5
+<span id="WoW64_for_.NET_Framework_3.0_and_3.5"></span><span id="wow64_for_.net_framework_3.0_and_3.5"></span><span id="WOW64_FOR_.NET_FRAMEWORK_3.0_AND_3.5"></span>подсистема WoW64 для платформа .NET Framework 3,0 и 3,5
 </dt> <dd>
 
 Добавлено
@@ -3076,7 +3076,7 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id="WoW64_for_Subsystem_for_UNIX-based_Applications"></span><span id="wow64_for_subsystem_for_unix-based_applications"></span><span id="WOW64_FOR_SUBSYSTEM_FOR_UNIX-BASED_APPLICATIONS"></span>Подсистема WoW64 для приложений на основе UNIX
+<span id="WoW64_for_Subsystem_for_UNIX-based_Applications"></span><span id="wow64_for_subsystem_for_unix-based_applications"></span><span id="WOW64_FOR_SUBSYSTEM_FOR_UNIX-BASED_APPLICATIONS"></span>подсистема WoW64 для приложений на основе UNIX
 </dt> <dd>
 
 Добавлено
@@ -3104,10 +3104,10 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id=".NET_Framework_3.5.1_Features_name_change"></span><span id=".net_framework_3.5.1_features_name_change"></span><span id=".NET_FRAMEWORK_3.5.1_FEATURES_NAME_CHANGE"></span>Изменение имени компонентов платформа .NET Framework 3.5.1
+<span id=".NET_Framework_3.5.1_Features_name_change"></span><span id=".net_framework_3.5.1_features_name_change"></span><span id=".NET_FRAMEWORK_3.5.1_FEATURES_NAME_CHANGE"></span>изменение имени компонентов платформа .NET Framework 3.5.1
 </dt> <dd>
 
-В этом выпуске есть именованные функции платформа .NET Framework 3,0
+в этом выпуске есть именованные функции платформа .NET Framework 3,0
 
 </dd> <dt>
 
@@ -3146,7 +3146,7 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 </dd> <dt>
 
-<span id=".NET_Framework_3.5.1_name_change"></span><span id=".net_framework_3.5.1_name_change"></span><span id=".NET_FRAMEWORK_3.5.1_NAME_CHANGE"></span>Изменение имени платформа .NET Framework 3.5.1
+<span id=".NET_Framework_3.5.1_name_change"></span><span id=".net_framework_3.5.1_name_change"></span><span id=".NET_FRAMEWORK_3.5.1_NAME_CHANGE"></span>изменение имени платформа .NET Framework 3.5.1
 </dt> <dd>
 
 (220) в этом выпуске есть компоненты NET FX 3,0
@@ -3213,7 +3213,7 @@ Windows Server 2012: **Win32 \_ ServerFeature** является устарев�
 
 ## <a name="examples"></a>Примеры
 
-Следующий скрипт отображает имена всех компонентов сервера на компьютере с именем FABRIKAM. Обратите внимание, что целевой компьютер должен работать под управлением Windows Server 2008 или более поздней серверной операционной системы.
+Следующий скрипт отображает имена всех компонентов сервера на компьютере с именем FABRIKAM. обратите внимание, что целевой компьютер должен работать под управлением Windows server 2008 или более поздней серверной операционной системы.
 
 
 ```VB
@@ -3231,7 +3231,7 @@ Next
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

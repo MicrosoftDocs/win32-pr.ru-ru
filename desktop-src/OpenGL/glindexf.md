@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c950260a5ed29d100bf61a47120f58ee2f45d8ff
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4fb53fa34ff3723fc8539f547627b985ea2884b0dffd7d83a431e26acb25a2d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103801637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118359532"
 ---
 # <a name="glindexf-function"></a>Функция Глиндексф
 
@@ -51,7 +51,7 @@ void WINAPI glIndexf(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глиндексф** обновляет текущий (однозначный) цветовой индекс. Он принимает один аргумент: новое значение для текущего индекса цвета.
 
@@ -65,7 +65,7 @@ void WINAPI glIndexf(
 
 [**глжет**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) с аргументом \_ текущий \_ индекс GL
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

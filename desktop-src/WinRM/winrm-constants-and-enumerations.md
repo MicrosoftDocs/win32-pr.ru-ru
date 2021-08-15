@@ -1,20 +1,20 @@
 ---
 title: Константы и перечисления WinRM
-description: Служба удаленного управления Windows имеет битовые флаги, используемые при создании сеансов и перечислений, а для типов доступа и проверки подлинности на прокси-сервере.
+description: Windows Удаленное управление имеет битовые флаги, используемые при создании сеансов и перечислений, а для типов доступа и проверки подлинности на прокси-сервере.
 ms.assetid: 17e59245-26a3-4383-a741-4a09f3cfcec6
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0789d440ff0f88cc037e0dc9e544ca559c1af5b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 73de8f418d5b0fb0bd7adebb8439ccbce67f0bcb6aacf72ed2665683c00e0076
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117742940"
 ---
 # <a name="winrm-constants-and-enumerations"></a>Константы и перечисления WinRM
 
-Служба удаленного управления Windows имеет битовые флаги, используемые при создании сеансов и перечислений, а для типов доступа и проверки подлинности на прокси-сервере. В следующем списке перечислены различные битовые флаги.
+Windows Удаленное управление имеет битовые флаги, используемые при создании сеансов и перечислений, а для типов доступа и проверки подлинности на прокси-сервере. В следующем списке перечислены различные битовые флаги.
 
 <dl> <dt>
 
@@ -46,11 +46,11 @@ ms.locfileid: "104068277"
 
 </dd> </dl>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Справочник по служба удаленного управления Windows](windows-remote-management-reference.md)
+[Windows Справочник по удаленному управлению](windows-remote-management-reference.md)
 </dt> <dt>
 
 [**WSMan. CreateSession**](wsman-createsession.md)
@@ -62,9 +62,9 @@ ms.locfileid: "104068277"
 [**IWSManConnectionOptionsEx2:: Сетпрокси**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanconnectionoptionsex2-setproxy)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 74feb158-ba45-4660-970b-3eb577b1ebf8
 title: О времени
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02a95571637bb480920f82e90011a72f6eba9e8a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22cb2cd140ada7033ebe7bf672e654dbf7227385509c676176ee8e936ff590ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104080906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117765035"
 ---
 # <a name="about-time"></a>О времени
 
@@ -20,10 +20,10 @@ ms.locfileid: "104080906"
 | Формат          | Тип                                                                     | Описание                                                                                                                         |
 |-----------------|--------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | Система          | [**SYSTEMTIME**](/windows/win32/api/minwinbase/ns-minwinbase-systemtime)                                     | Год, месяц, день, час, секунда и миллисекунда, взятые из внутренних аппаратных часов.                                            |
-| Локальная           | [**SYSTEMTIME**](/windows/win32/api/minwinbase/ns-minwinbase-systemtime) или [ **fileTime**](/windows/win32/api/minwinbase/ns-minwinbase-filetime) | Системное время или время файла, преобразованное в местный часовой пояс системы.                                                               |
-| Файл            | [**FILETIME**](/windows/win32/api/minwinbase/ns-minwinbase-filetime)                                         | Число 100-наносекундных интервалов с 1 января 1601 г.                                                                       |
+| Local           | [**SYSTEMTIME**](/windows/win32/api/minwinbase/ns-minwinbase-systemtime) или [ **fileTime**](/windows/win32/api/minwinbase/ns-minwinbase-filetime) | Системное время или время файла, преобразованное в местный часовой пояс системы.                                                               |
+| File            | [**FILETIME**](/windows/win32/api/minwinbase/ns-minwinbase-filetime)                                         | Число 100-наносекундных интервалов с 1 января 1601 г.                                                                       |
 | MS-DOS          | **WORD**                                                                 | Упакованное слово для даты, другое для времени.                                                                                   |
-| Windows         | **DWORD** или **улонглонг**                                               | Число миллисекунд с момента последнего запуска системы. При извлечении в виде значения DWORD цикл по времени Windows каждые 49,7 дней. |
+| Windows         | **DWORD** или **улонглонг**                                               | Число миллисекунд с момента последнего запуска системы. при извлечении в виде значения DWORD Windows временных циклов каждые 49,7 дней. |
 | Число прерываний | **улонглонг**                                                            | Число 100-наносекундных интервалов с момента последнего запуска системы.                                                           |
 
 

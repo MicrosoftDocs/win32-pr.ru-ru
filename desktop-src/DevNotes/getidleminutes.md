@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Msidle.dll
-ms.openlocfilehash: da3064ea96eb8e9835ed1e9d2f564bf922d2f091
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d3397de5d792181958891eef9693d29b2d7d4e56f9bbc7f7e1cfef19171625b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118404587"
 ---
 # <a name="getidleminutes-function"></a>Функция Жетидлеминутес
 
@@ -52,11 +52,11 @@ DWORD WINAPI GetIdleMinutes(
 
 Возвращает количество минут с момента последнего действия пользователя.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция не имеет связанной библиотеки импорта или файла заголовка. его необходимо вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) . Эта функция не экспортируется по имени; При вызове **GetProcAddress** укажите порядковый номер 8.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

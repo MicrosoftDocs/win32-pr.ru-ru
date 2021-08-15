@@ -31,12 +31,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 303071d3d268953687bc387709c74531f8b40584
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a428d1c852d93fb34bfc3188219bd8ffdc5020ae65c5f9191c44d075b603a143
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104490740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118186089"
 ---
 # <a name="msad_domaincontroller-class"></a>Класс МСАДного \_ класса (DomainController)
 
@@ -106,7 +106,7 @@ class  MSAD_DomainController
 
 </dd> <dt>
 
-**DistinguishedName**
+**Различающееся имя.**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -213,7 +213,7 @@ class  MSAD_DomainController
 
 </dd> <dt>
 
-**Значением**
+**SiteName**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -291,7 +291,7 @@ class  MSAD_DomainController
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 3A539A9D-DB6B-4E3D-AD26-D5309BECEBB1
 title: Использование атрибутов элементов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a438c81258677822ca9b940eb9f74366d6226ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c2ddcc567a820ba1d9c1394ca38f78fc9ce9ec634596f8dbe41feca9def32e90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909531"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117859573"
 ---
 # <a name="how-to-use-item-attributes"></a>Использование атрибутов элементов
 
@@ -31,7 +31,7 @@ ms.locfileid: "103909531"
 
 Имплиедселектионмодел указывает ноль для глаголов элемента или ненулевое значение для команд в контекстном меню фона.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 В следующем примере записи реестра Аттрибутемаск имеет значение [**сфгао \_ ReadOnly**](sfgao.md) (0x40000).
 

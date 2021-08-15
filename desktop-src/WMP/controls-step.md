@@ -3,9 +3,9 @@ title: Метод Controls. Step
 description: Метод Step заставляет текущий видеоматериал закреплять воспроизведение на следующем кадре или предыдущем кадре.
 ms.assetid: f717c583-4073-45a9-b05d-7134d02724a4
 keywords:
-- Пошаговый метод проигрывателя Windows Media
-- Пошаговый метод Windows Media Player, класс Controls
-- Класс управляет проигрывателем Windows Media Player, метод Step
+- проигрыватель Windows Media метода step
+- метод step проигрыватель Windows Media, класс controls
+- класс элементов управления проигрыватель Windows Media, метод step
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 43fc50ea28bde95efef6e6261788fdcc62df6089
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4626ff80aee55ad6c22be7580a07ef2319afb6792a8c11b815d72af23b5727fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118839829"
 ---
 # <a name="controlsstep-method"></a>Метод Controls. Step
 
@@ -53,19 +53,19 @@ Controls.step(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В настоящее время этот метод поддерживает только параметры 1 или-1, поэтому каждый раз можно пошаговым образом выполнять только один кадр.
 
-**Проигрыватель Windows Media 10 Mobile:** Этот метод не поддерживается.
+**проигрыватель Windows Media 10 Mobile:** Этот метод не поддерживается.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media для Windows XP или более поздней версии.<br/>                           |
+| Версия<br/> | проигрыватель Windows Media для Windows XP или более поздней версии.<br/>                           |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

@@ -5,12 +5,12 @@ ms.assetid: b3c5f9ee-98e0-42dd-9b61-3731e14b9cd4
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c74941b4f32cc197d3dbbf3aa0dc3179b4098ee8
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 4b35e7f461caa27e8668cfc47cd94852bf53b291658b828ea017e3dc00a19d39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103987317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118185701"
 ---
 # <a name="object-class-and-object-category"></a>Класс объекта и категория объекта
 
@@ -21,14 +21,14 @@ ms.locfileid: "103987317"
 Дополнительные сведения и пример кода, который извлекает свойство [**objectClass**](/windows/desktop/ADSchema/a-objectclass) объекта, см. в разделе [Получение атрибута objectClass](retrieving-the-objectclass-property.md).
 
 > [!IMPORTANT]
-> До Windows Server 2008 атрибут [**objectClass**](/windows/desktop/ADSchema/a-objectclass) не индексируется. Это связано с тем, что оно имеет несколько значений и строго не является уникальным; то есть каждый экземпляр атрибута **objectClass** включает в себя класс [**Top**](/windows/desktop/ADSchema/c-top) . Это означает, что индекс будет очень большим и неэффективным. Для нахождение объектов заданного класса используйте атрибут [**objectCategory**](/windows/desktop/ADSchema/a-objectcategory) , который является однозначным и индексированным. Дополнительные сведения об использовании этих свойств в фильтрах поиска см. в разделе [Выбор искомых](deciding-what-to-find.md)данных.
+> до Windows сервера 2008 атрибут [**objectClass**](/windows/desktop/ADSchema/a-objectclass) не индексируется. Это связано с тем, что оно имеет несколько значений и строго не является уникальным; то есть каждый экземпляр атрибута **objectClass** включает в себя класс [**Top**](/windows/desktop/ADSchema/c-top) . Это означает, что индекс будет очень большим и неэффективным. Для нахождение объектов заданного класса используйте атрибут [**objectCategory**](/windows/desktop/ADSchema/a-objectcategory) , который является однозначным и индексированным. Дополнительные сведения об использовании этих свойств в фильтрах поиска см. в разделе [Выбор искомых](deciding-what-to-find.md)данных.
 
- 
+ 
 
 Для большинства классов [**дефаултобжекткатегори**](/windows/desktop/ADSchema/a-defaultobjectcategory) представляет собой различающееся имя объекта [**classSchema**](/windows/desktop/ADSchema/c-classschema) класса. Например, **дефаултобжекткатегори** для класса [**OrganizationalUnit**](/windows/desktop/ADSchema/c-organizationalunit) : CN = организация-единица, CN = Схема, CN = Configuration, <DC = forestroot>». Однако некоторые классы ссылаются на другой класс в качестве их **дефаултобжекткатегори**. Это позволяет запросу легко находить группы связанных объектов, даже если они отличаются от классов. Например, классы [**пользователь**](/windows/desktop/ADSchema/c-user), [**Person**](/windows/desktop/ADSchema/c-person), [**организатионалперсон**](/windows/desktop/ADSchema/c-organizationalperson)и [**Contact**](/windows/desktop/ADSchema/c-contact) все указывают класс **Person** в своих свойствах **дефаултобжекткатегори** . Это позволяет фильтрам поиска, например (objectCategory = Person), находить экземпляры всех этих классов с помощью одного запроса. Запросы для людей очень распространены, поэтому это простая оптимизация.
 
 При создании подкласса из структурного класса рекомендуется установить значение [**дефаултобжекткатегори**](/windows/desktop/ADSchema/a-defaultobjectcategory) нового класса, совпадающее с тем же различающимся именем суперкласса. Это позволяет стандартному пользовательскому интерфейсу найти подкласс.
 
- 
+ 
 
- 
+ 

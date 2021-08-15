@@ -1,21 +1,21 @@
 ---
 description: Windows Vista.
 ms.assetid: 3b16744d-b9c2-4462-a409-de94d9103c39
-title: Новые возможности VSS в Windows Vista
+title: новые возможности VSS в Windows Vista
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 122caa350ede984d5b05eb7eedd6039d82a76f1d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bc9e0780b092b2bed0235ba62377da9a4f7f0b53bded9e3f7feb5d412f5ab982
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692344"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117751146"
 ---
-# <a name="whats-new-in-vss-in-windows-vista"></a>Новые возможности VSS в Windows Vista
+# <a name="whats-new-in-vss-in-windows-vista"></a>новые возможности VSS в Windows Vista
 
-В Windows Vista появились следующие изменения в служба теневого копирования томов.
+Windows В Vista появились следующие изменения в служба теневого копирования томов.
 
-Обратите внимание, что все изменения для Windows Vista также относятся к Windows Server 2008 и Windows Vista с пакетом обновления 1 (SP1).
+обратите внимание, что все изменения для Windows Vista также применимы к Windows Server 2008 и Windows Vista с пакетом обновления 1 (SP1).
 
 ## <a name="new-vss-interfaces"></a>Новые интерфейсы VSS
 
@@ -91,7 +91,7 @@ VSS \_ CF \_ не \_ является \_ состоянием системы
 
 ## <a name="vss-event-tracing-and-logging"></a>Трассировка и ведение журнала событий VSS
 
--   Теперь файл трассировки VSS можно найти на любом локальном томе. В версиях Windows, предшествовавших Windows Vista, файл трассировки VSS не удалось найти на томе, который был в наборе теневых копий.
+-   Теперь файл трассировки VSS можно найти на любом локальном томе. в версиях Windows до Windows Vista не удалось найти файл трассировки VSS на томе, который был в наборе теневых копий.
 -   Многие записи в журнале событий были изменены, чтобы сделать их более четкими.
 -   Все записи журнала событий VSS теперь содержат сведения о контексте.
 
@@ -106,7 +106,7 @@ VSS \_ CF \_ не \_ является \_ состоянием системы
 
 ## <a name="backup-and-restore-application-compatibility"></a>Резервное копирование и восстановление совместимости приложений
 
-Разработчикам приложений для резервного копирования и восстановления необходимо знать о некоторых новых возможностях Windows Vista и Windows Server 2008. Контрольный список совместимости приложений см. в разделе [совместимость приложений для резервного копирования и восстановления](application-compatibility-for-backup-and-restore.md).
+разработчикам приложений для резервного копирования и восстановления необходимо знать о некоторых новых возможностях Windows Vista и Windows Server 2008. Контрольный список совместимости приложений см. в разделе [совместимость приложений для резервного копирования и восстановления](application-compatibility-for-backup-and-restore.md).
 
  
 

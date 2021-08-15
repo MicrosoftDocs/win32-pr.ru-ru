@@ -1,23 +1,23 @@
 ---
 description: В этом разделе описываются типы оконных классов, способ их определения системой и элементы, определяющие поведение по умолчанию для окон, к которым они относятся.
 ms.assetid: vs|winui|~\winui\windowsuserinterface\windowing\window_89windowclasse.htm
-title: Классы окон (окна и сообщения)
+title: классы окон (Windows и сообщения)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22da95fc54a9527bade0d925c1f993cf853b0ccd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f6b570309ce6613f3adfe256faff9c30b66f9dbd5062de5f342b434be32dce89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117849509"
 ---
-# <a name="window-classes-windows-and-messages"></a>Классы окон (окна и сообщения)
+# <a name="window-classes-windows-and-messages"></a>классы окон (Windows и сообщения)
 
 В этом разделе описываются типы оконных классов, способ их определения системой и элементы, определяющие поведение по умолчанию для окон, к которым они относятся.
 
 Класс окна — это набор атрибутов, которые система использует в качестве шаблона для создания окна. Каждое окно является членом класса Window. Все классы окон обрабатываются отдельно.
 
-### <a name="in-this-section"></a>в этом разделе
+### <a name="in-this-section"></a>В этом разделе
 
 
 
@@ -94,7 +94,7 @@ ms.locfileid: "105712687"
 <td>Заменяет заданное 32-разрядное (<strong>длинное</strong>) значение по указанному смещению на дополнительную память класса или структуру <a href="/windows/win32/api/winuser/ns-winuser-wndclassexa"><strong>вндклассекс</strong></a> для класса, к которому принадлежит указанное окно.
 <blockquote>
 [!Note]<br />
-Эта функция была заменена функцией <a href="/windows/desktop/api/winuser/nf-winuser-setclasslongptra"><strong>сеткласслонгптр</strong></a> . Чтобы написать код, совместимый как с 32-разрядными, так и с 64-разрядными версиями Windows, используйте <strong>сеткласслонгптр</strong>.
+Эта функция была заменена функцией <a href="/windows/desktop/api/winuser/nf-winuser-setclasslongptra"><strong>сеткласслонгптр</strong></a> . чтобы написать код, совместимый как с 32-разрядными, так и с 64-разрядными версиями Windows, используйте <strong>сеткласслонгптр</strong>.
 </blockquote>
 <br/> <br/></td>
 </tr>

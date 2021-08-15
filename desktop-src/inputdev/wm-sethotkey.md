@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f7ed27a91ddf9506cd12b988db4bd141a988c13e
-ms.sourcegitcommit: 3d9dce1bd6c84e2b51759e940aa95aa9b459cd20
+ms.openlocfilehash: 4b6c9d4bdb4a59181fe3a413cca6861bc3663367cca9e7b34e0647de88978b0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "103820373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118482521"
 ---
 # <a name="wm_sethotkey-message"></a>\_Сообщение СЕСОТКЭЙ WM
 
@@ -84,7 +84,7 @@ ms.locfileid: "103820373"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Горячая клавиша не может быть связана с дочерним окном.
 
@@ -96,7 +96,7 @@ ms.locfileid: "103820373"
 
 Эти Горячие ключи не связаны с горячими ключами, установленными [**RegisterHotKey**](/windows/win32/api/winuser/nf-winuser-registerhotkey).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -104,7 +104,7 @@ ms.locfileid: "103820373"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

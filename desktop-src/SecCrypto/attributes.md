@@ -4,12 +4,12 @@ ms.assetid: 6116e61e-3ec5-4992-90ab-e3c7ced291b6
 title: Объект Attributes
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a2493d4e1bbcbeb2dc7e7b335513beb84c3f28d9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 61936fff0421c43a07483fb8489cca755154a8cfbdd524da5837b12f90add969
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665422"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117773185"
 ---
 # <a name="attributes-object"></a>Объект Attributes
 
@@ -43,7 +43,7 @@ ms.locfileid: "105665422"
 | Метод                              | Описание                                                                       |
 |:------------------------------------|:----------------------------------------------------------------------------------|
 | [**Включить**](attributes-add.md)       | Добавляет объект [**атрибута**](attribute.md) в коллекцию.<br/>       |
-| [**Открытым**](attributes-clear.md)   | Удаляет все объекты [**атрибутов**](attribute.md) из коллекции.<br/> |
+| [**Clear**](attributes-clear.md)   | Удаляет все объекты [**атрибутов**](attribute.md) из коллекции.<br/> |
 | [**Отменит**](attributes-remove.md) | Удаляет объект [**атрибута**](attribute.md) из коллекции.<br/>  |
 
 
@@ -58,19 +58,19 @@ ms.locfileid: "105665422"
 
 | Свойство                                           | Тип доступа          | Описание                                                                                                                                                                                                                     |
 |:---------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**\_NewEnum**](attributes-newenum.md)<br/> | Только для чтения<br/> | Извлекает интерфейс [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) для объекта, который может быть использован для перечисления коллекции. Это свойство скрыто в Visual Basic Scripting Edition (VBScript).<br/> |
-| [**Расчета**](attributes-count.md)<br/>       | Только для чтения<br/> | Возвращает количество объектов [**атрибутов**](attribute.md) в коллекции.<br/>                                                                                                                                    |
+| [**\_NewEnum**](attributes-newenum.md)<br/> | Только для чтения<br/> | Извлекает интерфейс [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) для объекта, который может быть использован для перечисления коллекции. это свойство скрыто в Visual Basic scripting Edition (VBScript).<br/> |
+| [**Count**](attributes-count.md)<br/>       | Только для чтения<br/> | Возвращает количество объектов [**атрибутов**](attribute.md) в коллекции.<br/>                                                                                                                                    |
 | [**Элемент**](attributes-item.md)<br/>         | Только для чтения<br/> | Извлекает объект [**атрибута**](attribute.md) , представляющий индексированный атрибут. Это свойство по умолчанию.<br/>                                                                                             |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Не удается создать объект **атрибутов** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

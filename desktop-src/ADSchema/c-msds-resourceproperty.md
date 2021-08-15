@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 05f8ca200eb58646fdaea79a81c07cc08cdf44df
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 11c390a0d9f4a9d54af58430d54ded84bf8b524c66c036fe93992891fd3034f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103892926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118422545"
 ---
 # <a name="ms-ds-resource-property-class"></a>класс MS-DS-Resource-Property
 
@@ -64,7 +64,7 @@ ms.locfileid: "103892926"
 
 
 
-## <a name="windows-server-2012-attributes"></a>Атрибуты Windows Server 2012
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012 Атрибута
 
 Этот класс содержит следующие атрибуты для Windows Server 2012:
 
@@ -87,14 +87,14 @@ ms.locfileid: "103892926"
 | [**Отображаемое имя — печатаемое**](a-displaynameprintable.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                                   |
 | [**DSA-Signature**](a-dsasignature.md)                                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                   |
 | [**DS-Core-распространение-данные**](a-dscorepropagationdata.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                                   |
-| [**Активировано**](a-enabled.md)                                                                     | Неверно     | [**MS-DS-заявка-тип — свойство-Base**](c-msds-claimtypepropertybase.md)<br/> |
+| [**Включен**](a-enabled.md)                                                                     | Неверно     | [**MS-DS-заявка-тип — свойство-Base**](c-msds-claimtypepropertybase.md)<br/> |
 | [**Имя расширения**](a-extensionname.md)                                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                                   |
 | [**Метки**](a-flags.md)                                                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                                   |
 | [**Из записи**](a-fromentry.md)                                                                | Неверно     | [**Вверх**](c-top.md)<br/>                                                   |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                   |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                                   |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                                   |
-| [**Тип экземпляра**](a-instancetype.md)                                                          | True      | [**Вверх**](c-top.md)<br/>                                                   |
+| [**Тип экземпляра**](a-instancetype.md)                                                          | Верно      | [**Вверх**](c-top.md)<br/>                                                   |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                   |
 | [**Удалено**](a-isdeleted.md)                                                                | Неверно     | [**Вверх**](c-top.md)<br/>                                                   |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                                   |
@@ -148,18 +148,18 @@ ms.locfileid: "103892926"
 | [**MS-DS-выводит-List-BL**](a-msds-revealedlistbl.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                   |
 | [**MS-DS-Tasks-для-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                   |
 | [**MS-DS-Tasks-for-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                   |
-| [**MS-DS-TDO-исходящий трафик — BL**](a-msds-tdoegressbl.md)                                                | Неверно     | [**Вверх**](c-top.md)<br/>                                                   |
+| [**ms-DS-TDO-Egress-BL**](a-msds-tdoegressbl.md)                                                | Неверно     | [**Вверх**](c-top.md)<br/>                                                   |
 | [**MS-DS-TDO-входящий трафик — BL**](a-msds-tdoingressbl.md)                                              | Неверно     | [**Вверх**](c-top.md)<br/>                                                   |
-| [**Справочник по MS-DS-value-type-**](a-msds-valuetypereference.md)                                  | True      | **MS-DS-Resource-свойство**                                                       |
+| [**Справочник по MS-DS-value-type-**](a-msds-valuetypereference.md)                                  | Верно      | **MS-DS-Resource-свойство**                                                       |
 | [**MS-DS-value-type-Reference-BL**](a-msds-valuetypereferencebl.md)                             | Неверно     | [**Вверх**](c-top.md)<br/>                                                   |
 | [**MS-дов-Owner-BL**](a-ownerbl.md)                                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                                   |
 | [**Мссфу-30-POSIX-член-of**](a-mssfu30posixmemberof.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                                   |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                                   |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                   |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                         | True      | [**Вверх**](c-top.md)<br/>                                                   |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                         | Верно      | [**Вверх**](c-top.md)<br/>                                                   |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                                     | Неверно     | [**Вверх**](c-top.md)<br/>                                                   |
-| [**Объект — Категория**](a-objectcategory.md)                                                      | True      | [**Вверх**](c-top.md)<br/>                                                   |
-| [**Объектный класс**](a-objectclass.md)                                                            | True      | [**Вверх**](c-top.md)<br/>                                                   |
+| [**Объект — Категория**](a-objectcategory.md)                                                      | Верно      | [**Вверх**](c-top.md)<br/>                                                   |
+| [**Объектный класс**](a-objectclass.md)                                                            | Верно      | [**Вверх**](c-top.md)<br/>                                                   |
 | [**Объект — GUID**](a-objectguid.md)                                                              | Неверно     | [**Вверх**](c-top.md)<br/>                                                   |
 | [**Версия объекта**](a-objectversion.md)                                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                                   |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                                   |

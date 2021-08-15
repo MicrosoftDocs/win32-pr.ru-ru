@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 855aa8b5432fd06bb25571fcb48c091dcfe502f6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 93ae1c94a5e83d0029aba4403ad4ba23db0f4006bb5b9be68cc469939e63c734
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104540210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118366639"
 ---
 # <a name="getcapturetimestamp-function"></a>Функция Жеткаптуретиместамп
 
@@ -52,7 +52,7 @@ LPSYSTEMTIME WINAPI GetCaptureTimeStamp(
 
 Если функция завершилась неудачно, возвращается значение **null**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **жеткаптуретиместамп** Возвращает время, когда поставщик сетевых пакетов (НПП) начинает сбор данных, а не когда эксперт загружает запись для анализа.
 
@@ -60,7 +60,7 @@ LPSYSTEMTIME WINAPI GetCaptureTimeStamp(
 
 [*Эксперты*](e.md) и [*средства синтаксического анализа*](p.md) могут вызывать функцию **жеткаптуретиместамп** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

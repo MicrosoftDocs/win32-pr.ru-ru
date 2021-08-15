@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: b02503590a64c1c14e3f66dc5d07d9d61034bd60
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5a27bc08f658e317b41380b2dabd9aadc13e8b50bd4985c0fd13211fa81fd507
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685286"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117770445"
 ---
 # <a name="certificatestatusapplicationpolicies-method"></a>Цертификатестатус. АппликатионполиЦиес, метод
 
@@ -43,11 +43,11 @@ CertificateStatus.ApplicationPolicies()
 
 Коллекция [**OID**](oids.md) . Каждый объект [**OID**](oid.md) в коллекции представляет OID политики приложения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Добавьте идентификаторы объектов политики приложений в коллекцию, чтобы указать политики приложений, которые должны использоваться для создания цепочки доверия сертификатов. Если коллекция содержит по крайней мере один объект [**OID**](oid.md) , то объект [**EKU**](eku.md) , возвращенный методом [**цертификатестатус. EKU**](certificatestatus-eku.md) , игнорируется.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

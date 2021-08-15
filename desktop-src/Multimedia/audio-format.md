@@ -10,12 +10,12 @@ keywords:
 - макрос Капсетаудиоформат
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e362abd393097ae8763b44b3ee3474685ffd5c2
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 5891e8c244487895c51d68dd92fc4935f8981a36cf67d81437ff45f58950527b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103890497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118375703"
 ---
 # <a name="audio-format"></a>Формат аудио
 
@@ -23,6 +23,6 @@ ms.locfileid: "103890497"
 
 Вы можете задать формат записи для звуковых данных, отправив [**сообщение \_ \_ \_ аудиоформат с закреплениями WM**](wm-cap-set-audioformat.md) (или макрос [**капсетаудиоформат**](/windows/desktop/api/Vfw/nf-vfw-capsetaudioformat) ) в окно записи. При задании звукового формата можно передать указатель на структуру [**вавеформат**](/windows/win32/api/mmreg/ns-mmreg-waveformat), **вавеформатекс** или [**пкмвавеформат**](/windows/win32/api/mmreg/ns-mmreg-pcmwaveformat) в зависимости от указанного формата аудио.
 
- 
+ 
 
- 
+ 

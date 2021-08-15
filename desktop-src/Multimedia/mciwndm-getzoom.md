@@ -3,7 +3,7 @@ title: Сообщение MCIWNDM_GETZOOM (VFW. h)
 description: Сообщение МЦИВНДМ \_ Zoom получает текущее значение масштаба, используемое устройством MCI. Это сообщение можно отправить явно или с помощью макроса МЦивнджетзум.
 ms.assetid: 92db8df2-515a-4616-a0f5-245d466ba379
 keywords:
-- MCIWNDM_GETZOOM сообщения Windows мультимедиа
+- сообщение MCIWNDM_GETZOOM Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fcb4ae1883787f1b86dcc17f2d4a3e0e0ee29ced
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 52c247230ffe6269f77b906d874a4cf82a21ed8d3388ffa18193417603e45fbd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104490119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118374145"
 ---
 # <a name="mciwndm_getzoom-message"></a>\_Сообщение МЦИВНДМ Zoom
 
@@ -38,11 +38,11 @@ lParam = 0;
 
 Возвращает последние значения, используемые с [**мЦивндм \_ сетзум**](mciwndm-setzoom.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемое значение 100 означает, что изображение не масштабируется. Значение 200 указывает, что изображение увеличивается вдвое в два раза. Значение 50 указывает, что изображение уменьшается до половины исходного размера.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

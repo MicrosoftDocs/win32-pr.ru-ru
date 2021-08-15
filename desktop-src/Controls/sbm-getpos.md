@@ -3,7 +3,7 @@ title: Сообщение SBM_GETPOS (Winuser. h)
 description: Сообщение СБМ \_ жетпос отправляется для получения текущей позицией бегунка элемента управления "полоса прокрутки".
 ms.assetid: 00344d93-f205-4cda-aa25-6dd065f41b6e
 keywords:
-- Элементы управления Windows для SBM_GETPOS сообщений
+- элементы управления Windows сообщений SBM_GETPOS
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d088fc790985e57928f1ab56cd42254b1a087dc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0105b2c015614c9f064b2c97f60100c2240bd6588612d34b25546c7ced832bdd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118408897"
 ---
 # <a name="sbm_getpos-message"></a>\_Сообщение СБМ жетпос
 
@@ -49,15 +49,15 @@ ms.locfileid: "103989068"
 
 Возвращаемое значение является текущей позицией ползунка полосы прокрутки.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Header<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

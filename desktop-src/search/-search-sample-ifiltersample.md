@@ -4,12 +4,12 @@ ms.assetid: 4c0df747-627d-4937-a117-d43137d5d081
 title: ифилтерсампле
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10f66bf32c4abe25038aa6b2a3b6d879ba65cf7a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f015166d0366152d07a5fb8d182edcb5422112c66f016219970fef9b889df3ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117863737"
 ---
 # <a name="ifiltersample"></a>ифилтерсампле
 
@@ -21,9 +21,9 @@ ms.locfileid: "105692194"
 - [Загрузка образца](#downloading-the-sample)
 - [Создание примера](#building-the-sample)
 - [Запуск примера](#running-the-sample)
-- [См. также](#related-topics)
+- [Связанные темы](#related-topics)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Продукт     | Версия продукта          |
 |-------------|--------------------------|
@@ -39,24 +39,24 @@ ms.locfileid: "105692194"
 | GitHub        | [ифилтерсампле](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample)          |
 
 > [!NOTE]  
-> Для всех версий Windows, включая Windows 7, рекомендуется загрузить примеры непосредственно из GitHub, чтобы получить самую последнюю версию.
+> для всех версий Windows, включая Windows 7, рекомендуется загружать образцы непосредственно из GitHub для наиболее актуальной версии.
 
 ## <a name="building-the-sample"></a>Построение образца
 
-1. Откройте проводник Windows и перейдите в каталог проекта **филтербасе** .
+1. откройте обозреватель Windows и перейдите в каталог проекта **филтербасе** .
 2. Дважды щелкните значок файла Филтербасе. sln, чтобы открыть проект в Visual Studio.
 
     > [!NOTE]  
-    > Файл SLN был создан в более старой версии Visual Studio, поэтому его обновление потребуется, если используется Visual Studio 2012 или более поздняя версия. Это не повлияет на поведение образца.
+    > файл sln был создан в более ранней версии Visual Studio, поэтому его обновление потребуется при использовании Visual Studio 2012 или более поздних версий. Это не повлияет на поведение образца.
 
-3. В меню **Сборка** выберите пункт **построить решение**.
+3. В меню **Построение** выберите пункт **Построить решение**.
 
 ## <a name="running-the-sample"></a>Запуск примера
 
-1. Перейдите в каталог, содержащий новый исполняемый файл, с помощью окна командной строки или проводника Windows.
-2. В командной строке введите `FilterBase.exe` или в проводнике Windows дважды щелкните значок FilterBase.exe.
+1. перейдите в каталог, содержащий новый исполняемый файл, используя окно командной строки или проводник Windows.
+2. в командной строке введите `FilterBase.exe` или в Windows Explorer дважды щелкните значок FilterBase.exe.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 ### <a name="reference"></a>Справочник
 
