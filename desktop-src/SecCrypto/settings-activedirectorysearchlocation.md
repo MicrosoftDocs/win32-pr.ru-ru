@@ -1,7 +1,7 @@
 ---
 description: Задает или получает расположение поиска Active Directory.
 ms.assetid: 43320799-1c01-4e09-bed9-f3576baadcce
-title: Свойство Settings. Активедиректорисеарчлокатион
+title: Параметры. Активедиректорисеарчлокатион, свойство
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -13,14 +13,14 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: d218b3d589b76980d468395a39452613aa57ada5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 884866fd5ff6a3e3ff483a255bf2b77063ca81e51141108c9f58fd45629cc036
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668764"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118900324"
 ---
-# <a name="settingsactivedirectorysearchlocation-property"></a>Свойство Settings. Активедиректорисеарчлокатион
+# <a name="settingsactivedirectorysearchlocation-property"></a>Параметры. Активедиректорисеарчлокатион, свойство
 
 \[Свойство **активедиректорисеарчлокатион** доступно для использования в операционных системах, указанных в разделе требования.\]
 
@@ -66,7 +66,7 @@ Settings.ActiveDirectorySearchLocation As CAPICOM_ACTIVE_DIRECTORY_SEARCH_LOCATI
 
 <dl> <dt>
 
-[**Параметры**](settings.md)
+[**"Настройки"**](settings.md)
 </dt> </dl>
 
  

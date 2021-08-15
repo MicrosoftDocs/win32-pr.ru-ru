@@ -4,12 +4,12 @@ ms.assetid: 579df695-02c4-4332-b1b4-c7bd9da50c0f
 title: MFT_MESSAGE_NOTIFY_START_OF_STREAM (Мфтрансформ. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe0edefdecdf75afbe14c851f33e9726400e490d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20ed40d9d3514dfa6223d4e20f2eb411caec497e16f2e97c456f16e14442c407
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973033"
 ---
 # <a name="mft_message_notify_start_of_stream"></a>\_ \_ уведомление о \_ начале \_ потока в \_ сообщении MFT
 
@@ -33,14 +33,14 @@ ms.locfileid: "104080437"
 
 Асинхронная Таблица MFT должна реализовывать это сообщение, как описано в статье [асинхронный МФТС](asynchronous-mfts.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                     |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Мфтрансформ. h</dt> </dl> |
 
 

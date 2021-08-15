@@ -4,12 +4,12 @@ ms.assetid: abef2e61-6cbe-46cc-ba2a-a0bb42164c8c
 title: System. Message. Аттачментконтентс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0a09aec258ea0c6798379057b04da4747c00862
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: b996e1bc4c24f81c2a1648da2c5685eb76cd2784a3e02134f100320de78d6def
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108114052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970333"
 ---
 # <a name="systemmessageattachmentcontents"></a>System. Message. Аттачментконтентс
 
@@ -33,7 +33,7 @@ propertyDescription
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

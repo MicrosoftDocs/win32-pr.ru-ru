@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: ab77505cb67a98c6911c9525f54d2ba811c074fa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 01e00c7e6612b1d13587d7c06cb9413093b480ad85bc6608007c05582e512bd5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104145484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119092262"
 ---
 # <a name="iinkanalysisrecognizersetashighestpriorityinkanalysisrecognizer-method"></a>Метод Иинканалисисрекогнизер:: Сеташигхестприоритинканалисисрекогнизер
 
@@ -47,7 +47,7 @@ HRESULT SetAsHighestPriorityInkAnalysisRecognizer();
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/>                                                 |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/>                                                 |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>Иаком. h (также требуется Иаком \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |

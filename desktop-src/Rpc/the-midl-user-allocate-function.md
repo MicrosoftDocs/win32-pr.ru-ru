@@ -4,12 +4,12 @@ description: '\_ \_ Функция пользовательского выдел
 ms.assetid: 3def405c-da05-4cce-9dc4-499864a0de6e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 12b2e3196de79992f5856b7117b25f05ad782d26
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: eb8e064fc16a303660be96a4a3c47aa361c4616f54a8cb825c1fce5334543fc5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104134239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118924253"
 ---
 # <a name="the-midl_user_allocate-function"></a>\_ \_ Функция пользовательского выделения MIDL
 
@@ -44,8 +44,8 @@ void __RPC_FAR * __RPC_USER midl_user_allocate(size_t cBytes)
 > [!Note]  
 > Если пакет RPCSS включен (например, в результате использования \[ атрибута [**включить \_ выделение**](/windows/desktop/Midl/enable-allocate) \] ), используйте [**рпксмаллокате**](/windows/desktop/api/Rpcndr/nf-rpcndr-rpcsmallocate) для выделения памяти на стороне сервера. Дополнительные сведения о \[ **включении \_ выделения** см \] . в [справочнике по MIDL](/windows/desktop/Midl/midl-language-reference).
 
- 
+ 
 
- 
+ 
 
- 
+ 

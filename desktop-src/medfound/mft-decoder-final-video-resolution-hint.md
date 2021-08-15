@@ -4,12 +4,12 @@ ms.assetid: 067867D8-155C-4406-BE07-720016B2AEBC
 title: Атрибут MFT_DECODER_FINAL_VIDEO_RESOLUTION_HINT (Мфтрансформ. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a7bbc0f01ef2a1d7062c6ab58c528b015383fc68
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 847a2925f2249c741e9a45a1dcc4826a1cbe3d6bb12cda4d8017ee0fb5de0069
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973143"
 ---
 # <a name="mft_decoder_final_video_resolution_hint-attribute"></a>\_Атрибут указания \_ конечного \_ \_ разрешения \_ экрана декодера MFT
 
@@ -19,7 +19,7 @@ ms.locfileid: "104263515"
 
 **UINT64**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут поддерживается некоторыми декодерами видео. Приложение может установить этот атрибут, чтобы указать ширину и высоту изображения после обработки видео. Декодер может использовать эти сведения для оптимизации процесса декодирования, особенно в том случае, если окончательный размер изображения намного меньше, чем размер образа в машинном коде. Например, декодер может пропустить фильтр по внешнему циклу.
 
@@ -30,13 +30,13 @@ ms.locfileid: "104263515"
 1.  Вызовите метод [**имфтрансформ:: OutAttribute**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getattributes) в декодере, чтобы получить указатель [**имфаттрибутес**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes) .
 2.  Вызовите [**мфсетаттрибутесизе**](/windows/desktop/api/mfapi/nf-mfapi-mfsetattributesize) , чтобы добавить атрибут.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8 \|\]<br/>                                        |
+| Минимальная версия клиента<br/> | Windows 8 \[ приложения UWP для классических приложений \|\]<br/>                                        |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                |
 | Header<br/>                   | <dl> <dt>Мфтрансформ. h</dt> </dl> |
 

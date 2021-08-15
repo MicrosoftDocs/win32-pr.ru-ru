@@ -5,18 +5,18 @@ ms.assetid: ''
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e2790cf5df42f64071db3ca51a35e58ee9afcd5
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 8b2a2cbd870da41df94ee0389757a1d1ec7cd5e4549a3abd32dbaaf6a7c8e8e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112396439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119045562"
 ---
 # <a name="direct3d-12-raytracing-hlsl-system-value-intrinsics"></a>Встроенные функции системных значений HLSL для трассировки лучей в Direct3D 12
 
 Системные значения извлекаются с помощью специальных встроенных функций, а не включают параметры с особой семантикой в сигнатуре функции шейдера. 
 
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>Содержание раздела
 
 ### <a name="ray-dispatch-system-values"></a>Значения системы диспетчеризации луча
 

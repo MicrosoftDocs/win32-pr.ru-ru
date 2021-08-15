@@ -72,7 +72,7 @@ DWORD SetNPPPatternFilterInBlob(
 
 Шаблон соответствует данным фильтра, хранящимся в категории **конфигурации** большого двоичного объекта.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

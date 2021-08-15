@@ -4,12 +4,12 @@ ms.assetid: f8e6692f-4824-40fe-a5b3-9843689ea02e
 title: Возвращаемые значения сетевой безопасности
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a362fde712d2a44565894aceb9d85172e488b53a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a40fd8e6e21d9e7671c1e7b9c3d008978628e28cb0fcb01c3df56359144e72e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118921303"
 ---
 # <a name="network-security-return-values"></a>Возвращаемые значения сетевой безопасности
 

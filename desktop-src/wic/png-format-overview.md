@@ -1,19 +1,19 @@
 ---
-description: Этот раздел содержит сведения о коде встроенного кода PNG, доступном через компонент Windows Imaging Component (WIC).
+description: в этом разделе содержатся сведения о коде встроенного кода PNG, доступном через компонент Windows imaging (WIC).
 ms.assetid: 703217EA-70C8-4F86-B8DF-95468C78C8DA
 title: Общие сведения о формате PNG
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bb00b7530a22fcdbcce112053431ace5e553383
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 4f3d74282f8c14fd94b3661430402a808b04ceb9cf0a061a1648f7a912af5636
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444445"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119086758"
 ---
 # <a name="png-format-overview"></a>Общие сведения о формате PNG
 
-Этот раздел содержит сведения о коде встроенного кода PNG, доступном через компонент Windows Imaging Component (WIC).
+в этом разделе содержатся сведения о коде встроенного кода PNG, доступном через компонент Windows imaging (WIC).
 
 ## <a name="codec-identity"></a>Удостоверение кодека
 
@@ -36,7 +36,7 @@ ms.locfileid: "111444445"
 
 
 
-| Компонент        | Понятное имя            | Код GUID                                |
+| Компонент        | Понятное имя            | GUID                                |
 |------------------|--------------------------|-------------------------------------|
 | Формат контейнера | GUID \_ контаинерформатпнг | 1b7cfaf4-713f-473c-bbcd6137425faeaf |
 | Показан          | \_ВИКПНГДЕКОДЕР CLSID     | 389ea17b-5078-4cde-b6ef25c15175c751 |
@@ -48,7 +48,7 @@ ms.locfileid: "111444445"
 
 ### <a name="windows-8-and-later"></a>Windows 8 и более поздние версии
 
-Начиная с Windows 8 WIC предоставляет дополнительный декодер PNG
+начиная с Windows 8 WIC предоставляет дополнительный декодер PNG
 
 ## <a name="encoding"></a>Кодирование
 

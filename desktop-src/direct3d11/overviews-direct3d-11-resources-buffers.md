@@ -4,12 +4,12 @@ description: Буферы содержат данные, используемы�
 ms.assetid: 4ab4c9e5-9155-4bfd-b69b-40b3e8cdd4ba
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c544f00515f25c9c311f6c75fda109d3e88294b4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a3b45b7aff9883036103fd21b0827536ed3c86d8c6e91ee7bf181b55b2388fcf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104330787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119045522"
 ---
 # <a name="buffers"></a>Буферы
 
@@ -27,7 +27,7 @@ ms.locfileid: "104330787"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

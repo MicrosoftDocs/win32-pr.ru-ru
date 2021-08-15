@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Msoobci.dll
-ms.openlocfilehash: 4d262322be6084429f03d5725f61c0e0f7140871
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9deaa460ec58ad0aa07af38aa03f53971068b4a6a1d43131e5473a7e4def908c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118955923"
 ---
 # <a name="installcomponentw-function"></a>Функция Инсталлкомпонентв
 
@@ -74,7 +74,7 @@ void InstallComponentW(
 | <span id="COMP_FLAGS_NO_OVERWRITE"></span><span id="comp_flags_no_overwrite"></span><dl> <dt>**Comp \_ ФЛАГи \_ без \_ перезаписи**</dt><dt></dt> </dl>                 | Пропускает резервное копирование файлов, если версия компонента исключения совпадает с установленным компонентом. Этот флаг используется в сценарии переустановки.<br/> |
 | <span id="COMP_FLAGS_NOUI"></span><span id="comp_flags_noui"></span><dl> <dt>**Comp \_ ФЛАГи \_ NOUI)**</dt> <dt>0x00000002</dt> </dl>                                | Подавляет весь пользовательский интерфейс.<br/>                                                                                                                               |
 | <span id="COMP_FLAGS_UPDATE_DLLCACHE"></span><span id="comp_flags_update_dllcache"></span><dl> <dt>**Comp \_ ФЛАГ \_ обновления \_ DLLCACHE**</dt><dt></dt> </dl>        | Принудительное обновление каталога DLLCACHE при обновлении системного файла.<br/>                                                                       |
-| <span id="COMP_FLAGS_USE_SVCPACK_CACHE"></span><span id="comp_flags_use_svcpack_cache"></span><dl> <dt>**Comp \_ ФЛАГи \_ используют \_ \_ кэш SVCPACK**</dt><dt></dt> </dl> | Использует файлы, кэшированные при установке пакета обновления Windows, для замены резервных копий файлов.<br/>                                                                |
+| <span id="COMP_FLAGS_USE_SVCPACK_CACHE"></span><span id="comp_flags_use_svcpack_cache"></span><dl> <dt>**Comp \_ ФЛАГи \_ используют \_ \_ кэш SVCPACK**</dt><dt></dt> </dl> | использует файлы, кэшированные с помощью Windows установки пакета обновления для замены резервных копий файлов.<br/>                                                                |
 
 
 
@@ -113,7 +113,7 @@ void InstallComponentW(
 *Имя* \[ в необязательное\]
 </dt> <dd>
 
-Описательная строка компонента, отображаемая в диалоговом окне Защита файлов Windows, если операционная система обнаруживает, что файл защиты файлов Windows поврежден, незаконно изменен или поврежден.
+описательная строка компонента, отображаемая в диалоговом окне Windows защита файлов, если операционная система обнаруживает, что файл защиты Windows защиты файлов поврежден, незаконно изменен или поврежден.
 
 </dd> </dl>
 
@@ -121,15 +121,15 @@ void InstallComponentW(
 
 Эта функция возвращает значение **HRESULT** (S \_ OK или код ошибки). Код ошибки можно проверить на соответствие значению 0x20000100, чтобы определить, является ли сбой необходимым, поскольку требуется перезагрузка.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Пакеты исключений — это системные файлы Windows, выпущенные за пределами полной версии пакета Windows и обновленными файлами операционной системы. Пакеты исключений разрабатываются только командами операционной системы, которым была предоставлена авторизация на обновление системных файлов Windows.
+пакеты исключений — это Windows системных файлов, выпущенных за пределами полного пакета Windows выпуска и обновления файлов операционной системы. пакеты исключений разрабатываются только командами операционной системы, которым была предоставлена авторизация на обновление Windows системных файлов.
 
-Для установки и удаления файлов, не защищенных с помощью защиты файлов Windows, используйте функции, описанные в статье [Общие функции установки](https://msdn.microsoft.com/library/ms794585.aspx). Чтобы установить драйверы устройств, поставщиков следует использовать функции, описанные в статье [функции установки устройств](https://msdn.microsoft.com/library/ms792954.aspx) и [функции PnP Configuration Manager](https://msdn.microsoft.com/library/ms790838.aspx).
+чтобы установить и удалить файлы, не защищенные с помощью Windows защиты файлов, используйте функции, описанные в статье [общие функции установки](https://msdn.microsoft.com/library/ms794585.aspx). Чтобы установить драйверы устройств, поставщиков следует использовать функции, описанные в статье [функции установки устройств](https://msdn.microsoft.com/library/ms792954.aspx) и [функции PnP Configuration Manager](https://msdn.microsoft.com/library/ms790838.aspx).
 
 Эта функция не имеет связанной библиотеки импорта или файла заголовка. его необходимо вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

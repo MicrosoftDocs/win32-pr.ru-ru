@@ -41,12 +41,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5b4af54a0f086bee4b743b083c27a67777786bc4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 76dc59331d3e4fed7c2b79dd95de4ecef02d67d26ab4c9aa66df5d9d7d5a7215
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104538960"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020992"
 ---
 # <a name="cim_operatingsystem-class"></a>\_Класс операционной системы CIM
 
@@ -123,7 +123,7 @@ class CIM_OperatingSystem : CIM_LogicalElement
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -223,7 +223,7 @@ class CIM_OperatingSystem : CIM_LogicalElement
 
 </dd> <dt>
 
-**Распределяемый**
+**Распределенные**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **логический**
@@ -263,7 +263,7 @@ class CIM_OperatingSystem : CIM_LogicalElement
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) (MIF. \|Параметры системной памяти DMTF \| 001,4 "), [**единицы**](/windows/desktop/WmiSdk/standard-qualifiers) (" килобайтах ")
+Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) (MIF. DMTF \| Memory Параметры \| 001,4 "), [**единицы**](/windows/desktop/WmiSdk/standard-qualifiers) (" килобайтах ")
 </dt> </dl>
 
 Число килобайтов, которые могут быть сопоставлены с файлами подкачки операционной системы, не вызывая переход на другие страницы. Значение 0 указывает, что файлы подкачки отсутствуют.
@@ -371,7 +371,7 @@ class CIM_OperatingSystem : CIM_LogicalElement
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -582,7 +582,7 @@ HP-UX
 
 </dt> <dd>
 
-Windows 3. x
+Windows 3
 
 </dd> <dt>
 
@@ -664,7 +664,7 @@ Windows CE
 
 <span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>
 
-<span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>**Зависящая от UNIX** (24)
+<span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>**зависящие UNIX** (24)
 
 
 </dt> <dd></dd> <dt>
@@ -792,7 +792,7 @@ BS2000/OSD
 
 <span id="Interactive_UNIX"></span><span id="interactive_unix"></span><span id="INTERACTIVE_UNIX"></span>
 
-<span id="Interactive_UNIX"></span><span id="interactive_unix"></span><span id="INTERACTIVE_UNIX"></span>**Интерактивная UNIX** (40)
+<span id="Interactive_UNIX"></span><span id="interactive_unix"></span><span id="INTERACTIVE_UNIX"></span>**интерактивный UNIX** (40)
 
 
 </dt> <dd></dd> <dt>
@@ -804,7 +804,7 @@ BS2000/OSD
 
 </dt> <dd>
 
-ОС BSD UNIX
+UNIX BSD
 
 </dd> <dt>
 
@@ -990,7 +990,7 @@ Mac OS 9
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) (MIF. \|Параметры системной памяти DMTF \| 001,3 "), [**единицы**](/windows/desktop/WmiSdk/standard-qualifiers) (" килобайтах ")
+Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) (MIF. DMTF \| Memory Параметры \| 001,3 "), [**единицы**](/windows/desktop/WmiSdk/standard-qualifiers) (" килобайтах ")
 </dt> </dl>
 
 Количество килобайтов, которые могут храниться в файлах подкачки операционной системы. Это число не представляет фактический физический размер файла подкачки на диске. Значение 0 (ноль) указывает, что файлы подкачки отсутствуют.
@@ -1117,7 +1117,7 @@ Mac OS 9
 Квалификаторы: [**единицы**](/windows/desktop/WmiSdk/standard-qualifiers) ("килобайтах")
 </dt> </dl>
 
-Общий объем области подкачки, в килобайтах. Это значение может быть равно null (не указано), если пространство подкачки не отличается от файлов страниц. Однако некоторые операционные системы отличают эти понятия. Например, все процессы могут быть "переключены" в UNIX, когда список свободных страниц опускается и остается ниже заданного значения.
+Общий объем области подкачки, в килобайтах. Это значение может быть равно null (не указано), если пространство подкачки не отличается от файлов страниц. Однако некоторые операционные системы отличают эти понятия. например, все процессы можно «переключать» в UNIX, когда список свободных страниц становится и остается ниже заданного значения.
 
 Дополнительные сведения об использовании значений **UInt64** в скриптах см. [в разделе Создание сценариев в WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 
@@ -1159,7 +1159,7 @@ Mac OS 9
 
 </dd> <dt>
 
-**Version**
+**Версия**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -1180,7 +1180,7 @@ Mac OS 9
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ операционной системы CIM** является производным от [**CIM \_ логикалелемент**](cim-logicalelement.md).
 

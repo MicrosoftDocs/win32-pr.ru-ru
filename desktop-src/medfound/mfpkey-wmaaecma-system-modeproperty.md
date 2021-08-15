@@ -4,12 +4,12 @@ ms.assetid: 479b3525-5beb-4c6b-b1ad-8fa72c0d0fd0
 title: Свойство MFPKEY_WMAAECMA_SYSTEM_MODE (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cfca745b83c8a73a2eb4c17c8a2206f90255088c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 722b3e502b783f98ef4871cfc6dd184389dfce7f7f942bde1827468e96f5fa7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973273"
 ---
 # <a name="mfpkey_wmaaecma_system_mode-property"></a>МФПКЭЙ \_ вмааекма \_ , \_ свойство системного режима
 
@@ -23,11 +23,11 @@ ms.locfileid: "105662781"
 
 VT \_ I4
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [DSP для записи речи](voicecapturedmo.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значение этого свойства является членом перечисления [ \_ системного \_ режима AEC](/windows/desktop/api/wmcodecdsp/ne-wmcodecdsp-aec_system_mode) .
 
@@ -48,14 +48,14 @@ VT \_ I4
 
 Это свойство необходимо задать перед использованием схемы DSP для записи голоса. После задания этого свойства можно использовать DSP с параметрами по умолчанию или задать дополнительные свойства.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 

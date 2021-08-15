@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 70a88d87c68b36db5bd44413e3c68940db44f29b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1b20b519c0ec89243aefd9c87aba235548f11f93984a45702f7670a27bf073cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262710"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119080938"
 ---
 # <a name="cim_associatedsupplycurrentsensor-class"></a>\_Класс CIM ассоЦиатедсуппликуррентсенсор
 
@@ -53,7 +53,7 @@ class CIM_AssociatedSupplyCurrentSensor : CIM_AssociatedSensor
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ ассоЦиатедсуппликуррентсенсор** имеет следующие свойства.
 
@@ -145,7 +145,7 @@ class CIM_AssociatedSupplyCurrentSensor : CIM_AssociatedSensor
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **CIM \_ ассоЦиатедсуппликуррентсенсор** является производным от [**CIM \_ ассоЦиатедсенсор**](cim-associatedsensor.md).
 

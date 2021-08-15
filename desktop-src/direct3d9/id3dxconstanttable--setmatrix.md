@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 0ae227663a61087fae309d1954b8f0dc438f6df2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 76b33f5b3f2c4f2856acf2cdf842b837587a73761e837beeb7a86887ca25b741
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694184"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118987564"
 ---
 # <a name="id3dxconstanttablesetmatrix-method"></a>Метод ID3DXConstantTable:: Сетматрикс
 
@@ -81,7 +81,7 @@ HRESULT SetMatrix(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>     |
 
 

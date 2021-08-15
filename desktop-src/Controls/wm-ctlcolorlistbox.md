@@ -3,7 +3,7 @@ title: Сообщение WM_CTLCOLORLISTBOX (Winuser. h)
 description: Отправляется в родительское окно списка до того, как система выводит список. Выполнив ответ на это сообщение, родительское окно может задать цвета текста и фона списка с помощью указанного маркера контекста устройства вывода.
 ms.assetid: e128e77f-e966-44c4-9f0e-efcf421b6c82
 keywords:
-- Элементы управления Windows для WM_CTLCOLORLISTBOX сообщений
+- элементы управления Windows сообщений WM_CTLCOLORLISTBOX
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e949af76bd05aa9ad3a3e720c89be33cfe76ed8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1713c7251dfe837d5796b708fa5b77f0aa5e372c031c251199cb871dbd7c5608
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119077668"
 ---
 # <a name="wm_ctlcolorlistbox-message"></a>\_Сообщение КТЛКОЛОРЛИСТБОКС WM
 
@@ -57,7 +57,7 @@ WM_CTLCOLORLISTBOX
 
 Если приложение обрабатывает это сообщение, оно должно возвращать маркер кисти. Система использует кисть для рисования фона списка.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 По умолчанию функция [**дефвиндовпрок**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) выбирает системные цвета по умолчанию для списка.
 
@@ -71,9 +71,9 @@ WM_CTLCOLORLISTBOX
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Header<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

@@ -15,12 +15,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location:
 - wmsdkidl.h
-ms.openlocfilehash: f814df820bd50a36abf2ee8e453549f46c9c5c9e
-ms.sourcegitcommit: 52d79b29f3b9933c8bef43207ff80c668a81cb73
+ms.openlocfilehash: 525cdee41be011e373c65e508e91087082c17f2ec279195e2a9ab285b391fd54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "105661791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119084721"
 ---
 # <a name="iwmprofile-interface"></a>Интерфейс IWMProfile
 
@@ -57,7 +57,7 @@ ms.locfileid: "105661791"
 | [**GetStream**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile-getstream)                               | Извлекает из профиля поток, используя номер индекса.<br/>                     |
 | [**жетстреамбинумбер**](/windows/win32/api/wmcontainer/nf-wmcontainer-imfasfprofile-getstreambynumber)               | Извлекает поток, используя номер потока из профиля.<br/>            |
 | [**жетстреамкаунт**](/windows/win32/api/wmcontainer/nf-wmcontainer-imfasfprofile-getstreamcount)                     | Возвращает количество потоков в профиле.<br/>                                  |
-| [**GetVersion**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile-getversion)                             | Возвращает номер версии служб Microsoft Windows Media в профиле.<br/> |
+| [**GetVersion**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile-getversion)                             | возвращает номер версии Microsoft службы Windows Media в профиле.<br/> |
 | [**реконфигстреам**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile-reconfigstream)                     | Позволяет включить в профиль изменения, внесенные в конфигурацию потока.<br/>    |
 | [**ремовемутуалексклусион**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile-removemutualexclusion)       | Удаляет объект взаимного исключения из профиля.<br/>                              |
 | [**ремовестреам**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile-removestream)                         | Удаляет поток из профиля.<br/>                                               |

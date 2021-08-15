@@ -4,12 +4,12 @@ ms.assetid: 75ac826a-f169-400c-b6d6-3e3ec9ebf996
 title: Запись и удаление данных реестра
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5185c98f39a37512ec56fb994d5f1c4ba4b61ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6fd4e80dc3320d1af0931e111c82f473e0edf56ac071443397ffc3da0918f7be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104345032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118883996"
 ---
 # <a name="writing-and-deleting-registry-data"></a>Запись и удаление данных реестра
 

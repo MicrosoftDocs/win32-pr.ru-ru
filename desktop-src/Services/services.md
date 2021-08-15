@@ -4,12 +4,12 @@ ms.assetid: 711391da-05c6-4d89-88d6-c68c2e5c2f86
 title: Службы (службы)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04c13f9f09bd2731a60b80fbc198ca7ce709bd06
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e829f1a6a29aca521cf18600ffbf5ed7d6c271c0d2b9a607e6ccae57d858aa5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103912795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118888541"
 ---
 # <a name="services-services"></a>Службы (службы)
 
@@ -20,8 +20,8 @@ ms.locfileid: "103912795"
 Теперь триггеры можно использовать для управления запуском службы. Дополнительные сведения см. в разделе [Конфигурация службы](service-configuration.md).
 
 -   [Новые возможности служб для Windows 8](what-s-new-in-services-for-windows-8.md)
--   [Новые возможности служб для Windows 7](what-s-new-in-services.md)
--   [Изменения служб для Windows Vista](service-changes-for-windows-vista.md)
+-   [новые возможности служб для Windows 7](what-s-new-in-services.md)
+-   [изменения служб для Windows Vista](service-changes-for-windows-vista.md)
 -   [О службах](about-services.md)
 -   [Использование служб](using-services.md)
 -   [Ссылка на службу](service-reference.md)

@@ -4,12 +4,12 @@ ms.assetid: a210bffc-fe71-4909-bc5c-d440890265c9
 title: Рекомендации по лингвистическим правилам и Юникоду
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fa189f0772b65b0746e31bd90b89a4c62a4c42f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 16d160d90c93d009af55bf8acb79a08a1963ea446018b8a920d27a8f3fe3ac60
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104072639"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118462396"
 ---
 # <a name="linguistic-and-unicode-considerations"></a>Рекомендации по лингвистическим правилам и Юникоду
 
@@ -22,11 +22,11 @@ ms.locfileid: "104072639"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
--   Список лануажес, поддерживаемых средством разбиения по словам, см. в разделе [языки, поддерживаемые службой поиска Windows](-search-3x-wds-language-support.md).
--   Если необходимо определить язык фрагмента текста, можно использовать функцию автоматического определения языка (LAD), которая доступна в Windows 7 и более поздних версиях. Дополнительные сведения см. в разделе [Расширенные лингвистические службы](../intl/extended-linguistic-services.md) (ELS).
+-   список лануажес, поддерживаемых средством разбиения по словам, см. в разделе [языки, поддерживаемые Windows поиска](-search-3x-wds-language-support.md).
+-   если необходимо определить язык фрагмента текста, можно использовать функцию автоматического определения языка (LAD), которая доступна в Windows 7 и более поздних версиях. Дополнительные сведения см. в разделе [Расширенные лингвистические службы](../intl/extended-linguistic-services.md) (ELS).
 -   Сведения о применимой справочной документации см. [в разделе интерфейсы надстройки данных](-search-data-addins-interfaces-entry-page.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

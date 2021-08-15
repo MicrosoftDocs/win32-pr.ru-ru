@@ -150,7 +150,7 @@ HRESULT D3DXCreateEffectFromFileEx(
 
 Параметр компилятора также определяет версию функции. Если определен Юникод, вызов функции разрешается в D3DXCreateEffectFromFileW. В противном случае вызов функции разрешается в D3DXCreateEffectFromFileA, так как используются строки ANSI.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

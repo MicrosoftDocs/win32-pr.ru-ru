@@ -3,7 +3,7 @@ title: Код уведомления TVN_BEGINDRAG (Коммктрл. h)
 description: Сообщает родительскому окну элемента управления иерархического представления, что инициируется операция перетаскивания с использованием левой кнопки мыши. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: e118354a-329e-424c-b137-78342cc00957
 keywords:
-- TVN_BEGINDRAG кода уведомления элементы управления Windows
+- TVN_BEGINDRAG кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 08f47f55a5e2eae552f64234a8e43ef0961f38c7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 95952ee42dfe8eb8dd1a46c66dcd452f41cbc9723fa175c2a0d1fc75056c31ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957923"
 ---
 # <a name="tvn_begindrag-notification-code"></a>\_Код уведомления ТВН бегиндраг
 
@@ -51,18 +51,18 @@ TVN_BEGINDRAG
 
 Возвращаемое значение игнорируется.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент управления "дерево-представление", имеющий стиль [**\_ Дисабледрагдроп "телевизоры**](tree-view-control-window-styles.md) ", не отправляет этот код уведомления.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **ТВН \_ БЕГИНДРАГВ** (Юникод) и **ТВН \_ бегиндрага** (ANSI)<br/>               |
 

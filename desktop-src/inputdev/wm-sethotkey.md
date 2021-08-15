@@ -96,7 +96,7 @@ ms.locfileid: "118482521"
 
 Эти Горячие ключи не связаны с горячими ключами, установленными [**RegisterHotKey**](/windows/win32/api/winuser/nf-winuser-registerhotkey).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

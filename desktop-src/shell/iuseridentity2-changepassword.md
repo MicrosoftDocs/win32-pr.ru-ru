@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msident.dll
-ms.openlocfilehash: dd4b858924e4b042b3d7a0636d90eb582e9506df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d892fd3f676183864d72d905b72cea2f01643211314fc293b1cd76e5d70fc237
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984605"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119092701"
 ---
 # <a name="iuseridentity2changepassword-method"></a>Метод IUserIdentity2:: ChangePassword
 
@@ -45,16 +45,16 @@ HRESULT ChangePassword(
 *сзолдпасс* \[ окне\]
 </dt> <dd>
 
-Тип: **WCHAR \** _
+Тип: **WCHAR \***
 
 Строка расширенных символов, содержащая пароль, который в настоящее время связан с удостоверением.
 
 </dd> <dt>
 
-_szNewPass * \[ в\]
+*сзневпасс* \[ окне\]
 </dt> <dd>
 
-Тип: **WCHAR \** _
+Тип: **WCHAR \***
 
 Строка расширенных символов, содержащая новый пароль, который должен быть связан с удостоверением.
 
@@ -62,11 +62,11 @@ _szNewPass * \[ в\]
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Тип: _ *HRESULT**
+Тип: **HRESULT**
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Значение параметра *сзолдпасс* должно соответствовать текущему паролю удостоверения, применяемого для *сзневпасс* . Неправильное значение *сзолдпасс* приведет к возвращению значения E с \_ ошибкой.
 

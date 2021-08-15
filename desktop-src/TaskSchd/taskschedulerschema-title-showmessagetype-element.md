@@ -48,7 +48,7 @@ ms.locfileid: "118355681"
 
 Сведения о разработке сценариев см. в разделе [**шовмессажеактион. Title**](showmessageaction-title.md).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

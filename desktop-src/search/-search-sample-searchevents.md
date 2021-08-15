@@ -4,12 +4,12 @@ ms.assetid: a352c3e2-5860-4b9c-a3c7-a806f69b4f7d
 title: сеарчевентс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21472d113694a41a3c7855c0fdaf8f2fa2b3b2e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 98f6687de8a9e4816968a3134abf76f8b10e02f42d90a2578626be035843621c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692190"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118969713"
 ---
 # <a name="searchevents"></a>сеарчевентс
 
@@ -21,9 +21,9 @@ ms.locfileid: "105692190"
 - [Загрузка образца](#downloading-the-sample)
 - [Создание примера](#building-the-sample)
 - [Запуск примера](#running-the-sample)
-- [См. также](#related-topics)
+- [Связанные темы](#related-topics)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Продукт     | Версия продукта          |
 |-------------|--------------------------|
@@ -39,24 +39,24 @@ ms.locfileid: "105692190"
 | GitHub        | [Пример Сеарчевентс](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/SearchEvents)    |
 
 > [!NOTE]  
-> Для всех версий Windows, включая Windows 7, рекомендуется загрузить примеры непосредственно из GitHub, чтобы получить самую последнюю версию.
+> для всех версий Windows, включая Windows 7, рекомендуется загружать образцы непосредственно из GitHub для наиболее актуальной версии.
 
 ## <a name="building-the-sample"></a>Построение образца
 
-1. Откройте проводник Windows и перейдите в каталог проекта **сеарчевентс** .
+1. откройте обозреватель Windows и перейдите в каталог проекта **сеарчевентс** .
 2. Дважды щелкните значок файла Eventing. sln, чтобы открыть проект в Visual Studio.
   
     > [!NOTE]  
-    > Файл SLN был создан в более старой версии Visual Studio, поэтому его обновление потребуется, если используется Visual Studio 2012 или более поздняя версия. Это не повлияет на поведение образца.
+    > файл sln был создан в более ранней версии Visual Studio, поэтому его обновление потребуется при использовании Visual Studio 2012 или более поздних версий. Это не повлияет на поведение образца.
 
-3. В меню **Сборка** выберите пункт **построить решение**.
+3. В меню **Построение** выберите пункт **Построить решение**.
 
 ## <a name="running-the-sample"></a>Запуск примера
 
-1. Перейдите в каталог, содержащий новый исполняемый файл, с помощью окна командной строки или проводника Windows.
-2. В командной строке введите `Eventing.exe` или в проводнике Windows дважды щелкните значок Eventing.exe.
+1. перейдите в каталог, содержащий новый исполняемый файл, используя окно командной строки или проводник Windows.
+2. в командной строке введите `Eventing.exe` или в Windows Explorer дважды щелкните значок Eventing.exe.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 ### <a name="reference"></a>Справочник
 
