@@ -4,12 +4,12 @@ ms.assetid: 5eefdfcb-89a5-4885-bab0-6409ef3ce349
 title: Атрибут элемента управления Icon
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e60c19674ac26f108109fad04e0836ed8dfeba6c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d2caeb407b86b888a5dd3b1c08f16d0893233f82cec29b92519c267b286ea121
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650622"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119315124"
 ---
 # <a name="icon-control-attribute"></a>Атрибут элемента управления Icon
 
@@ -37,7 +37,7 @@ ms.locfileid: "105650622"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы задать этот атрибут для элемента управления, включите биты значков в столбец Attributes записи элемента управления в [таблице Control](control-table.md).
 

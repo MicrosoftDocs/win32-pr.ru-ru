@@ -32,7 +32,7 @@
         - name: Свойства Windows
           href: props.md
           items:
-            - name: Аудио
+            - name: звук;
               href: audio-bumper.md
               items:
                 - name: System. Audio. Чаннелкаунт
@@ -88,7 +88,7 @@
                   href: props-system-calendar-showtimeas.md
                 - name: System. Calendar. Шовтимеастекст
                   href: props-system-calendar-showtimeastext.md
-            - name: Связь
+            - name: Взаимодействие
               href: communication-bumper.md
               items:
                 - name: System. Communication. AccountName
@@ -439,7 +439,7 @@
                   href: props-system-contact-webpage2.md
                 - name: System. Contact. Webpage3
                   href: props-system-contact-webpage3.md
-            - name: Базовая
+            - name: Основные сведения
               href: core-bumper.md
               items:
                 - name: System. Аккуиситионид
@@ -1506,7 +1506,7 @@
                   href: props-system-link-targeturlhostname.md
                 - name: System. Link. Таржетурлпас
                   href: props-system-link-targeturlpath.md
-            - name: Служба мультимедиа
+            - name: Мультимедиа
               href: media-bumper.md
               items:
                 - name: System. Media. Аусорурл
@@ -1589,7 +1589,7 @@
                   href: props-system-media-writer.md
                 - name: System. Media. Year
                   href: props-system-media-year.md
-            - name: Сообщение
+            - name: Message
               href: message-bumper.md
               items:
                 - name: System. Message. Аттачментконтентс
@@ -2022,7 +2022,7 @@
                   href: props-system-search-urltoindex.md
                 - name: System. Search. Урлтоиндексвисмодификатионтиме
                   href: props-system-search-urltoindexwithmodificationtime.md
-            - name: Оболочка
+            - name: Shell
               href: shell-bumper.md
               items:
                 - name: System. Дескриптионид
@@ -2119,7 +2119,7 @@
                   href: props-system-task-completionstatus.md
                 - name: System. Task. Owner
                   href: props-system-task-owner.md
-            - name: Видео
+            - name: видео;
               href: video-bumper.md
               items:
                 - name: System. видео. Compression
@@ -2156,7 +2156,7 @@
                   href: props-system-video-transcodedforsync.md
                 - name: System. Video. Вертикаласпектратио
                   href: props-system-video-verticalaspectratio.md
-            - name: Том
+            - name: Громкость
               href: volume-bumper.md
               items:
                 - name: System. Volume. FileSystem

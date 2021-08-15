@@ -3,7 +3,7 @@ title: Сообщение LVM_SETCOLUMN (Коммктрл. h)
 description: Задает атрибуты столбца представления списка. Это сообщение можно отправить явно или с помощью \_ макроса Сетколумн ListView.
 ms.assetid: 8ca1c269-fd86-4561-940d-b75f8ca2b731
 keywords:
-- Элементы управления Windows для LVM_SETCOLUMN сообщений
+- элементы управления Windows сообщений LVM_SETCOLUMN
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7251da70c7ac1e2cb7bbcf7b3e220a2f6cdf055f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cca00e62d941a753c70e0dd31c1af4003fe639d49503be7009fe5a010febf0c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988691"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019222"
 ---
 # <a name="lvm_setcolumn-message"></a>\_Сообщение LVM сетколумн
 
@@ -55,8 +55,8 @@ ms.locfileid: "103988691"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **LVM \_ СЕТКОЛУМНВ** (Юникод) и **LVM \_ сетколумнв** (ANSI)<br/>               |
 

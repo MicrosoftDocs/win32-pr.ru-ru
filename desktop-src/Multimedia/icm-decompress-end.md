@@ -3,7 +3,7 @@ title: Сообщение ICM_DECOMPRESS_END (VFW. h)
 description: '\_ \_ Сообщение об ОКОНЧАНИи распаковки ICM уведомляет драйвер распаковки о завершении распаковки и освобождения ресурсов, выделенных для распаковки. Это сообщение можно отправить явно или с помощью макроса Икдекомпрессенд.'
 ms.assetid: 16ce2424-9606-455f-afbd-84326457538e
 keywords:
-- ICM_DECOMPRESS_END сообщения Windows мультимедиа
+- сообщение ICM_DECOMPRESS_END Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e25155755b6bfbb893905e6facad890dbf98f175
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a0c877afac3db0e4cf4d7c476ca3806d2acd15bdf72764549b2958490574a4f6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103803377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119691164"
 ---
 # <a name="icm_decompress_end-message"></a>\_Завершающее сообщение РАЗуплотнения ICM \_
 
@@ -38,7 +38,7 @@ lParam = 0;
 
 Возвращает ИЦЕРР \_ ОК в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Драйвер должен освободить все ресурсы, выделенные для [**сообщения \_ \_ Begin reуплотнения ICM**](icm-decompress-begin.md) .
 

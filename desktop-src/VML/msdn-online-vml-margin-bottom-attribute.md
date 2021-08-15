@@ -4,27 +4,27 @@ description: Атрибут VML Margin-Bottom
 ms.assetid: c1101430-f4fc-4fa5-8e02-7cee126c2c1c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35712733179a3c03dc291c4d5efcf4fee68c2865
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 551cf9cba00901e07998f2de38465cba1cb45bb8f563c04d1adf25f75d1852bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103792768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119057822"
 ---
 # <a name="vml-margin-bottom-attribute"></a>Атрибут VML Margin-Bottom
 
-В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+в этом разделе описывается функция VML, которая является устаревшей по отношению к Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
 
 > [!Note]  
-> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
+> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). сведения, рекомендации и рекомендации относительно текущей версии Windows Internet explorer см. в [центре разработчиков internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Задает нижнюю границу содержащего прямоугольника фигуры относительно привязки фигуры. Read/write. **Строка**.
 
 **Применимо к**:
 
-[Фигурная](shape-element--vml.md)
+[Фигура](shape-element--vml.md)
 
 **Синтаксис тега**
 
@@ -54,7 +54,7 @@ ms.locfileid: "103792768"
 
 
 
- 
+ 
 
 *Стандартный атрибут VML*
 
@@ -77,6 +77,6 @@ ms.locfileid: "103792768"
 
 [Пример атрибута Margin-Bottom](/previous-versions/bb229675(v=vs.85)). (Требуется Microsoft Internet Explorer 5 или более поздней версии.)
 
- 
+ 
 
- 
+ 

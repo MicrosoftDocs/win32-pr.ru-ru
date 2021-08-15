@@ -3,7 +3,7 @@ title: Команда index
 description: Команда index управляет экраном видеомагнитофона. Устройства ВИДЕОМАГНИТОФОНА распознают эту команду.
 ms.assetid: 16066acf-37aa-4bff-b97e-5eb2420ac3c4
 keywords:
-- Команда index мультимедиа Windows
+- команда index Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: da652b1a7a48dffd9850c435345fcfcb11c2e674
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e9044ce01db5f35354390fd8d09cc085416202f670c8378a2e1a10311b12ab94
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119690554"
 ---
 # <a name="index-command"></a>Команда index
 

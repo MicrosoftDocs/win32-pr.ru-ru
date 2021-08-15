@@ -4,12 +4,12 @@ ms.assetid: 84ec6f14-fe90-42a5-ba2b-6c4cc406935c
 title: WPD_FUNCTIONAL_CATEGORY_RENDERING_INFORMATION
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41bf2a5b981b75820b566e3133faab22c2f35860
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a0665d9918726495d72b318b60a39a4713c01c9ad3a80ab0dbe15be5fc87576
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999158"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083248"
 ---
 # <a name="wpd_functional_category_rendering_information"></a>\_ \_ \_ сведения о визуализации ФУНКЦИОНАЛЬНой категории WPD \_
 
@@ -42,7 +42,7 @@ ms.locfileid: "103999158"
 | [Объект WPD, \_ \_ создающий \_ эскиз \_ из \_ ресурса](object-properties.md) | Необязательный элемент.                                                                                                                                              |
 | [\_объект WPD \_ может \_ удалить](object-properties.md)                                                                     | Требуется, если объект не может быть удален.                                                                                                              |
 | [\_ \_ языковой стандарт объекта WPD \_](object-properties.md)                                                                | Необязательный элемент.                                                                                                                                              |
-| [\_Категория функционального \_ объекта WPD \_](miscellaneous-properties.md)                      | Обязательный. Категории, определяемые переносными устройствами Windows, см. в разделе [**\_ \_ \_ функциональный \_ объект типа содержимого WPD**](wpd-content-type-functional-object.md) . |
+| [\_Категория функционального \_ объекта WPD \_](miscellaneous-properties.md)                      | Обязательный. категории, определяемые Windows портативными устройствами, см. в разделе [**\_ \_ \_ функциональный \_ объект типа содержимого WPD**](wpd-content-type-functional-object.md) . |
 | [\_ \_ информационные профили модуля обработки данных \_](miscellaneous-properties.md)              | Обязательный.                                                                                                                                              |
 | [\_ \_ \_ \_ тип записи профиля сведений о визуализации WPD \_](miscellaneous-properties.md)                                     | Необязательный элемент.                                                                                                                                              |
 | [\_ \_ \_ \_ \_ создаваемый ресурс записи профиля сведений о \_ визуализации WPD](miscellaneous-properties.md)                      | Необязательный элемент.                                                                                                                                              |
@@ -55,7 +55,7 @@ ms.locfileid: "103999158"
 
 Обычно эти объекты не размещают ресурсы.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

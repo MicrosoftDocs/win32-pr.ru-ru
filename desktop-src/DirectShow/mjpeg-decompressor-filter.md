@@ -4,12 +4,12 @@ ms.assetid: 0862fd8c-7e64-4472-9405-4d8e31e4401f
 title: Фильтр декомпрессора МЖПЕГ
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23a3e3c09d218a83f5243bf6702d3b5fc3ae1c16
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 34f0587abe77d1f76df043a37bc8e54db91d65d81e00b0a2677268b6d61bc782
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107910022"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119684944"
 ---
 # <a name="mjpeg-decompressor-filter"></a>Фильтр декомпрессора МЖПЕГ
 
@@ -34,7 +34,7 @@ ms.locfileid: "107910022"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот фильтр совместим с видео о перемещении JPEG, в котором используется код FOURCC "МЖПГ". Он не может декодировать другие виды перемещения JPEG. Для этого необходимо использовать фильтр декодера стороннего производителя.
 
@@ -42,7 +42,7 @@ ms.locfileid: "107910022"
 
 <dl> <dt>
 
-[Фильтры DirectShow](directshow-filters.md)
+[DirectShow Фильтрующ](directshow-filters.md)
 </dt> </dl>
 
  

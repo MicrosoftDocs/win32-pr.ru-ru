@@ -3,7 +3,7 @@ title: Сообщение RB_SETWINDOWTHEME (Коммктрл. h)
 description: Задает визуальный стиль элемента управления главной панели.
 ms.assetid: 5b32b354-3e25-4d02-9334-cc57acf41a73
 keywords:
-- Элементы управления Windows для RB_SETWINDOWTHEME сообщений
+- элементы управления Windows сообщений RB_SETWINDOWTHEME
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e136562394d26dd56d8d4c0c9ae916948144dbb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ea2def8b1e4e1961ab549468260760d80182e466e44841fbbb767929a8033893
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119078556"
 ---
 # <a name="rb_setwindowtheme-message"></a>\_Сообщение SETWINDOWTHEME RB
 
@@ -43,7 +43,7 @@ ms.locfileid: "104136631"
 
 Возвращаемое значение не используется.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Чтобы использовать это сообщение, необходимо указать манифест, указывающий Comclt32.dll версии 6,0. Дополнительные сведения о манифестах см. в разделе [Включение визуальных стилей](cookbook-overview.md).
@@ -56,8 +56,8 @@ ms.locfileid: "104136631"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

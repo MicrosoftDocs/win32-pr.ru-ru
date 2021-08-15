@@ -4,12 +4,12 @@ ms.assetid: daf45180-2cc3-433d-823e-395e85ce3410
 title: Дисковые устройства и разделы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e063b943d33118a45cb6ab4c304569094af2c32e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 758454c9fc9e684e918646bf99869c7544b3b02c0201eb2ba507f8ffbdc303d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104570780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015381"
 ---
 # <a name="disk-devices-and-partitions"></a>Дисковые устройства и разделы
 
@@ -30,7 +30,7 @@ ms.locfileid: "104570780"
 -   Таблица разделов (до четырех записей)
 -   Маркер конца MBR (всегда 0x55AA)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

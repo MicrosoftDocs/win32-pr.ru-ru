@@ -1,6 +1,6 @@
 ---
 title: атрибут Онкрпкнумбер
-description: Содержит часть схемы RPC и хранит номер RPC для удаленных вызовов процедур UNIX.
+description: содержит часть схемы rpc и хранит номер RPC для UNIX rpc.
 ms.assetid: c824d740-5c68-4fce-93f3-01ac52b47e5b
 ms.tgt_platform: multiple
 keywords:
@@ -13,16 +13,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b2394395f7be9a9f5f9dfe1fd312dcf4f8957c4d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 0ea1416fb950a4b666be16f8848cc89d4c63bd4108e41a5e55a0450f8622d59e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104138811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119442174"
 ---
 # <a name="oncrpcnumber-attribute"></a>атрибут Онкрпкнумбер
 
-Содержит часть схемы RPC и хранит номер RPC для удаленных вызовов процедур UNIX.
+содержит часть схемы rpc и хранит номер RPC для UNIX rpc.
 
 
 

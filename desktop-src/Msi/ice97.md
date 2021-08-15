@@ -4,12 +4,12 @@ ms.assetid: 76eeb238-02a1-43c1-a3d7-5178e3c3eaee
 title: ICE97
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34c41701ce04c0071d6599f888083dfbea4bfc0c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 29575d533e945cef922110315cd3300f56fe62ae61b34c92de7175916e6657ea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105650904"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119315245"
 ---
 # <a name="ice97"></a>ICE97
 
@@ -31,7 +31,7 @@ ICE97 отправляет следующие предупреждения.
 
 Например, Component1 и Component2, которые совместно используют Компонентшаред, устанавливаются в один и тот же каталог. Оба указывают Компонентшаред как изолированный компонент. Из-за изоляции файлы в Компонентшаред копируются дважды в Справочник по каталогам \_ для Component1 и Component2. Теперь компоненты имеют один счетчик ссылок на копии файлов. Это нарушает правила компонента установщика. Если Component1 удаляется, файлы изолированных компонентов удаляются, а Component2 разрывается.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

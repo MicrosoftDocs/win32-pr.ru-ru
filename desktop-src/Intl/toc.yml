@@ -1,14 +1,14 @@
 - name: Интернационализация для приложений Windows
   href: international-support.md
   items:
-    - name: начало работы с международной разработкой для Windows
+    - name: начало работы с международной разработкой Windows
       href: getting-started-with-international-development.md
       items:
         - name: Основные сведения о международной связи
           href: understanding-internationalization.md
         - name: Контрольный список интернационализации
           href: internationalization-checklist.md
-        - name: Добавление поддержки многоязычного пользовательского интерфейса в приложение
+        - name: добавление поддержки многоязычный пользовательский интерфейс в приложение
           href: creating-a-multilingual-user-interface-application.md
     - name: Службы глобализации
       href: globalization-services.md
@@ -769,7 +769,7 @@
               href: ime-window-class.md
             - name: Контекст ввода
               href: input-context.md
-            - name: 'Окна состояния, композиции и кандидатов'
+            - name: 'Состояние, композиция и кандидаты Windows'
               href: status--composition--and-candidates-windows.md
         - name: Использование диспетчера методов ввода
           href: using-input-method-manager.md
@@ -1143,7 +1143,7 @@
             - name: Использование Uniscribe
               href: using-uniscribe.md
               items:
-                - name: Caching
+                - name: Кэширование
                   href: caching.md
                 - name: 'Определение, требует ли сценарий формирования глифов'
                   href: determining-if-a-script-requires-glyph-shaping.md
@@ -1302,7 +1302,7 @@
     - name: Многоязыковой интерфейс пользователя
       href: multilingual-user-interface.md
       items:
-        - name: Сведения о многоязычном пользовательском интерфейсе
+        - name: о многоязычный пользовательский интерфейс
           href: about-multilingual-user-interface.md
           items:
             - name: Основные сведения о MUI
@@ -1312,7 +1312,7 @@
                   href: overview-of-mui.md
                 - name: Описание основных принципов многоязыкового интерфейса пользователя
                   href: mui-fundamental-concepts-explained.md
-                - name: Развитие поддержки многоязыкового интерфейса пользователя в разных версиях Windows
+                - name: развитие поддержки многоязыкового интерфейса пользователя в разных версиях Windows
                   href: evolution-of-mui-support-across-windows-versions.md
                 - name: Преимущества многоязыкового интерфейса пользователя
                   href: benefits-of-mui-explained.md
@@ -1328,7 +1328,7 @@
               href: development-of-mui-applications.md
             - name: Развертывание приложения
               href: application-deployment.md
-        - name: Использование многоязыкового интерфейса пользователя
+        - name: использование многоязычный пользовательский интерфейс
           href: using-multilingual-user-interface.md
           items:
             - name: Подготовка ресурсов
@@ -1343,9 +1343,9 @@
             - name: Настройка языковых настроек приложения
               href: setting-application-language-preferences.md
               items:
-                - name: Поддержка языковых параметров системы
+                - name: поддержка системных языков Параметры
                   href: supporting-system-language-settings.md
-                - name: Поддержка языковых параметров Application-Specific
+                - name: поддержка языков Application-Specific Параметры
                   href: supporting-application-specific-language-settings.md
                 - name: Фильтрация языков в консольном приложении MUI
                   href: filtering-languages-in-a-mui-console-application.md
@@ -1362,16 +1362,16 @@
               href: locating-non-win32-pe-resources.md
             - name: Локализация ресурсов и сборка приложения
               href: localizing-resources-and-building-the-application.md
-            - name: 'MUI: пример приложения "Параметры системы"'
+            - name: 'MUI: пример приложения для систем Параметры'
               href: mui-system-settings-application-sample.md
-            - name: 'MUI: пример параметров Application-Specific (Windows Vista)'
+            - name: 'MUI: пример Параметры Application-Specific (Windows Vista)'
               href: mui-application-specific-settings-sample-vista.md
-            - name: 'MUI: образец параметров Application-Specific (до Windows Vista)'
+            - name: 'MUI: пример Параметры Application-Specific (до Windows Vista)'
               href: mui-application-specific-settings-sample-pre-vista.md
-        - name: Справочник по многоязычному пользовательскому интерфейсу
+        - name: многоязычный пользовательский интерфейс IsReference
           href: multilingual-user-interface-reference.md
           items:
-            - name: Функции многоязыкового пользовательского интерфейса
+            - name: многоязычный пользовательский интерфейс Функции
               href: multilingual-user-interface-functions.md
               items:
                 - name: енумуилангуажес
@@ -1410,7 +1410,7 @@
                   href: /windows/desktop/api/Winnls/nf-winnls-setthreadpreferreduilanguages
                 - name: сетсреадуилангуаже
                   href: /windows/desktop/api/Winnls/nf-winnls-setthreaduilanguage
-            - name: Макросы многоязыкового пользовательского интерфейса
+            - name: многоязычный пользовательский интерфейс Макрокоманд
               href: multilingual-user-interface-macros.md
               items:
                 - name: FILEMUIINFO_GET_CULTURE
@@ -1427,7 +1427,7 @@
                   href: /windows/desktop/api/Winnls/nf-winnls-filemuiinfo_get_mui_typeid
                 - name: FILEMUIINFO_GET_MUI_TYPENAMES
                   href: /windows/desktop/api/Winnls/nf-winnls-filemuiinfo_get_mui_typenames
-            - name: Структуры многоязыкового пользовательского интерфейса
+            - name: многоязычный пользовательский интерфейс Сотрудник
               href: multilingual-user-interface-structures.md
               items:
                 - name: филемуиинфо

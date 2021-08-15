@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e75cdb4b098b92ea358c32e40b3948c7ac73e0cf
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 11c1caa682751c3c4d112efd07643233e9cac91392c9e3bb9c575b1f89f5b53f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104424269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119562064"
 ---
 # <a name="m3x3---vs"></a>m3x3 — VS
 
@@ -31,13 +31,13 @@ ms.locfileid: "104424269"
 
  
 
-где
+where
 
 -   DST — это регистр назначения. Result является вектором из трех компонентов.
 -   src0 — это исходный регистр, представляющий 3-компонентный вектор.
 -   src1 — это исходный регистр, представляющий матрицу 3x3, которая соответствует первому из трех последовательных регистров.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -77,7 +77,7 @@ dp3   r0.z, r1, c2
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -205,7 +205,7 @@ JET_ERR JET_API JetGetTableColumnInfo(
 
 При получении данных с помощью JET_ColInfoList, JET_ColInfoListSortColumnid или JET_ColInfoListCompact будет открыта временная таблица. Временная таблица содержит данные, а структура [JET_COLUMNLIST](./jet-columnlist-structure.md) содержит достаточно сведений для прохода по временной таблице. Временная таблица должна быть закрыта с помощью [жетклосетабле](./jetclosetable-function.md).
 
-#### <a name="requirements"></a>Requirements (Требования)
+#### <a name="requirements"></a>Требования
 
 <table>
 <colgroup>

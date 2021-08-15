@@ -4,12 +4,12 @@ ms.assetid: 23715497-a74d-4dab-aade-c7779fe80aa6
 title: PKEY_Device_DeviceDesc (Функтиондисковерикэйс \_ девпкэй. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5eb68f874979e660fec0cd563db9bcaceb7d5b74
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 71c5772029f6c99a86c330f05e3cae3b343e3ee25f39eae4c8d5900e7bf947c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119077468"
 ---
 # <a name="pkey_device_devicedesc"></a>\_Девицедеск устройства \_ PKEY
 
@@ -25,8 +25,8 @@ ms.locfileid: "103895313"
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                        |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Функтиондисковерикэйс \_ девпкэй. h</dt> </dl> |
 
 

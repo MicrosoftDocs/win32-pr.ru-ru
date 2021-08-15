@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 58de9d1b2a88a7fa02504f5eac91e9a55e286304
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e32043747b7493d8f59b2028587d60b5b9593a73ac60bf99a81beea8b5c97ae3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104496266"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119080198"
 ---
 # <a name="copy-method-of-the-win32_shortcutfile-class"></a>Метод Copy \_ класса Win32 шорткутфиле
 
@@ -102,7 +102,7 @@ uint32 Copy(
 **12**
 </dt> <dd>
 
-Платформа не является Windows.
+Платформа не Windows.
 
 </dd> <dt>
 

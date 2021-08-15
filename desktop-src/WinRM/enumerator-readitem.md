@@ -5,8 +5,8 @@ ms.assetid: 4280ecb8-2449-41bd-868a-785e8ac3b3d5
 ms.tgt_platform: multiple
 keywords:
 - служба удаленного управления Windows метода ReadItem
-- Служба удаленного управления Windows метода ReadItem, объект Enumerator
-- Объект перечислителя служба удаленного управления Windows, метод ReadItem
+- служба удаленного управления Windows метода ReadItem, объект Enumerator
+- объект перечислителя служба удаленного управления Windows, метод ReadItem
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c7fda1b31cbc14d4a7474d4de55b572df82a8aaf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 65a24109d22c4fc114513c2113af48c62a7042cd90feb075718e57323ecf5238
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118993814"
 ---
 # <a name="enumeratorreaditem-method"></a>Метод Enumerator. ReadItem
 
@@ -43,10 +43,10 @@ Enumerator.ReadItem( _
 
 <dl> <dt>
 
-*ресурсов* 
+*resource* 
 </dt> <dd>
 
-Универсальный код ресурса (URI) элемента.
+URI элемента.
 
 </dd> </dl>
 
@@ -54,7 +54,7 @@ Enumerator.ReadItem( _
 
 XML-представление элемента.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы ограничить количество считываемых элементов, задайте свойство [**Session.Batчитемс**](session-batchitems.md) .
 

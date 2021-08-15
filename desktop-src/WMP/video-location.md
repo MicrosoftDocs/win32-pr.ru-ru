@@ -3,18 +3,18 @@ title: Расположение видео
 description: Расположение видео
 ms.assetid: d7785890-36a1-4077-b878-4845f2829101
 keywords:
-- Обложки Windows Media Player для мобильных устройств, видео
+- проигрыватель Windows Media Обложки для мобильных устройств, видео
 - обложки, видео
 - Справочник по обложкам, видео
 - видео в обложках, сведения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d12a21343e0eef035bd4ff860bb0a30c1db0f30
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2df310c1c439ac06317ff67c36bea340339233f93821fba059db642400f00e35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104252708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054162"
 ---
 # <a name="video-location"></a>Расположение видео
 
@@ -28,16 +28,16 @@ ms.locfileid: "104252708"
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Видео**](video.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,9 +3,9 @@ title: Ивмпнетворк Рецептионкуалити, свойство
 description: Свойство Рецептионкуалити Возвращает процент пакетов, которые не были потеряны за последние 30 секунд.
 ms.assetid: 103e6b8f-e029-4f53-93ac-b516896a7594
 keywords:
-- Проигрыватель Windows Media для свойства Рецептионкуалити
-- Рецептионкуалити свойство проигрывателя Windows Media Player, интерфейс Ивмпнетворк
-- Интерфейс Ивмпнетворк Windows Media Player, свойство Рецептионкуалити
+- проигрыватель Windows Media свойства рецептионкуалити
+- проигрыватель Windows Media свойства рецептионкуалити, интерфейс ивмпнетворк
+- проигрыватель Windows Media интерфейса ивмпнетворк, свойство рецептионкуалити
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a3703ffa29183937874c40053bd3c7ae3c85d75d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e5ea62391df07ed0e5e2c27752f668fda95a19d17dc6322fb7375ef5d3ed440f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098724"
 ---
 # <a name="iwmpnetworkreceptionquality-property"></a>Свойство Ивмпнетворк:: Рецептионкуалити
 
@@ -48,7 +48,7 @@ Public ReadOnly Property receptionQuality As System.Int32
 
 Значение **System. Int32** , которое является качеством приема.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Количество пакетов, полученных, потерянных и восстановленных во время потоковой передачи, отслеживается каждую секунду. Свойство **рецептионкуалити** Возвращает процент пакетов, которые не были потеряны за последние 30 секунд.
 
@@ -134,7 +134,7 @@ End Sub
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

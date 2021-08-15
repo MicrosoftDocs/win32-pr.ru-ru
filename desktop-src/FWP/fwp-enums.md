@@ -1,21 +1,21 @@
 ---
 title: Перечисляемые типы WFP
-description: Перечислимые типы API платформы фильтрации Windows (WFP) приведены ниже.
+description: перечислимые типы API платформы фильтрации Windows (WFP) приведены ниже.
 ms.assetid: 39029412-18ce-426a-a79d-cf25ff0dfe0d
 keywords:
-- Перечислимые типы API платформы фильтрации Windows
+- Windows Перечислимые типы API платформы фильтрации
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0f4d203283b61824167154ace3666a031591c87
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: 5f703322eae6ef4e820cd8d8b0785556e2552c6961fa835f139e6fa150cf323f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "103891216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069304"
 ---
 # <a name="wfp-enumerated-types"></a>Перечисляемые типы WFP
 
-Перечислимые типы API платформы фильтрации Windows (WFP) приведены ниже.
+перечислимые типы API платформы фильтрации Windows (WFP) приведены ниже.
 
 Типы управления
 
@@ -71,6 +71,6 @@ ms.locfileid: "103891216"
 -   [**\_тип трафика \_ IPSec**](/windows/desktop/api/Ipsectypes/ne-ipsectypes-ipsec_traffic_type)
 -   [**\_тип преобразования \_ IPSec**](/windows/desktop/api/Ipsectypes/ne-ipsectypes-ipsec_transform_type)
 
- 
+ 
 
- 
+ 

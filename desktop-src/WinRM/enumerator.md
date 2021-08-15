@@ -5,7 +5,7 @@ ms.assetid: 8d8b461d-06a7-4600-8b68-2faf741a394b
 ms.tgt_platform: multiple
 keywords:
 - служба удаленного управления Windows объекта перечислителя
-- Объект перечислителя служба удаленного управления Windows, описание
+- объект перечислителя служба удаленного управления Windows, описание
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ad2395ae0ba17b1f221cd0a6dc0f7517a89db71
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 83799c4c67ad0b0f7c1ad89c77c3abab5989f1231508757c47dfe4c1705d7e20
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071942"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051832"
 ---
 # <a name="enumerator-object"></a>Enumerator - объект
 
@@ -57,13 +57,13 @@ ms.locfileid: "104071942"
 | Свойство                                                     | Описание                                                                                    |
 |:-------------------------------------------------------------|:-----------------------------------------------------------------------------------------------|
 | [**атендофстреам**](enumerator-atendofstream.md)<br/> | Возвращает логическое значение, указывающее, имеется ли в коллекции больше элементов.<br/> |
-| [**Ошибка**](enumerator-error.md)<br/>                 | Возвращает XML-представление дополнительных сведений об ошибке.<br/>                         |
+| [**План**](enumerator-error.md)<br/>                 | Возвращает XML-представление дополнительных сведений об ошибке.<br/>                         |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы запустить перечисление, используйте [**Session. Enumerate**](session-enumerate.md). Для выполнения операции [*WS-enumeration:*](windows-remote-management-glossary.md)[*Pull*](windows-remote-management-glossary.md) , которая возобновляет чтение элементов в перечислении, используйте [**перечислитель. ReadItem**](enumerator-readitem.md).
 
@@ -112,7 +112,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -137,7 +137,7 @@ End Sub
 [Перечисление или вывод всех экземпляров ресурса](enumerating-or-listing-all-instances-of-a-resource.md)
 </dt> <dt>
 
-[Создание сценариев в служба удаленного управления Windows](scripting-in-windows-remote-management.md)
+[создание сценариев в служба удаленного управления Windows](scripting-in-windows-remote-management.md)
 </dt> </dl>
 
  

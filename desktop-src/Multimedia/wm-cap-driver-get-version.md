@@ -3,7 +3,7 @@ title: Сообщение WM_CAP_DRIVER_GET_VERSION (VFW. h)
 description: '\_ \_ \_ Сообщение о получении версии драйвера WM Cap \_ возвращает сведения о версии драйвера записи, подключенного к окну записи. Это сообщение можно отправить явно или с помощью макроса Капдривержетверсион.'
 ms.assetid: 762ebe7e-0d09-46ea-ab17-86061f0bd8f9
 keywords:
-- WM_CAP_DRIVER_GET_VERSION сообщения Windows мультимедиа
+- сообщение WM_CAP_DRIVER_GET_VERSION Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ced70f2d0159ef4bbad3f2d7a8027c30b2c71a5f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 49f6bed4513383c5dd889639a78e9f00e409fe347bfd6b64b112ea830571ae55
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105661967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119687094"
 ---
 # <a name="wm_cap_driver_get_version-message"></a>\_Сообщение о \_ \_ получении \_ версии драйвера WM Cap
 
@@ -56,7 +56,7 @@ lParam = (LPARAM) (LPVOID) (LPSTR) (szVer);
 
 Возвращает **значение true** в случае успеха или **false** , если окно записи не подключено к драйверу записи.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Сведения о версии — это текстовая строка, полученная из области ресурсов драйвера. Для этой строки приложения должны выделить примерно 40 байт. Если сведения о версии недоступны, возвращается **пустая** строка.
 

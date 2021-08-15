@@ -4,12 +4,12 @@ description: Протокол простого сетевого управлен
 ms.assetid: 9ba4b854-fc02-40c1-a92f-7c102c900e95
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a0426bf44d976ddf9e2eafe2093dcea94956cb4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e90c8e6aba33384ddaf16fbe847f20488f0be4d584c70563a34d052a37e80a23
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009952"
 ---
 # <a name="about-snmp-messages"></a>Сообщения SNMP
 
@@ -17,9 +17,9 @@ ms.locfileid: "104410756"
 
 Формат SNMP-сообщения одинаков для версий с SNMPv2C и выше. Однако SNMPv2C поддерживает дополнительные типы PDU. Например, он поддерживает тип запроса [ \_ распределения PDU \_ SNMP](snmp-variable-types-and-request-pdu-types.md) , который позволяет приложению эффективно получать большие блоки данных из целевых сущностей.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: Событие Кдромбурнстатечанже объекта Ак
 description: Событие Кдромбурнстатечанже возникает при изменении состояния операции записи компакт-диска.
 ms.assetid: fec8a8e5-e282-454e-9713-fd9bb131df6a
 keywords:
-- Событие Кдромбурнстатечанже в проигрывателе Windows Media объекта Аксвиндовсмедиаплайер
+- событие кдромбурнстатечанже объекта аксвиндовсмедиаплайер проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc679a96600bff5aa4ca805018d364a6aeea8174
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a28a8dfad6e5d9bc7bb603632e2eb08ceb5810f9bf02f395d825fc2d7ac64c24
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055042"
 ---
 # <a name="cdromburnstatechange-event-of-the-axwindowsmediaplayer-object"></a>Событие Кдромбурнстатечанже объекта Аксвиндовсмедиаплайер
 
@@ -45,7 +45,7 @@ Private Sub player_CdromBurnStateChange(
 
 
 
-| Свойство   | Описание                                                                                               |
+| Свойство.   | Описание                                                                                               |
 |------------|-----------------------------------------------------------------------------------------------------------|
 | пкдромбурн | Интерфейс Вмплиб. Ивмпкдромбурнсе, представляющий операцию записи, вызвавшую ошибку.<br/> |
 | вмпбс      | Значение перечисления Вмплиб. Вмпбурнстатесе, указывающее новое состояние.<br/>                         |
@@ -60,7 +60,7 @@ Private Sub player_CdromBurnStateChange(
 
 | Требование | Значение |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 11<br/>                                                                                         |
+| Версия<br/>   | проигрыватель Windows Media 11<br/>                                                                                         |
 | Пространство имен<br/> | **аксвмплиб**<br/>                                                                                                    |
 | Сборка<br/>  | <dl> <dt>AxInterop.WMPLib.dll (AxInterop.WMPLib.dll.dll)</dt> </dl> |
 

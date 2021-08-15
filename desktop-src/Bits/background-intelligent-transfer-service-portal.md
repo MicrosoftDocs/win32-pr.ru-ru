@@ -11,12 +11,12 @@ keywords:
 - отправка битов файлов
 ms.topic: article
 ms.date: 11/29/2018
-ms.openlocfilehash: 9483e297e8b48ad6466846c7eceb8d53b57d3278
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 66bc9af5231454ef63d8c74f9e500baaeb7c8cec9dbdd694943a3809da4a391d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110424214"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119588734"
 ---
 # <a name="background-intelligent-transfer-service"></a>Фоновая интеллектуальная служба передачи
 
@@ -25,7 +25,7 @@ ms.locfileid: "110424214"
 Фоновая интеллектуальная служба передачи (BITS) используется программистами и системными администраторами для загрузки файлов или передачи файлов на веб-серверы HTTP и файловые ресурсы SMB. Служба BITS будет принимать затраты на пересылку, а также использовать сеть, чтобы обеспечить минимально возможное влияние на рабочую нагрузку пользователя. Службы BITS также обрабатывают интеруптионс сети, приостанавливая и автоматически возобновляя передачу, даже после перезагрузки. Службы BITS включают командлеты PowerShell для создания и управления передачами, а также служебную программу командной строки Битсадмин.
 
 > [!Note]  
-> Служба BITS может использоваться Windows для загрузки обновлений в локальную систему. Если вы являетесь конечным пользователем для поиска способов устранения неполадок установки BITS, см. статью [Устранение проблем Центр обновления Windows](https://support.microsoft.com/help/10164/fix-windows-update-errors). 
+> службы BITS могут использоваться Windows для загрузки обновлений в локальную систему. если вы являетесь конечным пользователем для поиска способов устранения неполадок установки BITS, см. статью [устранение проблем Центр обновления Windows](https://support.microsoft.com/help/10164/fix-windows-update-errors). 
  
 
 ## <a name="where-applicable"></a>Где применимо
@@ -40,7 +40,7 @@ ms.locfileid: "110424214"
 
 ## <a name="developer-audience"></a>Аудитория разработчиков
 
-Служба BITS — это COM-интерфейс, предназначенный для разработчиков на C и C++, который также может использоваться разработчиками .NET. Разработчики UWP должны использовать API [Windows. Networking. баккграундтрансфер](/uwp/api/Windows.Networking.BackgroundTransfer) , а не API BITS.
+Служба BITS — это COM-интерфейс, предназначенный для разработчиков на C и C++, который также может использоваться разработчиками .NET. Разработчики UWP должны использовать [Windows. API Networking. Баккграундтрансфер](/uwp/api/Windows.Networking.BackgroundTransfer) , а не API BITS.
 
 ## <a name="bits-versions"></a>Версии BITS
 

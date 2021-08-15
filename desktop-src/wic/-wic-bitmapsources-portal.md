@@ -1,19 +1,19 @@
 ---
-description: Этот раздел содержит общие сведения и инструкции, описывающие источники битовой карты компонента Windows Imaging (WIC) и способы их управления.
+description: в этом разделе содержатся общие сведения и инструкции, описывающие Windows источники битовой карты компонента imaging (WIC) и способы их управления.
 ms.assetid: 7c1a0b67-5bb8-4436-8d47-335439d3ff59
 title: Управление точечными рисунками
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f62da613f99577b59306e6fdeeb181d4c90b970b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 15454766d33d028ec1237db09f34b7313bdd6f2c6ba6584eaee5dbae43881a93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119088366"
 ---
 # <a name="manipulating-bitmaps"></a>Управление точечными рисунками
 
-Этот раздел содержит общие сведения и инструкции, описывающие источники битовой карты компонента Windows Imaging (WIC) и способы их управления.
+в этом разделе содержатся общие сведения и инструкции, описывающие Windows источники битовой карты компонента imaging (WIC) и способы их управления.
 
 ## <a name="in-this-section"></a>В этом разделе
 
@@ -28,7 +28,7 @@ ms.locfileid: "104263029"
 
  
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [Руководство по программированию](-wic-programming-guide.md)
 

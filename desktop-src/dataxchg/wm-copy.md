@@ -3,7 +3,7 @@ title: Сообщение WM_COPY (Winuser. h)
 description: Приложение отправляет \_ сообщение копии WM в элемент управления или поле со списком, чтобы скопировать текущий выделенный фрагмент в буфер обмена в \_ ТЕКСТОВОМ формате CF.
 ms.assetid: dcac3ad3-1e70-4b71-accd-261587224e60
 keywords:
-- Обмен данными с сообщениями WM_COPY
+- WM_COPY Exchange данных сообщений
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b298248d75b1d25d1bfef8347347fe2f1a6c7916
-ms.sourcegitcommit: 3d9dce1bd6c84e2b51759e940aa95aa9b459cd20
+ms.openlocfilehash: 2d7774b1e2d52cbe21b8636bcaa1c695f9f49b319280ebc89c74fd652533066b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "105703480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096754"
 ---
 # <a name="wm_copy-message"></a>\_Сообщение о копировании WM
 
@@ -54,7 +54,7 @@ ms.locfileid: "105703480"
 
 Возвращает ненулевое значение при успешном выполнении, в противном случае — ноль.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При отправке в поле со списком сообщение **о \_ копировании WM** обрабатывается его элементом управления "поле ввода". Это сообщение не действует при отправке в поле со списком со стилем [**\_ DROPDOWNLIST в CBS**](../controls/combo-box-styles.md) .
 
@@ -66,7 +66,7 @@ ms.locfileid: "105703480"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

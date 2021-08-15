@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Защита пространств имен WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f605a6cd1136e70d6c5243b9e143fdb167d41808
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b3cdf2b6e5c5cf035fed70e3e0dd949a812505f1f1ded8f1599043cdd75ba4c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992374"
 ---
 # <a name="securing-wmi-namespaces"></a>Защита пространств имен WMI
 
@@ -24,7 +24,7 @@ ms.locfileid: "105711661"
 <span id="Access_to_WMI_Namespaces"></span><span id="access_to_wmi_namespaces"></span><span id="ACCESS_TO_WMI_NAMESPACES"></span>[Доступ к пространствам имен WMI](access-to-wmi-namespaces.md)
 </dt> <dd>
 
-Безопасность пространства имен WMI зависит от стандартных [*идентификаторов безопасности*](/windows/desktop/SecGloss/s-gly) пользователей Windows (SID) и списков управления доступом. Администраторы и пользователи имеют разные разрешения по умолчанию.
+безопасность пространства имен WMI зависит от стандартных [*идентификаторов безопасности*](/windows/desktop/SecGloss/s-gly) Windows (sid) и списков управления доступом. Администраторы и пользователи имеют разные разрешения по умолчанию.
 
 </dd> <dt>
 
@@ -49,7 +49,7 @@ ms.locfileid: "105711661"
 
 </dd> </dl>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

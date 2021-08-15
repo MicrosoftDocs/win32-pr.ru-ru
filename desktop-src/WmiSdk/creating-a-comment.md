@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 2d0e7cf2484fef018c62c8c47d9c55d245191681
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 870833f1dbb86f53c7114c4e376af2b4882906ffe1b8cc10f5876bd2c80492e3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097344"
 ---
 # <a name="creating-a-comment"></a>Создание комментария
 
@@ -43,7 +43,7 @@ int32 MyProp = 2; // This is a comment until the line ends.
 int32 /* This is a comment. */ MyProp = 2;
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

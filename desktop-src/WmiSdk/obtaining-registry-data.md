@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f5468a577acedeccf4396607147428d9160b4d38
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b904316809a6949c6897e32127f85569e3b2ac13cb769db4739e61c164aa19fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050642"
 ---
 # <a name="obtaining-registry-data"></a>Получение данных реестра
 
@@ -146,7 +146,7 @@ Next
 
 Пример кода на языке VBScript в [разделе "чтение двоичного значения реестра](https://Gallery.TechNet.Microsoft.Com/b0724cb2-36ed-4d0d-8b8f-428d0e3d0b82) " в коллекции TechNet использует инструментарий WMI для чтения двоичного значения реестра.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

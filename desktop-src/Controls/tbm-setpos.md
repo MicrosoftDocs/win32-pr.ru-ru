@@ -3,7 +3,7 @@ title: Сообщение TBM_SETPOS (Коммктрл. h)
 description: TBM_SETPOS сообщение — задает текущую логическую точку ползунка в TrackBar.
 ms.assetid: df6c4e5d-2847-419d-82b5-334d53bb6ba1
 keywords:
-- Элементы управления Windows для TBM_SETPOS сообщений
+- элементы управления Windows сообщений TBM_SETPOS
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f10e05a677119f18489d0eb9eebc4528d3ad115
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 3ccd1cb35f8cde672c51baafe5623291e5449f90aa118eb36cb12152fe155385
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108085872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119078048"
 ---
 # <a name="tbm_setpos-message"></a>\_Сообщение ТБМ сетпос
 
@@ -53,8 +53,8 @@ ms.locfileid: "108085872"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

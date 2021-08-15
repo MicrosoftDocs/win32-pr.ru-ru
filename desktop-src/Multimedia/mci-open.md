@@ -3,7 +3,7 @@ title: Команда MCI_OPEN (Ммсистем. h)
 description: Команда MCI \_ Open инициализирует устройство или файл. Все устройства распознают эту команду.
 ms.assetid: e2ee92b5-b10b-4408-950e-3002fe775b25
 keywords:
-- MCI_OPEN команды мультимедиа Windows
+- команда MCI_OPEN Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 14d8b33e70a2e061b54260aeffc6e69432c469f5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a84c95df35ecd602c207daa716b62d90f6bdc79b0ede7f937d3a38e6d6a9373b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119689984"
 ---
 # <a name="mci_open-command"></a>\_Команда MCI Open
 
@@ -68,7 +68,7 @@ MCIERROR mciSendCommand(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 \_ \_ Флаг открытого типа MCI должен использоваться при указании устройства в функции [**мЦисендкомманд**](/previous-versions//dd757160(v=vs.85)) . Если вы открываете устройство, указав константу типа устройства, \_ \_ \_ в дополнение к типу открытия MCI необходимо указать флаг открытого идентификатора типа MCI \_ \_ . Список констант типа устройства см. в разделе [типы устройств MCI](mci-device-types.md).
 
@@ -210,7 +210,7 @@ MCIERROR mciSendCommand(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 

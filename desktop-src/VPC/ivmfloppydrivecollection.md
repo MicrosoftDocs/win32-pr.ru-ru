@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 664937a08bf7576c35b94a162fb5b6f4a7400f15
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6637c0c4a8c8b87f4458081b0893b0939c8eaf04c97738c02d39da5e0fd8eebb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104416113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119653594"
 ---
 # <a name="ivmfloppydrivecollection-interface"></a>Интерфейс Ивмфлоппидривеколлектион
 
-\[Windows Virtual PC больше не доступна для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC больше не доступен для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Определяет коллекцию дисководов гибких дисков в виртуальной машине. Чтобы получить объект **ивмфлоппидривеколлектион** , используйте свойство [**Ивмвиртуалмачине:: флоппидривес**](ivmvirtualmachine-floppydrives.md) .
 
@@ -34,7 +34,7 @@ ms.locfileid: "104416113"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Интерфейс **ивмфлоппидривеколлектион** имеет следующие свойства.
 
@@ -43,20 +43,20 @@ ms.locfileid: "104416113"
 | Свойство                                                          | Тип доступа          | Описание                                                                 |
 |:------------------------------------------------------------------|:---------------------|:----------------------------------------------------------------------------|
 | [**\_NewEnum**](ivmfloppydrivecollection--newenum.md)<br/> | Только для чтения<br/> | Перечислитель для коллекции.<br/>                                |
-| [**Расчета**](ivmfloppydrivecollection-count.md)<br/>        | Только для чтения<br/> | Число дисководов гибких дисков в этой коллекции.<br/>                  |
+| [**Count**](ivmfloppydrivecollection-count.md)<br/>        | Только для чтения<br/> | Число дисководов гибких дисков в этой коллекции.<br/>                  |
 | [**Элемент**](ivmfloppydrivecollection-item.md)<br/>          | Только для чтения<br/> | Объект дисковода гибких дисков, соответствующий указанному индексу.<br/> |
 
 
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                    |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                     |
 | Окончание поддержки клиента<br/>    | Windows 7<br/>                                                                          |
 | Продукт<br/>                  | Windows Virtual PC<br/>                                                                 |

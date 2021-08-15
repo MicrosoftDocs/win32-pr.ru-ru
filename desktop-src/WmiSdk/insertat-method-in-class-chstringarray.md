@@ -6,12 +6,12 @@ ms.tgt_platform: multiple
 title: 'Методы Чстрингаррай:: Инсертат (Чстрарр. h)'
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 4047b740778c8d0adf1f2b5981b2f3aac5ba9529
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 75332e300987233c0a6f3d6755d27fd7c305a7d86fb6cd9a6143c417222c0dcf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097254"
 ---
 # <a name="chstringarrayinsertat-methods"></a>Методы Чстрингаррай:: Инсертат
 
@@ -37,7 +37,7 @@ ms.locfileid: "105703259"
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                                                                                      |
-| Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                                                                                                |
+| Минимальная версия сервера<br/> | Windows Сервер 2008<br/>                                                                                                                                |
 | Header<br/>                   | <dl> <dt>Чстрарр. h (включение Фвкоммон. h)</dt> </dl>                                                    |
 | Библиотека<br/>                  | <dl> <dt>Фрамедин. lib</dt> </dl>                                                                       |
 | DLL<br/>                      | <dl> <dt>FrameDynOS.dll; </dt> <dt>FrameDyn.dll</dt> </dl> |

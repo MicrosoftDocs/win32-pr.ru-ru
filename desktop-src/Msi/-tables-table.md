@@ -4,12 +4,12 @@ ms.assetid: d064855b-8c10-476e-9570-cc3ab48ae998
 title: Таблица _Tables
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2dc3ebafd969a07676f64f674f76c3e16ebe059
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 10c251693d89bb23634b222518e98dba270856e672362bcdc9acddd3c0b86c56
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013322"
 ---
 # <a name="_tables-table"></a>\_Таблица таблиц
 
@@ -21,7 +21,7 @@ ms.locfileid: "103909163"
 
 | Столбец | Type             | Ключ | Допускает значения NULL |
 |--------|------------------|-----|----------|
-| Имя   | [Text](text.md) | Да   | Нет        |
+| Имя   | [Text](text.md) | Д   | Нет        |
 
 
 
@@ -38,9 +38,9 @@ ms.locfileid: "103909163"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Поскольку \_ Таблица таблиц является системной таблицей, которая не может быть изменена с помощью SQL-запросов, вы не можете получить первичные ключи с помощью функции [**мсидатабасежетпримарикэйс**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabasegetprimarykeysa) или [**Свойства примарикэйс**](database-primarykeys.md).
+поскольку таблица tables \_ является системной таблицей, которую нельзя изменить с помощью запросов SQL, вы не можете получить первичные ключи с помощью функции [**мсидатабасежетпримарикэйс**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabasegetprimarykeysa) или [**свойства примарикэйс**](database-primarykeys.md).
 
  
 

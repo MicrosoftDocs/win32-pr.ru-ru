@@ -6,12 +6,12 @@ keywords:
 - Удаленный вызов процедур RPC, задачи, написание клиента SSPI с проверкой подлинности
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c8476772a2ed652f6646b078c2876234cbcc0d6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7445d5340b03f07805a9e2ab89deb8c915a76160db67b504259ae8de0bbabee5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104134262"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010362"
 ---
 # <a name="writing-an-authenticated-sspi-client"></a>Написание клиента с проверкой подлинности SSPI
 
@@ -70,9 +70,9 @@ rpcStatus = RpcBindingSetAuthInfo(
 Процесс извлечения учетных данных клиента из маркера привязки выполняется следующим образом:
 
 -   Клиенты RPC вызывают [**рпкбиндингсетаусинфо**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingsetauthinfo) и включают сведения о проверке подлинности в составе сведений о привязке, передаваемых серверу.
--   Как правило, сервер вызывает [**рпЦимперсонатеклиент**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcimpersonateclient) , чтобы вести себя так, как если бы он был клиентом. Если маркер привязки не прошел проверку подлинности, вызов завершается с помощью RPC \_ S \_ \_ \_ . контекст недоступен. Чтобы получить имя пользователя клиента, вызовите [**рпкбиндингинкаусклиент**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindinginqauthclient) при олицетворении или в Windows XP или более поздних версиях Windows, вызовите [**рпкжетаусоризатионконтекстфорклиент**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcgetauthorizationcontextforclient) , чтобы получить контекст авторизации, а затем используйте функции authz для получения имени.
+-   Как правило, сервер вызывает [**рпЦимперсонатеклиент**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcimpersonateclient) , чтобы вести себя так, как если бы он был клиентом. Если маркер привязки не прошел проверку подлинности, вызов завершается с помощью RPC \_ S \_ \_ \_ . контекст недоступен. чтобы получить имя пользователя клиента, вызовите [**рпкбиндингинкаусклиент**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindinginqauthclient) при олицетворении или в Windows XP или более поздних версиях Windows, вызовите [**рпкжетаусоризатионконтекстфорклиент**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcgetauthorizationcontextforclient) , чтобы получить контекст авторизации, а затем используйте функции Authz для получения имени.
 -   Сервер, как правило, вызывает [**креатеприватеобжектсекурити**](/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecurity) для создания объектов с помощью списков ACL. После этого последующие проверки безопасности становятся автоматическими.
 
- 
+ 
 
- 
+ 

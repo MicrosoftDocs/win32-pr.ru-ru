@@ -3,7 +3,7 @@ title: Сообщение TVM_DELETEITEM (Коммктрл. h)
 description: Удаляет элемент и все его дочерние элементы из элемента управления представления в виде дерева. Это сообщение можно отправить явно или с помощью \_ макроса DeleteItem TreeView.
 ms.assetid: 225420a5-6ded-4786-a080-2817aa5f66c9
 keywords:
-- Элементы управления Windows для TVM_DELETEITEM сообщений
+- элементы управления Windows сообщений TVM_DELETEITEM
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8783fd5acdf7319699cdc67cbb3ea075e4dbbc28
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7ef0165ffaf1f0f04b32cda43e21c97fed012ad6d61b32f8919612f8924f7c66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104490845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018692"
 ---
 # <a name="tvm_deleteitem-message"></a>\_Сообщение TVM DELETEITEM
 
@@ -43,7 +43,7 @@ ms.locfileid: "104490845"
 
 Возвращает **значение true** , если успешно, или **false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Удалять элементы в ответ на уведомление, например [ТВН \_ селчангинг](tvn-selchanging.md), необязательно.
 
@@ -61,8 +61,8 @@ ms.locfileid: "104490845"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

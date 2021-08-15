@@ -4,12 +4,12 @@ ms.assetid: 87D0A3F6-A44C-4D7F-B276-7FD5DC2DE7A3
 title: RIO_BUFFERID (Мсвсоккдеф. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 75bb439a567c361a056b750728d986891a1da468
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6bde67e14a1cb591922ddc180ab8f308b8429c2b36c5998d313876200cd3a26c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080539"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097554"
 ---
 # <a name="rio_bufferid"></a>Рио \_ BUFFERID
 
@@ -31,7 +31,7 @@ typedef struct RIO_BUFFERID_t* RIO_BUFFERID, **PRIO_BUFFERID;
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Зарегистрированные расширения ввода-вывода Winsock работают главным образом с зарегистрированными буферами с помощью объектов **Рио \_ BUFFERID** . Приложение получает **Рио \_ BUFFERID** для существующего буфера с помощью функции [**риорегистербуффер**](/previous-versions/windows/desktop/legacy/hh437199(v=vs.85)) . Приложение может освободить регистрацию с помощью функции [**риодерегистербуффер**](/windows/win32/api/mswsock/nc-mswsock-lpfn_rioderegisterbuffer) .
 
@@ -51,8 +51,8 @@ typedef struct RIO_BUFFERID_t* RIO_BUFFERID, **PRIO_BUFFERID;
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                                  |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                        |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                                  |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Мсвсоккдеф. h (включение Мсвсокк. h)</dt> </dl> |
 
 

@@ -5,12 +5,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 7142163b-ee2c-43e3-9c17-3e039abbeeaf
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ebf5623b1ed0b1ea312625f6682a0f35e31c2578
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2877c4b9000adf15fbef4cd43c48ab292a7f418c20b8a896f9ed08ffa88078bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083778"
 ---
 # <a name="wmformat-glossary"></a>Глоссарий Вмформат
 
@@ -51,7 +51,7 @@ ms.locfileid: "104413365"
 <span id="wmformat.clear_content"></span><span id="WMFORMAT.CLEAR_CONTENT"></span>**очистить содержимое**
 </dt> <dd>
 
-Незашифрованный файл Windows Media.
+Windows незашифрованный файл мультимедиа.
 
 </dd> <dt>
 
@@ -72,14 +72,14 @@ ms.locfileid: "104413365"
 <span id="wmformat.content_header"></span><span id="WMFORMAT.CONTENT_HEADER"></span>**заголовок содержимого**
 </dt> <dd>
 
-Часть файловой структуры файла Windows Media, которая содержит сведения, необходимые для распаковки и отображения данных содержимого на клиентском компьютере. В упакованном файле существует дополнительный заголовок содержимого, содержащий идентификатор ключа, идентификатор содержимого и URL-адрес для получения лицензии. Этот заголовок содержимого может также включать обязательный номер версии и атрибуты, определенные поставщиком содержимого.
+часть файловой структуры файла мультимедиа Windows, которая содержит сведения, необходимые для распаковки и отображения данных содержимого на клиентском компьютере. В упакованном файле существует дополнительный заголовок содержимого, содержащий идентификатор ключа, идентификатор содержимого и URL-адрес для получения лицензии. Этот заголовок содержимого может также включать обязательный номер версии и атрибуты, определенные поставщиком содержимого.
 
 </dd> <dt>
 
 <span id="wmformat.content_owner"></span><span id="WMFORMAT.CONTENT_OWNER"></span>**владелец содержимого**
 </dt> <dd>
 
-Пользователь или организация, которые создают файлы Windows Media, например метку записи, Movie Studio или исполнитель.
+пользователь или организация, которые создают Windows файлы мультимедиа, например метку записи, movie studio или исполнитель.
 
 </dd> <dt>
 
@@ -132,7 +132,7 @@ ms.locfileid: "104413365"
 
 </dd> <dt>
 
-<span id="wmformat.directx_media_object__dmo_"></span><span id="WMFORMAT.DIRECTX_MEDIA_OBJECT__DMO_"></span>**DirectX Media Object (DMO)**
+<span id="wmformat.directx_media_object__dmo_"></span><span id="WMFORMAT.DIRECTX_MEDIA_OBJECT__DMO_"></span>**Объект мультимедиа DirectX (DMO)**
 </dt> <dd>
 
 COM-объект, обрабатывающий потоки мультимедийных данных из буферов, выделенных клиентом.
@@ -142,7 +142,7 @@ COM-объект, обрабатывающий потоки мультимеди
 <span id="wmformat.dmo"></span><span id="WMFORMAT.DMO"></span>**DMO**
 </dt> <dd>
 
-См. определение для: [ *DirectX Media Object (DMO)* .](/windows)
+См. определение для: [ *объект мультимедиа DirectX (DMO)*](/windows)
 
 </dd> <dt>
 
@@ -191,7 +191,7 @@ COM-объект, обрабатывающий потоки мультимеди
 <span id="wmformat.index"></span><span id="WMFORMAT.INDEX"></span>**индекс**
 </dt> <dd>
 
-Маркер, созданный пакетом средств разработки программного обеспечения (SDK) Windows Media Format для включения поиска в видеофайл.
+маркер, созданный Windows пакетом средств разработки программного обеспечения (SDK) для поиска в файле видео.
 
 </dd> <dt>
 
@@ -219,7 +219,7 @@ COM-объект, обрабатывающий потоки мультимеди
 <span id="wmformat.key"></span><span id="WMFORMAT.KEY"></span>**ключ**
 </dt> <dd>
 
-Фрагмент данных, необходимый для разблокировки упакованного файла Windows Media. Этот ключ включен в отдельную лицензию.
+фрагмент данных, необходимый для разблокировки упакованного Windows файла мультимедиа. Этот ключ включен в отдельную лицензию.
 
 </dd> <dt>
 
@@ -233,7 +233,7 @@ COM-объект, обрабатывающий потоки мультимеди
 <span id="wmformat.key_id"></span><span id="WMFORMAT.KEY_ID"></span>**идентификатор ключа**
 </dt> <dd>
 
-Значение, идентифицирующее ключ защищенного файла Windows Media.
+значение, идентифицирующее ключ для защищенного Windowsного файла мультимедиа.
 
 </dd> <dt>
 
@@ -247,14 +247,14 @@ COM-объект, обрабатывающий потоки мультимеди
 <span id="wmformat.license_acquisition"></span><span id="WMFORMAT.LICENSE_ACQUISITION"></span>**приобретение лицензий**
 </dt> <dd>
 
-Процесс получения лицензии на воспроизведение упакованного файла Windows Media. Проигрыватель пытается получить лицензию с URL-адреса получения лицензии, указанного в файле Windows Media.
+процесс получения лицензии на воспроизведение упакованного Windows файла мультимедиа. проигрыватель пытается получить лицензию с URL-адреса получения лицензии, который указан в Windowsном файле мультимедиа.
 
 </dd> <dt>
 
 <span id="wmformat.license_management_service"></span><span id="WMFORMAT.LICENSE_MANAGEMENT_SERVICE"></span>**Служба управления лицензиями**
 </dt> <dd>
 
-Служба Майкрософт, которая выполняет процесс управления лицензиями в пакете средств разработки программного обеспечения (SDK) Windows Media Rights Manager.
+служба майкрософт, которая выполняет процесс управления лицензиями в Windows пакете sdk для диспетчера прав на носитель.
 
 </dd> <dt>
 
@@ -289,14 +289,14 @@ COM-объект, обрабатывающий потоки мультимеди
 <span id="wmformat.licensing_server"></span><span id="WMFORMAT.LICENSING_SERVER"></span>**сервер лицензирования**
 </dt> <dd>
 
-Компьютер, на котором выполняется служба лицензирования Windows Media и выдается лицензия.
+компьютер, на котором выполняется Windows службы лицензий носителей и выдает лицензии.
 
 </dd> <dt>
 
 <span id="wmformat.marker"></span><span id="WMFORMAT.MARKER"></span>**маркер**
 </dt> <dd>
 
-Текстовая строка, связанная с назначенным временем в содержимом Windows Media. Маркеры часто обозначают удобные точки для начала воспроизведения, например начало новой сцены.
+текстовая строка, связанная с назначенным временем в Windows содержимом на основе носителя. Маркеры часто обозначают удобные точки для начала воспроизведения, например начало новой сцены.
 
 </dd> <dt>
 
@@ -335,17 +335,17 @@ COM-объект, обрабатывающий потоки мультимеди
 
 </dd> <dt>
 
-<span id="wmformat.packaged_windows_media_file"></span><span id="WMFORMAT.PACKAGED_WINDOWS_MEDIA_FILE"></span>**упакованный файл Windows Media**
+<span id="wmformat.packaged_windows_media_file"></span><span id="WMFORMAT.PACKAGED_WINDOWS_MEDIA_FILE"></span>**упакованный Windows файл мультимедиа**
 </dt> <dd>
 
-Файл Windows Media, зашифрованный с помощью ключа, который пользователи не могут воспроизвести, если у них нет ключа, предоставленного лицензией. Упакованный файл Windows Media создается и защищается посредством реализации управления цифровыми правами с помощью пакета средств разработки программного обеспечения (SDK) Windows Media Rights Manager или программы на основе пакета SDK для Microsoft Windows Media Format.
+Windowsный файл мультимедиа, зашифрованный с помощью ключа, который пользователи не могут воспроизвести, если у них нет ключа, предоставленного лицензией. упакованный Windows файл мультимедиа создается и защищается с помощью реализации управления цифровыми правами с помощью Windows пакета sdk или программы на основе пакета sdk для Microsoft Windows media Format.
 
 </dd> <dt>
 
 <span id="wmformat.packaging"></span><span id="WMFORMAT.PACKAGING"></span>**Упаковка**
 </dt> <dd>
 
-Процесс, который защищает и подписывает файл Windows Media, создавая упакованный файл Windows Media. Процесс упаковки включает в себя создание или указание ключа, создание и подпись заголовка содержимого, а также шифрование файла Windows Media с помощью этих сведений.
+процесс, который защищает и подписывает Windowsный файл мультимедиа, создавая упакованный Windows файл мультимедиа. процесс упаковки включает в себя создание или указание ключа, создание и подпись заголовка содержимого, а также шифрование файла мультимедиа Windows с помощью этих сведений.
 
 </dd> <dt>
 
@@ -475,24 +475,24 @@ COM-объект, обрабатывающий потоки мультимеди
 
 </dd> <dt>
 
-<span id="wmformat.windows_media_file"></span><span id="WMFORMAT.WINDOWS_MEDIA_FILE"></span>**Файл Windows Media**
+<span id="wmformat.windows_media_file"></span><span id="WMFORMAT.WINDOWS_MEDIA_FILE"></span>**Windows файл мультимедиа**
 </dt> <dd>
 
-Файл, содержащий данные аудио, видео или скрипта. Содержимое файла кодируется с помощью одного из кодеков Windows Media.
+Файл, содержащий данные аудио, видео или скрипта. содержимое файла кодируется одним из кодеков Windows мультимедиа.
 
 </dd> <dt>
 
-<span id="wmformat.windows_media_format"></span><span id="WMFORMAT.WINDOWS_MEDIA_FORMAT"></span>**Формат Windows Media**
+<span id="wmformat.windows_media_format"></span><span id="WMFORMAT.WINDOWS_MEDIA_FORMAT"></span>**формат носителя Windows**
 </dt> <dd>
 
-Формат файла или потока цифрового мультимедиа, закодированного с помощью кодеков Windows Media.
+формат файла или потока цифрового мультимедиа, закодированного с помощью кодеков Windows media.
 
 </dd> <dt>
 
-<span id="wmformat.windows_media_license_service"></span><span id="WMFORMAT.WINDOWS_MEDIA_LICENSE_SERVICE"></span>**Служба лицензирования Windows Media**
+<span id="wmformat.windows_media_license_service"></span><span id="WMFORMAT.WINDOWS_MEDIA_LICENSE_SERVICE"></span>**служба лицензий Windows мультимедиа**
 </dt> <dd>
 
-Компонент пакета SDK Windows Media Rights Manager, который предоставляет услуги по приобретению лицензий.
+компонент пакета SDK для Windows Media Rights Manager, который предоставляет услуги по приобретению лицензий.
 
 </dd> <dt>
 
@@ -503,6 +503,6 @@ COM-объект, обрабатывающий потоки мультимеди
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 

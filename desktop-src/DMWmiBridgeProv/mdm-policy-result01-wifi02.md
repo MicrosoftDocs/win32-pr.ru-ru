@@ -159,7 +159,7 @@ class MDM_Policy_Result01_WiFi02
 
 </dd> </dl>
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

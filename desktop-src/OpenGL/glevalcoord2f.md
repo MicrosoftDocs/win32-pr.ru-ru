@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e586991b319e047957ae53362534c1bb0c90590
-ms.sourcegitcommit: 7ef31bf778e76ce4196205d4c4c632fbdc649805
+ms.openlocfilehash: a0147890cab18fc8e3c3f32fa44d0967bfb059bf952bc2019f471162dddef842
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "104350912"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119061735"
 ---
 # <a name="glevalcoord2f-function"></a>Функция glEvalCoord2f
 
@@ -59,7 +59,7 @@ void WINAPI glEvalCoord2f(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция [**glEvalCoord2f**](glevalcoord2d.md) оценивает включенные двухмерные карты, используя два значения домена, *u* и *v*. Определение сопоставлений с помощью [**glMap2**](glmap2.md). Включите или отключите их с помощью [**гленабле**](glenable.md) и [**глдисабле**](gldisable.md).
 

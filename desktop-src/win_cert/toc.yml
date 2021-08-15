@@ -1,4 +1,4 @@
-- name: Сертификация Windows
+- name: Windows Центров
   href: windows-certification-portal.md
   items:
     - name: Каковы преимущества?
@@ -6,15 +6,15 @@
     - name: Сертификационные требования для классических приложений для Windows
       href: certification-requirements-for-windows-desktop-apps.md
       items:
-        - name: 'Архив: требования к сертификации для классических приложений Windows v 3.3'
+        - name: 'архив: требования к сертификации для приложений Windows Desktop v 3.3'
           href: certification-requirements-for-windows-desktop-apps-v3-3.md
-        - name: 'Архив: требования сертификации для классических приложений Windows версии 3.1'
+        - name: 'архив: требования к сертификации для приложений Windows Desktop v 3.1'
           href: archive--certification-requirements-for-windows-desktop-apps-v3-1.md
-        - name: 'Архив: требования сертификации для классических приложений Windows версии 3.0'
+        - name: 'архив: требования к сертификации для приложений Windows Desktop v 3.0'
           href: archive--certification-requirements-for-windows-desktop-apps-v3-0.md
-        - name: 'Архив: требования к сертификации для классических приложений Windows версии 1.2'
+        - name: 'архив: требования к сертификации для приложений Windows Desktop v 1.2'
           href: archive--certification-requirements-for-windows-desktop-apps-v1-2.md
-        - name: 'Архив: требования сертификации для классических приложений Windows v 1.1'
+        - name: 'архив: требования к сертификации для приложений Windows Desktop v 1.1'
           href: archive--certification-requirements-for-windows-desktop-apps-v1-1.md
     - name: Использование комплекта сертификации приложений для Windows
       href: using-the-windows-app-certification-kit.md

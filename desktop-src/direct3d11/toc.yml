@@ -83,7 +83,7 @@
         - name: 'Функции, появившиеся в предыдущих выпусках'
           href: d3d11-features-introduced-previous-releases.md
           items:
-            - name: Новые возможности пакета SDK для Windows 7 августа 2009 и Direct3D 11
+            - name: новые возможности пакета SDK для 2009 Windows 7 и Direct3D 11
               href: dx11-whats-new.md
             - name: Новые возможности версии 2008 Direct3D 11 Technical Preview
               href: dx11-08nov-whats-new.md
@@ -284,7 +284,7 @@
                   href: overviews-direct3d-11-render-multi-thread-differences.md
             - name: Подготовка к просмотру Multiple-Pass
               href: overviews-direct3d-11-render-multipass.md
-        - name: Произведенный эффект
+        - name: Эффекты
           href: d3d11-graphics-programming-guide-effects.md
           items:
             - name: Упорядочение состояния в результате

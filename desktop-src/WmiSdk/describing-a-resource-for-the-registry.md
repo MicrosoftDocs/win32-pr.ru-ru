@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Описание ресурса для реестра
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ba175120b5abec238d1b9078010359effef8ba2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 30be25eed569f212e435827023eed132cf1c6ead49be37eabb6fe4ac30e8e3b8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702719"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097274"
 ---
 # <a name="describing-a-resource-for-the-registry"></a>Описание ресурса для реестра
 
@@ -40,7 +40,7 @@ HKEY_LOCAL_MACHINE
     <tbody>
     <tr class="odd">
     <td>Тип интерфейса</td>
-    <td>Одно из следующих значений:<br/> <dl> Внутренние<br />
+    <td>Принимает одно из следующих значений:<br/> <dl> Внутренние<br />
     Диспетчера<br />
     Использует<br />
     Микроканал<br />
@@ -64,7 +64,7 @@ HKEY_LOCAL_MACHINE
     </tr>
     <tr class="even">
     <td>Тип смещения или объединения</td>
-    <td>Одно из следующих значений:<br/> <dl> Порт. Запуск<br />
+    <td>Принимает одно из следующих значений:<br/> <dl> Порт. Запуск<br />
     Порт. PhysicalAddress<br />
     Порт. Длина<br />
     Прервать. уровень<br />

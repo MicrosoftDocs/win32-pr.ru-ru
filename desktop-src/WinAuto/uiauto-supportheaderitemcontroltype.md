@@ -21,12 +21,12 @@ keywords:
 - типы элементов управления, HeaderItem
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1bab61f92a6ab4db221810f9f083279ade4bf353
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b6bbcd6d86e7401c3fa98d162e3aa273613dfd3a32705da891fc89d1f4ea003f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105700545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098214"
 ---
 # <a name="headeritem-control-type"></a>Тип элемента управления HeaderItem
 
@@ -42,7 +42,7 @@ ms.locfileid: "105700545"
 -   [Соответствующие свойства](#relevant-properties)
 -   [Обязательные шаблоны элементов управления](#required-control-patterns)
 -   [Обязательные события](#required-events)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="typical-tree-structure"></a>Типичная древовидная структура
 
@@ -73,7 +73,7 @@ ms.locfileid: "105700545"
 
 
 
- 
+ 
 
 ## <a name="relevant-properties"></a>Соответствующие свойства
 
@@ -88,7 +88,7 @@ ms.locfileid: "105700545"
 | [**UIA \_ кликкаблепоинтпропертид**](uiauto-automation-element-propids.md)             | См. примечания.     | Поддерживается при наличии ограничивающего прямоугольника. Если не все точки внутри ограничивающего прямоугольника являются щелчками, а элемент выполняет специализированное тестирование нажатия, переопределите и предоставьте точку для щелчка. |
 | [**UIA \_ контролтипепропертид**](uiauto-automation-element-propids.md)                   | **HeaderItem** | Это значение одинаково для всех инфраструктур пользовательского интерфейса.                                                                                                                                                        |
 | [**UIA \_ исконтентелементпропертид**](uiauto-automation-element-propids.md)         | FALSE          | Элемент управления "элемент заголовка" не включен в представление содержимого дерева модели автоматизации пользовательского интерфейса.                                                                                                               |
-| [**UIA \_ исконтролелементпропертид**](uiauto-automation-element-propids.md)         | true           | Элемент управления "заголовок" всегда включается в представление элемента управления дерева модели автоматизации пользовательского интерфейса.                                                                                                            |
+| [**UIA \_ исконтролелементпропертид**](uiauto-automation-element-propids.md)         | TRUE           | Элемент управления "заголовок" всегда включается в представление элемента управления дерева модели автоматизации пользовательского интерфейса.                                                                                                            |
 | [**UIA \_ искэйбоардфокусаблепропертид**](uiauto-automation-element-propids.md)   | См. примечания.     | Если элемент управления может получать фокус клавиатуры, он должен поддерживать это свойство.                                                                                                                            |
 | [**UIA \_ итемстатуспропертид**](uiauto-automation-element-propids.md)                     | См. примечания      | Это свойство предоставляет сведения для порядков сортировки по элементу заголовка.                                                                                                                               |
 | [**UIA \_ лабеледбипропертид**](uiauto-automation-element-propids.md)                       | NULL           | Элементы управления "элемент заголовка" не имеют статической текстовой метки.                                                                                                                                                |
@@ -97,7 +97,7 @@ ms.locfileid: "105700545"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Обязательные шаблоны элементов управления
 
@@ -112,7 +112,7 @@ ms.locfileid: "105700545"
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>Обязательные события
 
@@ -131,9 +131,9 @@ ms.locfileid: "105700545"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -146,9 +146,9 @@ ms.locfileid: "105700545"
 [Общие сведения о модели автоматизации пользовательского интерфейса](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
