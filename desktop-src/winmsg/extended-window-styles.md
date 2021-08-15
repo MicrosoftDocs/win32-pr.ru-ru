@@ -5,12 +5,12 @@ title: Расширенные стили окна (Winuser. h)
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 05/31/2018
-ms.openlocfilehash: d110ace98eca13b7e656dddd898480ab3fad68b4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8914e8618c94540ecd0ed81676da51da1c52fd44f69d4cd1c72e4ecef554f3b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118705779"
 ---
 # <a name="extended-window-styles"></a>Расширенные стили окна
 
@@ -28,7 +28,7 @@ virtual    BOOL    Create(HWND hWndParent, WCHAR* pwszClassName,
                             int cx = CW_USEDEFAULT, int cy = CW_USEDEFAULT);
 ```
 
-Этот код взят из примера в репозитории " [классические примеры Windows](https://github.com/microsoft/Windows-classic-samples) " на сайте GitHub.
+этот код взят из примера в [Windows классической выборки](https://github.com/microsoft/Windows-classic-samples) GitHub репозитории.
 
 
 
@@ -43,7 +43,7 @@ virtual    BOOL    Create(HWND hWndParent, WCHAR* pwszClassName,
 | <span id="WS_EX_CONTEXTHELP"></span><span id="ws_ex_contexthelp"></span><dl> <dt>**Служба WS \_ Пример \_ контексселп**</dt> <dt>0x00000400L</dt> </dl>                                                         | Строка заголовка окна содержит вопросительный знак. Когда пользователь нажимает на вопросительный знак, курсор превращается в вопросительный знак с указателем. Если пользователь щелкает дочернее окно, дочерний элемент получает [**сообщение \_ справки WM**](../shell/wm-help.md) . Дочернее окно должно передать сообщение в процедуру родительского окна, которая должна вызывать функцию [**WinHelp**](/windows/desktop/api/winuser/nf-winuser-winhelpa) с помощью команды **Help \_ WM \_ Help** . В приложении "Справка" отображается всплывающее окно, которое обычно содержит справку для дочернего окна.<br/> **Служба WS \_ EX \_ контексселп** нельзя использовать с стилями **WS \_ максимизебокс** и **WS \_ минимизебокс** .<br/>                                         |
 | <span id="WS_EX_CONTROLPARENT"></span><span id="ws_ex_controlparent"></span><dl> <dt>**Служба WS \_ Пример \_ контролпарент**</dt> <dt>0x00010000L</dt> </dl>                                                   | Само окно содержит дочерние окна, которые должны участвовать в навигации в диалоговом окне. Если этот стиль указан, диспетчер диалоговых окон будет обращаться к дочерним объектам этого окна при выполнении операций навигации, таких как обработка клавиши TAB, клавиша со стрелкой или клавиша с клавиатурой.<br/>                                                                                                                                                                                                                                                                                                                                                                                                    |
 | <span id="WS_EX_DLGMODALFRAME"></span><span id="ws_ex_dlgmodalframe"></span><dl> <dt>**Служба WS \_ EX \_ длгмодалфраме**</dt> <dt>0x00000001</dt> </dl>                                                   | Окно имеет двойную границу; окно можно, при необходимости, создать с заголовком заголовка, указав стиль **\_ заголовка WS** в параметре *двстиле* .<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| <span id="WS_EX_LAYERED"></span><span id="ws_ex_layered"></span><dl> <dt>**Служба WS \_ Пример \_ многоуровневого**</dt> <dt>0x00080000</dt> </dl>                                                                      | Окно является [слоеным окном](window-features.md). Этот стиль нельзя использовать, если окно имеет [стиль класса](about-window-classes.md) либо **CS \_ овндк** , либо **CS \_ классдк**.<br/> **Windows 8:** Многоуровневый стиль **WS \_ ex \_** поддерживается для окон верхнего уровня и дочерних окон. Предыдущие версии Windows поддерживают **WS \_ ex \_** только для окон верхнего уровня.<br/>                                                                                                                                                                                                                                                                      |
+| <span id="WS_EX_LAYERED"></span><span id="ws_ex_layered"></span><dl> <dt>**Служба WS \_ Пример \_ многоуровневого**</dt> <dt>0x00080000</dt> </dl>                                                                      | Окно является [слоеным окном](window-features.md). Этот стиль нельзя использовать, если окно имеет [стиль класса](about-window-classes.md) либо **CS \_ овндк** , либо **CS \_ классдк**.<br/> **Windows 8:** Многоуровневый стиль **WS \_ ex \_** поддерживается для окон верхнего уровня и дочерних окон. предыдущие версии Windows поддерживают **WS \_ EX \_** только для окон верхнего уровня.<br/>                                                                                                                                                                                                                                                                      |
 | <span id="WS_EX_LAYOUTRTL"></span><span id="ws_ex_layoutrtl"></span><dl> <dt>**Служба WS \_ Пример \_ лайаутртл**</dt> <dt>0x00400000L</dt> </dl>                                                               | Если языком оболочки является иврит, арабский или другой язык, поддерживающий выравнивание порядка чтения, то горизонтальный источник окна находится на правой границе. Увеличение горизонтальных значений по левому краю. <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | <span id="WS_EX_LEFT"></span><span id="ws_ex_left"></span><dl> <dt>**Служба WS \_ Пример — \_ остался**</dt> <dt>0x00000000</dt> </dl>                                                                              | Окно имеет универсальные свойства, выравниваемая по левому краю. Это значение по умолчанию.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | <span id="WS_EX_LEFTSCROLLBAR"></span><span id="ws_ex_leftscrollbar"></span><dl> <dt>**Служба WS \_ Пример \_ лефтскроллбар**</dt> <dt>0x00004000L</dt> </dl>                                                   | Если языком оболочки является иврит, арабский или другой язык, поддерживающий выравнивание порядка чтения, то вертикальная полоса прокрутки (если она есть) находится слева от клиентской области. Для других языков стиль игнорируется.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
@@ -66,7 +66,7 @@ virtual    BOOL    Create(HWND hWndParent, WCHAR* pwszClassName,
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -74,7 +74,7 @@ virtual    BOOL    Create(HWND hWndParent, WCHAR* pwszClassName,
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c436151eeef2a08a2b1d0208b046e23dc8d1559b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f01ec292c29de72cb2df92eb7c4246392e3b12b4dc2008caf2a09ab1be5a8b1d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104416325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118683929"
 ---
 # <a name="ms-ds-non-security-group-extra-classes-attribute"></a>Атрибут ms-DS-non-Security-Group-лишнюю-classes
 
@@ -65,7 +65,7 @@ ms.locfileid: "104416325"
 | Range-Upper            | \-                                                  |
 | Search-Flags           | 0x00000000                                          |
 | System-Flags           | 0x00000010                                          |
-| Классы, используемые в        | [**DS-UI-параметры**](c-dsuisettings.md)<br/> |
+| Классы, используемые в        | [**DS-UI-Параметры**](c-dsuisettings.md)<br/> |
 
 
 
@@ -86,7 +86,7 @@ ms.locfileid: "104416325"
 | Range-Upper            | \-                                                  |
 | Search-Flags           | 0x00000000                                          |
 | System-Flags           | 0x00000010                                          |
-| Классы, используемые в        | [**DS-UI-параметры**](c-dsuisettings.md)<br/> |
+| Классы, используемые в        | [**DS-UI-Параметры**](c-dsuisettings.md)<br/> |
 
 
 
@@ -107,7 +107,7 @@ ms.locfileid: "104416325"
 | Range-Upper            | \-                                                  |
 | Search-Flags           | 0x00000000                                          |
 | System-Flags           | 0x00000010                                          |
-| Классы, используемые в        | [**DS-UI-параметры**](c-dsuisettings.md)<br/> |
+| Классы, используемые в        | [**DS-UI-Параметры**](c-dsuisettings.md)<br/> |
 
 
 
@@ -128,7 +128,7 @@ ms.locfileid: "104416325"
 | Range-Upper            | \-                                                  |
 | Search-Flags           | 0x00000000                                          |
 | System-Flags           | 0x00000010                                          |
-| Классы, используемые в        | [**DS-UI-параметры**](c-dsuisettings.md)<br/> |
+| Классы, используемые в        | [**DS-UI-Параметры**](c-dsuisettings.md)<br/> |
 
 
 
@@ -149,16 +149,16 @@ ms.locfileid: "104416325"
 | Range-Upper            | \-                                                  |
 | Search-Flags           | 0x00000000                                          |
 | System-Flags           | 0x00000010                                          |
-| Классы, используемые в        | [**DS-UI-параметры**](c-dsuisettings.md)<br/> |
+| Классы, используемые в        | [**DS-UI-Параметры**](c-dsuisettings.md)<br/> |
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В следующем списке перечислены стандартные классы, которые можно добавить в группу с помощью оснастки «Active Directory пользователи и компьютеры».
 
 -   [**Группа**](c-group.md)
--   [**Нажат**](c-user.md)
+-   [**Пользователь**](c-user.md)
 -   [**inetOrgPerson**](c-inetorgperson.md)
 -   [**Contact**](c-contact.md)
 -   [**Компьютер**](c-computer.md)

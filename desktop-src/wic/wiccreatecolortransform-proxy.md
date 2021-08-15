@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - WindowsCodecsExt.dll
-ms.openlocfilehash: 451b549aa44e785e406f50ccf4eb7a8317edf6b6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 89c7476bc32546f0a9fe77a8731f239702c6a2a874dbfb830b9d4bbafbd872b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118709221"
 ---
 # <a name="wiccreatecolortransform_proxy-function"></a>Виккреатеколортрансформ \_ -функция прокси
 
@@ -50,7 +50,7 @@ HRESULT WINAPI WICCreateColorTransform_Proxy(
 
 Если эта функция завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

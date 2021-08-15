@@ -4,16 +4,16 @@ ms.assetid: 3da1f951-cb8b-49ce-aba2-0badb3178093
 title: Аннотация инициализации параметра
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c564b5b5e273b320fdc5de6148ef5ba5dd9f1b78
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a2d66d0cc18782d97a5a56c73ab12cd9222d33827930d60023fccf73cd2a8455
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104262319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118798669"
 ---
 # <a name="parameter-initialization-annotation"></a>Аннотация инициализации параметра
 
-Используйте эту заметку для определения содержимого внешнего файла в качестве значения инициализации для параметра effect. Пример:
+Используйте эту заметку для определения содержимого внешнего файла в качестве значения инициализации для параметра effect. Например:
 
 
 ```
@@ -36,9 +36,9 @@ texture2D DetailTexture
 
 
 
-Значение по умолчанию - пустая строка.
+Значение по умолчанию — пустая строка.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -3,9 +3,9 @@ title: Свойство AddItem Ипропертифилтерколлектио
 description: Добавляет новый фильтр в коллекцию.
 ms.assetid: 01078e7a-811a-4dfb-b122-4801f39413d8
 keywords:
-- Свойства AddItem устаревшие функции среды Windows
-- Свойство AddItem устаревшие функции среды Windows, интерфейс Ипропертифилтерколлектион
-- Интерфейс Ипропертифилтерколлектион устаревшие функции среды Windows, свойство AddItem
+- свойства функции AddItem прежних версий Windows среды
+- свойства AddItem устаревшей Windows среды, интерфейс ипропертифилтерколлектион
+- устаревшие функции Windows интерфейсов интерфейса ипропертифилтерколлектион, свойство AddItem
 topic_type:
 - apiref
 api_name:
@@ -17,17 +17,17 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b199f0e696f75fb5549b274ac888989f7a723b48
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: aeafec95549fefa244dff6ff44ad9110150ae1b410e38b423a0a31f09cf54194
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118755451"
 ---
 # <a name="ipropertyfiltercollectionadditem-property"></a>Свойство Ипропертифилтерколлектион:: AddItem
 
 > [!NOTE]
-> Windows Desktop Search 2. x — это устаревшая технология, которая изначально была доступна в качестве надстройки для Windows XP и Windows Server 2003. В более поздних выпусках используйте [API поиска Windows](../search/-search-reference-entry-page.md) . 
+> Windows настольный поиск 2. x — это устаревшая технология, которая изначально была доступна в качестве надстройки для Windows XP и Windows Server 2003. в более поздних выпусках используйте вместо этого [API Windows поиска](../search/-search-reference-entry-page.md) . 
 
 Добавляет новый фильтр в коллекцию.
 
@@ -48,15 +48,15 @@ HRESULT get_AddItem(
 
 Возвращает указатель на адрес для нового фильтра.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для настольных приложений Windows XP с пакетом обновления 2 \[\]<br/>                                      |
-| Минимальная версия сервера<br/> | Только для настольных приложений Windows Server 2003 с пакетом обновления 1 \[\]<br/>                             |
-| Распространяемые компоненты<br/>          | Windows Desktop Search (WDS) версии 2.6.5<br/>                                             |
+| Минимальная версия клиента<br/> | Windows XP с пакетом обновления 2 (SP2) \[ только классические приложения\]<br/>                                      |
+| Минимальная версия сервера<br/> | Windows Только для настольных приложений сервера 2003 с пакетом обновления 1 \[\]<br/>                             |
+| Распространяемые компоненты<br/>          | Windows Поиск на рабочем столе (WDS) 2.6.5<br/>                                             |
 | Header<br/>                   | <dl> <dt>Вдсшаредидл. h</dt> </dl> |
 
 

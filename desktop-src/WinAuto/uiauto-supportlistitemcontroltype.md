@@ -21,12 +21,12 @@ keywords:
 - типы элементов управления, ListItem
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5093ef62793d96a5438c27edd29e96a96cfa407
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c7fc7df30fc9aeebbabd5a5fdb9572c9f4b81bda4507eac751f283841a14054a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105691209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118825556"
 ---
 # <a name="listitem-control-type"></a>Тип элемента управления ListItem
 
@@ -43,7 +43,7 @@ ms.locfileid: "105691209"
 -   [Обязательные шаблоны элементов управления](#required-control-patterns)
 -   [Обязательные события](#required-events)
 -   [Замечания](#remarks)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="typical-tree-structure"></a>Типичная древовидная структура
 
@@ -81,7 +81,7 @@ ms.locfileid: "105691209"
 
 
 
- 
+ 
 
 Дочерние элементы элемента управления "элемент списка" в представлении содержимого дерева модели автоматизации пользовательского интерфейса должны всегда отображать нулевые дочерние элементы. Если структура элемента управления состоит в том, что другие элементы находятся под элементом списка, то он должен соответствовать требованиям модели автоматизации пользовательского интерфейса для типа элемента управления [TreeItem](uiauto-supporttreeitemcontroltype.md) .
 
@@ -110,7 +110,7 @@ ms.locfileid: "105691209"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Обязательные шаблоны элементов управления
 
@@ -122,7 +122,7 @@ ms.locfileid: "105691209"
 |-------------------------------------------------------------------|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IExpandCollapseProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iexpandcollapseprovider) | Зависит | Если элемент может управляться для отображения или скрытия информации, шаблон элемента управления [ExpandCollapse](uiauto-implementingexpandcollapse.md) должен быть реализован.                                                                                                                                                                                                                        |
 | [**IGridItemProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-igriditemprovider)             | Зависит | Если пространственное перемещение «элемент-элемент» поддерживается в контейнере списка, а контейнер упорядочивается по строкам и столбцам, необходимо реализовать шаблон элемента управления [GridItem](uiauto-implementinggriditem.md) .                                                                                                                                                                  |
-| [**IInvokeProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iinvokeprovider)                 | Зависит | Если элемент имеет команду, которая может быть выполнена отдельно от выделения, необходимо реализовать шаблон элемента управления [Invoke](uiauto-implementinginvoke.md) . Обычно это действие, связанное с двойным щелчком элемента управления "Список". Примерами может быть запуск документа из проводника Windows или воспроизведение музыкального файла в проигрывателе Microsoft Windows Media Player.        |
+| [**IInvokeProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iinvokeprovider)                 | Зависит | Если элемент имеет команду, которая может быть выполнена отдельно от выделения, необходимо реализовать шаблон элемента управления [Invoke](uiauto-implementinginvoke.md) . Обычно это действие, связанное с двойным щелчком элемента управления "Список". примерами может быть запуск документа из Windows Explorer или воспроизведение музыкального файла в Microsoft проигрыватель Windows Media.        |
 | [**IScrollItemProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iscrollitemprovider)         | Зависит | Если элемент списка содержится в контейнере с возможностью прокрутки, необходимо реализовать шаблон элемента управления [скроллитем](uiauto-implementingscrollitem.md) .                                                                                                                                                                                                                       |
 | [**ISelectionItemProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iselectionitemprovider)   | Зависит | Элемент управления "элемент списка", поддерживающий выбор, должен реализовывать шаблон элемента управления [SelectionItem](uiauto-implementingselectionitem.md) . Это позволяет элементам управления передавать информацию при их выборе.                                                                                                                                                                             |
 | [**IToggleProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itoggleprovider)                 | Зависит | Если элемент списка является проверяемым и действие не выполняет изменение состояния выбора, необходимо реализовать шаблон элемента управления [Toggle](uiauto-implementingtoggle.md) .                                                                                                                                                                                                            |
@@ -130,7 +130,7 @@ ms.locfileid: "105691209"
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>Обязательные события
 
@@ -157,13 +157,13 @@ ms.locfileid: "105691209"
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если контейнер содержит элементы списка, основное средство навигации должно перейти к элементам списка. Размещение фокуса на подэлементах с помощью навигации по спискам может вызвать путаницу с пользователями и специальными средствами. Если в контейнере размещается вертикальный список элементов, то при нажатии клавиш со стрелками вверх и вниз они должны перемещаться по элементам, но при нажатии клавиш со стрелками вправо и с помощью клавиш со СТРЕЛКАми влево можно перейти к подэлементу элемента с таким элементом, как столбцы списка или подэлементы пользовательского интерфейса.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -176,9 +176,9 @@ ms.locfileid: "105691209"
 [Общие сведения о модели автоматизации пользовательского интерфейса](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

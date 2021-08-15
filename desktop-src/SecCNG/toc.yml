@@ -8,7 +8,7 @@
           href: cng-features.md
         - name: Криптографические примитивы
           href: cryptographic-primitives.md
-        - name: Хранение ключей и их получение
+        - name: ключевые служба хранилища и извлечение
           href: key-storage-and-retrieval.md
         - name: Импорт и экспорт ключей
           href: key-import-and-export.md
@@ -53,7 +53,7 @@
               href: cng-interface-identifiers.md
             - name: Идентификаторы свойств примитивов шифрования
               href: cng-property-identifiers.md
-            - name: Идентификаторы свойств хранилища ключей
+            - name: идентификаторы свойств ключевых служба хранилища
               href: key-storage-property-identifiers.md
         - name: Функции конфигурации шифрования CNG
           href: cng-cryptographic-configuration-functions.md
@@ -207,7 +207,7 @@
               href: /windows/desktop/api/Bcrypt/nf-bcrypt-bcrypt_init_auth_mode_info
             - name: SystemPrng
               href: systemprng.md
-        - name: Функции хранилища ключей CNG
+        - name: функции служба хранилища ключей CNG
           href: cng-key-storage-functions.md
           items:
             - name: нкрипткреатеклаим

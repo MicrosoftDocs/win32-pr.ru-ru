@@ -4,16 +4,16 @@ description: Иажентнотифисинкекс Хелпкомплете
 ms.assetid: f8285d05-3b96-4046-a058-0e001e47b54b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b3b7dbbdf272844242943d49ed86b303d220185
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: a8c6ad0cc7212a7e7bedbcb968f9b9d2a658f520f1a3593595ff03091b03ba32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104069876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118749566"
 ---
 # <a name="iagentnotifysinkexhelpcomplete"></a>Иажентнотифисинкекс:: Хелпкомплете
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT HelpComplete(
@@ -74,7 +74,7 @@ HRESULT HelpComplete(
 
 Это событие отправляется только клиентскому приложению, которое помещает символ в режим справки.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [**Иажентчарактерекс:: сеселпмодеон**](iagentcharacterex--sethelpmodeon.md), [**Иажентчарактерекс:: сеселпфиленаме**](iagentcharacterex--sethelpfilename.md), [**иажентчарактерекс:: SetHelpContextID**](iagentcharacterex--sethelpcontextid.md), [**IAgentCommandsEx:: SetHelpContextID**](iagentcommandsex--sethelpcontextid.md)
 

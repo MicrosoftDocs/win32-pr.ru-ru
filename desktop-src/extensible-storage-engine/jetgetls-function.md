@@ -18,23 +18,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b7a89cf4e20798a2c412ba6eb39b08f99a60a464
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a359bb2899a2dea604e236a7118c914e795bffba7ca675229e28ad3a7f25dc5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118979064"
 ---
 # <a name="jetgetls-function"></a>Функция Жетжетлс
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jetgetls-function"></a>Функция Жетжетлс
 
-Функция **жетжетлс** позволяет приложению получить описатель контекста, известный как локальное хранилище, связанное с курсором, или с таблицей, связанной с этим курсором. Этот обработчик контекста должен быть ранее задан с помощью [жетсетлс](./jetsetls-function.md). **Жетжетлс** также можно использовать для одновременной выборки текущего контекста для курсора или таблицы и сброса дескриптора контекста.
+функция **жетжетлс** позволяет приложению извлекать контекстный маркер, известный как локальный служба хранилища, связанный с курсором или с таблицей, связанной с этим курсором. Этот обработчик контекста должен быть ранее задан с помощью [жетсетлс](./jetsetls-function.md). **Жетжетлс** также можно использовать для одновременной выборки текущего контекста для курсора или таблицы и сброса дескриптора контекста.
 
-**Windows XP: жетжетлс** появился в Windows XP.
+**Windows xp: жетжетлс** появился в Windows XP.
 
 ```cpp
     JET_ERR JET_API JetGetLS(
@@ -95,7 +95,7 @@ _**Применимо к:** Windows | Windows Server_
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. Дополнительные сведения о возможных ошибках ESE см. в разделе [ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -120,7 +120,7 @@ _**Применимо к:** Windows | Windows Server_
 <tr class="odd">
 <td><p>JET_errInstanceUnavailable</p></td>
 <td><p>Невозможно выполнить операцию, поскольку экземпляр, связанный с сеансом, обнаружил неустранимую ошибку, которая требует, чтобы доступ ко всем данным был отозван для защиты целостности этих данных.</p>
-<p>Эта ошибка будет возвращена только Windows XP и более поздних версий.</p></td>
+<p>эта ошибка будет возвращена только Windows XP и более поздних выпусках.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errInvalidgrbit</p></td>
@@ -152,7 +152,7 @@ _**Применимо к:** Windows | Windows Server_
 
 В случае сбоя не произошло изменение состояния запрошенного объекта. Изменение состояния базы данных не выполняется.
 
-#### <a name="requirements"></a>Требования
+#### <a name="requirements"></a>Requirements (Требования)
 
 <table>
 <colgroup>
@@ -162,11 +162,11 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista или Windows XP.</p></td>
+<td><p>требуется Windows Vista или Windows XP.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008 или Windows Server 2003.</p></td>
+<td><p><strong>Сервер</strong></p></td>
+<td><p>требуется Windows server 2008 или Windows server 2003.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>
@@ -184,7 +184,7 @@ _**Применимо к:** Windows | Windows Server_
 </table>
 
 
-#### <a name="see-also"></a>См. также:
+#### <a name="see-also"></a>См. также
 
 [JET_ERR](./jet-err.md)  
 [JET_GRBIT](./jet-grbit.md)  

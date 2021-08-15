@@ -4,12 +4,12 @@ ms.assetid: 51542a8f-2fb6-4021-b52d-6f7a2b0294d6
 title: ICE13
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fff440217ccffe41d5e4036f4ea0d03d1eabb0b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8fdc11f8254c721d404a65e63fc897aa6e55bc61364c768b48f2d5aded4348d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998800"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118946638"
 ---
 # <a name="ice13"></a>ICE13
 
@@ -64,7 +64,7 @@ ICE13 отправляет сообщение об ошибке, если диа
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 29D1CCCA-CC11-46F1-A094-8BA8F74F7EE9
 title: Атрибут MF_MT_VIDEO_PROFILE (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf6dbf8d324c7a451c1d2affb9f348a3ef2e1806
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9d2af7c6ebbbbb78626e96385a6eda5a25c38a3ae8473fac866866248570cc48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118741397"
 ---
 # <a name="mf_mt_video_profile-attribute"></a>\_ \_ Атрибут профиля видео MF MT \_
 
@@ -19,7 +19,7 @@ ms.locfileid: "105712863"
 
 **UINT32**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **Кодировщики H. 264:**
 
@@ -31,14 +31,14 @@ ms.locfileid: "105712863"
 
 Рекомендуемое значение по умолчанию: [**\_ основной профиль eAVEncH264VProfile**](/windows/desktop/api/codecapi/ne-codecapi-eavench264vprofile) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только Windows 8.1 Классические приложения\]<br/>                                       |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2012 R2 \[\]<br/>                            |
+| Минимальная версия клиента<br/> | Windows 8.1 \[ только классические приложения\]<br/>                                       |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[Только классические приложения R2\]<br/>                            |
 | Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 

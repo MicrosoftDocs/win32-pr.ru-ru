@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7d0e4224ec9b90e84cbacbf5ede852763edd8e4f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2d4a70c8bc97abc3dea7cd04e9ce491b64cb62dcc892fcde318d69dcdc996e2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104492684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118588467"
 ---
 # <a name="renderinginfotype-complex-type"></a>Сложный тип Рендерингинфотипе
 
@@ -87,9 +87,9 @@ ms.locfileid: "104492684"
 
 | Элемент                                                             | Тип   | Описание                                                                   |
 |---------------------------------------------------------------------|--------|-------------------------------------------------------------------------------|
-| [**Канал**](eventschema-task-renderingtype-element.md)           | строка | Строка отображаемого сообщения канала, указанного в событии.<br/> |
+| [**Channel**](eventschema-task-renderingtype-element.md)           | строка | Строка отображаемого сообщения канала, указанного в событии.<br/> |
 | [**Ключевое слово**](eventschema-keyword-keywords-element.md)             | строка | Строка отображаемого сообщения ключевого слова, указанного в событии.<br/>   |
-| [**Keywords**](eventschema-keywords-renderingtype-element.md)      |        | Список отображаемых ключевых слов.<br/>                                       |
+| [**Словами**](eventschema-keywords-renderingtype-element.md)      |        | Список отображаемых ключевых слов.<br/>                                       |
 | [**Уровню**](eventschema-level-renderingtype-element.md)            | строка | Строка отображаемого сообщения уровня, указанного в событии.<br/>   |
 | [**Сообщение**](eventschema-message-renderingtype-element.md)        | строка | Строка отображаемого сообщения события.<br/>                          |
 | [**Код операции**](eventschema-opcode-renderingtype-element.md)          | строка | Строка отображаемого сообщения кода операции, указанного в событии.<br/>  |
@@ -108,9 +108,9 @@ ms.locfileid: "104492684"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Этот раздел будет содержать только события, собранные с помощью службы [сборщика событий Windows](/windows/desktop/WEC/windows-event-collector) .
+этот раздел будет содержать только события, собранные с помощью службы [сборщика событий Windows](/windows/desktop/WEC/windows-event-collector) .
 
 ## <a name="requirements"></a>Требования
 
@@ -118,8 +118,8 @@ ms.locfileid: "104492684"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

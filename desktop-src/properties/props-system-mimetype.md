@@ -4,12 +4,12 @@ ms.assetid: 9f8f42f8-af90-4f2d-a58c-f892139e86b7
 title: System. MIMEType
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3db5ced29df603f8e5a5d04011f8d5ff99dc876
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 808e947cf877999896fd5a0fc14e85237957ab805ecf143a4c16159345b97a19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118724502"
 ---
 # <a name="systemmimetype"></a>System. MIMEType
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
@@ -38,7 +38,7 @@ propertyDescription
 
 Для файлов мультимедиа, совместимых с несколькими типами MIME, это свойство может иметь сдвиг, указывающий на тип MIME, подходящий для Digital живая Network Alliance (DLNA).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

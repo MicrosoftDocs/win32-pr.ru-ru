@@ -4,12 +4,12 @@ ms.assetid: 998fef66-7a24-462f-96f2-92c739bbefa2
 title: принтаблестринг
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72ebc95f1a58e8d7beb4a1d3bbb037788252349a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b7e2714013c037e834a7c083c7ab89fcdafd59e1306226af25fcb4b6edc8b0af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118903756"
 ---
 # <a name="printablestring"></a>принтаблестринг
 
@@ -24,7 +24,7 @@ ms.locfileid: "103909643"
 
 Если строка содержит менее 128 байт, то поле **length** TLV Triplet требует только одного байта для указания длины содержимого. Если длина строки превышает 127 байт, то разряд 7 в поле **length** устанавливается в 1, а биты с 6 по 0 указывают количество дополнительных байтов, используемых для определения длины содержимого. Дополнительные сведения см. в разделе [кодированная Длина и байты значений](about-encoded-length-and-value-bytes.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

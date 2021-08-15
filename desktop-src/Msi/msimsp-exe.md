@@ -1,19 +1,19 @@
 ---
-description: Рекомендуемым методом для создания пакета исправлений является использование средств создания исправлений, таких как Msimsp.exe и Patchwiz.dll. Средство Msimsp.exe доступно только в компонентах Windows SDK для разработчиков установщик Windows.
+description: Рекомендуемым методом для создания пакета исправлений является использование средств создания исправлений, таких как Msimsp.exe и Patchwiz.dll. средство Msimsp.exe доступно только в компонентах Windows SDK для разработчиков установщик Windows.
 ms.assetid: fa8e9d68-3db1-4d17-aa99-2ca0ed421c7a
 title: Msimsp.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1810fd0c544695742273bbb0e63b22138529c129
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: aa82f2fbefc9046877f4f98cf4a3c126d94e6542b60076f0491bd0f311ee00a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105674563"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118627801"
 ---
 # <a name="msimspexe"></a>Msimsp.exe
 
-Рекомендуемым методом для создания пакета исправлений является использование средств создания исправлений, таких как Msimsp.exe и [Patchwiz.dll](patchwiz-dll.md). Средство Msimsp.exe доступно только в [компонентах Windows SDK для разработчиков установщик Windows](platform-sdk-components-for-windows-installer-developers.md).
+Рекомендуемым методом для создания пакета исправлений является использование средств создания исправлений, таких как Msimsp.exe и [Patchwiz.dll](patchwiz-dll.md). средство Msimsp.exe доступно только в [компонентах Windows SDK для разработчиков установщик Windows](platform-sdk-components-for-windows-installer-developers.md).
 
 Msimsp.exe — это исполняемый файл, который вызывает [Patchwiz.dll](patchwiz-dll.md). Средство можно использовать для создания пакета исправлений путем передачи пути в файл свойств создания исправления (файл. PCP) и путь к создаваемому пакету исправлений. Мсимсп. ex можно также использовать для создания файла журнала и указания временной папки, в которой сохраняются преобразования, ящики и файлы, используемые для создания пакета исправлений.
 
@@ -82,7 +82,7 @@ Msimsp.exe — это исполняемый файл, который вызыв
 </dd> </dl>
 
 > [!Note]
-> Msimsp.exe может завершиться ошибкой при вызове Makecab.exe, если в столбце file [таблицы File](file-table.md) пакета установки различаются только регистр. Установщик Windows учитывает регистр и разрешает пакет установки, например в таблице ниже, только если comp1 и Comp2 установлены в разные каталоги. Однако в этом сценарии нельзя использовать Msimsp.exe или [Patchwiz.dll](patchwiz-dll.md) для создания исправления пакета, так как Msimsp.exe и Patchwiz.dll вызывают Makecab.exe, который не учитывает регистр.
+> Msimsp.exe может завершиться ошибкой при вызове Makecab.exe, если в столбце file [таблицы File](file-table.md) пакета установки различаются только регистр. Windows Установщик чувствителен к регистру и разрешает пакет установки, например в таблице ниже, только если comp1 и Comp2 установлены в разные каталоги. Однако в этом сценарии нельзя использовать Msimsp.exe или [Patchwiz.dll](patchwiz-dll.md) для создания исправления пакета, так как Msimsp.exe и Patchwiz.dll вызывают Makecab.exe, который не учитывает регистр.
 > 
 > Избегайте создания пакета установки, такого как Следующая частичная [таблица файлов](file-table.md).
 > 
@@ -92,7 +92,7 @@ Msimsp.exe — это исполняемый файл, который вызыв
 > | ReadMe.txt | Comp2       | readMe.txt |
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -102,7 +102,7 @@ Msimsp.exe — это исполняемый файл, который вызыв
 [Пример небольшого обновления исправлений](a-small-update-patching-example.md)
 </dt> <dt>
 
-[Средства разработки установщик Windows](windows-installer-development-tools.md)
+[Windows Средства разработки установщика](windows-installer-development-tools.md)
 </dt> <dt>
 
 [Выпущенные версии, средства и распространяемые пакеты](released-versions-tools-and-redistributables.md)

@@ -1,15 +1,15 @@
 ---
-description: Сведения о установщик Windows концепциях, начинающихся с буквы E, например с повышенными и внешними исходными файлами.
+description: сведения о установщик Windows концепциях, начинающихся с буквы E, например с повышенными и внешними исходными файлами.
 ms.assetid: 8f180e2c-06f4-41d5-b167-52525f4a9985
 title: E (установщик Windows)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a2c65c50427b1f8271be838971a387388ea53db
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: ee445b6ea36ad0c68042410e694c681f982b101757f3453ac9b39284df01f8c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112011098"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118637619"
 ---
 # <a name="e-windows-installer"></a>E (установщик Windows)
 
@@ -27,7 +27,7 @@ ms.locfileid: "112011098"
 <span id="_msi_execution_phase_gly"></span><span id="_MSI_EXECUTION_PHASE_GLY"></span>**этап выполнения**
 </dt> <dd>
 
-Когда Установщик выполняет сценарий действий установщика. В Microsoft Windows 2000 этот процесс выполняется службой установщика. В управляемом приложении скрипт выполняется с системными привилегиями. Дополнительные сведения см. в разделе [механизм установки](installation-mechanism.md).
+Когда Установщик выполняет сценарий действий установщика. в Microsoft Windows 2000 этот процесс выполняется службой установщика. В управляемом приложении скрипт выполняется с системными привилегиями. Дополнительные сведения см. в разделе [механизм установки](installation-mechanism.md).
 
 </dd> <dt>
 

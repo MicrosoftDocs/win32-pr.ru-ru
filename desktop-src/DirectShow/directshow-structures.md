@@ -1,19 +1,19 @@
 ---
-description: Структуры DirectShow
+description: DirectShow Сотрудник
 ms.assetid: 378f6f43-5c05-4ae4-be24-956f9fc0cacf
-title: Структуры DirectShow
+title: DirectShow Сотрудник
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61bf15858ea602d27b17c8853d0e911ebb37cfad
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: fca0c1c877026b1df1b423f66c22cd9c5525927e3c693c5ee5afb93496e970d3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104536596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119966344"
 ---
-# <a name="directshow-structures"></a>Структуры DirectShow
+# <a name="directshow-structures"></a>DirectShow Сотрудник
 
-В этом разделе описываются структуры DirectShow.
+в этом разделе описываются структуры DirectShow.
 
 
 
@@ -30,7 +30,7 @@ ms.locfileid: "104536596"
 | [**\_мпегсистемтипе**](/previous-versions/windows/desktop/api/mpegtype/ns-mpegtype-am_mpegsystemtype)                             | Определяет блок формата для потока системы MPEG-1.                                                                                                                                                                 |
 | [**\_Свойства SAMPLE2 \_**](/windows/win32/api/strmif/ns-strmif-am_sample2_properties)                    | Описание свойств универсального примера носителя.                                                                                                                                                                   |
 | [**\_ \_ сведения о потоке**](/windows/desktop/api/strmif/ns-strmif-am_stream_info)                                  | Содержит сведения о начале и окончании, заданные для ПИН-кода.                                                                                                                                                                   |
-| [**\_данные о \_ событии ВМТ \_**](/previous-versions/windows/desktop/api/evcode/ns-evcode-am_wmt_event_data)                           | Содержит сведения о \_ событии состояния ВМТ и связанном с ним коде состояния, возвращенном пакетом SDK Windows Media Format.                                                                                       |
+| [**\_данные о \_ событии ВМТ \_**](/previous-versions/windows/desktop/api/evcode/ns-evcode-am_wmt_event_data)                           | содержит сведения о \_ событии состояния вмт и связанном с ним коде состояния, возвращенном пакетом SDK для Windows Media Format.                                                                                       |
 | [**\_Страница с WST \_**](/previous-versions/windows/desktop/api/iwstdec/ns-iwstdec-am_wst_page)                                        | Описывает страницу текста WST.                                                                                                                                                                                         |
 | [**\_Фильтр амовиесетуп**](amoviesetup-filter.md)                           | Содержит сведения о фильтре для регистрации фильтра.                                                                                                                                                                 |
 | [**АМОВИЕСЕТУП \_ MEDIATYPE**](amoviesetup-mediatype.md)                     | Содержит сведения о типе носителя для регистрации фильтра.                                                                                                                                                             |
@@ -127,11 +127,11 @@ ms.locfileid: "104536596"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Справочник по DirectShow](directshow-reference.md)
+[DirectShow IsReference](directshow-reference.md)
 </dt> </dl>
 
  

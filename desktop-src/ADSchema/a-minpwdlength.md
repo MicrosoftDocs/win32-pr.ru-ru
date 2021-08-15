@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b0d9a50ed05a651d7dd2d029d1c0b21c247c0ed
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: a6b217beb1f55d37157d09f54819859af105a42d7959da511209d5e540ef238e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103893565"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118687546"
 ---
 # <a name="min-pwd-length-attribute"></a>Атрибут min-PWD-length
 

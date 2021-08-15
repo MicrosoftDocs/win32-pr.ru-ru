@@ -4,18 +4,18 @@ ms.assetid: afa3fbd9-9f54-4f72-ab5d-cb0dbbd9946c
 title: Определение кодовой страницы базы данных установки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 212978cbce0e73ae495a0ed10ea9070cce6bd374
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 89825c99e0652c0ef324c99f8906281f3c87ed58bef099886220faa6a9311583
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103910967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118637853"
 ---
 # <a name="determining-an-installation-databases-code-page"></a>Определение кодовой страницы базы данных установки
 
 Чтобы определить кодовую страницу базы данных, вызовите [**мсидатабасикспорт**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabaseexporta) с параметром *хдатабасе* , имеющим значение в качестве маркера базы данных, а *сзтабленаме* — \_ форцекодепаже. Это экспортирует текстовый файл с расширением IDT. Первые две строки этого файла пусты. Третья строка представляет собой номер кодовой страницы ANSI, за которой следует вкладка, за которой следует имя \_ форцекодепаже. См. также [Обработка кодовых страниц импортированных и экспортированных таблиц](code-page-handling-of-imported-and-exported-tables.md).
 
-Пример определения кодовой страницы с помощью [**метода Export**](database-export.md) приведен в установщик Windows SDK в составе служебной WiLangId.vbs. Дополнительные сведения об использовании WiLangId.vbs см. в разделе " [Управление языком и кодовой страницей](manage-language-and-codepage.md)".
+пример определения кодовой страницы с помощью [**метода Export**](database-export.md) приведен в установщик Windows SDK в составе служебной WiLangId.vbs. Дополнительные сведения об использовании WiLangId.vbs см. в разделе " [Управление языком и кодовой страницей](manage-language-and-codepage.md)".
 
  
 

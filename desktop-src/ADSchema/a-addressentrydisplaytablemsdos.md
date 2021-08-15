@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 25fbb7d84615c79067f5295ac552a13cbbb6a90a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 386c5388116a32193ef8a75e3821fd4312d7a70ba5ce073e1886673589b149a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104139122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118688694"
 ---
 # <a name="address-entry-display-table-msdos-attribute"></a>Атрибут адреса-ввода-вывода-Table-MSDOS
 

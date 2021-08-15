@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d0f403430f70fde71696ec2a35a34161f08bada9
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 239486792eb218d51c305f9955331e90c6c165586153dab167f2e19d3a0324e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103790003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118641039"
 ---
 # <a name="usesgetlasterror-attribute"></a>usesgetlasterror - атрибут
 
@@ -86,9 +86,9 @@ module module-name
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Атрибут **\[ усесжетластеррор \]** можно задать в точке входа модуля, если эта точка входа использует функцию Windows [**сетластеррор**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) для возврата кодов ошибок. Атрибут сообщает вызывающему объекту, что при возникновении ошибки при вызове этой функции вызывающий объект может вызвать [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) для получения кода ошибки.
+атрибут **\[ усесжетластеррор \]** можно задать в точке входа модуля, если эта точка входа использует функцию Windows [**сетластеррор**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) для возврата кодов ошибок. Атрибут сообщает вызывающему объекту, что при возникновении ошибки при вызове этой функции вызывающий объект может вызвать [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) для получения кода ошибки.
 
 ## <a name="examples"></a>Примеры
 
@@ -123,6 +123,6 @@ module MyModule
 [Синтаксис файла ODL](/previous-versions/windows/desktop/automat/odl-file-syntax)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,16 +4,16 @@ description: Иаженткоммандекс Жеселпконтекстид
 ms.assetid: 97b390f3-ab24-4c09-aa87-d76076eba995
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f330e8ae8cd8bdaff5e27ccd00352b41b07be2b6
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: d80f259b10adbdd1460f319b6fda4e5097c11136a5bf7ffde00a11d40a99656a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104412939"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118750196"
 ---
 # <a name="iagentcommandexgethelpcontextid"></a>Иаженткоммандекс:: Жеселпконтекстид
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT GetHelpContextID(
@@ -34,18 +34,18 @@ HRESULT GetHelpContextID(
 
 </dd> </dl>
 
-Если вы создали файл справки Windows для приложения и устанавливаете для свойства [**HelpFile**](helpfile-property.md) символа этот файл, Microsoft Agent автоматически вызывает справку, когда [**Хелпмодеон**](helpmodeon-property.md) имеет значение **true** и пользователь выбирает команду. Если в [**хелпконтекстид**](helpcontextid-property-com.md)имеется контекстный номер, агент вызывает справку и ищет раздел, определяемый текущим контекстным номером. Текущий контекстный номер — это значение **хелпконтекстид** для команды.
+если вы создали файл справки Windows для своего приложения и установите для свойства [**HelpFile**](helpfile-property.md) символа этот файл, Microsoft Agent автоматически вызывает справку, когда [**хелпмодеон**](helpmodeon-property.md) имеет значение **True** и пользователь выбирает команду. Если в [**хелпконтекстид**](helpcontextid-property-com.md)имеется контекстный номер, агент вызывает справку и ищет раздел, определяемый текущим контекстным номером. Текущий контекстный номер — это значение **хелпконтекстид** для команды.
 
 > [!Note]  
-> Для создания файла справки требуется компилятор справки Microsoft Windows.
+> для создания файла справки требуется компилятор справки Microsoft Windows.
 
- 
+ 
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [**Иаженткоммандекс:: сеселпконтекстид**](iagentcommandex--sethelpcontextid.md), [**Иажентчарактерекс:: сеселпмодеон**](iagentcharacterex--sethelpmodeon.md), [**иажентчарактерекс:: SetHelpFileName**](iagentcharacterex--sethelpfilename.md)
 
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: cbdbe088-9cf1-4af8-a5f7-072faee7f34e
 title: Атрибут элемента управления MultiLine
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 936bc4b3901293e950690e878a0f86229bb03b4d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 474bf8a9b765f402924a554c9da064a8c60a01f6af910a3fd24c81d377978a93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118943435"
 ---
 # <a name="multiline-control-attribute"></a>Атрибут элемента управления MultiLine
 
@@ -31,7 +31,7 @@ ms.locfileid: "104263956"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы задать этот атрибут для элемента управления, включите многострочный бит в столбец Attributes записи элемента управления в [таблице Control](control-table.md).
 

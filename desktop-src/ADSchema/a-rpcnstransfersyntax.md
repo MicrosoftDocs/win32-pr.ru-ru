@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dbd980b89461fabfde0d96465cdbac2210dd4580
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 2ba9d638919686b29f592ebed91a409a768f15104c2d9135ca7725f856d697d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104138478"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118681553"
 ---
 # <a name="rpc-ns-transfer-syntax-attribute"></a>атрибут RPC-NS-reby-Syntax
 

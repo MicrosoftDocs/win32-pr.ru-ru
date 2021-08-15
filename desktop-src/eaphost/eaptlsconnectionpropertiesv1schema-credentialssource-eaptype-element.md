@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d68eccf44b7e2c248e366d8e3d8f05f4e7dd4774
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 3d3591caf2a2e6a51099afb9a823c64bf49af32a6c6726771d8a24a24968b485
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "105700935"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984113"
 ---
 # <a name="credentialssource-eaptype-element"></a>Кредентиалссаурце (Еаптипе), элемент
 
@@ -33,7 +33,7 @@ ms.locfileid: "105700935"
 
 Элемент **кредентиалссаурце** определяется элементом [**еаптипе**](eaptlsconnectionpropertiesv1schema-eaptype-element.md) .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент **CredentialSource** является необязательным.
 
@@ -43,8 +43,8 @@ ms.locfileid: "105700935"
 
 | Роль | Минимальная поддерживаемая версия ОС |
 |------|------------------------------|
-| Клиент<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Сервер<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Клиент<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Сервер<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

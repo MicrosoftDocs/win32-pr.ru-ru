@@ -4,16 +4,16 @@ ms.assetid: 92b1b486-7e10-48a2-b1d2-56d4e472dbe4
 title: TLS и SSL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac1a2e783b6f3355127a3148f1575f73119f6604
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 06ade696a819f6528ade49ea843340a5b8b43af5427acf6616aeafd1871512c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118915734"
 ---
 # <a name="tls-vs-ssl"></a>TLS и SSL
 
-TLS — это стандарт, тесно связанный с SSL 3,0, который иногда называют "SSL 3,1". Протокол TLS заменяет SSL 2,0 и должен использоваться в новой разработке. Начиная с Windows 10 версии 1607 и Windows Server 2016, протокол SSL 2,0 был удален и больше не поддерживается.
+TLS — это стандарт, тесно связанный с SSL 3,0, который иногда называют "SSL 3,1". Протокол TLS заменяет SSL 2,0 и должен использоваться в новой разработке. начиная с Windows 10 версии 1607 и Windows Server 2016, протокол SSL 2,0 был удален и больше не поддерживается.
 
 Приложения, которым требуется высокий уровень взаимодействия, должны поддерживать SSL 3,0 и TLS. Из-за сходства между этими двумя протоколами сведения SSL не включены в эту документацию, за исключением случаев, когда они отличаются от TLS. Следующий пример относится к [RFC 2246](https://www.ietf.org/rfc/rfc2246.txt):
 

@@ -5,12 +5,12 @@ title: COLORREF (Виндеф. h)
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 07/27/2020
-ms.openlocfilehash: 6836cfcc1b18d0b20d5e347fb83206551b27de06
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3e51b2a906af5939a5c7a8753e5fcc4fbcfae64590e62bcb6df1da2c2bd8426d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104998882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118761897"
 ---
 # <a name="colorref"></a>COLORREF
 
@@ -24,7 +24,7 @@ typedef DWORD* LPCOLORREF;
 
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 При указании явного цвета [RGB](/windows/desktop/api/Wingdi/nf-wingdi-rgb) значение **COLORREF** имеет следующую шестнадцатеричную форму:
 
@@ -34,7 +34,7 @@ typedef DWORD* LPCOLORREF;
 
 Чтобы создать значение цвета **COLORREF** , используйте макрос [RGB](/windows/desktop/api/Wingdi/nf-wingdi-rgb) . Чтобы извлечь отдельные значения для красного, зеленого и синего компонентов значения цвета, используйте макросы [**rvalue**](/windows/desktop/api/Wingdi/nf-wingdi-getrvalue), [жетгвалуе](/windows/desktop/api/Wingdi/nf-wingdi-getgvalue)и [жетбвалуе](/windows/desktop/api/Wingdi/nf-wingdi-getbvalue) соответственно.
 
-## <a name="example"></a>Например, .
+## <a name="example"></a>Пример
 
 ```cpp
 // Color constants.
@@ -45,9 +45,9 @@ const COLORREF rgbBlack =  0x00000000;
 const COLORREF rgbWhite =  0x00FFFFFF;
 ```
 
-Пример из [классической выборки Windows](https://github.com/microsoft/Windows-classic-samples) на сайте GitHub.
+пример из [Windows классических примеров](https://github.com/microsoft/Windows-classic-samples) на GitHub.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -55,7 +55,7 @@ const COLORREF rgbWhite =  0x00FFFFFF;
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                              |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                    |
-| Заголовок<br/>                   | <dl> <dt>Виндеф. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>виндеф. h (включает Windows. h)</dt> </dl> |
 
 
 

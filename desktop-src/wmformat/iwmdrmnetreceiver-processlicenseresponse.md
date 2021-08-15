@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 45a09ebab81b71e21b9ef922423a7bbe67b20596
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cb7ba84c7bf58091bb17500b0d35390062710a79a9a32b939ac8b9517cbcfaba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118700828"
 ---
 # <a name="iwmdrmnetreceiverprocesslicenseresponse-method"></a>Ивмдрмнетрецеивер: метод:P Роцесслиценсереспонсе
 
@@ -88,17 +88,17 @@ HRESULT ProcessLicenseResponse(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Ответ лицензии, обработанный с помощью этого метода, должен соответствовать последнему вызову лицензии, созданному на клиентском компьютере.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Вмдрмсдк. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмдрмсдк. h</dt> </dl> |
 
 
 

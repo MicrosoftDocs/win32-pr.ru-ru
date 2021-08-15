@@ -23,12 +23,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 45923c0c3ea3bfc28e67634e3b447e46b62765f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 773bb54ec4d132e629f21513ffa617cbe3435d35941e7c98c55810d267f614c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118821159"
 ---
 # <a name="__instanceproviderregistration-class"></a>\_\_Класс Инстанцепровидеррегистратион
 
@@ -59,7 +59,7 @@ class __InstanceProviderRegistration : __ObjectProviderRegistration
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ \_ инстанцепровидеррегистратион** имеет следующие свойства.
 
@@ -195,14 +195,14 @@ class __InstanceProviderRegistration : __ObjectProviderRegistration
 
 <dt>
 
-True
+Верно
 </dt> <dd>
 
 Поставщик поддерживает удаление классов или экземпляров путем реализации [**IWbemServices::D елетеклассасинк**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-deleteclassasync) (поставщики классов) или [**IWbemServices::D елетеинстанцеасинк**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-deleteinstanceasync) (поставщики экземпляров).
 
 </dd> <dt>
 
-Неверно
+Нет.
 </dt> <dd>
 
 Поставщик не поддерживает удаление данных и возвращает **поставщик WBEM E, \_ \_ \_ не \_ поддерживающий** [**делетеклассасинк**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-deleteclassasync) или [**делетеинстанцеасинк**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-deleteinstanceasync).
@@ -261,14 +261,14 @@ True
 
 <dt>
 
-True
+Верно
 </dt> <dd>
 
 Поставщик поддерживает получение данных путем реализации [**IWbemServices:: жетобжектасинк**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobjectasync).
 
 </dd> <dt>
 
-Неверно
+Нет.
 </dt> <dd>
 
 Поставщик не поддерживает извлечение данных и возвращает **\_ поставщик WBEM E, \_ \_ не \_ поддерживающий** из [**жетобжектасинк**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobjectasync).
@@ -327,7 +327,7 @@ True
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ \_ инстанцепровидеррегистратион** является производным от [**\_ \_ обжектпровидеррегистратион**](--objectproviderregistration.md), который является производным от [**\_ \_ провидеррегистратион**](--providerregistration.md). Только администраторы могут зарегистрировать поставщик экземпляра, создав экземпляр [**\_ \_ Win32Provider**](--win32provider.md) и **\_ \_ инстанцепровидеррегистратион**. Только администраторы могут удалить поставщика.
 

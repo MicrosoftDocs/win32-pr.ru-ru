@@ -16,12 +16,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 39a032b3f082ed64ba7999d20366b89e8b3890c7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a74abb8a02676ba97ffb7a41df6ee4a3bd7f428d5288e376f85d61927fbb0e06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703320"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118821096"
 ---
 # <a name="__event-class"></a>\_\_Класс событий
 
@@ -46,7 +46,7 @@ class __Event : __IndicationRelated
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ \_ событий** имеет следующие свойства.
 
@@ -80,7 +80,7 @@ class __Event : __IndicationRelated
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ \_ событий** является производным от [**\_ \_ индикатионрелатед**](--indicationrelated.md), у которого нет свойств.
 

@@ -4,12 +4,12 @@ ms.assetid: 8B12E452-790D-4924-98E7-9368CC525674
 title: System. Identity. Логонстатусстринг
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d96439afc20a97c4834aa168e0d33699605998c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 74a431148c18eefa54cf5cef7fdd23919c3be6d999e88cd0974694a05db44307
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105656673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118726741"
 ---
 # <a name="systemidentitylogonstatusstring"></a>System. Identity. Логонстатусстринг
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

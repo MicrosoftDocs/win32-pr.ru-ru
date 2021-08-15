@@ -4,19 +4,19 @@ ms.assetid: e799fb16-5a1e-4d57-a033-554f72e2e685
 title: Образец рукописного сбора
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25f31ce83a55b6f352d76ad1cb8d184b41618c5c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e5f568abf38abfa31d9374a7a1874f9f73481a799a740c402f3e8f168963c3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104144770"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118718263"
 ---
 # <a name="ink-collection-sample"></a>Образец рукописного сбора
 
 Это приложение основано на объекте [InkCollector](/previous-versions/ms836493(v=msdn.10)) и демонстрирует сбор рукописных данных. Приложение создает окно, прикрепляет к нему объект InkCollector и предоставляет пользователю варианты меню, которые можно использовать для изменения цвета рукописного ввода, ширины рукописного ввода, включения и отключения сбора рукописных данных.
 
 > [!Note]  
-> Версия, описанная в этом разделе, — Visual Basic .NET. Эти понятия одинаковы для других языковых версий в библиотеке Samples.
+> версия, описанная в этом разделе, — Visual Basic .net. Эти понятия одинаковы для других языковых версий в библиотеке Samples.
 
  
 

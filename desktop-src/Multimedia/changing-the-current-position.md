@@ -6,12 +6,12 @@ keywords:
 - Сообщение команды MCI_SEEK
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 235dc2639d7d9fc01f94aff700ae9e0ebf1dcbe2
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: a14f062fc93a89f54fb89a30b6ac3e53c8d6240cfc28b661a25da48a0b1b2fbe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104412972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118941292"
 ---
 # <a name="changing-the-current-position"></a>Изменение текущей должности
 
@@ -19,6 +19,6 @@ ms.locfileid: "104412972"
 
 Помимо указания позиции с элементом **двто** , можно указать \_ \_ \_ НАЧАЛЬное начало или функцию MCI найти \_ \_ \_ Флаги для параметра *dwParam1* функции [**мЦисендкомманд**](/previous-versions//dd757160(v=vs.85)) , чтобы определить начальную и конечную позиции элемента Device. Если используется один из этих флагов, не указывайте параметр MCI \_ для флага.
 
- 
+ 
 
- 
+ 

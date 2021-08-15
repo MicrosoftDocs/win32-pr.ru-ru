@@ -1,11 +1,11 @@
 ---
-title: Атрибут MS-SQL-SortOrder
+title: атрибут «MS-SQL-SortOrder»
 description: Порядок сортировки текущего экземпляра SQL Server.
 ms.assetid: cd58cb56-19aa-4ee6-b241-1198b3e9e097
 ms.tgt_platform: multiple
 keywords:
-- Схема AD атрибута "MS-SQL-SortOrder"
-- Схема AD атрибута "mS-SQL-SortOrder"
+- схема AD атрибута "MS-SQL-SortOrder"
+- схема AD атрибута "mS-SQL-SortOrder"
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 940dafa4cc9bfce15ae1a5df472720e6e779f19e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 52af99f17be381db7499e453b9e1f5419a45a3c92c57a80a8defd752486597f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105654896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118686591"
 ---
-# <a name="ms-sql-sortorder-attribute"></a>Атрибут MS-SQL-SortOrder
+# <a name="ms-sql-sortorder-attribute"></a>атрибут «MS-SQL-SortOrder»
 
 Порядок сортировки текущего экземпляра SQL Server.
 

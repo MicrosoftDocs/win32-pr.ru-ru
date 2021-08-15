@@ -4,12 +4,12 @@ ms.assetid: ede464a2-0be5-445a-aff7-d707dfccee13
 title: Интерфейсы авторизации
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff566127c90abcaebd91fc26af23734680bd2e11
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e485090de7ee2b64ac30be64eabee7b3e05dd932b3758bda7be01323ae09d74
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104350615"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118914216"
 ---
 # <a name="authorization-interfaces"></a>Интерфейсы авторизации
 
@@ -55,9 +55,9 @@ ms.locfileid: "104350615"
 | [**иазтаск**](/windows/desktop/api/Azroles/nn-azroles-iaztask)<br/>                                 | Описывает набор операций.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | [**IAzTask2**](/windows/desktop/api/Azroles/nn-azroles-iaztask2)<br/>                               | Расширяет интерфейс [**иазтаск**](/windows/desktop/api/Azroles/nn-azroles-iaztask) с помощью метода, который возвращает назначения ролей, связанные с задачей.<br/>                                                                                                                                                                                                                                                                                                                                                                 |
 | [**иазтаскс**](/windows/desktop/api/Azroles/nn-azroles-iaztasks)<br/>                               | Представляет коллекцию объектов [**иазтаск**](/windows/desktop/api/Azroles/nn-azroles-iaztask) .<br/>                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| [**иеаксисервице**](ieaxiservice.md)<br/>                       | Инициализирует объект системной службы для установки объекта ActiveX, если текущий пользователь не имеет разрешения на установку объекта.<br/>                                                                                                                                                                                                                                                                                                                                                     |
-| [**иеаксисервицекаллбакк**](ieaxiservicecallback.md)<br/>       | Вызывается интерфейсом [**иеаксисистеминсталлер**](ieaxisysteminstaller.md) для проверки возможности установки объекта ActiveX.<br/>                                                                                                                                                                                                                                                                                                                                                            |
-| [**иеаксисистеминсталлер**](ieaxisysteminstaller.md)<br/>       | Устанавливает объект ActiveX.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| [**иеаксисервице**](ieaxiservice.md)<br/>                       | инициализирует объект системной службы для установки объекта ActiveX, если у текущего пользователя нет разрешения на установку объекта.<br/>                                                                                                                                                                                                                                                                                                                                                     |
+| [**иеаксисервицекаллбакк**](ieaxiservicecallback.md)<br/>       | вызывается интерфейсом [**иеаксисистеминсталлер**](ieaxisysteminstaller.md) для проверки возможности установки объекта ActiveX.<br/>                                                                                                                                                                                                                                                                                                                                                            |
+| [**иеаксисистеминсталлер**](ieaxisysteminstaller.md)<br/>       | устанавливает объект ActiveX.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | [**иеффективепермиссион**](/windows/win32/api/aclui/nn-aclui-ieffectivepermission)<br/>       | Предоставляет средства для определения действующих разрешений для субъекта безопасности на объекте.<br/>                                                                                                                                                                                                                                                                                                                                                                                                  |
 | [**IEffectivePermission2**](/windows/win32/api/aclui/nn-aclui-ieffectivepermission2)<br/>     | Предоставляет способ определения действующих разрешений для субъекта безопасности на объекте.<br/>                                                                                                                                                                                                                                                                                                                                                                                                    |
 | [**исекуритинформатион**](/windows/win32/api/aclui/nn-aclui-isecurityinformation)<br/>       | Позволяет редактору управления доступом взаимодействовать с вызывающим объектом функций [**креатесекуритипаже**](/windows/desktop/api/Aclui/nf-aclui-createsecuritypage) и [**едитсекурити**](/windows/desktop/api/Aclui/nf-aclui-editsecurity) .<br/>                                                                                                                                                                                                                                                                                                               |
@@ -73,7 +73,7 @@ ms.locfileid: "104350615"
 Интерфейсы авторизации делятся на категории по использованию следующим образом.
 
 -   [Интерфейсы редактора управления доступом](#access-control-editor-interfaces)
--   [Интерфейсы установщика ActiveX](#activex-installer-interfaces)
+-   [ActiveX Интерфейсы установщика](#activex-installer-interfaces)
 -   [Интерфейсы диспетчера авторизации](#authorization-manager-interfaces)
 
 ## <a name="access-control-editor-interfaces"></a>Интерфейсы редактора управления доступом
@@ -86,9 +86,9 @@ ms.locfileid: "104350615"
 -   [**ISecurityInformation3**](/windows/win32/api/aclui/nn-aclui-isecurityinformation3)
 -   [**исекуритйобжекттипеинфо**](/windows/win32/api/aclui/nn-aclui-isecurityobjecttypeinfo)
 
-## <a name="activex-installer-interfaces"></a>Интерфейсы установщика ActiveX
+## <a name="activex-installer-interfaces"></a>ActiveX Интерфейсы установщика
 
-Установщик ActiveX предоставляет следующие интерфейсы.
+ActiveX Установщик предоставляет следующие интерфейсы.
 
 -   [**иеаксисервице**](ieaxiservice.md)
 -   [**иеаксисервицекаллбакк**](ieaxiservicecallback.md)

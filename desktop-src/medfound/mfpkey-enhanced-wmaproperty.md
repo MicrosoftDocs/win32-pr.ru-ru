@@ -4,12 +4,12 @@ ms.assetid: 1ace09da-7dee-469e-a533-63b40ac747ab
 title: Свойство MFPKEY_ENHANCED_WMA (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df1c7ddc0e7bfb6d62d51e535f10b257eac6f2ef
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1ab3fdcd3087773ea760615224b148bd497c1f89114c0f761a7d2f90fb0b5a8c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105649106"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118738021"
 ---
 # <a name="mfpkey_enhanced_wma-property"></a>МФПКЭЙ \_ Расширенное \_ свойство WMA
 
@@ -27,15 +27,15 @@ ms.locfileid: "105649106"
 
 0
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Это свойство доступно только для Windows Media Audio без потерь.
+это свойство доступно только для Windows Media Audio без потерь.
 
 Если оставить это свойство со значением по умолчанию 0 или установить его равным 1, основной кодировщик решит, следует ли использовать часть "плюс". Если задать для этого свойства значение 2, то основной кодировщик не будет использовать функцию "плюс".
 
 Это свойство изменяет перечислимые типы носителей, поэтому, если оно задано, необходимо сделать это, прежде чем задавать тип выходных данных.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

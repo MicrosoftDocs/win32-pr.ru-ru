@@ -4,12 +4,12 @@ ms.assetid: 8e0c4996-9f78-424e-b012-502228b6a27a
 title: Атрибут MF_MT_FRAME_RATE_RANGE_MAX (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 62399445cd31c7820ea9de7082fce71febbf3ba2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5988a6aee872489327707c7e87639f7467560014c5bdd29bc9b0bd9a136ccbac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991474"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118742046"
 ---
 # <a name="mf_mt_frame_rate_range_max-attribute"></a>\_ \_ \_ \_ Атрибут максимального диапазона частот кадров MF MT \_
 
@@ -25,7 +25,7 @@ ms.locfileid: "103991474"
 
 Чтобы задать этот атрибут, вызовите [**мфсетаттрибутератио**](/windows/desktop/api/mfapi/nf-mfapi-mfsetattributeratio).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Частота кадров выражается в виде коэффициента. Верхние 32 бит значения атрибута содержат числитель, а младшие 32 биты содержат знаменатель. Например, если частота кадров составляет 30 кадров в секунду (кадров/с), то соотношение составляет 30/1.
 
@@ -35,14 +35,14 @@ ms.locfileid: "103991474"
 
 Константа GUID для этого атрибута экспортируется из мфууид. lib.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 7 \|\]<br/>                                  |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 R2 \|\]<br/>                     |
+| Минимальная версия клиента<br/> | \[приложения UWP для классических приложений Windows 7 \|\]<br/>                                  |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для настольных приложений Server 2008 R2 \|\]<br/>                     |
 | Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 

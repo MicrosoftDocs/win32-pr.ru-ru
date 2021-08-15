@@ -4,12 +4,12 @@ description: в этом примере кода демонстрируется 
 ms.assetid: 1a462f4e-e75a-40cf-9c52-0bad0a645d57
 ms.topic: article
 ms.date: 07/13/2021
-ms.openlocfilehash: ef776a8a1a8eadf9ee41cf9964066cc612a9f9a1
-ms.sourcegitcommit: 63c93e0ad0b48d60b11008767196718feb475cb0
+ms.openlocfilehash: 8c62e8955e737ac78ee5543c0a12febc5436bacd7f9d739bc9af02bacd555d2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "113691753"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118706710"
 ---
 # <a name="gallery-sample"></a>Пример коллекции
 
@@ -20,7 +20,7 @@ ms.locfileid: "113691753"
   - [Запуск примера](#running-the-sample)
 - [Поддержка](#support)
 - [Минимальные требования](#minimum-requirements)
-- [Связанные разделы](#related-topics)
+- [Связанные темы](#related-topics)
 
 ## <a name="usage"></a>Использование
 
@@ -54,7 +54,7 @@ ms.locfileid: "113691753"
 
 | Требование | Значение |
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента | Windows 7<br/> Windows vista с пакетом обновления 2 (sp2) и [обновлением платформы для Windows Vista](https://msdn.microsoft.com/library/dd378748.aspx)<br/>         |
+| Минимальная версия клиента | Windows 7<br/> Windows vista с пакетом обновления 2 (sp2) и [обновлением платформы для Windows Vista](https://msdn.microsoft.com/library/dd378748.aspx)<br/>         |
 | Минимальная версия сервера | Windows Server 2008 R2<br/> Windows сервер 2008 с пакетом обновления 2 (SP2) и [обновлением платформы для Windows Server 2008](https://msdn.microsoft.com/library/dd378748.aspx)<br/> |
 | Пакет Windows SDK              | 7.0                                                                                                                                                                      |
 | Visual Studio            | 2008                                                                                                                                                                     |
@@ -69,7 +69,7 @@ ms.locfileid: "113691753"
 
  
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

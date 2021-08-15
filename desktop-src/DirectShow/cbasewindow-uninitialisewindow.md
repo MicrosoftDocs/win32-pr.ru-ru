@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ceeadd0ec7a61422f0127c957125caa9a01dcefb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c275e4d683bcc698c8f04c5a85017b081b6aad17f93c91d66e0a75f2da88692e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105658044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118657496"
 ---
 # <a name="cbasewindowuninitialisewindow-method"></a>Кбасевиндов. Унинитиалисевиндов, метод
 
@@ -44,7 +44,7 @@ virtual HRESULT UninitialiseWindow();
 
 Возвращает значение S \_ ОК.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод освобождает ресурсы, которые были получены методом [**кбасевиндов:: инитиалисевиндов**](cbasewindow-initialisewindow.md) . Метод [**кбасевиндов::D оневисвиндов**](cbasewindow-donewithwindow.md) вызывает этот метод.
 
@@ -54,7 +54,7 @@ virtual HRESULT UninitialiseWindow();
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Винутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>винутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

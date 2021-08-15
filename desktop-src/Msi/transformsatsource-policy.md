@@ -4,22 +4,22 @@ ms.assetid: 24881078-1610-4a37-a52d-fcabd78e1738
 title: Политика Трансформсатсаурце
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91be9c56f2e68a27d904acf98088204dc4012b4f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8ab909fd728ce1cebba894dd8598879fa055ce762ed027cd8842cc7236a0f24e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104143438"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118623484"
 ---
 # <a name="transformsatsource-policy"></a>Политика Трансформсатсаурце
 
 Если для этой [системной политики](system-policy.md) "на пользователя" задано значение "1"; Установщик выполняет поиск файлов преобразования в корне всех сетевых источников в списке источников для продукта. По умолчанию преобразования хранятся в папке Application Data профиля пользователя.
 
-Установщик Windows интерпретирует политику Трансформсатсаурце как ту же, что и [Политика трансформссекуре](transformssecure-policy.md).
+Windows Установщик интерпретирует политику Трансформсатсаурце как ту же, что и [Политика трансформссекуре](transformssecure-policy.md).
 
 ## <a name="registry-key"></a>Ключ реестра
 
-**HKey \_ Текущие \_ политики пользовательского** \\ **программного обеспечения** \\  \\  \\  \\ **установщик** Microsoft Windows
+**HKey \_ текущие \_ политики пользовательского** \\ **программного обеспечения** \\  \\  \\  \\ **установщик** Microsoft Windows
 
 ## <a name="data-type"></a>Тип данных
 
