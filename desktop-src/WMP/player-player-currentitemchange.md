@@ -3,9 +3,9 @@ title: Событие Player. Куррентитемчанже
 description: Событие Куррентитемчанже возникает при изменении Controls. currentItem.
 ms.assetid: e6f68aeb-d7e7-460b-adc9-647f28c678a1
 keywords:
-- Проигрыватель Windows Media Event Куррентитемчанже
-- Проигрыватель Windows Media Event Куррентитемчанже, класс Player
-- Класс проигрывателя Windows Media Player, событие Куррентитемчанже
+- проигрыватель Windows Media событий куррентитемчанже
+- проигрыватель Windows Media событий куррентитемчанже, класс Player
+- класс проигрывателя проигрыватель Windows Media, событие куррентитемчанже
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e4c425184bf4b338177ec892ed5362c085dd8cb7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5ed0ca3c8333c7261c8332bcc124c905c5540f5cdf0dbefe3f34f121eb901cc3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708579"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118338129"
 ---
 # <a name="playercurrentitemchange-event"></a>Событие Player. Куррентитемчанже
 
@@ -46,7 +46,7 @@ Player.CurrentItemChange()
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере JScript демонстрируется обработчик событий для *проигрывателя*. событие **куррентитемчанже** . Объект **Player** создан с идентификатором "Player".
+в следующем примере JScript демонстрируется обработчик событий для *проигрывателя*. событие **куррентитемчанже** . Объект **Player** создан с идентификатором "Player".
 
 
 ```JScript
@@ -70,7 +70,7 @@ Player.CurrentItemChange()
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

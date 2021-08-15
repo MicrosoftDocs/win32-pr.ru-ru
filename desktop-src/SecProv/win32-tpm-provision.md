@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Win32_tpm.dll
-ms.openlocfilehash: 198d7b02b1813002ce55d175ad016ace23ee7da4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5153672d91c88597676f65b53a93de6ffac9f4989dd9e231c87a3b7947b1d657
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103912248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118890812"
 ---
 # <a name="win32_tpmprovision-method"></a>\_TPM Win32::P метод ровисион
 
@@ -76,15 +76,15 @@ uint32 Provision(
 | <span id="INFORMATION_TPM_TAKE_OWNERSHIP"></span><span id="information_tpm_take_ownership"></span><dl> <dt>**Сведения о \_ TPM \_ принимает \_ владение**</dt> <dt>0x00000040</dt> </dl>                 | Владение TPM выполнено.<br/>                                                                                                                                                                                                |
 | <span id="INFORMATION_TPM_CREATE_EK"></span><span id="information_tpm_create_ek"></span><dl> <dt>**Сведения о \_ \_Создание \_ доверенного платформенного модуля**</dt> <dt>0x00000080</dt> </dl>                                | Ключ подтверждения (EK) существует в доверенном платформенном модуле. <br/>                                                                                                                                                                                 |
 | <span id="INFORMATION_TPM_OWNERAUTH"></span><span id="information_tpm_ownerauth"></span><dl> <dt>**Сведения о \_ 0x00000100 \_ ОВНЕРАУС TPM**</dt> <dt></dt> </dl>                                 | Авторизация владельца доверенного платформенного модуля неправильно хранится в реестре.<br/>                                                                                                                                                         |
-| <span id="INFORMATION_TPM_SRK_AUTH"></span><span id="information_tpm_srk_auth"></span><dl> <dt>**Сведения о \_ 0x000000200 \_ \_ проверки подлинности TPM SRK**</dt> <dt></dt> </dl>                                  | Значение авторизации корневого ключа хранилища (SRK) не является нулевым.<br/>                                                                                                                                                            |
+| <span id="INFORMATION_TPM_SRK_AUTH"></span><span id="information_tpm_srk_auth"></span><dl> <dt>**Сведения о \_ 0x000000200 \_ \_ проверки подлинности TPM SRK**</dt> <dt></dt> </dl>                                  | значение авторизации корневого ключа служба хранилища (SRK) не равно нулю.<br/>                                                                                                                                                            |
 | <span id="INFORMATION_TPM_DISABLE_OWNER_CLEAR"></span><span id="information_tpm_disable_owner_clear"></span><dl> <dt>**Сведения о \_ TPM \_ отключает \_ владельца \_ clear**</dt> <dt>0x00000400</dt> </dl> | Если операционная система настроена на отключение очистки доверенного платформенного модуля с помощью значения авторизации владельца доверенного платформенного модуля, а ДОВЕРЕНный платформенный модуль еще не настроен для предотвращения очистки ДОВЕРЕНного платформенного модуля со значением авторизации владельца доверенного платформенного модуля.<br/> |
-| <span id="INFORMATION_TPM_SRKPUB"></span><span id="information_tpm_srkpub"></span><dl> <dt>**Сведения о \_ 0x00000800 \_ СРКПУБ TPM**</dt> <dt></dt> </dl>                                          | Данные реестра операционной системы о корневом ключе хранилища доверенного платформенного модуля не соответствуют корневому ключу хранилища TPM.<br/>                                                                                                       |
-| <span id="INFORMATION_TPM_READ_SRKPUB"></span><span id="information_tpm_read_srkpub"></span><dl> <dt>**Сведения о \_ \_Чтение TPM \_ сркпуб**</dt> <dt>0x00001000</dt> </dl>                          | Постоянный флаг доверенного платформенного модуля, чтобы разрешить чтение открытого значения корневого ключа хранилища, не задан.<br/>                                                                                                                                    |
+| <span id="INFORMATION_TPM_SRKPUB"></span><span id="information_tpm_srkpub"></span><dl> <dt>**Сведения о \_ 0x00000800 \_ СРКПУБ TPM**</dt> <dt></dt> </dl>                                          | данные реестра операционной системы о корневом ключе служба хранилища доверенного платформенного модуля не совпадают с корневым ключом служба хранилища tpm.<br/>                                                                                                       |
+| <span id="INFORMATION_TPM_READ_SRKPUB"></span><span id="information_tpm_read_srkpub"></span><dl> <dt>**Сведения о \_ \_Чтение TPM \_ сркпуб**</dt> <dt>0x00001000</dt> </dl>                          | постоянный флаг доверенного платформенного модуля для разрешения чтения открытого значения корневого ключа служба хранилища не задан.<br/>                                                                                                                                    |
 | <span id="INFORMATION_TPM_BOOT_COUNTER"></span><span id="information_tpm_boot_counter"></span><dl> <dt>**Сведения о \_ 0x00002000 \_ \_ счетчика загрузки TPM**</dt> <dt></dt> </dl>                       | Монотонный счетчик, увеличивающийся во время загрузки, не был создан.<br/>                                                                                                                                                         |
 | <span id="INFORMATION_TPM_AD_BACKUP"></span><span id="information_tpm_ad_backup"></span><dl> <dt>**Сведения о \_ 0x00004000 TPM \_ AD \_ BACKUP**</dt> <dt></dt> </dl>                                | Не выполнено резервное копирование авторизации владельца доверенного платформенного модуля на Active Directory.<br/>                                                                                                                                                   |
 | <span id="INFORMATION_TPM_AD_BACKUP_PHASE_I"></span><span id="information_tpm_ad_backup_phase_i"></span><dl> <dt>**Сведения о \_ 0x00008000 \_ на \_ \_ этапе \_ резервного копирования TPM AD**</dt> <dt></dt> </dl>      | В Active Directory выполняется первая часть хранилища данных авторизации владельца доверенного платформенного модуля.<br/>                                                                                                                    |
 | <span id="INFORMATION_TPM_AD_BACKUP_PHASE_II"></span><span id="information_tpm_ad_backup_phase_ii"></span><dl> <dt>**Сведения о \_ 0x00010000 \_ \_ этапа резервного копирования \_ \_ доверенного платформенного модуля II**</dt> <dt></dt> </dl>   | Вторая часть хранилища данных авторизации владельца TPM в Active Directory выполняется.<br/>                                                                                                                   |
-| <span id="INFORMATION_LEGACY_CONFIGURATION"></span><span id="information_legacy_configuration"></span><dl> <dt>**Сведения о \_ УСТАРЕВШая \_ Конфигурация**</dt> <dt>0x00020000</dt> </dl>            | Групповая политика Windows настроен на отсутствие авторизации владельца доверенного платформенного модуля, поэтому доверенный платформенный модуль не может быть полностью готов.<br/>                                                                                                               |
+| <span id="INFORMATION_LEGACY_CONFIGURATION"></span><span id="information_legacy_configuration"></span><dl> <dt>**Сведения о \_ УСТАРЕВШая \_ Конфигурация**</dt> <dt>0x00020000</dt> </dl>            | Windows Групповая политика настроен на отсутствие авторизации владельца доверенного платформенного модуля, поэтому доверенный платформенный модуль не может быть полностью готов.<br/>                                                                                                               |
 | <span id="INFORMATION_EK_CERTIFICATE"></span><span id="information_ek_certificate"></span><dl> <dt>**Сведения о \_ 0x00040000 \_ сертификата EK**</dt> <dt></dt> </dl>                              | Сертификат EK не был считан из энергонезависимого ОЗУ доверенного платформенного модуля и хранится в реестре. <br/>                                                                                                                                            |
 | <span id="INFORMATION_TCG_EVENT_LOG"></span><span id="information_tcg_event_log"></span><dl> <dt>**Сведения о \_ 0x00080000 \_ \_ журнала событий TCG**</dt> <dt></dt> </dl>                                | Журнал событий TCG пуст или не может быть прочитан. <br/>                                                                                                                                                                              |
 | <span id="INFORMATION_NOT_REDUCED"></span><span id="information_not_reduced"></span><dl> <dt>**Сведения о \_ НЕ \_ уменьшено**</dt> <dt>0x00100000</dt> </dl>                                       | Доверенный платформенный модуль не принадлежит.<br/>                                                                                                                                                                                                       |
@@ -113,9 +113,9 @@ uint32 Provision(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). MOF-файлы не устанавливаются в составе Windows SDK. Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](../wmisdk/managed-object-format--mof-.md).
+файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). MOF-файлы не устанавливаются в составе Windows SDK. Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](../wmisdk/managed-object-format--mof-.md).
 
 ## <a name="requirements"></a>Требования
 
@@ -123,8 +123,8 @@ uint32 Provision(
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                      |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                      |
 | Пространство имен<br/>                | \\\\.\\ корневой \\ CIMV2 \\ безопасности \\ микрософттпм<br/>                                     |
 | MOF<br/>                      | <dl> <dt>Win32 \_ TPM. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>\_tpm.dllWin32</dt> </dl> |

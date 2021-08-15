@@ -4,20 +4,20 @@ ms.assetid: bec4333a-62ca-4254-a39b-04bc2c556992
 title: Пример формы Auto Claims
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71c5ff78a3c38036ef9352660b4d7959e2ad87e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2fe22545d60ad4116e2607f3fcf01feb94dbfecaa74bc591288e4d91b6d3d465
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104346892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117857122"
 ---
 # <a name="auto-claims-form-sample"></a>Пример формы Auto Claims
 
 В примере Auto Claims рассматривается гипотетический сценарий для страхового полиса. Для работы по оценке необходимо, чтобы он был посещен клиентами дома или бизнеса и вводил свои сведения о заявках в форму. Чтобы повысить продуктивность оценки, ИТ-отдел разрабатывает приложение для планшетов, которое позволяет ему быстро и точно вводить сведения о заявках с помощью двух элементов управления рукописного ввода: [InkEdit](/previous-versions/ms835842(v=msdn.10)) и [InkPicture](/previous-versions/ms583740(v=vs.100)) .
 
-В этом примере для каждого текстового поля ввода используется элемент управления [InkEdit](/previous-versions/ms835842(v=msdn.10)) . Пользователь вводит соответствующую информацию о страховой полисе и транспорте в эти поля с помощью пера. Элемент управления [InkPicture](/previous-versions/ms583740(v=vs.100)) используется для добавления рукописного ввода в изображение автомобиля для выделения поврежденных областей автомобиля. Образец Auto Claims доступен для C \# и Microsoft Visual Basic .NET. В этом разделе описывается Visual Basic .NET.
+В этом примере для каждого текстового поля ввода используется элемент управления [InkEdit](/previous-versions/ms835842(v=msdn.10)) . Пользователь вводит соответствующую информацию о страховой полисе и транспорте в эти поля с помощью пера. Элемент управления [InkPicture](/previous-versions/ms583740(v=vs.100)) используется для добавления рукописного ввода в изображение автомобиля для выделения поврежденных областей автомобиля. образец Auto claims доступен для C \# и Microsoft Visual Basic .net. в этом разделе описывается Visual Basic .net.
 
-Класс автозаявок определяется как подкласс [System. Windows. Forms. Form](/dotnet/api/system.windows.forms.form?view=netcore-3.1) , а вложенный класс определяется для создания и управления уровнями рукописного ввода для различных типов повреждений. Для выполнения следующих задач определены четыре обработчика событий:
+Класс автозаявок определяется как подкласс [System. Windows. Forms.](/dotnet/api/system.windows.forms.form?view=netcore-3.1) Form и вложенный класс определяются для создания слоев рукописного ввода и управления ими для различных типов повреждений. Для выполнения следующих задач определены четыре обработчика событий:
 
 -   Инициализация формы и слоев рукописного ввода.
 -   Перерисовка элемента управления [InkPicture](/previous-versions/ms583740(v=vs.100)) .
@@ -25,7 +25,7 @@ ms.locfileid: "104346892"
 -   Изменение видимости слоя рукописного ввода.
 
 > [!Note]  
-> Версии этого образца доступны в C \# и Visual Basic .NET. Версия, описанная в этом разделе, — Visual Basic .NET. Эти понятия одинаковы для разных версий.
+> версии этого образца доступны в C \# и Visual Basic .net. версия, описанная в этом разделе, — Visual Basic .net. Эти понятия одинаковы для разных версий.
 
  
 
@@ -160,7 +160,7 @@ inkPictVehicle.DefaultDrawingAttributes.Color = inkLayers[lstAnnotationLayer.Sel
 
 ## <a name="redrawing-the-inkpicture-control"></a>Перерисовка элемента управления InkPicture
 
-В наследуемом обработчике событий [рисования](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) элемента управления [InkPicture](/previous-versions/ms583740(v=vs.100)) слои рукописного ввода проверяются, чтобы определить, какие из них скрыты. Если слой не скрыт, процедура события отображает его с помощью метода [Draw](/previous-versions/ms828488(v=msdn.10)) свойства средства [визуализации](/previous-versions/ms582196(v=vs.100)) . Если взглянуть на обозреватель объектов, вы увидите, что свойство Microsoft. Ink. InkPicture. Render определено как объект [Microsoft. Ink. Render](/previous-versions/ms828481(v=msdn.10)) :
+в обработчике событий, унаследованном [Paint](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) элемента управления [InkPicture](/previous-versions/ms583740(v=vs.100)) , слои рукописного ввода проверяются, чтобы определить, какие из них скрыты. Если слой не скрыт, процедура события отображает его с помощью метода [Draw](/previous-versions/ms828488(v=msdn.10)) свойства средства [визуализации](/previous-versions/ms582196(v=vs.100)) . Если взглянуть на обозреватель объектов, вы увидите, что свойство Microsoft. Ink. InkPicture. Render определено как объект [Microsoft. Ink. Render](/previous-versions/ms828481(v=msdn.10)) :
 
 
 ```VB
@@ -373,9 +373,9 @@ private void chHideLayer_CheckedChanged(object sender, System.EventArgs e)
 
 ## <a name="closing-the-form"></a>Закрытие формы
 
-В коде, созданном конструктором форм Windows Forms, элементы управления [InkEdit](/previous-versions/ms835842(v=msdn.10)) и [InkPicture](/previous-versions/ms583740(v=vs.100)) добавляются в список компонентов формы при инициализации формы. При закрытии формы элементы управления InkEdit и InkPicture удаляются, а также другие компоненты формы методом [Dispose](/previous-versions/dotnet/netframework-3.5/ms571303(v=vs.90)) формы. Метод Dispose формы также удаляет объекты [рукописного ввода](/previous-versions/ms583670(v=vs.100)) , созданные для формы.
+в коде, созданном конструктором форм Windows, элементы управления [InkEdit](/previous-versions/ms835842(v=msdn.10)) и [InkPicture](/previous-versions/ms583740(v=vs.100)) добавляются в список компонентов формы при инициализации формы. При закрытии формы элементы управления InkEdit и InkPicture удаляются, а также другие компоненты формы методом [Dispose](/previous-versions/dotnet/netframework-3.5/ms571303(v=vs.90)) формы. Метод Dispose формы также удаляет объекты [рукописного ввода](/previous-versions/ms583670(v=vs.100)) , созданные для формы.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

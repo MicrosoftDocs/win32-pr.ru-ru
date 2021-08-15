@@ -3,7 +3,7 @@ title: Список LISTBOX. fontSize
 description: Атрибут fontSize указывает или получает размер шрифта для элемента управления "список".
 ms.assetid: e7756249-5295-4564-8ba6-dd28d5104024
 keywords:
-- Проигрыватель Windows Media LISTBOX. fontSize
+- проигрыватель Windows Media LISTBOX. fontSize
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ca230736c5ef2ff34c1a5e7c3c75c7105a61ae44
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7cc017c52d086d7c6a63e8a5fbf5d3f5b55cd6382034bfb36e291078418abf32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120003414"
 ---
 # <a name="listboxfontsize"></a>Список LISTBOX. fontSize
 
@@ -37,7 +37,7 @@ ms.locfileid: "105694972"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
 
 
 

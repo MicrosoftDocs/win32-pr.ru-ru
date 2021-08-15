@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cb305d4a81b3c4dd9eb53dceab5a4e685c57c060
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: b8cb0ee5cb5d38f57619e54be56d3c6cab49641b9183f7771cefbbfaad0eec0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103914395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118353033"
 ---
 # <a name="imsrdpclientadvancedsettingsmaxeventcount-property"></a>Свойство Имсрдпклиентадванцедсеттингс:: Максевенткаунт
 
@@ -90,7 +90,7 @@ HRESULT get_maxEventCount(
 
 Возвращает **\_ значение false**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Дополнительные сведения о веб-подключение к удаленному рабочему столу см. в разделе [требования для веб-подключение к удаленному рабочему столу](requirements-for-remote-desktop-web-connection.md).
 

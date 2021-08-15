@@ -3,7 +3,7 @@ title: Код уведомления NM_FONTCHANGED (Коммктрл. h)
 description: Посылается элементом управления "представление списка", когда элемент управления изменил шрифт. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: ffa019b0-34be-4bb3-b9dd-c267545fec84
 keywords:
-- NM_FONTCHANGED кода уведомления элементы управления Windows
+- NM_FONTCHANGED кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 75003021f83276c953b5aa2cf0b812d20d60857b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b5369b7719a02e28562f4e71aecffdd3680aa602b6154eac9cc8685bdbe2b2b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891430"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118411149"
 ---
 # <a name="nm_fontchanged-notification-code"></a>\_Код уведомления фонтчанжед (NM)
 
@@ -49,14 +49,14 @@ NM_FONTCHANGED
 
 Возвращаемое значение игнорируется элементом управления.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86c9428a39cfaebbce150583d47a344c4a36ca66
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: 479e03e6e18c0ec7421bd225744c5181029fc2b2e220f35c7bae7a3b02d42b07
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "105654255"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120004894"
 ---
 # <a name="ping"></a>Проверка связи
 
@@ -48,7 +48,7 @@ BITS-Packet-Type: Ping
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Пакет **ping** является необязательным. Вместо отправки пакета **проверки связи** можно использовать пакет [**создания сеанса**](create-session.md) для установления соединения и согласования безопасности. Однако для этой цели более эффективно использовать пакет **ping** .
 
@@ -62,9 +62,9 @@ BITS-Packet-Type: Ping
 [**Создание сеанса**](create-session.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

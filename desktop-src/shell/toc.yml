@@ -1,14 +1,14 @@
-- name: Оболочка Windows
+- name: оболочка Windows
   href: shell-entry.md
   items:
     - name: Руководством разработчика оболочки
       href: intro.md
       items:
-        - name: 'Вопросы безопасности: оболочка Microsoft Windows'
+        - name: 'вопросы безопасности: оболочка Microsoft Windows'
           href: sec-shell.md
         - name: Руководство по реализации расширений In-Process
           href: shell-and-managed-code.md
-        - name: Разработка с помощью проводника Windows
+        - name: разработка с помощью проводника Windows
           href: developing-with-windows-explorer.md
         - name: 'Версии оболочки и Shlwapi DLL '
           href: versions.md
@@ -179,7 +179,7 @@
                   href: how-to-use-a-junction-point-to-open-a-rooted-view.md
                 - name: Открытие корневого представления точки соединения через файл ярлыка
                   href: how-to-use-a-shortcut-file-to-open-a-rooted-view.md
-            - name: Расширение проводника Windows
+            - name: расширение обозревателя Windows
               href: extending-explorer-bumper.md
               items:
                 - name: Основные понятия обозревателя
@@ -190,7 +190,7 @@
                   href: band-objects.md
                 - name: Расширение контекстных меню
                   href: context.md
-                - name: Интеграция поставщика облачного хранилища
+                - name: интеграция поставщика облачных служба хранилища
                   href: integrate-cloud-storage.md
                 - name: Определение расширенных команд
                   href: how-to-define-extended-verbs.md
@@ -294,7 +294,7 @@
               href: assigning-control-panel-categories.md
             - name: Создание ссылок на задачи с возможностью поиска для элемента панели управления
               href: creating-searchable-task-links.md
-            - name: Доступ к панели управления в защищенном режиме
+            - name: доступ к панели управления в режиме Сейф
               href: accessing-the-cp-in-safe-mode-under-vista.md
             - name: Канонические имена элементов панели управления
               href: controlpanel-canonical-names.md
@@ -328,7 +328,7 @@
                   href: knownfolderid.md
             - name: Управление файловой системой
               href: manage.md
-            - name: Регистрация Интернет браузера или почтового клиента в меню "Пуск" Windows
+            - name: регистрация интернет браузера или почтового клиента в меню "пуск" Windows
               href: start-menu-reg.md
             - name: Регистрация программ с помощью клиентских типов
               href: reg-middleware-apps.md
@@ -392,7 +392,7 @@
             - name: Центр синхронизации
               href: synchronization-center-bumper.md
               items:
-                - name: Разработка обработчика Windows Sync Center
+                - name: разработка обработчика центра синхронизации Windows
                   href: sync-center-handler.md
                 - name: диспетчер синхронизации
                   href: syncmgr-start-page.md
@@ -813,7 +813,7 @@
             - name: иконнектаблекредентиалпровидеркредентиал
               href: /windows/desktop/api/Credentialprovider/nn-credentialprovider-iconnectablecredentialprovidercredential
               items:
-                - name: Подключение
+                - name: Подключить
                   href: /windows/desktop/api/Credentialprovider/nf-credentialprovider-iconnectablecredentialprovidercredential-connect
                 - name: Отключение
                   href: /windows/desktop/api/Credentialprovider/nf-credentialprovider-iconnectablecredentialprovidercredential-disconnect
@@ -1043,7 +1043,7 @@
             - name: икредентиалпровидерфилтер
               href: /windows/desktop/api/Credentialprovider/nn-credentialprovider-icredentialproviderfilter
               items:
-                - name: Фильтр
+                - name: Filter
                   href: /windows/desktop/api/Credentialprovider/nf-credentialprovider-icredentialproviderfilter-filter
                 - name: упдатеремотекредентиал
                   href: /windows/desktop/api/Credentialprovider/nf-credentialprovider-icredentialproviderfilter-updateremotecredential
@@ -1681,7 +1681,7 @@
                   href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileisinuse-closefile
                 - name: жетаппнаме
                   href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileisinuse-getappname
-                - name: Возможности
+                - name: GetCapabilities
                   href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileisinuse-getcapabilities
                 - name: жетсвитчтохвнд
                   href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileisinuse-getswitchtohwnd
@@ -1792,7 +1792,7 @@
             - name: ифилесинкмержехандлер
               href: /windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifilesyncmergehandler
               items:
-                - name: Объединение
+                - name: Объединить
                   href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifilesyncmergehandler-merge
                 - name: шовресолвеконфликтуиасинк
                   href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifilesyncmergehandler-showresolveconflictuiasync
@@ -2052,7 +2052,7 @@
               items:
                 - name: Инициализация
                   href: /windows/desktop/api/Propsys/nf-propsys-iinitializewithstream-initialize
-            - name: иинитиализевисвиндов
+            - name: IInitializeWithWindow
               href: /windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializewithwindow
               items:
                 - name: Инициализация
@@ -3397,7 +3397,7 @@
                   href: /windows/desktop/api/Exdisp/nf-exdisp-ishellwindows-onnavigate
                 - name: процессаттачдетач
                   href: /windows/desktop/api/Exdisp/nf-exdisp-ishellwindows-processattachdetach
-                - name: Регистрация
+                - name: Зарегистрировать
                   href: /windows/desktop/api/Exdisp/nf-exdisp-ishellwindows-register
                 - name: регистерпендинг
                   href: /windows/desktop/api/Exdisp/nf-exdisp-ishellwindows-registerpending
@@ -3611,7 +3611,7 @@
                   href: /windows/desktop/api/Syncmgr/nf-syncmgr-isyncmgrhandler-activate
                 - name: Включить
                   href: /windows/desktop/api/Syncmgr/nf-syncmgr-isyncmgrhandler-enable
-                - name: Возможности
+                - name: GetCapabilities
                   href: /windows/desktop/api/Syncmgr/nf-syncmgr-isyncmgrhandler-getcapabilities
                 - name: жесандлеринфо
                   href: /windows/desktop/api/Syncmgr/nf-syncmgr-isyncmgrhandler-gethandlerinfo
@@ -3758,7 +3758,7 @@
                   href: /windows/desktop/api/Syncmgr/nf-syncmgr-isyncmgrsyncitem-delete
                 - name: Включить
                   href: /windows/desktop/api/Syncmgr/nf-syncmgr-isyncmgrsyncitem-enable
-                - name: Возможности
+                - name: GetCapabilities
                   href: /windows/desktop/api/Syncmgr/nf-syncmgr-isyncmgrsyncitem-getcapabilities
                 - name: жетитемид
                   href: /windows/desktop/api/Syncmgr/nf-syncmgr-isyncmgrsyncitem-getitemid
@@ -6164,7 +6164,7 @@
                   href: folder-parentfolder.md
                 - name: ParseName
                   href: folder-parsename.md
-                - name: Заголовок
+                - name: Название
                   href: folder-title.md
             - name: Folder2
               href: folder2-object.md
@@ -6233,7 +6233,7 @@
             - name: FolderItems3
               href: folderitems3-object.md
               items:
-                - name: Фильтр
+                - name: Filter
                   href: folderitems3-filter.md
                 - name: Команды
                   href: folderitems3-verbs.md
@@ -6274,7 +6274,7 @@
                   href: ishelldispatch-controlpanelitem.md
                 - name: ежектпк
                   href: ishelldispatch-ejectpc.md
-                - name: Обзор
+                - name: Анализ
                   href: ishelldispatch-explore.md
                 - name: филерун
                   href: ishelldispatch-filerun.md
@@ -6360,7 +6360,7 @@
             - name: IShellLinkDual2
               href: ishelllinkdual2-object.md
               items:
-                - name: Целевой объект
+                - name: Target
                   href: ishelllinkdual2-target.md
             - name: неввдевентс
               href: newwdevents.md
@@ -6384,7 +6384,7 @@
                   href: shell-controlpanelitem.md
                 - name: ежектпк
                   href: shell-ejectpc.md
-                - name: Обзор
+                - name: Анализ
                   href: shell-explore.md
                 - name: експлорерполици
                   href: shell-explorerpolicy.md
@@ -6535,13 +6535,13 @@
               items:
                 - name: Отменить
                   href: iwebwizardhost-cancel.md
-                - name: Заголовок
+                - name: Caption
                   href: iwebwizardhost-caption.md
                 - name: финалбакк
                   href: iwebwizardhost-finalback.md
                 - name: финалнекст
                   href: iwebwizardhost-finalnext.md
-                - name: Свойство
+                - name: Свойство.
                   href: iwebwizardhost-property.md
                 - name: сесеадертекст
                   href: iwebwizardhost-setheadertext.md

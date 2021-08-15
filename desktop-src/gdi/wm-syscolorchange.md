@@ -4,12 +4,12 @@ ms.assetid: ffe61768-86d6-4ea8-ae2d-1095a9afa925
 title: Сообщение WM_SYSCOLORCHANGE (Winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac3883f0534d91a6d852b0e70fbb4edabdcab56b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e39ff8b5189da1a4cf48b7f6923c1cf12e8f30aa20fb26457d54a3f01d1b5c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104986056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118483103"
 ---
 # <a name="wm_syscolorchange-message"></a>\_Сообщение СИСКОЛОРЧАНЖЕ WM
 
@@ -47,7 +47,7 @@ LRESULT CALLBACK WindowProc(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Система отправляет сообщение [**WM \_ Paint**](wm-paint.md) в любое окно, на которое влияет изменение цвета системы.
 
@@ -63,7 +63,7 @@ LRESULT CALLBACK WindowProc(
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

@@ -3,7 +3,7 @@ title: Сплитбуттонгаллери, элемент
 description: Представляет элемент управления коллекции разделенных кнопок с раскрывающимся меню на основе галереи.
 ms.assetid: 65b6af50-6d9a-4285-b2d9-26dfb904d0b8
 keywords:
-- Лента Windows для элемента Сплитбуттонгаллери
+- элемент сплитбуттонгаллери Windows лента
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f5f8767135b9472acba333b1cdfa6ab102e9b7f4
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: c28c2f87a1d8fb165f02ad71c96b38bcbb381bb3590bd9bff98b3feb364044bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444835"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117850830"
 ---
 # <a name="splitbuttongallery-element"></a>Сплитбуттонгаллери, элемент
 
@@ -105,7 +105,7 @@ ms.locfileid: "111444835"
 <dt><span></span><span></span><strong></strong> Нижний<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Ыть<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Слева<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Крывает<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Справа<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Лучшая<br/> </dt> <dd></dd> </dl></td>
 </tr>
 <tr class="odd">
-<td><strong>Тип</strong><br/></td>
+<td><strong>Type</strong><br/></td>
 <td>xs:string<br/></td>
 <td>Нет<br/></td>
 <td>Ограничено одним из следующих значений:<br/> <br/>
@@ -122,7 +122,7 @@ ms.locfileid: "111444835"
 
 | Элемент                                                                                                 | Описание                                        |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------|
-| [**Button**](windowsribbon-element-button.md)<br/>                                               | Может происходить один или несколько раз<br/> <br/> |
+| [**Кнопка**](windowsribbon-element-button.md)<br/>                                               | Может происходить один или несколько раз<br/> <br/> |
 | [**Установка**](windowsribbon-element-checkbox.md)<br/>                                           | Может происходить один или несколько раз<br/> <br/> |
 | [**SplitButton**](windowsribbon-element-splitbutton.md)<br/>                                     | Может происходить один или несколько раз<br/> <br/> |
 | [**Сплитбуттонгаллери. Менуграупс**](windowsribbon-element-splitbuttongallery-menugroups.md)<br/> | Должно выполняться только один раз<br/> <br/>     |
@@ -163,7 +163,7 @@ ms.locfileid: "111444835"
 <td><a href="windowsribbon-element-quickaccesstoolbar-applicationdefaults.md"><strong>Куиккакцесстулбар. Аппликатиондефаултс</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-Windows 8 и более поздние версии.
+Windows 8 и более поздних версий.
 </blockquote>
 <br/> <br/></td>
 </tr>
@@ -186,7 +186,7 @@ Windows 8 и более поздние версии.
 
 [Пользовательский интерфейс \_ PKEY \_ булеанвалуе](windowsribbon-reference-properties-uipkey-booleanvalue.md) используется приложением для запроса состояния переключения для элемента управления "Кнопка" в **сплитбуттонгаллери**.
 
-На следующем снимке экрана показан элемент управления ["коллекция кнопок с разделением ленты"](windowsribbon-controls-splitbuttongallery.md) в Microsoft Paint для Windows 7.
+на следующем снимке экрана показан элемент управления ["коллекция кнопок с разделением ленты"](windowsribbon-controls-splitbuttongallery.md) в Microsoft Paint для Windows 7.
 
 ![снимок экрана: элемент управления "коллекция разделенных кнопок" в Microsoft Paint для Windows 7.](images/controls/splitbuttongallery.png)
 
@@ -241,7 +241,7 @@ Windows 8 и более поздние версии.
 ## <a name="element-information"></a>Сведения об элементе
 
 
-- **Минимальная поддерживаемая система**: Windows 7 
+- **минимальная поддерживаемая система**: Windows 7 
 - **Может быть пустым**: нет
 
 

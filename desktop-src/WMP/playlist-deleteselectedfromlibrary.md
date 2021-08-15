@@ -3,7 +3,7 @@ title: Список воспроизведения. Делетеселектед
 description: Метод Делетеселектедфромлибрари удаляет выбранный элемент из списка воспроизведения и из библиотеки.
 ms.assetid: 04775d62-91dc-4c08-a864-0301fbc1995f
 keywords:
-- Проигрыватель Windows Media Player. Делетеселектедфромлибрари
+- проигрыватель Windows Media списка воспроизведения. делетеселектедфромлибрари
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d08699edfb7811503a1df8fcc2c622e234a0aaaf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 489525b96ddff6fc68cfaeac8749bf400e5ff5ad674f111aef6a37f3d98bec3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117747085"
 ---
 # <a name="playlistdeleteselectedfromlibrary"></a>Список воспроизведения. Делетеселектедфромлибрари
 
@@ -36,13 +36,13 @@ ms.locfileid: "105704444"
 
 Этот метод не возвращает значение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

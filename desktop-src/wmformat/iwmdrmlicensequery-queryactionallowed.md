@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6564062fc9f76a840b37f6e134e960480d67a2ee
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9f6974a04f92852ef9e56b473126eb8e0cc2d92a9bdcf5192e10abe800978bcd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675758"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117846878"
 ---
 # <a name="iwmdrmlicensequeryqueryactionallowed-method"></a>Метод Ивмдрмлиценсекуери:: Куеряктионалловед
 
@@ -110,19 +110,19 @@ HRESULT QueryActionAllowed(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При запросе прав на воспроизведение и копирование вы получите более точные результаты, сначала задав параметры среды. Чтобы задать параметры среды, используйте метод [**сетактионалловедкуерипарамс**](iwmdrmlicensequery-setactionallowedqueryparams.md) . На результаты запросов для право на запись не влияют параметры окружающей среды. можно безопасно использовать значения по умолчанию.
 
 Результаты, возвращаемые методом **куеряктионалловед** , объединяются от нуля или более лицензий в локальном хранилище лицензий. Метод не может искать все лицензии, которые применяются к ИДЕНТИФИКАТОРу ключа, если он встречает включенный результат.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Вмдрмсдк. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Вмдрмсдк. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>Вмдрмсдк. lib</dt> </dl> |
 
 

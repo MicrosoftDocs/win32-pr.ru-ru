@@ -1,5 +1,5 @@
 ---
-description: Интерфейс Иамтимелинесрк предоставляет методы для управления и установки свойств исходных объектов в службах редактирования DirectShow (DES).
+description: интерфейс иамтимелинесрк предоставляет методы для управления и установки свойств исходных объектов в службах DirectShow editing Services (DES).
 ms.assetid: 39a64718-1fac-4d90-8340-b712d3bad2ec
 title: Интерфейс Иамтимелинесрк (Кедит. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 25733b1353bc0cbd92c40335a8d342473b03a806
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5d2ad5684df6298bde458e87ff322b21622139930fa9aaf994fda0e7ba7e987e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105674959"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118399201"
 ---
 # <a name="iamtimelinesrc-interface"></a>Интерфейс Иамтимелинесрк
 
@@ -28,7 +28,7 @@ ms.locfileid: "105674959"
 
  
 
-`IAMTimelineSrc`Интерфейс предоставляет методы для управления и установки свойств исходных объектов в [службах редактирования DirectShow](directshow-editing-services.md) (DES). Исходный объект представляет один поток из источника мультимедиа.
+`IAMTimelineSrc`интерфейс предоставляет методы для управления и установки свойств исходных объектов в [службах DirectShow editing Services](directshow-editing-services.md) (DES). Исходный объект представляет один поток из источника мультимедиа.
 
 Можно использовать часть данных в исходном файле, задав время начала и окончания воспроизведения носителя. Эти значения указывают начало и конец исходного объекта относительно исходного источника мультимедиа. Время работы с носителями может отличаться от времени начала и окончания работы объекта на временной шкале, что позволяет быстро или медленно воспроизводить воспроизведение. (С источниками звука происходит сдвиг высоты.)
 
@@ -75,7 +75,7 @@ ms.locfileid: "105674959"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Файл заголовка Кедит. h несовместим с заголовками Direct3D позднее версии 7.
@@ -83,7 +83,7 @@ ms.locfileid: "105674959"
  
 
 > [!Note]  
-> Чтобы получить Кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (SP1).
+> чтобы получить кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (sp1).
 
  
 
@@ -93,7 +93,7 @@ ms.locfileid: "105674959"
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Кедит. h</dt> </dl>      |
+| Заголовок<br/>  | <dl> <dt>Кедит. h</dt> </dl>      |
 | Библиотека<br/> | <dl> <dt>Стрмиидс. lib</dt> </dl> |
 
 

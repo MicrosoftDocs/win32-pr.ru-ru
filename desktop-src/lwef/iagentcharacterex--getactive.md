@@ -4,16 +4,16 @@ description: Иажентчарактерекс
 ms.assetid: b14ae69a-a50e-4488-b5a7-33702e6555eb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1dab89ee9ba89c5982e34844917334d97169b9f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 533f9cb05143d4948fbcae1f8d9ed74a7216c5a2520b28f4c299321bcbac4272
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118478036"
 ---
 # <a name="iagentcharacterexgetactive"></a>Иажентчарактерекс:: onactive
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT GetActive(
@@ -50,7 +50,7 @@ HRESULT GetActive(
 
 Используйте метод [**Activate**](iagentcharacter--activate.md) , чтобы задать, является ли ваше приложение активным клиентом символа, или сделайте так, чтобы приложение использовало входной активный клиент (который также делает символ самым верхним).
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [**Иажентчарактер:: Activate**](iagentcharacter--activate.md), [ **иажентнотифисинкекс:: активеклиентчанже**](iagentnotifysinkex--activeclientchange.md)
 

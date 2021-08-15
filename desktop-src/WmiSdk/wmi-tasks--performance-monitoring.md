@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: bbb254e14280bec5a928bdc32aaa9a3e03c7a4f4
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 91302b0d6c6e13f86f275d755c5f4b6150de6a59dd400e47ed877d01f3fe876e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "105656825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118312060"
 ---
 # <a name="wmi-tasks-performance-monitoring"></a>Задачи WMI: Мониторинг производительности
 
@@ -28,7 +28,7 @@ ms.locfileid: "105656825"
 
 **Запуск сценария**
 
-1.  Скопируйте код и сохраните его в файле с расширением vbs, например *filename.vbs*. Убедитесь, что текстовый редактор не добавляет расширение txt в файл.
+1.  Скопируйте код и сохраните его в файле с расширением vbs, например *filename.vbs*. Убедитесь, что текстовый редактор не добавляет к файлу расширение .txt.
 2.  Откройте окно командной строки и перейдите в каталог, в котором был сохранен файл.
 3.  Введите **cscript filename.vbs** в командной строке.
 4.  Если доступ к журналу событий невозможен, проверьте, выполняется ли в командной строке с повышенными привилегиями. Некоторые журналы событий, например журнал событий безопасности, могут быть защищены с помощью элементов управления доступом пользователей (UAC).
@@ -131,7 +131,7 @@ Wend</code></pre></td>
 </div></td>
 </tr>
 <tr class="even">
-<td>... Получите и вычислите данные о производительности для процессов в Windows 2000?</td>
+<td>... получите и вычислите данные о производительности для процессов на Windows 2000?</td>
 <td><p>Используйте &quot; Win32_PerfRawData &quot; классы, такие как <a href="/windows/desktop/WmiSdk/retrieving-raw-and-formatted-performance-data"><strong>Win32_PerfRawData_PerfProc_Process</strong></a>. Дважды получите данные свойства, например <strong>перцентпроцессортиме</strong>, для определенного процесса. Найдите формулу, указанную в квалификаторе <a href="countertype-qualifier.md"><strong>CounterType</strong></a> для свойства, и вычислите ее. CounterType в примере — <a href="/previous-versions/windows/it-pro/windows-server-2003/cc785636(v=ws.10)">PERF_100NSEC_TIMER_INV</a>. Дополнительные сведения см. в разделе <a href="monitoring-performance-data.md">наблюдение за данными производительности</a>.</p>
 <p>Следующий скрипт выполняется неограниченно до перезагрузки компьютера, Инструментарий WMI остановлен или сценарий остановлен. Чтобы прерывать выполнение скрипта вручную, используйте диспетчер задач, чтобы прерывать процесс. Чтобы остановить его программно, используйте метод <a href="/windows/desktop/CIMWin32Prov/terminate-method-in-class-win32-process"><strong>Terminate</strong></a> в классе <a href="/windows/desktop/CIMWin32Prov/win32-process"><strong>Win32_Process</strong></a> .</p>
 <div class="code">
@@ -180,7 +180,7 @@ Wend</code></pre></td>
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

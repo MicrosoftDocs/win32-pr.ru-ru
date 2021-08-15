@@ -1,21 +1,21 @@
 ---
-description: После внесения незначительных изменений в код можно отправить выходные данные Windows GDI+ на принтер, а не на экран.
+description: после внесения незначительных изменений в код можно отправить Windows GDI+ вывода на принтер, а не на экран.
 ms.assetid: be6286e9-d125-40ad-b33e-b4e734ac2709
 title: Печать (GDI+)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e3b60010bcb63c553a96c5d70826f3fe0d3d4aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 49f5807c976ef3224bc4b66afc0bb8637d79d725f12cbdebd3199d9710ae529a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104985137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117885085"
 ---
 # <a name="printing-gdi"></a>Печать (GDI+)
 
-После внесения незначительных изменений в код можно отправить выходные данные Windows GDI+ на принтер, а не на экран. Чтобы рисовать на принтере, получите маркер контекста устройства для принтера и передайте этот обработчик [**графическому**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) конструктору. Размещайте команды GDI+ Drawing между вызовами [стартдок](/windows/win32/api/wingdi/nf-wingdi-startdocw) и [енддок](/windows/win32/api/wingdi/nf-wingdi-enddoc).
+после внесения незначительных изменений в код можно отправить Windows GDI+ вывода на принтер, а не на экран. Чтобы рисовать на принтере, получите маркер контекста устройства для принтера и передайте этот обработчик [**графическому**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) конструктору. размещайте GDI+ команды рисования между вызовами [стартдок](/windows/win32/api/wingdi/nf-wingdi-startdocw) и [енддок](/windows/win32/api/wingdi/nf-wingdi-enddoc).
 
-В следующих разделах более подробно рассматривается отправка выходных данных GDI+ на принтеры.
+в следующих разделах рассматриваются более подробные сведения об отправке GDI+ вывода на принтеры.
 
 -   [Отправка выходных данных GDI+ на принтер](-gdiplus-sending-gdi-output-to-a-printer-use.md)
 -   [Отображение диалогового окна «Печать»](-gdiplus-displaying-a-print-dialog-box-use.md)

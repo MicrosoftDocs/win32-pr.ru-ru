@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 315266ce3518b4e12f4f2d40d7fda535d5fb42fc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2404145d29fe54d920d88e936b05b295efbb556eec4f0674ebc181637953da5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118350236"
 ---
 # <a name="msrdpclient5-class"></a>Класс MsRdpClient5
 
@@ -60,16 +60,16 @@ ms.locfileid: "104071548"
 | [**Отключение**](imstscax-disconnect.md)                                                   | Отключает активное подключение.<br/>                                                                                                                                                                                                                                                 |
 | [**жетеррордескриптион**](imsrdpclient5-geterrordescription.md)                            | Получает коды ошибок и сообщения об ошибках.<br/>                                                                                                                                                                                                                                      |
 | [**жетвиртуалчаннелоптионс**](imsrdpclient-getvirtualchanneloptions.md)                   | Извлекает параметры, заданные для виртуального канала.<br/>                                                                                                                                                                                                                                   |
-| [**нотифиредиректдевицечанже**](imsrdpclientnonscriptable-notifyredirectdevicechange.md)  | Уведомляет модуль перенаправления устройств элемента управления ActiveX удаленный рабочий стол, что в системе произошло изменение устройства. Этот метод передает в элемент управления уведомления [**WM \_ девицечанже**](/windows/desktop/DevIO/wm-devicechange) .<br/>                                                        |
-| [**онаусентикатионварнингдисмиссед**](imstscaxevents-onauthenticationwarningdismissed.md) | Вызывается после того, как элемент управления ActiveX отображает диалоговое окно проверки подлинности (например, диалоговое окно "Ошибка сертификата").<br/>                                                                                                                                                             |
-| [**онаусентикатионварнингдисплайед**](imstscaxevents-onauthenticationwarningdisplayed.md) | Вызывается перед тем, как элемент управления ActiveX отображает диалоговое окно проверки подлинности (например, диалоговое окно "Ошибка сертификата").<br/>                                                                                                                                                            |
+| [**нотифиредиректдевицечанже**](imsrdpclientnonscriptable-notifyredirectdevicechange.md)  | сообщает модулю перенаправления устройств элемента управления удаленный рабочий стол ActiveX, что в системе произошло изменение устройства. Этот метод передает в элемент управления уведомления [**WM \_ девицечанже**](/windows/desktop/DevIO/wm-devicechange) .<br/>                                                        |
+| [**онаусентикатионварнингдисмиссед**](imstscaxevents-onauthenticationwarningdismissed.md) | вызывается после того, как элемент управления "ActiveX" отображает диалоговое окно проверки подлинности (например, диалоговое окно "ошибка сертификата").<br/>                                                                                                                                                             |
+| [**онаусентикатионварнингдисплайед**](imstscaxevents-onauthenticationwarningdisplayed.md) | вызывается перед тем, как элемент управления ActiveX отображает диалоговое окно проверки подлинности (например, диалоговое окно "ошибка сертификата").<br/>                                                                                                                                                            |
 | [**онаутореконнектед**](imstscaxevents-onautoreconnected.md)                               | Вызывается при автоматическом повторном подключении клиентского элемента управления к удаленному сеансу.<br/>                                                                                                                                                                                                  |
 | [**онаутореконнектинг**](-imstscaxevents--onautoreconnecting.md)                           | Вызывается, когда клиент находится в процессе автоматического повторного подключения к сеансу с сервером узла сеансов удаленных рабочих столов.<br/>                                                                                                                                                                      |
 | [**OnAutoReconnecting2**](imstscaxevents-onautoreconnecting2.md)                           | Вызывается, когда клиент находится в процессе автоматического повторного подключения к сеансу с сервером узла сеансов удаленных рабочих столов.<br/>                                                                                                                                                                      |
 | [**ончаннелрецеиведдата**](imstscaxevents-onchannelreceiveddata.md)                       | Вызывается, когда клиент получает данные в виртуальном канале, поддерживающем скрипт.<br/>                                                                                                                                                                                                              |
 | [**онконфирмклосе**](imstscaxevents-onconfirmclose.md)                                     | Вызывается, когда клиент вызывает метод [**имсрдпклиент:: RequestClose**](imsrdpclient-requestclose.md) .<br/>                                                                                                                                                                           |
 | [**Подключено**](imstscaxevents-onconnected.md)                                           | Вызывается, когда клиентский элемент управления находится в процессе установления соединения с сервером узла сеансов удаленных рабочих столов.<br/>                                                                                                                                                                       |
-| [**Подключение**](imstscaxevents-onconnecting.md)                                         | Вызывается, когда клиентский элемент управления начинает подключаться к серверу в ответ на вызов [**имстскакс:: Connect**](imstscax-connect.md).<br/>                                                                                                                                               |
+| [**Подключение**](imstscaxevents-onconnecting.md)                                         | вызывается, когда клиентский элемент управления начинает подключаться к серверу в ответ на вызов [**имстскакс:: Подключение**](imstscax-connect.md).<br/>                                                                                                                                               |
 | [**онконнектионбарпуллдовн**](imstscaxevents-onconnectionbarpulldown.md)                   | Вызывается, когда пользователь перетаскивается на панель подключения.<br/>                                                                                                                                                                                                                       |
 | [**ондевицесбуттонпрессед**](imstscaxevents-ondevicesbuttonpressed.md)                     | Вызывается при нажатии кнопки устройства на панели подключения.<br/>                                                                                                                                                                                                             |
 | [**С отключением**](imstscaxevents-ondisconnected.md)                                     | Вызывается, когда клиентский элемент управления был отключен от сервера узла сеансов удаленных рабочих столов.<br/>                                                                                                                                                                                              |
@@ -78,7 +78,7 @@ ms.locfileid: "104071548"
 | [**онфокусрелеасед**](imstscaxevents-onfocusreleased.md)                                   | Вызывается при нажатии сочетания клавиш для фокуса в выпуске. Например, это событие вызывается, когда пользователь нажимает клавишу CTRL + ALT + стрелка влево или сочетание клавиш CTRL + ALT + стрелка вправо.<br/>                                                                                             |
 | [**онидлетимеаутнотификатион**](imstscaxevents-onidletimeoutnotification.md)               | Вызывается, когда пользователь не наводит мышь или клавиатуру в течение периода времени, заданного методом [**имсрдпклиентадванцедсеттингс::p UT \_ минутестоидлетимеаут**](imsrdpclientadvancedsettings-minutestoidletimeout.md) .<br/>                                                |
 | [**онлеавефуллскринмоде**](imstscaxevents-onleavefullscreenmode.md)                       | Вызывается, когда клиент выходит из полноэкранного режима. Например, это событие вызывается при нажатии [пользователем сочетания клавиш](terminal-services-shortcut-keys.md) в полноэкранном режиме (Ctrl + Alt + Break).<br/>                                                                     |
-| [**онлогинкомплете**](imstscaxevents-onlogincomplete.md)                                   | Вызывается, когда клиентский элемент управления успешно выполнил вход на сервер узла сеансов удаленных рабочих столов, следуя отображаемому в диалоговом окне входа в систему.<br/>                                                                                                                                      |
+| [**онлогинкомплете**](imstscaxevents-onlogincomplete.md)                                   | вызывается, когда клиентский элемент управления успешно выполнил вход на сервер узла сеансов удаленных рабочих столов, как показано в диалоговом окне входа Windows.<br/>                                                                                                                                      |
 | [**онлогонеррор**](imstscaxevents-onlogonerror.md)                                         | Вызывается при возникновении ошибки входа в систему или другого события входа.<br/>                                                                                                                                                                                                                             |
 | [**онмаусеинпутмодечанжед**](imstscaxevents-onmouseinputmodechanged.md)                   | Вызывается при изменении режима ввода с помощью мыши.<br/>                                                                                                                                                                                                                                      |
 | [**оннетворкстатусчанжед**](imstscaxevents-onnetworkstatuschanged.md)                     | Вызывается при изменении состояния сети.<br/>                                                                                                                                                                                                                                        |
@@ -117,7 +117,7 @@ ms.locfileid: "104071548"
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Свойство</th>
+<th style="text-align: left;">Свойство.</th>
 <th style="text-align: left;">Тип доступа</th>
 <th style="text-align: left;">Описание</th>
 </tr>
@@ -171,7 +171,7 @@ ms.locfileid: "104071548"
 <tr class="even">
 <td style="text-align: left;"><a href="imstscnonscriptable-cleartextpassword.md"><strong>клеартекстпассворд</strong></a><br/></td>
 <td style="text-align: left;">Только на запись<br/></td>
-<td style="text-align: left;">Удаленный рабочий стол пароль элемента управления ActiveX в текстовом формате.<br/></td>
+<td style="text-align: left;">пароль удаленный рабочий стол ActiveX управления в текстовом формате.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="imsrdpclient-colordepth.md"><strong>Clientareawidth</strong></a><br/></td>
@@ -314,7 +314,7 @@ ms.locfileid: "104071548"
 <td style="text-align: left;">Указывает, доступен ли интерфейс <a href="imstscsecuredsettings-interface.md"><strong>имстсксекуредсеттингс</strong></a> .<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="imstscax-server.md"><strong>Сервером</strong></a><br/></td>
+<td style="text-align: left;"><a href="imstscax-server.md"><strong>Сервер</strong></a><br/></td>
 <td style="text-align: left;">Чтение/запись<br/></td>
 <td style="text-align: left;">Имя сервера, к которому подключен текущий элемент управления.<br/></td>
 </tr>
@@ -388,7 +388,7 @@ ms.locfileid: "104071548"
 
 <dl> <dt>
 
-[удаленный рабочий стол классов элементов управления ActiveX](remote-desktop-activex-control-classes.md)
+[удаленный рабочий стол классы элементов управления ActiveX](remote-desktop-activex-control-classes.md)
 </dt> </dl>
 
  

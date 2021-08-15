@@ -4,12 +4,12 @@ description: В этом разделе демонстрируется код д
 ms.assetid: 989BBC27-C025-4C54-9972-4725F04A5E95
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80cedc5f7ec750270ec5d9fb6f567bf473f8c13b
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 23ee7cfc9d4fa7a6e73abd042df583ae9175de8583b050ff9621b7d2789e0d73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104488401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118413118"
 ---
 # <a name="how-to-drag-a-tree-view-item"></a>Перетаскивание элемента Tree-View
 
@@ -18,18 +18,18 @@ ms.locfileid: "104488401"
 > [!Note]  
 > При перетаскивании элемента древовидного представления обычно обрабатывается код уведомления [ТВН \_ бегиндраг](tvn-begindrag.md) (или [ТВН \_ бегинрдраг](tvn-beginrdrag.md)), сообщение [**WM \_ MOUSEMOVE**](/windows/desktop/inputdev/wm-mousemove) и сообщение [**WM \_ лбуттонуп**](/windows/desktop/inputdev/wm-lbuttonup) (или [**WM \_ рбуттонуп**](/windows/desktop/inputdev/wm-rbuttonup)). Он также включает использование функций со [списками изображений](image-lists.md) для рисования элемента при его перетаскивании.
 
- 
+ 
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
@@ -182,7 +182,7 @@ void Main_OnLButtonUp(HWND hwndTV)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -192,6 +192,6 @@ void Main_OnLButtonUp(HWND hwndTV)
 [Пример Кустдтв иллюстрирует пользовательский вывод в элементе управления Tree-View](https://support.microsoft.com/default.aspx?scid=kb;EN-US;q248496)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

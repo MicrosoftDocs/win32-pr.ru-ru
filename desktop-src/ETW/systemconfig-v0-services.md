@@ -118,7 +118,7 @@ class SystemConfig_V0_Services : SystemConfig_V0
 
 </dd> </dl>
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

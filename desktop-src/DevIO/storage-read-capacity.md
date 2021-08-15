@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Ntddstor.h
-ms.openlocfilehash: e57a9f4420b977598e15f9aae219c060665c9d0d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3a138f6594e241c96526ebf6955c61374aa0f48a5aa66f364ef82c1591b64594
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104423258"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118404975"
 ---
 # <a name="storage_read_capacity-structure"></a>\_Структура емкости для чтения хранилища \_
 
@@ -43,7 +43,7 @@ typedef struct _STORAGE_READ_CAPACITY {
 
 <dl> <dt>
 
-**Version**
+**Версия**
 </dt> <dd>
 
 Версия этой структуры. Вызывающий объект должен присвоить этому элементу значение `sizeof(STORAGE_READ_CAPACITY)` .
@@ -78,18 +78,18 @@ typedef struct _STORAGE_READ_CAPACITY {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Файл заголовка Нтддстор. h доступен в комплекте драйверов Windows (WDK).
+файл заголовка нтддстор. h доступен в наборе драйверов Windows (WDK).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                              |
-| Минимальная версия сервера<br/> | Windows Server 2008, Windows Server 2003 с пакетом обновления 1<br/>                          |
+| Минимальная версия сервера<br/> | Windows сервер 2008, Windows server 2003 с пакетом обновления 1<br/>                          |
 | Header<br/>                   | <dl> <dt>Нтддстор. h</dt> </dl> |
 
 

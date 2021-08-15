@@ -1,24 +1,24 @@
 ---
-title: Перечисление пользователей рядовых серверов и Windows 2000 Professional
-description: В этом разделе показано, как перечислить всех пользователей в локальной базе данных безопасности на рядовых серверах и компьютерах под управлением Windows 2000 Professional.
+title: перечисление пользователей на рядовых серверах и Windows 2000 Professional
+description: в этом разделе показано, как перечислить всех пользователей в локальной базе данных безопасности на рядовых серверах и компьютерах, работающих на Windows 2000 Professional.
 ms.assetid: 56c20e8a-2861-4cd9-8058-271c89db7ec9
 ms.tgt_platform: multiple
 keywords:
-- Перечисление пользователей рядовых серверов и Windows 2000 Professional AD
-- Пользователи AD, перечисление пользователей на рядовых серверах и Windows 2000 Professional
+- перечисление пользователей на рядовых серверах и Windows 2000 Professional AD
+- пользователи AD, перечисление пользователей на рядовых серверах и Windows 2000 Professional
 - Active Directory, использование, пользователи, перечисление пользователей на рядовых серверах и Windows 2000 Professional
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 664af51b7feb2e0b9a683664659eefda11c9cb9d
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: a7f72e38a00e0fcc4310f7b8498b0dda28d71231df7e65fcf2de9945f5feef2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103789564"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118694881"
 ---
-# <a name="enumerating-users-on-member-servers-and-windows-2000-professional"></a>Перечисление пользователей рядовых серверов и Windows 2000 Professional
+# <a name="enumerating-users-on-member-servers-and-windows-2000-professional"></a>перечисление пользователей на рядовых серверах и Windows 2000 Professional
 
-В этом разделе показано, как перечислить всех пользователей в локальной базе данных безопасности на рядовых серверах и компьютерах под управлением Windows 2000 Professional.
+в этом разделе показано, как перечислить всех пользователей в локальной базе данных безопасности на рядовых серверах и компьютерах, работающих на Windows 2000 Professional.
 
 **Перечисление пользователей**
 
@@ -29,6 +29,6 @@ ms.locfileid: "103789564"
 2.  Добавьте "User" в свойство [**иадсконтаинер. Filter**](/windows/desktop/ADSI/iadscontainer-property-methods) . Это приводит к тому, что перечисление будет содержать только те объекты, которые имеют класс объектов User.
 3.  Перечисление объектов. Для каждого объекта пользователя используйте методы интерфейса [**iAds**](/windows/desktop/api/iads/nn-iads-iads) или [**IADsUser**](/windows/desktop/api/iads/nn-iads-iadsuser) для чтения свойств пользователя.
 
- 
+ 
 
- 
+ 

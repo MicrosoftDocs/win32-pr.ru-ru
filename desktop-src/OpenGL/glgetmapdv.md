@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dbf7dd5104ce7a47b0d1215221c115a7191f4548
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: ac1603d87004e9b97e635e5fa6a52efa97c5e760ccd9010aa6f86fc62eb3ee7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105684865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118360312"
 ---
 # <a name="glgetmapdv-function"></a>Функция Глжетмапдв
 
@@ -92,7 +92,7 @@ void WINAPI glGetMapdv(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глжетмап** Возвращает параметры оценщика. (Функции **glMap1** и **glMap2** определяют оценивающие.) *Целевой* параметр указывает карту, *запрос* выбирает конкретный параметр, а *v* указывает на хранилище, в котором будут возвращаться значения.
 

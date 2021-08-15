@@ -3,8 +3,8 @@ title: Получение лицензий без уведомления
 description: Получение лицензий без уведомления
 ms.assetid: 3b3fce53-9202-4e55-82d5-7c70ea833087
 keywords:
-- Пакет SDK для формата Windows Media, неавтоматическая получение лицензий
-- Пакет SDK для Windows Media Format, лицензии
+- Windows Пакет SDK для формата мультимедиа, неавтоматическое получение лицензий
+- Windows Пакет SDK для формата мультимедиа, лицензии
 - Управление цифровыми правами (DRM), неавтоматическая получение лицензий
 - DRM (Управление цифровыми правами), неавтоматическая получение лицензий
 - Управление цифровыми правами (DRM), лицензии
@@ -15,12 +15,12 @@ keywords:
 - лицензии, неавтоматическая получение лицензий
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: adb8d7c4865e74fd5ce383cff8317de905828afe
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e92c9350e429a1fe4b6218878d2211b355c1569b39284161f9f3abceac1afc6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104532441"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117846438"
 ---
 # <a name="non-silent-license-acquisition"></a>Получение лицензий без уведомления
 
@@ -34,7 +34,7 @@ ms.locfileid: "104532441"
 4.  Вызовите [**ивмдрмнонсилентлиценсеакуиситион:: Challenge**](iwmdrmnonsilentlicenseaquisition-getchallenge.md) , чтобы получить запрос лицензии. Также вызовите [**ивмдрмнонсилентлиценсеакуиситион:: getURL**](iwmdrmnonsilentlicenseaquisition-geturl.md) , если у вас еще нет URL-адреса сервера лицензирования.
 5.  Отправьте запрос на веб-страницу, указанную URL-адресом.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -44,9 +44,9 @@ ms.locfileid: "104532441"
 [**Использование модели событий Media Foundation**](using-the-media-foundation-model.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

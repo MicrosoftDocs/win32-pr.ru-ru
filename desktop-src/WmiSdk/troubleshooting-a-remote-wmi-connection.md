@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Устранение неполадок удаленного WMI-подключения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae475f91836b9e99b1c7faaf149c452e00a66722
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 10603f713fecf861750d70c4166da91e081dc273a0d6d6134ed916a7f84f2bd4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692691"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118312420"
 ---
 # <a name="troubleshooting-a-remote-wmi-connection"></a>Устранение неполадок удаленного WMI-подключения
 
@@ -19,9 +19,9 @@ ms.locfileid: "105692691"
 В этом разделе обсуждаются следующие разделы:
 
 -   [Отказано в доступе DCOM](#dcom-access-denied)
--   [Не удалось подключиться](#failure-to-connect)
+-   [сбой Подключение](#failure-to-connect)
 -   [Истекло время ожидания подключения WMI](#wmi-connection-timed-out)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="dcom-access-denied"></a>Отказано в доступе DCOM
 
@@ -50,7 +50,7 @@ ms.locfileid: "105692691"
 
 </dd> </dl>
 
-## <a name="failure-to-connect"></a>Не удалось подключиться
+## <a name="failure-to-connect"></a>сбой Подключение
 
 <dl> <dt>
 
@@ -104,7 +104,7 @@ ms.locfileid: "105692691"
 
 </dd> </dl>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

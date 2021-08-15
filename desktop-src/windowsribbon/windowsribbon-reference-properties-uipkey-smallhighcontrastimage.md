@@ -4,12 +4,12 @@ description: Определяет свойство UI \_ PKEY \_ смаллхи�
 ms.assetid: e0dd23b9-62dd-4626-816b-aac4fb48bbbe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33d86ed649f49d934469be2c4efe113264916f3f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5e84844690693c589c32e864a67c1267b894961096d8bbad51316c671d9297e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117850065"
 ---
 # <a name="ui_pkey_smallhighcontrastimage"></a>UI \_ PKEY \_ смаллхигхконтрастимаже
 
@@ -17,21 +17,21 @@ ms.locfileid: "103987655"
 
 ```
 propertyDescription
-   name = UI_PKEY_SmallHighContrastImage
-   shellPKey = UI_PKEY_SmallHighContrastImage
-   formatID = 00000010-7363-696e-8441798acf5aebb7
-   propID = 10
-   typeInfo
-      type = IUIImage
+   name = UI_PKEY_SmallHighContrastImage
+   shellPKey = UI_PKEY_SmallHighContrastImage
+   formatID = 00000010-7363-696e-8441798acf5aebb7
+   propID = 10
+   typeInfo
+      type = IUIImage
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 UI \_ PKEY \_ смаллхигхконтрастимаже используется приложением для запроса небольшого изображения с высокой контрастностью, связанного с элементом управления Ribbon.
 
 Значение свойства является объектом [**иуиимаже**](/windows/desktop/api/uiribbon/nn-uiribbon-iuiimage) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -41,6 +41,6 @@ UI \_ PKEY \_ смаллхигхконтрастимаже использует�
 [Указание ресурсов изображения ленты](windowsribbon-imageformats.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

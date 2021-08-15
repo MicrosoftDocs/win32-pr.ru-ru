@@ -4,12 +4,12 @@ description: Предыдущие модули изучили создание �
 ms.assetid: C35FBC18-201B-4175-8977-9DAF3914E515
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f5dff1d7e6b572326fa75662dc855279b1a1c93
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fe0613fa8774e5465dc83349fd4cbadd06b54acfa871950e91477f7a525ae141
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103774648"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118388041"
 ---
 # <a name="module-4-user-input"></a>Модуль 4. Ввод данных пользователем
 
@@ -26,9 +26,9 @@ ms.locfileid: "103774648"
 -   [Установка изображения курсора](setting-the-cursor-image.md)
 -   [Ввод данных пользователем: Расширенный пример](user-input--extended-example.md)
 
- 
+ 
 
- 
+ 
 
 
 

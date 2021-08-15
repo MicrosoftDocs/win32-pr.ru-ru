@@ -4,12 +4,12 @@ ms.assetid: DAA62ECD-AFA2-40C2-9B52-F2D581F4D894
 title: Атрибут MF_MT_H264_SUPPORTED_RATE_CONTROL_MODES (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c7b315bf41d662dd5abb283c346710f485789ff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9665fd99635749e2400437e77cb89e74d2cb8675689f6f4b867a20ac82fadaec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692462"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117692286"
 ---
 # <a name="mf_mt_h264_supported_rate_control_modes-attribute"></a>\_ \_ \_ \_ \_ Атрибут режимов управления скоростью H264 Single bitrate \_ MF MT
 
@@ -29,7 +29,7 @@ ms.locfileid: "105692462"
 
 [**имфмедиатипе**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут применяется к типам носителей для потоков H. 264, переданных по USB. Значение соответствует полю **бмсуппортедратеконтролмодес** в дескрипторе формата видео УВК 1,5 H. 264.
 
@@ -41,8 +41,8 @@ ms.locfileid: "105692462"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8 \|\]<br/>                                  |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 \|\]<br/>                        |
+| Минимальная версия клиента<br/> | Windows 8 \[ приложения UWP для классических приложений \|\]<br/>                                  |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ приложения UWP для классических приложений \|\]<br/>                        |
 | Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 25568167d9532303a7cbee794757bc674a378b39
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 85a16d3e63ef46ad2c536103a4e462a3e830e17f56f83cdcf39bbad5a33ebb23
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118419759"
 ---
 # <a name="copy-method-of-the-win32_directory-class"></a>Метод Copy \_ класса каталога Win32
 
@@ -100,7 +100,7 @@ uint32 Copy(
 **12**
 </dt> <dd>
 
-Платформа не является Windows.
+Платформа не Windows.
 
 </dd> <dt>
 
@@ -146,7 +146,7 @@ uint32 Copy(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Папки часто необходимо копировать из одного расположения в другое. Например, вы можете скопировать папку с одного сервера на другой, чтобы создать резервную копию этой папки. Также можно иметь папку Templates, которую необходимо скопировать на рабочие станции пользователей, или папку Scripts, которая должна быть скопирована на все DNS-серверы.
 

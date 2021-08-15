@@ -5276,7 +5276,7 @@
                   href: /windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-getoutputmediatype
                 - name: GetService
                   href: /windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-getservice
-                - name: Подготовка.
+                - name: Подготовка
                   href: /windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-prepare
                 - name: ремовеаллстреамс
                   href: /windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-removeallstreams
@@ -5473,7 +5473,7 @@
             - name: имфдесиредсампле
               href: /windows/desktop/api/evr/nn-evr-imfdesiredsample
               items:
-                - name: Очистить
+                - name: Clear
                   href: /windows/desktop/api/evr/nf-evr-imfdesiredsample-clear
                 - name: жетдесиредсамплетимеанддуратион
                   href: /windows/desktop/api/evr/nf-evr-imfdesiredsample-getdesiredsampletimeandduration
@@ -6147,7 +6147,7 @@
               items:
                 - name: AddRange
                   href: /windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediatimerange-addrange
-                - name: Очистить
+                - name: Clear
                   href: /windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediatimerange-clear
                 - name: контаинстиме
                   href: /windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediatimerange-containstime
@@ -7396,7 +7396,7 @@
               items:
                 - name: AddNode
                   href: /windows/desktop/api/mfidl/nf-mfidl-imftopology-addnode
-                - name: Очистить
+                - name: Clear
                   href: /windows/desktop/api/mfidl/nf-mfidl-imftopology-clear
                 - name: клонефром
                   href: /windows/desktop/api/mfidl/nf-mfidl-imftopology-clonefrom
@@ -7803,7 +7803,7 @@
             - name: иплайтоконтрол
               href: /windows/desktop/api/mfsharingengine/nn-mfsharingengine-iplaytocontrol
               items:
-                - name: Подключение
+                - name: Подключить
                   href: /windows/desktop/api/mfsharingengine/nf-mfsharingengine-iplaytocontrol-connect
                 - name: Отключение
                   href: /windows/desktop/api/mfsharingengine/nf-mfsharingengine-iplaytocontrol-disconnect

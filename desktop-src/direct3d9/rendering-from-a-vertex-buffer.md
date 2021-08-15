@@ -4,12 +4,12 @@ ms.assetid: a0435a3d-e1dd-4365-904d-8e5713e379ce
 title: Подготовка к просмотру из буфера вершин (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cebb68c5395a827a9aee4ea1f8465257c436bb7
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 87ee3d477fc812d2dabed765e28bb14452a6badf746a331a13283108ef46b47c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104139271"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118520075"
 ---
 # <a name="rendering-from-a-vertex-buffer-direct3d-9"></a>Подготовка к просмотру из буфера вершин (Direct3D 9)
 
@@ -44,7 +44,7 @@ d3dDevice->DrawPrimitive( D3DPT_TRIANGLELIST, 0, 1 );
 
 Второй параметр, [**IDirect3DDevice9::D равпримитиве**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-drawprimitive) , принимает индекс первого вектора в буфере вершин для загрузки.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

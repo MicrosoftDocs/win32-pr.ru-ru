@@ -12,12 +12,12 @@ keywords:
 - потоки, Поиск чисел
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef4bdf10eaeb95f981ab2972ba56ad09b867cd99
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 4349bc98214d61a1529fe4a64dd142a9695d909f9e2a650162a8e4f8ac618177
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103788737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118699592"
 ---
 # <a name="to-find-stream-numbers-and-output-numbers"></a>Поиск номеров потоков и выходных номеров
 
@@ -27,22 +27,22 @@ ms.locfileid: "103788737"
 
 Чтобы найти номер потока, соответствующий выходному номеру, вызовите метод [ **ивмсинкреадер:: жетстреамнумберфораутпут**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmsyncreader-getstreamnumberforoutput)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Интерфейс Ивмсинкреадер**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader)
 </dt> <dt>
 
-[**Входы, потоки и выходные данные**](inputs-streams-and-outputs.md)
+[**входные данные, Потоки и выходные данные**](inputs-streams-and-outputs.md)
 </dt> <dt>
 
 [**Чтение файлов с помощью синхронного модуля чтения**](reading-files-with-the-synchronous-reader.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

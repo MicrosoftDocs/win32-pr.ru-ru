@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 59b0bfcb2079329d4d7ad7c02e7e5a326d22c236
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 37086a030ad902f2bfb5deab52ffba620e97890bd13e7c6957170572087ce7c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104335659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118514582"
 ---
 # <a name="functions-hlsl-reference"></a>Функции (Справочник по HLSL)
 
@@ -27,16 +27,16 @@ ms.locfileid: "104335659"
 
 HLSL также имеет ряд встроенных встроенных [**функций (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md). Так как все встроенные функции протестированы и оптимизированы для производительности, рекомендуется использовать встроенную функцию, где это возможно, вместо создания собственной функции.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Синтаксис языка (DirectX HLSL)](dx-graphics-hlsl-language-syntax.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
