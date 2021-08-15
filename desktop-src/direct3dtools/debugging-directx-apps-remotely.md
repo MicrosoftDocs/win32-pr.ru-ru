@@ -1,21 +1,21 @@
 ---
 title: Удаленная отладка приложений DirectX
-description: Для удаленной отладки приложений DirectX можно использовать Visual Studio и пакет SDK для Windows 8.
+description: для удаленной отладки приложений DirectX можно использовать Visual Studio и пакет SDK для Windows 8.
 ms.assetid: CA471465-47C2-4706-B391-C9E6C2CD69D9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55548cd282bf643e16f22177e46643c6e283a909
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 30f9fd97519bb88a0a89206e5a8c3aa43cf990948cb9aa8c9dd40379c53ed1a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118505679"
 ---
 # <a name="debugging-directx-apps-remotely"></a>Удаленная отладка приложений DirectX
 
-Для удаленной отладки приложений DirectX можно использовать Visual Studio и пакет SDK для Windows 8. Пакет SDK для Windows 8 предоставляет набор компонентов, поддерживающих разработку DirectX и обеспечивающий проверку ошибок и проверку параметров в дополнение к отладке, предоставляемой Visual Studio. Эти компоненты D3D11 \_1SDKLayers.dll, D2D1Debug1.dll и Dxgidebug.dll.
+для удаленной отладки приложений DirectX можно использовать Visual Studio и пакет SDK для Windows 8. пакет SDK для Windows 8 предоставляет набор компонентов, поддерживающих разработку DirectX и обеспечивающих проверку ошибок и проверку параметров в дополнение к отладке, которую Visual Studio предоставляет. Эти компоненты D3D11 \_1SDKLayers.dll, D2D1Debug1.dll и Dxgidebug.dll.
 
-Если требуется удаленная отладка на компьютере без установленного пакета SDK для Windows 8 и требуется такая дополнительная Отладка, необходимо установить пакет удаленной отладки, соответствующий архитектуре, для которого требуется выполнить отладку. Установщик Windows пакеты в `C:\Program Files (x86)\Windows Kits\8.0\Remote\<arch>` установите соответствующую поддержку.
+если требуется удаленная отладка на компьютере без установленного пакета SDK для Windows 8 и требуется такая дополнительная отладка, необходимо установить пакет удаленной отладки, соответствующий архитектуре, для которого требуется выполнить отладку. установщик Windows пакеты в `C:\Program Files (x86)\Windows Kits\8.0\Remote\<arch>` установите соответствующую поддержку.
 
 Чтобы включить дополнительные возможности отладки для приложений Direct2D, используйте следующий код:
 

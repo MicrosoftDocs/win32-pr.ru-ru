@@ -16,7 +16,7 @@
           href: tracelogging-c-cpp-tracelogging-examples.md
         - name: Примеры .NET Трацелоггинг
           href: tracelogging-net-examples.md
-        - name: Пример ведения журнала универсальная платформа Windows
+        - name: пример ведения журнала универсальная платформа Windows
           href: universal-windows-platform-logging-examples.md
     - name: Справочник по Трацелоггинг
       href: trace-logging-reference.md

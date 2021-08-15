@@ -131,7 +131,7 @@
                           href: mapping-between-a-directx-9-declaration-and-directx-8.md
                         - name: Сопоставление между объявлением Direct3D и кодами ФВФ
                           href: mapping-between-a-directx-9-declaration-and-fvf-codes.md
-                        - name: Программирование одного или нескольких потоков
+                        - name: программирование одного или нескольких Потоки
                           href: programming-one-or-more-streams.md
                 - name: Индексные буферы
                   href: index-buffers.md
@@ -346,13 +346,13 @@
                     - name: Светлое сопоставление с текстурами
                       href: light-mapping-with-textures.md
                       items:
-                        - name: Монохромные карты освещения
+                        - name: Карты монохромного освещения
                           href: monochrome-light-maps.md
                         - name: Карты цветового освещения
                           href: color-light-maps.md
                         - name: Карты отраженного освещения
                           href: specular-light-maps.md
-                        - name: Рассеянные световые карты
+                        - name: рассеянный свет Карты
                           href: diffuse-light-maps.md
                 - name: Автоматическое создание MIP-карты
                   href: automatic-generation-of-mipmaps.md
@@ -397,7 +397,7 @@
                   href: adding-textures.md
                 - name: Добавление кадров и анимации
                   href: adding-frames-and-animations.md
-        - name: Произведенный эффект
+        - name: Эффекты
           href: effects.md
           items:
             - name: Запись результата
@@ -559,7 +559,7 @@
               href: presenting-multiple-views-in-windowed-mode.md
             - name: Устранение неполадок
               href: troubleshooting.md
-            - name: Работа с окнами устройств
+            - name: Работа с Windowsами устройств
               href: working-with-device-windows.md
             - name: Работа с более ранними версиями драйверов
               href: working-with-earlier-drivers.md
@@ -3562,7 +3562,7 @@
                       href: animation.md
                     - name: аниматионкэй
                       href: animationkey.md
-                    - name: аниматионоптионс
+                    - name: AnimationOptions
                       href: animationoptions.md
                     - name: Анимация
                       href: animationset.md
@@ -3656,5 +3656,5 @@
                       href: vertexelement.md
                     - name: ксскинмешхеадер
                       href: xskinmeshheader.md
-    - name: Сводка функций (Direct3D 9 для Windows Vista)
+    - name: сводка функций (Direct3D 9 для Windows Vista)
       href: dx9lh.md

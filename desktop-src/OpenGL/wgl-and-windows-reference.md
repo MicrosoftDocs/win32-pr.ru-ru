@@ -1,17 +1,17 @@
 ---
-title: Справочник по ВГЛ и Windows
-description: Справочник по ВГЛ и Windows
+title: справочник по вгл и Windows
+description: справочник по вгл и Windows
 ms.assetid: 76775ae9-0467-487f-afbd-a995d2c157d9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1cc45e4fafa8657954758be6e2f49fc5c812954
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9c7f3b1467b5f744bea37f29f39f671c155af79d5915e9d46cc64b2dbac81c72
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103776754"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117980282"
 ---
-# <a name="wgl-and-windows-reference"></a>Справочник по ВГЛ и Windows
+# <a name="wgl-and-windows-reference"></a>справочник по вгл и Windows
 
 Ниже перечислены функции.
 
@@ -45,9 +45,9 @@ ms.locfileid: "103776754"
 -   [**пикселформатдескриптор**](/windows/win32/api/wingdi/ns-wingdi-pixelformatdescriptor)
 -   [**поинтфлоат**](/windows/desktop/api/wingdi/ns-wingdi-pointfloat)
 
- 
+ 
 
- 
+ 
 
 
 

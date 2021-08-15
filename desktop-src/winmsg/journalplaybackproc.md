@@ -32,12 +32,12 @@ api_name: ''
 targetos: Windows
 req.typenames: ''
 req.redist: ''
-ms.openlocfilehash: 9bceede3cd6ab009aace4679dfb3d4d85bd37276
-ms.sourcegitcommit: 61bde60d4c3bc09defc3dcdb64c0ddadf52b214e
+ms.openlocfilehash: bee538bf2c20cc3cadb6f0bdf6f5dd6a2ae12dfe8a21baeb56b8ad62cb23ff3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "104412752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118437131"
 ---
 # <a name="journalplaybackproc-function"></a>Функция Жаурналплайбаккпрок
 
@@ -99,7 +99,7 @@ LRESULT CALLBACK JournalPlaybackProc(
 
 Для немедленной обработки сообщения возвращаемое значение должно быть равно нулю. Возвращаемое значение используется только в том случае, если код обработчика имеет **HC_GETNEXT**; в противном случае он игнорируется.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Процедура-обработчик **жаурналплайбаккпрок** должна скопировать входное сообщение в параметр *lParam* .
 Сообщение должно быть ранее записано с помощью процедуры-обработчика **жаурналрекордпрок** , которая не должна изменять сообщение.

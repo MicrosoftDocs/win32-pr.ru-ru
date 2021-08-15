@@ -1,10 +1,10 @@
-- name: Справочник по среда выполнения Windows C++
+- name: Windows Справочник по C++ для среды выполнения
   href: reference.md
   items:
     - name: Типы данных
       href: data-types.md
       items:
-        - name: среда выполнения Windows базовых типов данных
+        - name: Windows Базовые типы данных среды выполнения
           href: base-data-types.md
         - name: HSTRING
           href: hstring.md
@@ -497,7 +497,7 @@
           items:
             - name: Метод Фаундтраккертаржет
               href: /windows/win32/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ifindreferencetargetscallback-foundtrackertarget
-        - name: иинпутпанеинтероп
+        - name: IInputPaneInterop
           href: /windows/win32/api/inputpaneinterop/nn-inputpaneinterop-iinputpaneinterop
           items:
             - name: Метод Жетфорвиндов
@@ -904,14 +904,14 @@
               href: /previous-versions//hh438399(v=vs.85)
             - name: Метод Унрегистерфорпаккажестатечанжес
               href: /previous-versions//dn315027(v=vs.85)
-        - name: иплайтоманажеринтероп
+        - name: IPlayToManagerInterop
           href: /windows/win32/api/playtomanagerinterop/nn-playtomanagerinterop-iplaytomanagerinterop
           items:
             - name: Метод Жетфорвиндов
               href: /windows/win32/api/playtomanagerinterop/nf-playtomanagerinterop-iplaytomanagerinterop-getforwindow
             - name: Метод Шовплайтауифорвиндов
               href: /windows/win32/api/playtomanagerinterop/nf-playtomanagerinterop-iplaytomanagerinterop-showplaytouiforwindow
-        - name: ипринтманажеринтероп
+        - name: IPrintManagerInterop
           href: /windows/win32/api/printmanagerinterop/nn-printmanagerinterop-iprintmanagerinterop
           items:
             - name: Метод Жетфорвиндов
@@ -1352,7 +1352,7 @@
           href: /previous-versions//jj219262(v=vs.85)
         - name: EventRegistrationToken
           href: /windows/win32/api/eventtoken/ns-eventtoken-eventregistrationtoken
-        - name: Дата/время
+        - name: Дата и время
           href: /windows/win32/api/windows.foundation/ns-windows-foundation-datetime
         - name: HSTRING_HEADER
           href: /windows/win32/api/hstring/ns-hstring-hstring_header

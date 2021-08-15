@@ -12,12 +12,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 12ab8fcf61d30b47fc809fb05e1ffa524bb2488e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5d27a89d51840e70563854b3cc7f9084b6bd42cb5707630755e771d610c64a91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105649099"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118901351"
 ---
 # <a name="publickey-object"></a>Объект PublicKey
 
@@ -35,7 +35,7 @@ ms.locfileid: "105649099"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Объект **PublicKey** имеет следующие свойства.
 
@@ -46,19 +46,19 @@ ms.locfileid: "105649099"
 | [**Алгоритм**](publickey-algorithm.md)<br/>                 | Только для чтения<br/> | Извлекает объект [**OID**](oid.md) , определяющий алгоритм, используемый открытым ключом. Это свойство по умолчанию.<br/> |
 | [**енкодедкэй**](publickey-encodedkey.md)<br/>               | Только для чтения<br/> | Извлекает объект [**енкодеддата**](encodeddata.md) , который предоставляет доступ к значению открытого ключа.<br/>                 |
 | [**енкодедпараметерс**](publickey-encodedparameters.md)<br/> | Только для чтения<br/> | Извлекает объект [**енкодеддата**](encodeddata.md) , предоставляющий доступ к параметрам алгоритма открытого ключа.<br/>  |
-| [**Длина**](publickey-length.md)<br/>                       | Только для чтения<br/> | Возвращает длину открытого ключа в битах.<br/>                                                                             |
+| [**Недопустим**](publickey-length.md)<br/>                       | Только для чтения<br/> | Возвращает длину открытого ключа в битах.<br/>                                                                             |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Не удается создать объект **PublicKey** .
 
 Объект **PublicKey** используется методом [**Certificate. publickey**](certificate-publickey.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

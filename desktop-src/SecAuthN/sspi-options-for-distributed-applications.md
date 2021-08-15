@@ -4,12 +4,12 @@ ms.assetid: e67cc054-7e48-43e7-a4b0-d1d90e9511f2
 title: Параметры SSPI для распределенных приложений
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed7729b3c479c69b674120fe1fc9827f5edfd878
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cdfeef5cb52494c50b8b16911f70de238a7a86493297ec59bf6d46637810bf26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118916794"
 ---
 # <a name="sspi-options-for-distributed-applications"></a>Параметры SSPI для распределенных приложений
 
@@ -23,11 +23,11 @@ ms.locfileid: "103896650"
 
     Эти приложения не вызывают функции SSPI напрямую.
 
--   Используйте [сокеты Windows 2](../winsock/windows-sockets-start-page-2.md) (Winsock) с расширенным интерфейсом Winsock, чтобы предоставить поставщикам транспорта возможность использовать функции безопасности.
+-   используйте [Windows сокеты 2](../winsock/windows-sockets-start-page-2.md) (WinSock) с расширенным интерфейсом winsock, чтобы разрешить поставщикам транспорта использовать функции безопасности.
 
     Этот подход интегрирует [*поставщик поддержки безопасности*](../secgloss/s-gly.md) (SSP) в сетевой стек и предоставляет службы безопасности и транспорта через общий интерфейс.
 
--   Используйте [API расширений Интернета Windows](../wininet/portal.md) (WinInet) и интерфейс, предназначенный для поддержки протоколов безопасности Интернета, таких как протокол [*SSL*](../secgloss/s-gly.md) (SSL).
+-   используйте [Windows API расширений интернета](../wininet/portal.md) (WinInet) и интерфейс, предназначенный для поддержки протоколов безопасности интернета, таких как протокол [*SSL*](../secgloss/s-gly.md) (SSL).
 
     Приложения используют интерфейс SSPI для поставщика безопасности [безопасного канала](secure-channel.md) (Schannel) для реализации безопасности WinInet. Schannel — это реализация SSL в корпорации Майкрософт.
 

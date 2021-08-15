@@ -4,12 +4,12 @@ ms.assetid: a7d774c1-93c0-47d8-a8a7-e66e394726a3
 title: D3DPRESENT (D3d9.h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 15b8bf496c8c8e10d50b23ad4f784634fb983d2d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3f3fd05609e86682b4524e68e985f03abac59f1dbd4537d1ffd683990ca371fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703838"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118527594"
 ---
 # <a name="d3dpresent"></a>D3DPRESENT
 
@@ -41,7 +41,7 @@ ms.locfileid: "105703838"
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="D3DPRESENT_FORCEIMMEDIATE"></span><span id="d3dpresent_forceimmediate"></span><dl> <dt><strong>D3DPRESENT_FORCEIMMEDIATE</strong></dt> </dl></td>
-<td style="text-align: left;">D3DPRESENT_INTERVAL_IMMEDIATE применяется <a href="/windows/desktop/api"><strong>в этом</strong></a> вызове. Этот флаг можно указать только при использовании D3DSWAPEFFECT_FLIPEX. Поведение оконного и полноэкранного представления одинаково. Это особенно полезно для мультимедийных приложений, которые хотят отбросить фреймы, которые были обнаружены как последние и представлять последующие кадры во время составления. Если этот флаг указан неправильно, будет возвращена ошибка недопустимого параметра. Когда несколько последовательных кадров с D3DPRESENT_FORCEIMMEDIATEs помещаются в очередь, отображается только последний кадр для оконной и полноэкранной презентации.<br/> Этот флаг доступен в Direct3D 9Ex в операционных системах Windows 7 или более поздних версий.<br/> При использовании D3DSWAPEFFECT_FLIPEX каждый кадр, представленный с помощью D3DPRESENT_INTERVAL_IMMEDIATE или D3DPRESENT_INTERVAL_FORCEIMMEDIATE, переопределяет текущий интервал в предыдущем кадре. Например, если вы помещаете в очередь следующие кадры, используя следующие эффекты переключения: кадр A (D3DPRESENT_INTERVAL_ONE), кадр B (D3DPRESENT_INTERVAL_ONE), кадр C (D3DPRESENT_INTERVAL_ONE), Frame D (D3DPRESENT_INTERVAL_FORCEIMMEDIATE), кадр D переопределит интервал отображения кадра C. Отображаемые кадры за текущий интервал: кадр а, кадр B, (кадр в, переопределенный) кадр D.<br/> См. заметки.<br/></td>
+<td style="text-align: left;">D3DPRESENT_INTERVAL_IMMEDIATE применяется <a href="/windows/desktop/api"><strong>в этом</strong></a> вызове. Этот флаг можно указать только при использовании D3DSWAPEFFECT_FLIPEX. Поведение оконного и полноэкранного представления одинаково. Это особенно полезно для мультимедийных приложений, которые хотят отбросить фреймы, которые были обнаружены как последние и представлять последующие кадры во время составления. Если этот флаг указан неправильно, будет возвращена ошибка недопустимого параметра. Когда несколько последовательных кадров с D3DPRESENT_FORCEIMMEDIATEs помещаются в очередь, отображается только последний кадр для оконной и полноэкранной презентации.<br/> этот флаг доступен в Direct3D 9Ex в Windows 7 или более поздних версиях операционных систем.<br/> При использовании D3DSWAPEFFECT_FLIPEX каждый кадр, представленный с помощью D3DPRESENT_INTERVAL_IMMEDIATE или D3DPRESENT_INTERVAL_FORCEIMMEDIATE, переопределяет текущий интервал в предыдущем кадре. Например, если вы помещаете в очередь следующие кадры, используя следующие эффекты переключения: кадр A (D3DPRESENT_INTERVAL_ONE), кадр B (D3DPRESENT_INTERVAL_ONE), кадр C (D3DPRESENT_INTERVAL_ONE), Frame D (D3DPRESENT_INTERVAL_FORCEIMMEDIATE), кадр D переопределит интервал отображения кадра C. Отображаемые кадры за текущий интервал: кадр а, кадр B, (кадр в, переопределенный) кадр D.<br/> См. заметки.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="D3DPRESENT_INTERVAL_DEFAULT"></span><span id="d3dpresent_interval_default"></span><dl> <dt><strong>D3DPRESENT_INTERVAL_DEFAULT</strong></dt> </dl></td>
@@ -81,7 +81,7 @@ ms.locfileid: "105703838"
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="D3DPRESENT_VIDEO_RESTRICT_TO_MONITOR"></span><span id="d3dpresent_video_restrict_to_monitor"></span><dl> <dt><strong>D3DPRESENT_VIDEO_RESTRICT_TO_MONITOR</strong></dt> </dl></td>
-<td style="text-align: left;">Выводит отображаемое содержимое на монитор или устройство, на которое нацелен адаптер, отображает эскизы содержимого в Flip3D представлении и эскизах панели задач на других мониторах. <br/> Этот флаг доступен только в Direct3D 9Ex.<br/> Дополнительные сведения об этой функции Windows Vista см. в разделе <a href="/windows/desktop/dwm/dwm-overview">Диспетчер окон рабочего стола</a> . Если вы не работаете в режиме композиции рабочего стола, флаг дает то же поведение, что и <a href="d3dpresentflag.md">D3DPRESENTFLAG_DEVICECLIP</a>.<br/>
+<td style="text-align: left;">Выводит отображаемое содержимое на монитор или устройство, на которое нацелен адаптер, отображает эскизы содержимого в Flip3D представлении и эскизах панели задач на других мониторах. <br/> Этот флаг доступен только в Direct3D 9Ex.<br/> дополнительные сведения об этой функции Windows Vista см. в <a href="/windows/desktop/dwm/dwm-overview">диспетчер окон рабочего стола</a> . Если вы не работаете в режиме композиции рабочего стола, флаг дает то же поведение, что и <a href="d3dpresentflag.md">D3DPRESENTFLAG_DEVICECLIP</a>.<br/>
 <blockquote>
 [!Note]<br />
 Этот флаг следует использовать только с D3DSWAPEFFECT_FLIPEXным действием подкачки. Использование этого флага с <em>другими</em> эффектами перекачки является устаревшим и может не работать в будущих версиях Windows.
@@ -103,17 +103,17 @@ ms.locfileid: "105703838"
 </tbody>
 </table>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Оконный режим поддерживает D3DPRESENT \_ интервал \_ по умолчанию, D3DPRESENT \_ интервал \_ интерпретации и D3DPRESENT \_ интервал \_ 1. \_Интервал D3DPRESENT \_ по умолчанию и \_ интервал D3DPRESENT \_ один почти эквивалентен (см. сведения об устранении таймера ниже). Они выполняют аналогично копированию \_ вертикальной синхронизации в том, что в кадре присутствует только один экземпляр, и они предотвращают разрывы с помощью многообразовой области. В отличие от этого \_ , \_ немедленный интервал D3DPRESENT попытается предоставить неограниченный уровень представления.
 
 Полноэкранный режим поддерживает аналогичное использование в оконном режиме с поддержкой \_ интерпретации D3DPRESENT интервала, \_ независимо от частоты обновления или переключения. D3DPRESENT \_ Interval \_ по умолчанию использует разрешение системного таймера по умолчанию, в то время как \_ интервал D3DPRESENT \_ один вызывает [**тимебегинпериод**](/windows/win32/api/timeapi/nf-timeapi-timebeginperiod) для улучшения разрешения системного таймера. Это повышает качество вертикальной синхронизации, но потребляет немного больше времени на обработку. Оба параметра пытаются синхронизироваться по вертикали.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3d9. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3d9. h</dt> </dl> |
 
 ## <a name="see-also"></a>См. также раздел
 

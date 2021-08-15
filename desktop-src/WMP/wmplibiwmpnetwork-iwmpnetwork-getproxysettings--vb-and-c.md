@@ -3,9 +3,9 @@ title: Ивмпнетворк Жетпроксисеттингс, метод
 description: Метод Жетпроксисеттингс возвращает сведения о параметрах прокси-сервера для протокола.
 ms.assetid: eda4829a-4869-4557-8fe9-8061a1e0f586
 keywords:
-- Жетпроксисеттингс метод Windows Media Player
-- Жетпроксисеттингс метод проигрывателя Windows Media Player, интерфейс Ивмпнетворк
-- Интерфейс Ивмпнетворк Windows Media Player, метод Жетпроксисеттингс
+- проигрыватель Windows Media метода жетпроксисеттингс
+- проигрыватель Windows Media метода жетпроксисеттингс, интерфейс ивмпнетворк
+- проигрыватель Windows Media интерфейса ивмпнетворк, метод жетпроксисеттингс
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d970160c07c90e84585c87ed1abf740fbe3c6318
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e69c990b01ed885b80c96e3e36ad28c2793baf618fea68b0e20006390c2adeed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668850"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118331644"
 ---
 # <a name="iwmpnetworkgetproxysettings-method"></a>Метод Ивмпнетворк:: Жетпроксисеттингс
 
@@ -77,7 +77,7 @@ Implements IWMPNetwork.getProxySettings
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод завершается ошибкой, если вызывающее приложение не выполняется на локальном компьютере или в интрасети.
 
@@ -146,13 +146,13 @@ End Select
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

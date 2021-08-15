@@ -9,12 +9,12 @@ keywords:
 - Структуры Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3bbaa6334c502369028c8d338cee4d06a49040b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 169f88577df0dad847816cf526e89db0df909eb60f70462f2ed36027c3897ef2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103773067"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118183058"
 ---
 # <a name="structures-in-active-directory-domain-services"></a>Структуры в службах домен Active Directory Services
 
@@ -28,9 +28,9 @@ ms.locfileid: "103773067"
 -   [Структуры резервного копирования каталога](directory-backup-structures.md)
 -   [Структуры диалогового окна выбора объектов](object-picker-dialog-box-structures.md)
 
- 
+ 
 
- 
+ 
 
 
 

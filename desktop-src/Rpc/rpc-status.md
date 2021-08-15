@@ -7,12 +7,12 @@ keywords:
 - RPC_STATUS
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 066022ce33676caadcf25a6814f3b4974701998e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 93cc6f682dbb46b65fc261b738b94e8000f3a77d96c4bd65d1fead4bf8c0e17a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071590"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118925991"
 ---
 # <a name="rpc_status"></a>\_Состояние RPC
 
@@ -26,11 +26,11 @@ typedef unsigned short RPC_STATUS;
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Тип **\_ состояния RPC** возвращается большинством функций RPC и является частью определения типа функции [**RPC \_ Object \_ инк \_ fn**](/windows/desktop/api/Rpcdce/nc-rpcdce-rpc_object_inq_fn) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -3,9 +3,9 @@ title: Ивмпмедиа getItemInfo, метод
 description: Метод getItemInfo возвращает значение указанного атрибута для элемента мультимедиа.
 ms.assetid: b95fa61d-a600-4f31-a930-d80516204034
 keywords:
-- getItemInfo метод Windows Media Player
-- getItemInfo метод проигрывателя Windows Media Player, интерфейс Ивмпмедиа
-- Интерфейс Ивмпмедиа Windows Media Player, метод getItemInfo
+- проигрыватель Windows Media метода getItemInfo
+- проигрыватель Windows Media метода getItemInfo, интерфейс ивмпмедиа
+- проигрыватель Windows Media интерфейса ивмпмедиа, метод getItemInfo
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 523e57e68d13df55395cd4deca6e09904723bbaf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ce8fa8b55074781dd835e116b0403391fe9343af30d5236610219dca8aba810b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669258"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118331994"
 ---
 # <a name="iwmpmediagetiteminfo-method"></a>Метод Ивмпмедиа:: getItemInfo
 
@@ -56,7 +56,7 @@ Implements IWMPMedia.getItemInfo
 *бстритемнаме* \[ окне\]
 </dt> <dd>
 
-**Строка System. String** , которая является именем атрибута. Сведения об атрибутах, поддерживаемых проигрывателем Windows Media, см. в [справочнике по атрибутам](attribute-reference.md).
+**Строка System. String** , которая является именем атрибута. дополнительные сведения об атрибутах, поддерживаемых проигрыватель Windows Media, см. в [справочнике по атрибутам](attribute-reference.md).
 
 </dd> </dl>
 
@@ -64,7 +64,7 @@ Implements IWMPMedia.getItemInfo
 
 **Строка System. String** , которая является значением указанного атрибута.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод возвращает метаданные для отдельного элемента мультимедиа или элемента мультимедиа, который является частью списка воспроизведения.
 
@@ -76,13 +76,13 @@ Implements IWMPMedia.getItemInfo
 
 Перед вызовом этого метода необходимо иметь доступ на чтение к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

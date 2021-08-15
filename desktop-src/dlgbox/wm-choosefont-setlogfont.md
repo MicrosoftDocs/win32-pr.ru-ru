@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b6a588ebff7c8e56bb559a2cc9faa1d6290fbd8f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1d35c6f54679389b411417e5539382fd322c0873e6dba87fc90efb93b8be7ba1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103803088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118503427"
 ---
 # <a name="wm_choosefont_setlogfont-message"></a>\_Сообщение WM CHOOSEFONT \_ сетлогфонт
 
@@ -55,13 +55,13 @@ ms.locfileid: "103803088"
 
 Это сообщение не имеет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При вызове функции [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) для создания диалогового окна **шрифта** можно использовать элемент **лплогфонт** структуры [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) , чтобы указать структуру [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta) , содержащую начальные значения для диалогового окна. Используйте сообщение **WM \_ CHOOSEFONT \_ сетлогфонт** , чтобы указать структуру **LOGFONT** с разными значениями, пока открыто диалоговое окно **Шрифт** .
 
 Как правило, сообщение **WM \_ CHOOSEFONT \_ сетлогфонт** отправляется из процедуры-обработчика [**кфхукпрок**](/windows/win32/api/commdlg/nc-commdlg-lpcfhookproc) . Процедура-обработчик также может отправить сообщения [**WM \_ CHOOSEFONT \_ жетлогфонт**](wm-choosefont-getlogfont.md) и [**WM \_ CHOOSEFONT \_ сетфлагс**](wm-choosefont-setflags.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -69,7 +69,7 @@ ms.locfileid: "103803088"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Коммдлг. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>коммдлг. h (включает Windows. h)</dt> </dl> |
 
 
 

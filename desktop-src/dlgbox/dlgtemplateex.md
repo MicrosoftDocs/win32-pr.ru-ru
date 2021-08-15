@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1c3db7127e23e3133e11fe9c1600d37695e3b1ae
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ab23b93a72edb2da6784797dd47bdfb4a839e2e9ce662adfc6ffbe09e468ac17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118503455"
 ---
 # <a name="dlgtemplateex-structure"></a>Структура ДЛГТЕМПЛАТИКС
 
@@ -270,7 +270,7 @@ typedef struct {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Вы можете использовать расширенный шаблон диалогового окна вместо стандартного шаблона диалогового окна в функциях [**креатедиалогиндиректпарам**](/windows/desktop/api/Winuser/nf-winuser-createdialogindirectparama), [**диалогбоксиндиректпарам**](/windows/desktop/api/Winuser/nf-winuser-dialogboxindirectparama), [**креатедиалогиндирект**](/windows/desktop/api/Winuser/nf-winuser-createdialogindirecta)и [**диалогбоксиндирект**](/windows/desktop/api/Winuser/nf-winuser-dialogboxindirecta) .
 
@@ -284,7 +284,7 @@ typedef struct {
 
 Члены **x**, **y**, **CX** и **CY** задают значения в диалоговых окнах. Эти значения можно преобразовать в единицы экрана (в пикселях) с помощью функции [**мапдиалогрект**](/windows/desktop/api/Winuser/nf-winuser-mapdialogrect) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

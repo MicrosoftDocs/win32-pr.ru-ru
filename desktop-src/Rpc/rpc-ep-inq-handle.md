@@ -6,12 +6,12 @@ keywords:
 - RPC_EP_INQ_HANDLE
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c34c64b5601b31485808924fc57dbe3412b6009
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a401f06077c2f636f679a7733dc7ed99abbdbb5e6b9959998b1f8234b0e4adfe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104416009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118926497"
 ---
 # <a name="rpc_ep_inq_handle"></a>RPC \_ EP \_ инк, \_ обработчик
 
@@ -24,7 +24,7 @@ typedef I_RPC_HANDLE* RPC_EP_INQ_HANDLE;
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

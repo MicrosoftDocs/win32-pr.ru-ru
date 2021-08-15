@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e25f66006dcb37e2504785b2b28ca1f328edfcfd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8abd9e3ee848c2a586230807b107f59acb734c398b3c27b4833e4359bb4c6543
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117950320"
 ---
 # <a name="ts_char_-constants"></a>\_Константы char служб терминалов \_ \*
 
@@ -43,7 +43,7 @@ ms.locfileid: "104415245"
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                              |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                    |
-| Распространяемые компоненты<br/>          | TSF 1,0 в Windows 2000 профессиональная<br/>                                         |
+| Распространяемые компоненты<br/>          | TSF 1,0 на Windows 2000 Professional<br/>                                         |
 | Header<br/>                   | <dl> <dt>Текстстор. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Текстстор. idl</dt> </dl> |
 

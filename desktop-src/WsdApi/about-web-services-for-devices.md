@@ -4,16 +4,16 @@ ms.assetid: 8eaeacb3-43db-4a57-8548-e5b81213269c
 title: О веб-службах на устройствах
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dca7f7dc97dabd3dde7af12f3cece992b4f0ef6d
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: 3c7facef3bfed004a834e151db0c58c83a1576e515ed89fa0d690813bc4c18bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "103914019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118552524"
 ---
 # <a name="about-web-services-on-devices"></a>О веб-службах на устройствах
 
-API веб-службы на устройствах (WSDAPI) — это реализация [профиля устройств для веб-служб](https://specs.xmlsoap.org/ws/2006/02/devprof/) (DPWS) для Windows Vista и windows Server 2008. DPWS ограничивает спецификации веб-служб, чтобы клиенты могли легко обнаруживать устройства. После обнаружения устройства клиент может получить описание служб, размещенных на этом устройстве, и использовать эти службы.
+API веб-службы на устройствах (WSDAPI) — это реализация [профиля устройств для веб-служб](https://specs.xmlsoap.org/ws/2006/02/devprof/) (DPWS) для Windows Vista и Windows Server 2008. DPWS ограничивает спецификации веб-служб, чтобы клиенты могли легко обнаруживать устройства. После обнаружения устройства клиент может получить описание служб, размещенных на этом устройстве, и использовать эти службы.
 
 ## <a name="devices-and-services"></a>Устройства и службы
 
@@ -33,7 +33,7 @@ WSDAPI расширяет локальную модель самонастраи
 
 ![Схема, показывающая, как клиент WSDAPI запрашивает и взаимодействует с устройством.](images/netdevice01.png)
 
-Дополнительные сведения о шаблонах обмена сообщениями с устройствами см. в статье [шаблоны сообщений обнаружения и обмена метаданными](discovery-and-metadata-exchange-message-patterns.md).
+дополнительные сведения о шаблонах обмена сообщениями с устройствами см. в статье [шаблоны сообщений обнаружения и метаданных Exchange](discovery-and-metadata-exchange-message-patterns.md).
 
 ## <a name="logical-and-physical-addressing"></a>Логическая и физическая адресация
 
@@ -47,11 +47,11 @@ WSDAPI предоставляет универсальный стек DPWS SOAP 
 
 Обнаружение функций можно использовать при создании приложений WSDAPI для создания и активации экземпляров функций, возвращаемых PnP. Эти экземпляры функций содержат данные, которые можно использовать для получения дополнительных сведений через API-интерфейсы PnP, если требуется не просто простое обнаружение. Дополнительные сведения см. в разделе [обнаружение функций](/previous-versions/windows/desktop/fundisc/fd-portal) и [PnP-X](/previous-versions/windows/desktop/fundisc/pnp-x).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Шаблоны сообщений обнаружения и обмена метаданными](discovery-and-metadata-exchange-message-patterns.md)
+[шаблоны сообщений обнаружения и метаданных Exchange](discovery-and-metadata-exchange-message-patterns.md)
 </dt> <dt>
 
 [Соответствие спецификации WSDAPI](wsdapi-specification-compliance.md)

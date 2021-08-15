@@ -47,7 +47,7 @@
             - name: Функции шейдера Geometry
               href: overviews-direct3d-11-hlsl-gs-features.md
               items:
-                - name: Как индексировать несколько выходных потоков
+                - name: как индексировать несколько выходных Потоки
                   href: overviews-direct3d-11-hlsl-gs-index.md
                 - name: Как выполнить экземпляр шейдера Geometry
                   href: overviews-direct3d-11-hlsl-gs-instance.md
@@ -58,7 +58,7 @@
               href: bytecode-changes-in-sm5-1.md
             - name: HLSL указанная корневая подпись
               href: hlsl-specified-root-signature.md
-        - name: 'Модель шейдера HLSL 6,0'
+        - name: "HLSL Shader Model\_6.0"
           href: hlsl-shader-model-6-0-features-for-direct3d-12.md
         - name: 'Модель шейдера HLSL 6,4'
           href: hlsl-shader-model-6-4-features-for-direct3d-12.md
@@ -397,7 +397,7 @@
                               href: sm5-object-rwbyteaddressbuffer-load4.md
                             - name: 'Load4 (uint, uint)'
                               href: rwbyteaddressbuffer-load4-float-uint-.md
-                        - name: Магазин
+                        - name: Хранение
                           href: sm5-object-rwbyteaddressbuffer-store.md
                         - name: Store2
                           href: sm5-object-rwbyteaddressbuffer-store2.md
@@ -1329,7 +1329,7 @@
               href: dx-graphics-hlsl-distance.md
             - name: DOT
               href: dx-graphics-hlsl-dot.md
-            - name: кон
+            - name: dst
               href: dst.md
             - name: еррорф
               href: errorf.md
@@ -1564,7 +1564,7 @@
                       href: dx9-graphics-reference-asm-vs-instructions-vs-2-x.md
                     - name: Инструкции — vs_3_0
                       href: dx9-graphics-reference-asm-vs-instructions-vs-3-0.md
-                    - name: Ограничения вложенности управления потоком
+                    - name: Flow Управление ограничениями вложенности
                       href: dx9-graphics-reference-asm-vs-instructions-flow-control.md
                     - name: Модификаторы инструкций
                       href: dx9-graphics-reference-asm-vs-instructions-modifiers.md
@@ -1768,7 +1768,7 @@
                       href: dx9-graphics-reference-asm-ps-instructions-modifiers-ps-1-x.md
                     - name: Модификаторы для ps_2_0 и более поздних версий
                       href: dx9-graphics-reference-asm-ps-instructions-modifiers-ps-2-0.md
-                    - name: Ограничения управления потоком
+                    - name: Flow Ограничения управления
                       href: dx9-graphics-reference-asm-ps-instructions-flow-control.md
                     - name: ABS-PS
                       href: abs---ps.md
@@ -2518,7 +2518,7 @@
                   href: d3dcompile-constants.md
                 - name: Константы D3DCOMPILE_EFFECT
                   href: d3dcompile-effect-constants.md
-        - name: Ссылка на преобразование встроенного формата
+        - name: Справочник по преобразованию встроенного формата
           href: inline-format-conversion-reference.md
           items:
             - name: Функции

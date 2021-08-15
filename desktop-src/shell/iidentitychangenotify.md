@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Msoe.dll
-ms.openlocfilehash: 4a217b2cfb046bfb9ae5546e015264f74d00b1d0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4419f55b2fe4561a22035d962da5e3c271108d06fa417cfbed1b603c883e5b32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264410"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118721912"
 ---
 # <a name="iidentitychangenotify-interface"></a>Интерфейс Иидентитичанженотифи
 
-\[Интерфейс **иидентитичанженотифи** доступен для использования в Windows 2000. В Windows XP эта функция заменена [учетными записями пользователей с быстрым переключением пользователей и удаленный рабочий стол](fastuserswitching.md)и может быть изменена или недоступна в последующих версиях.\]
+\[интерфейс **иидентитичанженотифи** можно использовать в Windows 2000. в Windows XP эти функции были заменены [учетными записями пользователей с быстрым переключением пользователей и удаленный рабочий стол](fastuserswitching.md)и могут быть изменены или недоступны в последующих версиях.\]
 
 Не рекомендуется. Предоставляет уведомления об изменениях в удостоверениях пользователей в системе, а также запросы пользователей на переключение текущего удостоверения пользователя.
 
@@ -48,11 +48,11 @@ ms.locfileid: "104264410"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Чтобы реализовать уведомления, производный интерфейс должен подключаться к [**иусеридентитиманажер**](iuseridentitymanager.md) путем вызова метода [**IConnectionPoint:: Advise**](/windows/win32/api/ocidl/nf-ocidl-iconnectionpoint-advise) и передачи указателя на интерфейс.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

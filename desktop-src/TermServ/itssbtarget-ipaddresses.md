@@ -31,12 +31,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c8b3902840b24bc49ae3bda0510c8355afb67810
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: e2ff06e60f125590154a17cb7467deae3611a617b684e9068439c9e15609d8fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104411766"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118351259"
 ---
 # <a name="itssbtargetipaddresses-property"></a>Свойство Итссбтаржет:: IpAddresses
 
@@ -67,9 +67,9 @@ HRESULT get_IpAddresses(
 
 Указатель на переменную **типа DWORD** , которая содержит количество внешних IP-адресов в параметре *SOCKADDR* . Если число адресов неизвестно, передайте *SOCKADDR* как **null**. Метод возвратит число структур [**тссд \_ ConnectionPoint**](/windows/win32/api/sessdirpublictypes/ns-sessdirpublictypes-tssd_connectionpoint) , необходимых для выделения в массиве, на который указывает параметр *SOCKADDR* .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Это свойство ранее называлось **таржетекстерналипаддрессес** в Windows Server 2008 R2.
+это свойство ранее называлось **таржетекстерналипаддрессес** в Windows Server 2008 R2.
 
 Если число внешних IP-адресов неизвестно, можно вызвать этот метод с параметром *SOCKADDR* , имеющим значение **null**. Затем метод возвратит в параметре *нумаддрессес* количество структур [**тссд \_ ConnectionPoint**](/windows/win32/api/sessdirpublictypes/ns-sessdirpublictypes-tssd_connectionpoint) , необходимых для получения всех внешних IP-адресов. Выделите массив для *SOCKADDR* на основе этого числа, а затем снова вызовите метод, установив для *SOCKADDR* только что выделенный массив и *нумаддрессес* в число, возвращенное первым вызовом.
 
@@ -100,7 +100,7 @@ HRESULT get_IpAddresses(
 <td>IID_ITsSbTarget определяется следующим образом:
 <ul>
 <li>16616ECC-272D-411D-B324-126893033856</li>
-<li>e85e10ea-db0b-4752-b456-5fd5840901c0 на Windows Server 2008 R2</li>
+<li>e85e10ea-db0b-4752-b456-5fd5840901c0 на сервере Windows 2008 R2</li>
 </ul></td>
 </tr>
 </tbody>

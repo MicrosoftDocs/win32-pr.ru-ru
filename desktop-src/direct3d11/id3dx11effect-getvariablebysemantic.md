@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b8276b1850242bd83639883bf75fc927d8484765
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8e1a636b4a5d9ca4094167e81a74d316e2b57f14e5dacd5926897f8190d50405
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118808099"
 ---
 # <a name="id3dx11effectgetvariablebysemantic-method"></a>Метод ID3DX11Effect:: Жетвариаблебисемантик
 
@@ -58,7 +58,7 @@ ID3DX11EffectVariable* GetVariableBySemantic(
 
 Указатель на переменную действия, определяемую семантикой. См. [**ID3DX11EffectVariable**](id3dx11effectvariable.md).
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Каждая переменная Effect может иметь семантическую присоединение, которая представляет собой строку метаданных, определяемую пользователем. Некоторые [семантики системных значений](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-semantics) являются зарезервированными словами, которые инициируют встроенные функции стадией конвейера.
 
@@ -75,7 +75,7 @@ ID3DX11EffectVariable* GetVariableBySemantic(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
+| Заголовок<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
 | Библиотека<br/> | <dl> <dt>Н/д (библиотека Effects 11 доступна в сети в качестве общего источника.)</dt> </dl> |
 
 

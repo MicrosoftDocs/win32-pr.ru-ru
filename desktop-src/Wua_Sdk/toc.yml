@@ -1,16 +1,16 @@
-- name: API агента Центр обновления Windows
+- name: Windows API агента обновления
   href: portal-client.md
   items:
-    - name: Использование API агента Центр обновления Windows
+    - name: использование API агента Центр обновления Windows
       href: using-the-windows-update-agent-api.md
       items:
-        - name: Объектная модель агента Центр обновления Windows
+        - name: Windows Обновить объектную модель агента
           href: windows-update-agent-object-model.md
         - name: Определение текущей версии WUA
           href: determining-the-current-version-of-wua.md
-        - name: Обновление агента Центр обновления Windows
+        - name: обновление агента Центр обновления Windows
           href: updating-the-windows-update-agent.md
-        - name: Обновление файлов заголовков агента Центр обновления Windows
+        - name: обновление файлов заголовков агента Центр обновления Windows
           href: updating-windows-update-agent-header-files.md
         - name: Использование агента WUA для проверки наличия обновлений в автономном режиме
           href: using-wua-to-scan-for-updates-offline.md
@@ -32,9 +32,9 @@
           href: wua-success-and-error-codes-.md
         - name: Коды ошибок сети WUA
           href: wua-networking-error-codes-.md
-    - name: Другие источники сведений об агенте Центр обновления Windows
+    - name: другие источники сведений об агенте Центр обновления Windows
       href: other-sources-of-windows-update-agent-information.md
-    - name: Справочник по API агента Центр обновления Windows (WUA)
+    - name: Windows Справочник по API агента обновления (WUA)
       href: windows-update-agent--wua--api-reference.md
       items:
         - name: Перечисления
@@ -110,7 +110,7 @@
                   items:
                     - name: 'Сервицеенаблед, свойство'
                       href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdates-get_serviceenabled
-                    - name: Свойства параметров
+                    - name: Параметры Свойства
                       href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdates-get_settings
             - name: IAutomaticUpdates2
               href: /windows/desktop/api/Wuapi/nn-wuapi-iautomaticupdates2

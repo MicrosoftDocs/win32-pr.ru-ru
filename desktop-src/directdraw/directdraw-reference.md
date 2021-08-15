@@ -4,12 +4,12 @@ description: В этом разделе содержатся справочны�
 ms.assetid: 1E94E191-5EB1-439F-B6D2-C9B8F20214CC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d00f11696663b0861c67962f66d68ec92a83d27
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f35c23e031f6527bf69a80b5d7f9978e62dce51d6b4e121c17c213207e86ab9e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104329171"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118504472"
 ---
 # <a name="directdraw-reference"></a>Справочник по DirectDraw
 

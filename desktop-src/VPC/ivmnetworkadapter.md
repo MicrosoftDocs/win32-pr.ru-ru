@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 74a0ccf722715896743129b6666609bd8a88df3f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 73622161629f6d3746c153fb9e2df32ee120fd748defc60d0d02ef6ea4378b14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118843901"
 ---
 # <a name="ivmnetworkadapter-interface"></a>Интерфейс Ивмнетворкадаптер
 
-\[Windows Virtual PC больше не доступна для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC больше не доступен для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Служит интерфейсом для виртуального сетевого адаптера (NIC). Он используется для настройки того, как виртуальная машина находится в сети. Сетевые карты можно добавлять и удалять с помощью [**ивмвиртуалмачине:: адднетворкадаптер**](ivmvirtualmachine-addnetworkadapter.md) и [**Ивмвиртуалмачине:: ремовенетворкадаптер**](ivmvirtualmachine-removenetworkadapter.md). Можно также получить объект **ивмнетворкадаптер** из коллекции [**ивмнетворкадаптерколлектион**](ivmnetworkadaptercollection.md) , возвращенной из свойств [**Ивмвиртуалмачине:: адаптера**](ivmvirtualmachine-networkadapters.md) или [**ивмвиртуалнетворк:: адаптера**](ivmvirtualnetwork-networkadapters.md) .
 
@@ -62,13 +62,13 @@ ms.locfileid: "104415624"
 | [**есернетаддресс**](ivmnetworkadapter-ethernetaddress.md)<br/>                   | Чтение/запись<br/> | Адрес Ethernet (MAC) сетевого интерфейса.<br/>             |
 | [**исесернетаддрессдинамик**](ivmnetworkadapter-isethernetaddressdynamic.md)<br/> | Чтение/запись<br/> | Указывает, создается ли адрес Ethernet динамически.<br/> |
 | [**VirtualMachine**](ivmnetworkadapter-virtualmachine.md)<br/>                     | Только для чтения<br/>  | Виртуальная машина, связанная с этим сетевым интерфейсом.<br/>      |
-| [**VirtualNetwork**](ivmnetworkadapter-virtualnetwork.md)<br/>                     | Только для чтения<br/>  | Виртуальная сеть, к которой подключен сетевой интерфейс.<br/>  |
+| [**Виртуальная сеть**](ivmnetworkadapter-virtualnetwork.md)<br/>                     | Только для чтения<br/>  | Виртуальная сеть, к которой подключен сетевой интерфейс.<br/>  |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Адресом Ethernet по умолчанию для сетевого интерфейса является "00-00-00-00-00-00", что в большинстве операционных систем считается недопустимым адресом Ethernet. Если для [**исесернетаддрессдинамик**](ivmnetworkadapter-isethernetaddressdynamic.md) задано **значение false**, то [**есернетаддресс**](ivmnetworkadapter-ethernetaddress.md) должен быть инициализирован с допустимым сетевым адресом Ethernet.
 
@@ -87,13 +87,13 @@ ms.locfileid: "104415624"
 1.  Получите виртуальную машину, связанную с виртуальным сетевым адаптером, с помощью свойства [**VirtualMachine**](ivmnetworkadapter-virtualmachine.md) .
 2.  Используйте текущий объект в качестве параметра для метода [**ивмвиртуалмачине:: ремовенетворкадаптер**](ivmvirtualmachine-removenetworkadapter.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                    |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                     |
 | Окончание поддержки клиента<br/>    | Windows 7<br/>                                                                          |
 | Продукт<br/>                  | Windows Virtual PC<br/>                                                                 |

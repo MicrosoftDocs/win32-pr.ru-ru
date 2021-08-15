@@ -4,12 +4,12 @@ ms.assetid: 6478E540-AC96-42FD-B8DB-C55D1809FE3B
 title: СЛУЖБЫ
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b79692006c839751f59ccf7cccdac7d9b9fe9f9a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4f548793a8c467232436aed09a7000001d1d5853db97cb477d8515835b7f4eaa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990310"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118004099"
 ---
 # <a name="msn"></a>СЛУЖБЫ
 

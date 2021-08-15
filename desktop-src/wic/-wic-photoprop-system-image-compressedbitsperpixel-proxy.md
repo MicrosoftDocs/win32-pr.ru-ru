@@ -4,12 +4,12 @@ ms.assetid: 422e92d5-2661-43c9-85d5-26f55c8d88d8
 title: Прокси-сервер System. Image. Компресседбитсперпиксел
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4aab4f92c3d9926e895a8a7afaa3e60c3126589
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 890fc7ea8989a17691e1d2507d167c1ba5b31edb1cf2f2b0b24263b073378ccc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702309"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118710359"
 ---
 # <a name="systemimagecompressedbitsperpixel-proxy"></a>Прокси-сервер System. Image. Компресседбитсперпиксел
 
@@ -39,7 +39,7 @@ VT \_ UI8
 
 Ловпарт Ухвал.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

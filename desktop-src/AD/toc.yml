@@ -555,23 +555,23 @@
               items:
                 - name: Пример кода для использования глобального каталога для поиска пользователей в лесу
                   href: example-code-for-using-the-global-catalog-to-find-users-in-a-forest.md
-            - name: Управление пользователями на рядовых серверах и Windows 2000 Professional
+            - name: управление пользователями на рядовых серверах и Windows 2000 Professional
               href: managing-users-on-member-servers-and-windows-2000-professional.md
               items:
-                - name: Перечисление пользователей рядовых серверов и Windows 2000 Professional
+                - name: перечисление пользователей на рядовых серверах и Windows 2000 Professional
                   href: enumerating-users-on-member-servers-and-windows-2000-professional.md
                   items:
                     - name: Пример кода для перечисления пользователей на рядовом сервере
                       href: example-code-for-enumerating-users-on-a-member-server.md
-                - name: Создание пользователей на рядовых серверах и Windows 2000 Professional
+                - name: создание пользователей на рядовых серверах и Windows 2000 Professional
                   href: creating-users-on-member-servers-and-windows-2000-professional.md
                   items:
-                    - name: Пример кода для создания пользователей на рядовом сервере или в Windows 2000 Professional
+                    - name: пример кода для создания пользователей на рядовом сервере или Windows 2000 Professional
                       href: example-code-for-creating-users-on-a-member-server-or-windows-2000-professional.md
-                - name: Удаление пользователей на рядовых серверах и Windows 2000 Professional
+                - name: удаление пользователей на рядовых серверах и Windows 2000 Professional
                   href: deleting-users-on-member-servers-and-windows-2000-professional.md
                   items:
-                    - name: Пример кода для удаления пользователей на рядовом сервере или в Windows 2000 Professional
+                    - name: пример кода для удаления пользователей на рядовом сервере или Windows 2000 Professional
                       href: example-code-for-deleting-users-on-a-member-server-or-windows-2000-professional.md
             - name: Значения для свойств Каунтрикоде и c
               href: values-for-the-countrycode-and-c-properties.md
@@ -639,7 +639,7 @@
                   href: example-code-for-changing-the-scope-of-a-group.md
             - name: Получение имени домена Account-Style группы
               href: getting-the-domain-account-style-name-of-a-group.md
-            - name: Группы на рядовых серверах и Windows 2000 Professional
+            - name: группы на рядовых серверах и Windows 2000 Professional
               href: groups-on-member-servers-and-windows-2000-professional.md
               items:
                 - name: Перечисление локальных групп
@@ -714,7 +714,7 @@
                     - name: Примеры скриптов для управления точками подключения службы
                       href: script-samples-for-managing-service-connection-points.md
                       items:
-                        - name: Макросы Excel для управления точками подключения службы
+                        - name: Excel Макросы для управления точками подключения службы
                           href: excel-macros-for-managing-service-connection-points.md
                         - name: Скрипт VB со списком всех точек подключения службы
                           href: vb-script-listing-all-service-connection-points.md
@@ -729,7 +729,7 @@
                           href: how-clients-find-and-use-a-service-connection-point.md
             - name: Публикация с помощью службы имен RPC (Рпкнс)
               href: publishing-with-the-rpc-name-service-rpcns.md
-            - name: Публикация с регистрацией и разрешением Windows Sockets
+            - name: публикация с регистрацией и разрешением сокетов Windows
               href: publishing-with-windows-sockets-registration-and-resolution.md
               items:
                 - name: Пример кода для установки класса службы РНР
@@ -804,26 +804,26 @@
                   href: how-a-service-registers-its-spns.md
                 - name: Создание клиентами SPN службы
                   href: how-clients-compose-a-serviceampaposs-spn.md
-            - name: Взаимная проверка подлинности в службе сокетов Windows с SCP
+            - name: взаимная проверка подлинности в службе сокетов Windows с SCP
               href: mutual-authentication-in-a-windows-sockets-service-with-an-scp.md
               items:
-                - name: Проверка подлинности клиента службы сокетов Windows на основе SCP
+                - name: проверка подлинности клиента службы сокетов Windows на основе SCP
                   href: how-a-client-authenticates-an-scp-based-windows-sockets-service.md
-                - name: Составление и регистрация имен участников-служб для службы сокетов Windows на основе SCP
+                - name: составление и регистрация имен участников-служб для службы сокетов Windows на основе SCP
                   href: composing-and-registering-spns-for-an-scp-based-windows-sockets-service.md
                   items:
                     - name: Составление имен участников-служб для службы с SCP
                       href: composing-the-spns-for-a-service-with-an-scp.md
                     - name: Регистрация имен участников-служб для службы
                       href: registering-the-spns-for-a-service.md
-                - name: Проверка подлинности клиента службой сокетов Windows
+                - name: проверка подлинности клиента службой сокетов Windows
                   href: how-a-windows-sockets-service-authenticates-a-client.md
             - name: Взаимная проверка подлинности в приложениях RPC
               href: mutual-authentication-in-rpc-applications.md
               items:
                 - name: Составление имен участников-служб для службы Рпкнс
                   href: composing-spns-for-an-rpcns-service.md
-            - name: Взаимная проверка подлинности в приложениях Windows Sockets
+            - name: взаимная проверка подлинности в приложениях Windows sockets
               href: mutual-authentication-in-windows-sockets-applications.md
         - name: Резервное копирование и восстановление сервера Active Directory
           href: backing-up-and-restoring-an-active-directory-server.md

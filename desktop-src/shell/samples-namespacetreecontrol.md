@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 131007472f07e3b1f047767ee508c7a0591b8b51
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e1332a2d6e4059a0aca4eda69c17f6584100d8706cef5db027d685a46203f393
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104080951"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118719148"
 ---
 # <a name="namespace-tree-control-sample"></a>Пример: элемент управления деревом NameSpace
 
@@ -27,7 +27,7 @@ ms.locfileid: "104080951"
 -   [Создание примера](#building-the-sample)
 -   [Запуск примера](#running-the-sample)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

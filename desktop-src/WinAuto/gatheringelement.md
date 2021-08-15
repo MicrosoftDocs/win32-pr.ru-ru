@@ -4,12 +4,12 @@ description: гасеринжелемент
 ms.assetid: BF3E4E1A-FF06-4B21-8CC0-9217FB1172CD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e33a212709454a38604e8284c14cdefc24de0f7a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ab678750c48395e97968e0b282c85557d715754b4a7175a481ab752a6170f4bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105710103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117929625"
 ---
 # <a name="gatheringelement"></a>гасеринжелемент
 
@@ -25,9 +25,9 @@ ms.locfileid: "105710103"
 
 Это сообщение не является предупреждением или ошибкой и не требует каких-либо действий. Он сообщает, что сведения об элементе были собраны и сохранены в файле журнала.
 
- 
+ 
 
- 
+ 
 
 
 

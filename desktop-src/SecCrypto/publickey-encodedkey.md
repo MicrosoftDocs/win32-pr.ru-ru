@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: de2c7b2bfbbdaf28345ae29e260bfd30c5754ffd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0d4708461f5ff51d5f86170ba0f1df35669859149b4882f8fb86aafdbed5e436
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118901466"
 ---
 # <a name="publickeyencodedkey-property"></a>Свойство PublicKey. Енкодедкэй
 
@@ -39,7 +39,7 @@ PublicKey.EncodedKey As EncodedData
 
 Объект [**енкодеддата**](encodeddata.md) , предоставляющий доступ к значению открытого ключа.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

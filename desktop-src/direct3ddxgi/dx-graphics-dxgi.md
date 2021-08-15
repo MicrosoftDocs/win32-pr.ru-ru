@@ -4,12 +4,12 @@ ms.assetid: 9565e874-5a8d-4b4b-a2a4-391e46922cc1
 title: DXGI
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b1e100d068d12f651c2602b29af75181607a038
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: fe67f0938ee68445174b6f75ddfc2bb86e7c1bdb618c5d8daa2158bae2946bf0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118796618"
 ---
 # <a name="dxgi"></a>DXGI
 
@@ -25,10 +25,10 @@ DXGI используется Direct3D 10, Direct3D 11 и Direct3D 12.
 
 | Требование                                  | Значение                                                                                               |
 |-----------------------------------|------------------------------------------------------------------------------------------------|
-| Поддерживаемые среды выполнения    | <dl> <dt>Windows/C++</dt> </dl>         |
+| Поддерживаемые среды выполнения    | <dl> <dt>Windows/C + +</dt> </dl>         |
 | Рекомендуемые языки программирования | C/C++                                                                                          |
 | Минимальный поддерживаемый клиент          | <dl> <dt>Windows Vista</dt> </dl>       |
-| Минимальный поддерживаемый сервер          | <dl> <dt>Windows Server 2008</dt> </dl> |
+| Минимальный поддерживаемый сервер          | <dl> <dt>Windows Server 2008</dt> </dl> |
 
 
 

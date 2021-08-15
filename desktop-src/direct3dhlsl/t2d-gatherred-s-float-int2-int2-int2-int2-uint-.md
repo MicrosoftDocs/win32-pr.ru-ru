@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d26de431f66fd9106ac37ed4f09bf3ce14dbad2d
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: eef45fe0dad34073824696e7d00dfbd59104922d621574baf95f40a98f3a5866
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104081754"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118507548"
 ---
 # <a name="texture2dgatherredsfloatint2int2int2int2uint-function"></a>Функция Texture2D:: Гасерред (S, float, int2, int2, int2, int2, uint)
 
@@ -114,7 +114,7 @@ TemplateType GatherRed(
 
 Значение из четырех компонентов, тип которого совпадает с типом шаблона.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Примеры текстур можно использовать для интерполяции билинейной.
 
@@ -122,7 +122,7 @@ TemplateType GatherRed(
 
 
 
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
+| Вершина | Поверхности | Домен | Геометрия | Пиксель | Службы вычислений |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

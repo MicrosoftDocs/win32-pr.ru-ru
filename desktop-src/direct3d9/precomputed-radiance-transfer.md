@@ -4,12 +4,12 @@ ms.assetid: 2a233d23-9a9e-4774-9be0-f3bfe0369b21
 title: Предварительно вычисленный перенос Радианце (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94829a2559888c61ae795309bac5d1ab699d7f27
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: dc18eff66dab9a696a3e441d894a327890c53888da008d72a5f143ca0d345a51
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104566860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118798762"
 ---
 # <a name="precomputed-radiance-transfer-direct3d-9"></a>Предварительно вычисленный перенос Радианце (Direct3D 9)
 
@@ -161,7 +161,7 @@ PRT факторы процесса отрисовки в два этапа, к�
 
     
 
-## <a name="references"></a>Ссылки
+## <a name="references"></a>Справочные материалы
 
 Дополнительные сведения о PRT и сферных гармониях см. в следующих документах:
 
@@ -221,7 +221,7 @@ D. A. Varshalovich, A.N. Moskalev, V.K. Khersonskii
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

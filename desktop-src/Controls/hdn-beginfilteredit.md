@@ -3,7 +3,7 @@ title: Код уведомления HDN_BEGINFILTEREDIT (Коммктрл. h)
 description: Сообщает родительскому окну элемента управления заголовка, что началось изменение фильтра. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: 93964453-bb94-4127-8ed4-41acb226b8e2
 keywords:
-- HDN_BEGINFILTEREDIT кода уведомления элементы управления Windows
+- HDN_BEGINFILTEREDIT кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0527427752b5621e626add17d61e60a675958f42
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: db45027b1136e37d39caea2cfcd3fb4434362a73ab63c47f72da0b6c8fadaeea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118006093"
 ---
 # <a name="hdn_beginfilteredit-notification-code"></a>\_Код уведомления ХДН бегинфилтередит
 
@@ -55,8 +55,8 @@ HDN_BEGINFILTEREDIT
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

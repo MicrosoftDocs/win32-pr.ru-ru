@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 2ffb79941a78602bfda8f5287b0f4df7205d4d86
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5fd4cfe0d600c99251db77b1764edb83353b01143fc5179c1efc29673e30e734
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118900950"
 ---
 # <a name="qualifierscount-property"></a>Свойство квалификаторов. Count
 
@@ -39,7 +39,7 @@ Qualifiers.Count As Long
 
 Количество объектов [**квалификатора**](qualifier.md) в коллекции.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -3,10 +3,10 @@
   items:
     - name: Введение
       href: introduction.md
-    - name: Windows 10
+    - name: "Windows\_10,"
       href: windows-10.md
       items:
-        - name: Основные изменения с момента выпуска Windows 7 для обеспечения совместимости
+        - name: основные изменения с момента Windows 7 для обеспечения совместимости
           href: key-changes-since-windows-7-to-ensure-compatibility.md
         - name: Как обеспечить совместимость Объединенной экосистемы
           href: how-we-can-ensure-compatibility-of-the-combined-ecosystem.md
@@ -15,15 +15,15 @@
               href: windows-version-check.md
             - name: Недокументированные API
               href: undocumented-apis.md
-            - name: Разработка приложений универсальная платформа Windows (UWP)
+            - name: разработка приложений универсальная платформа Windows (UWP)
               href: develop-universal-windows-platform-apps.md
             - name: 'Функциональность классических приложений затрагивается, если не выполняется в оконном режиме'
               href: modern-desktop-app-functionality-is-impacted-if-not-run-in-windowed-mode.md
-            - name: Доступность применимых драйверов графики на Центр обновления Windows
+            - name: доступность применимых драйверов графики на Центр обновления Windows
               href: availability-of-applicable-graphics-drivers-on-windows-update.md
-            - name: Перенос драйвера графики на Windows 10
+            - name: Перенос драйверов графики в Windows 10
               href: graphics-driver-migration-to-windows-10.md
-            - name: Драйверы Bluetooth
+            - name: драйверы Bluetooth
               href: bluetooth-drivers.md
             - name: Удаленные вызовы протокола SAM RPC ограничиваются только локальными администраторами
               href: remote-calls-to-the-sam-rpc-protocol-are-restricted-to-only-local-administrators.md
@@ -31,7 +31,7 @@
               href: kernel-checks-for-non-whql-signed-drivers.md
             - name: Сторонние поставщики поддержки безопасности с Credential Guard
               href: third-party-security-support-providers-with-credential-guard.md
-    - name: "Windows\_8.1"
+    - name: Windows 8.1
       href: windows-8-1.md
       items:
         - name: Приложения для Магазина Windows
@@ -41,21 +41,21 @@
           items:
             - name: Изменения версии операционной системы в Windows 8.1
               href: operating-system-version-changes-in-windows-8-1.md
-            - name: 'Компоненты Windows, установленные по запросу'
+            - name: 'компоненты Windows, установленные по запросу'
               href: windows-components-installed-on-demand.md
             - name: Поведение отката шрифта HTML
               href: html-font-fallback-behavior.md
-            - name: 'Windows 8.1 допускает только URI HTTPS, а не URI HTTP'
+            - name: 'Windows 8.1 допускает только uri https, а не uri http'
               href: windows-8-1-allows-only-https-uris--not-http-uris.md
             - name: Входные данные маусевхил для Windows 8.1
               href: mousewheel-input-for-windows-8-1.md
-            - name: Сенсорные устройства Windows Precision
+            - name: устройства сенсорной панели Windows
               href: windows-precision-touchpad-devices.md
             - name: Высокое разрешение для настольных приложений в Windows 8.1
               href: high-dpi-for-desktop-apps-in-windows-8-1.md
             - name: ИНТЕРФЕЙС пограничной панели подавляется в сценариях "встроенные" и "инерция"
               href: edge-ui-is-suppressed-in--in-out-in--and--inertia--scenarios.md
-            - name: Вызов Иммсетконверсионстатус () или Иммжетконверсионстатус () из приложений Магазина Windows не поддерживается
+            - name: вызов иммсетконверсионстатус () или иммжетконверсионстатус () из приложений магазина Windows не поддерживается
               href: calling-immsetconversionstatus---or-immgetconversionstatus---from-windows-store-apps-is-not-supported.md
             - name: Модель режима IME изменена с "на пользователя" на "на поток"
               href: ime-mode-model-changed-from-per-user-to-per-thread.md
@@ -66,7 +66,7 @@
         - name: Новые функции и усовершенствования
           href: new-features-and-enhancement-in-windows-8-1-and-windows-server-2012-r2.md
           items:
-            - name: Загрузка файла образа Windows (WimBoot)
+            - name: Windows Загрузка файла образа (WimBoot)
               href: windows-image-file-boot--wimboot-.md
             - name: Прокси-сервер веб-приложения
               href: web-application-proxy.md
@@ -95,15 +95,15 @@
               href: determining-shim-status.md
             - name: Серверные приложения должны быть способны работать без графической оболочки сервера.
               href: server-apps-must-be-able-to-run-without-the-server-graphical-shell.md
-            - name: Удаленные компоненты сервера удаленной службы данных в Windows 8
+            - name: Компоненты сервера удаленной службы данных удаляются в Windows 8
               href: remote-data-service-server-components-are-removed-in-windows-8.md
             - name: Тип файла и модель сопоставлений URI
               href: file-type-and-protocol-associations-model.md
             - name: Модератор активности на рабочем столе
               href: desktop-activity-moderator.md
-            - name: 'Платформа .NET Framework 4,5 по умолчанию и платформа .NET Framework 3,5 являются необязательными'
+            - name: 'платформа .NET Framework 4,5 по умолчанию и платформа .NET Framework 3,5 являются необязательными'
               href: '-net-framework-4-5-is-default-and--net-framework-3-5-is-optional.md'
-            - name: Классические приложения могут быть невидимыми после запуска веб-браузера по умолчанию или приложений для Магазина Windows.
+            - name: классические приложения могут быть невидимыми после запуска веб-браузера по умолчанию или приложений магазина Windows
               href: desktop-apps-may-not-be-visible-after-launching-the-default-web-browser.md
             - name: Режим высокой контрастности
               href: high-contrast-mode.md
@@ -119,15 +119,15 @@
               href: advanced-format--4k--disk-compatibility-update.md
             - name: Тонкая подготовка LUN
               href: thin-provisioning-of-luns.md
-            - name: Расширенное хранилище теперь является необязательным для WINPE и SKU сервера.
+            - name: улучшенные служба хранилища теперь являются необязательными для WINPE и SKU сервера
               href: enhanced-storage-is-now-optional-for-winpe-and-server-sku.md
-            - name: Служба VDS переходит в API управления хранилищами Windows
+            - name: служба VDS переходит в API управления служба хранилища Windows
               href: vds-is-transitioning-to-wmiv2-based-windows-storage-management-api.md
             - name: Пользовательский интерфейс предыдущих версий удален для локальных томов
               href: volume-shadow-copy-service-ui-removed.md
             - name: СторахЦи заменяет МСАХЦИ
               href: storahci-replaces-msahci.md
-            - name: Архивация и восстановление Windows 7 устарели
+            - name: нерекомендуемое резервное копирование и восстановление Windows 7
               href: windows-7-backup-and-restore-deprecated.md
             - name: Разгрузка передачи данных
               href: offloaded-data-transfers.md
@@ -137,7 +137,7 @@
               href: direct2d-does-not-support-rendering-to-rich-metafiles-in-internet-explorer-9.md
             - name: Изменения в поддержке устаревшего оборудования DX9
               href: changes-in-dx9-legacy-hardware-support.md
-            - name: MSAA недоступен для приложений Магазина Windows
+            - name: MSAA недоступен для приложений магазина Windows
               href: msaa-is-not-available-to-appcontainer-apps.md
             - name: 'Порт 3 устарел для драйверов NDIS 6,30'
               href: port-3-is-deprecated-for-ndis-6-30-drivers.md
@@ -156,7 +156,7 @@
               href: automatic-maintenance.md
             - name: Сторонние редакторы входных методов
               href: third-party-input-method-editors.md
-            - name: Новый API позволяет приложениям передавать &quot; подсказки Trim и отменить сопоставление &quot; на носитель для хранения данных.
+            - name: новый API позволяет приложениям передавать &quot; указания по усечению и отмене сопоставления &quot; на служба хранилища мультимедиа
               href: new-api-allows-apps-to-send--trim-and-unmap--hints-to-storage-media.md
             - name: Multipath I/O теперь поддерживает расширенные Србс
               href: multipath-i-o-now-supports-extended-srbs.md
@@ -173,7 +173,7 @@
         - name: 'Средства, рекомендации и рекомендации'
           href: tools--best-practices--and-guidance.md
           items:
-            - name: Набор средств оценки Windows
+            - name: Windows набор средств оценки
               href: windows-assessment-toolkit.md
-            - name: Комплект сертификации оборудования для Windows
+            - name: Windows Комплект сертификации оборудования
               href: windows-hardware-certification-kit.md

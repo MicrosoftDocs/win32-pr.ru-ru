@@ -3,7 +3,7 @@ title: Объект Controls
 description: Объект Controls предоставляет способ управления воспроизведением мультимедиа с помощью следующих свойств и методов.
 ms.assetid: bcc1e768-4fa6-4c82-a12f-52c9bfb4c10c
 keywords:
-- Управляет проигрывателем объектов Windows Media Player
+- проигрыватель Windows Media объектов элементов управления
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7bac91c522c95c1b45565ca013a000022c73bcc4
-ms.sourcegitcommit: 4f5016b1fbfd703dbf769c508db464c2518c0fa5
+ms.openlocfilehash: 089524750d670c8f4d11aefbfb5993586d9b8a1b0ecfddb3b13316d92243e411
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "103784485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117936700"
 ---
 # <a name="controls-object"></a>Объект Controls
 
@@ -28,7 +28,7 @@ ms.locfileid: "103784485"
 
 
 
-| Свойство                                                            | Описание                                                                                                                                       |
+| Свойство.                                                            | Описание                                                                                                                                       |
 |---------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
 | [аудиолангуажекаунт](controls-audiolanguagecount.md)               | Извлекает количество поддерживаемых аудио языков.                                                                                                |
 | [куррентаудиолангуаже](controls-currentaudiolanguage.md)           | Указывает или получает код локали (LCID) звукового языка для воспроизведения.                                                            |
@@ -42,7 +42,7 @@ ms.locfileid: "103784485"
 
 
 
- 
+ 
 
 Объект **Controls** поддерживает следующие методы.
 
@@ -65,7 +65,7 @@ ms.locfileid: "103784485"
 
 
 
- 
+ 
 
 Доступ к объекту **Controls** осуществляется через следующее свойство.
 
@@ -73,11 +73,11 @@ ms.locfileid: "103784485"
 
 | Объект                      | Свойство                        |
 |-----------------------------|---------------------------------|
-| [Игрок](player-object.md) | [элементы управления](player-controls.md) |
+| [Игрок](player-object.md) | [controls](player-controls.md) |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -86,9 +86,9 @@ ms.locfileid: "103784485"
 [**Справочник по объектной модели для создания сценариев**](object-model-reference-for-scripting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

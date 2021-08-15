@@ -3,9 +3,9 @@ title: Плайлистаррай. Item, метод
 description: Метод Item извлекает список воспроизведения по указанному индексу.
 ms.assetid: cc851695-f9a2-4594-8bd3-3555c18bfa10
 keywords:
-- метод Item проигрыватель Windows Media Player
-- метод Item проигрыватель Windows Media, класс Плайлистаррай
-- Класс Плайлистаррай Windows Media Player, метод Item
+- проигрыватель Windows Media метода элемента
+- метод item проигрыватель Windows Media, класс плайлистаррай
+- класс плайлистаррай проигрыватель Windows Media, метод item
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b6144f6e1cfda93be32060e8206a96b0da7568d6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4a45bb38250285563d9e4b7abcc1a4bfd1f7a0bea35b41b7e4cd801f8eff1d00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105718040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118335431"
 ---
 # <a name="playlistarrayitem-method"></a>Плайлистаррай. Item, метод
 
@@ -53,17 +53,17 @@ retVal = PlaylistArray.item(
 
 Этот метод возвращает объект **списка воспроизведения** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы использовать этот метод, требуется доступ на чтение к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
@@ -75,10 +75,10 @@ retVal = PlaylistArray.item(
 [**Объект Плайлистаррай**](playlistarray-object.md)
 </dt> <dt>
 
-[**Settings. Медиаакцессригхтс**](settings-mediaaccessrights.md)
+[**Параметры. медиаакцессригхтс**](settings-mediaaccessrights.md)
 </dt> <dt>
 
-[**Settings. Рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
+[**Параметры. рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
  

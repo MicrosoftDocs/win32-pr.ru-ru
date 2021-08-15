@@ -4,12 +4,12 @@ ms.assetid: ea157988-bd15-465c-bd6a-6d33cc1a0323
 title: Атрибут MF_MT_MPEG4_SAMPLE_DESCRIPTION (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4620ae0b50a2c6f2dae7663aab0c49f13bc5a162
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c59827fa5d2ba6c6621c7e251cf319478fd621d24639e105dcd44863495b364
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103912163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118741816"
 ---
 # <a name="mf_mt_mpeg4_sample_description-attribute"></a>\_ \_ \_ Атрибут описания примера "MF MT MPEG4" \_
 
@@ -29,7 +29,7 @@ ms.locfileid: "103912163"
 
 [**имфмедиатипе**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В поле Описание примера описывается кодировка, используемая для потока в файле.
 
@@ -39,14 +39,14 @@ ms.locfileid: "103912163"
 
 Константа GUID для этого атрибута экспортируется из мфууид. lib.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 7 \|\]<br/>                                  |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 R2 \|\]<br/>                     |
+| Минимальная версия клиента<br/> | \[приложения UWP для классических приложений Windows 7 \|\]<br/>                                  |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для настольных приложений Server 2008 R2 \|\]<br/>                     |
 | Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 
