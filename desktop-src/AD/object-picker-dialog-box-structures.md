@@ -5,12 +5,12 @@ ms.assetid: 69bf9c21-46ef-4ea1-aa29-d05ba69fd5c8
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c47e914ff0d870cc5fd9bb4933f1da0cee89ca65
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 919c70427f717b526d9f56989cfbe218903562de95faa1c93cc15ce3327d77fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103773124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025572"
 ---
 # <a name="object-picker-dialog-box-structures"></a>Структуры диалогового окна выбора объектов
 
@@ -23,7 +23,7 @@ ms.locfileid: "103773124"
 -   [**\_ \_ сведения о инициализации области ДСОП \_**](/windows/desktop/api/Objsel/ns-objsel-dsop_scope_init_info)
 -   [**\_ \_ Флаги ФИЛЬТРАЦИИ верхнего уровня ДСОП \_**](/windows/desktop/api/Objsel/ns-objsel-dsop_uplevel_filter_flags)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -36,9 +36,9 @@ ms.locfileid: "103773124"
 [Средство выбора объектов каталога](directory-object-picker.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

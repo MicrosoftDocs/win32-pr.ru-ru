@@ -3,9 +3,9 @@ title: Метод списка воспроизведения. insertItem
 description: Метод insertItem вставляет элемент мультимедиа в список воспроизведения в указанном расположении.
 ms.assetid: c186abc4-0a15-49d2-bbc4-5660e8cc0a4b
 keywords:
-- insertItem метод Windows Media Player
-- insertItem метод Windows Media Player, класс списка воспроизведения
-- Класс списка воспроизведения проигрыватель Windows Media Player, метод insertItem
+- проигрыватель Windows Media метода insertItem
+- проигрыватель Windows Media метода insertItem, класс списка воспроизведения
+- класс списка воспроизведения проигрыватель Windows Media, метод insertItem
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a456b7a359d59958ce7693cc48c16eabba435621
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7a71d9ceb39b29c1627ea7596166c39b3dc2f6c76faf45e5ffb54bea14154ac2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704130"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995704"
 ---
 # <a name="playlistinsertitem-method"></a>Метод списка воспроизведения. insertItem
 
@@ -61,7 +61,7 @@ Playlist.insertItem(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Номера индексов всех элементов после вставленного элемента будут увеличены на единицу.
 
@@ -73,7 +73,7 @@ Playlist.insertItem(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
@@ -91,10 +91,10 @@ Playlist.insertItem(
 [**Список воспроизведения. removeItem**](playlist-removeitem.md)
 </dt> <dt>
 
-[**Settings. Медиаакцессригхтс**](settings-mediaaccessrights.md)
+[**Параметры. медиаакцессригхтс**](settings-mediaaccessrights.md)
 </dt> <dt>
 
-[**Settings. Рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
+[**Параметры. рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
  

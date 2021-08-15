@@ -39,7 +39,7 @@ propVal = Installer.ComponentsEx
 
 ## <a name="property-value"></a>Значение свойства
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

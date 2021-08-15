@@ -101,7 +101,7 @@ void WINAPI glGetMaterialiv(
 
 Если возникает ошибка, содержимое *параметров* не изменяется.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

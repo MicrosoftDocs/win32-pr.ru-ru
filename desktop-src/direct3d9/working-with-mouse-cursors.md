@@ -4,12 +4,12 @@ ms.assetid: 300a8a6f-abcd-49c9-889b-14b12ff5c821
 title: Работа с курсорами мыши (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14855e2d17c9d23f078297840d951b8db338d613
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 999bd324c8c3a1a2c743b5417f5d316a9d0f9493ccb4b749545e53e23e58917f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104495564"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118518922"
 ---
 # <a name="working-with-mouse-cursors-direct3d-9"></a>Работа с курсорами мыши (Direct3D 9)
 
@@ -23,11 +23,11 @@ ms.locfileid: "104495564"
 
 Direct3D гарантирует, что мышь поддерживается либо с помощью аппаратных реализаций, либо с помощью времени выполнения Direct3D, выполняющего блиттинг операции аппаратного ускорения при вызове [**IDirect3DDevice9::P**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-present)повторно.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Советы по программированию](programming-tips.md)
+[Советы программирования](programming-tips.md)
 </dt> </dl>
 
  

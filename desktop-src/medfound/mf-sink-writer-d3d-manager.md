@@ -4,12 +4,12 @@ ms.assetid: 0328FC02-2D32-480B-BB03-9C78BF317AF5
 title: Атрибут MF_SINK_WRITER_D3D_MANAGER (Мфреадврите. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 23dea964be1a0ff726a974deaf1949863331df1f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 706287b6001ba52c8bf5ba8a19326948afcf4f7f7569c606507115f484c46f10
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119714314"
 ---
 # <a name="mf_sink_writer_d3d_manager-attribute"></a>\_ \_ \_ Атрибут диспетчера D3D модуля записи MF SINK \_
 
@@ -17,11 +17,11 @@ ms.locfileid: "105712857"
 
 ## <a name="data-type"></a>Тип данных
 
-**Имфдксгидевицеманажер \** _ хранится как _*IUnknown \**_
+**Имфдксгидевицеманажер \* *_ хранится как _* IUnknown\***
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Значение этого атрибута является указателем на интерфейс [_ *имфдксгидевицеманажер* *](/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager) .
+Значение этого атрибута является указателем на интерфейс [**имфдксгидевицеманажер**](/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager) .
 
 Используйте этот атрибут, чтобы предоставить устройство Direct3D для любых видеокодировщиков или приемников мультимедиа, загруженных модулем записи приемника.
 
@@ -36,8 +36,8 @@ ms.locfileid: "105712857"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8 \|\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 \|\]<br/>                              |
+| Минимальная версия клиента<br/> | Windows 8 \[ приложения UWP для классических приложений \|\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ приложения UWP для классических приложений \|\]<br/>                              |
 | Header<br/>                   | <dl> <dt>Мфреадврите. h</dt> </dl> |
 
 

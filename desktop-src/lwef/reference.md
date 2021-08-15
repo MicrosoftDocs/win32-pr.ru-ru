@@ -1,19 +1,19 @@
 ---
 title: Справочник (интерфейс сервера агента Microsoft)
-description: В этих справочных разделах описываются объекты в интерфейсе сервера Microsoft Agent. Microsoft Agent является устаревшим в Windows 7.
+description: В этих справочных разделах описываются объекты в интерфейсе сервера Microsoft Agent. не рекомендуется использовать Microsoft Agent на Windows 7.
 ms.assetid: vs|msagent|~\paface_83s5.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9e6e88e80b2a780e7a4ce57eea3d7e3e06c3c66
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 0941f36d6764a7b3468123a435e9ae1b58f77ba049bae29cca288175ae80cae5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405537"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975814"
 ---
 # <a name="reference-microsoft-agent-server-interface"></a>Справочник (интерфейс сервера агента Microsoft)
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 Эта ссылка содержит следующие интерфейсы:
 

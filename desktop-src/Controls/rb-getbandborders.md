@@ -3,7 +3,7 @@ title: Сообщение RB_GETBANDBORDERS (Коммктрл. h)
 description: Извлекает границы полосы. Результат этого сообщения можно использовать для вычисления области использования в полосе.
 ms.assetid: 45f2ae7e-636e-474b-a0d0-5235c6401e6a
 keywords:
-- Элементы управления Windows для RB_GETBANDBORDERS сообщений
+- элементы управления Windows сообщений RB_GETBANDBORDERS
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 521dfecaf5e2573b30f606b7b4d7ecdec9bd896d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1c6b07303c10ef6f466907b11cf0e100927f63480690e77ac3dcbe80df80af97
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988987"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118409716"
 ---
 # <a name="rb_getbandborders-message"></a>\_Сообщение ЖЕТБАНДБОРДЕРС RB
 
@@ -53,8 +53,8 @@ ms.locfileid: "103988987"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

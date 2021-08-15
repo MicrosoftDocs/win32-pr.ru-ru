@@ -1,6 +1,6 @@
 ---
 description: Предоставляет системе сведения о документе до запуска операции скрытого буфера обмена.
-title: Функция Длпнотифипресташклипбоард (ендпоинтдлп. h)
+title: Функция DlpNotifyPreStashClipboard (endpointdlp.h)
 ms.topic: reference
 ms.date: 03/18/2021
 topic_type:
@@ -12,12 +12,12 @@ api_type:
 - DllExport
 api_location:
 - EndpointDlp.dll
-ms.openlocfilehash: 72ecabb2bbfb7517b52790c0d3b7c1ab8075dbd0
-ms.sourcegitcommit: 91110c16e4713ed82d7fb80562d3ddf40b5d76b2
+ms.openlocfilehash: 920385d9cd57b428ce454415bf1dc57bed7ec4eb1373fa65d42f32668112bb0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "107495822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976514"
 ---
 # <a name="dlpnotifyprestashclipboard-function"></a>Функция Длпнотифипресташклипбоард
 

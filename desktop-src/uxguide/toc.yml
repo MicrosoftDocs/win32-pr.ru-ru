@@ -37,7 +37,7 @@
           href: ctrl-radio-buttons.md
         - name: Поля поиска
           href: ctrl-search-boxes.md
-        - name: Ползунки
+        - name: через ползунки;
           href: ctrl-sliders.md
         - name: Элементы управления "Счетчик"
           href: ctrl-spin-controls.md
@@ -104,16 +104,16 @@
           href: win-common-dlg.md
         - name: Мастера
           href: win-wizards.md
-        - name: Окна свойств
+        - name: Windows свойства
           href: win-property-win.md
     - name: Визуальные элементы
       href: visuals.md
       items:
-        - name: Макет
+        - name: Layout
           href: vis-layout.md
         - name: Шрифты
           href: vis-fonts.md
-        - name: Цвет
+        - name: Color
           href: vis-color.md
         - name: Значки
           href: vis-icons.md
@@ -130,7 +130,7 @@
       items:
         - name: Фирменная символика программного обеспечения
           href: exper-branding.md
-        - name: Настройка
+        - name: Установка
           href: exper-setup.md
         - name: Первый интерфейс
           href: exper-first-exper.md
@@ -139,7 +139,7 @@
     - name: Среда Windows
       href: windows-environment.md
       items:
-        - name: Персональный компьютер
+        - name: Рабочий стол
           href: winenv-desktop.md
         - name: Панель задач
           href: winenv-taskbar.md

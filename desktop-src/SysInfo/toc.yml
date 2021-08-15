@@ -1,4 +1,4 @@
-- name: Сведения о системе Windows
+- name: Windows Сведения о системе
   href: windows-system-information.md
   items:
     - name: Дескрипторы и объекты
@@ -48,7 +48,7 @@
           items:
             - name: Структура реестра
               href: structure-of-the-registry.md
-            - name: Место для хранения реестра
+            - name: пространство служба хранилища реестра
               href: registry-storage-space.md
             - name: Стандартные ключи
               href: predefined-keys.md
@@ -216,7 +216,7 @@
     - name: Сведения о системе
       href: system-information.md
       items:
-        - name: Сведения о системе
+        - name: о Сведения о системе
           href: about-system-information.md
           items:
             - name: Конфигурация оборудования
@@ -227,14 +227,14 @@
               href: operating-system-version.md
             - name: Конфигурация операционной системы
               href: operating-system-configuration.md
-        - name: Использование сведений о системе
+        - name: использование Сведения о системе
           href: using-system-information.md
           items:
-            - name: Доступ к сведениям SMBIOS из универсального приложения Windows
+            - name: доступ к сведениям SMBIOS из универсального Windows приложения
               href: access-smbios-information-from-a-universal-windows-app.md
-            - name: Доступ к переменным встроенного по UEFI из универсального приложения Windows
+            - name: доступ к переменным встроенного по UEFI из универсального Windows приложения
               href: access-uefi-firmware-variables-from-a-universal-windows-app.md
-            - name: Получение сведений о системе
+            - name: получение Сведения о системе
               href: getting-system-information.md
             - name: Получение версии системы
               href: getting-the-system-version.md
@@ -246,10 +246,10 @@
               href: getting-hardware-information.md
             - name: Настройка приложения для Windows
               href: targeting-your-application-at-windows-8-1.md
-        - name: Справочные сведения о системе
+        - name: Сведения о системе IsReference
           href: system-information-reference.md
           items:
-            - name: Функции системных сведений
+            - name: Сведения о системе Функции
               href: system-information-functions.md
               items:
                 - name: аписеткуеряписетпресенце
@@ -367,7 +367,7 @@
                       href: /windows/desktop/api/VersionHelpers/nf-versionhelpers-iswindowsversionorgreater
                 - name: звкуерисистеминформатион
                   href: zwquerysysteminformation.md
-            - name: Структуры системных сведений
+            - name: Сведения о системе Сотрудник
               href: system-information-structures.md
               items:
                 - name: HW_PROFILE_INFO
@@ -378,12 +378,12 @@
                   href: /windows/win32/api/Winnt/ns-winnt-osversioninfoexa
                 - name: SYSTEM_INFO
                   href: /windows/win32/api/sysinfoapi/ns-sysinfoapi-system_info
-            - name: Макросы системных сведений
+            - name: Сведения о системе Макрокоманд
               href: system-information-macros.md
               items:
                 - name: VER_SET_CONDITION
                   href: /windows/desktop/api/Winnt/nf-winnt-ver_set_condition
-            - name: Типы перечисления системных сведений
+            - name: Сведения о системе Типы перечислений
               href: system-information-enumeration-types.md
               items:
                 - name: COMPUTER_NAME_FORMAT
@@ -394,7 +394,7 @@
                   href: /windows/win32/api/Winnt/ne-winnt-firmware_type
             - name: Константы файлового компьютера образа
               href: image-file-machine-constants.md
-    - name: Время
+    - name: Time
       href: time.md
       items:
         - name: О времени

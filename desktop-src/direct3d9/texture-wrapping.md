@@ -4,12 +4,12 @@ ms.assetid: 00683d3f-3e3c-4ee4-9aec-a0d7fd9c8941
 title: Перенос текстур (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d7c0f8cb6d7793536999d5f3df128849572d3dd
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a6c29ebe78bcfa237f46eacb247432185adedd1e53ae0774e767807269bb3bb0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104537217"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119984760"
 ---
 # <a name="texture-wrapping-direct3d-9"></a>Перенос текстур (Direct3D 9)
 
@@ -56,7 +56,7 @@ d3dDevice->SetRenderState(D3DRS_WRAP0, D3DWRAPCOORD_0);
 
 Карты смещения интерполируются движком тесселяции. Поскольку режим обтекания для движка тесселяции указать невозможно, обтекание текстуры невозможно выполнить с помощью карт смещения. Приложение может использовать набор вершин, который обеспечивает интерполяцию для обтекания в любом направлении. В приложении также можно указать, чтобы интерполяция производилась простым линейным способом.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

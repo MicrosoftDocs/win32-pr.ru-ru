@@ -219,7 +219,7 @@ void WINAPI glMap2d(
 
 **глисенаблед** с аргументом GL \_ MAP2 \_ текстура \_ курд \_ 4
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

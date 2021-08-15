@@ -7,12 +7,12 @@ keywords:
 - Атрибуты, доступ с помощью ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4ee6990483b45e335bb6b830cef85e482f30e00
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 3e37c63b61986a56e7b22f114b5956d9e047f1ae45b5dc2e653074ea35440f10
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "105654352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024132"
 ---
 # <a name="accessing-attributes-with-adsi"></a>Доступ к атрибутам с помощью ADSI
 
@@ -25,9 +25,9 @@ ms.locfileid: "105654352"
 Другим типом данных, возвращаемым методами [**iAds. Get**](/windows/desktop/api/Iads/nf-iads-iads-get) и [**iAds. жетекс**](/windows/desktop/api/Iads/nf-iads-iads-getex) , являются двоичные данные. В этом случае данные передаются в виде непрерывного массива байтов, а элемент **VT** структуры [**Variant**](/windows/win32/api/oaidl/ns-oaidl-variant) будет содержать флаги **VT \_ UI1/вббите** и **VT \_ Array/VBArray** .
 
 > [!Note]  
-> Microsoft Visual Basic, Scripting Edition поддерживает только массивы [**типа Variant**](/windows/win32/api/oaidl/ns-oaidl-variant) и **Variant** . По этой причине VBScript нельзя использовать для считывания значений двоичных свойств.
+> Microsoft Visual Basic, scripting Edition поддерживает только массивы [**типа variant**](/windows/win32/api/oaidl/ns-oaidl-variant) и **variant** . По этой причине VBScript нельзя использовать для считывания значений двоичных свойств.
 
- 
+ 
 
 Многие интерфейсы ADSI определяют свойства, зависящие от интерфейса. Например, интерфейс [**иадскомпутер**](/windows/desktop/api/Iads/nn-iads-iadscomputer) определяет свойство [**Location**](iadscomputer-property-methods.md) . Эти определяемые интерфейсом свойства могут содержать данные, идентичные одному из именованных атрибутов, но свойства относятся к типу объекта, на который ссылается интерфейс. В языках, поддерживающих автоматизацию, доступ к этим определенным интерфейсам свойств можно получить с помощью точечной нотации, как показано в следующем примере кода.
 
@@ -92,6 +92,6 @@ if(SUCCEEDED(hr))
 -   [Доступ к атрибутам с помощью интерфейса Идиректорйобжект](accessing-attributes-with-the-idirectoryobject-interface.md)
 -   [Пример кода для чтения атрибутов](example-code-for-reading-attributes.md)
 
- 
+ 
 
- 
+ 

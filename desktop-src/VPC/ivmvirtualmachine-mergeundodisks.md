@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 48863bf998ebc02bac93aa9e74d8cdbe07265477
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 620d30558ddb8acdd75d72955048beb34f0141206b53f3f5873e42627fb155f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104341065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118998684"
 ---
 # <a name="ivmvirtualmachinemergeundodisks-method"></a>Метод Ивмвиртуалмачине:: Мержеундодискс
 
-\[Windows Virtual PC больше не доступна для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC больше не доступен для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Слияние виртуальных дисков отмены.
 
@@ -74,7 +74,7 @@ HRESULT MergeUndoDisks(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **Мержеундодискс** нельзя вызвать, пока выполняется виртуальная машина. Используйте [**ивмвиртуалмачине:: Save**](ivmvirtualmachine-save.md) , чтобы сохранить состояние виртуальной машины перед вызовом **мержеундодискс** или [**ивмвиртуалмачине:: турнофф**](ivmvirtualmachine-turnoff.md) , чтобы отключить виртуальную машину, не сохраняя ее текущее состояние заранее.
 
@@ -84,7 +84,7 @@ HRESULT MergeUndoDisks(
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                    |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                     |
 | Окончание поддержки клиента<br/>    | Windows 7<br/>                                                                          |
 | Продукт<br/>                  | Windows Virtual PC<br/>                                                                 |

@@ -67,7 +67,7 @@ SystemMonitor.GetLogViewRange( _
 
 Использование этого метода аналогично доступу к свойствам [**системмонитор. логвиевстарт**](systemmonitor-logviewstart.md) и [**системмонитор. логвиевстоп**](systemmonitor-logviewstop.md) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

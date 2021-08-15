@@ -5,12 +5,12 @@ ms.assetid: 72ccdc6e-1f3e-4633-92b3-500309433337
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe769dcfa6e4ab607188728115bcba16e40c0e56
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2c0667d44bfb3861989a58ac3764a113b4eb23a87ce3722709a5ca959a0fe4da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103773004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962103"
 ---
 # <a name="cgenobjcpp"></a>КЖЕНОБЖ. CPP
 
@@ -28,7 +28,7 @@ ms.locfileid: "103773004"
 | **Ксампледсженобжект:: Аллокатеженобжект**                                               | Создайте универсальный объект и загрузите его данные типа.                                                                                                                                                                                                                                                                             |
 | **Ксампледсженобжект:: QueryInterface**                                                  | Возвращает запрошенный указатель интерфейса, если он доступен.                                                                                                                                                                                                                                                                       |
 | Стандартные методы [**iAds**](/windows/desktop/api/Iads/nn-iads-iads) , включая реализации для:                   | [**Получение**](/windows/desktop/api/Iads/nf-iads-iads-get) (включая сопоставление собственного типа данных с типом Variant [**) (включая**](/windows/desktop/api/Iads/nf-iads-iads-put) сопоставление типа Variant с типом данных Native)<br/> [**Сведения**](/windows/desktop/api/Iads/nf-iads-iads-getinfo) (обновление кэша свойств)<br/> [**Сетинфо**](/windows/desktop/api/Iads/nf-iads-iads-setinfo) (сохранение кэша свойств)<br/> |
-| Стандартные методы [**иадсконтаинер**](/windows/desktop/api/Iads/nn-iads-iadscontainer) , включая реализации для: | [**GetObject**](/windows/desktop/api/Iads/nf-iads-iadscontainer-getobject)—[**получить \_ \_ NewEnum**](/windows/desktop/api/Iads/nf-iads-iadscontainer-get__newenum)<br/> [**получить \_ Фильтр**](iadscontainer-property-methods.md)<br/> [**Создать**](/windows/desktop/api/Iads/nf-iads-iadscontainer-create)<br/> [**Удалить**](/windows/desktop/api/Iads/nf-iads-iadscontainer-delete)<br/>                                            |
+| Стандартные методы [**иадсконтаинер**](/windows/desktop/api/Iads/nn-iads-iadscontainer) , включая реализации для: | [**GetObject**](/windows/desktop/api/Iads/nf-iads-iadscontainer-getobject)—[**получить \_ \_ NewEnum**](/windows/desktop/api/Iads/nf-iads-iadscontainer-get__newenum)<br/> [**получить \_ Фильтр**](iadscontainer-property-methods.md)<br/> [**Создание**](/windows/desktop/api/Iads/nf-iads-iadscontainer-create)<br/> [**Удален**](/windows/desktop/api/Iads/nf-iads-iadscontainer-delete)<br/>                                            |
 | **конвертсафеаррайтовариантаррай**                                                      | Служебная программа.                                                                                                                                                                                                                                                                                                            |
 
 

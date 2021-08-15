@@ -86,7 +86,7 @@ ms.locfileid: "118355851"
 
 Полный пример XML-кода для задачи, указывающей триггер времени, см. в разделе [пример триггера времени (XML)](time-trigger-example--xml-.md).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

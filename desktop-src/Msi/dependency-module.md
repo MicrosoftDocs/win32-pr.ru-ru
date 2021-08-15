@@ -42,7 +42,7 @@ propVal = Dependency.Module
 
 См. [**метод \_ \_ модуля имсмдепенденци Get**](/windows/win32/api/mergemod/nf-mergemod-imsmdependency-get_module) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 76d42a3d-22f5-47f9-89e8-7c5c098ac62e
 title: Стандартные блоки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b32e6121ddfaabfc860239019ce62df65bdc36c1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7dbf34cc0159bdf2efe9b68255292a8b644ab10e684f44c11fa60d484bd45516
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119714294"
 ---
 # <a name="building-blocks"></a>Стандартные блоки
 
@@ -31,7 +31,7 @@ ms.locfileid: "105701302"
 
 Первый Преобразует прямоугольник выделения в начало, а второй — нет. Затем приложение использует метод [**Save**](/previous-versions/dotnet/netframework-3.5/ms571335(v=vs.90)) объекта [**рукописного ввода**](/previous-versions/ms583670(v=vs.100)) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

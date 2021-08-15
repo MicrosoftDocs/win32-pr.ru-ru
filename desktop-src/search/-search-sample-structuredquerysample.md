@@ -23,7 +23,7 @@ ms.locfileid: "118462579"
 - [Запуск примера](#running-the-sample)
 - [Связанные темы](#related-topics)
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 | Продукт     | Версия продукта          |
 |-------------|--------------------------|

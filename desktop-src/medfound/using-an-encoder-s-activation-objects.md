@@ -1,32 +1,32 @@
 ---
-description: Для преобразования файлов мультимедиа в формат ASF можно использовать кодировщики Windows Media. Сведения об использовании объектов активации кодировщика.
+description: для преобразования файлов мультимедиа в формат ASF можно использовать Windows кодировщики мультимедиа. Сведения об использовании объектов активации кодировщика.
 ms.assetid: 18c26619-6047-4f7f-bb65-ca418f02e5b1
 title: Использование объектов активации кодировщиков
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c4111d116c8864cc0a500fa3a0c2f612d1d6345
-ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
+ms.openlocfilehash: 24915020c1b888be6a1aeaca1e21af95d11cfc181a5c00a91c8359c3f780fa0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112067984"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972743"
 ---
 # <a name="using-an-encoders-activation-objects"></a>Использование объектов активации кодировщика
 
-Для преобразования файлов мультимедиа в формат ASF можно использовать кодировщики Windows Media. Чтобы использовать эти кодировщики, они должны быть зарегистрированы в системе.
+для преобразования файлов мультимедиа в формат ASF можно использовать Windows кодировщики мультимедиа. Чтобы использовать эти кодировщики, они должны быть зарегистрированы в системе.
 
 Дополнительные сведения о регистрации кодировщика см. [в разделе Создание экземпляра MFT кодировщика](instantiating-the-encoder-mft.md).
 
 -   [Использование объектов активации кодировщика](#using-an-encoders-activation-objects)
--   [Перечисление кодировщиков в Windows 7 и более поздних версиях](#encoder-enumeration-in-windows-7-and-later)
+-   [перечисление кодировщиков в Windows 7 и более поздних версиях](#encoder-enumeration-in-windows-7-and-later)
 -   [Связанные темы](#related-topics)
 
 ## <a name="using-an-encoders-activation-objects"></a>Использование объектов активации кодировщика
 
 В качестве альтернативы использованию интерфейса [**имфтрансформ**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) кодировщика (описанного в разделе [Создание кодировщика с помощью CoCreateInstance](using-an-encoder-s-imftransform--interface.md)) можно создать экземпляр объекта активации для кодировщика. Объекты активации упрощают создание кодировщика и Media Foundation предоставляют следующие две функции для этого подхода:
 
--   [**Мфкреатевмаенкодерактивате**](/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreatewmaencoderactivate) для создания экземпляра кодировщика Windows Media Audio.
--   [**Мфкреатевмвенкодерактивате**](/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreatewmvencoderactivate) для создания экземпляра кодировщика видео Windows Media.
+-   [**мфкреатевмаенкодерактивате**](/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreatewmaencoderactivate) для создания экземпляра кодировщика Windows Media audio.
+-   [**мфкреатевмвенкодерактивате**](/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreatewmvencoderactivate) для создания экземпляра кодировщика видео мультимедиа Windows.
 
 Для обоих этих функций требуется создать целевой тип носителя и задать свойства кодировки перед вызовом этих функций. Если приложение использует [компоненты ASF уровня конвейера](pipeline-layer-asf-components.md) для кодирования файла в формат ASF и уже создали и настроили [приемники мультимедиа ASF](asf-media-sinks.md), вы можете получить этот набор сведений из приемника ASF Media.
 
@@ -51,9 +51,9 @@ ms.locfileid: "112067984"
 
 При создании узла преобразования в топологии кодирования можно задать тип объекта как указатель [**имфактивате**](/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate) , полученный в этих двух вызовах. При разрешении топологии сеанс мультимедиа использует объект активации для создания экземпляра файла MFT кодировщика.
 
-## <a name="encoder-enumeration-in-windows-7-and-later"></a>Перечисление кодировщиков в Windows 7 и более поздних версиях
+## <a name="encoder-enumeration-in-windows-7-and-later"></a>перечисление кодировщиков в Windows 7 и более поздних версиях
 
-Для приложений, работающих в Windows 7, в дополнение к [**мфтенум**](/windows/desktop/api/mfapi/nf-mfapi-mftenum) можно перечислить кодировщик МФТС, вызвав [**мфтенумекс**](/windows/desktop/api/mfapi/nf-mfapi-mftenumex). Эта функция возвращает указатель на объект активации MFT для кодировщика. Структура функции очень похожа на **мфтенум** , описанную выше, за исключением того, что **мфтенумекс** возвращает массив указателей [**имфактивате**](/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate) для кодировщика МФТС, соответствующих условиям поиска.
+для приложений, выполняющихся в Windows 7, в дополнение к [**мфтенум**](/windows/desktop/api/mfapi/nf-mfapi-mftenum) можно перечислить кодировщик мфтс, вызвав [**мфтенумекс**](/windows/desktop/api/mfapi/nf-mfapi-mftenumex). Эта функция возвращает указатель на объект активации MFT для кодировщика. Структура функции очень похожа на **мфтенум** , описанную выше, за исключением того, что **мфтенумекс** возвращает массив указателей [**имфактивате**](/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate) для кодировщика МФТС, соответствующих условиям поиска.
 
 ## <a name="related-topics"></a>Связанные темы
 
@@ -62,7 +62,7 @@ ms.locfileid: "112067984"
 [Создание экземпляра MFT для кодировщика](instantiating-the-encoder-mft.md)
 </dt> <dt>
 
-[Кодировщики Windows Media](windows-media-encoders.md)
+[Windows Кодировщики мультимедиа](windows-media-encoders.md)
 </dt> <dt>
 
 [Объекты активации](activation-objects.md)

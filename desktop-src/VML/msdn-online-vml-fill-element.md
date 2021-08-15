@@ -50,7 +50,7 @@ ms.locfileid: "118346628"
 | [Размер](size-attribute--fill--vml.md)                              | Определяет размер изображения.                          |
 | [Src](src-attribute--fill--vml.md)                                | Определяет изображение, которое загружается для заполнения.                  |
 | [Title](title-attribute--fill--vml.md)                            | Определяет заголовок заливки.                           |
-| [Type](type-attribute--fill--vml.md)                              | Определяет тип заливки.                              |
+| [Тип](type-attribute--fill--vml.md)                              | Определяет тип заливки.                              |
 
 
 

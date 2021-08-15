@@ -4,12 +4,12 @@ ms.assetid: b5b97700-c98a-4394-a184-661852add0b4
 title: Атрибут MF_MT_AUDIO_VALID_BITS_PER_SAMPLE (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d4e5efb41bf3b79d4feded2872b601eea43723a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b6f84fa3938e4d74473da70bd28e5ccbb1bab71441c694b670cdb8b54bead31c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104349922"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973583"
 ---
 # <a name="mf_mt_audio_valid_bits_per_sample-attribute"></a>\_ \_ \_ Допустимый бит MF \_ \_ на \_ примере атрибута
 
@@ -19,7 +19,7 @@ ms.locfileid: "104349922"
 
 **UINT32**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для звуковых форматов, содержащих заполнение после каждого аудио-образца, используется звуковая подложка **MF \_ MT. \_ \_ Допустимые \_ биты \_ на \_ Пример** атрибута. Общий размер каждого образца звука, включая биты заполнения, задается в атрибуте [**MF \_ \_ Audio \_ бит \_ \_**](mf-mt-audio-bits-per-sample-attribute.md) в указанном примере.
 
@@ -31,14 +31,14 @@ ms.locfileid: "104349922"
 
 Константа GUID для этого атрибута экспортируется из мфууид. lib.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows Vista \|\]<br/>                              |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 \|\]<br/>                        |
+| Минимальная версия клиента<br/> | Windows \[Приложения UWP для классических приложений Vista \|\]<br/>                              |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для классических приложений сервера 2008 \|\]<br/>                        |
 | Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 

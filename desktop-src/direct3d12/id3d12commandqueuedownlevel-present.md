@@ -77,7 +77,7 @@ HRESULT Present
 
 Возвращает **S_OK** при успешном выполнении или в случае сбоя HRESULT.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 | Требование | Значение |
 |--------|------------------|

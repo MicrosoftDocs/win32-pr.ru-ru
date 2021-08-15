@@ -563,7 +563,7 @@ _stprintf_s(
 set mysound time format ms bitspersample 8 channels 1 samplespersec 11025
 ```
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
