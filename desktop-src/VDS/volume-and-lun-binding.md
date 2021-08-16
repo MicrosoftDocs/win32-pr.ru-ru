@@ -4,16 +4,16 @@ ms.assetid: ae32b354-799e-4f9b-8989-02bd95968210
 title: Привязка томов и устройств LUN
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c9f62e599f5b5e457a1ce6dbf6a52524d1b80d1
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: 91014241014793b601c15c64ec19e5a2b1d153c71ba617cead54a5d68cf978b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104273172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118125572"
 ---
 # <a name="volume-and-lun-binding"></a>Привязка томов и устройств LUN
 
-\[Начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API управления хранилищами Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API Windows служба хранилища управления](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 Привязка — это создание томов или LUN. Тома состоят из дисковых областей, а LUN состоят из экстентов диска. Привязка выбирает для набора сопоставлений с физическими ресурсами и происходит в подсистеме, в пакете или в обоих случаях. Все программы поставщика поддерживают частично направленную привязку модели, в которой вызывающий объект указывает только те атрибуты привязки, которые имеют определенный интерес, и позволяет поставщику выбрать остальные. Операции в службе VDS для привязки томов и LUN похожи, но не идентичны. Например, поставщики оборудования могут предложить дополнительные варианты привязки.
 
@@ -65,7 +65,7 @@ ms.locfileid: "104273172"
 
 ![Схема, на которой показан чередующийся тип с нечувствительным к сбоям контролем четности.](images/vdsstripeparitylunvol.png)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

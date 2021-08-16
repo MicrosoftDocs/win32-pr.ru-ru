@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dxgitype.h
-ms.openlocfilehash: 760840822eb6b9411983c72324bc1e86a3208195
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 21e279e4974d221a6feba6f135343d122f30f3da1edb18210e0e14f92fdb94a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118518377"
 ---
 # <a name="dxgi_jpeg_ac_huffman_table-structure"></a>\_ \_ \_ Структура таблицы Хаффмана для DXGI JPEG AC \_
 
@@ -60,7 +60,7 @@ typedef struct DXGI_JPEG_AC_HUFFMAN_TABLE {
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Дксгитипе. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Дксгитипе. h</dt> </dl> |
 
 
 

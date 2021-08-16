@@ -3,7 +3,7 @@ title: Структура MCI_INFO_PARMS (МЦиапи. h)
 description: '\_Структура пармс сведения о MCI \_ содержит сведения о команде MCI \_ info.'
 ms.assetid: c64cff7d-a6d5-44b7-8cfb-9593f6328832
 keywords:
-- MCI_INFO_PARMS структура мультимедиа Windows
+- структура MCI_INFO_PARMS Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d23221d140aaf093525691d7127c8466f392b95
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8d2415fe0234c1a5b553a8b55d785febd82ebdd770f8c297bfc483549a1aa2a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104493035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118375019"
 ---
 # <a name="mci_info_parms-structure"></a>\_ \_ Структура ПАРМС сведений MCI
 
@@ -63,7 +63,7 @@ typedef struct {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При назначении данных членам этой структуры установите соответствующие флаги в параметре *фдвкомманд* функции [**мЦисендкомманд**](/previous-versions//dd757160(v=vs.85)) , чтобы проверить элементы.
 

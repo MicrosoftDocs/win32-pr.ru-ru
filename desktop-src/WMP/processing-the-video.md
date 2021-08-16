@@ -3,19 +3,19 @@ title: Обработка видео
 description: Обработка видео
 ms.assetid: 2fa337dd-34c0-4a09-8c20-21f6103627dd
 keywords:
-- Подключаемые модули проигрывателя Windows Media, DSP видео
+- подключаемые модули проигрыватель Windows Media, DSP видео
 - подключаемые модули, DSP видео
 - подключаемые модули обработки цифровых сигналов, обработка видео
 - Подключаемые модули DSP, обработка видео
 - подключаемые модули DSP видео, обработка
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a8d21aaa3999d05ea3628ff341c74379b07a6dd
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ea168199270cfe8029b7b9303a7745db2c255f4268252a5bd80472a73c6f2f29
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118334027"
 ---
 # <a name="processing-the-video"></a>Обработка видео
 
@@ -99,13 +99,13 @@ while( dwHeight-- )
 
 Дополнительные сведения о форматах видео см. на [веб-сайте FourCC](../directshow/fourcc-codes.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Реализация подключаемого модуля DSP видео**](implementing-a-video-dsp-plug-in.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

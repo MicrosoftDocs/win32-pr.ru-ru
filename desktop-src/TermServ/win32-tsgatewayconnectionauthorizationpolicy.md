@@ -36,12 +36,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 27384ec3a5f17c3e41fe0ceccf0ee1f7f9d08044
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9bfaefb0a3062db27622afe90023928507c6d127c64edb60041347f73c1b261c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118349249"
 ---
 # <a name="win32_tsgatewayconnectionauthorizationpolicy-class"></a>\_Класс Win32 тсгатевайконнектионаусоризатионполици
 
@@ -93,14 +93,14 @@ class Win32_TSGatewayConnectionAuthorizationPolicy
 |:----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**аддкомпутерграупнамес**](addcomputergroupnames-win32-tsgatewayconnectionauthorizationpolicy.md)                   | Добавляет указанные имена групп компьютеров в свойство **компутерграупнамес** .<br/>                                                                                      |
 | [**аддусерграупнамес**](addusergroupnames-win32-tsgatewayconnectionauthorizationpolicy.md)                           | Добавляет указанные имена групп пользователей в свойство **усерграупнамес** .<br/>                                                                                              |
-| [**Создать**](create-win32-tsgatewayconnectionauthorizationpolicy.md)                                                 | Создает ограничение удаленных рабочих столов.<br/>                                                                                                                                                   |
-| [**Удалить**](delete-win32-tsgatewayconnectionauthorizationpolicy.md)                                                 | Удаляет текущую политику авторизации подключений к удаленным рабочим столам.<br/>                                                                                                                                          |
+| [**Создание**](create-win32-tsgatewayconnectionauthorizationpolicy.md)                                                 | Создает ограничение удаленных рабочих столов.<br/>                                                                                                                                                   |
+| [**Удален**](delete-win32-tsgatewayconnectionauthorizationpolicy.md)                                                 | Удаляет текущую политику авторизации подключений к удаленным рабочим столам.<br/>                                                                                                                                          |
 | [**дисаблеклипбоард**](disableclipboard-win32-tsgatewayconnectionauthorizationpolicy.md)                             | Задает свойство **клипбоарддисаблед** .<br/>                                                                                                                             |
 | [**дисабледискдривес**](disablediskdrives-win32-tsgatewayconnectionauthorizationpolicy.md)                           | Задает свойство **дискдривесдисаблед** .<br/>                                                                                                                            |
 | [**дисаблеплугандплайдевицес**](disableplugandplaydevices-win32-tsgatewayconnectionauthorizationpolicy.md)           | Задает свойство **плугандплайдевицесдисаблед** .<br/>                                                                                                                    |
 | [**дисаблепринтерс**](disableprinters-win32-tsgatewayconnectionauthorizationpolicy.md)                               | Задает свойство **принтерсдисаблед** .<br/>                                                                                                                              |
 | [**дисаблесериалпортс**](disableserialports-win32-tsgatewayconnectionauthorizationpolicy.md)                         | Задает свойство **сериалпортсдисаблед** .<br/>                                                                                                                           |
-| [**енаблеалловонлисдрсерверс**](win32-tsgatewayconnectionauthorizationpolicy-enableallowonlysdrservers.md)           | Используется для переключения свойства **алловонлисдрсерверс**<br/> **Windows Server 2008:** Этот метод недоступен до выхода Windows Server 2008 R2.<br/>                  |
+| [**енаблеалловонлисдрсерверс**](win32-tsgatewayconnectionauthorizationpolicy-enableallowonlysdrservers.md)           | Используется для переключения свойства **алловонлисдрсерверс**<br/> **Windows Server 2008:** этот метод недоступен до Windows Server 2008 R2.<br/>                  |
 | [**Вниз**](movedown-win32-tsgatewayconnectionauthorizationpolicy.md)                                             | Перемещает текущую закрепление удаленных рабочих столов в списке вниз.<br/>                                                                                                              |
 | [**MoveUp**](moveup-win32-tsgatewayconnectionauthorizationpolicy.md)                                                 | Перемещает текущую закрепление удаленных рабочих столов в списке.<br/>                                                                                                                |
 | [**ремовекомпутерграупнамес**](removecomputergroupnames-win32-tsgatewayconnectionauthorizationpolicy.md)             | Удаляет указанные имена групп компьютеров из свойства **компутерграупнамес** .<br/>                                                                                 |
@@ -109,14 +109,14 @@ class Win32_TSGatewayConnectionAuthorizationPolicy
 | [**сеткукиеаусентикатионалловед**](setcookieauthenticationallowed-win32-tsgatewayconnectionauthorizationpolicy.md) | Задает свойство **кукиеаусентикатионалловед** .<br/> **Windows Server 2008:** Этот метод недоступен.<br/>                                                 |
 | [**сетдевицередиректионтипе**](setdeviceredirectiontype-win32-tsgatewayconnectionauthorizationpolicy.md)             | Задает свойство **девицередиректионтипе** .<br/>                                                                                                                         |
 | [**сетенаблед**](setenabled-win32-tsgatewayconnectionauthorizationpolicy.md)                                         | Включает или отключает текущую политику авторизации подключений к удаленным рабочим столам.<br/>                                                                                                                              |
-| [**сетидлетимеаут**](setidletimeout-win32-tsgatewayconnectionauthorizationpolicy.md)                                 | Задает свойство **IdleTimeout** .<br/> **Windows Server 2008:** Этот метод недоступен до выхода Windows Server 2008 R2.<br/>                                   |
+| [**сетидлетимеаут**](setidletimeout-win32-tsgatewayconnectionauthorizationpolicy.md)                                 | Задает свойство **IdleTimeout** .<br/> **Windows Server 2008:** этот метод недоступен до Windows Server 2008 R2.<br/>                                   |
 | [**SetName**](setname-win32-tsgatewayconnectionauthorizationpolicy.md)                                               | Задает новое имя для этого ограничения удаленных рабочих столов. Этот метод гарантирует, что имена будут уникальными.<br/>                                                                                      |
 | [**сетпассвордалловед**](setpasswordallowed-win32-tsgatewayconnectionauthorizationpolicy.md)                         | Задает свойство **пассвордалловед** .<br/>                                                                                                                               |
 | [**сетсекуреидалловед**](setsecureidallowed-win32-tsgatewayconnectionauthorizationpolicy.md)                         | Задает свойство **секуреидалловед** .<br/> **Windows Server 2008:** Этот метод зарезервирован для использования в будущем.<br/>                                                   |
-| [**сетсессионтимеаут**](setsessiontimeout-win32-tsgatewayconnectionauthorizationpolicy.md)                           | Задает свойства **SessionTimeout** и **сессионтимеаутактион** .<br/> **Windows Server 2008:** Этот метод недоступен до выхода Windows Server 2008 R2.<br/> |
+| [**сетсессионтимеаут**](setsessiontimeout-win32-tsgatewayconnectionauthorizationpolicy.md)                           | Задает свойства **SessionTimeout** и **сессионтимеаутактион** .<br/> **Windows Server 2008:** этот метод недоступен до Windows Server 2008 R2.<br/> |
 | [**сетсмарткардалловед**](setsmartcardallowed-win32-tsgatewayconnectionauthorizationpolicy.md)                       | Задает свойство **смарткардалловед** .<br/>                                                                                                                              |
 | [**сетусерграупнамес**](setusergroupnames-win32-tsgatewayconnectionauthorizationpolicy.md)                           | Задает свойство **усерграупнамес** .<br/>                                                                                                                                |
-| [**Обновляют**](update-win32-tsgatewayconnectionauthorizationpolicy.md)                                                 | Обновляет текущую политику авторизации подключений к удаленным рабочим столам.<br/>                                                                                                                                          |
+| [**Update**](update-win32-tsgatewayconnectionauthorizationpolicy.md)                                                 | Обновляет текущую политику авторизации подключений к удаленным рабочим столам.<br/>                                                                                                                                          |
 
 
 
@@ -139,7 +139,7 @@ class Win32_TSGatewayConnectionAuthorizationPolicy
 
 Указывает, разрешены ли подключения только для защиты RDS-серверов перенаправления устройств (SDR). Это свойство можно задать с помощью метода [**енаблеалловонлисдрсерверс**](win32-tsgatewayconnectionauthorizationpolicy-enableallowonlysdrservers.md) .
 
-**Windows Server 2008:** Это свойство недоступно до Windows Server 2008 R2.
+**Windows Server 2008:** это свойство недоступно до Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -233,7 +233,7 @@ class Win32_TSGatewayConnectionAuthorizationPolicy
 
 </dd> <dt>
 
-**Enabled**
+**Включен**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **логический**
@@ -274,7 +274,7 @@ class Win32_TSGatewayConnectionAuthorizationPolicy
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -444,11 +444,11 @@ class Win32_TSGatewayConnectionAuthorizationPolicy
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для использования этого класса необходимо быть членом группы администраторов.
 
-Файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). MOF-файлы не устанавливаются в составе пакета средств разработки программного обеспечения Microsoft Windows (SDK). Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
+файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). файлы MOF не устанавливаются в составе пакета средств разработки программного обеспечения Microsoft Windows Software Development Kit (SDK). Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
 ## <a name="requirements"></a>Требования
 

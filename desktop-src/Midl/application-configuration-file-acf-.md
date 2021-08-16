@@ -8,12 +8,12 @@ keywords:
 - файл конфигурации приложения MIDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f9066e5641d6b71e68ba670984765661f1b9f6c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 56158267a11125a825442b4db98224d292fdfc309f79cb1562818dee9c08aa23
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105650290"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117808346"
 ---
 # <a name="application-configuration-file-acf"></a>Файл конфигурации приложения (ACF)
 
@@ -31,9 +31,9 @@ ms.locfileid: "105650290"
 
 По умолчанию имя интерфейса ACF должно соответствовать его имени в определении IDL. Однако при использовании параметра компилятора MIDL/ [**ACF**](-acf.md) для явного указания имени файла ACF имена интерфейсов не должны совпадать. Эта функция позволяет нескольким интерфейсам совместно использовать одну спецификацию ACF.
 
- 
+ 
 
- 
+ 
 
 
 

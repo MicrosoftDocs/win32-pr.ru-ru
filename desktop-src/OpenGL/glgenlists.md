@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc556e789da9c768a7ed1aef6880ad48022a1ee4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7a916b163f2ec04e51da06263aed0f76f5e4dd6b51b7eca9fdbca8965644fdd7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103801510"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118360401"
 ---
 # <a name="glgenlists-function"></a>Функция Глженлистс
 
@@ -60,7 +60,7 @@ GLuint WINAPI glGenLists(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глженлистс** имеет один аргумент, *Range*. Он возвращает целое число *n* , такое как *диапазон* смежных пустых списков вывода с именами *n*, *n* + 1,. . ., *n* + (*Range* -1) создаются. Если значение *Range* равно нулю, то при отсутствии доступной группы из *диапазона* смежных имен или при возникновении ошибки, списки отображений не создаются и возвращается ноль.
 

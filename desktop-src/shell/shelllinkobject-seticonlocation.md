@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 996f9648e9b9f59e1e84871abac1d6b37e2592d7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4d994e80721649121d0046e79661e849d34e454b7c07153714771a256b7b2e2a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104997822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117857163"
 ---
 # <a name="shelllinkobjectseticonlocation-method"></a>Шелллинкобжект. Сетиконлокатион, метод
 
@@ -60,9 +60,9 @@ iRetVal = ShellLinkObject.SetIconLocation(
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере показано правильное использование этого метода для JScript, VBScript и Visual Basic.
+в следующем примере показано правильное использование этого метода для JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -173,7 +173,7 @@ End Sub
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>                                           |
+| Минимальная версия клиента<br/> | Windows 2000 Professional с SP3 \[ только для настольных приложений\]<br/>                                           |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                          |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                        |

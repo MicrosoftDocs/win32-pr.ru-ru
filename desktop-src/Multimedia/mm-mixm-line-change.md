@@ -3,7 +3,7 @@ title: Сообщение MM_MIXM_LINE_CHANGE (Ммсистем. h)
 description: '\_ \_ \_ Устройство микшера отправляет сообщение об изменении строки mm миксм, чтобы уведомить приложение о том, что изменилось состояние звуковой линии на указанном устройстве. Приложение должно обновить отображаемые и кэшированные значения для указанной звуковой строки.'
 ms.assetid: 68ada0be-9dc5-4edf-b924-ef0d10a1b79a
 keywords:
-- MM_MIXM_LINE_CHANGE сообщения Windows мультимедиа
+- сообщение MM_MIXM_LINE_CHANGE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 92c4aa10d9934f8cf5f5747ecb4e4eb736af2655
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ed3bd1c122d5e0cf62aa39266da547cd3701e43e6afbf01b853c7d24040504d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105681996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118373586"
 ---
 # <a name="mm_mixm_line_change-message"></a>\_ \_ \_ Сообщение об изменении миксм строки mm
 
@@ -52,7 +52,7 @@ lParam = (LPARAM) dwLineID
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение должно открыть микшерное устройство и указать окно обратного вызова для получения сообщения **об \_ \_ \_ изменении mm миксм Line** .
 
@@ -64,7 +64,7 @@ lParam = (LPARAM) dwLineID
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 
@@ -75,7 +75,7 @@ lParam = (LPARAM) dwLineID
 [Аудио Миксерс](audio-mixers.md)
 </dt> <dt>
 
-[Сообщения микшера звука](audio-mixer-messages.md)
+[звуковые Mixer сообщения](audio-mixer-messages.md)
 </dt> </dl>
 
  

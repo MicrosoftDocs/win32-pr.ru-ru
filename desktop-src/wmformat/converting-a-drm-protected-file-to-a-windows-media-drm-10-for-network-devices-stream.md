@@ -1,10 +1,10 @@
 ---
-title: Преобразование файла DRM-Protected в поток Windows Media DRM 10 для сетевых устройств
-description: Преобразование файла DRM-Protected в поток Windows Media DRM 10 для сетевых устройств
+title: преобразование файла DRM-Protected в потоковую передачу Windows Media DRM 10 для сетевых устройств
+description: преобразование файла DRM-Protected в потоковую передачу Windows Media DRM 10 для сетевых устройств
 ms.assetid: 11aa0cfd-6d87-4ec4-82d8-db2507402911
 keywords:
-- Windows Media Format SDK, преобразование файлов, защищенных с использованием DRM
-- Windows Media Format SDK, файлы, защищенные с использованием DRM
+- Windows Пакет SDK для формата мультимедиа, преобразование файлов, защищенных с использованием DRM
+- Windows Пакет SDK для формата мультимедиа, файлы, защищенные с использованием DRM
 - Расширенный формат систем (ASF), преобразование файлов, защищенных с использованием DRM
 - ASF (Расширенный системный формат), преобразование файлов, защищенных с использованием DRM
 - Расширенный формат систем (ASF), файлы, защищенные с использованием DRM
@@ -13,28 +13,28 @@ keywords:
 - DRM (Управление цифровыми правами), преобразование файлов, защищенных с использованием DRM
 - Управление цифровыми правами (DRM), файлы, защищенные с использованием DRM
 - DRM (Управление цифровыми правами), файлы, защищенные с использованием DRM
-- Windows Media Format SDK, Windows Media DRM 10 для сетевых устройств
-- Windows Media Format SDK, DRM 10 для сетевых устройств
-- Расширенный формат систем (ASF), Windows Media DRM 10 для сетевых устройств
-- ASF (Расширенный системный формат), Windows Media DRM 10 для сетевых устройств
+- Windows пакет SDK для формата мультимедиа, Windows Media DRM 10 для сетевых устройств
+- Windows Пакет SDK для формата мультимедиа, DRM 10 для сетевых устройств
+- расширенный формат систем (ASF), Windows Media DRM 10 для сетевых устройств
+- ASF (расширенный системный формат), Windows Media DRM 10 для сетевых устройств
 - Расширенный формат систем (ASF), DRM 10 для сетевых устройств
 - ASF (Расширенный системный формат), DRM 10 для сетевых устройств
-- Управление цифровыми правами (DRM), Windows Media DRM 10 для сетевых устройств
-- DRM (Управление цифровыми правами), Windows Media DRM 10 для сетевых устройств
+- управление цифровыми правами (drm), Windows Media DRM 10 для сетевых устройств
+- drm (управление цифровыми правами), Windows Media DRM 10 для сетевых устройств
 - Управление цифровыми правами (DRM), DRM 10 для сетевых устройств
 - DRM (Управление цифровыми правами), DRM 10 для сетевых устройств
 - Windows Media DRM 10 для сетевых устройств, преобразование файлов, защищенных с использованием DRM
 - DRM 10 для сетевых устройств, преобразование файлов, защищенных с использованием DRM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 644c1b4f7ede688434fbb1dde11b7051c6f644a5
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: ebe5aa16b13f41c0376da84237a846612b7ae6e730e630be6ec4a45ce48ff4fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103788839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117848915"
 ---
-# <a name="converting-a-drm-protected-file-to-a-windows-media-drm-10-for-network-devices-stream"></a>Преобразование файла DRM-Protected в поток Windows Media DRM 10 для сетевых устройств
+# <a name="converting-a-drm-protected-file-to-a-windows-media-drm-10-for-network-devices-stream"></a>преобразование файла DRM-Protected в потоковую передачу Windows Media DRM 10 для сетевых устройств
 
 После регистрации и проверки устройства можно начать обработку сообщений с запросами лицензий. Сообщения о запросах лицензий отправляются устройствами, когда требуется действие из приложения. В настоящее время поддерживается только действие "Воспроизвести", которое представляет собой запрос на защиту данных для воспроизведения.
 
@@ -56,18 +56,18 @@ ms.locfileid: "103788839"
 > [!Note]  
 > DRM не поддерживает версию этого пакета SDK на базе x64.
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[**Использование протокола Windows Media DRM 10 для сетевых устройств**](using-the-windows-media-drm-10-for-network-devices-protocol.md)
+[**использование протокола Windows Media DRM 10 для сетевых устройств**](using-the-windows-media-drm-10-for-network-devices-protocol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: ed52e32f-8fae-4e6f-b908-26e05ce940cc
 title: Преобразования (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f482ef12c88140c2eff4c61e634fd3297aeaf295
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 5570562c02f2283b869bbb5e60143ed4badac94eb10651b002a89aedf1cd60f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104423149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118519751"
 ---
 # <a name="transforms-direct3d-9"></a>Преобразования (Direct3D 9)
 
@@ -166,7 +166,7 @@ D3DXMATRIX* WINAPI D3DXMatrixRotationX
 
 Вне зависимости от того, матрицу какого типа вы создаете, помните о правиле "слева направо", чтобы результаты всегда соответствовали ожидаемым.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

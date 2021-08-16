@@ -4,18 +4,18 @@ ms.assetid: 5A06B8D8-F14B-4D9E-9ED6-4246A26BF945
 title: Централизованная политика авторизации
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e1e5798c477a69e80f325a35fd443df101a148c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a07730bff997b545285b0d2845547a4d5deaffe78324e354e7eecbf879b763f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117783196"
 ---
 # <a name="centralized-authorization-policy"></a>Централизованная политика авторизации
 
 [Сценарий динамического управления доступом (DAC)](/previous-versions/windows/desktop/dacx/dynamic-access-control-developer-extensibility-roadmap) обеспечивает централизованное администрирование управления доступом для сценариев файлового сервера предприятия. В большинстве организаций есть несколько областей, в которых им нужно управлять доступом.
 
-Примеры:
+Ниже приведены некоторые примеры.
 
 -   Управление доступом к конфиденциальной информации, в которой файлы, помеченные как конфиденциальные, имеют определенные разрешения.
 -   Управление доступом к файлам, содержащим персональные данные (PII).

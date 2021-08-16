@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ffef467cc1cd6138d79798a252c17e9869b600d3
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 279afaf4b8cbe0c4706d780019633cc0a924377d3618296b14d4249a08eadb09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103889527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117844188"
 ---
 # <a name="wmtext"></a>WM/Text
 
@@ -38,9 +38,9 @@ g \_ всзвмтекст
 [**Список атрибутов**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

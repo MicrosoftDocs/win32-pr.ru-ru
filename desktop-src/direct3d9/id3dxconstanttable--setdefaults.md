@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: ed49e626c979f7146b42078cf1f65fdd6716efc1
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d5d732812daddeb2561cf1fbaa6d2cafb3b69445b086c8aec0f6f1a5ce0c27fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103821117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118521857"
 ---
 # <a name="id3dxconstanttablesetdefaults-method"></a>Метод ID3DXConstantTable:: SetDefaults
 
@@ -61,7 +61,7 @@ HRESULT SetDefaults(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>     |
 
 

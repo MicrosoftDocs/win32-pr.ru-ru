@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0bfdb3ce2dfde84b070fee57e7fc587a71d5f948
-ms.sourcegitcommit: f01bc6744cea55ad1aeeace7981a30b567e6fe60
+ms.openlocfilehash: 6a177e50ee3c4c9c715ea109faaed72c24e174e4e942059a4dee0dcd0de91a9e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104414156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118504742"
 ---
 # <a name="wavegetlanecount-function"></a>Функция Вавежетланекаунт
 
@@ -38,7 +38,7 @@ uint WaveGetLaneCount(void);
 
 Результат будет составлять от 4 до 128 и включает все волны: активные, неактивные и (или) вспомогательные желобы. Результат, возвращаемый этой функцией, может значительно различаться в зависимости от реализации драйвера.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта функция поддерживается из модели шейдеров 6,0 на всех стадиях шейдера. 
 

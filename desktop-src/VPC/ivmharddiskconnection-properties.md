@@ -4,16 +4,16 @@ description: Интерфейс Ивмхарддискконнектион пр�
 ms.assetid: C111B836-1DEC-4743-BD35-C73DE9499438
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d275b43f6c127a55f6a5c6169a5e6e03da5aa75
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b50b2eeda0ffbb710a7be2dd2e29a41d9a6103978f97f9ae7522ca2ae2c8663a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103793357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117938603"
 ---
 # <a name="ivmharddiskconnection-properties"></a>Свойства Ивмхарддискконнектион
 
-\[Windows Virtual PC больше не доступна для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC больше не доступен для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Интерфейс [**ивмхарддискконнектион**](ivmharddiskconnection.md) предоставляет следующие свойства.
 
@@ -24,6 +24,6 @@ ms.locfileid: "103793357"
 -   [**Свойство жесткого диска**](ivmharddiskconnection-harddisk.md)
 -   [**Ундохарддиск, свойство**](ivmharddiskconnection-undoharddisk.md)
 
- 
+ 
 
- 
+ 

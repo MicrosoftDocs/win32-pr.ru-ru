@@ -1,21 +1,21 @@
 ---
 title: Руководством по программированию (сенсорный ввод)
-description: В этом разделе рассматриваются конкретные темы по разработке программного обеспечения с помощью API Touch Windows, предназначенного для операционной системы Windows 7.
+description: в этом разделе рассматриваются конкретные темы по разработке программного обеспечения с помощью API Windows Touch, предназначенного для операционной системы Windows 7.
 ms.assetid: 8375475c-5a0e-42a2-8755-4c79dfe4cfce
 keywords:
-- Windows Touch, руководством по программированию
+- Windows Касание, руководством по программированию
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3324f86c64248996153d218216244725dec86148
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: dcd11c31f3a1ca015878a13804ac79cea37f6a86c1e90107f31057fe7311455a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104340135"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118199330"
 ---
 # <a name="programming-guide-touch-input"></a>Руководством по программированию (сенсорный ввод)
 
-В этом разделе рассматриваются конкретные темы по разработке программного обеспечения с помощью API Touch Windows, предназначенного для операционной системы Windows 7.
+в этом разделе рассматриваются конкретные темы по разработке программного обеспечения с помощью API Windows Touch, предназначенного для операционной системы Windows 7.
 
 В этом разделе рассматриваются следующие темы.
 
@@ -23,22 +23,22 @@ ms.locfileid: "104340135"
 
 | Раздел                                                                                            | Описание                                                                                            |
 |--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-| [Обзор архитектуры](architectural-overview.md)                                             | Описание API сенсорного интерфейса Windows для планшета и объяснение того, как он соответствует более крупному контексту Windows 7. |
-| [Выбор правильного подхода к Windows Touch](choosing-the-right-approach-to-windows-touch.md) | Описание способов поддержки Windows Touch.                                                  |
+| [Обзор архитектуры](architectural-overview.md)                                             | описывает API-интерфейс Windows Touch для планшета и объясняет, как он подходит для более крупного контекста Windows 7. |
+| [выбор правильного подхода к Windows касанию](choosing-the-right-approach-to-windows-touch.md) | описание способов поддержки Windows сенсорного ввода.                                                  |
 | [Устранение неполадок приложений](troubleshooting-applications.md)                                 | Предоставляет решения для распространенных проблем.                                                                    |
-| [Сенсорный ввод Windows](guide-multi-touch-input.md)                                               | Объясняется, как можно получать и интерпретировать сообщения Windows Touch.                                   |
-| [Сенсорные жесты Windows](guide-multi-touch-gestures.md)                                         | Объясняется, как добавить поддержку жестов касания Windows в приложения.                                     |
+| [Windows Сенсорный ввод](guide-multi-touch-input.md)                                               | объясняется, как можно получить и интерпретировать Windows сенсорные сообщения.                                   |
+| [Windows Сенсорные жесты](guide-multi-touch-gestures.md)                                         | объясняется, как добавить в приложения поддержку сенсорных жестов Windows.                                     |
 | [Манипуляция и инерция](manipulation-and-inertia.md)                                         | Объясняет, как добавить поддержку манипуляции и инерции в приложения.                                  |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Windows Touch](windows-touch-portal.md)
+[Windows Персонифицирован](windows-touch-portal.md)
 </dt> </dl>
 
  

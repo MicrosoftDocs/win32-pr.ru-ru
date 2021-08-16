@@ -4,12 +4,12 @@ ms.assetid: 0231da3b-a183-4443-8735-5affd24b145a
 title: енроллфромпубликкэй
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21b336d04727f4bb4b90674bad6bb6c429465a0f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a0346e2966dc9109ed9413022ead4eda487c37c2ac66ad9da42d2dcee2445032
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103810696"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117780053"
 ---
 # <a name="enrollfrompublickey"></a>енроллфромпубликкэй
 
@@ -17,7 +17,7 @@ ms.locfileid: "103810696"
 
 ## <a name="location"></a>Расположение
 
-При установке пакета средств разработки программного обеспечения (SDK) для Microsoft Windows этот образец устанавливается по умолчанию в папке *% ProgramFiles%* \\ Microsoft SDK \\ Windows \\ v 7.0 \\ Samples \\ Security SSL \\ Certificate \\ \\ енроллфромпубликкэй.
+при установке пакета microsoft Windows Software Development Kit (SDK) образец устанавливается по умолчанию в папке *% ProgramFiles%* \\ Microsoft sdk \\ Windows \\ v 7.0 \\ samples \\ Security ssl \\ Certificate \\ \\ енроллфромпубликкэй.
 
 ## <a name="discussion"></a>Разговор
 
@@ -34,12 +34,12 @@ ms.locfileid: "103810696"
 6.  Извлекает существующий сертификат подписи или, если его не удается найти, создает запрос сертификата из шаблона, указанного в командной строке, и пытается его зарегистрировать. Финдцертбикэйусаже определяется в Енроллкоммон. cpp.
 7.  Проверяет цепочку сертификатов.
 8.  Создает объект [**исигнерцертификате**](/windows/desktop/api/CertEnroll/nn-certenroll-isignercertificate) , инициализирует его с помощью сертификата для подписи, получает коллекцию [**исигнерцертификатес**](/windows/desktop/api/CertEnroll/nn-certenroll-isignercertificates) из объекта запроса CMC и добавляет объект сертификата подписи в коллекцию.
-9.  Кодирует запрос CMC с помощью [*distinguished Encoding Rules*](/windows/desktop/SecGloss/d-gly) (Der).
+9.  кодирует запрос CMC с помощью [*Distinguished Encoding Rules*](/windows/desktop/SecGloss/d-gly) (DER).
 10. Создает объект [**ицертконфиг**](/windows/desktop/api/certcli/nn-certcli-icertconfig) и использует его для получения строки, СОДЕРЖАЩЕЙ конфигурацию ЦС.
 11. Создает объект CryptoAPI [**ICertRequest2**](/windows/desktop/api/certcli/nn-certcli-icertrequest2) и использует его вместе со строками, содержащими конфигурацию ЦС и запросом сертификата для отправки запроса в ЦС.
 12. Проверяет состояние процесса регистрации и сохраняет установленный сертификат в файл. Функция Енкодетофилев определена в Енроллкоммон. cpp.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

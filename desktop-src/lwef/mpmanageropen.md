@@ -3,7 +3,7 @@ title: Функция Мпманажеропен (Мпклиент. h)
 description: Устанавливает подключение к диспетчеру защиты от вредоносных программ на локальном компьютере.
 ms.assetid: 40513A74-AFCC-4E22-9B78-D46FEB575A00
 keywords:
-- Функции Мпманажеропен устаревшие функции среды Windows
+- функции мпманажеропен устаревших функций среды Windows
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: af432cc7d91530fd3d37176592f7f457b31b6314
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 324d013c46777ac48af32e6c91f557b7feda3a03fbdf0c21a7c79e8cf5e3d9dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103803538"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117883369"
 ---
 # <a name="mpmanageropen-function"></a>Функция Мпманажеропен
 
@@ -73,8 +73,8 @@ HRESULT WINAPI MpManagerOpen(
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MpClient.dll</dt> </dl> |
 

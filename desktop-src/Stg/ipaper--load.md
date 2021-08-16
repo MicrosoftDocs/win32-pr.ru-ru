@@ -6,12 +6,12 @@ keywords:
 - Ипапер Загрузка
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16b5f16b8fe649d08226b2cff5a4b1a5234bddb6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0b592573f016018d359b5e3e35911d92371892b98ebea70338844b7f8ef4b1f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986712"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117961384"
 ---
 # <a name="ipaperload"></a>Ипапер:: Load
 
@@ -136,9 +136,9 @@ STDMETHODIMP COPaper::CImpIPaper::Load(
 
 Если в конце **загрузки** нет ошибок, вызывается метод Client [**Ипаперсинк:: Loaded**](ipapersink-methods.md) в методе Internal нотифисинкс, чтобы уведомить клиента о завершении операции загрузки. Это важное уведомление для клиента, так как оно должно отображать новые загруженные данные рукописного ввода. Это уведомление существенно использует возможности подключаемых объектов в содокументе.
 
- 
+ 
 
- 
+ 
 
 
 

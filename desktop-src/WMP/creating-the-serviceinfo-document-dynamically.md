@@ -3,15 +3,15 @@ title: Динамическое создание документа ServiceInfo
 description: Динамическое создание документа ServiceInfo
 ms.assetid: 96937b04-f705-49f6-8ddf-25c98a51dc9a
 keywords:
-- Интернет-магазины проигрывателя Windows Media, создание документа ServiceInfo
+- проигрыватель Windows Media интернет-магазинов, создание документа ServiceInfo
 - Интернет-магазины, создание документа ServiceInfo
 - Тип 1 Интернет-магазины, создание документа ServiceInfo
 - Тип 2 Интернет-магазинов, создание документа ServiceInfo
-- Интернет-магазины проигрывателя Windows Media, динамическое создание документа ServiceInfo
+- проигрыватель Windows Media интернет-магазинов, динамическое создание документа ServiceInfo
 - Интернет-магазины, динамическое создание документа ServiceInfo
 - Введите 1 Интернет-магазины, динамически создавая документ ServiceInfo
 - Тип 2 Интернет-магазинов, динамическое создание документа ServiceInfo
-- Интернет-магазины проигрывателя Windows Media, документ ServiceInfo
+- проигрыватель Windows Media интернет-магазинов, документ ServiceInfo
 - Интернет-магазины, документ ServiceInfo
 - Тип 1 Интернет-магазины, документ ServiceInfo
 - Тип 2 Интернет-магазинов, документ ServiceInfo
@@ -20,12 +20,12 @@ keywords:
 - Документ ServiceInfo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90159e72046536cf6b69521586a0640935478eb1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e3883487d072af57174a1f40f2fcef05d3290917b473a95bf723c34d793c5ba5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118340994"
 ---
 # <a name="creating-the-serviceinfo-document-dynamically"></a>Динамическое создание документа ServiceInfo
 
@@ -69,7 +69,7 @@ ms.locfileid: "103986187"
 
 В предыдущем примере кода используется ASP для получения имени узла с веб-сервера и динамического создания URL-адресов в документе. Код также извлекает параметр строки запроса *локали* из запроса serviceInfo и добавляет его к URL-адресу страницы перехода.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -88,9 +88,9 @@ ms.locfileid: "103986187"
 [**Документ ServiceInfo**](serviceinfo-document.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

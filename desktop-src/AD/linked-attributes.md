@@ -8,12 +8,12 @@ keywords:
 - Атрибуты AD, связанные
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee0e3f6706c797497fb1bb25ea82805385f9897e
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 2167169d6a9d2f8eabe69323054767ae66823d8e1fe954a232ed63fd31a9b845
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104412768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118186997"
 ---
 # <a name="linked-attributes-ad-ds"></a>Связанные атрибуты (AD DS)
 
@@ -30,6 +30,6 @@ ms.locfileid: "104412768"
 -   Значение [**attributeSchema**](/windows/desktop/ADSchema/c-attributeschema) обратной связи должно быть 2.5.5.1, которое является синтаксисом [**Object (DS-DN)**](/windows/desktop/ADSchema/s-object-ds-dn) .
 -   По соглашению атрибуты ссылки назад добавляются к значению [**mayContain**](/windows/desktop/ADSchema/a-maycontain) [**верхнего**](/windows/desktop/ADSchema/c-top) абстрактного класса. Это позволяет считывать атрибут ссылки назад из объектов любого класса, поскольку они фактически не сохраняются вместе с объектом, но рассчитываются на основе значений прямой ссылки.
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 33d369d0-2221-403e-8fbc-a9a1cbd640ad
 title: Константы PHONEBUTTONFUNCTION_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d4874fbfbd1e6900b58a604ba50c33c873eb5abc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3a7c7151018d7ff0146137d293aa1543b74a84c5e8ac11d6641b0fc408003854
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117761316"
 ---
 # <a name="phonebuttonfunction_-constants"></a>\_Константы фонебуттонфунктион
 
@@ -487,7 +487,7 @@ Camp — для расширения, которое возвращает инд
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения в диапазоне от 0x80000000 до 0xFFFFFFFF можно назначить для расширений для конкретных устройств. значения в диапазоне от 0x00000000 до 0x7FFFFFFF являются зарезервированными.
 

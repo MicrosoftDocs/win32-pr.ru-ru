@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Msjava.dll
-ms.openlocfilehash: 77fa2e5a0d387fcc0c90417b5f57d49178bc0626
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 60f361d8f9963081c4af2a840a01eb29f9946eb064cad2335f95b3622932add1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117826820"
 ---
 # <a name="notifybrowsershutdown-function"></a>Функция Нотифибровсершутдовн
 
@@ -50,7 +50,7 @@ HRESULT WINAPI NotifyBrowserShutdown(
 
 Если функция выполнена успешно, возвращается значение **S \_ ОК**. В противном случае возвращаемое значение является кодом ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Когда число окон браузера достигает нуля в интегрированном веб-режиме, эта функция освобождает загрузчики классов Java. Когда пользователь снова начинает просмотр приложений, виртуальная машина Java загрузит последние файлы классов.
 

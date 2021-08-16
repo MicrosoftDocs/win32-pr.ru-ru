@@ -8,20 +8,20 @@ keywords:
 - Структура КАПДРИВЕРКАПС
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc87fb4f9cb439229721b6c10aa6207af601f9ab
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d4260c696834814f8ed42fc78154a506f3f156f3df37c02ccbff337c651f0ef6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118375371"
 ---
 # <a name="capture-driver-capabilities"></a>Возможности записи драйверов
 
 Вы можете получить аппаратные возможности подключенного к текущему драйверу записи с помощью сообщения о [**\_ \_ \_ получении \_ политик с ограничением WM**](wm-cap-driver-get-caps.md) (или макроса [**капдривержеткапс**](/windows/desktop/api/Vfw/nf-vfw-capdrivergetcaps) ). Это сообщение возвращает возможности драйвера записи и базового оборудования в структуре [**капдриверкапс**](/windows/win32/api/vfw/ns-vfw-capdrivercaps) .
 
- 
+ 
 
- 
+ 
 
 
 

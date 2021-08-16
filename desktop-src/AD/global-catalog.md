@@ -7,12 +7,12 @@ keywords:
 - Active Directory глобального каталога
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4496804d21e53cf2d87947288179e7f96ca75c8
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: e81abf04ab3e4d95819f91b5db8753a265e49ca79b2f405a32665dc46a8f2db5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103789534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118189119"
 ---
 # <a name="global-catalog"></a>Глобальный каталог
 
@@ -22,6 +22,6 @@ ms.locfileid: "103789534"
 
 Глобальный каталог создается автоматически системой репликации домен Active Directory Services. Топология репликации для глобального каталога создается автоматически. Свойства, реплицируемые в глобальный каталог, включают базовый набор, определенный корпорацией Майкрософт. Администраторы могут указать дополнительные свойства в соответствии с потребностями установки.
 
- 
+ 
 
- 
+ 

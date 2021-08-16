@@ -4,24 +4,24 @@ ms.assetid: cdd67082-8153-4f48-abc5-278be82ae082
 title: Воспроизведение мультимедийных файлов с помощью Media Foundation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 163dba2f9f67139ce7477470889e13a54e2c8b5d
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 65ba44212227be87e78d29c60a76bc3acdc2b1483b1029c62dd288bb7434b2a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104554665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117878867"
 ---
 # <a name="how-to-play-media-files-with-media-foundation"></a>Воспроизведение мультимедийных файлов с помощью Media Foundation
 
 В этом руководстве показано, как воспроизвести файлы мультимедиа с помощью объекта [сеанса мультимедиа](media-session.md) .
 
-## <a name="prerequisites"></a>Предварительные условия
+## <a name="prerequisites"></a>Предварительные требования
 
 Прежде чем читать этот раздел, необходимо ознакомиться со следующими концепциями Media Foundation:
 
 -   [Сеанс мультимедиа](media-session.md)
 -   [Сопоставитель источников](source-resolver.md)
--   [Топологии](topologies.md)
+-   [Топологий](topologies.md)
 -   [Генераторы событий мультимедиа](media-event-generators.md)
 -   [Дескрипторы представления](presentation-descriptors.md)
 
@@ -70,7 +70,7 @@ ms.locfileid: "104554665"
 -   [Шаг 7. Завершение сеанса мультимедиа](step-7--shut-down-the-media-session.md)
 -   [Пример воспроизведения сеанса мультимедиа](media-session-playback-example.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -3,7 +3,7 @@ title: Сообщение WM_CAP_DLG_VIDEOFORMAT (VFW. h)
 description: В \_ сообщении о \_ видеоформате WM Cap \_ появляется диалоговое окно, в котором пользователь может выбрать формат видео.
 ms.assetid: 3b44507e-3806-467f-877a-e9992d1337cb
 keywords:
-- WM_CAP_DLG_VIDEOFORMAT сообщения Windows мультимедиа
+- сообщение WM_CAP_DLG_VIDEOFORMAT Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d244c4c141845d4ede66804918514e091872e89
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fbaa58e99c6a07db9109a0b1a6dae25de8abd46fef2631eb539961de16455ec0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118135403"
 ---
 # <a name="wm_cap_dlg_videoformat-message"></a>\_ \_ Сообщение видеоформат с диалогом WM Cap \_
 
@@ -38,7 +38,7 @@ lParam = 0L;
 
 Возвращает **значение true** в случае успеха или **false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 После возврата этого сообщения приложениям может потребоваться обновить структуру [**капстатус**](/windows/win32/api/vfw/ns-vfw-capstatus) , так как пользователь мог изменить размеры изображения.
 

@@ -4,12 +4,12 @@ ms.assetid: c7cf61e0-c536-4292-bbe3-f54d0cb9a3f3
 title: System. Task. Комплетионстатус
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 827b67cb195ec5a68a5eeac8f26b2bf838bcfd6c
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f0c926ba1813fd59853806fd6487fdd3bfbe650133b3dcbe2fd7e1b7bb6726e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108091332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117681683"
 ---
 # <a name="systemtaskcompletionstatus"></a>System. Task. Комплетионстатус
 
@@ -32,7 +32,7 @@ propertyDescription
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

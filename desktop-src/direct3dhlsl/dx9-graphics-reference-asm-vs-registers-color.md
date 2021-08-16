@@ -9,18 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 38ee29ebafd9e7374fa868c6d84ad45f6c07dedf
-ms.sourcegitcommit: 3f366316c02c411c4c5e14620a699f6f30608634
+ms.openlocfilehash: b19850985002ad9c36a6a6366f744106cb041db858f9df9b755996e114fdf6c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104350872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118512290"
 ---
 # <a name="color-register"></a>Регистр цвета
 
 Эти регистры выходных данных шейдера вершин содержат значение цвета. 
 
-| Регистрация | Описание              |
+| Зарегистрировать | Описание              |
 |----------|--------------------------|
 | oD0      | Регистр цветов диффузии.  |
 | oD1      | Регистр отраженного цвета. |
@@ -42,7 +42,7 @@ min oD0, r0, c1.x
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

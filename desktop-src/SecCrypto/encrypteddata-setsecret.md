@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: c8d30355b022a593ca17519e3ccfa876a5b07b54
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0e56bd490c4e665d900eb39fb57d09019ab4cfa3b1eb3ad06ad74cb4e83514ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665180"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117766449"
 ---
 # <a name="encrypteddatasetsecret-method"></a>Метод EncryptedData. Сетсекрет
 
@@ -70,7 +70,7 @@ EncryptedData.SetSecret( _
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Секрет используется для создания ключа сеанса для шифрования или расшифровки. Для обеих операций необходимо использовать один и тот же секрет. Если секрет, используемый для шифрования данных, потерян, зашифрованные данные не могут быть расшифрованы.
 

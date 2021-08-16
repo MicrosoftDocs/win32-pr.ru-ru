@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: ad2d482e0be93a1abec80fc710a1a43d7873dd99
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 43d69f8a04fd937591675fe13fefd9499fe4c0dd59f70da02077cb97f7b06fee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104496380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118010106"
 ---
 # <a name="changesecuritypermissions-method-of-the-win32_shortcutfile-class"></a>Метод Чанжесекуритипермиссионс \_ класса Win32 шорткутфиле
 
@@ -57,7 +57,7 @@ uint32 ChangeSecurityPermissions(
 
 `Option = 1 + 4`
 
-или
+или диспетчер конфигурации служб
 
 `Option = CHANGE_OWNER_SECURITY_INFORMATION | CHANGE_DACL_SECURITY_INFORMATION`
 
@@ -167,12 +167,12 @@ uint32 ChangeSecurityPermissions(
 
 </dd> <dt>
 
-**Платформа не NT/Windows 2000**
+**платформа не NT/Windows 2000**
 </dt> <dd>
 
 12
 
-Платформа не является Windows.
+Платформа не Windows.
 
 </dd> <dt>
 

@@ -11,12 +11,12 @@ api_name:
 - AutoConnectOnInternet
 api_type:
 - Schema
-ms.openlocfilehash: fd08e93572d7d0af8b490ac079e3057413c469ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a10804e91ee34125c25c320a49b5f7251f720ed9ce6c770c2aa4af5167a8511
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263178"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117881479"
 ---
 # <a name="autoconnectoninternet-mbnprofile-element"></a>Аутоконнектонинтернет (Мбнпрофиле), элемент
 
@@ -24,7 +24,7 @@ ms.locfileid: "104263178"
 
 Если задано значение **false**, логика автоматического подключения службы мобильной широкополосной связи не будет использоваться при наличии других сетевых подключений, доступных системе. Если задано **значение true**, служба мобильной широкополосной связи будет пытаться автоматически подключить устройство к сети на основе параметра автоматического подключения, определенного в элементе [**ConnectionMode**](schema-connectionmode-mbnprofile-element.md) .
 
-**Windows 8 и более поздние версии:** Этот элемент не рекомендуется к использованию. Используйте метод [**вкмсетпроперти**](/windows/desktop/api/wcmapi/nf-wcmapi-wcmsetproperty) с параметром *Property* , установленным **в \_ \_ \_ \_ параметре WCM Global Property** , а не в политику.
+**Windows 8 и более поздних версий:** Этот элемент не рекомендуется к использованию. Используйте метод [**вкмсетпроперти**](/windows/desktop/api/wcmapi/nf-wcmapi-wcmsetproperty) с параметром *Property* , установленным **в \_ \_ \_ \_ параметре WCM Global Property** , а не в политику.
 
 ``` syntax
 <xs:element name="AutoConnectOnInternet"
@@ -34,13 +34,13 @@ ms.locfileid: "104263178"
 
 Элемент **аутоконнектонинтернет** определяется элементом [**мбнпрофиле**](schema-mbnprofile-element.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 7 \|\]<br/> |
+| Минимальная версия клиента<br/> | \[приложения UWP для классических приложений Windows 7 \|\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                         |
 
 

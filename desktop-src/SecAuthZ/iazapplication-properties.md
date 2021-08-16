@@ -4,12 +4,12 @@ ms.assetid: 36282F91-6C14-4943-967B-046DD0FD94DC
 title: Свойства Иазаппликатион
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4086acb6e6ceba0821af7cc117d8598bee731d16
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 67877d3b364ce52038fc4a6524f9beaa32987fb0201095dbe78514c7cbccc502
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664150"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117781659"
 ---
 # <a name="iazapplication-properties"></a>Свойства Иазаппликатион
 
@@ -35,7 +35,7 @@ ms.locfileid: "105664150"
 -   [**Свойство областей**](/windows/desktop/api/Azroles/nf-azroles-iazapplication-get_scopes)
 -   [**Tasks, свойство**](/windows/desktop/api/Azroles/nf-azroles-iazapplication-get_tasks)
 -   [**Свойство Version**](/windows/desktop/api/Azroles/nf-azroles-iazapplication-get_version)
--   [**Доступное для записи свойство**](/windows/desktop/api/Azroles/nf-azroles-iazapplication-get_writable)
+-   [**Свойство, доступное для записи**](/windows/desktop/api/Azroles/nf-azroles-iazapplication-get_writable)
 
  
 

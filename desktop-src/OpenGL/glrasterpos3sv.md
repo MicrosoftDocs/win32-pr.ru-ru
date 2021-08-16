@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 52ac3017f8b72632ef6738461807511319600466
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 0ab9cd9d3938d5f5f615a0172e8417bfc4531024f1b1ddef051fd6b8cb5af003
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104000086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118358354"
 ---
 # <a name="glrasterpos3sv-function"></a>Функция glRasterPos3sv
 
@@ -51,7 +51,7 @@ void WINAPI glRasterPos3sv(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 OpenGL поддерживает трехмерное расположение в координатах окна. Это расположение, называемое растровой позицией, сохраняется с точностью до точки. Он используется для размещения операций записи пикселей и точечных рисунков. См. раздел [**глбитмап**](glbitmap.md), [**глдравпикселс**](gldrawpixels.md)и [**глкопипикселс**](glcopypixels.md).
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 9bf0bd4eb9b7964620fe705d6e8f4d10644ca234
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d104d33e843d46cc63a0a960afa3d36b56ddbd28b5a563f8973ee957d82da87e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118223988"
 ---
 # <a name="folderitemisfolder-property"></a>FolderItem. @ Folder, свойство
 
@@ -41,9 +41,9 @@ bIsFolder = FolderItem.IsFolder
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере используется **Папка** «.», чтобы определить, является ли каталог Windows папкой. Правильное использование показано в JScript, VBScript и Visual Basic.
+в следующем примере используется **папка** «.», чтобы определить, является ли каталог Windows папкой. правильное использование отображается для JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -148,7 +148,7 @@ End Sub
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                           |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                         |

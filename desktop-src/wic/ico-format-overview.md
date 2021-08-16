@@ -1,19 +1,19 @@
 ---
-description: В этом разделе содержатся сведения о кодека машинного кода ICO, доступном через компонент Windows Imaging Component (WIC).
+description: в этом разделе содержатся сведения о кодека машинного кода ICO, доступного через компонент Windows imaging (WIC).
 ms.assetid: EF28956E-7156-4BAE-8805-C64B8C8ADE50
 title: Общие сведения о формате ICO
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 329a53a3b5d386c5e5386141162c608dc9db1ec0
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: caf90f0a31beb2d004dcb43e08cb0b6b1539021071ff2cb3302b3076033bc833
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444474"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118204074"
 ---
 # <a name="ico-format-overview"></a>Общие сведения о формате ICO
 
-В этом разделе содержатся сведения о кодека машинного кода ICO, доступном через компонент Windows Imaging Component (WIC).
+в этом разделе содержатся сведения о кодека машинного кода ICO, доступного через компонент Windows imaging (WIC).
 
 ## <a name="codec-identity"></a>Удостоверение кодека
 
@@ -36,7 +36,7 @@ ms.locfileid: "111444474"
 
 
 
-| Компонент        | Понятное имя            | Код GUID                                |
+| Компонент        | Понятное имя            | GUID                                |
 |------------------|--------------------------|-------------------------------------|
 | Формат контейнера | GUID \_ контаинерформатико | a3a860c4-338f-4c17-919afba4b5628f21 |
 | Показан          | \_ВИЦИКОДЕКОДЕР CLSID     | c61bfcdf-2e0f-4aad-a8d7e06bafebcdfe |

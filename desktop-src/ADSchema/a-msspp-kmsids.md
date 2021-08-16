@@ -1,10 +1,10 @@
 ---
-title: атрибут MS-SPP-KMS-ID
-description: Идентификаторы службы KMS, включенные объектом активации
+title: атрибут ms-SPP-KMS-id
+description: KMS Идентификаторы, включенные объектом активации
 ms.assetid: b5e11081-202e-4b9a-bf23-8552475f01f0
 ms.tgt_platform: multiple
 keywords:
-- Схема AD атрибутов Active-SPP-KMS-ID
+- схема active directory для атрибута идентификаторов ms-SPP-KMS-id
 - Схема AD атрибута МССПП-Кмсидс
 topic_type:
 - apiref
@@ -14,22 +14,22 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 77e47103137a52fa2dbcc9cf4eb04ae073191115
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4fd8296adf05a697f92abc70247681fea4776513c15d1c39c6592a2d15363889
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104493761"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117838077"
 ---
-# <a name="ms-spp-kms-ids-attribute"></a>атрибут MS-SPP-KMS-ID
+# <a name="ms-spp-kms-ids-attribute"></a>атрибут ms-SPP-KMS-id
 
-Идентификаторы службы KMS, включенные объектом активации
+KMS Идентификаторы, включенные объектом активации
 
 
 
 | Ввод | Значение |
 |-------------------|-------------------------------------------------------|
-| CN                | MS-SPP-KMS-ID                                        |
+| CN                | идентификаторы ms-SPP-KMS-id                                        |
 | LDAP-отображаемое имя | МССПП — Кмсидс                                          |
 | Размер              | \-                                                    |
 | Привилегия обновления  | \-                                                    |
@@ -54,7 +54,7 @@ ms.locfileid: "104493761"
 | MAPI-Id                | \-                                                                      |
 | System-Only            | Неверно                                                                   |
 | Является однозначным       | Неверно                                                                   |
-| Индексируется             | True                                                                    |
+| Индексируется             | Верно                                                                    |
 | В глобальном каталоге      | Неверно                                                                   |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                            |
 | Range-Lower            | 16                                                                      |

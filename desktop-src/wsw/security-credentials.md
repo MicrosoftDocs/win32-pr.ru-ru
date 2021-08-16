@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0611e6e54fd83e09f811ffddcda4785cef162685
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 41f5703d9f58e7fee57f1ce8465e0413a7ca3c246590b816e84f7419e80f6efb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "105700984"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118192765"
 ---
 # <a name="security-credentials"></a>Учетная запись для безопасного доступа
 
@@ -39,7 +39,7 @@ ms.locfileid: "105700984"
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [**\_ \_ тип учетных данных сертификата WS \_**](/windows/desktop/api/WebServices/ne-webservices-ws_cert_credential_type)                                         | Тип учетных данных сертификата.                       |
 | [**\_ \_ тип учетных данных имени пользователя WS \_**](/windows/desktop/api/WebServices/ne-webservices-ws_username_credential_type)                                 | Тип учетных данных имени пользователя и пароля.                 |
-| [**\_ \_ \_ \_ тип учетных данных интегрированной проверки ПОдлинности Windows WS \_**](/windows/desktop/api/WebServices/ne-webservices-ws_windows_integrated_auth_credential_type) | Тип учетных данных встроенной проверки подлинности Windows. |
+| [**\_ \_ \_ \_ тип учетных данных интегрированной проверки ПОдлинности Windows WS \_**](/windows/desktop/api/WebServices/ne-webservices-ws_windows_integrated_auth_credential_type) | тип учетных данных встроенной проверки подлинности Windows. |
 
 
 
@@ -51,14 +51,14 @@ ms.locfileid: "105700984"
 |-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | [**\_ \_ учетные данные сертификата WS**](/windows/desktop/api/WebServices/ns-webservices-ws_cert_credential)                                                          | Абстрактный базовый тип для всех типов учетных данных сертификата.                                                          |
 | [**\_пользовательские \_ \_ учетные данные сертификата**](/windows/desktop/api/WebServices/ns-webservices-ws_custom_cert_credential)                                           | Тип для указания учетных данных сертификата, которые должны предоставляться обратным вызовом к приложению.             |
-| [**\_ \_ \_ \_ учетные данные встроенной проверки подлинности Windows по умолчанию \_**](/windows/desktop/api/WebServices/ns-webservices-ws_default_windows_integrated_auth_credential) | Тип для предоставления учетных данных встроенной проверки подлинности Windows на основе текущего маркера потока.                  |
-| [**\_непрозрачные \_ \_ \_ учетные данные встроенной проверки подлинности WS \_**](/windows/desktop/api/WebServices/ns-webservices-ws_opaque_windows_integrated_auth_credential)   | Тип для предоставления учетных данных встроенной проверки подлинности Windows.                                                    |
+| [**\_ \_ \_ \_ учетные данные встроенной проверки подлинности Windows по умолчанию \_**](/windows/desktop/api/WebServices/ns-webservices-ws_default_windows_integrated_auth_credential) | тип для предоставления Windows учетных данных встроенной проверки подлинности на основе текущего маркера потока.                  |
+| [**\_непрозрачные \_ \_ \_ учетные данные встроенной проверки подлинности WS \_**](/windows/desktop/api/WebServices/ns-webservices-ws_opaque_windows_integrated_auth_credential)   | тип для предоставления Windows учетных данных встроенной проверки подлинности.                                                    |
 | [**\_ \_ учетные данные имени пользователя для строки WS \_**](/windows/desktop/api/WebServices/ns-webservices-ws_string_username_credential)                                   | Тип для предоставления пары "имя пользователя-пароль" в виде строк.                                                           |
-| [**\_ \_ \_ \_ учетные данные интегрированной проверки подлинности Windows WS String \_**](/windows/desktop/api/WebServices/ns-webservices-ws_string_windows_integrated_auth_credential)   | Тип для предоставления учетных данных Windows в качестве имени пользователя, пароля и строк домена.                                        |
+| [**\_ \_ \_ \_ учетные данные интегрированной проверки подлинности Windows WS String \_**](/windows/desktop/api/WebServices/ns-webservices-ws_string_windows_integrated_auth_credential)   | тип для предоставления Windows учетных данных в качестве имени пользователя, пароля и строк домена.                                        |
 | [**WS \_ имя субъекта \_ \_ \_ учетные данные сертификата**](/windows/desktop/api/WebServices/ns-webservices-ws_subject_name_cert_credential)                              | Тип для указания учетных данных сертификата с помощью имени субъекта сертификата, расположения хранилища и имени хранилища. |
 | [**\_ \_ учетные данные сертификата для отпечатка WS \_**](/windows/desktop/api/WebServices/ns-webservices-ws_thumbprint_cert_credential)                                   | Тип для указания учетных данных сертификата с помощью отпечатка сертификата, расположения хранилища и имени хранилища.   |
 | [**\_ \_ учетные данные имени пользователя WS**](/windows/desktop/api/WebServices/ns-webservices-ws_username_credential)                                                  | Абстрактный базовый тип для всех учетных данных имени пользователя и пароля.                                                         |
-| [**\_ \_ \_ учетные данные интегрированной проверки подлинности Windows WS \_**](/windows/desktop/api/WebServices/ns-webservices-ws_windows_integrated_auth_credential)                  | Абстрактный базовый тип для всех типов учетных данных, используемых при встроенной проверке подлинности Windows.                          |
+| [**\_ \_ \_ учетные данные интегрированной проверки подлинности Windows WS \_**](/windows/desktop/api/WebServices/ns-webservices-ws_windows_integrated_auth_credential)                  | абстрактный базовый тип для всех типов учетных данных, используемых при встроенной проверке подлинности Windows.                          |
 
 
 

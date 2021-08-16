@@ -4,12 +4,12 @@ ms.assetid: 97e9a708-83b5-48b3-9d16-f7b54367dc4e
 title: Имена поставщиков служб шифрования (Винкрипт. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 58a5cbe497e56144a9948dab96be0c03dd5a99f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c4c9b41aaeacb0b03df4b2fc0c608ae1f98e59ac0a581a395eb9904d0ec8e235
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117768690"
 ---
 # <a name="cryptographic-provider-names"></a>Имена поставщиков служб шифрования
 
@@ -39,8 +39,8 @@ ms.locfileid: "103991029"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Винкрипт. h</dt> </dl> |
 
 

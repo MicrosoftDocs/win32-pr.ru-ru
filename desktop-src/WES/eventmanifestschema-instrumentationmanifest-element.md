@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c15092d7a7eafd625e9c2026965af053d38fe4b9
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 7dac9ab8c8aa2a6caeacf43023c4995be69f293affd5dd5a904d7fb96d710266
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104273351"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118343732"
 ---
 # <a name="instrumentationmanifest-element"></a>Инструментатионманифест, элемент
 
@@ -66,11 +66,11 @@ ms.locfileid: "104273351"
 |------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**инструментирования**](eventmanifestschema-instrumentation-instrumentationmanifest-element.md) | [**инструментатионтипе**](eventmanifestschema-instrumentationtype-complextype.md) | В этом разделе определяется один или несколько поставщиков событий и событий, которые они регистрируют.<br/>                                                                                                                                                                                                                     |
 | [**локализации**](eventmanifestschema-localization-instrumentationmanifest-element.md)       | [**локализатионтипе**](eventmanifestschema-localizationtype-complextype.md)       | В этом разделе определяются строки локализованных сообщений, используемые потребителями для вывода. Например, в этом разделе будет содержаться локализованная строка сообщения для имени поставщика, заданных Вами событий и всех определенных атрибутов событий, таких как каналы, задачи и коды операций.<br/> |
-| [**метаданных**](eventmanifestschema-metadata-instrumentationmanifest-element.md)               | [**метадататипе**](eventmanifestschema-metadatatype-complextype.md)               | В этом разделе определяются типы метаданных, которые могут использоваться другими манифестами. Пример см. в файле Winmeta.xml, включенном в \\ папку Include Windows SDK.<br/>                                                                                                                                    |
+| [**метаданные**](eventmanifestschema-metadata-instrumentationmanifest-element.md)               | [**метадататипе**](eventmanifestschema-metadatatype-complextype.md)               | В этом разделе определяются типы метаданных, которые могут использоваться другими манифестами. пример см. в файле Winmeta.xml, включенном в \\ папку Include Windows SDK.<br/>                                                                                                                                    |
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент **инструментатионманифест** должен содержать следующие пространства имен:
 
@@ -162,8 +162,8 @@ xmlns: XS = " https://www.w3.org/2001/XMLSchema "
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

@@ -3,9 +3,9 @@ title: Плайлистколлектион. Невплайлист, метод
 description: Метод Невплайлист создает новый список воспроизведения в библиотеке.
 ms.assetid: 428b5779-4dc0-466b-9834-6b2c43324013
 keywords:
-- Невплайлист метод Windows Media Player
-- Невплайлист метод Windows Media Player, класс Плайлистколлектион
-- Класс Плайлистколлектион Windows Media Player, метод Невплайлист
+- проигрыватель Windows Media метода невплайлист
+- проигрыватель Windows Media метода невплайлист, класс плайлистколлектион
+- класс плайлистколлектион проигрыватель Windows Media, метод невплайлист
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d94c25a8dfe6f1eb7c4dac40dd644433a5f0d7e6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: af40d4de424997cb943711d84bf62805f2036afeb551c5d397ce82ae0975e812
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118334601"
 ---
 # <a name="playlistcollectionnewplaylist-method"></a>Плайлистколлектион. Невплайлист, метод
 
@@ -53,7 +53,7 @@ retVal = PlaylistCollection.newPlaylist(
 
 Этот метод возвращает объект **списка воспроизведения** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод создает пустой список воспроизведения в библиотеке. Чтобы заполнить список воспроизведения с помощью элементов мультимедиа, используйте *список воспроизведения*. **аппендитем** или *список воспроизведения*. **insertItem**.
 
@@ -65,7 +65,7 @@ retVal = PlaylistCollection.newPlaylist(
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере JScript создается пустой список воспроизведения с именем «Срилист». Объект **Player** создан с идентификатором "Player".
+в следующем примере JScript создается пустой список воспроизведения с именем «срилист». Объект **Player** создан с идентификатором "Player".
 
 
 ```JScript
@@ -82,7 +82,7 @@ var NewList = Player.playlistCollection.newPlaylist("ThreeList");
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
@@ -115,10 +115,10 @@ var NewList = Player.playlistCollection.newPlaylist("ThreeList");
 [**Плайлистколлектион. Remove**](playlistcollection-remove.md)
 </dt> <dt>
 
-[**Settings. Медиаакцессригхтс**](settings-mediaaccessrights.md)
+[**Параметры. медиаакцессригхтс**](settings-mediaaccessrights.md)
 </dt> <dt>
 
-[**Settings. Рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
+[**Параметры. рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
  

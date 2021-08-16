@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d850547d57596dd36b36b941d1782c2aee1f5b3
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 2ba23607dcb8da7fb282e380e87fe6a2cbb9a26a50850845a5877d036983665f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108092522"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117869603"
 ---
 # <a name="wm_initmenupopup-message"></a>\_Сообщение ИНИТМЕНУПОПУП WM
 
@@ -56,7 +56,7 @@ ms.locfileid: "108092522"
 
 Если приложение обрабатывает это сообщение, оно должно вернуть ноль.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -64,15 +64,15 @@ ms.locfileid: "108092522"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 
-**Ссылка**
+**Ссылки**
 </dt> <dt>
 
 [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
@@ -84,7 +84,7 @@ ms.locfileid: "108092522"
 [**WM \_ инитмену**](wm-initmenu.md)
 </dt> <dt>
 
-**Основные понятия**
+**Зрения**
 </dt> <dt>
 
 [Сочетания клавиш](keyboard-accelerators.md)

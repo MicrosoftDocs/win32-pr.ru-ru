@@ -4,12 +4,12 @@ ms.assetid: f035ee56-7582-45d3-bafe-dd9c821b6326
 title: Атрибут MF_ACTIVATE_CUSTOM_VIDEO_PRESENTER_CLSID (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c0eb913a56671d5d2ac8d27c785e1cc1fbfc51a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5afd39cf31cd0efaff4dc4d32756e1e27433d87fac643e4058897babd0f4f50f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117877257"
 ---
 # <a name="mf_activate_custom_video_presenter_clsid-attribute"></a>MF \_ активировать \_ настраиваемый \_ \_ \_ атрибут CLSID видеоустройства
 
@@ -19,7 +19,7 @@ ms.locfileid: "105692512"
 
 **GUID**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если вы создаете Евр с помощью объекта активации, этот атрибут можно использовать для задания пользовательского устройства показа видео в Евр. Используйте этот атрибут, как показано ниже.
 
@@ -31,14 +31,14 @@ ms.locfileid: "105692512"
 
 Константа GUID для этого атрибута экспортируется из мфууид. lib.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                               |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 

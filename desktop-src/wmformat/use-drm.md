@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fcb010855ac4660792a7c579556001d5d7c4c96
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: b802a7bef777fab4ed835aa3a1770169deaa6eeea9a7eddeb802fb2e4b0a9dd3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104532975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117845305"
 ---
 # <a name="use_drm"></a>Использование \_ DRM
 
@@ -31,7 +31,7 @@ g \_ всзвмусе \_ DRM
 
 **\_bool типа \_ ВМТ**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте [**ивмхеадеринфо:: setAttribute**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-setattribute) , чтобы задать этому свойству **значение true** при создании содержимого DRM версии 1. Это свойство недоступно из объекта модуля чтения.
 
@@ -42,9 +42,9 @@ g \_ всзвмусе \_ DRM
 [**Свойства DRM**](drm-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -23,7 +23,7 @@
           href: traversing-the-thread-list.md
         - name: Обход списка модулей
           href: traversing-the-module-list.md
-        - name: Обход списка кучи
+        - name: Обход списка куч
           href: traversing-the-heap-list.md
     - name: Справочные материалы по средствам
       href: tool-help-reference.md

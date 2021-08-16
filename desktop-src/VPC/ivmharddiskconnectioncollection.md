@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dbde67f226c5b2d8cb86a8764c6dd61c24c2a468
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 997cbe915e7e4addac60c639a7ee6c260f07271ff5981939b25dbefd49fcba1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104488925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118345708"
 ---
 # <a name="ivmharddiskconnectioncollection-interface"></a>Интерфейс Ивмхарддискконнектионколлектион
 
-\[Windows Virtual PC больше не доступна для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC больше не доступен для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Определяет коллекцию подключений к жестким дискам в пределах виртуальной машины. Чтобы получить объект **ивмхарддискконнектионколлектион** , используйте свойство [**Ивмвиртуалмачине:: харддискконнектионс**](ivmvirtualmachine-harddiskconnections.md) .
 
@@ -34,16 +34,16 @@ ms.locfileid: "104488925"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Интерфейс **ивмхарддискконнектионколлектион** имеет следующие свойства.
 
 
 
-| Свойство                                                                 | Тип доступа          | Описание                                                                         |
+| Свойство.                                                                 | Тип доступа          | Описание                                                                         |
 |:-------------------------------------------------------------------------|:---------------------|:------------------------------------------------------------------------------------|
 | [**\_NewEnum**](ivmharddiskconnectioncollection--newenum.md)<br/> | Только для чтения<br/> | Перечислитель для коллекции.<br/>                                        |
-| [**Расчета**](ivmharddiskconnectioncollection-count.md)<br/>        | Только для чтения<br/> | Число подключений к жестким дискам в этой коллекции.<br/>                  |
+| [**Count**](ivmharddiskconnectioncollection-count.md)<br/>        | Только для чтения<br/> | Число подключений к жестким дискам в этой коллекции.<br/>                  |
 | [**Элемент**](ivmharddiskconnectioncollection-item.md)<br/>          | Только для чтения<br/> | Объект подключения к жесткому диску, соответствующий указанному индексу.<br/> |
 
 
@@ -56,7 +56,7 @@ ms.locfileid: "104488925"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                         |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                         |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                          |
 | Окончание поддержки клиента<br/>    | Windows 7<br/>                                                                               |
 | Продукт<br/>                  | Windows Virtual PC<br/>                                                                      |

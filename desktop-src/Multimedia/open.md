@@ -3,7 +3,7 @@ title: команда Open (Корекрт \_ IO. h)
 description: Команда Open инициализирует устройство. Все устройства MCI распознают эту команду.
 ms.assetid: 0bb97c8c-8222-4d4e-b20b-94e9f9095afe
 keywords:
-- Открытие команды мультимедиа Windows
+- открыть команду Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac8d31f1806a9c12f764c679548564aa053c3041
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3d2e585a44c19093fa0d20ab4870f579c67cd568c3a693523242b84910e6589d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103802224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118373273"
 ---
 # <a name="open-command"></a>Открыть команду
 
@@ -103,7 +103,7 @@ _stprintf_s(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 MCI резервирует "кдаудио" для типа устройства CD Audio, "видеодиск" для типа устройства "видеодиск", "Sequencer" для типа устройства "устройство Sequencer", "Авивидео" для типа устройства "цифровое видео" и "вавеаудио" для типа устройства аудио-Audio.
 
