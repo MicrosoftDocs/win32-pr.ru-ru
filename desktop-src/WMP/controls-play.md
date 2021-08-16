@@ -3,9 +3,9 @@ title: Метод Controls. Play
 description: Метод Play заставляет текущий элемент мультимедиа начать воспроизведение или возобновить воспроизведение приостановленного элемента.
 ms.assetid: 2218a13b-6294-45f5-bb6f-c5a1e433e0c6
 keywords:
-- воспроизвести метод проигрыватель Windows Media
-- метод Play проигрыватель Windows Media Player, класс Controls
-- Класс управляет проигрывателем Windows Media Player, методом Play
+- метод play проигрыватель Windows Media
+- метод play проигрыватель Windows Media, класс controls
+- класс элементов управления проигрыватель Windows Media, метод play
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ea66f3bc4cf01d194dc44bcdf7b7cc838e1f3799
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 86ce3c1572515b320a62b1b3c76aac72e44101e21f3b0f89d7c3356046ea95f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997454"
 ---
 # <a name="controlsplay-method"></a>Метод Controls. Play
 
@@ -44,9 +44,9 @@ Controls.play()
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Если этот метод вызывается при быстрой пересылке или перемотки, значение *параметров*. **ставка** устанавливается равным 1,0.
+если этот метод вызывается при быстрой пересылке или перемотки, значение *Параметры*. **ставка** устанавливается равным 1,0.
 
 ## <a name="examples"></a>Примеры
 
@@ -74,7 +74,7 @@ Controls.play()
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

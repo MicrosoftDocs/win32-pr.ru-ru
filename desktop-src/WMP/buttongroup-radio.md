@@ -3,7 +3,7 @@ title: BUTTONGROUP. Radio
 description: Атрибут Radio указывает или получает значение, указывающее, состоит ли BUTTONGROUP из переключателей.
 ms.assetid: f84479f8-af4f-4ca8-991e-1c2ab39d7110
 keywords:
-- Проигрыватель Windows Media BUTTONGROUP. Radio
+- проигрыватель Windows Media BUTTONGROUP. radio
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e1765a7756aedcebc2b7b030634d8598a5cd89e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 56a8a9f85a3dce5ef070519f436c28ec157f7aa467a9115bcd8e2ccefa6444f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997774"
 ---
 # <a name="buttongroupradio"></a>BUTTONGROUP. Radio
 
@@ -35,14 +35,14 @@ ms.locfileid: "105698808"
 
 | Значение | Описание                                      |
 |-------|--------------------------------------------------|
-| true  | **BUTTONGROUP** имеет вид радио.              |
+| Да  | **BUTTONGROUP** имеет вид радио.              |
 | false | По умолчанию. **BUTTONGROUP** не является стилем радио. |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если параметру **Radio** присвоено значение true, все элементы **буттонелемент** в **BUTTONGROUP** будут закрепляться, но только одна кнопка будет находиться в неправильном состоянии.
 
@@ -52,7 +52,7 @@ ms.locfileid: "105698808"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

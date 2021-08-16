@@ -11,12 +11,12 @@ api_name:
 - ICONFilePath
 api_type:
 - Schema
-ms.openlocfilehash: 6b1e98f76fe2f83ce214076223b5a1439bd0ea45
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ea662a7519a8705818ef502f5b797f437b0f89bee649d0bde18ce6f71b099d74
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035822"
 ---
 # <a name="iconfilepath-mbnprofile-element"></a>Иконфилепас (Мбнпрофиле), элемент
 
@@ -26,7 +26,7 @@ ms.locfileid: "105711163"
 
 При передаче XML для создания профиля в методе [**креатеконнектионпрофиле**](/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofilemanager-createconnectionprofile) интерфейса [**имбнконнектионпрофилеманажер**](/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofilemanager) этот путь должен указывать на исходное расположение файла значка. При успешном создании объекта [**имбнконнектионпрофиле**](/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofile) служба мобильной широкополосной связи скопирует файл значка в внутреннее хранилище, а путь к профилю будет изменен в соответствии с этим.
 
-Файл значка должен иметь формат. bmp с размером 32X32 пикселя.
+Файл значка должен иметь формат .bmp с размером 32X32 пикселя.
 
 Этот элемент представляет собой строку длиной до 1024 символов, содержащую абсолютный путь к файлу.
 
@@ -46,7 +46,7 @@ ms.locfileid: "105711163"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 7 \|\]<br/> |
+| Минимальная версия клиента<br/> | \[приложения UWP для классических приложений Windows 7 \|\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                         |
 
 

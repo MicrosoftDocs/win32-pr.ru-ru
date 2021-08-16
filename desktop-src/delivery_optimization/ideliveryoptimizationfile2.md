@@ -41,7 +41,7 @@ ms.locfileid: "118542049"
 | [**GetProperty**](ideliveryoptimizationfile2-getproperty.md)  | Этот метод возвращает одно свойство файла DO. |
 | [**SetProperty**](ideliveryoptimizationfile2-setproperty.md)  | Этот метод задает одно свойство для файла DO.    |
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 | Требование | Значение |
 |-------------------------------|-----------------------------------------------------------------------------------|

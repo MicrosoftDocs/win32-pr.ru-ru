@@ -4,12 +4,12 @@ description: Универсальный указатель ресурсов (URL
 ms.assetid: bb59ada6-f49f-412c-a32c-4fb9495b1222
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08157738d99e78ff4d458a3bdd1b1e2e661ce538
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: 419433c8a06b6243bf048896664a67da31a3c58d1d79eb6fea65f9fc99dbe63a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "104552027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121874"
 ---
 # <a name="handling-uniform-resource-locators"></a>Обработка указателей универсальных ресурсов
 
@@ -310,7 +310,7 @@ BOOL listURLpart( HWND hDlg, int nListBoxId,
 Дополнительные сведения см. в разделе [**Хинтернет Handles**](appendix-a-hinternet-handles.md).
 
 > [!Note]  
-> WinINet не поддерживает реализации серверов. Кроме того, его не следует использовать из службы. Для серверных реализаций или служб используйте [службы Microsoft Windows HTTP Services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet не поддерживает реализации серверов. Кроме того, его не следует использовать из службы. для серверных реализаций или служб используйте [Microsoft Windows HTTP services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
  
 

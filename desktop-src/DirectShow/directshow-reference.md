@@ -1,33 +1,33 @@
 ---
-description: Справочник по DirectShow
+description: DirectShow IsReference
 ms.assetid: 5fd72be3-4ff5-4c93-8055-abe247f3c856
-title: Справочник по DirectShow
+title: DirectShow IsReference
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dfbefe8d2b9dc2991523954d7775885ccffd4021
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7325fb2ee4f96ded98c7657e88e5d7eb8258c977f10b1fbfc3b557bf70b82370
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105673041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119966384"
 ---
-# <a name="directshow-reference"></a>Справочник по DirectShow
+# <a name="directshow-reference"></a>DirectShow IsReference
 
-В этом разделе содержатся справочные сведения по основным интерфейсам API DirectShow и фильтрам.
+в этом разделе содержатся справочные сведения по основным DirectShow api-интерфейсам и фильтрам.
 
--   [Фильтры DirectShow](directshow-filters.md)
+-   [DirectShow Фильтрующ](directshow-filters.md)
 -   [Интерфейсы](interfaces.md)
--   [Структуры DirectShow](directshow-structures.md)
--   [Перечислимые типы DirectShow](directshow-enumerated-types.md)
+-   [DirectShow Сотрудник](directshow-structures.md)
+-   [DirectShow Перечислимые типы](directshow-enumerated-types.md)
 -   [Константы и идентификаторы GUID](constants-and-guids.md)
 -   [Функции](functions.md)
--   [Элемент управления ActiveX Мсвебдвд](mswebdvd-activex-control.md)
+-   [элемент управления ActiveX мсвебдвд](mswebdvd-activex-control.md)
 -   [Наборы свойств](property-sets.md)
 -   [Справочник по API кодека](codec-api-reference.md)
--   [Объекты DirectShow](directshow-objects.md)
--   [Базовые классы DirectShow](directshow-base-classes.md)
+-   [DirectShow Объект](directshow-objects.md)
+-   [DirectShow Базовые классы](directshow-base-classes.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

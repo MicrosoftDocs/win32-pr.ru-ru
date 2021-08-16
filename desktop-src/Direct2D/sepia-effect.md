@@ -51,7 +51,7 @@ m_d2dContext->EndDraw();
 
 Свойства для выцветшейного действия определяются перечислением [**D2D1 \_ выцветшей \_ prop**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_sepia_prop) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

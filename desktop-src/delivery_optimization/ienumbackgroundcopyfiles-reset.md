@@ -45,7 +45,7 @@ HRESULT Reset();
 
 Этот метод возвращает **S_OK** при успешном или одном из стандартных значений **HRESULT** com при ошибке.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

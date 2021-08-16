@@ -4,12 +4,12 @@ description: Чтобы определить, какие процессы заг
 ms.assetid: 2e411eba-ba60-4678-bf6f-bc15b6e8b478
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7bf09d02d4ae9dc7e55177653e05e3d19df4ab7b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 17012019c21f550940ea8c11c07153b0c3495471b4d62bf2f8af469ef6b7b90b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104337500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032992"
 ---
 # <a name="enumerating-all-modules-for-a-process"></a>Перечисление всех модулей для процесса
 
@@ -103,6 +103,6 @@ int main( void )
 
 Функция Main получает список процессов с помощью функции [**EnumProcesses**](/windows/desktop/api/Psapi/nf-psapi-enumprocesses) . Для каждого процесса функция Main вызывает функцию Принтмодулес, передавая ей идентификатор процесса. Принтмодулес, в свою очередь, вызывает функцию [**OpenProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocess) для получения маркера процесса. Если **OpenProcess** завершается сбоем, в выходных данных отображается только идентификатор процесса. Например, **OpenProcess** не работает для процессов бездействия и CSRSS, так как их ограничения доступа не позволяют коду на уровне пользователя открывать их. Затем Принтмодулес вызывает функцию [**енумпроцессмодулес**](/windows/desktop/api/Psapi/nf-psapi-enumprocessmodules) для получения функции Handles модуля. Наконец, Принтмодулес вызывает функцию [**жетмодулефиленамикс**](/windows/desktop/api/Psapi/nf-psapi-getmodulefilenameexa) по одному разу для каждого модуля, чтобы получить имена модулей.
 
- 
+ 
 
- 
+ 

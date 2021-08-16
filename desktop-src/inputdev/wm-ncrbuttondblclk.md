@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fee33d9b31f99a00181427c9a715df792d95fe55
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9af62a21da645a265e5264ffae47ad8cb0907ec6fb0106cfb9e7cee97b7f42e3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119666304"
 ---
 # <a name="wm_ncrbuttondblclk-message"></a>\_Сообщение НКРБУТТОНДБЛКЛК WM
 
@@ -56,7 +56,7 @@ ms.locfileid: "104534715"
 
 Если приложение обрабатывает это сообщение, оно должно вернуть ноль.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для получения сообщений **\_ нкрбуттондблклк WM** в окне не требуется стиль **CS \_ дблклкс** .
 

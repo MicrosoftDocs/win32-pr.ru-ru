@@ -11,12 +11,12 @@ api_name:
 - simIccIDType
 api_type:
 - Schema
-ms.openlocfilehash: 410145e659a4845c9c96aaeb76d522de3e0c7b53
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 33a984875e1e6840787d81dc53c8fc13ead54a0328f6610d75c30075066c13c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662409"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035762"
 ---
 # <a name="simiccidtype-simple-type"></a>Простой тип СимикЦидтипе
 
@@ -46,7 +46,7 @@ ms.locfileid: "105662409"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 7 \|\]<br/> |
+| Минимальная версия клиента<br/> | \[приложения UWP для классических приложений Windows 7 \|\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                         |
 
 

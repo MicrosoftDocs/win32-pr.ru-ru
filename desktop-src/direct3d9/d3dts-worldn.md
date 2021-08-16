@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3d9types.h
-ms.openlocfilehash: 004435d278538c788e21ed7dc3482fd5e248895b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7026308192f43b7290dedcb9572772c9eda45acdc87d018480bd59202a2dc2df
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694112"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119404"
 ---
 # <a name="d3dts_worldn"></a>D3DTS \_ ворлдн
 
@@ -31,7 +31,7 @@ ms.locfileid: "105694112"
 #define D3DTS_WORLD3 D3DTS_WORLDMATRIX(3)
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эти макросы предназначены для упрощения переноса существующих приложений на Direct3D 9.
 
@@ -41,7 +41,7 @@ ms.locfileid: "105694112"
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3d9types. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3d9types. h</dt> </dl> |
 
 
 

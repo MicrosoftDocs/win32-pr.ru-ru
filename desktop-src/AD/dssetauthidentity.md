@@ -76,7 +76,7 @@ HRESULT DsSetAuthIdentity(
 
 Если **дссетаусидентити** не вызывается, предполагается, что используется контекст безопасности текущего процесса.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

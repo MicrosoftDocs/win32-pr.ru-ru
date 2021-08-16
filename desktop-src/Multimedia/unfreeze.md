@@ -98,7 +98,7 @@ _stprintf_s(
 unfreeze vboard at 10 20 90 165
 ```
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

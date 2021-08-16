@@ -81,7 +81,7 @@ typedef enum _BITS_JOB_TRANSFER_POLICY {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: a05e99cc4d7fa2eff196159bb449fa7dbfbf3026
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a865a65b5fd9a1ec658dcc86b1eb2b3dd255804308f04bebf4fffdb0650d71e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104547079"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118898931"
 ---
 # <a name="signer_blob_info-structure"></a>\_ \_ Структура сведений о BLOB-объекте подписавши
 
@@ -90,8 +90,8 @@ typedef struct _SIGNER_BLOB_INFO {
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/> |
 
 
 

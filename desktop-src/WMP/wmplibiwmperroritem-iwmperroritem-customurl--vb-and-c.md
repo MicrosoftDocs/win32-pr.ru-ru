@@ -3,9 +3,9 @@ title: Ивмперроритем Кустомурл, свойство
 description: Свойство Кустомурл получает URL-адрес сайта, который отображает конкретные сведения об ошибке загрузки кодека.
 ms.assetid: 638491da-f1e6-4d25-840e-24e6e2027c37
 keywords:
-- Проигрыватель Windows Media для свойства Кустомурл
-- Кустомурл свойство проигрывателя Windows Media Player, интерфейс Ивмперроритем
-- Интерфейс Ивмперроритем Windows Media Player, свойство Кустомурл
+- проигрыватель Windows Media свойства кустомурл
+- проигрыватель Windows Media свойства кустомурл, интерфейс ивмперроритем
+- проигрыватель Windows Media интерфейса ивмперроритем, свойство кустомурл
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b12adddb460083d3d3da194d575577a3f66c1ed
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a9c368cc2d9c950b8030acbdd21c474ea8ad0402fa426256226512e412d1da2d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122594"
 ---
 # <a name="iwmperroritemcustomurl-property"></a>Свойство Ивмперроритем:: Кустомурл
 
@@ -54,7 +54,7 @@ Public ReadOnly Property customUrl As System.String
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

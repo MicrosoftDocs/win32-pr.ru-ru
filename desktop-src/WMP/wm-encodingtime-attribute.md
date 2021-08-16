@@ -3,7 +3,7 @@ title: Атрибут WM/Енкодингтиме
 description: Атрибут WM/Енкодингтиме — это дата и время кодирования содержимого.
 ms.assetid: 264f379a-0bec-4143-bc23-ab45fb725af6
 keywords:
-- Windows Media Player для атрибута WM/Енкодингтиме
+- проигрыватель Windows Media атрибута WM/енкодингтиме
 topic_type:
 - apiref
 api_name:
@@ -12,31 +12,31 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 659a1ec5b192782370804745da3f232db6e439dd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 24b143218b854177852049c1ae1ed530360c196eecd217db3ed53d9f46bd2915
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704305"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122664"
 ---
 # <a name="wmencodingtime-attribute"></a>Атрибут WM/Енкодингтиме
 
 Атрибут **WM/енкодингтиме** — это дата и время кодирования содержимого.
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [Звуковые элементы](audio-item-attributes.md)
--   [Часто используемые атрибуты файлов Windows Media](commonly-used-windows-media-file-attributes.md)
+-   [часто используемые Windows атрибуты файла мультимедиа](commonly-used-windows-media-file-attributes.md)
 -   [Списки воспроизведения](playlist-attributes-ref.md)
 -   [Элементы видео](video-item-attributes.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут хранится как в библиотеке, так и в файле цифрового мультимедиа.
 
 **CreationDate** — это псевдоним для этого атрибута.
 
-Константа Windows Media Format SDK для этого атрибута — g \_ всзвменкодингтиме.
+константа пакета SDK Windows Media Format для этого атрибута — g \_ всзвменкодингтиме.
 
 Чтобы определить, можно ли изменить значение этого атрибута, используйте метод [Media. исреадонлитем](media-isreadonlyitem.md) .
 
@@ -46,7 +46,7 @@ ms.locfileid: "105704305"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 

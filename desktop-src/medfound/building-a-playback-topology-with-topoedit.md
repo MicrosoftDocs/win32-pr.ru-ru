@@ -4,12 +4,12 @@ ms.assetid: 4d4c4ff9-dad1-4c79-a44a-2ad20f1bbca0
 title: Создание топологии воспроизведения с помощью Топоедит
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f942984b3ba56ef1288566cee80e7d30026de155
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: 80a71ae353c11108fe7c844d8ddd6441e652e007646b91f44c6fe2b480a22a8a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "105693806"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035432"
 ---
 # <a name="building-a-playback-topology-with-topoedit"></a>Создание топологии воспроизведения с помощью Топоедит
 
@@ -35,7 +35,7 @@ ms.locfileid: "105693806"
 5.  В меню **топология** выберите пункт **Разрешить топологию**.
 6.  Нажмите кнопку **Воспроизведение** на панели инструментов, чтобы воспроизвести топологию. На следующем рисунке показана  кнопка воспроизведения :::image type="icon" source="images/536e8908-ef44-4d25-98f1-c06b5ef37591.jpg"::: .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

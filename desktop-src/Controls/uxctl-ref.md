@@ -4,12 +4,12 @@ description: В этом разделе описаны следующие эле
 ms.assetid: f1d01045-a296-4b39-bd42-1262ba4ad3d2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97868a924abadaddec66d53f58e039f280abb35e
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: cac237e8951e2aec3e6521c6918d13f216b0dbd7b11a9eba03c074910fbaea17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104070653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117828525"
 ---
 # <a name="visual-styles-reference"></a>Справочник по визуальным стилям
 
@@ -139,7 +139,7 @@ ms.locfileid: "104070653"
 
 | Раздел                                                                            | Содержимое                                                                                                                                                                                  |
 |----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Классы, части и состояния в стиле Aero](aero-style-classes-parts-and-states.md) | Описывает классы, части и состояния, поддерживаемые темой Aero, которая определяет стили оформления, используемые в Windows Vista по умолчанию.<br/>                                       |
+| [Классы, части и состояния в стиле Aero](aero-style-classes-parts-and-states.md) | описывает классы, части и состояния, поддерживаемые темой Aero, которая определяет стили оформления, которые Windows Vista использует по умолчанию.<br/>                                       |
 | [Формат файла темы](themesfileformat-overview.md)                               | Описывает формат файлов темы (Themes). <br/>                                                                                                                                 |
 | [Значения формата](theme-format-values.md)                                         | Перечисляет значения, используемые с параметром *двтекстфлагс* функций [**дравсеметекст**](/windows/desktop/api/Uxtheme/nf-uxtheme-drawthemetext) и [**жетсеметекстекстент**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemetextextent) . <br/> |
 | [Параметры проверки нажатия](theme-hit-test-options.md)                                   | Список значений параметров, используемых с параметром *двоптионс* функции [**хиттестсемебаккграунд**](/windows/desktop/api/Uxtheme/nf-uxtheme-hittestthemebackground) . <br/>                                |

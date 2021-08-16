@@ -3,9 +3,9 @@ title: StringCollection. тождественный метод
 description: Метод «идентичен» получает значение, указывающее, совпадает ли указанный объект с текущим. | StringCollection. тождественный метод
 ms.assetid: 5f2aabbe-e6c7-4aa2-a30d-30178a4ba3db
 keywords:
-- метод, аналогичный проигрывателю Windows Media
-- тождественный метод Windows Media Player, класс StringCollection
-- Класс StringCollection Windows Media Player, метод тождественности
+- метод проигрыватель Windows Media
+- метод проигрыватель Windows Media, класс StringCollection
+- класс StringCollection проигрыватель Windows Media, метод тождественности
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec4035e748921afd77865fa29c9a8507abe55128
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: aded9879ded384feaa5bd12bd167c1eab0e1a0f764a3cf4370b84ca4b2422ff7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105717932"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123024"
 ---
 # <a name="stringcollectionisidentical-method"></a>StringCollection. тождественный метод
 
@@ -53,7 +53,7 @@ bRetVal = StringCollection.isIdentical(
 
 Этот метод возвращает **логическое значение**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы использовать этот метод, требуется доступ на чтение к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
@@ -63,7 +63,7 @@ bRetVal = StringCollection.isIdentical(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 11.<br/>                                                |
+| Версия<br/> | проигрыватель Windows Media 11.<br/>                                                |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

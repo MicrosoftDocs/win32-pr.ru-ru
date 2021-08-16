@@ -4,12 +4,12 @@ ms.assetid: 9f2c18ec-3684-42a8-a3df-5f8827b27642
 title: Аналоговые телевизоры
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33af8ba94831afed59d783598dbf6bc0eaee0ec6
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 886c2b3f93ca70fb4a533f131611431c4a15df51169f70ed49f321c0ccfc8c2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104139819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117824766"
 ---
 # <a name="analog-television"></a>Аналоговые телевизоры
 
@@ -28,7 +28,7 @@ ms.locfileid: "104139819"
 -   Если в карточке тюнера имеется более одного физического ввода, то фильтр [аналогового микшера видео](analog-video-crossbar-filter.md) позволяет приложению выбрать, какие входные данные декодированы и готовы к просмотру.
 -   Фильтр [записи видео WDM](wdm-video-capture-filter.md) предоставляет оцифрованный поток видео.
 
-Построитель диаграмм для записи автоматически вставляет все фильтры, необходимые для вышестоящего потока, из фильтра записи.
+построитель Graph отслеживания автоматически вставляет все фильтры, необходимые для вышестоящего потока, из фильтра записи.
 
 В этом разделе рассматриваются следующие вопросы.
 
@@ -36,7 +36,7 @@ ms.locfileid: "104139819"
 -   [Аналоговый телевизор](analog-television-audio.md)
 -   [Субтитры и телетекст](closed-captions-and-teletext.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

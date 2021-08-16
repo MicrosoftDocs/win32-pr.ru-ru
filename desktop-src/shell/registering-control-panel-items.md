@@ -9,23 +9,23 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 05c2a652314babc212e17b48198e9441f4d3465d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: daa86bfd9975df5cd057dd3e577f443bafa6c363061e267e67adad69b590e678
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104156690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119661084"
 ---
 # <a name="registering-control-panel-items"></a>Регистрация элементов панели управления
 
-Элементы панели управления должны быть зарегистрированы, чтобы они отображались в окне панели управления. Если элемент панели управления реализуется как часть exe-файла, то он регистрируется как объект команды. Регистрация различается, если элемент реализован как DLL-файл, который экспортирует функцию [**кплапплет**](/windows/win32/api/cpl/nc-cpl-applet_proc) .
+Элементы панели управления должны быть зарегистрированы, чтобы они отображались в окне панели управления. Если элемент панели управления реализуется как часть файла .exe, то он регистрируется как объект команды. Регистрация отличается, если элемент реализуется как файл .dll, который экспортирует функцию [**кплапплет**](/windows/win32/api/cpl/nc-cpl-applet_proc) .
 
 Конкретные требования обсуждаются в следующих разделах:
 
 -   [Регистрация исполняемых элементов панели управления](how-to-register-an-executable-control-panel-item-registration-.md)
 -   [Регистрация элементов панели управления DLL](how-to-register-dll-control-panel-item-registration-.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -53,7 +53,7 @@ ms.locfileid: "104156690"
 [Создание ссылок на задачи с возможностью поиска для элемента панели управления](creating-searchable-task-links.md)
 </dt> <dt>
 
-[Доступ к панели управления в защищенном режиме в Windows Vista](accessing-the-cp-in-safe-mode-under-vista.md)
+[доступ к панели управления в режиме Сейф в разделе Windows Vista](accessing-the-cp-in-safe-mode-under-vista.md)
 </dt> </dl>
 
  

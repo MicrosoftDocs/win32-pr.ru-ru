@@ -40,7 +40,7 @@ WebWizardHost.Property = Property
 
 Переменная типа [**BSTR**](/previous-versions/windows/desktop/automat/bstr) , которая указывает или получает свойство.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

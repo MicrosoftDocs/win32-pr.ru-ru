@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2470b3b46ca33256b6e727a8c77e92037f8bb1f6
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 5bd9d6227c127a0e8e7ed1765d13c0c2d9f40d79f6e864a1c982e6678ae617d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104069110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117844090"
 ---
 # <a name="wmvideoclosedcaptioning"></a>WM/Видеоклоседкаптионинг
 
@@ -31,7 +31,7 @@ g \_ всзвмвидеоклоседкаптионинг
 
 **\_bool типа \_ ВМТ**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут используется для широковещательного телевидения и другого видеоматериала.
 
@@ -42,9 +42,9 @@ g \_ всзвмвидеоклоседкаптионинг
 [**Список атрибутов**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

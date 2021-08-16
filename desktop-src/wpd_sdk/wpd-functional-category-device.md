@@ -4,12 +4,12 @@ ms.assetid: 64b34490-1cb5-4915-ae1c-77bd4ab79ad7
 title: WPD_FUNCTIONAL_CATEGORY_DEVICE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb179311af5fb3c3eef063157e3615b21eeb66a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 499f39cf60e247c0abbbcc66f7fad52099a2a83a93f348b1ac9636bb790b9354
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117842220"
 ---
 # <a name="wpd_functional_category_device"></a>\_устройство функциональной \_ категории WPD \_
 
@@ -64,7 +64,7 @@ ms.locfileid: "105664187"
 
 Обычно эти объекты не размещают ресурсы.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

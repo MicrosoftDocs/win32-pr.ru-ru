@@ -3,9 +3,9 @@ title: Событие Player. Домаинчанже
 description: Событие Домаинчанже возникает при смене домена DVD. | Событие Player. Домаинчанже
 ms.assetid: 01965492-276e-4d30-99eb-767e0776b423
 keywords:
-- Проигрыватель Windows Media Event Домаинчанже
-- Проигрыватель Windows Media Event Домаинчанже, класс Player
-- Класс проигрывателя Windows Media Player, событие Домаинчанже
+- проигрыватель Windows Media событий домаинчанже
+- проигрыватель Windows Media событий домаинчанже, класс Player
+- класс проигрывателя проигрыватель Windows Media, событие домаинчанже
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa9637913451aa5bba937906130899c46e0bd34d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6f6d70c6a3c2ac2d29c03e6d0518b5e7341f988f41e1bf2f5bb84a7de9f83f68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708318"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995914"
 ---
 # <a name="playerdomainchange-event"></a>Событие Player. Домаинчанже
 
@@ -67,11 +67,11 @@ Player.DomainChange(
 
 Это событие не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Значение параметров события указывается проигрывателем Windows Media, доступ к которому можно получить или передать в метод в импортированном файле JScript с использованием имени параметра. Имя этого параметра должно быть введено в точности так, как показано, включая прописные буквы.
+значение параметров события задается проигрыватель Windows Media, и к нему можно получить доступ или передать в метод в импортированном JScriptном файле, используя имя параметра. Имя этого параметра должно быть введено в точности так, как показано, включая прописные буквы.
 
-**Проигрыватель Windows Media 10 Mobile:** Это событие не поддерживается.
+**проигрыватель Windows Media 10 Mobile:** Это событие не поддерживается.
 
 ## <a name="requirements"></a>Требования
 
@@ -79,7 +79,7 @@ Player.DomainChange(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media для Windows XP или более поздней версии.<br/>                           |
+| Версия<br/> | проигрыватель Windows Media для Windows XP или более поздней версии.<br/>                           |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

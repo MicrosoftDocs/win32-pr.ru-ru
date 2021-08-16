@@ -3,7 +3,7 @@ title: Свойство Tab. Скалингполици
 description: Представляет контейнер для спецификаций масштабирования табуляции.
 ms.assetid: cc1e4a35-9348-459b-a2f1-25c34d49e5e8
 keywords:
-- Лента Windows свойства Tab. Скалингполици
+- свойство Tab. скалингполици Windows ленты
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c46528e7b5957415db55f1a51dd6dafed7e1da98
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 11b98174ff5c3426a4805905f0aa7ada86d63a644f4245135bcede5c71d11e75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104492498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117850801"
 ---
 # <a name="tabscalingpolicy-property"></a>Свойство Tab. Скалингполици
 
@@ -51,11 +51,11 @@ ms.locfileid: "104492498"
 
 | Элемент                                             |
 |-----------------------------------------------------|
-| [**TAB**](windowsribbon-element-tab.md)<br/> |
+| [**Вкладка**](windowsribbon-element-tab.md)<br/> |
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Необязательный элемент.
 
@@ -137,8 +137,8 @@ ms.locfileid: "104492498"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>              |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>              |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/> |
 
 
 

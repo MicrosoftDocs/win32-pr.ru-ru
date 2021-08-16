@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Mssign32.dll
-ms.openlocfilehash: c4c57f231f70477a76b4d4f6156354ebc847a715
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cb33852cb2860a29d43a41b2331a910a098384b872e972a74cf94f627bebf75a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999213"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118898300"
 ---
 # <a name="signertimestamp-function"></a>Функция Сигнертиместамп
 
@@ -91,8 +91,8 @@ HRESULT WINAPI SignerTimeStamp(
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>Mssign32.dll</dt> </dl> |
 
 

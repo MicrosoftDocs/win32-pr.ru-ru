@@ -4,12 +4,12 @@ ms.assetid: 3466bfb5-c38d-49d8-a4ab-bf23d09c454c
 title: Сообщение WM_EXITSIZEMOVE (Winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 22eda44827345ef491814aab69bf0b802b924e5d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f451e846f2a262a30ccc73121d52c3732dbdfb160fe529535dcf353f077c351
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105719586"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117849256"
 ---
 # <a name="wm_exitsizemove-message"></a>\_Сообщение ЕКСИТСИЗЕМОВЕ WM
 
@@ -56,7 +56,7 @@ ms.locfileid: "105719586"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

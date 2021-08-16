@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: fedd64979ad74ceac3f6d54af58c57d8d8b2b134
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 53c7b06fa4194d0adb4124f3978787f5d1fce0ba88e78ef99dcd6ac162eca2c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648888"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118897325"
 ---
 # <a name="template-object"></a>Объект шаблона
 
@@ -40,13 +40,13 @@ ms.locfileid: "105648888"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Объект **шаблона** имеет следующие свойства.
 
 
 
-| Свойство                                                 | Тип доступа          | Описание                                                                                            |
+| Свойство.                                                 | Тип доступа          | Описание                                                                                            |
 |:---------------------------------------------------------|:---------------------|:-------------------------------------------------------------------------------------------------------|
 | [**Критическое**](template-iscritical.md)<br/>     | Только для чтения<br/> | Получает логическое значение, указывающее, помечено ли расширение шаблона как критическое.<br/> |
 | [**IsPresent**](template-ispresent.md)<br/>       | Только для чтения<br/> | Получает логическое значение, указывающее, имеется ли расширение шаблона.<br/>         |
@@ -59,7 +59,7 @@ ms.locfileid: "105648888"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Не удается создать объект **шаблона** .
 

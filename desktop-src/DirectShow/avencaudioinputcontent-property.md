@@ -29,7 +29,7 @@ ms.locfileid: "117824214"
 
 Значение этого свойства является членом перечисления [**еавенкаудиоинпутконтент**](/windows/win32/api/codecapi/ne-codecapi-eavencaudioinputcontent) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
