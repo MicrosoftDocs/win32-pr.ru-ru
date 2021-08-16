@@ -64,7 +64,7 @@ DWORD WINAPI ExpertGetStartupInfo(
 
 Функция **експертжетстартупинфо** используется, если эксперт должен определить используемые сведения о запуске.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

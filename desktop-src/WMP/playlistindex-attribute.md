@@ -3,7 +3,7 @@ title: Атрибут Плайлистиндекс
 description: Атрибут Плайлистиндекс — это индекс элемента мультимедиа в его родительском списке воспроизведения.
 ms.assetid: 65b629d4-115c-487c-b260-4bbea38dcea7
 keywords:
-- Плайлистиндекс атрибут Windows Media Player
+- проигрыватель Windows Media атрибута плайлистиндекс
 topic_type:
 - apiref
 api_name:
@@ -12,25 +12,25 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d03edc8a33fb854aa8790de2415a7039b2792698
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 56dcb57c6572ee8ea9fd10ba753d6d0ffb0149e759cb2250bae7d07ecbfa474f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704470"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118334525"
 ---
 # <a name="playlistindex-attribute"></a>Атрибут Плайлистиндекс
 
 Атрибут **плайлистиндекс** — это индекс элемента мультимедиа в его родительском списке воспроизведения.
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [Звуковые элементы](audio-item-attributes.md)
 -   [Дорожки компакт-диска](cd-track-attributes.md)
 -   [Другие элементы](other-item-attributes.md)
 -   [Элементы видео](video-item-attributes.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут является временным атрибутом. Он не хранится в библиотеке или файле цифрового носителя.
 
@@ -42,7 +42,7 @@ ms.locfileid: "105704470"
 
 | Требование | Значение |
 |--------------------|------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 11<br/> |
+| Версия<br/> | проигрыватель Windows Media 11<br/> |
 
 
 

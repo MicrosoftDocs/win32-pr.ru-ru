@@ -23,7 +23,7 @@ ms.locfileid: "118379939"
 
 Задайте свойство [**нокомпанинаме**](nocompanyname.md) , чтобы отключить автоматический параметр **COMPANYNAME**.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

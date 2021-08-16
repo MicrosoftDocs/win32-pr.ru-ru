@@ -3,17 +3,17 @@ title: Словари
 description: Словари позволяют разрешать разметку общих данных узла, таких как имена элементов или атрибутов, пространства имен и общий текст в двоичном XML-формате.
 ms.assetid: 6f25366c-0e81-479b-930e-ff088d425562
 keywords:
-- Словари веб-служб для Windows
+- Веб-службы с словарями для Windows
 - ввсапи
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75ba13760a1ff1a1cef61ff6015c5630ab0e134c
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 8ea9ac022ab88f70b304b65581fbcdf294e9aee45c52e3ffd888138b82815230
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104414185"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117841764"
 ---
 # <a name="dictionaries"></a>Словари
 

@@ -1,5 +1,5 @@
 ---
-description: Тип перечисления "WPD- \_ тип хранилища" \_ \_ описывает различные типы хранилищ переносных устройств Windows.
+description: тип перечисления "WPD-типы \_ хранилища" \_ \_ описывает различные Windows типы хранилищ переносимых устройств.
 ms.assetid: 52c34458-e64e-4355-9231-7457a6dff5c5
 title: Перечисление WPD_STORAGE_TYPE_VALUES (Портабледевице. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: b741feb1cb9a834e16a35627fe98718ac8acf30f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1aad78833f9e5baa0d3c7da3ab37d39f4159672b85d5c01c54ae8b034c5b43d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117842080"
 ---
 # <a name="wpd_storage_type_values-enumeration"></a>\_ \_ Перечисление значений типа хранилища WPD \_
 
-Тип перечисления " **WPD- \_ \_ тип \_ хранилища** " описывает различные типы хранилищ переносных устройств Windows.
+тип перечисления "WPD-типы **\_ хранилища \_ \_** " описывает различные Windows типы хранилищ переносимых устройств.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -78,7 +78,7 @@ typedef enum tagWPD_STORAGE_TYPE_VALUES {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Нет.
 
@@ -88,7 +88,7 @@ typedef enum tagWPD_STORAGE_TYPE_VALUES {
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Портабледевице. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Портабледевице. h</dt> </dl> |
 
 
 

@@ -1,6 +1,6 @@
 ---
-title: Настройка потоков обмена файлами
-description: Настройка потоков обмена файлами
+title: настройка Потоки для перемещения файлов
+description: настройка Потоки для перемещения файлов
 ms.assetid: faed54ae-9e80-492a-9602-e726bdb3b54a
 keywords:
 - потоки, Настройка потоков для обмена файлами
@@ -11,14 +11,14 @@ keywords:
 - расширения модулей данных, потоки обмена файлами
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75fac7d2270da82f1f9e82ed9123611ae608dd3c
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 9c0be95c9760a02275e223f56785149f6867d4aaf2462d07d158991b3cd21c01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104069605"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117849067"
 ---
-# <a name="configuring-file-transfer-streams"></a>Настройка потоков обмена файлами
+# <a name="configuring-file-transfer-streams"></a>настройка Потоки для перемещения файлов
 
 Для потоков передачи файлов не требуются специальные параметры в структуре [**\_ \_ типа мультимедиа WM**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type) . Им требуется расширение единицы данных, чтобы связать имя файла с каждым образцом. Чтобы отправить имя с примерами передачи файлов, необходимо реализовать систему расширения единиц обработки данных для потока.
 
@@ -33,22 +33,22 @@ ms.locfileid: "104069605"
 
     
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[**Общая конфигурация для всех потоков**](configuration-common-to-all-streams.md)
+[**общая конфигурация для всех Потоки**](configuration-common-to-all-streams.md)
 </dt> <dt>
 
 [**Настройка произвольных типов потоков**](configuring-arbitrary-stream-types.md)
 </dt> <dt>
 
-[**Файловые потоки**](file-streams.md)
+[**Потоки файлов**](file-streams.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

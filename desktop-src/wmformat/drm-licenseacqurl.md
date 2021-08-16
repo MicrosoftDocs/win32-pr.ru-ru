@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 231efc4334a4d893b4bdd1e7545bd50b1bed2a5c
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: a82edc09cf28ab5b46f4dc6df91f266927294209c69ff11289324d01cedbd23e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104533005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117848483"
 ---
 # <a name="drm_licenseacqurl"></a>\_ЛИЦЕНСЕАККУРЛ DRM
 
@@ -31,7 +31,7 @@ g \_ всзвмдрм \_ лиценсеаккурл
 
 **\_Строка типа \_ ВМТ**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут может быть задан с помощью [**ивмдрмвритер:: сетдрматтрибуте**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-setdrmattribute) , и его можно получить при помощи [**Ивмдрмреадер:: жетдрмпроперти**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty). Один и тот же атрибут файла можно получить с помощью [**\_ Дрмхеадер \_ лиценсеаккурл DRM**](drm-drmheader-licenseacqurl.md).
 
@@ -42,9 +42,9 @@ g \_ всзвмдрм \_ лиценсеаккурл
 [**Список атрибутов**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

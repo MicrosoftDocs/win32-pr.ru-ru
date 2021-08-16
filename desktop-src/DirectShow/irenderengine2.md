@@ -1,5 +1,5 @@
 ---
-description: Интерфейс IRenderEngine2 позволяет приложению заменить применяемый по умолчанию фильтр изменения размера видео, используемый службами редактирования DirectShow (DES). Базовый механизм визуализации и модуль интеллектуального просмотра поддерживают этот интерфейс.
+description: интерфейс IRenderEngine2 позволяет приложению заменить применяемый по умолчанию фильтр изменения размера видео, используемый службами DirectShow editing Services (DES). Базовый механизм визуализации и модуль интеллектуального просмотра поддерживают этот интерфейс.
 ms.assetid: 37603c73-e199-431a-9a1e-a40c77755c70
 title: Интерфейс IRenderEngine2 (Кедит. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: ed7802cf3d47d745b4e4733bb1fb60c61130b44a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 39f1bc68fc6cd76e87d1998047cb211b3a8aa8e263c90e0494c7eaf15d52f75f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117818512"
 ---
 # <a name="irenderengine2-interface"></a>Интерфейс IRenderEngine2
 
@@ -28,7 +28,7 @@ ms.locfileid: "105679841"
 
  
 
-`IRenderEngine2`Интерфейс позволяет приложению заменить применяемый по умолчанию фильтр изменения размера видео, используемый службами редактирования DirectShow (DES). [Базовый механизм визуализации](basic-render-engine.md) и [модуль интеллектуального просмотра](smart-render-engine.md) поддерживают этот интерфейс.
+`IRenderEngine2`интерфейс позволяет приложению заменить применяемый по умолчанию фильтр изменения размера видео, используемый службами DirectShow editing Services (DES). [Базовый механизм визуализации](basic-render-engine.md) и [модуль интеллектуального просмотра](smart-render-engine.md) поддерживают этот интерфейс.
 
 ## <a name="members"></a>Элементы
 
@@ -50,7 +50,7 @@ ms.locfileid: "105679841"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Файл заголовка Кедит. h несовместим с заголовками Direct3D позднее версии 7.
@@ -58,7 +58,7 @@ ms.locfileid: "105679841"
  
 
 > [!Note]  
-> Чтобы получить Кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (SP1).
+> чтобы получить кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (sp1).
 
  
 

@@ -25,7 +25,7 @@ ms.locfileid: "118370260"
 | [**фиксировать**](freeze.md)           | [**\_замораживание MCI**](mci-freeze.md)           |
 | [**номер**](./windows-multimedia-start-page.md)             | [**\_указатель MCI**](mci-index.md)             |
 | [**контактные**](info.md)               | [**\_сведения о MCI**](mci-info.md)               |
-| [**числ**](list.md)               | [**\_список MCI**](mci-list.md)               |
+| [**list**](list.md)               | [**\_список MCI**](mci-list.md)               |
 | [**как**](mark.md)               | [**\_маркер MCI**](mci-mark.md)               |
 | [**работу**](pause.md)             | [**Приостановка MCI \_**](mci-pause.md)             |
 | [**воспроизводит**](play.md)               | [**\_Воспроизведение MCI**](mci-play.md)               |

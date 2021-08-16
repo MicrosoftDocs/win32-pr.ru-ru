@@ -4,12 +4,12 @@ ms.assetid: ADF27BFD-CC96-43F9-9EBB-DEBE0DEA7B92
 title: Реализация обработчиков наложения значков
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e22c1057f65c50b31c6627846ec77103827a0283
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8745d0d5c0cf9c69f28f0235ecc82acb07a14f1e3408d7fa7d65cf729e01403f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104985428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117859701"
 ---
 # <a name="how-to-implement-icon-overlay-handlers"></a>Реализация обработчиков наложения значков
 
@@ -19,7 +19,7 @@ ms.locfileid: "104985428"
 
 ### <a name="step-1-implementing-getoverlayinfo"></a>Шаг 1. Реализация Жетоверлайинфо
 
-Метод [**жетоверлайинфо**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelliconoverlayidentifier-getoverlayinfo) сначала вызывается во время инициализации. Метод возвращает полный путь к файлу, содержащему изображение наложения значка, и его Отсчитываемый от нуля индекс в файле. Затем оболочка добавляет образ в список образов системы. Наложения значков могут содержаться в любом из стандартных типов файлов, включая exe, DLL и ICO.
+Метод [**жетоверлайинфо**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelliconoverlayidentifier-getoverlayinfo) сначала вызывается во время инициализации. Метод возвращает полный путь к файлу, содержащему изображение наложения значка, и его Отсчитываемый от нуля индекс в файле. Затем оболочка добавляет образ в список образов системы. Наложения значков могут содержаться в любом из стандартных типов файлов, включая .exe, .dll и ICO.
 
 После завершения инициализации оболочка вызывает [**жетоверлайинфо**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelliconoverlayidentifier-getoverlayinfo) , когда требуется отобразить наложение значка обработчика. Метод должен возвращать то же имя файла и индекс, который выполнялся во время инициализации. Хотя оболочка использует образ, кэшированный в списке системных образов, а не загружает образ из файла, наложение значков по-прежнему определяется по имени файла и индексу.
 

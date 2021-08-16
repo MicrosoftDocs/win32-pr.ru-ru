@@ -3,7 +3,7 @@ title: Сообщение PBM_SETBARCOLOR (Коммктрл. h)
 description: Задает цвет индикатора хода выполнения в элементе управления "индикатор выполнения".
 ms.assetid: 4b512420-04ec-4884-ab13-4c58304b95f6
 keywords:
-- Элементы управления Windows для PBM_SETBARCOLOR сообщений
+- элементы управления Windows сообщений PBM_SETBARCOLOR
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1387e69622e84990a197dc5a374d1c3449393408
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: babff5ad74d943d64f5ad61354447498e91e1325c99c82b32183fbc62eabafdd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117830205"
 ---
 # <a name="pbm_setbarcolor-message"></a>\_Сообщение СЕТБАРКОЛОР PBM
 
@@ -47,7 +47,7 @@ ms.locfileid: "104534673"
 
 Возвращает цвет диаграммы предыдущего индикатора хода выполнения или \_ значение по умолчанию CLR, если цвет панели индикаторов выполнения является цветом по умолчанию.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если стили оформления включены, это сообщение не действует.
 
@@ -57,8 +57,8 @@ ms.locfileid: "104534673"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

@@ -77,7 +77,7 @@ DWORD CharUpperBuffWrapW(
 
 **Чаруппербуффврапв** должен вызываться напрямую из Shlwapi.dll с использованием порядкового номера 44.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

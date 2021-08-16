@@ -4,27 +4,27 @@ description: Приложение создает элемент управлен
 ms.assetid: F17CC2A4-BDC6-48A6-9AF5-19FCF65CC39A
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19b38cd49e8e6016dafad5ec07c77be570a5a430
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 0ebd6063f8921453a5c71e1c2467bf803c67c0a1b4f66e98006b9118e6a588b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103793981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117831776"
 ---
 # <a name="how-to-create-rebar-controls"></a>Создание элементов управления "Главная панель"
 
 Приложение создает элемент управления главной панели путем вызова функции [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) , указывая [**ребаркласснаме**](common-control-window-classes.md) в качестве класса Window. Приложение должно сначала зарегистрировать класс окна, вызвав функцию [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex) , указав \_ бит замечательных классов ICC \_ в сопровождающей структуре [**InitCommonControlsEx**](/windows/win32/api/commctrl/ns-commctrl-initcommoncontrolsex) .
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Обязательные условия
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
@@ -113,7 +113,7 @@ HWND CreateRebar(HWND hwndOwner, HWND hwndToolbar, HWND hwndCombo)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -123,9 +123,9 @@ HWND CreateRebar(HWND hwndOwner, HWND hwndToolbar, HWND hwndCombo)
 [Общие сведения об элементах управления главной панели](rebar-controls.md)
 </dt> <dt>
 
-[Демонстрация стандартных элементов управления Windows (Кппвиндовскоммонконтролс)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[демонстрация Windows стандартных элементов управления (кппвиндовскоммонконтролс)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

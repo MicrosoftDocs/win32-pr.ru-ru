@@ -3,7 +3,7 @@ title: Сообщение PGM_GETBUTTONSTATE (Коммктрл. h)
 description: Получает состояние указанной кнопки в элементе управления страничного навигатора. Это сообщение можно отправить явным образом или использовать \_ макрос Жетбуттонстате пейджера.
 ms.assetid: 58f99b67-fef7-4695-86e2-0579a2f6de2f
 keywords:
-- Элементы управления Windows для PGM_GETBUTTONSTATE сообщений
+- элементы управления Windows сообщений PGM_GETBUTTONSTATE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d8c9eebbc0aa91651a01de1fe193544f0c8afcf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2014b6e36a0ab883155d786760ef54f02c89ee0d17192d6082d40ad19eec95a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117830195"
 ---
 # <a name="pgm_getbuttonstate-message"></a>\_Сообщение ЖЕТБУТТОНСТАТЕ PGM
 
@@ -74,8 +74,8 @@ ms.locfileid: "103988994"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

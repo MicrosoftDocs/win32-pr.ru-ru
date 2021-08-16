@@ -4,27 +4,27 @@ description: В этом разделе показано, как обработ�
 ms.assetid: 7B559846-FE52-4181-B25D-888BE90EB038
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25271ff33ee6978ebcb0bc474492f884ed7faaa2
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 070d1234dbd9d09159335539309deec86e2d3e1e05547d933cd18f16b9d7162d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103891245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117829915"
 ---
 # <a name="how-to-process-the-dtn_format-notification"></a>Обработка \_ уведомления формата ДТН
 
 В этом разделе показано, как обработать уведомление формата, отправленное элементом управления "Выбор даты и времени" (DTP).
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Обязательные условия
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
@@ -119,7 +119,7 @@ BOOL WINAPI IsLeapYr(int iYear)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

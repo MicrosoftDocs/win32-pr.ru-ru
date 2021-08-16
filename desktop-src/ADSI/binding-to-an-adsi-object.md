@@ -7,12 +7,12 @@ keywords:
 - ADSI ADSI, использование, привязка
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c0fefcdb62d374d98e3007864168e2626ecc5d0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5e5d4fe066ec1e35f032f9551c0086559c850e976f9afde247c88d573c4e6c32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103773010"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117840551"
 ---
 # <a name="binding-to-an-adsi-object"></a>Привязка к объекту ADSI
 
@@ -30,9 +30,9 @@ ms.locfileid: "103773010"
 -   [Параметр быстрой привязки для операций записи и изменения пакетной службы](fast-binding-option-for-batch-writemodify-operations.md)
 -   [Выбор интерфейса для привязки](choosing-an-interface.md)
 
- 
+ 
 
- 
+ 
 
 
 

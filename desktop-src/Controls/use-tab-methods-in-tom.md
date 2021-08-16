@@ -4,27 +4,27 @@ description: В следующем примере представлены фу�
 ms.assetid: C74B4E43-615D-48B9-9884-F626BAF31F74
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9851b30fdf58c0d4200600c0c4c83c7f9a00a555
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.openlocfilehash: 654b4a101c2deb3c22993f41b11ee94df6ac738da41963046f02a072f3eaa6a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "103890344"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117828616"
 ---
 # <a name="how-to-use-tab-methods-in-tom"></a>Использование методов Tab в TOM
 
 В следующем примере представлены функции C, иллюстрирующие использование методов Tab в объектной модели текста (TOM). Предполагается, что большинство приложений включают панель инструментов, в которой отображается текущее положение и тип вкладок выбранного абзаца.
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные требования
+### <a name="prerequisites"></a>Обязательные условия
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
@@ -104,12 +104,12 @@ HRESULT CopyOnlyTabs(ITextPara *pParaFrom, ITextPara *pParaTo)
 [Использование элементов управления Rich Edit](using-rich-edit-controls.md)
 </dt> <dt>
 
-[Демонстрация стандартных элементов управления Windows (Кппвиндовскоммонконтролс)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[демонстрация Windows стандартных элементов управления (кппвиндовскоммонконтролс)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

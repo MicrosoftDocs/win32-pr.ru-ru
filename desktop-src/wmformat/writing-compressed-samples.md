@@ -9,12 +9,12 @@ keywords:
 - ASF (Расширенный системный формат), Передача сжатых образцов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c0c43fed30aa89e83c157479257e78fbab4acd98
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 0eaa6bf5298e465716fe7a60eb5de2459f09be405611ac7322b534804bbbc997
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104487288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117843658"
 ---
 # <a name="writing-compressed-samples"></a>Написание сжатых образцов
 
@@ -24,16 +24,16 @@ ms.locfileid: "104487288"
 
 При копировании потока из одного файла в другой следует всегда копировать объект конфигурации потока из профиля исходного файла в профиль нового файла. Это обеспечит правильную скорость потока и данные окна буфера. При копировании сжатого потока в поток, в котором установлен меньший набор окон буфера, примеры будут удалены во время записи файла.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Запись файлов ASF**](writing-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

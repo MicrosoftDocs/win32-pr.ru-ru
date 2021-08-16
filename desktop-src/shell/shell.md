@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 75fc151e-5b9e-476b-b4e5-b848917357a8
-ms.openlocfilehash: 55f8062b71e553ec5ceefa413b45f439874744b8
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: fe2fbaa1bad61ac9c22d36919e49cf493a26a778a8e97d69d1b200c0c62205e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117857723"
 ---
 # <a name="shell-object"></a>Объект оболочки
 
@@ -63,14 +63,14 @@ ms.locfileid: "109841765"
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="shell-cascadewindows.md"><strong>каскадевиндовс</strong></a></td>
-<td style="text-align: left;">Каскадное расположение всех окон на рабочем столе. Этот метод действует так же, как и щелчок правой кнопкой мыши панели задач и выбора <strong>окна каскадом</strong>.<br/></td>
+<td style="text-align: left;">Каскадное расположение всех окон на рабочем столе. Этот метод действует так же, как и щелчок правой кнопкой мыши панели задач и выбора <strong>Windows каскадом</strong>.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="shell-controlpanelitem.md"><strong>ControlPanelItem</strong></a></td>
-<td style="text-align: left;">Запускает указанное приложение панели управления (*. cpl). Если приложение уже открыто, будет активирован запущенный экземпляр. <br/>
+<td style="text-align: left;">Запускает указанное приложение панели управления (* .cpl). Если приложение уже открыто, будет активирован запущенный экземпляр. <br/>
 <blockquote>
 <p>[!Note]<br />
-Начиная с Windows Vista, большинство приложений панели управления являются элементами оболочки и не могут быть открыты с помощью этой функции. Чтобы открыть эти приложения панели управления, передайте каноническое имя в control.exe. Пример:</p>
+начиная с Windows Vista большинство приложений панели управления являются элементами оболочки и не могут быть открыты с помощью этой функции. Чтобы открыть эти приложения панели управления, передайте каноническое имя в control.exe. Например.</p>
 <pre class="syntax" data-space="preserve"><code>control.exe /name Microsoft.Personalization</code></pre>
 </blockquote>
 <br/></td>
@@ -80,8 +80,8 @@ ms.locfileid: "109841765"
 <td style="text-align: left;">Извлекает компьютер из стыковочного узла. Это то же самое, что и при нажатии кнопки " <strong>Пуск</strong> " и выборе пункта " <strong>извлечь компьютер</strong>", если компьютер поддерживает эту команду.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="shell-explore.md"><strong>Просматриваем</strong></a></td>
-<td style="text-align: left;">Открывает указанную папку в окне проводника Windows.<br/></td>
+<td style="text-align: left;"><a href="shell-explore.md"><strong>Анализ</strong></a></td>
+<td style="text-align: left;">открывает указанную папку в окне проводника Windows.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="shell-explorerpolicy.md"><strong>експлорерполици</strong></a></td>
@@ -97,7 +97,7 @@ ms.locfileid: "109841765"
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="shell-findfiles.md"><strong>финдфилес</strong></a></td>
-<td style="text-align: left;">Отображает диалоговое окно <strong>Поиск: все файлы</strong> . Это то же самое, что и при нажатии кнопки « <strong>Пуск</strong> », а затем при выборе <strong>поиска</strong> (или его эквивалента в системах, предшествующих Windows XP.<br/></td>
+<td style="text-align: left;">Отображает диалоговое окно <strong>Поиск: все файлы</strong> . это то же самое, что и при нажатии кнопки " <strong>пуск</strong> ", а затем выборе <strong>поиска</strong> (или его эквивалента в системах, предшествующих Windows XP.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="/windows/desktop/shell/shell-findprinter"><strong>финдпринтер</strong></a></td>
@@ -113,7 +113,7 @@ ms.locfileid: "109841765"
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="shell-help.md"><strong>Справка</strong></a></td>
-<td style="text-align: left;">Отображает центр справки и поддержки Windows. Этот метод действует так же, как и при щелчке меню <strong>Пуск</strong> и выбрав пункт <strong>Справка и поддержка</strong>.<br/></td>
+<td style="text-align: left;">отображает Windows центре справки и поддержки. Этот метод действует так же, как и при щелчке меню <strong>Пуск</strong> и выбрав пункт <strong>Справка и поддержка</strong>.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="/windows/desktop/shell/shell-isrestricted"><strong>Ограниченный доступ</strong></a></td>
@@ -125,19 +125,19 @@ ms.locfileid: "109841765"
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="shell-minimizeall.md"><strong>минимизеалл</strong></a></td>
-<td style="text-align: left;">Свертывает все окна на рабочем столе. Этот метод действует аналогично щелчку правой кнопкой мыши панели задач и выбора пункта <strong>Свернуть все окна</strong> в старых системах или нажатия значка <strong>Показывать Рабочий стол</strong> в области Быстрый запуск панели задач в Windows 2000 или Windows XP.<br/></td>
+<td style="text-align: left;">Свертывает все окна на рабочем столе. этот метод имеет тот же результат, что и щелчок правой кнопкой мыши панели задач и выбора параметра <strong>свернуть все Windows</strong> в старых системах или нажатия значка " <strong>показывать рабочий стол</strong> " в области быстрого запуска на панели задач в Windows 2000 или Windows XP.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="shell-namespace.md"><strong>Имен</strong></a></td>
 <td style="text-align: left;">Создает и возвращает объект <a href="folder.md"><strong>Folder</strong></a> для указанной папки.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="shell-open.md"><strong>Открыт</strong></a></td>
+<td style="text-align: left;"><a href="shell-open.md"><strong>Открыть</strong></a></td>
 <td style="text-align: left;">Открывает указанную папку.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="shell-refreshmenu.md"><strong>рефрешмену</strong></a></td>
-<td style="text-align: left;">Обновляет содержимое меню " <strong>Пуск</strong> ". Используется только с системами, предшествующими Windows XP.<br/></td>
+<td style="text-align: left;">Обновляет содержимое меню " <strong>Пуск</strong> ". используется только с системами, предшествующими Windows XP.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="shell-searchcommand.md"><strong>сеарчкомманд</strong></a></td>
@@ -165,19 +165,19 @@ ms.locfileid: "109841765"
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="shell-shutdownwindows.md"><strong>шутдовнвиндовс</strong></a></td>
-<td style="text-align: left;">Отображает диалоговое окно <strong>Завершение работы Windows</strong> . Это то же самое, что и при нажатии кнопки « <strong>Пуск</strong> », и при выборе « <strong>Завершение работы</strong>».<br/></td>
+<td style="text-align: left;">отображает диалоговое окно <strong>завершение работы Windows</strong> . Это то же самое, что и при нажатии кнопки « <strong>Пуск</strong> », и при выборе « <strong>Завершение работы</strong>».<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="shell-suspend.md"><strong>Анализируем</strong></a></td>
+<td style="text-align: left;"><a href="shell-suspend.md"><strong>Приостановить</strong></a></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="shell-tilehorizontally.md"><strong>тилехоризонталли</strong></a></td>
-<td style="text-align: left;">Мозаичное отображение всех окон на рабочем столе по горизонтали. Этот метод действует так же, как и щелчок правой кнопкой мыши панели задач и выбор <strong>окон мозаики по горизонтали</strong>.<br/></td>
+<td style="text-align: left;">Мозаичное отображение всех окон на рабочем столе по горизонтали. этот метод действует аналогично щелчку правой кнопкой мыши панели задач и выбора <strong>плитки Windows горизонтально</strong>.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="shell-tilevertically.md"><strong>тилевертикалли</strong></a></td>
-<td style="text-align: left;">Располагает все окна на рабочем столе по вертикали. Этот метод действует так же, как и щелчок правой кнопкой мыши панели задач и выбор <strong>окон мозаики по вертикали</strong>.<br/></td>
+<td style="text-align: left;">Располагает все окна на рабочем столе по вертикали. этот метод имеет тот же результат, что и щелчок правой кнопкой мыши панели задач и выбор <strong>плитки Windows вертикально</strong>.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="shell-toggledesktop.md"><strong>тоггледесктоп</strong></a></td>
@@ -189,7 +189,7 @@ ms.locfileid: "109841765"
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="shell-undominimizeall.md"><strong>ундоминимизеалл</strong></a></td>
-<td style="text-align: left;">Восстанавливает все настольные компьютеры в том же состоянии, в котором они находились до последней команды <a href="shell-minimizeall.md"><strong>минимизеалл</strong></a> . Этот метод действует аналогично щелчку правой кнопкой мыши панели задач и выбора команды <strong>отменить свернуть все окна</strong> в старых системах или второй щелчок значка Свернуть <strong>Рабочий стол</strong> в области Быстрый запуск панели задач в Windows 2000 или Windows XP.<br/></td>
+<td style="text-align: left;">Восстанавливает все настольные компьютеры в том же состоянии, в котором они находились до последней команды <a href="shell-minimizeall.md"><strong>минимизеалл</strong></a> . этот метод действует аналогично щелчку правой кнопкой мыши панели задач и выбора команды <strong>отменить свернуть все Windows</strong> в старых системах или второй щелчок значка " <strong>свернуть рабочий стол</strong> " в области быстрого запуска на панели задач в Windows 2000 или Windows XP.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="shell-windows.md"><strong>Windows</strong></a></td>
@@ -197,7 +197,7 @@ ms.locfileid: "109841765"
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="shell-windowssecurity.md"><strong>виндовссекурити</strong></a></td>
-<td style="text-align: left;">Отображает диалоговое окно <strong>Безопасность Windows</strong> .<br/></td>
+<td style="text-align: left;">отображает диалоговое окно <strong>Безопасность Windows</strong> .<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="shell-windowswitcher.md"><strong>виндовсвитчер</strong></a></td>
@@ -218,20 +218,20 @@ ms.locfileid: "109841765"
 
 | Свойство                                            | Тип доступа          | Описание                                                                 |
 |:----------------------------------------------------|:---------------------|:----------------------------------------------------------------------------|
-| [**Приклад**](shell-application.md)<br/> | Только для чтения<br/> | Содержит объект приложения объекта.<br/>                        |
+| [**Приложение**](shell-application.md)<br/> | Только для чтения<br/> | Содержит объект приложения объекта.<br/>                        |
 | [**Parent**](shell-parent.md)<br/>           | Только для чтения<br/> | Возвращает объект, представляющий родительский объект текущего объекта.<br/> |
 
 
 
  
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                           |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                         |

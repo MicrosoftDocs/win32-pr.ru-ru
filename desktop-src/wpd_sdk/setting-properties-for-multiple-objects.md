@@ -4,12 +4,12 @@ ms.assetid: 0686ba54-4782-42a4-8fdb-2325fc8d8bc2
 title: Задание свойств для нескольких объектов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e951662d9920cb22db0a417f1af94f3eb7eb4d7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 14517e26843265d8273785657e98b691c155821c10f57b92d53e374c20d34ede
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712567"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117842686"
 ---
 # <a name="setting-properties-for-multiple-objects"></a>Задание свойств для нескольких объектов
 
@@ -311,7 +311,7 @@ if (SUCCEEDED(hr))
 
 Обратите внимание, что пример ожидает бесконечно долгое время для завершения операции. Если это рабочее приложение, необходимо изменить код.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -1,17 +1,17 @@
 ---
-title: Использование дружественных окон
+title: Использование дружественной Windows
 description: Настроив другие элементы управления как дружественные окна для TrackBar, можно автоматически размещать эти элементы управления на концах TrackBar в виде меток.
 ms.assetid: 5797AA55-BD8D-407A-8896-08EE0DDC7E30
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8eca9a4e3b3049f8d4cf7515879d91a096f5a9e3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d6819e0f37f07a90ae08a623f14c6c26d1d67f55ea81143834dfd10816f74396
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117829063"
 ---
-# <a name="how-to-use-buddy-windows"></a>Использование дружественных окон
+# <a name="how-to-use-buddy-windows"></a>Использование дружественной Windows
 
 Настроив другие элементы управления как дружественные окна для TrackBar, можно автоматически размещать эти элементы управления на концах TrackBar в виде меток.
 
@@ -19,20 +19,20 @@ ms.locfileid: "104067808"
 
 ![снимок экрана, показывающий диалоговое окно с горизонтальной и вертикальной TrackBar](images/tkb-buddy.png)
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Обязательные условия
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
-### <a name="use-buddy-windows"></a>Использование дружественных окон
+### <a name="use-buddy-windows"></a>Использовать приятель Windows
 
 В следующем примере кода создаются дружественные окна, показанные на рисунке.
 
@@ -84,20 +84,20 @@ void LabelTrackbarsWithBuddies(HWND hDlg)
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **IDC \_ SLIDER1** и **IDC \_ SLIDER2** — это ползунки, созданные в редакторе ресурсов.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Использование элементов управления TrackBar](using-trackbar-controls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

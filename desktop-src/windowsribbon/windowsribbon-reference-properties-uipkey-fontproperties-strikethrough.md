@@ -4,12 +4,12 @@ description: Определяет свойство UI \_ PKEY \_ фонтпро�
 ms.assetid: 18ee653d-db01-4615-a85d-ad4ac6a0f422
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b684704fdd90a8dd1b88b14db2b52540b15fccb
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 746172ec2209861615375e73dee3f2336950a2dd93e76b33893190e9f7e8bc18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117850313"
 ---
 # <a name="ui_pkey_fontproperties_strikethrough"></a>Пользовательский интерфейс \_ PKEY \_ фонтпропертиес \_ Зачеркнутый
 
@@ -31,7 +31,7 @@ UI \_ PKEY \_ фонтпропертиес \_ Зачеркнутый испол�
 
 Значение свойства находится в перечислении [**\_ Фонтпропертиес пользовательского интерфейса**](/windows/desktop/api/uiribbon/ne-uiribbon-ui_fontproperties) .
 
-Значение по умолчанию — `UI_FONTPROPERTIES_NOTSET`.
+Значение по умолчанию — `UI_FONTPROPERTIES_NOTSET`.
 
 На следующем снимке экрана показана кнопка **зачеркивания** ленты [**фонтконтрол**](windowsribbon-element-fontcontrol.md).
 

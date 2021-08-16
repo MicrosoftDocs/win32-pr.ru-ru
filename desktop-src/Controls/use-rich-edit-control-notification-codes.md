@@ -4,27 +4,27 @@ description: Родительское окно элемента управлен
 ms.assetid: E045EADE-CB37-492A-85EC-6CF236677F08
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e68e510bf7c5abe6109862a01d8926c8956736f9
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.openlocfilehash: e6bc730c648e76137db480f14895d540a9142ae6a80ffa58533e38ef513653ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "103987295"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117828637"
 ---
 # <a name="how-to-use-rich-edit-control-notification-codes"></a>Использование расширенных кодов уведомлений элемента управления редактированием
 
 Родительское окно элемента управления Rich Edit может обрабатывать коды уведомлений для отслеживания событий, влияющих на элемент управления. Элементы управления Rich Edit поддерживают все коды уведомлений, используемые с элементами управления "поле ввода", а также несколько дополнительных.
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
@@ -38,19 +38,19 @@ ms.locfileid: "103987295"
 
 Вы можете разрешить пользователю удалять файлы в элементе управления Rich Edit, обрабатывая код уведомления [en \_ дропфилес](en-dropfiles.md) . Указанная структура [**ендропфилес**](/windows/desktop/api/Richedit/ns-richedit-endropfiles) содержит сведения о удаляемых файлах.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Использование элементов управления Rich Edit](using-rich-edit-controls.md)
 </dt> <dt>
 
-[Демонстрация стандартных элементов управления Windows (Кппвиндовскоммонконтролс)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[демонстрация Windows стандартных элементов управления (кппвиндовскоммонконтролс)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

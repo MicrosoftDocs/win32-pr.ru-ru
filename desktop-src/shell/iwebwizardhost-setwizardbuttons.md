@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shldisp.h
 ms.assetid: 863aa667-454c-40cd-8091-9bb456047b6c
-ms.openlocfilehash: a1b2a79c7ea323c36371e08d3519e71e4c537935
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 36b40d0831c18a7931f3f29492dd4c7769440a76ddcec2aa33ba3e840e97950d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109842625"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117859127"
 ---
 # <a name="webwizardhostsetwizardbuttons-method"></a>Вебвизардхост. Сетвизардбуттонс, метод
 
@@ -72,15 +72,15 @@ iRetVal = WebWizardHost.SetWizardButtons(
 
 Не забудьте реализовать функции обработчика на каждой странице на стороне сервера для функций onback () и onback (), соответствующих кнопкам мастера **назад** и **Далее**. Функции onback () и onback () отвечают на **сетвизардбуттонс**. В соответствующее время функция OnNext () вызывает **сетвизардбуттонс** с *вбластпаже* = **true**, что может включить кнопку **Готово** . OnNext () также вызывает [**финалнекст**](iwebwizardhost-finalnext.md) , когда пользователь нажимает кнопку **Готово** .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                   |
-| Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                   |
+| Header<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl> |
 
 

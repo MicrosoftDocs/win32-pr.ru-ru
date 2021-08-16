@@ -4,12 +4,12 @@ ms.assetid: 0fe02acb-cdac-4b6c-8835-6e338727973f
 title: Свойство Авенкддкопиригхт (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 43bea391d924483ff5a4c0c38dccb7ff6b2f6886
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8b70258b75b302229c50ec6e093084e6bbedbfadd8867049d37b0f2a61c79e50
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104495627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118403766"
 ---
 # <a name="avencddcopyright-property"></a>Авенкддкопиригхт, свойство
 
@@ -31,8 +31,8 @@ ms.locfileid: "104495627"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 

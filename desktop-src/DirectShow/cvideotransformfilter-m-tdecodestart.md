@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3948b37c2efeb7d21e664da354571c2bdf9ab298
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a162103a8a67cfcb4589c7f030db8ca7d93a89ee6fb7f12f1c0e2a40a4841ef6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105656865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117821601"
 ---
 # <a name="cvideotransformfilterm_tdecodestart-member"></a>Элемент Квидеотрансформфилтер:: m \_ тдекодестарт
 
@@ -42,7 +42,7 @@ int m_tDecodeStart;
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Втранс. h (включение Streams. h)</dt> </dl>                                                                                    |
+| Заголовок<br/>  | <dl> <dt>втранс. h (включает Потоки. h)</dt> </dl>                                                                                    |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

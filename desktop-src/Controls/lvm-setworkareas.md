@@ -3,7 +3,7 @@ title: Сообщение LVM_SETWORKAREAS (Коммктрл. h)
 description: Задает рабочие области в элементе управления "представление списка". Это сообщение можно отправить явным образом или использовать \_ макрос Сетворкареас ListView.
 ms.assetid: 87ac192d-f481-43ac-b8a5-c754cf33e487
 keywords:
-- Элементы управления Windows для LVM_SETWORKAREAS сообщений
+- элементы управления Windows сообщений LVM_SETWORKAREAS
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4166238c97b5766a5f2bbb19e0de853526d83385
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8f1060377fd9aec9014d18d206444355b052f4aafb796403e3e47fa92a0a7aaa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117830665"
 ---
 # <a name="lvm_setworkareas-message"></a>\_Сообщение LVM сетворкареас
 
@@ -53,8 +53,8 @@ ms.locfileid: "103989166"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

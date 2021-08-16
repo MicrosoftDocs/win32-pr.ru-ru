@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 017097bea656309aabf3d773f34152805fd6a579
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: d570a49d1a5ba632fbbb453b6397338af70d29b0dc837db12193d2889c867eaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "105654251"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117835113"
 ---
 # <a name="cancel-session"></a>Cancel-Session
 
@@ -56,7 +56,7 @@ BITS-Session-Id: {guid}
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот пакет отменяет задание отправки, если оно отправляется до отправки последнего фрагмента. Cancel-Session не влияет на файл, последний фрагмент которого уже был отправлен. Когда сервер BITS получает последний фрагмент, он записывает файл в конечное место назначения, а в случае отправки-ответа отправляет файл в серверное приложение. В случае отправки-ответа пакет Cancel-Session отменяет часть ответа задания отправки и ответа.
 
@@ -74,9 +74,9 @@ BITS-Session-Id: {guid}
 [**Закрыть — сеанс**](close-session.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

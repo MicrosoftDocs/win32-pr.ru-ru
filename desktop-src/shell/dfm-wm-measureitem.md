@@ -4,12 +4,12 @@ ms.assetid: 4584a3da-6c92-4ecd-8cf2-e4afc1b8321d
 title: Сообщение DFM_WM_MEASUREITEM (Шлобж. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 61c4ad79acf221ecaabf9060940ad2514422bef1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5e7ad0d39a56f598a8ef4773c70f4f438388e91a2154b3083fdf85a1ebebec22
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104423705"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117860902"
 ---
 # <a name="dfm_wm_measureitem-message"></a>\_Сообщение DFM WM \_ меасуреитем
 
@@ -46,7 +46,7 @@ DFM_WM_MEASUREITEM
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Когда окно владельца получает сообщение **DFM \_ WM \_ меасуреитем** , владелец заполняет структуру [**меасуреитемструкт**](/windows/win32/api/winuser/ns-winuser-measureitemstruct) , на которую указывает параметр *лпмеасуреитем* сообщения, и возвращает значение, которое информирует систему о размерах элемента управления.
 
@@ -56,8 +56,8 @@ DFM_WM_MEASUREITEM
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                      |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                      |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Шлобж. h</dt> </dl> |
 
 

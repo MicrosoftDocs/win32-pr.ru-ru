@@ -46,7 +46,7 @@ propVal = Error.DatabaseTable
 
 См. раздел [**Получение функции \_ датабасетабле**](/windows/win32/api/mergemod/nf-mergemod-imsmerror-get_databasetable) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -1,5 +1,5 @@
 ---
-description: Портативные устройства Windows поддерживают следующие свойства расширения класса.
+description: Windows Портативные устройства поддерживают следующие свойства расширения класса.
 ms.assetid: 9b8983ba-5824-495d-868f-fd22b98e1954
 title: Свойства расширения класса (Портабледевице. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: c7e961b80ae990653e6c354640b35c28f8bcf8b8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4c7215a383aec582f576cb64a6781068034bb7fa8df03b5a404368482f1c1619
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117843408"
 ---
 # <a name="class-extension-properties"></a>Свойства расширения класса
 
-Портативные устройства Windows поддерживают следующие свойства расширения класса.
+Windows Портативные устройства поддерживают следующие свойства расширения класса.
 
 
 
@@ -45,7 +45,7 @@ ms.locfileid: "105694798"
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Портабледевице. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Портабледевице. h</dt> </dl> |
 
 
 

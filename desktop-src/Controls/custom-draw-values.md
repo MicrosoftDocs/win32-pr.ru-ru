@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ccf05ab951fdc83ec5be414688be56d710ba0d98
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cb714df7c91819a7d459c4c9fbed1fbc1e0d4fd2455f52891030d95991fa6497
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117831695"
 ---
 # <a name="custom-draw-values"></a>Пользовательские значения рисования
 
@@ -35,7 +35,7 @@ ms.locfileid: "105648637"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Пользовательские значения рисования, например, задаются в элементе **двитемспек** структуры [**нмкустомдрав**](/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw) .
 
@@ -45,7 +45,7 @@ ms.locfileid: "105648637"
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 
