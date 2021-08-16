@@ -1,6 +1,6 @@
 ---
 title: Интерфейс IMsRdpClientAdvancedSettings6
-description: Отображает свойства, управляющие дополнительными параметрами элементов управления ActiveX.
+description: отображает свойства, управляющие расширенными параметрами управления ActiveX.
 ms.assetid: 45b48cdf-3860-4359-99b2-8d2598146d1d
 ms.tgt_platform: multiple
 keywords:
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e61d3358f1af228dcd1b5a7431ee759b486df7a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cf4c108345e3dae0b5c8f4e45c3a1c07299cccdaed44404718e599c0ef973957
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105681939"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118352131"
 ---
 # <a name="imsrdpclientadvancedsettings6-interface"></a>Интерфейс IMsRdpClientAdvancedSettings6
 
-Отображает свойства, управляющие дополнительными параметрами элементов управления ActiveX. Интерфейс **IMsRdpClientAdvancedSettings6** является производным от интерфейса [**IMsRdpClientAdvancedSettings5**](imsrdpclientadvancedsettings5.md) .
+отображает свойства, управляющие расширенными параметрами управления ActiveX. Интерфейс **IMsRdpClientAdvancedSettings6** является производным от интерфейса [**IMsRdpClientAdvancedSettings5**](imsrdpclientadvancedsettings5.md) .
 
 Чтобы получить экземпляр этого интерфейса, используйте свойство [**имстскакс:: адванцедсеттингс**](imstscax-advancedsettings.md) для получения указателя на интерфейс [**имстскадванцедсеттингс**](imstscadvancedsettings-interface.md) . Затем вызовите [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) в указателе **имстскадванцедсеттингс** и передайте **IID \_ IMsRdpClientAdvancedSettings6** в **QueryInterface**.
 
@@ -35,17 +35,17 @@ ms.locfileid: "105681939"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Интерфейс **IMsRdpClientAdvancedSettings6** имеет следующие свойства.
 
 
 
-| Свойство                                                                                                  | Тип доступа           | Описание                                                                                                                        |
+| Свойство.                                                                                                  | Тип доступа           | Описание                                                                                                                        |
 |:----------------------------------------------------------------------------------------------------------|:----------------------|:-----------------------------------------------------------------------------------------------------------------------------------|
 | [**аусентикатионсервицекласс**](imsrdpclientadvancedsettings6-authenticationserviceclass.md)<br/> | Чтение/запись<br/> | Указывает имя участника-службы (SPN), используемое для проверки подлинности на сервере.<br/>                                     |
 | [**AuthenticationType**](imsrdpclientadvancedsettings6-authenticationtype.md)<br/>                 | Только для чтения<br/>  | Указывает тип проверки подлинности, используемый для этого соединения.<br/>                                                          |
-| [**коннекттоадминистерсервер**](imsrdpclientadvancedsettings6-connecttoadministerserver.md)<br/>   | Чтение/запись<br/> | Возвращает или задает значение, указывающее, должен ли элемент управления ActiveX пытаться подключиться к серверу для административных целей.<br/> |
+| [**коннекттоадминистерсервер**](imsrdpclientadvancedsettings6-connecttoadministerserver.md)<br/>   | Чтение/запись<br/> | возвращает или задает значение, указывающее, должен ли элемент управления ActiveX пытаться подключиться к серверу для административных целей.<br/> |
 | [**енаблекредсспсуппорт**](imsrdpclientadvancedsettings6-enablecredsspsupport.md)<br/>             | Чтение/запись<br/> | Указывает, включен ли поставщик службы безопасности учетных данных (CredSSP) для этого подключения.<br/>                    |
 | [**хоткэйфокусрелеаселефт**](imsrdpclientadvancedsettings6-hotkeyfocusreleaseleft.md)<br/>         | Чтение/запись<br/> | Задает код виртуального ключа, добавляемый в сочетание клавиш CTRL + ALT для определения замены с помощью сочетания клавиш CTRL + ALT + стрелка влево.<br/>          |
 | [**хоткэйфокусрелеасеригхт**](imsrdpclientadvancedsettings6-hotkeyfocusreleaseright.md)<br/>       | Чтение/запись<br/> | Указывает код виртуального ключа, добавляемый в сочетание клавиш CTRL + ALT для определения замены с помощью сочетания клавиш CTRL + ALT + стрелка вправо.<br/>         |
@@ -56,7 +56,7 @@ ms.locfileid: "105681939"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот интерфейс расширен интерфейсом [**IMsRdpClientAdvancedSettings7**](imsrdpclientadvancedsettings7.md) , который наследует все методы и свойства предыдущих интерфейсов.
 

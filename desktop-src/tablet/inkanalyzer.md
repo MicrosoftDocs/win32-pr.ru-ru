@@ -32,7 +32,7 @@ ms.locfileid: "118220748"
 
 [**\_ Ианалисиспроксевентс**](-ianalysisproxyevents.md) предоставляет события прокси-сервера данных для [**иинканализер**](iinkanalyzer.md). Дополнительные сведения см. [в разделе Учетная запись-посредник данных с помощью анализа рукописного ввода](data-proxy-with-ink-analysis.md).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

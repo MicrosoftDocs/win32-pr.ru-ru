@@ -7,12 +7,12 @@ keywords:
 - ошибки и перехват ошибок ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d0669c6d859f4b160d8fa7d6e61ca8c8921d995
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 43f4ccde9bdfc0e1e6bea26d3186a0219bd42904d64dfffd719a7417c35c9fc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103887547"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117840068"
 ---
 # <a name="errors-and-error-trapping"></a>Ошибки и перехват ошибок
 
@@ -21,9 +21,9 @@ ADSI создает множество различных ошибок, от и�
 -   [Перехват ошибок в ADSI](how-to-trap-adsi-errors.md)
 -   [Распространенные ошибки](common-errors.md)
 
- 
+ 
 
- 
+ 
 
 
 

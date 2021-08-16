@@ -4,12 +4,12 @@ description: Иногда клиент нуждается в детализир�
 ms.assetid: 72925ca2-78c9-47d9-8760-63f6379326d2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b38fe83e8ce8841cc9029808a6947ec67d4eaf4
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: f8ef969039dcfdc12449b7a8d0a3d63729ab5f84061ade1a743d21a1b6b34331
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "105700943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118309099"
 ---
 # <a name="setting-security-at-the-interface-proxy-level"></a>Настройка безопасности на уровне прокси-сервера интерфейса
 
@@ -25,13 +25,13 @@ ms.locfileid: "105700943"
 
 [**Иклиентсекурити**](/windows/desktop/api/ObjIdl/nn-objidl-iclientsecurity) работает со всеми поддерживаемыми службами проверки подлинности (в настоящее время NTLMSSP, SChannel и протоколом Kerberos V5).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Настройка безопасности для приложений COM](setting-security-for-com-applications.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

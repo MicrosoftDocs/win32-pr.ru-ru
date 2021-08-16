@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 852f022e1c24fa24c158ee4eb68dca44e6f010a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b618821880a713e3e76e3ae9c78454bb15469a578ab4d40def1a66d2d763c71a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984189"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117860214"
 ---
 # <a name="folderitemisfilesystem-property"></a>FolderItem. для свойства FileSystem
 
@@ -41,9 +41,9 @@ bIsFileSystem = FolderItem.IsFileSystem
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере с **помощью файла** «файл» определяется, является ли папка Windows частью файловой системы. Правильное использование показано в JScript, VBScript и Visual Basic.
+в следующем примере с **помощью файла** «файл» определяется, является ли папка Windows частью файловой системы. правильное использование отображается для JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -148,7 +148,7 @@ End Sub
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                           |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                         |

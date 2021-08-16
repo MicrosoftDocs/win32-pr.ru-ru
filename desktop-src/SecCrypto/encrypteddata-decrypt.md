@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: aa702a5cefc46f6d0cbe5d7e0fba17ff03596b40
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8bf8a108efdc462a9f08a508a05b736817ec38ce43ee50dbd3fdd11aa2af9f74
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105647973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117766709"
 ---
 # <a name="encrypteddatadecrypt-method"></a>Метод EncryptedData. дешифровки
 
@@ -52,7 +52,7 @@ EncryptedData.Decrypt( _
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Ключ сеанса, полученный из текущего секрета, используется для расшифровки. Этот метод не будет создавать правильный открытый текст, если только текущий секрет не совпадает с секретом, используемым для шифрования сообщения.
 

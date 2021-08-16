@@ -58,7 +58,7 @@ typedef enum DELETE_OBJECT_OPTIONS {
 
 Приложение может получить параметры удаления, которые поддерживает устройство, вызвав [**ипортабледевицекапабилитиес:: жеткоммандоптионс**](/windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecapabilities-getcommandoptions) для команды **WPD \_ команда \_ \_ \_ DELETE \_ Objects** . Он должен проверить значение параметра типа WPD, которое **\_ \_ \_ \_ \_ \_ поддерживает рекурсивное удаление** , которое этот метод возвращает в объекте [**ипортабледевицевалуесколлектион**](iportabledevicevaluescollection.md) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

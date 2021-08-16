@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: 61fe8be0bdf75db5204066563ca07f8225678f7d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ebd46b751f4a098361618f3b6e992e4333425f501bf6afdedfca047e921ad7ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117772061"
 ---
 # <a name="capicom_store_open_mode-enumeration"></a>\_ \_ Перечисление в открытом режиме CAPICOM Store \_
 
@@ -38,7 +38,7 @@ ms.locfileid: "105648920"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При использовании \_ \_ \_ перечислений в режиме открытого хранилища CAPICOM можно использовать только один из следующих параметров.
 

@@ -4,24 +4,24 @@ ms.assetid: F0C1D60E-7A5A-4609-9136-F4E535E9F6F1
 title: Реализация интерфейса IContextMenu
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f251b9a64c3f401239eeb7c88286c016f399cc39
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f44ec65d95a4f6d67a9f15e10f5720be21c3b6c57fba5d0cf920bd12be54f662
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103998451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118223471"
 ---
 # <a name="how-to-implement-the-icontextmenu-interface"></a>Реализация интерфейса IContextMenu
 
 [**IContextMenu**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) является самым мощным, но также самым сложным интерфейсом для реализации. Настоятельно рекомендуется реализовать команду с помощью одного из статических методов глагола. Дополнительные сведения см. [в разделе Выбор метода статического или динамического контекстного меню](shortcut-choose-method.md). [**IContextMenu**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) содержит три метода: [**жеткоммандстринг**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-getcommandstring), [**инвокекомманд**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand)и [**куериконтекстмену**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu), которые подробно обсуждаются.
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
 -   C++
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   Статическая команда
 -   Контекстное меню
@@ -30,13 +30,13 @@ ms.locfileid: "103998451"
 
 ### <a name="icontextmenugetcommandstring-method"></a>Метод IContextMenu:: Жеткоммандстринг
 
-Метод [**IContextMenu:: жеткоммандстринг**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-getcommandstring) обработчика используется для возврата канонического имени для команды. Этот метод является необязательным. В Windows XP и более ранних версиях Windows, когда в проводнике Windows есть строка состояния, этот метод используется для получения текста справки, который отображается в строке состояния для пункта меню.
+Метод [**IContextMenu:: жеткоммандстринг**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-getcommandstring) обработчика используется для возврата канонического имени для команды. Этот метод является необязательным. в Windows XP и более ранних версиях Windows, если в обозревателе Windows есть строка состояния, этот метод используется для получения текста справки, который отображается в строке состояния для пункта меню.
 
 Параметр *идкмд* содержит смещение идентификатора команды, которая была определена при вызове [**IContextMenu:: куериконтекстмену**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu) . При запросе строки справки для *уфлагс* будет задано значение **GC \_ хелптекств**. Скопируйте строку справки в буфер *pszName* , приведя ее к **пвстр**. Строка команды запрашивается путем установки *уфлагс* в **GC \_ вербв**. Скопируйте соответствующую строку в *pszName*, точно так же, как и строку справки. Флаги валидатев **GC \_** и **GC \_** не используются обработчиками контекстного меню.
 
 В следующем примере показана простая реализация [**жеткоммандстринг**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-getcommandstring) , которая соответствует примеру [**куериконтекстмену**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu) , приведенному в разделе [метод IContextMenu:: куериконтекстмену](shortcut-menu-using-dynamic-verbs.md) этой статьи. Поскольку обработчик добавляет только один пункт меню, можно вернуть только один набор строк. Метод проверяет, является ли *идкмд* допустимым, и, если это так, возвращает запрошенную строку.
 
-Функция [**стрингкчкопи**](/windows/win32/api/strsafe/nf-strsafe-stringcchcopya) используется для копирования запрашиваемой строки в *pszName* , чтобы гарантировать, что копируемая строка не превысит размер буфера, указанного в *кчнаме*. Этот пример реализует поддержку только для значений Юникода *уфлагс*, поскольку только они использовались в проводнике Windows с момента выпуска Windows 2000.
+Функция [**стрингкчкопи**](/windows/win32/api/strsafe/nf-strsafe-stringcchcopya) используется для копирования запрашиваемой строки в *pszName* , чтобы гарантировать, что копируемая строка не превысит размер буфера, указанного в *кчнаме*. этот пример реализует поддержку только для значений юникода, *уфлагс*, так как в Windows Explorer использовались только те из них, начиная с Windows 2000.
 
 
 ```
@@ -158,7 +158,7 @@ STDMETHODIMP CShellExtension::InvokeCommand(LPCMINVOKECOMMANDINFO lpcmi)
 
 
 
-| Flag             | Описание                                                                                                                                                                                                              |
+| Флаг             | Описание                                                                                                                                                                                                              |
 |------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | КМФ \_ дефаултонли | Пользователь выбрал команду по умолчанию, обычно дважды щелкнув объект. [**IContextMenu:: куериконтекстмену**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu) должен возвращать управление в оболочку без изменения меню. |
 | КМФ \_ по умолчанию   | Ни один элемент в меню не должен быть элементом по умолчанию. Метод должен добавить в меню свои команды.                                                                                                                          |
@@ -205,7 +205,7 @@ STDMETHODIMP CMenuExtension::QueryContextMenu(HMENU hMenu,
 
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Другие задачи по реализации команд см. в разделе [Создание обработчиков контекстного меню](context-menu-handlers.md).
 

@@ -7,7 +7,7 @@
         - name: Новые возможности инструментария WMI
           href: what-s-new-in-wmi.md
           items:
-            - name: Новые возможности Windows 7
+            - name: новые возможности Windows 7
               href: what-s-new-in-windows-7.md
             - name: Что нового в Windows Vista
               href: what-s-new-in-windows-vista.md
@@ -1631,7 +1631,7 @@
                   items:
                     - name: Метод резервного копирования
                       href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbembackuprestore-backup
-                    - name: Метод Restore
+                    - name: Метод восстановления
                       href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbembackuprestore-restore
             - name: ивбембаккупресторикс
               href: /windows/desktop/api/Wbemcli/nn-wbemcli-iwbembackuprestoreex
@@ -1641,7 +1641,7 @@
                   items:
                     - name: Метод резервного копирования
                       href: /previous-versions/windows/desktop/legacy/aa391419(v=vs.85)
-                    - name: Метод Restore
+                    - name: Метод восстановления
                       href: /previous-versions/windows/desktop/legacy/aa391421(v=vs.85)
                     - name: Приостановить метод
                       href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbembackuprestoreex-pause
@@ -2858,7 +2858,7 @@
                   href: errors-1501-through-1510.md
             - name: Общие информационные сообщения
               href: general-information-messages.md
-        - name: WMI и SQL
+        - name: Инструментарий WMI и SQL
           href: wmi-and-sql.md
           items:
             - name: WQL (SQL WMI)
@@ -2967,7 +2967,7 @@
                   href: datetime.md
                 - name: Массивы MOF
                   href: mof-arrays.md
-                - name: С помощью чисел
+                - name: Числа
                   href: numbers.md
                 - name: OBJECT
                   href: object.md
@@ -3115,12 +3115,12 @@
                   href: wmi-security-descriptor-objects.md
             - name: Свойства системы WMI
               href: wmi-system-properties.md
-        - name: Управляемый Справочник по классам команд WMI Windows PowerShell
+        - name: управляемый справочник по классам команд WMI Windows PowerShell
           href: managed-reference-for-wmi-powershell-command-classes.md
     - name: Глоссарий инструментария WMI
       href: wmi-glossary.md
       items:
-        - name: Объект
+        - name: A
           href: gloss-a.md
         - name: C
           href: gloss-c.md

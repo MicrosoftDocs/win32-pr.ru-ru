@@ -4,21 +4,21 @@ description: Счетчик представляет собой составно
 ms.assetid: 63689ed3-7326-4f7a-b700-d89e9b501ef1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0875fb31d0dac73c88f3bd502746c473dc1c2b1
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 30c4a6544c10634783b1671f586108a795d67d90c808943b08a2cfcbf6a476da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "105691689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117851391"
 ---
 # <a name="spinner"></a>Spinner
 
 Счетчик представляет собой составной элемент управления, состоящий из кнопки инкремента, кнопки декремента и элемента управления Edit, который используется для предоставления приложению десятичных значений.
 
--   [Подробные сведения](#details)
+-   [Сведения](#details)
 -   [Свойства счетчика](#spinner-properties)
 -   [Замечания](#remarks)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="details"></a>Сведения
 
@@ -210,7 +210,7 @@ STDMETHODIMP CCommandHandler::UpdateProperty(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если минимальное значение ([UI \_ PKEY класса \_ MinValue](windowsribbon-reference-properties-uipkey-minvalue.md)) для счетчика инициализируется значением 0,0, приложение должно гарантировать, что любое последующее значение, предоставленное элементом управления, не будет равно-0,0 (отрицательный нуль). Если счетчик предоставляет значение-0,0, приложение должно сбросить это значение до 0,0 (положительный нуль), используя метод [**иуифрамеворк:: сетуикоммандпроперти**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty) , как показано в следующем примере метода [**Иуикоммандхандлер:: Execute**](/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-execute) для элемента управления "Счетчик".
 
@@ -297,11 +297,11 @@ STDMETHODIMP CCommandHandler::Execute(
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Библиотека элементов управления платформы Windows ленты](windowsribbon-controls-entry.md)
+[Windows Библиотека элементов управления платформы ленты](windowsribbon-controls-entry.md)
 </dt> <dt>
 
 [**Элемент разметки счетчика**](windowsribbon-element-spinner.md)

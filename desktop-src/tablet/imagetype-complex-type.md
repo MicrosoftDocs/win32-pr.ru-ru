@@ -27,7 +27,7 @@ ms.locfileid: "118220930"
 <xs:complexType name="ImageType" />
 ```
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

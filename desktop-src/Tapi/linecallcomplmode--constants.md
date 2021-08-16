@@ -61,7 +61,7 @@ ms.locfileid: "117761758"
 
 Без расширяемости. Все 32 бит зарезервированы.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

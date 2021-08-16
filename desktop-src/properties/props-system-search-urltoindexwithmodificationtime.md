@@ -4,12 +4,12 @@ ms.assetid: 53ca765b-0795-49ab-9946-c3ef101ababd
 title: System. Search. Урлтоиндексвисмодификатионтиме
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3fcc83b9796ae2375f10235a08ba0db313fb1958
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7869005084379db1bdf288c6237a420666634c349eee47ca7942af2bb271a39d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118464774"
 ---
 # <a name="systemsearchurltoindexwithmodificationtime"></a>System. Search. Урлтоиндексвисмодификатионтиме
 
@@ -30,15 +30,15 @@ propertyDescription
       type = Multivalue Any
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство [System. Search. урлтоиндексвисмодификатионтиме]() совпадает со свойством [System. Search. урлтоиндекс](/previous-versions/windows/desktop/legacy/bb760177(v=vs.85)) , за исключением того, что вы также передаете время последнего изменения документа. Если время последнего изменения совпадает, индексатор предполагает, что документ уже проиндексирован и не выдает уведомление. Это свойство является вектором с двумя элементами — значением **VT \_ LPWSTR** , которое содержит URL-адрес и значение **VT \_ fileTime** , которое содержит время последнего изменения.
 
-[System. Search. урлтоиндексвисмодификатионтиме]() назывался PID \_ ГСР \_ дирлинк \_ с \_ временем в более ранних версиях операционной системы Windows.
+[System. Search. урлтоиндексвисмодификатионтиме]() назывался PID \_ гср \_ дирлинк \_ с \_ временем в более ранних версиях операционной системы Windows.
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

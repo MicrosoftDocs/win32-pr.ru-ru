@@ -1,7 +1,7 @@
 - name: Windows GDI
   href: windows-gdi.md
   items:
-    - name: 'Вопросы безопасности: Microsoft Windows GDI'
+    - name: 'вопросы безопасности: Microsoft Windows GDI'
       href: security-considerations--gdi.md
     - name: Растровые изображения
       href: bitmaps.md
@@ -30,7 +30,7 @@
               href: bitmap-scaling.md
             - name: Растровые изображения как кисти
               href: bitmaps-as-brushes.md
-            - name: Растровое хранилище
+            - name: служба хранилища точечных рисунков
               href: bitmap-storage.md
             - name: Сжатие растрового изображения
               href: bitmap-compression.md
@@ -1398,9 +1398,9 @@
               href: window-regions.md
             - name: Фон окна
               href: window-background.md
-            - name: Уменьшенные окна
+            - name: Сведенные Windows
               href: minimized-windows.md
-            - name: Измененные размеры окон
+            - name: Измененный размер Windows
               href: resized-windows.md
             - name: Неклиентская область
               href: nonclient-area.md
@@ -1703,7 +1703,7 @@
             - name: Структурные прямоугольники
               href: rectangle-structures.md
               items:
-                - name: ТОЧКИ
+                - name: POINT
                   href: /previous-versions//dd162805(v=vs.85)
                 - name: ТОЧКИ
                   href: /previous-versions//dd162808(v=vs.85)

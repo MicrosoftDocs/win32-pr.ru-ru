@@ -66,7 +66,7 @@ HRESULT Add(
 
 Пример использования этого метода см. в разделе [Получение свойств для одного объекта](retrieving-properties-for-a-single-object.md).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

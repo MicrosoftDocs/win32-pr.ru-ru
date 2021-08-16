@@ -3,7 +3,7 @@ title: Контролграуп, элемент
 description: Представляет группу элементов управления в шаблоне макета Сизедефинитион.
 ms.assetid: 688f3fa5-f305-4554-b16a-590983cf23b9
 keywords:
-- Лента Windows для элемента Контролграуп
+- элемент контролграуп Windows лента
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7d2b49612102d03003c2f61395a56647aaef4475
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: a1777bd469b6bf07530881f9c20888d69fe98117ecbdeba4f3f5557f01ced172
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111442945"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117851030"
 ---
 # <a name="controlgroup-element"></a>Контролграуп, элемент
 
@@ -71,7 +71,7 @@ ms.locfileid: "111442945"
 
 | Элемент                                                                                 | Описание                                        |
 |-----------------------------------------------------------------------------------------|----------------------------------------------------|
-| [**Button**](windowsribbon-element-button.md)<br/>                               | Может происходить один или несколько раз<br/> <br/> |
+| [**Кнопка**](windowsribbon-element-button.md)<br/>                               | Может происходить один или несколько раз<br/> <br/> |
 | [**Установка**](windowsribbon-element-checkbox.md)<br/>                           | Может происходить один или несколько раз<br/> <br/> |
 | [**ComboBox**](windowsribbon-element-combobox.md)<br/>                           | Может происходить один или несколько раз<br/> <br/> |
 | [**контролсизедефинитион**](windowsribbon-element-controlsizedefinition.md)<br/> | Может происходить один или несколько раз<br/> <br/> |
@@ -96,7 +96,7 @@ ms.locfileid: "111442945"
 | **контролграуп**<br/>                                                         |
 | [**Группа**](windowsribbon-element-group.md)<br/>                             |
 | [**граупсизедефинитион**](windowsribbon-element-groupsizedefinition.md)<br/> |
-| [**Строка**](windowsribbon-element-row.md)<br/>                                 |
+| [**Строки**](windowsribbon-element-row.md)<br/>                                 |
 
 
 
@@ -206,7 +206,7 @@ ms.locfileid: "111442945"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-* **Минимальная поддерживаемая система**: Windows 7
+* **минимальная поддерживаемая система**: Windows 7
 * **Может быть пустым**: нет
 
 

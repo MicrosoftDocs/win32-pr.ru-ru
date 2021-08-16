@@ -95,7 +95,7 @@ Windows Аппаратные устройства для получения из
 
  
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

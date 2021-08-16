@@ -4,12 +4,12 @@ ms.assetid: 98f85e7d-e557-4dde-b510-891b37daec87
 title: '#включает и #defines'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9834fd8103b9fd28a01e416bd1df8b03fb7ad680
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 6dbab2a3c33b510df99c9d2e0fa292af53c96fcc471dfe8180d9d4be06b3a5b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105684759"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117774279"
 ---
 # <a name="includes-and-defines"></a>\#включает и \# определяет
 
@@ -25,7 +25,7 @@ ms.locfileid: "105684759"
 
 
 
-Кроме того, константа **\_ Win32 \_ WinNT** должна быть определена соответствующим образом. Дополнительные сведения о **\_ Win32 \_ WinNT** см. [в разделе Использование заголовков Windows](../winprog/using-the-windows-headers.md).
+Кроме того, константа **\_ Win32 \_ WinNT** должна быть определена соответствующим образом. дополнительные сведения о **\_ WIN32 \_ WINNT** см. [в разделе использование Windows заголовков](../winprog/using-the-windows-headers.md).
 
  
 

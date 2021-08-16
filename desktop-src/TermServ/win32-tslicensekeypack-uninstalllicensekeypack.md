@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 64754ea9ef2a32676b36821cf20c4f6871396415
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cb02ff8ecc84c346bef404071e8abb3988c0e7c8e70b54b288524e8ef790d5fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104414829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118348625"
 ---
 # <a name="uninstalllicensekeypack-method-of-the-win32_tslicensekeypack-class"></a>Метод Унинсталллиценсекэйпакк \_ класса Win32 тслиценсекэйпакк
 

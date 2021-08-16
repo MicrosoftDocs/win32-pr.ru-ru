@@ -66,7 +66,7 @@ class Registry_V1 : MSNT_SystemTrace
 
  
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f5a3ca765c8bd7758f19abe396ad0449a5895d8e
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: 09f31850599331027f3f8135a42dac8c8ea54519c04291d42fb06b5c7b8735fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "103987975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117835184"
 ---
 # <a name="ack-for-ping"></a>Подтверждение проверки связи
 
@@ -81,12 +81,12 @@ Replace Error-context с шестнадцатеричным числом, пре
 
 <dl> <dt>
 
-[**Проверок**](ping.md)
+[**Проверка связи**](ping.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

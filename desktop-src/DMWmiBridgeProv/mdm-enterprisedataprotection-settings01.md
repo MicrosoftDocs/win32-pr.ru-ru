@@ -1,6 +1,6 @@
 ---
 title: Класс MDM_EnterpriseDataProtection_Settings01
-description: Класс MDM \_ ентерприседатапротектион \_ Settings01 используется для настройки параметров Windows Information Protection (WIP) (прежнее название — защита корпоративных данных).
+description: класс MDM \_ ентерприседатапротектион \_ Settings01 используется для настройки Windows Information Protection (WIP) (ранее назывался Enterprise Data Protection) конкретными параметрами.
 ms.assetid: 7537f548-85fb-46b4-ab94-c9dcf2bf1447
 keywords:
 - Класс MDM_EnterpriseDataProtection_Settings01
@@ -17,18 +17,18 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e6ef063a1a8d72666dc44a2276bcecfb7d420c3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e80502ff724a43f1034922b0734fe128124c193f0ef5319ee2976257d26fbe3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491958"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118165837"
 ---
 # <a name="mdm_enterprisedataprotection_settings01-class"></a>\_Класс MDM ентерприседатапротектион \_ Settings01
 
-\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Майкрософт не дает никаких гарантий, явных или подразумеваемых, в отношении предоставленной здесь информации.\]
+\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, относительно предоставленной здесь информации.\]
 
-Класс **MDM \_ ентерприседатапротектион \_ Settings01** используется для настройки параметров Windows Information Protection (WIP) (прежнее название — защита корпоративных данных). Дополнительные сведения о WIP см. в статье [Защита корпоративных данных с помощью защиты корпоративных данных (EDP)](/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip).
+класс **MDM \_ ентерприседатапротектион \_ Settings01** используется для настройки Windows Information Protection (WIP) (ранее назывался Enterprise Data Protection) конкретными параметрами. Дополнительные сведения о WIP см. в статье [Защита корпоративных данных с помощью защиты корпоративных данных (EDP)](/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip).
 
 Следующий синтаксис упрощен из MOF-кода и включает все унаследованные свойства.
 
@@ -58,7 +58,7 @@ class MDM_EnterpriseDataProtection_Settings01
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **MDM \_ ентерприседатапротектион \_ Settings01** имеет следующие свойства.
 
@@ -145,7 +145,7 @@ class MDM_EnterpriseDataProtection_Settings01
 Квалификаторы: [ **ключ**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
-Определяет имя родительского узла. Для этого класса строка имеет значение "Settings".
+Определяет имя родительского узла. для этого класса строка имеет значение "Параметры".
 
 </dd> <dt>
 
@@ -204,7 +204,7 @@ class MDM_EnterpriseDataProtection_Settings01
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                          |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                          |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                            |
 | Пространство имен<br/>                | Корневой \\ CIMV2 \\ MDM \\ дммап<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1. mof</dt> </dl>      |

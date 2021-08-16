@@ -1,17 +1,17 @@
 ---
 description: Ключевым для хорошего проектирования является планирование. Если вы не знакомы с проектированием трехуровневого приложения, см. раздел, посвященный проектированию приложения COM+ с помощью UML.
 ms.assetid: 463f4154-92f6-46c3-95ff-8513963dcadd
-title: Общие рекомендации по проектированию для использования COM+
+title: общие Советы разработки для использования COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5765259f170b1a98f1abb2d097dfdaec2e09d47
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f54ade55331c0b3e2c5ea4b45465ca0bcdc007036b2e919441ccb2ebfbe95ef1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118306999"
 ---
-# <a name="general-design-tips-for-using-com"></a>Общие рекомендации по проектированию для использования COM+
+# <a name="general-design-tips-for-using-com"></a>общие Советы разработки для использования COM+
 
 Ключевым для хорошего проектирования является планирование. Если вы не знакомы с проектированием трехуровневого приложения, см. раздел, посвященный [проектированию приложения COM+ с помощью UML](designing-the-com--application-using-uml.md).
 
@@ -32,7 +32,7 @@ ms.locfileid: "104141375"
 
 Кроме того, не забудьте [повысить производительность с помощью пула объектов](improving-performance-with-object-pooling.md) для наиболее эффективного использования пула объектов.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

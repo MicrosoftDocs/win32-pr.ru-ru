@@ -3,7 +3,7 @@ title: Сообщение MCM_GETRANGE (Коммктрл. h)
 description: Возвращает минимальную и максимальную допустимые даты, заданные для элемента управления "месячный календарь". Это сообщение можно отправить явным образом или с помощью \_ макроса монскал.
 ms.assetid: 5000053a-2975-4781-b3c9-83f9763f679a
 keywords:
-- Элементы управления Windows для MCM_GETRANGE сообщений
+- элементы управления Windows сообщений MCM_GETRANGE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c757c046b88479072eb0771ecbf3f7fb79cdb31b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 26f8b9d5a485b12caf720afe518a2fc5499e55eba07c90c2fde1bb34eea2404b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892638"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117830398"
 ---
 # <a name="mcm_getrange-message"></a>Сообщение MCMного \_ диапазона
 
@@ -60,8 +60,8 @@ ms.locfileid: "103892638"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

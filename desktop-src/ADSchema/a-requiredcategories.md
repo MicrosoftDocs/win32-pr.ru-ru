@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 40bdaa7c942ca7f344bed2c8bd720bd96f0c98d4
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4f4a6c3304b870ba51b26898c4f007471518c78b07ae7472dae8dd71548c0955
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104138498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117836656"
 ---
 # <a name="required-categories-attribute"></a>Атрибут Required-Categories
 
@@ -59,7 +59,7 @@ ms.locfileid: "104138498"
 | MAPI-Id                | \-                                                           |
 | System-Only            | Неверно                                                        |
 | Является однозначным       | Неверно                                                        |
-| Индексируется             | True                                                         |
+| Индексируется             | Верно                                                         |
 | В глобальном каталоге      | Неверно                                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                 |
 | Range-Lower            | 16                                                           |
@@ -80,7 +80,7 @@ ms.locfileid: "104138498"
 | MAPI-Id                | \-                                                           |
 | System-Only            | Неверно                                                        |
 | Является однозначным       | Неверно                                                        |
-| Индексируется             | True                                                         |
+| Индексируется             | Верно                                                         |
 | В глобальном каталоге      | Неверно                                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                 |
 | Range-Lower            | 16                                                           |
@@ -101,7 +101,7 @@ ms.locfileid: "104138498"
 | MAPI-Id                | \-                                                           |
 | System-Only            | Неверно                                                        |
 | Является однозначным       | Неверно                                                        |
-| Индексируется             | True                                                         |
+| Индексируется             | Верно                                                         |
 | В глобальном каталоге      | Неверно                                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                 |
 | Range-Lower            | 16                                                           |
@@ -122,7 +122,7 @@ ms.locfileid: "104138498"
 | MAPI-Id                | \-                                                           |
 | System-Only            | Неверно                                                        |
 | Является однозначным       | Неверно                                                        |
-| Индексируется             | True                                                         |
+| Индексируется             | Верно                                                         |
 | В глобальном каталоге      | Неверно                                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                 |
 | Range-Lower            | 16                                                           |
@@ -143,7 +143,7 @@ ms.locfileid: "104138498"
 | MAPI-Id                | \-                                                           |
 | System-Only            | Неверно                                                        |
 | Является однозначным       | Неверно                                                        |
-| Индексируется             | True                                                         |
+| Индексируется             | Верно                                                         |
 | В глобальном каталоге      | Неверно                                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                 |
 | Range-Lower            | 16                                                           |
@@ -164,7 +164,7 @@ ms.locfileid: "104138498"
 | MAPI-Id                | \-                                                           |
 | System-Only            | Неверно                                                        |
 | Является однозначным       | Неверно                                                        |
-| Индексируется             | True                                                         |
+| Индексируется             | Верно                                                         |
 | В глобальном каталоге      | Неверно                                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                 |
 | Range-Lower            | 16                                                           |

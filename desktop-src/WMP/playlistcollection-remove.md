@@ -3,9 +3,9 @@ title: Плайлистколлектион. Remove, метод
 description: Метод Remove удаляет список воспроизведения из библиотеки. | Плайлистколлектион. Remove, метод
 ms.assetid: 3327ba59-5f46-4df0-ba95-c338b019277d
 keywords:
-- метод Remove Windows Media Player
-- метод Remove Windows Media Player, класс Плайлистколлектион
-- Класс Плайлистколлектион проигрыватель Windows Media Player, метод Remove
+- удалить метод проигрыватель Windows Media
+- метод remove проигрыватель Windows Media, класс плайлистколлектион
+- класс плайлистколлектион проигрыватель Windows Media, метод remove
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a1a7d223bb6262fdd06c873bde027a89e49c246
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bb5e1f53446a080727ceb4a23c5ef8be2721e2adc83dec43d95a6ea516af80ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118334571"
 ---
 # <a name="playlistcollectionremove-method"></a>Плайлистколлектион. Remove, метод
 
@@ -53,7 +53,7 @@ PlaylistCollection.remove(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы использовать этот метод, требуется полный доступ к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
@@ -63,7 +63,7 @@ PlaylistCollection.remove(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
@@ -81,10 +81,10 @@ PlaylistCollection.remove(
 [**Плайлистколлектион. Невплайлист**](playlistcollection-newplaylist.md)
 </dt> <dt>
 
-[**Settings. Медиаакцессригхтс**](settings-mediaaccessrights.md)
+[**Параметры. медиаакцессригхтс**](settings-mediaaccessrights.md)
 </dt> <dt>
 
-[**Settings. Рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
+[**Параметры. рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
  

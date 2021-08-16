@@ -31,7 +31,7 @@ ms.locfileid: "118335666"
 
 Этот атрибут является **строкой** для чтения и записи, содержащей любое значение цвета Microsoft Internet Explorer. Он имеет значение по умолчанию, равное значению атрибута **backgroundColor** .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

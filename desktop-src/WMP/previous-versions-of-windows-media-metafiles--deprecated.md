@@ -1,13 +1,13 @@
 ---
-title: Предыдущие версии метафайлов Windows Media (не рекомендуется)
-description: Предыдущие версии метафайлов Windows Media (не рекомендуется)
+title: предыдущие версии Windows метафайлов мультимедиа (не рекомендуется)
+description: предыдущие версии Windows метафайлов мультимедиа (не рекомендуется)
 ms.assetid: f93b9735-6aa3-48ed-ae80-0485acea3167
 keywords:
-- Метафайлы Windows Media, версии
+- Windows Метафайлы мультимедиа, версии
 - Метафайлы, версии
-- Метафайлы Windows Media, предыдущие версии
+- Windows Метафайлы мультимедиа, предыдущие версии
 - Метафайлы, предыдущие версии
-- версии метафайлов Windows Media
+- версии метафайлов мультимедиа Windows
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:
@@ -15,18 +15,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 79020b282180f0e17b438cbc52f6ed2fe2a4f559
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 35e46d7fb6a896b9d2ca841ac0cc83cc4875d5ac863f7cd5be520460e0f492ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118334497"
 ---
-# <a name="previous-versions-of-windows-media-metafiles-deprecated"></a>Предыдущие версии метафайлов Windows Media (не рекомендуется)
+# <a name="previous-versions-of-windows-media-metafiles-deprecated"></a>предыдущие версии Windows метафайлов мультимедиа (не рекомендуется)
 
-В этом разделе документируется функция, которая больше не используется в текущей версии метафайлов Windows Media.
+в этом разделе документируется функция, которая больше не используется в текущей версии Windows метафайлов мультимедиа.
 
-В этом разделе документируется часть версии 2 метафайлов Windows Media. Версия 2 не является текущей версией метафайлов Windows Media, но в некоторых случаях службы Windows Media предоставляют клиентам метафайлы в формате версии 2. Метафайлы Windows Media также называются дополнительными файлами перенаправления потока (ASX).
+в этом разделе документируется часть версии 2 Windows метафайлов мультимедиа. версия 2 не является текущей версией Windows метафайлов мультимедиа, но в некоторых случаях службы Windows Media предоставляет клиентам метафайлы в формате версии 2. Windows Метафайлы мультимедиа также называются дополнительными файлами перенаправления потока (ASX).
 
 В этом разделе описываются следующие элементы.
 
@@ -39,18 +39,18 @@ ms.locfileid: "104067624"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[**Метафайлы Windows Media**](windows-media-metafiles.md)
+[**Windows Метафайлы мультимедиа**](windows-media-metafiles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
