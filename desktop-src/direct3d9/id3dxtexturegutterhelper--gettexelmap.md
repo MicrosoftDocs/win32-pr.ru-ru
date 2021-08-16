@@ -61,7 +61,7 @@ HRESULT GetTexelMap(
 
 Приложение должно выделить Птекселдата и управлять им.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

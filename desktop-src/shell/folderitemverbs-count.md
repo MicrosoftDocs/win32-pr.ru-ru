@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 5545ea64da914188226fbdabf7cc6301baa695af
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 985ab6eb9508d57a7dd38616108bb0fdb58e7244623d90db435ca0a7022a570c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090594"
 ---
 # <a name="folderitemverbscount-property"></a>Фолдеритемвербс. Count, свойство
 
@@ -41,9 +41,9 @@ iCount = FolderItemVerbs.Count
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере функция **Count** используется для получения числа команд, доступных для папки панели управления. Правильное использование показано в JScript, VBScript и Visual Basic.
+В следующем примере функция **Count** используется для получения числа команд, доступных для папки панели управления. правильное использование отображается для JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -148,7 +148,7 @@ End Sub
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                           |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                         |

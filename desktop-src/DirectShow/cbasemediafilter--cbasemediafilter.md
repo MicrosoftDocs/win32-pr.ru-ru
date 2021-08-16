@@ -40,7 +40,7 @@ ms.locfileid: "119341624"
 
 Всегда останавливайте объект перед его уничтожением.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

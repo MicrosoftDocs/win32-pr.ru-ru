@@ -120,7 +120,7 @@ yPos = GET_Y_LPARAM(lParam);
 
 В отличие от [**сообщений \_ WM лбуттондблклк**](wm-lbuttondblclk.md), [**WM \_ мбуттондблклк**](wm-mbuttondblclk.md)и [**WM \_ рбуттондблклк**](wm-rbuttondblclk.md) , приложение должно вернуть **значение true** из этого сообщения, если оно обрабатывает его. это позволит программному обеспечению имитировать это сообщение в Windows системах, предшествующих Windows 2000, чтобы определить, обрабатывала ли окно сообщение или вызываемое [**дефвиндовпрок**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) для его обработки.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

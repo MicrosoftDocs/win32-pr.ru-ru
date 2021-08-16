@@ -3,7 +3,7 @@ title: Свойство Application. Commands
 description: Представляет контейнер для всех команд, определенных приложением.
 ms.assetid: 160d7d28-2d64-4cbc-b2b9-2da6b2f5b3c8
 keywords:
-- Лента Windows для свойства Application. Commands
+- свойство Application. commands Windows лента
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8de2b88b97dda96636a9c5da3ad078f678091d8d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6c23d7b30b45a6023c547904adbcaaacb13b8777f9047133cd8d617a1a58c32d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104490560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964323"
 ---
 # <a name="applicationcommands-property"></a>Свойство Application. Commands
 
@@ -41,7 +41,7 @@ ms.locfileid: "104490560"
 
 | Элемент                                                     | Описание                                        |
 |-------------------------------------------------------------|----------------------------------------------------|
-| [**Кнопки**](windowsribbon-element-command.md)<br/> | Может происходить один или несколько раз<br/> <br/> |
+| [**Команда**](windowsribbon-element-command.md)<br/> | Может происходить один или несколько раз<br/> <br/> |
 
 
 
@@ -51,11 +51,11 @@ ms.locfileid: "104490560"
 
 | Элемент                                                             |
 |---------------------------------------------------------------------|
-| [**Приложение**](windowsribbon-element-application.md)<br/> |
+| [**Развертывание**](windowsribbon-element-application.md)<br/> |
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Необязательный элемент.
 
@@ -145,14 +145,14 @@ ms.locfileid: "104490560"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>              |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>              |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/> |
 
 
 

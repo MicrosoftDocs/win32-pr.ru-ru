@@ -50,7 +50,7 @@ Installer.ExtractPatchXMLData(
 
 Этот метод не возвращает значение.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -27,12 +27,12 @@ topic_type:
 - apiref
 product_family_name: VS
 ms.topic: reference
-ms.openlocfilehash: cb922d785da7d01de93adec56cefee29785210d6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f8b34b9c96f418bc0facf615c86a69ea1a958726407a93bf97e7421a1582f997
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105719413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992874"
 ---
 # <a name="cimmofdeserializergetincludedfilecontent-delegate-string"></a>Циммофдесериализер. Жетинклудедфилеконтент-делегат (String)
 
@@ -80,6 +80,6 @@ Public Delegate Function GetIncludedFileContent (
 
 Возвращает содержимое файла в виде массива байтов.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [Microsoft. Management. Infrastructure. Serialization](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))

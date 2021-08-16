@@ -48,7 +48,7 @@ ms.locfileid: "118561179"
 
 Назначьте **Асинкактионкомплетедхандлер** [**IAsyncAction**](/windows/win32/api/windows.foundation/nn-windows-foundation-iasyncaction) , чтобы получить уведомление о завершении асинхронного действия.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

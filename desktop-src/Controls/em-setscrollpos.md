@@ -49,7 +49,7 @@ ms.locfileid: "118412339"
 
 Это сообщение всегда возвращает значение 1.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

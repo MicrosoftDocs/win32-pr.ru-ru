@@ -46,7 +46,7 @@ BOOL IsColorFont();
 
 Возвращает **значение true** , если шрифт имеет сведения о цвете (таблицы КОЛР и кпал); в противном случае — **false**.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

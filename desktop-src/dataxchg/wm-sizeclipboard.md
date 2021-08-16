@@ -60,7 +60,7 @@ ms.locfileid: "118545323"
 
 Владелец буфера обмена должен использовать функцию [**глобаллокк**](/windows/desktop/api/winbase/nf-winbase-globallock) для блокировки объекта памяти, содержащего [**Rect**](/previous-versions//dd162897(v=vs.85)). Перед возвращением владелец буфера обмена должен разблокировать объект с помощью функции [**глобалунлокк**](/windows/desktop/api/winbase/nf-winbase-globalunlock) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

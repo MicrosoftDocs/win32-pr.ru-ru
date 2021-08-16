@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9mesh.h
-ms.openlocfilehash: 64cc116199b688fc9dcd8d6fbf331d85da508948
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1edcf2b1cbe2363f805bee1f5eb67f5558702ea9e163a865e1a6c51d6f5ed6ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118523840"
 ---
 # <a name="d3dxuvatlas-enumeration"></a>Перечисление D3DXUVATLAS
 
@@ -68,7 +68,7 @@ typedef enum _D3DXUVATLAS {
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx9mesh. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx9mesh. h</dt> </dl> |
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 14753500ac15fb0ed30d46b1121431af78e1fe93
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 55df5e579b724a26e30223a0a0df7ffa815bda5a64b6f7d7e7e2c2c7f02f2fc1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273932"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118804580"
 ---
 # <a name="d3dxcreateeffectpool-function"></a>Функция D3DXCreateEffectPool
 
@@ -59,7 +59,7 @@ HRESULT D3DXCreateEffectPool(
 
 Если метод завершается с ошибкой, возвращается значение E \_ Failed.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для эффектов в пуле общие параметры с одинаковыми общими значениями имен.
 
@@ -69,7 +69,7 @@ HRESULT D3DXCreateEffectPool(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Effect. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Effect. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>     |
 
 

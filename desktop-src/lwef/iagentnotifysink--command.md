@@ -4,16 +4,16 @@ description: Команда Иажентнотифисинк
 ms.assetid: d54fb2e8-27d6-47a4-8a1e-5419a94ea26d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9690d2914db9d284cd4ba4b826905d3169b83f2c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 9d9c20de96c1bb14cf003ad7beff98e716e272ad3de39532d9b455e279d97af3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103987446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105210"
 ---
 # <a name="iagentnotifysinkcommand"></a>Иажентнотифисинк:: Command
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT Command(
@@ -46,11 +46,11 @@ HRESULT Command(
 
 Сервер оповещает входной-активный клиент, когда пользователь выбирает команду с помощью голоса или выбирая команду во всплывающем меню символа. Это событие возникает, даже если пользователь выбирает одну из команд сервера. В этом случае сервер возвращает идентификатор команды null, оценку достоверности и голосовой текст, возвращенный модулем распознавания речи для этой записи.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [**иажентусеринпут**](iagentuserinput.md)
 
 
- 
+ 
 
- 
+ 

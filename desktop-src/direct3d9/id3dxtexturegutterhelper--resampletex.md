@@ -138,7 +138,7 @@ hr = pGutterHelper->ResampleTex(pOriginalTex, pMesh, D3DDECLUSAGE_TEXCOORD,
 
 Одним из распространенных сценариев может быть использование Уватлас для создания текстуры Atlas и последующее использование Ресамплетекс для повторной выборки текстуры в новой параметризации. Дополнительные сведения о атласов см. [в разделе Использование уватлас (Direct3D 9)](using-uvatlas.md).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

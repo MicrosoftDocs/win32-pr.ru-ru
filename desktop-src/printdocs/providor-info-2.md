@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: d40f5843bf68254b92e3d814d9f308ba4f058889
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 969af36fe0a64bb586fbf62912ca27c6ebba9ba0a627701e4bc57f6202bfe1b5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091684"
 ---
 # <a name="providor_info_2-structure"></a>\_Структура провидор info \_ 2
 
@@ -48,7 +48,7 @@ typedef struct _PROVIDOR_INFO_2 {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта структура используется при вызове [**аддпринтпровидор**](addprintprovidor.md), уровень 2 для добавления указанного поставщика печати в конец списка порядка поставщиков печати. Поставщик будет немедленно использоваться для маршрутизации, если вызов будет выполнен.
 
@@ -60,7 +60,7 @@ typedef struct _PROVIDOR_INFO_2 {
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Винспул. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>винспул. h (включает Windows. h)</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **\_ Провидор \_ info \_ 2W** (Юникод) и **\_ провидор \_ сведения \_ 2A** (ANSI)<br/>                         |
 
 

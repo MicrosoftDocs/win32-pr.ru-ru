@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 1ba5afa238107d60620291b50b8f184eb4e5d361
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: afb625c0f8db9d04737420ab386095bbe70b3e0f23e375f75c212da71e59b0cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118801952"
 ---
 # <a name="id3dxprtbufferattachgh-method"></a>Метод ID3DXPRTBuffer:: Аттачгх
 
@@ -55,7 +55,7 @@ HRESULT AttachGH(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Число ссылок объекта [**ID3DXTextureGutterHelper**](id3dxtexturegutterhelper.md) будет автоматически увеличиваться на единицу. Все существующие указатели **ID3DXTextureGutterHelper** будут освобождены.
 
@@ -67,7 +67,7 @@ HRESULT AttachGH(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

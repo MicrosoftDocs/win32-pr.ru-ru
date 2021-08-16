@@ -4,12 +4,12 @@ ms.assetid: 0d13caba-a280-4b14-9c7a-240bd44c24d2
 title: System. Devices. Днссд. FullName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c34481e48b7a692effd5cbad37801dcfffebe02
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c59e978002b7638a1610c2373a719bee6c6b18fed4cfd8fa9741c75de1a2fbf2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104545298"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119097638"
 ---
 # <a name="systemdevicesdnssdfullname"></a>System. Devices. Днссд. FullName
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

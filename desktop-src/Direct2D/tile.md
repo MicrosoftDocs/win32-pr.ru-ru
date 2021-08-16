@@ -67,7 +67,7 @@ m_d2dContext->EndDraw();
 
 Можно мозаично разместить изображение и вывести определенный размер без дополнительных эффектов, задав размер при вызове [**ID2D1DeviceContext::D равимаже**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawimage(id2d1image_constd2d1_point_2f_constd2d1_rect_f_d2d1_interpolation_mode_d2d1_composite_mode)).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

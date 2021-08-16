@@ -48,7 +48,7 @@ ms.locfileid: "118546268"
 
 чтобы использовать этот класс из Visual Basic майкрософт, добавьте ссылку на библиотеку типов служб COM+. Объект Секуритикаллконтекст можно объявить с помощью "Комсвкслиб. Секуритикаллконтекст" в качестве имени класса; Он создается путем вызова [**жетсекуритикаллконтекст**](/windows/desktop/api/ComSvcs/nf-comsvcs-igetsecuritycallcontext-getsecuritycallcontext).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

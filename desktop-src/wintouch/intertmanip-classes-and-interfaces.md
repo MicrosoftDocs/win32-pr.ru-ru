@@ -3,22 +3,22 @@ title: Классы и интерфейсы
 description: Этот раздел содержит ссылки на классы и интерфейсы для инерции и манипуляций.
 ms.assetid: 056bcaa2-580a-457c-a0a6-e01a316dc21a
 keywords:
-- Касание Windows, инерция
-- Касание Windows, манипуляции
-- Windows Touch, классы
-- Windows Touch, интерфейсы
+- Windows Сенсорный ввод, инерция
+- Windows Сенсорный ввод, манипуляции
+- Windows Касание, классы
+- Windows Сенсорный ввод, интерфейсы
 - инерция, классы
 - инерция, интерфейсы
 - манипуляции, классы
 - манипуляции, интерфейсы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91a6699f1334f46dec1da378b5424a43376d0d50
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 71b641e393a195a0ad536a415513be6f183cdc59724e44aac5cb5213838d25ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119086507"
 ---
 # <a name="classes-and-interfaces"></a>Классы и интерфейсы
 
@@ -31,23 +31,23 @@ ms.locfileid: "104067613"
 | Класс или интерфейс                                          | Описание                                                                  |
 |----------------------------------------------------------|------------------------------------------------------------------------------|
 | [**\_иманипулатионевентс**](/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents)    | Обрабатывает события манипуляции.                                                 |
-| [**IInertiaProcessor**](/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor)           | Обрабатывает вычисления относительно движения объектов для Windows Touch.              |
-| [**IManipulationProcessor**](/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor) | Предоставляет функциональные возможности для мониторинга и реагирования на сенсорный ввод Windows. |
+| [**IInertiaProcessor**](/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor)           | обрабатывает вычисления, касающиеся перемещения объектов для Windowsного касания.              |
+| [**IManipulationProcessor**](/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor) | предоставляет функциональные возможности для мониторинга и реагирования на Windows сенсорного ввода. |
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инерция и манипуляция](inertia-and-manipulation-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

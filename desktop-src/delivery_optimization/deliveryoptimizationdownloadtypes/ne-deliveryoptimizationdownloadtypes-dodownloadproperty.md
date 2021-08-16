@@ -82,7 +82,7 @@ typedef enum _DODownloadProperty
 | DODownloadProperty_IntegrityCheckMandatory | Необязательный элемент. Задает логический флаг, указывающий, является ли использование хэш-файла фрагмента (ФФ) обязательным. Если VARIANT_TRUE, загрузка будет прервана в случае сбоя проверки целостности. Тип VARIANT — VT_BOOL. |
 | DODownloadProperty_TotalSizeBytes | Необязательный элемент. Указывает общий размер скачивания в байтах. Тип VARIANT — VT_UI8. |
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 | &nbsp; | &nbsp; |
 | ---- |:---- |

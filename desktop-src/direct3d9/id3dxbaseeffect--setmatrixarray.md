@@ -81,7 +81,7 @@ HRESULT SetMatrixArray(
 
 Если целевые матрицы меньше исходных матриц, то дополнительные компоненты исходных матриц будут игнорироваться.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

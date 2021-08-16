@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eb29e8f845e99f6d3c988dfd0c0201de129bee69
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 427bd338e416843418fa7551d4e1632dccaf268426ca2a910e164aeae50663dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104535513"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119492674"
 ---
 # <a name="gllogicop-function"></a>Функция Гллогикоп
 
@@ -89,7 +89,7 @@ void WINAPI glLogicOp(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **гллогикоп** задает логическую операцию, которая, если она включена, применяется между входящим индексом цвета и индексом цвета в соответствующем расположении в буфера кадров. Логическая операция включена или отключена с помощью [**гленабле**](glenable.md) и **глдисабле** с использованием символьной константы главной операции GL \_ \_ .
 

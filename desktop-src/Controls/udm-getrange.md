@@ -39,7 +39,7 @@ ms.locfileid: "118408104"
 
 Возвращаемое значение — это 32-разрядное значение, которое содержит минимальное и максимальное позиции. [**Ловорд**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) является максимальным положением для элемента управления, а [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) — минимальным положением.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -48,7 +48,7 @@ HRESULT get_DisplayName(
 
 Возвращает указатель на локализованное отображаемое имя.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
