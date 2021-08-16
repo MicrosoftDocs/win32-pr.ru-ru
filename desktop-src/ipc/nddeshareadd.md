@@ -15,16 +15,16 @@ api_type:
 - DllExport
 api_location:
 - Nddeapi.dll
-ms.openlocfilehash: 282ff7ed3e1564044591966fb4233b2eda1d3227
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a02381fad8412c7ada0c337c21e633ffa6793887a720ec504f1dfa3d78d9ede
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119602144"
 ---
 # <a name="nddeshareadd-function"></a>Функция Нддешареадд
 
-\[Сетевой DDE больше не поддерживается. Nddeapi.dll имеется в Windows Vista, но все вызовы функций возвращают НДДЕ \_ не \_ реализован.\]
+\[Сетевой DDE больше не поддерживается. Nddeapi.dll имеется в Windows Vista, но все вызовы функций возвращают ндде \_ не \_ реализованы.\]
 
 Создает и добавляет новый общий ресурс DDE в диспетчер общей базы данных DDE (DSDM).
 
@@ -88,7 +88,7 @@ UINT NDdeShareAdd(
 
 Если функция завершается ошибкой, возвращаемое значение является кодом ошибки, который может быть преобразован в текстовое сообщение об ошибке путем вызова [**нддежетеррорстринг**](nddegeterrorstring.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Прежде чем клиент сможет подключиться к общему ресурсу DDE, он должен быть доверенным для [**нддесеттрустедшаре**](nddesettrustedshare.md).
 
@@ -111,7 +111,7 @@ UINT NDdeShareAdd(
 
 <dl> <dt>
 
-[Общие сведения о сетевом платформа динамических данных Exchange](network-dynamic-data-exchange.md)
+[общие сведения о Exchange сетевых платформа динамических данных](network-dynamic-data-exchange.md)
 </dt> <dt>
 
 [Сетевые функции DDE](network-dde-functions.md)

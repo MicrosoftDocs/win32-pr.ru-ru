@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c9f16ed07235e52d9aefd7bffff9ce430c3978d2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7dbc4b4a74871eb111b778d798587e53027053fe57cc8cda837a3aafb7c24d74
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104340760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048492"
 ---
 # <a name="impersonation-level-constants"></a>Константы уровня олицетворения
 
@@ -39,7 +39,7 @@ ms.locfileid: "104340760"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При олицетворении на уровне Identify происходит сбой задания [**имени пользователя**](/windows/desktop/api/winbase/nf-winbase-getusernamea) . Обходной путь заключается в олицетворении, вызове [**опенсреадтокен**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthreadtoken), возврате, вызове [**GetTokenInformation**](/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation)и, наконец, вызове [**LookupAccountSid**](/windows/desktop/api/winbase/nf-winbase-lookupaccountsida). Используя [**CoSetProxyBlanket**](/windows/desktop/api/combaseapi/nf-combaseapi-cosetproxyblanket), клиент устанавливает уровень олицетворения
 

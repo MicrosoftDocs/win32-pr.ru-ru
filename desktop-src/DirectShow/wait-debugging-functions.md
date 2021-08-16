@@ -4,18 +4,18 @@ ms.assetid: 784ef76e-3c17-45e0-9a0b-656c11c71322
 title: Функции ожидания отладки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4d2f9f8d40e6b9676426254f0b9165b546dec7e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4f8f1de3d19ce7408625a5ab42f230d23ce401728e9fa7cf060edae62e19fcfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120049204"
 ---
 # <a name="wait-debugging-functions"></a>Функции ожидания отладки
 
 Microsoft DirectShow предоставляет несколько функций для отладки бесконечного ожидания.
 
-В розничных сборках функции [**дбгваитформултиплеобжектс**](dbgwaitformultipleobjects.md) и [**дбгваитфорсинглеобжект**](dbgwaitforsingleobject.md) работают подобно своим аналогам API Windows, **WaitForMultipleObjects** и **WaitForSingleObject** с неограниченными интервалами времени ожидания.
+в розничных сборках функции [**дбгваитформултиплеобжектс**](dbgwaitformultipleobjects.md) и [**дбгваитфорсинглеобжект**](dbgwaitforsingleobject.md) работают так же, как аналоги API Windows, **WaitForMultipleObjects** и **WaitForSingleObject** с бесконечными интервалами времени ожидания.
 
 В отладочных сборках эти функции используют глобальное значение времени ожидания. Если время ожидания истекает, функция активирует утверждение. В следующем разделе реестра указывается значение времени ожидания в миллисекундах:
 

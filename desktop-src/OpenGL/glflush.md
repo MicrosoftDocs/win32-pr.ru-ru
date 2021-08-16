@@ -62,7 +62,7 @@ void WINAPI glFlush(void);
 
 Функция **глфлуш** может возвращаться в любое время. Он не ждет завершения выполнения всех ранее выданных функций OpenGL.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

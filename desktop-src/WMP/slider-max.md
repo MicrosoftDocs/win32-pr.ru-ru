@@ -3,7 +3,7 @@ title: SLIDER. Max
 description: Атрибут max указывает или получает максимальное значение диапазона, определенного элементом управления "ползунок".
 ms.assetid: c38e7868-d144-4e40-871a-e70181a6dfb5
 keywords:
-- Reslider. Max проигрыватель Windows Media
+- ползунок. max проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 67482943e33a553589e5a16d7ce1e2264022cdf5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5bff22d623729cec14afdfd44232217a748c4788e679ba3dd2b194b7197da901
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995184"
 ---
 # <a name="slidermax"></a>SLIDER. Max
 
@@ -31,7 +31,7 @@ ms.locfileid: "105657921"
 
 Этот атрибут является **числом** для чтения и записи (**float**) и значением по умолчанию 100.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значение, указанное для параметра **Max** , должно быть больше значения параметра **min**.
 
@@ -43,7 +43,7 @@ ms.locfileid: "105657921"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

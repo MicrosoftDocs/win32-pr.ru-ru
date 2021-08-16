@@ -4,18 +4,18 @@ ms.assetid: 9c80cf59-054f-49b6-9456-ed5e091cbfaf
 title: Набор свойств транспорта внешнего устройства
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 85e38217af21ea1839d7c9207a4922bcff00d63a
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 6ef7db31dfe80fae0178aa329ce7e3c6cd55d3a6acbef7fd5a8ccda07943bef4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119685674"
 ---
 # <a name="external-device-transport-property-set"></a>Набор свойств транспорта внешнего устройства
 
 Этот набор свойств управляет передачей данных на внешнее устройство и с него. В большинстве случаев приложения не должны использовать это свойство напрямую. Вместо этого используйте интерфейс [**иамексттранспорт**](/windows/desktop/api/Strmif/nn-strmif-iamexttransport) .
 
-В следующей таблице перечислены свойства, относящиеся к приложениям пользовательского режима. Полное описание этого набора свойств см. в наборе DDK пакета средств разработки драйверов для Microsoft Windows.
+В следующей таблице перечислены свойства, относящиеся к приложениям пользовательского режима. полное описание этого набора свойств см. в наборе DDK по пакету sdk для Microsoft Windows Driver.
 
 
 

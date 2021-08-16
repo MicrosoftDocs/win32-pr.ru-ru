@@ -4,12 +4,12 @@ description: Модель Data-Pull и модель Data-Push
 ms.assetid: ba0e8532-9c7b-4e15-9c27-8205d738fc4b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88f6607e9b466c439859a99b857e7ce3fe6d8acd
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: ab89f61301f9116a7e826f1965bd54f75004a3a90af8c9d1a1bc13acb1fc9c46
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104413885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048452"
 ---
 # <a name="data-pull-model-and-data-push-model"></a>Модель Data-Pull и модель Data-Push
 
@@ -26,13 +26,13 @@ ms.locfileid: "104413885"
 
 Следует соблюдать эти правила при выделении строк или буферов, передаваемых в асинхронные моникеры, и не забывайте освобождать память, возвращенную асинхронными моникерами. Подробные сведения см. в разделе [Управление выделением памяти](the-com-library.md) и связанными разделами.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Асинхронные моникеры](asynchronous-monikers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

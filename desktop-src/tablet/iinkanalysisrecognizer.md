@@ -57,7 +57,7 @@ ms.locfileid: "119350884"
 
 [**Иинканализер**](iinkanalyzer.md) поддерживает список доступных распознавателей. Чтобы получить доступ к этому списку, используйте метод [**метода иинканализер:: жетинканалисисрекогнизерсбиприорити**](iinkanalyzer-getinkanalysisrecognizersbypriority.md) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

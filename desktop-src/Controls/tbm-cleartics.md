@@ -3,7 +3,7 @@ title: Сообщение TBM_CLEARTICS (Коммктрл. h)
 description: Удаляет текущие деления из TrackBar. Это сообщение не удаляет первый и последний деления, которые создаются автоматически с помощью TrackBar.
 ms.assetid: 2830497c-2cf0-4068-810c-c05d4e0abb8b
 keywords:
-- Элементы управления Windows для TBM_CLEARTICS сообщений
+- элементы управления Windows сообщений TBM_CLEARTICS
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a1ecb4f9f931c976b2542a1f263fc069f1eca10
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9390fc45c5b96a7b85d3b1b366e34d24c3b4bf0bc60ec066ead28357bcec1439
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104489813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046774"
 ---
 # <a name="tbm_cleartics-message"></a>\_Сообщение ТБМ клеартикс
 
@@ -49,8 +49,8 @@ ms.locfileid: "104489813"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

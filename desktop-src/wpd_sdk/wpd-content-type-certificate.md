@@ -4,12 +4,12 @@ ms.assetid: 5fcaf17b-f583-4ba7-aec3-cdb02dbf3bbc
 title: WPD_CONTENT_TYPE_CERTIFICATE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bde0ff631cd8eed28226d1e374d84e65d9756b7a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bade52d6a1f066b00826d5ef79f28db19c8e24b88dd1eeafb8052855196d3b3a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109864"
 ---
 # <a name="wpd_content_type_certificate"></a>\_ \_ сертификат типа содержимого \_ WPD
 
@@ -63,7 +63,7 @@ ms.locfileid: "105702768"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

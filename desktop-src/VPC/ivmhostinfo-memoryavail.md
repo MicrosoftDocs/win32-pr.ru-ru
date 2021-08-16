@@ -59,7 +59,7 @@ HRESULT get_MemoryAvail(
 
 
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

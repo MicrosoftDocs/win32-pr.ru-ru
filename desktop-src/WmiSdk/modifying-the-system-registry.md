@@ -5,16 +5,16 @@ ms.tgt_platform: multiple
 title: Изменение системного реестра
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb274163999996267b5f1df62fb9352831763d4e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 33562e2747d63d8531ff2b23d07eadac33d830ef3ecf3b8613f22170c0b735ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105656103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992844"
 ---
 # <a name="modifying-the-system-registry"></a>Изменение системного реестра
 
-Системный реестр содержит данные конфигурации, используемые операционной системой, службами и приложениями. Инструментарий управления Windows (WMI) (WMI) имеет [поставщик системного реестра](/previous-versions/windows/desktop/regprov/system-registry-provider) и класс [**стдрегпров**](/previous-versions/windows/desktop/regprov/stdregprov) с методами, которые используются для отслеживания или изменения реестра на локальном или удаленном компьютере. [Поставщик Win32](/windows/desktop/CIMWin32Prov/win32-provider) поддерживает класс [**\_ реестра Win32**](/windows/desktop/CIMWin32Prov/win32-registry) , содержащий статические данные о размере реестра.
+Системный реестр содержит данные конфигурации, используемые операционной системой, службами и приложениями. Windows Инструментарий управления (WMI) имеет [поставщик системного реестра](/previous-versions/windows/desktop/regprov/system-registry-provider) и класс [**стдрегпров**](/previous-versions/windows/desktop/regprov/stdregprov) с методами, которые используются для отслеживания или изменения реестра на локальном компьютере или удаленных компьютерах. [Поставщик Win32](/windows/desktop/CIMWin32Prov/win32-provider) поддерживает класс [**\_ реестра Win32**](/windows/desktop/CIMWin32Prov/win32-registry) , содержащий статические данные о размере реестра.
 
 Поставщик системного реестра — это экземпляр, свойство и поставщик событий, который взаимодействует с системным реестром. Поставщик системного реестра — это стандартный поставщик с интерфейсом [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) . Для доступа к разделам реестра и сведениям о локальных и удаленных системах можно использовать поставщик системного реестра. Дополнительные сведения см. в разделе [поставщик системного реестра](/previous-versions/windows/desktop/regprov/system-registry-provider).
 

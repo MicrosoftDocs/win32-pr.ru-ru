@@ -21,12 +21,12 @@ keywords:
 - типы элементов управления, окно
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 422742381cd501d295e4cb7e354ca07e10c13360
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a70ae728ded97bb68f3984b6fba323710d3582e984610ad6dec248d8509ea97f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104331552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118824579"
 ---
 # <a name="window-control-type"></a>Тип элемента управления окна
 
@@ -42,7 +42,7 @@ ms.locfileid: "104331552"
 -   [Соответствующие свойства](#relevant-properties)
 -   [Обязательные шаблоны элементов управления](#required-control-patterns)
 -   [Обязательные события](#required-events)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="typical-tree-structure"></a>Типичная древовидная структура
 
@@ -75,7 +75,7 @@ ms.locfileid: "104331552"
 
 
 
- 
+ 
 
 ## <a name="relevant-properties"></a>Соответствующие свойства
 
@@ -89,8 +89,8 @@ ms.locfileid: "104331552"
 | [**UIA \_ баундингректанглепропертид**](uiauto-automation-element-propids.md)       | См. примечания. | Внешний прямоугольник, содержащий весь элемент управления.                                                                                                |
 | [**UIA \_ кликкаблепоинтпропертид**](uiauto-automation-element-propids.md)             | См. примечания. | Элемент управления "окно" должен иметь управляемую точку, которая заставляет окно быть выбранным или невыбранным.                                                 |
 | [**UIA \_ контролтипепропертид**](uiauto-automation-element-propids.md)                   | **Окно** | Это значение одинаково для всех инфраструктур пользовательского интерфейса.                                                                                                           |
-| [**UIA \_ исконтентелементпропертид**](uiauto-automation-element-propids.md)         | true       | Элемент управления "окно" всегда включается в представление содержимого дерева модели автоматизации пользовательского интерфейса.                                                                    |
-| [**UIA \_ исконтролелементпропертид**](uiauto-automation-element-propids.md)         | true       | Элемент управления "окно" всегда включается в представление элемента управления дерева модели автоматизации пользовательского интерфейса.                                                                    |
+| [**UIA \_ исконтентелементпропертид**](uiauto-automation-element-propids.md)         | TRUE       | Элемент управления "окно" всегда включается в представление содержимого дерева модели автоматизации пользовательского интерфейса.                                                                    |
+| [**UIA \_ исконтролелементпропертид**](uiauto-automation-element-propids.md)         | TRUE       | Элемент управления "окно" всегда включается в представление элемента управления дерева модели автоматизации пользовательского интерфейса.                                                                    |
 | [**UIA \_ искэйбоардфокусаблепропертид**](uiauto-automation-element-propids.md)   | См. примечания. | Если элемент управления может получать фокус клавиатуры, он должен поддерживать это свойство.                                                                               |
 | [**UIA \_ лабеледбипропертид**](uiauto-automation-element-propids.md)                       | NULL       | Элементы управления "окно" не имеют статической метки окна.                                                                                                      |
 | [**UIA \_ локализедконтролтипепропертид**](uiauto-automation-element-propids.md) | См. примечания. | Локализованная строка, соответствующая типу элемента управления **Window** . Значение по умолчанию — "Window" для en-US или English (США).                      |
@@ -98,7 +98,7 @@ ms.locfileid: "104331552"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Обязательные шаблоны элементов управления
 
@@ -109,12 +109,12 @@ ms.locfileid: "104331552"
 | Шаблон элемента управления/свойство шаблона                        | Поддержка/значение | Примечания                                                                                                                                                                        |
 |---------------------------------------------------------|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IDockProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-idockprovider)           | Условная логика   | Шаблон элемента управления [Dock](uiauto-implementingdock.md) должен поддерживаться, если окно можно закрепить.                                                                       |
-| [**ITransformProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itransformprovider) | Обязательно      | Шаблон элемента управления [Transform](uiauto-implementingtransform.md) позволяет перемещать окно, изменять его размер или поворачивать на экране. (Не применяется к приложениям Магазина Windows.) |
+| [**ITransformProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itransformprovider) | Обязательно      | Шаблон элемента управления [Transform](uiauto-implementingtransform.md) позволяет перемещать окно, изменять его размер или поворачивать на экране. (не применяется к приложениям Windows Store). |
 | [**IWindowProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iwindowprovider)       | Обязательно      | Шаблон элемента управления [Window](uiauto-implementingwindow.md) позволяет выполнять определенные операции для окна.                                                                      |
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>Обязательные события
 
@@ -144,9 +144,9 @@ ms.locfileid: "104331552"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -159,9 +159,9 @@ ms.locfileid: "104331552"
 [Общие сведения о модели автоматизации пользовательского интерфейса](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

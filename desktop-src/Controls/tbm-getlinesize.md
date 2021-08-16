@@ -3,7 +3,7 @@ title: Сообщение TBM_GETLINESIZE (Коммктрл. h)
 description: Возвращает число логических позиций, на которое ползунок TrackBar перемещается в ответ на ввод с клавиатуры клавиш со стрелками, например клавиши или. Логическое положение — это целое число, увеличивающееся в диапазоне значений TrackBar от минимума до максимальной позиции ползунка.
 ms.assetid: b596060a-5bac-4b31-82f3-ee4744a9779c
 keywords:
-- Элементы управления Windows для TBM_GETLINESIZE сообщений
+- элементы управления Windows сообщений TBM_GETLINESIZE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86eb103f34461e545f5a9f56148c48364d880dbe
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8e6db69efda8a6836f8c366092871cbb6b54261021a69c80e2bb14abcd88d967
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989431"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046564"
 ---
 # <a name="tbm_getlinesize-message"></a>\_Сообщение ТБМ жетлинесизе
 
@@ -39,7 +39,7 @@ ms.locfileid: "103989431"
 
 Возвращает 32-разрядное значение, указывающее размер строки для TrackBar.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значение по умолчанию для параметра Размер линии равно 1.
 
@@ -51,8 +51,8 @@ ms.locfileid: "103989431"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

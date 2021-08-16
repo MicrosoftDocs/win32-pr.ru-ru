@@ -3,7 +3,7 @@ title: Сообщение LVN_ENDSCROLL (Коммктрл. h)
 description: Сообщает родительскому окну элемента управления "представление списка", когда заканчивается операция прокрутки. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: 2838dcd0-ac0f-48c7-94ba-dc36febedb94
 keywords:
-- Элементы управления Windows для LVN_ENDSCROLL сообщений
+- элементы управления Windows сообщений LVN_ENDSCROLL
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b9dcdcff2d0bcfc28e1818d5add6d37838e5f9b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 308d0abc3c12170dbc14f5e8a67329ed226610baa7b00fd042a24ed67193e6df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892830"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119915144"
 ---
 # <a name="lvn_endscroll-message"></a>\_Сообщение ЛВН ендскролл
 
@@ -49,7 +49,7 @@ LVN_ENDSCROLL
 
 Возвращаемое значение не используется.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Чтобы использовать этот код уведомления, необходимо указать манифест, указывающий Comclt32.dll версии 6,0. Дополнительные сведения о манифестах см. в разделе [Включение визуальных стилей](cookbook-overview.md).
@@ -62,8 +62,8 @@ LVN_ENDSCROLL
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

@@ -6,12 +6,12 @@ keywords:
 - WS_POLICY
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 74312490bf0e44c1119c0ca1203ac2f581eb7683
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5f3daf0ac353e8d239ae03eb83e7a5dcbfe963754c52b90bf426566fc4ebae0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136274"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109684"
 ---
 # <a name="ws_policy"></a>\_политика WS
 
@@ -24,7 +24,7 @@ typedef struct _WS_POLICY WS_POLICY;
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот объект не является потокобезопасным. Дополнительные сведения см. в статье [безопасность потоков](thread-safety.md).
 
@@ -34,8 +34,8 @@ typedef struct _WS_POLICY WS_POLICY;
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 7 \|\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 R2 \|\]<br/>                           |
+| Минимальная версия клиента<br/> | \[приложения UWP для классических приложений Windows 7 \|\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для настольных приложений Server 2008 R2 \|\]<br/>                           |
 | Header<br/>                   | <dl> <dt>WebService. h</dt> </dl> |
 
 

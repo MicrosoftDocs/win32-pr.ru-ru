@@ -32,7 +32,7 @@ ms.locfileid: "118344000"
 </xs:simpleType>
 ```
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

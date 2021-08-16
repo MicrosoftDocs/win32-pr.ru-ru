@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 79212d19d7dbf4a66e2b72dcbdeba9262a9aeddd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b7979d82363b21b58563a606c31a99d069a60a3bc5b2da162a7339513c2867bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119084711"
 ---
 # <a name="iwmdrmnonsilentlicenseaquisitiongeturl-method"></a>Метод Ивмдрмнонсилентлиценсеакуиситион:: GetURL
 
@@ -64,7 +64,7 @@ HRESULT GetURL(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Нет.
 
@@ -74,7 +74,7 @@ HRESULT GetURL(
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Вмдрмсдк. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Вмдрмсдк. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>Вмдрмсдк. lib</dt> </dl> |
 
 

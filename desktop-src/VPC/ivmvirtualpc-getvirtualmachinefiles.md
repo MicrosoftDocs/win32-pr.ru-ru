@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c5d1fe248b76756b39846d181341278f669d2f5f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 64ae2f96fb0c289f155158c77cdf3e4a8df1cb83aa8a51e0329d9fcd835ea4d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104341225"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118998604"
 ---
 # <a name="ivmvirtualpcgetvirtualmachinefiles-method"></a>Метод Ивмвиртуалпк:: Жетвиртуалмачинефилес
 
-\[Windows Virtual PC больше не доступна для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC больше не доступен для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Извлекает массив известных файлов конфигурации виртуальной машины.
 
@@ -85,7 +85,7 @@ HRESULT GetVirtualMachineFiles(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Пути поиска, используемые для получения массива файлов конфигурации, будут содержать наборы, ранее [**ивмвиртуалпк:: сеарчпасс**](ivmvirtualpc-searchpaths.md) и [**Ивмвиртуалпк::D ефаултвмконфигуратионпас**](ivmvirtualpc-defaultvmconfigurationpath.md) в дополнение к тем, которые указаны параметром *инаддитионалсеарчпасс* .
 
@@ -95,7 +95,7 @@ HRESULT GetVirtualMachineFiles(
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                    |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                     |
 | Окончание поддержки клиента<br/>    | Windows 7<br/>                                                                          |
 | Продукт<br/>                  | Windows Virtual PC<br/>                                                                 |

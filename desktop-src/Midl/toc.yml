@@ -73,7 +73,7 @@
               href: odl-language-features-in-midl.md
             - name: Создание прокси-библиотеки DLL и библиотеки типов из одного файла IDL
               href: generating-a-proxy-dll-and-a-type-library-from-a-single-idl-file-2.md
-        - name: Компоненты MIDLRT и среда выполнения Windows
+        - name: компоненты MIDLRT и среда выполнения Windows
           href: midlrt-and-windows-runtime-components.md
           items:
             - name: Файлы МДМЕРЖЕ и Metadata
@@ -473,7 +473,7 @@
           href: helpstringdll.md
         - name: hidden
           href: hidden.md
-        - name: Hyper
+        - name: hyper
           href: hyper.md
         - name: идентификатор
           href: id.md

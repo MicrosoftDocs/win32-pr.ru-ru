@@ -1,16 +1,16 @@
 - name: Родительский контроль
   href: parental-controls-portal.md
   items:
-    - name: Новые возможности родительского контроля в Windows 8
+    - name: новые возможности Windows 8 родительского контроля
       href: what-s-new-in-windows-8-parental-controls.md
-    - name: Новые возможности родительского контроля в Windows 7
+    - name: новые возможности родительского контроля Windows 7
       href: what-s-new-in-windows-7-parental-controls.md
     - name: Об родительских элементах управления
       href: about-parental-controls.md
       items:
         - name: Родительский контроль — оператор проблемы
           href: parental-controls-problem-statement.md
-        - name: Решение для обеспечения безопасности продуктов семейства Windows
+        - name: Windows Решение семейной безопасности
           href: windows-family-safety-solution.md
         - name: Родительские контрольные решения
           href: parental-controls-key-design-decisions.md
@@ -43,7 +43,7 @@
         - name: Использование интерфейсов API родительского контроля
           href: using-parental-controls-apis.md
           items:
-            - name: Использование API параметров родительского контроля
+            - name: использование родительского контроля Параметры api
               href: using-parental-controls-settings-apis.md
             - name: Использование API ведения журнала для родительского контроля
               href: using-logging-apis-for-parental-controls.md

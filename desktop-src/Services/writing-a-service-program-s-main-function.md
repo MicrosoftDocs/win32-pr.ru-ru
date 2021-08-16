@@ -4,12 +4,12 @@ ms.assetid: 7fdfc20a-9148-4ae1-8101-7a387c0d0edc
 title: Написание главной функции в служебных программах
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83aa743bfabbeafa2e05818c5bb068a949dce807
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d82e3c519650957f4f27b00ff54864f558cafba3db960f30c0dd20517328f1c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104541103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117966615"
 ---
 # <a name="writing-a-service-programs-main-function"></a>Написание основной функции служебной программы
 
@@ -134,7 +134,7 @@ int __cdecl _tmain(int argc, TCHAR *argv[])
 #define SVC_ERROR                        ((DWORD)0xC0020001L)
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

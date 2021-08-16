@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 19b8da39d07b8aae9401bdc6ccf2eecb5d3a1e88
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1a4d4e33ca339c1ade344bb2ca9531bea381d14b4381773673b07e522437e90a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657203"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120108624"
 ---
 # <a name="cbasepintrymediatypes-method"></a>Кбасепин. Тримедиатипес, метод
 
@@ -80,7 +80,7 @@ virtual HRESULT TryMediaTypes(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для каждого типа мультимедиа, возвращаемого интерфейсом **иенуммедиатипес** , этот метод пытается установить соединение, вызвав метод [**Кбасепин:: аттемптконнектион**](cbasepin-attemptconnection.md) .
 
@@ -92,7 +92,7 @@ virtual HRESULT TryMediaTypes(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Амфилтер. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>амфилтер. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

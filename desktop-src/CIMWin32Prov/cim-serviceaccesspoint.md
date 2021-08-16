@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 681e5e11de525e535f7965b72adb8ac0e316f7aa
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7dbabaa1ddaba8e557d745318a775f906aae7036379bfcf39f42d09d569e650f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104538765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919644"
 ---
 # <a name="cim_serviceaccesspoint-class-cimwin32-wmi-providers"></a>Класс CIM_ServiceAccessPoint (поставщики WMI CIMWin32)
 
@@ -65,13 +65,13 @@ class CIM_ServiceAccessPoint : CIM_LogicalElement
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ сервицеакцесспоинт** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -141,7 +141,7 @@ class CIM_ServiceAccessPoint : CIM_LogicalElement
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -350,7 +350,7 @@ class CIM_ServiceAccessPoint : CIM_LogicalElement
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **CIM \_ сервицеакцесспоинт** является производным от [**CIM \_ логикалелемент**](cim-logicalelement.md).
 

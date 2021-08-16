@@ -4,12 +4,12 @@ description: Как и любой объект OLE, элемент управл�
 ms.assetid: 5a0cdb5d-7e27-40e9-94db-cfda853879c6
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 701b100be635fdb8db9cb51f258dc722edd23eca
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 52dae30453089f235a4e70d7896569ebefcdff9f7f2419b5fc54af88b8563d63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047892"
 ---
 # <a name="properties-and-methods"></a>Свойства и методы
 
@@ -29,7 +29,7 @@ ms.locfileid: "104067641"
 -   [Свойства элемента управления](control-properties.md)
 -   [Методы управления](control-methods.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -39,9 +39,9 @@ ms.locfileid: "104067641"
 [Страницы свойств и вкладки свойств](property-pages-and-property-sheets.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

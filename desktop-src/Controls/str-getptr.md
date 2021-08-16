@@ -3,7 +3,7 @@ title: Функция Str_GetPtr
 description: Копирует строку из одного буфера в другой.
 ms.assetid: a3dd55a0-3f8b-4d6c-9956-666bebc3ab8d
 keywords:
-- Функции Str_GetPtr элементов управления Windows
+- Str_GetPtrные элементы управления Windows функции
 topic_type:
 - apiref
 api_name:
@@ -16,16 +16,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fec99bb4d91bde86d901c0e7ed4761bafd15f3a5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 77c76ad276f6cb6dfc12bc272fbbc86c83617a0d00d36d77cf2ab0ca113811d7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103801534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919454"
 ---
 # <a name="str_getptr-function"></a>Str \_ жетптр, функция
 
-\[Эта функция доступна в Windows XP с пакетом обновления 2 (SP2) и Windows Server 2003. Он может быть изменен или недоступен в последующих версиях Windows.\]
+\[эта функция доступна в Windows XP с пакетом обновления 2 (sp2) и Windows Server 2003. Он может быть изменен или недоступен в последующих версиях Windows.\]
 
 Копирует строку из одного буфера в другой.
 
@@ -83,7 +83,7 @@ int WINAPI Str_GetPtr(
 
 Если *псздест* не может вместить всю строку, на которую указывает *псзсаурце*, то символы (*кчдест*-1) копируются, строка, заканчивающаяся нулем, и *кчдест* возвращается.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **Str \_ Жетптр** доступен в виде версий ANSI (**str \_ Жетптра**) и Unicode (**str \_ жетптрв**). Эти функции не экспортируются по имени или объявляются в общедоступном файле заголовка. Чтобы использовать их, необходимо использовать [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) и запросить порядковый номер 233 (**str \_ жетптра**) или 235 (**str \_ жетптрв**) из ComCtl32.dll, чтобы получить указатель на функцию.
 
@@ -93,8 +93,8 @@ int WINAPI Str_GetPtr(
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>ComCtl32.dll</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **Str \_ Жетптрв** (Юникод) и **str \_ жетптра** (ANSI)<br/>                       |
 

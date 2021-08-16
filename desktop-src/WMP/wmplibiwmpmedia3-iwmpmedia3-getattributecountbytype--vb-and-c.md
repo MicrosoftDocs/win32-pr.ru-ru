@@ -3,9 +3,9 @@ title: IWMPMedia3 Жетаттрибутекаунтбитипе, метод
 description: Метод Жетаттрибутекаунтбитипе возвращает число атрибутов, связанных с указанным типом атрибута.
 ms.assetid: d692635f-f9f1-4d8e-a9c5-9d7fa84f41bd
 keywords:
-- Жетаттрибутекаунтбитипе метод Windows Media Player
-- Жетаттрибутекаунтбитипе метод проигрывателя Windows Media Player, интерфейс IWMPMedia3
-- Интерфейс IWMPMedia3 Windows Media Player, метод Жетаттрибутекаунтбитипе
+- проигрыватель Windows Media метода жетаттрибутекаунтбитипе
+- проигрыватель Windows Media метода жетаттрибутекаунтбитипе, интерфейс IWMPMedia3
+- проигрыватель Windows Media интерфейса IWMPMedia3, метод жетаттрибутекаунтбитипе
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 49505f9e9df8778cc2c17ba062da6700b9b8aec4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2c8e3fc681ea5471457bd9a80ac3e26dabc08b2112387dd8c5f785bf5f055dfc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120000114"
 ---
 # <a name="iwmpmedia3getattributecountbytype-method"></a>Метод IWMPMedia3:: Жетаттрибутекаунтбитипе
 
@@ -73,19 +73,19 @@ Implements IWMPMedia3.getAttributeCountByType
 
 Объект **System. Int32** , который является количеством атрибутов, связанных с типом.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод используется для определения количества атрибутов, соответствующих определенному имени атрибута для данного элемента мультимедиа. Номера индексов можно передать в метод **жетитеминфобитипе** . Это полезно, например, когда элемент мультимедиа был разбит на несколько жанров.
 
 Перед вызовом этого метода необходимо иметь доступ на чтение к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

@@ -4,17 +4,17 @@ ms.assetid: 83e27c27-e402-43bc-8245-3a23dd49130b
 title: Метод Плайаттиме
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 03fef548c50908e9ad8f2455e6f52de7a4077d27
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 12b9ce5bb84afe84dfa416ed1478a15eb76f901394c615b11e7bb1d0851d67a8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105682213"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633554"
 ---
 # <a name="playattime-method"></a>Метод Плайаттиме
 
 > [!Note]  
-> Этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
+> этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
 
  
 

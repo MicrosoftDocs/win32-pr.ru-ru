@@ -3,7 +3,7 @@ title: Сообщение EM_EXLINEFROMCHAR (RichEdit. h)
 description: Определяет, какая строка содержит указанный символ в элементе управления Rich Edit.
 ms.assetid: 497482fb-9640-4063-a9f5-e0691b65225d
 keywords:
-- Элементы управления Windows для EM_EXLINEFROMCHAR сообщений
+- элементы управления Windows сообщений EM_EXLINEFROMCHAR
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ce904725c5dc63732bae07cfaa95b41558db11d7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6c41f5fbe540a4d765a48292d4ffd5b4af5849681dd1a82f4512b79348a6249d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104493350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119915644"
 ---
 # <a name="em_exlinefromchar-message"></a>\_Сообщение ЕКСЛИНЕФРОМЧАР EM
 
@@ -53,8 +53,8 @@ ms.locfileid: "104493350"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

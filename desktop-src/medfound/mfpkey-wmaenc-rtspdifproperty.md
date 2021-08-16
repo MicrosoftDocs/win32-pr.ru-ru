@@ -4,12 +4,12 @@ ms.assetid: 36ac925b-d68b-4c39-9033-2c0a058125b5
 title: Свойство MFPKEY_WMAENC_RTSPDIF (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bcfd34f12618d7cb1029ab4723a13002380f3380
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 296c02dfe67a945d5c1649bf524c3be3e01425a8b7885b702d044aece7b0bcf7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694966"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119355574"
 ---
 # <a name="mfpkey_wmaenc_rtspdif-property"></a>МФПКЭЙ \_ вмаенк \_ Ртспдиф, свойство
 

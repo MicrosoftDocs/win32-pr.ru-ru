@@ -9,20 +9,20 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7108dfc094f3183950dd94e5398263f4bf7cfd5c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: be29e4a1bd6721b8f53dbe2394be3552ca4845143cf948f130ef55e11881b518
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104329576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119589244"
 ---
 # <a name="tracelogging-managed-quick-start"></a>Управляемый Быстрое начало Трацелоггинг
 
 В следующем разделе описаны основные шаги, необходимые для добавления Трацелоггинг в управляемый код.
 
-## <a name="prerequisites"></a>Предварительные условия
+## <a name="prerequisites"></a>Предварительные требования
 
--   Windows 10
+-   Windows 10,
 
 ### <a name="simpletraceloggingexamplecs"></a>Симплетрацелоггинжексампле. CS
 
@@ -115,13 +115,13 @@ namespace SimpleTraceLoggingExample
 
 ## <a name="summary-and-next-steps"></a>Сводка и дальнейшие действия
 
-Сведения о записи и просмотре данных Трацелоггинг с помощью последних внутренних версий средств обеспечения производительности Windows (WPT) см. в разделе [запись и отображение событий трацелоггинг](tracelogging-record-and-display-tracelogging-events.md) .
+сведения о записи и просмотре данных трацелоггинг с помощью последних внутренних версий Windows средств обеспечения производительности (WPT) см. в разделе [запись и отображение событий трацелоггинг](tracelogging-record-and-display-tracelogging-events.md) .
 
 Дополнительные примеры для управляемых Трацелоггинг см. в разделе [примеры .NET трацелоггинг](tracelogging-net-examples.md) .
 
- 
+ 
 
- 
+ 
 
 
 

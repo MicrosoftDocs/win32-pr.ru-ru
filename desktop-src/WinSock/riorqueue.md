@@ -4,12 +4,12 @@ ms.assetid: 50E9516C-6078-4466-A593-3F29E4783740
 title: RIO_RQ (Мсвсоккдеф. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c25abebbe40842532f3cca180868b5b3786e756d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 162b87d1ae320bfa0e74f08e5a0ef7493c053f39573249246e8b2884e74f599c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104344742"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118993584"
 ---
 # <a name="rio_rq"></a>Рио \_ РК
 
@@ -31,7 +31,7 @@ typedef struct RIO_RQ_t* RIO_RQ, **PRIO_RQ;
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Зарегистрированные расширения ввода-вывода Winsock работают главным образом с объектом **Рио \_ РК** , а не с сокетом. Приложение получает **Рио \_ РК** для существующего сокета с помощью функции [**риокреатерекуесткуеуе**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riocreaterequestqueue) . Входной сокет должен быть создан путем вызова функции [**всасоккет**](/windows/desktop/api/Winsock2/nf-winsock2-wsasocketa) с флагом **WSA \_ \_ Рио** , установленным в параметре *dwFlags* .
 
@@ -50,8 +50,8 @@ typedef struct RIO_RQ_t* RIO_RQ, **PRIO_RQ;
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                                  |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                        |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                                  |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Мсвсоккдеф. h (включение Мсвсокк. h)</dt> </dl> |
 
 

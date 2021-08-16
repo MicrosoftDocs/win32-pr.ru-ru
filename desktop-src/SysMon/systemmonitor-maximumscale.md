@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e37740802fac4d89bbcbe9d5c105e357b55ab481
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 176ebab3b2879b3d158310ec61fa9e65df45f8b502029ede1c58c2c1dd33f225
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988522"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118882033"
 ---
 # <a name="systemmonitormaximumscale-property"></a>Системмонитор. Максимумскале, свойство
 
@@ -42,7 +42,7 @@ Property MaximumScale As Long
 
 Положительное максимальное значение вертикальной оси графа. По умолчанию максимальное значение вертикального масштаба равно 100. Наименьшее значение, для которого можно задать максимальное значение, — это значение, которое больше значения [**минимумскале**](systemmonitor-minimumscale.md) . Наибольшее значение, которое можно задать для максимального значения, равно 999 999 999.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент управления автоматически корректирует расположение чисел шкалы, отображаемых на вертикальном масштабировании, в соответствии с размером отображаемого элемента управления.
 

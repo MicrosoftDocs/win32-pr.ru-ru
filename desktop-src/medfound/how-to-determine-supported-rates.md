@@ -4,12 +4,12 @@ ms.assetid: 7f2b64e1-1062-4f77-b8e0-62b6d962ae8b
 title: Определение поддерживаемых ставок
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f67e9753604f51e85c641e616e8b69944b96618
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8aadbf0f9a0ce9608b58019d64ddb18a2227bbeb2941540086a6f998e40ebc3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117878946"
 ---
 # <a name="how-to-determine-supported-rates"></a>Определение поддерживаемых ставок
 
@@ -117,7 +117,7 @@ ms.locfileid: "104263443"
 
     Если обратная или тонкое воспроизведение не поддерживается, вызов возвращает соответствующий код ошибки.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -127,7 +127,7 @@ ms.locfileid: "104263443"
 [Управление скоростью](rate-control.md)
 </dt> <dt>
 
-[Поиск, быстрая переадресация и обратная игра](seeking--fast-forward--and-reverse-play.md)
+[поиск, Быстрая прокрутка и обратная игра](seeking--fast-forward--and-reverse-play.md)
 </dt> </dl>
 
  

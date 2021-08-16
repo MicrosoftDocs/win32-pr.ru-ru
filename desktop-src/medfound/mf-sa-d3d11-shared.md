@@ -4,12 +4,12 @@ ms.assetid: 798CA474-3B1A-4795-81B7-563749197104
 title: Атрибут MF_SA_D3D11_SHARED (Мфтрансформ. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff6ecb23a99a732e183bc16942e33bbb4f8e3a40
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 439e92ca57c306434898bfe167646d4e9df98a4cee0b4db8b9c8f84e394cdc21
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104264748"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117875987"
 ---
 # <a name="mf_sa_d3d11_shared-attribute"></a>\_ \_ D3D11 \_ общий атрибут MF SA
 
@@ -19,20 +19,20 @@ ms.locfileid: "104264748"
 
 **UINT32**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 ### <a name="sample-allocator"></a>Выборка распределителя
 
 Этот атрибут можно задать в примере распределителя видео в методе [**имфвидеосамплеаллокаторекс:: инитиализесамплеаллокаторекс**](/windows/desktop/api/mfidl/nf-mfidl-imfvideosampleallocatorex-initializesampleallocatorex) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8 \|\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 \|\]<br/>                              |
+| Минимальная версия клиента<br/> | Windows 8 \[ приложения UWP для классических приложений \|\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ приложения UWP для классических приложений \|\]<br/>                              |
 | Header<br/>                   | <dl> <dt>Мфтрансформ. h</dt> </dl> |
 
 
