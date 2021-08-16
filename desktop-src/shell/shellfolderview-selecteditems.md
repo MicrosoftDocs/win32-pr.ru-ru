@@ -1,6 +1,6 @@
 ---
 description: Шеллфолдервиев. SelectedItems, метод возвращает объект Фолдеритемс, представляющий все выбранные элементы в представлении.
-title: Шеллфолдервиев. SelectedItems, метод (Шлдисп. h)
+title: Метод ShellFolderView.SelectedItems (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 1ee3bf2e-f9c9-47d9-a0f2-efedd69770c5
-ms.openlocfilehash: 485eda530adc4955abb27899d67ac0900eb0a910
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: c8da62afba7e8cc2f594f15c34e2f2bcf6af1ae8e03f857324d18e79b0967d4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109840745"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117857686"
 ---
 # <a name="shellfolderviewselecteditems-method"></a>Шеллфолдервиев. SelectedItems, метод
 
@@ -49,7 +49,7 @@ retVal = ShellFolderView.SelectedItems()
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере показано правильное использование этого метода в JScript Embedded в HTML.
+в следующем примере показано правильное использование этого метода в JScript, внедренном в HTML.
 
 
 ```JScript
@@ -97,13 +97,13 @@ retVal = ShellFolderView.SelectedItems()
 
 
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                           |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                         |

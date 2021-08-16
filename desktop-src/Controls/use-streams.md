@@ -1,17 +1,17 @@
 ---
-title: Использование потоков
+title: использование Потоки
 description: Потоки можно использовать для перемещения данных в элемент управления Rich Edit или из него. Поток определяется структурой ЕДИТСТРЕАМ, которая задает буфер и функцию обратного вызова, определяемую приложением.
 ms.assetid: A7ED47F1-968C-4E41-B1E2-4449072D2FC4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b89a9cc2a8caa157f9c65220fc5cead7564bc555
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.openlocfilehash: ae620d123ad983cd150bf78d27d99de137ec61eea8c5a32c9fcc9698cb262a63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "104133618"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117828626"
 ---
-# <a name="how-to-use-streams"></a>Использование потоков
+# <a name="how-to-use-streams"></a>использование Потоки
 
 Потоки можно использовать для перемещения данных в элемент управления Rich Edit или из него. Поток определяется структурой [**едитстреам**](/windows/desktop/api/Richedit/ns-richedit-editstream) , которая задает буфер и функцию обратного вызова, определяемую приложением.
 
@@ -19,16 +19,16 @@ ms.locfileid: "104133618"
 
 Чтобы сохранить содержимое элемента управления Rich Edit (то есть потоковая передача данных), можно использовать сообщение о [**\_ потоке EM**](em-streamout.md) . Элемент управления многократно записывает данные в буфер, а затем вызывает функцию обратного вызова приложения. Для каждого вызова функция обратного вызова сохраняет содержимое буфера.
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
@@ -83,19 +83,19 @@ BOOL FillRichEditFromFile(HWND hwnd, LPCTSTR pszFile)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Использование элементов управления Rich Edit](using-rich-edit-controls.md)
 </dt> <dt>
 
-[Демонстрация стандартных элементов управления Windows (Кппвиндовскоммонконтролс)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[демонстрация Windows стандартных элементов управления (кппвиндовскоммонконтролс)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

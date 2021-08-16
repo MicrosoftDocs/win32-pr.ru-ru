@@ -50,7 +50,7 @@ ms.locfileid: "118224178"
 
 Другие приложения могут использовать функцию посылки [**сообщений**](/windows/win32/api/winuser/nf-winuser-postmessagea) для отправки этого сообщения в Диспетчер файлов. Чтобы получить соответствующий обработчик окна диспетчера файлов, приложение может указать "ВФС \_ Frame" в качестве параметра *лпсзкласснаме* в вызове функции [**FindWindow**](/windows/win32/api/winuser/nf-winuser-findwindowa) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

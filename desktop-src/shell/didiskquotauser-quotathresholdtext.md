@@ -39,7 +39,7 @@ QuotaThresholdText = DIDiskQuotaUser.QuotaThresholdText
 
 Строковое значение, содержащее порог предупреждения пользователя. Если использование диска пользователем превышает это значение, а свойство [**логкуотасрешолд**](diskquotacontrol-logquotathreshold.md) имеет значение **true**, система создает запись в журнале событий.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

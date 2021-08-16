@@ -77,7 +77,7 @@ DWORD WINAPI GetFrameSrcAddressOffset(
 
 Если функция завершилась неудачно, возвращаемое значение равно минус единице (-1).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -7,12 +7,12 @@ keywords:
 - Active Directory ошибок ведения журнала и восстановления Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6fba921a63eb399d6ed4f44ef8569ed05370403
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4b267b359b5244fddc0e8a9b2ddfbfb5d6e5f9ab0a7e647683d44759f8a7261b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105654177"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118186595"
 ---
 # <a name="logging-and-recovery-errors-in-functions-in-active-directory-domain-services"></a>Регистрация и восстановление ошибок в функциях в домен Active Directory Services
 
@@ -28,7 +28,7 @@ ms.locfileid: "105654177"
 | **хрбаккупинпрогресс**               | Архивация активна.                                                                                                                |
 | **хрмиссингпревиауслогфиле**         | Отсутствует файл журнала для контрольной точки.                                                                                        |
 | **хрлогвритефаил**                   | Не удается выполнить запись в файл журнала.                                                                                                 |
-| **хрбадлогверсион**                  | Версия файла журнала несовместима с версией базы данных службы каталогов Windows NT/Windows 2000 (NTDS). |
+| **хрбадлогверсион**                  | версия файла журнала несовместима с версией базы данных службы каталогов Windows NT/Windows 2000 (NTDS). |
 | **хринвалидлогсекуенце**             | Метка времени в следующем журнале не соответствует ожидаемому.                                                                 |
 | **хрлоггингдисаблед**                | Журнал неактивен.                                                                                                           |
 | **хрлогбуффертусмалл**              | Буфер журнала слишком мал для восстановления.                                                                                     |
@@ -181,9 +181,9 @@ ms.locfileid: "105654177"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -202,9 +202,9 @@ ms.locfileid: "105654177"
 [Возвращаемые значения для функций в домен Active Directory Services](return-values-for-functions-in-active-directory-domain-services.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

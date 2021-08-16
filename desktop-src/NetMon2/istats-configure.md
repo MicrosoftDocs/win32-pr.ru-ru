@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 9f2dddea3132ce81a57f16737c0f90c6277d4efd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 357d0dd9dbb6e0f57a7ecd3dffcec4c0d1e546ce0bc058ce0144796ca8836113
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118364971"
 ---
 # <a name="istatsconfigure-method"></a>Метод Истатс:: Configure
 
@@ -83,7 +83,7 @@ HRESULT STDMETHODCALLTYPE Configure(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод необходимо применить для перезапуска НПП, который был запущен, остановлен, но не отключен.
 
@@ -109,7 +109,7 @@ BLOB-объект ошибки, возвращенный *херрорблоб* 
 [истатс](istats.md)
 </dt> <dt>
 
-[ИСТАТС:: Connect](istats-connect.md)
+[истатс:: Подключение](istats-connect.md)
 </dt> <dt>
 
 [сетевой монитор большие двоичные объекты](network-monitor-blobs.md)

@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: c8998a1ca04206362fcc0e7405fccf8c923d74d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d448d92cddf24e98f05cf023116e7087ad8cc3dcd310b7ccd3657571ee7650ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118312663"
 ---
 # <a name="swbemservicesget-method"></a>SWbemServices. Get, метод
 
@@ -132,7 +132,7 @@ objWbemObject = .Get( _
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В отличие от методов [**ExecQuery**](/windows/desktop/api/Provider/nf-provider-provider-execquery) и [**Инстанцесоф**](swbemservices-instancesof.md) , метод Get всегда возвращает [**SWbemObject**](swbemobject.md) , представляющий конкретный экземпляр управляемого WMI ресурса. Чтобы получить конкретный экземпляр управляемого WMI ресурса с помощью метода Get, необходимо определить получение экземпляра, передав методу путь к объекту, как показано в следующем скрипте.
 

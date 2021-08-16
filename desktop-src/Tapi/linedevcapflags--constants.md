@@ -4,12 +4,12 @@ ms.assetid: 0c537488-9fb9-4961-bd0a-1937aefc0b08
 title: Константы LINEDEVCAPFLAGS_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ffefca75c00fdf09b1886affbff7f0ea90bab6c1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c2d54acf1855bc09d9b2160e1ae681b25ff1de8ce310049fd4aabf4af6f8f2f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117761721"
 ---
 # <a name="linedevcapflags_-constants"></a>\_Константы линедевкапфлагс
 
@@ -141,7 +141,7 @@ ms.locfileid: "105679880"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Без расширяемости. Все 32 бит зарезервированы.
 

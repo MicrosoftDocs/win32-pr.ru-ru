@@ -4,12 +4,12 @@ description: Когда указатель мыши наводится на эл
 ms.assetid: E77B15D7-F0C9-41F7-8BE9-30260FA4BB0C
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a486407b8dafade1e3bba083c5a56f3a9be2adcf
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.openlocfilehash: 6dd735828675ca360cfa91aceefb2d76d34252a96aa7b5edb776e3d48a1fcdc5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "104069722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117829093"
 ---
 # <a name="how-to-use-hot-tracking-with-toolbars"></a>Использование Hot-Tracking с панелями инструментов
 
@@ -23,16 +23,16 @@ ms.locfileid: "104069722"
 
 Если необходимо изменить изображение кнопки панели инструментов при изменении состояния элемента управления, сохраните другие изображения в [списках изображений](image-lists.md). Например, некоторые приложения имеют черные и белые кнопки панели инструментов, которые становятся цветными, когда они выбраны. Два разных образа хранятся в списках изображений. Панели инструментов поддерживают использование до трех списков изображений. Как правило, в приложении используется список образов по умолчанию, отключен и горячая отслеживание. Чтобы задать и получить списки изображений для кнопок активной панели инструментов, используйте сообщения [**\_ Жесотимажелист**](tb-gethotimagelist.md) в [**ТБ \_ сесотимажелист**](tb-sethotimagelist.md) и ТБ.
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Обязательные условия
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
@@ -71,19 +71,19 @@ DeleteObject(hBitmapHot);    // Delete the loaded bitmap.
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Использование элементов управления ToolBar](using-toolbar-controls.md)
 </dt> <dt>
 
-[Демонстрация стандартных элементов управления Windows (Кппвиндовскоммонконтролс)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[демонстрация Windows стандартных элементов управления (кппвиндовскоммонконтролс)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

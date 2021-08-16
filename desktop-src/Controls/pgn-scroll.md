@@ -3,7 +3,7 @@ title: Код уведомления PGN_SCROLL (Коммктрл. h)
 description: Сообщает родительскому окну элемента управления страничного навигатора о том, что автономное окно будет прокручиваться. Это уведомление отправляется в виде \_ сообщения WM notify.
 ms.assetid: 3d40e75e-c445-4885-b807-8cfcb92cb2d9
 keywords:
-- PGN_SCROLL кода уведомления элементы управления Windows
+- PGN_SCROLL кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 62bc964b1a820fb0d5cd341e8909f36d5f6312ed
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 864903c73eeb611d1c748ec6a4d936192a1a27f22d3f37115af8879916286a8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117830148"
 ---
 # <a name="pgn_scroll-notification-code"></a>\_Код уведомления прокрутки ПГН
 
@@ -55,8 +55,8 @@ PGN_SCROLL
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

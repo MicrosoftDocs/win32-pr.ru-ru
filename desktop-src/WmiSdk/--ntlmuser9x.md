@@ -19,16 +19,16 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 79aa5153869c7337b6849e8c465dbbf8b36a0f58
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d05920b0936e8ff4de3eb338938e03e92edb4596efbf01f1064b6952a7df661
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703011"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118320582"
 ---
 # <a name="__ntlmuser9x-class"></a>\_\_Класс NTLMUser9X
 
-Класс System **\_ \_ NTLMUser9X** управляет удаленным доступом к неподдерживаемым версиям Windows. Приведенный ниже синтаксис является упрощенной версией кода MOF и включает все унаследованные свойства. Свойства перечислены в алфавитном порядке, а не в MOF.
+класс system **\_ \_ NTLMUser9X** управляет удаленным доступом к неподдерживаемым версиям Windows. Приведенный ниже синтаксис является упрощенной версией кода MOF и включает все унаследованные свойства. Свойства перечислены в алфавитном порядке, а не в MOF.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -49,7 +49,7 @@ class __NTLMUser9X : __SecurityRelatedClass
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ \_ NTLMUser9X** имеет следующие свойства.
 
@@ -97,7 +97,7 @@ class __NTLMUser9X : __SecurityRelatedClass
 
 </dd> <dt>
 
-**Mask**
+**Виде**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **Sint32**
@@ -106,11 +106,11 @@ class __NTLMUser9X : __SecurityRelatedClass
 Тип доступа: чтение и запись
 </dt> </dl>
 
-Битовая маска, указывающая права доступа к пространству имен в репозитории инструментарий управления Windows (WMI) (WMI). Значения битов см. в разделе [**константы прав доступа к пространству имен**](namespace-access-rights-constants.md).
+битовая маска, указывающая права доступа к пространству имен в репозитории инструментарий управления Windows (WMI) (WMI). Значения битов см. в разделе [**константы прав доступа к пространству имен**](namespace-access-rights-constants.md).
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -152,7 +152,7 @@ class __NTLMUser9X : __SecurityRelatedClass
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ \_ NTLMUser9X** используется в качестве входного параметра для методов [**\_ \_ системсекурити:: Get9XUserList**](--systemsecurity-get9xuserlist.md) и [**\_ \_ системсекурити:: Set9XUserList**](--systemsecurity-set9xuserlist.md) .
 
@@ -178,7 +178,7 @@ class __NTLMUser9X : __SecurityRelatedClass
 [Системные классы WMI](wmi-system-classes.md)
 </dt> <dt>
 
-[**\_\_системсекурити**](--systemsecurity.md)
+[**\_\_SystemSecurity**](--systemsecurity.md)
 </dt> </dl>
 
  

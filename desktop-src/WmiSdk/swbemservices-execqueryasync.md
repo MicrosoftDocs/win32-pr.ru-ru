@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 5cd3fe778ca7338df6b2674a4930458ef9113a1d
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 93b80f7571630b306951c9efddef459930b23ab66a0f1b62913836f459db8033
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108118382"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118312653"
 ---
 # <a name="swbemservicesexecqueryasync-method"></a>SWbemServices.Exeметод Ккуерясинк
 
@@ -61,7 +61,7 @@ objWbemObjectSet = .ExecQueryAsync( _
 *стркуери* 
 </dt> <dd>
 
-Обязательный элемент. Строка, содержащая текст запроса. Этот параметр не может быть пустым. Дополнительные сведения о создании строк запросов WMI см. в разделе [запросы с помощью WQL](querying-with-wql.md) и Справочник по [WQL](wql-sql-for-wmi.md) .
+Обязательный. Строка, содержащая текст запроса. Этот параметр не может быть пустым. Дополнительные сведения о создании строк запросов WMI см. в разделе [запросы с помощью WQL](querying-with-wql.md) и Справочник по [WQL](wql-sql-for-wmi.md) .
 
 </dd> <dt>
 
@@ -215,7 +215,7 @@ objWbemObjectSet = .ExecQueryAsync( _
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

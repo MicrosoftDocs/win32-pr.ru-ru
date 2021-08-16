@@ -1,5 +1,5 @@
 ---
-description: Уведомляет приложение о завершении ранее запланированного запроса подключения или отключения к устройству MTP/Bluetooth.
+description: сообщает приложению о завершении ранее запланированного Подключение или отключения запроса к устройству MTP/Bluetooth.
 ms.assetid: 1588d0ec-0d6a-4379-bfdc-4ba5fdaa4665
 title: 'Метод Иконнектионрекуесткаллбакк:: OnComplete (Девпкэй. h)'
 ms.topic: reference
@@ -14,16 +14,16 @@ api_type:
 api_location:
 - PortableDeviceGuids.lib
 - PortableDeviceGuids.dll
-ms.openlocfilehash: 922169b7e17335c47425665bb9a9e54891e68723
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b21248cde95d4b58accb7e629efedfc7c05eef7b08f411e240314a6a07690b3a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117843192"
 ---
 # <a name="iconnectionrequestcallbackoncomplete-method"></a>Метод Иконнектионрекуесткаллбакк:: OnComplete
 
-Метод **OnComplete** уведомляет приложение о завершении ранее запланированного запроса подключения или отключения к устройству MTP/Bluetooth
+метод **oncomplete** уведомляет приложение о завершении ранее запланированного Подключение или отключения запроса к устройству MTP/Bluetooth
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -61,11 +61,11 @@ HRESULT OnComplete(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение реализует интерфейс [**иконнектионрекуесткаллбакк**](iconnectionrequestcallback.md) для получения уведомлений о завершенных запросах и отмены ожидающих запросов.
 
-Портативные устройства Windows (WPD) вызывают этот метод, чтобы уведомить приложение о завершении ранее запланированного запроса. Каждый запрос можно относить и отменять с помощью обратного вызова, предоставленного приложением. Поэтому, если приложению нужно отправить несколько запросов одновременно с помощью одного и того же объекта [**ипортабледевицеконнектор**](/windows/desktop/api/portabledeviceconnectapi/nn-portabledeviceconnectapi-iportabledeviceconnector) , каждому запросу должен быть передан уникальный объект [**иконнектионрекуесткаллбакк**](iconnectionrequestcallback.md) в качестве входного параметра для методов [**Ипортабледевицеконнектор:: Connect**](/windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-connect) и [**ипортабледевицеконнектор::D соединения**](/windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-disconnect) .
+Windows Переносные устройства (WPD) вызывают этот метод, чтобы уведомить приложение о завершении ранее запланированного запроса. Каждый запрос можно относить и отменять с помощью обратного вызова, предоставленного приложением. поэтому, если приложению нужно отправить несколько запросов одновременно с помощью одного и того же объекта [**ипортабледевицеконнектор**](/windows/desktop/api/portabledeviceconnectapi/nn-portabledeviceconnectapi-iportabledeviceconnector) , каждому запросу должен быть передан уникальный объект [**иконнектионрекуесткаллбакк**](iconnectionrequestcallback.md) в качестве входного параметра для методов [**ипортабледевицеконнектор:: Подключение**](/windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-connect) и [**ипортабледевицеконнектор::D соединения**](/windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-disconnect) .
 
 ## <a name="requirements"></a>Требования
 
@@ -73,7 +73,7 @@ HRESULT OnComplete(
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                                                                                             |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                                                                                             |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                                                                                              |
 | Header<br/>                   | <dl> <dt>Девпкэй. h; </dt> <dt>Портабледевицеконнектапи. h</dt> </dl> |
 | IDL<br/>                      | <dl> <dt>Портабледевицеконнектапи. idl</dt> </dl>                                                                |

@@ -3,19 +3,19 @@ title: Объект приемника сети модуля записи
 description: Объект приемника сети модуля записи
 ms.assetid: f7765b42-693a-4f48-b750-17579e860b6d
 keywords:
-- Windows Media Format SDK, объекты приемника сети записи
+- Windows Пакет SDK формата мультимедиа, объекты приемника сети записи
 - Расширенный системный формат (ASF), объекты приемника сети модуля записи
 - ASF (Расширенный системный формат), объекты приемника сети модуля записи
 - объекты, объекты приемника сети модуля записи
 - объекты приемника сети записи
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c85af356c1d326ddaaf3703ca87c3b7bdd1628b9
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: c2011fd161fc4ac5e1cd03d955f06259e6499e343970cc309b1e8c41db051a32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104133586"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117843729"
 ---
 # <a name="writer-network-sink-object"></a>Объект приемника сети модуля записи
 
@@ -35,7 +35,7 @@ ms.locfileid: "104133586"
 
 
 
- 
+ 
 
 Следующий интерфейс обратного вызова может быть реализован приложением для отслеживания хода выполнения объекта приемника сети записи.
 
@@ -47,9 +47,9 @@ ms.locfileid: "104133586"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -62,9 +62,9 @@ ms.locfileid: "104133586"
 [**Работа с приемниками модуля записи**](working-with-writer-sinks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

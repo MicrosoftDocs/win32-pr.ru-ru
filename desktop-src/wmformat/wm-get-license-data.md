@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f238bea29ab7271896dc7516b6424e4cc298f5c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f5f53b6ddfd532710e712637c57785d8893d8f977807bfb45cac0fc787ccbf58
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415520"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117844478"
 ---
 # <a name="wm_get_license_data-structure"></a>\_Получение \_ \_ структуры данных лицензии WM
 
@@ -87,7 +87,7 @@ typedef struct _WMGetLicenseData {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта заполненная структура возвращается в параметре *pValue* метода [**ивмстатускаллбакк:: OnStatus**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus) , если **ВМТ \_ Status** = **ВМТ \_ No \_ Rights \_ ex** или **ВМТ \_ получить \_ лицензию**. Для ВМТ \_ нет \_ прав \_ на использование, элемент **HR** будет \_ требовать лицензию NS e \_ \_ , \_ аутофдате лицензии NS e \_ \_ или \_ \_ \_ неправильные права для лицензии NS e \_ . Любая из этих ошибок указывает, что новую лицензию необходимо получить, перейдя по URL-адресу в члене **всзурл** .
 
@@ -103,7 +103,7 @@ typedef struct _WMGetLicenseData {
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                      |
-| Версия<br/>                  | Пакет SDK для Windows Media Format 7 или более поздние версии пакета SDK<br/>                       |
+| Версия<br/>                  | Windows Пакет SDK для формата мультимедиа 7 или более поздние версии пакета SDK<br/>                       |
 | Header<br/>                   | <dl> <dt>Дрмекстерналс. h</dt> </dl> |
 
 

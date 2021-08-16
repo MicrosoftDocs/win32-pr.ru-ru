@@ -4,12 +4,12 @@ ms.assetid: 2f3a7cab-3296-41ec-ac7e-224655b92a7c
 title: Создание сокета для сервера
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd3fb00cb8b1155f4d26d94c9a88328256effe23
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e71d6ee0117153b00a9ab77c53bd7555aa031b3fa9d1f7a425ea9aaf0e358f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104145085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118322204"
 ---
 # <a name="creating-a-socket-for-the-server"></a>Создание сокета для сервера
 
@@ -84,7 +84,7 @@ ms.locfileid: "104145085"
 
 Следующий шаг: [Привязка сокета](binding-a-socket.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

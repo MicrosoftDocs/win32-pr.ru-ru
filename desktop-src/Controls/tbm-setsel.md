@@ -3,7 +3,7 @@ title: Сообщение TBM_SETSEL (Коммктрл. h)
 description: Задает начальную и конечную позиции для доступного диапазона выбора в TrackBar.
 ms.assetid: 71f5b9f8-4850-44a8-8acf-adca9bda84c3
 keywords:
-- Элементы управления Windows для TBM_SETSEL сообщений
+- элементы управления Windows сообщений TBM_SETSEL
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2edebc6b6dcf3b0b93e3047a39aac74c34d121bd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d055b317cc6db5e17edbe57bc57e6dbfe287274788718e8e2a920e1f25d9316b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103801078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117829336"
 ---
 # <a name="tbm_setsel-message"></a>\_Сообщение ТБМ сетсел
 
@@ -47,7 +47,7 @@ ms.locfileid: "103801078"
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это сообщение пропускается, если значение TrackBar не имеет стиля [**TBS \_ енаблеселранже**](trackbar-control-styles.md) .
 
@@ -59,8 +59,8 @@ ms.locfileid: "103801078"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

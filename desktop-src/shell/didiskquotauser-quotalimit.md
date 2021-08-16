@@ -40,7 +40,7 @@ DIDiskQuotaUser.QuotaLimit = iQuotaLimit
 
 **Целочисленное** значение, которое указывает или получает текущее ограничение квоты пользователя в байтах.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

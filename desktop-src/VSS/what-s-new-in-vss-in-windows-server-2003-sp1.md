@@ -1,19 +1,19 @@
 ---
-description: В следующем списке перечислены дополнения и изменения в интерфейсе служба теневого копирования томов в Windows Server 2003 с пакетом обновления 1 (SP1).
+description: в следующем списке перечислены дополнения и изменения в интерфейсе служба теневого копирования томов в Windows Server 2003 с пакетом обновления 1 (SP1).
 ms.assetid: 9e0dba98-5d23-444d-bd2f-cb72de8fb2d2
-title: Новые возможности VSS в Windows Server 2003 с пакетом обновления 1 (SP1)
+title: новые возможности VSS в Windows Server 2003 с пакетом обновления 1 (SP1)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 559b51d5b019d9d57aa154c4728ef5c8f4bb19d6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: baed6cde05eb1aabe1bc43f48aa035146e020f23d215e7902d3544414619b4e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104497517"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118344203"
 ---
-# <a name="whats-new-in-vss-in-windows-server-2003-sp1"></a>Новые возможности VSS в Windows Server 2003 с пакетом обновления 1 (SP1)
+# <a name="whats-new-in-vss-in-windows-server-2003-sp1"></a>новые возможности VSS в Windows Server 2003 с пакетом обновления 1 (SP1)
 
-В следующем списке перечислены дополнения и изменения в интерфейсе служба теневого копирования томов в Windows Server 2003 с пакетом обновления 1 (SP1).
+в следующем списке перечислены дополнения и изменения в интерфейсе служба теневого копирования томов в Windows Server 2003 с пакетом обновления 1 (SP1).
 
 ## <a name="auto-recovery"></a>Автоматическое восстановление
 
@@ -38,7 +38,7 @@ ms.locfileid: "104497517"
 
 ## <a name="full-support-for-transportable-shadow-copies"></a>Полная поддержка переносимых теневых копий
 
-Транспортные теневые копии поддерживаются во всех выпусках Windows Server 2003 с пакетом обновления 1 (SP1). Дополнительные сведения см. в разделе [Импорт переносимых теневых скопированных томов](importing-transportable-shadow-copied-volumes.md).
+транспортные теневые копии поддерживаются во всех выпусках Windows Server 2003 с пакетом обновления 1 (SP1). Дополнительные сведения см. в разделе [Импорт переносимых теневых скопированных томов](importing-transportable-shadow-copied-volumes.md).
 
 ## <a name="fast-recovery-using-transportable-shadow-copied-volumes"></a>Быстрое восстановление с помощью переносимых теневых скопированных томов
 

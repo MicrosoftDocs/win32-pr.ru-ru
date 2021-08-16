@@ -5,12 +5,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 2e884390-56e4-45ae-b1c9-c58503d6f2dd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fd2fdaf284fee71724d7b9bb4ac4b5ad1100c82
-ms.sourcegitcommit: fdd00b445ee88366e9cdd1eed0cb3e42e2a73eca
+ms.openlocfilehash: b6102dc3ab10e48e5373bff2bcbe5e13ae3ca49a59417f05aae45d2106e0a3e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "104487248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117825634"
 ---
 # <a name="direct2d-glossary"></a>Глоссарий Direct2D
 
@@ -296,7 +296,7 @@ API-интерфейс рендеринга с аппаратным ускоре
 
 </dd> <dt>
 
-<span id="direct2d.direct2d_glossary_windows_imaging_component__wic_"></span><span id="DIRECT2D.DIRECT2D_GLOSSARY_WINDOWS_IMAGING_COMPONENT__WIC_"></span>**Компонент Windows Imaging Component (WIC)**
+<span id="direct2d.direct2d_glossary_windows_imaging_component__wic_"></span><span id="DIRECT2D.DIRECT2D_GLOSSARY_WINDOWS_IMAGING_COMPONENT__WIC_"></span>**Windows Компонент обработки изображений (WIC)**
 </dt> <dd>
 
 API, позволяющий приложениям (1) отображать и редактировать любой формат изображения, для которого установлен кодек, совместимый с WIC, а также (2) считывать и записывать метаданные или файлы изображений.
@@ -317,9 +317,9 @@ API, позволяющий приложениям (1) отображать и �
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

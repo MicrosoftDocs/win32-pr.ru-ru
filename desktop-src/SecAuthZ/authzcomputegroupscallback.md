@@ -12,12 +12,12 @@ api_name:
 api_type:
 - UserDefined
 api_location: ''
-ms.openlocfilehash: 3728f8114d87d07ddb33dd77a6fda5db30d07cf0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7c30194e4131cbd375192723e23308e1ad5ead69d849ab73857f72ef1d4b0790
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103819464"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117784082"
 ---
 # <a name="authzcomputegroupscallback-callback-function"></a>Функция обратного вызова Аусзкомпутеграупскаллбакк
 
@@ -91,7 +91,7 @@ BOOL CALLBACK AuthzComputeGroupsCallback(
 
 Если функция завершается ошибкой, возвращается значение **false**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложения также могут добавлять идентификаторы безопасности в контекст клиента путем вызова [**аусзаддсидстоконтекст**](/windows/desktop/api/Authz/nf-authz-authzaddsidstocontext).
 
@@ -103,9 +103,9 @@ BOOL CALLBACK AuthzComputeGroupsCallback(
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                   |
-| Распространяемые компоненты<br/>          | Пакет средств администрирования Windows Server 2003 в Windows XP<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                            |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                   |
+| Распространяемые компоненты<br/>          | Windows пакет средств администрирования сервера 2003 в Windows XP<br/> |
 
 
 

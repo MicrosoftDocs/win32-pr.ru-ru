@@ -4,12 +4,12 @@ ms.assetid: 2a541715-2d9e-4eb2-ab60-ec95368fca5a
 title: Рекомендации по производительности для API Стилусинпут
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 721474f1e1097729246e5d497d20dcab868190a3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef40ab389687cd42ef516a61f61ab86a7eb79d4efac9ae6e9dd698e93e54bff0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103818097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117856496"
 ---
 # <a name="performance-considerations-for-the-stylusinput-api"></a>Рекомендации по производительности для API Стилусинпут
 

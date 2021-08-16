@@ -80,7 +80,7 @@ uState = (UINT) SHAppBarMessage(ABM_GETSTATE, pabd);
 
  
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -8,12 +8,12 @@ keywords:
 - ADsPath, LDAP, описание
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1728d2531bb2043f95e5896e67ec054095f2595a
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: a1850c30ff8a5a086fbd697080ac32b5e55549496739d9388a6d5e7ab251403d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103793879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117839474"
 ---
 # <a name="ldap-adspath"></a>Путь LDAP
 
@@ -29,7 +29,7 @@ LDAP://HostName[:PortNumber][/DistinguishedName]
 > [!Note]  
 > Левая и правая квадратные скобки ( \[ \] ) обозначают необязательные параметры; она не является литеральной частью строки привязки.
 
- 
+ 
 
 Имя узла может быть именем компьютера, IP-адресом или доменным именем. Имя сервера также может быть указано в строке привязки. Большинство поставщиков LDAP следуют модели, для которой требуется указать имя сервера.
 
@@ -51,7 +51,7 @@ LDAP://HostName[:PortNumber][/DistinguishedName]
 
 
 
- 
+ 
 
 Если для успешного завершения конкретного запроса к каталогу требуется проверка подлинности Kerberos, то строка привязки должна использовать либо независимый от сервера путь, например LDAP://кН = Джефф Smith, CN = Users, DC = Fabrikam, DC = com, либо путь ADsPath с полным именем DNS-сервера, например LDAP://server01.fabrikam.com/CN=Jeff Смит, CN = Users, DC = Fabrikam, DC = com. При привязке к серверу с использованием неструктурированного имени NETBIOS или короткого DNS-имени, например при использовании имени Server01 вместо server01.fabrikam.com, не гарантируется проверка подлинности Kerberos.
 
@@ -92,6 +92,6 @@ LDAP://CN=Line\0AFeed,CN=users,DC=fabrikam,DC=com
 
 Дополнительные сведения об нотации различающегося имени, используемой службами каталогов, совместимыми с LDAP, см. в разделе [https://www.ietf.org/rfc/rfc1779.txt](https://www.ietf.org/rfc/rfc1779.txt) .
 
- 
+ 
 
- 
+ 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: 44126b69dc4e8720fde687d47dc70dd97e104c72
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4e234d0fe24eec947b388b5da798c55e7478ffa6bda69a9b9fe57c279af6d96e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117843027"
 ---
 # <a name="iportabledevicevaluesgetat-method"></a>Метод Ипортабледевицевалуес:: GetAt
 
@@ -78,9 +78,9 @@ HRESULT GetAt(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Если свойство указывает значение типа VT \_ Unknown, свойство будет одним из портативных устройств Windows ([**ипортабледевицекэйколлектион**](iportabledevicekeycollection.md), [**Ипортабледевицевалуесколлектион**](iportabledevicevaluescollection.md), [**ипортабледевицевалуес**](iportabledevicevalues.md) или [**IPortableDevicePropVariantCollection**](iportabledevicepropvariantcollection.md)). Переносные устройства Windows не могут возвращать другие интерфейсы.
+если свойство указывает значение типа VT \_ UNKNOWN, свойство будет одним из Windows портативных устройств ([**ипортабледевицекэйколлектион**](iportabledevicekeycollection.md), [**ипортабледевицевалуесколлектион**](iportabledevicevaluescollection.md), [**ипортабледевицевалуес**](iportabledevicevalues.md) или [**IPortableDevicePropVariantCollection**](iportabledevicepropvariantcollection.md)). Windows переносные устройства не могут возвращать другие интерфейсы.
 
 ## <a name="requirements"></a>Требования
 
@@ -88,7 +88,7 @@ HRESULT GetAt(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Портабледевицетипес. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Портабледевицетипес. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>Портабледевицегуидс. lib</dt> </dl> |
 
 

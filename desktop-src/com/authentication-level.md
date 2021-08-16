@@ -4,12 +4,12 @@ description: Уровень проверки подлинности опреде
 ms.assetid: 0bad2bfd-6930-42fc-beb0-bce32440b0b5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 250661e4a8da42ffd91f37e282a39fbb52b6328a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a8c468408a22f1ea0c0fae67d7ce3d5f5b40f8a6342538614c1619acd40574ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104332640"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118311154"
 ---
 # <a name="authentication-level"></a>Уровень проверки подлинности
 
@@ -33,7 +33,7 @@ COM выбирает уровень проверки подлинности с �
 
 </dd> <dt>
 
-<span id="Connect__RPC_C_AUTHN_LEVEL_CONNECT_"></span><span id="connect__rpc_c_authn_level_connect_"></span><span id="CONNECT__RPC_C_AUTHN_LEVEL_CONNECT_"></span>Connect (RPC \_ C \_ AUTHN \_ Level \_ Connect)
+<span id="Connect__RPC_C_AUTHN_LEVEL_CONNECT_"></span><span id="connect__rpc_c_authn_level_connect_"></span><span id="CONNECT__RPC_C_AUTHN_LEVEL_CONNECT_"></span>Подключение (RPC \_ C \_ AUTHN \_ LEVEL \_ Connect)
 </dt> <dd>
 
 Обычная проверка подлинности выполняется между клиентом и сервером, а сеансовый ключ устанавливается, но этот ключ никогда не используется для обмена данными между клиентом и сервером. Все связи после подтверждения не являются безопасными.
@@ -68,7 +68,7 @@ COM выбирает уровень проверки подлинности с �
 
 </dd> </dl>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -78,9 +78,9 @@ COM выбирает уровень проверки подлинности с �
 [легациаусентикатионлевел](legacyauthenticationlevel.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

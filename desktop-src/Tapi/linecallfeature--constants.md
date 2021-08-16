@@ -4,12 +4,12 @@ ms.assetid: 8bb1d678-079c-4c83-b4a2-08fd7afdca9b
 title: Константы LINECALLFEATURE_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b8477b3bab058945a4a55ef13d1593cb5d635524
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 594376bc3ed117f75c0e5303eae108e5f22395506ad56e76a63b8b73a5bbe2e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105688942"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117761748"
 ---
 # <a name="linecallfeature_-constants"></a>\_Константы линекаллфеатуре
 
@@ -337,7 +337,7 @@ ms.locfileid: "105688942"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Без расширяемости. Все 32 бит зарезервированы.
 

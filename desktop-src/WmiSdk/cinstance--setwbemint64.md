@@ -6,12 +6,12 @@ ms.tgt_platform: multiple
 title: 'Методы CInstance:: SetWBEMINT64 (instance. h)'
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 3f83e39170125a07f28a25d594ad7203f44750a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dd13f10fb42c7b93ab7b86d6c8d940ee07b332b12667058006a5868f8fd21fe7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118319700"
 ---
 # <a name="cinstancesetwbemint64-methods"></a>Методы CInstance:: SetWBEMINT64
 
@@ -38,7 +38,7 @@ ms.locfileid: "103998986"
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                                                                                      |
-| Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                                                                                                |
+| Минимальная версия сервера<br/> | Windows Сервер 2008<br/>                                                                                                                                |
 | Header<br/>                   | <dl> <dt>Instance. h (включение Фвкоммон. h)</dt> </dl>                                                    |
 | Библиотека<br/>                  | <dl> <dt>Фрамедин. lib</dt> </dl>                                                                       |
 | DLL<br/>                      | <dl> <dt>FrameDynOS.dll; </dt> <dt>FrameDyn.dll</dt> </dl> |

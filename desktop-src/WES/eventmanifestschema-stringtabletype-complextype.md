@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a9964c51524f7401afdfdd8a2da10cf43326bcae
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: f5d52f19ca01a926c82fcc1e13cc7191866722ba5e0e6eef81e916e244744783
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105694017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118342988"
 ---
 # <a name="stringtabletype-complex-type"></a>Сложный тип Стрингтаблетипе
 
@@ -62,7 +62,7 @@ ms.locfileid: "105694017"
 
 | Элемент                                                              | Тип | Описание                            |
 |----------------------------------------------------------------------|------|----------------------------------------|
-| [**Строка**](eventmanifestschema-string-stringtabletype-element.md) |      | Определяет локализованную строку.<br/> |
+| [**строка**](eventmanifestschema-string-stringtabletype-element.md) |      | Определяет локализованную строку.<br/> |
 
 
 
@@ -78,7 +78,7 @@ ms.locfileid: "105694017"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Можно ссылаться на строки из любого типа манифеста, содержащего атрибут Message. Чтобы сослаться на строку с Стрингтипе строки и идентификатором "Printer. Connection", используйте $ (String. Printer. Connection) в качестве значения атрибута Message.
 
@@ -88,8 +88,8 @@ ms.locfileid: "105694017"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

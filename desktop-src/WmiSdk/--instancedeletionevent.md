@@ -17,12 +17,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 018bac665aa95393fc1a9c7e51ad42038e8b27c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a210f67e7e71d9980a3eeb88ae54fad7fee3ec62597b81ae7253a2893a437a7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702678"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118320888"
 ---
 # <a name="__instancedeletionevent-class"></a>\_\_Класс Инстанцеделетионевент
 
@@ -47,7 +47,7 @@ class __InstanceDeletionEvent : __InstanceOperationEvent
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ \_ инстанцеделетионевент** имеет следующие свойства.
 
@@ -94,7 +94,7 @@ class __InstanceDeletionEvent : __InstanceOperationEvent
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ \_ инстанцеделетионевент** является производным от [**\_ \_ инстанцеоператионевент**](--instanceoperationevent.md).
 

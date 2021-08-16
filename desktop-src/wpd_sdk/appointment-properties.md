@@ -1,5 +1,5 @@
 ---
-description: Портативные устройства Windows поддерживают следующие свойства встречи.
+description: Windows Портативные устройства поддерживают следующие свойства встречи.
 ms.assetid: d7e2130b-722b-46ef-9114-17db9c95d017
 title: Свойства встречи (Портабледевице. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 542029f9eb698c8093c43cbb8ee309b3d1f9da6a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2ba82c12dfffb0367ab61d355d6e256ab5d97bfbeef3e4a588f3a76a5651f9b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117843594"
 ---
 # <a name="appointment-properties"></a>Свойства встречи
 
-Портативные устройства Windows поддерживают следующие свойства встречи.
+Windows Портативные устройства поддерживают следующие свойства встречи.
 
 
 
@@ -47,7 +47,7 @@ ms.locfileid: "105699004"
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Портабледевице. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Портабледевице. h</dt> </dl> |
 
 
 

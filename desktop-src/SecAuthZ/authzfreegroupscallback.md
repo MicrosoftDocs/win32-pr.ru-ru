@@ -12,12 +12,12 @@ api_name:
 api_type:
 - UserDefined
 api_location: ''
-ms.openlocfilehash: 7d8942acbc67f122ea79f0b9e98793628b5f21f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3cce78e261892fede79fb8fc76bc5b0d009342db3e0bf672be2854cb8492bcec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103819457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117783768"
 ---
 # <a name="authzfreegroupscallback-callback-function"></a>Функция обратного вызова Аусзфриграупскаллбакк
 
@@ -49,7 +49,7 @@ void CALLBACK AuthzFreeGroupsCallback(
 
 Эта функция обратного вызова не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Переменные атрибутов должны быть выражены в виде выражения при использовании с логическими операторами. в противном случае они оцениваются как неизвестные.
 
@@ -59,9 +59,9 @@ void CALLBACK AuthzFreeGroupsCallback(
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                   |
-| Распространяемые компоненты<br/>          | Пакет средств администрирования Windows Server 2003 в Windows XP<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                            |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                   |
+| Распространяемые компоненты<br/>          | Windows пакет средств администрирования сервера 2003 в Windows XP<br/> |
 
 
 

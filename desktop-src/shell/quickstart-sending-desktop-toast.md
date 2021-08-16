@@ -9,24 +9,24 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbSyntax
-ms.openlocfilehash: 36f9da25c20d99da74be30046fc5f9f4789dfd73
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 79f8f65b18fd6774f318541b15d1649b7c25526f46bf3ab57f02edc4788687c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103910767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117858658"
 ---
 # <a name="quickstart-sending-a-toast-notification-from-the-desktop"></a>Краткое руководство. отправка всплывающего уведомления с рабочего стола
 
 В этом кратком руководстве показано, как вызвать всплывающее уведомление из классического приложения.
 
-## <a name="prerequisites"></a>Предварительные условия
+## <a name="prerequisites"></a>Предварительные требования
 
 -   Библиотеки
     -   C++: Runtime. Object. lib
-    -   C \# : Windows. winmd
+    -   В. \# Windows. WinMD
 -   На начальном экране должен быть установлен ярлык приложения с [System.AppUserModel.ID](../properties/props-system-appusermodel-id.md). Однако обратите внимание, что его не нужно закреплять на начальном экране. Дополнительные сведения см. [в статье Включение всплывающих уведомлений на рабочем столе с помощью AppUserModelID](enable-desktop-toast-with-appusermodelid.md).
--   Версия Microsoft Visual Studio, поддерживающая не менее Windows 8
+-   версия Microsoft Visual Studio, поддерживающая по меньшей мере Windows 8
 
 ## <a name="instructions"></a>Инструкции
 
@@ -89,7 +89,7 @@ ToastNotificationManager.CreateToastNotifier(appID).Show(toast);
 
 Переведите окно приложения на передний план, если оно получает "активированный" обратный вызов из всплывающего уведомления. Когда пользователь выбирает всплывающее уведомление, ожидание заключается в том, что приложение будет запускаться в представлении, связанном с содержимым этого всплывающего уведомления.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

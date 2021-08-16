@@ -4,27 +4,27 @@ description: В этом разделе показано, как обрабат�
 ms.assetid: AE029962-E9D3-47BC-A24F-312B54137F18
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5434c7ebbda673f76a757375e9a3d23504483d42
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 9490059a202eff69a05b34a086e74d6df52758713fd5b66d899d1ab114a31040
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103988030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117829925"
 ---
 # <a name="how-to-process-the-dtn_datetimechange-notification"></a>Обработка \_ уведомления ДТН датетимечанже
 
 В этом разделе показано, как обрабатывать уведомления об изменениях, внесенных пользователем, к элементу выбора даты и времени (DTP).
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Обязательные условия
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
@@ -54,7 +54,7 @@ void WINAPI DoDateTimeChange(LPNMDATETIMECHANGE lpChange)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -9,12 +9,12 @@ keywords:
 - ADSI ADSI, использование, оптимизация с помощью метода IADs Жетинфоекс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b522093fff00700cf35b864edde2a6ae7f8f9922
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: d4daf75fa3961a57996d6ae51d237d27835213a25a20c52452b5896c6224964a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104339233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117838998"
 ---
 # <a name="optimization-using-getinfoex"></a>Оптимизация с помощью Жетинфоекс
 
@@ -76,6 +76,6 @@ Cleanup:
 
 Дополнительные сведения и пример кода, демонстрирующий получение всех значений атрибутов, см. в разделе [пример кода для чтения сконструированного атрибута](example-code-for-reading-a-constructed-attribute.md).
 
- 
+ 
 
- 
+ 

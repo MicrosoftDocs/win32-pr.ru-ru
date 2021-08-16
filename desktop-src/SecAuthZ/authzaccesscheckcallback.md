@@ -83,7 +83,7 @@ BOOL CALLBACK AuthzAccessCheckCallback(
 
 Дополнительные сведения см. в статьях [как работают методы AccessCheck](how-dacls-control-access-to-an-object.md) и [централизованные политики авторизации](centralized-authorization-policy.md) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

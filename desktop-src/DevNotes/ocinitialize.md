@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - OcManage.dll
-ms.openlocfilehash: aad102ac9881a801f693a429aab5dae07d09b5e8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 08e7ffd7f8ad6faa2b08f937627627b6e74bbc09505482c589023db5dae37677
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117826749"
 ---
 # <a name="ocinitialize-function"></a>Функция ОЦинитиализе
 
@@ -94,7 +94,7 @@ PVOID OcInitialize(
 
 Функция возвращает значение контекста для диспетчера OC.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция не имеет связанной библиотеки импорта или файла заголовка. его необходимо вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 

@@ -4,26 +4,26 @@ description: В следующем примере на сервере полит
 ms.assetid: 2264c1d7-b1fb-4937-bf24-d6fa05bdc6fe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c071a1ce6ba974d2170cbd8a4cda2d7e66b18f46
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 82ec6d2f3f1c5f6aa7f9a1686d288177054f373a3962a9d7db47b9467d9b08a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104486636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118369018"
 ---
 # <a name="example-shv"></a>Пример SHV
 
 > [!Note]  
 > Платформа защиты доступа к сети недоступна начиная с Windows 10
 
- 
+ 
 
 В следующем примере на сервере политики работоспособности NAP настраивается средство проверки работоспособности системы (SHV).
 
 > [!Note]  
 > Пакет SDK для NAP также содержит полный набор примеров кода, который можно найти в... \\ Примеры \\ нетдс \\ NAP... Каталог установки пакета SDK. Этот набор включает в себя и агент работоспособности системы (SHA), SHV и клиент принудительного применения (EC). В нем предусмотрены полные рабочие сценарии защиты доступа к сети, настроенные для обмена данными между SHA-SHV и SHA-EC.
 
- 
+ 
 
 
 ```C++
@@ -285,9 +285,9 @@ HRESULT CSampleShv::FillResponseSoH(HRESULT validationResult,
 
 
 
- 
+ 
 
- 
+ 
 
 
 

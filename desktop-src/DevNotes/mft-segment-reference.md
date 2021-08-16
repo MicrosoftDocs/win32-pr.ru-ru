@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: beabe7620dadd01b25b3556715b33e2f10c2c230
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0ef3ad4e727465b5ceb24c1ecc785f62b747da8113b8853bffc3431604089066
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104140747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117827090"
 ---
 # <a name="mft_segment_reference-structure"></a>\_ \_ Структура ссылки на сегмент MFT
 
@@ -63,7 +63,7 @@ typedef struct _MFT_SEGMENT_REFERENCE {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обратите внимание, что для этой структуры нет связанного файла заголовка.
 

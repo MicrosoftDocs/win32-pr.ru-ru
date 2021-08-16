@@ -7,12 +7,12 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: cb97b0737bfad391fb9ba2501793a970fcbd9886
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: d3f8cd7420325fd876897d538ea9e01a5c0adb64b2d0c55437514773904d6013
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "103797077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117825865"
 ---
 # <a name="geometries-overview"></a>Обзор геометрий 
 
@@ -124,9 +124,9 @@ if (SUCCEEDED(hr))
 Метод, который следует использовать, зависит от желаемого результата. При использовании целевого объекта отрисовки для преобразования и последующего отображения геометрии преобразование влияет на все сведения об объекте Geometry, включая ширину всех примененных штрихов. С другой стороны, при использовании [**ID2D1TransformedGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1transformedgeometry)преобразование влияет только на координаты, описывающие фигуру. Преобразование не повлияет на толщину штриха при прорисовке геометрии.
 
 > [!Note]  
-> Начиная с Windows 8, универсальное преобразование не повлияет на толщину штриха в штрихах с [**\_ \_ \_ \_ фиксированным**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_stroke_transform_type)преобразованием типа D2D1 или [**D2D1 \_ Stroke \_ \_ \_**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_stroke_transform_type). Эти типы преобразования следует использовать для преобразования независимых штрихов
+> начиная с Windows 8 универсальное преобразование не повлияет на толщину штриха в штрихах с [**\_ \_ \_ \_ фиксированным типом преобразования D2D1**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_stroke_transform_type)или [**D2D1 \_ stroke \_ \_ \_**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_stroke_transform_type). Эти типы преобразования следует использовать для преобразования независимых штрихов
 
- 
+ 
 
 В следующем примере создается [**ID2D1RectangleGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1rectanglegeometry), а затем рисуется без его преобразования. Он создает выходные данные, показанные на следующем рисунке.
 
@@ -225,12 +225,12 @@ m_pRenderTarget->DrawGeometry(m_pTransformedGeometry, m_pBlackBrush, 1);
 
 
 
- 
+ 
 
 > [!Note]  
-> Начиная с Windows 8, можно использовать метод [**компутепоинтандсегментатленгс**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1pathgeometry1-computepointandsegmentatlength(float_uint32_constd2d1_matrix_3x2_f_float_d2d1_point_description)) в [**ID2D1PathGeometry1**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1pathgeometry1) для вычисления области или длины геометрии.
+> начиная с Windows 8 можно использовать метод [**компутепоинтандсегментатленгс**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1pathgeometry1-computepointandsegmentatlength(float_uint32_constd2d1_matrix_3x2_f_float_d2d1_point_description)) в [**ID2D1PathGeometry1**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1pathgeometry1) для вычисления области или длины геометрии.
 
- 
+ 
 
 ### <a name="combining-geometries"></a>Объединение геометрических объектов
 
@@ -696,7 +696,7 @@ hr = m_pCircleGeometry1->ComputePointAtLength(
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -706,6 +706,6 @@ hr = m_pCircleGeometry1->ComputePointAtLength(
 [Справочник по Direct2D](reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
