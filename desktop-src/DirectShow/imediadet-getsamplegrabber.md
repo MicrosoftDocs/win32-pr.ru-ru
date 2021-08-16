@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: e83de26f1c2186293265dc39db603e0a9cf31436
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f2c3c580a44b9cff35d7ee801cfc611b5cf8a8df828f54c28b022e5c1a1b862a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675441"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117819046"
 ---
 # <a name="imediadetgetsamplegrabber-method"></a>Метод Имедиадет:: Жетсамплеграббер
 
@@ -56,7 +56,7 @@ HRESULT GetSampleGrabber(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Перед вызовом этого метода вызовите метод [**имедиадет:: ентербитмапграбмоде**](imediadet-enterbitmapgrabmode.md) . Интерфейс [**исамплеграббер**](isamplegrabber.md) позволяет извлекать отдельные примеры мультимедиа из потока. Если требуется только точечный рисунок из видеокадра, вызовите вместо этого метод [**имедиадет:: жетбитмапбитс**](imediadet-getbitmapbits.md) . Интерфейс **исамплеграббер** является более гибким, но требует больше работы для приложения.
 
@@ -68,7 +68,7 @@ HRESULT GetSampleGrabber(
  
 
 > [!Note]  
-> Чтобы получить Кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (SP1).
+> чтобы получить кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (sp1).
 
  
 
@@ -78,7 +78,7 @@ HRESULT GetSampleGrabber(
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Кедит. h</dt> </dl>      |
+| Заголовок<br/>  | <dl> <dt>Кедит. h</dt> </dl>      |
 | Библиотека<br/> | <dl> <dt>Стрмиидс. lib</dt> </dl> |
 
 

@@ -133,7 +133,7 @@ ms.locfileid: "118350311"
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Свойство</th>
+<th style="text-align: left;">Свойство.</th>
 <th style="text-align: left;">Тип доступа</th>
 <th style="text-align: left;">Описание</th>
 </tr>
@@ -355,7 +355,7 @@ ms.locfileid: "118350311"
 <td style="text-align: left;">Указывает, отображает ли клиентский элемент управления диалоговое окно с запросом учетных данных.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="imsrdppreferredredirectioninfo-useredirectionservername.md"><strong>Свойство</strong></a><br/></td>
+<td style="text-align: left;"><a href="imsrdppreferredredirectioninfo-useredirectionservername.md"><strong>Свойство.</strong></a><br/></td>
 <td style="text-align: left;">Чтение/запись<br/></td>
 <td style="text-align: left;">Содержит именованное свойство.<br/></td>
 </tr>
@@ -521,7 +521,7 @@ ms.locfileid: "118350311"
 
  
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

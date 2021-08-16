@@ -53,7 +53,7 @@ HRESULT AbortPlayback(
 
 Возвращает значение параметра *HR* .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -92,7 +92,7 @@ virtual HRESULT GetDeliveryBuffer(
 
 Этот метод вызывает метод **имемаллокатор::/buffer** для распределителя и передает параметры в этот метод.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

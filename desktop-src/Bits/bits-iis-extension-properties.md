@@ -6,12 +6,12 @@ keywords:
 - БИТЫ свойств расширения IIS BITS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c09412f6aa0be1ab76e6e45ea0920e1caf1054d7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 37c81d57114a23a07c5f952a9cb33399644f5cbed8bbf67cccf802a1c996b72b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104533356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117835173"
 ---
 # <a name="bits-iis-extension-properties"></a>Свойства расширения IIS BITS
 
@@ -103,7 +103,7 @@ ms.locfileid: "104533356"
 
  
 
-В следующем примере показано, как задать свойства расширения IIS BITS с помощью сервера сценариев Windows. Если виртуальный каталог указывает на удаленный общий ресурс, также задайте свойства IIS **ункусернаме** и **ункпассворд** .
+в следующем примере показано, как задать свойства расширения IIS BITS с помощью Windows сервера сценариев. Если виртуальный каталог указывает на удаленный общий ресурс, также задайте свойства IIS **ункусернаме** и **ункпассворд** .
 
 
 ```JScript

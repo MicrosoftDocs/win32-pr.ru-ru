@@ -60,7 +60,7 @@ typedef struct _EXPRESSION {
 
 Дополнительные сведения о реализации этой структуры в составе фильтра записи см. в разделе [фильтры записи](capture-filters.md).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

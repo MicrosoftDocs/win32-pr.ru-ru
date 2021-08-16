@@ -7,18 +7,18 @@ keywords:
 - начало работы со сценариями для ADSI ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8a85a9ea110ca80f45c3a0f0f1917e8d25c08ee
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c1a83da0194fb03cdb31430f389dbfbf64327806b1b142be3b9c1c5813696548
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117839957"
 ---
 # <a name="getting-started-with-scripting-for-adsi"></a>начало работы со сценариями для ADSI
 
 Сценарии удобно использовать для системных администраторов, желающих создавать пакетные скрипты для часто используемых задач.
 
-Для запуска сценариев с помощью ADSI необходимо иметь компьютер под управлением Windows или войти в домен, содержащий данные для учетных записей компьютеров в каталоге.
+для запуска сценариев с помощью ADSI необходимо иметь компьютер, на котором работает Windows или входить в домен, содержащий данные для учетных записей компьютеров в каталоге.
 
 ## <a name="a-simple-scripting-sample-finding-names-and-locations-of-computer-accounts"></a>Простой пример создания сценариев: Поиск имен и расположения учетных записей компьютеров
 
@@ -52,13 +52,13 @@ Loop
 
 
 
-Сохраните файл как First.vbs. Измените строку, которая начинается с "Обжкомманд. CommandText", чтобы изменить путь к домену. В командной строке введите **cscript First.vbs** для командной строки или First.vbs для сценариев Windows. Результаты должны возвращаться в командной строке.
+Сохраните файл как First.vbs. Измените строку, которая начинается с "Обжкомманд. CommandText", чтобы изменить путь к домену. в командной строке введите **cscript First.vbs** для командной строки или First.vbs для Windows сценариев. Результаты должны возвращаться в командной строке.
 
 Дополнительные сведения о скриптах для ADSI см. в разделе [Active Directorying Service Interfaces Scripting](adsi-scripting-tutorial.md).
 
- 
+ 
 
- 
+ 
 
 
 

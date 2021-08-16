@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: b1cb0760f1ee19acfa10208711e73919fd084ecf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fdff3fd1a606b8dbec35476988497dd14892692a42e6502343716264873c184d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104986060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117857497"
 ---
 # <a name="shelllinkobjectresolve-method"></a>Шелллинкобжект. Resolve, метод
 
@@ -121,19 +121,19 @@ iRetVal = ShellLinkObject.Resolve(
 
 </dt> <dd>
 
-Вызовите установщик Windows.
+вызовите установщик Windows.
 
 </dd> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Этот метод по сути идентичен функциональным возможностям для [**разрешения**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishelllinka-resolve). Дополнительные сведения о разрешении ссылок см. в разделе "Примечания" этой страницы.
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере показано правильное использование этого метода для JScript, VBScript и Visual Basic.
+в следующем примере показано правильное использование этого метода для JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -241,7 +241,7 @@ End Sub
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>                                           |
+| Минимальная версия клиента<br/> | Windows 2000 Professional с SP3 \[ только для настольных приложений\]<br/>                                           |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                          |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                        |

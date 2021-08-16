@@ -73,7 +73,7 @@ ULPFRAME WINAPI GetFrameFromFrameHandle(
 
 [*Эксперты*](e.md) и [*средства синтаксического анализа*](p.md) могут вызывать функцию **жетфрамефромфрамехандле** .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

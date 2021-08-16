@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: b50f549c-a79d-4411-a18e-a181b4b924e3
-ms.openlocfilehash: 2670578417dc616d30f319887f5281fa5d0615f5
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: bc00dc285c1bcca72e998ecb22f75af56dd085542d0f191c484c096e5e511cce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109840875"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117857676"
 ---
 # <a name="shellfolderviewoc-object"></a>Объект Шеллфолдервиевок
 
@@ -66,15 +66,15 @@ ms.locfileid: "109840875"
 
 Объект **шеллфолдервиевок** упрощает обработку событий для таких сценариев. Он позволяет приложениям выполнять обработку событий для всех объектов [**шеллфолдервиев**](shellfolderview.md) с помощью одной пары обработчиков событий **шеллфолдервиевок** . Каждый раз, когда пользователь переходит к новой папке, приложение передает связанный объект **шеллфолдервиев** объекту **шеллфолдервиевок** , вызывая [**сетфолдервиев**](shellfolderviewoc-setfolderview.md). Затем при срабатывании события [**енумдоне**](shellfolderviewoc-enumdone.md) или [**SelectionChanged**](shellfolderviewoc-selectionchanged.md) объект **шеллфолдервиевок** перенаправляет событие в собственный обработчик для обработки.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                          |
-| Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                          |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                          |
+| Header<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (версия 5,0 или более поздняя)</dt> </dl> |
 

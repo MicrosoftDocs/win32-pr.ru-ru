@@ -4,18 +4,18 @@ ms.assetid: 1204c73e-c3de-4488-8ee3-e76edbf72da0
 title: Команды DVD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5bf06127ab3829ed6cdcbbb70c3b2c1d1b41cf0
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d02f9c0b6a50b6d7eb67832286ee980b0faf69460621a46caf98089efc24b19c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103806508"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117820588"
 ---
 # <a name="dvd-commands"></a>Команды DVD
 
-Команды навигации и воспроизведения DVD определяются в разделе спецификации DVD с именем приложение J. Поэтому документация по DirectShow часто относится к «командам в приложении J». Имена, заданные в приложении J, не всегда очень интуитивно понятны, поэтому DirectShow использует имена, которые могут быть проще в понимании.
+команды навигации и воспроизведения dvd-диска определены в разделе, посвященном спецификации dvd с именем приложение j, поэтому DirectShowная документация часто относится к "командам в приложении j". имена, заданные в приложении J, не всегда очень интуитивно понятны, поэтому DirectShow использует имена, которые могут быть проще в понимании.
 
-В следующей таблице перечислены команды в приложении J и их эквиваленты DirectShow.
+в следующей таблице перечислены команды в приложении J и их DirectShow эквиваленты.
 
 
 
@@ -24,7 +24,7 @@ ms.locfileid: "103806508"
 | \_Воспроизвести название                                                                               | Воспроизвести заголовок.                                                                | [**плайтитле**](/windows/desktop/api/Strmif/nf-strmif-idvdcontrol2-playtitle)                                                   |
 | PTT \_ Play                                                                                 | Воспроизводить главу в заголовке.                                                   | [**плайчаптеринтитле**](/windows/desktop/api/Strmif/nf-strmif-idvdcontrol2-playchapterintitle)                                 |
 | \_Воспроизведение времени                                                                                | Воспроизвести заголовок, начиная с указанного времени.                                 | [**плайаттимеинтитле**](/windows/desktop/api/Strmif/nf-strmif-idvdcontrol2-playattimeintitle)                                   |
-| Stop                                                                                      | Останавливает воспроизведение.                                                               | [**Stop**](/windows/desktop/api/Strmif/nf-strmif-idvdcontrol2-stop)                                                             |
+| Stop                                                                                      | Останавливает воспроизведение.                                                               | [**Позиции**](/windows/desktop/api/Strmif/nf-strmif-idvdcontrol2-stop)                                                             |
 | Группы                                                                                      | Возврат из подменю в родительское меню.                                    | [**ретурнфромсубмену**](/windows/desktop/api/Strmif/nf-strmif-idvdcontrol2-returnfromsubmenu)                                   |
 | Поиск по времени \_                                                                              | Воспроизвести в указанное время в текущем заголовке.                           | [**плайаттиме**](/windows/desktop/api/Strmif/nf-strmif-idvdcontrol2-playattime)                                                 |
 | \_Поиск PTT                                                                               | Воспроизвести главу в текущем заголовке.                                     | [**плайчаптер**](/windows/desktop/api/Strmif/nf-strmif-idvdcontrol2-playchapter)                                               |
@@ -54,7 +54,7 @@ ms.locfileid: "103806508"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

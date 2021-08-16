@@ -37,7 +37,7 @@ ms.locfileid: "118219633"
 -   [**ITaskbarList3:: Сумббарсетимажелист**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-thumbbarsetimagelist)
 -   Структура [**сумббуттон**](/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-thumbbutton)
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

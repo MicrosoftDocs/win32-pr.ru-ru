@@ -71,7 +71,7 @@ HRESULT STDMETHODCALLTYPE Stop(
 
 Когда вы останавливаете и запускаете запись, убедитесь, что вы вызываете метод [иделайдк:: Configure](idelaydc-configure.md) каждый раз, когда вызывается [Иделайдк:: Start](idelaydc-start.md) для перезапуска записи.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

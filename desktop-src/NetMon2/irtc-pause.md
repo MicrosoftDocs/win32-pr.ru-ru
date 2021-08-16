@@ -65,7 +65,7 @@ HRESULT STDMETHODCALLTYPE Pause();
 
 Чтобы перезапустить захват [ИРТК:: Resume](irtc-resume.md). Чтобы прерывать запись, вызовите [ИРТК:: останавливаться](irtc-stop.md).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

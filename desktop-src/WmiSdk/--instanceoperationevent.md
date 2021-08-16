@@ -132,7 +132,7 @@ class __InstanceOperationEvent : __Event
 
 Пример кода VBScript [Processing](https://Gallery.TechNet.Microsoft.Com/94c7dc4c-813a-411d-aa3f-f98982cd2a2f) в коллекции TechNet использует **\_ \_ инстанцеоператионевент** для мониторинга первого события экземпляра WMI для [**\_ процесса Win32**](/windows/desktop/CIMWin32Prov/win32-process).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

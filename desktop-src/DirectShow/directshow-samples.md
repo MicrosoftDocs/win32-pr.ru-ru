@@ -1,21 +1,21 @@
 ---
-description: Примеры DirectShow
+description: DirectShow Регистрируют
 ms.assetid: 4166d5ca-5e02-49f6-bcb1-d448f8175a0c
-title: Примеры DirectShow
+title: DirectShow Регистрируют
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 09f58c10615aaaa4305a30934e32ef9b11efb18c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: eb99271821fcef80b66b379b29bd42de0505011fd47c8dfee208e6f00b007208
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104538060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117821169"
 ---
-# <a name="directshow-samples"></a>Примеры DirectShow
+# <a name="directshow-samples"></a>DirectShow Регистрируют
 
-Примеры DirectShow включены в [Windows SDK](https://msdn.microsoft.com/windows/aa904949.aspx). Они находятся в \[ корневых примерах пакета SDK для пути, с помощью \] \\ \\ мультимедиа \\ DirectShow.
+примеры DirectShow включены в [Windows SDK](https://msdn.microsoft.com/windows/aa904949.aspx). Они находятся в \[ корневых примерах пакета SDK для пути \] \\ \\ \\ DirectShow.
 
-В следующей таблице перечислены все примеры DirectShow, предоставленные в Windows SDK. Инструкции по созданию образцов см. в документации, предоставленной в Windows SDK.
+в следующей таблице перечислены все примеры DirectShow, предоставленные в Windows SDK. инструкции по созданию образцов см. в документации, предоставленной в Windows SDK.
 
 Если для образца имеется дополнительная документация, первый столбец этой таблицы ссылается на нее.
 
@@ -38,9 +38,9 @@ ms.locfileid: "104538060"
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="directshow-base-classes.md">Базовые классы DirectShow</a></td>
+<td><a href="directshow-base-classes.md">DirectShow Базовые классы</a></td>
 <td>Библиотека базовых классов</td>
-<td>Классы C++ и служебные функции, предназначенные для реализации фильтров DirectShow.</td>
+<td>классы C++ и служебные функции, предназначенные для реализации фильтров DirectShow.</td>
 
 </tr>
 <tr class="even">
@@ -62,9 +62,9 @@ ms.locfileid: "104538060"
 
 </tr>
 <tr class="odd">
-<td><a href="dmo-demo-sample.md">Демонстрационный пример DMO</a></td>
+<td><a href="dmo-demo-sample.md">DMO Демонстрационный пример</a></td>
 <td>DMO</td>
-<td>Потоковая передача звуковых данных из WAV-файла с помощью звукового эффекты DMO.</td>
+<td>Потоки звуковые данные из WAV-файла с помощью DMOного звукового эффекты.</td>
 <td>Пакет SDK для DirectX</td>
 </tr>
 <tr class="even">
@@ -178,7 +178,7 @@ ms.locfileid: "104538060"
 <tr class="even">
 <td>Пример Ддравкскл</td>
 <td>Воспроизведение</td>
-<td>Воспроизводит видео в полноэкранном режиме с эксклюзивным экраном с помощью интерфейса <a href="/windows/desktop/api/Strmif/nn-strmif-iddrawexclmodevideo"><strong>иддравексклмодевидео</strong></a> в фильтре <a href="overlay-mixer-filter.md">микшера оверлея</a> .</td>
+<td>воспроизводит видео в полноэкранном режиме с эксклюзивным режимом, используя интерфейс <a href="/windows/desktop/api/Strmif/nn-strmif-iddrawexclmodevideo"><strong>иддравексклмодевидео</strong></a> на <a href="overlay-mixer-filter.md">наложенном</a> фильтре Mixer.</td>
 
 </tr>
 <tr class="odd">
@@ -190,12 +190,12 @@ ms.locfileid: "104538060"
 <tr class="even">
 <td>Пример Еврплайер</td>
 <td>Воспроизведение</td>
-<td>Демонстрирует использование фильтра Евр DirectShow.
+<td>демонстрирует использование DirectShow фильтра евр.
 <blockquote>
 [!Note]<br />
-Требуется Windows Vista или более поздняя версия.
+требуется Windows Vista или более поздней версии.
 </blockquote>
-<br/> <br/> Этот образец доступен в Windows SDK для Windows Server 2008 или более поздней версии.<br/></td>
+<br/> <br/> этот образец доступен в Windows SDK для Windows Server 2008 или более поздней версии.<br/></td>
 <td>стрмбасе. lib</td>
 </tr>
 <tr class="odd">
@@ -249,13 +249,13 @@ ms.locfileid: "104538060"
 
 ## <a name="additional-dependencies"></a>Дополнительные зависимости
 
-Некоторые примеры связаны с библиотекой базовых классов DirectShow. Для построения этих образцов необходимо сначала построить библиотеку базовых классов. Дополнительные сведения см. в разделе [базовые классы DirectShow](directshow-base-classes.md). Для всех примеров фильтров требуется Библиотека базовых классов.
+некоторые примеры связаны с DirectShow библиотекой базовых классов. Для построения этих образцов необходимо сначала построить библиотеку базовых классов. дополнительные сведения см. в разделе [DirectShow базовых классов](directshow-base-classes.md). Для всех примеров фильтров требуется Библиотека базовых классов.
 
-Для некоторых примеров также требуется пакет SDK DirectX в дополнение к Windows SDK. Чтобы создать эти образцы, необходимо установить пакет SDK для DirectX и задать \_ переменную среды% дкссдк dir%, равную пути установки пакета SDK DirectX.
+для некоторых примеров также требуется пакет SDK DirectX в дополнение к Windows SDK. Чтобы создать эти образцы, необходимо установить пакет SDK для DirectX и задать \_ переменную среды% дкссдк dir%, равную пути установки пакета SDK DirectX.
 
-Во многих примерах DirectShow используется набор общих заголовков и исходных файлов, расположенных в \[ корневых примерах пакета SDK директрори \] \\ \\ мультимедиа \\ DirectShow \\ Common. При копировании образца папки в другой каталог следует также скопировать общую папку.
+многие из DirectShow примеров используют набор общих заголовков и исходных файлов, расположенных в \[ корневых примерах пакета SDK для директрори \] \\ \\ мультимедиа \\ DirectShow \\ общие. При копировании образца папки в другой каталог следует также скопировать общую папку.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

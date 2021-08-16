@@ -78,7 +78,7 @@ HRESULT STDMETHODCALLTYPE GetControlState(
 
 Методы, используемые для запуска, приостановки и остановки записи, перечислены в списке см. также ниже.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

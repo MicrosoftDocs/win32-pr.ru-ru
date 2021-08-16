@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 27d4f52728d662f43efed85d662874bd4b008947
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2e39d4370e68b67a5c05c1f259c52190be3b931dd02164da191bacf879cd6cb0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105654455"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117835562"
 ---
 # <a name="siscsfilestobackupforlink-function"></a>Функция Сисксфилестобаккупфорлинк
 
@@ -99,7 +99,7 @@ BOOL SisCSFilesToBackupForLink(
 
 Эта функция возвращает **значение true** , если она завершается успешно, и **false** в противном случае. Вызовите [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) , чтобы получить дополнительные сведения о причине сбоя вызова.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение резервного копирования должно вызывать эту функцию только один раз для каждого файла ссылки SIS, для которого создается резервная копия.
 
@@ -119,8 +119,8 @@ BOOL SisCSFilesToBackupForLink(
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                   |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                   |
 | Header<br/>                   | <dl> <dt>Сисбкуп. h</dt> </dl>   |
 | Библиотека<br/>                  | <dl> <dt>Сисбкуп. lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Sisbkup.dll</dt> </dl> |

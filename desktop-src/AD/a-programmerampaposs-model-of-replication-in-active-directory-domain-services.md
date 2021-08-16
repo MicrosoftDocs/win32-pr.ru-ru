@@ -8,12 +8,12 @@ keywords:
 - Модель репликации программиста в службах домен Active Directory Services
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ada20bc07411528eaea4b7ff8c773c50ae8b6ec
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b758a31913d0c306105d0d3ce51e72607530e314d79601e8e5230495458d9793
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067281"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117841234"
 ---
 # <a name="a-programmers-model-of-replication-in-active-directory-domain-services"></a>Модель репликации программиста в службах домен Active Directory Services
 
@@ -39,9 +39,9 @@ ms.locfileid: "104067281"
 
 Модель отличается от реальности несколькими способами, которые влияют только на производительность. Например, сервер Active Directory отправляет сообщения репликации, содержащие изменения, в несколько объектов, но обрабатывает содержимое такого сообщения, как если бы оно было набором сообщений одного объекта. Сервер Active Directory не выполняет репликацию "точка-точка", как описано в модели, а выполняет более сложную и эффективную транзитную репликацию, которая функционально эквивалентна модели.
 
- 
+ 
 
- 
+ 
 
 
 

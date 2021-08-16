@@ -88,7 +88,7 @@ HRESULT GetSoHRequest(
 -   [**сохаттрибутетипефаилурекатегори**](sohattributetype-enum.md) =  [ **фаилурекатегориклиенткомпонент**](/windows/win32/api/naptypes/ne-naptypes-failurecategory)
 -   [**сохаттрибутетипирроркодес**](sohattributetype-enum.md)  =  [ **<SHA-Failure-Error-code>**](nap-error-constants.md)
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

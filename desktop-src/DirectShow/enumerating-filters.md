@@ -4,16 +4,16 @@ ms.assetid: 57bcaa4d-37bf-457d-937e-f9d24fb5784f
 title: Перечисление фильтров
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2de0f979973d339b790b04a8a5d4d98fc52c95c6
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 4d584ddf74a13b06e99d9a7e0a34ac802c6da881d87cb163411100ea7772e1df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105650428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117819667"
 ---
 # <a name="enumerating-filters"></a>Перечисление фильтров
 
-Диспетчер графов фильтров поддерживает метод [**ифилтерграф:: енумфилтерс**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-enumfilters) , который перечисляет все фильтры в графе фильтра. Он возвращает указатель на интерфейс [**иенумфилтерс**](/windows/desktop/api/Strmif/nn-strmif-ienumfilters) . Метод [**иенумфилтерс:: Next**](/windows/desktop/api/Strmif/nf-strmif-ienumfilters-next) получает указатели интерфейса [**ибасефилтер**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter) .
+диспетчер Graph фильтра поддерживает метод [**ифилтерграф:: енумфилтерс**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-enumfilters) , который перечисляет все фильтры в графе фильтра. Он возвращает указатель на интерфейс [**иенумфилтерс**](/windows/desktop/api/Strmif/nn-strmif-ienumfilters) . Метод [**иенумфилтерс:: Next**](/windows/desktop/api/Strmif/nf-strmif-ienumfilters-next) получает указатели интерфейса [**ибасефилтер**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter) .
 
 В следующем примере показана функция, которая перечисляет фильтры в графе и отображает окно сообщения с именем каждого фильтра. Для получения имени фильтра используется метод [**ибасефилтер:: куерифилтеринфо**](/windows/desktop/api/Strmif/nf-strmif-ibasefilter-queryfilterinfo) . Обратите внимание на места, в которых функция вызывает функцию **Release** в интерфейсе для уменьшения числа ссылок.
 
@@ -65,11 +65,11 @@ HRESULT EnumFilters (IFilterGraph *pGraph)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Перечисление объектов в графе фильтра](enumerating-objects-in-a-filter-graph.md)
+[Перечисление объектов в фильтре Graph](enumerating-objects-in-a-filter-graph.md)
 </dt> </dl>
 
  

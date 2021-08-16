@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7293514d798fe65c82863a83549039b05ec8eb3e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a787283f933ae4ccd2d8100c39e6118b40c545c030bb236a27a2f1598417742e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104492621"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117835552"
 ---
 # <a name="sisfreerestorestructure-function"></a>Функция Сисфрирестореструктуре
 
@@ -51,7 +51,7 @@ BOOL SisFreeRestoreStructure(
 
 Эта функция возвращает **значение true** , если она завершается успешно, и **false** в противном случае. Вызовите [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) , чтобы получить дополнительные сведения о причине сбоя вызова.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Доступ к ссылкам SIS до завершения вызова этой функции может привести к проверке тома или частичному чтению содержимого ссылки.
 
@@ -63,8 +63,8 @@ BOOL SisFreeRestoreStructure(
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                   |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                   |
 | Header<br/>                   | <dl> <dt>Сисбкуп. h</dt> </dl>   |
 | Библиотека<br/>                  | <dl> <dt>Сисбкуп. lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Sisbkup.dll</dt> </dl> |

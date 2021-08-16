@@ -174,7 +174,7 @@ typedef struct _CAPTUREFILE_HEADER_VALUES {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

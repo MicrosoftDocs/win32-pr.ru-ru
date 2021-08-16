@@ -9,12 +9,12 @@ keywords:
 - объекты, объекты ADSI для LDAP ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e764388746039b5849f1de4c81c554fa194180b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3d91242f0f60ff4e7d07bd22f6e064f6a091a75228876e29139bbedbd2327857
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103887588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117840784"
 ---
 # <a name="adsi-objects-of-ldap"></a>Объекты ADSI для LDAP
 
@@ -28,7 +28,7 @@ ms.locfileid: "103887588"
 | **женобжект**          | Объект ADSI, который представляет универсальные функции и предоставляет общие службы большинству других объектов ADSI для поставщика LDAP. | <dl> <dt>[**IAds**](/windows/desktop/api/Iads/nn-iads-iads)</dt> <dt>[**иадсконтаинер**](/windows/desktop/api/Iads/nn-iads-iadscontainer)</dt> <dt>[**идиректорйобжект**](/windows/desktop/api/Iads/nn-iads-idirectoryobject)</dt> <dt></dt> <dt>[**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch)</dt> <dt>[**иадспропертилист**](/windows/desktop/api/Iads/nn-iads-iadspropertylist)</dt> <dt>[**иадсобжектоптионс**](/windows/desktop/api/Iads/nn-iads-iadsobjectoptions)</dt> <dt>[**иадсделетеопс**](/windows/desktop/api/Iads/nn-iads-iadsdeleteops)</dt> </dl> |
 | **Группа**              | Объект ADSI, представляющий группу.                                                                                               | [**иадсграуп**](/windows/desktop/api/Iads/nn-iads-iadsgroup)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **GroupCollection**    | Объект ADSI, представляющий коллекцию групп.                                                                                | [**иадсмемберс**](/windows/desktop/api/Iads/nn-iads-iadsmembers)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| **Местонахождение**           | Объект ADSI, представляющий географические национальные настройки пользователя, Организации и т. д.                                               | [**иадслокалити**](/windows/desktop/api/Iads/nn-iads-iadslocality)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Расположение**           | Объект ADSI, представляющий географические национальные настройки пользователя, Организации и т. д.                                               | [**иадслокалити**](/windows/desktop/api/Iads/nn-iads-iadslocality)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | **Пространство имен**          | Объект ADSI, представляющий пространство имен LDAP.                                                                                    | <dl> <dt>[**Иадсконтаинер**](/windows/desktop/api/Iads/nn-iads-iadscontainer)</dt> <dt>[**iAds**](/windows/desktop/api/Iads/nn-iads-iads)</dt> <dt>[**иадсопендсобжект**](/windows/desktop/api/Iads/nn-iads-iadsopendsobject)</dt> </dl>                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | **наметранслате**      | Объект ADSI, предоставляющий службы для преобразования значений ADsPath из одного формата в другой.                                 | [**IADsNameTranslate**](/windows/desktop/api/Iads/nn-iads-iadsnametranslate)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **Организация**       | Объект ADSI, представляющий организацию.                                                                                       | [**иадсо**](/windows/desktop/api/Iads/nn-iads-iadso)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
@@ -44,11 +44,11 @@ ms.locfileid: "103887588"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

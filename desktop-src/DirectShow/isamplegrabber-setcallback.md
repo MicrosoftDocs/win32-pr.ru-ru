@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 46e0565c314bab86967ee0d5dabee6ba449a87dd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6e6d61d60a4664386cded025d2b7bcea82353602c7f7f8c0fb5bc4c53779ae2f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117817921"
 ---
 # <a name="isamplegrabbersetcallback-method"></a>Метод Исамплеграббер:: Сеткаллбакк
 
@@ -56,7 +56,7 @@ HRESULT SetCallback(
 *вхичмесодтокаллбакк* 
 </dt> <dd>
 
-Индекс, указывающий метод обратного вызова. Должно иметь одно из следующих значений.
+Индекс, указывающий метод обратного вызова. Необходимо установить одно из следующих значений.
 
 
 
@@ -75,7 +75,7 @@ HRESULT SetCallback(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Поток обработки данных блокируется до тех пор, пока метод обратного вызова не вернет значение. Если обратный вызов не возвращает быстрое значение, он может помешать воспроизведению.
 
@@ -87,7 +87,7 @@ HRESULT SetCallback(
  
 
 > [!Note]  
-> Чтобы получить Кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (SP1).
+> чтобы получить кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (sp1).
 
  
 
@@ -97,7 +97,7 @@ HRESULT SetCallback(
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Кедит. h</dt> </dl>      |
+| Заголовок<br/>  | <dl> <dt>Кедит. h</dt> </dl>      |
 | Библиотека<br/> | <dl> <dt>Стрмиидс. lib</dt> </dl> |
 
 

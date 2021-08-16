@@ -78,7 +78,7 @@ HRESULT SetCorrelationId(
 
 При получении SoH-Response Напажент сначала проверяет соответствие идентификаторов. Если это не так, то возвращается ошибка, и принудительно удаляется пакет. Дополнительные сведения см. в разделе [**инапенфорцементклиентбиндинг::P роцесссохреспонсе**](inapenforcementclientbinding-processsohresponse-method.md) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -8,12 +8,12 @@ keywords:
 - ADSI ADSI с использованием с помощью метода IADs info
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b374791e7fd7ff787c1b825827f410a9c15b551b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 534de8bd667ed33d562ac55b6a70452b6496d0a3d708c55a2cb0fee1a86a8a29
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103772908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117838458"
 ---
 # <a name="the-getinfo-method"></a>Метод info
 
@@ -47,9 +47,9 @@ Debug.Print "User's title is " + usr.Get("title")
 
 Некоторые службы каталогов не возвращают значения атрибутов объекта в ответ на вызов метода [**iAds::**](/windows/desktop/api/Iads/nf-iads-iads-getinfo) GetResponse. В этих случаях для загрузки этих значений в локальный кэш используйте метод [**iAds:: жетинфоекс**](/windows/desktop/api/Iads/nf-iads-iads-getinfoex) .
 
- 
+ 
 
- 
+ 
 
 
 

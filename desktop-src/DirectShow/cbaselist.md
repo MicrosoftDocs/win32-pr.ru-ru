@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c6aa4a3c80cd583bd3cc83a2a0adedecb6caaf7c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5616edd16921bb2ae4d1a0b7ad67f5bbec3fba560594d4710512bd2cec6f275f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117823713"
 ---
 # <a name="cbaselist-class"></a>Класс Кбаселист
 
@@ -68,7 +68,7 @@ ms.locfileid: "105665326"
 | [**аддбефоре**](cbaselist-addbefore.md)               | Вставляет список перед указанной позицией.                             |
 | [**моветотаил**](cbaselist-movetotail.md)             | Разделяет список и добавляет к концу другого списка часть заголовка. |
 | [**моветохеад**](cbaselist-movetohead.md)             | Разделяет список и вставляет фрагмент хвоста в заголовок другого списка. |
-| [**Отмена**](cbaselist-reverse.md)                   | Изменяет порядок списка на обратный.                                           |
+| [**Reverse**](cbaselist-reverse.md)                   | Изменяет порядок списка на обратный.                                           |
 
 
 
@@ -80,7 +80,7 @@ ms.locfileid: "105665326"
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Вкслист. h (включение Streams. h)</dt> </dl>                                                                                    |
+| Заголовок<br/>  | <dl> <dt>вкслист. h (включает Потоки. h)</dt> </dl>                                                                                    |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
@@ -89,7 +89,7 @@ ms.locfileid: "105665326"
 
 <dl> <dt>
 
-[Базовые классы DirectShow](directshow-base-classes.md)
+[DirectShow Базовые классы](directshow-base-classes.md)
 </dt> </dl>
 
  

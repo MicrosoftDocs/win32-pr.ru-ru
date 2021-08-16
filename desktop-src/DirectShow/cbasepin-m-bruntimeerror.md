@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5e8b0c5548d3089a6e619f88db5e4eed19b12be8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ffc07a15f7c34744be52c5e2c7b5233e1885b58c5b9b7d078871277f8fc0efd1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117823336"
 ---
 # <a name="cbasepinm_bruntimeerror-member"></a>Элемент Кбасепин:: m \_ брунтимиррор
 
@@ -36,7 +36,7 @@ bool m_bRunTimeError;
 
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 По умолчанию этот флаг **имеет значение false**. Установите для флага **значение true** , если во время потоковой передачи возникает ошибка во время выполнения. Метод [**кбасепин:: Inactive**](cbasepin-inactive.md) сбрасывает флаг в **значение false**.
 
@@ -46,7 +46,7 @@ bool m_bRunTimeError;
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Амфилтер. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>амфилтер. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

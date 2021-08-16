@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 172e12758ba0b365fa195cb4e1384c161cea3d14
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e9ed4dc19bd3e75caad7f2fb0edd90584ec9e157942de441a873a170eee41766
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104262250"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117838144"
 ---
 # <a name="ms-ds-preferred-gc-site-attribute"></a>Атрибут ms-DS-предпочтителен-GC-site
 
@@ -58,7 +58,7 @@ ms.locfileid: "104262250"
 | Идентификатор ссылки                | \-                                                          |
 | MAPI-Id                | \-                                                          |
 | System-Only            | Неверно                                                       |
-| Является однозначным       | True                                                        |
+| Является однозначным       | Верно                                                        |
 | Индексируется             | Неверно                                                       |
 | В глобальном каталоге      | Неверно                                                       |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                |
@@ -66,7 +66,7 @@ ms.locfileid: "104262250"
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| Классы, используемые в        | [**NTDS-Site-Settings**](c-ntdssitesettings.md)<br/> |
+| Классы, используемые в        | [**NTDS-Site-Параметры**](c-ntdssitesettings.md)<br/> |
 
 
 
@@ -79,7 +79,7 @@ ms.locfileid: "104262250"
 | Идентификатор ссылки                | \-                                                          |
 | MAPI-Id                | \-                                                          |
 | System-Only            | Неверно                                                       |
-| Является однозначным       | True                                                        |
+| Является однозначным       | Верно                                                        |
 | Индексируется             | Неверно                                                       |
 | В глобальном каталоге      | Неверно                                                       |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                |
@@ -87,7 +87,7 @@ ms.locfileid: "104262250"
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| Классы, используемые в        | [**NTDS-Site-Settings**](c-ntdssitesettings.md)<br/> |
+| Классы, используемые в        | [**NTDS-Site-Параметры**](c-ntdssitesettings.md)<br/> |
 
 
 
@@ -100,7 +100,7 @@ ms.locfileid: "104262250"
 | Идентификатор ссылки                | \-                                                          |
 | MAPI-Id                | \-                                                          |
 | System-Only            | Неверно                                                       |
-| Является однозначным       | True                                                        |
+| Является однозначным       | Верно                                                        |
 | Индексируется             | Неверно                                                       |
 | В глобальном каталоге      | Неверно                                                       |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                |
@@ -108,7 +108,7 @@ ms.locfileid: "104262250"
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| Классы, используемые в        | [**NTDS-Site-Settings**](c-ntdssitesettings.md)<br/> |
+| Классы, используемые в        | [**NTDS-Site-Параметры**](c-ntdssitesettings.md)<br/> |
 
 
 
@@ -121,7 +121,7 @@ ms.locfileid: "104262250"
 | Идентификатор ссылки                | \-                                                          |
 | MAPI-Id                | \-                                                          |
 | System-Only            | Неверно                                                       |
-| Является однозначным       | True                                                        |
+| Является однозначным       | Верно                                                        |
 | Индексируется             | Неверно                                                       |
 | В глобальном каталоге      | Неверно                                                       |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                |
@@ -129,7 +129,7 @@ ms.locfileid: "104262250"
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| Классы, используемые в        | [**NTDS-Site-Settings**](c-ntdssitesettings.md)<br/> |
+| Классы, используемые в        | [**NTDS-Site-Параметры**](c-ntdssitesettings.md)<br/> |
 
 
 
@@ -142,7 +142,7 @@ ms.locfileid: "104262250"
 | Идентификатор ссылки                | \-                                                          |
 | MAPI-Id                | \-                                                          |
 | System-Only            | Неверно                                                       |
-| Является однозначным       | True                                                        |
+| Является однозначным       | Верно                                                        |
 | Индексируется             | Неверно                                                       |
 | В глобальном каталоге      | Неверно                                                       |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                |
@@ -150,7 +150,7 @@ ms.locfileid: "104262250"
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| Классы, используемые в        | [**NTDS-Site-Settings**](c-ntdssitesettings.md)<br/> |
+| Классы, используемые в        | [**NTDS-Site-Параметры**](c-ntdssitesettings.md)<br/> |
 
 
 
@@ -163,7 +163,7 @@ ms.locfileid: "104262250"
 | Идентификатор ссылки                | \-                                                          |
 | MAPI-Id                | \-                                                          |
 | System-Only            | Неверно                                                       |
-| Является однозначным       | True                                                        |
+| Является однозначным       | Верно                                                        |
 | Индексируется             | Неверно                                                       |
 | В глобальном каталоге      | Неверно                                                       |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                |
@@ -171,7 +171,7 @@ ms.locfileid: "104262250"
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| Классы, используемые в        | [**NTDS-Site-Settings**](c-ntdssitesettings.md)<br/> |
+| Классы, используемые в        | [**NTDS-Site-Параметры**](c-ntdssitesettings.md)<br/> |
 
 
 

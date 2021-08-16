@@ -40,7 +40,7 @@ UINT m_ShowStageMessage;
 
 Метод [**кбасевиндов::D осетвиндовфореграунд**](cbasewindow-dosetwindowforeground.md) отправляет это сообщение.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

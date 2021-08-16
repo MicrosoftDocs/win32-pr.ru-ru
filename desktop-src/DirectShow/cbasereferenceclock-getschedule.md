@@ -44,7 +44,7 @@ CAMSchedule* GetSchedule();
 
 Возвращает переменную члена [**кбасереференцеклокк:: m \_ псчедуле**](cbasereferenceclock-m-pschedule.md) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

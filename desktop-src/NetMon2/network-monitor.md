@@ -4,12 +4,12 @@ ms.assetid: a70b6e22-e744-4760-b878-9ee35428fed5
 title: Сетевой монитор
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e51a57dd2373d7a10fedd68a72dbc4021efdb921
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fcc3b49dac14292da1bfd6d1e5e8514786dcbd08c2c274d311b924eb68517aa5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104546351"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118364593"
 ---
 # <a name="network-monitor"></a>Сетевой монитор
 
@@ -23,12 +23,12 @@ ms.locfileid: "104546351"
 
 ## <a name="run-time-requirements"></a>Требования к среде выполнения
 
-Чтобы вызвать из API сетевой монитор, необходимо работать на Windows NT Server 4,0, Windows 2000 Server или Windows Server 2003 или установить сервер Microsoft Systems Management Server.
+чтобы вызвать из API сетевой монитор, необходимо запустить на Windows NT server 4,0, Windows 2000 server или Windows server 2003 или установить сервер Microsoft Systems Management Server.
 
-Драйвер НПП и поддерживаемые функции включают все версии Windows NT 4,0 и Windows 2000 Server.
+драйвер нпп и поддерживаемые функции включают все версии Windows NT 4,0 и сервера Windows 2000.
 
 > [!Note]  
-> Сетевой монитор 2,1 и более ранних версий не поддерживаются в Windows Vista и более поздних версиях.
+> сетевой монитор 2,1 и более ранних версий не поддерживаются в Windows Vista и более поздних версиях.
 
  
 

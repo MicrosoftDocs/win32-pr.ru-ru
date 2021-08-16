@@ -4,12 +4,12 @@ ms.assetid: 65d2f40e-c42c-4d71-b9b3-7662a8be0953
 title: EC_NOTIFY_WINDOW (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b3165247f05e2fb945f02fee43149b84480bd4b2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 355d4ec8b5b6bea55a2f32f01cc2f83aabeab84443b28e431e5b0d6155acc6d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679804"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117820116"
 ---
 # <a name="ec_notify_window"></a>\_окно уведомления \_ EC
 
@@ -35,9 +35,9 @@ ms.locfileid: "105679804"
 
 ## <a name="default-action"></a>Действие по умолчанию
 
-Это событие используется модулем DirectShow для внутренних целей. Диспетчер графов фильтров не передает это событие в приложение. Приложения не могут переопределять действие по умолчанию для этого события.
+Это событие используется внутренне DirectShow. Диспетчер графов фильтров не передает это событие в приложение. Приложения не могут переопределять действие по умолчанию для этого события.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При подключении модуля обработки видео он проверяет, поддерживает ли выходной ПИН-код вышестоящего выхода интерфейс [**имедиаевентсинк**](/windows/desktop/api/Strmif/nn-strmif-imediaeventsink) . Если это так, модуль подготовки отчетов отправляет это событие в вышестоящий фильтр.
 
@@ -47,7 +47,7 @@ ms.locfileid: "105679804"
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>DShow. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>DShow. h</dt> </dl> |
 
 
 
