@@ -136,7 +136,7 @@ _**Применимо к:** Windows | Windows Сервером_
 
 Эта структура используется при отладке.
 
-### <a name="requirements"></a>Requirements (Требования)
+### <a name="requirements"></a>Требования
 
 <table>
 <colgroup>

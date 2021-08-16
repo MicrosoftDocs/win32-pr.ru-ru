@@ -643,7 +643,7 @@ instance of CommandLineEventConsumer
 
 Пример использования **коммандлинивентконсумер** для создания потребителя см. в разделе [Запуск программы из командной строки на основе события](running-a-program-from-the-command-line-based-on-an-event.md).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

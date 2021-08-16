@@ -47,7 +47,7 @@ ResourceLocator.MustUnderstandOptions As boolean
 
 **Ивсманресаурцелокатор:: мустундерстандоптионс** — соответствующее свойство C++.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

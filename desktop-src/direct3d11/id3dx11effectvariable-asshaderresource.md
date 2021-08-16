@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a3af6236d25e8a2c652f5a551bf7199f3a78d8e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0ef87874c005f12d3e49962ee438f516df3631c12ff17fc4db27e0a82fe1a654
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104998774"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118531387"
 ---
 # <a name="id3dx11effectvariableasshaderresource-method"></a>Метод ID3DX11EffectVariable:: Асшадерресаурце
 
@@ -47,7 +47,7 @@ ID3DX11EffectShaderResourceVariable* AsShaderResource();
 
 Указатель на переменную-ресурс шейдера. См. [**ID3DX11EffectShaderResourceVariable**](id3dx11effectshaderresourcevariable.md).
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Асшадерресаурце Возвращает версию переменной Effect, которая была специализированной для переменной-ресурса шейдера. Как и в приведении, эта специализация возвращает недопустимый объект, если переменная действия не содержит данных о ресурсах шейдера.
 
@@ -64,7 +64,7 @@ ID3DX11EffectShaderResourceVariable* AsShaderResource();
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
+| Заголовок<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
 | Библиотека<br/> | <dl> <dt>Н/д (библиотека Effects 11 доступна в сети в качестве общего источника.)</dt> </dl> |
 
 

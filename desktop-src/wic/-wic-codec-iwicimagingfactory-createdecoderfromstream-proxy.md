@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 1f6f84c9c29d10243f1b3bcb2cad43967547eeae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ab635d524adc379aae6d91cee5a65b41b39252bc60c7e260e5fe8158b5d47baf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103818609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965173"
 ---
 # <a name="iwicimagingfactory_createdecoderfromstream_proxy-function"></a>IWICImagingFactory \_ креатедекодерфромстреам \_ -функция
 
@@ -47,29 +47,29 @@ HRESULT IWICImagingFactory_CreateDecoderFromStream_Proxy(
 *пфактори* \[ окне\]
 </dt> <dd>
 
-Тип: **[**IWICImagingFactory**](/windows/desktop/api/Wincodec/nn-wincodec-iwicimagingfactory) \** _
+Тип: **[ **IWICImagingFactory**](/windows/desktop/api/Wincodec/nn-wincodec-iwicimagingfactory)\***
 
 </dd> <dt>
 
-_pIStream * \[ в\]
+*пистреам* \[ окне\]
 </dt> <dd>
 
-Тип: **[IStream](/windows/desktop/api/objidl/nn-objidl-istream) \** _
+Тип: **[IStream](/windows/desktop/api/objidl/nn-objidl-istream)\***
 
 Поток, из которого создается декодер.
 
 </dd> <dt>
 
-_pguidVendor * \[ в\]
+*пгуидвендор* \[ окне\]
 </dt> <dd>
 
-Тип: **константа \* GUID* _
+Тип: **константа \* GUID**
 
 Идентификатор GUID поставщика для декодера.
 
 </dd> <dt>
 
-_metadataOptions * \[ в\]
+*метадатаоптионс* \[ окне\]
 </dt> <dd>
 
 Тип: **[ **викдекодеоптионс**](/windows/desktop/api/Wincodec/ne-wincodec-wicdecodeoptions)**
@@ -101,8 +101,8 @@ _metadataOptions * \[ в\]
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows XP с пакетом обновления 2 (SP2), \[ только классические приложения Windows Vista\]<br/>                                                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                                                                             |
+| Минимальная версия клиента<br/> | Windows XP с пакетом обновления 2 (SP2), Windows \[ только классические приложения Vista\]<br/>                                                                                              |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll; </dt> <dt>Винкодек. lib</dt> </dl> |
 
 

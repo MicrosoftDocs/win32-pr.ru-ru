@@ -4,16 +4,16 @@ description: Иажентчарактерекс Жеселпмодеон
 ms.assetid: 848c9e75-6e4c-487c-b01c-36ec6314d0c1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 072f657ba5ac93d057474f062f73101f2559aed0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7bb78cf535fbfd7e28ab797c887c8e1548d3fd18dce03fb6b64d888c7e304c0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104258925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118750789"
 ---
 # <a name="iagentcharacterexgethelpmodeon"></a>Иажентчарактерекс:: Жеселпмодеон
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT GetHelpModeOn(
@@ -40,14 +40,14 @@ HRESULT GetHelpModeOn(
 
 Это свойство применяется только к символу, используемому вашим клиентским приложением. Этот параметр не влияет на другие клиенты символов или других символов клиентского приложения.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [**Иажентчарактерекс:: Сеселпмодеон**](iagentcharacterex--sethelpmodeon.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

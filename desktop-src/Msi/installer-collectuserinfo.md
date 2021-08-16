@@ -56,7 +56,7 @@ Installer.CollectUserInfo(
 
 Метод **коллектусеринфо** вызывает [диалоговое окно файла firstrun](firstrun-dialog.md).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -46,7 +46,7 @@ ms.locfileid: "117820531"
 
 Это событие возникает во всех доменах.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 89968e3fb7704c2a9c7aa1dced2f5eee4cc1ea3a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 746161baf279d621c0a108149a00746fd5ad74a9d4a1dcdbae8c6558e3e92657
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105655354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117837260"
 ---
 # <a name="ms-wmi-normalizedclass-attribute"></a>атрибут MS-WMI-Нормализедкласс
 

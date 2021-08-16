@@ -12,16 +12,16 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: e5b2105e8d56a9c8042f341ffc3f24a4d7995f4e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 16c61f8d92a6f90be0fa4b64ddd9d582987ac0bdf52ca1c596c7db3a7fa4b669
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118463047"
 ---
 # <a name="linktype-enumeration"></a>Перечисление типов ссылок
 
-\[**Перечисление** типов ссылок поддерживается только в Windows XP и windows Server 2003 и больше не должно использоваться.\]
+\[перечисление типов ссылок поддерживается **только в Windows** XP и Windows Server 2003 и больше не должно использоваться.\]
 
 Указывает тип ссылки при обходе или индексировании.
 
@@ -63,9 +63,9 @@ typedef enum _LINKTYPE {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Для предварительного просмотра вложений с помощью обработчика протоколов стороннего производителя на компьютерах под управлением Windows XP или Windows Server 2003 может потребоваться **использовать флаги** [**Иитемпревиеверекст:: жетлинкедконтент**](-search-iitempreviewerext-getlinkedcontent.md) и [**иитемпревиеверекст:: жетрелатедпарт**](-search-iitempreviewerext-getrelatedpart.md) и структуру [**линкинфо**](-search-linkinfo.md) .
+для предварительного просмотра вложений с помощью обработчика протоколов стороннего производителя на компьютерах под управлением Windows XP или Windows Server 2003 может потребоваться **использовать флаги** [**иитемпревиеверекст:: жетлинкедконтент**](-search-iitempreviewerext-getlinkedcontent.md) и [**иитемпревиеверекст:: жетрелатедпарт**](-search-iitempreviewerext-getrelatedpart.md) и структуру [**линкинфо**](-search-linkinfo.md) .
 
 ## <a name="requirements"></a>Требования
 
@@ -73,8 +73,8 @@ typedef enum _LINKTYPE {
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для настольных приложений Windows XP с пакетом обновления 2 \[\]<br/> |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/> |
+| Минимальная версия клиента<br/> | Windows XP с пакетом обновления 2 (SP2) \[ только классические приложения\]<br/> |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/> |
 
 
 

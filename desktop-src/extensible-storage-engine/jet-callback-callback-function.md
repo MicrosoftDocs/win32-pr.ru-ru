@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5e6d26bd5e347757fce270d5f2c78ab471755c1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d50f0f3a0908b725d7f704df962324a0f16af1fc6f7353515a8d604e87edd0a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673406"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118487617"
 ---
 # <a name="jet_callback-callback-function"></a>Функция обратного вызова JET_CALLBACK
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jet_callback-callback-function"></a>Функция обратного вызова JET_CALLBACK
 
@@ -82,11 +82,11 @@ _**Применимо к:** Windows | Windows Server_
 
 #### <a name="return-value"></a>Возвращаемое значение
 
-Функция возвращает один из [кодов ошибок расширенного подсистемы хранилища](./extensible-storage-engine-error-codes.md). Сведения о том, как вернуть эти коды HRESULT, см. в разделе [ошибки расширенного подсистемы хранилища](./extensible-storage-engine-errors.md). При успешном выполнении операция, выдала ответный вызов, может продолжать работу в обычном режиме. В некоторых случаях обратный вызов может возвращать предупреждение, которое влияет на эту операцию. Сведения об использовании этих предупреждений в операции см. в разделе [JET_CBTYP](./jet-cbtyp.md) .
+функция возвращает один из [расширенных кодов ошибок ядра служба хранилища](./extensible-storage-engine-error-codes.md). сведения о том, как вернуть эти коды в виде значений hresult, см. в разделе [ошибки расширенного обработчика служба хранилища](./extensible-storage-engine-errors.md). При успешном выполнении операция, выдала ответный вызов, может продолжать работу в обычном режиме. В некоторых случаях обратный вызов может возвращать предупреждение, которое влияет на эту операцию. Сведения об использовании этих предупреждений в операции см. в разделе [JET_CBTYP](./jet-cbtyp.md) .
 
 В случае сбоя операция, выдала ответный вызов, может продолжаться обычным образом или не работать. Сведения об использовании кода ошибки в операции см. в разделе [JET_CBTYP](./jet-cbtyp.md) .
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 Если обратный вызов передает приложению курсор, то важно помнить, что этот курсор намеренно ограничен небольшим набором функций, чтобы избежать рекурсии и других углинесс. Допустимы следующие операции:
 
@@ -140,11 +140,11 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
+<td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
+<td><p><strong>Сервер</strong></p></td>
+<td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>
@@ -154,7 +154,7 @@ _**Применимо к:** Windows | Windows Server_
 </table>
 
 
-### <a name="see-also"></a>См. также:
+### <a name="see-also"></a>См. также
 
 [JET_API_PTR](./jet-api-ptr.md)  
 [JET_DBID](./jet-dbid.md)  

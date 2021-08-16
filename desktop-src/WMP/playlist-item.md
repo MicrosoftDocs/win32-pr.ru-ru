@@ -3,9 +3,9 @@ title: Метод списка воспроизведения. Item
 description: Метод Item извлекает элемент мультимедиа по указанному индексу.
 ms.assetid: a564f6db-ede4-4c85-87ca-0e2539d914c2
 keywords:
-- метод Item проигрыватель Windows Media Player
-- метод Item проигрыватель Windows Media Player, класс списка воспроизведения
-- Класс списка воспроизведения проигрыватель Windows Media Player, метод Item
+- проигрыватель Windows Media метода элемента
+- метод item проигрыватель Windows Media, класс списка воспроизведения
+- класс списка воспроизведения проигрыватель Windows Media, метод элемента
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 79c69386871aeec33dbc36a066ce3f75e80d7514
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 72987feb8438edc50c28bb6349b44c4f43736549c92a293794a6bc728ed7853a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119862234"
 ---
 # <a name="playlistitem-method"></a>Метод списка воспроизведения. Item
 
@@ -53,13 +53,13 @@ retVal = Playlist.item(
 
 Этот метод возвращает объект **мультимедиа** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы использовать этот метод, требуется доступ на чтение к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере JScript используется *список воспроизведения*. **элемент** для извлечения элемента мультимедиа из текущего списка воспроизведения на основе выбора пользователя. Был создан HTML-элемент SELECT с именем "список", который заполняется заголовками из текущего списка воспроизведения. Объект **Player** создан с идентификатором "Player".
+в следующем примере JScript используется *список воспроизведения*. **элемент** для извлечения элемента мультимедиа из текущего списка воспроизведения на основе выбора пользователя. Был создан HTML-элемент SELECT с именем "список", который заполняется заголовками из текущего списка воспроизведения. Объект **Player** создан с идентификатором "Player".
 
 
 ```JScript
@@ -83,7 +83,7 @@ Player.URL = listItem.sourceURL;
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
@@ -104,10 +104,10 @@ Player.URL = listItem.sourceURL;
 [**Список воспроизведения. removeItem**](playlist-removeitem.md)
 </dt> <dt>
 
-[**Settings. Медиаакцессригхтс**](settings-mediaaccessrights.md)
+[**Параметры. медиаакцессригхтс**](settings-mediaaccessrights.md)
 </dt> <dt>
 
-[**Settings. Рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
+[**Параметры. рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
  

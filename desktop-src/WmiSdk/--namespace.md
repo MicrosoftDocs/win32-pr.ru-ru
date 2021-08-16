@@ -106,7 +106,7 @@ $NameSpace| sort __namespace  | Format-Table @{Expression = "__Namespace"; Label
 
 
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

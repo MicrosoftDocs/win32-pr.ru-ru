@@ -72,7 +72,7 @@ DWORD GetNPPTriggerFromBlob(
 
 Сведения о триггере хранятся в категории **триггеров** большого двоичного объекта.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

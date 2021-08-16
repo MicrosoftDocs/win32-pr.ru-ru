@@ -4,12 +4,12 @@ ms.assetid: 9a68905d-c235-4c72-bc71-1cccdf5cdadc
 title: О Маилслотс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bd83fc0d952577efdb149d4c7f25fffbab9784f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0d009b2e667e5feebedeb4b842fc3f6e1630b39069e717ce08f5d0441ebe25aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664703"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118756522"
 ---
 # <a name="about-mailslots"></a>О Маилслотс
 
@@ -21,9 +21,9 @@ ms.locfileid: "105664703"
 
 Маилслотс может рассылать сообщения внутри домена. Если несколько процессов в домене создают почтовый слот с одним и тем же именем, то каждое сообщение, адресованное этому слоту и отправленное в домен, получается участвующими процессами. Поскольку один процесс может управлять как обработчиком слота сервера, так и полученным при открытии слотом сообщений для операции записи, приложения могут легко реализовать простой механизм передачи сообщений в домене.
 
-Для отправки сообщений размером более 424 байт между компьютерами используйте [именованные каналы](named-pipes.md) или [сокеты Windows](/windows/desktop/WinSock/windows-sockets-start-page-2) .
+чтобы отправить сообщения размером более 424 байт между компьютерами, используйте [именованные каналы](named-pipes.md) или [сокеты Windows](/windows/desktop/WinSock/windows-sockets-start-page-2) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

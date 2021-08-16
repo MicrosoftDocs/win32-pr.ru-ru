@@ -19,7 +19,7 @@ ms.locfileid: "118625741"
 
 Значение этого свойства должно заканчиваться на " \\ ".
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -87,7 +87,7 @@ _stprintf_s(
 break mysound on 113
 ```
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

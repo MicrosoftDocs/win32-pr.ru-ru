@@ -54,7 +54,7 @@ ms.locfileid: "118355570"
 
 Полный пример XML-кода для задачи, указывающей триггер входа, см. в разделе [пример триггера LOGON (XML)](logon-trigger-example--xml-.md).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

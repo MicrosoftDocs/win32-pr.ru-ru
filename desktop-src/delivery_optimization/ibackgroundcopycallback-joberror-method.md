@@ -74,7 +74,7 @@ HRESULT JobError(
 
 Функция возвращает BG_ERROR_CONTEXT_REMOTE_FILE, если задание вызвало ошибку HTTP 403, BG_ERROR_CONTEXT_NONE в противном случае.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -3,7 +3,7 @@ title: Сообщение TBM_SETRANGEMAX (Коммктрл. h)
 description: Задает максимальное логическое положение ползунка в TrackBar.
 ms.assetid: 8e9d8fd3-2ee3-4fb6-aa1f-9d6e999ef330
 keywords:
-- Элементы управления Windows для TBM_SETRANGEMAX сообщений
+- элементы управления Windows сообщений TBM_SETRANGEMAX
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b43997725e2fa88db3f9d4dc2fec1d51255cbb0c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f26b4a588e67164b96db8256116466206d0274a5bc64caedbcb1ccf25135ce62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104489027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117829598"
 ---
 # <a name="tbm_setrangemax-message"></a>\_Сообщение ТБМ сетранжемакс
 
@@ -47,7 +47,7 @@ ms.locfileid: "104489027"
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если текущая позиция ползунка больше, чем максимальный размер, сообщение **ТБМ \_ сетранжемакс** устанавливает для ползунка новое максимальное значение.
 
@@ -57,8 +57,8 @@ ms.locfileid: "104489027"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

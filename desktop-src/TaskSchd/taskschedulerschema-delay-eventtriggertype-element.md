@@ -48,7 +48,7 @@ ms.locfileid: "118357110"
 
 Для разработки на C++ задержка триггера события задается свойством [**иевенттригжер::D елай**](/windows/desktop/api/taskschd/nf-taskschd-ieventtrigger-get_delay) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

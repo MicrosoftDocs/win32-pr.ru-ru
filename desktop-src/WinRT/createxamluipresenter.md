@@ -64,7 +64,7 @@ ms.locfileid: "118323438"
 
 этот метод нельзя вызвать из приложения магазина Windows.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

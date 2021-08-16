@@ -37,7 +37,7 @@ ms.locfileid: "117820001"
 
 Нет. Приложение должно решить, следует ли прерывать граф.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

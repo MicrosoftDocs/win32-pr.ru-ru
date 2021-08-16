@@ -1,19 +1,19 @@
 ---
 title: Интерфейсы WIA
-description: В этом разделе содержатся справочные сведения о интерфейсах, используемых с API-интерфейсом для получения образа Windows (WIA).
+description: в этом разделе содержатся справочные сведения о интерфейсах, используемых с API-интерфейсом Windowsного получения изображений (WIA).
 ms.assetid: 0b496d6b-486a-42d3-a0e5-8e9e52e27608
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a5caf7bf74dc07aa0cf74979283a3b2bdc068c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e59caca73d2f4053bc2fedf93e6e2a3a70369f32776f8b3a95bf4d1639630c25
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965803"
 ---
 # <a name="wia-interfaces"></a>Интерфейсы WIA
 
-В этом разделе содержатся справочные сведения о интерфейсах, используемых с API-интерфейсом для получения образа Windows (WIA). Представлены следующие интерфейсы:
+в этом разделе содержатся справочные сведения о интерфейсах, используемых с API-интерфейсом Windowsного получения изображений (WIA). Представлены следующие интерфейсы:
 
 ## <a name="interfaces"></a>Интерфейсы
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b7142bfd8d1d5d65d1f669a328c75a2c8cdfb036
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: 289f2cfc2ca9f1e879e0aa592af28d86ae433f6e06d007aa71e00581baba2af5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104134767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117835417"
 ---
 # <a name="ack-for-close-session"></a>Подтверждение для Close-Session
 
@@ -85,7 +85,7 @@ Replace Error-context с шестнадцатеричным числом, пре
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Клиент BITS повторно отправляет пакет с [**закрытым сеансом**](close-session.md) , если код причины находится в диапазоне от 500 до 599, если не указан заголовок BITS-Error-code со значением \_ \_ \_ не найденного сеанса BG E \_ . Клиент не будет пытаться повторять коды причин с 100 по 499.
 
@@ -99,9 +99,9 @@ Replace Error-context с шестнадцатеричным числом, пре
 [**Закрыть — сеанс**](close-session.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

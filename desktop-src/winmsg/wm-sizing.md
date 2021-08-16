@@ -65,7 +65,7 @@ ms.locfileid: "118436159"
 
 Приложение должно возвращать **значение true** , если обрабатывает это сообщение.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

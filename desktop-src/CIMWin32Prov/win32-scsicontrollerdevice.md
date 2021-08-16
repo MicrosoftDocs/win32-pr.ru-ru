@@ -21,12 +21,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 7a3189f9d9b75321df7c69214e68779864953f6c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1f703d5a290245b1596801f78c005c565faa45296c3582e4feaad5dc4011787b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104539347"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117834175"
 ---
 # <a name="win32_scsicontrollerdevice-class"></a>\_Класс Win32 сксиконтроллердевице
 
@@ -56,7 +56,7 @@ class Win32_SCSIControllerDevice : CIM_ControlledBy
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ сксиконтроллердевице** имеет следующие свойства.
 
@@ -200,7 +200,7 @@ class Win32_SCSIControllerDevice : CIM_ControlledBy
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ сксиконтроллердевице** является производным от [**CIM \_ контролледби**](cim-controlledby.md).
 

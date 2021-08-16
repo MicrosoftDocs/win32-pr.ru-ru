@@ -8,12 +8,12 @@ keywords:
 - запросы к ADSI, производительность и обработка больших результирующих наборов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47dbda06152f87e671f0d5e6b388c1634fbd0ee1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 70acd07b774aec442e86c27f95afbd9fafa06d23ba1615931616d0ad240170c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105654115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117838914"
 ---
 # <a name="performance-and-handling-large-result-sets"></a>Производительность и обработка больших результирующих наборов
 
@@ -22,9 +22,9 @@ ms.locfileid: "105654115"
 -   [Что делает быстрый запрос?](what-makes-a-fast-query.md)
 -   [Обработка результирующего набора](processing-a-result-set.md)
 
- 
+ 
 
- 
+ 
 
 
 
