@@ -4,12 +4,12 @@ ms.assetid: bffc33ec-0fb0-4bbe-9bac-583b9d4e1153
 title: Проверка подлинности источника сети
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 09c38968fccf501f49ac7666a066b88528b237bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a3e90ae7d7a8e4fb29b56aaa1296ba0c5aa44049f801b01a2c7797009ec736aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973043"
 ---
 # <a name="network-source-authentication"></a>Проверка подлинности источника сети
 
@@ -27,7 +27,7 @@ ms.locfileid: "104080433"
 -   [Использование кэша учетных данных](using-the-credential-cache.md)
 -   [Реализация Имфнеткредентиалманажер](implementing-imfnetcredentialmanager.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

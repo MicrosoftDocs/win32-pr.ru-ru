@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 861f160d2c9b71d2c9914c7ff9c2ea0ee43c8528
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 37c7ab0fef64f747c08ccf80a38ec385b45bce46ced2184d02c55e7ce1c76441
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105655051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960093"
 ---
 # <a name="service-principal-name-attribute"></a>Атрибут Service-Principal-Name
 
@@ -59,14 +59,14 @@ ms.locfileid: "105655051"
 | MAPI-Id                | \-                                |
 | System-Only            | Неверно                             |
 | Является однозначным       | Неверно                             |
-| Индексируется             | True                              |
-| В глобальном каталоге      | True                              |
+| Индексируется             | Верно                              |
+| В глобальном каталоге      | Верно                              |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                      |
 | Range-Lower            | \-                                |
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000001                        |
 | System-Flags           | 0x00000012                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -80,14 +80,14 @@ ms.locfileid: "105655051"
 | MAPI-Id                | \-                                |
 | System-Only            | Неверно                             |
 | Является однозначным       | Неверно                             |
-| Индексируется             | True                              |
-| В глобальном каталоге      | True                              |
+| Индексируется             | Верно                              |
+| В глобальном каталоге      | Верно                              |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                      |
 | Range-Lower            | \-                                |
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000001                        |
 | System-Flags           | 0x00000012                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -101,14 +101,14 @@ ms.locfileid: "105655051"
 | MAPI-Id                | \-                                |
 | System-Only            | Неверно                             |
 | Является однозначным       | Неверно                             |
-| Индексируется             | True                              |
-| В глобальном каталоге      | True                              |
+| Индексируется             | Верно                              |
+| В глобальном каталоге      | Верно                              |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                      |
 | Range-Lower            | \-                                |
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000001                        |
 | System-Flags           | 0x00000012                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -122,14 +122,14 @@ ms.locfileid: "105655051"
 | MAPI-Id                | \-                                |
 | System-Only            | Неверно                             |
 | Является однозначным       | Неверно                             |
-| Индексируется             | True                              |
-| В глобальном каталоге      | True                              |
+| Индексируется             | Верно                              |
+| В глобальном каталоге      | Верно                              |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                      |
 | Range-Lower            | \-                                |
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000001                        |
 | System-Flags           | 0x00000012                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -143,14 +143,14 @@ ms.locfileid: "105655051"
 | MAPI-Id                | \-                                |
 | System-Only            | Неверно                             |
 | Является однозначным       | Неверно                             |
-| Индексируется             | True                              |
-| В глобальном каталоге      | True                              |
+| Индексируется             | Верно                              |
+| В глобальном каталоге      | Верно                              |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                      |
 | Range-Lower            | \-                                |
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000001                        |
 | System-Flags           | 0x00000012                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -164,8 +164,8 @@ ms.locfileid: "105655051"
 | MAPI-Id                | \-                                |
 | System-Only            | Неверно                             |
 | Является однозначным       | Неверно                             |
-| Индексируется             | True                              |
-| В глобальном каталоге      | True                              |
+| Индексируется             | Верно                              |
+| В глобальном каталоге      | Верно                              |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                      |
 | Range-Lower            | \-                                |
 | Range-Upper            | \-                                |

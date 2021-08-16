@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d15c532659811c7e499369e7798c4b1ceaf842bc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9911619e54247c633d4b3cecc69327f92da6a7f27c3cebf9231ec86ad0f0a20d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105661947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119061572"
 ---
 # <a name="glupwlcurve-function"></a>Функция Глупвлкурве
 
@@ -58,7 +58,7 @@ void WINAPI gluPwlCurve(
 
 </dd> <dt>
 
-*array* 
+*array*. 
 </dt> <dd>
 
 Массив, содержащий точки кривой.
@@ -83,7 +83,7 @@ void WINAPI gluPwlCurve(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глупвлкурве** описывает кривую линейной обрезки кусочно-для поверхности нурбс. Линейная кривая кусочно-состоит из списка координат точек в области параметров для усечения поверхности НУРБС. Эти точки связаны с сегментами линии для формирования кривой. Если кривая приближена к реальной кривой, точки должны быть близки, чтобы результирующий контур был изогнут в разрешении, используемом в приложении.
 

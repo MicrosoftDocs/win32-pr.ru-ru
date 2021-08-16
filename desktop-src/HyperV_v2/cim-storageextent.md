@@ -755,7 +755,7 @@ class CIM_StorageExtent : CIM_LogicalDevice
 
 </dd> </dl>
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

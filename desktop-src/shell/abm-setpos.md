@@ -41,7 +41,7 @@ SHAppBarMessage(ABM_SETPOS, pabd);
 
 Это сообщение приводит к тому, что система отправляет сообщение уведомления [**АБН \_ посчанжед**](abn-poschanged.md) всем AppBar.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

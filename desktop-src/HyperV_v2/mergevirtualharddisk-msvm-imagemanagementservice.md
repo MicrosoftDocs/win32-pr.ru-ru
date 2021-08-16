@@ -172,7 +172,7 @@ public static void MergeVirtualHardDisk(string ChildPath, string ParentPath)
 
 
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

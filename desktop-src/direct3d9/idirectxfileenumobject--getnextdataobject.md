@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dxof.lib
 - D3dxof.dll
-ms.openlocfilehash: bc50af216eaae1687351d472b7151aaaeae9116f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 42d95fcee1b431f5121389d7bb6595e5c53ca56298c75ed6010ee86733c310e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104354230"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119985134"
 ---
 # <a name="idirectxfileenumobjectgetnextdataobject-method"></a>Метод Идиректксфилинумобжект:: Жетнекстдатаобжект
 
@@ -55,7 +55,7 @@ HRESULT GetNextDataObject(
 
 Если метод выполнен успешно, возвращается значение ДКСФИЛЕ \_ ОК. Если метод завершается ошибкой, возвращаемое значение может быть одним из следующих: ДКСФИЛИРР \_ бадвалуе, дксфилирр \_ номореобжектс
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Объекты верхнего уровня всегда являются объектами данных. Объекты ссылок на данные и двоичные объекты могут быть только дочерними объектами данных.
 
@@ -65,7 +65,7 @@ HRESULT GetNextDataObject(
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Дксфиле. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Дксфиле. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>D3dxof. lib</dt> </dl> |
 
 

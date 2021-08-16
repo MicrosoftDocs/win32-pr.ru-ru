@@ -4,12 +4,12 @@ ms.assetid: bc37362e-d66d-4552-8357-d22093d5d0ad
 title: Peak-Constrained кодирование переменной скорости
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d8a32ed6b6f90ce1e112cf5afd19f33e65f541a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b97361c6d4ac8cefd33b223157347e450252691cab024e167862f50c7aac0fbe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711419"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118737671"
 ---
 # <a name="peak-constrained-variable-bit-rate-encoding"></a>Peak-Constrained кодирование переменной скорости
 
@@ -101,7 +101,7 @@ done:
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -111,7 +111,7 @@ done:
 [Модель буфера для контейнера утечки](the-leaky-bucket-buffer-model.md)
 </dt> <dt>
 
-[Создание топологии для Two-Pass кодирования Windows Media](how-to-create-a-topology-for-2-pass-windows-media-encoding.md)
+[создание топологии для Two-Pass Windows кодирования мультимедиа](how-to-create-a-topology-for-2-pass-windows-media-encoding.md)
 </dt> </dl>
 
  

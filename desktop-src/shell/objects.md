@@ -1,5 +1,5 @@
 ---
-description: В этом разделе описываются объекты Windows, реализованные оболочкой.
+description: в этом разделе описываются объекты Windows, реализованные оболочкой.
 title: Объекты оболочки для сценариев и Microsoft Visual Basic
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 52958c68edfd81771267c7a7ed29e42ab8ed1d5a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bd2c924d9b66194c8f016fc8b1c16bed8a7e3c62f82e3673837e0e31c8563fc5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104545922"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117858803"
 ---
 # <a name="shell-objects-for-scripting-and-microsoft-visual-basic"></a>Объекты оболочки для сценариев и Microsoft Visual Basic
 
-В этом разделе описываются объекты Windows, реализованные оболочкой.
+в этом разделе описываются объекты Windows, реализованные оболочкой.
 
 ## <a name="in-this-section"></a>В этом разделе
 
@@ -38,7 +38,7 @@ ms.locfileid: "104545922"
 <tbody>
 <tr class="odd">
 <td><a href="didiskquotauser-object.md"><strong>дидисккуотаусер</strong></a><br/></td>
-<td>Позволяет клиенту управлять параметрами дисковой квоты на глобальные тома NTFS. Этот объект делает необходимые функции интерфейса <a href="didiskquotauser-object.md"><strong>дидисккуотаусер</strong></a> доступными для создания сценариев и приложений на основе Microsoft Visual Basic.<br/></td>
+<td>Позволяет клиенту управлять параметрами дисковой квоты на глобальные тома NTFS. этот объект делает необходимые функции интерфейса <a href="didiskquotauser-object.md"><strong>дидисккуотаусер</strong></a> доступными для создания сценариев и приложений на основе Microsoft Visual Basic.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="diskquotacontrol-object.md"><strong>дисккуотаконтрол</strong></a><br/></td>
@@ -49,7 +49,7 @@ ms.locfileid: "104545922"
 <td>Получает события регистрации окна <a href="/windows/desktop/api/Exdisp/nn-exdisp-ishellwindows"><strong>ишеллвиндовс</strong></a> . <br/></td>
 </tr>
 <tr class="even">
-<td><a href="folder.md"><strong>Folder</strong></a><br/></td>
+<td><a href="folder.md"><strong>Папка</strong></a><br/></td>
 <td>Представляет папку оболочки. Этот объект содержит свойства и методы, позволяющие получить сведения о папке.<br/></td>
 </tr>
 <tr class="odd">
@@ -164,7 +164,7 @@ ms.locfileid: "104545922"
 </tr>
 <tr class="odd">
 <td><a href="shelluihelper.md"><strong>шеллуихелпер</strong></a><br/></td>
-<td>Реализовано оболочкой, чтобы помочь скриптам и Visual Basic разработчикам использовать некоторые функции, доступные в оболочке. Объект <a href="shelluihelper.md"><strong>шеллуихелпер</strong></a> не имеет свойств или событий. Для добавления элементов в оболочку предоставляются методы.<br/></td>
+<td>реализовано оболочкой, чтобы помочь скриптам и Visual Basic разработчикам использовать некоторые функции, доступные в оболочке. Объект <a href="shelluihelper.md"><strong>шеллуихелпер</strong></a> не имеет свойств или событий. Для добавления элементов в оболочку предоставляются методы.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="shellwindows.md"><strong>шеллвиндовс</strong></a><br/></td>

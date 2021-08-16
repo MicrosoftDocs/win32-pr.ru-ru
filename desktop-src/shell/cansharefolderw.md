@@ -1,6 +1,6 @@
 ---
 description: Используется для определения, следует ли отображать этот параметр общей папки в веб-представлении.
-title: Функция Каншарефолдерв
+title: Функция CanShareFolderW
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -14,16 +14,16 @@ api_type:
 api_location:
 - Ntshrui.dll
 ms.assetid: 5fd28a14-53e7-4016-9c49-9bb14ce7808b
-ms.openlocfilehash: 46df03208ecc468aac366fb0b4cfb33e1a68157e
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 7013c6ae825c34ae7d2dd7b9d507eac1e52c8d4e3a27182e5297e72ef13b4d9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841685"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032872"
 ---
-# <a name="cansharefolderw-function"></a>Функция Каншарефолдерв
+# <a name="cansharefolderw-function"></a>Функция CanShareFolderW
 
-\[Эта функция доступна в Windows XP с пакетом обновления 2 (SP2) и Windows Server 2003. Он может быть изменен или недоступен в последующих версиях Windows.\]
+\[эта функция доступна в Windows XP с пакетом обновления 2 (sp2) и Windows Server 2003. Он может быть изменен или недоступен в последующих версиях Windows.\]
 
 Используется для определения, следует ли отображать **этот параметр общей папки** в веб-представлении.
 
@@ -73,14 +73,14 @@ STDAPI CanShareFolderW(
 
 Эта функция не имеет связанного LIB файла. Для его использования необходимо использовать [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                   |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                   |
 | DLL<br/>                      | <dl> <dt>Ntshrui.dll</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **Каншарефолдерв** (Юникод)<br/>                                               |
 

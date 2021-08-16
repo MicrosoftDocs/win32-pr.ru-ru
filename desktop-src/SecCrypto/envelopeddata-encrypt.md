@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: ecdb665a8e70ff329f25398eb855ff3e82c96cfa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: df4741538ae11dbe1b158fd9b8e8a6c8632c427f9a0e8376e8cd10c9056461fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648143"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117766093"
 ---
 # <a name="envelopeddataencrypt-method"></a>Енвелопеддата. Encrypt, метод
 
@@ -64,7 +64,7 @@ EnvelopedData.Encrypt( _
 
 Этот метод возвращает большой двоичный объект, содержащий запечатанные данные в закодированной строке.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращенный BLOB-объект содержит зашифрованное содержимое и зашифрованный ключ сеанса для каждого предполагаемого получателя. Эти сеансовые ключи шифруются с помощью открытого ключа каждого получателя. Зашифрованные ключи сеанса можно расшифровать только с помощью закрытого ключа получателя.
 

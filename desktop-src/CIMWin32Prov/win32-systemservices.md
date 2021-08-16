@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d8e61469729f3753256bc7fcf5598265b5c1b7dc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c001baf629c228fb27f4f9fd744ae9aa0942f44ff028f803be66639db41d6e12
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103807444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117833989"
 ---
 # <a name="win32_systemservices-class"></a>\_Класс Win32 системсервицес
 
@@ -46,7 +46,7 @@ class Win32_SystemServices : CIM_SystemComponent
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ системсервицес** имеет следующие свойства.
 
@@ -84,7 +84,7 @@ class Win32_SystemServices : CIM_SystemComponent
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ системсервицес** является производным от [**CIM \_ системкомпонент**](cim-systemcomponent.md).
 

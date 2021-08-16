@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: d456eae826e8a2e173b92fac4be716fb24bcb92d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a2664a99fb103b41bd3b5040b3876b0cb92b8f9c010f420f93af7eb62a6f32bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117860251"
 ---
 # <a name="folder2offlinestatus-property"></a>Folder2. Оффлинестатус, свойство
 
@@ -96,7 +96,7 @@ iOfflineStatus = Folder2.OfflineStatus
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Для правильной работы **оффлинестатус** необходимо включить автономные файлы с помощью параметров папки. Если параметр автономные файлы не включен, свойство возвращает значение **OFS \_ Inactive**.
@@ -105,9 +105,9 @@ iOfflineStatus = Folder2.OfflineStatus
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере показано правильное использование **оффлинестатус** для JScript, VBScript и Visual Basic.
+в следующем примере показано правильное использование **оффлинестатус** для JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -186,8 +186,8 @@ End Sub
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                          |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (версия 5,0 или более поздняя)</dt> </dl> |

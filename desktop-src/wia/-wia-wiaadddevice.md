@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Wiaguid.lib
 - Wiaguid.dll
-ms.openlocfilehash: 694265f0a59096a5a6a58ccbf4e43c92e21fe9b1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 81dcff3cdca3459126751b12b86f1e11adc2b4fec8926f69211f0508253b64fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103809964"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965403"
 ---
 # <a name="wiaadddevice-function"></a>Функция Виаадддевице
 
@@ -42,18 +42,18 @@ void WINAPI WiaAddDevice(void);
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция должна вызываться с учетными данными администратора. При работе в режиме управления учетными записями пользователей (LUA) процесс должен быть повышен.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                         |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                   |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                         |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                   |
 | Header<br/>                   | <dl> <dt>WIA. h</dt> </dl>       |
 | Библиотека<br/>                  | <dl> <dt>Виагуид. lib</dt> </dl> |
 

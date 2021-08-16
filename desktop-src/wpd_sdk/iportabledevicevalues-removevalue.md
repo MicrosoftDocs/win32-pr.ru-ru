@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: f65160cc2798524d88471382c855f65dea2e6033
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2cc21976b72c0d493f1534d63ea5da56fac059db6444ed81c310b9c154f3ee3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105717840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118963623"
 ---
 # <a name="iportabledevicevaluesremovevalue-method"></a>Метод Ипортабледевицевалуес:: Ремовевалуе
 
@@ -61,13 +61,13 @@ HRESULT RemoveValue(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Портабледевицетипес. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Портабледевицетипес. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>Портабледевицегуидс. lib</dt> </dl> |
 
 

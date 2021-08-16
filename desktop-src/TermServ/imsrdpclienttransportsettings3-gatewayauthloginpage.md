@@ -19,12 +19,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f5be535dea0a89f1cf6e7c238029e53f38f58b0c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 672fc929e2fccf6934a2703684e467c75fd8afb725107a73bf0f6bb311c09bfc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000934"
 ---
 # <a name="imsrdpclienttransportsettings3gatewayauthloginpage-property"></a>Свойство IMsRdpClientTransportSettings3:: Гатевайауслогинпаже
 

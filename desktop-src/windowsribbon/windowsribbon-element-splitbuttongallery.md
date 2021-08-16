@@ -105,7 +105,7 @@ ms.locfileid: "117850830"
 <dt><span></span><span></span><strong></strong> Нижний<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Ыть<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Слева<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Крывает<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Справа<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Лучшая<br/> </dt> <dd></dd> </dl></td>
 </tr>
 <tr class="odd">
-<td><strong>Type</strong><br/></td>
+<td><strong>Тип</strong><br/></td>
 <td>xs:string<br/></td>
 <td>Нет<br/></td>
 <td>Ограничено одним из следующих значений:<br/> <br/>

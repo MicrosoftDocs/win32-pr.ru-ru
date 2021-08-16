@@ -4,16 +4,16 @@ description: Сведения о свойстве Visible объекта "Вын
 ms.assetid: cbda7f69-889a-45a0-9549-d27eddfcec57
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93ac587fa649f2a8ccb5ea83ddc077050a8548d2
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 101d454f90e01ebcf31619b935d1b90512648baf33a11883b6b971c3178fb871
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112396329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975484"
 ---
 # <a name="visible-property-balloon-object"></a>Свойство Visible (объект всплывающего объекта)
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 <dl> <dt>
 

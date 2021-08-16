@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scanprofileui.h
-ms.openlocfilehash: bc8707378f1debc322fea258ceb8aad0c6400ea0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a2003471a151677b5f0fbd9ae88e9d3cf8d975525a9dbf8340c6fc1a9f2befc8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965813"
 ---
 # <a name="iscanprofileuiscanprofiledialog-method"></a>Метод Исканпрофилеуи:: Сканпрофиледиалог
 
@@ -54,20 +54,20 @@ HRESULT ScanProfileDialog(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Диалоговое окно является модальным; пользователь не может переключиться на родительское окно, пока диалоговое окно не закроется.
 
 Значения `<ProfileName>` элемента и `<WiaItem>` элемента можно изменить в диалоговом окне. `<Default>`Элемент можно добавить или удалить. Другие изменения профиля сканирования не могут быть сделаны в диалоговом окне.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                        |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                              |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                        |
 | Header<br/>                   | <dl> <dt>Сканпрофилеуи. h</dt> </dl>  |
 | IDL<br/>                      | <dl> <dt>Сканпрофилес. idl</dt> </dl> |
 

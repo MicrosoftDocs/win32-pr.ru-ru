@@ -60,7 +60,7 @@ typedef enum WMDRMNET_POLICY_TYPE {
 
 Нет.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -4,16 +4,16 @@ ms.assetid: 3132e004-5543-4b21-878d-35197f7077d6
 title: 'Метод Итаудиосеттингс:: Set (Ипмсп. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bf947c28d3b5270b3c5dabd4196d0e6b71f57911
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: abf26b35e3d5be18721abb6d8dd109946503cb11cb30d5c7db869d92e88adfcc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003402"
 ---
 # <a name="itaudiosettingsset-method"></a>Метод Итаудиосеттингс:: Set
 
-\[ Этот метод недоступен для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[этот метод недоступен для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Метод **Set** задает значение заданного [**Свойства звуковых параметров**](audiosettingsproperty.md).
 

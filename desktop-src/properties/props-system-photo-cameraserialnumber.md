@@ -4,12 +4,12 @@ ms.assetid: 0d1b651a-fd48-4bc4-92fd-f0eb6c72e264
 title: System. photo. Камерасериалнумбер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d4674fb5fbe2472fbaf49c13ce23b5d88dd976a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e69805c9d27825767b9134c7c8605135400a2222616e6a69b76bd8ae993968cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105647313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970143"
 ---
 # <a name="systemphotocameraserialnumber"></a>System. photo. Камерасериалнумбер
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

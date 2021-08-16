@@ -4,12 +4,12 @@ ms.assetid: 0b8060ab-1463-45c2-8277-d15122561248
 title: Атрибут MF_TOPONODE_STREAMID (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2377183927cf75c6e0a7436384426dcab94680c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c4cf1edc8918af91144de4f408e7913c3f40b1f0246059bc5bf9e4f1193a1cf7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118739893"
 ---
 # <a name="mf_toponode_streamid-attribute"></a>\_Атрибут MF топоноде \_ STREAMID
 
@@ -19,7 +19,7 @@ ms.locfileid: "105711283"
 
 **UINT32**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут применяется к выходным узлам **( \_ \_ \_ узел выходных данных топологии MF**).
 
@@ -27,14 +27,14 @@ ms.locfileid: "105711283"
 
 Константа GUID для этого атрибута экспортируется из мфууид. lib.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                               |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 

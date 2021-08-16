@@ -1,25 +1,25 @@
 ---
-description: В этом руководстве показано, как использовать API перекодировки для кодирования WMA-файла Windows Media Audio.
+description: в этом руководстве показано, как использовать API перекодирования для кодирования файла Windows Media Audio (WMA).
 ms.assetid: 2397ca78-edb5-4756-bd07-00529db28f76
 title: Учебник. кодирование WMA-файла
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f491a9d460771dae91a49ab42982fbe97b24c42
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 86301f301bb4f39f6c9258ec3eacfdd1646af8e76791e2df37ae6bf7d8f89880
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972793"
 ---
 # <a name="tutorial-encoding-a-wma-file"></a>Учебник. кодирование WMA-файла
 
-В этом руководстве показано, как использовать [API перекодировки](transcode-api.md) для кодирования WMA-файла Windows Media Audio.
+в этом руководстве показано, как использовать [API перекодирования](transcode-api.md) для кодирования файла Windows Media Audio (WMA).
 
 В этом руководстве используется большая часть кода из учебника [Кодирование файла MP4](tutorial--encoding-an-mp4-file-.md), поэтому сначала ознакомьтесь с этим руководством. Единственным кодом, который отличается, является функция `CreateTranscodeProfile` , которая создает профиль перекодирования.
 
 ## <a name="create-the-transcode-profile"></a>Создание профиля перекодирования
 
-*Профиль* перекодировки описывает параметры кодирования и контейнер файла. Для файлов WMA контейнер файла представляет собой файл формата ASF. Файл ASF содержит аудиопоток, закодированный с помощью [**кодировщика Windows Media Audio**](windowsmediaaudioencoder.md).
+*Профиль* перекодировки описывает параметры кодирования и контейнер файла. Для файлов WMA контейнер файла представляет собой файл формата ASF. файл ASF содержит аудиопоток, закодированный с помощью [**Windows Media audio Encoder**](windowsmediaaudioencoder.md).
 
 Чтобы создать топологию перекодирования, создайте профиль перекодирования и укажите параметры для аудиопотока и контейнера. Затем создайте топологию, указав источник входных данных, URL-адрес вывода и профиль перекодирования.
 
@@ -157,7 +157,7 @@ done:
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

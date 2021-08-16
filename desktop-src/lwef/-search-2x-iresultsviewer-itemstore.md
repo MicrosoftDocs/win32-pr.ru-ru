@@ -53,7 +53,7 @@ HRESULT get_ItemStore(
 
 Задает имена хранилища.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

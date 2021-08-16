@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9mesh.h
-ms.openlocfilehash: 7204308e6b9355b416218f31af301b5ea6d8fff5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 52ac939cc77bbd87dbecffc07253f0fadc5cbbdaa48e07f938f163c453c21e14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105684988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118798800"
 ---
 # <a name="max_fvf_decl_size-enumeration"></a>\_Перечисление Max фвф \_ DECL \_ size
 
@@ -46,7 +46,7 @@ typedef enum  {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 MAXD3DDECLLENGTH определяется как максимум 64 (см. d3d9types. h). Это не включает элемент вершины маркера End.
 
@@ -56,7 +56,7 @@ MAXD3DDECLLENGTH определяется как максимум 64 (см. d3d9
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx9mesh. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx9mesh. h</dt> </dl> |
 
 
 

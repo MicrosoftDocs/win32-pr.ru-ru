@@ -1,24 +1,24 @@
 ---
-title: Типы перечисления пакета SDK Windows Media Format
-description: Сведения о типах перечислений, реализуемых пакетом SDK для формата Windows Media, например DRM_HTTP_STATUS и DRM_LICENSE_STATE_CATEGORY.
+title: Windows Типы перечисления SDK формата мультимедиа
+description: сведения о типах перечисления, которые реализует пакет SDK для Windows Media Format, например DRM_HTTP_STATUS и DRM_LICENSE_STATE_CATEGORY.
 ms.assetid: cd28f608-25ba-44a7-868b-b1cd4dfcfa45
 keywords:
-- Windows Media Format SDK, типы перечислений
+- Windows Пакет SDK для формата мультимедиа, типы перечислений
 - Расширенный системный формат (ASF), типы перечислений
 - ASF (Расширенный системный формат), типы перечислений
 - типы перечисления
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45a6fcb6d433079cce9d570a7eb6e28f31691985
-ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
+ms.openlocfilehash: 16b3a53688e21e58b0d9509cc901a72399f26b9d758cac89511e66a76d740db1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112068000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117848163"
 ---
-# <a name="windows-media-format-sdk-enumeration-types"></a>Типы перечисления пакета SDK Windows Media Format
+# <a name="windows-media-format-sdk-enumeration-types"></a>Windows Типы перечисления SDK формата мультимедиа
 
-Пакет SDK для формата Windows Media реализует следующие типы перечислений.
+пакет SDK для Windows Media Format реализует следующие типы перечислений.
 
 
 
@@ -39,7 +39,7 @@ ms.locfileid: "112068000"
 | [**\_Тип индекса \_ ВМТ**](/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_index_type)                                     | Определяет объект, с которым может быть связан индекс, основанный на времени.                                                              |
 | [**\_тип индексатора \_ ВМТ**](/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_indexer_type)                                 | Определяет типы индексирования, поддерживаемые индексатором.                                                                          |
 | [**\_протокол ВМТ NET \_**](/previous-versions/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_net_protocol)                                 | Определяет типы протоколов, которые поддерживаются приемником сети.                                                                   |
-| [**\_ \_ режим класса ВМТ \_ мусикспич**](/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_musicspeech_class_mode)            | Определяет режимы сжатия, доступные для голосового кодека Windows Media Audio 9.                                                |
+| [**\_ \_ режим класса ВМТ \_ мусикспич**](/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_musicspeech_class_mode)            | определяет режимы сжатия, доступные для голосового кодека Windows Media Audio 9.                                                |
 | [**\_Формат смещения \_ ВМТ**](/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_offset_format)                               | Определяет типы смещений, используемых в этом пакете SDK.                                                                                   |
 | [**\_режим воспроизведения \_ ВМТ**](/previous-versions/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_play_mode)                                       | Определяет параметры воспроизведения модуля чтения.                                                                                      |
 | [**\_Параметры прокси-сервера ВМТ \_**](/previous-versions/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_proxy_settings)                             | Определяет параметры прокси-сервера сети для использования с объектом Reader.                                                                 |
@@ -48,7 +48,7 @@ ms.locfileid: "112068000"
 | [**\_Формат хранения \_ ВМТ**](/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_storage_format)                             | Определяет типы файлов, которыми можно управлять с помощью этого пакета SDK.                                                                    |
 | [**\_Выбор потока \_ ВМТ**](/previous-versions/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_stream_selection)                         | Определяет состояние потока.                                                                                                  |
 | [**\_тип транспорта \_ ВМТ**](/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_transport_type)                             | Определяет типы транспорта, поддерживаемые этим пакетом SDK.                                                                               |
-| [**\_версия ВМТ**](/previous-versions/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_version)                                            | Определяет номера версий пакета SDK Windows Media Format.                                                                     |
+| [**\_версия ВМТ**](/previous-versions/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_version)                                            | определяет номера версий пакета SDK для Windows Media Format.                                                                     |
 | [**\_тип записи водяного знака ВМТ \_ \_**](/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_watermark_entry_type)                | Определяет типы поддерживаемых водяных знаков.                                                                                       |
 
 

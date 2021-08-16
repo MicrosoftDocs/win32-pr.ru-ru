@@ -91,7 +91,7 @@ ms.locfileid: "118680784"
 | [**DS-Core-распространение-данные**](a-dscorepropagationdata.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Из записи**](a-fromentry.md)                                                              | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                                     | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
-| [**Тип экземпляра**](a-instancetype.md)                                                        | True      | [**Вверх**](c-top.md)<br/>                                                              |
+| [**Тип экземпляра**](a-instancetype.md)                                                        | Верно      | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Удалено**](a-isdeleted.md)                                                              | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
@@ -120,12 +120,12 @@ ms.locfileid: "118680784"
 | [**MS-DS-User-Password-срок действия истек**](a-msds-userpasswordexpired.md)                              | Неверно     | **Объект MS-DS-BIND-Object**                                                                    |
 | [**MS-DS-User-Password — не требуется**](a-ms-ds-userpasswordnotrequired.md)                    | Неверно     | **Объект MS-DS-BIND-Object**                                                                    |
 | [**NT-PWD-History**](a-ntpwdhistory.md)                                                       | Неверно     | **Объект MS-DS-BIND-Object**                                                                    |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                       | True      | [**Безопасность — участник**](c-securityprincipal.md)<br/> [**Вверх**](c-top.md)<br/> |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                       | Верно      | [**Безопасность — участник**](c-securityprincipal.md)<br/> [**Вверх**](c-top.md)<br/> |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
-| [**Объект — Категория**](a-objectcategory.md)                                                    | True      | [**Вверх**](c-top.md)<br/>                                                              |
-| [**Объектный класс**](a-objectclass.md)                                                          | True      | [**Вверх**](c-top.md)<br/>                                                              |
+| [**Объект — Категория**](a-objectcategory.md)                                                    | Верно      | [**Вверх**](c-top.md)<br/>                                                              |
+| [**Объектный класс**](a-objectclass.md)                                                          | Верно      | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Объект — GUID**](a-objectguid.md)                                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
-| [**Идентификатор безопасности объекта**](a-objectsid.md)                                                              | True      | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                 |
+| [**Идентификатор безопасности объекта**](a-objectsid.md)                                                              | Верно      | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                 |
 | [**Версия объекта**](a-objectversion.md)                                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Разделяемый атрибут-удаление-список**](a-partialattributedeletionlist.md)                      | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |

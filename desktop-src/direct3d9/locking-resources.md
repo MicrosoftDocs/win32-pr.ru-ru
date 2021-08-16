@@ -4,12 +4,12 @@ ms.assetid: b17d8262-e514-4b9c-9237-653a4258a14e
 title: Блокировка ресурсов (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70d66a7a420a33cb908d0974f9d942597019aded
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c6cdb7cde646bd5073bc0c5b574694be69f05f1bf15d8c5c08e00b7182cfe044
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105701137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118799497"
 ---
 # <a name="locking-resources-direct3d-9"></a>Блокировка ресурсов (Direct3D 9)
 
@@ -31,7 +31,7 @@ ms.locfileid: "105701137"
 
 Дкстн сохраняет пиксели в закодированных блоках 4x4 и может блокироваться только на границах 4x4.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

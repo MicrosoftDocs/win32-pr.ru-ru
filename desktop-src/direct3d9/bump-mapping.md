@@ -4,12 +4,12 @@ ms.assetid: 3e195e4f-3fa9-43c4-b2e5-42a6b3aaccf2
 title: Отображение рельефа (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9dba4621568f595eae965941168ad6930e183f7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5bb10a3a01ff3b7989cd7c44f95d6980cb08a86c00b3e9a0fc02173e349d4968
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104142361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118805837"
 ---
 # <a name="bump-mapping-direct3d-9"></a>Отображение рельефа (Direct3D 9)
 
@@ -27,7 +27,7 @@ ms.locfileid: "104142361"
 
 Direct3D изначально не поддерживает карты высоты; они просто представляют собой удобный формат для хранения и визуализации данных профиля. Приложение может хранить данные профиля в любом формате или даже создавать карту выпуклости процедур.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

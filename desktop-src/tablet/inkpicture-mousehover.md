@@ -4,12 +4,12 @@ ms.assetid: 95a03833-529e-4fca-b8df-ae7edefc8e5e
 title: Событие InkPicture. Маусеховер (Мсинкаут. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 32f896d69cea95456d637d8f1195d66376d92049
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 30c0e0e5d363241944e24cea3286445e6bb026d480ca54f098472a0b65ac7c7a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967073"
 ---
 # <a name="inkpicturemousehover-event"></a>Событие InkPicture. Маусеховер
 
@@ -32,17 +32,17 @@ void MouseHover();
 
 Это событие не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод события определен в интерфейсе **\_ иинкпиктуривентс** . Интерфейс **\_ иинкпиктуривентс** реализует интерфейс [**IDISPATCH**](/windows/win32/api/oaidl/nn-oaidl-idispatch) с идентификатором DISPID \_ ипемаусеховер.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/>                                                       |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/>                                                       |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                                           |
 | Header<br/>                   | <dl> <dt>Мсинкаут. h (также требуется Мсинкаут \_ i. c)</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

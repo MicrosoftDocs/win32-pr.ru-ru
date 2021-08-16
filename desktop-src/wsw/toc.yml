@@ -1,7 +1,7 @@
-- name: Веб-службы Windows
+- name: Windows Веб-службы
   href: portal.md
   items:
-    - name: О веб-службах Windows
+    - name: сведения о Windows веб-службах
       href: about-windows-web-services.md
       items:
         - name: Обзор уровня модели службы
@@ -32,9 +32,9 @@
         - name: Обзор уровня канала
           href: channel-layer-overview.md
           items:
-            - name: Сообщение
+            - name: Message
               href: message.md
-            - name: Канал
+            - name: Channel
               href: channel.md
               items:
                 - name: Адрес конечной точки
@@ -50,7 +50,7 @@
               items:
                 - name: Описание безопасности
                   href: security-description.md
-                - name: Параметры безопасного канала
+                - name: Параметры канала безопасности
                   href: security-channel-settings.md
                 - name: Привязки безопасности
                   href: security-bindings.md
@@ -127,7 +127,7 @@
               href: operation-context-lifetime-and-threading.md
             - name: Потокобезопасность
               href: thread-safety.md
-        - name: ошибки
+        - name: Ошибки
           href: errors.md
         - name: Ошибки
           href: faults.md
@@ -135,7 +135,7 @@
           href: heap.md
         - name: Служебные программы
           href: utilities.md
-    - name: Использование веб-служб Windows
+    - name: использование веб-служб Windows
       href: using-windows-web-services.md
       items:
         - name: Создание клиента
@@ -144,7 +144,7 @@
           href: manually-creating-a-service-proxy-for-a-wcf-service.md
         - name: Создание службы
           href: creating-a-service.md
-        - name: Примеры веб-служб Windows
+        - name: Windows Примеры веб-служб
           href: windows-web-services-examples.md
           items:
             - name: Примеры модели службы
@@ -375,10 +375,10 @@
                   href: filereptoolexample.md
                 - name: филерепсервицеексампле
                   href: filerepserviceexample.md
-    - name: Справочник по веб-службам Windows
+    - name: Windows Справочник по веб-службам
       href: windows-web-services-reference.md
       items:
-        - name: Функции обратного вызова веб-служб Windows
+        - name: Windows Функции обратного вызова веб-служб
           href: web-services-for-windows-callback-functions.md
           items:
             - name: WS_ABANDON_MESSAGE_CALLBACK
@@ -724,7 +724,7 @@
               href: /windows/desktop/api/WebServices/ne-webservices-ws_xml_writer_output_type
             - name: WS_XML_WRITER_PROPERTY_ID
               href: /windows/desktop/api/WebServices/ne-webservices-ws_xml_writer_property_id
-        - name: Функции веб-служб Windows
+        - name: Windows Функции веб-служб
           href: web-services-for-windows-functions.md
           items:
             - name: всабандонкалл
@@ -1119,7 +1119,7 @@
               href: /windows/desktop/api/WebServices/nf-webservices-wswritexmlnsattribute
             - name: всксмлстринжекуалс
               href: /windows/desktop/api/WebServices/nf-webservices-wsxmlstringequals
-        - name: Дескрипторы веб-служб Windows
+        - name: Windows Дескрипторы веб-служб
           href: web-services-for-windows-handles.md
           items:
             - name: WS_CHANNEL
@@ -1152,7 +1152,7 @@
               href: ws-xml-reader.md
             - name: WS_XML_WRITER
               href: ws-xml-writer.md
-        - name: Макросы веб-служб Windows
+        - name: Windows Макросы веб-служб
           href: web-services-for-windows-macros.md
           items:
             - name: WS_STRING_EMPTY
@@ -1167,9 +1167,9 @@
               href: /windows/desktop/api/WebServices/nf-webservices-ws_xml_string_value
             - name: вскаунтоф
               href: /windows/desktop/api/WebServices/nf-webservices-wscountof
-        - name: Возвращаемые значения веб-служб Windows
+        - name: Windows Возвращаемые значения веб-служб
           href: windows-web-services-return-values.md
-        - name: Структуры веб-служб Windows
+        - name: Windows Структуры веб-служб
           href: web-services-for-windows-structures.md
           items:
             - name: WS_ANY_ATTRIBUTE
@@ -1682,7 +1682,7 @@
               href: /windows/win32/api/WebServices/ns-webservices-ws_xml_writer_stream_output
             - name: WS_XML_WRITER_TEXT_ENCODING
               href: /windows/win32/api/WebServices/ns-webservices-ws_xml_writer_text_encoding
-- name: Предзагрузка API отладки для приложений Магазина Windows
+- name: предзагрузка api отладки для приложений магазина Windows
   href: windows-runtime-prefetch-debug-apis.md
   items:
     - name: иконтентпрефетчертасктригжер

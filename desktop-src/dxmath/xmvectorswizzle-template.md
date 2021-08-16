@@ -4,12 +4,12 @@ ms.assetid: 75608e80-5911-45a8-beca-ceac1f4d2c1c
 title: Шаблон Ксмвекторсвиззле (Директксмас. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e8e872d76f3251eccc8616c143c645b388e2dca4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 800d976d63480f88defea7f1db07651563df44e8985ae5925810617b44302e87
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708590"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984484"
 ---
 # <a name="xmvectorswizzle-template"></a>Шаблон Ксмвекторсвиззле
 
@@ -38,7 +38,7 @@ template<uint32_t SwizzleX, uint32_t SwizzleY, uint32_t SwizzleZ, uint32_t Swizz
 
 Возвращает свиззлед [**ксмвектор**](xmvector-data-type.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция является версией шаблона [**ксмвекторсвиззле**](/windows/win32/api/directxmath/nf-directxmath-xmvectorswizzle) , где аргументы *свиззле \** являются значениями шаблона.
 
@@ -53,7 +53,7 @@ template<uint32_t SwizzleX, uint32_t SwizzleY, uint32_t SwizzleZ, uint32_t Swizz
 
 ### <a name="platform-requirements"></a>Требования к платформе
 
-Microsoft Visual Studio 2010 или Microsoft Visual Studio 2012 с Windows SDK для Windows 8. Поддерживается для классических приложений Win32, приложений для Магазина Windows и Windows Phone 8 приложений.
+Microsoft Visual Studio 2010 или Microsoft Visual Studio 2012 с Windows SDK для Windows 8. поддерживается для классических приложений Win32, приложений для магазина Windows и Windows Phone 8 приложений.
 
 ## <a name="requirements"></a>Требования
 
@@ -61,7 +61,7 @@ Microsoft Visual Studio 2010 или Microsoft Visual Studio 2012 с Windows SDK 
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Директксмас. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Директксмас. h</dt> </dl> |
 
 
 
