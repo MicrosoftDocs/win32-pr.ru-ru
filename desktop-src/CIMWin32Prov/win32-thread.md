@@ -36,12 +36,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 6e9f6a8c821aa327e8b810b634c85bb06459910f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f3add3a93cc974c2d6c5b20c360d099d46b688887f81cb646005568240a7cb52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650460"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118416720"
 ---
 # <a name="win32_thread-class"></a>\_Класс потока Win32
 
@@ -86,13 +86,13 @@ class Win32_Thread : CIM_Thread
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ потока Win32** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -318,7 +318,7 @@ class Win32_Thread : CIM_Thread
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -434,7 +434,7 @@ class Win32_Thread : CIM_Thread
 Квалификаторы: [**maxlen**](../wmisdk/standard-qualifiers.md) (256), [**override**](../wmisdk/standard-qualifiers.md) ("Процесшандле"), [**распространяемый**](../wmisdk/standard-qualifiers.md) ("[**\_ процесс CIM**](cim-process.md).**Handle**"), [**маппингстрингс**](../wmisdk/standard-qualifiers.md) (" Win32API Structures \| Help Tools \| [**THREADENTRY32**](/windows/win32/api/tlhelp32/ns-tlhelp32-threadentry32) \| th32OwnerProcessID ")
 </dt> </dl>
 
-Процесс, создавший поток. Содержимое этого свойства может использоваться элементами интерфейса прикладного программирования (API) Windows.
+Процесс, создавший поток. содержимое этого свойства может использоваться Windows элементами интерфейса прикладного программирования (API).
 
 </dd> <dt>
 
@@ -853,7 +853,7 @@ class Win32_Thread : CIM_Thread
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ потока Win32** является производным от [**\_ потока CIM**](cim-thread.md).
 
@@ -867,7 +867,7 @@ class Win32_Thread : CIM_Thread
 
 Как подразумевается в предыдущем блоке синтаксиса, класс **\_ потока Win32** не сообщает имя процесса, в котором выполняется каждый поток. Вместо этого он сообщает идентификатор процесса, в котором выполняется поток. Чтобы получить имя процесса и список всех его потоков, сценарий должен:
 
-1.  Подключитесь к классу [**\_ процесса Win32**](win32-process.md) и возвратите список процессов и идентификаторы их процессов.
+1.  Подключение классу [**\_ процесса Win32**](win32-process.md) и возвратить список процессов и идентификаторы их процессов.
 2.  Временно Храните эти сведения в объекте Array или Dictionary.
 3.  Для каждого идентификатора процесса верните список потоков для этого процесса, а затем отобразите имя процесса и список потоков.
 

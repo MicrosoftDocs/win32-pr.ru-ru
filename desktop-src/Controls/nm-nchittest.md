@@ -3,7 +3,7 @@ title: Код уведомления NM_NCHITTEST (Коммктрл. h)
 description: NM_NCHITTEST код уведомления — отправляется элементом управления главной панели, когда элемент управления получает \_ сообщение WM нчиттест. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: 0e088b14-b912-4f60-9d25-cd0a0ba264c3
 keywords:
-- NM_NCHITTEST кода уведомления элементы управления Windows
+- NM_NCHITTEST кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 68ede0ac017fbe5146cd68e51e2a38c7f66c7898
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ab16a835e5e321b916f27b6c79141495f3c05cd4ca8e979e77fef50f84e2ca83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108112322"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118410695"
 ---
 # <a name="nm_nchittest-notification-code"></a>\_Код уведомления нчиттест (NM)
 
@@ -55,8 +55,8 @@ NM_NCHITTEST
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

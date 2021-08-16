@@ -4,12 +4,12 @@ description: Все простые типы представлены одним 
 ms.assetid: 77c293a1-70c4-4825-bb2e-de36e01d3abb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: afe123ca7c06a0522a139dc0cca8a9e24d1d585d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1e265c24d1eaf4b85ab67c7f8997c656257522bfc8290e73596a8628bdd4215c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103778281"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118925164"
 ---
 # <a name="simple-types"></a>Простые типы
 
@@ -39,9 +39,9 @@ FC_UINT3264,                // 0xb9
 
 \_ \_ Типы INT128, FLOAT128 и FLOAT80 не поддерживаются.
 
- 
+ 
 
- 
+ 
 
 
 

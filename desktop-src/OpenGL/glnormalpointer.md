@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c2f3abbfbd989351af647557ec64f8ee3172dc5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4f188a65a0a2bff0438188ae7521615de45341147b138a849d2fd375ed8a959b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118938413"
 ---
 # <a name="glnormalpointer-function"></a>Функция Глнормалпоинтер
 
@@ -56,7 +56,7 @@ void WINAPI glNormalPointer(
 
 </dd> <dt>
 
-*указатель* 
+*вид* 
 </dt> <dd>
 
 Указатель на первое значение нормали в массиве.
@@ -80,7 +80,7 @@ void WINAPI glNormalPointer(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глнормалпоинтер** задает расположение и данные массива нормалей для использования при подготовке к просмотру. Параметр *типа* задает тип данных каждой стандартной координаты. Параметр *stride* определяет смещение в байтах от одного обычного до следующего, включая упаковку вершин и атрибуты в одном массиве или хранилище в отдельных массивах. В некоторых реализациях хранение вершин и атрибутов в одном массиве может быть более эффективным, чем использование отдельных массивов. Дополнительные сведения см. в разделе [**глинтерлеаведаррайс**](glinterleavedarrays.md) .
 
@@ -104,7 +104,7 @@ void WINAPI glNormalPointer(
 
 [**глисенаблед**](glisenabled.md) с аргументом \_ обычного \_ массива GL
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

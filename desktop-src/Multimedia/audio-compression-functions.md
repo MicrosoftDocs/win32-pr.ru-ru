@@ -13,12 +13,12 @@ keywords:
 - сжатие звука, функции
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a495e52e404d04955a2c330729ef82cccb726554
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 142be3301841f8d9ecf083a5eed2004e77fb9f9b7fe100959ac562cdd11843ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104336969"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118941812"
 ---
 # <a name="audio-compression-functions"></a>Функции сжатия звука
 
@@ -64,13 +64,13 @@ ms.locfileid: "104336969"
 -   [**акмстреамсизе**](/windows/desktop/api/Msacm/nf-msacm-acmstreamsize)
 -   [**акмстреамунпрепарехеадер**](/windows/desktop/api/Msacm/nf-msacm-acmstreamunprepareheader)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Справочник по диспетчеру аудиосжатия](audio-compression-manager-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

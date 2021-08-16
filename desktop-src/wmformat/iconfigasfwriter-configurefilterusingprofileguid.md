@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a1521738af4411baa2c11f3d20722e09e2d22a83
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f427dc67695ebaca3e3e7502f2f1961b738a8f775ace394948ef445f3ad9a64e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104533410"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118703090"
 ---
 # <a name="iconfigasfwriterconfigurefilterusingprofileguid-method"></a>Метод Иконфигасфвритер:: Конфигурефилтерусингпрофилегуид
 
@@ -44,7 +44,7 @@ HRESULT ConfigureFilterUsingProfileGuid(
 *гуидпрофиле* \[ окне\]
 </dt> <dd>
 
-**Идентификатор GUID** , определяющий профиль, как определено в файле заголовка пакета SDK для формата Windows Media вмсиспрф. h.
+**GUID** , определяющий профиль, как определено в файле заголовка пакета SDK для Windows Media Format вмсиспрф. h.
 
 </dd> </dl>
 
@@ -64,9 +64,9 @@ HRESULT ConfigureFilterUsingProfileGuid(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Начиная с Windows Media Format SDK серии 9 не были определены новые профили системы. С этим методом можно использовать только идентификаторы GUID системного профиля версии 8 (или более ранней).
+начиная с пакета SDK серии для Windows Media Format 9, новые системные профили не определены. С этим методом можно использовать только идентификаторы GUID системного профиля версии 8 (или более ранней).
 
 ## <a name="see-also"></a>См. также раздел
 

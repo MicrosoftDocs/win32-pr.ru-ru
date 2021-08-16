@@ -556,7 +556,7 @@ class Win32_ClassicCOMClassSetting : Win32_COMSetting
 
 Класс **Win32 \_ классиккомкласссеттинг** является производным от [**Win32 \_ комсеттинг**](win32-comsetting.md).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

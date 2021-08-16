@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 96df5d50ab9fc89963f9d09f4c0cb92479b4ecac
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9e88d493ea0e4e1a9312191533162c8eb5a94cfb4233d17d21bb7217a136d403
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118882930"
 ---
 # <a name="systemmonitorbrowsecounters-method"></a>Метод Системмонитор:: Бровсекаунтерс
 
@@ -44,7 +44,7 @@ Sub BrowseCounters()
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это диалоговое окно позволяет пользователю выбрать локальные или удаленные счетчики производительности из списка объектов производительности. Выбранные счетчики добавляются в коллекцию [**счетчиков**](counters.md) и отображаются в диаграмме или отчете.
 

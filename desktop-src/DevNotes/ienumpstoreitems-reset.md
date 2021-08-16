@@ -43,7 +43,7 @@ HRESULT Reset();
 
 Возвращаемое значение является значением **HRESULT** .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

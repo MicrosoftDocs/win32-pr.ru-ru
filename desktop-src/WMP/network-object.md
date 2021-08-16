@@ -3,7 +3,7 @@ title: Сетевой объект
 description: Объект Network предоставляет свойства и методы, используемые для доступа к статистике, связанной с качеством сетевого подключения, а также для указания и получения параметров прокси-сервера сети.
 ms.assetid: 5ae6137e-22f5-4a65-8793-b6f66adb4cba
 keywords:
-- Проигрыватель Windows Media, сетевой объект
+- сетевой объект проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d439679636bce773c43f5610060c4744ef4d5d7c
-ms.sourcegitcommit: 4f5016b1fbfd703dbf769c508db464c2518c0fa5
+ms.openlocfilehash: 6bf91c23d6a5c581430b17a370e66027a5f9174d0511a2647fba33834ec6c4b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104412013"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996114"
 ---
 # <a name="network-object"></a>Сетевой объект
 
@@ -28,7 +28,7 @@ ms.locfileid: "104412013"
 
 
 
-| Свойство                                           | Описание                                                                                 |
+| Свойство.                                           | Описание                                                                                 |
 |----------------------------------------------------|---------------------------------------------------------------------------------------------|
 | [Связи](network-bandwidth.md)                 | Извлекает текущую пропускную способность элемента мультимедиа.                                          |
 | [Скорость](network-bitrate.md)                     | Извлекает текущую полученную скорость.                                              |
@@ -49,7 +49,7 @@ ms.locfileid: "104412013"
 
 
 
- 
+ 
 
 Объект **Network** поддерживает следующие методы.
 
@@ -70,7 +70,7 @@ ms.locfileid: "104412013"
 
 
 
- 
+ 
 
 Доступ к объекту **сети** осуществляется через следующее свойство.
 
@@ -78,11 +78,11 @@ ms.locfileid: "104412013"
 
 | Объект                      | Свойство                      |
 |-----------------------------|-------------------------------|
-| [Игрок](player-object.md) | [сети](player-network.md) |
+| [Игрок](player-object.md) | [network](player-network.md) |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -91,9 +91,9 @@ ms.locfileid: "104412013"
 [**Справочник по объектной модели для создания сценариев**](object-model-reference-for-scripting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

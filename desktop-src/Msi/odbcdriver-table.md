@@ -4,12 +4,12 @@ ms.assetid: 3518b370-0652-4b54-8057-9871365d5e8c
 title: Таблица Одбкдривер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3257f3eec5b60191df727d156572293489aa1956
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9a1eb0da3217d7466fc0beef90933c8a6af32e3d0551ecc6975a31ac55ed2730
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104541066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118943125"
 ---
 # <a name="odbcdriver-table"></a>Таблица Одбкдривер
 
@@ -21,11 +21,11 @@ ms.locfileid: "104541066"
 
 | Столбец      | Type                         | Ключ | Допускает значения NULL |
 |-------------|------------------------------|-----|----------|
-| Драйвер      | [Идентификатор](identifier.md) | Да   | Нет        |
+| Драйвер      | [Идентификатор](identifier.md) | Д   | Нет        |
 | Компонент\_ | [Идентификатор](identifier.md) | Нет   | Нет        |
 | Описание | [Text](text.md)             | Нет   | Нет        |
-| Файл\_      | [Идентификатор](identifier.md) | Нет   | Нет        |
-| \_Настройка файла | [Идентификатор](identifier.md) | Нет   | Да        |
+| File\_      | [Идентификатор](identifier.md) | Нет   | Нет        |
+| \_Настройка файла | [Идентификатор](identifier.md) | Нет   | Д        |
 
 
 
@@ -70,7 +70,7 @@ DLL-файл для драйверов, перечисленных в столб
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Действия [инсталлодбк](installodbc-action.md) и [ремовеодбк](removeodbc-action.md) в [*таблицах последовательностей*](s-gly.md) обрабатывают сведения, приведенные в этой таблице. Дополнительные сведения об использовании *таблиц последовательности* см. [в разделе Использование таблицы последовательностей](using-a-sequence-table.md).
 

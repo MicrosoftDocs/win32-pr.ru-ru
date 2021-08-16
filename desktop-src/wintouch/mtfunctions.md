@@ -1,23 +1,23 @@
 ---
-title: Функции (сенсорный ввод Windows)
-description: Этот раздел содержит функции для сенсорного ввода Windows.
+title: функции (Windows сенсорный ввод)
+description: этот раздел содержит функции для Windows сенсорного ввода.
 ms.assetid: 6c64ed75-37ac-47ae-b39e-bdf10d2b5211
 keywords:
-- Касание Windows, функции
+- Windows Сенсорный ввод, функции
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a18ba246ab8b1d228d257d32982e9afc2c418eb
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: af2aae5f0e355a6fdb809b70c2d5fad629434b62c802f6ff0f5ad180facba82d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104071034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118435330"
 ---
-# <a name="functions-windows-touch-input"></a>Функции (сенсорный ввод Windows)
+# <a name="functions-windows-touch-input"></a>функции (Windows сенсорный ввод)
 
-Этот раздел содержит функции для сенсорного ввода Windows.
+этот раздел содержит функции для Windows сенсорного ввода.
 
-Для сенсорного ввода Windows используются следующие функции.
+для Windows сенсорного ввода используются следующие функции.
 
 
 
@@ -34,14 +34,14 @@ ms.locfileid: "104071034"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Сенсорный ввод Windows](multi-touch-input.md)
+[Windows Сенсорный ввод](multi-touch-input.md)
 </dt> <dt>
 
-[Справочное руководством по программированию ввода Windows Touch](guide-multi-touch-input.md)
+[Windows Руководств по программированию для сенсорного ввода](guide-multi-touch-input.md)
 </dt> </dl>
 
  

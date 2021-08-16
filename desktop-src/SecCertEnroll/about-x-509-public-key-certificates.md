@@ -4,12 +4,12 @@ ms.assetid: a85ec2bc-a413-41a6-b3d2-5fa81a9e7bb6
 title: Сертификаты открытого ключа X. 509
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1acd602e9b47cb7825f6d75df0fb74399b914db3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fc1eb40e57114f4509884df3a5ac36e7ae8ea0486817ff300d58f4273d51c123
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104567720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118903260"
 ---
 # <a name="x509-public-key-certificates"></a>Сертификаты открытого ключа X. 509
 
@@ -56,7 +56,7 @@ CertificateToBeSigned ::= SEQUENCE
 -   [Поля версии 2](about-version-2-fields.md)
 -   [Расширения версии 3](about-version-3-extensions.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

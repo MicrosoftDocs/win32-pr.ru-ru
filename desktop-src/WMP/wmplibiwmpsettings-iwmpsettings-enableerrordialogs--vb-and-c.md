@@ -48,7 +48,7 @@ Public Property enableErrorDialogs As System.Boolean
 
 Значение **System. Boolean** , указывающее, отображаются ли диалоговые окна ошибок автоматически. Значение по умолчанию — **true**.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

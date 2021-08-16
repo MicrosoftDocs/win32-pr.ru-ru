@@ -1,6 +1,6 @@
 ---
 title: Системмонитор DisplayProperties, метод
-description: Отображает диалоговое окно Свойства диаграммы.
+description: отображает диалоговое окно "свойства Graph".
 ms.assetid: a3b04b3b-4c9b-4454-8d46-2001caf23bb6
 keywords:
 - Метод DisplayProperties Сисмон
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 674ebab6bc94eef797fce2376d53aa589a196c7e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ad58234377f3dd66f8a7d3ae49ec40baf53407b5b6b62c05ad8bfc3259b38661
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118882639"
 ---
 # <a name="systemmonitordisplayproperties-method"></a>Системмонитор: метод:D Исплайпропертиес
 
-Отображает диалоговое окно **Свойства диаграммы** .
+отображает диалоговое окно " **свойства Graph** ".
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -44,7 +44,7 @@ Sub DisplayProperties()
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это диалоговое окно позволяет пользователю изменять свойства элемента управления системного монитора.
 

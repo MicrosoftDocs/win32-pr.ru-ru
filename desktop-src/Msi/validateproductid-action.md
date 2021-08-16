@@ -4,12 +4,12 @@ ms.assetid: 31b2f9d2-98d5-4cf3-af02-f12de2740bb8
 title: Действие Валидатепродуктид
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f4d0f9f58641e8e24d73a1acae0b79cc0b875aba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be241bddbafb8f963aea1e73a2750c9d45766eb06767b0b30142883fa1bcebac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118942234"
 ---
 # <a name="validateproductid-action"></a>Действие Валидатепродуктид
 
@@ -23,7 +23,7 @@ ms.locfileid: "105650573"
 
 Нет сообщений Актиондата.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Установщик проверяет успешность проверки продукта, проверяя свойство [**ProductID**](productid.md) . Установщик присваивает свойству **ProductID** полный идентификатор продукта после успешной проверки. Действие Валидатепродуктид не выполняет никаких действий, если свойство **ProductID** уже было задано успешной проверкой или другим методом.
 

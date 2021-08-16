@@ -47,7 +47,7 @@ Windows Установщик может оптимизировать испра�
 -   [\_Столбцы](-columns-table.md)
 -   [\_Хранилищах](-storages-table.md)
 -   [\_Потоки](-streams-table.md)
--   [\_Таблице](-tables-table.md)
+-   [\_Таблицы](-tables-table.md)
 -   [\_Таблица переformview](-transformview-table.md)
 -   [\_Проверка](-validation-table.md)
 

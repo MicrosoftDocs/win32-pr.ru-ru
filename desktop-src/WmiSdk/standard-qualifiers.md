@@ -679,7 +679,7 @@ ms.locfileid: "118315140"
 
 Дополнительные сведения о получении квалификаторов см. в примере кода PowerShell [Get-вмиклассмесодсандвритаблевмипропертиес](https://Gallery.TechNet.Microsoft.Com/10670e14-4cf1-4ce5-99d0-fc4ca80dac2c) в коллекции TechNet.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

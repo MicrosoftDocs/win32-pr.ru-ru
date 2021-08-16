@@ -3,16 +3,16 @@ title: Многопотоковые стратегии рисования OpenGL
 description: GDI не поддерживает несколько потоков.
 ms.assetid: 3930029d-b2d9-4beb-bad6-4962f952d7ee
 keywords:
-- OpenGL в Windows, многопотоковое Рисование
+- OpenGL на Windows, многопотоковое рисование
 - многопоточный графический стандарт OpenGL Drawing
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bccb08d48bd8ccb62584f15911a1eb65080c4a6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 05d928a481e4334f97cad2f7009f008c899ad8378f3fd15cf9e117e6b9599393
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104329504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118937259"
 ---
 # <a name="multithread-opengl-drawing-strategies"></a>Многопотоковые стратегии рисования OpenGL
 
@@ -22,9 +22,9 @@ GDI не поддерживает несколько потоков. Для ка
 
 Поток может иметь только один текущий активный контекст визуализации. При использовании нескольких потоков и нескольких контекстов отрисовки необходимо тщательно синхронизировать их использование. Например, используйте один поток только для вызова [**свапбуфферс**](/windows/desktop/api/wingdi/nf-wingdi-swapbuffers) после завершения рисования всеми потоками.
 
- 
+ 
 
- 
+ 
 
 
 

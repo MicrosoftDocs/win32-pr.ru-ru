@@ -4,16 +4,16 @@ ms.assetid: ff964f7f-a084-4de3-8b2b-8efb6c9f4a9f
 title: Время суток
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e0639fd2b38e312f30f932fcf508427cd71c054
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b0075dc2d8c2273c8ade612244f0f7d551996756e55000043ffe3bc952227fc7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104416488"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118402074"
 ---
 # <a name="clock-times"></a>Время суток
 
-DirectShow определяет два связанных времени: время ссылки и время потока.
+DirectShow определяет два связанных времени часов: время ссылки и время потока.
 
 -   *Время ссылки* — это абсолютное время, возвращаемое ссылочным временем. (См. раздел [эталонные часы](reference-clocks.md).)
 -   *Время потока* определяется относительно времени последнего запуска графа.
@@ -24,9 +24,9 @@ DirectShow определяет два связанных времени: вре
 
 Если образец носителя имеет метку времени *t*, это означает, что выборка должна быть визуализирована во время потока *t*. По этой причине потоковое время также называется *временем презентации*.
 
-Когда приложение вызывает [**имедиаконтрол:: Run**](/windows/desktop/api/Control/nf-control-imediacontrol-run) для запуска графа фильтра, диспетчер графа фильтров вызывает [**Имедиафилтер:: Run**](/windows/desktop/api/Strmif/nf-strmif-imediafilter-run) для каждого фильтра. Чтобы компенсировать незначительное время, затрачиваемое на выполнение фильтров, диспетчер графов фильтров указывает время начала в будущем.
+когда приложение вызывает [**имедиаконтрол:: run**](/windows/desktop/api/Control/nf-control-imediacontrol-run) для запуска графа фильтра, фильтр Graph Manager вызывает [**имедиафилтер:: Run**](/windows/desktop/api/Strmif/nf-strmif-imediafilter-run) для каждого фильтра. чтобы компенсировать незначительное время, затрачиваемое на выполнение фильтров, фильтр Graph Manager в будущем определяет время начала.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

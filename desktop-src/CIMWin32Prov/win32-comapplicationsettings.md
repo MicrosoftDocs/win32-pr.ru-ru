@@ -88,7 +88,7 @@ class Win32_COMApplicationSettings : CIM_ElementSetting
 
 Класс **Win32 \_ комаппликатионсеттингс** является производным от [**CIM \_ елементсеттинг**](cim-elementsetting.md).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

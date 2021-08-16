@@ -54,7 +54,7 @@ ms.locfileid: "118199950"
 
 В качестве другого примера приложение может проверить, отвечает ли окно на сообщения, отправив сообщение **WM \_ null** с помощью функции [**функции sendmessagetimeout**](/windows/win32/api/winuser/nf-winuser-sendmessagetimeouta) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

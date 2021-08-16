@@ -9,12 +9,12 @@ keywords:
 - DWM (диспетчер окон рабочего стола), функции
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 067f836e7fa8b5b84be02a402a3e0b3d0f78d1c1
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: fe8c1db28571fde16cf0fe0f9068f5bd650d31f637776c7bcc00717ab3043997
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104339433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118503309"
 ---
 # <a name="dwm-functions"></a>Функции DWM
 
@@ -51,7 +51,7 @@ ms.locfileid: "104339433"
 <tr class="even">
 <td><a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmenableblurbehindwindow"><strong>DwmEnableBlurBehindWindow</strong></a><br/></td>
 <td>Включает эффект размытия для указанного окна.<br/></td>
-<b>Примечание</b> . Начиная с Windows 8, вызов этой функции не приводит к эффекту размытия из-за изменения стиля в способе отрисовки окон.
+<b>Примечание</b> . начиная с Windows 8, вызов этой функции не приводит к эффекту размытия из-за изменения стиля в способе отрисовки окон.
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmenablecomposition"><strong>двменаблекомпоситион</strong></a><br/></td>
@@ -97,7 +97,7 @@ ms.locfileid: "104339433"
 <tr class="even">
 <td><a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmgetunmettabrequirements"><strong>двмжетунметтабрекуирементс</strong></a><br/></td>
 <td><blockquote>
-<strong>Примечание</strong>  .  Эта функция является общедоступной, но нефункциональной для Windows 10, версии 1803.
+<strong>Примечание</strong> .  эта функция является общедоступной, но нефункциональной для Windows 10 версии 1803.
 </blockquote>
 Проверяет требования, необходимые для получения вкладок в строке заголовка приложения для указанного окна.<br/></td>
 </tr>
@@ -111,11 +111,11 @@ ms.locfileid: "104339433"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmiscompositionenabled"><strong>DwmIsCompositionEnabled</strong></a><br/></td>
-<td>Получает значение, указывающее, включена ли композиция DWM. Приложения на компьютерах под управлением Windows 7 или более ранней версии могут прослушивать изменения состояния композиции, обрабатывая уведомление <a href="wm-dwmcompositionchanged.md"><strong>WM_DWMCOMPOSITIONCHANGED</strong></a> .<br/></td>
+<td>Получает значение, указывающее, включена ли композиция DWM. приложения на компьютерах с Windows 7 и более ранних версий могут прослушивать изменения состояния композиции, обрабатывая уведомление <a href="wm-dwmcompositionchanged.md"><strong>WM_DWMCOMPOSITIONCHANGED</strong></a> .<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmmodifypreviousdxframeduration"><strong>двммодифипревиаусдксфрамедуратион</strong></a><br/></td>
-<td>Изменяет число обновлений монитора, с помощью которых будет отображаться предыдущий кадр. <br/> <a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmmodifypreviousdxframeduration"><strong>Двммодифипревиаусдксфрамедуратион</strong></a> больше не поддерживается. Начиная с Windows 8.1, вызовы метода <strong>двммодифипревиаусдксфрамедуратион</strong> всегда возвращают E_NOTIMPL.<br/></td>
+<td>Изменяет число обновлений монитора, с помощью которых будет отображаться предыдущий кадр. <br/> <a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmmodifypreviousdxframeduration"><strong>Двммодифипревиаусдксфрамедуратион</strong></a> больше не поддерживается. начиная с Windows 8.1, вызовы метода <strong>двммодифипревиаусдксфрамедуратион</strong> всегда возвращают E_NOTIMPL.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmquerythumbnailsourcesize"><strong>двмкуерисумбнаилсаурцесизе</strong></a><br/></td>
@@ -131,7 +131,7 @@ ms.locfileid: "104339433"
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmsetdxframeduration"><strong>двмсетдксфрамедуратион</strong></a><br/></td>
-<td>Задает число обновлений монитора, по которым отображается отображаемый кадр. <br/> <a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmsetdxframeduration"><strong>Двмсетдксфрамедуратион</strong></a> больше не поддерживается. Начиная с Windows 8.1, вызовы метода <strong>двмсетдксфрамедуратион</strong> всегда возвращают E_NOTIMPL.<br/></td>
+<td>Задает число обновлений монитора, по которым отображается отображаемый кадр. <br/> <a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmsetdxframeduration"><strong>Двмсетдксфрамедуратион</strong></a> больше не поддерживается. начиная с Windows 8.1, вызовы метода <strong>двмсетдксфрамедуратион</strong> всегда возвращают E_NOTIMPL.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmseticoniclivepreviewbitmap"><strong>двмсетиконикливепревиевбитмап</strong></a><br/></td>
@@ -143,7 +143,7 @@ ms.locfileid: "104339433"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmsetpresentparameters"><strong>двмсетпресентпараметерс</strong></a><br/></td>
-<td>Задает существующие параметры для компоновки кадра. <br/> <a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmsetpresentparameters"><strong>Двмсетпресентпараметерс</strong></a> больше не поддерживается. Начиная с Windows 8.1, вызовы метода <strong>двмсетпресентпараметерс</strong> всегда возвращают E_NOTIMPL.<br/></td>
+<td>Задает существующие параметры для компоновки кадра. <br/> <a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmsetpresentparameters"><strong>Двмсетпресентпараметерс</strong></a> больше не поддерживается. начиная с Windows 8.1, вызовы метода <strong>двмсетпресентпараметерс</strong> всегда возвращают E_NOTIMPL.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmsetwindowattribute"><strong>двмсетвиндоваттрибуте</strong></a><br/></td>

@@ -98,7 +98,7 @@ Installer.ApplyPatch(
 
 **установщик Windows 3,0 и более поздних версий:** начиная с версии установщик Windows 3,0, свойство [**reinstall**](reinstall.md) настраивается установщиком и не требуется задавать в командной строке.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

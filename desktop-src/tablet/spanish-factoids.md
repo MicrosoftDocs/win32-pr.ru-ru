@@ -4,12 +4,12 @@ ms.assetid: ab607429-d845-4ca6-9aa2-b68c66c58738
 title: Испанская Фактоидс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b7c1cbd11dd76d12bd1aea860089c2a41ab9e08
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c09490ddb9b3dee6ae55d50bc21968ab15be2e201842370b7d46f91a857f544
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118715514"
 ---
 # <a name="spanish-factoids"></a>Испанская Фактоидс
 
@@ -72,7 +72,7 @@ ms.locfileid: "105674060"
 <br/> 00 1<br/> 00 11<br/></td>
 </tr>
 <tr class="even">
-<td><strong>Time</strong></td>
+<td><strong>Время</strong></td>
 <td>Время, записанное на испанском языке.<br/></td>
 <td>19:44<br/> 06:05:30<br/> 6:24<br/> 22:22<br/> 2:12<br/> 5:42<br/> 7,00 ч<br/> 08:03 ч<br/> 5,13 ч<br/> 17 ч<br/> 3:45 утра<br/> 6:49 p.m.<br/> 3:45 УТРА<br/> 6:49 P.M.<br/></td>
 </tr>
@@ -88,7 +88,7 @@ ms.locfileid: "105674060"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

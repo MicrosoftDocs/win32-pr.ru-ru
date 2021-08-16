@@ -4,12 +4,12 @@ ms.assetid: 2d52cbbf-9e28-4c6f-8b4c-448b73c6dbf8
 title: Инициализация режима LSA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73e4212a584d290e67c6465488c8398604db2c16
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ff4c55397e5970b8401e1429eba7d92a034e76ce0c999950131167580ded7e5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104546346"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118922139"
 ---
 # <a name="lsa-mode-initialization"></a>Инициализация режима LSA
 

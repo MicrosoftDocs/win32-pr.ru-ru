@@ -4,12 +4,12 @@ description: Узнайте, как настроить этот метод, вк
 ms.assetid: ac04b83b-1322-41d4-85e0-93687f10a7f6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af7b57e736bf078068156f6aff10d294621749a2
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 4b2a388bf8dba155e42d5542c1379f7b0cc34d44579b92809387541d7e20cf65
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104413772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118785003"
 ---
 # <a name="enabling-group-policy"></a>Включение групповая политика
 
@@ -23,16 +23,16 @@ ms.locfileid: "104413772"
 
 1.  Конфигурация EAP всегда должна храниться в формате XML везде, где это возможно, а не в двоичном формате. Групповая политика может быть применена к любому компьютеру в домене, а конфигурация метода EAP и данные пользователя не гарантированно переносимы между архитектурой 32-разрядных и 64-разрядных процессоров. XML разрешает проблемы с границами архитектуры процессора, так как запрашивающая сторона локально преобразует независимый XML-код архитектуры процессора в двоичное представление конфигурации во время проверки подлинности.
 
-    Дополнительные сведения см. в следующих разделах:
+    Дополнительные сведения см. в следующих статьях.
 
-    -   [Общие часто задаваемые вопросы](general-frequently-asked-questions.md)
+    -   [Общие вопросы и ответы](general-frequently-asked-questions.md)
     -   [Метод EAP часто задаваемые вопросы](eap-method-frequently-asked-questions.md).
     -   [**EapHostPeerConfigXml2Blob**](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerconfigxml2blob)
     -   [**EapHostPeerCredentialsXml2Blob**](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeercredentialsxml2blob)
 
 2.  Если используется расширение на стороне сервера групповой политики, то расширение будет вызывать [**еафостпиржетмесодс**](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeergetmethods) , как правило, для определения доступных методов и создания соответствующей конфигурации EAP для этой политики. Затем политика отправляется на соответствующие сетевые клиенты, где применяется политика.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -51,9 +51,9 @@ ms.locfileid: "104413772"
 [EAPHost отправителей запросов](eaphost-supplicants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

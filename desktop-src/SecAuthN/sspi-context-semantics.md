@@ -4,12 +4,12 @@ ms.assetid: 6c87448b-5b8d-4694-ac3f-be83a258fbb0
 title: Семантика контекста SSPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2dcb604e09b1a2458ef05204aefbe754af26b210
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ddadd2c8a76f1fdc151273dca2027b8cb55776a50b78a7c08343c22410ae90e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105651044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118916983"
 ---
 # <a name="sspi-context-semantics"></a>Семантика контекста SSPI
 
@@ -57,7 +57,7 @@ ms.locfileid: "105651044"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

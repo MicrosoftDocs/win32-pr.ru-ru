@@ -3,7 +3,7 @@ title: Сообщение WM_GESTURENOTIFY (Winuser. h)
 description: Дает возможность задать конфигурацию жестов.
 ms.assetid: 83c23928-86ce-421d-bb84-5c41a770bf60
 keywords:
-- WM_GESTURENOTIFY сообщений Windows Touch
+- сообщение WM_GESTURENOTIFY Windows Touch
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e900e4b607760df16938080a49f97a3ab0cf2ed
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d474f356310a0d7949cecf36e7af9cb586a76029171dfe27c1679970e481ed1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118435240"
 ---
 # <a name="wm_gesturenotify-message"></a>\_Сообщение ЖЕСТУРЕНОТИФИ WM
 
@@ -47,7 +47,7 @@ ms.locfileid: "104136466"
 
 Значение должно возвращаться из [дефвиндовпрок](/windows/win32/api/winuser/nf-winuser-defwindowproca).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Когда получено сообщение **WM \_ жестуренотифи** , приложение может использовать [**сетжестуреконфиг**](/windows/desktop/api/winuser/nf-winuser-setgestureconfig) для указания получаемых жестов. Это сообщение всегда должно быть собрано с помощью функции [дефвиндовпрок](/windows/win32/api/winuser/nf-winuser-defwindowproca) .
 
@@ -85,9 +85,9 @@ ms.locfileid: "104136466"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                               |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                                                  |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                               |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                                                  |
+| Header<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
@@ -98,7 +98,7 @@ ms.locfileid: "104136466"
 [Уведомления](notifications.md)
 </dt> <dt>
 
-[Инструкции по программированию жестов сенсорного ввода Windows](guide-multi-touch-gestures.md)
+[Windows Инструкции по программированию сенсорных жестов](guide-multi-touch-gestures.md)
 </dt> <dt>
 
 [**жестуренотифиструкт**](/windows/win32/api/winuser/ns-winuser-gesturenotifystruct)

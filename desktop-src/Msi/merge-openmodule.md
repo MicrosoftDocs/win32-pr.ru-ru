@@ -69,7 +69,7 @@ Merge.OpenModule(
 
 См. раздел Функция [**опенмодуле**](/windows/win32/api/mergemod/nf-mergemod-imsmmerge-openmodule) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

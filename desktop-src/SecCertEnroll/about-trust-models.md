@@ -4,12 +4,12 @@ ms.assetid: b9a552df-dc27-4c3d-ab71-c80ae0f2a67d
 title: Модели доверия
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67c3aae037143df3ca0f2b49d89ed7294a78f550
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 57b2cda07c96aeb2ba383fe6851c49db88baddf9470e298d88f6420da14061c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118903531"
 ---
 # <a name="trust-models"></a>Модели доверия
 

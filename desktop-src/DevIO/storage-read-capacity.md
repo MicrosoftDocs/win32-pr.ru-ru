@@ -82,7 +82,7 @@ typedef struct _STORAGE_READ_CAPACITY {
 
 файл заголовка нтддстор. h доступен в наборе драйверов Windows (WDK).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -4,12 +4,12 @@ description: . | Общие структуры диалоговых окон
 ms.assetid: 778dd2b8-a01e-4246-b51f-fddb8eae3d13
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fd9214a59fca1c9102d939ae84cd574ec8d22f14
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: db6ea17c6a4b121d874108172542a801b067b8f3483577c0f2c7b6048155e4fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105703609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118786087"
 ---
 # <a name="common-dialog-box-structures"></a>Общие структуры диалоговых окон
 
