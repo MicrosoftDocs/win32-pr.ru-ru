@@ -3,9 +3,9 @@ title: Метод Media. getItemInfo
 description: Метод getItemInfo извлекает значение указанного атрибута для текущего элемента мультимедиа.
 ms.assetid: a1ee0d40-b979-424b-bd4e-d1acf6354d8d
 keywords:
-- getItemInfo метод Windows Media Player
-- getItemInfo метод Windows Media Player, класс мультимедиа
-- Класс мультимедиа проигрыватель Windows Media Player, метод getItemInfo
+- проигрыватель Windows Media метода getItemInfo
+- проигрыватель Windows Media метода getItemInfo, класс мультимедиа
+- класс мультимедиа проигрыватель Windows Media, метод getItemInfo
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef7e7348e73e3550ed668f6694ccfe9ed615215b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ab885a8505f3637d21f4a406e5a7c324ee6b9ec90e5ad0434a385e321072ccaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699098"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135157"
 ---
 # <a name="mediagetiteminfo-method"></a>Метод Media. getItemInfo
 
@@ -45,7 +45,7 @@ strRetVal = Media.getItemInfo(
 *имя* \[ окне\]
 </dt> <dd>
 
-**Строка** , содержащая имя атрибута. Сведения об атрибутах, поддерживаемых проигрывателем Windows Media, см. в [справочнике по атрибутам](attribute-reference.md)проигрывателя Windows Media.
+**Строка** , содержащая имя атрибута. дополнительные сведения об атрибутах, поддерживаемых проигрыватель Windows Media, см. в [справочнике по атрибуту](attribute-reference.md)проигрыватель Windows Media.
 
 </dd> </dl>
 
@@ -53,7 +53,7 @@ strRetVal = Media.getItemInfo(
 
 Этот метод возвращает **строку** , представляющую значение указанного атрибута. Для атрибутов, базовое значение которых является **логическим**, оно возвращает строку "true" или "false".
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод извлекает метаданные для отдельного элемента цифрового носителя или элемента мультимедиа, который является частью списка воспроизведения.
 
@@ -63,15 +63,15 @@ strRetVal = Media.getItemInfo(
 
 Чтобы использовать этот метод, требуется доступ на чтение к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
-Чтобы предоставить общий доступ к библиотекам Windows Media через UPnP, проигрыватель Windows Media создает службу каталогов содержимого (CD), доступную через UPnP. После этого другие устройства могут перемещаться по библиотекам и просматривать их.
+чтобы предоставить общий доступ к Windowsным библиотекам мультимедиа через upnp, проигрыватель Windows Media создает службу каталогов содержимого (cd), доступную через upnp. После этого другие устройства могут перемещаться по библиотекам и просматривать их.
 
-В Windows 7 приложение может использовать атрибуты [**TrackingID**](trackingid-attribute.md) и [**mediaType**](mediatype-attribute.md) проигрывателя Windows Media для создания идентификатора объекта для каждого элемента на компакт-диске. Обратите внимание, что эта конструкция может измениться в будущих версиях Windows. Приложение передает каждую из этих строк атрибута в параметре *Name* в вызове **getItemInfo**. **getItemInfo** возвращает значение для каждого атрибута в возвращаемом значении. Затем приложение использует следующий синтаксис для создания каждого идентификатора объекта:
+в Windows 7 приложение может использовать атрибуты проигрыватель Windows Media [**TrackingID**](trackingid-attribute.md) и [**MediaType**](mediatype-attribute.md) для создания идентификатора объекта для каждого элемента на компакт-диске. Обратите внимание, что эта конструкция может измениться в будущих версиях Windows. Приложение передает каждую из этих строк атрибута в параметре *Name* в вызове **getItemInfo**. **getItemInfo** возвращает значение для каждого атрибута в возвращаемом значении. Затем приложение использует следующий синтаксис для создания каждого идентификатора объекта:
 
 *TrackingID*. 0. *Медиатипеид*
 
 Этот синтаксис имеет следующий смысл:
 
--   *TrackingID* — это строка, которая хранится в атрибуте [**TrackingID**](trackingid-attribute.md) проигрывателя Windows Media элемента мультимедиа.
+-   *TrackingID* — это строка, которая хранится в атрибуте проигрыватель Windows Media [**TrackingID**](trackingid-attribute.md) элемента мультимедиа.
 -   *Медиатипеид* зависит от значения атрибута [**mediaType**](mediatype-attribute.md) , как показано в следующей таблице.
 
     | Атрибут MediaType                      | медиатипеид |
@@ -84,7 +84,7 @@ strRetVal = Media.getItemInfo(
 
      
 
-**Проигрыватель Windows Media 10 Mobile:** Атрибуты для элемента мультимедиа доступны только во время воспроизведения, если они не извлекаются из элемента через коллекцию мультимедиа.
+**проигрыватель Windows Media 10 Mobile:** Атрибуты для элемента мультимедиа доступны только во время воспроизведения, если они не извлекаются из элемента через коллекцию мультимедиа.
 
 ## <a name="requirements"></a>Требования
 
@@ -92,7 +92,7 @@ strRetVal = Media.getItemInfo(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
@@ -119,10 +119,10 @@ strRetVal = Media.getItemInfo(
 [**Считывание значений атрибутов**](reading-attribute-values.md)
 </dt> <dt>
 
-[**Settings. Медиаакцессригхтс**](settings-mediaaccessrights.md)
+[**Параметры. медиаакцессригхтс**](settings-mediaaccessrights.md)
 </dt> <dt>
 
-[**Settings. Рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
+[**Параметры. рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
  

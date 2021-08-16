@@ -1,19 +1,19 @@
 ---
-description: Перечислимые типы DirectShow
+description: DirectShow Перечислимые типы
 ms.assetid: 74467006-b077-49c0-8573-f939ac3d3444
-title: Перечислимые типы DirectShow
+title: DirectShow Перечислимые типы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 309059f9d8ef1c78c1acbcab32720b3a05c1cb89
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ddd835f9cb235ee9bde357cf553fc87671a7acebfc2e4ed4693fdbdad0f7b7fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104537502"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119292034"
 ---
-# <a name="directshow-enumerated-types"></a>Перечислимые типы DirectShow
+# <a name="directshow-enumerated-types"></a>DirectShow Перечислимые типы
 
-В этом разделе описываются перечислимые типы DirectShow.
+в этом разделе описаны типы DirectShow перечисления.
 
 
 
@@ -53,7 +53,7 @@ ms.locfileid: "104537502"
 | [**АМВП \_ выберите \_ Формат \_ по**](/previous-versions/windows/desktop/api/vptype/ne-vptype-amvp_select_format_by)                      | Указывает критерии, с помощью которых микшер президента должен использовать для выбора формата видео.                                                                                                                                                                                 |
 | [**аналогвидеостандард**](/windows/win32/api/strmif/ne-strmif-analogvideostandard)                             | Задает формат аналогового видеосигнала басебанд.                                                                                                                                                                                                       |
 | [**камераконтролфлагс**](/windows/win32/api/strmif/ne-strmif-cameracontrolflags)                               | Указывает, задана ли определенная функция камеры автоматически или вручную.                                                                                                                                                                                |
-| [**камераконтролпроперти**](/windows/win32/api/strmif/ne-strmif-cameracontrolproperty)                         | Указывает, какая часть камеры DirectShow управляется.                                                                                                                                                                                                    |
+| [**камераконтролпроперти**](/windows/win32/api/strmif/ne-strmif-cameracontrolproperty)                         | указывает, какая часть камеры DirectShow управлять.                                                                                                                                                                                                    |
 | [**компрессионкапс**](/windows/desktop/api/strmif/ne-strmif-compressioncaps)                                     | Указывает возможности сжатия видео.                                                                                                                                                                                                                       |
 | [**\_ \_ Уровень защиты Копп \_ ACP**](/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_acp_protection_level)              | Указывает уровень защиты ACP.                                                                                                                                                                                                                             |
 | [**Копп \_ BusType**](/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_bustype)                                          | Указывает тип шины ввода-вывода, используемой графическим адаптером.                                                                                                                                                                                                     |
@@ -108,8 +108,8 @@ ms.locfileid: "104537502"
 | [**тунеринпуттипе**](/windows/win32/api/strmif/ne-strmif-tunerinputtype)                                       | Указывает частоту ТВ-тюнера (кабель или антенна).                                                                                                                                                                                                       |
 | [**тваудиомоде**](/windows/win32/api/strmif/ne-strmif-tvaudiomode)                                             | Задает режим управления ТВ-звуком.                                                                                                                                                                                                                       |
 | [**ДОПУСТИМЫй \_ \_ флаг УОП**](/windows/win32/api/strmif/ne-strmif-valid_uop_flag)                                     | Указывает, какие команды пользователя (УОП) в настоящее время разрешены DVD-диском.                                                                                                                                                                                 |
-| [**вфвкаптуредиалогс**](/windows/desktop/api/strmif/ne-strmif-vfwcapturedialogs)                                 | Указывает диалоговое окно для драйвера Microsoft Video для записи Windows.                                                                                                                                                                                        |
-| [**вфвкомпрессдиалогс**](/windows/desktop/api/strmif/ne-strmif-vfwcompressdialogs)                               | Задает диалоговое окно для видеокодека видео для Windows.                                                                                                                                                                                                           |
+| [**вфвкаптуредиалогс**](/windows/desktop/api/strmif/ne-strmif-vfwcapturedialogs)                                 | указывает диалоговое окно для видеодрайвера Microsoft Video для Windowsного драйвера записи.                                                                                                                                                                                        |
+| [**вфвкомпрессдиалогс**](/windows/desktop/api/strmif/ne-strmif-vfwcompressdialogs)                               | задает диалоговое окно видео для Windows кодека.                                                                                                                                                                                                           |
 | [**видеоконтролфлагс**](/windows/win32/api/strmif/ne-strmif-videocontrolflags)                                 | Задает режим работы для видеоустройства, например горизонтальное или вертикальное перелистывание, включение внешнего триггера и запуск симуляции.                                                                                                                           |
 | [**режим скорости ВИДЕОЕНКОДЕР \_ \_**](/windows/desktop/api/strmif/ne-strmif-videoencoder_bitrate_mode)               | Определяет три типа битовых ставок, поддерживаемых методами интерфейса [**иенкодерапи**](/windows/win32/api/strmif/nn-strmif-iencoderapi) .                                                                                                                                                    |
 | [**видеопрокампфлагс**](/windows/win32/api/strmif/ne-strmif-videoprocampflags)                                 | Указывает, как устанавливать свойства видео.                                                                                                                                                                                                                          |
@@ -138,11 +138,11 @@ ms.locfileid: "104537502"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Справочник по DirectShow](directshow-reference.md)
+[DirectShow IsReference](directshow-reference.md)
 </dt> </dl>
 
  

@@ -3,9 +3,9 @@ title: Метод Player. Лаунчурл
 description: Метод Лаунчурл отправляет URL-адрес браузеру пользователя по умолчанию для подготовки к просмотру. | Метод Player. Лаунчурл
 ms.assetid: 2b445e59-f884-4519-9acb-f349319429d2
 keywords:
-- Лаунчурл метод Windows Media Player
-- метод Лаунчурл проигрывателя Windows Media Player, класс Player
-- Класс проигрывателя Windows Media Player, метод Лаунчурл
+- проигрыватель Windows Media метода лаунчурл
+- метод лаунчурл проигрыватель Windows Media, класс Player
+- класс Player проигрыватель Windows Media, метод лаунчурл
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c496e8f40f4d7c8a21e718b820e438d3ce32ad1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 79d22c65a29aaee9c849677dfa42acb5769bf30d2fb7079e305ee79632ef22e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685272"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134827"
 ---
 # <a name="playerlaunchurl-method"></a>Метод Player. Лаунчурл
 
@@ -53,11 +53,11 @@ Player.launchURL(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод открывает только веб-страницы с использованием протоколов HTTP или HTTPS.
 
-**Проигрыватель Windows Media 10 Mobile:** Этот метод не поддерживается.
+**проигрыватель Windows Media 10 Mobile:** Этот метод не поддерживается.
 
 ## <a name="examples"></a>Примеры
 
@@ -81,7 +81,7 @@ Player.launchURL(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

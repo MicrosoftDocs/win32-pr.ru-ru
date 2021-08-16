@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 31c90e705a0bb4e82813fff42673e143c5acf171
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: a3904ee079399a2a3b7152e04a0101bfdef6f1eee393822465bf072271749cba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108117952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119122763"
 ---
 # <a name="d3dxshevalconelight-function-d3dx9mathh"></a>Функция D3DXSHEvalConeLight (D3dx9math. h)
 
@@ -153,12 +153,12 @@ HRESULT D3DXSHEvalConeLight(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

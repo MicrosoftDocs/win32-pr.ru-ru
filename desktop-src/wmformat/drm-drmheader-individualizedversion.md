@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 167065f99a72245c6d7cc677ce24fa1ff96dec84
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 5793fa81a7c6c57542991d582607edb0cf3e38b62b037ad46974a4211a7ef8ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "105710235"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931184"
 ---
 # <a name="drm_drmheader_individualizedversion"></a>\_Дрмхеадер \_ индивидуализедверсион DRM
 
@@ -31,7 +31,7 @@ g \_ всзвмдрм \_ дрмхеадер \_ индивидуализедве�
 
 **\_Строка типа \_ ВМТ**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут имеется только в содержимом DRM версии 7. Его можно получить с помощью [**ивмдрмреадер:: жетдрмпроперти**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty). Чтобы задать отдельную версию (также называемую версией безопасности) для файла с помощью [**ивмдрмвритер:: сетдрматтрибуте**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-setdrmattribute) , необходимо использовать свойство [**\_ индивидуализедверсион DRM**](drm-individualizedversion.md) .
 
@@ -42,9 +42,9 @@ g \_ всзвмдрм \_ дрмхеадер \_ индивидуализедве�
 [**Список атрибутов**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

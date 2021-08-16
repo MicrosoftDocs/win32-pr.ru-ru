@@ -1,19 +1,19 @@
 ---
 title: Транзакция проверки подлинности DLL безопасности RAS
-description: Сервер удаленного доступа Windows NT/Windows 2000 вызывает функцию Рассекуритидиалогбегин библиотеки безопасности, чтобы начать проверку подлинности удаленного пользователя.
+description: сервер RAS Windows NT/Windows 2000 вызывает функцию рассекуритидиалогбегин библиотеки безопасности, чтобы начать проверку подлинности удаленного пользователя.
 ms.assetid: e6549812-d906-4163-b9c8-86f8f1cb1ad3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 109f6ad5cd3d7b76e30db099a478ffaf562feb32
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fea463c56d96cad13fb55a2b6e0bbdfc154518ba012e4c71c6ab8bdd3213cd3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104533428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117789480"
 ---
 # <a name="ras-security-dll-authentication-transaction"></a>Транзакция проверки подлинности DLL безопасности RAS
 
-Сервер удаленного доступа Windows NT/Windows 2000 вызывает функцию [**РАССЕКУРИТИДИАЛОГБЕГИН**](/windows/desktop/api/Rasshost/nf-rasshost-rassecuritydialogbegin) библиотеки безопасности, чтобы начать проверку подлинности удаленного пользователя. Сервер RAS заблокирован и не может принимать другие вызовы, пока **рассекуритидиалогбегин** не вернет. По этой причине **рассекуритидиалогбегин** должен скопировать входные параметры, создать поток для выполнения проверки подлинности и вернуть их как можно быстрее.
+сервер RAS Windows NT/Windows 2000 вызывает функцию [**рассекуритидиалогбегин**](/windows/desktop/api/Rasshost/nf-rasshost-rassecuritydialogbegin) библиотеки безопасности, чтобы начать проверку подлинности удаленного пользователя. Сервер RAS заблокирован и не может принимать другие вызовы, пока **рассекуритидиалогбегин** не вернет. По этой причине **рассекуритидиалогбегин** должен скопировать входные параметры, создать поток для выполнения проверки подлинности и вернуть их как можно быстрее.
 
 Поток, созданный БИБЛИОТЕКой безопасности, использует функции [**рассекуритидиалогсенд**](/windows/desktop/api/Rasshost/nf-rasshost-rassecuritydialogsend) и [**рассекуритидиалогрецеиве**](/windows/desktop/api/Rasshost/nf-rasshost-rassecuritydialogreceive) для взаимодействия с удаленным компьютером. Эти функции недоступны для статического импорта из любой библиотеки. Вместо этого библиотека безопасности должна использовать функции [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) для динамической привязки к этим функциям в RASMAN.DLL.
 
@@ -23,6 +23,6 @@ ms.locfileid: "104533428"
 
 Библиотека безопасности может вызывать функцию [**рассекуритидиалогжетинфо**](/windows/desktop/api/Rasshost/nf-rasshost-rassecuritydialoggetinfo) для получения сведений о порте, связанном с транзакцией проверки подлинности. **Рассекуритидиалогжетинфо** заполняет структуру [**\_ \_ сведений о безопасности RAS**](/windows/desktop/api/Rasshost/ns-rasshost-ras_security_info) , которая указывает состояние последнего вызова [**рассекуритидиалогрецеиве**](/windows/desktop/api/Rasshost/nf-rasshost-rassecuritydialogreceive) для порта.
 
- 
+ 
 
- 
+ 

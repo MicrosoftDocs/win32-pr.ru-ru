@@ -1,23 +1,23 @@
 ---
-description: Установщик задает для свойства Версионмси версию установщик Windows запуска во время установки.
+description: установщик задает для свойства версионмси версию установщик Windows запуска во время установки.
 ms.assetid: f4d00308-db97-4c9d-901b-3ff0feeedea0
 title: Версионмси, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6066c5aa482c1ab0d67a5b59684aa873971e0378
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d1c2331dc9dc3de24b0e302ac652096f62f60fb48d6d51581a1f0f220bc12e3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105674927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117804022"
 ---
 # <a name="versionmsi-property"></a>Версионмси, свойство
 
-Установщик задает для свойства **версионмси** версию установщик Windows запуска во время установки.
+установщик задает для свойства **версионмси** версию установщик Windows запуска во время установки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Дополнительные сведения см. в статье [Released Versions of установщик Windows](released-versions-of-windows-installer.md).
+дополнительные сведения см. в статье [released versions of установщик Windows](released-versions-of-windows-installer.md).
 
 ## <a name="requirements"></a>Требования
 
@@ -25,7 +25,7 @@ ms.locfileid: "105674927"
 
 | Требование | Значение |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP ознакомьтесь с [требованиями к установщик Windows Run-Time](windows-installer-portal.md) , чтобы получить сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии.<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP ознакомьтесь с [требованиями к установщик Windows Run-Time](windows-installer-portal.md) для получения сведений о минимальном Windows пакете обновления, который требуется для установщик Windows версии.<br/> |
 
 
 

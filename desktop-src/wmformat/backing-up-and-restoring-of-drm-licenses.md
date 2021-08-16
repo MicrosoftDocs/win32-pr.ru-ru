@@ -3,13 +3,13 @@ title: Резервное копирование и восстановление
 description: Резервное копирование и восстановление лицензий DRM
 ms.assetid: ec2777e9-76af-43fe-8bd5-4d7532d2fb32
 keywords:
-- Пакет SDK для Windows Media Format, резервное копирование лицензий DRM
-- Windows Media Format SDK, восстановление лицензий DRM
-- Windows Media Format SDK, лицензии DRM
-- Пакет SDK для Windows Media Format, лицензии для DRM
-- Windows Media Format SDK, функция Backup Restore
-- Пакет Windows Media Format SDK, служба управления лицензиями
-- Windows Media Format SDK, обнаружение мошенничества
+- Windows Пакет SDK для формата мультимедиа, резервное копирование лицензий DRM
+- Windows Пакет SDK для формата мультимедиа, восстановление лицензий DRM
+- Windows Пакет SDK для формата мультимедиа, лицензии DRM
+- Windows Пакет SDK для формата мультимедиа, лицензии для DRM
+- Windows Пакет SDK для формата мультимедиа, функция восстановления резервных копий
+- Windows Пакет SDK для формата мультимедиа, служба управления лицензиями
+- Windows Пакет SDK для формата мультимедиа, обнаружение мошенничества
 - Управление цифровыми правами (DRM), резервное копирование лицензий
 - DRM (Управление цифровыми правами), резервное копирование лицензий
 - Управление цифровыми правами (DRM), восстановление лицензий
@@ -32,12 +32,12 @@ keywords:
 - обнаружение мошенничества
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7718f03170077f7db624f8a99b8262239a79ca9
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 019163a42312b14b7d7b7e15cea68be1996a976e42b31491f62486a43d37b8bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104339497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028152"
 ---
 # <a name="backing-up-and-restoring-of-drm-licenses"></a>Резервное копирование и восстановление лицензий DRM
 
@@ -66,7 +66,7 @@ ms.locfileid: "104339497"
 > [!Note]  
 > Когда пользователь восстанавливает лицензию на другой компьютер, а для этой лицензии требуется индивидуальная авторизация, конечный пользователь должен авторизовать компоненты DRM для обновления. Для поддержки этой функции необходимо реализовать процесс в приложении проигрывателя.
 
- 
+ 
 
 ## <a name="detecting-fraud"></a>Обнаружение мошенничества
 
@@ -77,9 +77,9 @@ ms.locfileid: "104339497"
 > [!Note]  
 > DRM не поддерживает версию этого пакета SDK на базе x64.
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -89,9 +89,9 @@ ms.locfileid: "104339497"
 [**Резервное копирование и восстановление лицензий**](backing-up-and-restoring-licenses.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

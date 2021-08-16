@@ -63,7 +63,7 @@ void WINAPI glNormal3sv(
 
 [**глисенабле**](glisenabled.md) с аргументом \_ нормализации GL
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

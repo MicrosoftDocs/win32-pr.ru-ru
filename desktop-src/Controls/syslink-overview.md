@@ -4,12 +4,12 @@ description: Элемент управления SysLink — это окно, к
 ms.assetid: 38cfac3d-de60-4882-a434-4f498330b77d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: deb0d15cac479b844b0ea8510c34cc57f56822be
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: cc4a5d64af48fc0b48b15f22fff55e5cb563339ac8d90446981c74e07f5d4713
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104070685"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118168564"
 ---
 # <a name="about-syslink-controls"></a>Сведения об элементах управления SysLink
 
@@ -46,7 +46,7 @@ ms.locfileid: "104070685"
 
 
 
- 
+ 
 
 ## <a name="limitations-on-bidirectional-text-display"></a>Ограничения на отображение двунаправленного текста
 
@@ -55,8 +55,8 @@ ms.locfileid: "104070685"
 > [!Note]  
 > Элементы управления SysLink не поддерживают двунаправленное отображение во всех сценариях. Используйте элемент управления SysLink только в том случае, если известно, что у вас достаточно простой макет LTR или RTL. В противном случае рассмотрите возможность использования более сложных технологий, таких как [MSHTML](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa753630(v=vs.85)).
 
- 
+ 
 
- 
+ 
 
- 
+ 

@@ -6,12 +6,12 @@ keywords:
 - Планировщик задач планировщик задач, справочные материалы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb22306266054b8ec19a90f188c43e5eb7e4393b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 78442e260007c5a56fc40316098a1af88b8383b6acdf04b0aa7283d006baa974
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103776094"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119059862"
 ---
 # <a name="task-scheduler-reference"></a>Справочник по планировщик задач
 
@@ -37,18 +37,18 @@ ms.locfileid: "103776094"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Планировщик заданий](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,8 +3,8 @@ title: Использование диалоговых окон
 description: Используйте диалоговые окна для вывода сведений и запроса ввода от пользователя.
 ms.assetid: 8a5b6bdd-4429-4f48-b846-6bd617a87abf
 keywords:
-- Пользовательский интерфейс Windows, окна
-- Пользовательский интерфейс Windows, диалоговые окна
+- Windows Пользовательский интерфейс, окна
+- Windows Пользовательский интерфейс, диалоговые окна
 - окна, диалоговые окна
 - диалоговые окна, сведения
 - диалоговые окна, отображение
@@ -17,12 +17,12 @@ keywords:
 - диалоговые окна, шаблоны
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21da47d7d59f4cadc21314566bce41a9ef3456a7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 32ec5e97060697388224ac92f60b6043a188d4259520aaf151fb188c43f6bb64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117720801"
 ---
 # <a name="using-dialog-boxes"></a>Использование диалоговых окон
 
@@ -433,6 +433,6 @@ LRESULT DisplayMyMessage(HINSTANCE hinst, HWND hwndOwner, LPSTR lpszMessage)
 
 
 
- 
+ 
 
- 
+ 

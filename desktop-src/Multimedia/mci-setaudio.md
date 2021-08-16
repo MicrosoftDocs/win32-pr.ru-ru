@@ -3,7 +3,7 @@ title: Команда MCI_SETAUDIO (Ммсистем. h)
 description: Команда MCI \_ сетаудио задает значения, связанные с воспроизведением и записью звука. Эта команда распознает устройства цифрового видео и ВИДЕОМАГНИТОФОНА.
 ms.assetid: 78624596-e465-4ef1-8988-edcfe9a46f89
 keywords:
-- MCI_SETAUDIO команды мультимедиа Windows
+- команда MCI_SETAUDIO Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 20605ff78c62a8e688778692d5ca8f8e1342a968
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b882209b8a9debc2c01e4f5c6f852d418c1a5cd321a764af022d19c58fe32a21
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104262215"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117803401"
 ---
 # <a name="mci_setaudio-command"></a>\_Команда MCI сетаудио
 
@@ -68,7 +68,7 @@ MCIERROR mciSendCommand(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Следующие флаги применяются к типу устройства **дигиталвидео** :
 
@@ -346,7 +346,7 @@ MCI \_ установлен \_
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 

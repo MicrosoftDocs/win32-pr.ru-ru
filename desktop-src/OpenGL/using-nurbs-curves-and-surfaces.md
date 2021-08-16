@@ -9,12 +9,12 @@ keywords:
 - НУРБС (неоднородный рациональный B-сплайн) OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f85e9a2045c417007c34d714ae6635ebfaf1180
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7c1b366571be7a9210576e78540c77970667aca2f37ec8a092de07edb97493d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104329200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118932774"
 ---
 # <a name="using-nurbs-curves-and-surfaces"></a>Использование кривых и поверхностей НУРБС
 
@@ -55,9 +55,9 @@ ms.locfileid: "104329200"
 
 Используйте [**глунурбспроперти**](glunurbsproperty.md) для задания этих свойств или используйте значения по умолчанию. Вы можете запросить объект НУРБС о своем стиле подготовки к просмотру с помощью [**глужетнурбспроперти**](glugetnurbsproperty.md).
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ description: Ресурс буфера разделен на плитки раз
 ms.assetid: 979EFCF3-1FE1-412A-A19D-F1B1CF86423B
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 061fafa009e554499822c90c8fb6c0c8f34e47f9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f36352f492efb88bf220035d737b5767ef086e74ab91ffb4228d7734f838425b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103890708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117734246"
 ---
 # <a name="buffer-tiling"></a>Плитки в буфере
 
@@ -17,13 +17,13 @@ ms.locfileid: "103890708"
 
 Для разделения структурированных буферов на плитки буферы не должны иметь ограничений шага. Однако можно пожертвовать возможной оптимизацией производительности оборудования для использования объекта [**StructuredBuffers**](/windows/desktop/direct3dhlsl/sm5-object-structuredbuffer), если все равно разделить буферы на плитки.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Мозаичное заполнение области мозаичного ресурса](how-a-tiled-resource-s-area-is-tiled.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

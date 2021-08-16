@@ -1,19 +1,19 @@
 ---
-description: '\_Таблица SummaryInformation — это специальная таблица, используемая в потоке сводных данных. Можно получить или задать поток сводных данных установщик Windows базы данных путем экспорта или импорта текстового файла архива с именем \_ SummaryInformation. IDT.'
+description: '\_Таблица SummaryInformation — это специальная таблица, используемая в потоке сводных данных. можно получить или задать поток сводных данных установщик Windows базы данных путем экспорта или импорта текстового файла архива с именем \_ SummaryInformation. idt.'
 ms.assetid: b1b42e03-7a05-46d4-9c42-b87906535adb
 title: _SummaryInformation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 803b89223db8b6fc8074336109221a8300f7c1ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3824ceb9b3ad12338d84dfeea016a3c7e4404c274543cc691dc6ea0fb121bd32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117805740"
 ---
 # <a name="_summaryinformation"></a>\_SummaryInformation
 
-\_Таблица SummaryInformation — это специальная таблица, используемая в [потоке сводных данных](summary-information-stream.md). Можно получить или задать поток сводных данных установщик Windows базы данных путем экспорта или импорта [текстового файла архива](text-archive-files.md) с именем \_ SummaryInformation. IDT.
+\_Таблица SummaryInformation — это специальная таблица, используемая в [потоке сводных данных](summary-information-stream.md). можно получить или задать поток сводных данных установщик Windows базы данных путем экспорта или импорта [текстового файла архива](text-archive-files.md) с именем \_ SummaryInformation. idt.
 
 Файл IDT экспортированной \_ таблицы SummaryInformation имеет следующий формат.
 

@@ -1,10 +1,10 @@
 ---
-title: Phone-IP — другой атрибут
+title: Телефон-Ip-другой атрибут
 description: Список альтернативных TCP/IP-адресов для телефона. Используется телефонией.
 ms.assetid: 3689c561-6dc1-4d73-adec-01c4ebdb5e47
 ms.tgt_platform: multiple
 keywords:
-- Phone-IP — другая схема AD атрибутов
+- Телефон-Ip — другая схема AD атрибутов
 - Схема AD атрибута Осерипфоне
 topic_type:
 - apiref
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7955b4fb80d46c19e5536517b53eb419e6de9ec6
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c0457389ccdec37549ab4ccd1f36019b30a39f796e483b2950174b65d0b3a927
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105655321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924034"
 ---
-# <a name="phone-ip-other-attribute"></a>Phone-IP — другой атрибут
+# <a name="phone-ip-other-attribute"></a>Телефон-Ip-другой атрибут
 
 Список альтернативных TCP/IP-адресов для телефона. Используется телефонией.
 
@@ -29,7 +29,7 @@ ms.locfileid: "105655321"
 
 | Ввод | Значение |
 |-------------------|----------------------------------------------------------------------------------|
-| CN                | Phone — IP — другие                                                                   |
+| CN                | Телефон-Ip — другие                                                                   |
 | LDAP-отображаемое имя | otherIpPhone                                                                     |
 | Размер              | \-                                                                               |
 | Привилегия обновления  | Администратор домена или владелец учетной записи.                                           |
@@ -60,7 +60,7 @@ ms.locfileid: "105655321"
 | System-Only            | Неверно                                                              |
 | Является однозначным       | Неверно                                                              |
 | Индексируется             | Неверно                                                              |
-| В глобальном каталоге      | True                                                               |
+| В глобальном каталоге      | Верно                                                               |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                       |
 | Range-Lower            | \-                                                                 |
 | Range-Upper            | \-                                                                 |
@@ -81,7 +81,7 @@ ms.locfileid: "105655321"
 | System-Only            | Неверно                                                              |
 | Является однозначным       | Неверно                                                              |
 | Индексируется             | Неверно                                                              |
-| В глобальном каталоге      | True                                                               |
+| В глобальном каталоге      | Верно                                                               |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                       |
 | Range-Lower            | \-                                                                 |
 | Range-Upper            | \-                                                                 |
@@ -102,7 +102,7 @@ ms.locfileid: "105655321"
 | System-Only            | Неверно                                                              |
 | Является однозначным       | Неверно                                                              |
 | Индексируется             | Неверно                                                              |
-| В глобальном каталоге      | True                                                               |
+| В глобальном каталоге      | Верно                                                               |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                       |
 | Range-Lower            | \-                                                                 |
 | Range-Upper            | \-                                                                 |
@@ -123,7 +123,7 @@ ms.locfileid: "105655321"
 | System-Only            | Неверно                                                              |
 | Является однозначным       | Неверно                                                              |
 | Индексируется             | Неверно                                                              |
-| В глобальном каталоге      | True                                                               |
+| В глобальном каталоге      | Верно                                                               |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                       |
 | Range-Lower            | \-                                                                 |
 | Range-Upper            | \-                                                                 |
@@ -144,7 +144,7 @@ ms.locfileid: "105655321"
 | System-Only            | Неверно                                                              |
 | Является однозначным       | Неверно                                                              |
 | Индексируется             | Неверно                                                              |
-| В глобальном каталоге      | True                                                               |
+| В глобальном каталоге      | Верно                                                               |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                       |
 | Range-Lower            | \-                                                                 |
 | Range-Upper            | \-                                                                 |
@@ -165,7 +165,7 @@ ms.locfileid: "105655321"
 | System-Only            | Неверно                                                              |
 | Является однозначным       | Неверно                                                              |
 | Индексируется             | Неверно                                                              |
-| В глобальном каталоге      | True                                                               |
+| В глобальном каталоге      | Верно                                                               |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                       |
 | Range-Lower            | \-                                                                 |
 | Range-Upper            | \-                                                                 |

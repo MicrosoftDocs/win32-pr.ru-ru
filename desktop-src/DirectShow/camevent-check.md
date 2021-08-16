@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 1a112d1b9484acb4d7e9cc2992b8dee629f40e23
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1a961d7df45ddac7ade5e39f91c1aed56609ce2d2eeb8e7423799c9a4903884e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118955543"
 ---
 # <a name="cameventcheck-method"></a>Камевент. Check, метод
 
@@ -40,7 +40,7 @@ BOOL Check();
 
 Этот метод не имеет параметров.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращает **значение true** , если событие задано, или **значение false** в противном случае. Этот метод вызывает метод [**камевент:: wait**](camevent-wait.md) с нулевым временем ожидания. Если объект является событием автоматического сброса, этот метод сбрасывает событие.
 
@@ -50,7 +50,7 @@ BOOL Check();
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Вксутил. h (включение Streams. h)</dt> </dl>                                                                                    |
+| Заголовок<br/>  | <dl> <dt>вксутил. h (включает Потоки. h)</dt> </dl>                                                                                    |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

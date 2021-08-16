@@ -44,7 +44,7 @@ player.controls.currentAudioLanguage
 
 **проигрыватель Windows Media 10 Mobile:** Это свойство принимает или возвращает только код, не зависящий от языка (0).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

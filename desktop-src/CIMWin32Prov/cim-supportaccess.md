@@ -19,12 +19,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: db5f1dc4331bd50e2fc61899f9d45fe2cdb0eca0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c53254b51b228efb2c1f14b7fb5f07475fb275d20c7df6444dc88e048bb1d30f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020912"
 ---
 # <a name="cim_supportaccess-class"></a>\_Класс CIM суппортакцесс
 
@@ -57,7 +57,7 @@ class CIM_SupportAccess
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ суппортакцесс** имеет следующие свойства.
 
@@ -75,7 +75,7 @@ class CIM_SupportAccess
 Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) (MIF. DMTF \| FRU \| 002,11 "," MIF. DMTF \| FRU \| 002,12 ")
 </dt> </dl>
 
-Сведения о режиме связи. Например, если свойство **коммуникатионмоде** имеет значение Phone, то это свойство указывает номер телефона для вызова.
+Сведения о режиме связи. например, если свойство **коммуникатионмоде** имеет значение "Телефон", это свойство указывает номер телефона для вызова.
 
 </dd> <dt>
 
@@ -209,7 +209,7 @@ class CIM_SupportAccess
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Инструментарий WMI не реализует этот класс.
 

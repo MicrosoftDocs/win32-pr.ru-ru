@@ -55,7 +55,7 @@ ms.locfileid: "119214054"
 -   Тип защиты
 -   Задать уровень защиты
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

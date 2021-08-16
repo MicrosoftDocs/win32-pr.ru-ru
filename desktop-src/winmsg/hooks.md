@@ -4,18 +4,18 @@ ms.assetid: vs|winui|~\winui\windowsuserinterface\windowing\hooks.htm
 title: Обработчики
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74057d25e3152c8782c2be364688bb971b08ddf5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a059222b5068a6e5d06be5efc2de6838f0dbc70d5bd70476706d7c69a6926c40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119932204"
 ---
 # <a name="hooks"></a>Обработчики
 
 Обработчик — это точка в механизме обработки сообщений системы, где приложение может установить подпрограммы для отслеживания трафика сообщений в системе и обработать определенные типы сообщений до того, как они достигли целевой процедуры окна.
 
-### <a name="in-this-section"></a>в этом разделе
+### <a name="in-this-section"></a>В этом разделе
 
 
 
@@ -93,7 +93,7 @@ ms.locfileid: "104272084"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

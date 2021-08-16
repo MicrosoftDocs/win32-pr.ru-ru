@@ -36,7 +36,7 @@ ms.locfileid: "119468224"
 
 Значение этого атрибута совпадает со значением, возвращаемым методом [**IWMPLibrary2:: getItemInfo**](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmplibrary-get_name) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 9925a645-5909-42c7-9de8-f908a5e42be9
 title: Действие администратора
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00106c9ab7877918e122f1ec9bd201fe30bb68b1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 785bd69a8de7da1df9a812f7e89d589b6e939b3eedd6b3cecb66bf86407636cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909127"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119145937"
 ---
 # <a name="admin-action"></a>Действие администратора
 
@@ -23,11 +23,11 @@ ms.locfileid: "103909127"
 
 Нет сообщений Актиондата.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Действие администратора не вызывается из последовательности таблицы действий, установщик Windows выполняет это действие при вызове [**мсиинсталлпродукт**](/windows/desktop/api/Msi/nf-msi-msiinstallproducta) с параметром *сзкоммандлине* , для которого задано значение Action = Admin, или исполняемый файл командной строки, Msiexec.exe вызывается с параметром командной строки "/a".
+действие администратора не вызывается из последовательности таблицы действий, установщик Windows выполняет это действие при вызове [**мсиинсталлпродукт**](/windows/desktop/api/Msi/nf-msi-msiinstallproducta) с параметром *сзкоммандлине* , для которого задано значение action = ADMIN, или исполняемый файл командной строки, Msiexec.exe вызывается с параметром командной строки "/a".
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -1,19 +1,19 @@
 ---
-description: В примере кода Дсеарч показано, как создать класс для статического консольного приложения, чтобы запросить Поиск Windows с помощью сборки Microsoft. Search. Interop для Исеарчкуерихелпер.
+description: пример кода дсеарч демонстрирует создание класса для статического консольного приложения для запроса Windows поиска с помощью сборки Microsoft. Search. Interop для исеарчкуерихелпер.
 ms.assetid: 9c09b1fe-c63e-4c6e-9c8b-f5e29cf0fe9e
 title: дсеарч
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4285596a8109361accd6b3adecf80ea98074e55e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d2505a8482a698f3147ae9c13ddb135c1da1c584f16cf52a5a05ca469efbc968
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692195"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117680719"
 ---
 # <a name="dsearch"></a>дсеарч
 
-В примере кода Дсеарч показано, как создать класс для статического консольного приложения, чтобы запросить Поиск Windows с помощью сборки Microsoft. Search. Interop для [**исеарчкуерихелпер**](/windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper).
+пример кода дсеарч демонстрирует создание класса для статического консольного приложения для запроса Windows поиска с помощью сборки Microsoft. Search. Interop для [**исеарчкуерихелпер**](/windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper).
 
 В этом разделе содержатся следующие подразделы.
 
@@ -21,7 +21,7 @@ ms.locfileid: "105692195"
 - [Загрузка образца](#downloading-the-sample)
 - [Создание примера](#building-the-sample)
 - [Запуск примера](#running-the-sample)
-- [См. также](#related-topics)
+- [Связанные темы](#related-topics)
 
 ## <a name="requirements"></a>Требования
 
@@ -39,24 +39,24 @@ ms.locfileid: "105692195"
 | GitHub        | [Пример Дсеарч](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/DSearch)         |
 
 > [!NOTE]  
-> Для всех версий Windows, включая Windows 7, рекомендуется загрузить примеры непосредственно из GitHub, чтобы получить самую последнюю версию.
+> для всех версий Windows, включая Windows 7, рекомендуется загружать образцы непосредственно из GitHub для наиболее актуальной версии.
 
 ## <a name="building-the-sample"></a>Построение образца
 
-1. Откройте проводник Windows и перейдите в каталог проекта **дсеарч** .
+1. откройте обозреватель Windows и перейдите в каталог проекта **дсеарч** .
 2. Дважды щелкните значок файла Дсеарч. sln, чтобы открыть проект в Visual Studio.
   
     > [!NOTE]  
-    > Файл SLN был создан в более старой версии Visual Studio, поэтому его обновление потребуется, если используется Visual Studio 2012 или более поздняя версия. Это не повлияет на поведение образца.
+    > файл sln был создан в более ранней версии Visual Studio, поэтому его обновление потребуется при использовании Visual Studio 2012 или более поздних версий. Это не повлияет на поведение образца.
 
-3. В меню **Сборка** выберите пункт **построить решение**.
+3. В меню **Построение** выберите пункт **Построить решение**.
 
 ## <a name="running-the-sample"></a>Запуск примера
 
-1. Перейдите в каталог, содержащий новый исполняемый файл, с помощью окна командной строки или проводника Windows.
-2. В командной строке введите `DSearch.exe` или в проводнике Windows дважды щелкните значок DSearch.exe.
+1. перейдите в каталог, содержащий новый исполняемый файл, используя окно командной строки или проводник Windows.
+2. в командной строке введите `DSearch.exe` или в Windows Explorer дважды щелкните значок DSearch.exe.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 ### <a name="reference"></a>Справочник
 

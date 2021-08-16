@@ -4,12 +4,12 @@ ms.assetid: c5de18b5-fac3-4e55-9eca-3b6672df0e7b
 title: Сообщение WM_MDIACTIVATE (Winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b240c41d3b7127a5d69b855f3a5587e194b02d96
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e8b71e0f3755d76ecb44d60eecbd3b92c124aa59339a6fbf59a098b1eeb274f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105647367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931274"
 ---
 # <a name="wm_mdiactivate-message"></a>\_Сообщение МДИАКТИВАТЕ WM
 
@@ -48,7 +48,7 @@ ms.locfileid: "105647367"
 
 Дочернее окно MDI должно вернуть нуль, если обрабатывает это сообщение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Когда клиентское окно обрабатывает это сообщение, оно отправляет **WM \_ мдиактивате** в дочернее окно, которое деактивируется, а также активируется дочернее окно. Ниже приведены параметры сообщений, получаемые дочерним окном MDI.
 
@@ -78,7 +78,7 @@ ms.locfileid: "105647367"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

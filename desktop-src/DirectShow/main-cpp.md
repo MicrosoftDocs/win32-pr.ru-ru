@@ -4,16 +4,16 @@ ms.assetid: d1a4ee7d-b05d-4050-b0a5-25c28157646f
 title: Main. cpp
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db91ab89ff7c79811fc649072c91d626701239a3
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: eae95293e5f9f3f6511834ff030898c770c673d60ea761353f4637cb583e5c15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119073108"
 ---
 # <a name="maincpp"></a>Main. cpp
 
-В этом разделе содержится код руководства по [воспроизведению аудио-и видеороликов в DirectShow](audio-video-playback-in-directshow.md).
+Этот раздел содержит код руководства по [воспроизведению звука и видео в DirectShow](audio-video-playback-in-directshow.md).
 
 
 ```C++
@@ -247,7 +247,7 @@ void NotifyError(HWND hwnd, PCWSTR pszMessage)
 [Воспроизведение звука и видео в DirectShow](audio-video-playback-in-directshow.md)
 </dt> <dt>
 
-[Пример воспроизведения DirectShow](directshow-playback-example.md)
+[DirectShow Пример воспроизведения](directshow-playback-example.md)
 </dt> </dl>
 
  

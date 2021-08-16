@@ -4,12 +4,12 @@ ms.assetid: 3b77cc23-c104-4adc-868c-3aa2b5794bc7
 title: Таблица Модулеконфигуратион
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa187c10b5d3376a9bec78eb897b4982445ff01f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c499e313633d1668db81c91654800d1d5824192839329316f55040fd3bc7bad2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963064"
 ---
 # <a name="moduleconfiguration-table"></a>Таблица Модулеконфигуратион
 
@@ -21,16 +21,16 @@ ms.locfileid: "104265045"
 
 | Столбец       | Type                         | Ключ | Допускает значения NULL |
 |--------------|------------------------------|-----|----------|
-| Имя         | [Идентификатор](identifier.md) | Да   | Нет        |
+| Имя         | [Идентификатор](identifier.md) | Д   | Нет        |
 | Формат       | [Integer](integer.md)       | Нет   | Нет        |
-| Тип         | [Text](text.md)             | Нет   | Да        |
-| контекстдата  | [Text](text.md)             | Нет   | Да        |
-| DefaultValue | [Text](text.md)             | Нет   | Да        |
-| Атрибуты   | [Integer](integer.md)       | Нет   | Да        |
-| DisplayName  | [Text](text.md)             | Нет   | Да        |
-| Описание  | [Text](text.md)             | Нет   | Да        |
-| HelpLocation | [Text](text.md)             | Нет   | Да        |
-| Данным  | [Text](text.md)             | Нет   | Да        |
+| Тип         | [Text](text.md)             | Нет   | Д        |
+| контекстдата  | [Text](text.md)             | Нет   | Д        |
+| DefaultValue | [Text](text.md)             | Нет   | Д        |
+| Атрибуты   | [Integer](integer.md)       | Нет   | Д        |
+| DisplayName  | [Text](text.md)             | Нет   | Д        |
+| Описание  | [Text](text.md)             | Нет   | Д        |
+| HelpLocation | [Text](text.md)             | Нет   | Д        |
+| Данным  | [Text](text.md)             | Нет   | Д        |
 
 
 
@@ -136,7 +136,7 @@ ms.locfileid: "104265045"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Таблица Модулеконфигуратион используется [настраиваемыми модулями слияния](configurable-merge-modules.md). Для создания настраиваемого модуля слияния требуется Mergemod.dll 2,0 или более поздней версии.
 

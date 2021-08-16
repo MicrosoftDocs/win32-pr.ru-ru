@@ -4,12 +4,12 @@ description: В этом разделе содержатся подробные 
 ms.assetid: b6d93825-a8dd-4ba8-bea9-09e3fbb62407
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b679bdc27d8a6f9f51f5192d2ea129669c510cb0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 342c56a7648a5f132d3581e0c6be348ed6a26b1ff5bbb16638a5208b70869193
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103887751"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119058012"
 ---
 # <a name="using-the-device-host-api"></a>Использование API узла устройства
 
@@ -24,9 +24,9 @@ ms.locfileid: "103887751"
 -   [Реализация поставщика устройства](implementing-a-device-provider.md)
 -   [Использование примера кода устройства DIMM](using-the-dimmer-device-sample-code.md)
 
- 
+ 
 
- 
+ 
 
 
 

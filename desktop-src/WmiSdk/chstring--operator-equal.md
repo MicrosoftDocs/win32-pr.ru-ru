@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 'Чстринг:: operator = (Чстринг. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f9abfa9ea2b72aa8f6830d9fb6388861c8c3b82d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dde67bbf0f1a7326074bc7638cdd6b256ad763e115ad12e2c193e6bcdc66605e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104080896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131786"
 ---
 # <a name="chstringoperator"></a>Чстринг:: operator =
 
@@ -73,7 +73,7 @@ throw( CHeap_Exception );
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если строка назначения (то есть левая часть) уже достаточно велика для хранения новых данных, выделение памяти не выполняется. Однако исключения памяти могут возникать при каждом использовании оператора присваивания, поскольку для хранения результирующего объекта [**чстринг**](chstring.md) часто выделяется новое хранилище.
 
@@ -101,7 +101,7 @@ s1 = 'x';               // Or just individual characters
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                                                                                      |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                                                                                                |
-| Header<br/>                   | <dl> <dt>Чстринг. h (включение Фвкоммон. h)</dt> </dl>                                                    |
+| Заголовок<br/>                   | <dl> <dt>Чстринг. h (включение Фвкоммон. h)</dt> </dl>                                                    |
 | Библиотека<br/>                  | <dl> <dt>Фрамедин. lib</dt> </dl>                                                                       |
 | DLL<br/>                      | <dl> <dt>FrameDynOS.dll; </dt> <dt>FrameDyn.dll</dt> </dl> |
 

@@ -3,7 +3,7 @@ title: Сообщение CCM_DPISCALE (Коммктрл. h)
 description: Включает автоматическое масштабирование с высоким числом точек на дюйм в элементах управления Tree-View, List-View элементах управления, элементах управления ComboBoxEx, элементах управления "заголовок", кнопках, элементах управления ToolBar, анимации и списках изображений.
 ms.assetid: 3c751f10-992c-41f8-8f0b-3dc58f0591e4
 keywords:
-- Элементы управления Windows для CCM_DPISCALE сообщений
+- элементы управления Windows сообщений CCM_DPISCALE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 56ef978f486f370adf9872d28e1accbacc37a6de
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e7e72cb8ac3acf413e4381580a4ecf38a4f5bd4b2f5b03d6cff7d7abb85c1f0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136458"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119320254"
 ---
 # <a name="ccm_dpiscale-message"></a>\_Сообщение ДПИСКАЛЕ CCM
 
@@ -47,7 +47,7 @@ ms.locfileid: "104136458"
 
 Возвращаемое значение не используется.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для быстрого запуска и [панели задач](/windows/desktop/shell/taskbar) не следует указывать масштабирование DPI, так как изображения уже масштабируются.
 
@@ -64,9 +64,9 @@ ms.locfileid: "104136458"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

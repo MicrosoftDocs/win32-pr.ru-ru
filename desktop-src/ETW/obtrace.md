@@ -42,7 +42,7 @@ class ObTrace : MSNT_SystemTrace
 
 Чтобы включить трассировку событий диспетчера объектов, вызовите функцию [**трацесетинформатион**](/windows/win32/api/evntrace/nf-evntrace-tracesetinformation) с параметром *информатионкласс* , равным значению перечисления [**\_ \_ класса сведений о трассировке**](/windows/win32/api/evntrace/ne-evntrace-trace_query_info_class) **трацесистемтрацеенаблефлагсинфо** , а элемент **енаблефлагс** структуры [**\_ \_ свойств трассировки событий**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) — к **\_ \_ маркеру "PERF OB** " (0x80000040).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -4,12 +4,12 @@ description: Наглядные примеры многих элементов �
 ms.assetid: be99bf83-dcd7-44df-be0d-b1b17305a2d6
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 2dc56707564115b612cc008d66697a2543191859
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: e240cd30b022fa8acab654c80189239852e5bf906c9cfcbeb03963e1b541763c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444605"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119816123"
 ---
 # <a name="visual-index"></a>Визуальный индекс
 
@@ -52,7 +52,7 @@ ms.locfileid: "111444605"
 | [строки состояния](ctrl-status-bars.md)<br/> ![снимок экрана строки состояния и всплывающего окна ](images/visual-index-image17.png)<br/>                                  |
 | [соответствующую](ctrl-tabs.md)<br/> ![снимок экрана с пятью вкладками ](images/visual-index-image18.png)<br/>                                                                   |
 | [текстовые поля](ctrl-text-boxes.md)<br/> ![снимок экрана текстового поля и его метки ](images/visual-index-image19.png)<br/>                                        |
-| [подсказки](ctrl-tooltips-and-infotips.md)<br/> ![снимок экрана кнопки "Печать" и ее подсказки ](images/visual-index-image20.png)<br/>                           |
+| [tooltips](ctrl-tooltips-and-infotips.md)<br/> ![снимок экрана кнопки "Печать" и ее подсказки ](images/visual-index-image20.png)<br/>                           |
 | [подсказку](ctrl-tooltips-and-infotips.md)<br/> ![снимок экрана с кнопкой "поделиться" и ее всплывающей подсказкой ](images/visual-index-image21.png)<br/>                            |
 | [представления в виде дерева](ctrl-tree-views.md)<br/> ![снимок экрана с иерархией папок ](images/visual-index-image22.png)<br/>                                                |
 

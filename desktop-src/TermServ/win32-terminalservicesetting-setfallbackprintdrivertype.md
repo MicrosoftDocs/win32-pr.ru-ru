@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 16e445fef86970e89d5b0f09abebecd40f49ab7f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d39033a34c75ea94f365ae690b1ac6fe4cd61663e9cd6db19f2cd2c232bd8c89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071946"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137867"
 ---
 # <a name="setfallbackprintdrivertype-method-of-the-win32_terminalservicesetting-class"></a>Метод Сетфаллбаккпринтдривертипе \_ класса Win32 терминалсервицесеттинг
 
@@ -74,7 +74,7 @@ uint32 SetFallbackPrintDriverType(
 
 <span id="2"></span>
 
-<span id="2"></span>**открыт**
+<span id="2"></span>**2**
 
 
 </dt> <dd>
@@ -96,7 +96,7 @@ uint32 SetFallbackPrintDriverType(
 
 <span id="4"></span>
 
-<span id="4"></span>**четырех**
+<span id="4"></span>**4**
 
 
 </dt> <dd>
@@ -109,9 +109,9 @@ uint32 SetFallbackPrintDriverType(
 
 Возвращает успешное завершение, в противном случае возвращает код ошибки WMI. Список этих значений см. в разделе [службы удаленных рабочих столов коды ошибок поставщика WMI](terminal-services-wmi-provider-error-codes.md) . Метод возвращает ошибку, если параметр находится в разделе Управление групповой политикой.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). MOF-файлы не устанавливаются в составе пакета средств разработки программного обеспечения Microsoft Windows (SDK). Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
+файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). файлы MOF не устанавливаются в составе пакета средств разработки программного обеспечения Microsoft Windows Software Development Kit (SDK). Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
 ## <a name="requirements"></a>Требования
 

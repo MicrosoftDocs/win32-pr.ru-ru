@@ -4,16 +4,16 @@ ms.assetid: 02d1b3b5-3639-4864-9b72-623bf94acf69
 title: 'Метод Итформатконтрол:: Жеткуррентформат (Ипмсп. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b1b711b539ea9a92af6bd345c5a1f48b212b640b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 50d261cd88a9aac4998f15d871a20408aecb367b793b78b7f9fcaeff452273a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105688959"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140337"
 ---
 # <a name="itformatcontrolgetcurrentformat-method"></a>Метод Итформатконтрол:: Жеткуррентформат
 
-\[ Этот метод недоступен для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[этот метод недоступен для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Метод **жеткуррентформат** извлекает формат носителя текущего потока.
 

@@ -3,7 +3,7 @@ title: Сообщение WIM_DATA (Ммсистем. h)
 description: Сообщение с \_ данными WIM отправляется в указанную функцию обратного вызова аудио-звука, когда в входном буфере содержатся данные звуковой волны, а буфер возвращается приложению.
 ms.assetid: 94cc02b8-61c4-44b9-9f8e-041fe989c1a6
 keywords:
-- WIM_DATA сообщения Windows мультимедиа
+- сообщение WIM_DATA Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 28bcfdd249dda5621d4914d75d3ffc7b13e4d767
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6956dacefa507c2c92f05afdd39bc9c803c630421c81620e0320f3b06648b13b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118940752"
 ---
 # <a name="wim_data-message"></a>\_Сообщение данных WIM
 
@@ -56,7 +56,7 @@ dwParam2 = reserved
 
 Это сообщение не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращенный буфер может быть незаполненным. Используйте элемент **двбитесрекордед** структуры [**вавехдр**](/windows/win32/api/mmeapi/ns-mmeapi-wavehdr) , заданную параметром *лпввхдр* , чтобы определить число байтов, записанных в возвращенный буфер.
 
@@ -68,7 +68,7 @@ dwParam2 = reserved
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 

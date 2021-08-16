@@ -17,12 +17,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 746a7f2a9b5f6bb6316bf0d0e20e5645cea15a7e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 672d8fc609c14a43ca2692b5cf8a46356a00cccb9c06371e515bc102706c3638
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104985701"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069704"
 ---
 # <a name="stackwalk_event-class"></a>\_Класс событий стакквалк
 
@@ -44,19 +44,19 @@ class StackWalk_Event : StackWalk
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **\_ событий стакквалк** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ событий стакквалк** имеет следующие свойства.
 
 <dl> <dt>
 
-**EventTimeStamp**
+**евенттиместамп**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **UInt64**
@@ -136,7 +136,7 @@ class StackWalk_Event : StackWalk
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Обратите внимание, что в классе не отображаются все свойства **Stack * n***, существующие между **Stack1** и **Stack192**. Используйте размер события, чтобы определить, сколько свойств **Stack * n*** содержит допустимые адреса.
 
@@ -146,8 +146,8 @@ class StackWalk_Event : StackWalk
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>              |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>              |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/> |
 
 
 

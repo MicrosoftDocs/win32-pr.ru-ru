@@ -3,16 +3,16 @@ title: ВКМ Services
 description: ВКМ Services
 ms.assetid: ca35cf56-b823-450d-a218-e386bafbe872
 keywords:
-- Видео для Windows (VFW), ВКМ Services
-- VFW (видео для Windows), ВКМ Services
+- видео для Windows (VFW), вкм services
+- VFW (видео для Windows), вкм services
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ac723ee2d135cde9b57cababa76db9fefbb9a23
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 13d32d4a81005b6545b205d14612e9e8de06a82d436619fd5bb3a2ea9286f6ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117800836"
 ---
 # <a name="vcm-services"></a>ВКМ Services
 
@@ -39,9 +39,9 @@ ms.locfileid: "103888788"
 -   [Мониторинг хода сжатия и распаковки](monitoring-the-progress-of-compressors-and-decompressors.md)
 -   [Возможности рисования оборудования](hardware-drawing-capabilities.md)
 
- 
+ 
 
- 
+ 
 
 
 
