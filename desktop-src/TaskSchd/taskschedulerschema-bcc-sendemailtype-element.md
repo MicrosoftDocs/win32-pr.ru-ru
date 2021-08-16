@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f262b8f5d74018a4622f915def85df5e16108cdb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1409d50a0317758534724b9e2c3a9796c4dd0cb40e666f58fc65ca0771da9762
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136346"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119659044"
 ---
 # <a name="bcc-sendemailtype-element"></a>Элемент BCC (Сендемаилтипе)
 
@@ -42,7 +42,7 @@ ms.locfileid: "104136346"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Сведения о разработке на языке C++ см. в разделе [**свойство BCC объекта иемаилактион**](/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_bcc).
 
@@ -54,8 +54,8 @@ ms.locfileid: "104136346"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

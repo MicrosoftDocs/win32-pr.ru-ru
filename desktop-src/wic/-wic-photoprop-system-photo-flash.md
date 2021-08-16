@@ -4,12 +4,12 @@ ms.assetid: 24b400a4-f4c7-4b59-a9e3-8a20144cd52e
 title: Политика метаданных фотографии System. photo. Flash
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0302e0f310d2f9a6a4390b0d4856578cc2f43e93
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba32a7b4dfcde564f6b0c0c9e175aa56786e1324080264c7c928398fe97e6a34
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119811734"
 ---
 # <a name="systemphotoflash-photo-metadata-policy"></a>Политика метаданных фотографии System. photo. Flash
 
@@ -49,7 +49,7 @@ VT \_ UI1, VTUI2, VT \_ UI4
 
 
 
-| Заказ | Путь                             | Формат диска |
+| Номер | Путь                             | Формат диска |
 |-------|----------------------------------|-------------|
 | 1     | /APP1/IFD/EXIF/{ushort = 37385}    | ushort      |
 | 2     | /КСМП/ <xmpstruct> EXIF: Flash |             |
@@ -62,7 +62,7 @@ VT \_ UI1, VTUI2, VT \_ UI4
 
 
 
-| Заказ | Путь                             | Формат диска |
+| Номер | Путь                             | Формат диска |
 |-------|----------------------------------|-------------|
 | 1     | /APP1/IFD/EXIF/{ushort = 37385}    | ushort      |
 | 2     | /КСМП/ <xmpstruct> EXIF: Flash |             |
@@ -75,7 +75,7 @@ VT \_ UI1, VTUI2, VT \_ UI4
 
 
 
-| Заказ | Путь                             |
+| Номер | Путь                             |
 |-------|----------------------------------|
 | 1     | /APP1/IFD/EXIF/{ushort = 37385}    |
 | 2     | /КСМП/ <xmpstruct> EXIF: Flash |
@@ -90,7 +90,7 @@ VT \_ UI1, VTUI2, VT \_ UI4
 
 
 
-| Заказ | Путь                                 | Формат диска |
+| Номер | Путь                                 | Формат диска |
 |-------|--------------------------------------|-------------|
 | 1     | /ИФД/ексиф/{ушорт = 37385}             | ushort      |
 | 2     | /ИФД/КСМП/ <xmpstruct> EXIF: Flash |             |
@@ -103,7 +103,7 @@ VT \_ UI1, VTUI2, VT \_ UI4
 
 
 
-| Заказ | Путь                                 | Формат диска |
+| Номер | Путь                                 | Формат диска |
 |-------|--------------------------------------|-------------|
 | 1     | /ИФД/ексиф/{ушорт = 37385}             | ushort      |
 | 2     | /ИФД/КСМП/ <xmpstruct> EXIF: Flash |             |
@@ -116,7 +116,7 @@ VT \_ UI1, VTUI2, VT \_ UI4
 
 
 
-| Заказ | Путь                                 |
+| Номер | Путь                                 |
 |-------|--------------------------------------|
 | 1     | /ИФД/ексиф/{ушорт = 37385}             |
 | 2     | /ИФД/КСМП/ <xmpstruct> EXIF: Flash |
@@ -125,9 +125,9 @@ VT \_ UI1, VTUI2, VT \_ UI4
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

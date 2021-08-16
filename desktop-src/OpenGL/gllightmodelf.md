@@ -107,7 +107,7 @@ void WINAPI glLightModelf(
 
 [**глисенаблед**](glisenabled.md) с аргументом \_ освещение GL
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

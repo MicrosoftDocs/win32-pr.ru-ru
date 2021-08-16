@@ -25,12 +25,12 @@ keywords:
 - Direct2D, примитивы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 858d03f626fe337b174f074d7725dcb1a636b463
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 54f318e3542d54ee92817193ef6b749a3ba1cf4678407ca7a12f28c6c187ae86
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105681652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074998"
 ---
 # <a name="direct2d-api-overview"></a>Обзор API Direct2D
 
@@ -58,7 +58,7 @@ Direct2D предоставляет API, аналогичный Direct3D, для
     -   [Растровые изображения](#bitmaps)
 -   [Рисование текста](#drawing-text)
 -   [Примитивы Direct2D](#direct2d-primitives)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="direct2d-header-files"></a>Файлы заголовков Direct2D
 
@@ -70,18 +70,18 @@ API Direct2D определяется следующими файлами заг
 | d2d1helper. h        | Определяет вспомогательные функции, классы и структуры C++.                                                                       |
 | d2dbasetypes. h      | Определяет примитивы рисования для Direct2D, такие как точки и прямоугольники. Этот заголовок включен в D2D1. h.                 |
 | d2derr. h            | Определяет коды ошибок для Direct2D. Этот заголовок включен в D2D1. h.                                                   |
-| D2D1 \_ 1. h           | Определяет версии языка C и C++ основного API Direct2D для Windows 8 и более поздних версий.                                              |
-| D2D1 \_ 1helper. h     | Определяет вспомогательные функции, классы и структуры C++ для Windows 8 и более поздних версий.                                               |
-| d2d1effects. h       | Определяет версии эффектов образа в C и C++ части API Direct2D для Windows 8 и более поздних версий.                            |
-| d2d1effecthelpers. h | Определяет вспомогательные функции C++, классы и структуры для эффектов изображения части API Direct2D для Windows 8 и более поздних версий. |
+| D2D1 \_ 1. h           | определяет версии первичного API Direct2D для версий C и C++ для Windows 8 и более поздних версий.                                              |
+| D2D1 \_ 1helper. h     | определяет вспомогательные функции, классы и структуры C++ для Windows 8 и более поздних версий.                                               |
+| d2d1effects. h       | определяет версии эффектов изображения в C и C++ части API Direct2D для Windows 8 и более поздних версий.                            |
+| d2d1effecthelpers. h | определяет вспомогательные функции C++, классы и структуры для эффектов изображения части API Direct2D для Windows 8 и более поздних версий. |
 
 
 
- 
+ 
 
 Чтобы использовать Direct2D, приложение должно включать заголовочный файл D2D1. h.
 
-Чтобы скомпилировать приложение Direct2D, добавьте D2D1. lib в список библиотек. В [пакете средств разработки программного обеспечения (SDK) для Windows 7](https://msdn.microsoft.com/windows/bb980924.aspx)можно найти D2D1. h и D2D1. lib.
+Чтобы скомпилировать приложение Direct2D, добавьте D2D1. lib в список библиотек. d2d1. h и d2d1. lib можно найти в [Windows пакете средств разработки программного обеспечения (SDK) для Windows 7](https://msdn.microsoft.com/windows/bb980924.aspx).
 
 В следующих разделах описываются некоторые из распространенных интерфейсов, предоставляемых API Direct2D.
 
@@ -181,7 +181,7 @@ Direct2D использует левую систему координат: по
 
 ### <a name="bitmaps"></a>Растровые изображения
 
-Direct2D не предоставляет методы для загрузки или хранения растровых изображений. Вместо этого он позволяет создавать растровые изображения с помощью [компонента Windows Imaging Component (WIC)](../wic/-wic-about-windows-imaging-codec.md). Ресурсы растрового изображения можно загрузить с помощью WIC, а затем использовать для создания [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap) с помощью метода [**ID2D1RenderTarget:: креатебитмапфромвикбитмап**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createbitmapfromwicbitmap(iwicbitmapsource_constd2d1_bitmap_properties_id2d1bitmap)) .
+Direct2D не предоставляет методы для загрузки или хранения растровых изображений. вместо этого он позволяет создавать растровые изображения с помощью [компонента Windows imaging (WIC)](../wic/-wic-about-windows-imaging-codec.md). Ресурсы растрового изображения можно загрузить с помощью WIC, а затем использовать для создания [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap) с помощью метода [**ID2D1RenderTarget:: креатебитмапфромвикбитмап**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createbitmapfromwicbitmap(iwicbitmapsource_constd2d1_bitmap_properties_id2d1bitmap)) .
 
 Точечные рисунки можно также создавать из данных в памяти, которые были настроены с помощью других средств. После создания растрового изображения его можно изобразить с помощью метода [**дравбитмап**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawbitmap(id2d1bitmap_constd2d1_rect_f__float_d2d1_bitmap_interpolation_mode_constd2d1_rect_f_)) целевого объекта прорисовки или с помощью растровой кисти.
 
@@ -189,15 +189,15 @@ Direct2D не предоставляет методы для загрузки и
 
 ## <a name="drawing-text"></a>Рисование текста
 
-Direct2D был разработан для работы с текстовыми операциями нового API текста, DirectWrite. Чтобы упростить использование API DirectWrite, цели рендеринга предоставляют три метода для отрисовки DirectWrite текстовых ресурсов: [**DrawText**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode)), [**дравтекстлайаут**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout)и [**DrawGlyphRun**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawglyphrun). Так как Direct2D использует GPU для процесса отрисовки текста ClearType, Direct2D обеспечивает более низкое использование ЦП, чем GDI для текстовых операций и улучшает масштабируемость, так как доступно больше вычислительных ресурсов GPU.
+Direct2D был разработан для работы с текстовыми операциями нового API текста DirectWrite. чтобы упростить использование DirectWrite API, цели рендеринга предоставляют три метода для отрисовки DirectWrite текстовых ресурсов: [**DrawText**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode)), [**дравтекстлайаут**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout)и [**DrawGlyphRun**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawglyphrun). Так как Direct2D использует GPU для процесса отрисовки текста ClearType, Direct2D обеспечивает более низкое использование ЦП, чем GDI для текстовых операций и улучшает масштабируемость, так как доступно больше вычислительных ресурсов GPU.
 
 [**ID2D1RenderTarget::D равтекст**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode)) предназначен для простейших сценариев, включающих визуализацию строки текста в Юникоде с минимальным форматированием. Более сложная структура и типографская гибкость обеспечиваются с помощью метода [**ID2D1RenderTarget::D равтекстлайаут**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout) , который использует объект [**идвритетекстлайаут**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) для указания содержимого и форматирования для подготовки к просмотру. **Идвритетекстлайаут** позволяет задать индивидуальное форматирование для подстрок текста и других расширенных типографских параметров.
 
 Для сценариев, в которых требуется точный контроль макета на уровне глифов, метод [**ID2D1RenderTarget::D равглифрун**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawglyphrun) можно использовать в сочетании с возможностями измерения, предоставляемыми [DirectWrite](../directwrite/direct-write-portal.md).
 
-Чтобы использовать API DirectWrite, включите заголовок дврите. h. Как и Direct2D, DirectWrite использует фабрику, [**идвритефактори**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) для создания текстовых объектов. Используйте функцию [**двритекреатефактори**](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory) для создания фабрики, а затем используйте ее методы Create для создания ресурсов DirectWrite (например, [**идвритетекстформат**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode))).
+чтобы использовать DirectWrite API, включите заголовок дврите. h. как и Direct2D, DirectWrite использует фабрику, [**идвритефактори**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) для создания текстовых объектов. используйте функцию [**двритекреатефактори**](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory) для создания фабрики, а затем используйте ее методы create для создания DirectWrite ресурсов (например, [**идвритетекстформат**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode))).
 
-Дополнительные сведения о DirectWrite см. в разделе [Введение в DirectWrite](../directwrite/introducing-directwrite.md) .
+дополнительные сведения о DirectWrite см. в разделе [введение в DirectWrite](../directwrite/introducing-directwrite.md) .
 
 ## <a name="direct2d-primitives"></a>Примитивы Direct2D
 
@@ -205,17 +205,17 @@ Direct2D определяет набор примитивов, похожих н
 
 Вы не используете фабрику или целевой объект прорисовки для создания экземпляров примитивов Direct2D. Вы можете создать их напрямую или использовать вспомогательные методы, определенные в d2d1helper. h, для их создания.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Справочник по Direct2D](reference.md)
 </dt> <dt>
 
-[Пример Hello World DirectWrite](/samples/browse/?redirectedfrom=MSDN-samples)
+[DirectWrite Пример Hello World](/samples/browse/?redirectedfrom=MSDN-samples)
 </dt> <dt>
 
-[Знакомство с DirectWrite](../directwrite/introducing-directwrite.md)
+[Введение в DirectWrite](../directwrite/introducing-directwrite.md)
 </dt> <dt>
 
 [Общие сведения о ресурсах](resources-and-resource-domains.md)
@@ -224,6 +224,6 @@ Direct2D определяет набор примитивов, похожих н
 [Компонент обработки изображений Windows (WIC)](../wic/-wic-about-windows-imaging-codec.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

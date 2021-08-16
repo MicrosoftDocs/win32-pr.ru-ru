@@ -1,21 +1,21 @@
 ---
-title: Руководством по разработке анимации Windows
-description: В руководстве для разработчиков представлен обзор анимации Windows и приведен пример кода, охватывающего основные задачи анимации.
+title: Windows Рекомендации по разработке анимации
+description: в руководстве разработчика приводятся общие сведения о Windows анимации и приведен пример кода, охватывающего основные задачи анимации.
 ms.assetid: 6d7bc6b8-0f60-408a-85a5-41213dfacdd9
 keywords:
-- Анимация Windows, анимации, пошаговые инструкции
+- Windows анимация Windows анимации, guide
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d617e826d7c1a93618adb88af9384ab66b8f874c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 232761539434ddab6360ce145f07c1214333e84fbfc34fec1639aa7fef08b395
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103778950"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119768664"
 ---
-# <a name="windows-animation-development-guide"></a>Руководством по разработке анимации Windows
+# <a name="windows-animation-development-guide"></a>Windows Рекомендации по разработке анимации
 
-В руководстве для разработчиков представлен обзор анимации Windows и приведен пример кода, охватывающего основные задачи анимации.
+в руководстве разработчика приводятся общие сведения о Windows анимации и приведен пример кода, охватывающего основные задачи анимации.
 
 ## <a name="in-this-section"></a>В этом разделе
 
@@ -23,25 +23,25 @@ ms.locfileid: "103778950"
 
 | Раздел                                                                      | Описание                                                                                                                           |
 |----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| [Общие сведения о анимации Windows](scenic-animation-api-overview.md)<br/> | В этом обзоре представлено введение в диспетчер анимации Windows и основное внимание уделяется основным компонентам и концепциям.<br/>        |
-| [Общие сведения о раскадровке](storyboard-construction.md)<br/>              | В этом обзоре основное внимание уделяется использованию переходов и раскадровок в анимации Windows. <br/>                                   |
-| [Задачи анимации Windows](using-windows-animation.md)<br/>          | Разделы, содержащиеся в этом разделе, описывают основные задачи, необходимые для приложений, использующих Windows Animation Manager.<br/> |
+| [Windows Общие сведения об анимации](scenic-animation-api-overview.md)<br/> | в этом обзоре содержатся общие сведения о диспетчере анимации Windows и основное внимание уделяется основным компонентам и концепциям.<br/>        |
+| [Общие сведения о раскадровке](storyboard-construction.md)<br/>              | в этом обзоре основное внимание уделяется использованию переходов и раскадровок в Windows анимации. <br/>                                   |
+| [Windows Задачи анимации](using-windows-animation.md)<br/>          | в разделах, содержащихся в этом разделе, описываются основные задачи, необходимые для приложений, использующих Windows диспетчера анимации.<br/> |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Глоссарий анимации Windows](-ui-animation-glossary.md)
+[Windows Глоссарий анимации](-ui-animation-glossary.md)
 </dt> <dt>
 
-[Справочник по анимации Windows](windows-animation-reference.md)
+[Windows Справочник по анимации](windows-animation-reference.md)
 </dt> <dt>
 
-[Примеры анимации Windows](windows-animation-samples.md)
+[Windows Примеры анимации](windows-animation-samples.md)
 </dt> </dl>
 
  

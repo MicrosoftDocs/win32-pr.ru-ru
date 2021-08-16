@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d326fcd0a3bc9801f5e214cdc8740170cf1f1cf8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 837007870961150476556d2ead51fdf0142b911d1be256defa105249304298a1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990422"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922904"
 ---
 # <a name="resumeservice-method-of-the-win32_systemdriver-class"></a>Метод ResumeService \_ класса Win32 SystemDriver
 
@@ -179,7 +179,7 @@ uint32 ResumeService();
 
 </dd> <dt>
 
-**стр**
+**19**
 </dt> <dd>
 
 Служба с таким именем уже запущена.

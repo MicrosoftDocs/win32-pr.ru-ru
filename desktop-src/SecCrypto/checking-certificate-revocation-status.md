@@ -4,16 +4,16 @@ ms.assetid: c6e2724c-1802-4bc4-a0e4-3cb85427a445
 title: Проверка состояния отзыва сертификата
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ada134bbca88b1a875ff27add7566116cf7334bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fbf1ce98e392da94fd800316fe63c5b79c8572a319c6db4246e7907eb80966d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265770"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117769543"
 ---
 # <a name="checking-certificate-revocation-status"></a>Проверка состояния отзыва сертификата
 
-\[CAPICOM — это 32-разрядный компонент, доступный для использования в следующих операционных системах: Windows Server 2008, Windows Vista и Windows XP. Вместо этого используйте платформа .NET Framework для реализации функций безопасности. Дополнительные сведения см. [в разделе альтернативы использованию элемента CAPICOM](alternatives-to-using-capicom.md).\]
+\[CAPICOM — это 32-разрядный компонент, доступный для использования в следующих операционных системах: Windows Server 2008, Windows Vista и Windows XP. вместо этого используйте платформа .NET Framework для реализации функций безопасности. Дополнительные сведения см. [в разделе альтернативы использованию элемента CAPICOM](alternatives-to-using-capicom.md).\]
 
 CAPICOM не включает проверку отзыва сертификатов по умолчанию. Однако проверку отзыва сертификатов можно включить программно для определенного сертификата с помощью свойства **IsValid. чеккфлаг** объекта Certificate. После установки соответствующего значения **чеккфлаг** доступ к свойству **IsValid** объекта сертификата или созданию пути проверки сертификата с помощью метода построения объекта цепочки приводит к проверке отзыва.
 

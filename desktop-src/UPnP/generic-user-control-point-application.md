@@ -4,12 +4,12 @@ description: Приложение универсальной точки упра
 ms.assetid: 18ac23df-9d69-4a28-91e5-991eb4f3e6ed
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee56710cc1fafcc8551b34cb53df531f1f8cb601
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bc0bbf454da2bf36becb3c8b0aff2babc87925df7ac658fc9dc7963ba9182fad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104557666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119655742"
 ---
 # <a name="generic-user-control-point-application"></a>Универсальное приложение пользовательской точки управления
 
@@ -17,7 +17,7 @@ ms.locfileid: "104557666"
 
 **Запуск универсального приложения управления служебной программой**
 
-1.  Создайте и настройте образцы \\ нетдс \\ UPnP \\ женерикукп \\ cpp \\devtype.txt файл (или \\ \\ файлdevtype.txt VisualBasic) со сведениями об устройстве. Этот файл позволяет настроить общую точку управления служебной программой для поиска "найти по типу" и "Async Find". Каждая строка файла должна содержать тип устройства и связанное с ним описание. Пример:
+1.  Создайте и настройте образцы \\ нетдс \\ UPnP \\ женерикукп \\ cpp \\devtype.txt файл (или \\ \\ файлdevtype.txt VisualBasic) со сведениями об устройстве. Этот файл позволяет настроить общую точку управления служебной программой для поиска "найти по типу" и "Async Find". Каждая строка файла должна содержать тип устройства и связанное с ним описание. Например:
 
     ``` syntax
     upnp:rootdevice All Root Devices
@@ -41,13 +41,13 @@ ms.locfileid: "104557666"
     ![универсальное окно управления служебной программой](images/generic-ucp.png)
 
 > [!Note]  
-> В примере кода C++ не реализована функция **View Presentation** и **View Service DESC.**
+> **Представление View** и **View Service DESC.** функция не реализована в примере кода C++.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

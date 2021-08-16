@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 0f239cbae38c09f2718aff4cf6fcbb2234ae60f8
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7f576616dc342c6ee8b7d822f15f9245e541d86ce39ee3935e7a5e6c2933faea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104081942"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119121796"
 ---
 # <a name="id3dxbasemeshgetnumvertices-method"></a>Метод ID3DXBaseMesh:: Жетнумвертицес
 
@@ -50,7 +50,7 @@ DWORD GetNumVertices();
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

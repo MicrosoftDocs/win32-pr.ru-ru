@@ -4,12 +4,12 @@ ms.assetid: ba73e7c3-a9d7-4cc3-b5ce-2483a594fcc0
 title: Параллельные сборки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da0493b9d16d3943053b32a8a06eaa371cfd1d79
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 04f9a16d7002a107376f525dc73dea9f6df3e2f182cc84207d92bdbf0f37ce81
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105673977"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119628284"
 ---
 # <a name="side-by-side-assemblies"></a>Параллельные сборки
 
@@ -22,7 +22,7 @@ ms.locfileid: "105673977"
 
 Параллельные сборки могут устанавливаться как [Общие сборки](shared-assemblies.md) или как [закрытые сборки](private-assemblies.md).
 
-Параллельные сборки недоступны в системах, предшествующих Windows XP.
+параллельные сборки недоступны в системах, предшествующих Windows XP.
 
  
 

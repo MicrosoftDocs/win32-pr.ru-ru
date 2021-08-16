@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 28286262d02512f58df8c3a00e4ba07a67c2916f
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 8e8edd30f7821ed8ea0daafade504a5194bf2a2583c1a36e5bb10831ef63f29b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103914568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959124"
 ---
 # <a name="ivmhostinfosse2-property"></a>Свойство Ивмхостинфо:: SSE2
 
-\[Windows Virtual PC больше не доступна для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC больше не доступен для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Определяет, поддерживает ли процессор набор инструкций SSE2.
 
@@ -65,7 +65,7 @@ HRESULT get_SSE2(
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                    |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                     |
 | Окончание поддержки клиента<br/>    | Windows 7<br/>                                                                          |
 | Продукт<br/>                  | Windows Virtual PC<br/>                                                                 |

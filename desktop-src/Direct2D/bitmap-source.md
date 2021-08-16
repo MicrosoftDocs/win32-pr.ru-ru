@@ -6,12 +6,12 @@ keywords:
 - исходный растровый результат
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a439c94f0f520b318b3cb3511775dbec58b6e139
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 19889372c7ebd4268f1b6fd8b77c360f290cc416631e9fb5e1cd3a0b0320844c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892593"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119833325"
 ---
 # <a name="bitmap-source-effect"></a>Исходный растровый результат
 
@@ -26,11 +26,11 @@ ms.locfileid: "103892593"
 
 -   [Свойства эффектов](#effect-properties)
 -   [Режимы интерполяции](#interpolation-modes)
--   [Ориентация](#orientation)
+-   [Orientation](#orientation)
 -   [Режимы альфа](#alpha-modes)
 -   [Замечания](#remarks)
 -   [Требования](#requirements)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="effect-properties"></a>Свойства эффектов
 
@@ -136,7 +136,7 @@ D2D1_BITMAPSOURCE_ORIENTATION GetBitmapSourceOrientation(unsigned short PhotoOri
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы оптимизировать производительность при совместном использовании WIC и [Direct2D](./direct2d-portal.md) , следует использовать [**ивикформатконвертер**](/windows/desktop/api/wincodec/nn-wincodec-iwicformatconverter) для преобразования в соответствующий формат пикселей на основе сценария приложения и собственной точности образа.
 
@@ -162,8 +162,8 @@ D2D1_BITMAPSOURCE_ORIENTATION GetBitmapSourceOrientation(unsigned short PhotoOri
 
 | Требование | Значение |
 |--------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента | Windows 8 и обновление платформы для \[ классических приложений Windows 7 \| приложения для Магазина Windows\] |
-| Минимальная версия сервера | Windows 8 и обновление платформы для \[ классических приложений Windows 7 \| приложения для Магазина Windows\] |
+| Минимальная версия клиента | Windows 8 и обновление платформы для Windows 7 \[ классических приложений \| Windows приложения магазина\] |
+| Минимальная версия сервера | Windows 8 и обновление платформы для Windows 7 \[ классических приложений \| Windows приложения магазина\] |
 | Header                   | d2d1effects. h                                                                      |
 | Библиотека                  | D2D1. lib, дксгуид. lib                                                               |
 
@@ -171,7 +171,7 @@ D2D1_BITMAPSOURCE_ORIENTATION GetBitmapSourceOrientation(unsigned short PhotoOri
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

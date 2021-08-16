@@ -49,7 +49,7 @@ PCCERT_CONTEXT WINAPI CryptUIDlgSelectCertificate(
 
 Если элемент **dwFlags** структуры [**\_ \_ структуры динамической компоновки Cryptui селектцертификате**](cryptui-selectcertificate-struct.md) имеет значение **динамической компоновки Cryptui \_ селектцерт \_ Legacy**, то отображается диалоговое окно прежних версий. В противном случае отображается диалоговое окно выбора текущего сертификата.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

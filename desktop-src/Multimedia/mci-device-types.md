@@ -3,7 +3,7 @@ title: Типы устройств MCI
 description: Типы устройств MCI
 ms.assetid: 1159f5da-1647-439f-9aba-e7096a1878ac
 keywords:
-- Мультимедиа Windows, типы устройств MCI
+- Windows мультимедиа, типы устройств MCI
 - мультимедиа, типы устройств MCI
 - мультимедийные ссылки, типы устройств MCI
 - Справочник по мультимедиа, типам устройств MCI
@@ -14,12 +14,12 @@ keywords:
 - Справочник по MCI, типы устройств
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b618e396b146dce820ed011b351c49b0e47394e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 164ee826a02adade5bc6e28db4a7a5b6180c4c1634d551b1451a91009ec40e4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104411341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119784564"
 ---
 # <a name="mci-device-types"></a>Типы устройств MCI
 
@@ -44,11 +44,11 @@ ms.locfileid: "104411341"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

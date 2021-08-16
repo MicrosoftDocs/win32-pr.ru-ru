@@ -3,17 +3,17 @@ title: Перечисления (инерция и манипуляции)
 description: Этот раздел содержит перечисления для манипуляции.
 ms.assetid: a4424d27-c618-4fbe-99f6-70c74d3e2966
 keywords:
-- Касание Windows, перечисления
-- Касание Windows, манипуляции
+- Windows Касание, перечисления
+- Windows Сенсорный ввод, манипуляции
 - манипуляции, перечисления
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b95e416ac3bb122adaa9eef8fc0b42dab79b03f1
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 826eec76de444014c8de7121507a904928bc2186917aacdbf84495a47aadc6c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104533686"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119086240"
 ---
 # <a name="enumerations-inertia-and-manipulation"></a>Перечисления (инерция и манипуляции)
 
@@ -31,7 +31,7 @@ ms.locfileid: "104533686"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

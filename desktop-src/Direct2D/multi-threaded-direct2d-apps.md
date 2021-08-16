@@ -4,12 +4,12 @@ description: Описывает рекомендации по созданию �
 ms.assetid: FDD770D4-817F-44D9-86C4-15DD04D214AE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6be979b867edd6d36583959c4a595dbd507ca94f
-ms.sourcegitcommit: c3243ec4ada05b7faf9d563853cb667ecef825e8
+ms.openlocfilehash: 5710435f263e7b0f735581e03416f1d01733711429ad95b3ed25e473aca6d936
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "103797244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119636424"
 ---
 # <a name="multithreaded-direct2d-apps"></a>Многопоточные приложения Direct2D
 

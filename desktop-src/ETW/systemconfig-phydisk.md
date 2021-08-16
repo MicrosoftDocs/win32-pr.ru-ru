@@ -27,12 +27,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 52ab249ab5087a1528317687d90f6d8fa665bc1a
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 465fe0bacd23ad99bb744c915b60056b96419761f93a4aefd5f1a3d2fb4c6129
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108106102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119766354"
 ---
 # <a name="systemconfig_phydisk-class"></a>\_Класс системконфиг фидиск
 
@@ -156,7 +156,7 @@ class SystemConfig_PhyDisk : SystemConfig
 
 </dd> <dt>
 
-**Коммутаци**
+**Pad**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **Uint8**
@@ -322,12 +322,12 @@ class SystemConfig_PhyDisk : SystemConfig
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

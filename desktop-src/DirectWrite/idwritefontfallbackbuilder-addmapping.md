@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a084aa2a9df0e34741c8bf5f39ae00933d49cfe7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0b6496ac9ef9bdfa574cc2c4710ed4620fd855dbf5eff2b22885b32bf343d141
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119650444"
 ---
 # <a name="idwritefontfallbackbuilderaddmapping-method"></a>Метод Идвритефонтфаллбаккбуилдер:: Аддмаппинг
 
@@ -52,13 +52,13 @@ HRESULT AddMapping(
 *остаются* 
 </dt> <dd>
 
-Тип: **\* [**дврите \_ \_ диапазон Юникода**](/windows/win32/api/Dwrite_1/ns-dwrite_1-dwrite_unicode_range)* _
+Тип: **[ **дврите \_ \_ диапазон Юникода**](/windows/win32/api/Dwrite_1/ns-dwrite_1-dwrite_unicode_range)\***
 
 Диапазоны Юникода, которые применяются к этому сопоставлению.
 
 </dd> <dt>
 
-_rangesCount * 
+*ранжескаунт* 
 </dt> <dd>
 
 Тип: **UINT32**
@@ -97,22 +97,22 @@ _rangesCount *
 *localeName* \[ в необязательное\]
 </dt> <dd>
 
-Тип: **const WCHAR \** _
+Тип: **const WCHAR \***
 
 Языковой стандарт контекста.
 
 </dd> <dt>
 
-_baseFamilyName * \[ в, необязательно\]
+*басефамилинаме* \[ в необязательное\]
 </dt> <dd>
 
-Тип: **const WCHAR \** _
+Тип: **const WCHAR \***
 
 Имя базового семейства для сопоставления, если применимо.
 
 </dd> <dt>
 
-_scale * 
+*масштаб* 
 </dt> <dd>
 
 Тип: **float**
@@ -133,8 +133,8 @@ _scale *
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8.1 \|\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 R2 \|\]<br/>                          |
+| Минимальная версия клиента<br/> | Windows 8.1 \[ приложения UWP для классических приложений \|\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Server 2012 Приложения универсального \[ приложения UWP для настольных приложений \|\]<br/>                          |
 | Минимальный поддерживаемый телефон<br/>  | Windows Phone 8,1 \[ Windows Phone Silverlight 8,1 и среда выполнения Windows приложения\]<br/> |
 | Библиотека<br/>                  | <dl> <dt>Дврите. lib</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Dwrite.dll</dt> </dl>   |

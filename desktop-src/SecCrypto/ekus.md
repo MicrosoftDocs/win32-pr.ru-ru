@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 56fd6eaeb5a00549cbb4ee659b99ece391e0ebed
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5258a37ac32e663b45bb2a82f8b0691cca3e1e76c303e8d4f9b7156e4f5a423e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117767087"
 ---
 # <a name="ekus-object"></a>Объект EKU
 
@@ -40,7 +40,7 @@ ms.locfileid: "105669101"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Объект **EKU** имеет следующие свойства.
 
@@ -48,7 +48,7 @@ ms.locfileid: "105669101"
 
 | Свойство                                     | Тип доступа          | Описание                                                                                                                                                                                                                     |
 |:---------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**\_NewEnum**](ekus-newenum.md)<br/> | Только для чтения<br/> | Извлекает интерфейс [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) для объекта, который может быть использован для перечисления коллекции. Это свойство скрыто в Visual Basic Scripting Edition (VBScript).<br/> |
+| [**\_NewEnum**](ekus-newenum.md)<br/> | Только для чтения<br/> | Извлекает интерфейс [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) для объекта, который может быть использован для перечисления коллекции. это свойство скрыто в Visual Basic scripting Edition (VBScript).<br/> |
 | [**Расчета**](ekus-count.md)<br/>       | Только для чтения<br/> | Возвращает число объектов [**EKU**](eku.md) в коллекции.<br/>                                                                                                                                                |
 | [**Элемент**](ekus-item.md)<br/>         | Только для чтения<br/> | Извлекает объект [**EKU**](eku.md) , представляющий свойство индексированного EKU. Это свойство по умолчанию.<br/>                                                                                                      |
 
@@ -56,7 +56,7 @@ ms.locfileid: "105669101"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта коллекция извлекается с помощью свойства [**екстендедкэйусаже. EKU**](extendedkeyusage-ekus.md) .
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7ce15f75f424cb7796ef7db7a8b89bd5bcbfa9cf
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ee1a8d45e847f7da785bd09b83e778d140cee68007add882066b508b38043550
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104411161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119688"
 ---
 # <a name="destination-register-masking"></a>Маскирование регистров назначения
 
@@ -35,7 +35,7 @@ ms.locfileid: "104411161"
 
 
 
- 
+ 
 
 -   В целом, указание масок записи для регистра назначения является хорошим стилем написания кода. Это упрощает чтение и обслуживание кода.
 -   Можно указать любое сочетание компонентов (в том числе None), если x предшествует y, y – z, и z предшествует w.
@@ -84,16 +84,16 @@ ms.locfileid: "104411161"
 
 Эти ограничения применяются только к регистрам координат текстуры.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Модификаторы регистра для шейдера вершин](dx9-graphics-reference-asm-vs-registers-modifiers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

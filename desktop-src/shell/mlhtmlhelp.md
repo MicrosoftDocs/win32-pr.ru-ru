@@ -1,6 +1,6 @@
 ---
 description: Отображает окно справки, соответствующее текущему параметру языка пользовательского интерфейса.
-title: Функция Млхтмлхелп
+title: Функция MLHtmlHelp
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -15,16 +15,16 @@ api_type:
 api_location:
 - Shlwapi.dll
 ms.assetid: 1108614d-7034-48da-a4a5-544f8d9af3ca
-ms.openlocfilehash: 38d331d57b9484ab6d7a505d929508f30d510ad8
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: c38e84df2ca6f379e7d479125f1f454a10426406ba40ad21721fe01f67cce6f2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841215"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090214"
 ---
-# <a name="mlhtmlhelp-function"></a>Функция Млхтмлхелп
+# <a name="mlhtmlhelp-function"></a>Функция MLHtmlHelp
 
-\[Эта функция доступна в Windows XP и Windows Server 2003. Он может быть изменен или недоступен в последующих версиях Windows.\]
+\[эта функция доступна в Windows XP и Windows Server 2003. Он может быть изменен или недоступен в последующих версиях Windows.\]
 
 Отображает окно справки, соответствующее текущему параметру языка пользовательского интерфейса.
 
@@ -126,15 +126,15 @@ HWND hwnd = HtmlHelp(GetDesktopWindow(),
 
  
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                          |
-| Заголовок<br/>                   | <dl> <dt>None</dt> </dl>                               |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                          |
+| Header<br/>                   | <dl> <dt>Нет</dt> </dl>                               |
 | DLL<br/>                      | <dl> <dt>Shlwapi.dll (версия 5,0 или более поздняя)</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **Млхтмлхелпв** (Юникод) и **млхтмлхелпа** (ANSI)<br/>                                               |
 

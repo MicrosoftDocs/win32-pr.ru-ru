@@ -4,12 +4,12 @@ ms.assetid: 882F54D1-A963-4016-BEC7-F9C1AC5885FD
 title: Атрибут MF_MT_H264_MAX_MB_PER_SEC (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b53bdbabd9a633464ed388f2309627b69413c27
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 93bce2de0aa4f6c67cc7f6e61c09fde89923467a9211ba9e10642edf5a7f6416
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692658"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104540"
 ---
 # <a name="mf_mt_h264_max_mb_per_sec-attribute"></a>\_ \_ \_ Атрибут с максимальным числом \_ МБ \_ в \_ секунду для H264 Single bitrate MF MT
 
@@ -23,7 +23,7 @@ ms.locfileid: "105692658"
 
 [**имфмедиатипе**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут применяется к типам носителей для потоков H. 264, переданных по USB. Значение атрибута является массивом значений UINT32, которые соответствуют следующим полям в дескрипторе формата видео УВК 1,5 H. 264.
 
@@ -58,8 +58,8 @@ ms.locfileid: "105692658"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8 \|\]<br/>                                  |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 \|\]<br/>                        |
+| Минимальная версия клиента<br/> | Windows 8 \[ приложения UWP для классических приложений \|\]<br/>                                  |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ приложения UWP для классических приложений \|\]<br/>                        |
 | Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 

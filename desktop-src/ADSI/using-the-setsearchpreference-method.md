@@ -9,12 +9,12 @@ keywords:
 - запросы к ADSI с помощью Сетсеарчпреференце
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29c357fd331ae8589bffdd3ff7a834a7bc9e0430
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3e7f40d7af4069c9b67d9cd2634f6b7f58f51aafce95af9d4f9275b0e55fc1b4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119637484"
 ---
 # <a name="using-the-setsearchpreference-method"></a>Использование метода Сетсеарчпреференце
 
@@ -55,9 +55,9 @@ hr = pDSearch->SetSearchPreference(&arSearchPrefs, 2);
 
 В этом примере размер страницы устанавливается в 100 строк, а область — в \_ \_ тип поддерева области объявлений. Параметр размера страницы приводит к тому, что сервер немедленно возвращает данные клиенту после вычисления 100 строк. \_ \_ Параметр поддерева области объявлений определяет, что поиск охватывает все ветви в дереве ниже точки, из которой выполняется поиск.
 
- 
+ 
 
- 
+ 
 
 
 

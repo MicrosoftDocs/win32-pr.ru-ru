@@ -12,12 +12,12 @@ api_name:
 api_type:
 - UserDefined
 api_location: ''
-ms.openlocfilehash: 50de9a73438e2755e002570f921d15e6086a4b7a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c7d338c94c4e9655c125b0f70e3f2e8dfa732316a970c74c26e4a7fbced22671
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117769929"
 ---
 # <a name="certstoreprovgetcertproperty-callback-function"></a>Функция обратного вызова Цертсторепровжетцертпроперти
 
@@ -95,8 +95,8 @@ BOOL WINAPI CertStoreProvGetCertProperty(
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/> |
 
 
 

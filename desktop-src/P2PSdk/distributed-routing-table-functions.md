@@ -4,12 +4,12 @@ ms.assetid: 1ceff217-d410-47fa-99a2-8588f001859e
 title: Функции таблиц распределенной маршрутизации
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cd48c3a60f458285ce5f607f9ab6bcf7a557cd9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 00501a1a04a3acba23fe55f90acfbf7ca8fee7427c36ea1d36d8800fb8787321
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105663351"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776354"
 ---
 # <a name="distributed-routing-table-functions"></a>Функции таблиц распределенной маршрутизации
 
@@ -97,7 +97,7 @@ ms.locfileid: "105663351"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

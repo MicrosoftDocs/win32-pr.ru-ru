@@ -4,12 +4,12 @@ ms.assetid: 0d65a693-d879-4841-b93a-ad677eb34144
 title: Измерения производительности
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0271a6a405004ac30f9b047a61f9fef7cc83f3e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 023de3074a6a531a0cab60b1e8389dd09b9b73901f1d6550ca524e9f90e8170b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119641744"
 ---
 # <a name="performance-dimensions"></a>Измерения производительности
 
@@ -21,11 +21,11 @@ ms.locfileid: "105701506"
 -   [Транзакционные и потоковые приложения](transactional-versus-streaming-applications-2.md)
 -   [Разные сетевые среды](different-network-environments-2.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Высокопроизводительные приложения Windows Sockets](high-performance-windows-sockets-applications-2.md)
+[высокопроизводительные Windows приложения сокетов](high-performance-windows-sockets-applications-2.md)
 </dt> </dl>
 
  

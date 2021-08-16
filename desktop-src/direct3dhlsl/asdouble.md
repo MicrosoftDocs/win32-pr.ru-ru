@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: caa2c83ee01739a2e2ee9595d0a26e1bdb80fef1
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 0e191a2bf9ee7fb46337c3c7dfef7f8dea3525acf936ab745c07e7720f1ac509
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104069153"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119626644"
 ---
 # <a name="asdouble-function"></a>Функция асдаубле
 
@@ -28,8 +28,8 @@ ms.locfileid: "104069153"
 
 ``` syntax
 double asdouble(
-  in uint lowbits,
-  in uint highbits
+  in uint lowbits,
+  in uint highbits
 );
 ```
 
@@ -61,7 +61,7 @@ double asdouble(
 
 Входные данные (2 32-разрядные значения) повторно приведены в виде Double.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Также доступна следующая перегруженная версия:
 
@@ -79,23 +79,23 @@ double2 asdouble(uint2 lowbits, uint2 highbits);
 
 | Модель шейдера                                                                | Поддерживается |
 |-----------------------------------------------------------------------------|-----------|
-| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | да       |
+| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | Да       |
 
 
 
- 
+ 
 
 Эта функция поддерживается в следующих типах шейдеров:
 
 
 
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
+| Вершина | Поверхности | Домен | Геометрия | Пиксель | Службы вычислений |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -107,9 +107,9 @@ double2 asdouble(uint2 lowbits, uint2 highbits);
 [Модель шейдера 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

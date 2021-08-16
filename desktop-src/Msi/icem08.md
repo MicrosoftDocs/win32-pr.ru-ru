@@ -4,12 +4,12 @@ ms.assetid: 56d115b4-7410-4db2-a9af-bc6716f3358d
 title: ICEM08
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a9767c6748f5a21d83bddb3b5fe93a0a8d7ea67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 43f5d0076de382889e5fd3df8a03dddb51c6a73eb5a4f825068f6cd66ad24d07
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265422"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119811014"
 ---
 # <a name="icem08"></a>ICEM08
 
@@ -54,7 +54,7 @@ lists it as an exclusion.
 
 Чтобы устранить эту ошибку, удалите либо зависимость, либо исключение. Если Модулеб является зависимостью (Рекуиредид) модуля a, его нельзя исключить (как показано в столбце Екслудедид таблицы Модуликсклусион). Если необходимо исключить Модулеб, необходимо удалить зависимость от модуля а.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

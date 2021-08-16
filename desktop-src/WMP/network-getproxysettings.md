@@ -3,9 +3,9 @@ title: Метод Network. Жетпроксисеттингс
 description: Метод Жетпроксисеттингс извлекает параметр прокси-сервера для данного протокола.
 ms.assetid: a7b21eab-93e1-458b-aab0-60fd298cce44
 keywords:
-- Жетпроксисеттингс метод Windows Media Player
-- Жетпроксисеттингс метод Windows Media Player, класс Network
-- Класс сети Windows Media Player, метод Жетпроксисеттингс
+- проигрыватель Windows Media метода жетпроксисеттингс
+- проигрыватель Windows Media метода жетпроксисеттингс, класс сети
+- класс проигрыватель Windows Media сети, метод жетпроксисеттингс
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 44a306fca1e671e7e5b3a89c0da952e5c81ba20e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e142e7366c9e2b03e55dbd3768ee9c4fb41f30266d221a2ac5ac80019d5a7b3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648759"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119647444"
 ---
 # <a name="networkgetproxysettings-method"></a>Метод Network. Жетпроксисеттингс
 
@@ -66,15 +66,15 @@ retVal = Network.getProxySettings(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод завершается ошибкой, если вызывающее приложение не выполняется на локальном компьютере или в интрасети.
 
-**Проигрыватель Windows Media 10 Mobile:** Этот метод не поддерживается.
+**проигрыватель Windows Media 10 Mobile:** Этот метод не поддерживается.
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере JScript используется *Network*. **жетпроксисеттингс** для вывода сообщения, которое предоставляет сведения о текущих параметрах прокси-сервера проигрывателя в окне браузера. Объект **Player** создан с идентификатором "Player".
+в следующем примере JScript используется *сеть*. **жетпроксисеттингс** для вывода сообщения, которое предоставляет сведения о текущих параметрах прокси-сервера проигрывателя в окне браузера. Объект **Player** создан с идентификатором "Player".
 
 
 ```JScript
@@ -114,7 +114,7 @@ case 3:
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

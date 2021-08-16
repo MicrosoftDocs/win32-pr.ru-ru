@@ -39,7 +39,7 @@ ms.locfileid: "117772645"
 
 Тип перечисления **CAPICOM \_ Certificate- \_ \_ \_ Type** используется методом [**Certificate. Save**](certificate-save.md) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

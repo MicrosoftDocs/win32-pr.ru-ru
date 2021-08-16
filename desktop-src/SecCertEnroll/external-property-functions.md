@@ -4,12 +4,12 @@ ms.assetid: a6433416-fe77-4bb0-bd8e-9410a49ab861
 title: Функции внешних свойств
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26c8148022bf604aa90780787c068b330c469ae6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 40196f4f42823ad44debeccc0fa85dc4615d58d1a0ccf521b2dd796e72574db3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104266117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117779634"
 ---
 # <a name="external-property-functions"></a>Функции внешних свойств
 
@@ -35,7 +35,7 @@ ms.locfileid: "104266117"
 -   [сетприватекэйарчивецертификате](#setprivatekeyarchivecertificate)
 -   [сетсигнерцертификате](#setsignercertificate)
 -   [сумбпринтвстр](#thumbprintwstr)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="addblobpropertytocertificatewstr"></a>аддблобпропертитоцертификатевстр
 
@@ -79,7 +79,7 @@ ms.locfileid: "104266117"
 
 В CertEnroll.dll можно использовать объект [**ICertPropertySHA1Hash**](/windows/desktop/api/CertEnroll/nn-certenroll-icertpropertysha1hash) для получения [*хэш-*](/windows/desktop/SecGloss/h-gly) значения ([*отпечатка*](/windows/desktop/SecGloss/t-gly)), созданного путем вызова метода [**инитиализефромцертификате**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs7-initializefromcertificate) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
