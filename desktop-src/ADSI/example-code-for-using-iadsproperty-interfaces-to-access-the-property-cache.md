@@ -8,12 +8,12 @@ keywords:
 - Пример кода для использования интерфейсов Иадспроперти для доступа к кэшу свойства ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2053e3d78120e39cb7a377eaf6e50524bb780c34
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a885a52b9c699153a17d33e0ec52edbb6f59c226e6844ac2c8c02b3ec082157c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105654133"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023592"
 ---
 # <a name="example-code-for-using-iadsproperty-interfaces-to-access-the-property-cache"></a>Пример кода для использования интерфейсов Иадспроперти для доступа к кэшу свойств
 
@@ -93,7 +93,7 @@ if (SUCCEEDED(hr))
 
 
 
-В следующем примере кода показано, как использовать интерфейсы [**иадспропертилист**](/windows/desktop/api/Iads/nn-iads-iadspropertylist), [**иадспропертентри**](/windows/desktop/api/Iads/nn-iads-iadspropertyentry)и [**ИАДСПРОПЕРТИВАЛУЕ**](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue) с помощью Visual Basic и ADSI.
+в следующем примере кода показано, как использовать интерфейсы [**иадспропертилист**](/windows/desktop/api/Iads/nn-iads-iadspropertylist), [**иадспропертентри**](/windows/desktop/api/Iads/nn-iads-iadspropertyentry)и [**иадспропертивалуе**](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue) с помощью Visual Basic и ADSI.
 
 
 ```VB
@@ -124,9 +124,9 @@ Next
 
 
 
- 
+ 
 
- 
+ 
 
 
 

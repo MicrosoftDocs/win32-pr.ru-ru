@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 933bbec72950bd2c73fda8b3781dd46393ca4c96
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a7406670b055a11f30a71677a88dc6230aecec8d7660d886b1d63f53e6e61566
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104157203"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118527520"
 ---
 # <a name="d3dprimitivetype-enumeration"></a>Перечисление D3DPRIMITIVETYPE
 
@@ -96,7 +96,7 @@ typedef enum D3DPRIMITIVETYPE {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Использование [лент треугольников](triangle-strips.md) или вершинных [вентиляторов (Direct3D 9)](triangle-fans.md) зачастую более эффективно, чем использование списков треугольников, поскольку дублируется меньшее число вершин.
 
@@ -106,7 +106,7 @@ typedef enum D3DPRIMITIVETYPE {
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
 
 
 

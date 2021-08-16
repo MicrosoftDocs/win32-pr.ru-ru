@@ -20,23 +20,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c96314e401a81271f5a71bc056faa95fc1ae0dbe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6d2cbd4a13555d754cdbc1f9c02011b5891d6d6fcfae3fea822ddf6ad9953b78
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119719194"
 ---
 # <a name="jetexternalrestore2-function"></a>Функция JetExternalRestore2
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jetexternalrestore2-function"></a>Функция JetExternalRestore2
 
 Функция **JetExternalRestore2** восстанавливает внешнюю резервную копию, созданную с помощью внешних API-интерфейсов резервного копирования, и предоставляет контрольные точки, используемые для циклического ведения журнала. Это называется жесткое восстановление, которое аналогично, но отличается от программного восстановления, выполняемого функцией [жетинит](./jetinit-function.md) .
 
-**Windows XP: JetExternalRestore2** появился в Windows XP.
+**Windows xp: JetExternalRestore2** появился в Windows XP.
 
 ```cpp
     JET_ERR JET_API JetExternalRestore2(
@@ -97,7 +97,7 @@ _**Применимо к:** Windows | Windows Server_
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. Дополнительные сведения о возможных ошибках ESE см. в разделе [ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -117,7 +117,7 @@ _**Применимо к:** Windows | Windows Server_
 </tr>
 <tr class="even">
 <td><p>JET_errBadRestoreTargetInstance</p></td>
-<td><p>Указанный <em>сзтаржетинстанцелогпас</em> не принадлежит инициализированному экземпляру. Эта ошибка будет возвращена только в Windows XP и более поздних версиях.</p></td>
+<td><p>Указанный <em>сзтаржетинстанцелогпас</em> не принадлежит инициализированному экземпляру. эта ошибка будет возвращена только в Windows XP и более поздних версиях.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errDatabaseCorrupted</p></td>
@@ -149,7 +149,7 @@ _**Применимо к:** Windows | Windows Server_
 </tr>
 <tr class="even">
 <td><p>JET_errRunningInOneInstanceMode</p></td>
-<td><p>Ядру СУБД не удается выполнить внешнее восстановление или принудительное восстановление в режиме одиночного экземпляра. Эта ошибка будет возвращена только в Windows XP и более поздних версиях.</p></td>
+<td><p>Ядру СУБД не удается выполнить внешнее восстановление или принудительное восстановление в режиме одиночного экземпляра. эта ошибка будет возвращена только в Windows XP и более поздних версиях.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errStartingRestoreLogTooHigh</p></td>
@@ -163,7 +163,7 @@ _**Применимо к:** Windows | Windows Server_
 
 В случае сбоя подсистема не смогла восстановить базу данных. База данных находится в недопустимом состоянии, и для повторного восстановления необходимо восстановить всю базу данных. Как правило, источником такой ситуации является повреждение диска или журнала, а также другой вид непостоянного управления журналом или ненепрерывный набор журналов.
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 См. [жетекстерналресторе](./jetexternalrestore-function.md).
 
@@ -177,11 +177,11 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista или Windows XP.</p></td>
+<td><p>требуется Windows Vista или Windows XP.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008 или Windows Server 2003.</p></td>
+<td><p><strong>Сервер</strong></p></td>
+<td><p>требуется Windows server 2008 или Windows server 2003.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>
@@ -203,7 +203,7 @@ _**Применимо к:** Windows | Windows Server_
 </table>
 
 
-#### <a name="see-also"></a>См. также:
+#### <a name="see-also"></a>См. также
 
 [JET_ERR](./jet-err.md)  
 [JET_LOGINFO](./jet-loginfo-structure.md)  

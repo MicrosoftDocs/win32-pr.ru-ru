@@ -16,12 +16,12 @@ keywords:
 - Отправка сообщений MIDI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c8c120504a4a25ddcf01474db341a367a2e9854
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: cbc0acb39090a640d60539542a439111287faef246adf64aef7ee12ced3ae09e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104337313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117801258"
 ---
 # <a name="using-a-window-or-thread-to-manage-buffered-playback"></a>Использование окна или потока для управления воспроизведением в буфере
 
@@ -37,12 +37,12 @@ ms.locfileid: "104337313"
 
 
 
- 
+ 
 
 Параметр *wParam* и параметр *lParam* связаны с каждым из этих сообщений. Параметр *wParam* всегда задает маркер открытого устройства MIDI. Для [**mm \_ MOM \_**](mm-mom-done.md)значение *lParam* указывает адрес структуры [**мидихдр**](/windows/win32/api/mmeapi/ns-mmeapi-midihdr) , определяющей завершенный блок данных. Параметр *lParam* не используется для открытых MOM- [**\_ \_ Close**](mm-mom-close.md) и [**mm \_ MOM \_**](mm-mom-open.md).
 
 Наиболее полезное сообщение, вероятно, — MM \_ MOM \_ . Если вам не нужно выделять память или инициализировать переменные, вам, скорее всего, не нужно обрабатывать MM \_ MOM \_ Open и mm \_ MOM \_ Close. После завершения воспроизведения блока данных можно очистить и освободить блок данных.
 
- 
+ 
 
- 
+ 

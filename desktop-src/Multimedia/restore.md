@@ -3,7 +3,7 @@ title: команда Restore
 description: Команда Restore копирует изображение из файла в буфер кадров. Это обратный шаг команды Capture. Устройство Digital-Video распознает эту команду.
 ms.assetid: e84a478a-3e0f-4767-94d7-eb3c79c31b8b
 keywords:
-- команда Restore Windows мультимедиа
+- команда restore Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2d7f0f236b26e3e73807b32485442d597e93d40
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 55e82fdec2480cfe2fc1b41901872aef7e41ee468d1adc3924df17a27e40031e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988219"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119689194"
 ---
 # <a name="restore-command"></a>команда Restore
 
@@ -75,9 +75,9 @@ _stprintf_s(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Устройства могут распознать различные форматы изображений. независимый от устройства точечный рисунок Windows всегда распознается.
+Устройства могут распознать различные форматы изображений. Windows битовая карта, не зависящая от устройства, всегда распознается.
 
 ## <a name="requirements"></a>Требования
 

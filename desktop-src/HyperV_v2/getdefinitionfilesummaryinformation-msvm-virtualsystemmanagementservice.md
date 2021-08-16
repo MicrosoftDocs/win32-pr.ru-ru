@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: a46daedd282d07c2367931a9f20a7fbfa1849f9e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7c6d3da6ef920488edb7fde723880b9f53768cfd246e91d287390bb6fb02fb17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117995301"
 ---
 # <a name="getdefinitionfilesummaryinformation-method-of-the-msvm_virtualsystemmanagementservice-class"></a>Метод Жетдефинитионфилесуммаринформатион \_ класса Виртуалсистемманажементсервице мсвм
 
@@ -56,7 +56,7 @@ uint32 GetDefinitionFileSummaryInformation(
 
  
 
-До Windows 10 версии 1703 тип данных был [**мсвм \_ SummaryInformation**](msvm-summaryinformation.md).
+до Windows 10 версии 1703 тип данных был [**мсвм \_ SummaryInformation**](msvm-summaryinformation.md).
 
 </dd> </dl>
 
@@ -111,8 +111,8 @@ uint32 GetDefinitionFileSummaryInformation(
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

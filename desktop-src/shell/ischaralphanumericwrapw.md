@@ -69,7 +69,7 @@ BOOL IsCharAlphaNumericWrapW(
 
 **Исчаралфанумерикврапв** должен вызываться напрямую из Shlwapi.dll с порядковым номером 28.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

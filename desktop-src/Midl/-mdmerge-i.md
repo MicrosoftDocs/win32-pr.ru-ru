@@ -44,7 +44,7 @@ mdmerge /i metadata_directory
 
 **мдмерже/i \_ Каталог метаданных**
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

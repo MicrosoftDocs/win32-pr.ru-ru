@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 6c56dec04e01b542d2c760852a58826a8186c213
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 165f81d9b829ce7a7b22ced6fb37851f926ed861f11b79feca3a63c763dabbb7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118525233"
 ---
 # <a name="d3dxoptimizefaces-function"></a>Функция D3DXOptimizeFaces
 
@@ -95,7 +95,7 @@ HRESULT D3DXOptimizeFaces(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. Если функция завершается ошибкой, возвращаемое значение может быть одним из следующих: D3DERR \_ инвалидкалл, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Процедура оптимизации этой функции функционально эквивалентна вызову [**ID3DXMesh:: optimize**](id3dxmesh--optimize.md) с \_ флагом D3DXMESHOPT девицеиндепендент, но эта функция делает более эффективное использование кэшей вершин.
 
@@ -105,7 +105,7 @@ HRESULT D3DXOptimizeFaces(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

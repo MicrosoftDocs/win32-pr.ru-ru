@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.inst
 ms:contentKeyID: 55103291
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 0ac2b8aa959b8fa07f06e2de86dcfc173bab15ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1db9933e6e0a14b770e4250fc7e1faf564d3266ee258bfa71671093dceee763a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104569289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119721164"
 ---
 # <a name="instanceparameters-properties"></a>Свойства Инстанцепараметерс
 
@@ -45,7 +45,7 @@ ms.locfileid: "104569289"
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Открытое свойство" alt="Public property" /></td>
 <td><a href="dn350951(v=exchg.10).md">качедклоседтаблес</a></td>
-<td>Возвращает или задает значение, определяющее количество ресурсов дерева B +, кэшированных экземпляром после того, как таблицы, которые они представляют, были закрыты приложением. Большие значения для этого параметра приведут к тому, что ядро СУБД будет использовать больше памяти, но увеличит скорость, с которой приложение может случайно открыть большое количество таблиц. Это полезно для приложений, имеющих схему с очень большим количеством таблиц. Поддерживается в Windows Vista и выше. Игнорируется в Windows XP и Windows Server 2003.</td>
+<td>Возвращает или задает значение, определяющее количество ресурсов дерева B +, кэшированных экземпляром после того, как таблицы, которые они представляют, были закрыты приложением. Большие значения для этого параметра приведут к тому, что ядро СУБД будет использовать больше памяти, но увеличит скорость, с которой приложение может случайно открыть большое количество таблиц. Это полезно для приложений, имеющих схему с очень большим количеством таблиц. поддерживается в Windows Vista и выше. пропускается в Windows XP и Windows Server 2003.</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Открытое свойство" alt="Public property" /></td>
@@ -215,7 +215,7 @@ ms.locfileid: "104569289"
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Открытое свойство" alt="Public property" /></td>
 <td><a href="dn350985(v=exchg.10).md">вайпоинтлатенци</a></td>
-<td>Возвращает или задает число журналов, в которых ESENT будет откладывать сбросы базы данных для. Это можно использовать для повышения возможности восстановления базы данных, если ошибки приводят к потере файлов журнала. Поддерживается в Windows 7 и выше. Игнорируется в Windows XP, Windows Server 2003, Windows Vista и Windows Server 2008.</td>
+<td>Возвращает или задает число журналов, в которых ESENT будет откладывать сбросы базы данных для. Это можно использовать для повышения возможности восстановления базы данных, если ошибки приводят к потере файлов журнала. поддерживается в Windows 7 и выше. пропускается в Windows XP, Windows server 2003, Windows Vista и Windows server 2008.</td>
 </tr>
 </tbody>
 </table>

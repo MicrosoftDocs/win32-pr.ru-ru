@@ -8,12 +8,12 @@ keywords:
 - Имя субъекта-службы AD, форматы имен для
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bda13cf5a095f8f2fd7ef1a209c6f3aeebd6654
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ce939d642180192500790253158eaa03dc41c8d173aed2d96d5175f07e39c101
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104252770"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025722"
 ---
 # <a name="name-formats-for-unique-spns"></a>Форматы имен для уникальных имен участников-служб
 
@@ -66,7 +66,7 @@ ms.locfileid: "104252770"
 
 
 
- 
+ 
 
 Компоненты, представленные в SPN службы, зависят от способа идентификации и репликации службы. Существует два основных сценария: службы на основе узла и реплицируемые службы.
 
@@ -127,9 +127,9 @@ MyDBService/host3/CN=hrdb,OU=mktg,DC=example,DC=com
 
 Имейте в виду, что при изменении DNS-имени компьютера система обновляет &lt; &gt; элемент Host для всех зарегистрированных имен SPN для этого узла в лесу.
 
- 
+ 
 
- 
+ 
 
 
 

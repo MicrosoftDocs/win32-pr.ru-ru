@@ -56,7 +56,7 @@ INT D3DX_FLOAT_to_INT(
 
 Преобразованное значение FLOAT
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

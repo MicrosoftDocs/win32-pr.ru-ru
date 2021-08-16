@@ -44,7 +44,7 @@ Property DataPointCount As Long
 
 Это свойство используется только в том случае, если [**системмонитор. DataSourceType**](systemmonitor-datasourcetype.md) является **сисмонкуррентактивити**.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 3f7e602ce5d5b0a8e524f76144c7f1eff8876bb5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 484b8f7f3094cf5bca2cb9d03941d68619995ba98de08e2845c3717439709e2b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651809"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120129054"
 ---
 # <a name="productfeaturestate-method"></a>Метод Product. Феатурестате
 
@@ -52,7 +52,7 @@ Product.FeatureState(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если вызов будет выполнен, свойство будет содержать значение **типа DWORD**.
 
@@ -72,7 +72,7 @@ Product.FeatureState(
 
 
 
-| Ошибка                     | Значение                                                                                                                                    |
+| Error                     | Значение                                                                                                                                    |
 |---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Ошибка \_ отказа в доступе \_     | Вызывающий процесс должен иметь права администратора для получения сведений о продукте, установленном для пользователя, отличного от текущего пользователя. |
 | Ошибка \_ неправильной \_ конфигурации | Данные конфигурации повреждены.                                                                                                         |
@@ -92,7 +92,7 @@ Product.FeatureState(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows 3,0 или более поздней версии в Windows Server 2003, Windows XP и Windows 2000<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик 3,0 или более поздней версии на Windows Server 2003, Windows XP и Windows 2000<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                                                   |
 | IID<br/>     | IID \_ ипродукт определен как 000C10A0-0000-0000-C000-000000000046<br/>                                                                                                                                                                                                          |
 
@@ -108,7 +108,7 @@ Product.FeatureState(
 [**мсикуерифеатурестатикс**](/windows/desktop/api/Msi/nf-msi-msiqueryfeaturestateexa)
 </dt> <dt>
 
-[Не поддерживается в установщик Windows 2,0 и более ранних версиях](not-supported-in-windows-installer-version-2-0.md)
+[не поддерживается в установщик Windows 2,0 и более ранних версиях](not-supported-in-windows-installer-version-2-0.md)
 </dt> </dl>
 
  

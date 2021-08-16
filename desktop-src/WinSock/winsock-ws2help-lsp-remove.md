@@ -78,7 +78,7 @@ const EVENT_DESCRIPTOR WINSOCK_WS2HELP_LSP_REMOVE = {0x2, 0x0, 0x10, 0x0, 0x0, 0
 
 Событие **\_ \_ \_ удаления LSP Winsock WS2HELP** будет отслеживаться для операции удаления LSP при удалении записи протокола из каталога Winsock.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

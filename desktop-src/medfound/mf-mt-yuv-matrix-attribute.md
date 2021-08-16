@@ -4,12 +4,12 @@ ms.assetid: b268d16d-b4cc-4026-9ba7-805cc5409b95
 title: Атрибут MF_MT_YUV_MATRIX (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f0c6976e4652c69b3bddc910dcc536a3d07bf39a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20f055490873bf1af07b8278c249679da53bc24b1a76be7a0384a010edff81c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105651132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117876508"
 ---
 # <a name="mf_mt_yuv_matrix-attribute"></a>\_ \_ \_ Атрибут матрицы MF MT YUV
 
@@ -19,7 +19,7 @@ ms.locfileid: "105651132"
 
 **UINT32**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значение этого атрибута является членом перечисления [**мфвидеотрансферматрикс**](/windows/desktop/api/mfobjects/ne-mfobjects-mfvideotransfermatrix) .
 
@@ -31,8 +31,8 @@ ms.locfileid: "105651132"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows Vista \|\]<br/>                              |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 \|\]<br/>                        |
+| Минимальная версия клиента<br/> | Windows \[Приложения UWP для классических приложений Vista \|\]<br/>                              |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для классических приложений сервера 2008 \|\]<br/>                        |
 | Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 

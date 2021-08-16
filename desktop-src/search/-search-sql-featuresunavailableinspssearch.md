@@ -1,19 +1,19 @@
 ---
-description: Язык запросов Microsoft Windows Search основан на язык SQL (SQL); Однако он не выполняет поиск в реляционной базе данных с пользовательскими таблицами или индексами.
+description: язык запросов Microsoft Windows Search основан на язык SQL (SQL); Однако он не выполняет поиск в реляционной базе данных с пользовательскими таблицами или индексами.
 ms.assetid: e81c436e-3a33-4b00-9860-9a54bc0eebbf
-title: Функции SQL, недоступные в Microsoft Windows Search
+title: SQL функции, недоступные в Microsoft Windows Search
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20cf0e082a10a7775ca2d880be6153b7d99b6bc7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 66adb175aa7fae799e0ad9b69916415f12c94ee984d276b5a2238ebb19ec2f06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105710909"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119716124"
 ---
-# <a name="sql-features-unavailable-in-microsoft-windows-search"></a>Функции SQL, недоступные в Microsoft Windows Search
+# <a name="sql-features-unavailable-in-microsoft-windows-search"></a>SQL функции, недоступные в Microsoft Windows Search
 
-Язык запросов Microsoft Windows Search основан на язык SQL (SQL); Однако он не выполняет поиск в реляционной базе данных с пользовательскими таблицами или индексами. По этой причине многие стандартные инструкции SQL и функции синтаксиса не применяются. Ниже приведен список более значимых функций SQL, которые не поддерживаются в Windows Search.
+язык запросов Microsoft Windows Search основан на язык SQL (SQL); Однако он не выполняет поиск в реляционной базе данных с пользовательскими таблицами или индексами. по этой причине многие стандартные инструкции SQL и функции синтаксиса не применяются. ниже приведен список более значимых SQL функций, которые не поддерживаются Windows поиска.
 
 
 -   ПАКЕТные инструкции
@@ -28,8 +28,8 @@ ms.locfileid: "105710909"
 -   Схема информации
 -   Инструкция INSERT
 -   Типы данных OLE DB
--   SQL-стандартные регулярные выражения (используйте CONTAINS или LIKE)
--   Параметры для запросов SQL
+-   SQL стандартные регулярные выражения (используйте CONTAINS или LIKE)
+-   параметры для SQL запросов
 -   Сравнение реляционных столбцов
 -   Заголовок идентификатора редакции
 -   REVOKE, инструкция
@@ -41,7 +41,7 @@ ms.locfileid: "105710909"
 -   Неизвестное ключевое слово
 -   Инструкция UPDATE
 
-Поиск Windows не поддерживает тезаурусы и пропускаемые слова.
+Windows Поиск не поддерживает тезаурусы и пропускаемые слова.
 
  
 

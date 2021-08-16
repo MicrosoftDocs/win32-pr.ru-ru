@@ -4,12 +4,12 @@ ms.assetid: 6dfe2b97-1ebc-4954-b478-85b3bbba89e3
 title: Атрибут MF_MT_AUDIO_FOLDDOWN_MATRIX (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 10bb8aa00835ab31f6c05eaa9a1d0e5d9d126b41
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 46763f3a32999136993cd3237da9c6cbcdd1d1addb5f6d9041555ac747a6d655
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119714664"
 ---
 # <a name="mf_mt_audio_folddown_matrix-attribute"></a>\_ \_ \_ \_ Атрибут матрицы фолддовн MF Audio
 
@@ -19,7 +19,7 @@ ms.locfileid: "105683120"
 
 массив байтов;
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут применяется к типам звуковых носителей.
 
@@ -33,8 +33,8 @@ ms.locfileid: "105683120"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows Vista \|\]<br/>                              |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 \|\]<br/>                        |
+| Минимальная версия клиента<br/> | Windows \[Приложения UWP для классических приложений Vista \|\]<br/>                              |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для классических приложений сервера 2008 \|\]<br/>                        |
 | Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 

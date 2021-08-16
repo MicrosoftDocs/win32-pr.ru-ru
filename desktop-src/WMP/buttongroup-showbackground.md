@@ -50,7 +50,7 @@ ms.locfileid: "118342677"
 
 Если указано недопустимое значение, сохраняется предыдущее состояние.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

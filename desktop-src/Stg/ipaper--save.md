@@ -4,12 +4,12 @@ description: Основное внимание в этом примере код
 ms.assetid: 62154658-ff47-425f-94da-ee2806de5318
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 96ea49f194e64ab3f0cfd78569b1e6ff9ddee577
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 52772002fe8f0ed234a4f430eaff4328f96f9d1ef151e83da3f4aa3e255dba09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105661619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117961374"
 ---
 # <a name="ipapersave"></a>Ипапер:: Save
 
@@ -130,9 +130,9 @@ CLSID для Дллпапер, CLSID \_ дллпапер сериализует�
 
 Метод **Save** также вызывает [**ипаперсинк**](ipapersink-methods.md) клиента (во внутреннем методе нотифисинкс), чтобы уведомить клиента о завершении операции сохранения. На этом этапе метод **Save** возвращается вызывающему клиенту, который обычно освобождает указатель [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) .
 
- 
+ 
 
- 
+ 
 
 
 

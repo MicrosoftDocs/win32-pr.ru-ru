@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f43e8c10592fcf99ea294327c400c579ce45bf6b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 58f44b3a2f11094c37edf24f5fc00bbd8229d65dc2a54292acd2ca3221472e85
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104133739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119979624"
 ---
 # <a name="enable_allocate-attribute"></a>включить \_ атрибут выделения
 
@@ -26,7 +26,7 @@ ms.locfileid: "104133739"
 > [!Note]  
 > Атрибут **\[ включения \_ выделения \]** устарел и больше не поддерживается.
 
- 
+ 
 
 ``` syntax
 [
@@ -57,7 +57,7 @@ interface interface-name
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В режиме по умолчанию заглушка сервера включает среду памяти, только если используется атрибут **\[ включения \_ выделения \]** . Для выделения памяти с помощью [**рпксмаллокате**](/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate)необходимо включить среду управления памятью. В режиме **Использование** (при компиляции с использованием параметра [**/ОСФ**](-osf.md) ) заглушка включает эту среду автоматически или по запросу, когда используется атрибут **\[ включения \_ выделения \]** .
 
@@ -88,6 +88,6 @@ interface interface-name
 [рпксмфри](/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmfree)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

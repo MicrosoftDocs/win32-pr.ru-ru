@@ -61,7 +61,7 @@ Player.CurrentPlaylistItemAvailable(
 
 **проигрыватель Windows Media 10 Mobile:** Это событие не поддерживается.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

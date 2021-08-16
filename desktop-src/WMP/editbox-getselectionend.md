@@ -3,7 +3,7 @@ title: EDITBOX. Жетселектионенд
 description: Метод Жетселектионенд извлекает конечное расположение выделенного текста в элементе управления EditBox.
 ms.assetid: 82a445da-3c50-41b7-8ac8-da6c860056ba
 keywords:
-- Жетселектионенд Windows Media Player
+- EDITBOX. жетселектионенд проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f27c2974360e7e77becfa67a27b4e96b529ad1e5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8dff56bda802286ed76ba3b448478dfa57d005c13baf229612e190bbf163b25a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699272"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118838848"
 ---
 # <a name="editboxgetselectionend"></a>EDITBOX. Жетселектионенд
 
@@ -36,7 +36,7 @@ ms.locfileid: "105699272"
 
 Этот метод возвращает **число** (**Long**).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если текст не выбран, этот метод возвращает позицию точки вставки.
 
@@ -50,7 +50,7 @@ ms.locfileid: "105699272"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
 
 
 

@@ -40,7 +40,7 @@ Product.SourceListClearSource(
 
 <dl> <dt>
 
-*Type* 
+*Тип* 
 </dt> <dd>
 
 Тип удаляемого источника: МСИСАУРЦЕТИПЕ \_ Network или мсисаурцетипе \_ URL.
@@ -58,7 +58,7 @@ Product.SourceListClearSource(
 
 Этот метод не возвращает значение.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -38,12 +38,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: fd60e98c8df12b539bb51c60b34e7931b762dc03
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e6e2de8571d665dc86393708b2afcf73fc4885f0b4de26624daafcdccff995b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119681484"
 ---
 # <a name="msvm_ethernetswitchportoffloaddata-class"></a>\_Класс мсвм есернетсвитчпортоффлоаддата
 
@@ -91,13 +91,13 @@ class Msvm_EthernetSwitchPortOffloadData : Msvm_EthernetPortData
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ есернетсвитчпортоффлоаддата** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -280,7 +280,7 @@ class Msvm_EthernetSwitchPortOffloadData : Msvm_EthernetPortData
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -343,7 +343,7 @@ class Msvm_EthernetSwitchPortOffloadData : Msvm_EthernetPortData
 Указывает, является ли ВММК активным.
 
 > [!Note]  
-> Это свойство было добавлено в Windows 10 версии 1703.
+> это свойство было добавлено в Windows 10 версии 1703.
 
  
 
@@ -364,7 +364,7 @@ class Msvm_EthernetSwitchPortOffloadData : Msvm_EthernetPortData
 Указывает, сколько очередей используется для VRSS/ВММК.
 
 > [!Note]  
-> Это свойство было добавлено в Windows 10, версии 1703 и Windows Server 2016.
+> это свойство было добавлено в Windows 10, версии 1703 и Windows Server 2016.
 
  
 
@@ -417,7 +417,7 @@ class Msvm_EthernetSwitchPortOffloadData : Msvm_EthernetPortData
 Указывает, активна ли vRSS.
 
 > [!Note]  
-> Это свойство было добавлено в Windows 10 версии 1703.
+> это свойство было добавлено в Windows 10 версии 1703.
 
  
 
@@ -438,7 +438,7 @@ class Msvm_EthernetSwitchPortOffloadData : Msvm_EthernetPortData
 Указывает, исключается ли основной ЦП VMQ из таблицы косвенных обращений VRSS/ВММК.
 
 > [!Note]  
-> Добавлено в Windows 10 версии 1709.
+> добавлено в Windows 10 версии 1709.
 
  
 
@@ -459,7 +459,7 @@ class Msvm_EthernetSwitchPortOffloadData : Msvm_EthernetPortData
 Указывает, происходит ли распространение VRSS или ВММК на стороне узла независимо от параметров RSS виртуального сетевого адаптера.
 
 > [!Note]  
-> Добавлено в Windows 10 версии 1709.
+> добавлено в Windows 10 версии 1709.
 
  
 
@@ -480,7 +480,7 @@ class Msvm_EthernetSwitchPortOffloadData : Msvm_EthernetPortData
 Указывает минимальное число очередей, используемых для VRSS/ВММК.
 
 > [!Note]  
-> Добавлено в Windows 10 версии 1709.
+> добавлено в Windows 10 версии 1709.
 
  
 
@@ -501,7 +501,7 @@ class Msvm_EthernetSwitchPortOffloadData : Msvm_EthernetPortData
 Указывает, каким способом очереди VRSS/ВММК связаны с разными процессорами узла.
 
 > [!Note]  
-> Добавлено в Windows 10 версии 1709.
+> добавлено в Windows 10 версии 1709.
 
  
 
@@ -522,7 +522,7 @@ class Msvm_EthernetSwitchPortOffloadData : Msvm_EthernetPortData
 Указывает, как привязаны каналы VMBus для процессоров размещения.
 
 > [!Note]  
-> Добавлено в Windows 10 версии 1709.
+> добавлено в Windows 10 версии 1709.
 
  
 
@@ -534,8 +534,8 @@ class Msvm_EthernetSwitchPortOffloadData : Msvm_EthernetPortData
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

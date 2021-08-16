@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 39fec7c1bd2b369ee512834ed1b58b59871d8ae5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 97e31129497759fa73abb4456ea8d1b8d20748bef76629d6dd857954863f5aec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665225"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126984"
 ---
 # <a name="icertificate2isvalid-method"></a>Метод ICertificate2:: IsValid
 
@@ -61,7 +61,7 @@ Certificate.IsValid()
 [Криптографические объекты](cryptography-objects.md)
 </dt> <dt>
 
-[**Certificate**](certificate.md)
+[**Сертификат**](certificate.md)
 </dt> </dl>
 
  
