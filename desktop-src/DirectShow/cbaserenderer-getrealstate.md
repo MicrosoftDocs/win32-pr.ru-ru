@@ -48,7 +48,7 @@ FILTER_STATE GetRealState();
 
 Этот метод предоставляет более простую альтернативу методу [**кбасерендерер::-State**](cbaserenderer-getstate.md) для внутреннего использования.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

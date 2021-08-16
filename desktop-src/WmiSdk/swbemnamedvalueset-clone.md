@@ -71,7 +71,7 @@ objwbemNamedValueSet = .Clone( _
 
 Используйте этот метод для дублирования коллекции [**свбемнамедвалуесет**](swbemnamedvalueset.md) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

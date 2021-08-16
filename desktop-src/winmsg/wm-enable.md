@@ -48,7 +48,7 @@ ms.locfileid: "118200485"
 
 Если приложение обрабатывает это сообщение, оно должно вернуть ноль.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

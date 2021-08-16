@@ -104,7 +104,7 @@ void WINAPI glMaterialf(
 
 [**глжетматериал**](glgetmaterial.md)
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

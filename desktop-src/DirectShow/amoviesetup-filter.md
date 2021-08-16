@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - combase.h
-ms.openlocfilehash: 55a225185733a822591d8f93c2eca3674d51a340
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fe50295f87e2932d3eb0fe53aac4896343a31441f8fa832bbaa69d5256846414
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657838"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117824794"
 ---
 # <a name="amoviesetup_filter-structure"></a>\_Структура фильтра амовиесетуп
 
@@ -78,12 +78,12 @@ typedef struct _AMOVIESETUP_FILTER {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Сведения об использовании этой структуры см. [в разделе Регистрация фильтров DirectShow](how-to-register-directshow-filters.md). Используйте эту структуру только для фильтров, зарегистрированных в категории фильтра по умолчанию (CLSID \_ легациамфилтеркатегори). Чтобы зарегистрировать фильтр в другой категории, используйте метод [**IFilterMapper2:: регистерфилтер**](/windows/desktop/api/Strmif/nf-strmif-ifiltermapper2-registerfilter) , как описано в разделе [Реализация DllRegisterServer](implementing-dllregisterserver.md).
+сведения об использовании этой структуры см. [в разделе регистрация DirectShow фильтров](how-to-register-directshow-filters.md). Используйте эту структуру только для фильтров, зарегистрированных в категории фильтра по умолчанию (CLSID \_ легациамфилтеркатегори). Чтобы зарегистрировать фильтр в другой категории, используйте метод [**IFilterMapper2:: регистерфилтер**](/windows/desktop/api/Strmif/nf-strmif-ifiltermapper2-registerfilter) , как описано в разделе [Реализация DllRegisterServer](implementing-dllregisterserver.md).
 
 > [!Note]  
-> Файл заголовка комбасе. h предоставляется [базовыми классами DirectShow](directshow-base-classes.md).
+> файл заголовка комбасе. h предоставляется с [базовыми классами DirectShow](directshow-base-classes.md).
 
  
 
@@ -93,7 +93,7 @@ typedef struct _AMOVIESETUP_FILTER {
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Комбасе. h (включение Streams. h)</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>комбасе. h (включает Потоки. h)</dt> </dl> |
 
 
 
@@ -101,7 +101,7 @@ typedef struct _AMOVIESETUP_FILTER {
 
 <dl> <dt>
 
-[Структуры DirectShow](directshow-structures.md)
+[DirectShow Сотрудник](directshow-structures.md)
 </dt> </dl>
 
  

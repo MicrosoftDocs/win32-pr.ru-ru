@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 2fbed0411f3562e3a05ec2ec4df99dfad6d8c902
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5c0fb2de39cfcc8b0571b05c85ffa3d03945f6c837ae10ba68252b5b9c24b524
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104081914"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118299377"
 ---
 # <a name="d3dxcomputeimtfromtexture-function"></a>Функция D3DXComputeIMTFromTexture
 
@@ -115,7 +115,7 @@ HRESULT D3DXComputeIMTFromTexture(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. в противном случае — значение D3DERR \_ инвалидкалл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Учитывая текстуру, которая сопоставляется с поверхностью сетки, алгоритм рассчитывает ИМТ для каждой грани. Это приведет к тому, что треугольники, содержащие данные сигнала с более низкой частотой, будут занимать меньше пространства в окончательной текстуре Atlas при параметризации с помощью функций Уватлас. Предполагается, что текстура будет интерполяция через сетку билинеарли.
 
@@ -125,7 +125,7 @@ HRESULT D3DXComputeIMTFromTexture(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b2ecad1b63335b7f2bfc81c099b4f920d9de21c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 55cd9e28e9ec9ce2f3068643d44306f542eebabb9b0b0c8860b15e9e986b49b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105710045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117841774"
 ---
 # <a name="faults"></a>Ошибки
 
@@ -50,7 +50,7 @@ ms.locfileid: "105710045"
 
 ## <a name="handling-faults-on-a-client"></a>Обработка ошибок на клиенте
 
-Если клиент получает сообщение об ошибке при использовании [прокси-сервера службы](service-proxy.md) или через [**всрекуестрепли**](/windows/desktop/api/WebServices/nf-webservices-wsrequestreply) или [**всрецеивемессаже**](/windows/desktop/api/WebServices/nf-webservices-wsreceivemessage), будет возвращена ошибка **\_ \_ конечной точки \_ \_ WS E** . (Дополнительные сведения см. в разделе [возвращаемые значения веб-служб Windows](windows-web-services-return-values.md).) Эти функции также будут заполнять объект [ \_ ошибки WS](ws-error.md) , переданный в вызов, сведениями о полученных сбоях.
+Если клиент получает сообщение об ошибке при использовании [прокси-сервера службы](service-proxy.md) или через [**всрекуестрепли**](/windows/desktop/api/WebServices/nf-webservices-wsrequestreply) или [**всрецеивемессаже**](/windows/desktop/api/WebServices/nf-webservices-wsreceivemessage), будет возвращена ошибка **\_ \_ конечной точки \_ \_ WS E** . (дополнительные сведения см. в разделе [Windows возвращаемые значения веб-служб](windows-web-services-return-values.md).) Эти функции также будут заполнять объект [ \_ ошибки WS](ws-error.md) , переданный в вызов, сведениями о полученных сбоях.
 
 Следующие свойства объекта [ \_ ошибки WS](ws-error.md) можно запросить с помощью [**всжетфаултеррорпроперти**](/windows/desktop/api/WebServices/nf-webservices-wsgetfaulterrorproperty) , чтобы получить сведения о полученном сбое:
 
@@ -107,9 +107,9 @@ hr = WsReadBody(message, &faultDescription, WS_READ_REQUIRED_VALUE, &fault, size
 -   [**\_ \_ подробное описание ошибки WS \_**](/windows/desktop/api/WebServices/ns-webservices-ws_fault_detail_description)
 -   [**\_Причина сбоя \_ WS**](/windows/desktop/api/WebServices/ns-webservices-ws_fault_reason)
 
- 
+ 
 
- 
+ 
 
 
 

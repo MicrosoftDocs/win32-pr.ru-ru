@@ -72,7 +72,7 @@ BOOL WINAPI InstallNewDevice(
 
 Эта функция не имеет связанной библиотеки импорта. Для динамической привязки к NewDev.dll необходимо использовать функции [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

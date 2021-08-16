@@ -3,9 +3,9 @@ title: Довнлоадитем. Pause, метод
 description: Обратите внимание, что в этом разделе описываются функции, предназначенные для использования Интернет-магазинами. Использование этой функции вне контекста Интернет-магазина не поддерживается. Метод Pause приостанавливает скачивание.
 ms.assetid: 763d85da-1044-4a8c-98e7-8889bee6c2c7
 keywords:
-- приостановить метод проигрыватель Windows Media Player
-- приостановить метод проигрыватель Windows Media Player, класс Довнлоадитем
-- Класс Довнлоадитем проигрыватель Windows Media Player, метод Pause
+- приостановить проигрыватель Windows Media метода
+- метод pause проигрыватель Windows Media, класс довнлоадитем
+- класс довнлоадитем проигрыватель Windows Media, приостановка метода
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 875e06c221a20088b43d9902775238426dd0c5b7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8f0ff1bec36635f980ab630628a3e2ab1bd32a521afccb7debc984c4c29e851c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118340744"
 ---
 # <a name="downloaditempause-method"></a>Довнлоадитем. Pause, метод
 
@@ -49,7 +49,7 @@ DownloadItem.pause()
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Метод **Pause** не влияет на загрузку в режиме реального времени.
 
@@ -59,7 +59,7 @@ DownloadItem.pause()
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии.<br/>                                 |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии.<br/>                                 |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

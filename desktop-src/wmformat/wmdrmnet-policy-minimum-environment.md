@@ -1,6 +1,6 @@
 ---
 title: Структура WMDRMNET_POLICY_MINIMUM_ENVIRONMENT (Вмдрмсдк. h)
-description: '\_ \_ Структура минимальной среды политики вмдрмнет \_ содержит минимальные требования к безопасности для Windows Media DRM для сетевых устройств.'
+description: '\_ \_ структура минимальной среды политики вмдрмнет \_ содержит минимальные требования к безопасности для Windows Media DRM для сетевых устройств.'
 ms.assetid: b1bc9a8d-197e-45fe-a152-0b81add977eb
 keywords:
 - Формат WMDRMNET_POLICY_MINIMUM_ENVIRONMENT структуры Windows Media
@@ -15,16 +15,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bf53fdec186a44eff375dd2e9cf9badfe0ba715
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 26c11cf02d7cfcd2e3ab62c4e6b110e2c20b77cf6f79251a23f642b38d4df553
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118027465"
 ---
 # <a name="wmdrmnet_policy_minimum_environment-structure"></a>\_ \_ Минимальная \_ Структура среды политики вмдрмнет
 
-Структура **\_ \_ минимальной \_ среды политики вмдрмнет** содержит минимальные требования к безопасности для Windows Media DRM для сетевых устройств.
+структура **\_ \_ минимальной \_ среды политики вмдрмнет** содержит минимальные требования к безопасности для Windows Media DRM для сетевых устройств.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -64,7 +64,7 @@ typedef struct WMDRMNET_POLICY_MINIMUM_ENVIRONMENT {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Нет.
 
@@ -74,7 +74,7 @@ typedef struct WMDRMNET_POLICY_MINIMUM_ENVIRONMENT {
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Вмдрмсдк. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмдрмсдк. h</dt> </dl> |
 
 
 

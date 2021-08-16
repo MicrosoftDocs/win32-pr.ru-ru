@@ -58,7 +58,7 @@ LPTSTR WINAPI SdbGetStringTagPtr(
 
 Функция возвращает указатель на строковые данные или **значение NULL** , если **TAGID** является недопустимым или не относится к типу **тегов \_ \_ String** или **\_ type тега \_ стрингреф**.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -61,7 +61,7 @@ ms.locfileid: "118199940"
 -   [**диалогбоксиндирект**](/windows/win32/api/winuser/nf-winuser-dialogboxindirecta)
 -   [**диалогбоксиндиректпарам**](/windows/win32/api/winuser/nf-winuser-dialogboxindirectparama)
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

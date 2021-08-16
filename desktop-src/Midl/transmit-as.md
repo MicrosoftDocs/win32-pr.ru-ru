@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ec0cba27e994f7d77d441aef7bb783cad71cbad
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 18d1b8e9aae9a147c929fade8030babbf6b02fd87c9170370252522001742e95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "105661688"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118382834"
 ---
 # <a name="transmit_as-attribute"></a>передать \_ как атрибут
 
-Атрибут **\[ передать \_ как \]** указывает компилятору связать * * **,* который представляет собой тип, который управляется клиентскими и серверными приложениями, с переданным типом **xmit-Type.**
+Атрибут **\[ передать \_ как \]** указывает компилятору связать **тип-ID**_,_ который представляет собой представляемый тип, который управляется клиентскими и серверными приложениями, с переданным типом **xmit-Type.**
 
 ``` syntax
 typedef [transmit_as(xmit-type) [[ , type-attribute-list ]] ] type-specifier declarator-list; 
@@ -77,7 +77,7 @@ void __RPC_USER type-id_free_xmit (
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы использовать атрибут **\[ передачи \_ As \]** , пользователь должен предоставить подпрограммы, которые преобразуют данные между представленными и передаваемыми типами. Эти подпрограммы также должны освободить память, используемую для хранения преобразованных данных. Атрибут **\[ передать \_ как \]** указывает заглушкам вызывать предоставляемые пользователем подпрограммы преобразования.
 
@@ -96,9 +96,9 @@ void __RPC_USER type-id_free_xmit (
 
 
 
- 
+ 
 
- 
+ 
 
 Заглушка клиента вызывает *Type-ID * * * \_ to \_ xmit** для выделения пространства для передаваемого типа и преобразования данных в объекты типа *xmit-Type.* Заглушка сервера выделяет место для исходного типа данных и вызывает метод *Type-ID * * * \_ из \_ xmit** для преобразования данных из переданного типа в представленный тип.
 
@@ -159,10 +159,10 @@ void __RPC_USER TREE_TYPE_free_xmit(
 [**Контекстный \_ маркер**](context-handle.md)
 </dt> <dt>
 
-[**перечисления**](enum.md)
+[**enum**](enum.md)
 </dt> <dt>
 
-[**справиться**](handle.md)
+[**handle**](handle.md)
 </dt> <dt>
 
 [**Handle \_ t**](handle-t.md)
@@ -174,13 +174,13 @@ void __RPC_USER TREE_TYPE_free_xmit(
 [**обращать**](ignore.md)
 </dt> <dt>
 
-[**ptr**](ptr.md)
+[**указатель**](ptr.md)
 </dt> <dt>
 
 [**ref**](ref.md)
 </dt> <dt>
 
-[**Строка**](string.md)
+[**строка**](string.md)
 </dt> <dt>
 
 [**struct**](struct.md)
@@ -201,6 +201,6 @@ void __RPC_USER TREE_TYPE_free_xmit(
 [**void**](void.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

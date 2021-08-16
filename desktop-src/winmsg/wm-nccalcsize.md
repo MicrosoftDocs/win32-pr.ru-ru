@@ -81,7 +81,7 @@ ms.locfileid: "118200080"
 
 начиная с Windows Vista, удаление стандартного кадра путем простого возврата значения 0, если параметр *wParam* имеет **значение TRUE** , не влияет на кадры, которые расширены в клиентскую область с помощью функции [**DwmExtendFrameIntoClientArea**](/windows/win32/api/dwmapi/nf-dwmapi-dwmextendframeintoclientarea) . Будет удален только стандартный фрейм.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -167,7 +167,7 @@ bAreEqual = .CompareTo_( _
 
 </dd> </dl>
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c4b14a5ae4a2325f840d8a840cb0a1bc5283bb4a
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 7ad758ba334114e13493e7b082f45f37dc6e68efba16dc3a55f14fa57a772d63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "105661667"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118382440"
 ---
 # <a name="void-attribute"></a>атрибут void
 
@@ -67,9 +67,9 @@ return-type function-name(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Тип указателя **void \***, который в C описывает универсальный указатель, который может быть приведен для представления любого типа указателя, ограничен в MIDL для его использования с ключевым словом **\[ \_ Handle \] context** .
+Тип указателя **void \* *_, который в C описывает универсальный указатель, который может быть приведен для представления любого типа указателя, ограничен в MIDL для его использования с ключевым словом _* \[ context \_ Handle \]** .
 
 ## <a name="examples"></a>Примеры
 
@@ -93,9 +93,9 @@ HRESULT InitHandle([out] MY_CX_HNDL_TYPE * ppCxHndl);
 [Файл определения интерфейса (IDL)](interface-definition-idl-file.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

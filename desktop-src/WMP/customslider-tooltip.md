@@ -3,7 +3,7 @@ title: КУСТОМСЛИДЕР. toolTip
 description: Атрибут toolTip указывает или получает текст подсказки для ползунка.
 ms.assetid: ac82b811-8396-4a02-b617-627e808b8faf
 keywords:
-- Проигрыватель Windows Media КУСТОМСЛИДЕР. toolTip
+- проигрыватель Windows Media кустомслидер. toolTip
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e56159f18f4011b934f8ab2c611f703450268f13
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3881cab3f5e818a4d6c244b9b2e951711202f38cdb86ee9ce5856747defeacc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698984"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118340913"
 ---
 # <a name="customslidertooltip"></a>КУСТОМСЛИДЕР. toolTip
 
@@ -31,7 +31,7 @@ ms.locfileid: "105698984"
 
 Этот атрибут является **строкой** для чтения и записи и имеет максимальную длину 1024 символов. У него нет значения по умолчанию.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если для этого атрибута задано значение "" (пустая строка), подсказка не отображается.
 
@@ -45,7 +45,7 @@ ms.locfileid: "105698984"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

@@ -2933,7 +2933,7 @@ ms.locfileid: "118405605"
 </dt> </dl> </dd> </dl>
 
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

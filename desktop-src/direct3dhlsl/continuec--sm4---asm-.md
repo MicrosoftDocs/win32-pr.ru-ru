@@ -4,12 +4,12 @@ description: Условно продолжение выполнения в на�
 ms.assetid: 1A5B1951-CE1E-479C-AE0F-FC5FB93E0DE9
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d480d8828f8f68af1f6a2ff4f52224041d5241df
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: d909c199dc0ceaa4e5498429f1ac3a136d3fb75d930e392d7f6fd8230e5b49b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104983844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117909061"
 ---
 # <a name="continuec-sm4---asm"></a>континуек (SM4-ASM)
 
@@ -34,7 +34,7 @@ ms.locfileid: "104983844"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 **континуек** можно использовать только внутри [цикла](loop--sm4---asm-.md) или [ендлуп](endloop--sm4---asm-.md).
 
@@ -81,9 +81,9 @@ ms.locfileid: "104983844"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
-| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | да       |
-| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
+| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Да       |
+| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Да       |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Нет        |
@@ -92,7 +92,7 @@ ms.locfileid: "104983844"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

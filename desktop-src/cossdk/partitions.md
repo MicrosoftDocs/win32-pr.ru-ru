@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: b1016ae932d6841a5db590f2d24496113d3cefc8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3badf52755a77557c200569c25610b5918cf8dd599d17a83bdebb5c4ddfa6801
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103807960"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118305877"
 ---
 # <a name="partitions-collection"></a>Коллекция partitions
 
@@ -33,7 +33,7 @@ ms.locfileid: "103807960"
 
 Можно переходить от этой коллекции к любой из следующих коллекций:
 
--   [**Приложения**](applications.md)
+-   [**Приложений**](applications.md)
 -   [**ErrorInfo**](errorinfo.md)
 -   [**PropertyInfo**](propertyinfo.md)
 -   [**релатедколлектионинфо**](relatedcollectioninfo.md)
@@ -47,13 +47,13 @@ ms.locfileid: "103807960"
 
 Объект [**комадминкаталогобжект**](comadmincatalogobject.md) в коллекции поддерживает следующие свойства:
 
--   [Изменить](#changeable)
+-   [Поддержка изменений](#changeable)
 -   [Предусмотрено](#deleteable)
 -   [Описание](#description)
 -   [Идентификатор](#partitions-collection)
--   [Name](#name)
+-   [Имя](#name)
 
-### <a name="changeable"></a>Изменить
+### <a name="changeable"></a>Поддержка изменений
 
 
 

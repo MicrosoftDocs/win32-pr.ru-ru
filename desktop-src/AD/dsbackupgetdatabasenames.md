@@ -17,16 +17,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6643b17a85727f6e0df4e8deea9609f73afd1e76
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 620ad77f84aa2cb52a7bd99a96a22e7de560b53b2c3ba2022598609dde3737fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118191860"
 ---
 # <a name="dsbackupgetdatabasenames-function"></a>Функция Дсбаккупжетдатабасенамес
 
-\[Эта функция доступна для использования в операционных системах, указанных в разделе требования. В последующих версиях он может быть изменен или недоступен. Начиная с Windows Vista, вместо нее следует использовать [Служба теневого копирования томов (VSS)](../vss/volume-shadow-copy-service-overview.md) .\]
+\[Эта функция доступна для использования в операционных системах, указанных в разделе требования. В последующих версиях он может быть изменен или недоступен. начиная с Windows Vista используйте вместо этого [служба теневого копирования томов (VSS)](../vss/volume-shadow-copy-service-overview.md) .\]
 
 Функция **дсбаккупжетдатабасенамес** получает список файлов базы данных для резервного копирования в данном контексте резервного копирования.
 
@@ -134,11 +134,11 @@ HRESULT DsBackupGetDatabaseNames(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **дсбаккупжетдатабасенамес** предоставляет список файлов базы данных, необходимых для резервного копирования. Полная резервная копия состоит из файлов базы данных и файлов журналов, предоставляемых функцией [**дсбаккупжетбаккуплогс**](dsbackupgetbackuplogs.md) . Добавочное резервное копирование Active Directory серверов не поддерживается.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

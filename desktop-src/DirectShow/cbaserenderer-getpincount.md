@@ -48,7 +48,7 @@ virtual int GetPinCount();
 
 Этот метод реализует метод [**кбасефилтер:: жетпинкаунт**](cbasefilter-getpincount.md) , который является чистым виртуальным в классе **кбасефилтер** .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

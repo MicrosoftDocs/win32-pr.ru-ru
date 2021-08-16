@@ -3,9 +3,9 @@ title: Событие Player. MouseMove
 description: Событие MouseMove возникает при перемещении указателя мыши. | Событие Player. MouseMove
 ms.assetid: 026928a3-25a6-4e67-837a-df71c05e49ee
 keywords:
-- Проигрыватель Windows Media, событие MouseMove
-- Класс проигрывателя Windows Media для события MouseMove
-- Класс проигрывателя Windows Media Player, событие MouseMove
+- проигрыватель Windows Media события MouseMove
+- проигрыватель Windows Media событий MouseMove, класс Player
+- класс Player проигрыватель Windows Media, событие MouseMove
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a536609ba5e3095fed9826b071084491a81b385f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fb864e2a8bf686bd39f2d44ba8f5558516d72034f606579a79c76a5d86ab3990
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118338101"
 ---
 # <a name="playermousemove-event"></a>Событие Player. MouseMove
 
@@ -77,11 +77,11 @@ Player.MouseMove(
 
 Это событие не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Значение параметров события указывается проигрывателем Windows Media, доступ к которому можно получить или передать в метод в импортированном файле JScript с использованием имени параметра. Имя этого параметра должно быть введено в точности так, как показано, включая прописные буквы.
+значение параметров события задается проигрыватель Windows Media, и к нему можно получить доступ или передать в метод в импортированном JScriptном файле, используя имя параметра. Имя этого параметра должно быть введено в точности так, как показано, включая прописные буквы.
 
-**Проигрыватель Windows Media 10 Mobile:** Это событие не поддерживается.
+**проигрыватель Windows Media 10 Mobile:** Это событие не поддерживается.
 
 ## <a name="requirements"></a>Требования
 
@@ -89,7 +89,7 @@ Player.MouseMove(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии.<br/>                                 |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии.<br/>                                 |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

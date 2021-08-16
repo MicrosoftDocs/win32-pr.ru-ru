@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9effect.h
-ms.openlocfilehash: c8e7a3a2adf19514e2e4d1c6f61dbea888ce033d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0b30ad0348a5c799690d668e036724d30808c2998eee9d762fa2ad3fc8106c91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103821093"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118298597"
 ---
 # <a name="d3dxeffect_desc-structure"></a>\_Структура D3DXEFFECT DESC
 
@@ -86,7 +86,7 @@ typedef struct D3DXEFFECT_DESC {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Объект Effect может содержать несколько методов отрисовки и параметров для одного и того же результата.
 
@@ -96,7 +96,7 @@ typedef struct D3DXEFFECT_DESC {
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx9effect. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx9effect. h</dt> </dl> |
 
 
 

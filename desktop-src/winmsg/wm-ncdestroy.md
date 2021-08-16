@@ -54,7 +54,7 @@ ms.locfileid: "118200050"
 
 Это сообщение освобождает память, выделенную для окна.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

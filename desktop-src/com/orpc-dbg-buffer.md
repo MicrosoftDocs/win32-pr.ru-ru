@@ -197,7 +197,7 @@ typedef struct _ORPC_DBG_BUFFER {
 
 Члены этой структуры имеют однобайтовый выравнивание и всегда передаются с прямым порядком байтов.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

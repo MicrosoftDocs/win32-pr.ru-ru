@@ -136,7 +136,7 @@ class ScriptingStandardConsumerSetting : CIM_Setting
 
 Единственный экземпляр класса **скриптингстандардконсумерсеттинг** находится в корневом \\ пространстве имен CIMV2.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
