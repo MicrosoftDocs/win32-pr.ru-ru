@@ -4,12 +4,12 @@ ms.assetid: 2f99881b-f95d-470f-b14d-8300ad930e2a
 title: Ширина и шаг (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50d0c8fc49b3bce984e56f7b1a727ed40fee67b2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8de1c697ec4c9278a78a5539818b30038d99fc9d59d96af7f22ee87c33949abf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104553861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120095522"
 ---
 # <a name="width-vs-pitch-direct3d-9"></a>Ширина и шаг (Direct3D 9)
 
@@ -27,7 +27,7 @@ Direct3D использует структуру [**D3DSURFACE \_ DESC**](d3dsur
 
 Дополнительные сведения см. в разделе [доступ к памяти Surface напрямую (Direct3D 9)](accessing-surface-memory-directly.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

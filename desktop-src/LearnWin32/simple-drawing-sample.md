@@ -4,12 +4,12 @@ description: Этот пример приложения представляет
 ms.assetid: 4E4CCBF3-4FDD-4487-B1F5-A5D0C383226F
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d12b60fcde56ada3f58d5cd584fe7e865f4b99a
-ms.sourcegitcommit: 8eac40ea4d87a85e036ed5bbffec7b7a3dab39ec
+ms.openlocfilehash: 5fea34ae27fb1be599400e869f7f1f92086bb0c67cd6d5d5cfe75d04109d798c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "104562074"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119896924"
 ---
 # <a name="simple-drawing-sample"></a>Простой пример рисования
 
@@ -21,8 +21,8 @@ ms.locfileid: "104562074"
 
 Этот пример доступен [здесь](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/begin/LearnWin32/SimpleDrawing).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
-* [Сведения о программе для Windows: пример кода](learn-to-program-for-windows--sample-code.md)
+* [сведения о программе для Windows: пример кода](learn-to-program-for-windows--sample-code.md)
 * [Модуль 4. Ввод данных пользователем](module-4--user-input.md)
 * [Ввод данных пользователем: Расширенный пример](user-input--extended-example.md)

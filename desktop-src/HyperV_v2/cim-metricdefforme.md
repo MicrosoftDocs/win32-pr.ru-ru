@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: d0bcc115bdb5d501567223a307dd30e62f624214
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 06af1d23e640988caf90c54f519670ddace9b920d31c8e97cdc087132faaee26
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119695314"
 ---
 # <a name="cim_metricdefforme-class"></a>\_Класс CIM метрикдефформе
 
@@ -45,7 +45,7 @@ class CIM_MetricDefForME : CIM_Dependency
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ метрикдефформе** имеет следующие свойства.
 

@@ -4,12 +4,12 @@ description: Значения, возвращаемые функцией, пох
 ms.assetid: 98d8d228-7222-49bf-9f29-7749a7a76d5a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08ada3808d024f201ef01a5f4977149a0ab9c75e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 525c63422b058da5267003711efa612814907eb91ced353bd78ee78a820a7377
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105672390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120021004"
 ---
 # <a name="function-return-values"></a>Возвращаемые значения функции
 
@@ -19,6 +19,6 @@ ms.locfileid: "105672390"
 
 Возвращаемые функцией значения, которые являются типами указателей, выделяются клиентской заглушкой с помощью вызова [MIDL, \_ \_ выделяемого пользователю](/windows/desktop/Midl/midl-user-allocate-1). Соответственно, к возвращаемому типу функции-указателя может применяться только атрибут UNIQUE или Full указатель.
 
- 
+ 
 
- 
+ 

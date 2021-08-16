@@ -83,7 +83,7 @@ ms.locfileid: "117761306"
 
 Этот тип перечисления используется в структуре данных [**фонекапс**](/windows/desktop/api/Tapi/ns-tapi-phonecaps) для описания значения, связанного с кнопками телефона.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

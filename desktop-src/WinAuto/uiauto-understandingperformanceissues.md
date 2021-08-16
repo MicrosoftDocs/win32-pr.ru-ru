@@ -10,12 +10,12 @@ keywords:
 - Клиенты, шаблон элемента управления TextRange
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61d8d9b9b6c5cb0ef3ed34c6960e5aeafa623068
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 24846fea2f35cd9d265ab4f898b60dba2fc4e959b9a0f8bd7baea4661855f0a4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104339725"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119861224"
 ---
 # <a name="understanding-performance-issues"></a>Основные сведения о проблемах производительности
 
@@ -26,7 +26,7 @@ ms.locfileid: "104339725"
 
 Клиентское приложение может повысить производительность с помощью метода [**иуиаутоматионтекстранже:: GetText**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-gettext) для получения блоков текста с умеренным размером. Например, использование **gettext** для извлечения одиночных символов приведет к снижению производительности между процессами для каждого символа, в то время как не задавая максимальную длину при вызове **gettext** , и может иметь высокую задержку в зависимости от размера текстового диапазона.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

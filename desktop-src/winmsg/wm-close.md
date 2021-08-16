@@ -82,7 +82,7 @@ LRESULT CALLBACK WindowProc(
 
 По умолчанию функция [**дефвиндовпрок**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) вызывает функцию [**дестройвиндов**](/windows/win32/api/winuser/nf-winuser-destroywindow) для уничтожения окна.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

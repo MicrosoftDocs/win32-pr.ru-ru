@@ -3,8 +3,8 @@ title: Подключаемые интерфейсы DSP
 description: Подключаемые интерфейсы DSP
 ms.assetid: 4660f928-2e92-468f-9e2b-b411931dfded
 keywords:
-- Подключаемые модули проигрывателя Windows Media, DSP-интерфейсы
-- Подключаемые модули проигрывателя Windows Media, интерфейсы
+- подключаемые модули проигрыватель Windows Media, DSP-интерфейсы
+- подключаемые модули проигрыватель Windows Media, интерфейсы
 - подключаемые модули, DSP-интерфейсы
 - подключаемые модули, интерфейсы
 - подключаемые модули обработки цифровых сигналов, интерфейсы
@@ -15,16 +15,16 @@ keywords:
 - испеЦифипропертипаже
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5458ab945b24f8646d986ab7d5d44e12ef3249d
-ms.sourcegitcommit: b04e152a7f51618fc174ffa872654623fe088db2
+ms.openlocfilehash: c3bd030b09377adfe965698d6c411f1a39a745979f2db2eae9f0c613cad843d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "104412681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119863374"
 ---
 # <a name="dsp-plug-in-interfaces"></a>Подключаемые интерфейсы DSP
 
-Интерфейсы подключаемых модулей обработки цифровых сигналов (DSP) используются для управления передачей данных между проигрывателем Windows Media и подключаемым модулем. Все подключаемые модули DSP могут дополнительно реализовать интерфейс **испеЦифипропертипаже** для предоставления реализации страницы свойств.
+интерфейсы подключаемых модулей обработки цифровых сигналов (DSP) используются для управления передачей данных между проигрыватель Windows Media и подключаемым модулем. Все подключаемые модули DSP могут дополнительно реализовать интерфейс **испеЦифипропертипаже** для предоставления реализации страницы свойств.
 
 Для создания подключаемых модулей DSP требуются следующие интерфейсы.
 
@@ -32,26 +32,26 @@ ms.locfileid: "104412681"
 
 | Интерфейс                                                | Описание                                                                                                                                            |
 |----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **имедиаобжект**                                         | Управляет обменом данными с помощью проигрывателя Windows Media и выполняет задачи по обработке цифровых сигналов. Подробная документация включена в пакет SDK для DirectX. |
+| **имедиаобжект**                                         | управляет обменом данными с проигрыватель Windows Media и выполняет задачи по обработке цифровых сигналов. Подробная документация включена в пакет SDK для DirectX. |
 | [ивмпмедиаплугинрегистрар](/previous-versions/windows/desktop/api/wmpservices/nn-wmpservices-iwmpmediapluginregistrar) | Управляет регистрацией подключаемого модуля.                                                                                                                          |
-| [ивмпплугин](/previous-versions/windows/desktop/api/wmpservices/nn-wmpservices-iwmpplugin)                             | Управляет подключением к проигрывателю Windows Media.                                                                                                        |
-| [ивмпплугиненабле](/previous-versions/windows/desktop/api/wmpservices/nn-wmpservices-iwmppluginenable)                 | Хранит, включен ли в данный момент подключаемый модуль Windows Media Player.                                                                               |
+| [ивмпплугин](/previous-versions/windows/desktop/api/wmpservices/nn-wmpservices-iwmpplugin)                             | управляет подключением к проигрыватель Windows Media.                                                                                                        |
+| [ивмпплугиненабле](/previous-versions/windows/desktop/api/wmpservices/nn-wmpservices-iwmppluginenable)                 | хранит, включен ли в данный момент подключаемый модуль проигрыватель Windows Media.                                                                               |
 | [ивмпсервицес](/previous-versions/windows/desktop/api/wmpservices/nn-wmpservices-iwmpservices)                         | Извлекает из проигрывателя сведения о текущем потоке времени и состоянии потока.                                                                  |
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Справочник по программированию подключаемых модулей DSP**](dsp-plug-ins-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

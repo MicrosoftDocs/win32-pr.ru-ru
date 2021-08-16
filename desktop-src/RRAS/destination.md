@@ -4,20 +4,20 @@ description: Назначение — это узел, который присо
 ms.assetid: 6812e3e6-ce23-41e1-a8a7-935087e8dc41
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8363c934867be455b51502a0873b698829634b94
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f9b9c4001c5ca11ebb394c47e8ee4a564f266c5688c738925efb078bd855b8b5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101904"
 ---
 # <a name="destination"></a>Назначение
 
 Назначение — это узел, который присоединился к группе многоадресной рассылки. Такой узел уведомил локальный маршрутизатор с использованием протокола IGMP, что он заинтересован в получении данных, отправляемых в одну или несколько групп многоадресной рассылки.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -21,12 +21,12 @@ keywords:
 - типы элементов управления, документ
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 46ca481df812e3321da7bb4bbb39bdcb5628fb98
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: af0dffa06939ce3a35570d22334b75f5c60360800dedc080d92dafc1c5a40a8b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119899504"
 ---
 # <a name="document-control-type"></a>Тип элемента управления документом
 
@@ -42,7 +42,7 @@ ms.locfileid: "104067868"
 -   [Соответствующие свойства](#relevant-properties)
 -   [Обязательные шаблоны элементов управления](#required-control-patterns)
 -   [Обязательные события](#required-events)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="typical-tree-structure"></a>Типичная древовидная структура
 
@@ -81,7 +81,7 @@ ms.locfileid: "104067868"
 
 
 
- 
+ 
 
 ## <a name="relevant-properties"></a>Соответствующие свойства
 
@@ -95,8 +95,8 @@ ms.locfileid: "104067868"
 | [**UIA \_ баундингректанглепропертид**](uiauto-automation-element-propids.md)       | См. примечания.   | Внешний прямоугольник, содержащий весь элемент управления.                                                                                          |
 | [**UIA \_ кликкаблепоинтпропертид**](uiauto-automation-element-propids.md)             | См. примечания.   | Документ имеет активную точку, при щелчке которой фокус перемещается в один из его элементов в контейнере документа.                   |
 | [**UIA \_ контролтипепропертид**](uiauto-automation-element-propids.md)                   | **Document** |                                                                                                                                                   |
-| [**UIA \_ исконтентелементпропертид**](uiauto-automation-element-propids.md)         | true         | Элемент управления "документ" всегда включается в представление содержимого дерева модели автоматизации пользовательского интерфейса.                                                            |
-| [**UIA \_ исконтролелементпропертид**](uiauto-automation-element-propids.md)         | true         | Элемент управления "документ" всегда включается в представление элемента управления дерева модели автоматизации пользовательского интерфейса.                                                            |
+| [**UIA \_ исконтентелементпропертид**](uiauto-automation-element-propids.md)         | TRUE         | Элемент управления "документ" всегда включается в представление содержимого дерева модели автоматизации пользовательского интерфейса.                                                            |
+| [**UIA \_ исконтролелементпропертид**](uiauto-automation-element-propids.md)         | TRUE         | Элемент управления "документ" всегда включается в представление элемента управления дерева модели автоматизации пользовательского интерфейса.                                                            |
 | [**UIA \_ искэйбоардфокусаблепропертид**](uiauto-automation-element-propids.md)   | См. примечания.   | Если элемент управления может получать фокус клавиатуры, он должен поддерживать это свойство.                                                                         |
 | [**UIA \_ лабеледбипропертид**](uiauto-automation-element-propids.md)                       | См. примечания.   | Значение этого свойства должно быть меткой элемента управления "Документ". Как правило, используется заголовок документа.                             |
 | [**UIA \_ локализедконтролтипепропертид**](uiauto-automation-element-propids.md) | См. примечания.   | Локализованная строка, соответствующая типу элемента управления **Document** . Значение по умолчанию — "Document" для en-US или English (США).            |
@@ -104,7 +104,7 @@ ms.locfileid: "104067868"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Обязательные шаблоны элементов управления
 
@@ -120,7 +120,7 @@ ms.locfileid: "104067868"
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>Обязательные события
 
@@ -148,9 +148,9 @@ ms.locfileid: "104067868"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -163,9 +163,9 @@ ms.locfileid: "104067868"
 [Общие сведения о модели автоматизации пользовательского интерфейса](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

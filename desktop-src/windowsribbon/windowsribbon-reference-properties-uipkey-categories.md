@@ -4,12 +4,12 @@ description: Определяет свойство "категории" поль
 ms.assetid: 15f97307-ea3d-407a-a276-46b82f81bdbc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7666ee9eba6639f1f39b96f012b464854191ff0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e4aa812673f289b80b000710dd48a449656368f00d0beb51dcb489e60328e6a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105700889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119086555"
 ---
 # <a name="ui_pkey_categories"></a>\_Категории PKEY пользовательского интерфейса \_
 
@@ -17,15 +17,15 @@ ms.locfileid: "105700889"
 
 ```
 propertyDescription
-   name = UI_PKEY_Categories
-   shellPKey = UI_PKEY_Categories
-   formatID = 00000102-7363-696e-8441798acf5aebb7
-   propID = 102
-   typeInfo
-      type = IUICollection
+   name = UI_PKEY_Categories
+   shellPKey = UI_PKEY_Categories
+   formatID = 00000102-7363-696e-8441798acf5aebb7
+   propID = 102
+   typeInfo
+      type = IUICollection
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 \_Категории PKEY пользовательского интерфейса \_ используются приложением для запроса категорий, используемых для группирования связанных элементов в элементе управления галереи.
 
@@ -39,7 +39,7 @@ propertyDescription
 
 ![снимок экрана, на котором показаны две категории: фигуры выделения и параметры выбора в элементе управления сплитбуттонгаллери.](images/properties/ui-pkey-collection-categories2.png)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -49,6 +49,6 @@ propertyDescription
 [КодТипа пользовательского интерфейса \_ PKEY \_](windowsribbon-reference-properties-uipkey-categoryid.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -1,5 +1,5 @@
 ---
-description: Диагностика сетевого подключения виртуальной машины в среде виртуализации сети Windows.
+description: диагностика сетевого подключения виртуальной машины в среде Windows виртуализации сети.
 ms.assetid: c18f48bf-1f57-4a23-a495-462afad42750
 title: Метод Диагносенетворкконнектион класса Msvm_VirtualSystemManagementService
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 70760f771e3908265a4ac70ebc1cbdf957d652c7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c82f72a9c2a2b16ad991940fcb378c41e75fdf31e9e6f8b74f23f9d115cab93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119681134"
 ---
 # <a name="diagnosenetworkconnection-method-of-the-msvm_virtualsystemmanagementservice-class"></a>Метод Диагносенетворкконнектион \_ класса Виртуалсистемманажементсервице мсвм
 
-Диагностика сетевого подключения виртуальной машины в среде виртуализации сети Windows.
+диагностика сетевого подключения виртуальной машины в среде Windows виртуализации сети.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -109,7 +109,7 @@ uint32 DiagnoseNetworkConnection(
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только для настольных приложений Windows 10 версии 1703\]<br/>                                               |
+| Минимальная версия клиента<br/> | Windows 10, только для \[ настольных приложений версии 1703\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows Server 2016<br/>                                                                          |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |

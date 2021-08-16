@@ -4,12 +4,12 @@ ms.assetid: 78b2998b-d8b3-424d-85bc-872e64eb4a4f
 title: Набор свойств караоке для DVD (Двдмедиа. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2918513de06a657436ed99e67f672fe74a113b78
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 1f3f7674b240934ae7440858b7317fd1abaf9b7833e36f80d7edc6cc185bc932
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016022"
 ---
 # <a name="dvd-karaoke-property-set"></a>Набор свойств караоке для DVD
 
@@ -36,7 +36,7 @@ ms.locfileid: "107909072"
 
  
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
@@ -46,7 +46,7 @@ ms.locfileid: "107909072"
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

@@ -7,7 +7,7 @@
         - name: Виртуальное адресное пространство
           href: virtual-address-space.md
           items:
-            - name: Виртуальное адресное пространство и физическое хранилище
+            - name: виртуальное адресное пространство и физическое служба хранилища
               href: virtual-address-space-and-physical-storage.md
             - name: Рабочий набор
               href: working-set.md

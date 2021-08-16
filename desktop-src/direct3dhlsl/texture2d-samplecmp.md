@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 242c3654dde83187647b61be8e6e4e5de0d88eec
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: a0d4844a08f7bcab2d6dd1eb5687d3b7dc3b0d50e003e2fffc1cf5159f54ca80
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104069225"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120023054"
 ---
 # <a name="texture2dsamplecmp-methods"></a>Методы Texture2D:: Самплекмп
 
@@ -35,7 +35,7 @@ ms.locfileid: "104069225"
 
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Ссылается на [объект текстуры](dx-graphics-hlsl-to-type.md).
 

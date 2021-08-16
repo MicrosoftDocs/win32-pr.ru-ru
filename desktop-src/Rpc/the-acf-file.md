@@ -4,12 +4,12 @@ description: Файл ACF позволяет настраивать клиент
 ms.assetid: 7d3fef5c-b645-4e10-b08d-b339025718b4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a9e803201004cd73a4be507aaba2affd20f1ea3d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d234b30c25870dd7a21cb790cc4839236ab69093291285b64c870cf7c05cb11f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120080844"
 ---
 # <a name="the-acf-file"></a>Файл ACF
 
@@ -29,6 +29,6 @@ interface hello
 
 Компилятор MIDL имеет параметр [**/АПП \_ config**](/windows/desktop/Midl/-app-config), который позволяет включать в IDL определенные атрибуты ACF, например **неявные \_ маркеры**, а не создавать отдельные файлы ACF. Рассмотрите возможность использования этого параметра, если приложению не требуется много специальной конфигурации и если использование совместимость не является проблемой.
 
- 
+ 
 
- 
+ 

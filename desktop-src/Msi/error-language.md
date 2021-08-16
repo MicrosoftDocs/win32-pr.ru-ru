@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: 6c80802c41f076a2b1c0b320b591bc591da8546e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 966725be2378292215ffaad6c7fc96fb36fd305d2bb2b6053849816dd1fb3f70
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652043"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082894"
 ---
 # <a name="errorlanguage-property"></a>Error. Language, свойство
 
@@ -38,7 +38,7 @@ propVal = Error.Language
 
 ## <a name="property-value"></a>Значение свойства
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значение свойства **Language** равно-1, если ошибка не относится к типу Мсмеррорлангуажеунсуппортед или мсмеррорлангуажефаилед. Тип ошибки можно определить, вызвав свойство [**Type**](error-type.md) объекта [**Error**](error-object.md) .
 

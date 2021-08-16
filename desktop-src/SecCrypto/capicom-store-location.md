@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: 24b2e786e2821c39c6ff67f5919dca2ac0c6bfe9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 15aa93b70840e13901f88c40c715024ec33a835be14b7453da99aecae079b487
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119879014"
 ---
 # <a name="capicom_store_location-enumeration"></a>\_ \_ Перечисление расположения CAPICOM Store
 
@@ -38,7 +38,7 @@ ms.locfileid: "105669035"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Тип **перечисления \_ CAPICOM \_ Location** используется следующими методами.
 

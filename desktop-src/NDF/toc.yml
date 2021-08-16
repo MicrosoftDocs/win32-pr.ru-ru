@@ -195,23 +195,23 @@
         - name: Расширяемые вспомогательные классы
           href: extensible-helper-classes.md
           items:
-            - name: Расширяемый вспомогательный класс платформы фильтрации Windows
+            - name: Windows Расширяемый вспомогательный класс платформы фильтрации
               href: windows-filtering-platform-extensible-helper-class.md
             - name: 'Расширяемые вспомогательные классы диагностики беспроводной сети 802,11'
               href: 802-11-wireless-diagnostics-extensible-helper-classes.md
-    - name: Трассировка сети в Windows 7
+    - name: трассировка сети в Windows 7
       href: network-tracing-in-windows-7.md
       items:
-        - name: 'Трассировка сети в Windows 7: архитектура'
+        - name: 'трассировка сети в Windows 7: архитектура'
           href: network-tracing-in-windows-7-architecture.md
-        - name: Средства для устранения неполадок с помощью трассировки сети в Windows 7
+        - name: средства для устранения неполадок с помощью трассировки сети в Windows 7
           href: tools-for-troubleshooting-network-tracing-in-windows-7.md
           items:
             - name: Использование команды Netsh для управления трассировками
               href: using-netsh-to-manage-traces.md
             - name: Использование сетевого монитора для просмотра файлов ETL
               href: using-network-monitor-to-view-etl-files.md
-        - name: 'Трассировка сети в Windows 7: сценарии'
+        - name: 'трассировка сети в Windows 7: сценарии'
           href: network-tracing-in-windows-7-scenarios.md
           items:
             - name: Устранение неполадок подключения к Интернету

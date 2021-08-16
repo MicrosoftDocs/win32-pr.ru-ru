@@ -3,18 +3,18 @@ title: Ответ читателя на функции ASF
 description: Ответ читателя на функции ASF
 ms.assetid: 0cf800ca-63e8-47e2-a2fc-7ba6789fb4bb
 keywords:
-- Windows Media Format SDK, средства чтения, отклики на функции ASF
+- Windows Пакет SDK для формата мультимедиа, ответы читателя на функции ASF
 - Расширенный системный формат (ASF), ответы читателей на функции
 - ASF (Расширенный системный формат), ответы читателей на функции
 - ответы читателя на функции ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 291752d2d011fbc8b0a3e5211c5d8926f94b1cbd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8b8b8b64649388af6186155009f2a47b0f2b2c96cc42645e64dbb04f3054d7c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105700555"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119084501"
 ---
 # <a name="reader-response-to-asf-features"></a>Ответ читателя на функции ASF
 
@@ -26,7 +26,7 @@ ms.locfileid: "105700555"
 
 Определение приоритетов потоков задается с помощью массива записей. Записи в массиве находятся в порядке убывания приоритета. Последний поток в массиве является первым, который будет удален модулем чтения.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -39,9 +39,9 @@ ms.locfileid: "105700555"
 [**Определение приоритетов потоков**](stream-prioritization.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

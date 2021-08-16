@@ -4,12 +4,12 @@ ms.assetid: b7102e39-b3c7-42fb-a89b-f05f3ee75df7
 title: Образец фильтра Вавдест
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a13a5b1ef3cf6189042db152a2c47d578d63147
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 845c2cea35fbe3c43a556cb7e047488597ce6192c3b577c55c5490f8db95c037
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683067"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903244"
 ---
 # <a name="wavdest-filter-sample"></a>Образец фильтра Вавдест
 
@@ -19,15 +19,15 @@ ms.locfileid: "105683067"
 
 ## <a name="downloading-the-sample"></a>Загрузка образца
 
-Чтобы скачать примеры пакета SDK для DirectShow, установите последнюю версию [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
+чтобы скачать примеры пакета SDK для DirectShow, установите последнюю версию [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
 
-Этот пример устанавливается по следующему пути: *\[ \] корневые примеры SDK* \\ \\ мультимедиа \\ DirectShow \\ фильтры \\ вавдест.
+этот пример устанавливается по следующему пути: *\[ \] корневые примеры SDK* \\ \\ мультимедиа \\ DirectShow \\ фильтры \\ вавдест.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Примеры DirectShow](directshow-samples.md)
+[DirectShow Регистрируют](directshow-samples.md)
 </dt> </dl>
 
  

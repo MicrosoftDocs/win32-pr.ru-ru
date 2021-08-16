@@ -4,12 +4,12 @@ ms.assetid: 22ffdb77-9266-42e5-be41-fc7457141bba
 title: Свойство MFPKEY_DELTAMVRANGEINDEX (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c72d923659e64c9a0dcab40811e31d7752924700
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b7a21ac1a0bdaf859c93bca800d72f5e9ed155919bb07a24f5287b2436e57f94
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104544927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113344"
 ---
 # <a name="mfpkey_deltamvrangeindex-property"></a>МФПКЭЙ \_ делтамвранжеиндекс, свойство
 
@@ -27,7 +27,7 @@ VT \_ I4
 
 0
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если это свойство задано, кодировщик увеличивает диапазон разностных векторов движения в полях. Сведения о векторе движения допустимы только для полей с чередованием.
 
@@ -52,8 +52,8 @@ VT \_ I4
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 

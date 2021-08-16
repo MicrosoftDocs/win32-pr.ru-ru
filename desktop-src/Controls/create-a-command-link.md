@@ -4,27 +4,27 @@ description: В этом разделе описывается один из с�
 ms.assetid: F342075B-2D3B-40E0-B657-E1C57EDC2E3A
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8024a7f060a7bae3779b9ec9ebec40bd81c74bb
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 9c61888921f06e017ec1ea625730c3cc52de5ab364db22fc01fd021ce5629c63
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104488393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920904"
 ---
 # <a name="how-to-create-a-command-link"></a>Создание ссылки на команду
 
 В этом разделе описывается один из способов создания ссылки на команду.
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
@@ -62,7 +62,7 @@ SendMessage(hwndCommandLink, BCM_SETNOTE, 0, (LPARAM)L"with note");
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -78,6 +78,6 @@ SendMessage(hwndCommandLink, BCM_SETNOTE, 0, (LPARAM)L"with note");
 [Кнопка](buttons.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

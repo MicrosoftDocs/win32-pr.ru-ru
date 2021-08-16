@@ -3,7 +3,7 @@ title: Команда "отменить"
 description: Команда Undo отменяет действие, выполняемое последней успешной командой копирования, вырезания, удаления, отмены или вставки. Устройство Digital-Video распознает эту команду.
 ms.assetid: 81d696a9-5288-4efd-bc76-8416dd63e694
 keywords:
-- Команда "отменить" Windows мультимедиа
+- команда "отменить" Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dfc0814dff2c684095299b6820b8dc9a2464aa26
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ec088f893b221a80cb3fe84c191a52874a8c29f5163ad3bcdaa8e68a9a4d4d2e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119804734"
 ---
 # <a name="undo-command"></a>Команда "отменить"
 
@@ -86,7 +86,7 @@ _stprintf_s(
 [delete](delete.md)
 </dt> <dt>
 
-[авить](paste.md)
+[вставка](paste.md)
 </dt> </dl>
 
  

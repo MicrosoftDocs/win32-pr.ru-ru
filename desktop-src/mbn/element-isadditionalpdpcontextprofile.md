@@ -53,7 +53,7 @@ ms.locfileid: "118745127"
 
 Этот внешний элемент (Document) не может содержаться в каких-либо других элементах.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 <table>
 <colgroup>

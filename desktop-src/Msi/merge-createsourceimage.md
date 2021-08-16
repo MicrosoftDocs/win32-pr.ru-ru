@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: e8d9365a69ff6f33c2989e9102bac7c9c22166aa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3e50fca7adaeced7f6f2130aeb86cf1ee74db18ae505575c8ce37b1bb85a4010
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926644"
 ---
 # <a name="mergecreatesourceimage-method"></a>Метод Merge. Креатесаурцеимаже
 
@@ -67,7 +67,7 @@ Merge.CreateSourceImage(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Все файлы в целевом каталоге с тем же именем перезаписываются. Если путь еще не существует, он создается.
 

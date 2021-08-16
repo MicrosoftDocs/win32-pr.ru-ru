@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: d7f145dc45f053e208f7890c8afdac6422ecde13
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6fb5850c17aab9b16a304e29075be925aa1e7d1086570021f201f48561c92788
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108097512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119893684"
 ---
 # <a name="id3dxbaseeffectsetmatrixtransposearray-method"></a>Метод ID3DXBaseEffect:: Сетматрикстранспосеаррай
 
@@ -87,12 +87,12 @@ HRESULT SetMatrixTransposeArray(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>     |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

@@ -4,16 +4,16 @@ ms.assetid: f51ff969-c13c-4584-9795-1e4748eeb91d
 title: WordInfo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e439c408c84a126a5e26babb07700a91e9590b10
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5c1e3f6dce116e41550c12327d0c7c3d82ee4d6a41cb409c4b2791246df81dd7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120079664"
 ---
 # <a name="wordinfo"></a>WordInfo
 
-\[Этот класс устарел и не поддерживается в Windows Vista.\]
+\[этот класс устарел и не поддерживается в Windows Vista.\]
 
 Разбивает японский текст на слова или словарные формы.
 
@@ -37,7 +37,7 @@ Msir3jp.dll
 
 [**ивординфо**](iwordinfo.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Словарная форма слова — это корневая или базовая форма слова с удаленными концами.
 
