@@ -7,11 +7,11 @@
         - name: Поддерживаемые операционные системы
           href: supported-operating-systems.md
           items:
-            - name: Поддержка в Windows 7 и Windows Vista
+            - name: поддержка в Windows 7 и Windows Vista
               href: support-in-windows-vista.md
-            - name: Поддержка в Windows XP
+            - name: поддержка в Windows XP
               href: support-in-windows-xp.md
-    - name: Требования к приложениям DRM-Enabled Windows Media
+    - name: требования для Windows мультимедиа DRM-Enabled приложений
       href: requirements-for-windows-media-drm-enabled-applications.md
     - name: Примеры
       href: sample.md
@@ -29,7 +29,7 @@
           href: wpd-and-earlier-technologies.md
         - name: Общие сведения об архитектуре
           href: architecture-overview.md
-        - name: Управление доступом
+        - name: Контроль доступа
           href: access-control.md
         - name: Концептуальная модель
           href: the-conceptual-model.md
@@ -42,7 +42,7 @@
           items:
             - name: Объект устройства
               href: device-object.md
-        - name: Пропертикэйс и GUID в портативных устройствах Windows
+        - name: пропертикэйс и guid в Windows портативных устройствах
           href: propertykeys-and-guids-in-windows-portable-devices.md
     - name: Руководство по программированию
       href: programming-guide.md
@@ -204,7 +204,7 @@
             - name: ипортабледевицекэйколлектион
               href: iportabledevicekeycollection.md
               items:
-                - name: Добавить
+                - name: Add
                   href: iportabledevicekeycollection-add.md
                 - name: Clear
                   href: iportabledevicekeycollection-clear.md
@@ -217,7 +217,7 @@
             - name: ипортабледевицепропвариантколлектион
               href: iportabledevicepropvariantcollection.md
               items:
-                - name: Добавить
+                - name: Add
                   href: iportabledevicepropvariantcollection-add.md
                 - name: ChangeType
                   href: iportabledevicepropvariantcollection-changetype.md
@@ -317,7 +317,7 @@
             - name: ипортабледевицевалуесколлектион
               href: iportabledevicevaluescollection.md
               items:
-                - name: Добавить
+                - name: Add
                   href: iportabledevicevaluescollection-add.md
                 - name: Clear
                   href: iportabledevicevaluescollection-clear.md
@@ -350,11 +350,11 @@
                   href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-advise
                 - name: Отменить
                   href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-cancel
-                - name: Характеристики
+                - name: Возможности
                   href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-capabilities
                 - name: Закрыть
                   href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-close
-                - name: Содержимое
+                - name: Content
                   href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-content
                 - name: жетпнпдевицеид
                   href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-getpnpdeviceid
@@ -400,7 +400,7 @@
                   href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-createobjectwithpropertiesanddata
                 - name: креатеобжектвиспропертиесонли
                   href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-createobjectwithpropertiesonly
-                - name: DELETE
+                - name: Удалить
                   href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-delete
                 - name: енумобжектс
                   href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-enumobjects
@@ -451,7 +451,7 @@
               items:
                 - name: Отменить
                   href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceproperties-cancel
-                - name: DELETE
+                - name: Удалить
                   href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceproperties-delete
                 - name: жетпропертяттрибутес
                   href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceproperties-getpropertyattributes
@@ -472,7 +472,7 @@
                   href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicepropertiesbulk-queuegetvaluesbyobjectlist
                 - name: куеуесетвалуесбйобжектлист
                   href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicepropertiesbulk-queuesetvaluesbyobjectlist
-                - name: Начало
+                - name: Начать
                   href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicepropertiesbulk-start
             - name: ипортабледевицепропертиесбулккаллбакк
               href: /windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-iportabledevicepropertiesbulkcallback
@@ -490,7 +490,7 @@
                   href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceresources-cancel
                 - name: CreateResource
                   href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceresources-createresource
-                - name: DELETE
+                - name: Удалить
                   href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceresources-delete
                 - name: жетресаурцеаттрибутес
                   href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceresources-getresourceattributes
@@ -505,11 +505,11 @@
                   href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-advise
                 - name: Отменить
                   href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-cancel
-                - name: Характеристики
+                - name: Возможности
                   href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-capabilities
                 - name: Закрыть
                   href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-close
-                - name: Содержимое
+                - name: Content
                   href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-content
                 - name: жетпнпсервицеид
                   href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-getpnpserviceid
@@ -608,7 +608,7 @@
               items:
                 - name: Отменить
                   href: /windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-cancel
-                - name: Подключение
+                - name: Подключить
                   href: /windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-connect
                 - name: Отключение
                   href: /windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-disconnect

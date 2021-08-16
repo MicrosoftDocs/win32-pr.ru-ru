@@ -15,7 +15,7 @@ ms.locfileid: "118380117"
 
 Установщик задает для свойства **коммонфилесфолдер** полный путь к папке Common Files для текущего пользователя.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

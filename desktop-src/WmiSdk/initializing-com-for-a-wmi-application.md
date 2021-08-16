@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Инициализация COM для приложения WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa6c2e590ddb64914f5aab723a56dee2385a49bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 723188602e440cd3ba49d78d8efb3c28ddae30f35dd0d4361a4fdb5ced026ad3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118318578"
 ---
 # <a name="initializing-com-for-a-wmi-application"></a>Инициализация COM для приложения WMI
 
@@ -84,7 +84,7 @@ using namespace std;
 
 После инициализации COM необходимо создать соединение с пространством имен WMI. Дополнительные сведения см. в разделе [Создание подключения к пространству имен WMI](creating-a-connection-to-a-wmi-namespace.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

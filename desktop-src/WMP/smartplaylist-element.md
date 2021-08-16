@@ -3,7 +3,7 @@ title: Смартплайлист, элемент
 description: Элемент Смартплайлист содержит динамически определенную часть списка воспроизведения.
 ms.assetid: 05912849-7475-4eb9-a7bd-00f20b80b1cf
 keywords:
-- Проигрыватель Windows Media, элемент Смартплайлист
+- проигрыватель Windows Media элемента смартплайлист
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 511294af2de4343cb7f63db4312d530aadf57da6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a21d685759e9e8b27c881ceaec6595535b3c4b799eb28ecd94dd96a3a571ec99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708476"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763474"
 ---
 # <a name="smartplaylist-element"></a>Смартплайлист, элемент
 
@@ -56,7 +56,7 @@ ms.locfileid: "105708476"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент **смартплайлист** обычно содержит элемент с набором **запроса** , который также может содержать элемент **Filter** .
 
@@ -93,7 +93,7 @@ ms.locfileid: "105708476"
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии.<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии.<br/> |
 
 
 
@@ -116,7 +116,7 @@ ms.locfileid: "105708476"
 [**Seq, элемент**](seq-element.md)
 </dt> <dt>
 
-[**Справочник по элементам списка воспроизведения Windows Media**](windows-media-playlist-elements-reference.md)
+[**Windows Справочник по элементам списка воспроизведения мультимедиа**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
  

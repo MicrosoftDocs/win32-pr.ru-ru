@@ -8,12 +8,12 @@ keywords:
 - ADSI, поиск, IDirectorySearch, другие параметры поиска, разбиение на страницы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6e9fdf001f5908f6c3fc7321c8c94cda09f1b96
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 48494c01831e6b69931fc6b6f779ed9b042b7fecaaf17fa62286c094a926ba73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117838944"
 ---
 # <a name="paging-with-idirectorysearch"></a>Подкачка с помощью IDirectorySearch
 
@@ -28,7 +28,7 @@ ms.locfileid: "103986096"
 
 
 
- 
+ 
 
 Если ни одно из этих параметров поиска не задано, по умолчанию используется значение без подкачки. Поиск Active Directory, выполненных без разбиения по страницам, ограничивается возвратом максимального числа первых 1000 записей, поэтому необходимо использовать страничный поиск, если существует вероятность того, что результирующий набор будет содержать более 1000 элементов.
 
@@ -72,9 +72,9 @@ SearchPref.vValue.Integer = 60;
 
 
 
- 
+ 
 
- 
+ 
 
 
 

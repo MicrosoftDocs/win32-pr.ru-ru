@@ -4,20 +4,20 @@ ms.assetid: 9301628a-3d56-4d0a-aab5-88663742daa1
 title: ProgramFiles64Folder, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bdb8b85e0a433a3a4b51cfe23ef2de1f75dba09c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2f3910c9a498a918580a43b4981740263bb1ab2f8d080f5dbae7a829833723fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118376449"
 ---
 # <a name="programfiles64folder-property"></a>ProgramFiles64Folder, свойство
 
 Установщик задает для свойства **ProgramFiles64Folder** полный путь к предопределенной папке 64-разрядных файлов программы. Для существующего свойства [**ProgramFilesFolder**](programfilesfolder.md) задается соответствующая 32-разрядная папка.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Установщик задает это свойство. Например, в 64-разрядной системе Windows значением может быть «C: \\ Program Files». Это свойство не используется в 32-разрядной версии Windows.
+Установщик задает это свойство. например, в 64-разрядном Windows значение может быть C: \\ Program files. Это свойство не используется в 32-разрядном Windows.
 
 ## <a name="requirements"></a>Требования
 
@@ -25,7 +25,7 @@ ms.locfileid: "105675925"
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

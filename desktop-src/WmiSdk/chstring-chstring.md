@@ -6,12 +6,12 @@ ms.tgt_platform: multiple
 title: 'Конструкторы Чстринг:: Чстринг (Чстринг. h)'
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 711d2f28680a9f273ff808876e30e92f66336b89
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 80ce10988fc335c5a16eff8507346dbcdffd6fa70f75d74fb48d3f84b0e2332b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104264799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118320052"
 ---
 # <a name="chstringchstring-constructors"></a>Конструкторы Чстринг:: Чстринг
 
@@ -42,7 +42,7 @@ ms.locfileid: "104264799"
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                                                                                      |
-| Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                                                                                                |
+| Минимальная версия сервера<br/> | Windows Сервер 2008<br/>                                                                                                                                |
 | Header<br/>                   | <dl> <dt>Чстринг. h (включение Фвкоммон. h)</dt> </dl>                                                    |
 | Библиотека<br/>                  | <dl> <dt>Фрамедин. lib</dt> </dl>                                                                       |
 | DLL<br/>                      | <dl> <dt>FrameDynOS.dll; </dt> <dt>FrameDyn.dll</dt> </dl> |

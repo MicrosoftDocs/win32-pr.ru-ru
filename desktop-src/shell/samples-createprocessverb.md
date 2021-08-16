@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 8e52f251e12f0ca06bcb729407a7c8303836f9fc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c0af34d5ec9f687ec6c58bb73f337b38d512527c0ace4bd20eae12d49c87a62d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104985825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117858344"
 ---
 # <a name="createprocess-verb-sample"></a>Пример: команда CreateProcess
 
@@ -58,16 +58,16 @@ ms.locfileid: "104985825"
 1.  Откройте окно командной строки и перейдите в каталог проекта **креатепроцессверб** .
 2.  Введите `msbuild CreateProcessVerb.sln`.
 
-Чтобы создать пример с использованием Microsoft Visual Studio (предпочтительно):
+чтобы создать пример с использованием Microsoft Visual Studio (предпочтительно):
 
-1.  Откройте проводник Windows и перейдите в каталог проекта **креатепроцессверб** .
+1.  откройте обозреватель Windows и перейдите в каталог проекта **креатепроцессверб** .
 2.  Дважды щелкните значок файла Креатепроцессверб. sln, чтобы открыть проект в Visual Studio.
-3.  В меню **Сборка** выберите пункт **построить решение**.
+3.  В меню **Построение** выберите пункт **Построить решение**.
 
 ## <a name="running-the-sample"></a>Запуск примера
 
-1.  Перейдите в каталог, содержащий новый исполняемый файл, с помощью командной строки или проводника Windows.
-2.  В командной строке введите `CreateProcessVerb.exe` . Кроме того, в проводнике Windows дважды щелкните значок CreateProcessVerb.exe.
+1.  перейдите в каталог, содержащий новый исполняемый файл, используя командную строку или обозреватель Windows.
+2.  В командной строке введите `CreateProcessVerb.exe` . кроме того, в обозревателе Windows дважды щелкните значок CreateProcessVerb.exe.
 3.  Следуйте инструкциям в отображаемом диалоговом окне.
 
  

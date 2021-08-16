@@ -4,29 +4,29 @@ ms.assetid: 9e288a0e-3978-4fd6-b3a7-b36c1bb2b18b
 title: Набор средств для обеспечения совместимости приложений
 ms.topic: article
 ms.date: 06/12/2020
-ms.openlocfilehash: 4dd332ed30ef85a427d3301b2ffe6ba0e7acc1a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: db71cbd18baefcc1218dc5aeba5869a1e509639e528bc67773304f6395609141
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999563"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118330097"
 ---
 # <a name="application-compatibility-toolkit-act"></a>Набор средств для обеспечения совместимости приложений
 
 > [!IMPORTANT]
-> Версии набора средств для обеспечения совместимости приложений, описанные в этой статье, больше не поддерживаются. Последняя поддерживаемая версия включена в [комплект средств для развертывания и оценки Windows 10](/archive/blogs/yongrhee/download-windows-10-assessment-and-deployment-kit-adk)
+> версии набор средств совместимости приложений, описанные в этой статье, больше не поддерживаются. последняя поддерживаемая версия включена в [комплект средств для развертывания и оценки Windows 10](/archive/blogs/yongrhee/download-windows-10-assessment-and-deployment-kit-adk)
 
 ## <a name="affected-platforms"></a>Затронутые платформы
 
-**Клиенты:** Windows XP Windows Vista, Windows \| \| 7  
+**клиенты:** Windows XP \| Windows Vista \| Windows 7  
 
 
-**Серверы:** Windows Server 2003 Windows \| server 2008 Windows server \| 2008 R2  
+**серверы:** Windows server 2003 \| Windows server 2008 \| Windows server 2008 R2  
 
 
 ## <a name="description"></a>Описание
 
-Набор средств для обеспечения совместимости приложений Майкрософт (ACT) — это средство управления жизненным циклом, которое помогает идентифицировать общий портфель приложений и управлять им, уменьшая затраты и время, связанные с устранением проблем совместимости приложений, и помогает быстро развертывать обновления Windows и Windows.
+набор средств совместимости приложений майкрософт (акт) — это средство управления жизненным циклом, которое помогает идентифицировать общий портфель приложений и управлять им, уменьшая затраты и время, связанные с устранением проблем совместимости приложений, и помогает быстро развертывать Windows и Windows обновления.
 
 **Использование**
 
@@ -39,13 +39,13 @@ ms.locfileid: "103999563"
 -   Определение приоритета действий по совместимости приложений с помощью фильтрованных отчетов
 -   Добавление проблем и решений для корпоративной вычислительной среды и управление ими
 -   Развертывание автоматизированных способов устранения проблем с известными проблемами совместимости
--   Отправка и получение сведений о совместимости от Microsoft Compatibility Exchange
+-   Отправка и получение сведений о совместимости от Exchange совместимости Майкрософт
 
 ## <a name="links-to-other-resources"></a>Ссылки на другие ресурсы
 
--   [Загрузка набора средств для обеспечения совместимости приложений](/archive/blogs/yongrhee/download-windows-10-assessment-and-deployment-kit-adk)
--   [Введение в набор средств для обеспечения совместимости приложений](/previous-versions/windows/it-pro/windows-7/cc722367(v=ws.10))
--   [Технический справочник по набору средств для обеспечения совместимости приложений](/previous-versions/windows/it-pro/windows-7/cc749328(v=ws.10))
+-   [загрузка набор средств совместимости приложений](/archive/blogs/yongrhee/download-windows-10-assessment-and-deployment-kit-adk)
+-   [общие сведения о совместимости приложений набор средств](/previous-versions/windows/it-pro/windows-7/cc722367(v=ws.10))
+-   [технический справочник по совместимости приложений набор средств](/previous-versions/windows/it-pro/windows-7/cc749328(v=ws.10))
 -   [Упражнения пошагового руководства по АКТУ](/previous-versions/windows/it-pro/windows-7/cc766493(v=ws.10))
 
  

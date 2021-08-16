@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 21d1208979cca167b059cb720c492ac51c362c39
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9350aa7aaa4e2bfdcb72385d26b09b9d7a9bdf33deb05e273b0663485da1a5bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117823245"
 ---
 # <a name="cbasepropertypageapply-method"></a>Кбасепропертипаже. Apply, метод
 
@@ -55,7 +55,7 @@ HRESULT Apply();
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если флаг [**\_ бдирти кбасепропертипаже:: m**](cbasepropertypage-m-bdirty.md) имеет **значение true**, этот метод вызывает метод [**кбасепропертипаже:: онаппличанжес**](cbasepropertypage-onapplychanges.md) . Переопределите **онаппличанжес** , чтобы применить изменения к объекту.
 
@@ -65,7 +65,7 @@ HRESULT Apply();
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Кпроп. h (включение Streams. h)</dt> </dl>                                                                                     |
+| Заголовок<br/>  | <dl> <dt>кпроп. h (включает Потоки. h)</dt> </dl>                                                                                     |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

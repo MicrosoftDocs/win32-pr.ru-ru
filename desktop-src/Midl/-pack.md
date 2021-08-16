@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c807846148d81e0e59620046d9f24380fe647c11
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: ad9282cd5ab56d2e037ba585676a83c5cd558ecb26354ab191899ad341506f5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104069120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117991946"
 ---
 # <a name="pack-switch"></a>/Pack, параметр
 
@@ -38,7 +38,7 @@ midl /pack packing_level
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Параметр **/Pack** обозначает уровень упаковки для структур в целевой системе. Значение уровня упаковки соответствует значению параметра [**/Zp**](-zp.md) , используемому компилятором Microsoft C/C++ версии 7,0. Дополнительные сведения см. в документации по программированию для Microsoft C/C++.
 
@@ -65,9 +65,9 @@ midl /pack packing_level
 [**/ZP**](-zp.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

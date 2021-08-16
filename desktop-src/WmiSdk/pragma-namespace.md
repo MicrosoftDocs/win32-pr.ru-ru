@@ -13,12 +13,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: b5f5e164632fef5a41e7233caf4fd154d1dafe16
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d3eea58c8e32ab8b1b851205b365b837194d0472a1c39017e2eb69dc3fe70a98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103811416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118316830"
 ---
 # <a name="pragma-namespace"></a>пространство имен pragma
 
@@ -37,7 +37,7 @@ ms.locfileid: "103811416"
 
 Если вы не укажете эту команду или эквивалентный параметр командной строки, компилятор MOF по умолчанию использует корневое \\ пространство имен по умолчанию.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Можно потребовать, чтобы клиентские скрипты и приложения использовали зашифрованное соединение для проверки подлинности, добавив квалификатор **рекуиресенкриптион** в MOF-файл, который создает пространство имен. Можно также изменить существующее пространство имен, добавив этот атрибут и снова скомпилировать MOF-файл. Дополнительные сведения об использовании **рекуиресенкриптион** см. в разделе [запрос зашифрованного соединения с пространством имен](requiring-an-encrypted-connection-to-a-namespace.md).
 

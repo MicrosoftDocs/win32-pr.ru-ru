@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 1e6836cd58970f3667d8f629a678d55bec5185a8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d7273b39c5cdccea7e46a077c925247846cd9ca255fc1dba20a95aeb159b773
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701951"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118313553"
 ---
 # <a name="swbemobjectpath-object"></a>Объект Свбемобжектпас
 
@@ -57,7 +57,7 @@ ms.locfileid: "105701951"
 | Свойство                                                              | Тип доступа           | Описание                                                                                                                                                                          |
 |:----------------------------------------------------------------------|:----------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Authority**](swbemobjectpath-authority.md)<br/>             | Чтение/запись<br/> | Строка, определяющая компонент центра пути к объекту.<br/>                                                                                                           |
-| [**Класс**](swbemobjectpath-class.md)<br/>                     | Чтение/запись<br/> | Имя класса, который является частью пути к объекту.<br/>                                                                                                                        |
+| [**См**](swbemobjectpath-class.md)<br/>                     | Чтение/запись<br/> | Имя класса, который является частью пути к объекту.<br/>                                                                                                                        |
 | [**DisplayName**](swbemobjectpath-displayname.md)<br/>         | Чтение/запись<br/> | Строка, содержащая путь в форме, которую можно использовать в качестве отображаемого имени моникера. См. раздел [Создание приложения WMI или скрипта](creating-a-wmi-application-or-script.md).<br/> |
 | [**Класс класса**](swbemobjectpath-isclass.md)<br/>                 | Только для чтения<br/>  | Логическое значение, указывающее, представляет ли этот путь класс. Это аналогично свойству [ \_ \_ женус](wmi-system-properties.md) в COM API.<br/>                    |
 | [**Singleton**](swbemobjectpath-issingleton.md)<br/>         | Только для чтения<br/>  | Логическое значение, указывающее, представляет ли этот путь одноэлементный экземпляр.<br/>                                                                                                |
@@ -68,7 +68,7 @@ ms.locfileid: "105701951"
 | [**Путь**](swbemobjectpath-path.md)<br/>                       | Чтение/запись<br/> | Содержит абсолютный путь. Это то же самое, что и системное свойство [ \_ \_ path](wmi-system-properties.md) в COM API. Это свойство данного объекта по умолчанию.<br/>    |
 | [**релпас**](swbemobjectpath-relpath.md)<br/>                 | Чтение/запись<br/> | Содержит относительный путь. Это то же самое, что и системное свойство [ \_ \_ релпас](wmi-system-properties.md) в COM API.<br/>                                              |
 | [**Безопасность\_**](swbemobjectpath-security-.md)<br/>            | Только для чтения<br/>  | Используется для чтения или изменения параметров безопасности.<br/>                                                                                                                             |
-| [**Сервером**](swbemobjectpath-server.md)<br/>                   | Чтение/запись<br/> | Имя сервера. Это то же самое, что и свойство System [ \_ \_ Server](wmi-system-properties.md) в интерфейсе API COM.<br/>                                                       |
+| [**Сервер**](swbemobjectpath-server.md)<br/>                   | Чтение/запись<br/> | Имя сервера. Это то же самое, что и свойство System [ \_ \_ Server](wmi-system-properties.md) в интерфейсе API COM.<br/>                                                       |
 
 
 

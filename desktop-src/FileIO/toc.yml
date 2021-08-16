@@ -500,7 +500,7 @@
             - name: Файлы и кластеры
               href: files-and-clusters.md
               items:
-                - name: Файловые потоки
+                - name: Потоки файлов
                   href: file-streams.md
                 - name: Объекты файлов
                   href: file-objects.md
@@ -619,7 +619,7 @@
                           href: microsoft-smb-protocol-dialects.md
                         - name: Проверка подлинности протокола SMB (Майкрософт)
                           href: microsoft-smb-protocol-authentication.md
-                        - name: Сценарий обмена пакетами протокола SMB (Майкрософт)
+                        - name: сценарий Exchange пакетов протокола SMB Microsoft
                           href: microsoft-smb-protocol-packet-exchange-scenario.md
                     - name: Оппортунистической блокировки
                       href: opportunistic-locks.md
@@ -675,7 +675,7 @@
               href: retrieving-and-changing-file-attributes.md
             - name: Проверка на конец файла
               href: testing-for-the-end-of-a-file.md
-            - name: Использование потоков
+            - name: использование Потоки
               href: using-streams.md
         - name: Справочник по управлению файлами
           href: file-management-reference.md

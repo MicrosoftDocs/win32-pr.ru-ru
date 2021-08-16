@@ -4,16 +4,16 @@ description: Удалить метод
 ms.assetid: b50d47b2-a425-4545-8d85-efeae460d2b1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52f7fc80954a1ffe218ba38405a551e5f000dc76
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 3337fb25db49f1d6c8ccd6d94f2817340db226e14718cfa7943940fbfb069b07
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104337476"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117882785"
 ---
 # <a name="remove-method"></a>Удалить метод
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 <dl> <dt>
 
@@ -27,29 +27,29 @@ ms.locfileid: "104337476"
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Syntax**
 </dt> <dd>
 
-*Агент ***. Символы ("*** чарактерид ***"). Команды. удалить*** имя*
+*Агент ***. Символы ("**_чарактерид_*_"). Команды. удалить_ * _имя_
 
 
 
-| Отделение   | Описание                                                       |
+| Часть   | Описание                                                       |
 |--------|-------------------------------------------------------------------|
 | *Name* | Обязательный. Строковое значение, соответствующее ИДЕНТИФИКАТОРу команды. |
 
 
 
- 
+ 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Когда объект [**Command**](/windows/desktop/lwef/the-command-object) удаляется из коллекции, он больше не отображается при отображении всплывающего меню символа или в окне команды, если клиентское приложение является входным.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [**RemoveAll, метод**](removeall-method.md)
 
 
- 
+ 
 
- 
+ 

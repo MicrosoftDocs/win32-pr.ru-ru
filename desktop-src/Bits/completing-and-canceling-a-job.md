@@ -9,12 +9,12 @@ keywords:
 - завершение битов задания
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aeb5cd6a33cf8cefa8749a1802c922dc80518722
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 348ee7c4ad4b9a38350e6a1f25d8d05d206b299518cf25197b643dbcb15cb4a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104486652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117835059"
 ---
 # <a name="completing-and-canceling-a-job"></a>Завершение задания и его отмена
 
@@ -28,9 +28,9 @@ ms.locfileid: "104486652"
 
 Если не вызвать метод [**Complete**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-complete) или метод [**использованием метода ibackgroundcopyjob:: Cancel**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-cancel) в течение 90 дней (по умолчанию [жобинактивититимеаут](group-policies.md) групповая политика), служба отменяет задание. Если служба отменяет задание, скачанные файлы и файл ответов недоступны для клиента. Отмена заданий не влияет на успешно отправленные файлы. Следует всегда вызывать метод **Complete** или **Cancel** и не полагаться на политику жобинактивититимеаут для очистки заданий. Задания, оставшиеся в очереди, могут помешать пользователям создавать другие задания при достижении предела политики Maxjobspermachine или MaxJobsPerMachine.
 
- 
+ 
 
- 
+ 
 
 
 

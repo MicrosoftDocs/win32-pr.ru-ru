@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Типы статистических счетчиков
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb97224b06881cbc3c8b1375c04a4df5be1095f4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1289bae423305bac863afefaba8e5700268d98e594fe767d597c8470aa4f1ac0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118314823"
 ---
 # <a name="statistical-counter-types"></a>Типы статистических счетчиков
 
@@ -34,7 +34,7 @@ ms.locfileid: "104081115"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

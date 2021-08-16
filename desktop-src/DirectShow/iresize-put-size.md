@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 579cee086798e64abd07b25cc4f7bb14405157dd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d2da95cca7bf19182dd4c0f5f385715256ae9c5253c356094110c028fb1b016d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675345"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117818134"
 ---
 # <a name="iresizeput_size-method"></a>Иресизе: метод:p UT \_ size
 
@@ -72,7 +72,7 @@ HRESULT put_Size(
 
 Возвращает значение **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 DES может вызывать этот метод до или после вызова метода **размещения \_ mediaType**. Если DES вызывает этот метод перед вызовом метода OUTPUT **\_ mediaType**, фильтр должен выбрать значение по умолчанию для битовой глубины и использовать значения размера для создания выходного типа носителя. Если DES вызывает этот метод после вызова метода OUTPUT **\_ mediaType**, фильтр должен изменить его текущий тип вывода на новые размеры.
 
@@ -86,7 +86,7 @@ DES может также вызывать этот метод после под
  
 
 > [!Note]  
-> Чтобы получить Кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (SP1).
+> чтобы получить кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (sp1).
 
  
 

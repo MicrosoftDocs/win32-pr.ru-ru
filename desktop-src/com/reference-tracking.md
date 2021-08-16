@@ -4,12 +4,12 @@ description: Отслеживание ссылок
 ms.assetid: 1e2cf555-3b96-42d5-a0bb-abb720c93520
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f45607a495e973ec33acde6d97cb1f83259a27c
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 1321c922cc0a7493e3e4792f7c0f925618330c2e42665296fb06792635a4ea70
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104488317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118309767"
 ---
 # <a name="reference-tracking"></a>Отслеживание ссылок
 
@@ -21,6 +21,6 @@ ms.locfileid: "104488317"
 
 Если включено отслеживание ссылок, [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown) всегда использует параметры безопасности по умолчанию. В этом случае вызовы метода [**CoSetProxyBlanket**](/windows/desktop/api/combaseapi/nf-combaseapi-cosetproxyblanket) на **IUnknown** завершатся ошибкой.
 
- 
+ 
 
- 
+ 

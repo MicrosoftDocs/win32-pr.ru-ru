@@ -8,12 +8,12 @@ req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 api_location:
 - mstcpip.h
-ms.openlocfilehash: a2d251fa4fee996adaec51599e7b1d140a296b89
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c0f690555beb19f7d5d79a81e2cc900194f731c3acacb075ae12dc304debffd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117740386"
 ---
 # <a name="sio_query_rss_processor_info-control-code"></a>Код элемента управления SIO_QUERY_RSS_PROCESSOR_INFO
 
@@ -149,9 +149,9 @@ int WSPIoctl(
 | **всаенотсокк** | Дескриптор *s* не является сокетом. |
 | **всаеопнотсупп** | Указанная команда IOCTL не поддерживается. Эта ошибка возвращается в том случае, если поставщик транспорта не поддерживает **\_ запрос на \_ \_ \_ сведения о процессоре SIO** в формате RSS. |
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-**\_ \_ \_ \_ Сведения о обработчике запросов SIO** в формате RSS поддерживаются в Windows 8, Windows Server 2012 и более поздних версиях операционной системы.
+в Windows 8 и Windows Server 2012 и более поздних версиях операционной системы поддерживается **\_ запрос на \_ \_ \_ сведения о процессоре SIO** .
 
 **\_ \_ \_ \_ Сведения о обработчике запросов SIO** в формате RSS используются для определения связи между сокетом и ядром процессора RSS и узлом NUMA.
 Этот запрос IOCTL возвращает [**структуру \_ \_ соответствия процессоров сокетов**](/windows/desktop/api/Ws2def/ns-ws2def-socket_processor_affinity) , которая содержит [**\_ номер процессора**](/windows/desktop/api/winnt/ns-winnt-processor_number) и идентификатор узла NUMA.

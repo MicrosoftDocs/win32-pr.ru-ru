@@ -6,12 +6,12 @@ keywords:
 - воздействие светимости на альфа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fb4c6fb78a1d49498b2adab6716d41e93d30deb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 803070fea76b47c1334803a4e7f8fef510cc77c8b3bc05c8477b572cb0451670
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104556321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117825265"
 ---
 # <a name="luminance-to-alpha-effect"></a>Воздействие светимости на альфа
 
@@ -83,8 +83,8 @@ m_d2dContext->EndDraw();
 
 | Требование | Значение |
 |--------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента | Windows 8 и обновление платформы для \[ классических приложений Windows 7 \| приложения для Магазина Windows\] |
-| Минимальная версия сервера | Windows 8 и обновление платформы для \[ классических приложений Windows 7 \| приложения для Магазина Windows\] |
+| Минимальная версия клиента | Windows 8 и обновление платформы для Windows 7 \[ классических приложений \| Windows приложения магазина\] |
+| Минимальная версия сервера | Windows 8 и обновление платформы для Windows 7 \[ классических приложений \| Windows приложения магазина\] |
 | Header                   | d2d1effects. h                                                                      |
 | Библиотека                  | D2D1. lib, дксгуид. lib                                                               |
 
@@ -96,7 +96,7 @@ m_d2dContext->EndDraw();
 
 Выходные данные имеют тот же размер, что и входной образ.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

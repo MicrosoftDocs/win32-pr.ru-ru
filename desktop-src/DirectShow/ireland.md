@@ -4,12 +4,12 @@ ms.assetid: be60ca37-9f3a-44cd-8646-28fcbda5e79e
 title: Ирландия
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b004a811a59a6e2556cdd4187728e5842bea1a46
-ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
+ms.openlocfilehash: 40b8335c2ac38555996d76713b70ce369710724e7e5b7fd827a0769abf0ddedb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112068160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117818603"
 ---
 # <a name="ireland"></a>Ирландия
 
@@ -17,7 +17,7 @@ ms.locfileid: "112068160"
 
 Индексы частоты в таблицах Ирландии не подходят для использования в качестве номеров каналов.
 
--   [Windows 7 и более поздние версии](#windows-7-and-later)
+-   [Windows 7 и более поздних версий](#windows-7-and-later)
     -   [Широковещательные назначения Ирландии](#ireland-broadcast-assignments)
     -   [Назначения кабелей Ирландии](#ireland-cable-assignments)
 -   [Предыдущие назначения каналов](#earlier-channel-assignments)
@@ -25,7 +25,7 @@ ms.locfileid: "112068160"
     -   [Назначения кабелей Ирландии](#ireland-cable-assignments)
 -   [Связанные темы](#related-topics)
 
-## <a name="windows-7-and-later"></a>Windows 7 и более поздние версии
+## <a name="windows-7-and-later"></a>Windows 7 и более поздних версий
 
 ### <a name="ireland-broadcast-assignments"></a>Широковещательные назначения Ирландии
 

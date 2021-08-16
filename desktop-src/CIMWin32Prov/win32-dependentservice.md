@@ -154,7 +154,7 @@ class Win32_DependentService : CIM_ServiceServiceDependency
 
 Класс **Win32 \_ депендентсервице** является производным от [**CIM \_ сервицесервицедепенденци**](cim-serviceservicedependency.md).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

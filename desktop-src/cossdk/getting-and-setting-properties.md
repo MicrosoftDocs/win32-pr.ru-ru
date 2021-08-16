@@ -4,12 +4,12 @@ ms.assetid: 259612e7-70df-4f0f-90bc-766008dfdce7
 title: Получение и задание свойств (службы компонентов)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d151b08293cd32a35cd27bdba4dd3a37cdebfa4f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 805d98463e1f9b8f08c1018b49554c95e2735bfa7ea6dca21d90243eb324df49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104496338"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118306759"
 ---
 # <a name="getting-and-setting-properties-component-services"></a>Получение и задание свойств (службы компонентов)
 
@@ -34,7 +34,7 @@ ms.locfileid: "104496338"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -53,7 +53,7 @@ ms.locfileid: "118411848"
 
 Если *wParam* имеет значение-1, отправляется код уведомления [ЛВН \_ ендлабеледит](lvn-endlabeledit.md) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

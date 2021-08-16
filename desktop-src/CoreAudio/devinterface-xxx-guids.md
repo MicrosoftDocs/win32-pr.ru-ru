@@ -61,7 +61,7 @@ ms.locfileid: "118406797"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -3,7 +3,7 @@ title: Сообщение TCM_INSERTITEM (Коммктрл. h)
 description: Вставляет новую вкладку в элемент управления "Вкладка". Это сообщение можно отправить явным образом или с помощью \_ макроса табктрл InsertItem.
 ms.assetid: e547c49a-699c-4137-8680-20391d138d54
 keywords:
-- Элементы управления Windows для TCM_INSERTITEM сообщений
+- элементы управления Windows сообщений TCM_INSERTITEM
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 58002006944a221571e37c37d25259d0aaa74fc4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a7c3c17714218562d7ddc82497a7ef27e131e30a2ff04daf36970dfbcf5cc354
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105654665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117829105"
 ---
 # <a name="tcm_insertitem-message"></a>\_Сообщение INSERTITEM TCM
 
@@ -55,8 +55,8 @@ ms.locfileid: "105654665"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **TCM \_ ИНСЕРТИТЕМВ** (Юникод) и **TCM \_ инсертитема** (ANSI)<br/>             |
 

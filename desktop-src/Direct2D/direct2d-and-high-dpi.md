@@ -7,12 +7,12 @@ keywords:
 - высокое разрешение DPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6548849416268f31b8b0c4a4261347c818ffa24c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ec5c48f9a1b3552115ebbec8a54a6878716ef34675e41193ae08fb9cb8e55bc8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117825986"
 ---
 # <a name="direct2d-and-high-dpi"></a>Direct2D и высокое разрешение
 
@@ -21,7 +21,7 @@ ms.locfileid: "103987829"
 -   [Поддержка высокого разрешения в Direct2D](#high-dpi-support-in-direct2d)
 -   [Windows 8 и высокое разрешение DPI](#windows-8-and-high-dpi)
 -   [Что такое DIP?](#what-is-a-dip)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="high-dpi-support-in-direct2d"></a>Поддержка высокого разрешения в Direct2D
 
@@ -37,7 +37,7 @@ Direct2D предоставляет следующие возможности д
 
 ## <a name="windows-8-and-high-dpi"></a>Windows 8 и высокое разрешение DPI
 
-Начиная с Windows 8, существуют дополнительные функции поддержки высокого DPI.
+начиная с Windows 8, существуют дополнительные функции для поддержки высокого DPI.
 
 Если значение DPI контекста устройства достаточно велико, Direct2D изменяет пороговое значение, которое используется для включения вертикального сглаживания текста. Это приводит к ускоренной отрисовке текста на дисплеях с высоким разрешением. Кроме того, можно переключить режим единицы измерения на Пиксели вместо DIP с помощью метода [**ID2D1DeviceContext:: сетунитмоде**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-setunitmode) . Если установить режим единицы измерения в пикселях и в контекстном задании устройства dpi на экране, то оптимизация по-прежнему будет включена.
 
@@ -57,17 +57,17 @@ Direct2D предоставляет следующие возможности д
 
 > [!Note]
 >
-> Начиная с Windows 8, можно переключить режим единицы измерения на Пиксели вместо DIP с помощью метода [**ID2D1DeviceContext:: сетунитмоде**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-setunitmode) .
+> начиная с Windows 8 можно переключить режим единицы измерения на пиксели вместо dip с помощью метода [**ID2D1DeviceContext:: сетунитмоде**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-setunitmode) .
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Как обеспечить правильное отображение приложения на дисплеях с высоким разрешением](how-to--size-a-window-properly-for-high-dpi-displays.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -3,7 +3,7 @@ title: Сообщение LVM_CREATEDRAGIMAGE (Коммктрл. h)
 description: Создает список изображений для перетаскивания для указанного элемента. Это сообщение можно отправить явно или с помощью \_ макроса Креатедрагимаже ListView.
 ms.assetid: face4c8f-01ff-4f5a-a468-e306a50dae35
 keywords:
-- Элементы управления Windows для LVM_CREATEDRAGIMAGE сообщений
+- элементы управления Windows сообщений LVM_CREATEDRAGIMAGE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ace975b178fee85e2794b518a78b40b375c65ae7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d551dfa7b14ecff8c9fd1efe015e173403c1b5981f294a18b3180a42cc03de63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118412002"
 ---
 # <a name="lvm_createdragimage-message"></a>\_Сообщение LVM креатедрагимаже
 
@@ -47,7 +47,7 @@ ms.locfileid: "104135139"
 
 Возвращает маркер в список изображений перетаскивания в случае успеха или **значение NULL** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение несет ответственность за уничтожение списка изображений, когда он больше не нужен.
 
@@ -57,8 +57,8 @@ ms.locfileid: "104135139"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

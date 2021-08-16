@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Оператор LIKE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9091f44dd131d5d2c30d2d46aa4fc109dcdf02b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c2e5df500091fac8b15bcdcb448b7a97fc00dc62807ba854757e447f07e6f4e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692828"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118317873"
 ---
 # <a name="like-operator"></a>Оператор LIKE
 
@@ -23,7 +23,7 @@ ms.locfileid: "105692828"
 | \[ \]           | Любой символ в указанном диапазоне ( \[ a-f \] ) или наборе ( \[ abcdef \] ).                                                                                                                 |
 | ^               | Любой символ, не находящиеся в диапазоне ( \[ ^ a-f \] ) или наборе ( \[ ^ abcdef \] .)                                                                                                                     |
 | %               | Любая строка из 0 (нуля) или более символов. В следующем примере выполняется поиск всех экземпляров, где "Win" находится в любом месте имени класса: `SELECT * FROM meta_class WHERE __Class LIKE "%Win%"` |
-| \_ подчеркивания | Любой символ. Любой литерал, используемый в строке запроса, должен быть экранирован путем размещения внутри \[ \] (квадратных скобок).                                                             |
+| и символ подчеркивания (\_). | Любой символ. Любой литерал, используемый в строке запроса, должен быть экранирован путем размещения внутри \[ \] (квадратных скобок).                                                             |
 
 
 
@@ -39,11 +39,11 @@ ms.locfileid: "105692828"
 
 `SELECT * FROM meta_class WHERE __CLASS LIKE "%[_][_]%"`
 
-Оператор LIKE можно инвертировать с помощью оператора NOT; чтобы сделать это, не забудьте поместить не непосредственно перед именем поля. Пример:
+Оператор LIKE можно инвертировать с помощью оператора NOT; чтобы сделать это, не забудьте поместить не непосредственно перед именем поля. Пример.
 
 `  Get-WmiObject -computerName "." -query 'Select * FROM Win32_Printer WHERE Local="TRUE"      AND Network ="False" AND DriverName LIKE "%HP%"      AND NOT PortName LIKE "%10.%" AND NOT PortName LIKE "%\\%"'`
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
