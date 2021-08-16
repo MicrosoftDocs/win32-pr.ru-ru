@@ -8,12 +8,12 @@ keywords:
 - разделы каталога приложений Active Directory, пример кода для создания
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d82b2c440547a28ffa585ea3a68a3127a5dc3942
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 923a1891b4980674df01463b4139ec24e771b3697c3648593b3499f3eb5f3838
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103789558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118190797"
 ---
 # <a name="example-code-for-creating-an-application-directory-partition"></a>Пример кода для создания раздела каталога приложений
 
@@ -128,7 +128,7 @@ HRESULT CreateApplicationPartitionIADs(LPCWSTR pwszDCADsPath,
 
 
 
-В следующем примере кода Visual Basic сценариев выпуска показано, как создать новый раздел каталога приложений с помощью ADSI.
+в следующем примере кода Visual Basic сценариев выпуска показано, как создать новый раздел каталога приложений с помощью ADSI.
 
 
 ```VB
@@ -215,7 +215,7 @@ End Sub
 
 
 
-В следующем Visual Basic примере кода .NET показано, как создать новый раздел каталога приложений с помощью [System. DirectoryServices](/dotnet/api/system.directoryservices).
+в следующем Visual Basic примере кода .net показано, как создать новый раздел каталога приложений с помощью [System. DirectoryServices](/dotnet/api/system.directoryservices).
 
 
 ```VB
@@ -358,6 +358,6 @@ static void CreateApplicationPartitionCS(string DCADsPath,
 
 
 
- 
+ 
 
- 
+ 

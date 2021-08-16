@@ -6,12 +6,12 @@ keywords:
 - ошибки MIDL, форматы сообщений
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a42552b8106b72d82b2b13b69a7cba7ac2e99e64
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4cbe6e32109bbe8e4d40b7715c6463e16cd0c27fc77492f5044ce32a7fe57436
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104411345"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118384420"
 ---
 # <a name="error-and-warning-message-formats"></a>Форматы сообщений об ошибках и предупреждений
 
@@ -49,11 +49,11 @@ Command line error : MIDLnnnn: <error text>
 "Unexpected internal compiler problem. Try to find a workaround."
 ```
 
-Это сообщение сформировано непредвиденной ошибкой. Шестнадцатеричный номер ошибки — это идентификатор системной ошибки Windows XP, Windows 2000, Windows NT, Windows 98 или Windows 95. Дополнительные сведения можно найти в файле Winerror. h или NTSTATUS. h. Дополнительные сведения о работе с условиями, вызвавшими эту ошибку, см. в тексте ошибки [ошибки компилятора](compiler-errors.md) MIDL9008.
+Это сообщение сформировано непредвиденной ошибкой. шестнадцатеричный номер ошибки — это Windows XP, Windows 2000, Windows NT, Windows 98 или Windows 95 идентификатор системной ошибки. Дополнительные сведения можно найти в файле Winerror. h или NTSTATUS. h. Дополнительные сведения о работе с условиями, вызвавшими эту ошибку, см. в тексте ошибки [ошибки компилятора](compiler-errors.md) MIDL9008.
 
- 
+ 
 
- 
+ 
 
 
 

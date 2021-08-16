@@ -3,18 +3,18 @@ title: Настройка индексатора
 description: Настройка индексатора
 ms.assetid: 0e28e8dd-1586-45e6-8a08-5245d465d068
 keywords:
-- Пакет SDK для Windows Media Format, Настройка индексаторов
+- Windows Пакет SDK для формата мультимедиа, Настройка индексаторов
 - Расширенный системный формат (ASF), Настройка индексаторов
 - ASF (Расширенный системный формат), Настройка индексаторов
 - индексы, Настройка индексаторов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 618316e22b13ca05ff0fc1bbfb6b4583e79ca858
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: da5a624a4ed9ae749559a1908e3809500bf8aece2b29b8ad406769c5f639e547
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104412543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117845629"
 ---
 # <a name="to-configure-the-indexer"></a>Настройка индексатора
 
@@ -67,9 +67,9 @@ pMyIndexer = NULL;
 > [!Note]  
 > Тип индекса по умолчанию — ВМТ \_ его \_ ближайшую \_ чистую \_ точку. Хотя можно задать тип индекса другие значения, это приведет к снижению производительности.
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -85,9 +85,9 @@ pMyIndexer = NULL;
 [**Работа с индексами**](working-with-indexes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

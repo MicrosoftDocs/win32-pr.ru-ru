@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dca24b3a601b9fcafd8d78a0194b6b986813f38c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 30c70c821906bcfa4dedb8dbe87aab882866a4f21b7d561b16d3613f9041e0f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104337169"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118384734"
 ---
 # <a name="decode-attribute"></a>атрибут декодирования
 
@@ -91,7 +91,7 @@ typedef [decode [ , type-attribute-list] ] type-name;
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Атрибут **\[ декодирования \]** заставляет компилятор MIDL создавать код, который приложение может использовать для получения сериализованных данных из буфера. Атрибут **\[** [**Encoded**](encode.md) **\]** обеспечивает поддержку сериализации, создавая код для сериализации данных в буфер.
 
@@ -112,6 +112,6 @@ typedef [decode [ , type-attribute-list] ] type-name;
 [**шифровать**](encode.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

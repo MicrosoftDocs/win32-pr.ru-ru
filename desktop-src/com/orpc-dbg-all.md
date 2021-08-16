@@ -223,7 +223,7 @@ typedef struct ORPC_DBG_ALL {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

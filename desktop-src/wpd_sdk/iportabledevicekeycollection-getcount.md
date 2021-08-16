@@ -66,7 +66,7 @@ HRESULT GetCount(
 
 Пример использования этого метода см. в разделе [Получение поддерживаемых событий службы](retrieving-supported-events.md).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -44,7 +44,7 @@ strAddressLine1 = LocationDisp.DispCivicAddressReport.AddressLine1
 
 Пример использования этого свойства см. [в примере простого отчета об использовании административного адреса](/uwp/api/Windows.Devices.Geolocation).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

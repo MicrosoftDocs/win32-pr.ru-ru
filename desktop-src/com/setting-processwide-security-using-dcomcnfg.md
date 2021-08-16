@@ -4,12 +4,12 @@ description: Может потребоваться включить безопа
 ms.assetid: 04a7f688-78a3-490a-bcfa-862824a05422
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03174dd66e83a88724ff5d421d7b0dcb0c17699e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c5ace37c685748983d36b8a1e27a406fb8a81034d82ab793e77c4def960dfa2a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104332779"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118309109"
 ---
 # <a name="setting-process-wide-security-using-dcomcnfg"></a>Настройка безопасности Process-Wide с помощью DCOMCNFG
 
@@ -26,7 +26,7 @@ ms.locfileid: "104332779"
 -   [Настройка удостоверения для приложения](#setting-the-identity-for-an-application)
 -   [Просмотр пользовательской базы данных](#browsing-the-user-database)
 -   [Dcomcnfg.exe и 64-разрядные приложения](#dcomcnfgexe-and-64-bit-applications)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="setting-the-authentication-level-for-an-application"></a>Установка уровня проверки подлинности для приложения
 
@@ -124,7 +124,7 @@ ms.locfileid: "104332779"
 
 ## <a name="dcomcnfgexe-and-64-bit-applications"></a>Dcomcnfg.exe и 64-разрядные приложения
 
-В операционных системах x64 с Windows XP до Windows Server 2008 64-разрядная версия DCOMCNFG.EXE неправильно настраивает 32-разрядные приложения DCOM для удаленной активации. Это поведение приводит к тому, что компоненты, которые должны быть активированы удаленно, активируются локально. Такое поведение не возникает в Windows 7 и Windows Server 2008 R2 и более поздних версиях.
+в операционных системах x64 с Windows XP до Windows Server 2008, 64-разрядная версия DCOMCNFG.EXE неправильно настраивает 32-разрядные приложения DCOM для удаленной активации. Это поведение приводит к тому, что компоненты, которые должны быть активированы удаленно, активируются локально. такое поведение не возникает в Windows 7 и Windows Server 2008 R2 и более поздних версиях.
 
 Для решения этой проблемы необходимо использовать 32-разрядную версию DCOMCNFG. Запустите 32-разрядную версию mmc.exe и загрузите 32-разрядную версию оснастки "службы компонентов" с помощью следующей командной строки.
 
@@ -132,16 +132,16 @@ ms.locfileid: "104332779"
 
 32-разрядная версия служб компонентов правильно регистрирует 32-разрядные приложения DCOM для удаленной активации.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Настройка безопасности Process-Wide](setting-processwide-security.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

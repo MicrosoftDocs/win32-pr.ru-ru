@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d32823eaa82e6a260790dd6fa23747f2b4228649
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 55cc846cfbc400d2372186f9af4a09db08e5ad769d1e8fec5f5f6f757e1ff447
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118360475"
 ---
 # <a name="glcolormaterial-function"></a>Функция Глколорматериал
 
@@ -72,7 +72,7 @@ void WINAPI glColorMaterial(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глколорматериал** указывает, какие параметры материала отписывают текущий цвет. При включении \_ цветового \_ материала GL для каждого материала или материалов, заданных *лицом*, параметр материала или параметры, заданные *режимом* , записывают текущий цвет в любое время. Включать и отключать \_ цветовые \_ материалы GL можно с помощью функций [**гленабле**](glenable.md) и [**глдисабле**](gldisable.md), которые вызываются с использованием \_ цветового материала GL в \_ качестве аргумента. По умолчанию \_ цветовой \_ материал GL отключен.
 

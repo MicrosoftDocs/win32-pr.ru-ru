@@ -1,5 +1,5 @@
 ---
-description: Shell. Експлорерполици метод — получает значение для указанной политики Windows Internet Explorer.
+description: Shell. експлорерполици — получает значение для указанного Windows политики Internet Explorer.
 ms.assetid: 47E17F6A-ED43-44cd-AF77-A6E49865E1B5
 title: Метод Shell. Експлорерполици (Шлдисп. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 765e1dc46edbe5a27292c5d8ff940e29b269f8dc
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 78a0e601e8093358ef05f259586726e840982d1a97d428b8453f26ecb878a4c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108083702"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117857936"
 ---
 # <a name="shellexplorerpolicy-method"></a>Shell. Експлорерполици, метод
 
-Возвращает значение для указанной политики Windows Internet Explorer.
+возвращает значение для указанной Windows политики Internet Explorer.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -76,13 +76,13 @@ Shell.ExplorerPolicy( _
 
 Сетевые администраторы могут управлять вычислительной средой пользователей и управлять ею, настроив политики.
 
-Указанное имя значения должно **находиться в \_ \_** \\  \\  \\  \\  \\  \\  подразделе раздела реестра "Microsoft Windows CurrentVersion Policies. Если имя параметра не существует, метод возвращает **значение NULL**.
+указанное имя значения должно находиться в разделе реестра **HKEY \_ CURRENT \_ USER** \\ **Software** \\ **Microsoft** \\ **Windows** \\ **CurrentVersion** \\ **политики** \\ **обозревателя** . Если имя параметра не существует, метод возвращает **значение NULL**.
 
 ## <a name="examples"></a>Примеры
 
-В следующих примерах показано правильное использование **експлорерполици** для JScript, VBScript и Visual Basic.
+в следующих примерах показано правильное использование **експлорерполици** для JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -136,14 +136,14 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                                                   |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                          |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                                                   |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (версия 6,0 или более поздняя)</dt> </dl> |

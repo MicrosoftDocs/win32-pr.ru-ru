@@ -3,7 +3,7 @@ title: Сообщение MCIWNDM_GETTIMEFORMAT (VFW. h)
 description: Сообщение МЦИВНДМ \_ жеттимеформат извлекает текущий формат времени устройства MCI в двух формах как числовое значение и в виде строки. Это сообщение можно отправить явно или с помощью макроса МЦивнджеттимеформат.
 ms.assetid: 01844872-5444-4f3b-92a3-64f80b94d3a0
 keywords:
-- MCIWNDM_GETTIMEFORMAT сообщения Windows мультимедиа
+- сообщение MCIWNDM_GETTIMEFORMAT Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a09f969c009ff23bc0951ed2efbc0dbf7aa95dda
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3badb7c7722db6444d3bd928535790876e0a128e69e50323cea3fe39c2dd987a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103801330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117985912"
 ---
 # <a name="mciwndm_gettimeformat-message"></a>\_Сообщение мЦивндм жеттимеформат
 
@@ -56,7 +56,7 @@ lParam = (LPARAM) (LPSTR) lp;
 
 Возвращает целое число, соответствующее константе MCI, определяющей формат времени.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если длина строки формата времени превышает размер буфера возврата, МЦивнд усекает строку.
 

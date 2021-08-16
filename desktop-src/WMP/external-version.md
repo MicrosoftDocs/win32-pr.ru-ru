@@ -1,9 +1,9 @@
 ---
 title: Внешняя. версия
-description: Обратите внимание, что в этом разделе описываются функции, предназначенные для использования в Интернет-магазинах. Использование этой функции вне контекста Интернет-магазина не поддерживается. Свойство Version извлекает текущую версию проигрывателя Windows Media. | Внешняя. версия
+description: Обратите внимание, что в этом разделе описываются функции, предназначенные для использования в Интернет-магазинах. Использование этой функции вне контекста Интернет-магазина не поддерживается. свойство version извлекает текущую версию проигрыватель Windows Media. | Внешняя. версия
 ms.assetid: c6747a33-d62c-44e3-98b5-1d74607b998d
 keywords:
-- Внешний проигрыватель Windows Media Player
+- внешние проигрыватель Windows Media версии
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a8a4de5ba5fa521841a5c2de90b9ae39e7aa86d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0d50a7c21efa758f60aa70a6ac54d884768b3863f6de3b253843232fbbafe623
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105695055"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118339195"
 ---
 # <a name="externalversion"></a>Внешняя. версия
 
@@ -28,7 +28,7 @@ ms.locfileid: "105695055"
 
  
 
-Свойство **Version** извлекает текущую версию проигрывателя Windows Media.
+свойство **version** извлекает текущую версию проигрыватель Windows Media.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -46,7 +46,7 @@ window.external.version
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                  |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                  |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

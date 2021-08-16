@@ -4,12 +4,12 @@ ms.assetid: e2f22838-102e-432c-9c82-06a3e0741374
 title: Перечисления авторизации
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9363ca8039c326a81ad2e08a9136f5f65363146
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6dade6bad12da6decb352e127f279b0f573ae16b6031089dcf92b51fde3813da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117784332"
 ---
 # <a name="authorization-enumerations"></a>Перечисления авторизации
 
@@ -32,7 +32,7 @@ ms.locfileid: "104265396"
 | [**ОБЯЗАТЕЛЬНЫй \_ уровень**](/windows/desktop/api/Winnt/ne-winnt-mandatory_level)<br/>                                         | Список возможных уровней безопасности.<br/>                                                                                                                                                                                                                                        |
 | [**МНОЖЕСТВЕННая \_ операция с доверенным лицом \_**](/windows/desktop/api/AccCtrl/ne-accctrl-multiple_trustee_operation)<br/>                  | Содержит значения, указывающие, является ли структура [**доверенного**](/windows/desktop/api/AccCtrl/ns-accctrl-trustee_a) лица доверенным лицом для олицетворения.<br/>                                                                                                                                                                  |
 | [**\_параметр PROG Invoke \_**](/windows/win32/api/accctrl/ne-accctrl-prog_invoke_setting)<br/>                                | Указывает начальную настройку функции, используемой для отслеживания хода выполнения вызова функции [**трисетнамедсекуритинфо**](/windows/desktop/api/Aclapi/nf-aclapi-treesetnamedsecurityinfoa) или [**триресетнамедсекуритинфо**](/windows/desktop/api/Aclapi/nf-aclapi-treeresetnamedsecurityinfoa) .<br/>                                       |
-| [**\_тип объекта \_ SE**](/windows/desktop/api/AccCtrl/ne-accctrl-se_object_type)<br/>                                          | Содержит значения, соответствующие типам объектов Windows, поддерживающих безопасность.<br/>                                                                                                                                                                                     |
+| [**SE \_ \_тип объекта**](/windows/desktop/api/AccCtrl/ne-accctrl-se_object_type)<br/>                                          | содержит значения, соответствующие типам объектов Windows, поддерживающих безопасность.<br/>                                                                                                                                                                                     |
 | [**\_уровень олицетворения безопасности \_**](/windows/desktop/api/Winnt/ne-winnt-security_impersonation_level)<br/>              | Содержит значения, определяющие уровни олицетворения безопасности. Уровни олицетворения безопасности управляют степенью, до которой серверный процесс может действовать от имени клиентского [процесса](/windows/desktop/SecGloss/p-gly).<br/>                                 |
 | [**\_тип страницы \_ Si**](/windows/desktop/api/Aclui/ne-aclui-si_page_type)<br/>                                              | Содержит значения, указывающие типы страниц свойств в окне свойств редактора управления доступом.<br/>                                                                                                                                                                      |
 | [**\_использование имени идентификатора безопасности \_**](/windows/desktop/api/Winnt/ne-winnt-sid_name_use)<br/>                                              | Содержит значения, указывающие тип [идентификатора безопасности](/windows/desktop/SecGloss/s-gly) (SID).<br/>                                                                                                                |

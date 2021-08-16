@@ -4,12 +4,12 @@ ms.assetid: 7669f97e-87ad-4a64-a2a5-62b8ce450d80
 title: Атрибут MF_TOPOLOGY_PROJECTSTART (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 34a7e3d50bd89e0fdfc032f9854c1a183276f04a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f295f68b3ac94bf29fa4607eb2b5ba00ea8eab19774bcaa0af150ef6d3fbe1f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103898349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117875411"
 ---
 # <a name="mf_topology_projectstart-attribute"></a>\_ \_ Атрибут ПРОЖЕКТСТАРТ топологии MF
 
@@ -21,7 +21,7 @@ ms.locfileid: "103898349"
 
 Рассматривать как значение **лонглонг** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значение задается в единицах 100 наносекунд.
 
@@ -31,14 +31,14 @@ ms.locfileid: "103898349"
 
 Константа GUID для этого атрибута экспортируется из мфууид. lib.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                               |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 

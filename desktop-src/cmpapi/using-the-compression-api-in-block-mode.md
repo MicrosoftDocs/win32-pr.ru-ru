@@ -4,12 +4,12 @@ ms.assetid: 7483BCE4-3B85-4659-98E3-670D2F7EE52D
 title: Использование API сжатия в блочном режиме
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ddd1ecaec03d332262ffb24462e73a9fcb789d2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b4b739c1496b43f64f8ceab4312602e9b98f7faebbb29317998a93e8f27b6883
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104142634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117737459"
 ---
 # <a name="using-the-compression-api-in-block-mode"></a>Использование API сжатия в блочном режиме
 
@@ -21,7 +21,7 @@ ms.locfileid: "104142634"
 
 Приложения, использующие буфер или режим блокировки, имеют возможность указать настраиваемую подпрограмму выделения памяти при вызове [**креатекомпрессор**](/windows/desktop/api/compressapi/nf-compressapi-createcompressor) или [**креатедекомпрессор**](/windows/desktop/api/compressapi/nf-compressapi-createdecompressor).
 
-**Windows 8 и Windows Server 2012:** Чтобы использовать следующий пример кода, необходимо работать под Windows 8 или Windows Server 2012 и иметь "компрессапи. h" и "cabinet.dll" и ссылаться на "Cabinet. lib".
+**Windows 8 и Windows Server 2012:** чтобы использовать следующий пример кода, необходимо запустить Windows 8 или Windows Server 2012 и иметь "компрессапи. h" и "cabinet.dll" и создать ссылку на "Cabinet. lib".
 
 Ниже показано использование API сжатия в блочном режиме для сжатия файла с помощью алгоритма сжатия ЛЗМС и настраиваемой подпрограммы выделения памяти. Приложение должно включать флаг **сжатия \_ RAW** , чтобы использовать API сжатия в блочном режиме. Сначала приложение вызывает [**креатекомпрессор**](/windows/desktop/api/compressapi/nf-compressapi-createcompressor) с **\_ алгоритмом сжатия \_ лзмс** \| **Сжатие \_ RAW** , чтобы создать программу сжатия. Параметр *аллокатионраутинес* указывает подпрограммы выделения памяти. Затем приложение задает размер блока для сжатия с помощью [**сеткомпрессоринформатион**](/windows/desktop/api/compressapi/nf-compressapi-setcompressorinformation).
 

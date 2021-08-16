@@ -44,12 +44,12 @@ api_type:
 - HeaderDef
 api_location:
 - wiadef.h
-ms.openlocfilehash: d36a390256c6a9d183caa0f9231d2a92035d83da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6cf9c102e5ba9732369604bea21876af66ca525b596736521e92e59e52ddf9e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118207531"
 ---
 # <a name="common-wia-item-property-constants"></a>Стандартные константы свойств элементов WIA
 
@@ -156,7 +156,7 @@ ms.locfileid: "105701588"
 <td style="text-align: left;"><p>Содержит текущий используемый тип сжатия. Минидривер создает и поддерживает это свойство.</p>
 <p>Приложение считывает это свойство для определения типа сжатия изображения или задает это свойство для настройки параметра сжатия.</p>
 <p>Тип: <strong>VT_I4</strong>, доступ: чтение и запись, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_LIST</a></p>
-<p>В следующей таблице приведены константы, допустимые для этого свойства. Символ <strong>V</strong> указывает, что константа поддерживается только в Windows Vista и более поздних версиях. (Он доступен только через интерфейс <a href="-wia-iwiaitem2.md"><strong>IWiaItem2</strong></a> .)</p>
+<p>В следующей таблице приведены константы, допустимые для этого свойства. символ <strong>V</strong> указывает, что константа поддерживается только в Windows Vista и более поздних версиях. (Он доступен только через интерфейс <a href="-wia-iwiaitem2.md"><strong>IWiaItem2</strong></a> .)</p>
 
 <table>
 <thead>
@@ -228,7 +228,7 @@ ms.locfileid: "105701588"
 <td style="text-align: left;"><p>Содержит текущий параметр типа данных для устройства. Минидривер создает и поддерживает это свойство.</p>
 <p>Приложение считывает это свойство для определения типа данных изображения. Приложение записывает это свойство, чтобы задать текущий тип данных изображения, которое будет передано.</p>
 <p>Это свойство является обязательным для всех элементов WIA 2,0. Он должен быть доступен для чтения и записи для всех элементов с включенным приобретением WIA 2,0 и доступен только для чтения для элементов хранилища WIA 2,0.</p>
-<p>Тип: <strong>VT_I4</strong>; Доступ для операционных систем, предшествующих Windows Vista: это свойство доступно только для чтения для камер и чтения и записи для сканеров. Доступ для Windows Vista и более поздних версий: это свойство предназначено только для чтения для WIA_CATEGORY_FOLDER и WIA_CATEGORY_FINISHED_FILE элементов, а для чтения и записи для всех остальных категорий элементов WIA 2,0. Допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_LIST</a></p>
+<p>Тип: <strong>VT_I4</strong>; доступ к предварительным операционным системам Windows Vista: это свойство доступно только для чтения для камер и чтения и записи для сканеров. доступ для Windows Vista и более поздних версий: это свойство доступно только для чтения для WIA_CATEGORY_FOLDER и WIA_CATEGORY_FINISHED_FILE элементов, а для чтения и записи — для всех остальных категорий элементов WIA 2,0. Допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_LIST</a></p>
 <p>Следующая таблица содержит шесть констант, допустимых с параметром, если <strong>WIA_IPA_FORMAT</strong> не имеет значение WiaImgFmt_RAW.</p>
 
 <table>
@@ -322,7 +322,7 @@ ms.locfileid: "105701588"
 <td style="text-align: left;"><p>WIA_IPA_DEPTH содержит значение битовой глубины изображения. Минидривер создает и поддерживает это свойство. Приложение считывает это свойство, чтобы определить битовую глубину изображения. Приложение может также иметь возможность задать для этого значения нужную глубину.</p>
 <p>Если для устройства можно задать только одно значение, создайте тип <a href="-wia-property-attributes.md">WIA_PROP_LIST</a> и поместите в него допустимое значение.</p>
 <p>Это свойство является обязательным для всех элементов WIA 2,0. Он должен быть доступен для чтения и записи для всех элементов с включенным приобретением WIA 2,0 и доступен только для чтения для элементов хранилища WIA 2,0.</p>
-<p>Тип: <strong>VT_I4</strong>; Доступ для операционных систем, предшествующих Windows Vista: чтение и запись; Доступ для Windows Vista и более поздних версий: это свойство предназначено только для чтения для WIA_CATEGORY_FOLDER и WIA_CATEGORY_FINISHED_FILE элементов, а для чтения и записи для всех остальных категорий элементов WIA 2,0. Допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_LIST</a></p>
+<p>Тип: <strong>VT_I4</strong>; доступ к предварительным Windows операционным системам Vista: чтение и запись; доступ для Windows Vista и более поздних версий: это свойство доступно только для чтения для WIA_CATEGORY_FOLDER и WIA_CATEGORY_FINISHED_FILE элементов, а для чтения и записи — для всех остальных категорий элементов WIA 2,0. Допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_LIST</a></p>
 <p>WIA_DEPTH_AUTO определяется как 0 бит на пиксель, а это новое значение свойства, определенное для WIA_IPA_DEPTH. Это значение допустимо для всех программируемых элементов источника данных образа, включая планшет и устройство подачи. Если WIA_DEPTH_AUTO поддерживается мини-драйвером WIA, клиент приложения WIA может установить WIA_IPA_DEPTH это значение, чтобы включить автоматическое обнаружение цветов на устройстве. Если WIA_DEPTH_AUTO установлен, Мини-драйвер WIA должен обновить WIA_IPA_DATATYPE на том же элементе, чтобы WIA_DATA_AUTO (это значение должно быть поддерживаемым, если устройство поддерживает автоматический цвет).</p>
 <p>WIA_DEPTH_AUTO является необязательным значением, но оно становится обязательным, если для WIA_IPA_DATATYPE поддерживается WIA_DATA_AUTO.</p></td>
 </tr>
@@ -350,7 +350,7 @@ ms.locfileid: "105701588"
 <p>Приложение считывает это свойство, чтобы определить формат получаемого изображения. Приложение записывает это свойство для задания формата. Это свойство зависит от свойства <a href="https://msdn.microsoft.com/library/ms795488.aspx">WIA_IPA_TYMED</a> . Минидривер создает и поддерживает это свойство.</p>
 <p>Если для устройства можно задать только одно значение, создайте тип <a href="-wia-property-attributes.md">WIA_PROP_LIST</a> и поместите в него допустимое значение.</p>
 <p>Тип: <strong>CLSID</strong>, доступ: чтение и запись, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_LIST</a></p>
-<p>В следующей таблице перечислены константы, допустимые для этого свойства. Звездочка * указывает, что константа не поддерживается в Windows Vista. (Он доступен только через интерфейс <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem"><strong>ивиаитем</strong></a> .) Двойная звездочка * * указывает, что константа не поддерживается в Windows Server 2003 или Windows Vista. Символ <strong>V</strong> указывает, что константа поддерживается только в Windows Vista и более поздних версиях. (Он доступен только через интерфейс <a href="-wia-iwiaitem2.md"><strong>IWiaItem2</strong></a> .)</p>
+<p>В следующей таблице перечислены константы, допустимые для этого свойства. звездочка * указывает, что константа не поддерживается в Windows Vista. (Он доступен только через интерфейс <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem"><strong>ивиаитем</strong></a> .) двойная звездочка * * означает, что константа не поддерживается ни в Windows Server 2003, ни Windows Vista. символ <strong>V</strong> указывает, что константа поддерживается только в Windows Vista и более поздних версиях. (Он доступен только через интерфейс <a href="-wia-iwiaitem2.md"><strong>IWiaItem2</strong></a> .)</p>
 
 <table>
 <thead>
@@ -386,7 +386,7 @@ ms.locfileid: "105701588"
 </tr>
 <tr class="odd">
 <td>WiaImgFmt_BMP</td>
-<td>Точечный рисунок Windows с файлом заголовка</td>
+<td>Windows точечный рисунок с файлом заголовка</td>
 </tr>
 <tr class="even">
 <td>WiaImgFmt_CIFF *</td>
@@ -398,7 +398,7 @@ ms.locfileid: "105701588"
 </tr>
 <tr class="even">
 <td>WiaImgFmt_EMF</td>
-<td>Расширенный метафайл Windows</td>
+<td>расширенный метафайл Windows</td>
 </tr>
 <tr class="odd">
 <td>WiaImgFmt_EXEC</td>
@@ -422,7 +422,7 @@ ms.locfileid: "105701588"
 </tr>
 <tr class="even">
 <td>WiaImgFmt_ICO</td>
-<td>Формат файла значка Windows</td>
+<td>формат файла значка Windows</td>
 </tr>
 <tr class="odd">
 <td>WiaImgFmt_JBIG<strong>V</strong></td>
@@ -442,7 +442,7 @@ ms.locfileid: "105701588"
 </tr>
 <tr class="odd">
 <td>WiaImgFmt_MEMORYBMP</td>
-<td>Точечный рисунок Windows без файла заголовка</td>
+<td>Windows точечный рисунок без файла заголовка</td>
 </tr>
 <tr class="even">
 <td>WiaImgFmt_PDFA<strong>V</strong></td>
@@ -494,7 +494,7 @@ ms.locfileid: "105701588"
 </tr>
 <tr class="even">
 <td>WiaImgFmt_WMF</td>
-<td>Метафайл Windows</td>
+<td>метафайл Windows</td>
 </tr>
 <tr class="odd">
 <td>WiaImgFmt_XML</td>
@@ -536,7 +536,7 @@ ms.locfileid: "105701588"
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="WIA_IPA_ITEM_CATEGORY"></span><span id="wia_ipa_item_category"></span><dl> <dt><strong>WIA_IPA_ITEM_CATEGORY</strong></dt> <dt>пиктуреитемкатегори</dt> </dl></td>
-<td style="text-align: left;"><p>Поддерживается только в Windows Vista и более поздних версиях.</p>
+<td style="text-align: left;"><p>поддерживается только в Windows Vista и более поздних версиях.</p>
 <p>Элементы WIA 2,0 группируются по категориям, которые определяют способ обработки или использования <a href="-wia-iwiaitem2.md"><strong>IWiaItem2</strong></a> . Например, если элемент представляет устройство подачи, то приложение должно содержать необходимые свойства устройства подачи документов и действовать как устройство подачи документов. Если элемент представляет готовый файл, то приложение WIA 2,0 должно обрабатывать его таким образом, предполагая, что данные статичны и расположены на устройстве. (Правила для каждого элемента будут определены в отдельных документах спецификации.)</p>
 <p>Требуется для всех элементов WIA 2,0.</p>
 <p>Тип: <strong>VT_CLSID</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-wia2-itemcategoryguids.md"><strong>идентификаторы GUID категорий элементов</strong></a></p></td>
@@ -546,12 +546,12 @@ ms.locfileid: "105701588"
 <td style="text-align: left;"><p>Содержит описательные флаги для элемента WIA. Флаги элемента те же, что и в параметре <em>лобжектфлагс</em> функции служебной программы <a href="https://msdn.microsoft.com/library/ms794649.aspx">виаскреатедрвитем</a> Service. Служба WIA создает и поддерживает это свойство.</p>
 <p>Приложение считывает это свойство для определения значений флагов элемента.</p>
 <p>Тип: <strong>VT_I4</strong> доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
-<p>В следующей таблице приведены флаги, допустимые для этого свойства. Звездочка * означает, что флаг не поддерживается в Windows Vista или более поздней версии. (Он доступен только через интерфейс <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem"><strong>ивиаитем</strong></a> .) Двойная звездочка * * означает, что флаг не поддерживается в Windows Server 2003 или Windows Vista или более поздней версии. Символ <strong>V</strong> означает, что флаг поддерживается только в Windows Vista и более поздних версиях. (Он доступен только через интерфейс <a href="-wia-iwiaitem2.md"><strong>IWiaItem2</strong></a> .)</p>
+<p>В следующей таблице приведены флаги, допустимые для этого свойства. звездочка * означает, что флаг не поддерживается в Windows Vista или более поздней версии. (Он доступен только через интерфейс <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem"><strong>ивиаитем</strong></a> .) двойная звездочка * * означает, что флаг не поддерживается ни в Windows Server 2003, ни Windows Vista или более поздней версии. символ <strong>V</strong> означает, что флаг поддерживается только в Windows Vista и более поздних версиях. (Он доступен только через интерфейс <a href="-wia-iwiaitem2.md"><strong>IWiaItem2</strong></a> .)</p>
 
 <table>
 <thead>
 <tr class="header">
-<th>Flag</th>
+<th>Флаг</th>
 <th>Определение</th>
 </tr>
 </thead>
@@ -574,7 +574,7 @@ ms.locfileid: "105701588"
 </tr>
 <tr class="odd">
 <td>Виаитемтипедокумент<strong>V</strong></td>
-<td>Этот элемент является файлом документа в одном из форматов документов, содержащихся в свойстве <strong>WIA_IPA_FORMAT</strong> . (Эти форматы включают в себя файлы, не являющиеся изображениями, такие как txt, htm и doc.)</td>
+<td>Этот элемент является файлом документа в одном из форматов документов, содержащихся в свойстве <strong>WIA_IPA_FORMAT</strong> . (Эти форматы включают в себя файлы, не являющиеся изображениями, такие как .txt, .htm и файлы .doc.)</td>
 </tr>
 <tr class="even">
 <td>виаитемтипедевице</td>
@@ -673,12 +673,12 @@ ms.locfileid: "105701588"
 <tr class="even">
 <td>WIA_CATEGORY_FILM (корневой)</td>
 <td>Виаитемтипепрограммабледатасаурце Виаитемтипетрансфер Виаитемтипеимаже Виаитемтипефиле WiaItemTypeFolder</td>
-<td>Нет</td>
+<td>None</td>
 </tr>
 <tr class="odd">
 <td>WIA_CATEGORY_FILM (дочерние элементы)</td>
 <td>Виаитемтипепрограммабледатасаурце Виаитемтипетрансфер Виаитемтипеимаже Виаитемтипефиле</td>
-<td>Нет</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>WIA_CATEGORY_FOLDER</td>
@@ -716,7 +716,7 @@ ms.locfileid: "105701588"
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="WIA_IPA_ITEMS_STORED"></span><span id="wia_ipa_items_stored"></span><dl> <dt><strong>WIA_IPA_ITEMS_STORED</strong></dt> <dt>пиктуреитемитемссторед</dt> </dl></td>
-<td style="text-align: left;"><p>Поддерживается только в Windows Vista и более поздних версиях.</p>
+<td style="text-align: left;"><p>поддерживается только в Windows Vista и более поздних версиях.</p>
 <p>Указывает, сколько элементов хранится в элементе WIA_CATEGORY_FOLDER.</p>
 <p>Тип: <strong>VT_I4</strong>, доступ: чтение и запись, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
@@ -740,7 +740,7 @@ ms.locfileid: "105701588"
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="WIA_IPA_PLANAR"></span><span id="wia_ipa_planar"></span><dl> <dt><strong>WIA_IPA_PLANAR</strong></dt> <dt>пиктурепланар</dt> </dl></td>
-<td style="text-align: left;"><p>Это свойство не поддерживается в Windows Vista и более поздних версиях.</p>
+<td style="text-align: left;"><p>это свойство не поддерживается в Windows Vista и более поздних версиях.</p>
 <p>Содержит параметры упаковки данных изображения. Минидривер создает и поддерживает это свойство.</p>
 <p>Приложение считывает это свойство для определения параметров упаковки изображения или задает параметры упаковки текущего изображения.</p>
 <p>Тип: <strong>VT_I4</strong>; Доступ: чтение и запись; Допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_LIST</a>. Если для устройства можно задать только одно значение, создайте тип WIA_PROP_LIST и поместите в него допустимое значение.</p>
@@ -793,7 +793,7 @@ ms.locfileid: "105701588"
 </tr>
 <tr class="even">
 <td>WiaImgFmt_EMF</td>
-<td>Расширенный метафайл Windows</td>
+<td>расширенный метафайл Windows</td>
 </tr>
 <tr class="odd">
 <td>WiaImgFmt_EXIF</td>
@@ -809,7 +809,7 @@ ms.locfileid: "105701588"
 </tr>
 <tr class="even">
 <td>WiaImgFmt_ICO</td>
-<td>Формат файла значка Windows</td>
+<td>формат файла значка Windows</td>
 </tr>
 <tr class="odd">
 <td>WiaImgFmt_JPEG</td>
@@ -825,7 +825,7 @@ ms.locfileid: "105701588"
 </tr>
 <tr class="even">
 <td>WiaImgFmt_MEMORYBMP</td>
-<td>Точечный рисунок Windows без файла заголовка</td>
+<td>Windows точечный рисунок без файла заголовка</td>
 </tr>
 <tr class="odd">
 <td>WiaImgFmt_TIFF</td>
@@ -833,7 +833,7 @@ ms.locfileid: "105701588"
 </tr>
 <tr class="even">
 <td>WiaImgFmt_WMF</td>
-<td>Метафайл Windows</td>
+<td>метафайл Windows</td>
 </tr>
 </tbody>
 </table>
@@ -842,7 +842,7 @@ ms.locfileid: "105701588"
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="WIA_IPA_RAW_BITS_PER_CHANNEL"></span><span id="wia_ipa_raw_bits_per_channel"></span><dl> <dt><strong>WIA_IPA_RAW_BITS_PER_CHANNEL</strong></dt> <dt>пиктуреравбитсперчаннел</dt> </dl></td>
-<td style="text-align: left;"><p>Поддерживается только в Windows Vista и более поздних версиях.</p>
+<td style="text-align: left;"><p>поддерживается только в Windows Vista и более поздних версиях.</p>
 <p>Содержит количество битов в каждом канале. Это свойство должно быть представлено в виде вектора, равного количеству БАЙТОВ, так как есть каналы, где первый байт соответствует количеству битов в первом канале, второй байт — к числу битов во втором канале и т. д. Должно быть столько записей, сколько каналов в соответствии с WIA_IPA_CHANNELS_PER_PIXEL. Драйвер задает это свойство, когда приложение переключается на WiaImgFmt_RAW. Для хорошо известных подтипов существует столько же записей, сколько указано в таблице в разделе WIA_IPA_RAW_SUBTYPE.</p>
 <p>Тип: <strong>VT_UI1</strong> | <strong>VT_VECTOR</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
@@ -854,9 +854,9 @@ ms.locfileid: "105701588"
 <tr class="even">
 <td style="text-align: left;"><span id="WIA_IPA_SUPPRESS_PROPERTY_PAGE"></span><span id="wia_ipa_suppress_property_page"></span><dl> <dt><strong>WIA_IPA_SUPPRESS_PROPERTY_PAGE</strong></dt> <dt>пиктуресуппресспропертипаже</dt> </dl></td>
 <td style="text-align: left;"><p>Указывает, следует ли подавлять Общие страницы свойств для элементов на устройстве.</p>
-<p>Это свойство доступно в Windows XP и более поздних версиях.</p>
+<p>это свойство доступно в Windows XP и более поздних версиях.</p>
 <p>Тип: <strong>VT_I4</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
-<p>В следующей таблице приведены константы, допустимые для этого свойства. Звездочка * указывает, что константа не является допустимой в Windows Vista и более поздних версиях. (Он доступен только через интерфейс <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem"><strong>ивиаитем</strong></a> .)</p>
+<p>В следующей таблице приведены константы, допустимые для этого свойства. звездочка * указывает, что константа не является допустимой для Windows Vista и более поздних версий. (Он доступен только через интерфейс <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem"><strong>ивиаитем</strong></a> .)</p>
 
 <table>
 <thead>
@@ -885,7 +885,7 @@ ms.locfileid: "105701588"
 <p>Приложение считывает это свойство для определения метода перемещения данных минидривер.</p>
 <p>Требуется для всех элементов WIA 2,0, поддерживающих перемещение.</p>
 <p>Тип: <strong>VT_I4</strong>, доступ: чтение и запись, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_LIST</a></p>
-<p>В следующей таблице приведены константы, допустимые для этого свойства. Звездочка * указывает константы, которые не являются допустимыми в Windows Vista и более поздних версиях. (Они доступны только через интерфейс <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem"><strong>ивиаитем</strong></a> .)</p>
+<p>В следующей таблице приведены константы, допустимые для этого свойства. звездочка * указывает константы, которые не являются допустимыми для Windows Vista и более поздних версий. (Они доступны только через интерфейс <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem"><strong>ивиаитем</strong></a> .)</p>
 
 <table>
 <thead>
@@ -918,7 +918,7 @@ ms.locfileid: "105701588"
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="WIA_IPA_UPLOAD_ITEM_SIZE"></span><span id="wia_ipa_upload_item_size"></span><dl> <dt><strong>WIA_IPA_UPLOAD_ITEM_SIZE</strong></dt> <dt>пиктуреитемуплоадитемсизе</dt> </dl></td>
-<td style="text-align: left;"><p>Поддерживается только в Windows Vista и более поздних версиях.</p>
+<td style="text-align: left;"><p>поддерживается только в Windows Vista и более поздних версиях.</p>
 <p>Указывает число байтов для отправки для элемента.</p>
 <p>Тип: <strong>VT_I4</strong>, доступ: чтение и запись, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
@@ -933,8 +933,8 @@ ms.locfileid: "105701588"
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                      |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                      |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Виадеф. h</dt> </dl> |
 
 

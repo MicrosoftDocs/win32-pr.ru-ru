@@ -4,12 +4,12 @@ ms.assetid: 6CE17F9D-3BBB-4F4F-9F1A-495188F1815F
 title: Атрибут MF_STREAM_SINK_SUPPORTS_ROTATION (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b6e460dd1229b2ba16ef25bd2a2bf9d2faefb792
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dcbdbca824a9da328dc675ad4b5ac85705bda641cfbadbad75f29305cad3c62d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104144776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117876014"
 ---
 # <a name="mf_stream_sink_supports_rotation-attribute"></a>\_Приемник потока \_ MF \_ поддерживает \_ атрибут вращения
 
@@ -25,8 +25,8 @@ ms.locfileid: "104144776"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8 \|\]<br/>                                  |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 \|\]<br/>                        |
+| Минимальная версия клиента<br/> | Windows 8 \[ приложения UWP для классических приложений \|\]<br/>                                  |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ приложения UWP для классических приложений \|\]<br/>                        |
 | Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 

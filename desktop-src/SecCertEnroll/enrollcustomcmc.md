@@ -4,12 +4,12 @@ ms.assetid: ef09ef04-8925-4d66-97ad-70b4d7cf78b9
 title: енроллкустомкмк
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2910e6a6ca784aaeb9ca97dc8de106932bd64c9f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3799cd70d8f3b70ae32a95b7720a879ddd611fba5e35064d1794d39bdcd7ab9c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103810702"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117780063"
 ---
 # <a name="enrollcustomcmc"></a>енроллкустомкмк
 
@@ -17,7 +17,7 @@ ms.locfileid: "103810702"
 
 ## <a name="location"></a>Расположение
 
-При установке пакета средств разработки программного обеспечения (SDK) для Microsoft Windows этот образец устанавливается по умолчанию в папке *% ProgramFiles%* \\ Microsoft SDK \\ Windows \\ v 7.0 \\ Samples \\ Security SSL \\ Certificate \\ \\ енроллкустомкмк.
+при установке пакета microsoft Windows Software Development Kit (SDK) образец устанавливается по умолчанию в папке *% ProgramFiles%* \\ Microsoft sdk \\ Windows \\ v 7.0 \\ samples \\ Security ssl \\ Certificate \\ \\ енроллкустомкмк.
 
 ## <a name="discussion"></a>Разговор
 
@@ -37,7 +37,7 @@ ms.locfileid: "103810702"
 9.  Создает объект CryptoAPI [**ICertRequest2**](/windows/desktop/api/certcli/nn-certcli-icertrequest2) и использует его вместе со строками, содержащими конфигурацию ЦС и запросом сертификата для отправки запроса в ЦС.
 10. Проверяет состояние отправки и, при успешном выполнении, устанавливает сертификат в хранилище сертификатов.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
