@@ -3,19 +3,19 @@ title: Получение атрибутов метаданных
 description: Получение атрибутов метаданных
 ms.assetid: d1d2c8e0-7445-4ee1-94d9-4c1ed74f8fe2
 keywords:
-- Пакет SDK для формата Windows Media, извлечение атрибутов метаданных
+- Windows Пакет SDK для формата мультимедиа, получение атрибутов метаданных
 - Расширенный системный формат (ASF), извлечение атрибутов метаданных
 - ASF (Расширенный системный формат), извлечение атрибутов метаданных
 - метаданные, извлечение атрибутов
 - потоки, получение атрибутов метаданных
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c918cb47e77c3fd69c64de586b84b7f6244e4c9
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 02dc24f06779c12d40a109c1a8ef0fee9811370d3459f3811c0c870ee535d749
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104069532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807884"
 ---
 # <a name="retrieving-metadata-attributes"></a>Получение атрибутов метаданных
 
@@ -25,16 +25,16 @@ ms.locfileid: "104069532"
 
 Пример кода, показывающий, как получить атрибуты метаданных, см. [в разделе Извлечение всех метаданных в файле](to-retrieve-all-metadata-in-a-file.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Работа с метаданными**](working-with-metadata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: ЕКУАЛИЗЕРСЕТТИНГС. gainLevel9
 description: Атрибут gainLevel9 указывает или получает уровень усиления диапазона 9.
 ms.assetid: 2bed7486-4d4c-4c71-8bab-8dd0c4f56911
 keywords:
-- Проигрыватель Windows Media ЕКУАЛИЗЕРСЕТТИНГС. gainLevel9
+- екуализерсеттингс. gainLevel9 проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cdd03197b4d1b6be48b0e91193b3eebfaf28a768
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 869f3ff05b72a422e1d48d90972baa94dc9cf390dc93b3a72ed897f569762f98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699159"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119650727"
 ---
 # <a name="equalizersettingsgainlevel9"></a>ЕКУАЛИЗЕРСЕТТИНГС. gainLevel9
 
@@ -31,7 +31,7 @@ ms.locfileid: "105699159"
 
 Этот атрибут является **числом** для чтения и записи (**float**) со значением, которое обычно находится в диапазоне от 20 до + 20. Он имеет нулевое значение по умолчанию.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут корректирует часть спектра частот аудио в центре в 8kHz.
 
@@ -43,7 +43,7 @@ ms.locfileid: "105699159"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

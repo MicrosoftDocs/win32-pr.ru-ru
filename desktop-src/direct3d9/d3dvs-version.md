@@ -76,7 +76,7 @@ DWORD D3DVS_VERSION(
 
  
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

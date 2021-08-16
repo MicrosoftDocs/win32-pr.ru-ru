@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e13cfcb27e94c64af132e5eec600941d0b41cd8
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 4319038fefa6539bf40834bfc1f00f4ea4a0cfb8b12c1c6719c884e413b3ae07
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104157139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118531148"
 ---
 # <a name="id3dx11effectvariablegetannotationbyindex-method"></a>Метод ID3DX11EffectVariable:: Жетаннотатионбиндекс
 
@@ -58,7 +58,7 @@ ID3DX11EffectVariable* GetAnnotationByIndex(
 
 Указатель на [**ID3DX11EffectVariable**](id3dx11effectvariable.md).
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Аннонатионс можно подключить к методу, к Pass или к глобальной переменной.
 
@@ -73,7 +73,7 @@ ID3DX11EffectVariable* GetAnnotationByIndex(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
+| Заголовок<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
 | Библиотека<br/> | <dl> <dt>Н/д (библиотека Effects 11 доступна в сети в качестве общего источника.)</dt> </dl> |
 
 

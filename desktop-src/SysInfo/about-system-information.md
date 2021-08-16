@@ -1,17 +1,17 @@
 ---
 description: Функции, описанные в этом обзоре, извлекают различные данные.
 ms.assetid: 869912f0-cb3b-402d-8445-3b1df6546da5
-title: Сведения о системе
+title: о Сведения о системе
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8313aea963855057e9ee7d78f56fd9e1263fbb49
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4aba65cfd4b8db15a4677510cb8524786d16b972b9d972c0b583fcf71a416a53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117764978"
 ---
-# <a name="about-system-information"></a>Сведения о системе
+# <a name="about-system-information"></a>о Сведения о системе
 
 Функции, описанные в этом обзоре, извлекают различные данные. Сведения о конфигурации системы описывают оборудование компьютера, имя компьютера и имя пользователя. Сведения о конфигурации операционной системы описывают версию операционной системы, каталоги ключей и переменные среды. Системные параметры описывают системные атрибуты. Системные метрики предоставляют размеры элементов в области просмотра.
 

@@ -131,7 +131,7 @@ GLfloat zPlane[] = { 0.0f, 0.0f, 1.0f, 0.0f };
 [**глисенаблед**](glisenabled.md) с аргументом GL \_ текстура \_ Gen \_ Q  
 </dl>
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

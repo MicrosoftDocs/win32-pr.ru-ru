@@ -4,12 +4,12 @@ ms.assetid: 36122dfb-1ed6-459d-aa2b-69c86daaddd8
 title: Сообщение LINE_NEWCALL (Тспи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed3e7380b2f328283e5f5cad9e84f5a1d0c450dc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f541f7535e9b41dc66a83b8d033d3ff7adf4d51f6e78f275d2695cb5ae7a35b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105688809"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117761910"
 ---
 # <a name="line_newcall-message"></a>Строка \_ сообщения невкалл
 
@@ -70,7 +70,7 @@ ms.locfileid: "105688809"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Поставщик услуг должен отправить [**строку \_ каллстате**](/previous-versions/windows/desktop/legacy/ms725219(v=vs.85)) сообщение в качестве следующего сообщения для этого вызова. Событие **Line \_ невкалл** нередко в том, что оно также передает значение обратно поставщику услуг.
 

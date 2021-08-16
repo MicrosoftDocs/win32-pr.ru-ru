@@ -4,12 +4,12 @@ description: Поведение драйверов по умолчанию
 ms.assetid: ed6905eb-67ad-421d-be00-4a5585dff7fb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53e5a4294ffc117041d3aca4273cd1f4b8378814
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 61312010759ddd1bf152f0e51f7605bda1954329096913b61dac14a671908f0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103791071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144527"
 ---
 # <a name="default-behavior-of-drivers"></a>Поведение драйверов по умолчанию
 
@@ -31,6 +31,6 @@ mciSendString("record sound from 0 notify", lpszReturnString,
 
 Команда [**Record**](record.md) возвращает значение "параметр вне допустимого диапазона" и останавливает воспроизведение, запущенное предыдущей командой [**Play**](play.md) . Можно ожидать, что драйвер проверяет команду записи перед остановкой воспроизведения, но драйвер останавливает воспроизведение первыми.
 
- 
+ 
 
- 
+ 

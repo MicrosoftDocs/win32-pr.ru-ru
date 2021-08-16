@@ -141,7 +141,7 @@ module somemodule
 [**propputref**](propputref.md)
 </dt> <dt>
 
-[**строка**](string.md)
+[**Строка**](string.md)
 </dt> <dt>
 
 [**типефлагс**](/windows/win32/api/oaidl/ne-oaidl-typeflags)

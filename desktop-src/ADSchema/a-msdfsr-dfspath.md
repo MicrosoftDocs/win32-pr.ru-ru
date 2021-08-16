@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 718c052ea89df9d8c237c4ef73a6d6d6af13ee49
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 24a8f1e1ae9f9baeaa134737d5f6b84777f99c283f7f7013828483b2e6751b7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104138994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960973"
 ---
 # <a name="ms-dfsr-dfspath-attribute"></a>атрибут MS-DFSR-Дфспас
 
@@ -56,8 +56,8 @@ ms.locfileid: "104138994"
 | Идентификатор ссылки                | \-                                                           |
 | MAPI-Id                | \-                                                           |
 | System-Only            | Неверно                                                        |
-| Является однозначным       | True                                                         |
-| Индексируется             | True                                                         |
+| Является однозначным       | Верно                                                         |
+| Индексируется             | Верно                                                         |
 | В глобальном каталоге      | Неверно                                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                 |
 | Range-Lower            | 0                                                            |
@@ -77,8 +77,8 @@ ms.locfileid: "104138994"
 | Идентификатор ссылки                | \-                                                           |
 | MAPI-Id                | \-                                                           |
 | System-Only            | Неверно                                                        |
-| Является однозначным       | True                                                         |
-| Индексируется             | True                                                         |
+| Является однозначным       | Верно                                                         |
+| Индексируется             | Верно                                                         |
 | В глобальном каталоге      | Неверно                                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                 |
 | Range-Lower            | 0                                                            |
@@ -98,8 +98,8 @@ ms.locfileid: "104138994"
 | Идентификатор ссылки                | \-                                                           |
 | MAPI-Id                | \-                                                           |
 | System-Only            | Неверно                                                        |
-| Является однозначным       | True                                                         |
-| Индексируется             | True                                                         |
+| Является однозначным       | Верно                                                         |
+| Индексируется             | Верно                                                         |
 | В глобальном каталоге      | Неверно                                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                 |
 | Range-Lower            | 0                                                            |
@@ -119,8 +119,8 @@ ms.locfileid: "104138994"
 | Идентификатор ссылки                | \-                                                           |
 | MAPI-Id                | \-                                                           |
 | System-Only            | Неверно                                                        |
-| Является однозначным       | True                                                         |
-| Индексируется             | True                                                         |
+| Является однозначным       | Верно                                                         |
+| Индексируется             | Верно                                                         |
 | В глобальном каталоге      | Неверно                                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                 |
 | Range-Lower            | 0                                                            |
@@ -131,7 +131,7 @@ ms.locfileid: "104138994"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Атрибут **MS-DFSR-дфспас** является частью поддержки службы репликации распределенная ФАЙЛОВАЯ система (DFS).
 

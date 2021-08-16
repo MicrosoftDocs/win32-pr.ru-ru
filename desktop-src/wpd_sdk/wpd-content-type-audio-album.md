@@ -4,12 +4,12 @@ ms.assetid: 41b7a587-01e0-4eee-b750-2f6be06c3227
 title: WPD_CONTENT_TYPE_AUDIO_ALBUM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50821a513233b7cded458fe9dc2d2caad2a8e290
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4fb360a447f7e39a81c4649eb484b64d36bd248a3ae70faea8b09bc02da379dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089584"
 ---
 # <a name="wpd_content_type_audio_album"></a>\_ \_ \_ звуковой \_ альбом типа содержимого WPD
 
@@ -53,7 +53,7 @@ ms.locfileid: "105702771"
 
 Обычно эти объекты не размещают ресурсы.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

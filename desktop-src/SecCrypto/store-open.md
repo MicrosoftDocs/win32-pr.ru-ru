@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: ef4ffe89a4b726ecfa33fb95d213d809cae2487b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d70c6410d0ecb8edb91aa722bcf6f35cb9536c3ed2b7f03c2d5cb141937aeb69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118897813"
 ---
 # <a name="storeopen-method"></a>Метод Store. Open
 
@@ -124,7 +124,7 @@ Store.Open( _
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если этот метод вызывается в хранилище смарт-карты, можно вызвать дополнительные пользовательские интерфейсы смарт-карты.
 
@@ -150,13 +150,13 @@ Store.Open( _
 
 <dl> <dt>
 
-[**Магазин**](store.md)
+[**Сообщений**](store.md)
 </dt> <dt>
 
 [**Криптографические объекты**](cryptography-objects.md)
 </dt> <dt>
 
-[**Закрыть**](store-close.md)
+[**Выхода**](store-close.md)
 </dt> </dl>
 
  

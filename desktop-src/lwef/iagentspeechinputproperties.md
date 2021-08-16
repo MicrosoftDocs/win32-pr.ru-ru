@@ -4,16 +4,16 @@ description: иажентспичинпутпропертиес
 ms.assetid: 87bfc8c4-473b-4df9-becd-e90db12dae51
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23c6a83ed488d3ff95914c25fd518862740951ed
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 660848eae85465ea322bcb08a218c6ee463eb384d3a4766cacf6a86038662386
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119609334"
 ---
 # <a name="iagentspeechinputproperties"></a>иажентспичинпутпропертиес
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 Иажентспичинпутпропертиес предоставляет доступ к свойствам речевого ввода, поддерживаемым сервером. Большинство свойств доступно только для чтения в клиентских приложениях, но пользователь может изменить их на странице свойств Microsoft Agent. Сервер Microsoft Agent возвращает значения только в том случае, если установлен и включен совместимый обработчик речи. Запрос этих свойств пытается запустить модуль распознавания речи.
 
@@ -29,13 +29,13 @@ ms.locfileid: "104410572"
 
 
 
- 
+ 
 
 Для обеспечения обратной [](https://www.bing.com/search?q=**GetLCID**)совместимости по- [](https://www.bing.com/search?q=**GetEngine**)прежнему поддерживаются методы [](https://www.bing.com/search?q=**SetEngine**) [**, реализованные в предыдущих**](https://www.bing.com/search?q=**GetInstalled**)версиях Microsoft Agent. Однако методы не создана и не возвращают полезные значения. Используйте [**жетсрмодеид**](https://www.bing.com/search?q=**GetSRModeID**) и [**сетсрмодеид**](https://www.bing.com/search?q=**SetSRModeID**) для запроса и настройки обработчика распознавания речи для использования с символом. Помните, что подсистема должна соответствовать текущему языковому параметру символа.
 
- 
+ 
 
- 
+ 
 
 
 

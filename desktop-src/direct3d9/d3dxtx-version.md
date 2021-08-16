@@ -32,7 +32,7 @@ ms.locfileid: "118524105"
 
 Макрос возвращает маркер версии для описания процедурной текстуры.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

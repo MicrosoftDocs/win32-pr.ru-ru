@@ -4,16 +4,16 @@ ms.assetid: 17813ce1-b3f6-408f-9c55-5caa7eda6738
 title: Безопасность анонимных каналов и права доступа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02935a3b2bc5ea31d88aab3f23f23c348c054e5b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b54869584a70bfbe886740e979c44864d852de0df23e311eb4aad89c321662c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118756361"
 ---
 # <a name="anonymous-pipe-security-and-access-rights"></a>Безопасность анонимных каналов и права доступа
 
-Система безопасности Windows позволяет управлять доступом к анонимным каналам. Дополнительные сведения о безопасности см. в разделе [модель управления доступом](/windows/desktop/SecAuthZ/access-control-model).
+Windows безопасность позволяет управлять доступом к анонимным каналам. Дополнительные сведения о безопасности см. в разделе [модель управления доступом](/windows/desktop/SecAuthZ/access-control-model).
 
 При вызове функции [**креатепипе**](/windows/win32/api/namedpipeapi/nf-namedpipeapi-createpipe) можно указать [дескриптор безопасности](/windows/desktop/SecAuthZ/security-descriptors) для канала. Дескриптор безопасности управляет доступом к концам канала чтения и записи. Если указано **значение NULL**, то канал получает дескриптор безопасности по умолчанию. Списки ACL в дескрипторе безопасности по умолчанию для канала берутся из основного маркера или токена олицетворения создателя.
 

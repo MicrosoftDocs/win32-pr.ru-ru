@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 20edef2aca2c6948984f5195b16711b78112354a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd90794fe4c6f41f8704cb626ddfcf9487c89da01afb8a2f8b1fddfe0efea43a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105693037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092074"
 ---
 # <a name="driver_info_6-structure"></a>\_Сведения о драйвере \_ 6 структура
 
@@ -74,7 +74,7 @@ typedef struct _DRIVER_INFO_6 {
 **пенвиронмент**
 </dt> <dd>
 
-Указатель на строку, завершающуюся нулем, которая указывает среду, для которой был записан драйвер (например, Windows NT x86, Windows IA64 и Windows x64.
+указатель на строку, завершающуюся нулем, которая указывает среду, для которой был записан драйвер (например, Windows NT x86, Windows IA64 и Windows x64).
 
 </dd> <dt>
 
@@ -172,11 +172,11 @@ typedef struct _DRIVER_INFO_6 {
 **псзпровидер**
 </dt> <dd>
 
-Указатель на строку, завершающуюся нулем, которая указывает поставщика драйвера принтера (например, "Microsoft Windows 2000")
+указатель на строку, завершающуюся нулем, которая указывает поставщика драйвера принтера (например, "Microsoft Windows 2000").
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Строки для этих элементов содержатся в INF-файле, который используется для добавления драйвера.
 
@@ -190,7 +190,7 @@ typedef struct _DRIVER_INFO_6 {
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Винспул. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>винспул. h (включает Windows. h)</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **\_ \_ Сведения о \_ драйвере 6W** (Юникод) и **\_ \_ сведения о драйвере \_ 6a** (ANSI)<br/>                             |
 
 

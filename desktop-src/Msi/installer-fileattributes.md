@@ -61,7 +61,7 @@ propVal = Installer.FileAttributes
 
 Возвращает значение – 1, если файл или папка не существуют или недоступны.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

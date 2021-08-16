@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: dbf4a2912cb62935447daa1589b6829c5a96488e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9adf0f42d64e0bc7ced76441ae0fe1da2d2b6609d9d717d5e3b26f8dd07db7b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669074"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118897812"
 ---
 # <a name="storeexport-method"></a>Метод Store. Export
 
@@ -98,7 +98,7 @@ Store.Export( _
 
 <dl> <dt>
 
-[**Магазин**](store.md)
+[**Сообщений**](store.md)
 </dt> <dt>
 
 [**Криптографические объекты**](cryptography-objects.md)

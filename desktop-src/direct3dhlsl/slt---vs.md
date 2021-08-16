@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f6476ec24f82295d56b04682dfa4320547672b43
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 76117b802826d9c8b95264cdc07071c85db4a395e66124fc923ba5f9f11b9d7e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104069330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120095184"
 ---
 # <a name="slt---vs"></a>SLT — VS
 
@@ -29,15 +29,15 @@ ms.locfileid: "104069330"
 
 
 
- 
+ 
 
-где
+where
 
 -   DST — это регистр назначения.
 -   src0 является исходным регистром.
 -   src1 является исходным регистром.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -47,7 +47,7 @@ ms.locfileid: "104069330"
 
 
 
- 
+ 
 
 В следующем фрагменте кода показаны выполняемые операции.
 
@@ -61,16 +61,16 @@ dest.w = (src0.w < src1.w) ? 1.0f : 0.0f;
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера вершин](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

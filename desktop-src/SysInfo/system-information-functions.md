@@ -1,17 +1,17 @@
 ---
 description: Для получения или установки сведений о системе используются следующие функции.
 ms.assetid: aa7deebf-7dce-4147-8a15-1d7411aea0fa
-title: Функции системных сведений
+title: Сведения о системе Функции
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c88c9a3e01a526ab3947aba8b4b7a312b9c1235
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 675c2e5dfc9df9029a8ca7f5d4dc9468dd16a9d65cbd9ffa91edf6dc618e0e11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663875"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117763463"
 ---
-# <a name="system-information-functions"></a>Функции системных сведений
+# <a name="system-information-functions"></a>Сведения о системе Функции
 
 Для получения или установки сведений о системе используются следующие функции.
 
@@ -37,14 +37,14 @@ ms.locfileid: "105663875"
 | [**жетсистемфирмваретабле**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemfirmwaretable)                     | Извлекает указанную таблицу встроенного по из поставщика таблиц встроенного по.                                                                                                                                                          |
 | [**жетсистеминфо**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsysteminfo)                                       | Извлекает сведения о текущей системе.                                                                                                                                                                                   |
 | [**жетсистемрегистрикуота**](/windows/desktop/api/Winbase/nf-winbase-getsystemregistryquota)                     | Извлекает текущий размер реестра и максимальный размер, который может достичь реестр в системе.                                                                                                             |
-| [**жетсистемвиндовсдиректори**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemwindowsdirectorya)               | Возвращает путь к общему каталогу Windows в многопользовательском системе.                                                                                                                                                        |
+| [**жетсистемвиндовсдиректори**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemwindowsdirectorya)               | возвращает путь к общему каталогу Windows в многопользовательском компьютере.                                                                                                                                                        |
 | [**GetSystemWow64Directory**](/windows/win32/api/wow64apiset/nf-wow64apiset-getsystemwow64directorya)                   | Извлекает путь к системному каталогу, используемому WOW64.                                                                                                                                                                         |
 | [**GetSystemWow64Directory2**](/windows/desktop/api/wow64apiset/nf-wow64apiset-getsystemwow64directory2a)                 | Извлекает путь к системному каталогу, используемому WOW64, с использованием указанного типа файлового компьютера образа.                                                                                                                            |
 | [**GetUserName**](/windows/desktop/api/Winbase/nf-winbase-getusernamea)                                           | Возвращает имя пользователя текущего потока.                                                                                                                                                                                    |
 | [**жетусернамикс**](/windows/desktop/api/Secext/nf-secext-getusernameexa)                                       | Возвращает имя пользователя или другого субъекта безопасности, связанного с вызывающим потоком. Можно указать формат возвращаемого имени.                                                                                   |
 | [**GetVersion**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getversion)                                             | Возвращает номер версии текущей операционной системы.                                                                                                                                                                     |
 | [**GetVersionEx**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getversionexa)                                         | Извлекает сведения о текущей операционной системе.                                                                                                                                                                         |
-| [**жетвиндовсдиректори**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya)                           | Извлекает путь к каталогу Windows.                                                                                                                                                                                      |
+| [**жетвиндовсдиректори**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya)                           | возвращает путь к каталогу Windows.                                                                                                                                                                                      |
 | [**иснативевхдбут**](/windows/desktop/api/Winbase/nf-winbase-isnativevhdboot)                                   | Указывает, была ли ОС загружена из контейнера VHD.                                                                                                                                                                              |
 | [**IsWow64GuestMachineSupported**](/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64guestmachinesupported)         |                                                                                                                                                                                                                                   |
 | [**испроцессорфеатурепресент**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-isprocessorfeaturepresent)               | Определяет, поддерживается ли компонент процессора текущим компьютером.                                                                                                                                                      |

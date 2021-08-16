@@ -8,12 +8,12 @@ keywords:
 - Разделы каталога приложений Active Directory, пример кода для поиска контейнера секций
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3f10156894a71a3308b58d125c16782497e5f29
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 5757e638e046089d828ee1c681d04ec210986181cb74ec3b1253c05515eda2fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "105654299"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962312"
 ---
 # <a name="example-code-for-locating-the-partitions-container"></a>Пример кода для поиска контейнера секций
 
@@ -150,7 +150,7 @@ HRESULT GetPartitionsDNSearch(LPWSTR *ppwszPartitionsDN)
 
 
 
-Следующий пример кода Visual Basic сценариев выпуска получает различающееся имя контейнера секций путем поиска объекта [**кроссрефконтаинер**](/windows/desktop/ADSchema/c-crossrefcontainer) в контейнере конфигурации.
+следующий пример кода Visual Basic сценариев выпуска получает различающееся имя контейнера секций путем поиска объекта [**кроссрефконтаинер**](/windows/desktop/ADSchema/c-crossrefcontainer) в контейнере конфигурации.
 
 
 ```VB
@@ -262,7 +262,7 @@ HRESULT GetPartitionsDNManual(LPWSTR *ppwszPartitionsDN)
 
 
 
-В следующем Visual Basic примере кода получается различающееся имя контейнера секций путем создания различающегося имени вручную.
+в следующем Visual Basic примере кода получается различающееся имя контейнера секций путем создания различающегося имени вручную.
 
 
 ```VB
@@ -317,7 +317,7 @@ static string GetPartitionsDN()
 
 
 
-В следующем Visual Basic примере кода .NET получается различающееся имя контейнера секций путем поиска объекта [**кроссрефконтаинер**](/windows/desktop/ADSchema/c-crossrefcontainer) в контейнере конфигурации. В этом примере используется Visual Basic .NET с System. DirectoryServices.
+в следующем Visual Basic примере кода .net получается различающееся имя контейнера секций путем поиска объекта [**кроссрефконтаинер**](/windows/desktop/ADSchema/c-crossrefcontainer) в контейнере конфигурации. в этом примере используется Visual Basic .net с System. DirectoryServices.
 
 
 ```VB
@@ -352,6 +352,6 @@ End Function
 
 
 
- 
+ 
 
- 
+ 

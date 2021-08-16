@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 204a5d4fb736a88cf615577f4c740cde15d75829
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b28275bef054b26c2145ab9779ec776297ac7838d0313769123fb1be904a3bd3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119625234"
 ---
 # <a name="glgentextures-function"></a>Функция Глжентекстурес
 
@@ -72,7 +72,7 @@ void WINAPI glGenTextures(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глжентекстурес** возвращает *n* названий текстур в параметре *текстуры* . Названия текстур не обязательно являются непрерывным набором целых чисел, однако ни одно из возвращаемых имен не может быть использовано непосредственно перед вызовом функции **глжентекстурес** . Созданные текстуры предполагают размерность цели текстуры, к которой они сначала привязаны с помощью функции [**глбиндтекстуре**](glbindtexture.md) . Имена текстур, возвращаемые функцией **глжентекстурес** , не возвращаются при последующих вызовах **глжентекстурес** , если они не были сначала удалены путем вызова [**глделететекстурес**](gldeletetextures.md).
 

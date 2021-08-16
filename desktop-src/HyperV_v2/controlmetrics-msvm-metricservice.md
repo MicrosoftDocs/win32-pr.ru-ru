@@ -138,7 +138,7 @@ uint32 ControlMetrics(
 -   Параметры *subject* и *definition* не равны **null** и не имеют экземпляра [**мсвм \_ метрикдефформе**](msvm-metricdefforme.md) , связывающего два экземпляра.
 -   Параметр *определения* является ссылкой на экземпляр [**мсвм \_ басеметрикдефинитион**](msvm-basemetricdefinition.md) , который не связан с [**мсвм \_ метриксервице**](msvm-metricservice.md) до [**мсвм \_ сервицеаффектселемент**](msvm-serviceaffectselement.md).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

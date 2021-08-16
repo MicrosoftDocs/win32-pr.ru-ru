@@ -4,12 +4,12 @@ ms.assetid: 03FBE499-7920-4991-B9EF-2D3721803A01
 title: Элемент ownerSID (схема библиотеки)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 639fb4a17b46b47219c44e39c0ac883e21ee7c01
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2abc62e615bd76824483454cca62fb4fe1c3a869ff150a754db847baaf311146
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032112"
 ---
 # <a name="ownersid-element-library-schema"></a>Элемент ownerSID (схема библиотеки)
 
@@ -34,7 +34,7 @@ ms.locfileid: "104984588"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

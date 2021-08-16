@@ -4,12 +4,12 @@ ms.assetid: ed6945fc-ac08-4776-8d75-d33e8df3882a
 title: Точка входа службы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de9e2683c4a69949b6f51c7d000c0ee3571fe118
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d8a8f44322048351161bb8f3b8afdd619129d18b5effb5dc850d8909afbb3673
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118888976"
 ---
 # <a name="service-entry-point"></a>Точка входа службы
 
@@ -27,7 +27,7 @@ ms.locfileid: "103991051"
 -   Создание нового потока для вызова соответствующей точки входа при запуске новой службы.
 -   Вызовите соответствующую [функцию обработчика](service-control-handler-function.md) для обработки запросов управления службами.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

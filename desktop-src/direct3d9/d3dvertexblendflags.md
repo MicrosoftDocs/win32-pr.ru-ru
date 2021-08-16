@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 0b4d22740a9ad06a9848dc7649d62ac06d37a056
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ecc7f99e26088ff03b626604279bffe5c64ddb82b95a6f6219b637b3fce5a59b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104354733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118527308"
 ---
 # <a name="d3dvertexblendflags-enumeration"></a>Перечисление D3DVERTEXBLENDFLAGS
 
@@ -86,7 +86,7 @@ typedef enum D3DVERTEXBLENDFLAGS {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Члены этого типа используются с \_ состоянием отрисовки D3DRS вертексбленд.
 
@@ -98,7 +98,7 @@ typedef enum D3DVERTEXBLENDFLAGS {
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
 
 
 

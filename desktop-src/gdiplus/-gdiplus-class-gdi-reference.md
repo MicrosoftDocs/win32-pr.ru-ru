@@ -1,19 +1,19 @@
 ---
-description: 'В следующих разделах приведены справочные сведения об API Windows GDI+ на языке программирования C++:'
+description: в следующих разделах приведены справочные сведения о Windows GDI+ API с помощью языка программирования C++.
 ms.assetid: a96ec167-3143-4e52-b6c1-9eed43009981
-title: Справочник по GDI+
+title: GDI+ IsReference
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1cd697cf95fccd53a36b4ae189c7954aed6b1e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1ce1d7e5c39803acd9a753f981fdb3817f6ab8241eb7eab4e77aa316458ca606
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104345095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119037042"
 ---
-# <a name="gdi-reference"></a>Справочник по GDI+
+# <a name="gdi-reference"></a>GDI+ IsReference
 
-В следующих разделах приведены справочные сведения об API Windows GDI+ на языке программирования C++:
+в следующих разделах приведены справочные сведения о Windows GDI+ API с помощью языка программирования C++.
 
 -   [Классы](-gdiplus-class-classes.md)
 -   [Функции](-gdiplus-func-functions.md)
