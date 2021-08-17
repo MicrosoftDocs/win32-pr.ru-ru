@@ -5,19 +5,19 @@ ms.assetid: b9090ad5-564c-4f48-b7bd-24617d582d2e
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 517acfa320069f9c94ee291e9215459d27ba25ad
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 343f00ee28475d1e6180646a0e548c18d51701afed587c99582dad7dc60d094c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119063314"
 ---
 # <a name="retrieving-a-collection"></a>Получение коллекции
 
 > [!Note]  
-> Служба проверки подлинности в Интернете (IAS) переименовала сервер политики сети (NPS), начиная с Windows Server 2008. Содержимое этого раздела относится как к IAS, так и к NPS. По всему тексту NPS используется для ссылки на все версии службы, включая версии, изначально называемые IAS.
+> служба проверки подлинности в интернете (IAS) переименовала сервер политики сети (NPS), начиная с Windows Server 2008. Содержимое этого раздела относится как к IAS, так и к NPS. По всему тексту NPS используется для ссылки на все версии службы, включая версии, изначально называемые IAS.
 
- 
+ 
 
 Следующий код извлекает коллекцию клиентов для сервера политики сети.
 
@@ -109,7 +109,7 @@ ms.locfileid: "103987690"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Переменная Псдосервицеконтрол содержит указатель на объект данных сервера для NPS. Дополнительные сведения см. в разделе [Получение службы SDO](/windows/desktop/Nps/sdo-retrieving-a-service-sdo).
 
@@ -119,7 +119,7 @@ ms.locfileid: "103987690"
 
 Приведенный выше пример кода можно адаптировать для получения других коллекций NPS, например для коллекций обработчиков запросов NPS. Тип перечисления [**иаспропертиес**](/windows/desktop/api/sdoias/ne-sdoias-iasproperties) перечисляет значения, соответствующие доступным коллекциям NPS.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -147,6 +147,6 @@ ms.locfileid: "103987690"
 [**ЗНАЧЕНИЕ**](/windows/win32/api/oaidl/ns-oaidl-variant)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

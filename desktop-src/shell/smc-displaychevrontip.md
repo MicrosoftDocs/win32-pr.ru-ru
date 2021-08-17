@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 09e01fc6ea169d8dcbf5758ace341198166a3a9e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f1107af5cd621bafbc1e463101cee2ea57236b9d29844d6183963134b50ce3ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104497883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968173"
 ---
 # <a name="smc_displaychevrontip-message"></a>\_Сообщение SMC дисплайчевронтип
 
@@ -40,7 +40,7 @@ SMC_DISPLAYCHEVRONTIP
 
 Возвратите \_ ОК, чтобы отобразить всплывающую подсказку. Возвращает \_ значение false, чтобы предотвратить отображение подсказки.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Это уведомление получает метод [**ишеллменукаллбакк:: каллбакксм**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenucallback-callbacksm) .
 

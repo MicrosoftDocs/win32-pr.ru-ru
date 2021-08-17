@@ -1,19 +1,19 @@
 ---
-description: В подразделах этого раздела кратко описаны примеры программ для поиска, сопровождающих пакет средств разработки программного обеспечения Microsoft Windows (SDK) для Windows 7.
+description: в подразделах этого раздела кратко описаны примеры программ для поиска, сопровождающих пакет средств разработки Microsoft Windows Software Development Kit (SDK) для Windows 7.
 ms.assetid: 9cd35360-dee5-433e-9576-dbe39bd34cbb
-title: Примеры кода для поиска Windows
+title: Windows Поиск примеров кода
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7bd67fd8bcb5599be1aa29c1c3ac574a1deb8438
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d70c87999273671ebe4b6f0ac8c00bd0d4b43978705908f132e504c143831b08
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104540690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119094906"
 ---
-# <a name="windows-search-code-samples"></a>Примеры кода для поиска Windows
+# <a name="windows-search-code-samples"></a>Windows Поиск примеров кода
 
-В подразделах этого раздела кратко описаны примеры программ для поиска, сопровождающих пакет средств разработки программного обеспечения Microsoft Windows (SDK) для Windows 7. Эти примеры также можно выполнить в Windows 10 с помощью пакета SDK для Windows 10.
+в подразделах этого раздела кратко описаны примеры программ для поиска, которые сопровождаются пакетом SDK для Microsoft Windows для Windows 7. эти примеры также можно выполнить на Windows 10 с помощью пакета SDK для Windows 10.
 
 В следующих разделах описываются предоставленные примеры API поиска.
 
@@ -29,16 +29,16 @@ ms.locfileid: "104540690"
 - [всоледб](-search-sample-wsoledb.md)
 - [всскл](-search-sample-wssql.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 
 [Обзор Windows Search](-search-3x-wds-overview.md)
 
-[Руководством разработчика Windows Search](-search-developers-guide-entry-page.md)
+[Windows Поиск по руководству разработчика](-search-developers-guide-entry-page.md)
 
-[Справочник по поиску Windows](-search-reference-entry-page.md)
+[Windows Поиск ссылки](-search-reference-entry-page.md)
 
-[Примеры кода для поиска Windows](-search-samples-ovw.md)
+[Windows Поиск примеров кода](-search-samples-ovw.md)
 
 [Федеративный поиск в Windows](-search-federated-search-overview.md)
 

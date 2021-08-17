@@ -1,13 +1,13 @@
 - name: 'Статьи, посвященные графике DirectX'
   href: directx-graphics-articles-portal.md
   items:
-    - name: Обновление платформы для Windows 7
+    - name: обновление платформы для Windows 7
       href: platform-update-for-windows-7.md
     - name: Улучшения Direct3D 9Ex
       href: direct3d-9ex-improvements.md
     - name: Совместное использование поверхности API графических интерфейсов Windows
       href: surface-sharing-between-windows-graphics-apis.md
-    - name: Руководством по созданию платформы Windows Advanced растеризации (ДЕФОРМАЦИЯ)
+    - name: Windows Обзорная платформа для расширенной растеризации (ДЕФОРМАЦИЯ)
       href: directx-warp.md
     - name: Графические API в Windows
       href: graphics-apis-in-windows-vista.md

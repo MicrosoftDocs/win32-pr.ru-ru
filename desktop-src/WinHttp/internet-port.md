@@ -4,12 +4,12 @@ ms.assetid: 535d644d-4045-4ff1-9c12-a3d5f665453d
 title: INTERNET_PORT (WinHTTP. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7fb0f5e18e8dba25db231185e34b53c033682367
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48ca41ee7291f7dc9c1f3d42805145ca3c049a925ffd365aef2864856aec33d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684218"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133147"
 ---
 # <a name="internet_port"></a>\_Порт Интернета
 
@@ -62,9 +62,9 @@ HTTP-порт по умолчанию.
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>      |
-| Минимальная версия сервера<br/> | Windows Server 2003, Windows 2000 Server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>   |
-| Header<br/>                   | <dl> <dt>WinHTTP. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с SP3 \[ только для настольных приложений\]<br/>      |
+| Минимальная версия сервера<br/> | Windows сервер 2003, Windows 2000 server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>   |
+| Заголовок<br/>                   | <dl> <dt>WinHTTP. h</dt> </dl> |
 
 
 

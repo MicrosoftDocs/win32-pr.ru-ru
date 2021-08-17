@@ -1,5 +1,5 @@
 ---
-title: Описание (пакет SDK для Windows Media Format 11)
+title: описание (пакет SDK для Windows Media Format 11)
 description: Атрибут Description содержит описание содержимого файла.
 ms.assetid: b9a1dcb1-9e8a-49a0-8dd5-388c929645c3
 keywords:
@@ -12,14 +12,14 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e1d2e47f7e320aa3fb66f5090e1bd7bf7c23e84
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 2976c65317ab4430296948e88a0788a570ba061a41817d06614e970ae022856e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103988116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931374"
 ---
-# <a name="description-windows-media-format-11-sdk"></a>Описание (пакет SDK для Windows Media Format 11)
+# <a name="description-windows-media-format-11-sdk"></a>описание (пакет SDK для Windows Media Format 11)
 
 Атрибут **Description** содержит описание содержимого файла.
 
@@ -31,7 +31,7 @@ g \_ всзвмдескриптион
 
 **\_Строка типа \_ ВМТ**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это атрибут уровня файла.
 

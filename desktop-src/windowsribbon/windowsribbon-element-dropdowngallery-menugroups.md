@@ -3,7 +3,7 @@ title: Дропдовнгаллери. Менуграупс, свойство
 description: Представляет контейнер для набора элементов раскрывающегося меню в элементе управления коллекции Drop-Down.
 ms.assetid: 594f6ae5-760e-456d-98cd-04ecae0bae99
 keywords:
-- Лента Windows для свойства Дропдовнгаллери. Менуграупс
+- дропдовнгаллери. менуграупс, свойство Windows лента
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 67fcaeb81020cf4c317bf065c25a770d2a77e21f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ffdc52877884ac3a6407a0c7ed9f511cf78f8bcb5c125beb5f2ed19e651b83da
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105719208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119393055"
 ---
 # <a name="dropdowngallerymenugroups-property"></a>Дропдовнгаллери. Менуграупс, свойство
 
@@ -55,7 +55,7 @@ ms.locfileid: "105719208"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обязательный.
 
@@ -96,14 +96,14 @@ ms.locfileid: "105719208"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>              |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>              |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/> |
 
 
 

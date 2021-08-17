@@ -4,12 +4,12 @@ ms.assetid: B9625B3C-00AC-4F46-BD76-5C77822F5829
 title: Атрибут MF_MEDIA_ENGINE_NEEDKEY_CALLBACK
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c3de502bbe1d7f83dfd8ee7478e20786244f654e
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 3bec8dd3b802d9fc378d43648ad1d29dd30b6573881a044cc9f0d3aba2015cee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105693870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119956314"
 ---
 # <a name="mf_media_engine_needkey_callback-attribute"></a>\_ \_ \_ Атрибут обратного вызова нидкэй для механизма передачи мультимедиа MF \_
 
@@ -25,7 +25,7 @@ ms.locfileid: "105693870"
 
 Чтобы задать этот атрибут, вызовите [**имфаттрибутес:: сетункновн**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setunknown).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значением этого атрибута является указатель на интерфейс [**имфмедиаенгиненидкэйнотифи**](/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineneedkeynotify) , реализованный приложением.
 
@@ -35,8 +35,8 @@ ms.locfileid: "105693870"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только Windows 8.1 Классические приложения\]<br/>                                                 |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2012 R2 \[\]<br/>                                      |
+| Минимальная версия клиента<br/> | Windows 8.1 \[ только классические приложения\]<br/>                                                 |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[Только классические приложения R2\]<br/>                                      |
 | IDL<br/>                      | <dl> <dt>Мфмедиаенгине. idl</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 941e5400-e679-41f4-9830-3548dc6037aa
 title: Пример декодера
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3dd7586534876cfa7f530e675b0342a92bf46b8a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 290f8b2db32b12d535feaeef65f37b77e1a29115cd8844a8d8aad29fb7ce699a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119449393"
 ---
 # <a name="decoder-sample"></a>Пример декодера
 
@@ -20,7 +20,7 @@ ms.locfileid: "103990836"
 ![снимок экрана видеокадра из декодера](images/decodersample.png)
 
 > [!Note]  
-> До Windows SDK для Windows 7 этот пример был включен как часть [примера MPEG1Source](mpeg1source-sample.md).
+> до Windows SDK для Windows 7 этот пример был включен как часть [примера MPEG1Source](mpeg1source-sample.md).
 
  
 
@@ -30,7 +30,7 @@ ms.locfileid: "103990836"
 
 -   [**имфтрансформ**](/windows/desktop/api/mftransform/nn-mftransform-imftransform)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -44,9 +44,9 @@ ms.locfileid: "103990836"
 
 ## <a name="downloading-the-sample"></a>Загрузка образца
 
-Этот пример доступен в [репозитории GitHub с классическими примерами Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/Decoder).
+этот пример доступен в [репозитории github для классических примеров Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/Decoder).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

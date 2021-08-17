@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 9d326e012fb78b04fd542f88d49c370e8aeab613
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1c4623b9143e0a23762cfc44dd8dfc4f46b827a0f6433098d45d8a784ead81f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104347932"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968793"
 ---
 # <a name="nondefaultdropmenuverb-sample"></a>Пример NonDefaultDropMenuVerb
 
@@ -34,7 +34,7 @@ ms.locfileid: "104347932"
 | Продукт                                | Минимальная версия продукта |
 |----------------------------------------|-------------------------|
 | Windows                                | Windows Vista           |
-| Windows SDK | 7.0                     |
+| Windows SDK | 7,0                     |
 
 
 
@@ -53,16 +53,16 @@ ms.locfileid: "104347932"
 1.  Откройте окно командной строки и перейдите в каталог проекта **нондефаултдропменуверб** .
 2.  Введите `msbuild NonDefaultDropMenuVerb.sln`.
 
-Чтобы создать пример с использованием Microsoft Visual Studio (предпочтительно):
+чтобы создать пример с использованием Microsoft Visual Studio (предпочтительно):
 
-1.  Откройте проводник Windows и перейдите в каталог проекта **нондефаултдропменуверб** .
+1.  откройте обозреватель Windows и перейдите в каталог проекта **нондефаултдропменуверб** .
 2.  Дважды щелкните значок файла Нондефаултдропменуверб. sln, чтобы открыть проект в Visual Studio.
-3.  В меню **Сборка** выберите пункт **построить решение**.
+3.  В меню **Построение** выберите пункт **Построить решение**.
 
 ## <a name="running-the-sample"></a>Запуск примера
 
-1.  Перейдите в каталог, содержащий новый файл DLL, с помощью командной строки или проводника Windows.
-2.  Скопируйте NonDefaultDropMenuVerb.dll в системный каталог (например, C: \\ Windows \\ System32).
+1.  перейдите в каталог, содержащий новый файл DLL, с помощью командной строки или проводника Windows.
+2.  скопируйте NonDefaultDropMenuVerb.dll в системный каталог (например, C: \\ Windows \\ System32).
 3.  В командной строке введите `regedit NonDefaultDropMenuVerb.reg` .
 4.  Используйте правую кнопку мыши, чтобы перетащить файл из одной папки в другую. Вы увидите дополнительные пункты меню для операции DROP.
 

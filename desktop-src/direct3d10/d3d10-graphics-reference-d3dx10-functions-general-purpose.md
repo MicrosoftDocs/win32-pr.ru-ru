@@ -4,12 +4,12 @@ ms.assetid: 36db8e11-9cb0-4fa7-be40-4bf2eb8337ed
 title: Функции общего назначения (графика Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ce317cdfb688179819fe46107b237c86accc6f4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5c84ac9ccf5e9e670c96b9a302b45d3e9170d34dcbe353b12c2070ab1655b332
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104539413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119379624"
 ---
 # <a name="general-purpose-functions-direct3d-10-graphics"></a>Функции общего назначения (графика Direct3D 10)
 
@@ -58,7 +58,7 @@ D3DX предоставляет следующие функции общего �
 -   [**D3DX10ReflectShader**](d3dx10reflectshader.md)
 -   [**D3DX10UnsetAllDeviceObjects**](d3dx10unsetalldeviceobjects.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 6236e236-eeeb-435a-a758-2a7f7f818e6d
 title: System. Девицеинтерфаце. Serial. Усбвендорид
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45c5ad5b3913b1f2fed51c0802f0a6b203899e2e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3f77c739db9111b6505b800ace2401e5bd33c89b816d32d8da22dec9e9f48402
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119445864"
 ---
 # <a name="systemdeviceinterfaceserialusbvendorid"></a>System. Девицеинтерфаце. Serial. Усбвендорид
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

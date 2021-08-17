@@ -1,9 +1,9 @@
 ---
 title: Сообщение MIM_CLOSE (Ммсистем. h)
-description: Сообщение о \_ закрытии MIM отправляется в функцию обратного вызова MIDI при закрытии входного устройства MIDI.
+description: '\_при закрытии входного устройства midi сообщение о закрытии MIM отправляется в функцию обратного вызова midi.'
 ms.assetid: c19ecd3a-c3a5-4f17-9d44-d0d71eefcb15
 keywords:
-- MIM_CLOSE сообщения Windows мультимедиа
+- сообщение MIM_CLOSE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5549d9bef1e802b0b34ab6437b1386519a25d349
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b3b1509573d5c69fd2e95cabeb8ba2c4059d5d37c9cfe3c957ec8b8f75f5abfa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104533794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119428174"
 ---
-# <a name="mim_close-message"></a>\_Сообщение о закрытии MIM
+# <a name="mim_close-message"></a>MIM \_ ЗАКРЫТЬ сообщение
 
-Сообщение **о \_ закрытии MIM** отправляется в функцию обратного вызова MIDI при закрытии входного устройства MIDI.
+при закрытии входного устройства midi сообщение о **\_ закрытии MIM** отправляется в функцию обратного вызова midi.
 
 
 ```C++
@@ -56,7 +56,7 @@ dwParam2 = reserved
 
 Это сообщение не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 После отправки этого сообщения маркер устройства больше не действителен.
 
@@ -68,7 +68,7 @@ dwParam2 = reserved
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 

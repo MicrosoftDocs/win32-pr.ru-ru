@@ -4,21 +4,21 @@ description: Атрибут плоскости VML
 ms.assetid: e1de630b-8e25-4052-b316-251046f73e98
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04f279f008adf8f12f78d6edd790cc533678adc9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c85312c8c2987105859b9f773fa102723c64c30c688dedd34fb9578bd370452e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987610"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119334214"
 ---
 # <a name="vml-plane-attribute"></a>Атрибут плоскости VML
 
-В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+в этом разделе описывается функция VML, которая является устаревшей по отношению к Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
 
 > [!Note]  
-> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
+> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). сведения, рекомендации и рекомендации относительно текущей версии Windows Internet explorer см. в [центре разработчиков internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Указывает плоскость, находящуюся справа от объема. Read/write. **Строка**.
 
@@ -44,16 +44,16 @@ ms.locfileid: "103987610"
 
 | Значение | Описание                                            |
 |-------|--------------------------------------------------------|
-| xy    | Объем на уровне справа расположен на плоскости XY. Значение по умолчанию |
+| xy    | Объем на уровне справа расположен на плоскости XY. По умолчанию |
 | зкс    | Объем на уровне справа ЗКС плоскости.         |
 | из    | Объем на уровне справа из плоскости.         |
 
 
 
- 
+ 
 
-*Атрибут расширений Microsoft Office*
+*Microsoft Office Extensions, атрибут*
 
- 
+ 
 
- 
+ 

@@ -45,7 +45,7 @@ typedef union switch (XPS_COLOR_TYPE colorType) value
 [**\_ \_ контекст типа цвета \_ XPS**](/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_color)  
 </dl>
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
@@ -53,7 +53,7 @@ typedef union switch (XPS_COLOR_TYPE colorType) value
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 7, Windows Vista с пакетом обновления 2 (SP2) и обновлением платформы для приложений для \[ классических приложений Windows Vista \|\]<br/>                          |
 | Минимальная версия сервера<br/> | Windows сервер 2008 R2, Windows Server 2008 с пакетом обновления 2 (SP2) и обновлением платформы для Windows Server 2008 приложения \[ UWP для классических приложений \|\]<br/> |
-| Header<br/>                   | <dl> <dt>Кспсобжектмодел. h</dt> </dl>                                              |
+| Заголовок<br/>                   | <dl> <dt>Кспсобжектмодел. h</dt> </dl>                                              |
 | IDL<br/>                      | <dl> <dt>Кспсобжектмодел. idl</dt> </dl>                                            |
 
 

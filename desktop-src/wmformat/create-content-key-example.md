@@ -3,9 +3,9 @@ title: Пример создания ключа содержимого
 description: Пример создания ключа содержимого
 ms.assetid: 8e75bac3-d1fb-4a72-8088-fe5ff0899ac2
 keywords:
-- Windows Media Format SDK, ключи содержимого
-- Windows Media Format SDK, пример кода
-- Windows Media Format SDK, примеры кода
+- Windows Пакет SDK для формата мультимедиа, ключи содержимого
+- Windows Пакет SDK для формата мультимедиа, пример кода
+- Windows Пакет SDK для формата мультимедиа, примеры кода
 - Управление цифровыми правами (DRM), ключи содержимого
 - DRM (Управление цифровыми правами), ключи содержимого
 - Управление цифровыми правами (DRM), пример кода
@@ -21,16 +21,16 @@ keywords:
 - ключи содержимого
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 881dfd0d318d7d699b44ca9c3f77f22f9acfc689
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c97c63f55cd825de197ea7e13d9215971e1d3153aabb23ee41924a65f91849c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931484"
 ---
 # <a name="create-content-key-example"></a>Пример создания ключа содержимого
 
-Ключ содержимого используется для шифрования образцов мультимедиа для импорта Windows Media DRM. В следующем примере кода показано, как создать и инициализировать структуру ключа содержимого.
+ключ содержимого используется для шифрования образцов мультимедиа для Windows импорта DRM. В следующем примере кода показано, как создать и инициализировать структуру ключа содержимого.
 
 
 ```C++
@@ -112,16 +112,16 @@ EXIT:
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Примеры импорта DRM**](drm-import-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

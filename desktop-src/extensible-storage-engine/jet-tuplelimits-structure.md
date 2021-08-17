@@ -15,23 +15,23 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 491f9248db607836b34f1fc0fcacc504b3c1d3f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c4e2c118b7b42dce82ec0a95c53853ec501a7152c08ad088bbddde251edadf3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119472694"
 ---
 # <a name="jet_tuplelimits-structure"></a>Структура JET_TUPLELIMITS
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jet_tuplelimits-structure"></a>Структура JET_TUPLELIMITS
 
 Структура **JET_TUPLELIMITS** позволяет настраивать характеристики индекса кортежа для каждого индекса, а не для каждого экземпляра, с помощью [жетсетсистемпараметер](./jetsetsystemparameter-function.md).
 
-**Windows Server 2003:** Структура **JET_TUPLELIMITS** появилась в Windows Server 2003.
+**Windows Server 2003:** структура **JET_TUPLELIMITS** появилась в Windows Server 2003.
 
 ```cpp
     typedef struct tagJET_TUPLELIMITS {
@@ -61,15 +61,15 @@ _**Применимо к:** Windows | Windows Server_
 
 Это позволяет настроить шаг на основе каждого индекса.
 
-**Windows Vista:** Член **кчинкремент** появился в Windows Vista. До Windows Vista объем смещения окна ("шаг") всегда равен 1, как показано в примере в разделе "Примечания".
+**Windows Vista:** член **кчинкремент** появился в Windows Vista. до Windows Vista количество сдвигов окна («шаг») всегда было равно 1, как показано в примере в разделе «примечания».
 
 **ичстарт**
 
 Смещение в значении, с которого начинается извлечение кортежей из значения.
 
-**Windows Vista:** Член **ичстарт** появился в Windows Vista.
+**Windows Vista:** член **ичстарт** появился в Windows Vista.
 
-### <a name="remarks"></a>Комментарии
+### <a name="remarks"></a>Remarks
 
 Индекс кортежа просматривает строку и индексирует все возможные подстроки **членгсмакс**. В конце строки (или в позиции **чтоиндексмакс** в зависимости от того, что происходит раньше), подстроки по меньшей мере **членгсмин** будут индексироваться.
 
@@ -93,7 +93,7 @@ SPA
 
 Обратите внимание, что "IN" встречается дважды и что последняя запись ("N \! ") короче 3 (**членгсмакс**). Также обратите внимание, что алгоритм разбиения не знает о пробелах или словах и обрабатывает все символы одинаково.
 
-**Windows XP:** Windows XP поддерживает индексы кортежей, но не имеет **JET_TUPLELIMITS**. Ядро СУБД будет использовать значения по умолчанию (**членгсмин**= 3, **членгсмакс**= 10, **чтоиндексмакс**= 32767). Эти значения по-прежнему можно изменить, но они задаются для каждого экземпляра с помощью [жетсетсистемпараметер](./jetsetsystemparameter-function.md) с [JET_paramIndexTuplesLengthMin](./index-parameters.md), [JET_paramIndexTuplesLengthMax](./index-parameters.md)и [JET_paramIndexTuplesToIndexMax](./index-parameters.md).
+**Windows xp:** Windows xp поддерживает индексы кортежей, но не имеет **JET_TUPLELIMITS**. Ядро СУБД будет использовать значения по умолчанию (**членгсмин**= 3, **членгсмакс**= 10, **чтоиндексмакс**= 32767). Эти значения по-прежнему можно изменить, но они задаются для каждого экземпляра с помощью [жетсетсистемпараметер](./jetsetsystemparameter-function.md) с [JET_paramIndexTuplesLengthMin](./index-parameters.md), [JET_paramIndexTuplesLengthMax](./index-parameters.md)и [JET_paramIndexTuplesToIndexMax](./index-parameters.md).
 
 ### <a name="requirements"></a>Требования
 
@@ -105,11 +105,11 @@ SPA
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista.</p></td>
+<td><p>требуется Windows Vista.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003.</p></td>
+<td><p><strong>Сервер</strong></p></td>
+<td><p>требуется Windows server 2008, Windows server 2003.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>
@@ -119,7 +119,7 @@ SPA
 </table>
 
 
-### <a name="see-also"></a>См. также:
+### <a name="see-also"></a>См. также
 
 [JET_COLTYP](./jet-coltyp.md)  
 [JET_INDEXCREATE](./jet-indexcreate-structure.md)  

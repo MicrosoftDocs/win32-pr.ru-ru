@@ -1,17 +1,17 @@
 ---
-title: Общие функции (Windows Internet)
+title: общие функции (Windows интернет)
 description: Различные протоколы Интернета (например, FTP и HTTP) используют несколько функций WinINet для работы с информацией в Интернете.
 ms.assetid: c80768cf-c8c0-4bdf-9ea2-f82c92ade05a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1893b085da1b3e77228e4a9abf75acc166d84726
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: ed7b6a68c2633175eca793f48b2180b7212905762ca0f58290436aa17ae9a728
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "105710417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132897"
 ---
-# <a name="common-functions-windows-internet"></a>Общие функции (Windows Internet)
+# <a name="common-functions-windows-internet"></a>общие функции (Windows интернет)
 
 Различные протоколы Интернета (например, FTP и HTTP) используют несколько функций WinINet для работы с информацией в Интернете. Эти общие функции обрабатывают свои задачи согласованно, независимо от конкретного протокола, к которому они применяются. Приложения могут использовать эти функции для создания функций общего назначения, обрабатывающих задачи в различных протоколах (например, чтение файлов для FTP и HTTP).
 
@@ -520,7 +520,7 @@ InternetCloseHandle(hRootHandle);
 Если не установлен флаг [Интернета флаг кэширования \_ \_ \_ \_ записи](api-flags.md) или подключения к [Интернету \_ флага \_ \_ кэша не](api-flags.md) , [**интернетлоккрекуестфиле**](/windows/desktop/api/Wininet/nf-wininet-internetlockrequestfile) создает временный файл с расширением TMP, если только этот маркер не подключен к ресурсу HTTPS. Если функция обращается к ресурсу HTTPS и \_ флагу Интернета \_ не \_ задано кэширование \_ записи кэша (или \_ кэш не Internet Flag \_ \_ ), [**интернетлоккрекуестфиле**](/windows/desktop/api/Wininet/nf-wininet-internetlockrequestfile) завершается с ошибкой.
 
 > [!Note]  
-> WinINet не поддерживает реализации серверов. Кроме того, его не следует использовать из службы. Для серверных реализаций или служб используйте [службы Microsoft Windows HTTP Services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet не поддерживает реализации серверов. Кроме того, его не следует использовать из службы. для серверных реализаций или служб используйте [Microsoft Windows HTTP services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
  
 

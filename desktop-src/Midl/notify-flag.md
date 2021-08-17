@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: af61999f0527b599cf358c38288a8c67473445a9
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: e9fb7479667fb9757924dcba765c34138cf01c1ad6645ce7bfdc525be393e77f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104068826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066878"
 ---
 # <a name="notify_flag-attribute"></a>\_атрибут флага notify
 
@@ -38,7 +38,7 @@ ms.locfileid: "104068826"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Атрибут **\[ \_ флага \] Notify** аналогичен применению к атрибуту **\[ Notify \]** .
 
@@ -81,9 +81,9 @@ void MyProcedure_notify_flag(boolean __MIDL_NotifyFlag);
 [**явлении**](notify.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

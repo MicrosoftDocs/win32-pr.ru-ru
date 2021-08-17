@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 53bfc903f8bc1be56962e912b1c82f02faaf0c44
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 70ff3ca1fb2509cd5f788cc1965920c46af5791bec10bb833df19f4b4f9be533
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104998010"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119938"
 ---
 # <a name="state-objects"></a>Объекты состояния
 
@@ -262,13 +262,13 @@ ProceduralPrimitiveHitGroup MyProceduralHitGroup
 
 Обратите внимание, что в трех полях используются *экспортированные* имена. Экспортированное имя может отличаться от исходного имени в HLSL, если приложение выбирает экспорт-переименование.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Подобъекты имеют понятие "Ассоциация" или "какой подобъект проходит с помощью экспорта".
 
 При указании подобъектов с помощью кода шейдера выбирается параметр «какой подобъект проходит с экспортом» согласно правилам, описанным в [спецификации дкср](https://microsoft.github.io/DirectX-Specs/d3d/Raytracing.html#subobject-association-behavior). В частности, предположим, что в приложении есть экспорт. Если приложение связывается с экспортом с корневой подписью A с помощью шейдера и корневой сигнатуры B с помощью кода приложения, то используется именно объект B. Проектирование «использование B» вместо «создание ошибки» дает приложениям возможность удобно переопределять ассоциации ДКСИЛ с помощью кода приложения, а не принудительно перекомпилировать шейдеры для устранения несоответствий.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

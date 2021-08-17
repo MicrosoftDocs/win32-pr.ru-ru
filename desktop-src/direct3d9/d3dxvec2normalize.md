@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 3322981be5c266bee20a61e85302cb22538a7b0d
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c366ef54c609f2c896b78510bfbe771260b9ef4cdc38c42d3fe0393e1e2a17dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108097972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119122588"
 ---
 # <a name="d3dxvec2normalize-function-d3dx9mathh"></a>Функция D3DXVec2Normalize (D3dx9math. h)
 
@@ -75,12 +75,12 @@ D3DXVECTOR2* D3DXVec2Normalize(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

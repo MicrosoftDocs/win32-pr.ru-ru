@@ -4,12 +4,12 @@ ms.assetid: 3bdc37da-227c-4be1-bf0b-99704b8acbe1
 title: Сообщение WM_ERASEBKGND (Winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7dccde6ab4efa8a6589fe7d422dd9e1c04e425f9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1c74c3b0d1dd2e31e88715d0668f53676759c27cb986b6549fe9e001ab394579
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265438"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931784"
 ---
 # <a name="wm_erasebkgnd-message"></a>\_Сообщение ЕРАСЕБКГНД WM
 
@@ -46,7 +46,7 @@ ms.locfileid: "104265438"
 
 Приложение должно вернуть ненулевое значение, если удаляет фон. в противном случае он должен вернуть ноль.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция [**дефвиндовпрок**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) удаляет фон, используя кисть фона класса, заданную элементом **хбрбаккграунд** структуры [**вндкласс**](/windows/win32/api/winuser/ns-winuser-wndclassa) . Если **хбрбаккграунд** имеет **значение NULL**, приложение должно обработать сообщение **WM \_ ерасебкгнд** и стереть фон.
 
@@ -60,7 +60,7 @@ ms.locfileid: "104265438"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

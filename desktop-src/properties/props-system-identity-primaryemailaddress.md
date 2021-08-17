@@ -4,12 +4,12 @@ ms.assetid: 17a1018f-0bb7-4e4e-b518-2cbf83a33bd9
 title: System. Identity. Примаремаиладдресс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74089b3051ece88eb28cb8c2c3a74adce03fa6b2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f4e6f54eb830e2f5302fd7bf09a07f0d6513f3f7d1569ef5f59e46360ce53771
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119598694"
 ---
 # <a name="systemidentityprimaryemailaddress"></a>System. Identity. Примаремаиладдресс
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

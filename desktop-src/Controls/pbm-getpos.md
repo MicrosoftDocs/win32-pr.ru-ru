@@ -3,7 +3,7 @@ title: Сообщение PBM_GETPOS (Коммктрл. h)
 description: Извлекает текущее расположение индикатора выполнения.
 ms.assetid: 76f49ec6-f2e1-4486-be8a-7dfd49f8b82c
 keywords:
-- Элементы управления Windows для PBM_GETPOS сообщений
+- элементы управления Windows сообщений PBM_GETPOS
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e23078a75cfaf3a9002a9a5da79752965cbd620
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e4b32ce5c18554ed8eb59c970e48a8ffd8f7991cf7dd85c59458460968a766dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119433534"
 ---
 # <a name="pbm_getpos-message"></a>\_Сообщение ЖЕТПОС PBM
 
@@ -45,9 +45,9 @@ ms.locfileid: "104136643"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

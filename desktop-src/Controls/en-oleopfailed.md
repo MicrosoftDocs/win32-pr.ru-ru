@@ -3,7 +3,7 @@ title: Код уведомления EN_OLEOPFAILED (RichEdit. h)
 description: Сообщает родительскому окну элемента управления Rich Edit, что при выполнении действия пользователя в объекте модели COM произошла ошибка. Форматированный элемент управления "поле ввода" отправляет этот код уведомления в виде \_ сообщения WM notify.
 ms.assetid: b674c36f-2454-473e-8e1c-368c0afd8c34
 keywords:
-- EN_OLEOPFAILED кода уведомления элементы управления Windows
+- EN_OLEOPFAILED кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 139c51642c8cb6d5efd369cf6b373068604439b0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8a0391bfc61ff9350758ac81ff6f54fb1cff61d0dd1ebbcb2b8ef02ada9fe3fd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119436684"
 ---
 # <a name="en_oleopfailed-notification-code"></a>\_Код уведомления EN олеопфаилед
 
@@ -49,7 +49,7 @@ EN_OLEOPFAILED
 
 Этот код уведомления возвращает ноль.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Родительское окно всегда будет получать сообщение [**WM \_ Notify**](wm-notify.md) для этого события, оно не требует отправки маски уведомления с [**\_ SETEVENTMASK EM**](em-seteventmask.md).
 
@@ -59,9 +59,9 @@ EN_OLEOPFAILED
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 
 

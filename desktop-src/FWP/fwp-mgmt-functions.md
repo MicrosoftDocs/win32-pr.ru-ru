@@ -1,21 +1,21 @@
 ---
 title: Функции управления
-description: Функции управления платформой фильтрации Windows (WFP) для обработчика фильтров приведены ниже.
+description: функции управления платформы фильтрации Windows (WFP) для обработчика фильтров приведены ниже.
 ms.assetid: 983eb1bb-af6b-42cf-8148-ed3a0e3102a9
 keywords:
-- Функции управления API платформы фильтрации Windows
+- Windows Функции управления API платформы фильтрации
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ab42fc22d6e51e85a1e03f4835ee510917ff534
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 0163119df45f278d4c5e0c4a2f2563cdc16db4e4994e17a2aba5ea7cc621f383
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "105681618"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069214"
 ---
 # <a name="management-functions"></a>Функции управления
 
-Функции управления платформой фильтрации Windows (WFP) для обработчика фильтров приведены ниже.
+функции управления платформы фильтрации Windows (WFP) для обработчика фильтров приведены ниже.
 
 Управление выносками
 
@@ -186,6 +186,6 @@ ms.locfileid: "105681618"
 -   [**FwpmvSwitchEventSubscribe0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmvswitcheventsubscribe0)
 -   [**FwpmvSwitchEventUnsubscribe0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmvswitcheventunsubscribe0)
 
- 
+ 
 
- 
+ 

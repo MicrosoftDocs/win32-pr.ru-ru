@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: df3ffb51bbe8fe8150d19a390e62640e64ded5c9
-ms.sourcegitcommit: 12e9b14501d51641b690ee0cf764e2b91eb9a140
+ms.openlocfilehash: 7dbf13629b9c3b9b38cc3bd72a8a992ab40bd09c0333c155a7c109f71466f23b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "104412406"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119248"
 ---
 # <a name="interlockedcomparestore-function-hlsl-reference"></a>Функция Интерлоккедкомпаресторе (Справочник по HLSL)
 
@@ -28,9 +28,9 @@ ms.locfileid: "104412406"
 
 ``` syntax
 void InterlockedCompareStore(
-  in R dest,
-  in T compare_value,
-  in T value
+  in R dest,
+  in T compare_value,
+  in T value
 );
 ```
 
@@ -69,7 +69,7 @@ void InterlockedCompareStore(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Атомарно сравнивает значение, на которое ссылается *dest* , *со \_ значением Compare* , и сохраняет *значение* в расположении, на которое ссылается *dest* , если значения совпадают. Эта операция может выполняться только с типизированными ресурсами **типа int** или **uint** и переменными общей памяти. Существует два возможных использования этой функции. Первый — когда R является переменной общей памяти. В этом случае функция выполняет операцию с регистром общей памяти, на который ссылается *dest*. Второй сценарий заключается в том, что R является типом переменной ресурса. В этом сценарии функция выполняет операцию с расположением ресурса, на которое ссылается *dest*.
 
@@ -81,23 +81,23 @@ void InterlockedCompareStore(
 
 | Модель шейдера                                                                | Поддерживается |
 |-----------------------------------------------------------------------------|-----------|
-| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | да       |
+| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | Да       |
 
 
 
- 
+ 
 
 Эта функция поддерживается в следующих типах шейдеров:
 
 
 
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
+| Вершина | Поверхности | Домен | Геометрия | Пиксель | Службы вычислений |
 |--------|------|--------|----------|-------|---------|
 |  x     | x    |  x     |  x       | x     | x       |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -109,9 +109,9 @@ void InterlockedCompareStore(
 [Модель шейдера 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

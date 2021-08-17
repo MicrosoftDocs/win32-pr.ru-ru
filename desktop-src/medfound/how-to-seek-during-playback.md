@@ -4,12 +4,12 @@ ms.assetid: 8ccca882-5543-4913-8eb9-8adaed2c57aa
 title: Поиск во время воспроизведения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a16d7ad964335db100c84f0a396b7f13de7a270d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b47e035ff8cc3764a9080698e8596660ce61907319bda70ac019b4cba1f8c27f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974423"
 ---
 # <a name="how-to-seek-during-playback"></a>Поиск во время воспроизведения
 
@@ -24,9 +24,9 @@ ms.locfileid: "105683026"
 
 ## <a name="requirements"></a>Требования
 
-Для Мфплай требуется Windows 7.
+для мфплай требуется Windows 7.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

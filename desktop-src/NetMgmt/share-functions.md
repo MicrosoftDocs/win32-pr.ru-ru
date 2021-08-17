@@ -4,12 +4,12 @@ description: Функции общего доступа к управлению 
 ms.assetid: 3764c667-2290-48e6-ba3a-c74eee2c27f9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5034d46e233ebb7ed4de691bd79942a3ecdf5263
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e97dc4570c3ef1300322bdf9bd4c9616176e31661319ac77378c61a71667523f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119064294"
 ---
 # <a name="share-functions"></a>Функции общего доступа
 
@@ -30,7 +30,7 @@ ms.locfileid: "104413516"
 
 
 
- 
+ 
 
 Эти функции общего доступа применяются только к общим папкам на сервере Server Message Block (LAN Manager). Эти функции общего доступа не поддерживают общие папки распределенная файловая система (DFS). Например, функция [**нетшарежетинфо**](/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo) может получать сведения только об указанном ресурсе на SMB-сервере. Чтобы получить сведения для общего ресурса с помощью другого поставщика сети (например, WebDAV или общей папки DFS), используйте функцию [**внетжетконнектион**](/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetconnectiona) .
 
@@ -63,6 +63,6 @@ ms.locfileid: "104413516"
 
 При программировании для Active Directory можно вызвать определенные методы интерфейса Active Directory (ADSI) для достижения тех же функций, которые можно достичь, вызвав функции общего доступа к управлению сетью. Дополнительные сведения см. в разделе [**иадсфилешаре**](/windows/desktop/api/iads/nn-iads-iadsfileshare).
 
- 
+ 
 
- 
+ 

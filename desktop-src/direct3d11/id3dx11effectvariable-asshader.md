@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e3c8d9f1a487e4003bd032180d1f815e4a48fe0f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 050ed69e9a4f498cb28062dcf493f88f4132e7578b436e3c0f54420d57264fd4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104998588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119376484"
 ---
 # <a name="id3dx11effectvariableasshader-method"></a>Метод ID3DX11EffectVariable:: Асшадер
 
@@ -47,7 +47,7 @@ ID3DX11EffectShaderVariable* AsShader();
 
 Указатель на переменную шейдера. См. [**ID3DX11EffectShaderVariable**](id3dx11effectshadervariable.md).
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Асшадер Возвращает версию переменной Effect, которая была специализированной для переменной шейдера. Как и в приведении, эта специализация возвращает недопустимый объект, если переменная действия не содержит данных шейдера.
 
@@ -58,13 +58,13 @@ ID3DX11EffectShaderVariable* AsShader();
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
+| Заголовок<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
 | Библиотека<br/> | <dl> <dt>Н/д (библиотека Effects 11 доступна в сети в качестве общего источника.)</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ description: Поведение устройства определяется п
 ms.assetid: 5b352870-6de1-42f2-a178-ed7036b7afc9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb702adf3ccb0f21bc71f08e98427cca15495f3b
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: fce2857c11a02ef5eeebe7b2cd5e75ee76138929e5bd95a2e3bdfa7ffd2c71dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105651246"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137267"
 ---
 # <a name="implementing-device-behavior"></a>Реализация поведения устройства
 
@@ -175,7 +175,7 @@ interface IUPnPService_scpd : IUnknown
 
 Объект, предоставляющий функциональность для службы, называется [*объектом службы*](s-gly.md). Помимо предоставления функциональных возможностей службы, объекты службы обрабатывали ошибки с помощью интерфейса [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) . Дополнительные сведения см. в разделе [Использование API узла устройства с технологией UPnP](using-the-device-host-api-with-upnp-technology.md).
 
-Чтобы обеспечить совместимость с Visual Basic, который не поддерживает \[ параметры out \] , параметры/директион **направления** в описании службы преобразуются в \[ выходные \] Параметры в IDL. Сервер должен освободить эти \[ выходные \] Параметры.
+чтобы обеспечить совместимость с Visual Basic, который не поддерживает \[ параметры out \] , параметры/директион **направления** в описании службы преобразуются в \[ выходные \] параметры в IDL. Сервер должен освободить эти \[ выходные \] Параметры.
 
 ## <a name="implementing-a-device-control-object"></a>Реализация объекта управления устройством
 

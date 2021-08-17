@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a20503d38523463a3b8b78564bf2412aa5a75074
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e7f9a685301c531a69516df56ec1eaf774e59115415b944cb18c367b25db094
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119401994"
 ---
 # <a name="jet_bklogtimeequals-method-object"></a>JET_BKLOGTIME. Метод Equals (Object)
 

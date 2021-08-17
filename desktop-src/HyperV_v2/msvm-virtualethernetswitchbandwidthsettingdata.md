@@ -19,12 +19,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: ec94409366761ee208d3e8a6af59a4d07527d82f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8b176cb09efdcb701cdf9cd2c4c85bda54c4ebb03712568b5e1c8240d41277c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105650956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119148167"
 ---
 # <a name="msvm_virtualethernetswitchbandwidthsettingdata-class"></a>\_Класс мсвм виртуалесернетсвитчбандвидссеттингдата
 
@@ -53,13 +53,13 @@ class Msvm_VirtualEthernetSwitchBandwidthSettingData : Msvm_EthernetSwitchFeatur
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ виртуалесернетсвитчбандвидссеттингдата** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -68,7 +68,7 @@ class Msvm_VirtualEthernetSwitchBandwidthSettingData : Msvm_EthernetSwitchFeatur
 Тип доступа: только для чтения
 </dt> </dl>
 
-Краткое описание объекта. Это свойство наследуется от класса [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement) и всегда имеет значение "Параметры пропускной способности коммутатора Ethernet".
+Краткое описание объекта. это свойство наследуется от класса [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement) и всегда имеет значение "пропускная способность коммутатора Ethernet Параметры".
 
 </dd> <dt>
 
@@ -126,7 +126,7 @@ class Msvm_VirtualEthernetSwitchBandwidthSettingData : Msvm_EthernetSwitchFeatur
 Тип доступа: только для чтения
 </dt> </dl>
 
-Отображаемое имя объекта. Это свойство наследуется [**от \_ SettingData в CIM**](/previous-versions//cc136911(v=vs.85))и всегда имеет значение "Параметры пропускной способности коммутатора Ethernet".
+Отображаемое имя объекта. это свойство наследуется [**от \_ SettingData в CIM**](/previous-versions//cc136911(v=vs.85))и всегда имеет значение "пропускная способность коммутатора Ethernet Параметры".
 
 </dd> <dt>
 
@@ -152,8 +152,8 @@ class Msvm_VirtualEthernetSwitchBandwidthSettingData : Msvm_EthernetSwitchFeatur
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 5407e56b761dd545d20b89e0a28742f9c542b15a
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 0e0b73626cb12d384b2c2b0269acc09cc44e2a506835d6cc9fca3990b4d8d670
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108109402"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119148047"
 ---
 # <a name="removebootsourcesettings-method-of-the-msvm_virtualsystemmanagementservice-class"></a>Метод Ремовебутсаурцесеттингс \_ класса Виртуалсистемманажементсервице мсвм
 
@@ -106,7 +106,7 @@ uint32 RemoveBootSourceSettings(
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

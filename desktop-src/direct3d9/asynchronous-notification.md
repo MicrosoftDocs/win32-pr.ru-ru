@@ -4,12 +4,12 @@ ms.assetid: 81e1c5c5-03bc-4598-814e-14e56513e221
 title: Асинхронное уведомление (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8aee8acb791e2e1e2de7eb305cc19df4e7711e2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: dbd23a64e613bbbae56154dc35c05bcf08b75c4c91f306360153e775e12c40ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701219"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123421"
 ---
 # <a name="asynchronous-notification-direct3d-9"></a>Асинхронное уведомление (Direct3D 9)
 
@@ -25,7 +25,7 @@ ms.locfileid: "105701219"
 
 
 
-| куертитипе                    | Допустимый флаг проблемы              | Буфер GetData              | Параметры выполнения      | Неявное начало запроса |
+| куертитипе                    | Допустимый флаг проблемы              | Буфер GetData              | Среда выполнения      | Неявное начало запроса |
 |-------------------------------|-------------------------------|-----------------------------|--------------|-----------------------------|
 | D3DQUERYTYPE \_ вкаче          | D3DISSUE \_ конец                 | D3DDEVINFO \_ вкаче          | Розничная или отладочная | креатедевице                |
 | D3DQUERYTYPE \_ ResourceManager | D3DISSUE \_ конец                 | D3DDEVINFO \_ ResourceManager | Только Отладка   | Присутствует                     |
@@ -68,11 +68,11 @@ ms.locfileid: "105701219"
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Советы по программированию](programming-tips.md)
+[Советы программирования](programming-tips.md)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ ms.assetid: 3ca38760-e979-48ba-b87f-5dc742e046af
 title: System. комментарий
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 199597265dc9ddf8f8322b0854c8d6a53452c798
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6b377cef5a837ee8dcf4e3547a822504e3643f696bfe2433bcac11c721aa52fa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119353514"
 ---
 # <a name="systemcomment"></a>System. комментарий
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
