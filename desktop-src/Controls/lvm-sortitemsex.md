@@ -3,7 +3,7 @@ title: Сообщение LVM_SORTITEMSEX (Коммктрл. h)
 description: Использует определяемую приложением функцию сравнения для сортировки элементов элемента управления "представление списка". Индекс каждого элемента изменяется в соответствии с новой последовательностью. Это сообщение можно отправить явно или с помощью \_ макроса Сортитемсекс ListView.
 ms.assetid: eab2f6f5-68fd-4cb6-acf4-cb267ee40fdc
 keywords:
-- Элементы управления Windows для LVM_SORTITEMSEX сообщений
+- элементы управления Windows сообщений LVM_SORTITEMSEX
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 99e524b00cb5ff1260eb68e7d86e185e5ae60c75
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ef492ff11980e764b33942f54c0732a64e799a94dde0e3d872ef0cb7bfb66c0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071191"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118170370"
 ---
 # <a name="lvm_sortitemsex-message"></a>\_Сообщение LVM сортитемсекс
 
@@ -47,7 +47,7 @@ ms.locfileid: "104071191"
 
 Возвращает **значение true** , если успешно, или **false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция сравнения имеет следующий вид:
 
@@ -70,9 +70,9 @@ int CALLBACK CompareFunc(LPARAM lParam1, LPARAM lParam2, LPARAM lParamSort);
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msident.dll
-ms.openlocfilehash: 43355a9585fc4099c8649f7df506ff3495a53944
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4848ec183096b37adbc04521fab04fd800d3783377d1e14b3abd068819648ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104345385"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117678941"
 ---
 # <a name="ienumuseridentitygetcount-method"></a>Метод Иенумусеридентити:: NOCOUNT
 
@@ -44,9 +44,9 @@ HRESULT GetCount(
 *пнкаунт* \[ заполняет\]
 </dt> <dd>
 
-Тип: **ulong \** _
+Тип: **ulong \***
 
-Указатель на _ *ulong**, получающий счетчик.
+Указатель на **ulong** , получающая счетчик.
 
 </dd> </dl>
 
@@ -56,7 +56,7 @@ HRESULT GetCount(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Если поддержка нескольких удостоверений пользователей отключена, *пнкаунт* получит значение 1.
 
@@ -66,11 +66,11 @@ HRESULT GetCount(
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                   |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                   |
 | Окончание поддержки клиента<br/>    | Windows XP<br/>                                                                  |
 | Поддержка конца сервера<br/>    | Windows Server 2003<br/>                                                         |
-| Header<br/>                   | <dl> <dt>Мсидент. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Мсидент. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Мсидент. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Msident.dll</dt> </dl> |
 

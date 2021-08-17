@@ -15,16 +15,16 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: b7305d0fa6ef45b5a97eb0fb6ab9ea740c98a392
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0fccc6600e0eb5f04fd7d00360402ad85a94746e55781acbd6b1a35c7f9b94fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117812109"
 ---
 # <a name="cim_logicaldisk-class-hyper-v-management"></a>Класс CIM_LogicalDisk (Управление Hyper-V)
 
-Представляет непрерывный диапазон логических блоков, идентифицируемый файловой системой с помощью поля **DeviceID** диска (Key). Например, в среде Windows поле **DeviceID** содержит букву диска; в среде UNIX она содержит путь доступа. и в среде NetWare он содержит имя тома.
+Представляет непрерывный диапазон логических блоков, идентифицируемый файловой системой с помощью поля **DeviceID** диска (Key). например, в Windowsной среде поле **DeviceID** содержит букву диска; в UNIXной среде она содержит путь доступа. и в среде NetWare он содержит имя тома.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -43,7 +43,7 @@ class CIM_LogicalDisk : CIM_StorageExtent
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс логического логического класса **CIM \_** имеет эти свойства.
 

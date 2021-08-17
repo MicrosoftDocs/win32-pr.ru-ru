@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: c6c0fd5b534c13f8fae2e6759645ac812fc3986c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de3769f869838cd3a6660229a452ea7fbd96f943ac7421523c523662da205dac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104423730"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117863957"
 ---
 # <a name="isearchitem-interface"></a>Интерфейс Исеарчитем
 
@@ -44,11 +44,11 @@ ms.locfileid: "104423730"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-[**Исеарчитем:: жетпарентфолдер**](-search-isearchitem-getparentfolder.md) поддерживается только в Windows XP и windows Server 2003 и больше не следует использовать.
+[**исеарчитем:: жетпарентфолдер**](-search-isearchitem-getparentfolder.md) поддерживается только в Windows XP и Windows Server 2003 и больше не следует использовать.
 
-Для предварительного просмотра вложений с помощью обработчика протоколов стороннего производителя на компьютерах под управлением Windows XP или Windows Server 2003 может потребоваться использовать интерфейс **исеарчитем** и следующие API: интерфейсы [**иитемпревиеверекст**](-search-iitempreviewerext.md), [**Иитемпропертибаг**](iitempropertybag.md)и [**исеарчпротоколуи**](-search-isearchprotocolui.md) , структура [**линкинфо**](-search-linkinfo.md) и [**перечисление**](-search-linktype.md) типов ссылок.
+для предварительного просмотра вложений с помощью обработчика протоколов стороннего производителя на компьютерах под управлением Windows XP или Windows Server 2003 может потребоваться использовать интерфейс **исеарчитем** и следующие api: интерфейсы [**иитемпревиеверекст**](-search-iitempreviewerext.md), [**иитемпропертибаг**](iitempropertybag.md)и [**исеарчпротоколуи**](-search-isearchprotocolui.md) , структура [**линкинфо**](-search-linkinfo.md) и [**перечисление**](-search-linktype.md) типов ссылок.
 
 ## <a name="requirements"></a>Требования
 
@@ -56,9 +56,9 @@ ms.locfileid: "104423730"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для настольных приложений Windows XP с пакетом обновления 2 \[\]<br/> |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/> |
-| Распространяемые компоненты<br/>          | Поиск на рабочем столе Windows (WDS) 3,0<br/>          |
+| Минимальная версия клиента<br/> | Windows XP с пакетом обновления 2 (SP2) \[ только классические приложения\]<br/> |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/> |
+| Распространяемые компоненты<br/>          | Windows Поиск на рабочем столе (WDS) 3,0<br/>          |
 
 
 

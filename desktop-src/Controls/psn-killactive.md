@@ -3,7 +3,7 @@ title: Код уведомления PSN_KILLACTIVE (Пршт. h)
 description: Уведомляет страницу о том, что она собирается потерять активацию из-за активации другой страницы или нажатия пользователем кнопки ОК. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: 470cd6ff-73ad-451a-a861-4d3324a8a8db
 keywords:
-- PSN_KILLACTIVE кода уведомления элементы управления Windows
+- PSN_KILLACTIVE кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ae5f90670c79797ef8576c5e6e3911255ab5fe1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5eaf1a5221e186ebe5f01f942ec99d82906ea87ef7f1b8f73860bade24ab1751
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118169654"
 ---
 # <a name="psn_killactive-notification-code"></a>\_Код уведомления PSN киллактиве
 
@@ -49,7 +49,7 @@ PSN_KILLACTIVE
 
 Возвращает **значение true** , чтобы предотвратить потерю страницы при активации, или **false** , чтобы разрешить ее.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение обрабатывает этот код уведомления для проверки вводимых пользователем данных.
 
@@ -68,9 +68,9 @@ PSN_KILLACTIVE
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                               |
-| Header<br/>                   | <dl> <dt>Пршт. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                               |
+| Заголовок<br/>                   | <dl> <dt>Пршт. h</dt> </dl> |
 
 
 

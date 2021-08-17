@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ffc340516f1d99bb77dcc5a31c03eb189d2d70a8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 95282c48ac30b13af07c124ea21f36f91c7ae658b10d290a109fdd1dcc7a5ee5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117955012"
 ---
 # <a name="systemmonitorreportvaluetype-property"></a>Системмонитор. Репортвалуетипе, свойство
 
@@ -42,7 +42,7 @@ Property ReportValueType As ReportValueTypeConstants
 
 Определяет, отображает ли гистограмма и представления отчетов Последнее значение, выборка которого производилось в интервале выборки, или вычисленное значение из интервала выборки. Возможные значения см. в разделе [**репортвалуетипеконстантс**](/windows/win32/api/isysmon/ne-isysmon-reportvaluetypeconstants).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 СИСМОН игнорирует это значение и использует [**ReportValueTypeConstants.sysмондефаултвалуе**](/windows/win32/api/isysmon/ne-isysmon-reportvaluetypeconstants) , если [**системмонитор. Дисплайтипе**](systemmonitor-displaytype.md) не [**DisplayTypeConstants.sysмонхистограм**](/windows/win32/api/isysmon/ne-isysmon-displaytypeconstants) или **DisplayTypeConstants.sysмонрепорт**.
 

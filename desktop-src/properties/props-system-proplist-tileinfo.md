@@ -4,12 +4,12 @@ ms.assetid: f9e7213d-5607-4f85-bb56-34ecf546380e
 title: System. Проплист. Тилеинфо
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 12fbc109c886a9d4e463b957368b118695e35c9a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7785d7ccf62893215e0b18a8df04ac98fd05c789b07f6c8f67bed0d315596729
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702598"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118228161"
 ---
 # <a name="systemproplisttileinfo"></a>System. Проплист. Тилеинфо
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

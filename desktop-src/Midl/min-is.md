@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ee00eb999f6c043593714ea0a38567d8f5773af
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: a57e5222635b00b8ba5eac7f6c7185a904d57303c9f6b0754e49eded6c7739a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "105661659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117806672"
 ---
 # <a name="min_is-attribute"></a>min \_ — атрибут
 
@@ -36,9 +36,9 @@ ms.locfileid: "105661659"
 [**Максимальное \_ число**](max-is.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

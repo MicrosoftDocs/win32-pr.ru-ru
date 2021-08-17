@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f63a922fe86dc10d984369a1a872f84089b4db34
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f9581418eb2a3d8736fcd0e125eaafec11494e6b6d5471cef33f9592475d5ec0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104983984"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117725682"
 ---
 # <a name="tex2dlod"></a>tex2Dlod
 
@@ -72,7 +72,7 @@ ms.locfileid: "104983984"
 
 | Модель шейдера                                                                       | Поддерживается |
 |------------------------------------------------------------------------------------|-----------|
-| [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) и более высокие модели шейдеров | да       |
+| [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) и более высокие модели шейдеров | Да       |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md)                          | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md)                          | Нет        |
 
@@ -80,7 +80,7 @@ ms.locfileid: "104983984"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Начиная с Direct3D 10 можно использовать новый синтаксис HLSL для доступа к текстурам и другим ресурсам. Можно заменить встроенные функции поиска текстур, такие как **tex2Dlod**, более объектно-ориентированным стилем. В этом объектно-ориентированном стиле текстуры отделены от образцов и имеют методы для загрузки и выборки.
 

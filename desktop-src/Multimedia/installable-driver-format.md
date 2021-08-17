@@ -10,17 +10,17 @@ keywords:
 - форматы драйверов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86fbbdcb8a49184dee6e9cf13c9f434506b1b48f
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 9c02f6bb2515d1f182146b84b7f0b971fa4b73fe2e2caf5abf63dfd4ddb272df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104337236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118140793"
 ---
 # <a name="installable-driver-format"></a>Формат устанавливаемого драйвера
 
 Каждый устанавливаемый драйвер экспортирует функцию [дриверпрок](/windows/win32/api/mmiscapi/nc-mmiscapi-driverproc) . Эта общая функция точки входа получает от системы *сообщения драйвера* , которые направляют драйвер для выполнения действий или предоставления информации. Система отправляет сообщения драйвера в функцию **дриверпрок** , когда приложение или библиотека DLL открывает или закрывает драйвер или запрашивает отправку сообщения драйверу. Функция **дриверпрок** обрабатывает сообщение или передает сообщение в обработчик сообщений по умолчанию, функцию [дефдриверпрок](/windows/win32/api/mmiscapi/nf-mmiscapi-defdriverproc) . В любом случае **дриверпрок** должен возвращать значение, указывающее, было ли запрошенное действие успешным.
 
- 
+ 
 
- 
+ 

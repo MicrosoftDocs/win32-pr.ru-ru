@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 53e66ccd5bdd34c4767001403439f4372ff2938a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 01c82a5f506673b6145b468004bbc900d3acdb051f525df20930344137618e72
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117824117"
 ---
 # <a name="cbasefilterincrementpinversion-method"></a>Кбасефилтер. Инкрементпинверсион, метод
 
@@ -44,7 +44,7 @@ void IncrementPinVersion();
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод увеличивает значение переменной члена [**кбасефилтер:: m \_ пинверсион**](cbasefilter-m-pinversion.md) . Если фильтр динамически создает или уничтожает ПИН-коды, вызывайте этот метод при каждом изменении ПИН-кода.
 
@@ -54,7 +54,7 @@ void IncrementPinVersion();
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Амфилтер. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>амфилтер. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

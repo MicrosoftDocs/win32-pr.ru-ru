@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - WmiProv.dll
-ms.openlocfilehash: a08e38a38bb5f5e8d539fabdf69c429c42f4b1f6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa86add32d77a5b2838fc78eaf097c11b8a15db3f0fde9186f93046691ebc3f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117926570"
 ---
 # <a name="wmimonitordigitalvideoinputparams-class"></a>Класс Вмимонитордигиталвидеоинпутпарамс
 
@@ -44,7 +44,7 @@ class WmiMonitorDigitalVideoInputParams : MSMonitorClass
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **вмимонитордигиталвидеоинпутпарамс** имеет следующие свойства.
 

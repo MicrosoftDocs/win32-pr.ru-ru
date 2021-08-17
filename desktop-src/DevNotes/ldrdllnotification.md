@@ -13,16 +13,16 @@ api_name:
 api_type:
 - UserDefined
 api_location: ''
-ms.openlocfilehash: e29cd7b17c634250f56cbafcf86379449ac88199
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e1e9bea21cd4e21ca7549ce34343b42c50b293471e69576d7c1164f92a371c62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895342"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118004109"
 ---
 # <a name="ldrdllnotification-callback-function"></a>Функция обратного вызова Лдрдллнотификатион
 
-\[Эта функция может быть изменена или удалена из Windows без предварительного уведомления.\]
+\[эта функция может быть изменена или удалена из Windows без предварительного уведомления.\]
 
 Функция обратного вызова уведомлений, указанная с помощью функции [**лдррегистердллнотификатион**](ldrregisterdllnotification.md) . Загрузчик вызывает эту функцию при первой загрузке библиотеки DLL.
 
@@ -112,7 +112,7 @@ typedef struct _LDR_DLL_UNLOADED_NOTIFICATION_DATA {
 
 Эта функция обратного вызова не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция обратного вызова уведомлений вызывается до того, как будет выполнена динамическая компоновка.
 
@@ -122,8 +122,8 @@ typedef struct _LDR_DLL_UNLOADED_NOTIFICATION_DATA {
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

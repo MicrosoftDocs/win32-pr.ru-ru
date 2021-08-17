@@ -43,12 +43,12 @@ api_type:
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 07/27/2020
-ms.openlocfilehash: 2b0054920f3cb2ae323a9655b1b028da473e119f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 60419d947036516e093d481f3fc0d8caa097671c13bd4fe3fc8e95d21cc3cb83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117832484"
 ---
 # <a name="button-styles"></a>Стили кнопок
 
@@ -76,7 +76,7 @@ HRESULT Button::CreateText(HWND hParent, const TCHAR *szCaption, int nID,
     return Control::Create(create);
 }
 ```
-Пример из [классической выборки Windows](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/Win7Samples/multimedia/directshow/common/button.cpp) на сайте GitHub.
+пример из [Windows классических примеров](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/Win7Samples/multimedia/directshow/common/button.cpp) на GitHub.
 
 
 ## <a name="constants"></a>Константы
@@ -111,12 +111,12 @@ HRESULT Button::CreateText(HWND hParent, const TCHAR *szCaption, int nID,
 | <span id="BS_TEXT"></span><span id="bs_text"></span><dl> <dt>**\_текст BS**</dt> </dl>                                  | Указывает, что кнопка отображает текст.<br/>                                                                                                                                                                                                                                                                                                                                                        |
 | <span id="BS_TOP"></span><span id="bs_top"></span><dl> <dt>**\_верхний край сверху**</dt> </dl>                                     | Размещает текст в верхней части прямоугольника кнопки.<br/>                                                                                                                                                                                                                                                                                                                                                 |
 | <span id="BS_TYPEMASK"></span><span id="bs_typemask"></span><dl> <dt>**BS \_ типемаск**</dt> </dl>                      | Не используйте этот стиль. Бит составного стиля, полученный в результате использования оператора OR в \_ \* битах в стиле BS. Его можно использовать для маскирования допустимых битов подсчета \_ \* из заданной битовой маски. Обратите внимание, что эта Дата устарела и неправильно включает все допустимые стили. Поэтому не следует использовать этот стиль.<br/>                                                                                               |
-| <span id="BS_USERBUTTON"></span><span id="bs_userbutton"></span><dl> <dt>**BS \_ усербуттон**</dt> </dl>                | Устаревший, но они предоставляются для обеспечения совместимости с 16-разрядными версиями Windows. Вместо этого приложения должны использовать BS \_ овнердрав.<br/>                                                                                                                                                                                                                                                                        |
+| <span id="BS_USERBUTTON"></span><span id="bs_userbutton"></span><dl> <dt>**BS \_ усербуттон**</dt> </dl>                | Устарел, но он предоставляется для обеспечения совместимости с 16-разрядными версиями Windows. Вместо этого приложения должны использовать BS \_ овнердрав.<br/>                                                                                                                                                                                                                                                                        |
 | <span id="BS_VCENTER"></span><span id="bs_vcenter"></span><dl> <dt>**BS \_ vCenter**</dt> </dl>                         | Размещает текст в середине (вертикально) прямоугольника кнопки.<br/>                                                                                                                                                                                                                                                                                                                                 |
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Иллюстрации стилей кнопок основного сервера, таких как флажок BS \_ и элемент BS \_ , см. в разделе [типы кнопок](button-types-and-styles.md).
 
@@ -141,7 +141,7 @@ HRESULT Button::CreateText(HWND hParent, const TCHAR *szCaption, int nID,
 
 | Требование | Значение |
 |-------------------|--------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Winuser. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Winuser. h</dt> </dl> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: eb4c1352-1432-4f45-a309-fa17b694a35e
 title: Создание новых функциональных возможностей
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d660c14e99247c7d17f57100858b104d1cbcc9ff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ccd528e7e9cf62896c74de07f042dec0e77a7dba5fe5fee32b9b1e2eb229da7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104541007"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117768877"
 ---
 # <a name="creating-the-new-functionality"></a>Создание новых функциональных возможностей
 

@@ -4,12 +4,12 @@ ms.assetid: 264cc7c3-987c-4832-85a2-087278a4d024
 title: Фильтр модуля подготовки отчетов для команды внутреннего скрипта
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b241643d991e9348015dc51ea5b2f1c4875f079d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 58ed1afa417b542b0eabbb7c01b8b8d477b8145809da3339e6b6c80d471a71cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104537349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117818691"
 ---
 # <a name="internal-script-command-renderer-filter"></a>Фильтр модуля подготовки отчетов для команды внутреннего скрипта
 
@@ -82,11 +82,11 @@ ms.locfileid: "104537349"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Фильтры DirectShow](directshow-filters.md)
+[DirectShow Фильтрующ](directshow-filters.md)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ description: Объявите идентификатор контрольной 
 ms.assetid: 376ECA4F-DD71-4466-8A9D-E92A536832BC
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9cee49a8a825f25b0fbbccff027d5ad1b9ade514
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 230e4cb74c5fdcf5519ed4de9d632c1b336ceaf82a961644e26f749a9a7df7b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104069386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117727116"
 ---
 # <a name="dcl_input-voutputcontrolpointid-sm5---asm"></a>дкл \_ input ваутпутконтролпоинтид (SM5-ASM)
 
@@ -34,13 +34,13 @@ ms.locfileid: "104069386"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта инструкция применяется к следующим этапам шейдера:
 
 
 
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
+| Вершина | Поверхности | Домен | Геометрия | Пиксель | Службы вычислений |
 |--------|------|--------|----------|-------|---------|
 |        | X    |        |          |       |         |
 
@@ -56,7 +56,7 @@ ms.locfileid: "104069386"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
 | [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Нет        |
 | [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Нет        |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
@@ -67,7 +67,7 @@ ms.locfileid: "104069386"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

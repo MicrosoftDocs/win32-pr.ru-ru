@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e3abfa337edd58fc536e530eb0ff6473c9a9d28
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: af271c220fc48924905a067336a438baec1ef0ac4b2dca1b266d3ea77d665f71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117653285"
 ---
 # <a name="wmt_videoimage_transition_diamond"></a>ВМТ \_ видеоимаже \_ Переход \_ ромб
 
@@ -87,7 +87,7 @@ ms.locfileid: "105694569"
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Вмсдкидл. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмсдкидл. h</dt> </dl> |
 
 
 

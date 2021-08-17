@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 577e729e4e1a510dd24dc981b2b90bdca27dc0f9
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 238e1870fd5bf1832ffbb3b5c3a5a49533ef122277a4000bafdbaa10112b4528
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104355823"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117729510"
 ---
 # <a name="id3dxrendertosurface-interface"></a>Интерфейс ID3DXRenderToSurface
 
@@ -50,7 +50,7 @@ ms.locfileid: "104355823"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Поверхности могут использоваться различными способами, включая цели рендеринга, отрисовку на экране или отрисовку текстур.
 
@@ -74,7 +74,7 @@ typedef interface ID3DXRenderToSurface *LPD3DXRENDERTOSURFACE;
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9core. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9core. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 3ce9a48779b13f1b1917ad189b2297b60329ba04
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d6ba0cccca8fcd62af490aa91ab1cc965fdad4d3682d99a8fda52151135500ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155854"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117739700"
 ---
 # <a name="scripting-with-swbemobject"></a>Создание сценариев с помощью SWbemObject
 
@@ -96,7 +96,7 @@ Next
 
 [**SWbemObject. \_**](swbemobject-put-.md) Write и [**путасинк \_**](swbemobject-putasync-.md) позволяют записывать изменения обратно в любой объект WMI. Эти методы фиксируют изменения только в объекте в пространстве имен, в котором был создан объект. Объект можно записать в другое пространство имен с помощью [**свбемсервицесекс.**](swbemservicesex-put.md) WHERE или [**свбемсервицесекс. путасинк**](swbemservicesex-putasync.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

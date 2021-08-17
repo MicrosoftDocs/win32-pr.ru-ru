@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - lsalookupi.h
-ms.openlocfilehash: 4c606826f55afbd90062053818c5443adc3b86aa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ec5d7f8ed0d81c438692dbfb0eb51d047915bcff701a8713471faf43a02b5589
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652178"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117787246"
 ---
 # <a name="lsa_sid_name_mapping_operation_input-structure"></a>\_ \_ \_ \_ Входная структура операции СОПОСТАВЛЕНИЯ имени ИД безопасности \_ LSA
 
@@ -30,7 +30,7 @@ ms.locfileid: "105652178"
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Лсалукупи. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Лсалукупи. h</dt> </dl> |
 
 
 

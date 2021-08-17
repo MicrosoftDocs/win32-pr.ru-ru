@@ -4,12 +4,12 @@ ms.assetid: edcd9757-19a6-4398-8600-06ffc72559e9
 title: Прокси-сервер System. photo. Флашенерги
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e43c2270e1a8da72986dc3f01d4aa9871b26b558
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a0f91db8408d542c0f660a4e018b1dfb28e45fdcbc9cd007c8362f604f047124
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118205281"
 ---
 # <a name="systemphotoflashenergy-proxy"></a>Прокси-сервер System. photo. Флашенерги
 
@@ -39,7 +39,7 @@ VT \_ UI8
 
 Ловпарт Ухвал.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

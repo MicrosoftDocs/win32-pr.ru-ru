@@ -4,12 +4,12 @@ ms.assetid: 2361bbf5-adeb-4189-a8ff-5fdd1c9b0ec6
 title: Элемент Фолдертипе (схема соединителя поиска)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f7d2a9e7f83dbe225427a8370cd8f5e948a46cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4c6b9d5682a85126a467c051b9f1103a4ac10f2f6936cc24dd4438a5f8c75d44
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104497055"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117862603"
 ---
 # <a name="foldertype-element-search-connector-schema"></a>Элемент Фолдертипе (схема соединителя поиска)
 
@@ -43,9 +43,9 @@ ms.locfileid: "104497055"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-GUID по умолчанию — {8FAF9629-1980-46FF-8023-9DCEAB9C3EE3}, общий тип папки для соединителей федеративного поиска (OpenSearch Search).
+GUID по умолчанию — {8FAF9629-1980-46FF-8023-9DCEAB9C3EE3}, общий тип папки для соединителей федеративного поиска (OpenSearch).
 
 ## <a name="example-of-a-foldertype-element"></a>Пример элемента Фолдертипе
 

@@ -3,8 +3,8 @@ title: Расшифровка аудио в S/PDIF
 description: Расшифровка аудио в S/PDIF
 ms.assetid: b56c2d0a-a7c6-44f8-832a-bbbe7ae053e6
 keywords:
-- Windows Media Format SDK, декодирование аудио в S/PDIF
-- Windows Media Format SDK, формат цифрового соединения Sony/Philips (S/PDIF)
+- Windows Пакет SDK для формата мультимедиа, декодирование аудио в S/PDIF
+- Windows Пакет SDK для формата мультимедиа, формат цифрового соединения Sony/Philips (S/PDIF)
 - Расширенный системный формат (ASF), декодирование аудио в S/PDIF
 - ASF (Расширенный системный формат), декодирование аудио в S/PDIF
 - Формат ASF, Sony/Philips Digital Interconnect Format (S/PDIF)
@@ -14,18 +14,18 @@ keywords:
 - декодирование аудио
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33fa063baa8e9a88c2fb7a4d9c67375965282167
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 84bd4fdbafd5685882f34b698c0745b998b6cee2e63514041db17fed2195346c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "103789223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117845592"
 ---
 # <a name="to-decode-audio-to-spdif"></a>Расшифровка аудио в S/PDIF
 
-Звук, закодированный с помощью кодека Windows Media Audio 9 Professional, можно декодировать в формат Digital Interconnect (S/PDIF) Sony/Philips. Чтобы создать выходные данные S/PDIF, выполните следующие действия.
+звук, закодированный с помощью Professional кодека Windows Media Audio 9, можно декодировать в формат Digital Interconnect (S/PDIF) Sony/Philips. Чтобы создать выходные данные S/PDIF, выполните следующие действия.
 
-1.  Откройте файл, содержащий поток Windows Media Audio 9 Professional, вызвав метод [**ивмреадер:: Open**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-open) .
+1.  откройте файл, содержащий поток Professional Windows Media Audio 9, вызвав метод [**ивмреадер:: Open**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-open) .
 2.  Найдите выходной номер нужного потока. Дополнительные сведения см. [в разделе чтобы определить выходные номера](to-identify-output-numbers.md).
 3.  Вызовите метод [**IWMReaderAdvanced2:: сетаутпутсеттинг**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-setoutputsetting) , чтобы настроить выходные данные S/PDIF. Используйте g \_ всзенаблевмапроспдифаутпут для имени параметра. Тип данных — **ВМТ \_ типа \_ bool**; установите значение **true** , чтобы включить выходные данные S/PDIF.
 4.  Получите интерфейс выходных свойств ([**ивмаутпутмедиапропс**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmoutputmediaprops)) требуемого формата выходных данных, вызвав метод [**Ивмреадер:: жетаутпутформат**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-getoutputformat) . Дополнительные сведения о перечислении выходных форматов см. в разделе [назначение выходных форматов](assigning-output-formats.md).
@@ -35,7 +35,7 @@ ms.locfileid: "103789223"
 > [!Note]  
 > Вы можете выполнить описанные выше действия в синхронном модуле чтения, используя соответствующие методы интерфейса [**ивмсинкреадер**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader) .
 
- 
+ 
 
 В следующем примере кода показано, как настроить поток звука для вывода звука в виде данных S/PDIF. Эта функция предполагает, что файл уже загружен в модуль чтения и был идентифицирован выходной номер. Дополнительные сведения об использовании этого кода см. [в разделе Использование примеров кода](using-the-code-examples.md).
 
@@ -83,7 +83,7 @@ Exit:
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -102,9 +102,9 @@ Exit:
 [**Интерфейс Ивмсинкреадер**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 975a56d1-aa45-470e-b385-753baa1911ff
 title: Пример кода на языке C для открытия хранилищ сертификатов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7ebf767fd98b4edca956bf338402ddd14efc26f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3fc54577894c064e855396942139122678808307ee14a4f24474a25e2153ce6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897614"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117766065"
 ---
 # <a name="example-c-code-for-opening-certificate-stores"></a>Пример кода на языке C для открытия хранилищ сертификатов
 

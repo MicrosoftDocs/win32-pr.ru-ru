@@ -4,12 +4,12 @@ ms.assetid: 880DF017-5841-4C0A-82AF-F092DEF5406B
 title: Атрибут MF_MT_VIDEO_3D_FORMAT (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 66f2b12f907edb2875b3b121607509288787c8e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4100a605ecc7e8fe1c171b02341822972061363e7cd1b322162291dbd75b2c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117692073"
 ---
 # <a name="mf_mt_video_3d_format-attribute"></a>\_ \_ \_ Атрибут трехмерного формата видео MF MT \_
 
@@ -19,7 +19,7 @@ ms.locfileid: "105674192"
 
 **MFVideo3DFormat** хранится как **UINT32**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значение этого атрибута является членом перечисления [**MFVideo3DFormat**](/windows/desktop/api/mfapi/ne-mfapi-mfvideo3dformat) . Атрибут применяется только в том случае, если атрибут [ \_ \_ \_ 3D-видео MF](mf-mt-video-3d.md) имеет **значение true**.
 
@@ -31,9 +31,9 @@ ms.locfileid: "105674192"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8 \|\]<br/>                                  |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 \|\]<br/>                        |
-| Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ приложения UWP для классических приложений \|\]<br/>                                  |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ приложения UWP для классических приложений \|\]<br/>                        |
+| Заголовок<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 941298b4-d703-4b3f-8bde-0e6e158560df
 title: Сравнение литеральных значений
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d8577e5a97dcc92131658c325f175efa1d0c3fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7c1e311c6f98c1114b63a1bf650d6e7be004e1e8e4cf5848b962a7cbf8049bfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118227179"
 ---
 # <a name="literal-value-comparison"></a>Сравнение литеральных значений
 
@@ -54,7 +54,7 @@ ms.locfileid: "105692188"
 
  
 
-В сочетании с оператором "=" Windows Search язык SQL (SQL) поддерживает использование ключевых слов BEFORE и AFTER, которые указывают, должен ли запрос сравнивать значения столбцов до или после указанного значения в словаре сортировки словаря.
+в сочетании с оператором "=" Windows поиска язык SQL (SQL) поддерживает использование ключевых слов before и after, которые указывают, должен ли запрос сравнивать значения столбцов до или после указанного значения в словаре сортировки словаря.
 
 
 ```

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Реализация интерфейса High-Performance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ea6e7f75e1031caacbb7379fba025baceb7b1a6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ecec9a7b5e5399765adaa7a0e195825493d930ece46c30af3e788795fe08ebf8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118108625"
 ---
 # <a name="implementing-the-high-performance-interface"></a>Реализация интерфейса High-Performance
 
@@ -22,7 +22,7 @@ ms.locfileid: "105693328"
 
 
 
-| Метод                                                                                              | Функция                                           |
+| Метод                                                                                              | Компонент                                           |
 |-----------------------------------------------------------------------------------------------------|---------------------------------------------------|
 | [**Ивбемхиперфпровидер:: Куеринстанцес**](/windows/desktop/api/Wbemprov/nf-wbemprov-iwbemhiperfprovider-queryinstances)                   | Запросы                                           |
 | [**Ивбемхиперфпровидер:: GetObject**](/windows/desktop/api/Wbemprov/nf-wbemprov-iwbemhiperfprovider-getobjects)                           | Получение объектов                                  |
@@ -36,7 +36,7 @@ ms.locfileid: "105693328"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

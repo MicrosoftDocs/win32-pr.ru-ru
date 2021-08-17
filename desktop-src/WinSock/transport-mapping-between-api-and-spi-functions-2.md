@@ -4,12 +4,12 @@ ms.assetid: 37ef8a69-2aa0-4824-8ca9-4b84158086db
 title: Сопоставление транспорта между функциями API и SPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0f11b950c48d0887f1e593c65f9d77e27c33917
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ebf4167353fa05c5656c588a9dff99c96564a5202ffdc4d21edf358c340634e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117739944"
 ---
 # <a name="transport-mapping-between-api-and-spi-functions"></a>Сопоставление транспорта между функциями API и SPI
 
@@ -29,13 +29,13 @@ ms.locfileid: "105702729"
 
 Функции поддержки, такие как [**хтонл**](/windows/desktop/api/winsock/nf-winsock-htonl), [**хтонс**](/windows/desktop/api/winsock/nf-winsock-htons), [**нтохл**](/windows/desktop/api/winsock/nf-winsock-ntohl)и [**нтохс**](/windows/desktop/api/winsock/nf-winsock-ntohs) , реализуются в Ws2 \_32.dll и не передаются в поставщики услуг. То же самое справедливо и для версий WSA этих функций.
 
-Перечисление поставщиков службы сокетов Windows и функции блокировки, связанные с ловушками, реализованы в \_32.dll Ws2, поэтому [**всаенумпротоколс**](/windows/desktop/api/Winsock2/nf-winsock2-wsaenumprotocolsa), [Всаисблоккинг](/windows/desktop/api/winsock2/nf-winsock2-wsaisblocking), [всасетблоккингхук](/windows/desktop/api/winsock2/nf-winsock2-wsasetblockinghook)и [всаунхукблоккингхук](/windows/desktop/api/winsock2/nf-winsock2-wsaunhookblockinghook) не отображаются как функции SPI.
+Windows Перечисление поставщиков услуг сокетов и функции блокировки, связанные с ловушками, реализованы в \_32.dll Ws2, поэтому [**всаенумпротоколс**](/windows/desktop/api/Winsock2/nf-winsock2-wsaenumprotocolsa), [Всаисблоккинг](/windows/desktop/api/winsock2/nf-winsock2-wsaisblocking), [всасетблоккингхук](/windows/desktop/api/winsock2/nf-winsock2-wsasetblockinghook)и [всаунхукблоккингхук](/windows/desktop/api/winsock2/nf-winsock2-wsaunhookblockinghook) не отображаются как функции SPI.
 
 Так как коды ошибок возвращаются вместе с функциями SPI, в SPI не требуются эквиваленты [**всажетластеррор**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror) и [**всасетластеррор**](/windows/desktop/api/winsock/nf-winsock-wsasetlasterror) .
 
-Функции обработки и ожидания объектов событий, в том числе [**всакреативент**](/windows/desktop/api/Winsock2/nf-winsock2-wsacreateevent), [**всаклосивент**](/windows/desktop/api/Winsock2/nf-winsock2-wsacloseevent), [**всасетевент**](/windows/desktop/api/Winsock2/nf-winsock2-wsasetevent), [**всаресетевент**](/windows/desktop/api/Winsock2/nf-winsock2-wsaresetevent)и [**всаваитформултипливентс**](/windows/desktop/api/Winsock2/nf-winsock2-wsawaitformultipleevents) , сопоставляются непосредственно со СЛУЖБАМИ Windows Native и, таким же, отсутствуют в SPI.
+функции обработки и ожидания объектов событий, включая [**всакреативент**](/windows/desktop/api/Winsock2/nf-winsock2-wsacreateevent), [**всаклосивент**](/windows/desktop/api/Winsock2/nf-winsock2-wsacloseevent), [**всасетевент**](/windows/desktop/api/Winsock2/nf-winsock2-wsasetevent), [**всаресетевент**](/windows/desktop/api/Winsock2/nf-winsock2-wsaresetevent)и [**всаваитформултипливентс**](/windows/desktop/api/Winsock2/nf-winsock2-wsawaitformultipleevents) , сопоставляются непосредственно с собственными Windowsными службами и поэтому отсутствуют в SPI.
 
-Все функции преобразования и разрешения имен, относящиеся к протоколу TCP/IP, в сокетах Windows 1,1, такие как **жетксбии**, **всаасинкжетксбии** и [**всаканцеласинкрекуест**](/windows/desktop/api/winsock/nf-winsock-wsacancelasyncrequest), [**а также метод**](/windows/desktop/api/winsock/nf-winsock-gethostname) , реализованы в Ws2 \_32.dll с точки зрения новых средств разрешения имен. Дополнительные сведения см. [в разделе совместимое разрешение имен для TCP/IP в сокетах Windows sockets 1,1 SPI](compatible-name-resolution-for-tcp-ip-in-the-windows-sockets-1-1-spi-2.md). Функции преобразования, такие как [**inet \_ addr**](/windows/win32/api/winsock2/nf-winsock2-inet_addr) и [**inet \_ нтоа**](/windows/win32/api/winsock2/nf-winsock2-inet_ntoa) , реализуются в Ws2 \_32.dll.
+все функции преобразования и разрешения имен, относящиеся к протоколу TCP/IP, в Windows sockets 1,1, такие как **жетксбии**, **всаасинкжетксбии** и [**всаканцеласинкрекуест**](/windows/desktop/api/winsock/nf-winsock-wsacancelasyncrequest), [**а также в**](/windows/desktop/api/winsock/nf-winsock-gethostname) Ws2 \_32.dll с точки зрения новых средств разрешения имен. дополнительные сведения см. [в разделе совместимое разрешение имен для TCP/IP в Windows сокетах 1,1 SPI](compatible-name-resolution-for-tcp-ip-in-the-windows-sockets-1-1-spi-2.md). Функции преобразования, такие как [**inet \_ addr**](/windows/win32/api/winsock2/nf-winsock2-inet_addr) и [**inet \_ нтоа**](/windows/win32/api/winsock2/nf-winsock2-inet_ntoa) , реализуются в Ws2 \_32.dll.
 
  
 

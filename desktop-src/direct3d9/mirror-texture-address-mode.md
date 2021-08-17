@@ -4,12 +4,12 @@ ms.assetid: 816efd4d-94b3-4b6c-9fc9-218cc2207b97
 title: Режим адресации зеркальной текстуры (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 471ad8b715d9375947162c66474687b9d6376bec
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 10ef8731c060e95c470bbf8d34222b9ee66e7f9da2c7a6f03a09c2989986ca3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104416620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117728374"
 ---
 # <a name="mirror-texture-address-mode-direct3d-9"></a>Режим адресации зеркальной текстуры (Direct3D 9)
 
@@ -19,7 +19,7 @@ ms.locfileid: "104416620"
 
 Эффекты этого режима адреса текстуры аналогичны, но отличаются от них в режиме переноса. Дополнительные сведения см. в разделе [режим переноса адреса текстуры (Direct3D 9)](wrap-texture-address-mode.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

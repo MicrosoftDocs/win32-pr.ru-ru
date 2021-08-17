@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 33f027c808a30463f2747d11020f45d1b8d40edf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e1bb50e58b4db01b01b2122fd55c14bf73be0eb8601d732fa658752b33c35fcd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103898777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117738978"
 ---
 # <a name="wmi-tasks-desktop-management"></a>Задачи WMI: управление рабочими столами 
 
@@ -28,7 +28,7 @@ ms.locfileid: "103898777"
 
 **Запуск сценария**
 
-1.  Скопируйте код и сохраните его в файле с расширением vbs, например *filename.vbs*. Убедитесь, что текстовый редактор не добавляет расширение txt в файл.
+1.  Скопируйте код и сохраните его в файле с расширением vbs, например *filename.vbs*. Убедитесь, что текстовый редактор не добавляет к файлу расширение .txt.
 2.  Откройте окно командной строки и перейдите в каталог, в котором был сохранен файл.
 3.  Введите **cscript filename.vbs** в командной строке.
 4.  Если доступ к журналу событий невозможен, проверьте, выполняется ли в командной строке с повышенными привилегиями. Некоторые журналы событий, например журнал событий безопасности, могут быть защищены с помощью элементов управления доступом пользователей (UAC).
@@ -55,7 +55,7 @@ ms.locfileid: "103898777"
 </thead>
 <tbody>
 <tr class="odd">
-<td>... как определить, загружен ли удаленный компьютер в защищенном режиме с состоянием сети?</td>
+<td>... как определить, загружен ли удаленный компьютер в режиме Сейф с состоянием сети?</td>
 <td>Используйте класс <a href="/windows/desktop/CIMWin32Prov/win32-computersystem"><strong>Win32_ComputerSystem</strong></a> и проверьте значение свойства <strong>примарйовнернаме</strong> .<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
@@ -324,7 +324,7 @@ foreach ($objOperatingSystem in $colOperatingSystem)
 </div></td>
 </tr>
 <tr class="even">
-<td>... Определите, какие приложения автоматически запускаются при каждом запуске Windows?</td>
+<td>... определить, какие приложения автоматически запускаются при каждом запуске Windows?</td>
 <td><p>Используйте класс <a href="/windows/desktop/CIMWin32Prov/win32-startupcommand"><strong>Win32_StartupCommand</strong></a> .</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
@@ -392,7 +392,7 @@ foreach ($objStartupCommand in $colItems)
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

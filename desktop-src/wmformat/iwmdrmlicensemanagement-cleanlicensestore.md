@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b9327fd836cf742f5495c29767be93d914c0f187
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6010313efaca6855c403f9ee698284ff4aebb2e0ab8a5e08e5862a5890224a1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105717824"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117846960"
 ---
 # <a name="iwmdrmlicensemanagementcleanlicensestore-method"></a>Метод Ивмдрмлиценсеманажемент:: Клеанлиценсесторе
 
@@ -84,11 +84,11 @@ HRESULT CleanLicenseStore(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод выполняется асинхронно. Он возвращает сразу после вызова, а затем создает событие **мевмдрмлиценсестореклеанед** после завершения обработки.
 
-Дополнительные сведения об использовании асинхронных методов расширенных API-интерфейсов клиента DRM Windows Media см. [в разделе Использование модели событий Media Foundation](using-the-media-foundation-model.md).
+дополнительные сведения об использовании асинхронных методов расширенных api-интерфейсов Windows Media DRM Client см. [в разделе использование модели событий Media Foundation](using-the-media-foundation-model.md).
 
 ## <a name="requirements"></a>Требования
 
@@ -96,7 +96,7 @@ HRESULT CleanLicenseStore(
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Вмдрмсдк. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Вмдрмсдк. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>Вмдрмсдк. lib</dt> </dl> |
 
 

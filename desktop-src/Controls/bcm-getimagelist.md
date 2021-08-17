@@ -3,7 +3,7 @@ title: Сообщение BCM_GETIMAGELIST (Коммктрл. h)
 description: Возвращает \_ структуру IMAGELIST, описывающую список изображений, назначенных элементу управления "Кнопка". Это сообщение можно отправить явным образом или воспользоваться макросом "Кнопка" \_ .
 ms.assetid: 79383758-53d4-4955-b472-befd338cbec6
 keywords:
-- Элементы управления Windows для BCM_GETIMAGELIST сообщений
+- элементы управления Windows сообщений BCM_GETIMAGELIST
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b0c28e997e23d6df63150fe2283d04be1a8c0d4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ba74f358e80871ffad4822fd8088ca6aeb58521d8878254ed920356db5a6daf2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104490887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117833915"
 ---
 # <a name="bcm_getimagelist-message"></a>\_Сообщение BCM ImageList
 
@@ -47,7 +47,7 @@ ms.locfileid: "104490887"
 
 Если сообщение завершается с ошибкой, возвращается **значение true**. В противном случае возвращается **значение false**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Чтобы использовать это сообщение, необходимо указать манифест, указывающий Comclt32.dll версии 6,0. Дополнительные сведения о манифестах см. в разделе [Включение визуальных стилей](cookbook-overview.md).
@@ -60,8 +60,8 @@ ms.locfileid: "104490887"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

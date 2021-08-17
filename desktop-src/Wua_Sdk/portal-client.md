@@ -1,17 +1,17 @@
 ---
 description: API Центр обновления Windows Agent (WUA) — это набор COM-интерфейсов, которые позволяют системным администраторам и программистам получать доступ к Центр обновления Windows и Windows Server Update Services (WSUS).
 ms.assetid: 611dc759-e0fc-472e-bdc2-fb952ba74999
-title: API агента Центр обновления Windows
+title: Windows API агента обновления
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19c34cb76619c9739c84e650a32590fdc4f61022
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 82e7e2c79a707424128082f8f3123cb5fff506a9fc98203ab1fdf8063393310d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103808650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117738006"
 ---
-# <a name="windows-update-agent-api"></a>API агента Центр обновления Windows
+# <a name="windows-update-agent-api"></a>Windows API агента обновления
 
 ## <a name="purpose"></a>Назначение
 
@@ -25,15 +25,15 @@ API Центр обновления Windows Agent (WUA) — это набор CO
 
 ## <a name="developer-audience"></a>Аудитория разработчиков
 
-Вы можете писать приложения WUA на нескольких языках программирования. WUA определяет интерфейсы и объекты, доступные из Visual Basic, Visual Basic Scripting Edition (VBScript), JScript и C и C++. Знание программирования COM полезно для программиста WUA.
+Вы можете писать приложения WUA на нескольких языках программирования. WUA определяет интерфейсы и объекты, доступные из Visual Basic, Visual Basic scripting Edition (VBScript), JScript и C и C++. Знание программирования COM полезно для программиста WUA.
 
 ## <a name="run-time-requirements"></a>Требования к среде выполнения
 
-WUA поддерживается начиная с Windows XP. WUA поддерживается на сервере, начиная с Windows Server 2003.
+WUA поддерживается начиная с Windows XP. WUA поддерживается на сервере, начиная с Windows server 2003.
 
 ## <a name="in-this-section"></a>Содержание раздела
 
--   [Использование API агента Центр обновления Windows](using-the-windows-update-agent-api.md)
+-   [использование API агента Центр обновления Windows](using-the-windows-update-agent-api.md)
 -   [Справочник по API WUA](windows-update-agent--wua--api-reference.md)
 
  

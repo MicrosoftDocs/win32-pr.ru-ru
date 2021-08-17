@@ -4,16 +4,16 @@ ms.assetid: 0ed9b75e-3c79-4e41-9883-63b85ebfae06
 title: Перечисление Аудиодевицепроперти (Ипмсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab807759bfb316858be41ea9bb4b78d795ee1a1a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e5a634caa627f5d518e8783ce056e89a69931aa981466754a9d320f36787186f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117948796"
 ---
 # <a name="audiodeviceproperty-enumeration"></a>Перечисление Аудиодевицепроперти
 
-\[ Это перечисление недоступно для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[это перечисление недоступно для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Перечисление **аудиодевицепроперти** используется методами [**итаудиодевицеконтрол::**](itaudiodevicecontrol-getrange.md), [**Итаудиодевицеконтрол:: Get**](itaudiodevicecontrol-get.md)и [**итаудиодевицеконтрол:: Set**](itaudiodevicecontrol-set.md) для указания свойства, для которого выполняется обращение.
 
@@ -58,7 +58,7 @@ ms.locfileid: "105675637"
 | Требование | Значение |
 |-------------------------|------------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 3,1<br/>                                                       |
-| Header<br/>       | <dl> <dt>Ипмсп. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>Ипмсп. h</dt> </dl> |
 
 
 

@@ -1,5 +1,5 @@
 ---
-description: '\_Свойство NewEnum объектов Oid Извлекает интерфейс IEnumVARIANT для объекта, который можно использовать для перечисления коллекции. Это свойство скрыто в Visual Basic Scripting Edition (VBScript).'
+description: '\_Свойство NewEnum объектов Oid Извлекает интерфейс IEnumVARIANT для объекта, который можно использовать для перечисления коллекции. это свойство скрыто в Visual Basic scripting Edition (VBScript).'
 ms.assetid: 7c09fd11-064b-451e-bd6b-e6c13ab228a0
 title: OIDs._NewEnum, свойство
 ms.topic: reference
@@ -13,18 +13,18 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: d20856c17dda18a10b85c01453cbe043144742d4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9d7841f2b041a9e48f9954b1f81d68828e1bef17f16d7f54e470ab2ecb904916
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117979493"
 ---
 # <a name="oids_newenum-property"></a>OID. \_ Свойство NewEnum
 
 \[Свойство **\_ NewEnum** доступно для использования в операционных системах, указанных в разделе требования. Вместо этого используйте [**класс оидколлектион**](/dotnet/api/system.security.cryptography.oidcollection?view=netcore-3.1) в пространстве имен [**System. Security. Cryptography**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1&preserve-view=true) .\]
 
-Свойство **\_ NewEnum** Извлекает интерфейс [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) для объекта, который можно использовать для перечисления коллекции. Это свойство скрыто в Visual Basic Scripting Edition (VBScript).
+Свойство **\_ NewEnum** Извлекает интерфейс [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) для объекта, который можно использовать для перечисления коллекции. это свойство скрыто в Visual Basic scripting Edition (VBScript).
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -39,9 +39,9 @@ OIDs._NewEnum As IUnknown
 
 Интерфейс [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) объекта, который может использоваться для перечисления коллекции.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Это свойство автоматически используется для внутренних целей при использовании `For Each In` конструкции в Visual Basic Scripting Edition (VBScript).
+это свойство автоматически используется для внутренних целей при использовании `For Each In` конструкции в Visual Basic scripting Edition (VBScript).
 
 ## <a name="requirements"></a>Требования
 
@@ -58,7 +58,7 @@ OIDs._NewEnum As IUnknown
 
 <dl> <dt>
 
-[**OID**](oids.md)
+[**Идентификаторы OID**](oids.md)
 </dt> </dl>
 
  

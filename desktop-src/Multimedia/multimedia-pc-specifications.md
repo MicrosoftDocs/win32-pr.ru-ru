@@ -3,7 +3,7 @@ title: Спецификации мультимедийных ПК
 description: Спецификации мультимедийных ПК
 ms.assetid: 2cd54682-310e-4a7b-a174-6751850256b1
 keywords:
-- Мультимедиа Windows, Совет по маркетингу мультимедийного ПК
+- Windows мультимедиа, совет по маркетингу мультимедийного пк
 - мультимедиа, Совет по маркетингу мультимедийного ПК
 - Мультимедиа-ПК (MPC), о программе
 - MPC (мультимедийный ПК), о программе
@@ -18,12 +18,12 @@ keywords:
 - MPC уровень 2, сведения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af698a84443876dbf0ea98b9dfcc505f1e1d3eeb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4de04612c2e5e84f55049f35e131830c3ff40ae7f8dc829e1e3875a6c494ac1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117985244"
 ---
 # <a name="multimedia-pc-specifications"></a>Спецификации мультимедийных ПК
 
@@ -34,9 +34,9 @@ ms.locfileid: "103888360"
 -   [Спецификация уровня 1](level-1-specification.md)
 -   [Спецификация уровня 2](level-2-specification.md)
 
- 
+ 
 
- 
+ 
 
 
 

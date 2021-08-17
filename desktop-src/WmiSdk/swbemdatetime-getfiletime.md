@@ -16,18 +16,18 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 3f8a8c85cb4c78be578187b1f55afce078fe7bd5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8c35daf5b6e986b2519f127969edc5bbcf05a260bd23e8aa1168b1a7c20a5372
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104498051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117739442"
 ---
 # <a name="swbemdatetimegetfiletime-method"></a>SWbemDateTime. функции getFileTime, метод
 
 Метод **функции getFileTime** объекта [**SWbemDateTime**](swbemdatetime.md) преобразует значение даты и времени в формате [DateTime](datetime.md) CIM в формат FILETIME.
 
-Если для параметра задано значение **true**, то возвращаемое значение представляет местное время клиента. В противном случае возвращаемое значение — это время в формате UTC. Структура  [даты и времени](datetime.md) FILETIME — это 64-разрядное значение, представляющее число единиц в 100-наносекундных с начала 1 января 1601 г. Инструментарий управления Windows (WMI) (WMI) рассматривает значения **fileTime** как строковые представления беззнаковых 64-разрядных чисел.
+Если для параметра задано значение **true**, то возвращаемое значение представляет местное время клиента. В противном случае возвращаемое значение — это время в формате UTC. Структура  [даты и времени](datetime.md) FILETIME — это 64-разрядное значение, представляющее число единиц в 100-наносекундных с начала 1 января 1601 г. Windows Инструментарий управления (WMI) рассматривает значения **fileTime** как строковые представления беззнаковых 64-разрядных чисел.
 
 Описание этого синтаксиса см. в разделе [соглашения о документе для API скриптов](document-conventions-for-the-scripting-api.md).
 
@@ -70,7 +70,7 @@ vDate = .GetFileTime( _
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **VT \_ Значения DATE** и **fileTime** не могут содержать подстановочные поля.
 
@@ -99,7 +99,7 @@ vDate = .GetFileTime( _
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
 | Библиотека типов<br/>             | <dl> <dt>Wbemdisp. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | \_SWBEMDATETIME CLSID<br/>                                                         |

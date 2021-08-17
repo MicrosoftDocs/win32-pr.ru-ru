@@ -18,17 +18,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 9f50d30b2edeca716895d8dd2339d659f0e1382f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ff0f704c30737d6cfc2d8bd823da8207e8d7d8c3fb4458687baf8bc400718304
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896965"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117703852"
 ---
 # <a name="jetsetcolumndefaultvalue-function"></a>Функция Жетсетколумндефаултвалуе
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jetsetcolumndefaultvalue-function"></a>Функция Жетсетколумндефаултвалуе
 
@@ -78,7 +78,7 @@ _**Применимо к:** Windows | Windows Server_
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. Дополнительные сведения о возможных ошибках ESE см. в разделе [ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -115,7 +115,7 @@ _**Применимо к:** Windows | Windows Server_
 </tr>
 <tr class="even">
 <td><p>JET_errInstanceUnavailable</p></td>
-<td><p>Невозможно выполнить операцию, поскольку экземпляр, связанный с сеансом, обнаружил неустранимую ошибку, которая требует, чтобы доступ ко всем данным был отозван для защиты целостности этих данных. Эта ошибка будет возвращена только Windows XP и более поздних версий.</p></td>
+<td><p>Невозможно выполнить операцию, поскольку экземпляр, связанный с сеансом, обнаружил неустранимую ошибку, которая требует, чтобы доступ ко всем данным был отозван для защиты целостности этих данных. эта ошибка будет возвращена только Windows XP и более поздних выпусках.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errInvalidDatabaseId</p></td>
@@ -157,12 +157,12 @@ _**Применимо к:** Windows | Windows Server_
 </tr>
 <tr class="odd">
 <td><p>JET_errSessionSharingViolation</p></td>
-<td><p>Один и тот же сеанс нельзя использовать одновременно для нескольких потоков. Эта ошибка будет возвращена только Windows XP и более поздних версий.</p></td>
+<td><p>Один и тот же сеанс нельзя использовать одновременно для нескольких потоков. эта ошибка будет возвращена только Windows XP и более поздних выпусках.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errTableInUse</p></td>
 <td><p>Указанная таблица используется другим сеансом.</p>
-<p><strong>Жетсетколумндефаултвалуе</strong> требует монопольного доступа к таблице, чтобы изменить значение столбца по умолчанию для выпусков до Windows Server 2003.</p></td>
+<p><strong>жетсетколумндефаултвалуе</strong> требует монопольного доступа к таблице, чтобы изменить значение по умолчанию для столбца для выпусков до Windows Server 2003.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errTermInProgress</p></td>
@@ -170,7 +170,7 @@ _**Применимо к:** Windows | Windows Server_
 </tr>
 <tr class="even">
 <td><p>JET_errTransReadOnly</p></td>
-<td><p>Попытка обновления недействительна в пределах транзакции, доступной только для чтения. Транзакция только для чтения — это транзакция, которая была запущена с помощью вызова <a href="gg269268(v=exchg.10).md">JetBeginTransaction2</a> с JET_bitTransactionReadOnly. Эта ошибка будет возвращена только Windows XP и более поздних версий.</p></td>
+<td><p>Попытка обновления недействительна в пределах транзакции, доступной только для чтения. Транзакция только для чтения — это транзакция, которая была запущена с помощью вызова <a href="gg269268(v=exchg.10).md">JetBeginTransaction2</a> с JET_bitTransactionReadOnly. эта ошибка будет возвращена только Windows XP и более поздних выпусках.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errWriteConflict</p></td>
@@ -184,7 +184,7 @@ _**Применимо к:** Windows | Windows Server_
 
 В случае сбоя не произойдет никаких изменений в состоянии базы данных.
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 Невозможно изменить значение по умолчанию для столбца в таблице шаблона.
 
@@ -200,11 +200,11 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
+<td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
+<td><p><strong>Сервер</strong></p></td>
+<td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>
@@ -226,7 +226,7 @@ _**Применимо к:** Windows | Windows Server_
 </table>
 
 
-#### <a name="see-also"></a>См. также:
+#### <a name="see-also"></a>См. также
 
 [JET_DBID](./jet-dbid.md)  
 [JET_ERR](./jet-err.md)  

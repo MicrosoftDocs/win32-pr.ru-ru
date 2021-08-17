@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Файлы журналов WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a51dfe4efbec32e60812980511676f723fd5aee9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9fff9064dd82484568282f649b3380f544d9ba58a569e36583664806d47b5e9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117739431"
 ---
 # <a name="wmi-log-files"></a>Файлы журналов WMI
 
@@ -18,11 +18,11 @@ WMI использует [трассировку событий](/windows/deskto
 
 -   [Трассировка событий вместо текстовых журналов](#event-tracing-instead-of-text-logs)
 -   [Файлы журналов WMI](#wmi-log-files)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="event-tracing-instead-of-text-logs"></a>Трассировка событий вместо текстовых журналов
 
-Действия службы WMI записываются в файл ВмитраЦинг. log. Дополнительные сведения о включении трассировки событий WMI и обращении к файлу ВмитраЦинг. log см. в разделе [Трассировка действий WMI](tracing-wmi-activity.md). Поставщики WDM (WDM) продолжают вести журнал в файле Вбемпров. log.
+Действия службы WMI записываются в файл ВмитраЦинг. log. Дополнительные сведения о включении трассировки событий WMI и обращении к файлу ВмитраЦинг. log см. в разделе [Трассировка действий WMI](tracing-wmi-activity.md). Windows Поставщики модели драйвера (WDM) продолжают вести журнал в файле Вбемпров. log.
 
 ## <a name="wmi-log-files"></a>Файлы журналов WMI
 
@@ -37,7 +37,7 @@ WMI использует [трассировку событий](/windows/deskto
 
 </dd> </dl>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

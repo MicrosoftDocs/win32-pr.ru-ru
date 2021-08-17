@@ -1,23 +1,23 @@
 ---
-title: Bluetooth, операции чтения или записи
-description: Bluetooth способен выполнять все операции чтения и записи, доступные с помощью сокетов Windows, которые в настоящее время поддерживаются другими семействами адресов.
+title: Bluetooth и операции чтения или записи
+description: Bluetooth может выполнять все операции чтения и записи, доступные с Windowsными сокетами, которые в настоящее время поддерживаются другими семействами адресов.
 ms.assetid: 1445aa04-38ca-47be-9483-d4133edbf3f4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5a3a8c1d92b45d4b540899f5594de72cf19896e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 15bedb264ae17efe1c84ca7826229edf9e9dccb9880ce670ff81dc019909583c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118172939"
 ---
-# <a name="bluetooth-and-read-or-write-operations"></a>Bluetooth, операции чтения или записи
+# <a name="bluetooth-and-read-or-write-operations"></a>Bluetooth и операции чтения или записи
 
-Bluetooth способен выполнять все операции чтения и записи, доступные с помощью сокетов Windows, которые в настоящее время поддерживаются другими семействами адресов.
+Bluetooth может выполнять все операции чтения и записи, доступные с Windowsными сокетами, которые в настоящее время поддерживаются другими семействами адресов.
 
-Дополнительные сведения об операциях чтения и записи см. в разделе [сокеты Windows](/windows/desktop/WinSock/windows-sockets-start-page-2).
+дополнительные сведения об операциях чтения и записи см. в разделе [сокеты Windows](/windows/desktop/WinSock/windows-sockets-start-page-2).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -36,6 +36,6 @@ Bluetooth способен выполнять все операции чтени
 [**cервера**](/windows/desktop/api/winsock/nf-winsock-sendto)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

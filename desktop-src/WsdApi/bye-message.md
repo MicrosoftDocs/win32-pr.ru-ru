@@ -4,12 +4,12 @@ ms.assetid: 7b9abfcc-28ab-4f29-af69-6dc68e3f51b6
 title: Сообщение Bye
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26880e8b1d4eae7f366f797017b033f9f444fe1f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8276c05314b31782442bfdf6de998dd41241391de9dc94947409041c8f4aa420
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104546506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117738656"
 ---
 # <a name="bye-message"></a>Сообщение Bye
 
@@ -103,11 +103,11 @@ ms.locfileid: "104546506"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Сообщения обнаружения и обмена метаданными](discovery-and-metadata-exchange-message-patterns.md)
+[обнаружение и метаданные Exchange сообщения](discovery-and-metadata-exchange-message-patterns.md)
 </dt> <dt>
 
 [Сообщение Hello](hello-message.md)

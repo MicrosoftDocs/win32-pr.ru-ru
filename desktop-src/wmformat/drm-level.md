@@ -1,6 +1,6 @@
 ---
 title: DRM_Level
-description: '\_Уровень DRM — это атрибут лицензии, который задается пакетом SDK формата Windows Media при создании локальной лицензии для файлов, защищенных с помощью DRM версии 1.'
+description: '\_уровень DRM — это атрибут лицензии, который задается пакетом SDK для Windows Media Format при создании локальной лицензии для файлов, защищенных с помощью DRM версии 1.'
 ms.assetid: 05357378-4d73-48df-a3b5-bdb2c543ec66
 keywords:
 - DRM_Level формат Windows Media
@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a3177197b9c149c2fca2c7678a8fe03c6b412e2d
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: a4767f839c5d21610e7e425aea4a20a52c3cb0d8658848f578a33ca403f4ad60
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104336428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117848689"
 ---
 # <a name="drm_level"></a>\_Уровень DRM
 
-**DRM \_ Level** — это атрибут лицензии, который задается пакетом SDK формата Windows Media при создании локальной лицензии для файлов, защищенных с помощью DRM версии 1. Он содержит уровень безопасности, который должен иметь вызывающее приложение для доступа к содержимому в файле. По умолчанию используется значение 150.
+**DRM \_ Level** — это атрибут лицензии, который задается пакетом SDK Windows Media Format при создании локальной лицензии для файлов, защищенных с помощью DRM версии 1. Он содержит уровень безопасности, который должен иметь вызывающее приложение для доступа к содержимому в файле. По умолчанию используется значение 150.
 
 ## <a name="global-constant"></a>Глобальная константа
 
@@ -31,7 +31,7 @@ ms.locfileid: "104336428"
 
 **ВМТ, \_ тип \_ DWORD**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Уровень безопасности DRM приложения определяется конкретной библиотекой вмстубдрм, на которую она ссылается во время компиляции. Дополнительные сведения об этих уровнях безопасности см. [в разделе получение требуемой библиотеки DRM](obtaining-the-required-drm-library.md). Используйте [**ивмхеадеринфо:: setAttribute**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-setattribute) , чтобы задать это свойство при защите файлов ASF с помощью DRM версии 1.
 
@@ -42,9 +42,9 @@ ms.locfileid: "104336428"
 [**Свойства DRM**](drm-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

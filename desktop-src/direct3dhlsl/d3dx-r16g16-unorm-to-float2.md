@@ -48,7 +48,7 @@ XMFLOAT2 D3DX_R16G16_UNORM_to_FLOAT2(
 
 Распакованные данные шейдера.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

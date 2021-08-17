@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: b5ae7ec2a2c904a523f3388fa08a3bf2e44fec9d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d8e96600762db414fa93316098d5ba87dabfbc3138f516d3d69f1740d0d33d2b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117783090"
 ---
 # <a name="cieaxiinstallerservice-object"></a>Объект Циеаксиинсталлерсервице
 
@@ -43,7 +43,7 @@ ms.locfileid: "103991194"
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows Vista Business, Windows Vista Корпоративная, только для \[ настольных приложений Windows Vista Ultimate\]<br/> |
+| Минимальная версия клиента<br/> | Windows vista Business, Windows vista Enterprise, \[ только для настольных приложений Windows Vista Ultimate\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                                 |
 
 

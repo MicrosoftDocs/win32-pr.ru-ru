@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 41e77f3803fa65db1573c6619ebf1265b7418924
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4ef512c62058d2f4726c21aa8631fef5230ec35ecfe39a3b8dc5470fc93b74e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117767168"
 ---
 # <a name="ekuscount-property"></a>Свойство EKU. Count
 
@@ -41,7 +41,7 @@ EKUs.Count As Long
 
 Число объектов [**EKU**](eku.md) в коллекции. Каждый объект **EKU** представляет одно свойство расширенного использования ключа (EKU) сертификата.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Свойство **Count** можно использовать для указания последнего объекта [**EKU**](eku.md) в коллекции при извлечении определенного объекта **EKU** с помощью свойства [**EKU. Item**](ekus-item.md) .
 

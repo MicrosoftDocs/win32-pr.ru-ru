@@ -4,12 +4,12 @@ ms.assetid: e2bb7f82-10dc-4fa0-875d-fc58c133024d
 title: System. photo. ФотометриЦинтерпретатион
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79f6b431470780def946dbb8958e9e3eb6698322
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4e1a39928483b5d60f8d5dec35af27ab231da81dd8a1b6443a7b82e53deddf4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118228124"
 ---
 # <a name="systemphotophotometricinterpretation"></a>System. photo. ФотометриЦинтерпретатион
 
@@ -69,13 +69,13 @@ propertyDescription
             defineName = PHOTO_PHOTOMETRIC_YCBCR
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-Значение по умолчанию `isInnate` атрибута элемента **typeInfo** изменилось с **false** на **true** , как в Windows Vista с пакетом обновления 1 (SP1).
+значение по умолчанию `isInnate` атрибута элемента **typeInfo** изменилось с **false** на **true** , так как Windows Vista с пакетом обновления 1 (SP1).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

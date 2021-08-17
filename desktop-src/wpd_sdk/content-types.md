@@ -4,16 +4,16 @@ ms.assetid: f1bbd10f-bfe8-4860-aa10-17d198dc50a3
 title: Типы содержимого
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2a44021d9f91fc6a3f43853763e5573e0c64b3a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae7bf7c70d3f76fc4b201dd6866e6bcce8403f12401051a5b03658f7ce39b599
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104541242"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117653092"
 ---
 # <a name="content-types"></a>Типы содержимого
 
-Портативные устройства Windows классифицируют все объекты по типу содержимого. В следующих разделах перечислены поддерживаемые типы.
+Windows Портативные устройства классифицируют все объекты по типу содержимого. В следующих разделах перечислены поддерживаемые типы.
 
 
 
@@ -26,7 +26,7 @@ ms.locfileid: "104541242"
 | [**\_тип содержимого \_ WPD \_ ALL**](wpd-content-type-all.md)                                   | Представляет все типы объектов.                                                                |
 | [**\_тип содержимого WPD — \_ \_ встреча**](wpd-content-type-appointment.md)                   | Представляет встречу в календаре.                                                    |
 | [**\_ \_ \_ звуковой \_ альбом типа содержимого WPD**](wpd-content-type-audio-album.md)                  | Представляет коллекцию звуковых файлов.                                                     |
-| [**\_тип содержимого \_ WPD \_ Audio**](wpd-content-type-audio.md)                               | Представляет звуковой файл, например файл Windows Media Audio (WMA) или MP3.                  |
+| [**\_тип содержимого \_ WPD \_ Audio**](wpd-content-type-audio.md)                               | представляет звуковой файл, например файл мультимедиа Windows Media audio (WMA) или MP3.                  |
 | [**\_ \_ Календарь типа содержимого \_ WPD**](wpd-content-type-calendar.md)                         | Представляет календарь.                                                                      |
 | [**\_ \_ сертификат типа содержимого \_ WPD**](wpd-content-type-certificate.md)                   | Представляет сертификат, используемый для проверки подлинности.                                           |
 | [**\_ \_ контакт типа содержимого \_ WPD**](wpd-content-type-contact.md)                           | Представляет личные контактные данные.                                                           |

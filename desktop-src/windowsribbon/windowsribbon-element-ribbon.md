@@ -3,7 +3,7 @@ title: Элемент Ribbon
 description: Представляет элемент управления ленты в представлении ленты.
 ms.assetid: 51083180-4e86-4c90-9fd1-a58c12bcc756
 keywords:
-- Лента ленты Windows для элемента ленты
+- элемент ленты Windows лента
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9a743fc354dfea73c525884ec5ffe1f9471f3752
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: e5dd422013bdaf81d5d6aac6d0a34f4c9479af26cd79f64b854299caa3cac3f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111445005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118202205"
 ---
 # <a name="ribbon-element"></a>Элемент Ribbon
 
@@ -138,7 +138,7 @@ ms.locfileid: "111445005"
 
 
 
-* **Минимальная поддерживаемая система**: Windows 7
+* **минимальная поддерживаемая система**: Windows 7
 * **Может быть пустым**: нет
 
 

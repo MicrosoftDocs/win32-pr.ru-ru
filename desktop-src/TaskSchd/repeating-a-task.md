@@ -6,12 +6,12 @@ keywords:
 - шаблон повторения планировщик задач
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 451b2c2cf7e48c40496ddba95728f435ab494ab7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7039b57bdc6cc7f53125e74b8a6fda7d017106cd44c66d2535f7fdf27505a960
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104331227"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117759363"
 ---
 # <a name="repeating-a-task"></a>Повторение задачи
 
@@ -31,7 +31,7 @@ ms.locfileid: "104331227"
 4.  Следующая задача начинается в конце третьей минуты.
 5.  Следующая задача начинается в конце четвертой минуты.
 
-**Windows Server 2003, Windows XP и windows 2000:** Если зарегистрировать задачу, содержащую триггер с интервалом повтора, равный одной минуте, а длительность повторения — четыре минуты, задача будет запущена четыре раза.
+**Windows Server 2003, Windows XP и Windows 2000:** Если зарегистрировать задачу, содержащую триггер с интервалом повтора, равный одной минуте, а длительность повторения — четыре минуты, задача будет запущена четыре раза.
 
 ## <a name="objects-interfaces-and-xml-elements"></a>Объекты, интерфейсы и XML-элементы
 
@@ -41,16 +41,16 @@ ms.locfileid: "104331227"
 
 При чтении или записи XML для задачи шаблон повторения указывается в элементе [**повторения**](taskschedulerschema-repetition-triggerbasetype-element.md) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Триггеры задач](task-triggers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

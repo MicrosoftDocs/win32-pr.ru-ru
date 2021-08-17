@@ -10,12 +10,12 @@ keywords:
 - списки для показа, перенос из IRI GL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 461000e6d785f0d03bbbc8f738eba60768bc5d74
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 858f1f3be180b3ef09c81bb8d61b18705fc9485742d7384562eecff142f4bfb8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104328819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117980806"
 ---
 # <a name="porting-display-lists"></a>Перенос списков вывода
 
@@ -45,7 +45,7 @@ ms.locfileid: "104328819"
 
 
 
- 
+ 
 
 Этот раздел содержит сведения о следующих разделах.
 
@@ -53,9 +53,9 @@ ms.locfileid: "104328819"
 -   [Перенос измененных списков вывода](porting-edited-display-lists.md)
 -   [Пример порта списка дисплеев](a-sample-port-of-a-display-list.md)
 
- 
+ 
 
- 
+ 
 
 
 
