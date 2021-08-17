@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 267748fe4ce1eeec4650544a2f72069df897a366
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1bd8582d16022c9d5dfd60eb87847d564ef69203e329ff37eaa9c2964a11794c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105676002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119317514"
 ---
 # <a name="csourcestreamqueryid-method"></a>Ксаурцестреам. QueryId, метод
 
@@ -66,7 +66,7 @@ HRESULT QueryId(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод реализует метод [**Ипин:: QueryId**](/windows/desktop/api/Strmif/nf-strmif-ipin-queryid) . Чтобы создать строку идентификатора, ПИН-код вызывает метод [**ксаурце:: финдпиннумбер**](csource-findpinnumber.md) с самим собой в качестве параметра. Метод **финдпиннумбер** возвращает PIN-код, индексируемый от нуля. `QueryId` увеличивает возвращаемое значение на единицу и преобразует результат в строку. Например, первый ПИН-код принимает значение 1. второй ПИН-код преобразуется в «2»; и т. д.
 
@@ -78,7 +78,7 @@ HRESULT QueryId(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Source. h (включение Streams. h)</dt> </dl>                                                                                    |
+| Заголовок<br/>  | <dl> <dt>Source. h (включает Потоки. h)</dt> </dl>                                                                                    |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

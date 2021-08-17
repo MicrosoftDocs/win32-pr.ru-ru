@@ -3,8 +3,8 @@ title: Интерфейс Ивмпметадатапиктуре (VB и C) (WMP.
 description: Предоставляет свойства для получения сведений об образе, содержащемуся в цифровом файле мультимедиа, представленном атрибутом WM/Пиктуреметадата.
 ms.assetid: f8260882-dfb8-4ff0-954c-5060cb7a6995
 keywords:
-- Ивмпметадатапиктуре (VB и C) интерфейс проигрывателя Windows Media
-- Ивмпметадатапиктуре (VB и C) интерфейс проигрывателя Windows Media, описание
+- проигрыватель Windows Media интерфейса ивмпметадатапиктуре (VB и C)
+- проигрыватель Windows Media интерфейса ивмпметадатапиктуре (VB и C), описание
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f3b462c431a136745974dcde5716c3bd81226f15
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1b73a48b2ea93d696f2b8780edec90dfcf0522e2353c508e31d96dd7a404d0d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996494"
 ---
 # <a name="iwmpmetadatapicture-vb-and-c-interface"></a>Интерфейс Ивмпметадатапиктуре (VB и C#)
 
@@ -33,7 +33,7 @@ ms.locfileid: "105689192"
 | Свойство                                                                                   | Описание                                                               |
 |--------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
 | [**Описание**](wmplibiwmpmetadatapicture-iwmpmetadatapicture-description--vb-and-c.md) | Возвращает описание изображения, представленного атрибутом метаданных.  |
-| [**Успешности**](wmplibiwmpmetadatapicture-iwmpmetadatapicture-mimetype--vb-and-c.md)       | Возвращает тип MIME изображения, представленного атрибутом метаданных.    |
+| [**mimeType**](wmplibiwmpmetadatapicture-iwmpmetadatapicture-mimetype--vb-and-c.md)       | Возвращает тип MIME изображения, представленного атрибутом метаданных.    |
 | [**пиктуретипе**](wmplibiwmpmetadatapicture-iwmpmetadatapicture-picturetype--vb-and-c.md) | Возвращает тип изображения, представленного атрибутом метаданных. |
 | [**URL-адрес**](wmplibiwmpmetadatapicture-iwmpmetadatapicture-url--vb-and-c.md)                 | Только для внутреннего применения.                                                        |
 
@@ -63,7 +63,7 @@ ms.locfileid: "105689192"
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>WMP. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>WMP. h</dt> </dl> |
 
 
 
@@ -71,7 +71,7 @@ ms.locfileid: "105689192"
 
 <dl> <dt>
 
-[**Интерфейсы для Visual Basic .NET и C #**](interfaces-for-visual-basic--net-and-c.md)
+[**интерфейсы для Visual Basic .net и C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> </dl>
 
  

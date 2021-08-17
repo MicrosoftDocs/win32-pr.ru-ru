@@ -1,19 +1,19 @@
 ---
-description: Алфавитный список интерфейсов DirectShow
+description: алфавитный список интерфейсов DirectShow
 ms.assetid: 9c7f56f4-92af-40c6-8124-f2715ac3f6d7
-title: Алфавитный список интерфейсов DirectShow
+title: алфавитный список интерфейсов DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de76bd17dfb8be99f8cb3554015d6860785fb148
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: bd37ad1d6b510f61964eb9f210ab9481560b2d3e2f522b8fc38da10b7582a991
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104140323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074828"
 ---
-# <a name="alphabetical-list-of-directshow-interfaces"></a>Алфавитный список интерфейсов DirectShow
+# <a name="alphabetical-list-of-directshow-interfaces"></a>алфавитный список интерфейсов DirectShow
 
-Ниже приведен алфавитный список интерфейсов DirectShow.
+ниже приведен алфавитный список интерфейсов DirectShow.
 
 
 
@@ -55,7 +55,7 @@ ms.locfileid: "104140323"
 </tr>
 <tr class="odd">
 <td><a href="/previous-versions/windows/desktop/api/qnetwork/nn-qnetwork-iamchannelinfo"><strong>иамчаннелинфо</strong></a></td>
-<td>Возвращает и задает сведения о канале для файлов Windows Media Station (. NSC).</td>
+<td>возвращает и задает сведения о канале для Windows файлов станции мультимедиа (nsc).</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iamclockadjust"><strong>иамклоккаджуст</strong></a></td>
@@ -79,7 +79,7 @@ ms.locfileid: "104140323"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iamdeviceremoval"><strong>иамдевицеремовал</strong></a></td>
-<td>Предоставляет диспетчеру графа фильтров возможность регистрации событий удаления устройств для устройства записи.</td>
+<td>предоставляет диспетчеру Graph Manager возможность регистрации событий удаления устройств для устройства записи.</td>
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/Amaudio/nn-amaudio-iamdirectsound"><strong>иамдиректсаунд</strong></a></td>
@@ -99,7 +99,7 @@ ms.locfileid: "104140323"
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/qnetwork/nn-qnetwork-iamextendedseeking"><strong>иамекстендедсикинг</strong></a></td>
-<td>Выполняет поиск маркера в потоке Windows Media или изменяет скорость воспроизведения для файла Windows Media.</td>
+<td>выполняет поиск маркера в Windows потоке мультимедиа или изменяет скорость воспроизведения для Windowsного файла мультимедиа.</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iamfiltergraphcallback"><strong>иамфилтерграфкаллбакк</strong></a></td>
@@ -131,19 +131,19 @@ ms.locfileid: "104140323"
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/qnetwork/nn-qnetwork-iamnetshowconfig"><strong>иамнетшовконфиг</strong></a></td>
-<td>Настройка устаревшего фильтра исходного кода проигрывателя Windows Media 6,4.</td>
+<td>настраивает устаревший фильтр источника проигрыватель Windows Media 6,4.</td>
 </tr>
 <tr class="odd">
 <td><a href="/previous-versions/windows/desktop/api/qnetwork/nn-qnetwork-iamnetshowexprops"><strong>иамнетшовекспропс</strong></a></td>
-<td>Настройка устаревшего фильтра исходного кода проигрывателя Windows Media 6,4.</td>
+<td>настраивает устаревший фильтр источника проигрыватель Windows Media 6,4.</td>
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/qnetwork/nn-qnetwork-iamnetshowpreroll"><strong>иамнетшовпреролл</strong></a></td>
-<td>Задает и получает параметры предварительной настройки для устаревшего фильтра источника Windows Media Player 6,4.</td>
+<td>задает и получает параметры предварительной настройки для устаревшего фильтра источника проигрыватель Windows Media 6,4.</td>
 </tr>
 <tr class="odd">
 <td><a href="/previous-versions/windows/desktop/api/qnetwork/nn-qnetwork-iamnetworkstatus"><strong>иамнетворкстатус</strong></a></td>
-<td>Сообщает о качестве сетевого подключения для устаревшего фильтра источника Windows Media Player 6,4.</td>
+<td>сообщает о качестве сетевого подключения для устаревшего фильтра источника проигрыватель Windows Media 6,4.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iamopenprogress"><strong>иамопенпрогресс</strong></a></td>
@@ -167,7 +167,7 @@ ms.locfileid: "104140323"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Control/nn-control-iamstats"><strong>иамстатс</strong></a></td>
-<td>Получает данные о производительности из диспетчера графа фильтров.</td>
+<td>получает данные о производительности от диспетчера Graph фильтра.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iamstreamconfig"><strong>иамстреамконфиг</strong></a></td>
@@ -199,11 +199,11 @@ ms.locfileid: "104140323"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iamvfwcapturedialogs"><strong>иамвфвкаптуредиалогс</strong></a></td>
-<td>Отображает диалоговое окно, предоставляемое видео-драйвером для записи Windows (VFW).</td>
+<td>отображает диалоговое окно, предоставленное видео для драйвера записи Windows (VFW).</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iamvfwcompressdialogs"><strong>иамвфвкомпрессдиалогс</strong></a></td>
-<td>Отображает диалоговое окно, предоставляемое кодеком видео для Windows (VFW).</td>
+<td>отображает диалоговое окно, предоставленное видео для кодека Windows (VFW).</td>
 </tr>
 <tr class="odd">
 <td><a href="/previous-versions/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator"><strong>иамвидеоакцелератор</strong></a></td>
@@ -223,7 +223,7 @@ ms.locfileid: "104140323"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iamvideodecimationproperties"><strong>иамвидеодеЦиматионпропертиес</strong></a></td>
-<td>Управляет тем, как микшер наложения выполняет децимации для видео.</td>
+<td>управляет тем, как наложение Mixer выполняет децимации видео.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iamvideoprocamp"><strong>иамвидеопрокамп</strong></a></td>
@@ -247,7 +247,7 @@ ms.locfileid: "104140323"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>ибасефилтер</strong></a></td>
-<td>Предоставляется фильтрами. Это основной интерфейс для всех фильтров DirectShow.</td>
+<td>Предоставляется фильтрами. это основной интерфейс для всех фильтров DirectShow.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Control/nn-control-ibasicaudio"><strong>ибасикаудио</strong></a></td>
@@ -315,7 +315,7 @@ ms.locfileid: "104140323"
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/amstream/nn-amstream-idirectdrawmediasample"><strong>идиректдравмедиасампле</strong></a></td>
-<td>Предоставляет доступ к областям DirectDraw, выделенным фильтром <a href="overlay-mixer-filter.md">микшера оверлея</a> .</td>
+<td>предоставляет доступ к областям DirectDraw, выделенным <a href="overlay-mixer-filter.md">наложением Mixer</a> фильтр.</td>
 </tr>
 <tr class="odd">
 <td><a href="/previous-versions/windows/desktop/api/amstream/nn-amstream-idirectdrawmediasampleallocator"><strong>идиректдравмедиасамплеаллокатор</strong></a></td>
@@ -327,11 +327,11 @@ ms.locfileid: "104140323"
 </tr>
 <tr class="odd">
 <td><a href="/previous-versions/windows/desktop/api/dmodshow/nn-dmodshow-idmowrapperfilter"><strong>идмоврапперфилтер</strong></a></td>
-<td>Позволяет приложению использовать объект мультимедиа DirectX (DMO) в графе фильтра.</td>
+<td>позволяет приложению использовать объект мультимедиа DirectX (DMO) в графе фильтра.</td>
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/qnetwork/nn-qnetwork-idshowplugin"><strong>идшовплугин</strong></a></td>
-<td>Включает фильтр источников Windows Media для взаимодействия с подключаемым модулем проигрывателя Windows Media 6,4 для Netscape Navigator.</td>
+<td>позволяет Windows фильтр источника мультимедиа обмениваться данными с подключаемым модулем проигрыватель Windows Media 6,4 для Netscape navigator.</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-idvdcmd"><strong>идвдкмд</strong></a></td>
@@ -431,7 +431,7 @@ ms.locfileid: "104140323"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-igraphbuilder"><strong>играфбуилдер</strong></a></td>
-<td>Расширяет интерфейс <a href="/windows/desktop/api/Strmif/nn-strmif-ifiltergraph"><strong>ифилтерграф</strong></a> . Это основной интерфейс диспетчера графа фильтров.</td>
+<td>Расширяет интерфейс <a href="/windows/desktop/api/Strmif/nn-strmif-ifiltergraph"><strong>ифилтерграф</strong></a> . это основной интерфейс фильтра Graph Manager.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-igraphconfig"><strong>играфконфиг</strong></a></td>
@@ -479,7 +479,7 @@ ms.locfileid: "104140323"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-imediaeventsink"><strong>имедиаевентсинк</strong></a></td>
-<td>Уведомляет диспетчер графов фильтров о событиях, происходящих в графе фильтра.</td>
+<td>оповещает фильтр Graph Manager о событиях, происходящих в графе фильтра.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-imediafilter"><strong>имедиафилтер</strong></a></td>
@@ -537,7 +537,7 @@ ms.locfileid: "104140323"
 </tr>
 <tr class="odd">
 <td><a href="/previous-versions/windows/desktop/api/mixerocx/nn-mixerocx-imixerocx"><strong>имиксероккс</strong></a></td>
-<td>Предоставляется фильтром микшера наложения.</td>
+<td>предоставлено наложенным фильтром Mixer.</td>
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/mixerocx/nn-mixerocx-imixerocxnotify"><strong>имиксероккснотифи</strong></a></td>
@@ -545,7 +545,7 @@ ms.locfileid: "104140323"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Mpconfig/nn-mpconfig-imixerpinconfig"><strong>имиксерпинконфиг</strong></a></td>
-<td>Управляет потоками видео в фильтре микшера наложения.</td>
+<td>управляет потоками видео на наложенном фильтре Mixer.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Mpconfig/nn-mpconfig-imixerpinconfig2"><strong>IMixerPinConfig2</strong></a></td>
@@ -617,7 +617,7 @@ ms.locfileid: "104140323"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iregisterserviceprovider"><strong>ирегистерсервицепровидер</strong></a></td>
-<td>Регистрирует объект как службу с помощью диспетчера графа фильтров.</td>
+<td>регистрирует объект как службу с помощью фильтра Graph Manager.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iresourceconsumer"><strong>иресаурцеконсумер</strong></a></td>
@@ -781,7 +781,7 @@ ms.locfileid: "104140323"
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/vpconfig/nn-vpconfig-ivpconfig"><strong>ивпконфиг</strong></a></td>
-<td>Позволяет видеопорту взаимодействовать с фильтром микшера наложения.</td>
+<td>позволяет видеопорту взаимодействовать с наложенным фильтром Mixer.</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-ivpmanager"><strong>ивпманажер</strong></a></td>
@@ -789,7 +789,7 @@ ms.locfileid: "104140323"
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/Vpnotify/nn-vpnotify-ivpnotify"><strong>ивпнотифи</strong></a></td>
-<td>Включает микшер наложения для управления свойствами аппаратного устройства, которое использует порт видео.</td>
+<td>включает Mixer наложения для управления свойствами аппаратного устройства, которое использует порт видео.</td>
 </tr>
 <tr class="odd">
 <td><a href="/previous-versions/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify2"><strong>IVPNotify2</strong></a></td>
@@ -797,7 +797,7 @@ ms.locfileid: "104140323"
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/amxmlgraphbuilder/nn-amxmlgraphbuilder-ixmlgraphbuilder"><strong>иксмлграфбуилдер</strong></a></td>
-<td>Сохраняет граф фильтра DirectShow, используя формат XML-файла.
+<td>сохраняет DirectShow граф фильтра, используя формат XML-файла.
 <blockquote>
 [!Note]<br />
 Не рекомендуется.
@@ -811,7 +811,7 @@ ms.locfileid: "104140323"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

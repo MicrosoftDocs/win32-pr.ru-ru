@@ -4,16 +4,16 @@ ms.assetid: ed3c1d44-ccef-4dde-819b-f5d4d3be6d1e
 title: Объявление сведений о фильтре
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8975217f1b7746b26dc5dd16ce9f4e7f694f44bc
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 89c22fb13b524bed56e8cc9d51e573f2729f843e56565db2793d1a8b4568af52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103806707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953203"
 ---
 # <a name="declaring-filter-information"></a>Объявление сведений о фильтре
 
-Первый шаг — объявить сведения о фильтре, если это необходимо. DirectShow определяет следующие структуры для описания фильтров, ПИН-кодов и типов мультимедиа:
+Первый шаг — объявить сведения о фильтре, если это необходимо. DirectShow определяет следующие структуры для описания фильтров, пин-кодов и типов мультимедиа:
 
 
 
@@ -65,11 +65,11 @@ AMOVIESETUP_FILTER sudFilterReg = {
 
 Имя фильтра объявляется как статическая глобальная переменная, так как она будет использоваться в других местах.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Как зарегистрировать фильтры DirectShow](how-to-register-directshow-filters.md)
+[как зарегистрировать фильтры DirectShow](how-to-register-directshow-filters.md)
 </dt> </dl>
 
  

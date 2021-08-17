@@ -4,12 +4,12 @@ ms.assetid: 8BD52813-3741-4C1F-B62A-B3C366A86362
 title: Показ рукописных данных
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 9bd9f4c3c98b443110a0a7948075ab836a9493c4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ccd201f39cf232e91c65d8ef15c6ccc0e8202b231818aa50d34d70f780f2d9e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265517"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118977024"
 ---
 # <a name="ink-presenter"></a>Показ рукописных данных
 
@@ -19,9 +19,9 @@ ms.locfileid: "104265517"
 >
 > Стандартный ввод рукописных данных (кончик пера или кончик или кнопка ластика) не изменен с помощью вторичного уровня доступности, такого как кнопка с изображением пера, правая кнопка мыши или аналогичный.
 
-Приложения универсальная платформа Windows (UWP), использующие XAML (XAML), предоставляют эту функцию с помощью элемента управления [**InkCanvas**](/uwp/api/Windows.UI.Xaml.Controls.InkCanvas) , а также объекта [**InkPresenter**](/uwp/api/windows.ui.input.inking.inkpresenter) , который подключается к визуальному дереву XAML [DirectComposition](../directcomp/directcomposition-portal.md) . Дополнительные сведения см. в разделе [взаимодействие пером и](/windows/uwp/design/input/pen-and-stylus-interactions)пера.
+приложения универсальная платформа Windows (UWP), использующие XAML (XAML), предоставляют эту функцию с помощью элемента управления [**InkCanvas**](/uwp/api/Windows.UI.Xaml.Controls.InkCanvas) , а также объекта [**InkPresenter**](/uwp/api/windows.ui.input.inking.inkpresenter) , который подключается к визуальному дереву XAML [DirectComposition](../directcomp/directcomposition-portal.md) . Дополнительные сведения см. в разделе [взаимодействие пером и](/windows/uwp/design/input/pen-and-stylus-interactions)пера.
 
-Модуль [подготовки рукописного ввода](ink-renderer.md) предназначен для использования разработчиками универсальных приложений Windows, заинтересованными в предоставлении функциональных возможностей элемента управления [**InkCanvas**](/uwp/api/Windows.UI.Xaml.Controls.InkCanvas)на основе XAML / [](/uwp/api/windows.ui.input.inking.inkpresenter) в собственных приложениях Win32.
+модуль [подготовки рукописного ввода](ink-renderer.md) предназначен для разработчиков универсальных Windows приложений, заинтересованных в предоставлении функциональных возможностей элемента управления [**InkCanvas**](/uwp/api/Windows.UI.Xaml.Controls.InkCanvas)на основе XAML / [](/uwp/api/windows.ui.input.inking.inkpresenter) в собственных приложениях Win32.
 
 ## <a name="in-this-section"></a>В этом разделе
 
@@ -36,6 +36,6 @@ ms.locfileid: "104265517"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 Взаимодействие [рукописного ввода](ink-presenter.md), [перо и](/windows/uwp/design/input/pen-and-stylus-interactions)перо, [Пример анализа рукописного текста](/samples/microsoft/windows-universal-samples/inkanalysis/), [простой пример](/samples/microsoft/windows-universal-samples/simpleink/)с рукописным вводом, [сложный образец для рукописного](/samples/microsoft/windows-universal-samples/complexink/) ввода

@@ -4,18 +4,18 @@ ms.assetid: 1a044094-444d-e787-fa6a-76e88531aef1
 title: Тип данных КСМВЕКТОР (Директксмас. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c62cab01098cd95f904ac2e2ee33d420309e8e99
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f0a65c7da346163c3cbfaab7c68982f56eb6c424b7f74a3ec01c754eb4104a5e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704106"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120094484"
 ---
 # <a name="xmvector-data-type"></a>Тип данных КСМВЕКТОР
 
 Переносимый тип, используемый для представления вектора 4 32-разрядных компонентов с плавающей запятой или целых чисел, каждый из которых оптимально соответствует и сопоставляется с регистром аппаратного вектора.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Список дополнительных функций, таких как конструкторы и операторы, доступных `XMVECTOR` при использовании при программировании в C++, см. в разделе [расширения ксмвектор](ovw-xmvector-extensions.md).
 
@@ -35,7 +35,7 @@ ms.locfileid: "105704106"
 
 Файл заголовка Директксмас. h использует Псевдонимы для `XMVECTOR` объекта, в частности **Кксмвектор** и **фксмвектор**. Заголовок использует эти псевдонимы для обеспечения соответствия оптимальным соглашениям о встроенном вызове различных компиляторов. Для большинства проектов, использующих Директксмас, достаточно обрабатывать эти типы как точный псевдоним для `XMVECTOR` .
 
-Пример:
+Например:
 
 
 ```
@@ -55,7 +55,7 @@ typedef const XMVECTOR CXMVECTOR;
 
 ### <a name="platform-requirements"></a>Требования к платформе
 
-Microsoft Visual Studio 2010 или Microsoft Visual Studio 2012 с Windows SDK для Windows 8. Поддерживается для классических приложений Win32, приложений для Магазина Windows и Windows Phone 8 приложений.
+Microsoft Visual Studio 2010 или Microsoft Visual Studio 2012 с Windows SDK для Windows 8. поддерживается для классических приложений Win32, приложений для магазина Windows и Windows Phone 8 приложений.
 
 ## <a name="requirements"></a>Требования
 
@@ -63,7 +63,7 @@ Microsoft Visual Studio 2010 или Microsoft Visual Studio 2012 с Windows SDK 
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Директксмас. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Директксмас. h</dt> </dl> |
 
 
 

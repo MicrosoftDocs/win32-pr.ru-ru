@@ -78,7 +78,7 @@ BOOL GUIDFromString(
 
 К нему также можно получить доступ из Shlwapi.dll как порядковый номер 269 для **гуидфромстринга** и порядковый номер 270 для **гуидфромстрингв**.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

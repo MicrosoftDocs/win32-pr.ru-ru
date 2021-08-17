@@ -5,12 +5,12 @@ ms.assetid: F670D15D-BC0F-4F90-99C1-A35192FE8980
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf5371926b38415a84803155c67ea70ed902b915
-ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
+ms.openlocfilehash: 2b8d6e9b4d7ae9ad4b93bae5cf29749c293bf7f55ea7fa35a1e1ca71040218e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "114436309"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123509"
 ---
 # <a name="volume-tiled-resources-direct3d-12"></a>Ресурсы для мозаичного заполнения тома (Direct3D 12)
 
@@ -157,6 +157,6 @@ trSize.Depth = 3;
 * [**ID3D12CommandQueue:: копитилемаппингс**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-copytilemappings) : копирует сопоставления из исходного мозаичного ресурса в целевой мозаичный ресурс.
 * [**ID3D12Device:: жетресаурцетилинг**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-getresourcetiling) : получает сведения о том, как мозаичный ресурс разбивается на плитки.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 * [Привязка ресурсов](resource-binding.md)

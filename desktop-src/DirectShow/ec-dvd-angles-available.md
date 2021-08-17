@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: e4d2abb17b329323cf4a21128da5dba927b48d4a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e95c692aed8ac6c709ff0db1d6056fc59219fa73f5aa2e4cfb9b31b2c1a03d94
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015992"
 ---
 # <a name="ec_dvd_angles_available"></a>\_Доступные углы для DVD-диска EC \_ \_
 
@@ -42,7 +42,7 @@ ms.locfileid: "105679623"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Изменения угла не ограничиваются блоками углов, а возможность изменения угла может быть видна только в блоке угла.
 
@@ -52,7 +52,7 @@ ms.locfileid: "105679623"
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Двдевкоде. h (включение DShow. h)</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Двдевкоде. h (включение DShow. h)</dt> </dl> |
 
 
 

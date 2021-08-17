@@ -1,19 +1,19 @@
 ---
-description: Шаблон класса Имедиаобжектимпл предоставляет базовую реализацию для интерфейса Имедиаобжект. Дополнительные сведения об использовании этого шаблона см. в разделе Использование шаблона класса DMO.
+description: Шаблон класса Имедиаобжектимпл предоставляет базовую реализацию для интерфейса Имедиаобжект. дополнительные сведения об использовании этого шаблона см. в разделе использование шаблона класса DMO.
 ms.assetid: 81d45b8d-8373-4e42-b768-f6126feb935d
 title: Шаблон класса Имедиаобжектимпл (Дмоимпл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ecfa1be82ffeaa9e05eb6460249e0c40bb2989c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 71b166836ff4da6100f61fca5d3a0c2887462b37adcbdd2ec61abeb919553a59
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015582"
 ---
 # <a name="imediaobjectimpl-class-template"></a>Шаблон класса Имедиаобжектимпл
 
-`IMediaObjectImpl`Шаблон класса предоставляет базовую реализацию для интерфейса [**имедиаобжект**](/previous-versions/windows/desktop/api/Mediaobj/nn-mediaobj-imediaobject) . Дополнительные сведения об использовании этого шаблона см. в разделе [Использование шаблона класса DMO](using-the-dmo-class-template.md).
+`IMediaObjectImpl`Шаблон класса предоставляет базовую реализацию для интерфейса [**имедиаобжект**](/previous-versions/windows/desktop/api/Mediaobj/nn-mediaobj-imediaobject) . дополнительные сведения об использовании этого шаблона см. [в разделе использование шаблона класса DMO](using-the-dmo-class-template.md).
 
 Этот `IMediaObjectImpl` шаблон предоставляет следующие члены.
 
@@ -52,7 +52,7 @@ ms.locfileid: "105675930"
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Дмоимпл. h</dt> </dl>                                                                     |
+| Заголовок<br/>  | <dl> <dt>Дмоимпл. h</dt> </dl>                                                                     |
 | Библиотека<br/> | <dl> <dt>Дмогуидс. lib; </dt> <dt>Мсдмо. lib</dt> </dl> |
 
 
@@ -61,10 +61,10 @@ ms.locfileid: "105675930"
 
 <dl> <dt>
 
-[Справочник по DMO](dmo-reference.md)
+[DMO IsReference](dmo-reference.md)
 </dt> <dt>
 
-[Использование шаблона класса DMO](using-the-dmo-class-template.md)
+[использование шаблона класса DMO](using-the-dmo-class-template.md)
 </dt> </dl>
 
  

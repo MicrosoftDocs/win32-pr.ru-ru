@@ -14,12 +14,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 2f6fa7ae1f50e005fe8f66e918a4a8360a0e8f86
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 334d3a2cb9560a4968cbbfa8419d44e7c8be8ff836ccf95b6fce819ee77a9900
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069484"
 ---
 # <a name="thread_v0_typegroup1-class"></a>\_Класс Thread v0 \_ TypeGroup1
 
@@ -38,13 +38,13 @@ class Thread_V0_TypeGroup1 : Thread_V0
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **Thread \_ v0 \_ TypeGroup1** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Thread \_ v0 \_ TypeGroup1** имеет следующие свойства.
 

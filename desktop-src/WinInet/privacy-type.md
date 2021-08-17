@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 38583d5f0c5cee148353f98f5d2be2d4f1a50216
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: af6f29461f57a2209fde00b30bce7914c207958f27e28062e2c3bd3d94d442e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117743731"
 ---
 # <a name="privacy-type"></a>Тип конфиденциальности
 
@@ -52,12 +52,12 @@ ms.locfileid: "103892726"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Файлы cookie классифицируются как первая сторона и третья сторона. Первичный файл cookie — это тот, который поступает из домена узла. Если https://www.blueyonderairlines.com в адресной строке Microsoft Internet Explorer обнаружено значение "", то "www.blueyonderairlines.com" является доменом узла. При посещении этой страницы, если файл cookie задан из домена, отличного от "www.blueyonderairlines.com", например "www.fourthcoffee.com", этот файл cookie считается сторонним файлом cookie.
 
 > [!Note]  
-> WinINet не поддерживает реализации серверов. Кроме того, его не следует использовать из службы. Для серверных реализаций или служб используйте [службы Microsoft Windows HTTP Services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet не поддерживает реализации серверов. Кроме того, его не следует использовать из службы. для серверных реализаций или служб используйте [Microsoft Windows HTTP services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
  
 

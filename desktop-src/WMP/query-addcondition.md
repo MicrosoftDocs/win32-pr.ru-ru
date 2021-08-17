@@ -3,9 +3,9 @@ title: Метод Query. Аддкондитион
 description: Метод Аддкондитион добавляет условие в объект запроса с помощью логики и.
 ms.assetid: 29b5d372-eddf-4b70-882b-d2dde79d9287
 keywords:
-- Аддкондитион метод Windows Media Player
-- метод Аддкондитион Windows Media Player, класс запроса
-- Класс запроса проигрыватель Windows Media Player, метод Аддкондитион
+- проигрыватель Windows Media метода аддкондитион
+- метод аддкондитион проигрыватель Windows Media, класс запроса
+- класс запроса проигрыватель Windows Media, метод аддкондитион
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4035d2877cf0081e9153277c88feb545a529568d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 53a3eed0a7923b93861eabc30d115a7726046d0595b7c57625d9a9afaf9c7523
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704184"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117746593"
 ---
 # <a name="queryaddcondition-method"></a>Метод Query. Аддкондитион
 
@@ -69,7 +69,7 @@ Query.addCondition(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В составных запросах, использующих **запрос** , регистр не учитывается.
 
@@ -100,7 +100,7 @@ Query.addCondition(
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере JScript для выполнения примера запроса используется **Query. аддкондитион** и **Query. бегиннекстграуп** .
+в следующем примере JScript используется **query. аддкондитион** и **query. бегиннекстграуп** для выполнения примера запроса.
 
 
 ```JScript
@@ -140,7 +140,7 @@ var Playlist = Player.mediaCollection.getPlaylistByQuery(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 11.<br/>                                                |
+| Версия<br/> | проигрыватель Windows Media 11.<br/>                                                |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

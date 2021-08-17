@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d6c09896fc4b35fcb0b6a01a7d592421dd5d5654
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2f64af1d7e886b418ac87cd360302101a60d746d707652f605a648e9812a5547
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105682083"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119059592"
 ---
 # <a name="gettsaudioendpointenumeratorforsession-callback-function"></a>Функция обратного вызова Жеттсаудиоендпоинтенумераторфорсессион
 
@@ -59,7 +59,7 @@ HRESULT GetTSAudioEndpointEnumeratorForSession(
 
 Если метод завершается успешно, возвращается значение **S \_ ОК**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция не определена в файле заголовка. Эту функцию следует реализовать и экспортировать в пользовательский перечислитель конечной точки и использовать сигнатуру, приведенную в блоке синтаксиса ранее в этом разделе.
 

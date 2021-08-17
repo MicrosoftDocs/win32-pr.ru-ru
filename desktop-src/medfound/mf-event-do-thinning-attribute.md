@@ -4,12 +4,12 @@ ms.assetid: 42b6d0b3-e5af-4a48-969c-53628d1b7c31
 title: Атрибут MF_EVENT_DO_THINNING (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a08807413881a13789c50dbf2d063693e7e4539
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b9305df2b17e00b03bd9788ecd8caf26db82b8e331d1c72626374b63e7dcaf15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991235"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104940"
 ---
 # <a name="mf_event_do_thinning-attribute"></a>\_Событие MF \_ — \_ тонкий атрибут
 
@@ -21,11 +21,11 @@ ms.locfileid: "103991235"
 
 Рассматривать как логическое значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут используется с событием [месаурцератечанжерекуестед](mesourceratechangerequested.md) . Если значение равно **true**, источник мультимедиа запрашивает переключение на тонкое воспроизведение.
 
-Значение по умолчанию — **false**.
+Значение по умолчанию — **FALSE**.
 
 Константа GUID для этого атрибута экспортируется из мфууид. lib.
 
@@ -35,8 +35,8 @@ ms.locfileid: "103991235"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                               |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 

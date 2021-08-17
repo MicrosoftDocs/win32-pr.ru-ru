@@ -1,17 +1,17 @@
 ---
 description: Указывает, является ли носитель для хранения съемным.
 ms.assetid: 32090053-5666-4562-b9f0-d6394bdb9801
-title: System. Storage. Ремоваблемедиа
+title: Системой. служба хранилища. ремоваблемедиа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd5278723e1755869168014ed799ccf098477679
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: d6b721f508f0c20ed4f847133d772ca971afda3d8feff87b7a97a33c842884cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104547415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119095691"
 ---
-# <a name="systemstorageremovablemedia"></a>System. Storage. Ремоваблемедиа
+# <a name="systemstorageremovablemedia"></a>Системой. служба хранилища. ремоваблемедиа
 
 Указывает, является ли носитель для хранения съемным.
 
@@ -30,11 +30,11 @@ propertyDescription
       type = Boolean
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

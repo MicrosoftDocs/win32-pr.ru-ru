@@ -1,6 +1,6 @@
 ---
 title: Метод Сетброкернонхамоде класса Win32_SessionBrokerServiceProperties
-description: Переносит данные из центрального SQL Server в локальную базу данных. Он также настраивает сервер брокера для использования локальной базы данных.
+description: переносит данные из центрального SQL Server в локальную базу данных. Он также настраивает сервер брокера для использования локальной базы данных.
 ms.assetid: a73908be-0cc8-4512-842c-439d5cf18ed4
 ms.tgt_platform: multiple
 keywords:
@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ef811bf8024f8e89f9739461dfa8499891077f3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 34daa0817056975a6b15164dd29edcbcc86cd7cd9475f753e91500845ce089a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105681881"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119058413"
 ---
 # <a name="setbrokernonhamode-method-of-the-win32_sessionbrokerserviceproperties-class"></a>Метод Сетброкернонхамоде \_ класса Win32 сессионброкерсервицепропертиес
 
-Переносит данные из центрального SQL Server в локальную базу данных. Он также настраивает сервер брокера для использования локальной базы данных.
+переносит данные из центрального SQL Server в локальную базу данных. Он также настраивает сервер брокера для использования локальной базы данных.
 
 ## <a name="syntax"></a>Синтаксис
 

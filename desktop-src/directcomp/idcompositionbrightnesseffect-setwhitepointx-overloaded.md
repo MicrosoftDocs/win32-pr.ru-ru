@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 70f3d53339b513baff56f11d9c707f6895ad80d8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 78512800ae0db84971dac7f3ee190409f912a1229791f3601048bf8ea198b414
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105718164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119018"
 ---
 # <a name="idcompositionbrightnesseffectsetwhitepointx-methods"></a>Методы Идкомпоситионбригхтнессеффект:: Сетвхитепоинткс
 
@@ -40,7 +40,7 @@ ms.locfileid: "105718164"
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Дкомп. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Дкомп. h</dt> </dl> |
 
 
 

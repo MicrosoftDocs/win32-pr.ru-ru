@@ -4,12 +4,12 @@ description: Поскольку Microsoft Active Accessibility основан н
 ms.assetid: ed4bbef9-676a-4f4e-926a-044f71399c56
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2312b6177891c31c0987b846f7adfc1aa08abc7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 023b1d58a1a31997142097d02d8fc7d80881111e08f0020d967c1984d9946c57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105710301"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133907"
 ---
 # <a name="com-and-unicode-guidelines"></a>Рекомендации по COM и Юникод
 
@@ -46,6 +46,6 @@ ms.locfileid: "105710301"
 -   [Интерфейс IDispatch](idispatch-interface.md)
 -   [Преобразование строк Юникода и ANSI](converting-unicode-and-ansi-strings.md)
 
- 
+ 
 
- 
+ 

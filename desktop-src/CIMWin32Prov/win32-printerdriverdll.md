@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 41484c39d9e1b59efd79d7aee08719b3a241de97
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 884c52e388da62529a2aceb49c68ca888f18e0fd7701e05d951880774c3ed035
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104496524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119971864"
 ---
 # <a name="win32_printerdriverdll-class"></a>\_Класс Win32 принтердривердлл
 
@@ -45,7 +45,7 @@ class Win32_PrinterDriverDll : CIM_Dependency
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ принтердривердлл** имеет следующие свойства.
 
@@ -63,7 +63,7 @@ class Win32_PrinterDriverDll : CIM_Dependency
 Квалификаторы: [ **ключ**](../wmisdk/standard-qualifiers.md)
 </dt> </dl>
 
-Ссылка на экземпляр [**\_ файла данных CIM**](cim-datafile.md) , представляющий файл драйвера для этого принтера на основе Windows.
+ссылка на экземпляр [**\_ файла данных CIM**](cim-datafile.md) , представляющий файл драйвера для данного принтера на основе Windows.
 
 Это свойство наследуется [**от \_ зависимости CIM**](cim-dependency.md).
 
@@ -87,7 +87,7 @@ class Win32_PrinterDriverDll : CIM_Dependency
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ принтердривердлл** является производным от [**\_ зависимости CIM**](cim-dependency.md).
 

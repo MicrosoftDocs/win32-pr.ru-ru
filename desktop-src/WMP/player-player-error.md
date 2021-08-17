@@ -3,9 +3,9 @@ title: Событие Player. Error
 description: Событие ошибки возникает при возникновении состояния ошибки.
 ms.assetid: 1e418a56-ae81-4ff0-b721-3390be08970d
 keywords:
-- Проигрыватель Windows Media, событие ошибки
-- Событие ошибки Windows Media Player, класс Player
-- Класс проигрывателя Windows Media Player, событие ошибки
+- проигрыватель Windows Media события ошибки
+- событие ошибки проигрыватель Windows Media, класс проигрывателя
+- класс проигрывателя проигрыватель Windows Media, событие ошибки
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a99411773994ad012155eea5a203ed341d50b460
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6a7e4642eef19b4edc4b1aa5bc75022a307d279d0d60482af0c7e2f0a9368c06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134817"
 ---
 # <a name="playererror-event"></a>Событие Player. Error
 
@@ -46,7 +46,7 @@ Player.Error()
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере JScript создается обработчик событий для вывода текста описания первой ошибки в очереди ошибок. Объект **Player** создан с идентификатором "Player".
+в следующем примере JScript создается обработчик событий для вывода текста описания первой ошибки в очереди ошибок. Объект **Player** создан с идентификатором "Player".
 
 
 ```JScript
@@ -70,7 +70,7 @@ alert(errDesc);
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

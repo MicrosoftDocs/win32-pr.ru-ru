@@ -10,9 +10,9 @@
             - name: Новые возможности COM
               href: what-s-new-in-com.md
               items:
-                - name: Изменения в COM в Windows 7
+                - name: изменения в COM в Windows 7
                   href: changes-to-com-in-windows-7.md
-                - name: Изменения в COM в Windows Vista
+                - name: изменения в COM в Windows Vista
                   href: changes-to-com-in-windows-vista.md
             - name: Модель COM
               href: the-component-object-model.md
@@ -136,7 +136,7 @@
                       href: proxy.md
                     - name: Ловушек
                       href: stub.md
-                    - name: Канал
+                    - name: Channel
                       href: channel.md
                     - name: Microsoft RPC
                       href: microsoft-rpc.md
@@ -280,7 +280,7 @@
                       href: schannel.md
                     - name: снего
                       href: snego.md
-                - name: Улучшения безопасности DCOM в Windows XP с пакетом обновления 2 и Windows Server 2003 с пакетом обновления 1 (SP1)
+                - name: улучшения безопасности DCOM в Windows XP с пакетом обновления 2 и Windows Server 2003 с пакетом обновления 1 (sp1)
                   href: dcom-security-enhancements-in-windows-xp-service-pack-2-and-windows-server-2003-service-pack-1.md
                 - name: Списки управления доступом для COM
                   href: access-control-lists-for-com.md
@@ -363,7 +363,7 @@
                           href: asynchronous-vs.-synchronous-monikers.md
                         - name: Асинхронная и синхронная привязка
                           href: asynchronous-vs.-synchronous-binding.md
-                        - name: Асинхронное и синхронное хранилище
+                        - name: асинхронные и синхронные служба хранилища
                           href: asynchronous-vs.-synchronous-storage.md
                         - name: Модель Data-Pull и модель Data-Push
                           href: data-pull-model-vs.-data-push-model.md
@@ -1244,14 +1244,14 @@
                 - name: ирпкпроксибуффер
                   href: /windows/desktop/api/objidl/nn-objidl-irpcproxybuffer
                   items:
-                    - name: Метод Connect
+                    - name: Подключение Method
                       href: /windows/desktop/api/objidl/nf-objidl-irpcproxybuffer-connect
                     - name: Метод Disconnect
                       href: /windows/desktop/api/objidl/nf-objidl-irpcproxybuffer-disconnect
                 - name: ирпкстуббуффер
                   href: /windows/desktop/api/objidl/nn-objidl-irpcstubbuffer
                   items:
-                    - name: Метод Connect
+                    - name: Подключение Method
                       href: /windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-connect
                     - name: Метод Каунтрефс
                       href: /windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-countrefs
@@ -1451,7 +1451,7 @@
                           href: autotreatas.md
                         - name: ауксусертипе
                           href: auxusertype.md
-                        - name: Control
+                        - name: Элемент
                           href: control.md
                         - name: Преобразование
                           href: conversion.md
@@ -1485,7 +1485,7 @@
                           href: treatas.md
                         - name: Команда
                           href: verb.md
-                        - name: Version
+                        - name: Версия
                           href: version.md
                         - name: версиониндепендентпрогид
                           href: versionindependentprogid.md
@@ -1528,7 +1528,7 @@
                       href: dcomscmremotecallflags.md
                     - name: дефаултакцесспермиссион
                       href: defaultaccesspermission.md
-                    - name: дефаултлаунчпермиссион
+                    - name: DefaultLaunchPermission
                       href: defaultlaunchpermission.md
                     - name: донотаддаллаппликатионпаккажесторестриктионс
                       href: donotaddallapplicationpackagestorestrictions.md
@@ -1542,9 +1542,9 @@
                       href: legacyimpersonationlevel.md
                     - name: легацисекуререференцес
                       href: legacysecurereferences.md
-                    - name: мачинеакцессрестриктион
+                    - name: MachineAccessRestriction
                       href: machineaccessrestriction.md
-                    - name: мачинелаунчрестриктион
+                    - name: MachineLaunchRestriction
                       href: machinelaunchrestriction.md
                     - name: нонредист
                       href: nonredist.md
@@ -2825,9 +2825,9 @@
             - name: Элементы управления ActiveX
               href: activex-controls.md
               items:
-                - name: Архитектура элементов управления ActiveX
+                - name: ActiveX Архитектура элементов управления
                   href: activex-controls-architecture.md
-                - name: Интерфейсы элементов управления ActiveX
+                - name: ActiveX Интерфейсы элементов управления
                   href: activex-controls-interfaces.md
                 - name: Свойства и методы
                   href: properties-and-methods.md
@@ -2854,7 +2854,7 @@
                 - name: Регистрация и лицензирование
                   href: registration-and-licensing.md
                   items:
-                    - name: Сведения о реестре элементов управления ActiveX
+                    - name: ActiveX Управляет сведениями реестра
                       href: activex-controls-registry-information.md
             - name: Страницы свойств и вкладки свойств
               href: property-pages-and-property-sheets.md
@@ -2863,7 +2863,7 @@
                   href: property-sheets-and-property-pages.md
                 - name: Привязка данных через Ипропертинотифисинк
                   href: data-binding-through-ipropertynotifysink.md
-            - name: Рекомендации по контейнерам элементов управления и элементов управления ActiveX
+            - name: ActiveX Рекомендации по контейнерам элементов управления и контроля
               href: activex-control-and-control-container-guidelines.md
               items:
                 - name: Общие сведения о рекомендациях для контейнеров управления и управления
@@ -2904,7 +2904,7 @@
                       href: miscellaneous-status-bits-support.md
                     - name: Обработка клавиатуры в элементах управления
                       href: keyboard-handling-in-controls.md
-                    - name: Интерфейсы хранилища
+                    - name: служба хранилища Интерфейс
                       href: storage-interfaces.md
                     - name: Внешние свойства
                       href: ambient-properties.md
@@ -2927,7 +2927,7 @@
                       href: simple-data-binding.md
                     - name: Расширенная привязка данных
                       href: advanced-data-binding.md
-                    - name: Visual Basic закрытых интерфейсов
+                    - name: Visual Basic Частные интерфейсы
                       href: visual-basic-private-interfaces.md
                       items:
                         - name: ижетолеобжект
@@ -3286,7 +3286,7 @@
                   href: translating-to-c---from-visual-basic.md
                 - name: Преобразование в C++ из Java
                   href: translating-to-c---from-java.md
-                - name: Добавление элемента управления ActiveX в проект Visual C++
+                - name: добавление элемента управления ActiveX в Visual C++ Project
                   href: adding-an-activex-control-to-a-visual-c---project.md
                 - name: Компилятор MIDL
                   href: midl-compiler.md
@@ -3297,15 +3297,15 @@
             - name: Перевод в Visual Basic
               href: translating-to-visual-basic.md
               items:
-                - name: Преобразование в Visual Basic из C++
+                - name: преобразование в Visual Basic из C++
                   href: translating-to-visual-basic-from-c--.md
-                - name: Перевод в Visual Basic из Java
+                - name: перевод в Visual Basic из Java
                   href: translating-to-visual-basic-from-java.md
-                - name: Добавление компонента в проект Visual Basic
+                - name: добавление компонента в Visual Basic Project
                   href: adding-a-component-to-a-visual-basic-project.md
-                - name: Добавление ссылки на проект Visual Basic
+                - name: добавление ссылки на Visual Basic Project
                   href: adding-a-reference-to-a-visual-basic-project.md
-                - name: Обозреватель объектов Visual Basic
+                - name: Visual Basic Обозреватель объектов
                   href: visual-basic-object-browser.md
             - name: Перевод на Java
               href: translating-to-java.md
@@ -3327,7 +3327,7 @@
               href: embedding-com-objects-in-web-pages.md
             - name: Использование COM-объектов на страницах Active Server
               href: using-com-objects-in-active-server-pages.md
-            - name: Использование COM-объектов в сервере сценариев Windows
+            - name: использование COM-объектов в Windows сервера сценариев
               href: using-com-objects-in-windows-script-host.md
             - name: Создание скриптов для COM-объектов в пользовательских приложениях
               href: scripting-com-objects-in-custom-applications.md
@@ -3338,12 +3338,12 @@
                   href: translating-to-vbscript-from-jscript.md
                 - name: Преобразование в VBScript из JavaScript
                   href: translating-to-vbscript-from-javascript.md
-            - name: Преобразование в JScript
+            - name: Перевод в JScript
               href: translating-to-jscript.md
               items:
-                - name: Преобразование в JScript из VBScript
+                - name: перевод в JScript из VBScript
                   href: translating-to-jscript-from-vbscript.md
-                - name: Преобразование в JScript из JavaScript
+                - name: преобразование в JScript из JavaScript
                   href: translating-to-jscript-from-javascript.md
             - name: Преобразование в JavaScript
               href: translating-to-javascript.md

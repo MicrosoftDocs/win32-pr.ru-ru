@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 1c63ba3e20653c41864394d9c563c851f2aab5e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f0f0100367d4fad6d6e0b013e5d552f733086e6ddd5bc720779ef1fb5b65cdce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133227"
 ---
 # <a name="dnsresolveex-function"></a>Функция Днсресолвикс
 
@@ -27,7 +27,7 @@ ms.locfileid: "105712552"
 
 <dl> <dt>
 
-*хост* 
+*узел* 
 </dt> <dd>
 
 Строка, содержащая узел HTTP, который предоставляется в Финдпроксифорурл.
@@ -38,7 +38,7 @@ ms.locfileid: "105712552"
 
 Строка с разделителями-двоеточием, содержащая адреса IPv6 и IPv4, или пустая строка, если узел не разрешается.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Разработчики Финдпроксифорурлекс должны добавить код, который разбивает строку IP-адресов, разделенных точками с запятой, на отдельные адреса.
 

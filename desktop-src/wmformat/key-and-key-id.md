@@ -3,7 +3,7 @@ title: Ключ и идентификатор ключа
 description: Ключ и идентификатор ключа
 ms.assetid: 40618771-d601-4c31-8da9-5c649651f2f2
 keywords:
-- Windows Media Format SDK, управление цифровыми правами (DRM)
+- Windows Пакет SDK для формата мультимедиа, управление цифровыми правами (DRM)
 - Управление цифровыми правами (DRM), ключи
 - DRM (Управление цифровыми правами), ключи
 - Управление цифровыми правами (DRM), ребенок
@@ -12,12 +12,12 @@ keywords:
 - Детская (идентификатор ключа)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca7f74521fdf0f6cc268b8af1259f8468087f45b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ae448cd0c973ad11b55df6365039240ebe2c6ebadb3eda5f70b7f8dd1bfbfbc7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105700541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119929964"
 ---
 # <a name="key-and-key-id"></a>Ключ и идентификатор ключа
 
@@ -27,16 +27,16 @@ ms.locfileid: "105700541"
 
 Многие методы, описанные в этой документации, используют строки идентификатора ключа для выбора лицензий. Эти строки содержат идентификатор ключа, закодированный в Base64.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Основные понятия**](drmconcepts.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

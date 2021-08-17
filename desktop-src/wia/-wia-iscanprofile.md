@@ -70,7 +70,7 @@ ms.locfileid: "119450834"
 
 `<Properties>`Элемент содержит `<Property>` дочерние элементы. Используйте их, чтобы добавить в профиль любое свойство элемента WIA 2,0 или устройства. Вы также можете разработать собственные `<Property>` дочерние элементы приобретения Image. Это делает схему профиля сканирования расширяемой. (Дополнительные сведения о расширении схемы см. в разделе [Определение пользовательских свойств](-wia-defining-custom-properties.md), [**исканпрофиле::-Property**](-wia-iscanprofile-getproperty.md)и [**исканпрофиле:: SetProperty**](-wia-iscanprofile-setproperty.md).)
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

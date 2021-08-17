@@ -1,18 +1,18 @@
 ---
-title: Важные изменения с Direct3D 11 до Direct3D 12
+title: Важные изменения в Direct3D 12 по сравнению с Direct3D 11
 description: Direct3D 12 представляет значительный уход с модели программирования Direct3D 11. Direct3D 12 позволяет приложениям ближе к оборудованию, чем когда-либо ранее.
 ms.assetid: CE5066C9-7EA6-437D-9EB0-AACFB6CFAD9E
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5be891d71d6c1f3a12d8d5aac3ec46785207ed31
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3afc5fe9a451addf1d1f7b9aeddf1f55ca40a22db99134ba71d8195c72ad2b13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548938"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123837"
 ---
-# <a name="important-changes-from-direct3d-11-to-direct3d-12"></a>Важные изменения с Direct3D 11 до Direct3D 12
+# <a name="important-changes-from-direct3d-11-to-direct3d-12"></a>Важные изменения в Direct3D 12 по сравнению с Direct3D 11
 
 Direct3D 12 представляет значительный уход с модели программирования Direct3D 11. Direct3D 12 позволяет приложениям ближе к оборудованию, чем когда-либо ранее. Чем ближе к оборудованию, Direct3D 12 быстрее и эффективнее. Но при этом при использовании Direct3D 12 Вы несете ответственность за выполнение большего числа задач, чем при использовании Direct3D 11.
 
@@ -82,6 +82,6 @@ Direct3D 12 изменяет модель привязки в соответст
 [Основные сведения о Direct3D 12](directx-12-getting-started.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

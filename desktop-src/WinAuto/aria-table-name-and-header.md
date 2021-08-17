@@ -6,12 +6,12 @@ keywords:
 - ариадататаблиррорид
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3286f88a0b3a0d962fd6ac45581f94bc351cb507
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 025443ab452ff0103c8808c27dce834a03cb8c96e0d9106a7abb4409b64a0697
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104413973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133977"
 ---
 # <a name="aria-data-table-error"></a>Ошибка таблицы данных ARIA
 
@@ -21,7 +21,7 @@ ms.locfileid: "104413973"
 
 ## <a name="type"></a>Тип
 
-Ошибка
+Error
 
 ## <a name="description"></a>Описание
 
@@ -58,9 +58,9 @@ ms.locfileid: "104413973"
 
 
 
- 
+ 
 
- 
+ 
 
 
 

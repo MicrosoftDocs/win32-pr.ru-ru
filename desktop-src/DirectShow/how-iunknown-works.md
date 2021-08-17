@@ -4,12 +4,12 @@ ms.assetid: 926778a5-e941-4424-8bc0-b50c925fd08b
 title: Принцип работы IUnknown
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a7549ce892e9c0dd3c82f1229a2440f1b930190
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 1523a8de5d9b99df60ebaff540d4bf9468799e3be1361a4be111f15a142bbea9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104139290"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015592"
 ---
 # <a name="how-iunknown-works"></a>Принцип работы IUnknown
 
@@ -85,7 +85,7 @@ HRESULT QueryInterface(REFIID iid, void **ppv)
 
 По природе делегирования методы делегирования выглядят одинаково в каждом компоненте. Изменяются только неделегированные версии.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

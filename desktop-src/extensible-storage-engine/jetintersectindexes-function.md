@@ -18,17 +18,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 4bdffa6f21a65ae7f438f87ea0d8d2adf4aed6a9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 23d9d7bcd7d41251883313517db34f0cbca0ec8e6d2aaa5946348057cc29d844
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118978874"
 ---
 # <a name="jetintersectindexes-function"></a>Функция JetIntersectIndexes
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jetintersectindexes-function"></a>Функция JetIntersectIndexes
 
@@ -70,7 +70,7 @@ _**Применимо к:** Windows | Windows Server_
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. Дополнительные сведения об ошибках ESE см. в разделе [Расширенные ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. дополнительные сведения об ошибках ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -95,7 +95,7 @@ _**Применимо к:** Windows | Windows Server_
 <tr class="odd">
 <td><p>JET_errInstanceUnavailable</p></td>
 <td><p>Невозможно выполнить операцию, поскольку экземпляр, связанный с сеансом, обнаружил неустранимую ошибку, которая требует, чтобы доступ ко всем данным был отозван для защиты целостности этих данных.</p>
-<p><strong>Windows XP:</strong>  Это возвращаемое значение введено в Windows XP.</p></td>
+<p><strong>Windows XP:</strong>  это возвращаемое значение вводится в Windows XP.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errInvalidgrbit</p></td>
@@ -143,7 +143,7 @@ _**Применимо к:** Windows | Windows Server_
 <tr class="odd">
 <td><p>JET_errSessionSharingViolation</p></td>
 <td><p>Нельзя одновременно использовать один сеанс из нескольких потоков.</p>
-<p><strong>Windows XP:</strong>  Это возвращаемое значение введено в Windows XP.</p></td>
+<p><strong>Windows XP:</strong>  это возвращаемое значение вводится в Windows XP.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errTermInProgress</p></td>
@@ -169,7 +169,7 @@ _**Применимо к:** Windows | Windows Server_
 
 При сбое временная таблица, содержащая результаты, не будет создана. Состояние временной базы данных может быть изменено. Состояние всех обычных баз данных, используемых ядром СУБД, останется неизменным. Текущее расположение [JET_TABLEID](./jet-tableid.md)s, предоставленное этой функции, может быть изменено.
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 **Жетинтерсектиндексес** можно использовать для эффективной фильтрации записей в таблице по нескольким критериям, если эти критерии могут быть выражены в виде вторичных индексов по этой таблице. Например, предположим, что у вас есть очень большая таблица, содержащая людей. Таблица может содержать столбцы с идентификатором пользователя, именем, фамилией и т. д. Предположим, что каждый из этих столбцов индексируется отдельно и первичный индекс таблицы находится по идентификатору пользователя. Если вы хотите найти всех, чье имя начинается с A, а фамилия начинается с G, выполните следующие действия.
 
@@ -197,11 +197,11 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
+<td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
+<td><p><strong>Сервер</strong></p></td>
+<td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>
@@ -219,7 +219,7 @@ _**Применимо к:** Windows | Windows Server_
 </table>
 
 
-#### <a name="see-also"></a>См. также:
+#### <a name="see-also"></a>См. также
 
 [JET_ERR](./jet-err.md)  
 [JET_GRBIT](./jet-grbit.md)  

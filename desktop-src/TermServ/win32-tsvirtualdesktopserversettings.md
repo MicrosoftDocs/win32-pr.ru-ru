@@ -19,12 +19,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c39635aee7b32430ace0ead0e3b007051a3c049d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f40e7d51ee0c92e50afca023629bb92de9f506b3e47ee9e520aa16c09640375b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103803599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137467"
 ---
 # <a name="win32_tsvirtualdesktopserversettings-class"></a>\_Класс Win32 тсвиртуалдесктопсерверсеттингс
 
@@ -50,7 +50,7 @@ class Win32_TSVirtualDesktopServerSettings
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ тсвиртуалдесктопсерверсеттингс** имеет следующие свойства.
 

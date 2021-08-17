@@ -3,7 +3,7 @@ title: Свойство Command. Лабелтитле
 description: Представляет заголовок метки.
 ms.assetid: 97378ec3-7988-4e39-9cf5-c382b246c5c9
 keywords:
-- Лента Windows для свойства Command. Лабелтитле
+- свойство Command. лабелтитле, Windows лента
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed6d6c72ddd60cca63834fdcf21cf8f8b726ad22
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c44995d3f17b165c38f9fe7490a33e5d140c8d2b375d5d6b625bb00e3228b21e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104535075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810794"
 ---
 # <a name="commandlabeltitle-property"></a>Свойство Command. Лабелтитле
 
@@ -51,11 +51,11 @@ ms.locfileid: "104535075"
 
 | Элемент                                                     |
 |-------------------------------------------------------------|
-| [**Get-Help**](windowsribbon-element-command.md)<br/> |
+| [**Команда**](windowsribbon-element-command.md)<br/> |
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Необязательный элемент.
 
@@ -137,8 +137,8 @@ ms.locfileid: "104535075"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>              |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>              |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/> |
 
 
 

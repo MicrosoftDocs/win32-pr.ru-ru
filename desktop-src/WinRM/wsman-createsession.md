@@ -5,8 +5,8 @@ ms.assetid: 299d9a95-bd30-414c-996d-6633e8b7ce52
 ms.tgt_platform: multiple
 keywords:
 - служба удаленного управления Windows метода CreateSession
-- Служба удаленного управления Windows метода CreateSession, объект WSMan
-- Объект WSMan служба удаленного управления Windows, метод CreateSession
+- служба удаленного управления Windows метода CreateSession, объект WSMan
+- объект WSMan служба удаленного управления Windows, метод CreateSession
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 966fd1f43db7114d3a4c0cf4cddaa4428fcb41c6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 330f8ea6456001c7e3b81dfbfeb07a125d30a5069596ef7d4f3e6ad561994ecb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534529"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117742608"
 ---
 # <a name="wsmancreatesession-method"></a>Метод WSMan. CreateSession
 
@@ -72,9 +72,9 @@ WSMan.CreateSession( _
 
 Объект [**сеанса**](session.md) , который затем можно использовать для выполнения локальных или удаленных операций WinRM.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Метод **CreateSession** Инициализирует объект [**Session**](session.md) , собирая параметры, такие как флаги, учетные данные и строку подключения для параметра *соединения* . **CreateSession** на самом деле не подключается к локальному или удаленному компьютеру. Если соединение не может быть установлено, происходит сбой при выполнении первой операции **сеанса** , такой как [**Get**](session-get.md) или [**reenumerate**](session-enumerate.md), после вызова **CreateSession**. Это поведение отличается от [*WMI*](windows-remote-management-glossary.md) -соединения с [*пространством имен*](windows-remote-management-glossary.md) на удаленном компьютере. Дополнительные сведения см. в разделе [Служба удаленного управления Windows и инструментарий WMI](windows-remote-management-and-wmi.md).
+Метод **CreateSession** Инициализирует объект [**Session**](session.md) , собирая параметры, такие как флаги, учетные данные и строку подключения для параметра *соединения* . **CreateSession** на самом деле не подключается к локальному или удаленному компьютеру. Если соединение не может быть установлено, происходит сбой при выполнении первой операции **сеанса** , такой как [**Get**](session-get.md) или [**reenumerate**](session-enumerate.md), после вызова **CreateSession**. Это поведение отличается от [*WMI*](windows-remote-management-glossary.md) -соединения с [*пространством имен*](windows-remote-management-glossary.md) на удаленном компьютере. дополнительные сведения см. в разделе [служба удаленного управления Windows и инструментарий WMI](windows-remote-management-and-wmi.md).
 
 Для вызова этого метода используется следующий пример кода VBScript.
 
@@ -118,7 +118,7 @@ Set session = _
 
 В следующем примере кода VBScript создается сеанс на удаленном компьютере, который идентифицируется по IP-адресу. Сценарий предоставляет имя пользователя и пароль для учетной записи. Флаги **всманфлагкредусернамепассворд** и **всманфлагусебасик** объединяются, чтобы указать, что учетная запись является локальной учетной записью на удаленном компьютере. В случае сбоя создания сеанса сценарий завершается. Скрипт использует методы, возвращающие константу, например [**WSMan. сессионфлагусебасик**](wsman-sessionflagusebasic.md).
 
-Чтобы выполнить этот сценарий, необходимо настроить параметры конфигурации по умолчанию как для клиента, так и для сервера, чтобы разрешить незашифрованный трафик и обычную проверку подлинности (для **алловуненкриптед** задано значение **true** , а для параметра Basic — значение **true**). Дополнительные сведения см. в разделе [Установка и настройка для служба удаленного управления Windows](installation-and-configuration-for-windows-remote-management.md).
+Чтобы выполнить этот сценарий, необходимо настроить параметры конфигурации по умолчанию как для клиента, так и для сервера, чтобы разрешить незашифрованный трафик и обычную проверку подлинности (для **алловуненкриптед** задано значение **true** , а для параметра Basic — значение **true**). дополнительные сведения см. в разделе [установка и настройка для служба удаленного управления Windows](installation-and-configuration-for-windows-remote-management.md).
 
 
 ```VB
@@ -154,7 +154,7 @@ Set NewSession = WSMan.CreateSession("127.0.51.1", iFlags, _
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                 |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                           |
-| Header<br/>                   | <dl> <dt>Всмандисп. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Всмандисп. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Всмандисп. idl</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Всмандисп. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WSMAuto.dll</dt> </dl>   |
@@ -171,13 +171,13 @@ Set NewSession = WSMan.CreateSession("127.0.51.1", iFlags, _
 [**ConnectionOptions**](connectionoptions.md)
 </dt> <dt>
 
-[**Session**](session.md)
+[**Сеанс**](session.md)
 </dt> <dt>
 
 [Проверка подлинности для удаленных подключений](authentication-for-remote-connections.md)
 </dt> <dt>
 
-[Установка и настройка для служба удаленного управления Windows](installation-and-configuration-for-windows-remote-management.md)
+[установка и настройка для служба удаленного управления Windows](installation-and-configuration-for-windows-remote-management.md)
 </dt> </dl>
 
  

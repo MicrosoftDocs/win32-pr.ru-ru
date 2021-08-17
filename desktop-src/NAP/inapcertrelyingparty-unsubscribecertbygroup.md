@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b01bbad5ef48b5f709f93f018c56b5798907d08c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7d8b9f5398ba63c0e6108adfefd51d0546180db4536dbd95615e5b15dddde523
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118940222"
 ---
 # <a name="inapcertrelyingpartyunsubscribecertbygroup-method"></a>Метод Инапцертрелингпарти:: Унсубскрибецертбиграуп
 
@@ -78,7 +78,7 @@ HRESULT UnSubscribeCertByGroup(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если нет других подписчиков на HCS, Напажент удалит соответствующие сертификаты работоспособности из хранилища локального компьютера.
 
@@ -90,9 +90,9 @@ HRESULT UnSubscribeCertByGroup(
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                               |
-| Header<br/>                   | <dl> <dt>Напцертрелингпарти. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                               |
+| Заголовок<br/>                   | <dl> <dt>Напцертрелингпарти. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Напцертрелингпарти. idl</dt> </dl> |
 
 

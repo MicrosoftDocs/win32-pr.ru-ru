@@ -4,16 +4,16 @@ ms.assetid: 940c414d-274f-475c-a50e-7a0853c3c26b
 title: Универсальные указатели ресурсов (URL-адреса) в WinHTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 486ed3b17e2cf205f6ac815e87617a84e0ccc4cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 798d18dd2e3d2095e175904fcc2f3a332d618100174f174510c98780b06a57ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080592"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133015"
 ---
 # <a name="uniform-resource-locators-urls-in-winhttp"></a>Универсальные указатели ресурсов (URL-адреса) в WinHTTP
 
-URL-адрес — это компактное представление расположения и метода доступа для ресурса, расположенного в Интернете. Каждый URL-адрес состоит из схемы (HTTP, HTTPS, FTP или gopher) и строки, зависящей от схемы. Эта строка может также содержать сочетание пути к каталогу, строки поиска или имени ресурса. Функции служб Microsoft Windows HTTP (WinHTTP) обеспечивают возможность создания, объединения, разбиения на себя и канонизировать URL-адресов. Дополнительные сведения см. в статьях [rfc 1738](https://www.ietf.org/rfc/rfc1738.txt), [универсальные указатели ресурсов](https://www.ietf.org/rfc/rfc1738.txt) и [RFC 2396](https://www.ietf.org/rfc/rfc2396.txt), [универсальные идентификаторы ресурсов (URI): универсальный синтаксис](https://www.ietf.org/rfc/rfc1738.txt).
+URL-адрес — это компактное представление расположения и метода доступа для ресурса, расположенного в Интернете. Каждый URL-адрес состоит из схемы (HTTP, HTTPS, FTP или gopher) и строки, зависящей от схемы. Эта строка может также содержать сочетание пути к каталогу, строки поиска или имени ресурса. функции служб Microsoft Windows HTTP (WinHTTP) обеспечивают возможность создания, объединения, разбиения на себя и канонизировать url-адресов. Дополнительные сведения см. в статьях [rfc 1738](https://www.ietf.org/rfc/rfc1738.txt), [универсальные указатели ресурсов](https://www.ietf.org/rfc/rfc1738.txt) и [RFC 2396](https://www.ietf.org/rfc/rfc2396.txt), [универсальные идентификаторы ресурсов (URI): универсальный синтаксис](https://www.ietf.org/rfc/rfc1738.txt).
 
 ## <a name="what-is-a-canonicalized-url"></a>Что такое канонический URL-адрес?
 

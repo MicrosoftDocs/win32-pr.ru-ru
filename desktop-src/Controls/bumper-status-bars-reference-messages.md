@@ -4,16 +4,16 @@ description: Сообщения в строке состояния
 ms.assetid: 7e1e3c8d-2ed8-4cd7-aa17-733e2c8c5ff1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fafb64a76766632cf51d4041de1c2a628387b61
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 4eddb6d30cb755ca8fc1dfda083f4dd95b68c23d1599486248e4c5810904d302
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103914444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119969854"
 ---
 # <a name="status-bar-messages"></a>Сообщения в строке состояния
 
-## <a name="in-this-section"></a>в этом разделе
+## <a name="in-this-section"></a>В этом разделе
 
 -   [**SB — \_ границы**](sb-getborders.md)
 -   [**\_значок SB**](sb-geticon.md)

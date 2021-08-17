@@ -4,12 +4,12 @@ description: в этом примере кода демонстрируется 
 ms.assetid: f334dbfc-710a-4652-b914-a668ae36aecd
 ms.topic: article
 ms.date: 07/13/2021
-ms.openlocfilehash: 5f469ac892f063fbd6c8beb0fe8af0c054216dbc
-ms.sourcegitcommit: 63c93e0ad0b48d60b11008767196718feb475cb0
+ms.openlocfilehash: f0c739e368a26b2664b71efd4ff7cd8c3e7f8490ef7df8ccbe8ec6ace18af115
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "113691703"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964393"
 ---
 # <a name="contextpopup-sample"></a>Пример Контекстпопуп
 
@@ -20,7 +20,7 @@ ms.locfileid: "113691703"
   - [Запуск примера](#running-the-sample)
 - [Поддержка](#support)
 - [Минимальные требования](#minimum-requirements)
-- [Связанные разделы](#related-topics)
+- [Связанные темы](#related-topics)
 
 ## <a name="usage"></a>Использование
 
@@ -54,9 +54,9 @@ ms.locfileid: "113691703"
 
 | Требование | Значение |
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента | Windows 7<br/> Windows vista с пакетом обновления 2 (sp2) и [обновлением платформы для Windows Vista](https://msdn.microsoft.com/library/dd378748.aspx)<br/>         |
+| Минимальная версия клиента | Windows 7<br/> Windows vista с пакетом обновления 2 (sp2) и [обновлением платформы для Windows Vista](https://msdn.microsoft.com/library/dd378748.aspx)<br/>         |
 | Минимальная версия сервера | Windows Server 2008 R2<br/> Windows сервер 2008 с пакетом обновления 2 (SP2) и [обновлением платформы для Windows Server 2008](https://msdn.microsoft.com/library/dd378748.aspx)<br/> |
-| Пакет Windows SDK              | 7.0                                                                                                                                                                      |
+| Пакет Windows SDK              | 7,0                                                                                                                                                                      |
 | Visual Studio            | 2008                                                                                                                                                                     |
 | Заголовочные и IDL-файлы     | уириббон. h, уириббон. idl                                                                                                                                                 |
 
@@ -69,7 +69,7 @@ ms.locfileid: "113691703"
 
  
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

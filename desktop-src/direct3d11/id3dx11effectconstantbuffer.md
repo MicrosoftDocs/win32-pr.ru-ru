@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cfea2e8e67af30075990d6643b10bb86cf3021ae
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e5c5e62e6d339482123f66b7f23aae771f335392b54b9a766681dab78f6fbafa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104355253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119851644"
 ---
 # <a name="id3dx11effectconstantbuffer-interface"></a>Интерфейс ID3DX11EffectConstantBuffer
 
@@ -52,7 +52,7 @@ ms.locfileid: "104355253"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Используйте буферы констант для хранения многих констант эффектов; Группирование констант в буферы на основе частоты обновления. Это позволяет максимально сокращать количество изменений состояния, а также упростить изменение состояния минимальных вызовов API. Оба эти фактора приводят к повышению производительности.
 
@@ -67,7 +67,7 @@ ms.locfileid: "104355253"
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
+| Заголовок<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
 | Библиотека<br/> | <dl> <dt>Н/д (библиотека Effects 11 доступна в сети в качестве общего источника.)</dt> </dl> |
 
 

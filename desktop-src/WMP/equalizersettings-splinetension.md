@@ -3,7 +3,7 @@ title: ЕКУАЛИЗЕРСЕТТИНГС. Сплинетенсион
 description: Атрибут Сплинетенсион указывает или получает натяжение сплайна для элемента управления эквалайзера.
 ms.assetid: bd208310-eb31-4787-8975-bca921db0aae
 keywords:
-- Проигрыватель Windows Media ЕКУАЛИЗЕРСЕТТИНГС. Сплинетенсион
+- екуализерсеттингс. сплинетенсион проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 656e2a42504c87861f713a9e504a85a6727dff32
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0fa964380b669dd05006e2cca7b0877ca0a9d289e4a29c6e2ba17383e6145eac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694929"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117748679"
 ---
 # <a name="equalizersettingssplinetension"></a>ЕКУАЛИЗЕРСЕТТИНГС. Сплинетенсион
 
@@ -37,7 +37,7 @@ ms.locfileid: "105694929"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 

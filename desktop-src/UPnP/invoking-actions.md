@@ -4,12 +4,12 @@ description: Метод Иупнпсервице Инвокеактион поз
 ms.assetid: 671e9280-5ead-43f2-bb6b-12792a6a4487
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc7550575281681f3f533db90ef1c1034dbaa085
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fe7b294d7f0ed80988e9d4a9f75393764fd0a58b20d84581ab9ab10677efc6ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137207"
 ---
 # <a name="invoking-actions"></a>Вызов действий
 
@@ -256,6 +256,6 @@ void InvokeGetTrackInfo(IUPnPService * pService)
 
 
 
- 
+ 
 
- 
+ 

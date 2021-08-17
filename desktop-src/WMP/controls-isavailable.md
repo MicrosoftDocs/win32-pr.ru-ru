@@ -3,7 +3,7 @@ title: Элементы управления. доступно
 description: Свойство Available указывает, доступен ли указанный тип сведений, или может быть выполнено указанное действие. | Элементы управления. доступно
 ms.assetid: d2bfaa67-eac9-4fc4-9424-636ddb4b35d6
 keywords:
-- Универсальный проигрыватель Windows Media Controls.
+- элементы управления. доступно проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 61afa07596a55208be63bd29759fd5f9f3e10170
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 502343b7654241a00e9efb33acc6f5de842c6fb6bad650f24839a5fe7febf9b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135747"
 ---
 # <a name="controlsisavailable"></a>Элементы управления. доступно
 
@@ -63,7 +63,7 @@ player.controls.isAvailable(
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере создается HTML-элемент BUTTON, который выполняет поиск начальной позиции текущего элемента мультимедиа. В коде JScript для проверки того, поддерживает ли файл операцию поиска **, можно использовать** параметр. Объект **Player** создан с идентификатором "Player".
+В следующем примере создается HTML-элемент BUTTON, который выполняет поиск начальной позиции текущего элемента мультимедиа. в JScriptном коде **для проверки** того, поддерживает ли файл операцию поиска, можно использовать параметр. Объект **Player** создан с идентификатором "Player".
 
 
 ```JScript
@@ -83,7 +83,7 @@ player.controls.isAvailable(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/>                               |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/>                               |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

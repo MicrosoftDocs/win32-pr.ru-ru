@@ -54,7 +54,7 @@ ms.locfileid: "118971793"
 
 Если приложение получает сообщение [**WM \_ инитменупопуп**](wm-initmenupopup.md) , оно получит сообщение **WM \_ унинитменупопуп** .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
