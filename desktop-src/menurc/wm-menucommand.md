@@ -56,7 +56,7 @@ ms.locfileid: "118971813"
 
 Сообщение **WM \_ MENUCOMMAND** отправляется только для меню, определенных флагом **MNS \_ нотифибипос** , установленным в элементе **двстиле** структуры [**менуинфо**](/windows/win32/api/winuser/ns-winuser-menuinfo) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

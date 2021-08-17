@@ -4,12 +4,12 @@ ms.assetid: 0fa00a3f-2a5d-411d-9fc6-9486a600f018
 title: Таблица классов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29e7584fcb0440b8754179d8e274158cc64e3b74
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48985bd2d7e9670c89df53993e7170dc3e0e43a2b6e60f63d29e9f43e8d2ab3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066044"
 ---
 # <a name="class-table"></a>Таблица классов
 
@@ -21,19 +21,19 @@ ms.locfileid: "105662901"
 
 | Столбец           | Type                         | Ключ | Допускает значения NULL |
 |------------------|------------------------------|-----|----------|
-| CLSID            | [GUID](guid.md)             | Да   | Нет        |
-| Контекст          | [Идентификатор](identifier.md) | Да   | Нет        |
-| Компонент\_      | [Идентификатор](identifier.md) | Да   | Нет        |
-| ProgId \_ по умолчанию  | [Text](text.md)             | Нет   | Да        |
-| Описание      | [Text](text.md)             | Нет   | Да        |
-| AppId\_          | [GUID](guid.md)             | Нет   | Да        |
-| филетипемаск     | [Text](text.md)             | Нет   | Да        |
-| Значок\_           | [Идентификатор](identifier.md) | Нет   | Да        |
-| икониндекс        | [Integer](integer.md)       | Нет   | Да        |
-| дефинпрочандлер | [Имя файла](filename.md)     | Нет   | Да        |
-| Аргумент         | [Формате](formatted.md)   | Нет   | Да        |
-| Функция\_        | [Идентификатор](identifier.md) | Нет   | Нет        |
-| Атрибуты       | [Integer](integer.md)       | Нет   | Да        |
+| CLSID            | [GUID](guid.md)             | Д   | Нет        |
+| Контекст          | [Идентификатор](identifier.md) | Д   | Нет        |
+| Компонент\_      | [Идентификатор](identifier.md) | Д   | Нет        |
+| ProgId \_ по умолчанию  | [Text](text.md)             | Нет   | Д        |
+| Описание      | [Text](text.md)             | Нет   | Д        |
+| ИД\_          | [GUID](guid.md)             | Нет   | Д        |
+| филетипемаск     | [Text](text.md)             | Нет   | Д        |
+| Значок\_           | [Идентификатор](identifier.md) | Нет   | Д        |
+| икониндекс        | [Integer](integer.md)       | Нет   | Д        |
+| дефинпрочандлер | [Имя файла](filename.md)     | Нет   | Д        |
+| Аргумент         | [Формате](formatted.md)   | Нет   | Д        |
+| Компонент\_        | [Идентификатор](identifier.md) | Нет   | Нет        |
+| Атрибуты       | [Integer](integer.md)       | Нет   | Д        |
 
 
 
@@ -183,7 +183,7 @@ ms.locfileid: "105662901"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта таблица упоминается при выполнении [действия регистерклассинфо](registerclassinfo-action.md) или [унрегистерклассинфо](unregisterclassinfo-action.md) .
 

@@ -6,12 +6,12 @@ keywords:
 - Direct2D, Справочник
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e43529490d6115cb60d4093ba3d28fbf42fd62c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 69b5ab192fedffdcfc6ab3eb401a4bbaa1757fe2e8e84c843d6ad48feec93385
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105672307"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119075008"
 ---
 # <a name="direct2d-reference"></a>Справочник по Direct2D
 
@@ -31,7 +31,7 @@ ms.locfileid: "105672307"
 | [Структуры Direct2D](structures.md)<br/>                           | Перечисляет структуры, предоставляемые Direct2D.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | [Встроенные эффекты](built-in-effects.md)<br/>               | [Эффекты Direct2D](effects-overview.md) предоставляют этот набор встроенных эффектов. <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | [Вспомогательные методы HLSL](hlsl-helpers.md)<br/>                       | Чтобы помочь авторам повлиять на написание построителей шейдеров пикселей, d2d1effecthelpers. hlsli определяет набор расширений языка HLSL в виде вспомогательных методов и макросов. <br/>                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| [Поддержка SVG](svg-support.md)<br/>                         | Начиная с годовщины Windows 10, Direct2D поддерживает визуализацию [цветовых шрифтов](/windows/desktop/DirectWrite/color-fonts) , содержащих контуры глифов SVG, как описано в [спецификации OpenType](https://www.microsoft.com/Typography/OpenTypeSpecification.aspx) (см. [таблицу SVG](/typography/opentype/spec/svg)). Начиная с Windows 10 Creators Update, Direct2D также поддерживает визуализацию автономных изображений SVG. Однако некоторые функции SVG запрещены в шрифтах SVG OpenType, и некоторые функции SVG в настоящее время не поддерживаются Direct2D. <br/> |
+| [Поддержка SVG](svg-support.md)<br/>                         | начиная с Windows 10ного обновления годовщины, Direct2D поддерживает визуализацию [цветовых шрифтов](/windows/desktop/DirectWrite/color-fonts) , содержащих контуры глифов SVG, как описано в [спецификации OpenType](https://www.microsoft.com/Typography/OpenTypeSpecification.aspx) (см. [таблицу SVG](/typography/opentype/spec/svg)). начиная с Windows 10 Creators Update, Direct2D также поддерживает визуализацию автономных изображений SVG. Однако некоторые функции SVG запрещены в шрифтах SVG OpenType, и некоторые функции SVG в настоящее время не поддерживаются Direct2D. <br/> |
 
 
 

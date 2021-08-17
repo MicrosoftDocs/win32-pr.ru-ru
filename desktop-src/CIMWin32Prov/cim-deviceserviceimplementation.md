@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: ae96d94c95ddda684dbb4d17a2d8eb52fc6ffd4b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 14ab52a8075a9982d9e14f87b130b7b85a7b18badb9adab58e609acd0ee9662b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924514"
 ---
 # <a name="cim_deviceserviceimplementation-class"></a>\_Класс CIM девицесервицеимплементатион
 
@@ -51,7 +51,7 @@ class CIM_DeviceServiceImplementation : CIM_Dependency
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ девицесервицеимплементатион** имеет следующие свойства.
 
@@ -89,7 +89,7 @@ class CIM_DeviceServiceImplementation : CIM_Dependency
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Инструментарий WMI не реализует этот класс.
 

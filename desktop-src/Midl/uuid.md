@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5688bafe8343bdc1ab508a4e65984cc15c88b124
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 7ce85ad2014e1f0563e2c20af7abec3cc476fab330b38340162f28fd390a5f8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103784071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066644"
 ---
 # <a name="uuid-attribute"></a>uuid - атрибут
 
@@ -39,7 +39,7 @@ uuid ("string-uuid")
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Библиотека времени выполнения использует UUID интерфейса, который указывает атрибут **\[ UUID \]** , чтобы обеспечить взаимодействие между клиентскими и серверными приложениями. Атрибут **\[ UUID \]** может присутствовать в списке атрибутов интерфейса либо для интерфейса RPC, либо для COM-интерфейса.
 
@@ -85,9 +85,9 @@ uuid("6B29FC40-CA47-1067-B31D-00DD010662DA")
 [**Версия**](version.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

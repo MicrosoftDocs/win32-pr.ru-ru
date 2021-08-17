@@ -4,12 +4,12 @@ ms.assetid: dee1f2df-dfe0-44c3-830b-871690e513e9
 title: Запуск и восстановление COM+ CRM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a0e631e2e5ecef1621705c9af74aa48898d733b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1f65b8b1e32f2b587f7c288c6c5147ef30148360e89fc0a04ac952c8630076e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105710795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129196"
 ---
 # <a name="com-crm-startup-and-recovery"></a>Запуск и восстановление COM+ CRM
 
@@ -30,7 +30,7 @@ ms.locfileid: "105710795"
 
 Запуск серверного приложения CRM для восстановления не инициируется автоматически. Для запуска приложения сервера CRM, где требуется восстановление, необходимо выполнить некоторое внешнее действие. Как правило, в этом серверном приложении создается компонент.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

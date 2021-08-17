@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Выбор поставщиков событий SNMP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2dabd8f6d432025406a5faecc3ace423cd6671e9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0902c463ee0fc51505e125a329f592ebced6df20ec7f63296ba7248cd8dade98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712529"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131877"
 ---
 # <a name="choosing-between-snmp-event-providers"></a>Выбор поставщиков событий SNMP
 

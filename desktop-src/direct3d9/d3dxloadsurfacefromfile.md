@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: f53343e436ac78b93bcee30c7da5c9d8eb2dc415
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 44c06f0d88558fcb7692218cfe5aa98a2483fd1881dcab2f1d75f2c251bffb91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103821469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123062"
 ---
 # <a name="d3dxloadsurfacefromfile-function"></a>Функция D3DXLoadSurfaceFromFile
 
@@ -125,11 +125,11 @@ HRESULT D3DXLoadSurfaceFromFile(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. Если функция завершается ошибкой, возвращаемое значение может быть одним из следующих: D3DERR \_ инвалидкалл, D3DXERR \_ INVALIDDATA.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Параметр компилятора также определяет версию функции. Если определен Юникод, вызов функции разрешается в D3DXLoadSurfaceFromFileW. В противном случае вызов функции разрешается в D3DXLoadSurfaceFromFileA, так как используются строки ANSI.
 
-Эта функция обрабатывает преобразование в форматы сжатия и из сжатых форматов текстур и поддерживает следующие форматы файлов:. bmp,. DDS,. DIB,. HDR,. jpg,. ПФМ,. PNG,. ppm и. tga. См. раздел [**D3DXIMAGE \_ FILEFORMAT**](./d3dximage-fileformat.md).
+Эта функция обрабатывает преобразование в форматы и из сжатых текстур и поддерживает следующие форматы файлов: .bmp, DDS, DIB, HDR, .jpg,. ПФМ, .png,. ppm и. tga. См. раздел [**D3DXIMAGE \_ FILEFORMAT**](./d3dximage-fileformat.md).
 
 Запись на поверхность без выравнивания не приведет к обновлению «грязного» прямоугольника. Если вызывается **D3DXLoadSurfaceFromFile** и поверхность не была изменена (это маловероятно в нормальных сценариях использования), приложению необходимо явно вызвать [**адддиртирект**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dtexture9-adddirtyrect) на поверхности.
 
@@ -139,7 +139,7 @@ HRESULT D3DXLoadSurfaceFromFile(
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9tex. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9tex. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>  |
 
 

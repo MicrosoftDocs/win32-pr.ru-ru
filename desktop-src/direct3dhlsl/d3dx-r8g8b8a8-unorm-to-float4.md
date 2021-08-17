@@ -48,7 +48,7 @@ XMFLOAT4 D3DX_R8G8B8A8_UNORM_to_FLOAT4(
 
 Распакованные данные шейдера.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

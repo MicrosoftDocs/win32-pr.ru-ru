@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 1764787864c059e9c7417525a1a5ab5ff862f7d2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5e85e66d5089183b1797842ab4e152a10298ebcc74a10c66291c6f6bc62743e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119121430"
 ---
 # <a name="id3dxfiledata-interface"></a>Интерфейс ID3DXFileData
 
@@ -53,7 +53,7 @@ ms.locfileid: "104273860"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Типы данных, разрешенные шаблоном, называются необязательными членами. Необязательные элементы не являются обязательными, но объект может пропустить важную информацию без них. Эти необязательные члены сохраняются как дочерние элементы объекта данных. Дочерний элемент может быть другим объектом данных или ссылкой на более раннюю версию объекта данных.
 
@@ -74,7 +74,7 @@ typedef interface ID3DXFileData *LPD3DXFILEDATA;
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Xof. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Xof. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>  |
 
 

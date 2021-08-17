@@ -1,6 +1,6 @@
 ---
 title: Класс MDM_AppLocker_EnterpriseDataProtection01_StoreApps03
-description: Класс MDM \_ AppLocker \_ EnterpriseDataProtection01 \_ StoreApps03 фиксирует список приложений Windows, которым разрешено работать с корпоративными данными. Следует использовать в сочетании с параметрами в./вендор/мсфт/Полици/конфигсаурце/датапротектион.
+description: класс MDM \_ AppLocker \_ EnterpriseDataProtection01 \_ StoreApps03 фиксирует список приложений Windows, которым разрешено работать с корпоративными данными. Следует использовать в сочетании с параметрами в./вендор/мсфт/Полици/конфигсаурце/датапротектион.
 ms.assetid: f37fe52d-dbe1-45b7-acd5-5047c46d9bd0
 keywords:
 - Класс MDM_AppLocker_EnterpriseDataProtection01_StoreApps03
@@ -17,18 +17,18 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 240f641e542bbbe0c71fd686e2d9df3908b9bab3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cf5b0c3af455e501695cb7a2093b841159f5755ac54e1de97a370c7dc7f2d6fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119077417"
 ---
 # <a name="mdm_applocker_enterprisedataprotection01_storeapps03-class"></a>\_Класс MDM AppLocker \_ EnterpriseDataProtection01 \_ StoreApps03
 
-\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Майкрософт не дает никаких гарантий, явных или подразумеваемых, в отношении предоставленной здесь информации.\]
+\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, относительно предоставленной здесь информации.\]
 
-Класс **MDM \_ AppLocker \_ EnterpriseDataProtection01 \_ StoreApps03** фиксирует список приложений Windows, которым разрешено работать с корпоративными данными. Следует использовать в сочетании с параметрами в./вендор/мсфт/Полици/конфигсаурце/датапротектион.
+класс **MDM \_ AppLocker \_ EnterpriseDataProtection01 \_ StoreApps03** фиксирует список приложений Windows, которым разрешено работать с корпоративными данными. Следует использовать в сочетании с параметрами в./вендор/мсфт/Полици/конфигсаурце/датапротектион.
 
 Следующий синтаксис упрощен из MOF-кода и включает все унаследованные свойства.
 
@@ -50,7 +50,7 @@ class MDM_AppLocker_EnterpriseDataProtection01_StoreApps03
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **MDM \_ AppLocker \_ EnterpriseDataProtection01 \_ StoreApps03** имеет следующие свойства.
 
@@ -68,7 +68,7 @@ class MDM_AppLocker_EnterpriseDataProtection01_StoreApps03
 Квалификаторы: [ **ключ**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
-Определяет ограничения для запуска приложений из Магазина Windows.
+определяет ограничения для запуска приложений из хранилища Windows.
 
 </dd> <dt>
 
@@ -105,7 +105,7 @@ class MDM_AppLocker_EnterpriseDataProtection01_StoreApps03
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                      |
 | Пространство имен<br/>                | Корневой \\ CIMv2 \\ MDM \\ дммап<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>Дмвмибриджепров. mof</dt> </dl> |

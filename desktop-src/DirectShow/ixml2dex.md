@@ -1,5 +1,5 @@
 ---
-description: Интерфейс IXml2Dex сохраняет и загружает файлы проекта служб редактирования DirectShow (DES) в язык XML (XML). Этот интерфейс также предоставляет методы для чтения и записи файлов графа DirectShow (. ГРФ).
+description: интерфейс IXml2Dex сохраняет и загружает файлы проекта служб DirectShow (DES) в язык XML (XML). этот интерфейс также предоставляет методы для чтения и записи DirectShow файлов графа (грф).
 ms.assetid: a07b0cbe-1f1d-4ccd-a994-9bb1a49c78d8
 title: Интерфейс IXml2Dex (Кедит. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: ac15110aa1482c37a835ae874057a792e310fc2f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3bc12c2305a8b92110d4aa17522184e9a3c5ee83b60ccd5a989468fa0a8c6e7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118952393"
 ---
 # <a name="ixml2dex-interface"></a>Интерфейс IXml2Dex
 
@@ -28,7 +28,7 @@ ms.locfileid: "105689330"
 
  
 
-`IXml2Dex`Интерфейс сохраняет и загружает файлы проекта [служб редактирования DirectShow](directshow-editing-services.md) (DES) в язык XML (XML). Этот интерфейс также предоставляет методы для чтения и записи файлов графа DirectShow (. ГРФ).
+`IXml2Dex`интерфейс сохраняет и загружает файлы проекта [служб DirectShow](directshow-editing-services.md) (DES) в язык XML (XML). этот интерфейс также предоставляет методы для чтения и записи DirectShow файлов графа (грф).
 
 ## <a name="members"></a>Элементы
 
@@ -46,7 +46,7 @@ ms.locfileid: "105689330"
 |:------------------------------------------------------------|:---------------------------------------------------------------------------|
 | [**копиксмл**](ixml2dex-copyxml.md)                         | Не реализован.<br/>                                                |
 | [**креатеграффромфиле**](ixml2dex-creategraphfromfile.md) | Не реализован.<br/>                                                |
-| [**Удалить**](ixml2dex-delete.md)                           | Не реализован.<br/>                                                |
+| [**Удален**](ixml2dex-delete.md)                           | Не реализован.<br/>                                                |
 | [**пастексмл**](ixml2dex-pastexml.md)                       | Не реализован.<br/>                                                |
 | [**пастексмлфиле**](ixml2dex-pastexmlfile.md)               | Не реализован.<br/>                                                |
 | [**Метода**](ixml2dex-readxml.md)                         | Не реализован.<br/>                                                |
@@ -61,7 +61,7 @@ ms.locfileid: "105689330"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Файл заголовка Кедит. h несовместим с заголовками Direct3D позднее версии 7.
@@ -69,7 +69,7 @@ ms.locfileid: "105689330"
  
 
 > [!Note]  
-> Чтобы получить Кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (SP1).
+> чтобы получить кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (sp1).
 
  
 
@@ -80,7 +80,7 @@ ms.locfileid: "105689330"
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Версия<br/> | Internet Explorer 4,0 или более поздней версии<br/>                                               |
-| Header<br/>  | <dl> <dt>Кедит. h</dt> </dl>      |
+| Заголовок<br/>  | <dl> <dt>Кедит. h</dt> </dl>      |
 | Библиотека<br/> | <dl> <dt>Стрмиидс. lib</dt> </dl> |
 
 

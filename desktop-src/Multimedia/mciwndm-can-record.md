@@ -38,7 +38,7 @@ lParam = 0;
 
 Возвращает **значение true** , если устройство поддерживает запись или **false** в противном случае.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

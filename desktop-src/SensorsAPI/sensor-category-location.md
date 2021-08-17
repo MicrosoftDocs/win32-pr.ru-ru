@@ -4,12 +4,12 @@ ms.assetid: f82ce6da-fe2d-4931-99dc-4aeb2f0f3317
 title: SENSOR_CATEGORY_LOCATION (sensors. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec2e9d4c8bb64b9bd8026dd5a8ab05d848a1c975
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aea3ad5210cdcd8d8082b8963ca2e4a0c17708ec13c28546f5582f0c6cc7ab03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118889503"
 ---
 # <a name="sensor_category_location"></a>\_Расположение категории \_ датчика
 
@@ -93,7 +93,7 @@ ms.locfileid: "105662265"
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                           |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                           |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                            |
 | Header<br/>                   | <dl> <dt>Sensors. h</dt> </dl> |
 

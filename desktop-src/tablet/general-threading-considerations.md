@@ -4,12 +4,12 @@ ms.assetid: cf35724f-5f80-4b3e-992a-a9d5ea99aae9
 title: Общие рекомендации по потокам
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21f825ec7a1397dae7d60aa14b31603ee76a2f59
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 63f4c6f2aa76775d3d88e8ea60c3899a2d8ac47e5ef07fddbbdfaca96196dee5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104542138"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119092578"
 ---
 # <a name="general-threading-considerations"></a>Общие рекомендации по потокам
 
@@ -25,7 +25,7 @@ ms.locfileid: "104542138"
     -   [События сбора рукописных объектов и штрихов](#ink-object-and-strokes-collection-events)
     -   [События распознавания](#recognition-events)
     -   [События панели ввода пера](#pen-input-panel-events)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="application-and-non-application-threads"></a>Приложения и потоки, не относящиеся к приложениям
 
@@ -49,9 +49,9 @@ ms.locfileid: "104542138"
 
 | Объект или элемент управления                                            | Событие                                                                                                                                                                                                                     |
 |--------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**InkCollector**](inkcollector-class.md) Объектами<br/> | Элемент управления базового элемента управления [. недействительные](/dotnet/api/system.windows.forms.control.invalidated?view=netcore-3.1) события и [Control. Paint](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) .<br/>                                 |
-| [**InkOverlay**](inkoverlay-class.md) Объектами<br/>     | Элемент управления базового элемента управления [. недействительные](/dotnet/api/system.windows.forms.control.invalidated?view=netcore-3.1) события и [Control. Paint](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) .<br/>                                 |
-| [InkPicture](inkpicture-control.md) Элемента<br/>      | Элементы управления, наследуемые элементом управления [InkPicture](inkpicture-control.md) [. недействительны](/dotnet/api/system.windows.forms.control.invalidated?view=netcore-3.1) и события [Control. Paint](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) .<br/> |
+| [**InkCollector**](inkcollector-class.md) Объектами<br/> | элемент управления базового элемента управления [. недействительные](/dotnet/api/system.windows.forms.control.invalidated?view=netcore-3.1) и события [control. Paint](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) .<br/>                                 |
+| [**InkOverlay**](inkoverlay-class.md) Объектами<br/>     | элемент управления базового элемента управления [. недействительные](/dotnet/api/system.windows.forms.control.invalidated?view=netcore-3.1) и события [control. Paint](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) .<br/>                                 |
+| [InkPicture](inkpicture-control.md) Элемента<br/>      | элементы управления, наследуемые элементом управления [InkPicture](inkpicture-control.md) [. недействительны](/dotnet/api/system.windows.forms.control.invalidated?view=netcore-3.1) и события [control. Paint](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) .<br/> |
 
 
 
@@ -86,7 +86,7 @@ ms.locfileid: "104542138"
 
 События [**пенинпутпанел**](peninputpanel-class.md) вызываются в потоке, в котором создается объект **пенинпутпанел** .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

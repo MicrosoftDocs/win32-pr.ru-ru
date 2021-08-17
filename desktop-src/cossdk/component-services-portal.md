@@ -4,12 +4,12 @@ ms.assetid: b21a6b08-c17c-4fcc-bc60-39037bc9902f
 title: COM+ (службы компонентов)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b778c31957ddfe3f71db23b2f5be2a3ee681fde0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 02f582096e7f14dc6c415459284e809d4a84098b4e36a143d4e5bc2735605ede
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128986"
 ---
 # <a name="com-component-services"></a>COM+ (службы компонентов)
 
@@ -19,7 +19,7 @@ COM+ — это эволюция модели COM и Microsoft Transaction Serve
 
 ## <a name="where-applicable"></a>Где применимо
 
-COM+ можно использовать для разработки критически важных распределенных приложений для Windows в масштабах предприятия.
+COM+ можно использовать для разработки критически важных распределенных приложений корпоративного уровня для Windows.
 
 Если вы являетесь системным администратором, то будете устанавливать, развертывать и настраивать приложения COM+ и их компоненты. Если вы являетесь программистом приложения, вы будете писать компоненты и интегрировать их как приложения. Если вы являетесь поставщиком инструментов, вы будете разрабатывать или изменять инструменты для работы в среде COM+.
 
@@ -39,7 +39,7 @@ COM+ версии 1,5 входит в состав Windows, начиная с Wi
 -   [Общие задачи COM+](com--general-tasks.md)
 -   [Справочник по COM+](com--reference.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

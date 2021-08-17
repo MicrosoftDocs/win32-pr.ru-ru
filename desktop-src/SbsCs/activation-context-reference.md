@@ -4,12 +4,12 @@ ms.assetid: b53b30e0-948e-406c-9fb4-9681dc3c5670
 title: Справочник по контексту активации
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d6f8225b4db8b22227edf2b779ed9e1b50da7a3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 72eb4bc136a95766a62bb96e67ac198f88fca905c60ba98e6bf922ce65a36389
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080753"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142587"
 ---
 # <a name="activation-context-reference"></a>Справочник по контексту активации
 
@@ -51,8 +51,8 @@ ms.locfileid: "104080753"
 | [**\_данные раздела с \_ ключом \_ акткткс**](/windows/win32/api/winbase/ns-winbase-actctx_section_keyed_data)                                            | Возвращает сведения о контексте активации, а также GUID или 32-разрядный раздел контекста активации с пометкой целых чисел.                                                                                                                                                                                                                                                                   |
 | [**\_ \_ подробные \_ сведения о файле сборки**](/windows/desktop/api/Winnt/ns-winnt-assembly_file_detailed_information)                              | Содержит сведения о файле сборки в контексте активации.                                                                                                                                                                                                                                                                                                                 |
 | [**\_ \_ \_ сведения об уровне выполнения контекста активации \_**](/windows/desktop/api/Winnt/ns-winnt-activation_context_run_level_information)                 | Используется функцией [**куеряктктксв**](/windows/desktop/api/Winbase/nf-winbase-queryactctxw) .<br/> **Windows Server 2003 и Windows XP:** Эта структура недоступна.<br/>                                                                                                                                                                                                                                    |
-| [**\_элемент контекста \_ совместимости**](/windows/desktop/api/Winnt/ns-winnt-compatibility_context_element)                                         | Используется функцией [**куеряктктксв**](/windows/desktop/api/Winbase/nf-winbase-queryactctxw) как часть структуры [**\_ \_ \_ сведений о совместимости контекста активации**](/windows/desktop/api/Winnt/ns-winnt-activation_context_compatibility_information) . <br/> **Windows Server 2008 и более ранних версий, Windows Vista и более ранних версий:** Эта структура недоступна. Она доступна начиная с Windows Server 2008 R2 и Windows 7.<br/> |
-| [**\_ \_ сведения о СОВМЕСТИМОСТИ контекста активации \_**](/windows/desktop/api/Winnt/ns-winnt-activation_context_compatibility_information)          | Используется функцией [**куеряктктксв**](/windows/desktop/api/Winbase/nf-winbase-queryactctxw) .<br/> **Windows Server 2008 и более ранних версий, Windows Vista и более ранних версий:** Эта структура недоступна. Она доступна начиная с Windows Server 2008 R2 и Windows 7.<br/>                                                                                                                                   |
+| [**\_элемент контекста \_ совместимости**](/windows/desktop/api/Winnt/ns-winnt-compatibility_context_element)                                         | Используется функцией [**куеряктктксв**](/windows/desktop/api/Winbase/nf-winbase-queryactctxw) как часть структуры [**\_ \_ \_ сведений о совместимости контекста активации**](/windows/desktop/api/Winnt/ns-winnt-activation_context_compatibility_information) . <br/> **Windows Server 2008 и более ранних версий и Windows Vista и более ранних версий:** Эта структура недоступна. он доступен начиная с Windows Server 2008 R2 и Windows 7.<br/> |
+| [**\_ \_ сведения о СОВМЕСТИМОСТИ контекста активации \_**](/windows/desktop/api/Winnt/ns-winnt-activation_context_compatibility_information)          | Используется функцией [**куеряктктксв**](/windows/desktop/api/Winbase/nf-winbase-queryactctxw) .<br/> **Windows Server 2008 и более ранних версий и Windows Vista и более ранних версий:** Эта структура недоступна. он доступен начиная с Windows Server 2008 R2 и Windows 7.<br/>                                                                                                                                   |
 
 
 
@@ -63,7 +63,7 @@ ms.locfileid: "104080753"
 | Перечисление                                                                       | Описание                                                                                                                                                                                                                                            |
 |-----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**АКТКТКС \_ запрошенный \_ \_ уровень выполнения**](/windows/desktop/api/Winnt/ne-winnt-actctx_requested_run_level)               | Описывает запрошенный уровень выполнения контекста активации. **Windows Server 2003 и Windows XP:** Это перечисление недоступно.<br/>                                                                                                      |
-| [**\_ \_ тип элемента совместимости \_ акткткс**](/windows/desktop/api/Winnt/ne-winnt-actctx_compatibility_element_type) | Описывает элемент Compatibility в манифесте приложения. **Windows Server 2008 и более ранних версий, Windows Vista и более ранних версий:** Это перечисление недоступно. Она доступна начиная с Windows Server 2008 R2 и Windows 7.<br/> |
+| [**\_ \_ тип элемента совместимости \_ акткткс**](/windows/desktop/api/Winnt/ne-winnt-actctx_compatibility_element_type) | Описывает элемент Compatibility в манифесте приложения. **Windows Server 2008 и более ранних версий и Windows Vista и более ранних версий:** Это перечисление недоступно. он доступен начиная с Windows Server 2008 R2 и Windows 7.<br/> |
 
 
 

@@ -128,7 +128,7 @@ typedef struct _DRIVER_INFO_4 {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

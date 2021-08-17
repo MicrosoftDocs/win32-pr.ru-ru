@@ -5,12 +5,12 @@ ms.assetid: 14561E77-44E0-4A58-8456-F40D59ECA175
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8bf720ebb71d016457fa4383a8d33aa62e2eee4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 29d0017f10a6027fc7ce48618a9d28bd4e92262d83d0f3aa81cc0bc8d02b7edc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "74104003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124339"
 ---
 # <a name="descriptor-heaps-overview"></a>Общие сведения о кучах дескрипторов
 
@@ -81,9 +81,9 @@ ms.locfileid: "74104003"
 [Кучи дескрипторов](descriptor-heaps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

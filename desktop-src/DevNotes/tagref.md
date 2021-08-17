@@ -4,12 +4,12 @@ ms.assetid: e7d83dca-13a5-4396-b50b-0d068209c03c
 title: тагреф
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 34e27a60847630e7bbd8e07ccf005dfd7b474d7a
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 2bf5a9de8da025e8278ab0bca7ccbe16d70d16b782591181f6ce6ce74a010a39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108096632"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119075780"
 ---
 # <a name="tagref"></a>тагреф
 
@@ -48,12 +48,12 @@ typedef DWORD TAGREF;
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

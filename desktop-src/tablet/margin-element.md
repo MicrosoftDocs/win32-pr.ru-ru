@@ -62,26 +62,26 @@ ms.locfileid: "119350444"
 <td>Обязательно</td>
 <td>Указывает тип рисуемой линии.</td>
 <td><ul>
-<li>None</li>
+<li>Нет</li>
 <li>Сплошная</li>
 <li>Штрих</li>
 <li>Точки</li>
 <li>DashDot</li>
 <li>DashDotDot</li>
-<li>Double</li>
+<li>Тип Double</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><strong>Цвет</strong></td>
 <td><a href="colortype-simple-type.md"><strong>Колортипе</strong></a> simpleType</td>
-<td>Необязательно</td>
+<td>Необязательный</td>
 <td>Цвет элемента.</td>
 <td>Шестнадцатеричное значение RGB. Соответствует следующему регулярному выражению: # [0-9a-zA-Z] {6} . Например, #4a79B5.<br/></td>
 </tr>
 <tr class="odd">
-<td><strong>Type</strong></td>
+<td><strong>Тип</strong></td>
 <td><a href="margintypetype-simple-type.md"><strong>Маргинтипетипе</strong></a> simpleType</td>
-<td>Необязательно</td>
+<td>Необязательный</td>
 <td>Показывает левое или правое поле.</td>
 <td><ul>
 <li>Левый</li>
@@ -91,7 +91,7 @@ ms.locfileid: "119350444"
 <tr class="even">
 <td><strong>Интервал</strong></td>
 <td><strong>xs:nonNegativeInteger</strong></td>
-<td>Необязательно</td>
+<td>Необязательный</td>
 <td>Интервал между границами страницы и поля.</td>
 <td>Любое неотрицательное целое число.</td>
 </tr>

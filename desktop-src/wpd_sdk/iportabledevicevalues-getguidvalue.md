@@ -75,7 +75,7 @@ HRESULT GetGuidValue(
 
 Пример использования этого метода см. в разделе [Получение поддерживаемых методов службы](retrieving-supported-methods.md).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

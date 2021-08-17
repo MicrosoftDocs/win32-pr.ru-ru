@@ -75,7 +75,7 @@ ms.locfileid: "119309344"
 
 
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
