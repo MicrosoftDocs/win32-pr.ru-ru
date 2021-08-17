@@ -4,12 +4,12 @@ ms.assetid: ccfdeb65-6188-4fea-bbef-2510271fbf1e
 title: Свойство Авенквидеоинпутколортрансферфунктион (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8be732165bbd2be72ae637f54080420cb8ae243c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c601d1f4d56ada75b297742a533aa084e171a292f9e9b332d0b0f70f80ebee95
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104537976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119342274"
 ---
 # <a name="avencvideoinputcolortransferfunction-property"></a>Авенквидеоинпутколортрансферфунктион, свойство
 
@@ -35,9 +35,9 @@ ms.locfileid: "104537976"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
-| Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Заголовок<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 
 

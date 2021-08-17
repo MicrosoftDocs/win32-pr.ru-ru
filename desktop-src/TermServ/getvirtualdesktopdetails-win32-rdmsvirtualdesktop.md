@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f7382a7ea10b3e557cd7317bdf1ddb0c4bcea55d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b6ca1b552147623822ae007ca17abf8e4eaebfb149f5e80ac4760719f1ef7168
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491337"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119059492"
 ---
 # <a name="getvirtualdesktopdetails-method-of-the-win32_rdmsvirtualdesktop-class"></a>Метод Жетвиртуалдесктопдетаилс \_ класса Win32 рдмсвиртуалдесктоп
 
@@ -55,7 +55,7 @@ uint32 GetVirtualDesktopDetails(
 *Ремотефксенаблед* \[ заполняет\]
 </dt> <dd>
 
-Получает значение, указывающее, включено ли RemoteFX на виртуальном рабочем столе. **Значение true** , если RemoteFX включен. в противном случае — **значение false**.
+получает значение, указывающее, включено ли RemoteFX на виртуальном рабочем столе. **значение TRUE** , если RemoteFX включен; в противном случае — **значение false**.
 
 </dd> <dt>
 

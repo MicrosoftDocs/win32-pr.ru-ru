@@ -4,12 +4,12 @@ ms.assetid: 30351257-fa39-433d-9823-8be971d79071
 title: System. Креаторопенвисуиоптионс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86ff94d60f74579fa0e5d5b3260259fcc4bdf02a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c4b844548c74bc3469ec1008f1dea712ec3e854182baeaf6ddf67e55333112f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105719495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119098065"
 ---
 # <a name="systemcreatoropenwithuioptions"></a>System. Креаторопенвисуиоптионс
 
@@ -43,11 +43,11 @@ propertyDescription
             defineToken = CREATOROPENWITHUIOPTION_VISIBLE
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: cbb758be-3ecd-4ac4-b1b5-57136a1aad8e
 title: Константы LINEMEDIAMODE_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 550a31da0d6de556e28ded14ce0803030be075ed
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2c11e40a81fffc967afd534ce6de591b524d835cbe97a919903bd97b1eeb4daf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679586"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140017"
 ---
 # <a name="linemediamode_-constants"></a>\_Константы линемедиамоде
 
@@ -169,7 +169,7 @@ ms.locfileid: "105679586"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Все 32 бит зарезервированы.
 
@@ -184,7 +184,7 @@ ms.locfileid: "105679586"
 | Требование | Значение |
 |-------------------------|-----------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 2,0 или более поздней версии<br/>                                             |
-| Header<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 472bee17e6fa82d537ca1476a57b939231613ef0
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 066e488642622427348b02f68ecf8706cccdb74210ab641033f0374db253895c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104535807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119307214"
 ---
 # <a name="country-name-attribute"></a>Атрибут Country-Name
 
@@ -30,7 +30,7 @@ ms.locfileid: "104535807"
 | Ввод | Значение |
 |-------------------|---------------------------------------------|
 | CN                | Country-Name                                |
-| LDAP-отображаемое имя | c                                           |
+| LDAP-отображаемое имя | с                                           |
 | Размер              | \-                                          |
 | Привилегия обновления  | \-                                          |
 | Частота обновления  | \-                                          |
@@ -59,15 +59,15 @@ ms.locfileid: "104535807"
 | Идентификатор ссылки                | \-                                                                                                                                                                        |
 | MAPI-Id                | 0x8069                                                                                                                                                                    |
 | System-Only            | Неверно                                                                                                                                                                     |
-| Является однозначным       | True                                                                                                                                                                      |
+| Является однозначным       | Верно                                                                                                                                                                      |
 | Индексируется             | Неверно                                                                                                                                                                     |
-| В глобальном каталоге      | True                                                                                                                                                                      |
+| В глобальном каталоге      | Верно                                                                                                                                                                      |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                              |
 | Range-Lower            | 1                                                                                                                                                                         |
 | Range-Upper            | 3                                                                                                                                                                         |
 | Search-Flags           | 0x00000010                                                                                                                                                                |
 | System-Flags           | 0x00000012                                                                                                                                                                |
-| Классы, используемые в        | [**Страна или регион**](c-country.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> |
+| Классы, используемые в        | [**Страна**](c-country.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> |
 
 
 
@@ -80,15 +80,15 @@ ms.locfileid: "104535807"
 | Идентификатор ссылки                | \-                                                                                                                                                                        |
 | MAPI-Id                | 0x8069                                                                                                                                                                    |
 | System-Only            | Неверно                                                                                                                                                                     |
-| Является однозначным       | True                                                                                                                                                                      |
+| Является однозначным       | Верно                                                                                                                                                                      |
 | Индексируется             | Неверно                                                                                                                                                                     |
-| В глобальном каталоге      | True                                                                                                                                                                      |
+| В глобальном каталоге      | Верно                                                                                                                                                                      |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                              |
 | Range-Lower            | 1                                                                                                                                                                         |
 | Range-Upper            | 3                                                                                                                                                                         |
 | Search-Flags           | 0x00000010                                                                                                                                                                |
 | System-Flags           | 0x00000012                                                                                                                                                                |
-| Классы, используемые в        | [**Страна или регион**](c-country.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> |
+| Классы, используемые в        | [**Страна**](c-country.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> |
 
 
 
@@ -101,15 +101,15 @@ ms.locfileid: "104535807"
 | Идентификатор ссылки                | \-                                                                                                     |
 | MAPI-Id                | 0x8069                                                                                                 |
 | System-Only            | Неверно                                                                                                  |
-| Является однозначным       | True                                                                                                   |
+| Является однозначным       | Верно                                                                                                   |
 | Индексируется             | Неверно                                                                                                  |
-| В глобальном каталоге      | True                                                                                                   |
+| В глобальном каталоге      | Верно                                                                                                   |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                           |
 | Range-Lower            | 1                                                                                                      |
 | Range-Upper            | 3                                                                                                      |
 | Search-Flags           | 0x00000010                                                                                             |
 | System-Flags           | 0x00000012                                                                                             |
-| Классы, используемые в        | [**Страна или регион**](c-country.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> |
+| Классы, используемые в        | [**Страна**](c-country.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> |
 
 
 
@@ -122,15 +122,15 @@ ms.locfileid: "104535807"
 | Идентификатор ссылки                | \-                                                                                                                                                                        |
 | MAPI-Id                | 0x8069                                                                                                                                                                    |
 | System-Only            | Неверно                                                                                                                                                                     |
-| Является однозначным       | True                                                                                                                                                                      |
+| Является однозначным       | Верно                                                                                                                                                                      |
 | Индексируется             | Неверно                                                                                                                                                                     |
-| В глобальном каталоге      | True                                                                                                                                                                      |
+| В глобальном каталоге      | Верно                                                                                                                                                                      |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                              |
 | Range-Lower            | 1                                                                                                                                                                         |
 | Range-Upper            | 3                                                                                                                                                                         |
 | Search-Flags           | 0x00000010                                                                                                                                                                |
 | System-Flags           | 0x00000012                                                                                                                                                                |
-| Классы, используемые в        | [**Страна или регион**](c-country.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> |
+| Классы, используемые в        | [**Страна**](c-country.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> |
 
 
 
@@ -143,15 +143,15 @@ ms.locfileid: "104535807"
 | Идентификатор ссылки                | \-                                                                                                                                                                        |
 | MAPI-Id                | 0x8069                                                                                                                                                                    |
 | System-Only            | Неверно                                                                                                                                                                     |
-| Является однозначным       | True                                                                                                                                                                      |
+| Является однозначным       | Верно                                                                                                                                                                      |
 | Индексируется             | Неверно                                                                                                                                                                     |
-| В глобальном каталоге      | True                                                                                                                                                                      |
+| В глобальном каталоге      | Верно                                                                                                                                                                      |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                              |
 | Range-Lower            | 1                                                                                                                                                                         |
 | Range-Upper            | 3                                                                                                                                                                         |
 | Search-Flags           | 0x00000010                                                                                                                                                                |
 | System-Flags           | 0x00000012                                                                                                                                                                |
-| Классы, используемые в        | [**Страна или регион**](c-country.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> |
+| Классы, используемые в        | [**Страна**](c-country.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> |
 
 
 
@@ -164,15 +164,15 @@ ms.locfileid: "104535807"
 | Идентификатор ссылки                | \-                                                                                                                                                                        |
 | MAPI-Id                | 0x8069                                                                                                                                                                    |
 | System-Only            | Неверно                                                                                                                                                                     |
-| Является однозначным       | True                                                                                                                                                                      |
+| Является однозначным       | Верно                                                                                                                                                                      |
 | Индексируется             | Неверно                                                                                                                                                                     |
-| В глобальном каталоге      | True                                                                                                                                                                      |
+| В глобальном каталоге      | Верно                                                                                                                                                                      |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                              |
 | Range-Lower            | 1                                                                                                                                                                         |
 | Range-Upper            | 3                                                                                                                                                                         |
 | Search-Flags           | 0x00000010                                                                                                                                                                |
 | System-Flags           | 0x00000012                                                                                                                                                                |
-| Классы, используемые в        | [**Страна или регион**](c-country.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> |
+| Классы, используемые в        | [**Страна**](c-country.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> |
 
 
 
@@ -185,15 +185,15 @@ ms.locfileid: "104535807"
 | Идентификатор ссылки                | \-                                                                                                                                                                        |
 | MAPI-Id                | 0x8069                                                                                                                                                                    |
 | System-Only            | Неверно                                                                                                                                                                     |
-| Является однозначным       | True                                                                                                                                                                      |
+| Является однозначным       | Верно                                                                                                                                                                      |
 | Индексируется             | Неверно                                                                                                                                                                     |
-| В глобальном каталоге      | True                                                                                                                                                                      |
+| В глобальном каталоге      | Верно                                                                                                                                                                      |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                              |
 | Range-Lower            | 1                                                                                                                                                                         |
 | Range-Upper            | 3                                                                                                                                                                         |
 | Search-Flags           | 0x00000010                                                                                                                                                                |
 | System-Flags           | 0x00000012                                                                                                                                                                |
-| Классы, используемые в        | [**Страна или регион**](c-country.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> |
+| Классы, используемые в        | [**Страна**](c-country.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> |
 
 
 

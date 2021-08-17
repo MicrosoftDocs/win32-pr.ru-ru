@@ -15,12 +15,12 @@ keywords:
 - Функция Акмстреамклосе
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9645342aa9f19b2c31de77dc9d1031122ed0b2ac
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 29ec1050066b92a356067085b491f5ddbf4bded47789c6e15a5187ea74c47c0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104329755"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144816"
 ---
 # <a name="converting-data-from-one-format-to-another"></a>Преобразование данных из одного формата в другой
 
@@ -43,9 +43,9 @@ ACM использует функции потока для поддержки �
 
 Чтобы выполнить преобразование, используйте [**акмстреамконверт**](/windows/desktop/api/Msacm/nf-msacm-acmstreamconvert) , пока не будут обработаны все буферы. По завершении преобразования используйте [**акмстреамунпрепарехеадер**](/windows/desktop/api/Msacm/nf-msacm-acmstreamunprepareheader) для очистки буферов, а затем используйте [**акмстреамклосе**](/windows/desktop/api/Msacm/nf-msacm-acmstreamclose) для закрытия потока преобразования.
 
- 
+ 
 
- 
+ 
 
 
 

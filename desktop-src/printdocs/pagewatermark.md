@@ -4,12 +4,12 @@ ms.assetid: d1c36c47-107c-4012-a839-1018c2652209
 title: пажеватермарк
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b93eadfb3aeaa2c0be1de2cf5775bd1b5c88666
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 7b5070b6418b3ba0830f95cba059d6a84e9ababd1f83097830aeca5ca71e074f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112396089"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091874"
 ---
 # <a name="pagewatermark"></a>пажеватермарк
 

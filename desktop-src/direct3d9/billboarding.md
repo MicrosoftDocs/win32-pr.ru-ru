@@ -4,12 +4,12 @@ ms.assetid: 6637a9ce-6731-4f60-8b76-854e86b10bdd
 title: Объявление (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e287624ef8800f0b66941e826e211d044b7bf27
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 02624a3172df7a36f4d38bb2bc6d613ded26faab8ac6d4f4b37668f0868cd16c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701291"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123411"
 ---
 # <a name="billboarding-direct3d-9"></a>Объявление (Direct3D 9)
 
@@ -23,7 +23,7 @@ ms.locfileid: "105701291"
 
 Объявления лучше всего подходят для симметричных объектов, особенно для объектов, симметричных вдоль вертикальной оси. Также требуется, чтобы высота точки зрения не слишком велика. Если пользователю разрешено просматривать рекламу, объявленную выше, она становится очевидной, что объект является 2D, а не трехмерным.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

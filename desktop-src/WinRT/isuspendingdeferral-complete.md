@@ -41,7 +41,7 @@ HRESULT Complete();
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
@@ -49,7 +49,7 @@ HRESULT Complete();
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 8<br/>                                                                                    |
 | Минимальная версия сервера<br/> | Windows Server 2012<br/>                                                                          |
-| Header<br/>                   | <dl> <dt>Windows. ApplicationModel. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Windows. ApplicationModel. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Windows. ApplicationModel. idl</dt> </dl> |
 
 

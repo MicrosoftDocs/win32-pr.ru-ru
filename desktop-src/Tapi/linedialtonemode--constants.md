@@ -4,12 +4,12 @@ ms.assetid: 0b040482-35cf-42e8-84bc-33002635b591
 title: Константы LINEDIALTONEMODE_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5128f2a176f3aeaf92bc3487b131b7720568085e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c6b51ac15da6c1cba2b1b4e5b51710f04ba54549d2e08f4e9b50a20c543c305d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119309964"
 ---
 # <a name="linedialtonemode_-constants"></a>\_Константы линедиалтонемоде
 
@@ -77,13 +77,13 @@ ms.locfileid: "105685156"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Старшие 16 бит можно назначить для расширений для конкретных устройств. 16 младших разрядов зарезервированы.
 
 **\_ Константы линедиалтонемоде** используются в структуре данных [**линекаллстатус**](/windows/desktop/api/Tapi/ns-tapi-linecallstatus) для вызова в состоянии диалтоне.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

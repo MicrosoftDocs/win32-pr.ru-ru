@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ae6fce7fcfdf235ba8a83f262161c2e0f2afc71c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9501184f3316e464aa26f42d51e0b4c27eccaeb72d447faa91edaa33b0b4774c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119060032"
 ---
 # <a name="principaluserid-property"></a>Свойство Principal. UserId
 
@@ -40,7 +40,7 @@ Principal.UserId As String
 
 Идентификатор пользователя, необходимый для выполнения задачи.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Не устанавливайте это свойство, если в свойстве [**groupId**](principal-groupid.md) указан идентификатор группы.
 
@@ -52,8 +52,8 @@ Principal.UserId As String
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                    |
 | Библиотека типов<br/>             | <dl> <dt>Тасксчд. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -66,7 +66,7 @@ Principal.UserId As String
 [Планировщик заданий](task-scheduler-start-page.md)
 </dt> <dt>
 
-[**Основного**](principal.md)
+[**Основной**](principal.md)
 </dt> <dt>
 
 [**Principal. GroupId**](principal-groupid.md)

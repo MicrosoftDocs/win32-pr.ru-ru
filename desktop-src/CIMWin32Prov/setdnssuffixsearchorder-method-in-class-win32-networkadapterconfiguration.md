@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 10088b1d0722f968e5d3742984baa91ec3e423aa
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 85964d24c82367c8609e4f93b02f5614493c56efa299386038d7f73fd749dcab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896150"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119440044"
 ---
 # <a name="setdnssuffixsearchorder-method-of-the-win32_networkadapterconfiguration-class"></a>Метод Сетднссуффикссеарчордер \_ класса Win32 NetworkAdapterConfiguration
 
@@ -327,7 +327,7 @@ IPX не включен на адаптере.
 
 </dd> <dt>
 
-**Нет памяти**
+**Недостаточно памяти**
 </dt> <dd>
 
 92
@@ -406,7 +406,7 @@ DHCP не включен на адаптере.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это независимый от экземпляра вызов, который применяется ко всем адаптерам, но только для Windows.
 
@@ -414,7 +414,7 @@ DHCP не включен на адаптере.
 
 Пример [изменения порядка поиска DNS-суффиксов для всех сетевых адаптеров](https://Gallery.TechNet.Microsoft.Com/2857b7b0-1327-4ce2-9f2b-b662cce387c6) VBScript настраивает компьютер для использования двух DNS-суффиксов при выполнении поиска DNS.
 
-Пример [включения параметров DHCP на компьютере](https://Gallery.TechNet.Microsoft.Com/41e6ab51-78c0-4413-b086-03fde33ea125) в сценарии VBScript настраивает все параметры, которые обычно необходимы для включения DHCP на компьютере.
+пример [включения dhcp Параметры на компьютере с помощью](https://Gallery.TechNet.Microsoft.Com/41e6ab51-78c0-4413-b086-03fde33ea125) сценария VBScript настраивает все параметры, которые обычно необходимы для включения DHCP на компьютере.
 
 Следующий код PowerShell задает порядок поиска DNS-суффикса.
 
@@ -430,7 +430,7 @@ $class.SetDNSSuffixSearchOrder($suffixes)
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

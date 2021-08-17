@@ -3,7 +3,7 @@ title: LISTBOX. reselect
 description: Атрибут множественного выбора указывает или получает значение, указывающее, может ли пользователь выбрать несколько строк. Можно задать только во время разработки.
 ms.assetid: ccbf47c7-8351-4b8c-8d9d-00dc811d4ae0
 keywords:
-- LISTBOX. многовыборочный проигрыватель Windows Media
+- проигрыватель Windows Media LISTBOX. of select
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 45f46c71258046ebb6b1fd32e73e4a5b281cb87b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1352ae54728a82fa0ba8c7eb6d28ed05c981dd9ff1d0b35521033e79a6dd1df3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135277"
 ---
 # <a name="listboxmultiselect"></a>LISTBOX. reselect
 
@@ -35,7 +35,7 @@ ms.locfileid: "105704428"
 
 | Значение | Описание                                         |
 |-------|-----------------------------------------------------|
-| true  | Пользователь может выбрать несколько строк.                 |
+| Да  | Пользователь может выбрать несколько строк.                 |
 | false | По умолчанию. Пользователь может выбирать только отдельные строки. |
 
 
@@ -48,7 +48,7 @@ ms.locfileid: "105704428"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
 
 
 

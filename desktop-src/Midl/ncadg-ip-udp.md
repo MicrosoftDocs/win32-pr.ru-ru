@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 173ccd0b81eb5fa7d84a6fa4d2821162b852303d
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: f91db32fd7636f956e64dafc0db15efb520e643b435995dd977db7a631a20c78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104133763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067064"
 ---
 # <a name="ncadg_ip_udp-attribute"></a>\_атрибут IP \_ UDP нкадг
 
@@ -45,7 +45,7 @@ endpoint("ncadg_ip_udp:server-name[port-name]")
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 К протоколам датаграмм, [**нкадг \_ IPX**](ncadg-ipx.md) и **нкадг \_ IP \_ UDP** применяются следующие ограничения.
 
@@ -82,7 +82,7 @@ interface iface2
 
 <dl> <dt>
 
-[**endpoint**](endpoint.md)
+[**конечной**](endpoint.md)
 </dt> <dt>
 
 [Файл определения интерфейса (IDL)](interface-definition-idl-file.md)
@@ -124,6 +124,6 @@ interface iface2
 [Строковая привязка](/windows/desktop/Rpc/string-binding)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

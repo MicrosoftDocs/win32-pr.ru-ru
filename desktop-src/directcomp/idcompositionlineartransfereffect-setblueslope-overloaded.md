@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 44b0510515de063eb750bf6a6bd88370033036d0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 11595e901a9f2a5da870dd96e954e130aa2aead05efd9c497d3afc4b81b8de05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105717947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119980304"
 ---
 # <a name="idcompositionlineartransfereffectsetblueslope-methods"></a>методы идкомпоситионлинеартрансфереффект:: Сетблуеслопе
 
@@ -40,7 +40,7 @@ ms.locfileid: "105717947"
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Дкомп. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Дкомп. h</dt> </dl> |
 
 
 

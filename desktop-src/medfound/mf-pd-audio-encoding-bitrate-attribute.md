@@ -4,12 +4,12 @@ ms.assetid: 700f61f4-a0d7-4b69-ace5-356e4e29b93d
 title: Атрибут MF_PD_AUDIO_ENCODING_BITRATE (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 49566ecb225482ef6513e056de8ba11763de603e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 041e92eb71621d1f42d2b800557d204215bbca40f346a2afa4627863fc1a2206
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119102881"
 ---
 # <a name="mf_pd_audio_encoding_bitrate-attribute"></a>\_Атрибут скорости \_ звуковой \_ кодировки MF PD \_
 
@@ -19,7 +19,7 @@ ms.locfileid: "104265360"
 
 **UINT32**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Атрибут является необязательным. Некоторые форматы имеют более сложные схемы кодирования, которые не могут быть обобщены с помощью этого атрибута. Для файлов формата ASF следующие атрибуты вместе описывают скорость кодирования:
 
@@ -38,8 +38,8 @@ ms.locfileid: "104265360"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows Vista \|\]<br/>                              |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 \|\]<br/>                        |
+| Минимальная версия клиента<br/> | Windows \[Приложения UWP для классических приложений Vista \|\]<br/>                              |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для классических приложений сервера 2008 \|\]<br/>                        |
 | Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 

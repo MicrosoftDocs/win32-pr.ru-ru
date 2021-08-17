@@ -184,7 +184,7 @@ _**Применимо к:** Windows | Windows Сервером_
 
 **Жеткреатедатабасе** будет неявно открывать базу данных. В дальнейшем не обязательно вызывать [жетопендатабасе](./jetopendatabase-function.md).
 
-#### <a name="requirements"></a>Requirements (Требования)
+#### <a name="requirements"></a>Требования
 
 <table>
 <colgroup>
@@ -197,7 +197,7 @@ _**Применимо к:** Windows | Windows Сервером_
 <td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
+<td><p><strong>Сервер</strong></p></td>
 <td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
 </tr>
 <tr class="odd">

@@ -1,6 +1,6 @@
 ---
 title: Функция D3DX11CreateShaderResourceViewFromFile (D3DX11tex. h)
-description: Обратите внимание, что библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений Магазина Windows. Примечание. вместо использования этой функции рекомендуется использовать следующие библиотеки Директкстк (Runtime), Креатекскскстекстурефромфиле (где XXX — DDS или WIC) Директкстекс Library (Tools), Лоадфромксксксфиле (где XXX — это WIC, DDS или TGA; WIC не поддерживает DDS и TGA; D3DX 9 поддерживается TGA как общий формат исходного кода для игр). Затем Креатешадерресаурцевиев создайте представление шейдера-ресурса из файла.
+description: обратите внимание, что библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows. Примечание. вместо использования этой функции рекомендуется использовать следующие библиотеки Директкстк (Runtime), Креатекскскстекстурефромфиле (где XXX — DDS или WIC) Директкстекс Library (Tools), Лоадфромксксксфиле (где XXX — это WIC, DDS или TGA; WIC не поддерживает DDS и TGA; D3DX 9 поддерживается TGA как общий формат исходного кода для игр). Затем Креатешадерресаурцевиев создайте представление шейдера-ресурса из файла.
 ms.assetid: c6a23503-f511-49dc-a0dc-19932cf8f313
 keywords:
 - D3DX11CreateShaderResourceViewFromFile функция Direct3D 11
@@ -15,17 +15,17 @@ api_type:
 - LibDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 05e7d710b0b379f3027591c2ff9e52c2fdd0d7a2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3c6862b5008ed74687e30a9f233e3544ecd69719a20cdcb3f4dd9409de31f6d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104355350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124749"
 ---
 # <a name="d3dx11createshaderresourceviewfromfile-function"></a>Функция D3DX11CreateShaderResourceViewFromFile
 
 > [!Note]  
-> Библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений Магазина Windows.
+> библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.
 
  
 
@@ -82,7 +82,7 @@ HRESULT D3DX11CreateShaderResourceViewFromFile(
 
 Тип: **[ **\_ \_ \_ сведения о загрузке образа D3DX11**](d3dx11-image-load-info.md)\***
 
-Необязательный параметр. Определяет характеристики текстуры (см. раздел [**\_ \_ \_ сведения о загрузке образа D3DX11**](d3dx11-image-load-info.md)) при создании обработчика данных; установите значение **null** , чтобы считать характеристики текстуры при загрузке текстуры.
+Необязательный элемент. Определяет характеристики текстуры (см. раздел [**\_ \_ \_ сведения о загрузке образа D3DX11**](d3dx11-image-load-info.md)) при создании обработчика данных; установите значение **null** , чтобы считать характеристики текстуры при загрузке текстуры.
 
 </dd> <dt>
 
@@ -119,7 +119,7 @@ HRESULT D3DX11CreateShaderResourceViewFromFile(
 
 Возвращаемое значение является одним из значений, перечисленных в [кодах возврата Direct3D 11](d3d11-graphics-reference-returnvalues.md).
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Список поддерживаемых форматов изображений см. в разделе [**\_ \_ \_ Формат файла изображения D3DX11**](d3dx11-image-file-format.md).
 
@@ -129,7 +129,7 @@ HRESULT D3DX11CreateShaderResourceViewFromFile(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX11tex. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX11tex. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3DX11. lib</dt> </dl>  |
 
 

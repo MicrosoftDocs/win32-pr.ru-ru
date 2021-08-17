@@ -4,12 +4,12 @@ ms.assetid: 3580b37d-611c-46b4-9300-4943833d6852
 title: Сведения о батарее
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4f9838a2a95db037b9655f116f07e3cf2e072d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d3b1afd2461985ec85a07d40bd309c588a5404e4b59be7555a01fc6c147eb221
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105663131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143697"
 ---
 # <a name="battery-information"></a>Сведения о батарее
 
@@ -39,7 +39,7 @@ ms.locfileid: "105663131"
 
 При обновлении тега батареи батарея должна считаться новым аккумулятором, а все кэшированные данные должны быть прочитаны повторно. Если приложению необходимо узнать, имеется ли тот же физический аккумулятор, то при вызове с уровнем информации **баттерюникуеид** он должен проверить значение **баттерюникуеид** в выходном буфере [**\_ \_ запроса \_ на батарею ioctl**](ioctl-battery-query-information.md) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

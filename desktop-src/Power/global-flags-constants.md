@@ -4,12 +4,12 @@ ms.assetid: d98190ef-f70e-4796-960e-ff32d2cf6f4f
 title: Константы глобальных флагов (Поврпроф. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fd31340e3e7daf4f9dd034c3fa2db333680a626
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e2dfd23559959bee72e8572cc700a948df1e92dcdb37a03c41b52cdca4d578c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105663120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143544"
 ---
 # <a name="global-flags-constants"></a>Константы глобальных флагов
 
@@ -33,9 +33,9 @@ ms.locfileid: "105663120"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Поврпроф. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Поврпроф. h</dt> </dl> |
 
 
 

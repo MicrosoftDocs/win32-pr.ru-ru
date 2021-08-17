@@ -4,21 +4,21 @@ description: Атрибут VML MSO-Fit-Text-to-Shape
 ms.assetid: efe08106-e72b-48c1-865b-79843c11c15f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b843fe2ebe849e4842642fb7d072954b8906926f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 868f607eb7347eb18a30b64a6244259edfbef336e73bbe078c3584bdfb0f530f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105672406"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119057812"
 ---
 # <a name="vml-mso-fit-text-to-shape-attribute"></a>Атрибут VML MSO-Fit-Text-to-Shape
 
-В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+в этом разделе описывается функция VML, которая является устаревшей по отношению к Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
 
 > [!Note]  
-> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
+> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). сведения, рекомендации и рекомендации относительно текущей версии Windows Internet explorer см. в [центре разработчиков internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Определяет, будет ли текст растянут по размеру фигуры. Read/write. **Вгтристате**.
 
@@ -34,8 +34,8 @@ ms.locfileid: "105672406"
 
 Если **значение равно true**, текст будет растягиваться по размеру фигуры. Значение по умолчанию — **False**.
 
-*Атрибут расширений Microsoft Office*
+*Microsoft Office Extensions, атрибут*
 
- 
+ 
 
- 
+ 

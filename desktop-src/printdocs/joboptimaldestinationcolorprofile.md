@@ -4,12 +4,12 @@ ms.assetid: 70790dc2-180a-4e04-91a9-a10ee76c836b
 title: жобоптималдестинатионколорпрофиле
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e7ad2ea269594809b047922ea4f6c99b924e5ae
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 9f2a63f63993f6a9cf8de8ba0a332407bb645099d98e6d92669c18368bd7629a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112408847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119099672"
 ---
 # <a name="joboptimaldestinationcolorprofile"></a>жобоптималдестинатионколорпрофиле
 
@@ -59,7 +59,7 @@ XML-структура этого элемента:
 
 
 
-| Имя                            | Тип данных         | Unit           | Поддерживаемые значения          | Итоги                                        |
+| Имя                            | Тип данных         | Единица измерения           | Поддерживаемые значения          | Сводка                                        |
 |---------------------------------|-------------------|----------------|---------------------------|------------------------------------------------|
 | \_профилевалуе\_<br/>     | строка<br/> | Недоступно<br/> | RGB, ICC, CMYK<br/> | Задает цветовой профиль.<br/>        |
 | \_пасвалуе\_<br/>        | строка<br/> | Недоступно<br/> | Недоступно<br/>            | Указывает путь к профилю файла.<br/> |

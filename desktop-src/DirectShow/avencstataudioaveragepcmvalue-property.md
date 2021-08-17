@@ -4,12 +4,12 @@ ms.assetid: 371c2eb6-24dc-42f0-a525-2a7fcd7cb087
 title: Свойство Авенкстатаудиоаверажепкмвалуе (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 15de3cb8f1a4aaf8f1e71f3d534dffed1535dbeb
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 4a516c0fe1fd00696892c3e2d35735bbea0f3502b0c0013d5016b92dc34b2209
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104537979"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119275974"
 ---
 # <a name="avencstataudioaveragepcmvalue-property"></a>Авенкстатаудиоаверажепкмвалуе, свойство
 
@@ -25,18 +25,18 @@ ms.locfileid: "104537979"
 
 **КОДЕКАПИ \_ авенкстатаудиоаверажепкмвалуе**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство доступно после завершения кодирования.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 

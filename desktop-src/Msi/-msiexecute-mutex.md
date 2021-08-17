@@ -4,12 +4,12 @@ ms.assetid: 2186422d-ccb2-4f7e-8c6d-326c00e0d9a9
 title: _MSIExecute мьютекс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c22a9ca79e83e8593c2ee99884965acfd414ff4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2cbca288c2d75051c1d6247a1123c453509c635df2872c3724d27d9a2fa27cc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066554"
 ---
 # <a name="_msiexecute-mutex"></a>\_Мьютекс Мсиексекуте
 
@@ -22,9 +22,9 @@ ms.locfileid: "103909172"
 
 Сведения о том, какое приложение устанавливается, см. в сообщениях [журнала событий](event-logging.md) .
 
-В случаях, когда нецелесообразно возвращать ошибку \_ установки \_ , которая уже \_ выполнялась, можно получить текущее состояние службы установщик Windows, прежде чем пытаться начать установку с помощью функции [**куерисервицестатусекс**](/windows/desktop/api/winsvc/nf-winsvc-queryservicestatusex) . Служба установщик Windows выполняется в данный момент, если значение элемента **двконтролсакцептед** в возвращаемой структуре [**\_ \_ процесса состояния службы**](/windows/desktop/api/winsvc/ns-winsvc-service_status_process) — это **\_ \_ Завершение работы службы Accept**.
+в случаях, когда нецелесообразно возвращать ошибку \_ установки \_ , которая уже \_ выполнялась, можно получить текущее состояние службы установщик Windows, прежде чем пытаться начать установку с помощью функции [**куерисервицестатусекс**](/windows/desktop/api/winsvc/nf-winsvc-queryservicestatusex) . служба установщик Windows выполняется в данный момент, если значение элемента **двконтролсакцептед** в возвращаемой структуре [**\_ \_ процесса состояния службы**](/windows/desktop/api/winsvc/ns-winsvc-service_status_process) — это **\_ \_ завершение работы службы ACCEPT**.
 
-**Установщик Windows 2,0:** Не поддерживается. Использование функции [**куерисервицестатусекс**](/windows/desktop/api/winsvc/nf-winsvc-queryservicestatusex) для получения текущего состояния службы установщик Windows требует установщик Windows версии 3,0 или более поздней.
+**установщик Windows 2,0:** Не поддерживается. использование функции [**куерисервицестатусекс**](/windows/desktop/api/winsvc/nf-winsvc-queryservicestatusex) для получения текущего состояния службы установщик Windows требует установщик Windows версии 3,0 или более поздней.
 
  
 

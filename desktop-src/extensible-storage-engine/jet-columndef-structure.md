@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c541b5801c95f4b269e33360f5ffa2404ff8fc06
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f33823c88bf421e82d1c30d8c286f352e35ce2013451ce8353197f430107ec98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119968684"
 ---
 # <a name="jet_columndef-structure"></a>Структура JET_COLUMNDEF
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jet_columndef-structure"></a>Структура JET_COLUMNDEF
 
@@ -115,7 +115,7 @@ _**Применимо к:** Windows | Windows Server_
 <tr class="odd">
 <td><p>JET_bitColumnAutoincrement</p></td>
 <td><p>Столбец будет автоматически увеличиваться. Число является увеличивающимся числом и гарантированно уникально в пределах таблицы. Однако числа могут не быть непрерывными. Например, если в таблицу вставляются пять строк, &quot; &quot; столбец AutoIncrement может содержать значения {1, 2, 6, 7, 8}. Этот бит можно использовать только для столбцов типа <strong>JET_coltypLong</strong> или <strong>JET_coltypCurrency</strong>.</p>
-<p><strong>Windows 2000:  </strong> В Windows 2000 этот бит можно использовать только для столбцов типа <strong>JET_coltypLong</strong>.</p></td>
+<p><strong>Windows 2000:</strong> в Windows 2000 этот бит можно использовать только для столбцов типа <strong>JET_coltypLong</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_bitColumnUpdatable</p></td>
@@ -186,11 +186,11 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
+<td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
+<td><p><strong>Сервер</strong></p></td>
+<td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>
@@ -200,7 +200,7 @@ _**Применимо к:** Windows | Windows Server_
 </table>
 
 
-### <a name="see-also"></a>См. также:
+### <a name="see-also"></a>См. также
 
 [JET_CALLBACK](./jet-callback-callback-function.md)  
 [JET_COLTYP](./jet-coltyp.md)  

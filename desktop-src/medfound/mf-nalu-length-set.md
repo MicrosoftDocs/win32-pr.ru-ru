@@ -4,12 +4,12 @@ ms.assetid: 71B50B44-6025-4EEC-8B37-53D80CF37B07
 title: Атрибут MF_NALU_LENGTH_SET (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a01034cf62758787747882da40ac703d205fa55
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f409cb3c1846667ac21e7d46c559eefb0afc4fe4efbce1f454454d286733157
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104390"
 ---
 # <a name="mf_nalu_length_set-attribute"></a>\_ \_ Атрибут задания длины MF налу \_
 
@@ -19,7 +19,7 @@ ms.locfileid: "105693666"
 
 **UINT32**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Задайте этот атрибут для входного типа носителя МЕДИАСУБТИПЕ \_ H264 Single bitrate.
 
@@ -33,8 +33,8 @@ ms.locfileid: "105693666"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8 \|\]<br/>                                  |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 \|\]<br/>                        |
+| Минимальная версия клиента<br/> | Windows 8 \[ приложения UWP для классических приложений \|\]<br/>                                  |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ приложения UWP для классических приложений \|\]<br/>                        |
 | Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: ad2303a0-f3f3-43a0-83eb-023640da2ece
 title: Пример кода ОПМ
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9883643829815d27725c392e2c4f13f34e816988
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e075b3fc8b88d87b80126c8dea307cf151e5f9fc817fa61b9ed8be37ef12c5e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119102124"
 ---
 # <a name="opm-example-code"></a>Пример кода ОПМ
 
@@ -23,7 +23,7 @@ ms.locfileid: "105711439"
 -   [Отправка запроса состояния ОПМ](#sending-an-opm-status-request)
 -   [Отправка команды ОПМ](#sending-an-opm-command)
 -   [Вычисление значения ОМАК-1](#computing-the-omac-1-value)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="performing-the-opm-handshake"></a>Выполнение подтверждения ОПМ
 
@@ -812,7 +812,7 @@ HRESULT ComputeOMAC(
 
 Алгоритм ОМАК-1 подробно описан в разделе <https://www.nuee.nagoya-u.ac.jp/labs/tiwata/omac/omac.html> .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

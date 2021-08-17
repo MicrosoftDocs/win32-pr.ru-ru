@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 534ead406107957971bbf1501dff2850478fae08
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d58c33f79db575dec37d7d2ac51e3c65b10416b9ca35a50084f36a56693854be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105717951"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119930314"
 ---
 # <a name="iwmdrmlicensemanagementprocesslicenserevocationresponse-method"></a>Ивмдрмлиценсеманажемент: метод:P Роцесслиценсеревокатионреспонсе
 
@@ -87,9 +87,9 @@ BLOB-объект отзыва лицензий (ЛРБ), полученный �
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Нет.
+Отсутствует.
 
 ## <a name="requirements"></a>Требования
 
@@ -97,7 +97,7 @@ BLOB-объект отзыва лицензий (ЛРБ), полученный �
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Вмдрмсдк. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмдрмсдк. h</dt> </dl> |
 
 
 

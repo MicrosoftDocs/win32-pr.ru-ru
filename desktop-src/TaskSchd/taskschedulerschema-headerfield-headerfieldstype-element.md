@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1f7ac79a16bb0464f6e81d90eba38384a3c2b483
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 918e432ce7a8ea2d43769b9d9ee1315a4b35bce6f2c0cb23f1153ec7afe1a599
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105682135"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139217"
 ---
 # <a name="headerfield-headerfieldstype-element"></a>Хеадерфиелд (Хеадерфиелдстипе), элемент
 
@@ -49,11 +49,11 @@ ms.locfileid: "105682135"
 | Элемент                                                            | Тип                                                                    | Описание                                                            |
 |--------------------------------------------------------------------|-------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [**Имя**](taskschedulerschema-name-headerfieldtype-element.md)   | [**нонемптистринг**](taskschedulerschema-nonemptystring-simpletype.md) | Задает имя поля заголовка в сообщении электронной почты.<br/> |
-| [**Значение**](taskschedulerschema-value-headerfieldtype-element.md) | **string**                                                              | Задает значение поля заголовка в сообщении электронной почты.<br/>  |
+| [**Значение**](taskschedulerschema-value-headerfieldtype-element.md) | **строка**                                                              | Задает значение поля заголовка в сообщении электронной почты.<br/>  |
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Сведения о разработке на языке C++ см. в разделе [**свойство хеадерфиелдс объекта иемаилактион**](/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_headerfields).
 
@@ -65,8 +65,8 @@ ms.locfileid: "105682135"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

@@ -3,7 +3,7 @@ title: Сообщение EM_REDO (RichEdit. h)
 description: Отправляет сообщение о \_ возврате EM в форматируемый элемент управления, чтобы повторить следующее действие в очереди повторов элемента управления.
 ms.assetid: 28ec1ec2-a56d-442f-b3cb-9feeb92edaeb
 keywords:
-- Элементы управления Windows для EM_REDO сообщений
+- элементы управления Windows сообщений EM_REDO
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bba7a684db0d40ebcfeec4a540989c4dab4c5dd2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d39b679e8bf7e78cf7ce028d0bb440438770d0d0123516313fb418b2136ebc11
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119437864"
 ---
 # <a name="em_redo-message"></a>\_Сообщение о возврате EM
 
@@ -49,7 +49,7 @@ ms.locfileid: "104491493"
 
 Если операция **повтора** завершается неудачно, возвращаемое значение равно нулю.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы определить, есть ли какие либо действия в очереди повторов элемента управления, отправьте сообщение [**EM \_ канредо**](em-canredo.md) .
 
@@ -59,8 +59,8 @@ ms.locfileid: "104491493"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

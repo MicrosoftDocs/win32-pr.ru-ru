@@ -4,12 +4,12 @@ ms.assetid: 36afaabc-1334-42d1-8004-7952ce3c119e
 title: О растровых изображениях
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53dbba516734dc255ce33005a7a9073865765785
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb155a2d96b32303c38438663cb7cc9b893a1560e8f33956ff894d309f055010
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104543634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119355514"
 ---
 # <a name="about-bitmaps"></a>О растровых изображениях
 
@@ -63,7 +63,7 @@ ms.locfileid: "104543634"
 -   [Поворот растрового изображения](bitmap-rotation.md)
 -   [Масштабирование растрового изображения](bitmap-scaling.md)
 -   [Растровые изображения как кисти](bitmaps-as-brushes.md)
--   [Растровое хранилище](bitmap-storage.md)
+-   [служба хранилища точечных рисунков](bitmap-storage.md)
 -   [Сжатие растрового изображения](bitmap-compression.md)
 -   [Альфа-смешение](alpha-blending.md)
 -   [Плавная Заливка](smooth-shading.md)

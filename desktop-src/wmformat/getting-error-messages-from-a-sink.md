@@ -11,12 +11,12 @@ keywords:
 - сообщения об ошибках
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6b3fbb43d72107dbffc13eb27425e253bc13839
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: e432f805b5e33de0e830a2f319713bccec328d429f8eb04064d87edc56bf375c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104133499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119930874"
 ---
 # <a name="getting-error-messages-from-a-sink"></a>Получение сообщений об ошибках из приемника
 
@@ -79,7 +79,7 @@ Exit:
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -89,9 +89,9 @@ Exit:
 [**Работа с приемниками модуля записи**](working-with-writer-sinks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

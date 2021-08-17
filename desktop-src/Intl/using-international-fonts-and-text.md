@@ -1,19 +1,19 @@
 ---
-description: В каждом основном выпуске Windows добавлены шрифты для поддержки международных языков и сценариев.
+description: в каждом основном выпуске Windows добавлены шрифты для поддержки международных языков и сценариев.
 ms.assetid: 77b8c200-2682-4651-855a-602f768edc9b
 title: Перечисление международных шрифтов и выбор
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63e5d0d07a0953f72f097f8578f5e32b3ee49093
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4b28e2dca3937f3513a930f157a364d466f761ed54a53d09c3e2b8b1c89bb30
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104350275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146887"
 ---
 # <a name="international-font-enumeration-and-selection"></a>Перечисление международных шрифтов и выбор
 
-В каждом основном выпуске Windows добавлены шрифты для поддержки международных языков и сценариев. В Windows вы можете ссылаться на [сценарии и](https://msdn.microsoft.com/globalization/mt791278) шрифты, которые были добавлены в каждой версии Windows, начиная с Windows 2000, а также с поддерживаемыми сценариями, регионами и языками.
+в каждом основном выпуске Windows добавлены шрифты для поддержки международных языков и сценариев. для шрифтов, которые были добавлены в каждой версии Windows с Windows 2000, а также поддерживаемые сценарии, регионы и языки, необходимо ссылаться на [поддержку скриптов и шрифтов в Windows](https://msdn.microsoft.com/globalization/mt791278) .
 
 ## <a name="enumfontfamiliesex"></a>EnumFontFamiliesEx
 
@@ -31,20 +31,20 @@ ms.locfileid: "104350275"
 
 Наконец, как и любое другое поле в диалоговом окне Шрифт, можно выбрать вывод списка пустых сценариев. Эта возможность полезна, если пользователь выделил несколько различных шрифтов, охватывающих несколько наборов символов. В этом случае необходимо вызвать [**ChooseFont**](/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)) с флагом **CF \_ носкриптсел** .
 
-Начиная с Windows 7, [**ChooseFont**](/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)) реализует поддержку скрытия шрифтов из списков выбора шрифтов. **ChooseFont** будет отображать только указанные шрифты и отфильтровывать скрытые шрифты при отображении шрифтов в списке. Добавлен дополнительный флаг (**CF \_ инактивефонтс**) в элементе flags структуры [**ChooseFont**](/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)) , позволяющий отображать все установленные шрифты в списке шрифтов, то же, что и **ChooseFont** , как и в Windows 7. Сведения о различиях в работе в Windows 7 для функции **ChooseFont** см. в разделе [**ChooseFont () общее диалоговое окно Win32**](../win7appqual/choosefont-win32-common-dialog.md) в [Windows 7 Application Quality Cookbook](../win7appqual/windows-7-application-quality-cookbook.md). Ознакомьтесь с функциями **ChooseFont** и структурой **ChooseFont** , чтобы получить сведения о различиях в работе конечных пользователей в Windows 7.
+начиная с версии Windows 7, [**ChooseFont**](/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)) реализует поддержку скрытия шрифтов из списков выбора шрифтов. **ChooseFont** будет отображать только указанные шрифты и отфильтровывать скрытые шрифты при отображении шрифтов в списке. добавляется дополнительный флаг (**CF \_ инактивефонтс**) в элементе flags структуры [**ChooseFont**](/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)) , позволяющий отображать все установленные шрифты в списке шрифтов, то же, что и **ChooseFont** , перед Windows 7. сведения о различиях в поведении Windows 7 для функции **ChooseFont** см. в разделе [**ChooseFont () общепринятое диалоговое окно Win32**](../win7appqual/choosefont-win32-common-dialog.md) в [Windows 7 приложения Quality Cookbook](../win7appqual/windows-7-application-quality-cookbook.md). ознакомьтесь с функциями **ChooseFont** и структурой **ChooseFont** , чтобы получить сведения о различиях в работе конечных пользователей в Windows 7.
 
 Обратите внимание, что наборов символов — это устаревшее понятие, соответствующее наборам символов до Юникода. В настоящее время не существует механизма фильтрации шрифтов на основе скриптов Юникода или диапазонов символов.
 
-## <a name="font-controls-in-windows-scenic-ribbon"></a>Элементы управления шрифтами на ленте Windows Scenic
+## <a name="font-controls-in-windows-scenic-ribbon"></a>элементы управления шрифтами на ленте Windows Scenic
 
-В Windows 7 появилась Windows Scenic лента, которая включает набор элементов управления, предназначенных для выбора шрифта. Эти элементы управления шрифтами поддерживают новый режим скрытия шрифта Windows 7. Эти элементы управления шрифтом можно использовать для отображения только показанных шрифтов и предоставления пользователю возможности выбора шрифта.
+в Windows 7 появилась лента Windows Scenic, которая включает набор элементов управления, предназначенных для выбора шрифта. эти элементы управления шрифтами поддерживают новое поведение при скрытии шрифта Windows 7. Эти элементы управления шрифтом можно использовать для отображения только показанных шрифтов и предоставления пользователю возможности выбора шрифта.
 
 > [!Note]  
-> Поддержка скрытия шрифтов недоступна, если лента Windows Scenic запущена на любой платформе до Windows 7.
+> поддержка скрытия шрифтов недоступна, если лента Windows Scenic запущена на любой платформе до Windows 7.
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -57,7 +57,7 @@ ms.locfileid: "104350275"
 [**Структура CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta)
 </dt> <dt>
 
-[**Элементы управления шрифтами на ленте Windows Scenic**](../windowsribbon/windowsribbon-element-fontcontrol.md)
+[**элементы управления шрифтами на ленте Windows Scenic**](../windowsribbon/windowsribbon-element-fontcontrol.md)
 </dt> <dt>
 
 [**ChooseFont () общее диалоговое окно Win32**](../win7appqual/choosefont-win32-common-dialog.md)

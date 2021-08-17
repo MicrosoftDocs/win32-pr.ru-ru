@@ -24,12 +24,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 130284e8cf19640e7861b17d80a4612b130f7062
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c197e419db97d4d602ef6710fdb668d9af3dcb9802414285d73d9fe66234691e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119321444"
 ---
 # <a name="cim_directoryaction-class"></a>\_Класс CIM директоряктион
 
@@ -76,7 +76,7 @@ class CIM_DirectoryAction : CIM_Action
 
 | Метод                                                       | Описание                                                                  |
 |:-------------------------------------------------------------|:-----------------------------------------------------------------------------|
-| [**Вызвать**](invoke-method-in-class-cim-directoryaction.md) | Выполняет определенное действие. Этот метод не реализован инструментарием WMI.<br/> |
+| [**Invoke**](invoke-method-in-class-cim-directoryaction.md) | Выполняет определенное действие. Этот метод не реализован инструментарием WMI.<br/> |
 
 
 
@@ -106,7 +106,7 @@ class CIM_DirectoryAction : CIM_Action
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -170,7 +170,7 @@ class CIM_DirectoryAction : CIM_Action
 
 </dd> <dt>
 
-**директоринаме**
+**DirectoryName**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -186,7 +186,7 @@ class CIM_DirectoryAction : CIM_Action
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -432,7 +432,7 @@ HP-UX
 
 </dt> <dd>
 
-Windows 3. x
+Windows 3
 
 </dd> <dt>
 
@@ -514,7 +514,7 @@ Windows CE
 
 <span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>
 
-<span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>**Зависящая от UNIX** (24)
+<span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>**зависящие UNIX** (24)
 
 
 </dt> <dd></dd> <dt>
@@ -642,7 +642,7 @@ BS2000/OSD
 
 <span id="Interactive_UNIX"></span><span id="interactive_unix"></span><span id="INTERACTIVE_UNIX"></span>
 
-<span id="Interactive_UNIX"></span><span id="interactive_unix"></span><span id="INTERACTIVE_UNIX"></span>**Интерактивная UNIX** (40)
+<span id="Interactive_UNIX"></span><span id="interactive_unix"></span><span id="INTERACTIVE_UNIX"></span>**интерактивный UNIX** (40)
 
 
 </dt> <dd></dd> <dt>
@@ -654,7 +654,7 @@ BS2000/OSD
 
 </dt> <dd>
 
-ОС BSD UNIX
+UNIX BSD
 
 </dd> <dt>
 
@@ -812,7 +812,7 @@ Mac OS 9
 
 </dd> <dt>
 
-**Version**
+**Версия**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -835,13 +835,13 @@ Mac OS 9
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Инструментарий WMI не реализует этот класс.
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

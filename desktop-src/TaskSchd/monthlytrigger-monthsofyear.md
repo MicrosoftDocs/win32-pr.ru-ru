@@ -67,7 +67,7 @@ MonthlyTrigger.MonthsOfYear As short
 
 При чтении или записи собственного XML-кода для задачи месяцы года указываются с помощью элемента [**months**](taskschedulerschema-months-monthlyscheduletype-element.md) схемы планировщик задач.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

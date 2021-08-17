@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 564f122242407f4d6f5dd28da9fd4d151ab6b47f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 19fc62179337236edbac2d5136cbcbff8152b46292ae666ae2836fd4b3c8d2d3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119439964"
 ---
 # <a name="setipusezerobroadcast-method-of-the-win32_networkadapterconfiguration-class"></a>Метод Сетипусезероброадкаст \_ класса Win32 NetworkAdapterConfiguration
 
@@ -325,7 +325,7 @@ IPX не включен на адаптере.
 
 </dd> <dt>
 
-**Нет памяти**
+**Недостаточно памяти**
 </dt> <dd>
 
 92
@@ -404,7 +404,7 @@ DHCP не включен на адаптере.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если параметр *ипусезероброадкаст* имеет значение **true**, IP-адрес будет использовать нулевые широковещательные рассылки (0.0.0.0) вместо широковещательных (255.255.255.255). Большинство систем используют один широковещательный, но системы, производные от реализаций BSD, используют нулевые широковещательные рассылки. Системы, использующие разные широковещательные рассылки, не будут взаимодействовать в одной сети.
 
@@ -412,7 +412,7 @@ DHCP не включен на адаптере.
 
 Пример [изменения Zero-Broadcast использования для всех сетевых адаптеров](https://Gallery.TechNet.Microsoft.Com/3d1ec74a-bf96-41cf-bb90-f98cd6494fb3) VBScript настраивает компьютер для использования нулевых широковещательных рассылок (0.0.0.0), а не широковещательных (255.255.255.255).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

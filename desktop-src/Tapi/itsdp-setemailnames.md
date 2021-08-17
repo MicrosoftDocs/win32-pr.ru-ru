@@ -4,16 +4,16 @@ ms.assetid: 1d6d5b01-bc0f-455f-8b23-bc0f409afde4
 title: 'Метод Итсдп:: Сетемаилнамес (Сдпблб. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a9ff31e66f5f69fe7fad43da5ec436c3f567cd49
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f23fa550c5750a3fad5d0b20ccdf2e032ed98c20a10b2f8e758ea7c9874e05a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105688948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140237"
 ---
 # <a name="itsdpsetemailnames-method"></a>Метод Итсдп:: Сетемаилнамес
 
-\[ В Windows Vista, Windows Server 2008 и последующих версиях операционной системы нельзя использовать встречные средства и элементы управления Конференц-телефонией и интерфейсы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[встречи и элементы управления встречными IP-телефонными соединениями недоступны для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Метод **сетемаилнамес** задает массив адресов электронной почты, связанных с объектом Conference.
 
@@ -65,7 +65,7 @@ HRESULT SetEmailNames(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Списки, на которые указывают *адреса* и *имена* , имеют одинаковую длину.
 

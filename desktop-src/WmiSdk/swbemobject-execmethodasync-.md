@@ -16,16 +16,16 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 8af1b7c10eed427423afea8b40a1df5bc237f99e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 37d7a0ab0b2e4d1ab893619eda4b3d32b8b4e1f60791e0981125d4445bda5f98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119857354"
 ---
 # <a name="swbemobjectexecmethodasync_-method"></a>SWbemObject.Exe\_ метод кмесодасинк
 
-Метод **ексекмесодасинк \_** метода [**SWbemObject**](swbemobject.md) асинхронно выполняет метод, который экспортирует поставщик метода. Этот метод аналогичен [**SWbemServices.Exeкмесодасинк**](swbemservices-execmethodasync.md), но работает непосредственно с объектом метода для выполнения. Инструментарий управления Windows (WMI) (WMI) не реализует этот метод. Поставщик реализует этот метод.
+Метод **ексекмесодасинк \_** метода [**SWbemObject**](swbemobject.md) асинхронно выполняет метод, который экспортирует поставщик метода. Этот метод аналогичен [**SWbemServices.Exeкмесодасинк**](swbemservices-execmethodasync.md), но работает непосредственно с объектом метода для выполнения. Windows Инструментарий управления (WMI) не реализует этот метод. Поставщик реализует этот метод.
 
 Описание этого синтаксиса см. в разделе [соглашения о документе для API скриптов](document-conventions-for-the-scripting-api.md).
 
@@ -165,7 +165,7 @@ objOutParams = .ExecMethodAsync_( _
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте **SWbemObject.Exeметод кмесодасинк \_** в качестве альтернативы для прямого доступа к [*методу поставщика*](gloss-p.md) , когда невозможно выполнить метод напрямую. Например, если метод имеет выходные параметры, используйте метод **SWbemObject.Exeкмесодасинк \_** с языком сценариев, который не поддерживает выходные параметры. В противном случае рекомендуется вызывать метод с помощью прямого доступа. Дополнительные сведения см. в разделе [Управление сведениями о классе и экземпляре](manipulating-class-and-instance-information.md).
 
@@ -179,7 +179,7 @@ objOutParams = .ExecMethodAsync_( _
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере показан метод [**ексекмесодасинк**](swbemservices-execmethodasync.md) . Скрипт создает объект [**\_ процесса Win32**](/windows/desktop/CIMWin32Prov/win32-process) , который представляет процесс, выполняющий программу «Блокнот». Он показывает, как настроить [**объект параметров**](swbemmethod-inparameters.md) и как получить результаты из объекта [**параметров**](swbemmethod-outparameters.md) .
+В следующем примере показан метод [**ексекмесодасинк**](swbemservices-execmethodasync.md) . скрипт создает объект [**\_ процесса Win32**](/windows/desktop/CIMWin32Prov/win32-process) , который представляет процесс, выполняющий Блокнот. Он показывает, как настроить [**объект параметров**](swbemmethod-inparameters.md) и как получить результаты из объекта [**параметров**](swbemmethod-outparameters.md) .
 
 Сведения о скрипте, который показывает те же операции, выполняемые синхронно, см. в разделе [**SWbemObject.Exeкмесод**](swbemobject-execmethod-.md). Пример использования прямого доступа см. в разделе [**Создание метода в классе Win32 \_ процесс**](/windows/desktop/CIMWin32Prov/create-method-in-class-win32-process). Пример той же операции с помощью объекта [**SwbemServices**](swbemservices.md) см. в разделе [**SWbemServices.Exeкмесодасинк**](swbemservices-execmethodasync.md).
 
@@ -248,7 +248,7 @@ end sub
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
 | Библиотека типов<br/>             | <dl> <dt>Wbemdisp. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | \_SWBEMOBJECT CLSID<br/>                                                           |

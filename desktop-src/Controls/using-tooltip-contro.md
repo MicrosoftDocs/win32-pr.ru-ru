@@ -4,12 +4,12 @@ description: В этом разделе содержатся примеры, д�
 ms.assetid: 4486b406-a069-4250-b7ab-671d895b79f9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86fd4a0cef452be3f9700f8466959043ac8d30b7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d27bb6ac0f922df024adff15b8c67600338f2fcb17a8a97559ae9b0a41cdc191
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103775560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119318614"
 ---
 # <a name="using-tooltip-controls"></a>Использование элементов управления ToolTip
 

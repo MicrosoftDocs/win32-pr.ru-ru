@@ -4,12 +4,12 @@ ms.assetid: 1F433405-5943-4579-BDAD-423C4E1A6E76
 title: Элемент Name (схема библиотеки)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54d38baa32587ee04c62c8c3086d5353e8eed9e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 179d8b4a1f4358ccb441cc38c6c0765a6dc4d9ade8b3c32a1504be2151cfedaa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104997955"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119883944"
 ---
 # <a name="name-element-library-schema"></a>Элемент Name (схема библиотеки)
 
@@ -39,9 +39,9 @@ ms.locfileid: "104997955"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
-Имя — это понятное имя библиотеки, отображаемое в проводнике Windows. Имя можно указать в <dllname> формате, как показано <index> в следующем примере.
+имя — это понятное имя библиотеки, отображаемое в Windows Explorer. Имя можно указать в <dllname> формате, как показано <index> в следующем примере.
 
 
 ```
@@ -54,7 +54,7 @@ ms.locfileid: "104997955"
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -27,12 +27,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: cd527474309802a4c6d2315d8a9e61b6733e70d2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2b5045e47e42c86ff82a983ad1e86463c9a5320e46b616d68cc33b3a2f0fc865
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141710"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119438644"
 ---
 # <a name="cim_job-class-cimwin32-wmi-providers"></a>Класс CIM_Job (поставщики WMI CIMWin32)
 
@@ -73,13 +73,13 @@ class CIM_Job : CIM_LogicalElement
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ заданий CIM** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -159,7 +159,7 @@ class CIM_Job : CIM_LogicalElement
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -363,7 +363,7 @@ class CIM_Job : CIM_LogicalElement
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ задания CIM** является производным от [**CIM \_ логикалелемент**](cim-logicalelement.md).
 

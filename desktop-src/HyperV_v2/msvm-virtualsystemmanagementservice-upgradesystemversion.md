@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 4c34b33da14d8718f2c2414de3aea3079672bbb2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 64146c146bfd2c05d96e11d5193e246c76a6d1eb247d240b712cb46367a698c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119148017"
 ---
 # <a name="upgradesystemversion-method-of-the-msvm_virtualsystemmanagementservice-class"></a>Метод Упградесистемверсион \_ класса Виртуалсистемманажементсервице мсвм
 
@@ -109,7 +109,7 @@ uint32 UpgradeSystemVersion(
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                             |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                             |
 | Минимальная версия сервера<br/> | Windows Server 2016<br/>                                                                          |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |

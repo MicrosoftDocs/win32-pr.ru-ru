@@ -1,5 +1,5 @@
 ---
-description: Метод Опендатабасе объекта Merge открывает базу данных установки установщик Windows, расположенную по указанному пути, которая должна быть объединена с модулем.
+description: метод опендатабасе объекта Merge открывает базу данных установки установщик Windows, расположенную по указанному пути, которая должна быть объединена с модулем.
 ms.assetid: 86f168e5-bc76-476d-9757-9b2a21bb9c4b
 title: Метод Merge. Опендатабасе (Мержемод. h)
 ms.topic: reference
@@ -14,16 +14,16 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: 2e200da6fe3f4913e53d96a237cac2b4d4c9b77e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 63736c3346c68f6902c1e35b63be46a7a3f202dfb8ac0254ac448c808bf85bfc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679618"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119314894"
 ---
 # <a name="mergeopendatabase-method"></a>Метод Merge. Опендатабасе
 
-Метод **опендатабасе** объекта [**Merge**](merge-object.md) открывает базу данных установки установщик Windows, расположенную по указанному пути, которая должна быть объединена с модулем.
+метод **опендатабасе** объекта [**Merge**](merge-object.md) открывает базу данных установки установщик Windows, расположенную по указанному пути, которая должна быть объединена с модулем.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -55,7 +55,7 @@ Merge.OpenDatabase(
 
 См. раздел Функция [**опендатабасе**](/windows/win32/api/mergemod/nf-mergemod-imsmmerge-opendatabase) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -1,5 +1,5 @@
 ---
-description: Представляет среду или системный параметр среды в системе Windows.
+description: представляет среду или параметр среды системы на Windows компьютере.
 ms.assetid: da7ee891-c759-4046-a9d8-d3caf66ab5a9
 ms.tgt_platform: multiple
 title: Класс Win32_Environment
@@ -22,16 +22,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 3b7267e3ac03c14cfc6ad6ca73ede42cc8478b41
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5d7237d83c298916045b4bd0443eadc3048c94dc7ad028a1bd7bfa993c4ce764
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119391754"
 ---
 # <a name="win32_environment-class"></a>\_Класс среды Win32
 
-[Класс WMI](/windows/desktop/WmiSdk/retrieving-a-class) **\_ среды Win32** представляет среду или системный параметр среды в системе Windows. Запрос к этому классу Возвращает переменные среды, найденные в:
+[класс WMI](/windows/desktop/WmiSdk/retrieving-a-class) **\_ среды Win32** представляет среду или параметр среды системы в Windows компьютере. Запрос к этому классу Возвращает переменные среды, найденные в:
 
 **HKey \_ \_** \\  \\  \\ **Управление** \\  \\ **средой** сессионманажер в системе локального компьютера CurrentControlSet
 
@@ -64,13 +64,13 @@ class Win32_Environment : CIM_SystemResource
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ среды Win32** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -124,7 +124,7 @@ class Win32_Environment : CIM_SystemResource
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -136,7 +136,7 @@ class Win32_Environment : CIM_SystemResource
 Квалификаторы: [**override**](/windows/desktop/WmiSdk/standard-qualifiers) ("имя"), [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32Registry \| System \\ \\ CurrentControlSet \\ \\ Control \\ \\ Session Manager \\ \\ Environment")
 </dt> </dl>
 
-Символьная строка, указывающая имя переменной среды на основе Windows. Указав имя переменной, которая еще не существует, приложение создает новую переменную среды.
+символьная строка, указывающая имя переменной среды на основе Windows. Указав имя переменной, которая еще не существует, приложение создает новую переменную среды.
 
 Пример: "Path"
 
@@ -278,7 +278,7 @@ class Win32_Environment : CIM_SystemResource
 Квалификаторы: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**maxlen**](/windows/desktop/WmiSdk/standard-qualifiers) (260), [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32Registry \| система \\ \\ CurrentControlSet \\ \\ управляющего \\ \\ сеанса диспетчером сеансов \\ \\ ")
 </dt> </dl>
 
-Имя владельца параметра среды. Он имеет значение <SYSTEM> для параметров, характерных для системы Windows (в отличие от конкретного пользователя) и <DEFAULT> параметров пользователя по умолчанию.
+Имя владельца параметра среды. он имеет значение <SYSTEM> для параметров, характерных для системы на основе Windows (в отличие от конкретного пользователя) и <DEFAULT> параметров пользователя по умолчанию.
 
 Пример: "JSmith"
 
@@ -296,13 +296,13 @@ class Win32_Environment : CIM_SystemResource
 Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32Registry \| System \\ \\ CurrentControlSet \\ \\ Control \\ \\ Configuration Manager \\ \\ Environment")
 </dt> </dl>
 
-Заполнитель переменной среды на основе Windows. Такие сведения, как каталог файловой системы, могут изменяться с компьютера на компьютер. Операционная система заменяет заполнители для них.
+заполнитель переменной среды на основе Windows. Такие сведения, как каталог файловой системы, могут изменяться с компьютера на компьютер. Операционная система заменяет заполнители для них.
 
 Пример: "% SystemRoot%"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ среды Win32** является производным от [**CIM \_ системресаурце**](cim-systemresource.md). Этот класс можно использовать для поиска путей к специальным папкам, таким как системная папка или программные файлы на удаленном компьютере. Вот некоторые примеры: WINDIR, системный_корневой_каталог, ProgramFiles и UserProfile. **Win32 \_ Среда** по сути возвращает сведения о том, что можно найти в:
 
@@ -312,7 +312,7 @@ class Win32_Environment : CIM_SystemResource
 
 **HKey \_** \\ **< Пользовательская >** \\ **Среда**
 
-Вызывающий процесс, использующий этот класс, должен иметь привилегию **SE \_ reside \_ Name** на компьютере, где размещается реестр. Например, если перечислить этот класс на локальном компьютере, учетная запись, под которой выполняется приложение, должна иметь эту привилегию. Дополнительные сведения см. в разделе [выполнение привилегированных операций](/windows/desktop/WmiSdk/executing-privileged-operations).
+вызывающий процесс, использующий этот класс, должен иметь привилегию **SE \_ reside \_ NAME** на компьютере, где размещается реестр. Например, если перечислить этот класс на локальном компьютере, учетная запись, под которой выполняется приложение, должна иметь эту привилегию. Дополнительные сведения см. в разделе [выполнение привилегированных операций](/windows/desktop/WmiSdk/executing-privileged-operations).
 
 ## <a name="examples"></a>Примеры
 

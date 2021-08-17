@@ -3,7 +3,7 @@ title: Код уведомления EN_STARTCOMPOSITION (RichEdit. h)
 description: Сообщает родительскому окну элемента управления Rich Edit, что пользователь начал вводить текст с помощью IME или платформы текстовых служб.
 ms.assetid: 755C0C5F-061B-44AF-98A5-776AEE1B7AF8
 keywords:
-- EN_STARTCOMPOSITION кода уведомления элементы управления Windows
+- EN_STARTCOMPOSITION кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a103431427a9325a6b74c27927fb56e65f6fe771
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4b182322175d03ab1c6906132c8f5970ce1d716e7e1c745406b009e5b224ec2c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137150"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119436674"
 ---
 # <a name="en_startcomposition-notification-code"></a>\_Код уведомления EN старткомпоситион
 
@@ -51,9 +51,9 @@ EN_STARTCOMPOSITION
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 
 

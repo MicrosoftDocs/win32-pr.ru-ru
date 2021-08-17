@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 8d31d05e9eef889d9018e4806cf4c882dba3060e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 8f5507755a6929cee9811f1f935e93b347aed9ebe57f2e0237365cdfbbf4b109
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108116932"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090324"
 ---
 # <a name="ishelldispatch3addtorecent-method"></a>IShellDispatch3. Аддторецент, метод
 
@@ -58,7 +58,7 @@ IShellDispatch3.AddToRecent( _
 
 **Строка** , содержащая путь к файлу, добавляемому в список недавно использовавшихся документов.
 
-**Windows Vista**: установите для этого параметра **значение NULL** , чтобы очистить папку недавние документы.
+**Windows Vista**: установите для этого параметра **значение null** , чтобы очистить папку недавние документы.
 
 </dd> <dt>
 
@@ -83,9 +83,9 @@ IShellDispatch3.AddToRecent( _
 
 ## <a name="examples"></a>Примеры
 
-В следующих примерах показано использование **аддторецент** для JScript, VBScript и Visual Basic.
+в следующих примерах показано использование **аддторецент** для JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -180,8 +180,8 @@ End Sub
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                                                   |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                          |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                                                   |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (версия 6,0 или более поздняя)</dt> </dl> |

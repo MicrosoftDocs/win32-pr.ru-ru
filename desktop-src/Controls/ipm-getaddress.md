@@ -3,7 +3,7 @@ title: Сообщение IPM_GETADDRESS (Коммктрл. h)
 description: Возвращает значения адреса для всех четырех полей в элементе управления IP-адреса.
 ms.assetid: 4fe68d45-7d7f-46da-a110-65f899b3c393
 keywords:
-- Элементы управления Windows для IPM_GETADDRESS сообщений
+- элементы управления Windows сообщений IPM_GETADDRESS
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 426e9c76712701b2f4e108679133be23eb700687
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e9bcb35ed71532e815b33b45e1c15e9b82b75b5c87fac406b52de80670e3d72a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119434516"
 ---
 # <a name="ipm_getaddress-message"></a>Сообщение IPM. \_ Address
 
@@ -49,9 +49,9 @@ ms.locfileid: "103988911"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 
