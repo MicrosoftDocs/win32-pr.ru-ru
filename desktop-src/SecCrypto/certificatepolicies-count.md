@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 0ee51e37b3fd4ac66c4e615eaf068edc98a64807
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 405fbc928f6ff553abe3cd55d3f6e08a1aed13ef46093f912b6b08af45ec2c1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689426"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117771052"
 ---
 # <a name="certificatepoliciescount-property"></a>ЦертификатеполиЦиес. Count, свойство
 
@@ -41,7 +41,7 @@ CertificatePolicies.Count As Long
 
 Число объектов [**полициинформатион**](policyinformation.md) в коллекции. Каждый объект **полициинформатион** представляет одну политику сертификата в коллекции.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Свойство **Count** можно использовать для указания последнего объекта [**полициинформатион**](policyinformation.md) в коллекции при извлечении определенного объекта **полициинформатион** с помощью свойства [**цертификатеполиЦиес. Item**](certificatepolicies-item.md) .
 

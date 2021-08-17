@@ -6,16 +6,16 @@ keywords:
 - Microsoft Agent, устранение неполадок
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d88a7c9c88185193cfd85512c50ea15d2e931d26
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dbdefa0a25e7f55152c2d3ef1d6341bd38aeec0cab8138c9b4fd6ede60b7a85d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068274"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118474491"
 ---
 # <a name="troubleshooting-microsoft-agent"></a>Устранение неполадок агента Microsoft Agent
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 Если у вас возникли трудности с запуском Microsoft Agent на компьютере, ознакомьтесь со следующим перечнем симптомов и выполните предлагаемые действия, чтобы изолировать и устранить проблему.
 
@@ -23,9 +23,9 @@ ms.locfileid: "104068274"
 -   [Проблемы вывода](output-problems.md)
 -   [Проблемы речевого ввода](speech-input-problems.md)
 
- 
+ 
 
- 
+ 
 
 
 

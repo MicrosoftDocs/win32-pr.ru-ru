@@ -75,7 +75,7 @@ Component 'Component4' has both per-user data and
 
 
 
-| Файл  | Компонент\_ |
+| File  | Компонент\_ |
 |-------|-------------|
 | Файл а | Component1  |
 | филеб | Component2  |

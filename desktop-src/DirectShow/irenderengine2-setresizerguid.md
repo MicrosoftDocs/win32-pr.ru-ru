@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 864053c2c5def6ef1b23ca2c2ee712664e132079
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e650a250333ac784e599d0bce820ef390a937f49bff2371b1b7a52b18d9d0ad6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117818539"
 ---
 # <a name="irenderengine2setresizerguid-method"></a>Метод IRenderEngine2:: Сетресизергуид
 
@@ -28,7 +28,7 @@ ms.locfileid: "105679842"
 
  
 
-`SetResizerGUID`Метод задает идентификатор CLSID пользовательского фильтра изменения размера видео. Вызовите этот метод, чтобы заменить применяемый по умолчанию фильтр изменения размера, используемый службами редактирования DirectShow. Фильтр должен быть зарегистрирован в системе пользователя как COM-объект и должен поддерживать интерфейс [**иресизе**](iresize.md) .
+`SetResizerGUID`Метод задает идентификатор CLSID пользовательского фильтра изменения размера видео. вызовите этот метод, чтобы заменить применяемый по умолчанию фильтр изменения размера, используемый службами DirectShow редактирования. Фильтр должен быть зарегистрирован в системе пользователя как COM-объект и должен поддерживать интерфейс [**иресизе**](iresize.md) .
 
 Вызовите этот метод перед вызовом [**ирендеренгине:: коннектфронтенд**](irenderengine-connectfrontend.md).
 
@@ -58,7 +58,7 @@ HRESULT SetResizerGUID(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы вернуться к измененному по умолчанию размеру DES, используйте следующий идентификатор CLSID:
 
@@ -77,7 +77,7 @@ DEFINE_GUID(CLSID_Resize,
  
 
 > [!Note]  
-> Чтобы получить Кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (SP1).
+> чтобы получить кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (sp1).
 
  
 

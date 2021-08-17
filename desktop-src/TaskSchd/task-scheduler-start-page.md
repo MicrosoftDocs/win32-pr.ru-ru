@@ -9,17 +9,17 @@ keywords:
 - Планировщик задач, страница портала
 ms.topic: article
 ms.date: 10/18/2019
-ms.openlocfilehash: dfbfb76145e38003e7c501b98c817f4aaca3ff09
-ms.sourcegitcommit: 087843ef08ddcd8bce9ed647b610035925da2b3e
+ms.openlocfilehash: 05edababae87c760f5506d8a40d18ef8dcc59ab35fa78b692cc76b5ad3b46579
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/19/2019
-ms.locfileid: "104133058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118357747"
 ---
 # <a name="task-scheduler-for-developers"></a>планировщик задач для разработчиков
 
 > [!IMPORTANT]
-> Этот раздел и другие подразделы этого раздела предназначены для аудитории разработчика. Если вы хотите использовать компонент планировщик задач в вашей емкости в качестве администратора или специалиста по ИТ, см. [планировщик задач](/dynamics365/business-central/dev-itpro/developer/devenv-task-scheduler).
+> Этот раздел и другие подразделы этого раздела предназначены для аудитории разработчика. если вы хотите использовать компонент планировщик задач в качестве администратора или ит Professional, см. [планировщик задач](/dynamics365/business-central/dev-itpro/developer/devenv-task-scheduler).
 
 ## <a name="about-the-task-scheduler"></a>Сведения о планировщик задач
 
@@ -39,7 +39,7 @@ ms.locfileid: "104133058"
 - При входе пользователя в систему.
 - При изменении состояния сеанса сервера терминалов.
 
-## <a name="developers"></a>Разработчики
+## <a name="developers"></a>Разработчикам
 
 Планировщик задач предоставляет интерфейсы API в этих формах.
 
@@ -50,8 +50,8 @@ ms.locfileid: "104133058"
 
 Для планировщик задач требуются следующие операционные системы.
 
-- Планировщик задач 2,0: для клиента требуется Windows Vista или более поздней версии. Для сервера требуется Windows Server 2008 или более поздней версии.
-- Планировщик задач 1,0: для клиента требуется Windows Vista или Windows XP. Для сервера требуется Windows Server 2008 или Windows Server 2003.
+- планировщик задач 2,0: для клиента требуется Windows Vista или более поздней версии. для сервера требуется Windows server 2008 или более поздней версии.
+- планировщик задач 1,0: для клиента требуется Windows Vista или Windows XP. для сервера требуется Windows server 2008 или Windows server 2003.
 
 ## <a name="in-this-section"></a>В этом разделе
 

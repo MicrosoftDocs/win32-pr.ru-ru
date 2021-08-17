@@ -4,12 +4,12 @@ ms.assetid: f0ca9e41-a9f7-435f-a601-f0959adcb514
 title: Использование перехватчиков
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d65d457b4549601aa89c3dae5b6e05c1fe0afed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 34539855a30a67964acfe671c29de3cacdf23314cbb51bb80027d4b388e47b5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103912612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117849634"
 ---
 # <a name="using-hooks"></a>Использование перехватчиков
 

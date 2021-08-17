@@ -41,7 +41,7 @@ Certificate.SerialNumber As String
 
 Строка, содержащая серийный номер сертификата.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

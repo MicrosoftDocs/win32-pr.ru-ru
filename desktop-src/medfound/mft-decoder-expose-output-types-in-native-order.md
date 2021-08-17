@@ -4,12 +4,12 @@ ms.assetid: 8505CFA1-210A-4DA8-B92A-FCE62F0310E5
 title: Атрибут MFT_DECODER_EXPOSE_OUTPUT_TYPES_IN_NATIVE_ORDER (Мфтрансформ. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 01ecf074fa0767552a48e3238374dbd02f077404
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 46b91492054215aee5a63dbcf0adf300d74933a0859a2d71256e7e4352deba9e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103812610"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117872343"
 ---
 # <a name="mft_decoder_expose_output_types_in_native_order-attribute"></a>\_Декодер MFT \_ предоставляют \_ выходные \_ типы \_ в \_ \_ атрибуте собственного порядка
 
@@ -19,7 +19,7 @@ ms.locfileid: "103812610"
 
 **UINT32**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут является указанием для декодера, чтобы упорядочить список типов вывода в определенном порядке, в зависимости от предполагаемого использования: воспроизведение или перекодировать.
 
@@ -43,9 +43,9 @@ ms.locfileid: "103812610"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8 \|\]<br/>                                        |
+| Минимальная версия клиента<br/> | Windows 8 \[ приложения UWP для классических приложений \|\]<br/>                                        |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                |
-| Header<br/>                   | <dl> <dt>Мфтрансформ. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Мфтрансформ. h</dt> </dl> |
 
 
 

@@ -49,7 +49,7 @@ ms.locfileid: "117758505"
 
 Сведения о разработке сценариев см. в разделе [**NetworkSettings.Name**](networksettings-name.md).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

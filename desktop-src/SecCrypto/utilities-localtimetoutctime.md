@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 2691e3306a84ce4eff3d73df4b070ba4b65671f9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 03efb6cdfbea712f2fbca194073b89bcee66975481c1a7c0fdc2d7bd385eb652
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117971025"
 ---
 # <a name="utilitieslocaltimetoutctime-method"></a>Метод Utilities. Локалтиметаутктиме
 
@@ -52,7 +52,7 @@ Utilities.LocalTimeToUTCTime( _
 
 Время в формате UTC, соответствующее указанному местному времени.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Несмотря на то, что система использует координированное всемирное время, приложения обычно отображают местное время, которое представляет собой дату и время суток для местного часового пояса компьютера.
 

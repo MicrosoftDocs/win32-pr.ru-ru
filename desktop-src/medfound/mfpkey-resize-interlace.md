@@ -4,12 +4,12 @@ ms.assetid: 01ee0766-06ed-4255-9057-2fe033a772cd
 title: Свойство MFPKEY_RESIZE_INTERLACE (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 45d0efe93901a08322a05dbed2515f76b04a214b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 4c614865d0c8a49238b9c8d6f7714787bb22aaadaa317a8a3a0405a7f51c87be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108092882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117873038"
 ---
 # <a name="mfpkey_resize_interlace-property"></a>МФПКЭЙ \_ \_ Свойства развертки изменения размера
 
@@ -23,7 +23,7 @@ ms.locfileid: "108092882"
 
 Логическое значение VT \_
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [DSP изменения видеоконтроллеров](videoresizer.md)
 
@@ -50,13 +50,13 @@ ms.locfileid: "108092882"
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
-| Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
+| Заголовок<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

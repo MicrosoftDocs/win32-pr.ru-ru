@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - waasapitypes.h
-ms.openlocfilehash: 790077118db7704bdd04801758f44cbb50cc54b4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f4ece78c9593ab674a4198829c4e75612a9c4b337e17b3d2b6c5ed2fc19f42c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662540"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118884310"
 ---
 # <a name="updateassessmentstatus-enumeration"></a>Перечисление Упдатеассессментстатус
 
@@ -53,7 +53,7 @@ typedef enum TagUpdateAssessmentStatus {
 <span id="____UpdateAssessmentStatus_Latest"></span><span id="____updateassessmentstatus_latest"></span><span id="____UPDATEASSESSMENTSTATUS_LATEST"></span>**Упдатеассессментстатус \_ Последняя версия**
 </dt> <dd>
 
-Этот результат в **ассессментфоркуррент** означает, что устройство находится в последней версии обновления компонентов и качества, доступном для этого устройства. В **ассессментфоруптодате** этот результат означает, что устройство находится в последнем обновлении для выпуска Windows, на котором он работает.
+Этот результат в **ассессментфоркуррент** означает, что устройство находится в последней версии обновления компонентов и качества, доступном для этого устройства. В **ассессментфоруптодате** этот результат означает, что устройство находится в последнем обновлении для выпуска Windows он работает.
 
 </dd> <dt>
 
@@ -93,14 +93,14 @@ typedef enum TagUpdateAssessmentStatus {
 <span id="____UpdateAssessmentStatus_NotLatestDeferredFeature"></span><span id="____updateassessmentstatus_notlatestdeferredfeature"></span><span id="____UPDATEASSESSMENTSTATUS_NOTLATESTDEFERREDFEATURE"></span>**Упдатеассессментстатус \_ Нотлатестдеферредфеатуре**
 </dt> <dd>
 
-Последнее обновление компонента не было установлено из-за политики отсрочки для обновления бизнес-компонентов на устройстве Центр обновления Windows. При определении **дайсаутофдате** учитываются политики отсрочки. **дайсаутофдате** не начнет увеличиваться до тех пор, пока не истечет период отсрочки. Это состояние применяется только к **ассессментфоркуррент**.
+последнее обновление компонента не было установлено из-за политики отсрочки для обновления бизнес-компонентов на устройстве Центр обновления Windows. При определении **дайсаутофдате** учитываются политики отсрочки. **дайсаутофдате** не начнет увеличиваться до тех пор, пока не истечет период отсрочки. Это состояние применяется только к **ассессментфоркуррент**.
 
 </dd> <dt>
 
 <span id="____UpdateAssessmentStatus_NotLatestDeferredQuality"></span><span id="____updateassessmentstatus_notlatestdeferredquality"></span><span id="____UPDATEASSESSMENTSTATUS_NOTLATESTDEFERREDQUALITY"></span>**Упдатеассессментстатус \_ Нотлатестдеферредкуалити**
 </dt> <dd>
 
-Это устройство не включено в Последнее обновление, так как для политики отсрочки обновления качества бизнеса на устройстве Центр обновления Windows. При определении **дайсаутофдате** учитываются политики отсрочки. **дайсаутофдате** не начнет увеличиваться до тех пор, пока не истечет период отсрочки.
+это устройство не включено в последнее обновление, так как для политики отсрочки обновления качества бизнеса на устройстве Центр обновления Windows. При определении **дайсаутофдате** учитываются политики отсрочки. **дайсаутофдате** не начнет увеличиваться до тех пор, пока не истечет период отсрочки.
 
 </dd> <dt>
 
@@ -121,7 +121,7 @@ typedef enum TagUpdateAssessmentStatus {
 <span id="____UpdateAssessmentStatus_NotLatestManaged"></span><span id="____updateassessmentstatus_notlatestmanaged"></span><span id="____UPDATEASSESSMENTSTATUS_NOTLATESTMANAGED"></span>**Упдатеассессментстатус \_ Нотлатестманажед**
 </dt> <dd>
 
-Устройство не находится в последнем обновлении, так как утверждение обновлений не выполняется с помощью Центр обновления Windows.
+устройство не находится в последнем обновлении, так как утверждение обновлений не выполняется с помощью Центр обновления Windows.
 
 </dd> <dt>
 
@@ -135,11 +135,11 @@ typedef enum TagUpdateAssessmentStatus {
 <span id="____UpdateAssessmentStatus_NotLatestTargetedVersion"></span><span id="____updateassessmentstatus_notlatesttargetedversion"></span><span id="____UPDATEASSESSMENTSTATUS_NOTLATESTTARGETEDVERSION"></span>**Упдатеассессментстатус \_ Нотлатесттаржетедверсион**
 </dt> <dd>
 
-Устройство не находится в последнем обновлении компонентов из-за политики Центр обновления Windows на устройстве для целевой версии. Эта политика позволяет сохранить устройство в целевой версии выпуска.
+устройство не находится в последнем обновлении компонентов из-за политики Центр обновления Windows на устройстве для целевой версии. Эта политика позволяет сохранить устройство в целевой версии выпуска.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это перечисление чаще всего используется с структурами [**UpdateAssessment**](/windows/win32/api/waasapitypes/ns-waasapitypes-updateassessment) и [**осупдатеассессмент**](/windows/win32/api/waasapitypes/ns-waasapitypes-osupdateassessment) , которые, в свою очередь, используются с методом [**жетосупдатеассессмент**](/windows/desktop/api/waasapi/nf-waasapi-iwaasassessor-getosupdateassessment) для [**иваасассессор**](/windows/desktop/api/waasapi/nn-waasapi-iwaasassessor).
 
@@ -149,8 +149,8 @@ typedef enum TagUpdateAssessmentStatus {
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только для настольных приложений Windows 10 версии 1703\]<br/>                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2016\]<br/>                                   |
+| Минимальная версия клиента<br/> | Windows 10, только для \[ настольных приложений версии 1703\]<br/>                              |
+| Минимальная версия сервера<br/> | Windows Server 2016 \[ только классические приложения\]<br/>                                   |
 | IDL<br/>                      | <dl> <dt>Ваасапи. idl</dt> </dl> |
 
 

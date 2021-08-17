@@ -1,6 +1,6 @@
 ---
 title: Использование предопределенных фигур
-description: В этой статье описывается использование предопределенных фигур в VML, что является устаревшим компонентом Windows Internet Explorer 9.
+description: в этой статье описывается использование предопределенных фигур в VML, а также функция, которая не является устаревшей по отношению к Windows Internet Explorer 9.
 ms.assetid: 9a2e8b5a-b1d0-4a73-b058-24dac1f0b655
 keywords:
 - Веб-семинар, стандартные фигуры
@@ -42,19 +42,19 @@ keywords:
 - Элементы VML, дуга
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b410cf288a3ba63e4c1d745fd962a445b0b220b8
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: c1f389a3a2670bd487799063df6bfcec59f28945ed09cad119fccd88e40f01b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117753915"
 ---
 # <a name="using-predefined-shapes"></a>Использование предопределенных фигур
 
-В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+в этом разделе описывается функция VML, которая является устаревшей по отношению к Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
 
 > [!Note]  
-> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
+> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). сведения, рекомендации и рекомендации относительно текущей версии Windows Internet explorer см. в [центре разработчиков internet explorer](https://msdn.microsoft.com/ie/).
 
  
 
@@ -67,7 +67,7 @@ ms.locfileid: "112407687"
 -   [line](#polyline)
 -   [линию](#polyline)
 -   [кривая](#curve)
--   [дуга](#arc)
+-   [дуги](#arc)
 -   [Сводка](#summary)
 
 ## <a name="rect"></a>rect
@@ -247,7 +247,7 @@ strokecolor="red" strokeweight="2pt"/>
 
 [![назад ](images/top.gif) к началу](#top)
 
-## <a name="summary"></a>Итоги
+## <a name="summary"></a>Сводка
 
 Вы можете использовать предварительно определенные элементы VML, такие как `<oval>` , `<line>` , `<polyline>` ,, `<curve>` `<rect>` , `<roundrect>` и, `<arc>` чтобы легко рисовать графические данные на веб-странице, а затем настраивать эти изображения, просто изменяя их атрибуты свойств.
 

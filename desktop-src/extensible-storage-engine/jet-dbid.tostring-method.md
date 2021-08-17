@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 97fb6b251ca369adcdd55e6b5ead4d36624b6d6e
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: 8051840b178d70e204c7a6f88cc575b7e1ab7b18301ba7900073d001dcb15d70
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106389152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118486374"
 ---
 # <a name="jet_dbidtostring-method-overload-list"></a>JET_DBID. Метод ToString, список перегрузок
 
@@ -32,7 +32,7 @@ ms.locfileid: "106389152"
 <thead>
 <tr class="header">
 <th> </th>
-<th>name</th>
+<th>Имя</th>
 <th>Описание</th>
 </tr>
 </thead>
@@ -53,7 +53,7 @@ ms.locfileid: "106389152"
 
 Начало
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 #### <a name="reference"></a>Справочник
 

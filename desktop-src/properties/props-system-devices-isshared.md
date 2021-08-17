@@ -4,12 +4,12 @@ ms.assetid: d1da0747-ad07-49e5-8082-5f39bf0a84d8
 title: System. Devices. для совместного использования
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f41cf4f6ad2988a21e30c0c67101b2582699704
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4f305381d43eb0d5f4305d2a838561883182a3855d63fcc23b97a128a5c0def
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104350385"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118467526"
 ---
 # <a name="systemdevicesisshared"></a>System. Devices. для совместного использования
 
@@ -71,11 +71,11 @@ propertyDescription
             defineToken = ISSHAREDDEVICE_NOTSHARED
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

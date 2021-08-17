@@ -15,16 +15,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 56badfb6149e416c71b447aca93564b5eb5aba7a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0367e02dd8b0a46304538a2e5830e101eb9573e6548383fbae617a856df83621
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117790752"
 ---
 # <a name="ipx_specific_data-structure"></a>\_Структура данных, характерная для IPX \_
 
-\[Этот API был заменен API [диспетчера таблиц маршрутизации версии 2](about-routing-table-manager-version-2.md) и не будет доступен за пределами Windows Server 2003. Приложения должны использовать API диспетчера таблиц маршрутизации версии 2.\]
+\[этот api был заменен api [диспетчера таблиц маршрутизации версии 2](about-routing-table-manager-version-2.md) и не будет доступен за пределами Windows Server 2003. Приложения должны использовать API диспетчера таблиц маршрутизации версии 2.\]
 
 Структура **\_ \_ данных, относящаяся к IPX** , содержит данные, относящиеся к IPX.
 
@@ -85,7 +85,7 @@ typedef struct _IPX_SPECIFIC_DATA {
 | Минимальная версия клиента<br/> | Ни одна версия не поддерживается<br/>                                                        |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                             |
 | Поддержка конца сервера<br/>    | Windows Server 2003<br/>                                                   |
-| Header<br/>                   | <dl> <dt>RTM. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>RTM. h</dt> </dl> |
 
 
 

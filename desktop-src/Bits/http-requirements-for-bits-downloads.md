@@ -4,12 +4,12 @@ description: Служба BITS поддерживает загрузку и за
 ms.assetid: 35af422b-62e4-41fd-8890-579ccf016c83
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d130ab3e527b62f34f48e6df4695bf75f63dcd2d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cd9bd997bb5ef7f2125cfe7c3dc6850c0f44e81a8c3138f7f130952e31202a1c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104486645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118010879"
 ---
 # <a name="http-requirements-for-bits-downloads"></a>Требования к протоколу HTTP для загрузки BITS
 
@@ -22,9 +22,9 @@ BITS может использовать сервер HTTP/1.0, если он с
 -   Разрешает заголовкам MIME включать заголовки стандартного содержимого и типа содержимого, а также не более 180 байт других заголовков.
 -   Разрешить не более двух символов CR/LFs между заголовками HTTP и первой строкой границы.
 
- 
+ 
 
- 
+ 
 
 
 

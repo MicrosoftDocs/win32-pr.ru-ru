@@ -3,7 +3,7 @@ title: Сообщение ICM_DRAW_CHANGEPALETTE (VFW. h)
 description: Сообщение ICM \_ Draw \_ чанжепалетте уведомляет драйвер подготовки к просмотру, что изменяется палитра роликов. Это сообщение можно отправить явно или с помощью макроса Икдравчанжепалетте.
 ms.assetid: 974fc0d8-d0c7-4a82-af84-68b53f753259
 keywords:
-- ICM_DRAW_CHANGEPALETTE сообщения Windows мультимедиа
+- сообщение ICM_DRAW_CHANGEPALETTE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6364abb2c535158b2e64ff311041b00490c5958c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e936c7dce397910ef70a80e2efa7f3e031ab8a61b8f59fece158d5c28e9e1270
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117987600"
 ---
 # <a name="icm_draw_changepalette-message"></a>\_Сообщение ICM Draw \_ чанжепалетте
 
@@ -49,7 +49,7 @@ lParam = 0;
 
 Возвращает ИЦЕРР \_ ОК в случае успеха или **false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это сообщение должно поддерживаться с помощью устанавливаемых обработчиков отрисовки, которые рисуют DIB с внутренней структурой, содержащей палитру.
 

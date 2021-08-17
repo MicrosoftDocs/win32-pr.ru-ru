@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a088a1be640c6653a8a8ccd8b00cf21bd027ecd7
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 5daa2b33fdc356782837aadfe37186bc4cc2b493208fdc78ba645ada9e746582
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105703591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117884854"
 ---
 # <a name="ienumprogressitemsremotenext-method"></a>Метод Иенумпрогресситемс:: Ремотенекст
 
@@ -84,7 +84,7 @@ HRESULT RemoteNext(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если в последовательности осталось меньше запрошенного числа элементов, то он извлекает оставшиеся элементы.
 
@@ -95,7 +95,7 @@ HRESULT RemoteNext(
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista, Windows XP с пакетом обновления 2 (SP2), \[ только классические приложения\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
 | IDL<br/>                      | <dl> <dt>Imapi2fs. idl</dt> </dl> |
 
 

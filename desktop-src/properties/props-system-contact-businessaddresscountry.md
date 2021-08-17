@@ -4,12 +4,12 @@ ms.assetid: 6893d687-29ee-4f24-8f3f-13222a035686
 title: System. Contact. Бусинессаддресскаунтри
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f24a6e22de54de534e43a54bc45071dd71eb1c7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0fd81b9f8145f3def80487c4437f62af8bced0b24a025fbc7b38a139b1b3aed0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104264574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118468409"
 ---
 # <a name="systemcontactbusinessaddresscountry"></a>System. Contact. Бусинессаддресскаунтри
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

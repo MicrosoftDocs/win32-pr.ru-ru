@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msident.dll
-ms.openlocfilehash: eb4e5ad5bda349a5b1650b090abc44a9fd1e6332
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a077f3e6a65a04e4c018198dde39b80c5a6e5acbee282c9e2cc282642526894b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104539482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117678158"
 ---
 # <a name="iuseridentitymanagergetidentitybycookie-method"></a>Метод Иусеридентитиманажер:: Жетидентитибикукие
 
@@ -45,9 +45,9 @@ HRESULT GetIdentityByCookie(
 *уидкукие* \[ окне\]
 </dt> <dd>
 
-Тип: **GUID \** _
+Тип: **GUID \***
 
-Адрес значения _ *GUID**, представляющего файл cookie для удостоверения, которое необходимо получить.
+Адрес значения **GUID** , представляющего файл cookie для удостоверения, которое необходимо получить.
 
 </dd> <dt>
 
@@ -87,7 +87,7 @@ HRESULT GetIdentityByCookie(
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                   |
 | Окончание поддержки клиента<br/>    | Windows 2000 Professional<br/>                                                   |
 | Поддержка конца сервера<br/>    | Windows 2000 Server<br/>                                                         |
-| Header<br/>                   | <dl> <dt>Мсидент. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Мсидент. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Мсидент. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Msident.dll</dt> </dl> |
 

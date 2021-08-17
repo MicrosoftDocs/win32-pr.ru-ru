@@ -4,12 +4,12 @@ ms.assetid: 12dcb2d1-614b-4c4c-a47c-342f79b20a62
 title: Общие сведения о завершении резервного копирования
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d9268bd8fd4ec51be2ee7a891d4dffb3a5cb1b9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 52fd57822a62cf3fa39cee2b17d79ae2545afa07bd722d26cacda68cba3b6695
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117937972"
 ---
 # <a name="overview-of-backup-termination"></a>Общие сведения о завершении резервного копирования
 

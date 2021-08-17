@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 250e3cc2704744b1b94a1dc8f8d873fc2580cc2a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ebebc5838947f705002c79d7f4fc01606139516fb243f5ae25256adc9ac97738
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118882140"
 ---
 # <a name="systemmonitorlogsourcestoptime-property"></a>Системмонитор. Логсаурцестоптиме, свойство
 
@@ -46,8 +46,8 @@ Property LogSourceStopTime As Date
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Сисмон. ocx</dt> </dl> |
 
 

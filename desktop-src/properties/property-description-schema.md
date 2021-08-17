@@ -1,19 +1,19 @@
 ---
-description: В этом разделе описываются схемы, используемые системой свойств Windows.
+description: в этом разделе описываются схемы, используемые системой свойств Windows.
 ms.assetid: 5f182207-b537-4866-916a-1e1563d796b6
 title: Схема описания свойства
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95f58aeda5c8ed001530a71adcaaf7171f31ffce
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2af19617375389f0c2b258f3b478e5631eddf1d488abbb473967e5d2be1b4c90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103812551"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117867433"
 ---
 # <a name="property-description-schema"></a>Схема описания свойства
 
-В этом разделе описываются схемы, используемые системой свойств Windows.
+в этом разделе описываются схемы, используемые системой свойств Windows.
 
 
 
@@ -25,7 +25,7 @@ ms.locfileid: "103812551"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,16 +4,16 @@ ms.assetid: b86df804-f8d3-4267-9ee9-0a539068cfb2
 description: Дополнительные сведения см. в статье интерфейсы управления транспортом WDS.
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f1cb6148994962b451b443ba6a7b80430f93ef7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9b8874d762691cc83d4bac445e75e5fd477ad330e46fddf97533ea4c13f51cb4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103910599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117745500"
 ---
 # <a name="wds-transport-management-interfaces"></a>Интерфейсы управления транспортом WDS
 
-Служба управления транспортом служб развертывания Windows (WDS) использует следующие интерфейсы:
+Windows Служба управления транспортом служб развертывания (WDS) использует следующие интерфейсы:
 
 -   [**ивдстранспорткачеабле**](/windows/desktop/api/Wdstptmgmt/nn-wdstptmgmt-iwdstransportcacheable)
 -   [**ивдстранспортклиент**](/windows/desktop/api/Wdstptmgmt/nn-wdstptmgmt-iwdstransportclient)
@@ -35,7 +35,7 @@ ms.locfileid: "103910599"
 -   [**ивдстранспортсессион**](/windows/desktop/api/Wdstptmgmt/nn-wdstptmgmt-iwdstransportsession)
 -   [**ивдстранспортсетупманажер**](/windows/desktop/api/Wdstptmgmt/nn-wdstptmgmt-iwdstransportsetupmanager)
 
-Доступны следующие возможности, начиная с Windows 8 и Windows Server 2012.
+доступны следующие возможности, начиная с Windows 8 и Windows Server 2012.
 
 -   [**ивдстранспортконтентпровидер**](/windows/desktop/api/Wdstptmgmt/nn-wdstptmgmt-iwdstransportcontentprovider)
 -   [**IWdsTransportServer2**](/windows/desktop/api/Wdstptmgmt/nn-wdstptmgmt-iwdstransportserver2)

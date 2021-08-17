@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 451078a6167ff7ca89ad4153c416826af8ac6d05
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 532a41bb9e39f844b3a485fc236ae8d03450d45cdcb45d92c8cfa94d9af4a4bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118403413"
 ---
 # <a name="cbaserenderergetstate-method"></a>Кбасерендерер. метод State
 
@@ -73,7 +73,7 @@ HRESULT GetState(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод переопределяет метод [**кбасефилтер::**](cbasefilter-getstate.md) WebMethod. Когда модуль подготовки отчетов приостанавливается, он не завершает переход состояния до тех пор, пока не будет получен пример для отображения. Если время ожидания истекает до завершения перехода состояния, метод возвращает в качестве \_ \_ промежуточного состояния VFW S \_ .
 
@@ -83,7 +83,7 @@ HRESULT GetState(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ренбасе. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>ренбасе. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

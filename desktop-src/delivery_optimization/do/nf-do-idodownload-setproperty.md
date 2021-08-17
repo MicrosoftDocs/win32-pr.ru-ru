@@ -53,7 +53,7 @@ HRESULT SetProperty(
 |DO_E_UNKNOWN_PROPERTY_ID|*propId* неизвестен.|
 |DO_E_INVALID_STATE|Скачивание сейчас не находится в состоянии, допускающем установку свойств.|
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 | &nbsp; | &nbsp; |
 | ---- |:---- |

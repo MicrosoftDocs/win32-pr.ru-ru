@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 16cee42f76a1fc448698ce7245e688279d8624a5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 17c4a26028219ebf4c1e3a8024493432c30e4c550c5d5e087ddf21a864d5ad27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104411423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118882987"
 ---
 # <a name="systemmonitor-properties"></a>Свойства Системмонитор
 
@@ -25,13 +25,13 @@ ms.locfileid: "104411423"
 -   [**баккколорктл**](systemmonitor-backcolorctl.md)
 -   [**BorderStyle**](systemmonitor-borderstyle.md)
 -   [**чартскролл**](systemmonitor-chartscroll.md)
--   [**Счетчики**](systemmonitor-counters.md)
+-   [**Counters**](systemmonitor-counters.md)
 -   [**датапоинткаунт**](systemmonitor-datapointcount.md)
 -   [**DataSourceType**](systemmonitor-datasourcetype.md)
 -   [**дисплайтипе**](systemmonitor-displaytype.md)
 -   [**енабледигитграупинг**](systemmonitor-enabledigitgrouping.md)
 -   [**енаблетултипс**](systemmonitor-enabletooltips.md)
--   [**Шрифт**](systemmonitor-font.md)
+-   [**Шрифтов**](systemmonitor-font.md)
 -   [**ForeColor**](systemmonitor-forecolor.md)
 -   [**графтитле**](systemmonitor-graphtitle.md)
 -   [**гридколор**](systemmonitor-gridcolor.md)
@@ -61,9 +61,9 @@ ms.locfileid: "104411423"
 -   [**UpdateInterval**](systemmonitor-updateinterval.md)
 -   [**яксислабел**](systemmonitor-yaxislabel.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 0aa5dbaeeebe2daaf925b5d5f3aa82b36053fc39
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c5ce8f906628df06ef506a0f57c33db4bed7c5980bb78ab2e0094d0443b5646b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117773668"
 ---
 # <a name="algorithmkeylength-property"></a>Свойство Algorithm. KeyLength
 
@@ -56,7 +56,7 @@ Algorithm.KeyLength As CAPICOM_ENCRYPTION_KEY_LENGTH
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При использовании алгоритмов шифрования DES и 3DES Длина ключей составляет Standard, а свойство **keylength** игнорируется.
 

@@ -1,15 +1,15 @@
 ---
-description: Разработчики установщик Windowsных пакетов могут использовать настраиваемое действие типа 18, если стандартные действия недостаточны для выполнения установки.
+description: разработчики установщик Windowsных пакетов могут использовать настраиваемое действие типа 18, если стандартные действия недостаточны для выполнения установки.
 ms.assetid: 8a7311a6-41c6-431e-982d-60bacf06454e
 title: Тип настраиваемого действия 18
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48a669fe3caa532b3a365f1056ca2b36f490ab95
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5b3befbb614e9ee78961cf5b8ef969bdb3d6e7b6c0cb713a267cab3d09b4588d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118379280"
 ---
 # <a name="custom-action-type-18"></a>Тип настраиваемого действия 18
 
@@ -33,7 +33,7 @@ ms.locfileid: "103999472"
 
  
 
-## <a name="target"></a>Целевой объект
+## <a name="target"></a>Target
 
 Целевой столбец [таблицы CustomAction](customaction-table.md) содержит строку командной строки для исполняемого файла, указанного в исходном столбце.
 
@@ -53,7 +53,7 @@ ms.locfileid: "103999472"
 
 Настраиваемые действия, являющиеся [исполняемыми файлами](executable-files.md) , должны возвращать значение 0 для успешного выполнения. Установщик интерпретирует любое другое возвращаемое значение как сбой. Чтобы игнорировать возвращаемые значения, установите флаг битов **мсидбкустомактионтипеконтинуе** в поле Тип таблицы CustomAction.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Пользовательское действие, запускающее исполняемый файл, принимает командную строку, которая обычно содержит свойства, которые определены динамически. Если это также [Отложенное настраиваемое действие выполнения](deferred-execution-custom-actions.md), установщик использует [**параметр CreateProcessAsUser**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera) или [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) для создания процесса при вызове настраиваемого действия из скрипта установки.
 
@@ -63,7 +63,7 @@ ms.locfileid: "103999472"
 -   Если исходный файл еще не установлен на компьютере, отложенные (в скрипте) настраиваемые действия этого типа должны быть упорядочены после [действия инсталлфилес](installfiles-action.md).
 -   Если исходный файл еще не установлен на компьютере, неотложенные настраиваемые действия этого типа должны быть упорядочены после [действия функции InstallFinalize](installfinalize-action.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

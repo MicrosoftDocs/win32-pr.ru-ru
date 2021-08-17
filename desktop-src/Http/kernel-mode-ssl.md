@@ -6,25 +6,25 @@ keywords:
 - Режим ядра SSL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 737ac7c6c25bac6e7b66d91aa967fc6fa550459b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3c9dcfeb87b1a98539d7bd6a3b8b82dcfd5ee41fc9ad4c4c306f4c399aebd18a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105661639"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118393922"
 ---
 # <a name="kernel-mode-ssl"></a>Режим ядра SSL
 
-Режим ядра SSL появился в Windows Server 2003 с пакетом обновления 1 (SP1) с ограниченной поддержкой. Для компьютеров под управлением Windows Server 2003 с пакетом обновления 1 (SP1) необходимо установить раздел реестра, чтобы включить SSL ядра. Для компьютеров под управлением Windows Server 2008 и Windows Vista предоставляется полная поддержка режима ядра SSL.
+режим ядра SSL появился в Windows Server 2003 с пакетом обновления 1 (SP1) с ограниченной поддержкой. для компьютеров, работающих на Windows Server 2003 с пакетом обновления 1 (SP1), необходимо установить раздел реестра, чтобы включить SSL ядра. для компьютеров, работающих на Windows Server 2008 и Windows Vista, предоставляется полная поддержка режима ядра SSL.
 
 В следующих разделах описывается поддержка SSL в режиме ядра:
 
--   Режимы ядра SSL в Windows Server 2003 с пакетом обновления 1 (SP1)
--   Режим ядра SSL в Windows Server 2008 и Windows Vista
+-   режим ядра SSL в Windows Server 2003 с пакетом обновления 1 (SP1)
+-   режим ядра SSL в Windows Server 2008 и Windows Vista
 
-## <a name="kernel-modes-ssl-in-windows-server-2003-with-sp1"></a>Режимы ядра SSL в Windows Server 2003 с пакетом обновления 1 (SP1)
+## <a name="kernel-modes-ssl-in-windows-server-2003-with-sp1"></a>режим ядра SSL в Windows Server 2003 с пакетом обновления 1 (SP1)
 
-В Windows Server 2003 с пакетом обновления 1 (SP1) API HTTP-сервера предоставляет возможность запуска безопасности SSL в режиме ядра (по умолчанию используется SSL в пользовательском режиме). Режим ядра повышает производительность SSL за счет перемещения операций шифрования и расшифровки в ядро, уменьшая число переходов между режимом ядра и пользовательским режимом.
+в Windows server 2003 с пакетом обновления 1 (SP1) API HTTP-сервера предоставляет возможность запуска безопасности ssl в режиме ядра (по умолчанию используется ssl в пользовательском режиме). Режим ядра повышает производительность SSL за счет перемещения операций шифрования и расшифровки в ядро, уменьшая число переходов между режимом ядра и пользовательским режимом.
 
 Следующие функции не поддерживаются при запуске SSL в режиме ядра:
 
@@ -40,9 +40,9 @@ ms.locfileid: "105661639"
 
 **HKey \_ \_** Параметры HTTP для локальной \\ **системы** \\ **CurrentControlSet** \\ **Services** \\  \\  \\ **енаблекернелссл**
 
-## <a name="kernel-mode-ssl-in-windows-server-2008-and-windows-vista"></a>Режим ядра SSL в Windows Server 2008 и Windows Vista
+## <a name="kernel-mode-ssl-in-windows-server-2008-and-windows-vista"></a>режим ядра SSL в Windows Server 2008 и Windows Vista
 
-Для компьютеров, работающих под управлением Windows Server 2008 и Windows Vista, API сервера HTTP включает расширенные функции SSL.
+для компьютеров, работающих на Windows server 2008 и Windows Vista, API сервера HTTP включает расширенные функции SSL.
 
 Поддерживаются следующие новые возможности:
 

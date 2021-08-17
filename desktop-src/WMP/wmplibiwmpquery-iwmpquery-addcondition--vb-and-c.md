@@ -3,9 +3,9 @@ title: Ивмпкуери Аддкондитион, метод
 description: Метод Аддкондитион добавляет условие в составной запрос с помощью логики и.
 ms.assetid: 4594ee6f-b153-4d53-b3ee-cd1718a4d5dc
 keywords:
-- Аддкондитион метод Windows Media Player
-- Аддкондитион метод проигрывателя Windows Media Player, интерфейс Ивмпкуери
-- Интерфейс Ивмпкуери Windows Media Player, метод Аддкондитион
+- проигрыватель Windows Media метода аддкондитион
+- проигрыватель Windows Media метода аддкондитион, интерфейс ивмпкуери
+- проигрыватель Windows Media интерфейса ивмпкуери, метод аддкондитион
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9de3015ef0389fef82934cbd8e9326b6f9ec2307
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fe85999c60364827d483f81d14ff88602c9b2831c16e7cff8a3e17076b77671d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105718032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117745709"
 ---
 # <a name="iwmpqueryaddcondition-method"></a>Метод Ивмпкуери:: Аддкондитион
 
@@ -82,7 +82,7 @@ Implements IWMPQuery.addCondition
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Условия, содержащиеся в составном запросе, организованы в группы условий. Несколько условий в группе условий всегда объединяются с помощью логики **и** . Группы условий всегда объединяются друг с другом с помощью логики **или** . Чтобы запустить новую группу условий, вызовите метод [ивмпкуери. бегиннекстграуп](wmplibiwmpquery-iwmpquery-beginnextgroup--vb-and-c.md).
 
@@ -94,7 +94,7 @@ Implements IWMPQuery.addCondition
 
 
 
-| Строка              | Применяется к     |
+| Строковый тип              | Применяется к     |
 |---------------------|----------------|
 | BeginsWith          | Строки        |
 | Содержит            | Строки        |
@@ -171,7 +171,7 @@ Next i
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 11.<br/>                                                                                    |
+| Версия<br/>   | проигрыватель Windows Media 11.<br/>                                                                                    |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

@@ -84,7 +84,7 @@ HRESULT SetNotifyFlags(
 
 Используйте метод **сетнотифифлагс** в сочетании с [**использованием метода ibackgroundcopyjob:: сетнотифинтерфаце**](ibackgroundcopyjob-setnotifyinterface.md).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -1,6 +1,6 @@
 ---
 description: Добавляет строку в верхнюю часть списка недавно использовавшихся (MRU).
-title: Функция Аддмрустрингв
+title: Функция AddMRUStringW
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -14,16 +14,16 @@ api_type:
 api_location:
 - Comctl32.dll
 ms.assetid: ad94a442-8492-412c-a4f2-ac6e7c5327d7
-ms.openlocfilehash: b62e23cd0604273559e36e561970dd62f117c11d
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 4ac72c44b670466f10cd708b81b1a84f93a349afcb0d81473ed5e6578c20617a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841195"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117861596"
 ---
-# <a name="addmrustringw-function"></a>Функция Аддмрустрингв
+# <a name="addmrustringw-function"></a>Функция AddMRUStringW
 
-\[Эта функция доступна в Windows XP с пакетом обновления 2 (SP2) и Windows Server 2003. Он может быть изменен или недоступен в последующих версиях Windows. \]
+\[эта функция доступна в Windows XP с пакетом обновления 2 (sp2) и Windows Server 2003. Он может быть изменен или недоступен в последующих версиях Windows. \]
 
 Добавляет строку в верхнюю часть списка недавно использовавшихся (MRU).
 
@@ -71,7 +71,7 @@ int AddMRUStringW(
 
 Эта функция не включена в общедоступный заголовок или библиотеку. Доступ к нему можно получить с помощью [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) или извлечь из comctl32.dll по порядковому номеру, 401 для **аддмрустрингв**.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

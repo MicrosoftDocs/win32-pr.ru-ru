@@ -3,19 +3,19 @@ title: Свойства DRM
 description: Свойства DRM
 ms.assetid: 862fc8bc-6e40-4496-862a-c12c8a382116
 keywords:
-- Windows Media Format SDK, свойства DRM
+- Windows Пакет SDK для формата мультимедиа, свойства DRM
 - Расширенные системные форматы (ASF), свойства DRM
 - ASF (Расширенный системный формат), свойства DRM
 - Управление цифровыми правами (DRM), свойства
 - DRM (Управление цифровыми правами), свойства
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb8542d360c38ab3f12406462cefc0454e7eae33
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9d553d644a6f3ec7130262d0e8567a4aa6ceab53286b24248607b1928991f51d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117848270"
 ---
 # <a name="drm-properties"></a>Свойства DRM
 
@@ -58,18 +58,18 @@ ms.locfileid: "104068636"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Список атрибутов DRM**](drm-attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

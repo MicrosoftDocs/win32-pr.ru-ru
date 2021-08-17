@@ -4,16 +4,16 @@ ms.assetid: a1cb6e1e-0702-4f73-827e-3f9e9237b4b6
 title: Добавление сертификатов в хранилище сертификатов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6f4c018be697f48e40d52480f49694762fb956f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4e3c4b2fafbcd11bf2d984dfd5b5a575f67dc4f6d3c70337de399ca6076029ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104545671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117774039"
 ---
 # <a name="adding-certificates-to-a-certificate-store"></a>Добавление сертификатов в хранилище сертификатов
 
-\[CAPICOM — это 32-разрядный компонент, доступный для использования в следующих операционных системах: Windows Server 2008, Windows Vista, Windows XP. Вместо этого используйте платформа .NET Framework для реализации функций безопасности. Дополнительные сведения см. [в разделе альтернативы использованию элемента CAPICOM](alternatives-to-using-capicom.md).\]
+\[CAPICOM — это 32-разрядный компонент, доступный для использования в следующих операционных системах: Windows Server 2008, Windows Vista, Windows XP. вместо этого используйте платформа .NET Framework для реализации функций безопасности. Дополнительные сведения см. [в разделе альтернативы использованию элемента CAPICOM](alternatives-to-using-capicom.md).\]
 
 [*Сертификаты*](../secgloss/c-gly.md) можно добавлять или удалять из [*хранилищ сертификатов*](../secgloss/c-gly.md) , если хранилище открыто с разрешением на чтение и запись. Разрешения на чтение и запись не предоставлены Active Directory хранилищам. Хотя сертификаты могут быть добавлены или удалены из хранилищ памяти, изменения в хранилищах памяти не сохраняются между сеансами.
 

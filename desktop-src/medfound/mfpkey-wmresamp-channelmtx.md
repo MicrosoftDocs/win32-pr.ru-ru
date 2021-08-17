@@ -4,12 +4,12 @@ ms.assetid: 2f2a82bd-f051-4b05-a9c8-37aa4403fab4
 title: Свойство MFPKEY_WMRESAMP_CHANNELMTX (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e39f9a9344dd080362859592fcf1f71657ee8f7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a326cfe27632204f2975ac8b7c3a605c666464f8f62846a5c622a469f2f6e104
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117689258"
 ---
 # <a name="mfpkey_wmresamp_channelmtx-property"></a>МФПКЭЙ \_ вмресамп \_ Чаннелмткс, свойство
 
@@ -23,11 +23,11 @@ ms.locfileid: "105692797"
 
 VT \_ I4 \| , \_ массив VT
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [DSP по интерполяции аудио](audioresampler.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значение свойства является матрицей коэффициентов NS x ND, где NS — число исходных каналов, а ND — количество целевых каналов. Коэффициенты задаются в децибел с помощью следующей формулы:
 
@@ -56,9 +56,9 @@ int (65536 \* 20 \* LOG10 (DB))
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
-| Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
+| Заголовок<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 

@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - WinSpool.drv
-ms.openlocfilehash: 9ac4dd4b0db9a59cc0140872ff04f89adaf8b6c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 10b0b36333e51dfb5c831f6c74e00c6930ccbb9d1ce31646fed0d689abc7f639
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117686697"
 ---
 # <a name="getspoolfilehandle-function"></a>Функция Жетспулфилехандле
 
@@ -54,7 +54,7 @@ HANDLE GetSpoolFileHandle(
 
 Если функция завершается ошибкой, она возвращает **недопустимое \_ \_ значение Handle**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 С помощью обработчика для файла очереди приложение может выполнять запись в файл очереди с вызовами [**WriteFile**](/windows/desktop/api/fileapi/nf-fileapi-writefile) , за которым следует [**коммитспулдата**](commitspooldata.md).
 
@@ -68,9 +68,9 @@ HANDLE GetSpoolFileHandle(
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                      |
-| Header<br/>                   | <dl> <dt>Винспул. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                            |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                      |
+| Заголовок<br/>                   | <dl> <dt>винспул. h (включает Windows. h)</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Винспул. lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Винспул. drv</dt> </dl>                   |
 | Имя в кодировке Юникод и ANSI<br/>   | **Жетспулфилехандлев** (Юникод) и **жетспулфилехандлеа** (ANSI)<br/>                           |

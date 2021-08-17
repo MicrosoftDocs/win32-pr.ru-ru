@@ -3,7 +3,7 @@ title: Quality, команда
 description: Команда Quality определяет пользовательский уровень качества звука, видео или по-прежнему для сжатия данных изображения. Устройство Digital-Video распознает эту команду.
 ms.assetid: cc920ec9-362c-43db-808e-b9fb59d1df6d
 keywords:
-- Команда Quality Windows мультимедиа
+- команда quality Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2de9cc61d72db541b5f06d8903d7c9dcf153ce07
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f50f019b0e89f21d792f75c13e6c8e755486009d38d242878fec3121333fb9af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105661971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118372329"
 ---
 # <a name="quality-command"></a>Quality, команда
 
@@ -79,7 +79,7 @@ _stprintf_s(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта команда определяет строковое имя для уровня качества, которое затем можно использовать в команде [сетвидео](setvideo.md) "Quality", сетвидео "качество", или [сетаудио](setaudio.md) "качество", чтобы установить его как текущее видео, все еще или уровень качества сжатия звука.
 

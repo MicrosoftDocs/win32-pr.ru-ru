@@ -15,16 +15,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 16f910fdfe53221daf8227d9f3e594133548fee9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dbb7a135fd6f8d1d77b59d1085460d51ad5357e47ca1a050e3d1ba6fd89461c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105650386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117789388"
 ---
 # <a name="ras_server_0-structure"></a>\_Структура сервера RAS \_ 0
 
-\[Структура **RAS- \_ сервера \_ 0** не поддерживается в Windows Vista.\]
+\[структура **RAS- \_ сервера \_ 0** не поддерживается Windows Vista.\]
 
 Структура **\_ сервера RAS \_ 0** используется функцией [**расадминсервержетинфо**](rasadminservergetinfo.md) для получения сведений о портах, настроенных на сервере удаленного доступа.
 
@@ -69,8 +69,8 @@ typedef struct _RAS_SERVER_0 {
 | Значение                                                                                                                                                                  | Значение                                                                         |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
 | <span id="RASDOWNLEVEL"></span><span id="rasdownlevel"></span><dl> <dt>**расдовнлевел**</dt> </dl>              | Указывает сервер удаленного доступа LAN Manager версии 1,0.<br/>                      |
-| <span id="RASADMIN_35"></span><span id="rasadmin_35"></span><dl> <dt>**РАСАДМИН \_ 35**</dt> </dl>                | Указывает сервер или клиент RAS Windows NT 3,51 и более ранних версий.<br/> |
-| <span id="RASADMIN_CURRENT"></span><span id="rasadmin_current"></span><dl> <dt>**РАСАДМИН \_ текущий**</dt> </dl> | Указывает сервер или клиент RAS Windows NT 4,0.<br/>                     |
+| <span id="RASADMIN_35"></span><span id="rasadmin_35"></span><dl> <dt>**РАСАДМИН \_ 35**</dt> </dl>                | указывает сервер или клиент RAS Windows NT 3,51 и более ранних версий.<br/> |
+| <span id="RASADMIN_CURRENT"></span><span id="rasadmin_current"></span><dl> <dt>**РАСАДМИН \_ текущий**</dt> </dl> | указывает сервер или клиент RAS Windows NT 4,0.<br/>                     |
 
 
 
@@ -88,7 +88,7 @@ typedef struct _RAS_SERVER_0 {
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                 |
 | Окончание поддержки клиента<br/>    | Windows XP<br/>                                                                |
 | Поддержка конца сервера<br/>    | Windows Server 2003<br/>                                                       |
-| Header<br/>                   | <dl> <dt>Рассапи. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Рассапи. h</dt> </dl> |
 
 
 

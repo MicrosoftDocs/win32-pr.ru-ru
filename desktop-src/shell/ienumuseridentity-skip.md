@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msident.dll
-ms.openlocfilehash: cedd4f3c6e9736e26cbf8d58f27f805f0f5d33a9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ced6a1a9ce463f82b6b33275339216edabc02737928e985a294154e579523575
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104997667"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117678931"
 ---
 # <a name="ienumuseridentityskip-method"></a>Метод Иенумусеридентити:: Skip
 
@@ -56,7 +56,7 @@ HRESULT Skip(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 [**Иенумусеридентити**](ienumuseridentity.md) хранит внутренний счетчик, указывающий, какой интерфейс следует извлечь. Чтобы увеличить это число без извлечения интерфейсов, вызовите этот метод. Чтобы сбросить счетчик, вызовите метод [**иенумусеридентити:: Reset**](ienumuseridentity-reset.md).
 
@@ -66,11 +66,11 @@ HRESULT Skip(
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                   |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                   |
 | Окончание поддержки клиента<br/>    | Windows XP<br/>                                                                  |
 | Поддержка конца сервера<br/>    | Windows Server 2003<br/>                                                         |
-| Header<br/>                   | <dl> <dt>Мсидент. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Мсидент. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Мсидент. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Msident.dll</dt> </dl> |
 

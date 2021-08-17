@@ -47,7 +47,7 @@ HRESULT GetResults();
 
 Вызов метода **IAsyncAction** не имеет силы, если текущая реализация имеет динамический тип [](/windows/win32/api/windows.foundation/nn-windows-foundation-iasyncaction).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

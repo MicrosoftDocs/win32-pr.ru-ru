@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 6ce1f8929dd6e2f7de59d32d66229f73c062505c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f73aeebe738a631bff95a07beaa0b5928d3d1935ac7b400ed5fa333e79c1f044
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118391604"
 ---
 # <a name="caldatetime_dateunit-enumeration"></a>\_Перечисление ДАТЕУНИТ калдатетиме
 
@@ -116,8 +116,8 @@ enum CALDATETIME_DATEUNIT {
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

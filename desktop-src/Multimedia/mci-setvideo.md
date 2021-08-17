@@ -3,7 +3,7 @@ title: Команда MCI_SETVIDEO (Ммсистем. h)
 description: Команда MCI \_ сетвидео задает значения, связанные с воспроизведением видео. Эта команда распознает устройства цифрового видео и ВИДЕОМАГНИТОФОНА.
 ms.assetid: b84956d8-01a0-49f6-a96c-2693a25e6f2a
 keywords:
-- MCI_SETVIDEO команды мультимедиа Windows
+- команда MCI_SETVIDEO Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 83a20e0cc5466ac9ff28a59543543069fa9acd05
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 23206d169ad5e273927ead247c44194660c8d6b201c725e1b4d4ab24fd5e1544
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104490773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117803382"
 ---
 # <a name="mci_setvideo-command"></a>\_Команда MCI сетвидео
 
@@ -68,7 +68,7 @@ MCIERROR mciSendCommand(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 С типом устройства "дигиталвидео" используются следующие дополнительные флаги:
 
@@ -349,7 +349,7 @@ MCIERROR mciSendCommand(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 
