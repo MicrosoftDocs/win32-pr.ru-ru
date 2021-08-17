@@ -3,7 +3,7 @@ title: Сообщение EM_NOSETFOCUS (Коммктрл. h)
 description: Предотвращает получение фокуса клавиатуры с помощью однострочного элемента управления Edit Control. Это сообщение можно отправить явным образом или с помощью \_ макроса Edit носетфокус.
 ms.assetid: aeb5ed6b-7d4f-4c0d-a172-6cee7cab959c
 keywords:
-- Элементы управления Windows для EM_NOSETFOCUS сообщений
+- элементы управления Windows сообщений EM_NOSETFOCUS
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b82830cda3402d2089d3421debaa7c4dbf13de5d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 02ac35a30ff3deac7e9d6d227a6e8c403e6096e272ea89067dd817add9b2426e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117831197"
 ---
 # <a name="em_nosetfocus-message"></a>\_Сообщение НОСЕТФОКУС EM
 
@@ -53,7 +53,7 @@ ms.locfileid: "104136847"
 
 Использование этого сообщения может нарушить безопасность программы.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это сообщение пропускается, если элемент управления "поле ввода" не является элементом управления "поле ввода" с одной строкой.
 
@@ -65,8 +65,8 @@ ms.locfileid: "104136847"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

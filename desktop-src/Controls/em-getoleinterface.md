@@ -3,7 +3,7 @@ title: Сообщение EM_GETOLEINTERFACE (RichEdit. h)
 description: Извлекает объект Иричедитоле, который клиент может использовать для доступа к функциональным возможностям модели COM в элементе управления "поле ввода".
 ms.assetid: fa462c7b-29b9-4694-b7ad-6068c69ffb76
 keywords:
-- Элементы управления Windows для EM_GETOLEINTERFACE сообщений
+- элементы управления Windows сообщений EM_GETOLEINTERFACE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d7557d40c6dcec38ce629d949a8db9915714821
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e4e1799039081ed8250cb062aa3d1348a2fe8a8dbdcfa768fab74855d18d8e9e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136658"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117831675"
 ---
 # <a name="em_getoleinterface-message"></a>\_Сообщение ЖЕТОЛЕИНТЕРФАЦЕ EM
 
@@ -55,8 +55,8 @@ ms.locfileid: "104136658"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

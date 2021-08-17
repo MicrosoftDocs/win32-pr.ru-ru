@@ -46,7 +46,7 @@ ms.locfileid: "117748942"
 
 Если этот атрибут не указан, предыдущее значение будет храниться.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -3,7 +3,7 @@ title: Сообщение MCIWNDM_SETTIMEFORMAT (VFW. h)
 description: Сообщение МЦИВНДМ \_ сеттимеформат задает формат времени для устройства MCI. Это сообщение можно отправить явно или с помощью макроса МЦивндсеттимеформат.
 ms.assetid: 7de82094-6d35-44fd-88e7-ebd18a558cfd
 keywords:
-- MCIWNDM_SETTIMEFORMAT сообщения Windows мультимедиа
+- сообщение MCIWNDM_SETTIMEFORMAT Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bcec1f0db5accad93211bf1eb6f1c9297e2b9f33
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 79620aecba07b11ed63dfc43fd2d70b41728586b36649b4b13aace9d1364197c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104533800"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117802898"
 ---
 # <a name="mciwndm_settimeformat-message"></a>\_Сообщение мЦивндм сеттимеформат
 
@@ -49,7 +49,7 @@ lParam = (LPARAM) (LPSTR) lp;
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение может указывать форматы времени, отличные от кадров, или миллисекунды, если форматы поддерживаются устройством MCI. Непостоянное форматирование, например дорожные и SMPTE, может привести к нестабильному поведению TrackBar. Для этих форматов времени может потребоваться отключить панель инструментов с помощью макроса [**мЦивндчанжестилес**](/windows/desktop/api/Vfw/nf-vfw-mciwndchangestyles) и указать \_ стиль окна мЦивндф ноплайбар.
 

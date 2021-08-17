@@ -40,7 +40,7 @@ TaskService.ConnectedDomain As String
 
 Домен, к которому подключен компьютер [**TargetServer**](taskservice-targetserver.md) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

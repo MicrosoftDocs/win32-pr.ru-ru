@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9anim.h
-ms.openlocfilehash: 32e02e75d3d73569b60c466f45dace2c074a6b3e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d5569eccd5b99939cd50797ee73593ce5a2bfc8ddd60236e05218ddcca7f4383
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117731812"
 ---
 # <a name="d3dxevent_desc-structure"></a>\_Структура D3DXEVENT DESC
 
@@ -137,7 +137,7 @@ typedef struct D3DXEVENT_DESC {
 
 </dd> <dt>
 
-**Разрешить**
+**Включить**
 </dt> <dd>
 
 Тип: **[ **bool** .](../winprog/windows-data-types.md)**
@@ -154,7 +154,7 @@ typedef struct D3DXEVENT_DESC {
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx9anim. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx9anim. h</dt> </dl> |
 
 
 

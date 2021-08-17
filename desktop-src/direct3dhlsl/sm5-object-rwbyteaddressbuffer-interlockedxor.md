@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 920ae912c599b66a03a25d7bc8ecc9b199036b26
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7b9e0c719bb72116ba84a33f46c81cf243773d4c66e5ff0997066e7228b19db1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987531"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117905801"
 ---
 # <a name="interlockedxor-function"></a>Функция Интерлоккедксор
 
@@ -28,9 +28,9 @@ ms.locfileid: "103987531"
 
 ``` syntax
 void InterlockedXor(
-  in  UINT dest,
-  in  UINT value,
-  out UINT original_value
+  in  UINT dest,
+  in  UINT value,
+  out UINT original_value
 );
 ```
 
@@ -69,7 +69,7 @@ void InterlockedXor(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эту операцию можно выполнить только для типизированных ресурсов **типа int** или **uint** и переменных общей памяти. Существует три возможных способа использования этой функции. Первый — когда R является переменной общей памяти. В этом случае функция выполняет атомарное **исключающее XOR** со значением регистра общей памяти, на который ссылается *dest*. Второй сценарий заключается в том, что R является типом переменной ресурса. В этом сценарии функция выполняет атомарное **исключающее XOR** со значением расположения ресурса, на которое ссылается *dest*. Наконец, третий сценарий происходит, когда R является локальным типом переменной. В этом сценарии функция сокращается до **исключающего** со значениями *dest* и *value*. Результат операции заменяет значение в *dest*. Перегруженная функция имеет дополнительную выходную переменную, которой будет присвоено исходное значение *dest*. Перегруженная операция доступна только в том случае, если R доступен для чтения и записи.
 
@@ -83,7 +83,7 @@ void InterlockedXor(
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -95,6 +95,6 @@ void InterlockedXor(
 [Модель шейдера 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

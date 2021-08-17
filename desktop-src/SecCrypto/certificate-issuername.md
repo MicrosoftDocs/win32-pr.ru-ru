@@ -41,7 +41,7 @@ Certificate.IssuerName As String
 
 Строка, содержащая имя издателя сертификата.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

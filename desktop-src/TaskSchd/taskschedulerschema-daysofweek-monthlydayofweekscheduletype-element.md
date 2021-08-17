@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3867e08dd001a035a3ab25da056f75c1e73eeeef
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: c7ed2a597c1b92245a34dae510c079a5b5aa7a4e7893a78dbb70d7bc5988d580
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105684947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118357147"
 ---
 # <a name="daysofweek-monthlydayofweekscheduletype-element"></a>DaysOfWeek (Монслидайофвиксчедулетипе), элемент
 
@@ -58,7 +58,7 @@ ms.locfileid: "105684947"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для разработки сценариев дни недели для месячного дня недели задаются с помощью свойства [**монслидовтригжер. DaysOfWeek**](monthlydowtrigger-daysofweek.md) .
 
@@ -104,8 +104,8 @@ ms.locfileid: "105684947"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

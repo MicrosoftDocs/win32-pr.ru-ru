@@ -1,15 +1,15 @@
 ---
-description: Интерфейсы (среда выполнения Windows C++)
+description: интерфейсы (среда выполнения Windows C++)
 ms.assetid: CB05B5F8-BE15-4BE0-A651-F6E8912D649D
-title: Интерфейсы (среда выполнения Windows)
+title: интерфейсы (среда выполнения Windows)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f627a77f91417b16d8bfc3e940036910003c40f0
-ms.sourcegitcommit: 4570ac533e129ff88b23f2c2b69e0140ead3a4a4
+ms.openlocfilehash: 468944bcd2437309d953fe53e64e36366ca0cd7ac6ad4d8c32aa9c8d71f91ca7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "105699303"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117741648"
 ---
 # <a name="interfaces"></a>Интерфейсы
 
@@ -42,21 +42,21 @@ ms.locfileid: "105699303"
 | [**икомпоситионграфиксдевицеинтероп**](/windows/win32/api/windows.ui.composition.interop/nn-windows-ui-composition-interop-icompositiongraphicsdeviceinterop) | Собственный интерфейс взаимодействия, позволяющий получить и настроить графическое устройство. |
 | [**иконтактманажеринтероп**](/previous-versions//dn302109(v=vs.85)) | Обеспечивает доступ к методам [**ContactManager**](/uwp/api/Windows.ApplicationModel.Contacts.ContactManager?view=winrt-19041) в приложении, которое управляет несколькими окнами. |
 | [**икореаппликатион**](/previous-versions//hh438365(v=vs.85)) | Позволяет приложениям обрабатывать изменения состояния, управлять окнами и интегрировать различные платформы пользовательского интерфейса. |
-| [**икореаппликатионексит**](/previous-versions//hh438366(v=vs.85)) | Предоставляет средства для завершения работы приложений Магазина Windows. |
+| [**икореаппликатионексит**](/previous-versions//hh438366(v=vs.85)) | предоставляет средства для завершения работы приложений Windows Store. |
 | [**икореаппликатионинитиализатион**](/previous-versions//hh438370(v=vs.85)) | Содержит метод Run, используемый для запуска объекта приложения из точки входа приложения. |
 | [**икореаппликатионвиев**](/previous-versions//hh438372(v=vs.85)) | Представляет представление приложения. |
 | [**икореиммерсивеаппликатион**](/previous-versions//hh438382(v=vs.85)) | Содержит методы для управления представлениями в приложении. |
-| [**икореинпутинтероп**](/windows/desktop/api/corewindow/nn-corewindow-icoreinputinterop) | Включает источник входных данных для объекта [**кореинпут**](https://www.bing.com/search?q=**CoreInput**) приложения Магазина Windows. |
+| [**икореинпутинтероп**](/windows/desktop/api/corewindow/nn-corewindow-icoreinputinterop) | включает источник входных данных для объекта [**кореинпут**](https://www.bing.com/search?q=**CoreInput**) приложения хранилища Windows. |
 | [**икоревиндовинтероп**](/windows/desktop/api/corewindow/nn-corewindow-icorewindowinterop) | Позволяет приложениям получать окно, хандлеоф окно ([**CoreWindow**](/uwp/api/Windows.UI.Core.CoreWindow?view=winrt-19041)), связанное с этим интерфейсом. |
 | [**идллсерверактиватаблеклассрегистратион**](/windows/win32/api/activationregistration/nn-activationregistration-idllserveractivatableclassregistration) | Включает получение сведений о регистрации для внутрипроцессного сервера. |
-| [**иерроррепортингсеттингс**](/previous-versions//br205818(v=vs.85)) | Обеспечивает интеграцию отладчика для приложений среда выполнения Windows. |
+| [**иерроррепортингсеттингс**](/previous-versions//br205818(v=vs.85)) | обеспечивает интеграцию отладчика для приложений среда выполнения Windows. |
 | [**иевенсандлер<T>**](/previous-versions//hh438385(v=vs.85)) | Представляет метод, обрабатывающий событие, имеющее данные о событии типа **T**. |
 | [**иексесерверактиватаблеклассрегистратион**](/windows/win32/api/activationregistration/nn-activationregistration-iexeserveractivatableclassregistration) | Включает получение сведений о регистрации для сервера вне процесса. |
 | [**иексесерверрегистратион**](/windows/win32/api/activationregistration/nn-activationregistration-iexeserverregistration) | Представляет зарегистрированный сервер вне процесса. |
 | [**ифиндреференцетаржетскаллбакк**](/windows/win32/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ifindreferencetargetscallback) | Определяет интерфейс для обратных вызовов из [**иреференцетраккер:: финдтраккертаржетс**](/windows/win32/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetracker-findtrackertargets). Реализация этого интерфейса должна передавать все найденные экземпляры [**иреференцетраккертаржет**](/windows/win32/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetrackertarget) методу **фаундтраккертаржет** . |
-| [**иинпутпанеинтероп**](/windows/desktop/api/inputpaneinterop/nn-inputpaneinterop-iinputpaneinterop) | Обеспечивает доступ к членам класса [**инпутпане**](/uwp/api/Windows.UI.ViewManagement.InputPane?view=winrt-19041) в классическом приложении. |
+| [**IInputPaneInterop**](/windows/desktop/api/inputpaneinterop/nn-inputpaneinterop-iinputpaneinterop) | Обеспечивает доступ к членам класса [**инпутпане**](/uwp/api/Windows.UI.ViewManagement.InputPane?view=winrt-19041) в классическом приложении. |
 | [**IInputStream**](/previous-versions//hh438387(v=vs.85)) | Включает получение асинхронной операции чтения для последовательного потока байтов. |
-| [**IInspectable**](/windows/win32/api/inspectable/nn-inspectable-iinspectable) | Предоставляет функциональные возможности, необходимые для всех классов среда выполнения Windows. |
+| [**IInspectable**](/windows/win32/api/inspectable/nn-inspectable-iinspectable) | предоставляет функциональные возможности, необходимые для всех классов среда выполнения Windows. |
 | [**IIterable<T>**](/previous-versions//br205825(v=vs.85)) | Предоставляет итератор, который поддерживает простой перебор для коллекции указанного типа. |
 | [**иитератор<T>**](/previous-versions//br205827(v=vs.85)) | Поддерживает итерацию по коллекции. |
 | [**IKeyValuePair<K, V>**](/previous-versions//br205831(v=vs.85)) | Представляет пару "ключ-значение". |
@@ -80,15 +80,15 @@ ms.locfileid: "105699303"
 | [**иоплоккбреакингхандлер**](/windows/desktop/api/windowsstoragecom/nn-windowsstoragecom-ioplockbreakinghandler) | Этот интерфейс в настоящее время не реализован. |
 | [**IOutputStream**](/previous-versions//hh438390(v=vs.85)) | Включает получение асинхронной операции записи для последовательного потока байтов. |
 | [**ипдфрендерернативе**](/windows/desktop/api/windows.data.pdf.interop/nn-windows-data-pdf-interop-ipdfrenderernative) | Представляет высокопроизводительный API для отображения одной страницы PDF-файла. |
-| [**ипаккажедебугсеттингс**](/previous-versions//hh438393(v=vs.85)) | Позволяет разработчикам отладчика управлять жизненным циклом приложения для Магазина Windows, например, когда оно приостановлено или возобновлено. |
-| [**иплайтоманажеринтероп**](/windows/desktop/api/playtomanagerinterop/nn-playtomanagerinterop-iplaytomanagerinterop) | Обеспечивает доступ к методам [**плайтоманажер**](/uwp/api/Windows.Media.PlayTo.PlayToManager?view=winrt-19041) в приложении Магазина Windows, которое управляет несколькими окнами. |
-| [**ипринтманажеринтероп**](/windows/desktop/api/printmanagerinterop/nn-printmanagerinterop-iprintmanagerinterop) | Обеспечивает доступ к методам [**принтманажер**](/uwp/api/Windows.Graphics.Printing.PrintManager?view=winrt-19041) в приложении Магазина Windows, которое управляет несколькими окнами. |
-| [**IPropertyValue**](/windows/win32/api/windows.foundation/nn-windows-foundation-ipropertyvalue) | Представляет значение в хранилище свойств среда выполнения Windows. |
+| [**ипаккажедебугсеттингс**](/previous-versions//hh438393(v=vs.85)) | позволяет разработчикам отладчика управлять жизненным циклом приложения для магазина Windows, например при его приостановке или возобновлении. |
+| [**IPlayToManagerInterop**](/windows/desktop/api/playtomanagerinterop/nn-playtomanagerinterop-iplaytomanagerinterop) | обеспечивает доступ к методам [**плайтоманажер**](/uwp/api/Windows.Media.PlayTo.PlayToManager?view=winrt-19041) в приложении для магазина Windows, которое управляет несколькими окнами. |
+| [**IPrintManagerInterop**](/windows/desktop/api/printmanagerinterop/nn-printmanagerinterop-iprintmanagerinterop) | обеспечивает доступ к методам [**принтманажер**](/uwp/api/Windows.Graphics.Printing.PrintManager?view=winrt-19041) в приложении для магазина Windows, которое управляет несколькими окнами. |
+| [**IPropertyValue**](/windows/win32/api/windows.foundation/nn-windows-foundation-ipropertyvalue) | представляет значение в хранилище свойств среда выполнения Windows. |
 | [**ипропертивалуестатикс**](/windows/win32/api/windows.foundation/nn-windows-foundation-ipropertyvaluestatics) | Создает объекты [**IPropertyValue**](/windows/win32/api/windows.foundation/nn-windows-foundation-ipropertyvalue) , которые можно хранить в хранилище свойств. |
 | [**IRandomAccessStream**](/previous-versions//hh438400(v=vs.85)) | Включает получение асинхронного модуля чтения байтов или модуля записи байтов, расположенного в указанном месте в потоке байтов произвольного доступа. |
 | [**ирандомакцессстреамфилеакцессмоде**](/windows/desktop/api/windowsstoragecom/nn-windowsstoragecom-irandomaccessstreamfileaccessmode) | Предоставляет доступ к режиму доступа к файлу, который использовался при вызове метода [**StorageFile. OpenAsync**](/uwp/api/Windows.Storage.StorageFile?view=winrt-19041) для открытия потока байтов произвольного доступа. |
-| [**IReference<T>**](/previous-versions//br224583(v=vs.85)) | Включает расширение системы свойств среда выполнения Windows для определяемых пользователем перечислений, структур и типов делегатов. |
-| [**иреференцеаррай<T>**](/previous-versions//br224584(v=vs.85)) | Включает расширение системы свойств среда выполнения Windows для массивов определяемых пользователем перечислений, структур и типов делегатов. |
+| [**IReference<T>**](/previous-versions//br224583(v=vs.85)) | включает расширение системы свойств среда выполнения Windows для определяемых пользователем перечислений, структур и типов делегатов. |
+| [**иреференцеаррай<T>**](/previous-versions//br224584(v=vs.85)) | включает расширение системы свойств среда выполнения Windows для массивов определяемых пользователем перечислений, структур и типов делегатов. |
 | [**иреференцетраккер**](/windows/win32/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetracker) | Определяет интерфейс, реализуемый платформой XAML для управления ссылками на объекты XAML. |
 | [**иреференцетраккерхост**](/windows/win32/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetrackerhost) | Определяет интерфейс, предоставляющий глобальные службы, используемые системой сборки мусора (GC), используемой платформой XAML. |
 | [**иреференцетраккерманажер**](/windows/win32/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetrackermanager) | Определяет интерфейс для диспетчера ссылок на объект XAML. Реализуйте этот интерфейс для управления экземплярами [**иреференцетраккер**](/windows/win32/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetracker) на объектах XAML. |

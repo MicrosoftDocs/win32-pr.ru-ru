@@ -3,7 +3,7 @@ title: Список воспроизведения. Хуешифт
 description: Атрибут Хуешифт указывает или получает величину, на которую смещается оттенок раскрывающихся изображений.
 ms.assetid: 9d4d8b73-527e-43f3-a921-0576b8897918
 keywords:
-- Проигрыватель Windows Media Player. Хуешифт
+- проигрыватель Windows Media списка воспроизведения. хуешифт
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 99e9dbe89989ddd8f02d67ac8f14532b9b1fbf15
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4a615549c25b57ed9693843a09433200f73c8e4ffad131c2a4e4057932c5e92b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117747082"
 ---
 # <a name="playlisthueshift"></a>Список воспроизведения. Хуешифт
 
@@ -31,7 +31,7 @@ ms.locfileid: "105704132"
 
 Этот атрибут является **числом** для чтения и записи (**float**) со значением в диапазоне от 0,0 до 360,0 со значением по умолчанию 0,0.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут изменяет значение оттенка изображений, заданных атрибутами **дропдовнбаккграундимаже** и **дропдовнимаже** , если они заданы и ссылаются на 8-битные изображения BMP.
 
@@ -41,7 +41,7 @@ ms.locfileid: "105704132"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 

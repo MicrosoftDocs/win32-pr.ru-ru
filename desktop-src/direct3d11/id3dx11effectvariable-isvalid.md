@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b5136005e675a6f5e54cc3863ef2d80ffadfb7c5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e198fcd1a5dc39823df8c707d97849c5115d818b784dd78b1e960ee2463087ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104998642"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117734063"
 ---
 # <a name="id3dx11effectvariableisvalid-method"></a>Метод ID3DX11EffectVariable:: IsValid
 
@@ -47,7 +47,7 @@ BOOL IsValid();
 
 **Значение true** , если синтаксис допустим; в противном случае — **false**.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Этот метод проверяет, соответствует ли тип данных данным, хранящимся после приведения одного интерфейса к другому (с помощью любого из методов AS).
 
@@ -62,7 +62,7 @@ BOOL IsValid();
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
+| Заголовок<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
 | Библиотека<br/> | <dl> <dt>Н/д (библиотека Effects 11 доступна в сети в качестве общего источника.)</dt> </dl> |
 
 

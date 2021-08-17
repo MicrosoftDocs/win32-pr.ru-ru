@@ -4,16 +4,16 @@ ms.assetid: 53d25d53-2f4f-47e1-ad66-4e3ab6d06f24
 title: Образец запросов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a9188b94f0695db4aab680bdf6f6de278d03fd55
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 185d01cc45c27c27cc182caa6a30ab5a14765c77a83b1f792a0b14c119dd3ad1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117774437"
 ---
 # <a name="sample-requests"></a>Образец запросов
 
-В следующих разделах содержатся примеры запросов сертификатов. Все примеры были созданы с помощью средств Certreq.exe и Certutil.exe, входящих в состав пакета средств администрирования Windows Server 2003. Каждый тип запроса отображается как в текстовом, так и в формате ASN. 1.
+В следующих разделах содержатся примеры запросов сертификатов. все примеры были созданы с помощью средств Certreq.exe и Certutil.exe, входящих в состав пакета средств администрирования Windows Server 2003. Каждый тип запроса отображается как в текстовом, так и в формате ASN. 1.
 
 -   [\#Запрос PKCS 10](pkcs--10-request.md)
 -   [Формат \# ASN. 1 в кодировке PKCS 10](pkcs--10-encoded-asn-1.md)

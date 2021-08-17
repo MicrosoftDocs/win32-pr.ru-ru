@@ -4,12 +4,12 @@ description: Общие сведения о жизненном цикле экз
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 09/17/2018
 ms.topic: article
-ms.openlocfilehash: 567eff1f7b8acf330dba7c652e2e12b724072b9b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: bbaaf5eca5481f3959e3e5afeb36a8cf6b264c939e8eb2cc9d84ba501d3c8530
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104533239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117792388"
 ---
 # <a name="virtualization-instance-lifecycle"></a>Жизненный цикл экземпляра виртуализации
 
@@ -18,7 +18,7 @@ ms.locfileid: "104533239"
 1. Создание
 2. Запуск
 3. Параметры выполнения
-4. Завершить работу
+4. Shutdown
 
 Обратите внимание, что после завершения работы экземпляра виртуализации поставщику не нужно повторно создавать его для повторного использования.  Его можно просто запустить снова.
 

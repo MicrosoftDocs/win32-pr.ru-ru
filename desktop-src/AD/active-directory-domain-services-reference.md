@@ -8,12 +8,12 @@ keywords:
 - Службы домен Active Directory Active Directory, справочные материалы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b010710a647beb46976e1b85d5be9dadb851999
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: d2672ad2be33c553ce484dc6c90c12c8e75e5d6d7d78815e813f2a0dfa9c938f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104487525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118025261"
 ---
 # <a name="active-directory-domain-services-reference"></a>Справочник по службам домен Active Directory
 
@@ -31,6 +31,6 @@ ms.locfileid: "104487525"
 
 Чтобы просмотреть веб-страницы справки по схеме Active Directory, см. [схему Active Directory](/windows/desktop/ADSchema/active-directory-schema). Общие сведения о схеме Active Directory из перспективы домен Active Directory Services см. в разделе [Active Directory схема](active-directory-schema.md).
 
- 
+ 
 
- 
+ 

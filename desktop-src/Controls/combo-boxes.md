@@ -1,17 +1,17 @@
 ---
-title: Поле со списком (элементы управления Windows)
+title: поле со списком (элементы управления Windows)
 description: В этом разделе содержатся сведения об элементах программирования, используемых в полях со списком. Поле со списком — это уникальный тип элемента управления, определяемый классом COMBOBOX, который сочетает в себе большую часть функциональных возможностей списка и элемента управления "поле ввода".
 ms.assetid: vs|controls|~\controls\comboboxes\comboboxes.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf5ab64b07539f19c640a41710eca93ab544fac6
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 62c133237bd10f2412dcdfad6ea6ab2148e487e4b25f57b5559276de961dbcf9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103988097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117832215"
 ---
-# <a name="combo-box-windows-controls"></a>Поле со списком (элементы управления Windows)
+# <a name="combo-box-windows-controls"></a>поле со списком (элементы управления Windows)
 
 В этом разделе содержатся сведения об элементах программирования, используемых в полях со списком. *Поле со списком* — это уникальный тип элемента управления, определяемый классом ComboBox, который сочетает в себе большую часть функциональных возможностей списка и элемента управления "поле ввода".
 

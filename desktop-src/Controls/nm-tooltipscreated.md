@@ -3,7 +3,7 @@ title: Код уведомления NM_TOOLTIPSCREATED (Коммктрл. h)
 description: Сообщает родительскому окну элемента управления, что элемент управления создал элемент управления ToolTip. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: 8108f084-212d-4a16-b604-1ec134b1bb43
 keywords:
-- NM_TOOLTIPSCREATED кода уведомления элементы управления Windows
+- NM_TOOLTIPSCREATED кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e2e99850b17b0f2b06948a09b70a89e67e65a50
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 35006c7c7f4cc66cc9ce5e387a362f423db43b6b7aab914d26360dd08d13b37b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118410317"
 ---
 # <a name="nm_tooltipscreated-notification-code"></a>\_Код уведомления тултипскреатед (NM)
 
@@ -55,8 +55,8 @@ NM_TOOLTIPSCREATED
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

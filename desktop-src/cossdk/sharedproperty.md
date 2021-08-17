@@ -11,12 +11,12 @@ api_name:
 - SharedProperty
 api_type:
 - COM
-ms.openlocfilehash: a7a7857ad280ad722601bdced6c25d04b03dc0b3
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9b0daa74c7329f8dc9f2566852d863715d22fd556ce3d4674dfaf246c17504b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141371"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117915778"
 ---
 # <a name="sharedproperty-class"></a>Класс Шаредпроперти
 
@@ -42,11 +42,11 @@ ms.locfileid: "104141371"
 
 Используйте этот класс для доступа к методам [**ишаредпроперти**](/windows/desktop/api/ComSvcs/nn-comsvcs-isharedproperty).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Объект **шаредпроперти** можно создать с помощью методов [**CreateProperty**](/windows/desktop/api/ComSvcs/nf-comsvcs-isharedpropertygroup-createproperty) или [**креатепропертибипоситион**](/windows/desktop/api/ComSvcs/nf-comsvcs-isharedpropertygroup-createpropertybyposition) [**ишаредпропертиграуп**](/windows/desktop/api/ComSvcs/nn-comsvcs-isharedpropertygroup).
 
-Чтобы использовать этот класс из Visual Basic Майкрософт, добавьте ссылку на библиотеку типов служб COM+. Объект Шаредпроперти создается путем вызова методов [**CreateProperty**](/windows/desktop/api/ComSvcs/nf-comsvcs-isharedpropertygroup-createproperty) или [**креатепропертибипоситион**](/windows/desktop/api/ComSvcs/nf-comsvcs-isharedpropertygroup-createpropertybyposition) объекта [**шаредпропертиграуп**](sharedpropertygroup.md) .
+чтобы использовать этот класс из Visual Basic майкрософт, добавьте ссылку на библиотеку типов служб COM+. Объект Шаредпроперти создается путем вызова методов [**CreateProperty**](/windows/desktop/api/ComSvcs/nf-comsvcs-isharedpropertygroup-createproperty) или [**креатепропертибипоситион**](/windows/desktop/api/ComSvcs/nf-comsvcs-isharedpropertygroup-createpropertybyposition) объекта [**шаредпропертиграуп**](sharedpropertygroup.md) .
 
 ## <a name="requirements"></a>Требования
 

@@ -3,7 +3,7 @@ title: ЕКУАЛИЗЕРСЕТТИНГС. Пресеттитле
 description: Метод Пресеттитле извлекает имя предустановки эквалайзера с указанным индексом.
 ms.assetid: 2f6da4ee-9515-49ee-b00f-ed78d7c116da
 keywords:
-- Проигрыватель Windows Media ЕКУАЛИЗЕРСЕТТИНГС. Пресеттитле
+- екуализерсеттингс. пресеттитле проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6f46f1a97bc0fceb2671bb07b14ef62785c712f6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1fbf0d36ebb8b0ec16c45afd2089f3ee72d647f692210d3e5b21c9ea411c2e1e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117748726"
 ---
 # <a name="equalizersettingspresettitle"></a>ЕКУАЛИЗЕРСЕТТИНГС. Пресеттитле
 
@@ -49,7 +49,7 @@ ms.locfileid: "105699157"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 

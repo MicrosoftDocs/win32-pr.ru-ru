@@ -4,18 +4,18 @@ ms.assetid: 4b0c4a83-623a-4378-9436-35ed120316af
 title: Поддержка ASF в Media Foundation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ddb7774d0ddaee592cb583ffb771c900642ed216
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: db06c5a294e351b09d7f5327e8ee22891798671765bc5cc10eafd75785debde9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105703455"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117880965"
 ---
 # <a name="asf-support-in-media-foundation"></a>Поддержка ASF в Media Foundation
 
 Media Foundation поддерживает файлы мультимедиа в формате ASF:
 
--   Видео Windows Media (WMV-файлы)
+-   Windows Мультимедийное видео (файлы WMV)
 -   Windows Media Audio (WMA-файлы)
 
 Media Foundation предоставляет несколько объектов для чтения и записи файлов ASF. Эти объекты предоставляются на двух разных архитектурных уровнях.
@@ -23,7 +23,7 @@ Media Foundation предоставляет несколько объектов 
 Во-первых, уровень *конвейера* содержит объекты, которые работают внутри [конвейера Media Foundation](media-foundation-pipeline.md) и соответствуют интерфейсам API, определенным в конвейере. Слой конвейера ASF содержит:
 
 -   [Источник носителя ASF](asf-media-source.md): АНАЛИЗИРУЕТ файлы ASF и доставляет пакеты аудио-и видеоданных.
--   [Кодеки Windows Media](windows-media-codecs.md): декодирование или кодирование потоков аудио или видео Windows Media.
+-   [Windows мультимедийные кодеки](windows-media-codecs.md): декодирование или кодирование Windows потоков аудио или видео.
 -   [Приемник мультимедиа ASF](asf-media-sinks.md): получает пакеты данных и записывает файл ASF.
 
 Во-вторых, уровень контейнера WM обеспечивает низкоуровневый контроль над синтаксическим анализом и записью файла ASF. Уровень конвейера использует Вмконтаинер внутренним образом. Приложения также могут использовать Вмконтаинер для анализа и записи в формате ASF низкого уровня.
@@ -46,7 +46,7 @@ Media Foundation предоставляет несколько объектов 
 
 Подробные сведения о структуре файла ASF см. в спецификации ASF, которую можно загрузить с [веб-сайта Майкрософт](https://www.microsoft.com/downloads/details.aspx?displaylang=en&FamilyID=56de5ee4-51ca-46c6-903b-97390ad14fea).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

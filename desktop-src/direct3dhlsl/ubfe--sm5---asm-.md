@@ -4,12 +4,12 @@ description: При наличии диапазона битов в числе �
 ms.assetid: CC6BE378-2726-47A2-8E23-B8151521F72D
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 43ebbe853ec1b53b452f32d79c9c2ec120e826b8
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 3149173bf495957bb38800234e4d853d0e32797254eecfdb3e5b77faf4498ac2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103890004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117722165"
 ---
 # <a name="ubfe-sm5---asm"></a>убфе (SM5-ASM)
 
@@ -37,7 +37,7 @@ ms.locfileid: "103890004"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 ``` syntax
  
@@ -79,7 +79,7 @@ ms.locfileid: "103890004"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
 | [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Нет        |
 | [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Нет        |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
@@ -90,7 +90,7 @@ ms.locfileid: "103890004"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

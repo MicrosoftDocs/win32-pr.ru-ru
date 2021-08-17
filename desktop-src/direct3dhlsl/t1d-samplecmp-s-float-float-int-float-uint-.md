@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 690ede3cac45d05a3000fe60654255daef5202f7
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 9782d7196d740ddd0b93256182f16b57e0bdc81d18e7a0648bee5e4380edf373
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104987353"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117724309"
 ---
 # <a name="samplecmpsamplecmpsfloatfloatintfloatuint-function-for-texture1d"></a>Функция Самплекмп:: Самплекмп (S, float, float, int, float, uint) для Texture1D
 
@@ -98,7 +98,7 @@ DXGI_FORMAT SampleCmp(
 | Texture1D, Texture1DArray     | INT            |
 | Texture2D, Texture2DArray     | int2           |
 | Texture3D                     | int3           |
-| Текстурекубе, Текстурекубеаррай | не поддерживается  |
+| Текстурекубе, Текстурекубеаррай | Не поддерживается  |
 
 
 

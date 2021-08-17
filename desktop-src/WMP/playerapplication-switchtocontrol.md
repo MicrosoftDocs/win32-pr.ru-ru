@@ -50,7 +50,7 @@ PlayerApplication.switchToControl()
 
 **проигрыватель Windows Media 10 Mobile:** Этот метод не поддерживается.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

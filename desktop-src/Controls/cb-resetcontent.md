@@ -3,7 +3,7 @@ title: Сообщение CB_RESETCONTENT (Winuser. h)
 description: Удаляет все элементы из списка и элементы управления поля со списком.
 ms.assetid: 55203c34-87ca-46e9-a914-a480d43ccadd
 keywords:
-- Элементы управления Windows для CB_RESETCONTENT сообщений
+- элементы управления Windows сообщений CB_RESETCONTENT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3567f31ef98fffe42e53c4811acc786d41ae9f78
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4918437d7b0d347e071386486b31e5f4b9d948b4ff55b4c6eea6e3afe93fb1c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117832252"
 ---
 # <a name="cb_resetcontent-message"></a>\_Сообщение РЕСЕТКОНТЕНТ CB
 
@@ -47,7 +47,7 @@ ms.locfileid: "103891917"
 
 Это сообщение всегда возвращает значение CB \_ .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если создать поле со списком, используя стиль, рисуемый владельцем, но без [**стиля \_ хасстрингс CBS**](combo-box-styles.md) , владелец поля со списком получает сообщение [**WM \_ DELETEITEM**](wm-deleteitem.md) для каждого элемента в поле со списком.
 
@@ -57,9 +57,9 @@ ms.locfileid: "103891917"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Header<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

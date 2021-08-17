@@ -4,16 +4,16 @@ ms.assetid: bfb7ff48-1d6b-404f-9dd4-6de1898354b7
 title: Использование магазинов в разных местах
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e22fa4d4eca4748d6c4652a8b33d22a1db492a1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e57e1c1584754f0b02b61438a7a6a83694c36cd77c633c52f6bec216721d7c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103811230"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117971410"
 ---
 # <a name="using-stores-in-different-locations"></a>Использование магазинов в разных местах
 
-\[CAPICOM — это 32-разрядный компонент, доступный для использования в следующих операционных системах: Windows Server 2008, Windows Vista и Windows XP. Вместо этого используйте платформа .NET Framework для реализации функций безопасности. Дополнительные сведения см. [в разделе альтернативы использованию элемента CAPICOM](alternatives-to-using-capicom.md).\]
+\[CAPICOM — это 32-разрядный компонент, доступный для использования в следующих операционных системах: Windows Server 2008, Windows Vista и Windows XP. вместо этого используйте платформа .NET Framework для реализации функций безопасности. Дополнительные сведения см. [в разделе альтернативы использованию элемента CAPICOM](alternatives-to-using-capicom.md).\]
 
 В следующем примере показаны аспекты работы с объектом [**Store**](store.md) . В нем отображаются открытые хранилища в \_ расположениях "CAPICOM Memory \_ Store", "CAPICOM \_ Current \_ User Store" и " \_ CAPICOM — \_ \_ хранилище локальных компьютеров" \_ .
 

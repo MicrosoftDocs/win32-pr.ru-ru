@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bd725c44fc85e82d3693d9467956d3040aad2bf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: eed259ccc92e954ae1acde076f0cc09167d15071ea71a33039e7298479875b5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117759077"
 ---
 # <a name="runningtaskenginepid-property"></a>Руннингтаск. Енгинепид, свойство
 
@@ -42,7 +42,7 @@ RunningTask.EnginePID As Integer
 
 Идентификатор процесса для подсистемы, в которой выполняется задача.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Идентификатор процесса, возвращаемый этим свойством, не может быть добавлен непосредственно в строку. Возвращаемое значение должно быть преобразовано в целочисленное значение первым путем вызова функции [CInt](/previous-versions//fctcwhw9(v=vs.85)) возвращаемого значения.
 
@@ -60,8 +60,8 @@ wscript.echo "Process Id of Engine is " & "ProcessId
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                    |
 | Библиотека типов<br/>             | <dl> <dt>Тасксчд. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

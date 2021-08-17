@@ -60,7 +60,7 @@ PSN_SETACTIVE
 
 Чтобы задать возвращаемое значение, процедура диалогового окна для страницы должна использовать функцию [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) с \_ значением мсгресулт DWL, а процедура диалогового окна должна возвращать значение **true**.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

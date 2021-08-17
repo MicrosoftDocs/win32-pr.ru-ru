@@ -15,12 +15,12 @@ keywords:
 - интерфейсы, Искроллпровидер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b525c77a7f89f7adc95a3d90d999f8b243cfcdb6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c1d1cf3c04be18f362a64e619ec4659fac58923f29e6105174057b18a580f8d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103777708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118324402"
 ---
 # <a name="scroll-control-pattern"></a>Шаблон элемента управления Scroll
 
@@ -34,7 +34,7 @@ ms.locfileid: "103777708"
 
 -   [Правила и соглашения реализации](#implementation-guidelines-and-conventions)
 -   [Обязательные члены для **искроллпровидер**](#required-members-for-iscrollprovider)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="implementation-guidelines-and-conventions"></a>Правила и соглашения реализации
 
@@ -44,7 +44,7 @@ ms.locfileid: "103777708"
 -   Полосы прокрутки элемента управления контейнера не поддерживают шаблон элемента управления **Scroll** . Вместо этого они должны поддерживать шаблон элемента управления [RangeValue](uiauto-implementingrangevalue.md) .
 -   Если прокрутка измеряется в процентах, все значения или величины, связанные с делением шкалы прокрутки, должны быть нормализованы в диапазоне от 0 до 100.
 -   Свойство [**искроллпровидер:: хоризонталлискроллабле**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_horizontallyscrollable) и свойство [**вертикаллискроллабле**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_verticallyscrollable) не зависят от свойства, **включенного** .
--   Если свойство [**искроллпровидер:: хоризонталлискроллабле**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_horizontallyscrollable) имеет **значение false**, свойство [**хоризонталвиевсизе**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_horizontalviewsize) должно иметь значение 100 (100%). Свойство [**HorizontalScrollPercent**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_horizontalscrollpercent) должно иметь значение **UIA \_ скроллпаттернноскролл** (-1). Аналогично, если свойство [**вертикаллискроллабле**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_verticallyscrollable) имеет **значение false**, свойству [**вертикалвиевсизе**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_verticalviewsize) должно быть присвоено значение 100 (100%). Свойство [**вертикалскроллперцент**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_verticalscrollpercent) должно иметь значение **UIA \_ скроллпаттернноскролл** (-1). Это позволяет клиенту Microsoft UI Automation использовать эти значения свойств в методе [**сетскроллперцент**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-setscrollpercent) , одновременно избегая состояния гонки, если направление, в котором клиент не заинтересован в прокрутке, становится активным.
+-   Если свойство [**искроллпровидер:: хоризонталлискроллабле**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_horizontallyscrollable) имеет **значение false**, то свойству [**хоризонталвиевсизе**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_horizontalviewsize) должно быть присвоено значение 100 (100%), а свойству [**HorizontalScrollPercent**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_horizontalscrollpercent) должно быть присвоено значение **UIA \_ скроллпаттернноскролл** (-1). Аналогично, если свойство [**вертикаллискроллабле**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_verticallyscrollable) имеет **значение false**, свойство [**вертикалвиевсизе**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_verticalviewsize) должно иметь значение 100 (100%), а свойство [**вертикалскроллперцент**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_verticalscrollpercent) должно иметь значение **UIA \_ скроллпаттернноскролл** (-1). Это позволяет клиенту Microsoft UI Automation использовать эти значения свойств в методе [**сетскроллперцент**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-setscrollpercent) , одновременно избегая состояния гонки, если направление, в котором клиент не заинтересован в прокрутке, становится активным.
 -   Свойство [**искроллпровидер:: HorizontalScrollPercent**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_horizontalscrollpercent) зависит от языкового стандарта. Если задать для **HorizontalScrollPercent** значение 100, расположение прокрутки элемента управления должно быть эквивалентно его крайней позиции для таких языков, как английский, чтение которых осуществляется слева направо. Кроме того, для таких языков, как арабский, который читается справа налево, установка **HorizontalScrollPercent** в 100 должна установить расположение прокрутки в самую левую позицию.
 
 ## <a name="required-members-for-iscrollprovider"></a>Обязательные члены для **искроллпровидер**
@@ -61,16 +61,16 @@ ms.locfileid: "103777708"
 | [**вертикалвиевсизе**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_verticalviewsize)               | Свойство    | Нет  |
 | [**хоризонталлискроллабле**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_horizontallyscrollable)   | Свойство    | Нет  |
 | [**вертикаллискроллабле**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-get_verticallyscrollable)       | Свойство    | Нет  |
-| [**Scroll**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-scroll)                                   | Метод      | Нет  |
+| [**Крутите**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-scroll)                                   | Метод      | Нет  |
 | [**сетскроллперцент**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollprovider-setscrollpercent)               | Метод      | Нет  |
 
 
 
- 
+ 
 
 Этот шаблон элемента управления не имеет связанных событий.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -83,9 +83,9 @@ ms.locfileid: "103777708"
 [Общие сведения о дереве модели автоматизации пользовательского интерфейса](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,9 +4,9 @@ description: Вызывает метод и возвращает результ�
 ms.assetid: c83d0631-2efb-47d9-abcf-ab0c8de06c36
 ms.tgt_platform: multiple
 keywords:
-- Вызов метода служба удаленного управления Windows
-- Метод Invoke служба удаленного управления Windows, объект Session
-- Объект Session служба удаленного управления Windows, метод Invoke
+- вызов метода служба удаленного управления Windows
+- метод Invoke служба удаленного управления Windows, объект Session
+- объект Session служба удаленного управления Windows, метод Invoke
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 117c688b616f377730524a09234b1dc38a4996c2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ac2afa20390890c53a7362d776c1df7c84d0a638e7fcb10269c901d194a50dea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103803568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117743255"
 ---
 # <a name="sessioninvoke-method"></a>Session. Invoke, метод
 
@@ -60,7 +60,7 @@ URI вызываемого метода.
 
 Этот параметр может содержать одно из следующих:
 
--   URI с [*селекторами*](windows-remote-management-glossary.md)или без них. В следующем примере Visual Basic Scripting Edition (VBScript) ключ задается параметром `Win32_Service?Name=winmgmt` .
+-   URI с [*селекторами*](windows-remote-management-glossary.md)или без них. в следующем примере Visual Basic scripting Edition (VBScript) ключ задается параметром `Win32_Service?Name=winmgmt` .
 
     ```VB
     strResourceUri = "http://schemas.microsoft.com/wbem/wsman/1/" _ 
@@ -203,7 +203,7 @@ End Sub
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                 |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                           |
-| Header<br/>                   | <dl> <dt>Всмандисп. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Всмандисп. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Всмандисп. idl</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Всмандисп. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WSMAuto.dll</dt> </dl>   |
@@ -214,7 +214,7 @@ End Sub
 
 <dl> <dt>
 
-[**Session**](session.md)
+[**Сеанс**](session.md)
 </dt> </dl>
 
  

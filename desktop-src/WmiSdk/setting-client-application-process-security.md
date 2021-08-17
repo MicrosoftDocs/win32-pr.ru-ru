@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Настройка безопасности процесса клиентского приложения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8bfa0a42390ffa433cff01300b0976d40553665c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7be6b3f6e632ade53700bbe81afc7698a06fe2ff038e0c57c1b4a7eed44afa68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117739478"
 ---
 # <a name="setting-client-application-process-security"></a>Настройка безопасности процесса клиентского приложения
 
@@ -26,7 +26,7 @@ ms.locfileid: "104265368"
 
 **Настройка безопасности для WMI в процессе приложения**
 
-1.  Определите уровни безопасности, необходимые для операционных систем Windows, на которых выполняется клиентское приложение.
+1.  определите уровни безопасности, необходимые для операционных систем Windows, на которых выполняется клиентское приложение.
 2.  Вызовите функцию COM [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity) , чтобы задать параметры безопасности по умолчанию для процесса, в котором выполняется клиентское приложение. Здесь объявляется, какой объем безопасности требуется для доступа к процессу, в котором выполняется приложение.
 3.  Если необходимо изменить безопасность на отдельном прокси-сервере, например в другом вызове [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices), вызовите метод [**CoSetProxyBlanket**](/windows/win32/api/combaseapi/nf-combaseapi-cosetproxyblanket).
 4.  Если необходимо управлять удаленным оборудованием или системным объектом, которым требуются дополнительные привилегии, используйте функцию [**AdjustTokenPrivileges**](/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges) , чтобы включить необходимые привилегии. Обратите внимание, что нельзя включить привилегию, которой не назначен процесс. Дополнительные сведения см. [в разделе Проверка доступа к частным объектам](/windows/desktop/SecAuthZ/checking-access-to-private-objects).

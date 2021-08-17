@@ -49,7 +49,7 @@ NM_KILLFOCUS
 
 Возвращаемое значение игнорируется элементом управления.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

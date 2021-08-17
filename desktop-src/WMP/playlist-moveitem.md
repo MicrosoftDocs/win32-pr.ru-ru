@@ -3,9 +3,9 @@ title: Метод списка воспроизведения. Мовеитем
 description: Метод Мовеитем изменяет расположение элемента в списке воспроизведения.
 ms.assetid: 82a8de86-4419-48a7-89f8-f7b9084b51d4
 keywords:
-- Мовеитем метод Windows Media Player
-- Мовеитем метод Windows Media Player, класс списка воспроизведения
-- Класс списка воспроизведения проигрыватель Windows Media Player, метод Мовеитем
+- проигрыватель Windows Media метода мовеитем
+- проигрыватель Windows Media метода мовеитем, класс списка воспроизведения
+- класс списка воспроизведения проигрыватель Windows Media, метод мовеитем
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 06e2e48b2987af4becd8c07357ff2eecf137f31d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a725ae53e38d1903d31dc47a3362f90c29fb064e3a785b816de0d0b695998aee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117746857"
 ---
 # <a name="playlistmoveitem-method"></a>Метод списка воспроизведения. Мовеитем
 
@@ -61,7 +61,7 @@ Playlist.moveItem(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Списки воспроизведения, хранящиеся в библиотеке, могут изменяться вне элемента управления. Не забудьте отслеживать и обрабатывать все соответствующие события, связанные с списками воспроизведения, чтобы порядок элементов в списке воспроизведения неожиданно изменялся.
 
@@ -73,7 +73,7 @@ Playlist.moveItem(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
@@ -85,10 +85,10 @@ Playlist.moveItem(
 [**Объект списка воспроизведения**](playlist-object.md)
 </dt> <dt>
 
-[**Settings. Медиаакцессригхтс**](settings-mediaaccessrights.md)
+[**Параметры. медиаакцессригхтс**](settings-mediaaccessrights.md)
 </dt> <dt>
 
-[**Settings. Рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
+[**Параметры. рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
  
