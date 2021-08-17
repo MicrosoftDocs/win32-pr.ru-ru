@@ -4,12 +4,12 @@ ms.assetid: 88fea2ec-7b53-44bb-841d-486c5c879c68
 title: Контуры (GDI+)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 768d01d2d945c8252125a43ee2dc79f985703da1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f54dae290138314cac3dae8d259591939490764d371e9a2caf9423801e985ec2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104554300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117695480"
 ---
 # <a name="paths-gdi"></a>Контуры (GDI+)
 
@@ -23,7 +23,7 @@ ms.locfileid: "104554300"
 -   Фундаментальные сплайны
 -   Сплайны Безье
 
-В Windows GDI+ объект [**GraphicsPath**](/windows/win32/api/gdipluspath/nl-gdipluspath-graphicspath) позволяет собрать последовательность этих стандартных блоков в единый блок. Затем вся последовательность линий, прямоугольников, многоугольников и кривых может быть выведена одним вызовом метода [**Graphics::D равпас**](/windows/win32/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-drawpath) класса [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) . На следующем рисунке показан путь, созданный путем объединения линии, дуги, сплайна Безье и фундаментального сплайна.
+в Windows GDI+ объект [**GraphicsPath**](/windows/win32/api/gdipluspath/nl-gdipluspath-graphicspath) позволяет собрать последовательность этих стандартных блоков в единый блок. Затем вся последовательность линий, прямоугольников, многоугольников и кривых может быть выведена одним вызовом метода [**Graphics::D равпас**](/windows/win32/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-drawpath) класса [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) . На следующем рисунке показан путь, созданный путем объединения линии, дуги, сплайна Безье и фундаментального сплайна.
 
 ![Иллюстрация контура, объединяющего линию, дугу, сплайн Безье и фундаментальный сплайн](images/aboutgdip02-art14.png)
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 8b8a60706ea2752109cdda9907ffe7c654efe531
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 382ac1e436eff4108a2179aeefd4395fbc52c7af304bb719cbadf87a3c1f3d3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103987005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117724875"
 ---
 # <a name="texture1d"></a>Texture1D
 
@@ -32,7 +32,7 @@ ms.locfileid: "103987005"
 | [**Загрузить**](texture1d-load.md)                                          | Считывает данные текстуры.                                                                        |
 | [**Оператор\[\]**](sm5-object-texture1d-operatorindex.md)              | Возвращает переменную ресурса, доступную только для чтения.                                                        |
 | [**MIPS. Станции\[\]\[\]**](sm5-object-texture1d-mipsoperatorindex.md) | Возвращает переменную ресурса, доступную только для чтения.                                                        |
-| [**Пример**](texture1d-sample.md)                                      | Выбор текстуры.                                                                         |
+| [**Следующий**](texture1d-sample.md)                                      | Выбор текстуры.                                                                         |
 | [**самплебиас**](texture1d-samplebias.md)                              | Выбор текстуры после применения значения смещения к уровню mipmap.                      |
 | [**самплекмп**](texture1d-samplecmp.md)                                | Выбор текстуры с использованием значения сравнения для отклонения выборок.                             |
 | [**SampleCmpLevelZero**](texture1d-samplecmplevelzero.md)              | Производит выборку текстуры (только mipmap уровень 0), используя значение сравнения для отклонения выборок.       |
@@ -41,7 +41,7 @@ ms.locfileid: "103987005"
 
 
 
- 
+ 
 
 ## <a name="minimum-shader-model"></a>Минимальная модель шейдера
 
@@ -51,23 +51,23 @@ ms.locfileid: "103987005"
 
 | Модель шейдера                                                                | Поддерживается |
 |-----------------------------------------------------------------------------|-----------|
-| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | да       |
+| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | Да       |
 
 
 
- 
+ 
 
 Этот объект поддерживается для следующих типов шейдеров:
 
 
 
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
+| Вершина | Поверхности | Домен | Геометрия | Пиксель | Службы вычислений |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -76,9 +76,9 @@ ms.locfileid: "103987005"
 [Объекты модели шейдеров 5](d3d11-graphics-reference-sm5-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

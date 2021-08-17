@@ -4,12 +4,12 @@ ms.assetid: 7C62C1E3-D3F3-49ce-A19D-B3A1C14E24D6
 title: System. Devices. Иссофтвареинсталлинг
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06ba8b61b2c2a11c6e35efb9bafaae69aeb3d01d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 603e011e525e5d56dfe524c7875d87f77d639167190d6671e679feda4312d29c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080718"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117866712"
 ---
 # <a name="systemdevicesissoftwareinstalling"></a>System. Devices. Иссофтвареинсталлинг
 
@@ -61,11 +61,11 @@ propertyDescription
             defineToken = ISSOFTWAREINSTALLING_INSTALLING
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

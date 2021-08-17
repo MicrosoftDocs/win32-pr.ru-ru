@@ -4,12 +4,12 @@ ms.assetid: c8c36abf-6905-4874-a6d2-90dd0725421b
 title: Атрибут MF_MT_MPEG4_CURRENT_SAMPLE_ENTRY (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 02c1f2a43eef1a520a49f5cfbb889f13149fa249
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 660f74c1f9335556b514607cc2100f7ef59a00fba84f6cfe90412b91e1ff500a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117877038"
 ---
 # <a name="mf_mt_mpeg4_current_sample_entry-attribute"></a>\_ \_ \_ Текущий \_ пример \_ атрибута записи MF MT MPEG4
 
@@ -29,7 +29,7 @@ ms.locfileid: "105647495"
 
 [**имфмедиатипе**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В файле MP4 или 3GP в поле Описание примера описывается кодировка, используемая для потока в файле. В поле Описание образца может содержаться несколько записей. Этот атрибут указывает, какую запись использовать. Значение — это Отсчитываемый от нуля индекс в списке.
 
@@ -45,9 +45,9 @@ ms.locfileid: "105647495"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 7 \|\]<br/>                                  |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 R2 \|\]<br/>                     |
-| Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | \[приложения UWP для классических приложений Windows 7 \|\]<br/>                                  |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для настольных приложений Server 2008 R2 \|\]<br/>                     |
+| Заголовок<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 
 

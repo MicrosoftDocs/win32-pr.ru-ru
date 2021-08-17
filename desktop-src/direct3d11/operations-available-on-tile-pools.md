@@ -4,12 +4,12 @@ description: В этом разделе перечислены операции,
 ms.assetid: 69CF182B-9161-43B7-89A5-0468E1BBD6B7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a6c9ec58e6c9197f107f47cd7fe3513f43030c0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b5c72e15ebe9a8fd2f6725451268d3d03fb7b181442907248d0db44860560aff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104260908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118098326"
 ---
 # <a name="operations-available-on-tile-pools"></a>Доступные операции с пулами плиток
 
@@ -22,13 +22,13 @@ ms.locfileid: "104260908"
 
 Данные невозможно скопировать в память пула плиток и из нее напрямую. Доступ к памяти всегда осуществляется с помощью мозаичных ресурсов.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Создание мозаичных ресурсов](creating-tiled-resources.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

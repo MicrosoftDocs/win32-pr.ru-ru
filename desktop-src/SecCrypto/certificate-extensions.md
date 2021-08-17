@@ -44,7 +44,7 @@ Certificate.Extensions()
 
 Объект [**Extensions**](extensions.md) , представляющий все расширения, связанные с сертификатом.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

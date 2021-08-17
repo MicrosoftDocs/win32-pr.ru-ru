@@ -67,7 +67,7 @@ ms.locfileid: "118682397"
 | Range-Upper            | 4096                                                                                                                                                                                                                                                                                                            |
 | Search-Flags           | 0x00000010                                                                                                                                                                                                                                                                                                      |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                                                      |
-| Классы, используемые в        | [**Организация**](c-organization.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Организация — роль**](c-organizationalrole.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> [**Частный пользователь**](c-residentialperson.md)<br/> |
+| Классы, используемые в        | [**План**](c-organization.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Организация — роль**](c-organizationalrole.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> [**Частный пользователь**](c-residentialperson.md)<br/> |
 
 
 
@@ -88,7 +88,7 @@ ms.locfileid: "118682397"
 | Range-Upper            | 4096                                                                                                                                                                                                                                                                                                                                                                    |
 | Search-Flags           | 0x00000010                                                                                                                                                                                                                                                                                                                                                              |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                                                                                                              |
-| Классы, используемые в        | [**Организация**](c-organization.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Организация — роль**](c-organizationalrole.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> [**Частный пользователь**](c-residentialperson.md)<br/> [**rFC822LocalPart**](c-rfc822localpart.md)<br/> |
+| Классы, используемые в        | [**План**](c-organization.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Организация — роль**](c-organizationalrole.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> [**Частный пользователь**](c-residentialperson.md)<br/> [**rFC822LocalPart**](c-rfc822localpart.md)<br/> |
 
 
 
@@ -109,7 +109,7 @@ ms.locfileid: "118682397"
 | Range-Upper            | 4096                                                                                                             |
 | Search-Flags           | 0x00000010                                                                                                       |
 | System-Flags           | 0x00000010                                                                                                       |
-| Классы, используемые в        | [**Организация**](c-organization.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> |
+| Классы, используемые в        | [**План**](c-organization.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> |
 
 
 
@@ -130,7 +130,7 @@ ms.locfileid: "118682397"
 | Range-Upper            | 4096                                                                                                                                                                                                                                                                                                                                                                    |
 | Search-Flags           | 0x00000010                                                                                                                                                                                                                                                                                                                                                              |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                                                                                                              |
-| Классы, используемые в        | [**Организация**](c-organization.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Организация — роль**](c-organizationalrole.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> [**Частный пользователь**](c-residentialperson.md)<br/> [**rFC822LocalPart**](c-rfc822localpart.md)<br/> |
+| Классы, используемые в        | [**План**](c-organization.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Организация — роль**](c-organizationalrole.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> [**Частный пользователь**](c-residentialperson.md)<br/> [**rFC822LocalPart**](c-rfc822localpart.md)<br/> |
 
 
 
@@ -151,7 +151,7 @@ ms.locfileid: "118682397"
 | Range-Upper            | 4096                                                                                                                                                                                                                                                                                                                                                                    |
 | Search-Flags           | 0x00000010                                                                                                                                                                                                                                                                                                                                                              |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                                                                                                              |
-| Классы, используемые в        | [**Организация**](c-organization.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Организация — роль**](c-organizationalrole.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> [**Частный пользователь**](c-residentialperson.md)<br/> [**rFC822LocalPart**](c-rfc822localpart.md)<br/> |
+| Классы, используемые в        | [**План**](c-organization.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Организация — роль**](c-organizationalrole.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> [**Частный пользователь**](c-residentialperson.md)<br/> [**rFC822LocalPart**](c-rfc822localpart.md)<br/> |
 
 
 
@@ -172,7 +172,7 @@ ms.locfileid: "118682397"
 | Range-Upper            | 4096                                                                                                                                                                                                                                                                                                                                                                    |
 | Search-Flags           | 0x00000010                                                                                                                                                                                                                                                                                                                                                              |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                                                                                                              |
-| Классы, используемые в        | [**Организация**](c-organization.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Организация — роль**](c-organizationalrole.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> [**Частный пользователь**](c-residentialperson.md)<br/> [**rFC822LocalPart**](c-rfc822localpart.md)<br/> |
+| Классы, используемые в        | [**План**](c-organization.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Организация — роль**](c-organizationalrole.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> [**Частный пользователь**](c-residentialperson.md)<br/> [**rFC822LocalPart**](c-rfc822localpart.md)<br/> |
 
 
 
@@ -193,7 +193,7 @@ ms.locfileid: "118682397"
 | Range-Upper            | 4096                                                                                                                                                                                                                                                                                                                                                                    |
 | Search-Flags           | 0x00000010                                                                                                                                                                                                                                                                                                                                                              |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                                                                                                              |
-| Классы, используемые в        | [**Организация**](c-organization.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Организация — роль**](c-organizationalrole.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> [**Частный пользователь**](c-residentialperson.md)<br/> [**rFC822LocalPart**](c-rfc822localpart.md)<br/> |
+| Классы, используемые в        | [**План**](c-organization.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Организация — роль**](c-organizationalrole.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> [**Частный пользователь**](c-residentialperson.md)<br/> [**rFC822LocalPart**](c-rfc822localpart.md)<br/> |
 
 
 

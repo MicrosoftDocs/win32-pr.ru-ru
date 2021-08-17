@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e4be10c5e1c7073afb3abf359c3ec2fb79a4335b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 16729e0a0a422c8ed2d8a8f323b563cb6a268fcb041e6a9d2ba13a9c9b847d79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104337377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117806662"
 ---
 # <a name="midl_user_allocate-attribute"></a>\_Пользовательский \_ атрибут пользовательского выделения MIDL
 
@@ -38,7 +38,7 @@ void __RPC_FAR * __RPC_API midl_user_allocate (size_t cBytes);
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Как клиентские приложения, так и серверные приложения должны реализовывать функцию **\_ пользовательского \_ выделения MIDL** , если только компиляция не выполняется в режиме использование-Compatibility ([**/ОСФ**](-osf.md)). Приложения и созданные заглушки **вызывают \_ \_ выделять пользователя MIDL** при работе с объектами, на которые ссылаются указатели:
 
@@ -92,7 +92,7 @@ void __RPC_FAR * __RPC_API midl_user_allocate(size_t cBytes)
 [**заполняет**](out-idl.md)
 </dt> <dt>
 
-[**ptr**](ptr.md)
+[**указатель**](ptr.md)
 </dt> <dt>
 
 [**ref**](ref.md)
@@ -101,6 +101,6 @@ void __RPC_FAR * __RPC_API midl_user_allocate(size_t cBytes)
 [**однозначно**](unique.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

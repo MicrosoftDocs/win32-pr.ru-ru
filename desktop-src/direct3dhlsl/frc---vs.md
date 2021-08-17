@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6990d5489058d217888f34caf0305badc4cab46d
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: b2ecc6a1c903f78fb7c03442809f792e3ddb984d04975d3f5ecb0b5c918f7ab4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104353412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117907647"
 ---
 # <a name="frc---vs"></a>ФРК — VS
 
@@ -31,12 +31,12 @@ ms.locfileid: "104353412"
 
  
 
-где
+where
 
 -   DST — это регистр назначения.
 -   src является исходным регистром.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -64,7 +64,7 @@ dest.w = src.w - (float)floor(src.w);
 
 Для версии 1 \_ 1 допустимые маски записи:. y и. XY (. x не разрешены).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

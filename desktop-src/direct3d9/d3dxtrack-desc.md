@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9anim.h
-ms.openlocfilehash: 12f1604cf954bcdd6a2a898fec5410804112e498
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: cddabb3ea79951e35831c2cdc32e11baeb5c7c1c4ce174fd29d9382edb391953
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117731121"
 ---
 # <a name="d3dxtrack_desc-structure"></a>\_Структура D3DXTRACK DESC
 
@@ -87,7 +87,7 @@ typedef struct D3DXTRACK_DESC {
 
 </dd> <dt>
 
-**Разрешить**
+**Включить**
 </dt> <dd>
 
 Тип: **[ **bool** .](../winprog/windows-data-types.md)**
@@ -98,7 +98,7 @@ typedef struct D3DXTRACK_DESC {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Курсы с одинаковым приоритетом смешиваются друг с другом, а два результирующих значения смешиваются с использованием коэффициента смешения приоритетов. С дорожкой должен быть связан набор анимации (хранящийся отдельно).
 
@@ -108,7 +108,7 @@ typedef struct D3DXTRACK_DESC {
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx9anim. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx9anim. h</dt> </dl> |
 
 
 

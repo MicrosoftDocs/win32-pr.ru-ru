@@ -1,6 +1,6 @@
 ---
 title: Структура RAS_PPP_IPXCP_RESULT (Рассапи. h)
-description: '\_Структура результатов «RAS PPP \_ IPXCP» \_ используется для передачи результатов операции проецирования объединенной сети PPP (IPX) для порта.'
+description: '\_структура результатов протокола удаленного доступа ppp ррр \_ \_ используется для передачи результатов операции проекции IPX-Exchange пакетов ppp для порта.'
 ms.assetid: e1236e1b-f0ef-46cf-a12f-35529215752c
 keywords:
 - RAS структуры RAS_PPP_IPXCP_RESULT
@@ -14,18 +14,18 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bb7ca4d006bd1a1df5a645799998b463c0b14f7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8bc79b7700fc47176928688b517377f5e02903da04841b50949937448065086d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117789608"
 ---
 # <a name="ras_ppp_ipxcp_result-structure"></a>\_ \_ Структура результатов PPP для RAS РРР \_
 
-\[**\_ \_ \_ Результирующая структура RAS PPP IPXCP** не поддерживается в Windows Vista.\]
+\[структура **\_ \_ \_ результатов протокола удаленного доступа ррр PPP** не поддерживается для Windows Vista.\]
 
-Структура **результатов «RAS \_ PPP \_ IPXCP \_** » используется для передачи результатов операции проецирования объединенной сети PPP (IPX) для порта.
+структура **\_ \_ \_ результатов протокола удаленного доступа ppp ррр** используется для передачи результатов операции проекции IPX-Exchange пакетов ppp для порта.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -67,7 +67,7 @@ typedef struct _RAS_PPP_IPXCP_RESULT {
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                 |
 | Окончание поддержки клиента<br/>    | Windows XP<br/>                                                                |
 | Поддержка конца сервера<br/>    | Windows Server 2003<br/>                                                       |
-| Header<br/>                   | <dl> <dt>Рассапи. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Рассапи. h</dt> </dl> |
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Элемент Event (журнал событий Windows)
+title: элемент Event (Windows журнал событий)
 description: Это корневой узел зарегистрированного события.
 ms.assetid: 35f93856-e88b-4cce-9439-ad1a01fc8f38
 keywords:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e020fbcdf17c2eeb803bab152a738252122cc43a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4db0b0ca90ff617a78bfa393adc057ba8bfdd9ae260ecebb487bd890bce8ff5e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105691787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118120318"
 ---
 # <a name="event-element"></a>Элемент Event
 
@@ -36,8 +36,8 @@ ms.locfileid: "105691787"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

@@ -1,17 +1,17 @@
 ---
 description: Существуют ситуации, когда ключи должны быть экспортированы из безопасной среды поставщика служб шифрования (CSP) в пространство данных приложения. Экспортированные ключи хранятся в зашифрованных структурах больших двоичных объектов.
 ms.assetid: 859b1bfe-6182-4728-a721-1f34cc98f66f
-title: Хранилище криптографических ключей и Exchange
+title: криптографические ключи служба хранилища и Exchange
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be7e789a736f0fcd5208bc16d73b43c6a9232e33
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3028efb449b59deb24a7097369d8894d0876907f3555c836e95e14d8c4bf5cfe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117768761"
 ---
-# <a name="cryptographic-key-storage-and-exchange"></a>Хранилище криптографических ключей и Exchange
+# <a name="cryptographic-key-storage-and-exchange"></a>криптографические ключи служба хранилища и Exchange
 
 Существуют ситуации, когда ключи должны быть экспортированы из безопасной среды [*поставщика служб шифрования*](../secgloss/c-gly.md) (CSP) в пространство данных приложения. Экспортированные ключи хранятся в зашифрованных структурах [*больших двоичных объектов*](../secgloss/k-gly.md) .
 

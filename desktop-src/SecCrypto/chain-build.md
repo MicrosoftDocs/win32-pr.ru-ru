@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 66ad51d94fdbd361a34e25b4b76289139abb87f2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5001fe6855a02ad487b16b56d01eb83d28c25c8ef5ba52e6249c9de1bd2fc8a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665038"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117769753"
 ---
 # <a name="ichain2build-method"></a>Метод IChain2:: Build
 
@@ -54,7 +54,7 @@ Chain.Build( _
 
 Логическое значение, указывающее общую достоверность цепочки. Общая достоверность основывается на политике проверки достоверности.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Цепочка создается с помощью свойства [**цертификатестатус. чеккфлаг**](certificatestatus-checkflag.md) , а также политик приложений и сертификатов, заданных объектом [**цертификатестатус**](certificatestatus.md) . Возвращенная коллекция упорядочена; Первый сертификат в коллекции **Certificates. Item**(1) является конечным сертификатом цепочки. Последний сертификат в коллекции **Certificates. Item**(**Certificates. Count**) — это [*корневой сертификат*](../secgloss/r-gly.md) цепочки. **Certificates. Item**(0) представляет всю цепочку.
 

@@ -82,7 +82,7 @@ Implements IWMPSettings2.requestMediaAccessRights
 
 Для использования этого метода приложения, работающие на компьютере пользователя, не требуются.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

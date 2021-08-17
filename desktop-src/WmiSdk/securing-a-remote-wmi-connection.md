@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Защита удаленного WMI-подключения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df2a044e49fed5eaa27fbc246dca3306a6c29650
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8650ee47c549121a51e5d131055a84c176da944c6146f0532ffc86f1d2f9e4c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104544687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117739518"
 ---
 # <a name="securing-a-remote-wmi-connection"></a>Защита удаленного WMI-подключения
 
@@ -20,19 +20,19 @@ ms.locfileid: "104544687"
 
 В этом разделе обсуждаются следующие разделы:
 
--   [Параметры олицетворения и проверки подлинности DCOM для WMI](#dcom-impersonation-and-authentication-settings-for-wmi)
+-   [олицетворение DCOM и Параметры проверки подлинности для WMI](#dcom-impersonation-and-authentication-settings-for-wmi)
 -   [Настройка безопасности DCOM для удаленного доступа пользователя к компьютеру](#setting-dcom-security-to-allow-a-user-to-access-a-computer-remotely)
 -   [Предоставление пользователям доступа к определенному пространству имен WMI](#allowing-users-access-to-a-specific-wmi-namespace)
 -   [Настройка безопасности пространства имен для обязательного шифрования данных для удаленных подключений](#setting-namespace-security-to-require-data-encryption-for-remote-connections)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
-## <a name="dcom-impersonation-and-authentication-settings-for-wmi"></a>Параметры олицетворения и проверки подлинности DCOM для WMI
+## <a name="dcom-impersonation-and-authentication-settings-for-wmi"></a>олицетворение DCOM и Параметры проверки подлинности для WMI
 
 WMI использует параметры олицетворения DCOM по умолчанию, проверки подлинности и службы проверки подлинности (NTLM или Kerberos), необходимые удаленной системе. Локальная система может использовать разные значения по умолчанию, которые не принимает Целевая удаленная система. Эти параметры можно изменить в вызове соединения. Дополнительные сведения см. в разделе [Установка параметров безопасности процессов для клиентских приложений](setting-client-application-process-security.md). Однако для службы проверки подлинности рекомендуется указать **RPC \_ C \_ AUTHN \_ по умолчанию** и разрешить DCOM выбрать соответствующую службу для целевого компьютера.
 
 Вы можете указать параметры в параметрах для вызовов [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity) или [**CoSetProxyBlanket**](/windows/win32/api/combaseapi/nf-combaseapi-cosetproxyblanket) в C++. В скриптах можно установить параметры безопасности в вызовах [**SWbemLocator. коннектсервер**](swbemlocator-connectserver.md), в объекте [**свбемсекурити**](swbemsecurity.md) или в строке [моникера](constructing-a-moniker-string.md) скрипта.
 
-Список всех констант олицетворения C++ см. в разделе [Задание уровня безопасности процесса по умолчанию с помощью C++](setting-the-default-process-security-level-using-c-.md). Сведения о Visual Basic констант и строках скрипта для использования моникера Connection см. в разделе [Задание уровня безопасности процесса по умолчанию с помощью VBScript](setting-the-default-process-security-level-using-vbscript.md).
+Список всех констант олицетворения C++ см. в разделе [Задание уровня безопасности процесса по умолчанию с помощью C++](setting-the-default-process-security-level-using-c-.md). сведения о Visual Basic констант и строках скрипта для использования моникера connection см. в разделе [задание уровня безопасности процесса по умолчанию с помощью VBScript](setting-the-default-process-security-level-using-vbscript.md).
 
 В следующей таблице перечислены параметры олицетворения DCOM, проверки подлинности и службы проверки подлинности по умолчанию, необходимые конечному компьютеру (компьютер б) в удаленном соединении. Дополнительные сведения см. в разделе Защита удаленного WMI-подключения.
 
@@ -40,13 +40,13 @@ WMI использует параметры олицетворения DCOM по
 
 | Операционная система компьютера B | Строка скрипта для уровня олицетворения | Строка скрипта уровня проверки подлинности | Служба проверки подлинности |
 |-----------------------------|--------------------------------------|---------------------------------------|------------------------|
-| Windows Vista или более поздней версии      | Impersonate                          | PKT                                   | Kerberos               |
+| Windows Vista или более поздней версии      | Impersonate                          | PKT                                   | Kerberos;               |
 
 
 
  
 
-На удаленные подключения WMI влияют [контроль учетных записей (UAC)](/previous-versions/aa905108(v=msdn.10)) и [Брандмауэр Windows](https://www.microsoft.com/technet/itsolutions/network/wf/default.mspx). Дополнительные сведения см. [в статье подключение к инструментарию WMI удаленно с помощью Vista](connecting-to-wmi-remotely-starting-with-vista.md) и [подключение через брандмауэр Windows](/windows/desktop/WmiSdk/connecting-to-wmi-remotely-starting-with-vista).
+на удаленные подключения WMI влияют [контроль учетных записей (UAC)](/previous-versions/aa905108(v=msdn.10)) и [брандмауэр Windows](https://www.microsoft.com/technet/itsolutions/network/wf/default.mspx). дополнительные сведения см. [в статье подключение к инструментарию WMI удаленно с помощью Vista](connecting-to-wmi-remotely-starting-with-vista.md) и [подключение через брандмауэр Windows](/windows/desktop/WmiSdk/connecting-to-wmi-remotely-starting-with-vista).
 
 Имейте в виду, что подключение к WMI на локальном компьютере имеет уровень проверки подлинности **пктприваци** по умолчанию.
 
@@ -89,7 +89,7 @@ WMI использует параметры олицетворения DCOM по
 
 **Установка разрешений на удаленное включение**
 
-1.  Подключитесь к удаленному компьютеру с помощью элемента управления WMI.
+1.  Подключение на удаленный компьютер с помощью элемента управления WMI.
 
     Дополнительные сведения об элементе управления WMI см. [в разделе Настройка безопасности пространства имен с помощью элемента управления WMI](setting-namespace-security-with-the-wmi-control.md).
 
@@ -111,7 +111,7 @@ Set objWMIService = GetObject("winmgmts:{impersonationLevel=impersonate,authenti
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

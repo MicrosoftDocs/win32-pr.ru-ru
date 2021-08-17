@@ -4,12 +4,12 @@ description: Одной из наиболее полезных функций м
 ms.assetid: ea2453f3-7a64-4ce0-87c2-de6224ca71df
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b5375bb505ff3737fb4e0cdea894790d93c0051
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3ad815cdb89dda7f58fe1507d43a07a14d24875309668297e20ec51114dd65d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103779811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117737030"
 ---
 # <a name="composite-monikers"></a>Составные моникеры
 
@@ -29,7 +29,7 @@ ms.locfileid: "103779811"
 
 Клиенты моникера должны вызывать [**IMoniker:: компосевис**](/windows/desktop/api/ObjIdl/nf-objidl-imoniker-composewith) , чтобы создать составной объект с другим именем. Моникер, который вызывается внутренним образом, определяет, может ли он выполнять универсальную или неуниверсальную композицию. Если реализация моникера определяет, что универсальная композиция может использоваться, OLE предоставляет функцию [**креатеженериккомпосите**](/windows/desktop/api/Objbase/nf-objbase-creategenericcomposite) для упрощения этого.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -48,9 +48,9 @@ ms.locfileid: "103779811"
 [Моникеры указателей](pointer-monikers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

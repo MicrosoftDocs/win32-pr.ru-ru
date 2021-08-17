@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 38e60c6bb8084e7f8e1c0ee71379af552e73c09d
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ec21ad688a3b88576de3e97ac3497ddef49446b47ceef81cdcd4e8db60806a08
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108097932"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117730850"
 ---
 # <a name="d3dxvec2transformarray-function-d3dx9mathh"></a>Функция D3DXVec2TransformArray (D3dx9math. h)
 
@@ -117,12 +117,12 @@ D3DXVECTOR4* D3DXVec2TransformArray(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

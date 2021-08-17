@@ -42,7 +42,7 @@ NetworkSettings.Name As String
 
 Имя сетевого профиля.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

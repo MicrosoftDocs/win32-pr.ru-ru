@@ -4,12 +4,12 @@ ms.assetid: 03783ef3-f957-41e3-9734-94cb34ecc088
 title: Атрибут MF_TOPOLOGY_DXVA_MODE (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ad75b37a2ca2e971077b05d1bbeb92748530614
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5462ccf575f94935d100eb70a6d806e139f09762151c2dad8d4e155ca5d1d17e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117875741"
 ---
 # <a name="mf_topology_dxva_mode-attribute"></a>\_ \_ Атрибут режима ДКСВА топологии MF \_
 
@@ -29,7 +29,7 @@ ms.locfileid: "105701465"
 
 [**имфтопологи**](/windows/desktop/api/mfidl/nn-mfidl-imftopology)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значением этого атрибута является константа перечисления [**мфтопологи \_ дксва \_ mode**](/windows/desktop/api/mfidl/ne-mfidl-mftopology_dxva_mode) . Значение по умолчанию — **мфтопологи \_ дксва \_ по умолчанию**.
 
@@ -43,9 +43,9 @@ ms.locfileid: "105701465"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                         |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                            |
-| Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                         |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                            |
+| Заголовок<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
 

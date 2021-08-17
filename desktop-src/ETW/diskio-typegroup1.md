@@ -21,12 +21,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 9d20f80eb840283600f5d106f89c6cf8032ee746
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a69643602a59fa7be8cd844f3f2908c92e2e08545f7444d1002ec1542b36730
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104542514"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117814980"
 ---
 # <a name="diskio_typegroup1-class"></a>\_Класс дискио TypeGroup1
 
@@ -52,13 +52,13 @@ class DiskIo_TypeGroup1 : DiskIo
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **дискио \_ TypeGroup1** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **дискио \_ TypeGroup1** имеет следующие свойства.
 
@@ -128,7 +128,7 @@ class DiskIo_TypeGroup1 : DiskIo
 
 **Windows Server 2003:** Это свойство имеет значение [**вмидатаид**](event-tracing-mof-qualifiers.md) , равное 7.
 
-**Windows 2000 Server и windows 2000 Professional:** Это свойство не поддерживается.
+**Windows 2000 Server и Windows 2000 Professional:** Это свойство не поддерживается.
 
 </dd> <dt>
 
@@ -146,7 +146,7 @@ class DiskIo_TypeGroup1 : DiskIo
 
 Пакет запроса ввода-вывода, который определяет действие ввода-вывода.
 
-**Windows server 2003, windows 2000 Server и windows 2000 Professional:** Это свойство не поддерживается.
+**Windows server 2003, Windows 2000 server и Windows 2000 Professional:** Это свойство не поддерживается.
 
 </dd> <dt>
 
@@ -224,7 +224,7 @@ class DiskIo_TypeGroup1 : DiskIo
 
 Идентификатор выдающего потока.
 
-**Windows server 2008 R2, Windows server 2008, Windows 7, Windows Vista, Windows server 2003 с пакетом обновления 1 (SP1), Windows server 2003, windows 2000 Server и windows 2000 Professional:** Это свойство не поддерживается.
+**Windows server 2008 R2, Windows Server 2008, Windows 7, Windows Vista, Windows server 2003 с пакетом обновления 1 (SP1), Windows server 2003, Windows 2000 Server и Windows 2000 Professional:** Это свойство не поддерживается.
 
 </dd> <dt>
 
@@ -242,9 +242,9 @@ class DiskIo_TypeGroup1 : DiskIo
 
 Зарезервировано.
 
-**Windows server 2008 R2, Windows server 2008 и Windows 7:** Имя свойства — **куеуедепс**, которое содержит счетчик тактов ЦП от начала операции до конца операции. Обратите внимание, что это значение может быть переполнено.
+**Windows server 2008 R2, Windows Server 2008 и Windows 7:** Имя свойства — **куеуедепс**, которое содержит счетчик тактов ЦП от начала операции до конца операции. Обратите внимание, что это значение может быть переполнено.
 
-Windows **Vista, Windows server 2003 с пакетом обновления 1 (SP1), Windows server 2003, windows 2000 Server и windows 2000 Professional:** Имя свойства — **соглашение**, которое содержит счетчик тактов ЦП от начала операции до конца операции. Обратите внимание, что это значение может быть переполнено.
+**Windows Vista, Windows server 2003 с пакетом обновления 1 (SP1), Windows server 2003, Windows 2000 Server и Windows 2000 Professional:** Имя свойства — **соглашение**, которое содержит счетчик тактов ЦП от начала операции до конца операции. Обратите внимание, что это значение может быть переполнено.
 
 </dd> <dt>
 
@@ -264,9 +264,9 @@ Windows **Vista, Windows server 2003 с пакетом обновления 1 (S
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
-Windows Server 2003 использует следующее определение для класса типа событий **дискио \_ TypeGroup1** .
+Windows Сервер 2003 использует следующее определение для класса типа событий **дискио \_ TypeGroup1** .
 
 ``` syntax
 [EventType{10, 11}, EventTypeName{"Read", "Write"}]
@@ -286,7 +286,7 @@ class DiskIo_TypeGroup1 : DiskIo
 
 Свойство **хигхресреспонсетиме** не поддерживается.
 
-В Windows Server 2003 с пакетом обновления 1 (SP1) и Windows Vista используется следующее определение класса типа событий **дискио \_ TypeGroup1** .
+Windows сервер 2003 с пакетом обновления 1 (SP1) и Windows Vista использует следующее определение для класса типа событий **дискио \_ TypeGroup1** .
 
 ``` syntax
 [EventType{10, 11}, EventTypeName{"Read", "Write"}]

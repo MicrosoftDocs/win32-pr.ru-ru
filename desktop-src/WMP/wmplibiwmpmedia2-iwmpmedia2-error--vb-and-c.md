@@ -55,7 +55,7 @@ Public ReadOnly Property Error As IWMPErrorItem
 
 Если не удается воспроизвести элемент мультимедиа, это свойство получает интерфейс **ивмперроритем** , содержащий сведения о возникшей проблеме.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

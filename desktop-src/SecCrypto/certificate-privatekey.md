@@ -47,7 +47,7 @@ Certificate.PrivateKey As PrivateKey
 
 Это свойство вызывает CAPICOM \_ E \_ не \_ разрешено, если оно задано из веб-приложения.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

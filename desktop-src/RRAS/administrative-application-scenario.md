@@ -4,12 +4,12 @@ description: Административные приложения вызыва�
 ms.assetid: ed172425-6d1e-45d8-8076-7705e833bfd5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72c7d69b88503f7a4af18f0ab4650923a2845f5c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 527c8574a0e6ab85fe4e826a224377fa0de5de3851b7e31264b4c68c3c2fce56
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105672093"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117791919"
 ---
 # <a name="administrative-application-scenario"></a>Сценарий административного приложения
 

@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aa424b91b72dca5539fd0f96a1380e86d1f23f58
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2319a72e50d83f3780b68de163dc370d5627c28ab4ab84f6621c11faf6df7805
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104998726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117734117"
 ---
 # <a name="id3dx11effectvariablegetparentconstantbuffer-method"></a>Метод ID3DX11EffectVariable:: Жетпарентконстантбуффер
 
@@ -47,7 +47,7 @@ ID3DX11EffectConstantBuffer* GetParentConstantBuffer();
 
 Указатель на [**ID3DX11EffectConstantBuffer**](id3dx11effectconstantbuffer.md).
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Переменные эффектов считываются или записываются в буфер констант.
 
@@ -62,7 +62,7 @@ ID3DX11EffectConstantBuffer* GetParentConstantBuffer();
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
+| Заголовок<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
 | Библиотека<br/> | <dl> <dt>Н/д (библиотека Effects 11 доступна в сети в качестве общего источника.)</dt> </dl> |
 
 

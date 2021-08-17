@@ -4,12 +4,12 @@ description: Чтобы изменить сведения об интерфей�
 ms.assetid: 208e356b-328e-416d-881c-732fed460ebf
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e5c8f2ef3c37d75db1cc7686a67108530b16b28
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bcea02c6d70e7d7e2da53926854879f1ca5b76526a83185b786b0074b8098434
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986476"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117791757"
 ---
 # <a name="changing-interface-specific-and-global-information-for-clients"></a>Изменение Interface-Specific и глобальных сведений для клиентов
 
@@ -26,9 +26,9 @@ ms.locfileid: "103986476"
 
 Диспетчер маршрутизаторов вызывает функции [**жетинтерфацеинфо**](/windows/desktop/api/Routprot/nc-routprot-pget_interface_info) для каждого клиента, чтобы собрать сведения, возвращаемые при вызове функции [**мпрадмининтерфацетранспортжетинфо**](/windows/desktop/api/Mprapi/nf-mprapi-mpradmininterfacetransportgetinfo). Аналогично, когда диспетчер маршрутизатора получает обновленные сведения через вызов [**мпрадмининтерфацетранспортсетинфо**](/windows/desktop/api/Mprapi/nf-mprapi-mpradmininterfacetransportsetinfo) , он использует функции [**сетинтерфацеинфо**](/windows/desktop/api/Routprot/nc-routprot-pset_interface_info) для обновления сведений об интерфейсе для каждого из клиентов.
 
- 
+ 
 
- 
+ 
 
 
 

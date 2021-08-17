@@ -3,7 +3,7 @@ title: THEME. Аусорверсион
 description: Атрибут Аусорверсион указывает или получает номер версии обложки, назначенный автором.
 ms.assetid: b05cfc65-34b6-4029-953e-0dfa1bb3108e
 keywords:
-- Проигрыватель Windows Media THEME. Аусорверсион
+- проигрыватель Windows Media THEME. аусорверсион
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dd00fd03fc027f1faac35bf729743726bc654674
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4d58dafcbbbe582f299f4f5807416ddcc73d1c3574f3daf305f0fe862f852ece
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118117842"
 ---
 # <a name="themeauthorversion"></a>THEME. Аусорверсион
 
@@ -37,7 +37,7 @@ theme.authorVersion
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

@@ -4,18 +4,18 @@ ms.assetid: e344c360-4ab5-4a5f-a1b2-b0fa890b8666
 title: Пример WPA-Enterprise с PEAP-MSCHAPv2 профилем
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 364cc7a9cc85e4c5e2ef908c0ac2a4726d6c5a96
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: c6bd504f803795613b545c64025df3094346ea2478dd729b91ec8cec69f45c3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112395049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117797434"
 ---
 # <a name="wpa-enterprise-with-peap-mschapv2-profile-sample"></a>Пример WPA-Enterprise с PEAP-MSCHAPv2 профилем
 
 Этот пример профиля использует защищенный протокол расширенной проверки подлинности с использованием протокола проверки подлинности Microsoft Challenge версии 2 (PEAP-MSCHAPv2) с **/** _паролем_ * username * для проверки подлинности в сети. Пользователю предлагается ввести учетные данные.
 
-Этот пример настроен для использования Wi-Fi безопасности защищенного доступа, работающей в режиме предприятия (WPA-Enterprise). Тип безопасности WPA-Enterprise использует 802.1 X для обмена аутентификацией с серверной частью. Для шифрования используется протокол TKIP.
+этот пример настроен для использования защиты Wi-Fi защищенного доступа, работающей в режиме Enterprise (WPA-Enterprise). Тип безопасности WPA-Enterprise использует 802.1 X для обмена аутентификацией с серверной частью. Для шифрования используется протокол TKIP.
 
 **Windows XP с SP3 и API беспроводной локальной сети для Windows XP с пакетом обновления 2 (SP2):** Дочерний элемент [**Name**](wlan-profileschema-name-wlanprofile-element.md) элемента [**вланпрофиле**](wlan-profileschema-wlanprofile-element.md) игнорируется. Имя профиля, хранящееся в хранилище профилей, является производным от дочернего элемента [**имени**](wlan-profileschema-name-ssid-element.md) [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md) .
 

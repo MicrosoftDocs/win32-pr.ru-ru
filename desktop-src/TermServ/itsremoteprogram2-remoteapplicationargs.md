@@ -50,7 +50,7 @@ HRESULT put_RemoteApplicationArgs(
 
 Аргументы командной строки RemoteApp.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

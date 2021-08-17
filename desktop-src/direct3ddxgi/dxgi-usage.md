@@ -4,12 +4,12 @@ ms.assetid: b5026566-89b5-458e-b36d-a55e5f8c10c1
 title: DXGI_USAGE (DXGI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e55e99d86201c76fbe2ec229b13b5831d767ff34
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1d7bc0773794c6c2243d8a3171cbd6ffdafbe1cdd558e1198c2c8cc0b1a3440d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117909935"
 ---
 # <a name="dxgi_usage"></a>\_Использование DXGI
 
@@ -29,7 +29,7 @@ ms.locfileid: "105703747"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Каждый флаг определяется как целое число без знака.
 
@@ -59,7 +59,7 @@ typedef UINT DXGI_USAGE;
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>DXGI. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>DXGI. h</dt> </dl> |
 
 
 

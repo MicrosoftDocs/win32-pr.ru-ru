@@ -3,7 +3,7 @@ title: Код уведомления NM_HOVER (представление спи
 description: Посылается элементом управления "представление списка" при наведении указателя мыши на элемент. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: 0d4a2eee-9c98-43d1-bc05-226d91c0480a
 keywords:
-- Элементы управления Windows для кода уведомления NM_HOVER (представление списка)
+- NM_HOVER (представление списка) код уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e60606dfac73e13b0439ce861f37cb4ec941fda3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fb380e96e579e5e740678a4fa91270c510e7ca01c3596a68cdac02eedd3f1da8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118411138"
 ---
 # <a name="nm_hover-list-view-notification-code"></a>\_Код уведомления для наведения в NM (представление списка)
 
@@ -55,8 +55,8 @@ NM_HOVER
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: fcaaafa1f2e870195b612eb225696f2c23a80ee1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b56e9bca2cc7c666f980df8905ac79fc885050d37359e524a83e287dcd5415e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117770094"
 ---
 # <a name="certificatestatusurlretrievaltimeout-property"></a>Цертификатестатус. Урлретриевалтимеаут, свойство
 
@@ -39,7 +39,7 @@ CertificateStatus.UrlRetrievalTimeout As Long
 
 Число секунд, по истечении которого URL-адрес будет недоступен.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если это свойство не задано, время ожидания по умолчанию — 15 секунд.
 

@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 96751a7f2f1aedcd9e29be981ffadf6c43bf4008
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 331e2831ff18656f23a3d7067b8ab472835bf4a25760f6e86a92302621048a48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104069891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117871071"
 ---
 # <a name="imediarendereractioninformationismuteavailable-method"></a>Метод Имедиарендерерактионинформатион:: Исмутеаваилабле
 

@@ -11,12 +11,12 @@ api_name:
 - nameType
 api_type:
 - Schema
-ms.openlocfilehash: d8c6032e17eaf2d067dc23030a7a6279bd41eafa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9b07bfb62e23b0c82ef69bc924147675caad10d61258a5c49edc906c4b6bf2a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117881408"
 ---
 # <a name="nametype-simple-type-mobile-broadband"></a>простой тип Наметипе (мобильное широкополосное подключение)
 
@@ -43,7 +43,7 @@ ms.locfileid: "105662415"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 7 \|\]<br/> |
+| Минимальная версия клиента<br/> | \[приложения UWP для классических приложений Windows 7 \|\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                         |
 
 

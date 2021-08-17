@@ -3,8 +3,8 @@ title: Цветовые пространства HSV
 description: Цветовые пространства оттенок, насыщенность и значение (HSV) часто используются исполнителями.
 ms.assetid: a2ee9f29-0b81-4edc-8af8-f4df765e9952
 keywords:
-- Цветовая система Windows (WCS), HSV Color Spaces
-- WCS (цветовая система Windows), цветовые пространства HSV
+- Windows Цветовая система (WCS), HSV цветовые пространства
+- WCS (Windows цветовая система), цветовые пространства HSV
 - Управление цветом изображений, цветовые пространства HSV
 - Управление цветом, цветовые пространства HSV
 - цвета, HSV цветовые пространства
@@ -12,7 +12,7 @@ keywords:
 - HSV цветовые пространства
 - цвет
 - насыщенность
-- значение
+- Значение
 - освещенность
 - нулевое насыщенность
 - значение насыщенности оттенка (HSV)
@@ -20,12 +20,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4135e9c30dd69b8c5add5d9d8e6d784127ebaec9
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: 30596e1f2d49e2ff3f15e2c5368f2c488640b6c26e00b38741aeb13f055d4ebe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "104558967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117851938"
 ---
 # <a name="hsv-color-spaces"></a>Цветовые пространства HSV
 

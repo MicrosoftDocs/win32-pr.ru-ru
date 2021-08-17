@@ -29,7 +29,7 @@ ms.locfileid: "118403756"
 
 Это свойство доступно для чтения и записи.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

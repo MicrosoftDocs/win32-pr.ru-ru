@@ -4,12 +4,12 @@ ms.assetid: 31b2eefe-e531-453d-8bbf-4cd3a2aa84e5
 title: System. Message. Фромнаме
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c09280edcfbb76c310f9f317b2d1ec90f2e3ddc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 04438799ad10069dedbbc9c0c4b729cdcd82f07f0dbc3662bc582626ca7f19ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117865185"
 ---
 # <a name="systemmessagefromname"></a>System. Message. Фромнаме
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

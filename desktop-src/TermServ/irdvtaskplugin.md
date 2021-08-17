@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 59e90e899e8084f7fbc6b0b6f11067061eaa807b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fe76f0b0b92286d5a4b7db5126706fd55bdb6f580c11fda1dcaa55a47be4678c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989340"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118129173"
 ---
 # <a name="irdvtaskplugin-interface"></a>Интерфейс Ирдвтаскплугин
 
@@ -63,13 +63,13 @@ ms.locfileid: "103989340"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Агент задачи выполняется на виртуальной машине, когда для этой виртуальной машины запланировано обновление системы. Агент задач обновляет виртуальную машину при вызове метода [**StartTask**](irdvtaskplugin-starttask.md) .
 
 Чтобы зарегистрировать агент задач, добавьте следующий ключ в реестр виртуальной машины:
 
-**HKey \_ \_** \\ **Программное обеспечение** локального компьютера — \\  \\  \\  \\  \\  \\ **подключаемые модули** задач сервера терминалов \\  Microsoft Windows NT CurrentVersion таскажентнаме
+**HKey \_ \_** \\ **программное обеспечение** на локальном компьютере. \\  \\  \\  \\  \\  \\ **подключаемые модули** задачи сервера терминалов \\  Microsoft Windows NT CurrentVersion таскажентнаме
 
 В разделе этого раздела реестра добавьте следующие значения:
 
@@ -97,7 +97,7 @@ ms.locfileid: "103989340"
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------|
-| Минимальная версия клиента<br/> | Windows 7 Корпоративная<br/>   |
+| Минимальная версия клиента<br/> | Windows 7 Корпоративная<br/>   |
 | Минимальная версия сервера<br/> | Windows Server 2008 R2<br/> |
 
 

@@ -4,16 +4,16 @@ description: Иажентчарактер показывать
 ms.assetid: 5f13dcef-3777-41eb-827f-6162bad71a2e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 997a9879d564644085bd92e4515460c3dde33208
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: dcefb523bd2e9f477991bf6fa8352382f75b6bc76d93aab2e7f5c9e8cc1358dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104070007"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117693006"
 ---
 # <a name="iagentcharactershow"></a>Иажентчарактер:: показывать
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT Show(
@@ -46,11 +46,11 @@ HRESULT Show(
 
 При использовании протокола HTTP для доступа к данным символов и анимации используйте метод [**Prepare**](/windows/desktop/lwef/iagentcharacter--prepare) , чтобы обеспечить доступность анимации **отображаемого** состояния перед вызовом этого метода.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [**Иажентчарактер:: Hide**](iagentcharacter--hide.md)
 
 
- 
+ 
 
- 
+ 

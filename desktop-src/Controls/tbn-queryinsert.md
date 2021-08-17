@@ -3,7 +3,7 @@ title: Код уведомления TBN_QUERYINSERT (Коммктрл. h)
 description: Сообщает родительскому окну панели инструментов, можно ли вставить кнопку слева от указанной кнопки, пока пользователь настраивает панель инструментов. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: d389fabb-16f6-43aa-a4b6-abb80723345b
 keywords:
-- TBN_QUERYINSERT кода уведомления элементы управления Windows
+- TBN_QUERYINSERT кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a1a21e9ade8f54ffe27ebffdfc2a8b535b4b3630
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 44f741fd7cfa5c6f72405b10ba9678aed71f7cb2359743593f117b17c8ad1c8e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118166964"
 ---
 # <a name="tbn_queryinsert-notification-code"></a>\_Код уведомления ТБН куеринсерт
 
@@ -55,9 +55,9 @@ TBN_QUERYINSERT
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

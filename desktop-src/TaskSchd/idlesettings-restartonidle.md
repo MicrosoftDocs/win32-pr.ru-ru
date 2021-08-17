@@ -46,7 +46,7 @@ IdleSettings.RestartOnIdle As Boolean
 
 При чтении или записи XML для задачи этот параметр указывается в элементе [**рестартонидле**](taskschedulerschema-restartonidle-idlesettingstype-element.md) схемы планировщик задач.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -4,9 +4,9 @@ description: Возвращает значение флага перечисле
 ms.assetid: f4c5966a-0d9f-4d93-9ccd-2e8a5f32b77f
 ms.tgt_platform: multiple
 keywords:
-- служба удаленного управления Windows метода Енумератионфлагхиерарчидипбасепропсонли
-- Служба удаленного управления Windows метода Енумератионфлагхиерарчидипбасепропсонли, объект WSMan
-- Объект WSMan служба удаленного управления Windows, метод Енумератионфлагхиерарчидипбасепропсонли
+- служба удаленного управления Windows метода енумератионфлагхиерарчидипбасепропсонли
+- служба удаленного управления Windows метода енумератионфлагхиерарчидипбасепропсонли, объект WSMan
+- объект WSMan служба удаленного управления Windows, метод енумератионфлагхиерарчидипбасепропсонли
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86a0ed7d725f60e673d3426be1b11179ec8333d5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 197c615b8d805fc142fa8afb2cf4fbb56ef22eec76caf63f03c27f3d9f131b82
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105710489"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117742462"
 ---
 # <a name="wsmanenumerationflaghierarchydeepbasepropsonly-method"></a>Метод WSMan. Енумератионфлагхиерарчидипбасепропсонли
 
@@ -64,7 +64,7 @@ WSMan.EnumerationFlagHierarchyDeepBasePropsOnly( _
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                 |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                           |
-| Header<br/>                   | <dl> <dt>Всмандисп. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Всмандисп. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Всмандисп. idl</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Всмандисп. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WSMAuto.dll</dt> </dl>   |
@@ -78,7 +78,7 @@ WSMan.EnumerationFlagHierarchyDeepBasePropsOnly( _
 [**Ведущий**](wsman.md)
 </dt> <dt>
 
-[**Session**](session.md)
+[**Сеанс**](session.md)
 </dt> </dl>
 
  

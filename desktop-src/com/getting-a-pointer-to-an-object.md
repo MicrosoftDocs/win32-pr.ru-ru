@@ -4,12 +4,12 @@ description: Получение указателя на объект
 ms.assetid: 4af9d356-402b-4e69-9f6e-8589057d3ac4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0476d36390e7077e7fdd75eef8d95e8173683891
-ms.sourcegitcommit: 307b14e9847ced354a52a1ac12d7f659722d99bb
+ms.openlocfilehash: fc588518d5c3da884755d7db122738ca2fca257d76a1f8219867da357ef8444f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "105710249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117736703"
 ---
 # <a name="getting-a-pointer-to-an-object"></a>Получение указателя на объект
 
@@ -38,7 +38,7 @@ ms.locfileid: "105710249"
 
 Когда двум объектам, например контейнеру составного документа OLE и серверу, требуется двунаправленная связь, каждый из них реализует объект, содержащий метод интерфейса, с помощью которого он может передать указатель интерфейса другому объекту. Реализующий объект, который также является клиентом созданного объекта, может затем вызвать метод и получить переданный указатель.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -48,9 +48,9 @@ ms.locfileid: "105710249"
 [Обязанности сервера COM](com-server-responsibilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

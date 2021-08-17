@@ -1,6 +1,6 @@
 ---
-title: Оптическое хранилище уровня 1
-description: Оптическое хранилище уровня 1
+title: оптический служба хранилища уровня 1
+description: оптический служба хранилища уровня 1
 ms.assetid: 4ba0b3fa-d9ed-4058-896e-18c9d6707839
 keywords:
 - Мультимедиа-ПК (MPC), уровень 1
@@ -9,14 +9,14 @@ keywords:
 - MPC уровня 1, оптические хранилища
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98189cd6ab9ffde07b5f2682ef0723828b947f55
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c3a36b14ab23c636a3cdbdae7eb5b6da749947c3c0353873a5e35bc5b81c6f4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104486748"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118139872"
 ---
-# <a name="level-1-optical-storage"></a>Оптическое хранилище уровня 1
+# <a name="level-1-optical-storage"></a>оптический служба хранилища уровня 1
 
 Минимальное устройство хранения оптических данных — это дисковод компакт-дисков, который соответствует следующим критериям:
 
@@ -24,9 +24,9 @@ ms.locfileid: "104486748"
 -   Использование пропускной способности ЦП в 40 процента или меньше при сохранении постоянной скорости передачи данных в 150 килобайт в секунду
 -   Среднее время поиска, равное 1 секунде или меньше
 
- 
+ 
 
- 
+ 
 
 
 

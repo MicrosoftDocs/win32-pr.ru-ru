@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9shader.h
-ms.openlocfilehash: 71b9cc893cdcfdc9802aca173627cd9da4f9ca4b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2bd62cfc3531442f815a16148e23c281735f29e7097e5aa2b55fb03b0c0341c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104354713"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117731272"
 ---
 # <a name="d3dxshader_typeinfo-structure"></a>\_Структура TYPEINFO D3DXSHADER
 
@@ -122,7 +122,7 @@ typedef struct D3DXSHADER_TYPEINFO {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Сведения о типе являются частью [**D3DXSHADER \_ структмемберинфо**](d3dxshader-structmemberinfo.md).
 
@@ -132,7 +132,7 @@ typedef struct D3DXSHADER_TYPEINFO {
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx9shader. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx9shader. h</dt> </dl> |
 
 
 

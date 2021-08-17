@@ -4,9 +4,9 @@ description: Возвращает значение флага перечисле
 ms.assetid: a1d82530-63d7-4050-9e82-e31bec93bf38
 ms.tgt_platform: multiple
 keywords:
-- служба удаленного управления Windows метода Енумератионфлагретурнобжект
-- Служба удаленного управления Windows метода Енумератионфлагретурнобжект, объект WSMan
-- Объект WSMan служба удаленного управления Windows, метод Енумератионфлагретурнобжект
+- служба удаленного управления Windows метода енумератионфлагретурнобжект
+- служба удаленного управления Windows метода енумератионфлагретурнобжект, объект WSMan
+- объект WSMan служба удаленного управления Windows, метод енумератионфлагретурнобжект
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e3019f880503f91d1488a2b7a41574cadc2df987
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b72d070770cdfe23083dc588ab2111fe9d891d0b8462ee66fa930e2e2fea444a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105710519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117742263"
 ---
 # <a name="wsmanenumerationflagreturnobject-method"></a>Метод WSMan. Енумератионфлагретурнобжект
 
@@ -64,7 +64,7 @@ WSMan.EnumerationFlagReturnObject( _
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                 |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                           |
-| Header<br/>                   | <dl> <dt>Всмандисп. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Всмандисп. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Всмандисп. idl</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Всмандисп. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WSMAuto.dll</dt> </dl>   |
@@ -78,7 +78,7 @@ WSMan.EnumerationFlagReturnObject( _
 [**Ведущий**](wsman.md)
 </dt> <dt>
 
-[**Session**](session.md)
+[**Сеанс**](session.md)
 </dt> </dl>
 
  

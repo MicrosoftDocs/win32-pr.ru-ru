@@ -3,7 +3,7 @@ title: EFFECTs. Еффексаспропертипаже
 description: Атрибут Еффексаспропертипаже извлекает значение, указывающее, содержит ли текущая визуализация страницу свойств.
 ms.assetid: 6014d510-35b6-4b5c-802e-b425297c5be3
 keywords:
-- Effect. Еффексаспропертипаже Windows Media Player
+- effects. еффексаспропертипаже проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c60cef0e79238a07d5ba46c5ea097f6fd9d683c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 47b0c900257af5c9cda7b0a0bb21040b47b49792293033d89c82284e479fb182
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694701"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117749226"
 ---
 # <a name="effectseffecthaspropertypage"></a>EFFECTs. Еффексаспропертипаже
 
@@ -35,7 +35,7 @@ ms.locfileid: "105694701"
 
 | Значение | Описание                                  |
 |-------|----------------------------------------------|
-| true  | Визуализация содержит страницу свойств.           |
+| Да  | Визуализация содержит страницу свойств.           |
 | false | Визуализация не имеет страницы свойств. |
 
 
@@ -48,7 +48,7 @@ ms.locfileid: "105694701"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

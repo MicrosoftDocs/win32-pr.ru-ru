@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: ccd4b98efc987630ab625e5c9788f0be16018e88
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: afdacd0b4579bcb73bfaaa2da0b3714c7d597d94c0d25020e7353e3afd168d71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711769"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117927325"
 ---
 # <a name="sockaddr"></a>SOCKADDR
 
@@ -25,7 +25,7 @@ ms.locfileid: "105711769"
 
 Функции Winsock, использующие SOCKADDR, не строго обрабатываются как указатели на структуру SOCKADDR. Структура интерпретируется по-разному в контексте различных семейств адресов. Единственное требование заключается в том, что первый **u- \_ короткий** — это семейство адресов, а общий размер буфера памяти в байтах — *namelen*.
 
-Структура [**\_ хранилища SOCKADDR**](/previous-versions/windows/desktop/legacy/ms740504(v=vs.85)) также хранит сведения об адресе сокета, и структура достаточно велика для хранения сведений об адресах IPv4 или IPv6. Использование структуры **\_ хранилища SOCKADDR** способствует использованию семейства протоколов и независящей от версии протокола и упрощает разработку. Рекомендуется использовать структуру **\_ хранения SOCKADDR** вместо структуры SOCKADDR. Структура **\_ хранилища SOCKADDR** поддерживается в Windows Server 2003 и более поздних версиях.
+Структура [**\_ хранилища SOCKADDR**](/previous-versions/windows/desktop/legacy/ms740504(v=vs.85)) также хранит сведения об адресе сокета, и структура достаточно велика для хранения сведений об адресах IPv4 или IPv6. Использование структуры **\_ хранилища SOCKADDR** способствует использованию семейства протоколов и независящей от версии протокола и упрощает разработку. Рекомендуется использовать структуру **\_ хранения SOCKADDR** вместо структуры SOCKADDR. структура **\_ хранилища SOCKADDR** поддерживается на Windows Server 2003 и более поздних версий.
 
 Структура SOCKADDR и SOCKADDR \_ в представленных ниже структурах используются с IPv4. Другие протоколы используют аналогичные структуры.
 
@@ -67,7 +67,7 @@ struct sockaddr_in6_old {
 };
 ```
 
-В пакете средств разработки программного обеспечения Microsoft Windows (SDK), выпущенном для Windows Vista и более поздних версий, **SOCKADDR** и **SOCKADDR \_ в** тегах typedef определяются для SOCKADDR и SOCKADDR \_ в структурах следующим образом:
+в пакете Microsoft Windows Software Development Kit (SDK), выпущенном для Windows Vista и более поздних версий, **SOCKADDR** и **SOCKADDR \_ в** тегах typedef определяются для SOCKADDR и SOCKADDR \_ в структурах следующим образом:
 
 ``` syntax
 typedef struct sockaddr {
@@ -92,7 +92,7 @@ typedef struct sockaddr_in {
 } SOCKADDR_IN, *PSOCKADDR_IN;
 ```
 
-В Windows SDK, выпущенном для Windows Vista и более поздних версий, Организация файлов заголовков изменилась, а SOCKADDR и SOCKADDR \_ в структурах определяются в файле заголовка файла *Ws2def. h* , а не в файле заголовка *Winsock2. h* . Файл заголовка *Ws2def. h* автоматически включается в заголовочный файл *Winsock2. h* . \_Структура in6 SOCKADDR определена в файле заголовка *Ws2ipdef. h* , а не в файле заголовка *Ws2tcpip. h* . Файл заголовка *Ws2ipdef. h* автоматически включается в заголовочный файл *Ws2tcpip. h* . Файлы заголовков *Ws2def. h* и *Ws2ipdef. h* никогда не следует использовать напрямую.
+в Windows SDK, выпущенном для Windows Vista и более поздних версий, организация файлов заголовков изменилась, а sockaddr и sockaddr \_ в структурах определяются в файле заголовка файла *Ws2def. h* , а не в файле заголовка *Winsock2. h* . Файл заголовка *Ws2def. h* автоматически включается в заголовочный файл *Winsock2. h* . \_Структура in6 SOCKADDR определена в файле заголовка *Ws2ipdef. h* , а не в файле заголовка *Ws2tcpip. h* . Файл заголовка *Ws2ipdef. h* автоматически включается в заголовочный файл *Ws2tcpip. h* . Файлы заголовков *Ws2def. h* и *Ws2ipdef. h* никогда не следует использовать напрямую.
 
 ## <a name="example-code"></a>Пример кода
 
@@ -128,7 +128,7 @@ bind( ListenSocket,(SOCKADDR*) &saServer, sizeof(saServer) );
 
 
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [**\_хранилище SOCKADDR**](/previous-versions/windows/desktop/legacy/ms740504(v=vs.85))
 

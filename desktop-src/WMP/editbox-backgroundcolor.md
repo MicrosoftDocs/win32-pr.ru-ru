@@ -3,7 +3,7 @@ title: EDITBOX. backgroundColor
 description: Атрибут backgroundColor указывает или получает цвет фона для элемента управления "поле ввода".
 ms.assetid: 9ce247fe-c033-40fd-95fe-3e9445bf6d62
 keywords:
-- BackgroundColor Windows Media Player
+- EDITBOX. backgroundColor проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ebfd247cec4669da8748fb5986087eff25696de0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: afafb7158dcc35d0449886b1ebd2f2cac5eaa06a94c01910ee43c5f66b6bccb9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698741"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117749455"
 ---
 # <a name="editboxbackgroundcolor"></a>EDITBOX. backgroundColor
 
@@ -37,7 +37,7 @@ ms.locfileid: "105698741"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
 
 
 

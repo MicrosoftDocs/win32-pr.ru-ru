@@ -20,12 +20,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b43ef805161afce6cb73bfaa26060308bc0aa5d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9954c416d9ad28f0ba0b2ddd6853b125039bf4db24adb3b3ff41f8722b2ba494
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104490461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117950799"
 ---
 # <a name="tf_lbi_style_-constants"></a>\_ \_ Константы в стиле TF ЛБИ \_ \*
 
@@ -57,8 +57,8 @@ ms.locfileid: "104490461"
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                            |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                  |
-| Распространяемые компоненты<br/>          | TSF 1,0 в Windows 2000 профессиональная<br/>                                       |
-| Header<br/>                   | <dl> <dt>Ктфутб. h</dt> </dl>   |
+| Распространяемые компоненты<br/>          | TSF 1,0 на Windows 2000 Professional<br/>                                       |
+| Заголовок<br/>                   | <dl> <dt>Ктфутб. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Ктфутб. idl</dt> </dl> |
 
 
