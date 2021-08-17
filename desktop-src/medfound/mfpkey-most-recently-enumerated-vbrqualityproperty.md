@@ -4,12 +4,12 @@ ms.assetid: 7d67e41f-060b-49a1-9e17-5db081ef4210
 title: Свойство MFPKEY_MOST_RECENT_ENUMERATED_VBRQUALITY (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ccd3b5f3aae6dc5347672cf6697c3431163dcbd1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 68e609f8dc7b95eb9cfd4bf537af47d1a11cb4ba625f0bbc65897b008ff03a31
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105649077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117689798"
 ---
 # <a name="mfpkey_most_recent_enumerated_vbrquality-property"></a>МФПКЭЙ \_ \_ Последнее \_ перечисленное \_ свойство вбркуалити
 
@@ -23,7 +23,7 @@ ms.locfileid: "105649077"
 
 **VT \_ UI4**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Когда кодировщик выступает в качестве Media Foundation преобразования (MFT) и перечисляет тип вывода при вызове [**имфтрансформ:: жетаутпутаваилаблетипе**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputavailabletype), можно запросить таблицу MFT для свойства **\_ \_ \_ \_ вбркуалити, перечисленного в мфпкэй** . Возвращаемое значение указывает качество VBR последнего возвращенного типа выходного носителя. Затем это значение можно использовать для задания свойства [**мфпкэй \_ требуемого \_ вбркуалити**](mfpkey-desired-vbrqualityproperty.md) кодировщика.
 
@@ -34,7 +34,7 @@ ms.locfileid: "105649077"
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Клиент<br/> | Windows Vista или Windows 7<br/>                                                   |
-| Header<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 

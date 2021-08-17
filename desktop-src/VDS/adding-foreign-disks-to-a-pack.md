@@ -4,16 +4,16 @@ ms.assetid: 4018c742-1d23-47b9-a787-69bf8847b54a
 title: Добавление внешних дисков в пакет
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fbfa2ff3d00857fd4e1b92e78f1760c25ce516b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 26b83dd76cdc3f1637c07d8d9d818fdaf61fb093151f23aea06f0e9c7f81d6a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104349282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117755459"
 ---
 # <a name="adding-foreign-disks-to-a-pack"></a>Добавление внешних дисков в пакет
 
-\[Начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API управления хранилищами Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API Windows служба хранилища управления](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 Чаще всего внешний диск — это динамический диск, который выделяется на одном компьютере и физически перемещается на другой компьютер. Однако любой диск, принадлежащий к пакету, отличному от сетевого пакета, считается внешним диском, принадлежащим к внешнему пакету диска.
 
@@ -36,7 +36,7 @@ ms.locfileid: "104349282"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

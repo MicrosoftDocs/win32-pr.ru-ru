@@ -4,12 +4,12 @@ ms.assetid: aaec6fee-df6b-4033-8ece-73ecd1799653
 title: Функция AcceptSecurityContext (Negotiate) (SSPI. h)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: d4a9d38618760a97e9475e8d5914d6e54c5eea81
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ac466530be0a19a6b8c88355f238a1cd491f9c2ff6d7d8dbe67b16ba20f43b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105719538"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141637"
 ---
 # <a name="acceptsecuritycontext-negotiate-function"></a>Функция AcceptSecurityContext (Negotiate)
 
@@ -142,7 +142,7 @@ SECURITY_STATUS SEC_Entry AcceptSecurityContext(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **AcceptSecurityContext (Negotiate)** является аналогом сервера функции [**InitializeSecurityContext (Negotiate)**](initializesecuritycontext--negotiate.md) .
 
@@ -171,8 +171,8 @@ SECURITY_STATUS SEC_Entry AcceptSecurityContext(
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                   |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                                            |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                   |
 | Header<br/>                   | <dl> <dt>SSPI. h (включая Security. h)</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Secur32. lib</dt> </dl>                 |
 | DLL<br/>                      | <dl> <dt>Secur32.dll</dt> </dl>                 |

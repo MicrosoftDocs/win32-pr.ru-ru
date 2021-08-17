@@ -1,17 +1,17 @@
 ---
 description: Функции дополнительной телефонной службы перечислены по категориям в следующих разделах.
 ms.assetid: 0d1a81d2-aa9e-4a85-85d3-aa4eabb26eb5
-title: Функции дополнительной телефонной службы
+title: функции службы дополнительных Телефон
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 527c39441a924a4f9787d22bf8db596882e7f257
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d8ee0e32260ac3821fd06e7e8962ab2a6186fb42f1140eb6cd8f705709f2dfbd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673701"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118861422"
 ---
-# <a name="supplementary-phone-service-functions"></a>Функции дополнительной телефонной службы
+# <a name="supplementary-phone-service-functions"></a>функции службы дополнительных Телефон
 
 Функции дополнительной телефонной службы перечислены по категориям в следующих разделах. Функция определяется как [*асинхронная*](a-tapgloss.md) , если она указывает на завершение в ответном сообщении для приложения. Если функция всегда возвращает результат в приложение немедленно, функция считается [*синхронной*](s-tapgloss.md).
 
@@ -23,13 +23,13 @@ ms.locfileid: "105673701"
 -   [Устройства хуксвитч](#hookswitch-devices)
 -   [Ламп](#lamps)
 -   [Открытие и закрытие телефонных устройств](#opening-and-closing-phone-devices)
--   [Инициализация и завершение работы телефона](#phone-initialization-and-shutdown)
--   [Состояние телефона и возможности](#phone-status-and-capabilities)
--   [Согласование версии телефона](#phone-version-negotiation)
+-   [инициализация и завершение работы Телефон](#phone-initialization-and-shutdown)
+-   [состояние и возможности Телефон](#phone-status-and-capabilities)
+-   [согласование версий Телефон](#phone-version-negotiation)
 -   [Кольцо](#ring)
 -   [Состояние](#status)
 
-## <a name="phone-initialization-and-shutdown"></a>Инициализация и завершение работы телефона
+## <a name="phone-initialization-and-shutdown"></a>Телефон Инициализация и завершение работы
 
 
 
@@ -42,7 +42,7 @@ ms.locfileid: "105673701"
 
  
 
-## <a name="phone-version-negotiation"></a>Согласование версии телефона
+## <a name="phone-version-negotiation"></a>Телефон Согласование версий
 
 
 
@@ -54,7 +54,7 @@ ms.locfileid: "105673701"
 
  
 
-## <a name="opening-and-closing-phone-devices"></a>Открытие и закрытие телефонных устройств
+## <a name="opening-and-closing-phone-devices"></a>открытие и закрытие устройств Телефон
 
 
 
@@ -67,7 +67,7 @@ ms.locfileid: "105673701"
 
  
 
-## <a name="phone-status-and-capabilities"></a>Состояние телефона и возможности
+## <a name="phone-status-and-capabilities"></a>Телефон Состояние и возможности
 
 
 
@@ -125,7 +125,7 @@ ms.locfileid: "105673701"
 
  
 
-## <a name="buttons"></a>Кнопки
+## <a name="buttons"></a>через кнопки;
 
 
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 35d338b71dba293d96a56fe54c2397bc21f1b550
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 83462788cc6d058da51ee8359c67a90ead261b629caaf58cf05ea1650a0e8035
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103793933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119117611"
 ---
 # <a name="baseeapuserpropertiesv1-schema-elements"></a>Элементы схемы baseeapuserpropertiesv1
 
@@ -25,7 +25,7 @@ ms.locfileid: "103793933"
 -   [**Идентификация**](baseeapuserpropertiesv1schema-identity-element.md)
 -   [**Тип (Басиаппараметерс)**](baseeapuserpropertiesv1schema-type-baseeapparameters-element.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -35,9 +35,9 @@ ms.locfileid: "103793933"
 [Схема baseeapuserpropertiesv1](baseeapuserpropertiesv1schema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

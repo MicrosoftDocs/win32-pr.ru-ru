@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 5fc3a468575b30836d4574edb13c4fc77a3505fc
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 6426caff8ecd347ce8233f15df6b914a53c647ae79fb50a530b531e9207bf1c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104996967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117726812"
 ---
 # <a name="dcl_temps-sm4---asm"></a>дкл \_ Temps (SM4-ASM)
 
@@ -55,7 +55,7 @@ ms.locfileid: "104996967"
 
 Эта инструкция включена для облегчения отладки шейдера в сборке; нельзя создать шейдер на языке ассемблера с использованием модели шейдеров 4.
 
-## <a name="example"></a>Например, .
+## <a name="example"></a>Пример
 
 Ниже приведен пример.
 
@@ -74,9 +74,9 @@ dcl_temps 10; // Declare r0-r9
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
-| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | да       |
-| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
+| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Да       |
+| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Да       |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Нет        |
@@ -85,7 +85,7 @@ dcl_temps 10; // Declare r0-r9
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

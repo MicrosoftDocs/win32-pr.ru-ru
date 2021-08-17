@@ -16,14 +16,14 @@ api_location: ''
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 1e7b4658e51f6f137795a935121dc90c047cf047
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d9208e3c0aad7ab05348056eaf70747aa23433e0ab5badec5da1f2baf063b1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104497379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118066310"
 ---
-# <a name="span-idwwan_profile_v4element_providerspanprovider"></a><span id="WWAN_profile_v4.element_Provider"></span>Поставщик
+# <a name="span-idwwan_profile_v4element_providerspanprovider"></a><span id="WWAN_profile_v4.element_Provider"></span>Поставщики
 
 Указывает одного предпочитаемого поставщика сети в списке поставщиков, которые будут использоваться при роуминге.
 
@@ -49,11 +49,11 @@ ms.locfileid: "104497379"
 
 ### <a name="span-idattributesspanspan-idattributesspanattributes"></a><span id="attributes"></span><span id="ATTRIBUTES"></span>Атрибуты
 
-Нет.
+Отсутствует.
 
 ### <a name="span-idchild_elementsspanspan-idchild_elementsspanspan-idchild_elementsspanchild-elements"></a><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>Дочерние элементы
 
-Нет.
+Отсутствует.
 
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Родительские элементы
 

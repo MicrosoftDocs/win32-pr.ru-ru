@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: b6e54d7d2ca52ceafe500615af4063dfc7310b0d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c61d52e7621acffb76df5bcb05693efb48c695c15e79d1f0a45523a0f0087c6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006452"
 ---
 # <a name="hasheddata-object"></a>Объект Хашеддата
 
@@ -69,7 +69,7 @@ ms.locfileid: "105665313"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы создать хэш большого объема данных, вызовите метод [**хэширования**](hasheddata-hash.md) для каждого фрагмента данных. Хэш каждого фрагмента данных объединяется со свойством [**value**](hasheddata-value.md) до тех пор, пока свойство не будет считано. Содержимое свойства **value** сбрасывается при считывании свойства.
 

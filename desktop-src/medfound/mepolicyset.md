@@ -4,12 +4,12 @@ ms.assetid: c5d8a88e-2864-45a0-97b7-051341116a4c
 title: Событие Меполицисет (Мфобжектс. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 238af6cbd740e62825ae0b661769c1cf1bf880ca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 064cbb92e85e300aa2c2b7db28d08b01296834413ed92e36eb5b7ce88e5486c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117877561"
 ---
 # <a name="mepolicyset-event"></a>Событие Меполицисет
 
@@ -34,9 +34,9 @@ ms.locfileid: "105711570"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Мфобжектс. h (включение Мфидл. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Мфобжектс. h (включение Мфидл. h)</dt> </dl> |
 
 
 

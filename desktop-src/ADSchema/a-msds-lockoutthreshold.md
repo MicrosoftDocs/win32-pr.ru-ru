@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cae7f3d397982a9e018df73fd3801161436811bb
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e7613856098f67f87e860743406eddd9acc5b9acb8b258793af0c4fe13e7d80d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104138655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960713"
 ---
 # <a name="ms-ds-lockout-threshold-attribute"></a>MS-DS-блокировка-атрибут порогового значения
 
@@ -55,7 +55,7 @@ ms.locfileid: "104138655"
 | Идентификатор ссылки                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
 | System-Only            | Неверно                                                                 |
-| Является однозначным       | True                                                                  |
+| Является однозначным       | Верно                                                                  |
 | Индексируется             | Неверно                                                                 |
 | В глобальном каталоге      | Неверно                                                                 |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                          |
@@ -63,7 +63,7 @@ ms.locfileid: "104138655"
 | Range-Upper            | 65535                                                                 |
 | Search-Flags           | 0x00000000                                                            |
 | System-Flags           | 0x00000010                                                            |
-| Классы, используемые в        | [**MS-DS-Password-параметры**](c-msds-passwordsettings.md)<br/> |
+| Классы, используемые в        | [**ms-DS-Password-Параметры**](c-msds-passwordsettings.md)<br/> |
 
 
 
@@ -76,7 +76,7 @@ ms.locfileid: "104138655"
 | Идентификатор ссылки                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
 | System-Only            | Неверно                                                                 |
-| Является однозначным       | True                                                                  |
+| Является однозначным       | Верно                                                                  |
 | Индексируется             | Неверно                                                                 |
 | В глобальном каталоге      | Неверно                                                                 |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                          |
@@ -84,7 +84,7 @@ ms.locfileid: "104138655"
 | Range-Upper            | 65535                                                                 |
 | Search-Flags           | 0x00000000                                                            |
 | System-Flags           | 0x00000010                                                            |
-| Классы, используемые в        | [**MS-DS-Password-параметры**](c-msds-passwordsettings.md)<br/> |
+| Классы, используемые в        | [**ms-DS-Password-Параметры**](c-msds-passwordsettings.md)<br/> |
 
 
 
@@ -97,7 +97,7 @@ ms.locfileid: "104138655"
 | Идентификатор ссылки                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
 | System-Only            | Неверно                                                                 |
-| Является однозначным       | True                                                                  |
+| Является однозначным       | Верно                                                                  |
 | Индексируется             | Неверно                                                                 |
 | В глобальном каталоге      | Неверно                                                                 |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                          |
@@ -105,7 +105,7 @@ ms.locfileid: "104138655"
 | Range-Upper            | 65535                                                                 |
 | Search-Flags           | 0x00000000                                                            |
 | System-Flags           | 0x00000010                                                            |
-| Классы, используемые в        | [**MS-DS-Password-параметры**](c-msds-passwordsettings.md)<br/> |
+| Классы, используемые в        | [**ms-DS-Password-Параметры**](c-msds-passwordsettings.md)<br/> |
 
 
 

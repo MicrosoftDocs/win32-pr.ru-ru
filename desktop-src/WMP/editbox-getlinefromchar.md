@@ -3,7 +3,7 @@ title: EDITBOX. Жетлинефромчар
 description: Метод Жетлинефромчар извлекает индекс строки для указанного индекса символов.
 ms.assetid: c3a29bdf-ff63-4b6d-90e8-d414dde87f85
 keywords:
-- Жетлинефромчар Windows Media Player
+- EDITBOX. жетлинефромчар проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3462ce628da72ca1e55df79e408fc79e0ec8b63a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 110030c3c756a91c993857cef125c51669f71eb9a358eb7261205fde0b0ad4a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117749310"
 ---
 # <a name="editboxgetlinefromchar"></a>EDITBOX. Жетлинефромчар
 
@@ -43,7 +43,7 @@ ms.locfileid: "105699273"
 
 Этот метод возвращает **число** (**Long**).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если указанная позиция символа равно 1, этот метод извлекает индекс строки текущей строки.
 
@@ -55,7 +55,7 @@ ms.locfileid: "105699273"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
 
 
 

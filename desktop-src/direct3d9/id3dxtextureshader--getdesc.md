@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 6ea94f0e22d838f09dae9b423f85aa1d55d2365b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 06619730ceaa03dfdc812c669726bcde032caf7380ce4a7736085ee3a62b9d4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108117642"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117729027"
 ---
 # <a name="id3dxtextureshadergetdesc-method"></a>Метод ID3DXTextureShader:: DESC
 
@@ -61,12 +61,12 @@ HRESULT GetDesc(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>     |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

@@ -120,7 +120,7 @@ ms.locfileid: "118161033"
 
 Свойства для результата «таблица уточняющих запросов» определяются перечислением [**D2D1 \_ LOOKUPTABLE3D- \_ prop**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_lookuptable3d_prop) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
@@ -128,7 +128,7 @@ ms.locfileid: "118161033"
 |--------------------------|---------------------------------------------------|
 | Минимальная версия клиента | Windows 10 \[ классические приложения \| Windows приложения магазина\] |
 | Минимальная версия сервера | Windows 10 \[ классические приложения \| Windows приложения магазина\] |
-| Header                   | d2d1effects \_ 2. h                                  |
+| Заголовок                   | d2d1effects \_ 2. h                                  |
 | Библиотека                  | D2D1. lib, дксгуид. lib                              |
 
 ## <a name="related-topics"></a>Связанные темы

@@ -4,12 +4,12 @@ ms.assetid: bc0f876d-2443-4c3c-b723-3f82dc6bf849
 title: TUISPIDLL_OBJECT_ (Тспи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9a4711478b98f1ab4983fd8c83a59772e5b370e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0e31ba14d49be298bc2b8b0013382ef146fac90b82804eea1adbb54704858b9c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675849"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117944179"
 ---
 # <a name="tuispidll_object_"></a>\_объект туиспидлл\_
 
@@ -74,7 +74,7 @@ ms.locfileid: "105675849"
 | Требование | Значение |
 |-------------------------|-----------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 2,0 или более поздней версии<br/>                                             |
-| Header<br/>       | <dl> <dt>Тспи. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>Тспи. h</dt> </dl> |
 
 
 

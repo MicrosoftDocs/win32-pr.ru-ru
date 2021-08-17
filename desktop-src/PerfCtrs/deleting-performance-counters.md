@@ -4,12 +4,12 @@ ms.assetid: 40fc9831-1025-4052-a941-70767ee4e10f
 title: Удаление счетчиков производительности
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba257a1a44b5272543b7e61dcdc4b4e96225c160
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4c34dfc64be4ded0ce07b466393851b235ca4b2f49c89e05f067041f236565fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105663242"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144017"
 ---
 # <a name="deleting-performance-counters"></a>Удаление счетчиков производительности
 

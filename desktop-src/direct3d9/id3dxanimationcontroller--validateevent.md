@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: e1a632fa867269f04e8f5f66e6bc352ef1701cd9
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 24c5195d38aeaebefd1713df31f23b6b2ec7b2324a31381027f3442b541678c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105647895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118094181"
 ---
 # <a name="id3dxanimationcontrollervalidateevent-method"></a>Метод ID3DXAnimationController:: ValidateEvent
 
@@ -57,7 +57,7 @@ HRESULT ValidateEvent(
 
 Возвращает значение E \_ Fail, если недопустимый маркер события и (или) событие завершено.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Метод будет указывать, что обработчик событий допустим, даже если событие выполняется, но еще не завершено.
 
@@ -67,7 +67,7 @@ HRESULT ValidateEvent(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9anim. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9anim. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

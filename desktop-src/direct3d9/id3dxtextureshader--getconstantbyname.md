@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 825aca3f3227a340952092985f4730018fe316e5
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 55b3de81179c01171d7ee5ff7b845295709dfb8ead1a9bc1a7cdf615bc37c44d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108117662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117729105"
 ---
 # <a name="id3dxtextureshadergetconstantbyname-method"></a>Метод ID3DXTextureShader:: Жетконстантбинаме
 
@@ -71,12 +71,12 @@ D3DXHANDLE GetConstantByName(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>     |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

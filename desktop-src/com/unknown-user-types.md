@@ -4,12 +4,12 @@ description: Неизвестные типы пользователей
 ms.assetid: c2a4bd83-6eaf-4130-8f86-e99f1e18b63d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4843ca2e19508806bba952403a2211a39f5a5ca
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 72ce5ee88d36399187bab24ce51f0ef1c3c074182f98ce30ff6dc7d370992ffd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104339396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129466"
 ---
 # <a name="unknown-user-types"></a>Неизвестные типы пользователей
 
@@ -21,13 +21,13 @@ ms.locfileid: "104339396"
 
 Реализация обработчика COM по умолчанию [**иолеобжект:: жетусертипе**](/windows/desktop/api/OleIdl/nf-oleidl-ioleobject-getusertype) проверяет реестр путем вызова [**олерегжетусертипе**](/windows/desktop/api/Ole2/nf-ole2-olereggetusertype). Если класс объекта не найден в реестре, возвращается тип пользователя из экземпляра [**IStorage**](/windows/desktop/api/objidl/nn-objidl-istorage) объекта. Если класс не найден в экземпляре **IStorage** объекта, возвращается строка Unknown.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Регистрация приложений COM](registering-com-applications.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

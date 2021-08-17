@@ -4,12 +4,12 @@ description: Перевод на Java
 ms.assetid: b36bb34d-706e-455b-a4b5-d811654fc7fc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 133d07aa61a8cbb23dd2fc4f998ce7664457fd28
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a7fc0637518aa1d6c7be1ec457054293a8a82537a688eeaf9475a407fbeca348
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104328656"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129606"
 ---
 # <a name="translating-to-java"></a>Перевод на Java
 
@@ -31,7 +31,7 @@ ms.locfileid: "104328656"
 -   [Мастер библиотеки типов Java](java-type-library-wizard.md)
 -   [Средство Command-Line Жаватлб](javatlb-command-line-tool.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -41,9 +41,9 @@ ms.locfileid: "104328656"
 [Перевод в Visual Basic](translating-to-visual-basic.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

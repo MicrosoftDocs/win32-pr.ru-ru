@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 979b09f852e692b4c25414607f79cd8792342755
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 19321dde9f44a2262ee3875d40bd5822e65eff9b84d1fc01656993ea584a8dc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105720905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118988654"
 ---
 # <a name="d3dxcreateeffectex-function"></a>Функция D3DXCreateEffectEx
 
@@ -145,7 +145,7 @@ HRESULT D3DXCreateEffectEx(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. Если функция завершается ошибкой, возвращаемое значение может быть одним из следующих: D3DERR \_ инвалидкалл, D3DXERR \_ INVALIDDATA, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция является расширенной версией [**D3DXCreateEffect**](d3dxcreateeffect.md) , позволяющей приложению указывать, какие константы эффектов будут управляться приложением. Константа, управляемая приложением, игнорируется системой эффектов. Это значит, что приложение отвечает за инициализацию константы, а также сохранение и восстановление состояния при необходимости.
 
@@ -162,7 +162,7 @@ HRESULT D3DXCreateEffectEx(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Effect. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Effect. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>     |
 
 

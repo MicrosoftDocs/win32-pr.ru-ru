@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: f863ce918f25c6b0975010f71a63f067c01f7345
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a6e2730a9649400af8cc0229cb69ab695044681fde43a29a1a784d212f8d2641
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104000318"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119279034"
 ---
 # <a name="id3dxanimationcontrollergetupcomingtrackevent-method"></a>Метод ID3DXAnimationController:: Жетупкомингтраккевент
 
@@ -65,7 +65,7 @@ D3DXEVENTHANDLE GetUpcomingTrackEvent(
 
 Обработчик события для следующего события, запланированного для выполнения в указанной дорожке. Если новое событие не запланировано, возвращается **значение NULL** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод можно использовать итеративно для нахождения нужного события путем многократной передачи **значения NULL** для Хевент.
 
@@ -74,13 +74,13 @@ D3DXEVENTHANDLE GetUpcomingTrackEvent(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9anim. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9anim. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

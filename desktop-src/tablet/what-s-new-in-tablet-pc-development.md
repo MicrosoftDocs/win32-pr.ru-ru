@@ -4,28 +4,28 @@ ms.assetid: e61bd444-7e48-4146-93a4-8b99e34226af
 title: Новые возможности разработки для планшетных ПК
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 848c211baae029661f3a53e69cd6cf8562367c9a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4cc2328cc3aa3578eb8d7afbfb22dbfc33983e29ae75286e79dbca874873569c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103810480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119091341"
 ---
 # <a name="whats-new-in-tablet-pc-development"></a>Новые возможности разработки для планшетных ПК
 
 В этом разделе описываются новые возможности разработки технологий для планшетных ПК.
 
-## <a name="tablet-pc-development-kit-now-in-windows-sdk"></a>Пакет средств разработки для Tablet PC теперь в Windows SDK
+## <a name="tablet-pc-development-kit-now-in-windows-sdk"></a>пакет средств разработки для Tablet PC теперь в Windows SDK
 
-Начиная с весны 2006 и Переходя вперед, Windows SDK является единственным механизмом распределения для новейших технологий Tablet PC. Более не существует автономного пакета SDK для планшетных ПК. Двоичные файлы платформы, заголовки, библиотеки, документация и образцы кода доступны в Windows SDK. В состав этого дистрибутива входят двоичные файлы платформы планшетных ПК 1,7 и распространяемые модули слияния для этих двоичных файлов, а также документация для двоичных файлов версии 1,7 и новых двоичных файлов платформы Windows Vista на платформе Tablet PC Technology (версия 6).
+начиная с весны 2006 и переходя вперед, Windows SDK является единственным механизмом распределения для новейших технологий Tablet PC. Более не существует автономного пакета SDK для планшетных ПК. двоичные файлы платформы, заголовки, библиотеки, документация и образцы кода доступны в Windows SDK. в состав этого дистрибутива входят двоичные файлы платформы планшетных пк 1,7 и распространяемые модули слияния для этих двоичных файлов, а также документация для двоичных файлов версии 1,7 и новой версии Windows Vista для платформы Tablet PC Technology (версия 6).
 
 Дополнительные сведения о настройке компьютера для разработки приложений для планшетных ПК см. в разделе [Среда разработки](the-development-environment.md) .
 
-## <a name="windows-server-2008-r2-now-supports-handwriting-recognition-and-custom-dictionaries"></a>Windows Server 2008 R2 теперь поддерживает распознавание рукописного текста и пользовательские словари
+## <a name="windows-server-2008-r2-now-supports-handwriting-recognition-and-custom-dictionaries"></a>Windows Сервер 2008 R2 теперь поддерживает распознавание рукописного текста и пользовательские словари
 
-Windows Server 2008 R2 теперь может выполнять распознавание рукописного текста и функции пользовательского словаря для поддержки новых сценариев распознавания.
+Windows Сервер 2008 R2 теперь может выполнять распознавание рукописного текста и функции пользовательского словаря для поддержки новых сценариев распознавания.
 
-Дополнительные сведения см. [в статье Распознавание рукописного текста в Windows Server 2008 R2](handwriting-recognition-in-windows-server-2008-r2.md) и [Создание пользовательских словарей для распознавания рукописного текста](creating-custom-dictionaries-for-handwriting-recognition-in-windows-7-and-windows-server-2008-r2.md) .
+дополнительные сведения см. [в статье распознавание рукописного ввода в Windows Server 2008 R2](handwriting-recognition-in-windows-server-2008-r2.md) и [создание пользовательских словарей для распознавания рукописного текста](creating-custom-dictionaries-for-handwriting-recognition-in-windows-7-and-windows-server-2008-r2.md) .
 
 ## <a name="math-input"></a>Математический ввод
 

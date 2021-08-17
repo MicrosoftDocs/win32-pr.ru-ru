@@ -7,12 +7,12 @@ keywords:
 - Рекомендации для приложений расширения схемы AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2393211eb910ce4bc490667398da7f38d212ddcf
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 3c0a01e68fbe9751b778caa2404d02afb1ddd7704457c9cf0aedcc914387ab5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104133663"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025272"
 ---
 # <a name="recommendations-for-schema-extension-applications"></a>Рекомендации для приложений расширения схемы
 
@@ -36,6 +36,6 @@ ms.locfileid: "104133663"
 
     Дополнительные сведения об обновлении кэша схемы см. [в разделе пример кода для обновления кэша схемы](example-code-for-updating-the-schema-cache.md).
 
- 
+ 
 
- 
+ 

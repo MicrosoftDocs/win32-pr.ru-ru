@@ -4,12 +4,12 @@ ms.assetid: d6877063-6cf9-48dc-8208-0f3fc85b6d6b
 title: начало работы с разрешениями WSDAPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 12396ea656423772d35dbd4ca237c7c536dcdaf1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 413146288e6c7fc6e513f994fbe24d6ee9940897f22bcd5a715ae41f77f83c02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263910"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117738620"
 ---
 # <a name="getting-started-with-wsdapi-troubleshooting"></a>начало работы с разрешениями WSDAPI
 
@@ -39,11 +39,11 @@ ms.locfileid: "104263910"
 
 | Проблема                                                                                                                                                                                              | Диагностическая процедура                                                                                                                                                                                                                             | Идентификация проблемы                                                                                                                                                                            |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Брандмауэр блокирует трафик сетевого обнаружения.                                                                                                                                                       | [Проверка параметров адаптера и брандмауэра](inspecting-adapter-and-firewall-settings.md)                                                                                                                                                         | Включение исключения обнаружения сетевых ошибок в брандмауэре решает эту проблему.                                                                                                                      |
-| Исключения брандмауэра, характерные для приложения, блокируют сообщения.                                                                                                                               | [Проверка параметров адаптера и брандмауэра](inspecting-adapter-and-firewall-settings.md)                                                                                                                                                         | Отключение брандмауэра решает проблему. WF. msc показывает правила брандмауэра, зависящие от приложения.                                                                                                      |
-| Устройство не отвечает на UDP-запросы, отправляя сообщение [ProbeMatch](probematches-message.md) или [ресолвематчес](resolvematches-message.md) своевременно (менее 4 секунд). | [Проверка параметров адаптера и брандмауэра](inspecting-adapter-and-firewall-settings.md)                                                                                                                                                         | Отключение брандмауэра решает проблему, и универсальный узел, который реагирует менее 4 секунд, работает успешно.                                                                            |
-| Неправильный контекст безопасности приложения (т. е. Клиент и узел не имеют достаточных разрешений в сети).                                                                 | [Использование универсального узла и клиента для протокола UDP WS-Discovery](using-a-generic-host-and-client-for-udp-ws-discovery.md) или [универсального узла и клиента для обмена метаданными HTTP](using-a-generic-host-and-client-for-http-metadata-exchange.md) | Адрес устройства не отображается в выходных данных клиента отладки WSD. Запуск приложения от имени администратора решает проблему.                                                                          |
-| Политика IPSec блокирует сообщения.                                                                                                                                                                | [Использование универсального узла и клиента для протокола UDP WS-Discovery](using-a-generic-host-and-client-for-udp-ws-discovery.md) или [универсального узла и клиента для обмена метаданными HTTP](using-a-generic-host-and-client-for-http-metadata-exchange.md) | Адрес устройства не отображается в выходных данных клиента отладки WSD. Проблема не устранена путем отключения брандмауэра. Эта проблема не может быть воспроизведена на компьютере, не подчиняются политикам IPSec. |
+| Брандмауэр блокирует трафик сетевого обнаружения.                                                                                                                                                       | [проверка Параметры адаптера и брандмауэра](inspecting-adapter-and-firewall-settings.md)                                                                                                                                                         | Включение исключения обнаружения сетевых ошибок в брандмауэре решает эту проблему.                                                                                                                      |
+| Исключения брандмауэра, характерные для приложения, блокируют сообщения.                                                                                                                               | [проверка Параметры адаптера и брандмауэра](inspecting-adapter-and-firewall-settings.md)                                                                                                                                                         | Отключение брандмауэра решает проблему. WF. msc показывает правила брандмауэра, зависящие от приложения.                                                                                                      |
+| Устройство не отвечает на UDP-запросы, отправляя сообщение [ProbeMatch](probematches-message.md) или [ресолвематчес](resolvematches-message.md) своевременно (менее 4 секунд). | [проверка Параметры адаптера и брандмауэра](inspecting-adapter-and-firewall-settings.md)                                                                                                                                                         | Отключение брандмауэра решает проблему, и универсальный узел, который реагирует менее 4 секунд, работает успешно.                                                                            |
+| Неправильный контекст безопасности приложения (т. е. Клиент и узел не имеют достаточных разрешений в сети).                                                                 | [Использование универсального узла и клиента для протокола UDP WS-Discovery](using-a-generic-host-and-client-for-udp-ws-discovery.md) или [универсального узла и клиента для метаданных HTTP Exchange](using-a-generic-host-and-client-for-http-metadata-exchange.md) | Адрес устройства не отображается в выходных данных клиента отладки WSD. Запуск приложения от имени администратора решает проблему.                                                                          |
+| Политика IPSec блокирует сообщения.                                                                                                                                                                | [Использование универсального узла и клиента для протокола UDP WS-Discovery](using-a-generic-host-and-client-for-udp-ws-discovery.md) или [универсального узла и клиента для метаданных HTTP Exchange](using-a-generic-host-and-client-for-http-metadata-exchange.md) | Адрес устройства не отображается в выходных данных клиента отладки WSD. Проблема не устранена путем отключения брандмауэра. Эта проблема не может быть воспроизведена на компьютере, не подчиняются политикам IPSec. |
 
 
 
@@ -149,12 +149,12 @@ ms.locfileid: "104263910"
 <tbody>
 <tr class="odd">
 <td>Адрес транспорта, объявленный узлом, неверен.</td>
-<td><a href="using-a-generic-host-and-client-for-http-metadata-exchange.md">Использование универсального узла и клиента для обмена метаданными HTTP</a></td>
+<td><a href="using-a-generic-host-and-client-for-http-metadata-exchange.md">Использование универсального узла и клиента для метаданных HTTP Exchange</a></td>
 <td>Проверка Ксаддрс в выходных данных клиента отладки WSD показывает, что транспортный адрес неправильный или имеет неправильный формат.</td>
 </tr>
 <tr class="even">
 <td>Не удалось установить TCP-соединение для обмена метаданными.</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Проверка трассировки сети для обмена метаданными HTTP</a></td>
+<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Проверка трассировки сети для Exchange метаданных HTTP</a></td>
 <td>Выходные данные анализатора пакетов не показывают следующий обмен пакетами:
 <ul>
 <li>Пакет SYN TCP, отправленный клиентом</li>
@@ -164,58 +164,58 @@ ms.locfileid: "104263910"
 </tr>
 <tr class="odd">
 <td>Клиент не отправил допустимый HTTP-запрос GET.</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Проверка трассировки сети для обмена метаданными HTTP</a></td>
+<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Проверка трассировки сети для Exchange метаданных HTTP</a></td>
 <td>В выходных данных анализатора пакетов нет HTTP-запроса GET, или запрос имеет неправильный формат.</td>
 </tr>
 <tr class="even">
 <td>Клиент не отправлял допустимое сообщение WS-Transfer <a href="get--metadata-exchange--http-request-and-message.md">получения</a> .</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Проверка трассировки сети для обмена метаданными HTTP</a></td>
+<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Проверка трассировки сети для Exchange метаданных HTTP</a></td>
 <td>В выходных данных анализатора пакетов отсутствует WS-Transfer сообщение <a href="get--metadata-exchange--http-request-and-message.md">Get</a> , или сообщение имеет неправильный формат.</td>
 </tr>
 <tr class="odd">
 <td>Узел не прослушивает URL-путь, указанный в HTTP-запросе GET.</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Проверка трассировки сети для обмена метаданными HTTP</a></td>
+<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Проверка трассировки сети для Exchange метаданных HTTP</a></td>
 <td>В выходных данных анализатора пакетов нет HTTP-ответа.</td>
 </tr>
 <tr class="even">
 <td>Сообщение WS-Transfer <a href="get--metadata-exchange--http-request-and-message.md">Get</a> не содержит элемент <strong>to</strong> , либо элемент <strong>to</strong> пуст.</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Проверка трассировки сети для обмена метаданными HTTP</a></td>
+<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Проверка трассировки сети для Exchange метаданных HTTP</a></td>
 <td>Проверка сообщения показывает, что элемент <strong>to</strong> отсутствует или пуст.</td>
 </tr>
 <tr class="odd">
 <td>Значение элемента <strong>To</strong> WS-Transferного сообщения <a href="get--metadata-exchange--http-request-and-message.md">Get</a> не соответствует одному из адресов конечной точки узла.</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Проверка трассировки сети для обмена метаданными HTTP</a></td>
+<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Проверка трассировки сети для Exchange метаданных HTTP</a></td>
 <td>Проверка сообщения показывает, что значение элемента <strong>to</strong> не соответствует одному из адресов конечной точки, объявленных в сообщении <a href="probematches-message.md">ProbeMatch</a> или <a href="resolvematches-message.md">ресолвематчес</a> узла.</td>
 </tr>
 <tr class="even">
 <td>Узел не отправил допустимый заголовок HTTP-ответа.</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Проверка трассировки сети для обмена метаданными HTTP</a></td>
+<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Проверка трассировки сети для Exchange метаданных HTTP</a></td>
 <td>В выходных данных анализатора пакетов отсутствует HTTP-ответ, или запрос имеет неправильный формат.</td>
 </tr>
 <tr class="odd">
 <td>Заголовок ответа HTTP, отправленный узлом, указывает на то, что запрос не может быть выполнен.</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Проверка трассировки сети для обмена метаданными HTTP</a></td>
+<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Проверка трассировки сети для Exchange метаданных HTTP</a></td>
 <td>Заголовок ответа имеет код состояния, отличный от HTTP/1.1 200.</td>
 </tr>
 <tr class="even">
 <td>Узел не отправил допустимое сообщение <a href="getresponse--metadata-exchange--message.md">GetResponse</a> .</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Проверка трассировки сети для обмена метаданными HTTP</a></td>
+<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Проверка трассировки сети для Exchange метаданных HTTP</a></td>
 <td>В выходных данных анализатора пакетов отсутствует сообщение <a href="getresponse--metadata-exchange--message.md">GetResponse</a> , или сообщение имеет неправильный формат.</td>
 </tr>
 <tr class="odd">
 <td>Сообщение <a href="getresponse--metadata-exchange--message.md">GetResponse</a> не <strong>содержит элемента очистки</strong> , или <strong>элемент «текст сообщения» пуст</strong> .</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Проверка трассировки сети для обмена метаданными HTTP</a></td>
+<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Проверка трассировки сети для Exchange метаданных HTTP</a></td>
 <td>Проверка сообщения показывает, <strong>что элемент очистки</strong> отсутствует или пуст.</td>
 </tr>
 <tr class="even">
 <td>Значение <strong>элемента «текст</strong> сообщения об ошибке» в сообщении <a href="getresponse--metadata-exchange--message.md">GetResponse</a> не соответствует значению элемента <strong>MessageId</strong> из соответствующего сообщения <a href="get--metadata-exchange--http-request-and-message.md">Get</a> .</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Проверка трассировки сети для обмена метаданными HTTP</a></td>
+<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Проверка трассировки сети для Exchange метаданных HTTP</a></td>
 <td>Проверка сообщения показывает, что <strong>элемент «текст</strong> сообщения» содержит неправильно сформированное или неверное значение.</td>
 </tr>
 </tbody>
 </table>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

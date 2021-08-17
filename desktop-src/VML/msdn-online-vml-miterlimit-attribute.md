@@ -4,21 +4,21 @@ description: Атрибут Митерлимит VML
 ms.assetid: 74744b8a-df73-4a2e-8df7-07fd0e423a47
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f1b2d5b0a186ca416bb6af25df38c4f29964efe
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fef82ce7e8e0d3bf99fc532a9e746a94006a6bb9deba282ce8edd6ab91d41902
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104487877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119308374"
 ---
 # <a name="vml-miterlimit-attribute"></a>Атрибут Митерлимит VML
 
-В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+в этом разделе описывается функция VML, которая является устаревшей по отношению к Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
 
 > [!Note]  
-> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
+> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). сведения, рекомендации и рекомендации относительно текущей версии Windows Internet explorer см. в [центре разработчиков internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Определяет гладкость соединения типа «уголок». Read/write. **Вгнумбер**.
 
@@ -59,6 +59,6 @@ ms.locfileid: "104487877"
 
 
 
- 
+ 
 
- 
+ 

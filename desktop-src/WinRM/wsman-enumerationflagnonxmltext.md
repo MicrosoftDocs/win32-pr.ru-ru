@@ -4,9 +4,9 @@ description: Возвращает значение константы переч
 ms.assetid: 5e062e73-f833-4090-ba5a-48ca374724e7
 ms.tgt_platform: multiple
 keywords:
-- служба удаленного управления Windows метода Енумератионфлагнонксмлтекст
-- Служба удаленного управления Windows метода Енумератионфлагнонксмлтекст, объект WSMan
-- Объект WSMan служба удаленного управления Windows, метод Енумератионфлагнонксмлтекст
+- служба удаленного управления Windows метода енумератионфлагнонксмлтекст
+- служба удаленного управления Windows метода енумератионфлагнонксмлтекст, объект WSMan
+- объект WSMan служба удаленного управления Windows, метод енумератионфлагнонксмлтекст
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 26a9547f85a07702dc3735129842e5bc286ee9b7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f6606a20d0ab7f59b7521367243ccdc97fd90209f1791d8f1ded3e48c70e3f59
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103802920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117742293"
 ---
 # <a name="wsmanenumerationflagnonxmltext-method"></a>Метод WSMan. Енумератионфлагнонксмлтекст
 
@@ -64,7 +64,7 @@ WSMan.EnumerationFlagNonXmlText( _
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                 |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                           |
-| Header<br/>                   | <dl> <dt>Всмандисп. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Всмандисп. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Всмандисп. idl</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Всмандисп. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WSMAuto.dll</dt> </dl>   |

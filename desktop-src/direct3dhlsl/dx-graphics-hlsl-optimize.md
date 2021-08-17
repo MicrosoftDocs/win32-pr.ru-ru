@@ -12,12 +12,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 06d3bb806e98e489020aa1755ef2a6c952459d86
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9bc707f88fcc731146fcd3a5bbca641e6f0515a728b07af0863894d249c16a98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117726144"
 ---
 # <a name="optimizing-hlsl-shaders"></a>Оптимизация шейдеров HLSL
 
@@ -28,7 +28,7 @@ ms.locfileid: "104068362"
 -   [Переменные Pack и Интерполантс](#pack-variables-and-interpolants)
 -   [Уменьшение сложности шейдера](#reduce-shader-complexity)
 -   [См. также](#related-topics)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="know-where-to-perform-shader-calculations"></a>Узнайте, где выполнять вычисления шейдера
 
@@ -61,7 +61,7 @@ ms.locfileid: "104068362"
 
 
 
- 
+ 
 
 ## <a name="pack-variables-and-interpolants"></a>Переменные Pack и Интерполантс
 
@@ -71,21 +71,21 @@ ms.locfileid: "104068362"
 
 Старайтесь не усложнять шейдеры. Как правило, шейдеры с меньшим количеством инструкций выполняются быстрее, чем шейдеры с дополнительными инструкциями. Также проще выполнять отладку и оптимизацию небольших, менее сложных шейдеров.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 [Руководство по программированию для HLSL](dx-graphics-hlsl-pguide.md)
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Руководство по программированию для HLSL](dx-graphics-hlsl-pguide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

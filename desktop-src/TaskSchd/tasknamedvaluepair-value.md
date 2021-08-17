@@ -40,7 +40,7 @@ TaskNamedValuePair.Value As String
 
 Значение, связанное с именем в паре «имя-значение».
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

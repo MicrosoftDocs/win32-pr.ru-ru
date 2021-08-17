@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a92777ebff1716c89a8f4c893a6ce99e78858e09
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 250b813f109625151957d4793e89c2351e986c7bf7c19dce0d1136aeeff7ab2a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104496254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119333154"
 ---
 # <a name="setpowerstate-method-of-the-cim_networkadapter-class"></a>Метод SetPowerState \_ класса CIM сетевого адаптера
 
@@ -106,13 +106,13 @@ uint32 SetPowerState(
 
 Возвращает 0 (нуль) в случае успеха, 1 (один), если *указанный запрос* о сбое и *время* не поддерживаются, и другое значение, если произошла какая-либо другая ошибка.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В настоящее время этот метод не реализован инструментарием WMI. Чтобы использовать этот метод, его необходимо реализовать в собственном поставщике.
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

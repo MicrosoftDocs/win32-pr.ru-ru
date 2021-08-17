@@ -24,12 +24,12 @@ keywords:
 - драйверы декомпрессора
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14b861d381dfc28307c090dbb71b93db8e58e90a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bacb3d94feee3da290bf9c1cc90cab92f2aade083effd8a01cb17906c22e0f4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104330600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118141004"
 ---
 # <a name="how-the-audio-compression-manager-works"></a>Как работает диспетчер аудиосжатия
 
@@ -47,9 +47,9 @@ ACM управляет следующими типами драйверов:
 
 Для входного аудио-сигнала ACM передает в драйвер пустые буферы теневого копирования. Он использует фоновую задачу для получения уведомления после того, как драйвер заполнит буфер теневого буфера. Затем ACM передает буферы в драйвер для сжатия. После завершения сжатия драйвер передает данные в приложение.
 
- 
+ 
 
- 
+ 
 
 
 

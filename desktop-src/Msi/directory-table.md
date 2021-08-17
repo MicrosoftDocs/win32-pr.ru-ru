@@ -4,12 +4,12 @@ ms.assetid: eaca30cb-fec1-49ca-8b23-5e54c583e3e2
 title: Таблица каталога
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 273445aef67e3f166255321d0ac0ccf1aee37515
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f19e9b5994062ac55564799854fc36016fc6ddb9887bc36aa9a94652ef31aeb1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118947348"
 ---
 # <a name="directory-table"></a>Таблица каталога
 
@@ -21,8 +21,8 @@ ms.locfileid: "103998818"
 
 | Столбец            | Type                         | Ключ | Допускает значения NULL |
 |-------------------|------------------------------|-----|----------|
-| Каталог         | [Идентификатор](identifier.md) | Да   | Нет        |
-| \_Родительский каталог | [Идентификатор](identifier.md) | Нет   | Да        |
+| Каталог         | [Идентификатор](identifier.md) | Д   | Нет        |
+| \_Родительский каталог | [Идентификатор](identifier.md) | Нет   | Д        |
 | дефаултдир        | [дефаултдир](defaultdir.md) | Нет   | Нет        |
 
 
@@ -64,7 +64,7 @@ ms.locfileid: "103998818"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Каждая запись в таблице представляет каталог как в исходном, так и в целевом изображениях. Таблица каталогов должна указывать один корневой каталог со значением столбца каталога, равным свойству [**targetDir**](targetdir.md) .
 

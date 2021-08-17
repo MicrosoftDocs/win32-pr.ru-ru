@@ -4,16 +4,16 @@ ms.assetid: aa59f322-09b1-4b0a-be6f-d865c20f76e5
 title: Драйвер Мстапе
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 951084f8827f925bba43028c0792736883d5ff0f
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 23eaf6dd7f0d6713b0db5ba5ed21ba4f7640c1373f23cb0066b0b31f366809cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909402"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118952213"
 ---
 # <a name="mstape-driver"></a>Драйвер Мстапе
 
-Этот раздел относится к Windows XP или более поздним версиям.
+этот раздел относится к Windows XP и более поздних версий.
 
 Драйвер Мстапе поддерживает устройства с видеокамеры D-ВХС и MPEG. Он предоставляется приложениям в качестве фильтра [записи видео WDM](wdm-video-capture-filter.md) . Его функциональность аналогична функции [мсдв](msdv-driver.md), драйверу видеокамеры.
 
@@ -77,7 +77,7 @@ ms.locfileid: "107909402"
 | Уникальный \_ UniqueID       | Уникальный идентификатор устройства (неограниченный **DWORD**).                                                                                                                                            | **Long** (VT \_ i4)   |
 | Старший уникальный идентификатор \_      | Уникальный идентификатор устройства (High **DWORD**)                                                                                                                                            | **long**            |
 | VendorID            | Идентификатор поставщика.                                                                                                                                                                          | **long**            |
-| ModelID             | Идентификатор модели.                                                                                                                                                                           | **long**            |
+| Идентификатор модели             | Идентификатор модели.                                                                                                                                                                           | **long**            |
 | вендортекст          | Имя поставщика.                                                                                                                                                                        | **BSTR** (VT \_ BSTR) |
 | моделтекст           | Имя модели устройства.                                                                                                                                                                  | **ОСВОБОЖДАЕМОЙ**            |
 | унитмоделтекст       | Имя модели единицы измерения; может совпадать с Моделтекст.                                                                                                                                      | **ОСВОБОЖДАЕМОЙ**            |
@@ -98,7 +98,7 @@ ms.locfileid: "107909402"
 
 <dl> <dt>
 
-[Фильтры DirectShow](directshow-filters.md)
+[DirectShow Фильтрующ](directshow-filters.md)
 </dt> <dt>
 
 [Управление видеокамерой](controlling-a-dv-camcorder.md)

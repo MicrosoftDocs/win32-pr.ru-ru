@@ -4,12 +4,12 @@ ms.assetid: 3b2c01a2-d52c-4497-8fc9-d1113e8507e8
 title: Фильтр DVD Navigator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53bb1c6f46e3dd846ffccda32fece2c2f04c8992
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a395001daeac5f90be85bea972d1d4f118198ee4343960cb4eed0d958e1677aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104495144"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016012"
 ---
 # <a name="dvd-navigator-filter"></a>Фильтр DVD Navigator
 
@@ -35,7 +35,7 @@ ms.locfileid: "104495144"
 </tr>
 <tr class="odd">
 <td>Интерфейсы входных закрепления</td>
-<td>Не применяется</td>
+<td>Неприменимо.</td>
 </tr>
 <tr class="even">
 <td>Типы носителей для выходного ПИН-кода</td>
@@ -96,11 +96,11 @@ ms.locfileid: "104495144"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Фильтры DirectShow](directshow-filters.md)
+[DirectShow Фильтрующ](directshow-filters.md)
 </dt> <dt>
 
 [DVD-приложения](dvd-applications.md)

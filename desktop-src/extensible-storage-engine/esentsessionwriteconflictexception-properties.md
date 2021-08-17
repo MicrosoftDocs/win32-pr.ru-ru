@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102722
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 43ea841df05e7fdff524a1c320ce24c51bb039ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 160408eb29595d151b72fa5e3f2d5a9738001cd1a5dbbfb9422faf089cc604ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104540826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118981544"
 ---
 # <a name="esentsessionwriteconflictexception-properties"></a>Свойства Есентсессионвритеконфликтексцептион
 
@@ -49,7 +49,7 @@ ms.locfileid: "104540826"
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Защищенное свойство" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Состав</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
 <td>(Наследуется от <a href="/dotnet/api/system.exception">Exception</a>.)</td>
 </tr>
 <tr class="odd">

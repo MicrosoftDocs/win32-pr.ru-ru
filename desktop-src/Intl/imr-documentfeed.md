@@ -4,12 +4,12 @@ ms.assetid: 1a007bed-15e5-4400-9d2f-32e37e1765d2
 title: Код уведомления IMR_DOCUMENTFEED (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dc4fe46f95b7ad17ba7bb7850ec3fb9ca980519f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cbef4c83d35fa02e2c879d76b9520df6d01588c07cb725b13e66888e9dd27722
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118948781"
 ---
 # <a name="imr_documentfeed-notification-code"></a>\_Код уведомления ДОКУМЕНТФИД IMR
 
@@ -44,7 +44,7 @@ LRESULT IMR_DOCUMENTFEED
 
 Возвращает текущую структуру строки повторного преобразования. Если параметр *lParam* имеет значение **null**, приложение возвращает необходимый размер буфера для хранения структуры. Команда возвращает 0, если она не выполнена.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Редактор IME кэширует преобразованные строки для повышения точности преобразования. Одним из ограничений на кэширование IME является то, что оно теряет преобразованную строку в следующих случаях:
 
@@ -62,7 +62,7 @@ LRESULT IMR_DOCUMENTFEED
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                           |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                 |
-| Заголовок<br/>                   | <dl> <dt>IMM. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Imm. h (включает Windows. h)</dt> </dl> |
 
 
 

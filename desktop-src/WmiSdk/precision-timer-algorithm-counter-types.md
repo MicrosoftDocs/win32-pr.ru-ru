@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Типы счетчиков для алгоритма таймера точности
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3a8864587fedc915678dfa4a9e578ca051e1262
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 137d136db0b4dd579dfec4673b09ce216bef4042d9356b3938b79e7817e3d83a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103818049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131036"
 ---
 # <a name="precision-timer-algorithm-counter-types"></a>Типы счетчиков для алгоритма таймера точности
 
@@ -27,7 +27,7 @@ ms.locfileid: "103818049"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

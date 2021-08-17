@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: c9b55fbf718382e9dca7e3999cce0cabe895a261
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: b8c188e1b50905abd61184c7e1fe67d4253e920aa26d5d1782c1633d843bd282
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108116062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117733356"
 ---
 # <a name="d3dcolorvalue-structure-d3d9typesh"></a>Структура D3DCOLORVALUE (D3D9Types. h)
 
@@ -96,11 +96,11 @@ typedef struct _D3DCOLORVALUE {
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

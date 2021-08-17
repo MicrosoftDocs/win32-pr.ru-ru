@@ -4,12 +4,12 @@ ms.assetid: 859decab-cbe3-4cec-b37c-6d0e7c353876
 title: Элемент Depth (схема соединителя поиска)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf68bcbc96b6d1beb2c381f0a17532272b8d397e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 245156088cd68fcf67103c18b987a9b459b0b760b3a04a1ced817badd25aada8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117862529"
 ---
 # <a name="depth-element-search-connector-schema"></a>Элемент Depth (схема соединителя поиска)
 
@@ -66,7 +66,7 @@ ms.locfileid: "103990967"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если глубина имеет глубину, пользователи могут просматривать или искать элементы на уровне URL-адреса Скопеитем или в любых дочерних URL-адресах.
 

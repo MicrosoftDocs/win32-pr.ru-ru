@@ -1,17 +1,17 @@
 ---
-description: Установка службы в Windows Sockets 2 (Winsock) SPI.
+description: установка службы в Windows сокеты 2 (Winsock) SPI.
 ms.assetid: a303fbcf-9122-422a-9b12-d00a5df0fc0f
-title: Установка службы в списке SPI Windows Sockets 2
+title: установка службы в Windows сокеты 2 SPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9028f35c21cc7055e8b8dde060c1c178dbf76715
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: faad2431add9b20ebd3358c48469f382596b658de1339525b147b094a7c3786c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117740528"
 ---
-# <a name="service-installation-in-the-windows-sockets-2-spi"></a>Установка службы в списке SPI Windows Sockets 2
+# <a name="service-installation-in-the-windows-sockets-2-spi"></a>установка службы в Windows сокеты 2 SPI
 
 -   [**нспинсталлсервицекласс**](/windows/desktop/api/Ws2spi/nc-ws2spi-lpnspinstallserviceclass)
 -   [**нспремовесервицекласс**](/windows/desktop/api/Ws2spi/nc-ws2spi-lpnspremoveserviceclass)

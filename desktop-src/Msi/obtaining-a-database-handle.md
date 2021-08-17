@@ -4,12 +4,12 @@ ms.assetid: 53cf73bc-4d52-471c-8384-46d106a36e38
 title: Получение маркера базы данных
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec5f37f1abd329d0c51b00839d43ef85784fdad1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a325c7c69bed4141de8f553a344b20b5f3c61bfe28a1594105c0a853b7075744
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155286"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119145567"
 ---
 # <a name="obtaining-a-database-handle"></a>Получение маркера базы данных
 
@@ -21,7 +21,7 @@ ms.locfileid: "104155286"
     -   Если установка выполняется, получите маркер активной базы данных, вызвав функцию [**метод msigetactivedatabase**](/windows/desktop/api/Msiquery/nf-msiquery-msigetactivedatabase) .
     -   Если установка не выполняется, откройте любую из указанных баз данных, вызвав функцию [**мсиопендатабасе**](/windows/desktop/api/Msiquery/nf-msiquery-msiopendatabasea) .
 2.  После открытия базы данных можно вызывать функции для получения сведений о базе данных или для работы с базой данных.
-    -   Создайте объект **представления** и укажите SQL-запрос к открытой базе данных, вызвав функцию [**мсидатабасеопенвиев**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabaseopenviewa) .
+    -   создайте объект **представления** и укажите SQL запрос к открытой базе данных, вызвав функцию [**мсидатабасеопенвиев**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabaseopenviewa) .
     -   Получите запись, содержащую все первичные ключи указанной таблицы в открытой базе данных, вызвав функцию [**мсидатабасежетпримарикэйс**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabasegetprimarykeysa) .
     -   Проверьте текущее состояние открытой базы данных, вызвав функцию [**мсижетдатабасестате**](/windows/desktop/api/Msiquery/nf-msiquery-msigetdatabasestate) . С помощью функции **мсижетдатабасестате** можно определить состояние чтения и записи для базы данных или значение, если этот маркер является допустимым.
 

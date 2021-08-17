@@ -4,12 +4,12 @@ ms.assetid: 31824f21-04b1-45ca-adfa-15fd348e14a1
 title: Реализация Ивикметадатаблокквритер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62044ce9695a45a8fe052d67479158aa9e4baf6d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 43d49912ece0cc1e3c2299ace0a15f112ef7ab65ac03863b855b8a9ee64e62e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104547050"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964973"
 ---
 # <a name="implementing-iwicmetadatablockwriter"></a>Реализация Ивикметадатаблокквритер
 
@@ -77,7 +77,7 @@ for (UINT x=0; x < blockCount; x++)
 
 [**Ремовевритербиндекс**](/windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicmetadatablockwriter-removewriterbyindex) используется для удаления модуля записи метаданных из коллекции.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -93,7 +93,7 @@ for (UINT x=0; x < blockCount; x++)
 [Написание WIC-Enabled КОДЕка](-wic-howtowriteacodec.md)
 </dt> <dt>
 
-[Общие сведения о компоненте создания образов Windows](-wic-about-windows-imaging-codec.md)
+[Windows Общие сведения о компонентах обработки изображений](-wic-about-windows-imaging-codec.md)
 </dt> </dl>
 
  

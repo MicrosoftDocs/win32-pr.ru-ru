@@ -4,24 +4,24 @@ ms.assetid: a239b53c-7fc9-4211-962a-6cfbe0be4e4c
 title: Ссылка RealTimeStylus
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc9016779c3165bc8fb6e24e5612901a7fd58435
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 05518658a7bca01090e72cbe68d23b98d5ffffed14b2d8d091fa8c884e9f7c0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119091464"
 ---
 # <a name="realtimestylus-reference"></a>Ссылка RealTimeStylus
 
 Предоставляет доступ к событиям пера, поступающим от пера или сенсорных дигитайзеров.
 
-## <a name="in-this-section"></a>в этом разделе
+## <a name="in-this-section"></a>В этом разделе
 
 -   [Классы и интерфейсы RealTimeStylus](realtimestylus-classes-and-interfaces.md)
 -   [Перечисления RealTimeStylus](realtimestylus-enumerations.md)
 -   [Структуры RealTimeStylus](realtimestylus-structures.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот объект реализует COM-интерфейс [**иреалтиместилус**](/windows/desktop/api/RTSCom/nn-rtscom-irealtimestylus) .
 
@@ -37,7 +37,7 @@ ms.locfileid: "104265452"
 
 Разница между синхронными подключаемыми модулями и асинхронными подключаемыми модулями заключается в потоке, в котором они выполняются, и в вызывающей последовательности. Синхронные подключаемые модули вызываются потоком, в котором выполняется объект [**класса RealTimeStylus**](realtimestylus-class.md) . Каждый раз при создании экземпляра объекта **класса RealTimeStylus** создается экземпляр потока выполнения. Синхронные подключаемые модули выполняются в этом новом потоке, созданном для экземпляра объекта **класса RealTimeStylus** . Асинхронные подключаемые модули вызываются через пользовательский интерфейс или поток приложения после обработки потока пакетов синхронными подключаемыми модулями и хранятся в очереди вывода.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

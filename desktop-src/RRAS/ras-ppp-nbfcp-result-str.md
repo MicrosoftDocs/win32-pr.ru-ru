@@ -73,7 +73,7 @@ typedef struct _RAS_PPP_NBFCP_RESULT {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
@@ -83,7 +83,7 @@ typedef struct _RAS_PPP_NBFCP_RESULT {
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                 |
 | Окончание поддержки клиента<br/>    | Windows XP<br/>                                                                |
 | Поддержка конца сервера<br/>    | Windows Server 2003<br/>                                                       |
-| Header<br/>                   | <dl> <dt>Рассапи. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Рассапи. h</dt> </dl> |
 
 
 

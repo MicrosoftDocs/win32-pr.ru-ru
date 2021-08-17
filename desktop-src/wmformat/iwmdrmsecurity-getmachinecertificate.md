@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d6c66c54ab9528a458910def5978ec83b191654
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4fd85a3b74ee28e5faa8df5fc264d50366803f4073ec97a36920577d417e4f97
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119084701"
 ---
 # <a name="iwmdrmsecuritygetmachinecertificate-method"></a>Метод Ивмдрмсекурити:: Жетмачинецертификате
 
@@ -56,7 +56,7 @@ HRESULT GetMachineCertificate(
 | Значение                        | Описание                                                                           |
 |------------------------------|---------------------------------------------------------------------------------------|
 | \_Тип сертификата \_ WMDRM \_ v1 | Сертификат будет извлечен в формате, используемом компонентами предыдущих версий.            |
-| \_Тип сертификата \_ WMDRM \_ v2 | Сертификат будет извлечен в формате, используемом компонентами Windows Vista. |
+| \_Тип сертификата \_ WMDRM \_ v2 | сертификат будет извлечен в формате, используемом компонентами Windows Vista. |
 
 
 
@@ -105,7 +105,7 @@ HRESULT GetMachineCertificate(
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Вмдрмсдк. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Вмдрмсдк. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>Вмдрмсдк. lib</dt> </dl> |
 
 

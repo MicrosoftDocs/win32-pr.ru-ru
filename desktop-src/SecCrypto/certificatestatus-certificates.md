@@ -39,7 +39,7 @@ CertificateStatus.Certificates As Certificates
 
 Объект [**Certificates**](certificates.md) , представляющий коллекцию сертификатов, которые могут использоваться для создания цепочки сертификатов.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

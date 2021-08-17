@@ -4,16 +4,16 @@ ms.assetid: e88d65ad-9b56-4620-a0f5-573c5e245b3e
 title: Целевой объект
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e1e81ea94a2f608378eba069defc83a721e0fb9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b528d66fb789e4d237dacae151c3dda596e834f84f529c3677905672de3b7588
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693593"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119057952"
 ---
 # <a name="target-object"></a>Целевой объект
 
-\[Начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API управления хранилищами Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API Windows служба хранилища управления](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 Целевой объект моделирует цель iSCSI, содержащуюся в подсистеме iSCSI.
 
@@ -30,14 +30,14 @@ ms.locfileid: "105693593"
 | Тип                                                                                      | Элемент                                                                                                                     |
 |-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
 | Интерфейсы, которые всегда предоставляются этим объектом в поставщиках iSCSI для VDS 1,1 и 2,0 | [**Ивдсискситаржет**](/windows/desktop/api/Vds/nn-vds-ivdsiscsitarget).                                                                                 |
-| Связанные перечисления                                                                   | Нет.                                                                                                                       |
+| Связанные перечисления                                                                   | Отсутствует.                                                                                                                       |
 | Связанные структуры                                                                     | Служба [**VDS \_ Уведомление \_ целевого \_ объекта iSCSI**](/windows/desktop/api/Vds/ns-vds-vds_iscsi_target_prop) и [**\_ целевого \_ объекта VDS**](/windows/desktop/api/Vds/ns-vds-vds_target_notification). |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

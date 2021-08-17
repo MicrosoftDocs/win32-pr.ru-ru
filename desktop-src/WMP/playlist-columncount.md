@@ -31,7 +31,7 @@ ms.locfileid: "117747096"
 
 Этот атрибут является **числом** только для чтения (**длинное целое**).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

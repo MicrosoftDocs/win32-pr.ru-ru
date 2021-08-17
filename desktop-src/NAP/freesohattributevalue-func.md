@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bd56049eb727554227bd5eb509969f6795670a4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 877a333c7eb43c3921c7727bcc15a958bdcd2565fabe4636a67868f3a27bf473
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118940408"
 ---
 # <a name="freesohattributevalue-function"></a>Функция Фрисохаттрибутевалуе
 
@@ -60,7 +60,7 @@ NAPAPI VOID WINAPI FreeSoHAttributeValue(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Все COM-интерфейсы, поддерживаемые системой защиты доступа к сети, используют стандартные правила управления памятью COM и распределителя памяти COM (**CoTaskMemAlloc** и **CoTaskMemFree**):
 
@@ -76,9 +76,9 @@ NAPAPI VOID WINAPI FreeSoHAttributeValue(
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                 |
-| Header<br/>                   | <dl> <dt>Напутил. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                 |
+| Заголовок<br/>                   | <dl> <dt>Напутил. h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qutil.dll</dt> </dl> |
 
 

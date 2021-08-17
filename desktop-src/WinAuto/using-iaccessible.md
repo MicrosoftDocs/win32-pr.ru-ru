@@ -4,12 +4,12 @@ description: Интерфейс IAccessible — это коллекция мет
 ms.assetid: 82f6e934-58ea-47f2-98a3-2ab1c20f24c3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 218d009793dc1bebac2a7e5caeba8fa140ac0d96
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2c683e83928db53894c7c2c22976a5cf58c402c241e698dca5248230b1b24177
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104330427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117744899"
 ---
 # <a name="using-the-iaccessible-interface"></a>Использование интерфейса IAccessible
 
@@ -27,9 +27,9 @@ ms.locfileid: "104330427"
 -   [Свойства и методы выбора и фокуса](selection-and-focus-properties-and-methods.md)
 -   [Свойства и методы навигации по объектам](object-navigation-properties-and-methods.md)
 
- 
+ 
 
- 
+ 
 
 
 

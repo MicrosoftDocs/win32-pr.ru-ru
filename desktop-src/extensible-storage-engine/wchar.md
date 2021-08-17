@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1dfa86cbc771059d941027385090dcbd2f401855
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d35dd161816253b13b09c2f2f12e9aaa6d701d197546ee3e76cbf4b687236ae7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117701148"
 ---
 # <a name="wchar"></a>WCHAR
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="wchar"></a>WCHAR
 
@@ -55,11 +55,11 @@ WCHAR
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
+<td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
+<td><p><strong>Сервер</strong></p></td>
+<td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>

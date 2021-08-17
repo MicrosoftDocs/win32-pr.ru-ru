@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: b689dd95aa1e078572d33de64f245e4844698d5a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d0944b843c8deb38012242111b6c5057ccf7cb8557c69caefe9a87283d2ae418
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104541871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119328744"
 ---
 # <a name="rt_lostevent-class"></a>\_Класс ЛОСТЕВЕНТ RT
 
@@ -34,11 +34,11 @@ class RT_LostEvent : Lost_Event
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **RT \_ лостевент** не определяет никаких членов.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Тип события Ртлостевент указывает на потерю одного или нескольких событий. Тип события Ртлостбуффер указывает, что один или несколько буферов были потеряны. Типы событий Ртлостевент и Ртлостбуффер доставляются перед обработкой событий из буфера.
 
@@ -52,7 +52,7 @@ class RT_LostEvent : Lost_Event
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                      |
 
 

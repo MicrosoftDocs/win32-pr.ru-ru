@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 3f1964eaf84e9b0a2669f59357f54d16b1b4cbd3
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: d90444aff674ce876f19f02f21104dd7e42143de5926ba068bbe2c49f427fdde
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104412423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117725891"
 ---
 # <a name="shader-model-4"></a>Модель шейдера 4
 
@@ -68,7 +68,7 @@ Shader Model 4 является надмножеством возможност�
 
 
 
- 
+ 
 
 \* -GS \_ 4 \_ 1, PS \_ 4 1 \_ , VS \_ 4 \_ 1 и FX \_ 4 1 \_ поддерживаются в Direct3D 10,1 или более поздней версии.
 
@@ -84,16 +84,16 @@ Shader Model 4 является надмножеством возможност�
 
 В разделе [Assembly Shader Model 4](dx-graphics-hlsl-sm4-asm.md) описаны инструкции ассемблера, поддерживаемые шейдером Model 4 и shader Model 4,1.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Модели шейдеров и профили шейдеров](dx-graphics-hlsl-models.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
