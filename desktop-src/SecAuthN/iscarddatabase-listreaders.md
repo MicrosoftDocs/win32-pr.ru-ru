@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: dcd78066a95c69b75d5089ba1683e5c937cb7414
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c7ae9c41a8b1894ec0c233c6090f8ab990e275e95bc20c4768171fe867412838
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650538"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141137"
 ---
 # <a name="iscarddatabaselistreaders-method"></a>Метод Искарддатабасе:: Листреадерс
 
-\[Метод **листреадерс** доступен для использования в операционных системах, указанных в разделе требования. Он недоступен для использования в Windows Server 2003 с пакетом обновления 1 (SP1) и более поздней версии, Windows Vista, Windows Server 2008 и последующих версиях операционной системы. [Модули смарт-карт](/previous-versions/windows/desktop/secsmart/smart-card-modules) предоставляют аналогичные функции.\]
+\[Метод **листреадерс** доступен для использования в операционных системах, указанных в разделе требования. он недоступен для использования в Windows Server 2003 с пакетом обновления 1 (SP1) и более поздних версий, Windows Vista, Windows Server 2008 и последующих версиях операционной системы. [Модули смарт-карт](/previous-versions/windows/desktop/secsmart/smart-card-modules) предоставляют аналогичные функции.\]
 
 Метод **листреадерс** извлекает имена [*устройств чтения*](../secgloss/r-gly.md) смарт-карт, зарегистрированных в [*базе данных смарт-карты*](../secgloss/s-gly.md).
 
@@ -73,7 +73,7 @@ HRESULT ListReaders(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы получить все известные [*смарт-карты*](../secgloss/s-gly.md) или [*группы читателей*](../secgloss/r-gly.md), вызовите [**листкардс**](iscarddatabase-listcards.md) или [**листреадерграупс**](iscarddatabase-listreadergroups.md) соответственно.
 
@@ -115,11 +115,11 @@ else
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
 | Окончание поддержки клиента<br/>    | Windows XP<br/>                                                                   |
 | Поддержка конца сервера<br/>    | Windows Server 2003<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Скардмгр. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Скардмгр. h</dt> </dl>   |
 | Библиотека типов<br/>             | <dl> <dt>Скардмгр. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Scardssp.dll</dt> </dl> |
 | IID<br/>                      | IID \_ искарддатабасе определен как 1461AAC8-6810-11D0-918F-00AA00C18068<br/>       |

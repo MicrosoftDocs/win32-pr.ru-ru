@@ -4,12 +4,12 @@ ms.assetid: 03fd5272-8476-4c93-8590-0d00acf6a130
 title: Функция AcceptSecurityContext (Schannel) (SSPI. h)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: ba353cfbe64d6471230a720680301ebab0da511a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2700704c9fc1c40fc2d5648306147c5091a318e5c8bd4383bb32bc5416c8d069
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105719537"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141647"
 ---
 # <a name="acceptsecuritycontext-schannel-function"></a>Функция AcceptSecurityContext (Schannel)
 
@@ -147,7 +147,7 @@ SECURITY_STATUS SEC_Entry AcceptSecurityContext(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **AcceptSecurityContext (Schannel)** является аналогом сервера функции [**InitializeSecurityContext (Schannel)**](initializesecuritycontext--schannel.md) .
 
@@ -176,9 +176,9 @@ SECURITY_STATUS SEC_Entry AcceptSecurityContext(
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только Windows 8.1 Классические приложения\]<br/>                                                           |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2012 R2 \[\]<br/>                                                |
-| Header<br/>                   | <dl> <dt>SSPI. h (включая Security. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8.1 \[ только классические приложения\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[Только классические приложения R2\]<br/>                                                |
+| Заголовок<br/>                   | <dl> <dt>SSPI. h (включая Security. h)</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Secur32. lib</dt> </dl>                 |
 | DLL<br/>                      | <dl> <dt>Secur32.dll</dt> </dl>                 |
 

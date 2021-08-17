@@ -76,7 +76,7 @@ typedef struct WMDRM_LICENSE_FILTER {
 
 Эта структура используется методом [**ивмдрмлиценсеманажемент:: креателиценсинумератион**](iwmdrmlicensemanagement-createlicenseenumeration.md) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

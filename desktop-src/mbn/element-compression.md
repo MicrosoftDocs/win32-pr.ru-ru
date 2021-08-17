@@ -82,7 +82,7 @@ ms.locfileid: "118745115"
 
  
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 <table>
 <colgroup>

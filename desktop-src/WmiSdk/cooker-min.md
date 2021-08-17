@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: COOKER_MIN
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3059f8c9b3464fb4893c24d820e25b19472e95ef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 23ae137cf5521ebc6e4811556599d354ee5991ca9d0844502e27f928ce6539a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711751"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131516"
 ---
 # <a name="cooker_min"></a>мин. \_
 
@@ -24,7 +24,7 @@ ms.locfileid: "105711751"
 
 Примеры кода см. в разделе [получение статистических данных о производительности](obtaining-statistical-performance-data.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

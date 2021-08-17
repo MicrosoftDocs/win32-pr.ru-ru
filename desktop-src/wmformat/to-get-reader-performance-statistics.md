@@ -14,12 +14,12 @@ keywords:
 - производительность, асинхронные читатели
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5484b211f2c2d1e9ad4cf9aac3773c7946757c2
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 2397e575d67a699c4f211d872b53632e728fc2240b396d7475c8bb6b243fe445
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103890236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119084268"
 ---
 # <a name="to-get-reader-performance-statistics"></a>Получение статистики производительности читателя
 
@@ -39,16 +39,16 @@ ms.locfileid: "103890236"
 2.  Получите указатель на интерфейс [**ивмреадерадванцед**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced) объекта Reader, вызвав **Ивмреадер:: QueryInterface**.
 3.  Во время воспроизведения Сделайте вызов [**ивмреадерадванцед:: Statistics**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getstatistics) часто для наблюдения за производительностью. Передайте **структуру \_ \_ статистики модуля чтения WM** с каждым вызовом и изучите соответствующие члены.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Чтение файлов с помощью асинхронного модуля чтения**](reading-files-with-the-asynchronous-reader.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

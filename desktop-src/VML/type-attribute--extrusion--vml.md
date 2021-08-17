@@ -4,21 +4,21 @@ description: Атрибут типа (объемная) (VML)
 ms.assetid: 2c7ad2f1-fb5d-49fb-b490-3efe59ee5177
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14bc91f9348603bc89189debb2255f8fff39e135
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1a14c3b69aa4156cbd94bb8598caa80ccd92721574daafe074486eb293059cae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103890853"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119057591"
 ---
 # <a name="type-attribute-extrusionvml"></a>Атрибут типа (объемная) (VML)
 
-В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+в этом разделе описывается функция VML, которая является устаревшей по отношению к Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
 
 > [!Note]  
-> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
+> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). сведения, рекомендации и рекомендации относительно текущей версии Windows Internet explorer см. в [центре разработчиков internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Определяет способ вытягивания фигуры. Read/write. **Строка**.
 
@@ -49,10 +49,10 @@ ms.locfileid: "103890853"
 
 
 
- 
+ 
 
-**Атрибут расширений Microsoft Office**
+**Microsoft Office Extensions, атрибут**
 
- 
+ 
 
- 
+ 

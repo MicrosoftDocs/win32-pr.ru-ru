@@ -43,7 +43,7 @@ DisplayName = DIDiskQuotaUser.DisplayName
 
 Это свойство содержит понятное имя пользователя. Его значение не обязательно определено.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -4,12 +4,12 @@ description: Объявите тело функции.
 ms.assetid: 3A651107-BEA6-4D79-938F-8E0243C874C3
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 33f020748ecff270311fbbc89798d82b223b1f34
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 339e7f5d7edb91f4f3405b328286a9ae32a8108efdaafaba1f212870be7ff8b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104133346"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117727238"
 ---
 # <a name="dcl_function_body-sm5---asm"></a>\_тело функции дкл \_ (SM5-ASM)
 
@@ -34,7 +34,7 @@ ms.locfileid: "104133346"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта инструкция объявляет уникальный текст функции, код которого будет отображаться позже в программе в метке FB \# .
 
@@ -64,7 +64,7 @@ ms.locfileid: "104133346"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
 | [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Нет        |
 | [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Нет        |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
@@ -75,7 +75,7 @@ ms.locfileid: "104133346"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

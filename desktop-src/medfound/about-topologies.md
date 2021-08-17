@@ -4,12 +4,12 @@ ms.assetid: 4f69b099-0ca7-4ea6-8412-0f1ea02e1600
 title: О топологиях
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35008d839e8054554370039dd13297ae7a1f0b0a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9410207ed5f235f61e167564f7a5dee8a1367044032be0a15cef9ac3b95fb9e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104553573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975122"
 ---
 # <a name="about-topologies"></a>О топологиях
 
@@ -56,11 +56,11 @@ ms.locfileid: "104553573"
 
 Приложения также могут создать загрузчик топологии и использовать его напрямую. Например, можно использовать загрузчик топологии для разрешения частичной топологии, а затем изменить полную топологию перед передачей в сеанс мультимедиа. Чтобы создать загрузчик топологии, вызовите [**мфкреатетополоадер**](/windows/desktop/api/mfidl/nf-mfidl-mfcreatetopoloader).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Топологии](topologies.md)
+[Топологий](topologies.md)
 </dt> </dl>
 
  

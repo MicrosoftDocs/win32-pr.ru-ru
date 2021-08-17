@@ -47,7 +47,7 @@ const COLORREF rgbWhite =  0x00FFFFFF;
 
 пример из [Windows классических примеров](https://github.com/microsoft/Windows-classic-samples) на GitHub.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

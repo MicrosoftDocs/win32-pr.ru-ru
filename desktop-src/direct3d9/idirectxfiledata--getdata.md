@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dxof.lib
 - D3dxof.dll
-ms.openlocfilehash: ed52aaf0b4c740b675129c81843c0bd49c7f428e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 428bff1f3fd76cd7c4589d5084435f8a675ab0d73bf0ff02052b2212d2c2dea9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117728970"
 ---
 # <a name="idirectxfiledatagetdata-method"></a>Метод Идиректксфиледата:: GetData
 
@@ -75,7 +75,7 @@ HRESULT GetData(
 
 Если метод выполнен успешно, возвращается значение ДКСФИЛЕ \_ ОК. Если метод завершается ошибкой, возвращаемое значение может быть одним из следующих: ДКСФИЛИРР \_ бадаррайсизе, дксфилирр \_ БАДДАТАРЕФЕРЕНЦЕ, дксфилирр \_ бадвалуе.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод получает данные для обязательных элементов объекта данных, но не имеет данных для необязательных (дочерних) элементов. Чтобы получить дочерние объекты, используйте [**идиректксфиледата:: жетнекстобжект**](idirectxfiledata--getnextobject.md) .
 
@@ -85,7 +85,7 @@ HRESULT GetData(
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Дксфиле. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Дксфиле. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>D3dxof. lib</dt> </dl> |
 
 

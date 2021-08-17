@@ -77,7 +77,7 @@ Implements IWMPLibraryServices.getLibraryByType
 
 Существует только одна локальная Библиотека, и библиотеки дисков доступны только на компакт-дисках с данными и DVD-дисках, содержащих мультимедийное содержимое.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

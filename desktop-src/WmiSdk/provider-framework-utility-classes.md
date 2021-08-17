@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Вспомогательные классы инфраструктуры поставщика
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cab09c99fe2597cacd81e55a4ed18bd4e286ff16
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 254a1321ab835c86e7b4bf0e5cb14048be0352290707a61aaf993a9a6cc6e8dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703189"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130986"
 ---
 # <a name="provider-framework-utility-classes"></a>Вспомогательные классы инфраструктуры поставщика
 
@@ -34,7 +34,7 @@ ms.locfileid: "105703189"
  
 
 > [!Caution]  
-> Ссылка на сборки отладки поставщика с помощью Фрамедид. lib для Framedyd.dll. Framedyd.dll находится в каталоге bin пакета средств разработки программного обеспечения Microsoft Windows (SDK) \\ , который не входит в системный путь. При тестировании отладочной сборки поставщика с помощью службы управления Windows поставщик платформы не сможет загрузиться, так как Framedyd.dll или одна из ее зависимостей не будет найдена. Поэтому необходимо либо скопировать Framedyd.dll из \\ каталога Windows SDK bin в \\ \\ каталог System32 WBEM, либо добавить Windows SDK \\ каталог bin в путь поиска системы.
+> Ссылка на сборки отладки поставщика с помощью Фрамедид. lib для Framedyd.dll. Framedyd.dll находится в каталоге bin пакета средств разработки программного обеспечения (SDK) Microsoft Windows, \\ который не включен в системный путь. при тестировании отладочной сборки поставщика с помощью службы Windows Management происходит сбой загрузки поставщика платформы, так как Framedyd.dll или одна из его зависимостей не будут найдены. поэтому необходимо либо скопировать Framedyd.dll из \\ каталога Windows SDK bin в \\ \\ каталог system32 wbem, либо добавить Windows SDK \\ каталог bin в путь поиска системы.
 
  
 
@@ -47,7 +47,7 @@ ms.locfileid: "105703189"
 | [**чстринг**](chstring.md)                           | Предоставляет функции сравнения строк и управления для WMI.                                                                  |
 | [**чстрингаррай**](/windows/desktop/api/ChStrArr/nl-chstrarr-chstringarray)                 | Содержит для создания массивов Чстринг и управления ими.                                                                      |
 | [**трефпоинтерколлектион**](/windows/desktop/api/RefPtrCo/nl-refptrco-trefpointercollection) | Предоставляет доступ к классу контейнера для указателей.                                                                                |
-| [**вбемтиме**](wbemtime.md)                           | Упрощает преобразование между различными форматами времени выполнения Windows и ANSI C.                                               |
+| [**вбемтиме**](wbemtime.md)                           | упрощает преобразование между различными Windows и форматами времени выполнения ANSI C.                                               |
 | [**вбемтимеспан**](/windows/desktop/api/WbemTime/nl-wbemtime-wbemtimespan)                   | Содержит вспомогательные функции, используемые для вычисления и удержания разницы временного интервала между двумя объектами [**вбемтиме**](wbemtime.md) . |
 
 

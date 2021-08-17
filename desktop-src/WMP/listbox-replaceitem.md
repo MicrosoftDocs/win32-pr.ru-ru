@@ -3,7 +3,7 @@ title: LISTBOX. Реплацеитем
 description: Метод Реплацеитем заменяет текст с указанным индексом на указанный текст.
 ms.assetid: 8dc05dc6-4f89-4ae6-8a28-cbc418449694
 keywords:
-- Проигрыватель Windows Media LISTBOX. Реплацеитем
+- проигрыватель Windows Media LISTBOX. реплацеитем
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 74592feb9bc58e23853b886ee2383744e36b9cff
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4524b479490dff81b9a114ca957c7c40282ded130d2bf35dba8c58a6197eab17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704421"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135217"
 ---
 # <a name="listboxreplaceitem"></a>LISTBOX. Реплацеитем
 
@@ -56,7 +56,7 @@ ms.locfileid: "105704421"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
 
 
 

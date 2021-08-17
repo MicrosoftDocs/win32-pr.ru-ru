@@ -48,7 +48,7 @@ HRESULT get_AddItem(
 
 Возвращает указатель на адрес для нового фильтра.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

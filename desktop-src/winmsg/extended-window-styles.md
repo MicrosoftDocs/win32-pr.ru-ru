@@ -66,7 +66,7 @@ virtual    BOOL    Create(HWND hWndParent, WCHAR* pwszClassName,
 
 
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

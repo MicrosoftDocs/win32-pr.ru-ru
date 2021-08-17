@@ -4,12 +4,12 @@ ms.assetid: 9fee5cee-ae63-4eba-9bb9-4d5e96c3953e
 title: System.Devices.AepContainer.Children
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29d9d3eadd200458121bfbc74796f6c5919aa129
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 43c8518af43dc20c383b747cacc6b3bc17c58b5cbc37a56a6ea5246b2615318a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911408"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119097915"
 ---
 # <a name="systemdevicesaepcontainerchildren"></a>System.Devices.AepContainer.Children
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

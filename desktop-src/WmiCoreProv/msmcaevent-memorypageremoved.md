@@ -100,7 +100,7 @@ class MSMCAEvent_MemoryPageRemoved : WmiEvent
 
 Класс **мсмкаевент \_ меморипажеремовед** является производным от [**WMIEvent**](wmievent.md).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

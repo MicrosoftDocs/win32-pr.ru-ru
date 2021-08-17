@@ -134,7 +134,7 @@ _**Применимо к:** Windows | Windows Сервером_
 
 Возвращается, если "Err = = JET_wrnColumnSingleValue".
 
-### <a name="requirements"></a>Requirements (Требования)
+### <a name="requirements"></a>Требования
 
 <table>
 <colgroup>

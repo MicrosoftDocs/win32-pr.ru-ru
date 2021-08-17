@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Fastprox.dll
-ms.openlocfilehash: db4c7a76b04b659cd467f7a4a7a9a8c1ba42721f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a8c71d5b5f59a3b59fe3b639104bfa1fa2dcf9cd35764e37984759827ff7e92b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131396"
 ---
 # <a name="iwbemcausalityaccess-interface"></a>Интерфейс Ивбемкаусалитякцесс
 
@@ -54,7 +54,7 @@ ms.locfileid: "105647525"
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Вбеминт. h</dt> </dl>    |
+| Заголовок<br/>                   | <dl> <dt>Вбеминт. h</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>Fastprox.dll</dt> </dl> |
 
 

@@ -5,12 +5,12 @@ ms.assetid: 2c47acd2-5d52-4e0f-8848-a11aff59f963
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61e01fdc860eeb5510dd78a4127fdc22b30d711a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 95a20900e77d7d686868e00f7067b23fff644255997a14c9d4c1cbdcf3d1951d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104134539"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117742735"
 ---
 # <a name="ws-management-protocol"></a>Протокол WS-Management
 
@@ -30,7 +30,7 @@ ms.locfileid: "104134539"
 
 Сообщения следуют правилам [*протокола SOAP*](windows-remote-management-glossary.md) , используемым всеми протоколами веб-служб.
 
-В следующем примере кода показано сообщение с операцией Get. Этот пример показан в качестве вспомогательного средства для понимания того, как выглядят основные сообщения. Вам не нужно знать, как создавать сообщения SOAP. Эти сообщения собираются служба удаленного управления Windows при выполнении команды с помощью программы командной строки **WinRM** или при выполнении скрипта, написанного с помощью [API-интерфейса для сценариев WinRM](winrm-scripting-api.md).
+В следующем примере кода показано сообщение с операцией Get. Этот пример показан в качестве вспомогательного средства для понимания того, как выглядят основные сообщения. Вам не нужно знать, как создавать сообщения SOAP. эти сообщения собираются служба удаленного управления Windows при выполнении команды с помощью программы командной строки **winrm** или при выполнении скрипта, написанного с помощью [API-интерфейса для сценариев winrm](winrm-scripting-api.md).
 
 Сообщение является запросом на получение экземпляра [**Win32 \_ LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) со свойством **DeviceID** из "c:" с сервера с именем ремотекомпутер. Запрос использует транспорт HTTP через порт 80. Учетная запись, отправляющей запрос, должна находиться в локальной группе администраторов на удаленном компьютере.
 
@@ -68,16 +68,16 @@ ms.locfileid: "104134539"
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[О служба удаленного управления Windows](about-windows-remote-management.md)
+[о служба удаленного управления Windows](about-windows-remote-management.md)
 </dt> <dt>
 
 [Удаленное управление оборудованием](remote-hardware-management.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

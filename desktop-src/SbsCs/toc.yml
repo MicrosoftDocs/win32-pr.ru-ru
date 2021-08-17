@@ -23,17 +23,17 @@
           items:
             - name: Конфигурация по умолчанию
               href: default-configuration.md
-            - name: Конфигурация издателя
+            - name: Publisher Настройка
               href: publisher-configuration.md
             - name: Конфигурация для каждого приложения
               href: per-application-configuration.md
-            - name: Настройка для каждого приложения в Windows XP
+            - name: настройка для каждого приложения в Windows XP
               href: per-application-configuration-on-windows-xp.md
         - name: Контексты активации
           href: activation-contexts.md
         - name: Версии сборки
           href: assembly-versions.md
-        - name: Перенаправление библиотек DLL/COM в Windows
+        - name: Перенаправление DLL/COM на Windows
           href: dll-com-redirection-on-windows.md
     - name: Использование изолированных приложений и параллельных сборок
       href: using-isolated-applications-and-side-by-side-assemblies.md
@@ -67,7 +67,7 @@
               href: searching-for-assemblies.md
             - name: Поиск файлов сборки
               href: searching-for-assembly-files.md
-            - name: Создание параллельных классов Windows
+            - name: создание параллельных Windows классов
               href: creating-side-by-side-windows-classes.md
             - name: Создание Registration-Free COM-объектов
               href: creating-registration-free-com-objects.md
@@ -98,7 +98,7 @@
           href: should-you-provide-a-shared-component-as-a-side-by-side-assembly.md
         - name: Создание библиотеки DLL для параллельной сборки
           href: authoring-a-dll-for-a-side-by-side-assembly.md
-        - name: Создание хранилища состояний для параллельных сборок
+        - name: создание служба хранилища состояний для параллельных сборок
           href: authoring-state-storage-for-side-by-side-assemblies.md
     - name: Ссылка на параллельные сборки
       href: side-by-side-assemblies-reference.md
@@ -178,13 +178,13 @@
               href: application-manifests.md
             - name: Файлы конфигурации приложений
               href: application-configuration-files.md
-            - name: Файлы конфигурации издателя
+            - name: Publisher Файлы конфигурации
               href: publisher-configuration-files.md
             - name: Схема файла манифеста
               href: manifest-file-schema.md
             - name: Схема файла конфигурации приложения
               href: application-configuration-file-schema.md
-            - name: Схема файла конфигурации издателя
+            - name: Publisher Схема файла конфигурации
               href: publisher-configuration-file-schema.md
         - name: Справочник по контексту активации
           href: activation-context-reference.md
@@ -246,7 +246,7 @@
               href: mt-exe.md
             - name: Pktextract.exe
               href: pktextract-exe.md
-        - name: Объект Microsoft. Windows. Акткткс
+        - name: NNTP. Windows. Объект Акткткс
           href: microsoft-windows-actctx-object.md
           items:
             - name: Свойство manifest
@@ -258,7 +258,7 @@
     - name: Глоссарий
       href: glossary-sbscs.md
       items:
-        - name: Объект
+        - name: A
           href: a-sbscs-gly.md
         - name: D
           href: d-sbscs-gly.md

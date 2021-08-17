@@ -1,30 +1,30 @@
 ---
-title: Справочник по программированию Windows Media Format SDK
-description: Справочник по программированию Windows Media Format SDK
+title: Windows Справочник по программированию для пакета SDK формата мультимедиа
+description: Windows Справочник по программированию для пакета SDK формата мультимедиа
 ms.assetid: cafb8aa7-6b0a-4bcc-b618-2520a31cd7a6
 keywords:
-- Windows Media Format SDK, Справочник по программированию
-- Windows Media Format SDK, расширенный формат систем (ASF)
+- Windows Пакет SDK для формата мультимедиа, Справочник по программированию
+- Windows Пакет SDK формата мультимедиа, расширенный формат систем (ASF)
 - Расширенный системный формат (ASF), Справочник по программированию
 - ASF (Расширенный системный формат), Справочник по программированию
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44c316b85e91c31b513fbfcdff003ba37efea93b
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 60d600833202da1522d07dfcedebb8892f92975cac59bb0117f3367b44ada5b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104414584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119084621"
 ---
-# <a name="windows-media-format-sdk-programming-reference"></a>Справочник по программированию Windows Media Format SDK
+# <a name="windows-media-format-sdk-programming-reference"></a>Windows Справочник по программированию для пакета SDK формата мультимедиа
 
-Пакет средств разработки программного обеспечения Microsoft® Windows Media® Format (SDK) поддерживает ряд объектов, интерфейсов, независимых функций, структур, типов перечисления, атрибутов и т. д. Эти сведения подробно описаны в следующих разделах.
+пакет средств разработки программного обеспечения (SDK) для Microsoft® Windows Media® поддерживает ряд объектов, интерфейсов, независимых функций, структур, типов перечислений, атрибутов и т. д. Эти сведения подробно описаны в следующих разделах.
 
 
 
 | Section                                                                              | Описание                                                                                                  |
 |--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| [Объекты](objects.md)                                                               | Описывает объекты и интерфейсы, поддерживаемые каждым объектом в пакете SDK формата Windows Media.           |
+| [Объекты](objects.md)                                                               | описывает объекты и интерфейсы, поддерживаемые каждым объектом в Windows пакете SDK формата мультимедиа.           |
 | [Функции](functions.md)                                                           | Описывает все независимые функции, обычно используемые для создания и инициализации различных объектов.      |
 | [Интерфейсы](interfaces.md)                                                         | Описывает все интерфейсы и методы в этом пакете SDK.                                                        |
 | [Структуры](structures.md)                                                         | Описывает структуры, поддерживаемые этим пакетом SDK.                                                              |
@@ -44,17 +44,17 @@ ms.locfileid: "104414584"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[**О пакете SDK для формата Windows Media**](about-the-windows-media-format-sdk.md)
+[**сведения о пакете SDK для Windows Media Format**](about-the-windows-media-format-sdk.md)
 </dt> <dt>
 
 [**Инструкции по программированию**](programming-guide.md)
 </dt> <dt>
 
-[**Пакет SDK для Windows Media Format 11**](windows-media-format-11-sdk.md)
+[**Windows Пакет SDK для формата мультимедиа 11**](windows-media-format-11-sdk.md)
 </dt> </dl>
 
  

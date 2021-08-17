@@ -19,7 +19,7 @@ ms.locfileid: "118565079"
 
 ## <a name="type"></a>Тип
 
-Ошибка
+Error
 
 ## <a name="description"></a>Описание
 

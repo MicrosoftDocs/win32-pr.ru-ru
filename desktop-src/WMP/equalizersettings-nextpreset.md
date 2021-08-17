@@ -3,7 +3,7 @@ title: ЕКУАЛИЗЕРСЕТТИНГС. Некстпресет
 description: Метод Некстпресет применяет следующую предустановку эквалайзера.
 ms.assetid: 67d40ec9-2744-4d63-aa56-0ee20496e896
 keywords:
-- Проигрыватель Windows Media ЕКУАЛИЗЕРСЕТТИНГС. Некстпресет
+- екуализерсеттингс. некстпресет проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b464c0fca9b38a14a65a24185e51813e4520eee0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 715c5ee514cf2818cbab8b5553cab9565a2b448e47d1f6fe2282f17940cfc5b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699143"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117748699"
 ---
 # <a name="equalizersettingsnextpreset"></a>ЕКУАЛИЗЕРСЕТТИНГС. Некстпресет
 
@@ -36,7 +36,7 @@ ms.locfileid: "105699143"
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если текущая Предустановка является последней доступной, первая Предустановка становится текущей.
 
@@ -69,7 +69,7 @@ ms.locfileid: "105699143"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

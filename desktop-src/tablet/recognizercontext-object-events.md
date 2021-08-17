@@ -4,12 +4,12 @@ ms.assetid: bcdf33aa-21bc-4218-a0a8-2edfa019f340
 title: События объекта Рекогнизерконтекст
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc520801ae3391288966e6286d24449be4741b87
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7c8c8fa7aad4e7c6ba0dde2b38db4b82437b0732dda565aed8cc42750a339b1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119091444"
 ---
 # <a name="recognizercontext-object-events"></a>События объекта Рекогнизерконтекст
 

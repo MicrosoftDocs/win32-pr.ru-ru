@@ -41,12 +41,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 9bd46ebde99ae6c6d9e28975d67563424619db84
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1b85a4e80588b98625f166f76c09aff9d52b114adcee4507eb7b81957746d88e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119080488"
 ---
 # <a name="cim_physicalmemory-class"></a>\_Класс CIM фисикалмемори
 
@@ -101,7 +101,7 @@ class CIM_PhysicalMemory : CIM_Chip
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ фисикалмемори** имеет следующие свойства.
 
@@ -141,7 +141,7 @@ class CIM_PhysicalMemory : CIM_Chip
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -239,7 +239,7 @@ class CIM_PhysicalMemory : CIM_Chip
 1
 </dt> <dd>
 
-Другое
+Другие
 
 </dd> <dt>
 
@@ -663,7 +663,7 @@ LGA
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -963,7 +963,7 @@ LGA
 
 </dd> <dt>
 
-**Version**
+**Версия**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -981,7 +981,7 @@ LGA
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **CIM \_ фисикалмемори** является производным от [**\_ микросхемы CIM**](cim-chip.md).
 

@@ -526,7 +526,7 @@ hr = pDWriteFactory->UnregisterFontFileLoader(pInMemoryFontFileLoader);
 
  
 
-## <a name="advanced-scenarios"></a>Сложные сценарии
+## <a name="advanced-scenarios"></a>Расширенные сценарии
 
 Некоторые приложения могут иметь особые требования, требующие более сложной обработки, чем описано выше. 
 

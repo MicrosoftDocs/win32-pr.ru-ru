@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Доступ к предустановленным классам производительности WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0265f9b4008913a463545ed03cd6f1025b58ef5a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 656c3434d2f20bd73ae9ff5273f7e67439fc6caa01ac9ee5bf0283850e64b34a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693158"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131897"
 ---
 # <a name="accessing-wmi-preinstalled-performance-classes"></a>Доступ к предустановленным классам производительности WMI
 
@@ -298,7 +298,7 @@ pWbemLocator->Release();
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
