@@ -79,7 +79,7 @@ HRESULT D3DX10CreateThreadPump(
 
 Конвейер потоков — это очень ресурсоемкий объект. Для каждого приложения должен быть создан только один конвейер потока.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

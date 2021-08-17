@@ -184,7 +184,7 @@ class CIM_SwitchService : CIM_ForwardingService
 
 </dd> </dl>
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

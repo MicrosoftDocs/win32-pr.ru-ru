@@ -4,12 +4,12 @@ ms.assetid: baa212ac-81f6-4765-a484-f1a98c431474
 title: Баундингсфере. RADIUS (Директксколлисион. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2512406bc5e8815872f071ac5e99193cbc583d50
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: eba7ef192b4417454df088a1dccb419c46ee0df3974937629cadc18ddf3c4b3a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105717963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118502110"
 ---
 # <a name="boundingsphereradius"></a>Баундингсфере. RADIUS
 
@@ -23,11 +23,11 @@ public:
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 ### <a name="platform-requirements"></a>Требования к платформе
 
-Microsoft Visual Studio 2010 или Microsoft Visual Studio 2012 с Windows SDK для Windows 8. Поддерживается для классических приложений Win32, приложений для Магазина Windows и Windows Phone 8 приложений.
+Microsoft Visual Studio 2010 или Microsoft Visual Studio 2012 с Windows SDK для Windows 8. поддерживается для классических приложений Win32, приложений для магазина Windows и Windows Phone 8 приложений.
 
 ## <a name="requirements"></a>Требования
 
@@ -44,7 +44,7 @@ Microsoft Visual Studio 2010 или Microsoft Visual Studio 2012 с Windows SDK 
 
 <dl> <dt>
 
-[Fields](boundingsphere-fields.md)
+[Поля](boundingsphere-fields.md)
 </dt> <dt>
 
 **Ссылки**

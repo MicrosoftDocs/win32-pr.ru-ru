@@ -21,7 +21,7 @@ ms.locfileid: "118633527"
 
 Значение свойства [**ProductVersion**](productversion.md) — это версия продукта в строковом формате.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -12,12 +12,12 @@ keywords:
 - потоки видео, синхронные читатели
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c26711d2d839e47279e7e52a50f5dc82c6e81da
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 2e1b2da615f23e5c1d17046f08310d0aeda49200d5c4ba9fba890d7ba4951e0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104336319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118699115"
 ---
 # <a name="to-seek-by-frame-number-using-the-synchronous-reader"></a>Поиск по номеру кадра с помощью синхронного модуля чтения
 
@@ -28,7 +28,7 @@ ms.locfileid: "104336319"
 1.  Установите начальный номер кадра и число кадров, которые считываются для примера доставки, вызвав [**ивмсинкреадер:: сетранжебифраме**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmsyncreader-setrangebyframe). Необходимо указать номер потока для видеопотока с индексированием кадров. Модуль чтения синхронизирует остальные выходные данные с временем представления указанного кадра указанного потока и начинает доставку выходных данных.
 2.  Начало извлечения образцов с вызовами метода [**ивмсинкреадер:: жетнекстсампле**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmsyncreader-getnextsample). Продолжайте работу, как обычно с синхронным модулем чтения.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -38,9 +38,9 @@ ms.locfileid: "104336319"
 [**Чтение файлов с помощью синхронного модуля чтения**](reading-files-with-the-synchronous-reader.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

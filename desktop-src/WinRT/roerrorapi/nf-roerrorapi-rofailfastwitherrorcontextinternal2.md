@@ -67,7 +67,7 @@ void WINAPI RoFailFastWithErrorContextInternal2(
 
 Дополнительные сведения см. в разделе [функция рофаилфаствисеррорконтекст](/windows/win32/api/roerrorapi/nf-roerrorapi-rofailfastwitherrorcontext).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **Целевая платформа** | Windows |

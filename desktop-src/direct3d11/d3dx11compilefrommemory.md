@@ -204,7 +204,7 @@ Type: **[ **size \_ T**](/windows/desktop/WinProg/windows-data-types)**
 
 Кроме того, если вы передаете значение, отличное от **null** , *фресулт* при указании значения **null** для *ппумп*, **D3DX11CompileFromMemory** возвращает \_ код ошибки E INVALIDARG.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

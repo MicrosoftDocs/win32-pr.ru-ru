@@ -61,7 +61,7 @@ propVal = Installer.FeatureState
 
 Свойство **феатурестате** не проверяет, доступна ли функция.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

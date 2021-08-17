@@ -34,10 +34,10 @@ Could not find item 'File3' in table 'File' which is referenced
 
 
 
-| LockObject | Таблица | Домен | User  | Разрешение |
+| LockObject | Таблица | Домен | Пользователь  | Разрешение |
 |------------|-------|--------|-------|------------|
-| Файл1      | Файл  |        | guest |            |
-| Файл3      | Файл  |        | guest | 1          |
+| Файл1      | File  |        | guest |            |
+| Файл3      | File  |        | guest | 1          |
 
 
 
@@ -47,7 +47,7 @@ Could not find item 'File3' in table 'File' which is referenced
 
 
 
-| Файл  | Версия | Язык |
+| File  | Версия | Язык |
 |-------|---------|----------|
 | Файл1 | Файл2   |          |
 | Файл2 | 1.0.0.0 | 1033     |

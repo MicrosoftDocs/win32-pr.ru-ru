@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 0a1a36bb0c6c68f5132757719bbc7e37fbc71501
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: ad9aba5c9f18b88577a456764a71cc27637d24856cdafa95d811344034d514f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104335475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118511910"
 ---
 # <a name="if-pred---vs"></a>Если пред-VS
 
@@ -29,7 +29,7 @@ ms.locfileid: "104335475"
 
 
 
- 
+ 
 
 Где:
 
@@ -37,7 +37,7 @@ ms.locfileid: "104335475"
 -   "пред" — это регистр предиката, P0. См. раздел [Регистрация предиката](dx9-graphics-reference-asm-vs-registers-predicate.md).
 -   Репликатесвиззле — это один компонент, который копируется (или реплицируется) во все четыре компонента (свиззлед). Допустимые компоненты: x, y, z, w или r, g, b, a.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -47,7 +47,7 @@ ms.locfileid: "104335475"
 
 
 
- 
+ 
 
 Эта инструкция используется для пропуска блока кода на основе канала регистра предиката. Каждый, если \_ пред блок должен завершаться инструкцией Else или endif.
 
@@ -57,16 +57,16 @@ ms.locfileid: "104335475"
 
 Блок «Если//// \_ » не может помешать блоку цикла, он должен быть полностью внутри него или заключаться в него.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера вершин](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -204,7 +204,7 @@ HRESULT D3DX11CompileFromResource(
 
 Кроме того, если вы передаете значение, отличное от **null** , *фресулт* при указании значения **null** для *ппумп*, **D3DX11CompileFromResource** возвращает \_ код ошибки E INVALIDARG.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 2a4a7f561dc0bf114a5824b1f8fe6d9547c327d5
-ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+ms.openlocfilehash: 92a300f292633e3d54264349e79491360c7017c38c62da60a953d36371189791
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "111826132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118499515"
 ---
 # <a name="xmunibble4-constructors"></a>Конструкторы XMUNIBBLE4
 
@@ -111,7 +111,7 @@ ms.locfileid: "111826132"
 [Расширения XMUNIBBLE4](ovw-xmunibble4-extensions.md)
 </dt> <dt>
 
-**Ссылка**
+**Ссылки**
 </dt> <dt>
 
 [**XMUNIBBLE4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmunibble4)

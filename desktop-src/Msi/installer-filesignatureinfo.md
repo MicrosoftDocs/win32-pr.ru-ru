@@ -95,7 +95,7 @@ Installer.FileSignatureInfo(
 
 Чтобы создать полностью проверенную установку с помощью автоматизации, используйте метод **филесигнатуреинфо** для заполнения таблиц [мсидигиталцертификате](msidigitalcertificate-table.md), [мсипатчцертификате](msipatchcertificate-table.md)и [мсидигиталсигнатуре](msidigitalsignature-table.md) . Дополнительные сведения см. [в статье Создание полностью проверенной подписанной установки с помощью службы автоматизации](authoring-a-fully-verified-signed-installation-using-automation.md).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

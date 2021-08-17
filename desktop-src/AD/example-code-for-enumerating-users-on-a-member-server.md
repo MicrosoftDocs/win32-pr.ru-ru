@@ -7,16 +7,16 @@ keywords:
 - Active Directory примеры Active Directory, перечисление пользователей на рядовом сервере
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b066e92ced26c58ef932025f4e818d87a907b30
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 03064d2030cd84ea75c1225bc6592c33e5af5a20b2fe6946987d4ca7caf7497f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118693703"
 ---
 # <a name="example-code-for-enumerating-users-on-a-member-server"></a>Пример кода для перечисления пользователей на рядовом сервере
 
-В следующем Visual Basic примере кода перечисляются все пользователи на рядовом сервере или в Windows 2000 Professional.
+в следующем Visual Basic примере кода перечисляются все пользователи на рядовом сервере или Windows 2000 Professional.
 
 
 ```VB
@@ -73,7 +73,7 @@ End Sub
 
 
 
-В следующем примере кода C++ перечисляются все объекты указанного класса, например пользователя, и отображаются элементы, содержащиеся в каждом объекте на рядовом сервере или в Windows 2000 Professional.
+в следующем примере кода C++ перечисляются все объекты указанного класса, например пользователя, и отображаются элементы, содержащиеся в каждом объекте на рядовом сервере, или Windows 2000 Professional.
 
 
 ```C++
@@ -203,9 +203,9 @@ HRESULT ListObjectsWithWinNtProvider(
 
 
 
- 
+ 
 
- 
+ 
 
 
 

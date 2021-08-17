@@ -27,7 +27,7 @@ ms.locfileid: "118640291"
 
     
 
-    | Файл        | Компонент\_     | FileName                     |
+    | File        | Компонент\_     | FileName                     |
     |-------------|-----------------|------------------------------|
     | мсимсгмуижа | МСИМСГ \_ MUI \_ ja | msimsgja.dll\|msimsg.dll. MUI |
     | мсимсгмуикс | МСИМСГ \_ MUI \_ CS | msimsgcs.dll\|msimsg.dll. MUI |
