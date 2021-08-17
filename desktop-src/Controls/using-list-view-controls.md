@@ -4,12 +4,12 @@ description: Этот раздел содержит примеры кода, д�
 ms.assetid: 6953cdfc-8c59-4c6d-8998-f828cea3a315
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74dfc6d89ee92bfacdf16fb067724dec4a518b66
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 786b35bab9450bd00d35d78e9734cfd933f96251703900bbebea04e30e0e3b79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104070724"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118407788"
 ---
 # <a name="using-list-view-controls"></a>Использование элементов управления List-View
 

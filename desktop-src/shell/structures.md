@@ -1,5 +1,5 @@
 ---
-description: В этом разделе описываются структуры оболочки Windows.
+description: в этом разделе описываются структуры оболочки Windows.
 title: Структуры оболочки
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 5bbda4cd81c3db2dff664b9d16d2db60aa8f12f4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa046223ba3aa6a6e98d6e74f623aeaad9e85d3a10148bb688eb385c0e7c22fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104986061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117675807"
 ---
 # <a name="shell-structures"></a>Структуры оболочки
 
-В этом разделе описываются структуры оболочки Windows.
+в этом разделе описываются структуры оболочки Windows.
 
 ## <a name="in-this-section"></a>В этом разделе
 
@@ -110,7 +110,7 @@ ms.locfileid: "104986061"
 </tr>
 <tr class="odd">
 <td><a href="/windows/win32/api/shlobj_core/ns-shlobj_core-component"><strong>СМ</strong></a><br/></td>
-<td>Используется в Windows 2000 для хранения сведений о компоненте. Эта структура заменяет структуру <a href="/windows/win32/api/shlobj_core/ns-shlobj_core-ie4component"><strong>IE4COMPONENT</strong></a> .<br/></td>
+<td>используется Windows 2000 для хранения сведений о компоненте. Эта структура заменяет структуру <a href="/windows/win32/api/shlobj_core/ns-shlobj_core-ie4component"><strong>IE4COMPONENT</strong></a> .<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/win32/api/shlobj_core/ns-shlobj_core-componentsopt"><strong>компонентсопт</strong></a><br/></td>
@@ -122,7 +122,7 @@ ms.locfileid: "104986061"
 </tr>
 <tr class="even">
 <td><a href="/windows/win32/api/shlobj_core/ns-shlobj_core-compstateinfo"><strong>компстатеинфо</strong></a><br/></td>
-<td>Используется в Windows 2000 для хранения сведений о состоянии компонента.<br/></td>
+<td>используется Windows 2000 для хранения сведений о состоянии компонента.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Syncmgr/ns-syncmgr-confirm_conflict_item"><strong>CONFIRM_CONFLICT_ITEM</strong></a><br/></td>
@@ -191,7 +191,7 @@ ms.locfileid: "104986061"
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-exp_darwin_link"><strong>EXP_DARWIN_LINK</strong></a><br/></td>
-<td>Содержит дополнительный блок данных, используемый <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist"><strong>ишелллинкдаталист</strong></a>. Он содержит идентификатор установщик Windows ссылки.<br/></td>
+<td>Содержит дополнительный блок данных, используемый <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist"><strong>ишелллинкдаталист</strong></a>. он содержит идентификатор установщик Windows ссылки.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-exp_propertystorage"><strong>EXP_PROPERTYSTORAGE</strong></a><br/></td>
@@ -219,7 +219,7 @@ ms.locfileid: "104986061"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-filedescriptora"><strong>филедескриптор</strong></a><br/></td>
-<td>Описывает свойства файла, который копируется с помощью буфера обмена во время операции <a href="dragdrop.md">перетаскивания</a> Microsoft ActiveX.<br/></td>
+<td>описывает свойства файла, который копируется с помощью буфера обмена во время операции <a href="dragdrop.md">перетаскивания</a> Microsoft ActiveX.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-filegroupdescriptora"><strong>филеграупдескриптор</strong></a><br/></td>
@@ -263,7 +263,7 @@ ms.locfileid: "104986061"
 </tr>
 <tr class="even">
 <td><a href="/windows/win32/api/shlobj_core/ns-shlobj_core-ie4component"><strong>IE4COMPONENT</strong></a><br/></td>
-<td>Используется в Microsoft Internet Explorer 4,0 и Microsoft Internet Explorer 4,01 для хранения сведений о компоненте. В Windows 2000 он заменяется структурой <a href="/windows/win32/api/shlobj_core/ns-shlobj_core-component"><strong>компонентов</strong></a> .<br/></td>
+<td>Используется в Microsoft Internet Explorer 4,0 и Microsoft Internet Explorer 4,01 для хранения сведений о компоненте. при использовании Windows 2000 он заменяется структурой <a href="/windows/win32/api/shlobj_core/ns-shlobj_core-component"><strong>компонентов</strong></a> .<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>итемидлист</strong></a><br/></td>
@@ -287,7 +287,7 @@ ms.locfileid: "104986061"
 </tr>
 <tr class="even">
 <td><a href="/windows/win32/api/winuser/ns-winuser-multikeyhelpw"><strong>мултикэйхелп</strong></a><br/></td>
-<td>Указывает ключевое слово для поиска и таблицу ключевых слов, в которой будет выполняться поиск в справке Windows.<br/></td>
+<td>задает ключевое слово для поиска и таблицу ключевых слов, в которой выполняется поиск, Windows справку.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/win32/api/shellapi/ns-shellapi-nc_address"><strong>NC_ADDRESS</strong></a><br/></td>
@@ -359,7 +359,7 @@ ms.locfileid: "104986061"
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-qcminfo"><strong>ккминфо</strong></a><br/></td>
-<td>Содержит сведения для объединения пунктов меню в меню проводника Windows.<br/></td>
+<td>содержит сведения для объединения пунктов меню в меню обозревателя Windows.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Shlwapi/ns-shlwapi-qitab"><strong>китаб</strong></a><br/></td>
@@ -407,10 +407,10 @@ ms.locfileid: "104986061"
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/shell/objects"><strong>школумнид</strong></a><br/></td>
-<td>Указывает идентификатор FMTID/PID столбца, который будет отображаться в представлении подробностей проводника Windows. <br/>
+<td>указывает идентификатор FMTID/PID столбца, который будет отображаться в представлении подробностей обозревателя Windows. <br/>
 <blockquote>
 [!Note]<br />
-Начиная с Windows Vista, <a href="/windows/desktop/shell/objects"><strong>школумнид</strong></a> считается устаревшей формой и не должен использоваться. Вместо этого используйте структуру <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey"><strong>PROPERTYKEY</strong></a> .
+начиная с Windows Vista <a href="/windows/desktop/shell/objects"><strong>школумнид</strong></a> считается устаревшей формой и не должен использоваться. Вместо этого используйте структуру <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey"><strong>PROPERTYKEY</strong></a> .
 </blockquote>
 <br/></td>
 </tr>
@@ -459,7 +459,7 @@ ms.locfileid: "104986061"
 <td>Содержит сведения, используемые функцией <a href="/windows/desktop/api/Shellapi/nf-shellapi-shfileoperationa"><strong>шфилеоператион</strong></a> для выполнения файловых операций. <br/>
 <blockquote>
 [!Note]<br />
-Начиная с Windows Vista, для этой функции рекомендуется использовать интерфейс <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation"><strong>интерфейс IFileOperation</strong></a> .
+начиная с Windows Vista для этой функции рекомендуется использовать интерфейс <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation"><strong>интерфейс ifileoperation</strong></a> .
 </blockquote>
 <br/></td>
 </tr>

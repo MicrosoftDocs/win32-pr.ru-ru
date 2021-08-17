@@ -282,7 +282,7 @@ class MSMCAEvent_SMBIOSError : WMIEvent
 
 Класс **мсмкаевент \_ смбиосеррор** является производным от [**WMIEvent**](wmievent.md).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

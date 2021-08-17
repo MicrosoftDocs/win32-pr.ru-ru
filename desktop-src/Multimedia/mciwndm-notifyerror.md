@@ -3,7 +3,7 @@ title: Сообщение MCIWNDM_NOTIFYERROR (VFW. h)
 description: Сообщение МЦИВНДМ \_ нотиферрор уведомляет родительское окно приложения о том, что произошла ошибка MCI.
 ms.assetid: 0f54886a-77dc-43cc-be46-2d322c75471a
 keywords:
-- MCIWNDM_NOTIFYERROR сообщения Windows мультимедиа
+- сообщение MCIWNDM_NOTIFYERROR Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bbef9180c31091f3bd1a85f23a08990c2f7e7ea0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f5dcca10f593c14e1532aa53b59b8c0bb106ea721ad0d09bde742727fddaeb07
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118374135"
 ---
 # <a name="mciwndm_notifyerror-message"></a>\_Сообщение мЦивндм нотиферрор
 
@@ -52,7 +52,7 @@ lParam = (LPARAM) (LONG) errorCode;
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Вы можете включить уведомление об ошибке MCI, указав \_ стиль окна мЦивндф нотиферрор.
 

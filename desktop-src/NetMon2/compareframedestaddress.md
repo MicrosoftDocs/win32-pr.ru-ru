@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: a9ce0ff776588c06b8fddc34240e9c2170ceca69
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 153d1a5768791a33fd4f7629e071a125a4ee2ee46feaae366e2c1a21d8118f01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118367392"
 ---
 # <a name="compareframedestaddress-function"></a>Функция Компарефрамедестаддресс
 
@@ -60,7 +60,7 @@ BOOL WINAPI CompareFrameDestAddress(
 
 Если адреса не совпадают, возвращается значение **false**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы функция **компарефрамедестаддресс** успешно возвращалась, тип адреса назначения должен совпадать с типом адреса, указанным в параметре *лпаддресс* .
 

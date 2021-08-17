@@ -4,12 +4,12 @@ ms.assetid: 6a84ec16-fa65-4cdd-861a-eccf5d0eee2b
 title: Пространства имен объектов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c3eed750bc91c128251cc66fd7f9ed167771150
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6137d53e45f27a8de2c76075bc2a5565a5942bd38bf6fa3cd3891e4561870b8e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103910028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117765491"
 ---
 # <a name="object-namespaces"></a>Пространства имен объектов
 
@@ -25,7 +25,7 @@ ms.locfileid: "103910028"
 
 Процесс, создавший пространство имен, может использовать функцию [**клосеприватенамеспаце**](/windows/win32/api/namespaceapi/nf-namespaceapi-closeprivatenamespace) для закрытия маркера пространства имен. Этот маркер также закрывается, когда процесс, создавший пространство имен, завершается. После закрытия обработчика пространства имен последующие вызовы [**опенприватенамеспаце**](/windows/desktop/api/WinBase/nf-winbase-openprivatenamespacea) завершаются ошибкой, но все операции с объектами в пространстве имен выполняются успешно.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

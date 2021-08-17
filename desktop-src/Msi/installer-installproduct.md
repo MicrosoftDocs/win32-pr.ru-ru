@@ -64,7 +64,7 @@ Installer.InstallProduct(
 
 Чтобы полностью удалить продукт, задайте Remove = ALL в *пропертивалуес*. Дополнительные сведения см. в разделе [**Remove**](remove.md) Property.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

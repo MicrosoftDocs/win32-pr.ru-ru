@@ -4,12 +4,12 @@ description: В этом разделе приводятся рекоменда�
 ms.assetid: 9fba2013-17a3-499c-80dc-627e89c0edaf
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7fc42e31f3c971c704d18f04a961fb6bd40eb91d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c1274327b53630058779bc3913ce4466394c4c4fa37ba78528d122b8d68e376e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118435302"
 ---
 # <a name="sendmessage-postmessage-and-related-functions"></a>SendMessage, сообщение и связанные функции
 
@@ -22,7 +22,7 @@ ms.locfileid: "104413283"
 > [!Note]  
 > При переадресации сообщений сенсорного ввода действуют обычные правила изоляции прав пользовательского интерфейса (UIPI).
 
- 
+ 
 
 ## <a name="functions-related-to-sendmessage-and-postmessage"></a>Функции, относящиеся к SendMessage и почте
 
@@ -35,7 +35,7 @@ ms.locfileid: "104413283"
 -   Функции sendmessagetimeout
 -   постсреадмессаже
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -45,6 +45,6 @@ ms.locfileid: "104413283"
 [дефвиндовпрок](/windows/win32/api/winuser/nf-winuser-defwindowproca)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

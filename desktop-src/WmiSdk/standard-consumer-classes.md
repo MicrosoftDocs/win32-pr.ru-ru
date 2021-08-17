@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Классы стандартных потребителей
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a5033077f3dabf90d3e935b2dfec9fad892f630
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4f89463a459adb3dd800f77564002366c7500a2abbaa6010444ba7890802d5a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272751"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118315281"
 ---
 # <a name="standard-consumer-classes"></a>Классы стандартных потребителей
 
@@ -25,7 +25,7 @@ ms.locfileid: "104272751"
 | [**активескриптевентконсумер**](activescripteventconsumer.md)               | Выполняет предопределенный скрипт на произвольном языке скриптов при доставке события в него.<br/> Пример. [выполнение скрипта на основе события](running-a-script-based-on-an-event.md)<br/>                                         |
 | [**коммандлинивентконсумер**](commandlineeventconsumer.md)                 | Запускает произвольный процесс в контексте локальной системы при доставке события в него.<br/> Пример. [Запуск программы из командной строки на основе события](running-a-program-from-the-command-line-based-on-an-event.md)<br/> |
 | [**логфиливентконсумер**](logfileeventconsumer.md)                         | Записывает настраиваемые строки в текстовый файл журнала при доставке событий в него.<br/> Пример. [запись в файл журнала на основе события](writing-to-a-log-file-based-on-an-event.md)<br/>                                                   |
-| [**нтевентложевентконсумер**](nteventlogeventconsumer.md)                   | Записывает в журнал событий Windows конкретное сообщение при доставке события в него.<br/> Пример. [ведение журнала событий NT на основе события](logging-to-nt-event-log-based-on-an-event.md)<br/>                                          |
+| [**нтевентложевентконсумер**](nteventlogeventconsumer.md)                   | записывает в журнал событий Windows определенное сообщение при доставке события в него.<br/> Пример. [ведение журнала событий NT на основе события](logging-to-nt-event-log-based-on-an-event.md)<br/>                                          |
 | [**скриптингстандардконсумерсеттинг**](scriptingstandardconsumersetting.md) | Предоставляет данные регистрации, общие для всех экземпляров класса [**активескриптевентконсумер**](activescripteventconsumer.md) .<br/>                                                                                                            |
 | [**смтпевентконсумер**](smtpeventconsumer.md)                               | Отправляет сообщение электронной почты по протоколу SMTP каждый раз, когда в него будет доставлено событие.<br/> Пример: [Отправка сообщения электронной почты на основе события](sending-e-mail-based-on-an-event.md)<br/>                                                                       |
 
@@ -33,7 +33,7 @@ ms.locfileid: "104272751"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

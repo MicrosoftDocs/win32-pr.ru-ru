@@ -1,17 +1,17 @@
 ---
 description: В этом разделе показано, как загрузить IWICBitmapFrameDecode из ресурса приложения.
 ms.assetid: 2260ad3a-44d4-4fe2-aa8c-608ffc11fbfb
-title: Загрузка растрового изображения из ресурса (компонент Windows Imaging Component)
+title: загрузка растрового изображения из ресурса (Windows компонента обработки изображений)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: deb33ad57b3b9dac1cb5d98719c681adb38c11de
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 88bc10766ed6720e60dd85a9600107c883da80d7b326ddd810b6261e509915da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103910427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118034746"
 ---
-# <a name="how-to-load-a-bitmap-from-a-resource-windows-imaging-component"></a>Загрузка растрового изображения из ресурса (компонент Windows Imaging Component)
+# <a name="how-to-load-a-bitmap-from-a-resource-windows-imaging-component"></a>загрузка растрового изображения из ресурса (Windows компонента обработки изображений)
 
 В этом разделе показано, как загрузить [**IWICBitmapFrameDecode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode) из ресурса приложения.
 
@@ -124,7 +124,7 @@ ms.locfileid: "103910427"
 
     Этот код извлекает только первый кадр ( `0` ) изображения. Для изображений с несколькими кадрами используйте [**жетфрамекаунт**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoder-getframecount) , чтобы определить количество кадров в изображении.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [Руководство по программированию](-wic-programming-guide.md)
 

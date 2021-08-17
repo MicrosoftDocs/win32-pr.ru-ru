@@ -3,7 +3,7 @@ title: Сообщение CB_SHOWDROPDOWN (Winuser. h)
 description: Приложение отправляет \_ сообщение ШОВДРОПДОВН CB для отображения или скрытия списка поля со списком, имеющего \_ раскрывающийся список CBS или \_ стиль DROPDOWNLIST.
 ms.assetid: 32b995d7-eed6-4173-8525-0d356dea39b3
 keywords:
-- Элементы управления Windows для CB_SHOWDROPDOWN сообщений
+- элементы управления Windows сообщений CB_SHOWDROPDOWN
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb66e9a0ecf3b6680fce9aca7f680fd6e6fd13e0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6c820c65c053f7acbcffb379228ea5f7720476b6d2165ac4988ce8789e912cdd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117832242"
 ---
 # <a name="cb_showdropdown-message"></a>\_Сообщение ШОВДРОПДОВН CB
 
@@ -47,7 +47,7 @@ ms.locfileid: "104137182"
 
 Возвращаемое значение всегда равно **true**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это сообщение не влияет на поле со списком, созданное с [**помощью \_ простого стиля CBS**](combo-box-styles.md) .
 
@@ -57,9 +57,9 @@ ms.locfileid: "104137182"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Header<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

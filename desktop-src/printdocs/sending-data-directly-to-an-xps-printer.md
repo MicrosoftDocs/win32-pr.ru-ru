@@ -4,12 +4,12 @@ ms.assetid: 7e98e08a-d572-451d-befb-18fc86f0e505
 title: Руководство. Отправка данных непосредственно на принтер XPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d78a8c36d6862860862059f9bbcc8db25e171b19
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 65fba87578f9257290123b737f2d1d8c3e48f57e6a628110a20a232ddb290ea0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105719498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118470156"
 ---
 # <a name="how-to-send-data-directly-to-an-xps-printer"></a>Руководство. Отправка данных непосредственно на принтер XPS
 
@@ -96,7 +96,7 @@ BOOL RawDataToXpsPrinter (LPTSTR szPrinterName, LPBYTE lpData, DWORD dwCount)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

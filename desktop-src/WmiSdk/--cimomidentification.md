@@ -18,12 +18,12 @@ api_type:
 - Schema
 api_location:
 - Root
-ms.openlocfilehash: a8590a2a83cdbc9bd06575cf17ddbe65138a4a31
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50d81fb8cfc5580ad0868df307771c493c0919e1bf2ce4de4b67d48db034a0d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118321114"
 ---
 # <a name="__cimomidentification-class"></a>\_\_Класс Цимомидентификатион
 
@@ -50,7 +50,7 @@ class __CIMOMIdentification : __SystemClass
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ \_ Цимомидентификатион** имеет следующие свойства.
 
@@ -118,13 +118,13 @@ class __CIMOMIdentification : __SystemClass
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ \_ Цимомидентификатион** является производным от [**\_ \_ системкласс**](--systemclass.md), у которого нет свойств.
 
 ## <a name="examples"></a>Примеры
 
-В следующем образце кода VBScript описывается, как отобразить сведения об идентификации объектной модели CIM и они были взяты из каталога примеров в папке \\ \\ Program Files \\ Microsoft SDK \\ Windows \\ v 7.0 \\ Samples \\ сисмгмт \\ WMI \\ scripting.
+в следующем образце кода VBScript описывается, как отобразить сведения об идентификации объектной модели CIM и было взято из каталога примеров в папке \\ \\ Program files \\ Microsoft sdks \\ Windows \\ v 7.0 \\ samples \\ сисмгмт \\ wmi \\ scripting.
 
 
 ```VB
@@ -141,7 +141,7 @@ end if
 
 
 
-В следующем образце кода Perl описывается, как отобразить сведения об идентификации объектной модели CIM и они были взяты из каталога примеров в папке \\ \\ Program Files \\ Microsoft SDK \\ Windows \\ v 7.0 \\ Samples \\ сисмгмт \\ WMI \\ scripting.
+в следующем образце кода Perl описывается, как отобразить сведения об идентификации объектной модели CIM и было взято из каталога примеров в папке \\ \\ Program files \\ Microsoft sdks \\ Windows \\ v 7.0 \\ samples \\ сисмгмт \\ wmi \\ scripting.
 
 
 ```Perl

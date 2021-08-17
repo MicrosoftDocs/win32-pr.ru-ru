@@ -3,7 +3,7 @@ title: КУСТОМСЛИДЕР. Онпоситиончанже
 description: Обработчик событий Онпоситиончанже обрабатывает событие, возникающее при изменении положения ползунка в результате нажатия или перетаскивания пользователем. | КУСТОМСЛИДЕР. Онпоситиончанже
 ms.assetid: d8fe99a2-69ff-4e75-8d7d-506bcb2f75bf
 keywords:
-- Проигрыватель Windows Media КУСТОМСЛИДЕР. Онпоситиончанже
+- кустомслидер. онпоситиончанже проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ee3d5547d66ca6dc1b770242301bd95ed010a8d0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e4a3833987ebdbbf2700d9426da31b8efc80f64787e93be1a8418d83065724d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105695067"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117749981"
 ---
 # <a name="customslideronpositionchange"></a>КУСТОМСЛИДЕР. Онпоситиончанже
 
@@ -27,7 +27,7 @@ ms.locfileid: "105695067"
 onPositionChange
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если положение настраиваемого ползунка изменяется в результате изменения атрибута **значения** в скрипте, это событие не срабатывает. Чтобы справиться с этой возможностью, реализуйте вместо него обработчик события **\_ onChange** .
 
@@ -37,7 +37,7 @@ onPositionChange
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

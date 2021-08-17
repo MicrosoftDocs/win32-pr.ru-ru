@@ -85,7 +85,7 @@ void WINAPI glPushMatrix(void);
 
 **глжет** с аргументом \_ " \_ Максимальная \_ глубина текстуры стека \_ "
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

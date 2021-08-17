@@ -49,7 +49,7 @@ ms.locfileid: "117748652"
 
 Этот атрибут пропускается, если **енханцедаудио** имеет значение false.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

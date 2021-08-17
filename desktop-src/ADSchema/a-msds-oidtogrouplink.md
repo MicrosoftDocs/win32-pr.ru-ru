@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 61d562cb2ac1c07b5dd0507bc8b059662e3abc55
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 7acd07f3d1d323b300f914724cfc3d75492eb65631eef8b0331b974d4f54379b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103989697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118014425"
 ---
 # <a name="ms-ds-oidtogroup-link-attribute"></a>Атрибут ms-DS-Оидтограуп-Link
 
@@ -43,7 +43,7 @@ ms.locfileid: "103989697"
 ## <a name="implementations"></a>Варианты реализации решения
 
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## <a name="windows-server-2008-r2"></a>Windows Server 2008 R2
 
@@ -54,7 +54,7 @@ ms.locfileid: "103989697"
 | Идентификатор ссылки                | 2164                                                               |
 | MAPI-Id                | \-                                                                 |
 | System-Only            | Неверно                                                              |
-| Является однозначным       | True                                                               |
+| Является однозначным       | Верно                                                               |
 | Индексируется             | Неверно                                                              |
 | В глобальном каталоге      | Неверно                                                              |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                       |
@@ -62,7 +62,7 @@ ms.locfileid: "103989697"
 | Range-Upper            | \-                                                                 |
 | Search-Flags           | 0x00000000                                                         |
 | System-Flags           | 0x00000010                                                         |
-| Классы, используемые в        | [**MS-PKI-Enterprise-OID**](c-mspki-enterprise-oid.md)<br/> |
+| Классы, используемые в        | [**ms-PKI-Enterprise-Oid**](c-mspki-enterprise-oid.md)<br/> |
 
 
 
@@ -75,7 +75,7 @@ ms.locfileid: "103989697"
 | Идентификатор ссылки                | 2164                                                               |
 | MAPI-Id                | \-                                                                 |
 | System-Only            | Неверно                                                              |
-| Является однозначным       | True                                                               |
+| Является однозначным       | Верно                                                               |
 | Индексируется             | Неверно                                                              |
 | В глобальном каталоге      | Неверно                                                              |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                       |
@@ -83,7 +83,7 @@ ms.locfileid: "103989697"
 | Range-Upper            | \-                                                                 |
 | Search-Flags           | 0x00000000                                                         |
 | System-Flags           | 0x00000010                                                         |
-| Классы, используемые в        | [**MS-PKI-Enterprise-OID**](c-mspki-enterprise-oid.md)<br/> |
+| Классы, используемые в        | [**ms-PKI-Enterprise-Oid**](c-mspki-enterprise-oid.md)<br/> |
 
 
 

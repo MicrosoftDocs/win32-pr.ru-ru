@@ -4,16 +4,16 @@ ms.assetid: dee50454-8358-4898-b098-2de51505b658
 title: 'Метод Иттимеколлектион:: Create (Сдпблб. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df62bbc8f1ad2a24a9b80a7f5d0a25bc01f713d8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 12a65949d0584f6ed41d3e1611c790b6b94dfa88a4e11ba18818974af5d38cef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117762376"
 ---
 # <a name="ittimecollectioncreate-method"></a>Метод Иттимеколлектион:: Create
 
-\[ В Windows Vista, Windows Server 2008 и последующих версиях операционной системы нельзя использовать встречные средства и элементы управления Конференц-телефонией и интерфейсы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[встречи и элементы управления встречными IP-телефонными соединениями недоступны для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Метод **CREATE** создает новый компонент [**иттиме**](ittime.md) .
 
@@ -66,7 +66,7 @@ HRESULT Create(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 TAPI вызывает метод **AddRef** в интерфейсе [**иттиме**](ittime.md) , возвращенном методом **иттимеколлектион:: Create**. Приложение должно вызвать **выпуск** в интерфейсе v, чтобы освободить ресурсы, связанные с ним.
 

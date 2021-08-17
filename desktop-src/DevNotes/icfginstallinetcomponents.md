@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Icfgnt5.dll
-ms.openlocfilehash: 649b1fa73bcdd83d7fc01d5a4df9a198168a3f1d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7708dd065c066ce3e9fd8e4de1044c6bc8587d2526abdf9aeac175b4387dec42
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648701"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117827289"
 ---
 # <a name="icfginstallinetcomponents-function"></a>Функция Икфгинсталлинеткомпонентс
 
@@ -57,7 +57,7 @@ HRESULT IcfgInstallInetComponents(
 
 | Значение                                                                                                                                                                                                                                  | Значение                                        |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------|
-| <span id="ICFG_INSTALLMAIL"></span><span id="icfg_installmail"></span><dl> <dt>**Икфг \_ ИНСТАЛЛМАИЛ**</dt> <dt>0x00000004</dt> </dl> | Установите Exchange и Internet Mail.<br/> |
+| <span id="ICFG_INSTALLMAIL"></span><span id="icfg_installmail"></span><dl> <dt>**Икфг \_ ИНСТАЛЛМАИЛ**</dt> <dt>0x00000004</dt> </dl> | установите Exchange и Internet mail.<br/> |
 | <span id="ICFG_INSTALLRAS"></span><span id="icfg_installras"></span><dl> <dt>**Икфг \_ ИНСТАЛЛРАС**</dt> <dt>0x00000002</dt> </dl>    | Установите RAS (при необходимости).<br/>            |
 | <span id="ICFG_INSTALLTCP"></span><span id="icfg_installtcp"></span><dl> <dt>**Икфг \_ ИНСТАЛЛТКП**</dt> <dt>0x00000001</dt> </dl>    | Установите TCP/IP (при необходимости).<br/>         |
 
@@ -70,7 +70,7 @@ HRESULT IcfgInstallInetComponents(
 *лпфнидсрестарт* 
 </dt> <dd>
 
-Если это значение не **равно NULL**, то при возврате произойдет **значение true** , только если для завершения установки необходимо перезапустить Windows.
+если это значение не **равно NULL**, то возвращается значение **TRUE** , только если для завершения установки необходимо перезапустить Windows.
 
 </dd> </dl>
 
@@ -78,7 +78,7 @@ HRESULT IcfgInstallInetComponents(
 
 Возвращает значение **HRESULT** . Если ошибки не возникают, возвращается код **\_ успешного выполнения ошибки** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция не имеет связанной библиотеки импорта или файла заголовка. его необходимо вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 

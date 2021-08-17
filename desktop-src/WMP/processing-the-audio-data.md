@@ -3,7 +3,7 @@ title: Обработка звуковых данных
 description: Обработка звуковых данных
 ms.assetid: ba41e3f4-d991-4da6-9091-7a7e42622e76
 keywords:
-- Подключаемые модули проигрывателя Windows Media, метод Echo Sample Допроцессаутпут
+- проигрыватель Windows Media подключаемые модули, метод Echo sample допроцессаутпут
 - подключаемые модули, метод Echo Sample Допроцессаутпут
 - подключаемые модули обработки цифровых сигналов, метод Echo Sample Допроцессаутпут
 - Подключаемые модули DSP, метод Echo Sample Допроцессаутпут
@@ -11,12 +11,12 @@ keywords:
 - Пример подключаемого модуля Echo DSP, звуковые данные
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: acc14acb99aed20825ff970025363c6a795a0c8c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 678e1debd586017bfbe748d4f2bed6d17607afcbe2719b5e3ecba8cabf667af6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105700629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118334487"
 ---
 # <a name="processing-the-audio-data"></a>Обработка звуковых данных
 
@@ -46,16 +46,16 @@ DWORD dwSamplesToProcess = (*cbBytesProcessed / pWave->nBlockAlign) * pWave->nCh
 
 Несмотря на то что процесс создания эхо-эффекта является принципиально идентичным для каждого формата, сведения должны слегка отличаться.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Реализация Цечо::D Опроцессаутпут**](implementing-cecho--doprocessoutput.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

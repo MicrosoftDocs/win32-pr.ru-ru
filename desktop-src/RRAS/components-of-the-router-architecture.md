@@ -6,12 +6,12 @@ keywords:
 - маршрутизаторы RRAS, компоненты
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48fb0cc69de5402b03550873b3b052f6329b5238
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0f39f104e001db99076dcd29d9d5b603d5cf9f3c526d54cd16e1ed0e4d10c575
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104486796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117791598"
 ---
 # <a name="components-of-the-router-architecture"></a>Компоненты архитектуры маршрутизатора
 
@@ -41,9 +41,9 @@ ms.locfileid: "104486796"
 
 Интерфейсы глобальной сети имеют дополнительное качество, которое обычно получает сетевой адрес только во время установки соединения. Например, интерфейс глобальной сети, использующий PPP, получает свой адрес сетевого уровня от удаленного узла в процессе подключения. Получение сетевого адреса как части процесса подключения иногда называют *поздним связыванием*.
 
- 
+ 
 
- 
+ 
 
 
 

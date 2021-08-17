@@ -9,12 +9,12 @@ keywords:
 - Справочник по МЦивнд, сведения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76333f38a5dec3edaadcae69777703ebea61296f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 03249d5e0f0a0f4fef8110d878021437f7aee667085a0720a86de77c8cbdfe49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104486692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118374368"
 ---
 # <a name="mciwnd-reference"></a>Справочник по МЦивнд
 
@@ -140,16 +140,16 @@ ms.locfileid: "104486692"
 -   [**мЦивндретурнстринг**](/windows/desktop/api/Vfw/nf-vfw-mciwndreturnstring)
 -   [**мЦивндсендстринг**](/windows/desktop/api/Vfw/nf-vfw-mciwndsendstring)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Класс окна МЦивнд](mciwnd-window-class.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

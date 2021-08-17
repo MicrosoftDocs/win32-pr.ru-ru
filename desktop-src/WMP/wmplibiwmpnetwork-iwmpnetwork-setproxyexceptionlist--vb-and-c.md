@@ -3,9 +3,9 @@ title: Ивмпнетворк Сетпроксексцептионлист, ме
 description: Метод Сетпроксексцептионлист задает список исключений прокси-сервера. | Ивмпнетворк Сетпроксексцептионлист, метод
 ms.assetid: a7a5e9ad-f71f-431e-9a53-b56456778104
 keywords:
-- Сетпроксексцептионлист метод Windows Media Player
-- Сетпроксексцептионлист метод проигрывателя Windows Media Player, интерфейс Ивмпнетворк
-- Интерфейс Ивмпнетворк Windows Media Player, метод Сетпроксексцептионлист
+- проигрыватель Windows Media метода сетпроксексцептионлист
+- проигрыватель Windows Media метода сетпроксексцептионлист, интерфейс ивмпнетворк
+- проигрыватель Windows Media интерфейса ивмпнетворк, метод сетпроксексцептионлист
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5dad011dee8e1199e6111be60acfec41d85d1e58
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: eddfd3ce8495c02fc6ae352f918349ff7174afb99e69d9e1ba8aa19c45d1a49d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689528"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117745766"
 ---
 # <a name="iwmpnetworksetproxyexceptionlist-method"></a>Метод Ивмпнетворк:: Сетпроксексцептионлист
 
@@ -73,7 +73,7 @@ Implements IWMPNetwork.setProxyExceptionList
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это список компьютеров, доменов и (или) адресов, которые будут обходить прокси-сервер, если часть узла целевого URL-адреса совпадает с записью в списке.
 
@@ -142,7 +142,7 @@ End Sub
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

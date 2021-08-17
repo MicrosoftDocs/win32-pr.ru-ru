@@ -47,7 +47,7 @@ SWbemRefreshableItem.IsSet As Boolean
 
 Если **свбемрефрешаблеитем. Иссет** имеет **значение true**, то элемент представляет объект [**SWbemObjectSet**](swbemobjectset.md) , а свойство [**объекта**](swbemrefreshableitem-object.md) будет иметь **значение NULL**. Если **значение равно false**, элемент представляет объект [**SWbemObject**](swbemobject.md) , а свойство **объекта** имеет **значение NULL**.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

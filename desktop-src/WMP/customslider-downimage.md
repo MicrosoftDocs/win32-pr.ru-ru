@@ -3,7 +3,7 @@ title: КУСТОМСЛИДЕР. Довнимаже
 description: Атрибут Довнимаже указывает или получает изображение состояния "вниз" настраиваемого ползунка.
 ms.assetid: e1efe703-df0a-4ef9-92a9-c9cfb991ee37
 keywords:
-- Проигрыватель Windows Media КУСТОМСЛИДЕР. Довнимаже
+- кустомслидер. довнимаже проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8365043654bc3cca9fbf79162302cf804155956d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f3e151f825dab7170c3e3678f280303265af0df91561c7dc709323dd8043809e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117750343"
 ---
 # <a name="customsliderdownimage"></a>КУСТОМСЛИДЕР. Довнимаже
 
@@ -31,7 +31,7 @@ ms.locfileid: "105698986"
 
 Этот атрибут является **строкой** для чтения и записи, содержащей имя файла изображения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут является необязательным. Если он не указан, будет использоваться файл, указанный в атрибуте **Image** .
 
@@ -45,7 +45,7 @@ ms.locfileid: "105698986"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

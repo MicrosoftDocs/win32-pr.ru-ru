@@ -28,7 +28,7 @@ typedef void* SCRIPT_STRING_ANALYSIS;
 
 Так как анализ может быть большим, важно, чтобы приложение вызывало [**скриптстрингфри**](/windows/desktop/api/Usp10/nf-usp10-scriptstringfree) , как только оно завершится строкой.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

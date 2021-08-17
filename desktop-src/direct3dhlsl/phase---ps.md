@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e9a16b01e186de5645ffe65e003ebbe6defca2d5
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: aac29792274a36ad4bb7266ffa02d0ea5d2bb1b6cec8efe2db213e9b0dd4890b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104069373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118088697"
 ---
 # <a name="phase---ps"></a>этап — PS
 
@@ -31,7 +31,7 @@ phase
 
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -41,13 +41,13 @@ phase
 
 
 
- 
+ 
 
 Инструкции шейдера, которые выполняются перед инструкцией этапа, являются инструкциями первого этапа. Все остальные инструкции являются инструкциями второго этапа. При наличии двух этапов выполнения инструкций максимальное количество инструкций на шейдер увеличивается.
 
 Нерекомендуемым побочным эффектом перехода на этапы является то, что альфа-компонент [временных регистров](dx9-graphics-reference-asm-ps-registers-ps-1-x.md) не сохраняется во всех переходах. Иными словами, компонент Alpha должен быть повторно инициализирован после инструкции этапа.
 
-## <a name="example"></a>Например, .
+## <a name="example"></a>Пример
 
 В этом примере показано, как группировать инструкции в виде шагов 1 или 2 этапа в шейдере.
 
@@ -64,16 +64,16 @@ phase
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера пикселей](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

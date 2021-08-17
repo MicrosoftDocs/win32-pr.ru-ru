@@ -4,12 +4,12 @@ ms.assetid: eb1068c4-6a6a-4ef2-8ed6-033a6a2c273b
 title: Печать OM-объекта XPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c01ae1081c4f0c58c66efedc30406e310dd8dd9c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 12f1386352cff1556a5ce2403f34ebe4258c4110d4c3bf455990f3f1eb226d17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104080966"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118470907"
 ---
 # <a name="print-an-xps-om"></a>Печать OM-объекта XPS
 
@@ -25,7 +25,7 @@ ms.locfileid: "104080966"
 
 -   [Печать полной модели XPS](#print-a-complete-xps-om)
 -   [Добавочная печать объектной модели XPS](#incrementally-print-an-xps-om)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="print-a-complete-xps-om"></a>Печать полной модели XPS
 
@@ -451,7 +451,7 @@ HRESULT MakePagePartUri (
 
 Дополнительные сведения о структуре документа XPS см. в [спецификации XML Paper](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ description: Определяет, запускается ли отладчик 
 ms.assetid: e05ae7cb-79d1-4543-aef3-9397548c2030
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23c7730c3c6e0fe9dc01b43a7c4f9621897f9f16
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 030cab43fe0ac4a67551920479b9c36f3d1ff33f2ba2854647fcf209cfe694e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105700709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117737226"
 ---
 # <a name="auto"></a>Auto (Автоматически)
 
@@ -19,10 +19,10 @@ ms.locfileid: "105700709"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\DebugObjectRPCEnabled\AeDebug
-   Auto = value
+   Auto = value
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это значение **\_ слова reg** .
 
@@ -34,9 +34,9 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\DebugObjectRPCEn
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -49,9 +49,9 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\DebugObjectRPCEn
 [**ОРПК \_ dbg \_ ALL**](orpc-dbg-all.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: Сообщение LVM_GETGROUPINFO (Коммктрл. h)
 description: Возвращает сведения о группе.
 ms.assetid: 72d84e0b-121e-473b-a34d-874234c598b6
 keywords:
-- Элементы управления Windows для LVM_GETGROUPINFO сообщений
+- элементы управления Windows сообщений LVM_GETGROUPINFO
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b55d5b1d781e7749df97bd0c9f7782f56545dbee
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f5c48a21a1bba0c6dd1af3fd567ea853dc922591c553ea11a935fb705ad65bf6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118411398"
 ---
 # <a name="lvm_getgroupinfo-message"></a>\_Сообщение LVM жетграупинфо
 
@@ -39,7 +39,7 @@ ms.locfileid: "104071457"
 
 Возвращает идентификатор группы в случае успеха или значение-1 в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Прежде чем пытаться получить заголовок для группы, сначала убедитесь, что у группы нет \_ стиля лбгс.
 
@@ -54,8 +54,8 @@ ms.locfileid: "104071457"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

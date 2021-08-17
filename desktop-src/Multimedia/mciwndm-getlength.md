@@ -3,7 +3,7 @@ title: Сообщение MCIWNDM_GETLENGTH (VFW. h)
 description: Сообщение МЦИВНДМ \_ DATALENGTH извлекает длину содержимого или файла, который в настоящее время используется устройством MCI. Это сообщение можно отправить явно или с помощью макроса МЦивнджетленгс.
 ms.assetid: bee4d9fc-78eb-4577-98bb-d6c2d9acbb7f
 keywords:
-- MCIWNDM_GETLENGTH сообщения Windows мультимедиа
+- сообщение MCIWNDM_GETLENGTH Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2347647fcff0beb87be12b7f6a05790b97f36d51
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 334d9a4a62171a62cbd0fc914be2d9a81ed901eab6d3893170cb8dabd2426a36
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104489420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118374191"
 ---
 # <a name="mciwndm_getlength-message"></a>Сообщение МЦИВНДМ о \_ длительности
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Поставщик WMI CIM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a3249549e0915f51b6a9a6f2386c18ba695919a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: acb9a01e0771645cf6101171ce870be593181cb61d6118e627b9bf96b61994be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104538483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118420342"
 ---
 # <a name="cim-wmi-provider"></a>Поставщик WMI CIM
 
@@ -912,7 +912,7 @@ ms.locfileid: "104538483"
 [**Логический диск CIM \_**](cim-logicaldisk.md)
 </dt> <dd>
 
-Класс [**CIM \_ LogicalDisk**](cim-logicaldisk.md) представляет непрерывный диапазон логических блоков, идентифицируемый файловой системой с помощью поля **DeviceID** (ключ) диска. Например, в среде Windows поле **DeviceID** содержит букву диска; в среде UNIX она содержит путь доступа. и в среде NetWare он содержит имя тома.
+Класс [**CIM \_ LogicalDisk**](cim-logicaldisk.md) представляет непрерывный диапазон логических блоков, идентифицируемый файловой системой с помощью поля **DeviceID** (ключ) диска. например, в Windowsной среде поле **DeviceID** содержит букву диска; в UNIXной среде она содержит путь доступа. и в среде NetWare он содержит имя тома.
 
 </dd> <dt>
 
@@ -1570,7 +1570,7 @@ ms.locfileid: "104538483"
 [**\_СЕРВИЦЕАКЦЕССБИСАП CIM**](cim-serviceaccessbysap.md)
 </dt> <dd>
 
-Класс сопоставления [**CIM \_ сервицеакцессбисап**](cim-serviceaccessbysap.md) представляет точки доступа для службы. Например, доступ к принтеру можно получить из NetWare, Macintosh или точек доступа к службам Windows (SAPs), которые могут размещаться в разных системах.
+Класс сопоставления [**CIM \_ сервицеакцессбисап**](cim-serviceaccessbysap.md) представляет точки доступа для службы. например, доступ к принтеру можно получить из NetWare, Macintosh или Windows точек доступа к службам (SAPs), которые могут размещаться в разных системах.
 
 </dd> <dt>
 

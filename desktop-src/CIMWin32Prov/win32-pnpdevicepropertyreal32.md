@@ -115,7 +115,7 @@ class Win32_PnPDevicePropertyReal32 : Win32_PnPDeviceProperty
 
 </dd> <dt>
 
-**Type**
+**Тип**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **UInt32**
@@ -498,7 +498,7 @@ class Win32_PnPDevicePropertyReal32 : Win32_PnPDeviceProperty
 
 </dd> </dl>
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

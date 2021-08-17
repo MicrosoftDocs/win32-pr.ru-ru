@@ -46,7 +46,7 @@ propVal = Error.Path
 
 См. раздел [**Получение \_ пути**](/windows/win32/api/mergemod/nf-mergemod-imsmerror-get_path) функции.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

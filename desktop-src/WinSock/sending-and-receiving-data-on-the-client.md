@@ -4,12 +4,12 @@ ms.assetid: 9c6d366d-2bc6-4c92-8d0b-21c51e08ed4f
 title: Отправка и получение данных на клиенте
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36d91ee507d78bc2638a6d3f7383cd6a930651e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3150c853f50e8626451cc344179645289058df928600d71bf437dc95d9738986
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117740565"
 ---
 # <a name="sending-and-receiving-data-on-the-client"></a>Отправка и получение данных на клиенте
 
@@ -67,7 +67,7 @@ do {
 
 Следующий шаг: [Отключение клиента](disconnecting-the-client.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

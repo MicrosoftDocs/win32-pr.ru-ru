@@ -25,16 +25,16 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cd312651dc73d63726fd04ad30fadaa79bebf7e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9abefdd11f2fe6a356eda4799f92cac5cfe53aa4a2306aa8337d90f2eaa55d7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104347542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118077926"
 ---
 # <a name="esentversionsupportswindows7features-property"></a>Есентверсион. SupportsWindows7Features, свойство
 
-Возвращает значение, указывающее, поддерживает ли текущая версия ESENT функции, доступные в версии ESENT Windows 7.
+возвращает значение, указывающее, поддерживает ли текущая версия esent функции, доступные в версии Windows 7 esent.
 
 **Пространство имен:**  [Microsoft. ISAM. ESENT. Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Сборка:**  Microsoft. ISAM. ESENT. Interop (в Microsoft.Isam.Esent.Interop.dll)

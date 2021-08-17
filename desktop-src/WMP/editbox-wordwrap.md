@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fefe92691a150571ce16b0c80d187540d58f5f6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2f9e02ff9665eac98717e1d316899a78f9b3b5908e5e41b3928b5cda541b96c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117749256"
 ---
 # <a name="editboxwordwrap"></a>EDITBOX. wordWrap
 
@@ -31,7 +31,7 @@ ms.locfileid: "105694721"
 
 Этот атрибут представляет собой **логическое** значение для чтения и записи со значением по умолчанию true.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут полезен только в том случае, если для **едитстиле** задано значение Multiline.
 
@@ -43,7 +43,7 @@ ms.locfileid: "105694721"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
 
 
 

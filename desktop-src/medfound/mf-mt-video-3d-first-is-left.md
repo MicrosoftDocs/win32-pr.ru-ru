@@ -4,12 +4,12 @@ ms.assetid: 4F33BF2D-EB32-46B6-B071-F9130D404201
 title: Атрибут MF_MT_VIDEO_3D_FIRST_IS_LEFT (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 027d91509d772a9200cdfc0ac64cce15514aa5a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 19b7deed122f3de419455abf54bfcc18ad50ef199d87afa8bcaad8d34000a011
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104424057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117876805"
 ---
 # <a name="mf_mt_video_3d_first_is_left-attribute"></a>\_ \_ \_ Первый трехмерный видеоролик \_ \_ — \_ левый атрибут
 
@@ -19,7 +19,7 @@ ms.locfileid: "104424057"
 
 **Bool** , сохраненный как **UINT32**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для трехмерного видео каждый пример видео содержит два представления, которые обозначены как *первое представление* и *второе представление*. Точный макет представлений в памяти определяется атрибутом [ \_ \_ \_ трехмерного видео в \_ формате MF MT](mf-mt-video-3d-format.md) .
 
@@ -49,9 +49,9 @@ ms.locfileid: "104424057"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8 \|\]<br/>                                  |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 \|\]<br/>                        |
-| Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ приложения UWP для классических приложений \|\]<br/>                                  |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ приложения UWP для классических приложений \|\]<br/>                        |
+| Заголовок<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 
 

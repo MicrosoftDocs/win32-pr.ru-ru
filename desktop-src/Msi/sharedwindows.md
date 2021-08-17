@@ -15,7 +15,7 @@ ms.locfileid: "118624708"
 
 Установщик задает свойство **шаредвиндовс** , когда система работает как общая Windows.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

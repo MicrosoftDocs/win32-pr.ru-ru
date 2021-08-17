@@ -4,12 +4,12 @@ ms.assetid: de96f6ee-b526-4ac2-93ac-a731f86ef5d5
 title: Возможности работы с аудио
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c2cf02927b69d807f400c4185a7d4ddbdd14322
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: bd12f3e151a73c2a297d10fec4233ac0e931e11d8bf16e1068f6335c781ed6da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104538048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117824234"
 ---
 # <a name="audio-capabilities"></a>Возможности работы с аудио
 
@@ -21,7 +21,7 @@ ms.locfileid: "104538048"
 
 Если поддерживаются форматы волн не из PCM, тип мультимедиа, возвращаемый этим методом, может показывать, какие форматы, отличные от PCM, которые поддерживаются (с частотой выборки по умолчанию, скоростью и каналами), а структура возможностей, сопровождающая этот тип носителя, может описать, какие другие тарифы выборки, скорость и каналы поддерживаются.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

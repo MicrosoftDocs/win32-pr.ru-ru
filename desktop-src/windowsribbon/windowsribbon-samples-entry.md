@@ -4,12 +4,12 @@ description: разделы, содержащиеся в этом разделе
 ms.assetid: 79d092c9-347b-4b8f-8ba4-a8f696ce6a85
 ms.topic: article
 ms.date: 07/13/2021
-ms.openlocfilehash: 44fa4ae8a10956bdea34b0145b1af34156ff0db0
-ms.sourcegitcommit: 63c93e0ad0b48d60b11008767196718feb475cb0
+ms.openlocfilehash: 0f8f93cc4b86dfbbee3028ae84a1fd6242553213bd7289e24bf33908e535b401
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "113691643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118437727"
 ---
 # <a name="windows-ribbon-framework-samples"></a>Windows Примеры платформы ленты
 
@@ -39,7 +39,7 @@ ms.locfileid: "113691643"
 
 | Требование | Значение |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента               | Windows 7<br/> Windows vista с пакетом обновления 2 (sp2) и [обновлением платформы для Windows Vista](https://msdn.microsoft.com/library/dd378748.aspx)<br/>         |
+| Минимальная версия клиента               | Windows 7<br/> Windows vista с пакетом обновления 2 (sp2) и [обновлением платформы для Windows Vista](https://msdn.microsoft.com/library/dd378748.aspx)<br/>         |
 | Минимальная версия сервера               | Windows Server 2008 R2<br/> Windows сервер 2008 с пакетом обновления 2 (SP2) и [обновлением платформы для Windows Server 2008](https://msdn.microsoft.com/library/dd378748.aspx)<br/> |
 | Windows SDK | 7.0                                                                                                                                                                      |
 | Заголовочные и IDL-файлы                   | уириббон. h, уириббон. idl                                                                                                                                                 |

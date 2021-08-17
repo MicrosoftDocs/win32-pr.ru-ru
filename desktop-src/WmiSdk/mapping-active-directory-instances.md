@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Сопоставление экземпляров Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f51eaec7b2c6ef121d0f65df375e1bb0fce32cc9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 66a3e40a6f4a85ebb1bb3d7e1e5a5de7bc43c754ff7672f694aff05b62853dbf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118317641"
 ---
 # <a name="mapping-active-directory-instances"></a>Сопоставление экземпляров Active Directory
 
@@ -58,7 +58,7 @@ ms.locfileid: "104081118"
 | Строка варианта печати       | **\_строка CIM**                               | Сопоставляется со значением строки.                                      |
 | Ссылка на реплику            | Внедренный объект класса **Uint8Array**       | Сопоставлено с экземплярами класса **Uint8Array** .                          |
 | SID                     | Внедренный объект класса **Uint8Array**       | Сопоставлено с экземплярами класса **Uint8Array** .                          |
-| Время                    | **\_Дата и время CIM**                             | Преобразуется в \_ представление CIM DateTime и сопоставляется.                 |
+| Time                    | **\_Дата и время CIM**                             | Преобразуется в \_ представление CIM DateTime и сопоставляется.                 |
 | Не определено.               | Н/Д                                           | Н/Д                                                                       |
 | Строка в Юникоде          | **\_строка CIM**                               | Сопоставляется со значением строки.                                      |
 | Время кодирования в формате UTC          | **\_Дата и время CIM**                             | Преобразуется в \_ представление CIM DateTime и сопоставляется.                 |

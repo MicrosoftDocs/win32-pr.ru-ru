@@ -6,12 +6,12 @@ keywords:
 - многовыборка, состояние средства отображения программной прорисовки (Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac95a15221f6fd4bd422e96c0686816afb35d4e8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8e819dd92dd9c07a71f3830d3b67e371bc3d0e0c98f62fa36fdcf8ee3550ecd3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104337580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117914005"
 ---
 # <a name="getting-started-with-the-rasterizer-stage"></a>начало работы с этапом средства прорисовки
 
@@ -135,13 +135,13 @@ D3D11_RECT rects[1];
 
 Не существует ограничений на смешивание многовыборочной и многовыборочной отрисовки в пределах одного целевого объекта рендеринга. Если включить многофакторную выборку и нарисовать на целевой объект рендеринга, не являющийся множественной выборкой, то результат будет таким же, как если бы многовыборочная выборка не была включена. выборка выполняется с одним примером на пиксель.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Этап растеризации](d3d10-graphics-programming-guide-rasterizer-stage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

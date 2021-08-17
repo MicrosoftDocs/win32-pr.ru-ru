@@ -3,9 +3,9 @@ title: Событие Player. Медиаколлектионмедиааддед
 description: Событие Медиаколлектионмедиааддед возникает при добавлении элемента мультимедиа в локальную библиотеку. | Событие Player. Медиаколлектионмедиааддед
 ms.assetid: 01696d28-e83b-4fd2-8e88-2871831b61e7
 keywords:
-- Проигрыватель Windows Media Event Медиаколлектионмедиааддед
-- Проигрыватель Windows Media Event Медиаколлектионмедиааддед, класс Player
-- Класс проигрывателя Windows Media Player, событие Медиаколлектионмедиааддед
+- проигрыватель Windows Media событий медиаколлектионмедиааддед
+- проигрыватель Windows Media событий медиаколлектионмедиааддед, класс Player
+- класс проигрывателя проигрыватель Windows Media, событие медиаколлектионмедиааддед
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d18dd0536f508090c46f9fc5a9059c809f50091d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7fef517c3d22335df6dd5dc5f62adcfd8f35dc3f2f91b08f8041c05770311993
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117747353"
 ---
 # <a name="playermediacollectionmediaadded-event"></a>Событие Player. Медиаколлектионмедиааддед
 
@@ -53,11 +53,11 @@ Player.MediaCollectionMediaAdded(
 
 Это событие не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это событие происходит только в локальной библиотеке.
 
-**Проигрыватель Windows Media 10 Mobile:** Это событие не поддерживается.
+**проигрыватель Windows Media 10 Mobile:** Это событие не поддерживается.
 
 ## <a name="requirements"></a>Требования
 
@@ -65,7 +65,7 @@ Player.MediaCollectionMediaAdded(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 11.<br/>                                                |
+| Версия<br/> | проигрыватель Windows Media 11.<br/>                                                |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

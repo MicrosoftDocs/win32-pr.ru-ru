@@ -4,12 +4,12 @@ ms.assetid: d53107b7-a153-41cf-9876-1d28aaf99816
 title: Функции расширения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bc490c8763a00fae9e7fb1e8a702ff87e2c18fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da84fbe58e4b3cdb3bd510b8ec33bedd0ab7af29f3c0a592724f2711bb9bedd7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105683954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117779867"
 ---
 # <a name="extension-functions"></a>Функции расширения
 
@@ -40,7 +40,7 @@ CertEnroll.dll реализует следующие интерфейсы для
 -   [енаблесмимекапабилитиес](#enablesmimecapabilities)
 -   [инклудесубжекткэйид](#includesubjectkeyid)
 -   [ресетекстенсионс](#resetextensions)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="addcerttypetorequestwstr"></a>аддцерттипеторекуествстр
 
@@ -104,7 +104,7 @@ CertEnroll.dll реализует следующие интерфейсы для
 
 Чтобы удалить расширение из запроса по номеру индекса с помощью CertEnroll.dll, вызовите метод [**Remove**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509extensions-remove) в коллекции [**IX509Extensions**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509extensions) . Чтобы удалить все атрибуты из запроса, вызовите метод [**clear**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509extensions-clear) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

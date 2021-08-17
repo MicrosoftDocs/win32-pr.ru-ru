@@ -4,21 +4,21 @@ ms.assetid: 7695fb64-3918-4d9a-8cd8-01d20edd9c55
 title: Использование Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54bebe537f82de65efddc086ee457e1abe47a617
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 75681987a4bc012618135f666b3ff973880b8129d2ad1ee896bcdbed266d179d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103912607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118436970"
 ---
 # <a name="using-windows"></a>Использование Windows
 
 В примерах этого раздела описывается выполнение следующих задач.
 
 -   [Создание главного окна](#creating-a-main-window)
--   [Создание, перечисление и изменение размеров дочерних окон](#creating-enumerating-and-sizing-child-windows)
+-   [Создание, перечисление и изменение размеров дочерних Windows](#creating-enumerating-and-sizing-child-windows)
 -   [Уничтожение окна](#destroying-a-window)
--   [Использование многоуровневых окон](#using-layered-windows)
+-   [Использование многоуровневых Windows](#using-layered-windows)
 
 ## <a name="creating-a-main-window"></a>Создание главного окна
 
@@ -66,7 +66,7 @@ UpdateWindow(hwndMain);
 
 Обратите внимание, что в предыдущем примере функция [**ShowWindow**](/windows/win32/api/winuser/nf-winuser-showwindow) вызывается после создания главного окна. Это делается потому, что система не отображает автоматически главное окно после его создания. Передавая флаг **SW \_ Шовдефаулт** в **ShowWindow**, приложение позволяет программе, запустившего приложение, установить начальное состояние отображения главного окна. Функция [**упдатевиндов**](/windows/win32/api/winuser/nf-winuser-updatewindow) отправляет окну свое первое сообщение [**WM \_ Paint**](../gdi/wm-paint.md) .
 
-## <a name="creating-enumerating-and-sizing-child-windows"></a>Создание, перечисление и изменение размеров дочерних окон
+## <a name="creating-enumerating-and-sizing-child-windows"></a>Создание, перечисление и изменение размеров дочерних Windows
 
 Вы можете разделить клиентскую область окна на разные функциональные области с помощью дочерних окон. Создание дочернего окна похоже на создание главного окна — используется функция [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) . Чтобы создать окно класса, определяемого приложением, необходимо зарегистрировать класс окна и предоставить процедуру окна перед созданием дочернего окна. Необходимо предоставить дочернему окну стиль дочернего окна [**WS \_**](window-styles.md) и указать родительское окно для дочернего окна при его создании.
 
@@ -187,7 +187,7 @@ case WM_DESTROY:
 
 
 
-## <a name="using-layered-windows"></a>Использование многоуровневых окон
+## <a name="using-layered-windows"></a>Использование многоуровневых Windows
 
 Чтобы диалоговое окно поступало в виде полупрозрачного окна, сначала создайте диалоговое окно, как обычно. Затем в [**WM \_ инитдиалог**](../dlgbox/wm-initdialog.md)задайте многоуровневый бит расширенного стиля окна и вызовите [**SetLayeredWindowAttributes**](/windows/win32/api/winuser/nf-winuser-setlayeredwindowattributes) с нужным альфа-значением. Код может выглядеть следующим образом:
 
@@ -224,7 +224,7 @@ RedrawWindow(hwnd,
 
 
 
-Чтобы использовать многоуровневые дочерние окна, приложение должно объявить себя в манифесте с поддержкой Windows 8.
+чтобы использовать многоуровневые дочерние окна, приложение должно объявить себя Windows 8 в манифесте.
 
  
 

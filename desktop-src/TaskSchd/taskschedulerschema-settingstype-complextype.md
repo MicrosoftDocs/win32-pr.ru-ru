@@ -1,6 +1,6 @@
 ---
 title: Сложный тип Сеттингстипе
-description: Определяет дочерние элементы и сведения о последовательности для элемента Settings (taskType).
+description: определяет дочерние элементы и сведения о последовательности для элемента Параметры (taskType).
 ms.assetid: dba6b82d-aaa4-4f77-aeb1-c5a8f81aec25
 keywords:
 - планировщик задач сложного типа Сеттингстипе
@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a3c2b3128a35ee0e46c56d19badd431400d4d862
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a48a124230a27a0c23cc9c2a9fa983b6ef3088b8ec22e8ac03fc371caadf0f00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105681982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118356356"
 ---
 # <a name="settingstype-complex-type"></a>Сложный тип Сеттингстипе
 
-Определяет дочерние элементы и сведения о последовательности для элемента [**Settings (TaskType)**](taskschedulerschema-settings-tasktype-element.md) .
+определяет дочерние элементы и сведения о последовательности для элемента [**Параметры (taskType)**](taskschedulerschema-settings-tasktype-element.md) .
 
 ``` syntax
 <xs:complexType name="settingsType">
@@ -137,7 +137,7 @@ ms.locfileid: "105681982"
 | [**делетикспиредтаскафтер**](taskschedulerschema-deleteexpiredtaskafter-settingstype-element.md)                   | длительность                                                                                          | Указывает период времени, в течение которого планировщик задач будет ожидать перед удалением задачи после истечения ее срока действия. Если для этого элемента не указано значение, то служба планировщик задач не удалит задачу.<br/>                                                                                           |
 | [**дисалловстартифонбаттериес**](taskschedulerschema-disallowstartifonbatteries-settingstype-element.md)           | Логическое                                                                                           | Указывает, что задача не будет запущена, если компьютер работает от аккумулятора.<br/>                                                                                                                                                                                                                 |
 | [**дисалловстартонремотеаппсессион**](taskschedulerschema-disallowstartonremoteappsession-settingstype-element.md) | Логическое                                                                                           | Указывает, что задача не должна запускаться, если задача запускается в локально интегрированном сеансе с удаленными приложениями.<br/>                                                                                                                                                                     |
-| [**Активировано**](taskschedulerschema-enabled-settingstype-element.md)                                                 | Логическое                                                                                           | Указывает, что задача включена. Задачу можно выполнить, только если этот параметр имеет **значение true**.<br/>                                                                                                                                                                                                        |
+| [**Включен**](taskschedulerschema-enabled-settingstype-element.md)                                                 | Логическое                                                                                           | Указывает, что задача включена. Задачу можно выполнить, только если этот параметр имеет **значение true**.<br/>                                                                                                                                                                                                        |
 | [**ексекутионтимелимит**](taskschedulerschema-executiontimelimit-settingstype-element.md)                           | длительность                                                                                          | Указывает время, в течение которого может завершиться задача.<br/>                                                                                                                                                                                                                                               |
 | [**Служеб**](taskschedulerschema-hidden-settingstype-element.md)                                                   | Логическое                                                                                           | Указывает по умолчанию, что задача не будет отображаться в пользовательском интерфейсе.<br/>                                                                                                                                                                                                                     |
 | [**идлесеттингс**](taskschedulerschema-idlesettings-settingstype-element.md)                                       | [**идлесеттингстипе**](taskschedulerschema-idlesettingstype-complextype.md)                      | Указывает, как планировщик задач выполняет задачи, когда компьютер находится в состоянии простоя.<br/>                                                                                                                                                                                                                   |
@@ -161,8 +161,8 @@ ms.locfileid: "105681982"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 
