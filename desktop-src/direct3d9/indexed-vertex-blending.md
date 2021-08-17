@@ -4,12 +4,12 @@ ms.assetid: d320cb8a-48b6-4a53-a051-d50f239c1aa3
 title: Индексированное смешение вершин (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4cfe7b45831317fdf9e92525ed74bbd27323e99
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ec3d45e3ff72a33cd21265d1e4aa25e237e2a73e473914898d5c1057316d4ca0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104494289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117728718"
 ---
 # <a name="indexed-vertex-blending-direct3d-9"></a>Индексированное смешение вершин (Direct3D 9)
 
@@ -37,7 +37,7 @@ V <sub>модель</sub> — это расположение вершины в�
 
 Дополнительные сведения об индексированном смешении вершин см. [в разделе использование индексированного смешения вершин (Direct3D 9)](using-indexed-vertex-blending.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

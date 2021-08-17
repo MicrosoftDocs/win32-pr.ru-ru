@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: b2b02bdddb4b7a2d31a685f576434e34952c0a22
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b34debbe70ec6edcd3f08a1ec83383335a0d4f97801d122bc1bd73a82a81ff36
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117731596"
 ---
 # <a name="d3dxquaternionisidentity-function"></a>Функция D3DXQuaternionIsIdentity
 
@@ -55,7 +55,7 @@ BOOL D3DXQuaternionIsIdentity(
 
 Если кватернион является единичным кватернион, эта функция возвращает **значение true**. В противном случае эта функция возвращает **значение false**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте [**D3DXQuaternionNormalize**](d3dxquaternionnormalize.md) для любых входных данных кватернион, которые еще не нормализованы.
 
@@ -65,7 +65,7 @@ BOOL D3DXQuaternionIsIdentity(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

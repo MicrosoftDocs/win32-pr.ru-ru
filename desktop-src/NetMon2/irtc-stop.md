@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 10bf0886032c93288435ade05fec46077d53753c
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 285d26e4eb141904e8a1951e6e42d0df0ef5d9738e5849057bbfe1e0a978e0b0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108113522"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119743004"
 ---
 # <a name="irtcstop-method"></a>Метод ИРТК:: останавливаться
 
@@ -48,9 +48,9 @@ HRESULT STDMETHODCALLTYPE Stop();
 
 | Код возврата                                                                                          | Описание                                                                                                                   |
 |------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**НМЕРР \_ не \_ подключен**</dt> </dl> | НПП не подключен к сети. Вызовите [ИРТК:: Connect](irtc-connect.md) , чтобы подключить НПП к сети.<br/> |
+| <dl> <dt>**НМЕРР \_ не \_ подключен**</dt> </dl> | НПП не подключен к сети. вызовите [иртк:: Подключение](irtc-connect.md) , чтобы подключить нпп к сети.<br/> |
 | <dl> <dt>**НМЕРР \_ не \_ захватывается**</dt> </dl> | НПП не захватывает данные. Вызовите [ИРТК:: Start](irtc-start.md) , чтобы начать запись.<br/>                            |
-| <dl> <dt>**НМЕРР \_ не в \_ реальном времени**</dt> </dl>  | НПП подключается к сети, но не с методом [ИРТК:: Connect](irtc-connect.md) .<br/>                     |
+| <dl> <dt>**НМЕРР \_ не в \_ реальном времени**</dt> </dl>  | нпп подключается к сети, но не с помощью метода [иртк:: Подключение](irtc-connect.md) .<br/>                     |
 
 
 
@@ -73,14 +73,14 @@ HRESULT STDMETHODCALLTYPE Stop();
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 
 [иртк](irtc.md)
 </dt> <dt>
 
-[ИРТК:: Connect](irtc-connect.md)
+[иртк:: Подключение](irtc-connect.md)
 </dt> <dt>
 
 [ИРТК:: Configure](irtc-configure.md)

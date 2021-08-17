@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Scrdenrl.dll
-ms.openlocfilehash: b62b0a7e871a29ff0a8edd28eb8cd5e18e97c1a8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6de5d1108ab09c9658af307d6a67c5a94a5dc35514720a221540de263f516c9a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272261"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119960284"
 ---
 # <a name="iscrdenrgetcaname-method"></a>Метод Искрденр:: Жетканаме
 
@@ -87,7 +87,7 @@ SCrdEnr.getCAName( _
 
 Строка, представляющая имя центра сертификации.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Имя ЦС по умолчанию — это первое имя в списке доступных центров сертификации.
 
@@ -98,7 +98,7 @@ SCrdEnr.getCAName( _
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Ни одна версия не поддерживается<br/>                                                               |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>Scrdenrl.dll</dt> </dl> |
 | IID<br/>                      | IID \_ искрденр определен как 753988a1-1357-436d-9cf5-f089bdd67d64<br/>             |
 

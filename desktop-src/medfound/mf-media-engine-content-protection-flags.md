@@ -4,12 +4,12 @@ ms.assetid: 2A593499-BF40-440E-AF1D-3B0E7732489A
 title: Атрибут MF_MEDIA_ENGINE_CONTENT_PROTECTION_FLAGS (Мфмедиаенгине. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e33feb8d3e1d7c216cfd0392a1fcf9df0100f924
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: ec1cb6b9c9a49c690af84678435ac2bb4fdab76a2fb13c95fecd9ddc33771d7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104351352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119956444"
 ---
 # <a name="mf_media_engine_content_protection_flags-attribute"></a>\_ \_ \_ \_ Атрибут флагов защиты содержимого для механизма \_ передачи мультимедиа MF
 
@@ -19,7 +19,7 @@ ms.locfileid: "104351352"
 
 **UINT32**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значение этого атрибута является побитовым для **флагов из перечисления** [**\_ \_ \_ \_ флагов защиты Media Engine MF**](/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_media_engine_protection_flags) . Чтобы включить воспроизведение защищенного содержимого, установите флаг **" \_ \_ \_ включить \_ защищенное \_ содержимое" для компонента MF Media Engine** .
 
@@ -29,9 +29,9 @@ ms.locfileid: "104351352"
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8 \|\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 \|\]<br/>                                |
-| Header<br/>                   | <dl> <dt>Мфмедиаенгине. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ приложения UWP для классических приложений \|\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ приложения UWP для классических приложений \|\]<br/>                                |
+| Заголовок<br/>                   | <dl> <dt>Мфмедиаенгине. h</dt> </dl> |
 
 
 

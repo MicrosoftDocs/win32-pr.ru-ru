@@ -1,6 +1,6 @@
 ---
 title: Функция Вмдрмшутдовн (Вмдрмсдк. h)
-description: Функция Вмдрмшутдовн освобождает ресурсы, используемые расширенными API-интерфейсами клиента DRM Windows Media.
+description: функция вмдрмшутдовн высвобождает ресурсы, используемые расширенными api клиента DRM для Windows Media.
 ms.assetid: fa99a07a-2f07-464b-b7a2-e8f3110389b5
 keywords:
 - Вмдрмшутдовн функция Windows Media Format
@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2eb49049a593699a4071eefea9c5cf7c61571fc3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f80f0f7264cd0962cb642f0877ccd044e777c3e9f269f87fcffc0037dcc0836d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105674891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119930373"
 ---
 # <a name="wmdrmshutdown-function"></a>Функция Вмдрмшутдовн
 
-Функция **вмдрмшутдовн** освобождает ресурсы, используемые расширенными API-интерфейсами клиента DRM Windows Media.
+функция **вмдрмшутдовн** высвобождает ресурсы, используемые расширенными api клиента DRM для Windows Media.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -52,7 +52,7 @@ HRESULT STDMETHODCALLTYPE WMDRMShutdown(void);
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы избежать утечек памяти, необходимо вызвать эту функцию для каждого вызова функции [**вмдрмстартуп**](wmdrmstartup.md) .
 
@@ -62,7 +62,7 @@ HRESULT STDMETHODCALLTYPE WMDRMShutdown(void);
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Вмдрмсдк. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Вмдрмсдк. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>Вмдрмсдк. lib</dt> </dl> |
 | DLL<br/>     | <dl> <dt>Wmdrmsdk.dll</dt> </dl> |
 

@@ -6,12 +6,12 @@ keywords:
 - Команда MCI_OPEN
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd975b0dd5004fb4b1209003568b7fd5901cfc4e
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 34408cef4e85ed7200b91c610e60ca546ff488ce5ad45edee12159a664f319fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104069853"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117802321"
 ---
 # <a name="opening-a-device"></a>Открытие устройства
 
@@ -159,6 +159,6 @@ mciSendString("close capture", lpszReturnString,
 
 При открытии нескольких экземпляров файла необходимо назначить каждому из них уникальный идентификатор устройства. Можно использовать псевдоним, как описано в следующем разделе, чтобы назначить уникальное имя для каждого файла.
 
- 
+ 
 
- 
+ 

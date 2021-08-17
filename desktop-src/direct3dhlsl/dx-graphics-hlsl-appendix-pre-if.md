@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a32206232c726f19febf77c3f3270882894a6747
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: bb5f4716509905d4ce800abbe4cb11b85d116d7a5afd5a56301b1ecb5ce0724b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104133894"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117726454"
 ---
 # <a name="if-elif-else-and-endif-directives"></a>\#\#директивы if, elif, \# else и \# endif
 
@@ -49,7 +49,7 @@ ms.locfileid: "104133894"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Каждая \# директива if в исходном файле должна соответствовать закрываемой \# директиве endif. \#Между директивами if и endif может использоваться любое число директивов elif \# \# , но \# допускается не более одной директивы else. \#Директива Else, если она есть, должна быть последней директивой перед \# endif. Директивы условной компиляции, содержащиеся в включаемых файлах, должны соответствовать тем же условиям.
 

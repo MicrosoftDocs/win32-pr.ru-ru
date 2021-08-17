@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 02c172dd71fcf57f2028f6ba64c93ceaeec2ffb2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a00e73210407b6011c2cfd3dbb0ccc514306915a903710fa4ae90d7ebe2b3f1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988408"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119059002"
 ---
 # <a name="imsrdpclientadvancedsettingsmaximizeshell-property"></a>Свойство Имсрдпклиентадванцедсеттингс:: Максимизешелл
 
@@ -90,7 +90,7 @@ HRESULT get_MaximizeShell(
 
 При успешном выполнении возвращает значение **\_ ОК** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Дополнительные сведения о веб-подключение к удаленному рабочему столу см. в разделе [требования для веб-подключение к удаленному рабочему столу](requirements-for-remote-desktop-web-connection.md).
 

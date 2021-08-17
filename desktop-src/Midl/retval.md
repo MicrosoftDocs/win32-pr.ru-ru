@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 04b53aa2b8ab66737bd4d97710fe942ee73bf0b8
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 72655883b24c83890cf2f5604cb8f7335c6943b32e5e69611dba415689b03e22
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103890481"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146307"
 ---
 # <a name="retval-attribute"></a>retval - атрибут
 
@@ -68,7 +68,7 @@ return-type function-name(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Атрибут **\[ retval \]** можно использовать для параметров членов интерфейса, описывающих методы или получения свойств. (Атрибут является обязательным для последнего параметра метода, имеющего **\[** [**propget**](propget.md) **\]** атрибут.) Параметр должен иметь **\[** атрибут [**out**](out-idl.md) **\]** и должен быть типом указателя.
 
@@ -126,6 +126,6 @@ HRESULT MyOtherMethod([out, retval] VARIANT_BOOL* ReturnVal);
 [**типефлагс**](/windows/win32/api/oaidl/ne-oaidl-typeflags)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

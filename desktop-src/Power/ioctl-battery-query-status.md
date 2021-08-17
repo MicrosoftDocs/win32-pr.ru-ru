@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Poclass.h
 - BatClass.h
-ms.openlocfilehash: e2de9d3ab48aec13a9a5c1957a5f98aefbe6a09f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 29d8b33238fa8daa463c007fa9d65cba9c6fb72ef13f0f68587a1452f3dabb0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105663119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143545"
 ---
 # <a name="ioctl_battery_query_status-control-code"></a>\_ \_ \_ Управляющий код состояния запроса аккумулятора ioctl
 
@@ -139,9 +139,9 @@ BOOL DeviceIoControl(
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                                                                                                                                                                                                         |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                                                                                                                                                                                |
-| Header<br/>                   | <dl> <dt>Покласс. h; </dt> <dt>Баткласс. h в Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista, Windows server 2003 и Windows XP</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                                                                                                                                                                                                         |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                                                                                                                                                                                |
+| Заголовок<br/>                   | <dl> <dt>Покласс. h;</dt> <dt>баткласс. h на Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista, Windows Server 2003 и Windows XP</dt> </dl> |
 
 
 

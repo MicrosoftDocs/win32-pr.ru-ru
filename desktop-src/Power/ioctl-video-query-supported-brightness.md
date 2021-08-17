@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Ntddvdeo.h
-ms.openlocfilehash: a5618ec29fd47ba690106b5f826e6fb145eac208
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c41b6773b0ed64160e2ad8850b6092dd5ec987c3e6726ba1cd668909c266311
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105663118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143397"
 ---
 # <a name="ioctl_video_query_supported_brightness-control-code"></a>Видеозапрос IOCTL, \_ \_ \_ поддерживаемый \_ код управления яркостью
 
@@ -124,7 +124,7 @@ BOOL DeviceIoControl(
 
 Каждый элемент в массиве *лпаутбуффер* имеет длину один байт. Поэтому после возврата параметр *лпбитесретурнед* указывает количество поддерживаемых уровней. Каждый уровень имеет значение от 0 до 100. Чем больше значение, тем ярче подсветка. Все уровни поддерживаются независимо от того, подключен ли источник питания к сети AC или DC.
 
-Файл заголовка, используемый для создания приложений, включающих эту функцию, Нтддвдео. h, входит в состав пакета средств разработки драйверов Microsoft Windows (DDK). Сведения о получении DDK см. в разделе [https://www.microsoft.com/whdc/devtools/ddk/default.mspx](https://msdn.microsoft.com/windows/hardware/gg454513) .
+файл заголовка, используемый для создания приложений, включающих эту функцию, нтддвдео. h, входит в комплект sdk для Microsoft Windows Driver Kit (DDK). Сведения о получении DDK см. в разделе [https://www.microsoft.com/whdc/devtools/ddk/default.mspx](https://msdn.microsoft.com/windows/hardware/gg454513) .
 
 Кроме того, этот код элемента управления можно определить следующим образом:
 
@@ -140,8 +140,8 @@ BOOL DeviceIoControl(
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista, Windows XP с пакетом обновления 1 (SP1), \[ только классические приложения\]<br/>                   |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Нтддвдео. h</dt> </dl> |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Нтддвдео. h</dt> </dl> |
 
 
 

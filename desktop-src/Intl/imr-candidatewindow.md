@@ -4,12 +4,12 @@ ms.assetid: 35849290-a5be-406f-82f5-4a7e2af48586
 title: Код уведомления IMR_CANDIDATEWINDOW (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: edb905acace27cc9bb04ce2b14dc6a685b7c4f8e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b9376ff08e0406ff5505107ea1a04cf4e62898660065a8c7fdd54a1b8606850c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105663063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117810120"
 ---
 # <a name="imr_candidatewindow-notification-code"></a>\_Код уведомления КАНДИДАТЕВИНДОВ IMR
 
@@ -44,7 +44,7 @@ LRESULT IMR_CANDIDATEWINDOW
 
 Функция возвращает ненулевое значение, если приложение заполняет структуру [**кандидатеформ**](/windows/win32/api/imm/ns-imm-candidateform) . В противном случае команда возвращает значение 0.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта команда может быть отправлена редактором IME в окно, которое очистило \_ флаг ISC шовуикандидатевиндов в обработчике сообщений [**\_ \_ SETCONTEXT редактора IME**](wm-ime-setcontext.md) .
 
@@ -56,7 +56,7 @@ LRESULT IMR_CANDIDATEWINDOW
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                           |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                 |
-| Заголовок<br/>                   | <dl> <dt>IMM. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Imm. h (включает Windows. h)</dt> </dl> |
 
 
 

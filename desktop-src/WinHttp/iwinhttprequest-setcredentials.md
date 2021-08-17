@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: 46b0dfb321763a3b3bfe622e116f2e76c5e59423
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9246352e78472461bfbfe37569d9bd631905fda03c87571ed7ed3dad04edb797
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712201"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117744470"
 ---
 # <a name="iwinhttprequestsetcredentials-method"></a>Метод Ивинхттпрекуест:: Сеткредентиалс
 
@@ -78,12 +78,12 @@ HRESULT SetCredentials(
 
 В случае успешного выполнения возвращается значение **S \_** , а в противном случае — значение ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод возвращает значение ошибки, если вызов метода [**Open**](iwinhttprequest-open.md) не завершился успешно. Предполагается, что некоторые меры взаимодействия с прокси-сервером или исходным сервером должны быть выполнены до того, как пользователи смогут задать учетные данные для сеанса. Более того, пока пользователи не узнают, какие схемы проверки подлинности поддерживаются, они не могут отформатировать учетные данные.
 
 > [!Note]  
-> Для Windows XP и Windows 2000 см. раздел [требования к времени выполнения](winhttp-start-page.md) на начальной странице WinHTTP.
+> сведения о Windows XP и Windows 2000 см. в разделе [требования к времени выполнения](winhttp-start-page.md) на начальной странице WinHTTP.
 
  
 
@@ -285,8 +285,8 @@ WScript.Echo(WinHttpReq.GetAllResponseHeaders());
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>            |
-| Минимальная версия сервера<br/> | Windows Server 2003, Windows 2000 Server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>         |
+| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с SP3 \[ только для настольных приложений\]<br/>            |
+| Минимальная версия сервера<br/> | Windows сервер 2003, Windows 2000 server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>         |
 | Распространяемые компоненты<br/>          | WinHTTP 5,0 и Internet Explorer 5,01 или более поздней версии в Windows XP и Windows 2000.<br/> |
 | IDL<br/>                      | <dl> <dt>HttpRequest. idl</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>WinHTTP. lib</dt> </dl>     |

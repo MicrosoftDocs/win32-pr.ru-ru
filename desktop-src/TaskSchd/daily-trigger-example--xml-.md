@@ -1,6 +1,6 @@
 ---
 title: Пример ежедневного триггера (XML)
-description: В этом примере XML-код определяет задачу, которая запускает Блокнот в 8 00 AM каждый день.
+description: в этом примере XML-код определяет задачу, которая начинается Блокнот в 8 00 AM каждый день.
 ms.assetid: b7818071-12b6-41df-85b9-282c08cf6e31
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,22 +9,22 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: fe673a764e6e7e4e3ae5089022da2232821d9184
-ms.sourcegitcommit: 40dd8501397fc79a643deb528c6c57ac2e9726ce
+ms.openlocfilehash: cd98ada9a69f694d59262682317b7e5be91509b4862f8b896e22b7b0deac2167
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "103785526"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139507"
 ---
 # <a name="daily-trigger-example-xml"></a>Пример ежедневного триггера (XML)
 
-В этом примере XML-код определяет задачу, которая запускает Блокнот в 8:00 AM каждый день. В примере также показано, как задать шаблон повторения для триггера, чтобы повторить задачу.
+в этом примере XML-код определяет задачу, которая начинается Блокнот в 8:00 AM каждый день. В примере также показано, как задать шаблон повторения для триггера, чтобы повторить задачу.
 
-Чтобы зарегистрировать задачу, определенную в формате XML, можно использовать функцию [**ITaskFolder:: регистертаск**](/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertask) ([**таскфолдер. регистертаск**](taskfolder-registertask.md) для создания скриптов) или средство командной строки Schtasks.exe. Если вы используете средство Schtasks.exe (расположенное в каталоге C: \\ Windows \\ System32), для регистрации задачи выполните следующую команду: **schtasks/CREATE/XML** *<path to the XML file containing the task definition>* **/TN** *<task name>* .
+Чтобы зарегистрировать задачу, определенную в формате XML, можно использовать функцию [**ITaskFolder:: регистертаск**](/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertask) ([**таскфолдер. регистертаск**](taskfolder-registertask.md) для создания скриптов) или средство командной строки Schtasks.exe. при использовании средства Schtasks.exe (расположенного в каталоге C: \\ Windows \\ System32) можно зарегистрировать задачу с помощью следующей команды: **schtasks/create/xml** *<path to the XML file containing the task definition>* **/tn** *<task name>* .
 
-## <a name="to-define-a-task-to-start-notepad-every-day-at-800-am"></a>Определение задачи для запуска Блокнота каждый день в 8:00 AM
+## <a name="to-define-a-task-to-start-notepad-every-day-at-800-am"></a>определение задачи для запуска Блокнот каждый день в 8:00 AM
 
-В следующем примере XML показано, как определить задачу с одним действием выполнения (запуск Блокнота), одним триггером календаря (запускает задачу каждый день в 8:00 AM), а также несколько других параметров задач, влияющих на то, как задача обрабатывается планировщик задач.
+в следующем примере XML показано, как определить задачу с одним действием выполнения (запуск Блокнот), одним триггером календаря (начинается выполнение задачи каждый день в 8:00 AM), а также несколько других параметров задач, влияющих на то, как задача обрабатывается планировщик задач.
 
 
 ```XML
@@ -81,7 +81,7 @@ This sample schedules a task to start on a daily basis.
 
     Содержит сведения о регистрации задачи.
 
--   [**Триггеры**](taskschedulerschema-triggers-tasktype-element.md)
+-   [**План**](taskschedulerschema-triggers-tasktype-element.md)
 
     Определяет триггер, который запускает задачу.
 
@@ -100,18 +100,18 @@ This sample schedules a task to start on a daily basis.
 
 -   [**Действия**](taskschedulerschema-actions-tasktype-element.md)
 
-    Определяет действия, выполняемые задачей (в данном случае, запуск Блокнота).
+    определяет действия, выполняемые задачей (в данном случае выполняется Блокнот).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Использование планировщик задач](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

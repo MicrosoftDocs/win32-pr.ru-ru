@@ -3,7 +3,7 @@ title: External. Баскеттитле
 description: Обратите внимание, что в этом разделе описываются функции, предназначенные для использования в Интернет-магазинах. | External. Баскеттитле
 ms.assetid: 528b7d8e-7702-4139-b2bd-a06c7f15cb87
 keywords:
-- Внешний Баскеттитле проигрыватель Windows Media
+- External. баскеттитле проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 610ce5ecf054d6ab1edba4e0aab5f2eff3a969fa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f20b01fd9b0185dcd1d20a2d063f464699d51e51d54560dfc43f87da21dc9c44
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694510"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649534"
 ---
 # <a name="externalbaskettitle"></a>External. Баскеттитле
 
@@ -28,7 +28,7 @@ ms.locfileid: "105694510"
 
  
 
-Свойство **баскеттитле** извлекает заголовок кнопки на панели списка (также называемой корзиной) в проигрывателе Windows Media.
+свойство **баскеттитле** извлекает заголовок кнопки на панели списка (также называемой корзиной) в проигрыватель Windows Media.
 
 ``` syntax
 window.external.basketTitle
@@ -45,7 +45,7 @@ window.external.basketTitle
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 11.<br/>                                                |
+| Версия<br/> | проигрыватель Windows Media 11.<br/>                                                |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable5 Дисаблеконнектионбар, свойство
-description: Указывает, должен ли элемент управления ActiveX удаленный рабочий стол отключать панель подключения.
+description: указывает, должен ли элемент управления ActiveX удаленный рабочий стол отключить панель подключения.
 ms.assetid: 82c57b93-f976-43e6-97f9-3602bf97e466
 ms.tgt_platform: multiple
 keywords:
@@ -18,16 +18,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a129d4781db69a564eecbca3a715c3c5ccf1a9cc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4f74fce650eb82514538eed7066b937c29f8618aba1eab7531f3bdb7e1127da5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104535576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119138747"
 ---
 # <a name="imsrdpclientnonscriptable5disableconnectionbar-property"></a>IMsRdpClientNonScriptable5: свойство Исаблеконнектионбар:D
 
-Указывает, должен ли элемент управления ActiveX удаленный рабочий стол отключать панель подключения. Если это свойство содержит **вариант \_ true**, панель подключения должна быть отключена. Если это свойство содержит **\_ значение Variant false**, то панель подключения должна быть включена.
+указывает, должен ли элемент управления ActiveX удаленный рабочий стол отключить панель подключения. Если это свойство содержит **вариант \_ true**, панель подключения должна быть отключена. Если это свойство содержит **\_ значение Variant false**, то панель подключения должна быть включена.
 
 Это свойство доступно только на запись.
 

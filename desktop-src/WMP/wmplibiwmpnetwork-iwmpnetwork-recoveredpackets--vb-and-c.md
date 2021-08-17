@@ -3,9 +3,9 @@ title: Ивмпнетворк Рековередпаккетс, свойство
 description: Свойство Рековередпаккетс возвращает количество восстановленных пакетов.
 ms.assetid: 90fcefcd-2bd7-4fb5-8337-36bec5d44e60
 keywords:
-- Проигрыватель Windows Media для свойства Рековередпаккетс
-- Рековередпаккетс свойство проигрывателя Windows Media Player, интерфейс Ивмпнетворк
-- Интерфейс Ивмпнетворк Windows Media Player, свойство Рековередпаккетс
+- проигрыватель Windows Media свойства рековередпаккетс
+- проигрыватель Windows Media свойства рековередпаккетс, интерфейс ивмпнетворк
+- проигрыватель Windows Media интерфейса ивмпнетворк, свойство рековередпаккетс
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9fe9fb8b44249be30289abb2f8922343285ca074
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7665fad35e87b32b4e5cf20875e7b0f59c5e7fb8915fa7595fd625a04303835c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119956084"
 ---
 # <a name="iwmpnetworkrecoveredpackets-property"></a>Свойство Ивмпнетворк:: Рековередпаккетс
 
@@ -48,7 +48,7 @@ Public ReadOnly Property recoveredPackets As System.Int32
 
 Значение **System. Int32** , которое является числом восстановленных пакетов.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Каждый раз, когда воспроизведение останавливается и перезапускается, это свойство сбрасывается до нуля. Значение не сбрасывается, если воспроизведение приостановлено.
 
@@ -132,7 +132,7 @@ End Sub
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

@@ -4,12 +4,12 @@ ms.assetid: eba4e794-0929-450c-a172-6de6c2f2f2c4
 title: Сохранение или Отмена изменений
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4946574facd0d41d68f4de8cf2f2f48410eb6e99
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a01c000a6fc9fbe7e8e25e50c041f1b5a0e1250dfe089245ef035213905e5737
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117915935"
 ---
 # <a name="saving-or-discarding-changes"></a>Сохранение или Отмена изменений
 
@@ -25,7 +25,7 @@ ms.locfileid: "103895617"
 
 Кроме того, между вызовами функций [**заполнения**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-populate) и [**SaveChanges**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-savechanges)нет блокировки на элементы в коллекции; состязание возможно. Дополнительные сведения см. в разделе [Получение и Настройка свойств](getting-and-setting-properties.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

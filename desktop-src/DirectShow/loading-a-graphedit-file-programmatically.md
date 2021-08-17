@@ -4,12 +4,12 @@ ms.assetid: 0e1cff4e-43f8-4d0a-b7a7-b6d0278e9e4a
 title: Программная загрузка файла Графедит
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a9a4780ead7b65d883bdd48917c6372425612435
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: faf2bdff86a47e740e6cb177a70a7b1e12ffc7c865d8ad231f6ada9122f286d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104495063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118153182"
 ---
 # <a name="loading-a-graphedit-file-programmatically"></a>Программная загрузка файла Графедит
 
@@ -55,17 +55,17 @@ HRESULT LoadGraphFile(IGraphBuilder *pGraph, const WCHAR* wszName)
 
 
 > [!Note]  
-> Вызов **IPersistStream:: Load** в предыдущем примере кода может вернуть ошибку DirectShow или код успешного выполнения. Список возможных возвращаемых значений см. в разделе [коды ошибок и успешности](error-and-success-codes.md).
+> вызов **IPersistStream:: Load** в предыдущем примере кода может вернуть DirectShow ошибку или код успешного выполнения. Список возможных возвращаемых значений см. в разделе [коды ошибок и успешности](error-and-success-codes.md).
 
  
 
 Файлы Графедит предназначены только для тестирования и отладки. Они не предназначены для использования приложениями конечных пользователей.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Имитация построения графа с помощью Графедит](simulating-graph-building-with-graphedit.md)
+[имитация Graph сборки с помощью графедит](simulating-graph-building-with-graphedit.md)
 </dt> <dt>
 
 [**стгиссторажефиле**](/windows/win32/api/coml2api/nf-coml2api-stgisstoragefile)

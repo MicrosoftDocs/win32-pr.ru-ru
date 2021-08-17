@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 62206bc4ef1e1b64ec760a240a087ec13526d896
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 9653325098b05959fcbd9e7a838801652a532d936bdaebc829055b717a49096f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104996914"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117723022"
 ---
 # <a name="texm3x2tex---ps"></a>texm3x2tex-PS
 
@@ -29,14 +29,14 @@ ms.locfileid: "104996914"
 
 
 
- 
+ 
 
-где
+where
 
 -   DST — это регистр назначения.
 -   src является исходным регистром.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -46,7 +46,7 @@ ms.locfileid: "104996914"
 
 
 
- 
+ 
 
 Инструкция используется как одна из двух инструкций, представляющих операцию умножения матрицы 3x2. Эта инструкция должна использоваться с инструкцией [texm3x2pad-PS](texm3x2pad---ps.md) .
 
@@ -102,16 +102,16 @@ mov r0, t2            // Output result
 -   Этап 1 содержит координаты текстуры. На стадии текстуры текстура не требуется.
 -   Этап 2 содержит как координаты текстуры, так и набор 2D-текстур на этой стадии текстуры.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера пикселей](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 2eabc00009b76247af71b06ea877ca0bf738c1d5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4f9e7015382ef34f4582c4772e148059c4ed01de9e81da5af71bc0849df26f15
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104347485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091704"
 ---
 # <a name="providor_info_1-structure"></a>\_Структура провидор info \_ 1
 
@@ -60,7 +60,7 @@ typedef struct _PROVIDOR_INFO_1 {
 **пдллнаме**
 </dt> <dd>
 
-Указатель на строку, завершающуюся нулем, которая является именем файла provider. dll.
+Указатель на строку, завершающуюся нулем, которая является именем поставщика, .dll.
 
 </dd> </dl>
 
@@ -72,7 +72,7 @@ typedef struct _PROVIDOR_INFO_1 {
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Винспул. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>винспул. h (включает Windows. h)</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **\_ \_ Сведения о провидор \_ 1W** (Юникод) и **\_ провидор \_ info \_ 1A** (ANSI)<br/>                         |
 
 
