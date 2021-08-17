@@ -3,7 +3,7 @@ title: Функция обратного вызова ICMProgressProcCallback
 description: Функция Икмпрогресспроккаллбакк является предоставляемой приложением функцией обратного вызова, которая сообщает о ходе выполнения и позволяет приложению отменить обработку цвета.
 ms.assetid: 4e0bfa4c-f0eb-4776-98d6-90d9adf71bee
 keywords:
-- Цветовая система Windows для функции обратного вызова Икмпрогресспроккаллбакк
+- функция обратного вызова икмпрогресспроккаллбакк Windows цветовая система
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8acf790a135a41e4eabb4a67c2498f1ed914c4c8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d697bb09b4871f6debb1a41a7ecc3e795307ee544ec30bfaf4b5b44ba0328578
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105721007"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117671390"
 ---
 # <a name="icmprogressproccallback-callback-function"></a>Функция обратного вызова ICMProgressProcCallback
 
@@ -69,7 +69,7 @@ BOOL WINAPI ICMProgressProcCallback(
 
 Эта функция возвращает **значение true** , чтобы продолжить обработку растрового изображения. Для отмены обработки возвращается значение **false** . Если обработка отменена, то вызывающая функция возвращает ноль для обозначения сбоя, хотя выходной буфер может быть заполнен частично.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Имя этой функции обратного вызова предоставляется приложением. Ряд функций WCS, включая [**транслатебитмапбитс**](/windows/win32/api/icm/nf-icm-translatebitmapbits) и [**чеккбитмапбитс**](/windows/win32/api/icm/nf-icm-checkbitmapbits), периодически Вызывайте эту функцию.
 

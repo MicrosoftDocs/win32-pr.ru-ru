@@ -6,12 +6,12 @@ ms.tgt_platform: multiple
 title: 'Методы Чстринг:: MID (Чстринг. h)'
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 5d05259128f80bcb21d00144d19002ca58ce39c1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cbe5b7fc6e3f0d4130e106217c46c82202c230f180dd4c90d09f90073dee08ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712195"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118319846"
 ---
 # <a name="chstringmid-methods"></a>Методы Чстринг:: mid
 
@@ -37,7 +37,7 @@ ms.locfileid: "105712195"
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                                                                                      |
-| Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                                                                                                |
+| Минимальная версия сервера<br/> | Windows Сервер 2008<br/>                                                                                                                                |
 | Header<br/>                   | <dl> <dt>Чстринг. h (включение Фвкоммон. h)</dt> </dl>                                                    |
 | Библиотека<br/>                  | <dl> <dt>Фрамедин. lib</dt> </dl>                                                                       |
 | DLL<br/>                      | <dl> <dt>FrameDynOS.dll; </dt> <dt>FrameDyn.dll</dt> </dl> |

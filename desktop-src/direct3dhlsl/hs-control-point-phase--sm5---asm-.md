@@ -4,12 +4,12 @@ description: Запустите этап контрольной точки в ш
 ms.assetid: 9CF26691-C04F-4728-8418-40F313ABBE4A
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aba3f591fcd656e64609513dca7b9126496a86d6
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 01779bc573b47d3d3a2d8765ee0c1931c646c30503a88a7e5421f2db211116f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104069368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117907361"
 ---
 # <a name="hs_control_point_phase-sm5---asm"></a>\_этап контрольной \_ точки HS \_ (SM5-ASM)
 
@@ -22,9 +22,9 @@ ms.locfileid: "104069368"
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта инструкция применяется к следующим этапам шейдера:
 
@@ -36,7 +36,7 @@ ms.locfileid: "104069368"
 
 
 
- 
+ 
 
 ## <a name="minimum-shader-model"></a>Минимальная модель шейдера
 
@@ -46,7 +46,7 @@ ms.locfileid: "104069368"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
 | [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Нет        |
 | [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Нет        |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
@@ -55,18 +55,18 @@ ms.locfileid: "104069368"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Сборка Shader Model 5 (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -15,12 +15,12 @@ api_type:
 api_location:
 - InkObj.dll
 - InkObj.dll.dll
-ms.openlocfilehash: afe5469cabf6764ed9b02fdcffcc8c1bedaca1d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 781d1b440f1287b22d5c3ddf7ecf7132f7311fc5f48da5da20e4145717f65bb6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104264890"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118218405"
 ---
 # <a name="inkrecognizercontext-class"></a>Класс Инкрекогнизерконтекст
 
@@ -95,7 +95,7 @@ ms.locfileid: "104264890"
 | [**Руководство**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_guide)<br/>                                     | Чтение/запись<br/> | Возвращает или задает [**инкрекогнизергуиде**](inkrecognizerguide-class.md) , используемый для ввода рукописных данных.<br/>                                                   |
 | [**префикстекст**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_prefixtext)<br/>                           | Чтение/запись<br/> | Возвращает или задает символы, которые предшествуют коллекции [**инкстрокес**](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) в объекте **инкрекогнизерконтекст** .<br/> |
 | [**рекогнитионфлагс**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_recognitionflags)<br/>               | Чтение/запись<br/> | Возвращает или задает флаги, указывающие, как распознаватель интерпретирует рукописный ввод и определяет результирующую строку.<br/>                                     |
-| [**Распознаватель**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_recognizer)<br/>                           | Чтение/запись<br/> | Возвращает или задает объект [**иинкрекогнизер**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer) , используемый объектом **инкрекогнизерконтекст** .<br/>                                   |
+| [**Распознавателя**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_recognizer)<br/>                           | Чтение/запись<br/> | Возвращает или задает объект [**иинкрекогнизер**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer) , используемый объектом **инкрекогнизерконтекст** .<br/>                                   |
 | [**Strokes**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_strokes)<br/>                                 | Чтение/запись<br/> | Возвращает или задает коллекцию [**инкстрокес**](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) , связанную с объектом **инкрекогнизерконтекст** .<br/>                    |
 | [**суффикстекст**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_suffixtext)<br/>                           | Чтение/запись<br/> | Возвращает или задает символы, которые поступают после коллекции [**инкстрокес**](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) в объекте **инкрекогнизерконтекст** .<br/>  |
 | [**Составлен**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_wordlist)<br/>                               | Чтение/запись<br/> | Возвращает или задает объект [**инквордлист**](inkwordlist-class.md) , используемый для улучшения результатов распознавания.<br/>                               |
@@ -104,7 +104,7 @@ ms.locfileid: "104264890"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для создания экземпляра этого объекта можно вызвать метод [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) в C++.
 
@@ -127,7 +127,7 @@ ms.locfileid: "104264890"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/>                                                       |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/>                                                       |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                                           |
 | Header<br/>                   | <dl> <dt>Мсинкаут. h (также требуется Мсинкаут \_ i. c)</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

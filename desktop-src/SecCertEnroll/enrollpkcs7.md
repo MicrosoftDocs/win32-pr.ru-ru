@@ -4,12 +4,12 @@ ms.assetid: e7df1a2e-5674-4cc6-874b-45bcc7e25127
 title: enrollPKCS7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34bc7f9d7b7d5ae9fa88db0dd70c177c3aa69da0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0635fdf4daacc9c7a04db98c7e34e9d3495c6f18ca3e145b166f19e3cd49610a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103808663"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117779955"
 ---
 # <a name="enrollpkcs7"></a>enrollPKCS7
 
@@ -17,7 +17,7 @@ ms.locfileid: "103808663"
 
 ## <a name="location"></a>Расположение
 
-При установке пакета средств разработки программного обеспечения (SDK) для Microsoft Windows этот образец устанавливается по умолчанию в папке *% ProgramFiles%* \\ Microsoft SDK \\ Windows \\ v 7.0 \\ Samples \\ Security SSL \\ Certificate \\ \\ enrollPKCS7.
+при установке пакета microsoft Windows Software Development Kit (SDK) образец устанавливается по умолчанию в папке *% ProgramFiles%* \\ Microsoft sdk \\ Windows \\ v 7.0 \\ samples \\ Security ssl \\ Certificate \\ \\ enrollPKCS7.
 
 ## <a name="discussion"></a>Разговор
 
@@ -30,7 +30,7 @@ ms.locfileid: "103808663"
 5.  Создает объект [**исигнерцертификате**](/windows/desktop/api/CertEnroll/nn-certenroll-isignercertificate) , инициализирует его с помощью существующего сертификата и добавляет его в \# объект запроса PKCS 7.
 6.  Создает объект [**IX509Enrollment**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509enrollment) , инициализирует его с помощью \# объекта запроса PKCS 7, пытается зарегистрировать его в центре сертификации и отслеживает состояние процесса регистрации. Функция Чеккенроллстатус определена в Енроллкоммон. cpp.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

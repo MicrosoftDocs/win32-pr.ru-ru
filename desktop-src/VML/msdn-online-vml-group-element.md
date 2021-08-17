@@ -4,21 +4,21 @@ description: Элемент группы VML
 ms.assetid: 536c2380-2583-4fe8-a92e-c539de209a70
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33c128fddb5f070c9dbb6bbbd92c172cd58f5bce
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5fd68bf24d217310bf52998779396b4e0b72aef02073c3ad6d2a0d6566d30fc9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117754601"
 ---
 # <a name="vml-group-element"></a>Элемент группы VML
 
-В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+в этом разделе описывается функция VML, которая является устаревшей по отношению к Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
 
 > [!Note]  
-> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
+> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). сведения, рекомендации и рекомендации относительно текущей версии Windows Internet explorer см. в [центре разработчиков internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Определяет группу, которую можно использовать для получения фигур.
 
@@ -36,7 +36,7 @@ ms.locfileid: "104413120"
 -   **строкевеигхт**
 -   **указал**
 -   **FillColor**
--   **спт**
+-   **spt**
 -   **рулеинитиатор**
 -   **рулепрокси**
 -   **коннектортипе**
@@ -52,7 +52,7 @@ ms.locfileid: "104413120"
 
 -   **Группа**
 -   **шапетипе**
--   **Фигурная**
+-   **Фигура**
 -   **Блокировка**
 
 **Пример**
@@ -92,6 +92,6 @@ ms.locfileid: "104413120"
 
 
 
- 
+ 
 
- 
+ 

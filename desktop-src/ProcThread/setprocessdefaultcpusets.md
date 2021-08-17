@@ -15,12 +15,12 @@ api_location:
 - Kernel32.dll
 - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 - KernelBase.dll
-ms.openlocfilehash: 7998b20815529b41c5e29204c0ef50fbc15e6288
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e085f769e5b086c1f68d721df6463afa7f51a0e5f9f292c7fce1dadd0356535
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117793181"
 ---
 # <a name="setprocessdefaultcpusets-function"></a>Функция Сетпроцессдефаулткпусетс
 
@@ -74,9 +74,9 @@ BOOL WINAPI SetProcessDefaultCpuSets(
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 10 \|\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2016 \|\]<br/>                                   |
-| Header<br/>                   | <dl> <dt>Процесссреадсапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 10 \[ приложения UWP для классических приложений \|\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2016 \[ приложения UWP для классических приложений \|\]<br/>                                   |
+| Заголовок<br/>                   | <dl> <dt>Процесссреадсапи. h</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Windows. h</dt> </dl>          |
 | DLL<br/>                      | <dl> <dt>Kernel32.dll</dt> </dl>       |
 

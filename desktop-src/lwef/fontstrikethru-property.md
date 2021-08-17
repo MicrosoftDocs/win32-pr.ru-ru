@@ -4,16 +4,16 @@ description: Фонтстрикесру, свойство
 ms.assetid: 2d87fded-2f3e-44cd-b2a5-5f9c76ca1cf5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c9e1ac8874a11832025dd225aa4df4afa91b4d8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 26832699bfdfd74e753e44ba88f89400560d8c93cf010ed6ab35878f31bc8495
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105719055"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118479262"
 ---
 # <a name="fontstrikethru-property"></a>Фонтстрикесру, свойство
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 <dl> <dt>
 
@@ -27,7 +27,7 @@ ms.locfileid: "105719055"
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Syntax**
 </dt> <dd>
 
-*Агент ***. Символы ("*** чарактерид * * *"). Всплывающее сообщение. Фонтстрикесру**
+*Агент ***. Символы ("**_чарактерид_*_"). Всплывающее сообщение. Фонтстрикесру_*
 
 
 
@@ -38,17 +38,17 @@ ms.locfileid: "105719055"
 
 
 
- 
+ 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значение по умолчанию для параметров шрифта всплывающей подсказки для символа задается в редакторе символов Microsoft Agent. Кроме того, пользователь может переопределить параметры шрифта для всех символов на странице свойств Microsoft Agent.
 
- 
+ 
 
- 
+ 
 
 
 

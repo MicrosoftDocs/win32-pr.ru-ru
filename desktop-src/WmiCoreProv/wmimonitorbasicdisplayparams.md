@@ -20,12 +20,12 @@ api_type:
 - DllExport
 api_location:
 - WmiProv.dll
-ms.openlocfilehash: e457757a3542bbfc8ded7536396458ef3e592714
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 958eb9134062d5380a2afda77eeaad3034a2da7430d2f6a3094916ceae211e4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117926786"
 ---
 # <a name="wmimonitorbasicdisplayparams-class"></a>Класс Вмимониторбасикдисплайпарамс
 
@@ -52,7 +52,7 @@ class WmiMonitorBasicDisplayParams : MSMonitorClass
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **вмимониторбасикдисплайпарамс** имеет следующие свойства.
 
@@ -163,7 +163,7 @@ class WmiMonitorBasicDisplayParams : MSMonitorClass
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **Максхоризонталимажесизе** и **максвертикалимажесизе** представляют собой максимальные размеры изображения, которые монитор может правильно отобразить для всего набора поддерживаемых сочетаний времени и формата. Максимальный размер измерения изображения определяется стандартом VESA (ВИАД) для видео в соответствии со значением, округленным до ближайшего сантиметра. Система главного компьютера может использовать эти данные для выбора размера изображения и пропорций, позволяющих правильно масштабировать текст. Имейте в виду, что если одно или оба этих поля равны нулю, система не делает никаких предположений о размере отображаемого размера. Например, размер отображения проекции может быть неопределенной.
 

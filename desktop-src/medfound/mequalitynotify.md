@@ -4,12 +4,12 @@ ms.assetid: 1b4b6a2d-411e-42d1-a44b-bb1928e1c063
 title: Событие Мекуалитинотифи (Мфобжектс. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 42d8f486bfebfd137ba341176af0fdad257776df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4dd019db55a0791ec5464cf67c7ee4d3e4a86f918efc2b4e87f4ddde2f3574ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104544386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118061879"
 ---
 # <a name="mequalitynotify-event"></a>Событие Мекуалитинотифи
 
@@ -27,7 +27,7 @@ ms.locfileid: "104544386"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это событие вызывается некоторыми компонентами конвейера. Сеанс мультимедиа перенаправляет событие диспетчеру качества, вызывая метод [**имфкуалитиманажер:: нотификуалитевент**](/windows/desktop/api/mfidl/nf-mfidl-imfqualitymanager-notifyqualityevent) .
 
@@ -54,9 +54,9 @@ ms.locfileid: "104544386"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Мфобжектс. h (включение Мфидл. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Мфобжектс. h (включение Мфидл. h)</dt> </dl> |
 
 
 

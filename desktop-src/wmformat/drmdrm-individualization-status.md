@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b395d3ad4271ccef9964f0d39c74a1e0ba158257
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 47e339fda95ccf7408ad2f218179cfb591da217b16fbbce9c9870eabd7437eaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117848230"
 ---
 # <a name="drm_individualization_status-enumeration-wmdrmsdkh"></a>Перечисление DRM_INDIVIDUALIZATION_STATUS (Вмдрмсдк. h)
 
@@ -96,7 +96,7 @@ typedef enum DRM_INDIVIDUALIZATION_STATUS {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это перечисление используется структурой [**\_ \_ состояния WM индивидуализируйте**](drmwm-individualize-status.md) .
 
@@ -106,7 +106,7 @@ typedef enum DRM_INDIVIDUALIZATION_STATUS {
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Вмдрмсдк. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмдрмсдк. h</dt> </dl> |
 
 
 

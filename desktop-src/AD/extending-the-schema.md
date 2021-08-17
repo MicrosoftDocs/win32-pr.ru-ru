@@ -8,12 +8,12 @@ keywords:
 - схема AD, расширение схемы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90c03d57468fb5275c55ce0d725a2decd7cfbf0f
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 3c50853e7b782f46b84212965c249ac90b685958c799c1b44cd366d5526e158d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "105654294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118189562"
 ---
 # <a name="extending-the-schema"></a>Расширение схемы
 
@@ -35,6 +35,6 @@ ms.locfileid: "105654294"
 
 Дополнительные сведения, включая справочные страницы по стандартным классам схемы, атрибутам и синтаксису атрибутов, см. в справочнике по Active Directory схеме в [справочнике по службам домен Active Directory](active-directory-domain-services-reference.md).
 
- 
+ 
 
- 
+ 

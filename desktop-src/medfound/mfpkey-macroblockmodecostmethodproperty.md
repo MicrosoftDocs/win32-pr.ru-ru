@@ -4,12 +4,12 @@ ms.assetid: 2ba9b943-0daa-40c1-87ea-2fa647fb7095
 title: Свойство MFPKEY_MACROBLOCKMODECOSTMETHOD (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 289219300a79c67565891c48cec848851c17bd7d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bfe61be79b07a09d1f55c09b1970c4becbf7aca9818c525420712952bac40db4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117873288"
 ---
 # <a name="mfpkey_macroblockmodecostmethod-property"></a>МФПКЭЙ \_ макроблоккмодекостмесод, свойство
 
@@ -27,7 +27,7 @@ VT \_ I4
 
 0
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для этого свойства можно задать одно из следующих значений.
 
@@ -42,14 +42,14 @@ VT \_ I4
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 

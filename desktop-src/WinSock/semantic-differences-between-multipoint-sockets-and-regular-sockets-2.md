@@ -4,12 +4,12 @@ description: Различия между двумя \_ корневыми сок
 ms.assetid: fbadfde8-44dc-41ac-bd93-1a22c76ca321
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04d95b2637a4f805cea5ee6f138cc6992080a238
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 06b30ff05c72fc43bf3f4e731242d9f22a2236e9f6fd275c382b57fb05d094cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105702090"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117740814"
 ---
 # <a name="semantic-differences-between-multipoint-sockets-and-regular-sockets"></a>Семантические различия между сокетами MultiPoint и стандартными сокетами
 

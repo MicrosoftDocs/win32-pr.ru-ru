@@ -4,12 +4,12 @@ ms.assetid: 1365996d-30a2-43f9-8e1b-7704d46a11c9
 title: сафефорскриптинг
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2907c4b021101ff936bdddf98a5cc1e32a01b991
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5b9a78bded284a687994075fdda1276122df2ab68716c4aaf759b4f5750aeb15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117990154"
 ---
 # <a name="safeforscripting"></a>сафефорскриптинг
 
@@ -17,11 +17,11 @@ ms.locfileid: "105662700"
 
 Перед настройкой этой политики следует принять во внимание, соответствует ли вышеуказанная строка пользователя подходящему уровню безопасности для пользователей. Если эта политика не задана, то когда сценарий, размещенный в браузере, пытается установить приложение, система предупреждает пользователя и попросит его принять или отказать в установке. Параметр Сафефорскриптинг подавляет это предупреждение и может разрешить установку приложений в системе без ведома пользователя. Эта политика может быть полезна для предприятия, использующего веб-средства для распространения программ.
 
-Дополнительные сведения см. в разделе [рекомендации по созданию безопасных установок](guidelines-for-authoring-secure-installations.md) и [цифровых подписей, установщик Windows](digital-signatures-and-windows-installer.md) и [скачивании установки из Интернета](downloading-an-installation-from-the-internet.md).
+дополнительные сведения см. в разделе [рекомендации по созданию безопасных установок](guidelines-for-authoring-secure-installations.md) и [цифровых подписей, установщик Windows](digital-signatures-and-windows-installer.md) и [скачивании установки из интернета](downloading-an-installation-from-the-internet.md).
 
 ## <a name="registry-key"></a>Ключ реестра
 
-**HKey \_ \_** \\ **Политики программного обеспечения** локального компьютера \\  \\  \\  \\ **установщик** Microsoft Windows
+**HKey \_ \_** \\ **политики программного обеспечения** локального компьютера \\  \\  \\  \\ **установщик** Microsoft Windows
 
 ## <a name="data-type"></a>Тип данных
 

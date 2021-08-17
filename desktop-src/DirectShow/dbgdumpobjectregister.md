@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 727d9c00ebbe3d48bb46797a1e27b9dd27c7b2c0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d82d7b419949210e19460880126a07ad52f63ae59f6055e5a2b968a2dd5c7beb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117821581"
 ---
 # <a name="dbgdumpobjectregister-function"></a>Функция Дбгдумпобжектрегистер
 
@@ -44,7 +44,7 @@ void DbgDumpObjectRegister(void);
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В отладочных сборках библиотека отладки поддерживает список активных объектов. Список включает все объекты, производные от [**кбасеобжект**](cbaseobject.md), которые были созданы текущим модулем и не были уничтожены. Конструктор **кбасеобжект** и методы деструктора обновляют список.
 
@@ -56,7 +56,7 @@ void DbgDumpObjectRegister(void);
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Вксдебуг. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>вксдебуг. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

@@ -1,15 +1,15 @@
 ---
 title: Схема и алгоритмы профиля модели цветового устройства WCS
-description: В этом разделе содержатся сведения о схеме профиля модели цветового устройства WCS и связанных с ней алгоритмах. В этом разделе содержатся следующие разделы Овервиевколор профиль модели устройства Арчитектуресе КДМП Счемавкс КДМП v 2.0 калибровка Аддитионсе КДМП Schema Елементсколордевицемоделпрофилеколордевицемоделнамеспацеверсионверсиондокументатионкртдевице elementLCDDevice elementProjectorDevice elementScannerDevice elementCameraDevice elementRGBPrinterDevice elementCMYKPrinterDevice elementRGBVirtualDevice Елементплугиндевицетипергбвиртуалмеасуременттипегамматипегаммаоффсетгаинтипегаммаоффсетгаинлинеаргаинтипетонереспонсекурвестипегамутбаундарисамплестипефлоатпаирлисткмикпринтермеасуременттипергбпринтермеасуременттипергбкаптуремеасуременттипеонебасединдексргбпрожектормеасуременттипедисплаймеасурементти peMeasurementConditionsTypeGeometryTypeRGBPrimariesGroupNonNegativeCMYKSampleTypeNonNegativeRGBSampleTypeNonNegativeCMYKTypeNonNegativeRGBTypeExtensionTypeNonNegativeXYZTypeXYZTypeThe CDMP базовое AlgorithmsCRT модель устройства BaselineLCD устройство модель BaselineRGB принтер модель BaselineRGB виртуальное устройство модель BaselineCMYK Printer устройство модель BaselineRGB проектор устройство модель BaselineICC устройство BaselineRelated разделы
+description: В этом разделе содержатся сведения о схеме профиля модели цветового устройства WCS и связанных с ней алгоритмах. В этом разделе содержатся следующие разделы Овервиевколор профиль модели устройства Арчитектуресе КДМП Счемавкс КДМП v 2.0 калибровка Аддитионсе КДМП Schema Елементсколордевицемоделпрофилеколордевицемоделнамеспацеверсионверсиондокументатионкртдевице elementLCDDevice elementProjectorDevice elementScannerDevice elementCameraDevice elementRGBPrinterDevice elementCMYKPrinterDevice elementRGBVirtualDevice elementPlugInDeviceTypeRGBVirtualMeasurementTypeGammaTypeGammaOffsetGainTypeGammaOffsetGainLinearGainTypeToneResponseCurvesTypeGamutBoundarySamplesTypeFloatPairListCMYKPrinterMeasurementTypeRGBPrinterMeasurementTypeRGBCaptureMeasurementTypeOneBasedIndexRGBProjectorMeasurementTypeDisplayMeasurementTypeMeasurementConditionsTypeGeometryTypeRGBPrimariesGroupNonNegativeCMYKSampleTypeNonNegativeRGBSampleTypeNonNegativeCMYKTypeNonNegativeRGBTypeExtensionTypeNonNegativeXYZTypeXYZTypeThe  Модель устройства с КДМП базовым Алгорисмскрт модели Баселинелкд модель устройства Баселинергб принтер устройство модель Баселинергб виртуальное устройство модель баселинекмик принтер устройство модель баселинергб проектор устройство модель баселинеикк устройство модель BaselineRelated разделы
 ms.assetid: bbb3b50d-75fc-476d-a011-af7dcc2ac520
 keywords:
-- Цветовая система Windows (WCS), профиль модели цветового устройства (КДМП)
-- WCS (цветовая система Windows), профиль модели цветового устройства (КДМП)
+- Windows Система цветовой системы (WCS), профиль модели цветового устройства (КДМП)
+- WCS (Windows цветовая система), профиль модели цветового устройства (кдмп)
 - Управление цветом изображений, профиль модели цветового устройства (КДМП)
 - Управление цветом, профиль модели цветового устройства (КДМП)
 - цвета, профиль модели цветового устройства (КДМП)
-- Цветовая система Windows (WCS), профили
-- WCS (цветовая система Windows), профили
+- Windows Система цветовой системы (WCS), профили
+- WCS (Windows цветовая система), профили
 - Управление цветом изображений, профили
 - Управление цветом, профили
 - цвета, профили
@@ -21,18 +21,18 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8b671bf97625b00c99060e65be4d39c44e5b35f
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: 5210da85cd320a80e6b29a59e3cb5ff37c86fd174934832404e4b52cf53bd110
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104565929"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118038070"
 ---
 # <a name="wcs-color-device-model-profile-schema-and-algorithms"></a>Схема и алгоритмы профиля модели цветового устройства WCS
 
 В этом разделе содержатся сведения о схеме профиля модели цветового устройства WCS и связанных с ней алгоритмах.
 
-В этом разделе содержатся следующие подразделы.
+Этот раздел состоит из следующих подразделов.
 
 -   [Обзор](#overview)
 -   [Архитектура профиля модели цветового устройства](#color-device-model-profile-architecture)
@@ -42,7 +42,7 @@ ms.locfileid: "104565929"
     -   [колордевицемоделпрофиле](#colordevicemodelprofile)
     -   [колордевицемодел](#colordevicemodelprofile)
     -   [намеспацеверсион](#namespaceversion)
-    -   [Version](#namespaceversion)
+    -   [Версия](#namespaceversion)
     -   [Документация](#documentation)
     -   [Кртдевице, элемент](#crtdevice-element)
     -   [Лкддевице, элемент](#lcddevice-element)
@@ -84,7 +84,7 @@ ms.locfileid: "104565929"
     -   [Базовая модель устройства принтера CMYK](#cmyk-printer-device-model-baseline)
     -   [Базовый план модели устройства с проектором RGB](#rgb-projector-device-model-baseline)
     -   [Базовый план модели устройства ICC](#icc-device-model-baseline)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="overview"></a>Обзор
 
@@ -484,7 +484,7 @@ ms.locfileid: "104565929"
 
 ## <a name="wcs-cdmp-v20-calibration-addition"></a>Добавление калибровки WCS КДМП v 2.0
 
-Элемент **колордевицемодел** схемы КДМП был обновлен в Windows 7 для включения нового элемента калибровки. Ниже показано изменение схемы КДМП.
+элемент **колордевицемодел** схемы кдмп был обновлен в Windows 7 для включения нового элемента калибровки. Ниже показано изменение схемы КДМП.
 
 
 ```C++
@@ -557,7 +557,7 @@ targetNamespace = " http://schemas.microsoft.com/windows/2005/02/color/ColorDevi
 
 ### <a name="version"></a>Версия
 
-Version = "1,0" в Windows Vista.
+Version = "1,0" с Windows Vista.
 
 **Условия проверки:** Любое значение версии &gt; 0,1 или &lt; = 2,0 допустимо для поддержки некритических изменений в формате.
 
@@ -565,7 +565,7 @@ Version = "1,0" в Windows Vista.
 
 Схема профиля модели устройства.
 
-(C) корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+(C) корпорация Майкрософт (Microsoft Corporation). All rights reserved.
 
 ### <a name="crtdevice-element"></a>Кртдевице, элемент
 
@@ -1051,7 +1051,7 @@ Blue: B = 15, 30, 45, 60, 75, 90, 105, 120, 135, 150, 165, 180, 195, 210, 225, 2
 
 ![Схема, показывающая последовательность алгоритма.](images/cdmp-lcd-dmp-figure4.png)
 
-**Рисунок 4** . Схема потока для определения набора точек выборки, используемых в экстраполяции для входного значения RGB
+**рис. 4** . Flow диаграмма для определения набора точек выборки, используемых в экстраполяции для входного значения RGB
 
 При условии, что предыдущий процесс *выдает непустой набор точек* (*R <sub>i</sub>*,*G <sub>i</sub>*,*b <sub>i</sub>* ) и соответствующий (*L <sub>i</sub>*,*а <sub>я</sub>*,*b <sub>i</sub>* ), то для каждой такой точки назначается *вес,<sub></sub>* присвоенный
 
@@ -1236,7 +1236,7 @@ Dir (r) =-1, если r &gt; 0,5; + 1 в противном случае. Ана
 
 **Рис. 10** . Совместимость рабочих процессов ICC
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

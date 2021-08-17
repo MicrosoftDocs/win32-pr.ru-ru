@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Windows.Foundation.idl
-ms.openlocfilehash: ec26401aeeed61445b0f244880864366fd5c6118
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aff219d5e6847c64034eed1b057e300ea601eedaa8aa7a131f1467aeacc42422
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118323167"
 ---
 # <a name="iasyncactionput_completed-method"></a>IAsyncAction: метод:p UT \_ завершен
 
@@ -42,7 +42,7 @@ HRESULT put_Completed(
 *обработчик событий* \[ заполняет\]
 </dt> <dd>
 
-Тип: **[**асинкактионкомплетедхандлер**](asyncactioncompletedhandler.md) \** _
+Тип: **[ **асинкактионкомплетедхандлер**](asyncactioncompletedhandler.md)\***
 
 Метод, обрабатывающий уведомление о завершении.
 
@@ -50,7 +50,7 @@ HRESULT put_Completed(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Тип: _ *HRESULT**
+Тип: **HRESULT**
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 

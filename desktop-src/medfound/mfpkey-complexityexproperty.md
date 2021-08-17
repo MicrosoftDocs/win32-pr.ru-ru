@@ -4,12 +4,12 @@ ms.assetid: abfc84d5-954f-4524-b3cb-5c5b9cfc7fa0
 title: Свойство MFPKEY_COMPLEXITYEX (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 20579bcf7a06dc11f47cbef6a53629f3a36b48dc
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e658e438909677f326372caa9e4da533e350b7133cc647b8f56562d09ad949e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108087612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117873541"
 ---
 # <a name="mfpkey_complexityex-property"></a>МФПКЭЙ \_ комплекситекс, свойство
 
@@ -31,8 +31,8 @@ VT \_ I4
 
 | Версия кодировщика                 | Значение по умолчанию |
 |---------------------------------|---------------|
-| Кодировщик Windows Media Video 9   | 3             |
-| Кодировщик Windows Media Video 7/8 | 1             |
+| Windows Кодировщик Media Video 9   | 3             |
+| Windows Кодировщик Media Video 7/8 | 1             |
 
 
 
@@ -46,8 +46,8 @@ VT \_ I4
 
 | Версия кодировщика                 | Возможные значения  |
 |---------------------------------|------------------|
-| Кодировщик Windows Media Video 9   | 0, 1, 2, 3, 4, 5 |
-| Кодировщик Windows Media Video 7/8 | 0, 1             |
+| Windows Кодировщик Media Video 9   | 0, 1, 2, 3, 4, 5 |
+| Windows Кодировщик Media Video 7/8 | 0, 1             |
 
 
 
@@ -59,19 +59,19 @@ VT \_ I4
 
 Любое значение, присвоенное этому свойству, будет проигнорировано, если свойство [мфпкэй \_ компрессионоптимизатионтипе](mfpkey-compressionoptimizationtypeproperty.md) имеет значение 1. В этом случае для МФПКЭЙ \_ комплекситекс автоматически устанавливается значение 3.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

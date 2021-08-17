@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ntdll.dll
 - ntoskrnl.exe
-ms.openlocfilehash: 30207c8d3d54c54f77194b542e10e9fee94e055a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7972d3d2e6b98f56829680dd77c4c0a97b51679ffb2d9cfef928d4a279f6b7f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117792918"
 ---
 # <a name="zwqueryinformationprocess-function"></a>Функция Звкуеринформатионпроцесс
 
@@ -82,7 +82,7 @@ NTSTATUS WINAPI ZwQueryInformationProcess(
 </tr>
 <tr class="odd">
 <td><span id="ProcessWow64Information"></span><span id="processwow64information"></span><span id="PROCESSWOW64INFORMATION"></span><dl> <dt><strong>ProcessWow64Information</strong></dt> <dt>26</dt> </dl></td>
-<td>Определяет, выполняется ли процесс в среде WOW64 (WOW64 — эмулятор x86, позволяющий приложениям на основе Win32 работать в 64-разрядной версии Windows).<br/> Для получения этих сведений лучше использовать функцию <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process"><strong>IsWow64Process</strong></a> .<br/></td>
+<td>Определяет, выполняется ли процесс в среде WOW64 (WOW64 — эмулятор x86, позволяющий приложениям на основе Win32 работать на 64-разрядной Windows).<br/> Для получения этих сведений лучше использовать функцию <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process"><strong>IsWow64Process</strong></a> .<br/></td>
 </tr>
 <tr class="even">
 <td><span id="ProcessImageFileName"></span><span id="processimagefilename"></span><span id="PROCESSIMAGEFILENAME"></span><dl> <dt><strong>Процессимажефиленаме</strong></dt> <dt>27</dt> </dl></td>
@@ -93,7 +93,7 @@ NTSTATUS WINAPI ZwQueryInformationProcess(
 <td>Извлекает значение типа <strong>ulong</strong> , указывающее, считается ли процесс критическим.<br/>
 <blockquote>
 [!Note]<br />
-Это значение можно использовать в Windows XP с пакетом обновления 3 (SP3). Начиная с Windows 8.1 вместо него следует использовать <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-isprocesscritical"><strong>испроцесскритикал</strong></a> .
+это значение можно использовать начиная с версии Windows XP с пакетом обновления 3 (SP3). начиная с Windows 8.1 вместо него следует использовать <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-isprocesscritical"><strong>испроцесскритикал</strong></a> .
 </blockquote>
 <br/></td>
 </tr><tr class="even">
@@ -224,9 +224,9 @@ typedef enum _PS_PROTECTED_SIGNER {
 
 Формы и коды ошибок NTSTATUS перечислены в файле заголовка NTSTATUS. h, доступном в наборе DDK. они описаны в документации по DDK в разделе Kernel-Mode архитектура драйвера/руководство по проектированию/средства программирования драйверов/регистрация ошибок.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Функция **звкуеринформатионпроцесс** и возвращаемые ею структуры являются внутренними по отношению к операционной системе и могут изменяться от одного выпуска Windows к другому. Чтобы обеспечить совместимость приложения, лучше использовать общие функции, упомянутые в описании параметра *процессинформатионкласс* .
+функция **звкуеринформатионпроцесс** и возвращаемые ею структуры являются внутренними по отношению к операционной системе и могут изменяться от одного выпуска Windows к другому. Чтобы обеспечить совместимость приложения, лучше использовать общие функции, упомянутые в описании параметра *процессинформатионкласс* .
 
 Если вы используете **звкуеринформатионпроцесс**, то получите доступ к функции через [динамическую компоновку во время выполнения](../dlls/using-run-time-dynamic-linking.md). Это дает коду возможность корректно реагировать, если функция была изменена или удалена из операционной системы. Однако изменения сигнатуры могут быть недоступны для обнаружения.
 
@@ -238,8 +238,8 @@ typedef enum _PS_PROTECTED_SIGNER {
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                 |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Ntdll.dll</dt> </dl> |
 
 

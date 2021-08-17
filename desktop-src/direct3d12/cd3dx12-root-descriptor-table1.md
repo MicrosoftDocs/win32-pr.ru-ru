@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e3538e5e1e199fdb6f8c7473af4996ccd7b7f1f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 4570629b810fb7a088c7cfd88e3626412d5580beb1891a1a30daf9ffabede5d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713974"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117733996"
 ---
 # <a name="cd3dx12_root_descriptor_table1-structure"></a>\_ \_ Структура Table1 корневого ДЕСКРИПТОРа CD3DX12 \_
 
@@ -100,7 +100,7 @@ const [**D3D12 \_ дескриптор \_ высокое**](/windows/desktop/api
 
 | Требование | Значение |
 |-------------------|-------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx12. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx12. h</dt> </dl> |
 
 
 

@@ -14,12 +14,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 3db7e59006e964b7335a4a246fb63d7ca7b80577
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f8cc80f740e26ac2d067705c9aac9aee387b91e28cb057366587375c874ae0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664478"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117768238"
 ---
 # <a name="cryptui_selectcertificate_struct-structure"></a>\_ \_ Структура структуры динамической компоновки Cryptui селектцертификате
 
@@ -203,8 +203,8 @@ typedef struct _CRYPTUI_SELECTCERTIFICATE_STRUCT {
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                            |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                            |
 | Имя в кодировке Юникод и ANSI<br/>   | **Динамической компоновки Cryptui \_ СЕЛЕКТЦЕРТИФИКАТЕ \_ структв** (Юникод) и **динамической компоновки Cryptui \_ селектцертификате \_ struct** a (ANSI)<br/> |
 
 

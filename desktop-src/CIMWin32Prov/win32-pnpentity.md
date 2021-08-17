@@ -42,12 +42,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 62eaa59944c9b71a1b8b3520969122ab23350bba
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f1af23a97b34bd646b608feec2898a57d8f0119bfdc5abede867d9788e1d9458
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118417142"
 ---
 # <a name="win32_pnpentity-class"></a>\_Класс Win32 пнпентити
 
@@ -324,7 +324,7 @@ class Win32_PnPEntity : CIM_LogicalDevice
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -367,7 +367,7 @@ class Win32_PnPEntity : CIM_LogicalDevice
 Тип доступа: только для чтения
 </dt> </dl>
 
-Определяемая поставщиком строка идентификации, используемая программой установки для сопоставления устройства с INF-файлом. У устройства может быть список совместимых кодов, связанных с ним. Совместимые идентификаторы должны быть перечислены в порядке убывания пригодности. Если программе установки не удается выполнить поиск INF-файла, соответствующего одному из идентификаторов оборудования устройства, для поиска INF-файла используются совместимые идентификаторы. Совместимый идентификатор имеет тот же формат, что и **хардвареид**. Дополнительные сведения см. в разделе [Windows Driver Kit](https://developer.microsoft.com/windows/hardware/download-kits-windows-hardware-development).
+Определяемая поставщиком строка идентификации, используемая программой установки для сопоставления устройства с INF-файлом. У устройства может быть список совместимых кодов, связанных с ним. Совместимые идентификаторы должны быть перечислены в порядке убывания пригодности. Если программе установки не удается выполнить поиск INF-файла, соответствующего одному из идентификаторов оборудования устройства, для поиска INF-файла используются совместимые идентификаторы. Совместимый идентификатор имеет тот же формат, что и **хардвареид**. дополнительные сведения см. в разделе [Windows Driver Kit](https://developer.microsoft.com/windows/hardware/download-kits-windows-hardware-development).
 
 </dd> <dt>
 
@@ -442,12 +442,12 @@ class Win32_PnPEntity : CIM_LogicalDevice
 
 <span id="The_driver_for_this_device_needs_a_resource_that_Windows_cannot_manage."></span><span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>
 
-<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**Драйверу для этого устройства требуется ресурс, который Windows не может управлять.** (5)
+<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**драйверу для этого устройства нужен ресурс, который Windows не может управлять.** (5)
 
 
 </dt> <dd>
 
-Драйверу для устройства требуется ресурс, который Windows не может управлять.
+драйверу для устройства требуется ресурс, который Windows не может управляться.
 
 </dd> <dt>
 
@@ -654,23 +654,23 @@ Windows не удается найти все ресурсы, используе
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Это устройство все еще настраивается Windows.** (25)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows все еще настраивает это устройство.** (25)
 
 
 </dt> <dd>
 
-Устройство все еще настраивается.
+Windows все еще настраивает устройство.
 
 </dd> <dt>
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Это устройство все еще настраивается Windows.** (26)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows все еще настраивает это устройство.** (26)
 
 
 </dt> <dd>
 
-Устройство все еще настраивается.
+Windows все еще настраивает устройство.
 
 </dd> <dt>
 
@@ -720,7 +720,7 @@ Windows не удается найти все ресурсы, используе
 
 <span id="This_device_is_not_working_properly_because_Windows_cannot_load_the_drivers_required_for_this_device."></span><span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>
 
-<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**Это устройство работает неправильно, так как Windows не может загрузить драйверы, необходимые для этого устройства.** 1-31
+<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**это устройство работает неправильно, так как Windows не может загрузить драйверы, необходимые для этого устройства.** 1-31
 
 
 </dt> <dd>
@@ -862,7 +862,7 @@ Windows не удается найти все ресурсы, используе
 
 <dl> <dd>корневой \\ \* PNPOF08</dd> <dd>PC \\ типов ven \_ 1000&DEV \_ 001&СУБСИС \_ 00000000&версия \_ 02</dd> </dl>
 
-Дополнительные сведения см. в подразделе [Windows Driver Kit](https://developer.microsoft.com/windows/hardware/download-kits-windows-hardware-development).
+дополнительные сведения см. в разделе [Windows Driver Kit](https://developer.microsoft.com/windows/hardware/download-kits-windows-hardware-development).
 
 </dd> <dt>
 
@@ -917,7 +917,7 @@ Windows не удается найти все ресурсы, используе
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -954,7 +954,7 @@ Windows не удается найти все ресурсы, используе
 
 Имя типа этого самонастраивающийся устройства.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** Это свойство отсутствует в MOF-файле.
+**Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** Это свойство отсутствует в MOF-файле.
 
 </dd> <dt>
 
@@ -970,7 +970,7 @@ Windows не удается найти все ресурсы, используе
 Квалификаторы: [**схема**](../wmisdk/standard-qualifiers.md) ("Win32")
 </dt> </dl>
 
-Идентификатор устройства Windows самонастраивающийся логического устройства.
+Windows Самонастраивающийся идентификатор устройства логического устройства.
 
 Это свойство наследуется [**от \_ CIM**](cim-logicaldevice.md)-унаследованной модели.
 
@@ -1098,7 +1098,7 @@ Windows не удается найти все ресурсы, используе
 
 </dd> <dt>
 
-**Присутствует**
+**Настоящее**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **логический**
@@ -1112,7 +1112,7 @@ Windows не удается найти все ресурсы, используе
 
 Является ли данное устройство самонастраивающийся в системе в данный момент.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** Это свойство не поддерживается.
+**Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** Это свойство не поддерживается.
 
 </dd> <dt>
 
@@ -1331,7 +1331,7 @@ Windows не удается найти все ресурсы, используе
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ пнпентити** является производным от [**CIM \_**](cim-logicaldevice.md)-класса.
 

@@ -3,9 +3,9 @@ title: Ивмпплайлист getItemInfo, метод
 description: Метод getItemInfo возвращает значение атрибута списка воспроизведения, указанного по имени.
 ms.assetid: 62e882d6-66bb-450c-9700-b99d30dd42fa
 keywords:
-- getItemInfo метод Windows Media Player
-- getItemInfo метод проигрывателя Windows Media Player, интерфейс Ивмпплайлист
-- Интерфейс Ивмпплайлист Windows Media Player, метод getItemInfo
+- проигрыватель Windows Media метода getItemInfo
+- проигрыватель Windows Media метода getItemInfo, интерфейс ивмпплайлист
+- проигрыватель Windows Media интерфейса ивмпплайлист, метод getItemInfo
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ced433b13f5af2d1df8c12dba023b7fbb55c5f7d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 54e3ad24f12333dbc9db5baf977300d1755a9cecc60739504da05478d5acc48e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117745756"
 ---
 # <a name="iwmpplaylistgetiteminfo-method"></a>Метод Ивмпплайлист:: getItemInfo
 
@@ -64,7 +64,7 @@ Implements IWMPPlaylist.getItemInfo
 
 **Строка System. String** , которая является значением атрибута списка воспроизведения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Перед использованием этого метода необходимо иметь доступ на чтение к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
@@ -76,7 +76,7 @@ Implements IWMPPlaylist.getItemInfo
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

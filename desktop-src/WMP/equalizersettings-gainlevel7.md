@@ -3,7 +3,7 @@ title: ЕКУАЛИЗЕРСЕТТИНГС. gainLevel7
 description: Атрибут gainLevel7 указывает или получает уровень усиления диапазона 7.
 ms.assetid: f39e1475-b0c8-4204-b2d8-943bc8b4f830
 keywords:
-- Проигрыватель Windows Media ЕКУАЛИЗЕРСЕТТИНГС. gainLevel7
+- екуализерсеттингс. gainLevel7 проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e5ef5177decd983ae8365090caac5c5bbd510b0c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1cbb18676e97bc7b850dca9683f13d8e6983a138a3b674f03392645d81ab3d8b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694784"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117935131"
 ---
 # <a name="equalizersettingsgainlevel7"></a>ЕКУАЛИЗЕРСЕТТИНГС. gainLevel7
 
@@ -31,7 +31,7 @@ ms.locfileid: "105694784"
 
 Этот атрибут является **числом** для чтения и записи (**float**) со значением, которое обычно находится в диапазоне от 20 до + 20. Он имеет нулевое значение по умолчанию.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут корректирует часть спектра частот аудио в центре в 2kHz.
 
@@ -43,7 +43,7 @@ ms.locfileid: "105694784"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

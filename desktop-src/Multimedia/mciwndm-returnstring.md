@@ -3,7 +3,7 @@ title: Сообщение MCIWNDM_RETURNSTRING (VFW. h)
 description: Сообщение МЦИВНДМ \_ ретурнстринг извлекает ответ на последнюю командную строку MCI, отправленную на устройство MCI.
 ms.assetid: 36a5222c-a63c-4b8c-ad0c-a00477e95b96
 keywords:
-- MCIWNDM_RETURNSTRING сообщения Windows мультимедиа
+- сообщение MCIWNDM_RETURNSTRING Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b99307bd7d61a70db594d0a696cceccd6d246a3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d2ea9624c70245c67f0f6a78af68bf291ae3ce60ba65ae2cd273008bbc914ec2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118137661"
 ---
 # <a name="mciwndm_returnstring-message"></a>\_Сообщение мЦивндм ретурнстринг
 
@@ -56,7 +56,7 @@ lParam = (LPARAM) (LPVOID) lp;
 
 Возвращает целое число, соответствующее строке MCI.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если строка, завершающаяся нулем, длиннее, чем буфер, строка усекается.
 

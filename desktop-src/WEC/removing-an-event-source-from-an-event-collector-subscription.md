@@ -5,12 +5,12 @@ ms.assetid: 6c9e0dbf-59a2-4db9-8fb8-0dbfda5cf38b
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 303e0a708c2b52225af83475674e5f60d1a8418d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 46e155e4d8467722e9ac5eae04189ed3ba8333f65ec162ffb50f6b9268cf8a92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888683"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117751045"
 ---
 # <a name="removing-an-event-source-from-a-collector-initiated-subscription"></a>Удаление источника событий из подписки, инициированной сборщиком
 
@@ -26,17 +26,17 @@ ms.locfileid: "103888683"
 >
 > Этот пример можно использовать для удаления источника событий из подписки, инициированной сборщиком, или можно ввести в командной строке следующую команду:
 >
-> **wecutil SS** *SubscriptionName*  * */ЕСА: * * * евентсаурцеаддресс* **/RES**
+> **wecutil SS** *SubscriptionName* **/ЕСА:**_евентсаурцеаддресс_ **/RES**
 >
 > *Евентсаурцеаддресс* может иметь значение localhost для локального компьютера или полное доменное имя удаленного компьютера.
 
- 
+ 
 
 Этот пример проходит ряд действий по удалению источника событий из подписки, инициированной сборщиком.
 
 **Удаление источника событий из подписки, инициированной сборщиком**
 
-1.  Откройте существующую подписку, указав имя подписки и права доступа в качестве параметров функции [**екопенсубскриптион**](/windows/desktop/api/Evcoll/nf-evcoll-ecopensubscription) . Дополнительные сведения о правах доступа см. в разделе [**константы сборщика событий Windows**](windows-event-collector-constants.md).
+1.  Откройте существующую подписку, указав имя подписки и права доступа в качестве параметров функции [**екопенсубскриптион**](/windows/desktop/api/Evcoll/nf-evcoll-ecopensubscription) . дополнительные сведения о правах доступа см. в разделе [**Windows константы сборщика событий**](windows-event-collector-constants.md).
 2.  Получите массив источников событий подписки, вызвав функцию [**екжетсубскриптионпроперти**](/windows/desktop/api/Evcoll/nf-evcoll-ecgetsubscriptionproperty) . Дополнительные сведения о свойствах подписки, которые можно получить, см. в разделе Перечисление [**\_ \_ \_ идентификаторов свойств подписки EC**](/windows/desktop/api/Evcoll/ne-evcoll-ec_subscription_property_id) .
 3.  Найдите указанный источник события в массиве источников событий подписки, вызвав функцию [**екжетобжектаррайпроперти**](/windows/desktop/api/Evcoll/nf-evcoll-ecgetobjectarrayproperty) . Значением свойства **ексубскриптионевентсаурцеаддресс** будет либо localhost для локального компьютера, либо полное доменное имя удаленного компьютера. Дополнительные сведения о свойствах источника событий, которые можно получить, см. в разделе Перечисление **\_ \_ \_ идентификаторов свойств подписки EC** .
 4.  Удалите источник события из подписки, вызвав функцию [**екремовеобжектаррайелемент**](/windows/desktop/api/Evcoll/nf-evcoll-ecremoveobjectarrayelement) .
@@ -315,7 +315,7 @@ DWORD GetEventSourceProperty(EC_OBJECT_ARRAY_PROPERTY_HANDLE hArray,
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -325,12 +325,12 @@ DWORD GetEventSourceProperty(EC_OBJECT_ARRAY_PROPERTY_HANDLE hArray,
 [Список подписок сборщика событий](listing-event-collector-subscriptions.md)
 </dt> <dt>
 
-[Справочник по сборщикам событий Windows](windows-event-collector-reference.md)
+[Windows Справочник по сборщикам событий](windows-event-collector-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

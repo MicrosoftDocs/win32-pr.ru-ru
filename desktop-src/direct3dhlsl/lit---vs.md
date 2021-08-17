@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 99c25c377ff6064a704d56b9e7b31d41b37117e5
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 3e5b5ff3451424251d778886af3841c673ce5a85d91022db9144c62574c16640
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104983857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118089327"
 ---
 # <a name="lit---vs"></a>освещенность — VS
 
@@ -29,14 +29,14 @@ ms.locfileid: "104983857"
 
 
 
- 
+ 
 
-где
+where
 
 -   DST — это регистр назначения.
 -   src является исходным регистром.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -46,7 +46,7 @@ ms.locfileid: "104983857"
 
 
 
- 
+ 
 
 Предполагается, что исходный вектор содержит значения, показанные в следующем псевдокоде.
 
@@ -93,16 +93,16 @@ if (src.x > 0)
 
 Ошибка должна соответствовать сочетанию [логп-VS](logp---vs.md) и [exp-VS](exp---vs.md) или не более приблизительно одного значащих бит для 8-разрядного компонента цвета.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера вершин](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

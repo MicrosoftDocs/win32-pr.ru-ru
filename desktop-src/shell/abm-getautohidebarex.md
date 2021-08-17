@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 2ef95739a1031efb199e6acd99686e0858a9630e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9aecbc81e313c3d971b310cc35bd399b93cc18f2ef2a4f02a00d51a16745eb61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104987518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118225243"
 ---
 # <a name="abm_getautohidebarex-message"></a>\_Сообщение АБМ жетаутохидебарекс
 
@@ -52,7 +52,7 @@ hwndAutoHide = (HWND) SHAppBarMessage(ABM_GETAUTOHIDEBAR, pabd);
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Шеллапи. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Шеллапи. h</dt> </dl> |
 
 
 

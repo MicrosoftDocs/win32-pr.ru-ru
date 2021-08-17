@@ -1,10 +1,10 @@
-- name: Пакет SDK для проигрывателя Windows Media
+- name: проигрыватель Windows Media Tool
   href: windows-media-player-sdk.md
   items:
-    - name: Сведения о пакете SDK проигрывателя Windows Media
+    - name: сведения о пакете SDK для проигрыватель Windows Media
       href: about-the-windows-media-player-sdk.md
       items:
-        - name: О версиях пакета SDK для проигрывателя Windows Media
+        - name: сведения о версиях пакета SDK проигрыватель Windows Media
           href: about-windows-media-player-sdk-versions.md
         - name: Организация документации
           href: organization-of-the-documentation.md
@@ -16,7 +16,7 @@
           href: samples.md
         - name: Дополнительные сведения см. в разделе
           href: for-more-information.md
-    - name: Объектная модель проигрывателя Windows Media
+    - name: проигрыватель Windows Media Объектная модель
       href: windows-media-player-object-model.md
       items:
         - name: Сведения об объектной модели проигрывателя
@@ -51,7 +51,7 @@
                   href: about-the-playlist--playlistcollection--and-playlistarray-objects.md
                 - name: Сведения об объекте Query
                   href: about-the-query-object.md
-                - name: Сведения об объекте Settings
+                - name: об объекте Параметры
                   href: about-the-settings-object.md
                 - name: Сведения об объекте StringCollection
                   href: about-the-stringcollection-object.md
@@ -73,16 +73,16 @@
                   href: accessing-the-library-programmatically.md
                 - name: Сведения о службах библиотек
                   href: about-library-services.md
-            - name: Использование HTML с проигрывателем Windows Media
+            - name: использование HTML с проигрыватель Windows Media
               href: using-html-with-windows-media-player.md
-            - name: Внедрение элемента управления проигрывателя Windows Media
+            - name: внедрение элемента управления проигрыватель Windows Media
               href: embedding-the-windows-media-player-control.md
               items:
-                - name: Внедрение элемента управления проигрывателя Windows Media в веб-страницу
+                - name: внедрение элемента управления проигрыватель Windows Media в веб-страницу
                   href: embedding-the-windows-media-player-control-in-a-web-page.md
-                - name: Внедрение элемента управления проигрывателя Windows Media в документ Office
+                - name: внедрение элемента управления проигрыватель Windows Media в документ Office
                   href: embedding-the-windows-media-player-control-in-an-office-document.md
-                - name: Внедрение элемента управления проигрывателя Windows Media в пользовательскую программу
+                - name: внедрение элемента управления проигрыватель Windows Media в пользовательскую программу
                   href: embedding-the-windows-media-player-control-in-a-custom-program.md
             - name: Сведения о синхронизации устройств
               href: about-device-synchronization.md
@@ -104,16 +104,16 @@
         - name: Управление проигрывателем
           href: player-control-guide.md
           items:
-            - name: Использование элемента управления проигрывателя Windows Media на веб-странице
+            - name: использование элемента управления проигрыватель Windows Media на веб-странице
               href: using-the-windows-media-player-control-in-a-web-page.md
               items:
-                - name: Скрытие элемента управления проигрывателя Windows Media
+                - name: скрытие элемента управления проигрыватель Windows Media
                   href: hiding-the-windows-media-player-control.md
                 - name: Элементы PARAM в элементе OBJECT
                   href: param-elements-in-an-object-element.md
                 - name: Простой пример создания сценариев на веб-странице
                   href: simple-example-of-scripting-in-a-web-page.md
-                - name: Использование элемента управления проигрывателя Windows Media с браузером Firefox
+                - name: использование элемента управления проигрыватель Windows Media с браузером Firefox
                   href: using-the-windows-media-player-control-with-firefox.md
                   items:
                     - name: 'Внедрение элемента управления игрока в веб-страницу, отображаемую в браузере Firefox'
@@ -128,35 +128,35 @@
                       href: using-the-invokeurls-property-in-a-web-page-displayed-by-firefox.md
                 - name: "Использование проигрывателя Windows Media с Netscape\_7.1"
                   href: using-windows-media-player-with-netscape-7-1.md
-            - name: Использование элемента управления проигрывателя Windows Media с Microsoft Office
+            - name: использование элемента управления проигрыватель Windows Media с Microsoft Office
               href: using-the-windows-media-player-control-with-microsoft-office.md
-            - name: Использование элемента управления проигрывателя Windows Media с Visual Basic
+            - name: использование элемента управления проигрыватель Windows Media с Visual Basic
               href: using-the-windows-media-player-control-with-visual-basic.md
-            - name: Использование элемента управления проигрывателя Windows Media в программе на языке C++
+            - name: использование элемента управления проигрыватель Windows Media в программе на языке C++
               href: using-the-windows-media-player-control-in-a-c---program.md
               items:
-                - name: Использование элемента управления проигрывателя Windows Media в консольном приложении
+                - name: использование элемента управления проигрыватель Windows Media в консольном приложении
                   href: using-the-windows-media-player-control-in-a-console-application.md
-                - name: Размещение элемента управления проигрывателя Windows Media в приложении Windows
+                - name: размещение элемента управления проигрыватель Windows Media в приложении Windows
                   href: hosting-the-windows-media-player-control-in-a-windows-application.md
                 - name: Реализация удаленного управления проигрывателем Windows Media
                   href: remoting-the-windows-media-player-control.md
                 - name: Обработка событий в C++
                   href: handling-events-in-c.md
-                - name: Использование обложек с элементом управления проигрывателя Windows Media
+                - name: использование обложек с элементом управления проигрыватель Windows Media
                   href: using-skins-with-the-windows-media-player-control.md
-            - name: Использование элемента управления проигрывателя Windows Media в платформа .NET Framework решении
+            - name: использование элемента управления проигрыватель Windows Media в решении платформа .NET Framework
               href: using-the-windows-media-player-control-in-a--net-framework-solution.md
               items:
-                - name: Использование элемента управления проигрывателя Windows Media с Microsoft Visual Studio
+                - name: использование элемента управления проигрыватель Windows Media с Microsoft Visual Studio
                   href: using-the-windows-media-player-control-with-microsoft-visual-studio.md
-                - name: Внедрение элемента управления проигрывателя Windows Media в решение C#
+                - name: внедрение элемента управления проигрыватель Windows Media в решение C#
                   href: embedding-the-windows-media-player-control-in-a-c--solution.md
-                - name: Внедрение элемента управления проигрывателя Windows Media в решение Visual Basic .NET
+                - name: внедрение элемента управления проигрыватель Windows Media в решение Visual Basic .net
                   href: embedding-the-windows-media-player-control-in-a-visual-basic--net-solution.md
-                - name: Создание элемента управления проигрывателя Windows Media программным способом
+                - name: программное создание элемента управления проигрыватель Windows Media
                   href: creating-the-windows-media-player-control-programmatically.md
-                - name: Сведения о типах данных платформа .NET Framework
+                - name: сведения о типах данных платформа .NET Framework
                   href: about--net-framework-data-types.md
             - name: Создание Web-Based презентаций
               href: creating-web-based-presentations.md
@@ -175,7 +175,7 @@
                   href: about-sami-files.md
                 - name: Пример файла SAMI
                   href: sami-file-example.md
-                - name: Использование SAMIs с элементом управления проигрывателя Windows Media в браузере
+                - name: использование SAMI с элементом управления проигрыватель Windows Media в браузере
                   href: using-sami-with-the-windows-media-player-control-in-a-browser.md
                 - name: Об URL-адресах SAMI
                   href: about-sami-urls.md
@@ -270,7 +270,7 @@
               items:
                 - name: Различия между объектными моделями
                   href: differences-between-the-object-models.md
-                - name: Использование объектной модели проигрывателя Windows Media 7 или более поздней версии
+                - name: использование объектной модели проигрыватель Windows Media 7 или более поздней версии
                   href: using-the-windows-media-player-7-or-later-object-model.md
                 - name: Обработка ошибок
                   href: error-handling.md
@@ -282,7 +282,7 @@
                   href: dvd.md
                 - name: Сравнение подробной модели объектов
                   href: detailed-object-model-comparison.md
-        - name: Справочник по объектной модели проигрывателя Windows Media
+        - name: проигрыватель Windows Media Справочник по объектной модели
           href: windows-media-player-object-model-reference.md
           items:
             - name: Справочник по объектной модели для создания сценариев
@@ -770,40 +770,40 @@
                       href: query-addcondition.md
                     - name: Query. Бегиннекстграуп
                       href: query-beginnextgroup.md
-                - name: Объект параметров
+                - name: Параметры Объектами
                   href: settings-object.md
                   items:
-                    - name: Параметры. Автозапуск
+                    - name: Параметры. автозапуск
                       href: settings-autostart.md
-                    - name: Settings. Balance
+                    - name: Параметры. balance
                       href: settings-balance.md
-                    - name: Settings. baseURL
+                    - name: Параметры. baseURL
                       href: settings-baseurl.md
-                    - name: Settings. Дефаултаудиолангуаже
+                    - name: Параметры. дефаултаудиолангуаже
                       href: settings-defaultaudiolanguage.md
-                    - name: Settings. Дефаултфраме
+                    - name: Параметры. дефаултфраме
                       href: settings-defaultframe.md
-                    - name: Settings. Енаблиррордиалогс
+                    - name: Параметры. енаблиррордиалогс
                       href: settings-enableerrordialogs.md
-                    - name: Settings. Мода
+                    - name: Параметры. мода
                       href: settings-getmode.md
-                    - name: Settings. Инвокеурлс
+                    - name: Параметры. инвокеурлс
                       href: settings-invokeurls.md
-                    - name: Settings. Available
+                    - name: Параметры.
                       href: settings-isavailable.md
-                    - name: Settings. Медиаакцессригхтс
+                    - name: Параметры. медиаакцессригхтс
                       href: settings-mediaaccessrights.md
-                    - name: Параметры. выкл.
+                    - name: Параметры. без звука
                       href: settings-mute.md
-                    - name: Settings. Плайкаунт
+                    - name: Параметры. плайкаунт
                       href: settings-playcount.md
                     - name: Параметры. rate
                       href: settings-rate.md
-                    - name: Settings. Рекуестмедиаакцессригхтс
+                    - name: Параметры. рекуестмедиаакцессригхтс
                       href: settings-requestmediaaccessrights.md
-                    - name: Settings. setMode
+                    - name: Параметры. setMode
                       href: settings-setmode.md
-                    - name: Settings. Volume
+                    - name: Параметры. том
                       href: settings-volume.md
                 - name: Объект StringCollection
                   href: stringcollection-object.md
@@ -1753,7 +1753,7 @@
                       items:
                         - name: 'Ивмпвидеорендерконфиг::p ut_presenterActivate'
                           href: /previous-versions/windows/desktop/api/wmprealestate/nf-wmprealestate-iwmpvideorenderconfig-put_presenteractivate
-            - name: 'Справочник по объектной модели для Visual Basic .NET и C #'
+            - name: 'справочник по объектной модели для Visual Basic .net и C #'
               href: object-model-reference-for-visual-basic--net-and-c.md
               items:
                 - name: Объект Аксвиндовсмедиаплайер (VB и C#)
@@ -1919,7 +1919,7 @@
                       href: axwmplib-axwindowsmediaplayer-warning.md
                     - name: Аксвиндовсмедиаплайер. Виндовлессвидео (VB и C#)
                       href: axwmplib-axwindowsmediaplayer-windowlessvideo--vb-and-c.md
-                - name: 'Интерфейсы для Visual Basic .NET и C #'
+                - name: 'интерфейсы для Visual Basic .net и C #'
                   href: interfaces-for-visual-basic--net-and-c.md
                   items:
                     - name: Интерфейс Ивмпкдром (VB и C#)
@@ -2621,7 +2621,7 @@
                       href: wm-beatsperminute-attribute.md
                     - name: Атрибут WM/Category
                       href: wm-category-attribute.md
-                    - name: Атрибут WM/Composer
+                    - name: атрибут WM/Composer
                       href: wm-composer-attribute.md
                     - name: Атрибут WM/проводника
                       href: wm-conductor-attribute.md
@@ -2681,7 +2681,7 @@
                       href: wm-providerrating-attribute.md
                     - name: Атрибут WM/Провидерстиле
                       href: wm-providerstyle-attribute.md
-                    - name: Атрибут WM/Publisher
+                    - name: атрибут WM/Publisher
                       href: wm-publisher-attribute.md
                     - name: Атрибут WM/Субскриптионконтентид
                       href: wm-subscriptioncontentid-attribute.md
@@ -2719,7 +2719,7 @@
                   href: cd-playlist-attributes.md
                 - name: Атрибуты записи компакт-диска
                   href: cd-track-attributes.md
-                - name: Часто используемые атрибуты файлов Windows Media
+                - name: часто используемые Windows атрибуты файла мультимедиа
                   href: commonly-used-windows-media-file-attributes.md
                 - name: Атрибуты DVD
                   href: dvd-attributes.md
@@ -2760,7 +2760,7 @@
                   href: /previous-versions/windows/desktop/api/wmp/ne-wmp-wmpstringcollectionchangeeventtype
                 - name: вмпсинкстате
                   href: /previous-versions/windows/desktop/api/wmp/ne-wmp-wmpsyncstate
-    - name: Обложки проигрывателя Windows Media
+    - name: проигрыватель Windows Media Палитр
       href: windows-media-player-skins.md
       items:
         - name: О обложках
@@ -2789,7 +2789,7 @@
                       href: art-file-formats.md
                     - name: Пример простой иллюстрации
                       href: simple-art-example.md
-                - name: Файлы JScript
+                - name: JScript Файла
                   href: jscript-files.md
             - name: Создание кода
               href: writing-code.md
@@ -2820,9 +2820,9 @@
               href: submitting-your-skin.md
             - name: Ссылки на обложки в URL-адресах
               href: referencing-skins-in-urls.md
-            - name: Новые для обложек проигрывателя Windows Media
+            - name: новые проигрыватель Windows Media обложки
               href: new-for-windows-media-player-skins.md
-            - name: Границы для проигрывателя Windows Media (не рекомендуется)
+            - name: границы для проигрыватель Windows Media (не рекомендуется)
               href: borders-for-windows-media-player--deprecated.md
         - name: Руководством по созданию обложки
           href: skin-creation-guide.md
@@ -3781,7 +3781,7 @@
                   href: global-attributes.md
                 - name: Атрибуты прослушивания
                   href: listening-attributes.md
-        - name: Обложки мобильных устройств проигрывателя Windows Media
+        - name: проигрыватель Windows Media Обложки для мобильных устройств
           href: windows-media-player-mobile-skins.md
           items:
             - name: О обложках
@@ -3789,7 +3789,7 @@
               items:
                 - name: Сведения о совместимости
                   href: about-compatibility.md
-                - name: Мобильные функции проигрывателя Windows Media
+                - name: проигрыватель Windows Media Мобильные функции
                   href: windows-media-player-mobile-functionality.md
                   items:
                     - name: Функции кнопок
@@ -3901,7 +3901,7 @@
                       href: coordinates.md
                     - name: Пример раздела точечного рисунка
                       href: sample-bitmap-section.md
-                - name: Кнопки
+                - name: через кнопки;
                   href: buttons.md
                   items:
                     - name: Функция Button
@@ -3988,7 +3988,7 @@
                       href: thumb-size.md
                     - name: Пример раздела TrackBar
                       href: sample-trackbars-section.md
-                - name: Видео
+                - name: видео;
                   href: video.md
                   items:
                     - name: Расположение видео
@@ -3999,7 +3999,7 @@
                       href: video-size.md
                     - name: Раздел с примерами видео
                       href: sample-video-section.md
-    - name: Подключаемые модули проигрывателя Windows Media
+    - name: проигрыватель Windows Media Подключаемые модули
       href: windows-media-player-plug-ins.md
       items:
         - name: Создание подключаемого модуля
@@ -4007,9 +4007,9 @@
           items:
             - name: начало работы с помощью мастера подключаемых модулей
               href: getting-started-with-the-plug-in-wizard.md
-            - name: Использование мастера подключаемых модулей в Visual Studio
+            - name: Использование мастера подключаемых модулей с Visual Studio
               href: using-the-plug-in-wizard-with-visual-studio.md
-        - name: Пользовательские визуализации проигрывателя Windows Media
+        - name: проигрыватель Windows Media Пользовательские визуализации
           href: windows-media-player-custom-visualizations.md
           items:
             - name: О пользовательских визуализациях
@@ -4020,7 +4020,7 @@
                 - name: Обзор для разработчиков
                   href: developer-overview.md
                   items:
-                    - name: Поток управления
+                    - name: Flow элемента управления
                       href: flow-of-control.md
                 - name: Создание визуализации
                   href: building-a-visualization.md
@@ -4106,7 +4106,7 @@
                       href: /previous-versions/windows/desktop/api/effects/ne-effects-playerstate
                     - name: тимедлевел
                       href: /previous-versions/bb249531(v%3Dvs.85)
-        - name: Подключаемые модули пользовательского интерфейса проигрывателя Windows Media
+        - name: проигрыватель Windows Media Подключаемые модули пользовательского интерфейса
           href: windows-media-player-user-interface-plug-ins.md
           items:
             - name: О подключаемых модулях пользовательского интерфейса
@@ -4117,7 +4117,7 @@
                   items:
                     - name: Отобразить подключаемые модули области (не рекомендуется)
                       href: display-area-plug-ins--deprecated.md
-                    - name: Подключаемые модули области параметров
+                    - name: Параметры Подключаемые модули области
                       href: settings-area-plug-ins.md
                     - name: Подключаемые модули области метаданных (не рекомендуется)
                       href: metadata-area-plug-ins--deprecated.md
@@ -4154,7 +4154,7 @@
                       href: the-onsearch-method.md
                     - name: Метод Лаунчпаже
                       href: the-launchpage-method.md
-                - name: Создание подключаемого модуля пользовательского интерфейса для проигрывателя Windows Media 10 Mobile
+                - name: создание подключаемого модуля пользовательского интерфейса для проигрыватель Windows Media 10 Mobile
                   href: creating-a-user-interface-plug-in-for-windows-media-player-10-mobile.md
                   items:
                     - name: Приступая к работе
@@ -4185,7 +4185,7 @@
                       href: /previous-versions/windows/desktop/api/wmpplug/nf-wmpplug-iwmppluginui-setproperty
                     - name: 'Ивмпплугинуи:: TranslateAccelerator'
                       href: /previous-versions/windows/desktop/api/wmpplug/nf-wmpplug-iwmppluginui-translateaccelerator
-        - name: Подключаемые модули DSP проигрывателя Windows Media
+        - name: проигрыватель Windows Media Подключаемые модули DSP
           href: windows-media-player-dsp-plug-ins.md
           items:
             - name: О подключаемых модулях DSP
@@ -4198,7 +4198,7 @@
                   items:
                     - name: Упаковка подключаемых модулей DSP
                       href: dsp-plug-in-packaging.md
-                    - name: Подключение к проигрывателю Windows Media
+                    - name: подключение к проигрыватель Windows Media
                       href: connecting-to-windows-media-player.md
                     - name: Ввод и вывод данных
                       href: data-input-and-output.md
@@ -4209,7 +4209,7 @@
                     - name: Мастер подключаемых модулей DSP
                       href: dsp-plug-in-wizard.md
                       items:
-                        - name: Обновления мастера подключаемых модулей DSP для проигрывателя Windows Media 11
+                        - name: обновления мастера подключаемых модулей DSP для проигрыватель Windows Media 11
                           href: updates-to-the-dsp-plug-in-wizard-for-windows-media-player-11.md
                     - name: Требуемые интерфейсы
                       href: required-interfaces.md
@@ -4368,7 +4368,7 @@
                       href: /previous-versions/windows/desktop/api/wmpservices/ne-wmpservices-wmpplugin_caps
                     - name: WMPServices_StreamState
                       href: /previous-versions/windows/desktop/api/wmpservices/ne-wmpservices-wmpservices_streamstate
-        - name: Подключаемые модули преобразования проигрывателя Windows Media
+        - name: проигрыватель Windows Media Подключаемые модули преобразования
           href: windows-media-player-conversion-plug-ins.md
           items:
             - name: О подключаемых модулях преобразования
@@ -4390,13 +4390,13 @@
                       href: /previous-versions/windows/desktop/api/wmpservices/nf-wmpservices-iwmpconvert-convertfile
                     - name: 'Ивмпконверт:: Жетеррорурл'
                       href: /previous-versions/windows/desktop/api/wmpservices/nf-wmpservices-iwmpconvert-geterrorurl
-    - name: Метафайлы Windows Media
+    - name: Windows Метафайлы мультимедиа
       href: windows-media-metafiles.md
       items:
-        - name: О метафайлах Windows Media
+        - name: сведения о метафайлах мультимедиа Windows
           href: about-windows-media-metafiles.md
           items:
-            - name: Общие сведения о метафайлах Windows Media
+            - name: Windows Общие сведения о метафайлах мультимедиа
               href: windows-media-metafiles-overview.md
               items:
                 - name: Назначение списка воспроизведения метафайла
@@ -4405,18 +4405,18 @@
                   href: using-a-metafile-playlist.md
                 - name: Поддержка нескольких языков
                   href: support-for-multiple-languages.md
-            - name: Пакеты загрузки Windows Media (устарели)
+            - name: Windows Пакеты скачивания носителя (не рекомендуется)
               href: windows-media-download-packages--deprecated.md
               items:
-                - name: Как работают пакеты загрузки Windows Media (не рекомендуется)
+                - name: как работают пакеты загрузки мультимедиа Windows (не рекомендуется)
                   href: how-windows-media-download-packages-work--deprecated.md
-                - name: Использование границ в пакетах загрузки Windows Media (устарело)
+                - name: использование границ в Windows скачать пакеты мультимедиа (устарело)
                   href: using-borders-in-windows-media-download-packages--deprecated.md
-                - name: Использование списков воспроизведения в пакетах загрузки Windows Media (устарело)
+                - name: использование списков воспроизведения в Windows скачивания пакетов мультимедиа (устарело)
                   href: using-playlists-in-windows-media-download-packages--deprecated.md
-                - name: Создание пакета загрузки Windows Media (не рекомендуется)
+                - name: создание пакета загрузки Windows носителя (не рекомендуется)
                   href: creating-a-windows-media-download-package--deprecated.md
-        - name: Путеводитель по метафайлу Windows Media
+        - name: Windows Мультимедийное по для метафайлов
           href: windows-media-metafile-guide.md
           items:
             - name: Типы списков воспроизведения
@@ -4426,25 +4426,25 @@
               items:
                 - name: Вложенные метафайлы
                   href: nesting-metafiles.md
-                - name: Динамическое создание списков воспроизведения метафайлов Windows Media с помощью страниц ASP
+                - name: использование страниц ASP для динамического создания Windows списков воспроизведения метафайлов мультимедиа
                   href: using-asp-pages-to-dynamically-create-windows-media-metafile-playlists.md
             - name: Списки воспроизведения метафайлов
               href: metafile-playlists.md
               items:
                 - name: Управление списками воспроизведения
                   href: control-of-playlists.md
-                - name: Пользовательская графика в проигрывателе Windows Media
+                - name: пользовательские графики в проигрыватель Windows Media
                   href: custom-graphics-in-windows-media-player.md
-                - name: Отображение веб-страниц в проигрывателе Windows Media
+                - name: отображение веб-страниц в проигрыватель Windows Media
                   href: displaying-web-pages-in-windows-media-player.md
                   items:
                     - name: Преимущества использования Хтмлвиев
                       href: advantages-of-using-htmlview.md
                     - name: Создание презентации Хтмлвиев
                       href: creating-an-htmlview-presentation.md
-                    - name: Добавление встроенного элемента управления проигрывателя Windows Media
+                    - name: добавление встроенного элемента управления проигрыватель Windows Media
                       href: adding-an-embedded-windows-media-player-control.md
-                    - name: Обеспечение открытия проигрывателем Windows Media содержимого Хтмлвиев
+                    - name: 'проверка того, что проигрыватель Windows Media открывает содержимое хтмлвиев'
                       href: ensuring-that-windows-media-player-opens-the-htmlview-content.md
                     - name: Проблемы с веб-страницей
                       href: web-page-issues.md
@@ -4492,10 +4492,10 @@
               href: metafile-extension-guidelines.md
             - name: Очередность выполнения
               href: order-of-precedence.md
-        - name: Справочник по метафайлу Windows Media
+        - name: Windows Ссылка на метафайл мультимедиа
           href: windows-media-metafile-reference.md
           items:
-            - name: Справочник по элементам метафайлов Windows Media
+            - name: Windows Справочник по элементам метафайлов мультимедиа
               href: windows-media-metafile-elements-reference.md
               items:
                 - name: АБСТРАКТный элемент
@@ -4547,17 +4547,17 @@
                   href: title-element--metafile.md
             - name: Расширения файлов
               href: file-name-extensions.md
-        - name: Предыдущие версии метафайлов Windows Media (не рекомендуется)
+        - name: предыдущие версии Windows метафайлов мультимедиа (не рекомендуется)
           href: previous-versions-of-windows-media-metafiles--deprecated.md
           items:
             - name: Элемент Reference (не рекомендуется)
               href: reference-element--deprecated.md
             - name: Параметр Мсвмекст (не рекомендуется)
               href: mswmext-parameter--deprecated.md
-    - name: Списки воспроизведения Windows Media
+    - name: Windows Списки воспроизведения мультимедиа
       href: windows-media-playlists.md
       items:
-        - name: Справочник по элементам списка воспроизведения Windows Media
+        - name: Windows Справочник по элементам списка воспроизведения мультимедиа
           href: windows-media-playlist-elements-reference.md
           items:
             - name: Элемент Argument
@@ -4586,7 +4586,7 @@
               href: sourcefilter-element.md
             - name: Элемент title (WPL)
               href: title-element--wpl.md
-    - name: Интернет-магазины проигрывателя Windows Media
+    - name: проигрыватель Windows Media Интернет-магазины
       href: windows-media-player-online-stores.md
       items:
         - name: Приветственный комплект Интернет-магазинов
@@ -4626,7 +4626,7 @@
                   href: location-and-selected-item.md
                 - name: Контекстные меню
                   href: context-menus.md
-                - name: Звуковые потоки
+                - name: аудио Потоки
                   href: audio-streams.md
                 - name: Документ ServiceInfo для Интернет-магазина типа 1
                   href: serviceinfo-document-for-a-type-1-online-store.md
@@ -4646,7 +4646,7 @@
                   items:
                     - name: Установка мастера подключаемых модулей интернет-магазина
                       href: installing-the-online-store-plug-in-wizard.md
-                    - name: Использование мастера подключаемых модулей интернет-магазина в Visual Studio
+                    - name: Использование мастера подключаемого модуля интернет-магазина с Visual Studio
                       href: using-the-online-store-plug-in-wizard-with-visual-studio.md
                 - name: Отображение диалоговых окон
                   href: displaying-dialog-boxes.md
@@ -4936,22 +4936,22 @@
                 - name: Создание подключаемого модуля для Интернет-магазина типа 2
                   href: building-the-plug-in-for-a-type-2-online-store.md
                   items:
-                    - name: Установка мастера проектов
+                    - name: установка мастера Project
                       href: installing-the-project-wizard.md
-                    - name: Создание примера проекта
+                    - name: Создание примера Project
                       href: creating-a-sample-project.md
-                    - name: Компиляция примера проекта
+                    - name: Компиляция примера Project
                       href: compiling-the-sample-project.md
-                    - name: Запуск примера проекта
+                    - name: Запуск примера Project
                       href: running-the-sample-project.md
-                    - name: Настройка примера проекта
+                    - name: Настройка образца Project
                       href: customizing-the-sample-project.md
                 - name: Навигация для Интернет-магазинов типа 2
                   href: navigation-for-type-2-online-stores.md
                   items:
                     - name: Переход между областями задач службы
                       href: navigating-between-service-task-panes.md
-                    - name: Переход от функций проигрывателя Windows Media
+                    - name: переход от проигрыватель Windows Media функций
                       href: navigating-from-windows-media-player-features.md
                     - name: Переход к другим Интернет-магазинам
                       href: navigating-to-other-online-stores.md
@@ -5075,7 +5075,7 @@
                   items:
                     - name: вмпсубскриптионсервицеевент
                       href: /previous-versions/windows/desktop/api/subscriptionservices/ne-subscriptionservices-wmpsubscriptionserviceevent
-                - name: Соглашение о задании BITS проигрывателя Windows Media
+                - name: проигрыватель Windows Media Соглашение о задании BITS
                   href: windows-media-player-bits-job-convention.md
                 - name: Разделы реестра и записи для Интернет-магазина типа 2
                   href: registry-keys-and-entries-for-a-type-2-online-store.md
@@ -5092,7 +5092,7 @@
               href: using-htmlview-with-online-stores.md
             - name: Интеграция функции представления центра информации
               href: integrating-the-info-center-view-feature.md
-            - name: Соответствующие цвета проигрывателя Windows Media
+            - name: сопоставление цветов проигрыватель Windows Media
               href: matching-the-windows-media-player-colors.md
             - name: Использование списков автоматического воспроизведения для организации содержимого в библиотеке
               href: using-auto-playlists-to-organize-content-in-the-library.md
@@ -5162,7 +5162,7 @@
         - name: Параметры реестра
           href: registry-settings.md
           items:
-            - name: Параметры реестра для расширения имени файла
+            - name: Параметры реестра расширения имени файла
               href: file-name-extension-registry-settings.md
               items:
                 - name: Запись реестра разрешений
@@ -5175,11 +5175,11 @@
                   href: library-classification-registry-entries.md
                 - name: Подраздел Конвертплугинклсид
                   href: convertpluginclsid-subkey.md
-            - name: Параметры реестра настраиваемой схемы
+            - name: Параметры реестра пользовательских схем
               href: custom-scheme-registry-settings.md
             - name: Параметры реестра мониторинга папок
               href: folder-monitoring-registry-settings.md
-            - name: Параметры реестра для порта брандмауэра
+            - name: Параметры реестра портов брандмауэра
               href: firewall-port-registry-settings.md
             - name: Регистрация зависимости приложения
               href: registering-application-dependency.md
@@ -5191,20 +5191,20 @@
           href: command-line-parameters.md
         - name: Звуковые выходные данные
           href: audio-outputs.md
-        - name: Распространение программного обеспечения проигрывателя Windows Media
+        - name: распространение проигрыватель Windows Media программного обеспечения
           href: redistributing-windows-media-player-software.md
           items:
-            - name: Повторное распространение проигрывателя Windows Media 11
+            - name: распространение проигрыватель Windows Media 11
               href: redistributing-windows-media-player-11.md
-            - name: Повторное распространение проигрывателя Windows Media 10
+            - name: распространение проигрыватель Windows Media 10
               href: redistributing-windows-media-player-10.md
-            - name: Распространение серии проигрывателя Windows Media 9
+            - name: распространение серии проигрыватель Windows Media 9
               href: redistributing-windows-media-player-9.md
-            - name: Обнаружение проигрывателя Windows Media из приложения
+            - name: обнаружение проигрыватель Windows Media из приложения
               href: detecting-windows-media-player-from-an-application.md
-            - name: Обнаружение состояния установки для программы установки Windows Media
+            - name: обнаружение состояния установки Windows носителя
               href: detecting-setup-status-for-windows-media-setup.md
-        - name: Публикация кодеков для проигрывателя Windows Media
+        - name: публикация кодеков для проигрыватель Windows Media
           href: publishing-codecs-for-windows-media-player.md
         - name: Изменение размера диалогового окна "приобретение лицензий"
           href: resizing-the-license-acquisition-dialog-box.md
@@ -5215,7 +5215,7 @@
               href: about-the-metadata.md
             - name: Расширения устройств MTP для обмена метаданными
               href: mtp-device-extensions-for-metadata-transfer.md
-            - name: Расширения устройств Windows Media диспетчер устройств для передачи метаданных
+            - name: Windows Расширения мультимедиа диспетчер устройств устройства для передачи метаданных
               href: windows-media-device-manager-device-extensions-for-metadata-transfer.md
               items:
                 - name: WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE
@@ -5232,5 +5232,5 @@
           href: custom-image-support-for-devices.md
     - name: Глоссарий
       href: glossary.md
-    - name: Ключевые моменты в пакете SDK проигрывателя Windows Media
+    - name: ключевые моменты в пакете SDK для проигрыватель Windows Media
       href: key-points-in-the-wmp-sdk.md

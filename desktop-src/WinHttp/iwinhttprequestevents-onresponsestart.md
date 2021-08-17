@@ -4,12 +4,12 @@ ms.assetid: 7245725b-40dd-4282-b681-f0b2c191db94
 title: 'Событие Ивинхттпрекуестевентс:: Онреспонсестарт'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a299c535dd854bff07f2c24989096f7b9e49fc3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8cb08273bfbab92e957b932f463ce4b91ee53e3663dcd886f5e02b73698fff3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702513"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117744227"
 ---
 # <a name="iwinhttprequesteventsonresponsestart-event"></a>Событие Ивинхттпрекуестевентс:: Онреспонсестарт
 
@@ -49,14 +49,14 @@ void OnResponseStart(
 
 Это событие не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы это событие произошло, используйте [**Open**](iwinhttprequest-open.md) для отправки HTTP-соединения в асинхронном режиме и используйте [**Send**](iwinhttprequest-send.md) для отправки запроса данных на Интернет-сервер.
 
 Это первое событие WinHTTP, возникающее после [**отправки**](iwinhttprequest-send.md).
 
 > [!Note]  
-> Для Windows XP и Windows 2000 см. раздел [требования к времени выполнения](winhttp-start-page.md) на начальной странице WinHTTP.
+> сведения о Windows XP и Windows 2000 см. в разделе [требования к времени выполнения](winhttp-start-page.md) на начальной странице WinHTTP.
 
  
 
@@ -66,8 +66,8 @@ void OnResponseStart(
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>            |
-| Минимальная версия сервера<br/> | Windows Server 2003, Windows 2000 Server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>         |
+| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с SP3 \[ только для настольных приложений\]<br/>            |
+| Минимальная версия сервера<br/> | Windows сервер 2003, Windows 2000 server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>         |
 | Распространяемые компоненты<br/>          | WinHTTP 5,0 и Internet Explorer 5,01 или более поздней версии в Windows XP и Windows 2000.<br/> |
 | IDL<br/>                      | <dl> <dt>HttpRequest. idl</dt> </dl> |
 

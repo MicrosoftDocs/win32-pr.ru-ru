@@ -4,12 +4,12 @@ ms.assetid: F6C650BA-7ED9-4C90-987C-4B5F14F6C6B5
 title: Аудио и видео (заметки для разработчиков)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f83b604908f90bc263f78d51a39c0840b340bab4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4278680fd19408102bbb7ab36c1cef3710f34e7559080d493441b0f57aa858e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655657"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117827667"
 ---
 # <a name="audio-and-video-developer-notes"></a>Аудио и видео (заметки для разработчиков)
 

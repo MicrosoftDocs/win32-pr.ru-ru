@@ -1,5 +1,5 @@
 ---
-description: Предоставляет события служб Microsoft Windows HTTP (WinHTTP).
+description: предоставляет события для служб Microsoft Windows HTTP (WinHTTP).
 ms.assetid: 0721d7f9-2e84-41a9-be52-89c8d638eb90
 title: Интерфейс Ивинхттпрекуестевентс
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - HttpRequest.idl
-ms.openlocfilehash: 3cdd0bf10c0d4bd75351ddaab6e88ce7182850fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 42b8355de57ada064e57a129c77ba507a72028b1c38ce115e58db110f2ce976b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117744352"
 ---
 # <a name="iwinhttprequestevents-interface"></a>Интерфейс Ивинхттпрекуестевентс
 
-Интерфейс **ивинхттпрекуестевентс** предоставляет события для [служб Microsoft Windows HTTP (WinHTTP)](about-winhttp.md). В нем используются только методы событий.
+интерфейс **ивинхттпрекуестевентс** предоставляет события для [служб Microsoft Windows HTTP (WinHTTP)](about-winhttp.md). В нем используются только методы событий.
 
 ## <a name="members"></a>Элементы
 
@@ -47,7 +47,7 @@ ms.locfileid: "105674199"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В следующей процедуре описывается регистрация для получения уведомлений.
 
@@ -60,7 +60,7 @@ ms.locfileid: "105674199"
 Чтобы просмотреть код, регистрирующий для COM-уведомлений, см. раздел клиент в статье [точки подключения COM](/archive/msdn-magazine/2007/september/clr-inside-out-com-connection-points) .
 
 > [!Note]  
-> Для Windows XP и Windows 2000 см. раздел [требования к времени выполнения](winhttp-start-page.md) на начальной странице WinHTTP.
+> сведения о Windows XP и Windows 2000 см. в разделе [требования к времени выполнения](winhttp-start-page.md) на начальной странице WinHTTP.
 
  
 
@@ -70,8 +70,8 @@ ms.locfileid: "105674199"
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>            |
-| Минимальная версия сервера<br/> | Windows Server 2003, Windows 2000 Server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>         |
+| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с SP3 \[ только для настольных приложений\]<br/>            |
+| Минимальная версия сервера<br/> | Windows сервер 2003, Windows 2000 server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>         |
 | Распространяемые компоненты<br/>          | WinHTTP 5,0 и Internet Explorer 5,01 или более поздней версии в Windows XP и Windows 2000.<br/> |
 | IDL<br/>                      | <dl> <dt>HttpRequest. idl</dt> </dl> |
 

@@ -15,16 +15,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c79a6b946ed9d10cd2bfc989f8cde27fad2ffa92
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cbb4b04ddf3b81d330825b3333899e149d2f7b0d1f30c19106c6977e5291846f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117789145"
 ---
 # <a name="ras_user_0-structure"></a>\_Структура пользователя RAS \_ 0
 
-\[Эта версия структуры **пользователя RAS \_ \_ 0** не поддерживается в Windows Vista. Используйте более новый [**\_ пользователь RAS \_ 0**](/windows/desktop/api/Mprapi/ns-mprapi-ras_user_0) , определенный в мпрапи. h.\]
+\[эта версия структуры **пользователя RAS \_ \_ 0** не поддерживается в Windows Vista. Используйте более новый [**\_ пользователь RAS \_ 0**](/windows/desktop/api/Mprapi/ns-mprapi-ras_user_0) , определенный в мпрапи. h.\]
 
 Структура **\_ пользователя RAS \_ 0** используется в функциях [**расадминусерсетинфо**](rasadminusersetinfo.md) и [**расадминусержетинфо**](rasadminusergetinfo.md) для указания сведений о пользователе.
 
@@ -83,7 +83,7 @@ typedef struct _RAS_USER_0 {
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                 |
 | Окончание поддержки клиента<br/>    | Windows XP<br/>                                                                |
 | Поддержка конца сервера<br/>    | Windows Server 2003<br/>                                                       |
-| Header<br/>                   | <dl> <dt>Рассапи. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Рассапи. h</dt> </dl> |
 
 
 

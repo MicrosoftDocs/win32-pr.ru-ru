@@ -38,7 +38,7 @@ class Registry_V0 : MSNT_SystemTrace
 
 Класс **\_ v0 реестра** не определяет никаких членов.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

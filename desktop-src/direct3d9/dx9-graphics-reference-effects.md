@@ -4,12 +4,12 @@ ms.assetid: e44fc38f-5b08-497a-a6e7-cfd64661ed30
 title: Справочник по действиям (графика Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42282e31906fd657f5b353b6741a00401961f19e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 18f0e5757a8f163fd4941b777c1a5fd800971938842dbfc738658bd0105cc650
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105710634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117730215"
 ---
 # <a name="effect-reference-direct3d-9-graphics"></a>Справочник по действиям (графика Direct3D 9)
 
@@ -26,7 +26,7 @@ ms.locfileid: "105710634"
 
 В качестве альтернативы использованию API для создания эффектов можно также использовать средство командной строки Compile. См. раздел [средство компилятора Effect](../direct3dtools/fxc.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

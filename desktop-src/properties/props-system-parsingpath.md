@@ -4,12 +4,12 @@ ms.assetid: e0fb2092-0427-40c9-9e09-aefc5ef017e6
 title: System. Парсингпас
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae62243ff37464617f87654f8ca1f04c3ea606da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de98a39806d2db752c72da9706eaf35b4b6b5296cb82f3a75bee4d35add3680c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909235"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118230402"
 ---
 # <a name="systemparsingpath"></a>System. Парсингпас
 
@@ -31,13 +31,13 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
 Это значение можно передать в [**шпарседисплайнаме**](/windows/win32/api/shlobj_core/nf-shlobj_core-shparsedisplayname) , чтобы разобрать путь к правильной папке оболочки. Если элемент является файлом, значение идентично значению [System. итемпасдисплай](./props-system-itempathdisplay.md). Если доступ к элементу через пространство имен оболочки невозможен, это значение является VT \_ пустым.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

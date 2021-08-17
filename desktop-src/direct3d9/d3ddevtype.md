@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 2be365ffbbe5bf778379c7be060c85c0b099422f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d311706d328a5d05668a4d1dcddb032f17fba0c69e48286f899875a8da6a650e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117732994"
 ---
 # <a name="d3ddevtype-enumeration"></a>Перечисление D3DDEVTYPE
 
@@ -62,7 +62,7 @@ typedef enum D3DDEVTYPE {
 
 Функции Direct3D реализуются в программном обеспечении. Однако в этом случае средство программной прорисовки использует специальные инструкции ЦП, когда это возможно.
 
-Эталонное устройство устанавливается Windows SDK 8,0 или более поздней версии и предназначено для помощи в отладке только для разработки.
+эталонное устройство устанавливается Windows SDK 8,0 или более поздней версии и предназначено для помощи в отладке только для разработки.
 
 </dd> <dt>
 
@@ -80,7 +80,7 @@ typedef enum D3DDEVTYPE {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Все методы интерфейса [**IDirect3D9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3d9) , которые принимают тип устройства **D3DDEVTYPE** , завершатся ошибкой, если \_ задано D3DDEVTYPE нуллреф. Чтобы использовать эти методы, замените D3DDEVTYPE \_ ref в вызове метода.
 
@@ -94,7 +94,7 @@ typedef enum D3DDEVTYPE {
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
 
 
 

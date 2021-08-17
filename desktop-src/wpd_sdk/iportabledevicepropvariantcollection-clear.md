@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: fa7c2a8dddeb74b5ac666da2561bd6ee6536821a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0cec3f12757fe43c408488204de8b0dd95d5e95c75d8315ea758e4311ff5e9bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105718048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118194142"
 ---
 # <a name="iportabledevicepropvariantcollectionclear-method"></a>Метод Ипортабледевицепропвариантколлектион:: Clear
 
@@ -52,7 +52,7 @@ HRESULT Clear();
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 После вызова метода **clear** коллекция считается нетипизированной, что означает, что значение VarType, заданное ранее, больше не ограничено операциями **добавления** . Вызов **Add** после вызова **clear** считается "первым" **добавлением** для этой коллекции.
 
@@ -62,7 +62,7 @@ HRESULT Clear();
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Портабледевицетипес. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Портабледевицетипес. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>Портабледевицегуидс. lib</dt> </dl> |
 
 

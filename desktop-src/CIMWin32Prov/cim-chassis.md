@@ -49,12 +49,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b1eb7f5e2733056cf48c1c9333453613ace699c6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 271f01587dc67c14464cfdb06de321d853b8b9a606a99cb1aca8fdcb0ff2ca17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141950"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117835039"
 ---
 # <a name="cim_chassis-class"></a>\_Класс шасси CIM
 
@@ -186,7 +186,7 @@ class CIM_Chassis : CIM_PhysicalFrame
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -453,12 +453,12 @@ class CIM_Chassis : CIM_PhysicalFrame
 
 <span id="Storage_Chassis"></span><span id="storage_chassis"></span><span id="STORAGE_CHASSIS"></span>
 
-<span id="Storage_Chassis"></span><span id="storage_chassis"></span><span id="STORAGE_CHASSIS"></span>**Корпус для хранения данных** (22)
+<span id="Storage_Chassis"></span><span id="storage_chassis"></span><span id="STORAGE_CHASSIS"></span>**служба хранилища корпус** (22)
 
 
 </dt> <dd>
 
-Корпус хранилища.
+служба хранилища корпус.
 
 </dd> <dt>
 
@@ -674,7 +674,7 @@ class CIM_Chassis : CIM_PhysicalFrame
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -1127,7 +1127,7 @@ class CIM_Chassis : CIM_PhysicalFrame
 
 </dd> <dt>
 
-**Version**
+**Версия**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -1196,7 +1196,7 @@ class CIM_Chassis : CIM_PhysicalFrame
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ шасси CIM** является производным от [**CIM \_ фисикалфраме**](cim-physicalframe.md).
 

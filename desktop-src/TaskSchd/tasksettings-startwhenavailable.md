@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 63325fbf7aa9186e5748294c2ef57302efa0c79b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a0ed43a04bba63d0e760866684df15c4cae5e80a1b3338d122408756f4cec46e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104492255"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117757927"
 ---
 # <a name="tasksettingsstartwhenavailable-property"></a>Тасксеттингс. Стартвхенаваилабле, свойство
 
@@ -42,7 +42,7 @@ TaskSettings.StartWhenAvailable As Boolean
 
 Если значение — true, свойство указывает, что планировщик задач может запустить задачу в любое время после прохождения запланированного времени. Значение по умолчанию — False.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство применяется только к задачам, основанным на времени, с конечной границей и задачами на основе времени, которые настроены для повтора бесконечности.
 
@@ -56,8 +56,8 @@ TaskSettings.StartWhenAvailable As Boolean
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                    |
 | Библиотека типов<br/>             | <dl> <dt>Тасксчд. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

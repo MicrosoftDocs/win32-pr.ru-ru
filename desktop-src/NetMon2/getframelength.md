@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 29a2a08ac105414a914e14a9ce8e69976725700c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2344f2401995af3bac2e8245f48824dfb992076113eb8c27dcb9eff0a54eae04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117795706"
 ---
 # <a name="getframelength-function"></a>Функция Жетфрамеленгс
 
@@ -52,7 +52,7 @@ DWORD WINAPI GetFrameLength(
 
 Если функция завершилась неудачно, возвращаемое значение равно нулю.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 [*Эксперты*](e.md) и [*средства синтаксического анализа*](p.md) могут вызывать функцию **жетфрамеленгс** .
 

@@ -4,12 +4,12 @@ ms.assetid: 7e2ff8be-b21f-4833-a165-0112d4220677
 title: Свойство Авдеквидеосвповерлевел (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1196c45cf038085856b1d63a5cd3a1c7dc350d0d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a7c362e066a16e333cda402704a720b5e1b0b8534f1b56536d32009e6fa29663
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105662037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117824224"
 ---
 # <a name="avdecvideoswpowerlevel-property"></a>Авдеквидеосвповерлевел, свойство
 
@@ -42,7 +42,7 @@ ms.locfileid: "105662037"
 
 Перечисление [**еавдеквидеосвповерлевел**](/windows/desktop/api/codecapi/ne-codecapi-eavdecvideoswpowerlevel) определяет некоторые конкретные константы в этом диапазоне.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство можно задать во время воспроизведения, чтобы изменить уровень энергосбережения.
 
@@ -52,8 +52,8 @@ ms.locfileid: "105662037"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 

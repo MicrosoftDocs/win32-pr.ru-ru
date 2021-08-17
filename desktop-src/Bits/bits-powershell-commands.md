@@ -1,19 +1,19 @@
 ---
 title: Справочные материалы по командам BITS PowerShell
-description: Фоновая интеллектуальная служба передачи (BITS) 4,0 может использовать командлеты Windows PowerShell для управления заданиями передачи.
+description: фоновая интеллектуальная служба передачи (BITS) 4,0 может использовать командлеты Windows PowerShell для управления заданиями передачи.
 ms.assetid: 2c151dfe-4f89-41ea-a533-21ffcf0aa39e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5bd195d2202849c2bf2df580d159ee401911c51
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7acc88c557209ed2958d06766215278e75223a1b297bd2704ca1dcba062cfed6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103890873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118173860"
 ---
 # <a name="managed-reference-for-bits-powershell-commands"></a>Справочные материалы по командам BITS PowerShell
 
-Фоновая интеллектуальная служба передачи (BITS) 4,0 может использовать командлеты Windows PowerShell для создания заданий по загрузке файлов и их передачи и управления ими.
+фоновая интеллектуальная служба передачи (BITS) 4,0 может использовать командлеты Windows PowerShell для создания и управления заданиями по загрузке и передаче файлов.
 
 ```PowerShell
 Import-Module BitsTransfer
@@ -21,7 +21,7 @@ mkdir -force c:\temp\BITSFILES
 Start-BitsTransfer -Source https://aka.ms/WinServ16/StndPDF -Destination c:\temp\BITSFILES\WindowsServer2016.pdf
 ```
 
-Командлеты Windows PowerShell для BITS предоставляют практически те же функции, что и программа командной строки битсадмин. Однако Windows PowerShell также выполняет следующие действия:
+Windows PowerShell командлеты для BITS предоставляют большую часть возможностей, чем служебная программа командной строки битсадмин. однако Windows PowerShell также выполняет следующие действия:
 
 -   Автоматизирует задачи BITS на расширяемом языке программирования, ориентированном на управление.
 -   Предоставляет единый инструмент для всех задач, связанных с заданиями.
@@ -31,7 +31,7 @@ Start-BitsTransfer -Source https://aka.ms/WinServ16/StndPDF -Destination c:\temp
 
  
 
-Дополнительные сведения об использовании Windows PowerShell см. в разделе [Windows PowerShell](https://msdn.microsoft.com/library/dd835506(v=vs.85).aspx).
+дополнительные сведения об использовании Windows Powershell см. в разделе [Windows PowerShell](https://msdn.microsoft.com/library/dd835506(v=vs.85).aspx).
 
 ## <a name="bits-powershell-classes"></a>Классы PowerShell для BITS
 
@@ -39,7 +39,7 @@ Start-BitsTransfer -Source https://aka.ms/WinServ16/StndPDF -Destination c:\temp
 
 **Сборка**: System. Management. Automation
 
-Эти классы команд BITS реализуются Windows PowerShell. Эти классы включены в этот пакет средств разработки программного обеспечения (SDK) только для полноты. Члены этих классов не могут использоваться напрямую и не должны использоваться для наследования других классов.
+Эти классы команд BITS реализуются с помощью Windows PowerShell. Эти классы включены в этот пакет средств разработки программного обеспечения (SDK) только для полноты. Члены этих классов не могут использоваться напрямую и не должны использоваться для наследования других классов.
 
 
 

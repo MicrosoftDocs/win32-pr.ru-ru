@@ -4,12 +4,12 @@ description: Умножение целого числа без знака.
 ms.assetid: C84AF349-32E6-40C4-9973-BCFA73EFBF0B
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 581696ef5aa7d027c30b4ae866d06401275ef4bc
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 1ec63b3a95ffbdf1f71142c9fc508e21e718b44d988b725dad5d73775746871c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104412175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117721838"
 ---
 # <a name="umul-sm4---asm"></a>умул (SM4-ASM)
 
@@ -37,7 +37,7 @@ ms.locfileid: "104412175"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта инструкция выполняет покомпонентное умножение беззнаковых 32-разрядных операндов *src0* и *src1*, создавая правильный полный 64-разрядный результат для каждого компонента. Младшие 32 бит на компонент помещаются в *дестло*. Старшие 32 бит на компонент помещаются в *Десси*.
 
@@ -63,9 +63,9 @@ ms.locfileid: "104412175"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
-| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | да       |
-| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
+| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Да       |
+| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Да       |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Нет        |
@@ -74,7 +74,7 @@ ms.locfileid: "104412175"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
