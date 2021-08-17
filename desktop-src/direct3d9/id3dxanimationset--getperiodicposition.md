@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: a3c4f2e8e57efdfe0681b8ae691e0b5de42624e1
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8451e3332b61d7e6e993de7df0832a78c0c45c0240633fd5f421998816f7f26f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104355933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119122065"
 ---
 # <a name="id3dxanimationsetgetperiodicposition-method"></a>Метод ID3DXAnimationSet:: Жетпериодикпоситион
 
@@ -55,7 +55,7 @@ DOUBLE GetPeriodicPosition(
 
 Временной интервал, измеряемый в промежутке времени набора анимации. Это значение будет ограничено периодом набора анимации.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значение времени, возвращаемое этим методом, можно использовать в качестве параметра Периодикпоситион [**ID3DXAnimationSet:: жетсрт**](id3dxanimationset--getsrt.md).
 
@@ -65,7 +65,7 @@ DOUBLE GetPeriodicPosition(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9anim. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9anim. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

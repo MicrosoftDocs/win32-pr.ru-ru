@@ -54,16 +54,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fc6c43862b498fe5828d2746666c5e414de4c71e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d04e41845bc3c7ebb32b5b6300c5ccd1bc9d1444ef86497e613bc833c220cec1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104489123"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117757441"
 ---
 # <a name="imsrdpclientadvancedsettingsshadowbitmap-property"></a>Свойство Имсрдпклиентадванцедсеттингс:: Шадовбитмап
 
-\[Данное свойство не поддерживается. Начиная с Windows Server 2008 и Windows 7, вызовы **шадовбитмап** всегда возвращают **\_ значение false**.\]
+\[Данное свойство не поддерживается. начиная с Windows Server 2008 и Windows 7 вызовы **шадовбитмап** всегда возвращают **\_ значение FALSE**.\]
 
 Указывает, следует ли использовать теневые растровые изображения.
 
@@ -90,7 +90,7 @@ HRESULT get_ShadowBitmap(
 
 Задайте для этого параметра значение 0, чтобы отключить функцию, или ненулевое, чтобы включить эту функцию. Отключение этой функции обычно повышает производительность, но может привести к появлению артефактов при рисовании экранов.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Дополнительные сведения о веб-подключение к удаленному рабочему столу см. в разделе [требования для веб-подключение к удаленному рабочему столу](requirements-for-remote-desktop-web-connection.md).
 

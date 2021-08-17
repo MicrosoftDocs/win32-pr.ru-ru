@@ -4,12 +4,12 @@ description: Интерфейс использованием метода ibackg
 ms.assetid: 393EF1F1-940A-489E-826D-E125C2B3D8BF
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f923b1e3bf2874c6672e3d2bccea663cd937f9b7
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 3c65ac375080373222b0acbf32ee9cf36d8f64a31e58ff27e42914901f5ccdaf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105694074"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119609724"
 ---
 # <a name="ibackgroundcopyjob-methods-do"></a>Методы использованием метода ibackgroundcopyjob (DO)
 

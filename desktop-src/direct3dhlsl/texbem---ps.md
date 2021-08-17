@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f026819b268836fd7d4c1d550033ceefdf0bbbf9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 183036a56d905eed8d0d0a237445fb0f8e42fe402edabb6f6639243749b92240
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104984008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119367344"
 ---
 # <a name="texbem---ps"></a>тексбем-PS
 
@@ -29,14 +29,14 @@ ms.locfileid: "104984008"
 
 
 
- 
+ 
 
-где
+where
 
 -   DST — это регистр назначения.
 -   src является исходным регистром.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -46,7 +46,7 @@ ms.locfileid: "104984008"
 
 
 
- 
+ 
 
 Красный и зеленый цветовые данные в регистре src интерпретируется как данные пертурбатион (du, DV).
 
@@ -122,13 +122,13 @@ mov r0, t1          ; Output result
 -   Эта инструкция задает данные матрицы на стадии текстуры, которая является выборкой.
 -   Это отличается от функций конвейера с фиксированной функцией, где данные пертурбатион и матрицы занимают одну и ту же стадию текстуры.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера пикселей](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

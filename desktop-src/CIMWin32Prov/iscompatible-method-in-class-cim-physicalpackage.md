@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1957b8d0c1929ff6f7b4ef8c69fa55ea4ccc83b9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8479ce400fb9c4e52d51f9834ffbc7c1d57d7a44d21ebf37c88149c826911409
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655816"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117834661"
 ---
 # <a name="iscompatible-method-of-the-cim_physicalpackage-class"></a>Метод, совместимый с \_ классом CIM фисикалпаккаже
 
@@ -58,7 +58,7 @@ uint32 IsCompatible(
 
 Возвращает значение 0 (нуль) при успешном выполнении и любое другое число для указания ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В настоящее время этот метод не реализован инструментарием WMI. Чтобы использовать этот метод, его необходимо реализовать в собственном поставщике.
 

@@ -4,12 +4,12 @@ ms.assetid: a600e5a4-b2bb-45a6-8b86-5ea3caf7aa78
 title: Использование файлов конфигурации Per-Application
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd4d59d05f6a7b9b894a2577eb55cceffa49d267
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2bbc38a2433d2da6d2a39985523a5ebffd0d971102bc883e44ae24d9fcc165ce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119372344"
 ---
 # <a name="using-per-application-configuration-files"></a>Использование файлов конфигурации Per-Application
 
@@ -19,7 +19,7 @@ ms.locfileid: "105692014"
 -   Создайте файлы Application. manifest и application.config в корневом каталоге приложения COM+.
 
 > [!Note]  
-> Файлы конфигурации для каждого приложения доступны только начиная с Windows XP с пакетом обновления 2 (SP2) и Windows Server 2003.
+> файлы конфигурации для каждого приложения доступны только начиная с Windows XP с пакетом обновления 2 (sp2) и Windows Server 2003.
 
  
 
@@ -65,7 +65,7 @@ ms.locfileid: "105692014"
     <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" />
     ```
 
-11. В том же каталоге создайте файл с именем *Application*. config. В текстовом редакторе добавьте в этот файл следующий текст:
+11. В том же каталоге создайте файл с именем *application*.config. В текстовом редакторе добавьте в этот файл следующий текст:
 
     ``` syntax
     <?xml version="1.0"?>

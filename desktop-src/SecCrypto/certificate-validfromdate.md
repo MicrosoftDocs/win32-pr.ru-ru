@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 8637114ad471b2d938a94ba2d974703bdfb1f5d5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fae36cc51463d94021196139a09e9d410c68bf5af5aa5d29cc26ac263f82addc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668523"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117771080"
 ---
 # <a name="certificatevalidfromdate-property"></a>Свойство Certificate. Валидфромдате
 
@@ -58,7 +58,7 @@ Certificate.ValidFromDate As Date
 
 <dl> <dt>
 
-[**Certificate**](certificate.md)
+[**Сертификат**](certificate.md)
 </dt> </dl>
 
  

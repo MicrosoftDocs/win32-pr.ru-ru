@@ -4,12 +4,12 @@ ms.assetid: ACBD3CE1-6A2A-47EE-9482-7398ABE15F5C
 title: enrollCustomPKCS10_2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d20615826bb72b6282144b72a394cde41e35910
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fb88a2295217874a12da8b701a46f8dafe3db1cbf53d01273222e607195a789a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117780043"
 ---
 # <a name="enrollcustompkcs10_2"></a>enrollCustomPKCS10 \_ 2
 
@@ -17,7 +17,7 @@ ms.locfileid: "105682898"
 
 ## <a name="location"></a>Расположение
 
-При установке пакета средств разработки программного обеспечения (SDK) для Microsoft Windows этот пример устанавливается по умолчанию в папке *% ProgramFiles%* \\ Microsoft SDK \\ Windows \\ v 7.0 \\ Samples Security SSL \\ \\ Certificate \\ \\ enrollCustomPKCS10 \_ 2.
+при установке пакета Microsoft Windows Software Development Kit (SDK) образец устанавливается по умолчанию в папке *% ProgramFiles%* \\ Microsoft sdk \\ Windows \\ v 7.0 \\ samples Security ssl \\ \\ Certificate \\ \\ enrollCustomPKCS10 \_ 2.
 
 ## <a name="discussion"></a>Разговор
 
@@ -32,7 +32,7 @@ ms.locfileid: "105682898"
 7.  Задает объект состояния для закрытого ключа.
 8.  Пытается зарегистрировать [*запрос на сертификат*](/windows/desktop/SecGloss/c-gly).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

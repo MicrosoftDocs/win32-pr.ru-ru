@@ -3,8 +3,8 @@ title: Интерфейс IWMPMedia3 (VB и C) (WMP. h)
 description: Предоставляет дополнительные методы для доступа к свойствам элемента мультимедиа.
 ms.assetid: e16aa5e2-ae44-41c2-8c61-fb688c2e89e2
 keywords:
-- IWMPMedia3 (VB и C) интерфейс проигрывателя Windows Media
-- IWMPMedia3 (VB и C) интерфейс проигрывателя Windows Media, описание
+- проигрыватель Windows Media интерфейса IWMPMedia3 (VB и C)
+- проигрыватель Windows Media интерфейса IWMPMedia3 (VB и C), описание
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: edb5438ad4d80031d5b45c738c6b6cc9335018af
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1d536f792f0acc8003669be05448ec1f68f82830ccbadf75483bbbc6b84610ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685098"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119415931"
 ---
 # <a name="iwmpmedia3-vb-and-c-interface"></a>Интерфейс IWMPMedia3 (VB и C#)
 
@@ -61,13 +61,13 @@ ms.locfileid: "105685098"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>WMP. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>WMP. h</dt> </dl> |
 
 
 
@@ -75,7 +75,7 @@ ms.locfileid: "105685098"
 
 <dl> <dt>
 
-[**Интерфейсы для Visual Basic .NET и C #**](interfaces-for-visual-basic--net-and-c.md)
+[**интерфейсы для Visual Basic .net и C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**Интерфейс Ивмпмедиа (VB и C#)**](iwmpmedia--vb-and-c.md)

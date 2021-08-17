@@ -4,12 +4,12 @@ ms.assetid: b8b2d22f-c8ac-4ca8-bef8-057db50f2c30
 title: Функции служб сертификатов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25a3425d6efb9f7c6aa61336f5c8244323dcb7f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 528c22e9d2eb2522003b8fd08964b84f045634ff5b4caf777edf74feab227884
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117771154"
 ---
 # <a name="certificate-services-features"></a>Функции служб сертификатов
 

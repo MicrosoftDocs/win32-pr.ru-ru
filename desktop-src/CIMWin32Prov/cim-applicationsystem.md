@@ -24,12 +24,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a69c05b11c5f3c623824783ed13f42c0a3eab801
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: dac29acc878df097ed6a8376ea2184b09b83e6323b5114cb57a9df537c556047
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119322634"
 ---
 # <a name="cim_applicationsystem-class"></a>\_Класс CIM аппликатионсистем
 
@@ -67,13 +67,13 @@ class CIM_ApplicationSystem : CIM_System
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ аппликатионсистем** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -145,7 +145,7 @@ class CIM_ApplicationSystem : CIM_System
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -334,7 +334,7 @@ class CIM_ApplicationSystem : CIM_System
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **CIM \_ аппликатионсистем** является производным от [**\_ системы CIM**](cim-system.md).
 

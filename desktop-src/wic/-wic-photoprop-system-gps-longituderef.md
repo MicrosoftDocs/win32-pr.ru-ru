@@ -4,12 +4,12 @@ ms.assetid: 6e7b3b87-70e5-4c6a-a9b3-959eab38f1f0
 title: Политика метаданных фотографии System. GPS. Лонгитудереф
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72a93d37b59ca7c77bc05e049860cf4e2608eb60
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 00908f0c76305c745e1146677f32bee7b9724c08510f273c1627ed56e139d02b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674274"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931734"
 ---
 # <a name="systemgpslongituderef-photo-metadata-policy"></a>Политика метаданных фотографии System. GPS. Лонгитудереф
 
@@ -45,7 +45,7 @@ VT \_ LPWSTR
 
 
 
-| Заказ | Путь                         | Формат диска | Обязательно |
+| Номер | Путь                         | Формат диска | Обязательно |
 |-------|------------------------------|-------------|----------|
 | 1     | /КСМП/ексиф: Гпслонгитудереф    | Юникод     | Да      |
 | 2     | /APP1/IFD/GPS/ \\ {UShort = 3 \\ } | ASCII       | Нет       |
@@ -60,7 +60,7 @@ VT \_ LPWSTR
 
 
 
-| Заказ | Путь                          | Формат диска | Обязательно |
+| Номер | Путь                          | Формат диска | Обязательно |
 |-------|-------------------------------|-------------|----------|
 | 1     | /ИФД/КСМП/ексиф: Гпслонгитудереф | Юникод     | Да      |
 | 2     | /ИФД/ГПС/ \\ {UShort = 3 \\ }       | ASCII       | Нет       |
@@ -71,7 +71,7 @@ VT \_ LPWSTR
 
 ## <a name="remarks"></a>Remarks
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

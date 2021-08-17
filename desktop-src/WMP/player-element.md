@@ -3,19 +3,19 @@ title: Элемент PLAYER
 description: Элемент PLAYER
 ms.assetid: 009090b3-0055-4700-9078-0749da239674
 keywords:
-- Обложки проигрывателя Windows Media, элемент PLAYER
+- обложки проигрыватель Windows Media, элемент Player
 - обложки, элемент PLAYER
 - Элемент PLAYER
 - Справочник по обложкам, элементу игрока
 - элементы, проигрыватель
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a50eb4383eab279c28b75467a9ed803501e7720b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e8bef2e7758a0146ae6197d17dc3790011a758f9d2fa4e3d54af9461a8b870c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104132990"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118338120"
 ---
 # <a name="player-element"></a>Элемент PLAYER
 
@@ -31,7 +31,7 @@ ms.locfileid: "104132990"
 
 
 
- 
+ 
 
 Элемент **Player** может реализовывать обработчики событий для следующих событий, запускаемых из объекта **Player** .
 
@@ -40,15 +40,15 @@ ms.locfileid: "104132990"
 | Событие                                                                                            | Описание                                                                      |
 |--------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
 | [аудиолангуажечанже](player-player-audiolanguagechange.md)                                     | Происходит при изменении текущего звукового языка.                                  |
-| [ответов](player-player-buffering.md)                                                         | Происходит при начале или окончании буферизации проигрывателем Windows Media.                       |
+| [ответов](player-player-buffering.md)                                                         | происходит, когда проигрыватель Windows Media начинает или завершает буферизацию.                       |
 | [кдроммедиачанже](player-player-cdrommediachange.md)                                           | Происходит при изменении носителя компакт-диска.                                                |
 | [куррентитемчанже](player-player-currentitemchange.md)                                         | Происходит при изменении текущего элемента.                                            |
 | [куррентмедиаитемаваилабле](player-player-currentmediaitemavailable.md)                         | Происходит, когда текущий элемент мультимедиа станет доступным.                            |
 | [куррентплайлистчанже](player-player-currentplaylistchange.md)                                 | Происходит при изменении текущего списка воспроизведения.                                        |
 | [куррентплайлиститемаваилабле](player-player-currentplaylistitemavailable.md)                   | Происходит, когда текущий элемент списка воспроизведения станет доступным.                         |
 | [домаинчанже](player-player-domainchange.md)                                                   | Происходит при изменении домена DVD.                                              |
-| [Ошибка](player-player-error.md)                                                                 | Происходит, когда элемент управления проигрывателя Windows Media имеет условие ошибки.             |
-| [маркерхит](player-player-markerhit.md)                                                         | Происходит при обнаружении проигрывателем Windows Media маркера в клипе.                |
+| [Ошибка](player-player-error.md)                                                                 | происходит, когда элемент управления проигрыватель Windows Media имеет условие ошибки.             |
+| [маркерхит](player-player-markerhit.md)                                                         | происходит, когда проигрыватель Windows Media встречает маркер в клипе.                |
 | [медиачанже](player-player-mediachange.md)                                                     | Происходит при изменении элемента мультимедиа.                                                |
 | [медиаколлектионаттрибутестрингаддед](player-player-mediacollectionattributestringadded.md)     | Происходит при добавлении значения атрибута в библиотеку.                          |
 | [медиаколлектионаттрибутестрингчанжед](player-player-mediacollectionattributestringchanged.md) | Происходит при изменении значения атрибута в библиотеке.                        |
@@ -64,14 +64,14 @@ ms.locfileid: "104132990"
 | [плайлистколлектионплайлистремовед](player-player-playlistcollectionplaylistremoved.md)         | Происходит при удалении списка воспроизведения из коллекции списков воспроизведения.                  |
 | [плайстатечанже](player-player-playstatechange.md)                                             | Происходит при *проигрывателе*. **плайстате** изменения.                                      |
 | [поситиончанже](player-player-positionchange.md)                                               | Происходит при *проигрывателе*. *элементы управления*. **CurrentPosition** изменения.                     |
-| [ScriptCommand](player-player-scriptcommand.md)                                                 | Происходит при обнаружении проигрывателем Windows Media команды сценария, внедренной в файл. |
+| [ScriptCommand](player-player-scriptcommand.md)                                                 | происходит, когда проигрыватель Windows Media обнаруживает команду сценария, внедренную в файл. |
 | [StatusChange](player-player-statuschange.md)                                                   | Происходит при изменении значения свойства **Status** .                               |
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -81,9 +81,9 @@ ms.locfileid: "104132990"
 [**Справочник по программированию для обложки**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

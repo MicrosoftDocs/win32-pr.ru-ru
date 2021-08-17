@@ -4,12 +4,12 @@ ms.assetid: 7464dd20-5e79-4ca1-a6ae-9b706e9cb925
 title: БИТОВАЯ СТРОКА
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 115ead46663b94d6db2d089f1fae2fd8c40a2ac7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 056616a22cf2e683e943afef9369ed4c885963174aff0e72dea6ef718ddbdf7c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104571634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118905068"
 ---
 # <a name="bit-string"></a>БИТОВАЯ СТРОКА
 
@@ -32,7 +32,7 @@ ms.locfileid: "104571634"
 030d:       a0 fd f7 e5 7d 60 dd 72  68 9b f5 7b 05 8f 6d 1e
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

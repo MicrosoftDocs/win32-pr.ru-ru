@@ -4,12 +4,12 @@ ms.assetid: 03f00c19-ff81-478b-b545-048f3dbe5eda
 title: Обработка ошибок администрирования COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e7e5838d7fee7616a23f5e361df1aef65421492
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 965276fff68edf45ae27423ee4ed707e4bb7f1476b0237dab270538e0fa0f1be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105710747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118306712"
 ---
 # <a name="handling-com-administration-errors"></a>Обработка ошибок администрирования COM+
 
@@ -20,7 +20,7 @@ ms.locfileid: "105710747"
 
 ## <a name="error-codes"></a>Коды ошибок
 
-Код ошибок администрирования обрабатывается так же, как и любое сообщение об ошибке COM. В Microsoft Visual C++ эти коды возвращаются в виде значений **HRESULT** . В Microsoft Visual Basic они создаются как исключения, которые можно перехватить. Для программистов C++ коды ошибок администрирования COM+ определяются в файле Winerror. h. Для Visual Basic программистов они доступны в интегрированной среде разработки Visual Basic.
+Код ошибок администрирования обрабатывается так же, как и любое сообщение об ошибке COM. в Microsoft Visual C++ эти коды возвращаются в виде значений **HRESULT** . в Microsoft Visual Basic они создаются как исключения, которые можно перехватить. Для программистов C++ коды ошибок администрирования COM+ определяются в файле Winerror. h. для Visual Basic программистов они доступны в интегрированной среде разработки Visual Basic.
 
 ## <a name="errorinfo-collection"></a>Коллекция ErrorInfo
 
@@ -34,7 +34,7 @@ ms.locfileid: "105710747"
 
 Элементы в коллекции [**errorInfo**](errorinfo.md) предоставляют специальные свойства отчетов об ошибках Мажорреф и минорреф, которые подробноируют конкретную причину ошибки. Дополнительные сведения см. в разделе **errorInfo**.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

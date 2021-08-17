@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9shader.h
-ms.openlocfilehash: e90c0085035e78b9bc3ce1c48642157d8badc924
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 34a9238ac7ab401a25874d65390ccfacb4dba68a9ccc4438500a1171e25e5e13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119122834"
 ---
 # <a name="d3dxshader_constantinfo-structure"></a>\_Структура КОНСТАНТИНФО D3DXSHADER
 
@@ -43,7 +43,7 @@ typedef struct D3DXSHADER_CONSTANTINFO {
 
 <dl> <dt>
 
-**Name**
+**Имя**
 </dt> <dd>
 
 Тип: **[ **DWORD**](../winprog/windows-data-types.md)**
@@ -109,7 +109,7 @@ typedef struct D3DXSHADER_CONSTANTINFO {
 
 </dd> <dt>
 
-**DefaultValue**
+**Максимально**
 </dt> <dd>
 
 Тип: **[ **DWORD**](../winprog/windows-data-types.md)**
@@ -126,7 +126,7 @@ typedef struct D3DXSHADER_CONSTANTINFO {
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx9shader. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx9shader. h</dt> </dl> |
 
 
 

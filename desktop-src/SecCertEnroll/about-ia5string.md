@@ -4,12 +4,12 @@ ms.assetid: c1268524-4304-4c21-8f7d-f0a2826cd74e
 title: IA5String
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7562fab655462455b03d35041bdb8f572b064cac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1e5d602f50a7a3c22cd4a57d6531603307b9f14e02c537692c200a1b19fc361e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118904243"
 ---
 # <a name="ia5string"></a>IA5String
 
@@ -25,7 +25,7 @@ ms.locfileid: "104264487"
 
 Если строка содержит менее 128 байт, то поле **length** TLV Triplet требует только одного байта для указания длины содержимого. Если длина строки превышает 127 байт, то разряд 7 в поле **length** устанавливается в 1, а биты с 6 по 0 указывают количество дополнительных байтов, используемых для определения длины содержимого. Дополнительные сведения см. в разделе [кодированная Длина и байты значений](about-encoded-length-and-value-bytes.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

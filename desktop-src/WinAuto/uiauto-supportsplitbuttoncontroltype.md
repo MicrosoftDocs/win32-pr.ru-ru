@@ -21,12 +21,12 @@ keywords:
 - типы элементов управления, SplitButton
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c56cd6b22838dfa92ba25ce05e74d228f4173ac
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fb04f75a075fdd10b1cf31db01d09c6a9d9fd9a5d78c7c0499d9196a9ff8a956
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103778233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118825235"
 ---
 # <a name="splitbutton-control-type"></a>Тип элемента управления SplitButton
 
@@ -43,7 +43,7 @@ ms.locfileid: "103778233"
 -   [Обязательные шаблоны элементов управления](#required-control-patterns)
 -   [Обязательные события](#required-events)
 -   [Пример типа элемента управления SplitButton](#splitbutton-control-type-example)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="typical-tree-structure"></a>Типичная древовидная структура
 
@@ -93,7 +93,7 @@ ms.locfileid: "103778233"
 
 
 
- 
+ 
 
 ## <a name="relevant-properties"></a>Соответствующие свойства
 
@@ -108,8 +108,8 @@ ms.locfileid: "103778233"
 | [**UIA \_ кликкаблепоинтпропертид**](uiauto-automation-element-propids.md)             | См. примечания.      | Поддерживается при наличии ограничивающего прямоугольника. Если не все точки внутри ограничивающего прямоугольника являются щелчками, а элемент выполняет специализированное тестирование нажатия, переопределите и предоставьте точку для щелчка. |
 | [**UIA \_ контролтипепропертид**](uiauto-automation-element-propids.md)                   | **SplitButton** | Это значение одинаково для всех инфраструктур пользовательского интерфейса.                                                                                                                                                        |
 | [**UIA \_ хелптекстпропертид**](uiauto-automation-element-propids.md)                         | См. примечания.      | Текст справки может указывать результат активации разворачивающейся кнопки и обычно предоставляет тот же тип сведений, что и подсказка.                                                   |
-| [**UIA \_ исконтентелементпропертид**](uiauto-automation-element-propids.md)         | true            | Элемент управления "Разворачивающаяся кнопка" содержит сведения для конечного пользователя.                                                                                                                                      |
-| [**UIA \_ исконтролелементпропертид**](uiauto-automation-element-propids.md)         | true            | Элемент управления "Разворачивающаяся кнопка" является видимым для конечного пользователя.                                                                                                                                                 |
+| [**UIA \_ исконтентелементпропертид**](uiauto-automation-element-propids.md)         | TRUE            | Элемент управления "Разворачивающаяся кнопка" содержит сведения для конечного пользователя.                                                                                                                                      |
+| [**UIA \_ исконтролелементпропертид**](uiauto-automation-element-propids.md)         | TRUE            | Элемент управления "Разворачивающаяся кнопка" является видимым для конечного пользователя.                                                                                                                                                 |
 | [**UIA \_ искэйбоардфокусаблепропертид**](uiauto-automation-element-propids.md)   | См. примечания.      | Если элемент управления может получать фокус клавиатуры, он должен поддерживать это свойство.                                                                                                                            |
 | [**UIA \_ лабеледбипропертид**](uiauto-automation-element-propids.md)                       | NULL            | Элементы управления "Разворачивающаяся кнопка" не имеют меток со статическим текстом.                                                                                                                                               |
 | [**UIA \_ локализедконтролтипепропертид**](uiauto-automation-element-propids.md) | См. примечания.      | Локализованная строка, соответствующая типу элемента управления **SplitButton** . Значение по умолчанию — "разворачивающаяся кнопка" для en-US или English (США).                                                        |
@@ -117,7 +117,7 @@ ms.locfileid: "103778233"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Обязательные шаблоны элементов управления
 
@@ -132,7 +132,7 @@ ms.locfileid: "103778233"
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>Обязательные события
 
@@ -152,7 +152,7 @@ ms.locfileid: "103778233"
 
 
 
- 
+ 
 
 ## <a name="splitbutton-control-type-example"></a>Пример типа элемента управления SplitButton
 
@@ -207,9 +207,9 @@ ms.locfileid: "103778233"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -222,9 +222,9 @@ ms.locfileid: "103778233"
 [Общие сведения о модели автоматизации пользовательского интерфейса](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

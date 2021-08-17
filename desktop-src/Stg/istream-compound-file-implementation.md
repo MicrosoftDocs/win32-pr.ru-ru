@@ -6,12 +6,12 @@ keywords:
 - IStream Стрктд STG, реализация составного файла
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16d15e671521f4a1e81b78579bc1225eccb48898
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: a57a974e44e66d8709a002f9635c41f751e80ab1d3f3875f8eb129cef2b14847
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "105664785"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117961212"
 ---
 # <a name="istream---compound-file-implementation"></a>IStream — реализация составного файла
 
@@ -132,7 +132,7 @@ ms.locfileid: "105664785"
 -   Методы [**clone**](/windows/desktop/api/Objidl/nf-objidl-istream-clone) и [**CopyTo**](/windows/desktop/api/Objidl/nf-objidl-istream-copyto) не поддерживаются.
 -   Поддерживается метод [**stat**](/windows/desktop/api/Objidl/nf-objidl-istream-stat) , однако \_ должно быть указано значение статфлаг.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

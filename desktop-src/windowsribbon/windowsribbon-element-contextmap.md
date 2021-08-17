@@ -3,7 +3,7 @@ title: Контекстмап, элемент
 description: Представляет сопоставление ContextMenu и Минитулбар пары.
 ms.assetid: 84379578-24c6-4bf7-8dcf-8e21e5665d29
 keywords:
-- Лента Windows для элемента Контекстмап
+- элемент контекстмап Windows лента
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4754fc75ca09e39cdc7eabbeae2a0a2d2630c31f
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: aa8fd3a6b082d4bba54fdc3d43848d6a6cbe5ff6deacb4e041dba5cb4c0e3b09
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443015"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931464"
 ---
 # <a name="contextmap-element"></a>Контекстмап, элемент
 
@@ -193,7 +193,7 @@ ms.locfileid: "111443015"
 ## <a name="element-information"></a>Сведения об элементе
 
 
-* **Минимальная поддерживаемая система**: Windows 7
+* **минимальная поддерживаемая система**: Windows 7
 * **Может быть пустым**: Да
 
 

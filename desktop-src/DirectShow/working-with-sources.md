@@ -4,12 +4,12 @@ ms.assetid: add946ec-604c-4bfe-aff8-2f172ba44f73
 title: Работа с источниками
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6db17aceb0eef409901bd2ad179fe3a67c712299
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a155fa0537521741f31397385e54efe4a1739e93c89fb86c0b280f5c063022ed
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104346375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119964274"
 ---
 # <a name="working-with-sources"></a>Работа с источниками
 
@@ -17,7 +17,7 @@ ms.locfileid: "104346375"
 
 Исходный объект представляет один поток мультимедиа из исходного файла. Источники предоставляют необработанный материал для проекта. Все остальное на временной шкале существует либо для предоставления структуры (дорожек, композиций и групп), либо для изменения источников (эффектов и переходов).
 
-В этой статье описываются различные сведения, относящиеся к источникам в Microsoft® DirectShow® Editing Services (DES). Сведения о базовых шагах, необходимых для добавления источника на временную шкалу, см. в разделе [Построение временной шкалы](constructing-a-timeline.md).
+в этой статье описываются различные сведения, относящиеся к источникам в Microsoft® DirectShow® editing Services (DES). Сведения о базовых шагах, необходимых для добавления источника на временную шкалу, см. в разделе [Построение временной шкалы](constructing-a-timeline.md).
 
 Эта статья состоит из следующих разделов:
 
@@ -26,11 +26,11 @@ ms.locfileid: "104346375"
 -   [Использование указателя мультимедиа](using-the-media-locator.md)
 -   [Другие исходные объекты](other-source-objects.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Использование служб редактирования DirectShow](using-directshow-editing-services.md)
+[использование служб DirectShow editing Services](using-directshow-editing-services.md)
 </dt> </dl>
 
  

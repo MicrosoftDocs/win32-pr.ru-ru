@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 58354e35ca8456f6fde57d2f2567a6b6a202f6d7
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: db869d277c98c3e99bd2bbc54f7e40ac86770f647e8258ee5718a96eaedec18c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343039"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118096619"
 ---
 # <a name="d3dswapeffect-enumeration"></a>Перечисление D3DSWAPEFFECT
 
@@ -75,7 +75,7 @@ typedef enum D3DSWAPEFFECT {
 
 Различия между Direct3D 9 и Direct3D 9Ex:
 
-- Наложение D3DSWAPEFFECT \_ доступно только в Direct3D9Ex, работающем в Windows 7 (или более текущей операционной системе).
+- наложение D3DSWAPEFFECT \_ доступно только в Direct3D9Ex, работающем в Windows 7 (или более текущей операционной системы).
 
 </dd> <dt>
 
@@ -118,7 +118,7 @@ typedef enum D3DSWAPEFFECT {
 |-------------------|----------------------------------------------------------------------------------------|
 | Заголовок<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 [Перечисления Direct3D](dx9-graphics-reference-d3d-enums.md)
 

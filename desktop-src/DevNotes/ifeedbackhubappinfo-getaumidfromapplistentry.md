@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 2da6b428db156ddf18483951701216942aebbeaf
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ac5609ecee2be86f5cc3600147e90ebcd9087b181a02fcbf09a539d32d14b338
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118404550"
 ---
 # <a name="ifeedbackhubappinfogetaumidfromapplistentry-method"></a>Метод Ифидбаккхубаппинфо:: Жетаумидфромапплистентри
 
@@ -63,12 +63,12 @@ virtual void GetAumidFromAppListEntry(
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2016\]<br/> |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>          |
+| Минимальная версия сервера<br/> | Windows Server 2016 \[ только классические приложения\]<br/> |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

@@ -3,7 +3,7 @@ title: Сообщение WM_CAP_FILE_SAVEDIB (VFW. h)
 description: '\_Сообщение саведиб с закреплением WM \_ \_ копирует текущий кадр в DIB-файл. Это сообщение можно отправить явно или с помощью макроса Капфилесаведиб.'
 ms.assetid: bf6d343b-9236-4e68-bbda-2ed6e197a5cb
 keywords:
-- WM_CAP_FILE_SAVEDIB сообщения Windows мультимедиа
+- сообщение WM_CAP_FILE_SAVEDIB Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2155febfdac1b3f24133df47ce206c8e5ec33d3a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 66d6dd9b8675e1fb8625349afc4b3f86347d71d605407d5c99fbca291ade744d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104492951"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119803814"
 ---
 # <a name="wm_cap_file_savedib-message"></a>\_ \_ \_ Сообщение саведиба WM Cap File
 
@@ -51,7 +51,7 @@ lParam = (LPARAM) (LPVOID) (LPSTR) (szName);
 
 Если возникает ошибка и функция обратного вызова ошибки устанавливается с помощью сообщения [**\_ \_ \_ \_ об ошибке обратного вызова**](wm-cap-set-callback-error.md) , то вызывается функция обратного вызова ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если драйвер записи передает кадры в сжатом формате, этот вызов пытается распаковать кадр перед записью файла.
 

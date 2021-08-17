@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: d386251c6d7f674d3850de275559bcb87ea6d61e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 63ddc2cd793c786cff1f7c5bb983cdba525fb52f940723f826ab4b44b89bf1ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117770297"
 ---
 # <a name="certificatestatuseku-method"></a>Цертификатестатус. EKU, метод
 
@@ -43,7 +43,7 @@ CertificateStatus.EKU()
 
 Этот метод возвращает объект [**EKU**](eku.md) , который указывает на параметр расширенного использования ключа [*сертификата*](../secgloss/c-gly.md). Параметр EKU устанавливает допустимое использование сертификата. Для каждого сертификата можно задать только один объект **EKU** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Метод [**цертификатестатус. аппликатионполиЦиес**](certificatestatus-applicationpolicies.md) предоставляет те же функциональные возможности, что и этот метод, но позволяет задавать множество параметров вместо одного. Если коллекция [**OID**](oids.md) , возвращенная методом **аппликатионполиЦиес** , содержит один или несколько объектов [**OID**](oid.md) , то объект [**EKU**](eku.md) , возвращаемый этим методом, игнорируется. Вместо этого метода используйте метод **аппликатионполиЦиес** .
 

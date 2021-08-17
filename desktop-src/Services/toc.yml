@@ -3,9 +3,9 @@
   items:
     - name: Новые возможности служб для Windows 8
       href: what-s-new-in-services-for-windows-8.md
-    - name: Новые возможности служб для Windows 7
+    - name: новые возможности служб для Windows 7
       href: what-s-new-in-services.md
-    - name: Изменения служб для Windows Vista
+    - name: изменения служб для Windows Vista
       href: service-changes-for-windows-vista.md
     - name: О службах
       href: about-services.md

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: f889e0d3754cc1321ffa59eba294038b87991489
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0075e7a0b823f0d747859a4717a440e0c244fde76076e4b285c7d1b2a7e78d00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103821428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119120808"
 ---
 # <a name="id3dxmeshoptimizeinplace-method"></a>Метод ID3DXMesh:: Оптимизеинплаце
 
@@ -95,7 +95,7 @@ HRESULT OptimizeInplace(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК. В случае сбоя метода возвращаемое значение может быть одним из следующих: D3DERR \_ инвалидкалл, D3DXERR \_ Каннотаттрсорт, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Перед выполнением **ID3DXMesh:: оптимизеинплаце** приложение должно создать буфер соседа путем вызова [**ID3DXBaseMesh:: женератеаджаценци**](id3dxbasemesh--generateadjacency.md). В буфере соседка содержатся смежные данные, например список краев и сторон, расположенных рядом друг с другом.
 
@@ -110,7 +110,7 @@ HRESULT OptimizeInplace(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

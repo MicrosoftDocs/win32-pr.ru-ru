@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: da814c8321e35189594bc350bd1e278a219bac59
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 96ff327e84d3a5b6c66011506c162810f0fcc91d0cafe4053266aa8928f6e5a2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104496425"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119925114"
 ---
 # <a name="change-method-of-the-win32_systemdriver-class"></a>Метод Change \_ класса Win32 SystemDriver
 
@@ -182,7 +182,7 @@ uint32 Change(
 *StartMode* \[ окне\]
 </dt> <dd>
 
-Режим запуска базовой службы Windows.
+режим запуска базовой службы Windows.
 
 <dt>
 
@@ -387,7 +387,7 @@ uint32 Change(
 **Другие** (25 4294967295)
 </dt> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы изменить службу с сетевой службы на локальную систему, используйте следующие значения параметров *StartName* и *стартпассворд* :
 
@@ -418,7 +418,7 @@ StartPassword = "" // - empty string, not NULL
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
 | Пространство имен<br/>                | Корневой \\ CIMV2<br/>                                                                  |
-| Header<br/>                   | <dl> <dt>Мбнапи. h</dt> </dl>     |
+| Заголовок<br/>                   | <dl> <dt>Мбнапи. h</dt> </dl>     |
 | MOF<br/>                      | <dl> <dt>CIMWin32. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
 

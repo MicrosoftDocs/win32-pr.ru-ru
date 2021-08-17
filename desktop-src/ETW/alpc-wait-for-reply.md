@@ -13,12 +13,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 898077511db25ec7f53bc075ecb845d04e540626
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 05b2f2e867e3e95e8ba0916ad288363db7ad8b6a7753f956df5415529d8ec5e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119070314"
 ---
 # <a name="alpc_wait_for_reply-class"></a>ALPC. \_ Ожидание \_ \_ класса ответа
 
@@ -36,13 +36,13 @@ class ALPC_Wait_For_Reply : ALPC
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Классу « **\_ ожидание в классе \_ \_ ответов** » в ALPC имеются следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Эти свойства имеют класс **ALPC \_ Wait \_ для класса \_ Reply** .
 
@@ -67,8 +67,8 @@ class ALPC_Wait_For_Reply : ALPC
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

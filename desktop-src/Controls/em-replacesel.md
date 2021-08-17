@@ -3,7 +3,7 @@ title: Сообщение EM_REPLACESEL (Winuser. h)
 description: Заменяет выбранный текст в элементе управления "поле ввода" или элементе управления Rich Edit указанным текстом.
 ms.assetid: 525e6f5a-f52f-4bab-bc76-caa484729897
 keywords:
-- Элементы управления Windows для EM_REPLACESEL сообщений
+- элементы управления Windows сообщений EM_REPLACESEL
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d9745b870a310626a6cbbbddbef118a63c64479
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 478550432aa8c03a081e8de214cdd7e8337a46eca2676a0531b177a81ff20a54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117831185"
 ---
 # <a name="em_replacesel-message"></a>\_Сообщение РЕПЛАЦЕСЕЛ EM
 
@@ -47,7 +47,7 @@ ms.locfileid: "104137626"
 
 Это сообщение не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте сообщение **EM \_ реплацесел** , чтобы заменить только часть текста в элементе управления "поле ввода". Чтобы заменить весь текст, используйте сообщение [**WM \_ SETTEXT**](/windows/desktop/winmsg/wm-settext) .
 
@@ -63,9 +63,9 @@ ms.locfileid: "104137626"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Header<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

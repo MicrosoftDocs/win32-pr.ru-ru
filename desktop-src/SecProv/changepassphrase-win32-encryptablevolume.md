@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: f28a78c6cb923b4f8934ec5cc8962b91b7f5139f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3dfb58f7a4e71cc43aad0aba74dd01a5e83725a0c13626e213a6f399140d4c86
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118892661"
 ---
 # <a name="changepassphrase-method-of-the-win32_encryptablevolume-class"></a>Метод Чанжепассфрасе \_ класса Win32 енкриптаблеволуме
 
@@ -96,8 +96,8 @@ uint32 ChangePassphrase(
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 7 Корпоративная, \[ только классические приложения Windows 7 Ultimate\]<br/>                               |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                                                 |
+| Минимальная версия клиента<br/> | Windows 7 Корпоративная, только Windows 7 Максимальная классические \[ приложения\]<br/>                               |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                                                 |
 | Пространство имен<br/>                | Корневой \\ CIMV2 \\ безопасности \\ микрософтволуминкриптион<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32 \_ енкриптаблеволуме. mof</dt> </dl> |
 
