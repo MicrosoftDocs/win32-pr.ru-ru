@@ -3,7 +3,7 @@ title: Сообщение RB_GETBANDINFO (Коммктрл. h)
 description: Извлекает сведения о заданной полосе в элементе управления "Главная панель".
 ms.assetid: c2a76c91-7d44-4278-823d-bd263520e7a8
 keywords:
-- Элементы управления Windows для RB_GETBANDINFO сообщений
+- элементы управления Windows сообщений RB_GETBANDINFO
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b87715cf61b4eb2726eab83d500330721f41719f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3b0ae509699c23ad24b9b97451178f4711ab52176a9c15aeef757bab85c861c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136639"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118409445"
 ---
 # <a name="rb_getbandinfo-message"></a>\_Сообщение ЖЕТБАНДИНФО RB
 
@@ -55,8 +55,8 @@ ms.locfileid: "104136639"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **RB \_ ЖЕТБАНДИНФОВ** (Юникод) и **RB \_ жетбандинфоа** (ANSI)<br/>             |
 

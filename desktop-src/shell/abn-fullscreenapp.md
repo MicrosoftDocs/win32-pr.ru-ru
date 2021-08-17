@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: d73a30c9f40fc494603afd4a6cbb990f81290c8c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 55bba51153ff90dfa69b870468a1c5002121eaccf45559821c6031aba35d4b98
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104143990"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090794"
 ---
 # <a name="abn_fullscreenapp-message"></a>\_Сообщение АБН фуллскринапп
 
@@ -51,7 +51,7 @@ ABN_FULLSCREENAPP
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 При открытии полноэкранного приложения панель приложений должен быть направлен в нижнюю часть z-порядка. Когда он закрывается, панель приложений должен восстановить свою координату z-порядка.
 
@@ -61,7 +61,7 @@ ABN_FULLSCREENAPP
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                           |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                           |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                  |
 | Заголовок<br/>                   | <dl> <dt>Шеллапи. h</dt> </dl> |
 

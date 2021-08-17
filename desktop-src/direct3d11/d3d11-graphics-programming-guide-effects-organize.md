@@ -4,12 +4,12 @@ description: При использовании Direct3D 11 состояние в
 ms.assetid: e5057f94-69dd-4219-a5f4-569e48502475
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5a0523dd8abdabde29a5485b8d3b1e6d13b9429
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1d36bf99887e96dc5854778edb24f0ceacbc0cdf5a7994532bc2ebd94137fe8b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104997103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119126098"
 ---
 # <a name="organizing-state-in-an-effect-direct3d-11"></a>Упорядочение состояния в силе (Direct3D 11)
 
@@ -25,7 +25,7 @@ ms.locfileid: "104997103"
 
 
 
- 
+ 
 
 Для этапов шейдера, где число изменений состояния должно быть более управляемым приложением, состояние делится на постоянное состояние буфера, состояние выборки, состояние ресурса шейдера и неупорядоченное состояние представления доступа (для шейдеров пикселей и вычислений). Это позволяет приложению, которое тщательно спроектировано для обновления только изменяемого состояния, что повышает производительность за счет уменьшения объема данных, которые необходимо передать в GPU.
 
@@ -170,13 +170,13 @@ fxgroup g0
 
 Синтаксис шейдеров эффектов более подробно описан в [синтаксисе методики влияния (Direct3D 11)](d3d11-effect-technique-syntax.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Эффекты (Direct3D 11)](d3d11-graphics-programming-guide-effects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -10,16 +10,16 @@ keywords:
 - ключевые кадры
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23006eef1e51d8bc63f2d55cac22e09a2052d83e
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 80d400c0ee4ba97aa7de559b1394dbe5c9fb2a974c124924aeae0839b1b4dae0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104487357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118196500"
 ---
 # <a name="to-force-key-frame-insertion"></a>Принудительная Вставка Key-Frame
 
-Кодек Windows Media Video 9 поддерживает принудительную вставку по ключевым кадрам. При передаче образца в модуль записи можно указать, что он должен быть закодирован в виде [*ключевого кадра*](wmformat-glossary.md).
+кодек Windows Media Video 9 поддерживает принудительную вставку по ключевым кадрам. При передаче образца в модуль записи можно указать, что он должен быть закодирован в виде [*ключевого кадра*](wmformat-glossary.md).
 
 Чтобы принудительно вставить ключевые кадры для примера, выполните следующие действия.
 
@@ -31,7 +31,7 @@ ms.locfileid: "104487357"
 6.  Задайте пример в качестве принудительного ключевого кадра, вызвав метод [**INSSBuffer3:: SetProperty**](/previous-versions/windows/desktop/api/Wmsbuffer/nf-wmsbuffer-inssbuffer3-setproperty) , чтобы установить \_ свойство WM сампликстенсионгуид \_ аутпутклеанпоинт. Это свойство имеет логическое значение. Задайте для него **значение true**.
 7.  Передайте интерфейс буфера записи, а также входной номер и время выборки с помощью метода [**ивмвритер:: вритесампле**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-writesample) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -47,9 +47,9 @@ ms.locfileid: "104487357"
 [**Запись файлов ASF**](writing-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

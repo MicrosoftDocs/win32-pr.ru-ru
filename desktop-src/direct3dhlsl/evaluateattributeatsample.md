@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b183f86599d08a6892e33c169b938dc09a2b55de
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 29191a3790afee2d37fee3d2ee8fb58673ff487af178bd8b1e2b33f26f1ec44c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103783678"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982484"
 ---
 # <a name="evaluateattributeatsample-function"></a>Функция Евалуатеаттрибутеатсампле
 
@@ -28,8 +28,8 @@ ms.locfileid: "103783678"
 
 ``` syntax
 numeric EvaluateAttributeAtSample(
-  in attrib numeric value,
-  in uint sampleindex
+  in attrib numeric value,
+  in uint sampleindex
 );
 ```
 
@@ -55,7 +55,7 @@ numeric EvaluateAttributeAtSample(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Режим интерполяции может быть **линейным** или **линейным \_ без \_ перспективы** для переменной. Использование **центроид** или **Sample** не учитывается. Также разрешены атрибуты с интерполяцией константы. в этом случае пример индекса игнорируется.
 
@@ -67,11 +67,11 @@ numeric EvaluateAttributeAtSample(
 
 | Модель шейдера                                                                | Поддерживается |
 |-----------------------------------------------------------------------------|-----------|
-| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | да       |
+| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | Да       |
 
 
 
- 
+ 
 
 Эта функция поддерживается в следующих типах шейдеров:
 
@@ -83,7 +83,7 @@ numeric EvaluateAttributeAtSample(
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -95,9 +95,9 @@ numeric EvaluateAttributeAtSample(
 [Модель шейдера 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

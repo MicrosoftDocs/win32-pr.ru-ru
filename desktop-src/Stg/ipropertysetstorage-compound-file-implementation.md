@@ -6,12 +6,12 @@ keywords:
 - IPropertySetStorage Стрктд STG, реализации, составной файл
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9053a7cf6bf1ae7e4230b15eb0117c428acb08da
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ec3bc0d423b304b6d456ccddab158a48ba0b6d5f3f310d293c6aed0dedb2a556
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103792961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119662664"
 ---
 # <a name="ipropertysetstorage-compound-file-implementation"></a>Реализация файла IPropertySetStorage-Compound
 
@@ -43,23 +43,23 @@ ms.locfileid: "103792961"
 
 Создает объект, используемый для перечисления структур [**статпропсетстг**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg) . Каждая структура **статпропсетстг** предоставляет данные об отдельном наборе свойств.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Начиная с Windows 2000, реализация составного файла [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) поддерживает простой режим. Простой режим обозначается указанием \_ простого флага стгм для функций [**Стгкреатесторажеекс**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex) и [**стгопенсторажеекс**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex) . Если составной файл открыт в простом режиме, связанная реализация **IPropertySetStorage** ограничена следующим образом:
+начиная с Windows 2000, реализация составного файла [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) поддерживает простой режим. Простой режим обозначается указанием \_ простого флага стгм для функций [**Стгкреатесторажеекс**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex) и [**стгопенсторажеекс**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex) . Если составной файл открыт в простом режиме, связанная реализация **IPropertySetStorage** ограничена следующим образом:
 
 -   Можно создавать только простые наборы свойств. Это значит, что при указании \_ НЕпростого значения пропсетфлаг в параметре *грффлагс* для метода [**IPropertySetStorage:: Create**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-create) возникает ошибка.
 -   После создания составного файла с помощью [**стгкреатесторажеекс**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex) с использованием стгм \_ Simple и запроса к интерфейсу [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) можно вызвать [**IPropertySetStorage:: Create**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-create) один раз. Затем необходимо освободить интерфейс [**ипропертистораже**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) перед повторным вызовом метода **CREATE** . Дополнительные сведения о режиме Simple см. в разделе [**константы стгм**](stgm-constants.md).
 -   Метод [**IPropertySetStorage:: Open**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-open) нельзя использовать для открытия набора свойств после использования [**стгкреатесторажеекс**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex) для создания объекта хранилища. Вместо этого необходимо использовать [**стгопенсторажеекс**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex) перед запросом на [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) и вызовом метода **Open** .
 -   После открытия составного файла с [**стгопенсторажеекс**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex) с помощью \_ флага стгм Simple и запроса к интерфейсу [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) можно открыть по одному набору свойств за раз с помощью [**IPropertySetStorage:: Open**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-open). Кроме того, при открытом наборе свойств может быть невозможно увеличить общий размер набора свойств.
 
-Простые наборы свойств не могут быть транзакционными. Нельзя указать СТГМ \_ в транзакции в параметре *Грфмоде* методов [**CREATE**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-create) и [**Open**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-open) , если в \_ параметре *грффлагс* не указано пропсетфлаг неsimple. Имейте в виду, что простые и непростые наборы свойств не связаны с наборами свойств простого режима, описанными выше. Дополнительные сведения о простых и непростых наборах свойств см. [в разделе объекты хранилища и потока для набора свойств](storage-vs--stream-for-a-property-set.md).
+Простые наборы свойств не могут быть транзакционными. Нельзя указать СТГМ \_ в транзакции в параметре *Грфмоде* методов [**CREATE**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-create) и [**Open**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-open) , если в \_ параметре *грффлагс* не указано пропсетфлаг неsimple. Имейте в виду, что простые и непростые наборы свойств не связаны с наборами свойств простого режима, описанными выше. дополнительные сведения о простых и непростых наборах свойств см. [в разделе служба хранилища и потоковые объекты для набора свойств](storage-vs--stream-for-a-property-set.md).
 
 > [!Note]  
 > Наборы свойств Документсуммаринформатион и Пользователяопределенные являются уникальными в том, что они могут иметь два раздела набора свойств. Дополнительные сведения см. в описании [наборов свойств документсуммаринформатион и пользователяопределенные](the-documentsummaryinformation-and-userdefined-property-sets.md).
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -81,6 +81,6 @@ ms.locfileid: "103792961"
 [**статпропсетстг**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

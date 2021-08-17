@@ -1,17 +1,17 @@
 ---
-title: Обход списка кучи
+title: Обход списка куч
 description: Примеры, показывающие, как получить список куч для текущего процесса.
 ms.assetid: cfa1d2a4-fec0-4089-9351-e0a26f9ecfe3
 ms.topic: article
 ms.date: 03/23/2021
-ms.openlocfilehash: 5cc555f9a94166fa181309985d8a49c686baf06c
-ms.sourcegitcommit: 4af3e9ec3142ba499d20ed8b174c2b219c5eacd2
+ms.openlocfilehash: 868526c76ee85095f5b52cc9238e9e16015bfb3a81c9888da148f1d5ecc644aa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "105994498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119419254"
 ---
-# <a name="traversing-the-heap-list"></a>Обход списка кучи
+# <a name="traversing-the-heap-list"></a>Обход списка куч
 
 В следующем примере получается список куч для текущего процесса. Он создает моментальный снимок куч с помощью функции [**CreateToolhelp32Snapshot**](/windows/desktop/api/TlHelp32/nf-tlhelp32-createtoolhelp32snapshot) , а затем проходит по списку с помощью функций [**Heap32ListFirst**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32listfirst) и [**Heap32ListNext**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32listnext) . Для каждой кучи используются функции [**Heap32First**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32first) и [**Heap32Next**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32next) для прохода по блокам кучи.
 

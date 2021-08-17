@@ -7,12 +7,12 @@ keywords:
 - Active Directory примеры Active Directory, привязка к хорошо известным объектам
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f60a1bbf457bab5b6a22a1b4b5470a4f4dbb4c0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fb113e13889dfebdd34adc553ea21693684d6848f9d25bc2bb4c436fe0b71b5e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104486617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118191287"
 ---
 # <a name="example-code-for-binding-to-well-known-objects"></a>Пример кода для привязки к хорошо известным объектам
 
@@ -98,9 +98,9 @@ HRESULT BindToWellKnownObject(LPCWSTR pwszGUID, IADs **ppObject)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

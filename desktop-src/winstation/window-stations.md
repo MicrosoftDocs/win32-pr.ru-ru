@@ -6,12 +6,12 @@ keywords:
 - объекты оконной станции
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee2048015e4b0c687932c4d01aafe31127e2141e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5d55e43a0db21b23a6704949f0d72a184c9034f625689b800814ac8a93891b7c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118199695"
 ---
 # <a name="window-stations"></a>Оконные станции
 
@@ -27,6 +27,6 @@ ms.locfileid: "104070176"
 -   [Обработка подключения к оконной станции](process-connection-to-a-window-station.md)
 -   [Права доступа и безопасность оконной станции](window-station-security-and-access-rights.md)
 
- 
+ 
 
- 
+ 

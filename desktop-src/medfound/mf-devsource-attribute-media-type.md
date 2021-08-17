@@ -4,12 +4,12 @@ ms.assetid: 33a1b546-ece2-44ef-a1c0-5579c32be0bc
 title: Атрибут MF_DEVSOURCE_ATTRIBUTE_MEDIA_TYPE (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a05283f33fa3b3bf4b9e339b830c2ae6a948ea82
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: eb4685f419658ecf77782a4cef770fd205119bb6cfd95523edb7fbbe001fd700
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105693859"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105040"
 ---
 # <a name="mf_devsource_attribute_media_type-attribute"></a>\_ \_ \_ Атрибут типа носителя для атрибута MF девсаурце \_
 
@@ -25,7 +25,7 @@ ms.locfileid: "105693859"
 
 Чтобы задать этот атрибут, вызовите [**имфаттрибутес:: SetBlob**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setblob).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут содержит пару идентификаторов GUID: основной тип и подтип. Эти GUID описывают формат вывода по умолчанию для устройства. Устройство может поддерживать дополнительные выходные форматы.
 
@@ -46,8 +46,8 @@ ms.locfileid: "105693859"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                         |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                            |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                         |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                            |
 | Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 

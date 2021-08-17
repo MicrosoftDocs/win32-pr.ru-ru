@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c0002f82873de1c56ce5a7d79c9adb13bdf7ebc0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c39a857fc9a7a108cea05060caf86ce61479a382c5160f4f051c11423bc6a5d3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104355493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120095174"
 ---
 # <a name="incrementcounter-function"></a>Функция Инкременткаунтер
 
@@ -41,7 +41,7 @@ uint IncrementCounter(void);
 
 Предварительно увеличенное значение счетчика.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Чтобы этот метод работал, в связанном представлении неупорядоченного доступа должен быть задан [**\_ \_ \_ \_ Счетчик флагов UAV buffer D3D11**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_buffer_uav_flag) .
 
@@ -51,7 +51,7 @@ uint IncrementCounter(void);
 
 
 
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
+| Вершина | Поверхности | Домен | Геометрия | Пиксель | Службы вычислений |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     | x       |
 
@@ -65,7 +65,7 @@ uint IncrementCounter(void);
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Хттпсерв. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Хттпсерв. h</dt> </dl> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 5e619ccf-e7a1-427b-8cc7-de1417c826c5
 title: System. DateModified
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7df04065829082529ca37eb528fe98a76a9bfb12
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b11983a81fc690baf46f46d685265b5d67426ac0e253642ef49de1974f0fef45
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105719534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119098055"
 ---
 # <a name="systemdatemodified"></a>System. DateModified
 
@@ -46,11 +46,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

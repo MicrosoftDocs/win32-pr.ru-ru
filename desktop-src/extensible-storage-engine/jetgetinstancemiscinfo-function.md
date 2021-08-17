@@ -18,23 +18,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ed63c6a5c6d3b2488f7226da0a1f23e1adb39e09
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1ada8dfcd69a4e1933bcb60756d1b812f3b358cd37a3cda914819d2a9f6f4275
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081180"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119472354"
 ---
 # <a name="jetgetinstancemiscinfo-function"></a>Функция ЖетжетинстанцемисЦинфо
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jetgetinstancemiscinfo-function"></a>Функция ЖетжетинстанцемисЦинфо
 
 Функция **жетжетинстанцемисЦинфо** получает сведения об экземпляре, в то время как экземпляр находится в режиме «в сети».
 
-**Windows Vista: жетжетинстанцемисЦинфо** появился в Windows Vista.
+**Windows vista: жетжетинстанцемисЦинфо** появился в Windows Vista.
 
 ```cpp
     JET_ERR JET_API JetGetInstanceMiscInfo(
@@ -87,7 +87,7 @@ _**Применимо к:** Windows | Windows Server_
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. Дополнительные сведения о возможных ошибках ESE см. в разделе [ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -127,11 +127,11 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista.</p></td>
+<td><p>требуется Windows Vista.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008.</p></td>
+<td><p><strong>Сервер</strong></p></td>
+<td><p>требуется Windows Server 2008.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>
@@ -149,7 +149,7 @@ _**Применимо к:** Windows | Windows Server_
 </table>
 
 
-#### <a name="see-also"></a>См. также:
+#### <a name="see-also"></a>См. также
 
 [JET_ERR](./jet-err.md)  
 [JET_INSTANCE](./jet-instance.md)  

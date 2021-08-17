@@ -4,16 +4,16 @@ ms.assetid: 338e0614-8f18-4ee2-8697-66ff3898f813
 title: 'Метод Иенуммедиа:: Reset'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 14624d5a048df2f5bc80205f34f262068c53da74
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: c58ed91ce829402d2870f00f4aff13a19e8e8c3c6da074a5d365366faa195145
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105684762"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119975904"
 ---
 # <a name="ienummediareset-method"></a>Метод Иенуммедиа:: Reset
 
-\[ В Windows Vista, Windows Server 2008 и последующих версиях операционной системы нельзя использовать встречные средства и элементы управления Конференц-телефонией и интерфейсы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[встречи и элементы управления встречными IP-телефонными соединениями недоступны для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Метод **Reset** сбрасывается до начала последовательности перечисления.
 

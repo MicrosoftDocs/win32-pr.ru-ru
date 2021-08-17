@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 40ccb8d1cee0fffb993aef417b979816597cf707
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 27327db4718430ba646d9566227116e304d4d5f5770d0119987b32e0cd2adce0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103910768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118719546"
 ---
 # <a name="property-sheet-handlers"></a>Обработчики страницы свойств
 
@@ -24,11 +24,11 @@ ms.locfileid: "103910768"
 
 -   [Как работают обработчики страниц свойств](#how-property-sheet-handlers-work)
 -   [Регистрация и реализация обработчика страницы свойств для подключенного диска](#registering-and-implementing-a-property-sheet-handler-for-a-mounted-drive)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="how-property-sheet-handlers-work"></a>Как работают обработчики страниц свойств
 
-На следующем рисунке показана страница свойств текстового файла Windows XP.
+на следующем рисунке показана страница свойств "свойства" для текстового файла Windows XP.
 
 ![Страница свойств](images/propsheethandler1.jpg)
 
@@ -55,7 +55,7 @@ ms.locfileid: "103910768"
 -   Объект данных, передаваемый методу [**ишеллекстинит:: Initialize**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize) обработчика, может содержать путь к диску в формате [кфстр \_ маунтедволуме](clipboard.md) вместо формата [CF \_ HDROP](clipboard.md) . Формат CF \_ HDROP используется, когда устройство подключено к букве диска. Формат КФСТР \_ маунтедволуме используется с файловыми системами NTFS, если удаленное устройство подключено к папке, а не к букве диска.
 -   Идентификатор GUID обработчика регистрируется в разделе **\_ \_ корневой** \\ **диск** \\ **шеллекс** \\ **пропертишисандлерс** раздела hKey classes.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -3,7 +3,7 @@ title: Сообщение PSM_SETTITLE (Пршт. h)
 description: Задает заголовок страницы свойств. Это сообщение можно отправить явным образом или с помощью \_ макроса пропшит сеттитле.
 ms.assetid: 53ce8e20-4554-41f4-bad9-fb24c2c93c34
 keywords:
-- Элементы управления Windows для PSM_SETTITLE сообщений
+- элементы управления Windows сообщений PSM_SETTITLE
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a848a5bdaeaae64b6f1825740d1e8ade07a5a22
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 782d5ebf3e7fe0850b89d9f52f0dc5c406dbd41c9bdad694b41b8ae9ea4c8b0e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988234"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119985454"
 ---
 # <a name="psm_settitle-message"></a>\_Сообщение ПСМ сеттитле
 
@@ -49,7 +49,7 @@ ms.locfileid: "103988234"
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В мастере Aero это сообщение можно использовать для динамического изменения заголовка внутренней страницы. Например, при обработке уведомления [PSN \_ сетактиве](psn-setactive.md) .
 
@@ -59,9 +59,9 @@ ms.locfileid: "103988234"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                               |
-| Header<br/>                   | <dl> <dt>Пршт. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                               |
+| Заголовок<br/>                   | <dl> <dt>Пршт. h</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **ПСМ \_ СЕТТИТЛЕВ** (Юникод) и **ПСМ \_ сеттитлеа** (ANSI)<br/>              |
 
 

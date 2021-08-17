@@ -4,12 +4,12 @@ description: Безопасность позволяет управлять до
 ms.assetid: 6512d128-3b0c-4ba7-8709-2fd225389a40
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d18b48e0b80dc39ea1b3f65a77acb615c4cb8c7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1805a9b5b3db70bf496d467b774dc7c959030b43d6f89d40aabd0336540b7e56
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119346694"
 ---
 # <a name="desktop-security-and-access-rights"></a>Безопасность настольных систем и права доступа
 
@@ -33,7 +33,7 @@ ms.locfileid: "104413284"
 
 
 
- 
+ 
 
 В следующей таблице перечислены права доступа для конкретного объекта.
 
@@ -53,7 +53,7 @@ ms.locfileid: "104413284"
 
 
 
- 
+ 
 
 Ниже перечислены [универсальные права доступа](/windows/desktop/SecAuthZ/generic-access-rights) для объекта Desktop, содержащегося в интерактивной рабочей станции сеанса входа пользователя.
 
@@ -110,10 +110,10 @@ STANDARD_RIGHTS_REQUIRED<br />
 
 
 
- 
+ 
 
 Можно запросить \_ право доступа к системе \_ безопасности системы доступа к объекту рабочего стола, если вы хотите прочитать или записать список SACL объекта. Дополнительные сведения см. в разделе [списки управления доступом (ACL)](/windows/desktop/SecAuthZ/access-control-lists) и [права доступа к спискам SACL](/windows/desktop/SecAuthZ/sacl-access-right).
 
- 
+ 
 
- 
+ 

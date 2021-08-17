@@ -4,12 +4,12 @@ ms.assetid: 9b6359c2-0113-49b6-83d0-316ad95aba1b
 title: Функции синхронизации
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fba1fce45eeb602040c2bc9d60c9e1bfc63b246a
-ms.sourcegitcommit: b01ad017c152c6756f3638623fe335877644d414
+ms.openlocfilehash: 056b3ae9af6601511c90966bb5300e4e33e2ef1605fc6c1f74a85ad2811f61f2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "111549986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119739404"
 ---
 # <a name="synchronization-functions"></a>Функции синхронизации
 

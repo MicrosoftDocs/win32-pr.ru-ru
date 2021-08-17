@@ -4,12 +4,12 @@ ms.assetid: 2a16d33c-2d87-4172-a5ff-33ff62e96615
 title: Класс Terminal (Tapi3if. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 06d67d7668f9e4e16ad357408c8e9087fce870a1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6fd20d3e540529b343d1fb848b9e8cb2579a621b40146e0d170fdb175c4c9a18
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119975454"
 ---
 # <a name="terminal-class"></a>Класс терминала
 
@@ -127,9 +127,9 @@ ms.locfileid: "105679746"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Версия **BSTR** классов терминалов в основном предназначена для использования Visual Basic приложений. (Например, они возвращаются в виде элементов коллекции, полученной с помощью [**Get \_ динамиктерминалклассес**](/windows/win32/api/tapi3if/nf-tapi3if-itterminalsupport-get_dynamicterminalclasses).)
+версия **BSTR** классов терминалов в основном предназначена для использования Visual Basic приложений. (Например, они возвращаются в виде элементов коллекции, полученной с помощью [**Get \_ динамиктерминалклассес**](/windows/win32/api/tapi3if/nf-tapi3if-itterminalsupport-get_dynamicterminalclasses).)
 
 -   Хандсеттерминал строка CLSID для BSTR \_ \_
 -   Хеадсеттерминал строка CLSID для BSTR \_ \_
@@ -147,7 +147,7 @@ ms.locfileid: "105679746"
 | Требование | Значение |
 |-------------------------|--------------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 3,0 или более поздней версии<br/>                                                |
-| Header<br/>       | <dl> <dt>Tapi3if. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>Tapi3if. h</dt> </dl> |
 
 
 

@@ -3,33 +3,33 @@ title: Конструктор
 description: Конструктор
 ms.assetid: 227aac8a-8bd1-4f94-9c2a-5371f87afbb7
 keywords:
-- Подключаемые модули проигрывателя Windows Media, конструктор
+- подключаемые модули проигрыватель Windows Media, конструктор
 - подключаемые модули, конструктор
 - подключаемые модули пользовательского интерфейса, конструктор
 - Подключаемые модули пользовательского интерфейса, конструктор
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 17508626b4c39309095d826f7e8afd945316d3d5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0931e23b0234f55c6e8deefca95e9bd7feae07205c4977f4d1d19b94f2a5b350
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986566"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134587"
 ---
 # <a name="the-constructor"></a>Конструктор
 
 Конструктор, предоставляемый мастером, сохраняет указатель на основной класс подключаемого модуля в переменной-члене. Мастер использует эту ссылку для получения доступа к переменным членов, объявленным в классе Ксеарч. Изменение реализации не требуется.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Реализация Кплугинвиндов**](implementing-cpluginwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

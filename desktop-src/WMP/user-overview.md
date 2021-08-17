@@ -3,7 +3,7 @@ title: Обзор пользователя
 description: Обзор пользователя
 ms.assetid: a1cf4b47-1410-464d-8542-334d3eb9c200
 keywords:
-- Подключаемые модули проигрывателя Windows Media, визуализации
+- подключаемые модули проигрыватель Windows Media, визуализации
 - подключаемые модули, визуализации
 - визуализации, обзор пользователей
 - Пользовательские визуализации, обзор пользователей
@@ -16,12 +16,12 @@ keywords:
 - предустановки в визуализациях, обзор пользователей
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f0b8b389f07dc1a39c852f881a9c7d287176b73
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1d78cb01fe5ee87857ea546fc8c225f9ca16217c642ebbee06025cb037d94fec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105710101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134495"
 ---
 # <a name="user-overview"></a>Обзор пользователя
 
@@ -33,7 +33,7 @@ ms.locfileid: "105710101"
 
 ## <a name="standard-visualizations"></a>Стандартные визуализации
 
-Проигрыватель Windows Media включает несколько визуализаций, например:
+проигрыватель Windows Media включает несколько визуализаций, например:
 
 -   Окружением
 -   пленоптик
@@ -50,18 +50,18 @@ ms.locfileid: "105710101"
 
 ## <a name="skin-attributes"></a>Атрибуты обложки
 
-При создании обложек для проигрывателя Windows Media можно отобразить стандартные визуализации в обложках с помощью элемента **Effects** . Дополнительные сведения об использовании визуализаций в обложках см. в разделе [обложки проигрывателя Windows Media](windows-media-player-skins.md).
+при создании обложек для проигрыватель Windows Media можно отобразить стандартные визуализации в обложках с помощью элемента **effects** . дополнительные сведения об использовании визуализаций в обложках см. в разделе [обложки проигрыватель Windows Media](windows-media-player-skins.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**О пользовательских визуализациях**](about-custom-visualizations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

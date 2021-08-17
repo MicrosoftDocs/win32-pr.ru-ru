@@ -4,16 +4,16 @@ description: Иажентнотифисинк бездействие
 ms.assetid: 7770a698-31d9-4f3a-9c7e-858c480b640e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b43e060f361499b02bc0a83db697938975c76291
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8263bd9bc62d4fccfad74b18b189c6e4bae426245dd3d4d6a46c826ebacf498d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105700681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105184"
 ---
 # <a name="iagentnotifysinkidle"></a>Иажентнотифисинк:: Idle
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT Idle(
@@ -44,14 +44,14 @@ HRESULT Idle(
 
 Это событие позволяет контролировать, когда сервер Microsoft Agent запускает или останавливает обработку символа в состоянии простоя.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [**Иажентчарактер:: жетидлеон**](iagentcharacter--getidleon.md), [ **иажентчарактер:: сетидлеон**](iagentcharacter--setidleon.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

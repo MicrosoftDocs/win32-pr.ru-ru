@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cbe4edc1b1195a9d449b37897f0875b1f35aae3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: dfaf83debc6c7e73a89f78b0c8c3899cce2fb83fb6a5884fa5a5ed9ed5b35912
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104998783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119858104"
 ---
 # <a name="id3dx11effectvariableasrasterizer-method"></a>Метод ID3DX11EffectVariable:: Асрастеризер
 
@@ -47,7 +47,7 @@ ID3DX11EffectRasterizerVariable* AsRasterizer();
 
 Указатель на переменную средства прорисовки. См. [**ID3DX11EffectRasterizerVariable**](id3dx11effectrasterizervariable.md).
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Асрастеризер Возвращает версию переменной Effect, которая была специализированной для переменной средства прорисовки. Как и в приведении, эта специализация возвращает недопустимый объект, если переменная действия не содержит данных средства программной прорисовки.
 
@@ -64,7 +64,7 @@ ID3DX11EffectRasterizerVariable* AsRasterizer();
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
+| Заголовок<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
 | Библиотека<br/> | <dl> <dt>Н/д (библиотека Effects 11 доступна в сети в качестве общего источника.)</dt> </dl> |
 
 

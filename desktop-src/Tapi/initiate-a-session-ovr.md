@@ -4,12 +4,12 @@ ms.assetid: 65e53587-0e40-411b-8d6c-d6adfc9d1e6c
 title: Инициация сеанса
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e925ba90460b88c85a9aab1624923acdbc4572a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0226fc1b04ea5859bc4a96b6f5ca43e3749e7664a9ccf6810b586115171530b2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103898625"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119975854"
 ---
 # <a name="initiate-a-session"></a>Инициация сеанса
 
@@ -34,7 +34,7 @@ ms.locfileid: "103898625"
 Если сеанс настроен успешно, TAPI возвращает указатель интерфейса [**итбасиккаллконтрол**](/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol) , который может использоваться для дальнейших операций сеанса, или для получения указателя на интерфейс [**иткаллинфо**](/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo) , который можно использовать для получения дополнительных сведений о сеансе. Интерфейс [**иткаллстативент**](/windows/desktop/api/tapi3if/nn-tapi3if-itcallstateevent) обрабатывает события состояния вызова TAPI.
 
 > [!Note]  
-> TAPI не следует использовать для передачи факсов. Вместо этого используйте функции, доступные через MAPI, API обмена сообщениями Майкрософт.
+> TAPI не следует использовать для передачи факсов. вместо этого используйте функции, доступные через MAPI, Сообщения (Майкрософт) API.
 
  
 

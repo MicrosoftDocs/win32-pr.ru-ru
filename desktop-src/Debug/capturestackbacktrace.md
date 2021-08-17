@@ -34,12 +34,12 @@ api_name:
 targetos: Windows
 req.typenames: ''
 req.redist: ''
-ms.openlocfilehash: 3c9edc9184000d513b82ad4131e3ac05c2ed22d6
-ms.sourcegitcommit: 1f6a1bfc1c4bb2641bc3ba44beb1f2727c94681b
+ms.openlocfilehash: 0b6cad22d7a52908c3aa02bef7e23a57899e421f87bda00660519750de742919
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "105654261"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119279506"
 ---
 # <a name="capturestackbacktrace-function"></a>Функция Каптурестаккбакктраце
 
@@ -85,9 +85,9 @@ USHORT WINAPI CaptureStackBackTrace(
 
 Число захваченных кадров.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Функция **каптурестаккбакктраце** определяется как функция **ртлкаптурестаккбакктраце** (определение включается в Windows SDK, начиная с Windows Vista).
+функция **каптурестаккбакктраце** определяется как функция **ртлкаптурестаккбакктраце** (определение включается в Windows SDK, начиная с Windows Vista).
 Дополнительные сведения см. в разделе Винбасе. h и WinNT. h.
 
 ## <a name="see-also"></a>См. также раздел

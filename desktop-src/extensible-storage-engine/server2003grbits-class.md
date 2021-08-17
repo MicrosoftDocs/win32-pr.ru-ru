@@ -24,16 +24,16 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: be4722a95546a52b3cf845b7e32a312b66c62fe0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09ea51356b684f28109a164670ba7271dcacfc554306167ed30b2c1413592189
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702346"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119471684"
 ---
 # <a name="server2003grbits-class"></a>Класс Server2003Grbits
 
-Грбитс, которые были добавлены в Windows Server 2003 версии ESENT.
+грбитс, которые были добавлены в версию ESENT Windows Server 2003.
 
 ## <a name="inheritance-hierarchy"></a>Иерархия наследования
 

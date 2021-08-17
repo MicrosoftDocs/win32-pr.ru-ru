@@ -4,12 +4,12 @@ ms.assetid: 9baacfc5-f26c-41c7-a1f8-f48ec8aa844c
 title: Сообщение LINE_QUEUESTATUS (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a89785b92009a7531ae693545febaf153cf19bb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b336a8239e31e5c0bcc70de747cbb48a2028c85e67f44a3e45032f02b37065d9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105688925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119975534"
 ---
 # <a name="line_queuestatus-message"></a>Строка \_ сообщения QUEUESTATUS
 
@@ -68,7 +68,7 @@ ms.locfileid: "105688925"
 | Требование | Значение |
 |-------------------------|-----------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 2,2<br/>                                                      |
-| Header<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
 
 
 

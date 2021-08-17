@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: dbd0d5e20040bc2d353287eb4243c9e9d6d21dc8
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 8a768acaecaa77a42990b34c50cd8eccb24d61353550751f3ed830e7844d7624
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104069346"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118794318"
 ---
 # <a name="breakp---vs"></a>бреакп — VS
 
@@ -29,7 +29,7 @@ ms.locfileid: "104069346"
 
 
 
- 
+ 
 
 Где:
 
@@ -37,7 +37,7 @@ ms.locfileid: "104069346"
 -   P0 — это регистр предикатов. См. раздел [Регистрация предиката](dx9-graphics-reference-asm-vs-registers-predicate.md).
 -   {x \| y \| z \| w} — это обязательная репликация свиззле в P0.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -47,18 +47,18 @@ ms.locfileid: "104069346"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера вершин](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

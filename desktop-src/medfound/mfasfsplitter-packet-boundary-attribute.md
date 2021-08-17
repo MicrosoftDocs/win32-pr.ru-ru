@@ -4,12 +4,12 @@ ms.assetid: eca3f9b7-6051-4654-8016-a9c679519bc7
 title: Атрибут MFASFSPLITTER_PACKET_BOUNDARY (Вмконтаинер. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 044fd3ed635dc7cb45db1cb9e5c480481b06cd31
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0904c6b5a002d6aa18361365946a176521674ea22f7a45cc042b89d844c4210d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105647204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119464064"
 ---
 # <a name="mfasfsplitter_packet_boundary-attribute"></a>\_ \_ Атрибут границы пакета мфасфсплиттер
 
@@ -21,7 +21,7 @@ ms.locfileid: "105647204"
 
 Рассматривать как логическое значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если буфер мультимедиа предоставляет интерфейс [**имфаттрибутес**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes) через **QueryInterface**, а значение этого атрибута не равно нулю, разделитель ASF рассматривает буфер как начало нового пакета.
 
@@ -31,14 +31,14 @@ ms.locfileid: "105647204"
 
 Обратите внимание, что стандартные реализации [**имфмедиабуффер**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer) , предоставляемые Media Foundation, не предоставляют [**имфаттрибутес**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes). Чтобы использовать этот атрибут, необходимо предоставить собственную реализацию **имфмедиабуффер**; Например, путем заключения буферов, возвращаемых функцией [**мфкреатемеморибуффер**](/windows/desktop/api/mfapi/nf-mfapi-mfcreatememorybuffer).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                     |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Вмконтаинер. h</dt> </dl> |
 
 

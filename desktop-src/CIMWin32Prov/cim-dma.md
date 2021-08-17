@@ -32,12 +32,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 71fe9c0ad29afa7be20df6fbf05c5d1183d23d13
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 82519db788c063909b48aec26f77c131865e4752f69b63feb1daf5d2e9745092
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990601"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924114"
 ---
 # <a name="cim_dma-class"></a>\_Класс DMA CIM
 
@@ -83,7 +83,7 @@ class CIM_DMA : CIM_SystemResource
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ DMA** имеет эти свойства.
 
@@ -289,7 +289,7 @@ class CIM_DMA : CIM_SystemResource
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -507,7 +507,7 @@ class CIM_DMA : CIM_SystemResource
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -826,7 +826,7 @@ class CIM_DMA : CIM_SystemResource
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ DMA CIM** является производным от [**CIM \_ системресаурце**](cim-systemresource.md).
 

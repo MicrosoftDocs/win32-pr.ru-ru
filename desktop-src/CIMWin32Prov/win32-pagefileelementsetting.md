@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: dfc1087225894cef2895cf41af5e5297769a4041
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 366f2b8ae14e57d17b4f6a48fb59cdd6c5cfd5c2c12068e40650e410c7c1f45f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119972264"
 ---
 # <a name="win32_pagefileelementsetting-class"></a>\_Класс Win32 пажефилилементсеттинг
 
@@ -46,7 +46,7 @@ class Win32_PageFileElementSetting : CIM_ElementSetting
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ пажефилилементсеттинг** имеет следующие свойства.
 
@@ -84,7 +84,7 @@ class Win32_PageFileElementSetting : CIM_ElementSetting
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ пажефилилементсеттинг** является производным от [**CIM \_ елементсеттинг**](cim-elementsetting.md).
 

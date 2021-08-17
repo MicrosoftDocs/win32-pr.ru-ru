@@ -3,8 +3,8 @@ title: Интерфейс Ивмпмедиаколлектион (VB и C) (WMP.
 description: Предоставляет методы, которые можно использовать для Организации большой коллекции элементов мультимедиа.
 ms.assetid: a9e3d466-7dcf-4f1b-ba6f-9d166a35f03d
 keywords:
-- Ивмпмедиаколлектион (VB и C) интерфейс проигрывателя Windows Media
-- Ивмпмедиаколлектион (VB и C) интерфейс проигрывателя Windows Media, описание
+- проигрыватель Windows Media интерфейса ивмпмедиаколлектион (VB и C)
+- проигрыватель Windows Media интерфейса ивмпмедиаколлектион (VB и C), описание
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 424fd45b1fd3d02000a9774ffe75ec87e52dd9c5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ce15616b2059802610360b52d5af9bfa8d56b56b7ed06129bb849de567e22e26
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689508"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119468454"
 ---
 # <a name="iwmpmediacollection-vb-and-c-interface"></a>Интерфейс Ивмпмедиаколлектион (VB и C#)
 
@@ -77,7 +77,7 @@ ms.locfileid: "105689508"
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>WMP. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>WMP. h</dt> </dl> |
 
 
 
@@ -85,7 +85,7 @@ ms.locfileid: "105689508"
 
 <dl> <dt>
 
-[**Интерфейсы для Visual Basic .NET и C #**](interfaces-for-visual-basic--net-and-c.md)
+[**интерфейсы для Visual Basic .net и C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**Интерфейс IWMPMediaCollection2**](iwmpmediacollection2--vb-and-c.md)

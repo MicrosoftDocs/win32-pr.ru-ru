@@ -4,12 +4,12 @@ ms.assetid: 2d6dce7b-d31f-4b4b-8ee0-b043568932fd
 title: System. Devices. Notifications. Невмессаже
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e35b8d9664ce2e316362e1f5b7d48cd529cc812
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b61b79db56debba0143cc7301ce800cd464686b6440caf0d2439989a4d0f7ca9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119458354"
 ---
 # <a name="systemdevicesnotificationsnewmessage"></a>System. Devices. Notifications. Невмессаже
 
@@ -61,11 +61,11 @@ propertyDescription
             text = You have a new text message.
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

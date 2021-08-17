@@ -19,21 +19,21 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f0ac02142d48009d668d903b39163b425d738b55
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: effd1ea5a9489df0a85af54a79cd773cc05b2fa3d6dbe57096a61fbd4c79c25a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896701"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119472034"
 ---
 # <a name="jetgetsessionparameter-function"></a>Функция Жетжетсессионпараметер
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 Функция **жетжетсессионпараметер** считывает параметр сеанса для данного сеанса.
 
-Функция **жетжетсессионпараметер** была введена в операционной системе Windows 8.
+функция **жетжетсессионпараметер** была введена в операционной системе Windows 8.
 
 ``` c++
 JET_ERR JET_API JetGetSessionParameter (
@@ -75,7 +75,7 @@ JET_ERR JET_API JetGetSessionParameter (
 
 В случае сбоя состояние выходных буферов будет не определено.
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 Параметр Session используется в течение времени существования сеанса или до тех пор, пока значение не будет сброшено.
 
@@ -92,7 +92,7 @@ JET_ERR JET_API JetGetSessionParameter (
 <td><p>Требуется Windows 8.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
+<td><p><strong>Сервер</strong></p></td>
 <td><p>Требуется Windows Server 2012.</p></td>
 </tr>
 <tr class="odd">

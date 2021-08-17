@@ -4,12 +4,12 @@ ms.assetid: 8853bd88-d51a-478c-8c78-cf69a260e295
 title: Атрибут MF_PD_ASF_LANGLIST_LEGACYORDER (Вмконтаинер. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f24abc714a7605800faa8ad66f8c0b888fba6f79
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 32693550ecbe48d14d6e26b9c509f3b90cfd1c327fd945583f1cdff729db7bc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105683875"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119102934"
 ---
 # <a name="mf_pd_asf_langlist_legacyorder-attribute"></a>\_ \_ \_ \_ Атрибут ланглист легациордер для MF PD ASF
 
@@ -29,7 +29,7 @@ ms.locfileid: "105683875"
 
 [**имфпресентатиондескриптор**](/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут применяется к дескрипторам представления, созданным из [объекта ASF контентинфо](asf-contentinfo-object.md) с помощью вызова [**Имфасфконтентинфо:: женератепресентатиондескриптор**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-generatepresentationdescriptor). Формат массива байтов выглядит следующим образом:
 
@@ -59,7 +59,7 @@ ms.locfileid: "105683875"
 
 Каждая строка является тегом языка, совместимым с RFC 1766.
 
-Используйте этот атрибут только для обеспечения обратной совместимости с порядком перечисления интерфейса [**IWMReaderAdvanced4**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced4) в пакете SDK формата Windows Media. Строки языка хранятся в атрибуте [**MF \_ PD \_ ASF \_ ланглист**](mf-pd-asf-langlist-attribute.md) в другом порядке.
+используйте этот атрибут только для обеспечения обратной совместимости с порядком перечисления интерфейса [**IWMReaderAdvanced4**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced4) в пакете SDK для Windows Media Format. Строки языка хранятся в атрибуте [**MF \_ PD \_ ASF \_ ланглист**](mf-pd-asf-langlist-attribute.md) в другом порядке.
 
 ## <a name="requirements"></a>Требования
 
@@ -67,8 +67,8 @@ ms.locfileid: "105683875"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                               |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                                  |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                               |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Вмконтаинер. h</dt> </dl> |
 
 

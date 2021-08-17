@@ -1,5 +1,5 @@
 ---
-description: Интерфейс Иамтимелинеобж предоставляет методы для управления объектами временной шкалы в службах редактирования DirectShow (DES).
+description: интерфейс иамтимелинеобж предоставляет методы для управления объектами временной шкалы в службах DirectShow editing Services (DES).
 ms.assetid: ae8a778d-00b3-4b88-98dd-16e0a8645127
 title: Интерфейс Иамтимелинеобж (Кедит. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: e968ec01d937aeac9a5838b75462a6d23a632512
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4a987cfd0f08311a0e7a233ab479e5cdbe2fc649fd521ad4f4ed1b37b6df6d75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685274"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119428164"
 ---
 # <a name="iamtimelineobj-interface"></a>Интерфейс Иамтимелинеобж
 
@@ -28,7 +28,7 @@ ms.locfileid: "105685274"
 
  
 
-`IAMTimelineObj`Интерфейс предоставляет методы для управления объектами временной шкалы в [службах редактирования DirectShow](directshow-editing-services.md) (DES). Все объекты временной шкалы реализуют этот метод, в том числе объекты источника, действия, перехода, трассировки, группы и композиции. Создайте объект временной шкалы, вызвав метод [**иамтимелине:: креатимптиноде**](iamtimeline-createemptynode.md) .
+`IAMTimelineObj`интерфейс предоставляет методы для управления объектами временной шкалы в [службах DirectShow editing Services](directshow-editing-services.md) (DES). Все объекты временной шкалы реализуют этот метод, в том числе объекты источника, действия, перехода, трассировки, группы и композиции. Создайте объект временной шкалы, вызвав метод [**иамтимелине:: креатимптиноде**](iamtimeline-createemptynode.md) .
 
 ## <a name="members"></a>Элементы
 
@@ -87,7 +87,7 @@ ms.locfileid: "105685274"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Файл заголовка Кедит. h несовместим с заголовками Direct3D позднее версии 7.
@@ -95,7 +95,7 @@ ms.locfileid: "105685274"
  
 
 > [!Note]  
-> Чтобы получить Кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (SP1).
+> чтобы получить кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (sp1).
 
  
 
@@ -105,7 +105,7 @@ ms.locfileid: "105685274"
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Кедит. h</dt> </dl>      |
+| Заголовок<br/>  | <dl> <dt>Кедит. h</dt> </dl>      |
 | Библиотека<br/> | <dl> <dt>Стрмиидс. lib</dt> </dl> |
 
 

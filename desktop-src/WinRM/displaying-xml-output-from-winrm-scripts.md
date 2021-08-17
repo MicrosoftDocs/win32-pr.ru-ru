@@ -1,6 +1,6 @@
 ---
 title: Отображение выходных данных XML из скриптов WinRM
-description: Служба удаленного управления Windows скрипты возвращают XML, а не объекты. Формат XML не предназначен для восприятия. Для преобразования данных в удобочитаемый формат можно использовать методы API MSXML и предварительно установленный XSL-файл.
+description: Windows Сценарии удаленного управления возвращают XML, а не объекты. Формат XML не предназначен для восприятия. для преобразования данных в удобочитаемый формат можно использовать методы API MSXML и предварительно установленного XSL-файла.
 ms.assetid: a2c9401b-bc1e-4f8e-aabf-b6ade1a849ba
 ms.tgt_platform: multiple
 ms.topic: article
@@ -10,20 +10,20 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c70dd0a61181f6fc61e685641ff0ed5e3d43ffe8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: df5c27c1fe22ae87395357aeefe681af7c041420d32b7bccbf595fab38bb060b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119680024"
 ---
 # <a name="displaying-xml-output-from-winrm-scripts"></a>Отображение выходных данных XML из скриптов WinRM
 
-Служба удаленного управления Windows скрипты возвращают XML, а не объекты. Формат XML не предназначен для восприятия. Для преобразования данных в удобочитаемый формат можно использовать методы API [MSXML](/previous-versions/windows/desktop/ms763742(v=vs.85)) и предварительно установленный XSL-файл.
+Windows Сценарии удаленного управления возвращают XML, а не объекты. Формат XML не предназначен для восприятия. для преобразования данных в удобочитаемый формат можно использовать методы API [MSXML](/previous-versions/windows/desktop/ms763742(v=vs.85)) и предварительно установленного XSL-файла.
 
-Дополнительные сведения об XML-выходных данных и примерах XML в формате RAW см. [в разделе сценарии в Служба удаленного управления Windows](scripting-in-windows-remote-management.md).
+дополнительные сведения об xml-выходных данных и примерах xml в формате raw см. [в разделе сценарии в служба удаленного управления Windows](scripting-in-windows-remote-management.md).
 
-Программа командной строки **WinRM** поставляется с файлом преобразования с именем всмткст. xsl, который отображает выходные данные в табличной форме. Если скрипт передает этот файл методам MSXML, выполняющим преобразует данные, выходные данные отображаются так же, как и выходные данные средства **WinRM** .
+Программа командной строки **WinRM** поставляется с файлом преобразования с именем всмткст. xsl, который отображает выходные данные в табличной форме. если скрипт передает этот файл в MSXML методы, выполняющие преобразует данные, выходные данные отображаются так же, как и выходные данные средства **Winrm** .
 
 **Форматирование необработанных выходных данных XML**
 
@@ -36,7 +36,7 @@ ms.locfileid: "104070397"
 
     
 
-2.  Создание объектов MSXML, представляющих выходные данные XML-ответа и преобразования XSL.
+2.  создание MSXML объектов, представляющих выходные данные XML-ответа и преобразования XSL.
 
     ```VB
     Set xmlFile = CreateObject( "MSXml.DOMDocument" )
@@ -54,7 +54,7 @@ ms.locfileid: "104070397"
 
     
 
-4.  Укажите ответ на метод MSXML [LoadXml](/previous-versions/windows/desktop/ms754585(v=vs.85)) и метод [Load](/previous-versions/windows/desktop/ms762722(v=vs.85)) для хранения файла преобразования.
+4.  укажите ответ на метод MSXML [loadXML](/previous-versions/windows/desktop/ms754585(v=vs.85)) и метод [load](/previous-versions/windows/desktop/ms762722(v=vs.85)) для хранения файла преобразования.
 
     ```VB
     xmlFile.LoadXml(xmlResponse)
@@ -64,7 +64,7 @@ ms.locfileid: "104070397"
 
     
 
-5.  Используйте метод [TRANSFORMNODE](/previous-versions/windows/desktop/ms761399(v=vs.85)) MSXML и отобразите или сохраните выходные данные.
+5.  используйте метод MSXML [transformNode](/previous-versions/windows/desktop/ms761399(v=vs.85)) и отобразите или сохраните выходные данные.
 
     ```VB
     Wscript.Echo xmlFile.TransformNode(xslFile)
@@ -94,7 +94,7 @@ Wscript.Echo xmlFile.TransformNode(xslFile)
 
 Можно добавить подпрограммы в скрипты, использующие предустановленный XSL-файл для преобразования необработанных выходных данных из скрипта WinRM в табличную форму.
 
-Следующая подпрограммы использует вызовы методов создания скриптов MSXML для предоставления выходных данных в Всмткст. xsl.
+следующая подпрограммы использует вызовы методов скрипта MSXML для предоставления выходных данных в всмткст. xsl.
 
 
 ```VB
@@ -136,19 +136,19 @@ End Sub
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[О служба удаленного управления Windows](about-windows-remote-management.md)
+[о служба удаленного управления Windows](about-windows-remote-management.md)
 </dt> <dt>
 
-[Использование служба удаленного управления Windows](using-windows-remote-management.md)
+[использование служба удаленного управления Windows](using-windows-remote-management.md)
 </dt> <dt>
 
-[Справочник по служба удаленного управления Windows](windows-remote-management-reference.md)
+[Windows Справочник по удаленному управлению](windows-remote-management-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -3,11 +3,11 @@ title: Справочник по MIDI
 description: Справочник по MIDI
 ms.assetid: 6229a4a7-be42-4e2a-af9d-695c4759a4ef
 keywords:
-- Мультимедиа Windows, цифровой интерфейс музыкальных инструментов (MIDI)
+- Windows мультимедиа, цифровой интерфейс музыкальных инструментов (MIDI)
 - мультимедиа, цифровой интерфейс музыкальных инструментов (MIDI)
 - мультимедийный звук, цифровой интерфейс музыкальных инструментов (MIDI)
 - аудио, цифровой интерфейс музыкальных инструментов (MIDI)
-- Windows мультимедиа, Справочник MIDI
+- Windows мультимедиа, справочник MIDI
 - мультимедиа, Справочник MIDI
 - мультимедиа аудио, Справочник MIDI
 - аудио, Справочник MIDI
@@ -17,12 +17,12 @@ keywords:
 - Справочник по MIDI, сведения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c21542867faf1e09d68dc4fc81a50d25f56b5c5e
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 8da65f193bbdc6b67d317fac7546d4f5d7826d89307d1800c565febf0c7a8b6d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104412908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119428354"
 ---
 # <a name="midi-reference"></a>Справочник по MIDI
 
@@ -58,12 +58,12 @@ ms.locfileid: "104412908"
 
 -   [**мидиинжетеррортекст**](/windows/win32/api/mmeapi/nf-mmeapi-midiingeterrortext)
 -   [**мидиаутжетеррортекст**](/windows/win32/api/mmeapi/nf-mmeapi-midioutgeterrortext)
--   [**\_Ошибка MIM**](mim-error.md)
--   [**\_ЛОНЖЕРРОР MIM**](mim-longerror.md)
--   [**MM \_ , \_ Ошибка MIM**](mm-mim-error.md)
+-   [**MIM \_ ПЛАН**](mim-error.md)
+-   [**MIM \_ лонжеррор**](mim-longerror.md)
+-   [**\_ошибка MIM \_ MM**](mm-mim-error.md)
 -   [**MM \_ MIM \_ лонжеррор**](mm-mim-longerror.md)
 
-## <a name="managing-midi-streams"></a>Управление потоками MIDI
+## <a name="managing-midi-streams"></a>управление Потоки MIDI
 
 -   [**мидистреамклосе**](/windows/win32/api/mmeapi/nf-mmeapi-midistreamclose)
 -   [**мидистреамопен**](/windows/win32/api/mmeapi/nf-mmeapi-midistreamopen)
@@ -80,10 +80,10 @@ ms.locfileid: "104412908"
 -   [**мидиинопен**](/windows/win32/api/mmeapi/nf-mmeapi-midiinopen)
 -   [**мидиаутклосе**](/windows/win32/api/mmeapi/nf-mmeapi-midioutclose)
 -   [**мидиаутопен**](/windows/win32/api/mmeapi/nf-mmeapi-midioutopen)
--   [**\_закрытие MIM**](mim-close.md)
--   [**\_Запуск MIM**](mim-open.md)
--   [**MM \_ MIM, \_ закрытие**](mm-mim-close.md)
--   [**MM \_ MIM \_ Open**](mm-mim-open.md)
+-   [**MIM \_ ВЫХОДА**](mim-close.md)
+-   [**MIM \_ ОТКРЫТ**](mim-open.md)
+-   [**MM \_ MIM \_ CLOSE**](mm-mim-close.md)
+-   [**\_открыт MIM \_ мм**](mm-mim-open.md)
 -   [**\_закрытие mm MOM \_**](mm-mom-close.md)
 -   [**\_ \_ открытая MOM mm**](mm-mom-open.md)
 -   [**\_закрытие MOM**](mom-close.md)
@@ -124,10 +124,10 @@ ms.locfileid: "104412908"
 -   [**мидиинстоп**](/windows/win32/api/mmeapi/nf-mmeapi-midiinstop)
 -   [**мидипроптемпо**](/windows/win32/api/mmeapi/ns-mmeapi-midiproptempo)
 -   [**мидипроптимедив**](/windows/win32/api/mmeapi/ns-mmeapi-midiproptimediv)
--   [**\_данные MIM**](mim-data.md)
--   [**\_ЛОНГДАТА MIM**](mim-longdata.md)
--   [**\_MOREDATA MIM**](mim-moredata.md)
--   [**MM \_ MIM \_ Data**](mm-mim-data.md)
+-   [**MIM \_ DATA**](mim-data.md)
+-   [**MIM \_ лонгдата**](mim-longdata.md)
+-   [**MIM \_ MOREDATA**](mim-moredata.md)
+-   [**\_MIM \_ данных MM**](mm-mim-data.md)
 -   [**MM \_ MIM \_ MOREDATA**](mm-mim-moredata.md)
 -   [**MM \_ MIM \_ лонгдата**](mm-mim-longdata.md)
 
@@ -136,13 +136,13 @@ ms.locfileid: "104412908"
 -   [**мидиинмессаже**](/windows/win32/api/mmeapi/nf-mmeapi-midiinmessage)
 -   [**мидиаутмессаже**](/windows/win32/api/mmeapi/nf-mmeapi-midioutmessage)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Цифровой интерфейс музыкальных инструментов (MIDI)](musical-instrument-digital-interface--midi.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

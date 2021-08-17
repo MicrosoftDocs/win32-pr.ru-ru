@@ -1,9 +1,9 @@
 ---
 title: Сообщение MIM_OPEN (Ммсистем. h)
-description: '\_При открытии входного устройства MIDI в функции обратного вызова MIDI отправляется сообщение Open.'
+description: MIM \_ открытое сообщение отправляется в функцию обратного вызова midi при открытии устройства ввода midi.
 ms.assetid: c7a8b856-aedd-457d-8a21-0ec2e9303960
 keywords:
-- MIM_OPEN сообщения Windows мультимедиа
+- сообщение MIM_OPEN Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 49fcfd05ef7702fbc7bf3108365e49660071ae9a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 15cacc21fd31810adf3188cb1ba267c9727715a0426c98d18f231eeec19b9691
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104414853"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119428124"
 ---
-# <a name="mim_open-message"></a>\_Открытое сообщение MIM
+# <a name="mim_open-message"></a>MIM \_ ОТКРЫТЬ сообщение
 
-При открытии входного устройства MIDI в функции обратного вызова MIDI отправляется сообщение **\_ Open** .
+**MIM \_ открытое** сообщение отправляется в функцию обратного вызова midi при открытии устройства ввода midi.
 
 
 ```C++
@@ -64,7 +64,7 @@ dwParam2 = reserved
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 

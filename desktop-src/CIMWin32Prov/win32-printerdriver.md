@@ -36,12 +36,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 615d6561e12f67edee34e0de84dade12f250e0f0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f28958436ba7ff87aed139bf58129f028c5c3e008f8cc0f291bc3b37091fc5d7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119971874"
 ---
 # <a name="win32_printerdriver-class"></a>\_Класс Win32 принтердривер
 
@@ -108,7 +108,7 @@ class Win32_PrinterDriver : CIM_Service
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -317,7 +317,7 @@ class Win32_PrinterDriver : CIM_Service
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -521,7 +521,7 @@ class Win32_PrinterDriver : CIM_Service
 
 Операционные среды, для которых предназначен драйвер.
 
-Пример: "Windows NT x86".
+пример: "Windows NT x86".
 
 </dd> <dt>
 
@@ -587,7 +587,7 @@ class Win32_PrinterDriver : CIM_Service
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ принтердривер** является производным от [**\_ службы CIM**](cim-service.md) , которая является производной от [**CIM \_ логикалелемент**](cim-logicalelement.md).
 

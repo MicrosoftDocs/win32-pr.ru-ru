@@ -1,17 +1,17 @@
 ---
 description: Точечный рисунок — это графический объект, используемый для создания, управления (масштабирования, прокрутки, вращения и рисования) и хранения изображений в виде файлов на диске. В этом обзоре описываются классы битовой карты и операции точечного рисунка.
 ms.assetid: ff0a5ae3-ae2e-4417-b5e5-0f9871c03964
-title: Точечные рисунки (Windows GDI)
+title: точечные рисунки (Windows GDI)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae9f9242cbdfe62650a125c2edcdc8c35198ce1c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a1179797d319a52c6de7efcfaa3056b7702c4a1172359e4018f4b112fbd779b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119470054"
 ---
-# <a name="bitmaps-windows-gdi"></a>Точечные рисунки (Windows GDI)
+# <a name="bitmaps-windows-gdi"></a>точечные рисунки (Windows GDI)
 
 *Точечный рисунок* — это графический объект, используемый для создания, управления (масштабирования, прокрутки, вращения и рисования) и хранения изображений в виде файлов на диске. В этом обзоре описываются классы битовой карты и операции точечного рисунка.
 

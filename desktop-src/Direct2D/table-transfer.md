@@ -96,7 +96,7 @@ m_d2dContext->EndDraw();
 
  
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

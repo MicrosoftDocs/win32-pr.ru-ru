@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 507f909afe35eeec2875461fb81b56397e453b3d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4d192a3da7bbcd262eef95bc5ebbd9394ac32eed206636e219b91382ccce305
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119979034"
 ---
 # <a name="xmfloat3pk-constructors"></a>Конструкторы XMFLOAT3PK
 
