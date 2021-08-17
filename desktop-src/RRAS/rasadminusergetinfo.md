@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 89fe08a918a958ffb5a656ce2c76cecec31cbb61
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a4cda41447af832bd4ae04a14c6f8038fee4b61a17ac98c919c0b085261b242d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117788696"
 ---
 # <a name="rasadminusergetinfo-function"></a>Функция Расадминусержетинфо
 
-\[Эта функция предоставляется только для обеспечения обратной совместимости с Windows NT Server 4,0. Он возвращает \_ вызов ошибки \_ \_ , не реализованный в Windows Server 2003. Приложения должны использовать функцию [**мпрадминусержетинфо**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminusergetinfo) .\]
+\[эта функция предоставляется только для обеспечения обратной совместимости с Windows NT Server 4,0. он возвращает \_ вызов ошибки \_ \_ , не реализованный на сервере Windows 2003. Приложения должны использовать функцию [**мпрадминусержетинфо**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminusergetinfo) .\]
 
 Функция **расадминусержетинфо** получает разрешения RAS и сведения о номере телефона обратного вызова для указанного пользователя.
 
@@ -91,7 +91,7 @@ DWORD RasAdminUserGetInfo(
 |----------------------------------|----------------------------------------------------------------------------------------|
 | Окончание поддержки клиента<br/> | Windows 2000 Professional<br/>                                                   |
 | Поддержка конца сервера<br/> | Windows 2000 Server<br/>                                                         |
-| Header<br/>                | <dl> <dt>Рассапи. h</dt> </dl>   |
+| Заголовок<br/>                | <dl> <dt>Рассапи. h</dt> </dl>   |
 | Библиотека<br/>               | <dl> <dt>Рассапи. lib</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Rassapi.dll</dt> </dl> |
 

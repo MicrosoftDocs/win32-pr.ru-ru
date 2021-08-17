@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 4f6202a534dde727e21b6513ad30077f2e3b3e52
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9db7cc6fa89f8f102cabccdebd14852a50f60576b6135ae52e4cc9fada494812
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694168"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117732298"
 ---
 # <a name="d3dxcreatetext-function"></a>Функция D3DXCreateText
 
@@ -125,7 +125,7 @@ HRESULT D3DXCreateText(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. Если функция завершается ошибкой, возвращаемое значение может быть одним из следующих: D3DERR \_ инвалидкалл, D3DXERR \_ INVALIDDATA, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Параметр компилятора также определяет версию функции. Если определен Юникод, вызов функции разрешается в D3DXCreateTextW. В противном случае вызов функции разрешается в D3DXCreateTextA, так как используются строки ANSI.
 
@@ -137,7 +137,7 @@ HRESULT D3DXCreateText(
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9shape. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9shape. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>    |
 
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - mxdc.h
-ms.openlocfilehash: a16e0d5bb1a8ce48e071fe1b32543610d8433e86
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 53dd83e362ab21938121a986ee2402076d72f870460bc9db608b9a048cee0f28
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103913147"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119099078"
 ---
 # <a name="mxdc_escape_header_t-structure"></a>МКСДК \_ T-структура Escape- \_ заголовка \_
 
@@ -78,7 +78,7 @@ typedef struct tagMxdcEscapeHeader {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Перед вызовом [**\_ escape-последовательности мксдк**](mxdc-escape.md) \_ приложения должны сначала проверить, является ли драйвер Мксдк, вызвав [**ЕКСТЕСКАПЕ**](/windows/desktop/api/Wingdi/nf-wingdi-extescape) с помощью escape- [**технологии**](/previous-versions/windows/desktop/legacy/dd144931(v=vs.85)) . Если драйвер является МКСДК, функция возвращает строку "", завершающуюся нулем http://schemas.microsoft.com/xps/2005/06 .
 
@@ -125,8 +125,8 @@ typedef struct tagMxdcEscapeHeader {
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                    |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                              |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                    |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                              |
 | Header<br/>                   | <dl> <dt>Мксдк. h</dt> </dl> |
 
 

@@ -9,12 +9,12 @@ keywords:
 - Макрос Иккуериконфигуре
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a38fbbeb852d09296e5be7929738c9d4d71f118e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c8905ea35d65fc3eda3ddee130039503d8e26555665aae9efa517cb399349475
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986402"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144982"
 ---
 # <a name="compressor-and-decompressor-configuration"></a>Настройка программы сжатия и распаковки
 
@@ -24,9 +24,9 @@ ms.locfileid: "103986402"
 
 Приложение может отправить сообщения [**ICM- \_ State**](icm-getstate.md) и [**ICM \_ SETSTATE**](icm-setstate.md) (или использовать макросы [**икжетстатесизе**](/windows/desktop/api/Vfw/nf-vfw-icgetstatesize), [**икжетстате**](/windows/desktop/api/Vfw/nf-vfw-icgetstate)и [**иксетстате**](/windows/desktop/api/Vfw/nf-vfw-icsetstate) ) для получения и установки состояния сжатия или распаковки. Если приложение создает или изменяет состояние, оно должно получить макет данных программы сжатия или декомпрессора перед восстановлением состояния. Кроме того, если приложение получает состояние от программы сжатия или распаковки и использует его для восстановления состояния в последующем сеансе, оно должно обеспечить восстановление только сведений о состоянии, полученных из программы сжатия или распаковки, которая в настоящее время используется.
 
- 
+ 
 
- 
+ 
 
 
 

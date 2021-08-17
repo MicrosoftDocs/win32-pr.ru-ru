@@ -1,23 +1,23 @@
 ---
-description: В этом разделе показаны некоторые вспомогательные функции для подключения фильтров DirectShow.
+description: в этом разделе показаны некоторые вспомогательные функции для подключения фильтров DirectShow.
 ms.assetid: cfd85944-7ae7-49e6-948f-9e190cdeed12
-title: Соединение двух фильтров
+title: Подключение Два фильтра
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7e70e607c510490e7ed841ea44303153a94e83f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ab83e8608c088fde6d06c0a44621f1c066f177ecf76cbc8ba3f55d31218b49ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104140231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118954213"
 ---
-# <a name="connect-two-filters"></a>Соединение двух фильтров
+# <a name="connect-two-filters"></a>Подключение Два фильтра
 
-В этом разделе показаны некоторые вспомогательные функции для подключения фильтров DirectShow.
+в этом разделе показаны некоторые вспомогательные функции для подключения фильтров DirectShow.
 
 Чтобы подключить два фильтра, необходимо найти неподключенный выходной контакт на вышестоящем фильтре и несоединенный входной ПИН-код в подчиненном фильтре.
 
-Если у вас уже есть указатели на оба контакта, вызовите метод [**играфбуилдер:: Connect**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-connect) , чтобы соединить их. Если ПИН-коды не могут напрямую подключиться друг к другу, метод **играфбуилдер:: Connect** может вставить дополнительные фильтры для завершения подключения. Дополнительные сведения см. в статье [Intelligent Connect](intelligent-connect.md).
+если у вас уже есть указатели на оба контакта, вызовите метод [**играфбуилдер:: Подключение**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-connect) , чтобы соединить их. если пин-коды не могут напрямую подключиться друг к другу, метод **играфбуилдер:: Подключение** может вставлять дополнительные фильтры для завершения подключения. дополнительные сведения см. в статье [интеллектуальные Подключение](intelligent-connect.md).
 
 Если у вас есть указатель на фильтры, но не на ПИН-коды, то для поиска ПИН-кодов необходимо использовать метод [**ибасефилтер:: енумпинс**](/windows/desktop/api/Strmif/nf-strmif-ibasefilter-enumpins) . (См. раздел [перечисление ПИН](enumerating-pins.md)-кодов.) Этот метод демонстрируется в вспомогательных функциях этого раздела.
 
@@ -53,7 +53,7 @@ HRESULT ConnectFilters(
 Эта функция выполняет следующие действия:
 
 1.  Вызывает `FindUnconnectedPin` функцию, чтобы получить несоединенный входной ПИН-код. Эта функция показана в разделе [Поиск неподключенного ПИН-кода в фильтре](find-an-unconnected-pin-on-a-filter.md).
-2.  Вызывает [**играфбуилдер:: Connect**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-connect) для соединения двух ПИН-кодов.
+2.  вызывает [**играфбуилдер:: Подключение**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-connect) для соединения двух пин-кодов.
 
 ### <a name="filter-to-input-pin"></a>Фильтр входного ПИН-кода
 
@@ -106,7 +106,7 @@ HRESULT ConnectFilters(IGraphBuilder *pGraph, IBaseFilter *pSrc, IBaseFilter *pD
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

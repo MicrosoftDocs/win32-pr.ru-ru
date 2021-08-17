@@ -4,12 +4,12 @@ ms.assetid: dcb69d7e-457e-457b-9eea-15676ed710aa
 title: enrollCustomPKCS10
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86ad95f483d4bc82136865e94a70ad46e90e1c24
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 937b1e955ecd369794e832f16afff1594ed1df1271494d7172832132d4cb7863
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105647199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117780033"
 ---
 # <a name="enrollcustompkcs10"></a>enrollCustomPKCS10
 
@@ -17,7 +17,7 @@ ms.locfileid: "105647199"
 
 ## <a name="location"></a>Расположение
 
-При установке пакета средств разработки программного обеспечения (SDK) для Microsoft Windows этот образец устанавливается по умолчанию в папке *% ProgramFiles%* \\ Microsoft SDK \\ Windows \\ v 7.0 \\ Samples \\ Security SSL \\ Certificate \\ \\ enrollCustomPKCS10.
+при установке пакета microsoft Windows Software Development Kit (SDK) образец устанавливается по умолчанию в папке *% ProgramFiles%* \\ Microsoft sdk \\ Windows \\ v 7.0 \\ samples \\ Security ssl \\ Certificate \\ \\ enrollCustomPKCS10.
 
 ## <a name="discussion"></a>Разговор
 
@@ -36,7 +36,7 @@ ms.locfileid: "105647199"
 8.  Создает объект CryptoAPI [**ICertRequest2**](/windows/desktop/api/certcli/nn-certcli-icertrequest2) и использует его вместе со строками, содержащими конфигурацию ЦС и запросом сертификата для отправки запроса в ЦС.
 9.  Проверяет состояние отправки, и, если регистрация прошла успешно, устанавливает сертификат в хранилище сертификатов.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

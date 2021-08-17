@@ -29,19 +29,19 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fba8fdbdffc764c3bdcc1a8f5bc53aa479f318d4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d0a7d883d3b356713f2f9c3d2b1f9de76676e845020b211ee8a600604a674c54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118848198"
 ---
 # <a name="win32_sessiondirectorysession-class"></a>\_Класс Win32 сессиондиректорисессион
 
 Предоставляет свойства для просмотра свойств сеанса подключение к удаленному рабочему столу Broker (RDCB).
 
 > [!Note]  
-> В Windows Server 2008 R2 имя посредника сеансов служб терминалов было изменено на RDCB. Эти свойства применяются ко всем поддерживаемым операционным системам, если не указано иное.
+> в Windows Server 2008 R2 имя посредника сеансов служб терминалов изменено на RDCB. Эти свойства применяются ко всем поддерживаемым операционным системам, если не указано иное.
 
  
 
@@ -73,7 +73,7 @@ class Win32_SessionDirectorySession
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ сессиондиректорисессион** имеет следующие свойства.
 
@@ -105,7 +105,7 @@ class Win32_SessionDirectorySession
 
 </dd> <dt>
 
-**креатетиме**
+**CreateTime**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **DateTime**
@@ -131,7 +131,7 @@ class Win32_SessionDirectorySession
 
 </dd> <dt>
 
-**Имя_домена**
+**DomainName**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -293,9 +293,9 @@ IP-адрес сервера RDCB для этого сеанса.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). MOF-файлы не устанавливаются в составе пакета средств разработки программного обеспечения Microsoft Windows (SDK). Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
+файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). файлы MOF не устанавливаются в составе пакета средств разработки программного обеспечения Microsoft Windows Software Development Kit (SDK). Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
 ## <a name="requirements"></a>Требования
 

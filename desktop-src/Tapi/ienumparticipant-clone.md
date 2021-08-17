@@ -1,21 +1,21 @@
 ---
-description: Метод Clone создает еще один перечислитель, который содержит то же состояние перечисления, что и текущий. Этот метод скрыт от Visual Basic и языков сценариев.
+description: Метод Clone создает еще один перечислитель, который содержит то же состояние перечисления, что и текущий. этот метод скрыт от Visual Basic и языков сценариев.
 ms.assetid: 551e0ddc-7ebf-4fc2-a155-0c9ee2f406d4
 title: 'Метод ИенумпартиЦипант:: Clone (Конфприв. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c5b094f47738fd23f2762b7012a4e23c8b89da57
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: eccd4bd29442daa01e632ae83510a87eebb06cb72beafc206b04d47c3dd761db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140497"
 ---
 # <a name="ienumparticipantclone-method"></a>Метод ИенумпартиЦипант:: Clone
 
-\[**Клон** недоступен для использования в Windows Vista, windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[**клон** недоступен для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
-Метод **clone** создает еще один перечислитель, который содержит то же состояние перечисления, что и текущий. Этот метод скрыт от Visual Basic и языков сценариев.
+Метод **clone** создает еще один перечислитель, который содержит то же состояние перечисления, что и текущий. этот метод скрыт от Visual Basic и языков сценариев.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -56,7 +56,7 @@ HRESULT Clone(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 TAPI вызывает метод [**AddRef**](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref) в интерфейсе [**иенумпартиЦипант**](ienumparticipant.md) , возвращенном **иенумпартиЦипант:: Clone**. Приложение должно вызвать [**выпуск**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) в интерфейсе **иенумпартиЦипант** , чтобы освободить ресурсы, связанные с ним.
 
@@ -67,7 +67,7 @@ TAPI вызывает метод [**AddRef**](/windows/win32/api/unknwn/nf-unknw
 | Требование | Значение |
 |-------------------------|---------------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 3,0 или более поздней версии<br/>                                                 |
-| Header<br/>       | <dl> <dt>Конфприв. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>Конфприв. h</dt> </dl> |
 | Библиотека<br/>      | <dl> <dt>UUID. lib</dt> </dl>   |
 | DLL<br/>          | <dl> <dt>Tapi3.dll</dt> </dl>  |
 

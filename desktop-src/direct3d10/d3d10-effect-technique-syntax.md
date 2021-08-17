@@ -4,12 +4,12 @@ ms.assetid: 84f9b74d-8397-4cd5-91a0-7f910ba7b19e
 title: Синтаксис методики влияния (Direct3D 10)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f781a0e1ea247e9ffae02e6afc9de77c8e0c6b68
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e3c0ff0c0f1b5e9c1fac4cdb12aac21e42d89771c0eae89d1cd9538d0281acee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117914490"
 ---
 # <a name="effect-technique-syntax-direct3d-10"></a>Синтаксис методики влияния (Direct3D 10)
 
@@ -260,7 +260,7 @@ technique10 RenderSceneWithTexture1Light
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 75392fda39bc13e26c0667378021989e138dd893
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 803a019a531caf97888cf6f7067fba665447d8aaafa25e2e6016b219214ae9ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104424026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119971484"
 ---
 # <a name="esentpreviousversionexception-class"></a>Класс Есентпревиаусверсионексцептион
 
@@ -38,7 +38,7 @@ ms.locfileid: "104424026"
 ## <a name="inheritance-hierarchy"></a>Иерархия наследования
 
 [System.Object](/dotnet/api/system.object)  
-  [System. Exception](/dotnet/api/system.exception)  
+  [System.Exception](/dotnet/api/system.exception)  
     [Microsoft. ISAM. ESENT. Есентексцептион](./esentexception-class.md)  
       [Microsoft. ISAM. ESENT. Interop. Есентеррорексцептион](./esenterrorexception-class.md)  
         Microsoft. ISAM. ESENT. Interop. Есентпревиаусверсионексцептион  

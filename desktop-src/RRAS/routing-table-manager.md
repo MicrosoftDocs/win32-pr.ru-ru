@@ -4,12 +4,12 @@ description: Диспетчер таблиц маршрутизации явля
 ms.assetid: 7b01704e-c1fb-40e3-89cf-1206fdf9fd75
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98094eb34c8575e0c24854813fc7458c98749568
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 850726cd2203eca85be33aea3bd33f1ed903ba2d197d102ff7de294c5e852626
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105672021"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117787472"
 ---
 # <a name="routing-table-manager"></a>Диспетчер таблиц маршрутизации
 
@@ -21,9 +21,9 @@ ms.locfileid: "105672021"
 
 Каждый клиент регистрируется в диспетчере таблиц маршрутизации, а в Return получает маркер, используемый клиентом для добавления или удаления маршрутов. Клиенты могут получать сведения, хранящиеся в таблице маршрутизации. Кроме того, клиенты могут зарегистрироваться в диспетчере таблиц маршрутизации, чтобы получить уведомления об изменениях лучшего маршрута к назначению.
 
- 
+ 
 
- 
+ 
 
 
 

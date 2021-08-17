@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: ea9a8090a794f23693ae4fef10556bc207f16531
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 582341c97b6373fa0c04abf69642930328a34223a7c7b0dbc7792d8c7aec4680
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103808032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119093104"
 ---
 # <a name="folderparsename-method"></a>Folder. ParseName, метод
 
@@ -54,15 +54,15 @@ retVal = Folder.ParseName(
 
 Ссылка на объект [**FolderItem**](folderitem.md) .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 **PARSENAME** не следует использовать для таких виртуальных папок, как "Мои документы".
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере используется **PARSENAME** для создания объекта, представляющего элемент папки, Clock.avi в папке C: \\ Windows. Правильное использование показано в JScript, VBScript и Visual Basic.
+в следующем примере используется **ParseName** для создания объекта, представляющего элемент папки, Clock.avi в папке C: \\ Windows. правильное использование отображается для JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -152,7 +152,7 @@ End Sub
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                           |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                         |

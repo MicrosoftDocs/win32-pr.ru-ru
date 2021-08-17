@@ -4,12 +4,12 @@ description: Сведения о протоколе EAP и EAPHost. Просмо
 ms.assetid: 2669c858-c4cc-4319-a29c-93fe2fe67f41
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29f6e087a96adff43e5c8300ae68e7c0980d4fa4
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 9323109f850d4782a5aed644f5a3fdfece42ac2ea122de4399ca584dd15299c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104070606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119117824"
 ---
 # <a name="about-eap-and-eaphost"></a>О протоколах EAP и EAPHost
 
@@ -19,11 +19,11 @@ EAPHost реализует среду (EAP) конечного автомата 
 
 ## <a name="about-extensible-authentication-protocol"></a>О протоколе расширенной проверки подлинности
 
-EAP — это сетевой компонент Microsoft Windows, предоставляющий инфраструктуру протокола EAP. Дополнительные сведения см. в разделе [о EAP](about-extensible-authentication-protocol.md).
+EAP — это компонент сети Microsoft Windows, предоставляющий инфраструктуру протокола EAP. Дополнительные сведения см. в разделе [о EAP](about-extensible-authentication-protocol.md).
 
- 
+ 
 
- 
+ 
 
 
 

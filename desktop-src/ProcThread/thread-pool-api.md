@@ -4,12 +4,12 @@ ms.assetid: c8656469-a273-4838-aa1a-86140b0cd0a2
 title: API пула потоков
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38e9c267123b24c08d5931e5743a18e94d70d5a9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 38e2c9446c6a0432d0fc71e4d888448e73aca3e3282ed03e332f2347390cc72f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105673894"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117792972"
 ---
 # <a name="thread-pool-api"></a>API пула потоков
 
@@ -26,7 +26,7 @@ ms.locfileid: "105673894"
 
 
 
-| Функция              | Исходный API                                                                                                                                                                                                                                                                                                                   | Текущий API                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Компонент              | Исходный API                                                                                                                                                                                                                                                                                                                   | Текущий API                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Синхронизация                | [**RegisterWaitForSingleObject**](/windows/win32/api/winbase/nf-winbase-registerwaitforsingleobject)<br/> [**UnregisterWaitEx**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-unregisterwaitex)<br/>                                                                                                                                                                                        | [**клосесреадпулваит**](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolwait)<br/> [**креатесреадпулваит**](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolwait)<br/> [**SetThreadpoolWait**](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolwait)<br/> [**ваитфорсреадпулваиткаллбаккс**](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-waitforthreadpoolwaitcallbacks)<br/>                                                                                                                                                                                                                                                                                                                   |
 | Work                 | [**QueueUserWorkItem**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-queueuserworkitem)<br/>                                                                                                                                                                                                                                                                      | [**клосесреадпулворк**](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolwork)<br/> [**креатесреадпулворк**](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolwork)<br/> [**SubmitThreadpoolWork**](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-submitthreadpoolwork)<br/> [**TrySubmitThreadpoolCallback**](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-trysubmitthreadpoolcallback)<br/> [**WaitForThreadpoolWorkCallbacks**](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-waitforthreadpoolworkcallbacks)<br/>                                                                                                                                                                                                                               |
@@ -42,7 +42,7 @@ ms.locfileid: "105673894"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

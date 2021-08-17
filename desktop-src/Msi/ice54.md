@@ -4,12 +4,12 @@ ms.assetid: 94fcabfe-4500-42f2-acea-13b9a6681ca6
 title: ICE54
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99df2ba90ccb44e33b67aaf8ecdcadc723e8d2fe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 00658bb62b5c29b25f9fb653e216920fc776ba6df0e3fc2f8b47bbdf715040b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103910095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118946611"
 ---
 # <a name="ice54"></a>ICE54
 
@@ -45,7 +45,7 @@ Component 'Component1' uses file 'File1' as its KeyPath, but the file's version 
 
 
 
-| Файл  | Версия | Язык |
+| File  | Версия | Язык |
 |-------|---------|----------|
 | Файл1 | Файл2   |          |
 | Файл2 | 1.0.0.0 | 1033     |
@@ -54,7 +54,7 @@ Component 'Component1' uses file 'File1' as its KeyPath, but the file's version 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

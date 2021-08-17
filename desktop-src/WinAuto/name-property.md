@@ -4,12 +4,12 @@ description: Свойство Name — это строка, используем
 ms.assetid: 7533955a-9538-4ead-a6ca-f61dd1b4d5c5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e93d8b90190f81179d681600f4b1bfacf4665e2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ce046ef693e9e52323cdb7484bbdc291127b958d88857de6a8be4522b88e33de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105700570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133777"
 ---
 # <a name="name-property"></a>Свойство Name
 
@@ -29,9 +29,9 @@ ms.locfileid: "105700570"
 
 Если у объекта нет доступа к свойству **Name** , он делегирует запросы родительскому элементу, идентифицируя себя по его идентификатору дочернего элемента. Например, если клиент вызывает свойство **имени** элемента управления Edit, элемент управления "поле ввода" делегирует запрос родительскому элементу, который возвращает значение элемента управления "статический текст", которое помечает элемент управления "поле ввода".
 
- 
+ 
 
- 
+ 
 
 
 

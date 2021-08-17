@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 3703132cd8a0f7744119d9b8cb5d9d48f260094c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7d5786096fb9c38188d73d613fd11efd97c2401e9f8ae9c7eb4a05dfe1dc1e6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103914752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117729250"
 ---
 # <a name="id3dxsprite-interface"></a>Интерфейс ID3DXSprite
 
@@ -41,7 +41,7 @@ ms.locfileid: "103914752"
 |:------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Начать**](id3dxsprite--begin.md)                   | Подготавливает устройство для рисования спрайтов.<br/>                                                                                                                                                                            |
 | [**Draw**](id3dxsprite--draw.md)                     | Добавляет спрайт в список пакетных спрайтов.<br/>                                                                                                                                                                     |
-| [**END**](id3dxsprite--end.md)                       | Вызывает [**ID3DXSprite:: Flush**](id3dxsprite--flush.md) и восстанавливает состояние устройства до вызова [**ID3DXSprite:: Begin**](id3dxsprite--begin.md) .<br/>                                            |
+| [**Конец**](id3dxsprite--end.md)                       | Вызывает [**ID3DXSprite:: Flush**](id3dxsprite--flush.md) и восстанавливает состояние устройства до вызова [**ID3DXSprite:: Begin**](id3dxsprite--begin.md) .<br/>                                            |
 | [**Очистка**](id3dxsprite--flush.md)                   | Принудительная отправка всех пакетированных спрайтов на устройство. Состояния устройств остаются в том виде, в котором они были после последнего вызова [**ID3DXSprite:: Begin**](id3dxsprite--begin.md). Затем список пакетных спрайтов удаляется.<br/> |
 | [**GetDevice**](id3dxsprite--getdevice.md)           | Извлекает устройство, связанное с объектом Sprite.<br/>                                                                                                                                                           |
 | [**Преобразование**](id3dxsprite--gettransform.md)     | Возвращает преобразование спрайта.<br/>                                                                                                                                                                                        |
@@ -55,7 +55,7 @@ ms.locfileid: "103914752"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Интерфейс **ID3DXSprite** получается путем вызова функции [**D3DXCreateSprite**](d3dxcreatesprite.md) .
 
@@ -77,7 +77,7 @@ typedef interface ID3DXSprite *LPD3DXSPRITE;
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9core. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9core. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

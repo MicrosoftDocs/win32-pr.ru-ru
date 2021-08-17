@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a5e4841627ce5df3feee3f885b399a070388ed55
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 989b86cbf78a47a62c8d98799ac18adf987cbe623dc92e703537c54b54bf892a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648718"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117788876"
 ---
 # <a name="rasadminportenum-function"></a>Функция Расадминпортенум
 
-\[Эта функция предоставляется только для обеспечения обратной совместимости с Windows NT Server 4,0. Он возвращает \_ вызов ошибки \_ \_ , не реализованный в Windows Server 2003. Приложения должны использовать функцию [**мпрадминпортенум**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminportenum) .\]
+\[эта функция предоставляется только для обеспечения обратной совместимости с Windows NT Server 4,0. он возвращает \_ вызов ошибки \_ \_ , не реализованный на сервере Windows 2003. Приложения должны использовать функцию [**мпрадминпортенум**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminportenum) .\]
 
 Функция **расадминпортенум** перечисляет все порты на указанном сервере RAS. Для каждого порта на сервере функция возвращает структуру [**\_ порта RAS \_ 0**](ras-port-0-str.md) , содержащую сведения о порте.
 
@@ -91,7 +91,7 @@ DWORD RasAdminPortEnum(
 |----------------------------------|----------------------------------------------------------------------------------------|
 | Окончание поддержки клиента<br/> | Windows 2000 Professional<br/>                                                   |
 | Поддержка конца сервера<br/> | Windows 2000 Server<br/>                                                         |
-| Header<br/>                | <dl> <dt>Рассапи. h</dt> </dl>   |
+| Заголовок<br/>                | <dl> <dt>Рассапи. h</dt> </dl>   |
 | Библиотека<br/>               | <dl> <dt>Рассапи. lib</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Rassapi.dll</dt> </dl> |
 

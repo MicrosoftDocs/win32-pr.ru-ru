@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 2b2976a56b43c55fccb9acb0c593b0dfd37e4404
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9b8f291f055bfba159309b6c75a54d95514ed9c7614eb0456a4870e657f04209
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119555374"
 ---
 # <a name="querytable-structure"></a>Структура КУЕРИТАБЛЕ
 
@@ -58,7 +58,7 @@ typedef struct _QUERYTABLE {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Память для этой структуры и массива [статионкуери](stationquery.md) должна быть выделена вызывающим приложением и освобождена после того, как сведения больше не нужны.
 

@@ -7,16 +7,16 @@ keywords:
 - Функции SNMP, SNMP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9f4cc98ce84fbb66f8beb59a6bf995dc4315159
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 42028e4045d4d0dfeb183dc29a3dc85e7220ed3d5bccf39a3cc9871215188153
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104488149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143017"
 ---
 # <a name="snmp-functions"></a>Функции SNMP
 
-\[Протокол SNMP доступен для использования в операционных системах, указанных в разделе требования. В последующих версиях он может быть изменен или недоступен. Вместо этого используйте [Служба удаленного управления Windows](/windows/desktop/WinRM/portal), который является реализацией Microsoft WS-Man.\]
+\[Протокол SNMP доступен для использования в операционных системах, указанных в разделе требования. В последующих версиях он может быть изменен или недоступен. вместо этого используйте [служба удаленного управления Windows](/windows/desktop/WinRM/portal), который является реализацией Microsoft WS-Man.\]
 
 В этом разделе описываются три группы функций SNMP и перечислены функции, которые включены в каждую группу:
 
@@ -40,7 +40,7 @@ ms.locfileid: "104488149"
 
 
 
- 
+ 
 
 ## <a name="snmp-management-api-functions"></a>Функции API управления SNMP
 
@@ -60,7 +60,7 @@ ms.locfileid: "104488149"
 
 
 
- 
+ 
 
 ## <a name="snmp-utility-api-functions"></a>Функции API служебной программы SNMP
 
@@ -97,8 +97,8 @@ ms.locfileid: "104488149"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

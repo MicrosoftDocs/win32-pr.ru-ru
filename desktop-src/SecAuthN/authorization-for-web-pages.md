@@ -4,12 +4,12 @@ ms.assetid: DD6836EE-DF73-4A07-9DF1-0F5A959DDE8F
 title: Авторизация для веб-страниц
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88c26e9bc8333d74d18989c5c581cc54054a29ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 73e4f64cbbf3dd9ac38a13719cd8835a198f1fbb3b522e8ac368ffaf4e759fc1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103898302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141335"
 ---
 # <a name="authorization-for-web-pages"></a>Авторизация для веб-страниц
 
@@ -36,8 +36,8 @@ ms.locfileid: "103898302"
 1.  Следующие HTML-файлы соответствуют двум страницам в потоке веб-авторизации.
     -   WebAuthLogin.html — пример HTML-кода для страницы входа
     -   WebAuthPermissions.html — пример HTML-кода для страницы разрешений
-2.  Файлы CSS содержат стили Windows 8, помогающие создать веб-страницу приложения для Магазина Windows.
-    -   Уи-Лигхт. CSS — она была получена из базовой таблицы стилей для элементов управления Windows 8.
+2.  файлы CSS содержат Windows 8 стили, помогающие создать веб-страницу приложения для хранения Windows.
+    -   уи-лигхт. css — она была получена из базовой таблицы стилей для Windows 8 элементов управления.
     -   Уи-вебаус. CSS — обеспечивает добавочное Оформление для оптимизации макета страниц веб-аутентификации.
     -   семе-Колорс. CSS — обеспечивает добавочный стиль для переопределения контрастных цветов по умолчанию для элементов управления с цветом торговой марки поставщика.
 
@@ -47,7 +47,7 @@ ms.locfileid: "103898302"
 
 Следующие рекомендации [по проектированию веб-страниц проверки подлинности](best-practices-for-designing-authentication-web-pages.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

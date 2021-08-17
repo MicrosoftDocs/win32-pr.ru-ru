@@ -11,12 +11,12 @@ api_name:
 - ProviderID
 api_type:
 - Schema
-ms.openlocfilehash: 750e6c3f4397f710bb1ccbcea0286be68a89e145
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b40ac5abab2abf850d927c21f0de66ad419987f594f28dffcd380ead7f982d63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959794"
 ---
 # <a name="providerid-providertype-element"></a>Элемент ProviderID (providerType)
 
@@ -40,7 +40,7 @@ ms.locfileid: "104263176"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 7 \|\]<br/> |
+| Минимальная версия клиента<br/> | \[приложения UWP для классических приложений Windows 7 \|\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                         |
 
 

@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - Ntddvdeo.h
-ms.openlocfilehash: 547501a28492aecfe06f63f95b0e007fc80d3d02
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 673930fbde301c031049316255c9bcee40fd4e6a4f3c362977caf6e0569c5f5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673806"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143417"
 ---
 # <a name="ioctl_video_query_display_brightness-control-code"></a>\_ \_ \_ \_ Код управления яркостью экрана запроса видео ioctl
 
-\[Этот управляющий код доступен для использования в операционных системах, указанных в разделе требования. Поддержка этого кода элемента управления была удалена в Windows Server 2008 и Windows Vista. Вместо этого используйте класс [**вмимониторбригхтнесс**](/windows/desktop/WmiCoreProv/wmimonitorbrightness) .\]
+\[Этот управляющий код доступен для использования в операционных системах, указанных в разделе требования. поддержка этого кода элемента управления была удалена в Windows Server 2008 и Windows Vista. Вместо этого используйте класс [**вмимониторбригхтнесс**](/windows/desktop/WmiCoreProv/wmimonitorbrightness) .\]
 
 Извлекает текущие уровни подсветки AC и DC и текущее состояние электропитания.
 
@@ -124,7 +124,7 @@ BOOL DeviceIoControl(
 
 ## <a name="remarks"></a>Комментарии
 
-Файл заголовка, используемый для создания приложений, включающих эту функцию, Нтддвдео. h, входит в состав пакета средств разработки драйверов Microsoft Windows (DDK). Сведения о получении DDK см. в разделе [https://www.microsoft.com/whdc/devtools/ddk/default.mspx](https://msdn.microsoft.com/windows/hardware/gg454513) .
+файл заголовка, используемый для создания приложений, включающих эту функцию, нтддвдео. h, входит в комплект sdk для Microsoft Windows Driver Kit (DDK). Сведения о получении DDK см. в разделе [https://www.microsoft.com/whdc/devtools/ddk/default.mspx](https://msdn.microsoft.com/windows/hardware/gg454513) .
 
 Кроме того, этот код элемента управления можно определить следующим образом:
 
@@ -139,11 +139,11 @@ BOOL DeviceIoControl(
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для настольных приложений Windows XP с пакетом обновления 1 \[\]<br/>                                  |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows XP с пакетом обновления 1 (SP1), \[ только классические приложения\]<br/>                                  |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Окончание поддержки клиента<br/>    | Windows XP с пакетом обновления 2 (SP2)<br/>                                                        |
 | Поддержка конца сервера<br/>    | Windows Server 2003 R2<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Нтддвдео. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Нтддвдео. h</dt> </dl> |
 
 
 

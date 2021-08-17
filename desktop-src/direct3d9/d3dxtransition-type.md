@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9anim.h
-ms.openlocfilehash: 0ca6ef7f9dcee8e865a1cd4089aecd1bc239d5d4
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f451b94fe204a82cd15c65e424cc214025aa670f82af5224897100cbc6f8f6e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104000350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117730941"
 ---
 # <a name="d3dxtransition_type-enumeration"></a>\_Перечисление типов D3DXTRANSITION
 
@@ -62,7 +62,7 @@ typedef enum D3DXTRANSITION_TYPE {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Вычисление шкалы с простотой в целях упрощения вычисляется следующим образом:
 
@@ -103,7 +103,7 @@ A + B = y-x (от 2b до D = x)
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx9anim. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx9anim. h</dt> </dl> |
 
 
 

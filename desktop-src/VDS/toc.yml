@@ -47,7 +47,7 @@
                   href: portal-object.md
                 - name: Объект группы портала
                   href: portal-group-object.md
-                - name: Объект пула носителей
+                - name: служба хранилища Объект Pool
                   href: storage-pool-object.md
         - name: Обзор конфигурации
           href: configuration.md

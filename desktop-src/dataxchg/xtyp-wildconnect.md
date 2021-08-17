@@ -3,7 +3,7 @@ title: XTYP_WILDCONNECTная транзакция (Ддемл. h)
 description: Позволяет клиенту устанавливать диалог для каждого имени службы сервера и пары имен разделов, совпадающих с указанными именем службы и именем раздела.
 ms.assetid: 4651e14f-ca13-412e-853d-326a13db78e4
 keywords:
-- XTYP_WILDCONNECT обмена данными транзакций
+- XTYP_WILDCONNECT данных транзакций Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cc63d6c367aebc440418beaabb0a06f05b0df967
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f5b2b170a8d2362dec6311f935a5bc0bb92fa16a9b04270afc59d8fe5ad5c19f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105701041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117914734"
 ---
 # <a name="xtyp_wildconnect-transaction"></a>\_Транзакция кстип вилдконнект
 
-Позволяет клиенту устанавливать диалог для каждого имени службы сервера и пары имен разделов, совпадающих с указанными именем службы и именем раздела. Функция обратного вызова сервера платформа динамических данных Exchange (DDE) получает эту транзакцию [*, когда*](/windows/win32/api/ddeml/nc-ddeml-pfncallback)клиент указывает **пустое** имя службы, имя раздела **null** или оба метода в вызове функции [**ддеконнект**](/windows/desktop/api/Ddeml/nf-ddeml-ddeconnect) или [**ддеконнектлист**](/windows/desktop/api/Ddeml/nf-ddeml-ddeconnectlist) .
+Позволяет клиенту устанавливать диалог для каждого имени службы сервера и пары имен разделов, совпадающих с указанными именем службы и именем раздела. функция обратного вызова сервера платформа динамических данных Exchange (DDE) получает эту транзакцию [*, когда*](/windows/win32/api/ddeml/nc-ddeml-pfncallback)клиент указывает **пустое** имя службы, имя раздела **null** или оба метода в вызове функции [**ддеконнект**](/windows/desktop/api/Ddeml/nf-ddeml-ddeconnect) или [**ддеконнектлист**](/windows/desktop/api/Ddeml/nf-ddeml-ddeconnectlist) .
 
 
 ```C++
@@ -100,7 +100,7 @@ ms.locfileid: "105701041"
 
 Сервер должен вернуть **значение NULL** , чтобы отказаться от транзакции **кстип \_ вилдконнект** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта транзакция фильтруется, если серверное приложение указало флаг **КБФ \_ Failed \_ Connections** в функции [**ддеинитиализе**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea) .
 
@@ -114,7 +114,7 @@ ms.locfileid: "105701041"
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                             |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                   |
-| Заголовок<br/>                   | <dl> <dt>Ддемл. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ддемл. h (включает Windows. h)</dt> </dl> |
 
 
 
@@ -140,7 +140,7 @@ ms.locfileid: "105701041"
 **Зрения**
 </dt> <dt>
 
-[Библиотека управления платформа динамических данных Exchange](dynamic-data-exchange-management-library.md)
+[библиотека управления Exchange платформа динамических данных](dynamic-data-exchange-management-library.md)
 </dt> </dl>
 
  

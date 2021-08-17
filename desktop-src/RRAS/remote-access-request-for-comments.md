@@ -7,12 +7,12 @@ keywords:
 - Запрос комментариев, удаленный доступ
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7636f148570e9e1f3f488dad7b23043cec5e7c03
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 4fb84dace29ab2924eec2f9071a1aedda08cc96705e2cc9ff2da06e7b3e0bdda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117788569"
 ---
 # <a name="remote-access-request-for-comments"></a>Запрос на удаленный доступ для комментариев
 
@@ -32,7 +32,7 @@ ms.locfileid: "112406627"
 -   [RFC 2548](https://www.ietf.org/rfc/rfc2848.txt) — атрибуты RADIUS, зависящие от поставщика (Майкрософт)
 -   [RFC 2865](https://www.ietf.org/rfc/rfc2865.txt) — удаленная проверка подлинности в службе пользователя (RADIUS), июнь 2000
 -   [RFC 2866](https://www.ietf.org/rfc/rfc2866.txt) — учет Radius, 2000 июня
--   [RFC 2868](https://www.ietf.org/rfc/rfc2868.txt) — атрибуты RADIUS для поддержки протокола туннелирования, июнь 2000
+-   [RFC 2868](https://www.ietf.org/rfc/rfc2868.txt) — атрибуты Radius для поддержки протокола Tunnel, 2000 июня
 -   [RFC 2869](https://www.ietf.org/rfc/rfc2869.txt) — расширения RADIUS, 2000 июня
 -   [Черновик](https://www.freeradius.org/rfc/draft-ietf-radius-mschap-attr-01.txt) протоколов MSCHAP для RADIUS с атрибутом 01 — атрибуты RADIUS для поддержки MS-CHAP, ноябрь, 1997
 

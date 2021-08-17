@@ -4,12 +4,12 @@ ms.assetid: 9E3B5E2D-3583-4C89-BC2A-4AC3C5545673
 title: Свойство CODECAPI_AVEncVideoEncodeQP (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eec6c746f2f3c902ca416097571abaf5953956cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a9ed7ba8e3cf522c1e3cfa07d22cf5e37639717c230ca571ffd89d9e1d513a0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974893"
 ---
 # <a name="codecapi_avencvideoencodeqp-property"></a>КОДЕКАПИ \_ авенквидеоенкодекп, свойство
 
@@ -34,7 +34,7 @@ ms.locfileid: "105701330"
 -   BITS 32-47: служба QP, используемая для кадров P
 -   BITS 48-63: служба QP, используемая для кадров B
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство также используется с [кодировщиками камер H. 264 увк 1,5](camera-encoder-h264-uvc-1-5.md).
 
@@ -46,9 +46,9 @@ ms.locfileid: "105701330"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8 \|\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 \|\]<br/>                           |
-| Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ приложения UWP для классических приложений \|\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ приложения UWP для классических приложений \|\]<br/>                           |
+| Заголовок<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 
 

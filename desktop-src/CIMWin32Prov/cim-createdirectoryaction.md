@@ -24,12 +24,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: f7d0c2fb8d255a02d6df6f6677a31fa3366dfa6f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0075d881c688fd80dfdc1f74af37e4a61a5c71faaddc4893254ec0a36455a416
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896046"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924724"
 ---
 # <a name="cim_createdirectoryaction-class"></a>\_Класс CIM креатедиректоряктион
 
@@ -76,7 +76,7 @@ class CIM_CreateDirectoryAction : CIM_DirectoryAction
 
 | Метод                                                             | Описание                                                                                                                                  |
 |:-------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Вызвать**](invoke-method-in-class-cim-createdirectoryaction.md) | Выполняет определенное действие. Подробные сведения о том, как метод выполняет действие, зависит от реализации. Не реализовано инструментарием WMI.<br/> |
+| [**Invoke**](invoke-method-in-class-cim-createdirectoryaction.md) | Выполняет определенное действие. Подробные сведения о том, как метод выполняет действие, зависит от реализации. Не реализовано инструментарием WMI.<br/> |
 
 
 
@@ -106,7 +106,7 @@ class CIM_CreateDirectoryAction : CIM_DirectoryAction
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -170,7 +170,7 @@ class CIM_CreateDirectoryAction : CIM_DirectoryAction
 
 </dd> <dt>
 
-**директоринаме**
+**DirectoryName**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -188,7 +188,7 @@ class CIM_CreateDirectoryAction : CIM_DirectoryAction
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -434,7 +434,7 @@ HP-UX
 
 </dt> <dd>
 
-Windows 3. x
+Windows 3
 
 </dd> <dt>
 
@@ -516,7 +516,7 @@ Windows CE
 
 <span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>
 
-<span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>**Зависящая от UNIX** (24)
+<span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>**зависящие UNIX** (24)
 
 
 </dt> <dd></dd> <dt>
@@ -644,7 +644,7 @@ BS2000/OSD
 
 <span id="Interactive_UNIX"></span><span id="interactive_unix"></span><span id="INTERACTIVE_UNIX"></span>
 
-<span id="Interactive_UNIX"></span><span id="interactive_unix"></span><span id="INTERACTIVE_UNIX"></span>**Интерактивная UNIX** (40)
+<span id="Interactive_UNIX"></span><span id="interactive_unix"></span><span id="INTERACTIVE_UNIX"></span>**интерактивный UNIX** (40)
 
 
 </dt> <dd></dd> <dt>
@@ -656,7 +656,7 @@ BS2000/OSD
 
 </dt> <dd>
 
-ОС BSD UNIX
+UNIX BSD
 
 </dd> <dt>
 
@@ -837,7 +837,7 @@ Mac OS 9
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **CIM \_ креатедиректоряктион** является производным от [**CIM \_ директоряктион**](cim-directoryaction.md).
 

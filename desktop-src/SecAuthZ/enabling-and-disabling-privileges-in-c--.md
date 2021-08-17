@@ -4,12 +4,12 @@ ms.assetid: aa2d3fe7-01ee-4243-b72c-3e8b90068e22
 title: Включение и отключение привилегий в C++
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 354f3ac2b27a7c027bd7c48e753263c43b676dd3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dbc36e3db162b1a7a7f12f1849ab7708bda19d90991e58a65135d0eb4c0abd04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117781730"
 ---
 # <a name="enabling-and-disabling-privileges-in-c"></a>Включение и отключение привилегий в C++
 
@@ -19,11 +19,11 @@ ms.locfileid: "104081287"
 
 | Константа прав доступа           | Строковое значение                  | Отображаемое имя                        |
 |------------------------------|-------------------------------|-------------------------------------|
-| \_имя ассигнпримаритокен для SE \_ | SeAssignPrimaryTokenPrivilege | Замена маркера уровня процесса       |
-| SE \_ имя резервной копии \_             | SeBackupPrivilege             | Архивация файлов и каталогов       |
-| \_имя отладки для SE \_              | SeBackupPrivilege              | Отладка программ                      |
-| SE \_ увеличение \_ имени квоты \_    | SeIncreaseQuotaPrivilege      | Настройка квот памяти для процесса  |
-| \_имя TCB (SE) \_                | SeTcbPrivilege                | работа в качества части операционной системы; |
+| SE \_ \_имя ассигнпримаритокен | SeAssignPrimaryTokenPrivilege | Замена токена уровня процесса       |
+| SE \_ имя РЕЗЕРВной копии \_             | SeBackupPrivilege             | Архивация файлов и каталогов       |
+| SE \_ \_имя отладки              | SeBackupPrivilege              | Отладка программ                      |
+| SE \_ УВЕЛИЧИТЬ \_ имя квоты \_    | SeIncreaseQuotaPrivilege      | Настройка квот памяти для процесса  |
+| SE \_ \_имя TCB                | SeTcbPrivilege                | работа в качества части операционной системы; |
 
 
 

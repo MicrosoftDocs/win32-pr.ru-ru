@@ -4,18 +4,18 @@ ms.assetid: 2b56ccd5-b9f3-4c5e-8a0b-4b3d1f2b7122
 title: Использование таблицы преобразования цветов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe1c07bc0a67a02ea07aeaa3931e661af5665e33
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a00f36c493bbdc696fa672b2899d4d7c6d3231a9e40c0e4162b5113d78a67164
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104144860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119036302"
 ---
 # <a name="using-a-color-remap-table"></a>Использование таблицы преобразования цветов
 
 Повторное сопоставление — это процесс преобразования цветов в изображении в соответствии с таблицей преобразования цветов. Таблица преобразования цветов — это массив структур [**колормап**](/windows/win32/api/Gdipluscolormatrix/ns-gdipluscolormatrix-colormap) . Каждая структура **колормап** в массиве имеет элемент **Олдколор** и элемент **невколор** .
 
-Когда GDI+ рисует изображение, каждый пиксель изображения сравнивается с массивом старых цветов. Если цвет пикселя совпадает со старым цветом, его цвет изменяется на соответствующий новый цвет. Цвета изменяются только для отрисовки — цветовые значения самого изображения (хранящегося в объекте [**Image**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-image) или [**Bitmap**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-bitmap) ) не изменяются.
+когда GDI+ рисует изображение, каждый пиксель изображения сравнивается с массивом старых цветов. Если цвет пикселя совпадает со старым цветом, его цвет изменяется на соответствующий новый цвет. Цвета изменяются только для отрисовки — цветовые значения самого изображения (хранящегося в объекте [**Image**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-image) или [**Bitmap**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-bitmap) ) не изменяются.
 
 Чтобы нарисовать повторно сопоставленное изображение, инициализируйте массив структур [**колормап**](/windows/win32/api/Gdipluscolormatrix/ns-gdipluscolormatrix-colormap) . Передайте адрес этого массива методу [**ImageAttributes:: сетремаптабле**](/windows/win32/api/Gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-setremaptable) объекта [**ImageAttributes**](/windows/win32/api/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes) , а затем передайте адрес объекта **ImageAttributes** методу [методов DrawImage](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawimage(inimage_inconstpointf_inint)) объекта [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) .
 

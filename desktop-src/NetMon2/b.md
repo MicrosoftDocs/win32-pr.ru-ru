@@ -4,12 +4,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 title: Б (сетевой монитор)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 855ebbb406a9c53ef661a5196e18aedc4b3e7697
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7889dd4fbfccc4668df25c30b9f722d68c42ca72a1f7dc5676998e818c6e4e35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144377"
 ---
 # <a name="b-network-monitor"></a>Б (сетевой монитор)
 
