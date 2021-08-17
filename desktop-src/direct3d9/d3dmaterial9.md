@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: b9c3ad93fe2cb80fe758e2e66da37cce9d4267ad
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 640fd4ce0110f47aa20a04d0df595b0ae8bf5052c229825dd93e1066150c6306
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104424425"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118527584"
 ---
 # <a name="d3dmaterial9-structure"></a>Структура D3DMATERIAL9
 
@@ -98,7 +98,7 @@ typedef struct D3DMATERIAL9 {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы отключить отраженные блики, присвойте параметру D3DRS \_ Спекуларенабле **значение false**, используя [**D3DRENDERSTATETYPE**](./d3drenderstatetype.md). Это самый быстрый вариант, так как отраженные блики не будут вычисляться.
 
@@ -110,7 +110,7 @@ typedef struct D3DMATERIAL9 {
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
 
 
 

@@ -110,7 +110,7 @@ HRESULT D3DX11GetImageInfoFromResource(
 
 Параметр компилятора также определяет версию функции. Если определен Юникод, вызов функции разрешается в **D3DX11GetImageInfoFromResourceW**. В противном случае вызов функции разрешается в **D3DX11GetImageInfoFromResourceA** , так как используются строки ANSI.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

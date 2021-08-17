@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 4508f1654a357eb80b3847b7562e230c6a9be4d0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 315f1cdd8f8835b869f04edd9869243f3e05a9c2c9a08a41eeffc014727b3fc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104424354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118805471"
 ---
 # <a name="d3dclipplanen-macro"></a>Макрос D3DCLIPPLANEn
 
@@ -41,7 +41,7 @@ void D3DCLIPPLANEn(void);
 
 Этот макрос не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Определяемые пользователем отрезкиные плоскости включаются, если значение, заданное в \_ состоянии прорисовки D3DRS клиппланинабле, содержит один или несколько наборов битов (то есть не равен 0). Значение состояния визуализации не имеет значения; система не интерпретирует это значение как число. Вместо этого значение включает плоскость обрезки, для которой установлен соответствующий бит. Бит 0 управляет состоянием первой плоскости обрезки (с индексом 0), битом 1 второй плоскости и т. д.
 
@@ -53,7 +53,7 @@ void D3DCLIPPLANEn(void);
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
 
 
 

@@ -35,12 +35,12 @@ ms.locfileid: "118463929"
 -   [Носитель](media-bumper.md)
 -   [Message](message-bumper.md)
 -   [Музыка](music-bumper.md)
--   [Примечание](note-bumper.md).
+-   [Примечание](note-bumper.md)
 -   [Фото](photo-bumper.md)
 -   [пропграуп](propgroup-bumper.md)
 -   [проплист](proplist-bumper.md)
 -   [рекордедтв](recordedtv-bumper.md)
--   [Security](security-buffer.md)
+-   [Безопасность](security-buffer.md)
 -   [Поиск](search-bumper.md)
 -   [Оболочка](shell-bumper.md)
 -   [Программное обеспечение](software-bumper.md).

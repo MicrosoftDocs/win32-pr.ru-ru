@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shdocvw.dll
 ms.assetid: 92e8653f-7f41-4e0b-97e5-429fddc51951
-ms.openlocfilehash: 7ed78dcaa545b2321b04aff9ff2f4e711f93c992
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 571808962d65d25d4fb08f8d4cb57ffd1d51da67a7ba60def191edcf2fe19575
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109843185"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118459851"
 ---
 # <a name="dshellwindowseventswindowrevoked-method"></a>Дшеллвиндовсевентс. Виндовревокед, метод
 
@@ -56,7 +56,7 @@ DShellWindowsEvents.WindowRevoked(
 
 При регистрации в окне оболочки ему предоставляется файл cookie. Дополнительные сведения см. в разделе [**Регистрация**](/windows/desktop/api/Exdisp/nf-exdisp-ishellwindows-register).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
@@ -77,7 +77,7 @@ DShellWindowsEvents.WindowRevoked(
 [**виндоврегистеред**](dshellwindowsevents-windowregistered.md)
 </dt> <dt>
 
-[**Revoke**](/windows/desktop/api/Exdisp/nf-exdisp-ishellwindows-revoke)
+[**REVOKE**](/windows/desktop/api/Exdisp/nf-exdisp-ishellwindows-revoke)
 </dt> </dl>
 
  

@@ -362,7 +362,7 @@ Windows 2008 пример: " \\ SERVER01 \\ public"-Windows Server 2008 необ
 
 </dd> <dt>
 
-**Type**
+**Тип**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **UInt32**
@@ -438,7 +438,7 @@ Windows 2008 пример: " \\ SERVER01 \\ public"-Windows Server 2008 необ
 
 </dd> </dl>
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

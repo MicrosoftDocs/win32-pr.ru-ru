@@ -4,12 +4,12 @@ ms.assetid: c6ab20d9-c2bc-43ba-a018-2c6682bf0485
 title: Атрибут MF_EVENT_MFT_CONTEXT (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d61e8920c119da151df1215e8de8ce0d526220e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9518853030ec52a687f02ac0288c3fd3ffcf55b676be56c7036b349e1dec9aa0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080486"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104850"
 ---
 # <a name="mf_event_mft_context-attribute"></a>\_ \_ Атрибут контекста MFT события MF \_
 
@@ -29,7 +29,7 @@ ms.locfileid: "104080486"
 
 [**имфмедиаевент**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaevent)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут используется с событием [метрансформмаркер](metransformmarker.md) . Значение атрибута берется из параметра *улпарам* метода [**Имфтрансформ::P роцессмессаже**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processmessage) .
 
@@ -41,8 +41,8 @@ ms.locfileid: "104080486"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 7 \|\]<br/>                                  |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 R2 \|\]<br/>                     |
+| Минимальная версия клиента<br/> | \[приложения UWP для классических приложений Windows 7 \|\]<br/>                                  |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для настольных приложений Server 2008 R2 \|\]<br/>                     |
 | Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 

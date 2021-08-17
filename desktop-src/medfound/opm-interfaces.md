@@ -4,12 +4,12 @@ ms.assetid: c3eabc15-0c0f-4deb-9b7a-ec9ce6ce6bb4
 title: Интерфейсы ОПМ
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fcccbfe19e432f4077f9da1790f40d0eb1f2ca9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1935f55293ee9b919421049afed080c62bcfe305fc3b3c37326eda7fac35e68f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119101911"
 ---
 # <a name="opm-interfaces"></a>Интерфейсы ОПМ
 
@@ -25,7 +25,7 @@ ms.locfileid: "104263503"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

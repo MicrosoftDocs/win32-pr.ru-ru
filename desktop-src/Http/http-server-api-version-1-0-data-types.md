@@ -9,12 +9,12 @@ keywords:
 - Тип HTTP_URL_CONTEXT HTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 681e24c06334a9010287e2084d9d6a04428ca6a1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 151ef975470ca21c6e82e5bc7bd7bd8b99a70573385375e8552b6660ce78f631
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105681522"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950803"
 ---
 # <a name="http-server-api-version-10-data-types"></a>Типы данных API сервера HTTP версии 1,0
 
@@ -27,9 +27,9 @@ API сервера HTTP использует различные типы иде�
 
 Приложение не должно пытаться создать или изменить идентификатор, принадлежащий одному из этих типов.
 
- 
+ 
 
- 
+ 
 
 
 

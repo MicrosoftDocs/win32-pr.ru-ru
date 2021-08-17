@@ -62,7 +62,7 @@ typedef interface ID3DXSaveUserData *LPD3DXSAVEUSERDATA;
 
 
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

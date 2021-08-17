@@ -4,12 +4,12 @@ ms.assetid: 09F54504-A6CF-4385-BDD7-8D23B1D0125C
 title: Атрибут MF_NALU_LENGTH_INFORMATION (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c46d9a0b7cbec92c4cde40548b8d3baecf955b50
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2020c0086247adda742ce2613045bb3a2004c3b8c13c7cdcb04a0ff3997cf0cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104420"
 ---
 # <a name="mf_nalu_length_information-attribute"></a>\_ \_ Атрибут сведений о длине MF налу \_
 
@@ -19,7 +19,7 @@ ms.locfileid: "105692930"
 
 **ОБЪЕКТЕ**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы задать этот атрибут, носитель должен иметь тип МЕДИАСУБТИПЕ \_ H264 Single bitrate, а для входного типа носителя медиасубтипе H264 Single bitrate должен быть задан атрибут [ \_ длины MF налу \_ length \_ ](mf-nalu-length-set.md) \_ .
 
@@ -43,8 +43,8 @@ m_spSample->SetBlob( MF_NALU_LENGTH_INFORMATION,
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8 \|\]<br/>                                  |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 \|\]<br/>                        |
+| Минимальная версия клиента<br/> | Windows 8 \[ приложения UWP для классических приложений \|\]<br/>                                  |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ приложения UWP для классических приложений \|\]<br/>                        |
 | Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 

@@ -56,7 +56,7 @@ protected:
 
 Перегрузки операторов и приведения типов для этой структуры реализуются в d3dx9math. inl.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

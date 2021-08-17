@@ -54,7 +54,7 @@ typedef enum WPD_SECTION_DATA_UNITS_VALUES {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

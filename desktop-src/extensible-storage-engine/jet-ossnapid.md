@@ -43,7 +43,7 @@ JET_OSSNAPID
 
 **Null** можно использовать для указания недопустимого маркера.
 
-### <a name="requirements"></a>Requirements (Требования)
+### <a name="requirements"></a>Требования
 
 <table>
 <colgroup>

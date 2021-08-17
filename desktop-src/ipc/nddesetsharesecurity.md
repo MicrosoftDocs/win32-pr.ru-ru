@@ -15,16 +15,16 @@ api_type:
 - DllExport
 api_location:
 - Nddeapi.dll
-ms.openlocfilehash: 112752bcd0953fbbc358c75080cb2749273ed95d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 00e6d8c4b235e8f7d02ba22e737fc4de9bf4a739864afb1464e6f84c620faa48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105683880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118481828"
 ---
 # <a name="nddesetsharesecurity-function"></a>Функция Нддесетшаресекурити
 
-\[Сетевой DDE больше не поддерживается. Nddeapi.dll имеется в Windows Vista, но все вызовы функций возвращают НДДЕ \_ не \_ реализован.\]
+\[Сетевой DDE больше не поддерживается. Nddeapi.dll имеется в Windows Vista, но все вызовы функций возвращают ндде \_ не \_ реализованы.\]
 
 Задает дескриптор безопасности, связанный с общим ресурсом DDE. Это обычно происходит после изменения списка DACL, назначенного общему ресурсу DDE.
 
@@ -80,7 +80,7 @@ UINT NDdeSetShareSecurity(
 
 Если функция завершается ошибкой, возвращаемое значение является кодом ошибки, который может быть преобразован в текстовое сообщение об ошибке путем вызова [**нддежетеррорстринг**](nddegeterrorstring.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы изменить [**\_ дескриптор безопасности**](/windows/desktop/api/winnt/ns-winnt-security_descriptor) , связанный с общим ресурсом DDE в DSDM, пользователь должен иметь соответствующие права доступа. Автор общей папки имеет эту привилегию.
 
@@ -103,7 +103,7 @@ UINT NDdeSetShareSecurity(
 
 <dl> <dt>
 
-[Общие сведения о сетевом платформа динамических данных Exchange](network-dynamic-data-exchange.md)
+[общие сведения о Exchange сетевых платформа динамических данных](network-dynamic-data-exchange.md)
 </dt> <dt>
 
 [Сетевые функции DDE](network-dde-functions.md)

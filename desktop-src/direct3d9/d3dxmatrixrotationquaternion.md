@@ -71,7 +71,7 @@ D3DXMATRIX* D3DXMatrixRotationQuaternion(
 
 Сведения о вычислении значений кватерниона из вектора направления (x, y, z) и угла вращения см. в разделе [**D3DXQUATERNION**](d3dxquaternion.md).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

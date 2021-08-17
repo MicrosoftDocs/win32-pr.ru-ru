@@ -69,7 +69,7 @@ HRESULT D3DXFVFFromDeclarator(
 
 Эта функция завершится ошибкой для любого декларатора, который не сопоставлен непосредственно с ФВФ.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

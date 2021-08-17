@@ -62,7 +62,7 @@ ms.locfileid: "119441594"
 <tr class="even">
 <td><strong>CommandName</strong><br/></td>
 <td>xs: Поситивеинтежер или xs: String<br/></td>
-<td>нет<br/></td>
+<td>Нет<br/></td>
 <td>Связывает элемент с <a href="windowsribbon-element-command.md"><strong>командой</strong></a>.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs: Поситивеинтежер или xs: String)<br/> </dt> <dd> Строка, целочисленное значение в диапазоне от 2 до 59999 включительно или шестнадцатеричное значение между 0x2 и 0xea5f включительно. <br/> Значение должно быть уникальным в XML-документе ленты. <br/> Максимальная длина: 100 символов. <br/> </dd> </dl></td>
 </tr>

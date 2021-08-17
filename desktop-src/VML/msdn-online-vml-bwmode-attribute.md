@@ -4,27 +4,27 @@ description: Атрибут Бвмоде VML
 ms.assetid: 929daebb-c402-46a0-9abc-b91c4ebda7fa
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f595159398e32fdb1c80ad5d949ef48758aea95
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5640680af40f4649f7ab34b2ec8cfd4e5cf94ee4c7c6ce3c3f2185e68bdac360
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103792372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117754969"
 ---
 # <a name="vml-bwmode-attribute"></a>Атрибут Бвмоде VML
 
-В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+в этом разделе описывается функция VML, которая является устаревшей по отношению к Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
 
 > [!Note]  
-> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
+> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). сведения, рекомендации и рекомендации относительно текущей версии Windows Internet explorer см. в [центре разработчиков internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Определяет, как будет отображаться фигура для устройств вывода черно-белого цвета. Read/write. [Вгблакквхитемоде](msdn-online-vml-vgblackwhitemode.md).
 
 **Применимо к**:
 
-[Фигурная](shape-element--vml.md)
+[Фигура](shape-element--vml.md)
 
 **Синтаксис тега**
 
@@ -36,7 +36,7 @@ ms.locfileid: "103792372"
 
 Если указано значение **Auto** , [бвнормал](msdn-online-vml-bwnormal-attribute.md) используется для определения поведения обычных черно-белых выходных данных, а [бвпуре](msdn-online-vml-bwpure-attribute.md) используется для определения поведения для чистого вывода черно-белого цвета.
 
-*Атрибут расширений Microsoft Office*
+*Microsoft Office Extensions, атрибут*
 
 **Пример**
 
@@ -50,6 +50,6 @@ ms.locfileid: "103792372"
 
 
 
- 
+ 
 
- 
+ 

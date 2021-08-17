@@ -32,7 +32,7 @@ ms.locfileid: "118628509"
 
 **[установщик Windows 4,5 или более ранней версии](not-supported-in-windows-installer-4-5.md):** Не поддерживается. это свойство доступно, начиная с установщик Windows 5,0.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

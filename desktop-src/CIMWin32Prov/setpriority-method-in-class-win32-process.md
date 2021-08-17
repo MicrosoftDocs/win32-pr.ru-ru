@@ -150,7 +150,7 @@ uint32 SetPriority(
 
 В примере [изменения приоритета выполняемого процесса](https://Gallery.TechNet.Microsoft.Com/23615ee7-cccb-43c2-b994-6106ce2fc05e) VBScript изменяется приоритет запущенного экземпляра Notepad.exe с обычного на выше нормального.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
@@ -164,7 +164,7 @@ uint32 SetPriority(
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

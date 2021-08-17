@@ -4,12 +4,12 @@ ms.assetid: 8d9ecb9b-8528-4b23-ab2f-234ba2cb7ed0
 title: OPM_SET_PROTECTION_LEVEL_ACCORDING_TO_CSS_DVD (Опмапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 971d288367bdc5c59e11bdfd5b86fb233755c95e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2290f8d0dd17e01d482c197a54448a3317b11f80840579c2ddd05f01b6103840
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155339"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119101912"
 ---
 # <a name="opm_set_protection_level_according_to_css_dvd"></a>ОПМ \_ установить \_ \_ уровень защиты \_ в \_ соответствии \_ с \_ DVD-диском CSS
 
@@ -26,7 +26,7 @@ ms.locfileid: "104155339"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта команда используется для установки High-Bandwidth Digital Защита содержимого (HDCP) при воспроизведении стандартных DVD-дисков. В отличие от команды [**ОПМ \_ Set \_ Protection \_ Level**](opm-set-protection-level.md) , если HDCP не может быть задан по какой либо причине, эта команда не останавливает воспроизведение. (Правила CSS для DVD-дисков содержат «лучшие усилия» для игроков.) В противном случае эта команда идентична команде **ОПМ \_ Set \_ Protection \_ Level** .
 
@@ -36,8 +36,8 @@ ms.locfileid: "104155339"
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                      |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                      |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Опмапи. h</dt> </dl> |
 
 

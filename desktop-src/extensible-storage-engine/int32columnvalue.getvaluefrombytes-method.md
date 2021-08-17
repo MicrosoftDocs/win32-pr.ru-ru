@@ -69,7 +69,7 @@ protected override void GetValueFromBytes(
 
 #### <a name="parameters"></a>Параметры
 
-  - значение  
+  - Значение  
     Тип \[\]  
     
     Массив байтов.
@@ -83,7 +83,7 @@ protected override void GetValueFromBytes(
 
 <!-- end list -->
 
-  - count  
+  - количество  
     Тип: [System. Int32](/dotnet/api/system.int32)  
     
     Число байтов для декодирования.

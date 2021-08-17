@@ -77,7 +77,7 @@ public static void JetGetDatabaseInfo(
 
 <!-- end list -->
 
-  - значение  
+  - Значение  
     Тип: [System. String](/dotnet/api/system.string)  
     
     Получаемое значение.

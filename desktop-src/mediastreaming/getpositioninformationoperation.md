@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d62de60e1e3f7f2965b1248e173ed9962b73361d
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 7ff0a43a33b91e9b994e4d65b8201744cdbbfc911efc3eaef2a36841241e6d91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104487664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118473456"
 ---
 # <a name="getpositioninformationoperation-class"></a>Класс Жетпоситионинформатионоператион
 
@@ -50,7 +50,7 @@ ms.locfileid: "104487664"
 
 
 
-| Свойство                                                                  | Тип доступа           | Описание                                                                                                                                                                                          |
+| Свойство.                                                                  | Тип доступа           | Описание                                                                                                                                                                                          |
 |:--------------------------------------------------------------------------|:----------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Завершено**](getpositioninformationoperation-completed.md)<br/> | Чтение/запись<br/> | Возвращает или задает обработчик событий, который вызывается при завершении асинхронной операции, запущенной [**жетпоситионинформатионасинк**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-getpositioninformationasync) . <br/> |
 

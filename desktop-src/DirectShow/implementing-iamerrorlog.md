@@ -4,12 +4,12 @@ ms.assetid: 0a380854-f3a9-4077-a481-dda67737d4c8
 title: Реализация Иамеррорлог
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65eb968eb370d06fab6aca13af3215bb3b650257
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 446e193a6a28fc1cbd5515414b9914f2653e8bc27bb9b5a57e69d05dfc947d62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105673070"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118398084"
 ---
 # <a name="implementing-iamerrorlog"></a>Реализация Иамеррорлог
 
@@ -29,7 +29,7 @@ STDMETHODIMP LogError(
 
 
 
-Код ошибки и строка ошибки определяются службами редактирования DirectShow. Список ошибок см. в разделе [ошибки отрисовки](rendering-errors.md).
+код ошибки и строка ошибки определяются DirectShow редактирования служб. Список ошибок см. в разделе [ошибки отрисовки](rendering-errors.md).
 
 Параметр *пекстраинфо* содержит указатель на тип Variant, содержащий дополнительные сведения об ошибке. Тип данных и содержимое варианта зависит от конкретной произошедшей ошибки. Например, если ошибка вызвана неправильным именем файла, то вариант представляет собой строку с неправильным именем файла. Некоторые ошибки не имеют дополнительной информации, поэтому *пекстраинфо* может иметь **значение NULL**. В следующем коде показано, как протестировать элемент **VT** объекта Variant, который указывает тип данных, и отформатировать сообщение соответствующим образом.
 
@@ -82,7 +82,7 @@ if( pExtraInfo )    // Report extra information, if any.
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -53,7 +53,7 @@ ms.locfileid: "118408591"
 
 Элемент управления должен иметь фокус перед отправкой этого сообщения элементу управления. Фокус можно задать с помощью функции [**SetFocus**](/windows/desktop/api/winuser/nf-winuser-setfocus) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

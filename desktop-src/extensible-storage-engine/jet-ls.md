@@ -83,7 +83,7 @@ JET_LS
 </table>
 
 
-### <a name="requirements"></a>Requirements (Требования)
+### <a name="requirements"></a>Требования
 
 <table>
 <colgroup>
@@ -96,7 +96,7 @@ JET_LS
 <td><p>требуется Windows Vista или Windows XP.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
+<td><p><strong>Сервер</strong></p></td>
 <td><p>требуется Windows server 2008 или Windows server 2003.</p></td>
 </tr>
 <tr class="odd">

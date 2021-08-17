@@ -3,7 +3,7 @@ title: Атрибут Рекордингтимэйеармонс
 description: Атрибут Рекордингтимэйеармонс — это часть даты исходной записи, которая является частью года и месяца, для элементов, в которых эта дата отличается от даты выпуска.
 ms.assetid: aced29c4-5f11-4ade-b9e9-f0b3431fe577
 keywords:
-- Рекордингтимэйеармонс атрибут Windows Media Player
+- проигрыватель Windows Media атрибута рекордингтимэйеармонс
 topic_type:
 - apiref
 api_name:
@@ -12,24 +12,24 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a477f7c94bafd2806829d3e670e6a4542432fc9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b6f278d00e34b108f2da725d93cdb45ff8270395bb5693c457bf5c2158b8f367
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118333554"
 ---
 # <a name="recordingtimeyearmonth-attribute"></a>Атрибут Рекордингтимэйеармонс
 
 Атрибут **рекордингтимэйеармонс** — это часть даты исходной записи, которая является частью года и месяца, для элементов, в которых эта дата отличается от даты выпуска.
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [Звуковые элементы](audio-item-attributes.md)
 -   [Элементы фото](photo-item-attributes.md)
 -   [Элементы видео](video-item-attributes.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут хранится только в библиотеке.
 
@@ -41,7 +41,7 @@ ms.locfileid: "105704377"
 
 | Требование | Значение |
 |--------------------|------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 11<br/> |
+| Версия<br/> | проигрыватель Windows Media 11<br/> |
 
 
 

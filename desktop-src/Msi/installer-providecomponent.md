@@ -96,7 +96,7 @@ Installer.ProvideComponent(
 
 Параметр Мсиинсталлмодиксистинг нельзя использовать в сочетании с флагами Мсиреинсталлмоде.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

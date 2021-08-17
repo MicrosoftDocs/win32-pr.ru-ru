@@ -4,16 +4,16 @@ ms.assetid: 67a36123-4fce-4d40-83c3-b9668221276b
 title: Подписание документа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ce1754cdfa1e89c23525474bae880dc2809c242
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 526bc4cd98d6cab40efc884a2377f3720c9849dbb7f6c1d4e8da5d49898bfa64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118898168"
 ---
 # <a name="signing-a-document"></a>Подписание документа
 
-\[CAPICOM — это 32-разрядный компонент, доступный для использования в следующих операционных системах: Windows Server 2008, Windows Vista и Windows XP. Вместо этого используйте платформа .NET Framework для реализации функций безопасности. Дополнительные сведения см. [в разделе альтернативы использованию элемента CAPICOM](alternatives-to-using-capicom.md).\]
+\[CAPICOM — это 32-разрядный компонент, доступный для использования в следующих операционных системах: Windows Server 2008, Windows Vista и Windows XP. вместо этого используйте платформа .NET Framework для реализации функций безопасности. Дополнительные сведения см. [в разделе альтернативы использованию элемента CAPICOM](alternatives-to-using-capicom.md).\]
 
 Подпись обычно используется для подписи текста и сохранения этого подписанного текста в файл. Подписанный текст также может быть отправлен через Интернет. Подписанное сообщение находится в \# формате PKCS 7.
 
@@ -90,7 +90,7 @@ End Sub
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

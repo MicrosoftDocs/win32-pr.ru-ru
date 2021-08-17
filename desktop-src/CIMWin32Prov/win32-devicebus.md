@@ -88,7 +88,7 @@ class Win32_DeviceBus : CIM_Dependency
 
 Класс **Win32 \_ девицебус** является производным от [**\_ зависимости CIM**](cim-dependency.md).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

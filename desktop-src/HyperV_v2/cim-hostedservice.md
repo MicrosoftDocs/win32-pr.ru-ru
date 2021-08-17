@@ -81,7 +81,7 @@ class CIM_HostedService : CIM_HostedDependency
 
 </dd> </dl>
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

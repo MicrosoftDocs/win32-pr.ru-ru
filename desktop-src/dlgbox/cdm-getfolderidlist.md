@@ -68,7 +68,7 @@ ms.locfileid: "118786199"
 int CommDlg_OpenSave_GetFolderIDList(hwnd, lparam, wparam); 
 ```
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

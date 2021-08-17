@@ -4,12 +4,12 @@ ms.assetid: 55ab5289-4f68-495c-86b7-e67a8b556f44
 title: System.Devices.Parent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9eac4e9e605a488bc3a51d5cdc3e3c9ad66fe0ec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f0d028efc6b38ba74130d19d434406f64f57936a776dab0f828994a0f85bb2b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104546767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119097523"
 ---
 # <a name="systemdevicesparent"></a>System.Devices.Parent
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

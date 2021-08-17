@@ -15,7 +15,7 @@ ms.locfileid: "118943992"
 
 Установщик задает для свойства **мсиуихидеканцел** значение 1, если на уровне внутреннего пользовательского интерфейса задано включение инсталлуилевел \_ Хидеканцел с функцией [**Мсисетинтерналуи**](/windows/desktop/api/Msi/nf-msi-msisetinternalui) или свойством [Duilevel](installer-uilevel.md)объекта [**установщика**](installer-object.md) или с помощью [параметров командной строки](command-line-options.md).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e6c974c5df6f531cd75292290c61534a923e5be
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a36d2b9bdc2edc9565b1eac5ebae335e5fbad80752f572c48c0f1b05c9668de1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104489720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118883402"
 ---
 # <a name="countersadd-method"></a>Метод Counters. Add
 
@@ -82,7 +82,7 @@ Counters.Add( _
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если в параметре *PathName* указан подстановочный знак, метод **Add** создает по одному объекту [**каунтеритем**](counteritem.md) для каждого развернутого пути. Метод **Add** возвращает указатель на первый добавленный **каунтеритем**.
 
@@ -111,7 +111,7 @@ Counters.Add( _
 [**каунтеритем**](counteritem.md)
 </dt> <dt>
 
-[**Счетчики**](counters.md)
+[**Counters**](counters.md)
 </dt> <dt>
 
 [**Системмонитор. Бровсекаунтерс**](systemmonitor-browsecounters.md)

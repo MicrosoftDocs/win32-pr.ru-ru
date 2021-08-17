@@ -4,12 +4,12 @@ ms.assetid: 44a82d6c-9cf9-440f-904d-5931dcb6117b
 title: Свойство Авенкддатодконвертертипе (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 999880964b462f6d2e90196eeb6df369509a0a42
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d9057646597e213f7745e90cbc67eb8023df9ebec4faab81894a880372f4326d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105682305"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118403850"
 ---
 # <a name="avencddatodconvertertype-property"></a>Авенкддатодконвертертипе, свойство
 
@@ -35,8 +35,8 @@ ms.locfileid: "105682305"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 

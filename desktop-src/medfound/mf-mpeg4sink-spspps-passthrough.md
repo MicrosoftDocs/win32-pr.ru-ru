@@ -4,12 +4,12 @@ ms.assetid: B2574BE5-6334-4ED2-A008-86326CDC13B8
 title: Атрибут MF_MPEG4SINK_SPSPPS_PASSTHROUGH (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f3c02f4f1cdcac17a104b5061c8899c92e0ad824
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b939302999fc7e095abbc97aed5910976972c860440a2c865248949e0f052aa3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103811855"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104630"
 ---
 # <a name="mf_mpeg4sink_spspps_passthrough-attribute"></a>\_ \_ \_ Атрибут транзитного MPEG4SINK спсппс MF
 
@@ -23,7 +23,7 @@ ms.locfileid: "103811855"
 
 [**имфмедиасинк**](/windows/desktop/api/mfidl/nn-mfidl-imfmediasink)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 [**Приемник файлов MPEG-4**](mpeg-4-file-sink.md) записывает параметры SPS и PPS в поле Описание образца файла MP4. По умолчанию он фильтрует Налус SPS и PPS из видеопотока. Чтобы переопределить это поведение, присвойте \_ \_ \_ атрибуту passthrough MPEG4SINK Спсппс транзита **значение true**.
 
@@ -33,8 +33,8 @@ ms.locfileid: "103811855"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8 \|\]<br/>                                  |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 \|\]<br/>                        |
+| Минимальная версия клиента<br/> | Windows 8 \[ приложения UWP для классических приложений \|\]<br/>                                  |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ приложения UWP для классических приложений \|\]<br/>                        |
 | Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 

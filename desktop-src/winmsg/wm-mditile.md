@@ -59,7 +59,7 @@ ms.locfileid: "118436221"
 
 Если сообщение не выполняется, возвращается значение **false**.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

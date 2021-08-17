@@ -4,16 +4,16 @@ ms.assetid: 7ae672d3-e11d-453c-b9c0-354d21830ae4
 title: Отправка сообщения с запечатанными данными
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f59c04418a2f1d0186ddc0d88c30e7cc790c715b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9d93c73e22a9ac98e08d12164e78aa585a6b2ba3da6f47bf53675a7320bc206e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104423901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118900364"
 ---
 # <a name="sending-an-enveloped-data-message"></a>Отправка сообщения с запечатанными данными
 
-\[CAPICOM — это 32-разрядный компонент, доступный для использования в следующих операционных системах: Windows Server 2008, Windows Vista и Windows XP. Вместо этого используйте платформа .NET Framework для реализации функций безопасности. Дополнительные сведения см. [в разделе альтернативы использованию элемента CAPICOM](alternatives-to-using-capicom.md).\]
+\[CAPICOM — это 32-разрядный компонент, доступный для использования в следующих операционных системах: Windows Server 2008, Windows Vista и Windows XP. вместо этого используйте платформа .NET Framework для реализации функций безопасности. Дополнительные сведения см. [в разделе альтернативы использованию элемента CAPICOM](alternatives-to-using-capicom.md).\]
 
 В следующем примере сообщение с открытым текстом считывается из файла и открывается хранилище сертификатов, содержащее сертификаты предполагаемых получателей сообщений. Все сертификаты в хранилище добавляются в качестве получателей сообщения, сообщение помещается в конверт, а сообщение, помещенное в оболочку, записывается в файл.
 

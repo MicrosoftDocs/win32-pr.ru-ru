@@ -43,7 +43,7 @@ ms.locfileid: "119441654"
 
 | Элемент                                                   |
 |-----------------------------------------------------------|
-| [**Строка**](windowsribbon-element-string.md)<br/> |
+| [**Строковый тип**](windowsribbon-element-string.md)<br/> |
 
 
 
@@ -78,7 +78,7 @@ ms.locfileid: "119441654"
 
 
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

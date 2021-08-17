@@ -250,7 +250,7 @@ D3DX11_IMAGE_LOAD_INFO LoadInfo;
 
 
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

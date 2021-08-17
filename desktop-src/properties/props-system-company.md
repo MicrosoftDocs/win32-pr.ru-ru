@@ -4,12 +4,12 @@ ms.assetid: 01b3b328-a419-4175-acee-ac6ac4dccc75
 title: System. Company
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 198bf6af722279d2c971b50af51e0b768a4708e8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 99c5436a0d9b53f28258f31e5dac4ed5788b9ddd3b2fa0ac97e44e99a2cbbc85
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103812539"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119098397"
 ---
 # <a name="systemcompany"></a>System. Company
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
