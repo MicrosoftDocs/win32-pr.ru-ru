@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d42f431dbb2f9108c5e503aea07ba6b11915f0ac
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 68d52c1c022ed292a879ae4f701df52524d4170160bc79b6f1956c744a530c22
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694142"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119121306"
 ---
 # <a name="id3dxfilesavedata-interface"></a>Интерфейс ID3DXFileSaveData
 
@@ -50,7 +50,7 @@ ms.locfileid: "105694142"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Идентификатор GUID для интерфейса ID3DXFileSaveObject — IID \_ ID3DXFileSaveObject.
 
@@ -69,7 +69,7 @@ typedef interface ID3DXFileSaveData *LPD3DXFILESAVEDATA;
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Xof. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Xof. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>  |
 
 

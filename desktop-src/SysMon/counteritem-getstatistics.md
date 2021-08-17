@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c993ed8b9bb39a4d8bb3ff18663f2d884ece156
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bea1be162d68bb02db4842a7140effe653231dcc5105c4bea3b557abb02beab0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118883780"
 ---
 # <a name="counteritemgetstatistics-method"></a>Каунтеритем. метод Statistics
 
@@ -88,7 +88,7 @@ CounterItem.GetStatistics( _
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для вычисления статистических значений используются только те значения счетчика, которые видны в окне графа.
 

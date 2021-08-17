@@ -1,19 +1,19 @@
 ---
-title: Транспортные функции служб развертывания Windows
-description: В следующих разделах описывается транспортный API-интерфейс служб развертывания Windows.
+title: Windows Транспортные функции служб развертывания
+description: в следующих разделах описывается транспортный API-интерфейс Windows служб развертывания.
 ms.assetid: a8fa1926-937d-4018-b36a-1c65e3228894
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e1480584b80ac30ca8ed70b708ddc058336819b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: df40baf91e3c628ae456501daf846ac26ed1ee251339f46492eb7b2969c9a8ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105710139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117745490"
 ---
-# <a name="windows-deployment-services-transport-functions"></a>Транспортные функции служб развертывания Windows
+# <a name="windows-deployment-services-transport-functions"></a>Windows Транспортные функции служб развертывания
 
-В следующих разделах описывается транспортный API-интерфейс служб развертывания Windows.
+в следующих разделах описывается транспортный API-интерфейс Windows служб развертывания.
 
 <dl>
 
@@ -22,9 +22,9 @@ ms.locfileid: "105710139"
 [Клиентские функции транспорта WDS](wds-transport-client-functions.md)  
 </dl>
 
- 
+ 
 
- 
+ 
 
 
 

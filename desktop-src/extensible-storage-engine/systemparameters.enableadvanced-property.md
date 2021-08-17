@@ -26,16 +26,16 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e311685bf5ef436be11d4593523aceee73b955b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 07fd683ad6f2f0d2a9afd88b46a7786131e15c370c9046945ad3e9594a533391
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712725"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119107005"
 ---
 # <a name="systemparametersenableadvanced-property"></a>SystemParameters. Енаблеадванцед, свойство
 
-Возвращает или задает значение, указывающее, принимает ли ядро СУБД изменения, внесенные в подмножество системных параметров, или отклоняет их. Этот параметр используется вместе с [конфигурацией](./systemparameters.configuration-property.md) , чтобы предотвратить установку некоторых параметров системы из значений по умолчанию выбранной конфигурации. Поддерживается в Windows Vista и выше. Игнорируется в Windows XP и Windows Server 2003.
+Возвращает или задает значение, указывающее, принимает ли ядро СУБД изменения, внесенные в подмножество системных параметров, или отклоняет их. Этот параметр используется вместе с [конфигурацией](./systemparameters.configuration-property.md) , чтобы предотвратить установку некоторых параметров системы из значений по умолчанию выбранной конфигурации. поддерживается в Windows Vista и выше. пропускается в Windows XP и Windows Server 2003.
 
 **Пространство имен:**  [Microsoft. ISAM. ESENT. Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Сборка:**  Microsoft. ISAM. ESENT. Interop (в Microsoft.Isam.Esent.Interop.dll)

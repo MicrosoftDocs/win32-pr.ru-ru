@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Win32_tpm.dll
-ms.openlocfilehash: 9179aae2f4902ce29e2bab98b4c9c0b793804de6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7fd8841ad48480434fa1a686c2349e82d94eb01eda4f52084fd579cf67784870
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105683923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118891884"
 ---
 # <a name="isphysicalcleardisabled-method-of-the-win32_tpm-class"></a>Метод Исфисикалклеардисаблед \_ класса TPM Win32
 
@@ -66,11 +66,11 @@ uint32 IsPhysicalClearDisabled(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В начале каждого цикла запуска это значение сбрасывается в значение **false** .
 
-Файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). MOF-файлы не устанавливаются в составе Windows SDK. Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](../wmisdk/managed-object-format--mof-.md).
+файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). MOF-файлы не устанавливаются в составе Windows SDK. Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](../wmisdk/managed-object-format--mof-.md).
 
 ## <a name="requirements"></a>Требования
 
@@ -78,8 +78,8 @@ uint32 IsPhysicalClearDisabled(
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                      |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                      |
 | Пространство имен<br/>                | Корневой \\ CIMV2 \\ безопасности \\ микрософттпм<br/>                                            |
 | MOF<br/>                      | <dl> <dt>Win32 \_ TPM. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>\_tpm.dllWin32</dt> </dl> |

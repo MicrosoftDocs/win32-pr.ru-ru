@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b17c5f44e02fbac0056a2d6819450a813f77d62
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 96e194007f924edb4086b222f123a9f86f2f3d83d99629d846af865d1cc34479
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104138622"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960543"
 ---
 # <a name="ms-ds-value-type-reference-attribute"></a>Ссылочный атрибут MS-DS-value-type
 
@@ -52,8 +52,8 @@ ms.locfileid: "104138622"
 |------------------------|-----------------------------------------------------------------------|
 | Идентификатор ссылки                | 2188                                                                  |
 | MAPI-Id                | \-                                                                    |
-| System-Only            | True                                                                  |
-| Является однозначным       | True                                                                  |
+| System-Only            | Верно                                                                  |
+| Является однозначным       | Верно                                                                  |
 | Индексируется             | Неверно                                                                 |
 | В глобальном каталоге      | Неверно                                                                 |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                          |

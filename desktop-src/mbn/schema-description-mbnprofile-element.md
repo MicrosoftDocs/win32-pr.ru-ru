@@ -32,7 +32,7 @@ ms.locfileid: "118744461"
 
 Элемент **Description** определяется элементом [**мбнпрофиле**](schema-mbnprofile-element.md) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: b5783dd5e662aed33722a1c587bfcdc3cab76c78
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6046beae61aebaf33ea5eedb6ef2ec643f2edb39dbbedc61372085be2220068b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118900354"
 ---
 # <a name="signedcodedescription-property"></a>Сигнедкоде. Description, свойство
 
@@ -39,7 +39,7 @@ SignedCode.Description As String
 
 Описание подписанного исполняемого файла.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Описание — это текст, отображаемый в диалоговом окне проверки Authenticode. Текст должен описывать подписанный исполняемый файл. Если это свойство имеет **значение NULL**, в диалоговом окне отображается имя исполняемого файла.
 

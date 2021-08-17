@@ -4,12 +4,12 @@ ms.assetid: c1aefd92-b47f-4af1-8299-9ba401ad5fe8
 title: Композиция и разложение
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7dce1e1df87b5ffc5c65e9090c6fb7266b972d3
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8b173ed0727869d3630a2241d7237cf74fb5143a907a95fcc53901a7b85f285c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105672982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118954233"
 ---
 # <a name="composition-and-layering"></a>Композиция и разложение
 
@@ -21,11 +21,11 @@ ms.locfileid: "105672982"
 
 Если несколько дорожек объединены, они ведут себя как одна дорожка (называемая виртуальной дорожкой). Объект композиции инкапсулирует это поведение, делая возможными сложные переходы. Например, один видеоклип может стереть второй клип, а совмещенный (оба — и стирание) постепенно пересекаться с третьим.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[начало работы с помощью служб редактирования DirectShow](getting-started-with-directshow-editing-services.md)
+[начало работы с DirectShow служб редактирования](getting-started-with-directshow-editing-services.md)
 </dt> </dl>
 
  

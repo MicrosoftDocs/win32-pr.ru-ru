@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 41236c541fc251902a7a0a5ad6030a28dd36e3a4
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8087f45ad94fe3e45f78a1be9d86b30f6f7e3f2c9161b9c4498865b12582436e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104355360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124939"
 ---
 # <a name="d3dx11_state_block_mask-structure"></a>\_ \_ Структура маски блока D3DX11 State \_
 
@@ -79,7 +79,7 @@ typedef struct _D3DX11_STATE_BLOCK_MASK {
 
 
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 <dl> <dt>
 
@@ -567,7 +567,7 @@ typedef struct _D3DX11_STATE_BLOCK_MASK {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Маска блока состояния указывает на то, что устройство изменило метод передачи или приема.
 
@@ -577,7 +577,7 @@ typedef struct _D3DX11_STATE_BLOCK_MASK {
 
 | Требование | Значение |
 |-------------------|-------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx11effect. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx11effect. h</dt> </dl> |
 
 
 

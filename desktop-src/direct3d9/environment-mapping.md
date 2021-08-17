@@ -4,12 +4,12 @@ ms.assetid: vs|directx_sdk|~\environment_mapping.htm
 title: Сопоставление окружения (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 686f15b2f097550206f9c02cfc4104e7c9f6c030
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d8a07d53028e200d273206f149ea12c07afa6dbc4ad47f8232e64cddf7582a09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103805614"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119122230"
 ---
 # <a name="environment-mapping-direct3d-9"></a>Сопоставление окружения (Direct3D 9)
 
@@ -26,7 +26,7 @@ ms.locfileid: "103805614"
 -   [Сопоставление кубических сред](cubic-environment-mapping.md)
 -   [Сопоставление сферического окружения](spherical-environment-mapping.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

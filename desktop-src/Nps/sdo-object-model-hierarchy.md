@@ -5,12 +5,12 @@ ms.assetid: 22159f61-2b35-4a0d-9b8b-8cb0a8192afb
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2484b4d7402f8a5b43a590651f36d4d1707bca2
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f3f63b5692571bab49580251d6ef879adde8ae9a57af4c541404aabc48538e38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413242"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119063353"
 ---
 # <a name="object-model-hierarchy"></a>Иерархия объектной модели
 
@@ -25,9 +25,9 @@ ms.locfileid: "104413242"
 Второй способ, которым объекты предоставляют доступ к другим объектам, заключается в том, что коллекция объектов представляется как свойство объекта, содержащего его. Чтобы получить коллекцию объектов, вызовите [**исдо::**](/windows/desktop/api/sdoias/nf-sdoias-isdo-getproperty) GetObject свойства объекта, представляющего коллекцию. Например, чтобы получить коллекцию политик, вызовите **исдо::** GetObject в интерфейсе [**исдо**](/windows/desktop/api/sdoias/nn-sdoias-isdo) , предоставляемом объектом NPS.
 
 > [!Note]  
-> Служба проверки подлинности в Интернете (IAS) переименовала сервер политики сети (NPS), начиная с Windows Server 2008.
+> служба проверки подлинности в интернете (IAS) переименовала сервер политики сети (NPS), начиная с Windows Server 2008.
 
- 
+ 
 
 ![получение коллекции политик](images/sdo02.png)
 
@@ -93,7 +93,7 @@ ms.locfileid: "104413242"
 
 </dd> </dl>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -103,6 +103,6 @@ ms.locfileid: "104413242"
 [Поддерживаемые в SDO атрибуты](/windows/desktop/Nps/sdo-sdo-supported-attributes)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

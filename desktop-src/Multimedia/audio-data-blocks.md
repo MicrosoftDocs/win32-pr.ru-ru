@@ -10,12 +10,12 @@ keywords:
 - Структура ВАВЕХДР
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8a81a5a29ec9718e7c11306b6bafc1aa20369e5
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 08a4a0c7236c52854911b51677cf792fa504371fb18900ac947e8fdf1391bd69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103987396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118941758"
 ---
 # <a name="audio-data-blocks"></a>Звуковые блоки данных
 
@@ -34,7 +34,7 @@ ms.locfileid: "103987396"
 
 
 
- 
+ 
 
 Перед передачей блока звуковых данных в драйвер устройства необходимо подготовить блок данных, передав его в [**вавеинпрепарехеадер**](/windows/win32/api/mmeapi/nf-mmeapi-waveinprepareheader) или [**вавеаутпрепарехеадер**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutprepareheader). Когда драйвер устройства завершает работу с блоком данных и возвращает его, необходимо очистить эту подготовку, передав блок данных в [**вавеинунпрепарехеадер**](/windows/win32/api/mmeapi/nf-mmeapi-waveinunprepareheader) или [**вавеаутунпрепарехеадер**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutunprepareheader) , прежде чем можно будет освободить выделенную память.
 
@@ -58,6 +58,6 @@ ms.locfileid: "103987396"
 -   [Использование окна или потока для обработки сообщений драйвера](using-a-window-or-thread-to-process-driver-messages.md)
 -   [Управление блоками данных путем опроса](managing-data-blocks-by-polling.md)
 
- 
+ 
 
- 
+ 

@@ -23,12 +23,12 @@ keywords:
 - меню, шрифты
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d216b5fe5e6c25a98b5bdf3abe9d55b4bb0b34f
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 61f3a71a580a323fa2058613f8c9a14d9c2782bd3ba139e5d182750e5047fe74
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103791214"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971933"
 ---
 # <a name="using-menus"></a>Использование меню
 
@@ -79,7 +79,7 @@ ms.locfileid: "103791214"
 
 ### <a name="old-menu-template-format"></a>Старый формат Menu-Template
 
-Шаблон старого меню (Microsoft Windows NT 3,51 и более ранних версий) определяет меню, но не поддерживает новые функции меню. Старый ресурс шаблона меню имеет тип ресурса **\_ меню RT** .
+старый шаблон меню (Microsoft Windows NT 3,51 и более ранних версий) определяет меню, но не поддерживает новые функции меню. Старый ресурс шаблона меню имеет тип ресурса **\_ меню RT** .
 
 Старый шаблон меню состоит из структуры [**менуитемтемплатехеадер**](/windows/desktop/api/Winuser/ns-winuser-menuitemtemplateheader) , за которой следует одна или несколько структур [**менуитемтемплате**](/windows/desktop/api/Winuser/ns-winuser-menuitemtemplate) .
 
@@ -458,7 +458,7 @@ VOID APIENTRY DisplayContextMenu(HWND hwnd, POINT pt)
 
 При задании флага **\_ растрового изображения Миим** или **MF \_** для пункта меню необходимо также указать маркер для точечного рисунка, который система должна отображать для пункта меню. Можно указать точечный рисунок как ресурс точечного рисунка или создать точечный рисунок во время выполнения. При использовании ресурса точечного рисунка можно использовать функцию [**лоадбитмап**](/windows/desktop/api/winuser/nf-winuser-loadbitmapa) для загрузки точечного рисунка и получения его маркера.
 
-Чтобы создать точечный рисунок во время выполнения, используйте функции Windows интерфейс графических устройств (GDI). GDI предоставляет несколько способов создания точечного рисунка во время выполнения, но разработчики обычно используют следующий метод:
+чтобы создать точечный рисунок во время выполнения, используйте функции Windows интерфейс графических устройств (GDI). GDI предоставляет несколько способов создания точечного рисунка во время выполнения, но разработчики обычно используют следующий метод:
 
 1.  Используйте функцию [**креатекомпатибледк**](/windows/desktop/api/wingdi/nf-wingdi-createcompatibledc) , чтобы создать контекст устройства, совместимый с контекстом устройства, используемым главным окном приложения.
 2.  Используйте функцию [**креатекомпатиблебитмап**](/windows/desktop/api/wingdi/nf-wingdi-createcompatiblebitmap) для создания точечного рисунка, совместимого с главным окном приложения, или используйте функцию [**креатебитмап**](/windows/desktop/api/wingdi/nf-wingdi-createbitmap) для создания монохромного точечного рисунка.
@@ -995,7 +995,7 @@ VOID WINAPI AddBitmapMenu(
 
 
 
- 
+ 
 
 ### <a name="setting-fonts-for-menu-item-text-strings"></a>Установка шрифтов для Menu-Item текстовых строк
 
@@ -1553,7 +1553,7 @@ VOID WINAPI OnDrawItem(HWND hwnd, LPDRAWITEMSTRUCT lpdis)
     > [!Note]  
     > Для создания монохромного точечного рисунка можно также использовать функцию [**креатебитмап**](/windows/desktop/api/wingdi/nf-wingdi-createbitmap) .
 
-     
+     
 
 3.  Используйте функцию [**SelectObject**](/windows/desktop/api/wingdi/nf-wingdi-selectobject) , чтобы выбрать точечный рисунок в совместимом контексте устройства.
 4.  Используйте функции рисования GDI, такие как [**Ellipse**](/windows/desktop/api/wingdi/nf-wingdi-ellipse) и [**lineTo**](/windows/desktop/api/wingdi/nf-wingdi-lineto), для рисования изображения в растровом изображении или для копирования изображения в растровое изображение с помощью таких функций, как [**BitBlt**](/windows/desktop/api/wingdi/nf-wingdi-bitblt) и [**стретчблт**](/windows/desktop/api/wingdi/nf-wingdi-stretchblt) .
@@ -2206,6 +2206,6 @@ VOID WINAPI OnDestroy(HWND hwnd)
 
 
 
- 
+ 
 
- 
+ 

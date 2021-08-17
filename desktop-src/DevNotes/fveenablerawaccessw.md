@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Fveapi.dll
-ms.openlocfilehash: 5b4a367c3566c1475f856783d800ec43e21071e2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 050983663b782d40c330092919b8fc29060cbba057a16d147b80c6ea477cbf54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956093"
 ---
 # <a name="fveenablerawaccessw-function"></a>Функция Фвинаблеравакцессв
 
@@ -76,8 +76,8 @@ HRESULT FveEnableRawAccessW(
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Fveapi.dll</dt> </dl> |
 
 

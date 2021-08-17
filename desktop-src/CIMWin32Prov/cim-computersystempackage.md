@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a5a2f166c4494b6120bfc5e2aaedeaba4721b155
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a5901b77fd3ea3305f7973fc194aefc2263efeec3181ea1f76e3bebfde87bf73
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924954"
 ---
 # <a name="cim_computersystempackage-class"></a>\_Класс CIM компутерсистемпаккаже
 
@@ -51,7 +51,7 @@ class CIM_ComputerSystemPackage : CIM_Dependency
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ компутерсистемпаккаже** имеет следующие свойства.
 
@@ -89,7 +89,7 @@ class CIM_ComputerSystemPackage : CIM_Dependency
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **CIM \_ компутерсистемпаккаже** является производным от [**\_ зависимости CIM**](cim-dependency.md).
 

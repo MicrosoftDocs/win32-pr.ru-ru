@@ -1,5 +1,5 @@
 ---
-description: Уведомляет драйвер о том, что Microsoft DirectDraw переводится на поверхность Windows интерфейс графических устройств (GDI) или с нее.
+description: уведомляет драйвер о том, что Microsoft DirectDraw переводится на поверхность Windows интерфейс графических устройств (GDI).
 ms.assetid: e79be33a-24bc-477b-bc67-395fff74309c
 title: Функция Нтгдиддфлиптогдисурфаце (Нтгди. h)
 ms.topic: reference
@@ -16,18 +16,18 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: 7e233bddf72c79507eab1fcefbf3de66460d228e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8fe1966958b21441f76eb392f2616b22014b6810cb5384ca5a1f79b4ddcb2a9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956393"
 ---
 # <a name="ntgdiddfliptogdisurface-function"></a>Функция Нтгдиддфлиптогдисурфаце
 
 \[Эта функция может быть изменена при каждой редакции операционной системы. Вместо этого используйте DirectDraw и Microsoft Direct3DAPIs; Эти API разделяют приложения от таких изменений операционной системы и скрывают множество других трудностей, связанных с взаимодействием с драйверами экрана.\]
 
-Уведомляет драйвер о том, что Microsoft DirectDraw переводится на поверхность Windows интерфейс графических устройств (GDI) или с нее.
+уведомляет драйвер о том, что Microsoft DirectDraw переводится на поверхность Windows интерфейс графических устройств (GDI).
 
 ## <a name="syntax"></a>Синтаксис
 

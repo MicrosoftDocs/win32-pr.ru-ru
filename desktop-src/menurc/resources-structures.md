@@ -4,16 +4,16 @@ description: Структуры ресурсов (меню и другие ре�
 ms.assetid: 3b0eecd7-9de0-4897-9833-386c30bc511e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3fa2863750e441caba9302da39a9fefab7ff0e4c
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 89ccd47a6b8f096d8780913ccaa6c2c9d27a97f44c8687d3a5765313088ebd43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108092682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971943"
 ---
 # <a name="resource-structures-menus-and-other-resources"></a>Структуры ресурсов (меню и другие ресурсы)
 
-## <a name="in-this-section"></a>в этом разделе
+## <a name="in-this-section"></a>В этом разделе
 
 -   [**акцелтаблинтри**](acceltableentry.md)
 -   [**курсордир**](cursordir.md)

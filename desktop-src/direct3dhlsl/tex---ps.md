@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a3070883b167d26cf31f7d7f388f6bd3736a4bde
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0646a057fdc2fb96e5f72e7451b9b273191ced22f5092a14fab11a9042c5de25
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118788113"
 ---
 # <a name="tex---ps"></a>Да-PS
 
@@ -29,13 +29,13 @@ ms.locfileid: "103987665"
 
 
 
- 
+ 
 
-где
+where
 
 -   DST — это регистр назначения.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -45,7 +45,7 @@ ms.locfileid: "103987665"
 
 
 
- 
+ 
 
 Номер целевой регистрации указывает номер стадии текстуры.
 
@@ -55,13 +55,13 @@ ms.locfileid: "103987665"
 
 Координаты текстуры могут быть связаны с любым этапом с помощью двух методов. При использовании шейдера вершин с фиксированной функцией или конвейера фиксированной функции флаг состояния стадии текстуры Тсс \_ текскурдиндекс можно использовать в [**сеттекстурестажестате**](/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settexturestagestate) для связывания координат с стадией. В противном случае координаты текстуры выводятся с помощью Отна вершин шейдера при использовании программируемого шейдера вершин.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера пикселей](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

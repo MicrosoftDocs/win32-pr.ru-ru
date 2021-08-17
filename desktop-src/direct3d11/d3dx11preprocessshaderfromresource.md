@@ -1,6 +1,6 @@
 ---
 title: Функция D3DX11PreprocessShaderFromResource (D3DX11async. h)
-description: Обратите внимание, что библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений Магазина Windows. Примечание. вместо использования этой функции рекомендуется использовать API D3DPreprocess. Создание шейдера из ресурса без его компиляции.
+description: обратите внимание, что библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows. Примечание. вместо использования этой функции рекомендуется использовать API D3DPreprocess. Создание шейдера из ресурса без его компиляции.
 ms.assetid: 13362ad6-f02e-4899-8962-4f7d4750ff69
 keywords:
 - D3DX11PreprocessShaderFromResource функция Direct3D 11
@@ -15,17 +15,17 @@ api_type:
 - LibDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 645d872e983cabbcd81aab05a59ee8f1f83cc403
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 34aef8bad8220e9f579560c8e47477a96313bbddd9ed6970710ffffc263da35e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104998501"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124659"
 ---
 # <a name="d3dx11preprocessshaderfromresource-function"></a>Функция D3DX11PreprocessShaderFromResource
 
 > [!Note]  
-> Библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений Магазина Windows.
+> библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.
 
  
 
@@ -82,7 +82,7 @@ HRESULT D3DX11PreprocessShaderFromResource(
 
 Тип: **[ **LPCTSTR**](/windows/desktop/WinProg/windows-data-types)**
 
-Необязательный параметр. Имя файла эффектов, которое используется только для сообщений об ошибках. Может иметь **значение NULL**.
+Необязательный элемент. Имя файла эффектов, которое используется только для сообщений об ошибках. Может иметь **значение NULL**.
 
 </dd> <dt>
 
@@ -152,7 +152,7 @@ HRESULT D3DX11PreprocessShaderFromResource(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX11async. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX11async. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3DX11. lib</dt> </dl>    |
 
 

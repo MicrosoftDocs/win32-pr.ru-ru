@@ -5,12 +5,12 @@ ms.assetid: 714c122f-3d68-4466-900c-1d129e544d45
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7417f2592ef30df7d3a44c28f30307ccf6173ef
-ms.sourcegitcommit: 9bf844f41bd6451b8508d93e722e88a43e913b56
+ms.openlocfilehash: b75c195dcc9989cf01b00f49edeedbfd38a7c8b11fed82a2dc67099b7b2f4a69
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "105719856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119932074"
 ---
 # <a name="color-space-constants"></a>Константы цветового пространства
 
@@ -43,7 +43,7 @@ ms.locfileid: "105719856"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

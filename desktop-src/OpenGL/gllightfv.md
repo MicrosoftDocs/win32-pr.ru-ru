@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cdebfeecc66ee78d90722acc95b0041edb2714d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bf62d5dc650eb56dbfed5dd11b0bdde516290ad57fbbf8da1137d8fc579368ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105661839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118938511"
 ---
 # <a name="gllightfv-function"></a>Функция Гллигхтфв
 
@@ -98,7 +98,7 @@ void WINAPI glLightfv(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **гллигхтфв** задает значение или значения отдельных параметров источника освещения. Параметр *Light* именует источник света, а — символическое имя формы \_ «GL»*i*, где 0 = <  « \_ максимальные \_ огни».
 

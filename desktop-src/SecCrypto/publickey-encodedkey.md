@@ -39,7 +39,7 @@ PublicKey.EncodedKey As EncodedData
 
 Объект [**енкодеддата**](encodeddata.md) , предоставляющий доступ к значению открытого ключа.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

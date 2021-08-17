@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e45d590b80a9119d78eac8363a493ecd6c7b70d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c60b9743ebbf54ce7189499f7295d44377c272b6d7cfcf5693259f12657bf06c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104414845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118875298"
 ---
 # <a name="savesystemacctinputsettings-function"></a>Функция Савесистемакктинпутсеттингс
 
@@ -68,7 +68,7 @@ BOOL CALLBACK SaveSystemAcctInputSettings(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Куст системной учетной записи — это \_ Пользователи hKey \\ . ПО УМОЛЧАНИю, HKEY \_ Users \\ s-1-5-19 и hKey \_ Users \\ s-1-5-20.
 
@@ -115,8 +115,8 @@ else
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                 |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Input.dll</dt> </dl> |
 
 
