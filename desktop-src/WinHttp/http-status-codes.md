@@ -4,12 +4,12 @@ ms.assetid: 3de6a35d-41e9-4fce-ab92-e970c7c07e55
 title: Коды состояния HTTP (WinHTTP. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fcf4103cdc382bd5ab0d582fe99212083e2780ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 86f145a2a7b5f7e807d1b393d9c4fd9b4f71c81052f0f023a04f72e139842637
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265189"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117744575"
 ---
 # <a name="http-status-codes-winhttph"></a>Коды состояния HTTP (WinHTTP. h)
 
@@ -543,9 +543,9 @@ ms.locfileid: "104265189"
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>      |
-| Минимальная версия сервера<br/> | Windows Server 2003, Windows 2000 Server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>   |
-| Header<br/>                   | <dl> <dt>WinHTTP. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с SP3 \[ только для настольных приложений\]<br/>      |
+| Минимальная версия сервера<br/> | Windows сервер 2003, Windows 2000 server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>   |
+| Заголовок<br/>                   | <dl> <dt>WinHTTP. h</dt> </dl> |
 
 
 

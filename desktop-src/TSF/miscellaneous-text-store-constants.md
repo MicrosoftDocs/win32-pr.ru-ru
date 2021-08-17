@@ -17,12 +17,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ead33c21bb78035dd9fda443a53de575ffa64d9e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 55bfa06f7f0ebda1d572a4e637076de25c7a21ef4d273cdc2527ab6481393404
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137046"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117952102"
 ---
 # <a name="miscellaneous-text-store-constants"></a>Прочие константы хранилища текста
 
@@ -49,8 +49,8 @@ ms.locfileid: "104137046"
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                              |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                    |
-| Распространяемые компоненты<br/>          | TSF 1,0 в Windows 2000 профессиональная<br/>                                         |
-| Header<br/>                   | <dl> <dt>Текстстор. h</dt> </dl>   |
+| Распространяемые компоненты<br/>          | TSF 1,0 на Windows 2000 Professional<br/>                                         |
+| Заголовок<br/>                   | <dl> <dt>Текстстор. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Текстстор. idl</dt> </dl> |
 
 

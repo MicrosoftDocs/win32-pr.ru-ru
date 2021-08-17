@@ -125,7 +125,7 @@ URL-адрес сервера лицензирования, с которого 
 
 дополнительные сведения об использовании асинхронных методов расширенных api-интерфейсов Windows Media DRM Client см. [в разделе использование модели событий Media Foundation](using-the-media-foundation-model.md).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

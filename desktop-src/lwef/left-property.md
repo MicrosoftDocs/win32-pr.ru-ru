@@ -1,19 +1,19 @@
 ---
 title: Свойство Left (объект characters)
-description: Сведения о свойстве объекта "левые символы". Microsoft Agent является устаревшим в Windows 7.
+description: Сведения о свойстве объекта "левые символы". не рекомендуется использовать Microsoft Agent на Windows 7.
 ms.assetid: f496f075-6430-4806-a237-1c7b626d355e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e2f860e6827a9c96c42014456e43b791ab70ed4
-ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
+ms.openlocfilehash: e546dc662dc535889eb6c3a476a54b839c5d9577a7e2ff525eeadf79f727fbf1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111988940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105020"
 ---
 # <a name="left-property-characters-object"></a>Свойство Left (объект characters)
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 <dl> <dt>
 

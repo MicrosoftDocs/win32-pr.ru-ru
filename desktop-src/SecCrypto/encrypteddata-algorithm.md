@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: cd73fbda4a5f77706ac2253782768e8487b8cbff
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 52700a8b91495ffc9c6482b9f25265fd33f5be975032939b21571a794baea542
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117766720"
 ---
 # <a name="encrypteddataalgorithm-property"></a>EncryptedData. algorithm, свойство
 

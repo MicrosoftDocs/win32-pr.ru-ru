@@ -3,7 +3,7 @@ title: External. Аппколорбуттонхигхлигхт
 description: Обратите внимание, что в этом разделе описываются функции, предназначенные для использования в Интернет-магазинах. | External. Аппколорбуттонхигхлигхт
 ms.assetid: 448480bf-e5e1-4f7a-ab50-a0395af6007f
 keywords:
-- Внешний Аппколорбуттонхигхлигхт проигрыватель Windows Media
+- External. аппколорбуттонхигхлигхт проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 67efc01db88cb13c85eebaedd2cdca0ec40d2a18
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0dea96976a167bf8dccbbe097ec0aaabc6c020fc09bde67d4ede98744875dbdf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105695208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649993"
 ---
 # <a name="externalappcolorbuttonhighlight"></a>External. Аппколорбуттонхигхлигхт
 
@@ -28,7 +28,7 @@ ms.locfileid: "105695208"
 
  
 
-Свойство **аппколорбуттонхигхлигхт** извлекает цвет выделения текущей кнопки для пользовательского интерфейса проигрывателя Windows Media.
+свойство **аппколорбуттонхигхлигхт** извлекает цвет выделения текущей кнопки для пользовательского интерфейса проигрыватель Windows Media.
 
 ``` syntax
 window.external.appColorButtonHighlight
@@ -39,9 +39,9 @@ window.external.appColorButtonHighlight
 
 Это свойство является **строкой**, доступная только для чтения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Пользователи могут изменять цвет пользовательского интерфейса проигрывателя Windows Media. Это свойство можно использовать для настройки внешнего вида размещенной веб-страницы в соответствии с проигрывателем.
+пользователи могут изменять цвет пользовательского интерфейса проигрыватель Windows Media. Это свойство можно использовать для настройки внешнего вида размещенной веб-страницы в соответствии с проигрывателем.
 
 ## <a name="requirements"></a>Требования
 
@@ -49,7 +49,7 @@ window.external.appColorButtonHighlight
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 10 или более поздней версии.<br/>                                       |
+| Версия<br/> | проигрыватель Windows Media 10 или более поздней версии.<br/>                                       |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

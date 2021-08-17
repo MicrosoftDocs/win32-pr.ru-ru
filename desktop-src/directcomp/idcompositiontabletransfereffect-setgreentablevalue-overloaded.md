@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 04f0fad20abc95c7c48a55b3bf3144b7ae3a8d90
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ad6e190265859e902188df33308aa9324e0c2c7a74f2fc78fd0eeb1d907ea1f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119118808"
 ---
 # <a name="idcompositiontabletransfereffectsetgreentablevalue-methods"></a>Методы Идкомпоситионтаблетрансфереффект:: Сетгринтаблевалуе
 
@@ -40,7 +40,7 @@ ms.locfileid: "105704519"
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Дкомп. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Дкомп. h</dt> </dl> |
 
 
 

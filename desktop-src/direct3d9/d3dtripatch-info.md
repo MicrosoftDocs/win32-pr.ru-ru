@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: b910d38025c44d6157a76aa3e3425ba46d628787
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c20a846d13cd45bb8a1629fca0e958d3042aacf148c24b0633dd19fb5462bd66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713878"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119850122"
 ---
 # <a name="d3dtripatch_info-structure"></a>\_Структура сведений о D3DTRIPATCH
 
@@ -90,7 +90,7 @@ typedef struct D3DTRIPATCH_INFO {
 |----------------------|--------------------|
 | D3DDEGREE \_ кубический     | 10                 |
 | \_Линейная D3DDEGREE    | 3                  |
-| D3DDEGREE, \_ квадрат | Н/Д                |
+| D3DDEGREE, \_ квадрат | н/д                |
 | D3DDEGREE \_ куинтик   | 21                 |
 
 
@@ -101,7 +101,7 @@ typedef struct D3DTRIPATCH_INFO {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Например, на следующей схеме определяются порядок вершин и номера сегментов для исправления треугольника Безье третьего порядка. Порядок вершин определяет номера сегментов, используемые [**дравтрипатч**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-drawtripatch). Смещение — это число байтов для первого вершинного исправления треугольника в буфере вершин.
 
@@ -113,7 +113,7 @@ typedef struct D3DTRIPATCH_INFO {
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: e8768602-7ea2-42c2-b2ae-9ef1d7bdd30e
 title: Растровые методы
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b4c758b6fc1a0449fef627974b9b16e564a40be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3f95492cd89096bbb35266d73bd5a566ff6cb0070d9256d857811dc26295f3c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104545079"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118977644"
 ---
 # <a name="bitmap-methods"></a>Растровые методы
 

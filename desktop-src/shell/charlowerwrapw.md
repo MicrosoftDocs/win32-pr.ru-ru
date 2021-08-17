@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Shlwapi.dll
-ms.openlocfilehash: 3911e0366d30f3eb9420391f9d06867ded73530e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c9a02e89713dd82de63817c00d5402fabe991fed565ebe33fa40286ad30058d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104540559"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119710754"
 ---
 # <a name="charlowerwrapw-function"></a>Функция Чарловерврапв
 
-\[**Чарловерврапв** доступен для использования в Windows XP. Она может быть недоступна в последующих версиях. На своем месте следует использовать [**чарловерв**](/windows/win32/api/winuser/nf-winuser-charlowera) .\]
+\[**чарловерврапв** доступен для использования в Windows XP. Она может быть недоступна в последующих версиях. На своем месте следует использовать [**чарловерв**](/windows/win32/api/winuser/nf-winuser-charlowera) .\]
 
 Преобразует строку символов в Юникоде или один символ в нижний регистр. Если операнд является символьной строкой, функция преобразует символы на месте.
 
@@ -65,7 +65,7 @@ LPWSTR CharLowerWrapW(
 
 Нет индикации об успешном или неудачном завершении. Сбой является редким. Расширенные сведения об ошибке для этой функции отсутствуют. не вызывайте [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Предпочтительным методом является использование [**чарловерв**](/windows/win32/api/winuser/nf-winuser-charlowera) в сочетании с уровнем Майкрософт для Юникода (мслу).
 
@@ -77,8 +77,8 @@ LPWSTR CharLowerWrapW(
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                          |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Shlwapi.dll (версия 5,0 или более поздняя)</dt> </dl> |
 
 

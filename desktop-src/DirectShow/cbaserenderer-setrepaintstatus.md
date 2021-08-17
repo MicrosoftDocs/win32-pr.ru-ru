@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 39822b535680a699654e969abc316c10c54ba51b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 748d0091bd3d2eae11773a9f94b62ceeb92b2d3ca64049f1a1981e38bf222e8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016852"
 ---
 # <a name="cbaserenderersetrepaintstatus-method"></a>Кбасерендерер. Сетрепаинтстатус, метод
 
@@ -53,7 +53,7 @@ void SetRepaintStatus(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод гарантирует, что диспетчер графов фильтров не будет переполняться избыточными \_ событиями ПЕРЕрисовки EC. После того как фильтр отправит событие [**\_ перерисовки EC**](ec-repaint.md) , он вызывает этот метод со значением **true**. Фильтр не отправляет дополнительные \_ события ПЕРЕрисовки EC, пока он не получит больше данных.
 
@@ -63,7 +63,7 @@ void SetRepaintStatus(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ренбасе. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>ренбасе. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

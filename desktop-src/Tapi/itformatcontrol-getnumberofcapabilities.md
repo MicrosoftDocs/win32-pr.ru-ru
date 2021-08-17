@@ -4,16 +4,16 @@ ms.assetid: 26e51c0d-c1cb-410f-ab19-eb884afa8431
 title: 'Метод Итформатконтрол:: Жетнумберофкапабилитиес (Ипмсп. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e29153f5ee9ce8c5e12b93a1d219905c40f80418
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 57bd79b61f8c41893ec8d99ffc9bfadcc3887631c885d5caa430a6fb723396a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105688958"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117945279"
 ---
 # <a name="itformatcontrolgetnumberofcapabilities-method"></a>Метод Итформатконтрол:: Жетнумберофкапабилитиес
 
-\[ Этот метод недоступен для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[этот метод недоступен для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Метод **жетнумберофкапабилитиес** извлекает количество возможностей, связанных с текущим форматом.
 
@@ -61,7 +61,7 @@ HRESULT GetNumberOfCapabilities(
 | Требование | Значение |
 |-------------------------|--------------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 3,1<br/>                                                         |
-| Header<br/>       | <dl> <dt>Ипмсп. h</dt> </dl>   |
+| Заголовок<br/>       | <dl> <dt>Ипмсп. h</dt> </dl>   |
 | Библиотека<br/>      | <dl> <dt>UUID. lib</dt> </dl>  |
 | DLL<br/>          | <dl> <dt>Tapi3.dll</dt> </dl> |
 

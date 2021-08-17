@@ -4,22 +4,22 @@ description: Установка символа
 ms.assetid: 8e1414e7-d315-4fa5-8803-2c0147a5fb54
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba4bb2cbae099e4789a26e51177fe87b7c4a4b60
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 62966b83095997c3f07450f9f05c0ddea615dfa2977965ada8215596852d721b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104331152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105130"
 ---
 # <a name="installing-your-character"></a>Установка символа
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
-Чтобы символ отображался в галерее помощника, установите его в папку Microsoft \\ Office Actors \\ внутри папки данных приложения пользователя. Папку Application Data можно найти в каталоге Windows или в каталоге User Profiles в каталоге Windows. Например, в Windows 2000 вы можете установить символ в папке C: \\ Documents and Settings \\ Йоурлогиннаме \\ Application Data \\ Microsoft \\ Office \\ actors.
+чтобы символ отображался в галерее помощника, установите его в папку Microsoft \\ Office actors \\ внутри папки Application Data (данные приложения пользователя). папку Application Data можно найти в каталоге Windows или в каталоге User profiles в каталоге Windows. например, в Windows 2000 можно установить символ в папке "C: \\ documents and Параметры \\ йоурлогиннаме \\ Application Data \\ Microsoft Office actors \\ \\ ".
 
- 
+ 
 
- 
+ 
 
 
 

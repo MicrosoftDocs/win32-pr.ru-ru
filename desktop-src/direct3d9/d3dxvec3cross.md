@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: ba0d8a80690f43d5f8e9f6df55aa3b2e0db23dc2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3fdf2a5d3c3771056f169900df519d90a183798d6f5c60df0904444dbce5fd9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703778"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119122578"
 ---
 # <a name="d3dxvec3cross-function"></a>Функция D3DXVec3Cross
 
@@ -75,7 +75,7 @@ D3DXVECTOR3* D3DXVec3Cross(
 
 Указатель на структуру [**D3DXVECTOR3**](d3dxvector3.md) , которая является перекрестным произведением двух трехмерных векторов.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция определяет кросс-Product с помощью следующего кода.
 
@@ -100,7 +100,7 @@ v.z = pV1->x * pV2->y - pV1->y * pV2->x;
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ac2943c08b881badd8e15ea0633952ccc973a534
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 646c6fb7f8236aca87b5aebd1d30fd67750d960da4445d45bf45d8b601320274
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665203"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118156546"
 ---
 # <a name="cmediasamplem_pallocator-member"></a>Элемент Кмедиасампле:: m \_ паллокатор
 
@@ -36,7 +36,7 @@ CBaseAllocator *m_pAllocator;
 
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Несмотря на то, что образец хранит указатель на распределитель, он не содержит счетчик ссылок. Вместо этого распределитель увеличивает свой счетчик ссылок в методе [**имемаллокатор::**](/windows/desktop/api/Strmif/nf-strmif-imemallocator-getbuffer) IsReference и освобождает себя в методе [**Имемаллокатор:: релеасебуффер**](/windows/desktop/api/Strmif/nf-strmif-imemallocator-releasebuffer) . Это гарантирует, что распределитель будет доступен, пока другой объект использует этот пример.
 
@@ -46,7 +46,7 @@ CBaseAllocator *m_pAllocator;
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Амфилтер. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>амфилтер. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

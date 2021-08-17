@@ -1,19 +1,19 @@
 ---
-description: Объекты событий попадают в сокеты Windows 2 как общий механизм синхронизации между поставщиками служб Winsock и приложениями.
+description: объекты событий попадают в сокеты Windows 2 как общий механизм синхронизации между поставщиками служб Winsock и приложениями.
 ms.assetid: 0ec8fe77-8465-4530-834c-c90ff8e4fe8c
-title: Объекты событий в списке SPI Windows Sockets 2
+title: объекты событий в сокетах Windows 2 SPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 13b89ec07790ecc3560e8b9d23e714c9c935d118
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e3763a087a97f57d5626ebb80c30274c6b4c6d09078713dd123dbfd0ad50796f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103809749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132607"
 ---
-# <a name="event-objects-in-the-windows-sockets-2-spi"></a>Объекты событий в списке SPI Windows Sockets 2
+# <a name="event-objects-in-the-windows-sockets-2-spi"></a>объекты событий в сокетах Windows 2 SPI
 
-Объекты событий попадают в сокеты Windows 2 как общий механизм синхронизации между поставщиками служб Winsock и приложениями. Они используются для ряда целей, включая указание завершения перекрывающихся операций и вхождения одного или нескольких сетевых событий.
+объекты событий попадают в сокеты Windows 2 как общий механизм синхронизации между поставщиками служб Winsock и приложениями. Они используются для ряда целей, включая указание завершения перекрывающихся операций и вхождения одного или нескольких сетевых событий.
 
  
 

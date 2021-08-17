@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Создание производного класса WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b65079d206cb7a0a490622018f6d2e2df98867d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3cddc2b381346b2765e836bb3606cc06845280c41a7505b872098f383ac0409c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711748"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119374874"
 ---
 # <a name="creating-a-wmi-derived-class"></a>Создание производного класса WMI
 
@@ -53,7 +53,7 @@ ms.locfileid: "105711748"
 -   Максимальное число свойств, которое можно определить в классе WMI, — 1024.
 
 > [!Note]  
-> Классы не могут быть изменены во время выполнения поставщиков. Необходимо прерывать действие, изменить класс, а затем перезапустить службу управления Windows. Обнаружение изменения класса в настоящее время невозможно.
+> Классы не могут быть изменены во время выполнения поставщиков. необходимо прерывать действие, изменить класс, а затем перезапустить службу управления Windows. Обнаружение изменения класса в настоящее время невозможно.
 
  
 
@@ -221,7 +221,7 @@ void CreateDerivedClass(IWbemServices *pSvc)
 
     Дополнительные сведения см. в разделе [Компиляция MOF-файлов](compiling-mof-files.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

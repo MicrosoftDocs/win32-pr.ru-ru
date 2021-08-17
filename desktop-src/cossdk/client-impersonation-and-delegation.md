@@ -4,12 +4,12 @@ ms.assetid: fd75eb54-eefe-411f-a7aa-0bc8628f8778
 title: Олицетворение и делегирование клиента
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7557dcde4cadf559dd8e116cf4e7bece4221aaae
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3f8b0262f3d8dd6736d183fa76eb5d3f0946d50b2724e76bcea73843644aaefb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129376"
 ---
 # <a name="client-impersonation-and-delegation"></a>Олицетворение и делегирование клиента
 
@@ -52,7 +52,7 @@ ms.locfileid: "105662097"
 
 [Поставленные в очередь компоненты](com--queued-components.md) не поддерживают олицетворение. Когда клиент выполняет вызов объекта в очереди, фактически выполняется вызов средства записи, который упаковывает его как часть сообщения на сервер. Затем прослушиватель считывает сообщение из очереди и передает его проигрывателю, который вызывает фактический серверный компонент и выполняет тот же вызов метода. Таким образом, когда сервер получает вызов, исходный маркер клиента недоступен через олицетворение. Тем не менее, безопасность на основе ролей по-прежнему применима и программная безопасность с помощью интерфейса [**исекуритикаллконтекст**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecuritycallcontext) будет работать. Дополнительные сведения см. [в разделе Безопасность компонентов в очереди](queued-components-security.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

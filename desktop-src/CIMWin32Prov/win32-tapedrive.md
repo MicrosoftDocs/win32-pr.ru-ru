@@ -1,5 +1,5 @@
 ---
-description: '\_Класс WMI TapeDrive для Win32 представляет ленточный накопитель в компьютерной системе под Windows. Ленточные накопители в основном различаются тем фактом, что доступ к ним можно получить только последовательно.'
+description: '\_Класс WMI TapeDrive инструментария Win32 представляет накопитель на магнитной ленте в компьютерной системе, на которой работает Windows. Ленточные накопители в основном различаются тем фактом, что доступ к ним можно получить только последовательно.'
 ms.assetid: ceefec7b-a904-4b2f-a6b6-b84917a33023
 ms.tgt_platform: multiple
 title: Класс Win32_TapeDrive
@@ -56,16 +56,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 6c7e7d3b754a0399acb152dba043da269f67a06f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 515651c4e9d82bc88053187ae8ed3517662fb53a81080e54cd54097b7243a225
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020102"
 ---
 # <a name="win32_tapedrive-class"></a>\_Класс Win32 TapeDrive
 
-[Класс WMI](../wmisdk/retrieving-a-class.md) **\_ TapeDrive для Win32** представляет ленточный накопитель в компьютерной системе под Windows. Ленточные накопители в основном различаются тем фактом, что доступ к ним можно получить только последовательно.
+Класс **WMI \_ TapeDrive** [инструментария](../wmisdk/retrieving-a-class.md) Win32 представляет накопитель на магнитной ленте в компьютерной системе, на которой работает Windows. Ленточные накопители в основном различаются тем фактом, что доступ к ним можно получить только последовательно.
 
 Следующий пример синтаксиса — упрощенный MOF-код, который включает все наследуемые свойства. Свойства перечислены в алфавитном порядке, а не в MOF.
 
@@ -358,7 +358,7 @@ class Win32_TapeDrive : CIM_TapeDrive
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**arrayType**](../wmisdk/standard-qualifiers.md) ("индексированный"), [**Маппингстрингс**](../wmisdk/standard-qualifiers.md) ("MIF. \|Устройства хранения DMTF \| 001,9 "," MIF. \|Устройства хранения DMTF \| 001,11 "," MIF. \|Устройства хранения DMTF \| 001,12 "," MIF. \|Диски DMTF \| 003,7 "), [**Моделкорреспонденце**](../wmisdk/standard-qualifiers.md) ("[**CIM \_ медиаакцессдевице**](cim-mediaaccessdevice.md).**Капабилитидескриптионс**")
+Квалификаторы: [**arrayType**](../wmisdk/standard-qualifiers.md) ("индексированный"), [**Маппингстрингс**](../wmisdk/standard-qualifiers.md) ("MIF. DMTF \| служба хранилища устройства \| 001,9 "," MIF. DMTF \| служба хранилища устройства \| 001,11 "," MIF. DMTF \| служба хранилища устройства \| 001,12 "," MIF. \|Диски DMTF \| 003,7 "), [**Моделкорреспонденце**](../wmisdk/standard-qualifiers.md) ("[**CIM \_ медиаакцессдевице**](cim-mediaaccessdevice.md).**Капабилитидескриптионс**")
 </dt> </dl>
 
 Массив возможностей устройства доступа к носителю. Например, устройство может поддерживать произвольный доступ, съемные носители и автоматическую очистку. В этом случае значения 3, 7 и 9 будут записаны в массив.
@@ -486,7 +486,7 @@ class Win32_TapeDrive : CIM_TapeDrive
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -538,7 +538,7 @@ FALSE
 
 </dt> <dd>
 
-true
+TRUE
 
 </dd> </dl>
 
@@ -665,12 +665,12 @@ true
 
 <span id="The_driver_for_this_device_needs_a_resource_that_Windows_cannot_manage."></span><span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>
 
-<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**Драйверу для этого устройства требуется ресурс, который Windows не может управлять.** (5)
+<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**драйверу для этого устройства нужен ресурс, который Windows не может управлять.** (5)
 
 
 </dt> <dd>
 
-Драйверу для устройства требуется ресурс, который Windows не может управлять.
+драйверу для устройства требуется ресурс, который Windows не может управляться.
 
 </dd> <dt>
 
@@ -877,23 +877,23 @@ Windows не удается найти все ресурсы, используе
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Это устройство все еще настраивается Windows.** (25)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows все еще настраивает это устройство.** (25)
 
 
 </dt> <dd>
 
-Устройство все еще настраивается.
+Windows все еще настраивает устройство.
 
 </dd> <dt>
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Это устройство все еще настраивается Windows.** (26)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows все еще настраивает это устройство.** (26)
 
 
 </dt> <dd>
 
-Устройство все еще настраивается.
+Windows все еще настраивает устройство.
 
 </dd> <dt>
 
@@ -943,7 +943,7 @@ Windows не удается найти все ресурсы, используе
 
 <span id="This_device_is_not_working_properly_because_Windows_cannot_load_the_drivers_required_for_this_device."></span><span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>
 
-<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**Это устройство работает неправильно, так как Windows не может загрузить драйверы, необходимые для этого устройства.** 1-31
+<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**это устройство работает неправильно, так как Windows не может загрузить драйверы, необходимые для этого устройства.** 1-31
 
 
 </dt> <dd>
@@ -1185,7 +1185,7 @@ Windows не удается найти все ресурсы, используе
 Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) (" \| функции файла Win32API")
 </dt> </dl>
 
-Имя устройства чтения компакт-дисков Windows, установленное производителем.
+имя устройства Windows CD rom, идентифицирующее изготовитель.
 
 Пример: "ПЛЕКСТОР CD-ROM PX-12CS 1,01"
 
@@ -1236,7 +1236,7 @@ Windows не удается найти все ресурсы, используе
 Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32Registry")
 </dt> </dl>
 
-Изготовитель устройства чтения компакт-дисков Windows.
+изготовитель дисковода компакт-дисков Windows.
 
 Пример: "ПЛЕКСТОР"
 
@@ -1333,7 +1333,7 @@ Windows не удается найти все ресурсы, используе
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -1411,7 +1411,7 @@ Windows не удается найти все ресурсы, используе
 Квалификаторы: [**схема**](../wmisdk/standard-qualifiers.md) ("Win32")
 </dt> </dl>
 
-Идентификатор устройства Windows самонастраивающийся логического устройства.
+Windows Самонастраивающийся идентификатор устройства логического устройства.
 
 Это свойство наследуется [**от \_ CIM**](cim-logicaldevice.md)-унаследованной модели.
 
@@ -1567,7 +1567,7 @@ FALSE
 
 </dt> <dd>
 
-true
+TRUE
 
 </dd> </dl>
 
@@ -1770,7 +1770,7 @@ true
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ TapeDrive** является производным от [**CIM \_ TapeDrive**](cim-tapedrive.md).
 

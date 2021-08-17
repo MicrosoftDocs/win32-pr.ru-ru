@@ -4,12 +4,12 @@ ms.assetid: 2bf353e2-38d5-462c-9e6c-65886b617215
 title: Изменение структур данных для IPv6 Winsock Аппикатионс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2c91e19ed733d111bd4e12d824da6ee1a988e9e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2999c0d0c5a335c1367165c227fc1aad805579db5a790a19d316a1624e922947
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117741554"
 ---
 # <a name="changing-data-structures-for-ipv6-winsock-appications"></a>Изменение структур данных для IPv6 Winsock Аппикатионс
 
@@ -76,7 +76,7 @@ int main(int argc, char **argv)
 
 
 > [!Note]  
-> Структура [**\_ хранилища SOCKADDR**](/previous-versions/windows/desktop/legacy/ms740504(v=vs.85)) является новой для Windows XP.
+> структура [**\_ хранилища SOCKADDR**](/previous-versions/windows/desktop/legacy/ms740504(v=vs.85)) является новой для Windows XP.
 
  
 
@@ -88,7 +88,7 @@ int main(int argc, char **argv)
 
 **Изменение существующей базы кода с IPv4 на IPv4 и взаимодействие с IPv6**
 
-1.  Получите служебную программу Checkv4.exe. Эта программа входит в состав пакета средств разработки программного обеспечения (SDK) для Microsoft Windows, который предоставляется через подписку MSDN или из Интернета в качестве загружаемого файла.
+1.  Получите служебную программу Checkv4.exe. эта программа входит в состав пакета средств разработки программного обеспечения (SDK) для Microsoft Windows, который предоставляется через подписку MSDN или из интернета в качестве загружаемого файла.
 2.  Запустите служебную программу Checkv4.exe для своего кода. Узнайте, как запустить служебную программу Checkv4.exe для файлов в разделе об [использовании служебной программы Checkv4.exe](using-the-checkv4-exe-utility-2.md).
 3.  Служебная программа предупреждает вас об использовании **SOCKADDR** или **SOCKADDR \_ в** структурах и предоставляет рекомендации по замене либо с помощью совместимого с IPv6 [**структуры \_ хранилища SOCKADDR**](/previous-versions/windows/desktop/legacy/ms740504(v=vs.85)).
 4.  Замените все подобные экземпляры и соответствующий код соответствующим образом, чтобы использовать структуру **\_ хранилища SOCKADDR** .
@@ -100,11 +100,11 @@ int main(int argc, char **argv)
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Рекомендации по IPv6 для приложений Windows Sockets](ipv6-guide-for-windows-sockets-applications-2.md)
+[рекомендации по IPv6 для приложений Windows sockets](ipv6-guide-for-windows-sockets-applications-2.md)
 </dt> <dt>
 
 [Сокеты с двумя стеками для IPv6-приложений Winsock](dual-stack-sockets.md)

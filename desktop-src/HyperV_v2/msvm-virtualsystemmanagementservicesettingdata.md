@@ -32,12 +32,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 782f196fdbd3a09126a7b4d14be6789bb633f043
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3ccb0a1a9bc4a10ec7f8a366f012446e0374dab299f8ee779f16cfeb38fb005b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147977"
 ---
 # <a name="msvm_virtualsystemmanagementservicesettingdata-class"></a>\_Класс мсвм виртуалсистемманажементсервицесеттингдата
 
@@ -79,7 +79,7 @@ class Msvm_VirtualSystemManagementServiceSettingData : CIM_SettingData
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ виртуалсистемманажементсервицесеттингдата** имеет следующие свойства.
 
@@ -97,13 +97,13 @@ class Msvm_VirtualSystemManagementServiceSettingData : CIM_SettingData
 Квалификаторы: [**maxlen**](/windows/desktop/WmiSdk/standard-qualifiers) (32)
 </dt> </dl>
 
-Используется изготовителями оборудования для разрешения запуска операционных систем Windows, заблокированных BIOS, на виртуальной машине. Длина этой строки должна составлять ровно 32 символов.
+используется изготовителями оборудования для разрешения запуска операционных систем, заблокированных BIOS, Windows на виртуальной машине. Длина этой строки должна составлять ровно 32 символов.
 
 Это свойство доступно только для чтения, но его можно изменить с помощью метода [**модифисервицесеттингс**](modifyservicesettings-msvm-virtualsystemmanagementservice.md) класса [**\_ виртуалсистемманажементсервице мсвм**](msvm-virtualsystemmanagementservice.md) .
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -143,7 +143,7 @@ class Msvm_VirtualSystemManagementServiceSettingData : CIM_SettingData
 Квалификаторы: [**моделкорреспонденце**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**мсвм \_ виртуалсистемсеттингдата**](msvm-virtualsystemsettingdata.md).**Конфигуратиондатарут**")
 </dt> </dl>
 
-Корневой каталог внешних данных по умолчанию. По умолчанию "*root* \\ папка ProgramData \\ \\ \\ виртуализация Microsoft Windows".
+Корневой каталог внешних данных по умолчанию. по умолчанию "*root* \\ папка programdata \\ Microsoft \\ Windows \\ виртуализация".
 
 Это свойство доступно только для чтения, но его можно изменить с помощью метода [**модифисервицесеттингс**](modifyservicesettings-msvm-virtualsystemmanagementservice.md) класса [**\_ виртуалсистемманажементсервице мсвм**](msvm-virtualsystemmanagementservice.md) .
 
@@ -161,7 +161,7 @@ class Msvm_VirtualSystemManagementServiceSettingData : CIM_SettingData
 Указывает, следует ли использовать кэширование файлов в памяти по умолчанию для дисков. Это значение может быть переопределено отдельно для каждого диска в поле **качингмоде** класса [**мсвм \_ сторажеаллокатионсеттингдата**](msvm-storageallocationsettingdata.md) .
 
 > [!Note]  
-> Добавлено в Windows 10 и Windows Server 2016.
+> добавлено в Windows 10 и Windows Server 2016.
 
  
 
@@ -214,7 +214,7 @@ class Msvm_VirtualSystemManagementServiceSettingData : CIM_SettingData
 Тип доступа: только для чтения
 </dt> </dl>
 
-Описание объекта. Это свойство наследуется от [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)и всегда имеет значение "Settings для службы управления виртуальными системами".
+Описание объекта. это свойство наследуется от [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)и всегда имеет значение "Параметры для службы управления виртуальной системой".
 
 </dd> <dt>
 
@@ -242,7 +242,7 @@ class Msvm_VirtualSystemManagementServiceSettingData : CIM_SettingData
 
 Указывает, разрешен ли режим расширенного сеанса на сервере. **Значение true** указывает, что разрешено; в противном случае **false**.
 
-**Windows 8.1:** Это значение не поддерживается до Windows 8.1 и Windows Server 2012 R2.
+**Windows 8.1:** это значение не поддерживается до Windows 8.1 и Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -273,7 +273,7 @@ class Msvm_VirtualSystemManagementServiceSettingData : CIM_SettingData
 Включен ли корневой планировщик низкоуровневой оболочки.
 
 > [!Note]  
-> Добавлено в Windows 10 версии 1709.
+> добавлено в Windows 10 версии 1709.
 
  
 
@@ -370,7 +370,7 @@ class Msvm_VirtualSystemManagementServiceSettingData : CIM_SettingData
 
 | Значение                                                                                | Значение                                                                                     |
 |--------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| <dl> <dt>**True**</dt> </dl>  | Память может выделяться как с локального, так и с удаленного узла NUMA.<br/>                   |
+| <dl> <dt>**Верно**</dt> </dl>  | Память может выделяться как с локального, так и с удаленного узла NUMA.<br/>                   |
 | <dl> <dt>**Неверно**</dt> </dl> | Память может быть выделена только из узла NUMA, назначенного виртуальной машине.<br/> |
 
 
@@ -417,7 +417,7 @@ class Msvm_VirtualSystemManagementServiceSettingData : CIM_SettingData
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Доступ к классу **\_ виртуалсистемманажементсервицесеттингдата мсвм** может быть ограничен фильтром контроля учетных записей. Дополнительные сведения см. в разделе [Управление учетными записями пользователей и инструментарий WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -427,8 +427,8 @@ class Msvm_VirtualSystemManagementServiceSettingData : CIM_SettingData
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

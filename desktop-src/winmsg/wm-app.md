@@ -4,12 +4,12 @@ ms.assetid: fdb549df-426f-4af5-9c17-6e8730e4abc0
 title: WM_APP (Winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4998f8240b08d248a75b375bb813ba02cd02344e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 01c2f09bef9ef479cfa5bd0bb56760fd17196087992276b2caa1daf7616fea9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931824"
 ---
 # <a name="wm_app"></a>\_приложение WM
 
@@ -19,7 +19,7 @@ ms.locfileid: "104265442"
 #define WM_APP                          0x8000
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Константа **\_ приложения WM** используется для различения значений сообщений, зарезервированных для использования системой, и значений, которые могут использоваться приложением для отправки сообщений в закрытом классе окна. Ниже приведены диапазоны доступных номеров сообщений.
 
@@ -55,7 +55,7 @@ ms.locfileid: "104265442"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

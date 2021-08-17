@@ -5,12 +5,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 3e780705-09f9-4368-9bae-ad20c45e4fe1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ec592153e823fe6ffaabf0afa1e7b8be24379a8
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 8b10405473a92a9bd93471c94ef497dbb50f04fc260724f00c6dabf2f07c7341
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104069622"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118977114"
 ---
 # <a name="glossary-imapi"></a>Глоссарий (IMAPI)
 
@@ -33,7 +33,7 @@ ms.locfileid: "104069622"
 <span id="imapi.imapi2_glossary_CDDVDDevice"></span><span id="imapi.imapi2_glossary_cddvddevice"></span><span id="IMAPI.IMAPI2_GLOSSARY_CDDVDDEVICE"></span>**Устройство чтения компакт-или DVD-дисков**
 </dt> <dd>
 
-Устройство, которое сообщает о себе как устройство типа 5. К ним относятся дисководы компакт-дисков, DVD-дисков и большинство дисков для записи компакт-дисков и дисков DVD. Кроме того, некоторые диски с магнитными носителями (например, IOMEGA) сообщают как устройства типа "тип 5" и отображаются в Windows как устройства чтения компакт-дисков.
+Устройство, которое сообщает о себе как устройство типа 5. К ним относятся дисководы компакт-дисков, DVD-дисков и большинство дисков для записи компакт-дисков и дисков DVD. Кроме того, некоторые диски с магнитными носителями (например, IOMEGA) сообщают как устройства типа "тип 5" и отображаются как устройства чтения компакт-дисков в Windows.
 
 </dd> <dt>
 
@@ -229,14 +229,14 @@ API-интерфейс для создания образов, который и
 <span id="imapi.imapi2_glossary_IMAPIv1"></span><span id="imapi.imapi2_glossary_imapiv1"></span><span id="IMAPI.IMAPI2_GLOSSARY_IMAPIV1"></span>**IMAPIv1** 
 </dt> <dd>
 
-Версия IMAPI, впервые представленная в Windows XP. IMAPI 1,0 поддерживает носители CD-R и CD-RW.
+версия IMAPI, впервые представленная в Windows XP. IMAPI 1,0 поддерживает носители CD-R и CD-RW.
 
 </dd> <dt>
 
 <span id="imapi.imapi2_glossary_IMAPIv2"></span><span id="imapi.imapi2_glossary_imapiv2"></span><span id="IMAPI.IMAPI2_GLOSSARY_IMAPIV2"></span>**IMAPIv2** 
 </dt> <dd>
 
-Вторая версия IMAPI, выпущенная в Windows Vista.
+вторая версия IMAPI, выпущенная с Windows Vista.
 
 </dd> <dt>
 
@@ -313,7 +313,7 @@ API-интерфейс для создания образов, который и
 <span id="imapi.imapi2_glossary_UDF"></span><span id="imapi.imapi2_glossary_udf"></span><span id="IMAPI.IMAPI2_GLOSSARY_UDF"></span>**Формат универсального диска (UDF)**
 </dt> <dd>
 
-Эта файловая система определяется оста (Ассоциация технологии оптического хранилища), которая поддерживает диски с одним сеансом и несколькими сеансами.
+эта файловая система определяется оста (технология оптического служба хранилища технологии), которая поддерживает диски с одним сеансом и несколькими сеансами.
 
 </dd> <dt>
 
@@ -324,9 +324,9 @@ API-интерфейс для создания образов, который и
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

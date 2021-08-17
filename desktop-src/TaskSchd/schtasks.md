@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c9ba2c13053a8c550128f5d66623b5eed3a9dec
-ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
+ms.openlocfilehash: 0da33bf63d999ddad42f58dfa15a1c36571a664855ac20e48ef43bfd7aecd55b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107314637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139387"
 ---
 # <a name="schtasksexe"></a>Schtasks.exe
 
@@ -134,7 +134,7 @@ schtasks /Create
 <span id="_TR_taskrun"></span><span id="_tr_taskrun"></span><span id="_TR_TASKRUN"></span>**/Tr** 
 </dt> <dd>
 
-Значение, указывающее путь и имя файла задачи, выполняемой в запланированное время. Например: C: \\ Windows \\ system32 \\calc.exe.
+Значение, указывающее путь и имя файла задачи, выполняемой в запланированное время. например: C: \\ Windows \\ System32 \\calc.exe.
 
 </dd> <dt>
 
@@ -243,7 +243,7 @@ schtasks /Create
 <span id="_V1_"></span><span id="_v1_"></span>**/V1** 
 </dt> <dd>
 
-Значение, которое создает задачу, видимую для платформ Windows 2000, Windows Server 2003 и Windows XP.
+значение, которое создает задачу, видимую для Windows 2000, Windows Server 2003 и платформ Windows XP.
 
 **Windows XP и Windows Server 2003:** Этот параметр недоступен.
 
@@ -285,7 +285,7 @@ schtasks /Create
 
 ## <a name="remarks"></a>Remarks
 
-При создании задачи на удаленном компьютере, работающем под управлением операционной системы Windows XP, Windows Server 2003 или Windows 2000, используйте параметр/v1.
+при создании задачи на удаленном компьютере, работающем под управлением операционной системы Windows XP, Windows Server 2003 или Windows 2000, используйте параметр/V1.
 
 Невозможно создать неинтерактивную удаленную задачу планировщик задач 1,0 (создайте задачу, не используя параметр/IT, и параметр/V1), если на удаленном компьютере включено исключение брандмауэра для общего доступа к файлам и принтерам, а исключение брандмауэра для удаленного управления назначенными задачами отключено.
 
@@ -734,8 +734,8 @@ schtasks /Change
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/> |
 
 
 

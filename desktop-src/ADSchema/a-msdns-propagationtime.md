@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f6885d9dabb1d5d41cec20cc6922671f54b1a8a1
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: aaf2dca0a2370dbddee78641d07d5bfe2068856b62e1ce42d1779e137f731bda
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103893545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119297584"
 ---
 # <a name="ms-dns-propagation-time-attribute"></a>Атрибут времени распространения MS-DNS
 
@@ -52,10 +52,10 @@ ms.locfileid: "103893545"
 |------------------------|------------------------------------------|
 | Идентификатор ссылки                | \-                                       |
 | MAPI-Id                | \-                                       |
-| System-Only            | Неверно                                    |
-| Является однозначным       | True                                     |
-| Индексируется             | Неверно                                    |
-| В глобальном каталоге      | Неверно                                    |
+| System-Only            | Нет.                                    |
+| Является однозначным       | Верно                                     |
+| Индексируется             | Нет.                                    |
+| В глобальном каталоге      | Нет.                                    |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                             |
 | Range-Lower            | \-                                       |
 | Range-Upper            | \-                                       |

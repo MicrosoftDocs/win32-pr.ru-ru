@@ -22,18 +22,18 @@ keywords:
 - блокировки документов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1234f71fa799cf911ff7ede89915068f69417a00
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 89af01edd439dbac23e4dee4b5289101a9bd92ca8180b66b460096b797d32b15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117950924"
 ---
 # <a name="text-stores"></a>Хранилища текста
 
 ## <a name="application-character-position-acp"></a>Позиции символов приложения (ACP)
 
-ACP — это расположение символа или символов в текстовом потоке, выраженное в виде числа символов с начала потока текста. Поскольку модель ACP отсчитывается от нуля, первый символ в текстовом потоке имеет значение ACP, равное нулю. Пример:
+ACP — это расположение символа или символов в текстовом потоке, выраженное в виде числа символов с начала потока текста. Поскольку модель ACP отсчитывается от нуля, первый символ в текстовом потоке имеет значение ACP, равное нулю. Например:
 
 
 ```C++
@@ -90,7 +90,7 @@ ACP          0   1   2   3   4   5   6   7   8   9   10
 
 Содержимое хранилища текста можно изменить с помощью временного входного состояния, называемого [композицией](compositions.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -130,6 +130,6 @@ ACP          0   1   2   3   4   5   6   7   8   9   10
 [Microsoft Active Accessibility](../winauto/microsoft-active-accessibility.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

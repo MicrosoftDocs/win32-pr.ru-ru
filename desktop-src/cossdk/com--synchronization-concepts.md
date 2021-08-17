@@ -4,12 +4,12 @@ ms.assetid: a05de040-0115-44aa-80e2-55eff2ec894d
 title: Основные понятия синхронизации COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7eaca81050e67c76e3de6ad4845543b9230d2a24
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4153c02a5fcd9a0990459e360d239396e7de30cff22316da70f73002e73d6e0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103807810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129006"
 ---
 # <a name="com-synchronization-concepts"></a>Основные понятия синхронизации COM+
 
@@ -47,7 +47,7 @@ COM+ предоставляет следующие параметры синхр
 
 Дополнительные сведения об использовании библиотеки администрирования COM+ для настройки параметров синхронизации см. в разделе [Автоматизация администрирования com+](automating-com--administration.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

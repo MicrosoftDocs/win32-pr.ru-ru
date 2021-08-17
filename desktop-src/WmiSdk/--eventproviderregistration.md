@@ -81,7 +81,7 @@ class __EventProviderRegistration : __ProviderRegistration
 
 Только администраторы могут регистрировать или удалять поставщик событий, создавая экземпляр [**\_ \_ Win32Provider**](--win32provider.md) и [**\_ \_ евентпровидеррегистратион**](--eventconsumerproviderregistration.md). Класс **\_ \_ евентпровидеррегистратион** является производным от [**\_ \_ провидеррегистратион**](--providerregistration.md).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

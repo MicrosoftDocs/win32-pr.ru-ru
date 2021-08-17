@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 9d57ce492db24ac9920662d4de5baed4650dd801
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 941aaa775a3f286bf25187bbb0ce75e3d39037be9c3ce33571aff755335a3ad5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703648"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119122914"
 ---
 # <a name="d3dxloadvolumefromresource-function"></a>Функция D3DXLoadVolumeFromResource
 
@@ -135,7 +135,7 @@ HRESULT D3DXLoadVolumeFromResource(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. Если функция завершается ошибкой, возвращаемое значение может быть одним из следующих: D3DERR \_ инвалидкалл, D3DXERR \_ INVALIDDATA.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Загружаемый ресурс должен быть ресурсом Bitmap ( \_ точечный рисунок RT).
 
@@ -151,7 +151,7 @@ HRESULT D3DXLoadVolumeFromResource(
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9tex. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9tex. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>  |
 
 

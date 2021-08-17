@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Wfext.h
 ms.assetid: 461fd171-d47f-41d6-953e-8e497e023ab1
-ms.openlocfilehash: e991d2705f74aa8822dcef89878e9762f22b08dc
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 2074fb1e631edf1795b8f0d15ea9f0d40e90556d527899873ef88195c2367576
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109842395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117860771"
 ---
 # <a name="fm_getfilesellfn-message"></a>\_Сообщение FM жетфилеселлфн
 
@@ -52,7 +52,7 @@ ms.locfileid: "109842395"
 
 Расширение может использовать сообщение [**FM \_ жетселкаунтлфн**](fm-getselcountlfn.md) для получения числа выбранных файлов.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
