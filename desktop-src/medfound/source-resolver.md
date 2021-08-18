@@ -4,12 +4,12 @@ ms.assetid: 93eecf10-308b-4bb4-92f9-fd32d6ecdb04
 title: Сопоставитель источников
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6a844893b0348546d4fd174b0b24405812efcef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d90ac92cc9d30c5dfb46be60812fbe3156e0f26e396ed1bb9006752ae9db47bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104344382"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034742"
 ---
 # <a name="source-resolver"></a>Сопоставитель источников
 
@@ -22,13 +22,13 @@ ms.locfileid: "104344382"
 
 Можно реализовать пользовательский обработчик и добавить его в реестр. Обработчики схем регистрируются с помощью схемы URL-адресов, а обработчики байтового потока регистрируются по расширению имени файла или типу MIME.
 
-В этом разделе содержатся следующие подразделы.
+Этот раздел состоит из следующих подразделов.
 
 -   [Использование сопоставителя источников](using-the-source-resolver.md)
 -   [Настройка источника мультимедиа](configuring-a-media-source.md)
 -   [Обработчики схем и обработчики Byte-Stream](scheme-handlers-and-byte-stream-handlers.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

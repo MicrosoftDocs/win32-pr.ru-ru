@@ -79,7 +79,7 @@
               href: do-not-use-endpoint-security.md
             - name: 'Будьте осторожны с другими конечными точками RPC, работающими в том же процессе'
               href: be-wary-of-other-rpc-endpoints-running-in-the-same-process.md
-            - name: 'Убедитесь, что сервер требует утверждения'
+            - name: 'Проверьте, Кто ли сервер утвержден'
               href: verify-the-server-is-who-it-claims-to-be.md
             - name: Использование основных последовательностей протоколов
               href: use-mainstream-protocol-sequences.md
@@ -94,7 +94,7 @@
               href: network-latency-and-throughput.md
             - name: Масштабируемость
               href: scalability.md
-            - name: Прочие советы по повышению производительности RPC
+            - name: прочие Советы производительности RPC
               href: miscellaneous-rpc-performance-tips.md
         - name: Получение сведений об ошибке расширенного RPC
           href: obtaining-extended-rpc-error-information.md
@@ -144,7 +144,7 @@
         - name: Установка среды программирования RPC
           href: installing-the-rpc-programming-environment.md
           items:
-            - name: Разработка приложений для Windows RPC
+            - name: разработка приложений Windows RPC
               href: developing-32-bit-windows-applications.md
         - name: Создание приложений RPC
           href: building-rpc-applications.md
@@ -513,9 +513,9 @@
                   href: server-stub-memory-management.md
                 - name: Буфер Application-Allocated
                   href: application-allocated-buffer.md
-                - name: Постоянное хранилище на сервере
+                - name: постоянное служба хранилища на сервере
                   href: persistent-storage-on-the-server.md
-            - name: Кто управляет памятью?
+            - name: Кто Управляет памятью?
               href: who-manages-memory-.md
               items:
                 - name: Top-Level и внедренные указатели
@@ -622,12 +622,12 @@
               items:
                 - name: Настройка службы имен
                   href: configuring-the-name-service-for-windows-xp-windows-2000-or-windows-nt.md
-                - name: Настройка службы имен для Windows 95
+                - name: настройка службы имен для Windows 95
                   href: configuring-the-name-service-for-windows-95.md
                   items:
-                    - name: Изменение реестра Windows 95
+                    - name: изменение реестра Windows 95
                       href: editing-the-windows-95-registry.md
-                - name: Настройка службы имен для Windows 3. x или MS-DOS
+                - name: настройка службы имен для Windows 3. x или MS-DOS
                   href: configuring-the-name-service-for-windows-3-x-or-ms-dos.md
                   items:
                     - name: Настройка поставщика службы имен локатора Майкрософт
@@ -726,7 +726,7 @@
               href: system-requirements-and-interoperability-for-rpc-over-http.md
             - name: Настройка компьютеров для RPC через HTTP
               href: configuring-computers-for-rpc-over-http.md
-            - name: Рекомендации по развертыванию RPC по HTTP
+            - name: Рекомендации развертывания RPC через HTTP
               href: rpc-over-http-deployment-recommendations.md
         - name: Балансировка нагрузки RPC
           href: rpc-load-balancing.md
@@ -750,7 +750,7 @@
               items:
                 - name: NDR_SCONTEXT
                   href: /previous-versions/aa374336(v=vs.80)
-                - name: Код GUID
+                - name: GUID
                   href: /windows/win32/api/guiddef/ns-guiddef-guid
                 - name: NDR_USER_MARSHAL_INFO
                   href: /windows/win32/api/Rpcndr/ns-rpcndr-ndr_user_marshal_info

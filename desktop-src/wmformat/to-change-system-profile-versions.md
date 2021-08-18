@@ -8,18 +8,18 @@ keywords:
 - системные профили, изменение версий
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 824e2b1cf4a43cef0e87daa461c6510a6672472d
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: c963a142c879242b5e2ae734dedb4073a120a57a9121c3f3f95e5838c15110a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104336367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119084274"
 ---
 # <a name="to-change-system-profile-versions"></a>Изменение версий системного профиля
 
 При создании объекта диспетчера профилей он анализирует системные профили. Можно выполнить итерацию по системным профилям с помощью методов [**ивмпрофилеманажер:: жетсистемпрофилекаунт**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofilemanager-getsystemprofilecount) и [**Ивмпрофилеманажер:: лоадсистемпрофиле**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofilemanager-loadsystemprofile) , но диспетчер профилей будет подсчитывать и выводить в список только профили одной версии за раз. Если вы хотите использовать этот метод для поиска системных профилей, необходимо убедиться, что диспетчер профилей работает с требуемой версией. Используйте методы интерфейса [**IWMProfileManager2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager2) , чтобы задать и получить версию системного профиля, используемую диспетчером профилей.
 
-Версии задаются с помощью членов типа [**перечисления \_ версии ВМТ**](/previous-versions/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_version) . Если задать для версии системного профиля значение ВМТ \_ ver \_ 9 \_ 0, вызов будет выполнен, но число системных профилей будет равно нулю. Это обусловлено тем, что ни один из стандартных системных профилей не использует кодеки Windows Media Audio и Video 9. Дополнительные сведения об обновлении профилей для использования новых кодеков см. в разделе [повторное использование конфигураций потоков](reusing-stream-configurations.md).
+Версии задаются с помощью членов типа [**перечисления \_ версии ВМТ**](/previous-versions/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_version) . Если задать для версии системного профиля значение ВМТ \_ ver \_ 9 \_ 0, вызов будет выполнен, но число системных профилей будет равно нулю. это обусловлено тем, что ни один из стандартных системных профилей не использует кодеки Windows Media Audio и Video 9. Дополнительные сведения об обновлении профилей для использования новых кодеков см. в разделе [повторное использование конфигураций потоков](reusing-stream-configurations.md).
 
 Если вы загружаете системный профиль по идентификатору GUID, не имеет значения, какая версия системного профиля использует диспетчер профилей. Дополнительные сведения о загрузке системных профилей см. [в разделе Загрузка системного профиля](to-load-a-system-profile.md).
 
@@ -130,16 +130,16 @@ int main(void)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Использование системных профилей**](using-system-profiles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

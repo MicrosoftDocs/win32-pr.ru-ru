@@ -4,12 +4,12 @@ ms.assetid: eba073d5-f0f0-42f2-8d14-89f90d469716
 title: System. photo. Бригхтнесснумератор
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69f8e2a308f9ea25854669ea1e3a893e1976c68c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5b99e538ec05a959255b14786dfd6adb00d12c3df4e832bcb7f9edc16b70f765
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105693004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970163"
 ---
 # <a name="systemphotobrightnessnumerator"></a>System. photo. Бригхтнесснумератор
 
@@ -30,11 +30,11 @@ propertyDescription
       type = UInt32
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

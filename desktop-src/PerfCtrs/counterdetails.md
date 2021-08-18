@@ -4,12 +4,12 @@ ms.assetid: e2a16a6e-8cd4-4fd3-adeb-461faed948e4
 title: каунтердетаилс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 751073cdc2f2646ad1f2351bff0bdc02c498d428
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef429f7f90c38d53f085ed0243e1c799c1d1cfa808c7aa052d8a37ed3a1faf1d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103998530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011362"
 ---
 # <a name="counterdetails"></a>каунтердетаилс
 
@@ -21,7 +21,7 @@ ms.locfileid: "103998530"
 -   **MachineName:** Имя компьютера, который зарегистрировал этот набор данных.
 -   **Имя_объекта:** Имя объекта производительности.
 -   **CounterName:** Имя счетчика.
--   **CounterType:** Тип счетчика. Список типов счетчиков и их формул см. в разделе Типы счетчиков [комплекта средств для развертывания Windows Server 2003](/previous-versions/windows/it-pro/windows-server-2003/cc776490(v=ws.10)).
+-   **CounterType:** Тип счетчика. список типов счетчиков и их формул см. в разделе типы счетчиков раздела [Windows Server 2003 Deployment Kit](/previous-versions/windows/it-pro/windows-server-2003/cc776490(v=ws.10)).
 -   **Дефаултскале:** Масштабирование по умолчанию, применяемое к необработанным данным счетчика производительности.
 -   **InstanceName:** Имя экземпляра счетчика.
 -   **Инстанцеиндекс:** Номер индекса экземпляра счетчика.

@@ -79,7 +79,7 @@ public static void JetGetObjectInfo(
     
     Заполняется сведениями об объектах в базе данных.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

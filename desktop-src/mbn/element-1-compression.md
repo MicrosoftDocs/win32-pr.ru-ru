@@ -16,12 +16,12 @@ api_location: ''
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 5796afb061bdc758bba020384501699fe3627e16
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: c3be80fd71504f068da3ab8d40974b6ee397074e1b476e21c1f5f6901235671a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106388844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035932"
 ---
 # <a name="span-idwwan_profile_v4element_1_compressionspanmodemdmconfigprofilecompression-v4"></a><span id="WWAN_profile_v4.element_1_Compression"></span>Модемдмконфигпрофиле \/ ... \/ Сжатие (v4)
 

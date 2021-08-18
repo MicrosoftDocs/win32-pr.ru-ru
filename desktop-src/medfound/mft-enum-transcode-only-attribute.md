@@ -4,12 +4,12 @@ ms.assetid: 0e05cb05-87a8-4174-a3c6-a0a0c7765024
 title: Атрибут MFT_ENUM_TRANSCODE_ONLY_ATTRIBUTE (Мфтрансформ. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fa3349da254534605178995d493f63525a81489
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1d0951d4f370849678eb88ecbd9751c417a7e50d2bd709ad1f2c5b6cf96f5f2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104423850"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973083"
 ---
 # <a name="mft_enum_transcode_only_attribute-attribute"></a>\_Атрибут атрибута с перечислением \_ только для ПЕРЕкодирования MFT \_ \_
 
@@ -23,7 +23,7 @@ ms.locfileid: "104423850"
 
 **REG \_ DWORD**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если эта запись реестра имеется и равна 1, функция [**мфтенумекс**](/windows/desktop/api/mfapi/nf-mfapi-mftenumex) пропускает декодер, если только вызывающий объект не указал **флаг \_ перечисления MFT enum флага \_ \_ \_ только** в **мфтенумекс**.
 
@@ -35,9 +35,9 @@ ms.locfileid: "104423850"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 7 \|\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 R2 \|\]<br/>                           |
-| Header<br/>                   | <dl> <dt>Мфтрансформ. h</dt> </dl> |
+| Минимальная версия клиента<br/> | \[приложения UWP для классических приложений Windows 7 \|\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для настольных приложений Server 2008 R2 \|\]<br/>                           |
+| Заголовок<br/>                   | <dl> <dt>Мфтрансформ. h</dt> </dl> |
 
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8c96b7453eb6009121fd6782030f7988663f5e8f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e3c0297ccf670de12380c5f02af2c67d6050bac29dd1fa7e7e89a6e6c7c20592
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105674999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074689"
 ---
 # <a name="cbasevideorenderershoulddrawsamplenow-method"></a>Кбасевидеорендерер. Шаулддравсампленов, метод
 
@@ -69,7 +69,7 @@ virtual HRESULT ShouldDrawSampleNow(
 
 Возвращает значение **HRESULT** . Возвращает \_ «ОК», означая, что рисуется один раз без ожидания, «ложь», \_ означающий прорисовку во времени *птрстарт*, или ошибка, означающая, что не Нарисуйте пример, то есть пропустите его, чтобы сэкономить время.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция члена переопределяет [**кбасерендерер:: шаулддравсампленов**](cbaserenderer-shoulddrawsamplenow.md).
 
@@ -79,7 +79,7 @@ virtual HRESULT ShouldDrawSampleNow(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ренбасе. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>ренбасе. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

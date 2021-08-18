@@ -3,9 +3,9 @@ title: Событие Player. DoubleClick
 description: Событие DoubleClick возникает, когда пользователь дважды щелкает кнопку мыши.
 ms.assetid: e2055cff-e4b0-49e3-a93a-7084789b6842
 keywords:
-- Проигрыватель Windows Media Event DoubleClick
-- Проигрыватель Windows Media Event DoubleClick, класс Player
-- Класс проигрывателя Windows Media Player, событие DoubleClick
+- проигрыватель Windows Media событий DoubleClick
+- проигрыватель Windows Media событий DoubleClick, класс Player
+- класс проигрывателя проигрыватель Windows Media, событие DoubleClick
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bb3670bfbf3b72fad64f8fb515f5151920b34f52
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 67a8e6a21c46a8b1c5d7960d70233e38333f9ff2052826bb68d573d4b2f0cd15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995924"
 ---
 # <a name="playerdoubleclick-event"></a>Событие Player. DoubleClick
 
@@ -77,11 +77,11 @@ Player.DoubleClick(
 
 Это событие не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Значение параметров события указывается проигрывателем Windows Media, доступ к которому можно получить или передать в метод в импортированном файле JScript с использованием имени параметра. Имя этого параметра должно быть введено в точности так, как показано, включая прописные буквы.
+значение параметров события задается проигрыватель Windows Media, и к нему можно получить доступ или передать в метод в импортированном JScriptном файле, используя имя параметра. Имя этого параметра должно быть введено в точности так, как показано, включая прописные буквы.
 
-**Проигрыватель Windows Media 10 Mobile:** Это событие не поддерживается.
+**проигрыватель Windows Media 10 Mobile:** Это событие не поддерживается.
 
 ## <a name="requirements"></a>Требования
 
@@ -89,7 +89,7 @@ Player.DoubleClick(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии.<br/>                                 |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии.<br/>                                 |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

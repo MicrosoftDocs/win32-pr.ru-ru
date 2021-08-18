@@ -16,12 +16,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 5c6bbbf905a141fb7e9e3621c78709fd78999393
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d9081cef3ed58929fa976470b1c567c6accd0f60029f64f28ee7a90d16600d2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104350095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132017"
 ---
 # <a name="__timerinstruction-class"></a>\_\_Класс Тимеринструктион
 
@@ -46,7 +46,7 @@ class __TimerInstruction : __EventGenerator
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ \_ тимеринструктион** имеет следующие свойства.
 
@@ -72,7 +72,7 @@ FALSE
 
 </dd> <dt>
 
-true
+TRUE
 </dt> <dd>
 
 Событие Timer не возникает, если Инструментарий WMI недоступен для его создания в соответствующий интервал времени или если потребитель, запрашивающий получение события, недоступен.
@@ -97,7 +97,7 @@ true
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ \_ тимеринструктион** является производным от [**\_ \_ евентженератор**](--eventgenerator.md).
 

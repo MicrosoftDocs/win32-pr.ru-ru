@@ -40,12 +40,12 @@ api_type:
 - HeaderDef
 api_location:
 - Wbemdisp.h
-ms.openlocfilehash: 73fb9167af63f40f3a6e1c00470d871f749d228a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 38d104c99885d4328ce8b12413e91607655ab1e260a61b511e3ea4a600b80b4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103818048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131026"
 ---
 # <a name="privilege-constants"></a>Константы прав доступа
 
@@ -74,7 +74,7 @@ Set Service = GetObject("winmgmts:{impersonationLevel=impersonate, (RemoteShutdo
 
 
 
-Константа C++: **SE \_ Create \_ Token \_ Name** строка: **секреатетокенпривилеже**
+константа C++ **: \_ SE \_ создание \_ имени токена** — строка: **секреатетокенпривилеже**
 
 Короткое имя сценария: **креатетокен**
 
@@ -108,7 +108,7 @@ Set Service = GetObject("winmgmts:{impersonationLevel=impersonate, (RemoteShutdo
 
 
 
-Константа C++: **SE \_ Lock \_ Memory \_ Name** строка: **SeLockMemoryPrivilege**
+константа C++: **SE строка \_ \_ \_ имени блокировки памяти** : **SeLockMemoryPrivilege**
 
 Короткое имя сценария: **локкмемори**
 
@@ -125,7 +125,7 @@ Set Service = GetObject("winmgmts:{impersonationLevel=impersonate, (RemoteShutdo
 
 
 
-Константа с + +: **SE \_ увеличить \_ \_ имя квоты** : **SeIncreaseQuotaPrivilege**
+константа C++ **: \_ SE \_ увеличить \_ имя квоты** : **SeIncreaseQuotaPrivilege**
 
 Короткое имя сценария: **инкреасекуотапривилеже**
 
@@ -142,7 +142,7 @@ Set Service = GetObject("winmgmts:{impersonationLevel=impersonate, (RemoteShutdo
 
 
 
-Константа C++: строка **\_ \_ \_ имени учетной записи SE машина** : **семачинеаккаунтпривилеже**
+константа C++: **SE строка \_ \_ \_ имени учетной записи машина** : **семачинеаккаунтпривилеже**
 
 Короткое имя сценария: **мачинеаккаунт**
 
@@ -159,7 +159,7 @@ Set Service = GetObject("winmgmts:{impersonationLevel=impersonate, (RemoteShutdo
 
 
 
-Константа C++ **: \_ SE \_ имя TCB** строка: **SeTcbPrivilege**
+константа C++: **SE строка \_ \_ имени TCB** : **SeTcbPrivilege**
 
 Короткое имя сценария: **TCB**
 
@@ -176,7 +176,7 @@ Set Service = GetObject("winmgmts:{impersonationLevel=impersonate, (RemoteShutdo
 
 
 
-Константа C++: строка **\_ \_ имени безопасности SE** : **SeSecurityPrivilege**
+константа C++: **SE строка \_ \_ имени безопасности** : **SeSecurityPrivilege**
 
 Короткое имя сценария: **Безопасность**
 
@@ -193,7 +193,7 @@ Set Service = GetObject("winmgmts:{impersonationLevel=impersonate, (RemoteShutdo
 
 
 
-Константа C++ **: \_ SE \_ взять \_ имя владельца** строка: **сетакеовнершиппривилеже**
+константа C++ **: \_ SE \_ получение \_ имени владельца** строка: **сетакеовнершиппривилеже**
 
 Короткое имя сценария: **такеовнершип**
 
@@ -210,7 +210,7 @@ Set Service = GetObject("winmgmts:{impersonationLevel=impersonate, (RemoteShutdo
 
 
 
-Константа C++: **SE \_ Load \_ драйвер** строка: **селоаддриверпривилеже**
+константа C++: **SE \_ загрузка строки \_ драйвера** : **селоаддриверпривилеже**
 
 Короткое имя сценария: **лоаддривер**
 
@@ -227,7 +227,7 @@ Set Service = GetObject("winmgmts:{impersonationLevel=impersonate, (RemoteShutdo
 
 
 
-Константа C++: строка **\_ \_ \_ имени системного профиля SE** : **сесистемпрофилепривилеже**
+константа C++: **SE строка \_ \_ \_ имени системного профиля** : **сесистемпрофилепривилеже**
 
 Короткое имя сценария: **SystemProfile**
 
@@ -244,7 +244,7 @@ Set Service = GetObject("winmgmts:{impersonationLevel=impersonate, (RemoteShutdo
 
 
 
-Константа C++: **SE \_ SYSTEMTIME** \_ name string: **сесистемтимепривилеже**
+константа C++: **SE имя \_ SYSTEMTIME** \_ строка: **сесистемтимепривилеже**
 
 Короткое имя сценария: **SYSTEMTIME**
 
@@ -261,7 +261,7 @@ Set Service = GetObject("winmgmts:{impersonationLevel=impersonate, (RemoteShutdo
 
 
 
-Константа C++: **SE \_ Prof \_ Single \_ Process \_ Name** строка: **сепрофилесинглепроцесспривилеже**
+константа C++ **: \_ SE \_ PROF \_ \_ имя отдельного процесса** : **сепрофилесинглепроцесспривилеже**
 
 Короткое имя сценария: **профилесинглепроцесс**
 
@@ -278,7 +278,7 @@ Set Service = GetObject("winmgmts:{impersonationLevel=impersonate, (RemoteShutdo
 
 
 
-Константа C++: строка **\_ \_ \_ \_ имени базового приоритета для SE Inc** : **SeIncreaseBasePriorityPrivilege**
+константа C++: строка **\_ \_ \_ \_ имени базового приоритета SE INC** : **SeIncreaseBasePriorityPrivilege**
 
 Короткое имя сценария: **инкреасебасеприорити**
 
@@ -295,7 +295,7 @@ Set Service = GetObject("winmgmts:{impersonationLevel=impersonate, (RemoteShutdo
 
 
 
-Константа C++: **SE \_ Create \_ pagefile \_ Name** строка: **секреатепажефилепривилеже**
+константа C++ **: \_ SE \_ создать \_ имя файла подкачки** : **секреатепажефилепривилеже**
 
 Короткое имя сценария: **креатепажефиле**
 
@@ -312,7 +312,7 @@ Set Service = GetObject("winmgmts:{impersonationLevel=impersonate, (RemoteShutdo
 
 
 
-Константа C++: **SE \_ создать строку \_ постоянного \_ имени** : **секреатеперманентпривилеже**
+константа C++: **SE \_ создать строку \_ постоянного \_ имени** : **секреатеперманентпривилеже**
 
 Короткое имя сценария: **креатеперманент**
 
@@ -329,7 +329,7 @@ Set Service = GetObject("winmgmts:{impersonationLevel=impersonate, (RemoteShutdo
 
 
 
-Константа C++: **SE \_ BACKUP \_ Name** , строка: **себаккуппривилеже**
+константа C++: **SE строка \_ \_ имени резервной копии** : **себаккуппривилеже**
 
 Короткое имя сценария: **резервное копирование**
 
@@ -346,7 +346,7 @@ Set Service = GetObject("winmgmts:{impersonationLevel=impersonate, (RemoteShutdo
 
 
 
-Константа C++: **SE \_ RESTORE \_ Name** String: **сересторепривилеже**
+константа C++: **SE строка \_ \_ имени для восстановления** : **сересторепривилеже**
 
 Короткое имя сценария: **RESTORE**
 
@@ -363,7 +363,7 @@ Set Service = GetObject("winmgmts:{impersonationLevel=impersonate, (RemoteShutdo
 
 
 
-Константа C++: **SE \_ Shutdown \_ имя** строки: **сешутдовнпривилеже**
+константа C++: **SE строка \_ \_ имени завершения** : **сешутдовнпривилеже**
 
 Короткое имя сценария: **Завершение работы**
 
@@ -380,7 +380,7 @@ Set Service = GetObject("winmgmts:{impersonationLevel=impersonate, (RemoteShutdo
 
 
 
-Константа C++: строка **\_ \_ имени отладки** : **SeDebugPrivilege**
+константа C++: **SE строка \_ \_ имени отладки** : **SeDebugPrivilege**
 
 Короткое имя сценария: **Отладка**
 
@@ -397,7 +397,7 @@ Set Service = GetObject("winmgmts:{impersonationLevel=impersonate, (RemoteShutdo
 
 
 
-Константа C++: **SE \_ Audit \_ Name** , строка: **SeAuditPrivilege**
+константа C++: **SE строка \_ \_ имени аудита** : **SeAuditPrivilege**
 
 Короткое имя сценария: **Аудит**
 
@@ -414,7 +414,7 @@ Set Service = GetObject("winmgmts:{impersonationLevel=impersonate, (RemoteShutdo
 
 
 
-Константа C++: строка **\_ \_ \_ имени системной среды SE** : **сесистеменвиронментпривилеже**
+константа C++: **SE строка \_ \_ \_ имени системной среды** : **сесистеменвиронментпривилеже**
 
 Короткое имя сценария: **системенвиронмент**
 
@@ -431,7 +431,7 @@ Set Service = GetObject("winmgmts:{impersonationLevel=impersonate, (RemoteShutdo
 
 
 
-Константа C++ **: \_ SE \_ изменить \_ имя уведомления** строка: **SeChangeNotifyPrivilege**
+константа C++ **: \_ SE \_ изменение \_ имени уведомления** строка: **SeChangeNotifyPrivilege**
 
 Короткое имя сценария: **чанженотифи**
 
@@ -448,7 +448,7 @@ Set Service = GetObject("winmgmts:{impersonationLevel=impersonate, (RemoteShutdo
 
 
 
-Константа C++: **SE \_ Remote \_ Shutdown \_ Name** строка: **серемотешутдовнпривилеже**
+константа C++: **SE строка \_ \_ \_ имени удаленного завершения работы** : **серемотешутдовнпривилеже**
 
 Короткое имя сценария: **ремотешутдовн**
 
@@ -465,7 +465,7 @@ Set Service = GetObject("winmgmts:{impersonationLevel=impersonate, (RemoteShutdo
 
 
 
-Константа C++: SE, строка **\_ \_ имени** : **сеундоккпривилеже**
+константа C++: **SE строка \_ \_ имени отстыковки** : **сеундоккпривилеже**
 
 Короткое имя сценария: отмена **закрепления**
 
@@ -482,7 +482,7 @@ Set Service = GetObject("winmgmts:{impersonationLevel=impersonate, (RemoteShutdo
 
 
 
-Константа C++: **SE \_ Sync \_ Agent \_ Name** : **сесинкажентпривилеже**
+константа C++: **SE строка \_ \_ \_ имени агента синхронизации** : **сесинкажентпривилеже**
 
 Короткое имя сценария: **синкажент**
 
@@ -499,7 +499,7 @@ Set Service = GetObject("winmgmts:{impersonationLevel=impersonate, (RemoteShutdo
 
 
 
-Константа C++ **: \_ SE \_ включить \_ имя делегирования** : **SeEnableDelegationPrivilege**
+константа C++: **SE \_ включить строку \_ \_ имени делегирования** : **SeEnableDelegationPrivilege**
 
 Короткое имя сценария: **енабледелегатион**
 
@@ -516,7 +516,7 @@ Set Service = GetObject("winmgmts:{impersonationLevel=impersonate, (RemoteShutdo
 
 
 
-Константа C++ **: \_ SE \_ Управление \_ именем тома** : **семанажеволумепривилеже**
+константа C++: **SE управление строкой \_ \_ \_ имени тома** : **семанажеволумепривилеже**
 
 Короткое имя сценария: **манажеволуме**
 
@@ -533,7 +533,7 @@ Set Service = GetObject("winmgmts:{impersonationLevel=impersonate, (RemoteShutdo
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wbemdisp. idl</dt> </dl> |
 
 

@@ -3,7 +3,7 @@ title: Список воспроизведения. Аборткопи
 description: Метод Аборткопи отменяет операцию копирования.
 ms.assetid: 1d13b160-a43b-419c-bd97-e0f4eb0fa429
 keywords:
-- Проигрыватель Windows Media Player. Аборткопи
+- проигрыватель Windows Media списка воспроизведения. аборткопи
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 48fcc4e9dfe2960a45d4de1fac80d534e8d551a6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2d6ef43afa2630c1f02c30ea3db05b09852d7f720ffd63e99a63984d0ca45800
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708445"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995794"
 ---
 # <a name="playlistabortcopy"></a>Список воспроизведения. Аборткопи
 
@@ -42,7 +42,7 @@ ms.locfileid: "105708445"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

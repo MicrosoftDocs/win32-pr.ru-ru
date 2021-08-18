@@ -6,12 +6,12 @@ keywords:
 - Удаленный вызов процедур RPC, задачи, использование безопасности на уровне транспорта на клиенте
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c10360d5b8d11640803e31ee1d1d0490a6edfdf7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 83ee610da50d34711c9ec40f93c29ed08d2bb97ba83c02bc4e8c297b08f859c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987806"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010602"
 ---
 # <a name="using-transport-level-security-on-the-client"></a>Использование Transport-Level безопасности на клиенте
 
@@ -23,7 +23,7 @@ ms.locfileid: "103987806"
 2.  Клиент вызывает [**рпкбиндингфромстрингбиндинг**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingfromstringbinding) , чтобы получить новый маркер привязки и применить сведения об уровне обслуживания для клиента.
 3.  Клиент выполняет удаленные вызовы процедур с помощью маркера.
 
-Microsoft RPC поддерживает функции безопасности Windows только в [**нкакн \_ NP**](/windows/desktop/Midl/ncacn-np) и [**нкалрпк**](/windows/desktop/Midl/ncalrpc). Параметры безопасности для других транспортов игнорируются.
+Microsoft RPC поддерживает Windows функции безопасности только в [**нкакн \_ np**](/windows/desktop/Midl/ncacn-np) и [**нкалрпк**](/windows/desktop/Midl/ncalrpc). Параметры безопасности для других транспортов игнорируются.
 
 Клиент может связать следующие параметры безопасности с привязкой для транспорта именованного канала [**нкакн \_ NP**](/windows/desktop/Midl/ncacn-np) или [**нкалрпк**](/windows/desktop/Midl/ncalrpc):
 
@@ -46,6 +46,6 @@ Microsoft RPC поддерживает функции безопасности W
 
 Дополнительные сведения о синтаксисе параметров конечной точки см. в разделе [Endpoint](/windows/desktop/Midl/endpoint).
 
- 
+ 
 
- 
+ 

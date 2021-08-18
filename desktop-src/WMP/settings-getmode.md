@@ -1,11 +1,11 @@
 ---
-title: Метод Settings. Мода
+title: метод Параметры. мода
 description: Метод метода мода определяет, активен ли режим "цикл" или "случайный".
 ms.assetid: 41c3725f-ae8f-4b45-856a-b7245c9ad2b3
 keywords:
-- метод мода проигрыватель Windows Media
-- метод мода проигрыватель Windows Media, класс параметров
-- Класс параметров проигрыватель Windows Media Player, метод onmode
+- метод в режиме проигрыватель Windows Media
+- метод проигрыватель Windows Media, Параметры класс
+- класс Параметры проигрыватель Windows Media, метод метода мода
 topic_type:
 - apiref
 api_name:
@@ -16,14 +16,14 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a5fc3e82091200d05bb173c71f2c0e5a7d213b80
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 779c775319cbe0d6dc443b4eb99febd494db3d30fb35228b7310f8f1ae7d691d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648669"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995334"
 ---
-# <a name="settingsgetmode-method"></a>Метод Settings. Мода
+# <a name="settingsgetmode-method"></a>метод Параметры. мода
 
 Метод метода **мода** определяет, активен ли режим "цикл" или "случайный".
 
@@ -72,7 +72,7 @@ bRetVal = Settings.getMode(
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Для режимов цикла и случайного воспроизведения проигрыватель Windows Media версии 7,0 или более поздней. Для режимов Ауторевинд и Шовфраме, проигрыватель Windows Media 9 Series или более поздней версии.<br/> |
+| Версия<br/> | для режимов цикла и случайного перебора проигрыватель Windows Media версии 7,0 или более поздней. для режимов ауторевинд и шовфраме проигрыватель Windows Media 9 Series или более поздней версии.<br/> |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl>                                                                            |
 
 
@@ -81,10 +81,10 @@ bRetVal = Settings.getMode(
 
 <dl> <dt>
 
-[**Объект параметров**](settings-object.md)
+[**Параметры Объектами**](settings-object.md)
 </dt> <dt>
 
-[**Settings. setMode**](settings-setmode.md)
+[**Параметры. setMode**](settings-setmode.md)
 </dt> </dl>
 
  

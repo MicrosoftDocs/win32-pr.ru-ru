@@ -1,7 +1,7 @@
 - name: Сборщик событий Windows
   href: windows-event-collector.md
   items:
-    - name: Использование сборщика событий Windows
+    - name: использование Windows сборщика событий
       href: using-windows-event-collector.md
       items:
         - name: 'Создание подписки, инициированной сборщиком'
@@ -27,14 +27,14 @@
           href: removing-an-event-source-from-an-event-collector-subscription.md
         - name: Повторная попытка подписки сборщика событий
           href: retrying-an-event-collector-subscription.md
-    - name: Справочник по сборщикам событий Windows
+    - name: Windows Справочник по сборщикам событий
       href: windows-event-collector-reference.md
       items:
-        - name: Константы сборщика событий Windows
+        - name: Windows Константы сборщика событий
           href: windows-event-collector-constants.md
-        - name: Типы данных сборщика событий Windows
+        - name: Windows Типы данных сборщика событий
           href: windows-event-collector-data-types.md
-        - name: Перечисления сборщика событий Windows
+        - name: Windows Перечисления сборщика событий
           href: windows-event-collector-enumerations.md
           items:
             - name: EC_SUBSCRIPTION_CONFIGURATION_MODE
@@ -55,7 +55,7 @@
               href: /windows/win32/api/Evcoll/ne-evcoll-ec_subscription_type
             - name: EC_VARIANT_TYPE
               href: /windows/win32/api/Evcoll/ne-evcoll-ec_variant_type
-        - name: Функции сборщика событий Windows
+        - name: Windows Функции сборщика событий
           href: windows-event-collector-functions.md
           items:
             - name: екклосе
@@ -88,7 +88,7 @@
               href: /windows/desktop/api/Evcoll/nf-evcoll-ecremoveobjectarrayelement
             - name: екретрисубскриптион
               href: /windows/desktop/api/Evcoll/nf-evcoll-ecretrysubscription
-        - name: Структуры сборщика событий Windows
+        - name: Windows Структуры сборщика событий
           href: windows-event-collector-structures.md
           items:
             - name: EC_VARIANT

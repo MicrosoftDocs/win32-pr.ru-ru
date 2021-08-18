@@ -1,19 +1,19 @@
 ---
-description: Точечные рисунки должны сохраняться в файле, использующем установленный формат файла точечного рисунка, и иметь имя с расширением BMP.
+description: Точечные рисунки должны сохраняться в файле, использующем установленный формат файла точечного рисунка, и иметь имя с тремя символами расширения .bmp.
 ms.assetid: 44f19d14-4e0e-4512-8c86-6bd34ca4e87b
-title: Растровое хранилище
+title: служба хранилища точечных рисунков
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28046f6d78f5137d0dfc5b1396bbf76be318daa5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83688f240899ded49227264b716d8c5d1fb609aa747fc358184a78ad18c8d17f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155691"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119038212"
 ---
-# <a name="bitmap-storage"></a>Растровое хранилище
+# <a name="bitmap-storage"></a>служба хранилища точечных рисунков
 
-Точечные рисунки должны сохраняться в файле, использующем установленный формат файла точечного рисунка, и иметь имя с расширением BMP. Установленный формат файла точечного рисунка состоит из структуры [**битмапфилехеадер**](/windows/win32/api/wingdi/ns-wingdi-bitmapfileheader) , за которой следует структура [**битмапинфохеадер**](/previous-versions//dd183376(v=vs.85)), [**BITMAPV4HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv4header)или [**BITMAPV5HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv5header) . Массив структур [**ргбкуад**](/windows/win32/api/wingdi/ns-wingdi-rgbquad) (также называемый таблицей цветов) следует за структурой заголовка растровой информации. За таблицей цветов следует второй массив индексов в таблице цветов (фактические данные точечного рисунка).
+Точечные рисунки должны сохраняться в файле, использующем установленный формат файла точечного рисунка, и иметь имя с тремя символами расширения .bmp. Установленный формат файла точечного рисунка состоит из структуры [**битмапфилехеадер**](/windows/win32/api/wingdi/ns-wingdi-bitmapfileheader) , за которой следует структура [**битмапинфохеадер**](/previous-versions//dd183376(v=vs.85)), [**BITMAPV4HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv4header)или [**BITMAPV5HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv5header) . Массив структур [**ргбкуад**](/windows/win32/api/wingdi/ns-wingdi-rgbquad) (также называемый таблицей цветов) следует за структурой заголовка растровой информации. За таблицей цветов следует второй массив индексов в таблице цветов (фактические данные точечного рисунка).
 
 Формат файла точечного рисунка показан на следующем рисунке.
 

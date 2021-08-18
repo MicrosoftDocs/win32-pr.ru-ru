@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: d9358b2583f31fd26310ea880470f36404021fec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 71bf3775be1c21e59cf41a51fa5a6140e86e44ac81a2863892c1f252666e0f3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263138"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119092144"
 ---
 # <a name="iinkanalyzergetstroketype-method"></a>Метод Иинканализер:: Жетстрокетипе
 
@@ -58,7 +58,7 @@ HRESULT GetStrokeType(
 
 Описание возвращаемых значений см. в разделе [классы и интерфейсы — анализ рукописного ввода](classes-and-interfaces---ink-analysis.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если тип штриха — [**строкетипе**](stroketype.md) значение строкетипе \_ неклассифицировано, [**иинканализер**](iinkanalyzer.md) классифицирует штрих во время анализа рукописного ввода. В противном случае **иинканализер** использует тип, заданный для штриха.
 
@@ -70,7 +70,7 @@ HRESULT GetStrokeType(
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/>                                                 |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/>                                                 |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>Иаком. h (также требуется Иаком \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |

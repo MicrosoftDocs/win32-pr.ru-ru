@@ -5,12 +5,12 @@ ms.assetid: 489d3613-177f-4045-a055-2c1577ef2191
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06e0e6d4aa7c94afcdbe6458c2c23c214d935db2
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ef0f3a40b3404441df40434c7ddb2f1bb6ac578caaf182c14d2825c6f99e7f9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103792925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997974"
 ---
 # <a name="creating-a-source-initiated-subscription"></a>Создание подписки, инициированной источником
 
@@ -20,7 +20,7 @@ ms.locfileid: "103792925"
 
 **Программное создание подписки, инициированной исходным кодом**
 
-1.  Откройте подписку, указав имя подписки и права доступа в качестве параметров функции [**екопенсубскриптион**](/windows/desktop/api/Evcoll/nf-evcoll-ecopensubscription) . Дополнительные сведения о правах доступа см. в разделе [**константы сборщика событий Windows**](windows-event-collector-constants.md).
+1.  Откройте подписку, указав имя подписки и права доступа в качестве параметров функции [**екопенсубскриптион**](/windows/desktop/api/Evcoll/nf-evcoll-ecopensubscription) . дополнительные сведения о правах доступа см. в разделе [**Windows константы сборщика событий**](windows-event-collector-constants.md).
 2.  Задайте свойства подписки, вызвав функцию [**ексетсубскриптионпроперти**](/windows/desktop/api/Evcoll/nf-evcoll-ecsetsubscriptionproperty) . Дополнительные сведения о свойствах подписки, которые можно задать, см. в разделе Перечисление [**\_ \_ \_ идентификаторов свойств подписки EC**](/windows/desktop/api/Evcoll/ne-evcoll-ec_subscription_property_id) .
 3.  Сохраните подписку, вызвав функцию [**ексавесубскриптион**](/windows/desktop/api/Evcoll/nf-evcoll-ecsavesubscription) .
 4.  Закройте подписку, вызвав функцию [**екклосе**](/windows/desktop/api/Evcoll/nf-evcoll-ecclose) .
@@ -431,7 +431,7 @@ DWORD GetProperty(EC_HANDLE hSubscription,
 2.  На компьютере источника событий создайте события, которые соответствуют запросу, из подписки на события. Деливеримакситемс число событий должно быть сгенерировано для перенаправляемых событий.
 3.  На компьютере сборщика событий проверьте, что события были перенаправлены в журнал ForwardedEvents или в журнал, указанный в подписке.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -441,9 +441,9 @@ DWORD GetProperty(EC_HANDLE hSubscription,
 [Настройка исходной подписки, инициированной источником](setting-up-a-source-initiated-subscription.md)
 </dt> <dt>
 
-[Справочник по сборщикам событий Windows](windows-event-collector-reference.md)
+[Windows Справочник по сборщикам событий](windows-event-collector-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

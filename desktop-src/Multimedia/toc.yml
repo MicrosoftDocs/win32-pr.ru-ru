@@ -321,7 +321,7 @@
                       href: numbers.md
                     - name: через ползунки;
                       href: sliders.md
-                    - name: Параметры
+                    - name: Коммутаторы
                       href: switches.md
                     - name: Элементы управления времени
                       href: time-controls.md
@@ -2270,7 +2270,7 @@
               href: /windows/desktop/api/Vfw/nf-vfw-icqueryconfigure
             - name: иксетстате
               href: /windows/desktop/api/Vfw/nf-vfw-icsetstate
-            - name: max
+            - name: макс.
               href: max.md
             - name: MCI_HMS_HOUR
               href: mci-hms-hour.md
@@ -2440,7 +2440,7 @@
               href: /previous-versions//dd798441(v=vs.85)
             - name: MEVT_EVENTTYPE
               href: /previous-versions//dd798442(v=vs.85)
-            - name: мин
+            - name: мин.
               href: min.md
             - name: ммиофауркк
               href: /windows/desktop/api/vfw/nf-vfw-mmiofourcc

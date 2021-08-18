@@ -4,12 +4,12 @@ ms.assetid: ff558bd3-d884-4178-ad2d-a444798556a2
 title: Прокси-сервер System. photo. Шуттерспид
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c511f46cb91d509f69a7bdd9052985f00d11a0be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cf4d156532313e169a47b3e17a5f36cacf13c4db05c56a181864c6dec0f31a82
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081301"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119087027"
 ---
 # <a name="systemphotoshutterspeed-proxy"></a>Прокси-сервер System. photo. Шуттерспид
 
@@ -39,7 +39,7 @@ VT \_ UI8
 
 Ловпарт Ухвал.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

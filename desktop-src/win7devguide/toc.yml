@@ -1,4 +1,4 @@
-- name: Руководством для разработчиков Windows 7
+- name: руководством для разработчиков Windows 7
   href: windows-7-developer-guide.md
   items:
     - name: Введение
@@ -37,7 +37,7 @@
           href: media-platform.md
         - name: Устройства
           href: devices.md
-    - name: Лучшее из Windows и Интернета
+    - name: лучшее из Windows и интернета
       href: the-best-of-windows-and-the-web.md
       items:
         - name: Службы

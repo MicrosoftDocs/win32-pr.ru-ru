@@ -3,7 +3,7 @@ title: паусилемент
 description: Это предопределенный БУТТОНЕЛЕМЕНТ со следующими значениями по умолчанию. | паусилемент
 ms.assetid: 9472ea68-daab-4969-b407-287aedb00fbf
 keywords:
-- ПАУСИЛЕМЕНТ Windows Media Player
+- паусилемент проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ee55b347db98e14360200257c2dedd314f61ce4e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ae9a19c532fcee6c57d6bc318631447eefcdc421b4f57dd2284e0f05b4b86b32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996044"
 ---
 # <a name="pauseelement"></a>паусилемент
 
@@ -31,21 +31,21 @@ cursor="system"
 enabled="wmpenabled:player.controls.pause"
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Все свойства этого **буттонелемент** можно переопределить, явно указав их.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

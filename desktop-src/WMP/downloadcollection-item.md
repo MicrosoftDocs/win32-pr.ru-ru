@@ -62,7 +62,7 @@ retVal = DownloadCollection.item(
 
 Значение *ItemId* отсчитывается от нуля.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -73,7 +73,7 @@ retVal = DownloadCollection.item(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -81,7 +81,7 @@ ms.locfileid: "118984634"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

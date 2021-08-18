@@ -4,16 +4,16 @@ ms.assetid: a8f41f0d-b284-aefa-923b-471b13b4a3ec
 title: 'Руководство: интегрирование X3DAudio с XAudio2'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7dc54fa5f673e319712808ca6d2b587b8ad2d0fc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c940acbe78e8d4ca4247f77500adeeca7c9619057a3008dea50fc8b55a9f364e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103815280"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962693"
 ---
 # <a name="how-to-integrate-x3daudio-with-xaudio2"></a>Руководство: интегрирование X3DAudio с XAudio2
 
-В этом разделе показано, как интегрировать X3DAudio с XAudio2. X3DAudio можно использовать для предоставления значений громкости и высоты для голосов XAudio2 и параметров для XAudio2, встроенного в переглагол. В этом разделе предполагается, что вы создали звуковую диаграмму, как описано в статье [как создать базовый график обработки звука](how-to--build-a-basic-audio-processing-graph.md). Если вы еще не создали звуковую диаграмму, [**X3DAudioInitialize**](/windows/desktop/api/x3daudio/nf-x3daudio-x3daudioinitialize) завершится ошибкой.
+В этом разделе показано, как интегрировать X3DAudio с XAudio2. X3DAudio можно использовать для предоставления значений громкости и высоты для голосов XAudio2 и параметров для XAudio2, встроенного в переглагол. В этом разделе предполагается, что вы создали звуковую диаграмму, как описано в статье [как создать базовый Graph обработки звука](how-to--build-a-basic-audio-processing-graph.md). Если вы еще не создали звуковую диаграмму, [**X3DAudioInitialize**](/windows/desktop/api/x3daudio/nf-x3daudio-x3daudioinitialize) завершится ошибкой.
 
 **Инициализация X3DAudio**
 
@@ -61,7 +61,7 @@ ms.locfileid: "103815280"
     
 
     > [!Note]  
-    > Используйте [**IXAudio2Voice:: жетвоицедетаилс**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2voice-getvoicedetails) на главном голоса, чтобы получить число Инпутчаннелс для **нчаннелс**. Для пакетов SDK для DirectX версии XAUDIO2 до Windows 8 используйте IXAudio2:: Жетдевицедетаилс.
+    > Используйте [**IXAudio2Voice:: жетвоицедетаилс**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2voice-getvoicedetails) на главном голоса, чтобы получить число Инпутчаннелс для **нчаннелс**. для версий пакета SDK для DirectX XAUDIO2 до Windows 8 используйте IXAudio2:: жетдевицедетаилс.
 
      
 
@@ -122,7 +122,7 @@ ms.locfileid: "103815280"
 
     
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

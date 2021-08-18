@@ -4,12 +4,12 @@ ms.assetid: 384bdeaa-5360-42af-9f95-b791af2dcafc
 title: Пропорции рисунка
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74e81f1b8e26af753a5c8c1bc7ecb09d8a658582
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 71ae59cf213a9d44c9075f33be4bd422b81ced6dea270cf4fc9408990442529e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972986"
 ---
 # <a name="picture-aspect-ratio"></a>Пропорции рисунка
 
@@ -24,7 +24,7 @@ ms.locfileid: "104263499"
     -   [Поиск отображаемой области](#finding-the-display-area)
     -   [Преобразование между пропорциями в пикселях](#converting-between-pixel-aspect-ratios)
     -   [Вычисление области Леттербокс](#calculating-the-letterbox-area)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="picture-aspect-ratio"></a>Пропорции рисунка
 
@@ -290,7 +290,7 @@ RECT LetterBoxRect(const RECT& rcSrc, const RECT& rcDst)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

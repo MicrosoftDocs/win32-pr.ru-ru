@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 39174c27043f62de4c1a78685876e79de513b804
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7c305731c44fe779ca64edb502c64eac92e5b61e381748fe6b6bccf38fc51cca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104143360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118983634"
 ---
 # <a name="apijetbeginsession-method"></a>API. Жетбегинсессион, метод
 
@@ -93,7 +93,7 @@ public static void JetBeginSession(
     
     Параметр не используется.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

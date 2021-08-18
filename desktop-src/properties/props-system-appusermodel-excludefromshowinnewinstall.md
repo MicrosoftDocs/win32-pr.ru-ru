@@ -1,22 +1,22 @@
 ---
-description: Предотвращает получение выделенной записи в меню "Пуск" для вновь установленного ярлыка приложения.
+description: предотвращает получение выделения в записи меню для вновь установленного ярлыка приложения.
 ms.assetid: ff85da6f-a506-4225-8ac9-4a8a7be8d599
 title: System. Аппусермодел. Ексклудефромшовинневинсталл
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 206cbbc6b07b0d3fec5833c046d4cb44c1e5e4e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba75b28b789fd9972eb484797957601dbcb5e93694b469eeb8b81bf9ba198d13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970903"
 ---
 # <a name="systemappusermodelexcludefromshowinnewinstall"></a>System. Аппусермодел. Ексклудефромшовинневинсталл
 
 Предотвращает получение выделенной записи в меню " **Пуск** " для вновь установленного ярлыка приложения. Это эквивалентно сбросу параметра **выделить недавно установленные программы** в окне **Настройка меню "Пуск** " для отдельного элемента. Это свойство должно быть задано для сочетаний клавиш для средств и вторичных приложений.
 
 > [!Note]  
-> Это свойство используется только в меню Пуск в Windows Vista и Windows 7. Свойство не используется начальным экраном или меню "Пуск" в Windows 8 и более поздних версиях
+> это свойство используется только меню в Windows Vista и Windows 7. свойство не используется начальным экраном или меню в Windows 8 и более поздних версиях
 
  
 
@@ -38,11 +38,11 @@ propertyDescription
       IsInnate = false
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

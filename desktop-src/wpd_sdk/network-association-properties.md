@@ -1,5 +1,5 @@
 ---
-description: Портативные устройства Windows поддерживают следующие свойства ассоциации сети.
+description: Windows Портативные устройства поддерживают следующие свойства ассоциации сети.
 ms.assetid: 5e1b3e8d-9620-4b68-b7ef-1642404ed6ed
 title: Свойства ассоциации сети (Портабледевице. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 41e40e456d4671d1aa8fb190274afd2f5ace98b9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ebad4534976d14e6b620a8e42b70e8ece68022201cec5235295d199e453ef818
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118963533"
 ---
 # <a name="network-association-properties"></a>Свойства сетевой ассоциации
 
-Портативные устройства Windows поддерживают следующие свойства ассоциации сети.
+Windows Портативные устройства поддерживают следующие свойства ассоциации сети.
 
 
 
@@ -35,13 +35,13 @@ ms.locfileid: "105704491"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Портабледевице. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Портабледевице. h</dt> </dl> |
 
 
 

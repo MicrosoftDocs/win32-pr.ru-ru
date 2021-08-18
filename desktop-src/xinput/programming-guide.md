@@ -1,19 +1,19 @@
 ---
 title: Программное руководством (API игрового контроллера Ксинпут)
-description: Это руководство содержит сведения о том, как использовать API Ксинпут для взаимодействия с контроллером Xbox при подключении к компьютеру под управлением Windows.
+description: это руководство содержит сведения об использовании API ксинпут для взаимодействия с контроллером Xbox при подключении к Windows пк.
 ms.assetid: 5eca9b7f-b3a8-6ee7-fbfb-69cfcc73a8e8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63d6fea796780404402cf14e59756e369ee0954c
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 68f160fd5aebb4fa5eda00b2b795d0b27f8eefd77fd2dfe1c7935db551e62330
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104340200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962483"
 ---
 # <a name="programming-guide-xinput-game-controller-apis"></a>Программное руководством (API игрового контроллера Ксинпут)
 
-Это руководство содержит сведения о том, как использовать API Ксинпут для взаимодействия с контроллером Xbox при подключении к компьютеру под управлением Windows.
+это руководство содержит сведения об использовании API ксинпут для взаимодействия с контроллером Xbox при подключении к Windows пк.
 
 - [Начало работы с ксинпут](getting-started-with-xinput.md) . Этот раздел содержит описание ксинпут и описывает, как приступить к работе с ксинпут в приложении.
 - [Ксинпут версии](xinput-versions.md) — этот раздел содержит сведения о версиях ксинпут.

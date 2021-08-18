@@ -3,7 +3,7 @@ title: Свойство Application. views
 description: Представляет контейнер для каждого представления платформы ленты, в частности Ribbon и Контекстпопуп.
 ms.assetid: e7549b8b-0f95-477a-9024-1a99ee1412c2
 keywords:
-- Лента Windows для свойства Application. views
+- свойство Application. views Windows лента
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 57e7d106d346a790ee3bd8879b2367f38341f0a9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fe063397698a74da0421cf0c9c3b2ef46861f1477e0f4ac99fe5d6e6063c7251
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105701051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964313"
 ---
 # <a name="applicationviews-property"></a>Свойство Application. views
 
@@ -52,11 +52,11 @@ ms.locfileid: "105701051"
 
 | Элемент                                                             |
 |---------------------------------------------------------------------|
-| [**Приложение**](windowsribbon-element-application.md)<br/> |
+| [**Развертывание**](windowsribbon-element-application.md)<br/> |
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обязательный.
 
@@ -98,14 +98,14 @@ ms.locfileid: "105701051"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>              |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>              |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/> |
 
 
 

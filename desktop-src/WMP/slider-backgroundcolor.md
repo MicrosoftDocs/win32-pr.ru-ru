@@ -3,7 +3,7 @@ title: ПОЛЗУНок. backgroundColor
 description: Атрибут backgroundColor указывает или получает цвет фона элемента управления "ползунок".
 ms.assetid: 8f2c48ec-29f5-4fbe-aa62-c7cfb8a8678c
 keywords:
-- ПОЛЗУНок. backgroundColor Windows Media Player
+- проигрыватель Windows Media SLIDER. backgroundColor
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 06cc595af13b28541fcc570e130da4e804fdeafe
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4fc2de30392c58cfad151e2d3c209f0407880a47522a536bf08dbe42d7f56dc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105656942"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995234"
 ---
 # <a name="sliderbackgroundcolor"></a>ПОЛЗУНок. backgroundColor
 
@@ -31,7 +31,7 @@ ms.locfileid: "105656942"
 
 Этот атрибут является **строкой** для чтения и записи, содержащей любое значение цвета Microsoft Internet Explorer. У него нет значения по умолчанию.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Базовый элемент управления "ползунок" может быть создан путем указания **backgroundColor** или **backgroundImage**, а также **foregroundColor** или **фореграундимаже**.
 
@@ -47,7 +47,7 @@ ms.locfileid: "105656942"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

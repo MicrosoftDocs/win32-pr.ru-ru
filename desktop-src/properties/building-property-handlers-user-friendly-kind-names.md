@@ -4,12 +4,12 @@ ms.assetid: 1466b4c7-49ea-417a-ac94-7b45515ccb96
 title: Использование имен видов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dca36d7c1de587efd8d96f0c18aaca9457721714
-ms.sourcegitcommit: ecd0ba4732f5264aab9baa2839c11f7fea36318f
+ms.openlocfilehash: 38d5f1432e7680cfed63c2c210375f3b7a300fae4563ca308a3b25b8751fb139
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "113481879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971103"
 ---
 # <a name="using-kind-names"></a>Использование имен видов
 
@@ -20,7 +20,7 @@ ms.locfileid: "113481879"
 -   [Сведения о свойстве System. Kind](#about-the-systemkind-property)
 -   [Иерархия и регистрация значения типа](#kind-value-hierarchy-and-registration)
 -   [Дополнительные ресурсы](#additional-resources)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="about-the-systemkind-property"></a>Сведения о свойстве System. Kind
 

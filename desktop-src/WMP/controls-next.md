@@ -3,9 +3,9 @@ title: Метод Controls. Next
 description: Следующий метод задает текущий элемент для следующего элемента списка воспроизведения.
 ms.assetid: 67436c76-8fb9-4350-86f3-67f5e9e6dca1
 keywords:
-- Следующий метод проигрывателя Windows Media
-- 'Следующий метод: проигрыватель Windows Media, класс Controls'
-- Класс управляет проигрывателем Windows Media Player, метод Next
+- следующий метод проигрыватель Windows Media
+- следующий метод проигрыватель Windows Media, класс controls
+- класс элементов управления проигрыватель Windows Media, метод next
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f58e6d11eafe38b4ab26e0275bd5c986cd4e4a4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 83a40c063163b0dadaa3db2d0d6281ace64312f68ee999763e6b27d4bd98f84d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699217"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997474"
 ---
 # <a name="controlsnext-method"></a>Метод Controls. Next
 
@@ -44,7 +44,7 @@ Controls.next()
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если список воспроизведения находится в последней записи при вызове **Next** , первая запись списка воспроизведения станет текущей.
 
@@ -78,7 +78,7 @@ Controls.next()
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

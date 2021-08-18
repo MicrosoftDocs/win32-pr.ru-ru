@@ -4,24 +4,24 @@ ms.assetid: 51df3fb9-416d-46b8-b3a7-0281401fb390
 title: Рекомендации по минимизации неотвечающих служб
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90416e8256383e16fd78c436dfaa8d6a2186c540
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 61cf3f37620fc00834b3c25a92292c889785818c2810cac7c12e788de8bf1fb0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994854"
 ---
 # <a name="best-practices-for-minimizing-unresponsive-services"></a>Рекомендации по минимизации неотвечающих служб
 
 ## <a name="affected-platform"></a>Затронутая платформа
 
- **Клиенты** — Windows Vista \| Windows 7  
+ **клиенты** — Windows Vista \| Windows 7  
 
 ## <a name="description"></a>Описание
 
 Неотвечающие службы могут привести к превышению времени ожидания, прекращению сеансов и даже потере данных. Применение рекомендаций может значительно сократить количество нереагирующих служб.
 
-## <a name="best-practices"></a>Рекомендации
+## <a name="best-practices"></a>Советы и рекомендации
 
 Убедитесь, что приложения и все зависимые от них службы и драйверы отвечают на уведомления о питании и завершении работы системы.
 

@@ -3,7 +3,7 @@ title: Элемент COPYRIGHT (Мсфидс. h)
 description: Элемент COPYRIGHT определяет текстовую строку, указывающую сведения об авторских правах для элемента ASX или ENTRY.
 ms.assetid: 264b92de-b10c-41b9-b219-727879079f15
 keywords:
-- Проигрыватель Windows Media, элемент об АВТОРских правах
+- элемент COPYRIGHT проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 83b757528cfb14a01854346854a342ee9faced65
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8e5a01e97364aa47182e38e3e3066895c771e2d5edb6c480e8108cb168e7f8cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997464"
 ---
 # <a name="copyright-element"></a>Элемент COPYRIGHT
 
@@ -68,28 +68,28 @@ ms.locfileid: "105698788"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/>                                 |
-| Header<br/>  | <dl> <dt>Мсфидс. h</dt> </dl> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/>                                 |
+| Заголовок<br/>  | <dl> <dt>Мсфидс. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [**Добавление символов авторского права в метафайлы**](adding-copyright-characters-to-metafiles.md)
 </dt> <dt>
 
-[**Справочник по элементам метафайлов Windows Media**](windows-media-metafile-elements-reference.md)
+[**Windows Справочник по элементам метафайлов мультимедиа**](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[**Справочник по метафайлу Windows Media**](windows-media-metafile-reference.md)
+[**Windows Ссылка на метафайл мультимедиа**](windows-media-metafile-reference.md)
 </dt> </dl>
 
  

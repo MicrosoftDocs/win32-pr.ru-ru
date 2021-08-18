@@ -1,6 +1,6 @@
 ---
-title: Общая конфигурация для всех потоков
-description: Общая конфигурация для всех потоков
+title: общая конфигурация для всех Потоки
+description: общая конфигурация для всех Потоки
 ms.assetid: 63e655b7-a4ef-4580-a0f3-03cedd2cbf9a
 keywords:
 - профили, конфигурации, общие для всех потоков
@@ -10,14 +10,14 @@ keywords:
 - потоки, числа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f1a398256da99092da45e83ebc91de713f9ab71
-ms.sourcegitcommit: c2a1c4314550ea9bd202d28adfcc7bfe6180932f
+ms.openlocfilehash: 89e8b58e97ce2add4b6ff139aebacbc6d510af4424b2d3ae2bff3ea4577c429b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "104412723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964183"
 ---
-# <a name="configuration-common-to-all-streams"></a>Общая конфигурация для всех потоков
+# <a name="configuration-common-to-all-streams"></a>общая конфигурация для всех Потоки
 
 Всем потокам, независимо от типа, следует назначить имя потока, имя соединения и номер потока.
 
@@ -27,19 +27,19 @@ ms.locfileid: "104412723"
 
 Номер потока определяет поток внутри файла. В отличие от входных и выходных номеров, Номера потоков начинаются с 1, а не 0. Номер потока отличается от индекса потока, который используется при получении потоков в профиле с помощью [**ивмпрофиле::-Stream**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile-getstream). Индекс потока — это число, присвоенное потоку объектом Profile. Индексы потоков находятся в диапазоне от 0 до числа потоков, полученных с помощью [**ивмпрофиле:: жетстреамкаунт**](/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-getstreamcount). Номера потоков не должны быть последовательными, хотя обычно они и могут находиться в диапазоне от 1 до 63. Вы можете задать номер потока, вызвав [**ивмстреамконфиг:: сетстреамнумбер**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstreamconfig-setstreamnumber).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[**Настройка потоков**](configuring-streams.md)
+[**настройка Потоки**](configuring-streams.md)
 </dt> <dt>
 
-[**Входы, потоки и выходные данные**](inputs-streams-and-outputs.md)
+[**входные данные, Потоки и выходные данные**](inputs-streams-and-outputs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
