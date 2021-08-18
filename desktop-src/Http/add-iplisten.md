@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6090d3044be134035edb5f1f42a9790859d0301d
-ms.sourcegitcommit: 243954e695c6ab5372b2935b095c3cd0b1202e16
+ms.openlocfilehash: 2133a3f590c46c9e27b518d7621c158b86895961acb07670f6603e03513d1cc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "103987247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014982"
 ---
 # <a name="add-iplisten"></a>add iplisten
 
@@ -39,7 +39,7 @@ add iplisten [ ipaddress=] IPAddress
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Добавляет новый IP-адрес в список прослушивания IP-адресов. Это не распространяется на номер порта. Список прослушивания IP-адресов используется для определения области списка адресов, к которым привязывается служба HTTP. "0.0.0.0" означает любой IPv4-адрес, а "::" — любой IPv6-адрес.
 
@@ -53,9 +53,9 @@ add iplisten [ ipaddress=] IPAddress
 
 **add iplisten ipaddress=::**
 
- 
+ 
 
- 
+ 
 
 
 

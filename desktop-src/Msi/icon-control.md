@@ -1,15 +1,15 @@
 ---
 description: Элемент управления "значок" отображает статическое изображение значка. Фон изображения прозрачен.
 ms.assetid: a2d19093-73d0-4e1f-bf82-21e7334a3f34
-title: Элемент управления "значок" (установщик Windows)
+title: элемент управления "значок" (установщик Windows)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a9bf90697ff3a839c1953918179fb8cf41f2809
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6ce6d1dca9e6664018a0c7a36c9b44f3b5a0b6310bc8c6d18309b73649fa9240
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104540250"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996714"
 ---
 # <a name="icon-control"></a>Значок элемента управления
 
@@ -34,7 +34,7 @@ ms.locfileid: "104540250"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот элемент управления можно создать из статического класса с помощью функции [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) . В нем есть **\_ значки SS**, **SS \_ Центеримаже**, **WS \_ Child** и **WS \_ Group** .
 

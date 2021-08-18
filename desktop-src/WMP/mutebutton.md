@@ -3,7 +3,7 @@ title: мутебуттон
 description: Это предопределенная кнопка со следующими значениями по умолчанию. | мутебуттон
 ms.assetid: eee00161-c0c4-4e26-a7d2-6357034fcdfd
 keywords:
-- МУТЕБУТТОН Windows Media Player
+- мутебуттон проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: faa89e7a4497500076bea8a31d7b803dff9a379e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4f23cea94bfbc6e57807df26512423b530c826411aadd2cd8466b54230d9c23b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105647941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996134"
 ---
 # <a name="mutebutton"></a>мутебуттон
 
@@ -32,21 +32,21 @@ down="wmpprop:player.settings.mute"
 sticky="true"
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При этом создается элемент управления **"Кнопка"** , который будет выгружать звук и без звука. Всплывающие подсказки локализованы. Все свойства этой **кнопки** можно переопределить, явно указав их.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 7,0 или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 7,0 или более поздней версии<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

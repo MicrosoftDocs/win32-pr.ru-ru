@@ -82,7 +82,7 @@ typedef enum D3DDEGREETYPE {
 
 Значения в этом перечислении используются для описания кривых, используемых в обновлениях прямоугольника и треугольника. Дополнительные сведения см. в разделе D3DRS \_ куллмоде.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -92,7 +92,7 @@ typedef enum D3DDEGREETYPE {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

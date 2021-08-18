@@ -70,13 +70,13 @@ HRESULT GetOrdinal(
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                   |
 | Окончание поддержки клиента<br/>    | Windows 2000 Professional<br/>                                                   |
 | Поддержка конца сервера<br/>    | Windows 2000 Server<br/>                                                         |
-| Header<br/>                   | <dl> <dt>Мсидент. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Мсидент. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Мсидент. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Msident.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

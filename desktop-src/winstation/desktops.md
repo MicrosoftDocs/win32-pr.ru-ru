@@ -6,12 +6,12 @@ keywords:
 - объекты рабочего стола
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44ca0b390ec4d34cc943c9d18d958cdea6466634
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5b763c05c3d45c701da0bdd606fa906dec3f8af07ce72d256b402e7df5d9319b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105710315"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119587354"
 ---
 # <a name="desktops"></a>Настольные системы
 
@@ -39,6 +39,6 @@ ms.locfileid: "105710315"
 -   [Подключение потока к рабочему столу](thread-connection-to-a-desktop.md)
 -   [Безопасность настольных систем и права доступа](desktop-security-and-access-rights.md)
 
- 
+ 
 
- 
+ 

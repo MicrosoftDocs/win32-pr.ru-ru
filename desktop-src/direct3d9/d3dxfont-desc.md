@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9core.h
-ms.openlocfilehash: d7c142787e4e4fac5be53763a3c19fd86a27efd9
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b458d9c3575993dd3d478f886d0b71b3cd5c1af0a53330b0813deafa188ac4c9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105720891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119728544"
 ---
 # <a name="d3dxfont_desc-structure"></a>\_Структура D3DXFONT DESC
 
@@ -158,7 +158,7 @@ typedef struct D3DXFONT_DESC {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Параметр компилятора также определяет тип структуры. Если определен Юникод, \_ тип структуры D3DXFONT DESC разрешается в D3DXFONT \_ дескв; в противном случае тип структуры разрешается в D3DXFONT \_ DESC.
 
@@ -170,7 +170,7 @@ typedef struct D3DXFONT_DESC {
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx9core. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx9core. h</dt> </dl> |
 
 
 

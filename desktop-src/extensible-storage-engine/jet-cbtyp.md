@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0b01bafad091ed17e018793ea701596aef6d0d72
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa797fac58b0a2663c918e7fef739c6c5ab536dcfa9dc91be13b8196aed5ef43
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119945914"
 ---
 # <a name="jet_cbtyp"></a>JET_CBTYP
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jet_cbtyp"></a>JET_CBTYP
 
@@ -191,7 +191,7 @@ _**Применимо к:** Windows | Windows Server_
 <tr class="odd">
 <td><p>JET_cbtypFreeCursorLS<br />
 0x00000200</p></td>
-<td><p>Этот обратный вызов происходит, когда приложению необходимо очистить контекстный обработчик для локального хранилища, связанного с курсором, который освобождается ядром СУБД. Дополнительные сведения см. в разделе <a href="gg269243(v=exchg.10).md">жетсетлс</a>.</p>
+<td><p>этот обратный вызов происходит, когда приложению необходимо очистить контекстный обработчик для локального служба хранилища, связанного с курсором, который освобождается ядром субд. Дополнительные сведения см. в разделе <a href="gg269243(v=exchg.10).md">жетсетлс</a>.</p>
 <p>Указатель на функцию для этой причины обратного вызова настроен с помощью <a href="gg294044(v=exchg.10).md">жетсетсистемпараметер</a> с <a href="gg269310(v=exchg.10).md">JET_paramRuntimeCallback</a>.</p>
 <p>Параметры обратного вызова будут иметь следующие значения:</p>
 <ul>
@@ -208,7 +208,7 @@ _**Применимо к:** Windows | Windows Server_
 <tr class="even">
 <td><p>JET_cbtypFreeTableLS<br />
 0x00000400</p></td>
-<td><p>Этот обратный вызов будет выполняться в результате необходимости в приложении очистить контекстный обработчик для локального хранилища, связанного с таблицей, которая освобождается ядром СУБД. Дополнительные сведения см. в разделе <a href="gg269243(v=exchg.10).md">жетсетлс</a>.</p>
+<td><p>этот обратный вызов будет выполняться в результате необходимости в приложении очистить контекстный обработчик для локального служба хранилища, связанного с таблицей, которая освобождается ядром субд. Дополнительные сведения см. в разделе <a href="gg269243(v=exchg.10).md">жетсетлс</a>.</p>
 <p>Указатель на функцию для этой причины обратного вызова настроен с помощью <a href="gg294044(v=exchg.10).md">жетсетсистемпараметер</a> с <a href="gg269310(v=exchg.10).md">JET_paramRuntimeCallback</a>.</p>
 <p>Параметры обратного вызова будут иметь следующие значения:</p>
 <ul>
@@ -226,7 +226,7 @@ _**Применимо к:** Windows | Windows Server_
 </table>
 
 
-### <a name="requirements"></a>Требования
+### <a name="requirements"></a>Requirements (Требования)
 
 <table>
 <colgroup>
@@ -236,11 +236,11 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista или Windows XP.</p></td>
+<td><p>требуется Windows Vista или Windows XP.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008 или Windows Server 2003.</p></td>
+<td><p><strong>Сервер</strong></p></td>
+<td><p>требуется Windows server 2008 или Windows server 2003.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>

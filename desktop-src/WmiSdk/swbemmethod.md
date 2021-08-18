@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 055957bf2774fc1e5c2e1f0149b00ece7b0a1bea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c750e81a3e41450e8cd32f37ccab6fee2f08439c6bc8fc8ae18bf0e4f106b551
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104544674"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119732664"
 ---
 # <a name="swbemmethod-object"></a>Объект Свбеммесод
 
@@ -39,7 +39,7 @@ ms.locfileid: "104544674"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Объект **свбеммесод** имеет следующие свойства.
 
@@ -49,7 +49,7 @@ ms.locfileid: "104544674"
 |:--------------------------------------------------------------|:---------------------|:-----------------------------------------------------------------------------------------------------------------------------------|
 | [**Параметры**](swbemmethod-inparameters.md)<br/>   | Только для чтения<br/> | Объект [**SWbemObject**](swbemobject.md) , свойства которого определяют входные параметры для этого метода.<br/>              |
 | [**Имя**](swbemmethod-name.md)<br/>                   | Только для чтения<br/> | Имя метода.<br/>                                                                                                     |
-| [**Лета**](swbemmethod-origin.md)<br/>               | Только для чтения<br/> | Исходный класс метода.<br/>                                                                                        |
+| [**Исходный домен**](swbemmethod-origin.md)<br/>               | Только для чтения<br/> | Исходный класс метода.<br/>                                                                                        |
 | [**Параметры**](swbemmethod-outparameters.md)<br/> | Только для чтения<br/> | Объект [**SWbemObject**](swbemobject.md) , свойства которого определяют выходные параметры и тип возвращаемого значения этого метода.<br/> |
 | [**Квалификаторы\_**](swbemmethod-qualifiers-.md)<br/>    | Только для чтения<br/> | Объект [**свбемкуалифиерсет**](swbemqualifierset.md) , содержащий квалификаторы для данного метода.<br/>                  |
 
@@ -65,7 +65,7 @@ ms.locfileid: "104544674"
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
 | Библиотека типов<br/>             | <dl> <dt>Wbemdisp. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | \_СВБЕММЕСОД CLSID<br/>                                                           |

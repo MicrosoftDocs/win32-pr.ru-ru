@@ -4,20 +4,20 @@ description: Процесс удаления резервирования нач
 ms.assetid: f22153c6-718d-41e4-801b-182ed1cef3f3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ddc6dad7539859352e5f3ec9795c6963457cdef2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fea8ef6cc82e5210a675929151dc4d4b3a2d7b383a5b3d546669634ec3ac6b55
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986266"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014862"
 ---
 # <a name="deleting-a-reservation"></a>Удаление резервирования
 
 Процесс удаления резервирования начинается с проверки доступа, которая идентична описанной выше. Идентификатор пользователя вызывающего процесса должен иметь права доступа к *родительскому узлу* удаляемой записи резервирования.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -89,7 +89,7 @@ public static void MakeKey(
     
     Ключевые параметры.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

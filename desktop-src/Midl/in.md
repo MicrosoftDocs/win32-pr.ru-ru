@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b606a834b394197960777fa485d112a94212ec45
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: fb78ad08dd5ba5494181d3fb2adecb7a8441e4716c42ba6cd4f1c119b3ccb046
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103791376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067234"
 ---
 # <a name="in-attribute"></a>in - атрибут
 
@@ -75,7 +75,7 @@ ms.locfileid: "103791376"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Атрибут **\[ in \]** имеет инверсный атрибут, **\[** [](out-idl.md) **\]** который указывает, что параметр должен возвращаться из вызванной процедуры в вызывающую процедуру. Атрибуты **\[ in \]** и **\[ out \]** называются атрибутами двунаправленного параметра, так как они указывают направление, в котором передаются параметры. Параметр может быть определен как **\[ in \]**, **\[ \] out** или **\[ in**. **\]**
 
@@ -102,6 +102,6 @@ HRESULT MyFunction([in] short count);
 [**заполняет**](out-idl.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

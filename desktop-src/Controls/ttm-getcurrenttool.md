@@ -3,7 +3,7 @@ title: Сообщение TTM_GETCURRENTTOOL (Коммктрл. h)
 description: Извлекает сведения о текущем инструменте в элементе управления ToolTip.
 ms.assetid: acb254cf-064c-4ed8-b488-a3138b648405
 keywords:
-- Элементы управления Windows для TTM_GETCURRENTTOOL сообщений
+- элементы управления Windows сообщений TTM_GETCURRENTTOOL
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fa6218bcb4ad9aa43c7ffba0d332786956d9a62
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4558e582e4619cd7d96380a1e38e2efe68808b9241e4c627e12a74946965d8de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988677"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119769344"
 ---
 # <a name="ttm_getcurrenttool-message"></a>\_Сообщение ТТМ жеткурренттул
 
@@ -51,9 +51,9 @@ ms.locfileid: "103988677"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **ТТМ \_ ЖЕТКУРРЕНТТУЛВ** (Юникод) и **ТТМ \_ жеткурренттула** (ANSI)<br/>     |
 
 

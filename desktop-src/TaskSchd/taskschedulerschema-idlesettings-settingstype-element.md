@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 5ae8b7953f31d7e9c6f01387d3136f01d8ab697a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fc0a4c3fc978c93d13be8faa62012d3928d47da5b5a214ce50f5506992f1fc8d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119991223"
 ---
 # <a name="idlesettings-settingstype-element"></a>Идлесеттингс (Сеттингстипе), элемент
 
@@ -51,7 +51,7 @@ ms.locfileid: "104136926"
 | **Устарело**: [ **Продолжительность**](taskschedulerschema-duration-idlesettingstype-element.md)                | длительность | Указывает, как долго компьютер должен находиться в состоянии простоя перед выполнением задачи.<br/>                              |
 | Не **рекомендуется**: [ **ваиттимеаут**](taskschedulerschema-waittimeout-idlesettingstype-element.md)          | длительность | Указывает период времени, в течение которого планировщик задач будет ожидать наступления условия простоя.<br/>                |
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для разработки скриптов параметры простоя указываются с помощью свойства [**тасксеттингс. идлесеттингс**](tasksettings-idlesettings.md) .
 
@@ -73,14 +73,14 @@ ms.locfileid: "104136926"
 </Settings>
 ```
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 [планировщик задач элементы схемы](task-scheduler-schema-elements.md)
 

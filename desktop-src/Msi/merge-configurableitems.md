@@ -42,14 +42,14 @@ propVal = Merge.ConfigurableItems
 
 См. раздел [**Получение функции \_ конфигураблеитемс**](/windows/desktop/api/Mergemod/nf-mergemod-imsmmerge2-get_configurableitems) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Версия<br/> | Mergemod.dll 2,0 или более поздней версии<br/>                                                    |
-| Header<br/>  | <dl> <dt>Мержемод. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Мержемод. h</dt> </dl>   |
 | DLL<br/>     | <dl> <dt>Mergemod.dll</dt> </dl> |
 
 

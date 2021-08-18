@@ -4,12 +4,12 @@ ms.assetid: d7acb2cc-28b0-4314-99fd-4e7eded22122
 title: Команда WPD_COMMAND_MTP_EXT_READ_DATA (Впдмтпекстенсионс. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4671101ee9be6e355a4e64d2a467d83d0028db69
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c5aeee37e1922f91e9a9fac7881369364d01340893829678a5651f89ed428440
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119927954"
 ---
 # <a name="wpd_command_mtp_ext_read_data-command"></a>Команда WPD, \_ \_ \_ команда MTP ext \_ Read \_ Data
 
@@ -60,7 +60,7 @@ ms.locfileid: "105708379"
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Впдмтпекстенсионс. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Впдмтпекстенсионс. h</dt> </dl> |
 
 
 

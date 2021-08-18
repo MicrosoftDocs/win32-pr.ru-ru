@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: 7dc237e5cdba120a08899035dc20f6fb6b2b63f6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9c58569554cf9170788524bdcb233bf42b3318f1e954050bb713711c93337543
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119928464"
 ---
 # <a name="iportabledevicevaluessetunsignedintegervalue-method"></a>Метод Ипортабледевицевалуес:: Сетунсигнединтежервалуе
 
@@ -69,7 +69,7 @@ HRESULT SetUnsignedIntegerValue(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если существующее значение имеет тот же ключ, что и параметр *Key* , он перезаписывает существующее значение без предупреждения.
 
@@ -83,7 +83,7 @@ HRESULT SetUnsignedIntegerValue(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Портабледевицетипес. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Портабледевицетипес. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>Портабледевицегуидс. lib</dt> </dl> |
 
 

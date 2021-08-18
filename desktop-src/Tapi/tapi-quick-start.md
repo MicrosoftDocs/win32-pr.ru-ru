@@ -4,12 +4,12 @@ ms.assetid: 4f0710ee-500d-49ff-bc70-923dd7afb1f7
 title: Быстрое начало TAPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0343063e83097ab43b196713db36ece9d5cbfa2e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ddb08dfef88bc8f2a5d1d8f93db81a24aa3ffa89b7e9c78a83bdcdc2689b0de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002692"
 ---
 # <a name="tapi-quick-start"></a>Быстрое начало TAPI
 
@@ -23,14 +23,14 @@ ms.locfileid: "103998989"
 
 ## <a name="code-samples"></a>Примеры кода
 
-Раздел примеров Windows SDK содержит полностью компилируемые программы TAPI на языках C, C++ и Visual Basic. Эти примеры помогут понять различные функции. Точное расположение материала зависит от наличия полной установки. Если у вас возникли трудности с их расположением, попробуйте найти входящий. cpp.
+раздел примеров Windows SDK содержит полностью компилируемые программы TAPI на языках C, C++ и Visual Basic. Эти примеры помогут понять различные функции. Точное расположение материала зависит от наличия полной установки. Если у вас возникли трудности с их расположением, попробуйте найти входящий. cpp.
 
 ## <a name="code-examples"></a>Примеры кода
 
 В следующих разделах SDK описываются основные операции TAPI с примерами кода:
 
 -   [Инициализация TAPI](initialize-tapi.md)
--   [Выберите адрес](select-an-address.md)
+-   [Выбор адреса](select-an-address.md)
 -   [Регистрация событий](register-events.md)
 -   [Выберите терминал](select-a-terminal.md)
 -   [Выполнить вызов](make-a-call.md)
@@ -71,7 +71,7 @@ ms.locfileid: "103998989"
 
 [https://msdn.microsoft.com/newsgroups](https://www.microsoft.com/communities/newsgroups/)
 
-В левой области перейдите к разделу разработка Windows, а затем на Windows SDK и выберите Win32. программист. TAPI.
+в левой области перейдите к Windows Development (разработка), а затем — Windows SDK и выберите win32. программист. tapi.
 
  
 

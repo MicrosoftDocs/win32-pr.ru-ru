@@ -4,12 +4,12 @@ ms.assetid: 5d7c8598-2d6b-4839-ae98-dff964bc962c
 title: Функция Декриптмессаже (Schannel)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 6bfbb354be9f3553e5369b8ce1f8b4260eab8ee9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: feec97f9e989270d812458cd61ff34132d118d192108c3f2372b192f2e383464
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103808681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008482"
 ---
 # <a name="decryptmessage-schannel-function"></a>Функция Декриптмессаже (Schannel)
 
@@ -79,7 +79,7 @@ KERB_WRAP_NO_ENCRYPT имеет то же значение и то же само
 | **с повторного \_ \_ согласования**         | Для удаленной стороны требуется новая последовательность подтверждения или приложение только что инициировало завершение работы. Вернитесь к циклу согласования и вызовите [**AcceptSecurityContext (Schannel)**](acceptsecuritycontext--schannel.md) или [**InitializeSecurityContext (Schannel)**](initializesecuritycontext--schannel.md), передайте SECBUFFER_EXTRA, возвращенные из декриптмессаже (). Повторное согласование не поддерживается для режима ядра SChannel. Вызывающий объект должен либо игнорировать это возвращаемое значение, либо завершить соединение. Если значение не пропускается, клиент или сервер могут завершить подключение в результате. |
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Иногда приложение будет считывать данные от удаленной стороны, пытаться расшифровать их с помощью **декриптмессаже (Schannel)** и обнаружить, что **декриптмессаже (Schannel)** закончились, но выходные буферы пусты. Это нормальное поведение, и приложения должны уметь работать с ним.
 
@@ -91,17 +91,17 @@ KERB_WRAP_NO_ENCRYPT имеет то же значение и то же само
 Функция **декриптмессаже (Schannel)** Возвращает секунду, \_ \_ когда отправитель сообщения желает повторно согласовать соединение ([*контекст безопасности*](../secgloss/s-gly.md)). Приложение обрабатывает запрошенное повторное согласование путем вызова [**AcceptSecurityContext (Schannel)**](acceptsecuritycontext--schannel.md) (на стороне сервера) или [**InitializeSecurityContext (Schannel)**](initializesecuritycontext--schannel.md) (на стороне клиента) и передачи SECBUFFER_EXTRA возвращены из декриптмессаже (). После того как этот начальный вызов вернет значение, продолжайте, как будто приложение создает новое соединение. Дополнительные сведения см. в разделе [Создание контекста безопасности SChannel](creating-an-schannel-security-context.md).
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Значение |
 |--------------------------|-------------------------------------------|
-| Минимальная версия клиента | Только для \[ классических приложений Windows XP\]          |
-| Минимальная версия сервера | \[Только для настольных приложений Windows Server 2003\] |
-| Header                   | SSPI. h (включая Security. h)               |
+| Минимальная версия клиента | Windows \[Только классические приложения XP\]          |
+| Минимальная версия сервера | Windows Только для \[ настольных приложений сервера 2003\] |
+| Заголовок                   | SSPI. h (включая Security. h)               |
 | Библиотека                  | Secur32. lib                               |
 | DLL                      | Secur32.dll                               |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Функции SSPI](authentication-functions.md#sspi-functions)
 - [**Енкриптмессаже (Schannel)**](encryptmessage--schannel.md)

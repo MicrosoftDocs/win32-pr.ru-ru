@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: dff1cf243b54739509343d6d8958aa2a54f464b8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 53418dd9f2e259ac2b5f109dac4c783682657a7a9c5ac5e0548e23cbe0fd6be1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664042"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119765614"
 ---
 # <a name="cim_bindstolanendpoint-class"></a>\_Класс CIM биндстоланендпоинт
 
@@ -45,7 +45,7 @@ class CIM_BindsToLANEndpoint : CIM_BindsTo
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ биндстоланендпоинт** имеет следующие свойства.
 

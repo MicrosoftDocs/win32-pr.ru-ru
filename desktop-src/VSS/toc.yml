@@ -7,11 +7,11 @@
         - name: Новые возможности VSS
           href: what-s-new-in-vss.md
           items:
-            - name: Новые возможности VSS в Windows Server 2008 R2 и Windows 7
+            - name: новые возможности VSS в Windows Server 2008 R2 и Windows 7
               href: what-s-new-in-vss-in-windows-server-2008-r2-and-windows-7.md
-            - name: Новые возможности VSS в Windows Server 2008 и Windows Vista SP1
+            - name: новые возможности VSS в Windows Server 2008 и Windows Vista с пакетом обновления 1 (SP1)
               href: what-s-new-in-vss-in-windows-server-2008-and-windows-vista-sp1.md
-            - name: Новые возможности VSS в Windows Vista
+            - name: новые возможности VSS в Windows Vista
               href: what-s-new-in-vss-in-windows-vista.md
               items:
                 - name: Совместимость приложений для резервного копирования и восстановления
@@ -25,20 +25,20 @@
                       href: working-with-file-system-and-security-features.md
                     - name: Точки соединения
                       href: junction-points.md
-            - name: Новые возможности VSS в Windows Server 2003 с пакетом обновления 1 (SP1)
+            - name: новые возможности VSS в Windows Server 2003 с пакетом обновления 1 (SP1)
               href: what-s-new-in-vss-in-windows-server-2003-sp1.md
-            - name: Новые возможности VSS в Windows Server 2003
+            - name: новые возможности VSS в Windows Server 2003
               href: what-s-new-in-vss-in-windows-server-2003.md
               items:
-                - name: Сводка изменений API VSS в Windows Server 2003
+                - name: сводка изменений API VSS в Windows Server 2003
                   href: summary-of-vss-api-changes-in-the-current-release.md
-                - name: 'Новые функции, доступные в Windows Server 2003'
+                - name: 'новые функции, доступные в Windows Server 2003'
                   href: new-functionality-available-in-the-current-release.md
-                - name: 'Функции, удаленные из Windows Server 2003'
+                - name: 'функции, удаленные с Windows Server 2003'
                   href: functionality-removed-from-the-current-release.md
-                - name: Семантические изменения в Windows Server 2003
+                - name: семантические изменения в Windows Server 2003
                   href: semantic-changes-to-the-current-release.md
-                - name: Ограничения в Windows Server 2003
+                - name: ограничения в Windows Server 2003
                   href: restrictions-in-the-current-release-of-vss.md
         - name: Сведения о служба теневого копирования томов
           href: about-the-volume-shadow-copy-service.md
@@ -271,7 +271,7 @@
               items:
                 - name: Остановка служб для восстановления с помощью инициаторов запроса
                   href: stopping-services-for-restore-by-requestors.md
-                - name: Резервное копирование и восстановление состояния системы в Windows Server 2003 R2 и Windows Server 2003 SP1
+                - name: резервное копирование и восстановление состояния системы в Windows server 2003 R2 и Windows server 2003 SP1
                   href: backing-up-and-restoring-system-state-under-vss.md
                 - name: Использование автоматического восстановления системы VSS для аварийного восстановления
                   href: using-vss-automated-system-recovery-for-disaster-recovery.md

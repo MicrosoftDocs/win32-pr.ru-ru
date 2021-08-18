@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 584e54c487ec24a3c165fdd5eb8e22f243e07f23
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: df50f9a536b367b203f395d9c856562b8967d8a5830704a2e9bbb4c69152f202
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103802734"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119058822"
 ---
 # <a name="imstscaxeventsonremoteprogramdisplayed-method"></a>Метод Имстскаксевентс:: Онремотепрограмдисплайед
 
@@ -84,7 +84,7 @@ VOID OnRemoteProgramDisplayed(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Реализуйте этот метод в приемнике событий, чтобы получить уведомление о том, что приложение RemoteApp отображается.
 

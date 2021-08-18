@@ -3,7 +3,7 @@ title: Controls. currentItem
 description: Свойство currentItem указывает или получает текущий элемент мультимедиа.
 ms.assetid: 77e21585-3cc8-41f5-97b5-da6eb992c7bc
 keywords:
-- Проигрыватель Windows Media Controls. currentItem
+- controls. currentItem проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 81658665cb6f31acd327f5050a733a2fc3c70371
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 66dc0ad047213e0fbba7dbdd7336e67b8d015e39aba510ac37bd3701462413ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997555"
 ---
 # <a name="controlscurrentitem"></a>Controls. currentItem
 
@@ -34,13 +34,13 @@ player.controls.currentItem
 
 Это свойство является объектом **мультимедиа** для чтения и записи.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод работает только с элементами в *проигрывателе*. **куррентплайлист**. Вызов **currentItem** со ссылкой на сохраненный элемент мультимедиа не поддерживается.
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере JScript используется **currentItem** , чтобы установить проигрыватель для управления текущим элементом мультимедиа на выбранное значение в HTML-элементе SELECT. Текущий список воспроизведения был впервые указан с помощью *плайлистколлектион*. **жетбинаме**. Объект **Player** создан с идентификатором "Player".
+в следующем примере JScript используется **currentItem** , чтобы задать для текущего элемента управления "проигрыватель" значение, выбранное в HTML-элементе SELECT. Текущий список воспроизведения был впервые указан с помощью *плайлистколлектион*. **жетбинаме**. Объект **Player** создан с идентификатором "Player".
 
 
 ```JScript
@@ -60,18 +60,18 @@ player.controls.currentItem
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac3f7a883f50b06c8d142cb83bedf0bfa2920191
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ec8a446164bb7ae51d36d1a89219f6c3b84eff74b9af3a40c2121b3bd205a581
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137454"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119741744"
 ---
 # <a name="helpmsgstring-message"></a>Сообщение ХЕЛПМСГСТРИНГ
 
@@ -56,7 +56,7 @@ ms.locfileid: "104137454"
 
 Это сообщение не имеет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы получить идентификатор сообщения, отправленного диалоговым окном, необходимо указать константу **хелпмсгстринг** в вызове функции [**регистервиндовмессаже**](/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea) .
 
@@ -70,7 +70,7 @@ ms.locfileid: "104137454"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Коммдлг. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>коммдлг. h (включает Windows. h)</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **Хелпмсгстрингв** (Юникод) и **хелпмсгстринга** (ANSI)<br/>                                    |
 
 
@@ -82,7 +82,7 @@ ms.locfileid: "104137454"
 **Ссылки**
 </dt> <dt>
 
-[**\_Справка CDN**](cdn-help.md)
+[**CDN \_ СПРАВКА**](cdn-help.md)
 </dt> <dt>
 
 [**чусеколор**](/windows/win32/api/commdlg/ns-commdlg-choosecolora-r1)

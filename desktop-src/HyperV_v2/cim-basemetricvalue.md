@@ -22,12 +22,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: ca6c90a4b6b3ef3e690c13612f69480ec5f008be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 107dc3721ee32ca7f51efd563cdd6af14af483a69a5990e0b107a153b79b9351
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014702"
 ---
 # <a name="cim_basemetricvalue-class"></a>\_Класс CIM басеметриквалуе
 
@@ -57,7 +57,7 @@ class CIM_BaseMetricValue : CIM_ManagedElement
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ басеметриквалуе** имеет следующие свойства.
 
@@ -202,7 +202,7 @@ class CIM_BaseMetricValue : CIM_ManagedElement
 
 </dd> <dt>
 
-**Независимо**
+**Переменный**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **логический**
@@ -215,7 +215,7 @@ class CIM_BaseMetricValue : CIM_ManagedElement
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -229,7 +229,7 @@ class CIM_BaseMetricValue : CIM_ManagedElement
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

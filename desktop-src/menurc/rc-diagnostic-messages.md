@@ -4,12 +4,12 @@ description: В этом разделе описываются диагност�
 ms.assetid: 50b979f0-aa8a-44c5-ab82-28ec88bff8ef
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1241db090c3f7f390457271347b06d44f6908a2b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cbfd147febd2d3cd2674835bd330e29791941f74346e80cc604e7a11d2576cc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119825574"
 ---
 # <a name="rc-diagnostic-messages"></a>Диагностические сообщения RC
 
@@ -21,9 +21,9 @@ ms.locfileid: "103986355"
 
 [A](a.md) [B](b.md) [C](c.md) [E](e.md) [е](f.md) [ч е](i.md) [](n.md) [](o.md) [](r.md) [](t.md) [](u.md) [](v.md) [](w.md) б
 
- 
+ 
 
- 
+ 
 
 
 

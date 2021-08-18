@@ -4,12 +4,12 @@ ms.assetid: bafaa59f-fd1b-e252-cbbd-903df796fde0
 title: Тип данных XMVECTORF32 (Директксмас. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e56e79ea678ede0afcac3523c09da725ede00d1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c1a39de246e3e0e4ab9a96197dbe4a286cb6ecabe327d60e5c506795af79dd11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119739784"
 ---
 # <a name="xmvectorf32-data-type"></a>Тип данных XMVECTORF32
 
@@ -22,7 +22,7 @@ typedef XMVECTORF32 vectorf32;
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Список дополнительных функций, таких как конструкторы и операторы, доступных `XMVECTORF32` при использовании при программировании в C++, см. в разделе [расширения XMVECTORF32](ovw-xmvectorf32-extensions.md).
 
@@ -30,7 +30,7 @@ typedef XMVECTORF32 vectorf32;
 
 Это необходимо для поддержки [**ксмвектор**](xmvector-data-type.md), так как сам по себе не поддерживает инициализаторы в целях обеспечения переносимости и оптимизации.
 
-Пример:
+Например:
 
 
 ```
@@ -45,7 +45,7 @@ data = floatingVector;
 
 ### <a name="platform-requirements"></a>Требования к платформе
 
-Microsoft Visual Studio 2010 или Microsoft Visual Studio 2012 с Windows SDK для Windows 8. Поддерживается для классических приложений Win32, приложений для Магазина Windows и Windows Phone 8 приложений.
+Microsoft Visual Studio 2010 или Microsoft Visual Studio 2012 с Windows SDK для Windows 8. поддерживается для классических приложений Win32, приложений для магазина Windows и Windows Phone 8 приложений.
 
 ## <a name="requirements"></a>Требования
 
@@ -53,7 +53,7 @@ Microsoft Visual Studio 2010 или Microsoft Visual Studio 2012 с Windows SDK 
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Директксмас. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Директксмас. h</dt> </dl> |
 
 
 

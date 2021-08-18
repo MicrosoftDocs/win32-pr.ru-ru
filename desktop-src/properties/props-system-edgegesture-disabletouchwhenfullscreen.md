@@ -4,12 +4,12 @@ ms.assetid: F4242C05-181B-44FC-BE6C-8ABB76079981
 title: System. Еджежестуре. Дисаблетаучвхенфуллскрин
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 208962f11b96420a8e0ef771ada846a3f802e815
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 13132ba30fd3f1e594ec54966dfe2268ce66d570b66ca6d34b1c63b03bfc0c75
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105656690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119845124"
 ---
 # <a name="systemedgegesturedisabletouchwhenfullscreen"></a>System. Еджежестуре. Дисаблетаучвхенфуллскрин
 
@@ -35,15 +35,15 @@ propertyDescription
       type = Boolean
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-В Windows 8 взаимодействие пользователя с краями экрана показывает пользовательский интерфейс системы, такой как панели приложений, чудо и выполняющиеся приложения.
+в Windows 8 взаимодействие пользователя с краями экрана отображает пользовательский интерфейс системы, например панели приложений, чудо и приложения.
 
 Для полноэкранных удаленных приложений это поведение пользовательского интерфейса на локальном компьютере может переопределяться и влиять на пользовательский интерфейс удаленного сеанса. Это свойство позволяет приложению отключить ребро пользовательского интерфейса на локальном компьютере.
 
 Чтобы отключить интерфейс ребра, присвойте этому свойству значение \_ true. Значение по умолчанию — VARIANT \_ false.
 
-Это свойство не влияет на приложения Магазина Windows.
+это свойство не влияет на приложения Windows Store.
 
 В следующем примере показано, как задать пограничные поведения пользовательского интерфейса.
 
@@ -67,7 +67,7 @@ HRESULT SetTouchDisableProperty(HWND hwnd, BOOL fDisableTouch)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

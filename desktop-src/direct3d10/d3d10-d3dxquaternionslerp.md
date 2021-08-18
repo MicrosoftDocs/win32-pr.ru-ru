@@ -91,7 +91,7 @@ D3DXQUATERNION* D3DXQuaternionSlerp(
 
 Используйте [**D3DXQuaternionNormalize**](d3d10-d3dxquaternionnormalize.md) для любых входных данных кватернион, которые еще не нормализованы.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -102,7 +102,7 @@ D3DXQUATERNION* D3DXQuaternionSlerp(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

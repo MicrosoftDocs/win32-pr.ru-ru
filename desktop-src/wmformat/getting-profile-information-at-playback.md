@@ -3,7 +3,7 @@ title: Получение сведений о профиле при воспро
 description: Получение сведений о профиле при воспроизведении
 ms.assetid: 4ea6c063-fd53-4b5e-ac01-9e2790322ace
 keywords:
-- Windows Media Format SDK, профили
+- Windows Пакет SDK для формата мультимедиа, профили
 - Расширенный формат систем (ASF), профили
 - ASF (Расширенный системный формат), профили
 - Расширенный формат систем (ASF), взаимное исключение
@@ -16,12 +16,12 @@ keywords:
 - Совместное использование пропускной способности, получение сведений о профиле
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4a5c7083f7bf9e986e8a23ba2c78dfe4404942a
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 4c0f9386301b426adb3c4c425ac9329309c7e45146e312cc41df0bd1c453d485
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104133511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119839924"
 ---
 # <a name="getting-profile-information-at-playback"></a>Получение сведений о профиле при воспроизведении
 
@@ -50,9 +50,9 @@ ms.locfileid: "104133511"
 > [!Note]  
 > Не все сведения из профиля, используемого для создания файла, содержатся в заголовке файла. Как правило, данные, используемые только во время кодирования, не сохраняются в файле. Сюда входят параметры ввода, заданные с помощью метода [**IWMWriterAdvanced2:: сетинпутсеттинг**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-setinputsetting) , а также свойства, заданные с помощью метода [**Ивмпропертиваулт:: SetProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmpropertyvault-setproperty) .
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -62,9 +62,9 @@ ms.locfileid: "104133511"
 [**Чтение файлов ASF**](reading-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

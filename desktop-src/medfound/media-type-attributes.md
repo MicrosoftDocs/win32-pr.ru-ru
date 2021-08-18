@@ -4,12 +4,12 @@ ms.assetid: e84ba3f6-4857-4340-baca-5847650ea7b8
 title: Атрибуты типа мультимедиа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fd3bc77197a3a897cd5280338451c33f1ea2637
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: b52e906baa7bbac14d33dbc263e3a1edfa43b65851d96d0573032784c0149425
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104351562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119827464"
 ---
 # <a name="media-type-attributes"></a>Атрибуты типа мультимедиа
 
@@ -58,10 +58,10 @@ ms.locfileid: "104351562"
 | [**\_ \_ звуковые образцы MF MT \_ \_ на \_ блок**](mf-mt-audio-samples-per-block-attribute.md)                | Количество звуковых образцов, содержащихся в одном сжатом блоке звуковых данных.                    |
 | [**\_ \_ звуковых образцов MF MT \_ \_ в \_ секунду**](mf-mt-audio-samples-per-second-attribute.md)              | Количество звуковых выборок в секунду (целочисленное значение).                                         |
 | [**\_ \_ \_ допустимый бит для звука MF MT \_ \_ на \_ выборку**](mf-mt-audio-valid-bits-per-sample-attribute.md)       | Количество допустимых битов звуковых данных в каждом звуковом примере.                                    |
-| [**MF \_ \_ Audio \_ вмадрк \_ авгреф**](mf-mt-audio-wmadrc-avgref-attribute.md)                         | Средняя ссылка на уровень громкости звукового файла Windows Media.                               |
-| [**MF \_ \_ Audio \_ вмадрк \_ авгтаржет**](mf-mt-audio-wmadrc-avgtarget-attribute.md)                   | Целевой средний уровень громкости звукового файла Windows Media.                                  |
-| [**MF \_ \_ Audio \_ вмадрк \_ пеакреф**](mf-mt-audio-wmadrc-peakref-attribute.md)                       | Эталонный пиковый уровень громкости звукового файла Windows Media.                                  |
-| [**MF \_ \_ Audio \_ вмадрк \_ пеактаржет**](mf-mt-audio-wmadrc-peaktarget-attribute.md)                 | Целевой пиковый уровень громкости звукового файла Windows Media.                                     |
+| [**MF \_ \_ Audio \_ вмадрк \_ авгреф**](mf-mt-audio-wmadrc-avgref-attribute.md)                         | средняя ссылка на уровень громкости Windowsного звукового файла мультимедиа.                               |
+| [**MF \_ \_ Audio \_ вмадрк \_ авгтаржет**](mf-mt-audio-wmadrc-avgtarget-attribute.md)                   | целевой средний уровень громкости Windows Media Audio.                                  |
+| [**MF \_ \_ Audio \_ вмадрк \_ пеакреф**](mf-mt-audio-wmadrc-peakref-attribute.md)                       | эталонный пиковый уровень громкости Windowsного звукового файла мультимедиа.                                  |
+| [**MF \_ \_ Audio \_ вмадрк \_ пеактаржет**](mf-mt-audio-wmadrc-peaktarget-attribute.md)                 | целевой пиковый уровень громкости Windowsного звукового файла мультимедиа.                                     |
 | [\_ \_ \_ тег начальной волны в \_ формате \_ MF MT](mf-mt-original-wave-format-tag.md)                            | Содержит тег исходного формата WAVE для аудиопотока.                                  |
 
 
@@ -162,7 +162,7 @@ ms.locfileid: "104351562"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

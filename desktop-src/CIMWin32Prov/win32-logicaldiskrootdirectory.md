@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e4b015891a37c5cc92bbf102482f48306d537bb6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a1ec5bdbe5ab91b14c294f715aa4fc4fe26ad2a42cd63892f60288456af10505
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119973394"
 ---
 # <a name="win32_logicaldiskrootdirectory-class"></a>\_Класс Win32 логикалдискрутдиректори
 
@@ -46,7 +46,7 @@ class Win32_LogicalDiskRootDirectory : CIM_Component
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ логикалдискрутдиректори** имеет следующие свойства.
 
@@ -84,11 +84,11 @@ class Win32_LogicalDiskRootDirectory : CIM_Component
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ логикалдискрутдиректори** является производным от [**\_ компонента CIM**](cim-component.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -102,7 +102,7 @@ class Win32_LogicalDiskRootDirectory : CIM_Component
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

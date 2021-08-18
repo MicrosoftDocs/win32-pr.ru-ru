@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c54ed89e112482df4a54f35e24a04694e88fa490
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 02f0df4d31ca978b8b58b50cd0c91710056aa9ac0f3cac1ae370a4edba6a9edf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104069152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119626594"
 ---
 # <a name="asuint-function"></a>Функция асуинт
 
@@ -28,9 +28,9 @@ ms.locfileid: "104069152"
 
 ``` syntax
 void asuint(
-  in  double value,
-  out uint lowbits,
-  out uint highbits
+  in  double value,
+  out uint lowbits,
+  out uint highbits
 );
 ```
 
@@ -69,7 +69,7 @@ void asuint(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта функция является альтернативной версией встроенной функции [**асуинт**](dx-graphics-hlsl-asuint.md) , которая была доступна в более ранних моделях шейдеров и была представлена для шейдера Model 5. Исходная функция (распознанная в компиляторе HLSL по другой сигнатуре) остается доступной для модели шейдера 5.
 
@@ -81,11 +81,11 @@ void asuint(
 
 | Модель шейдера                                                                | Поддерживается |
 |-----------------------------------------------------------------------------|-----------|
-| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | да       |
+| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | Да       |
 
 
 
- 
+ 
 
 Эта функция поддерживается в следующих типах шейдеров:
 
@@ -97,7 +97,7 @@ void asuint(
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -112,9 +112,9 @@ void asuint(
 [Модель шейдера 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

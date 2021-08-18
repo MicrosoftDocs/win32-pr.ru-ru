@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 99c3be3926191c27ad038034373e411b5c22d9fc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b2d4ead22b3e7308aee3c44b3ff6dff407591cbe675b09a3300f3e7a8720726c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081228"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119742644"
 ---
 # <a name="istatsquerystations-method"></a>Метод Истатс:: Куеристатионс
 
@@ -65,7 +65,7 @@ HRESULT STDMETHODCALLTYPE QueryStations(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод можно вызвать в любое время после вызова [креатенппинтерфаце](createnppinterface.md) . Вызов этого метода является синхронным вызовом, выполнение которого может занять несколько секунд, так как сетевой монитор ожидает ответа удаленных компьютеров на запрос. Можно запрашивать только компьютеры в локальной подсети.
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 178402861c9830efbea78a31081ae7e8b31800b0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 02457355fdb9f01605470ea10e30d69caaa6149837480ebe7bd20340d7c6cae2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119993154"
 ---
 # <a name="certificatestatusverificationtime-property"></a>Цертификатестатус. Верификатионтиме, свойство
 
@@ -39,7 +39,7 @@ CertificateStatus.VerificationTime As Date
 
 Время проверки сертификата.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если это свойство не задано, используется текущее время.
 

@@ -4,12 +4,12 @@ description: Этот результат корректирует непрозр
 ms.assetid: a4995228-e08f-b543-0af1-e0eedfe8ecb2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dfdc12aa8545f2742561490a3ddce799d6a1aa62
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 58073e3b692b45f86f57c61571d81f5add47427c8a1a801ac43121b37aa43a67
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105681998"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119636234"
 ---
 # <a name="opacity-effect"></a>Воздействие непрозрачности
 
@@ -35,12 +35,12 @@ ms.locfileid: "105681998"
 
 | Требование | Значение |
 |--------------------------|---------------------------------------------------|
-| Минимальная версия клиента | Приложения для \[ магазина Windows для классических приложений Windows 10 \|\] |
-| Минимальная версия сервера | Приложения для \[ магазина Windows для классических приложений Windows 10 \|\] |
-| Header                   | d2d1effects \_ 2. h                                  |
+| Минимальная версия клиента | Windows 10 \[ классические приложения \| Windows приложения магазина\] |
+| Минимальная версия сервера | Windows 10 \[ классические приложения \| Windows приложения магазина\] |
+| Заголовок                   | d2d1effects \_ 2. h                                  |
 | Библиотека                  | D2D1. lib, дксгуид. lib                              |
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 * [Интерфейс ID2D1Effect](/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect)

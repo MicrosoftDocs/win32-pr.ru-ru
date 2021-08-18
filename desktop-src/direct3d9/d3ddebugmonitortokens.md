@@ -66,7 +66,7 @@ typedef enum D3DDEBUGMONITORTOKENS {
 
 Значения в этом перечислимом типе используются в \_ состоянии рендеринга D3DRS дебугмонитортокен и относятся только к отладочным сборкам.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -76,7 +76,7 @@ typedef enum D3DDEBUGMONITORTOKENS {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

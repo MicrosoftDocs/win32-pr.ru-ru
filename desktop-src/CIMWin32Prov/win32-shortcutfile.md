@@ -48,12 +48,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b714b4c8119f92931235734664726123744064d8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8f1951d4c52087330ac28e23e59e9403c67aff44bf7f9e94c63d3bfa7fc1bded
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105656051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119917504"
 ---
 # <a name="win32_shortcutfile-class"></a>\_Класс Win32 шорткутфиле
 
@@ -125,7 +125,7 @@ class Win32_ShortcutFile : CIM_DataFile
 | [**компрессекс**](compressex-method-in-class-win32-shortcutfile.md)                                   | Метод класса, который сжимает логический файл (или каталог), указанный в пути к объекту.<br/>                                                                                                                                |
 | [**Копировать**](copy-method-in-class-win32-shortcutfile.md)                                               | Метод класса, копирующий логический файл или каталог, указанный в пути к объекту, в расположение, указанное входным параметром.<br/>                                                                                     |
 | [**копекс**](copyex-method-in-class-win32-shortcutfile.md)                                           | Метод класса, копирующий логический файл или каталог, указанный в пути к объекту, в расположение, указанное параметром *filename* .<br/>                                                                                |
-| [**Удалить**](delete-method-in-class-win32-shortcutfile.md)                                           | Метод класса, который удаляет логический файл (или каталог), указанный в пути к объекту.<br/>                                                                                                                                   |
+| [**Удален**](delete-method-in-class-win32-shortcutfile.md)                                           | Метод класса, который удаляет логический файл (или каталог), указанный в пути к объекту.<br/>                                                                                                                                   |
 | [**делетикс**](deleteex-method-in-class-win32-shortcutfile.md)                                       | Метод класса, который удаляет логический файл (или каталог), указанный в пути к объекту.<br/>                                                                                                                                   |
 | [**жетеффективепермиссион**](geteffectivepermission-method-in-class-win32-shortcutfile.md)           | Метод класса, определяющий, имеет ли вызывающий объект агрегированные разрешения, заданные аргументом разрешения, не только для объекта File, но и для общего ресурса, в котором находится файл или каталог (если он находится в общей папке).<br/> |
 | [**Имени**](rename-method-in-class-win32-shortcutfile.md)                                           | Метод класса, который переименовывает логический файл (или каталог), указанный в пути к объекту.<br/>                                                                                                                                   |
@@ -285,7 +285,7 @@ class Win32_ShortcutFile : CIM_DataFile
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -545,7 +545,7 @@ class Win32_ShortcutFile : CIM_DataFile
 
 </dd> <dt>
 
-**Размер файла**
+**FileSize**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **UInt64**
@@ -729,7 +729,7 @@ class Win32_ShortcutFile : CIM_DataFile
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -743,7 +743,7 @@ class Win32_ShortcutFile : CIM_DataFile
 
 Свойство Name — это строка, представляющая унаследованное имя, которое служит ключом экземпляра логического файла в файловой системе. Необходимо указать полные имена путей.
 
-Пример: C: \\ Windows \\ System \\win.ini
+пример: C: \\ Windows \\ system \\win.ini
 
 Это свойство наследуется от [**CIM \_ LogicalFile**](cim-logicalfile.md).
 
@@ -965,7 +965,7 @@ class Win32_ShortcutFile : CIM_DataFile
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ шорткутфиле** является производным от [**CIM- \_ файла**](cim-datafile.md).
 

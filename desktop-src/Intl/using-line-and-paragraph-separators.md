@@ -4,12 +4,12 @@ ms.assetid: 086aca6c-8d1f-4e54-9e1c-642be50b303c
 title: Использование разделителей строк и абзацев
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f2c9511ba2a8889b3c9139daf1d088d91ed746db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 857d7cae4dc7bd720ca94e9780bcb83588650b3df578cd0216e2424c1b28d5af
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764634"
 ---
 # <a name="using-line-and-paragraph-separators"></a>Использование разделителей строк и абзацев
 
@@ -21,7 +21,7 @@ ms.locfileid: "104272954"
 
 Приложение может вставлять разделитель абзацев между абзацами текста. Использование этого разделителя разрешит создание файлов обычного текста, которые можно форматировать с помощью области строки в различных операционных системах. Целевая система может игнорировать разделители в виде линии и разделить абзацы только в разделителях абзаца.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

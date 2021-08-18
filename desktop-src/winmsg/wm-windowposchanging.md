@@ -4,12 +4,12 @@ ms.assetid: 45ecd966-5222-4738-9e99-8a6edbdd435a
 title: Сообщение WM_WINDOWPOSCHANGING (Winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 015a31aac31d38506d1798f83c8dd7f9aa646f85
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 68f10abcb0692374209c2070a465df7c4a5f18672eebf376378d6fb16cbca537
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103816305"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119771944"
 ---
 # <a name="wm_windowposchanging-message"></a>\_Сообщение ВИНДОВПОСЧАНГИНГ WM
 
@@ -48,7 +48,7 @@ ms.locfileid: "103816305"
 
 Если приложение обрабатывает это сообщение, оно должно вернуть ноль.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для окна с стилем [**WS \_ OVERLAPPED**](window-styles.md) или **WS \_ Сиккфраме** функция [**дефвиндовпрок**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) отправляет сообщение [**WM \_ жетминмаксинфо**](wm-getminmaxinfo.md) в окно. Это делается для проверки нового размера и расположения окна, а также для применения стилей клиента [CS \_ БИТЕАЛИГНКЛИЕНТ](about-window-classes.md) и CS \_ битеалигнвиндов. Если не передать сообщение **WM \_ виндовпосчангинг** в функцию **дефвиндовпрок** , приложение может переопределить эти значения по умолчанию.
 
@@ -62,7 +62,7 @@ ms.locfileid: "103816305"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

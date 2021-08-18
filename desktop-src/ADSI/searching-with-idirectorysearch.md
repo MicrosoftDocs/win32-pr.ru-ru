@@ -10,12 +10,12 @@ keywords:
 - IDirectorySearch ADSI, использование для поиска в каталоге
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2738e163f672fb0000275e2fb9d885442ae6693
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: c46700c48f82955bd01967808cd30f2fa078e3b6c998fb3beaac4bf7c7fe8707
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103891093"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023222"
 ---
 # <a name="searching-with-the-idirectorysearch-interface"></a>Поиск с помощью интерфейса IDirectorySearch
 
@@ -29,7 +29,7 @@ ms.locfileid: "103891093"
 
 Дополнительные сведения о синтаксисе фильтра поиска см. в разделе [синтаксис фильтра поиска](search-filter-syntax.md).
 
-Выполнение запроса зависит от поставщика. При использовании некоторых поставщиков фактическое выполнение запроса не происходит до вызова [**IDirectorySearch:: жетфирстров**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-getfirstrow) или [**IDirectorySearch:: GetNextRow**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-getnextrow) . Интерфейс [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch) работает с фильтрами поиска напрямую. Ни диалект SQL, ни диалект LDAP не требуются.
+Выполнение запроса зависит от поставщика. При использовании некоторых поставщиков фактическое выполнение запроса не происходит до вызова [**IDirectorySearch:: жетфирстров**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-getfirstrow) или [**IDirectorySearch:: GetNextRow**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-getnextrow) . Интерфейс [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch) работает с фильтрами поиска напрямую. ни диалект SQL, ни диалект LDAP не требуются.
 
 Интерфейс [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch) предоставляет методы для перечисления результирующего набора по строкам. Метод [**IDirectorySearch:: жетфирстров**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-getfirstrow) извлекает первую строку, а [**IDirectorySearch:: GetNextRow**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-getnextrow) перемещает вас на следующую строку из текущей строки. Когда вы достигли последней строки, вызов этих методов возвращает \_ код ошибки в ADS \_ \_ . И наоборот, [**IDirectorySearch:: жетпревиаусров**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-getpreviousrow) перемещает вас назад на одну строку за раз. \_ \_ \_ Возвращаемое значение S ADS не показывает, что достигнута первая строка результирующего набора. Эти методы работают с результирующим набором, резидентным в память, на клиенте. Таким образом, при выполнении страничного и асинхронного поиска, а также при отключенном \_ \_ параметре результатов кэширования Обратная прокрутка может привести к непредвиденным последствиям.
 
@@ -138,7 +138,7 @@ LPWSTR pszColumn;
 > [!Note]  
 > Чтобы изменить этот запрос в поиске по каталогу на глобальный поиск каталога, вызов [**ADsOpenObject**](/windows/desktop/api/Adshlp/nf-adshlp-adsopenobject) изменится.
 
- 
+ 
 
 
 ```C++
@@ -153,6 +153,6 @@ IID_IDirectorySearch,
 
 
 
- 
+ 
 
- 
+ 

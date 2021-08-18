@@ -3,9 +3,9 @@ title: Довнлоадколлектион. removeItem, метод
 description: Обратите внимание, что в этом разделе описываются функции, предназначенные для использования Интернет-магазинами. Использование этой функции вне контекста Интернет-магазина не поддерживается. Метод removeItem удаляет скачанный элемент из коллекции загрузки.
 ms.assetid: 0008752e-c81a-4f91-a582-9d6b46569479
 keywords:
-- removeItem метод Windows Media Player
-- removeItem метод Windows Media Player, класс Довнлоадколлектион
-- Класс Довнлоадколлектион Windows Media Player, метод removeItem
+- проигрыватель Windows Media метода removeItem
+- проигрыватель Windows Media метода removeItem, класс довнлоадколлектион
+- класс довнлоадколлектион проигрыватель Windows Media, метод removeItem
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a1798665b79327b7956c1b78509b55cc6e6dd70c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d1d7eaa7b26a4d64070cae426d1bbc23418593fa8ec5472e870ed7529ce8a122
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997074"
 ---
 # <a name="downloadcollectionremoveitem-method"></a>Довнлоадколлектион. removeItem, метод
 
@@ -58,22 +58,22 @@ DownloadCollection.removeItem(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если выполняется загрузка, представленная идентификатором *ItemId* , этот метод отменяет скачивание.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                  |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                  |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

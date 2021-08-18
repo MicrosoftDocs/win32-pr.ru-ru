@@ -3,7 +3,7 @@ title: Сообщение LVM_INSERTCOLUMN (Коммктрл. h)
 description: Вставляет новый столбец в элемент управления "представление списка". Это сообщение можно отправить явно или с помощью \_ макроса Инсертколумн ListView.
 ms.assetid: 1326e38e-bb45-4d0d-b5bc-ec684b3b92ef
 keywords:
-- Элементы управления Windows для LVM_INSERTCOLUMN сообщений
+- элементы управления Windows сообщений LVM_INSERTCOLUMN
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8be89ff0b4ef417a715085582544112cb90cb6b1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c5c2316ed2a74c82cd4530eff2d71d4771f4042b903c7ee17fc62886009ed5b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104535033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019242"
 ---
 # <a name="lvm_insertcolumn-message"></a>\_Сообщение LVM инсертколумн
 
@@ -47,19 +47,19 @@ ms.locfileid: "104535033"
 
 Возвращает индекс нового столбца, если он выполнен успешно, или значение-1 в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Столбцы видимы только в представлении отчета (Details).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Объекты и значения инфраструктуры WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76b39ac726a45b95a667a865ac26e0be937ff445
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a7a4ebef101fc94448d3f5894badd5eac80469f6d8154311c45ed698b546fcbd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683142"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119995414"
 ---
 # <a name="wmi-infrastructure-objects-and-values"></a>Объекты и значения инфраструктуры WMI
 
@@ -74,7 +74,7 @@ ms.locfileid: "105683142"
 
 </dd> </dl>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

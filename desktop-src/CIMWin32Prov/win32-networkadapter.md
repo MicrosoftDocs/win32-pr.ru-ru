@@ -1,5 +1,5 @@
 ---
-description: Класс Win32 \_ сетевого адаптера является устаревшим. \_Вместо этого используйте класс MSFT NetAdapter. Класс Win32 \_ нетворкадаптервми представляет сетевой адаптер компьютера, работающего под управлением операционной системы Windows.
+description: Класс Win32 \_ сетевого адаптера является устаревшим. \_Вместо этого используйте класс MSFT NetAdapter. класс Win32 \_ нетворкадаптервми представляет сетевой адаптер компьютера, работающего под управлением Windows операционной системы.
 ms.assetid: f79cb2a1-a249-479d-a495-37a44fdea995
 ms.tgt_platform: multiple
 title: Класс Win32_NetworkAdapter
@@ -56,16 +56,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 22718802370995cc0515e3f63e731cc86d37eb0f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 55ee65b151778dbfbb4bb8e09fabfb3ae59392966344b951586cd9e08dd1f984
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104496602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119973042"
 ---
 # <a name="win32_networkadapter-class"></a>\_Класс Win32 сетевого адаптера
 
-Класс **Win32 \_ сетевого адаптера** является устаревшим. Вместо этого используйте класс [**MSFT \_ NetAdapter**](/previous-versions/windows/desktop/legacy/hh968170(v=vs.85)) . [Класс WMI](../wmisdk/retrieving-a-class.md) **\_ сетевого адаптера для Win32** представляет сетевой адаптер компьютера, работающего под управлением операционной системы Windows.
+Класс **Win32 \_ сетевого адаптера** является устаревшим. Вместо этого используйте класс [**MSFT \_ NetAdapter**](/previous-versions/windows/desktop/legacy/hh968170(v=vs.85)) . [класс WMI](../wmisdk/retrieving-a-class.md) **\_ сетевого адаптера для Win32** представляет сетевой адаптер компьютера, работающего под управлением операционной системы Windows.
 
 **Win32 \_ Сетевого адаптера** предоставляет только данные IPv4. Дополнительные сведения см. [в разделе Поддержка IPv6 и IPv4 в WMI](../wmisdk/ipv6-and-ipv4-support-in-wmi.md).
 
@@ -602,7 +602,7 @@ class Win32_NetworkAdapter : CIM_NetworkAdapter
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -632,7 +632,7 @@ class Win32_NetworkAdapter : CIM_NetworkAdapter
 Квалификаторы: [**схема**](../wmisdk/standard-qualifiers.md) ("Win32")
 </dt> </dl>
 
-Код ошибки Windows Configuration Manager.
+Windows Configuration Manager код ошибки.
 
 Это свойство наследуется [**от \_ CIM**](cim-logicaldevice.md)-унаследованной модели.
 
@@ -691,12 +691,12 @@ class Win32_NetworkAdapter : CIM_NetworkAdapter
 
 <span id="The_driver_for_this_device_needs_a_resource_that_Windows_cannot_manage."></span><span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>
 
-<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**Драйверу для этого устройства требуется ресурс, который Windows не может управлять.** (5)
+<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**драйверу для этого устройства нужен ресурс, который Windows не может управлять.** (5)
 
 
 </dt> <dd>
 
-Драйверу для устройства требуется ресурс, который Windows не может управлять.
+драйверу для устройства требуется ресурс, который Windows не может управляться.
 
 </dd> <dt>
 
@@ -903,23 +903,23 @@ Windows не удается найти все ресурсы, используе
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Это устройство все еще настраивается Windows.** (25)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows все еще настраивает это устройство.** (25)
 
 
 </dt> <dd>
 
-Устройство все еще настраивается.
+Windows все еще настраивает устройство.
 
 </dd> <dt>
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Это устройство все еще настраивается Windows.** (26)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows все еще настраивает это устройство.** (26)
 
 
 </dt> <dd>
 
-Устройство все еще настраивается.
+Windows все еще настраивает устройство.
 
 </dd> <dt>
 
@@ -969,7 +969,7 @@ Windows не удается найти все ресурсы, используе
 
 <span id="This_device_is_not_working_properly_because_Windows_cannot_load_the_drivers_required_for_this_device."></span><span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>
 
-<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**Это устройство работает неправильно, так как Windows не может загрузить драйверы, необходимые для этого устройства.** 1-31
+<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**это устройство работает неправильно, так как Windows не может загрузить драйверы, необходимые для этого устройства.** 1-31
 
 
 </dt> <dd>
@@ -1142,7 +1142,7 @@ Windows не удается найти все ресурсы, используе
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: не [**рекомендуется**](../wmisdk/standard-wmi-qualifiers.md), [**Маппингстрингс**](../wmisdk/standard-qualifiers.md) ("WIN32REGISTRY \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ нетворккардс \| дривердате")
+квалификаторы: не [**рекомендуется**](../wmisdk/standard-wmi-qualifiers.md), [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ нетворккардс \| дривердате")
 </dt> </dl>
 
 Если **значение — true**, сетевой адаптер устанавливается в системе.
@@ -1202,7 +1202,7 @@ Windows не удается найти все ресурсы, используе
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ нетворккардс \| Manufacturer")
+квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ нетворккардс \| Manufacturer")
 </dt> </dl>
 
 Имя производителя сетевого адаптера.
@@ -1249,7 +1249,7 @@ Windows не удается найти все ресурсы, используе
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -1471,7 +1471,7 @@ Windows не удается найти все ресурсы, используе
 Квалификаторы: [**схема**](../wmisdk/standard-qualifiers.md) ("Win32")
 </dt> </dl>
 
-Идентификатор устройства Windows самонастраивающийся логического устройства.
+Windows Самонастраивающийся идентификатор устройства логического устройства.
 
 Это свойство наследуется [**от \_ CIM**](cim-logicaldevice.md)-унаследованной модели.
 
@@ -1598,7 +1598,7 @@ Windows не удается найти все ресурсы, используе
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ нетворккардс \| ServiceName")
+квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ нетворккардс \| ServiceName")
 </dt> </dl>
 
 Имя продукта сетевого адаптера.
@@ -1616,7 +1616,7 @@ Windows не удается найти все ресурсы, используе
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ нетворккардс \| ProductName")
+квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ нетворккардс \| ProductName")
 </dt> </dl>
 
 Имя службы сетевого адаптера. Обычно это имя короче полного названия продукта.
@@ -1849,14 +1849,14 @@ Windows не удается найти все ресурсы, используе
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("программное обеспечение \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ PerfLib \\ \\ 009 \| системное время")
+квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("программное обеспечение \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ Perflib \\ \\ 009 \| системное время")
 </dt> </dl>
 
 Дата и время последнего сброса сетевого адаптера.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ сетевого адаптера** является производным от [**CIM \_ сетевого адаптера**](cim-networkadapter.md).
 
@@ -1898,7 +1898,7 @@ IPAddress: Array of strings with length > 6
 
 Для поиска адаптера по умолчанию можно также использовать следующую процедуру:
 
-1.  Выполните приведенный ниже запрос:
+1.  Выполните следующий запрос:
 
     `"SELECT InterfaceIndex, Destination FROM Win32_IP4RouteTable WHERE Destination='0.0.0.0'"`
 
@@ -1910,7 +1910,7 @@ IPAddress: Array of strings with length > 6
 
 ## <a name="examples"></a>Примеры
 
-Два примера кода PowerShell для [функций WMI](https://Gallery.TechNet.Microsoft.Com/Two-WMI-Functions-94c31b5f) в коллекции TechNet используют **Win32 \_ сетевого адаптера** для повторного создания командлета Windows [Get-NetAdapter](/powershell/module/netadapter/get-netadapter?view=win10-ps) .
+два примера кода PowerShell для [функций WMI](https://Gallery.TechNet.Microsoft.Com/Two-WMI-Functions-94c31b5f) в коллекции TechNet используют **Win32 \_ сетевого адаптера** для повторного создания командлета [Get-NetAdapter](/powershell/module/netadapter/get-netadapter?view=win10-ps) Windows.
 
 Пример " [Get-компутеринфо-запрос компьютера с локального/удаленного компьютера" (WMI)](https://Gallery.TechNet.Microsoft.Com/Get-ComputerInfo-Query-23dd6042) PowerShell в коллекции TechNet использует несколько вызовов оборудования и программного обеспечения, включая **Win32 \_ сетевого адаптера**, для вывода сведений о локальной или удаленной системе.
 

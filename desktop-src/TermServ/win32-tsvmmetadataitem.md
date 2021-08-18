@@ -24,12 +24,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 872cec5bf3ff0e7b45ab07cb41b6227bcfb8636d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e6e894313f5abed1dc6d9ff2022ceb65b4741d2d4c4f2a2187a7cd1616a88971
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119768984"
 ---
 # <a name="win32_tsvmmetadataitem-class"></a>\_Класс Win32 тсвмметадатаитем
 
@@ -60,13 +60,13 @@ class Win32_TSVmMetadataItem : CIM_LogicalElement
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ тсвмметадатаитем** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -117,7 +117,7 @@ class Win32_TSVmMetadataItem : CIM_LogicalElement
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**

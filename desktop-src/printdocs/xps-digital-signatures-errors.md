@@ -4,12 +4,12 @@ ms.assetid: d20707b0-55ea-438a-8ce3-972c61678928
 title: Ошибки API цифровой подписи XPS (Кспсдигиталсигнатуре. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c82c6f5efe7e67d27f7d94b5d1db2732139fa59
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 93e40cea4b7d0e9997157c8b18c7f364ac7ac58b2b9edc6faec62cbe98685fcb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104348212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119711364"
 ---
 # <a name="xps-digital-signature-api-errors"></a>Ошибки API цифровой подписи XPS
 
@@ -32,7 +32,7 @@ ms.locfileid: "104348212"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Некоторые методы API цифровой подписи XPS выполняют вызовы к API [упаковки](/previous-versions/windows/desktop/opc/packaging) . Дополнительные сведения о возвращаемых значениях API упаковки см. в разделе [ошибки упаковки](/previous-versions/windows/desktop/opc/packaging-errors).
 
@@ -42,9 +42,9 @@ ms.locfileid: "104348212"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                         |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                                            |
-| Header<br/>                   | <dl> <dt>Кспсдигиталсигнатуре. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                         |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                                            |
+| Заголовок<br/>                   | <dl> <dt>Кспсдигиталсигнатуре. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Кспсдигиталсигнатуре. idl</dt> </dl> |
 
 
