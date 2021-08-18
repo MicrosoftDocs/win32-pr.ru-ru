@@ -27,12 +27,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 284b77da03b53f9c2662c8729a7bf6606c45630a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 51c24e12ed423b6240daeefee0b69a40f9b14b86813ca83cb09f74f807e24429
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103912324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069954"
 ---
 # <a name="process_v2_typegroup2-class"></a>\_ \_ Класс TypeGroup2 процесса v2
 
@@ -64,13 +64,13 @@ class Process_V2_TypeGroup2 : Process_V2
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **Process \_ v2 \_ TypeGroup2** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Process \_ v2 \_ TypeGroup2** имеет следующие свойства.
 
@@ -316,7 +316,7 @@ ProcessId
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эти события регистрируются при завершении процесса. Событие указывает, как процесс обрабатывает использование памяти.
 
@@ -326,8 +326,8 @@ ProcessId
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103128
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 0badc61b4136995014ecfbf473cdb24c27d7aa8c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47d408e2715669aa04c77531617a0b6712bf803bf7f3292b20ddfd4ff25361fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119112876"
 ---
 # <a name="esenttoomanytestinjectionsexception-properties"></a>Свойства Есенттуманитестинжектионсексцептион
 
@@ -34,7 +34,7 @@ ms.locfileid: "103999634"
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Открытое свойство" alt="Public property" /></td>
-<td><a href="/dotnet/api/system.exception.data#System_Exception_Data">Data</a></td>
+<td><a href="/dotnet/api/system.exception.data#System_Exception_Data">Данные</a></td>
 <td>(Наследуется от <a href="/dotnet/api/system.exception">Exception</a>.)</td>
 </tr>
 <tr class="even">
@@ -49,7 +49,7 @@ ms.locfileid: "103999634"
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Защищенное свойство" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Состав</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
 <td>(Наследуется от <a href="/dotnet/api/system.exception">Exception</a>.)</td>
 </tr>
 <tr class="odd">

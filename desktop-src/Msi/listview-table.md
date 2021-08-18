@@ -4,12 +4,12 @@ ms.assetid: 0da4eab9-cabc-4bcc-8267-4aa1cd79e78b
 title: Таблица ListView
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0e7296db9f71a7c40550fdcaab18d8f0d0f41f4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2a84ebab6c90486283c3dd8d4731cc0b7f3aff11a5459a0e93496bab83d7c277
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013082"
 ---
 # <a name="listview-table"></a>Таблица ListView
 
@@ -21,11 +21,11 @@ ms.locfileid: "105683276"
 
 | Столбец   | Type                         | Ключ | Допускает значения NULL |
 |----------|------------------------------|-----|----------|
-| Свойство | [Идентификатор](identifier.md) | Да   | Нет        |
-| Заказ    | [Integer](integer.md)       | Да   | Нет        |
+| Свойство | [Идентификатор](identifier.md) | Д   | Нет        |
+| Номер    | [Integer](integer.md)       | Д   | Нет        |
 | Значение    | [Формате](formatted.md)   | Нет   | Нет        |
-| Текст     | [Формате](formatted.md)   | Нет   | Да        |
-| Двоичный\_ | [Идентификатор](identifier.md) | Нет   | Да        |
+| Текст     | [Формате](formatted.md)   | Нет   | Д        |
+| Двоичный\_ | [Идентификатор](identifier.md) | Нет   | Д        |
 
 
 
@@ -70,7 +70,7 @@ ms.locfileid: "105683276"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Содержимое полей Value и Text форматируется функцией [**мсиформатрекорд**](/windows/desktop/api/Msiquery/nf-msiquery-msiformatrecorda) при создании элемента управления, поэтому они могут содержать любое выражение, которое может интерпретировать функция мсиформатрекорд. Форматирование происходит только при создании элемента управления и не обновляется, если свойство, вовлеченное в выражение, изменяется в течение жизненного цикла элемента управления.
 

@@ -7,12 +7,12 @@ keywords:
 - интерфейсы ADSI для базовой реализации
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f62068bd77553f89e222422431811da1ef251ccd
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: d78487b701cac0409745ed3a7776dd882f2c37a878dec1d144c3b52a426db487
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104070623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962093"
 ---
 # <a name="core-implementation"></a>Базовая реализация
 
@@ -24,7 +24,7 @@ ms.locfileid: "104070623"
 -   Интерфейсы [**иадспропертилист**](/windows/desktop/api/Iads/nn-iads-iadspropertylist), [**иадспропертентри**](/windows/desktop/api/Iads/nn-iads-iadspropertyentry) и [**иадспропертивалуе**](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue) для прямого доступа к свойствам и их перечисления в кэше свойств. Для служб каталогов, которые не предоставляют схему, этот интерфейс позволяет управлять свойствами объекта.
 -   Интерфейс [**идиректорйобжект**](/windows/desktop/api/Iads/nn-iads-idirectoryobject) для клиентов, не поддерживающих автоматизацию. При этом используется протокол over-Wire для максимальной производительности и обход кэша свойств.
 -   Интерфейс [**иадсконтаинер**](/windows/desktop/api/Iads/nn-iads-iadscontainer) . Каждый объект Active Directory имеет родительский контейнер, который управляет его временем существования. Имейте в виду, что для объектов контейнера ADs параметр [**iAds:: info**](/windows/desktop/api/Iads/nf-iads-iads-getinfo) влияет только на свойства контейнера, а не на его содержимое. Сетинфо для объектов контейнера ADs затрагивает только свойства контейнера и не влияет на вновь созданные объекты или объекты, которые уже существуют в контейнере.
--   Интерфейс [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) . Это интерфейс автоматизации для таких языков, как Visual Basic Scripting Edition, которые не используют привязку времени компиляции. Связано с этим данными библиотеки типов, которые должен предоставить поставщик. Дополнительные сведения см. в статье [вопросы реализации поставщиков ADSI](implementation-issues-for-adsi-providers.md).
+-   Интерфейс [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) . это интерфейс автоматизации для таких языков, как Visual Basic scripting Edition, которые не используют привязку времени компиляции. Связано с этим данными библиотеки типов, которые должен предоставить поставщик. Дополнительные сведения см. в статье [вопросы реализации поставщиков ADSI](implementation-issues-for-adsi-providers.md).
 -   Объект контейнера класса схемы, соответствующий синтаксис, свойство и объекты класса схемы, поддерживающие [**иадссинтакс**](/windows/desktop/api/Iads/nn-iads-iadssyntax), [**иадспроперти**](/windows/desktop/api/Iads/nn-iads-iadsproperty)и [**иадскласс**](/windows/desktop/api/Iads/nn-iads-iadsclass) соответственно. Как минимум, каждый корневой узел должен содержать собственный объект-контейнер класса схемы.
 -   Интерфейс [**иадсмемберс**](/windows/desktop/api/Iads/nn-iads-iadsmembers) , если какие – либо поддерживаемые атрибуты являются коллекциями объектов ADSI, например группами безопасности.
 -   Интерфейс [**иадсколлектион**](/windows/desktop/api/Iads/nn-iads-iadscollection) , если поддерживаемые атрибуты являются коллекциями одного и того же типа элементов каталога с [**Иадсколлектион:: Add**](/windows/desktop/api/Iads/nf-iads-iadscollection-add) и [**иадсколлектион:: Remove**](/windows/desktop/api/Iads/nf-iads-iadscollection-remove) .
@@ -34,6 +34,6 @@ ms.locfileid: "104070623"
 
 Как и в случае любой реализации COM, вызовы [**QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) должны возвращать **\_ интерфейс e** для нереализованных интерфейсов, **e \_ нотимпл** для нереализованных методов интерфейсов, которые в противном случае реализованы, и возвращать **E \_ ADS \_ свойство \_ не \_ поддерживается** для нереализованных свойств. Дополнительные сведения о сдвоенных интерфейсах и их влиянии на реализацию свойства см. в разделе [сдвоенные интерфейсы](dual-interfaces.md).
 
- 
+ 
 
- 
+ 

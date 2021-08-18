@@ -4,12 +4,12 @@ ms.assetid: 42E7DB19-9FB9-4226-B0B5-97AD6B9C0E12
 title: Свойство CODECAPI_AVEncSliceControlSize (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e4c3e58fa34922941ea564d42e449cefd798ad2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d068d8b2c5fc15fdb82c3ffe068e6926d28228a19367114067e02ebc44b03726
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104143243"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035352"
 ---
 # <a name="codecapi_avencslicecontrolsize-property"></a>КОДЕКАПИ \_ авенкслицеконтролсизе, свойство
 
@@ -23,7 +23,7 @@ ms.locfileid: "104143243"
 
 **КОДЕКАПИ \_ авенкслицеконтролсизе**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **Кодировщики H. 264/AVC:**
 
@@ -55,9 +55,9 @@ ms.locfileid: "104143243"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8.1 \|\]<br/>                                   |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 R2 \|\]<br/>                        |
-| Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8.1 \[ приложения UWP для классических приложений \|\]<br/>                                   |
+| Минимальная версия сервера<br/> | Windows Server 2012 Приложения универсального \[ приложения UWP для настольных приложений \|\]<br/>                        |
+| Заголовок<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 
 

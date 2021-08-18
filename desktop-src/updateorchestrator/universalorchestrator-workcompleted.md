@@ -3,12 +3,12 @@ title: IUniversalOrchestrator::WorkCompleted
 description: Вызывает универсальную Orchestrator для обозначения завершения работы
 ms.topic: reference
 ms.date: 01/14/2021
-ms.openlocfilehash: e36a3ba744df807abbebc6332ac8433010afd667
-ms.sourcegitcommit: 3cea99a2ed9579a94236fa7924abd6149db51a58
+ms.openlocfilehash: 5094ae864b4df9a3dd53b90c3b7d099a206a0ad8db1d1176b603b5ba45ca8194
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2021
-ms.locfileid: "114991831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118966085"
 ---
 # <a name="iuniversalorchestratorworkcompleted-method"></a>Метод Иуниверсалорчестратор:: Ворккомплетед
 
@@ -38,7 +38,7 @@ HRESULT WorkCompleted(
 ## <a name="return-value"></a>Возвращаемое значение
 Если этот метод завершается с ошибкой, возвращается **S_OK**.  В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Версия |
 |---|---|

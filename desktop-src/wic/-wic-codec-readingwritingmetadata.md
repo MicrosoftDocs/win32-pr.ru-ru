@@ -1,23 +1,23 @@
 ---
-description: В этом разделе приводятся общие сведения об использовании интерфейсов API компонента Windows Imaging Component (WIC) для чтения и записи метаданных, внедренных в файлы изображений.
+description: в этом разделе приводятся общие сведения об использовании интерфейсов api компонента Windows imaging (WIC) для чтения и записи метаданных, внедренных в файлы изображений.
 ms.assetid: b1e0b936-a13a-42dd-8470-957ba1d90423
 title: Общие сведения о чтении и записи метаданных изображений
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 484d562b71184c20adf054f1de2a4203878da9b8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 191ffbe919e09acb153505fd3b43b50453b67708259206bffe66a0322d485a1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998703"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119088149"
 ---
 # <a name="overview-of-reading-and-writing-image-metadata"></a>Общие сведения о чтении и записи метаданных изображений
 
-В этом разделе приводятся общие сведения об использовании интерфейсов API компонента Windows Imaging Component (WIC) для чтения и записи метаданных, внедренных в файлы изображений.
+в этом разделе приводятся общие сведения об использовании интерфейсов api компонента Windows imaging (WIC) для чтения и записи метаданных, внедренных в файлы изображений.
 
 В этом разделе содержатся следующие подразделы.
 
--   [Предварительные условия](#prerequisites)
+-   [Предварительные требования](#prerequisites)
 -   [Введение](#introduction)
 -   [Чтение Метададата с помощью средства чтения запросов](#reading-metadadata-using-a-query-reader)
     -   [Получение средства чтения запросов](#obtaining-a-query-reader)
@@ -32,9 +32,9 @@ ms.locfileid: "103998703"
     -   [Добавление заполнения в блоки метаданных](#adding-padding-to-metadata-blocks)
     -   [Получение высокоскоростного кодировщика метаданных](#obtaining-a-fast-metadata-encoder)
     -   [Использование кодировщика быстрых метаданных](#using-the-fast-metadata-encoder)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
-## <a name="prerequisites"></a>Предварительные условия
+## <a name="prerequisites"></a>Обязательные условия
 
 Чтобы понять этот раздел, необходимо ознакомиться с системой метаданных WIC, как описано в [обзоре метаданных WIC](-wic-about-metadata.md). Также следует ознакомиться с языком запросов, используемым для чтения и записи метаданных, как описано в разделе [Общие сведения о языке запросов метаданных](-wic-codec-metadataquerylanguage.md).
 
@@ -49,7 +49,7 @@ ms.locfileid: "103998703"
 
 Более продвинутый метод — прямой доступ к обработчикам метаданных. Обработчик метаданных извлекается из отдельных кадров с помощью модуля чтения блока ([**ивикметадатаблоккреадер**](/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader)) или модуля записи блока ([**ивикметадатаблокквритер**](/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockwriter)). Доступны два типа обработчиков метаданных: средство чтения метаданных ([**ивикметадатареадер**](/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatareader)) и модуль записи метаданных ([**ивикметадатавритер**](/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatawriter)).
 
-Следующая схема содержимого файла изображения JPEG используется во всех примерах этого раздела. Изображение, представленное этой схемой, было создано с помощью Microsoft Paint; метаданные оценки были добавлены с помощью фотоальбома Windows Vista.
+Следующая схема содержимого файла изображения JPEG используется во всех примерах этого раздела. Изображение, представленное этой схемой, было создано с помощью Microsoft Paint; метаданные оценки были добавлены с помощью функции "фотоальбом" Windows Vista.
 
 ![Иллюстрация изображения JPEG с метаданными оценки](graphics/jpeg.png)
 
@@ -586,14 +586,14 @@ if (SUCCEEDED(hr))
 
 Если **фиксация** завершается неудачей по какой-либо причине, необходимо повторно закодировать образ, чтобы новые метаданные добавлялись в образ.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 **Зрения**
 </dt> <dt>
 
-[Общие сведения о компоненте создания образов Windows](-wic-about-windows-imaging-codec.md)
+[Windows Общие сведения о компонентах обработки изображений](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 [Общие сведения о метаданных компонента WIC](-wic-about-metadata.md)

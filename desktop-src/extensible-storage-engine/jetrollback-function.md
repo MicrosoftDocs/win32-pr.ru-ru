@@ -18,17 +18,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: eda0c8947e9609717bbb3f1a16999b450d7e4882
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e96e28924578945685c58b3bd0a1fa1380e8abd330b546678cfe1ff1af47c666
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118978834"
 ---
 # <a name="jetrollback-function"></a>Функция Жетроллбакк
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jetrollback-function"></a>Функция Жетроллбакк
 
@@ -73,7 +73,7 @@ _**Применимо к:** Windows | Windows Server_
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. Дополнительные сведения о возможных ошибках ESE см. в разделе [ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -97,7 +97,7 @@ _**Применимо к:** Windows | Windows Server_
 </tr>
 <tr class="odd">
 <td><p>JET_errInstanceUnavailable</p></td>
-<td><p>Невозможно выполнить операцию, поскольку экземпляр, связанный с сеансом, обнаружил неустранимую ошибку, которая требует, чтобы доступ ко всем данным был отозван для защиты целостности этих данных. Эта ошибка будет возвращена только Windows XP и более поздних версий.</p></td>
+<td><p>Невозможно выполнить операцию, поскольку экземпляр, связанный с сеансом, обнаружил неустранимую ошибку, которая требует, чтобы доступ ко всем данным был отозван для защиты целостности этих данных. эта ошибка будет возвращена только Windows XP и более поздних выпусках.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errNotInitialized</p></td>
@@ -117,7 +117,7 @@ _**Применимо к:** Windows | Windows Server_
 </tr>
 <tr class="even">
 <td><p>JET_errSessionSharingViolation</p></td>
-<td><p>Один и тот же сеанс нельзя использовать одновременно для нескольких потоков. Эта ошибка будет возвращена только Windows XP и более поздних версий.</p></td>
+<td><p>Один и тот же сеанс нельзя использовать одновременно для нескольких потоков. эта ошибка будет возвращена только Windows XP и более поздних выпусках.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errTermInProgress</p></td>
@@ -131,13 +131,13 @@ _**Применимо к:** Windows | Windows Server_
 
 В случае сбоя состояние транзакции сеанса останется неизменным. Изменение состояния базы данных не выполняется. Сбой во время отката считается катастрофической ошибкой базы данных.
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 Должен быть один вызов [жеткоммиттрансактион](./jetcommittransaction-function.md) или **жетроллбакк** для сопоставления каждого вызова [жетбегинтрансактион](./jetbegintransaction-function.md) для данного сеанса.
 
 Если какие-либо курсоры были открыты (например, с помощью [жетопентабле](./jetopentable-function.md)) во время точки сохранения, для которой выполняется откат, этот курсор будет закрыт.
 
-#### <a name="requirements"></a>Требования
+#### <a name="requirements"></a>Requirements (Требования)
 
 <table>
 <colgroup>
@@ -147,11 +147,11 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
+<td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
+<td><p><strong>Сервер</strong></p></td>
+<td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>
@@ -169,7 +169,7 @@ _**Применимо к:** Windows | Windows Server_
 </table>
 
 
-#### <a name="see-also"></a>См. также:
+#### <a name="see-also"></a>См. также
 
 [JET_ERR](./jet-err.md)  
 [JET_GRBIT](./jet-grbit.md)  

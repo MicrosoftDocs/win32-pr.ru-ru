@@ -3,9 +3,9 @@ title: Событие проигрывателя. Click
 description: Событие Click возникает, когда пользователь нажимает кнопку мыши.
 ms.assetid: c2d5fab9-9b53-4d0c-a001-8cbf4430e713
 keywords:
-- Щелкните событие проигрыватель Windows Media Player.
-- Щелкните событие проигрыватель Windows Media Player, класс проигрывателя
-- Класс проигрывателя Windows Media Player, событие Click
+- щелкните проигрыватель Windows Media событий
+- щелкните проигрыватель Windows Media событий, класс проигрывателя
+- класс проигрывателя проигрыватель Windows Media, событие click
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e8389460d59018b221749719d32edbaa89943808
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b60e6368c6ccb70d0bc87c9fc2d1d99770b4fa36dfe957365d48a2e26c00a163
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704462"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995934"
 ---
 # <a name="playerclick-event"></a>Событие проигрывателя. Click
 
@@ -77,24 +77,24 @@ Player.Click(
 
 Это событие не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Значение параметров события указывается проигрывателем Windows Media, доступ к которому можно получить или передать в метод в импортированном файле JScript с использованием имени параметра. Имя этого параметра должно быть введено в точности так, как показано, включая прописные буквы.
+значение параметров события задается проигрыватель Windows Media, и к нему можно получить доступ или передать в метод в импортированном JScriptном файле, используя имя параметра. Имя этого параметра должно быть введено в точности так, как показано, включая прописные буквы.
 
-**Проигрыватель Windows Media 10 Mobile:** Это событие не поддерживается.
+**проигрыватель Windows Media 10 Mobile:** Это событие не поддерживается.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии.<br/>                                 |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии.<br/>                                 |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

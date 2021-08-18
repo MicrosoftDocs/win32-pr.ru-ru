@@ -79,7 +79,7 @@ HRESULT RegisterSystemHealthValidator(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -87,13 +87,13 @@ HRESULT RegisterSystemHealthValidator(
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Ни одна версия не поддерживается<br/>                                                                          |
 | Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                               |
-| Header<br/>                   | <dl> <dt>Напсерверманажемент. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Напсерверманажемент. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Напсерверманажемент. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qsvrmgmt.dll</dt> </dl>            |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

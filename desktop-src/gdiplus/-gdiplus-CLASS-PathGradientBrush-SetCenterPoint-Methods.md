@@ -4,12 +4,12 @@ ms.assetid: 41765887-b1de-4259-95af-a1ef8c84d01a
 title: Методы Пасградиентбруш. Сетцентерпоинт (Гдиплуспас. h)
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: a810f8fc9579ed12f24a25477859826eecc32998
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d9f335735e60f1b7ef767a2827c3cd1461e4fef52650bf976295ad2e9492bb27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104998924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118977844"
 ---
 # <a name="pathgradientbrushsetcenterpoint-methods"></a>Пасградиентбруш. Сетцентерпоинт, методы
 
@@ -32,7 +32,7 @@ ms.locfileid: "104998924"
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Гдиплуспас. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Гдиплуспас. h</dt> </dl> |
 
 
 

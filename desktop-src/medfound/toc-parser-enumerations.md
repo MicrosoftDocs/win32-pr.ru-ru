@@ -4,12 +4,12 @@ ms.assetid: d414c0d7-e3f1-4697-8ab1-f38815eaf889
 title: Перечисления перечислений синтаксического анализатора содержимого
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a14a8e1b275d103edf36b969a91b84c94b45718
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b99f73642a83df758c8e27feea12203672da256cbc0b72777c01c7d55166aec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034712"
 ---
 # <a name="table-of-contents-parser-enumerations"></a>Перечисления перечислений синтаксического анализатора содержимого
 
@@ -25,7 +25,7 @@ ms.locfileid: "105711693"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

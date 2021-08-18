@@ -10,18 +10,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 8576d4c7ab5b6103efca4491bc00b2fcf4649ef1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 84e52c329fc311e7f99a6564ac51f90574308e31fa1eaa90bfb6d0bcdddc69b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701995"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130876"
 ---
 # <a name="scripting-api-constants"></a>Константы API скриптов
 
 Инструментарий WMI использует несколько типов констант в параметре *ифлагс* вызовов методов в [API скриптов для WMI](scripting-api-for-wmi.md).
 
-Visual Basic приложения могут включать библиотеку типов для API скриптов Wbemdisp. tlb. Скрипты не могут получить доступ к константам в библиотеке типов, если они не используют <REFERENCE> <OBJECT> теги или из формата XML-файлов сценариев Windows (WSH), как описано в разделе [Использование библиотеки типов сценариев WMI](using-the-wmi-scripting-type-library.md). В противном случае скрипт должен использовать значение константы.
+Visual Basic приложения могут включать библиотеку типов для API скриптов Wbemdisp. tlb. скрипты не могут получить доступ к константам в библиотеке типов, если они не используют <REFERENCE> <OBJECT> теги или из формата XML-файла сценария Windows (WSH), как описано в разделе [использование библиотеки типов сценариев WMI](using-the-wmi-scripting-type-library.md). В противном случае скрипт должен использовать значение константы.
 
 ## <a name="constants"></a>Константы
 
@@ -139,7 +139,7 @@ Next
 
 Не все флаги можно объединить, так как многие из них являются взаимоисключающими и могут привести к непредсказуемым результатам.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

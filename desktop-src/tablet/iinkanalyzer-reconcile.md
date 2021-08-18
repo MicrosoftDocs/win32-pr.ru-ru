@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 33229c7da47f294f317d2216d9e9bf4f6b114599
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3b16497a7f7822bf1557e3e686a81497a4e3723e71f115a1a7d6aa59d8381db2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105647183"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119092034"
 ---
 # <a name="iinkanalyzerreconcile-method"></a>Метод Иинканализер:: Reconcile
 
@@ -41,7 +41,7 @@ HRESULT Reconcile();
 
 Описание возвращаемых значений см. в разделе [классы и интерфейсы — анализ рукописного ввода](classes-and-interfaces---ink-analysis.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 По умолчанию [**иинканализер**](iinkanalyzer.md) выполняет этап автоматической сверки непосредственно перед вызовом событий [**\_ ианалисисевентс:: интермедиатересултс**](-ianalysisevents-intermediateresults.md) и [**\_ ианалисисевентс:: Results**](-ianalysisevents-results.md) .
 
@@ -57,7 +57,7 @@ HRESULT Reconcile();
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/>                                                 |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/>                                                 |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>Иаком. h (также требуется Иаком \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |

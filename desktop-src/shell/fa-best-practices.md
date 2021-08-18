@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: f49c1df6d145c32b8fcbdf70462b30f14f51b3d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8cfa57faea9423af31e494c37d97af2b61d690095fb669a6a9b47109f6e97e70
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104541087"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119094219"
 ---
 # <a name="best-practices-for-file-associations"></a>Рекомендации по сопоставлению файлов
 
@@ -28,8 +28,8 @@ ms.locfileid: "104541087"
 -   [Использование правильно сформированных и версий ProgID](#use-properly-formed-and-versioned-progids)
 -   [Не использовать короткие расширения имен файлов](#do-not-use-short-file-name-extensions)
 -   [Регистрация новых типов файлов в базе данных MIME IANA](#register-new-file-types-in-the-iana-mime-database)
--   [Регистрация в веб-службе Windows для сопоставления файлов](#sign-up-with-the-windows-web-service-for-file-associations)
--   [См. также](#related-topics)
+-   [регистрация с помощью веб-службы Windows для сопоставления файлов](#sign-up-with-the-windows-web-service-for-file-associations)
+-   [Связанные темы](#related-topics)
 
 ## <a name="do-not-copy-file-associations-from-the-registry"></a>Не копировать сопоставлений файлов из реестра
 
@@ -75,7 +75,7 @@ MyProgram ждет, что %1 является полным путем к име
 
 ## <a name="do-not-confuse-the-internet-explorer-mime-database-with-file-associations"></a>Не путайте базу данных MIME Internet Explorer с сопоставлениями файлов
 
-Сопоставления файлов похожи на базу данных MIME Windows Internet Explorer. в этих типах файлов могут содержаться определения типов MIME (и должны). Однако база данных MIME Internet Explorer является отдельной и отличается от сопоставлений файлов.
+сопоставления файлов аналогичны Windows базе данных mime в Internet Explorer. в этих типах файлов могут содержаться определения типов mime (и должны). Однако база данных MIME Internet Explorer является отдельной и отличается от сопоставлений файлов.
 
 ## <a name="use-properly-formed-and-versioned-progids"></a>Использование правильно сформированных и версий ProgID
 
@@ -94,18 +94,18 @@ MyProgram ждет, что %1 является полным путем к име
 
 Центр назначенных номеров Интернета (IANA) хранит общедоступную базу данных зарегистрированных типов MIME. При определении нового типа общедоступного файла рекомендуется также определить тип MIME для типа файла и зарегистрировать этот тип в IANA. Нет затрат на регистрацию.
 
-## <a name="sign-up-with-the-windows-web-service-for-file-associations"></a>Регистрация в веб-службе Windows для сопоставления файлов
+## <a name="sign-up-with-the-windows-web-service-for-file-associations"></a>регистрация с помощью веб-службы Windows для сопоставления файлов
 
-Разработчики приложений могут зарегистрироваться в веб-службе Windows, которую пользователи используют для поиска приложений, которые могут работать с файлами конкретного типа. Процесс регистрации в веб-службе подробно описан в процессе встроенной [системы сопоставления файлов Windows](https://support.microsoft.com/kb/929149).
+разработчики приложений могут зарегистрироваться в Windows веб-службе, которую пользователи используют для поиска приложений, которые могут работать с файлами конкретных типов. процесс регистрации в веб-службе подробно описан в [Windows процессе сопоставления файлов в системе](https://support.microsoft.com/kb/929149).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Пример сценария сопоставления файлов](fa-sample-scenarios.md)
 </dt> <dt>
 
-[Рекомендации по управлению приложениями по умолчанию в Windows Vista и более поздних версиях](vista-managing-defaults.md)
+[рекомендации по управлению приложениями по умолчанию в Windows Vista и более поздних версий](vista-managing-defaults.md)
 </dt> <dt>
 
 [Программы по умолчанию](default-programs.md)

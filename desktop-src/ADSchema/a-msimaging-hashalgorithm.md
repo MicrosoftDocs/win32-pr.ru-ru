@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b420b2f93e33e9781d898323c18be59953d06ee
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: db67ba6b2a9f8e01da299c98109c23247b826c6cb9c3c54a2d13a39274fcd6c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105655159"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960553"
 ---
 # <a name="ms-imaging-hash-algorithm-attribute"></a>атрибут MS-Imaging-Hash-Algorithm
 
@@ -53,7 +53,7 @@ ms.locfileid: "105655159"
 | Идентификатор ссылки                | \-                                        |
 | MAPI-Id                | \-                                        |
 | System-Only            | Неверно                                     |
-| Является однозначным       | True                                      |
+| Является однозначным       | Верно                                      |
 | Индексируется             | Неверно                                     |
 | В глобальном каталоге      | Неверно                                     |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                              |

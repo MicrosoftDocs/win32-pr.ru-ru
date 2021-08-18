@@ -1,5 +1,5 @@
 ---
-description: Указывает, может ли элемент размещаться в кадре браузера или проводника Windows.
+description: указывает, может ли элемент размещаться в браузере или фрейме обозревателя Windows Explorer.
 ms.assetid: 472e0906-9561-4390-a503-c5e490245ea0
 title: Свойство FolderItem. Property (Шлдисп. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: d7c5f7a9cbde54647c299646bb6350c3be6aa2a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c417b3a225ba7d9f39329fe274d99ee09c3a98353a9822d1047ea426610411c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104423514"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119093100"
 ---
 # <a name="folderitemisbrowsable-property"></a>FolderItem. свойство с возможностью просмотра
 
-Указывает, может ли элемент размещаться в кадре браузера или проводника Windows.
+указывает, может ли элемент размещаться в браузере или фрейме обозревателя Windows Explorer.
 
 Это свойство доступно только для чтения.
 
@@ -41,9 +41,9 @@ bIsBrowsable = FolderItem.IsBrowsable
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере для определения отображаемого состояния папки Windows используется параметр «с **возможностью** просмотра». Правильное использование показано в JScript, VBScript и Visual Basic.
+в следующем примере для определения отображаемого состояния папки Windows используется функция "с **возможностью** просмотра". правильное использование отображается для JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -148,7 +148,7 @@ End Sub
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                           |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                         |

@@ -3,7 +3,7 @@ title: некстелемент
 description: Это предопределенный БУТТОНЕЛЕМЕНТ со следующими значениями по умолчанию. | некстелемент
 ms.assetid: 8dcf9031-febc-459f-b781-8ee2f93580c8
 keywords:
-- НЕКСТЕЛЕМЕНТ Windows Media Player
+- некстелемент проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f8583e868fa1e4ddbf3d5b347b0a45926b4eb60e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3dc89b62e21702bda6348b050eb40b79c3c70117b1a56e71a7de03d1cd844c33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996074"
 ---
 # <a name="nextelement"></a>некстелемент
 
@@ -31,21 +31,21 @@ cursor="system"
 enabled="wmpenabled:player.controls.next"
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Все свойства этого **буттонелемент** можно переопределить, явно указав их.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

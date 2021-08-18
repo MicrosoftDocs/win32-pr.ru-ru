@@ -3,23 +3,23 @@ title: Запуск процесса записи
 description: Запуск процесса записи
 ms.assetid: 91442bd2-1a68-465c-b865-63d309f33d55
 keywords:
-- Проигрыватель Windows Media, запись компакт-дисков
-- Объектная модель проигрывателя Windows Media, запись компакт-дисков
+- проигрыватель Windows Media, запись компакт-дисков
+- проигрыватель Windows Media объектной модели, запись компакт-диска
 - Объектная модель, запись компакт-диска
-- Элемент управления ActiveX проигрывателя Windows Media, запись компакт-дисков
-- Элемент управления ActiveX, запись компакт-дисков
-- Мобильный элемент управления ActiveX проигрывателя Windows Media, запись компакт-дисков
-- Проигрыватель Windows Media Mobile, запись компакт-дисков
+- проигрыватель Windows Media ActiveX управления, запись компакт-дисков
+- ActiveX управления, запись компакт-дисков
+- проигрыватель Windows Media мобильный ActiveX элемент управления, запись компакт-дисков
+- проигрыватель Windows Media Мобильные устройства, запись компакт-дисков
 - Запись компакт-дисков, запуск процесса записи
 - запись компакт-дисков, запуск процесса записи
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4a35f473eebe35bffd48ac802dcfe79082689de
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 50f5620ba8fa6ab911cf0fd594fd27f139b5061d1383575f861dadfec45dabbf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103987208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995084"
 ---
 # <a name="starting-the-burn-process"></a>Запуск процесса записи
 
@@ -69,7 +69,7 @@ hr = m_spCdromBurn->stopBurn();
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -88,9 +88,9 @@ hr = m_spCdromBurn->stopBurn();
 [**Получение состояния записи**](retrieving-the-burn-status.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

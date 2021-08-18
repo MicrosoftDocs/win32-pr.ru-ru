@@ -18,17 +18,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7820f90ef0192c1f700759835bf1572b187cf3be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 616a1a5a93c10ae79894c81e4530edc618848716190b887f16e850f89e3a79e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118978823"
 ---
 # <a name="jetopentemptable3-function"></a>Функция JetOpenTempTable3
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jetopentemptable3-function"></a>Функция JetOpenTempTable3
 
@@ -126,7 +126,7 @@ _**Применимо к:** Windows | Windows Server_
 <td><p>JET_bitTTForwardOnly</p></td>
 <td><p>Этот параметр запрашивает создание временной таблицы только в том случае, если диспетчер временных таблиц может использовать реализацию, оптимизированную для промежуточных результатов запроса. Если любая характеристика временной таблицы не позволит использовать эту оптимизацию, операция завершится с JET_errCannotMaterializeForwardOnlySort.</p>
 <p>Побочный результат этого параметра — Разрешить временной таблице содержать записи с повторяющимися ключами индекса. Дополнительные сведения см. в разделе JET_bitTTUnique.</p>
-<p>Этот параметр доступен только в выпусках Windows Server 2003 и более поздних версий.</p></td>
+<p>этот параметр доступен только на Windows Server 2003 и более поздних выпусках.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_bitTTIndexed</p></td>
@@ -136,7 +136,7 @@ _**Применимо к:** Windows | Windows Server_
 <tr class="odd">
 <td><p>JET_bitTTUnique</p></td>
 <td><p>Этот параметр запрашивает удаление записей с повторяющимися ключами индекса из окончательного набора записей во временной таблице.</p>
-<p>До Windows Server 2003 в ядре СУБД всегда предполагается, что этот параметр действует из-за того факта, что все кластеризованные индексы также должны быть первичным ключом и, таким же, должны быть уникальными. Начиная с Windows Server 2003, теперь можно создать временную таблицу, которая не удаляет дубликаты, если также указан параметр JET_bitTTForwardOnly.</p>
+<p>до Windows сервера 2003 в ядре субд всегда предполагается, что этот параметр действует из-за того, что все кластеризованные индексы также должны быть первичным ключом и, таким же, должны быть уникальными. начиная с Windows Server 2003, теперь можно создать временную таблицу, которая не удаляет дубликаты, если также указан параметр JET_bitTTForwardOnly.</p>
 <p>Невозможно понять, какие дубликаты будут выдаваться, и какие дубликаты будут отменены в целом. Однако при запросе параметра JET_bitTTErrorOnDuplicateInsertion первая запись с заданным ключом индекса для вставки во временную таблицу всегда будет выдаваться.</p></td>
 </tr>
 <tr class="even">
@@ -174,7 +174,7 @@ _**Применимо к:** Windows | Windows Server_
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. Дополнительные сведения о возможных ошибках ESE см. в разделе [ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -194,7 +194,7 @@ _**Применимо к:** Windows | Windows Server_
 </tr>
 <tr class="even">
 <td><p>JET_errCannotMaterializeForwardOnlySort</p></td>
-<td><p>Произошел сбой <strong>JetOpenTempTable3</strong> , так как указана JET_bitTTForwardOnly, а временная таблица указана не может быть создана с помощью оптимизации "только вперед". Эта ошибка будет возвращена только в Windows Server 2003 и более поздних выпусках.</p></td>
+<td><p>Произошел сбой <strong>JetOpenTempTable3</strong> , так как указана JET_bitTTForwardOnly, а временная таблица указана не может быть создана с помощью оптимизации "только вперед". эта ошибка будет возвращена только Windows Server 2003 и более поздних выпусках.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errClientRequestToStopJetService</p></td>
@@ -207,11 +207,11 @@ _**Применимо к:** Windows | Windows Server_
 <li><p>Указан языковой стандарт, не зависящий от языка.</p></li>
 <li><p>Указан недопустимый набор флагов нормализации.</p></li>
 </ul>
-<p>Эта ошибка будет возвращена только Windows 2000.</p></td>
+<p>эта ошибка будет возвращена только Windows 2000.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errInstanceUnavailable</p></td>
-<td><p>Невозможно выполнить операцию, поскольку экземпляр, связанный с сеансом, обнаружил неустранимую ошибку, которая требует, чтобы доступ ко всем данным был отозван для защиты целостности этих данных. Эта ошибка будет возвращена только Windows XP и более поздних версий.</p></td>
+<td><p>Невозможно выполнить операцию, поскольку экземпляр, связанный с сеансом, обнаружил неустранимую ошибку, которая требует, чтобы доступ ко всем данным был отозван для защиты целостности этих данных. эта ошибка будет возвращена только Windows XP и более поздних выпусках.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errInvalidCodePage</p></td>
@@ -227,7 +227,7 @@ _**Применимо к:** Windows | Windows Server_
 </tr>
 <tr class="odd">
 <td><p>JET_errInvalidLCMapStringFlags</p></td>
-<td><p>Не удалось создать индекс, поскольку предпринята попытка использовать недопустимый набор флагов нормализации. Эта ошибка будет возвращена только Windows XP и более поздних версий. В Windows 2000 недопустимые флаги нормализации приводят к JET_errIndexInvalidDef.</p></td>
+<td><p>Не удалось создать индекс, поскольку предпринята попытка использовать недопустимый набор флагов нормализации. эта ошибка будет возвращена только Windows XP и более поздних выпусках. в Windows 2000 недопустимые флаги нормализации приводят к JET_errIndexInvalidDef.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errInvalidSesid</p></td>
@@ -253,7 +253,7 @@ _**Применимо к:** Windows | Windows Server_
 <tr class="odd">
 <td><p>JET_errSessionSharingViolation</p></td>
 <td><p>Один и тот же сеанс нельзя использовать одновременно для нескольких потоков.</p>
-<p>Эта ошибка будет возвращена только Windows XP и более поздних версий.</p></td>
+<p>эта ошибка будет возвращена только Windows XP и более поздних выпусках.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errTermInProgress</p></td>
@@ -283,7 +283,7 @@ _**Применимо к:** Windows | Windows Server_
 
 При сбое временная таблица не будет создана и курсор не будет возвращен. Состояние временной базы данных может быть изменено. Состояние всех обычных баз данных, используемых ядром СУБД, останется неизменным.
 
-#### <a name="requirements"></a>Требования
+#### <a name="requirements"></a>Requirements (Требования)
 
 <table>
 <colgroup>
@@ -293,11 +293,11 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
+<td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
+<td><p><strong>Сервер</strong></p></td>
+<td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>
@@ -315,9 +315,9 @@ _**Применимо к:** Windows | Windows Server_
 </table>
 
 
-#### <a name="see-also"></a>См. также:
+#### <a name="see-also"></a>См. также
 
-[Ошибки расширяемого подсистемы хранилища](./extensible-storage-engine-errors.md)  
+[ошибки расширенного обработчика служба хранилища](./extensible-storage-engine-errors.md)  
 [Параметры обработки ошибок](./error-handling-parameters.md)  
 [JET_COLUMNDEF](./jet-columndef-structure.md)  
 [JET_COLUMNID](./jet-columnid.md)  

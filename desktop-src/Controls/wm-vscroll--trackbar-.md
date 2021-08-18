@@ -3,7 +3,7 @@ title: Код уведомления WM_VSCROLL (TrackBar) (Winuser. h)
 description: Сообщение WM \_ VSCROLL отправляется владельцу элемента управления "вертикальная прокрутка" при изменении положения ползунка. Окно получает это сообщение через функцию WindowProc.
 ms.assetid: E491E210-9605-4ABB-A667-471830DA7C2B
 keywords:
-- Элементы управления Windows для кода уведомления WM_VSCROLL (TrackBar)
+- коды уведомлений WM_VSCROLL (Trackbar) Windows элементов управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d1e13b07fab3335bf99469cd43ed1caa10373a97
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0dabd6c3c50588c4a9052b0829473352940f0027a1c12d0f3bbc6334e5f13b08
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119077658"
 ---
 # <a name="wm_vscroll-trackbar-notification-code"></a>\_Код уведомления WM VSCROLL (TrackBar)
 
@@ -79,7 +79,7 @@ WM_HSCROLL
 
 Если приложение обрабатывает это сообщение, оно должно вернуть ноль.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 \_Код СУМБТРАКК ТБ обычно используется приложениями, которые предоставляют отзыв по мере того, как пользователь перетаскивает ползунок.
 
@@ -91,9 +91,9 @@ WM_HSCROLL
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 703A7BF0-A89F-40E9-9440-B8C8E03FDE1A
 title: Атрибут MF_MSE_ACTIVELIST_CALLBACK (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d449e6c4237f51950e82d75165022313b09d04cd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b321eb494454c303ba6a7c88781415b9b302972ef82f41116d5801b96d73017
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104610"
 ---
 # <a name="mf_mse_activelist_callback-attribute"></a>\_ \_ \_ Атрибут обратного вызова активелист для MF MSE
 
@@ -25,8 +25,8 @@ ms.locfileid: "105712061"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только Windows 8.1 Классические приложения\]<br/>                                       |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2012 R2 \[\]<br/>                            |
+| Минимальная версия клиента<br/> | Windows 8.1 \[ только классические приложения\]<br/>                                       |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[Только классические приложения R2\]<br/>                            |
 | Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 

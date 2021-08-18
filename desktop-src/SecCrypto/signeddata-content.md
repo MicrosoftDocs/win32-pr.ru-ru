@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 3c2ac97eeee317b4ec170338f666e5b5d9277861
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b9f4439f7fc7c2a71887fcb78991cf54a814a8682f991545ec33301e2fb9bc95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669315"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118899238"
 ---
 # <a name="signeddatacontent-property"></a>Сигнеддата. Content, свойство
 
@@ -39,7 +39,7 @@ SignedData.Content As String
 
 Данные, которые должны быть подписаны.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство должно быть инициализировано до вызова метода [**Sign**](signeddata-sign.md) . Когда значение этого свойства сбрасывается прямо или косвенно, все [*состояние*](../secgloss/s-gly.md) объекта сбрасывается, и все сигнатуры, связанные с объектом до изменения свойства, теряются.
 

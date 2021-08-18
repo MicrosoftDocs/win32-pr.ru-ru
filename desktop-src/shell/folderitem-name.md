@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 5f5eb757455b8bbbd4161eae477ca4677eef4fc2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 42f5a111d5ef992635d03be8c4b67a5c50bd22df4298ac7412a98f0ba8d6fb83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896554"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119093074"
 ---
 # <a name="folderitemname-property"></a>FolderItem.Name, свойство
 
@@ -42,9 +42,9 @@ FolderItem.Name = strName
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере используется **имя** для получения имени файла Autoexec.bat, а затем выполняется сброс имени в Test.bat. Правильное использование показано в JScript, VBScript и Visual Basic.
+В следующем примере используется **имя** для получения имени файла Autoexec.bat, а затем выполняется сброс имени в Test.bat. правильное использование отображается для JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -147,7 +147,7 @@ End Sub
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                           |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                         |

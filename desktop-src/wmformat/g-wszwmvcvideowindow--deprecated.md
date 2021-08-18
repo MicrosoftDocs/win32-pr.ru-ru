@@ -1,6 +1,6 @@
 ---
 title: g_wszWMVCVideoWindow (Вмкодекдсп. h)
-description: Текущую документацию по кодекам Windows Media и обработчикам цифровых сигналов см. в статье интерфейсы API аудио-и видеокодеков Windows Media и DSP. | g_wszWMVCVideoWindow (Вмкодекдсп. h)
+description: текущую документацию по Windows кодеков мультимедиа и обработчикам цифровых сигналов см. в разделе Windows media Audio и Video кодек и DSP api. | g_wszWMVCVideoWindow (Вмкодекдсп. h)
 ms.assetid: ef9df026-d0b5-4b7d-8b4e-89ce637f06e1
 keywords:
 - g_wszWMVCVideoWindow формат Windows Media
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6cfe88eefdf02ea55e8b3d8d38b0c9c1c8a9f0fd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 877e087e6f896fd8df6729abc9e595b60909bfd8aeaeae550d3385e985426f61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964043"
 ---
 # <a name="g_wszwmvcvideowindow"></a>g \_ всзвмвквидеовиндов
 
-Текущую документацию по кодекам Windows Media и обработчикам цифровых сигналов см [. в статье интерфейсы API аудио-и видеокодеков Windows Media и DSP.](/previous-versions//dd464626(v=vs.85))
+текущую документацию по Windows кодеков мультимедиа и обработчикам цифровых сигналов см [. в разделе Windows media Audio и Video кодек и DSP api.](/previous-versions//dd464626(v=vs.85))
 
 ## <a name="requirements"></a>Требования
 
@@ -31,7 +31,7 @@ ms.locfileid: "105704495"
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 

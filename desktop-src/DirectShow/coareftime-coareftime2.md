@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3fe94393dcbd00daaa860264754fe391f1c1fb25
-ms.sourcegitcommit: 11f52354f570aacaf1ba2a266b2e507abd73352a
+ms.openlocfilehash: 52339f35bd903dbfbf84f4cdb027085bab7a971ac04bd0cf388b0b2baeb03b95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "105674773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118954373"
 ---
 # <a name="coareftimecoareftime-constructor-ctlutilh---crt-parameter"></a>Конструктор Коарефтиме. Коарефтиме (Ктлутил. h) — параметр CRT
 
@@ -49,14 +49,14 @@ COARefTime(
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование                   | Значение                                                                                                                                                                                           |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header  | Ктлутил. h (включение Streams. h)                                                                                   |
+| Заголовок  | ктлутил. h (включает Потоки. h)                                                                                   |
 | Библиотека | Стрмбасе. lib (розничные сборки); Стрмбасд. lib (отладочные сборки) |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

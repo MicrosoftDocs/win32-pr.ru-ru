@@ -4,12 +4,12 @@ description: Microsoft RPC
 ms.assetid: a9ca629a-2766-43d5-89da-73d0628b3c5e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53be9d46368ae01aee25815327aafeaf7f44525b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ed515b1ca8e58e8e9daaa2bb037dbb9c33ad1d6bb15bd7dc42abd52771e8267a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103772788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130176"
 ---
 # <a name="microsoft-rpc"></a>Microsoft RPC
 
@@ -19,7 +19,7 @@ Microsoft RPC — это модель для программирования в
 
 Помимо библиотек времени выполнения RPC, Microsoft RPC включает в себя язык описания интерфейса (IDL) и его компилятор. Хотя IDL-файл является стандартной частью RPC, корпорация Майкрософт улучшила ее функциональность для поддержки пользовательских COM-интерфейсов. Компилятор язык MIDL (MIDL) использует IDL-файл, описывающий пользовательский интерфейс, для создания нескольких файлов, обсуждаемых в разделе [Создание и регистрация библиотеки DLL прокси](building-and-registering-a-proxy-dll.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -38,9 +38,9 @@ Microsoft RPC — это модель для программирования в
 [Заглушка](stub.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

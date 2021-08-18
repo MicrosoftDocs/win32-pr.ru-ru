@@ -18,17 +18,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 89dde261648b396bcfc9532911c0d4acd3c88828
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 56e94339a49cc80e8b7b416e89efc5c85079981e0430f325e29f1dd711eef63a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703091"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118979003"
 ---
 # <a name="jetgotobookmark-function"></a>Функция Жетготобукмарк
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jetgotobookmark-function"></a>Функция Жетготобукмарк
 
@@ -63,7 +63,7 @@ _**Применимо к:** Windows | Windows Server_
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. Дополнительные сведения о возможных ошибках ESE см. в разделе [ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -88,7 +88,7 @@ _**Применимо к:** Windows | Windows Server_
 <tr class="odd">
 <td><p>JET_errInstanceUnavailable</p></td>
 <td><p>Операция не может быть завершена, поскольку в экземпляре, связанном с сеансом, произошла неустранимая ошибка, которая требует, чтобы доступ ко всем данным был отозван для защиты целостности этих данных.</p>
-<p><strong>Windows XP:</strong>   Это возвращаемое значение было введено в Windows XP.</p></td>
+<p><strong>Windows XP:</strong>   это возвращаемое значение было введено в Windows XP.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errInvalidBookmark</p></td>
@@ -113,7 +113,7 @@ _**Применимо к:** Windows | Windows Server_
 <tr class="odd">
 <td><p>JET_errSessionSharingViolation</p></td>
 <td><p>Один и тот же сеанс нельзя использовать одновременно для нескольких потоков.</p>
-<p><strong>Windows XP:</strong>   Это возвращаемое значение было введено в Windows XP.</p></td>
+<p><strong>Windows XP:</strong>   это возвращаемое значение было введено в Windows XP.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errTermInProgress</p></td>
@@ -127,7 +127,7 @@ _**Применимо к:** Windows | Windows Server_
 
 Если эта функция завершается ошибкой, то позиции курсора останутся без изменений. Если запись подготовлена к обновлению, это обновление будет отменено. Если действует диапазон индексов, то диапазон индексов будет отменен. Если для курсора был создан ключ поиска, этот ключ поиска будет удален. Изменение состояния базы данных не выполняется.
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 Существует два способа использования закладки для размещения курсора в индексе. Первый — использовать закладку для непосредственного позиционирования записи. Это происходит, когда текущий индекс курсора является первичным индексом. Эта методика работает потому, что закладка ESENT совпадает с первичным ключом связанной записи.
 
@@ -143,11 +143,11 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
+<td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
+<td><p><strong>Сервер</strong></p></td>
+<td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>
@@ -165,7 +165,7 @@ _**Применимо к:** Windows | Windows Server_
 </table>
 
 
-#### <a name="see-also"></a>См. также:
+#### <a name="see-also"></a>См. также
 
 [JET_ERR](./jet-err.md)  
 [JET_SESID](./jet-sesid.md)  

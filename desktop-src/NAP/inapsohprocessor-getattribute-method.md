@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ed2d7d9cbafa5a44e0f6c24f4c42959c456722a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1ba1b86ca1eab51fdca382a758a9a65650af2249eb0d605c24274c84d1f95669
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118939571"
 ---
 # <a name="inapsohprocessorgetattribute-method"></a>Метод Инапсохпроцессор:: OutAttribute
 
@@ -92,15 +92,15 @@ HRESULT GetAttribute(
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                       |
-| Header<br/>                   | <dl> <dt>Наппротокол. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                       |
+| Заголовок<br/>                   | <dl> <dt>Наппротокол. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Наппротокол. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qutil.dll</dt> </dl>       |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

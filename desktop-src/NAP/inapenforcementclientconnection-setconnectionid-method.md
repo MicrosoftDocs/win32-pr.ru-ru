@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa9749be304170ec7706b637429f577e77411ac5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1fdde438be329627645c7615453ff198e9c4f01f540684c27e8e3a5699e48499
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118939655"
 ---
 # <a name="inapenforcementclientconnectionsetconnectionid-method"></a>Метод Инапенфорцементклиентконнектион:: Сетконнектионид
 
@@ -70,7 +70,7 @@ HRESULT SetConnectionId(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот ConnectionID в основном используется в целях ведения журнала.
 
@@ -80,15 +80,15 @@ HRESULT SetConnectionId(
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                      |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                |
-| Header<br/>                   | <dl> <dt>Напенфорцементклиент. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                      |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                |
+| Заголовок<br/>                   | <dl> <dt>Напенфорцементклиент. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Напенфорцементклиент. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>               |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

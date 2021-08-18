@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1b8c3eac113daeae43ec4a8e62b7fcda9ddbf9f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2c1c70ab6510d2e63cc1b59e94ae058565937e854968b7ba05e2710ba22aa6af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105719648"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118979054"
 ---
 # <a name="jetaddcolumn-function"></a>Функция JetAddColumn
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jetaddcolumn-function"></a>Функция JetAddColumn
 
@@ -90,7 +90,7 @@ _**Применимо к:** Windows | Windows Server_
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. Дополнительные сведения о возможных ошибках ESE см. в разделе [ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -180,9 +180,9 @@ _**Применимо к:** Windows | Windows Server_
 <li><p>JET_bitColumnFinalize использовался для столбца, который не является столбцом условно-обновления (JET_bitColumnEscrowUpdate не был задан).</p></li>
 <li><p>JET_bitColumnDeleteOnZero использовался для столбца, который не является столбцом условно-обновления (JET_bitColumnEscrowUpdate не был задан).</p></li>
 <li><p>JET_bitColumnAutoincrement использовался для столбца, который не был <a href="gg269213(v=exchg.10).md">JET_coltypLong</a>.</p>
-<p><strong>Windows 2000:  </strong> Эта причина для кода ошибки используется только в Windows 2000.</p>
+<p><strong>Windows 2000:</strong> эта причина для кода ошибки используется только в Windows 2000.</p>
 <p>JET_bitColumnAutoincrement использовался для столбца, который не был ни <a href="gg269213(v=exchg.10).md">JET_coltypLong</a> , ни <a href="gg269213(v=exchg.10).md">JET_coltypCurrency</a>.</p>
-<p><strong>Windows XP:  </strong> По этой причине код ошибки используется в операционных системах Windows XP и более поздних версий.</p></li>
+<p><strong>Windows XP:</strong> по этой причине код ошибки используется в операционных системах Windows XP и более поздних версий.</p></li>
 <li><p>JET_bitColumnVersion использовался для столбца, который не был <a href="gg269213(v=exchg.10).md">JET_coltypLong</a>.</p></li>
 <li><p>JET_bitColumnVersion использовался в столбце AutoIncrement.</p></li>
 <li><p>JET_bitColumnUserDefinedDefault использовался в сочетании с JET_bitColumnFixed.</p></li>
@@ -232,11 +232,11 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
+<td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
+<td><p><strong>Сервер</strong></p></td>
+<td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>
@@ -258,7 +258,7 @@ _**Применимо к:** Windows | Windows Server_
 </table>
 
 
-#### <a name="see-also"></a>См. также:
+#### <a name="see-also"></a>См. также
 
 [JET_COLTYP](./jet-coltyp.md)  
 [JET_COLUMNCREATE](./jet-columncreate-structure.md)  

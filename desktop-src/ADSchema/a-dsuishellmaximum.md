@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7086a49d920caf5bbddd075437648701f4067ea8
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f5ef3fca13afac0642bccca1e278a63a79e4728cc74430fde1db02e5aa47efa3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103893102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118961573"
 ---
 # <a name="ds-ui-shell-maximum-attribute"></a>Атрибут DS-UI-Shell-Maximum
 
@@ -58,7 +58,7 @@ ms.locfileid: "103893102"
 | Идентификатор ссылки                | \-                                                  |
 | MAPI-Id                | \-                                                  |
 | System-Only            | Неверно                                               |
-| Является однозначным       | True                                                |
+| Является однозначным       | Верно                                                |
 | Индексируется             | Неверно                                               |
 | В глобальном каталоге      | Неверно                                               |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                        |
@@ -66,7 +66,7 @@ ms.locfileid: "103893102"
 | Range-Upper            | \-                                                  |
 | Search-Flags           | 0x00000000                                          |
 | System-Flags           | 0x00000010                                          |
-| Классы, используемые в        | [**DS-UI-параметры**](c-dsuisettings.md)<br/> |
+| Классы, используемые в        | [**DS-UI-Параметры**](c-dsuisettings.md)<br/> |
 
 
 
@@ -79,7 +79,7 @@ ms.locfileid: "103893102"
 | Идентификатор ссылки                | \-                                                  |
 | MAPI-Id                | \-                                                  |
 | System-Only            | Неверно                                               |
-| Является однозначным       | True                                                |
+| Является однозначным       | Верно                                                |
 | Индексируется             | Неверно                                               |
 | В глобальном каталоге      | Неверно                                               |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                        |
@@ -87,7 +87,7 @@ ms.locfileid: "103893102"
 | Range-Upper            | \-                                                  |
 | Search-Flags           | 0x00000000                                          |
 | System-Flags           | 0x00000010                                          |
-| Классы, используемые в        | [**DS-UI-параметры**](c-dsuisettings.md)<br/> |
+| Классы, используемые в        | [**DS-UI-Параметры**](c-dsuisettings.md)<br/> |
 
 
 
@@ -100,7 +100,7 @@ ms.locfileid: "103893102"
 | Идентификатор ссылки                | \-                                                  |
 | MAPI-Id                | \-                                                  |
 | System-Only            | Неверно                                               |
-| Является однозначным       | True                                                |
+| Является однозначным       | Верно                                                |
 | Индексируется             | Неверно                                               |
 | В глобальном каталоге      | Неверно                                               |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                        |
@@ -108,7 +108,7 @@ ms.locfileid: "103893102"
 | Range-Upper            | \-                                                  |
 | Search-Flags           | 0x00000000                                          |
 | System-Flags           | 0x00000010                                          |
-| Классы, используемые в        | [**DS-UI-параметры**](c-dsuisettings.md)<br/> |
+| Классы, используемые в        | [**DS-UI-Параметры**](c-dsuisettings.md)<br/> |
 
 
 
@@ -121,7 +121,7 @@ ms.locfileid: "103893102"
 | Идентификатор ссылки                | \-                                                  |
 | MAPI-Id                | \-                                                  |
 | System-Only            | Неверно                                               |
-| Является однозначным       | True                                                |
+| Является однозначным       | Верно                                                |
 | Индексируется             | Неверно                                               |
 | В глобальном каталоге      | Неверно                                               |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                        |
@@ -129,7 +129,7 @@ ms.locfileid: "103893102"
 | Range-Upper            | \-                                                  |
 | Search-Flags           | 0x00000000                                          |
 | System-Flags           | 0x00000010                                          |
-| Классы, используемые в        | [**DS-UI-параметры**](c-dsuisettings.md)<br/> |
+| Классы, используемые в        | [**DS-UI-Параметры**](c-dsuisettings.md)<br/> |
 
 
 
@@ -142,7 +142,7 @@ ms.locfileid: "103893102"
 | Идентификатор ссылки                | \-                                                  |
 | MAPI-Id                | \-                                                  |
 | System-Only            | Неверно                                               |
-| Является однозначным       | True                                                |
+| Является однозначным       | Верно                                                |
 | Индексируется             | Неверно                                               |
 | В глобальном каталоге      | Неверно                                               |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                        |
@@ -150,7 +150,7 @@ ms.locfileid: "103893102"
 | Range-Upper            | \-                                                  |
 | Search-Flags           | 0x00000000                                          |
 | System-Flags           | 0x00000010                                          |
-| Классы, используемые в        | [**DS-UI-параметры**](c-dsuisettings.md)<br/> |
+| Классы, используемые в        | [**DS-UI-Параметры**](c-dsuisettings.md)<br/> |
 
 
 
@@ -163,7 +163,7 @@ ms.locfileid: "103893102"
 | Идентификатор ссылки                | \-                                                  |
 | MAPI-Id                | \-                                                  |
 | System-Only            | Неверно                                               |
-| Является однозначным       | True                                                |
+| Является однозначным       | Верно                                                |
 | Индексируется             | Неверно                                               |
 | В глобальном каталоге      | Неверно                                               |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                        |
@@ -171,7 +171,7 @@ ms.locfileid: "103893102"
 | Range-Upper            | \-                                                  |
 | Search-Flags           | 0x00000000                                          |
 | System-Flags           | 0x00000010                                          |
-| Классы, используемые в        | [**DS-UI-параметры**](c-dsuisettings.md)<br/> |
+| Классы, используемые в        | [**DS-UI-Параметры**](c-dsuisettings.md)<br/> |
 
 
 

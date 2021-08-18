@@ -4,12 +4,12 @@ ms.assetid: 640b9b30-d633-4a5b-a1c8-593d48461c7b
 title: Прокси-сервер System. GPS. Дестлатитуде
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10f8ced7e85a3c2d2af267e3dae99f6d0d6db027
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bd57de1ff3b6be0d9a7844cb8a787aa3e50633f65e7401327849a60eb900d2bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119087874"
 ---
 # <a name="systemgpsdestlatitude-proxy"></a>Прокси-сервер System. GPS. Дестлатитуде
 
@@ -39,7 +39,7 @@ VT \_ UI8
 
 Ловпарт Ухвал.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

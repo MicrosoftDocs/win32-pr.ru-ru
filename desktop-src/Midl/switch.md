@@ -68,7 +68,7 @@ typedef struct _S1_TYPE
 } S1_TYPE;
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

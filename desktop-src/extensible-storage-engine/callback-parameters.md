@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 4e06ed65bbeae195060e4de10424a76a4228f20f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a9c14940ee98d4f664914794cd4ff6185b78dd04f438b982179a7ab3c5eb6504
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118982814"
 ---
 # <a name="callback-parameters"></a>Параметры обратного вызова
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="callback-parameters"></a>Параметры обратного вызова
 
@@ -84,7 +84,7 @@ _**Применимо к:** Windows | Windows Server_
 </tr>
 <tr class="odd">
 <td><p>"Доступность":</p></td>
-<td><p>Windows XP и более поздние версии</p></td>
+<td><p>Windows XP и более поздних версий</p></td>
 </tr>
 </tbody>
 </table>
@@ -93,7 +93,7 @@ _**Применимо к:** Windows | Windows Server_
 *JET_paramEnablePersistedCallbacks*  
 156  
 
-Этот параметр позволяет использовать постоянные обратные вызовы в базе данных. В выпусках до Windows Vista использование постоянных обратных вызовов было включено по умолчанию. Теперь приложения должны явно разрешить использование постоянных обратных вызовов во время выполнения с помощью этого параметра. Если этот параметр не задан, то любая операция с базой данных, которая требует вызова обратного вызова, завершится с JET_errCallbackFailed. Этот параметр не влияет на обратные вызовы, указанные во время выполнения со следующими механизмами: JET_paramRuntimeCallback, [жетрегистеркаллбакк](./jetregistercallback-function.md)или явный параметр обратного вызова для Jet API. Можно создавать элементы схемы, содержащие постоянные обратные вызовы, даже если использование этих постоянных обратных вызовов запрещено. Если этот параметр имеет значение false, он переопределяет JET_paramDisableCallbacks.
+Этот параметр позволяет использовать постоянные обратные вызовы в базе данных. в выпусках до Windows Vista использование постоянных обратных вызовов было включено по умолчанию. Теперь приложения должны явно разрешить использование постоянных обратных вызовов во время выполнения с помощью этого параметра. Если этот параметр не задан, то любая операция с базой данных, которая требует вызова обратного вызова, завершится с JET_errCallbackFailed. Этот параметр не влияет на обратные вызовы, указанные во время выполнения со следующими механизмами: JET_paramRuntimeCallback, [жетрегистеркаллбакк](./jetregistercallback-function.md)или явный параметр обратного вызова для Jet API. Можно создавать элементы схемы, содержащие постоянные обратные вызовы, даже если использование этих постоянных обратных вызовов запрещено. Если этот параметр имеет значение false, он переопределяет JET_paramDisableCallbacks.
 
 <table>
 <colgroup>
@@ -202,7 +202,7 @@ _**Применимо к:** Windows | Windows Server_
 </tr>
 <tr class="odd">
 <td><p>"Доступность":</p></td>
-<td><p>Windows XP и более поздние версии</p></td>
+<td><p>Windows XP и более поздних версий</p></td>
 </tr>
 </tbody>
 </table>
@@ -218,11 +218,11 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista или Windows XP.</p></td>
+<td><p>требуется Windows Vista или Windows XP.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008 или Windows Server 2003.</p></td>
+<td><p><strong>Сервер</strong></p></td>
+<td><p>требуется Windows server 2008 или Windows server 2003.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>
@@ -232,7 +232,7 @@ _**Применимо к:** Windows | Windows Server_
 </table>
 
 
-### <a name="see-also"></a>См. также:
+### <a name="see-also"></a>См. также
 
 [JET_API_PTR](./jet-api-ptr.md)  
 [JET_CALLBACK](./jet-callback-callback-function.md)  

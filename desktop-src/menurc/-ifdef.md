@@ -4,12 +4,12 @@ description: Директива \ ifdef управляет условной ко
 ms.assetid: 877c6b58-d8a1-4e68-8b69-29fe106d6cbd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38170fb2140f8405a86529c0899c1e4d4e93c026
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6e834dc84d54e1d6f7725008b8bcf28f4ed49fc3fe45f36fb291ddc397d30eb6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410984"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034482"
 ---
 # <a name="ifdef"></a>\#ifdef
 
@@ -38,16 +38,16 @@ BITMAP 1 errbox.bmp
 #endif
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Директивы препроцессора](preprocessor-directives.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

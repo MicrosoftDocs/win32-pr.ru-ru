@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b405bca5ae27a68eea780dfcb922d1f986f475c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9011db09b698f886bd10ad19298a104668d038cc2bb11136b6e4ac58035e3425
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137734"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118940138"
 ---
 # <a name="inapenforcementclientcallbacknotifysohchange-method"></a>Метод Инапенфорцементклиенткаллбакк:: Нотифисохчанже
 
@@ -60,7 +60,7 @@ HRESULT NotifySoHChange();
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Завершение системного исправления — это событие изменения работоспособности системы. Это означает, что необходимо вызвать **нотифисохчанже** , когда уведомление [**Инапсистемхеалсаженткаллбакк:: жетфиксупинфо**](inapsystemhealthagentcallback-getfixupinfo-method.md) указывает на то, что клиент является фиксированным. При фиксировании клиента элемент **State** структуры [**фиксупинфо**](/windows/win32/api/naptypes/ns-naptypes-fixupinfo) , возвращаемый **жетфиксупинфо** , имеет значение **фиксупстатесукцесс**.
 
@@ -72,14 +72,14 @@ HRESULT NotifySoHChange();
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                      |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                |
-| Header<br/>                   | <dl> <dt>Напенфорцементклиент. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                      |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                |
+| Заголовок<br/>                   | <dl> <dt>Напенфорцементклиент. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Напенфорцементклиент. idl</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

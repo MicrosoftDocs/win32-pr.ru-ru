@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shldisp.h
 ms.assetid: a0616388-cf94-4433-ae52-24f02f1d15ac
-ms.openlocfilehash: f131050bb5dd4cfc4b8533857c306f566f12ec2d
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 0338b20023fda059a5205c9a42a7b7d669c5554d5fca878fcb8904c807ceceae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841875"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119092611"
 ---
 # <a name="webwizardhostfinalback-method"></a>Вебвизардхост. Финалбакк, метод
 
@@ -41,14 +41,14 @@ iRetVal = WebWizardHost.FinalBack()
 
 Когда мастер отображает первую страницу на стороне сервера и пользователь нажимает кнопку « **назад** », сервер вызывает **финалбакк** при уведомлении этого события обработчиком событий клиента.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                   |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                   |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl> |
 

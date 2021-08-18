@@ -73,7 +73,7 @@ virtual HRESULT NewSegment(
 
 Метод [**ктрансформинпутпин:: невсегмент**](ctransforminputpin-newsegment.md) входного контакта вызывает этот метод. Этот метод доставляет `NewSegment` вызов нисходящего входного ПИН-кода.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -84,7 +84,7 @@ virtual HRESULT NewSegment(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

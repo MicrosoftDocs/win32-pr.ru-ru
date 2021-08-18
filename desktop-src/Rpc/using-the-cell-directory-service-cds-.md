@@ -6,12 +6,12 @@ keywords:
 - Удаленный вызов процедур RPC, задачи, использование службы каталогов ячеек
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0029bf78308d6963d615daa04eaf87f3617ebbb2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2df9058d917396a4e2e2dc3579768c3f3d5b46242b34c0fa5411c6d2204ed20b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103776118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010641"
 ---
 # <a name="using-the-cell-directory-service-cds"></a>Использование службы каталогов ячеек (компакт-дисков)
 
@@ -35,9 +35,9 @@ HKEY_LOCAL_MACHINE
 
 Изменение этих записей будет указывать на компьютер шлюза, на котором выполняется НСИД. Он будет использоваться в качестве основного локатора. В случае сбоя поиск замены не будет выполняться.
 
- 
+ 
 
- 
+ 
 
 
 

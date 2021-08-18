@@ -6,12 +6,12 @@ keywords:
 - Диспетчер перезапуска диспетчера перезагрузки, ссылка, перечисления
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a29e0c40f347d33f9af2ad4482c592e9b2cd39c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1cb84abad149d09985b247f97ab9f97e2ab38319b9af21ac8174f5acbb2892c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010241"
 ---
 # <a name="restart-manager-enumerations"></a>Перечисления диспетчера перезапуска
 
@@ -27,9 +27,9 @@ API диспетчера перезапуска содержит следующ�
 [**\_тип завершения работы RM \_**](/windows/desktop/api/RestartManager/ne-restartmanager-rm_shutdown_type)  
 </dl>
 
- 
+ 
 
- 
+ 
 
 
 

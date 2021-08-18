@@ -3,7 +3,7 @@ title: LISTBOX. Sorted
 description: Атрибут Sort указывает или получает значение, указывающее, сортируется ли элемент управления "список" в алфавитном порядке. Можно задать только во время разработки.
 ms.assetid: f07bf9bf-fe01-4d7c-a630-075ea809fd32
 keywords:
-- ЭЛЕМЕНТ управления LISTBOX. Sorted Windows Media Player
+- LISTBOX. sorted проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dc0f6ca663d3bd5b934208061b0d7cd7b19a267d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: aa099c6164478a30ae87fc5415327a2c8643935ef70cd8a1d236b9a2217082b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996434"
 ---
 # <a name="listboxsorted"></a>LISTBOX. Sorted
 
@@ -35,24 +35,24 @@ ms.locfileid: "105704415"
 
 | Значение | Описание                                                 |
 |-------|-------------------------------------------------------------|
-| true  | Элемент управления "список" сортируется в алфавитном порядке.              |
+| Да  | Элемент управления "список" сортируется в алфавитном порядке.              |
 | false | По умолчанию. Элемент управления "список" не сортируется в алфавитном порядке. |
 
 
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

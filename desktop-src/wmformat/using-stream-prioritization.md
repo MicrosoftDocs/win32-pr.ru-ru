@@ -3,17 +3,17 @@ title: Использование определения приоритетов 
 description: Использование определения приоритетов потоков
 ms.assetid: 5fff212e-b47b-49a6-817f-f0e09c895b3a
 keywords:
-- Windows Media Format SDK, определение приоритетов потоков
+- Windows Пакет SDK для формата мультимедиа, определение приоритетов потоков
 - профили, определение приоритетов потоков
 - потоки, определение приоритетов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99a6b0bd3d49db9523ef9ea5585803b4c703c279
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 3db00466eb27685a33851f7bffa5133e1d94a203985b1a0a56b110a09ad88ab6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103987175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118963953"
 ---
 # <a name="using-stream-prioritization"></a>Использование определения приоритетов потоков
 
@@ -124,16 +124,16 @@ pProfileMgr = NULL;
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Работа с профилями**](working-with-profiles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

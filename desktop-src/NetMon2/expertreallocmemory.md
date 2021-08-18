@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 8f562443f9ca66def7e053f5958b17e70af50140
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be43fa99021ec5612a148ba42db1b11e1fd6d885fa64fa003c0dfa672688d555
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012262"
 ---
 # <a name="expertreallocmemory-function"></a>Функция Експертреаллокмемори
 
@@ -76,7 +76,7 @@ LPVOID WINAPI ExpertReallocMemory(
 
 Если функция завершается неудачно, возвращается значение **null**, а *perror* (если значение не **равно NULL** ) указывает причину сбоя.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Важно отметить, что эксперт должен использовать сетевой монитор функции выделения памяти для управления памятью. Если во время выполнения эксперт не работает, использование этих функций позволит сетевой монитор освободить выделенную память.
 

@@ -4,12 +4,12 @@ ms.assetid: a0ede1d9-2e13-4d5e-8ccd-9e0c0217cac7
 title: Сообщение пробы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 913c163be8d82297a642b1a97a7d28e0c403ca08
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: abaf4b397abec699dd0a116fe5cddd97578543f917a7994287f5000e17079def
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130636"
 ---
 # <a name="probe-message"></a>Сообщение пробы
 
@@ -100,11 +100,11 @@ ms.locfileid: "104155982"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Сообщения обнаружения и обмена метаданными](discovery-and-metadata-exchange-message-patterns.md)
+[обнаружение и метаданные Exchange сообщения](discovery-and-metadata-exchange-message-patterns.md)
 </dt> <dt>
 
 [Сообщение ProbeMatch](probematches-message.md)
