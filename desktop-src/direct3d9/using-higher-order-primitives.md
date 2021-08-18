@@ -4,12 +4,12 @@ ms.assetid: 7aa4f3ab-cfce-4f8f-a538-384f038fd324
 title: Использование примитивов Higher-Order (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e8d1447635c38e5e5df3d16ebca5ee3ee142020
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 6a7d7a7b7f619c033665f8cb9894db5d60d5d6ecf9116de4ada230accc476c07
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104561772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118797304"
 ---
 # <a name="using-higher-order-primitives-direct3d-9"></a>Использование примитивов Higher-Order (Direct3D 9)
 
@@ -73,7 +73,7 @@ Direct3D 9 поддерживает два типа примитивов бол�
 
 Если приложение должно изменить диапазон созданных координат текстуры, это можно сделать с помощью преобразования текстур.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

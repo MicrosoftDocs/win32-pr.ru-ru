@@ -4,12 +4,12 @@ description: В асинхронном приложении RPC клиентск
 ms.assetid: 69beb3a4-39ae-4e3f-bb7d-31519278334d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 754ae4733e5a3936bdd28fef72b9560fb9c9dfcd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dbafc5f9166d28a80d514abd4ebea20ab01ea32f542561e2108feae4a5769458
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118932298"
 ---
 # <a name="causal-ordering-of-asynchronous-calls"></a>Порядок причин асинхронных вызовов
 
@@ -20,9 +20,9 @@ ms.locfileid: "104067895"
 -   Если за асинхронный вызов из клиентского приложения последуют один или несколько синхронных вызовов, асинхронный вызов может выполняться во время выполнения синхронных вызовов. Независимо от состояния асинхронного вызова синхронные вызовы выполняются в том порядке, в котором они получены сервером.
 -   Если клиентское приложение выбирает порядок неважности для определенного маркера привязки, он отключает сериализацию для этого обработчика. Приложения позволяют упорядочивать неважности, вызывая [**рпкбиндингсетоптион**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingsetoption) с параметром *Option* , установленным в RPC \_ с \_ \_ привязкой opt \_ , а параметру *OptionValue* задано значение **true**. Дополнительные сведения см. в разделе [константы параметров привязки](binding-option-constants.md).
 
- 
+ 
 
- 
+ 
 
 
 

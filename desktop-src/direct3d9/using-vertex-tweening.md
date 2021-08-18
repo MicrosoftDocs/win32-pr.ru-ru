@@ -4,12 +4,12 @@ ms.assetid: b60c7f96-3752-4703-9059-486d9906c508
 title: Использование анимации вершин (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 12ca56cc521b5bff01a5d6af5c2d4ab6b02cd49e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 14c4d2da3f32698cc24e052a152b674ecb023f79e90541af23374c0903d54d55
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103894518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118797092"
 ---
 # <a name="using-vertex-tweening-direct3d-9"></a>Использование анимации вершин (Direct3D 9)
 
@@ -70,7 +70,7 @@ D3DVERTEXELEMENT9 decl[] =
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

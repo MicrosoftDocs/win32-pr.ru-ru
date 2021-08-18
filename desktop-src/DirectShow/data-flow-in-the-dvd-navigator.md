@@ -1,17 +1,17 @@
 ---
-description: Поток данных в навигаторе DVD
+description: Flow данных в навигаторе DVD
 ms.assetid: 14f9cfa3-5ef6-419c-9196-2e4060549c03
-title: Поток данных в навигаторе DVD
+title: Flow данных в навигаторе DVD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29a981d2d7b528163abb53478e9e8f2ab88d46c0
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 56e649edfacf0a1fad56cfbe8e73a5e1e9aaf099b9c17463858bf776ab06605c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103806719"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953363"
 ---
-# <a name="data-flow-in-the-dvd-navigator"></a>Поток данных в навигаторе DVD
+# <a name="data-flow-in-the-dvd-navigator"></a>Flow данных в навигаторе DVD
 
 В навигаторе DVD есть методы остановки и приостановки воспроизведения. Эти методы аналогичны (но не идентичны) методам **остановки** и **приостановки** в [**имедиаконтрол**](/windows/desktop/api/Control/nn-control-imediacontrol). Вот разница между ними:
 
@@ -62,7 +62,7 @@ ms.locfileid: "103806719"
 
 Чтобы точно найти указанное время на диске, вызовите [**имедиаконтрол:: Run**](/windows/desktop/api/Control/nf-control-imediacontrol-run). Затем вызовите [**IDvdControl2::P лайаттиме**](/windows/desktop/api/Strmif/nf-strmif-idvdcontrol2-playattime), указав время и настроив  \_ \_ Сброс флага dwFlags на DVD-диск \_ .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

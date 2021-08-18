@@ -17,21 +17,21 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 587649b592f2b0d213a481c3bfbecc723240e486
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 64f820b9e9a42099cdb99d8ab8f0756e8fdbb23256917821d05573afd9068017
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118979244"
 ---
 # <a name="jet_tablecreate3-structure"></a>Структура JET_TABLECREATE3
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
-Структура **JET_TABLECREATE3** содержит сведения, необходимые для создания таблицы, заполненной столбцами и индексами в базе данных ESE, которая обозначает функцию обратного вызова. Структура **JET_TABLECREATE3** используется функцией [JetCreateTableColumnIndex3](./jetcreatetablecolumnindex3-function.md) .
+структура **JET_TABLECREATE3** содержит сведения, необходимые для создания таблицы, заполненной столбцами и индексами в базе данных ESE (Extensible служба хранилища Engine), которая обозначает функцию обратного вызова. Структура **JET_TABLECREATE3** используется функцией [JetCreateTableColumnIndex3](./jetcreatetablecolumnindex3-function.md) .
 
-Структура **JET_TABLECREATE3** была введена в операционной системе Windows 7.
+структура **JET_TABLECREATE3** была введена в операционной системе Windows 7.
 
 ``` cpp
 typedef struct tagJET_TABLECREATE3 {
@@ -211,19 +211,19 @@ typedef struct tagJET_TABLECREATE3 {
 
 Указатель на структуру [JET_SPACEHINTS](./jet-spacehints-structure.md) для последовательного индекса по умолчанию.
 
-**псекспацехинтс** появился в Windows 7.
+**псекспацехинтс** был введен в Windows 7.
 
 **плвспацехинтс**
 
 Указатель на структуру [JET_SPACEHINTS](./jet-spacehints-structure.md) для разделенного дерева длинного значения.
 
-**плвспацехинтс** появился в Windows 7.
+**плвспацехинтс** был введен в Windows 7.
 
 **кбсепарателв**
 
 Размер для отделения встроенной функции LV от основной записи. Любая структура с длинным значением c для разделенного дерева LV. Дополнительные сведения см. в разделе NG-value в [JET_SPACEHINTS](./jet-spacehints-structure.md). Столбцы с длинными значениями меньше этого значения могут быть разделены, если запись становится слишком большой.
 
-**кбсепарателв** появился в Windows 7.
+**кбсепарателв** был введен в Windows 7.
 
 **TableID**
 
@@ -235,7 +235,7 @@ typedef struct tagJET_TABLECREATE3 {
 
 Количество создаваемых объектов равно сумме столбцов, таблиц и индексов, которые были успешно созданы.
 
-### <a name="requirements"></a>Требования
+### <a name="requirements"></a>Requirements (Требования)
 
 <table>
 <colgroup>
@@ -245,11 +245,11 @@ typedef struct tagJET_TABLECREATE3 {
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista или Windows XP.</p></td>
+<td><p>требуется Windows Vista или Windows XP.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008 или Windows Server 2003.</p></td>
+<td><p><strong>Сервер</strong></p></td>
+<td><p>требуется Windows server 2008 или Windows server 2003.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>

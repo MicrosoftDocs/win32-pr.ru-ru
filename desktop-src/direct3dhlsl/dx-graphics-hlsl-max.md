@@ -1,5 +1,5 @@
 ---
-title: max
+title: макс.
 description: Выбор большего числа x и y.
 ms.assetid: 08e17a0c-6d44-49ea-b613-bd262534522c
 keywords:
@@ -13,14 +13,14 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9a40ccb32bb2c2fcd7ca7342b9d7d4d143688102
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e81eca4f5cabea57f36aa66b722fedb3e1176c3c189db9cdcfd610e4e26047c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118791475"
 ---
-# <a name="max"></a>max
+# <a name="max"></a>макс.
 
 Выбор большего числа x и y.
 
@@ -51,7 +51,7 @@ ms.locfileid: "104413401"
 Параметр *x* или *y* , в зависимости от самого крупного значения.
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Нормали обрабатываются следующим образом:
 
@@ -60,7 +60,7 @@ ms.locfileid: "104413401"
 | -inf        | -inf | src1          | +inf | -inf |
 | C           | src0 | src0 или src1  | +inf | src0 |
 | +inf        | +inf | +inf          | +inf | +inf |
-| не число         | -inf | src1          | +inf | не число  |
+| Не число         | -inf | src1          | +inf | Не число  |
 
 F означает ограничение по настоящему вещественному числу.
 
@@ -70,7 +70,7 @@ F означает ограничение по настоящему вещест
 | Имя | В/Из      | [**Тип шаблона**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**Тип компонента**](dx-graphics-hlsl-intrinsic-functions.md)                 | Размер                         |
 |------|-------------|----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|------------------------------|
 | x    | in          | [**Скалярная**](dx-graphics-hlsl-intrinsic-functions.md), **векторная** или **Матрица** | [**float**](/windows/desktop/WinProg/windows-data-types), [ **int**](/windows/desktop/WinProg/windows-data-types) | any                          |
-| да    | in          | то же, что входные данные x                                                                                                | [**float**](/windows/desktop/WinProg/windows-data-types), [ **int**](/windows/desktop/WinProg/windows-data-types) | те же измерения, что и входные x |
+| y    | in          | то же, что входные данные x                                                                                                | [**float**](/windows/desktop/WinProg/windows-data-types), [ **int**](/windows/desktop/WinProg/windows-data-types) | те же измерения, что и входные x |
 | обратно  | тип возвращаемого значения; | то же, что входные данные x                                                                                                | [**float**](/windows/desktop/WinProg/windows-data-types), [ **int**](/windows/desktop/WinProg/windows-data-types) | те же измерения, что и входные x |
 
 
@@ -85,7 +85,7 @@ F означает ограничение по настоящему вещест
 
 | Модель шейдера                                                                       | Поддерживается                   |
 |------------------------------------------------------------------------------------|-----------------------------|
-| [Модели шейдеров 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) и более поздние модели шейдеров | да                         |
+| [Модели шейдеров 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) и более поздние модели шейдеров | Да                         |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md)                          | Да (VS \_ 1 \_ 1 и PS \_ 1 \_ 4) |
 
 

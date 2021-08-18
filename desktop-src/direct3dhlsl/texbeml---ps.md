@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: d97877c67970f43a995fcfbe21d9aead2d792e09
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c549e93829c3165d4921342d4e74a8dc15bc1518f7c88aa205f8afc889fae95e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987835"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118788068"
 ---
 # <a name="texbeml---ps"></a>тексбемл-PS
 
@@ -29,14 +29,14 @@ ms.locfileid: "103987835"
 
 
 
- 
+ 
 
-где
+where
 
 -   DST — это регистр назначения.
 -   src является исходным регистром.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -46,7 +46,7 @@ ms.locfileid: "103987835"
 
 
 
- 
+ 
 
 Красный и зеленый цветовые данные в регистре src интерпретируется как данные пертурбатион (du, DV). Синий цвет данных в регистре src интерпретируется как данные светимости.
 
@@ -140,13 +140,13 @@ mov r0, t1          ; Output result
 -   Этап 1 назначает текстурную карту с данными цвета.
 -   тексбемл задает данные матрицы на стадии текстуры, которая является выборкой. Это отличается от функций конвейера с фиксированной функцией, где данные пертурбатион и матрицы занимают одну и ту же стадию текстуры.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера пикселей](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

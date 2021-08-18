@@ -4,16 +4,16 @@ ms.assetid: 61575839-4604-4c8b-ae4d-fe796c3c5314
 title: Структура TAPI_AUDIO_STREAM_CONFIG_CAPS (Ипмсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: daec587a8e760bedd3ab9c6b3469ef8f70b72383
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 51fc4777e6d174f7d4aaeac9bbd3f6d467123275b4030c9fa21363223584e8b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118861223"
 ---
 # <a name="tapi_audio_stream_config_caps-structure"></a>\_ \_ \_ Структура политик CAPS для настройки аудио потока TAPI \_
 
-\[ Эта структура недоступна для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[эта структура недоступна для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Структура **\_ \_ \_ \_ Caps config для настройки аудиопотока в интерфейсе** TAPI содержится в структуре " [**\_ \_ \_ заглушки" конфигурации потока TAPI**](tapi-stream-config-caps.md) , если для элемента **капстипе** задан элемент **аудиокап** объединения [**стреамконфигкапстипе**](streamconfigcapstype.md) .
 
@@ -121,7 +121,7 @@ ms.locfileid: "105675393"
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

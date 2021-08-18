@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e987e7ffa3390462889b128f390934f05e64cdff
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 03ac7e6bb1e9d4f9e5e7c706c0a9e3518f62b1068ed743dc795554dd43ac61e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105656872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027712"
 ---
 # <a name="iwmdrmlicensecreatedecryptor-method"></a>Метод Ивмдрмлиценсе:: CreateDecryptor
 
@@ -64,9 +64,9 @@ HRESULT CreateDecryptor(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Нет.
+Отсутствует.
 
 ## <a name="requirements"></a>Требования
 
@@ -74,7 +74,7 @@ HRESULT CreateDecryptor(
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Вмдрмсдк. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмдрмсдк. h</dt> </dl> |
 
 
 

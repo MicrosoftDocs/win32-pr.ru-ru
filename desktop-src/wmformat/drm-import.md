@@ -3,14 +3,14 @@ title: Импорт DRM
 description: Импорт DRM
 ms.assetid: 5e67a721-830b-4d99-9f90-4cb2d7c61104
 keywords:
-- Windows Media Format SDK, расширенные API клиента DRM
-- Пакет SDK для Windows Media Format, расширенные API клиента
-- Windows Media Format SDK, расширенные API
-- Windows Media Format SDK, API
-- Windows Media Format SDK, управление цифровыми правами (DRM)
-- Windows Media Format SDK, импорт DRM
-- Windows Media Format SDK, импорт
-- Windows Media Format SDK, система защиты содержимого (CPS)
+- Windows Пакет SDK для Media Format, расширенные API клиента DRM
+- Windows Пакет SDK для формата мультимедиа, расширенные API клиента
+- Windows Пакет SDK для формата мультимедиа, расширенные API
+- Windows Пакет SDK для формата мультимедиа, API
+- Windows Пакет SDK для формата мультимедиа, управление цифровыми правами (DRM)
+- Windows Пакет SDK для формата мультимедиа, импорт DRM
+- Windows Пакет SDK для формата мультимедиа, импорт
+- Windows Пакет SDK для формата мультимедиа, система защиты содержимого (CPS)
 - Управление цифровыми правами (DRM), расширенные API клиента
 - DRM (Управление цифровыми правами), расширенные API клиента
 - Управление цифровыми правами (DRM), расширенные API
@@ -29,16 +29,16 @@ keywords:
 - CPS (система защиты содержимого)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20fc20cfd682df975c10a8f39785c0e8d69610d0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 981e601c21dc3ee8f54e256c40453bf24580cf46c261d41ea5dd1d9afa1ffbbf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103776664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027902"
 ---
 # <a name="drm-import"></a>Импорт DRM
 
-В следующих разделах объясняется, как преобразовать мультимедийное содержимое из сторонней системы защиты содержимого (CPS) в Windows Media DRM. Этот процесс называется импортом DRM и состоит из следующих этапов:
+в следующих разделах объясняется, как преобразовать мультимедийное содержимое из сторонней системы защиты содержимого (CPS) в Windows media DRM. Этот процесс называется импортом DRM и состоит из следующих этапов:
 
 1.  Создание файла ASF.
 2.  Создание лицензии.
@@ -50,27 +50,27 @@ ms.locfileid: "103776664"
 
 | Section                                                                              | Описание                                                                          |
 |--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| [Импорт лицензии и материала ключа](importing-license-and-key-material.md)         | Описывает, как выдавать лицензии локально и импортировать их в Windows Media DRM.      |
+| [Импорт лицензии и материала ключа](importing-license-and-key-material.md)         | описывает, как выдавать лицензии локально и импортировать их в Windows Media DRM.      |
 | [Проверка отзыва сертификата](checking-certificate-revocation.md)               | Описывает, как проверить отзыв сертификата.                                       |
 | [Создание лицензии КСМР](building-an-xmr-license.md)                               | Описывает, как создать лицензию КСМР и передать ее в подсистему DRM.             |
 | [Создание и инициализация модуля записи DRM](creating-and-initializing-a-drm-writer.md) | Описание инициализации объекта модуля записи ASF для подготовки к импорту DRM.          |
-| [Шифрование и импорт примеров мультимедиа](encrypting-and-importing-media-samples.md) | Описывает шифрование и импорт отдельных образцов мультимедиа в Windows Media DRM. |
+| [Шифрование и импорт примеров мультимедиа](encrypting-and-importing-media-samples.md) | описывает шифрование и импорт отдельных образцов мультимедиа в Windows media DRM. |
 | [Удаление лицензий](license-deletion.md)                                             | Описывает, как удалить локально созданные лицензии.                                    |
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Инструкции по программированию**](drm-programming-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

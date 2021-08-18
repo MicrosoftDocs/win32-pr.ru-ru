@@ -4,12 +4,12 @@ description: Непосредственный атомарный максиму�
 ms.assetid: 6C9D2CA3-1502-41E1-8535-C94DF31201E1
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 072ef5a2a8e91a17501015bdc34738465880d91e
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 399142e182cbf33a8adea3ac8236fdc81e4f4b100e562e65bbb39057b6e6e192
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104412221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986514"
 ---
 # <a name="imm_atomic_umax-sm5---asm"></a>IMM \_ Atomic \_ UMAX (SM5-ASM)
 
@@ -37,7 +37,7 @@ ms.locfileid: "104412221"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта инструкция выполняет один компонент 32-bit максимальное число без знака *src0* с *dst1* в 32-бит на компонент, адрес *дстаддресс*.
 
@@ -89,7 +89,7 @@ ms.locfileid: "104412221"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
 | [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Нет        |
 | [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Нет        |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
@@ -100,7 +100,7 @@ ms.locfileid: "104412221"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b4f041d131bcee540a75a131b4179947fbe8e394
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 55173b5badfb8764cfc9c681f4ed92e2f0d1c50e5db09075185af9e5db2e6433
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104489558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118910493"
 ---
 # <a name="winbio_extended_enrollment_parameters-structure"></a>\_ \_ Структура параметров расширенной регистрации винбио \_
 
@@ -56,18 +56,18 @@ typedef struct _WINBIO_EXTENDED_ENROLLMENT_PARAMETERS {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Биометрическая платформа Windows передает эту структуру методу [**енгинеадаптерсетенроллментпараметерс**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_set_enrollment_parameters_fn) во время операции регистрации.
+биометрическая платформа Windows передает эту структуру методу [**енгинеадаптерсетенроллментпараметерс**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_set_enrollment_parameters_fn) во время операции регистрации.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2016\]<br/>                                                                     |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2016 \[ только классические приложения\]<br/>                                                                     |
 | Header<br/>                   | <dl> <dt>Винбио \_ Adapter. h (включить винбио \_ Adapter. h)</dt> </dl> |
 
 

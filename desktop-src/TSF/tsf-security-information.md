@@ -29,12 +29,12 @@ keywords:
 - Приложения с поддержкой TSF, вызовы LoadLibrary
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d71966106cde0f59d39442f7e2bf9b2a216cd94
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 432418fbcb6221082083d6595aa374939bc2f4d5cf5aad145cac87444e75bdc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105681628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118873579"
 ---
 # <a name="security-considerations-text-services-framework"></a>Вопросы безопасности. Платформа текстовых служб
 
@@ -45,7 +45,7 @@ ms.locfileid: "105681628"
 
 -   **Вызовы LoadLibrary:** Чтобы получить указатель на любую из [функций TSF](text-services-framework-functions.md), необходимо использовать [LoadLibrary](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [GetProcAddress](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress). Однако важно следовать процедурам форматирования имени пути библиотеки DLL, как указано в документации по **LoadLibrary** .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -64,6 +64,6 @@ ms.locfileid: "105681628"
 [Функция GetProcAddress](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

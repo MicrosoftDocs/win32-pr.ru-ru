@@ -4,7 +4,7 @@ description: Результаты проверки.
 ms.assetid: 9031A371-092A-4175-BE1D-90442A5BED2D
 keywords:
 - MPSCAN_RESULT структуры устаревшие функции среды Windows
-- Функции PMPSCAN_RESULT указателя структур в устаревшей среде Windows
+- функции PMPSCAN_RESULT Windows указателя структур в устаревшей среде
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7be60df7993732bafcd7c44ac2fb581c111aed6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a41efd40529976d4b7fe639c4907729ed39ae261f5ac644faf1a36e1a213a97e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104262225"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118747155"
 ---
 # <a name="mpscan_result-structure"></a>\_Структура результата мпскан
 
@@ -142,8 +142,8 @@ typedef struct tagMPSCAN_RESULT {
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
 
 

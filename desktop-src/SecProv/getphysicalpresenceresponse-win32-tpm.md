@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Win32_tpm.dll
-ms.openlocfilehash: 47dfad1491b398b035e40867d10d2d3e46327dd9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f32379c9e0f538c2f9be4466b55158d0abcdd51a4d2612634b2b03ff869ed41
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118891864"
 ---
 # <a name="getphysicalpresenceresponse-method-of-the-win32_tpm-class"></a>Метод Жетфисикалпресенцереспонсе \_ класса TPM Win32
 
@@ -69,7 +69,7 @@ uint32 GetPhysicalPresenceResponse(
 <td><dl> <dt>1</dt> </dl></td>
 <td>Включите доверенный платформенный модуль.<br/> Эта операция обращена к операции 2. <br/> Дополнительные сведения см. в разделе связанные методы, не затрагивающие физическое присутствие:
 <ul>
-<li><a href="enable-win32-tpm.md"><strong>Включить</strong></a></li>
+<li><a href="enable-win32-tpm.md"><strong>Параметр</strong></a></li>
 <li><a href="isenabled-win32-tpm.md"><strong>IsEnabled</strong></a></li>
 </ul>
 <br/></td>
@@ -116,7 +116,7 @@ uint32 GetPhysicalPresenceResponse(
 </tr>
 <tr class="odd">
 <td><span></span><dl> <dt><strong></strong></dt><dt>12</dt> </dl></td>
-<td>Отложенная физическая Пресенцеуновнедфиелдупграде<br/> Параметр физического присутствия обновлен.<br/> <strong>Windows 7, Windows server 2008 R2, Windows Vista и Windows server 2008:</strong> Это значение не поддерживается.<br/></td>
+<td>Отложенная физическая Пресенцеуновнедфиелдупграде<br/> Параметр физического присутствия обновлен.<br/> <strong>Windows 7, Windows server 2008 R2, Windows Vista и Windows Server 2008:</strong> Это значение не поддерживается.<br/></td>
 </tr>
 <tr class="even">
 <td><dl> <dt>открыт</dt> </dl></td>
@@ -124,35 +124,35 @@ uint32 GetPhysicalPresenceResponse(
 </tr>
 <tr class="odd">
 <td><dl> <dt>15</dt> </dl></td>
-<td>SetNoPPIProvision_False<br/> Задает назначение, которое должно быть физическим присутствием для задания доверенного платформенного модуля.<br/> Эта операция обращена к операции 16.<br/> <strong>Windows 7, Windows server 2008 R2, Windows Vista и Windows server 2008:</strong> Это значение не поддерживается.<br/></td>
+<td>SetNoPPIProvision_False<br/> Задает назначение, которое должно быть физическим присутствием для задания доверенного платформенного модуля.<br/> Эта операция обращена к операции 16.<br/> <strong>Windows 7, Windows server 2008 R2, Windows Vista и Windows Server 2008:</strong> Это значение не поддерживается.<br/></td>
 </tr>
 <tr class="even">
 <td><dl> <dt>глубин</dt> </dl></td>
-<td>SetNoPPIProvision_True<br/> Задает назначение, которое не обязательно должно быть физическим присутствием для задания доверенного платформенного модуля.<br/> Эта операция обращена к операции 15.<br/> <strong>Windows 7, Windows server 2008 R2, Windows Vista и Windows server 2008:</strong> Это значение не поддерживается.<br/></td>
+<td>SetNoPPIProvision_True<br/> Задает назначение, которое не обязательно должно быть физическим присутствием для задания доверенного платформенного модуля.<br/> Эта операция обращена к операции 15.<br/> <strong>Windows 7, Windows server 2008 R2, Windows Vista и Windows Server 2008:</strong> Это значение не поддерживается.<br/></td>
 </tr>
 <tr class="odd">
 <td><dl> <dt>широкоэкранны</dt> </dl></td>
-<td>SetNoPPIClear_False<br/> Задает назначение, которое должно быть физическим присутствием для очистки доверенного платформенного модуля.<br/> Эта операция обращена к операции 18.<br/> <strong>Windows 7, Windows server 2008 R2, Windows Vista и Windows server 2008:</strong> Это значение не поддерживается.<br/></td>
+<td>SetNoPPIClear_False<br/> Задает назначение, которое должно быть физическим присутствием для очистки доверенного платформенного модуля.<br/> Эта операция обращена к операции 18.<br/> <strong>Windows 7, Windows server 2008 R2, Windows Vista и Windows Server 2008:</strong> Это значение не поддерживается.<br/></td>
 </tr>
 <tr class="even">
 <td><dl> <dt>стр</dt> </dl></td>
-<td>SetNoPPIClear_True<br/> Задает назначение, которое не должно быть физическим присутствием для очистки доверенного платформенного модуля.<br/> Эта операция обращена к операции 17.<br/> <strong>Windows 7, Windows server 2008 R2, Windows Vista и Windows server 2008:</strong> Это значение не поддерживается.<br/></td>
+<td>SetNoPPIClear_True<br/> Задает назначение, которое не должно быть физическим присутствием для очистки доверенного платформенного модуля.<br/> Эта операция обращена к операции 17.<br/> <strong>Windows 7, Windows server 2008 R2, Windows Vista и Windows Server 2008:</strong> Это значение не поддерживается.<br/></td>
 </tr>
 <tr class="odd">
 <td><dl> <dt>стр</dt> </dl></td>
-<td>SetNoPPIMaintenance_False<br/> Задает назначение, которое должно быть физическим присутствием для поддержки доверенного платформенного модуля.<br/> Эта операция обращена к операции 20.<br/> <strong>Windows 7, Windows server 2008 R2, Windows Vista и Windows server 2008:</strong> Это значение не поддерживается.<br/></td>
+<td>SetNoPPIMaintenance_False<br/> Задает назначение, которое должно быть физическим присутствием для поддержки доверенного платформенного модуля.<br/> Эта операция обращена к операции 20.<br/> <strong>Windows 7, Windows server 2008 R2, Windows Vista и Windows Server 2008:</strong> Это значение не поддерживается.<br/></td>
 </tr>
 <tr class="even">
 <td><dl> <dt>20</dt> </dl></td>
-<td>SetNoPPIMaintenance_True<br/> Задает назначение, которое должно быть физическим присутствием для поддержки доверенного платформенного модуля.<br/> Эта операция обращена к операции 19.<br/> <strong>Windows 7, Windows server 2008 R2, Windows Vista и Windows server 2008:</strong> Это значение не поддерживается.<br/></td>
+<td>SetNoPPIMaintenance_True<br/> Задает назначение, которое должно быть физическим присутствием для поддержки доверенного платформенного модуля.<br/> Эта операция обращена к операции 19.<br/> <strong>Windows 7, Windows server 2008 R2, Windows Vista и Windows Server 2008:</strong> Это значение не поддерживается.<br/></td>
 </tr>
 <tr class="odd">
 <td><dl> <dt>открыт</dt> </dl></td>
-<td>Включить + активировать + очистить<br/> Включение, активация и очистка доверенного платформенного модуля.<br/> <strong>Windows 7, Windows server 2008 R2, Windows Vista и Windows server 2008:</strong> Это значение не поддерживается.<br/></td>
+<td>Включить + активировать + очистить<br/> Включение, активация и очистка доверенного платформенного модуля.<br/> <strong>Windows 7, Windows server 2008 R2, Windows Vista и Windows Server 2008:</strong> Это значение не поддерживается.<br/></td>
 </tr>
 <tr class="even">
 <td><dl> <dt>максималь</dt> </dl></td>
-<td>Включить + активировать + очистить + включить + активировать<br/> Включите, активируйте и очистите доверенный платформенный модуль, а затем включите и повторно активируйте доверенный платформенный модуль.<br/> <strong>Windows 7, Windows server 2008 R2, Windows Vista и Windows server 2008:</strong> Это значение не поддерживается.<br/></td>
+<td>Включить + активировать + очистить + включить + активировать<br/> Включите, активируйте и очистите доверенный платформенный модуль, а затем включите и повторно активируйте доверенный платформенный модуль.<br/> <strong>Windows 7, Windows server 2008 R2, Windows Vista и Windows Server 2008:</strong> Это значение не поддерживается.<br/></td>
 </tr>
 </tbody>
 </table>
@@ -207,9 +207,9 @@ uint32 GetPhysicalPresenceResponse(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). MOF-файлы не устанавливаются в составе Windows SDK. Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](../wmisdk/managed-object-format--mof-.md).
+файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). MOF-файлы не устанавливаются в составе Windows SDK. Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](../wmisdk/managed-object-format--mof-.md).
 
 ## <a name="requirements"></a>Требования
 
@@ -217,8 +217,8 @@ uint32 GetPhysicalPresenceResponse(
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                      |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                      |
 | Пространство имен<br/>                | Корневой \\ CIMV2 \\ безопасности \\ микрософттпм<br/>                                            |
 | MOF<br/>                      | <dl> <dt>Win32 \_ TPM. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>\_tpm.dllWin32</dt> </dl> |
@@ -232,13 +232,13 @@ uint32 GetPhysicalPresenceResponse(
 [**\_TPM Win32**](win32-tpm.md)
 </dt> <dt>
 
-[**Открытым**](clear-win32-tpm.md)
+[**Clear**](clear-win32-tpm.md)
 </dt> <dt>
 
-[**Отключить**](disable-win32-tpm.md)
+[**Включен**](disable-win32-tpm.md)
 </dt> <dt>
 
-[**Включить**](enable-win32-tpm.md)
+[**Параметр**](enable-win32-tpm.md)
 </dt> <dt>
 
 [**IsEnabled**](isenabled-win32-tpm.md)

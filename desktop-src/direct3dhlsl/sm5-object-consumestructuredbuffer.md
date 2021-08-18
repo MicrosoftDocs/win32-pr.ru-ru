@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: af7a670713dc5b63839702a04a632dda61ebfa43
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7e4e0530c98b78f9b18b0934874fb5a082779694ced2f171293d0a38dc458a08
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104997166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986094"
 ---
 # <a name="consumestructuredbuffer"></a>консуместруктуредбуффер
 
@@ -33,7 +33,7 @@ ms.locfileid: "104997166"
 
 
 
- 
+ 
 
 Формат UAV, привязанный к этому ресурсу, должен быть создан с \_ \_ неизвестным форматом DXGI.
 
@@ -49,11 +49,11 @@ UAV, привязанный к этому ресурсу, должен быть 
 
 | Модель шейдера                                                                | Поддерживается |
 |-----------------------------------------------------------------------------|-----------|
-| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | да       |
+| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | Да       |
 
 
 
- 
+ 
 
 Этот объект поддерживается для следующих типов шейдеров:
 
@@ -65,7 +65,7 @@ UAV, привязанный к этому ресурсу, должен быть 
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -74,6 +74,6 @@ UAV, привязанный к этому ресурсу, должен быть 
 [Объекты модели шейдеров 5](d3d11-graphics-reference-sm5-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

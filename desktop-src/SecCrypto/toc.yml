@@ -29,7 +29,7 @@
                   href: public-private-key-pairs.md
                 - name: Ключи сеанса
                   href: session-keys.md
-                - name: Хранилище криптографических ключей и Exchange
+                - name: криптографические ключи служба хранилища и Exchange
                   href: cryptographic-key-storage-and-exchange.md
             - name: Закодированные и декодированные данные
               href: encoded-and-decoded-data.md
@@ -1394,7 +1394,7 @@
               href: /windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsgverifycountersignatureencodedex
             - name: CryptProtectData
               href: /windows/desktop/api/Dpapi/nf-dpapi-cryptprotectdata
-            - name: криптпротектмемори
+            - name: CryptProtectMemory
               href: /windows/desktop/api/Dpapi/nf-dpapi-cryptprotectmemory
             - name: крипткуерйобжект
               href: /windows/desktop/api/Wincrypt/nf-wincrypt-cryptqueryobject
@@ -1484,7 +1484,7 @@
               href: /windows/desktop/api/Wincrypt/nf-wincrypt-cryptuninstalldefaultcontext
             - name: CryptUnprotectData
               href: /windows/desktop/api/Dpapi/nf-dpapi-cryptunprotectdata
-            - name: криптунпротектмемори
+            - name: CryptUnprotectMemory
               href: /windows/desktop/api/Dpapi/nf-dpapi-cryptunprotectmemory
             - name: криптунрегистердефаултоидфунктион
               href: /windows/desktop/api/Wincrypt/nf-wincrypt-cryptunregisterdefaultoidfunction
@@ -3019,7 +3019,7 @@
                       href: basicconstraints-pathlenconstraint.md
             - name: ценролл
               href: /previous-versions/windows/desktop/legacy/aa376007(v=vs.85)
-            - name: Certificate
+            - name: Сертификат
               href: certificate.md
               items:
                 - name: Методы сертификатов
@@ -3368,7 +3368,7 @@
                       href: oid-name.md
                     - name: Свойство Value
                       href: oid-value.md
-            - name: OID
+            - name: Идентификаторы OID
               href: oids.md
               items:
                 - name: Методы OID
@@ -3497,10 +3497,10 @@
                       href: recipients-count.md
                     - name: Свойство Item
                       href: recipients-item.md
-            - name: Параметры
+            - name: '"Настройки"'
               href: settings.md
               items:
-                - name: Свойства параметров
+                - name: Параметры Свойства
                   href: settings-properties.md
                   items:
                     - name: 'Активедиректорисеарчлокатион, свойство'
@@ -3583,7 +3583,7 @@
                       href: signers-item.md
                     - name: '_NewEnum, свойство'
                       href: signers-newenum.md
-            - name: Магазин
+            - name: Хранение
               href: store.md
               items:
                 - name: Методы хранения
@@ -4367,7 +4367,7 @@
             - name: 'Средства для создания, просмотра и управления сертификатами'
               href: tools-to-create-view-and-manage-certificates.md
               items:
-                - name: Программой
+                - name: MakeCert
                   href: makecert.md
                 - name: Cert2SPC
                   href: cert2spc.md

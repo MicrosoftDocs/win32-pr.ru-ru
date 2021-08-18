@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f5f21c6d67468ecb07bbe0fe83bec7b48a086571
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 37ef829fad368e7d8cf3b65ab70db4600f6d635b1d36bcc5e3f50fcdbaf429a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118883964"
 ---
 # <a name="systemmonitorondblclick-event"></a>Системмонитор. Ондблкликк, событие
 
@@ -53,7 +53,7 @@ SystemMonitor.OnDblClick( _
 
 Это событие не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При срабатывании этого события счетчик, выбранный пользователем в линейном графике и гистограмме, также выбирается в области условные обозначения. Это упрощает пользователю системного монитора, какой счетчик выбран при отображении нескольких значений счетчиков.
 

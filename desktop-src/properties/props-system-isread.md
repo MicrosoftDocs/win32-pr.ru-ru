@@ -4,12 +4,12 @@ ms.assetid: 2efa6dd9-8521-48c9-9aff-e2e8f0e2296d
 title: System. чтение
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 045dda6e840ff9d800b44573c4ba8537cdd2ebfd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f1e36f5a3cd56e369a9a2d0060cef6f88a71c8a822c22942c3425f0a311e9f82
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118726490"
 ---
 # <a name="systemisread"></a>System. чтение
 
@@ -66,11 +66,11 @@ propertyDescription
             mnemonics = unread
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

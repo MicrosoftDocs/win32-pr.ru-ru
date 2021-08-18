@@ -4,12 +4,12 @@ ms.assetid: 3701f9b2-0857-45f0-b3ed-4f1b3db4d6d8
 title: Интерфейсы атрибутов сертификата
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 930f427ae6333084c8a180e5d227e4c24daa5426
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 63cbd7b5e80fbb787a0d2aadcfb1617cb7972d7eed200da9184607ad0598031e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105647175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118902927"
 ---
 # <a name="certificate-attribute-interfaces"></a>Интерфейсы атрибутов сертификата
 
@@ -37,7 +37,7 @@ ms.locfileid: "105647175"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

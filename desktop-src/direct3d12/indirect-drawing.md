@@ -5,12 +5,12 @@ ms.assetid: F8D6C88A-101E-4F66-999F-43206F6527B6
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fa474a469d5789d4b31830400d981ea771db2e8
-ms.sourcegitcommit: b9a7a48e52219bf8d33e6b8171fc9f8b52151e92
+ms.openlocfilehash: c55070bead6f848777cb81dd7fb33878ddcf7954a7f8a4fbb55f4ab9c01d4cea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2021
-ms.locfileid: "112421882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123855"
 ---
 # <a name="indirect-drawing"></a>Косвенная прорисовка
 

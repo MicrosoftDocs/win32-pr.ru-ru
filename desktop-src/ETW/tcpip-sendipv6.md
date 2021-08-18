@@ -22,12 +22,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 190b7d4fc64660b1e12240b6461e73066102b6a3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f9314688bce48f48274131a2b1dd605d8a555e3e31c205a67a07d2895e55c2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984789"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069634"
 ---
 # <a name="tcpip_sendipv6-class"></a>\_Класс TcpIp SendIPV6
 
@@ -54,13 +54,13 @@ class TcpIp_SendIPV6 : TcpIp
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **TcpIp \_ SendIPV6** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **TcpIp \_ SendIPV6** имеет следующие свойства.
 
@@ -178,7 +178,7 @@ class TcpIp_SendIPV6 : TcpIp
 
 </dd> <dt>
 
-size
+размер;
 </dt> <dd> <dl> <dt>
 
 Тип данных: **UInt32**
@@ -232,8 +232,8 @@ size
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

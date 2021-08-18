@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: be9240f5307bb1e70b1f10cc1e392b92e5833fd8
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 7b06d9529d4f7e6bf8e44339290855d50e6668d67f56305fbc3bbeb77ad4b217
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104081776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118787854"
 ---
 # <a name="texldl---vs"></a>текслдл — VS
 
@@ -37,7 +37,7 @@ ms.locfileid: "104081776"
 -   src0 — это исходный регистр, предоставляющий координаты текстуры для образца текстуры.
 -   src1 идентифицирует регистры исходного образца \# , где \# указывает, какой номер образца текстуры следует вычислить. Этот образец связан с текстурой и состоянием элемента управления, определенным перечислением [**D3DSAMPLERSTATETYPE**](/windows/desktop/direct3d9/d3dsamplerstatetype) (например, D3DSAMP \_ минфилтер).
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -93,7 +93,7 @@ else
 -   При выборке текстур с плавающей запятой Float16 означает, что данные будут находиться в диапазоне от MAX \_ Float16. Float32 означает, что будет использоваться максимальный диапазон конвейера. Выборка за пределами одного из диапазонов не определена.
 -   Нет зависимого ограничения на чтение.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: d49511ed-8651-457e-a102-0bea4edde24c
 title: Интерфейсы Цертенролл
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e745d00613cf4b79e318220d66ed6786d393306
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d255ceebda5fa745990351e53921b561dd3df30d695678f4709ff3a20fbaa106
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105647176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118903086"
 ---
 # <a name="certenroll-interfaces"></a>Интерфейсы Цертенролл
 
@@ -108,7 +108,7 @@ API регистрации сертификатов поддерживают с�
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 27751d1d6f17a6c3d64baf3dbb1b4d8b37570209
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: bb51d7c6b398a1ee86afbffe78cd1bf54cf8e5290e5c04f8d7815525137ce303
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104412199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118794572"
 ---
 # <a name="break---vs"></a>разделение и сравнение
 
@@ -29,9 +29,9 @@ ms.locfileid: "104412199"
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта инструкция поддерживается в следующих версиях.
 
@@ -43,18 +43,18 @@ ms.locfileid: "104412199"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера вершин](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

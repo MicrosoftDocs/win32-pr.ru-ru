@@ -59,7 +59,7 @@ typedef struct _DO_DOWNLOAD_STATUS
 
 Расширенные сведения об ошибке (если они существуют), связанные с текущей загрузкой.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 | &nbsp; | &nbsp; |
 | ---- |:---- |

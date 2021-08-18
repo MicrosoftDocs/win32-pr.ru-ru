@@ -63,7 +63,7 @@ class CIM_SwitchPort : CIM_ProtocolEndpoint
 
 </dd> </dl>
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

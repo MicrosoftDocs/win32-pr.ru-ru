@@ -4,12 +4,12 @@ description: Указывает начало подпрограммы.
 ms.assetid: B966AE64-47CA-4A13-A26F-184D9FD26C26
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff4c2d73db5d776c75b6d6339cecb7748a9868d2
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 1d9075aa14d72893d7c7862361b44ff636dd9bb6fda62563087ca2404bd1d70b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103784953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986464"
 ---
 # <a name="label-sm4---asm"></a>метка (SM4-ASM)
 
@@ -34,7 +34,7 @@ ms.locfileid: "103784953"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 **Метка** может присутствовать непосредственно после инструкции [**RET**](ret--sm4---asm-.md) , которая не вложена ни в какие инструкции управления потоком.
 
@@ -77,9 +77,9 @@ ms.locfileid: "103784953"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
-| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | да       |
-| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
+| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Да       |
+| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Да       |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Нет        |
@@ -88,7 +88,7 @@ ms.locfileid: "103784953"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

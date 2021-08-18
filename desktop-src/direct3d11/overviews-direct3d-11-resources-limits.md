@@ -4,12 +4,12 @@ description: Этот раздел содержит список ресурсо�
 ms.assetid: 80ae49f2-4a6d-4cfc-95d6-510685ab9736
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 607d2128dcb448d97ab198e43ed47895e273d89b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 27e54771dafb44164196d44c760c3a60ec96ae2fee138abe7809234b8c4e073c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124142"
 ---
 # <a name="resource-limits-direct3d-11"></a>Ограничения ресурсов (Direct3D 11)
 
@@ -17,7 +17,7 @@ ms.locfileid: "104413164"
 
 -   [Ограничения ресурсов для оборудования уровня компонентов 11](#resource-limits-for-feature-level-11-hardware)
 -   [Ограничения ресурсов для оборудования уровня функции 9. x](#resource-limits-for-feature-level-9x-hardware)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="resource-limits-for-feature-level-11-hardware"></a>Ограничения ресурсов для оборудования уровня компонентов 11
 
@@ -120,7 +120,7 @@ ms.locfileid: "104413164"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

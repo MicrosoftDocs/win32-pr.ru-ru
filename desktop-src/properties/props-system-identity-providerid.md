@@ -4,12 +4,12 @@ ms.assetid: 837ba603-76dc-442d-ba4a-0f87ac116dfd
 title: System. Identity. ProviderID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e85b82e06fab06083e6c53e76201f05ab6bd8c0c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6bb4683a1a249f48acf5a5ddeb444d5246fdf09a026119d7be80d7b5d0439d7a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105683641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118726743"
 ---
 # <a name="systemidentityproviderid"></a>System. Identity. ProviderID
 
@@ -30,11 +30,11 @@ propertyDescription
       type = Guid
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

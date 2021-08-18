@@ -1,19 +1,19 @@
 ---
 title: Перечисления веб-служб Windows
 ms.assetid: e54df9d6-87ff-4901-a662-5198132ceb18
-description: 'Дополнительные сведения: перечисления веб-служб Windows'
+description: 'дополнительные сведения: Windows перечисления веб-служб'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 770aa5ecab0a680ca1e013236ee053382ccab299
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1836ab77377a3080bd9a7211644acbc7d06300f7afd708aaa4e250137a7d5b35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026142"
 ---
 # <a name="windows-web-services-enumerations"></a>Перечисления веб-служб Windows
 
-API веб-служб Windows включает следующие перечисления:
+API Windows веб-служб включает следующие перечисления:
 
 -   [**\_версия WS Addressing \_**](/windows/desktop/api/WebServices/ne-webservices-ws_addressing_version)
 -   [**\_ \_ тип шаблона привязки \_ WS**](/windows/desktop/api/WebServices/ne-webservices-ws_binding_template_type)

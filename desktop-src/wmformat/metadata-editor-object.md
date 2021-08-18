@@ -3,7 +3,7 @@ title: Объект редактора метаданных
 description: Объект редактора метаданных
 ms.assetid: 224eea1c-1d0d-47ac-9d99-c13674284f6d
 keywords:
-- Пакет SDK для формата Windows Media, объекты редактора метаданных
+- Windows Пакет SDK для формата мультимедиа, объекты редактора метаданных
 - Расширенный системный формат (ASF), объекты редактора метаданных
 - ASF (Расширенный системный формат), объекты редактора метаданных
 - объекты, объекты редактора метаданных
@@ -11,12 +11,12 @@ keywords:
 - метаданные, объекты редактора
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e27a30f5bd22bef9533352927901ad2b8a9e44fe
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 5e8e78aaf6ada96a9cefa1a9ec6f4aa5708c7382539bc3b75493734c18d600b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "103789222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027452"
 ---
 # <a name="metadata-editor-object"></a>Объект редактора метаданных
 
@@ -39,9 +39,9 @@ ms.locfileid: "103789222"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -60,9 +60,9 @@ ms.locfileid: "103789222"
 [**Работа с метаданными**](working-with-metadata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 1e197716-bf6c-4a28-ae66-38aa59d7371d
 title: Инкворд, элемент
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e8dc9baea7cda0346e82c11331c45f453e61f192
-ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
+ms.openlocfilehash: 342da6688088d37065af7af8600ac2e1e7003599914b320b21e49d39235dc712
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111432396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118717323"
 ---
 # <a name="inkword-element"></a>Инкворд, элемент
 
@@ -25,7 +25,7 @@ ms.locfileid: "111432396"
 
 [**граупноде**](groupnode-element.md)
 
-[**Штрих**](line-element.md)
+[**Линия**](line-element.md)
 
 ## <a name="child-elements"></a>Дочерние элементы
 
@@ -35,7 +35,7 @@ ms.locfileid: "111432396"
 
 [**канреклассифи**](canreclassify-element.md)
 
-[**Уровень**](confidence-element.md)
+[**Достоверность**](confidence-element.md)
 
 [**инкобжект**](inkobject-element.md)
 

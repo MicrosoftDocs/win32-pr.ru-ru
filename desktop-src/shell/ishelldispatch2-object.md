@@ -61,7 +61,7 @@ ms.locfileid: "118721094"
 
 обсуждение Windows служб см. в документации по [службам](../services/services.md) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

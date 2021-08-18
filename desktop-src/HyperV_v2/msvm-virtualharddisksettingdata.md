@@ -31,12 +31,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 6e13efbb068d15ca4051995e7d9f317eb2ccacab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b7f87ba072aaff03ab415ccabe803546a89192ecb1e28d85b628dd0655d47421
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104143891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068424"
 ---
 # <a name="msvm_virtualharddisksettingdata-class"></a>\_Класс мсвм виртуалхарддисксеттингдата
 
@@ -77,7 +77,7 @@ class Msvm_VirtualHardDiskSettingData : CIM_SettingData
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ виртуалхарддисксеттингдата** имеет следующие свойства.
 
@@ -96,7 +96,7 @@ class Msvm_VirtualHardDiskSettingData : CIM_SettingData
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -121,7 +121,7 @@ class Msvm_VirtualHardDiskSettingData : CIM_SettingData
 Задает требуемое выравнивание в байтах для полезных данных виртуального диска.
 
 > [!Note]  
-> Добавлено в Windows 10 версии 1709.
+> добавлено в Windows 10 версии 1709.
 
  
 
@@ -188,7 +188,7 @@ class Msvm_VirtualHardDiskSettingData : CIM_SettingData
 </dt> <dd>
 
 > [!Note]  
-> Добавлено в Windows 10 и Windows Server 2016.
+> добавлено в Windows 10 и Windows Server 2016.
 
  
 
@@ -224,7 +224,7 @@ class Msvm_VirtualHardDiskSettingData : CIM_SettingData
 Указывает, можно ли использовать виртуальный диск в качестве резервного хранилища для устройства с энергонезависимой памятью.
 
 > [!Note]  
-> Добавлено в Windows 10 версии 1709.
+> добавлено в Windows 10 версии 1709.
 
  
 
@@ -268,7 +268,7 @@ class Msvm_VirtualHardDiskSettingData : CIM_SettingData
 Идентификатор GUID, используемый для уникальной идентификации родителя виртуального жесткого диска. Если виртуальный жесткий диск не имеет родителя, это поле будет пустым.
 
 > [!Note]  
-> Добавлено в Windows 10 и Windows Server 2016.
+> добавлено в Windows 10 и Windows Server 2016.
 
  
 
@@ -299,7 +299,7 @@ class Msvm_VirtualHardDiskSettingData : CIM_SettingData
 Метка времени родителя виртуального жесткого диска. Если виртуальный жесткий диск не имеет родителя, это поле будет пустым.
 
 > [!Note]  
-> Добавлено в Windows 10 и Windows Server 2016.
+> добавлено в Windows 10 и Windows Server 2016.
 
  
 
@@ -343,7 +343,7 @@ class Msvm_VirtualHardDiskSettingData : CIM_SettingData
 Метод абстракции постоянных адресов памяти для использования с этим виртуальным диском.
 
 > [!Note]  
-> Добавлено в Windows 10 версии 1709.
+> добавлено в Windows 10 версии 1709.
 
  
 
@@ -425,7 +425,7 @@ class Msvm_VirtualHardDiskSettingData : CIM_SettingData
 
 Ошибки, создаваемые функцией [**сетвиртуалдискинформатион**](/windows/win32/api/virtdisk/nf-virtdisk-setvirtualdiskinformation) , передаются через это свойство. Клиент также может использовать тот же механизм для предоставления значения **виртуалдискид** при создании виртуального жесткого диска с помощью метода [**Мсвм \_ ). креатевиртуалхарддиск**](createvirtualharddisk-msvm-imagemanagementservice.md) в том же пространстве имен. Это можно использовать для создания виртуальных жестких дисков VHD1 или VHD2.
 
-**Windows 8.1:** Это значение не поддерживается до Windows 8.1 и Windows Server 2012 R2.
+**Windows 8.1:** это значение не поддерживается до Windows 8.1 и Windows Server 2012 R2.
 
 </dd> </dl>
 
@@ -435,8 +435,8 @@ class Msvm_VirtualHardDiskSettingData : CIM_SettingData
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

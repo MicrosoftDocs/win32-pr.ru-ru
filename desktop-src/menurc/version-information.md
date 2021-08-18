@@ -8,18 +8,18 @@ keywords:
 - номера версий
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78e43de27f18f89a5f240242b63ade057f57ec92
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ac69601c593c51a5a15a0af0706a019f135d855875f6e1ecabdb414a8a100045
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104330128"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118733099"
 ---
 # <a name="version-information"></a>Сведения о версии
 
 Сведения о версии облегчают приложениям правильную установку файлов и позволяют программам программы установки анализировать уже установленные файлы. Ресурс сведения о версии содержит номер версии файла, требуемую операционную систему и имя исходного файла.
 
-### <a name="in-this-section"></a>в этом разделе
+### <a name="in-this-section"></a>В этом разделе
 
 
 

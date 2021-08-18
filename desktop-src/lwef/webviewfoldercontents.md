@@ -3,8 +3,8 @@ title: Объект WebViewFolderContents (Shldisp.h)
 description: Реализуется оболочкой для использования внутри WebView.
 ms.assetid: c9c46e21-2721-43c9-a6f4-38fafbda3798
 keywords:
-- Функции среды Windows для устаревших объектов Вебвиевфолдерконтентс
-- Компоненты среды Windows для устаревших объектов Вебвиевфолдерконтентс, описание
+- функции среды Windows для устаревших объектов вебвиевфолдерконтентс
+- компоненты среды Windows для устаревших объектов вебвиевфолдерконтентс, описание
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a9ea2020e2d9baaffbc026692faafc702db14781
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 179fe0146f49d0e5172410ca119953a7b3f245af20c0e4c2d83ff78fa23b93e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105710443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035962"
 ---
 # <a name="webviewfoldercontents-object"></a>Объект Вебвиевфолдерконтентс
 
@@ -76,9 +76,9 @@ ms.locfileid: "105710443"
 |:--------------------------------------------------------------------|:---------------------|:-----------------------------------------------------------------------------------------------------------------------------------------|
 | [**Приложение**](webviewfoldercontents-application.md)<br/> | Только для чтения<br/> | Не реализован.<br/>                                                                                                              |
 | [**фокуседитем**](webviewfoldercontents-focuseditem.md)<br/> | Только для чтения<br/> | Возвращает объект [**FolderItem**](../shell/folderitem.md) , представляющий элемент, имеющий фокус ввода.<br/>                           |
-| [**Folder**](webviewfoldercontents-folder.md)<br/>           | Только для чтения<br/> | Возвращает объект [**Folder**](../shell/folder.md) , представляющий представление.<br/>                                                            |
+| [**Папка**](webviewfoldercontents-folder.md)<br/>           | Только для чтения<br/> | Возвращает объект [**Folder**](../shell/folder.md) , представляющий представление.<br/>                                                            |
 | [**Parent**](webviewfoldercontents-parent.md)<br/>           | Только для чтения<br/> | Не реализован.<br/>                                                                                                              |
-| [**Скрипт**](webviewfoldercontents-script.md)<br/>           | Только для чтения<br/> | Возвращает объект скрипта для представления.<br/>                                                                                       |
+| [**Сценарий**](webviewfoldercontents-script.md)<br/>           | Только для чтения<br/> | Возвращает объект скрипта для представления.<br/>                                                                                       |
 | [**виевоптионс**](webviewfoldercontents-viewoptions.md)<br/> | Только для чтения<br/> | Возвращает набор флагов [**шеллфолдервиевоптионс**](/windows/desktop/api/shldisp/ne-shldisp-shellfolderviewoptions) , которые указывают текущие параметры представления.<br/> |
 
 
@@ -91,7 +91,7 @@ ms.locfileid: "105710443"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                           |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                         |

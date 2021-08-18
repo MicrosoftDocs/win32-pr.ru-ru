@@ -4,12 +4,12 @@ ms.assetid: a124e9fb-f9fa-4ed3-8f32-4f1fab392530
 title: Действие Инсталлексекуте
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76417a4f188849f9a5af5a90b08e1f4bb5977afc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 249a83f283b3abee97fbddf99d755b158678726fbb36c066791e3f87ae718f46
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104143846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118946132"
 ---
 # <a name="installexecute-action"></a>Действие Инсталлексекуте
 
@@ -23,7 +23,7 @@ ms.locfileid: "104143846"
 
 Нет сообщений Актиондата.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 [Действие инсталлексекутеагаин](installexecuteagain-action.md) делает то же самое, что и действие инсталлексекуте. Так как таблицы последовательности имеют только один первичный ключ — столбец Action, одно и то же действие не может повторяться в определенной таблице последовательностей. Существуют два действия, которые выполняют одно и то же действие, Инсталлексекуте и Инсталлексекутеагаин, в случаях, когда функциональность Инсталлексекуте требуется дважды в [таблице инсталлексекутесекуенце](installexecutesequence-table.md). Дополнительные сведения см. в разделе [Использование таблицы последовательностей](using-a-sequence-table.md).
 

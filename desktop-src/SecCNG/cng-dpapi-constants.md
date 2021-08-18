@@ -4,12 +4,12 @@ ms.assetid: 4E43FAA9-7D6F-43DB-A998-189411E0AB4C
 title: Константы DPAPI CNG (Нкриптпротект. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ece376a0b7282f26ef933b249a1356b2d012d438
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1afc589afa113250728b46639b7cd47442034f7b3bc82264099f334919a94c76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104496971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118908803"
 ---
 # <a name="cng-dpapi-constants"></a>Константы DPAPI CNG
 
@@ -141,7 +141,7 @@ L "ИЛИ"
 <span id="NCRYPT_KEY_PROTECTION_LOCAL_USER"></span><span id="ncrypt_key_protection_local_user"></span>**\_ \_ \_ локальный \_ Пользователь защиты ключей NCRYPT**
 </dt> <dd> <dl> <dt>
 
-нажат
+"user"
 </dt> <dt>
 
 
@@ -171,7 +171,7 @@ L "ИЛИ"
 <span id="WINDOWS_CLIENT_KEY_PROTECTION_PROVIDER"></span><span id="windows_client_key_protection_provider"></span>**\_ \_ \_ поставщик защиты ключа клиента \_ Windows**
 </dt> <dd> <dl> <dt>
 
-"Поставщик защиты ключа клиента Windows"
+"Windows клиентский поставщик защиты ключей"
 </dt> <dt>
 
 
@@ -183,14 +183,14 @@ L "ИЛИ"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                 |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                       |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                 |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Нкриптпротект. h</dt> </dl> |
 
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7261fa832e5acfb4ef7d9723bc93b862947ef380
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ad2bf1795f5059ec1fdda00ddb6a93cfe396dae5b4119d392eff42382fa978b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104416089"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118785870"
 ---
 # <a name="dlgitemtemplateex-structure"></a>Структура ДЛГИТЕМТЕМПЛАТИКС
 
@@ -154,7 +154,7 @@ typedef struct {
 |-----------------------------------------------------------------------------------|-----------------------|
 | <dl> <dt>0x0080</dt> </dl> | Кнопка<br/>     |
 | <dl> <dt>0x0081</dt> </dl> | Изменить<br/>       |
-| <dl> <dt>0x0082</dt> </dl> | Статические<br/>     |
+| <dl> <dt>0x0082</dt> </dl> | Статический<br/>     |
 | <dl> <dt>0x0083</dt> </dl> | Список<br/>   |
 | <dl> <dt>0x0084</dt> </dl> | полоса прокрутки;<br/> |
 | <dl> <dt>0x0085</dt> </dl> | поле со списком;<br/>  |
@@ -187,7 +187,7 @@ typedef struct {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Расширенный шаблон для диалогового окна состоит из заголовка [**длгтемплатикс**](dlgtemplateex.md) , за которым следует структура **длгитемтемплатикс** для каждого элемента управления в диалоговом окне.
 

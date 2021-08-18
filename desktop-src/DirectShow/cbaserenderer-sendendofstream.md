@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f04e4c8c90796aafb64870a9d59d38b0a33e7435
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 344783d8e8aac755d157f125b02827c9f362ca96271dccb84134f451b31d1bc3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118954823"
 ---
 # <a name="cbaserenderersendendofstream-method"></a>Кбасерендерер. Сендендофстреам, метод
 
@@ -55,7 +55,7 @@ virtual HRESULT SendEndOfStream();
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Фильтр может получить уведомление о завершении потока до времени окончания текущего образца. В этом случае фильтр должен подождать перед тем, как опубликовать уведомление о [**\_ завершении EC**](ec-complete.md) в диспетчере графов фильтров.
 
@@ -73,7 +73,7 @@ virtual HRESULT SendEndOfStream();
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ренбасе. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>ренбасе. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

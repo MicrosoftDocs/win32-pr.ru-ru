@@ -4,12 +4,12 @@ ms.assetid: 6782e080-284b-458d-8bc0-6e131a529e7b
 title: Атрибут MF_TRANSCODE_ADJUST_PROFILE (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dd492cfc7981ca1a36a1cb54a440bec4783fe1b6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fb25f4df47d281ddb0e359d98e8a411cb3abb365b479388e9b7ae107e786703c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682962"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118739472"
 ---
 # <a name="mf_transcode_adjust_profile-attribute"></a>\_ \_ Атрибут изменения профиля для ПЕРЕкодирования MF \_
 
@@ -25,7 +25,7 @@ ms.locfileid: "105682962"
 
 Чтобы задать этот атрибут, вызовите [**имфаттрибутес:: SetUINT32**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint32).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение может установить этот атрибут на уровне контейнера в профиле перекодировки. Если этот атрибут задан, функция [**мфкреатетранскодетопологи**](/windows/desktop/api/mfidl/nf-mfidl-mfcreatetranscodetopology) изменяет атрибуты потока во время создания топологии в зависимости от указанного флага. Например, если приложение задает флаг **\_ \_ \_ \_ по умолчанию для изменения профиля MF** , для создания профиля используются параметры потока, заданные приложением.
 
@@ -35,14 +35,14 @@ ms.locfileid: "105682962"
 
 Константа GUID для этого атрибута экспортируется из мфууид. lib.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                         |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                            |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                         |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                            |
 | Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
