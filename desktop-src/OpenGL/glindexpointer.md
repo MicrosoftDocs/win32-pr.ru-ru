@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cca6858d7d1e3f13e4155bd40307a53b22e80a56
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e27502420121f7373af5425e8aadffe3641ddec539a4521fe6c6bf55e6d807d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104489153"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012152"
 ---
 # <a name="glindexpointer-function"></a>Функция Глиндекспоинтер
 
@@ -56,7 +56,7 @@ void WINAPI glIndexPointer(
 
 </dd> <dt>
 
-*указатель* 
+*вид* 
 </dt> <dd>
 
 Указатель на первый цветовой индекс в массиве.
@@ -80,7 +80,7 @@ void WINAPI glIndexPointer(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глиндекспоинтер** задает расположение и данные массива цветовых индексов, используемых при подготовке к просмотру. Параметр *типа* задает тип данных каждого цветового индекса, а *шаг* смещения определяет смещение в байтах от одного цветового индекса к другому, позволяя использовать упаковку вершин и атрибуты в одном массиве или хранилище в отдельных массивах. В некоторых реализациях хранение вершин и атрибутов в одном массиве может быть более эффективным, чем использование отдельных массивов. Дополнительные сведения см. в разделе [**глинтерлеаведаррайс**](glinterleavedarrays.md).
 

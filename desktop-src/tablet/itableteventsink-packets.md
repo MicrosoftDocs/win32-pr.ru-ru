@@ -14,12 +14,12 @@ api_type:
 api_location:
 - wisptis.exe
 - wisptis.exe.dll
-ms.openlocfilehash: fb671b0556cf121e28ae81c5dcfa804208e00006
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 29b118771fb5217ed13c01ef9376ad9b426e1ecd74a4bf931d8412a0b47e913b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998937"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119712124"
 ---
 # <a name="itableteventsinkpackets-method"></a>Итаблетевентсинк: метод:P аккетс
 
@@ -108,7 +108,7 @@ HRESULT Packets(
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/>                          |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/>                          |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                              |
 | Библиотека<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 

@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 63025270752af044a572cf9b6299e54b31b89ffe
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 759986fce07c0f974a18169fbece355902e5a9a82fd1434e78d5eb2b79b51fe2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103802698"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118998994"
 ---
 # <a name="ivmguestosshutdown-method"></a>Метод Ивмгуестос:: Shutdown
 
-\[Windows Virtual PC больше не доступна для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC больше не доступен для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Завершает работу гостевой операционной системы в виртуальной машине.
 
@@ -80,9 +80,9 @@ HRESULT Shutdown(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-При вызове этого метода виртуальная машина должна быть запущена, а компонент интеграции должен быть установлен. Этот метод поддерживается только для гостевых операционных систем под управлением Windows.
+При вызове этого метода виртуальная машина должна быть запущена, а компонент интеграции должен быть установлен. этот метод поддерживается только для гостевых операционных систем на основе Windows.
 
 Следующие значения можно возвратить с помощью свойства [**Error**](ivmtask-error.md) возвращенного объекта [**ивмтаск**](ivmtask.md) .
 
@@ -99,22 +99,22 @@ HRESULT Shutdown(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                    |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                     |
 | Окончание поддержки клиента<br/>    | Windows 7<br/>                                                                          |
 | Продукт<br/>                  | Windows Virtual PC<br/>                                                                 |
-| Header<br/>                   | <dl> <dt>Впккоминтерфацес. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Впккоминтерфацес. h</dt> </dl> |
 | IID<br/>                      | IID \_ ивмгуестос определен как 99fea0db-4880-499a-b6d8-73dff9bc91be<br/>                 |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

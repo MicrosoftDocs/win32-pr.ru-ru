@@ -3,7 +3,7 @@ title: Сообщение EM_GETCTFOPENSTATUS (RichEdit. h)
 description: Определяет, открыта или закрыта клавиатура платформы текстовых служб (TSF).
 ms.assetid: a50fedf4-b4e5-4b99-be46-1bbbf08e85a8
 keywords:
-- Элементы управления Windows для EM_GETCTFOPENSTATUS сообщений
+- элементы управления Windows сообщений EM_GETCTFOPENSTATUS
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ce1bbf09af6c61a33c33c4172ff699fa5bd26f4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ef55fe0944ad3632f8bfec11894c5613efde02dc1ec16f8c0d31105f6b19ea8e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019742"
 ---
 # <a name="em_getctfopenstatus-message"></a>\_Сообщение ЖЕТКТФОПЕНСТАТУС EM
 
@@ -47,19 +47,19 @@ ms.locfileid: "103988768"
 
 Если клавиатура TSF открыта, возвращается значение **true**. В противном случае — **false**.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для настольных приложений Windows XP с пакетом обновления 1 \[\]<br/>                                  |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows XP с пакетом обновления 1 (SP1), \[ только классические приложения\]<br/>                                  |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

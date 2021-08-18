@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2936401d59bb8c2c2bcfdcffce27ba9ed978d506
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: eb887997642b0d0ff81314d6cf81dc148e57547727a09b1fe646f04d0391f967
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104069889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014122"
 ---
 # <a name="osf-switch"></a>/ОСФ, параметр
 
@@ -31,7 +31,7 @@ midl /osf
 
 Этот параметр не имеет параметров.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте этот параметр, если приложению требуется обеспечение высокой совместимости с использование DCE для обеспечения переносимости.
 
@@ -66,7 +66,7 @@ midl /osf
 -   Внешние объявления.
 -   Процедуры с многоточием в списке параметров.
 -   Тип [**int**](int.md).
--   Тип **void \*** (за исключением [**атрибута \_ Handle контекста**](context-handle.md) ).
+-   Введите **void \** _ (за исключением атрибута [_ *context \_ Handle* *](context-handle.md) ).
 -   Квалификаторы типов, включая форму с префиксом, совместимым с ANSI, содержат два символа подчеркивания: **\_ \_ cdecl**, **cdecl**, [**const**](const.md), **const**, **\_ \_ Export** **, Export,** **\_ \_ дальнее**, **далеко**, **\_ \_ лоаддс**, **лоаддс**, **\_ \_ NEAR**, **NEAR**, **\_ \_ Pascal**, **Pascal**, **\_ \_ STDCALL**, **STDCALL**, **\_ \_ volatile** и **volatile**.
 -   Любая \# [**директива pragma**](pragma.md) warning или **\# pragma** Comment.
 -   Сериализация типов.
@@ -79,7 +79,7 @@ midl /osf
 
 **MIDL/ОСФ/АПП \_ config имя_файла. idl**
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -95,6 +95,6 @@ midl /osf
 [Пакет управления памятью RPCSS](/windows/desktop/Rpc/rpcss-memory-management-package)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 0d7b82e8-ce97-410a-a946-30055cd2d558
 title: Константы LINECALLCOMPLCOND_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 23663b2939761ea8ef1293875bc78d3ed1ccb31d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 515a3def9167624af60f93abfebc47ba56363880bb375dd1f224aceb38bab18c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119682009"
 ---
 # <a name="linecallcomplcond_-constants"></a>\_Константы линекаллкомплконд
 
@@ -37,7 +37,7 @@ ms.locfileid: "105689389"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Без расширяемости. Все 32 бит зарезервированы.
 
@@ -48,7 +48,7 @@ ms.locfileid: "105689389"
 | Требование | Значение |
 |-------------------------|-----------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 2,0 или более поздней версии<br/>                                             |
-| Header<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
 
 
 

@@ -4,16 +4,16 @@ ms.assetid: 97450126-0d11-448e-a7bc-7372e84c07ae
 title: Вспомогательные функции страницы свойств
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c64de29c327a95682cab2a61088ec2ec067d855
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 92e9d059b7bc8bbc748cc0832fc1fd0321815307c8100bb07914fde99502f67b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105673051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119748084"
 ---
 # <a name="property-page-helper-functions"></a>Вспомогательные функции страницы свойств
 
-Заголовочный файл Видеоктл. h в базовых классах Microsoft® DirectShow® предоставляет функции, помогающие в реализации страниц свойств.
+заголовочный файл видеоктл. h в базовых классах Microsoft® DirectShow® предоставляет функции, помогающие в реализации страниц свойств.
 
 
 

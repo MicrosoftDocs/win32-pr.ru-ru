@@ -6,12 +6,12 @@ keywords:
 - файлы заголовков MIDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 214ae80877b88d8061769b0d6bd56c13469427fc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ac9bc5e8b5edd091450af670fd51d251326029f13e1f88a6d5a9116faa5b4447
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105661611"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013522"
 ---
 # <a name="the-header-files"></a>Файлы заголовков
 
@@ -21,9 +21,9 @@ ms.locfileid: "105661611"
 
 Имя по умолчанию для файла заголовка, созданного из файла. idl — File. h. Параметр компилятора [**/Header**](-header.md) MIDL переопределяет имя файла заголовка интерфейса по умолчанию.
 
- 
+ 
 
- 
+ 
 
 
 

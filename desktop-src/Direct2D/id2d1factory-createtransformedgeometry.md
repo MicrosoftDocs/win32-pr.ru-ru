@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 5da3b548c3118209c915714e03fe9e4061c77e96
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8216b5b63951e3f393dc1c8a204a4a4e38ee652d79eb795ba4f4e97041aff3f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119832854"
 ---
 # <a name="id2d1factorycreatetransformedgeometry-methods"></a>Методы ID2D1Factory:: Креатетрансформеджеометри
 
@@ -34,7 +34,7 @@ ms.locfileid: "105675103"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Как и другие ресурсы, преобразованная геометрия наследует пространство ресурсов и политику потоков фабрики, создавшей ее. Этот объект является неизменяемым.
 
@@ -111,7 +111,7 @@ m_pRenderTarget->DrawGeometry(m_pTransformedGeometry, m_pBlackBrush, 1);
 
 | Требование | Значение |
 |--------------------|-------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D2d1. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>D2d1. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>D2d1. lib</dt> </dl> |
 | DLL<br/>     | <dl> <dt>D2d1.dll</dt> </dl> |
 

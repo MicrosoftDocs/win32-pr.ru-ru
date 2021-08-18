@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: e972675804b2857207663b8570464341c002c0f0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 6843b599dc0595201606c2e9c8ee4fe0dd84b5ad68c727466d802161641a6a10
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713854"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119849114"
 ---
 # <a name="id3dxanimationcontrollergetmaxnumtracks-method"></a>Метод ID3DXAnimationController:: Жетмакснумтраккс
 
@@ -44,7 +44,7 @@ UINT GetMaxNumTracks();
 
 Число дорожек.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Максимальное число дорожек, которыми может управлять контроллер.
 
@@ -54,7 +54,7 @@ UINT GetMaxNumTracks();
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9anim. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9anim. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

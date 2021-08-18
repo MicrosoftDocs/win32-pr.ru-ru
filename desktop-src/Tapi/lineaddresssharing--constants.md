@@ -4,12 +4,12 @@ ms.assetid: f37ba549-c8dc-4a7c-bfe6-8e5f733d9750
 title: Константы LINEADDRESSSHARING_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 785c7e924ffc958d3fe14b739bb2eb28dec322a7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e4fe92c92efd75a4f6e731944c487acff2ffd70e173dd04b03244ec9d55e8aba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675563"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003132"
 ---
 # <a name="lineaddresssharing_-constants"></a>\_Константы линеаддрессшаринг
 
@@ -67,24 +67,24 @@ ms.locfileid: "105675563"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Без расширяемости. Все 32 бит зарезервированы.
 
 Способ, которым адрес совместно используется в разных строках, может повлиять на поведение этого адреса. [**Строка \_ Сообщения КАЛЛСТАТЕ**](line-callstate.md) и [**Line \_ аддрессстате**](line-addressstate.md) отправляются в приложение в ответ на действия, направляемые станциями моста. Это сообщения, которые приложение может отвести от состояния адреса.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------|-----------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 2,0 или более поздней версии<br/>                                             |
-| Header<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

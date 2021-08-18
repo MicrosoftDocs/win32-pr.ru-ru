@@ -1,18 +1,18 @@
 ---
-title: Моделирование притяжения на уровне "n-текст" для нескольких ядер
+title: Моделирование гравитации для нескольких тел в нескольких движках
 description: В примере D3D12nBodyGravity показано, как выполнять расчетные работы асинхронно.
 ms.assetid: B20C5575-0616-43F7-9AC9-5F802E5597B5
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e60782519de6f655882717c4ea657668129a6ce3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: da14e34bfc881e000eb4f4557a0dddef3cee3d0ab55343a9e5597a483af39adc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548949"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119632052"
 ---
-# <a name="multi-engine-n-body-gravity-simulation"></a>Моделирование притяжения на уровне "n-текст" для нескольких ядер
+# <a name="multi-engine-n-body-gravity-simulation"></a>Моделирование гравитации для нескольких тел в нескольких движках
 
 В примере **D3D12nBodyGravity** показано, как выполнять расчетные работы асинхронно. В этом примере число потоков на каждом из них выдается с помощью очереди команд COMPUTE и планируется расчетная работа на GPU, который выполняет симуляцию притяжения в n-теле. Каждый поток работает с двумя буферами, заполненными данными о положении и скорости. При каждой итерации шейдер вычислений считывает текущие данные о положении и скорости из одного буфера и записывает следующую итерацию в другой буфер. Когда итерация завершается, шейдер вычислений меняет, какой буфер является SRV, для чтения данных о положении или скорости, а также UAV для записи обновлений расположения или скорости путем изменения состояния ресурса в каждом буфере.
 
@@ -67,14 +67,14 @@ ms.locfileid: "104548949"
 | [**\_DESC корневой \_ подписи CD3DX12 \_**](cd3dx12-root-signature-desc.md) | [**\_ \_ Флаги корневой подписи D3D12 \_**](/windows/win32/api/d3d12/ne-d3d12-d3d12_root_signature_flags)   |
 | [**ID3DBlob**](/previous-versions/windows/desktop/legacy/ff728743(v=vs.85))                                   |                                                                       |
 | [**D3D12SerializeRootSignature**](/windows/win32/api/d3d12/nf-d3d12-d3d12serializerootsignature)    | [**\_Версия корневой \_ СИГНАТУРы D3D \_**](/windows/win32/api/d3d12/ne-d3d12-d3d_root_signature_version)   |
-| [**креатерутсигнатуре**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createrootsignature)       |                                                                       |
+| [**CreateRootSignature**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createrootsignature)       |                                                                       |
 | [**\_DESC корневой \_ подписи CD3DX12 \_**](cd3dx12-root-signature-desc.md) |                                                                       |
 | [**D3D12SerializeRootSignature**](/windows/win32/api/d3d12/nf-d3d12-d3d12serializerootsignature)    | [**\_Версия корневой \_ СИГНАТУРы D3D \_**](/windows/win32/api/d3d12/ne-d3d12-d3d_root_signature_version)   |
-| [**креатерутсигнатуре**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createrootsignature)       |                                                                       |
+| [**CreateRootSignature**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createrootsignature)       |                                                                       |
 
 
 
- 
+ 
 
 ## <a name="create-the-srv-and-uav-buffers"></a>Создание буферов SRV и UAV
 
@@ -101,7 +101,7 @@ ms.locfileid: "104548949"
 
 
 
- 
+ 
 
 ## <a name="create-the-cbv-and-vertex-buffers"></a>Создание буферов CBV и вершин
 
@@ -127,7 +127,7 @@ ms.locfileid: "104548949"
 
 
 
- 
+ 
 
 В результате буфер вершин, используемый шейдером вершин, фактически не содержит никаких данных о позиционировании.
 
@@ -149,7 +149,7 @@ ms.locfileid: "104548949"
 
 
 
- 
+ 
 
 Для конвейера вычислений CBV — это **Структура** , содержащая некоторые константы, используемые симуляцией притяжения в виде «n-Body» в шейдере вычислений.
 
@@ -210,15 +210,15 @@ void D3D12nBodyGravity::OnRender()
 |------------------------------------------------------------------------|------------|
 | [**интерлоккедексчанже**](/windows-hardware/drivers/ddi/content/wdm/nf-wdm-interlockedexchange)                  |            |
 | [**интерлоккеджетвалуе**](/windows-hardware/drivers/ddi/content/wdm/nf-wdm-interlockedcompareexchange)           |            |
-| [**жеткомплетедвалуе**](/windows/win32/api/d3d12/nf-d3d12-id3d12fence-getcompletedvalue)             |            |
+| [**GetCompletedValue**](/windows/win32/api/d3d12/nf-d3d12-id3d12fence-getcompletedvalue)             |            |
 | [**Ожидание**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-wait)                                |            |
 | [**ID3D12CommandList**](/windows/win32/api/d3d12/nn-d3d12-id3d12commandlist)                         |            |
-| [**ексекутекоммандлистс**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists)  |            |
+| [**ExecuteCommandLists**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists)  |            |
 | [**IDXGISwapChain1::Present1**](/windows/win32/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-present1) |            |
 
 
 
- 
+ 
 
 Чтобы упростить пример, поток вычислений ждет завершения каждой итерации GPU, прежде чем планировать дополнительные операции вычислений. На практике для достижения максимальной производительности GPU приложения, скорее всего, хотят, чтобы очередь вычислений была заполнена.
 
@@ -279,15 +279,15 @@ DWORD D3D12nBodyGravity::AsyncComputeThreadProc(int threadIndex)
 | [**ID3D12GraphicsCommandList**](/windows/win32/api/d3d12/nn-d3d12-id3d12graphicscommandlist)              |            |
 | [**ID3D12Fence**](/windows/win32/api/d3d12/nn-d3d12-id3d12fence)                                          |            |
 | [**интерлоккеджетвалуе**](/windows-hardware/drivers/ddi/content/wdm/nf-wdm-interlockedcompareexchange)                |            |
-| [**Закрыть**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close)                            |            |
+| [**Выхода**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close)                            |            |
 | [**ID3D12CommandList**](/windows/win32/api/d3d12/nn-d3d12-id3d12commandlist)                              |            |
-| [**ексекутекоммандлистс**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists)       |            |
+| [**ExecuteCommandLists**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists)       |            |
 | [**интерлоккединкремент**](/windows-hardware/drivers/ddi/content/wdm/nf-wdm-interlockedincrement)                     |            |
-| [**Имел**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-signal)                                 |            |
-| [**сетевентонкомплетион**](/windows/win32/api/d3d12/nf-d3d12-id3d12fence-seteventoncompletion)            |            |
+| [**Сигнал**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-signal)                                 |            |
+| [**SetEventOnCompletion**](/windows/win32/api/d3d12/nf-d3d12-id3d12fence-seteventoncompletion)            |            |
 | [**WaitForSingleObject**](/windows/win32/api/synchapi/nf-synchapi-waitforsingleobject)                         |            |
 | [**интерлоккеджетвалуе**](/windows-hardware/drivers/ddi/content/wdm/nf-wdm-interlockedcompareexchange)                |            |
-| [**жеткомплетедвалуе**](/windows/win32/api/d3d12/nf-d3d12-id3d12fence-getcompletedvalue)                  |            |
+| [**GetCompletedValue**](/windows/win32/api/d3d12/nf-d3d12-id3d12fence-getcompletedvalue)                  |            |
 | [**Ожидание**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-wait)                                     |            |
 | [**интерлоккедексчанже**](/windows-hardware/drivers/ddi/content/wdm/nf-wdm-interlockedexchange)                       |            |
 | [**ID3D12CommandAllocator:: Reset**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandallocator-reset)       |            |
@@ -295,7 +295,7 @@ DWORD D3D12nBodyGravity::AsyncComputeThreadProc(int threadIndex)
 
 
 
- 
+ 
 
 ## <a name="run-the-sample"></a>Запуск примера
 
@@ -303,6 +303,6 @@ DWORD D3D12nBodyGravity::AsyncComputeThreadProc(int threadIndex)
 
 ## <a name="related-topics"></a>Связанные темы
 
-[Пошаговые инструкции по коду D3D12](d3d12-code-walk-throughs.md)
+[Пошаговые руководства по коду D3D12](d3d12-code-walk-throughs.md)
 
-[Синхронизация с несколькими модулями](./user-mode-heap-synchronization.md)
+[Синхронизация с несколькими движками](./user-mode-heap-synchronization.md)

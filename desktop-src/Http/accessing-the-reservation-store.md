@@ -7,12 +7,12 @@ keywords:
 - Протокол HTTP хранилища резервирования, доступ
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a138a0a2385e6338877e5e8623527a64a6eca796
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 14f9244fd4513517793bf85d205308fc49ac2d8ca0a246c17a68c730d1c76168
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410962"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015022"
 ---
 # <a name="accessing-the-reservation-store"></a>Доступ к хранилищу резервирования
 
@@ -22,9 +22,9 @@ API сервера HTTP поддерживает список резервиро
 
 API сервера HTTP также предоставляет функции для запроса и удаления конфигураций службы для пространств имен URL-адресов. Функция [**хттпкуерисервицеконфигуратион**](/windows/desktop/api/Http/nf-http-httpqueryserviceconfiguration) , вызываемая с параметром ID конфигурации, для которого заданы запросы значений **хттпсервицеконфигурлаклинфо** , а функция [**хттпделетесервицеконфигуратион**](/windows/desktop/api/Http/nf-http-httpdeleteserviceconfiguration) удаляет в хранилище пространства имен URL-адресов.
 
- 
+ 
 
- 
+ 
 
 
 

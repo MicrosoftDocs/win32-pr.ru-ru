@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 9c3e8594d9791ae98732c5b02677ef8e8085931d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3032a426278f969fbcdef465b6fff5fed9f80a11259ca9c31cc6ec669fb3eceb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647695"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119897885"
 ---
 # <a name="swbemqualifierpropagatestosubclass-property"></a>Свбемкуалифиер. Пропагатестосубкласс, свойство
 
@@ -50,7 +50,7 @@ SWbemQualifier.PropagatesToSubClass
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
 | Библиотека типов<br/>             | <dl> <dt>Wbemdisp. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | \_СВБЕМКУАЛИФИЕР CLSID<br/>                                                        |

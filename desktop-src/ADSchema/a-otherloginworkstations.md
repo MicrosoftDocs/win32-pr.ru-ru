@@ -1,6 +1,6 @@
 ---
 title: Другие атрибуты имени входа и рабочих станций
-description: Не \ 8211; Рабочие станции Windows NT или LAN Manager, с которых пользователь может войти в систему.
+description: Не \ 8211; Windows NT или рабочие станции диспетчера LAN, с которых пользователь может войти в систему.
 ms.assetid: feaa1ade-f340-4bca-8787-5ae5aa10d51c
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b71032e96de9ac8d323da8a94e4c50c5cace27c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e0cad2ce47be17ff969b237cf48255d3a668bbfc4c64f6144ec9d630fc938593
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103893325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119704474"
 ---
 # <a name="other-login-workstations-attribute"></a>Другие атрибуты имени входа и рабочих станций
 
-Пользователи, не являющиеся рабочими станциями Windows NT или LAN Manager, с которых пользователь может войти в систему.
+рабочие станции, не Windows NT или LAN Manager, с которых пользователь может войти в систему.
 
 > [!Note]  
 > Active Directory не использует или не заполняет это поле.
@@ -71,7 +71,7 @@ ms.locfileid: "103893325"
 | Range-Upper            | 1024                              |
 | Search-Flags           | 0x00000010                        |
 | System-Flags           | 0x00000010                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -92,7 +92,7 @@ ms.locfileid: "103893325"
 | Range-Upper            | 1024                              |
 | Search-Flags           | 0x00000010                        |
 | System-Flags           | 0x00000010                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -113,7 +113,7 @@ ms.locfileid: "103893325"
 | Range-Upper            | 1024                              |
 | Search-Flags           | 0x00000010                        |
 | System-Flags           | 0x00000010                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -134,7 +134,7 @@ ms.locfileid: "103893325"
 | Range-Upper            | 1024                              |
 | Search-Flags           | 0x00000010                        |
 | System-Flags           | 0x00000010                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -155,7 +155,7 @@ ms.locfileid: "103893325"
 | Range-Upper            | 1024                              |
 | Search-Flags           | 0x00000010                        |
 | System-Flags           | 0x00000010                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 

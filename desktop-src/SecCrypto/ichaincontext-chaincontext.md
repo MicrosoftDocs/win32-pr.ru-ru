@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 36b2f6f5811c844e4e43544f5b56b8de66cb3bf7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d5e7bc92aa798766538af19cae440542705a859040aed7fc8d9510e3724051f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119005502"
 ---
 # <a name="ichaincontextchaincontext-property"></a>Свойство Ичаинконтекст:: Чаинконтекст
 
@@ -52,7 +52,7 @@ ChainContext.ChainContext As Long
 
 Любое другое значение **HRESULT** указывает на сбой вызова.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы освободить контекст, необходимо вызвать метод [**фриконтекст**](ichaincontext-freecontext.md) или функцию [**цертфрицертификатечаин**](/windows/desktop/api/Wincrypt/nf-wincrypt-certfreecertificatechain) .
 

@@ -4,12 +4,12 @@ ms.assetid: b2cd1d37-9993-4990-83b7-b147a109e4af
 title: Событие WPCEVENT_IM_INVITATION (Впцевент. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 87c9d7e90eaa901b5e18a072e03e3112ee8c2934
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f29b1adc556e29e03f7c8a189567b98055187f80d1574e201c54e3af0c1c0aca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119951394"
 ---
 # <a name="wpcevent_im_invitation-event"></a>\_ \_ Событие приглашения впцевент IM
 
@@ -95,9 +95,9 @@ const EVENT_DESCRIPTOR WPCEVENT_IM_INVITATION = {0x7, 0x0, 0x10, 0x4, 0x16, 0x7,
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                             |
-| Header<br/>                   | <dl> <dt>Впцевент. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Впцевент. h</dt> </dl> |
 
 
 

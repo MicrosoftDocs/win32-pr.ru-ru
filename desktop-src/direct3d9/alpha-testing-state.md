@@ -4,12 +4,12 @@ ms.assetid: 368c3d12-2c8b-43e3-94c3-bccfe6c73e66
 title: Состояние тестирования Alpha (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 020322ee31bc08352dbb2796ea5e7141d03c77c3
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b853eb779860d5fc490f4061fde03c852a9c3d9f7bda48baa8e5a84ebd43173c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105710769"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989444"
 ---
 # <a name="alpha-testing-state-direct3d-9"></a>Состояние тестирования Alpha (Direct3D 9)
 
@@ -38,7 +38,7 @@ if (pCaps.AlphaCmpCaps & D3DPCMPCAPS_GREATEREQUAL)
 
 Не все оборудование поддерживает все функции для тестирования альфа-версии. Можно проверить возможности устройства, вызвав метод [**IDirect3D9:: жетдевицекапс**](/windows/desktop/api) . После получения возможностей устройства проверьте элемент Алфакмпкапс связанной структуры [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9) для нужной функции сравнения. Если член Алфакмпкапс содержит только \_ функцию D3DPCMPCAPS Always или только D3DPCMPCAPS \_ , драйвер не поддерживает альфа-тесты.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

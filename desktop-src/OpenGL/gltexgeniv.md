@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d05a5981e76c44ea8ee0fe037ac5c28d8c45f5f6
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 7caffbcf71b09f31fd05c1252471f7da2a66e5bc01e532dfb6c71563545779e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104550470"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119519754"
 ---
 # <a name="gltexgeniv-function"></a>Функция Глтексженив
 
@@ -80,7 +80,7 @@ void WINAPI glTexGeniv(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глтексжен** выбирает функцию создания координат текстуры или предоставляет коэффициенты для одной из функций. Параметр *курд* называет один из координат текстуры (s, t, r, q) и должен быть одним из следующих символов: GL \_ s, GL \_ t, GL \_ r или GL \_ q. Параметр *pname* должен быть одной из трех символьных констант: \_ \_ режим генерации текстуры GL, план \_ \_ объектов GL \_ или плоскость "GL" \_ \_ . Если *pname* является либо плоскостью \_ объектной \_ плоскости \_ \_ , либо плоскостью в главной области, *параметр param* содержит коэффициенты для соответствующей функции формирования текстуры.
 

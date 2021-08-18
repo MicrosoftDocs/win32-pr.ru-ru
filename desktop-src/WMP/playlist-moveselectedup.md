@@ -3,7 +3,7 @@ title: Список воспроизведения. Мовеселектедуп
 description: Метод Мовеселектедуп Перемещает выбранный элемент вверх на одну позицию в списке.
 ms.assetid: 2d942cb8-b09d-486a-80a5-fac9f172cef3
 keywords:
-- Проигрыватель Windows Media Player. Мовеселектедуп
+- проигрыватель Windows Media списка воспроизведения. мовеселектедуп
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 680889442035886ed1110426f45d7031ce0a4c09
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 568629cf08405e92738ad06cb84bda06f0b5f37d10c6d20c1fbc43aa67cfa105
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708555"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119735904"
 ---
 # <a name="playlistmoveselectedup"></a>Список воспроизведения. Мовеселектедуп
 
@@ -42,7 +42,7 @@ ms.locfileid: "105708555"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

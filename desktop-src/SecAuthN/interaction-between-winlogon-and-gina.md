@@ -4,19 +4,19 @@ ms.assetid: ea45cd5f-9cb0-41bb-99bf-f84781ae9604
 title: 'Взаимодействие между Winlogon и GINA '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 759d9171bca02e0a00fd35b77a4514d7438d43f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 824c658e4f19b14de339b569a8c9d17992c1b60bb5d4d526de949ce76cd1554d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119482364"
 ---
 # <a name="interaction-between-winlogon-and-gina"></a>Взаимодействие между Winlogon и GINA 
 
 [*Winlogon*](../secgloss/w-gly.md) и [*GINA*](../secgloss/g-gly.md) должны передавать сведения об инициализации, управлять мониторингом [*последовательности защиты*](../secgloss/s-gly.md) (SAS) и уведомлениями, а также выполнять действия по выходу и завершению работы. Состояние Winlogon определяет, какая функция GINA вызывается для обработки любого заданного события SAS. Связь происходит в порядке, показанном здесь.
 
 > [!Note]  
-> Библиотеки DLL GINA не учитываются в Windows Vista.
+> библиотеки dll GINA не учитываются в Windows Vista.
 
  
 

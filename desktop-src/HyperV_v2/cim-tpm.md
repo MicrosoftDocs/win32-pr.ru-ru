@@ -22,12 +22,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 0f2d35d42e864a247ca042ec81813ff7d1ac5c35
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 21df36da4a84e0b85d23f24bcc839b87afa64472381aed6dbda0706374493a57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119148417"
 ---
 # <a name="cim_tpm-class"></a>\_Класс TPM CIM
 
@@ -494,7 +494,7 @@ class CIM_TPM : CIM_LogicalDevice
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                             |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                             |
 | Минимальная версия сервера<br/> | Windows Server 2016<br/>                                                                          |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |

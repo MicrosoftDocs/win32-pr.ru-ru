@@ -72,7 +72,7 @@ HRESULT GetPassDesc(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -83,7 +83,7 @@ HRESULT GetPassDesc(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

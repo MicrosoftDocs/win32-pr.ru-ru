@@ -5,12 +5,12 @@ ms.assetid: 4bd10a15-78d6-4754-9e17-f2576ee8b9d0
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a5aa187378625242463ea91151a6961b08d2a77
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fbdaff1f09a0de3fad20f4de334af1030c52e16ef795b1ece51cdaead639825a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000114"
 ---
 # <a name="remote-desktop-services-api"></a>службы удаленных рабочих столов API
 
@@ -25,9 +25,9 @@ ms.locfileid: "103888136"
 -   Использование [службы удаленных рабочих столов виртуальных каналов](terminal-services-virtual-channels.md) для взаимодействия между клиентскими и серверными модулями приложения.
 -   [Установка и получение службы удаленных рабочих столов сведений о пользовательской конфигурации](terminal-services-user-configuration.md).
 
- 
+ 
 
- 
+ 
 
 
 

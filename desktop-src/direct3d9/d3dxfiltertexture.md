@@ -105,7 +105,7 @@ HRESULT D3DXFilterTexture(
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -116,7 +116,7 @@ HRESULT D3DXFilterTexture(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

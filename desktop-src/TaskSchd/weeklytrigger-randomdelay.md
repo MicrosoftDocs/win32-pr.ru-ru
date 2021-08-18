@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d2b320b0def6f8e9cb0dabff9ff04bdfea3d858e
-ms.sourcegitcommit: b3a9abea47dea7374eac0f9a95a652ac6977fb2e
+ms.openlocfilehash: bc17260b33b4f5ca833ae0f2e322a99205b690ad8d54779ea6471db246cc056b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "107734159"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119001782"
 ---
 # <a name="weeklytriggerrandomdelay-property"></a>Виклитригжер. Рандомделай, свойство
 
@@ -40,14 +40,14 @@ WeeklyTrigger.RandomDelay As String
 
 Время задержки, которое случайным образом добавляется к времени начала триггера. Формат этой строки — `P<days>DT<hours>H<minutes>M<seconds>S` (например, P2DT5S имеет 2 дня, 5 секунд задержки).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                    |
 | Библиотека типов<br/>             | <dl> <dt>Тасксчд. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

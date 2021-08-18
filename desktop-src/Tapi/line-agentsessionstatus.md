@@ -4,12 +4,12 @@ ms.assetid: bb9d2292-8c41-4557-989e-6c5eb785313f
 title: Сообщение LINE_AGENTSESSIONSTATUS (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d53c14290dfb6bda3889e7d2b87d8d3ca5e651c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 25209abda7cfec3864c45bfd58a35a9fad21a1aa5e5645669a7fdad6ec907d5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003222"
 ---
 # <a name="line_agentsessionstatus-message"></a>Строка \_ сообщения ажентсессионстатус
 
@@ -63,18 +63,18 @@ ms.locfileid: "105689163"
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------|-----------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 2,2<br/>                                                      |
-| Header<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

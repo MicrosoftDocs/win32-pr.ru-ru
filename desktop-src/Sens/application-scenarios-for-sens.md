@@ -4,12 +4,12 @@ ms.assetid: c8ad921f-92ee-4bb2-a97a-915e5b1748da
 title: Сценарии приложений для Сенс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9ef053265f95f692f449d35c298ce0cd328ddec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd944d6f6f6c9c211ab7d51d8c6e6fddb5ec59a5d374f41336054e9ad66f75a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119004032"
 ---
 # <a name="application-scenarios-for-sens"></a>Сценарии приложений для Сенс
 

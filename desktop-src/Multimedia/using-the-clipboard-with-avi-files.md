@@ -7,12 +7,12 @@ keywords:
 - Функция Авижетфромклипбоард
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfe46f463f22aa2d015d4ffd8496eb95c37053a8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 579f7eeed3b5b7397e248bb1c9090bc086cb715c591ec436af5de7d885551c14
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103776157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119687844"
 ---
 # <a name="using-the-clipboard-with-avi-files"></a>Использование буфера обмена с файлами AVI
 
@@ -25,11 +25,11 @@ ms.locfileid: "103776157"
 > [!Note]  
 > Если приложение копирует файл в буфер обмена, а файл содержит данные потока, которые могут измениться, можно создать файл памяти клонированных потоков с помощью функции [**авимакефилефромстреамс**](/windows/desktop/api/Vfw/nf-vfw-avimakefilefromstreams) . Затем можно поместить файл в буфер обмена, а затем освободить исходный файл без его аннулирования.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

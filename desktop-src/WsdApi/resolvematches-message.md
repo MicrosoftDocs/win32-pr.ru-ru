@@ -4,18 +4,18 @@ ms.assetid: 0eaa4348-968e-4b45-9509-8b15476edaa1
 title: Сообщение Ресолвематчес
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40ab5c0d66541b93eeee13966d686c94eef9364d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1daffe985f3956e57ad69fd7c4fc4d199f0b24bd5fdab5677b7ef83765e5fcdd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119756804"
 ---
 # <a name="resolvematches-message"></a>Сообщение Ресолвематчес
 
 Сообщение Ресолвематчес — это WS-Discovery сообщение, отправленное в ответ на сообщение [разрешения](resolve-message.md) клиента соответствующей службой. Дополнительные сведения о сообщениях Ресолвематчес см. в разделе 6,2 [спецификации WS-Discovery](https://specs.xmlsoap.org/ws/2005/04/discovery/ws-discovery.pdf).
 
-Сообщение Ресолвематчес отправляется по адресу UDP через порт 3702 (порт, из которого было отправлено сообщение [разрешения](resolve-message.md) клиента). Ресолвематчес должен быть отправлен в течение 4 секунд из сообщения разрешения; в противном случае брандмауэр Windows может удалить пакет.
+Сообщение Ресолвематчес отправляется по адресу UDP через порт 3702 (порт, из которого было отправлено сообщение [разрешения](resolve-message.md) клиента). Ресолвематчес должен быть отправлен в течение 4 секунд из сообщения разрешения; в противном случае Windows брандмауэр может удалить пакет.
 
 Любое приложение DPWS, отправляющее сообщения с [разрешением](resolve-message.md) , получит сообщения ресолвематчес.
 
@@ -131,11 +131,11 @@ ms.locfileid: "105703163"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Сообщения обнаружения и обмена метаданными](discovery-and-metadata-exchange-message-patterns.md)
+[обнаружение и метаданные Exchange сообщения](discovery-and-metadata-exchange-message-patterns.md)
 </dt> <dt>
 
 [Разрешить сообщение](resolve-message.md)

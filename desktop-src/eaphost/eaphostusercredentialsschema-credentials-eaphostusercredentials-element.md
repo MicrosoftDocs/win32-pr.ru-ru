@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 043b82d5fb1ebc89f454ff6680672bda19e1c01e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1e47e63dd6c29d4fbd85111cc5821688610d72c3f2858a371c392e16bee75207
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104414741"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984214"
 ---
 # <a name="credentials-eaphostusercredentials-element"></a>Элемент Credentials (Еафостусеркредентиалс)
 
@@ -39,8 +39,8 @@ ms.locfileid: "104414741"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

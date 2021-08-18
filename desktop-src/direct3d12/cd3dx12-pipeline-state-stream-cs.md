@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5796e0f96ad4e2a87d2a45519321c363078a34b1
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: bda76603c6250e5a4319f54a202bffddeead28fa9baa1c4da91b2e9b290d62d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119751934"
 ---
 # <a name="cd3dx12_pipeline_state_stream_cs-structure"></a>\_ \_ \_ Структура CS потока состояния конвейера CD3DX12 \_
 
@@ -72,7 +72,7 @@ struct CD3DX12_PIPELINE_STATE_STREAM_CS {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 \_Поток состояния конвейера CD3DX12 \_ \_ \_ CS является специализацией typedef шаблона [**\_ \_ \_ \_ подобъекта потока состояния конвейера CD3DX12**](cd3dx12-pipeline-state-stream-subobject.md) и определяется следующим образом:
 
@@ -91,7 +91,7 @@ typedef CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT<D3D12_SHADER_BYTECODE, D3D12_PIP
 
 | Требование | Значение |
 |-------------------|-------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx12. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx12. h</dt> </dl> |
 
 
 

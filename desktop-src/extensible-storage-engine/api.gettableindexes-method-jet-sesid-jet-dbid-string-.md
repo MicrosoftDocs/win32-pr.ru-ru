@@ -87,7 +87,7 @@ public static IEnumerable<IndexInfo> GetTableIndexes(
 Тип: [System. Collections. Generic. IEnumerable](/dotnet/api/system.collections.generic.ienumerable-1)\<[IndexInfo](./indexinfo-class.md)\>  
 Итератор по Индексинфо для каждого индекса в таблице.  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

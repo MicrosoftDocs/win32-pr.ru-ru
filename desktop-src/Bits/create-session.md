@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 425ad3bd36305f94547cf2cd8b13c1a420491499
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 639db08c5a29b09f5c32d7b0243de66f2c4dced001a1ff2afa7e74837c8d67e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104487092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021192"
 ---
 # <a name="create-session"></a>Create-Session
 
@@ -58,7 +58,7 @@ BITS-Supported-Protocols: {guid1} ... {guidN}
 
 | Протокол                                          | Описание                         |
 |---------------------------------------------------|-------------------------------------|
-| {7df0354d-249b-430f-820d-3d2a9bef4931}<br/> | Протокол отправки BITS 1,5<br/> |
+| {7df0354d-249b-430f-820d-3d2a9bef4931}<br/> | протокол Upload BITS 1,5<br/> |
 
 
 
@@ -66,7 +66,7 @@ BITS-Supported-Protocols: {guid1} ... {guidN}
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Перед отправкой пакета Create-Session необходимо отправить пакет [**проверки связи**](ping.md) для установки HTTP-соединения. Пакет Create-Session может также установить соединение. Однако Create-Session пакет менее эффективен.
 
@@ -84,7 +84,7 @@ BITS-Supported-Protocols: {guid1} ... {guidN}
 [**Fragment**](fragment.md)
 </dt> <dt>
 
-[**Проверок**](ping.md)
+[**Проверка связи**](ping.md)
 </dt> </dl>
 
  

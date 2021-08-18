@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: d068bbc4ae6ee92c609f6de04be31c679592378a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4c7fdc5a2d88d8e8da5b0d53a3d38353573e0ce79a47688687991f33702caaa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119709344"
 ---
 # <a name="horizontaltype-complex-type"></a>Сложный тип Хоризонталтипе
 
@@ -33,7 +33,7 @@ ms.locfileid: "103897505"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/> |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                     |
 
 

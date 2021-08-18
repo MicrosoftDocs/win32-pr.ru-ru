@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3452c4fab7155ea33b556ac7aa2c777b11a3f954
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a04ee087f036bf0d6a9e0bb4c9c558dbfe3ae5a8fc8e875973ef2930e7ba911a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897734"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119038732"
 ---
 # <a name="jet_retinfo-structure"></a>Структура JET_RETINFO
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jet_retinfo-structure"></a>Структура JET_RETINFO
 
@@ -70,11 +70,11 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
+<td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
+<td><p><strong>Сервер</strong></p></td>
+<td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>
@@ -84,7 +84,7 @@ _**Применимо к:** Windows | Windows Server_
 </table>
 
 
-### <a name="see-also"></a>См. также:
+### <a name="see-also"></a>См. также
 
 [JET_COLTYP](./jet-coltyp.md)  
 [JET_COLUMNID](./jet-columnid.md)  

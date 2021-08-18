@@ -4,16 +4,16 @@ ms.assetid: 39e1d4b9-2e39-4b36-9a6a-89e41cd59153
 title: 'Метод ИтпартиЦипантсубстреамконтрол:: Свитчтерминалтосубстреам (Конфприв. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 00f10401b2cf1598c76537ebd3a7049d67bf0657
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 41f211d4f3ff0f01801fb5497d36d81fa46e43397d8b69227180b022c9e74a34
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105680057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774654"
 ---
 # <a name="itparticipantsubstreamcontrolswitchterminaltosubstream-method"></a>Метод ИтпартиЦипантсубстреамконтрол:: Свитчтерминалтосубстреам
 
-\[**Свитчтерминалтосубстреам** недоступен для использования в Windows Vista, windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[**свитчтерминалтосубстреам** недоступен для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Метод **свитчтерминалтосубстреам** задает терминал для подпотока участника.
 
@@ -72,7 +72,7 @@ HRESULT SwitchTerminalToSubStream(
 | Требование | Значение |
 |-------------------------|---------------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 3,0 или более поздней версии<br/>                                                 |
-| Header<br/>       | <dl> <dt>Конфприв. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>Конфприв. h</dt> </dl> |
 | Библиотека<br/>      | <dl> <dt>UUID. lib</dt> </dl>   |
 | DLL<br/>          | <dl> <dt>Tapi3.dll</dt> </dl>  |
 

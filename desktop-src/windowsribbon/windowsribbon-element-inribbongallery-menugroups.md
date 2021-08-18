@@ -3,7 +3,7 @@ title: Инриббонгаллери. Менуграупс, свойство
 description: Представляет контейнер для набора пунктов раскрывающегося меню элемента управления коллекции In-Ribbon.
 ms.assetid: 6b9ded25-4e8e-4e30-a349-f7c091dbfe7a
 keywords:
-- Лента Windows для свойства Инриббонгаллери. Менуграупс
+- инриббонгаллери. менуграупс, свойство Windows лента
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd447b66dada74b1a9b909b3030e080198143b12
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1722c8963b57256cf74f5911c8273539e10b5c6a6fef96dcfa1f0fec591bca04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119710484"
 ---
 # <a name="inribbongallerymenugroups-property"></a>Инриббонгаллери. Менуграупс, свойство
 
@@ -55,7 +55,7 @@ ms.locfileid: "104071684"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Необязательный элемент.
 
@@ -102,8 +102,8 @@ ms.locfileid: "104071684"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>              |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>              |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/> |
 
 
 

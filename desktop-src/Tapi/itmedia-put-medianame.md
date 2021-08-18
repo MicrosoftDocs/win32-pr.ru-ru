@@ -4,16 +4,16 @@ ms.assetid: 0dd18add-6c7e-40a8-8b39-10c65bdfb2e0
 title: 'Итмедиа: метод ut_MediaName:p (Сдпблб. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 66dcbd4e29f59694d610fb4e6af9fd49aa53323d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d77ffde28406b7fb527ed8679d1f65d6aba537e611b69d1ad31e8679f59fd0e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003342"
 ---
 # <a name="itmediaput_medianame-method"></a>Итмедиа::p UT \_ MediaName метод
 
-\[ В Windows Vista, Windows Server 2008 и последующих версиях операционной системы нельзя использовать встречные средства и элементы управления Конференц-телефонией и интерфейсы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[встречи и элементы управления встречными IP-телефонными соединениями недоступны для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Метод **размещения \_ MediaName** задает имя носителя. К определенным носителям относятся аудио, видео, доска, текст и данные.
 
@@ -57,26 +57,26 @@ HRESULT put_MediaName(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение должно использовать [**сисаллокстринг**](/windows/win32/api/oleauto/nf-oleauto-sysallocstring) для выделения памяти для параметра *Пмедианаме* и использовать [**сисфристринг**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) для освобождения памяти, когда переменная больше не нужна.
 
 Эта функция может передавать данные по сети в незашифрованном виде; Таким образом, кто-то, кто прослушивает сеть, может прочитать данные. Прежде чем использовать этот метод, следует учесть угрозу безопасности при отправке данных в виде открытого текста.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------|---------------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 3,0 или более поздней версии<br/>                                                 |
-| Header<br/>       | <dl> <dt>Сдпблб. h</dt> </dl>   |
+| Заголовок<br/>       | <dl> <dt>Сдпблб. h</dt> </dl>   |
 | Библиотека<br/>      | <dl> <dt>UUID. lib</dt> </dl>   |
 | DLL<br/>          | <dl> <dt>Sdpblb.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: d7ce1705c0ec457f64eb825e49334e76a14c184c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 576de5820e5b16b59a0b77659a4833a261ecd9ef8445306ce3d6f320c664f833
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664378"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119004232"
 ---
 # <a name="unlockwithcertificatefile-method-of-the-win32_encryptablevolume-class"></a>Метод Унлокквисцертификатефиле \_ класса Win32 енкриптаблеволуме
 
@@ -50,7 +50,7 @@ uint32 UnlockWithCertificateFile(
 
 Тип: **строка**
 
-Строка, указывающая расположение и имя CER-файла, используемого для получения отпечатка сертификата. Сертификат [*шифрования*](../secgloss/e-gly.md) должен быть экспортирован в формате cer ([*distinguished Encoding Rules*](../secgloss/d-gly.md) (Der) Binary [*x. 509*](../secgloss/x-gly.md) или Base-64 Encoded x. 509). Сертификат шифрования может быть создан из PKI Майкрософт, стороннего PKI или самозаверяющего.
+Строка, указывающая расположение и имя CER-файла, используемого для получения отпечатка сертификата. сертификат [*шифрования*](../secgloss/e-gly.md) должен быть экспортирован в формате cer ([*Distinguished Encoding Rules*](../secgloss/d-gly.md) (DER) binary [*x. 509*](../secgloss/x-gly.md) или Base-64 encoded x. 509). Сертификат шифрования может быть создан из PKI Майкрософт, стороннего PKI или самозаверяющего.
 
 </dd> <dt>
 
@@ -84,20 +84,20 @@ uint32 UnlockWithCertificateFile(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 7 Корпоративная, \[ только классические приложения Windows 7 Ultimate\]<br/>                               |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                                                 |
+| Минимальная версия клиента<br/> | Windows 7 Корпоративная, только Windows 7 Максимальная классические \[ приложения\]<br/>                               |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                                                 |
 | Пространство имен<br/>                | Корневой \\ CIMV2 \\ безопасности \\ микрософтволуминкриптион<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32 \_ енкриптаблеволуме. mof</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

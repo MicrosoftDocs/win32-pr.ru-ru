@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 291d72797b1ee765507a3d23921cd518cf605354
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f3851d32b43bc7ebd170a1179ecda1e25f86e43ddaf819453a4af6998e2f7efc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104273119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014352"
 ---
 # <a name="requeststatechange-method-of-the-msvm_computersystem-class"></a>Метод RequestStateChange \_ класса ComputerSystem мсвм
 
@@ -345,7 +345,7 @@ uint32 RequestStateChange(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Доступ к классу [**\_ ComputerSystem мсвм**](msvm-computersystem.md) может быть ограничен фильтром контроля учетных записей. Дополнительные сведения см. в разделе [Управление учетными записями пользователей и инструментарий WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -449,7 +449,7 @@ namespace HyperVSamples
 
 
 
-Следующий пример сценария Visual Basic Scripting Edition (VBScript) запускает или отключает виртуальную машину.
+следующий пример сценария Visual Basic scripting Edition (VBScript) запускает или отключает виртуальную машину.
 
 > [!IMPORTANT]
 > Для правильной работы на сервере узла виртуальной машины должен быть запущен следующий код, который должен быть запущен с правами администратора.
@@ -630,8 +630,8 @@ End Function
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

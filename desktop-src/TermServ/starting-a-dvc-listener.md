@@ -5,12 +5,12 @@ ms.assetid: c9130375-eb60-4996-84f5-a1081144e130
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b625d5547facd0487af170af9d59eddd6bfed87
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c5d440069cb64597c16a14323a67926376bf1c425f5a29c77e451c52866a5399
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104332387"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000454"
 ---
 # <a name="starting-a-dvc-listener"></a>Запуск прослушивателя DVC
 
@@ -20,9 +20,9 @@ ms.locfileid: "104332387"
 
 Подключаемый модуль может создавать экземпляры всех прослушивателей по мере необходимости. Любое входящее подключение будет обрабатываться [**ивтслистенеркаллбакк**](/windows/desktop/api/TsVirtualChannels/nn-tsvirtualchannels-iwtslistenercallback), который предоставляется в методе [**креателистенер**](/windows/desktop/api/TsVirtualChannels/nf-tsvirtualchannels-iwtsvirtualchannelmanager-createlistener) [**ивтсвиртуалчаннелманажер**](/windows/desktop/api/TsVirtualChannels/nn-tsvirtualchannels-iwtsvirtualchannelmanager). Пример см. в описании реализации **кдвксамплеплугин:: Initialize** в примере кода [подключаемого модуля клиента DVC](dvc-client-plug-in-example.md) .
 
- 
+ 
 
- 
+ 
 
 
 

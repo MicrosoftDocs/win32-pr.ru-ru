@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 298ced09537ffc6e17f98484f600b05155fe0d97
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c84e9fd96ea4f82c5e89138cfb75f42e2bd184f66926d7139958f485273d6425
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104342772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014472"
 ---
 # <a name="msvm_vssservice-class"></a>\_Класс мсвм всссервице
 
@@ -55,13 +55,13 @@ class Msvm_VssService : Msvm_GuestService
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                             |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                             |
 | Минимальная версия сервера<br/> | Windows Server 2016<br/>                                                                          |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -69,7 +69,7 @@ class Msvm_VssService : Msvm_GuestService
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

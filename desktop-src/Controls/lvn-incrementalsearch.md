@@ -3,7 +3,7 @@ title: Код уведомления LVN_INCREMENTALSEARCH (Коммктрл. h)
 description: Сообщает родительскому окну элемента управления "представление списка", что началось добавочный поиск. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: 34517250-a6ba-490b-b87e-b09048543339
 keywords:
-- LVN_INCREMENTALSEARCH кода уведомления элементы управления Windows
+- LVN_INCREMENTALSEARCH кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e4784ed8f2a9df664b203f776dc1102702d2861e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0ec3207fbb16bca23bf44ac61fee58bb6e4fad1ff74c38d7b56910ed52997f39
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105654734"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119826124"
 ---
 # <a name="lvn_incrementalsearch-notification-code"></a>\_Код уведомления ЛВН INCREMENTALSEARCH
 
@@ -51,7 +51,7 @@ LVN_INCREMENTALSEARCH
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Получатель уведомлений выполняет приведение *lParam* для получения структуры [**нмлвфиндитем**](/windows/win32/api/commctrl/ns-commctrl-nmlvfinditema) . Параметр *wParam* содержит идентификатор элемента управления, который отправляет этот код уведомления.
 
@@ -65,9 +65,9 @@ LVN_INCREMENTALSEARCH
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                    |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                    |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl>   |
 | Имя в кодировке Юникод и ANSI<br/>   | **ЛВН \_ ИНКРЕМЕНТАЛСЕАРЧВ** (Юникод) и **ЛВН \_ инкременталсеарча** (ANSI)<br/> |
 
 

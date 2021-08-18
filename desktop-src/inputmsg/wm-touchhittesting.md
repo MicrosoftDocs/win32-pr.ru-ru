@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 83b6e564d692fb0223ec8871b99cefcb9fddf40b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 895c535330674767683d0155bd2e22b8a40389c08378187377497380d71d97b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829494"
 ---
 # <a name="wm_touchhittesting-message"></a>Сообщение WM_TOUCHHITTESTING
 
@@ -63,7 +63,7 @@ ms.locfileid: "104136483"
 
 Если приложение не обрабатывает это сообщение, оно должно вызвать [**дефвиндовпрок**](/windows/win32/api/winuser/nf-winuser-defwindowproca).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это сообщение отправляется в Windows, которые регистрируются с помощью функции [**регистертаучхиттестингвиндов**](/windows/win32/api/winuser/nf-winuser-registertouchhittestingwindow) .
 
@@ -73,9 +73,9 @@ ms.locfileid: "104136483"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                               |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                               |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

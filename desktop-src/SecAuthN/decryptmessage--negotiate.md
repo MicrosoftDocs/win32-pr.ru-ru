@@ -4,12 +4,12 @@ ms.assetid: 188341ff-4e67-481e-af30-7f9913b1d24e
 title: Функция Декриптмессаже (Negotiate)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: b4c8af2c79145950f9f42b52a662aba8ac13064f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7da05842fc5aba4dc9c19cd530b38e0d46b640aac10b4614981c30c8863d7e7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105719364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008522"
 ---
 # <a name="decryptmessage-negotiate-function"></a>Функция Декриптмессаже (Negotiate)
 
@@ -63,23 +63,23 @@ KERB_WRAP_NO_ENCRYPT имеет то же значение и то же само
 | **с \_ \_ неполным \_ сообщением электронной почты** | Данные во входном буфере неполны. Приложению необходимо прочитать больше данных с сервера и снова вызвать [**декриптмессаже (Negotiate)**](decryptmessage--negotiate.md) . |
 | **с \_ не \_ \_ по \_ порядку**   | Сообщение не было получено в правильной последовательности.                                                                                                                              |
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Иногда приложение будет считывать данные от удаленной стороны, пытаться расшифровать их с помощью **декриптмессаже (Negotiate)**, а также обнаружить, что **декриптмессаже (Negotiate)** закончились, но выходные буферы пусты. Это нормальное поведение, и приложения должны уметь работать с ним.
 
 **Windows XP:** Эта функция также называлась **унсеалмессаже**. Теперь приложения должны использовать только **декриптмессаже (Negotiate)** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------|
-| Минимальная версия клиента | Только для \[ классических приложений Windows XP\]          |
-| Минимальная версия сервера | \[Только для настольных приложений Windows Server 2003\] |
-| Header                   | SSPI. h (включая Security. h)               |
+| Минимальная версия клиента | Windows \[Только классические приложения XP\]          |
+| Минимальная версия сервера | Windows Только для \[ настольных приложений сервера 2003\] |
+| Заголовок                   | SSPI. h (включая Security. h)               |
 | Библиотека                  | Secur32. lib                               |
 | DLL                      | Secur32.dll                               |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Функции SSPI](authentication-functions.md#sspi-functions)
 - [**Енкриптмессаже (согласование)**](encryptmessage--negotiate.md)

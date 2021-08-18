@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7b5a55cb13eb7197986349c602ec35855a3f6364
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3e5e3d5cbeb4d60f7beffd70c30ba0775863a9782cfb365a4d40bdf5552a186f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104261000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119855357"
 ---
 # <a name="def---vs"></a>Сравнение DEF и
 
@@ -29,14 +29,14 @@ ms.locfileid: "104261000"
 
 
 
- 
+ 
 
-где
+where
 
 -   DST — это регистр назначения.
 -   float1, float2, float3, float4 — четыре числа с плавающей запятой.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -46,7 +46,7 @@ ms.locfileid: "104261000"
 
 
 
- 
+ 
 
 Инструкция DEF определяет константу шейдера, значение которой загружается в любое время в качестве шейдера для устройства. Они называются прямыми константами. Немедленные константы имеют приоритет над константами, заданными методами API Сетвертексшадерконстантф.
 
@@ -59,7 +59,7 @@ ms.locfileid: "104261000"
 2.  Используйте методы API для задания константы.
     -   Используйте [**сетвертексшадерконстантф**](/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setvertexshaderconstantf) для установки константы с плавающей запятой.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -72,6 +72,6 @@ ms.locfileid: "104261000"
 [дефб — VS](defb---vs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

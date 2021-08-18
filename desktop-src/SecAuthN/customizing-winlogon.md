@@ -4,12 +4,12 @@ ms.assetid: 70b47e29-c755-4c59-a493-d7fcbbc94b83
 title: Настройка Winlogon
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b64da4baae9b52dd53e288c631f35d33ea5a3085
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a10b2ae1e029bb741a2402a25d8e51f331fdd1cac1e9918dfef3b35b36c8e6d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105647201"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008662"
 ---
 # <a name="customizing-winlogon"></a>Настройка Winlogon
 
@@ -17,10 +17,10 @@ ms.locfileid: "105647201"
 
 **Windows Server 2003 и Windows XP:** Поставщики учетных данных не поддерживаются.
 
-В следующих разделах описаны способы настройки Winlogon в версиях Windows, предшествовавших Windows Vista.
+в следующих разделах описаны способы настройки Winlogon в Windows версиях до Windows Vista.
 
 > [!Note]  
-> Библиотеки DLL GINA и пакеты уведомлений Winlogon игнорируются в Windows Vista.
+> библиотеки dll GINA и пакеты уведомлений Winlogon игнорируются в Windows Vista.
 
  
 
