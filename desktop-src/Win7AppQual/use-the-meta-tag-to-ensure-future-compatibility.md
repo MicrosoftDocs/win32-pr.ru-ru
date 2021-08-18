@@ -4,12 +4,12 @@ ms.assetid: 254A1C0D-B24B-4014-8D15-662FC7F2AB81
 title: Использование тега meta для обеспечения совместимости в будущем
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a69180470c60dffc772f20fe6c515ba3803cbf2
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 9c0cff3dab146d67303d57c97b2298614c5ae0142b18a3bd2d141fbf90e86ce8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108084172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994594"
 ---
 # <a name="use-the-meta-tag-to-ensure-future-compatibility"></a>Использование тега meta для обеспечения совместимости в будущем
 
@@ -23,16 +23,16 @@ Windows Internet Explorer 8 позволяет управлять режимам
 
 | Значение | Режим рендеринга                                                 |
 |-------|----------------------------------------------------------------|
-| IE = 9  | Использовать режим отображения стандартов Windows Internet Explorer 9   |
+| IE = 9  | использовать стандартный режим отображения Windows Internet Explorer 9   |
 | IE = 8  | Использовать режим отображения стандартов Internet Explorer 8           |
-| IE = 7  | Использовать режим отображения стандартов Windows Internet Explorer 7   |
+| IE = 7  | использование режима отображения стандартов Windows Internet Explorer 7   |
 | IE=5  | Использовать режим отображения стандартов Microsoft Internet Explorer 5 |
 
 
 
  
 
-Дополнительные сведения о совместимости и заголовке X-UA-Compatible см. в разделе [Определение совместимости документов](/previous-versions/windows/internet-explorer/ie-developer/compatibility/cc288325(v=vs.85)) в библиотеке MSDN.
+дополнительные сведения о совместимости и заголовке X-UA-Compatible см. в разделе [определение совместимости документов](/previous-versions/windows/internet-explorer/ie-developer/compatibility/cc288325(v=vs.85)) в библиотека MSDN.
 
 В следующем примере кода показано, как принудительно отобразить веб-страницу в режиме Internet Explorer 8.
 
@@ -58,7 +58,7 @@ Windows Internet Explorer 8 позволяет управлять режимам
 
 Для сайтов, которым требуются разные значения **мета** -элементов для страниц на том же сервере, существует несколько средств, которые автоматически создают и вставляют соответствующий элемент **meta** . Например, служебная программа [ArtinSoft Web Tools](https://www.mobilize.net/what-is-aggiorno-ie8-compatibility-tagging.aspx) из Aggiorno вставляет и удаляет функцию тега совместимости Internet Explorer 8 и может помочь вашему сайту соответствовать определенным стандартам совместимости.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 84b242d1-7c46-4692-a1f2-48d5b3eea8e8
 title: Справочник по пакету уведомлений Winlogon
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 836d73e1cba1cc1896a778b68fdd973e3bf1df34
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7dd87c22ed5e7045bd8c5ce6c358ece83ad383de5f914a59edcc72795cdd07ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118915043"
 ---
 # <a name="winlogon-notification-package-reference"></a>Справочник по пакету уведомлений Winlogon
 

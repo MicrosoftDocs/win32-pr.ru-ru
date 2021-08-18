@@ -4,16 +4,16 @@ ms.assetid: 674e88f9-4b65-4b42-8c44-d24fc03ae2f3
 title: Синтаксис преобразования DER
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a12f0ced0c47643db8f0e6e3c8f4ba2a36326e3e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6757a22743a2c44abb5ef4c46154a08e425e2b1b7045beaacc7fb4f4f206fed3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104553937"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118904526"
 ---
 # <a name="der-transfer-syntax"></a>Синтаксис преобразования DER
 
-Применение правила кодирования к структурам данных, описанным в абстрактном синтаксисе, обеспечивает синтаксис передачи, который управляет тем, как байты в потоке упорядочиваются при передаче между компьютерами. Синтаксис перемещения, используемый Distinguished Encoding Rules всегда соответствует *тегу, длине и* формату значения. Формат обычно называется TLV-Triplet, в котором каждое поле (T, L или V) содержит один или несколько байтов.
+Применение правила кодирования к структурам данных, описанным в абстрактном синтаксисе, обеспечивает синтаксис передачи, который управляет тем, как байты в потоке упорядочиваются при передаче между компьютерами. синтаксис перемещения, используемый Distinguished Encoding Rules всегда соответствует *тегу, длине и* формату значения. Формат обычно называется TLV-Triplet, в котором каждое поле (T, L или V) содержит один или несколько байтов.
 
 ![Тип der, Длина и значение (TLV) Triplet](images/der-tlv-basic.png)
 
@@ -26,7 +26,7 @@ ms.locfileid: "104553937"
 -   [Байты закодированного тега](about-encoded-tag-bytes.md)
 -   [Закодированная Длина и байты значений](about-encoded-length-and-value-bytes.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

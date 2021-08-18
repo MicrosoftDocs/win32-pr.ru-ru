@@ -4,12 +4,12 @@ ms.assetid: 0a4fcf2a-dbad-4211-9a85-7741c8dfc95e
 title: Базовый механизм визуализации
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb9b51240b43c58de99b7d6fe1f7ad61f754c7ed
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f8a3e04e1ad32c163db93794e075ff7933f041c3270ab8412cbd5b5a68b4a763
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104537817"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118955580"
 ---
 # <a name="basic-render-engine"></a>Базовый механизм визуализации
 
@@ -27,11 +27,11 @@ ms.locfileid: "104537817"
 -   [**ирендеренгине**](irenderengine.md)
 -   [**IRenderEngine2**](irenderengine2.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Подготовка проекта](rendering-a-project.md)
+[Подготовка Project](rendering-a-project.md)
 </dt> <dt>
 
 [Модуль интеллектуального просмотра](smart-render-engine.md)

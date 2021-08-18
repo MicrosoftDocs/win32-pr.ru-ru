@@ -8,12 +8,12 @@ keywords:
 - ADSI, поиск, IDirectorySearch, другие параметры поиска, ограничение времени клиента
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed25bd8499f7166d7ea494f71e6f78193f9c778a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1798094a980c41de2e1902533415839020cfd690384f0e56a37bff918d4ecc2a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105654145"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118692513"
 ---
 # <a name="client-time-limit-with-idirectorysearch"></a>Ограничение времени клиента с помощью IDirectorySearch
 
@@ -35,9 +35,9 @@ SearchPref.vValue.Integer = 10;
 
 
 
- 
+ 
 
- 
+ 
 
 
 

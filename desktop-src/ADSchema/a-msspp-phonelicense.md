@@ -1,10 +1,10 @@
 ---
-title: атрибут MS-SPP-Phone-License
-description: Лицензия, используемая при активации Active Directory леса в сети | атрибут MS-SPP-Phone-License
+title: атрибут ms-SPP-Телефон-License
+description: Лицензия, используемая при активации Active Directory леса в сети | атрибут ms-SPP-Телефон-License
 ms.assetid: 15ba6bde-8c22-4e87-8428-04c88633e9e6
 ms.tgt_platform: multiple
 keywords:
-- Схема Active Directory для атрибута лицензии MS-SPP-Phone
+- схема AD атрибута лицензии ms-SPP-Телефон-License
 - Схема AD атрибута МССПП-Фонелиценсе
 topic_type:
 - apiref
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 65d4d2887f88ae33684e7d4a3abb11e33db19d13
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 1543557771938e166c070ce6de525c71ce7a3ab15b67012b456b676b5a6e8b05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105656765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960293"
 ---
-# <a name="ms-spp-phone-license-attribute"></a>атрибут MS-SPP-Phone-License
+# <a name="ms-spp-phone-license-attribute"></a>атрибут ms-SPP-Телефон-License
 
 Лицензия, используемая при активации Active Directory леса в сети
 
@@ -29,7 +29,7 @@ ms.locfileid: "105656765"
 
 | Ввод | Значение |
 |-------------------|-------------------------------------------------------|
-| CN                | MS-SPP-Phone-лицензия                                  |
+| CN                | ms-SPP-Телефон-License                                  |
 | LDAP-отображаемое имя | МССПП — Фонелиценсе                                    |
 | Размер              | \-                                                    |
 | Привилегия обновления  | \-                                                    |
@@ -53,7 +53,7 @@ ms.locfileid: "105656765"
 | Идентификатор ссылки                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
 | System-Only            | Неверно                                                                   |
-| Является однозначным       | True                                                                    |
+| Является однозначным       | Верно                                                                    |
 | Индексируется             | Неверно                                                                   |
 | В глобальном каталоге      | Неверно                                                                   |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                            |

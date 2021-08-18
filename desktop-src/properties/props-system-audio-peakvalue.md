@@ -4,12 +4,12 @@ ms.assetid: 576070e9-8f7a-4df7-ba3a-0872aa96a0ab
 title: System. Audio. Пеаквалуе
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 905236f61a86a41fb6034274e21b1d828c2b9989
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d28242ac01db0e96b5b1e9eb69948450534beff55d2354f613eb402a0c2a38a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108104922"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970783"
 ---
 # <a name="systemaudiopeakvalue"></a>System. Audio. Пеаквалуе
 
@@ -33,7 +33,7 @@ propertyDescription
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

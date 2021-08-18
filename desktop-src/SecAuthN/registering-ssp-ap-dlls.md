@@ -4,12 +4,12 @@ ms.assetid: db0d899e-dbd4-40d3-98d8-4d9668c01453
 title: Регистрация DLL-библиотек SSP и AP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d279459b91633e0ef45e6e6d57b43489699a657
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a6405dc5ddce32ad5e4d87ed44f9344240b491fdc0ea789c30d5475ac6e73aaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103813592"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118919504"
 ---
 # <a name="registering-sspap-dlls"></a>Регистрация DLL-библиотек SSP и AP
 
@@ -17,7 +17,7 @@ ms.locfileid: "103813592"
 
 **HKey \_ Локальный \_ компьютер** \\ **система** \\ **CurrentControlSet** \\ **Управление** \\  \\ **пакетами безопасности** LSA
 
-Данные для этого значения реестра представляют собой список имен DLL-библиотек SSP и AP без расширения ". dll". Тип данных этого списка — **reg \_ Multi \_ SZ** , поэтому для \\ каждого имени библиотеки DLL в списке должен быть задан символ null ("0").
+Данные для этого значения реестра представляют собой список имен DLL-библиотек SSP и AP без расширения ".dll". Тип данных этого списка — **reg \_ Multi \_ SZ** , поэтому для \\ каждого имени библиотеки DLL в списке должен быть задан символ null ("0").
 
 Как правило, DLL-библиотеки SSP и AP хранятся в каталоге% SystemRoot%/System32. Если это путь к настраиваемой библиотеке поставщика общих служб (DLL), то не включайте путь как часть имени библиотеки DLL. Однако если библиотека DLL находится в другом пути, включите полный путь к библиотеке DLL в имени.
 
@@ -38,7 +38,7 @@ ms.locfileid: "103813592"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

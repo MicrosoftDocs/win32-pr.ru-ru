@@ -15,7 +15,7 @@ ms.locfileid: "118639408"
 
 Свойство **арпсизе** — это предполагаемый размер приложения в килобайтах.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

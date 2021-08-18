@@ -6,12 +6,12 @@ keywords:
 - RPC, описание удаленного вызова процедуры
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ea90c08dc075fdd90ae604b0d347ba6ac5baf9a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f97c7735976428ffc4128b0c6a566ac56228921a3bf1070eda69af1579d90b99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104331363"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118927563"
 ---
 # <a name="overviews"></a>Разделы общих сведений
 
@@ -37,9 +37,9 @@ ms.locfileid: "104331363"
 -   [Балансировка нагрузки RPC](rpc-load-balancing.md) описывает распределение больших объемов трафика RPC по HTTP между несколькими серверами RPC в ферме серверов.
 -   [Примеры](examples.md) содержат описание примеров программ RPC, поставляемых с комплектом разработчика программного обеспечения платформы Майкрософт.
 
- 
+ 
 
- 
+ 
 
 
 

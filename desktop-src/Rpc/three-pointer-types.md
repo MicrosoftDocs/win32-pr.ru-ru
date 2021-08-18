@@ -4,12 +4,12 @@ description: MIDL поддерживает три типа указателей 
 ms.assetid: 6684c252-6fbe-49ca-9967-6d4baf5dc298
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: efdcc9548568c8fca24d8abb40bf0eaa8b6e7da3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9627c71b07c86ab2deb7e28bddcf6d30b1747cf7d44874620f4053383a5a948a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118923463"
 ---
 # <a name="three-pointer-types"></a>Три типа указателей
 
@@ -35,6 +35,6 @@ MIDL поддерживает три типа указателей для раз
 
 Атрибут **\[** [**интерфейса \_ по умолчанию указателя**](/windows/desktop/Midl/pointer-default) **\]** задает атрибуты указателя по умолчанию, применяемые к декларатору указателя в типе, параметре или объявлении возвращаемого типа, если к этому объявлению не применен явный атрибут указателя. Атрибут интерфейса **\[ \_ по \] умолчанию указателя** не применяется к неатрибутному указателю верхнего уровня параметра, который считается **\[ ссылочным \]**.
 
- 
+ 
 
- 
+ 

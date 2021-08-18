@@ -4,12 +4,12 @@ description: Строковая привязка представляет соб
 ms.assetid: 5e55ddd0-d71c-42ef-90cc-dd1f0b9ed305
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b3f925c03c85be3c47ab174a85f31e72e40d828
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: 10b2219aa4bb9ed77d2c59732a87a138f620e1910a4ca9f518c22c39a59a7dfa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111386983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118924992"
 ---
 # <a name="string-binding"></a>Строковая привязка
 
@@ -41,7 +41,7 @@ ms.locfileid: "111386983"
 Сетевой адрес системы для получения удаленных вызовов процедур.
 
 > [!Note]  
-> Следующие последовательности протоколов не поддерживаются в Windows XP:
+> в Windows XP не поддерживаются следующие последовательности протоколов:
 
  
 
@@ -147,7 +147,7 @@ HttpConnectOption=UseHttpProxy
 
 | Имя параметра  | Значение параметра                                                                               |
 |--------------|--------------------------------------------------------------------------------------------|
-| **Security** | {Идентификация \| анонимного \| олицетворения} {динамический \| статический} {**true** \| **false**} |
+| **Безопасность** | {Идентификация \| анонимного \| олицетворения} {динамический \| статический} {**true** \| **false**} |
 
 
 

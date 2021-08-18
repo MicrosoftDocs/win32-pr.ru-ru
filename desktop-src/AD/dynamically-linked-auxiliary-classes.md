@@ -7,12 +7,12 @@ keywords:
 - Динамически связываемые вспомогательные классы Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd0cacb09d3aef05bcaf0ef729411c2e023469be
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2b5fc73ef64e1ed4af0dd73879dc1cd7ed8b2d82ac1d397db001c1487680b13b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104252789"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118695377"
 ---
 # <a name="dynamically-linked-auxiliary-classes"></a>Динамически связываемые вспомогательные классы
 
@@ -24,9 +24,9 @@ ms.locfileid: "104252789"
 
 При динамическом добавлении вспомогательного класса, который является подклассом другого вспомогательного класса, в целевой объект добавляются оба вспомогательных класса. Однако при удалении дочернего вспомогательного класса его родительский класс не удаляется. Каждый класс должен быть явно удален.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -20,12 +20,12 @@ keywords:
 - диалоговые окна, предопределенные
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 044e143b72a60f3478545f76ce102fd6d99767ce
-ms.sourcegitcommit: 56f8e4d5119e5018363fa2dc3472cdff203c6913
+ms.openlocfilehash: e5151d417bca30c9910c6e5279245b10ac5c94bbf913e12193975ffd3c9d5d9c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "104134839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118786043"
 ---
 # <a name="common-dialog-box-types"></a>Общие типы диалоговых окон
 

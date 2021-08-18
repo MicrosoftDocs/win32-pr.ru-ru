@@ -1,17 +1,17 @@
 ---
-description: Типы данных DirectShow
+description: DirectShow Типы данных
 ms.assetid: 33c79747-9187-47bb-acb1-c63b39e7cd81
-title: Типы данных DirectShow
+title: DirectShow Типы данных
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e28f111423264f867cdf1ad79a798d96272138c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c5b75a2f1f053f050d80d4b62b35aad2ad05b1938ad9a922db898d75234b93fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103805506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118952933"
 ---
-# <a name="directshow-data-types"></a>Типы данных DirectShow
+# <a name="directshow-data-types"></a>DirectShow Типы данных
 
 DirectShow предоставляет следующие определения типов.
 
@@ -32,11 +32,11 @@ DirectShow предоставляет следующие определения 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Справочник по DirectShow](directshow-reference.md)
+[DirectShow IsReference](directshow-reference.md)
 </dt> </dl>
 
  

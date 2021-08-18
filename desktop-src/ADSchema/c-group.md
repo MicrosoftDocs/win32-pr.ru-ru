@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 618adb97220f4cc1b1e4af7f42fd043c7bb1e6c5
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: eae33b53eff8305fee4698c5aed2bb072f3fa5b90a5922d0099e40e90f9b3fe4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104138043"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021912"
 ---
 # <a name="group-class"></a>Group - класс
 
@@ -73,9 +73,9 @@ ms.locfileid: "104138043"
 
 
 
-## <a name="windows-2000-server-attributes"></a>Атрибуты сервера Windows 2000
+## <a name="windows-2000-server-attributes"></a>атрибуты сервера Windows 2000
 
-Этот класс содержит следующие атрибуты для сервера Windows 2000:
+этот класс содержит следующие атрибуты для сервера Windows 2000:
 
 
 
@@ -93,7 +93,7 @@ ms.locfileid: "104138043"
 | [**Плацдарм-Server-List-BL**](a-bridgeheadserverlistbl.md)                | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Каноническое имя**](a-canonicalname.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Комментировать**](a-info.md)                                                    | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                         |
-| [**Common-Name**](a-cn.md)                                                  | True      | [**Вверх**](c-top.md)<br/> [**Получатель почты**](c-mailrecipient.md)<br/>         |
+| [**Common-Name**](a-cn.md)                                                  | Верно      | [**Вверх**](c-top.md)<br/> [**Получатель почты**](c-mailrecipient.md)<br/>         |
 | [**Управление — права доступа**](a-controlaccessrights.md)                       | Неверно     | **Группа**                                                                                    |
 | [**Метка времени создания**](a-createtimestamp.md)                               | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Описание**](a-description.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
@@ -112,14 +112,14 @@ ms.locfileid: "104138043"
 | [**Мусор-Coll-период**](a-garbagecollperiod.md)                           | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                         |
 | [**Атрибуты группы**](a-groupattributes.md)                                | Неверно     | **Группа**                                                                                    |
 | [**Group-Membership-SAM**](a-groupmembershipsam.md)                         | Неверно     | **Группа**                                                                                    |
-| [**Тип группы**](a-grouptype.md)                                            | True      | **Группа**                                                                                    |
-| [**Тип экземпляра**](a-instancetype.md)                                      | True      | [**Вверх**](c-top.md)<br/>                                                              |
+| [**Тип группы**](a-grouptype.md)                                            | Верно      | **Группа**                                                                                    |
+| [**Тип экземпляра**](a-instancetype.md)                                      | Верно      | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Удалено**](a-isdeleted.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Имеет права владельца**](a-isprivilegeholder.md)                           | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Последний-известный-родительский**](a-lastknownparent.md)                               | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
-| [**Устаревший — Exchange-DN**](a-legacyexchangedn.md)                             | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                         |
+| [**Legacy-Exchange-DN**](a-legacyexchangedn.md)                             | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                         |
 | [**Под управлением**](a-managedby.md)                                            | Неверно     | **Группа**                                                                                    |
 | [**Управляемые объекты**](a-managedobjects.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**В основном**](a-masteredby.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
@@ -131,12 +131,12 @@ ms.locfileid: "104138043"
 | [**Не-Security-Member**](a-nonsecuritymember.md)                           | Неверно     | **Группа**                                                                                    |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                      | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**NT-Group-Members**](a-ntgroupmembers.md)                                 | Неверно     | **Группа**                                                                                    |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                     | True      | [**Вверх**](c-top.md)<br/> [**Безопасность — участник**](c-securityprincipal.md)<br/> |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                     | Верно      | [**Вверх**](c-top.md)<br/> [**Безопасность — участник**](c-securityprincipal.md)<br/> |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
-| [**Объект — Категория**](a-objectcategory.md)                                  | True      | [**Вверх**](c-top.md)<br/>                                                              |
-| [**Объектный класс**](a-objectclass.md)                                        | True      | [**Вверх**](c-top.md)<br/>                                                              |
+| [**Объект — Категория**](a-objectcategory.md)                                  | Верно      | [**Вверх**](c-top.md)<br/>                                                              |
+| [**Объектный класс**](a-objectclass.md)                                        | Верно      | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Объект — GUID**](a-objectguid.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
-| [**Идентификатор безопасности объекта**](a-objectsid.md)                                            | True      | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                 |
+| [**Идентификатор безопасности объекта**](a-objectsid.md)                                            | Верно      | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                 |
 | [**Версия объекта**](a-objectversion.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Оператор Count**](a-operatorcount.md)                                    | Неверно     | **Группа**                                                                                    |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                  | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
@@ -155,7 +155,7 @@ ms.locfileid: "104138043"
 | [**Представители — кому**](a-repsto.md)                                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Редакции**](a-revision.md)                                               | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Избежать**](a-rid.md)                                                         | Неверно     | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                 |
-| [**SAM-имя учетной записи**](a-samaccountname.md)                                 | True      | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                 |
+| [**SAM-имя учетной записи**](a-samaccountname.md)                                 | Верно      | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                 |
 | [**SAM-тип учетной записи**](a-samaccounttype.md)                                 | Неверно     | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                 |
 | [**SD-Rights-эффективен**](a-sdrightseffective.md)                           | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Безопасность — идентификатор**](a-securityidentifier.md)                          | Неверно     | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                 |
@@ -191,9 +191,9 @@ ms.locfileid: "104138043"
 
 
 
-## <a name="windows-2000-server-extended-rights"></a>Расширенные права сервера Windows 2000
+## <a name="windows-2000-server-extended-rights"></a>расширенные права сервера Windows 2000
 
-Этот класс содержит следующие расширенные права для сервера Windows 2000:
+этот класс содержит следующие расширенные права для сервера Windows 2000:
 
 
 
@@ -203,9 +203,9 @@ ms.locfileid: "104138043"
 
 
 
-## <a name="windows-2000-server-validated-writes"></a>Проверенные записи сервера Windows 2000
+## <a name="windows-2000-server-validated-writes"></a>проверено записей на сервере Windows 2000
 
-Этот класс содержит следующие проверенные операции записи для сервера Windows 2000.
+этот класс содержит следующие проверенные операции записи для сервера Windows 2000:
 
 
 
@@ -215,9 +215,9 @@ ms.locfileid: "104138043"
 
 
 
-## <a name="windows-2000-server-property-sets"></a>Наборы свойств сервера Windows 2000
+## <a name="windows-2000-server-property-sets"></a>наборы свойств сервера Windows 2000
 
-Этот класс содержит следующие наборы свойств для сервера Windows 2000:
+этот класс содержит следующие наборы свойств для сервера Windows 2000:
 
 
 
@@ -253,9 +253,9 @@ ms.locfileid: "104138043"
 
 
 
-## <a name="windows-server-2003-attributes"></a>Атрибуты Windows Server 2003
+## <a name="windows-server-2003-attributes"></a>Windows Атрибуты сервера 2003
 
-Этот класс содержит следующие атрибуты для Windows Server 2003:
+этот класс содержит следующие атрибуты для Windows Server 2003:
 
 
 
@@ -273,7 +273,7 @@ ms.locfileid: "104138043"
 | [**Плацдарм-Server-List-BL**](a-bridgeheadserverlistbl.md)                | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Каноническое имя**](a-canonicalname.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Комментировать**](a-info.md)                                                    | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                         |
-| [**Common-Name**](a-cn.md)                                                  | True      | [**Вверх**](c-top.md)<br/> [**Получатель почты**](c-mailrecipient.md)<br/>         |
+| [**Common-Name**](a-cn.md)                                                  | Верно      | [**Вверх**](c-top.md)<br/> [**Получатель почты**](c-mailrecipient.md)<br/>         |
 | [**Управление — права доступа**](a-controlaccessrights.md)                       | Неверно     | **Группа**                                                                                    |
 | [**Метка времени создания**](a-createtimestamp.md)                               | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Описание**](a-description.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
@@ -292,15 +292,15 @@ ms.locfileid: "104138043"
 | [**Мусор-Coll-период**](a-garbagecollperiod.md)                           | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                         |
 | [**Атрибуты группы**](a-groupattributes.md)                                | Неверно     | **Группа**                                                                                    |
 | [**Group-Membership-SAM**](a-groupmembershipsam.md)                         | Неверно     | **Группа**                                                                                    |
-| [**Тип группы**](a-grouptype.md)                                            | True      | **Группа**                                                                                    |
-| [**Тип экземпляра**](a-instancetype.md)                                      | True      | [**Вверх**](c-top.md)<br/>                                                              |
+| [**Тип группы**](a-grouptype.md)                                            | Верно      | **Группа**                                                                                    |
+| [**Тип экземпляра**](a-instancetype.md)                                      | Верно      | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Удалено**](a-isdeleted.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Имеет права владельца**](a-isprivilegeholder.md)                           | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**лабеледури**](a-labeleduri.md)                                           | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                         |
 | [**Последний-известный-родительский**](a-lastknownparent.md)                               | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
-| [**Устаревший — Exchange-DN**](a-legacyexchangedn.md)                             | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                         |
+| [**Legacy-Exchange-DN**](a-legacyexchangedn.md)                             | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                         |
 | [**Под управлением**](a-managedby.md)                                            | Неверно     | **Группа**                                                                                    |
 | [**Управляемые объекты**](a-managedobjects.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**В основном**](a-masteredby.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
@@ -334,12 +334,12 @@ ms.locfileid: "104138043"
 | [**Не-Security-Member**](a-nonsecuritymember.md)                           | Неверно     | **Группа**                                                                                    |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                      | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**NT-Group-Members**](a-ntgroupmembers.md)                                 | Неверно     | **Группа**                                                                                    |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                     | True      | [**Вверх**](c-top.md)<br/> [**Безопасность — участник**](c-securityprincipal.md)<br/> |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                     | Верно      | [**Вверх**](c-top.md)<br/> [**Безопасность — участник**](c-securityprincipal.md)<br/> |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
-| [**Объект — Категория**](a-objectcategory.md)                                  | True      | [**Вверх**](c-top.md)<br/>                                                              |
-| [**Объектный класс**](a-objectclass.md)                                        | True      | [**Вверх**](c-top.md)<br/>                                                              |
+| [**Объект — Категория**](a-objectcategory.md)                                  | Верно      | [**Вверх**](c-top.md)<br/>                                                              |
+| [**Объектный класс**](a-objectclass.md)                                        | Верно      | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Объект — GUID**](a-objectguid.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
-| [**Идентификатор безопасности объекта**](a-objectsid.md)                                            | True      | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                 |
+| [**Идентификатор безопасности объекта**](a-objectsid.md)                                            | Верно      | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                 |
 | [**Версия объекта**](a-objectversion.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Оператор Count**](a-operatorcount.md)                                    | Неверно     | **Группа**                                                                                    |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                  | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
@@ -358,7 +358,7 @@ ms.locfileid: "104138043"
 | [**Представители — кому**](a-repsto.md)                                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Редакции**](a-revision.md)                                               | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Избежать**](a-rid.md)                                                         | Неверно     | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                 |
-| [**SAM-имя учетной записи**](a-samaccountname.md)                                 | True      | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                 |
+| [**SAM-имя учетной записи**](a-samaccountname.md)                                 | Верно      | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                 |
 | [**SAM-тип учетной записи**](a-samaccounttype.md)                                 | Неверно     | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                 |
 | [**SD-Rights-эффективен**](a-sdrightseffective.md)                           | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**секретарь**](a-secretary.md)                                             | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                         |
@@ -396,9 +396,9 @@ ms.locfileid: "104138043"
 
 
 
-## <a name="windows-server-2003-extended-rights"></a>Расширенные права Windows Server 2003
+## <a name="windows-server-2003-extended-rights"></a>Windows Расширенные права сервера 2003
 
-Этот класс содержит следующие расширенные права для Windows Server 2003:
+этот класс содержит следующие расширенные права для Windows Server 2003:
 
 
 
@@ -408,9 +408,9 @@ ms.locfileid: "104138043"
 
 
 
-## <a name="windows-server-2003-validated-writes"></a>Проверенные записи Windows Server 2003
+## <a name="windows-server-2003-validated-writes"></a>Windows Проверенные записи сервера 2003
 
-Этот класс содержит следующие проверенные операции записи для Windows Server 2003:
+этот класс содержит следующие проверенные операции записи для Windows Server 2003:
 
 
 
@@ -420,9 +420,9 @@ ms.locfileid: "104138043"
 
 
 
-## <a name="windows-server-2003-property-sets"></a>Наборы свойств Windows Server 2003
+## <a name="windows-server-2003-property-sets"></a>Windows Сервер 2003 наборы свойств
 
-Этот класс содержит следующие наборы свойств для Windows Server 2003:
+этот класс содержит следующие наборы свойств для Windows Server 2003:
 
 
 
@@ -482,8 +482,8 @@ ms.locfileid: "104138043"
 | [**DS-Core-распространение-данные**](a-dscorepropagationdata.md)                 | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Из записи**](a-fromentry.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
-| [**Тип группы**](a-grouptype.md)                                           | True      | **Группа**                                                                                    |
-| [**Тип экземпляра**](a-instancetype.md)                                     | True      | [**Вверх**](c-top.md)<br/>                                                              |
+| [**Тип группы**](a-grouptype.md)                                           | Верно      | **Группа**                                                                                    |
+| [**Тип экземпляра**](a-instancetype.md)                                     | Верно      | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Удалено**](a-isdeleted.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
@@ -504,12 +504,12 @@ ms.locfileid: "104138043"
 | [**MS-DS-REPL-Attribute-Meta-Data**](a-msds-replattributemetadata.md)      | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**MS-DS-REPL-value-Meta-Data**](a-msds-replvaluemetadata.md)              | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**MS-DS-Service-Account-BL**](a-msds-serviceaccountbl.md)                 | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | True      | [**Вверх**](c-top.md)<br/> [**Безопасность — участник**](c-securityprincipal.md)<br/> |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | Верно      | [**Вверх**](c-top.md)<br/> [**Безопасность — участник**](c-securityprincipal.md)<br/> |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
-| [**Объект — Категория**](a-objectcategory.md)                                 | True      | [**Вверх**](c-top.md)<br/>                                                              |
-| [**Объектный класс**](a-objectclass.md)                                       | True      | [**Вверх**](c-top.md)<br/>                                                              |
+| [**Объект — Категория**](a-objectcategory.md)                                 | Верно      | [**Вверх**](c-top.md)<br/>                                                              |
+| [**Объектный класс**](a-objectclass.md)                                       | Верно      | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Объект — GUID**](a-objectguid.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
-| [**Идентификатор безопасности объекта**](a-objectsid.md)                                           | True      | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                 |
+| [**Идентификатор безопасности объекта**](a-objectsid.md)                                           | Верно      | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                 |
 | [**Версия объекта**](a-objectversion.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                 | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
 | [**Разделяемый атрибут-удаление-список**](a-partialattributedeletionlist.md)   | Неверно     | [**Вверх**](c-top.md)<br/>                                                              |
@@ -600,9 +600,9 @@ ms.locfileid: "104138043"
 
 
 
-## <a name="windows-server-2003-r2-attributes"></a>Атрибуты Windows Server 2003 R2
+## <a name="windows-server-2003-r2-attributes"></a>Windows Атрибуты сервера 2003 R2
 
-Этот класс содержит следующие атрибуты для Windows Server 2003 R2:
+этот класс содержит следующие атрибуты для Windows Server 2003 R2:
 
 
 
@@ -620,7 +620,7 @@ ms.locfileid: "104138043"
 | [**Плацдарм-Server-List-BL**](a-bridgeheadserverlistbl.md)                | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Каноническое имя**](a-canonicalname.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Комментировать**](a-info.md)                                                    | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                                                               |
-| [**Common-Name**](a-cn.md)                                                  | True      | [**Вверх**](c-top.md)<br/> [**посиксграуп**](c-posixgroup.md)<br/> [**Получатель почты**](c-mailrecipient.md)<br/> |
+| [**Common-Name**](a-cn.md)                                                  | Верно      | [**Вверх**](c-top.md)<br/> [**посиксграуп**](c-posixgroup.md)<br/> [**Получатель почты**](c-mailrecipient.md)<br/> |
 | [**Управление — права доступа**](a-controlaccessrights.md)                       | Неверно     | **Группа**                                                                                                                          |
 | [**Метка времени создания**](a-createtimestamp.md)                               | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Описание**](a-description.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/> [**посиксграуп**](c-posixgroup.md)<br/>                                                      |
@@ -640,15 +640,15 @@ ms.locfileid: "104138043"
 | [**gidNumber**](a-gidnumber.md)                                             | Неверно     | [**посиксграуп**](c-posixgroup.md)<br/>                                                                                      |
 | [**Атрибуты группы**](a-groupattributes.md)                                | Неверно     | **Группа**                                                                                                                          |
 | [**Group-Membership-SAM**](a-groupmembershipsam.md)                         | Неверно     | **Группа**                                                                                                                          |
-| [**Тип группы**](a-grouptype.md)                                            | True      | **Группа**                                                                                                                          |
-| [**Тип экземпляра**](a-instancetype.md)                                      | True      | [**Вверх**](c-top.md)<br/>                                                                                                    |
+| [**Тип группы**](a-grouptype.md)                                            | Верно      | **Группа**                                                                                                                          |
+| [**Тип экземпляра**](a-instancetype.md)                                      | Верно      | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Удалено**](a-isdeleted.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Имеет права владельца**](a-isprivilegeholder.md)                           | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**лабеледури**](a-labeleduri.md)                                           | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                                                               |
 | [**Последний-известный-родительский**](a-lastknownparent.md)                               | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
-| [**Устаревший — Exchange-DN**](a-legacyexchangedn.md)                             | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                                                               |
+| [**Legacy-Exchange-DN**](a-legacyexchangedn.md)                             | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                                                               |
 | [**Под управлением**](a-managedby.md)                                            | Неверно     | **Группа**                                                                                                                          |
 | [**Управляемые объекты**](a-managedobjects.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**В основном**](a-masteredby.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
@@ -689,12 +689,12 @@ ms.locfileid: "104138043"
 | [**Не-Security-Member**](a-nonsecuritymember.md)                           | Неверно     | **Группа**                                                                                                                          |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                      | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**NT-Group-Members**](a-ntgroupmembers.md)                                 | Неверно     | **Группа**                                                                                                                          |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                     | True      | [**Вверх**](c-top.md)<br/> [**Безопасность — участник**](c-securityprincipal.md)<br/>                                       |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                     | Верно      | [**Вверх**](c-top.md)<br/> [**Безопасность — участник**](c-securityprincipal.md)<br/>                                       |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
-| [**Объект — Категория**](a-objectcategory.md)                                  | True      | [**Вверх**](c-top.md)<br/>                                                                                                    |
-| [**Объектный класс**](a-objectclass.md)                                        | True      | [**Вверх**](c-top.md)<br/>                                                                                                    |
+| [**Объект — Категория**](a-objectcategory.md)                                  | Верно      | [**Вверх**](c-top.md)<br/>                                                                                                    |
+| [**Объектный класс**](a-objectclass.md)                                        | Верно      | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Объект — GUID**](a-objectguid.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
-| [**Идентификатор безопасности объекта**](a-objectsid.md)                                            | True      | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                                                       |
+| [**Идентификатор безопасности объекта**](a-objectsid.md)                                            | Верно      | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                                                       |
 | [**Версия объекта**](a-objectversion.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Оператор Count**](a-operatorcount.md)                                    | Неверно     | **Группа**                                                                                                                          |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                  | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
@@ -713,7 +713,7 @@ ms.locfileid: "104138043"
 | [**Представители — кому**](a-repsto.md)                                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Редакции**](a-revision.md)                                               | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Избежать**](a-rid.md)                                                         | Неверно     | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                                                       |
-| [**SAM-имя учетной записи**](a-samaccountname.md)                                 | True      | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                                                       |
+| [**SAM-имя учетной записи**](a-samaccountname.md)                                 | Верно      | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                                                       |
 | [**SAM-тип учетной записи**](a-samaccounttype.md)                                 | Неверно     | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                                                       |
 | [**SD-Rights-эффективен**](a-sdrightseffective.md)                           | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**секретарь**](a-secretary.md)                                             | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                                                               |
@@ -753,9 +753,9 @@ ms.locfileid: "104138043"
 
 
 
-## <a name="windows-server-2003-r2-extended-rights"></a>Расширенные права Windows Server 2003 R2
+## <a name="windows-server-2003-r2-extended-rights"></a>Windows Расширенные права сервера 2003 R2
 
-Этот класс содержит следующие расширенные права для Windows Server 2003 R2:
+этот класс содержит следующие расширенные права для Windows Server 2003 R2:
 
 
 
@@ -765,9 +765,9 @@ ms.locfileid: "104138043"
 
 
 
-## <a name="windows-server-2003-r2-validated-writes"></a>Проверенные операции записи в Windows Server 2003 R2
+## <a name="windows-server-2003-r2-validated-writes"></a>Windows Проверенные операции записи сервера 2003 R2
 
-Этот класс содержит следующие проверенные операции записи для Windows Server 2003 R2:
+этот класс содержит следующие проверенные операции записи для Windows Server 2003 R2:
 
 
 
@@ -777,9 +777,9 @@ ms.locfileid: "104138043"
 
 
 
-## <a name="windows-server-2003-r2-property-sets"></a>Наборы свойств Windows Server 2003 R2
+## <a name="windows-server-2003-r2-property-sets"></a>Windows Наборы свойств Server 2003 R2
 
-Этот класс содержит следующие наборы свойств для Windows Server 2003 R2:
+этот класс содержит следующие наборы свойств для Windows Server 2003 R2:
 
 
 
@@ -815,9 +815,9 @@ ms.locfileid: "104138043"
 
 
 
-## <a name="windows-server-2008-attributes"></a>Атрибуты Windows Server 2008
+## <a name="windows-server-2008-attributes"></a>Windows Атрибуты сервера 2008
 
-Этот класс содержит следующие атрибуты для Windows Server 2008:
+этот класс содержит следующие атрибуты для Windows Server 2008:
 
 
 
@@ -835,7 +835,7 @@ ms.locfileid: "104138043"
 | [**Плацдарм-Server-List-BL**](a-bridgeheadserverlistbl.md)                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Каноническое имя**](a-canonicalname.md)                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Комментировать**](a-info.md)                                                        | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                                                               |
-| [**Common-Name**](a-cn.md)                                                      | True      | [**Вверх**](c-top.md)<br/> [**посиксграуп**](c-posixgroup.md)<br/> [**Получатель почты**](c-mailrecipient.md)<br/> |
+| [**Common-Name**](a-cn.md)                                                      | Верно      | [**Вверх**](c-top.md)<br/> [**посиксграуп**](c-posixgroup.md)<br/> [**Получатель почты**](c-mailrecipient.md)<br/> |
 | [**Управление — права доступа**](a-controlaccessrights.md)                           | Неверно     | **Группа**                                                                                                                          |
 | [**Метка времени создания**](a-createtimestamp.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Описание**](a-description.md)                                             | Неверно     | [**Вверх**](c-top.md)<br/> [**посиксграуп**](c-posixgroup.md)<br/>                                                      |
@@ -855,15 +855,15 @@ ms.locfileid: "104138043"
 | [**gidNumber**](a-gidnumber.md)                                                 | Неверно     | [**посиксграуп**](c-posixgroup.md)<br/>                                                                                      |
 | [**Атрибуты группы**](a-groupattributes.md)                                    | Неверно     | **Группа**                                                                                                                          |
 | [**Group-Membership-SAM**](a-groupmembershipsam.md)                             | Неверно     | **Группа**                                                                                                                          |
-| [**Тип группы**](a-grouptype.md)                                                | True      | **Группа**                                                                                                                          |
-| [**Тип экземпляра**](a-instancetype.md)                                          | True      | [**Вверх**](c-top.md)<br/>                                                                                                    |
+| [**Тип группы**](a-grouptype.md)                                                | Верно      | **Группа**                                                                                                                          |
+| [**Тип экземпляра**](a-instancetype.md)                                          | Верно      | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Удалено**](a-isdeleted.md)                                                | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Имеет права владельца**](a-isprivilegeholder.md)                               | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**лабеледури**](a-labeleduri.md)                                               | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                                                               |
 | [**Последний-известный-родительский**](a-lastknownparent.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
-| [**Устаревший — Exchange-DN**](a-legacyexchangedn.md)                                 | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                                                               |
+| [**Legacy-Exchange-DN**](a-legacyexchangedn.md)                                 | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                                                               |
 | [**Под управлением**](a-managedby.md)                                                | Неверно     | **Группа**                                                                                                                          |
 | [**Управляемые объекты**](a-managedobjects.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**В основном**](a-masteredby.md)                                              | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
@@ -922,12 +922,12 @@ ms.locfileid: "104138043"
 | [**Не-Security-Member**](a-nonsecuritymember.md)                               | Неверно     | **Группа**                                                                                                                          |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**NT-Group-Members**](a-ntgroupmembers.md)                                     | Неверно     | **Группа**                                                                                                                          |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                         | True      | [**Вверх**](c-top.md)<br/> [**Безопасность — участник**](c-securityprincipal.md)<br/>                                       |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                         | Верно      | [**Вверх**](c-top.md)<br/> [**Безопасность — участник**](c-securityprincipal.md)<br/>                                       |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
-| [**Объект — Категория**](a-objectcategory.md)                                      | True      | [**Вверх**](c-top.md)<br/>                                                                                                    |
-| [**Объектный класс**](a-objectclass.md)                                            | True      | [**Вверх**](c-top.md)<br/>                                                                                                    |
+| [**Объект — Категория**](a-objectcategory.md)                                      | Верно      | [**Вверх**](c-top.md)<br/>                                                                                                    |
+| [**Объектный класс**](a-objectclass.md)                                            | Верно      | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Объект — GUID**](a-objectguid.md)                                              | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
-| [**Идентификатор безопасности объекта**](a-objectsid.md)                                                | True      | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                                                       |
+| [**Идентификатор безопасности объекта**](a-objectsid.md)                                                | Верно      | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                                                       |
 | [**Версия объекта**](a-objectversion.md)                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Оператор Count**](a-operatorcount.md)                                        | Неверно     | **Группа**                                                                                                                          |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                      | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
@@ -946,7 +946,7 @@ ms.locfileid: "104138043"
 | [**Представители — кому**](a-repsto.md)                                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Редакции**](a-revision.md)                                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Избежать**](a-rid.md)                                                             | Неверно     | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                                                       |
-| [**SAM-имя учетной записи**](a-samaccountname.md)                                     | True      | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                                                       |
+| [**SAM-имя учетной записи**](a-samaccountname.md)                                     | Верно      | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                                                       |
 | [**SAM-тип учетной записи**](a-samaccounttype.md)                                     | Неверно     | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                                                       |
 | [**SD-Rights-эффективен**](a-sdrightseffective.md)                               | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**секретарь**](a-secretary.md)                                                 | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                                                               |
@@ -986,9 +986,9 @@ ms.locfileid: "104138043"
 
 
 
-## <a name="windows-server-2008-extended-rights"></a>Расширенные права Windows Server 2008
+## <a name="windows-server-2008-extended-rights"></a>Windows Расширенные права сервера 2008
 
-Этот класс содержит следующие расширенные права для Windows Server 2008:
+этот класс содержит следующие расширенные права для Windows Server 2008:
 
 
 
@@ -998,9 +998,9 @@ ms.locfileid: "104138043"
 
 
 
-## <a name="windows-server-2008-validated-writes"></a>Проверенные записи Windows Server 2008
+## <a name="windows-server-2008-validated-writes"></a>Windows Проверенные записи сервера 2008
 
-Этот класс содержит следующие проверенные операции записи для Windows Server 2008:
+этот класс содержит следующие проверенные операции записи для Windows Server 2008:
 
 
 
@@ -1010,9 +1010,9 @@ ms.locfileid: "104138043"
 
 
 
-## <a name="windows-server-2008-property-sets"></a>Наборы свойств Windows Server 2008
+## <a name="windows-server-2008-property-sets"></a>Windows Сервер 2008 наборы свойств
 
-Этот класс содержит следующие наборы свойств для Windows Server 2008:
+этот класс содержит следующие наборы свойств для Windows Server 2008:
 
 
 
@@ -1048,9 +1048,9 @@ ms.locfileid: "104138043"
 
 
 
-## <a name="windows-server-2008-r2-attributes"></a>Атрибуты Windows Server 2008 R2
+## <a name="windows-server-2008-r2-attributes"></a>Windows Атрибуты сервера 2008 R2
 
-Этот класс содержит следующие атрибуты для Windows Server 2008 R2:
+этот класс содержит следующие атрибуты для Windows Server 2008 R2:
 
 
 
@@ -1068,7 +1068,7 @@ ms.locfileid: "104138043"
 | [**Плацдарм-Server-List-BL**](a-bridgeheadserverlistbl.md)                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Каноническое имя**](a-canonicalname.md)                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Комментировать**](a-info.md)                                                        | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                                                               |
-| [**Common-Name**](a-cn.md)                                                      | True      | [**Вверх**](c-top.md)<br/> [**посиксграуп**](c-posixgroup.md)<br/> [**Получатель почты**](c-mailrecipient.md)<br/> |
+| [**Common-Name**](a-cn.md)                                                      | Верно      | [**Вверх**](c-top.md)<br/> [**посиксграуп**](c-posixgroup.md)<br/> [**Получатель почты**](c-mailrecipient.md)<br/> |
 | [**Управление — права доступа**](a-controlaccessrights.md)                           | Неверно     | **Группа**                                                                                                                          |
 | [**Метка времени создания**](a-createtimestamp.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Описание**](a-description.md)                                             | Неверно     | [**Вверх**](c-top.md)<br/> [**посиксграуп**](c-posixgroup.md)<br/>                                                      |
@@ -1088,8 +1088,8 @@ ms.locfileid: "104138043"
 | [**gidNumber**](a-gidnumber.md)                                                 | Неверно     | [**посиксграуп**](c-posixgroup.md)<br/>                                                                                      |
 | [**Атрибуты группы**](a-groupattributes.md)                                    | Неверно     | **Группа**                                                                                                                          |
 | [**Group-Membership-SAM**](a-groupmembershipsam.md)                             | Неверно     | **Группа**                                                                                                                          |
-| [**Тип группы**](a-grouptype.md)                                                | True      | **Группа**                                                                                                                          |
-| [**Тип экземпляра**](a-instancetype.md)                                          | True      | [**Вверх**](c-top.md)<br/>                                                                                                    |
+| [**Тип группы**](a-grouptype.md)                                                | Верно      | **Группа**                                                                                                                          |
+| [**Тип экземпляра**](a-instancetype.md)                                          | Верно      | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Удалено**](a-isdeleted.md)                                                | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
@@ -1097,7 +1097,7 @@ ms.locfileid: "104138043"
 | [**Является перезапущенным**](a-isrecycled.md)                                              | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**лабеледури**](a-labeleduri.md)                                               | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                                                               |
 | [**Последний-известный-родительский**](a-lastknownparent.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
-| [**Устаревший — Exchange-DN**](a-legacyexchangedn.md)                                 | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                                                               |
+| [**Legacy-Exchange-DN**](a-legacyexchangedn.md)                                 | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                                                               |
 | [**Под управлением**](a-managedby.md)                                                | Неверно     | **Группа**                                                                                                                          |
 | [**Управляемые объекты**](a-managedobjects.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**В основном**](a-masteredby.md)                                              | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
@@ -1162,12 +1162,12 @@ ms.locfileid: "104138043"
 | [**Не-Security-Member**](a-nonsecuritymember.md)                               | Неверно     | **Группа**                                                                                                                          |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**NT-Group-Members**](a-ntgroupmembers.md)                                     | Неверно     | **Группа**                                                                                                                          |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                         | True      | [**Вверх**](c-top.md)<br/> [**Безопасность — участник**](c-securityprincipal.md)<br/>                                       |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                         | Верно      | [**Вверх**](c-top.md)<br/> [**Безопасность — участник**](c-securityprincipal.md)<br/>                                       |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
-| [**Объект — Категория**](a-objectcategory.md)                                      | True      | [**Вверх**](c-top.md)<br/>                                                                                                    |
-| [**Объектный класс**](a-objectclass.md)                                            | True      | [**Вверх**](c-top.md)<br/>                                                                                                    |
+| [**Объект — Категория**](a-objectcategory.md)                                      | Верно      | [**Вверх**](c-top.md)<br/>                                                                                                    |
+| [**Объектный класс**](a-objectclass.md)                                            | Верно      | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Объект — GUID**](a-objectguid.md)                                              | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
-| [**Идентификатор безопасности объекта**](a-objectsid.md)                                                | True      | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                                                       |
+| [**Идентификатор безопасности объекта**](a-objectsid.md)                                                | Верно      | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                                                       |
 | [**Версия объекта**](a-objectversion.md)                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Оператор Count**](a-operatorcount.md)                                        | Неверно     | **Группа**                                                                                                                          |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                      | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
@@ -1186,7 +1186,7 @@ ms.locfileid: "104138043"
 | [**Представители — кому**](a-repsto.md)                                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Редакции**](a-revision.md)                                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Избежать**](a-rid.md)                                                             | Неверно     | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                                                       |
-| [**SAM-имя учетной записи**](a-samaccountname.md)                                     | True      | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                                                       |
+| [**SAM-имя учетной записи**](a-samaccountname.md)                                     | Верно      | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                                                       |
 | [**SAM-тип учетной записи**](a-samaccounttype.md)                                     | Неверно     | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                                                       |
 | [**SD-Rights-эффективен**](a-sdrightseffective.md)                               | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**секретарь**](a-secretary.md)                                                 | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                                                               |
@@ -1226,9 +1226,9 @@ ms.locfileid: "104138043"
 
 
 
-## <a name="windows-server-2008-r2-extended-rights"></a>Расширенные права Windows Server 2008 R2
+## <a name="windows-server-2008-r2-extended-rights"></a>Windows Расширенные права сервера 2008 R2
 
-Этот класс содержит следующие расширенные права для Windows Server 2008 R2:
+этот класс содержит следующие расширенные права для Windows Server 2008 R2:
 
 
 
@@ -1238,9 +1238,9 @@ ms.locfileid: "104138043"
 
 
 
-## <a name="windows-server-2008-r2-validated-writes"></a>Проверенные операции записи в Windows Server 2008 R2
+## <a name="windows-server-2008-r2-validated-writes"></a>Windows Проверенные операции записи сервера 2008 R2
 
-Этот класс содержит следующие проверенные операции записи для Windows Server 2008 R2:
+этот класс содержит следующие проверенные операции записи для Windows Server 2008 R2:
 
 
 
@@ -1250,9 +1250,9 @@ ms.locfileid: "104138043"
 
 
 
-## <a name="windows-server-2008-r2-property-sets"></a>Наборы свойств Windows Server 2008 R2
+## <a name="windows-server-2008-r2-property-sets"></a>Windows Наборы свойств Server 2008 R2
 
-Этот класс содержит следующие наборы свойств для Windows Server 2008 R2:
+этот класс содержит следующие наборы свойств для Windows Server 2008 R2:
 
 
 
@@ -1288,7 +1288,7 @@ ms.locfileid: "104138043"
 
 
 
-## <a name="windows-server-2012-attributes"></a>Атрибуты Windows Server 2012
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012 Атрибута
 
 Этот класс содержит следующие атрибуты для Windows Server 2012:
 
@@ -1308,7 +1308,7 @@ ms.locfileid: "104138043"
 | [**Плацдарм-Server-List-BL**](a-bridgeheadserverlistbl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Каноническое имя**](a-canonicalname.md)                                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Комментировать**](a-info.md)                                                                    | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                                                               |
-| [**Common-Name**](a-cn.md)                                                                  | True      | [**Вверх**](c-top.md)<br/> [**посиксграуп**](c-posixgroup.md)<br/> [**Получатель почты**](c-mailrecipient.md)<br/> |
+| [**Common-Name**](a-cn.md)                                                                  | Верно      | [**Вверх**](c-top.md)<br/> [**посиксграуп**](c-posixgroup.md)<br/> [**Получатель почты**](c-mailrecipient.md)<br/> |
 | [**Управление — права доступа**](a-controlaccessrights.md)                                       | Неверно     | **Группа**                                                                                                                          |
 | [**Метка времени создания**](a-createtimestamp.md)                                               | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Описание**](a-description.md)                                                         | Неверно     | [**Вверх**](c-top.md)<br/> [**посиксграуп**](c-posixgroup.md)<br/>                                                      |
@@ -1328,8 +1328,8 @@ ms.locfileid: "104138043"
 | [**gidNumber**](a-gidnumber.md)                                                             | Неверно     | [**посиксграуп**](c-posixgroup.md)<br/>                                                                                      |
 | [**Атрибуты группы**](a-groupattributes.md)                                                | Неверно     | **Группа**                                                                                                                          |
 | [**Group-Membership-SAM**](a-groupmembershipsam.md)                                         | Неверно     | **Группа**                                                                                                                          |
-| [**Тип группы**](a-grouptype.md)                                                            | True      | **Группа**                                                                                                                          |
-| [**Тип экземпляра**](a-instancetype.md)                                                      | True      | [**Вверх**](c-top.md)<br/>                                                                                                    |
+| [**Тип группы**](a-grouptype.md)                                                            | Верно      | **Группа**                                                                                                                          |
+| [**Тип экземпляра**](a-instancetype.md)                                                      | Верно      | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Удалено**](a-isdeleted.md)                                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
@@ -1337,7 +1337,7 @@ ms.locfileid: "104138043"
 | [**Является перезапущенным**](a-isrecycled.md)                                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**лабеледури**](a-labeleduri.md)                                                           | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                                                               |
 | [**Последний-известный-родительский**](a-lastknownparent.md)                                               | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
-| [**Устаревший — Exchange-DN**](a-legacyexchangedn.md)                                             | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                                                               |
+| [**Legacy-Exchange-DN**](a-legacyexchangedn.md)                                             | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                                                               |
 | [**Под управлением**](a-managedby.md)                                                            | Неверно     | **Группа**                                                                                                                          |
 | [**Управляемые объекты**](a-managedobjects.md)                                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**В основном**](a-masteredby.md)                                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
@@ -1398,7 +1398,7 @@ ms.locfileid: "104138043"
 | [**MS-DS-выводит-List-BL**](a-msds-revealedlistbl.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**MS-DS-Tasks-для-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**MS-DS-Tasks-for-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
-| [**MS-DS-TDO-исходящий трафик — BL**](a-msds-tdoegressbl.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
+| [**ms-DS-TDO-Egress-BL**](a-msds-tdoegressbl.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**MS-DS-TDO-входящий трафик — BL**](a-msds-tdoingressbl.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**MS-DS-value-type-Reference-BL**](a-msds-valuetypereferencebl.md)                         | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**MS-дов-Assistant-Name**](a-msexchassistantname.md)                                      | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                                                               |
@@ -1412,12 +1412,12 @@ ms.locfileid: "104138043"
 | [**Не-Security-Member**](a-nonsecuritymember.md)                                           | Неверно     | **Группа**                                                                                                                          |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**NT-Group-Members**](a-ntgroupmembers.md)                                                 | Неверно     | **Группа**                                                                                                                          |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                     | True      | [**Вверх**](c-top.md)<br/> [**Безопасность — участник**](c-securityprincipal.md)<br/>                                       |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                     | Верно      | [**Вверх**](c-top.md)<br/> [**Безопасность — участник**](c-securityprincipal.md)<br/>                                       |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
-| [**Объект — Категория**](a-objectcategory.md)                                                  | True      | [**Вверх**](c-top.md)<br/>                                                                                                    |
-| [**Объектный класс**](a-objectclass.md)                                                        | True      | [**Вверх**](c-top.md)<br/>                                                                                                    |
+| [**Объект — Категория**](a-objectcategory.md)                                                  | Верно      | [**Вверх**](c-top.md)<br/>                                                                                                    |
+| [**Объектный класс**](a-objectclass.md)                                                        | Верно      | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Объект — GUID**](a-objectguid.md)                                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
-| [**Идентификатор безопасности объекта**](a-objectsid.md)                                                            | True      | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                                                       |
+| [**Идентификатор безопасности объекта**](a-objectsid.md)                                                            | Верно      | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                                                       |
 | [**Версия объекта**](a-objectversion.md)                                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Оператор Count**](a-operatorcount.md)                                                    | Неверно     | **Группа**                                                                                                                          |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
@@ -1436,7 +1436,7 @@ ms.locfileid: "104138043"
 | [**Представители — кому**](a-repsto.md)                                                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Редакции**](a-revision.md)                                                               | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**Избежать**](a-rid.md)                                                                         | Неверно     | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                                                       |
-| [**SAM-имя учетной записи**](a-samaccountname.md)                                                 | True      | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                                                       |
+| [**SAM-имя учетной записи**](a-samaccountname.md)                                                 | Верно      | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                                                       |
 | [**SAM-тип учетной записи**](a-samaccounttype.md)                                                 | Неверно     | [**Безопасность — участник**](c-securityprincipal.md)<br/>                                                                       |
 | [**SD-Rights-эффективен**](a-sdrightseffective.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>                                                                                                    |
 | [**секретарь**](a-secretary.md)                                                             | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                                                               |
@@ -1476,7 +1476,7 @@ ms.locfileid: "104138043"
 
 
 
-## <a name="windows-server-2012-extended-rights"></a>Расширенные права Windows Server 2012
+## <a name="windows-server-2012-extended-rights"></a>Windows Server 2012 Расширенные права
 
 Этот класс содержит следующие расширенные права для Windows Server 2012:
 
@@ -1488,7 +1488,7 @@ ms.locfileid: "104138043"
 
 
 
-## <a name="windows-server-2012-validated-writes"></a>Проверенные записи Windows Server 2012
+## <a name="windows-server-2012-validated-writes"></a>Windows Server 2012 Проверенные записи
 
 Этот класс содержит следующие проверенные операции записи для Windows Server 2012:
 
@@ -1500,7 +1500,7 @@ ms.locfileid: "104138043"
 
 
 
-## <a name="windows-server-2012-property-sets"></a>Наборы свойств Windows Server 2012
+## <a name="windows-server-2012-property-sets"></a>Windows Server 2012 Наборы свойств
 
 Этот класс содержит следующие наборы свойств для Windows Server 2012:
 

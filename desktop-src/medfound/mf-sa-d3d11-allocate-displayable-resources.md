@@ -3,12 +3,12 @@ description: Указывает, должна ли в образце выдел�
 title: MF_SA_D3D11_ALLOCATE_DISPLAYABLE_RESOURCES (Mftransform.h)
 ms.topic: reference
 ms.date: 03/31/2018
-ms.openlocfilehash: fedcfbe98344dd9b424c1a8ce90e847e98f1af51
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: b039eff2c46281dcad4754d73f05ecd982f7fe3e75ed1aa9c8b576fe573f921c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110548709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119102604"
 ---
 # <a name="mf_sa_d3d_allocate_displayable_resources-attribute"></a>\_Атрибут MF SA " \_ \_ выделить \_ отображаемые \_ ресурсы"
 
@@ -18,9 +18,9 @@ ms.locfileid: "110548709"
 
 **UINT32**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Этот атрибут доступен в Windows 10 Build 20348. 
+этот атрибут доступен в виде звезды с Windows 10 сборки 20348. 
 
 > [!NOTE]
 > Поле члена **D3D11_RESOURCE_MISC_SHARED_DISPLAYABLE** перечисления [D3D11_RESOURCE_MISC_FLAG](/windows/win32/api/d3d11/ne-d3d11-d3d11_resource_misc_flag) будет доступно в следующем выпуске пакета SDK.
@@ -130,14 +130,14 @@ private:
 
 
 
-| Требование | Применение |
+| Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Сборка Windows 10 20348<br/>                                    |
-| Заголовок<br/>                   | <dl> <dt>Мфтрансформ. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 10 сборка 20348<br/>                                    |
+| Header<br/>                   | <dl> <dt>Мфтрансформ. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

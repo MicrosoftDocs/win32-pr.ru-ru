@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: 54799aa90007370439b2be8c8cf8c1f584360a5d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1ec5538e7aea7abd938cb57dc3dfba9c51e7c6c60f81630bf6665c1ee467ed24
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104072443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956513"
 ---
 # <a name="ntgdidddestroysurface-function"></a>Функция Нтгдидддестройсурфаце
 
@@ -96,11 +96,11 @@ DWORD APIENTRY NtGdiDdDestroySurface(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для создания и уничтожения поверхностей вместо этой функции в приложениях рекомендуется использовать интерфейсы API DirectDraw и Direct3D.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

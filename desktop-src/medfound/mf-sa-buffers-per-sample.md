@@ -4,12 +4,12 @@ ms.assetid: A782BF8A-822A-407D-A30A-F2045BBB0BC0
 title: Атрибут MF_SA_BUFFERS_PER_SAMPLE (Мфтрансформ. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d658ae72c53d986b364b2b6a3f405ae0052ea3fe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf6b54cc5b2589649c954d9f2f41923af04fdf4aa7c00714067bee0b11dabbee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103811032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118740371"
 ---
 # <a name="mf_sa_buffers_per_sample-attribute"></a>\_ \_ Буферов SA MF \_ на \_ Пример атрибута
 
@@ -19,7 +19,7 @@ ms.locfileid: "103811032"
 
 **UINT32**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если для выделения видеороликов используется интерфейс [**имфвидеосамплеаллокаторекс**](/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocatorex) , этот атрибут можно использовать для создания видеороликов, содержащих несколько буферов. Например, если значение атрибута равно 2, распределитель создает два буфера видео для каждого примера видео. Задайте атрибут в параметре *паттрибутес* метода [**Имфвидеосамплеаллокаторекс:: инитиализесамплеаллокаторекс**](/windows/desktop/api/mfidl/nf-mfidl-imfvideosampleallocatorex-initializesampleallocatorex) .
 
@@ -34,14 +34,14 @@ ms.locfileid: "103811032"
 
 Если все эти условия имеют значение true, MFT должно установить для атрибута значение 2 (один буфер для представления).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8 \|\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 \|\]<br/>                              |
+| Минимальная версия клиента<br/> | Windows 8 \[ приложения UWP для классических приложений \|\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ приложения UWP для классических приложений \|\]<br/>                              |
 | Header<br/>                   | <dl> <dt>Мфтрансформ. h</dt> </dl> |
 
 

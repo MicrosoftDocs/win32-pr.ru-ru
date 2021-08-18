@@ -4,12 +4,12 @@ ms.assetid: 24dbf617-fa16-44f1-ba59-d4d99b8f1375
 title: Использование словаря приложения с InkEdit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4bc919fc071f249611d42b8decb6ce4fb0b0f88
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 35b090b0822afba691012ef19d51068a18c3cf8d6c9afb9070f43f63cd86ef34
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118966643"
 ---
 # <a name="using-an-application-dictionary-with-inkedit"></a>Использование словаря приложения с InkEdit
 
@@ -110,7 +110,7 @@ private void Form1_Closed(object sender, System.EventArgs e)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

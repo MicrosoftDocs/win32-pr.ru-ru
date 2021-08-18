@@ -4,12 +4,12 @@ ms.assetid: 1c5e760a-11be-44ea-8b5b-3621f3747085
 title: System. GPS. Дестлатитудереф
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea393f0f638c25bff06cff8671e1dbf3f30c8698
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 726406f3733e49b9f8b4504d8cf9c5c8c3b9a45c99d0a34ac806424454f77510
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104156799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118727502"
 ---
 # <a name="systemgpsdestlatituderef"></a>System. GPS. Дестлатитудереф
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

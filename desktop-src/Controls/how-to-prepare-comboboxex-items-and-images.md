@@ -4,12 +4,12 @@ description: В этом разделе показано, как добавля�
 ms.assetid: 2603DFBE-9E7A-4B2F-BE33-418997D323B2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a7474b46e5227d91b1cc2b51462a43a0fb75d8b
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: e0ea0b6defc7e99bd98c3dac551346280f0650da9e58a948e77ccc98aec81cda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103891109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958703"
 ---
 # <a name="how-to-prepare-comboboxex-items-and-images"></a>Подготовка ComboBoxEx элементов и изображений
 
@@ -19,16 +19,16 @@ ms.locfileid: "103891109"
 
 Следующая определяемая приложением функция добавляет 15 элементов к существующему элементу управления ComboBoxEx.
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
@@ -201,7 +201,7 @@ BOOL WINAPI AddItems(HWND hwndCB)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -217,6 +217,6 @@ BOOL WINAPI AddItems(HWND hwndCB)
 [ComboBoxEx](comboboxex-control-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

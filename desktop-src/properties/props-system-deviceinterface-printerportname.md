@@ -4,12 +4,12 @@ ms.assetid: 3FC1E36D-A03F-44ef-AD49-EE2F51703DBB
 title: System. Девицеинтерфаце. Принтерпортнаме
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f94e7f39bf1ab16899b7c16553a8e6249169914
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a312d80a41e5de3f7771706a3e056c2b684a9eddaa2642e5f4524852841ba0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105683574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119098015"
 ---
 # <a name="systemdeviceinterfaceprinterportname"></a>System. Девицеинтерфаце. Принтерпортнаме
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

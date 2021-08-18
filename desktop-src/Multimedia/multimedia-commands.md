@@ -3,19 +3,19 @@ title: Команды мультимедиа
 description: Команды мультимедиа
 ms.assetid: b2f152b5-c730-4bcb-a4bf-5f9d771f4e0f
 keywords:
-- Мультимедиа Windows, команды
+- Windows мультимедиа, команды
 - мультимедиа, команды
 - Ссылка на мультимедиа, команды
 - справочные материалы по мультимедиа, команды
 - команды мультимедиа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58847bebc879a62c8482c7c79003b06d4497d105
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bbbac63cf52ad84b73c8922518ba83557687dc35bff58bc06d24be76315d57f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888083"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065254"
 ---
 # <a name="multimedia-commands"></a>Команды мультимедиа
 
@@ -68,16 +68,16 @@ ms.locfileid: "103888083"
 -   [MCI, \_ где](mci-where.md)
 -   [\_окно MCI](mci-window.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Ссылка на мультимедиа](multimedia-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

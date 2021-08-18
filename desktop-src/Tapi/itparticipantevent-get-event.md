@@ -4,16 +4,16 @@ ms.assetid: 6b5e6358-2ba6-48b5-8d55-bc896fbb9962
 title: 'Метод ИтпартиЦипантевент:: get_Event (Конфприв. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b6cbfcf709b1f9f3f49047504bf5d9e8c02b159
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2d45e8f6aab556eb1b6f5c6dc1b4b0cbadf9653e06fd77f4fb806b7ef89d7813
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118864705"
 ---
 # <a name="itparticipanteventget_event-method"></a>Метод события ИтпартиЦипантевент:: Get \_
 
-\[**получить \_ Событие** недоступно для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[**получить \_ событие** недоступно для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Метод **\_ события Get** получает дескриптор [**\_ события участника**](participant-event.md) типа произошедшего события.
 
@@ -62,7 +62,7 @@ HRESULT get_Event(
 | Требование | Значение |
 |-------------------------|---------------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 3,0 или более поздней версии<br/>                                                 |
-| Header<br/>       | <dl> <dt>Конфприв. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>Конфприв. h</dt> </dl> |
 | Библиотека<br/>      | <dl> <dt>UUID. lib</dt> </dl>   |
 | DLL<br/>          | <dl> <dt>Tapi3.dll</dt> </dl>  |
 

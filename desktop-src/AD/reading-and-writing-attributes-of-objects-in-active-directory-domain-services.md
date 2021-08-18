@@ -8,12 +8,12 @@ keywords:
 - объекты Active Directory, чтение и запись атрибутов объектов Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8da4e0c2b6da52458178fc50f4ce4e96d887b17d
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 9487f04d405012ac3fe89a621e0595e49dbeec689b174d5ca1be403e3a7ea289
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104487416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025342"
 ---
 # <a name="reading-and-writing-attributes-of-objects-in-active-directory-domain-services"></a>Чтение и запись атрибутов объектов в службах домен Active Directory Services
 
@@ -29,10 +29,10 @@ ms.locfileid: "104487416"
 
 
 
- 
+ 
 
 Дополнительные сведения об атрибутах см. [в разделе Определение типа атрибута](determining-an-attribute-type.md).
 
- 
+ 
 
- 
+ 

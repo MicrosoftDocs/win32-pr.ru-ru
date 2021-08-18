@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a8f84d987d57b1d825fac54e6a7de41b0154952e
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: d650c15a861cdf55af07fba6d47fb416d61a56d399b855efc461cddd2f628edf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103889815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027062"
 ---
 # <a name="wmmediaclassprimaryid"></a>WM/Медиакласспримарид
 
@@ -31,7 +31,7 @@ g \_ всзвммедиакласспримарид
 
 **\_GUID типа \_ ВМТ**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для этого атрибута следует задать одно из значений, приведенных в следующей таблице.
 
@@ -46,7 +46,7 @@ g \_ всзвммедиакласспримарид
 
 
 
- 
+ 
 
 При указании идентификатора первичного класса необходимо также задать идентификатор дополнительного класса, чтобы уточнить тип содержимого в файле.
 
@@ -60,9 +60,9 @@ g \_ всзвммедиакласспримарид
 [**WM/Медиакласссекондарид**](wm-mediasecondaryid.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

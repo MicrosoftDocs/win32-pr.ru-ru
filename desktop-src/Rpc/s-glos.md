@@ -5,12 +5,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: ba3c7959-2acd-4a38-b996-cfe7dac20241
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89ceb4c5d1b6aae6de71e813f09e45dc3765479e
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: d823b1f5dd630d3c1aefa66886b3479cbddc00446b2ea68bc560ffad47102e9c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104340060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118925961"
 ---
 # <a name="s-rpc"></a>S (RPC)
 
@@ -32,7 +32,7 @@ ms.locfileid: "104340060"
 
 </dd> <dt>
 
-<span id="_rpc_spx_glos"></span><span id="_RPC_SPX_GLOS"></span>**Последовательный обмен пакетами (SPX)**
+<span id="_rpc_spx_glos"></span><span id="_RPC_SPX_GLOS"></span>**виртуализированные Exchange пакетов (SPX)**
 </dt> <dd>
 
 Протокол связи Novell NetWare [*с ориентацией на подключения*](c-glos.md) для передачи информационных пакетов по локальным сетям и глобальным сетям.

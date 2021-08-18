@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d24549c5b002378558aa9cc63ca681b816e55b3d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 175ecdfb1181bb83a3b921e579fbeb3e94729b049f904adef79592d30b0065db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104536146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022172"
 ---
 # <a name="shadowflag-attribute"></a>атрибут Шадовфлаг
 
@@ -55,7 +55,7 @@ ms.locfileid: "104536146"
 | Идентификатор ссылки                | \-                                                  |
 | MAPI-Id                | \-                                                  |
 | System-Only            | Неверно                                               |
-| Является однозначным       | True                                                |
+| Является однозначным       | Верно                                                |
 | Индексируется             | Неверно                                               |
 | В глобальном каталоге      | Неверно                                               |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                        |
@@ -76,7 +76,7 @@ ms.locfileid: "104536146"
 | Идентификатор ссылки                | \-                                                  |
 | MAPI-Id                | \-                                                  |
 | System-Only            | Неверно                                               |
-| Является однозначным       | True                                                |
+| Является однозначным       | Верно                                                |
 | Индексируется             | Неверно                                               |
 | В глобальном каталоге      | Неверно                                               |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                        |
@@ -97,7 +97,7 @@ ms.locfileid: "104536146"
 | Идентификатор ссылки                | \-                                                  |
 | MAPI-Id                | \-                                                  |
 | System-Only            | Неверно                                               |
-| Является однозначным       | True                                                |
+| Является однозначным       | Верно                                                |
 | Индексируется             | Неверно                                               |
 | В глобальном каталоге      | Неверно                                               |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                        |
@@ -118,7 +118,7 @@ ms.locfileid: "104536146"
 | Идентификатор ссылки                | \-                                                  |
 | MAPI-Id                | \-                                                  |
 | System-Only            | Неверно                                               |
-| Является однозначным       | True                                                |
+| Является однозначным       | Верно                                                |
 | Индексируется             | Неверно                                               |
 | В глобальном каталоге      | Неверно                                               |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                        |

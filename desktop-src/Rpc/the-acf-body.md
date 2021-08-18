@@ -4,12 +4,12 @@ description: Текст ACF содержит атрибуты конфигура
 ms.assetid: 7d6344d3-1117-40b9-be95-a400b81339d7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b19422762c61dee63c4f502448197aefb432c80c
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 1446b4f0e14849832766bc512a95d0ae0aeb249cebd814314b617ffa1e1125e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104070769"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118924624"
 ---
 # <a name="the-acf-body"></a>Текст ACF
 
@@ -27,7 +27,7 @@ ACF указывает поведение на локальном компьют
 
 Атрибуты параметра ACF позволяют указать атрибуты, которые применяются к отдельным параметрам функции. Дополнительные сведения см. в разделе **\[** [**\_ число байтов**](/windows/desktop/Midl/byte-count) **\]** .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -70,6 +70,6 @@ ACF указывает поведение на локальном компьют
 [**определение**](/windows/desktop/Midl/typedef)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

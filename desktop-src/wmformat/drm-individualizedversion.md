@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 03ecde48ef3d68e30116cdd7fc8a77179f2282c4
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 85d7c9f64a7d4d00e95f8e877e7f33c9e6a8177977eff3b523c25cc1432ac57d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104336439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118704686"
 ---
 # <a name="drm_individualizedversion"></a>\_ИНДИВИДУАЛИЗЕДВЕРСИОН DRM
 
@@ -31,7 +31,7 @@ g \_ всзвмдрм \_ индивидуализедверсион
 
 **\_Строка типа \_ ВМТ**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут имеется только в содержимом DRM версии 7. Его можно задать с помощью [**ивмдрмвритер:: сетдрматтрибуте**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-setdrmattribute) , и его можно получить при помощи [**Ивмдрмреадер:: жетдрмпроперти**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty). Один и тот же атрибут файла можно получить с помощью [**\_ Дрмхеадер \_ индивидуализедверсион DRM**](drm-drmheader-individualizedversion.md).
 
@@ -42,9 +42,9 @@ g \_ всзвмдрм \_ индивидуализедверсион
 [**Список атрибутов**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

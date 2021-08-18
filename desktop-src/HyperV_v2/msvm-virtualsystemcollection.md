@@ -419,7 +419,7 @@ class Msvm_VirtualSystemCollection : CIM_CollectionOfMSEs
 
 </dd> </dl>
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 484dfea9-301d-4b2b-b5d1-d785ebaa8c8f
 title: Флаги типа защиты ОПМ (Опмапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cc8b30a18f5c7bf68fb01775751aa56e1e619f5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0ee61b17ee1708f8c2fc7e2f91b33d966b17f8fd2e198e2772c30ccccf837d04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119101893"
 ---
 # <a name="opm-protection-type-flags"></a>Флаги типа защиты ОПМ
 
@@ -29,7 +29,7 @@ ms.locfileid: "105711428"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эти флаги используются в следующих командах ОПМ и запросах о состоянии.
 
@@ -70,8 +70,8 @@ ms.locfileid: "105711428"
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                      |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                      |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Опмапи. h</dt> </dl> |
 
 

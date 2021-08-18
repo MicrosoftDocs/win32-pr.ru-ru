@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b87c8ba76928fbf0e465a8b6a3a0aaf4730759f1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e2f97f7edd1e719eb44ff1d41929d7cb3864d8117eabb383b4318688adfa537f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668990"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118955093"
 ---
 # <a name="cbasepropertypagehelp-method"></a>Кбасепропертипаже. Help, метод
 
@@ -53,7 +53,7 @@ HRESULT Help(
 
 Возвращает E \_ нотимпл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В базовом классе метод всегда возвращает E \_ нотимпл. При сбое метода кадр вызывает **ипропертипаже:: жетпажеинфо** , чтобы получить имя файла справки и идентификатор контекста. По умолчанию они имеют **значение NULL**. Чтобы обеспечить помощь, производный класс может переопределить либо метод, `Help` либо метод [**кбасепропертипаже:: жетпажеинфо**](cbasepropertypage-getpageinfo.md) .
 
@@ -63,7 +63,7 @@ HRESULT Help(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Кпроп. h (включение Streams. h)</dt> </dl>                                                                                     |
+| Заголовок<br/>  | <dl> <dt>кпроп. h (включает Потоки. h)</dt> </dl>                                                                                     |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

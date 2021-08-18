@@ -4,12 +4,12 @@ ms.assetid: 0c5ab3d0-ed04-43ac-992f-ecfee24889d2
 title: System. Финддата
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ec5c4ede4b4bd508a399632862995072b57545f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a91114617512f978c783e1b624ec9b38e245792b44d439fed0ab68f1a3c5dcf8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119096893"
 ---
 # <a name="systemfinddata"></a>System. Финддата
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

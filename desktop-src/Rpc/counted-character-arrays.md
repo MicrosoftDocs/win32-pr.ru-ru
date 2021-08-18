@@ -4,12 +4,12 @@ description: Атрибут \ size = \_ \ указывает верхнюю гр
 ms.assetid: bed10259-3034-4be8-91f5-5201c2e19c6b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 360652436a73b445aa2dbb013e0e05145154e20e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ea8abb7a391c617cadae5af396c4b4216dc9d14abf0f6d31ead3a6e075c7357b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104487985"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118931133"
 ---
 # <a name="counted-character-arrays"></a>Подсчет массивов символов
 
@@ -20,6 +20,6 @@ ms.locfileid: "104487985"
 -   [\[в, out и Size \_ — \] прототип](-in-out-size-is-prototype.md)
 -   [\[в, размер \_ и, размер \_ — \] прототип](-in-size-is-and-out-size-is-prototype.md)
 
- 
+ 
 
- 
+ 

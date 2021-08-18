@@ -4,12 +4,12 @@ ms.assetid: 7f51b3b9-d701-4e7a-80bd-87c1a60e56f7
 title: System. photo. Шуттерспид
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 172ce97bf87e79dd86f83e68c91940748bbc283f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5b14e5a919019e7e1f48bc8a65105c649f51745f1d33cda8518a0bfa501155ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080703"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970053"
 ---
 # <a name="systemphotoshutterspeed"></a>System. photo. Шуттерспид
 
@@ -46,13 +46,13 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
 Чтобы преобразовать это значение в время выдержки, см. спецификацию файла обмена изображениями (EXIF) 2,2 в приложении C. Используйте [System. photo. експосуретиме](./props-system-photo-exposuretime.md) в любых представлениях оболочки вместо [System. photo. шуттерспид]().
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

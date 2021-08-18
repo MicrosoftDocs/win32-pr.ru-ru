@@ -4,12 +4,12 @@ ms.assetid: ee85a6c3-3a1d-4f94-9112-cb8247b2a189
 title: Очереди таймера
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80ad2f94612c234b3ec0d1d75fa723c4e86e6fc0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d16e0ae30e02ad9fbc8889c0d7b1094895ebec27c3db8b67acf509ee02e9da85
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118885882"
 ---
 # <a name="timer-queues"></a>Очереди таймера
 
@@ -19,7 +19,7 @@ ms.locfileid: "105663412"
 
 Чтобы отменить ожидающий таймер, вызовите функцию [**DeleteTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueuetimer) . По завершении работы с очередью таймеров вызовите функцию [**делететимеркуеуикс**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueueex) , чтобы удалить очередь таймера. Все ожидающие таймеры в очереди отменяются и удаляются.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

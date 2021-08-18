@@ -4,12 +4,12 @@ ms.assetid: 3eba5a2f-eeac-4e38-8705-b12bc183b7eb
 title: Функции атрибутов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6413da0d43c142373e6f3cabe3d8e31636b82ef2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a353b5beb5b7da048edf8712c5d82545fd326a7d1720748705ae093aaa2cc44
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118903116"
 ---
 # <a name="attribute-functions"></a>Функции атрибутов
 
@@ -38,7 +38,7 @@ CertEnroll.dll реализует следующие интерфейсы для
 -   [ClientId](#clientid)
 -   [реневалцертификате](#renewalcertificate)
 -   [ресетаттрибутес](#resetattributes)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="addattributetorequestwstr"></a>аддаттрибутеторекуествстр
 
@@ -96,7 +96,7 @@ CertEnroll.dll реализует следующие интерфейсы для
 
 Чтобы удалить атрибут из запроса по индексу с помощью CertEnroll.dll, вызовите метод [**Remove**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributes-remove) в коллекции [**IX509Attributes**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributes) . Чтобы удалить все атрибуты из запроса, вызовите метод [**clear**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributes-clear) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

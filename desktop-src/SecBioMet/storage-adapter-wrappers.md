@@ -1,17 +1,17 @@
 ---
-title: Оболочки адаптеров хранилища
+title: служба хранилища Оболочки адаптеров
 description: Функции, которые можно использовать для вызова функций в адаптере хранилища. Эти функции определены в Винбио \_ Adapter. h.
 ms.assetid: 3e7ff098-b8f3-4745-aa75-712a392c6c78
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5dfdf562546e1520ee85c5a9a0164acdff53904
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6308dda71cd279ae07e0849c0760526f116de6295bb0555f530f31a0033a5851
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104411008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118911607"
 ---
-# <a name="storage-adapter-wrappers"></a>Оболочки адаптеров хранилища
+# <a name="storage-adapter-wrappers"></a>служба хранилища Оболочки адаптеров
 
 В Винбио Adapter. h определены следующие функции-оболочки \_ . Их можно использовать для вызова функций в адаптере хранилища.
 
@@ -49,11 +49,11 @@ ms.locfileid: "104411008"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Функции адаптера хранилища](storage-adapter-functions.md)
+[служба хранилища Функции адаптера](storage-adapter-functions.md)
 </dt> <dt>
 
 [Функции подключаемых модулей](plug-in-functions.md)

@@ -4,12 +4,12 @@ ms.assetid: 5ddff430-a6f8-473b-8006-ac0124469a99
 title: Таблица шрифтов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c10208c7b9a14ca7f311aff71653a53a3da9ed0c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 65efb786d4379bbe14fec0239cd8f3edee50f1b79a6413904b6e00331bc49a25
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118946985"
 ---
 # <a name="font-table"></a>Таблица шрифтов
 
@@ -21,8 +21,8 @@ ms.locfileid: "103998815"
 
 | Столбец    | Type                         | Ключ | Допускает значения NULL |
 |-----------|------------------------------|-----|----------|
-| Файл\_    | [Идентификатор](identifier.md) | Да   | Нет        |
-| фонттитле | [Text](text.md)             | Нет   | Да        |
+| File\_    | [Идентификатор](identifier.md) | Д   | Нет        |
+| фонттитле | [Text](text.md)             | Нет   | Д        |
 
 
 
@@ -46,7 +46,7 @@ ms.locfileid: "103998815"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта таблица упоминается при выполнении [действия регистерфонтс](registerfonts-action.md) или [унрегистерфонтс](unregisterfonts-action.md) .
 

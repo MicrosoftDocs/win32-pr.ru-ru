@@ -4,12 +4,12 @@ ms.assetid: 01e8749b-a040-4267-bc12-f58f2c300337
 title: Строковые типы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1173de3b2c4c5fd64181cd19c69cfbcecb1d584
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 53b9e190e10bc86bd68a344f5aa279b4812bc04437418578320c36e0e1791dfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118903693"
 ---
 # <a name="string-types"></a>Строковые типы
 
@@ -122,7 +122,7 @@ OtherName ::= SEQUENCE
 
 8-разрядный формат преобразования UCS/Юникода (UTF-8) представляет собой кодировку символов переменной длины, которая может представлять любой универсальный символ в виде символа Юникода, одновременно позволяя исходным точкам кода оставаться единообразными в кодировке ASCII. UTF-8 использует от одного до четырех байтов. Номер тега — 0x0C.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

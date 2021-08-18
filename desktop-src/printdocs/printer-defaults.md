@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: ad3f9b2a6647c620b2d947bca5ef5201076e23ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f1419948dddcd579e559ed084ce0af092cec373a7cd7f6d4b05d41f104f6666b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105673949"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118731692"
 ---
 # <a name="printer_defaults-structure"></a>\_Структура по умолчанию для принтера
 
@@ -78,7 +78,7 @@ typedef struct _PRINTER_DEFAULTS {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -86,7 +86,7 @@ typedef struct _PRINTER_DEFAULTS {
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Винспул. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>винспул. h (включает Windows. h)</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **\_ Printer \_ дефаултсв** (Юникод) и **\_ \_ дефаултса принтера** (ANSI)<br/>                         |
 
 

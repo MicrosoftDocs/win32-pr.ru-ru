@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 9bd5ef8ea4218890c025fdebc87154ca1224d33c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e5ace74e275ae63a62306d47d50924e9c4e9a9771027e75659ef72345f69906d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118792680"
 ---
 # <a name="defb---vs"></a>дефб — VS
 
@@ -29,14 +29,14 @@ ms.locfileid: "103987535"
 
 
 
- 
+ 
 
-где
+where
 
 -   DST — это регистр назначения.
 -   Булеанвалуе — это логическое значение, true или false.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -46,7 +46,7 @@ ms.locfileid: "103987535"
 
 
 
- 
+ 
 
 Инструкция дефб-VS определяет логическую константу шейдера, значение которой загружается каждый раз, когда шейдер задается устройством. Они называются прямыми константами. Немедленные константы имеют приоритет над константами, заданными методом API Сетвертексшадерконстантб.
 
@@ -56,7 +56,7 @@ ms.locfileid: "103987535"
 2.  Используйте методы API для задания константы.
     -   Чтобы задать логическую константу, используйте [**сетвертексшадерконстантб**](/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setvertexshaderconstantb) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -69,6 +69,6 @@ ms.locfileid: "103987535"
 [дефи — VS](defi---vs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
