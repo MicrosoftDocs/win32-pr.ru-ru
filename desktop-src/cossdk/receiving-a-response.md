@@ -4,12 +4,12 @@ ms.assetid: 48919608-a102-43e2-9ca0-80b17344b5eb
 title: Получение ответа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e9e05ec392b7db828ad1efd1360c4d4fb232210
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3423f54688fc3894f0d0876eb54cd6f57ffb2a5313c4c9e78b357dfc7676f33c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104539287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119381124"
 ---
 # <a name="receiving-a-response"></a>Получение ответа
 

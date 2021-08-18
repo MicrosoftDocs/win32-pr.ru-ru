@@ -4,12 +4,12 @@ ms.assetid: 3a4acc03-e47a-ff33-dee8-a374051f85f6
 title: Речь в XAudio2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b11300cea770f59485e8a78b0d30110b5469befe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b756033be5b64dbf03e3b3756902014774a53c9aebc8f41a1df1f982685cca16
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025942"
 ---
 # <a name="xaudio2-voices"></a>Речь в XAudio2
 
@@ -54,7 +54,7 @@ ms.locfileid: "105703029"
 -   Если вы создаете основной голос с явно указанным значением *инпутсамплерате* , которое не поддерживается звуковым устройством, для преобразования в ближайшую частоту выборки, поддерживаемую устройством, используется значение src с фиксированной ставкой.
 -   Обрезает окончательный выходной звук, если это требуется для выходного устройства.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

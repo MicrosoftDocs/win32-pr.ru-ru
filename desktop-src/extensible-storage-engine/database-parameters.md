@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8849096412fa77db107e3e866a20662bb2634665
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 13de02c7d322933f64361cfdabcb8f95ead837ad915ad69c3961a8b8874d5b9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155046"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119117564"
 ---
 # <a name="database-parameters"></a>Параметры базы данных
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="database-parameters"></a>Параметры базы данных
 
@@ -43,28 +43,28 @@ _**Применимо к:** Windows | Windows Server_
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Ошибка</p></th>
+<th><p>Error</p></th>
 <th><p>Описание</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>JET_errDatabase200Format</p></td>
-<td><p>База данных и/или файлы журнала транзакций были созданы ядром СУБД Windows NT 3,51.</p></td>
+<td><p>база данных и/или файлы журнала транзакций были созданы ядром субд в Windows NT 3,51.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errDatabase400Format</p></td>
-<td><p>База данных и (или) файлы журнала транзакций были созданы ядром СУБД в тестовом выпуске до Windows NT Server 4,0.</p></td>
+<td><p>файлы базы данных и (или) журнала транзакций были созданы ядром субд в тестовом выпуске до Windows NT Server 4,0.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errDatabase500Format</p></td>
-<td><p>База данных и (или) файлы журнала транзакций были созданы ядром СУБД Windows NT Server 4,0.</p></td>
+<td><p>файлы базы данных и (или) журнала транзакций были созданы ядром субд в Windows NT Server 4,0.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**Windows Vista:**  В Windows Vista и более поздних версиях этот параметр устарел и не влияет на работу ядра СУБД.
+**Windows Vista:**  для Windows Vista и более поздних версий этот параметр устарел и не влияет на работу ядра субд.
 
 <table>
 <colgroup>
@@ -74,7 +74,7 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p>Значение по умолчанию:</p></td>
-<td><p>True</p></td>
+<td><p>Верно</p></td>
 </tr>
 <tr class="even">
 <td><p>Тип:</p></td>
@@ -215,7 +215,7 @@ _**Применимо к:** Windows | Windows Server_
 <tr class="even">
 <td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
 <td><p>Нет</p>
-<p><strong>Windows Vista:</strong>  Для Windows Vista и более поздних версий: Да</p></td>
+<p><strong>Windows Vista:</strong>  для Windows Vista и более поздних версий: да</p></td>
 </tr>
 <tr class="odd">
 <td><p>Влияет на физический макет:</p></td>
@@ -275,7 +275,7 @@ _**Применимо к:** Windows | Windows Server_
 <tr class="even">
 <td><p>Область.</p></td>
 <td><p>Глобальный</p>
-<p><strong>Windows Vista:</strong>  Для Windows Vista и более поздних версий: экземпляр</p></td>
+<p><strong>Windows Vista:</strong>  для Windows Vista и более поздних версий: экземпляр</p></td>
 </tr>
 <tr class="odd">
 <td><p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p></td>
@@ -326,7 +326,7 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p>Значение по умолчанию:</p></td>
-<td><p>True</p></td>
+<td><p>Верно</p></td>
 </tr>
 <tr class="even">
 <td><p>Тип:</p></td>
@@ -347,7 +347,7 @@ _**Применимо к:** Windows | Windows Server_
 <tr class="even">
 <td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
 <td><p>Нет</p>
-<p><strong>Windows Vista:</strong>  Для Windows Vista и более поздних версий: Да</p></td>
+<p><strong>Windows Vista:</strong>  для Windows Vista и более поздних версий: да</p></td>
 </tr>
 <tr class="odd">
 <td><p>Влияет на физический макет:</p></td>
@@ -367,7 +367,7 @@ _**Применимо к:** Windows | Windows Server_
 </tr>
 <tr class="odd">
 <td><p>"Доступность":</p></td>
-<td><p>Windows Server 2003 и более поздние версии</p></td>
+<td><p>Windows Сервер 2003 и более поздние версии</p></td>
 </tr>
 </tbody>
 </table>
@@ -378,9 +378,9 @@ _**Применимо к:** Windows | Windows Server_
 
 Если этот параметр имеет значение true, то разрешается открывать только одну базу данных с помощью [жетопендатабасе](./jetopendatabase-function.md) в заданном сеансе одновременно. Временная база данных исключается из этого ограничения.
 
-**Windows XP и Windows Server 2003:**  Этот параметр доступен только для записи в Windows XP и Windows Server 2003.
+**Windows XP и Windows Server 2003:**  этот параметр доступен только для Windows XP и Windows Server 2003.
 
-**Windows Vista:**  Этот параметр обычно работает в Windows Vista.
+**Windows Vista:**  этот параметр обычно работает Windows Vista.
 
 **Примечание**  .  Этот параметр доступен только для записи.
 
@@ -409,7 +409,7 @@ _**Применимо к:** Windows | Windows Server_
 <tr class="odd">
 <td><p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p></td>
 <td><p>Нет</p>
-<p><strong>Windows Vista:</strong>  Для Windows Vista и более поздних версий: Да</p></td>
+<p><strong>Windows Vista:</strong>  для Windows Vista и более поздних версий: да</p></td>
 </tr>
 <tr class="even">
 <td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
@@ -433,7 +433,7 @@ _**Применимо к:** Windows | Windows Server_
 </tr>
 <tr class="odd">
 <td><p>"Доступность":</p></td>
-<td><p>Windows XP и более поздние версии</p></td>
+<td><p>Windows XP и более поздних версий</p></td>
 </tr>
 </tbody>
 </table>
@@ -446,7 +446,7 @@ _**Применимо к:** Windows | Windows Server_
 
 Windows 2000: в Windows 2000 этот параметр был простым логическим, который будет выполнять дефрагментацию в оперативном режиме при запуске [жетдефрагмент](./jetdefragment-function.md). Если задано **значение true**, оперативная дефрагментация будет выполняться для записей каждой таблицы в базе данных.
 
-**Windows XP:**  В Windows XP и более поздних версиях для этого параметра можно задать один или несколько следующих параметров:
+**Windows XP:**  в Windows XP и более поздних выпусках для этого параметра можно задать один или несколько следующих параметров:
 
 <table>
 <colgroup>
@@ -462,11 +462,11 @@ Windows 2000: в Windows 2000 этот параметр был простым л
 <tbody>
 <tr class="odd">
 <td><p>JET_OnlineDefragDisable</p></td>
-<td><p>Не выполнять оперативную дефрагментацию. Это двоичный эквивалент параметра Windows 2000, который имеет значение false для этого параметра.</p></td>
+<td><p>Не выполнять оперативную дефрагментацию. это двоичный эквивалент параметра Windows 2000, равного False, для этого параметра.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_OnlineDefragAllOBSOLETE</p></td>
-<td><p>Выполнить полную оперативную дефрагментацию. Это двоичное значение, эквивалентное значению параметра Windows 2000 true для этого параметра.</p></td>
+<td><p>Выполнить полную оперативную дефрагментацию. это двоичный эквивалент параметра Windows 2000, равного True, для этого параметра.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_OnlineDefragDatabases</p></td>
@@ -478,11 +478,11 @@ Windows 2000: в Windows 2000 этот параметр был простым л
 </tr>
 <tr class="odd">
 <td><p>JET_OnlineDefragStreamingFiles</p></td>
-<td><p>Этот параметр используется для поддержки инфраструктуры Microsoft Exchange и не предназначен для использования в приложении.</p></td>
+<td><p>этот параметр используется для поддержки инфраструктуры Microsoft Exchange и не предназначен для использования в приложении.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_OnlineDefragAll</p></td>
-<td><p>Выполнить полную оперативную дефрагментацию. Это концептуальный эквивалент параметра Windows 2000 true для этого параметра.</p></td>
+<td><p>Выполнить полную оперативную дефрагментацию. это концептуальный эквивалент параметра Windows 2000, равного True, для этого параметра.</p></td>
 </tr>
 </tbody>
 </table>
@@ -497,17 +497,17 @@ Windows 2000: в Windows 2000 этот параметр был простым л
 <tr class="odd">
 <td><p>Значение по умолчанию:</p></td>
 <td><p><strong>Windows 2000:</strong>  Условия</p>
-<p><strong>Windows XP: для Windows XP и более поздних версий:</strong> JET_OnlineDefragAll</p></td>
+<p><strong>Windows xp: для Windows XP и более поздних версий:</strong> JET_OnlineDefragAll</p></td>
 </tr>
 <tr class="even">
 <td><p>Тип:</p></td>
 <td><p><strong>Windows 2000:</strong>  Логическая</p>
-<p><strong>Windows XP и более поздние версии:</strong>  JET_GRBIT (целое число)</p></td>
+<p><strong>Windows XP и более поздних версий:</strong>  JET_GRBIT (целое число)</p></td>
 </tr>
 <tr class="odd">
 <td><p>Допустимый диапазон:</p></td>
 <td><p><strong>Windows 2000:</strong>  False, true</p>
-<p><strong>Windows XP и более поздние версии:</strong>  0 — JET_OnlineDefragAll</p></td>
+<p><strong>Windows XP и более поздних версий:</strong> 0 — JET_OnlineDefragAll</p></td>
 </tr>
 <tr class="even">
 <td><p>Область.</p></td>
@@ -607,7 +607,7 @@ Windows 2000: в Windows 2000 этот параметр был простым л
 *JET_paramRecordUpgradeDirtyLevel*  
 78
 
-Этот параметр определяет, как агрессивно диспетчер кэша страниц базы данных будет записывать страницу базы данных, преобразованную в формат "на месте". Эти преобразования формата происходят на лету, когда страницы загружаются из базы данных, созданной с помощью ядра СУБД Windows 2000, но используемой в Windows XP или более поздней версии ядра СУБД.
+Этот параметр определяет, как агрессивно диспетчер кэша страниц базы данных будет записывать страницу базы данных, преобразованную в формат "на месте". эти преобразования формата происходят на лету, когда страницы загружаются из базы данных, которая была создана с помощью ядра субд Windows 2000, но используется Windows XP или более поздней версии ядра субд.
 
 <table>
 <colgroup>
@@ -657,7 +657,7 @@ Windows 2000: в Windows 2000 этот параметр был простым л
 </tr>
 <tr class="odd">
 <td><p>"Доступность":</p></td>
-<td><p>Windows XP и более поздние версии</p></td>
+<td><p>Windows XP и более поздних версий</p></td>
 </tr>
 </tbody>
 </table>
@@ -909,11 +909,11 @@ Windows 2000: в Windows 2000 этот параметр был простым л
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
+<td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
+<td><p><strong>Сервер</strong></p></td>
+<td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>
@@ -923,7 +923,7 @@ Windows 2000: в Windows 2000 этот параметр был простым л
 </table>
 
 
-### <a name="see-also"></a>См. также:
+### <a name="see-also"></a>См. также
 
 [жетаттачдатабасе](./jetattachdatabase-function.md)  
 [жеткреатеинстанце](./jetcreateinstance-function.md)  

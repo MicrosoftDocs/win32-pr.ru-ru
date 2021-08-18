@@ -4,12 +4,12 @@ description: Поставщики моникеров
 ms.assetid: 4d4820d2-bf5f-4543-b318-59481dcc51de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fde584e12daddacbc940b23b21a0386aa37de2c7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b8fab6c5a84d7020b8bcb02979471cb2fbd76df7e66fc9909eec2121926827df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103775887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130106"
 ---
 # <a name="moniker-providers"></a>Поставщики моникеров
 
@@ -20,7 +20,7 @@ ms.locfileid: "103775887"
 
 Поставщик моникера должен создать моникер соответствующего *класса моникера* для обнаружения объекта. Класс моникера ссылается на определенную реализацию интерфейса [**IMoniker**](/windows/desktop/api/ObjIdl/nn-objidl-imoniker) , который определяет тип создаваемого моникера. Хотя можно реализовать **IMoniker** для создания нового класса моникера, часто это не требуется, так как OLE предоставляет реализации нескольких различных классов моникеров, каждый из которых имеет собственный идентификатор CLSID. Описания классов моникера, предоставляемых OLE, см. в статье [Реализация моникера OLE](ole-moniker-implementations.md) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -30,9 +30,9 @@ ms.locfileid: "103775887"
 [Реализации моникера OLE](ole-moniker-implementations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

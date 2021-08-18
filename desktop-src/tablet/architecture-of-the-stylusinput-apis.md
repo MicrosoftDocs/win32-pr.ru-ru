@@ -4,12 +4,12 @@ ms.assetid: 88bab0ab-df9f-4813-9a9f-9a137813f0b4
 title: Архитектура API-интерфейсов Стилусинпут
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eeda6a6a0269e8306aed6a6b6de4c1bbe33bc46f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 961d6e3e94d47054afb28948685fce5fe1cafe9cbb0fa2f36e5a2d8508f28b9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104156743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119093166"
 ---
 # <a name="architecture-of-the-stylusinput-apis"></a>Архитектура API-интерфейсов Стилусинпут
 
@@ -71,7 +71,7 @@ ms.locfileid: "104156743"
 
 Интерфейсы API Стилусинпут в основном находятся в пространствах имен [Microsoft. стилусинпут](/previous-versions/ms824750(v=msdn.10)) и [Microsoft. стилусинпут. плугиндата](/previous-versions/ms823992(v=msdn.10)) . Однако API-интерфейсы Стилусинпут также ссылаются на некоторые классы в пространстве имен [Microsoft. Ink](/previous-versions/ms826516(v=msdn.10)) , такие как класс [планшета](/previous-versions/ms827783(v=msdn.10)) , коллекция [Таблетпропертидескриптионколлектион](/previous-versions/ms827760(v=msdn.10)) и перечисления [ApplicationGesture](/previous-versions/ms827547(v=msdn.10)) и [системжестуре](/previous-versions/ms827134(v=msdn.10)) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

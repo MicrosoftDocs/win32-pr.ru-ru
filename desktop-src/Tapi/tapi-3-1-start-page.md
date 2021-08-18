@@ -4,12 +4,12 @@ ms.assetid: 79c4d2c9-953e-4e68-98b7-6a0dd9a04e0b
 title: Интерфейс программирования приложений телефонии, версия 3,1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31d302f6ffe67094d436caf94cc8cf109e1e3c9a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b529c8d566d2c99dc851f99886eb6a132d434a2c56027ba7abcd2e07b5f144b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139887"
 ---
 # <a name="telephony-application-programming-interface-version-31"></a>Интерфейс программирования приложений телефонии, версия 3,1
 
@@ -31,7 +31,7 @@ ms.locfileid: "105674108"
 
 ## <a name="developer-audience"></a>Аудитория разработчиков
 
-Приложения с поддержкой TAPI можно писать на многих языках, включая Java, Visual Basic и C/C++. Требуется знание COM. Опыт разработки с помощью телекоммуникаций или других приложений телефонии полезен, но не нужен.
+приложения с поддержкой TAPI можно писать на многих языках, включая Java, Visual Basic и C/C++. Требуется знание COM. Опыт разработки с помощью телекоммуникаций или других приложений телефонии полезен, но не нужен.
 
 ## <a name="run-time-requirements"></a>Требования к среде выполнения
 
@@ -47,7 +47,7 @@ TAPI версии 3,1 позволяет разрабатывать коммун
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

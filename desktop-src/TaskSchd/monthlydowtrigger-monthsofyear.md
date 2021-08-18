@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c345cd3de12d7dba3450f62bdb18bfdcee496b13
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 7f8dc9752cf241218a95a9816824bc6ccf560f47c3445df9e5f40406381de3b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103914596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119253824"
 ---
 # <a name="monthlydowtriggermonthsofyear-property"></a>Монслидовтригжер. Монссофеар, свойство
 
@@ -40,7 +40,7 @@ MonthlyDOWTrigger.MonthsOfYear As short
 
 Битовая маска, указывающая месяцы года, в течение которых выполняется задача.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В следующей таблице показано сопоставление побитовой маски, используемой этим свойством.
 
@@ -67,14 +67,14 @@ MonthlyDOWTrigger.MonthsOfYear As short
 
 При чтении или записи XML для задачи месяцы года месячного дня недели задаются элементом [**months**](taskschedulerschema-months-monthlydayofweekscheduletype-element.md) схемы планировщик задач.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                    |
 | Библиотека типов<br/>             | <dl> <dt>Тасксчд. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

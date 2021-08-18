@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c1a579ba5899cf4d3ac3f25ef5a40337f6291977
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 5735d0e2f13a150b730855bc1308cba6e9f2dac795f6c5fc09000e42a607bec9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104986756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986674"
 ---
 # <a name="ddx_fine-function"></a>\_функция DDX прекрасно
 
@@ -51,7 +51,7 @@ float ddx_fine(
 
 Частичная точность, производная от *value*.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Также доступны следующие перегруженные версии:
 
@@ -69,7 +69,7 @@ float4 ddx_fine(float4 value);
 
 | Модель шейдера                                                                | Поддерживается |
 |-----------------------------------------------------------------------------|-----------|
-| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | да       |
+| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | Да       |
 
 
 

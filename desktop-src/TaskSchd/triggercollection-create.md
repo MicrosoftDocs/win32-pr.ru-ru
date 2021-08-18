@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ad0f1c5dd8bef3d81a8e9b5859bc2bbd8c969bf3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a7cfc32ebff941af374d2c4bb64db8ffe064961c13840e50244f416bad477a8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119001972"
 ---
 # <a name="triggercollectioncreate-method"></a>Тригжерколлектион. Create, метод
 
@@ -74,7 +74,7 @@ TriggerCollection.Create( _
 
 Объект [**триггера**](trigger.md) , представляющий новый триггер.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Сведения о каждом типе триггера см. в разделе [типы триггеров](trigger-types.md).
 
@@ -84,8 +84,8 @@ TriggerCollection.Create( _
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                    |
 | Библиотека типов<br/>             | <dl> <dt>Тасксчд. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -98,7 +98,7 @@ TriggerCollection.Create( _
 [Планировщик заданий](task-scheduler-start-page.md)
 </dt> <dt>
 
-[**Необходимость**](trigger.md)
+[**Триггер**](trigger.md)
 </dt> </dl>
 
  

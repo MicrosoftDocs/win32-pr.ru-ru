@@ -3,8 +3,8 @@ title: Пример индивидуализации DRM
 description: Пример индивидуализации DRM
 ms.assetid: 665a5005-d435-4783-b48e-2d8400aa7638
 keywords:
-- Пакет SDK для Windows Media Format, индивидуальное управление цифровыми правами DRM
-- Пакет SDK для Windows Media Format, индивидуальное
+- Windows Пакет SDK для формата мультимедиа, индивидуальные средства DRM
+- Windows Пакет SDK для формата мультимедиа, индивидуальность
 - Управление цифровыми правами (DRM), индивидуальность
 - DRM (Управление цифровыми правами), индивидуальность
 - Управление цифровыми правами (DRM), Индивидуальная обработка DRM
@@ -13,12 +13,12 @@ keywords:
 - Расширенные API клиента, индивидуальность
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1252fe951e306f837f2df95245b3cfc81dac03c2
-ms.sourcegitcommit: cb844c9ab17577ce171fd7b03add668645867bc7
+ms.openlocfilehash: 4eeb13f44eaa5fe3a3d67560d6fa7bb1e39250842ba0707ef62969b91fb50d47
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "104412634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119086003"
 ---
 # <a name="drm-individualization-example"></a>Пример индивидуализации DRM
 
@@ -171,7 +171,7 @@ HRESULT Individualize(IWMDRMSecurity* pSecurity)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -181,9 +181,9 @@ HRESULT Individualize(IWMDRMSecurity* pSecurity)
 [**Использование модели событий Media Foundation**](using-the-media-foundation-model.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,9 +1,9 @@
 ---
 title: Player. versionInfo
-description: Свойство versionInfo извлекает строковое значение, указывающее версию проигрывателя Windows Media.
+description: свойство versionInfo извлекает строковое значение, указывающее версию проигрыватель Windows Media.
 ms.assetid: 4b644de2-fcb9-407b-9eea-3eb683a17150
 keywords:
-- Проигрыватель проигрывателя Windows Media Player. versionInfo
+- проигрыватель Windows Media Player. versionInfo
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b44a94fa2df6d5e7d46108ec971fd84481688eb6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2251d610ad8a522155e37c8d416123c9d09faef5da2b4af4da75aeb745940f0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704337"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995834"
 ---
 # <a name="playerversioninfo"></a>Player. versionInfo
 
-Свойство **versionInfo** извлекает строковое значение, указывающее версию проигрывателя Windows Media.
+свойство **versionInfo** извлекает строковое значение, указывающее версию проигрыватель Windows Media.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -35,7 +35,7 @@ ms.locfileid: "105704337"
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере создается HTML-элемент BUTTON, при щелчке которого отображается окно сообщения, содержащее сведения о версии проигрывателя Windows Media. Объект **Player** создан с идентификатором "Player".
+в следующем примере создается HTML-элемент BUTTON, который при нажатии отображает окно сообщения, содержащее сведения о версии для проигрыватель Windows Media. Объект **Player** создан с идентификатором "Player".
 
 
 ```
@@ -60,7 +60,7 @@ ms.locfileid: "105704337"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

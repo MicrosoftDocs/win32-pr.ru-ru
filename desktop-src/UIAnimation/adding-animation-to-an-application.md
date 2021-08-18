@@ -1,23 +1,23 @@
 ---
 title: Создание основных объектов анимации
-description: Чтобы использовать анимацию Windows в приложении, первым шагом является создание небольшого набора основных объектов анимации.
+description: чтобы использовать анимацию Windows в приложении, первым шагом является создание небольшого набора основных объектов анимации.
 ms.assetid: 4005819e-482c-4052-89f8-b8e457c0c3dc
 keywords:
-- Анимация объектов анимации Windows в объектах диспетчера анимации, создание
-- Анимация объектов таймера Windows, создание
-- Анимация объектов библиотек переходов Windows, создание
+- объекты диспетчера анимации Windows анимация, создание
+- объекты таймера анимации Windows анимация, создание
+- объекты библиотеки переходов Windows анимация, создание
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ccd1cab32e72bf1382469ada52abeecee47b6a1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b3023e5934581850bb6aa21e7d41d92642bb01fadfcf7531fcacabca74b411f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137407"
 ---
 # <a name="create-the-main-animation-objects"></a>Создание основных объектов анимации
 
-Чтобы использовать анимацию Windows в приложении, первым шагом является создание небольшого набора основных объектов анимации.
+чтобы использовать анимацию Windows в приложении, первым шагом является создание небольшого набора основных объектов анимации.
 
 ## <a name="overview"></a>Обзор
 
@@ -27,7 +27,7 @@ ms.locfileid: "104413432"
 
 ## <a name="example-code"></a>Пример кода
 
-Следующий пример кода взят из файла MainWindow. cpp в примерах анимации Windows. см. метод Кмаинвиндов:: Инитиализеаниматион.
+следующий пример кода взят из файла MainWindow. cpp в примерах анимации Windows; см. метод Кмаинвиндов:: Инитиализеаниматион.
 
 
 ```C++
@@ -101,7 +101,7 @@ private:
 
 После завершения этого шага следующий шаг: [Создание переменных анимации](create-animation-variables.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -117,9 +117,9 @@ private:
 [**иуианиматионтранситионлибрари**](/windows/desktop/api/UIAnimation/nn-uianimation-iuianimationtransitionlibrary)
 </dt> <dt>
 
-[Общие сведения о анимации Windows](scenic-animation-api-overview.md)
+[Windows Общие сведения об анимации](scenic-animation-api-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

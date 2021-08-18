@@ -3,22 +3,22 @@ title: О пользовательских обработчиках файлов
 description: О пользовательских обработчиках файлов и потоков
 ms.assetid: 6a00c8db-3ac6-4826-a373-52b6b7d1652f
 keywords:
-- Видео для Windows (VFW), пользовательские обработчики файлов
-- Видео для Windows (VFW), пользовательские обработчики потока
-- Видео для Windows (VFW), обработчики файлов
-- Видео для Windows (VFW), обработчики потоков
+- видео для Windows (VFW), пользовательских обработчиков файлов
+- видео для Windows (VFW), пользовательских обработчиков потока
+- видео для Windows (VFW), обработчики файлов
+- видео для Windows (VFW), обработчики потоков
 - VFW (видео для Windows), пользовательские обработчики файлов
-- VFW (видео для Windows), обработчики пользовательских потоков
+- VFW (видео для Windows), пользовательские обработчики потока
 - VFW (видео для Windows), обработчики файлов
 - VFW (видео для Windows), обработчики потоков
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94e1872aa8a2f5c55df0db43860e318c792801e8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 719c5312c5ba1e783e0cd4cdb81565f66241e4662772ca441283571f0335fb31
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103889152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119145165"
 ---
 # <a name="about-custom-file-and-stream-handlers"></a>О пользовательских обработчиках файлов и потоков
 
@@ -29,11 +29,11 @@ ms.locfileid: "103889152"
 > [!Note]  
 > Пользовательские обработчики потоков и файлов необходимо размещать в одной или нескольких библиотеках DLL, отделенных от основных файлов приложения.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

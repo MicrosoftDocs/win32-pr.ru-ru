@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: ad70e0609e8793da314382a5732bc90b11348e33
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c42d8469ac71b2799c9a171eaa482291a14ed010caf067b09664e5631dd28b00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104539398"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119079908"
 ---
 # <a name="setpowerstate-method-of-the-cim_pcvideocontroller-class"></a>Метод SetPowerState \_ класса CIM пквидеоконтроллер
 
@@ -106,7 +106,7 @@ uint32 SetPowerState(
 
 Возвращает 0 (нуль) в случае успеха, 1 (один), если *указанный запрос* о сбое и *время* не поддерживаются, и другое значение, если произошла какая-либо другая ошибка.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В настоящее время этот метод не реализован инструментарием WMI. Чтобы использовать этот метод, его необходимо реализовать в собственном поставщике. Классы WMI, производные от [**CIM \_ пквидеоконтроллер**](cim-pcvideocontroller.md), см. в разделе [Классы Win32](win32-provider.md).
 

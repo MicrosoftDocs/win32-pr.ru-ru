@@ -1,19 +1,19 @@
 ---
-description: В этом разделе содержатся общие сведения и инструкции, описывающие кодировщики Windows Imaging Component (WIC), которые используются для кодирования цифровых изображений.
+description: в этом разделе приводятся общие сведения и практические руководства, в которых описываются кодировщики Windows изображений (WIC), используемые для кодирования цифровых изображений.
 ms.assetid: 2B44570E-CB55-4898-9C77-B043493F8CAE
 title: Кодирование данных изображения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a02d20fc6e68da2f1240e0f2f84506bc28cc6b7a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bd670afe87fce4507a24bdfa271a7e57354b0331723294b37aed170d9848fbf9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712299"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119086847"
 ---
 # <a name="encoding-image-data"></a>Кодирование данных изображения
 
-В этом разделе содержатся общие сведения и инструкции, описывающие кодировщики Windows Imaging Component (WIC), которые используются для кодирования цифровых изображений.
+в этом разделе приводятся общие сведения и практические руководства, в которых описываются кодировщики Windows изображений (WIC), используемые для кодирования цифровых изображений.
 
 ## <a name="in-this-section"></a>В этом разделе
 

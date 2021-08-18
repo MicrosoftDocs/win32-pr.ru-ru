@@ -1,5 +1,5 @@
 ---
-description: Представляет службу виртуального устройства платформы Microsoft Windows Hyper-V.
+description: представляет службу виртуального устройства платформы Hyper-V Microsoft Windows.
 ms.assetid: 865D83E1-0FC6-4F96-94BB-AA5116890127
 title: Класс Msvm_VirtualSystemResourceComponent
 ms.topic: reference
@@ -21,16 +21,16 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 81c2d31a6497325ac77003ded266333518de890a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0758858e9e45066cdfaddf36616c7861bbae914b12e3698665f8650c6c57d67c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119340174"
 ---
 # <a name="msvm_virtualsystemresourcecomponent-class"></a>\_Класс мсвм виртуалсистемресаурцекомпонент
 
-Представляет службу виртуального устройства платформы Microsoft Windows Hyper-V.
+представляет службу виртуального устройства платформы Hyper-V Microsoft Windows.
 
 Следующий синтаксис является упрощенным MOF-файлным (MOF) кодом и включает все наследуемые свойства.
 
@@ -56,7 +56,7 @@ class Msvm_VirtualSystemResourceComponent : Msvm_VirtualizationComponent
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ виртуалсистемресаурцекомпонент** имеет следующие свойства.
 
@@ -101,7 +101,7 @@ class Msvm_VirtualSystemResourceComponent : Msvm_VirtualizationComponent
 
 </dd> <dt>
 
-**Enabled**
+**Включен**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **логический**
@@ -140,7 +140,7 @@ class Msvm_VirtualSystemResourceComponent : Msvm_VirtualizationComponent
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -182,7 +182,7 @@ class Msvm_VirtualSystemResourceComponent : Msvm_VirtualizationComponent
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Доступ к классу **\_ виртуалсистемресаурцекомпонент мсвм** может быть ограничен фильтром контроля учетных записей. Дополнительные сведения см. в разделе [Управление учетными записями пользователей и инструментарий WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -192,9 +192,9 @@ class Msvm_VirtualSystemResourceComponent : Msvm_VirtualizationComponent
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
-| Окончание поддержки клиента<br/>    | Windows 8.1<br/>                                                                                  |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
+| Окончание поддержки клиента<br/>    | Windows 8.1<br/>                                                                                  |
 | Поддержка конца сервера<br/>    | Windows Server 2012 R2<br/>                                                                       |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |

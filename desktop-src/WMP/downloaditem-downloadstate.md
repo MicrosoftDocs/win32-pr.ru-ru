@@ -3,7 +3,7 @@ title: Довнлоадитем. Довнлоадстате
 description: Обратите внимание, что в этом разделе описываются функции, предназначенные для использования Интернет-магазинами. Использование этой функции вне контекста Интернет-магазина не поддерживается. Свойство Довнлоадстате Извлекает состояние загрузки.
 ms.assetid: dde27f43-40ee-4eb9-b316-42312ee937d0
 keywords:
-- Проигрыватель Windows Media Довнлоадитем. Довнлоадстате
+- довнлоадитем. довнлоадстате проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fbd2af2fab2ecb69df5b4695b227631b5be2dd96
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a3f2f1d7338370aaa5132c479d155ffbfc4282a686d082df37446be053efab3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997054"
 ---
 # <a name="downloaditemdownloadstate"></a>Довнлоадитем. Довнлоадстате
 
@@ -59,7 +59,7 @@ DownloadManager.getDownloadCollection(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Состояния загрузки могут происходить в любом порядке. Не следует писать код, который зависит от вхождения любого определенного состояния загрузки.
 
@@ -69,7 +69,7 @@ DownloadManager.getDownloadCollection(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                  |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                  |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

@@ -4,16 +4,16 @@ ms.assetid: 56607024-255d-4d1b-9ca0-6086eff7b7b2
 title: Интерфейс Итаудиосеттингс (Ипмсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eaf2566c7438dbcd14cdacee46cc4d5ec4166731
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 85ce0c7a92e34583947be983ed4d28391eb70c02697313aedee21a7158c9c3b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140387"
 ---
 # <a name="itaudiosettings-interface"></a>Интерфейс Итаудиосеттингс
 
-\[ Этот интерфейс недоступен для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[этот интерфейс недоступен для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Интерфейс **итаудиосеттингс** предоставляет методы, позволяющие приложению получать и задавать параметры для управления звуковым устройством.
 
@@ -48,7 +48,7 @@ ms.locfileid: "105689206"
 | Требование | Значение |
 |-------------------------|--------------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 3,1<br/>                                                         |
-| Header<br/>       | <dl> <dt>Ипмсп. h</dt> </dl>   |
+| Заголовок<br/>       | <dl> <dt>Ипмсп. h</dt> </dl>   |
 | Библиотека<br/>      | <dl> <dt>UUID. lib</dt> </dl>  |
 | DLL<br/>          | <dl> <dt>Tapi3.dll</dt> </dl> |
 

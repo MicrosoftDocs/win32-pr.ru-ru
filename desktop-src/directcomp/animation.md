@@ -4,17 +4,17 @@ description: В этом разделе обсуждаются основы ан
 ms.assetid: 65DA3971-97C0-4B59-BC67-287AAEAAE340
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f7462a10fd83b45c1b90450fdde806ef306a2f6
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 75b1f021d5a11fac70f47d5fe87f9389d2ad3e3108d224835fb295a8c3216354
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "105681726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119144"
 ---
 # <a name="animation-directcomposition"></a>Анимация (DirectComposition)
 
 > [!NOTE]
-> Для приложений в Windows 10 рекомендуется использовать интерфейсы API Windows. UI. компоновки вместо DirectComposition. Дополнительные сведения см. в разделе [модернизировать The классическое приложение с использованием визуального слоя](/windows/uwp/composition/visual-layer-in-desktop-apps).
+> для приложений на Windows 10 рекомендуется использовать интерфейсы api Windows. UI. компоновки вместо DirectComposition. Дополнительные сведения см. в разделе [модернизировать The классическое приложение с использованием визуального слоя](/windows/uwp/composition/visual-layer-in-desktop-apps).
 
 В этом разделе обсуждаются основы анимации Microsoft DirectComposition. Занятие содержит следующие разделы:
 
@@ -26,8 +26,8 @@ ms.locfileid: "105681726"
     -   [Сегмент синусоидальной](#sinusoidal-segment)
     -   [Повторить сегмент](#repeat-segment)
     -   [Конечный сегмент](#end-segment)
--   [Совместимость с диспетчером анимации Windows](#compatibility-with-windows-animation-manager)
--   [См. также](#related-topics)
+-   [совместимость с диспетчером анимации Windows](#compatibility-with-windows-animation-manager)
+-   [Связанные темы](#related-topics)
 
 ## <a name="what-is-an-animation"></a>Что такое анимация?
 
@@ -113,13 +113,13 @@ DirectComposition анимирует свойство объекта на осн
 
 После добавления конечного сегмента к функции анимации нельзя добавить другие сегменты. Это значит, что все вызовы методов для объекта анимации завершаются ошибкой, за исключением [**идкомпоситионаниматион:: Reset**](/windows/desktop/api/DcompAnimation/nf-dcompanimation-idcompositionanimation-reset). Вызов **Reset** возвращает объект анимации, чтобы очистить состояние, в котором функция анимации не содержит сегментов, после чего можно снова добавить сегменты.
 
-## <a name="compatibility-with-windows-animation-manager"></a>Совместимость с диспетчером анимации Windows
+## <a name="compatibility-with-windows-animation-manager"></a>совместимость с диспетчером анимации Windows
 
-Диспетчер анимации Windows (Windows Animation) выводит примитивы анимации в формате, совместимом с API DirectComposition. Это означает, что DirectComposition может создавать анимации на основе примитивов анимации, созданных анимацией Windows.
+Windows диспетчер анимации (Windowsная анимация) выводит примитивы анимации в формате, совместимом с API DirectComposition. это означает, что DirectComposition может создавать анимации на основе примитивов анимации, созданных Windows анимацией.
 
-Дополнительные сведения см. в статьях [диспетчер анимации Windows](/windows/desktop/UIAnimation/-main-portal), метод [**IUIAnimationVariable2:: скачок**](/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable2-getcurve) и [Управление анимацией DirectComposition с помощью диспетчера анимации Windows версии 2](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/DirectCompositionWindowsAnimationManager).
+дополнительные сведения см. в разделе [Windows animation Manager](/windows/desktop/UIAnimation/-main-portal), метод [**IUIAnimationVariable2:: скачок**](/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable2-getcurve) и [управление анимацией DirectComposition с помощью Windows animation Manager версии 2](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/DirectCompositionWindowsAnimationManager).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

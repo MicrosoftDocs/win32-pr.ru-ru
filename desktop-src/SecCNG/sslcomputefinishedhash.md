@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ncrypt.dll
-ms.openlocfilehash: 365f3c849b0a499d2bd875c8d234bbda1911eb71
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e0f23a58111bfcebbe668cd3b6c50a135da0dae240907f09a65d60ef1cebdda8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118907145"
 ---
 # <a name="sslcomputefinishedhash-function"></a>Функция Сслкомпутефинишедхаш
 
@@ -113,7 +113,7 @@ SECURITY_STATUS WINAPI SslComputeFinishedHash(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **сслкомпутефинишедхаш** является одной из трех функций, используемых для создания хэша, используемого во время подтверждения SSL.
 
@@ -125,14 +125,14 @@ SECURITY_STATUS WINAPI SslComputeFinishedHash(
 
 Значение *кбаутпут* определяет длину хэш-данных. Если используется [*протокол tls*](/windows/desktop/SecGloss/t-gly) 1,0, это значение всегда должно быть равно 12 (байт). Дополнительные сведения см. в описании [протокола TLS версии 1,0](https://www.ietf.org/rfc/rfc2246.txt).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                     |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Сслпровидер. h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 

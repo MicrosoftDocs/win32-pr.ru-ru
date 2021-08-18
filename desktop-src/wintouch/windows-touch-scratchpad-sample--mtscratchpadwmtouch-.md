@@ -1,24 +1,24 @@
 ---
-title: Пример с сенсорным блокнотом Windows (C++)
-description: В примере с сенсорным вводом в Windows показано, как использовать сообщения касания Windows для рисования трассировок точек касания в окне.
+title: Windows Пример сенсорного блокнота (C++)
+description: в Windows образце сенсорного блокнота показано, как использовать Windows сенсорные сообщения для рисования трассировок точек касания в окне.
 ms.assetid: 6c4b4595-1e95-499c-b045-b5ae01aa5a6e
 keywords:
-- Windows Touch, примеры кода
-- Windows Touch, пример кода
-- Касание Windows, образцы для ввода пометок
+- Windows Сенсорный ввод, примеры кода
+- Windows Сенсорный ввод, пример кода
+- Windows Сенсорный ввод, образцы для ввода пометок
 - Образцы для ввода пометок
 ms.topic: article
 ms.date: 02/18/2020
-ms.openlocfilehash: afdd39e886d97671942b4ff67a74c0da75924fbb
-ms.sourcegitcommit: 3d718d8f69d3f86eaecf94c5705d761c5a9ef4a1
+ms.openlocfilehash: 7f3be8c120a935bc1a8d65dfdd8c7ab9894e0360d3415e8c645e5b3afae87012
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104070822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119086258"
 ---
-# <a name="windows-touch-scratchpad-sample-c"></a>Пример с сенсорным блокнотом Windows (C++)
+# <a name="windows-touch-scratchpad-sample-c"></a>Windows Пример сенсорного блокнота (C++)
 
-В [примере с сенсорным вводом в Windows](https://github.com/MicrosoftDocs/win32-pr/blob/master/desktop-src/wintouch/windows-touch-scratchpad-sample--mtscratchpadwmtouch-.md) показано, как использовать сообщения касания Windows для рисования трассировок точек касания в окне. Трассировка основного пальца, который был размещен на дигитайзере, сначала рисуется черным цветом. Дополнительные пальцы рисуются шестью цветами: красный, зеленый, синий, голубой, пурпурный и желтый. На следующем рисунке показано, как приложение может выглядеть при выполнении.
+в [Windows образце сенсорного блокнота](https://github.com/MicrosoftDocs/win32-pr/blob/master/desktop-src/wintouch/windows-touch-scratchpad-sample--mtscratchpadwmtouch-.md) показано, как использовать Windows сенсорные сообщения для рисования трассировок точек касания в окне. Трассировка основного пальца, который был размещен на дигитайзере, сначала рисуется черным цветом. Дополнительные пальцы рисуются шестью цветами: красный, зеленый, синий, голубой, пурпурный и желтый. На следующем рисунке показано, как приложение может выглядеть при выполнении.
 
 ![снимок экрана с сенсорным блокнотом Windows с красной и черной волнистой линией на экране](images/mtscratchpadwmtouch.png)
 
@@ -109,6 +109,6 @@ void CStroke::Draw(HDC hDC) const
 }
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
-[Пример сенсорного ввода Windows (C#)](windows-touch-scratchpad-sample-in-c---mtscratchpadwmtouchcs-.md), многофункциональное [многосенсорное приложение (WM_TOUCH/c #)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/CS), [многосенсорный Блокнот (WM_TOUCH/C + +)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/cpp), [примеры Windows Touch](windows-touch-samples.md)
+[Windows сенсорного блокнота (C#)](windows-touch-scratchpad-sample-in-c---mtscratchpadwmtouchcs-.md), многофункциональное [многосенсорное приложение (WM_TOUCH/c #)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/CS), [многосенсорный блокнот (WM_TOUCH/c + +)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/cpp), [Windows примеры сенсорного ввода](windows-touch-samples.md)

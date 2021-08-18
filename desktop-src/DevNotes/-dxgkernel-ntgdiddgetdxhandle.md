@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: f1b304216c518765be73d9f3a3e63d39ec4b37fb
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 13234c7ebe350f096164f0a5de0bde7a60e819e80899aa87258a76727855b869
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119331924"
 ---
 # <a name="ntgdiddgetdxhandle-function"></a>Функция Нтгдидджетдксхандле
 
@@ -71,7 +71,7 @@ DWORD APIENTRY NtGdiDdGetDxHandle(
 
 Обработчик DirectX API, используемый в последующих точках входа ядра, ориентированных на API DirectX.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если указаны оба *хдиректдрав* и *хсурфаце* , *хсурфаце* игнорируется.
 

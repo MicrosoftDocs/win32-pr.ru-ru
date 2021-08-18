@@ -4,12 +4,12 @@ ms.assetid: 844e5a01-96db-4a69-9704-f0fdbfee3957
 title: Принудительная вставка ключевых кадров (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d053f97c7aff08f61fa56d07db0a28b20c797d02
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9790a40c7fc6d2248377003005bbff7ad56b54208e1d20814d5c8150223198ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104496809"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119466144"
 ---
 # <a name="forced-key-frame-insertion-microsoft-media-foundation"></a>Принудительная вставка ключевых кадров (Microsoft Media Foundation)
 
@@ -21,7 +21,7 @@ ms.locfileid: "104496809"
 
 Данные расширения для вставки принудительных ключевых кадров определяются следующим значением GUID: **F72A3C6F-6EB4-4EBC-B192-09AD9759E828**. Отдельные расширения являются значениями типа **bool** . Установите значение **true** , чтобы указать запрос опорного кадра.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

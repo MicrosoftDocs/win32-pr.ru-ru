@@ -59,12 +59,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bca421e9ecf78ad4a62ba3c28bb20783240d28a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 46f73f5fb8f76a6c9167832f1df6f50dfd91ae03994e3b02945e771e2258b9fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119431344"
 ---
 # <a name="direct2d-error-codes"></a>Коды ошибок Direct2D
 
@@ -83,7 +83,7 @@ ms.locfileid: "105672647"
 | <span id="D2DERR_EFFECT_IS_NOT_REGISTERED"></span><span id="d2derr_effect_is_not_registered"></span><dl> <dt>**D2DERR \_ Результат \_ \_ не \_ зарегистрирован**</dt> <dt>0x88990028L</dt> </dl>                                                | Идентификатор класса указанного действия не зарегистрирован операционной системой.<br/>                                                                                                                                                                                                                                                                                                             |
 | <span id="D2DERR_EXCEEDS_MAX_BITMAP_SIZE"></span><span id="d2derr_exceeds_max_bitmap_size"></span><dl> <dt>**D2DERR \_ ПРЕВЫШАЕТ \_ максимальный \_ \_ размер битовой карты**</dt> <dt>0x8899001D</dt> </dl>                                                    | Запрошенный размер больше, чем гарантированно поддерживаемый размер текстуры.<br/>                                                                                                                                                                                                                                                                                                                    |
 | <span id="D2DERR_INCOMPATIBLE_BRUSH_TYPES"></span><span id="d2derr_incompatible_brush_types"></span><dl> <dt>**D2DERR \_ НЕСОВМЕСТИМые \_ \_ типы Brush**</dt> <dt>0x88990018</dt> </dl>                                                  | Типы кисти несовместимы с вызовом.<br/>                                                                                                                                                                                                                                                                                                                                              |
-| <span id="D2DERR_INSUFFICIENT_BUFFER"></span><span id="d2derr_insufficient_buffer"></span><dl> <dt>**D2DERR \_ Нехватка \_ буфера**</dt> <dt>Ошибка буфера \_ недостаточно \_ (ошибка Windows)</dt> </dl>                                 | Указанный буфер слишком мал для размещения данных.<br/>                                                                                                                                                                                                                                                                                                                                   |
+| <span id="D2DERR_INSUFFICIENT_BUFFER"></span><span id="d2derr_insufficient_buffer"></span><dl> <dt>**D2DERR \_ недостаточная ошибка \_ буфера**</dt> <dt> \_ \_ : недостаточно буфера (ошибка Windows)</dt> </dl>                                 | Указанный буфер слишком мал для размещения данных.<br/>                                                                                                                                                                                                                                                                                                                                   |
 | <span id="D2DERR_INSUFFICIENT_DEVICE_CAPABILITIES"></span><span id="d2derr_insufficient_device_capabilities"></span><dl> <dt>**D2DERR \_ Недостаточные \_ \_ возможности устройства**</dt> <dt>0x88990026L</dt> </dl>                         | У [**устройства Direct3D**](/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11device1) недостаточно возможностей для выполнения запрошенного действия.<br/>                                                                                                                                                                                                                                                                   |
 | <span id="D2DERR_INTERMEDIATE_TOO_LARGE"></span><span id="d2derr_intermediate_too_large"></span><dl> <dt>**D2DERR \_ ПРОМЕЖУТОЧный \_ слишком \_ большой**</dt> <dt>0x88990027L</dt> </dl>                                                       | Невозможно отобразить граф с текущими параметрами мозаичного заполнения контекста.<br/>                                                                                                                                                                                                                                                                                                                      |
 | <span id="D2DERR_INTERNAL_ERROR"></span><span id="d2derr_internal_error"></span><dl> <dt>**D2DERR \_ Внутренняя \_ Ошибка**</dt> <dt>0x88990008</dt> </dl>                                                                                 | Приложение должно закрыть этот экземпляр Direct2D и перезапустить его как новый процесс.<br/>                                                                                                                                                                                                                                                                                                     |
@@ -131,9 +131,9 @@ ms.locfileid: "105672647"
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 7, Windows Vista с пакетом обновления 2 (SP2) и обновлением платформы \[ только для настольных приложений Windows Vista\]<br/>                                                               |
-| Минимальная версия сервера<br/> | Windows Server 2008 R2, Windows Server 2008 с пакетом обновления 2 (SP2) и обновление платформы для Windows Server 2008 \[ только классические приложения\]<br/>                                      |
+| Минимальная версия сервера<br/> | Windows server 2008 R2, Windows server 2008 с пакетом обновления 2 (SP2) и обновлением платформы для Windows Server 2008 \[ только классические приложения\]<br/>                                      |
 | Минимальный поддерживаемый телефон<br/>  | Windows Phone 8,1 \[ Windows Phone Silverlight 8,1 и среда выполнения Windows приложения\]<br/>                                                                                |
-| Header<br/>                   | <dl> <dt>Winerror. h; </dt> <dt>D2derr. h (включение D2d1. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winerror. h; </dt> <dt>D2derr. h (включение D2d1. h)</dt> </dl> |
 
 
 

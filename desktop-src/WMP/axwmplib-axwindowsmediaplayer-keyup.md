@@ -3,7 +3,7 @@ title: Событие KeyUp объекта Аксвиндовсмедиапла�
 description: Событие KeyUp возникает при отпускании клавиши. | Событие KeyUp объекта Аксвиндовсмедиаплайер
 ms.assetid: db814481-6099-4dbd-8ab1-808e1875ae35
 keywords:
-- Событие KeyUp объекта Аксвиндовсмедиаплайер проигрыватель Windows Media
+- событие KeyUp объекта аксвиндовсмедиаплайер проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 509f520ff7624b0b29302d7bf5cd825cd45b4254
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6c3a2666268e2c12e74c6498446ff49bde69dd30cf9819a7899e88a8b8ee4466
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119136017"
 ---
 # <a name="keyup-event-of-the-axwindowsmediaplayer-object"></a>Событие KeyUp объекта Аксвиндовсмедиаплайер
 
@@ -60,7 +60,7 @@ Private Sub player_KeyUpEvent(
 
 | Требование | Значение |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                          |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                          |
 | Пространство имен<br/> | **аксвмплиб**<br/>                                                                                                    |
 | Сборка<br/>  | <dl> <dt>AxInterop.WMPLib.dll (AxInterop.WMPLib.dll.dll)</dt> </dl> |
 

@@ -4,12 +4,12 @@ description: В этом разделе содержатся примеры ко
 ms.assetid: 36651fe8-c0f0-4f2b-93d0-8168ccfb1af7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40513b4f47d2df2110a7a9aa2a6a00d0dcf0be69
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 265bb6cec937f1f4f7b040bfb1f726545fbf78f2787717415a3b073aa581920e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105710129"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133287"
 ---
 # <a name="how-to-topics-for-ui-automation-clients"></a>How-To статьи о клиентах автоматизации пользовательского интерфейса
 
@@ -24,16 +24,16 @@ ms.locfileid: "105710129"
 -   [Получение виртуализированного элемента](uiauto-howto-retrieve-virtualized-item.md)
 -   [Запрос виртуализированного элемента в представлении "элементы"](uiauto-howto-query-a-virtualized-item-in-itemsview.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Руководством программиста клиента автоматизации пользовательского интерфейса](uiauto-clientportal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -22,7 +22,7 @@
           href: creating-an-engine-adapter.md
         - name: Создание адаптера датчика
           href: creating-a-sensor-adapter.md
-        - name: Создание адаптера хранилища
+        - name: создание служба хранилища адаптера
           href: creating-a-storage-adapter.md
     - name: Создание частного пула датчиков
       href: creating-a-private-sensor-pool.md
@@ -46,7 +46,7 @@
           href: private-pool-helper-functions.md
         - name: Создание клиентских приложений
           href: creating-client-applications.md
-    - name: Справочник по биометрическая платформа Windows API
+    - name: Windows Справочник по API биометрической платформы
       href: biometric-service-api-reference.md
       items:
         - name: Справочник по клиентскому приложению
@@ -458,7 +458,7 @@
                       href: /windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_start_capture_fn
                     - name: вбиокуерисенсоринтерфаце
                       href: /windows/desktop/api/Winbio_adapter/nf-winbio_adapter-wbioquerysensorinterface
-                - name: Функции адаптера хранилища
+                - name: служба хранилища Функции адаптера
                   href: storage-adapter-functions.md
                   items:
                     - name: сторажеадаптерактивате
@@ -539,5 +539,5 @@
                   href: engine-adapter-wrappers.md
                 - name: Оболочки адаптера датчика
                   href: sensor-adapter-wrappers.md
-                - name: Оболочки адаптеров хранилища
+                - name: служба хранилища Оболочки адаптеров
                   href: storage-adapter-wrappers.md

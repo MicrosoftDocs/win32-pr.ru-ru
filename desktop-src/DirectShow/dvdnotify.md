@@ -4,17 +4,17 @@ ms.assetid: 8e7d85fb-95c0-472d-ab17-a82da303b68f
 title: Двднотифи (сегмент. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b31a2974bec428cb8ffe290edc9a384445e42070
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 988deaf53fb2b50555b4cf19a38684610aa0822a270dfba079defab92ce8aec0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119148707"
 ---
 # <a name="dvdnotify"></a>двднотифи
 
 > [!Note]  
-> Этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
+> этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
 
  
 
@@ -49,7 +49,7 @@ DVDNotify(EventCode, Param1, Param2)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 [Коды уведомлений о событиях DVD](dvd-notification-codes.md) предоставляют полное описание всех кодов уведомлений о событиях DVD и их параметров.
 
@@ -59,7 +59,7 @@ DVDNotify(EventCode, Param1, Param2)
 
 | Требование | Значение |
 |-------------------|--------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Сегмент. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Сегмент. h</dt> </dl> |
 
 
 

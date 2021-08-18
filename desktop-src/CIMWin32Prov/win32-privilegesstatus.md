@@ -21,12 +21,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: ab399ce08374a954b3bbc015cfee7b4d20167b70
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4e2c2b2329884b22eecdc00a629abb8d05bc87435ce06d35e51907cb4095c8fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895937"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020092"
 ---
 # <a name="win32_privilegesstatus-class-cimwin32-wmi-providers"></a>Класс Win32_PrivilegesStatus (поставщики WMI CIMWin32)
 
@@ -56,7 +56,7 @@ class Win32_PrivilegesStatus : __ExtendedStatus
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ привилежесстатус** имеет следующие свойства.
 
@@ -86,7 +86,7 @@ class Win32_PrivilegesStatus : __ExtendedStatus
 Тип доступа: только для чтения
 </dt> </dl>
 
-Операция, выполняемая во время сбоя или аномалии. Как правило, инструментарий управления Windows (WMI) (WMI) задает для этого свойства имя API COM для метода WMI, например: [**IWbemServices:: CreateInstanceEnum**](/windows/win32/api/wbemcli/nf-wbemcli-iwbemservices-createinstanceenum).
+Операция, выполняемая во время сбоя или аномалии. как правило, инструментарий управления Windows (WMI) (WMI) задает для этого свойства имя API COM для метода WMI, например: [**IWbemServices:: CreateInstanceEnum**](/windows/win32/api/wbemcli/nf-wbemcli-iwbemservices-createinstanceenum).
 
 Это свойство наследуется от [**\_ \_ екстендедстатус**](../wmisdk/--extendedstatus.md).
 
@@ -116,12 +116,12 @@ class Win32_PrivilegesStatus : __ExtendedStatus
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32API \| AccessControl \| Windows NT Privileges")
+квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32API \| AccessControl \| Windows NT privileges")
 </dt> </dl>
 
-Список необходимых привилегий доступа отсутствует для завершения операции. Типы привилегий доступа можно найти в разделе "привилегии Windows".
+Список необходимых привилегий доступа отсутствует для завершения операции. типы привилегий доступа можно найти в Windowsных привилегиях.
 
-Пример: "SE \_ Shutdown \_ Name"
+пример: "SE \_ SHUTDOWN \_ NAME"
 
 </dd> <dt>
 
@@ -134,12 +134,12 @@ class Win32_PrivilegesStatus : __ExtendedStatus
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32API \| AccessControl \| Windows NT Privileges")
+квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32API \| AccessControl \| Windows NT privileges")
 </dt> </dl>
 
 Список всех привилегий, необходимых для выполнения операции. К ним относятся значения из свойства **привилежесноселд** .
 
-Пример: "SE \_ Shutdown \_ Name"
+пример: "SE \_ SHUTDOWN \_ NAME"
 
 </dd> <dt>
 
@@ -152,7 +152,7 @@ class Win32_PrivilegesStatus : __ExtendedStatus
 Тип доступа: только для чтения
 </dt> </dl>
 
-Определяет поставщика, который вызывает или сообщает об ошибке или изменении состояния. Если поставщик не задействован, для этой строки задается значение "Управление Windows".
+Определяет поставщика, который вызывает или сообщает об ошибке или изменении состояния. если поставщик не задействован, для этой строки задается значение "управление Windows".
 
 Это свойство наследуется от [**\_ \_ екстендедстатус**](../wmisdk/--extendedstatus.md).
 
@@ -173,7 +173,7 @@ class Win32_PrivilegesStatus : __ExtendedStatus
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ привилежесстатус** является производным от [**\_ \_ екстендедстатус**](../wmisdk/--extendedstatus.md).
 

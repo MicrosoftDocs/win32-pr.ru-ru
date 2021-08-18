@@ -1,5 +1,5 @@
 ---
-description: Задает или получает значение параметра служб Microsoft Windows HTTP (WinHTTP).
+description: задает или получает значение параметра служб Microsoft Windows HTTP (WinHTTP).
 ms.assetid: 913573e6-fad3-42a5-bb5d-25a3d2ac9616
 title: 'Свойство Ивинхттпрекуест:: Option'
 ms.topic: reference
@@ -16,16 +16,16 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: c76df3f09871984da9f4bc093e9ac96d7484558f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 05368f1a5179dcaa94bc07a32035e308e9848e867d89f42f4dffb94c765ee448
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133097"
 ---
 # <a name="iwinhttprequestoption-property"></a>Свойство Ивинхттпрекуест:: Option
 
-Свойство **Option** задает или получает значение параметра служб Microsoft Windows HTTP (WinHTTP).
+свойство **Option** задает или получает значение параметра служб Microsoft Windows HTTP (WinHTTP).
 
 Это свойство доступно для чтения и записи.
 
@@ -65,10 +65,10 @@ WinHttpRequest.Option = vtOption
 
 В случае успешного выполнения возвращается значение **S \_** , а в противном случае — значение ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
-> Для Windows XP и Windows 2000 см. раздел [требования к времени выполнения](winhttp-start-page.md) на начальной странице WinHTTP.
+> сведения о Windows XP и Windows 2000 см. в разделе [требования к времени выполнения](winhttp-start-page.md) на начальной странице WinHTTP.
 
  
 
@@ -246,8 +246,8 @@ WScript.Echo( 'Escape percents: '+
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>            |
-| Минимальная версия сервера<br/> | Windows Server 2003, Windows 2000 Server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>         |
+| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с SP3 \[ только для настольных приложений\]<br/>            |
+| Минимальная версия сервера<br/> | Windows сервер 2003, Windows 2000 server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>         |
 | Распространяемые компоненты<br/>          | WinHTTP 5,0 и Internet Explorer 5,01 или более поздней версии в Windows XP и Windows 2000.<br/> |
 | IDL<br/>                      | <dl> <dt>HttpRequest. idl</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>WinHTTP. lib</dt> </dl>     |

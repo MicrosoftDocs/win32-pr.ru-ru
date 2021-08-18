@@ -19,21 +19,21 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ad589fecb190ad0f0676325b78adc7c96028a3fa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 76e92f768fd99cdd755e435caf4ba24dbbba0e3b0ee6338ffe7f49c2f506f2f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104144227"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118978804"
 ---
 # <a name="jetsetcursorfilter-function"></a>Функция Жетсеткурсорфилтер
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 Функция **жетсеткурсорфилтер** задает массив простых фильтров для функции [жетмове](./jetmove-function.md) .
 
-Функция **жетсеткурсорфилтер** была введена в операционной системе Windows 8.
+функция **жетсеткурсорфилтер** была введена в операционной системе Windows 8.
 
 ``` c++
 JET_ERR JET_API JetSetCursorFilter(
@@ -89,7 +89,7 @@ JET_ERR JET_API JetSetCursorFilter(
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) тип данных с одним из кодов возврата, перечисленных в следующей таблице. Дополнительные сведения о возможных ошибках ESE см. в разделе [Расширенные ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) тип данных с одним из кодов возврата, перечисленных в следующей таблице. дополнительные сведения о служба хранилища возможных ошибках ESE см. в разделе [ошибки расширяемых](./extensible-storage-engine-errors.md) подсистемы служба хранилища и [параметры обработки ошибок](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -111,7 +111,7 @@ JET_ERR JET_API JetSetCursorFilter(
 </table>
 
 
-#### <a name="requirements"></a>Требования
+#### <a name="requirements"></a>Requirements (Требования)
 
 <table>
 <colgroup>
@@ -124,7 +124,7 @@ JET_ERR JET_API JetSetCursorFilter(
 <td><p>Требуется Windows 8.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
+<td><p><strong>Сервер</strong></p></td>
 <td><p>Требуется Windows Server 2012.</p></td>
 </tr>
 <tr class="odd">

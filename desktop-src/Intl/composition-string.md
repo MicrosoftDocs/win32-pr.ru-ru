@@ -4,12 +4,12 @@ ms.assetid: ab226567-f68d-4fa4-9ead-e9bfabde927e
 title: Строка композиции
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e5cb63163ca9a8076edc4d01053e4baeffc619c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 05a547b4383c95b99025b779de2950c8325af56a3397603db10199474dfe20ce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998635"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119430994"
 ---
 # <a name="composition-string"></a>Строка композиции
 
@@ -46,7 +46,7 @@ ms.locfileid: "103998635"
 
 Наконец, элемент управления "поле ввода" поддерживает два сообщения для изменения обработки строк композиции с помощью IME. Дополнительные сведения см. в разделе [**EM \_ Жетиместатус**](../controls/em-getimestatus.md) и [**EM \_ сетиместатус**](../controls/em-setimestatus.md). Дополнительные сведения об элементе управления "поле ввода" см. в разделе [Edit Control](../controls/edit-controls.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

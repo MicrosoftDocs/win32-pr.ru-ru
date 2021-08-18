@@ -4,12 +4,12 @@ ms.assetid: 4b182c16-9d58-4244-bc5a-05c393800948
 title: Константы LINEPARKMODE_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ef27aaf35f86b02834c93992e8f427c54ffb903
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3070ad3f9e56de5e4e1a026b5f779c59469e947ff55b530e9d5b414a1b3b53b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140007"
 ---
 # <a name="lineparkmode_-constants"></a>\_Константы линепаркмоде
 
@@ -37,7 +37,7 @@ ms.locfileid: "105689174"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Без расширяемости. Все 32 бит зарезервированы.
 
@@ -50,7 +50,7 @@ ms.locfileid: "105689174"
 | Требование | Значение |
 |-------------------------|-----------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 2,0 или более поздней версии<br/>                                             |
-| Header<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
 
 
 

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c122eb1336136c00bf7b5e950e25c26c6384ab6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 361ec9ba41e93f9aaad19a493ec10b8657baa85db706b6d034302189ef457a7e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105691952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119418594"
 ---
 # <a name="ui_animation_seconds_infinite"></a>Анимация пользовательского интерфейса, \_ \_ с \_ бесконечностью
 
@@ -31,11 +31,11 @@ ms.locfileid: "105691952"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это значение может быть возвращено при вызове метода [**IUIAnimationManager2:: естиматенекстевенттиме**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager2-estimatenexteventtime) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
