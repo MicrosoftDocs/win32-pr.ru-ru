@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Настройка безопасности пространства имен с помощью элемента управления WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f8e8b6ed7c45b6b0d107f7f4e4b92f31f504900
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f97971e09897f8fa744f72d5ad0da59dc2292ebe7ceb88f6500e3c30e124db0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992354"
 ---
 # <a name="setting-namespace-security-with-the-wmi-control"></a>Настройка безопасности пространства имен с помощью элемента управления WMI
 
@@ -35,7 +35,7 @@ ms.locfileid: "105703175"
 3.  На панели **управления WMI** щелкните правой кнопкой мыши **элемент Управление WMI**, выберите пункт **Свойства**, а затем перейдите на вкладку **Безопасность** .
 4.  Перейдите к новому пространству имен, щелкните **Безопасность**, а затем настройте группы и разрешения для пространства имен.
 
-Для настройки безопасности пространства имен можно также использовать инструментарий управления Windows (WMI) Command-Line ([WMIC](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc754534(v=ws.11))). Дополнительные сведения см. в разделе [**WMIC**](wmic.md).
+для настройки безопасности пространства имен можно также использовать инструментарий управления Windows (WMI) Command-Line ([WMIC](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc754534(v=ws.11))). Дополнительные сведения см. в разделе [**WMIC**](wmic.md).
 
 ## <a name="setting-the-default-namespace-for-scripts"></a>Задание пространства имен по умолчанию для скриптов
 
@@ -58,7 +58,7 @@ HKEY_LOCAL_MACHINE
 1.  В окне **свойства элемента управления WMI** перейдите на вкладку **Дополнительно** .
 2.  Нажмите кнопку **изменить** и выберите пространство имен, чтобы использовать его по умолчанию.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

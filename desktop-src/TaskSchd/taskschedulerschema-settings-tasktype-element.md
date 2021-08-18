@@ -1,9 +1,9 @@
 ---
-title: Элемент Settings (taskType)
+title: элемент Параметры (taskType)
 description: Задает параметры, которые планировщик задач использует для выполнения задачи.
 ms.assetid: 72d2929a-0dd2-44cd-be7b-72eca23a5e14
 keywords:
-- Элемент Settings планировщик задач
+- Параметры планировщик задач элемента
 topic_type:
 - apiref
 api_name:
@@ -13,14 +13,14 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9133d536aef692a5f9928e10963dff8c454f25fc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ea754aa883f9c80c4a436357cc159c588bde375aaa66a229b358723b74b9e070
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415232"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002242"
 ---
-# <a name="settings-tasktype-element"></a>Элемент Settings (taskType)
+# <a name="settings-tasktype-element"></a>элемент Параметры (taskType)
 
 Задает параметры, которые планировщик задач использует для выполнения задачи.
 
@@ -31,7 +31,7 @@ ms.locfileid: "104415232"
  />
 ```
 
-Элемент **Settings** определяется сложным типом [**TaskType**](taskschedulerschema-tasktype-complextype.md) .
+элемент **Параметры** определяется сложным типом [**taskType**](taskschedulerschema-tasktype-complextype.md) .
 
 ## <a name="parent-element"></a>Родительский элемент
 
@@ -53,7 +53,7 @@ ms.locfileid: "104415232"
 | [**алловстартондеманд**](taskschedulerschema-allowstartondemand-settingstype-element.md)                        | Логическое                                                                                           | Указывает, что задача может быть запущена либо с помощью команды выполнить, либо из контекстного меню.<br/>                  |
 | [**делетикспиредтаскафтер**](taskschedulerschema-deleteexpiredtaskafter-settingstype-element.md)                | длительность                                                                                          | Указывает период времени, в течение которого планировщик задач будет ожидать перед удалением задачи после истечения ее срока действия.<br/> |
 | [**дисалловстартифонбаттериес**](taskschedulerschema-disallowstartifonbatteries-settingstype-element.md)        | Логическое                                                                                           | Указывает, что задача не будет запущена, если компьютер работает от батарей.<br/>                      |
-| [**Активировано**](taskschedulerschema-enabled-settingstype-element.md)                                              | Логическое                                                                                           | Указывает, что задача включена. Задачу можно выполнить, только если этот параметр имеет значение true.<br/>             |
+| [**Включен**](taskschedulerschema-enabled-settingstype-element.md)                                              | Логическое                                                                                           | Указывает, что задача включена. Задачу можно выполнить, только если этот параметр имеет значение true.<br/>             |
 | [**ексекутионтимелимит**](taskschedulerschema-executiontimelimit-settingstype-element.md)                        | длительность                                                                                          | Количество времени, отведенное на выполнение задачи.<br/>                                                              |
 | [**Служеб**](taskschedulerschema-hidden-settingstype-element.md)                                                | Логическое                                                                                           | Указывает, что задача не будет отображаться в пользовательском интерфейсе по умолчанию.<br/>                                         |
 | [**идлесеттингс**](taskschedulerschema-idlesettings-settingstype-element.md)                                    | [**идлесеттингстипе**](taskschedulerschema-idlesettingstype-complextype.md)                      | Указывает, как планировщик задач выполняет задачи, когда компьютер находится в состоянии простоя.<br/>                    |
@@ -65,18 +65,18 @@ ms.locfileid: "104415232"
 | [**рунонлифнетворкаваилабле**](taskschedulerschema-runonlyifnetworkavailable-settingstype-element.md)          | Логическое                                                                                           | Указывает, что планировщик задач будет выполнять задачу только при доступности сети.<br/>                     |
 | [**стартвхенаваилабле**](taskschedulerschema-startwhenavailable-settingstype-element.md)                        | Логическое                                                                                           | Указывает, что планировщик задач может запустить задачу в любое время после прохождения запланированного времени.<br/>     |
 | [**Стопифгоингонбаттериес (Сеттингстипе)**](taskschedulerschema-stopifgoingonbatteries-settingstype-element.md) | Логическое                                                                                           | Указывает, что задача будет остановлена при переходе компьютера на питание.<br/>                          |
-| [**Независимо**](taskschedulerschema-volatile-element.md)                                                         | Логическое                                                                                           | Указывает, будет ли задача автоматически отключена планировщик задач при запуске Windows.<br/>                     |
+| [**Переменный**](taskschedulerschema-volatile-element.md)                                                         | Логическое                                                                                           | указывает, будет ли задача автоматически отключена планировщик задач во время запуска Windows.<br/>                     |
 | [**Вакеторун (Сеттингстипе)**](taskschedulerschema-waketorun-settingstype-element.md)                           | Логическое                                                                                           | Указывает, что планировщик задач будет выводить компьютер из спящего режима во время выполнения задачи.<br/>                     |
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Можно выбрать один или несколько дочерних элементов, указанных выше.
 
-Для разработки на C++ сведения о регистрации задачи указываются с помощью [**Свойства Settings объекта итаскдефинитион**](/windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_settings).
+для разработки на C++ сведения о регистрации задачи указываются с помощью [**свойства Параметры итаскдефинитион**](/windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_settings).
 
-Для разработки сценариев сведения о регистрации задачи указываются с помощью свойства [**таскдефинитион. Settings**](taskdefinition-settings.md) .
+для разработки сценариев сведения о регистрации задачи указываются с помощью свойства [**таскдефинитион. Параметры**](taskdefinition-settings.md) .
 
 ## <a name="examples"></a>Примеры
 
@@ -102,8 +102,8 @@ ms.locfileid: "104415232"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

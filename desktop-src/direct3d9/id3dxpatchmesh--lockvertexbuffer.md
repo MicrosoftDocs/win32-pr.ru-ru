@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d88d8a1da7ae544c5647fc844cda4966cfee7b10
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ae385d636429d25b420f1bc75dd531b55d8d2419a7eedc328865753d7b7b536b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103914768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119120738"
 ---
 # <a name="id3dxpatchmeshlockvertexbuffer-method"></a>Метод ID3DXPatchMesh:: Локквертексбуффер
 
@@ -73,7 +73,7 @@ HRESULT LockVertexBuffer(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК. В случае сбоя метода возвращаемое значение может быть одним из следующих: D3DERR \_ инвалидкалл, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Буфер вершин обычно блокируется, записывается в, а затем разблокируется для чтения.
 
@@ -85,7 +85,7 @@ HRESULT LockVertexBuffer(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

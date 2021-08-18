@@ -4,12 +4,12 @@ ms.assetid: eff1ab1e-2205-4f5c-9e32-199e073f5dbf
 title: Использование интерфейса Икспсомпаккажевритер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1e8a34a0538ff09cc050ac287d5314be93f0da8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 65a4437f939821b826fa0d5c30407777b7d44c5d03c236f4ef850d52145b4f8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119098706"
 ---
 # <a name="using-the-ixpsompackagewriter-interface"></a>Использование интерфейса Икспсомпаккажевритер
 
@@ -51,7 +51,7 @@ ms.locfileid: "105702913"
 
 Методы интерфейса [**икспсомпаккажевритер**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter) также поддерживают добавление ресурсов, эскизов и билетов на печать. Эти компоненты документов можно добавлять на уровнях Package, FixedDocumentSequence, FixedDocument и FixedPage. Дополнительные сведения об использовании этого интерфейса для печати см. [в разделе Printing a XPS OM](print-an-xps-om.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

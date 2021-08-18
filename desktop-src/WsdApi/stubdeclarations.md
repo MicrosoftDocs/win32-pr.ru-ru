@@ -4,12 +4,12 @@ ms.assetid: d43baeff-c941-4ce9-a6ae-8aa61ef44048
 title: Стубдекларатионс, элемент
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1543883b4d41e7571cd4a4725e2aeab181530d30
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 846cea00438a5e2571e0e5c6a2b4af2a5ec519071ece2fa3570e0281fc9a22b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996411"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991594"
 ---
 # <a name="stubdeclarations-element"></a>Стубдекларатионс, элемент
 
@@ -33,7 +33,7 @@ ms.locfileid: "107996411"
 
 | Элемент                                   | Описание                                                                                      |
 |-------------------------------------------|--------------------------------------------------------------------------------------------------|
-| [**событиях**](events.md)<br/>       | Указывает, включаются ли в создаваемые функции связанные события.<br/> <br/> |
+| [**события**](events.md)<br/>       | Указывает, включаются ли в создаваемые функции связанные события.<br/> <br/> |
 | [**операцию**](operation.md)<br/> | Указывает операцию, для которой создается код.<br/> <br/>                 |
 | [**Порта**](porttype.md)<br/>   | Указывает тип порта, для которого создается код.<br/> <br/>                |
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2f262c8538763dc4d0de3784bdf6523d905a2eac
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 04789a47b403b287d4654a6717662b51982405efcbe38eef641b5f5c33fcc416
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108096522"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118955423"
 ---
 # <a name="camschedulecamschedule-destructor"></a>Деструктор Камсчедуле. ~ Камсчедуле
 
@@ -42,12 +42,12 @@ ms.locfileid: "108096522"
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Дссчедуле. h (включение Streams. h)</dt> </dl>                                                                                |
+| Заголовок<br/>  | <dl> <dt>дссчедуле. h (включает Потоки. h)</dt> </dl>                                                                                |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

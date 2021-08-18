@@ -1,19 +1,19 @@
 ---
 title: Структуры специальных возможностей
-description: В этом разделе описываются структуры, используемые для реализации специальных возможностей Windows. Специальные возможности Microsoft Win32.
+description: в этом разделе описываются структуры, используемые для реализации специальных возможностей Windows. Специальные возможности Microsoft Win32.
 ms.assetid: 0ff480ae-18e3-413d-b208-a67fbae28c25
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a01a5596c6c56e92d17b09386f0da3cbd58a5b2a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 576b398769a2cf1dc88d9f7ade8c995988c346e04f1c7becf7aef31cded50e91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105700893"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994394"
 ---
 # <a name="accessibility-structures"></a>Структуры специальных возможностей
 
-В этом разделе описываются структуры, используемые для реализации специальных возможностей Windows.
+в этом разделе описываются структуры, используемые для реализации специальных возможностей Windows.
 
 ## <a name="in-this-section"></a>Содержание раздела
 
@@ -34,11 +34,11 @@ ms.locfileid: "105700893"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Специальные возможности Windows](../accessibility/accessibility.md)
+[Windows Специальные возможности](../accessibility/accessibility.md)
 </dt> </dl>
 
  

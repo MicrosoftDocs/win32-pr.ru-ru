@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 39a52d62ae5271353350df15c4c00833266094cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a15fed60734125552a85d6a64dd5e207e445cc8d0fe1ab32bb650a3dce62763d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104144365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118983724"
 ---
 # <a name="apigettablenames-method"></a>API. методы. TableName
 
@@ -81,7 +81,7 @@ public static IEnumerable<string> GetTableNames(
 Тип: [System. Collections. Generic. IEnumerable](/dotnet/api/system.collections.generic.ienumerable-1)\<[String](/dotnet/api/system.string)\>  
 Итератор по именам таблиц в базе данных.  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

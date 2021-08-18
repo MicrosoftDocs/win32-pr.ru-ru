@@ -3,7 +3,7 @@ title: Сообщение MM_WOM_OPEN (Ммсистем. h)
 description: '\_ \_ Сообщение вом Open mm отправляется в окно при открытии данного устройства вывода аудио-аудио.'
 ms.assetid: 1b0366de-61cd-4203-9173-ababaefdb153
 keywords:
-- MM_WOM_OPEN сообщения Windows мультимедиа
+- сообщение MM_WOM_OPEN Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 783910389f2b9be9193c8f7bb0722f70261f5fce
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e770d03b847352152846d1095bc528bff8e8eacbcdbb1c9fc46450d21dc185bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065404"
 ---
 # <a name="mm_wom_open-message"></a>ММ \_ вом \_ открытое сообщение
 
@@ -64,7 +64,7 @@ lParam = reserved
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 

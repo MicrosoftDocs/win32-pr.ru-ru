@@ -4,12 +4,12 @@ ms.assetid: ca9c2636-733b-4ef0-93d3-c4829ec43b05
 title: Получение сведений об объекте
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16dac0fe3335fcd2e6972a1d71298ce3c11b13c1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d3b378ca6ede8f7caaeb91777dda124c2031a6b168040b43a7f6df8404b1339e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712345"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118963493"
 ---
 # <a name="retrieving-object-information"></a>Получение сведений об объекте
 
@@ -26,7 +26,7 @@ ms.locfileid: "105712345"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

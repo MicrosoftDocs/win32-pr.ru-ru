@@ -3,10 +3,10 @@ title: Пример получения сертификата компьютер
 description: Пример получения сертификата компьютера
 ms.assetid: 4112e29e-7c86-4825-9798-dd1a81b82083
 keywords:
-- Windows Media Format SDK, сертификаты компьютеров
-- Windows Media Format SDK, сертификаты
-- Windows Media Format SDK, пример кода
-- Windows Media Format SDK, примеры кода
+- Windows Пакет SDK для формата мультимедиа, сертификаты компьютеров
+- Windows Пакет SDK для формата мультимедиа, сертификаты
+- Windows Пакет SDK для формата мультимедиа, пример кода
+- Windows Пакет SDK для формата мультимедиа, примеры кода
 - Управление цифровыми правами (DRM), сертификаты компьютеров
 - DRM (Управление цифровыми правами), сертификаты компьютеров
 - Управление цифровыми правами (DRM), сертификаты
@@ -26,12 +26,12 @@ keywords:
 - сертификаты, примеры кода
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e68a8ecbaf3e3c0ba8001a7a2094ab2b4a7e09a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 855479e90095f204a3ba7abafadcb4a31bbcaeaf7c592221ab0d5906cb1d8b18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104411263"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964013"
 ---
 # <a name="get-machine-certificate-example"></a>Пример получения сертификата компьютера
 
@@ -71,16 +71,16 @@ EXIT:
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Примеры импорта DRM**](drm-import-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

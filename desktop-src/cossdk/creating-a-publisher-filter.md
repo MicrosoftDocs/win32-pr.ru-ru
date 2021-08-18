@@ -1,17 +1,17 @@
 ---
-description: Создание фильтра издателя
+description: создание фильтра Publisher
 ms.assetid: d91efecc-f02a-41c6-acf7-37b74723e7e8
-title: Создание фильтра издателя
+title: создание фильтра Publisher
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 997fe37cf0021bcb2aa153c2dc4b73597e0c43cc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d2cf3391cd331f7d81c3bb7ff467c140a78b0c8e30fb609ea655596dfe745a74
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104142610"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128796"
 ---
-# <a name="creating-a-publisher-filter"></a>Создание фильтра издателя
+# <a name="creating-a-publisher-filter"></a>создание фильтра Publisher
 
 Существует два метода для установки фильтра издателя: с помощью свойства Мултипублишерфилтерклсид класса событий или с помощью [**иевентконтрол:: сетпублишерфилтер**](/windows/desktop/api/Eventsys/nf-eventsys-ieventcontrol-setpublisherfilter).
 
@@ -22,7 +22,7 @@ ms.locfileid: "104142610"
 
 События COM+ пытаются вызвать два метода в фильтре. Сначала он вызывает [**ипублишерфилтер::P репаретофире**](/windows/desktop/api/EventSys/nf-eventsys-ipublisherfilter-preparetofire) и передает в фильтр указатель интерфейса [**ифирингконтрол**](/windows/desktop/api/EventSys/nn-eventsys-ifiringcontrol) . Затем он запрашивает объект фильтра для интерфейса событий. Если фильтр поддерживает интерфейс событий, он вызывает для него метод. Это обеспечивает доступ к параметрам издателя для события. Фильтр может использовать эти параметры, чтобы определить, какие подписки следует активировать.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

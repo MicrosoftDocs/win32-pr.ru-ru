@@ -4,12 +4,12 @@ ms.assetid: ecbd1310-72c1-470f-a5bd-9c8b311d38e9
 title: System. Шаредвис
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08b913952b8d9df523d4a2e44580c4455fc41163
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7207b83bf1609a862f77c2586f1cba5db932b11bea12910407959d6109b25dd0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118969833"
 ---
 # <a name="systemsharedwith"></a>System. Шаредвис
 
@@ -47,11 +47,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

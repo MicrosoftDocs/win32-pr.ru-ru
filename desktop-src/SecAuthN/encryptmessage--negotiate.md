@@ -4,12 +4,12 @@ ms.assetid: b80b3d64-9c0a-4602-9378-1e208f6593fc
 title: Функция Енкриптмессаже (Negotiate)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 037866088f58fa1d70939b84062161a6e4f610b8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d4aac05a4ad030e72953cc997671b7d348cb2a598a0f56f80963f69847cdf357
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104348102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008312"
 ---
 # <a name="encryptmessage-negotiate-function"></a>Функция Енкриптмессаже (Negotiate)
 
@@ -70,7 +70,7 @@ SECURITY_STATUS SEC_Entry EncryptMessage(
 | **в секунду \_ E \_ Недопустимый \_ токен**          | Не \_ найден буфер типа данных pvbuffer.                                                                                            |
 | **с \_ е \_ КОП \_ не \_ поддерживается**     | [*Контекст безопасности*](../secgloss/s-gly.md)не поддерживает ни конфиденциальность, ни [*целостность*](../secgloss/i-gly.md) .             |
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **енкриптмессаже (Negotiate)** шифрует сообщение на основе сообщения и [*ключа сеанса*](../secgloss/s-gly.md) из [*контекста безопасности*](../secgloss/s-gly.md).
 
@@ -94,9 +94,9 @@ SECURITY_STATUS SEC_Entry EncryptMessage(
 
 | Требование | Значение |
 |--------------------------|-------------------------------------------------|
-| Минимальная версия клиента | Только для \[ классических приложений Windows XP\]                |
-| Минимальная версия сервера | \[Только для настольных приложений Windows Server 2003\]       |
-| Header                   | SSPI. h (включая Security. h)                     |
+| Минимальная версия клиента | Windows \[Только классические приложения XP\]                |
+| Минимальная версия сервера | Windows Только для \[ настольных приложений сервера 2003\]       |
+| Заголовок                   | SSPI. h (включая Security. h)                     |
 | Библиотека                  | Secur32. lib                                     |
 | DLL                      | Secur32.dll                                     |
 

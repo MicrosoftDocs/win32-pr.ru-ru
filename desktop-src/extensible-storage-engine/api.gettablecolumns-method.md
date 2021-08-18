@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: b41a28bcd1494fd2fd43f2af530e3eb7353ff1ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87917743dbb13076dd8303f0fffdda6abc4a6177fd0a98223c58649907c79771
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104143375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118983856"
 ---
 # <a name="apigettablecolumns-method"></a>API. Жеттаблеколумнс, метод
 
@@ -53,7 +53,7 @@ ms.locfileid: "104143375"
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

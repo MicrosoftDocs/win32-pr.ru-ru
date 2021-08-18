@@ -4,12 +4,12 @@ ms.assetid: 41e8a777-a57a-4d6c-850f-e21b58081b0d
 title: Константы LINEDEVSTATE_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 49717c1adb0f62a48a041f5920c0b82c7b817277
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cb11959614999ff50e421e0b77c63d1215a831040774e3123b43aa3534a3f853
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140067"
 ---
 # <a name="linedevstate_-constants"></a>\_Константы линедевстате
 
@@ -271,7 +271,7 @@ ms.locfileid: "105689490"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Без расширяемости. Все 32 бит зарезервированы.
 
@@ -282,7 +282,7 @@ ms.locfileid: "105689490"
 | Требование | Значение |
 |-------------------------|-----------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 2,0 или более поздней версии<br/>                                             |
-| Header<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
 
 
 

@@ -3,20 +3,20 @@ title: Примеры импорта DRM
 description: Примеры импорта DRM
 ms.assetid: 074e71b6-076b-4608-982b-f91fc226a8b3
 keywords:
-- Windows Media Format SDK, импорт DRM
-- Windows Media Format SDK, импорт
+- Windows Пакет SDK для формата мультимедиа, импорт DRM
+- Windows Пакет SDK для формата мультимедиа, импорт
 - Управление цифровыми правами (DRM), импорт
 - DRM (Управление цифровыми правами), импорт
 - Расширенные API клиента DRM, импорт
 - Расширенные API клиента, импорт
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88b966ce1ab3c1b355ebe93897d7f59bc97762b0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0bbe059204a99ee465d1fe6272a897a6cfa7583f91895dd1744e8684b4212b82
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119085975"
 ---
 # <a name="drm-import-examples"></a>Примеры импорта DRM
 
@@ -36,18 +36,18 @@ ms.locfileid: "103888491"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Импорт DRM**](drm-import.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

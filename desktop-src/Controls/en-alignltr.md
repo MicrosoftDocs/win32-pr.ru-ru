@@ -3,7 +3,7 @@ title: Код уведомления EN_ALIGNLTR (RichEdit. h)
 description: Сообщает родительскому окну элемента управления Rich Edit, что направление абзаца изменилось на слева направо. Форматированный элемент управления "поле ввода" отправляет этот код уведомления в виде \_ командного сообщения WM.
 ms.assetid: 754ac2b5-bcec-487b-a1ab-b653f673830a
 keywords:
-- EN_ALIGNLTR кода уведомления элементы управления Windows
+- EN_ALIGNLTR кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f55c20a9ae4efb3ba5758ed0740b20b8b57f3877
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 884f2750501dc1670d2f8e0497a196276571328809d295a687b3518a34b38ec2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071462"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019452"
 ---
 # <a name="en_alignltr-notification-code"></a>\_Код уведомления EN алигнлтр
 
@@ -63,9 +63,9 @@ EN_ALIGNLTR
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 
 

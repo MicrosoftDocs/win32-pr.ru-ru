@@ -1,19 +1,19 @@
 ---
 title: Создание устройства поиска устройств
-description: В следующих примерах показано, как создать экземпляр объекта Finder устройства на C++, Visual Basic и VBScript.
+description: в следующих примерах показано, как создать экземпляр объекта finder устройства на C++, Visual Basic и VBScript.
 ms.assetid: 0084a64d-458e-471c-a6be-aeb6ed0962d0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3a12fc7e269f2c0ce5b577fe2f49b6d13fe3b5a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dc6af75ea5c267e156f89f1ae1e27a08928c097bbfea731f59add575397fbc00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137362"
 ---
 # <a name="creating-the-device-finder"></a>Создание устройства поиска устройств
 
-В следующих примерах показано, как создать экземпляр объекта Finder устройства на C++, Visual Basic и VBScript. В языках сценариев используется программный идентификатор (ProgID) [**UPnP. упнпдевицефиндер**](/windows/desktop/api/Upnp/nn-upnp-iupnpdevicefinder) для идентификации класса Finder устройства. Код C++ использует идентификатор класса.
+в следующих примерах показано, как создать экземпляр объекта finder устройства на C++, Visual Basic и VBScript. В языках сценариев используется программный идентификатор (ProgID) [**UPnP. упнпдевицефиндер**](/windows/desktop/api/Upnp/nn-upnp-iupnpdevicefinder) для идентификации класса Finder устройства. Код C++ использует идентификатор класса.
 
 ## <a name="c-example"></a>Пример C++
 
@@ -44,9 +44,9 @@ Set deviceFinder = CreateObject( "UPnP.UPnPDeviceFinder" )
 
 
 
- 
+ 
 
- 
+ 
 
 
 

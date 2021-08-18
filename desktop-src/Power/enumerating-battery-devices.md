@@ -4,12 +4,12 @@ ms.assetid: 17e3c779-91ba-4901-9435-b73dedbf0b89
 title: Перечисление устройств с батареей
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d610feda8fd312bbefe2742da50d82a664a8ce2f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 28ed27979ca8b6abdb8015da58a9b6205f9ee3123cd4a82ccf7bd9c121e10441
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105663124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143557"
 ---
 # <a name="enumerating-battery-devices"></a>Перечисление устройств с батареей
 
@@ -176,7 +176,7 @@ DWORD GetBatteryState()
 
 Чтобы перечислить устройства, подключенные к удаленному компьютеру, используйте класс WMI [**\_ батареи Win32**](/windows/desktop/CIMWin32Prov/win32-battery) в клиентском скрипте или приложении.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

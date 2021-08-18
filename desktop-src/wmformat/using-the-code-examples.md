@@ -1,20 +1,20 @@
 ---
-title: Примеры кода пакета SDK для формата Windows Media
-description: Примеры кода пакета SDK для формата Windows Media
+title: использование примеров кода пакета SDK для Windows Media Format
+description: использование примеров кода пакета SDK для Windows Media Format
 ms.assetid: 1459a438-d42c-4d84-baa8-fc672f5d5d27
 keywords:
-- Windows Media Format SDK, примеры кода
-- Windows Media Format SDK, пример кода
+- Windows Пакет SDK для формата мультимедиа, примеры кода
+- Windows Пакет SDK для формата мультимедиа, пример кода
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8db438a8cb42bbb45768421cc34c129f19948f1c
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: ba6a5b6718bf7665d04fedb5d5a0bad473a632cbeeabdfd756a52877ccdc84ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104414660"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118963943"
 ---
-# <a name="using-the-windows-media-format-sdk-code-examples"></a>Примеры кода пакета SDK для формата Windows Media
+# <a name="using-the-windows-media-format-sdk-code-examples"></a>использование примеров кода пакета SDK для Windows Media Format
 
 Многие из объясненных разделов этого пакета SDK включают примеры кода. Примеры записываются как можно более четкие и лаконичные. При чтении примеров следует учитывать следующие соглашения.
 
@@ -72,7 +72,7 @@ ms.locfileid: "104414660"
 -   Часто необходимо включить логику одного примера в другой пример, чтобы пример был осмысленным. В этих случаях включается комментарий TODO со ссылкой на соответствующий пример кода.
 -   Чтобы сделать код более удобочитаемым, ни один из примеров функций в этой документации не проверит их входные параметры. При копировании любой из этих функций в код следует проверить все входные параметры.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

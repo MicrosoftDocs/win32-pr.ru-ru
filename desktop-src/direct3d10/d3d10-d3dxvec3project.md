@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: f4a2cffa77b2a66267daf0a67a59698ae3e3b8eb
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 5b15d8c711813251c7ad2593939a2d3284f79acaa4a3204ea89cb59bc26ce23c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108108172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118990584"
 ---
 # <a name="d3dxvec3project-function-d3dx10mathh"></a>Функция D3DXVec3Project (D3DX10Math. h)
 
@@ -114,11 +114,11 @@ D3DXVECTOR3* D3DXVec3Project(
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3DX10Math. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3DX10Math. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

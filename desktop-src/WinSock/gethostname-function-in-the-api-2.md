@@ -4,22 +4,22 @@ ms.assetid: 39498c2f-6047-484d-a8ea-253461e5b0f5
 title: Функция onhostname в API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8629083c49e3915dd0ec4f1cfeb9363caabf8b9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6ec72c7eab46ccb9988dc166d8121304850ea49e2488901496e5c0377a395a48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132277"
 ---
 # <a name="gethostname-function-in-the-api"></a>Функция onhostname в API
 
 Функция @ [**HostName**](/windows/desktop/api/winsock/nf-winsock-gethostname) использует функцию [**всалукупсервицебегин**](/windows/desktop/api/Winsock2/nf-winsock2-wsalookupservicebegina) для запроса имени узла свЦид в \_ качестве идентификатора GUID класса службы. Если элемент **лпсзсервицеинстанценаме** структуры [**всакуерисет**](/windows/desktop/api/Winsock2/ns-winsock2-wsaquerysetw) , переданный функции **всалукупсервицебегин** , имеет **значение NULL** или ссылается на **пустую** строку (то есть. ""), локальный узел должен быть разрешен. В противном случае происходит поиск по указанному имени узла. В целях имитации имени **узла** Ws2 \_32.dll указывает указатель **null** для элемента **ЛПСЗСЕРВИЦЕИНСТАНЦЕНАМЕ** и указывает \_ возвращаемое имя Луп, \_ чтобы имя узла возвращалось в элементе **лпсзсервицеинстанценаме** . Если приложение использует этот запрос и указывает \_ возвращаемый Луп, \_ адрес узла предоставляется в структуре [**ксаддр \_ info**](/windows/win32/api/ws2def/ns-ws2def-csaddr_info) . \_ \_ Действие возврата BLOB-объекта Луп не определено для этого запроса. Сведения о порте по умолчанию равны нулю, если только элемент **лпсзкуеристринг** структуры **всакуерисет** , переданный в функцию **всалукупсервицебегин** , не ссылается на службу, например FTP, и в этом случае предоставляется полный транспортный адрес указанной службы.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Совместимое разрешение имен для TCP/IP в API-интерфейсе сокетов Windows 1,1](compatible-name-resolution-for-tcp-ip-in-the-windows-sockets-1-1-api-2.md)
+[совместимое разрешение имен для TCP/IP в API-интерфейсе сокетов Windows 1,1](compatible-name-resolution-for-tcp-ip-in-the-windows-sockets-1-1-api-2.md)
 </dt> <dt>
 
 [Разрешение имен, не зависящее от протокола](protocol-independent-name-resolution-2.md)

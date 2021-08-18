@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 5cf2610e-fbd2-4e87-a323-f024283db546
-ms.openlocfilehash: 389c07325f4e504424c43b0983eaa643ea608008
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: f26f5bb8bc8413c633bfe5a2757eceb7ccab9e32d411020b0bd113d4c4919f12
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118969453"
 ---
 # <a name="didiskquotauserid-property"></a>DIDiskQuotaUser.ID, свойство
 
@@ -41,7 +41,7 @@ iID = DIDiskQuotaUser.ID
 
 ## <a name="remarks"></a>Remarks
 
-Это свойство предназначено для использования в таких языках, как Microsoft Visual Basic, которые не поддерживают указатели.
+это свойство предназначено для использования в таких языках, как Microsoft Visual Basic, которые не поддерживают указатели.
 
 ## <a name="requirements"></a>Requirements (Требования)
 
@@ -49,13 +49,13 @@ iID = DIDiskQuotaUser.ID
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                          |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (версия 5,0 или более поздняя)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

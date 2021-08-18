@@ -3,7 +3,7 @@ title: Элемент Body
 description: Элемент Body содержит элементы, определяющие содержимое списка воспроизведения.
 ms.assetid: 96d09635-c360-4a36-a56e-6cecbbd4ff30
 keywords:
-- Проигрыватель Windows Media, элемент Body
+- элемент body проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: eb30885efe9e018bf8792b38facdc086c5473b3f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4c785b7db7b44177469596450ee75a460e2bc6224b191a2811baf95380bea25a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698867"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135957"
 ---
 # <a name="body-element"></a>Элемент Body
 
@@ -46,7 +46,7 @@ ms.locfileid: "105698867"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Содержимое списка воспроизведения упорядочено внутри элемента **Seq** , который содержится в элементе **Body** . Обычно существует либо один элемент **Seq** , который определяет статический набор элементов мультимедиа и содержит элементы **мультимедиа** , либо один, который определяет динамический набор элементов мультимедиа и содержит элемент **смартплайлист** .
 
@@ -77,7 +77,7 @@ ms.locfileid: "105698867"
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии.<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии.<br/> |
 
 
 
@@ -97,7 +97,7 @@ ms.locfileid: "105698867"
 [**SMIL, элемент**](smil-element.md)
 </dt> <dt>
 
-[**Справочник по элементам списка воспроизведения Windows Media**](windows-media-playlist-elements-reference.md)
+[**Windows Справочник по элементам списка воспроизведения мультимедиа**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
  

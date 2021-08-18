@@ -3,19 +3,19 @@ title: Реализация Допроцессаутпут
 description: Реализация Допроцессаутпут
 ms.assetid: c6fbcfc0-741b-4aa7-9109-e06810a2e081
 keywords:
-- Подключаемые модули проигрывателя Windows Media, DSP аудиоподсистемы
+- подключаемые модули проигрыватель Windows Media, DSP аудиоподсистемы
 - подключаемые модули, DSP аудиоподсистемы
 - подключаемые модули обработки цифровых сигналов, Допроцессаутпут
 - Подключаемые модули DSP, Допроцессаутпут
 - подключаемые модули DSP аудиоподсистемы, Допроцессаутпут
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f68562444a3a8f0bfacad26fc5246181d33cefa2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fc2f5aa1a952f16de196bed72ed7ac93dfac95d8333496824e3f0740f506a6fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104411059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135587"
 ---
 # <a name="implementing-doprocessoutput"></a>Реализация Допроцессаутпут
 
@@ -94,16 +94,16 @@ ms.locfileid: "104411059"
     1.  Повторите цикл, пока не будут обработаны все образцы.
     2.  Возврат соответствующего **HRESULT**.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Реализация подключаемого модуля DSP аудиоподсистемы**](implementing-an-audio-dsp-plug-in.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

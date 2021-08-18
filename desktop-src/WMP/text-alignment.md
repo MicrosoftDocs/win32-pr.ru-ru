@@ -3,18 +3,18 @@ title: Выравнивание текста
 description: Выравнивание текста
 ms.assetid: 7853f823-545e-419f-8d47-efc70d4957eb
 keywords:
-- Обложки Windows Media Player для мобильных устройств, текст
+- проигрыватель Windows Media Обложки для мобильных устройств, текст
 - обложки, текст
 - Справочник по обложек, тексту
 - текст в обложках, выравнивание
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28e5037733306b4cb300d924223bd9e2d48db19a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3e14d443514eb091dca04df3bf091c02baec7b572da049e6a8097b367cc33d63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134727"
 ---
 # <a name="text-alignment"></a>Выравнивание текста
 
@@ -30,18 +30,18 @@ ms.locfileid: "103986390"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Полнотекстовым**](text.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cc138a90100f89496dc4076235a1cc4161c1694
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: dd38be7e87318c12e46cf3a268d1afb18045bc957e1adc61f06e325fa5e291b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105654806"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960133"
 ---
 # <a name="pki-extended-key-usage-attribute"></a>PKI — атрибут использования расширенного ключа
 
@@ -60,7 +60,7 @@ ms.locfileid: "105654806"
 | System-Only            | Неверно                                                                   |
 | Является однозначным       | Неверно                                                                   |
 | Индексируется             | Неверно                                                                   |
-| В глобальном каталоге      | True                                                                    |
+| В глобальном каталоге      | Верно                                                                    |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                            |
 | Range-Lower            | \-                                                                      |
 | Range-Upper            | \-                                                                      |
@@ -81,7 +81,7 @@ ms.locfileid: "105654806"
 | System-Only            | Неверно                                                                   |
 | Является однозначным       | Неверно                                                                   |
 | Индексируется             | Неверно                                                                   |
-| В глобальном каталоге      | True                                                                    |
+| В глобальном каталоге      | Верно                                                                    |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                            |
 | Range-Lower            | \-                                                                      |
 | Range-Upper            | \-                                                                      |
@@ -102,7 +102,7 @@ ms.locfileid: "105654806"
 | System-Only            | Неверно                                                                   |
 | Является однозначным       | Неверно                                                                   |
 | Индексируется             | Неверно                                                                   |
-| В глобальном каталоге      | True                                                                    |
+| В глобальном каталоге      | Верно                                                                    |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                            |
 | Range-Lower            | \-                                                                      |
 | Range-Upper            | \-                                                                      |
@@ -123,7 +123,7 @@ ms.locfileid: "105654806"
 | System-Only            | Неверно                                                                   |
 | Является однозначным       | Неверно                                                                   |
 | Индексируется             | Неверно                                                                   |
-| В глобальном каталоге      | True                                                                    |
+| В глобальном каталоге      | Верно                                                                    |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                            |
 | Range-Lower            | \-                                                                      |
 | Range-Upper            | \-                                                                      |
@@ -144,7 +144,7 @@ ms.locfileid: "105654806"
 | System-Only            | Неверно                                                                   |
 | Является однозначным       | Неверно                                                                   |
 | Индексируется             | Неверно                                                                   |
-| В глобальном каталоге      | True                                                                    |
+| В глобальном каталоге      | Верно                                                                    |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                            |
 | Range-Lower            | \-                                                                      |
 | Range-Upper            | \-                                                                      |
@@ -165,7 +165,7 @@ ms.locfileid: "105654806"
 | System-Only            | Неверно                                                                   |
 | Является однозначным       | Неверно                                                                   |
 | Индексируется             | Неверно                                                                   |
-| В глобальном каталоге      | True                                                                    |
+| В глобальном каталоге      | Верно                                                                    |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                            |
 | Range-Lower            | \-                                                                      |
 | Range-Upper            | \-                                                                      |

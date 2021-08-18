@@ -4,12 +4,12 @@ ms.assetid: 6b9e4a4d-ec45-489c-bbff-d123d5756b75
 title: Сообщение SFVM_INVOKECOMMAND (Шлобж. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e5fc9709827250e5cf8060400bbecb714ae5998
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24b33eba78e0680fe940569c7a7ccfb4a27c61c3ffcb6eead0f2ff6436ec74f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103913312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968653"
 ---
 # <a name="sfvm_invokecommand-message"></a>\_Сообщение сфвм инвокекомманд
 
@@ -37,9 +37,9 @@ SFVM_INVOKECOMMAND
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
-Это сообщение представляет собой ту же функцию, что [**и \_ командное сообщение WM**](../menurc/wm-command.md) в обычной процедуре окна. Он позволяет объекту обратного вызова обменять любые элементы, добавленные в обозреватель Windows или строку меню.
+Это сообщение представляет собой ту же функцию, что [**и \_ командное сообщение WM**](../menurc/wm-command.md) в обычной процедуре окна. он позволяет объекту обратного вызова обменять любые элементы, добавленные в средство обозревателя Windows или в строку меню.
 
 ## <a name="requirements"></a>Требования
 

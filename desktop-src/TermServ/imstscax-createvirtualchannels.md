@@ -44,12 +44,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d59c185763ddd3685e5e566f88e26a6aa6211b4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8d3ef4e7c8471c655d4ecfaf54a1c4b0f35b2362c67c334bd94e57da8e99d390
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491625"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119138487"
 ---
 # <a name="imstscaxcreatevirtualchannels-method"></a>Метод Имстскакс:: Креатевиртуалчаннелс
 
@@ -81,9 +81,9 @@ HRESULT CreateVirtualChannels(
 
 При успешном выполнении возвращает значение **\_ ОК** . Возвращает значение **E \_ INVALIDARG** , если переданный параметр не соответствует заданным критериям.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Вызовите этот метод перед вызовом метода [**Connect**](imstscax-connect.md) .
+вызовите этот метод перед вызовом метода [**Подключение**](imstscax-connect.md) .
 
 Сведения об ограничениях именования виртуальных каналов см. в статье [Регистрация клиента виртуального канала](virtual-channel-client-registration.md) .
 

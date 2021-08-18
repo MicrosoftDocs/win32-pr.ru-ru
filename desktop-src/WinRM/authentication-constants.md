@@ -26,12 +26,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ce45d1474cf6c925149c05ae348231333c3356e6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 885e3b782c4af67304f1a92eca324c0f266e71665a7a876683cbb1dbff472ee5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104535159"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132817"
 ---
 # <a name="authentication-constants"></a>Константы проверки подлинности
 
@@ -49,7 +49,7 @@ ms.locfileid: "104535159"
 
 
 
-Используйте имя пользователя и пароль в качестве учетных данных. Установите этот флаг при создании объекта [**ConnectionOptions**](connectionoptions.md) и укажите [**имя пользователя**](connectionoptions-username.md) и [**пароль**](connectionoptions-password.md). Учетные данные могут быть учетной записью домена или учетной записью на локальном компьютере. По умолчанию учетная запись должна быть членом локальной группы администраторов на локальном или удаленном компьютере. Однако службу WinRM можно настроить для предоставления другим пользователям. Дополнительные сведения см. в разделе [Установка и настройка для служба удаленного управления Windows](installation-and-configuration-for-windows-remote-management.md). Этот флаг можно установить при указании учетных данных для проверки подлинности согласования (также известной как [*Встроенная проверка подлинности Windows*](windows-remote-management-glossary.md)) или [*обычной проверки подлинности*](windows-remote-management-glossary.md).
+Используйте имя пользователя и пароль в качестве учетных данных. Установите этот флаг при создании объекта [**ConnectionOptions**](connectionoptions.md) и укажите [**имя пользователя**](connectionoptions-username.md) и [**пароль**](connectionoptions-password.md). Учетные данные могут быть учетной записью домена или учетной записью на локальном компьютере. По умолчанию учетная запись должна быть членом локальной группы администраторов на локальном или удаленном компьютере. Однако службу WinRM можно настроить для предоставления другим пользователям. дополнительные сведения см. в разделе [установка и настройка для служба удаленного управления Windows](installation-and-configuration-for-windows-remote-management.md). этот флаг можно установить при указании учетных данных для проверки подлинности Negotiate (также известной как [*Windows встроенная проверка подлинности*](windows-remote-management-glossary.md)) или для [*обычной проверки подлинности*](windows-remote-management-glossary.md).
 
 Связанный метод создания скриптов — это [**WSMan. сессионфлагкредусернамепассворд**](wsman-sessionflagcredusernamepassword.md), а метод C++ — [**ивсманекс. сессионфлагкредусернамепассворд**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagcredusernamepassword).
 
@@ -124,7 +124,7 @@ ms.locfileid: "104535159"
 
 Использовать проверку подлинности Negotiate. Клиент отправляет запрос на сервер для проверки подлинности. Сервер определяет, следует ли использовать Kerberos или NTLM. Выбран протокол Kerberos для проверки подлинности учетной записи домена, и для учетных записей локального компьютера выбран протокол NTLM. Имя пользователя должно быть указано в формате домен \\ имя_пользователя для пользователя домена или имени пользователя ServerName \\ для локального пользователя на компьютере сервера.
 
-[Управление учетными записями пользователей (UAC)](https://support.microsoft.com/help/922708/how-to-use-user-account-control-uac-in-windows-vista) влияет на доступ к службе WinRM. Если в Рабочей группе или домене используется проверка подлинности Negotiate, доступ к службе может получить только встроенная учетная запись администратора. Чтобы разрешить всем учетным записям в группе "Администраторы" доступ к службе, присвойте следующему разделу реестра значение 1: **hKey \_ Local \_ Machine \\ Software \\ Microsoft \\ Windows \\ CurrentVersion \\ политики \\ System \\ LocalAccountTokenFilterPolicy**.
+[Управление учетными записями пользователей (UAC)](https://support.microsoft.com/help/922708/how-to-use-user-account-control-uac-in-windows-vista) влияет на доступ к службе WinRM. Если в Рабочей группе или домене используется проверка подлинности Negotiate, доступ к службе может получить только встроенная учетная запись администратора. чтобы разрешить всем учетным записям в группе "администраторы" доступ к службе, задайте для следующего раздела реестра значение 1: **HKEY \_ LOCAL \_ MACHINE \\ SOFTWARE \\ Microsoft \\ Windows \\ CurrentVersion \\ политики \\ system \\ LocalAccountTokenFilterPolicy**.
 
 Связанный метод создания скриптов — это [**WSMan. сессионфлагусенеготиате**](wsman-sessionflagusenegotiate.md), а метод C++ — [**ивсманекс. сессионфлагусенеготиате**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagusenegotiate).
 

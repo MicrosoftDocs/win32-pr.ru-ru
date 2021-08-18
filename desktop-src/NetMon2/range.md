@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: bf465636f315e60e43350bb370e2002b8a96e635
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e0135a6210aebbca38bfdede00231315dd2680461f366930b24925eda830604
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119063724"
 ---
 # <a name="range-structure"></a>Структура диапазона
 
@@ -54,7 +54,7 @@ typedef struct range {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Структура **диапазона** используется для указания допустимого диапазона чисел для свойства протокола. Если элементу **квалификатора** класса **PropertyInfo** задано значение **prop \_ куал \_ Range**, то элемент **лпранже** структуры [PropertyInfo](propertyinfo.md) должен предоставить указатель на структуру **диапазона** .
 

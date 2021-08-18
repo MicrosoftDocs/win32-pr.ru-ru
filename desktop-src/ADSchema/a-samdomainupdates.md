@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 812a1995ec89f3827b7fcfd984edb2de164d0bd3
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d2c2bb6bc23e04874221fa65486247b1ed0dfd28f208ca41329b8528e558b257
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103893662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022212"
 ---
 # <a name="sam-domain-updates-attribute"></a>Атрибут SAM-Domain-Updates
 
@@ -55,7 +55,7 @@ ms.locfileid: "103893662"
 | Идентификатор ссылки                | \-                                           |
 | MAPI-Id                | \-                                           |
 | System-Only            | Неверно                                        |
-| Является однозначным       | True                                         |
+| Является однозначным       | Верно                                         |
 | Индексируется             | Неверно                                        |
 | В глобальном каталоге      | Неверно                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                 |
@@ -76,7 +76,7 @@ ms.locfileid: "103893662"
 | Идентификатор ссылки                | \-                                           |
 | MAPI-Id                | \-                                           |
 | System-Only            | Неверно                                        |
-| Является однозначным       | True                                         |
+| Является однозначным       | Верно                                         |
 | Индексируется             | Неверно                                        |
 | В глобальном каталоге      | Неверно                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                 |
@@ -97,7 +97,7 @@ ms.locfileid: "103893662"
 | Идентификатор ссылки                | \-                                           |
 | MAPI-Id                | \-                                           |
 | System-Only            | Неверно                                        |
-| Является однозначным       | True                                         |
+| Является однозначным       | Верно                                         |
 | Индексируется             | Неверно                                        |
 | В глобальном каталоге      | Неверно                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                 |

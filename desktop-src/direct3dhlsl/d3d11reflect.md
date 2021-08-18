@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e54a1f388ebb122398ad33c3a8d942496fa55393
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 44b980d955dcd37197c8d8ed05a6602025d1e21731ca6d22302b76cc2f2e53da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104157243"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986884"
 ---
 # <a name="d3d11reflect-function"></a>Функция D3D11Reflect
 
@@ -72,7 +72,7 @@ Type: **[ **size \_ T**](/windows/desktop/WinProg/windows-data-types)**
 
 Возвращает один из кодов возврата, описанных в разделе [коды возврата Direct3D 11](/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues).
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Встроенная функция компилятора **D3D11Reflect** является оболочкой для функции компилятора [**D3DReflect**](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dreflect) . **D3D11Reflect** может получать интерфейс [**ID3D11ShaderReflection**](/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11shaderreflection) только из шейдера. **D3DReflect** может получить интерфейс **ID3D11ShaderReflection** или интерфейс отражения direct3d 10 или Direct3D 10,1, например [**ID3D10ShaderReflection**](/windows/desktop/api/d3d10shader/nn-d3d10shader-id3d10shaderreflection).
 
@@ -92,13 +92,13 @@ D3D11Reflect( pPixelShaderBuffer->GetBufferPointer(), pPixelShaderBuffer->GetBuf
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DCompiler. inl</dt> </dl>     |
+| Заголовок<br/>  | <dl> <dt>D3DCompiler. inl</dt> </dl>     |
 | Библиотека<br/> | <dl> <dt>D3dcompiler \_ 47. lib</dt> </dl> |
 | DLL<br/>     | <dl> <dt>D3dcompiler \_47.dll</dt> </dl> |
 

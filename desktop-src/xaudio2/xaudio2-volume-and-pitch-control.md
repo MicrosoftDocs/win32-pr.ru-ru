@@ -4,12 +4,12 @@ ms.assetid: dedc2d01-af83-d7d2-5b64-743dcebc83f7
 title: Элемент управления громкостью и шагом XAudio2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2526cfa50c0260e90e1aae9e2bce21d507dc2e06
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b6376ad599b496a640b49d7eb539e1da774e31c71a3bf2a8e0c863fc140e19b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962493"
 ---
 # <a name="xaudio2-volume-and-pitch-control"></a>Элемент управления громкостью и шагом XAudio2
 
@@ -36,7 +36,7 @@ ms.locfileid: "104265428"
 
 Высота выражается в виде коэффициента ввода/вывода в диапазоне от 1 до 1024 до 1024/1 включительно. Отношение числа 1/1024 вниз к 10 октав, а коэффициент 1024/1 порождает его на 10 октав. Метод [**IXAudio2SourceVoice:: сетфрекуенциратио**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-setfrequencyratio) можно использовать только для применения корректировок высоты к исходным голосовым и только в том случае, если они не были созданы \_ с \_ флагом XAUDIO2 Voice. Коэффициент частоты по умолчанию — 1/1: то есть без изменения высоты. В XAudio2. h предусмотрены две встроенные функции для преобразования между коэффициентами частоты и семитонес: [**XAudio2FrequencyRatioToSemitones**](/windows/desktop/api/xaudio2/nf-xaudio2-xaudio2frequencyratiotosemitones) и [**XAudio2SemitonesToFrequencyRatio**](/windows/desktop/api/xaudio2/nf-xaudio2-xaudio2semitonestofrequencyratio).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -1,19 +1,19 @@
 ---
-description: Новые для Windows 7. Элемент container для элементов relatedProperty.
+description: новое для Windows 7. Элемент container для элементов relatedProperty.
 ms.assetid: F8BAAE5C-A7EA-487a-B829-91A27E24B58D
 title: релатедпропертинфо
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 442de657bed7e97f74064c39cc0934c65a6f520d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 203c6e0e65943e90c6106f5e49e1792e6b47345a930f5368bd22df3a1c03885d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662759"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970963"
 ---
 # <a name="relatedpropertyinfo"></a>релатедпропертинфо
 
-Новые для Windows 7. Элемент container для элементов [relatedProperty](./propdesc-schema-relatedproperty.md) . Для каждого элемента [пропертидескриптион](./propdesc-schema-propertydescription.md) должен быть только один элемент [релатедпропертинфо]() .
+новое для Windows 7. Элемент container для элементов [relatedProperty](./propdesc-schema-relatedproperty.md) . Для каждого элемента [пропертидескриптион](./propdesc-schema-propertydescription.md) должен быть только один элемент [релатедпропертинфо]() .
 
 ## <a name="syntax"></a>Синтаксис
 

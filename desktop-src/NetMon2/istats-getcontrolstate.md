@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 25532293335756a872ef5104d5eef66027fe2ae4
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 5dcc0ea5a7278364218bde23fbffdfa720070c9a54dbff0feb20abc1f161d024
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108098472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119063834"
 ---
 # <a name="istatsgetcontrolstate-method"></a>Метод Истатс:: Жетконтролстате
 
@@ -65,8 +65,8 @@ HRESULT STDMETHODCALLTYPE GetControlState(
 
 | Код возврата                                                                                            | Описание                                                                                                                       |
 |--------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**НМЕРР \_ не \_ подключен**</dt> </dl>   | НПП не подключен к сети. Вызовите [истатс:: Connect](istats-connect.md) , чтобы подключить НПП к сети.<br/> |
-| <dl> <dt>**НМЕРР \_ не \_ \_ только статистика**</dt> </dl> | НПП подключается к сети, но не с методом [истатс:: Connect](istats-connect.md) .<br/>                     |
+| <dl> <dt>**НМЕРР \_ не \_ подключен**</dt> </dl>   | НПП не подключен к сети. вызовите [истатс:: Подключение](istats-connect.md) , чтобы подключить нпп к сети.<br/> |
+| <dl> <dt>**НМЕРР \_ не \_ \_ только статистика**</dt> </dl> | нпп подключается к сети, но не с помощью метода [истатс:: Подключение](istats-connect.md) .<br/>                     |
 
 
 
@@ -89,14 +89,14 @@ HRESULT STDMETHODCALLTYPE GetControlState(
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 
 [истатс](istats.md)
 </dt> <dt>
 
-[Истатс:: Connect](istats-connect.md)
+[истатс:: Подключение](istats-connect.md)
 </dt> <dt>
 
 [Истатс::P Аусе](istats-pause.md)

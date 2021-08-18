@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Poclass.h
 - Batclass.h
-ms.openlocfilehash: 08d1e3b85d22122426f1e4648f47a808468bfb8f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 52885b75c7f9afba7ff336b3210ecf1b852f85b0091afe13026616816e43d7ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105663127"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143597"
 ---
 # <a name="battery_wait_status-structure"></a>\_ \_ Структура состояния ожидания аккумулятора
 
@@ -94,7 +94,7 @@ typedef struct _BATTERY_WAIT_STATUS {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Запросы сведений о батарее откладываются до тех пор, пока не произойдет одно из следующих событий:
 
@@ -114,9 +114,9 @@ typedef struct _BATTERY_WAIT_STATUS {
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                                                                                                                                                                                                         |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                                                                                                                                                                                |
-| Header<br/>                   | <dl> <dt>Покласс. h; </dt> <dt>Баткласс. h в Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista, Windows server 2003 и Windows XP</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                                                                                                                                                                                                         |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                                                                                                                                                                                |
+| Header<br/>                   | <dl> <dt>Покласс. h;</dt> <dt>баткласс. h на Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista, Windows Server 2003 и Windows XP</dt> </dl> |
 
 
 

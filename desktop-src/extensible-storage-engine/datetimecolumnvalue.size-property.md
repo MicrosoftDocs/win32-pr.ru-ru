@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a006cafa81f46ca36d5bb76aa678122c2c6eab66
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b2aab09b2a758527944a901046403c4cc59efaa7de8e6a901984471edd5527b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105719750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118982494"
 ---
 # <a name="datetimecolumnvaluesize-property"></a>Датетимеколумнвалуе. size, свойство
 
@@ -59,7 +59,7 @@ protected override int Size { get; }
 
 Тип: [System. Int32](/dotnet/api/system.int32)  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

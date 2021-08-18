@@ -8,12 +8,12 @@ keywords:
 - Active Directory AD, поиск, выбор места поиска
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f24baccd55e263c4d5b677996589ba57c1301e8
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 6984a79bb761c1926b6735a91209c9f387ac45619ffc752daef253a74f5e587a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104336756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024322"
 ---
 # <a name="deciding-where-to-search"></a>Выбор места поиска
 
@@ -44,6 +44,6 @@ ms.locfileid: "104336756"
 
 Глобальный каталог содержит реплику каждого объекта в службах домен Active Directory Services, но с небольшим количеством их атрибутов. Атрибуты в глобальном каталоге чаще всего используются в операциях поиска, таких как имена и фамилии пользователей, имена входа и т. д. Дополнительные сведения о поиске в глобальном каталоге см. [в разделе Поиск в глобальном каталоге](searching-global-catalog-contents.md).
 
- 
+ 
 
- 
+ 

@@ -3,7 +3,7 @@ title: Сообщение CB_GETITEMDATA (Winuser. h)
 description: Приложение отправляет \_ сообщение ЖЕТИТЕМДАТА CB в поле со списком для получения указанного приложением значения, связанного с указанным элементом в поле со списком.
 ms.assetid: 433b7f75-2831-4919-b931-c17ba651d145
 keywords:
-- Элементы управления Windows для CB_GETITEMDATA сообщений
+- элементы управления Windows сообщений CB_GETITEMDATA
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 643954cf266c52ccbeae082ffacf317c91bc7b33
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8427e666668303456d16c00ae460a608a51bc31cd59e0ee6fa6851031057695b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103802242"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019932"
 ---
 # <a name="cb_getitemdata-message"></a>\_Сообщение ЖЕТИТЕМДАТА CB
 
@@ -55,9 +55,9 @@ ms.locfileid: "103802242"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

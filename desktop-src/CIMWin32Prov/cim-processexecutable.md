@@ -20,12 +20,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: aedb1e79ad842e4cb04746ff47bfab142a536f43
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2e55d5116c4f3f9d14840b5a5e0b75205156dbbaee3aa21c2d14dbb25c53d4b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104072540"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119080418"
 ---
 # <a name="cim_processexecutable-class"></a>\_Класс CIM процессексекутабле
 
@@ -59,7 +59,7 @@ class CIM_ProcessExecutable : CIM_Dependency
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ процессексекутабле** имеет следующие свойства.
 
@@ -163,7 +163,7 @@ class CIM_ProcessExecutable : CIM_Dependency
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **CIM \_ процессексекутабле** является производным от [**\_ зависимости CIM**](cim-dependency.md).
 
