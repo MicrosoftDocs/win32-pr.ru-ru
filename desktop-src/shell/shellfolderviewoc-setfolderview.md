@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 7d331fadbd8abae62ee896caec772d84d079f88d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 41a37d1b8f9874bdddd5a9593e0eade8bc0b5b92d30f8ada4ee9c6295af1d632
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104985872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968403"
 ---
 # <a name="shellfolderviewocsetfolderview-method"></a>Шеллфолдервиевок. Сетфолдервиев, метод
 
@@ -42,21 +42,21 @@ iRetVal = ShellFolderViewOC.SetFolderView(
 *ошеллфолдервиев* \[ окне\]
 </dt> <dd>
 
-Тип: **[**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) \** _
+Тип: **[ **IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch)\***
 
-Объект [_ *шеллфолдервиев* *](shellfolderview.md) . Его события [**енумдоне**](shellfolderviewoc-enumdone.md) и [**SelectionChanged**](shellfolderview-selectionchanged.md) будут перенаправляться в соответствующий обработчик событий [**шеллфолдервиевок**](shellfolderviewoc-object.md) .
+Объект [**шеллфолдервиев**](shellfolderview.md) . Его события [**енумдоне**](shellfolderviewoc-enumdone.md) и [**SelectionChanged**](shellfolderview-selectionchanged.md) будут перенаправляться в соответствующий обработчик событий [**шеллфолдервиевок**](shellfolderviewoc-object.md) .
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                          |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                          |
+| Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (версия 5,0 или более поздняя)</dt> </dl> |
 

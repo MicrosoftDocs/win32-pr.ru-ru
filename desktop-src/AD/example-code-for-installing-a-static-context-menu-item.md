@@ -5,12 +5,12 @@ ms.assetid: 22d6a220-7712-4b07-a6d9-67dd748358a6
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33a8b6eb65706ad3adc9fd4c10b4c60f96a72848
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a16e4ff9890aa73b1107fe511c3e41480b5db7f1bb68a8a264a990cf58a94ea4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104486600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962323"
 ---
 # <a name="example-code-for-installing-a-static-context-menu-item"></a>Пример кода для установки статического элемента контекстного меню
 
@@ -18,8 +18,8 @@ ms.locfileid: "104486600"
 
 Выполнение примера кода
 
-1.  Скопируйте код для Frommenu.vbs ниже, откройте Блокнот, вставьте код в блокнот, сохраните файл как C: \\frommenu.vbs и закройте Блокнот.
-2.  Скопируйте код для Addmenu.vbs ниже, откройте Блокнот, вставьте код в блокнот, сохраните файл как C: \\addmenu.vbs и закройте Блокнот.
+1.  скопируйте код для Frommenu.vbs ниже, откройте Блокнот, вставьте код в Блокнот, сохраните файл как C: \\frommenu.vbs и закройте Блокнот.
+2.  скопируйте код для Addmenu.vbs ниже, откройте Блокнот, вставьте код в Блокнот, сохраните файл как C: \\addmenu.vbs и закройте Блокнот.
 3.  Запустите Addmenu.vbs.
 4.  Запустите оснастку Active Directory пользователи и компьютеры.
 
@@ -126,9 +126,9 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 
 
 
 

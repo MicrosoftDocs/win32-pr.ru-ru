@@ -4,12 +4,12 @@ ms.assetid: 5552b7b0-1c95-43fa-ad06-c167c69c5a56
 title: Запись текста в объектную модель XPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4cca953d5281620cf7b7d9b7b07c133bee0d4de
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ff2c77106649960982888d7ee8d6e4b679bd62e44be1e0dc9786206261b62bbe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265346"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119718534"
 ---
 # <a name="write-text-to-an-xps-om"></a>Запись текста в объектную модель XPS
 
@@ -216,7 +216,7 @@ WriteText_AddTextToPage(
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

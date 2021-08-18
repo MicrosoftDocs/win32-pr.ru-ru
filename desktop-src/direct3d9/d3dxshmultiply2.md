@@ -17,12 +17,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9math.h
-ms.openlocfilehash: f7b9adaf5caf7b4b2d35035fd5c2a916298b0c8c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 00219ed1c38105562591b63e6bef64b949b2ab4443aed68e0e6b9d64cb156cc7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713610"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119849694"
 ---
 # <a name="d3dxshmultiply2-function-d3dx9mathh"></a>Функция D3DXSHMultiply2 (D3dx9math. h)
 
@@ -78,7 +78,7 @@ FLOAT* D3DXSHMultiply2(
 
 Указатель на коэффициенты вывода SH.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Порядок — это число от 2 до 6 включительно. В действительности эта страница документирует несколько функций: D3DXSHMultiply2, D3DXSHMultiply3,... D3DXSHMultiply6.
 
@@ -90,7 +90,7 @@ FLOAT* D3DXSHMultiply2(
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx9math. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx9math. h</dt> </dl> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: c51cd9bd-3c55-4eec-ab67-172765adc51c
 title: Таблица ServiceControl
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c2abd123e937673694dffd53773a16fcbd704c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24b8531fb70c1887d77ae9b09bf3fe7e59de0c7878dfac44707df942e838f4f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103815192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039984"
 ---
 # <a name="servicecontrol-table"></a>Таблица ServiceControl
 
@@ -26,11 +26,11 @@ ms.locfileid: "103815192"
 
 | Столбец         | Type                         | Ключ | Допускает значения NULL |
 |----------------|------------------------------|-----|----------|
-| ServiceControl | [Идентификатор](identifier.md) | Да   | Нет        |
+| ServiceControl | [Идентификатор](identifier.md) | Д   | Нет        |
 | Имя           | [Формате](formatted.md)   | Нет   | Нет        |
 | Событие          | [Integer](integer.md)       | Нет   | Нет        |
-| Аргументы      | [Формате](formatted.md)   | Нет   | Да        |
-| Ожидание           | [Integer](integer.md)       | Нет   | Да        |
+| Аргументы      | [Формате](formatted.md)   | Нет   | Д        |
+| Ожидание           | [Integer](integer.md)       | Нет   | Д        |
 | Компонент\_    | [Идентификатор](identifier.md) | Нет   | Нет        |
 
 
@@ -115,7 +115,7 @@ ms.locfileid: "103815192"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Действия [стартсервицес](startservices-action.md), [стопсервицес](stopservices-action.md)и [делетесервицес](deleteservices-action.md) в [*таблицах последовательностей*](s-gly.md) обрабатывают сведения, приведенные в этой таблице. Дополнительные сведения об использовании *таблиц последовательности* см. [в разделе Использование таблицы последовательностей](using-a-sequence-table.md).
 

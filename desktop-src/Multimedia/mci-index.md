@@ -3,7 +3,7 @@ title: Команда MCI_INDEX (Ммсистем. h)
 description: '\_Команда указателя MCI включает или выключает экран на экране. Устройства ВИДЕОМАГНИТОФОНА распознают эту команду.'
 ms.assetid: c0f18f28-3578-4648-9b75-2d3ede68b3df
 keywords:
-- MCI_INDEX команды мультимедиа Windows
+- команда MCI_INDEX Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d1e93890b8c3db1150bc7224b0fd8b6ee7475ced
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6e8e867098438a9df0be03646d85ff33fe857b285d0fda2763a3cecd46075f8c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137582"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039214"
 ---
 # <a name="mci_index-command"></a>\_Команда указателя MCI
 
@@ -68,7 +68,7 @@ MCIERROR mciSendCommand(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Сведения, представленные на экране экрана, контролируются \_ \_ флагом индекса набора видеомагнитофона MCI \_ в команде [MCI \_ Set](mci-set.md) .
 
@@ -90,7 +90,7 @@ MCIERROR mciSendCommand(
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -98,11 +98,11 @@ MCIERROR mciSendCommand(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -6,12 +6,12 @@ keywords:
 - Удаленный вызов процедур RPC, задачи, разработка клиента
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10ceddedc4ccfd1d068e3452b64ed8c6b54a621d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fccc719d724ecdcc5631c5f72c5190870f864e06affd45bcce3e7f2da79fb709
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987790"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120021903"
 ---
 # <a name="developing-the-client"></a>Разработка клиента
 
@@ -29,8 +29,8 @@ ms.locfileid: "103987790"
 
 Файлы Миклнт. c и MyApp \_ c. c компилируются и связываются вместе с библиотекой времени выполнения RPC и другими библиотеками, которые требуются клиентской программе. Результатом является исполняемая клиентская программа с именем MyClnt.exe.
 
-Если вы не компилируете IDL-файл в режиме совместимости использование ([**/ОСФ**](/windows/desktop/Midl/-osf)), клиентская программа должна предоставить функцию для выделения памяти и функцию для ее освобождения. Для Windows 2000 и более поздних версий рекомендуется использовать режим [**/Oicf**](/windows/desktop/Midl/-oi). Дополнительные сведения см. в статье [о выделении и](how-memory-is-allocated-and-deallocated.md)освобождении памяти и назначении [указателей и выделении памяти](pointers-and-memory-allocation.md).
+Если вы не компилируете IDL-файл в режиме совместимости использование ([**/ОСФ**](/windows/desktop/Midl/-osf)), клиентская программа должна предоставить функцию для выделения памяти и функцию для ее освобождения. для Windows 2000 и более поздних версий рекомендуется использовать режим [**/Oicf**](/windows/desktop/Midl/-oi). Дополнительные сведения см. в статье [о выделении и](how-memory-is-allocated-and-deallocated.md)освобождении памяти и назначении [указателей и выделении памяти](pointers-and-memory-allocation.md).
 
- 
+ 
 
- 
+ 

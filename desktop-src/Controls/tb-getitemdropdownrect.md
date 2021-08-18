@@ -3,7 +3,7 @@ title: Сообщение TB_GETITEMDROPDOWNRECT (Коммктрл. h)
 description: Возвращает ограничивающий прямоугольник раскрывающегося окна для элемента панели инструментов с \_ раскрывающимся списком Style бтнс.
 ms.assetid: 4b59c96b-8d75-44c1-b771-c1d62502a2c2
 keywords:
-- Элементы управления Windows для TB_GETITEMDROPDOWNRECT сообщений
+- элементы управления Windows сообщений TB_GETITEMDROPDOWNRECT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dbcbcef725b0ade0bfc776200fa5b191618d2ccb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ecd2dfc8a48ff735bfb8bcc99bc0baf36555eee9d995c3f453a95ea2910948a6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918704"
 ---
 # <a name="tb_getitemdropdownrect-message"></a>\_Сообщение ЖЕТИТЕМДРОПДОВНРЕКТ ТБ
 
@@ -43,7 +43,7 @@ ms.locfileid: "104071247"
 
 Всегда возвращает ненулевое значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент должен иметь стиль [**\_ раскрывающегося списка бтнс**](toolbar-control-and-button-styles.md) .
 
@@ -53,9 +53,9 @@ ms.locfileid: "104071247"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

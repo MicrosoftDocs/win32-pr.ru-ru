@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c075d8ff47b1f76adf378b6a583cd4d675651a87
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 03dd2d9051c185d1be1ccb6fce18549bf5aa3414975c9a600bb8f8c47f78d4c3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104412261"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854554"
 ---
 # <a name="source-register-swizzling-hlsl-vs-reference"></a>Исходный регистр группирующие (HLSL VS Reference)
 
@@ -32,7 +32,7 @@ ms.locfileid: "104412261"
 
 
 
- 
+ 
 
 -   Все четыре компонента всегда копируются. Если указано менее четырех компонентов, последний компонент повторяется (XY означает. КсИИИ). Если компоненты не указаны, x повторяется (. xxxx).
 -   Компоненты могут отображаться в любом порядке. v0. ивкс приводит к v0. ивкскс.
@@ -41,16 +41,16 @@ ms.locfileid: "104412261"
 
 Группирующие нельзя использовать в инструкциях [m3x2-VS](m3x2---vs.md), [m3x3-VS](m3x3---vs.md), [m4x3-VS](m4x3---vs.md)и [m4x4-VS](m4x4---vs.md) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Модификаторы регистра для шейдера вершин](dx9-graphics-reference-asm-vs-registers-modifiers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

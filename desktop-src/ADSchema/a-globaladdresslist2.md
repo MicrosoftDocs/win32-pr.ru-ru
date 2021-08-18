@@ -1,6 +1,6 @@
 ---
 title: Атрибут Global-Address-list2
-description: Этот атрибут используется в контейнере Microsoft Exchange для хранения различающегося имени только что созданного глобального списка адресов (GAL).
+description: этот атрибут используется в контейнере Microsoft Exchange для хранения различающегося имени только что созданного глобального списка адресов (GAL).
 ms.assetid: edccbdb5-83c4-4832-86ca-056c78f388f6
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4064498ff6f182fe74c355fa345994d8330ef31e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f913e81a10cc392fcf330139023c3a210cc762709e2570189ca26d8a74641e21
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105655273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119705984"
 ---
 # <a name="global-address-list2-attribute"></a>Атрибут Global-Address-list2
 
-Этот атрибут используется в контейнере Microsoft Exchange для хранения различающегося имени только что созданного глобального списка адресов (GAL).
+этот атрибут используется в контейнере Microsoft Exchange для хранения различающегося имени только что созданного глобального списка адресов (GAL).
 
 
 

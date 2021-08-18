@@ -4,12 +4,12 @@ ms.assetid: e98bf6ca-0572-419b-8bc0-bc0239f8a6ff
 title: System. Media. подзаголовок
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01af95d8b190d43fe791383a78f37f38c36d05be
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 2139c3ef66e4b0a3e3afddfc00fb4e32c8edb0e14c8da731175cb60d1cc3a2d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108091942"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970353"
 ---
 # <a name="systemmediasubtitle"></a>System. Media. подзаголовок
 
@@ -32,7 +32,7 @@ propertyDescription
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

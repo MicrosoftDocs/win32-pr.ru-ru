@@ -24,18 +24,18 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 427361962ee2161e4f4c7448eb9ef21b7369e36c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee601d51acb75e4a6338952837e980d0e09da7d0cb06431a4bd197f04d495693
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155007"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120017604"
 ---
 # <a name="jet_convert-class"></a>Класс JET_CONVERT
 
 **Примечание. Теперь этот API устарел.**
 
-Параметры преобразования для [жеткомпакт (JET_SESID, String, String, JET_PFNSTATUS, JET_CONVERT, компактгрбит)](./api.jetcompact-method.md). Эта функция прекращена в Windows Server 2003.
+Параметры преобразования для [жеткомпакт (JET_SESID, String, String, JET_PFNSTATUS, JET_CONVERT, компактгрбит)](./api.jetcompact-method.md). эта функция прекращена в Windows Server 2003.
 
 ## <a name="inheritance-hierarchy"></a>Иерархия наследования
 
@@ -64,7 +64,7 @@ public abstract class JET_CONVERT
 
 Любые общедоступные статичные (общие в Visual Basic) члены этого типа являются потокобезопасными. Потокобезопасная работа с членами экземпляров типа не гарантируется.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

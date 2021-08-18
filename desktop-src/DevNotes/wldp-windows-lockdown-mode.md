@@ -1,5 +1,5 @@
 ---
-description: Описывает режимы защищенного режима (S) для устройства Windows.
+description: описание защищенных режимов (режимов S) для Windows устройства.
 ms.assetid: CE50AC56-0295-477C-93CB-ABAB92482A59
 title: Перечисление WLDP_WINDOWS_LOCKDOWN_MODE (Wldp. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - wldp.h
-ms.openlocfilehash: 438a44bec0745ea67b2b40c3f8aa9c0dd6bd0072
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 93a3ae8ef00c306d93995a3a97236fc9086185147144c4314726c507d8b52e57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119911344"
 ---
 # <a name="wldp_windows_lockdown_mode-enumeration"></a>\_ \_ Перечисление в режиме блокировки Windows \_ WLDP
 
-Описывает режимы защищенного режима (S) для устройства Windows. Используется в основном в [**влдпкуеривиндовслоккдовнмоде**](wldpquerywindowslockdownmode.md).
+описание защищенных режимов (режимов S) для Windows устройства. Используется в основном в [**влдпкуеривиндовслоккдовнмоде**](wldpquerywindowslockdownmode.md).
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -45,21 +45,21 @@ typedef enum _WLDP_WINDOWS_LOCKDOWN_MODE {
 <span id="WLDP_WINDOWS_LOCKDOWN_MODE_UNLOCKED"></span><span id="wldp_windows_lockdown_mode_unlocked"></span>**WLDP \_ \_ режим блокировки \_ Windows \_ разблокирован**
 </dt> <dd>
 
-Разблокирован. Используется в основном для устройств Windows без режима S.
+Разблокирован. используется в основном для Windows устройств без режима S.
 
 </dd> <dt>
 
 <span id="WLDP_WINDOWS_LOCKDOWN_MODE_TRIAL"></span><span id="wldp_windows_lockdown_mode_trial"></span>**\_ \_ \_ \_ пробная версия режима блокировки Windows WLDP**
 </dt> <dd>
 
-ПК. Используется в основном для пробного устройства Windows 10 с режимом S. Режим пробной версии — особый случай для устройств Windows 10 с режимом S: политики применяются принудительно, но защита от отката для принудительной установки политики отсутствует.
+ПК. используется в основном для Windows 10 пробного устройства с режимом S. режим пробной версии — особый случай для Windows 10 устройств с режимом S: политики применяются, но защита от отката для принудительной установки политики отсутствует.
 
 </dd> <dt>
 
 <span id="WLDP_WINDOWS_LOCKDOWN_MODE_LOCKED"></span><span id="wldp_windows_lockdown_mode_locked"></span>**WLDP \_ \_ режим блокировки \_ Windows \_ заблокирован**
 </dt> <dd>
 
-Блокирован. Используется в основном для устройства Windows 10 с режимом S. Заблокированное устройство будет принудительно применять подписанные политики Device Guard, поставляемые с образом ОС Windows 10 с режимом S.
+Блокирован. используется в основном для Windows 10 устройства с режимом S. заблокированное устройство будет принудительно применять подписанные политики device Guard, поставляемые с Windows 10 образом ос с режимом S.
 
 </dd> <dt>
 
@@ -76,7 +76,7 @@ typedef enum _WLDP_WINDOWS_LOCKDOWN_MODE {
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Wldp. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Wldp. h</dt> </dl> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 715e3161-d85a-45c0-84df-c6c360b266a1
 title: Запись связанных событий в поставщик на основе манифеста
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb9508996503f53c738d62fac32905919a8c73ef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f7f6d09e7e95617b662c3530497b199925921ef9abfd4f3825a5ac799886f95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104543066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015212"
 ---
 # <a name="writing-related-events-in-a-manifest-based-provider"></a>Запись связанных событий в поставщик на основе манифеста
 

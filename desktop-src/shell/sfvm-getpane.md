@@ -4,12 +4,12 @@ ms.assetid: 9621b921-e97f-4219-953a-7c961a81c379
 title: Сообщение SFVM_GETPANE (Шлобж. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2800be1b7b427e13014686e587b51fc4bf7d7617
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58ef936d4218c29c8d0574e97b8de73c1a0d54f4d62df7dba4f43f371bfeaf95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968673"
 ---
 # <a name="sfvm_getpane-message"></a>\_Сообщение сфвм
 
@@ -133,17 +133,17 @@ SFVM_GETPANE
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                         |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                         |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                |
 | Окончание поддержки клиента<br/>    | Windows XP с пакетом обновления 2 (SP2)<br/>                                                      |
 | Поддержка конца сервера<br/>    | Windows Server 2003<br/>                                                      |
-| Header<br/>                   | <dl> <dt>Шлобж. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Шлобж. h</dt> </dl> |
 
 
 

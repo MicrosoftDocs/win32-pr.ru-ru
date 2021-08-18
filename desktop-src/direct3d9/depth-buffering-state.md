@@ -4,12 +4,12 @@ ms.assetid: 03795e4e-1daa-48e3-8724-8dd4b5187edc
 title: Состояние буферизации глубины (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e632d3dfe6eebd54970c59ef6a666cfcb0950fcb
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 54d6d0494511c7fc0434d97988152426eb888d6c3044de4e2359ac2cb41110ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104494919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118988317"
 ---
 # <a name="depth-buffering-state-direct3d-9"></a>Состояние буферизации глубины (Direct3D 9)
 
@@ -37,7 +37,7 @@ d3dDevice->SetRenderState(D3DRS_ZENABLE, D3DZB_TRUE);
 
 Z-смещение — это метод отображения одной поверхности перед другой, даже если их значения глубины одинаковы. Этот метод можно использовать для различных эффектов. Распространенным примером является Визуализация теней на стен. И тень, и стенка имеют одинаковое значение глубины. Однако приложение должно отображать тень на стене. Благодаря смещению z-смещения к теневой версии Direct3D отображает их должным образом (см. раздел D3DRS \_ депсбиас).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

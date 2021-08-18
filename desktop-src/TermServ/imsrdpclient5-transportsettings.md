@@ -66,7 +66,7 @@ HRESULT get_TransportSettings(
 
 Указатель интерфейса [**имсрдпклиенттранспортсеттингс**](imsrdpclienttransportsettings.md) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

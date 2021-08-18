@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 65b0b5b3ace1634a20dfa63382d82099fef0686e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50240fbf10155fae555c6cd2e30bf8c86c571b8d52b86e02eab9f5bb11ac17ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965583"
 ---
 # <a name="iwiaitem2checkextension-method"></a>Метод IWiaItem2:: Чеккекстенсион
 
@@ -72,9 +72,9 @@ HRESULT CheckExtension(
 *пбекстенсионексистс* \[ заполняет\]
 </dt> <dd>
 
-Тип: **bool \** _
+Тип: **bool \*** .
 
-Получает указатель на _ * BOOL * *.
+Получает указатель на **логическое** значение.
 
 <dt>
 
@@ -106,7 +106,7 @@ HRESULT CheckExtension(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 С помощью этого метода приложения могут проверить, доступно ли расширение, до вызова метода [**IWiaItem2::-Extension**](-wia-iwiaitem2-getextension.md) . Кроме того, приложение может проверить, какие расширения доступны без совместного создания, а затем решить, какой из них следует использовать.
 
@@ -160,15 +160,15 @@ CheckImgFilter(
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                               |
-| Header<br/>                   | <dl> <dt>WIA. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                               |
+| Заголовок<br/>                   | <dl> <dt>WIA. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl> |
 
 

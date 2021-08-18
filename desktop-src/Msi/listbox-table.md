@@ -4,12 +4,12 @@ ms.assetid: 1963adcf-f682-4371-ab44-f91e90105dc0
 title: Таблица ListBox
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e5f60fb6ac48860c7893b0320b54e6e54dcf1691
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b8877db002185cd675914eca6d5be38454796c7b50af6a48f88e0e63c10c195
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043194"
 ---
 # <a name="listbox-table"></a>Таблица ListBox
 
@@ -21,10 +21,10 @@ ms.locfileid: "103998796"
 
 | Столбец   | Type                         | Ключ | Допускает значения NULL |
 |----------|------------------------------|-----|----------|
-| Свойство | [Идентификатор](identifier.md) | Да   | Нет        |
-| Заказ    | [Integer](integer.md)       | Да   | Нет        |
+| Свойство | [Идентификатор](identifier.md) | Д   | Нет        |
+| Номер    | [Integer](integer.md)       | Д   | Нет        |
 | Значение    | [Формате](formatted.md)   | Нет   | Нет        |
-| Текст     | [Формате](formatted.md)   | Нет   | Да        |
+| Текст     | [Формате](formatted.md)   | Нет   | Д        |
 
 
 
@@ -62,7 +62,7 @@ ms.locfileid: "103998796"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Содержимое полей Value и Text форматируется функцией [**мсиформатрекорд**](/windows/desktop/api/Msiquery/nf-msiquery-msiformatrecorda) при создании элемента управления, поэтому они могут содержать любое выражение, которое может интерпретировать функция **мсиформатрекорд** . Форматирование происходит только при создании элемента управления и не обновляется, если свойство, вовлеченное в выражение, изменяется в течение жизненного цикла элемента управления.
 

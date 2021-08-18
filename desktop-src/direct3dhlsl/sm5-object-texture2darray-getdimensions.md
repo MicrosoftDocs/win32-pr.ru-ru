@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b3a78bd12f6924c85d4d395c3cdf73443ae51478
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: c655313147a568e5eb33ddf30a2acd2be3549ca4d57bc8510ef974199ea3740d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104986196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985874"
 ---
 # <a name="texture2darraygetdimensions-function"></a>Функция Texture2DArray:: Dimension
 
@@ -45,7 +45,7 @@ void GetDimensions(
 
 Тип: **[ **uint**](/windows/desktop/WinProg/windows-data-types)**
 
-Необязательный параметр. Уровень mipmap (должен быть указан, если используется *нумберофлевелс* ).
+Необязательный элемент. Уровень mipmap (должен быть указан, если используется *нумберофлевелс* ).
 
 </dd> <dt>
 
@@ -87,9 +87,9 @@ void GetDimensions(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Nothing
+Ничего
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Это список перегруженных версий этого метода.
 
@@ -130,7 +130,7 @@ void GetDimensions(out float Width,
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

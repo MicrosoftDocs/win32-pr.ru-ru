@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa01d20bfeebfa3f689a58aae5c5face8b879e3c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b2400be04e6955807bb6b2a60e712323f8993e55ecc031086afb3597f3962091
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103914791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119632564"
 ---
 # <a name="id3dx11effectgetconstantbufferbyname-method"></a>Метод ID3DX11Effect:: Жетконстантбуффербинаме
 
@@ -43,7 +43,7 @@ ID3DX11EffectConstantBuffer* GetConstantBufferByName(
 
 <dl> <dt>
 
-*имя*; 
+*Имя* 
 </dt> <dd>
 
 Тип: **[ **LPCSTR**](/windows/desktop/WinProg/windows-data-types)**
@@ -58,7 +58,7 @@ ID3DX11EffectConstantBuffer* GetConstantBufferByName(
 
 Указатель на буфер константы, указанный в имени. См. [**ID3DX11EffectConstantBuffer**](id3dx11effectconstantbuffer.md).
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Для действия, содержащего переменную, которая будет доступна для чтения и записи приложением, требуется по крайней мере один буфер константы. Для лучшей производительности результат должен организовывать переменные в один или несколько буферов констант в зависимости от частоты обновления.
 
@@ -73,7 +73,7 @@ ID3DX11EffectConstantBuffer* GetConstantBufferByName(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
+| Заголовок<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
 | Библиотека<br/> | <dl> <dt>Н/д (библиотека Effects 11 доступна в сети в качестве общего источника.)</dt> </dl> |
 
 

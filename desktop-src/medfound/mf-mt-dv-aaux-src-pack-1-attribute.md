@@ -4,12 +4,12 @@ ms.assetid: c9d350bd-bf49-4c2c-a12f-3b5b475ac103
 title: Атрибут MF_MT_DV_AAUX_SRC_PACK_1 (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b99c78bff3e571144224ea0e6f65ca14505def3f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 70a4fa119c2a34d01a4c01415fd85c9e9c496e4b1bb06a0e62099a9947a079e5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105656667"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119714684"
 ---
 # <a name="mf_mt_dv_aaux_src_pack_1-attribute"></a>% \_ MF \_ DV \_ ааукс \_ src \_ , \_ атрибут Pack 1
 
@@ -19,9 +19,9 @@ ms.locfileid: "105656667"
 
 **UINT32**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Этот атрибут соответствует элементу **dwDVAAuxSrc1** структуры [**двинфо**](/windows/win32/api/strmif/ns-strmif-dvinfo) DirectShow.
+этот атрибут соответствует элементу **dwDVAAuxSrc1** структуры DirectShow [**двинфо**](/windows/win32/api/strmif/ns-strmif-dvinfo) .
 
 Константа GUID для этого атрибута экспортируется из мфууид. lib.
 
@@ -31,9 +31,9 @@ ms.locfileid: "105656667"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows Vista \|\]<br/>                              |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 \|\]<br/>                        |
-| Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Приложения UWP для классических приложений Vista \|\]<br/>                              |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для классических приложений сервера 2008 \|\]<br/>                        |
+| Заголовок<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 
 

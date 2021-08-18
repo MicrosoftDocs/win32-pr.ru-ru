@@ -1,19 +1,19 @@
 ---
 title: Источники обнаружения расширенных сведений об ошибках
-description: Обнаружение расширенных сведений об ошибках удаленного вызова процедур (RPC) для Windows XP.
+description: обнаружение расширенных сведений об ошибках удаленного вызова процедур (RPC) для Windows XP.
 ms.assetid: 73c4d044-363f-4bf5-a8ea-37d8a227183a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05effd769a6da711b881c4b475b4ade8d7c1812f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: cd5f4ac679428c0ce3e933f7d537867fd96c490caf2880b6b6e2d69cc08f74a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070421"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120021336"
 ---
 # <a name="extended-error-information-detection-locations"></a>Источники обнаружения расширенных сведений об ошибках
 
-В следующей таблице перечислены расширенные расположения обнаружения сведений об ошибках для Windows XP.
+в следующей таблице перечислены расширенные расположения обнаружения сведений об ошибках для Windows XP.
 
 
 
@@ -205,8 +205,8 @@ ms.locfileid: "104070421"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

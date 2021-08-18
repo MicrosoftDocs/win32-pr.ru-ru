@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c1aa3d4960799c2286e17709258ea90b76332bc2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e9ab7cbb5d199b0908c2eb51ffb5a70eda7eb1336bd66a1645daad61b3202d69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105658059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120056714"
 ---
 # <a name="cbasecontrolwindowsetcontrolwindowpin-method"></a>Кбасеконтролвиндов. Сетконтролвиндовпин, метод
 
@@ -53,22 +53,22 @@ void SetControlWindowPin(
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция члена задает \_ переменную члена m ппин, равную параметру ппин. Как описано в конструкторе, интерфейс можно вызывать только после успешного подключения фильтра. Объект передается через эту функцию-член в закрепление, с которым она должна быть синхронизирована; в большинстве случаев он определяет, подключен ли ПИН-код каждый раз, когда он имеет метод интерфейса, и \_ при сбое ВОЗВРАЩАЕТ VFW E \_ Not \_ Connected.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ктлутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>ктлутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

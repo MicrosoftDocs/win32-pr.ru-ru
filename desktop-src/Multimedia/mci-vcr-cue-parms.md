@@ -3,7 +3,7 @@ title: Структура MCI_VCR_CUE_PARMS (видеомагнитофон. h)
 description: '\_Структура Cue пармс на магнитофоне MCI \_ \_ содержит параметры для \_ команды MCI CUE для устройств записи видеокассет.'
 ms.assetid: b2ac0c43-93ea-41c9-b886-542bda57b59e
 keywords:
-- MCI_VCR_CUE_PARMS структура мультимедиа Windows
+- структура MCI_VCR_CUE_PARMS Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8eeae20495281640718f95066476f0f3ac89dc6f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2ff14bf6db2fee24b2cee426114b460dc5e4682bd00e14f7b68a91695bab1f66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038244"
 ---
 # <a name="mci_vcr_cue_parms-structure"></a>\_ \_ Структура Cue пармс для видеомагнитофона \_ MCI
 
@@ -63,7 +63,7 @@ typedef struct tagMCI_VCR_CUE_PARMS {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При назначении данных членам этой структуры установите соответствующие флаги в параметре *фдвкомманд* функции [**мЦисендкомманд**](/previous-versions//dd757160(v=vs.85)) , чтобы проверить элементы.
 

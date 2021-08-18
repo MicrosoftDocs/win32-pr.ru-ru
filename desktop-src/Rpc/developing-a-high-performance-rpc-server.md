@@ -1,27 +1,27 @@
 ---
 title: Разработка высокопроизводительного RPC-сервера
-description: Сведения в этом разделе относятся к удаленным последовательностям протоколов нкакн \_ IP \_ TCP, нкакн \_ http, нкакн \_ NP, а также к Windows 2000 и Windows XP.
+description: сведения в этом разделе относятся к удаленным последовательностям протоколов нкакн \_ ip \_ tcp, нкакн \_ http, нкакн \_ np, а также к Windows 2000 и Windows XP.
 ms.assetid: 7b4239af-951b-4d1b-8ac3-224279f6929e
 keywords:
 - Удаленный вызов процедур RPC, рекомендации, Разработка высокопроизводительного сервера
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a18319c1f4ade80ae026b68c8f5540030b992b7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 841c52587410b10ae17f2ebd858863327aaf5ab1def92600259c8e49edc87946
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104488157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120021773"
 ---
 # <a name="developing-a-high-performance-rpc-server"></a>Разработка высокопроизводительного RPC-сервера
 
-Сведения в этом разделе относятся к удаленным последовательностям протоколов: [**нкакн \_ IP \_ TCP**](/windows/desktop/Midl/ncacn-ip-tcp), [**нкакн \_ http**](/windows/desktop/Midl/ncacn-http), [**нкакн \_ NP**](/windows/desktop/Midl/ncacn-np), а также к Windows 2000 и Windows XP.
+сведения в этом разделе относятся к удаленным последовательностям протоколов: [**нкакн \_ ip \_ tcp**](/windows/desktop/Midl/ncacn-ip-tcp), [**нкакн \_ http**](/windows/desktop/Midl/ncacn-http), [**нкакн \_ np**](/windows/desktop/Midl/ncacn-np)и to Windows 2000 и Windows XP.
 
 В этом разделе рассматриваются три основных аспекта производительности сервера RPC.
 
 -   [Задержка и пропускная способность сети](network-latency-and-throughput.md)
 -   [Масштабируемость](scalability.md)
--   [Прочие советы по повышению производительности RPC](miscellaneous-rpc-performance-tips.md)
+-   [прочие Советы производительности RPC](miscellaneous-rpc-performance-tips.md)
 
 Длина кода пути — это еще один основной фактор производительности для RPC. Длина пути к коду обычно понятна, а поскольку литература и средства широко доступны в этом разделе, в этой статье не рассматривается.
 
@@ -29,6 +29,6 @@ ms.locfileid: "104488157"
 
 Если система развернута в различных средах, рекомендуется убедиться, что все его аспекты настроены правильно, так как разные среды могут создавать различные узкие места производительности.
 
- 
+ 
 
- 
+ 

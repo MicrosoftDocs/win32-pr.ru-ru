@@ -4,12 +4,12 @@ ms.assetid: 18ec02f1-6a1b-486c-9493-c435ae0103f1
 title: System. GPS. Траккнумератор
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05c94c9e7903842154862201f9dbc77059031c4b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8524965887c666a3e1afdfc5bfb93dd54566553ccdd0625ef342c70d6cf39cb0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105702173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033512"
 ---
 # <a name="systemgpstracknumerator"></a>System. GPS. Траккнумератор
 
@@ -30,11 +30,11 @@ propertyDescription
       type = UInt32
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

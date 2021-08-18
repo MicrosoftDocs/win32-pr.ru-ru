@@ -110,7 +110,7 @@ typedef enum D3DX10_MESHOPT {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

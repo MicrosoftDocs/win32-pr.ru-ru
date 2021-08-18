@@ -14,17 +14,17 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 220cb69bd53a27a9f8572ab1e49fff0b01cd38dc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f92107e4ad7cf9f42ad80566cc8902cef987d52d85e13e4d36cddc05a24878ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105661781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119911944"
 ---
 # <a name="netconfigget"></a>нетконфигжет
 
 Функция **нетконфигжет** устарела. Он включен для обеспечения совместимости с 16-разрядными версиями Windows. Другие приложения должны использовать [Реестр](/windows/desktop/SysInfo/registry).
 
- 
+ 
 
- 
+ 

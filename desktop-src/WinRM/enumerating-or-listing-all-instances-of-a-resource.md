@@ -1,6 +1,6 @@
 ---
 title: Перечисление или составление списка всех экземпляров ресурса
-description: Метод Session. Enumerate является служба удаленного управления Windowsным подходом для получения всех экземпляров указанного ресурса.
+description: метод Session. enumerate является служба удаленного управления Windowsным подходом для получения всех экземпляров указанного ресурса.
 ms.assetid: c50c37bf-e19a-473b-8d27-ab3bb4ec86a0
 ms.tgt_platform: multiple
 ms.topic: article
@@ -10,16 +10,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 54587ce97ec6ed5e87af8b0424a6a18d684f7698
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1f510d0e0cc8115ca4dca7c7e46dd5e987ef0dd15dd4fa7d92e47d737e467d8f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104260962"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119679994"
 ---
 # <a name="enumerating-or-listing-all-instances-of-a-resource"></a>Перечисление или составление списка всех экземпляров ресурса
 
-Метод [**Session. Enumerate**](session-enumerate.md) является служба удаленного управления Windowsным подходом для получения всех экземпляров указанного ресурса.
+метод [**Session. enumerate**](session-enumerate.md) является служба удаленного управления Windowsным подходом для получения всех экземпляров указанного ресурса.
 
 Метод [**Session. Enumerate**](session-enumerate.md) не получает коллекцию в объекте [**SWbemObjectSet**](/windows/desktop/WmiSdk/swbemobjectset) , например [**SWbemService.ExeКкуери**](/windows/desktop/WmiSdk/swbemservices-execquery) Call с [запросом WMI](/windows/desktop/WmiSdk/querying-wmi) в качестве параметра (например, `ExecQuery("SELECT * from Win32_LogicalDisk")` ), или вызов метода, например [**SWbemObject. Instances \_**](/windows/desktop/WmiSdk/swbemobject-instances-). Метод **Session. Enumerate** и объект [**перечислителя**](enumerator.md) гораздо более похож на операцию объекта [TextStream](/previous-versions//312a5kbt(v=vs.85)) скриптов, который используется для чтения файлов в виде потока.
 
@@ -99,19 +99,19 @@ End Sub
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[О служба удаленного управления Windows](about-windows-remote-management.md)
+[о служба удаленного управления Windows](about-windows-remote-management.md)
 </dt> <dt>
 
-[Использование служба удаленного управления Windows](using-windows-remote-management.md)
+[использование служба удаленного управления Windows](using-windows-remote-management.md)
 </dt> <dt>
 
-[Справочник по служба удаленного управления Windows](windows-remote-management-reference.md)
+[Windows Справочник по удаленному управлению](windows-remote-management-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

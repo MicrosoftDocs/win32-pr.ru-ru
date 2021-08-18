@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: 557854f70f4f1a55022b16d1bfe045efbc017a13
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2cd87bc1cc278f8ee680dbd458ed3b92cc699a060021a91535de66996376db84
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896242"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120103824"
 ---
 # <a name="ntgdiddquerydirectdrawobject-function"></a>Функция Нтгдиддкуеридиректдравобжект
 
@@ -135,7 +135,7 @@ BOOL APIENTRY NtGdiDdQueryDirectDrawObject(
 
 В случае успеха эта функция возвращает **значение true**. в противном случае возвращается **значение false**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Вызов этой функции предназначен для выполнения в два этапа. На первом шаге *пуфауркк*, *пувмлист* и *puD3dTextureFormats* должны иметь **значение NULL**, а [**ддкуеридиректдравобжект**](/windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddquerydirectdrawobject) будет заполнять [**DD \_ халинфо**](/windows/win32/api/ddrawint/ns-ddrawint-dd_halinfo).**Ддкапс**. **двнумфауркккодес**, **DD \_ халинфо**.**Вмидата**. **двнумхеапс** и [**D3DHAL \_ глобалдривердата**](/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_globaldriverdata).**Двнумтекстуреформатс** с числом возвращаемых записей. Во втором вызове вызывающий объект должен выделить массивы указанного размера и передать эти указатели вместо значений **null** в параметрах *пуфауркк*, *пувмлист* и *puD3dTextureFormats* . После этого массивы будут заполнены соответствующими данными.
 
@@ -153,7 +153,7 @@ BOOL APIENTRY NtGdiDdQueryDirectDrawObject(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

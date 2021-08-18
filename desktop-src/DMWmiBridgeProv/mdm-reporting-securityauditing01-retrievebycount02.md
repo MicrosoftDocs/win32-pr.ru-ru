@@ -17,16 +17,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c979d25cdc9887a500307494218a6fc11f98bf86
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5a036d129f702853171e155a330c31ec6b1effdf227dd5cd051314fda81efb39
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103801199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119587724"
 ---
 # <a name="mdm_reporting_securityauditing01_retrievebycount02-class"></a>\_ \_ Класс SecurityAuditing01 RETRIEVEBYCOUNT02 отчетов MDM \_
 
-\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Майкрософт не дает никаких гарантий, явных или подразумеваемых, в отношении предоставленной здесь информации.\]
+\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, относительно предоставленной здесь информации.\]
 
 Класс [**MDM \_ Reporting \_ SecurityAuditing01 \_ RetrieveByCount02**](mdm-reporting-enterprisedataprotection01-retrievebycount02.md) используется для получения указанного числа журналов из StartTime. Время начала выражается в формате ISO 8601. Можно задать количество журналов, необходимых для установки Логкаунт и StartTime. Он возвращает указанное число журналов или меньше, если общее число журналов меньше Логкаунт.
 
@@ -52,7 +52,7 @@ class MDM_Reporting_SecurityAuditing01_RetrieveByCount02
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ \_ SecurityAuditing01 \_ RetrieveByCount02 для MDM Reporting** имеет следующие свойства.
 
@@ -129,7 +129,7 @@ class MDM_Reporting_SecurityAuditing01_RetrieveByCount02
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                          |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                          |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                            |
 | Пространство имен<br/>                | Корневой \\ CIMV2 \\ MDM \\ дммап<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1. mof</dt> </dl>      |

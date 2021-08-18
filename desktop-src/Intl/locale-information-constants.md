@@ -4,12 +4,12 @@ ms.assetid: 45798dd1-34bb-4e99-8f84-94f28e76711f
 title: Константы сведений о языковых стандартах
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7802002ff572ec148351a0abea02922205409b08
-ms.sourcegitcommit: 4af3e9ec3142ba499d20ed8b174c2b219c5eacd2
+ms.openlocfilehash: 0cfd5f3436eed055af6956e538276402f617eb0d6a0e8c3f6d914c82e1457aaf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "105994510"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120106594"
 ---
 # <a name="locale-information-constants"></a>Константы сведений о языковых стандартах
 
@@ -163,7 +163,7 @@ ms.locfileid: "105994510"
 
 ## <a name="constants-used-in-the-lctype-parameter-of-getlocaleinfo-getlocaleinfoex-and-setlocaleinfo"></a>Константы, используемые в параметре LCType для GetLocaleInfo, GetLocaleInfoEx и Сетлокалеинфо
 
-В этом разделе перечислены константы сведений о языковых стандартах, которые приложение может использовать для параметра *LCType* [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa) (Windows Me/98, Windows NT 4,0), [**GetLocaleInfoEx**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoex) (Windows Vista) и [**сетлокалеинфо**](/windows/desktop/api/Winnls/nf-winnls-setlocaleinfoa). Сведения о языковом стандарте передаются либо в виде строк (по умолчанию), либо в виде целых чисел. Целочисленное значение задается с помощью бинарного оператора или, чтобы объединить определенную константу с объединяющей константой. См. раздел [объединение констант](#combining-constants).
+в этом разделе перечислены константы сведений о языковых стандартах, которые приложение может использовать для параметра *LCType* [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa) (Windows Me/98, Windows NT 4,0), [**GetLocaleInfoEx**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoex) (Windows Vista) и [**сетлокалеинфо**](/windows/desktop/api/Winnls/nf-winnls-setlocaleinfoa). Сведения о языковом стандарте передаются либо в виде строк (по умолчанию), либо в виде целых чисел. Целочисленное значение задается с помощью бинарного оператора или, чтобы объединить определенную константу с объединяющей константой. См. раздел [объединение констант](#combining-constants).
 
  
 

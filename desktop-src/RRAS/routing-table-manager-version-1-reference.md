@@ -7,25 +7,25 @@ keywords:
 - Диспетчер таблиц маршрутизации, Справочник по версии 1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03c81e67e6e9f9a8a6ac7477f9c0d2e984af0ede
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d23d0aadd3812afce1a8298518737229bc4e2e945c67b82703c13476d71a8ad8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103777642"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120027154"
 ---
 # <a name="routing-table-manager-version-1-reference"></a>Справочник по диспетчеру таблиц маршрутизации версии 1
 
-**Windows Server 2003:** Этот API был заменен API [диспетчера таблиц маршрутизации версии 2](about-routing-table-manager-version-2.md) и не будет доступен за пределами Windows Server 2003. Новые приложения должны использовать API диспетчера таблиц маршрутизации версии 2.
+**Windows Server 2003:** этот api был заменен api [диспетчера таблиц маршрутизации версии 2](about-routing-table-manager-version-2.md) и не будет доступен за пределами Windows Server 2003. Новые приложения должны использовать API диспетчера таблиц маршрутизации версии 2.
 
 Следующие функции, структуры и константы предоставляют интерфейс, который протоколы маршрутизации могут использовать для доступа к таблицам маршрутизации, поддерживаемым диспетчером таблиц маршрутизации.
 
 -   [Функции диспетчера таблиц маршрутизации версии 1](routing-table-manager-version-1-functions.md)
 -   [Структуры диспетчера таблиц маршрутизации версии 1](routing-table-manager-version-1-structures.md)
 
- 
+ 
 
- 
+ 
 
 
 

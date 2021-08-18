@@ -3,7 +3,7 @@ title: BUTTONGROUP. Маппингимаже
 description: Атрибут Маппингимаже указывает или получает имя изображения, представляющего карту кнопок BUTTONGROUP.
 ms.assetid: bfea52d1-0e7f-4f77-a212-d34e356a4d85
 keywords:
-- Проигрыватель Windows Media BUTTONGROUP. Маппингимаже
+- BUTTONGROUP. маппингимаже проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 26e4afc44a00d5ce9b15ee01d4a0dc1aff52c555
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9c26a920042aae4ba144f194845f350030f5675c1b9cc3fcfed552346904add1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698809"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118119912"
 ---
 # <a name="buttongroupmappingimage"></a>BUTTONGROUP. Маппингимаже
 
@@ -31,7 +31,7 @@ ms.locfileid: "105698809"
 
 Этот атрибут является **строкой** для чтения и записи.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это обязательный атрибут, который должен быть указан.
 
@@ -55,7 +55,7 @@ ms.locfileid: "105698809"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

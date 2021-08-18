@@ -4,12 +4,12 @@ ms.assetid: C1F27F39-FADA-4644-ACD6-B02EAD9CFFE7
 title: Атрибут MF_SA_MINIMUM_OUTPUT_SAMPLE_COUNT_PROGRESSIVE (Мфтрансформ. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b452f9fa4016705ed90a7f5b07abcaa6ff11983
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48df5262e225b8768d3251f9768cf2156ee2acacb19ca70752ae5bf989b682ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119955434"
 ---
 # <a name="mf_sa_minimum_output_sample_count_progressive-attribute"></a>\_ \_ \_ Последовательное значение \_ \_ счетчика минимального количества выходных данных SA \_ MF
 
@@ -19,7 +19,7 @@ ms.locfileid: "104265356"
 
 **UINT32**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут применяется только к МФТС, в котором для выделения собственных выходных образцов используется круглый буфер. Другие МФТС игнорируют этот атрибут.
 
@@ -34,9 +34,9 @@ ms.locfileid: "104265356"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8 \|\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 \|\]<br/>                              |
-| Header<br/>                   | <dl> <dt>Мфтрансформ. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ приложения UWP для классических приложений \|\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ приложения UWP для классических приложений \|\]<br/>                              |
+| Заголовок<br/>                   | <dl> <dt>Мфтрансформ. h</dt> </dl> |
 
 
 

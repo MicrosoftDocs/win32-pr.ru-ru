@@ -4,16 +4,16 @@ ms.assetid: 353b931e-ab9c-43b2-84ac-0b1195a01446
 title: LOCALE_IREADINGLAYOUT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b95f8231847201b47609e854c4e42d0b4761bff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5bdc8a16ccfcb828b7ddd2aa01de887f5baa074f922a2aa14d33fe17412dc87d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263958"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120106504"
 ---
 # <a name="locale_ireadinglayout"></a>иреадинглайаут ЛОКАЛи \_
 
-**Windows 7 и более поздние версии:** Макет для чтения текста. Возможные значения определены в следующей таблице.
+**Windows 7 и более поздних версий:** Макет для чтения текста. Возможные значения определены в следующей таблице.
 
 
 

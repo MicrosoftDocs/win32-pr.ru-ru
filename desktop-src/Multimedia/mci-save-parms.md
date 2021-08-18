@@ -3,7 +3,7 @@ title: Структура MCI_SAVE_PARMS (МЦиапи. h)
 description: '\_ \_ Структура пармс для сохранения данных содержит сведения о имени файла для \_ команды MCI Save.'
 ms.assetid: fbaff175-e521-4b93-853a-f444726932d3
 keywords:
-- MCI_SAVE_PARMS структура мультимедиа Windows
+- структура MCI_SAVE_PARMS Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d6252788b1ffc251d2fa6a3f993f074edc31aaac
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0d87f581e753265796259fbd33bfeeba3d4c2957e107c7edeb8d08c063e34e32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672531"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038334"
 ---
 # <a name="mci_save_parms-structure"></a>\_Структура для сохранения пармс в MCI \_
 
@@ -55,7 +55,7 @@ typedef struct {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При назначении данных членам этой структуры установите соответствующие флаги в параметре *фдвкомманд* функции [**мЦисендкомманд**](/previous-versions//dd757160(v=vs.85)) , чтобы проверить элементы.
 

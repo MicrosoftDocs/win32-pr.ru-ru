@@ -195,7 +195,7 @@ class LogFileEventConsumer : __EventConsumer
 
 Пример использования **логфиливентконсумер** для создания потребителя см. в разделе [запись в файл журнала на основе события](writing-to-a-log-file-based-on-an-event.md).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

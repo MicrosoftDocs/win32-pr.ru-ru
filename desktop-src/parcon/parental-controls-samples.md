@@ -4,16 +4,16 @@ ms.assetid: 19dac95c-2279-4bf9-a58c-dd30177c0c9d
 title: Примеры родительского контроля
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26962f4edd16e1e860883607316d5a7cbf3d9122
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c23111e42b670c30630b7ebd250c94ba2f148fcf4a81874fcc3c360db9b4bbd9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693425"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971613"
 ---
 # <a name="parental-controls-samples"></a>Примеры родительского контроля
 
-Пример кода для родительского контроля доступен по пути <installation directory> \\ Windows \\ <version number> \\ Samples \\ Security \\ паренталконтролс. Ниже приведены примеры.
+пример кода для родительского контроля доступен по пути <installation directory> \\ Windows \\ <version number> \\ примеры \\ Security \\ паренталконтролс. Ниже приведены примеры.
 
 ## <a name="utilities"></a>Служебные программы
 
