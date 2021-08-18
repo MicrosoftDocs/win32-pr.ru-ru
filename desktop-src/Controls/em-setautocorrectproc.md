@@ -3,7 +3,7 @@ title: Сообщение EM_SETAUTOCORRECTPROC (RichEdit. h)
 description: Определяет текущую процедуру обратного вызова для автозамены.
 ms.assetid: 2FA48CFC-0D7C-41EF-8207-5EDC644FF3BC
 keywords:
-- Элементы управления Windows для EM_SETAUTOCORRECTPROC сообщений
+- элементы управления Windows сообщений EM_SETAUTOCORRECTPROC
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a7359c86c3fdabe4c410f600d0af3100dde4c4ed
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b46e838cf18a345272b7983de1522a0c55a2565c5df3e11e3c89cd820653fb73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104492483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958723"
 ---
 # <a name="em_setautocorrectproc-message"></a>\_Сообщение СЕТАУТОКОРРЕКТПРОК EM
 
@@ -60,8 +60,8 @@ ms.locfileid: "104492483"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d096fd320e1341f9affc35ae6ff1d355fcf12d41
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 125a38dd41445ba0661d13c61e7c79e689bc29abffa535791b233c40cfb704ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672593"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118932365"
 ---
 # <a name="binding-time-out-constants"></a>Константы времени ожидания привязки
 
@@ -37,7 +37,7 @@ ms.locfileid: "105672593"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения в приведенной выше таблице не могут быть в секундах. Эти значения представляют относительное количество времени в масштабе от нуля до 10. Дополнительные сведения о предотвращении задержки связи см. в статье предотвращение зависаний на стороне клиента.
 

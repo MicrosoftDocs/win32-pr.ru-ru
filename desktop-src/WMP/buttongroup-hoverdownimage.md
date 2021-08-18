@@ -3,7 +3,7 @@ title: BUTTONGROUP. Ховердовнимаже
 description: Атрибут Ховердовнимаже указывает или получает имя изображения, представляющего состояние наведения указателя кнопки в BUTTONGROUP. Состояние наведения указателя мыши возникает, когда кнопка находится в состоянии Down, и пользователь наводит на нее указатель мышью.
 ms.assetid: dc048303-21d1-40ba-99bb-8d1c2f46628b
 keywords:
-- Проигрыватель Windows Media BUTTONGROUP. Ховердовнимаже
+- BUTTONGROUP. ховердовнимаже проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a40788fafffd6eb4626bc834a941f7330c988fa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c84d907a9b3fd1fc1a2eaf2dcf30337d016ae0732b147f435f49343d791b65c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118119883"
 ---
 # <a name="buttongrouphoverdownimage"></a>BUTTONGROUP. Ховердовнимаже
 
@@ -31,7 +31,7 @@ ms.locfileid: "105694407"
 
 Этот атрибут является **строкой** для чтения и записи.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Поддерживаются форматы изображений BMP, JPG, PNG и GIF. Если изображение является 8-битным файлом BMP, его значения тона и насыщенности можно динамически изменить с помощью атрибутов **хуешифт** и **насыщенности** .
 
@@ -47,7 +47,7 @@ ms.locfileid: "105694407"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

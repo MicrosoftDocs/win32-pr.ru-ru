@@ -66,7 +66,7 @@ ms.locfileid: "118687242"
 | Range-Upper            | \-                                                                                                      |
 | Search-Flags           | 0x00000000                                                                                              |
 | System-Flags           | 0x00000010                                                                                              |
-| Классы, используемые в        | [**Точка подключения COM**](c-comconnectionpoint.md)<br/> [**Память**](c-storage.md)<br/> |
+| Классы, используемые в        | [**Точка подключения COM**](c-comconnectionpoint.md)<br/> [**служба хранилища**](c-storage.md)<br/> |
 
 
 
@@ -87,7 +87,7 @@ ms.locfileid: "118687242"
 | Range-Upper            | \-                                                                                                      |
 | Search-Flags           | 0x00000000                                                                                              |
 | System-Flags           | 0x00000010                                                                                              |
-| Классы, используемые в        | [**Точка подключения COM**](c-comconnectionpoint.md)<br/> [**Память**](c-storage.md)<br/> |
+| Классы, используемые в        | [**Точка подключения COM**](c-comconnectionpoint.md)<br/> [**служба хранилища**](c-storage.md)<br/> |
 
 
 
@@ -108,7 +108,7 @@ ms.locfileid: "118687242"
 | Range-Upper            | \-                                                                                                      |
 | Search-Flags           | 0x00000000                                                                                              |
 | System-Flags           | 0x00000010                                                                                              |
-| Классы, используемые в        | [**Точка подключения COM**](c-comconnectionpoint.md)<br/> [**Память**](c-storage.md)<br/> |
+| Классы, используемые в        | [**Точка подключения COM**](c-comconnectionpoint.md)<br/> [**служба хранилища**](c-storage.md)<br/> |
 
 
 
@@ -129,7 +129,7 @@ ms.locfileid: "118687242"
 | Range-Upper            | \-                                                                                                      |
 | Search-Flags           | 0x00000000                                                                                              |
 | System-Flags           | 0x00000010                                                                                              |
-| Классы, используемые в        | [**Точка подключения COM**](c-comconnectionpoint.md)<br/> [**Память**](c-storage.md)<br/> |
+| Классы, используемые в        | [**Точка подключения COM**](c-comconnectionpoint.md)<br/> [**служба хранилища**](c-storage.md)<br/> |
 
 
 
@@ -150,7 +150,7 @@ ms.locfileid: "118687242"
 | Range-Upper            | \-                                                                                                      |
 | Search-Flags           | 0x00000000                                                                                              |
 | System-Flags           | 0x00000010                                                                                              |
-| Классы, используемые в        | [**Точка подключения COM**](c-comconnectionpoint.md)<br/> [**Память**](c-storage.md)<br/> |
+| Классы, используемые в        | [**Точка подключения COM**](c-comconnectionpoint.md)<br/> [**служба хранилища**](c-storage.md)<br/> |
 
 
 

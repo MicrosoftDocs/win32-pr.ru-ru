@@ -49,7 +49,7 @@ CBEN_INSERTITEM
 
 Приложение, обрабатывающее этот код уведомления, должно возвращать ноль.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

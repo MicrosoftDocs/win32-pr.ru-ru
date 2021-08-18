@@ -52,7 +52,7 @@ ms.locfileid: "118721912"
 
 Чтобы реализовать уведомления, производный интерфейс должен подключаться к [**иусеридентитиманажер**](iuseridentitymanager.md) путем вызова метода [**IConnectionPoint:: Advise**](/windows/win32/api/ocidl/nf-ocidl-iconnectionpoint-advise) и передачи указателя на интерфейс.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

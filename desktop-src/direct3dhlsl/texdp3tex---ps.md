@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: dfe74dd0a73bc47cd2855d35b239e80a1b5153c1
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 91014b52b04417bbb23e76988beeb0bd4c473bd1e1d116433a8fd1dbf09a47ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104996855"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118788040"
 ---
 # <a name="texdp3tex---ps"></a>texdp3tex-PS
 
@@ -29,14 +29,14 @@ ms.locfileid: "104996855"
 
 
 
- 
+ 
 
-где
+where
 
 -   DST — это регистр назначения.
 -   src является исходным регистром.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -46,7 +46,7 @@ ms.locfileid: "104996855"
 
 
 
- 
+ 
 
 Регистры текстур должны использовать следующую последовательность.
 
@@ -74,16 +74,16 @@ u "= TextureCoordinates (этап m)<sub>УВВ</sub> \* t (n)<sub>RGB</sub>
 
 t (m)<sub>RGBA</sub> = текстуресампле (этап m)<sub>RGBA</sub> с использованием (u, 0, 0) в качестве координат
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера пикселей](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

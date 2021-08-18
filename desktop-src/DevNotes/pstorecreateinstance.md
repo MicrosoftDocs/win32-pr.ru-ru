@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Pstorec.dll
-ms.openlocfilehash: ce61a0d320b34ad09f4801d4ee5b53625e61501b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2e32319e9585f5d1a80d0473c6ce27167f0ec181b81b974c526371b29c018b03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118955693"
 ---
 # <a name="pstorecreateinstance-function"></a>Функция Псторекреатеинстанце
 
-\[Защищенное хранилище (PStore) доступно для использования в Windows Server 2003 и Windows XP. Она доступна только для операций чтения в Windows Server 2008 и Windows Vista, но может быть недоступна в последующих версиях. PStore использует старую реализацию защиты данных. Разработчикам настоятельно рекомендуется использовать преимущества более надежной защиты данных, предоставляемые функциями [**CryptProtectData**](/windows/win32/api/dpapi/nf-dpapi-cryptprotectdata) и [**CryptUnprotectData**](/windows/win32/api/dpapi/nf-dpapi-cryptunprotectdata) .\]
+\[защищенные служба хранилища (Pstore) доступны для использования в Windows Server 2003 и Windows XP. она доступна только для операций чтения в Windows Server 2008 и Windows Vista, но может быть недоступна в последующих версиях. PStore использует старую реализацию защиты данных. Разработчикам настоятельно рекомендуется использовать преимущества более надежной защиты данных, предоставляемые функциями [**CryptProtectData**](/windows/win32/api/dpapi/nf-dpapi-cryptprotectdata) и [**CryptUnprotectData**](/windows/win32/api/dpapi/nf-dpapi-cryptunprotectdata) .\]
 
 \[Эта функция может быть изменена или недоступна в будущих версиях Windows. Вместо этой функции используйте функции **CryptProtectData** и **CryptUnprotectData** .\]
 
@@ -78,7 +78,7 @@ HRESULT __stdcall PStoreCreateInstance(
 
 Возвращаемое значение является значением **HRESULT**. Значение **S \_ ОК** указывает, что функция выполнена успешно.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция не имеет связанной библиотеки импорта; его необходимо вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 
@@ -88,7 +88,7 @@ HRESULT __stdcall PStoreCreateInstance(
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>PStore. h</dt> </dl>    |
+| Заголовок<br/> | <dl> <dt>PStore. h</dt> </dl>    |
 | DLL<br/>    | <dl> <dt>Pstorec.dll</dt> </dl> |
 
 

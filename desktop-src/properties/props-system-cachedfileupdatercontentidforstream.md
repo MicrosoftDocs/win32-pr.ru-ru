@@ -4,12 +4,12 @@ ms.assetid: c558c038-83e3-4b37-b5df-610f9afea7ac
 title: System. Качедфилеупдатерконтентидфорстреам
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 173e383b760ae2a310fb2c10aa82fe54021a5d15
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 4226dda15d2e2706875165eade01428025f34a15cba8f2b7c9c73cb03c425e03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108104901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970763"
 ---
 # <a name="systemcachedfileupdatercontentidforstream"></a>System. Качедфилеупдатерконтентидфорстреам
 
@@ -33,7 +33,7 @@ propertyDescription
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 1b49c9ae-da64-4415-95ce-785ffedc65bc
 title: звук/вход/выход
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0e814cf2e8de1c3c5700a7570d2ed2b4c428572
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f526caf461cbf0bb5c3fb5490cf5e9141d9735e37e10ab632749006135a1cc9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105673961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118860413"
 ---
 # <a name="waveinout"></a>звук/вход/выход
 

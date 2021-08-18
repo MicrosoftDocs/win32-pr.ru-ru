@@ -41,7 +41,7 @@ void Activated(
 
 Не вызывайте метод [**Exit**](/previous-versions//hh438368(v=vs.85)) из *обработчика*.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

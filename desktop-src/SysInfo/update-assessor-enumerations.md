@@ -4,12 +4,12 @@ ms.assetid: CFE20D9D-26E1-4376-A7C5-E901E0ADD1B9
 title: Обновить перечисления оценки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f7005686c34d353f811dba5e19f4442ccf288fc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87a0be6ff52c5e42dae763624f4ef6b62573c36cf1f394ce56df254b5ddb5cc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103908803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118884495"
 ---
 # <a name="update-assessor-enumerations"></a>Обновить перечисления оценки
 

@@ -4,17 +4,17 @@ ms.assetid: fa6239ea-0478-41f1-9515-d67a7fad11db
 title: Метод Селектандактиватебуттон
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 717af00becd5f00f55b166353246f92ea7dfd1bd
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d141616356db5daf2ebcb19579b924f6d4cab956e03d876d0254666d55b5702b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105682208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951913"
 ---
 # <a name="selectandactivatebutton-method"></a>Метод Селектандактиватебуттон
 
 > [!Note]  
-> Этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
+> этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
 
  
 
@@ -39,7 +39,7 @@ MSWebDVD.SelectAndActivateButton(iButton)
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте этот метод при реализации пользовательской обработки мыши после установки для [**дисаблеаутомаусепроцессинг**](disableautomouseprocessing-property.md) значения **true**.
 

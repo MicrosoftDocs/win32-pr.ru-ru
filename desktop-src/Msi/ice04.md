@@ -33,7 +33,7 @@ File: MyFile, Sequence: 210 Greater Than Max Allowed by Media Table.
 
 
 
-| Файл   | Последовательность |
+| File   | Последовательность |
 |--------|----------|
 | MyFile | 210      |
 

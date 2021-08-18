@@ -99,7 +99,7 @@ typedef struct _WMIndividualizeStatus {
 
 Эта структура заполняется компонентами времени выполнения DRM и отправляется в приложения в параметре *pValue* метода [**ивмстатускаллбакк:: OnStatus**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus) , если событие равно ВМТ \_ индивидуализируйте. Приложение получает это событие несколько раз во время процесса загрузки.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

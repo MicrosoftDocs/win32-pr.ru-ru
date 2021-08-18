@@ -67,7 +67,7 @@ Installer.FileHash(
 
 В случае успешного выполнения этот метод возвращает [**объект Record**](record-object.md) , содержащий хэш файла.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

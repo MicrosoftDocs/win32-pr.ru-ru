@@ -39,7 +39,7 @@ Qualifiers.Count As Long
 
 Количество объектов [**квалификатора**](qualifier.md) в коллекции.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: ff612a76-b49c-462a-8559-d3d789617182
 title: System. Devices. Сторажефриспаце
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c0b7ddf480560bd20c2c19ad4e1163861ac0ab42
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4eb8a3fb3dc515c5843302739f5f3413569d26ba799845ad468297edeb5fa101
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104547138"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119097083"
 ---
 # <a name="systemdevicesstoragefreespace"></a>System. Devices. Сторажефриспаце
 
@@ -37,11 +37,11 @@ propertyDescription
             setValue = 0
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

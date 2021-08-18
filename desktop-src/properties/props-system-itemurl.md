@@ -4,12 +4,12 @@ ms.assetid: d592f12b-f8c2-406f-a031-eeb8212e64f7
 title: System. Итемурл
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d02beb9629661a052d2ec1fae7c7a34e999e777e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 79fe179849c7991a65db5412543815d78ac8dc21682511e27d6251253b3b1366
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970373"
 ---
 # <a name="systemitemurl"></a>System. Итемурл
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
@@ -43,15 +43,15 @@ propertyDescription
 
 | Тип элемента | Пример                        |
 |-----------|--------------------------------|
-| Файл      | file:///c:/mydir/bar/hello.txt |
-| Файл      | CSC://{GUID}/...               |
-| Сообщение   | mapi://...                     |
+| File      | file:///c:/mydir/bar/hello.txt |
+| File      | CSC://{GUID}/...               |
+| Message   | mapi://...                     |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

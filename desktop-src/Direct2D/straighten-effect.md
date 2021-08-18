@@ -50,7 +50,7 @@ m_d2dContext->EndDraw();
 
 Свойства для эффектов выпрямления определяются перечислением [**D2D1 \_ выпрямление \_ prop**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_straighten_prop) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

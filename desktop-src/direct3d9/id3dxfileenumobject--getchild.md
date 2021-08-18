@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: b26cf058b31d1016c68cccf3dde6ade9f84cde1d
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 20075c0e30985ab4f5c7c691b40caf302db98d6b5c8cf863fd9c57fca895ee40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108090362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118802797"
 ---
 # <a name="id3dxfileenumobjectgetchild-method"></a>Метод ID3DXFileEnumObject:: Child
 
@@ -71,12 +71,12 @@ Type: **[ **size \_ T**](../winprog/windows-data-types.md)**
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Xof. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Xof. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>  |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

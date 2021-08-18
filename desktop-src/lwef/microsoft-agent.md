@@ -7,16 +7,16 @@ keywords:
 - Microsoft Agent, начальная страница
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d573a6ffee437e5d9dfe6e3efceab812e351eb98
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: db19f5f4bd9d9dfc45c0455ce5a04f8feb1b0c9a2ac1dd2e8bdc86fd945382aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103890648"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118747830"
 ---
 # <a name="microsoft-agent"></a>Microsoft Agent
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows. Дополнительные сведения см. в статье [Windows 7 и Windows Server 2008 R2 Application Quality Cookbook](../win7appqual/windows-7-application-quality-cookbook.md).\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows. дополнительные сведения см. в разделе [Windows 7 и Windows Server 2008 R2 Application Quality Cookbook](../win7appqual/windows-7-application-quality-cookbook.md).\]
 
 ## <a name="purpose"></a>Назначение
 
@@ -37,17 +37,17 @@ Microsoft Agent — это технология, которая предоста
 
 ## <a name="developer-audience"></a>Аудитория разработчиков
 
-Microsoft Agent предназначен главным образом для разработчиков, использующих языки и среды, поддерживающие интерфейсы элементов управления COM или Microsoft ActiveX. Сюда входит следующее.
+Microsoft Agent предназначен главным образом для разработчиков, использующих языки и среды, поддерживающие интерфейсы управления COM или Microsoft ActiveX. приведенные ниже.
 
 -   Microsoft Visual Studio (Visual C++, Visual Basic)
 
 -   Microsoft Office (Visual Basic для приложений)
 
--   Microsoft Internet Explorer (Visual Basic Scripting Edition или Microsoft JScript)
+-   microsoft Internet Explorer (Visual Basic scripting Edition или Microsoft JScript)
 
--   Сервер сценариев Microsoft Windows (язык сценариев ActiveX)
+-   сервер сценариев Microsoft Windows (язык сценариев ActiveX)
 
--   Другие приложения и среды, поддерживающие интерфейсы элементов управления COM или ActiveX.
+-   другие приложения и среды, поддерживающие интерфейсы COM или ActiveX элементов управления.
 
 ## <a name="run-time-requirements"></a>Требования к среде выполнения
 
@@ -65,7 +65,7 @@ Microsoft Agent предназначен главным образом для р
 
 -   Дополнительный 1,6 МБ свободного места на диске, если вы планируете использовать модуль преобразования текста в речь Lernout & Hauspie Трувоице для речевого вывода
 -   Дополнительные 22 МБ свободного места на диске, если планируется использовать модуль распознавания речи Майкрософт для речевого ввода
--   Совместимая с Windows звуковая плата
+-   звуковая карта, совместимая с Windows
 -   Совместимый набор динамиков и микрофона
 
 ## <a name="in-this-section"></a>В этом разделе

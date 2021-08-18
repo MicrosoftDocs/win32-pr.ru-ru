@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b23439d471f4d22c807c8d45bb00c23a7d814e3f
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 7459e0bfacda9075fd587be69f8a3d69adbefb855608e5f949e250d0e35de786
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104352992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118790840"
 ---
 # <a name="rwtexture2darrayloadint-function"></a>Функция RWTexture2DArray:: Load (int)
 
@@ -54,13 +54,13 @@ ms.locfileid: "104352992"
 
 Возвращаемый тип соответствует типу в объявлении для объекта [**RWTexture2DArray**](sm5-object-rwtexture2darray.md) .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта функция поддерживается для следующих типов шейдеров:
 
 
 
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
+| Вершина | Поверхности | Домен | Геометрия | Пиксель | Службы вычислений |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     | x       |
 

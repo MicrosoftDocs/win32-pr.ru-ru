@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 94247cf81fcaf57f373c731cd4eaf06a3ca897ba
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c3584eed86abcaef019f0fc8f8bd794a80abca1143286317189889231bbc2cc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105661481"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118882950"
 ---
 # <a name="systemmonitor-events"></a>События Системмонитор
 
@@ -29,11 +29,11 @@ ms.locfileid: "105661481"
 > [!Note]  
 > Необходимо возвратить из обработчика событий до истечения [**интервала обновления**](systemmonitor-updateinterval.md) . в противном случае СИСМОН отображает окно сообщения, указывающее пользователю, что ему не удалось выполнить выборку значений счетчиков для предыдущего интервала обновления.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

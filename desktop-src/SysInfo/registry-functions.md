@@ -4,12 +4,12 @@ ms.assetid: a490b748-42e8-462b-9a7f-a8b21438ea79
 title: Функции реестра
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc2cfadd3753b7a269667fee22955f8465495458
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a81f5aff4dad00691f606911c1cf092933aa121eaf7a2d25aacbcc8a83948b89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104264813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118885217"
 ---
 # <a name="registry-functions"></a>Функции реестра
 
@@ -47,7 +47,7 @@ ms.locfileid: "104264813"
 | [**RegOpenKeyEx**](/windows/desktop/api/Winreg/nf-winreg-regopenkeyexa)                               | Открывает указанный раздел реестра.                                                                                                              |
 | [**регопенкэйтрансактед**](/windows/desktop/api/Winreg/nf-winreg-regopenkeytransacteda)               | Открывает указанный раздел реестра и связывает его с транзакцией.                                                                         |
 | [**регопенусерклассесрут**](/windows/desktop/api/Winreg/nf-winreg-regopenuserclassesroot)           | Извлекает маркер **\_ \_ корневого ключа классов hKey** для указанного пользователя.                                                                  |
-| [**реговерридепредефкэй**](/windows/desktop/api/Winreg/nf-winreg-regoverridepredefkey)               | Сопоставляет предопределенный раздел реестра с указанным ключом реестра.                                                                                    |
+| [**реговерридепредефкэй**](/windows/desktop/api/Winreg/nf-winreg-regoverridepredefkey)               | Карты предопределенный раздел реестра для указанного раздела реестра.                                                                                    |
 | [**регкуеринфокэй**](/windows/desktop/api/Winreg/nf-winreg-regqueryinfokeya)                         | Извлекает сведения об указанном разделе реестра.                                                                                        |
 | [**регкуеримултиплевалуес**](/windows/desktop/api/Winreg/nf-winreg-regquerymultiplevaluesa)           | Извлекает тип и данные для списка имен значений, связанных с открытым ключом реестра.                                                    |
 | [**регкуерирефлектионкэй**](/windows/desktop/api/WinReg/nf-winreg-regqueryreflectionkey)             | Определяет, было ли отражение отключено или включено для указанного ключа.                                                              |

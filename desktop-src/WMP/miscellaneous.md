@@ -3,17 +3,17 @@ title: Разное
 description: Разное
 ms.assetid: 39e5187d-1f71-4ca8-814c-0ea1d5367a2e
 keywords:
-- Обложки проигрывателя Windows Media, специализированные атрибуты
+- обложки проигрыватель Windows Media, специализированные атрибуты
 - обложки, специализированные атрибуты
 - Справочник по обложкам, специальным атрибутам
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cafb901aceab1ada6af93ce03dafda6dac04fbfa
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 53a2dfd7f6a54b10b3997288b0b207713a4231caf96a0e7a9aaa7a6ab02f0959
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996194"
 ---
 # <a name="miscellaneous"></a>Разное
 
@@ -31,18 +31,18 @@ ms.locfileid: "104068085"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Справочник по программированию для обложки**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

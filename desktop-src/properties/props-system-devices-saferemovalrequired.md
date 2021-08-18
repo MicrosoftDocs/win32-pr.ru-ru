@@ -4,12 +4,12 @@ ms.assetid: 584ec98a-b60f-426d-befe-fafcea983f42
 title: System. Devices. Саферемовалрекуиред
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce6e357edc5f4230be4290019e78853d115f4001
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 96f1a81ea9986d4dbced74a9a3c9323f5b39eef3152b823d1e1d218b31b64a39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103998360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119097193"
 ---
 # <a name="systemdevicessaferemovalrequired"></a>System. Devices. Саферемовалрекуиред
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

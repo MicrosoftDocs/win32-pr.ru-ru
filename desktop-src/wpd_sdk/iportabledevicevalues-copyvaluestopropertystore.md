@@ -67,7 +67,7 @@ HRESULT CopyValuesToPropertyStore(
 
 этот метод поддерживается в Windows Vista и более поздних версиях Windows.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

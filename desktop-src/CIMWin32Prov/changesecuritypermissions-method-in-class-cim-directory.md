@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 389ed5b7b0a43981c5eeb3d66a73bd19cbd99d88
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 469af646e4e2700737afc8f81d4b41bb548499bef5985892aebf8564317c563f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108091072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118959123"
 ---
 # <a name="changesecuritypermissions-method-of-the-cim_directory-class"></a>Метод Чанжесекуритипермиссионс \_ класса каталога CIM
 
@@ -67,7 +67,7 @@ uint32 ChangeSecurityPermissions(
 
 `Option = 1 + 4`
 
-или
+или диспетчер конфигурации служб
 
 `Option = CHANGE_OWNER_SECURITY_INFORMATION | CHANGE_DACL_SECURITY_INFORMATION`
 
@@ -137,7 +137,7 @@ uint32 ChangeSecurityPermissions(
 
 2
 
-Access denied. (Недопустимое значение {значение_утверждения} для утверждения {имя_утверждения}. Доступ запрещен.)
+Доступ запрещен.
 
 </dd> <dt>
 
@@ -260,7 +260,7 @@ Access denied. (Недопустимое значение {значение_ут
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 
