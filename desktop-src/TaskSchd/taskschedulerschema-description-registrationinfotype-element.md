@@ -49,7 +49,7 @@ ms.locfileid: "119991394"
 
 Для разработки на C++ описание задачи указывается с помощью свойства [**ирегистратионинфо::D Описание**](/windows/desktop/api/taskschd/nf-taskschd-iregistrationinfo-get_description) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -60,7 +60,7 @@ ms.locfileid: "119991394"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,22 +1,22 @@
 ---
-description: В Windows 7 WMI реализовала класс Win32 \_ оптионалфеатуре. Этот класс получает состояние дополнительных компонентов, имеющихся на компьютере.
+description: в Windows 7 инструментарий WMI реализовал \_ класс Win32 оптионалфеатуре. Этот класс получает состояние дополнительных компонентов, имеющихся на компьютере.
 ms.assetid: d756b0c0-b9f4-4b71-9f07-963a0dd5e585
 ms.tgt_platform: multiple
 title: Запрос состояния дополнительных функций
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c190b2a2143dae1e22c30b3e5e803908bcb4116
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ec27457336adcc5c358aad0a5e139c1c7c07f6bcb72335ec549f9ca98cc1e5a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103812652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996034"
 ---
 # <a name="querying-the-status-of-optional-features"></a>Запрос состояния дополнительных функций
 
-В Windows 7 WMI реализовала класс [**Win32 \_ оптионалфеатуре**](/windows/desktop/CIMWin32Prov/win32-optionalfeature) . Этот класс получает состояние дополнительных компонентов, имеющихся на компьютере.
+в Windows 7 инструментарий WMI реализовал класс [**Win32 \_ оптионалфеатуре**](/windows/desktop/CIMWin32Prov/win32-optionalfeature) . Этот класс получает состояние дополнительных компонентов, имеющихся на компьютере.
 
-Для запроса состояния дополнительных функций можно использовать командлеты Windows PowerShell. Во всех примерах в этом разделе используется командлет Get-WmiObject. Дополнительные сведения см. в разделе [Get-WmiObject](/previous-versions//dd315295(v=technet.10)).
+для запроса состояния дополнительных функций можно использовать командлеты Windows PowerShell. Во всех примерах в этом разделе используется командлет Get-WmiObject. Дополнительные сведения см. в разделе [Get-WmiObject](/previous-versions//dd315295(v=technet.10)).
 
 **Получение всех экземпляров дополнительных компонентов, имеющихся на компьютере**
 
@@ -88,7 +88,7 @@ ms.locfileid: "103812652"
 
     Дополнительные сведения о возможных значениях свойства **InstallState** см. в разделе [**Win32 \_ оптионалфеатуре**](/windows/desktop/CIMWin32Prov/win32-optionalfeature).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

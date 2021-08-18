@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 98c1e01c15740616541706ca4d9da3ab5e66538c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cefaa91578f397a5ce967dc9cb6200acbe45f016e81f4552b9d185ad9ffa2609
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120044064"
 ---
 # <a name="cbaserendererbreakconnect-method"></a>Кбасерендерер. Бреакконнект, метод
 
@@ -56,7 +56,7 @@ virtual HRESULT BreakConnect();
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Входной ПИН-код фильтра вызывает этот метод из собственного `BreakConnect` метода. (Дополнительные сведения см. в разделе [**кбасепин:: бреакконнект**](cbasepin-breakconnect.md).) Фильтр выполняет некоторый внутренний бухгалтерский перевод, например сброс флага конца потока.
 
@@ -66,7 +66,7 @@ virtual HRESULT BreakConnect();
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ренбасе. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>ренбасе. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

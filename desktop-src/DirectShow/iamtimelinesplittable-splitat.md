@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: a44aabf3386a4e906bd4f3e149c416642ba6c4fc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cdcedc25cf7f0998c6eac11de63f6e0d329e2ca8500576e0ad9e69cfc0bb3067
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105688968"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120052414"
 ---
 # <a name="iamtimelinesplittablesplitat-method"></a>Метод Иамтимелинесплиттабле:: Сплитат
 
@@ -45,7 +45,7 @@ HRESULT SplitAt(
 
 <dl> <dt>
 
-*Time* 
+*Время* 
 </dt> <dd>
 
 Время разделения объекта относительно начала временной шкалы в единицах с частотой 100 нс.
@@ -69,7 +69,7 @@ HRESULT SplitAt(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При разделении источника, воздействия или перехода этот метод создает второй объект того же типа. Исходный объект усекается в указанное время разбиения, а новый объект заменяет обрезанную часть. Новый объект наследует все те же свойства. В исходном объекте метод также разделяет любые эффекты, которые попадают в время разбиения.
 
@@ -83,22 +83,22 @@ HRESULT SplitAt(
  
 
 > [!Note]  
-> Чтобы получить Кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (SP1).
+> чтобы получить кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (sp1).
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Кедит. h</dt> </dl>      |
+| Заголовок<br/>  | <dl> <dt>Кедит. h</dt> </dl>      |
 | Библиотека<br/> | <dl> <dt>Стрмиидс. lib</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

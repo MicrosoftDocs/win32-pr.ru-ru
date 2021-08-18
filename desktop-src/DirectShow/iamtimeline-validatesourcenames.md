@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 5154926cb9f814c94762b556721c7580e5b0d82c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cabaa5f9ec67abaf8805ad55917d0a33b6ad3457bedd8899b3f443f1a247b8d6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043114"
 ---
 # <a name="iamtimelinevalidatesourcenames-method"></a>Метод Иамтимелине:: Валидатесаурценамес
 
@@ -72,7 +72,7 @@ HRESULT ValidateSourceNames(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 С помощью параметра *поверриде* можно предоставить собственную пользовательскую реализацию интерфейса [**имедиалокатор**](imedialocator.md) . Например, указатель мультимедиа по умолчанию не будет уведомлять приложение о найденных файлах (или не может найти их). Чтобы обойти это ограничение, можно реализовать пользовательский указатель мультимедиа, сделав его оболочкой для версии по умолчанию. В пользовательской версии передайте [**имедиалокатор:: финдмедиафиле**](imedialocator-findmediafile.md) напрямую вызовет версию по умолчанию и изучите возвращаемое значение.
 
@@ -82,22 +82,22 @@ HRESULT ValidateSourceNames(
  
 
 > [!Note]  
-> Чтобы получить Кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (SP1).
+> чтобы получить кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (sp1).
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Кедит. h</dt> </dl>      |
+| Заголовок<br/>  | <dl> <dt>Кедит. h</dt> </dl>      |
 | Библиотека<br/> | <dl> <dt>Стрмиидс. lib</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

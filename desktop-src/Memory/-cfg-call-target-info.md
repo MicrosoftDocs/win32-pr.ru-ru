@@ -1,5 +1,5 @@
 ---
-description: Представляет сведения о целевых объектах вызова для защиты потока управления (CFG).
+description: представляет сведения о целевых объектах вызова для управления Flow Guard (CFG).
 ms.assetid: 8DEF907F-3F23-4122-95CE-F413FC7FD96B
 title: Структура CFG_CALL_TARGET_INFO (Нтммапи. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - ntmmapi.h
-ms.openlocfilehash: 66177f6b478264a10c1ce0e50297d943a16407c4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e3bd7d351e890a968f2fa01ddffa6c8e3be16164d78393894055f55660c516bd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673685"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040284"
 ---
 # <a name="cfg_call_target_info-structure"></a>\_ \_ \_ Структура сведений о цели вызова cfg
 
-Представляет сведения о целевых объектах вызова для защиты потока управления (CFG).
+представляет сведения о целевых объектах вызова для управления Flow Guard (CFG).
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -54,15 +54,15 @@ typedef struct _CFG_CALL_TARGET_INFO {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2016\]<br/>                                 |
-| Header<br/>                   | <dl> <dt>Нтммапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Server 2016 \[ только классические приложения\]<br/>                                 |
+| Заголовок<br/>                   | <dl> <dt>Нтммапи. h</dt> </dl> |
 
 
 

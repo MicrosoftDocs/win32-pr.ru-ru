@@ -4,12 +4,12 @@ ms.assetid: f27b9beb-f35f-400e-a337-50d9de21e91e
 title: Атрибуты модуля записи приемника
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e23dbca06c3ff1a4ac80b8e68413fdd0816d71a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 18bf64dd4279ef2e35ed86f50c4444412b3cc70205f6aad52adac8a41895af11
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155315"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120012373"
 ---
 # <a name="sink-writer-attributes"></a>Атрибуты модуля записи приемника
 
@@ -41,7 +41,7 @@ ms.locfileid: "104155315"
 
 Чтобы использовать любой из этих атрибутов, сначала вызовите [**мфкреатеаттрибутес**](/windows/desktop/api/mfapi/nf-mfapi-mfcreateattributes) , чтобы создать новое хранилище атрибутов. Затем используйте интерфейс [**имфаттрибутес**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes) , чтобы задать необходимые атрибуты в хранилище атрибутов. Передайте указатель **имфаттрибутес** в параметр *паттрибутес* любого из указанных выше методов или функций.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

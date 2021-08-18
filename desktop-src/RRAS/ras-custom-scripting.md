@@ -4,12 +4,12 @@ description: Разработчики могут создать пользова
 ms.assetid: c27b8b02-6018-4441-a355-1fb890b9001c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c625f020d9dafcb352c5f1b382014f9dba189330
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 66ac0bd83b8d7c48ee8b0468d89a70d19a5e5e6555b9a8bc8ac86d66c8cd666e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987618"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119673284"
 ---
 # <a name="ras-custom-scripting"></a>Пользовательские сценарии службы RAS
 
@@ -23,11 +23,11 @@ ms.locfileid: "103987618"
 
 ```
 HKEY_LOCAL_MACHINE
-   System
-      CurrentControlSet
-         Services
-            Rasman
-               Parameters
+   System
+      CurrentControlSet
+         Services
+            Rasman
+               Parameters
 ```
 
 Это значение должно иметь тип **reg \_ expand \_ SZ**. Значение должно содержать путь к DLL-библиотеке пользовательского скрипта. Для каждого клиентского компьютера службы удаленного доступа поддерживается только одна библиотека DLL пользовательского сценария.
@@ -49,7 +49,7 @@ HKEY_LOCAL_MACHINE
 
 Служба RAS устраняет взаимодействие между сервером и библиотекой DLL пользовательских сценариев. Как правило, сервер инициирует диалоговое окно. Например, сервер может запросить имя пользователя и пароль пользователя.
 
-Если для установления соединения используется пользовательский сценарий, сервер не должен работать под управлением Windows NT 4,0 или Windows 2000.
+при использовании пользовательского сценария для установления соединения сервер не должен работать Windows NT 4,0 или Windows 2000.
 
 ## <a name="custom-scripting-user-interface-must-support-idcancel"></a>Пользовательский интерфейс сценариев должен поддерживать ИДКАНЦЕЛ
 
@@ -57,7 +57,7 @@ HKEY_LOCAL_MACHINE
 
 ## <a name="configuring-the-connection"></a>Настройка подключения
 
-Точка входа [**раскустомскриптексекуте**](/windows/desktop/api/Ras/nc-ras-rascustomscriptexecutefn) может быть вызвана из [**Расдиалдлг**](/windows/desktop/api/Rasdlg/nf-rasdlg-rasdialdlga) или в Windows XP из команды [**rasdial**](/windows/desktop/api/Ras/nf-ras-rasdiala).
+точку входа [**раскустомскриптексекуте**](/windows/desktop/api/Ras/nc-ras-rascustomscriptexecutefn) можно вызвать из [**расдиалдлг**](/windows/desktop/api/Rasdlg/nf-rasdlg-rasdialdlga) или в Windows XP из команды [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala).
 
 Чтобы вызвать [**раскустомскриптексекуте**](/windows/desktop/api/Ras/nc-ras-rascustomscriptexecutefn) из [**расдиалдлг**](/windows/desktop/api/Rasdlg/nf-rasdlg-rasdialdlga), установите параметр расео \_ CustomScript в записи телефонной книги для подключения. Описание параметров записи телефонной книги см. в разделе **двфоптионс** элемента [**расентри**](/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)) . Используйте функции [**расжетентрипропертиес**](/windows/desktop/api/Ras/nf-ras-rasgetentrypropertiesa) и [**рассетентрипропертиес**](/windows/desktop/api/Ras/nf-ras-rassetentrypropertiesa) для установки этого параметра программным способом.
 
@@ -67,8 +67,8 @@ HKEY_LOCAL_MACHINE
 
 Если пользователь активирует подключение для записи телефонной книги, в которой \_ установлен расео CustomScript, служба RAS вызывает библиотеку DLL пользовательского сценария. В этом сценарии служба RAS вызывает библиотеку DLL пользовательского скрипта из [**расдиалдлг**](/windows/desktop/api/Rasdlg/nf-rasdlg-rasdialdlga).
 
-Для программного вызова библиотеки DLL пользовательского сценария установите соединение с помощью функции [**расдиалдлг**](/windows/desktop/api/Rasdlg/nf-rasdlg-rasdialdlga) . В Windows XP функция [**rasdial**](/windows/desktop/api/Ras/nf-ras-rasdiala) также вызывает библиотеку DLL пользовательского сценария.
+Для программного вызова библиотеки DLL пользовательского сценария установите соединение с помощью функции [**расдиалдлг**](/windows/desktop/api/Rasdlg/nf-rasdlg-rasdialdlga) . в Windows XP функция [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala) также вызывает библиотеку DLL пользовательского сценария.
 
- 
+ 
 
- 
+ 

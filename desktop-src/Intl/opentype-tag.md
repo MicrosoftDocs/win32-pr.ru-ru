@@ -4,12 +4,12 @@ ms.assetid: 188ad9a1-e0eb-411f-b6df-8c394d122d6f
 title: OPENTYPE_TAG (usp10. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bf973c03f26bdb8f8b3799e1780fed5075d315cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d7c784fa7f6243e7e5444dcbc64c690ce7184d6ace469759c19be9de87854732
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683098"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040784"
 ---
 # <a name="opentype_tag"></a>\_тег OPENTYPE
 
@@ -22,7 +22,7 @@ typedef ULONG OPENTYPE_TAG;
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В следующих примерах определяются представления тегов функций OpenType.
 
@@ -32,7 +32,7 @@ typedef ULONG OPENTYPE_TAG;
 
 Дополнительные сведения о тегах функций OpenType и спецификации OpenType см. в разделе <https://www.microsoft.com/typography/otspec/featuretags.htm> .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -41,11 +41,11 @@ typedef ULONG OPENTYPE_TAG;
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                               |
 | Распространяемые компоненты<br/>          | Usp10.dll версии 1,600 или более поздней в Windows.<br/>                |
-| Header<br/>                   | <dl> <dt>Usp10. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Usp10. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -3,7 +3,7 @@ title: запись, команда
 description: Команда Record запускает запись данных. Видеозаписывающие устройства и аудио-файлы распознают эту команду. Несмотря на то, что Цифровые видеоустройства и средства нумерации MIDI также распознают эту команду, драйверы МЦИАВИ и МЦИСЕК не реализуют их.
 ms.assetid: a0838153-5ac2-437f-ae1e-0c4f950fcac5
 keywords:
-- запись команды мультимедиа Windows
+- запись команды Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b39d3659d4577517726260f948563cd31ecc07bc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f326b13d86f073074ef2c1119d449e297e65e7d3accb22d9858e5c1579493c01
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037564"
 ---
 # <a name="record-command"></a>запись, команда
 
@@ -98,7 +98,7 @@ _stprintf_s(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Запись останавливается при выдаче команды [Stop](stop.md) или [Pause](pause.md) . Для драйвера МЦИВАВЕ все данные, записанные после открытия файла, отбрасываются, если файл закрывается без сохранения.
 

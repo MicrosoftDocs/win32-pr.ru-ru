@@ -3,7 +3,7 @@ title: Сообщение WM_RENDERALLFORMATS (Winuser. h)
 description: Отправляется владельцу буфера обмена до его уничтожения, если владелец буфера обмена откладывает отложенную отрисовку одного или нескольких форматов буфера обмена.
 ms.assetid: dff9100f-2dba-467d-be74-a9a9c2b2122b
 keywords:
-- Обмен данными с сообщениями WM_RENDERALLFORMATS
+- WM_RENDERALLFORMATS Exchange данных сообщений
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6cdd3ce1fabdea4cdcae93b5243b89c53def0afa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 77dae9b44cb379ed62c99c601d308fdec500440a9ebad0ffeaffad16ec780dfe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119636064"
 ---
 # <a name="wm_renderallformats-message"></a>\_Сообщение РЕНДЕРАЛЛФОРМАТС WM
 
@@ -56,7 +56,7 @@ ms.locfileid: "104534940"
 
 Если приложение обрабатывает это сообщение, оно должно вернуть ноль.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При ответе на **сообщение WM \_ рендераллформатс** приложение должно вызвать функцию [**опенклипбоард**](/windows/win32/api/winuser/nf-winuser-openclipboard) , а затем проверить, что он по-прежнему является владельцем буфера обмена, вызвав функцию [**жетклипбоардовнер**](/windows/win32/api/winuser/nf-winuser-getclipboardowner) перед вызовом [**сетклипбоарддата**](/windows/win32/api/winuser/nf-winuser-setclipboarddata).
 
@@ -74,7 +74,7 @@ ms.locfileid: "104534940"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

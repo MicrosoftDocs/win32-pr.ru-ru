@@ -10,12 +10,12 @@ keywords:
 - Справочник по устанавливаемым драйверам, о
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e90475063f9d9211e841902fe73d2f09dc6130d8
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: d6dd2488f0b07805edbcdc90187309db2a04c9c0ced4f4b5b0af4e50bd983ca4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103890496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038644"
 ---
 # <a name="installable-driver-reference"></a>Справочник по устанавливаемому драйверу
 
@@ -47,19 +47,19 @@ ms.locfileid: "103890496"
 -   [**\_Установка DRV**](drv-install.md)
 -   [**\_Удаление DRV**](drv-remove.md)
 
-## <a name="driver-functions"></a>Функции драйвера
+## <a name="driver-functions"></a>Функции драйверов
 
 -   [дефдриверпрок](/windows/win32/api/mmiscapi/nf-mmiscapi-defdriverproc)
 -   [дриверкаллбакк](/windows/win32/api/mmiscapi/nf-mmiscapi-drivercallback)
 -   [дриверпрок](/windows/win32/api/mmiscapi/nc-mmiscapi-driverproc)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Устанавливаемые драйверы](installable-drivers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

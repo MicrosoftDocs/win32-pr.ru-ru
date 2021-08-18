@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 9ea15891c33a0789e5b6746b55dfd0b0eb602afc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 51e3d19348f0bff9cdbe0b4211d648a25025b2a3ab8feee9df6f804486265857
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105649079"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120100994"
 ---
 # <a name="icertificates2find-method"></a>Метод ICertificates2:: Find
 
@@ -102,7 +102,7 @@ Certificates.Find( _
 
 **Capicom 2,0, CAPICOM 2.0.0.1, CAPICOM 2.0.0.2 и CAPICOM 2.0.0.3:** Возвращаемый объект [**Certificates**](certificates.md) содержит копии сертификатов в коллекции, в которой был выполнен поиск. Любые изменения, внесенные в сертификаты в возвращенном объекте **Certificates** , не отражаются в этой коллекции.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В следующих примерах показаны возможные условия поиска для различных типов условий поиска.
 
@@ -141,7 +141,7 @@ Certificates.Find( _
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d4ca5f296dd4a7437ea136dbaee0d04c68a93efc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: da45459379c468839b0bf48ae134db1885ea25acce5ac3befa289ae15ee6fe8d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119974264"
 ---
 # <a name="ivmhostinfo-interface"></a>Интерфейс Ивмхостинфо
 
-\[Windows Virtual PC больше не доступна для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC больше не доступен для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Извлекает сведения о хосте компьютера. Объект **ивмхостинфо** возвращается из свойства [**Ивмвиртуалпк:: хостинфо**](ivmvirtualpc-hostinfo.md) .
 
@@ -34,7 +34,7 @@ ms.locfileid: "104135827"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Интерфейс **ивмхостинфо** имеет следующие свойства.
 
@@ -64,8 +64,8 @@ ms.locfileid: "104135827"
 | [**ProcessorSpeed**](ivmhostinfo-processorspeed.md)<br/>                           | Только для чтения<br/> | Скорость хост-процессора в мегагерцах (МГц) или ГГц.<br/>                 |
 | [**процессорспидстринг**](ivmhostinfo-processorspeedstring.md)<br/>               | Только для чтения<br/> | Скорость хост-процессора в мегагерцах или в ГГц в виде строки.<br/>                |
 | [**процессорверсионстринг**](ivmhostinfo-processorversionstring.md)<br/>           | Только для чтения<br/> | Версия процессора узла.<br/>                                                      |
-| [**SerialPorts**](ivmhostinfo-serialports.md)<br/>                                 | Только для чтения<br/> | Имена последовательных портов, связанные с последовательными портами узла.<br/>                                |
-| [**ИСПОЛЬЗУЕМЫЙ**](ivmhostinfo-sse.md)<br/>                                                 | Только для чтения<br/> | Указывает, поддерживает ли процессор набор инструкций SSE.<br/>                       |
+| [**сериалпортс**](ivmhostinfo-serialports.md)<br/>                                 | Только для чтения<br/> | Имена последовательных портов, связанные с последовательными портами узла.<br/>                                |
+| [**SSE**](ivmhostinfo-sse.md)<br/>                                                 | Только для чтения<br/> | Указывает, поддерживает ли процессор набор инструкций SSE.<br/>                       |
 | [**SSE2**](ivmhostinfo-sse2.md)<br/>                                               | Только для чтения<br/> | Указывает, поддерживает ли процессор набор инструкций SSE2.<br/>                      |
 | [**сриднов**](ivmhostinfo-threednow.md)<br/>                                     | Только для чтения<br/> | Указывает, поддерживает ли процессор набор инструкций 3DNow.<br/>                     |
 | [**утктиме**](ivmhostinfo-utctime.md)<br/>                                         | Только для чтения<br/> | Время в формате UTC на размещающем компьютере.<br/>                                                       |
@@ -74,17 +74,17 @@ ms.locfileid: "104135827"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                    |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                     |
 | Окончание поддержки клиента<br/>    | Windows 7<br/>                                                                          |
 | Продукт<br/>                  | Windows Virtual PC<br/>                                                                 |
-| Header<br/>                   | <dl> <dt>Впккоминтерфацес. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Впккоминтерфацес. h</dt> </dl> |
 | IID<br/>                      | IID \_ ивмхостинфо определен как 5b5cf343-05ad-453b-be99-adf4e27b2ebc<br/>                |
 
 

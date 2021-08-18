@@ -4,12 +4,12 @@ ms.assetid: 031b0e82-f246-4291-aed3-f443ab152e00
 title: Функция InitializeSecurityContext (Negotiate) (SSPI. h)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: f4fd8c68896f10627ff1d66c3f576ca06d67e029
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8470e076b9bc15295071c5fc91d51a81b5ae5cb842f928b58eda2249d4f90b44
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103898818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120015914"
 ---
 # <a name="initializesecuritycontext-negotiate-function"></a>Функция InitializeSecurityContext (Negotiate)
 
@@ -189,7 +189,7 @@ SECURITY_STATUS SEC_Entry InitializeSecurityContext(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Вызывающий объект отвечает за определение того, достаточно ли атрибутов последнего контекста. Если, например, была запрошена конфиденциальность, но ее не удалось установить, некоторые приложения могут немедленно завершить подключение.
 
@@ -234,21 +234,21 @@ SECURITY_STATUS SEC_Entry InitializeSecurityContext(
 
 Вызывающие объекты в режиме ядра имеют следующие отличия: имя целевого объекта — это строка в [*Юникоде*](../secgloss/u-gly.md) , которую необходимо выделить в виртуальной памяти с помощью [**VirtualAlloc**](/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc); Он не должен выделяться из пула. Буферы, переданные и передаваемые в *пинпут* и *паутпут* , должны находиться в виртуальной памяти, а не в пуле.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                   |
-| Header<br/>                   | <dl> <dt>SSPI. h (включая Security. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                                            |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                   |
+| Заголовок<br/>                   | <dl> <dt>SSPI. h (включая Security. h)</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Secur32. lib</dt> </dl>                 |
 | DLL<br/>                      | <dl> <dt>Secur32.dll</dt> </dl>                 |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,19 +1,19 @@
 ---
-description: Класс Bluetooth объекта службы устройства.
+description: класс Bluetooth для перемещения объектов службы устройства.
 ms.assetid: 2dbaccc5-7fe0-4041-b317-bbfb4a603e1b
-title: System. Devices. АЕП. Bluetooth. наложенный. Services. Обжектксфер
+title: System. Devices. АЕП. Bluetooth. Наложенный на. Services. Обжектксфер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: adf3730bdfddb037bd06ac482136d855c5242116
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e44528ab4740b8e365c56578e1318f3c7feaa692f136108593f1cabbdb0c2889
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010884"
 ---
-# <a name="systemdevicesaepbluetoothcodservicesobjectxfer"></a>System. Devices. АЕП. Bluetooth. наложенный. Services. Обжектксфер
+# <a name="systemdevicesaepbluetoothcodservicesobjectxfer"></a>System. Devices. АЕП. Bluetooth. Наложенный на. Services. Обжектксфер
 
-Класс Bluetooth объекта службы устройства.
+класс Bluetooth для перемещения объектов службы устройства.
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511"></a>Windows 10, версия 1703, Windows 10, версия 1607, Windows 10, версия 1511
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

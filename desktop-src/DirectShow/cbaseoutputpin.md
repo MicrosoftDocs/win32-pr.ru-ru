@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 21949d772c44f02e364013dd98c905b8f59ccdc2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 67a4051f904b27b75273d553e1d0604b068b3910fbfb322b5a2df716c996a1ba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119872593"
 ---
 # <a name="cbaseoutputpin-class"></a>Класс Кбасеаутпутпин
 
@@ -57,7 +57,7 @@ ms.locfileid: "105657704"
 | [**иниталлокатор**](cbaseoutputpin-initallocator.md)           | Создает распределитель памяти. Виртуализаци.                                       |
 | [**чеккконнект**](cbaseoutputpin-checkconnect.md)             | Определяет, подходит ли подключение по ПИН-коду.                           |
 | [**бреакконнект**](cbaseoutputpin-breakconnect.md)             | Освобождает ПИН-код из соединения.                                        |
-| [**Активна**](cbaseoutputpin-active.md)                         | Уведомляет ПИН-код о том, что фильтр активен.                            |
+| [**Активен**](cbaseoutputpin-active.md)                         | Уведомляет ПИН-код о том, что фильтр активен.                            |
 | [**Неактивно**](cbaseoutputpin-inactive.md)                     | Уведомляет ПИН-код о том, что фильтр больше не активен.                      |
 | [**деливерендофстреам**](cbaseoutputpin-deliverendofstream.md) | Доставляет уведомление в виде конца потока в подключенный входной ПИН-код. Виртуализаци. |
 | [**деливербегинфлуш**](cbaseoutputpin-deliverbeginflush.md)   | Запрашивает подключенный входной ПИН-код для начала операции очистки. Виртуализаци.      |
@@ -80,7 +80,7 @@ ms.locfileid: "105657704"
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Амфилтер. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>амфилтер. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

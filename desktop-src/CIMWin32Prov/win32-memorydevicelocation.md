@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5cf1ba93a2574810892443aefa43e1c7c501636c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ba19807d888c27246a17d8af73cfd81bfd8ba52136e466ab78433316ea533339
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119973014"
 ---
 # <a name="win32_memorydevicelocation-class"></a>\_Класс Win32 меморидевицелокатион
 
@@ -46,7 +46,7 @@ class Win32_MemoryDeviceLocation : CIM_Realizes
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ меморидевицелокатион** имеет следующие свойства.
 
@@ -84,11 +84,11 @@ class Win32_MemoryDeviceLocation : CIM_Realizes
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ меморидевицелокатион** является производным от [**CIM \_**](cim-realizes.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -102,7 +102,7 @@ class Win32_MemoryDeviceLocation : CIM_Realizes
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

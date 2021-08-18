@@ -4,12 +4,12 @@ description: Поиск удаленного объекта
 ms.assetid: b329de53-646b-42a2-afa3-06473c3483d6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d0ce1b2280faaed7be3b5afb25a48438ff1a2b7
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 96577ddd018ab6b00c5af59a9824984c1ffe255dc91849b4391b256b493b765a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103891157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992454"
 ---
 # <a name="locating-a-remote-object"></a>Поиск удаленного объекта
 
@@ -22,11 +22,11 @@ ms.locfileid: "103891157"
 > [!Note]  
 > Вызовы при создании экземпляра при указании расположения сервера могут переопределять параметр реестра. Алгоритм, используемый COM для этого, описан в справочнике по перечислению [**клскткс**](/windows/win32/api/wtypesbase/ne-wtypesbase-clsctx) .
 
- 
+ 
 
 Удаленная активация зависит от отношения безопасности между клиентом и сервером. Дополнительные сведения см. [в разделе Безопасность в com](security-in-com.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -36,6 +36,6 @@ ms.locfileid: "103891157"
 [Создание объекта через объект класса](creating-an-object-through-a-class-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

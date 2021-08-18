@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 595c6459148a0270bed2328c70e15ef74a69acf3
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: f44d2379d498f5e191296a132c30b5fde925c9c323d4f42f1a316ed6cb0a4c46
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104000161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010193"
 ---
 # <a name="getbasevhdpath-method-of-the-win32_rdmsdeploymentsettings-class"></a>Метод Жетбасевхдпас \_ класса Win32 рдмсдеплойментсеттингс
 
@@ -54,7 +54,7 @@ uint32 GetBaseVHDPath(
 
 Возвращает значение 0 при успешном выполнении, в противном случае возвращает код ошибки WMI.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -68,7 +68,7 @@ uint32 GetBaseVHDPath(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

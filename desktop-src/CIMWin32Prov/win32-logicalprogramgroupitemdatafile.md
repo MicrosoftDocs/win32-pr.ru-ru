@@ -1,5 +1,5 @@
 ---
-description: '\_Класс WMI взаимосвязей Win32 логикалпрограмграупитемдатафиле связывает элементы группы программ меню Пуск и файлы, в которых они хранятся.'
+description: '\_класс WMI взаимосвязей Win32 логикалпрограмграупитемдатафиле связывает элементы группы программ меню и файлы, в которых они хранятся.'
 ms.assetid: 9327c205-d0ad-4f2b-a65e-2a648e7c13e0
 ms.tgt_platform: multiple
 title: Класс Win32_LogicalProgramGroupItemDataFile
@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: beec7074104482e4c6bc91ba7efeaea89104a011
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b6f69c23ae545de837e9d6578ba2f64eed51ecbc6f10780e40c809cb2e362b33
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104142853"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119973055"
 ---
 # <a name="win32_logicalprogramgroupitemdatafile-class"></a>\_Класс Win32 логикалпрограмграупитемдатафиле
 
@@ -46,7 +46,7 @@ class Win32_LogicalProgramGroupItemDataFile : CIM_Dependency
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ логикалпрограмграупитемдатафиле** имеет следующие свойства.
 
@@ -84,13 +84,13 @@ class Win32_LogicalProgramGroupItemDataFile : CIM_Dependency
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ логикалпрограмграупитемдатафиле** является производным от [**\_ зависимости CIM**](cim-dependency.md).
 
-Вызывающий процесс, использующий этот класс, должен иметь привилегию **SE \_ reside \_ Name** на компьютере, где размещается реестр. Например, если перечислить этот класс на локальном компьютере, учетная запись, под которой выполняется приложение, должна иметь эту привилегию. Дополнительные сведения см. в разделе [выполнение привилегированных операций](/windows/desktop/WmiSdk/executing-privileged-operations).
+вызывающий процесс, использующий этот класс, должен иметь привилегию **SE \_ reside \_ NAME** на компьютере, где размещается реестр. Например, если перечислить этот класс на локальном компьютере, учетная запись, под которой выполняется приложение, должна иметь эту привилегию. Дополнительные сведения см. в разделе [выполнение привилегированных операций](/windows/desktop/WmiSdk/executing-privileged-operations).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -104,7 +104,7 @@ class Win32_LogicalProgramGroupItemDataFile : CIM_Dependency
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

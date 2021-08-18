@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 823583beed6696d40803ccc098410dac053b8948
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 146c3736f7aaa89fc9a724d9dd7e4bfb58160e21e2de57f40a8e855c8a3c1446
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665474"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043613"
 ---
 # <a name="cdrawimagefastrender-method"></a>Кдравимаже. Фастрендер, метод
 
@@ -53,7 +53,7 @@ void FastRender(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Метод [**кдравимаже::D равимаже**](cdrawimage-drawimage.md) вызывает этот метод, но только в том случае, если распределитель для соединения является объектом [**Цимажеаллокатор**](cimageallocator.md) . В этом случае пример носителя гарантированно будет объектом [**Цимажесампле**](cimagesample.md) . Объект **Цимажесампле** использует функцию **креатедибсектион** для выделения общей памяти для точечного рисунка, что дает возможность рисовать изображение с помощью **BitBlt** или **стретчблт**.
 
@@ -61,18 +61,18 @@ void FastRender(
 
 Если фильтр не владеет распределителем, метод **DrawImage** использует [**Кдравимаже:: словрендер**](cdrawimage-slowrender.md) для рисования изображения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Винутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>винутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

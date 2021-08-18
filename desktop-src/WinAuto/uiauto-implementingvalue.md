@@ -15,12 +15,12 @@ keywords:
 - интерфейсы, Ивалуепровидер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40633a21fdd6b59a2aa35c34258037582a647f05
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 28b30d8c84bc5f998d55ee17d7699bb37f33b7e19c52a2694578c3d11ef1d888
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413301"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119997813"
 ---
 # <a name="value-control-pattern"></a>Шаблон элемента управления Value
 
@@ -32,7 +32,7 @@ ms.locfileid: "104413301"
 
 -   [Правила и соглашения реализации](#implementation-guidelines-and-conventions)
 -   [Обязательные члены для **ивалуепровидер**](#required-members-for-ivalueprovider)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="implementation-guidelines-and-conventions"></a>Правила и соглашения реализации
 
@@ -45,7 +45,7 @@ ms.locfileid: "104413301"
 - Одинарные и многострочные элементы управления редактирования должны реализовывать [**итекстпровидер**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itextprovider) , чтобы предоставить доступ к содержимому только для чтения.
 - Элементы управления для многострочного редактирования должны реализовывать [**ивалуепровидер**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-ivalueprovider) , если их содержимое можно изменить.
 - [**Ивалуепровидер**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-ivalueprovider) не поддерживает извлечение сведений о форматировании или значений подстрок. Реализуйте [**итекстпровидер**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itextprovider) в этих сценариях.
-- [**Ивалуепровидер**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-ivalueprovider) должен быть реализован элементами управления, такими как элемент управления выбора цвета из Microsoft Word (см. следующий рисунок), который поддерживает строковое сопоставление между значением цвета (например, "желтый") и эквивалентным внутренним значением [RGB](/windows/win32/api/wingdi/nf-wingdi-rgb) .
+- [**ивалуепровидер**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-ivalueprovider) должен быть реализован элементами управления, такими как элемент управления выбора цвета, из Microsoft Word (см. следующий рисунок), который поддерживает строковое сопоставление между значением цвета (например, "желтый") и эквивалентным внутренним значением [RGB](/windows/win32/api/wingdi/nf-wingdi-rgb) .
 
     ![Иллюстрация, показывающая сопоставление строк цветовой палитры](images/uia-valuepattern-colorpicker.jpg)
 
@@ -65,11 +65,11 @@ ms.locfileid: "104413301"
 
 
 
- 
+ 
 
 Этот шаблон элемента управления не имеет связанных событий.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -85,6 +85,6 @@ ms.locfileid: "104413301"
 [Шаблоны элементов управления Text и TextRange](uiauto-implementingtextandtextrange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

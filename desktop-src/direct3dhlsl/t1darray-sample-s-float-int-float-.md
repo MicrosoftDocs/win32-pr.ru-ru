@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 16d0a651d70aa618b9791fb760c51dfa05945752
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 2084a653419254b5ccae500e997614c5d2cdbfc8402922b8527bdac47910cf9a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104998198"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119671154"
 ---
 # <a name="texture1darraysamplesfloatintfloat-function"></a>Функция Texture1DArray:: Sample (S, float, int, float)
 
@@ -87,7 +87,7 @@ DXGI_FORMAT Sample(
 | Texture1D, Texture1DArray     | INT            |
 | Texture2D, Texture2DArray     | int2           |
 | Texture3D                     | int3           |
-| Текстурекубе, Текстурекубеаррай | не поддерживается  |
+| Текстурекубе, Текстурекубеаррай | Не поддерживается  |
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - MFCaptureEngine.dll
-ms.openlocfilehash: a2ff0dbf46ca464c11570c8fe78e0b3dbebe3248
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 18d264b30b8f3ed4d06e80f236908dd7bc81dbe96c4eb9c3231fa330331e34f5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711278"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119940254"
 ---
 # <a name="mfcreatecaptureengine-function"></a>Функция Мфкреатекаптурингине
 
@@ -52,23 +52,23 @@ HRESULT MFCreateCaptureEngine(
 
 Если функция завершается успешно, возвращается значение S \_ ОК. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция не имеет связанной библиотеки импорта и не объявлена в общедоступном файле заголовка. Для динамической привязки к MFCaptureEngine.dll необходимо использовать функции [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                     |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2012 R2 \[\]<br/>                                        |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                     |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[Только классические приложения R2\]<br/>                                        |
 | DLL<br/>                      | <dl> <dt>MFCaptureEngine.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

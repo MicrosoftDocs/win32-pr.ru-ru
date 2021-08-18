@@ -3,7 +3,7 @@ title: Сообщение BCM_SETSPLITINFO (Коммктрл. h)
 description: Задает сведения для элемента управления "разворачивающаяся кнопка". Отправляйте это сообщение явным образом или с помощью \_ макроса кнопки сетсплитинфо.
 ms.assetid: 609b8972-9616-4850-a72c-2f87ce19f563
 keywords:
-- Элементы управления Windows для BCM_SETSPLITINFO сообщений
+- элементы управления Windows сообщений BCM_SETSPLITINFO
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac40f2d1ef016ee76ab21ccf2dc4733d0ff427f3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 17332ce5f10fa612d739598222e4973000961435fa525190a650adaa9aa9fc4c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105654527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921424"
 ---
 # <a name="bcm_setsplitinfo-message"></a>\_Сообщение СЕТСПЛИТИНФО BCM
 
@@ -47,7 +47,7 @@ ms.locfileid: "105654527"
 
 Возвращает **значение true** , если успешно, или **false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это сообщение используется только с стилями кнопки " [**BS \_**](button-styles.md) " и " [**BS \_ дефсплитбуттон**](button-styles.md) ".
 
@@ -57,9 +57,9 @@ ms.locfileid: "105654527"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

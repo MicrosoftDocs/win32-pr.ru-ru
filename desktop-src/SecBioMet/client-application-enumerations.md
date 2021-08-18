@@ -1,17 +1,17 @@
 ---
 title: Перечисления клиентских приложений
-description: Перечисления, поддерживаемые биометрическая платформа Windows API.
+description: перечисления, поддерживаемые биометрическая платформа Windows API.
 ms.assetid: fd33bc63-cc99-40de-a43b-b0bc7d4c9454
 keywords:
-- API биометрическая платформа Windows API биометрическая платформа Windows, перечисления клиентских приложений
+- Windows api биометрическая платформа Windows api биометрической платформы, перечисление клиентских приложений
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4ec220a80ebd07806edffba27278bc03d755245
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bffb3726d10303a96d56540cd0d68b49db1123945666ce7544d9aa80c46bdc06
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105681526"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119994424"
 ---
 # <a name="client-application-enumerations"></a>Перечисления клиентских приложений
 

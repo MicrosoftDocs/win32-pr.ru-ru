@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - objidl.h
-ms.openlocfilehash: 1c3ac95802a44f4305abb24566744ad98c67b174
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0b58013ba81bb394715a0042f3f3d7435a381fa01f5b985bd9ad81d12122441e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119758783"
 ---
 # <a name="iagilereferenceresolve-method"></a>Метод Иагилереференце:: Resolve
 
@@ -69,7 +69,7 @@ HRESULT Resolve(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Вызовите функцию [**рожетагилереференце**](/windows/desktop/api/ComBaseApi/nf-combaseapi-rogetagilereference) , чтобы создать динамическую ссылку на объект. Вызовите метод **Resolve** для локализации объекта в апартамент, в котором вызывается **разрешение Resolve** .
 
@@ -79,8 +79,8 @@ HRESULT Resolve(
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8.1 \|\]<br/>            |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 R2 \|\]<br/> |
+| Минимальная версия клиента<br/> | Windows 8.1 \[ приложения UWP для классических приложений \|\]<br/>            |
+| Минимальная версия сервера<br/> | Windows Server 2012 Приложения универсального \[ приложения UWP для настольных приложений \|\]<br/> |
 
 
 

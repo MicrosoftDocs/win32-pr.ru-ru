@@ -4,12 +4,12 @@ ms.assetid: 213c48e8-bb21-43ed-9c00-2a5cf8ac25f0
 title: Порты завершения ввода-вывода
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 882363ef99821a0b0b40810f45d609c5b5f7760c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2133bb14c661580eaf8004bd92c6f947b3b8777a4b1a5f6b330fe631b2be6c81
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664430"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050834"
 ---
 # <a name="io-completion-ports"></a>Порты завершения ввода-вывода
 
@@ -76,7 +76,7 @@ ms.locfileid: "105664430"
 -   [**LPFN_WSARECVMSG (Всареквмсг)**](/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg)
 -   [**всарекв**](/windows/desktop/api/winsock2/nf-winsock2-wsarecv)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

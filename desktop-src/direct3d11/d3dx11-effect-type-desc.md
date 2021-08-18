@@ -163,7 +163,7 @@ typedef struct _D3DX11_EFFECT_TYPE_DESC {
 
 D3DX11 \_ \_ тип эффектов \_ DESC используется с [ **ID3DX11EffectType:: DESC**](id3dx11effecttype-getdesc.md)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -173,7 +173,7 @@ D3DX11 \_ \_ тип эффектов \_ DESC используется с [ **ID3
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

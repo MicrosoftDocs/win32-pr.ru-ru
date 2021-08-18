@@ -4,12 +4,12 @@ ms.assetid: ae9cdebe-0591-4bdb-9637-7a4dee002be2
 title: Видеозапись (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c53d40a2a4078f84e09b11c83da9f3f493cea9e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 992d615283907a2356f3d5c14dd1d042c28b7ca5bf20704d5320cb031eb5004e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105719418"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120012104"
 ---
 # <a name="video-capture-microsoft-media-foundation"></a>Видеозапись (Microsoft Media Foundation)
 
@@ -22,7 +22,7 @@ ms.locfileid: "105719418"
 -   [Настройка формата видеозаписи](how-to-set-the-video-capture-format.md)
 -   [Настройка частоты кадров видеозаписи](how-to-set-the-video-capture-frame-rate.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

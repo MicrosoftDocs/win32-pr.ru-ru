@@ -4,12 +4,12 @@ ms.assetid: 272d2f31-6e57-4ce5-ac86-b4d47f661fea
 title: Фильтр видеодекодера MPEG-1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec7f48e441226dee33ef949219e8008e15c9d711
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 6e72e575baf6761a34078ee4413b6dd095871a646d9539d08c9357ffd8af5efd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105682196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120051024"
 ---
 # <a name="mpeg-1-video-decoder-filter"></a>Фильтр видеодекодера MPEG-1
 
@@ -84,15 +84,15 @@ ms.locfileid: "105682196"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот фильтр может декодировать в поверхность DirectDraw. Фильтр использует технологию MMX, если компьютер поддерживает технологию MMX.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Фильтры DirectShow](directshow-filters.md)
+[DirectShow Фильтрующ](directshow-filters.md)
 </dt> </dl>
 
  
