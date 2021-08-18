@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9cdcb33c5536cfa67ab136daa5aa56d93f1d706
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 52f88cd4c60dcfcceed60ca644f7c59f65bee16e344cc17664e8b4be1ee18fab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135974"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024292"
 ---
 # <a name="wm_adsprop_notify_error-message"></a>\_ \_ \_ Сообщение об ошибке АДСПРОП для уведомления WM
 
@@ -66,7 +66,7 @@ WM_ADSPROP_NOTIFY_ERROR
 
 Это сообщение не имеет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция [**адспропсендеррормессаже**](/windows/desktop/api/Adsprop/nf-adsprop-adspropsenderrormessage) является предпочтительным методом отправки этого сообщения.
 
@@ -80,7 +80,7 @@ WM_ADSPROP_NOTIFY_ERROR
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                             |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                       |
-| Header<br/>                   | <dl> <dt>Адспроп. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Адспроп. h</dt> </dl> |
 
 
 

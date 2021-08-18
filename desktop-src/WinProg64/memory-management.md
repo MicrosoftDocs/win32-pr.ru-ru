@@ -3,16 +3,16 @@ title: Управление памятью в эмуляторе WOW64
 description: Управление памятью в эмуляторе WOW64 зависит от архитектуры процессора.
 ms.assetid: a3fa6e51-2895-4941-9304-5939208e8102
 keywords:
-- WOW64 64-разрядное программирование Windows, управление памятью
-- Управление памятью 64-разрядное программирование для Windows
+- WOW64 64-bit Windows программирование, управление памятью
+- управление памятью 64-разрядное Windowsное программирование
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8602bf6e7e7d9e55894215938932559cfadc6848
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9908c8127f4fbe15b636d7d72fd19d2d8057c1d0a0c126393bc6c182e46925f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413521"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132837"
 ---
 # <a name="memory-management-under-wow64"></a>Управление памятью в эмуляторе WOW64
 
@@ -35,16 +35,16 @@ WOW64 имитирует 4 КБ страниц поверх собственны
 -   Поддерживаются функции [**реадфилескаттер**](/windows/desktop/api/fileapi/nf-fileapi-readfilescatter) и [**вритефилегасер**](/windows/desktop/api/fileapi/nf-fileapi-writefilegather) .
 -   Использование больших адресов имеет свои преимущества, так как x64 WOW64 поддерживает виртуальное адресное пространство размером 4 ГБ.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Ограничения памяти для выпусков Windows](/windows/desktop/Memory/memory-limits-for-windows-releases)
+[ограничения памяти для выпусков Windows](/windows/desktop/Memory/memory-limits-for-windows-releases)
 </dt> <dt>
 
 [Настройка ОЗУ 4GT](/windows/desktop/Memory/4-gigabyte-tuning)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

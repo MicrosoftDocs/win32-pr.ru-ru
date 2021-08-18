@@ -4,12 +4,12 @@ ms.assetid: 209e0aa3-d7a3-4b5c-ae5a-5063a3804a9d
 title: KSPROPERTY_EXTXPORT_ATN_SEARCH
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f4115c7ff1c4bc878b4ee80e284f11821c37909a
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 61d35c1fce1e958aa475cc0344c2db320daa806326a49d0d6e939bf4ea86d49f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119823274"
 ---
 # <a name="ksproperty_extxport_atn_search"></a>КСПРОПЕРТИ \_ ексткспорт \_ АТН \_ Search
 
@@ -27,7 +27,7 @@ ms.locfileid: "107909451"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Задайте для элемента **двабстраккнумбер** структуры **кспроперти \_ ексткспорт \_** следующее значение:
 
@@ -38,9 +38,9 @@ ms.locfileid: "107909451"
 
 
 
-Спецификация УВК не определяет, как устройство использует бит непрерывности. Структура **кспроперти \_ ексткспорт \_** описана в Windows DDK.
+Спецификация УВК не определяет, как устройство использует бит непрерывности. структура **кспроперти \_ ексткспорт \_** описана в пакете DDK по Windows.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

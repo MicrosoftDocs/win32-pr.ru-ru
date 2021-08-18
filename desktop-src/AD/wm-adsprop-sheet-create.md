@@ -13,12 +13,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b540ffd87d4350a323577ff5fa317e94f9271f2d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e0ec88eaed682fd16fecb717b851b902d5ba52ce08d5360aa78b881a4b8cb4f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024202"
 ---
 # <a name="wm_adsprop_sheet_create-message"></a>\_Сообщение о \_ создании листа WM адспроп \_
 
@@ -69,7 +69,7 @@ LRESULT SendMessage( (HWND)   hwnd,
 
 Возвращаемое значение для этого сообщения всегда равно нулю.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Вызывающий объект должен выделить [**структуру \_ \_ \_ сведений о странице DSA sec**](dsa-sec-page-info.md) , строку заголовка и все строки [**Дсобжект**](/windows/desktop/api/Dsclient/ns-dsclient-dsobject) , используя один вызов функции [**локалаллок**](/windows/desktop/api/winbase/nf-winbase-localalloc) . Сообщение **о \_ \_ \_ создании адспроп листа WM** — это асинхронное сообщение, поэтому оно будет возвращаться перед созданием дополнительного листа. По этой причине память должна остаться неизменной после возвращения сообщения. Получатель освободит эту память с помощью одного вызова функции [**функции LocalFree**](/windows/desktop/api/winbase/nf-winbase-localfree) после создания дополнительного листа.
 

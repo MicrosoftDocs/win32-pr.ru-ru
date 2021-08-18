@@ -1,21 +1,21 @@
 ---
-title: Использование командлетов WMI Windows PowerShell для управления облегченным сервером BITS
-description: Windows PowerShell предоставляет простой механизм подключения к инструментарий управления Windows (WMI) (WMI) на удаленном компьютере и управления фоновая интеллектуальная служба передачи (BITS) Compact Server.
+title: использование командлетов WMI Windows PowerShell для управления облегченным сервером BITS
+description: Windows PowerShell предоставляет простой механизм подключения к инструментарий управления Windows (WMI) (WMI) на удаленном компьютере и управления сервером фоновая интеллектуальная служба передачи (BITS) Compact Server.
 ms.assetid: fe174d2f-4ca0-431e-b1b8-1893ec54147a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c3c942672c147ec5daa0caa2a370e487be80809
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3e82401e80b5e49b7d2b964ec910d15d70aea7ce9c782a0173bef97aa8b3a5c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987679"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021082"
 ---
-# <a name="using-wmi-windows-powershell-cmdlets-to-manage-the-bits-compact-server"></a>Использование командлетов WMI Windows PowerShell для управления облегченным сервером BITS
+# <a name="using-wmi-windows-powershell-cmdlets-to-manage-the-bits-compact-server"></a>использование командлетов WMI Windows PowerShell для управления облегченным сервером BITS
 
-Windows PowerShell предоставляет простой механизм подключения к инструментарий управления Windows (WMI) (WMI) на удаленном компьютере и управления фоновая интеллектуальная служба передачи (BITS) Compact Server. Облегченный сервер BITS — это необязательный серверный компонент, который необходимо установить отдельно. Сведения об установке Compact Server см. в документации по [облегченному серверу BITS](bits-compact-server.md) .
+Windows PowerShell предоставляет простой механизм подключения к инструментарий управления Windows (WMI) (WMI) на удаленном компьютере и управления сервером фоновая интеллектуальная служба передачи (BITS) Compact Server. Облегченный сервер BITS — это необязательный серверный компонент, который необходимо установить отдельно. Сведения об установке Compact Server см. в документации по [облегченному серверу BITS](bits-compact-server.md) .
 
-1.  Подключитесь к поставщику BITS.
+1.  Подключение поставщику BITS.
 
     ```PowerShell
     $cred = Get-Credential
@@ -32,7 +32,7 @@ Windows PowerShell предоставляет простой механизм п
     > [!Note]  
     > Знак ударения-ударения ( \` ) используется для обозначения разрыва строки.
 
-     
+     
 
 2.  Создайте группу URL-адресов на сервере.
 
@@ -68,7 +68,7 @@ Windows PowerShell предоставляет простой механизм п
 
     Метод **удаления System. Object** удаляет объект $bcsObj.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -87,6 +87,6 @@ Windows PowerShell предоставляет простой механизм п
 [Get-WmiObject](/previous-versions//dd315295(v=technet.10))
 </dt> </dl>
 
- 
+ 
 
- 
+ 

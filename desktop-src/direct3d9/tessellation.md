@@ -4,12 +4,12 @@ ms.assetid: ae39b0e1-d2ae-449e-89db-0a2b24171531
 title: Тесселяция (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82378caac1218158ffc1834c9a9b56fb8cbd250e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 9aedc6b435c2993e213e8a4445682725ddb4d460c146afbe420da996e3dbb887
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103806352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119984834"
 ---
 # <a name="tessellation-direct3d-9"></a>Тесселяция (Direct3D 9)
 
@@ -154,7 +154,7 @@ D3DDEVCAPS2_ADAPTIVETESSNPATCH  // Can adaptively tessellate N-patches
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

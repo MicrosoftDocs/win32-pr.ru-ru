@@ -3,18 +3,18 @@ title: list.csv
 description: list.csv
 ms.assetid: 020b213c-826c-430c-8ce7-92b819581de8
 keywords:
-- Интернет-магазины проигрывателя Windows Media, list.csv
+- проигрыватель Windows Media интернет-магазинов, list.csv
 - Интернет-магазины, list.csv
 - Введите 1 Интернет-магазины, list.csv
 - list.csv
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f41ed237c5f4a185f01feace8f09b4615e4922b
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 3e754f7985fbf59c23cccae5fd9780ff4b4579205ceaf3ef3cc8f74c768d4e71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104133471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135347"
 ---
 # <a name="listcsv"></a>list.csv
 

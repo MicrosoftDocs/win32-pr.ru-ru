@@ -4,16 +4,16 @@ ms.assetid: e5136e15-3ae1-4e0a-ae97-fcf16203b21d
 title: Управление асинхронными операциями
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d220c5633f9ee044dbf9cdb6a63b563747620afd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 537a52a41e73bae7035789176bb65b125c105f691bf654ed3c0ded4e6a73f70d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999453"
 ---
 # <a name="managing-asynchronous-operations"></a>Управление асинхронными операциями
 
-\[Начиная с Windows 8 и Windows Server 2012, [Служба виртуальных дисков](virtual-disk-service-portal.md) заменяется [API управления хранилищами Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[начиная с Windows 8 и Windows Server 2012, [служба виртуальных дисков](virtual-disk-service-portal.md) заменяется [API-интерфейсом управления служба хранилища Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 В следующем примере кода показано, как вызывающий объект работает с асинхронным объектом. Здесь функция **синчронаускреателун** вызывает метод асинхронного [**Ивдссубсистем:: креателун**](/windows/desktop/api/Vds/nf-vds-ivdssubsystem-createlun) , используя заданные параметры. Функция будет ожидать асинхронный объект для завершения асинхронного вызова метода **креателун** . Когда метод [**ивдсасинк:: wait**](/windows/desktop/api/Vds/nf-vds-ivdsasync-wait) возвращает, **Синчронаускреателун** получает интерфейс [**ИВДСЛУН**](/windows/desktop/api/Vds/nn-vds-ivdslun) для вновь созданного LUN и возвращает его в качестве выходного аргумента.
 
@@ -94,7 +94,7 @@ HRESULT SynchronousCreateLun(
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

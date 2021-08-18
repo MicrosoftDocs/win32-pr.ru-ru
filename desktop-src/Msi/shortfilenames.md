@@ -4,12 +4,12 @@ ms.assetid: b330f9c3-3297-45cf-915c-5fbb291b8afb
 title: ШОРТФИЛЕНАМЕС, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e347e5ec400a1593858f0cac558f33528e25396e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cb64d9f2078a1455aa79bfec077e6108f4a8a5bd9ced7d246c5fe588919b33d8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119628414"
 ---
 # <a name="shortfilenames-property"></a>ШОРТФИЛЕНАМЕС, свойство
 
@@ -19,7 +19,7 @@ ms.locfileid: "105652275"
 
 Если свойство **шортфиленамес** не задано и целевой том поддерживает длинные имена, установщик использует длинные имена. Короткие имена используются программой установки, если целевой том не поддерживает длинные имена.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если задано свойство **шортфиленамес** , установщик создает папки и устанавливает файлы с использованием коротких имен файлов из всех коротких \| длинных пар, перечисленных в таблице [файлов](file-table.md) или [таблице каталогов](directory-table.md).
 
@@ -31,7 +31,7 @@ ms.locfileid: "105652275"
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9e509a081243f28293dc2d8abf8311f69eaf9a44
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 26442633d1a4d5187b5e53ae53e0a898f759f91dc3719f09715b570108b701f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119071908"
 ---
 # <a name="waitdispatchingmessages-function"></a>Функция Ваитдиспатчингмессажес
 
@@ -85,7 +85,7 @@ DWORD WINAPI WaitDispatchingMessages(
 
 Возвращает значение из функции **WaitForMultipleObjects** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если объект владеет окном, он должен отправлять сообщения окна в ожидании. Эта функция позволяет объекту ожидать события, семафора или другого взаимоисключающего объекта во время диспетчеризации сообщений.
 
@@ -95,7 +95,7 @@ DWORD WINAPI WaitDispatchingMessages(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Вксутил. h (включение Streams. h)</dt> </dl>                                                                                    |
+| Заголовок<br/>  | <dl> <dt>вксутил. h (включает Потоки. h)</dt> </dl>                                                                                    |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

@@ -15,16 +15,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d73fe450e5ea5f8ceee48436dbbe05570d0d818a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5c73677b10743434bb9548c8d6add95100c4cf017d25bb44d7436e2f68b9ca4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105650376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119673114"
 ---
 # <a name="ras_port_1-structure"></a>\_Структура порта \_ 1 RAS
 
-\[Эта версия структуры **порта RAS \_ \_ 1** не поддерживается в Windows Vista. Используйте более новый [**\_ порт RAS \_ 1**](/windows/desktop/api/Mprapi/ns-mprapi-ras_port_1) , определенный в мпрапи. h.\]
+\[эта версия структуры **порта RAS \_ \_ 1** не поддерживается в Windows Vista. Используйте более новый [**\_ порт RAS \_ 1**](/windows/desktop/api/Mprapi/ns-mprapi-ras_port_1) , определенный в мпрапи. h.\]
 
 Структура **\_ порта RAS \_ 1** содержит сведения о порте RAS.
 
@@ -143,7 +143,7 @@ typedef struct _RAS_PORT_1 {
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                 |
 | Окончание поддержки клиента<br/>    | Windows XP<br/>                                                                |
 | Поддержка конца сервера<br/>    | Windows Server 2003<br/>                                                       |
-| Header<br/>                   | <dl> <dt>Рассапи. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Рассапи. h</dt> </dl> |
 
 
 

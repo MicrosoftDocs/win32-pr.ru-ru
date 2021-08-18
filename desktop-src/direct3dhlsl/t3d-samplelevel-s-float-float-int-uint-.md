@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2ae92245b6a8b6cff89805a73dd724e5aeac43a9
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 3492684d6a3fb017776a2c5946da859cc8c74418660d60c3c9622915aee20dce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104987398"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043462"
 ---
 # <a name="samplelevelsamplelevelsfloatfloatintuint-function-for-texture3d"></a>Функция Самплелевел:: Самплелевел (S, float, float, int, uint) для Texture3D
 
@@ -97,7 +97,7 @@ DXGI_FORMAT SampleLevel(
 | Texture1D, Texture1DArray     | INT            |
 | Texture2D, Texture2DArray     | int2           |
 | Texture3D                     | int3           |
-| Текстурекубе, Текстурекубеаррай | не поддерживается  |
+| Текстурекубе, Текстурекубеаррай | Не поддерживается  |
 
 
 

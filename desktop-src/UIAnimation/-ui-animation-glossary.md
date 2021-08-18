@@ -1,22 +1,22 @@
 ---
-title: Глоссарий анимации Windows
-description: В этом глоссарии содержатся термины и акронимы, представляющие интерес для разработчиков, использующих диспетчер анимации Windows.
+title: Windows Глоссарий анимации
+description: в этом глоссарии содержатся термины и акронимы, представляющие интерес для разработчиков, использующих Windowsный диспетчер анимации.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 66e9cfb4-b9ae-4c21-9b1f-532c7d750903
 keywords:
-- Анимация Windows, глоссарий анимации Windows
+- Windows анимация Windows анимации, глоссарий
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36b7f276b0f20efc35057a9ee7c006c3cf170ac3
-ms.sourcegitcommit: fdd00b445ee88366e9cdd1eed0cb3e42e2a73eca
+ms.openlocfilehash: 9bb477edcaa49aa8baff1bc628ca5d94c13dacc0e552137275ff1e92d8e4cfae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "104532942"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137397"
 ---
-# <a name="windows-animation-glossary"></a>Глоссарий анимации Windows
+# <a name="windows-animation-glossary"></a>Windows Глоссарий анимации
 
-В этом глоссарии содержатся термины и акронимы, представляющие интерес для разработчиков, использующих диспетчер анимации Windows.
+в этом глоссарии содержатся термины и акронимы, представляющие интерес для разработчиков, использующих Windowsный диспетчер анимации.
 
 <dl> <dt>
 
@@ -30,7 +30,7 @@ ms.locfileid: "104532942"
 <span id="uianimation.term.animation_manager"></span><span id="UIANIMATION.TERM.ANIMATION_MANAGER"></span>**диспетчер анимации** 
 </dt> <dd>
 
-Основной компонент анимации Windows и центрального программного интерфейса для управления анимациями (создания, планирования и управления).
+основной компонент анимации Windows и центрального программного интерфейса для управления анимациями (создания, планирования и управления).
 
 </dd> <dt>
 
@@ -160,9 +160,9 @@ ms.locfileid: "104532942"
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

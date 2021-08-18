@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 14184c5838d9f671f75536714d73c3f6ebf00a0a
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 8695a17c60f9785d7782d77db839499306a9577755e8a6838540f5a0fc2cea48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103889691"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146237"
 ---
 # <a name="switch_type-attribute"></a>\_атрибут типа Switch
 
@@ -38,7 +38,7 @@ switch_type(switch-type-specifier)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В то время как атрибут **\[ \_ типа \] switch** определяет тип переменной, параметр **\[** [**\_ —**](switch-is.md) **\]** Attribute указывает имя параметра, который является discriminant объединения. Атрибут **\[ \_ типа \] switch** применяется к параметрам или элементам структур или объединений.
 
@@ -68,7 +68,7 @@ typedef struct _WINNER_TYPE
 
 <dl> <dt>
 
-[**Логическая**](boolean.md)
+[**Логическое**](boolean.md)
 </dt> <dt>
 
 [**char**](char-idl.md)
@@ -77,7 +77,7 @@ typedef struct _WINNER_TYPE
 [Инкапсулированные объединения](encapsulated-unions.md)
 </dt> <dt>
 
-[**перечисления**](enum.md)
+[**enum**](enum.md)
 </dt> <dt>
 
 [Файл определения интерфейса (IDL)](interface-definition-idl-file.md)
@@ -95,9 +95,9 @@ typedef struct _WINNER_TYPE
 [**наборов**](union.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

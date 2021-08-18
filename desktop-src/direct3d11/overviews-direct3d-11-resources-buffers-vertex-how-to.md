@@ -6,12 +6,12 @@ keywords:
 - буфер вершин, создание
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55e0b3d9d8f731b01e7c919105c21c8d150f864a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2f919646dfd4e8f714b925606f342db586ff2b8f09690c58698b7dab2635159e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104330792"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119496906"
 ---
 # <a name="how-to-create-a-vertex-buffer"></a>Как создать буфер вершин
 
@@ -71,7 +71,7 @@ hr = g_pd3dDevice->CreateBuffer( &bufferDesc, &InitData, &g_pVertexBuffer );
 
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Ниже приведены некоторые способы инициализации буфера вершин, который изменяется со временем.
 
@@ -83,7 +83,7 @@ hr = g_pd3dDevice->CreateBuffer( &bufferDesc, &InitData, &g_pVertexBuffer );
 
 \#3 полезен для содержимого, которое изменяется более одного раза на кадр. Как правило, чтение GPU будет выполняться медленнее, но обновления ЦП будут выполняться быстрее.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -93,9 +93,9 @@ hr = g_pd3dDevice->CreateBuffer( &bufferDesc, &InitData, &g_pVertexBuffer );
 [Использование Direct3D 11](how-to-use-direct3d-11.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

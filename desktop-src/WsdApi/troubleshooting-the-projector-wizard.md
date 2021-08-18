@@ -4,12 +4,12 @@ ms.assetid: 54efc88c-0b8e-4652-8655-817a288863d1
 title: Устранение неполадок мастера проекторов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3776e86d3a156fa86873900aa9e804df9830ec64
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5767e9827174d2d8135ac6dfb96c335d49acb82f0a0162b06f22a89c4dbdebef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119856074"
 ---
 # <a name="troubleshooting-the-projector-wizard"></a>Устранение неполадок мастера проекторов
 
@@ -34,7 +34,7 @@ ms.locfileid: "105692265"
 
 Если источник проблемы не удается определить с помощью описанных выше процедур диагностики, следуйте инструкциям в статьях [Включение трассировки WSDAPI](enabling-wsdapi-tracing.md) и обратитесь в службу поддержки Майкрософт.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

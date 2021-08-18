@@ -1,9 +1,9 @@
 ---
 title: Событие DoubleClick объекта Аксвиндовсмедиаплайер
-description: Событие DoubleClick возникает, когда пользователь дважды щелкает кнопку мыши в элементе управления проигрывателя Windows Media.
+description: событие DoubleClick возникает, когда пользователь дважды щелкает кнопку мыши в элементе управления проигрыватель Windows Media.
 ms.assetid: 4f116d8a-1ad5-443a-9c91-66214bbdebcf
 keywords:
-- Событие DoubleClick в проигрывателе Windows Media объекта Аксвиндовсмедиаплайер
+- событие DoubleClick объекта аксвиндовсмедиаплайер проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ac809e8ea61b3abbbc964f6dc9ee2976442fc31
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cb01a5d0d5b9dd750c1232badb913000218a088d1ba6b41bc22e4e5dd49a6230
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694962"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119136107"
 ---
 # <a name="doubleclick-event-of-the-axwindowsmediaplayer-object"></a>Событие DoubleClick объекта Аксвиндовсмедиаплайер
 
-Событие DoubleClick возникает, когда пользователь дважды щелкает кнопку мыши в элементе управления проигрывателя Windows Media.
+событие DoubleClick возникает, когда пользователь дважды щелкает кнопку мыши в элементе управления проигрыватель Windows Media.
 
 ``` syntax
 [C#]
@@ -62,7 +62,7 @@ Private Sub player_DoubleClickEvent(
 
 | Требование | Значение |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                          |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                          |
 | Пространство имен<br/> | **аксвмплиб**<br/>                                                                                                    |
 | Сборка<br/>  | <dl> <dt>AxInterop.WMPLib.dll (AxInterop.WMPLib.dll.dll)</dt> </dl> |
 

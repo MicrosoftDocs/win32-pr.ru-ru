@@ -4,12 +4,12 @@ ms.assetid: a3802aa7-deec-4151-b1b1-4cd38f769864
 title: Отображение устройств
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6df9e5e1746f309f402b31e736c58092d134d38
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd71b943d294bf89e932f965b023ecbce7f4e594044fe96b70bb84d41a27f777
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119038122"
 ---
 # <a name="display-devices"></a>Отображение устройств
 
@@ -25,7 +25,7 @@ ms.locfileid: "104984989"
 | [class](class-display-device-contexts.md)     | Разрешает прорисовку в клиентской области указанного окна.                                                                                                        |
 | [parent](parent-display-device-contexts.md)   | Разрешает рисование в любом месте окна. Хотя родительский контекст устройства также разрешает прорисовку в родительском окне, он не предназначен для использования таким способом. |
 | [private](private-display-device-contexts.md) | Разрешает прорисовку в клиентской области указанного окна.                                                                                                        |
-| [окно](window-display-device-contexts.md)   | Разрешает рисование в любом месте окна.                                                                                                                          |
+| [window](window-display-device-contexts.md)   | Разрешает рисование в любом месте окна.                                                                                                                          |
 
 
 

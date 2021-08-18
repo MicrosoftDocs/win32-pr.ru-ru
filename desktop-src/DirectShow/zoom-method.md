@@ -4,17 +4,17 @@ ms.assetid: 050f1264-8fbe-4322-970c-184275d5b219
 title: Метод Zoom
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2625e6c4facf006a0d904e49068853720e20c29e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb0c260e5a5404b65f4e0d0595a87ee78103c5acccedd32abf50fc5706c6b42f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104497982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119632703"
 ---
 # <a name="zoom-method"></a>Метод Zoom
 
 > [!Note]  
-> Этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
+> этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
 
  
 
@@ -53,7 +53,7 @@ MSWebDVD.Zoom(iXPos, iYPos, iZoomRatio)
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Новое соотношение масштаба действует до тех пор, пока оно не будет восстановлено до исходного размера или опять не изменится. Иными словами, два вызова этого метода, указывающие на *изумратио* двух, будут соотношение масштаба в четыре раза больше, чем исходный размер видео. Если пользователь пытается увеличить масштаб, который может поддерживаться оборудованием, этот метод завершится удачно, но ничего делать не нужно.
 

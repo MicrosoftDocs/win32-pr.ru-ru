@@ -4,20 +4,20 @@ ms.assetid: 841dd1b3-249c-49e1-b462-82da65b4b023
 title: Темпфолдер, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fbf042086d8bb174a02a7b421ced1133a70016e8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d5ded141982c12204eb5267357cedded6521eccb7cc47a3bf000b026faf9aed4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119626512"
 ---
 # <a name="tempfolder-property"></a>Темпфолдер, свойство
 
 Установщик задает для свойства **темпфолдер** полный путь к папке Temp.
 
-Авторам не нужно задавать свойство **темпфолдер** . Установщик Windows использует функцию [**жеттемппас**](/windows/win32/api/fileapi/nf-fileapi-gettemppatha) для получения пути к каталогу, предназначенному для временных файлов, и для задания этого свойства.
+Авторам не нужно задавать свойство **темпфолдер** . Windows Установщик использует функцию [**жеттемппас**](/windows/win32/api/fileapi/nf-fileapi-gettemppatha) для получения пути к каталогу, предназначенному для временных файлов, и для задания этого свойства.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Общее значение для этого свойства — C: \\ TEMP.
 
@@ -27,7 +27,7 @@ ms.locfileid: "105651643"
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

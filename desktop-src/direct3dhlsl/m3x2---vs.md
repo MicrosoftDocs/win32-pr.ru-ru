@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 870a8d4918870930faa536ead01dab2947d5faea
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: ad05ef52970e30d2a130279c6109409205acb9615816e3fa0c7e185998f62254
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104273457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854144"
 ---
 # <a name="m3x2---vs"></a>m3x2 — VS
 
@@ -31,13 +31,13 @@ ms.locfileid: "104273457"
 
  
 
-где
+where
 
 -   DST — это регистр назначения. Result является вектором из двух компонентов.
 -   src0 — это исходный регистр, представляющий 3-компонентный вектор.
 -   src1 — это исходный регистр, представляющий матрицу 3x2, которая соответствует первому из двух последовательных регистров.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -77,7 +77,7 @@ dp3   r0.y, r1, c1
 
 Модификаторы свиззле и отрицания недопустимы для регистра src1. Регистр dest и src0 или любой из src1 + i не могут быть одинаковыми.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

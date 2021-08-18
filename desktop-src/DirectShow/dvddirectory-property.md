@@ -4,17 +4,17 @@ ms.assetid: 0dbfdf28-cda5-41b2-82ce-114d9b940d91
 title: Двддиректори, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 36515c931fb8669db814886dfff12a4bf85bde28
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 2431d9255aa743698baeb9c4b8427ffa9bf5220a60182ac08c246e11f20bcec8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103894697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119749104"
 ---
 # <a name="dvddirectory-property"></a>Двддиректори, свойство
 
 > [!Note]  
-> Этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
+> этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
 
  
 
@@ -28,7 +28,7 @@ ms.locfileid: "103894697"
 
 Возвращает строковое значение, указывающее путь к корневому каталогу DVD-диска.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство доступно для чтения и записи и не имеет значения по умолчанию. Используйте этот метод, чтобы задать корневой путь при наличии нескольких DVD-дисководов в системе. Если в системе только один диск и буква диска выше "C", объект Мсвебдвд находит его автоматически. Для стандартного DVD-Video диска корневой путь должен включать в себя \_ Каталог видео служб терминалов:
 

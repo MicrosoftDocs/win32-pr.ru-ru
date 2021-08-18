@@ -31,7 +31,7 @@ ms.locfileid: "119216554"
 -   [API ммдевице](mmdevice-api.md) для перечисления мультимедийных устройств и выбора.
 -   ВАСАПИ для операций управления потоком.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

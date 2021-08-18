@@ -3,7 +3,7 @@ title: Атрибут ReleaseDate
 description: Атрибут ReleaseDate — это Дата исходного выпуска элемента.
 ms.assetid: 6bfc364e-2aa6-4742-8db5-5d32406c7a10
 keywords:
-- ReleaseDate атрибут Windows Media Player
+- проигрыватель Windows Media атрибута ReleaseDate
 topic_type:
 - apiref
 api_name:
@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e13088e33a7b7f7ec915c1c595b528c446a2f66d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2efb8a873a7690ada0b6da9edaaebabc5c4681a055e099848aee7e96c22f1238
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105649064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995615"
 ---
 # <a name="releasedate-attribute"></a>Атрибут ReleaseDate
 
 Атрибут **ReleaseDate** — это Дата исходного выпуска элемента.
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [Звуковые элементы](audio-item-attributes.md)
 -   [Списки воспроизведения компакт-дисков](cd-playlist-attributes.md)
@@ -31,7 +31,7 @@ ms.locfileid: "105649064"
 -   [DVD-диски](dvd-attributes.md)
 -   [Элементы видео](video-item-attributes.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут хранится только в базе данных библиотеки (или в кэше).
 
@@ -43,7 +43,7 @@ ms.locfileid: "105649064"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 

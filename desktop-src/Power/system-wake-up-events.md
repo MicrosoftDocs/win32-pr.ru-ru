@@ -4,12 +4,12 @@ ms.assetid: b7326b09-0829-4e76-80d0-e4ecdf7f556e
 title: События пробуждения системы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f13332305ef023d932f2912f7299aa12cd402733
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f67ec53b474e303bada3a27bda1adea8170d5be2d6a84354fc17094ddec7da2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143227"
 ---
 # <a name="system-wake-up-events"></a>События пробуждения системы
 
@@ -28,7 +28,7 @@ ms.locfileid: "105673791"
 
 Если система выходит из-за активности пользователя, система сначала передает событие [ПБТ \_ апмресумеаутоматик](pbt-apmresumeautomatic.md) , за которым следует событие [ПБТ \_ апмресумесуспенд](pbt-apmresumesuspend.md) . Кроме того, система будет включать дисплей. Приложение должно повторно открывать закрытые файлы, когда система перешла в спящий режим, и подготовиться к вводу данных пользователем.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

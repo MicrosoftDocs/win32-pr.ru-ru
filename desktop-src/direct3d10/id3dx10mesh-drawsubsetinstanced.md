@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 2e28d7a7d2c1d743090832d68793ec3743662308
-ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
+ms.openlocfilehash: 41da932b5f9445df83c0783b7788b8a7079af2acb74643ea37111d8482e8e208
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110335638"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118990434"
 ---
 # <a name="id3dx10meshdrawsubsetinstanced-method"></a>ID3DX10Mesh: метод:D Равсубсетинстанцед
 
@@ -75,7 +75,7 @@ HRESULT DrawSubsetInstanced(
 
 Возвращаемое значение является одним из значений, перечисленных в [кодах возврата Direct3D 10](d3d10-graphics-reference-returnvalues.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Сетка содержит таблицу атрибутов. Таблица атрибутов может разделить сетку на подмножества, где каждое подмножество определяется с помощью идентификатора атрибута. Например, сетка с 200 лицами, разделенная на три подмножества, может иметь таблицу атрибутов, которая выглядит следующим образом:
 
@@ -119,7 +119,7 @@ HRESULT DrawSubsetInstanced(
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

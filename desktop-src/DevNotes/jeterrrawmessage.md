@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Msjter40.dll
-ms.openlocfilehash: 1b52fa519bee3abacd0cd9bd7e8eaaa0676d007c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: efc7332530b5b03b0c9150adb8b0e105d0e5d17eeae9bbc485fb073391de2cad
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105647953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119749684"
 ---
 # <a name="jeterrrawmessage-function"></a>Функция Жетеррравмессаже
 
@@ -98,7 +98,7 @@ JET_ERR JetErrRawMessage(
 
 Если функция завершается успешно, она возвращает **Jet \_ еррсукцесс**; в противном случае она возвращает неформатированное сообщение об ошибке, указывающее конкретную причину сбоя.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция не имеет связанной библиотеки импорта или файла заголовка. его необходимо вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 

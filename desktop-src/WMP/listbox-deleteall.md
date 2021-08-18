@@ -3,7 +3,7 @@ title: LISTBOX. deleteAll
 description: Метод deleteAll удаляет все элементы из элемента управления "список".
 ms.assetid: 12b330c7-48f8-418d-b673-b33ae5273547
 keywords:
-- Проигрыватель Windows Media LISTBOX. deleteAll
+- проигрыватель Windows Media LISTBOX. deleteAll
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a57b599d04efe2884d26319d2649e9c8db954edd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b0df94843ca75c6ffff2dd6c287d33100f5b610f272a6e5a55292950e6d6b206
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118118905"
 ---
 # <a name="listboxdeleteall"></a>LISTBOX. deleteAll
 
@@ -42,7 +42,7 @@ ms.locfileid: "105694986"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
 
 
 

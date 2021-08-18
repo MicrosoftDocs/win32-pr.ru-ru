@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 2107e3eb2b2dc2362776a1a9ecd50830519c6627
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ee73cd5afcda15bcc821d7fea5b648924829d483a33b9c67c140eed0b100e861
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119789314"
 ---
 # <a name="user-defined-type"></a>Определяемый пользователем тип
 
@@ -36,7 +36,7 @@ ms.locfileid: "104410746"
 
 | Элемент                                                                                         | Описание                                                                            |
 |----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| <span id="_const_"></span><span id="_CONST_"></span>**\[постоянного\]**<br/>                 | Необязательный параметр. Это ключевое слово явно помечает тип как константу.<br/>             |
+| <span id="_const_"></span><span id="_CONST_"></span>**\[постоянного\]**<br/>                 | Необязательный элемент. Это ключевое слово явно помечает тип как константу.<br/>             |
 | <span id="Type"></span><span id="type"></span><span id="TYPE"></span>**Тип**<br/>     | Определяет тип данных; должен быть одним из встроенных типов данных HLSL.<br/>     |
 | <span id="Name"></span><span id="name"></span><span id="NAME"></span>**Безымян**<br/>     | Строка ASCII, однозначно определяющая имя переменной.<br/>                 |
 | <span id="Index"></span><span id="index"></span><span id="INDEX"></span>**Номер**<br/> | Необязательный размер массива. Значение должно быть целым числом без знака от 1 до 4 включительно.<br/> |
@@ -47,7 +47,7 @@ ms.locfileid: "104410746"
 
 В дополнение к встроенным внутренним типам данных HLSL поддерживает определяемые пользователем или пользовательские типы, которые следуют этому синтаксису:
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 В определяемых пользователем типах регистр символов не учитывается. Для удобства следующие типы автоматически определяются в области супер-Глобальная.
 
@@ -88,7 +88,7 @@ typedef vertexshader VERTEXSHADER;
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

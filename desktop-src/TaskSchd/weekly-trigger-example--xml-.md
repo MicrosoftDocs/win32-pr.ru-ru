@@ -1,6 +1,6 @@
 ---
 title: Пример еженедельного триггера (XML)
-description: В этом примере XML определяет задачу, запускающую блокнот на основе еженедельно.
+description: в этом примере XML определяет задачу, которая начинается Блокнот раз в неделю.
 ms.assetid: 1911e8b1-2583-440c-a6ed-d71080b60987
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,22 +9,22 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: bf8c2683311aecc427e9570a0452c746375eca01
-ms.sourcegitcommit: 40dd8501397fc79a643deb528c6c57ac2e9726ce
+ms.openlocfilehash: 7c038c21db137ce9180d76cecf4c2885274f7cdd72720b12b919f9a39e98e575
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "104412372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119001817"
 ---
 # <a name="weekly-trigger-example-xml"></a>Пример еженедельного триггера (XML)
 
-В этом примере XML определяет задачу, запускающую блокнот на основе еженедельно.
+в этом примере XML определяет задачу, которая начинается Блокнот раз в неделю.
 
-Чтобы зарегистрировать задачу, определенную в формате XML, можно использовать функцию [**ITaskFolder:: регистертаск**](/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertask) ([**таскфолдер. регистертаск**](taskfolder-registertask.md) для создания скриптов) или средство командной строки Schtasks.exe. Если вы используете средство Schtasks.exe (расположенное в каталоге C: \\ Windows \\ System32), для регистрации задачи выполните следующую команду: **schtasks/CREATE/XML** *<path to the XML file containing the task definition>* **/TN** *<task name>* .
+Чтобы зарегистрировать задачу, определенную в формате XML, можно использовать функцию [**ITaskFolder:: регистертаск**](/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertask) ([**таскфолдер. регистертаск**](taskfolder-registertask.md) для создания скриптов) или средство командной строки Schtasks.exe. при использовании средства Schtasks.exe (расположенного в каталоге C: \\ Windows \\ System32) можно зарегистрировать задачу с помощью следующей команды: **schtasks/create/xml** *<path to the XML file containing the task definition>* **/tn** *<task name>* .
 
-## <a name="to-define-a-task-to-start-notepad-every-other-week-on-monday-at-800-am"></a>Определение задачи запуска Блокнота каждую неделю по понедельнику в 8:00 AM
+## <a name="to-define-a-task-to-start-notepad-every-other-week-on-monday-at-800-am"></a>определение задачи для запуска Блокнот каждую неделю в понедельник в 8:00 AM
 
-В следующем примере XML показано, как определить задачу с одним действием выполнения (запуск Блокнота), одним триггером календаря (запускает задачу каждую неделю в понедельник в 8:00 AM), а также несколько других параметров задач, влияющих на то, как задача обрабатывается планировщик задач.
+в следующем примере XML показано, как определить задачу с одним действием выполнения (начиная Блокнот), одним триггером календаря (запускает задачу каждую неделю в понедельник в 8:00 AM), а также несколько других параметров задач, влияющих на то, как задача обрабатывается планировщик задач.
 
 
 ```XML
@@ -80,7 +80,7 @@ This sample schedules a task to start on a bi-weekly basis.
 
     Содержит сведения о регистрации задачи.
 
--   [**Триггеры**](taskschedulerschema-triggers-tasktype-element.md)
+-   [**План**](taskschedulerschema-triggers-tasktype-element.md)
 
     Определяет триггер, который запускает задачу.
 
@@ -92,7 +92,7 @@ This sample schedules a task to start on a bi-weekly basis.
 
     Определяет еженедельное расписание. В этом случае интервал задается для выполнения задачи каждую неделю в понедельник.
 
--   [**Основного**](taskschedulerschema-principal-principaltype-element.md)
+-   [**Основной**](taskschedulerschema-principal-principaltype-element.md)
 
     Определяет контекст безопасности, в котором выполняется задача.
 
@@ -100,20 +100,20 @@ This sample schedules a task to start on a bi-weekly basis.
 
     Определяет параметры задачи, которые планировщик задач использует для выполнения задачи.
 
--   [**Действия**](taskschedulerschema-actions-tasktype-element.md)
+-   [**Actions**](taskschedulerschema-actions-tasktype-element.md)
 
-    Определяет действия, выполняемые задачей (в данном случае, запуск Блокнота).
+    определяет действия, выполняемые задачей (в данном случае выполняется Блокнот).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Использование планировщик задач](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

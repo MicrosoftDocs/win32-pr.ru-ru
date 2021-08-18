@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5aa50eef8835f643abb668b439160ea733bf5160
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: 4d6cae112e074d50b90425c1d8952f3b6c06463378d73767346742193b406d2b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "104555968"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026290"
 ---
 # <a name="schema-support-level"></a>Уровень поддержки схемы
 
@@ -96,7 +96,7 @@ ms.locfileid: "104555968"
 
 Это определение типа для Structure. ограничение complexContent не поддерживается.
 
--   complexContent поддерживает комплексное расширение содержимого. Сопоставляется с наследованием структуры.
+-   complexContent поддерживает комплексное расширение содержимого. Карты для наследования структуры.
 -   Группирование в настоящее время для структурирования с помощью \_ \_ поля буфера WS XML. Может поддерживаться в соответствии с нижней частью.
 -   вариант, поддерживаемый как объединение. Это не поддерживается в контракте данных.
 -   Поддерживаемые последовательности — сопоставляется с полями структуры

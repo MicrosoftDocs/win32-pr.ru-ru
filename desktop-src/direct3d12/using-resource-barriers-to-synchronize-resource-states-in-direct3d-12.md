@@ -5,12 +5,12 @@ ms.assetid: 3AB3BF34-433C-400B-921A-55B23CCDA44F
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df27e7997b4f3f56ae8e87688e5cc136dc7eb87d
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 04f79d5463c2f27560049f785b5cc32fe42ae33927cba7d039b90638f3946531
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989434"
 ---
 # <a name="using-resource-barriers-to-synchronize-resource-states-in-direct3d-12"></a>Использование барьеров ресурсов для синхронизации состояний ресурсов в Direct3D 12
 
@@ -30,7 +30,7 @@ ms.locfileid: "110343479"
 -   [Пример сценария барьера ресурсов](#resource-barrier-example-scenario)
 -   [Пример повышения общего состояния и Decay](#common-state-promotion-and-decay-sample)
 -   [Пример разделенных барьеров](#example-of-split-barriers)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="using-the-resourcebarrier-api-to-manage-per-resource-state"></a>Использование API Ресаурцебарриер для управления состоянием каждого ресурса
 
@@ -70,7 +70,7 @@ ms.locfileid: "110343479"
 
 Ресурсы могут быть созданы с любым пользовательским начальным состоянием (допустимо для описания ресурса) со следующими исключениями.
 
--   Отправка куч должна начаться в состоянии \_ ресурса D3D12 \_ \_ универсальное чтение состояние, \_ которое является побитовым или сочетанием:
+-   Uploadные кучи должны начинаться в состоянии ресурса D3D12 \_ \_ \_ универсальное \_ чтение, которое является побитовым или сочетанием:
     -   D3D12 \_ \_ \_ вершину \_ и \_ буфер постоянного \_ состояния ресурса
     -   \_ \_ \_ Буфер индекса состояния ресурса \_ D3D12
     -   \_ \_ \_ Источник копирования состояния ресурса \_ D3D12

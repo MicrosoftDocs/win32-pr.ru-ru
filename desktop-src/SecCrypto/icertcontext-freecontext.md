@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: e1f4c216f6e417726e60d5f2e2bd67387a51d352
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 06809d8950d62f1136b8efc25c8e5b4499e020dce956d65f9e0d4a0e349567de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668730"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006192"
 ---
 # <a name="icertcontextfreecontext-method"></a>Метод Ицертконтекст:: Фриконтекст
 
@@ -53,7 +53,7 @@ CertContext.FreeContext( _
 
 Возвращаемое значение является значением **HRESULT**. Значение S \_ ОК указывает на успешное выполнение. Любое другое значение указывает на сбой операции.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод не освобождает контекст ПКЦЕРТ, \_ содержащийся в объекте [**сертификата**](certificate.md) . Он должен использоваться только для освобождения контекста ПКЦЕРТ, \_ полученного через свойство [**цертконтекст**](icertcontext-certcontext.md) .
 

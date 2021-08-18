@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: e08fcef34c8c2e932851fb428fd32533eee4877e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7fc640950b7e943f0e549f41ec216b2832ec9de3b91938ef1aadea1893ac2faa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105683692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119561914"
 ---
 # <a name="cim_capabilities-class"></a>\_Класс возможностей CIM
 
@@ -43,7 +43,7 @@ class CIM_Capabilities : CIM_ManagedElement
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ возможностей CIM** имеет следующие свойства.
 

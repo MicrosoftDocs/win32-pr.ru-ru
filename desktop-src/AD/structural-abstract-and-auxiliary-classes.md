@@ -7,12 +7,12 @@ keywords:
 - Структурные, абстрактные и вспомогательные классы AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 561bc836794b45b6c028fe8da772b0b38d0936a8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 393c08f5c26690d5b08b76dfea8ab4ff2833c94851a10ddcea2a69209279fbd3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024712"
 ---
 # <a name="structural-abstract-and-auxiliary-classes"></a>Структурные, абстрактные и вспомогательные классы
 
@@ -28,13 +28,13 @@ ms.locfileid: "104067350"
 
 
 
- 
+ 
 
 Не путайте **objectClassCategory** с [категорией объектов](object-class-and-object-category.md).
 
- 
+ 
 
- 
+ 
 
 
 

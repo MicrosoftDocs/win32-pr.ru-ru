@@ -5,12 +5,12 @@ ms.assetid: b5ef61e2-07fa-4963-9b9b-977cc04dab10
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9523a7528fddff4e2dbcf6dde16c29084d4811d0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6d5b6dcb4ee772969e374eeda5c12edca09cebddef3c9a6c8378b144b7ba2819
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104330608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000264"
 ---
 # <a name="remote-desktop-services-api-enumeration-types"></a>Типы перечисления API службы удаленных рабочих столов
 
@@ -20,42 +20,42 @@ ms.locfileid: "104330608"
 
 <dl> <dt>
 
-[**\_класс конфигурации \_ ВТС**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_config_class)
+[**WTS \_ \_класс конфигурации**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_config_class)
 </dt> <dd>
 
 Содержит значения, указывающие тип пользовательской конфигурации, которую необходимо задать или получить в вызове функций [**втскуерюсерконфиг**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsqueryuserconfiga) и [**втссетусерконфиг**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtssetuserconfiga) .
 
 </dd> <dt>
 
-[**\_источник конфигурации \_ ВТС**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_config_source)
+[**WTS \_ \_источник конфигурации**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_config_source)
 </dt> <dd>
 
 Задает источник сведений о конфигурации, возвращаемых функцией [**втскуерюсерконфиг**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsqueryuserconfiga) .
 
 </dd> <dt>
 
-[**\_класс ВТС коннектстате \_**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_connectstate_class)
+[**WTS \_ \_класс коннектстате**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_connectstate_class)
 </dt> <dd>
 
 Указывает состояние соединения службы удаленных рабочих столов сеанса.
 
 </dd> <dt>
 
-[**\_класс сведений \_ ВТС**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_info_class)
+[**WTS \_ INFO, \_ класс**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_info_class)
 </dt> <dd>
 
 Содержит значения, указывающие тип сведений сеанса, которые необходимо получить при вызове функции [**втскуерисессионинформатион**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsquerysessioninformationa) .
 
 </dd> <dt>
 
-[**\_класс типа \_ ВТС**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_type_class)
+[**WTS \_ \_класс Type**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_type_class)
 </dt> <dd>
 
 Указывает тип структуры, возвращаемой функцией службы удаленных рабочих столов в буфере.
 
 </dd> <dt>
 
-[**\_виртуальный \_ класс ВТС**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_virtual_class)
+[**WTS \_ ВИРТУАЛЬНЫЙ \_ класс**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_virtual_class)
 </dt> <dd>
 
 Содержит значения, указывающие тип извлекаемых данных виртуального канала.
@@ -104,9 +104,9 @@ ms.locfileid: "104330608"
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

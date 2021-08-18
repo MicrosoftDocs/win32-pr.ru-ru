@@ -4,12 +4,12 @@ ms.assetid: 7183be25-a8e4-47a0-a34a-63eadf6ca10d
 title: Создание и выбор шрифта
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37b4a70a1a49fc318ca69998d97e15fca838668d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 555293e78d5ddc60284f8cb36aa3da9cfcc84062e1954059af4ead1ad9e19c5e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104997391"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119037942"
 ---
 # <a name="font-creation-and-selection"></a>Создание и выбор шрифта
 
@@ -33,7 +33,7 @@ ms.locfileid: "104997391"
 
 Когда приложение перечислит доступные шрифты и подходящее совпадение, оно должно использовать значения, возвращенные функцией перечисления шрифтов для инициализации элементов структуры [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta) . Затем он может вызвать функцию [**CreateFontIndirect**](/windows/desktop/api/Wingdi/nf-wingdi-createfontindirecta) , передав ей указатель на инициализированную структуру [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta) . Если функция [**CreateFontIndirect**](/windows/win32/api/wingdi/nf-wingdi-createfontindirecta) выполнена успешно, приложение может выбрать логический шрифт, вызвав функцию [**SelectObject**](/windows/desktop/api/Wingdi/nf-wingdi-selectobject) . При инициализации элементов структуры **LOGFONT** не забудьте указать определенную кодировку в элементе **лфчарсет** . Этот элемент важен в процессе сопоставления шрифтов, и результаты будут непоследовательными, если этот элемент не инициализирован правильно. Если указать имя гарнитуры в элементе **лффаценаме** структуры **LOGFONT** , убедитесь, что значение **лфчарсет** совпадает с кодировкой шрифта, указанного в **лффаценаме**. Например, если вы хотите выбрать шрифт, например MS Минчо, **лфчарсет** должен иметь предварительно заданное значение символов shiftjis \_ CharSet.
 
-Шрифты для многих восточноазиатских языков имеют два названия гарнитуры: имя на английском языке и локализованное имя. [**CreateFont**](/windows/desktop/api/Wingdi/nf-wingdi-createfonta), [**CreateFontIndirect**](/windows/desktop/api/Wingdi/nf-wingdi-createfontindirecta)и [**креатефонтиндиректекс**](/windows/desktop/api/Wingdi/nf-wingdi-createfontindirectexa) используют локализованное название гарнитуры для языкового стандарта системы, совпадающего с языком, но они принимают название гарнитуры английского языка для всех других языковых стандартов системы. Лучший способ — попробовать одно имя, а в случае сбоя — попробовать другое. Обратите внимание, что [**енумфонтс**](/windows/win32/api/wingdi/nf-wingdi-enumfontsa), [**EnumFontFamilies**](/windows/win32/api/wingdi/nf-wingdi-enumfontfamiliesa)и [**EnumFontFamiliesEx**](/windows/desktop/api/Wingdi/nf-wingdi-enumfontfamiliesexa) возвращают название гарнитуры на английском языке, если язык системы не соответствует языку шрифта. Начиная с Windows 2000, это больше не является проблемой, поскольку средство сопоставления шрифтов для [**CreateFont**](/windows/win32/api/wingdi/nf-wingdi-createfonta), [**CreateFontIndirect**](/windows/win32/api/wingdi/nf-wingdi-createfontindirecta)и [**креатефонтиндиректекс**](/windows/win32/api/wingdi/nf-wingdi-createfontindirectexa) распознает любое имя гарнитуры независимо от языкового стандарта.
+Шрифты для многих восточноазиатских языков имеют два названия гарнитуры: имя на английском языке и локализованное имя. [**CreateFont**](/windows/desktop/api/Wingdi/nf-wingdi-createfonta), [**CreateFontIndirect**](/windows/desktop/api/Wingdi/nf-wingdi-createfontindirecta)и [**креатефонтиндиректекс**](/windows/desktop/api/Wingdi/nf-wingdi-createfontindirectexa) используют локализованное название гарнитуры для языкового стандарта системы, совпадающего с языком, но они принимают название гарнитуры английского языка для всех других языковых стандартов системы. Лучший способ — попробовать одно имя, а в случае сбоя — попробовать другое. Обратите внимание, что [**енумфонтс**](/windows/win32/api/wingdi/nf-wingdi-enumfontsa), [**EnumFontFamilies**](/windows/win32/api/wingdi/nf-wingdi-enumfontfamiliesa)и [**EnumFontFamiliesEx**](/windows/desktop/api/Wingdi/nf-wingdi-enumfontfamiliesexa) возвращают название гарнитуры на английском языке, если язык системы не соответствует языку шрифта. начиная с Windows 2000, это больше не является проблемой, поскольку средство сопоставления шрифтов для [**CreateFont**](/windows/win32/api/wingdi/nf-wingdi-createfonta), [**CreateFontIndirect**](/windows/win32/api/wingdi/nf-wingdi-createfontindirecta)и [**креатефонтиндиректекс**](/windows/win32/api/wingdi/nf-wingdi-createfontindirectexa) распознает любое имя гарнитуры независимо от языкового стандарта.
 
  
 
