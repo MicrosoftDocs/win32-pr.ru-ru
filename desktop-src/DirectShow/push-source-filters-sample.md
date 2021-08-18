@@ -4,12 +4,12 @@ ms.assetid: fc52f7bc-e9c7-4cd4-91e8-5c8f3450ca95
 title: Пример фильтров источника push-уведомлений
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ce22c7c6d73f54152ce469b4b3bb40c20db6c29
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c0e72a9be7e5fa81d4fe2dc006c6d12e42f4f94d91561823b7f26a8400bbddda
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104537151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119747794"
 ---
 # <a name="push-source-filters-sample"></a>Пример фильтров источника push-уведомлений
 
@@ -32,15 +32,15 @@ ms.locfileid: "104537151"
 
 ## <a name="downloading-the-sample"></a>Загрузка образца
 
-Чтобы скачать примеры пакета SDK для DirectShow, установите последнюю версию [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
+чтобы скачать примеры пакета SDK для DirectShow, установите последнюю версию [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
 
-Этот пример устанавливается по следующему пути: *\[ \] корневые примеры SDK* \\ \\ мультимедиа \\ DirectShow \\ фильтры \\ пушсаурце.
+этот пример устанавливается по следующему пути: *\[ \] корневые примеры SDK* \\ \\ мультимедиа \\ DirectShow \\ фильтры \\ пушсаурце.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Примеры DirectShow](directshow-samples.md)
+[DirectShow Регистрируют](directshow-samples.md)
 </dt> </dl>
 
  

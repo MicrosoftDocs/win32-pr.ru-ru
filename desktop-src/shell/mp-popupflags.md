@@ -26,12 +26,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 5d49f848df7749a732e9f0b849d44a9be56a5c3e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a1f6211769eca021f76fcbef34625f705cd3bf3fed02ca548d2965f17de80af7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104154930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119710014"
 ---
 # <a name="mp_popupflags-constants"></a>\_Константы ПОПУПФЛАГС MP
 
@@ -48,8 +48,8 @@ ms.locfileid: "104154930"
 | <span id="MPPF_REPOSITION"></span><span id="mppf_reposition"></span><dl> <dt>**МППФ \_ Изменить расположение**</dt> <dt>0x00000020</dt> </dl>          | Отображение полосы в другом положении в зависимости от изменений в меню.<br/>                                                                                                                                                                                        |
 | <span id="MPPF_FORCEZORDER"></span><span id="mppf_forcezorder"></span><dl> <dt>**МППФ \_ ФОРЦЕЗОРДЕР**</dt> <dt>0x00000040</dt> </dl>       | Зарезервировано. Не используется.<br/>                                                                                                                                                                                                                                         |
 | <span id="MPPF_FINALSELECT"></span><span id="mppf_finalselect"></span><dl> <dt>**МППФ \_ ФИНАЛСЕЛЕКТ**</dt> <dt>0x00000080</dt> </dl>       | Выберите последний элемент в меню.<br/>                                                                                                                                                                                                                             |
-| <span id="MPPF_ALIGN_LEFT"></span><span id="mppf_align_left"></span><dl> <dt>**МППФ \_ Выровняйте \_ левые**</dt> <dt>0x02000000</dt> </dl>         | **Windows Vista или более поздней версии**: Выровняйте всплывающее меню слева от области, указанной в параметре *прцексклуде* [**Итраккшеллмену::P опуп**](/windows/desktop/api/Shdeprecated/nf-shdeprecated-itrackshellmenu-popup) или [**именупопуп::P опуп**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imenupopup-popup). Это выравнивание по умолчанию.<br/> |
-| <span id="MPPF_ALIGN_RIGHT"></span><span id="mppf_align_right"></span><dl> <dt>**МППФ \_ Выровняйте \_ справа**</dt> <dt>0x04000000</dt> </dl>      | **Windows Vista или более поздней версии**: Выровняйте всплывающее меню справа от области, указанной в параметре *прцексклуде* [**Итраккшеллмену::P опуп**](/windows/desktop/api/Shdeprecated/nf-shdeprecated-itrackshellmenu-popup) или [**именупопуп::P опуп**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imenupopup-popup).<br/>                               |
+| <span id="MPPF_ALIGN_LEFT"></span><span id="mppf_align_left"></span><dl> <dt>**МППФ \_ Выровняйте \_ левые**</dt> <dt>0x02000000</dt> </dl>         | **Windows Vista или более поздней версии**: выровняйте всплывающее меню слева от области, указанной в параметре *прцексклуде* [**итраккшеллмену::P опуп**](/windows/desktop/api/Shdeprecated/nf-shdeprecated-itrackshellmenu-popup) или [**именупопуп::P опуп**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imenupopup-popup). Это выравнивание по умолчанию.<br/> |
+| <span id="MPPF_ALIGN_RIGHT"></span><span id="mppf_align_right"></span><dl> <dt>**МППФ \_ Выровняйте \_ справа**</dt> <dt>0x04000000</dt> </dl>      | **Windows Vista или более поздней версии**: выровняйте всплывающее меню справа от области, указанной в параметре *прцексклуде* [**итраккшеллмену::P опуп**](/windows/desktop/api/Shdeprecated/nf-shdeprecated-itrackshellmenu-popup) или [**именупопуп::P опуп**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imenupopup-popup).<br/>                               |
 | <span id="MPPF_TOP"></span><span id="mppf_top"></span><dl> <dt>**МППФ \_ Лучшие**</dt> <dt>0x20000000</dt> </dl>                               | Расположите всплывающее меню над начальной точкой, указанной в параметре *PPT* [**итраккшеллмену::P опуп**](/windows/desktop/api/Shdeprecated/nf-shdeprecated-itrackshellmenu-popup) или [**именупопуп::P опуп**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imenupopup-popup).<br/>                                                                |
 | <span id="MPPF_LEFT"></span><span id="mppf_left"></span><dl> <dt>**МППФ \_ LEFT**</dt> <dt>0x40000000</dt> </dl>                            | Расположите всплывающее меню слева от начальной точки.<br/>                                                                                                                                                                                                    |
 | <span id="MPPF_RIGHT"></span><span id="mppf_right"></span><dl> <dt>**МППФ \_ RIGHT**</dt> <dt>0x60000000</dt> </dl>                         | Расположите всплывающее меню справа от начальной точки.<br/>                                                                                                                                                                                                   |
@@ -58,9 +58,9 @@ ms.locfileid: "104154930"
 
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
-Эти константы определены в файле shobjidl. h, начиная с Windows XP с пакетом обновления 1 (SP1) и Windows Server 2003
+эти константы определены в файле Shobjidl. h, начиная с Windows XP с пакетом обновления 1 (sp1) и Windows Server 2003.
 
 ## <a name="requirements"></a>Требования
 
@@ -68,9 +68,9 @@ ms.locfileid: "104154930"
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для настольных приложений Windows XP с пакетом обновления 1 \[\]<br/>                                    |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
-| Header<br/>                   | <dl> <dt>Shobjidl. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | Windows XP с пакетом обновления 1 (SP1), \[ только классические приложения\]<br/>                                    |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
+| Заголовок<br/>                   | <dl> <dt>Shobjidl. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Shobjidl. idl</dt> </dl> |
 
 

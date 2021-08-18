@@ -1,10 +1,10 @@
 ---
 title: Интерфейс Ивмпсеттингс (VB и C) (WMP. h)
-description: Предоставляет свойства и методы, которые получают или устанавливают значения параметров проигрывателя Windows Media. Интерфейс Ивмпсеттингс предоставляет следующие свойства.
+description: предоставляет свойства и методы, которые получают или задают значения параметров проигрыватель Windows Media. Интерфейс Ивмпсеттингс предоставляет следующие свойства.
 ms.assetid: fb37b455-221e-4cee-a219-cacf2938a92a
 keywords:
-- Ивмпсеттингс (VB и C) интерфейс проигрывателя Windows Media
-- Ивмпсеттингс (VB и C) интерфейс проигрывателя Windows Media, описание
+- проигрыватель Windows Media интерфейса ивмпсеттингс (VB и C)
+- проигрыватель Windows Media интерфейса ивмпсеттингс (VB и C), описание
 topic_type:
 - apiref
 api_name:
@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: db911cc6d18ba40777e77a803480c7fcab4ff8ad
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6a537efcd9b39f993705244020e579b9d667164180fd5cd70ab05fc692bed8fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694893"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996474"
 ---
 # <a name="iwmpsettings-vb-and-c-interface"></a>Интерфейс Ивмпсеттингс (VB и C#)
 
-Предоставляет свойства и методы, которые получают или устанавливают значения параметров проигрывателя Windows Media.
+предоставляет свойства и методы, которые получают или задают значения параметров проигрыватель Windows Media.
 
 Интерфейс **ивмпсеттингс** предоставляет следующие свойства.
 
@@ -92,7 +92,7 @@ ms.locfileid: "105694893"
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>WMP. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>WMP. h</dt> </dl> |
 
 
 
@@ -100,7 +100,7 @@ ms.locfileid: "105694893"
 
 <dl> <dt>
 
-[**Интерфейсы для Visual Basic .NET и C #**](interfaces-for-visual-basic--net-and-c.md)
+[**интерфейсы для Visual Basic .net и C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**Интерфейс IWMPSettings2 (VB и C#)**](iwmpsettings2--vb-and-c.md)

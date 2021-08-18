@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c54852f88aecf9be621b3f57c6b12d14f3d6a6d3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1dd4f5d7b112ba66431a11b74be7a000dd8981f9f3a111ae83460aacefdffdb0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119787334"
 ---
 # <a name="dwm-enable-composition-constants"></a>DWM включает константы композиции
 
@@ -58,9 +58,9 @@ ms.locfileid: "104491571"
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                      |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                |
-| Header<br/>                   | <dl> <dt>Двмапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                      |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                |
+| Заголовок<br/>                   | <dl> <dt>Двмапи. h</dt> </dl> |
 
 
 

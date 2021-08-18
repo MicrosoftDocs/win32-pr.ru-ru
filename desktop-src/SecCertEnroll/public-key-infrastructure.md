@@ -4,12 +4,12 @@ ms.assetid: 93f65367-ca4b-4b44-9833-0653cfd3f3d3
 title: Инфраструктура открытых ключей
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55e4ff0b2b3912bc44851be105c2e2b15200eb62
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09a306f227a3e39c32b7e0eef2dbf1dc4ae9d59942096fb71428339d8a166a04
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101134"
 ---
 # <a name="public-key-infrastructure"></a>Инфраструктура открытых ключей
 
@@ -55,7 +55,7 @@ API регистрации сертификатов позволяет отпр�
 -   [Элементы PKI](about-pki-components.md)
 -   [Модели доверия](about-trust-models.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

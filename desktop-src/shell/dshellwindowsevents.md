@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shdocvw.dll
-ms.openlocfilehash: 7df1571556b5f2942f181b4c88b22ff3bc83f273
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 13335268b892e4ac95520221fcd2e413c9c255225ccd8fc36c3c73cbf8c327a2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104987551"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120009544"
 ---
 # <a name="dshellwindowsevents-object"></a>Объект Дшеллвиндовсевентс
 
@@ -45,7 +45,7 @@ ms.locfileid: "104987551"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Используйте **дшеллвиндовсевентс** для отслеживания регистрации или отзыва окна оболочки. Дополнительные сведения см. в разделе [**ишеллвиндовс**](/windows/desktop/api/Exdisp/nn-exdisp-ishellwindows).
 
@@ -56,7 +56,7 @@ ms.locfileid: "104987551"
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------|
 | Продукт<br/> | Internet Explorer 5<br/>                                                                                           |
-| Header<br/>  | <dl> <dt>Ексдисп. h</dt> </dl>                                      |
+| Заголовок<br/>  | <dl> <dt>Ексдисп. h</dt> </dl>                                      |
 | DLL<br/>     | <dl> <dt>Shdocvw.dll (версия 5.00.2014.0216 или более поздняя)</dt> </dl> |
 | IID<br/>     | IID \_ ишеллвиндовс<br/>                                                                                            |
 

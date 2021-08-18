@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: bb1e9ab032b76b8ef02de786d1fc39af0b0d54b4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3d6f1b0b44cd0fdc71f8f3d37fa9bd8290c5d606eea1f97f5bf6644f9ce8e2a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119005662"
 ---
 # <a name="icertstoreclosehandle-method"></a>Метод Ицертсторе:: CloseHandle
 
@@ -53,7 +53,7 @@ CertStore.CloseHandle( _
 
 Возвращаемое значение является значением **HRESULT**. Значение **S \_ ОК** указывает на успешное выполнение. Любое другое значение указывает на сбой операции.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод не освобождает обработчик ХЦЕРТСТОРЕ, содержащийся в объекте [**Store**](store.md) . Он должен использоваться только для освобождения обработчика ХЦЕРТСТОРЕ, полученного через свойство [**сторехандле**](icertstore-storehandle.md) .
 

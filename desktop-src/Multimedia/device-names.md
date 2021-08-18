@@ -4,12 +4,12 @@ description: Имена устройств
 ms.assetid: 0ba06439-cc33-43e1-a094-09bcc5e2f6b5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e516f7f8eed338067dc373f8509f46598e198c71
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 85183a1b23817352ba9e45e8dbb2aaa70493430cd092f357e1eaa8e9bf179d65
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104487045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119497274"
 ---
 # <a name="device-names"></a>Имена устройств
 
@@ -34,9 +34,9 @@ avivideo=mciavi.drv
 
 Если драйвер MCI установлен с использованием имени устройства, которое уже существует в SYSTEM.INI или в реестре, система добавляет целое число в имя устройства нового драйвера, создавая уникальное имя устройства. В предыдущем примере дополнительному драйверу, установленному с помощью имени устройства "кдаудио", будет назначено имя устройства "cdaudio1".
 
- 
+ 
 
- 
+ 
 
 
 

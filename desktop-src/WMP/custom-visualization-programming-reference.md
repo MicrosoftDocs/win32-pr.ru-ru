@@ -3,20 +3,20 @@ title: Справочник по программированию пользов
 description: Справочник по программированию пользовательской визуализации
 ms.assetid: b76cd0a2-7c15-468e-9673-7e607a208ddd
 keywords:
-- Проигрыватель Windows Media, визуализации
-- Подключаемые модули проигрывателя Windows Media, визуализации
+- проигрыватель Windows Media, визуализации
+- подключаемые модули проигрыватель Windows Media, визуализации
 - подключаемые модули, визуализации
 - визуализации, Справочник по программированию
 - Пользовательские визуализации, Справочник по программированию
 - Справочник по визуализациям
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50b8c5ef4ed9b2c51106052c9fdd00ab5d87b78d
-ms.sourcegitcommit: b04e152a7f51618fc174ffa872654623fe088db2
+ms.openlocfilehash: 01779655a930df18f628d31579ec30d18ecbd7dbbae46aecee2de00fe976c996
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "104069683"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119736514"
 ---
 # <a name="custom-visualization-programming-reference"></a>Справочник по программированию пользовательской визуализации
 
@@ -32,18 +32,18 @@ ms.locfileid: "104069683"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[**Пользовательские визуализации проигрывателя Windows Media**](windows-media-player-custom-visualizations.md)
+[**проигрыватель Windows Media Пользовательские визуализации**](windows-media-player-custom-visualizations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

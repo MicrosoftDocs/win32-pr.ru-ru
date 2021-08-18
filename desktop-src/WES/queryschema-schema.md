@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: aa9b6c842ff7acd874e8e467d07c31e298a63564
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 14beeaf8c4d739e490de972107fedf279e16e75b5401f63a709d43b03c338c79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120005174"
 ---
 # <a name="query-schema"></a>Схема запроса
 
@@ -29,12 +29,12 @@ ms.locfileid: "104265895"
 
 Windows SDK включает схему в \\ \\ файл включения запроса. xsd.
 
-В дополнение к схеме запроса журнал событий Windows также определяет следующие схемы:
+в дополнение к схеме запроса Windows журнал событий также определяет следующие схемы:
 
 -   [Евентманифест Schema](eventmanifestschema-schema.md)— определяет элементы и типы, используемые для записи манифеста инструментирования.
 -   [Схема событий](eventschema-schema.md)— определяет элементы и типы, используемые для отрисовки события.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

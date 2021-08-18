@@ -1,19 +1,19 @@
 ---
-description: В следующей таблице указаны интерфейсы, используемые для доступа к агенту Центр обновления Windows (WUA).
+description: в следующей таблице указаны интерфейсы, используемые для доступа к агенту Центр обновления Windows (WUA).
 ms.assetid: 1ba2b296-cb27-45fd-8c87-430d30322f1f
-title: Интерфейсы (агент Центр обновления Windows)
+title: интерфейсы (агент Центр обновления Windows)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9312b214fca45af4d93346e33ea02af090aedb50
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be801a16ba171894124280f1831708ea594e0ce8beec75e3702ddb1e52344446
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104145739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119756624"
 ---
-# <a name="interfaces-windows-update-agent"></a>Интерфейсы (агент Центр обновления Windows)
+# <a name="interfaces-windows-update-agent"></a>интерфейсы (агент Центр обновления Windows)
 
-В следующей таблице указаны интерфейсы, используемые для доступа к агенту Центр обновления Windows (WUA).
+в следующей таблице указаны интерфейсы, используемые для доступа к агенту Центр обновления Windows (WUA).
 
 
 
@@ -89,13 +89,13 @@ ms.locfileid: "104145739"
 | [**IUpdateSession2**](/windows/desktop/api/Wuapi/nn-wuapi-iupdatesession2)                                                   | Представляет сеанс, в котором вызывающий объект может выполнять операции, включающие обновления.                                                                                                                 |
 | [**IUpdateSession3**](/windows/desktop/api/Wuapi/nn-wuapi-iupdatesession3)                                                   | Представляет сеанс, в котором вызывающий объект может выполнять операции, включающие обновления.                                                                                                                 |
 | [**IWebProxy**](/windows/desktop/api/Wuapi/nn-wuapi-iwebproxy)                                                               | Содержит параметры HTTP-прокси.                                                                                                                                                                         |
-| [**ивиндовсдриверупдате**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdate)                                         | Содержит свойства и методы, доступные только в обновлении драйвера Windows.                                                                                                             |
-| [**IWindowsDriverUpdate2**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdate2)                                       | Содержит свойства и методы, доступные только в обновлении драйвера Windows.                                                                                                             |
-| [**IWindowsDriverUpdate3**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdate3)                                       | Содержит свойства и методы, доступные только в обновлении драйвера Windows.                                                                                                             |
-| [**IWindowsDriverUpdate4**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdate4)                                       | Содержит свойства и методы, доступные только в обновлении драйвера Windows.                                                                                                             |
-| [**IWindowsDriverUpdate5**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdate5)                                       | Содержит свойства и методы, доступные только в обновлении драйвера Windows.                                                                                                             |
-| [**ивиндовсдриверупдатинтри**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdateentry)                               | Содержит свойства, доступные только в обновлении драйвера Windows.                                                                                                                         |
-| [**ивиндовсдриверупдатинтриколлектион**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdateentrycollection)           | Содержит свойства, доступные только из коллекции обновлений драйверов Windows.                                                                                                          |
+| [**ивиндовсдриверупдате**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdate)                                         | содержит свойства и методы, доступные только из обновления драйвера Windows.                                                                                                             |
+| [**IWindowsDriverUpdate2**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdate2)                                       | содержит свойства и методы, доступные только из обновления драйвера Windows.                                                                                                             |
+| [**IWindowsDriverUpdate3**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdate3)                                       | содержит свойства и методы, доступные только из обновления драйвера Windows.                                                                                                             |
+| [**IWindowsDriverUpdate4**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdate4)                                       | содержит свойства и методы, доступные только из обновления драйвера Windows.                                                                                                             |
+| [**IWindowsDriverUpdate5**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdate5)                                       | содержит свойства и методы, доступные только из обновления драйвера Windows.                                                                                                             |
+| [**ивиндовсдриверупдатинтри**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdateentry)                               | содержит свойства, доступные только из обновления драйвера Windows.                                                                                                                         |
+| [**ивиндовсдриверупдатинтриколлектион**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdateentrycollection)           | содержит свойства, доступные только из коллекции обновлений драйверов Windows.                                                                                                          |
 | [**ивиндовсупдатеажентинфо**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsupdateagentinfo)                                   | Извлекает сведения о версии WUA.                                                                                                                                                       |
 
 

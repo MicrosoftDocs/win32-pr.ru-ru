@@ -4,12 +4,12 @@ ms.assetid: dd4cdd3c-6bb5-4427-827d-f3e909e752e5
 title: OPM_GET_SUPPORTED_PROTECTION_TYPES (Опмапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f1dc79b33673e34d00914b84165d915baa0d8f56
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eddc6f4006f9692ec6152875cda412191b87d247e907d33b615aa6d4fb89748e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120012544"
 ---
 # <a name="opm_get_supported_protection_types"></a>ОПМ \_ получить \_ поддерживаемые \_ \_ типы защиты
 
@@ -27,7 +27,7 @@ ms.locfileid: "103991420"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Механизмы защиты возвращаются в элементе **улинформатион** [**\_ \_ информационной структуры ОПМ Standard**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_standard_information) . Значение представляет собой побитовое **или** для [флагов типа защиты ОПМ](opm-protection-type-flags.md).
 
@@ -39,9 +39,9 @@ ms.locfileid: "103991420"
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                      |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                |
-| Header<br/>                   | <dl> <dt>Опмапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                      |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                |
+| Заголовок<br/>                   | <dl> <dt>Опмапи. h</dt> </dl> |
 
 
 

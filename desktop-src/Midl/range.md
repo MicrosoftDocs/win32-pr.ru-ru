@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e095d420afc433c1f01a63dff51868e57efc50f4
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: e8be59ef1b212d0f6953063ce7ac3239d8940a5ea54a623990fc3d7af9f36ad3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "105661691"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764314"
 ---
 # <a name="range-attribute"></a>range - атрибут
 
@@ -59,7 +59,7 @@ ms.locfileid: "105661691"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте атрибут **\[ Range \]** , чтобы изменить значение конфиденциальных параметров или полей, например, используемых для размера или длины с помощью согласованных или изменяемых массивов, или всякий раз, когда требуется проверить значение параметра или поля в диапазоне допустимых значений. Атрибут применим к параметрам верхнего уровня, а также к параметрам и полям более низкого уровня. Добавление атрибута **\[ Range \]** к типу не приводит к изменению его формата связи, поэтому не влияет на обратную совместимость.
 
@@ -112,6 +112,6 @@ void InPipe(
 [**параметр \_ имеет**](switch-is.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

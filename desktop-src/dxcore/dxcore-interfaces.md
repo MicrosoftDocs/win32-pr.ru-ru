@@ -4,12 +4,12 @@ description: Следующие интерфейсы и их методы объ
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 170d7c0cc93614159da449bf0107f7f5ca458f84
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9881eaf577aeea65387632caa6e46b5e5560192567753760e06dc1b2a7504bf9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987850"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119787124"
 ---
 # <a name="dxcore-interfaces"></a>Интерфейсы DXCore
 
@@ -19,11 +19,11 @@ ms.locfileid: "103987850"
 
 | Раздел | Описание |
 |-|-|
-| [**IDXCoreAdapter**](./dxcore_interface/nn-dxcore_interface-idxcoreadapter.md) | Интерфейс **идкскореадаптер**   реализует методы для получения сведений об элементе адаптера. |
-| [**IDXCoreAdapterFactory**](./dxcore_interface/nn-dxcore_interface-idxcoreadapterfactory.md) | Интерфейс **идкскореадаптерфактори**   реализует методы для создания объектов перечисления адаптера дкскоре, а также для получения сведений о них. |
-| [**IDXCoreAdapterList**](./dxcore_interface/nn-dxcore_interface-idxcoreadapterlist.md) | Интерфейс **идкскореадаптерлист**   реализует методы для получения элементов адаптера из созданного списка, а также сведения о списке. |
+| [**IDXCoreAdapter**](./dxcore_interface/nn-dxcore_interface-idxcoreadapter.md) | Интерфейс **идкскореадаптер** реализует методы для получения сведений об элементе адаптера. |
+| [**IDXCoreAdapterFactory**](./dxcore_interface/nn-dxcore_interface-idxcoreadapterfactory.md) | Интерфейс **идкскореадаптерфактори** реализует методы для создания объектов перечисления адаптера дкскоре, а также для получения сведений о них. |
+| [**IDXCoreAdapterList**](./dxcore_interface/nn-dxcore_interface-idxcoreadapterlist.md) | Интерфейс **идкскореадаптерлист** реализует методы для получения элементов адаптера из созданного списка, а также сведения о списке. |
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 * [Справочник по Дкскоре](./dxcore-reference.md)
 * [Перечисление адаптеров с использованием DXCore](./dxcore-enum-adapters.md)

@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 7951b84a2b5d9f06061f4cefb04c797ccfea3ecd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 66b5b2492b73d880f356a3d581efb6ff75d9e3d811c25283ef481bc2e592ae93
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701959"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119732544"
 ---
 # <a name="swbemobjectdeleteasync_-method"></a>SWbemObject. DeleteAsync, \_ метод
 
@@ -149,13 +149,13 @@ SWbemObject.DeleteAsync_( _
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот вызов возвращает немедленно. Состояние возвращается вызывающему объекту с помощью обратного вызова, доставляемого в приемник, указанный в *обжвбемсинк*.
 
 Асинхронный обратный вызов позволяет пользователю, не прошедшему проверку подлинности, предоставлять данные в приемник. Это создает угрозы безопасности для сценариев и приложений. Чтобы устранить риски, используйте либо семисинчронаус связь, либо синхронное взаимодействие. Дополнительные сведения см. [в разделе вызов метода](calling-a-method.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -163,7 +163,7 @@ SWbemObject.DeleteAsync_( _
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
 | Библиотека типов<br/>             | <dl> <dt>Wbemdisp. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | \_SWBEMOBJECT CLSID<br/>                                                           |

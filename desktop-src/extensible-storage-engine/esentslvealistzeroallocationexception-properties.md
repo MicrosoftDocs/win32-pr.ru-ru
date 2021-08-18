@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102787
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 5fe9f05cc857930a53076c7e4faeeb5d652973f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a3a06d1119409ad307fb9a1fa6d311fb538f9ae9fd3648a06844aaa8f8d036f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104556987"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118981444"
 ---
 # <a name="esentslvealistzeroallocationexception-properties"></a>Свойства Есентслвеалистзероаллокатионексцептион
 
@@ -49,7 +49,7 @@ ms.locfileid: "104556987"
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Защищенное свойство" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Состав</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
 <td>(Наследуется от <a href="/dotnet/api/system.exception">Exception</a>.)</td>
 </tr>
 <tr class="odd">

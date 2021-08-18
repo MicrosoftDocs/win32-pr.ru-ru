@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - wldp.h
-ms.openlocfilehash: 8914f93ff5936451b71b855473a09cb1d06584b4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: fa52bc6259c75d5bb0929cb25610beb2b143515e2874b09bf04c454397a909e6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104538345"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119758384"
 ---
 # <a name="wldp_host_id-enumeration"></a>\_ \_ Перечисление идентификаторов узлов WLDP
 
@@ -70,14 +70,14 @@ typedef enum _WLDP_HOST_ID {
 <span id="_WLDP_HOST_ID_WSH"></span><span id="_wldp_host_id_wsh"></span>**WLDP \_ \_идентификатор узла \_ WSH**
 </dt> <dd>
 
-Тип узла — сервер сценариев Windows.
+тип узла — Windows сервер скриптов.
 
 </dd> <dt>
 
 <span id="_WLDP_HOST_ID_POWERSHELL"></span><span id="_wldp_host_id_powershell"></span>**WLDP \_ \_идентификатор узла \_ POWERSHELL**
 </dt> <dd>
 
-Тип узла — Windows PowerShell.
+тип узла — Windows Powershell.
 
 </dd> <dt>
 
@@ -91,7 +91,7 @@ typedef enum _WLDP_HOST_ID {
 <span id="_WLDP_HOST_ID_MSI"></span><span id="_wldp_host_id_msi"></span>**WLDP \_ \_идентификатор узла \_ MSI**
 </dt> <dd>
 
-Тип узла — установщик Windows Майкрософт.
+тип узла — установщик Windows майкрософт.
 
 </dd> <dt>
 
@@ -108,9 +108,9 @@ typedef enum _WLDP_HOST_ID {
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                              |
-| Header<br/>                   | <dl> <dt>Wldp. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                              |
+| Заголовок<br/>                   | <dl> <dt>Wldp. h</dt> </dl> |
 
 
 

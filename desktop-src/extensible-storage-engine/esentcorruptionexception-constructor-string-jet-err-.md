@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 30ed98ea56fe791ed949edc82b548990371c9671
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bbf059d91d1782588b8f9211b888d7b12b752abbff2637ae1f3f492eb312c6f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104540114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119736597"
 ---
 # <a name="esentcorruptionexception-constructor-string-jet_err"></a>Конструктор Есенткорруптионексцептион (String, JET_err)
 
@@ -59,7 +59,7 @@ protected EsentCorruptionException(
 
 #### <a name="parameters"></a>Параметры
 
-  - description;  
+  - description  
     Тип: [System. String](/dotnet/api/system.string)  
     
     Описание ошибки.

@@ -4,16 +4,16 @@ ms.assetid: 931ec33d-d1d0-4a6b-aa55-61db2631dd4f
 title: LOCALE_WINDOWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d02072daebeb3ecf44262702e1d52eab3cac58c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 79a31bddef82be7d1001ff2a0e0484426f90362ce8f75ef125627a8650f478a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119788694"
 ---
 # <a name="locale_windows"></a>окна языкового стандарта \_
 
-**Windows Vista и более поздние версии:** Перечислите все языковые стандарты, которые входят в состав операционной системы, включая замещающие языковые стандарты, но исключая альтернативные сортировки. Дополнительные сведения см. в разделе [пользовательские языковые стандарты](custom-locales.md).
+**Windows Vista и более поздних версий:** Перечислите все языковые стандарты, которые входят в состав операционной системы, включая замещающие языковые стандарты, но исключая альтернативные сортировки. Дополнительные сведения см. в разделе [пользовательские языковые стандарты](custom-locales.md).
 
  
 

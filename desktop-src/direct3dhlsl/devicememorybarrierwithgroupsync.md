@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6a7a4a27b3256fb78c7b60b960fc5383cfd5b5d4
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 2567a209b86481cd0f25922e8e3b1cf947196a2c799344089591cf70fa3624fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104334403"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119625824"
 ---
 # <a name="devicememorybarrierwithgroupsync-function"></a>Функция Девицемеморибарриервисграупсинк
 
@@ -38,7 +38,7 @@ void DeviceMemoryBarrierWithGroupSync(void);
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 ### <a name="minimum-shader-model"></a>Минимальная модель шейдера
 
@@ -48,11 +48,11 @@ void DeviceMemoryBarrierWithGroupSync(void);
 
 | Модель шейдера                                                                | Поддерживается |
 |-----------------------------------------------------------------------------|-----------|
-| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | да       |
+| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | Да       |
 
 
 
- 
+ 
 
 Эта функция поддерживается в следующих типах шейдеров:
 
@@ -64,7 +64,7 @@ void DeviceMemoryBarrierWithGroupSync(void);
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -76,9 +76,9 @@ void DeviceMemoryBarrierWithGroupSync(void);
 [Модель шейдера 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

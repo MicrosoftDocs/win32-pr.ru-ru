@@ -3,7 +3,7 @@ title: Событие Опенплайлистсвитч объекта Аксв
 description: Событие Опенплайлистсвитч возникает, когда начинается воспроизведение заголовка на DVD-диске. | Событие Опенплайлистсвитч объекта Аксвиндовсмедиаплайер
 ms.assetid: 0b9c37a3-1349-48bd-8e1a-aba286c82abf
 keywords:
-- Событие Опенплайлистсвитч в проигрывателе Windows Media объекта Аксвиндовсмедиаплайер
+- событие опенплайлистсвитч объекта аксвиндовсмедиаплайер проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 338d360944b46555be53d5e212561cf906dd33c9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c57341488c385b159ce294626a79b7e22287bff83864f7273b0f4432c1db95ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764704"
 ---
 # <a name="openplaylistswitch-event-of-the-axwindowsmediaplayer-object"></a>Событие Опенплайлистсвитч объекта Аксвиндовсмедиаплайер
 
@@ -59,7 +59,7 @@ Private Sub player_OpenPlaylistSwitch(
 
 | Требование | Значение |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                          |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                          |
 | Пространство имен<br/> | **аксвмплиб**<br/>                                                                                                    |
 | Сборка<br/>  | <dl> <dt>AxInterop.WMPLib.dll (AxInterop.WMPLib.dll.dll)</dt> </dl> |
 

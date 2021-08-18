@@ -50,19 +50,19 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d8f996e70873d5584bb80bbf4f40f71a7deae8f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4700c549fa82f932ed12e3f4eeb02f2d557db3f940b394e0f2f875ac6dd7dffb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103802279"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000694"
 ---
 # <a name="imstscadvancedsettingsiconfile-property"></a>Свойство Имстскадванцедсеттингс:: Иконфиле
 
 Указывает имя файла, содержащего данные значков, которые будут доступны при отображении клиента в полноэкранном режиме.
 
 > [!Note]  
-> Это свойство не поддерживается в элементе управления ActiveX (MsRdp. ocx). Она поддерживается в библиотеке MsTscAx.dll, включенной в стандартный клиент (MsTsc.exe).
+> это свойство не поддерживается в элементе управления ActiveX (MsRdp. ocx). Она поддерживается в библиотеке MsTscAx.dll, включенной в стандартный клиент (MsTsc.exe).
 
  
 
@@ -87,7 +87,7 @@ HRESULT put_IconFile(
 
 Возвращает **\_ значение false**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Расширение имени файла значка — ICO.
 

@@ -38,12 +38,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b93d2395ec7e673e50023867f4602eea5c2d9fb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a457cb0f2b638c24682f1fabd54f3309a1c781055f2df6242b3f6340490481da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119001503"
 ---
 # <a name="imsrdpclient5advancedsettings6-property"></a>Свойство IMsRdpClient5:: AdvancedSettings6
 

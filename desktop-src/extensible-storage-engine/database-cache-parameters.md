@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 77d83ea8998da7c00fd294f81b94099d23d524e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ac7e8859eabfa35d37464340958b52e85315a9237655107d6736af3555915757
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119786352"
 ---
 # <a name="database-cache-parameters"></a>Параметры кэша базы данных
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="database-cache-parameters"></a>Параметры кэша базы данных
 
@@ -36,7 +36,7 @@ _**Применимо к:** Windows | Windows Server_
 
 Этот параметр определяет размер вспомогательной части кэша страниц базы данных, которая используется для имитации операций ввода-вывода при недоступности. Размер находится в страницах базы данных.
 
-**Windows XP и более поздние версии:**  Этот параметр устарел и не влияет на работу ядра СУБД.
+**Windows XP и более поздних версий:**  Этот параметр устарел и не влияет на работу ядра СУБД.
 
 <table>
 <colgroup>
@@ -117,8 +117,8 @@ _**Применимо к:** Windows | Windows Server_
 </tr>
 <tr class="odd">
 <td><p>Допустимый диапазон:</p></td>
-<td><p><strong>Windows 2000:</strong>  1 – 1048575</p>
-<p><strong>Windows XP:</strong>  1 – 4294967295</p></td>
+<td><p><strong>Windows 2000:</strong> 1 – 1048575</p>
+<p><strong>Windows XP:</strong> 1 – 4294967295</p></td>
 </tr>
 <tr class="even">
 <td><p>Область.</p></td>
@@ -163,9 +163,9 @@ _**Применимо к:** Windows | Windows Server_
 
 По умолчанию кэш базы данных автоматически подстраивает свой размер между ограничениями, заданными **JET_paramCacheSizeMin** и **JET_paramCacheSizeMax**.
 
-**Windows 2000:**  В Windows 2000 этому параметру должно быть присвоено значение примерно равное четырем количеству потоков, которые будут находиться внутри API ESE одновременно. Это необходимо, чтобы избежать взаимоблокировок, вызванных недостаточным количеством буферов кэша страниц базы данных для выполнения сложных операций, таких как разбиение дерева B +.
+**Windows 2000:**  в Windows 2000 для этого параметра должно быть задано значение примерно равное четырем числам потоков, которые будут находиться внутри API ESE одновременно. Это необходимо, чтобы избежать взаимоблокировок, вызванных недостаточным количеством буферов кэша страниц базы данных для выполнения сложных операций, таких как разбиение дерева B +.
 
-**Windows XP и более поздние версии:**  Диспетчер кэша автоматически установит свой минимальный размер кэша, чтобы избежать взаимоблокировок.
+**Windows XP и более поздних версий:**  Диспетчер кэша автоматически установит свой минимальный размер кэша, чтобы избежать взаимоблокировок.
 
 <table>
 <colgroup>
@@ -175,8 +175,8 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p>Значение по умолчанию:</p></td>
-<td><p><strong>Windows 2000:</strong>  64</p>
-<p><strong>Windows XP:</strong>  1</p></td>
+<td><p><strong>Windows 2000:</strong> 64</p>
+<p><strong>Windows XP:</strong> 1</p></td>
 </tr>
 <tr class="even">
 <td><p>Тип:</p></td>
@@ -184,8 +184,8 @@ _**Применимо к:** Windows | Windows Server_
 </tr>
 <tr class="odd">
 <td><p>Допустимый диапазон:</p></td>
-<td><p><strong>Windows 2000:</strong>  1 – 1048575</p>
-<p><strong>Windows XP:</strong>  1 – 4294967295</p></td>
+<td><p><strong>Windows 2000:</strong> 1 – 1048575</p>
+<p><strong>Windows XP:</strong> 1 – 4294967295</p></td>
 </tr>
 <tr class="even">
 <td><p>Область.</p></td>
@@ -234,7 +234,7 @@ _**Применимо к:** Windows | Windows Server_
 
 **Примечание**   .   Если этот параметр оставлен со значением по умолчанию, максимальный размер кэша будет установлен в размер физической памяти при вызове [жетинит](./jetinit-function.md) .
 
-**Windows Vista:**  Начиная с Windows Vista, значение этого параметра по умолчанию изменилось, чтобы объяснить это поведение.
+**Windows Vista:**  начиная с Windows Vista значение этого параметра по умолчанию изменилось, чтобы объяснить это поведение.
 
 <table>
 <colgroup>
@@ -244,8 +244,8 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p>Значение по умолчанию:</p></td>
-<td><p><strong>Windows 2000, Windows XP и Windows Server 2003:</strong>  512</p>
-<p><strong>Windows Vista:</strong>  2000000000</p></td>
+<td><p><strong>Windows 2000, Windows XP и Windows Server 2003:</strong> 512</p>
+<p><strong>Windows Vista:</strong> 2000000000</p></td>
 </tr>
 <tr class="even">
 <td><p>Тип:</p></td>
@@ -253,8 +253,8 @@ _**Применимо к:** Windows | Windows Server_
 </tr>
 <tr class="odd">
 <td><p>Допустимый диапазон:</p></td>
-<td><p><strong>Windows 2000:</strong>  1 – 1048575</p>
-<p><strong>Windows XP:</strong>  1 – 4294967295</p></td>
+<td><p><strong>Windows 2000:</strong> 1 – 1048575</p>
+<p><strong>Windows XP:</strong> 1 – 4294967295</p></td>
 </tr>
 <tr class="even">
 <td><p>Область.</p></td>
@@ -267,7 +267,7 @@ _**Применимо к:** Windows | Windows Server_
 </tr>
 <tr class="even">
 <td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
-<td><p><strong>Windows XP и windows 2000:</strong>  Нет</p>
+<td><p><strong>Windows XP и Windows 2000:</strong>  Нет</p>
 <p><strong>Windows Vista и Windows Server 2003:</strong>  Да</p></td>
 </tr>
 <tr class="odd">
@@ -319,12 +319,12 @@ _**Применимо к:** Windows | Windows Server_
 </tr>
 <tr class="odd">
 <td><p>Допустимый диапазон:</p></td>
-<td><p><strong>Windows 2000, Windows XP и Windows Server 2003:</strong>  0 – 2147483647</p>
+<td><p><strong>Windows 2000, Windows XP и Windows Server 2003:</strong> 0 – 2147483647</p>
 <p><strong>Windows Vista:</strong>  Все значения</p></td>
 </tr>
 <tr class="even">
 <td><p>Область.</p></td>
-<td><p>Windows <strong>2000, Windows XP и Windows Server 2003:</strong> Этот параметр является глобальным.</p>
+<td><p><strong>Windows 2000, Windows XP и Windows Server 2003:</strong> Этот параметр является глобальным.</p>
 <p><strong>Windows Vista:</strong>  Этот параметр задан для каждого экземпляра.</p></td>
 </tr>
 <tr class="odd">
@@ -421,11 +421,11 @@ _**Применимо к:** Windows | Windows Server_
 *JET_paramEnableViewCache*  
 127  
 
-Если этот параметр имеет **значение true**, ядро СУБД будет использовать данные базы данных непосредственно из кэша файлов Windows, а не копировать кэшированные данные в собственную частную память. Все измененные данные базы данных по-прежнему будут кэшироваться в частной памяти.
+если этот параметр имеет **значение True**, ядро субд будет использовать данные базы данных непосредственно из Windowsного кэша файлов вместо копирования кэшированных данных в собственную закрытую память. Все измененные данные базы данных по-прежнему будут кэшироваться в частной памяти.
 
 Цель этого режима — еще больше уменьшить объем памяти, используемой ядром СУБД для кэширования данных базы данных.
 
-Кэш представлений может использоваться только в том случае, если использование кэша файлов Windows включено путем установки JET_paramEnableFileCache в **значение true**.
+кэш представлений можно использовать только в том случае, если использование Windowsного кэша файлов включено путем установки JET_paramEnableFileCache в **значение True**.
 
 <table>
 <colgroup>
@@ -502,7 +502,7 @@ _**Применимо к:** Windows | Windows Server_
 </tr>
 <tr class="odd">
 <td><p>Допустимый диапазон:</p></td>
-<td><p><strong>Windows 2000, Windows XP и Windows Server 2003: </strong>    0 – 2147483647</p>
+<td><p><strong>Windows 2000, Windows XP и Windows Server 2003:</strong> 0 – 2147483647</p>
 <p><strong>Windows Vista:</strong>  Все значения</p></td>
 </tr>
 <tr class="even">
@@ -546,7 +546,7 @@ _**Применимо к:** Windows | Windows Server_
 
 Этот параметр задает максимальное количество некэшированных страниц базы данных, для которых будет храниться время доступа к странице базы данных. Эти записи журнала позволяют алгоритму замены страниц кэша (LRU-K) более точно обнаруживать популярные страницы, которые были неправильно исключены из кэша страниц базы данных.
 
-**Windows XP и Windows Server 2003:**  Этот параметр не учитывается в Windows XP и Windows Server 2003 и не влияет на работу ядра СУБД.
+**Windows XP и Windows Server 2003:**  этот параметр пропускается в Windows XP и Windows Server 2003 и не влияет на работу ядра субд.
 
 <table>
 <colgroup>
@@ -556,8 +556,8 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p>Значение по умолчанию:</p></td>
-<td><p><strong>Windows 2000:</strong>  1024</p>
-<p><strong>Windows Vista:</strong>  100000</p></td>
+<td><p><strong>Windows 2000:</strong> 1024</p>
+<p><strong>Windows Vista:</strong> 100000</p></td>
 </tr>
 <tr class="even">
 <td><p>Тип:</p></td>
@@ -565,7 +565,7 @@ _**Применимо к:** Windows | Windows Server_
 </tr>
 <tr class="odd">
 <td><p>Допустимый диапазон:</p></td>
-<td><p><strong>Windows 2000:</strong>  0 – 4194303</p>
+<td><p><strong>Windows 2000:</strong> 0 – 4194303</p>
 <p><strong>Windows Vista:</strong>  Все значения</p></td>
 </tr>
 <tr class="even">
@@ -684,8 +684,8 @@ _**Применимо к:** Windows | Windows Server_
 </tr>
 <tr class="odd">
 <td><p>Допустимый диапазон:</p></td>
-<td><p><strong>Windows 2000, Windows XP и Windows Server 2003:</strong>  1 – 2147483647</p>
-<p><strong>Windows Vista:</strong>   1 – 4294967295</p></td>
+<td><p><strong>Windows 2000, Windows XP и Windows Server 2003:</strong> 1 – 2147483647</p>
+<p><strong>Windows Vista:</strong> 1 – 4294967295</p></td>
 </tr>
 <tr class="even">
 <td><p>Область.</p></td>
@@ -733,7 +733,7 @@ _**Применимо к:** Windows | Windows Server_
 
 Этот параметр определяет, когда кэш страниц базы данных начинает удалять страницы из кэша, чтобы освободить место для страниц, которые не кэшируются. Когда количество буферов страниц в кэше падает ниже этого порога, запускается фоновый процесс для пополнения пула доступных буферов. Это пороговое значение всегда относительно максимального размера кэша, установленного **JET_paramCacheSizeMax**. Это пороговое значение также должно быть меньше порога окончания, установленного **JET_paramStopFlushThreshold**.
 
-Высота расстояния начального порога определяет время отклика, которое должен иметь кэш страниц базы данных для создания доступных буферов до того, как приложение потребует их. При высоком пороговом значении запуска фоновому процессу будет больше времени на реагирование. Однако при высоком пороговом значении для параметра «Порог» появляется более высокий порог, что уменьшает эффективный размер кэша страниц базы данных для измененных страниц (Windows 2000) или для всех страниц (Windows XP и более поздних версий).
+Высота расстояния начального порога определяет время отклика, которое должен иметь кэш страниц базы данных для создания доступных буферов до того, как приложение потребует их. При высоком пороговом значении запуска фоновому процессу будет больше времени на реагирование. тем не менее, при высоком пороговом значении будет более высокий порог, что снизит эффективный размер кэша страниц базы данных для измененных страниц (Windows 2000) или для всех страниц (Windows XP и более поздних версий).
 
 <table>
 <colgroup>
@@ -743,8 +743,8 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p>Значение по умолчанию:</p></td>
-<td><p><strong>Windows 2000, Windows XP и Windows Server 2003:</strong>  5 (1%)</p>
-<p><strong>Windows Vista:</strong>  20000000 (1%)</p></td>
+<td><p><strong>Windows 2000, Windows XP и Windows Server 2003:</strong> 5 (1%)</p>
+<p><strong>Windows Vista:</strong> 20000000 (1%)</p></td>
 </tr>
 <tr class="even">
 <td><p>Тип:</p></td>
@@ -752,8 +752,8 @@ _**Применимо к:** Windows | Windows Server_
 </tr>
 <tr class="odd">
 <td><p>Допустимый диапазон:</p></td>
-<td><p><strong>Windows 2000:</strong>  1 – 1048575</p>
-<p><strong>Windows XP:</strong>  1 – 4294967295</p>
+<td><p><strong>Windows 2000:</strong> 1 – 1048575</p>
+<p><strong>Windows XP:</strong> 1 – 4294967295</p>
 <p><strong>Windows Vista:</strong>  Все значения</p></td>
 </tr>
 <tr class="even">
@@ -797,7 +797,7 @@ _**Применимо к:** Windows | Windows Server_
 
 Этот параметр управляет тем, когда кэш страниц базы данных завершает исключение страниц из кэша, освобождая пространство для страниц, которые не кэшируются. Когда количество буферов страниц в кэше превышает это пороговое значение, фоновый процесс, который был запущен для пополнения пула доступных буферов, останавливается. Это пороговое значение всегда относительно максимального размера кэша, установленного **JET_paramCacheSizeMax**. Это пороговое значение также должно быть больше, чем пороговое значение начала, заданное **JET_paramStartFlushThreshold**.
 
-Расстояние между пороговым значением начала и порогом окончания влияет на эффективность, с которой страницы базы данных сбрасываются фоновым процессом. Чем больше промежуток, тем больше вероятность, что записи на соседние страницы могут быть объединены. Однако при высоком пороговом значении будет уменьшен эффективный размер кэша страниц базы данных для измененных страниц (Windows 2000) или для всех страниц (Windows XP и более поздних версий).
+Расстояние между пороговым значением начала и порогом окончания влияет на эффективность, с которой страницы базы данных сбрасываются фоновым процессом. Чем больше промежуток, тем больше вероятность, что записи на соседние страницы могут быть объединены. однако при высоком пороговом значении будет уменьшен эффективный размер кэша страниц базы данных для измененных страниц (Windows 2000) или для всех страниц (Windows XP и более поздних версий).
 
 <table>
 <colgroup>
@@ -807,8 +807,8 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p>Значение по умолчанию:</p></td>
-<td><p><strong>Windows 2000, Windows XP и Windows Server 2003:</strong>  10 (2%)</p>
-<p><strong>Windows Vista:</strong>  40000000 (2%)</p></td>
+<td><p><strong>Windows 2000, Windows XP и Windows Server 2003:</strong> 10 (2%)</p>
+<p><strong>Windows Vista:</strong> 40000000 (2%)</p></td>
 </tr>
 <tr class="even">
 <td><p>Тип:</p></td>
@@ -816,8 +816,8 @@ _**Применимо к:** Windows | Windows Server_
 </tr>
 <tr class="odd">
 <td><p>Допустимый диапазон:</p></td>
-<td><p><strong>Windows 2000:</strong>  1 – 1048575</p>
-<p><strong>Windows XP:</strong>  1 – 4294967295</p>
+<td><p><strong>Windows 2000:</strong> 1 – 1048575</p>
+<p><strong>Windows XP:</strong> 1 – 4294967295</p>
 <p><strong>Windows Vista:</strong>  Все значения</p></td>
 </tr>
 <tr class="even">
@@ -866,11 +866,11 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
+<td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
+<td><p><strong>Сервер</strong></p></td>
+<td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>
@@ -880,7 +880,7 @@ _**Применимо к:** Windows | Windows Server_
 </table>
 
 
-### <a name="see-also"></a>См. также:
+### <a name="see-also"></a>См. также
 
 [жеткреатеинстанце](./jetcreateinstance-function.md)  
 [жетинит](./jetinit-function.md)

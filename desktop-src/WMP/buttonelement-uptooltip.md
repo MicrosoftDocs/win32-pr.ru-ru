@@ -3,7 +3,7 @@ title: БУТТОНЕЛЕМЕНТ. иссказка
 description: Атрибут исправной подсказки указывает или получает текст подсказки, отображаемый при наведении мыши на БУТТОНЕЛЕМЕНТ, а БУТТОНЕЛЕМЕНТ находится в состоянии up.
 ms.assetid: ca9334df-8054-481d-966c-58c84d734adf
 keywords:
-- Буттонелемент. подсказка проигрывателя Windows Media Player
+- буттонелемент. испроигрыватель Windows Media подсказки
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ec3b8d74b05a6d1e4ad6abd301a859f724e5c8d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 08fc4435ec51ea3460d03d4fc889307a026f8762671291b648f09c282fb812fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105695100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997743"
 ---
 # <a name="buttonelementuptooltip"></a>БУТТОНЕЛЕМЕНТ. иссказка
 
@@ -31,7 +31,7 @@ ms.locfileid: "105695100"
 
 Этот атрибут является **строкой** для чтения и записи со значением по умолчанию "" (пустая строка) с максимальной длиной 1024 символов.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если для этого атрибута задано значение "" (пустая строка), подсказка не отображается.
 
@@ -45,7 +45,7 @@ ms.locfileid: "105695100"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

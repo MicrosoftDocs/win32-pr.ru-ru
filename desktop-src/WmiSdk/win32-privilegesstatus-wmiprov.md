@@ -21,12 +21,12 @@ api_type:
 - Schema
 api_location:
 - Root\WMI
-ms.openlocfilehash: 658803be4e70849531bf52e7368e4e9cbcc2f0a3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 97276023325dc4e2a460daefd35ee01104b5c0adf5c855f145e0f11c954eba1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119757634"
 ---
 # <a name="win32_privilegesstatus-class-wmi"></a>Класс Win32_PrivilegesStatus (WMI)
 
@@ -56,7 +56,7 @@ class Win32_PrivilegesStatus : __ExtendedStatus
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ привилежесстатус** имеет следующие свойства.
 
@@ -86,7 +86,7 @@ class Win32_PrivilegesStatus : __ExtendedStatus
 Тип доступа: только для чтения
 </dt> </dl>
 
-Операция, выполняемая во время сбоя или аномалии. Как правило, инструментарий управления Windows (WMI) (WMI) задает для этого свойства имя API COM для метода WMI, например: [**IWbemServices:: CreateInstanceEnum**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-createinstanceenum).
+Операция, выполняемая во время сбоя или аномалии. как правило, инструментарий управления Windows (WMI) (WMI) задает для этого свойства имя API COM для метода WMI, например: [**IWbemServices:: CreateInstanceEnum**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-createinstanceenum).
 
 Это свойство наследуется от [**\_ \_ екстендедстатус**](--extendedstatus.md).
 
@@ -116,9 +116,9 @@ class Win32_PrivilegesStatus : __ExtendedStatus
 Тип доступа: только для чтения
 </dt> </dl>
 
-Список необходимых привилегий доступа отсутствует для завершения операции. Типы привилегий доступа можно найти в разделе "привилегии Windows".
+Список необходимых привилегий доступа отсутствует для завершения операции. типы привилегий доступа можно найти в Windowsных привилегиях.
 
-Пример: "SE \_ Shutdown \_ Name"
+пример: "SE \_ SHUTDOWN \_ NAME"
 
 </dd> <dt>
 
@@ -133,7 +133,7 @@ class Win32_PrivilegesStatus : __ExtendedStatus
 
 Список всех привилегий, необходимых для выполнения операции. К ним относятся значения из свойства **привилежесноселд** .
 
-Пример: "SE \_ Shutdown \_ Name"
+пример: "SE \_ SHUTDOWN \_ NAME"
 
 </dd> <dt>
 
@@ -146,7 +146,7 @@ class Win32_PrivilegesStatus : __ExtendedStatus
 Тип доступа: только для чтения
 </dt> </dl>
 
-Определяет поставщика, который вызывает или сообщает об ошибке или изменении состояния. Если поставщик не задействован, для этой строки задается значение "Управление Windows".
+Определяет поставщика, который вызывает или сообщает об ошибке или изменении состояния. если поставщик не задействован, для этой строки задается значение "управление Windows".
 
 Это свойство наследуется от [**\_ \_ екстендедстатус**](--extendedstatus.md).
 
@@ -165,7 +165,7 @@ class Win32_PrivilegesStatus : __ExtendedStatus
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ привилежесстатус** является производным от [**\_ \_ екстендедстатус**](--extendedstatus.md).
 

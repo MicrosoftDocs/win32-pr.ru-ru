@@ -4,12 +4,12 @@ ms.assetid: f3d8c07b-db28-4f26-ba29-8733fc95bdb5
 title: Функция InitializeSecurityContext (CredSSP) (Sspi.h)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: aa359fc0cedf96f43d93cfb7d962035453328759
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ba38dd10552f90ecfcc5045b96edc5e62aff1f8a2beec0f2a728fc1f0be8c52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105719299"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120015994"
 ---
 # <a name="initializesecuritycontext-credssp-function"></a>Функция InitializeSecurityContext (CredSSP)
 
@@ -217,7 +217,7 @@ SECURITY_STATUS SEC_ENTRY InitializeSecurityContext(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Вызывающий объект отвечает за определение того, достаточно ли атрибутов последнего контекста. Если, например, была запрошена конфиденциальность, но ее не удалось установить, некоторые приложения могут немедленно завершить подключение.
 
@@ -266,9 +266,9 @@ SECURITY_STATUS SEC_ENTRY InitializeSecurityContext(
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                         |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                   |
-| Header<br/>                   | <dl> <dt>SSPI. h (включая Security. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                         |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                   |
+| Заголовок<br/>                   | <dl> <dt>SSPI. h (включая Security. h)</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Secur32. lib</dt> </dl>                 |
 | DLL<br/>                      | <dl> <dt>Secur32.dll</dt> </dl>                 |
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eff5c12e53eb060777f75ad537bed265401a7a26
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: a124421684fc2e1b5826e149b90f9d249a6236c792f3830fa2a10e29793d0935
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105684952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119625734"
 ---
 # <a name="gldisable-function"></a>Функция Глдисабле
 
@@ -40,7 +40,7 @@ void WINAPI glDisable(
 
 <dl> <dt>
 
-*конец* 
+*заполнен* 
 </dt> <dd>
 
 Символьная константа, указывающая на возможность OpenGL.
@@ -66,7 +66,7 @@ void WINAPI glDisable(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функции [**гленабле**](glenable.md) и **глдисабле** включают и отключают различные графические возможности OpenGL. Чтобы определить текущее значение любой возможности, используйте [**глисенаблед**](glisenabled.md) или [**глжет**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) .
 

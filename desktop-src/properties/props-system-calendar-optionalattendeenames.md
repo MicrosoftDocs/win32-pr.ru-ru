@@ -4,12 +4,12 @@ ms.assetid: ffbf3f0c-52eb-49ab-89b2-cedf1eaa14e2
 title: System. Calendar. Оптионалаттендинамес
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a80a9c50fe1a58de67b53adf38389c41c4ed59ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e13aa47990c15313589fef618675a51fc8fd54f47f532c1df5ab3374378d4a5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692735"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119823464"
 ---
 # <a name="systemcalendaroptionalattendeenames"></a>System. Calendar. Оптионалаттендинамес
 
@@ -30,11 +30,11 @@ propertyDescription
       type = Multivalue String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

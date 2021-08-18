@@ -3,9 +3,9 @@ title: Аксвиндовсмедиаплайер. Невмедиа, метод
 description: Метод Невмедиа возвращает интерфейс Ивмпмедиа для нового элемента мультимедиа.
 ms.assetid: d10a517e-b4da-4f0b-9d51-9d387578d7dd
 keywords:
-- Невмедиа метод Windows Media Player
-- Невмедиа метод Windows Media Player, класс Аксвиндовсмедиаплайер
-- Класс Аксвиндовсмедиаплайер Windows Media Player, метод Невмедиа
+- проигрыватель Windows Media метода невмедиа
+- проигрыватель Windows Media метода невмедиа, класс аксвиндовсмедиаплайер
+- класс аксвиндовсмедиаплайер проигрыватель Windows Media, метод невмедиа
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 093a4e2b8181aac9148686108ad2c5c318a4d0cf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cdde19a6cb5da5113cb580c1916052c7ae0d38756bbc120368ffdfd464105591
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105695167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119618744"
 ---
 # <a name="axwindowsmediaplayernewmedia-method"></a>Аксвиндовсмедиаплайер. Невмедиа, метод
 
@@ -63,7 +63,7 @@ Public Function newMedia( _
 
 Интерфейс Вмплиб. Ивмпмедиа, представляющий только что созданный элемент мультимедиа.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Параметр *бструрл* не должен быть строкой нулевой длины ("") или значением NULL.
 
@@ -73,7 +73,7 @@ Public Function newMedia( _
 
 | Требование | Значение |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                          |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                          |
 | Пространство имен<br/> | **аксвмплиб**<br/>                                                                                                    |
 | Сборка<br/>  | <dl> <dt>AxInterop.WMPLib.dll (AxInterop.WMPLib.dll.dll)</dt> </dl> |
 

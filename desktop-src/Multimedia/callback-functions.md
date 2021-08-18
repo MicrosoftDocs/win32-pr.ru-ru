@@ -10,12 +10,12 @@ keywords:
 - Сообщение DRV_OPEN
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7e23f933567d125dd07f81047ea8868c12f41ac
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 5fabb833b0aa3adef444f8242d540eb48dcbe381ebc5c7f62c6dedc0d5e9160e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103890604"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119786204"
 ---
 # <a name="callback-functions"></a>Функции обратного вызова
 
@@ -23,6 +23,6 @@ ms.locfileid: "103890604"
 
 Если драйвер поддерживает функции обратного вызова, то приложение или библиотека DLL, которые открывают экземпляр, должны предоставить значение, которое является адресом функции обратного вызова, обработчиком окна или обработчиком задачи. Это значение и флаг, идентифицирующий тип значения, обычно передаются в структуру, на которую указывает второй параметр [**\_ открытого сообщения DRV**](drv-open.md) .
 
- 
+ 
 
- 
+ 

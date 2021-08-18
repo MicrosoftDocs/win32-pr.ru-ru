@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 141e7e4d80d090e92ecb951917f60f972587d4b5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4b49fa865c215c3190b2d081390c98eec1336ffb00a4bf1e9dd9d94226105e96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103801745"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002082"
 ---
 # <a name="triggerstartboundary-property"></a>Свойство Trigger. Стартбаундари
 
@@ -40,7 +40,7 @@ Trigger.StartBoundary As String
 
 Дата и время активации триггера. Дата и время должны быть в следующем формате: гггг-мм-DDTHH: мм: СС (+-) чч: мм. Например, дата 11 октября 2005 по 1:21:17 в тихоокеанском часовом поясе будет записана как 2005-10-11T13:21:17-08:00. Раздел (+-) чч: мм в формате описывает часовой пояс как определенное число часов перед временем в формате UTC (время по Гринвичу).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При чтении или записи XML для задачи начальная граница триггера задается в элементе [**стартбаундари**](taskschedulerschema-startboundary-triggerbasetype-element.md) схемы планировщик задач.
 
@@ -50,8 +50,8 @@ Trigger.StartBoundary As String
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                    |
 | Библиотека типов<br/>             | <dl> <dt>Тасксчд. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

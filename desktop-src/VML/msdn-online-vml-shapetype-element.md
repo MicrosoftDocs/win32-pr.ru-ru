@@ -4,21 +4,21 @@ description: Элемент Шапетипе VML
 ms.assetid: 4e0288c9-ab0f-4399-982a-97dcf16f4ec4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ebbb35eef0a3c987fe1e6ec35d15701236ae0af1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0632919a141ae04f80b0b6cd6782ea907aa8cfe1d720e599964110c038f3998e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104260910"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120099094"
 ---
 # <a name="vml-shapetype-element"></a>Элемент Шапетипе VML
 
-В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+в этом разделе описывается функция VML, которая является устаревшей по отношению к Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
 
 > [!Note]  
-> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
+> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). сведения, рекомендации и рекомендации относительно текущей версии Windows Internet explorer см. в [центре разработчиков internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Определяет фигуру, которую можно использовать для создания других фигур.
 
@@ -32,7 +32,7 @@ ms.locfileid: "104260910"
 
 
 
- 
+ 
 
 **Замечания**
 
@@ -46,6 +46,6 @@ ms.locfileid: "104260910"
 
 Чтобы использовать этот элемент, создайте **шапетипе** с указанным атрибутом [ID](id-attribute--vml.md) . Затем создайте **фигуру** и сослаться на **шапетипе** с помощью атрибута **Type** . Дополнительные сведения см. в описании атрибута [Type](type-attribute--shape--vml.md) .
 
- 
+ 
 
- 
+ 

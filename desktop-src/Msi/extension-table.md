@@ -4,12 +4,12 @@ ms.assetid: 924858b7-8956-4636-b7c7-c902aa822ee1
 title: Таблица расширения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ef52f7248f44dcb63255244bbd8abd4ac8181d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d664df812b723d7ab6c9b966b09fac8c57a35b655e123f720fdb87bdf431146
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650642"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119821744"
 ---
 # <a name="extension-table"></a>Таблица расширения
 
@@ -21,11 +21,11 @@ ms.locfileid: "105650642"
 
 | Столбец      | Type                         | Ключ | Допускает значения NULL |
 |-------------|------------------------------|-----|----------|
-| Расширение   | [Text](text.md)             | Да   | Нет        |
-| Компонент\_ | [Идентификатор](identifier.md) | Да   | Нет        |
-| ID\_    | [Text](text.md)             | Нет   | Да        |
-| MIME\_      | [Text](text.md)             | Нет   | Да        |
-| Функция\_   | [Идентификатор](identifier.md) | Нет   | Нет        |
+| Расширение   | [Text](text.md)             | Д   | Нет        |
+| Компонент\_ | [Идентификатор](identifier.md) | Д   | Нет        |
+| ID\_    | [Text](text.md)             | Нет   | Д        |
+| ФОРМАТА\_      | [Text](text.md)             | Нет   | Д        |
+| Компонент\_   | [Идентификатор](identifier.md) | Нет   | Нет        |
 
 
 
@@ -72,7 +72,7 @@ ms.locfileid: "105650642"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обращение к таблице расширений происходит при выполнении действия [регистерекстенсионинфо](registerextensioninfo-action.md) или [унрегистерекстенсионинфо](unregisterextensioninfo-action.md) .
 

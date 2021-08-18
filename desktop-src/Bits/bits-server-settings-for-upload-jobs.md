@@ -1,19 +1,19 @@
 ---
-title: Параметры сервера BITS для заданий отправки
+title: Параметры сервера BITS для заданий Upload
 description: Этот раздел содержит следующие подразделы.
 ms.assetid: 31be788a-de59-43df-b5cb-e97dfbfd5c05
 keywords:
-- Параметры сервера BITS для заданий отправки BITS
+- Параметры сервера bits для битов заданий Upload
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a62e2a36743d3f2dac7c70f1b1097187ba44071e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: da8a947c89d0c807064f65a856ed889cde9b672af3ec6518e684fc0efe951413
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067486"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021234"
 ---
-# <a name="bits-server-settings-for-upload-jobs"></a>Параметры сервера BITS для заданий отправки
+# <a name="bits-server-settings-for-upload-jobs"></a>Параметры сервера BITS для заданий Upload
 
 Этот раздел содержит следующие подразделы.
 
@@ -27,13 +27,13 @@ ms.locfileid: "104067486"
 
 
 
- 
+ 
 
 Сведения о настройке служб IIS для отправки см. в разделе [Настройка сервера для отправки](setting-up-the-server-for-uploads.md).
 
- 
+ 
 
- 
+ 
 
 
 

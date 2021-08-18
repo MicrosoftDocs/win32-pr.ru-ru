@@ -4,18 +4,18 @@ ms.assetid: 0ccf20c1-4c95-4caf-a8f3-82a9e0a9907b
 title: PNRP и ВСАКУЕРИСЕТ (P2P. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d09d135d57af0922feb5a143c41696d85dac083
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4bbc635b0c1ca19cfaeeeb7f8b013aefad1e49e2141dd9715a36c0238e7be6f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119061361"
 ---
 # <a name="pnrp-and-wsaqueryset"></a>PNRP и ВСАКУЕРИСЕТ
 
 PNRP использует структуру [**всакуерисет**](winsock-nsp-reference-links.md) в сочетании с различными функциями для упрощения разрешения имен и перечисления имен и облаков.
 
-Полные определения функций [**всакуерисет**](winsock-nsp-reference-links.md) или сокетов Windows см. в соответствующих определениях в документации по API Windows Sockets 2 в пакете Platform SDK.
+полные определения функций [**всакуерисет**](winsock-nsp-reference-links.md) или сокетов Windows см. в соответствующих определениях в документации по API Windows sockets 2 в пакете Platform SDK.
 
 ## <a name="wsaqueryset-and-wsasetservice"></a>ВСАКУЕРИСЕТ и Всасетсервице
 
@@ -35,10 +35,10 @@ PNRP использует структуру [**всакуерисет**](winsoc
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для настольных приложений Windows XP с пакетом обновления 2 \[\]<br/>                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                             |
-| Версия<br/>                  | Windows XP с пакетом обновления 1 (SP1) и расширенный сетевой пакет для Windows XP<br/>  |
-| Header<br/>                   | <dl> <dt>P2P. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows XP с пакетом обновления 2 (SP2) \[ только классические приложения\]<br/>                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                             |
+| Версия<br/>                  | Windows xp с пакетом обновления 1 (SP1) и расширенным сетевым пакетом для Windows XP<br/>  |
+| Заголовок<br/>                   | <dl> <dt>P2P. h</dt> </dl> |
 
 
 

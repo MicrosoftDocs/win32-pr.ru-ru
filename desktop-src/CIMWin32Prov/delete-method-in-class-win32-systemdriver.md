@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e1b7435a1bca561b19e7d85299413f88f1ae76c3
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d6422da3de5549f7100caaa3d47d9aaf055f9208a1fd56188d837627b852222e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108097092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020522"
 ---
 # <a name="delete-method-of-the-win32_systemdriver-class"></a>Метод DELETE \_ класса SystemDriver Win32
 
@@ -58,7 +58,7 @@ uint32 Delete();
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

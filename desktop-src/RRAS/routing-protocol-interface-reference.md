@@ -7,12 +7,12 @@ keywords:
 - Интерфейс протокола маршрутизации RRAS, Справочник
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9341dd8dbd304da84fd675aee92e378a44271056
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0196a5cbad8919a07a6e9a19ee5f7848eb6378ad2c56f7f0977125e5e79133a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120027354"
 ---
 # <a name="routing-protocol-interface-reference"></a>Справочник по интерфейсу протокола маршрутизации
 
@@ -28,9 +28,9 @@ MPR50 должен быть определен в файле make для про�
 -   [Структуры интерфейса протокола маршрутизации](routing-protocol-interface-structures.md)
 -   [Управление таблицами службы IPX](ipx-service-table-management.md)
 
- 
+ 
 
- 
+ 
 
 
 

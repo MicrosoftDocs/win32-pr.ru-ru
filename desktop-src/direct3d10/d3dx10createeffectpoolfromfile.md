@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Async.h
-ms.openlocfilehash: 418ea287b9bbf2021f3b2e5379b209cf87745a69
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 500e0a72bc239b6c3f67011ed7abc0421f11cd8b9e4f67cbc86087e45027522d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105720883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119753404"
 ---
 # <a name="d3dx10createeffectpoolfromfile-function"></a>Функция D3DX10CreateEffectPoolFromFile
 
@@ -154,7 +154,7 @@ HRESULT D3DX10CreateEffectPoolFromFile(
 
 Возвращаемое значение является одним из значений, перечисленных в [кодах возврата Direct3D 10](d3d10-graphics-reference-returnvalues.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В этом примере создается пул эффектов на основе воздействия, используемого в [примере BasicHLSL10](https://msdn.microsoft.com/library/Ee416395(v=VS.85).aspx).
 
@@ -180,7 +180,7 @@ hr = D3DX10CreateEffectPoolFromFile( str,
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3DX10Async. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3DX10Async. h</dt> </dl> |
 
 
 

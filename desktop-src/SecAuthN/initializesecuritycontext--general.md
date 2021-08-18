@@ -4,12 +4,12 @@ ms.assetid: 21d965d4-3c03-4e29-a70d-4538c5c366b0
 title: Функция InitializeSecurityContext (General) (Sspi.h)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: bc96fe74202f1380d2d85946a373f176e14dfd6d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f67832ae3593e893d56e9a3d772b635ef2aac327d6e997dafb152682da569ae0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104348075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120015924"
 ---
 # <a name="initializesecuritycontext-general-function"></a>Функция InitializeSecurityContext (общая)
 
@@ -228,7 +228,7 @@ SECURITY_STATUS SEC_Entry InitializeSecurityContext(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Вызывающий объект отвечает за определение того, достаточно ли атрибутов последнего контекста. Если, например, была запрошена конфиденциальность, но ее не удалось установить, некоторые приложения могут немедленно завершить подключение.
 
@@ -283,9 +283,9 @@ SECURITY_STATUS SEC_Entry InitializeSecurityContext(
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                   |
-| Header<br/>                   | <dl> <dt>SSPI. h (включая Security. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                                            |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                   |
+| Заголовок<br/>                   | <dl> <dt>SSPI. h (включая Security. h)</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Secur32. lib</dt> </dl>                 |
 | DLL<br/>                      | <dl> <dt>Secur32.dll</dt> </dl>                 |
 | Имя в кодировке Юникод и ANSI<br/>   | **Инитиализесекуритиконтекств** (Юникод) и **инитиализесекуритиконтекста** (ANSI)<br/>          |

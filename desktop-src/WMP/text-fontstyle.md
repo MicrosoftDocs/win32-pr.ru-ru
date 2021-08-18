@@ -3,7 +3,7 @@ title: TEXT. fontStyle
 description: Атрибут fontStyle указывает или получает стиль шрифта для элемента управления "текст".
 ms.assetid: 1bb99305-dccc-489d-9a02-7cb306f0d47d
 keywords:
-- Проигрыватель Windows Media TEXT. fontStyle
+- проигрыватель Windows Media TEXT. fontStyle
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ab6ddfb3ff31cba50027c010ed10c2129d45134
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4fbdbe021890b3a76fbae3838cbebe958956af82ff468f990fe6fd9e91345a48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105647985"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119762904"
 ---
 # <a name="textfontstyle"></a>TEXT. fontStyle
 
@@ -35,7 +35,7 @@ ms.locfileid: "105647985"
 
 | Значение     | Описание                 |
 |-----------|-----------------------------|
-| Жирный      | Начертание шрифта полужирным шрифтом.            |
+| Полужирный      | Начертание шрифта полужирным шрифтом.            |
 | Курсив    | Стиль шрифта курсивом.          |
 | Underline | Подчеркнуть стиль шрифта.       |
 | Перечеркивание | Зачеркивание стиля шрифта.       |
@@ -45,23 +45,23 @@ ms.locfileid: "105647985"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Можно использовать любое сочетание значений, разделенных пробелами. Стиль "Стандартный" имеет приоритет над всеми другими значениями, и все остальные, указанные вместе с параметром "нормально", будут игнорироваться.
 
 См. атрибут [value](text-value.md) для примера, иллюстрирующий использование атрибутов **текстового** элемента.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

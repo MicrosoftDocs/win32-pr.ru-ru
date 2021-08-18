@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 9885bea242a9f2b781ccb0dcac479248a9ccc538
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d5d901c771fb71dbda141f6166348d1601317eae7bcda3ea5a059f5836975014
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104539224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119972274"
 ---
 # <a name="win32_pagefileusage-class"></a>\_Класс Win32 пажефилеусаже
 
@@ -60,7 +60,7 @@ class Win32_PageFileUsage : CIM_LogicalElement
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ пажефилеусаже** имеет следующие свойства.
 
@@ -84,7 +84,7 @@ class Win32_PageFileUsage : CIM_LogicalElement
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -154,7 +154,7 @@ class Win32_PageFileUsage : CIM_LogicalElement
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -312,7 +312,7 @@ class Win32_PageFileUsage : CIM_LogicalElement
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ пажефилеусаже** является производным от [**CIM \_ логикалелемент**](cim-logicalelement.md).
 
