@@ -4,16 +4,16 @@ description: Дефаулткомманд, свойство
 ms.assetid: ba4d51fc-7178-4dbb-9ae5-f1991f40aad6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d57d937cec575f0fdd99cc1f14511b9c88f9235
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 94e7aec703ffbabb98ae16609b0dcb01767fda5c38b42ed40f204e3a3bae5766
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104069929"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117693639"
 ---
 # <a name="defaultcommand-property"></a>Дефаулткомманд, свойство
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 <dl> <dt>
 
@@ -27,26 +27,26 @@ ms.locfileid: "104069929"
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Syntax**
 </dt> <dd>
 
-Символы агента. ** * ** *  **("***Чарактерид***"). Строка Commands. дефаулткомманд** \[  =  \]
+Символы агента. ** * ** *  **("**_Чарактерид_*_"). Строка Commands. дефаулткомманд_* \[  =  \]
 
 
 
-| Отделение     | Описание                                                                         |
+| Часть     | Описание                                                                         |
 |----------|-------------------------------------------------------------------------------------|
-| *string* | Строковое значение, определяющее имя (идентификатор) [**команды**](/windows/desktop/lwef/the-command-object). |
+| *строка* | Строковое значение, определяющее имя (идентификатор) [**команды**](/windows/desktop/lwef/the-command-object). |
 
 
 
- 
+ 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство позволяет задать [**команду**](/windows/desktop/lwef/the-command-object) в коллекции Commands в [**качестве команды по**](/windows/desktop/lwef/the-commands-collection-object) умолчанию, выводит полужирный шрифт. Это не приводит к изменению обработки команд или двойного щелчка.
 
 Это свойство применяется только к символу, используемому вашим клиентским приложением. Этот параметр не влияет на другие клиенты символов или других символов клиентского приложения.
 
- 
+ 
 
- 
+ 

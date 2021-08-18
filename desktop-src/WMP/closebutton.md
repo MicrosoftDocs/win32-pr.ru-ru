@@ -3,23 +3,23 @@ title: CLOSEBUTTON
 description: CLOSEBUTTON
 ms.assetid: 39e2de27-c5aa-4a8f-8545-8b7e5cab730f
 keywords:
-- Обложки проигрывателя Windows Media, элемент BUTTON
+- обложки проигрыватель Windows Media, элемент BUTTON
 - обложки, элемент BUTTON
 - Справочник по обложкам, элементу BUTTON
 - BUTTON, элемент
 - элементы, кнопка
-- Обложки проигрывателя Windows Media, кнопки закрытия
+- обложки проигрыватель Windows Media, кнопки закрытия
 - обложки, кнопки закрытия
 - Кнопки закрытия
 - Справочник по обложкам, кнопкам закрытия
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a7b3d6df8984d966e84a68cadaf38d1cc8ab369
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0f8123305c92bfe7f5fccc69b9fd8a92429a67fb933189bd3b0285834cccd2a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105691316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118119792"
 ---
 # <a name="closebutton"></a>CLOSEBUTTON
 
@@ -34,20 +34,20 @@ upToolTip="Close"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При этом создается элемент управления **"Кнопка"** , который закрывает проигрыватель. Всплывающие подсказки локализованы. Все свойства этой **кнопки** можно переопределить, явно указав их.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**BUTTON, элемент**](button-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

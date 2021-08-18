@@ -3,7 +3,7 @@ title: EDITBOX. foregroundColor
 description: Атрибут foregroundColor указывает или получает цвет текста в элементе управления "поле ввода".
 ms.assetid: 22de7e70-0ea8-45bb-abf1-21b6ab6a61fa
 keywords:
-- ForegroundColor Windows Media Player
+- EDITBOX. foregroundColor проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c0ea1535a2a107814b817399c5d4a166ce54f9de
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 220a8540999d786c7305c224553f9c79153988a700d9697626242faef33d73ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117749337"
 ---
 # <a name="editboxforegroundcolor"></a>EDITBOX. foregroundColor
 
@@ -29,7 +29,7 @@ ms.locfileid: "105694629"
 
 ## <a name="possible-values"></a>Возможные значения
 
-Этот атрибут является **строкой** для чтения и записи, содержащей любое значение цвета Microsoft Internet Explorer. Он имеет значение по умолчанию, равное цвету текста Windows.
+Этот атрибут является **строкой** для чтения и записи, содержащей любое значение цвета Microsoft Internet Explorer. он имеет значение по умолчанию, равное Windows цвету текста.
 
 ## <a name="requirements"></a>Требования
 
@@ -37,7 +37,7 @@ ms.locfileid: "105694629"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
 
 
 

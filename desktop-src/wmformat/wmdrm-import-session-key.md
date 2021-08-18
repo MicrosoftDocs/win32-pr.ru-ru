@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 93295e73e4e3e5e13b438f8b62e0ab6bfff43ee7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d34cdff6d17ad6ce60dd40478b56c9718be0863295422d2e5c60fee2c437dc6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117844063"
 ---
 # <a name="wmdrm_import_session_key-structure"></a>\_ \_ Структура ключа сеанса импорта WMDRM \_
 
@@ -64,9 +64,9 @@ typedef struct WMDRM_IMPORT_SESSION_KEY {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Эта структура, включая буфер, содержащий ключ сеанса, должна быть зашифрована с помощью открытого ключа компьютера Windows Media DRM и включена в элемент **пбенкриптедсессионкэймессаже** структуры [**\_ \_ \_ структуры импорта WMDRM**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmdrm_import_init_struct) .
+эта структура, в том числе буфер, содержащий ключ сеанса, должна быть зашифрована с помощью Windows открытого ключа компьютера DRM Media и включена в элемент **пбенкриптедсессионкэймессаже** структуры [**\_ \_ \_ структуры импорта WMDRM**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmdrm_import_init_struct) .
 
 ## <a name="requirements"></a>Требования
 
@@ -74,9 +74,9 @@ typedef struct WMDRM_IMPORT_SESSION_KEY {
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                               |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                      |
-| Версия<br/>                  | Пакет SDK для Windows Media Format 11<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                               |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                      |
+| Версия<br/>                  | Windows Пакет SDK для формата мультимедиа 11<br/>                                                    |
 | Header<br/>                   | <dl> <dt>Дрмекстерналс. h</dt> </dl> |
 
 

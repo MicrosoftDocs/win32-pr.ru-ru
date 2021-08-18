@@ -49,7 +49,7 @@ ms.locfileid: "117758484"
 
 Сведения о разработке сценариев см. в разделе [**тасксеттингс. нетворксеттингс**](tasksettings-networksettings.md).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

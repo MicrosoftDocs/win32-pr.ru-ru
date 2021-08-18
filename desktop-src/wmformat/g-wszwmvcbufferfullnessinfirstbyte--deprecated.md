@@ -1,6 +1,6 @@
 ---
 title: g_wszWMVCBufferFullnessInFirstByte (Вмкодекдсп. h)
-description: Текущую документацию по кодекам Windows Media и обработчикам цифровых сигналов см. в статье интерфейсы API аудио-и видеокодеков Windows Media и DSP. | g_wszWMVCBufferFullnessInFirstByte (Вмкодекдсп. h)
+description: текущую документацию по Windows кодеков мультимедиа и обработчикам цифровых сигналов см. в разделе Windows media Audio и Video кодек и DSP api. | g_wszWMVCBufferFullnessInFirstByte (Вмкодекдсп. h)
 ms.assetid: 434a88a2-9039-4b1a-bc4e-84cf3f2b9009
 keywords:
 - g_wszWMVCBufferFullnessInFirstByte формат Windows Media
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c745dc5badd143fcbb66c16e363a4d1fd716d673
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3d3368e6b068b5ee0effc7f30c4853901f348dc8d0c4dea75f17eea700b53800
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105647917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117847927"
 ---
 # <a name="g_wszwmvcbufferfullnessinfirstbyte"></a>g \_ всзвмвкбуфферфуллнессинфирстбите
 
-Текущую документацию по кодекам Windows Media и обработчикам цифровых сигналов см [. в статье интерфейсы API аудио-и видеокодеков Windows Media и DSP.](/previous-versions//dd464626(v=vs.85))
+текущую документацию по Windows кодеков мультимедиа и обработчикам цифровых сигналов см [. в разделе Windows media Audio и Video кодек и DSP api.](/previous-versions//dd464626(v=vs.85))
 
 ## <a name="requirements"></a>Требования
 
@@ -31,7 +31,7 @@ ms.locfileid: "105647917"
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 

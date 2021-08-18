@@ -3,8 +3,8 @@ title: Интерфейс IWMPStringCollection2 (VB и C) (WMP. h)
 description: Предоставляет методы, дополняют интерфейс Ивмпстрингколлектион.
 ms.assetid: be93ff47-7f76-4b5e-ad30-3094a75147c8
 keywords:
-- IWMPStringCollection2 (VB и C) интерфейс проигрывателя Windows Media
-- IWMPStringCollection2 (VB и C) интерфейс проигрывателя Windows Media, описание
+- проигрыватель Windows Media интерфейса IWMPStringCollection2 (VB и C)
+- проигрыватель Windows Media интерфейса IWMPStringCollection2 (VB и C), описание
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 184e1a16ea0e6b33cc5b67eaeac6b050e5cda97a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 93695fa0f14cfd4ab01f80206b223cfe6d387b1afb59ce1521b14eb1b7c9f996
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105695132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118119000"
 ---
 # <a name="iwmpstringcollection2-vb-and-c-interface"></a>Интерфейс IWMPStringCollection2 (VB и C#)
 
@@ -57,7 +57,7 @@ ms.locfileid: "105695132"
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>WMP. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>WMP. h</dt> </dl> |
 
 
 
@@ -65,7 +65,7 @@ ms.locfileid: "105695132"
 
 <dl> <dt>
 
-[**Интерфейсы для Visual Basic .NET и C #**](interfaces-for-visual-basic--net-and-c.md)
+[**интерфейсы для Visual Basic .net и C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**Интерфейс Ивмпстрингколлектион (VB и C#)**](iwmpstringcollection--vb-and-c.md)

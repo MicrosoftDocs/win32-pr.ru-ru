@@ -4,12 +4,12 @@ ms.assetid: 51b447ad-b6da-424b-91df-e5be9ce225a5
 title: Отправка и получение данных PGM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab73999c33c97c6ba528552af6d746d54fb605df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 130b38ea52e5d0679b988e55f8292b9752a4bf15d0514a8277a2e0b3b2327001
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104156014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117740575"
 ---
 # <a name="sending-and-receiving-pgm-data"></a>Отправка и получение данных PGM
 
@@ -17,7 +17,7 @@ ms.locfileid: "104156014"
 
 ## <a name="sending-pgm-data"></a>Отправка данных PGM
 
-После создания сеанса отправителя PGM данные отправляются с помощью различных функций отправки сокетов Windows: [**Send**](/windows/desktop/api/Winsock2/nf-winsock2-send), [**SendTo**](/windows/desktop/api/winsock/nf-winsock-sendto), [**всасенд**](/windows/desktop/api/Winsock2/nf-winsock2-wsasend)и [**всасендто**](/windows/desktop/api/Winsock2/nf-winsock2-wsasendto). Так как дескрипторы сокетов Windows являются дескрипторами файловой системы, другие функции, такие как функции [**WriteFile**](/windows/win32/api/fileapi/nf-fileapi-writefile) и CRT, также могут передавать данные. В следующем фрагменте кода показана операция отправителя PGM:
+после создания сеанса отправителя PGM данные отправляются с помощью различных Windows сокетов отправки: [**send**](/windows/desktop/api/Winsock2/nf-winsock2-send), [**sendto**](/windows/desktop/api/winsock/nf-winsock-sendto), [**всасенд**](/windows/desktop/api/Winsock2/nf-winsock2-wsasend)и [**всасендто**](/windows/desktop/api/Winsock2/nf-winsock2-wsasendto). так как дескрипторы сокетов Windows являются дескрипторами файловой системы, другие функции, такие как функции [**WriteFile**](/windows/win32/api/fileapi/nf-fileapi-writefile) и CRT, также могут передавать данные. В следующем фрагменте кода показана операция отправителя PGM:
 
 
 ```C++
@@ -39,7 +39,7 @@ if (error == SOCKET_ERROR)
 
 ## <a name="receiving-pgm-data"></a>Получение данных PGM
 
-После создания сеанса приемника PGM данные получаются с помощью различных функций получения сокетов Windows: [**recv**](/windows/desktop/api/winsock/nf-winsock-recv), [**реквфром**](/windows/desktop/api/winsock/nf-winsock-recvfrom), [**всарекв**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecv)и [**всареквфром**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecvfrom). Так как дескрипторы сокетов Windows также являются дескрипторами файлов, функции [**ReadFile**](/windows/win32/api/fileapi/nf-fileapi-readfile) и CRT можно также использовать для получения данных сеанса PGM. Транспорт пересылает данные получателю по мере поступления, если данные находятся в последовательности. Транспорт гарантирует, что возвращаемые данные являются непрерывными и освобождаются от дубликатов. В следующем фрагменте кода показана операция получения PGM:
+после создания сеанса приемника PGM данные получаются с помощью различных функций приема сокетов Windows: [**recv**](/windows/desktop/api/winsock/nf-winsock-recv), [**реквфром**](/windows/desktop/api/winsock/nf-winsock-recvfrom), [**всарекв**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecv)и [**всареквфром**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecvfrom). так как дескрипторы Windows сокетов также являются дескрипторами файлов, функции [**ReadFile**](/windows/win32/api/fileapi/nf-fileapi-readfile) и CRT также можно использовать для получения данных сеанса PGM. Транспорт пересылает данные получателю по мере поступления, если данные находятся в последовательности. Транспорт гарантирует, что возвращаемые данные являются непрерывными и освобождаются от дубликатов. В следующем фрагменте кода показана операция получения PGM:
 
 
 ```C++
@@ -68,7 +68,7 @@ else if (BytesRead == SOCKET_ERROR)
 -   В отправителю возникает неустранимая ошибка.
 -   Чрезмерное использование ресурсов происходит на локальном компьютере, например при превышении максимально допустимого внутреннего хранилища буфера или при обнаружении нехватки ресурсов.
 -   Возникает ошибка проверки согласованности данных.
--   Сбой в компоненте PGM зависит от, например TCP/IP или сокетов Windows.
+-   сбой в компоненте PGM зависит от, например TCP/IP или сокетов Windows.
 
 Как первый, так и второй элементы в приведенном выше списке могут привести к чрезмерной буферизации приемника до истечения ресурсов или в конечном итоге за пределами окна отправителя.
 

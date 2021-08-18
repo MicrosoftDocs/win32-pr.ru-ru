@@ -49,12 +49,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 322796a2d6ca6a13476dad58af8c385b8bdfa1fb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2e3ff5875e55de54ddf454dd8d3e283fd77be42ae1c54474fc4acdaaef8a55ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105681976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117757360"
 ---
 # <a name="imsrdpclientadvancedsettings2maxreconnectattempts-property"></a>Свойство IMsRdpClientAdvancedSettings2:: Максреконнектаттемптс
 
@@ -85,7 +85,7 @@ HRESULT get_MaxReconnectAttempts(
 
 В случае успеха возвратите значение **\_ ОК** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство не может быть задано, если элемент управления подключен.
 

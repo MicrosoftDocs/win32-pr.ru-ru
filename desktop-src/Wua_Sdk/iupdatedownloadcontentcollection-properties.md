@@ -21,7 +21,7 @@ ms.locfileid: "117738303"
 |----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | [**\_NewEnum**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloadcontentcollection-get__newenum) | Возвращает интерфейс [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) , используемый для перечисления коллекции.                    |
 | [**Count**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloadcontentcollection-get_count)        | Получает количество элементов коллекции.                                                                                          |
-| [**Элемент**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloadcontentcollection-get_item)          | Возвращает загружаемое содержимое для обновления из интерфейса [**иупдатедовнлоадконтентколлектион**](/windows/desktop/api/Wuapi/nn-wuapi-iupdatedownloadcontentcollection) . |
+| [**Компонент**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloadcontentcollection-get_item)          | Возвращает загружаемое содержимое для обновления из интерфейса [**иупдатедовнлоадконтентколлектион**](/windows/desktop/api/Wuapi/nn-wuapi-iupdatedownloadcontentcollection) . |
 
 
 

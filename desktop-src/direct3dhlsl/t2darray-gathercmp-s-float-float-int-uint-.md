@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a9ac68e6f7701ddfccf0c58321a526f33c2ceeea
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: b99839c9151264b7eb392d50c61438e9a2796fb56692b7830131797070c49c9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104986349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117723859"
 ---
 # <a name="texture2darraygathercmpsfloatfloatintuint-function"></a>Функция Texture2DArray:: Гасеркмп (S, float, float, int, uint)
 
@@ -94,7 +94,7 @@ TemplateType GatherCmp(
 
 Значение из четырех компонентов, тип которого совпадает с типом шаблона.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Примеры текстур можно использовать для интерполяции билинейной.
 

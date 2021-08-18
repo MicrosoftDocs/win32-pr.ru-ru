@@ -4,12 +4,12 @@ ms.assetid: 134dc14e-6034-4ec2-8a25-8493b7f3d84a
 title: System. Аппусермодел. Тоастактиваторклсид
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9029cca50f7187bcd52db47757ea9e2b26f02e80
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1c036721f0badf399fac1eb9c906692f16e1d509461859547eac9145c71bd765
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155946"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118055877"
 ---
 # <a name="systemappusermodeltoastactivatorclsid"></a>System. Аппусермодел. Тоастактиваторклсид
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = false
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

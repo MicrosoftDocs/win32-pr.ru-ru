@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eedcd7c7390e01849371eee2cbb24ffa2593900d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fa0425289b7ffd686f0d908f9789a2c24606978f37e05dfada5b937b8ce05b21
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117789618"
 ---
 # <a name="ras_ppp_ipcp_result-structure"></a>\_ \_ Результирующая структура PPP удаленного доступа IPCP \_
 
-\[**\_ \_ \_ Результирующая структура RAS PPP РРР** не поддерживается в Windows Vista.\]
+\[**\_ \_ \_ результирующая структура RAS PPP ррр** не поддерживается в Windows Vista.\]
 
 **\_ \_ \_ Результирующая структура RAS PPP РРР** используется для передачи результатов операции проекции протокола IP PPP для порта.
 
@@ -67,7 +67,7 @@ typedef struct _RAS_PPP_IPCP_RESULT {
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                 |
 | Окончание поддержки клиента<br/>    | Windows XP<br/>                                                                |
 | Поддержка конца сервера<br/>    | Windows Server 2003<br/>                                                       |
-| Header<br/>                   | <dl> <dt>Рассапи. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Рассапи. h</dt> </dl> |
 
 
 

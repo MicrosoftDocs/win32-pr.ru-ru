@@ -4,16 +4,16 @@ ms.assetid: dc607f09-4cca-4ef0-8b86-dbc5e6edcfdd
 title: 'Метод Итаттрибутелист:: get_Count (Сдпблб. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 634996e8d920005f5da4c40b6cfca3f5cb632363
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 83033546b75e7dda9da26fa910404e2739f40d651e0be79338b49fb5c98b9415
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117762450"
 ---
 # <a name="itattributelistget_count-method"></a>Метод Итаттрибутелист:: Get \_ Count
 
-\[ В Windows Vista, Windows Server 2008 и последующих версиях операционной системы нельзя использовать встречные средства и элементы управления Конференц-телефонией и интерфейсы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[встречи и элементы управления встречными IP-телефонными соединениями недоступны для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Метод **получения \_ подсчета** возвращает количество атрибутов.
 

@@ -1,22 +1,22 @@
 ---
-title: Text (Windows Media Player SDK)
+title: текст (проигрыватель Windows Media SDK)
 description: Текст
 ms.assetid: 8c10cefb-d0d0-4214-8712-d171a76de95d
 keywords:
-- Обложки Windows Media Player для мобильных устройств, текст
+- проигрыватель Windows Media Обложки для мобильных устройств, текст
 - обложки, текст
 - Справочник по обложек, тексту
 - текст в обложках, сведения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c801d93698bc7a17eea34df71514dd88b485f0d9
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 55027415222516e72df61afab01a14cceb503528467bf329264014c94bf31ed7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103891365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118118102"
 ---
-# <a name="text-windows-media-player-sdk"></a>Text (Windows Media Player SDK)
+# <a name="text-windows-media-player-sdk"></a>текст (проигрыватель Windows Media SDK)
 
 Может потребоваться использовать одно или несколько текстовых полей в обложке. Каждое используемое текстовое поле должно быть определено в файле определения обложки. Если в этом разделе не определено текстовое поле для вывода, Обложка не сможет ее использовать.
 
@@ -61,7 +61,7 @@ ms.locfileid: "103891365"
 
 Пример текстового кода см. в [разделе Образец текста](sample-text-section.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

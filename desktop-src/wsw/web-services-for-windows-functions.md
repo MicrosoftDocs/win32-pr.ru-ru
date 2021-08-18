@@ -1,21 +1,21 @@
 ---
-title: Функции веб-служб Windows
-description: Функции веб-служб Windows поддерживают модель программирования, основанную на методах API веб-служб Windows.
+title: Windows Функции веб-служб
+description: функции Windows веб-служб поддерживают модель программирования на основе методов API Windows веб-служб.
 ms.assetid: 7eb62c55-d01e-43aa-aeb7-2940bf505b66
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38a49f6cca4ea6a4ac1bcfdc8ad4a5de4cbb10aa
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ee4daf5f1442f0badba0a9d6e222c9c986063e4f9cac0a26485f02e08ada1006
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118192414"
 ---
-# <a name="windows-web-services-functions"></a>Функции веб-служб Windows
+# <a name="windows-web-services-functions"></a>Windows Функции веб-служб
 
-Функции веб-служб Windows поддерживают модель программирования, основанную на методах API веб-служб Windows. Среда выполнения [узла службы](service-host.md) уровня API [модели службы](service-model-layer-overview.md) предоставляет модель программирования на стороне сервера. Приложение на стороне сервера открывает, закрывает и освобождает ресурс узла службы по мере необходимости для обработки клиентских запросов. Прокси-сервер службы предоставляет модель программирования API на стороне клиента. Клиентские приложения могут отправлять и получать сообщения через канал через прокси службы в качестве вызовов методов.
+функции Windows веб-служб поддерживают модель программирования на основе методов API Windows веб-служб. Среда выполнения [узла службы](service-host.md) уровня API [модели службы](service-model-layer-overview.md) предоставляет модель программирования на стороне сервера. Приложение на стороне сервера открывает, закрывает и освобождает ресурс узла службы по мере необходимости для обработки клиентских запросов. Прокси-сервер службы предоставляет модель программирования API на стороне клиента. Клиентские приложения могут отправлять и получать сообщения через канал через прокси службы в качестве вызовов методов.
 
-API веб-служб Windows включает следующие функции.
+API Windows веб-служб включает следующие функции:
 
 -   [**всабандонкалл**](/windows/desktop/api/WebServices/nf-webservices-wsabandoncall)
 -   [**всабандонмессаже**](/windows/desktop/api/WebServices/nf-webservices-wsabandonmessage)
@@ -213,9 +213,9 @@ API веб-служб Windows включает следующие функции
 -   [**всвритексмлнсаттрибуте**](/windows/desktop/api/WebServices/nf-webservices-wswritexmlnsattribute)
 -   [**всксмлстринжекуалс**](/windows/desktop/api/WebServices/nf-webservices-wsxmlstringequals)
 
- 
+ 
 
- 
+ 
 
 
 

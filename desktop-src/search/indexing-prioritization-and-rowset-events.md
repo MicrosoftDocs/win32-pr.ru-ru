@@ -1,19 +1,19 @@
 ---
-description: Описание появления определения приоритетов индексирования и событий набора строк для Windows 7.
+description: описание появления определения приоритетов индексирования и событий набора строк для Windows 7.
 ms.assetid: 6cdfb7d3-f849-432c-960f-912e5024c583
-title: Определение приоритетов индексирования и событий набора строк в Windows 7
+title: определение приоритетов индексирования и событий набора строк в Windows 7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6610500a3c2fcd359f346e5239507fb15ad896d
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 92491300127c60ebdf2a265583fca77e77a09907b7f42b471f6d3d047a7f6aa4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105674523"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117680505"
 ---
-# <a name="indexing-prioritization-and-rowset-events-in-windows-7"></a>Определение приоритетов индексирования и событий набора строк в Windows 7
+# <a name="indexing-prioritization-and-rowset-events-in-windows-7"></a>определение приоритетов индексирования и событий набора строк в Windows 7
 
-В этом разделе описаны общие сведения о приоритетах индексирования и событиях набора строк для Windows 7.
+в этом разделе описаны общие сведения о приоритетах индексирования и событиях наборов строк для Windows 7.
 
 Этот раздел организован следующим образом:
 
@@ -21,11 +21,11 @@ ms.locfileid: "105674523"
     -   [Примеры Ировсетприоризатион](#irowsetpriorization-examples)
     -   [События Ировсетприоритизатион](#indexing-prioritization-and-rowset-events-in-windows-7)
 -   [Дополнительные ресурсы](#additional-resources)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="indexing-prioritization-and-rowset-events"></a>Определение приоритетов индексирования и события набора строк
 
-В Windows 7 и более поздних версиях имеется стек приоритетов, в котором контекст любого конкретного запроса, клиент может запросить, чтобы области, используемые в этом запросе, были назначены по приоритету выше, чем обычные элементы.
+в Windows 7 и более поздних версиях имеется стек приоритетов, в котором контекст любого конкретного запроса, клиент может запросить, чтобы области, используемые в этом запросе, были назначены по приоритету выше, чем обычные элементы.
 
 Этот стек приоритетов имеет следующие характеристики.
 
@@ -39,7 +39,7 @@ ms.locfileid: "105674523"
 
 В стеке приоритетов задается общий приоритет элементов, обрабатываемых в индексаторе следующим образом:
 
--   Уведомления с высоким приоритетом не обрабатываются и обычно отправляются только для небольшого числа элементов. Например, проводник Windows использует этот приоритет для малых операций с подсистемой копирования.
+-   Уведомления с высоким приоритетом не обрабатываются и обычно отправляются только для небольшого числа элементов. например, Windows Explorer использует этот приоритет для малых операций с подсистемой копирования.
 -   Стек приоритетов находится на вершине стека, имеет откладывание и является последним запрошенным запросом приоритета.
 -   Второй запрос в стеке.
 -   Третий запрос в стеке.
@@ -137,17 +137,17 @@ interface IRowsetPrioritization : IUnknown
     -   [**РОВСЕТЕВЕНТ \_ ITEMSTATE**](/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate)
     -   [**\_тип ровсетевент**](/windows/win32/api/searchapi/ne-searchapi-rowsetevent_type)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Поиск Windows 7](./-search-3x-wds-overview.md)
+[поиск Windows 7](./-search-3x-wds-overview.md)
 </dt> <dt>
 
-[Новый для поиска Windows 7](new-for-windows-7-search.md)
+[новые сведения для поиска Windows 7](new-for-windows-7-search.md)
 </dt> <dt>
 
-[Библиотеки оболочки Windows в Windows 7](-search-win7-development-scenarios.md)
+[Windows библиотеки оболочки в Windows 7](-search-win7-development-scenarios.md)
 </dt> </dl>
 
  

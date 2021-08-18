@@ -3,7 +3,7 @@ title: EFFECTs. Еффекткангофуллскрин
 description: Атрибут Еффекткангофуллскрин извлекает значение, указывающее, может ли текущая визуализация отображаться в полноэкранном режиме.
 ms.assetid: 48f042f4-f440-4ea1-8985-1d7dd52706ca
 keywords:
-- Effect. Еффекткангофуллскрин Windows Media Player
+- effects. еффекткангофуллскрин проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0792d4cce994f4698c71252fcaaba4ebab4a62ab
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ae561002c6be13d33805d5e459357e26e0f64721cb5cec2b32def4c143feaf46
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694705"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117749266"
 ---
 # <a name="effectseffectcangofullscreen"></a>EFFECTs. Еффекткангофуллскрин
 
@@ -35,7 +35,7 @@ ms.locfileid: "105694705"
 
 | Значение | Описание                                    |
 |-------|------------------------------------------------|
-| true  | Визуализация может отображаться в полноэкранном режиме.    |
+| Да  | Визуализация может отображаться в полноэкранном режиме.    |
 | false | Визуализация не может быть отображена в полноэкранном режиме. |
 
 
@@ -48,7 +48,7 @@ ms.locfileid: "105694705"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
 
 
 

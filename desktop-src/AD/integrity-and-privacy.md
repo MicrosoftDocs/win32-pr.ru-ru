@@ -7,12 +7,12 @@ keywords:
 - Целостность и конфиденциальность AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88ed167c3796aec2b0717b1207ff56565ec94afa
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: cc7c287956fcebc250d5324a15f88fb6a47e087fca40f68f793dd695b47e6719
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103987325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118187108"
 ---
 # <a name="integrity-and-privacy"></a>Целостность и конфиденциальность
 
@@ -22,8 +22,8 @@ ms.locfileid: "103987325"
 
 Клиенты RPC могут указать уровень целостности и конфиденциальности при вызове функции [**рпкбиндингсетаусинфоекс**](/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa) для установки данных проверки подлинности для привязки RPC. Используйте **\_ AUTHN на \_ \_ уровне \_ PKT \_ RPC c** для подписывания и **\_ \_ \_ \_ \_ обеспечения конфиденциальности RPC c AUTHN PKT** для шифрования. Дополнительные сведения см. [в статье взаимная проверка подлинности в приложениях RPC](mutual-authentication-in-rpc-applications.md).
 
-Службы, использующие пакет SSPI для взаимной проверки подлинности, могут запрашивать пакет, чтобы определить, поддерживает ли он функции [**макесигнатуре**](/windows/desktop/api/sspi/nf-sspi-makesignature), [**VerifySignature**](/windows/desktop/api/sspi/nf-sspi-verifysignature), [**енкриптмессаже**](../SecAuthN/encryptmessage--general.md)и [**декриптмессаже**](../SecAuthN/decryptmessage--general.md) для подписывания и шифрования сообщений. Дополнительные сведения и пример кода см. в разделе [обеспечение целостности связи во время обмена сообщениями](/windows/desktop/SecAuthN/ensuring-communication-integrity-during-message-exchange).
+Службы, использующие пакет SSPI для взаимной проверки подлинности, могут запрашивать пакет, чтобы определить, поддерживает ли он функции [**макесигнатуре**](/windows/desktop/api/sspi/nf-sspi-makesignature), [**VerifySignature**](/windows/desktop/api/sspi/nf-sspi-verifysignature), [**енкриптмессаже**](../SecAuthN/encryptmessage--general.md)и [**декриптмессаже**](../SecAuthN/decryptmessage--general.md) для подписывания и шифрования сообщений. Дополнительные сведения и пример кода см. в разделе [обеспечение целостности связи во время Exchange сообщений](/windows/desktop/SecAuthN/ensuring-communication-integrity-during-message-exchange).
 
- 
+ 
 
- 
+ 

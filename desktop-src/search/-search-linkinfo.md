@@ -12,16 +12,16 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: de74f7aefb61f12bf85a457e4478aa76f2156410
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 97c106a5a819ac1068501c77555f3eae238c935e2262894c6c250dfc6782188f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117863947"
 ---
 # <a name="linkinfo-structure"></a>Структура ЛИНКИНФО
 
-\[**Линкинфо** и [**иитемпревиеверекст**](-search-iitempreviewerext.md) поддерживаются только в Windows XP и Windows Server 2003 и больше не должны использоваться.\]
+\[**линкинфо** и [**иитемпревиеверекст**](-search-iitempreviewerext.md) поддерживаются только в Windows XP и Windows Server 2003 и больше не должны использоваться.\]
 
 Хранит сведения о типах ссылок и используется интерфейсом [**иитемпревиеверекст**](-search-iitempreviewerext.md) .
 
@@ -135,9 +135,9 @@ typedef struct _LINKINFO {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Для предварительного просмотра вложений с помощью обработчика протокола стороннего производителя на компьютерах под управлением Windows XP или Windows Server 2003 может потребоваться использовать структуру **линкинфо** и следующие API: методы [**Иитемпревиеверекст:: жетлинкедконтент**](-search-iitempreviewerext-getlinkedcontent.md) и [**иитемпревиеверекст:: жетрелатедпарт**](-search-iitempreviewerext-getrelatedpart.md) и [**перечисление**](-search-linktype.md) типов ссылок.
+для предварительного просмотра вложений с помощью обработчика протоколов стороннего производителя на компьютерах под управлением Windows XP или Windows Server 2003 может потребоваться использовать структуру **линкинфо** и следующие api: методы [**иитемпревиеверекст:: жетлинкедконтент**](-search-iitempreviewerext-getlinkedcontent.md) и [**иитемпревиеверекст:: жетрелатедпарт**](-search-iitempreviewerext-getrelatedpart.md) и [**перечисление**](-search-linktype.md) типов ссылок.
 
 ## <a name="requirements"></a>Требования
 
@@ -145,9 +145,9 @@ typedef struct _LINKINFO {
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для настольных приложений Windows XP с пакетом обновления 2 \[\]<br/> |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/> |
-| Распространяемые компоненты<br/>          | Поиск на рабочем столе Windows (WDS) 3,0<br/>          |
+| Минимальная версия клиента<br/> | Windows XP с пакетом обновления 2 (SP2) \[ только классические приложения\]<br/> |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/> |
+| Распространяемые компоненты<br/>          | Windows Поиск на рабочем столе (WDS) 3,0<br/>          |
 
 
 

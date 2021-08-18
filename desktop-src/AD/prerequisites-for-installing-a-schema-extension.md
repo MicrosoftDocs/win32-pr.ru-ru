@@ -5,12 +5,12 @@ ms.assetid: f7795eac-2b95-4b6c-a2f5-8728316059ab
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 275f468df54b9ced3dcca0648e4cc3602ab71422
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 78af50626d452c8e26cbf1e7d33addfcea4f854cd2b40b0860bb98c783044748
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104336460"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118185306"
 ---
 # <a name="prerequisites-for-installing-a-schema-extension"></a>Необходимые условия для установки расширения схемы
 
@@ -21,9 +21,9 @@ ms.locfileid: "104336460"
 -   Хозяин схемы должен быть доступен для записи; то есть блокировка безопасности в реестре должна быть удалена. Дополнительные сведения см. в разделе [Включение изменений схемы в хозяине схемы](enabling-schema-changes-at-the-schema-master.md).
 -   Дополнительные сведения о том, как проверить возможность изменения хозяина схемы и изменить его параметры, см. в разделе "XADM: не удается обновить схему на основе владельца схемы" статьи Справка и поддержка в базе знаний по адресу [https://support.microsoft.com/kb/261231](https://support.microsoft.com/kb/261231) .
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,19 +1,19 @@
 ---
-description: Порождено как ИСТИНное всеми дочерними элементами контейнера (например, электронной почтой или сжатым файлом с расширением ZIP), который создает System. Search. Исклоседдиректори как TRUE. Это гарантирует, что дочерние элементы будут включены в индекс поиска.
+description: Порождено значением TRUE всеми дочерними элементами контейнера (например, электронной почтой или сжатым файлом с расширением .zip), который выдает значение System. Search. Исклоседдиректори как TRUE. Это гарантирует, что дочерние элементы будут включены в индекс поиска.
 ms.assetid: 6da60e89-6956-41f6-8624-063c4d46464d
 title: System. Search. Исфулликонтаинед
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d1245f29a2940146a4e5d8f0a392210173be75e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ce7f325be26abdb81dcb51da7018f6da786e6ec5f3a31111e4ae3823acf8c78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104546759"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117864993"
 ---
 # <a name="systemsearchisfullycontained"></a>System. Search. Исфулликонтаинед
 
-Порождено как **истинное** всеми дочерними элементами контейнера (например, электронной почтой или сжатым файлом с расширением ZIP), который создает [System. Search. исклоседдиректори](./props-system-search-iscloseddirectory.md) как **true**. Это гарантирует, что дочерние элементы будут включены в индекс поиска.
+Порождено значением **true** всеми дочерними элементами контейнера (например, электронной почтой или сжатым файлом с расширением .zip), который выдает значение [System. Search. исклоседдиректори](./props-system-search-iscloseddirectory.md) как **true**. Это гарантирует, что дочерние элементы будут включены в индекс поиска.
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10, версия 1703, Windows 10, версия 1607, Windows 10, версия 1511, Windows 10, версия 1507, Windows 8.1, Windows 8, Windows 7, Windows Vista
 
@@ -30,13 +30,13 @@ propertyDescription
       type = Boolean
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
 Свойство [System. Search. исклоседдиректори](./props-system-search-iscloseddirectory.md) помогает оптимизировать производительность индексатора, позволяя индексатору пропустить перечисление дочерних элементов контейнера. Тем не менее эти дочерние элементы помечаются индексатором как не посещенный, поэтому они будут удалены из индекса. При выдаче [System. Search. исфулликонтаинед]() как **true** элемент не удаляется из индекса, несмотря на то, что он не был посещен.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

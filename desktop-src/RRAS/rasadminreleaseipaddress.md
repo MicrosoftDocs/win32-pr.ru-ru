@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d58c162ebc6d340b9bd913407bc00aac87e208e4
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 102c9af7a8e38ccbbb4a7e67b2734588857ddca93da862be211fd1223133f80d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103793512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117788866"
 ---
 # <a name="rasadminreleaseipaddress-callback-function"></a>Функция обратного вызова Расадминрелеасеипаддресс
 
-\[Функция **расадминрелеасеипаддресс** доступна для использования в Windows NT 4,0 и недоступна в последующих версиях. Вместо этого используйте [**мпрадминрелеасеипаддресс**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminreleaseipaddress).\]
+\[функция **расадминрелеасеипаддресс** доступна для использования в Windows NT 4,0 и недоступна в последующих версиях. Вместо этого используйте [**мпрадминрелеасеипаддресс**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminreleaseipaddress).\]
 
 Функция **расадминрелеасеипаддресс** — это определяемая приложением функция, экспортируемая сторонней библиотекой DLL администрирования сервера удаленного доступа. Служба RAS вызывает эту функцию, чтобы уведомить библиотеку DLL о том, что удаленный клиент был отключен и что IP-адрес должен быть освобожден.
 
@@ -31,9 +31,9 @@ ms.locfileid: "103793512"
 
 ```C++
 void CALLBACK RasAdminReleaseIpAddress(
-  _In_ WCHAR  *lpszUserName,
-  _In_ WCHAR  *lpszPortName,
-  _In_ IPADDR *pipAddress
+  _In_ WCHAR  *lpszUserName,
+  _In_ WCHAR  *lpszPortName,
+  _In_ IPADDR *pipAddress
 );
 ```
 
@@ -68,7 +68,7 @@ void CALLBACK RasAdminReleaseIpAddress(
 
 Расширенные сведения об ошибке для этой функции отсутствуют. не вызывайте [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Сервер RAS вызывает функцию **расадминрелеасеипаддресс** , только если приложение вернуло **значение true** в параметре *Бнотифирелеасе* во время предыдущего вызова [**Расадминжетипаддрессфорусер**](rasadmingetipaddressforuser.md) для пользователя, указанного параметром *лпсзусернаме* .
 
@@ -76,10 +76,10 @@ void CALLBACK RasAdminReleaseIpAddress(
 
 ```
 HKEY_LOCAL_MACHINE
-   SOFTWARE
-      Microsoft
-         RAS
-            AdminDll
+   SOFTWARE
+      Microsoft
+         RAS
+            AdminDll
 ```
 
 Чтобы зарегистрировать библиотеку DLL, задайте в этом разделе следующие значения.
@@ -93,22 +93,22 @@ HKEY_LOCAL_MACHINE
 
 
 
- 
+ 
 
 Например, запись реестра для библиотеки DLL администрирования RAS из вымышленной компании с названием «прочисление» может быть:
 
 ```
 HKEY_LOCAL_MACHINE
-   SOFTWARE
-      Microsoft
-         RAS
-            AdminDll
+   SOFTWARE
+      Microsoft
+         RAS
+            AdminDll
 ```
 
 *DisplayName*: **reg \_ SZ** : в *формате DLL-* библиотеки администрирования RAS: **reg \_ SZ** : C: \\ NT \\ system32 \\ntwkadm.dll
 
 Программа установки библиотеки DLL администрирования RAS должна также предоставлять функции удаления и удаления. Если пользователь удаляет библиотеку DLL, программа установки должна удалить записи реестра библиотеки DLL.
 
- 
+ 
 
- 
+ 

@@ -50,7 +50,7 @@ HRESULT put_RemoteApplicationProgram(
 
 Путь и имя файла удаленного приложения RemoteApp.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

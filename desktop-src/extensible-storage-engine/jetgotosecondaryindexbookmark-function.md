@@ -18,23 +18,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 893833fd1770fe3d972033a4d10f9047b0f61dfc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e720286c3e7308078d5d5ec91aa27edc95b725830824473e7b5858f2de5bc90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118072482"
 ---
 # <a name="jetgotosecondaryindexbookmark-function"></a>Функция Жетготосекондариндексбукмарк
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jetgotosecondaryindexbookmark-function"></a>Функция Жетготосекондариндексбукмарк
 
 Функция **жетготосекондариндексбукмарк** устанавливает курсор на запись индекса, связанную с закладкой вторичного индекса. Закладку вторичного индекса необходимо использовать с тем же индексом для той же таблицы, из которой она была первоначально извлечена. Закладку вторичного индекса для записи индекса можно получить с помощью **жетготосекондариндексбукмарк**.
 
-**Windows XP:**  **Жетготосекондариндексбукмарк** появился в Windows XP.
+**Windows xp:****жетготосекондариндексбукмарк** появился в Windows XP.  
 
 ```cpp
     JET_ERR JET_API JetGotoSecondaryIndexBookmark(
@@ -100,7 +100,7 @@ _**Применимо к:** Windows | Windows Server_
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. Дополнительные сведения о возможных ошибках ESE см. в разделе [ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -125,7 +125,7 @@ _**Применимо к:** Windows | Windows Server_
 <tr class="odd">
 <td><p>JET_errInstanceUnavailable</p></td>
 <td><p>Операция не может быть завершена, так как в экземпляре, связанном с сеансом, произошла неустранимая ошибка, которая требует, чтобы доступ ко всем данным был отозван для защиты целостности этих данных.</p>
-<p><strong>Windows XP:</strong>  Это возвращаемое значение введено в Windows XP.</p></td>
+<p><strong>Windows XP:</strong>  это возвращаемое значение вводится в Windows XP.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errInvalidBookmark</p></td>
@@ -154,7 +154,7 @@ _**Применимо к:** Windows | Windows Server_
 <tr class="odd">
 <td><p>JET_errSessionSharingViolation</p></td>
 <td><p>Один и тот же сеанс нельзя использовать одновременно для нескольких потоков.</p>
-<p><strong>Windows XP:</strong>  Это возвращаемое значение введено в Windows XP.</p></td>
+<p><strong>Windows XP:</strong>  это возвращаемое значение вводится в Windows XP.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errTermInProgress</p></td>
@@ -180,11 +180,11 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista или Windows XP.</p></td>
+<td><p>требуется Windows Vista или Windows XP.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008 или Windows Server 2003.</p></td>
+<td><p><strong>Сервер</strong></p></td>
+<td><p>требуется Windows server 2008 или Windows server 2003.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>
@@ -202,7 +202,7 @@ _**Применимо к:** Windows | Windows Server_
 </table>
 
 
-#### <a name="see-also"></a>См. также:
+#### <a name="see-also"></a>См. также
 
 [JET_ERR](./jet-err.md)  
 [JET_GRBIT](./jet-grbit.md)  

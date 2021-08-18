@@ -25,12 +25,12 @@ api_location:
 - Microsoft.Isam.Esent.Interop.dll
 - esent.interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ecabba69d87d64995179de99e5fc4e42a93d0f3e
-ms.sourcegitcommit: 63c93e0ad0b48d60b11008767196718feb475cb0
+ms.openlocfilehash: f68a6a7e2bc22a3272803d2b576ff36e81a3335a51eaa73941c5f1ca72695a26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "113691673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117889596"
 ---
 # <a name="windows7apijetconfigureprocessforcrashdump-method"></a>Windows7Api. Жетконфигурепроцессфоркрашдумп, метод
 
@@ -65,7 +65,7 @@ public static void JetConfigureProcessForCrashDump(
 
 ## <a name="see-also"></a>См. также раздел
 
-#### <a name="reference"></a>Ссылка
+#### <a name="reference"></a>Справочник
 
 [Класс Windows7Api](./windows7api-class.md)
 

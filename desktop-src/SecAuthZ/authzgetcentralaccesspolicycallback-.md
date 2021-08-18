@@ -12,12 +12,12 @@ api_name:
 api_type:
 - UserDefined
 api_location: ''
-ms.openlocfilehash: b96832fa647fde920a70ac3d6608c8ebb0048892
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5e8fd0afbd901d48386859e9b5d3557a173cfe6a23d749dc776992a4aedebed1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105651211"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117783748"
 ---
 # <a name="authzgetcentralaccesspolicycallback-callback-function"></a>Функция обратного вызова Аусзжетцентралакцессполицикаллбакк
 
@@ -89,9 +89,9 @@ BOOL CALLBACK AuthzGetCentralAccessPolicyCallback (
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                   |
-| Распространяемые компоненты<br/>          | Пакет средств администрирования Windows Server 2003 в Windows XP<br/> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                             |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                   |
+| Распространяемые компоненты<br/>          | Windows пакет средств администрирования сервера 2003 в Windows XP<br/> |
 
 
 

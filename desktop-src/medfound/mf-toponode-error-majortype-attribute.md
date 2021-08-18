@@ -4,12 +4,12 @@ ms.assetid: eb837fe6-12c9-479c-a0be-63b24093e6fd
 title: Атрибут MF_TOPONODE_ERROR_MAJORTYPE (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd68ace0cd3bec4f32536e7d0d8d29bcea60d997
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e32752f74708272c367e3f15b208ed66fb0d476baab75b8032ed028e1b9e4162
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117875157"
 ---
 # <a name="mf_toponode_error_majortype-attribute"></a>\_Атрибут MF топоноде \_ Error \_ мажортипе
 
@@ -19,7 +19,7 @@ ms.locfileid: "105711294"
 
 **GUID**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут применяется ко всем типам узлов.
 
@@ -35,9 +35,9 @@ ms.locfileid: "105711294"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                               |
-| Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                               |
+| Заголовок<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
 

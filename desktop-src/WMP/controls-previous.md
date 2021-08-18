@@ -3,9 +3,9 @@ title: Метод Controls. Previous
 description: Предыдущий метод устанавливает текущий элемент на предыдущий элемент в списке воспроизведения.
 ms.assetid: 09f83306-5e82-4384-ad28-38e406a401d8
 keywords:
-- Предыдущий метод проигрывателя Windows Media
-- Предыдущий метод проигрыватель Windows Media, класс Controls
-- Класс элементов управления проигрыватель Windows Media Player, предыдущий метод
+- предыдущий метод проигрыватель Windows Media
+- предыдущий метод проигрыватель Windows Media, класс controls
+- класс элементов управления проигрыватель Windows Media, предыдущий метод
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b8fcfacd93412f467e6ef1def5afa6305a6bc0c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f67dbc80fb731f32eefb36f2a0f66c852da3da69dbc6b7ae56c03ebafb06e07e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698761"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118119333"
 ---
 # <a name="controlsprevious-method"></a>Метод Controls. Previous
 
@@ -44,7 +44,7 @@ Controls.previous()
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если список воспроизведения находится в первой записи при вызове **предыдущего** , последняя запись списка воспроизведения станет текущей.
 
@@ -74,7 +74,7 @@ Controls.previous()
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

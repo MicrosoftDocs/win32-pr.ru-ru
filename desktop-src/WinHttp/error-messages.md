@@ -1,21 +1,21 @@
 ---
-description: Значения ошибок, описанные в этом разделе, возвращаются функцией GetLastError при сбое одной из функций служб Microsoft Windows HTTP (WinHTTP).
+description: значения ошибок, определенные в этом разделе, возвращаются функцией GetLastError при сбое одной из функций служб Microsoft Windows HTTP (WinHTTP).
 ms.assetid: c8a863cd-d36c-4ec8-ac49-0b714a5e4cc2
 title: Сообщения об ошибках (WinHTTP. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eccdc8be4b1e7c3cc7f9a03403c2f8778ddd19b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7d83fa1859f071b0fc0e651235deea51626f55b8a45cdb2a3ea8736a57317741
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103910851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117744720"
 ---
 # <a name="error-messages-winhttph"></a>Сообщения об ошибках (WinHTTP. h)
 
-Приведенные ниже значения ошибок возвращаются функцией [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) , если одна из функций служб Microsoft Windows HTTP (WinHTTP) завершается сбоем, и они также возвращаются в младших 16 битах возвращаемых ошибок [**HRESULT**](../com/structure-of-com-error-codes.md) из объекта [**WinHttpRequest**](winhttprequest.md) .
+приведенные ниже значения ошибок возвращаются функцией [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) , если одна из функций служб Microsoft Windows HTTP (WinHTTP) завершается с ошибкой, а также возвращаются в младших 16 битах [**из объекта**](../com/structure-of-com-error-codes.md) [**WinHttpRequest**](winhttprequest.md) .
 
-Значения ошибок, имена которых начинаются с "ERROR \_ WinHTTP \_ ", относятся к функциям WinHTTP. При необходимости функции WinHTTP также возвращают сообщения об ошибках Windows.
+Значения ошибок, имена которых начинаются с "ERROR \_ WinHTTP \_ ", относятся к функциям WinHTTP. функции WinHTTP также возвращают Windows сообщения об ошибках, если это уместно.
 
 <dl> <dt>
 
@@ -132,7 +132,7 @@ ms.locfileid: "103910851"
 
 Если сервер запрашивает сертификат клиента, но не требует его, приложение может дополнительно вызвать [**винхттпсетоптион**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) с параметром **\_ контекста WinHTTP параметр \_ \_ сертификата \_ клиента** . В этом случае в приложении указывается \_ \_ Контекстный макрос WinHTTP No Client Certificate \_ \_ в параметре *лпбуффер* объекта **винхттпсетоптион**. Дополнительные сведения см. в описании параметра службы **WinHTTP \_ параметр \_ \_ \_ контекста сертификата клиента** .
 
-**Windows Server 2003 с пакетом обновления SP1 и Windows XP с пакетом обновления 2 (SP2):** Эта ошибка не поддерживается.
+**Windows Server 2003 с пакетом обновления 1 и Windows XP с пакетом обновления 2 (SP2):** Эта ошибка не поддерживается.
 
 
 </dt> </dl> </dd> <dt>
@@ -144,7 +144,7 @@ ms.locfileid: "103910851"
 
 У приложения нет необходимых привилегий для доступа к закрытому ключу, связанному с сертификатом клиента.
 
-**Windows Server 2003 с пакетом обновления SP1 и Windows XP с пакетом обновления 2 (SP2):** Эта ошибка не поддерживается.
+**Windows Server 2003 с пакетом обновления 1 и Windows XP с пакетом обновления 2 (SP2):** Эта ошибка не поддерживается.
 
 
 </dt> </dl> </dd> <dt>
@@ -156,7 +156,7 @@ ms.locfileid: "103910851"
 
 Контекст для SSL-сертификата клиента не связан с закрытым ключом. Сертификат клиента мог быть импортирован на компьютер без закрытого ключа.
 
-**Windows Server 2003 с пакетом обновления SP1 и Windows XP с пакетом обновления 2 (SP2):** Эта ошибка не поддерживается.
+**Windows Server 2003 с пакетом обновления 1 и Windows XP с пакетом обновления 2 (SP2):** Эта ошибка не поддерживается.
 
 
 </dt> </dl> </dd> <dt>
@@ -184,7 +184,7 @@ ms.locfileid: "103910851"
 
 Возвращается функцией [**WinHttpReceiveResponse**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpreceiveresponse) , когда сервер запрашивает проверку подлинности клиента.
 
-**Windows Server 2003 с пакетом обновления SP1 и Windows XP с пакетом обновления 2 (SP2):** Эта ошибка не поддерживается.
+**Windows Server 2003 с пакетом обновления 1 и Windows XP с пакетом обновления 2 (SP2):** Эта ошибка не поддерживается.
 
 
 </dt> </dl> </dd> <dt>
@@ -615,7 +615,7 @@ URL-адрес является недопустимым.
 
 Истекло время ожидания запроса.
 
-Эта ошибка может быть возвращена в результате истечения времени ожидания TCP/IP, независимо от значений времени ожидания, заданных в службах HTTP Windows.
+эта ошибка может быть возвращена в результате истечения времени ожидания TCP/IP независимо от значений времени ожидания, заданных в Windows служб HTTP.
 
 
 </dt> </dl> </dd> <dt>
@@ -731,9 +731,9 @@ URL-адрес является недопустимым.
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Для Windows XP и Windows 2000 см. раздел [требования к времени выполнения](winhttp-start-page.md) на начальной странице WinHTTP.
+сведения о Windows XP и Windows 2000 см. в разделе [требования к времени выполнения](winhttp-start-page.md) на начальной странице WinHttp.
 
 ## <a name="requirements"></a>Требования
 
@@ -741,10 +741,10 @@ URL-адрес является недопустимым.
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>            |
-| Минимальная версия сервера<br/> | Windows Server 2003, Windows 2000 Server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>         |
+| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с SP3 \[ только для настольных приложений\]<br/>            |
+| Минимальная версия сервера<br/> | Windows сервер 2003, Windows 2000 server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>         |
 | Распространяемые компоненты<br/>          | WinHTTP 5,0 и Internet Explorer 5,01 или более поздней версии в Windows XP и Windows 2000.<br/> |
-| Header<br/>                   | <dl> <dt>WinHTTP. h</dt> </dl>       |
+| Заголовок<br/>                   | <dl> <dt>WinHTTP. h</dt> </dl>       |
 
 
 

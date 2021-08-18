@@ -4,12 +4,12 @@ ms.assetid: 4A525D5F-9226-4277-BDB7-174BF65FE320
 title: Событие Мекаптуреаудиосессионволумечанжед (Мфобжектс. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e5a391c55e8fcebaef0f620430b12f7cdcc67364
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78f2e83bdf03f61abac733a5e06310ff12c0797664d6a2405aed97210bf5ff42
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105719395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117878089"
 ---
 # <a name="mecaptureaudiosessionvolumechanged-event"></a>Событие Мекаптуреаудиосессионволумечанжед
 
@@ -27,7 +27,7 @@ ms.locfileid: "105719395"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это событие отправляется потоком мультимедиа источника записи звука.
 
@@ -39,9 +39,9 @@ ms.locfileid: "105719395"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                               |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Мфобжектс. h (включение Мфидл. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                               |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Мфобжектс. h (включение Мфидл. h)</dt> </dl> |
 
 
 
