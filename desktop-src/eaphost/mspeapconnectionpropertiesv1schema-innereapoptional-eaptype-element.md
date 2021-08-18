@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: be63845f389936656172b4cbb4e42de659bbf0e1
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 372163b39ea788b5c03bd25aedcc44aee172d58080fb94e3333a029a514962a4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104134567"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119404594"
 ---
 # <a name="innereapoptional-eaptype-element"></a>Иннереапоптионал (Еаптипе), элемент
 
@@ -33,7 +33,7 @@ ms.locfileid: "104134567"
 
 Элемент **иннереапоптионал** определяется элементом [**еаптипе**](mspeapconnectionpropertiesv1schema-eaptype-element.md) .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если элемент **иннереапоптионал** имеет значение true, то должен присутствовать элемент [**EAP**](baseeapconnectionpropertiesv1schema-eap-element.md) , описывающий внутренний метод и его конфигурацию. Если задано значение FALSE, PEAP выполняет гостевой доступ. Элемент **иннереапоптионал** является необязательным.
 
@@ -43,8 +43,8 @@ ms.locfileid: "104134567"
 
 | Роль | Минимальная поддерживаемая версия ОС |
 |------|------------------------------|
-| Клиент<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Сервер<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Клиент<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Сервер<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

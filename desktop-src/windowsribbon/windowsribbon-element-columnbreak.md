@@ -3,7 +3,7 @@ title: Колумнбреак, элемент
 description: Представляет вертикальный разделитель (видимый или скрытый) в пользовательских шаблонах макета Сизедефинитион.
 ms.assetid: 5979d3e6-366b-4c47-810f-90fb8039af8d
 keywords:
-- Лента Windows для элемента Колумнбреак
+- элемент колумнбреак Windows лента
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b5bff1682cdf55b44092a176abd6dc7e935220a7
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: beaf97a34a062b3461cf2101cb436fb1ba131d00e8656186fd434045bdef30bc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119393084"
 ---
 # <a name="columnbreak-element"></a>Колумнбреак, элемент
 
@@ -177,7 +177,7 @@ ms.locfileid: "111444845"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-* **Минимальная поддерживаемая система**: Windows 7
+* **минимальная поддерживаемая система**: Windows 7
 * **Может быть пустым**: Да
 
 

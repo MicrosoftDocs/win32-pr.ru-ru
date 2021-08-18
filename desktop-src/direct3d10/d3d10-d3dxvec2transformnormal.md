@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 403562ab779ebf532e1c1ebcec4ce21a2beadd7a
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 4c1e60f200a8812a25150c153852a63bcd18949162fee0eb136794afbc0fa671
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108108302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118990654"
 ---
 # <a name="d3dxvec2transformnormal-function-d3dx10mathh"></a>Функция D3DXVec2TransformNormal (D3DX10Math. h)
 
@@ -89,12 +89,12 @@ D3DXVECTOR2* D3DXVec2TransformNormal(
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX10Math. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX10Math. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3DX10. lib</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

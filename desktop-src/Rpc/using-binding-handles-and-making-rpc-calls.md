@@ -4,12 +4,12 @@ description: Распространенной ошибкой между прог
 ms.assetid: 5b452129-4060-49f9-9400-8585fb5714a4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b285fc3030b92e2616c850bf79c73e37f0341c9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1f1350e29344d09f42417a30fa3d32729d7ddd02247b17f80bccd0ae537c6c8c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103792787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010812"
 ---
 # <a name="using-binding-handles-and-making-rpc-calls"></a>Использование дескрипторов привязки и выполнение вызовов RPC
 
@@ -61,7 +61,7 @@ ms.locfileid: "103792787"
 
 Кроме того, рекомендуется использовать **\[** [строгое \_ использование \_ маркера контекста](/windows/desktop/Midl/strict-context-handle) **\]** и **\[** атрибутов [ \_ строгого \_ контекста \_](/windows/desktop/Midl/type-strict-context-handle), **\]** чтобы гарантировать, что во время выполнения RPC создается описатель контекста на одном интерфейсе, который может быть передан в качестве аргумента только методам этого интерфейса. Это предотвратит сбои сервера, происходящие при открытии и передаче дескрипторов контекста между различными интерфейсами, которые существуют в рамках одного процесса.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -71,6 +71,6 @@ ms.locfileid: "103792787"
 [Тип \_ строгого \_ \_ маркера контекста](/windows/desktop/Midl/type-strict-context-handle)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

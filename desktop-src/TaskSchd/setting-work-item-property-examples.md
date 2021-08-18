@@ -6,12 +6,12 @@ keywords:
 - Настройка свойств рабочего элемента планировщик задач
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e026ea3d2b3f6677a3d229e9289ab9b201e02b94
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e6a29ff08c4f9129b8dc9ab749cd6db5807fd0c52449e48b64d5f3b36631fef6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987725"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119402544"
 ---
 # <a name="setting-work-item-property-examples"></a>Примеры настройки свойств рабочих элементов
 
@@ -22,7 +22,7 @@ ms.locfileid: "103987725"
 > [!Note]  
 > В следующем примере кода все интерфейсы освобождаются после того, как они больше не нужны.
 
- 
+ 
 
 В следующих примерах измененный объект всегда сохраняется на диск с помощью вызова [**IPersistFile:: Save**](/windows/win32/api/objidl/nf-objidl-ipersistfile-save). (Интерфейс [**IPersistFile**](/windows/win32/api/objidl/nn-objidl-ipersistfile) является СТАНДАРТНЫМ COM-интерфейсом, наследуемым объектом Task.)
 
@@ -44,15 +44,15 @@ ms.locfileid: "103987725"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Примеры планировщик задач 1,0](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

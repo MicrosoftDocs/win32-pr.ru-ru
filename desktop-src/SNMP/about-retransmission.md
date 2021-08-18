@@ -4,12 +4,12 @@ description: WinSNMP-приложение может выполнять запр
 ms.assetid: 71150a66-74a3-4957-bc70-3dd25c3b9c71
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83a26ba632cec096300927911c2277cbcf5911e4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ade0b2d58f371de87be5da855f26686a18518454c787c6a09e9701afbb731757
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104329115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009962"
 ---
 # <a name="about-retransmission"></a>О повторной передаче
 
@@ -23,9 +23,9 @@ WinSNMP-приложение может выполнять запросы опе
 
 Приложения должны устанавливать собственные частоты опроса, и они должны управлять переменными таймера. Дополнительные сведения см. [в разделе Управление политикой](managing-the-retransmission-policy.md)повторной передачи.
 
- 
+ 
 
- 
+ 
 
 
 

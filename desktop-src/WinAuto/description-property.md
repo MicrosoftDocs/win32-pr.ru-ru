@@ -1,17 +1,17 @@
 ---
-title: Свойство Description (специальные возможности Windows)
+title: свойство Description (Windows специальные возможности)
 description: Свойство Description объекта содержит текстовое описание визуального представления объекта.
 ms.assetid: 1fe3221f-e1dd-44b2-b749-d00bee1b6b89
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34320b2959899d049d959037c0f24299780b54b0
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: c695ae4ed8968620776aa0786358c98372940749be4a1c4335cb89f84b373ba2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104488871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994234"
 ---
-# <a name="description-property-windows-accessibility-features"></a>Свойство Description (специальные возможности Windows)
+# <a name="description-property-windows-accessibility-features"></a>свойство Description (Windows специальные возможности)
 
 > [!Note]  
 > Свойство **Description** часто используется неправильно и не поддерживается службой автоматизации пользовательского интерфейса Майкрософт. Разработчики Microsoft Active Accessibility Server не должны использовать это свойство. Если для специальных возможностей и сценариев автоматизации требуются дополнительные сведения, используйте свойства, поддерживаемые элементами модели автоматизации пользовательского интерфейса и шаблонами элементов управления.
@@ -28,7 +28,7 @@ ms.locfileid: "104488871"
 
 Сервер Microsoft Active Accessibility может добавить поддержку автоматизации пользовательского интерфейса с помощью [прямой заметки](direct-annotation.md), с помощью интерфейса [**IAccessibleEx**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iaccessibleex) или путем реализации службы Microsoft Active Accessibility и модели автоматизации пользовательского интерфейса параллельно с обеими реализациями, обрабатывающими [**сообщение \_ WM GetObject**](wm-getobject.md) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

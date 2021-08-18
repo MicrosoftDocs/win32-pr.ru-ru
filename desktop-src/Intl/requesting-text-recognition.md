@@ -4,12 +4,12 @@ ms.assetid: 9db9045d-b289-4c6c-9b17-ddbc2c1d3089
 title: Запрос распознавания текста
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db2442cfa1e26185c4c8d882fe71bb178911f4d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f8efd4fe8b2f37c134480aa1b057705af8826bbf7490b1dc4d40fb5a2755b043
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147056"
 ---
 # <a name="requesting-text-recognition"></a>Запрос распознавания текста
 
@@ -127,7 +127,7 @@ void PrintAllResults(PMAPPING_PROPERTY_BAG pBag)
 В следующем примере показано использование [**маппингрекогнизетекст**](/windows/desktop/api/Elscore/nf-elscore-mappingrecognizetext) со службой обнаружения скриптов Майкрософт и вывод всех полученных результатов. Формат вывода этой службы — это массив структур [**\_ \_ диапазона данных сопоставления**](/windows/desktop/api/Elscore/ns-elscore-mapping_data_range) , каждый из которых указывает текст, написанный в том же скрипте. Общие (Зиии) символы добавляются к предыдущему диапазону или к следующему диапазону, если предыдущий диапазон не существует. Элемент **pData** каждой структуры указывает на строку в Юникоде, заканчивающуюся нулем, которая содержит стандартное имя скрипта в Юникоде для определенного диапазона.
 
 > [!Note]  
-> Начиная с Windows 7, служба обнаружения сценариев Майкрософт соответствует Юникоду 5,1.
+> начиная с Windows 7 служба обнаружения сценариев (майкрософт) соответствует стандарту Unicode 5,1.
 
  
 
@@ -609,7 +609,7 @@ void RecognizeCallback(PMAPPING_PROPERTY_BAG pBag, LPVOID data, DWORD dwDataSize
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

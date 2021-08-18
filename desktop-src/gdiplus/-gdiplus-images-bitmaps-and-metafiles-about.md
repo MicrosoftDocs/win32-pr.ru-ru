@@ -4,12 +4,12 @@ ms.assetid: ddde257c-41a6-4f6e-8d81-10d66c60085c
 title: Работа с растровыми и векторными изображениями с использованием классов Image, Bitmap и Metafile
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75c3c0e88226bc32619a8f0fc03f8c25f2963cd6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f30f52c6c72d64191bac6ddb7640f9ea0662197d93fa491c13eff5490a2803d9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120115024"
 ---
 # <a name="images-bitmaps-and-metafiles"></a>Работа с растровыми и векторными изображениями с использованием классов Image, Bitmap и Metafile
 

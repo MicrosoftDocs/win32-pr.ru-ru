@@ -4,12 +4,12 @@ ms.assetid: ef317537-3095-435d-b0f2-83cb3b385da2
 title: Настройка источника потока (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76d0c296b79d258be6eee2d683979081673d5d04
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 91bd760b23204de2c6ccd313b164ac7536c7db2d3e2da26d7e40b7d98daa60a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104537586"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044242"
 ---
 # <a name="setting-the-stream-source-direct3d-9"></a>Настройка источника потока (Direct3D 9)
 
@@ -40,7 +40,7 @@ if( SUCCEEDED( g_pd3dDevice->BeginScene() ) )
 
 Дополнительные сведения об этом коде см. в следующем учебнике: [учебник 3. использование матриц](https://msdn.microsoft.com/library/Ee418892(v=VS.85).aspx)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

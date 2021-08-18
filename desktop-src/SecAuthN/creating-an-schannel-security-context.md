@@ -4,12 +4,12 @@ ms.assetid: eb1eadb2-14b2-4265-994a-dcea4208e650
 title: Создание контекста безопасности безопасного канала Schannel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23e364e6319fbaddb50bffaf59541af9e8f43bfb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7373d2ed4f8cc385a2245e6971f8233aad052930d4995225abfda8eab0191aaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105647363"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008862"
 ---
 # <a name="creating-an-schannel-security-context"></a>Создание контекста безопасности безопасного канала Schannel
 
@@ -33,7 +33,7 @@ ms.locfileid: "105647363"
 
 Особый случай, который может изменить обработку на стороне клиента и сервера, заключается в том, что на клиент или сервер с другой стороны отправляется слишком мало или слишком много информации. В случае слишком небольшого объема информации обе функции возвращают \_ сообщение с \_ неполным указанием «е» \_ . Сведения об распознавании и обработке недостаточных или избыточных сведений см. [в разделе дополнительные буферы, возвращаемые SChannel](extra-buffers-returned-by-schannel.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

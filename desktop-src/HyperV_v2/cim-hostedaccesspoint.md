@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 0684c2855e7966a0c01d1d9f9bfa0cbd71c2397a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2079d34af64b7819f7c7dc4991a00a9a01b350ee45c54b910a35f1008d45e510
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104496911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014632"
 ---
 # <a name="cim_hostedaccesspoint-class-hyper-v-management"></a>Класс CIM_HostedAccessPoint (Управление Hyper-V)
 
@@ -43,7 +43,7 @@ class CIM_HostedAccessPoint : CIM_HostedDependency
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ хостедакцесспоинт** имеет следующие свойства.
 
@@ -87,7 +87,7 @@ SAPs, размещенные в системе.
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
+| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
 | Минимальная версия сервера<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |

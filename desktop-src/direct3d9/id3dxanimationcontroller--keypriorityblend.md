@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 31778da9b26ddd79b5f05c69c822ed62a5b5281e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 33d2b4e18fc93dff3054a98442c86a4c05467898afe09fc3bc82ccbd2f0ba456
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104354260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119279044"
 ---
 # <a name="id3dxanimationcontrollerkeypriorityblend-method"></a>Метод ID3DXAnimationController:: Кэйприоритибленд
 
@@ -85,17 +85,17 @@ D3DXEVENTHANDLE KeyPriorityBlend(
 
 Обработчик события с приоритетом события Blend. Если один или несколько входных параметров являются недопустимыми, возвращается **значение NULL** , а событие Free не доступно.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Контроллер анимации смешивается в три этапа: курсы с низким приоритетом смешиваются, сначала накладываются курсы с высоким приоритетом, а затем результаты обеих моделей смешиваются.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9anim. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9anim. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

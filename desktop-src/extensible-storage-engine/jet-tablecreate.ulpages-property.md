@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a562915574f4730e52e8bf9b4bd49c51573a5c0e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 63c62c37b35d129abd95409ff2498f4a82a189e1b5e4f99e9a04158094d751c0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103808458"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120115834"
 ---
 # <a name="jet_tablecreateulpages-property"></a>Свойство JET_TABLECREATE. Улпажес
 
@@ -64,7 +64,7 @@ public int ulPages { get; set; }
 
 Тип: [System. Int32](/dotnet/api/system.int32)  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

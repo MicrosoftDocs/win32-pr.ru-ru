@@ -1,28 +1,28 @@
 ---
 title: Настройка цветов ленты
-description: Платформа Windows Ribbon предоставляет набор свойств цвета, позволяющих приложению настраивать внешний вид различных элементов пользовательского интерфейса ленты во время выполнения.
+description: платформа Windows Ribbon предоставляет набор свойств цвета, позволяющих приложению настраивать внешний вид различных элементов пользовательского интерфейса ленты во время выполнения.
 ms.assetid: e070aaca-d350-4336-8e5d-d5d9c8167287
 keywords:
-- Лента Windows, Настройка цветов
+- Windows Лента, Настройка цветов
 - Лента, Настройка цветов
-- Настройка цветов ленты Windows
+- настройка Windows цветов ленты
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55ff6527dc67ee18df4723fc33e4b764e20127e8
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: e7ef83c40d49656c82aabfbf41c4ec5375f7f3f54f063ccf30d917e740f87408
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "103789006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119710894"
 ---
 # <a name="customizing-ribbon-colors"></a>Настройка цветов ленты
 
-Платформа Windows Ribbon предоставляет набор свойств цвета, позволяющих приложению настраивать внешний вид различных элементов пользовательского интерфейса ленты во время выполнения.
+платформа Windows Ribbon предоставляет набор свойств цвета, позволяющих приложению настраивать внешний вид различных элементов пользовательского интерфейса ленты во время выполнения.
 
 -   [Введение](#introduction)
 -   [Указание цветов ленты](#specify-ribbon-colors)
 -   [Преобразование RGB в HSB](#convert-rgb-to-hsb)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="introduction"></a>Введение
 
@@ -31,8 +31,8 @@ ms.locfileid: "103789006"
 | Цвет ленты                     | Ключ свойства платформы                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Цвет фона                 | [UI \_ PKEY \_ глобалбаккграундколор](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md)                                                                                                                                                                                                                                                                                                                                                                 |
-| Цвет выделения (только Windows 7) | [Пользовательский интерфейс \_ PKEY \_ глобалхигхлигхтколор](windowsribbon-reference-properties-uipkey-globalhighlightcolor.md)* * * *, введенный в Windows 8 * *: * * [UI \_ PKEY \_ глобалхигхлигхтколор](windowsribbon-reference-properties-uipkey-globalhighlightcolor.md) , нельзя задать независимо от [UI \_ PKEY \_ глобалбаккграундколор](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md).<br/> <br/>                                                              |
-| Цвет текста                       | [Пользовательский интерфейс \_ PKEY \_ глобалтекстколор](windowsribbon-reference-properties-uipkey-globaltextcolor.md)* * * * впервые появился в Windows 8 **:** изменения значения по умолчанию [UI \_ PKEY \_ глобалбаккграундколор](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md) в Windows 8 может потребовать корректировки [пользовательского интерфейса \_ PKEY \_ глобалтекстколор](windowsribbon-reference-properties-uipkey-globaltextcolor.md) в лентах, предназначенных для Windows 7.<br/> <br/> |
+| цвет выделения (только Windows 7) | [Пользовательский интерфейс \_ pkey \_ глобалхигхлигхтколор](windowsribbon-reference-properties-uipkey-globalhighlightcolor.md)* * * *, введенный в Windows 8 * *: * * [UI \_ PKEY \_ глобалхигхлигхтколор](windowsribbon-reference-properties-uipkey-globalhighlightcolor.md) , нельзя задать независимо от [ui \_ pkey \_ глобалбаккграундколор](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md).<br/> <br/>                                                              |
+| Цвет текста                       | [Пользовательский интерфейс \_ pkey \_ глобалтекстколор](windowsribbon-reference-properties-uipkey-globaltextcolor.md)* * * * вводится в Windows 8 **:** изменения значения по умолчанию [ui \_ pkey \_ глобалбаккграундколор](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md) в Windows 8 может потребовать корректировки [пользовательского интерфейса \_ pkey \_ глобалтекстколор](windowsribbon-reference-properties-uipkey-globaltextcolor.md) в лентах, предназначенных для Windows 7.<br/> <br/> |
 
 
 
@@ -44,7 +44,7 @@ ms.locfileid: "103789006"
 
 Чтобы указать цвет элементов пользовательского интерфейса в платформе Ribbon, приложение назначает значения HSB каждому из свойств глобального цвета. Затем эти значения применяются для всех элементов ленты, как это требуется для приложения ленты (платформа не поддерживает присваивание значений HSB отдельным элементам и элементам управления).
 
-В Windows 8 * *: * *[UI \_ PKEY \_ глобалхигхлигхтколор](windowsribbon-reference-properties-uipkey-globalhighlightcolor.md) присваивается то же значение, что и [UI \_ PKEY \_ глобалбаккграундколор](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md).
+введенное в Windows 8 * *: * *[UI \_ pkey \_ глобалхигхлигхтколор](windowsribbon-reference-properties-uipkey-globalhighlightcolor.md) имеет то же значение, что и [ui \_ pkey \_ глобалбаккграундколор](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md).
 
 В следующей таблице описаны параметры HSB платформы ленты.
 
@@ -85,7 +85,7 @@ ms.locfileid: "103789006"
 При назначении настраиваемых значений HSB для [UI \_ PKEY \_ глобалтекстколор](windowsribbon-reference-properties-uipkey-globaltextcolor.md) и [UI \_ PKEY \_ глобалбаккграундколор](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md)рекомендуется, чтобы эти значения были достаточно высокой контрастностью, чтобы обеспечить удобочитаемость. В частности, цвет текста должен быть темнее, чем самый светлый оттенок пользовательского интерфейса ленты. При необходимости платформа автоматически настраивает \_ \_ значение HSB UI PKEY глобалтекстколор, чтобы обеспечить достаточную контрастность с любым фоновым затенением или градиентом, производным от UI \_ PKEY \_ глобалбаккграундколор.
 
 > [!Note]  
-> В Windows 7 [Пользовательский интерфейс \_ PKEY \_ глобалхигхлигхтколор](windowsribbon-reference-properties-uipkey-globalhighlightcolor.md) можно задать независимо от [UI \_ PKEY \_ глобалбаккграундколор](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md).
+> в Windows 7 [пользовательский интерфейс \_ pkey \_ глобалхигхлигхтколор](windowsribbon-reference-properties-uipkey-globalhighlightcolor.md) можно задать независимо от [ui \_ pkey \_ глобалбаккграундколор](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md).
 
  
 
@@ -141,7 +141,7 @@ if (SUCCEEDED(_spFramework->QueryInterface(&spPropertyStore)))
 -   S<sub>Background</sub> = Round (255.0 S)
 -   B<sub>Background</sub> = Round (257.7 + 149,9 LN (L)), если 0,1793 <= L <= 0,9821
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

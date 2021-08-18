@@ -19,12 +19,12 @@ api_type:
 - HeaderDef
 api_location:
 - Qedit.h
-ms.openlocfilehash: d8930241be0306c637bcab36207fec1de2e489c9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 44bbeebc344edf1c6a9c5a5d287bea7cdfe87e96d9af09a65417411d6cd43820
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015772"
 ---
 # <a name="file-name-validation-flags"></a>Флаги проверки имени файла
 
@@ -52,7 +52,7 @@ ms.locfileid: "105675465"
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Кедит. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Кедит. h</dt> </dl> |
 
 
 

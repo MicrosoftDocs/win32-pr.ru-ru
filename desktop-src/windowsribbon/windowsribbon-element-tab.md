@@ -3,7 +3,7 @@ title: Элемент Tab
 description: Представляет базовую или контекстную вкладку.
 ms.assetid: 2e73a89c-4d31-4075-93c8-e43213a20791
 keywords:
-- Лента Windows для элемента вкладки
+- элемент вкладки Windows лента
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 410326961df84f6ae62d3c43bee3e651c9533066
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 64f5bffb6a81a1efd112c3f52f5d1276f893e9cfb059a5f240a6c8c73b990c3f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119441644"
 ---
 # <a name="tab-element"></a>Элемент Tab
 
@@ -57,14 +57,14 @@ ms.locfileid: "111443885"
 <tr class="odd">
 <td><strong>аппликатионмодес</strong><br/></td>
 <td>xs:string<br/></td>
-<td>Нет<br/></td>
+<td>нет<br/></td>
 <td>Допустимо, только если <a href="windowsribbon-element-menugroup.md"><strong>менуграуп</strong></a> является родительским элементом.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs: String)<br/> </dt> <dd> Строка, содержащая разделенный запятыми список целых чисел от 0 до 31.<br/> Пробелы допустимы и пропускаются.<br/> Максимальная длина: 250 символов. <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>CommandName</strong><br/></td>
 <td>xs: Поситивеинтежер или xs: String<br/></td>
-<td>Нет<br/></td>
+<td>нет<br/></td>
 <td>Связывает элемент с <a href="windowsribbon-element-command.md"><strong>командой</strong></a>.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs: Поситивеинтежер или xs: String)<br/> </dt> <dd> Строка, целочисленное значение в диапазоне от 2 до 59999 включительно или шестнадцатеричное значение между 0x2 и 0xea5f включительно. <br/> Значение должно быть уникальным в XML-документе ленты. <br/> Максимальная длина: 100 символов. <br/> </dd> </dl></td>
 </tr>
@@ -195,7 +195,7 @@ ms.locfileid: "111443885"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-- **Минимальная поддерживаемая система**: Windows 7 
+- **минимальная поддерживаемая система**: Windows 7 
 - **Может быть пустым**: нет
 
 

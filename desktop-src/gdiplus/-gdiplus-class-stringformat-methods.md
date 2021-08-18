@@ -4,12 +4,12 @@ ms.assetid: 5a24308a-b899-469b-b9e2-703f1f171e63
 title: Методы StringFormat
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 725c30024b92495e03ce35a7bf0ef3165edd55b3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2265bde07f361883e5a34cc68df32f6f117039b1c23f8919e2ead38dfeadce34
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104985220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120115244"
 ---
 # <a name="stringformat-methods"></a>Методы StringFormat
 

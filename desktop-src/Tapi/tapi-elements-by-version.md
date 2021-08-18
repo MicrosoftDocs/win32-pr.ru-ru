@@ -4,12 +4,12 @@ ms.assetid: 38fb3b72-4648-4c44-ad58-af81a5de5623
 title: Элементы интерфейса TAPI по версии
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 006b511656f0150f652c44896d7297fe20279d82
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 59fb0033dc5d6fcfb63e7b5f7790fa39b6967284d7c44013d29245532b018841
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120699"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002782"
 ---
 # <a name="tapi-elements-by-version"></a>Элементы интерфейса TAPI по версии
 

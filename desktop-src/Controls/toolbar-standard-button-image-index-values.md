@@ -43,12 +43,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 319445e5a5961023062e09a04481f0376ff3493c
-ms.sourcegitcommit: ee06501cc29132927ade9813e0888aaa4decc487
+ms.openlocfilehash: a7b582d0477600acb69447c0d82c93092f486618e93b27b3f166c1324938d4ca
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "103999800"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119387721"
 ---
 # <a name="toolbar-standard-button-image-index-values"></a>Значения индекса изображения стандартной кнопки панели инструментов
 
@@ -103,7 +103,7 @@ ms.locfileid: "103999800"
 | <span id="VIEW_DETAILS"></span><span id="view_details"></span><dl> <dt>**Просмотреть \_ сведения**</dt> </dl>                   | Просмотр сведений.<br/>                  |
 | <span id="VIEW_LARGEICONS"></span><span id="view_largeicons"></span><dl> <dt>**Просмотреть \_ ларжеиконс**</dt> </dl>          | Представление больших значков.<br/>              |
 | <span id="VIEW_LIST"></span><span id="view_list"></span><dl> <dt>**Просмотреть \_ список**</dt> </dl>                            | Представление List.<br/>                     |
-| <span id="VIEW_NETCONNECT"></span><span id="view_netconnect"></span><dl> <dt>**Просмотреть \_ нетконнект**</dt> </dl>          | Подключитесь к сетевому диску.<br/>      |
+| <span id="VIEW_NETCONNECT"></span><span id="view_netconnect"></span><dl> <dt>**Просмотреть \_ нетконнект**</dt> </dl>          | Подключение на сетевой диск.<br/>      |
 | <span id="VIEW_NETDISCONNECT"></span><span id="view_netdisconnect"></span><dl> <dt>**Просмотреть \_ нетдисконнект**</dt> </dl> | Отключение от сетевого диска.<br/> |
 | <span id="VIEW_NEWFOLDER"></span><span id="view_newfolder"></span><dl> <dt>**Просмотреть \_ NEWFOLDER**</dt> </dl>             | Новая папка.<br/>                    |
 | <span id="VIEW_PARENTFOLDER"></span><span id="view_parentfolder"></span><dl> <dt>**Просмотреть \_ парентфолдер**</dt> </dl>    | Переход к родительской папке.<br/>           |
@@ -115,7 +115,7 @@ ms.locfileid: "103999800"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эти значения используются для указания индекса изображения в стандартном списке изображений, который был загружен с сообщением [**\_ лоадимажес ТБ**](tb-loadimages.md) . Значения индекса соответствуют изображениям в стандартных точечных рисунках, используемых общими элементами управления.
 
@@ -198,13 +198,13 @@ ms.locfileid: "103999800"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Определение                  | Значение                                                                                      |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

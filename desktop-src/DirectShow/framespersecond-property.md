@@ -4,17 +4,17 @@ ms.assetid: c5d36308-1447-4636-9b3a-4a3f93d27789
 title: Фрамесперсеконд, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e00ec3281d88a2901f630c9231edbf1e76a89c23
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 96a883f031680a57711fa092f29bc9ecbd76cb1a017c03f80337959050e62cd2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105673011"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015672"
 ---
 # <a name="framespersecond-property"></a>Фрамесперсеконд, свойство
 
 > [!Note]  
-> Этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
+> этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
 
  
 
@@ -28,7 +28,7 @@ ms.locfileid: "105673011"
 
 Возвращает целочисленное значение, представляющее частоту кадров видео; 25 или 30 кадров в секунду.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство доступно только для чтения и не имеет значения по умолчанию. Видеосигналы NTSC отображаются в 30 кадров в секунду. Список PAL отображается по 25 кадров в секунду. Диск кодируется для воспроизведения на NTSC или PAL, но не может воспроизводиться одновременно.
 

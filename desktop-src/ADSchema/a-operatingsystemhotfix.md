@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c32ced3ea760eab9d97828369b51ec596d561ebd
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f0ece851b703c543740716ec042331c4ede69aa79b7dc06b4ee9fdce8c974c4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103893721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119442154"
 ---
 # <a name="operating-system-hotfix-attribute"></a>Атрибут операционной системы — исправление
 

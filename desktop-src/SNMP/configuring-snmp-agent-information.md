@@ -4,20 +4,20 @@ description: Сведения об агенте SNMP позволяют указ
 ms.assetid: 138d1480-824b-4ebb-8cbc-1f0a919a848e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3012434d5bdcdb97972fdb7e6b18ce9e3e71de8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7d364c16ee7f96f6ada3b0d89fc6e04989fa1e28f877c0bb21069cf1f88d2910
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067965"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009672"
 ---
 # <a name="configuring-snmp-agent-information"></a>Настройка сведений о агенте SNMP
 
 Сведения об агенте SNMP позволяют указать комментарии о пользователе и физическом расположении компьютера, а также указать типы служб для отчетов. Типы служб, которые могут быть включены в отчет, основаны на конфигурации компьютера.
 
- 
+ 
 
- 
+ 
 
 
 

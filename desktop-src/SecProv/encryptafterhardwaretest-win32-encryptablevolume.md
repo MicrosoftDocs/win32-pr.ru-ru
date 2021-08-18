@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: f356b9adda5e1b25fdd3d9fc39ace5cf8028da32
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f5365bd9aca023d42d9f2ab1d9de5d242497b8b21842004b2bb508f362752bd5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104540943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119004502"
 ---
 # <a name="encryptafterhardwaretest-method-of-the-win32_encryptablevolume-class"></a>Метод Енкриптафтерхардваретест \_ класса Win32 енкриптаблеволуме
 
@@ -77,7 +77,7 @@ uint32 EncryptAfterHardwareTest(
 
 Флаги, описывающие поведение шифрования.
 
-**Windows 7, Windows server 2008 R2, Windows Vista Enterprise и Windows server 2008:** Этот параметр недоступен.
+**Windows 7, Windows server 2008 R2, Windows Vista Enterprise и Windows Server 2008:** Этот параметр недоступен.
 
 Сочетание 32 бит, в котором в настоящее время определены следующие биты.
 
@@ -182,9 +182,9 @@ uint32 EncryptAfterHardwareTest(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-При использовании этого метода без второго параметра (в соответствии с определением Windows 7 и Windows Vista Enterprise) метод всегда начнет преобразование в полном режиме, чтобы обеспечить обратную совместимость. Таким образом, безопасность существующих приложений и сценариев не будет нарушена с добавлением второго необязательного параметра в Windows 8 и Windows Server 2012.
+при использовании этого метода без второго параметра (в соответствии с определением Windows 7 и Windows Vista Enterprise) метод всегда запускает преобразование в полном режиме, чтобы обеспечить обратно совместимое поведение. таким образом, безопасность существующих приложений и скриптов не будет нарушена с добавлением второго необязательного параметра в Windows 8 и Windows Server 2012.
 
 В отличие от метода [**Encrypt**](encrypt-win32-encryptablevolume.md) , этот метод выполняет следующие действия:
 
@@ -211,7 +211,7 @@ uint32 EncryptAfterHardwareTest(
 
 Шифрование начинается, если проверка оборудования выполнена. В противном случае попытайтесь устранить сбои оборудования. Запустите [**жесардваретестстатус**](gethardwareteststatus-win32-encryptablevolume.md) после перезагрузки компьютера, чтобы получить результаты теста.
 
-Файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). MOF-файлы не устанавливаются в составе Windows SDK. Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](../wmisdk/managed-object-format--mof-.md).
+файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). MOF-файлы не устанавливаются в составе Windows SDK. Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](../wmisdk/managed-object-format--mof-.md).
 
 ## <a name="requirements"></a>Требования
 
@@ -219,8 +219,8 @@ uint32 EncryptAfterHardwareTest(
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows Vista Enterprise, \[ только для настольных приложений Windows Vista Ultimate\]<br/>                       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows vista Enterprise, \[ только для настольных приложений Windows vista Ultimate\]<br/>                       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                    |
 | Пространство имен<br/>                | Корневой \\ CIMV2 \\ безопасности \\ микрософтволуминкриптион<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32 \_ енкриптаблеволуме. mof</dt> </dl> |
 

@@ -4,12 +4,12 @@ description: Пространство имен для идентификатор
 ms.assetid: eb3c855c-b36b-4675-8df4-e11c128b2b34
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44d77b0cb4c64d9645f54ec7416c45ba1a4620ec
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d10e9bfed0cfd99188e8288bac0c9c791b164fa61ea99fd4a4ec93d722fde5ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009342"
 ---
 # <a name="mib-name-tree"></a>Дерево имен MIB
 
@@ -19,9 +19,9 @@ ms.locfileid: "104068302"
 
 Идентификатор объекта в иерархии записывается в виде последовательности субидентификаторов, начиная с корня и заканчивая объектом. Подидентификаторы разделяются точкой.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: ace31e17-a638-414f-8518-9b944118047b
 title: Уведомление о событиях
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 644163c5838b703d28db628c643c5cd12c73c22e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a52c5fe2abba47adb3b1b7bdf7d5562da8e57eb26aa21fe8448871c940cf2c34
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103812881"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015432"
 ---
 # <a name="reporting-events"></a>Уведомление о событиях
 
@@ -130,7 +130,7 @@ gallons%0
 
 **RC provider. RC**
 
-Чтобы создать библиотеку DLL только для ресурсов, содержащую строковые ресурсы таблицы сообщений, используйте следующую команду (можно выполнить команду из командной строки Visual Studio):
+чтобы создать библиотеку DLL только для ресурсов, содержащую строковые ресурсы таблицы сообщений, используйте следующую команду (можно выполнить команду из Visual Studio командной строки):
 
 **Link-DLL-незапись provider. Res**
 

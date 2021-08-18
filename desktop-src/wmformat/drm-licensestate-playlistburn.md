@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 812fe11f1318eadcc37fde242187695ef5101387
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 362689f9a6946674c5102fa4c73042c08d610197d6e771c3159fbe5fc959e846
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119708974"
 ---
 # <a name="drm_licensestate_playlistburn"></a>\_Лиценсестате \_ плайлистбурн DRM
 
@@ -31,7 +31,7 @@ g \_ всзвмдрм \_ лиценсестате \_ плайлистбурн
 
 **\_ \_ двоичный тип ВМТ**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство только для чтения, которое извлекается с помощью [**ивмдрмреадер:: жетдрмпроперти**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty).
 
@@ -42,6 +42,6 @@ g \_ всзвмдрм \_ лиценсестате \_ плайлистбурн
 [**Свойства DRM**](drm-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

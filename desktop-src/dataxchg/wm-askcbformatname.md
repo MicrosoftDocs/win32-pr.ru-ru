@@ -3,7 +3,7 @@ title: Сообщение WM_ASKCBFORMATNAME (Winuser. h)
 description: Отправляется в окно просмотра владельцу буфера обмена для запроса имени \_ формата буфера обмена CF овнердисплай.
 ms.assetid: eee026ec-58db-41b3-9705-30a17eebbd70
 keywords:
-- Обмен данными с сообщениями WM_ASKCBFORMATNAME
+- WM_ASKCBFORMATNAME Exchange данных сообщений
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b14a7f2fc2ff57076d6b694061466fd60e09dce0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bfe96a2ddf4e6767c083ec2e3f4e3fc61bdde902ff93ce9a162ec7e93eb5bef7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135486"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991244"
 ---
 # <a name="wm_askcbformatname-message"></a>\_Сообщение АСККБФОРМАТНАМЕ WM
 
@@ -56,7 +56,7 @@ ms.locfileid: "104135486"
 
 Если приложение обрабатывает это сообщение, оно должно вернуть ноль.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В ответ на это сообщение владелец буфера обмена должен скопировать имя формата, отображаемого владельцем, в указанный буфер, не превышающий размер буфера, указанный параметром *wParam* .
 
@@ -70,7 +70,7 @@ ms.locfileid: "104135486"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

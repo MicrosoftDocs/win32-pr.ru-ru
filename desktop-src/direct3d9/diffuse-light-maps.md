@@ -1,17 +1,17 @@
 ---
 description: При освещении с помощью источника света для матовых поверхностей отображается рассеянный световой отражение.
 ms.assetid: a6ed351a-7889-4993-96bf-b03352a815da
-title: Рассеянные световые карты (Direct3D 9)
+title: рассеянный свет Карты (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ab6a85fb93bc1ebcc15735431c1d54be4482a1f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 758fc2b5054a30bf8df703941b3cedf0810c378a5fb459d8c5783bb295ff9abe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104494910"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044452"
 ---
-# <a name="diffuse-light-maps-direct3d-9"></a>Рассеянные световые карты (Direct3D 9)
+# <a name="diffuse-light-maps-direct3d-9"></a>рассеянный свет Карты (Direct3D 9)
 
 При освещении с помощью источника света для матовых поверхностей отображается рассеянный световой отражение. Яркость рассеянного света зависит от расстояния до источника света и угла между нормалью поверхности и вектором направленности источника света. Эффекты рассеянного света, моделируемые с помощью расчетов освещения, обеспечивают создание лишь общих эффектов.
 
@@ -45,7 +45,7 @@ d3dDevice->SetTextureStageState(1, D3DTSS_COLORARG2, D3DTA_CURRENT );
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

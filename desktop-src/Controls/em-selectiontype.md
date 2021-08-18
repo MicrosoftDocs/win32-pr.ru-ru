@@ -3,7 +3,7 @@ title: Сообщение EM_SELECTIONTYPE (RichEdit. h)
 description: Определяет тип выбора для элемента управления Rich Edit.
 ms.assetid: a4200e32-1056-47bd-be47-5fabaf99c058
 keywords:
-- Элементы управления Windows для EM_SELECTIONTYPE сообщений
+- элементы управления Windows сообщений EM_SELECTIONTYPE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d0deb62ac3bf774c72bb076f6fce9aa8c77b423f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1b79cb36759c857cea280b1c4beb5a476fa27a794f1f9985e1d259c345a9dc4b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104535069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119437844"
 ---
 # <a name="em_selectiontype-message"></a>\_Сообщение СЕЛЕКТИОНТИПЕ EM
 
@@ -62,7 +62,7 @@ ms.locfileid: "104535069"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это сообщение полезно при обработке [**\_ размера WM**](/windows/desktop/winmsg/wm-size) для родителя элемента управления неформатированного редактирования самого нижнего уровня.
 
@@ -72,9 +72,9 @@ ms.locfileid: "104535069"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 
 

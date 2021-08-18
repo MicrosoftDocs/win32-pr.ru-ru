@@ -4,12 +4,12 @@ description: Консервативная растрирование добав�
 ms.assetid: 83F223C0-9282-4149-86CF-471B88829F76
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 003cb7e31c1380943318b34f9308f6b5e72d6e51
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fd33b7c7d237fc30adb349f1c1b24ce16c2740ce93fc97445a6e3f69d0949aeb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104260981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119408574"
 ---
 # <a name="direct3d-113-conservative-rasterization"></a>Технология Direct3D 11,3 консервативная растрирование
 
@@ -18,8 +18,8 @@ ms.locfileid: "104260981"
 -   [Обзор](#overview)
 -   [Взаимодействие с конвейером](#interactions-with-the-pipeline)
 -   [Сведения о реализации](#implementation-details)
--   [Сводка по API](#api-summary)
--   [См. также](#related-topics)
+-   [Сводные данные API](#api-summary)
+-   [Связанные темы](#related-topics)
 
 ## <a name="overview"></a>Обзор
 
@@ -63,5 +63,5 @@ ms.locfileid: "104260981"
 -   [**D3D11 \_ КОНСЕРВАТИВНый \_ \_ уровень растрирования**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_conservative_rasterization_tier) : перечислимые значения для каждого уровня поддержки оборудования.
 -   [**ID3D11Device:: чеккфеатуресуппорт**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkfeaturesupport) : метод для доступа к поддерживаемым функциям.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 * [Функции Direct3D 11,3](direct3d-11-3-features.md)

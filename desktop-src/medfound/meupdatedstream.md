@@ -4,12 +4,12 @@ ms.assetid: 2d91a267-e109-45f5-886b-11b883cc5509
 title: Событие Меупдатедстреам (Мфобжектс. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e3b2e6fdc5928a08306b344c02b5eaafc37e957
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5746b619f885ab7648110cbe58b66b7897c839031202d811becd33e1c84991a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104546162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974023"
 ---
 # <a name="meupdatedstream-event"></a>Событие Меупдатедстреам
 
@@ -35,23 +35,23 @@ ms.locfileid: "104546162"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При первом вызове метода [**Start**](/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-start) , в котором поток станет активным, источник мультимедиа отправляет событие [меневстреам](menewstream.md) для потока. При последующих вызовах для **запуска** источник мультимедиа отправляет событие меупдатедстреам до тех пор, пока поток не будет выбран.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Мфобжектс. h (включение Мфидл. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Мфобжектс. h (включение Мфидл. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ description: Чтобы создать и инициализировать PDU, 
 ms.assetid: 7f02a2c6-19bc-456f-bf04-3297d19000f6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1aba7a4ca42e2a5d63169d2521410773ca018c4f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1ef0598c08c27d988825b3f0db3d8172362e9e6daf2ed4dbad049e2808b01034
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009602"
 ---
 # <a name="creating-a-pdu"></a>Создание PDU
 
@@ -17,9 +17,9 @@ ms.locfileid: "103888423"
 
 Приложение должно вызывать функцию [**снмпфрипду**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpfreepdu) для освобождения ресурсов, выделяемых функцией [**Снмпкреатепду**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcreatepdu) для новых устройств PDU.
 
- 
+ 
 
- 
+ 
 
 
 

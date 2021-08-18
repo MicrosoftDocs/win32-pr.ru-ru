@@ -4,12 +4,12 @@ ms.assetid: d141bcec-e9a8-48b8-86cf-9476a2cc6f9f
 title: Отображение рукописного ввода в виде рукописного текста
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3aca1d6a1a4700d996d65a9cfd7d62e6b27e1c71
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de038df5c1b7e43f90ea02edc166039d606fe56761c96a47508714fd94ed6530
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119709474"
 ---
 # <a name="displaying-ink-as-ink"></a>Отображение рукописного ввода в виде рукописного текста
 
@@ -22,7 +22,7 @@ ms.locfileid: "105693472"
 
  
 
-Эта функция доступна только на компьютерах под управлением Microsoft Windows XP Tablet PC Edition, Windows Vista или более поздней версии.
+эта функция доступна только на компьютерах под управлением Microsoft Windows XP Tablet PC Edition, Windows Vista или более поздней версии.
 
  
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 321b27239114fc86861c0360d507db6c8c520a9c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ca513a31eded5202639da13b8e9f2e817c9df336b227ba93d903e44068b98898
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104539095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119440194"
 ---
 # <a name="change-method-of-the-win32_service-class-mbnapih"></a>Метод Change класса Win32_Service (Мбнапи. h)
 
@@ -180,7 +180,7 @@ uint32 Change(
 *StartMode* \[ окне\]
 </dt> <dd>
 
-Режим запуска базовой службы Windows. Дополнительные сведения см. в разделе "Замечания".
+режим запуска базовой службы Windows. Дополнительные сведения см. в разделе "Замечания".
 
 <dt>
 
@@ -510,7 +510,7 @@ uint32 Change(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При запуске компьютера также запускаются все службы автозапуска. Иногда одна из этих служб может не запускаться вместе с компьютером. При сбое службы во время запуска системы компьютер принимает действия в соответствии со значением управляющего кода ошибки службы.
 
@@ -595,7 +595,7 @@ Next
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

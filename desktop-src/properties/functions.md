@@ -1,26 +1,26 @@
 ---
-description: В этом разделе описываются системные функции свойств Windows.
+description: в этом разделе описываются системные функции свойств Windows.
 ms.assetid: ce8336cd-d9aa-4b93-ab47-30edd7518dab
 title: Функции (система свойств Windows)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da2d89b03b52f09be39c22bc953d3f08fd251ae2
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 9239967f4c8c4bc13babf7281a5f72b80d843d25b03272d1a48d0568f484bad5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110549699"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971003"
 ---
 # <a name="functions-windows-property-system"></a>Функции (система свойств Windows)
 
-В этом разделе описываются системные функции свойств Windows.
+в этом разделе описываются системные функции свойств Windows.
 
 
 
 | Раздел                                                                                                | Содержимое                                                                                                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Функции PROPVARIANT и VARIANT](./functions-propvarutil.md)                                     | В этом разделе описывается набор функций преобразования системы свойств Windows и вспомогательные функции, используемые с типами [**пропвариант**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) и [**Variant**](/windows/win32/api/oaidl/ns-oaidl-variant) .                                                                                                                                                                                                          |
-| [Функции контейнера свойств](property-bag-functions.md)                                                 | В этом разделе описывается набор вспомогательных функций Windows, используемых с объектами [**ипропертибаг**](/windows/win32/api/oaidl/nn-oaidl-ipropertybag) .                                                                                                                                                                                                                                                                             |
+| [Функции PROPVARIANT и VARIANT](./functions-propvarutil.md)                                     | в этом разделе описывается набор Windowsного преобразования системы свойств и вспомогательных функций, используемых с типами [**пропвариант**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) и [**VARIANT**](/windows/win32/api/oaidl/ns-oaidl-variant) .                                                                                                                                                                                                          |
+| [Функции контейнера свойств](property-bag-functions.md)                                                 | в этом разделе описывается набор вспомогательных функций Windows, используемых с объектами [**ипропертибаг**](/windows/win32/api/oaidl/nn-oaidl-ipropertybag) .                                                                                                                                                                                                                                                                             |
 | [**Пифмгр \_ клосепропертиес**](/windows/desktop/api/Shlobj_core/nf-shlobj_core-pifmgr_closeproperties)                                            | Закрывает свойства приложения, которые были открыты с помощью [**пифмгр \_ опенпропертиес**](/windows/desktop/api/Shlobj_core/nf-shlobj_core-pifmgr_openproperties).<br/>                                                                                                                                                                                                                                                                                      |
 | [**\_Свойства пифмгр**](/windows/desktop/api/Shlobj_core/nf-shlobj_core-pifmgr_getproperties)                                                | Возвращает указанный блок данных из PIF-файла.<br/>                                                                                                                                                                                                                                                                                                                                               |
 | [**Пифмгр \_ опенпропертиес**](/windows/desktop/api/Shlobj_core/nf-shlobj_core-pifmgr_openproperties)                                              | Открывает PIF-файл, связанный с приложением Microsoft MS-DOS, и возвращает маркер свойств приложения.<br/>                                                                                                                                                                                                                                                                         |

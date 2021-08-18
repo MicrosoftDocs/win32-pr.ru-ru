@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: bda6fe36d1168045ea9f8d331ff334920ed1dd19
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 07245e97e091f607d142de57c00109d3671bd81b5f34b9062681229090ff6b50
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105656065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119439404"
 ---
 # <a name="setshareinfo-method-of-the-win32_clustershare-class"></a>Метод Сетшареинфо \_ класса Win32 клустершаре
 
@@ -63,7 +63,7 @@ uint32 SetShareInfo(
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

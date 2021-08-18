@@ -4,22 +4,22 @@ ms.assetid: 464bd562-e49f-4099-b66e-48b7caf230bb
 title: топоедит
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57b2edeefc151ca16a8a528411e98df5a0999e36
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 11aab79d94f9b0f7a99ff8d2200271c4ff80f8805322cda951d71e82323251fa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708460"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112904"
 ---
 # <a name="topoedit"></a>топоедит
 
 Топоедит — это визуальное средство для создания и тестирования топологий. С помощью Топоедит можно выполнять следующие задачи:
 
 -   Создайте топологию, добавив различные узлы топологии, такие как источник, преобразование и выходные узлы.
--   Подключите и разрешите структуру топологии.
+-   Подключение и разрешение структуры топологии.
 -   Протестируйте функциональность топологии с помощью воспроизведения.
 
-Топоедит доступен в Windows SDK, начиная с Windows SDK для Windows Server 2008.
+топоедит доступен в Windows SDK, начиная с Windows SDK для сервера Windows 2008.
 
 ## <a name="in-this-section"></a>в этом разделе
 
@@ -46,14 +46,14 @@ ms.locfileid: "105708460"
 
 | Требование | Значение |
 |--------------------------|--------------------------------------|
-| Минимальная версия пакета SDK      | Windows SDK для Windows Server 2008. |
+| Минимальная версия пакета SDK      | Windows пакет SDK для Windows Server 2008. |
 | Минимальная операционная система | Windows Vista                        |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

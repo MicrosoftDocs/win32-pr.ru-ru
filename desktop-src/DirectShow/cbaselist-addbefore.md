@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6a3c25b2dd545b3e6698404bf00f82d1086bfb81
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2b4f85536b6a9372f164f596f96758a503096dbb0a5e5ed55adab42bc406b053
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016972"
 ---
 # <a name="cbaselistaddbefore-method"></a>Кбаселист. Аддбефоре, метод
 
@@ -61,7 +61,7 @@ BOOL AddBefore(
 
 Возвращает **значение true** в случае успеха. В противном случае возвращает **значение false**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Существующие индикаторы позиционирования, включая указанные в параметре *POS* , остаются действительными. В случае сбоя метода некоторые элементы могли быть добавлены.
 
@@ -71,7 +71,7 @@ BOOL AddBefore(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Вкслист. h (включение Streams. h)</dt> </dl>                                                                                    |
+| Заголовок<br/>  | <dl> <dt>вкслист. h (включает Потоки. h)</dt> </dl>                                                                                    |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

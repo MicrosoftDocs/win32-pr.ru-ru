@@ -5,12 +5,12 @@ ms.assetid: 33bacbf0-c558-497a-a08a-95eb398fad97
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fd6f26e926958ceba5418a72849b75a66b11d2d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 58e3f73b8e7a3d7db8ac109e84c9c638845af441b58568156782710fdac0968a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105681470"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119058251"
 ---
 # <a name="writing-data-by-using-a-dvc-channel"></a>Запись данных с помощью канала DVC
 
@@ -20,9 +20,9 @@ ms.locfileid: "105681470"
 
 ![Отправка и получение пакета данных между клиентом и сервером DVC](images/writedvcchannel.png)
 
- 
+ 
 
- 
+ 
 
 
 

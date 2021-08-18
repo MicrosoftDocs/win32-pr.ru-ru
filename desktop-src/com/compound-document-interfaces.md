@@ -4,12 +4,12 @@ description: Интерфейсы составных документов
 ms.assetid: 3192ee58-55fd-43cb-b7d5-7270e91b8131
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3eecb44945ec666a38ebf59544caf2e09eb5930d
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 9e146bf26ef8d0c5c2fc189255389982a7e737a0556343cb095217c55ff8d712
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104070679"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119410514"
 ---
 # <a name="compound-document-interfaces"></a>Интерфейсы составных документов
 
@@ -36,7 +36,7 @@ ms.locfileid: "104070679"
 
 
 
-| Функция                        | Сервер OLE                                                                                                                                | Объект (вне процесса)                                                                                                                         | Объект (внутрипроцессный)                                                                                                                                                                                                                         |
+| Компонент                        | Сервер OLE                                                                                                                                | Объект (вне процесса)                                                                                                                         | Объект (внутрипроцессный)                                                                                                                                                                                                                         |
 |--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Требуемые поведения             | [**IClassFactory**](/windows/win32/api/unknwn/nn-unknwn-iclassfactory)<br/>                                                                                         | [**иолеобжект**](/windows/desktop/api/OleIdl/nn-oleidl-ioleobject)<br/> [**IDataObject**](/windows/desktop/api/ObjIdl/nn-objidl-idataobject)<br/> [**иперсистстораже**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststorage)<br/> | [**иолеобжект**](/windows/desktop/api/OleIdl/nn-oleidl-ioleobject)<br/> [**IDataObject**](/windows/desktop/api/ObjIdl/nn-objidl-idataobject)<br/> [**иперсистстораже**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststorage)<br/> [**IViewObject2**](/windows/desktop/api/OleIdl/nn-oleidl-iviewobject2)<br/> [**IOleCache2**](/windows/desktop/api/OleIdl/nn-oleidl-iolecache2)<br/> |
 | Фильтрация сообщений<br/>   | [**IMessageFilter**](/windows/desktop/api/ObjIdl/nn-objidl-imessagefilter)<br/>                                                                                       |                                                                                                                                                 |                                                                                                                                                                                                                                             |
@@ -48,7 +48,7 @@ ms.locfileid: "104070679"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -15,12 +15,12 @@ api_location:
 - Kernel32.dll
 - API-MS-Win-Core-calendar-l1-1-0.dll
 - kernel32legacy.dll
-ms.openlocfilehash: 738899c7307797f0edeade93f7e4e706919be900
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 01eb78f9045e43db3e97b252a8fdf8fe8ed7297905174efeff2f3b2bbe1a5171
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105650822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119746044"
 ---
 # <a name="convertsystemtimetocaldatetime-function"></a>Функция Конвертсистемтиметокалдатетиме
 
@@ -71,7 +71,7 @@ BOOL ConvertSystemTimeToCalDateTime(
 
 -   Ошибка \_ : недопустимый \_ параметр. Любое из значений параметров было недопустимым.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Самая ранняя дата, поддерживаемая этой функцией, — 1 января 1601 г.
 
@@ -83,8 +83,8 @@ BOOL ConvertSystemTimeToCalDateTime(
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>Kernel32.dll</dt> </dl> |
 
 

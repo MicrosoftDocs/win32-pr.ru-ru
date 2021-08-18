@@ -14,17 +14,17 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 963d9b6a027180ace8263f81888b57f638c5ff5e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 93ccf8c35fb618257fdf3c9014b59a0745b19091b61d5eb83ab2e92f97bb71f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012502"
 ---
 # <a name="neterrorlogwrite"></a>нетеррорлогврите
 
 Функция **нетеррорлогврите** устарела. Он включен для обеспечения совместимости с 16-разрядными версиями Windows. Другие приложения должны использовать [ведение журнала событий](/windows/desktop/EventLog/event-logging).
 
- 
+ 
 
- 
+ 

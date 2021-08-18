@@ -1,11 +1,11 @@
 ---
-title: Метод Settings. setMode
+title: метод Параметры. setMode
 description: Метод setMode устанавливает для различных режимов режим "активный" или "Неактивный".
 ms.assetid: 9ab88aeb-53f6-4798-9299-14961e373ca6
 keywords:
-- setMode метод Windows Media Player
-- setMode метод Windows Media Player, класс Settings
-- Класс параметров проигрыватель Windows Media Player, метод setMode
+- проигрыватель Windows Media метода setMode
+- проигрыватель Windows Media метода setMode, класс Параметры
+- класс Параметры проигрыватель Windows Media, метод setMode
 topic_type:
 - apiref
 api_name:
@@ -16,14 +16,14 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf5740bf5638ce34e161414ac96eaa0fc80fcdb7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f504fe429dddf1b3db191545e2f34a3605a8fc390346c8f00afe8c3d005f0277
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995324"
 ---
-# <a name="settingssetmode-method"></a>Метод Settings. setMode
+# <a name="settingssetmode-method"></a>метод Параметры. setMode
 
 Метод **setMode** устанавливает для различных режимов режим "активный" или "Неактивный".
 
@@ -74,29 +74,29 @@ Settings.setMode(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Когда активен режим Шовфраме, проигрыватель должен получить доступ к содержимому дорожки, чтобы получить кадр видео. Из-за соображений пропускной способности этот режим следует использовать с осторожностью при воспроизведении нелокального содержимого.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Для режимов цикла и случайного воспроизведения проигрыватель Windows Media версии 7,0 или более поздней. Для режимов Ауторевинд и Шовфраме, проигрыватель Windows Media 9 Series или более поздней версии.<br/> |
+| Версия<br/> | для режимов цикла и случайного перебора проигрыватель Windows Media версии 7,0 или более поздней. для режимов ауторевинд и шовфраме проигрыватель Windows Media 9 Series или более поздней версии.<br/> |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl>                                                                            |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[**Объект параметров**](settings-object.md)
+[**Параметры Объектами**](settings-object.md)
 </dt> <dt>
 
-[**Settings. Мода**](settings-getmode.md)
+[**Параметры. мода**](settings-getmode.md)
 </dt> </dl>
 
  

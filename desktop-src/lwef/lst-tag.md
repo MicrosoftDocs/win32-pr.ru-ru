@@ -4,16 +4,16 @@ description: Тег LST
 ms.assetid: 82246675-9aa1-4603-a8f7-a5fd7b3f6be2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ecf13da7bf0267941939ec22c12706ed8c75c27e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ad70173ef3919ae2291204745f727961165a83f4f0fad0ad310003b997a5565e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104532132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114594"
 ---
 # <a name="lst-tag"></a>Тег LST
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 <dl> <dt>
 
@@ -31,13 +31,13 @@ ms.locfileid: "104532132"
 
 </dd> </dl>
 
-### <a name="remarks"></a>Комментарии
+### <a name="remarks"></a>Remarks
 
 Этот тег позволяет символу повторять последнюю произнесенную инструкцию. Этот тег должен располагаться в методе [**говорите**](speak-method.md) . никакой другой текст или параметры не могут быть добавлены. При повторении речевого текста все остальные теги, включенные в исходный текст, повторяются, за исключением закладок. Всеми. WAV и. Файлы ЛВВ, содержащиеся в тексте, также повторяются.
 
- 
+ 
 
- 
+ 
 
 
 

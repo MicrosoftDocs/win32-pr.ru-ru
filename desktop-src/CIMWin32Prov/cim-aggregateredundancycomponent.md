@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 9a5e638730578bad8d64f35b29a5152898c23fd6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: dec68f7c5464774f6b9aa8ef91ec427857dd09cb73bf709c207f0e8bfb4d319c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103807685"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119322784"
 ---
 # <a name="cim_aggregateredundancycomponent-class"></a>\_Класс CIM аггрегатередунданцикомпонент
 
@@ -51,7 +51,7 @@ class CIM_AggregateRedundancyComponent : CIM_RedundancyComponent
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ аггрегатередунданцикомпонент** имеет следующие свойства.
 
@@ -89,7 +89,7 @@ class CIM_AggregateRedundancyComponent : CIM_RedundancyComponent
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **CIM \_ аггрегатередунданцикомпонент** является производным от [**CIM \_ редунданцикомпонент**](cim-redundancycomponent.md).
 

@@ -1,6 +1,6 @@
 ---
 title: атрибут Ипсервицепротокол
-description: Содержит раздел схемы служб, в котором хранится номер протокола для службы UNIX.
+description: содержит раздел схемы служб, в котором хранится номер протокола для службы UNIX.
 ms.assetid: 44ab7637-c9c0-4d7c-898c-a9de45f75ccb
 ms.tgt_platform: multiple
 keywords:
@@ -13,16 +13,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 874b08d687ac621e15ae9b2268dcabef21e4c2aa
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4951a8927671edd569f91b51449e4f0d4ff6f326da35a138681626f96852abf4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105655252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119322384"
 ---
 # <a name="ipserviceprotocol-attribute"></a>атрибут Ипсервицепротокол
 
-Содержит раздел схемы служб, в котором хранится номер протокола для службы UNIX.
+содержит раздел схемы служб, в котором хранится номер протокола для службы UNIX.
 
 
 
@@ -55,7 +55,7 @@ ms.locfileid: "105655252"
 | Идентификатор ссылки                | \-                                          |
 | MAPI-Id                | \-                                          |
 | System-Only            | Неверно                                       |
-| Является однозначным       | True                                        |
+| Является однозначным       | Верно                                        |
 | Индексируется             | Неверно                                       |
 | В глобальном каталоге      | Неверно                                       |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                |
