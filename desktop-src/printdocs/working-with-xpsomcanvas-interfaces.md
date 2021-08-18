@@ -4,12 +4,12 @@ description: В этом разделе описывается, как испо�
 ms.assetid: 368b8c47-9803-42ee-a3a8-681bf55315ad
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93a3acc8fbc85298e21d039898d4ae7d38fbb272
-ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
+ms.openlocfilehash: 97f7214a06779d997331f57a22ae29217e5cabdd635d0c3feac85bd8a3070065
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107314757"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118469273"
 ---
 # <a name="working-with-xps-om-canvas-and-visual-interfaces"></a>Работа с холстом и визуальными интерфейсами в модели XPS
 

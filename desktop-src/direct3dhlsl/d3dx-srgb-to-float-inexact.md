@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 44804ad73ab49ce4f62274c870d8487501c44361
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f9dd841e022da85d609c203f57288af62a6c99ecc9f56079982308a095285f39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104986882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118515695"
 ---
 # <a name="d3dx_srgb_to_float_inexact-function"></a>D3DX \_ sRGB \_ для \_ \_ неточной функции
 
@@ -48,7 +48,7 @@ FLOAT D3DX_SRGB_to_FLOAT_inexact(
 
 Преобразованное значение SRGB.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта функция не имеет достаточно большой точности для получения точного ответа. Альтернативная функция [**D3DX \_ sRGB \_ to \_ float**](d3dx-srgb-to-float.md) использует таблицу уточняющих запросов для точного преобразования sRGB в float.
 
@@ -58,7 +58,7 @@ FLOAT D3DX_SRGB_to_FLOAT_inexact(
 
 | Требование | Значение |
 |-------------------|--------------------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3DX \_ дксгиформатконверт. inl</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3DX \_ дксгиформатконверт. inl</dt> </dl> |
 
 
 

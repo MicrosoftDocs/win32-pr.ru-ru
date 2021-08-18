@@ -3,12 +3,12 @@ title: Уведомления о состоянии сокета WinSock
 description: Интерфейсы API уведомлений о состоянии сокетов предоставляют масштабируемый и эффективный способ получения уведомлений об изменениях состояния сокета. Сюда входят такие уведомления, как неблокирующие чтение, неблокирующие записи, условия ошибок и другие сведения.
 ms.topic: article
 ms.date: 11/18/2020
-ms.openlocfilehash: 9ad7f7afcb3dda223b4d54af293bc9a4dd019758
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: ed0bd6e37117377f91dc01cb56225b8c268cd87a0148d9ad05c2fd1a8f005f68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110559992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118558717"
 ---
 # <a name="winsock-socket-state-notifications"></a>Уведомления о состоянии сокета WinSock
 
@@ -1000,7 +1000,7 @@ Exit:
 }
 ```
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 * [процесссоккетнотификатионс](/windows/win32/api/winsock2/nf-winsock2-processsocketnotifications)
 * [SOCK_NOTIFY_REGISTRATION](/windows/win32/api/winsock2/ns-winsock2-sock_notify_registration)

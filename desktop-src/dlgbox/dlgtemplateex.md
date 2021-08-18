@@ -284,7 +284,7 @@ typedef struct {
 
 Члены **x**, **y**, **CX** и **CY** задают значения в диалоговых окнах. Эти значения можно преобразовать в единицы экрана (в пикселях) с помощью функции [**мапдиалогрект**](/windows/desktop/api/Winuser/nf-winuser-mapdialogrect) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

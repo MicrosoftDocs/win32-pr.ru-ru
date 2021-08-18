@@ -1618,7 +1618,7 @@ Windows Самонастраивающийся идентификатор уст
 
 Класс **Win32 \_ поинтингдевице** является производным от [**CIM \_ поинтингдевице**](cim-pointingdevice.md).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

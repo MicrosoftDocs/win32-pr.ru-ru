@@ -1,9 +1,9 @@
 ---
 title: Сообщение WM_DDE_TERMINATE (DDE. h)
-description: Приложение платформа динамических данных Exchange (клиент или сервер) отправляет \_ \_ сообщение об увольнении WM DDE для завершения диалога. Чтобы опубликовать это сообщение, вызовите функцию почтовых сообщений со следующими параметрами.
+description: приложение платформа динамических данных Exchange (DDE) (клиент или сервер) отправляет \_ \_ сообщение об увольнении WM DDE для завершения диалога. Чтобы опубликовать это сообщение, вызовите функцию почтовых сообщений со следующими параметрами.
 ms.assetid: 4fc162c0-ccc2-44e3-9c07-d49d7426af8b
 keywords:
-- Обмен данными с сообщениями WM_DDE_TERMINATE
+- WM_DDE_TERMINATE Exchange данных сообщений
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 105b4a7daab87b1311a58a7b5e5805bbd81e73ce
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a98d9b4bf2120cb6daa08b6088a8dd39f8a17b8e28c37a3917936a9c49230487
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117736271"
 ---
 # <a name="wm_dde_terminate-message"></a>\_Сообщение о \_ прекращении DDE в WM
 
-Приложение платформа динамических данных Exchange (клиент или сервер) отправляет сообщение об **\_ \_ увольнении WM DDE** для завершения диалога.
+приложение платформа динамических данных Exchange (DDE) (клиент или сервер) отправляет сообщение об **\_ \_ увольнении WM DDE** для завершения диалога.
 
 Чтобы опубликовать это сообщение, вызовите функцию почтовых [**сообщений**](/windows/desktop/api/winuser/nf-winuser-postmessagea) со следующими параметрами.
 
@@ -52,7 +52,7 @@ ms.locfileid: "104135647"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 ### <a name="posting"></a>Товаров
 
@@ -70,7 +70,7 @@ ms.locfileid: "104135647"
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                           |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                 |
-| Заголовок<br/>                   | <dl> <dt>DDE. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Dde. h (включает Windows. h)</dt> </dl> |
 
 
 

@@ -3,8 +3,8 @@ title: Интерфейс Ивмпкдромколлектион (VB и C) (WMP.
 description: Предоставляет способ организации и доступа к коллекции компакт-дисков или DVD-дисководов. Интерфейс Ивмпкдромколлектион предоставляет следующее свойство.
 ms.assetid: 60874603-d9c8-4ed1-a92a-bd069bd0c253
 keywords:
-- Ивмпкдромколлектион (VB и C) интерфейс проигрывателя Windows Media
-- Ивмпкдромколлектион (VB и C) интерфейс проигрывателя Windows Media, описание
+- проигрыватель Windows Media интерфейса ивмпкдромколлектион (VB и C)
+- проигрыватель Windows Media интерфейса ивмпкдромколлектион (VB и C), описание
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d3fbc9c053c186b6d542e201f7bee5d2331b649
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c935d4875307c7712036ed51304996028db6ba2a88fc1d5e54c77b7948c72252
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118119303"
 ---
 # <a name="iwmpcdromcollection-vb-and-c-interface"></a>Интерфейс Ивмпкдромколлектион (VB и C#)
 
@@ -44,7 +44,7 @@ ms.locfileid: "105689113"
 | Метод                                                                                                     | Описание                                                                              |
 |:-----------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------|
 | [**жетбидривеспеЦифиер**](wmplibiwmpcdromcollection-iwmpcdromcollection-getbydrivespecifier--vb-and-c.md) | Возвращает интерфейс **ивмпкдром** , связанный с определенной буквой диска.<br/> |
-| [**Элемент**](wmplibiwmpcdromcollection-iwmpcdromcollection-item--vb-and-c.md)                               | Возвращает интерфейс **ивмпкдром** по указанному индексу.<br/>                        |
+| [**Компонент**](wmplibiwmpcdromcollection-iwmpcdromcollection-item--vb-and-c.md)                               | Возвращает интерфейс **ивмпкдром** по указанному индексу.<br/>                        |
 
 
 
@@ -58,7 +58,7 @@ ms.locfileid: "105689113"
 
 | Свойство                                                                                  | Тип доступа          | Описание                                                              |
 |:------------------------------------------------------------------------------------------|:---------------------|:-------------------------------------------------------------------------|
-| [**count**](wmplibiwmpcdromcollection-iwmpcdromcollection-count--vb-and-c.md)<br/> | Только для чтения<br/> | Возвращает количество доступных компакт-дисков и DVD-дисководов в системе.<br/> |
+| [**расчета**](wmplibiwmpcdromcollection-iwmpcdromcollection-count--vb-and-c.md)<br/> | Только для чтения<br/> | Возвращает количество доступных компакт-дисков и DVD-дисководов в системе.<br/> |
 
 
 
@@ -82,7 +82,7 @@ ms.locfileid: "105689113"
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>WMP. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>WMP. h</dt> </dl> |
 
 
 
@@ -90,7 +90,7 @@ ms.locfileid: "105689113"
 
 <dl> <dt>
 
-[**Интерфейсы для Visual Basic .NET и C #**](interfaces-for-visual-basic--net-and-c.md)
+[**интерфейсы для Visual Basic .net и C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**Интерфейс Ивмпкдром (VB и C#)**](iwmpcdrom--vb-and-c.md)

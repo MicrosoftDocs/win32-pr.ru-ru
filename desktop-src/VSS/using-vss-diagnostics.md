@@ -1,26 +1,26 @@
 ---
-description: Всдиагвиев и Вссажент — это средства, которые можно использовать для устранения неполадок приложений VSS. Примечание. Эти средства включены в пакет средств разработки программного обеспечения Microsoft Windows (SDK) для Windows Vista и более поздних версий.
+description: Всдиагвиев и Вссажент — это средства, которые можно использовать для устранения неполадок приложений VSS. примечание. эти средства включены в пакет средств разработки программного обеспечения (SDK) для Microsoft Windows для Windows Vista и более поздних версий.
 ms.assetid: 2c1270a6-38c7-40d5-a194-0a6795557b9f
 title: Использование диагностики VSS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f3d1733c2780670507b39c1db91cb3b2f7035a2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7742bf706da0bb8fdd377960a597a61b6592b772df98982cec500434f66c7579
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118590807"
 ---
 # <a name="using-vss-diagnostics"></a>Использование диагностики VSS
 
 Всдиагвиев и Вссажент — это средства, которые можно использовать для устранения неполадок приложений VSS.
 
 > [!Note]  
-> Эти средства включены в пакет средств разработки программного обеспечения Microsoft Windows (SDK) для Windows Vista и более поздних версий. Вы можете скачать Windows SDK из [https://msdn.microsoft.com/windowsvista](https://msdn.microsoft.com/windows/default.aspx) .
+> эти средства включены в пакет средств разработки программного обеспечения (SDK) Microsoft Windows для Windows Vista и более поздних версий. вы можете скачать Windows SDK из [https://msdn.microsoft.com/windowsvista](https://msdn.microsoft.com/windows/default.aspx) .
 
  
 
-В Windows SDK установки эти средства можно найти в `%Program Files(x86)%\Windows Kits\8.1\bin\x64` (для 64-разрядной версии Windows) и `%Program Files(x86)%\Windows Kits\8.1\bin\x86` (для 32-разрядной версии Windows).
+в Windows SDK установки эти средства можно найти в `%Program Files(x86)%\Windows Kits\8.1\bin\x64` (для 64-разрядных Windows) и `%Program Files(x86)%\Windows Kits\8.1\bin\x86` (для 32-разрядной Windows).
 
 ## <a name="gathering-data"></a>Идет сбор данных
 
@@ -30,7 +30,7 @@ ms.locfileid: "105692390"
 
 1.  Чтобы собрать данные из командной строки, используйте команду Вссажент следующим образом:
 
-    **вссажент — сбор** *ксмлфиленаме * * *. XML**
+    **вссажент — сбор** *ксмлфиленаме * * * .xml**
 
 2.  Чтобы просмотреть выходной файл, см. следующий раздел Просмотр данных.
 

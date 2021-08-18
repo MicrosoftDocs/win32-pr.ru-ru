@@ -115,7 +115,7 @@ Windows Формат фотографии мультимедиа (WMP). Этот
 
 дополнительные сведения о некоторых из этих форматов см. в разделе [типы точечных рисунков (GDI+)](../gdiplus/-gdiplus-types-of-bitmaps-about.md) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

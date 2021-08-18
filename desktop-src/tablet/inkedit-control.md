@@ -4,18 +4,18 @@ ms.assetid: a1dfa254-cade-44c5-8fdd-74bb40849063
 title: Элемент управления InkEdit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf6d5441506ee791eefddba05b9b1f3ddb8a8ec4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4fa64c4452ba5d7f66cdc03a1148c02a12f3945f876d68ac240ff4473e8d50bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103910756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118451325"
 ---
 # <a name="inkedit-control"></a>Элемент управления InkEdit
 
 Элемент управления [InkEdit](inkedit-control-reference.md) обеспечивает простой способ захвата, распознавания и показа рукописных данных.
 
-Эта реализация элемента управления [InkEdit](inkedit-control-reference.md) основана на элементе управления [**RichEdit**](/windows/desktop/api/richole/nn-richole-iricheditole) . Управляемая (платформа .NET Framework) реализация [InkEdit](/previous-versions/ms835842(v=msdn.10)) основана на элементе управления [**RichTextBox**](/previous-versions/windows/) .
+Эта реализация элемента управления [InkEdit](inkedit-control-reference.md) основана на элементе управления [**RichEdit**](/windows/desktop/api/richole/nn-richole-iricheditole) . управляемая (платформа .NET Framework) реализация [InkEdit](/previous-versions/ms835842(v=msdn.10)) основана на элементе управления [**RichTextBox**](/previous-versions/windows/) .
 
 Основной целью элемента управления [InkEdit](inkedit-control-reference.md) является получение рукописного ввода, его распознавание и отображение в текстовой форме. Кроме того, он поддерживает отображение рукописного ввода в виде внедренного объекта с возможностями форматирования текста, такими как полужирный и подчеркнутый.
 

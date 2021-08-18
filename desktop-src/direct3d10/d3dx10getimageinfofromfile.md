@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 3e11c4cb52176b0a144e164501f8c70d1e3678c1
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 49a1643e97ad4b177f2bc2e18d4e11f660ceab1fa1ab5293c1ab88dc2236334c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108098340"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118540923"
 ---
 # <a name="d3dx10getimageinfofromfile-function"></a>Функция D3DX10GetImageInfoFromFile
 
@@ -95,12 +95,12 @@ HRESULT D3DX10GetImageInfoFromFile(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX10Tex. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX10Tex. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3DX10. lib</dt> </dl>  |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

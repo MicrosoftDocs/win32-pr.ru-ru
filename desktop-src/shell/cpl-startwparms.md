@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 790779c1c45acbc211fe36e28b2e55d5ae2e60da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f836f868b81daa49e87eb4efc804442bed25690ce126852891327d0eb042aaec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990958"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118460613"
 ---
 # <a name="cpl_startwparms-message"></a>\_Сообщение CPL стартвпармс
 
@@ -46,7 +46,7 @@ ms.locfileid: "103990958"
 
 Возвращает **значение true** , если сообщение было обработано, или **false** в противном случае.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 **CPL \_ СТАРТВПАРМС** похож на [**CPL \_ дблклк**](cpl-dblclk.md) , но позволяет передавать строку [**кплапплет**](/windows/win32/api/cpl/nc-cpl-applet_proc) вместо **int**. Эту строку можно использовать в качестве гибкого способа предоставления подробных инструкций по выполнению.
 
@@ -56,8 +56,8 @@ ms.locfileid: "103990958"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                             |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                             |
 | Header<br/>                   | <dl> <dt>CPL. h</dt> </dl> |
 
 

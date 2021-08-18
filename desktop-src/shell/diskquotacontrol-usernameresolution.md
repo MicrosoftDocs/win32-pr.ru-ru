@@ -56,7 +56,7 @@ DiskQuotaControl.UserNameResolution = iUserNameResolution
 
 Это свойство влияет на перечисление объектов [**дидисккуотаусер**](didiskquotauser-object.md) , а также на методы [**adduser**](diskquotacontrol-adduser.md) и [**финдусер**](diskquotacontrol-finduser.md) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

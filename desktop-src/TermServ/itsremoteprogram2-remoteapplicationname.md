@@ -50,7 +50,7 @@ HRESULT put_RemoteApplicationName(
 
 Имя RemoteApp.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

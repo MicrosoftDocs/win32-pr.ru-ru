@@ -5,8 +5,8 @@ ms.assetid: a79e292a-364b-4bf3-ae66-6a15ad51524f
 ms.tgt_platform: multiple
 keywords:
 - служба удаленного управления Windows метода SessionFlagUTF8
-- Служба удаленного управления Windows метода SessionFlagUTF8, объект WSMan
-- Объект WSMan служба удаленного управления Windows, метод SessionFlagUTF8
+- служба удаленного управления Windows метода SessionFlagUTF8, объект WSMan
+- объект WSMan служба удаленного управления Windows, метод SessionFlagUTF8
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 985763131c2f3d4227f1a24af612ea3141237832
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 44fe6cc1b5f18fa316656d2b6974bd47c8209277ed24ef2798479227f9876e30
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103803562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117741922"
 ---
 # <a name="wsmansessionflagutf8-method"></a>Метод WSMan. SessionFlagUTF8
 
@@ -64,7 +64,7 @@ WSMan.SessionFlagUTF8( _
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                 |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                           |
-| Header<br/>                   | <dl> <dt>Всмандисп. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Всмандисп. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Всмандисп. idl</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Всмандисп. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WSMAuto.dll</dt> </dl>   |
@@ -78,7 +78,7 @@ WSMan.SessionFlagUTF8( _
 [**Ведущий**](wsman.md)
 </dt> <dt>
 
-[**Session**](session.md)
+[**Сеанс**](session.md)
 </dt> </dl>
 
  

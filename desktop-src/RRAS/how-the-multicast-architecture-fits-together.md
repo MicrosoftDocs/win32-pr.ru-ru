@@ -4,12 +4,12 @@ description: В этом разделе описывается пример ко
 ms.assetid: 1fa0b343-0276-402b-8c3d-5ca114ad43cf
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0dc82178568bac01e89eb0a4d6ea9222d45e7f5a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 94f4ca79b9fdd6b2e2fd9e75dc61d780af4380ed958a491f69231f7d541f0aa0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104258659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117791327"
 ---
 # <a name="how-the-multicast-architecture-fits-together"></a>Совместное использование многоадресной архитектуры
 
@@ -54,9 +54,9 @@ ms.locfileid: "104258659"
 
 Дополнительные сведения о взаимодействии протокола многоадресной маршрутизации см. в статье [RFC 2715](routing-protocols-request-for-comments.md), правила взаимодействия для протоколов многоадресной маршрутизации.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: B9EC23C9-A311-4BD9-BBE8-908A1334A541
 title: Ожидание события, если подготовка к просмотру не требуется
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b553ef52e812c5117e5d9669ba13b47b9f4280c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 0db1aa4805aa1dde25947ed25c90d14c9f3c2f4c8693d3599f1382937ee0dbc1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105682170"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118517877"
 ---
 # <a name="waiting-on-an-event-when-rendering-is-unnecessary"></a>Ожидание события, если подготовка к просмотру не требуется
 
@@ -26,7 +26,7 @@ ms.locfileid: "105682170"
 
 Если вы хотите, чтобы приложение получало уведомления об изменениях состояния перекрытия, приложение должно зарегистрировать эти изменения. Приложение может зарегистрироваться, чтобы получать уведомления об изменениях состояния перекрытия через сообщение в окне или с помощью сигнализации о событиях. Чтобы зарегистрироваться для получения уведомлений в окне об изменениях состояния перекрытия, приложение вызывает метод [**IDXGIFactory2:: регистерокклусионстатусвиндов**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgifactory2-registerocclusionstatuswindow) . Чтобы зарегистрироваться для получения уведомлений об изменениях состояния перекрытия через сигнализацию события, приложение вызывает метод [**IDXGIFactory2:: регистерокклусионстатусевент**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgifactory2-registerocclusionstatusevent) . Оба метода возвращают указатель на значение ключа, которое приложение может использовать для отмены регистрации уведомления. Чтобы отменить регистрацию уведомления, приложение передает значение этого ключа методу [**IDXGIFactory2:: унрегистерокклусионстатус**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgifactory2-unregisterocclusionstatus) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

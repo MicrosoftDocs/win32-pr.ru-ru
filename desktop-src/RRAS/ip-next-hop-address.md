@@ -62,7 +62,7 @@ typedef struct _IP_NEXT_HOP_ADDRESS {
 
 Структура **IP \_ - \_ \_ адреса следующего прыжка** является определением структуры [**IP- \_ сети**](ip-network.md) . Typedef находится в RTM. h.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
@@ -71,7 +71,7 @@ typedef struct _IP_NEXT_HOP_ADDRESS {
 | Минимальная версия клиента<br/> | Ни одна версия не поддерживается<br/>                                                        |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                             |
 | Поддержка конца сервера<br/>    | Windows Server 2003<br/>                                                   |
-| Header<br/>                   | <dl> <dt>RTM. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>RTM. h</dt> </dl> |
 
 
 

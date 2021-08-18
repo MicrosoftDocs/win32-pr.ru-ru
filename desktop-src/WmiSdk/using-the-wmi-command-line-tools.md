@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Использование средств Command-Line инструментария WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f60465359b9223c2731364e06b712621a92fc14
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4e5a9526e0ed83de38248fce715da32cc6d878b5255bd7372d67cf297e3004e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103812376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118553254"
 ---
 # <a name="using-the-wmi-command-line-tools"></a>Использование средств Command-Line инструментария WMI
 
@@ -23,14 +23,14 @@ ms.locfileid: "103812376"
 | Раздел                                                                          | Описание                                                                                     |
 |--------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | [Запуск и остановка службы WMI](starting-and-stopping-the-wmi-service.md) | Как отключить и запустить Winmgmt.exe из командной строки.                                        |
-| [Компиляция MOF-файлов](compiling-mof-files.md)                                 | Использование компилятора MOF для размещения классов и экземпляров в службе управления Windows. |
+| [Компиляция MOF-файлов](compiling-mof-files.md)                                 | как использовать компилятор MOF для размещения классов и экземпляров в службе управления Windows. |
 | [**wmic**](wmic.md)                                                           | Служебная программа интерфейса командной строки WMI.                                                             |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

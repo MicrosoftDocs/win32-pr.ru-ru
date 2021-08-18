@@ -4,12 +4,12 @@ description: API Direct3D определяет несколько элемент
 ms.assetid: 03d9952d-2f70-4343-b0c6-b0ef94365c2a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dac06eb312d271efafa469836ec98c6194ca1f6f
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 8ee37d133426c3068253eb9364954bc2e0fcb963705da1a76dd6407a35c4620a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104340180"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118537678"
 ---
 # <a name="resource-reference-direct3d-11-graphics"></a>Ссылка на ресурс (графика Direct3D 11)
 
@@ -31,7 +31,7 @@ API Direct3D определяет несколько элементов API, к�
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

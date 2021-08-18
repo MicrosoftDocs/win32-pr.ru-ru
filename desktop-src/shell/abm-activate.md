@@ -4,12 +4,12 @@ ms.assetid: 16011302-7c2d-4c34-9953-51cceb96e4b3
 title: Сообщение ABM_ACTIVATE (Шеллапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94a44bcc33efcd3d1a9af5e7e2abca33893e9fe9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 224f04a88a1e69a1a67fc08c6018d33af2bcdbc6f34ff9fbd00d1dd76f82ce5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104143999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118461137"
 ---
 # <a name="abm_activate-message"></a>\_Сообщение о активации АБМ
 
@@ -40,7 +40,7 @@ SHAppBarMessage(ABM_ACTIVATE, pabd);
 
 Всегда возвращает **значение true**.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Это сообщение пропускается, если элемент **HWND** структуры, на который указывает *пабд* , определяет панель приложений автоскрытия. Система автоматически задает z-порядок для автоскрытия AppBar.
 
@@ -50,7 +50,7 @@ SHAppBarMessage(ABM_ACTIVATE, pabd);
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                           |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                           |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                  |
 | Заголовок<br/>                   | <dl> <dt>Шеллапи. h</dt> </dl> |
 

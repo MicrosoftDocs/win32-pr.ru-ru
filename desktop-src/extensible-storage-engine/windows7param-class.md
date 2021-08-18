@@ -24,16 +24,16 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 03ca3c42059fcd37a059a5f96b7f5ac83472c0f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24a7be76c9d5d81927a278e67829cb8225a55ac1a42c0410455e1043695c6e54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117889498"
 ---
 # <a name="windows7param-class"></a>Класс Windows7Param
 
-Системные параметры, добавленные в версию ESENT Windows 7.
+системные параметры, добавленные в версию ESENT Windows 7.
 
 ## <a name="inheritance-hierarchy"></a>Иерархия наследования
 

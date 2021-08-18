@@ -76,7 +76,7 @@ struct PRTHeader
 
 Блок данных, следующий за заголовком, — это `NumSamples * NumCoeffs * NumChannels * sizeof(float)` байты.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|

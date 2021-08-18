@@ -16,12 +16,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 04572f11afd51c3354c5adabd9950e2a3942287a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 27febd08519a06f7ad452882cf0725fed209e0306182ba336343049936795acf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118543030"
 ---
 # <a name="ibackgroundcopyjob-interface"></a>Интерфейс использованием метода ibackgroundcopyjob
 
@@ -62,7 +62,7 @@ ms.locfileid: "104071534"
 | [**сетнотифифлагс**](ibackgroundcopyjob-setnotifyflags.md)             | Указывает тип уведомления о событии для получения.<br/>                                                                                                                                                                   |
 | [**сетнотифинтерфаце**](ibackgroundcopyjob-setnotifyinterface.md)     | Указывает указатель на реализацию интерфейса [**ибаккграундкопикаллбакк**](ibackgroundcopycallback.md) (обратные вызовы). Интерфейс получает уведомления на основе заданных флагов уведомления о событиях.<br/> |
 | [**SetPriority**](ibackgroundcopyjob-setpriority.md)                   | Указывает приоритет задания относительно других заданий в очереди обмена.<br/>                                                                                                                                        |
-| [**Анализируем**](ibackgroundcopyjob-suspend.md)                           | Приостанавливает задание.<br/>                                                                                                                                                                                                        |
+| [**Приостановить**](ibackgroundcopyjob-suspend.md)                           | Приостанавливает задание.<br/>                                                                                                                                                                                                        |
 
 
 
@@ -74,8 +74,8 @@ ms.locfileid: "104071534"
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только для настольных приложений Windows 10 версии 1709\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server версии 1709\]<br/>                                       |
+| Минимальная версия клиента<br/> | Windows 10, только для \[ настольных приложений версии 1709\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Server, только для \[ настольных приложений версии 1709\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization. idl</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Досвк. lib</dt> </dl>                |

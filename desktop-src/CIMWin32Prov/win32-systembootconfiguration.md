@@ -88,7 +88,7 @@ class Win32_SystemBootConfiguration : Win32_SystemSetting
 
 Класс **Win32 \_ систембутконфигуратион** является производным от [**Win32 \_ системсеттинг**](win32-systemsetting.md).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

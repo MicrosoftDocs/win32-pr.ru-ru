@@ -16,12 +16,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b0061746da589c30e4745dfa3e4dc573f7b5d52
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f83e0987009e60d5e207a9531cc4809f6cfcfbd5b50360a583df8cb0c01898f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117733747"
 ---
 # <a name="id3dx12pipelineparsercallbacks-interface"></a>Интерфейс ID3DX12PipelineParserCallbacks
 
@@ -73,7 +73,7 @@ ms.locfileid: "105703882"
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX12. h</dt> </dl>  |
+| Заголовок<br/>  | <dl> <dt>D3DX12. h</dt> </dl>  |
 | Библиотека<br/> | <dl> <dt>D3D12. lib</dt> </dl> |
 | DLL<br/>     | <dl> <dt>D3D12.dll</dt> </dl> |
 

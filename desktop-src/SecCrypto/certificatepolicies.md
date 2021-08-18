@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 8ec217276b5d038f85f33887b771b0afa0c6e40a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8da0ad9681f3dd87227a7fe0b5a5419ceac4c7ee354fb1548427c100561e816b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105688814"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117770843"
 ---
 # <a name="certificatepolicies-object"></a>Объект ЦертификатеполиЦиес
 
@@ -40,7 +40,7 @@ ms.locfileid: "105688814"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Объект **цертификатеполиЦиес** имеет следующие свойства.
 
@@ -48,15 +48,15 @@ ms.locfileid: "105688814"
 
 | Свойство                                                    | Тип доступа          | Описание                                                                                                                                                                                                                     |
 |:------------------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**\_NewEnum**](certificatepolicies-newenum.md)<br/> | Только для чтения<br/> | Извлекает интерфейс [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) для объекта, который может быть использован для перечисления коллекции. Это свойство скрыто в Visual Basic Scripting Edition (VBScript).<br/> |
-| [**Расчета**](certificatepolicies-count.md)<br/>       | Только для чтения<br/> | Возвращает число объектов [**полициинформатион**](policyinformation.md) в коллекции.<br/>                                                                                                                    |
-| [**Элемент**](certificatepolicies-item.md)<br/>         | Только для чтения<br/> | Извлекает объект [**полициинформатион**](policyinformation.md) , представляющий политику индексированных сертификатов коллекции. Это свойство по умолчанию.<br/>                                                    |
+| [**\_NewEnum**](certificatepolicies-newenum.md)<br/> | Только для чтения<br/> | Извлекает интерфейс [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) для объекта, который может быть использован для перечисления коллекции. это свойство скрыто в Visual Basic scripting Edition (VBScript).<br/> |
+| [**Count**](certificatepolicies-count.md)<br/>       | Только для чтения<br/> | Возвращает число объектов [**полициинформатион**](policyinformation.md) в коллекции.<br/>                                                                                                                    |
+| [**Компонент**](certificatepolicies-item.md)<br/>         | Только для чтения<br/> | Извлекает объект [**полициинформатион**](policyinformation.md) , представляющий политику индексированных сертификатов коллекции. Это свойство по умолчанию.<br/>                                                    |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Не удается создать объект **цертификатеполиЦиес** .
 

@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: de7f4fb5e679a6b5767635c70e2ffb5eda3ba800
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c499713b3c6496759d94229e291138b0cb07de9e9f35d116eb19b4a7aeb3829
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118553976"
 ---
 # <a name="running-a-program-from-the-command-line-based-on-an-event"></a>Запуск программы из командной строки на основе события
 
@@ -115,7 +115,7 @@ instance of MyCmdLineConsumer
 };
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

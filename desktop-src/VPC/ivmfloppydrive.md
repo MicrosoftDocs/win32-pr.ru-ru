@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bab1034bc56c5fe10bb12941bd99309e13e22dca
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 63db224861b547b9485b03080ce3ffb3f5c118ef0de71597db79aa0888a1528d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118594810"
 ---
 # <a name="ivmfloppydrive-interface"></a>Интерфейс Ивмфлоппидриве
 
-\[Windows Virtual PC больше не доступна для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC больше не доступен для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Управляет дисководом гибких дисков в виртуальной машине. **Ивмфлоппидриве** может уведомлять клиентов о событиях с помощью исходящего интерфейса [**ивмфлоппидрививентс**](ivmfloppydriveevents.md) . Объект **ивмфлоппидриве** можно получить из объекта [**ивмфлоппидривеколлектион**](ivmfloppydrivecollection.md) , возвращенного из свойства [**ивмвиртуалмачине:: флоппидривес**](ivmvirtualmachine-floppydrives.md) .
 
@@ -63,7 +63,7 @@ ms.locfileid: "103989208"
 | [**Вложение**](ivmfloppydrive-attachment.md)<br/>           | Только для чтения<br/> | Тип носителя, подключенного к дисководу гибких дисков в виртуальной машине.<br/>     |
 | [**дривенумбер**](ivmfloppydrive-drivenumber.md)<br/>         | Только для чтения<br/> | Отсчитываемый от нуля индекс контроллера, к которому подключен гибкий дисковод.<br/> |
 | [**хостдривелеттер**](ivmfloppydrive-hostdriveletter.md)<br/> | Только для чтения<br/> | Буква диска узла, к которому подключен дисковод гибких дисков.<br/>            |
-| [**Изображения**](ivmfloppydrive-imagefile.md)<br/>             | Только для чтения<br/> | Полный путь к файлу образа, к которому подключен дисковод гибких дисков.<br/>         |
+| [**ImageFile**](ivmfloppydrive-imagefile.md)<br/>             | Только для чтения<br/> | Полный путь к файлу образа, к которому подключен дисковод гибких дисков.<br/>         |
 
 
 
@@ -75,11 +75,11 @@ ms.locfileid: "103989208"
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                    |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                     |
 | Окончание поддержки клиента<br/>    | Windows 7<br/>                                                                          |
 | Продукт<br/>                  | Windows Virtual PC<br/>                                                                 |
-| Header<br/>                   | <dl> <dt>Впккоминтерфацес. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Впккоминтерфацес. h</dt> </dl> |
 | IID<br/>                      | IID \_ ивмфлоппидриве определен как 661abee6-112a-4ed9-babf-3c874969f10e<br/>             |
 
 

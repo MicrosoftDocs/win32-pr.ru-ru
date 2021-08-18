@@ -3,7 +3,7 @@ title: TEXT. Скроллингдиректион
 description: Атрибут Скроллингдиректион указывает или получает направление прокручиваемого текста.
 ms.assetid: b7f6daf3-3180-4937-93e6-266d875dbbfd
 keywords:
-- Проигрыватель Windows Media TEXT. Скроллингдиректион
+- проигрыватель Windows Media TEXT. скроллингдиректион
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a729b2b917f38e12639fb1acda8eeb36808be990
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 73652b1eda6fb05c9e058a47bb988ab3098e451facc898d55bcd89257bec958b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118118244"
 ---
 # <a name="textscrollingdirection"></a>TEXT. Скроллингдиректион
 
@@ -42,7 +42,7 @@ ms.locfileid: "105675108"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если для **прокрутки** задано значение false, **скроллингдиректион** игнорируется.
 
@@ -54,7 +54,7 @@ ms.locfileid: "105675108"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

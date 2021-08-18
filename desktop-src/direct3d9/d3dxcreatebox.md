@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 187c389dd2d90b4457237540026a63edc4ab4f4c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 66afc489611936a122e05e8a797997d11e5073429834f8f1b534b03b02c2de4e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105720877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118526548"
 ---
 # <a name="d3dxcreatebox-function"></a>Функция D3DXCreateBox
 
@@ -105,7 +105,7 @@ HRESULT D3DXCreateBox(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. Если функция завершается ошибкой, возвращаемое значение может быть одним из следующих: D3DERR \_ инвалидкалл, D3DXERR \_ INVALIDDATA, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Созданное поле выравнивается по центру источника.
 
@@ -117,7 +117,7 @@ HRESULT D3DXCreateBox(
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9shape. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9shape. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>    |
 
 

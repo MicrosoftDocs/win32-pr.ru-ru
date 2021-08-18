@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - mxdc.h
-ms.openlocfilehash: 94308527437316dda75fc5a50a6a7829e9315c3b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3cf778781340323a78495f87b1408e1011641797ed52a3565bafe41ca450d551
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909579"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118471649"
 ---
 # <a name="mxdc_printticket_data_t-structure"></a>\_ \_ Структура T данных мксдк PRINTTICKET \_
 
@@ -54,7 +54,7 @@ typedef struct tagMxdcPrintTicketData {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта структура добавляется в структуру [**мксдк \_ Escape- \_ заголовка \_ T**](mxdcescapeheader.md) , для которой в качестве элемента **кода операции** задана **\_ \_ фиксированная \_ страница мксдкоп PrintTicket**, **\_ \_ фиксированный \_ документ PrintTicket мксдкоп** или **\_ \_ фиксированная \_ \_ последовательность документов PrintTicket мксдкоп** , чтобы сделать структуру [**мксдк \_ PrintTicket \_ \_ T**](mxdcprintticketescape.md) . Затем **Структура \_ \_ Escape- \_ последовательности мксдк PRINTTICKET** передается в параметр *лпсзиндата* функции [**екстескапе**](/windows/desktop/api/Wingdi/nf-wingdi-extescape) при вызове с escape-Escape- [**размксдк \_**](mxdc-escape.md) . В результате записывается билет на печать в файл документа XPS.
 
@@ -66,8 +66,8 @@ typedef struct tagMxdcPrintTicketData {
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                    |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                              |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                    |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                              |
 | Header<br/>                   | <dl> <dt>Мксдк. h</dt> </dl> |
 
 

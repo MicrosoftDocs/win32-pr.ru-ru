@@ -4,12 +4,12 @@ ms.assetid: fdd3fce9-f507-4581-bd68-74a854581200
 title: System. видео. Compression
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2bff7eb807d98f00115edd7956f9cdcfb43fb98
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7494bc8d08a8c53081d18e28b2cb2b399ef15bf0cb81d97eded8a491476c478a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118464462"
 ---
 # <a name="systemvideocompression"></a>System. видео. Compression
 
@@ -31,13 +31,13 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значение этого свойства представляет собой строковое представление GUID в канонической форме: "{XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX}". GUID задает формат видео. Возможные значения см. в разделе [GUID подтипа видео](../medfound/video-subtype-guids.md).
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 0a63e019-a03c-43c2-b2dc-20ef7c37e0d3
 title: System. Сфгаофлагс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d71ced08bd2a3a916924ff876cadb160cf6fb959
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f494215f2302f2a33551ab73adf60d61d7176e2d4caf75215456b731b9aa57e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712828"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118464794"
 ---
 # <a name="systemsfgaoflags"></a>System. Сфгаофлагс
 
@@ -46,13 +46,13 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
 Некоторые значения [**сфгао**](../shell/sfgao.md) , которые считаются причиной низкой производительности или отсутствия контекста, исключаются с помощью приложения маски * * * * [сфгао \_ пкэйсфгаомаск *](../shell/sfgao.md) * * * * * * * * * * * * * * * * *.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

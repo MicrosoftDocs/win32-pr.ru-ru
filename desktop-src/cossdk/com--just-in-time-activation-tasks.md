@@ -4,12 +4,12 @@ ms.assetid: 8b211ad2-92b6-487c-b323-1fe19f774cc3
 title: Задачи JIT-активации COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19683a397915f20ae9ba88a317d7ea8658a68be4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3e3441d17db0bf8053caab3f342e04bc3d06164bb2750a7d9039ff27d2ceeb86
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105710706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118549389"
 ---
 # <a name="com-just-in-time-activation-tasks"></a>Задачи JIT-активации COM+
 
@@ -29,7 +29,7 @@ ms.locfileid: "105710706"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

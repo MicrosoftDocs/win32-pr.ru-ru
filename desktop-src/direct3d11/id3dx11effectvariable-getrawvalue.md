@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: be03051433e3ae4fd5891d1859529bb305b08bb0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d2a2f0f79f231eab37c46eba138b72b0678e9ea323c86b736a55682bb7b771cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104987146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117734107"
 ---
 # <a name="id3dx11effectvariablegetrawvalue-method"></a>Метод ID3DX11EffectVariable:: Жетраввалуе
 
@@ -78,7 +78,7 @@ HRESULT GetRawValue(
 
 Возвращает один из следующих [кодов возврата Direct3D 11](d3d11-graphics-reference-returnvalues.md).
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Этот метод не выполняет преобразование или проверку типа; Таким образом, очень быстрый способ доступа к элементам массива.
 
@@ -93,7 +93,7 @@ HRESULT GetRawValue(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
+| Заголовок<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
 | Библиотека<br/> | <dl> <dt>Н/д (библиотека Effects 11 доступна в сети в качестве общего источника.)</dt> </dl> |
 
 

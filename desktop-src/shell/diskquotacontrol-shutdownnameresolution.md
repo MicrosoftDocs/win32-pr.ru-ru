@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 0db952a502210e509abeb527b2006eab087434e0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da02f79ea8f7b582056e9c3c7c0c3f1db53fa9e08181559c99dd983924861c78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104072698"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118459841"
 ---
 # <a name="diskquotacontrolshutdownnameresolution-method"></a>Дисккуотаконтрол. Шутдовннамересолутион, метод
 
@@ -41,7 +41,7 @@ DiskQuotaControl.ShutdownNameResolution()
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Сопоставитель имен идентификаторов безопасности (SID) преобразует SID в имена пользователей в фоновом потоке. Этот поток завершается автоматически при уничтожении связанного объекта управления квотой. Однако в некоторых случаях поток больше не нужен, но объект еще не готов к уничтожению. Типичным примером является отсутствие дальнейшей обработки, но клиенты по-прежнему содержат ссылки на объект. Метод **шутдовннамересолутион** позволяет прерывать поток сопоставителя и освобождать связанные ресурсы без удаления объекта управления квотой.
 

@@ -61,7 +61,7 @@ ms.locfileid: "118503427"
 
 Как правило, сообщение **WM \_ CHOOSEFONT \_ сетлогфонт** отправляется из процедуры-обработчика [**кфхукпрок**](/windows/win32/api/commdlg/nc-commdlg-lpcfhookproc) . Процедура-обработчик также может отправить сообщения [**WM \_ CHOOSEFONT \_ жетлогфонт**](wm-choosefont-getlogfont.md) и [**WM \_ CHOOSEFONT \_ сетфлагс**](wm-choosefont-setflags.md) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

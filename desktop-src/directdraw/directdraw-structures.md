@@ -4,12 +4,12 @@ description: В этом разделе содержатся сведения о
 ms.assetid: 36424B41-B179-414A-ACFF-E63DA7B27043
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52cf24c71da3f022833c6ecf9843e996df2c514b
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: a4aba62751b619982628575b380ea75eb57661db8737325fee1fb1b042e856ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "105691710"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118504346"
 ---
 # <a name="directdraw-structures"></a>Структуры DirectDraw
 
@@ -32,7 +32,7 @@ ms.locfileid: "105691710"
 > [!Note]  
 > Перед использованием структуры необходимо инициализировать память для каждой структуры DirectX до 0. Кроме того, для всех структур, содержащих элемент **двсизе** , необходимо задать для элемента размер структуры (в байтах) перед использованием структуры. В следующем примере выполняются эти задачи в общей структуре, [**ддкапс**](/windows/desktop/api/Ddraw/ns-ddraw-ddcaps_dx3):
 
- 
+ 
 
 
 ```
@@ -48,9 +48,9 @@ ddcaps.dwSize = sizeof(DDCAPS);
 
 
 
- 
+ 
 
- 
+ 
 
 
 

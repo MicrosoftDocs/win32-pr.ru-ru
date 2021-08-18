@@ -1,19 +1,19 @@
 ---
-description: Некоторые коды операций IOCTL для сокетов Windows 2 приведены в следующей таблице.
+description: некоторые коды операций IOCTL сокета для сокетов Windows 2 приведены в следующей таблице.
 ms.assetid: fb6447b4-28f5-4ab7-bbdc-5a57ed38a994
 title: Сводка кодов операций сокета ioctl
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2243457ddbb7e0bb59f14357cf61d2e771c6a7d2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 88f0d6163e4ef36598dad56dd4d81201bdda3c2a3b1bb0473a0ef9ffb4675b2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104156010"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118559664"
 ---
 # <a name="summary-of-socket-ioctl-opcodes"></a>Сводка кодов операций сокета ioctl
 
-Некоторые коды операций IOCTL для сокетов Windows 2 приведены в следующей таблице. Более подробные сведения приведены в справочнике по Winsock для [**Winsock ioctl**](winsock-ioctls.md) и функции [**вспиоктл**](/previous-versions/windows/hardware/network/ff566296(v=vs.85)) . Существуют другие новые коды операций IOCTL, относящиеся к протоколу, которые можно найти в приложении для конкретного протокола.
+некоторые коды операций IOCTL сокета для сокетов Windows 2 приведены в следующей таблице. Более подробные сведения приведены в справочнике по Winsock для [**Winsock ioctl**](winsock-ioctls.md) и функции [**вспиоктл**](/previous-versions/windows/hardware/network/ff566296(v=vs.85)) . Существуют другие новые коды операций IOCTL, относящиеся к протоколу, которые можно найти в приложении для конкретного протокола.
 
 Полный список [**Winsock ioctl**](winsock-ioctls.md) можно найти в справочнике по Winsock.
 
@@ -46,7 +46,7 @@ ms.locfileid: "104156010"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
