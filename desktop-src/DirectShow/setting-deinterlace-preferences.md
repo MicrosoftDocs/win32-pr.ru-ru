@@ -4,12 +4,12 @@ ms.assetid: 31d59f17-552b-46d1-89e4-751216f54280
 title: Настройка параметров чередования
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be52ae3023c8e4bc83c3305a104c389f423cffd6
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 33dae356618653f501b56f8b7a7eeb98e24ee92eb196cac78466e8cd26c01610
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103805206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072578"
 ---
 # <a name="setting-deinterlace-preferences"></a>Настройка параметров чередования
 
@@ -30,7 +30,7 @@ ms.locfileid: "103805206"
 2.  Передайте структуру в метод [**IVMRDeinterlaceControl9:: жетнумберофдеинтерлацемодес**](/previous-versions/windows/desktop/api/Vmr9/nf-vmr9-ivmrdeinterlacecontrol9-getnumberofdeinterlacemodes) . Вызовите метод дважды. Первый вызов возвращает число режимов с чередованием, поддерживаемое оборудованием, для указанного формата. Выделите массив GUID этого размера и снова вызовите метод, передав адрес массива. Второй вызов заполняет массив идентификаторами GUID. Каждый идентификатор GUID определяет один режим разчередования.
 3.  Чтобы получить возможности в определенном режиме, вызовите метод [**IVMRDeinterlaceControl9:: жетдеинтерлацемодекапс**](/previous-versions/windows/desktop/api/Vmr9/nf-vmr9-ivmrdeinterlacecontrol9-getdeinterlacemodecaps) . Передайте ту же структуру **VMR9VideoDesc** вместе с одним из идентификаторов GUID из массива. Метод заполняет структуру [**VMR9DeinterlaceCaps**](/previous-versions/windows/desktop/api/Vmr9/ns-vmr9-vmr9deinterlacecaps) с помощью возможностей режима.
 
-В следующем коде показаны следующие шаги.
+Следующий код показывает эти действия.
 
 
 ```C++

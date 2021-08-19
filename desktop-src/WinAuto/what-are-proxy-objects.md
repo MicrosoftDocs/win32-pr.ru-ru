@@ -4,12 +4,12 @@ description: Прокси-объект выступает в качестве п
 ms.assetid: fdd5d44a-1797-47e6-8044-37dde926c18a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 60d54fb20d677f1a417d633242ddf40c704087f3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: caf3625bf048241e4ef28163ed3b8ca7916ccc35cccc12e7eac05b2b9b9c96d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104338932"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052192"
 ---
 # <a name="what-are-proxy-objects"></a>Что такое прокси-объекты?
 
@@ -19,6 +19,6 @@ ms.locfileid: "104338932"
 
 Прокси-объект является прозрачным для клиента. Когда клиент вызывает [**акцессиблеобжектфромевент**](/windows/desktop/api/Oleacc/nf-oleacc-accessibleobjectfromevent), [**акцессиблеобжектфромпоинт**](/windows/desktop/api/Oleacc/nf-oleacc-accessibleobjectfrompoint)или [**акцессиблеобжектфромвиндов**](/windows/desktop/api/Oleacc/nf-oleacc-accessibleobjectfromwindow), он получает указатель на интерфейс [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) . Однако если клиент использует этот указатель для вызова любых свойств или методов **IAccessible** , выполняемый код находится в прокси-объекте.
 
- 
+ 
 
- 
+ 

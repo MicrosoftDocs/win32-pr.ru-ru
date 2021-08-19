@@ -24,12 +24,12 @@ api_type:
 api_location:
 - WmiProv.dll
 ms.custom: project-verbatim
-ms.openlocfilehash: 485b42a86ca67d15ec00be13992c17b31ed51608
-ms.sourcegitcommit: af120ad5c30da2fc5eb717ca2a1c4c45878efd71
+ms.openlocfilehash: 552e66a4e3a0c6f120bcc95123e3a2674fc579457de16c9ef8cd1e80161f175e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "105714069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051152"
 ---
 # <a name="wmimonitorid-class"></a>Класс Вмимониторид
 
@@ -59,7 +59,7 @@ class WmiMonitorID : MSMonitorClass
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **вмимониторид** имеет следующие свойства.
 
@@ -198,7 +198,7 @@ UserFriendlyName
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обсуждение того, как преобразовать массивы, в которых хранится идентификатор серийного номера, см. в статье [о мониторе отчетов с Configuration Manager](/archive/blogs/kmongwa/reporting-monitor-information-with-configuration-manager) .
 
@@ -237,7 +237,7 @@ Next
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -251,7 +251,7 @@ Next
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

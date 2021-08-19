@@ -52,7 +52,7 @@ typedef enum D3DX11_SAVE_TEXTURE_FLAG {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -62,7 +62,7 @@ typedef enum D3DX11_SAVE_TEXTURE_FLAG {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

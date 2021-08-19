@@ -4,12 +4,12 @@ description: Изначально интерфейс IDispatch разрабат�
 ms.assetid: 5a95f002-4fd5-43d3-9b50-7b3f7790300a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4641ca3e4cc18b96441aefbbc46231e3f7753a94
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 710fb0bc8142dfa863967114d3841506c220b3c058db042b867607ffe56cd5e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105661733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052712"
 ---
 # <a name="idispatch-interface-and-accessibility"></a>Интерфейс IDispatch и специальные возможности
 
@@ -22,6 +22,6 @@ ms.locfileid: "105661733"
 -   [**GetIDsOfNames**](/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-getidsofnames) сопоставляет имя метода или свойства с **идентификатором DISPID**, который позже используется для вызова метода или свойства.
 -   [**Invoke**](/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke) вызывает один из методов объекта или получает или задает одно из его свойств.
 
- 
+ 
 
- 
+ 

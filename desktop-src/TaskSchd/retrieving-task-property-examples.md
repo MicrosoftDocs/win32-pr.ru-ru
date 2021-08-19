@@ -6,12 +6,12 @@ keywords:
 - получение свойств задачи планировщик задач
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e2b42bc8044171834b6d99e97c41e3f5c7048ff
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f0e46554c32d9d30941fd837b91e80e8e20d915b0f1c68a665fd72c8f1624c8f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104338692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002392"
 ---
 # <a name="retrieving-task-property-examples"></a>Получение примеров свойств задачи
 
@@ -22,7 +22,7 @@ ms.locfileid: "104338692"
 > [!Note]  
 > В следующем примере кода все интерфейсы освобождаются после того, как они больше не нужны.
 
- 
+ 
 
 Обратите внимание, что при извлечении свойства строки (например, имени приложения, параметров или рабочего каталога) необходимо вызвать [CoTaskMemFree](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree) , чтобы освободить память, выделенную для возвращаемой строки.
 
@@ -48,15 +48,15 @@ ms.locfileid: "104338692"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Примеры планировщик задач 1,0](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

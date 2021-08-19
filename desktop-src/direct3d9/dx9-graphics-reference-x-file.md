@@ -4,12 +4,12 @@ ms.assetid: 4381960a-a4e7-418f-89b9-7565cc48149a
 title: Ссылка на X-файл (устаревшая)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 987c1b8691659ee7c6a0cfbef0e4805632b450c3
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7bfef0e88ed464025552d76f501ef51f007567c98b6a00b7e14e581741c497bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104422965"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118988154"
 ---
 # <a name="x-file-reference-legacy"></a>Ссылка на X-файл (устаревшая)
 
@@ -21,7 +21,7 @@ ms.locfileid: "104422965"
 -   [Константы ДКСФИЛЕ](dxfile.md)
 -   [**Возвращаемые значения**](dx9-graphics-reference-x-file-return-values.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

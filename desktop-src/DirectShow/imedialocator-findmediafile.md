@@ -106,7 +106,7 @@ BSTR filter = SysAllocStringLen(L"Video\0*.avi\0", 12);
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -117,7 +117,7 @@ BSTR filter = SysAllocStringLen(L"Video\0*.avi\0", 12);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

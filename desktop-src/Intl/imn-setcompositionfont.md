@@ -4,12 +4,12 @@ ms.assetid: 946bee83-91af-4647-9b22-96d42466352c
 title: Код уведомления IMN_SETCOMPOSITIONFONT (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8373954e80e420004b347bf1b40021c86ddbb876
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b0a5ec4fd5ba8237a1fbba9be3878037c37dc74c2e07f29026ca89ead91512f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118949194"
 ---
 # <a name="imn_setcompositionfont-notification-code"></a>\_Код уведомления ИМН сеткомпоситионфонт
 
@@ -44,11 +44,11 @@ IMN_SETCOMPOSITIONFONT
 
 Эта команда не имеет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение может получить сведения о шрифте с помощью функции [**иммжеткомпоситионфонт**](/windows/desktop/api/Imm/nf-imm-immgetcompositionfonta) . Затем окно IME использует шрифт для рисования строки композиции.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -56,11 +56,11 @@ IMN_SETCOMPOSITIONFONT
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                           |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                 |
-| Заголовок<br/>                   | <dl> <dt>IMM. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Imm. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

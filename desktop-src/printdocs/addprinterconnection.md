@@ -65,7 +65,7 @@ BOOL AddPrinterConnection(
 
 Подключение принтера, установленное с помощью вызова **аддпринтерконнектион** , будет перечислено при вызове [**енумпринтерс**](enumprinters.md) с параметром *двтипе* , установленным в значение Printer \_ reenum \_ Connection.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -80,7 +80,7 @@ BOOL AddPrinterConnection(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

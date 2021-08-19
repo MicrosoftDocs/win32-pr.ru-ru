@@ -3,7 +3,7 @@ title: Реализация кода
 description: Реализация кода
 ms.assetid: 875b27b3-10ee-498a-bbd1-f9ce69fda17e
 keywords:
-- Подключаемые модули проигрывателя Windows Media, визуализации
+- подключаемые модули проигрыватель Windows Media, визуализации
 - подключаемые модули, визуализации
 - визуализации, реализация кода
 - Пользовательские визуализации, реализация кода
@@ -11,12 +11,12 @@ keywords:
 - Пользовательские визуализации, изменение примера кода
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 716173d9f2c3d44bb3faabddaa8fe886b6582fba
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d1952ac3d7f38c423c82fb185be4ed7750b02d24155d7ff5ac38e70e238c8d38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105691164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119508894"
 ---
 # <a name="implementing-your-code"></a>Реализация кода
 
@@ -28,16 +28,16 @@ ms.locfileid: "105691164"
 -   [Реализация других функций](implementing-other-functions.md)
 -   [Предустановки](presets.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**О пользовательских визуализациях**](about-custom-visualizations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

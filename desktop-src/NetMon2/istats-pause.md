@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: d9e9f04ce3d25399866c711dad7a853f2c43c2ce
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d1bab0d66a081c175d997e093d7dd1ff2b0d1c9622ecff73e0b3b1473edc885
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119495214"
 ---
 # <a name="istatspause-method"></a>Истатс: метод:P Аусе
 
@@ -50,14 +50,14 @@ HRESULT STDMETHODCALLTYPE Pause();
 |--------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_запись нмерр \_ приостановлена**</dt> </dl>  | Запись уже приостановлена.<br/>                                                                                                    |
 | <dl> <dt>**НМЕРР \_ не \_ захватывается**</dt> </dl>   | НПП не захватывает данные. Вызовите метод [истатс:: Start](istats-start.md) , чтобы начать запись.<br/>                            |
-| <dl> <dt>**НМЕРР \_ не \_ подключен**</dt> </dl>   | НПП не подключен к сети. Вызовите метод [истатс:: Connect](istats-connect.md) , чтобы подключить НПП к сети.<br/> |
-| <dl> <dt>**НМЕРР \_ не \_ \_ только статистика**</dt> </dl> | НПП подключается к сети, но не с методом [истатс:: Connect](istats-connect.md) .<br/>                                |
+| <dl> <dt>**НМЕРР \_ не \_ подключен**</dt> </dl>   | НПП не подключен к сети. вызовите метод [истатс:: Подключение](istats-connect.md) , чтобы подключить нпп к сети.<br/> |
+| <dl> <dt>**НМЕРР \_ не \_ \_ только статистика**</dt> </dl> | нпп подключается к сети, но не с помощью метода [истатс:: Подключение](istats-connect.md) .<br/>                                |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Пока захват приостановлен, новые кадры не фиксируются, пока вызов метода [истатс:: Resume](istats-resume.md) не перезапустит запись.
 
@@ -65,7 +65,7 @@ HRESULT STDMETHODCALLTYPE Pause();
 
 Чтобы перезапустить захват [истатс:: Resume](istats-resume.md). Чтобы прерывать запись, вызовите [истатс:: останавливаться](istats-stop.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -78,14 +78,14 @@ HRESULT STDMETHODCALLTYPE Pause();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [истатс](istats.md)
 </dt> <dt>
 
-[Истатс:: Connect](istats-connect.md)
+[истатс:: Подключение](istats-connect.md)
 </dt> <dt>
 
 [Истатс:: Resume](istats-resume.md)

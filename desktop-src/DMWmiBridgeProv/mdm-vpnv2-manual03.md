@@ -99,7 +99,7 @@ class MDM_VPNv2_Manual03
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -113,7 +113,7 @@ class MDM_VPNv2_Manual03
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

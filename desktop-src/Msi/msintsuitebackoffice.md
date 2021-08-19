@@ -1,27 +1,27 @@
 ---
-description: В операционных системах Windows 2000 и более поздних версий установщик устанавливает для свойства Мсинтсуитебаккоффице значение 1, если установлены компоненты Microsoft BackOffice.
+description: в Windows 2000 и более поздних операционных системах установщик устанавливает для свойства мсинтсуитебаккоффице значение 1, если установлены компоненты Microsoft backoffice.
 ms.assetid: 31493732-3082-4dd9-9a20-21658f53c8c2
 title: Мсинтсуитебаккоффице, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bf2d9f2f1d95446c32b4f2addf520f3d5b4dadc3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5cf3c65e1f5d1d528dd35232900a9aef12bdf344d1d2859eef814d1030e6249d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118944829"
 ---
 # <a name="msintsuitebackoffice-property"></a>Мсинтсуитебаккоффице, свойство
 
-В операционных системах Windows 2000 и более поздних версий установщик устанавливает для свойства **мсинтсуитебаккоффице** значение 1, если установлены компоненты Microsoft BackOffice. Установщик задает для этого свойства значение 1, только если в \_ \_ структуре [**ОСВЕРСИОНИНФОЕКС**](/windows/win32/api/winnt/ns-winnt-osversioninfoexa) задан флаг BackOffice Suite. В противном случае установщик не устанавливает это свойство.
+в Windows 2000 и более поздних операционных системах установщик устанавливает для свойства **мсинтсуитебаккоффице** значение 1, если установлены компоненты Microsoft backoffice. Установщик задает для этого свойства значение 1, только если в \_ \_ структуре [**ОСВЕРСИОНИНФОЕКС**](/windows/win32/api/winnt/ns-winnt-osversioninfoexa) задан флаг BackOffice Suite. В противном случае установщик не устанавливает это свойство.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

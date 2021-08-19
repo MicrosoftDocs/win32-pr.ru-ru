@@ -52,7 +52,7 @@ Dim instance As New EsentTooManySortsException()
 public EsentTooManySortsException()
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

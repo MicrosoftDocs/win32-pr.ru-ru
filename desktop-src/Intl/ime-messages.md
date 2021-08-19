@@ -4,12 +4,12 @@ ms.assetid: 7eac1ab7-d04b-4e1b-9e2c-fa9a778756cd
 title: Сообщения IME
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0f30baa01081e0aca1423f3384926938e6fdc07
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2aa34228f695a18187654707668067ac34562098b48aae185a8d66d777b6f507
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104072818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118949265"
 ---
 # <a name="ime-messages"></a>Сообщения IME
 
@@ -17,7 +17,7 @@ ms.locfileid: "104072818"
 
 Приложение может направлять окно IME для выполнения команды, например, изменять расположение окна композиции с помощью [**\_ \_ управляющего сообщения WM IME**](wm-ime-control.md) . Редактор IME уведомляет приложение об изменениях в строке композиции с помощью сообщения о [**\_ \_ композиции редактора WM IME**](wm-ime-composition.md) , а также об общих изменениях состояния окон IME путем отправки сообщения [**\_ \_ уведомления WM IME**](wm-ime-notify.md) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 46bb70a7-7dc9-463d-8416-737122412750
 title: 'Метод ИтлокалпартиЦипант:: get_LocalParticipantTypedInfo (Конфприв. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: caabaf503963c09898c06659884fd3ac3858e704
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e41afb4c55ba769e341b81e5ec1ca721745509ba8bf2bdfd88ae22ebc48bb535
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003372"
 ---
 # <a name="itlocalparticipantget_localparticipanttypedinfo-method"></a>Метод ИтлокалпартиЦипант:: Get \_ локалпартиЦипанттипединфо
 
@@ -49,7 +49,7 @@ HRESULT get_LocalParticipantTypedInfo(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение должно использовать [сисфристринг](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) для освобождения памяти, выделенной для параметра *ппинфо* .
 
@@ -60,7 +60,7 @@ HRESULT get_LocalParticipantTypedInfo(
 | Требование | Значение |
 |-------------------------|---------------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 3,0 или более поздней версии<br/>                                                 |
-| Header<br/>       | <dl> <dt>Конфприв. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>Конфприв. h</dt> </dl> |
 | Библиотека<br/>      | <dl> <dt>UUID. lib</dt> </dl>   |
 | DLL<br/>          | <dl> <dt>Tapi3.dll</dt> </dl>  |
 

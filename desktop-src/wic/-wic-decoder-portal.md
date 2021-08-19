@@ -29,7 +29,7 @@ ms.locfileid: "118711329"
 
  
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 
 [Руководство по программированию](-wic-programming-guide.md)
 

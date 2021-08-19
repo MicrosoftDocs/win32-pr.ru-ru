@@ -18,12 +18,12 @@ api_type:
 - DllExport
 api_location:
 - WmiProv.dll
-ms.openlocfilehash: b8d16c8dc20291a03fb205441c8826c85125970c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 10343b33e5bc1881440af9d13029913d470880289e71b4c7a33fb4748e56ef73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703021"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118821525"
 ---
 # <a name="wmimonitorbrightness-class"></a>Класс Вмимониторбригхтнесс
 
@@ -48,7 +48,7 @@ class WmiMonitorBrightness : MSMonitorClass
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **вмимониторбригхтнесс** имеет следующие свойства.
 
@@ -129,7 +129,7 @@ InstanceName
 
 Дополнительные сведения и примеры кода по использованию этого класса в PowerShell см. в разделе [Использование PowerShell для сообщения и Установка яркости монитора](https://blogs.technet.com/b/heyscriptingguy/archive/2013/07/25/use-powershell-to-report-and-set-monitor-brightness.aspx).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -143,7 +143,7 @@ InstanceName
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

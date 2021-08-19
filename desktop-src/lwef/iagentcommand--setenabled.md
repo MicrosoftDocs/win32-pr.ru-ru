@@ -36,7 +36,7 @@ HRESULT SetEnabled(
 
 Для [**команды**](/windows/desktop/lwef/the-command-object) свойство Enabled должно иметь значение **true** , чтобы быть [**доступным**](enabled-property.md) для выбора. Он также должен иметь набор свойств [**Caption**](caption-property.md) , а свойство [**Visible**](visible-property.md) — значение **true** , чтобы оно отображалось во всплывающем меню символа. Чтобы **команда** отображалась в окне " **Voice Commands**", необходимо задать ее свойство [**Voice**](voice-property.md).
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 
 [**Иаженткомманд::**](iagentcommand--getcaption.md)иаженткомманд, [**:: сетвоице**](iagentcommand--setvoice.md), [**иаженткоммандс:: Add**](iagentcommands--add.md), [**иаженткоммандс:: INSERT**](iagentcommands--insert.md)
 

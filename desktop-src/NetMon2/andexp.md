@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 1d27d5bdd51a45b31f518271053f44b45917cdeb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7ee2ac65e10e0dc9be46ab103fe21abcc78dc403302b298f3eb2fc83000802cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104346835"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117982956"
 ---
 # <a name="andexp-structure"></a>Структура АНДЕКСП
 
@@ -54,7 +54,7 @@ typedef struct _ANDEXP {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Шаблоны в массиве **паттернматч** \[ Max \_ Patterns \] соединяются как одноранговые в операторах логического или в формате
 
@@ -62,7 +62,7 @@ typedef struct _ANDEXP {
 
 Дополнительные сведения о реализации этой структуры см. в разделе [фильтры записи](capture-filters.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -74,7 +74,7 @@ typedef struct _ANDEXP {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

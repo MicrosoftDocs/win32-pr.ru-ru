@@ -99,7 +99,7 @@ HRESULT D3DXCreateAnimationController(
 
 Контроллер анимации управляет микшером анимации. Контроллер добавляет методы для изменения параметров смешения с течением времени, чтобы обеспечить плавные переходы.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -110,7 +110,7 @@ HRESULT D3DXCreateAnimationController(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

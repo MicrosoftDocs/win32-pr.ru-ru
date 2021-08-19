@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7f4db541954e1595c7b2fc8340f05a9415ad39b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0384339c98e694479ec993941bfbaeeb4bc906c1b058db8a63e11be43672f16f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103802110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000404"
 ---
 # <a name="synchronizeallpublishingdata-method-of-the-win32_rdmsmanagementdata-class"></a>Метод Синчронизеаллпублишингдата \_ класса Win32 рдмсманажементдата
 
@@ -45,7 +45,7 @@ uint32 SynchronizeAllPublishingData();
 
 Возвращает значение 0 при успешном выполнении, в противном случае возвращает код ошибки WMI.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -59,7 +59,7 @@ uint32 SynchronizeAllPublishingData();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

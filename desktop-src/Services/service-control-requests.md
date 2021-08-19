@@ -4,12 +4,12 @@ ms.assetid: d6cdc876-8b74-460e-ad43-6455ddf428dd
 title: Запросы управления службами
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6cb5edf56137e2c98ea7db440a4db5e55df5e8f0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4320aad28f8a176fbf4aaa6b51539256a376a01b8edea034341cae7831ca4c40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117967573"
 ---
 # <a name="service-control-requests"></a>Запросы управления службами
 
@@ -24,7 +24,7 @@ ms.locfileid: "105662352"
 
 Функция [**куерисервицестатусекс**](/windows/desktop/api/Winsvc/nf-winsvc-queryservicestatusex) сообщает о последнем состоянии указанной службы, но не получает обновленное состояние от самой службы. Использование управления службой \_ \_ для опроса контрольного значения при вызове [**ControlService**](/windows/desktop/api/Winsvc/nf-winsvc-controlservice) гарантирует, что возвращенная информация о состоянии будет актуальной.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -44,7 +44,7 @@ HRESULT RequestComplete(
 
 Это событие позволяет отслеживанию завершения метода, поставленного в очередь, с помощью идентификатора запроса.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 
 [**Иажентнотифисинк:: рекуестстарт**](iagentnotifysink--requeststart.md), [**Иажент:: Load**](iagent--load.md), [**иажентчарактер:: Жестуреат**](iagentcharacter--gestureat.md), [**иажентчарактер:: Hide**](iagentcharacter--hide.md), [**иажентчарактер:: Interrupt**](iagentcharacter--interrupt.md), [**IAgentCharacter:: MoveTo**](iagentcharacter--moveto.md), [**IAgentCharacter::P готовка**](iagentcharacter--prepare.md), [**IAgentCharacter::Pный макет**](iagentcharacter--play.md), [**IAgentCharacter:: Показать**](iagentcharacter--show.md), [**IAgentCharacter:: говорите**](iagentcharacter--speak.md), [**IAgentCharacter:: wait**](iagentcharacter--wait.md)
 

@@ -99,7 +99,7 @@ HRESULT D3DXOptimizeFaces(
 
 Процедура оптимизации этой функции функционально эквивалентна вызову [**ID3DXMesh:: optimize**](id3dxmesh--optimize.md) с \_ флагом D3DXMESHOPT девицеиндепендент, но эта функция делает более эффективное использование кэшей вершин.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -110,7 +110,7 @@ HRESULT D3DXOptimizeFaces(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

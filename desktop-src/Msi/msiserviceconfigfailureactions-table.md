@@ -4,18 +4,18 @@ ms.assetid: 7c450b74-1f91-4a1c-beee-646a407eb8a8
 title: Таблица Мсисервицеконфигфаилуреактионс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae55d095e227611271de35d673289fc9eb5b174e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 907c0feb2e331c1e19ff4292d11cc58b65340a7543d9af5d0a1ccf23d2e80a48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118944421"
 ---
 # <a name="msiserviceconfigfailureactions-table"></a>Таблица Мсисервицеконфигфаилуреактионс
 
 В таблице Мсисервицеконфигфаилуреактионс перечисляются операции, выполняемые после сбоя службы. Операции, указанные в этой таблице, запускаются при следующей загрузке системы.
 
-**[Установщик Windows 4,5 или более ранней версии](not-supported-in-windows-installer-4-5.md):** Не поддерживается. Эта таблица доступна начиная с установщик Windows 5,0.
+**[установщик Windows 4,5 или более ранней версии](not-supported-in-windows-installer-4-5.md):** Не поддерживается. эта таблица доступна начиная с установщик Windows 5,0.
 
 Таблица Мсисервицеконфигфаилуреактионс содержит следующие столбцы.
 
@@ -23,14 +23,14 @@ ms.locfileid: "105664175"
 
 | Столбец                         | Type                         | Ключ | Допускает значения NULL |
 |--------------------------------|------------------------------|-----|----------|
-| мсисервицеконфигфаилуреактионс | [Идентификатор](identifier.md) | Да   | Нет        |
+| мсисервицеконфигфаилуреактионс | [Идентификатор](identifier.md) | Д   | Нет        |
 | Имя                           | [Формате](formatted.md)   | Нет   | Нет        |
 | Событие                          | [Integer](integer.md)       | Нет   | Нет        |
-| ресетпериод                    | [Integer](integer.md)       | Нет   | Да        |
-| ребутмессаже                  | [Формате](formatted.md)   | Нет   | Да        |
-| Get-Help                        | [Формате](formatted.md)   | Нет   | Да        |
-| Действия                        | [Text](text.md)             | Нет   | Да        |
-| делайактионс                   | [Text](text.md)             | Нет   | Да        |
+| ресетпериод                    | [Integer](integer.md)       | Нет   | Д        |
+| ребутмессаже                  | [Формате](formatted.md)   | Нет   | Д        |
+| Get-Help                        | [Формате](formatted.md)   | Нет   | Д        |
+| Actions                        | [Text](text.md)             | Нет   | Д        |
+| делайактионс                   | [Text](text.md)             | Нет   | Д        |
 | Компонент\_                    | [Идентификатор](identifier.md) | Нет   | Нет        |
 
 

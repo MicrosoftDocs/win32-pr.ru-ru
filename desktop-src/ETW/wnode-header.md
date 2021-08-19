@@ -75,7 +75,7 @@ typedef struct _WNODE_HEADER {
 
 </dd> <dt>
 
-**Версия**
+**Version**
 </dt> <dd>
 
 Зарезервировано для внутреннего использования.
@@ -199,7 +199,7 @@ typedef struct _WNODE_HEADER {
 4. For each eventRecord (EVENT\_RECORD), convert the event’s timestamp into FILETIME as follows, using the timeStampScale and timeStampBase values calculated in steps 2 and 3: INT64 timeStampInFileTime = timeStampBase + (INT64)(timeStampScale \* eventRecord.EventHeader.TimeStamp.QuadPart);  
 </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -207,11 +207,11 @@ typedef struct _WNODE_HEADER {
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                   |
 | Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                         |
-| Header<br/>                   | <dl> <dt>Вмистр. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Вмистр. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

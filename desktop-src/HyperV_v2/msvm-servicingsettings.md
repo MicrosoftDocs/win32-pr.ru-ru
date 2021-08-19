@@ -49,7 +49,7 @@ class Msvm_ServicingSettings
 
 <dl> <dt>
 
-**Версия**
+**Version**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -62,7 +62,7 @@ class Msvm_ServicingSettings
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

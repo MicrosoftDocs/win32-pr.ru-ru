@@ -3,7 +3,7 @@ title: Список воспроизведения. Аттрибутекаунт
 description: Свойство Аттрибутекаунт извлекает количество атрибутов, связанных с списком воспроизведения.
 ms.assetid: 92063131-0118-4458-9122-0539628a9821
 keywords:
-- Проигрыватель Windows Media Player. Аттрибутекаунт
+- проигрыватель Windows Media списка воспроизведения. аттрибутекаунт
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e42d72e029f232bb6dabc074b412406a1bb64c7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 63616096dbfc3989a93d3dc8010dd0ed1f256ccd9e9bf2cc7b3c825c88a63d0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708322"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054302"
 ---
 # <a name="playlistattributecount"></a>Список воспроизведения. Аттрибутекаунт
 
@@ -33,17 +33,17 @@ ms.locfileid: "105708322"
 
 Это свойство является **числом** только для чтения (**длинное целое**).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Так как списки воспроизведения могут поступать из множества различных источников, они могут иметь несколько разных наборов свойств. Этот метод извлекает общее число доступных свойств, чтобы другие методы объекта **списка воспроизведения** могли получить к ним доступ.
 
 Чтобы получить значение этого свойства, требуется доступ на чтение к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
-Сведения об атрибутах, поддерживаемых проигрывателем Windows Media, см. в [справочнике по атрибутам](attribute-reference.md)проигрывателя Windows Media.
+дополнительные сведения об атрибутах, поддерживаемых проигрыватель Windows Media, см. в [справочнике по атрибуту](attribute-reference.md)проигрыватель Windows Media.
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере JScript показано, как используются различные свойства и методы **списка воспроизведения** и объектов **мультимедиа** .
+в следующем примере JScript показано, как используются различные свойства и методы **списка воспроизведения** и объектов **мультимедиа** .
 
 
 ```JScript
@@ -79,18 +79,18 @@ function onLoad() {
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -106,10 +106,10 @@ function onLoad() {
 [**Список воспроизведения. Сетитеминфо**](playlist-setiteminfo.md)
 </dt> <dt>
 
-[**Settings. Медиаакцессригхтс**](settings-mediaaccessrights.md)
+[**Параметры. медиаакцессригхтс**](settings-mediaaccessrights.md)
 </dt> <dt>
 
-[**Settings. Рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
+[**Параметры. рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
  
