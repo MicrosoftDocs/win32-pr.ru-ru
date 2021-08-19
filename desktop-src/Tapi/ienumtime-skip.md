@@ -4,16 +4,16 @@ ms.assetid: e4d9c95d-1b68-4af6-beb2-2014074e5089
 title: 'Метод Иенумтиме:: Skip (Сдпблб. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 190a98c14cb8f551276a173e2d73872d876f2ceb
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c36f92ead711c25b385c2a7109dbb113b8c5ca082fda9c3012204384350a3c13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108090722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117762953"
 ---
 # <a name="ienumtimeskip-method"></a>Метод Иенумтиме:: Skip
 
-\[ В Windows Vista, Windows Server 2008 и последующих версиях операционной системы нельзя использовать встречные средства и элементы управления Конференц-телефонией и интерфейсы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[встречи и элементы управления встречными IP-телефонными соединениями недоступны для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Метод **Skip** пропускает следующее заданное число элементов в последовательности перечисления.
 
@@ -67,7 +67,7 @@ HRESULT Skip(
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

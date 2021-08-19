@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ea37dfe8cbbc7baf90e6065f0c54af1a60c3284b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 383b9c2ca992db66e7bf397e42dcb8aaaa4bdb66251ddfd67f4b5175d87058aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105674993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118402590"
 ---
 # <a name="cimageallocator-class"></a>Класс Цимажеаллокатор
 
@@ -44,7 +44,7 @@ ms.locfileid: "105674993"
 | [**чекксизес**](cimageallocator-checksizes.md)               | Проверяет свойства распределителя для текущего типа носителя.              |
 | [**креатедиб**](cimageallocator-createdib.md)                 | Создает DIB.                                                           |
 | [**креатеимажесампле**](cimageallocator-createimagesample.md) | Создает пример носителя. Виртуализаци.                                         |
-| [**Бесплатный**](cimageallocator-free.md)                           | Освобождает всю буферную память.                                       |
+| [**Свободный**](cimageallocator-free.md)                           | Освобождает всю буферную память.                                       |
 | Открытые методы                                                 | Описание                                                              |
 | [**Цимажеаллокатор**](cimageallocator-cimageallocator.md)     | Метод конструктора.                                                      |
 | [**нотифимедиатипе**](cimageallocator-notifymediatype.md)     | Информирует объект о текущем типе мультимедиа.                            |
@@ -61,7 +61,7 @@ ms.locfileid: "105674993"
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Винутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>винутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

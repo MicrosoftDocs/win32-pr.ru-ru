@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f62a7e9ce7a9449072cfdd318330f5bfae0bbb16
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f68e87c58c66ab6d1a910bbf8f7e4f7d91b71e7f11756d6b1d089eee24d95b56
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108085662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118402671"
 ---
 # <a name="cimageallocatorm_pfilter-member"></a>Элемент Цимажеаллокатор:: m \_ пфилтер
 
@@ -42,7 +42,7 @@ CBaseFilter *m_pFilter;
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Винутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>винутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

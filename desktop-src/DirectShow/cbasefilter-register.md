@@ -16,19 +16,19 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 1bd7ba5a57d670ef28ffda022c95c7dc5b12df77
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 168d84d3bfc90fb710ae65a3b887eeb5575db407361a256c48161f0f7968a53c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657824"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118403527"
 ---
 # <a name="cbasefilterregister-method"></a>Кбасефилтер. Register, метод
 
 `Register`Метод добавляет фильтр в реестр.
 
 > [!Note]  
-> Этот метод устарел. Новые фильтры должны быть зарегистрированы с помощью функции [**AMovieDllRegisterServer2**](amoviedllregisterserver2.md) . Дополнительные сведения см. [в разделе Регистрация фильтров DirectShow](how-to-register-directshow-filters.md).
+> Этот метод устарел. Новые фильтры должны быть зарегистрированы с помощью функции [**AMovieDllRegisterServer2**](amoviedllregisterserver2.md) . дополнительные сведения см. [в статье регистрация DirectShow фильтров](how-to-register-directshow-filters.md).
 
  
 
@@ -66,7 +66,7 @@ HRESULT Register();
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Амфилтер. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>амфилтер. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 39fd7b4d9d9bf7a595415e55de778a419d91051c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 83a784cadf470fa312a82e473f3934dbda1a2b6dce20d2ae34c7074c309398cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104133767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117808238"
 ---
 # <a name="async_uuid-attribute"></a>асинхронный \_ атрибут UUID
 
@@ -81,9 +81,9 @@ interface interface-name : base-interface
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Для использования этого атрибута требуется Windows 2000 или более поздней версии Windows.
+для использования этого атрибута требуется Windows 2000 или более поздней версии Windows.
 
 При применении атрибута **\[ асинхронного \_ UUID \]** к com-интерфейсу (то есть к интерфейсу, имеющему атрибут [**\[ Object \]**](object.md) ) компилятор MIDL создает асинхронное определение интерфейса в дополнение к традиционной синхронной версии. Асинхронный интерфейс будет иметь те же имена, что и синхронный интерфейс, но с префиксом Async. Идентификатор интерфейса (IID) будет являться UUID, указанным в качестве параметра для **\[ асинхронного атрибута \_ UUID \]** .
 
@@ -108,7 +108,7 @@ interface IMyInterface : IUnknown
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -139,6 +139,6 @@ interface IMyInterface : IUnknown
 [**Версия**](version.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

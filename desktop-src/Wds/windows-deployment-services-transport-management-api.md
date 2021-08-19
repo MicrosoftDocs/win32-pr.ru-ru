@@ -1,19 +1,19 @@
 ---
-title: API управления транспортом служб развертывания Windows
+title: Windows API управления транспортом служб развертывания
 ms.assetid: c62e77b0-c3d7-41c1-88be-1c45543f243a
-description: 'Дополнительные сведения: API управления транспортом служб развертывания Windows'
+description: 'дополнительные сведения о: Windows API управления транспортом служб развертывания'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2c115b122db062bacd68e707460e2a6862ead97
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2a8a765a3412c40eeccce394e105bcf3f03f64b25bf6f8b083d0a9042c5f6fd8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104348435"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118330459"
 ---
-# <a name="windows-deployment-services-transport-management-api"></a>API управления транспортом служб развертывания Windows
+# <a name="windows-deployment-services-transport-management-api"></a>Windows API управления транспортом служб развертывания
 
-Управление транспортом служб развертывания Windows (WDS) использует следующие перечисления и интерфейсы:
+Windows Служба управления транспортом служб развертывания (WDS) использует следующие перечисления и интерфейсы:
 
 -   [Перечисления управления транспортом WDS](wds-transport-management-enums.md)
 -   [Интерфейсы управления транспортом WDS](wds-transport-management-interfaces.md)

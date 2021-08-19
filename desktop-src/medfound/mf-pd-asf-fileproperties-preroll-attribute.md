@@ -4,12 +4,12 @@ ms.assetid: 6aebe1cf-bd45-4b02-a3c8-6599bb683d7c
 title: Атрибут MF_PD_ASF_FILEPROPERTIES_PREROLL (Вмконтаинер. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 502ba715cc2802f9710d579e0c7afd6477b83454
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca6440853e2e3308d3d173350de17274bfbe88aa29c3b634ef7480d36d37fd67
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265508"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117692060"
 ---
 # <a name="mf_pd_asf_fileproperties_preroll-attribute"></a>\_ \_ \_ Атрибут onрулона MF PD ASF филепропертиес \_
 
@@ -19,25 +19,25 @@ ms.locfileid: "104265508"
 
 **UINT64**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут применяется к дескрипторам представления для содержимого ASF.
 
 Метод [**имфасфконтентинфо:: женератепресентатиондескриптор**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-generatepresentationdescriptor) создает этот атрибут из метаданных ASF.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                     |
-| Header<br/>                   | <dl> <dt>Вмконтаинер. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                     |
+| Заголовок<br/>                   | <dl> <dt>Вмконтаинер. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

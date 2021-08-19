@@ -4,12 +4,12 @@ ms.assetid: 2f0f43a9-2424-4b73-a9aa-a06474676fb4
 title: Свойство MFPKEY_DYN_BANDTRUNC_QCEIL (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ff3e4f873c06af53290a784b5045e09eb24f7ef
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: da4beecc98edcfd2eb7ecfdcbf1ab9f9af21f278538f32e26991f0dd57a85299
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699148"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117873531"
 ---
 # <a name="mfpkey_dyn_bandtrunc_qceil-property"></a>МФПКЭЙ \_ Дин \_ бандтрунк \_ кцеил, свойство
 
@@ -23,18 +23,18 @@ ms.locfileid: "105699148"
 
 **VT \_ R4**
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Клиент<br/> | Windows Vista или Windows 7<br/>                                                   |
-| Header<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

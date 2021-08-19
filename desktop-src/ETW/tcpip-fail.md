@@ -118,7 +118,7 @@ class TcpIp_Fail : TcpIp
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

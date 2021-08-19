@@ -1,6 +1,6 @@
 ---
 title: Структура WMDRMNET_POLICY (Вмдрмсдк. h)
-description: '\_Структура политики вмдрмнет содержит политику, используемую для операций с сетевыми устройствами Windows Media DRM.'
+description: '\_структура политики вмдрмнет содержит политику, используемую для операций с сетевыми устройствами Windows Media DRM.'
 ms.assetid: 11eaaeb2-3470-4f58-ae1c-53ee0f60bdce
 keywords:
 - Формат WMDRMNET_POLICY структуры Windows Media
@@ -15,16 +15,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 574e37a8c5ee7f68291012b86cda3a89e25949ab
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bf648ef5e300fa9fef1cf12fd4698f4ec196f62130bf75a02f263cd96931f0bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105647959"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117653427"
 ---
 # <a name="wmdrmnet_policy-structure"></a>\_Структура политики вмдрмнет
 
-Структура **\_ политики вмдрмнет** содержит политику, используемую для операций с сетевыми устройствами Windows Media DRM.
+структура **\_ политики вмдрмнет** содержит политику, используемую для операций с сетевыми устройствами Windows Media DRM.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -56,21 +56,21 @@ typedef struct WMDRMNET_POLICY {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта структура используется в качестве параметра для метода [**ивмдрмнеттрансмиттер:: жетлеафлиценсереспонсе**](iwmdrmnettransmitter-getleaflicenseresponse.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Вмдрмсдк. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмдрмсдк. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -3,7 +3,7 @@ title: Функция Мпупдатеконтрол (Мпклиент. h)
 description: Позволяет управлять операцией обновления сигнатур, которая была асинхронно инициирована через Мпупдатестарт.
 ms.assetid: 2780E472-6E8D-4839-88EE-46E3448C6BF5
 keywords:
-- Функции Мпупдатеконтрол устаревшие функции среды Windows
+- функции мпупдатеконтрол устаревших функций среды Windows
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 91ea28c6ace349fd04fb9241d7eddbe7c1e5fbbe
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 69926f26b470ba41226883bdb32fab13c5d776858595c256fe70e7f95e898c04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491547"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118476276"
 ---
 # <a name="mpupdatecontrol-function"></a>Функция Мпупдатеконтрол
 
@@ -83,8 +83,8 @@ HRESULT WINAPI MpUpdateControl(
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MpClient.dll</dt> </dl> |
 

@@ -7,16 +7,16 @@ keywords:
 - Привязка к объекту Active Directory ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59992dbc88c00be6306dec24523ec4e030d4a516
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: bc788ed9eb124e1da6c21848f02393d46608f00dd3a9e779788fa54429922400
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103891069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118429141"
 ---
 # <a name="binding-to-an-active-directory-object"></a>Привязка к объекту Active Directory
 
-Наиболее распространенным способом привязки к объекту Active Directory является использование функции **GetObject** между клиентом ADSI и поставщиком ADSI. Это также самый простой способ продемонстрировать, как компонент поставщика получает запросы и службы. Как функция API ADSI [**адсжетобжект**](/windows/desktop/api/Adshlp/nf-adshlp-adsgetobject) , так и функция Visual Basic **GetObject** следуют тем же действиям для привязки.
+Наиболее распространенным способом привязки к объекту Active Directory является использование функции **GetObject** между клиентом ADSI и поставщиком ADSI. Это также самый простой способ продемонстрировать, как компонент поставщика получает запросы и службы. как функция API ADSI [**адсжетобжект**](/windows/desktop/api/Adshlp/nf-adshlp-adsgetobject) , так и функция Visual Basic **getobject** следуют тем же действиям для привязки.
 
 В этом примере предположим, что клиент ADSI является приложением для просмотра ADSI, которое получило значение ADsPath "Sample://Seattle/Redmond/Shelly" из пользовательского интерфейса (1). На следующем рисунке подробно описывается последовательность событий путем нумерации стрелок потока.
 
@@ -44,6 +44,6 @@ ms.locfileid: "103891069"
 
 Пример компонента поставщика разработан таким образом, чтобы фактические вызовы операционной системы были логически изолированы от компонента поставщика, создав программное обеспечение, переносимое в более чем одну операционную систему (Регдсапи. cpp).
 
- 
+ 
 
- 
+ 

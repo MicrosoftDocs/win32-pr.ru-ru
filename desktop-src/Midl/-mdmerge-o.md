@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 20a169082de88d45d7f1ba2e18c0217c9a225699
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: af560aafa435e45cdb413516862e0b1c6d5e49f507c21b00a6b6c165b2a67f26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117808869"
 ---
 # <a name="o-switch-mdmerge"></a>параметр/o (МДМЕРЖЕ)
 
@@ -44,7 +44,7 @@ mdmerge /o output_directory
 
 **выходной каталог мдмерже/o \_**
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -55,7 +55,7 @@ mdmerge /o output_directory
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

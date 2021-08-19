@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f69977a15deb7d84b3370bb6e08c02a4e5129212
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 544039b1076848cb796f290ea98aa8aac359b26ebfb64f90a27d316a9d0cc34f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117823243"
 ---
 # <a name="cbasepinquerypininfo-method"></a>Кбасепин. Куерипининфо, метод
 
@@ -53,24 +53,24 @@ HRESULT QueryPinInfo(
 
 Возвращает значение S \_ (ОК) или \_ указатель E.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод использует переменную-член [**кбасепин:: m \_ pName**](cbasepin-m-pname.md) для элемента **ачнаме** в \_ информационной структуре.
 
 Если метод возвращает значение, если элемент **пфилтер** структуры PIN-кода \_ не **равен null**, то он содержит необработанные ссылки. Не забудьте освободить интерфейс по завершении.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Амфилтер. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>амфилтер. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

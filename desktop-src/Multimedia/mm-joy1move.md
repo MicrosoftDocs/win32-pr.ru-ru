@@ -3,7 +3,7 @@ title: Сообщение MM_JOY1MOVE (Ммсистем. h)
 description: '\_Сообщение JOY1MOVE mm уведомляет окно с захваченным джойстиком, JOYSTICKID1, что расположение джойстика изменилось.'
 ms.assetid: 317ac0b2-f873-413d-b071-47d840229643
 keywords:
-- MM_JOY1MOVE сообщения Windows мультимедиа
+- сообщение MM_JOY1MOVE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a78753bd55f6682b3ac3f1514356d93cb455d162
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d8c8a71bc91b541bc17017fc2673bb6c0ed7e84a2de44ff312954b8f9915dc57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672494"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117802449"
 ---
 # <a name="mm_joy1move-message"></a>MM \_ JOY1MOVE, сообщение
 
@@ -73,7 +73,7 @@ yPos = HIWORD(lParam);
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -81,11 +81,11 @@ yPos = HIWORD(lParam);
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

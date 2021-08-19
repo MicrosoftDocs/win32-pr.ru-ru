@@ -4,16 +4,16 @@ ms.assetid: a9b3532d-9640-4373-a6c6-7828cb6f55c7
 title: енроллкоммон
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 384a1f3741fd8bd7762c60da524e2e639c442e41
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1d087ce1aeced0ef68f5b33a06546897d09687ae5ccbd096f1bb34552d0a4a10
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104542690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117780073"
 ---
 # <a name="enrollcommon"></a>енроллкоммон
 
-Папка Енроллкоммон содержит следующие вспомогательные функции и макросы, используемые в примерах, предоставляемых с помощью пакета SDK для регистрации сертификатов. Он устанавливается по умолчанию в папке *% ProgramFiles%* \\ Microsoft SDK \\ Windows \\ v 7.0 \\ Samples \\ Security \\ Certificate енроллкоммон сертификата \\ X509 \\ .
+Папка Енроллкоммон содержит следующие вспомогательные функции и макросы, используемые в примерах, предоставляемых с помощью пакета SDK для регистрации сертификатов. он устанавливается по умолчанию в папке *% ProgramFiles%* \\ Microsoft sdk \\ Windows \\ v 7.0 \\ samples \\ Security \\ Certificate енроллкоммон сертификата \\ X509 \\ .
 
 
 
@@ -118,7 +118,7 @@ ms.locfileid: "104542690"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

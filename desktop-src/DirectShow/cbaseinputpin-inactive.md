@@ -61,7 +61,7 @@ HRESULT Inactive();
 
 При переопределении этого метода вызовите метод базового класса из переопределяющего метода.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

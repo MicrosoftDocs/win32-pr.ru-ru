@@ -17,16 +17,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2f9c4eac9c9825f510848583d7f707a2c244c52
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b6331dc79a93e515d49c688bc8c5dd3b9e747cfbac91ace9c7685a219ae21e95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136150"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118430016"
 ---
 # <a name="dsbackupopenfile-function"></a>Функция Дсбаккупопенфиле
 
-\[Эта функция доступна для использования в операционных системах, указанных в разделе требования. В последующих версиях он может быть изменен или недоступен. Начиная с Windows Vista, вместо нее следует использовать [Служба теневого копирования томов (VSS)](../vss/volume-shadow-copy-service-overview.md) .\]
+\[Эта функция доступна для использования в операционных системах, указанных в разделе требования. В последующих версиях он может быть изменен или недоступен. начиная с Windows Vista используйте вместо этого [служба теневого копирования томов (VSS)](../vss/volume-shadow-copy-service-overview.md) .\]
 
 Функция **дсбаккупопенфиле** открывает указанный файл и выполняет операции клиента и сервера, необходимые для подготовки файла к резервному копированию.
 
@@ -96,7 +96,7 @@ HRESULT DsBackupOpenFile(
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -104,14 +104,14 @@ HRESULT DsBackupOpenFile(
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Нтдсбкли. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Нтдсбкли. h</dt> </dl>   |
 | Библиотека<br/>                  | <dl> <dt>Нтдсбкли. lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ntdsbcli.dll</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **Дсбаккупопенфилев** (Юникод) и **дсбаккупопенфилеа** (ANSI)<br/>             |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

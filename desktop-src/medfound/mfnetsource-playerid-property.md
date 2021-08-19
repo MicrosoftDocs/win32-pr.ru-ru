@@ -4,12 +4,12 @@ ms.assetid: de52cc34-9b88-41ae-b8b8-ef5dff85892c
 title: Свойство MFNETSOURCE_PLAYERID (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d20754c93057ef3f000fc9c7201cda7ec287eec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e1fc9afc79dec48a3ee19b007d2d1e04c0ccc35ab9a2bdd04c6699cd1ff65fea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081168"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117874618"
 ---
 # <a name="mfnetsource_playerid-property"></a>МФНЕТСАУРЦЕ \_ плайерид, свойство
 
@@ -31,25 +31,25 @@ VT \_ LPWSTR
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Константа **мфнетсаурце \_ плайерид** определяет идентификатор GUID для этого ключа свойства. Идентификатор свойства (PID) равен нулю.
 
 Приложения могут использовать это свойство для настройки сетевого источника. Чтобы задать свойство, передайте указатель **ипропертисторе** в сопоставитель источника. Дополнительные сведения см. [в разделе Настройка источника мультимедиа](configuring-a-media-source.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                               |
-| Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                               |
+| Заголовок<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

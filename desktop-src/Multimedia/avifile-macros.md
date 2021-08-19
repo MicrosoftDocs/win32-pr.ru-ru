@@ -3,19 +3,19 @@ title: Авифиле макросы
 description: Авифиле макросы
 ms.assetid: 5544e706-89e9-46e8-8703-ad978e675bbf
 keywords:
-- Видео для Windows (VFW), макросы Авифиле
-- VFW (видео для Windows), макросы Авифиле
+- видео для Windows (VFW), макросы авифиле
+- VFW (видео для Windows), макросы авифиле
 - Макросы Авифиле, справочные материалы
 - Справочник по Авифиле, макросы
 - Справочник по Авифиле, макросам
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3963c8d937e8fabdaf9006d349a1ab6b1a103ab8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 25356bd7086a24ee82b2252e8a5d80b051680c431fd8b1b11e36afddcf5cf406
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103889076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118375621"
 ---
 # <a name="avifile-macros"></a>Авифиле макросы
 
@@ -43,16 +43,16 @@ ms.locfileid: "103889076"
 -   [**авистреамсамплетосампле**](/windows/desktop/api/Vfw/nf-vfw-avistreamsampletosample)
 -   [**авистреамстарттиме**](/windows/desktop/api/Vfw/nf-vfw-avistreamstarttime)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Справочник по Авифиле](avifile-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

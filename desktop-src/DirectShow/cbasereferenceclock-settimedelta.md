@@ -59,7 +59,7 @@ HRESULT SetTimeDelta(
 
 Метод [**кбасереференцеклокк:: OnTime**](cbasereferenceclock-gettime.md) никогда не возвращает значения по убыванию. Если настроить часы назад, функция @ **time** возвращает предыдущее значение до тех пор, пока часы не достигнет этого значения.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

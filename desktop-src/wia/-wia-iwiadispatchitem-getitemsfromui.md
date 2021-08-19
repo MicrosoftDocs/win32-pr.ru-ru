@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: 25bb24fd2b4c6b8d3d7f8cc08c23a42257399a14
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a954dbefec9728d2d6f595144ba3991ab4f7b3a1ded77fdf7e3ca5407be70d23
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104154866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117669716"
 ---
 # <a name="itemgetitemsfromui-method"></a>Item. Жетитемсфромуи, метод
 
@@ -82,9 +82,9 @@ retVal = Item.GetItemsFromUI(
 
 Этот метод возвращает коллекцию объектов [**Item**](-wia-item.md) , представляющих элементы, выбранные пользователем. Если элементы не выбраны, коллекция будет пустой.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Для приложений Microsoft Visual Basic добавьте ссылку на "Библиотека типов приобретения образа Windows 1,01".
+для приложений Microsoft Visual Basic добавьте ссылку на "Windows получения образа библиотеки типов 1,01".
 
 Этот метод применяется только к устройствам (корневым элементам). Метод возвращает коллекцию объектов [**Item**](-wia-item.md) , представляющих изображения или аудиоклипы, выбранные пользователем.
 
@@ -117,14 +117,14 @@ Next
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                          |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Wiascr.dll (версия 4,90 или более поздняя)</dt> </dl> |
 
 

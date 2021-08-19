@@ -4,12 +4,12 @@ ms.assetid: 781c4b28-de40-459d-993c-8177ed64b8e5
 title: System. Приорититекст
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 468e2333c8baf4493077e692566778ce946f48ca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bd07270ae08c9d4e7a41be293731f6e123707a0ac6c4f0e966aed2b8beddecfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272336"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118465695"
 ---
 # <a name="systemprioritytext"></a>System. Приорититекст
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

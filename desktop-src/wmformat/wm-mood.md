@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cea0a4380eba1304b34a24e1c24e306515614336
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 46a6cee8782a6bcec197378eb3d0d17afcebce5dde50da4c278f20b1aaf0340f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "105691402"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118195654"
 ---
 # <a name="wmmood"></a>WM/настроение
 
@@ -41,18 +41,18 @@ g \_ всзвммуд
 
 
 
- 
+ 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [**Список атрибутов**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

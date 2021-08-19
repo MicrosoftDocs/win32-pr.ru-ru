@@ -3,7 +3,7 @@ title: Список воспроизведения. Сетчеккедстате
 description: Метод Сетчеккедстате указывает, что установлен индексированный элемент в списке воспроизведения.
 ms.assetid: ce5de21b-6354-485e-b6f7-f4d090c149f7
 keywords:
-- Проигрыватель Windows Media Player. Сетчеккедстате
+- проигрыватель Windows Media списка воспроизведения. сетчеккедстате
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6a8c86459dcf590b1ff1e884a8aa671dc1bba78a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 93e143f738197524e1555f18aedf84aa606626de645a98149c65507b71291cde
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118336251"
 ---
 # <a name="playlistsetcheckedstate"></a>Список воспроизведения. Сетчеккедстате
 
@@ -43,23 +43,23 @@ ms.locfileid: "105704114"
 
 Этот метод возвращает **логическое значение**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Можно задать для всех элементов состояние checked, указав значение 1 в параметре *Item* .
 
 Этот метод был заменен **setCheckedState2**, который поддерживает вложенные списки воспроизведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

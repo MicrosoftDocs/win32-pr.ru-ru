@@ -4,12 +4,12 @@ ms.assetid: 14B833BC-2188-48D6-AA27-B15F491D90CF
 title: Свойство CODECAPI_AVEncAdaptiveMode (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b2405558fff76fa065324249583d4abcd445a91
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a1014e1f1cc526ee80295a183f33a840807cac27768afbb32326d5cd93d3f2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118064765"
 ---
 # <a name="codecapi_avencadaptivemode-property"></a>КОДЕКАПИ \_ авенкадаптивемоде, свойство
 
@@ -27,19 +27,19 @@ ms.locfileid: "105692082"
 
 Значение этого свойства является побитовым **или** для значений перечисления [**еавенкадаптивемоде**](/windows/win32/api/codecapi/ne-codecapi-eavencadaptivemode) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8 \|\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 \|\]<br/>                           |
-| Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ приложения UWP для классических приложений \|\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ приложения UWP для классических приложений \|\]<br/>                           |
+| Заголовок<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

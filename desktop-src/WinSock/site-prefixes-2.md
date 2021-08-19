@@ -4,12 +4,12 @@ ms.assetid: cc3aa99d-cf45-460c-bdc1-3e9a19806fe4
 title: Префиксы сайта IPv6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bed8a21c59f9b6727c98ccb7fdacf4e9ec6ea5cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0dd37370aa14bd6883f83e93d661f10b96d804dc3b85cf47173da4b1f0ee0f90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711018"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118111298"
 ---
 # <a name="ipv6-site-prefixes"></a>Префиксы сайта IPv6
 
@@ -23,7 +23,7 @@ ipv6 rtu 2002:836b:9820:2::/64 4 pub life 1800 spl 48
 
 Параметр получение сведений о префиксе, указывающий префикс сайта, приводит к созданию записи в таблице префиксов сайта, которую можно отобразить с помощью команды IPv6 СПТ. Таблица префиксов сайтов используется для удаления недопустимых адресов локального сайта, возвращенных [**функцию getaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo) и связанными функциями.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

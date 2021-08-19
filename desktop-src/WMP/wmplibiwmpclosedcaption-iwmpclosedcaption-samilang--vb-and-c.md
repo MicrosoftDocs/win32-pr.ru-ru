@@ -3,9 +3,9 @@ title: Ивмпклоседкаптион Самиланг, свойство
 description: Свойство Самиланг получает или задает язык, отображаемый для скрытых субтитров.
 ms.assetid: dcdd6bcd-b869-439f-b500-df26d3873b04
 keywords:
-- Проигрыватель Windows Media для свойства Самиланг
-- Самиланг свойство проигрывателя Windows Media Player, интерфейс Ивмпклоседкаптион
-- Интерфейс Ивмпклоседкаптион Windows Media Player, свойство Самиланг
+- проигрыватель Windows Media свойства самиланг
+- проигрыватель Windows Media свойства самиланг, интерфейс ивмпклоседкаптион
+- проигрыватель Windows Media интерфейса ивмпклоседкаптион, свойство самиланг
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe29defa3736795c88613ee7ab2ef11a914a3f80
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 98354d5e1e4f796442dd0347a4ed2796cafdf7297d3829af9b8839d48df00c3a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117930317"
 ---
 # <a name="iwmpclosedcaptionsamilang-property"></a>Свойство Ивмпклоседкаптион:: Самиланг
 
@@ -48,7 +48,7 @@ Public Property SAMILang As System.String
 
 **Строка System. String** , которая является именем, указанным в идентификаторе языка файла Sami.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Файл SAMI может содержать текст для одного или нескольких языков. Языки, доступные для скрытых титров, определяются между тегами <STYLE> и </STYLE> в файле Sami. Идентификатор языка указывается с уникальной буквенно-цифровой строкой, которой предшествует точка (.). Имя, указанное для языка, может быть любой строкой. Например, для определения английского языка (США) можно использовать следующую команду:
 
@@ -63,19 +63,19 @@ Public Property SAMILang As System.String
 
 Строка, заданная с помощью **самиланг** , должна соответствовать атрибуту **Name** в описателе языка.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

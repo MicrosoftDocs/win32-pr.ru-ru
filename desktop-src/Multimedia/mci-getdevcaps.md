@@ -3,7 +3,7 @@ title: Команда MCI_GETDEVCAPS (Ммсистем. h)
 description: Команда MCI \_ жетдевкапс получает статические сведения об устройстве.
 ms.assetid: a839006f-ea57-4595-9208-cfc465c95298
 keywords:
-- MCI_GETDEVCAPS команды мультимедиа Windows
+- команда MCI_GETDEVCAPS Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 85abb0354d36979741d0b292dd9def469cec0049
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7798f72405209f9834c3b67f84e57508c58ffc6153bce860b91f089005648905
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104535429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117803960"
 ---
 # <a name="mci_getdevcaps-command"></a>\_Команда MCI жетдевкапс
 
@@ -68,7 +68,7 @@ MCIERROR mciSendCommand(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Следующие дополнительные стандартные и специальные флаги применяются ко всем устройствам, поддерживающим MCI \_ жетдевкапс:
 
@@ -363,7 +363,7 @@ MCIERROR mciSendCommand(
 
 </dd> <dt>
 
-<span id="MCI_VD_GETDEVCAPS_FAST_RATE"></span><span id="mci_vd_getdevcaps_fast_rate"></span>\_ \_ \_ Ускоренная скорость MCI VD жетдевкапс \_
+<span id="MCI_VD_GETDEVCAPS_FAST_RATE"></span><span id="mci_vd_getdevcaps_fast_rate"></span>\_ \_ \_ частота FAST жетдевкапс MCI \_ VD
 </dt> <dd>
 
 Для элемента **двретурн** задана стандартная частота быстрого воспроизведения в кадрах за секунду.
@@ -402,7 +402,7 @@ MCIERROR mciSendCommand(
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -410,11 +410,11 @@ MCIERROR mciSendCommand(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

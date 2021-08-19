@@ -78,7 +78,7 @@ DWORD APIENTRY NtGdiDdGetMoCompGuids(
 
 Дополнительные сведения см. в пакете средств разработки драйверов для Microsoft DirectX Video Acceleration Kit (DDK).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -90,7 +90,7 @@ DWORD APIENTRY NtGdiDdGetMoCompGuids(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

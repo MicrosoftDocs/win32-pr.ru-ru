@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: aad24e56d43f6fadd3da3f627b2399249a7ff8a6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c6b9bc249921b3247f5df898c2810d735dc1a75c8e643e965b3fd249d9496f78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105719632"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117867929"
 ---
 # <a name="printer_info_3-structure"></a>\_Сведения о принтере \_ 3 структура
 
@@ -46,11 +46,11 @@ typedef struct _PRINTER_INFO_3 {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Структура **принтера \_ info \_ 3** позволяет приложению получить и установить дескриптор безопасности принтера. Вызывающий объект может сделать это, даже если у него отсутствуют определенные разрешения принтера, если у него есть стандартные права, описанные в [**сетпринтер**](setprinter.md) и в средстве [**печати**](getprinter.md). Таким образом, приложение может временно запретить доступ к принтеру, одновременно позволяя владельцу принтера получить доступ к списку управления доступом принтера.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -58,11 +58,11 @@ typedef struct _PRINTER_INFO_3 {
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Винспул. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>винспул. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

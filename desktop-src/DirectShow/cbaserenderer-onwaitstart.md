@@ -50,7 +50,7 @@ virtual void OnWaitStart();
 
 Если вы реализуете контроль качества, вы можете переопределить этот метод вместе с методом [**кбасерендерер:: онваитенд**](cbaserenderer-onwaitend.md) . Эти методы можно использовать для наблюдения за производительностью фильтра.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -61,7 +61,7 @@ virtual void OnWaitStart();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

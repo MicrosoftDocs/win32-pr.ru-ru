@@ -80,7 +80,7 @@ playlist.setItemInfo("SortAttribute", "UserLastPlayedTime")
 
 Пример кода, в котором используется это свойство, см. в свойстве [аттрибутекаунт](playlist-attributecount.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -91,7 +91,7 @@ playlist.setItemInfo("SortAttribute", "UserLastPlayedTime")
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

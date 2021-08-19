@@ -4,12 +4,12 @@ description: Здесь мы поговорим о том, как включит
 ms.assetid: 3C2B0A12-FB57-4400-BE39-05ED23F552C7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aaa3f4748da6893470e3bb6631c4228ec1ae3d48
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9c6ac5492b96c40b4395b2c501b764c646a8edbb06d3a6386a15cbb2534778d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103773712"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117912738"
 ---
 # <a name="using-the-debug-layer-to-debug-apps"></a>Использование слоя отладки для отладки приложений
 
@@ -26,11 +26,11 @@ ms.locfileid: "103773712"
     -   [Не передавать пустые указатели в Map](#dont-pass-null-pointers-to-map)
     -   [Ограничить исходное поле в исходных и целевых ресурсах](#confine-source-box-within-source-and-destination-resources)
     -   [Не удалять Дискардресаурце или Дискардвиев](#dont-drop-discardresource-or-discardview)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="enabling-the-debug-layer"></a>Включение слоя отладки
 
-Чтобы включить [слой отладки](overviews-direct3d-11-devices-layers.md), укажите в параметре *flags* флаг [**D3D11 \_ Create \_ Device \_ Debug**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_create_device_flag) , если вызывается функция [**D3D11CreateDevice**](/windows/desktop/api/D3D11/nf-d3d11-d3d11createdevice) для создания устройства отрисовки. В этом примере кода показано, как включить слой отладки, если проект Microsoft Visual Studio находится в отладочной сборке:
+Чтобы включить [слой отладки](overviews-direct3d-11-devices-layers.md), укажите в параметре *flags* флаг [**D3D11 \_ Create \_ Device \_ Debug**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_create_device_flag) , если вызывается функция [**D3D11CreateDevice**](/windows/desktop/api/D3D11/nf-d3d11-d3d11createdevice) для создания устройства отрисовки. в этом примере кода показано, как включить слой отладки, если проект Microsoft Visual Studio находится в отладочной сборке:
 
 
 ```C++
@@ -93,16 +93,16 @@ ms.locfileid: "103773712"
 
 Если вы создали устройство, которое поддерживает [уровень отладки](overviews-direct3d-11-devices-layers.md), отладочный вывод сообщает об ошибке в отношении удаленного вызова.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Программные уровни](overviews-direct3d-11-devices-layers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f916c4f03023c756b71a2e3cbb38acd9f41f1e8
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 640eae8bfbadcba07f67d244edd78726269ede9eee2f14e9af06e851bb5cac92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103783600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117807202"
 ---
 # <a name="int-attribute"></a>int, атрибут
 
@@ -45,7 +45,7 @@ ms.locfileid: "103783600"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Целочисленные типы являются базовыми типами языка определения интерфейса (IDL). Они могут отображаться в виде описателей типа в объявлениях [**typedef**](typedef.md) , общих объявлениях и деклараторах функций (в виде спецификатора типа "функция-возврат" и спецификатора типа параметра). Контекст, в котором отображаются спецификаторы типов, см. в разделе [IDL-файл](interface-definition-idl-file.md).
 
@@ -70,23 +70,23 @@ typedef struct
 HRESULT MyFunc([in] long int lCount);
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [Базовые типы MIDL](midl-base-types.md)
 </dt> <dt>
 
-[**перечисления**](enum.md)
+[**enum**](enum.md)
 </dt> <dt>
 
-[**Hyper**](hyper.md)
+[**hyper**](hyper.md)
 </dt> <dt>
 
 [Файл определения интерфейса (IDL)](interface-definition-idl-file.md)
 </dt> <dt>
 
-[**поддерживаем**](long.md)
+[**long**](long.md)
 </dt> <dt>
 
 [**/осф**](-osf.md)
@@ -110,9 +110,9 @@ HRESULT MyFunc([in] long int lCount);
 [**наборов**](union.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

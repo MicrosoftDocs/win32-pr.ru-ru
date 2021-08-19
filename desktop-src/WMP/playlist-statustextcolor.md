@@ -31,7 +31,7 @@ ms.locfileid: "118335686"
 
 Этот атрибут является **строкой** для чтения и записи, представляющей цвет. Значение по умолчанию — None.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -41,7 +41,7 @@ ms.locfileid: "118335686"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
