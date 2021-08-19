@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6c4849c23e742657d8f5eaba8a030426f7a2a440
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f391d711c6d10c50cfdb26314be6ee709ff481bda0ce370faa28d514422444c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272134"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118487869"
 ---
 # <a name="jet_bkinfo-structure"></a>Структура JET_BKINFO
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jet_bkinfo-structure"></a>Структура JET_BKINFO
 
@@ -57,7 +57,7 @@ _**Применимо к:** Windows | Windows Server_
 
 Время события резервного копирования с дополнительными битами для указания резервной копии моментального снимка.
 
-**Windows Vista: бклогтимемарк** появился в Windows Vista.
+**Windows vista: бклогтимемарк** появился в Windows Vista.
 
 **женлов**
 
@@ -67,11 +67,11 @@ _**Применимо к:** Windows | Windows Server_
 
 Старший номер создания журнала, связанный с этим событием резервного копирования.
 
-### <a name="remarks"></a>Комментарии
+### <a name="remarks"></a>Remarks
 
 Эта структура используется в структуре [JET_DBINFOMISC](./jet-dbinfomisc-structure.md) для представления данных о событии резервного копирования базы данных.
 
-### <a name="requirements"></a>Требования
+### <a name="requirements"></a>Requirements (Требования)
 
 <table>
 <colgroup>
@@ -81,11 +81,11 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
+<td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
+<td><p><strong>Сервер</strong></p></td>
+<td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>

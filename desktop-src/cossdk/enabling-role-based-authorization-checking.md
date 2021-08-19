@@ -4,12 +4,12 @@ ms.assetid: d391a0d4-fe5d-4587-b0b1-b3aa294b7ad7
 title: Включение проверки авторизации Role-Based
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c4268c35812af04ed8a0056900e821029274756
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3dd46a0b09b981a3dd7731f5839458550379dad5619f22d1caaaddb24e87deaa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104072486"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118813862"
 ---
 # <a name="enabling-role-based-authorization-checking"></a>Включение проверки авторизации Role-Based
 
@@ -23,7 +23,7 @@ ms.locfileid: "104072486"
 
 3.  В разделе " **авторизация**" установите флажок **Принудительная проверка доступа для этого приложения** . Снятие флажка означает, что для приложения не используется безопасность на основе ролей.
 
-4.  Нажмите кнопку **ОК**.
+4.  Нажмите **OK**.
 
 Выбранный параметр авторизации вступает в силу при следующем запуске приложения.
 

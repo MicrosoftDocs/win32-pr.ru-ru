@@ -33,7 +33,7 @@ template VertexElement
 -   Использование данных вершин, предназначенное для использования. См. [**D3DDECLUSAGE**](./d3ddeclusage.md).
 -   Усажеиндекс — изменяет данные об использовании. См. [**D3DDECLUSAGE**](./d3ddeclusage.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

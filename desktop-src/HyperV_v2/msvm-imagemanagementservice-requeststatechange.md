@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: cf059fa5f45db97f5f63abb12e68a443b8988c02
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 0aaf318d52f3d871df087f19c47d78d5c432541897fd0b878e7db374f5a3586b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108111772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117811701"
 ---
 # <a name="requeststatechange-method-of-the-msvm_imagemanagementservice-class"></a>Метод RequestStateChange \_ класса мсвм)
 
@@ -151,7 +151,7 @@ uint32 RequestStateChange(
 **Не поддерживается** (1)
 </dt> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

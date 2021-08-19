@@ -115,7 +115,7 @@ goto End;
 
 Этот метод вызывает метод [**регистеренумтемплатес**](id3dxfile--registerenumtemplates.md) , получая указатель интерфейса [**ID3DXFileEnumObject**](id3dxfileenumobject.md) , вызывая [**креатинумобжект**](id3dxfile--createenumobject.md) с **пвдата** в качестве первого параметра.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -126,7 +126,7 @@ goto End;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

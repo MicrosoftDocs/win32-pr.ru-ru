@@ -4,12 +4,12 @@ ms.assetid: 815a330c-9fd2-45ff-b7df-192fc197074f
 title: Ресурсы Direct3D (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7745318db3d880711ee962edb086996764455ec8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8acc40cc929f5cedbefaa0b652c67ea59e35212e4da81c4278e3a57f48ea7662
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104139983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118523783"
 ---
 # <a name="direct3d-resources-direct3d-9"></a>Ресурсы Direct3D (Direct3D 9)
 
@@ -29,7 +29,7 @@ ms.locfileid: "104139983"
 -   [Буферы индексов (Direct3D 9)](index-buffers.md)
 -   [Буферы вершин (Direct3D 9)](vertex-buffers.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

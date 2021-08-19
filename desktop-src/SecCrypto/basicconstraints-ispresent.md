@@ -41,7 +41,7 @@ BasicConstraints.IsPresent As Boolean
 
 Если **значение — true**, имеется расширение базовых ограничений.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

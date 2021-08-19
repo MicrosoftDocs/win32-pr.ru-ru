@@ -27,7 +27,7 @@ ms.locfileid: "117858263"
 -   [Создание примера](#building-the-sample)
 -   [Запуск примера](#running-the-sample)
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

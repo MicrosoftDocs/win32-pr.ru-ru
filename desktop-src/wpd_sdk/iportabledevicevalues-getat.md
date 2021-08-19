@@ -82,7 +82,7 @@ HRESULT GetAt(
 
 если свойство указывает значение типа VT \_ UNKNOWN, свойство будет одним из Windows портативных устройств ([**ипортабледевицекэйколлектион**](iportabledevicekeycollection.md), [**ипортабледевицевалуесколлектион**](iportabledevicevaluescollection.md), [**ипортабледевицевалуес**](iportabledevicevalues.md) или [**IPortableDevicePropVariantCollection**](iportabledevicepropvariantcollection.md)). Windows переносные устройства не могут возвращать другие интерфейсы.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -93,7 +93,7 @@ HRESULT GetAt(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

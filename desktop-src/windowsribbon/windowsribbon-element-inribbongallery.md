@@ -3,7 +3,7 @@ title: Инриббонгаллери, элемент
 description: Представляет коллекцию In-Ribbon, элемент управления на основе галереи, который предоставляет подмножество элементов по умолчанию непосредственно на ленте. Все оставшиеся элементы отображаются при нажатии кнопки раскрывающегося меню.
 ms.assetid: 07d035e2-e6db-49fa-b786-a37cbceb58f6
 keywords:
-- Лента Windows для элемента Инриббонгаллери
+- элемент инриббонгаллери Windows лента
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a25b2ebb937d954adce58231fd8c6b3347a031a7
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 1156c7a3b625496b0a4d50b750a3db5cda51a6b77745aaf26d4282de1be3443d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117850842"
 ---
 # <a name="inribbongallery-element"></a>Инриббонгаллери, элемент
 
@@ -169,7 +169,7 @@ ms.locfileid: "111443375"
 | [**Установка**](windowsribbon-element-checkbox.md)<br/>                                     | Может происходить один или несколько раз<br/> <br/> |
 | [**Инриббонгаллери. Менуграупс**](windowsribbon-element-inribbongallery-menugroups.md)<br/> | Должно выполняться только один раз<br/> <br/>     |
 | [**Инриббонгаллери. Менулайаут**](windowsribbon-element-inribbongallery-menulayout.md)<br/> | Может выполняться не более одного раза<br/> <br/>      |
-| [**Button**](windowsribbon-element-button.md)<br/>                                       | Может происходить один или несколько раз<br/> <br/> |
+| [**Кнопка**](windowsribbon-element-button.md)<br/>                                       | Может происходить один или несколько раз<br/> <br/> |
 | [**SplitButton**](windowsribbon-element-splitbutton.md)<br/>                               | Может происходить один или несколько раз<br/> <br/> |
 | [**ToggleButton**](windowsribbon-element-togglebutton.md)<br/>                             | Может происходить один или несколько раз<br/> <br/> |
 
@@ -203,7 +203,7 @@ ms.locfileid: "111443375"
 <td><a href="windowsribbon-element-quickaccesstoolbar-applicationdefaults.md"><strong>Куиккакцесстулбар. Аппликатиондефаултс</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-Windows 8 и более поздние версии.
+Windows 8 и более поздних версий.
 </blockquote>
 <br/> <br/></td>
 </tr>
@@ -218,7 +218,7 @@ Windows 8 и более поздние версии.
 
 Может встречаться не более одного раза для каждого элемента [**контролграуп**](windowsribbon-element-controlgroup.md) или [**Group**](windowsribbon-element-group.md) .
 
-На следующем снимке экрана показана лента в элементе управления " [Коллекция ленты](windowsribbon-controls-inribbongallery.md) " в Microsoft Paint для Windows 7.
+на следующем снимке экрана показана лента в элементе управления " [коллекция ленты](windowsribbon-controls-inribbongallery.md) " в Microsoft Paint для Windows 7.
 
 ![снимок экрана: элемент управления "Коллекция на ленте" на ленте Microsoft Paint.](images/controls/inribbongallery.png)
 
@@ -277,7 +277,7 @@ Windows 8 и более поздние версии.
 ## <a name="element-information"></a>Сведения об элементе
 
 
-* **Минимальная поддерживаемая система**: Windows 7
+* **минимальная поддерживаемая система**: Windows 7
 * **Может быть пустым**: нет
 
 

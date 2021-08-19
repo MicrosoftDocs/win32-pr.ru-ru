@@ -74,7 +74,7 @@ ms.locfileid: "118507387"
 
 Возвращаемый тип соответствует типу в объявлении для объекта [**Texture2D**](sm5-object-texture2d.md) .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

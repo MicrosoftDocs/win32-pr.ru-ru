@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: bc8db48ee067e8d12bffa9dbff433384058013b5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8f087a9a28d06e63bc19d75974bccba05da4c77658f81401fd994a7eadb9726a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117772088"
 ---
 # <a name="capicom_signed_data_verify_flag-enumeration"></a>\_ \_ \_ \_ Перечисление флагов проверки данных CAPICOM со знаком
 

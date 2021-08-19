@@ -18,12 +18,12 @@ api_type:
 - DllExport
 api_location:
 - WmiProv.dll
-ms.openlocfilehash: 79566dccceb36281c9b3a94b19fed2ed5679dc8e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 72b82f2c6eb967f39823d5b56174bb82e7503ee56f676ffb49b65822ec435936
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118821149"
 ---
 # <a name="wmimonitorraweedidv1block-class"></a>Класс WmiMonitorRawEEdidV1Block
 
@@ -48,7 +48,7 @@ class WmiMonitorRawEEdidV1Block : MSMonitorClass
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **WmiMonitorRawEEdidV1Block** имеет следующие свойства.
 
@@ -127,7 +127,7 @@ class WmiMonitorRawEEdidV1Block : MSMonitorClass
 | <dl> <dt>0 (0x0)</dt> </dl>    | Не инициализировано<br/>   |
 | <dl> <dt>1 (0x1)</dt> </dl>    | Базовый блок EDID<br/> |
 | <dl> <dt>2 (0x2)</dt> </dl>    | Блочная схема EDID<br/>  |
-| <dl> <dt>255 (0xFF)</dt> </dl> | Другое<br/>           |
+| <dl> <dt>255 (0xFF)</dt> </dl> | Другие<br/>           |
 
 
 
@@ -135,7 +135,7 @@ class WmiMonitorRawEEdidV1Block : MSMonitorClass
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -149,7 +149,7 @@ class WmiMonitorRawEEdidV1Block : MSMonitorClass
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -6,12 +6,12 @@ keywords:
 - составной результат
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a9872a66d031e8307f911ec7270af81397a80276
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f8cf326e5d0bfb33b3dc927ba7366eb6d2b343a1a50db462de58fac8ef648bef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117826586"
 ---
 # <a name="composite-effect"></a>Составной результат
 
@@ -28,7 +28,7 @@ ms.locfileid: "103988803"
 -   [Типы режимов](#mode-types)
 -   [Образец кода](#sample-code)
 -   [Требования](#requirements)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="example-image"></a>Пример изображения
 
@@ -119,22 +119,22 @@ m_d2dContext->EndDraw();
 
 Чтобы получить пример этого результата, скачайте [образец Direct2D составных эффектов](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Direct2D%20composite%20effect%20modes%20sample).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента | Windows 8 и обновление платформы для \[ классических приложений Windows 7 \| приложения для Магазина Windows\] |
-| Минимальная версия сервера | Windows 8 и обновление платформы для \[ классических приложений Windows 7 \| приложения для Магазина Windows\] |
-| Header                   | d2d1effects. h                                                                      |
+| Минимальная версия клиента | Windows 8 и обновление платформы для Windows 7 \[ классических приложений \| Windows приложения магазина\] |
+| Минимальная версия сервера | Windows 8 и обновление платформы для Windows 7 \[ классических приложений \| Windows приложения магазина\] |
+| Заголовок                   | d2d1effects. h                                                                      |
 | Библиотека                  | D2D1. lib, дксгуид. lib                                                               |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

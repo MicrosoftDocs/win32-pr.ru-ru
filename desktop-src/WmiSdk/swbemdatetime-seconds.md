@@ -17,12 +17,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 0ef4ef15f13bf3d8dfc9272b2a3b734c3678f8e9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4d30095e5464736b3db984b71f94a216c29f4327227a5e5b99becfbcae5e1a58
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711649"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118816193"
 ---
 # <a name="swbemdatetimeseconds-property"></a>SWbemDateTime. Seconds, свойство
 
@@ -56,7 +56,7 @@ SWbemDateTime.Seconds As Long
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Свойство **SWbemDateTime. Seconds** может содержать неверное значение, если свойство [**SWbemDateTime. minutes**](swbemdatetime-minutes.md) установлено в значение 1. Он содержит значение, которое смещается на одну секунду из-за ошибки округления, возникающей при преобразовании значения [**DateTime**](datetime.md) CIM в значение **\_ даты VT** . Если вместо значения свойства **minutes** задано значение 0 (ноль), то свойство **Seconds** будет возвращать правильную величину.
 
@@ -64,7 +64,7 @@ SWbemDateTime.Seconds As Long
 
 Примеры использования объекта [**SWbemDateTime**](swbemdatetime.md) для преобразования значений [**DateTime**](datetime.md) CIM в формат **fileTime** или в формат **\_ даты VT** см. в разделе [задачи WMI: даты и время](wmi-tasks--dates-and-times.md). Описание формата **DateTime** в CIM см. в разделе [Формат даты и времени](date-and-time-format.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -72,7 +72,7 @@ SWbemDateTime.Seconds As Long
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
 | Библиотека типов<br/>             | <dl> <dt>Wbemdisp. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | \_SWBEMDATETIME CLSID<br/>                                                         |
@@ -80,7 +80,7 @@ SWbemDateTime.Seconds As Long
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

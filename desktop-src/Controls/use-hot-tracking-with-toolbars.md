@@ -29,7 +29,7 @@ ms.locfileid: "117829093"
 
 -   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Обязательные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
 -   Windows Программирование пользовательского интерфейса

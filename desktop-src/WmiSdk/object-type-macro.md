@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Макрос типа OBJECT-TYPE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c605a414c402f2cf2d18be2d966db6408f23cdc9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0ef71bcdd915dfaa59ace008c28a5d63a323c2cd1d0f119b9d91e5a0720e192e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104143393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118818010"
 ---
 # <a name="object-type-macro"></a>Макрос типа OBJECT-TYPE
 
@@ -115,7 +115,7 @@ ms.locfileid: "104143393"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Макрос OBJECT-TYPE описывает основные характеристики отдельного объекта MIB. Набор макросов типа OBJECT можно рассматривать как группу связанных объектов. В SNMPv2C используйте макрос OBJECT-GROUP, чтобы формально сгруппировать наборы связанных объектов в коллекцию. Однако для создания коллекций в настоящее время не существует формального механизма. В целях поставщика SNMP макрос группы объектов игнорируется, но вы можете создавать связи группирования и создавать коллекции.
 

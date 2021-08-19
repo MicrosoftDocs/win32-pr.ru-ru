@@ -4,12 +4,12 @@ description: Используйте следующие функции для р�
 ms.assetid: e88720aa-080b-4d87-a442-1b436c256ca6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f694d2dcd140d8af8950fa7a2a4ae5049a679ff8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 029b36ef862f11c58492fd8ec9c7c6f292797c2e35e75592f385e18d6d0e1a25
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067243"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117788019"
 ---
 # <a name="router-information-functions"></a>Функции информации маршрутизатора
 
@@ -32,9 +32,9 @@ ms.locfileid: "104067243"
 
 Многие [функции администрирования и настройки маршрутизатора](understanding-mprinfo-functions-and-information-headers.md) используют заголовки данных.
 
- 
+ 
 
- 
+ 
 
 
 
