@@ -9,17 +9,17 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 05d94e9e09aad121720ca491864a23f3d2d38b16
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d8e81e725e92916b134633ec046174b79e6c37e1c71eb3a73b994260f1839fc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117669200"
 ---
 # <a name="transferring-data"></a>Передача данных
 
 > [!Note]  
-> Эта система сценариев была заменена на уровень автоматизации службы "получение образа Windows" (WIA). См. раздел [уровень службы "получение образа Windows](/previous-versions/windows/desktop/wiaaut/-wiaaut-startpage)".
+> эта система сценариев была заменена на уровень автоматизации службы Windowsного получения изображений (WIA). см. раздел [уровень автоматизации получения образа Windows](/previous-versions/windows/desktop/wiaaut/-wiaaut-startpage).
 
  
 

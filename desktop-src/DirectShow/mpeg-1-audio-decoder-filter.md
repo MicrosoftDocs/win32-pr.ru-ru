@@ -4,12 +4,12 @@ ms.assetid: 2f695ac6-7d4b-41a8-b4c5-83fb9d20ab9d
 title: Фильтр звукового декодера MPEG-1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0f2c68243544a8c6a77cbd8101c85d68f393c3d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 0324cf9626ad73192bd403581f5933907f014ce93e6f23a05fa1bd155863e009
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105682293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118153020"
 ---
 # <a name="mpeg-1-audio-decoder-filter"></a>Фильтр звукового декодера MPEG-1
 
@@ -76,11 +76,11 @@ ms.locfileid: "105682293"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Фильтры DirectShow](directshow-filters.md)
+[DirectShow Фильтрующ](directshow-filters.md)
 </dt> </dl>
 
  

@@ -78,7 +78,7 @@ DWORD WINAPI CreatePropertyDatabase(
 
 Функция **креатепропертидатабасе** выделяет структуры, которые сетевой монитор должны поддерживать базу данных свойств.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

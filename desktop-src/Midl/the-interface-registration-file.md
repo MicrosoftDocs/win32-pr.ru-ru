@@ -6,12 +6,12 @@ keywords:
 - файл регистрации интерфейса MIDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1fd6f54f5e027a0ea25dc463772ec24ee5f7386
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: d9a5541a5e60b1903364236f86dcf1845a5e1ac153fc91b47bacf9f553a9a109
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "105661719"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117806182"
 ---
 # <a name="the-interface-registration-file"></a>Файл регистрации интерфейса
 
@@ -21,13 +21,13 @@ ms.locfileid: "105661719"
 
 Имя по умолчанию для файла регистрации интерфейса, созданного из входного файла, — DLLDATA. c. Параметр компилятора [**/dlldata**](-dlldata.md) MIDL можно использовать для переопределения имени файла по умолчанию. Переопределение имени файла регистрации интерфейса по умолчанию особенно полезно, когда некоторые файлы IDL, Упакованные в общий двоичный файл, находятся в разных каталогах.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Создание и регистрация библиотеки DLL прокси-сервера](../com/building-and-registering-a-proxy-dll.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

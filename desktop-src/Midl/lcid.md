@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fa22b231c63583c6d16e6a50f3e9987c5b61128
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: e87d1b6105d7e6ae561d7409cbf256b67f965c61e235ffc5782594cb5623497c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103789972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117806800"
 ---
 # <a name="lcid-attribute"></a>атрибут LCID
 
@@ -51,7 +51,7 @@ function-name([parameter-attribute-list, lcid] long  parameter-name,. . .);
 *localeID* 
 </dt> <dd>
 
-Указывает 32-разрядный идентификатор локали, используемый в поддержке национальных языков Windows. Обычно идентификатор локали указывается в шестнадцатеричном формате.
+указывает 32-разрядный идентификатор локали, используемый в Windows поддержки национальных языков. Обычно идентификатор локали указывается в шестнадцатеричном формате.
 
 </dd> <dt>
 
@@ -97,7 +97,7 @@ function-name([parameter-attribute-list, lcid] long  parameter-name,. . .);
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Синтаксис **\[ LCID \]** имеет две различные формы. воздействие атрибута зависит от того, какой синтаксис используется — синтаксис инструкции [**библиотеки**](library.md) или синтаксис параметра.
 
@@ -136,7 +136,7 @@ interface IMyFace : IDispatch
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -152,7 +152,7 @@ interface IMyFace : IDispatch
 [**/LCID**](-lcid.md)
 </dt> <dt>
 
-[**библиотека**](library.md)
+[**Библиотечная**](library.md)
 </dt> <dt>
 
 [Синтаксис файла ODL](/previous-versions/windows/desktop/automat/odl-file-syntax)
@@ -164,6 +164,6 @@ interface IMyFace : IDispatch
 [**retval**](retval.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

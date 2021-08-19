@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 06ba2eb74f57354955d4254ca8fa08fd9557a1fb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0eb50c5e753d0dda4cd0df6f305f4bb951ebb69adaf0f88b4a4cd107ed5baf4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703301"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118083498"
 ---
 # <a name="columnvalueofstructtvalueasobject-property"></a>Колумнвалуеофструкт \<T\> . Валуеасобжект, свойство
 
@@ -60,7 +60,7 @@ public override Object ValueAsObject { get; }
 
 Тип: [System. Object](/dotnet/api/system.object)  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

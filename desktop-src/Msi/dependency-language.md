@@ -42,7 +42,7 @@ propVal = Dependency.Language
 
 См. раздел [**Получение \_ функции языка (объект зависимости)**](/windows/win32/api/mergemod/nf-mergemod-imsmdependency-get_language).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 01e9a4c91fac8553867536f4f5a8c3094e0f0ff9
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 1e1f42a2fb643a2ce643437aad73b13c6e55d3462e92f9ce52ba208c6dc5cb68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104487117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117807887"
 ---
 # <a name="auto_handle-attribute"></a>\_атрибут Auto Handle
 
@@ -26,7 +26,7 @@ ms.locfileid: "104487117"
 > [!Note]  
 > Этот атрибут устарел и больше не поддерживается. Рекомендуется использовать параметр [**/robust**](-robust.md) .
 
- 
+ 
 
 ``` syntax
 [ 
@@ -63,7 +63,7 @@ interface interface-name
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Атрибут **\[ Auto \_ Handle \]** отображается в заголовке интерфейса ACF. Он также отображается в заголовке интерфейса IDL-файла при указании конфигурации компилятора MIDL Switch [**/АПП \_ config**](-app-config.md).
 
@@ -76,7 +76,7 @@ interface interface-name
 > [!Note]  
 > Нельзя использовать автоматическую привязку (с атрибутом **\[ Auto \_ Handle \]** или по умолчанию) при обработке данных по каналам.
 
- 
+ 
 
 ## <a name="examples"></a>Примеры
 
@@ -98,7 +98,7 @@ interface MyInterface
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -123,9 +123,9 @@ interface MyInterface
 [**nocode**](nocode.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

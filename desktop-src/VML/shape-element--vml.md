@@ -96,7 +96,7 @@ ms.locfileid: "117754169"
 | [Целевой объект](msdn-online-vml-target-attribute.md)                                                     | Определяет фрейм или окно, в котором будет отображаться URL-адрес.                                     |
 | [Title](title-attribute--shape--vml.md)                                                           | Определяет текст, отображаемый при наведении указателя мыши на фигуру.                        |
 | [Top](msdn-online-vml-top-attribute.md)                                                           | Определяет расположение фигуры относительно элемента, расположенного над ним в потоке страницы.    |
-| [Type](type-attribute--shape--vml.md)                                                             | Определяет ссылку на идентификатор элемента [шапетипе](msdn-online-vml-shapetype-element.md) . |
+| [Тип](type-attribute--shape--vml.md)                                                             | Определяет ссылку на идентификатор элемента [шапетипе](msdn-online-vml-shapetype-element.md) . |
 | [усердравн](msdn-online-vml-userdrawn-attribute.md)                                               | Определяет, добавил ли пользователь фигуру к главному слайду.                             |
 | [усерхидден](msdn-online-vml-userhidden-attribute.md)                                             | Определяет, скрыта ли привязка скрипта.                                                  |
 | [Видимость](msdn-online-vml-visibility-attribute.md)                                             | Определяет, отображается ли фигура.                                                       |

@@ -4,12 +4,12 @@ ms.assetid: ef89dca4-9ac7-49fd-b3e2-ef3804faf046
 title: Прокси-сервер System. GPS. Speed
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b220e6de58e068ba1a9c21a3550dde78e84da3a4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 601fe2b14d4f3cf8d771780a282c6dd4ec9ea87b33e922f5caa0172fcd710346
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118032868"
 ---
 # <a name="systemgpsspeed-proxy"></a>Прокси-сервер System. GPS. Speed
 
@@ -39,7 +39,7 @@ VT \_ UI8
 
 Ловпарт Ухвал.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -59,7 +59,7 @@ System.Boolean get_isIdentical (
 
 **ивмпплайлист.** ивмпплайлист — это свойство в Visual Basic, которое принимает параметр, а в C# называется методом **. get \_ одинаковы** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -71,7 +71,7 @@ System.Boolean get_isIdentical (
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,25 +1,25 @@
 ---
-description: 'Дополнительные сведения о: использование расширенного подсистемы хранилища'
-title: Использование расширенного подсистемы хранилища
+description: 'дополнительные сведения о: использование расширяемого механизма служба хранилища'
+title: использование расширяемого механизма служба хранилища
 TOCTitle: Using Extensible Storage Engine
 ms:assetid: d0249519-4c7c-49c1-9c80-b3cae2537d61
 ms:mtpsurl: https://msdn.microsoft.com/library/Gg294096(v=EXCHG.10)
 ms:contentKeyID: 32765711
 ms.date: 04/11/2016
 ms.topic: article
-ms.openlocfilehash: 636c3fa96692b8c48f9a175b5fa7d34c53314e1d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e994b423b56b092e8865ad2440829aecfe3832b5a36d015869e0b700c2579a86
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711578"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118070444"
 ---
-# <a name="using-extensible-storage-engine"></a>Использование расширенного подсистемы хранилища
+# <a name="using-extensible-storage-engine"></a>использование расширяемого механизма служба хранилища
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
-## <a name="using-extensible-storage-engine"></a>Использование расширенного подсистемы хранилища
+## <a name="using-extensible-storage-engine"></a>использование расширяемого механизма служба хранилища
 
 В этом разделе содержатся общие сведения об использовании следующих частей API ESE.
 
@@ -35,4 +35,4 @@ _**Применимо к:** Windows | Windows Server_
 
   - [Файлы ESE](./extensible-storage-engine-files.md)
 
-Исходные файлы программы должны включать заголовочный файл ESENT. h для доступа к прототипам функций и определения структур для API-интерфейса расширенного подсистемы хранилища. Разработчики могут использовать файл библиотеки ESENT. lib для создания приложений, использующих API подсистемы расширенного хранилища. Во время выполнения приложения связываются с esent.dll.
+исходные файлы программы должны включать файл заголовка esent. h для доступа к прототипам функций и определения структур для расширяемого API-интерфейса служба хранилища Engine. разработчики могут использовать файл библиотеки esent. lib для создания приложений, использующих API-интерфейс расширенного обработчика служба хранилища. Во время выполнения приложения связываются с esent.dll.

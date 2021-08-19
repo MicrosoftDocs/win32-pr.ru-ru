@@ -3,7 +3,7 @@ title: Сообщение WM_CHANGECBCHAIN (Winuser. h)
 description: Отправляется в первое окно в цепочке окна просмотра буфера обмена при удалении окна из цепочки. Окно получает это сообщение через функцию WindowProc.
 ms.assetid: 7be87342-87fa-4cd2-b066-0b36b7ef52f5
 keywords:
-- Обмен данными с сообщениями WM_CHANGECBCHAIN
+- WM_CHANGECBCHAIN Exchange данных сообщений
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ab91640320e3659d0e9fb130f5c773ccbb7c4e8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 25dac74784a214f77f8b2912e2fd643624ae767027121e2262d81989d54d3831
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136171"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117736318"
 ---
 # <a name="wm_changecbchain-message"></a>\_Сообщение ЧАНЖЕКБЧАИН WM
 
@@ -56,7 +56,7 @@ ms.locfileid: "104136171"
 
 Если приложение обрабатывает это сообщение, оно должно вернуть ноль.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Каждое окно просмотра буфера обмена сохраняет маркер в следующем окне в цепочке окна просмотра буфера обмена. Изначально этот маркер является возвращаемым значением функции [**сетклипбоардвиевер**](/windows/desktop/api/Winuser/nf-winuser-setclipboardviewer) .
 
@@ -70,7 +70,7 @@ ms.locfileid: "104136171"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

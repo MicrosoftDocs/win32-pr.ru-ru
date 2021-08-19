@@ -87,7 +87,7 @@ typedef struct tagMCI_VCR_SETAUDIO_PARMS {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

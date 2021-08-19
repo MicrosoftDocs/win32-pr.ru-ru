@@ -6,12 +6,12 @@ keywords:
 - Значение реестра LocalService — COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31f630c7c0a6f5e3bbf4b9c26ad82e5a104be238
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 5e454566ac505907f66fad585062bc67f41c865df45b30405b83e5faadef7f9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103891145"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117736470"
 ---
 # <a name="localservice"></a>локальная служба.
 
@@ -21,11 +21,11 @@ ms.locfileid: "103891145"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
-   {AppID_GUID}
-      LocalService = name
+   {AppID_GUID}
+      LocalService = name
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Помимо запуска в качестве исполняемого файла локального сервера (EXE), COM-объект может также выбрать сам пакет для запуска в качестве приложения службы при активации с помощью локального или удаленного клиента. Службы поддерживают многочисленные полезные функции администрирования, интегрированные с интерфейсом пользователя, включая локальные и удаленные запуски, остановку, приостановку и перезапуск, а также возможность установить сервер для работы под определенной учетной записью пользователя и с помощью оконной станции.
 
@@ -43,7 +43,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
 -   В настоящее время на компьютере может выполняться только один экземпляр приложения службы. Поэтому службы COM должны зарегистрировать объекты класса при запуске с помощью РЕГКЛС \_ мултиплеусе для поддержки нескольких клиентов.
 -   Для правильного запуска и инициализации службы COM, настроенные для автоматического запуска при загрузке компьютера, должны содержать службы RPCSS в списке зависимых служб.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -56,6 +56,6 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
 [Службы](/windows/desktop/Services/services)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

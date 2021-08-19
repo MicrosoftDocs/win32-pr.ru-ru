@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d0ed97a93958ba52231439dc6c2125db982296ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 23f17641957ebc51216768e45cd2c4dac6565dc5b43eec3b782719fe9bb49d26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684144"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118073069"
 ---
 # <a name="jet_threadstatscpageredirtied-property"></a>Свойство JET_THREADSTATS. Кпажередиртиед
 
@@ -62,7 +62,7 @@ public int cPageRedirtied { get; internal set; }
 
 Тип: [System. Int32](/dotnet/api/system.int32)  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

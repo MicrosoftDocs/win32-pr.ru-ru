@@ -1,5 +1,5 @@
 ---
-description: Возвращает идентификатор аппаратного устройства для получения образа Windows (WIA). Только для чтения.
+description: получает идентификатор аппаратного устройства для получения образа (WIA) Windows. Только для чтения.
 ms.assetid: b3719c04-42d0-44d2-834b-ac11989c56da
 title: DeviceInfo.Id, свойство
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: 42505feaab673f8d48e71b96caac5c81b756e614
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 95c124e623e0c832b7e2e8a737f56b97582ae2b7fcc7df842a154acf7be975eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105719374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118441322"
 ---
 # <a name="deviceinfoid-property"></a>DeviceInfo.Id, свойство
 
-Возвращает идентификатор аппаратного устройства для получения образа Windows (WIA). Только для чтения.
+получает идентификатор аппаратного устройства для получения образа (WIA) Windows. Только для чтения.
 
 Это свойство доступно только для чтения.
 
@@ -39,14 +39,14 @@ propVal = DeviceInfo.Id
 
 Строка, которая получает идентификатор.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                          |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Wiascr.dll (версия 4,90 или более поздняя)</dt> </dl> |
 
 

@@ -50,7 +50,7 @@ LTEXT text, id, x, y, width, height [, style [, extended-style]]
 LTEXT "Filename", 101, 10, 10, 100, 100
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

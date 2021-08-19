@@ -4,12 +4,12 @@ ms.assetid: 6747D082-4B7B-4C7E-A230-2E8C8412FABD
 title: Идентификаторы GUID прямого управления
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 57dfa5701d7f01a9738206e7a2e3d669f6cf6a4a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3ee67206bf9395c3a338dba27c9365578d30d7304f465d93fdc90322a77a8a0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105719238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118280545"
 ---
 # <a name="direct-manipulation-guids"></a>Идентификаторы GUID прямого управления
 
@@ -18,7 +18,7 @@ ms.locfileid: "105719238"
 - [Главный класс — идентификаторы](#master-class-ids)
 - [Вторичный класс содержимого — идентификаторы](#secondary-content-class-ids)
 - [Идентификаторы классов объектов поведения](#behavior-objects-class-ids)
-- [См. также](#related-topics)
+- [Связанные темы](#related-topics)
 
 ## <a name="master-class-ids"></a>Главный класс — идентификаторы
 
@@ -43,6 +43,6 @@ ms.locfileid: "105719238"
 | **\_АУТОСКРОЛЛБЕХАВИОР CLSID**            | Поведение прокрутки. Включает автоматическую прокрутку содержимого, так как она приближается к границе заданной оси.                                           |
 | **\_ДЕФЕРКОНТАКТСЕРВИЦЕ CLSID**           | Обратитесь в режим отсрочки. Время ожидания (в милллисекондс) перед вызовом [**сетконтакт**](/windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setcontact). |
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 [Непосредственная манипуляция](direct-manipulation-portal.md), [**активатеконфигуратион**](/windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-activateconfiguration), [**аддконфигуратион**](/windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-addconfiguration), [**идиректманипулатионкомпоситор**](/windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationcompositor)

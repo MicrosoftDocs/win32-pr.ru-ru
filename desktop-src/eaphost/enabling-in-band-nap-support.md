@@ -4,12 +4,12 @@ description: Можно включить для методов протокол�
 ms.assetid: 298c89d9-7a6a-4280-9af9-77c7c00cab92
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa9eae9fc17e99b27f620fbab1ed42cbd4b73800
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 477ad8f2ee033b3f98f9cac0e7ee34d18dc62f00dd5bd7c0e09509ad32bcfa7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "103797112"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117904280"
 ---
 # <a name="implementing-in-band-nap-support-for-eap-methods"></a>Реализация поддержки NAP In-Band для методов EAP
 
@@ -44,7 +44,7 @@ ms.locfileid: "103797112"
 > [!Note]  
 > Элементу **еаптипе** структуры [**\_ атрибута EAP**](/windows/desktop/api/eaptypes/ns-eaptypes-eap_attribute) всегда будет присвоено значение **еатеаптлв** , а элемент **pValue** будет указывать на первый байт TLV, содержащего TLV ответа SoH.
 
- 
+ 
 
 ### <a name="implementing-nap-support-on-eap-server-methods"></a>Реализация поддержки NAP для методов сервера EAP
 
@@ -65,7 +65,7 @@ ms.locfileid: "103797112"
 > [!Note]  
 > Элементу **еаптипе** структуры [**\_ атрибута EAP**](/windows/desktop/api/eaptypes/ns-eaptypes-eap_attribute) всегда будет присвоено значение **еатеаптлв** , а элемент **pValue** будет указывать на первый байт TLV, содержащего TLV ответа SoH.
 
- 
+ 
 
 ### <a name="messages"></a>Сообщения
 
@@ -73,7 +73,7 @@ TLV состояния работоспособности EAP используе
 
 Дополнительные сведения см. в статье [уведомление о состоянии работоспособности защиты доступа к сети (NAP)](https://go.microsoft.com/fwlink/p/?linkid=83918).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -92,6 +92,6 @@ TLV состояния работоспособности EAP используе
 [EAPHost отправителей запросов](eaphost-supplicants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -62,7 +62,7 @@ NAPAPI VOID WINAPI FreeFixupInfo(
 
 Все функции NAP для освобождения памяти также освобождают все внедренные указатели.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

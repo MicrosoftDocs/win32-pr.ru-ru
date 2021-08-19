@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9851a2f74502a79b5cc85c494e468c4a346798f0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 84aed91fd3bb2b735de08a002f924bab1bcc8f5f279a4a6047de2b7b73cd7844
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104998750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117734256"
 ---
 # <a name="id3dx11effectvariablegetmemberbyname-method"></a>Метод ID3DX11EffectVariable:: Жетмембербинаме
 
@@ -43,7 +43,7 @@ ID3DX11EffectVariable* GetMemberByName(
 
 <dl> <dt>
 
-*имя*; 
+*Имя* 
 </dt> <dd>
 
 Тип: **[ **LPCSTR**](/windows/desktop/WinProg/windows-data-types)**
@@ -58,7 +58,7 @@ ID3DX11EffectVariable* GetMemberByName(
 
 Указатель на [**ID3DX11EffectVariable**](id3dx11effectvariable.md).
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Если переменная действия является структурой, используйте этот метод для поиска элемента по имени.
 
@@ -73,7 +73,7 @@ ID3DX11EffectVariable* GetMemberByName(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
+| Заголовок<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
 | Библиотека<br/> | <dl> <dt>Н/д (библиотека Effects 11 доступна в сети в качестве общего источника.)</dt> </dl> |
 
 

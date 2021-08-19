@@ -4,12 +4,12 @@ ms.assetid: dc4326ba-2ebc-4bca-8fba-02d8db739b8f
 title: Потерянные устройства (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a808cb113f5c2fd35a741e0efc7c6b8af9e127df
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 038d03f1d95e4beb90d0e592fc666972db4e92e5a2a986a7711023a6b9fa05b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104341832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117728582"
 ---
 # <a name="lost-devices-direct3d-9"></a>Потерянные устройства (Direct3D 9)
 
@@ -69,7 +69,7 @@ Direct3D также позволяет приложениям копироват
 
 В Direct3D 9 шейдер вершин и шейдеры пикселей не нужно создавать повторно после сброса. Они будут сохранены. В предыдущих версиях DirectX были созданы повторно созданные шейдеры, необходимые для устройства.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 72ddded3beb768543f2f990aa9d656fba1fa8b98
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: e64e97ea0d7b41d87ef1d535d562f3b515dda4f59a67f6d5e35f97bed8b1f9ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "105650308"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117807239"
 ---
 # <a name="helpstringcontext-attribute"></a>атрибут хелпстрингконтекст
 
@@ -52,7 +52,7 @@ ms.locfileid: "105650308"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте функции **GetDocumentation2** в интерфейсах **ITypeLib2** и **ITypeInfo2** , чтобы получить строку справки.
 
@@ -80,9 +80,9 @@ library Lines
 };
 ```
 
- 
+ 
 
- 
+ 
 
 
 

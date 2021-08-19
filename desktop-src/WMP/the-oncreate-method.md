@@ -3,19 +3,19 @@ title: Метод onCreate
 description: Метод onCreate
 ms.assetid: b23546b3-968f-41d8-ba07-3d694152c3ed
 keywords:
-- Подключаемые модули проигрывателя Windows Media, метод onCreate
+- подключаемые модули проигрыватель Windows Media, метод oncreate
 - подключаемые модули, метод onCreate
 - подключаемые модули пользовательского интерфейса, метод onCreate
 - Подключаемые модули пользовательского интерфейса, метод onCreate
 - Метод onCreate
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d896ed9ebc6e9dc2bff9ff24ad23d50f7905c24
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ac52b1c58c6799f89d29fb1ee24c09767fee26729e760b2b454f1a359bd57596
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103887747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118118112"
 ---
 # <a name="the-oncreate-method"></a>Метод onCreate
 
@@ -50,16 +50,16 @@ LRESULT OnCreate(UINT uMsg, WPARAM wParam, LPARAM lParam, BOOL& bHandled)
 
 Этот идентификатор команды сопоставляется с методом onSearch в разделе схемы сообщений, описанном выше.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Реализация Кплугинвиндов**](implementing-cpluginwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -6,12 +6,12 @@ keywords:
 - TS_ATTRID
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 18ea3823a95c123fe9942f69a2a133fd94a8567a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2e1c40d56f1f8ff3deb59d0dd7664a197a672ade7b2d53beebd8e35ba5de7c0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103800988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117950340"
 ---
 # <a name="ts_attrid"></a>\_ATTRID TS
 
@@ -24,27 +24,27 @@ typedef GUID TS_ATTRID;
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Список стандартных идентификаторов GUID для TS \_ ATTRID находится в тсаттрс. h.
 
 Идентификаторы GUID ТСАТТРИД \_ Text \_ ВЕРТИКАЛВРИТИНГ и тсаттрид \_ \_ полезны для того, чтобы приложения соответствовали вводимому тексту, который должен быть исправлен. Можно создать дополнительные идентификаторы GUID, определяемые пользователем.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                       |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                             |
-| Распространяемые компоненты<br/>          | TSF 1,0 в Windows 2000 профессиональная<br/>                                         |
-| Header<br/>                   | <dl> <dt>Текстстор. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                       |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                             |
+| Распространяемые компоненты<br/>          | TSF 1,0 на Windows 2000 Professional<br/>                                         |
+| Заголовок<br/>                   | <dl> <dt>Текстстор. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Текстстор. idl</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

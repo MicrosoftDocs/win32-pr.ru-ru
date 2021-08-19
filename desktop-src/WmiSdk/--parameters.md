@@ -14,12 +14,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: df858445797a45e21a0d54e9aedc2387851ae54f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a2f39cb7b88977c8f61e562badaa6cbda7a5004fc2d0edf70eb59c6276070efd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118110569"
 ---
 # <a name="__parameters-class"></a>\_\_Класс параметров
 
@@ -40,7 +40,7 @@ class __PARAMETERS
 
 Класс **\_ \_ параметров** не определяет никаких членов.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы определить метод в пользовательском классе, клиент WMI создает копию класса **\_ \_ Parameters** и добавляет свойство для каждого входного параметра в методе. Если метод содержит возвращаемое значение или выходные параметры, необходимо создать еще одну копию **\_ \_ параметров** . Если метод возвращает возвращаемое значение, клиент должен добавить свойство с именем **ReturnValue**. Затем поставщик метода сохраняет параметры метода с помощью вызова [**ивбемклассобжект::P утмесод**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-putmethod).
 
@@ -55,7 +55,7 @@ class __PARAMETERS
 -   Если метод был вызван с помощью [**IWbemServices:: ExecMethod**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execmethod), то экземпляр **\_ \_ параметров** возвращается в качестве выходного аргумента.
 -   Если метод был вызван с помощью [**IWbemServices:: ексекмесодасинк**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execmethodasync), то экземпляр **\_ \_ параметров** возвращается в качестве параметра [**ивбемобжектсинк::**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectsink-indicate).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -67,7 +67,7 @@ class __PARAMETERS
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

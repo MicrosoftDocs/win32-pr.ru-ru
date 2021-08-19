@@ -9,12 +9,12 @@ keywords:
 - Приложения с поддержкой TSF, сведения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ba2df5aff00c01318f1da6209b26c1d87861f2a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3de5107696a196349fd807f753d87dc92b2b9172aa4fdcdce6bb47a6f8db8893
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104328752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117949760"
 ---
 # <a name="what-is-text-services-framework"></a>Что такое платформа текстовых служб?
 
@@ -24,9 +24,9 @@ ms.locfileid: "104328752"
 
 Текстовые службы предоставляют текст приложениям таким образом, что не требует подробных сведений о приложениях, создающих или получающих текст. Например, Текстовая служба может предоставлять текстовые входные данные из устройств распознавания речи или рукописного ввода.
 
- 
+ 
 
- 
+ 
 
 
 

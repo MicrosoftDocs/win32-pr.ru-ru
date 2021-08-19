@@ -3,7 +3,7 @@ title: Команда MCI_PAUSE (Ммсистем. h)
 description: Команда MCI \_ Pause приостанавливает текущее действие. Эта команда распознает аудио компакт-диск, цифровое видео, устройство MIDI Sequencer, ВИДЕОМАГНИТОФОН, видеодиск и волна-аудиоустройства.
 ms.assetid: c4d0b0a2-cd7b-4641-a318-eb4b4e88b70f
 keywords:
-- MCI_PAUSE команды мультимедиа Windows
+- команда MCI_PAUSE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b076397ca9ab770d6f9c23cc5b64853bdd2f07ee
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2c2318a10e7b03bf89d616bd6ff2373cdf785b0bb4015ab4b308ead57d7f9223
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103801018"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117803502"
 ---
 # <a name="mci_pause-command"></a>\_Команда приостановки MCI
 
@@ -68,13 +68,13 @@ MCIERROR mciSendCommand(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Разница между командами [ \_ остановки](mci-stop.md) и \_ приостановки MCI зависит от устройства. Если это возможно, команда MCI \_ приостанавливает операцию устройства, но оставляет устройство готовым к немедленному возобновлению воспроизведения. При использовании драйверов МЦИКДА, МЦИСЕК и МЦИПИОНР \_ Команда приостановки MCI работает так же, как \_ команда MCI остановить.
 
 Для устройств с цифровыми видео параметр *лппаусе* указывает на структуру [**MCI \_ ДГВ \_ Pause \_ пармс**](/previous-versions//dd743395(v=vs.85)) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -82,11 +82,11 @@ MCIERROR mciSendCommand(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
