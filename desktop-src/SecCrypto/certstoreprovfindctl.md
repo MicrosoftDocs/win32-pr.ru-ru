@@ -89,7 +89,7 @@ BOOL WINAPI CertStoreProvFindCTL(
 
 Возвращает **значение true** , если функция завершается успешно, или **значение false** в случае сбоя.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 3aa3b1ad-4da2-439b-992f-ffda81c5302a
 title: Методы оттенков
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0369177a25678e07172e01f34b6ceb9b5a2bd1f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d92489f7adc2e2c52ef3d8891e996bd040a3923c19f93875b7bcd2b6382ac23
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104985213"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118067688"
 ---
 # <a name="tint-methods"></a>Методы оттенков
 

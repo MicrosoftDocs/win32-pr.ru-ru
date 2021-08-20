@@ -3,24 +3,24 @@ title: Функции записи файлов
 description: Функции записи файлов
 ms.assetid: 4514f463-26cf-48a4-aa0c-c25fc5a1979f
 keywords:
-- Windows Media Format SDK, функции записи файлов
-- Windows Media Format SDK, функции
+- Windows Пакет SDK для формата мультимедиа, функции записи файлов
+- Windows Пакет SDK для формата мультимедиа, функции
 - Расширенный системный формат (ASF), функции записи файлов
 - ASF (Расширенный системный формат), функции записи файлов
 - Расширенный формат систем (ASF), функции
 - ASF (Расширенный системный формат), функции
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a4764a318ac7cd420296b15bb4a5818ded06384
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 59207c12c678cc313023edc20e544eacae4351bd32798c3a7d767a80d9817c7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117848143"
 ---
 # <a name="file-writing-features"></a>Функции записи файлов
 
-Одной из основных возможностей пакета SDK Windows Media Format является возможность записи файлов в формате ASF. Объект модуля записи используется для записи файлов ASF. Дополнительные сведения см. в разделе [объект модуля записи](writer-object.md).
+одной из основных возможностей пакета SDK для Windows Media format является возможность записи файлов в формате ASF. Объект модуля записи используется для записи файлов ASF. Дополнительные сведения см. в разделе [объект модуля записи](writer-object.md).
 
 В самом базовом сценарии записи файлов необходимо назначить профиль для использования и имя создаваемого файла. Вы передаете образцы в модуль записи по одному за раз. После завершения передачи образцов в модуль записи он завершает свои операции и завершает файл ASF. Дополнительные сведения о базовой записи файлов см. в разделе [запись файлов ASF](writing-asf-files.md).
 
@@ -31,19 +31,19 @@ ms.locfileid: "104067944"
 -   [Ресамплинг звука](audio-resampling.md)
 -   [Приемников](sinks.md)
 -   [Поддержка водяных знаков](watermarking-support.md)
--   [Форматы ввода, параметры ввода и модули данных](input-formats-input-settings-and-data-unit-extensions.md)
+-   [форматы ввода, Параметры ввода и расширения модулей данных](input-formats-input-settings-and-data-unit-extensions.md)
 -   [Перечисление формата входных данных](input-format-enumeration.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Компоненты**](features.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

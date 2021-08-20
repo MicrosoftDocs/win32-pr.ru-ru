@@ -3,7 +3,7 @@ title: TEXT. toolTip
 description: Атрибут toolTip указывает или получает текст подсказки для элемента управления Text.
 ms.assetid: 3e275607-e7ff-4424-8310-c628ede22629
 keywords:
-- TEXT. toolTip проигрыватель Windows Media Player
+- проигрыватель Windows Media TEXT. toolTip
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b064f2abefd07ec65a82069196b1012561699b62
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 726337ffb31b86d4eaa3a20a1d922fc622110b647fe9be747e8ae239c4548276
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675411"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118831823"
 ---
 # <a name="texttooltip"></a>TEXT. toolTip
 
@@ -31,7 +31,7 @@ ms.locfileid: "105675411"
 
 Этот атрибут является **строкой** для чтения и записи и имеет максимальную длину 1024 символов. У него нет значения по умолчанию.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если этот атрибут не указан и текст в атрибуте **value** усекается в элементе управления Text, или для свойства **WordWrap** задано значение true, подсказка будет отображать полный текст атрибута **value** .
 
@@ -39,17 +39,17 @@ ms.locfileid: "105675411"
 
 См. атрибут [value](text-value.md) для примера, иллюстрирующий использование атрибутов **текстового** элемента.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

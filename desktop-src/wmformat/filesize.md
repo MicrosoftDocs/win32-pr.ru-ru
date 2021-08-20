@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 84797aaf5955458ed211f0dea68e1d50feb7f1f7
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 1aa6e0d8fc07f8d51863a5cff3bd46ca13bee722de1e4e6fe2a5f04d99f57e44
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104133162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117848153"
 ---
 # <a name="filesize"></a>FileSize
 
@@ -31,11 +31,11 @@ g \_ всзвмфилесизе
 
 **ВМТ \_ тип \_ QWORD**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это закодированный атрибут.
 
-Этот атрибут не может дублироваться на уровне файла. Если этот атрибут используется для отдельного потока, он будет рассматриваться как пользовательские метаданные и не будет передавать его нормальные значения объектам пакета SDK Windows Media Format.
+Этот атрибут не может дублироваться на уровне файла. если этот атрибут используется для отдельного потока, он будет рассматриваться как пользовательские метаданные и не будет передавать свое нормальное значение объектам из пакета SDK Windows Media Format.
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -44,9 +44,9 @@ g \_ всзвмфилесизе
 [**Список атрибутов**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -56,7 +56,7 @@ ms.locfileid: "118791943"
 
 | Имя  | [**Тип шаблона**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**Тип компонента**](dx-graphics-hlsl-intrinsic-functions.md) | Размер     |
 |-------|----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|----------|
-| *x*   | [**Скалярная**](dx-graphics-hlsl-intrinsic-functions.md), **векторная** или **Матрица** | [**FLOAT**](/windows/desktop/WinProg/windows-data-types)                        | any      |
+| *x*   | [**Скалярная**](dx-graphics-hlsl-intrinsic-functions.md), **векторная** или **Матрица** | [**сделать**](/windows/desktop/WinProg/windows-data-types)                        | any      |
 | *обратно* | [**Скалярная**](dx-graphics-hlsl-intrinsic-functions.md), **векторная** или **Матрица** | [**bool**](/windows/desktop/WinProg/windows-data-types)                         | в качестве входных данных |
 
 
@@ -78,7 +78,7 @@ ms.locfileid: "118791943"
 
  
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d82d34a60ea736d10c8ec5ee8a001370c6b64c6
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: ffd42e27be4768fc0817aa76bb366429e236b3a82c45d081a05485b8520a23a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104334427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117807829"
 ---
 # <a name="byte_count-attribute"></a>\_атрибут числа байтов
 
@@ -61,14 +61,14 @@ ms.locfileid: "104334427"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **\[ \_ Счетчик \] байтов** атрибута ACF представляет расширение Майкрософт для устройства DCE IDL. Поэтому этот атрибут недоступен при использовании параметра компилятора MIDL [**/ОСФ**](-osf.md).
 
 > [!Note]  
 > Атрибут **\[ количества \] байтов** больше не поддерживается в синтаксисе NDR64 из-за трудностей при оценке размера, необходимого для всех параметров [**\[ out \]**](out-idl.md) .
 
- 
+ 
 
 Память, на которую ссылается параметр указателя, является непрерывной и не выделяется или освобождается заглушками клиента. Эта функция атрибута **\[ \_ счетчика \] байтов** позволяет создать в памяти клиента область постоянного буфера, которую можно повторно использовать в нескольких вызовах удаленной процедуры.
 
@@ -91,7 +91,7 @@ HRESULT proc1([in] unsigned long length,
 proc1([byte_count(length)] pMyStruct);
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -113,9 +113,9 @@ proc1([byte_count(length)] pMyStruct);
 [**размер \_ равен**](size-is.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

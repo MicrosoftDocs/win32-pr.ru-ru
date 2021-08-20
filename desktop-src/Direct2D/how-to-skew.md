@@ -4,12 +4,12 @@ description: Показывает, как наклон объекта.
 ms.assetid: bdc12ca3-eb0d-49ab-8ef7-f42f24fef7ff
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 691062e64d4255b1e2f7711b5ff700d72fd90063
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 849c292221a8b4503cdfd122e08b6f1b2521043b44732c33d851a86693853f2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103890949"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118003495"
 ---
 # <a name="how-to-skew-an-object"></a>Как наклон объекта
 
@@ -69,7 +69,7 @@ ms.locfileid: "103890949"
 
 ![Иллюстрация квадратно наклоненного 45 градусов против часовой стрелки от оси y](images/skew-ovw.png)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -79,6 +79,6 @@ ms.locfileid: "103890949"
 [Справочник по Direct2D](reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

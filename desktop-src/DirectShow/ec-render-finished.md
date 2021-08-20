@@ -15,7 +15,7 @@ ms.locfileid: "117820045"
 
 Это событие не поддерживается.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -25,7 +25,7 @@ ms.locfileid: "117820045"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

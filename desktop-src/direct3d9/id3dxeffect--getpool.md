@@ -59,7 +59,7 @@ HRESULT GetPool(
 
 Пулы содержат общие параметры между различными эффектами. См. раздел [клонирование и совместное использование (Direct3D 9)](cloning-and-sharing.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -70,7 +70,7 @@ HRESULT GetPool(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

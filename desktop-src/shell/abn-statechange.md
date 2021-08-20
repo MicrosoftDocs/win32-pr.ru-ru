@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 33879fcb5e9435e2245bc3d00a9fab75bf1cbdc5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b0017930bd3cf4c8cba356206cfa2207df04ea9c203018703a5f3064d0abb11b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117861586"
 ---
 # <a name="abn_statechange-message"></a>\_Сообщение АБН STATECHANGE
 
@@ -39,7 +39,7 @@ ABN_STATECHANGE
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Панель приложений может использовать это сообщение уведомления, чтобы установить его состояние в соответствии с соответствующими настройками панели задач (при необходимости).
 
@@ -49,7 +49,7 @@ ABN_STATECHANGE
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                           |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                           |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                  |
 | Заголовок<br/>                   | <dl> <dt>Шеллапи. h</dt> </dl> |
 

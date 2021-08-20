@@ -39,7 +39,7 @@ ms.locfileid: "118505724"
 
 Ссылается на [объект текстуры](dx-graphics-hlsl-to-type.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

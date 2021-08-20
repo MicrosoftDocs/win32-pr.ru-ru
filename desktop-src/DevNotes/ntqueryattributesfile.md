@@ -66,7 +66,7 @@ NTSTATUS NtQueryAttributesFile(
 
 Эта функция не имеет связанного файла заголовка. Связанная библиотека импорта, NTDLL. lib, доступна в WDK. Можно также использовать функции [**LoadLibrary**](-loadlibrary.md) и [**GetProcAddress**](-getprocaddress-.md) для динамической привязки к Ntdll.dll.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

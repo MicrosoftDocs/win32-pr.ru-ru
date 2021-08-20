@@ -4,18 +4,18 @@ description: Объект запроса
 ms.assetid: d8b37164-6855-48c0-bcf8-a86c0f8b3a59
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a50d554a5799af9a434b456113d7c826d2a0aa2
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 1d2bc9ecf65403ca6dbb471c81a65b105bcc5b69701760a73f8fbc8a5684a9b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "105700849"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117882397"
 ---
 # <a name="the-request-object"></a>Объект запроса
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
-Сервер обрабатывает некоторые методы асинхронно. Это позволяет коду приложения продолжать работу во время выполнения метода. Когда клиентское приложение вызывает один из этих методов, элемент управления создает и возвращает объект [**запроса**](/windows/desktop/lwef/the-request-object) для запроса. Объект **request** можно использовать для наблюдения за состоянием метода путем назначения объектной переменной для метода. В Visual Basic сначала объявите объектную переменную:
+Сервер обрабатывает некоторые методы асинхронно. Это позволяет коду приложения продолжать работу во время выполнения метода. Когда клиентское приложение вызывает один из этих методов, элемент управления создает и возвращает объект [**запроса**](/windows/desktop/lwef/the-request-object) для запроса. Объект **request** можно использовать для наблюдения за состоянием метода путем назначения объектной переменной для метода. в Visual Basic сначала объявите объектную переменную:
 
 
 ```
@@ -33,7 +33,7 @@ ms.locfileid: "105700849"
 
 
 
-И используйте инструкцию SET Visual Basic, чтобы присвоить переменную вызову метода:
+и используйте инструкцию Set Visual Basic, чтобы присвоить переменную вызову метода:
 
 
 ```
@@ -77,7 +77,7 @@ ms.locfileid: "105700849"
 
 
 
- 
+ 
 
 Объект [**request**](/windows/desktop/lwef/the-request-object) также содержит длинное целое значение в свойстве [**Number**](https://www.bing.com/search?q=**Number**) , которое возвращает ошибку или причину кода [**состояния**](status-property.md) . Если нет, это значение равно нулю (0). Свойство [**Description**](description-property.md) содержит строковое значение, соответствующее номеру ошибки. Если строка не существует, **Описание** содержит сообщение об ошибке, определяемое приложением или объектом.
 
@@ -87,6 +87,6 @@ ms.locfileid: "105700849"
 
 Для возврата объекта [**запроса**](/windows/desktop/lwef/the-request-object) можно использовать следующие методы: [**жестуреат**](gestureat-method.md), [**Get**](get-method.md), [**Hide**](hide-method.md), [**interrupt**](interrupt-method.md), [**Load**](load-method.md), [**MoveTo**](moveto-method.md), [**Play**](play-method.md), [**Показать**](show-method.md), [**говорите**](speak-method.md)и [**Wait**](https://www.bing.com/search?q=**Wait**).
 
- 
+ 
 
- 
+ 

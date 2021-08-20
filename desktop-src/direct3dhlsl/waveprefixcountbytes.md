@@ -80,7 +80,7 @@ appendOffset += laneAppendOffset; // and add in the offset for this lane
 buffer[appendOffset] = myData; // write to the offset location for this lane
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

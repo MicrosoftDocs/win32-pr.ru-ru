@@ -3,9 +3,9 @@ title: Ивмпкдромколлектион ЖетбидривеспеЦифи
 description: Метод ЖетбидривеспеЦифиер возвращает интерфейс Ивмпкдром, связанный с определенной буквой диска.
 ms.assetid: 4a550eb1-a37e-43fd-9e08-801c4fd64e68
 keywords:
-- ЖетбидривеспеЦифиер метод Windows Media Player
-- ЖетбидривеспеЦифиер метод проигрывателя Windows Media Player, интерфейс Ивмпкдромколлектион
-- Интерфейс Ивмпкдромколлектион Windows Media Player, метод ЖетбидривеспеЦифиер
+- проигрыватель Windows Media метода жетбидривеспеЦифиер
+- проигрыватель Windows Media метода жетбидривеспеЦифиер, интерфейс ивмпкдромколлектион
+- проигрыватель Windows Media интерфейса ивмпкдромколлектион, метод жетбидривеспеЦифиер
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe771fc893d4bf43b82dc825a2d33724926e8151
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9937694234fe7e46fe9b98d83357da19abf18f8d14e83794587f6f2050b0019b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105717959"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118116222"
 ---
 # <a name="iwmpcdromcollectiongetbydrivespecifier-method"></a>Метод Ивмпкдромколлектион:: ЖетбидривеспеЦифиер
 
@@ -64,7 +64,7 @@ Implements IWMPCdromCollection.getByDriveSpecifier
 
 Интерфейс **вмплиб. ивмпкдром** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Буквы дисков должны быть заданы в формате *x*:, где *X* обозначает букву диска.
 
@@ -109,19 +109,19 @@ drive.eject()
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

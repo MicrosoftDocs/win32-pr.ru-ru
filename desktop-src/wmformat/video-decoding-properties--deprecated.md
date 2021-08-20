@@ -1,6 +1,6 @@
 ---
 title: Свойства декодирования видео (Камерауиконтрол. h)
-description: Текущую документацию по кодекам Windows Media и обработчикам цифровых сигналов см. в статье интерфейсы API аудио-и видеокодеков Windows Media и DSP. | Свойства декодирования видео (Камерауиконтрол. h)
+description: текущую документацию по Windows кодеков мультимедиа и обработчикам цифровых сигналов см. в разделе Windows media Audio и Video кодек и DSP api. | Свойства декодирования видео (Камерауиконтрол. h)
 ms.assetid: fa72a593-bb16-40a8-a510-db8b000bfd95
 keywords:
 - Свойства декодирования видео Windows Media Format
@@ -14,24 +14,24 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d0cbc12006fd1253418689dfdbebeaed5cab44d3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4566e5e125c74d12344658785f78acb800a006c20b9d3a478b93f0f6c4579fe1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648042"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117653407"
 ---
 # <a name="video-decoding-properties"></a>Свойства декодирования видео
 
-Текущую документацию по кодекам Windows Media и обработчикам цифровых сигналов см [. в статье интерфейсы API аудио-и видеокодеков Windows Media и DSP.](/previous-versions//dd464626(v=vs.85))
+текущую документацию по Windows кодеков мультимедиа и обработчикам цифровых сигналов см [. в разделе Windows media Audio и Video кодек и DSP api.](/previous-versions//dd464626(v=vs.85))
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Камерауиконтрол. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Камерауиконтрол. h</dt> </dl> |
 
 
 
