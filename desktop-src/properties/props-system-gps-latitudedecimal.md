@@ -4,12 +4,12 @@ ms.assetid: f896d6eb-052e-4aa7-b479-3f0117055c78
 title: System. GPS. ЛатитудедеЦимал
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cdbc120eb7a3185b58c907c1e008a1473e9abf4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 13cc7b674ed19b27936928300c808305dec624678ecfba1ca398e9bfba8385d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104350375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117866367"
 ---
 # <a name="systemgpslatitudedecimal"></a>System. GPS. ЛатитудедеЦимал
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

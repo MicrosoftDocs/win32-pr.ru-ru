@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: 482e1010dea850506b159b129eb4dcef77829fca
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 96472a13902322d940dc7e756c3639f9befaf6764b3ede8521f27a885a50e8d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669279"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118143693"
 ---
 # <a name="configuremoduleprovideintegerdata-method"></a>Конфигуремодуле. Провидеинтежердата, метод
 
@@ -47,7 +47,7 @@ ConfigureModule.ProvideIntegerData(
 
 <dl> <dt>
 
-*Name* 
+*Имя* 
 </dt> <dd>
 
 Имя элемента, для которого извлекаются данные.
@@ -65,7 +65,7 @@ ConfigureModule.ProvideIntegerData(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Клиент может быть вызван не более одного раза для каждой записи в [таблице модулеконфигуратион](moduleconfiguration-table.md). Обратите внимание, что Mergemod.dll никогда не выполняет несколько вызовов клиента для одного и того же значения "Name". Если в таблице Модулесубститутион нет записей, использующих свойство, запись в таблице Модулеконфигуратион не вызывает клиент.
 
@@ -73,14 +73,14 @@ ConfigureModule.ProvideIntegerData(
 
 См. раздел [**функция провидеинтежердата**](/windows/desktop/api/Mergemod/nf-mergemod-imsmconfiguremodule-provideintegerdata).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Версия<br/> | Mergemod.dll 2,0 или более поздней версии<br/>                                                    |
-| Header<br/>  | <dl> <dt>Мержемод. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Мержемод. h</dt> </dl>   |
 | DLL<br/>     | <dl> <dt>Mergemod.dll</dt> </dl> |
 
 

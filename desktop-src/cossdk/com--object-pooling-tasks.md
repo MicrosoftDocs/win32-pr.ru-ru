@@ -4,12 +4,12 @@ ms.assetid: 197a01a0-5991-46c0-a954-3f06332220e2
 title: Задачи пула объектов COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7453469e6ad520321b2818c5333b311237a24f7c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ca6a6427fe0c416f168760113bcf5ebf2015be9d2341ec8e173328b4d88e6d7a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104538627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117917295"
 ---
 # <a name="com-object-pooling-tasks"></a>Задачи пула объектов COM+
 
@@ -28,7 +28,7 @@ ms.locfileid: "104538627"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

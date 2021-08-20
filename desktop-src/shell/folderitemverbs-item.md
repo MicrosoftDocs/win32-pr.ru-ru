@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 013215af3f5005e68b396312d0ef13fa974d8a32
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 86cb3ee7c9d62d943a369dd18cb4471e0682c1c1d0f5e6193a6f34b8c0451203
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104985489"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117859856"
 ---
 # <a name="folderitemverbsitem-method"></a>Фолдеритемвербс. Item, метод
 
@@ -56,9 +56,9 @@ retVal = FolderItemVerbs.Item(
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере **элемент** используется для получения первых команд из коллекции, доступной в папке панели управления, и отображается ее имя. Правильное использование показано в JScript, VBScript и Visual Basic.
+В следующем примере **элемент** используется для получения первых команд из коллекции, доступной в папке панели управления, и отображается ее имя. правильное использование отображается для JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -176,7 +176,7 @@ End Sub
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                           |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                         |

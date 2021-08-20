@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 06d61557ca765721660937592f59667f5e6b3fc9
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 4430da16e93509fd86954d440509e0e539a82c9bdd533f22d957fad2ade8f81a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108119172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117994707"
 ---
 # <a name="requeststatechange-method-of-the-msvm_diskettedrive-class"></a>Метод RequestStateChange \_ класса мсвм дискеттедриве
 

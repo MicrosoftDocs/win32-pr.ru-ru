@@ -4,16 +4,16 @@ ms.assetid: b48c2f3f-24ef-48a8-849f-7abed69c0fc9
 title: ICE71
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c6e136362caa13da2b6305e3d8c3ca9c3a5c7bd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bb1090eb8b1a36ed361ef763bfda3875a8fde052ed8643dceeb660c88ae954a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999242"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118142518"
 ---
 # <a name="ice71"></a>ICE71
 
-ICE71 проверяет, содержит ли [Таблица мультимедиа](media-table.md) запись с DiskId, равным 1. (Установщик Windows предполагает, что пакет MSI находится на диске 1.)
+ICE71 проверяет, содержит ли [Таблица мультимедиа](media-table.md) запись с DiskId, равным 1. (установщик Windows предполагает, что пакет .msi находится на диске 1.)
 
 ## <a name="result"></a>Результат
 
@@ -41,7 +41,7 @@ T0 исправить эту ошибку, измените DiskId записи,
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

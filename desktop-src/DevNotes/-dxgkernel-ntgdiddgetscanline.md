@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: 814063208e8115c5ba2a7fe427e21223ac478f57
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 719478afff035cabea653148bb538d611fd24677de1eba01d3fa0ba8f21c7370
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118004224"
 ---
 # <a name="ntgdiddgetscanline-function"></a>Функция Нтгдидджетсканлине
 
@@ -86,7 +86,7 @@ DWORD APIENTRY NtGdiDdGetScanLine(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

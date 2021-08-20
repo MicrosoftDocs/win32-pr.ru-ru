@@ -1,23 +1,23 @@
 ---
-description: Локализованные версии таблицы ошибок и таблицы Актионтекст предоставляются пакетом SDK для установщик Windows. Версии этих таблиц с ошибками и Актионте. для французского языка находятся в папке Intl пакета SDK установщик Windows.
+description: локализованные версии таблицы ошибок и таблицы актионтекст предоставляются пакетом SDK для установщик Windows. версии этих таблиц с ошибками и актионте. для французского языка находятся в папке Intl пакета SDK установщик Windows.
 ms.assetid: 8de687c8-c7da-497e-8a90-2404096ad100
 title: Импорт локализованных таблиц ошибок и Актионтекст
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15d48a68ca1053a1a1c66899a17802ac337c3ba2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bda0916f634d986874cd17f9871fa602277b180e1ba436e9d9786fb061f3ac4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105650970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118142242"
 ---
 # <a name="importing-localized-error-and-actiontext-tables"></a>Импорт локализованных таблиц ошибок и Актионтекст
 
-Локализованные версии [таблицы ошибок](error-table.md) и [таблицы актионтекст](actiontext-table.md) предоставляются пакетом SDK для установщик Windows. Версии этих таблиц с ошибками и Актионте. для французского языка находятся в папке Intl пакета SDK установщик Windows.
+локализованные версии [таблицы ошибок](error-table.md) и [таблицы актионтекст](actiontext-table.md) предоставляются пакетом SDK для установщик Windows. версии этих таблиц с ошибками и актионте. для французского языка находятся в папке Intl пакета SDK установщик Windows.
 
 Вы можете использовать редактор таблиц Orca или служебную программу Msidb.exe, поставляемую с пакетом SDK, для импорта французских версий этих таблиц в базу данных.
 
-Пример использования [**мсидатабасеимпорт**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabaseimporta) и [**метода Import**](database-import.md) [**объекта базы данных**](database-object.md) предоставляется в пакете SDK установщик Windows в качестве служебной WiImport.vbs. В следующем фрагменте кода, Imp.vbs, также иллюстрируется использование метода Import и предназначено для использования с сервером сценариев Windows.
+пример использования [**мсидатабасеимпорт**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabaseimporta) и [**метода Import**](database-import.md) [**объекта базы данных**](database-object.md) предоставляется в пакете SDK установщик Windows в качестве служебной WiImport.vbs. в следующем фрагменте кода, Imp.vbs, также иллюстрируется использование метода Import и предназначено для использования с Windowsным узлом сценариев.
 
 
 ```VB

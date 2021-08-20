@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: 6801cb4b3ff90cb277d13573fe4527e8d76bfe0d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9712b7e7f619e40ba3804d7c5671c6855e7982eddd2c4c964f172845cf5de465
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118143722"
 ---
 # <a name="configuremoduleprovidetextdata-method"></a>Конфигуремодуле. Провидетекстдата, метод
 
@@ -49,7 +49,7 @@ ConfigureModule.ProvideTextData(
 
 <dl> <dt>
 
-*Name* 
+*Имя* 
 </dt> <dd>
 
 Имя элемента, для которого извлекаются данные.
@@ -67,7 +67,7 @@ ConfigureModule.ProvideTextData(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Клиент может быть вызван не более одного раза для каждой записи в [таблице модулеконфигуратион](moduleconfiguration-table.md). Обратите внимание, что Mergemod.dll никогда не выполняет несколько вызовов клиента для одного и того же значения "Name". Если в таблице Модулесубститутион нет записей, использующих свойство, запись в таблице Модулеконфигуратион не вызывает клиент.
 
@@ -75,14 +75,14 @@ ConfigureModule.ProvideTextData(
 
 См. раздел [**функция провидетекстдата**](/windows/desktop/api/Mergemod/nf-mergemod-imsmconfiguremodule-providetextdata).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Версия<br/> | Mergemod.dll 2,0 или более поздней версии<br/>                                                    |
-| Header<br/>  | <dl> <dt>Мержемод. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Мержемод. h</dt> </dl>   |
 | DLL<br/>     | <dl> <dt>Mergemod.dll</dt> </dl> |
 
 

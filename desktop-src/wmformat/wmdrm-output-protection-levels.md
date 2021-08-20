@@ -92,7 +92,7 @@ typedef struct WMDRM_OUTPUT_PROTECTION_LEVELS {
 
 Эта структура используется методом [**ивмдрмлиценсе:: жетаутпутпротектионлевелс**](iwmdrmlicense-getoutputprotectionlevels.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -102,7 +102,7 @@ typedef struct WMDRM_OUTPUT_PROTECTION_LEVELS {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

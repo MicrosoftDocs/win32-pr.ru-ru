@@ -9,12 +9,12 @@ keywords:
 - MPC, уровень 2, требования к аудио
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e20458f8dcb26149c9fa697587faf93cf10c0f27
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f5a2bc9398a25ac916352f41ad2ddc2325820354d1c7beb511b03b27004fadd9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103774900"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118139835"
 ---
 # <a name="level-2-audio-requirements"></a>Требования к аудиосистеме уровня 2
 
@@ -34,7 +34,7 @@ ms.locfileid: "103774900"
     -   Выборка линейного PCM
     -   Функция буфера передачи DMA или FIFO с параметром прерывания в буфере пуста
     -   Обязательные частоты выборки 44,1, 22,05 и 11,025 кГц
-    -   Ввод с микрофона
+    -   Микрофонный вход
 
 <!-- -->
 
@@ -44,9 +44,9 @@ ms.locfileid: "103774900"
     -   Смешивание источников — это аудио, синтезаторы и приложения уровня данных на компакт-диске.
     -   Каждый смешанный источник имеет 3-битный регулятор громкости с логарифмической конусностью
 
- 
+ 
 
- 
+ 
 
 
 

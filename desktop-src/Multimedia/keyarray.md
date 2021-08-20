@@ -6,12 +6,12 @@ keywords:
 - КЭЙАРРАЙ МИДИПАТЧСИЗЕ
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f6e45e46417fb3b6653ecae605aa60f775c1d654
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 507c5f578b912a7b184f9f455bc4a730132b2316472d061532c48847c312302d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118140044"
 ---
 # <a name="keyarray"></a>кэйаррай
 
@@ -33,7 +33,7 @@ typedef WORD KEYARRAY[MIDIPATCHSIZE];
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -42,11 +42,11 @@ typedef WORD KEYARRAY[MIDIPATCHSIZE];
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
 | Версия<br/>                  | Цифровой интерфейс MIDI, типы MIDI<br/>                                        |
-| Header<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

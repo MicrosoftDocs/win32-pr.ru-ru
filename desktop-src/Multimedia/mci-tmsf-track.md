@@ -3,7 +3,7 @@ title: Макрос MCI_TMSF_TRACK (МЦиапи. h)
 description: Макрос MCI \_ тмсф \_ Track извлекает компонент треки из параметра, содержащего сведения о упакованных дорожках/минутах/сек/Frames (тмсф).
 ms.assetid: 3455442c-5c66-47c7-b06b-1a2de0e2dfed
 keywords:
-- MCI_TMSF_TRACK макросов Windows мультимедиа
+- MCI_TMSF_TRACK макрос Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3fa8512169d0e5b3d6892dd1bf615a220143e6d4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7090a2a9b652d7c989aadd70d8843ece04bf467bbbe353c22c3f76fee8a9712b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118137955"
 ---
 # <a name="mci_tmsf_track-macro"></a>\_Макрос MCI тмсф \_ Track
 
@@ -51,7 +51,7 @@ BYTE MCI_TMSF_TRACK(
 
 Возвращает компонент дорожек указанной информации ТМСФ.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Время в формате ТМСФ выражается как значение **DWORD** с наименьшим значащим байтом, содержащим дорожки, следующий младший значащий байт, содержащий минуты, следующий младший значащий байт, содержащий секунды, и самый значащий байт, содержащий кадры.
 
@@ -64,7 +64,7 @@ BYTE MCI_TMSF_TRACK(
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -76,7 +76,7 @@ BYTE MCI_TMSF_TRACK(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
