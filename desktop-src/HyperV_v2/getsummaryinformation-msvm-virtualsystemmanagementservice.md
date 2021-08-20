@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 1399acd40f768fdb857d6a4a26e80a52d29111b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: efa879cd3da0f5e8a4cc8cf1e9873390c94a94bae0eef3dd8d36c59c9e1680e5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104342802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119253654"
 ---
 # <a name="getsummaryinformation-method-of-the-msvm_virtualsystemmanagementservice-class"></a>Метод Жетсуммаринформатион \_ класса Виртуалсистемманажементсервице мсвм
 
@@ -173,7 +173,7 @@ uint32 GetSummaryInformation(
 </dt> <dd>
 
 > [!Note]  
-> Добавлено в Windows 10 и Windows Server 2016.
+> добавлено в Windows 10 и Windows Server 2016.
 
  
 
@@ -187,7 +187,7 @@ uint32 GetSummaryInformation(
 </dt> <dd>
 
 > [!Note]  
-> Добавлено в Windows 10, версии 1703 и Windows Server 2016.
+> добавлено в Windows 10, версии 1703 и Windows Server 2016.
 
  
 
@@ -484,7 +484,7 @@ uint32 GetSummaryInformation(
 Свойства, не указанные в параметре *рекуестединформатион* , будут иметь значение **null** .
 
 > [!Note]  
-> Тип данных, обновленный из Windows 10, версия 1703 из [**мсвм \_ SummaryInformation**](msvm-summaryinformation.md).
+> тип данных, обновленный из в Windows 10 версии 1703 из [**мсвм \_ SummaryInformation**](msvm-summaryinformation.md).
 
  
 
@@ -537,7 +537,7 @@ uint32 GetSummaryInformation(
 **Недостаточно памяти** (32778)
 </dt> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Доступ к классу [**\_ виртуалсистемманажементсервице мсвм**](msvm-virtualsystemmanagementservice.md) может быть ограничен фильтром контроля учетных записей. Дополнительные сведения см. в разделе [Управление учетными записями пользователей и инструментарий WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -657,14 +657,14 @@ public class GetSummaryInformationClassV2
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

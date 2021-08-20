@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 5b4bf2a43e762b85b8b8cfd0c15468b3dc438221
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6c5a0813243f3d04a729f000c9e42a1eb1ade6406273a1217ca067d8e2f1c3a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043222"
 ---
 # <a name="idcompositionmatrixtransformsetmatrixelementint-int-idcompositionanimation-method"></a>Метод Идкомпоситионматрикстрансформ:: Сетматрикселемент (int, int, Идкомпоситионаниматион \* )
 
@@ -31,9 +31,9 @@ ms.locfileid: "104413395"
 
 ```C++
 HRESULT SetMatrixElement(
-  [in] int                    row,
-  [in] int                    column,
-  [in] IDCompositionAnimation *animation
+  [in] int                    row,
+  [in] int                    column,
+  [in] IDCompositionAnimation *animation
 );
 ```
 
@@ -68,19 +68,19 @@ HRESULT SetMatrixElement(
 
 Если функция завершается успешно, возвращается значение S \_ ОК. В противном случае возвращается код ошибки **HRESULT** . Список кодов ошибок см. в разделе [коды ошибок DirectComposition](directcomposition-error-codes.md) .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод создает копию указанной анимации. Если объект, на который ссылается параметр *анимации* , изменяется после вызова этого метода, это изменение не влияет на элемент, если этот метод не вызывается снова. Если элемент был анимирован ранее, вызов этого метода заменяет предыдущую анимацию новой анимацией.
 
 Этот метод завершается ошибкой, если *анимация* является недопустимым указателем, или если она не была создана с помощью того же интерфейса [**идкомпоситиондевице**](/windows/win32/api/dcomp/nn-dcomp-idcompositiondevice) , что и затронутое преобразование. Интерфейс не может быть пользовательской реализацией; с этим методом можно использовать только интерфейсы, созданные с помощью Microsoft DirectComposition.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [**идкомпоситионматрикстрансформ**](/windows/win32/api/dcomp/nn-dcomp-idcompositionmatrixtransform)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

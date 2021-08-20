@@ -3,7 +3,7 @@ title: Сообщение WM_CAP_DRIVER_GET_CAPS (VFW. h)
 description: '\_Сообщение о получении политики авторизации устройств WM Cap \_ \_ \_ возвращает аппаратные возможности драйвера записи, подключенного в настоящее время к окну записи. Это сообщение можно отправить явно или с помощью макроса Капдривержеткапс.'
 ms.assetid: 898a800c-1109-47cd-bcc9-cb61d86a4a2e
 keywords:
-- WM_CAP_DRIVER_GET_CAPS сообщения Windows мультимедиа
+- сообщение WM_CAP_DRIVER_GET_CAPS Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 027e530be82c76afebc343ceebe4905daef9b126
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: aecc863234cddf64bece47896015fd01e97093d227951aef69363136e55cabe5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104535345"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119687084"
 ---
 # <a name="wm_cap_driver_get_caps-message"></a>\_Сообщение о \_ \_ получении \_ политик крепления WM
 
@@ -56,11 +56,11 @@ lParam = (LPARAM) (LPVOID) (LPCAPDRIVERCAPS) (psCaps);
 
 Возвращает **значение true** в случае успеха или **false** , если окно записи не подключено к драйверу записи.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возможности, возвращаемые в [**капдриверкапс**](/windows/win32/api/vfw/ns-vfw-capdrivercaps) , являются постоянными для данного драйвера записи. Приложения должны получить эту информацию один раз при первом подключении драйвера записи к окну записи.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -72,7 +72,7 @@ lParam = (LPARAM) (LPVOID) (LPCAPDRIVERCAPS) (psCaps);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

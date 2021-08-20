@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 18d83beea34f008e6e96fcd493d8410d7d2c5b88
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 51a894e5d4a09e7535e10a73e1bd118245e5886e0cdbb23b0f0645e588ab4adf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "105650328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146357"
 ---
 # <a name="requestedit-attribute"></a>requestedit - атрибут
 
@@ -59,7 +59,7 @@ ms.locfileid: "105650328"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Поддержка **уведомление OnRequestEdit** уведомления означает, что перед внесением изменений объект отправляет клиенту запрос на изменение свойства. Объект может поддерживать привязку данных, но не имеет этого атрибута.
 
@@ -91,6 +91,6 @@ properties:
 [Создание библиотеки типов с помощью MIDL](generating-a-type-library-with-midl-2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

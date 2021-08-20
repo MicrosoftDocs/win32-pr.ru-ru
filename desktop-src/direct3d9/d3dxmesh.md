@@ -228,7 +228,7 @@ typedef enum D3DXMESH {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

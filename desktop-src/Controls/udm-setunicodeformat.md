@@ -3,7 +3,7 @@ title: Сообщение UDM_SETUNICODEFORMAT (Коммктрл. h)
 description: UDM_SETUNICODEFORMAT сообщение — задает флаг формата символов Юникода для элемента управления. Это сообщение позволяет изменить кодировку, используемую элементом управления во время выполнения, вместо того, чтобы повторно создавать элемент управления.
 ms.assetid: abe882db-bf32-40b0-a1c0-3e89cdc93fe7
 keywords:
-- Элементы управления Windows для UDM_SETUNICODEFORMAT сообщений
+- элементы управления Windows сообщений UDM_SETUNICODEFORMAT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 09eeb63d5c06a5e64c354c950cd84fc451568d36
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 7dd6d390c62475b63dccf20fdb80da1f1e8dafe19cdacab2f0b1ac2fe7bf1687
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108116542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957723"
 ---
 # <a name="udm_setunicodeformat-message"></a>\_Сообщение СЕТУНИКОДЕФОРМАТ UDM
 
@@ -47,15 +47,15 @@ ms.locfileid: "108116542"
 
 Обсуждение этого сообщения см. в примечаниях по [**CCM \_ сетуникодеформат**](ccm-setunicodeformat.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

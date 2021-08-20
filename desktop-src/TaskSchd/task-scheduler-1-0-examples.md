@@ -6,21 +6,21 @@ keywords:
 - Планировщик задач примеры планировщик задач, примеры планировщик задач 1,0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 746c8c44648359f269d61fd27fc57b1fd90932da
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0ea41bbe0679935cd964f61efd52e9fa5b57cc34aab73f3bb1dd09ea64a0f9c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103772812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119059882"
 ---
 # <a name="task-scheduler-10-examples"></a>Примеры планировщик задач 1,0
 
 В примерах в этом разделе используется API, представленный в планировщик задач 1,0.
 
 > [!Note]  
-> Для компьютера под управлением Windows Server 2003, Windows XP или Windows 2000 для создания, мониторинга и управления задачами на компьютере с Windows Vista некоторые операции должны быть выполнены на компьютере под управлением Windows Vista. Дополнительные сведения см. в разделе [Задачи](tasks.md).
+> на компьютере Windows Server 2003, Windows XP или Windows 2000 для создания, отслеживания или управления задачами на компьютере Windows vista некоторые операции должны выполняться на компьютере Windows vista. Дополнительные сведения см. в разделе [Задачи](tasks.md).
 
- 
+ 
 
 В следующих разделах приводятся примеры, демонстрирующие использование функций, представленных в планировщик задач 1,0.
 
@@ -43,18 +43,18 @@ ms.locfileid: "103772812"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Использование планировщик задач](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9808841bf60a384d6a4566e75f53248b0f86338c
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 0c1f6fa149c6c5025d3fd2c785dc2f4a8451fabed3906b559674d8038662c21d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104334627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972313"
 ---
 # <a name="imediarendererisvideosupported-method"></a>Метод Имедиарендерер:: Исвидеосуппортед
 
@@ -62,7 +62,7 @@ HRESULT IsVideoSupported(
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 841403523e0cae7c71fb8fa0861c1d400a26a726
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58c42652ec9a6e8ece773338b9ef669833061ad2e25f29a54ded3d1c5d5cb6ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105651082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118978254"
 ---
 # <a name="update-constructor"></a>Обновить конструктор
 
@@ -85,7 +85,7 @@ public Update(
     
     Тип обновления.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

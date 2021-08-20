@@ -13,12 +13,12 @@ api_type:
 - UserDefined
 api_location:
 - Combase.h
-ms.openlocfilehash: 375660399180196e2434030ea7551733affc4062
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c07f22b9dc261fe9d7b073a1f1ab93aa49e482fb70c53288aeaf606e6be9aec9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119685084"
 ---
 # <a name="lpfninitroutine-function-pointer"></a>Указатель функции Лпфнинитраутине
 
@@ -58,17 +58,17 @@ typedef void ( CALLBACK *LPFNInitRoutine)(
 
 Этот указатель функции не возвращает значение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Комбасе. h (включение Streams. h)</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>комбасе. h (включает Потоки. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

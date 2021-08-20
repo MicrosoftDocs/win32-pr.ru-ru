@@ -5,12 +5,12 @@ ms.assetid: 05f57b0a-c9fe-45aa-bf9e-f93230c13d65
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2ac85980af2b85512299bf5cfd0f590524e9672
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 453127f749cddb4ebf81c579cb4744bc9b399f21e456c0d111cbd78f5555f339
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105681496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999884"
 ---
 # <a name="remote-desktop-services-management-applications"></a>Приложения управления службы удаленных рабочих столов
 
@@ -42,9 +42,9 @@ ms.locfileid: "105681496"
 
 Дополнительные сведения см. в [справочнике по поставщику WMI службы удаленных рабочих столов](terminal-services-wmi-provider-reference.md) и [использовании расширения ADSI для службы удаленных рабочих столов пользовательской конфигурации](using-the-adsi-extension-for-terminal-services-user-configuration.md).
 
- 
+ 
 
- 
+ 
 
 
 

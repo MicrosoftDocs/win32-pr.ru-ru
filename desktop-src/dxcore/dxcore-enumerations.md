@@ -4,12 +4,12 @@ description: Следующие перечисления объявляются 
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: f6c5a6797e6d3ad2bb8676666c3d12fee4ed4b20
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 43d6c036d2aeabc5be48dba8a6a3c2a9dabb9889bac6708dc11240cd91127a7a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119118748"
 ---
 # <a name="dxcore-enumerations"></a>Перечисления DXCore
 
@@ -25,7 +25,7 @@ ms.locfileid: "104413108"
 | [**Дкскоренотификатионтипе**](./dxcore_interface/ne-dxcore_interface-dxcorenotificationtype.md). Определяет константы, указывающие типы уведомлений, создаваемых объектами [идкскореадаптер](./dxcore_interface/nn-dxcore_interface-idxcoreadapter.md) или [идкскореадаптерлист](./dxcore_interface/nn-dxcore_interface-idxcoreadapterlist.md) . |
 | [**Дкскоресегментграуп**](./dxcore_interface/ne-dxcore_interface-dxcoresegmentgroup.md). Определяет константы, указывающие группирование сегмента памяти адаптера. |
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 * [Справочник по Дкскоре](./dxcore-reference.md)
 * [Перечисление адаптеров с использованием DXCore](./dxcore-enum-adapters.md)

@@ -4,18 +4,18 @@ ms.assetid: c028918e-aba2-49b2-a6ce-c620ab38b558
 title: Коды уведомлений о событиях DVD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e15172e8eba3da048e7c7704a90d7992fa21714a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 717c260c84a1038860ee04f46db6224025b7709c3ad039e7625a48ae6359cc05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105673038"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119686454"
 ---
 # <a name="dvd-event-notification-codes"></a>Коды уведомлений о событиях DVD
 
 В этом разделе перечислены коды уведомлений о событиях воспроизведения DVD-дисков и навигации в DirectShow.
 
-Сведения о получении событий в DirectShow см. [в разделе уведомление о событии в DirectShow](event-notification-in-directshow.md).
+сведения о получении событий в DirectShow см. [в разделе уведомления о событиях в DirectShow](event-notification-in-directshow.md).
 
 Другие коды событий, не относящиеся к DVD, см. в разделе [коды уведомлений о событиях](event-notification-codes.md).
 
@@ -64,7 +64,7 @@ ms.locfileid: "105673038"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

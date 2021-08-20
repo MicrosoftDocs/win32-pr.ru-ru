@@ -1,19 +1,19 @@
 ---
-description: Класс Graphics является основой Windows GDI+. Для рисования можно создать графический объект, задать его свойства и вызвать его методы (DrawLine, DrawImage, DrawString и т. д.).
+description: класс Graphics — это основа Windows GDI+. Для рисования можно создать графический объект, задать его свойства и вызвать его методы (DrawLine, DrawImage, DrawString и т. д.).
 ms.assetid: 7d70f9fe-c0b2-4d65-815d-483d06df96ad
 title: Состояние графического объекта
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 661733f944b08633b5df84eed3ac488e612d9e4a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f68a2ba754aadc1f7d2572dcbc2ac40d08d7fe95d382ce60511cd72d441bb80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104555248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118977334"
 ---
 # <a name="the-state-of-a-graphics-object"></a>Состояние графического объекта
 
-Класс [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) является ОСНОВОЙ Windows GDI+. Для рисования можно создать **графический** объект, задать его свойства и вызвать его методы ( [DrawLine](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inint_inint_inint_inint)), [DrawImage](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawimage(inimage_inconstpointf_inint)), [DrawString](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawstring(constwchar_int_constfont_constpointf__constbrush))и т. д.).
+класс [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) — это основа Windows GDI+. Для рисования можно создать **графический** объект, задать его свойства и вызвать его методы ( [DrawLine](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inint_inint_inint_inint)), [DrawImage](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawimage(inimage_inconstpointf_inint)), [DrawString](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawstring(constwchar_int_constfont_constpointf__constbrush))и т. д.).
 
 В следующем примере создается [**графический**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) объект и объект [**Pen**](/windows/win32/api/gdipluspen/nl-gdipluspen-pen) , а затем вызывается метод [**Graphics::D равректангле**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawrectangle(inconstpen_inint_inint_inint_inint)) объекта **Graphics** :
 
@@ -33,7 +33,7 @@ EndPaint(hWnd, &ps);
 
 
 
-В приведенном выше коде метод [бегинпаинт](/windows/win32/api/winuser/nf-winuser-beginpaint) возвращает маркер в контекст устройства, и этот маркер передается в конструктор [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) . Контекст устройства — это структура (поддерживаемая Windows), содержащая сведения об используемом конкретном устройстве вывода.
+В приведенном выше коде метод [бегинпаинт](/windows/win32/api/winuser/nf-winuser-beginpaint) возвращает маркер в контекст устройства, и этот маркер передается в конструктор [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) . контекст устройства — это структура (поддерживаемая Windows), содержащая сведения о конкретном используемом устройстве вывода.
 
 ## <a name="graphics-state"></a>Состояние графики
 
@@ -46,9 +46,9 @@ EndPaint(hWnd, &ps);
 
 ### <a name="device-context"></a>Контекст устройства
 
-Разработчикам приложений не нужно думать о взаимодействии между объектом [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) и его контекстом устройства. Это взаимодействие обрабатывается GDI+ в фоновом режиме.
+Разработчикам приложений не нужно думать о взаимодействии между объектом [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) и его контекстом устройства. это взаимодействие обрабатывается GDI+ в фоновом режиме.
 
-### <a name="quality-settings"></a>Параметры качества
+### <a name="quality-settings"></a>качество Параметры
 
 Объект [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) имеет несколько свойств, влияющих на качество элементов, отображаемых на экране. Вы можете просматривать эти свойства и управлять ими, вызывая методы get и Set. Например, можно вызвать метод [**Graphics:: сеттекстрендерингхинт**](/windows/win32/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-settextrenderinghint) , чтобы указать тип сглаживания (при его наличии), применяемый к тексту. Другими методами Set, влияющими на качество, являются [**графические:: сетсмусингмоде**](/windows/win32/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-setsmoothingmode), [**Graphics:: сеткомпоситингмоде**](/windows/win32/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-setcompositingmode), [**Graphics:: Сеткомпоситингкуалити**](/windows/win32/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-setcompositingquality)и [**Graphics:: сетинтерполатионмоде**](/windows/win32/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-setinterpolationmode).
 

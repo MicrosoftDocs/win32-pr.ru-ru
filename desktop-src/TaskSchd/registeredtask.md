@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c7ce300375e5122a7b63266c0cd21cdddf34606b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e90dc83c47b37343c41489ca2d7b3288f727086e769e83104b57ca5b6de13b2a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103801504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119681644"
 ---
 # <a name="registeredtask-object"></a>Объект Регистередтаск
 
@@ -47,7 +47,7 @@ ms.locfileid: "103801504"
 | [**Выполнить**](registeredtask-run.md)                                     | Немедленно запускает зарегистрированную задачу.<br/>                                                |
 | [**рунекс**](registeredtask-runex.md)                                 | Выполняет зарегистрированную задачу сразу же с помощью указанных флагов и идентификатора сеанса.<br/> |
 | [**сетсекуритидескриптор**](registeredtask-setsecuritydescriptor.md) | Задает дескриптор безопасности, используемый в качестве учетных данных для зарегистрированной задачи.<br/>    |
-| [**Stop**](registeredtask-stop.md)                                   | Немедленно останавливает зарегистрированную задачу.<br/>                                               |
+| [**Позиции**](registeredtask-stop.md)                                   | Немедленно останавливает зарегистрированную задачу.<br/>                                               |
 
 
 
@@ -80,14 +80,14 @@ ms.locfileid: "103801504"
 
 Дополнительные сведения и примеры кода для этого объекта скрипта см. в разделе [пример триггера времени (сценарии)](time-trigger-example--scripting-.md) и [Отображение имен и состояний задач (создание сценариев)](displaying-task-names-and-state--scripting-.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                    |
 | Библиотека типов<br/>             | <dl> <dt>Тасксчд. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

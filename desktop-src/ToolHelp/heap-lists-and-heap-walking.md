@@ -4,12 +4,12 @@ description: Моментальный снимок, включающий спи�
 ms.assetid: 631096fd-cb2c-4b19-aa71-d47060e2715c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b5a9b8d30e2de1bf5ab37de03fdcb3fde663417
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 87cc1eaa2093715e3f42fd52cc5191bedf5a0ac137cf93df57daa5ef590e2471
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103792127"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119058232"
 ---
 # <a name="heap-lists-and-heap-walking"></a>Списки куч и проход по куче
 
@@ -22,8 +22,8 @@ ms.locfileid: "103792127"
 > [!Note]  
 > Идентификатор кучи, указанный в элементе **th32HeapID** структуры [**HEAPENTRY32**](/windows/win32/api/tlhelp32/ns-tlhelp32-heapentry32) , имеет значение только для функций справки средства. Он не является обработчиком и не может использоваться другими функциями.
 
- 
+ 
 
- 
+ 
 
- 
+ 

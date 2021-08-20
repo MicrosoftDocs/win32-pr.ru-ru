@@ -4,16 +4,16 @@ ms.assetid: 019b063f-f215-44d8-a916-3125bee6af93
 title: Параметры декодера для Windows Media Center Edition
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2f66b5107fa0316f6ce2547e1f5f066165ed598
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: cfc373f2ea58bc169748ff42841650cf979822014e579a78459e47da5c694814
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105656729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953163"
 ---
 # <a name="decoder-settings-for-windows-media-center-edition"></a>Параметры декодера для Windows Media Center Edition
 
-В Windows XP Media Center Edition 2005 и более поздних версий используется интерфейс [**икодекапи**](/windows/desktop/api/Strmif/nn-strmif-icodecapi) для настройки фильтра декодера звука для воспроизведения телепередач и DVD-дисков. Поддерживаются следующие свойства.
+Windows В Windows XP Media Center Edition 2005 и более поздних версий используется интерфейс [**икодекапи**](/windows/desktop/api/Strmif/nn-strmif-icodecapi) для настройки фильтра декодера звука для воспроизведения телепередач и DVD-дисков. Поддерживаются следующие свойства.
 
 
 
@@ -25,7 +25,7 @@ ms.locfileid: "105656729"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значение \_ \_ Свойства формат выходного звука кодекапи \_ представляет собой СТРОКОВОЕ представление идентификатора GUID, хранящегося в виде значения **BSTR** . Определены следующие идентификаторы GUID.
 
@@ -48,7 +48,7 @@ ms.locfileid: "105656729"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

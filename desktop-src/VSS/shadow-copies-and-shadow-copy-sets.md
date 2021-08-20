@@ -4,12 +4,12 @@ ms.assetid: 8ef2478a-c8bc-4517-9a14-e1d9226ec4cd
 title: Теневые копии и наборы теневых копий
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18709842b1fb0fbf6d6cce2557b51042dfb024ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 764478c371cf4a622612865ef7a529955780d82847125874253533d331c195f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118998162"
 ---
 # <a name="shadow-copies-and-shadow-copy-sets"></a>Теневые копии и наборы теневых копий
 
@@ -26,7 +26,7 @@ ms.locfileid: "105692873"
 
 Теневые копии не должны быть реализованы одинаковым образом для каждого файла, каталога или тома. Различные реализации механизма теневого копирования ([*поставщиков*](vssgloss-p.md)) могут использовать разные подходы к созданию теневой копии. Однако для всех приложений, использующих API VSS, все теневые копии должны отображаться одинаково.
 
-Сведения о реализации поставщика Windows по умолчанию см. в разделе [поставщик системы](providers.md).
+сведения о реализации поставщика Windows по умолчанию см. в разделе [поставщик системы](providers.md).
 
 ## <a name="default-shadow-copy-state"></a>Состояние теневой копии по умолчанию
 

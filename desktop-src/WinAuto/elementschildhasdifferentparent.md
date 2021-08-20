@@ -4,12 +4,12 @@ description: елементсчилдхасдифферентпарент
 ms.assetid: 2347A33C-8FBD-4C30-8B40-9CB35F121C8E
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 843ea0f0ec7708f91d407f1fa7a55fa59a813234
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 885a5d930892d6e202764de8e58371f02690edee6715155f34533aaa110d7080
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104332656"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118829192"
 ---
 # <a name="elementschildhasdifferentparent"></a>елементсчилдхасдифферентпарент
 
@@ -19,7 +19,7 @@ ms.locfileid: "104332656"
 
 ## <a name="type"></a>Тип
 
-Ошибка
+Error
 
 ## <a name="description"></a>Описание
 
@@ -33,16 +33,16 @@ ms.locfileid: "104332656"
 
 Неправильная или недопустимая реализация MSAA.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**акцессиблечилдрен**](/windows/desktop/api/Oleacc/nf-oleacc-accessiblechildren)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

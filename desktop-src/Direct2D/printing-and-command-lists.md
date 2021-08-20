@@ -4,12 +4,12 @@ description: Элемент управления печатью Direct2D \ 32; �
 ms.assetid: C51ACCDE-B205-4F79-A2FD-D112BAAD1616
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b6beb16a24c972016686e2dffe915a947128a63
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: de0026071ce8e78fc2ea946e0fffff2993e32ab48a2a20d4de6cdb12ca9b1eaa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119075056"
 ---
 # <a name="printing-and-command-lists"></a>Печать и списки команд
 
@@ -27,7 +27,7 @@ ms.locfileid: "104413085"
 На схеме здесь показано взаимодействие между приложением, контекстом устройства, целевым объектом точечного рисунка, целевым объектом списка команд и элементом управления печатью.
 
 > [!Note]  
-> Компоненты Sub-System печати и принтеров Windows выделены серым цветом, так как они полностью скрыты от приложений [Direct2D](./direct2d-portal.md) .
+> Windows печати Sub-System и компонентов принтера отображаются серым цветом, так как они полностью скрыты от приложений [Direct2D](./direct2d-portal.md) .
 
 ![Схема, показывающая, как коммандлист и печать взаимодействуют с приложением и Direct2D.](images/d2dprintcontroldiagram.png)
 
@@ -70,7 +70,7 @@ d2dPrintControl->AddPage(commandList);
 d2dPrintControl->Close();
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 [**ID2D1CommandList**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1commandlist)
 

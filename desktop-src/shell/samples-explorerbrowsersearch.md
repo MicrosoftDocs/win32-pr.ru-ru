@@ -1,5 +1,5 @@
 ---
-description: Демонстрирует использование элемента управления браузером Windows Explorer для внедрения проводника Windows в приложение и реализации функции поиска с помощью папки поиска в памяти.
+description: демонстрирует использование элемента управления обозревателя Windows explorer для внедрения Windows Explorer в приложение и реализации функций поиска с помощью папки поиска в памяти.
 title: 'Пример: поиск в обозревателе проводника'
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 3dd33b1625fda513632966ea7f663da9e8089c6a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e4e0d8056e82fe38f627e6222af8589bb85aa2e83c1877db0a3d3e44edb5b8f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104080957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032222"
 ---
 # <a name="explorer-browser-search-sample"></a>Пример: поиск в обозревателе проводника
 
-Демонстрирует использование элемента управления браузером Windows Explorer для внедрения проводника Windows в приложение и реализации функции поиска с помощью папки поиска в памяти.
+демонстрирует использование элемента управления обозревателя Windows explorer для внедрения Windows Explorer в приложение и реализации функций поиска с помощью папки поиска в памяти.
 
 В этом разделе содержатся следующие подразделы.
 
@@ -27,14 +27,14 @@ ms.locfileid: "104080957"
 -   [Создание примера](#building-the-sample)
 -   [Запуск примера](#running-the-sample)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Продукт                                | Минимальная версия продукта |
 |----------------------------------------|-------------------------|
 | Windows                                | Windows 7               |
-| Windows SDK | 7.0                     |
+| Windows SDK | 7,0                     |
 
 
 

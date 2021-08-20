@@ -40,12 +40,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0098556fcbc1400ccd1042198903fec7e018ed57
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d3e8ca70d2bb5f37303c20117ddba59db6950d1dda58779179c6ef08c95abc4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025132"
 ---
 # <a name="replicationprovider1-class"></a>Класс ReplicationProvider1
 
@@ -91,7 +91,7 @@ class ReplicationProvider1 : __Win32Provider
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **ReplicationProvider1** имеет следующие свойства.
 
@@ -159,7 +159,7 @@ class ReplicationProvider1 : __Win32Provider
 
 </dd> <dt>
 
-**Enabled**
+**Включен**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **логический**
@@ -244,7 +244,7 @@ class ReplicationProvider1 : __Win32Provider
 
 <span id="2"></span>
 
-<span id="2"></span>**открыт**
+<span id="2"></span>**2**
 
 
 </dt> <dd>
@@ -285,7 +285,7 @@ class ReplicationProvider1 : __Win32Provider
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -327,7 +327,7 @@ class ReplicationProvider1 : __Win32Provider
 Тип доступа: чтение и запись
 </dt> </dl>
 
-Если **значение — true**, поставщик инициализируется для каждого языкового стандарта, когда пользователь соединяется с одним и тем же пространством имен более одного раза, используя разные языковые стандарты. Значение по умолчанию — **false**.
+Если **значение — true**, поставщик инициализируется для каждого языкового стандарта, когда пользователь соединяется с одним и тем же пространством имен более одного раза, используя разные языковые стандарты. Значение по умолчанию — **FALSE**.
 
 Это свойство наследуется от [**\_ \_ Win32Provider**](/windows/desktop/WmiSdk/--win32provider).
 
@@ -372,7 +372,7 @@ class ReplicationProvider1 : __Win32Provider
 Тип доступа: чтение и запись
 </dt> </dl>
 
-Дескриптор безопасности (SD) в языке определения дескрипторов безопасности (SDDL), определяющий набор пользователей, которые могут успешно вызывать [**ивбемдекаупледрегистрар: Register**](/windows/desktop/api/wbemprov/nf-wbemprov-iwbemdecoupledregistrar-register) для несвязанного поставщика. Дополнительные сведения см. в разделе о [языке определения дескрипторов безопасности](/windows/desktop/SecAuthZ/security-descriptor-definition-language) в разделе "безопасность" Windows SDK. Этот дескриптор безопасности используется только для несвязанных поставщиков и не влияет на других поставщиков. Дополнительные сведения см. [в разделе Включение поставщика в приложение](/windows/desktop/WmiSdk/incorporating-a-provider-in-an-application).
+Дескриптор безопасности (SD) в языке определения дескрипторов безопасности (SDDL), определяющий набор пользователей, которые могут успешно вызывать [**ивбемдекаупледрегистрар: Register**](/windows/desktop/api/wbemprov/nf-wbemprov-iwbemdecoupledregistrar-register) для несвязанного поставщика. дополнительные сведения см. в разделе о [языке определения дескрипторов безопасности](/windows/desktop/SecAuthZ/security-descriptor-definition-language) в разделе "безопасность" Windows SDK. Этот дескриптор безопасности используется только для несвязанных поставщиков и не влияет на других поставщиков. Дополнительные сведения см. [в разделе Включение поставщика в приложение](/windows/desktop/WmiSdk/incorporating-a-provider-in-an-application).
 
 Инструментарий WMI выполняет проверки доступа для несвязанных поставщиков, использующих интерфейсы [**ивбемпровидеринит**](/windows/desktop/api/wbemprov/nn-wbemprov-iwbemproviderinit) и [**ивбемобжектсинк**](/windows/desktop/WmiSdk/iwbemobjectsink) . Если дескриптор безопасности имеет **значение NULL**, то для запуска несвязанного поставщика могут использоваться только приложения или службы, работающие под учетными записями LocalSystem, NetworkService, LocalService.
 
@@ -506,7 +506,7 @@ class ReplicationProvider1 : __Win32Provider
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Экземпляр этого класса представляет поставщик WMI для служб домен Active Directory. По умолчанию используются следующие параметры.
 
@@ -514,7 +514,7 @@ class ReplicationProvider1 : __Win32Provider
 -   ClsID = "{29288F43-39B1-40db-B41F-CE899450E911}"
 -   Хостингмодел = "Нетворксервицехост"
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -528,7 +528,7 @@ class ReplicationProvider1 : __Win32Provider
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

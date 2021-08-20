@@ -4,17 +4,17 @@ ms.assetid: b3a146e7-cfc6-4fb2-92af-598bf695e816
 title: Чанжекуррентаудиостреам (сегмент. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ab22bd76b87eb3a80255b85d505791fa34e3862
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 07527d2aaa2ca979ba0dae833d378a3176617e873f346e5c2465e911be497a7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074217"
 ---
 # <a name="changecurrentaudiostream"></a>чанжекуррентаудиостреам
 
 > [!Note]  
-> Этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
+> этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
 
  
 
@@ -35,13 +35,13 @@ ChangeCurrentAudioStream(bEnabled)
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|--------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Сегмент. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Сегмент. h</dt> </dl> |
 
 
 

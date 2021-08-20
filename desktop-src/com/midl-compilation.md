@@ -4,12 +4,12 @@ description: Компиляция MIDL
 ms.assetid: 2797ee3b-82fd-4cb5-9e95-23b2f2a8f011
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e281fa66ec1b8f997dd58fc55a67c19a801d2d36
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 6d6a94f94122aeeb1f2900c3adec7e567c794f31ee22259f657dfe5e95f3f688
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104488333"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047952"
 ---
 # <a name="midl-compilation"></a>Компиляция MIDL
 
@@ -31,7 +31,7 @@ ms.locfileid: "104488333"
 
 Используйте файл заголовка и все файлы c для [создания прокси-библиотеки DLL](building-and-registering-a-proxy-dll.md) , которая может поддерживать интерфейс при использовании как клиентскими приложениями, так и серверами объектов. \_При создании исполняемого файла для клиентского приложения, использующего интерфейс, используется файл заголовка интерфейса (example2. h) и файл идентификатора интерфейса (example2 i. c). Можно выбрать включение файла библиотеки типов в качестве ресурса в EXE-файл или библиотеку DLL или поставлять его в отдельный файл.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

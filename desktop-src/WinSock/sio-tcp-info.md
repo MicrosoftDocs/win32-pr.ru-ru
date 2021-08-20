@@ -8,12 +8,12 @@ req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 api_location:
 - mstcpip.h
-ms.openlocfilehash: f6076440f117ed287ad544c308e574454f33e2b7
-ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
+ms.openlocfilehash: 60b4c04fc4629e67fcd9dc07a4590b4a1b4c735e84000b1272e27681b4436f0d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "112587800"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119244854"
 ---
 # <a name="sio_tcp_info-control-code"></a>Код элемента управления SIO_TCP_INFO
 
@@ -143,7 +143,7 @@ int WSPIoctl(
 
 В отличие от получения статистики TCP с помощью функции [**жетперткпконнектионестатс**](/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcpconnectionestats) , получение статистики TCP с помощью этого управляющего кода не требует от пользовательского кода загрузки, хранения и фильтрации таблицы соединений TCP, а также не требует повышенных привилегий для использования.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 [фиксатор](/windows/desktop/api/winsock2/nf-winsock2-socket)
 

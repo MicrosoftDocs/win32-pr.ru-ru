@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e1813ed76c92adf81daf0d1f96fe22fdc5c1fa3
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: f0d25a536c40f2989a82a1e1afcf71f3dc20f1cebd900e62d98b141f4d587338
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "105710196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026962"
 ---
 # <a name="wmproviderstyle"></a>WM/Провидерстиле
 
@@ -31,11 +31,11 @@ g \_ всзвмпровидерстиле
 
 **\_Строка типа \_ ВМТ**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут по сути является вторым дизайном-жанром. Поскольку различные классификаторы имеют различные понятия, связанные с содержимым, стиль поставщика может отличаться от жанра, назначенного автором содержимого.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -48,9 +48,9 @@ g \_ всзвмпровидерстиле
 [**WM/GenreID**](wm-genreid.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

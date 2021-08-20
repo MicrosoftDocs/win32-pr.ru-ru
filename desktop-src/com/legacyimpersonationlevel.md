@@ -6,12 +6,12 @@ keywords:
 - COM-значение реестра Легациимперсонатионлевел
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74fa00494eb71e49c35bfa37b434afc5c999e73e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cd032e83290c18fc3a2588e382ade7730fa2ea39a7847e375b1e887cdbbb90f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105700585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048082"
 ---
 # <a name="legacyimpersonationlevel"></a>легациимперсонатионлевел
 
@@ -20,16 +20,16 @@ ms.locfileid: "105700585"
 > [!Caution]  
 > Не рекомендуется изменять это значение, так как это повлияет на все серверные приложения COM, не устанавливающие собственный уровень безопасности на уровне процесса, и может препятствовать их правильной работе. Если вы изменяете это значение, чтобы оно влияло на параметры безопасности для конкретного приложения COM, вместо этого следует изменить параметры безопасности для этого конкретного COM-приложения. Дополнительные сведения о настройке безопасности на уровне процесса см. в разделе [Настройка безопасности на уровне процесса](setting-processwide-security.md).
 
- 
+ 
 
 ## <a name="registry-entry"></a>Запись реестра
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole
-   LegacyImpersonationLevel = value
+   LegacyImpersonationLevel = value
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это значение **\_ слова reg** , эквивалентное \_ \_ константам уровня "RPC C" \_ .
 
@@ -44,11 +44,11 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole
 
 
 
- 
+ 
 
 Если это значение реестра отсутствует, уровень олицетворения по умолчанию, установленный системой, — 2 (идентификатор RPC C, определяемый на \_ \_ \_ уровне Imp \_ ).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -58,9 +58,9 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole
 [Настройка безопасности на уровне процесса](setting-processwide-security.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

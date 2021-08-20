@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4b75758dc2383cf237da90c38f6a2efdbf6754e4
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: a861266f407701c6b09ad47704a6d4d62953715cd45b5ca28531386e1f75f739
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105684928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972403"
 ---
 # <a name="getmuteoperation-class"></a>Класс Жетмутеоператион
 
