@@ -3,9 +3,9 @@ title: Ивмпкдромбурн Рефрешстатус, метод
 description: Метод Рефрешстатус обновляет сведения о состоянии текущего списка воспроизведения записи.
 ms.assetid: 4dd90e76-92b5-4a00-b027-b54502e56804
 keywords:
-- Рефрешстатус метод Windows Media Player
-- Рефрешстатус метод проигрывателя Windows Media Player, интерфейс Ивмпкдромбурн
-- Интерфейс Ивмпкдромбурн Windows Media Player, метод Рефрешстатус
+- проигрыватель Windows Media метода рефрешстатус
+- проигрыватель Windows Media метода рефрешстатус, интерфейс ивмпкдромбурн
+- проигрыватель Windows Media интерфейса ивмпкдромбурн, метод рефрешстатус
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 55205e684d055d20c8e8f218ba58716de8472916
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1cd3ecbd249f9731993c541dcee33f81142e042185ca4bba0325af942fd42394
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105717977"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117930644"
 ---
 # <a name="iwmpcdromburnrefreshstatus-method"></a>Метод Ивмпкдромбурн:: Рефрешстатус
 
@@ -53,7 +53,7 @@ Implements IWMPCdromBurn.refreshStatus
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод следует вызывать после создания или изменения списка воспроизведения записи перед чтением сведений о состоянии или записи компакт-диска. Чтобы проверить, требуется ли обновление, получите значение **бурнстате** и проверьте наличие вмпбсрефрешстатуспендинг.
 
@@ -65,13 +65,13 @@ Implements IWMPCdromBurn.refreshStatus
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 11.<br/>                                                                                    |
+| Версия<br/>   | проигрыватель Windows Media 11.<br/>                                                                                    |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

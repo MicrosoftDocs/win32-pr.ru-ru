@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: fa57c91a7b421f0dceab131b28903894be6e7096
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7eaea8fc931e22ec3f2d8bd18f85132675f8cef76e6e81003c3778c11b9af33c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118074159"
 ---
 # <a name="jet_objectinfo-constructor"></a>Конструктор JET_OBJECTINFO
 
@@ -50,7 +50,7 @@ Dim instance As New JET_OBJECTINFO()
 public JET_OBJECTINFO()
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

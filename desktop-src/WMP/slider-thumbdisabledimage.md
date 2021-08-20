@@ -3,7 +3,7 @@ title: ПОЛЗУНок. Сумбдисабледимаже
 description: Атрибут Сумбдисабледимаже указывает или получает изображение бегунка элемента управления Slider, которое используется при отключении элемента управления.
 ms.assetid: 56b7d373-bf97-4a13-bd00-9cbee1e40762
 keywords:
-- ПОЛЗУНок. Сумбдисабледимаже Windows Media Player
+- проигрыватель Windows Media SLIDER. сумбдисабледимаже
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 07ae7fd90e6257d9faa1bf8cc587d176c5930a83
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5819996fd900fabfe160cb7c52fd7488453c51a00ef9b3f2eb8fec2821a8b747
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117933472"
 ---
 # <a name="sliderthumbdisabledimage"></a>ПОЛЗУНок. Сумбдисабледимаже
 
@@ -31,7 +31,7 @@ ms.locfileid: "105698832"
 
 Этот атрибут является **строкой** для чтения и записи, содержащей имя файла изображения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **Сумбдисабледимаже** является необязательным. Если он не указан, вместо него используется **сумбимаже** .
 
@@ -43,11 +43,11 @@ ms.locfileid: "105698832"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

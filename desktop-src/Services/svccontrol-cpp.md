@@ -4,12 +4,12 @@ ms.assetid: 9d582ab9-028c-48a2-ba34-ab48a9a317ce
 title: Свкконтрол. cpp
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 619bdd0cae759ce90379bbd72661aafe731c1a6d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2bdee8026018f08c3275ed36b7c4baf0a5df29df9b438bee7a794b754d61358c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664090"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117966777"
 ---
 # <a name="svccontrolcpp"></a>Свкконтрол. cpp
 
@@ -711,7 +711,7 @@ BOOL __stdcall StopDependentServices()
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

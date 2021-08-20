@@ -1,6 +1,6 @@
 ---
 description: Используется для настройки компонентов CAPICOM.
-title: Объект параметров
+title: объект Параметры
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -12,28 +12,28 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 27042f9602167f3eb0c1272f7c19fa1170abab40
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 30cd71bdff3361d14e5114007509ccc5db33540ae2d56a7f75c7c71eec0761da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689010"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117974336"
 ---
-# <a name="settings-object-cryptography"></a>Объект Settings (криптография)
+# <a name="settings-object-cryptography"></a>объект Параметры (криптография)
 
-\[Объект **параметров** доступен для использования в операционных системах, указанных в разделе требования.\]
+\[объект **Параметры** доступен для использования в операционных системах, указанных в разделе требования.\]
 
-Объект **параметров** используется для настройки компонентов CAPICOM.
+объект **Параметры** используется для настройки компонентов CAPICOM.
 
 ## <a name="members"></a>Элементы
 
-Объект **параметров** имеет следующие типы членов:
+объект **Параметры** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
-Объект **параметров** имеет следующие свойства.
+объект **Параметры** имеет следующие свойства.
 
 
 
@@ -73,9 +73,9 @@ ms.locfileid: "105689010"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Объект **параметров** может быть создан и защищен для создания скриптов. ProgID для объекта **параметров** — CAPICOM. Settings. 1.
+можно создать объект **Параметры** и обеспечить безопасность сценариев. ProgID для объекта **Параметры** — CAPICOM. Параметры. 1.
 
 ## <a name="requirements"></a>Требования
 
@@ -88,7 +88,7 @@ ms.locfileid: "105689010"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

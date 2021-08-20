@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: bbe29fe112b82b5c88673d9301b3feb4b0c94536
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3b16ec19a26ca02953de3028d91a54ecd440e7831472bbaa0baba6b8a40e5d74
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104143645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117895059"
 ---
 # <a name="jet_dbinfomiscequals-method-jet_dbinfomisc"></a>JET_DBINFOMISC. Метод Equals (JET_DBINFOMISC)
 
@@ -71,7 +71,7 @@ public bool Equals(
 
 [IEquatable \<T\> . Equals (T)](/dotnet/api/system.iequatable-1.equals#System_IEquatable_1_Equals__0_)  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

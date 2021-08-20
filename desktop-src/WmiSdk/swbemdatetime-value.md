@@ -17,12 +17,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 2ecb3a42a865559ba9b3c3e5fbec7302f975fa0d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6b389fc2dd858c9bd2645331f36966aa421daba2e3da11f6a67fc936ec9ff982
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155838"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117922611"
 ---
 # <a name="swbemdatetimevalue-property"></a>SWbemDateTime. Value, свойство
 
@@ -68,7 +68,7 @@ SWbemDateTime.Value As String
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
 | Библиотека типов<br/>             | <dl> <dt>Wbemdisp. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | \_SWBEMDATETIME CLSID<br/>                                                         |
@@ -76,7 +76,7 @@ SWbemDateTime.Value As String
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

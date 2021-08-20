@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 67f3d57ff53f872767eb5bd47710302b89ac1c67
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 842251634b3b7d206a1052cfa5e8f23e0ef72b45b05493527d0b271a97a6c8a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103777363"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117956602"
 ---
 # <a name="logfileitem-properties"></a>Свойства Логфилеитем
 
@@ -22,9 +22,9 @@ ms.locfileid: "103777363"
 
 -   [**Путь**](logfileitem-path.md)
 
- 
+ 
 
- 
+ 
 
 
 

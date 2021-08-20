@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 9a9664e658254de057b0e3aa8ae86813eb996a14
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c4c36b5e7ba99f5e8ff1099b0df75ef424ff2554bcb06a1e126be51b43f3192e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117700557"
 ---
 # <a name="windows8apijettryprereadindexranges-method"></a>Windows8Api. Жеттрипререадиндексранжес, метод
 
@@ -143,7 +143,7 @@ public static bool JetTryPrereadIndexRanges(
 Тип: [System. Boolean](/dotnet/api/system.boolean)  
 **\[ значение \] true** , если выполнено некоторое предсчитывание, и **\[ false \]** в противном случае.  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

@@ -4,12 +4,12 @@ ms.assetid: 4b6abd0b-7570-4ae0-a727-cdb6cec58daf
 title: Иункновндефинитионс, элемент
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cb3a4f76145e585411e64c10ea7af922db931846
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 7f894c85138cb8567966ae154d68a99767d3f2058f5471fc5c5a3695a754de0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107995151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117920778"
 ---
 # <a name="iunknowndefinitions-element"></a>Иункновндефинитионс, элемент
 

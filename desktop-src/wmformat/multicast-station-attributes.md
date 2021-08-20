@@ -3,19 +3,19 @@ title: Атрибуты многоадресной станции
 description: Атрибуты многоадресной станции
 ms.assetid: 24b81ccb-4030-49a4-802c-5b45f7dd5950
 keywords:
-- Windows Media Format SDK, атрибуты
+- Windows Пакет SDK для формата мультимедиа, атрибуты
 - Расширенный системный формат (ASF), атрибуты
 - ASF (Расширенный системный формат), атрибуты
 - атрибуты, многоадресная станция
 - атрибуты многоадресной станции
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f618ffa645055bf10a9247272d57c7e3f76853c0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 99f3591e5f5e70920577818cc60d1a4dffe414652fdecb04d341fe7bb3ddb9e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105710155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117654489"
 ---
 # <a name="multicast-station-attributes"></a>Атрибуты многоадресной станции
 
@@ -33,9 +33,9 @@ ms.locfileid: "105710155"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -45,9 +45,9 @@ ms.locfileid: "105710155"
 [**Список атрибутов**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

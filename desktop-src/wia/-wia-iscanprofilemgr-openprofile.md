@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scanprofilemgr.h
-ms.openlocfilehash: 40d380a2b0405445cba72a0aac73c4b529114fcb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 67b47fb6c905048b9906ce79a604beb463ca4947d4543cd5bb3e961545856428
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711965"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117670247"
 ---
 # <a name="iscanprofilemgropenprofile-method"></a>Метод Исканпрофилемгр:: Опенпрофиле
 
@@ -64,7 +64,7 @@ HRESULT OpenProfile(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если профиль сканирования сохранен с помощью метода [**Save**](-wia-iscanprofile-save.md) , он сохраняется в виде XML-файла в файле% UserProfile% \\ Application Data \\ \\ центра документов Microsoft \\ усерсканпрофилес.
 
@@ -74,14 +74,14 @@ HRESULT OpenProfile(
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                        |
-| Header<br/>                   | <dl> <dt>Сканпрофилемгр. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                              |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                        |
+| Заголовок<br/>                   | <dl> <dt>Сканпрофилемгр. h</dt> </dl> |
 | IDL<br/>                      | <dl> <dt>Сканпрофилес. idl</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 337317e7e0a150e893faf5416540dcbe2fa3f042
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd8f5141ed75c57784027c07015f9453af262f2b556c4a4b836391efd462f088
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118075982"
 ---
 # <a name="jet_columncreate-class"></a>Класс JET_COLUMNCREATE
 
@@ -64,7 +64,7 @@ public sealed class JET_COLUMNCREATE : IContentEquatable<JET_COLUMNCREATE>,
 
 Любые общедоступные статичные (общие в Visual Basic) члены этого типа являются потокобезопасными. Потокобезопасная работа с членами экземпляров типа не гарантируется.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

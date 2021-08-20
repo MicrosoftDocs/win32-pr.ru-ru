@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 99c0e96ff0da57ef9e5f580063dc4f693d672e15
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dba172c5111c781edd21b1090ab77bccfaaacdec4adb45d2abfdd75809a11b2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117955910"
 ---
 # <a name="systemmonitordisplaytype-property"></a>Системмонитор. Дисплайтипе, свойство
 
@@ -48,7 +48,7 @@ Property DisplayType As DisplayTypeConstants
 
 | Тип исключения               | Условие                                         |
 |------------------------------|---------------------------------------------------|
-| **System. ArgumentException** | Указано недопустимое значение диаграммы или отчета. |
+| **System.ArgumentException** | Указано недопустимое значение диаграммы или отчета. |
 
 
 
@@ -66,7 +66,7 @@ Property DisplayType As DisplayTypeConstants
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

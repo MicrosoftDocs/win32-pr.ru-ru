@@ -31,12 +31,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 32442122624035ec376bed3be8b3ef20c80f8524
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 945f0dcde3568ea6d1a6bc89c583f49919a463abf228121515367df95efc77c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103818969"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117926337"
 ---
 # <a name="__classproviderregistration-class"></a>\_\_Класс Класспровидеррегистратион
 
@@ -75,7 +75,7 @@ class __ClassProviderRegistration : __ObjectProviderRegistration
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ \_ класспровидеррегистратион** имеет следующие свойства.
 
@@ -465,7 +465,7 @@ class __ClassProviderRegistration : __ObjectProviderRegistration
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ \_ класспровидеррегистратион** является производным от [**\_ \_ обжектпровидеррегистратион**](--objectproviderregistration.md), который является производным от [**\_ \_ провидеррегистратион**](--providerregistration.md).
 
@@ -485,7 +485,7 @@ class __ClassProviderRegistration : __ObjectProviderRegistration
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

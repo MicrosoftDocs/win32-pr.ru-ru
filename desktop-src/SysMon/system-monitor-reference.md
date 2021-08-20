@@ -4,12 +4,12 @@ description: В разделе Справочник по системному м
 ms.assetid: d4efc073-3adf-466e-b877-917eefc3de12
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90ebd6d6e814664dfcea93e3af0736fda1b5b6b5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9fd70ca23698e34eede69273fa42fbdb3bf8eaa1c406f5aa3b72b04d5cab639a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104328315"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117956423"
 ---
 # <a name="system-monitor-reference"></a>Справочник по системному монитору
 
@@ -19,9 +19,9 @@ ms.locfileid: "104328315"
 -   [Перечисления](sysmon-enumerations.md)
 -   [Возвращаемые значения](sysmon-return-values.md)
 
- 
+ 
 
- 
+ 
 
 
 

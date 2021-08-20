@@ -4,12 +4,12 @@ ms.assetid: 5a330416-3b83-4f0f-825c-80e47903966e
 title: Шаблон пера
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 577b5e2cb31e44a4631760c82e678af069322cbc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0875789658f628f4c1e647d774faad56195c99bbd177ed441f0cb4a5f2333805
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104544423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117698696"
 ---
 # <a name="pen-pattern"></a>Шаблон пера
 

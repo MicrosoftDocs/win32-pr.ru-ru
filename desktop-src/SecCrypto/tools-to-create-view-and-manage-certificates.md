@@ -4,12 +4,12 @@ ms.assetid: 29146de8-adae-444b-bc75-fa43a19ab8f9
 title: Средства для создания, просмотра и управления сертификатами
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2fb4595b7c7711b10271bd97a447a77f3a01c19
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d46c1073228635e14ca8d5a6c0607c900b2e610af3f52f7391cb6d165b49c8bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103817856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117971960"
 ---
 # <a name="tools-to-create-view-and-manage-certificates"></a>Средства для создания, просмотра и управления сертификатами
 
@@ -17,10 +17,10 @@ ms.locfileid: "103817856"
 
 
 
-| Средство                                | Комментарии                                                                                                                                                                                 |
+| Инструмент                                | Remarks                                                                                                                                                                                 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Программой](makecert.md)<br/> | Создает тестовый сертификат [*X. 509*](../secgloss/x-gly.md) .<br/>                                                                                |
-| [Cert2SPC](cert2spc.md)<br/> | Создает тестовый [*сертификат издателя программного обеспечения*](../secgloss/s-gly.md) (SPC).<br/>           |
+| [MakeCert](makecert.md)<br/> | Создает тестовый сертификат [*X. 509*](../secgloss/x-gly.md) .<br/>                                                                                |
+| [Cert2SPC](cert2spc.md)<br/> | создает тестовое [*программное обеспечение Publisher сертификате*](../secgloss/s-gly.md) (SPC).<br/>           |
 | [CertMgr](certmgr.md)<br/>   | Управляет сертификатами, [*списками CTL и отзывами сертификатов*](../secgloss/c-gly.md) (CRL).<br/> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 8db1c7cb-41e0-470b-b927-989da4c09324
 title: Алгоритмы поставщика PROV_DSS_DH
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 098625153d4d447d7290827dcad44a6c78f55561
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4628b9425c5b5aef008e766ccdb8017e1b4409c182b3c61ea9cfb457af538736
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117976530"
 ---
 # <a name="prov_dss_dh-provider-algorithms"></a>\_ \_ Алгоритмы поставщика DH Prov DSS
 

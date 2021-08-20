@@ -3,7 +3,7 @@ title: Сообщение DRV_INSTALL (Ммсистем. h)
 description: Уведомляет устанавливаемый драйвер. Драйвер должен создать и инициализировать все необходимые разделы и значения реестра, а также убедиться, что вспомогательные драйверы и оборудование установлены и правильно настроены.
 ms.assetid: 8ee7b30b-600b-49f3-93a7-8faa7b87cfd8
 keywords:
-- DRV_INSTALL сообщения Windows мультимедиа
+- сообщение DRV_INSTALL Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 15c91c71a4cb65bfaffa07bf16e09bec0d16b7b4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 681d1ec646ddaa39cad9c83cacf7c7f5ed8e5d68dfd47bcd35f7a8a28bc49d9e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989353"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117988896"
 ---
 # <a name="drv_install-message"></a>\_Сообщение об установке DRV
 
@@ -66,7 +66,7 @@ ms.locfileid: "103989353"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Параметр *lParam1* не используется.
 
@@ -80,11 +80,11 @@ ms.locfileid: "103989353"
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

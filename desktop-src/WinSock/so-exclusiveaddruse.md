@@ -4,12 +4,12 @@ ms.assetid: ce0d8188-54be-46e8-8753-d0680f690b84
 title: Параметр SO_EXCLUSIVEADDRUSE Socket (Winsock2. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 90d4747150f918a7e9c4ce37ec209e7261d1a00c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de9d7b00cc2fcd01fc9d440ce2ef889a9e1be937d5d83af90cfa71bf6f83d14c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701501"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117927346"
 ---
 # <a name="so_exclusiveaddruse-socket-option"></a>SO, \_ параметр ексклусивеаддрусе Socket
 
@@ -163,11 +163,11 @@ int __cdecl wmain(int argc, wchar_t ** argv)
 
 *Подстановочный знак*
 
-*Specific*
+*Зависящ*
 
 *Подстановочный знак*
 
-*Specific*
+*Зависящ*
 
 $ {ROWSPAN3} $*so \_ ексклусивеаддрусе*$ {Remove} $  
 
@@ -181,7 +181,7 @@ $ {ROWSPAN3} $*so \_ ексклусивеаддрусе*$ {Remove} $
 
 Сбой (10048)
 
-*Specific*
+*Зависящ*
 
 Сбой (10048)
 
@@ -195,11 +195,11 @@ $ {ROWSPAN3} $*so \_ ексклусивеаддрусе*$ {Remove} $
 
 Недоступно
 
-Успешно
+Success
 
 Недоступно
 
-Успешно
+Success
 
 $ {ROWSPAN3} $*нет параметров*$ {Remove} $  
 
@@ -213,7 +213,7 @@ $ {ROWSPAN3} $*нет параметров*$ {Remove} $
 
 Сбой (10048)
 
-*Specific*
+*Зависящ*
 
 Сбой (10048)
 
@@ -227,11 +227,11 @@ $ {ROWSPAN3} $*нет параметров*$ {Remove} $
 
 Недоступно
 
-Успешно
+Success
 
 Недоступно
 
-Успешно
+Success
 
 $ {ROWSPAN3} $*so \_ реусеаддр*$ {Remove} $  
 
@@ -243,15 +243,15 @@ $ {ROWSPAN3} $*so \_ реусеаддр*$ {Remove} $
 
 Успех\*
 
-Успешно
+Success
 
-*Specific*
-
-Сбой (10013)
+*Зависящ*
 
 Сбой (10013)
 
-Успешно
+Сбой (10013)
+
+Success
 
 Успех\*
 
@@ -259,11 +259,11 @@ $ {ROWSPAN3} $*so \_ реусеаддр*$ {Remove} $
 
 Недоступно
 
-Успешно
+Success
 
 Недоступно
 
-Успешно
+Success
 
 \* Поведение не определено, в котором сокет будет принимать пакеты.
 

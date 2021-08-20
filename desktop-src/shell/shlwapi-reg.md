@@ -1,5 +1,5 @@
 ---
-description: В этом разделе описываются функции обработки реестра оболочки Windows. Программные элементы, описанные в этой документации, экспортируются с помощью Shlwapi.dll и определяются в Shlwapi. h и Shlwapi. lib.
+description: в этом разделе описываются функции обработки реестра оболочки Windows. Программные элементы, описанные в этой документации, экспортируются с помощью Shlwapi.dll и определяются в Shlwapi. h и Shlwapi. lib.
 title: Функции обработки реестра оболочки
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 8a3e4f65904fa97635b3ef4dc3abd9f01344f6a2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7bd7204ada31db6791d3cb78d1a11087d19eae45f0cacbfdf6ae6e032ae66a04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104997902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117676503"
 ---
 # <a name="shell-registry-handling-functions"></a>Функции обработки реестра оболочки
 
-В этом разделе описываются функции обработки реестра оболочки Windows. Программные элементы, описанные в этой документации, экспортируются с помощью Shlwapi.dll и определяются в Shlwapi. h и Shlwapi. lib.
+в этом разделе описываются функции обработки реестра оболочки Windows. Программные элементы, описанные в этой документации, экспортируются с помощью Shlwapi.dll и определяются в Shlwapi. h и Shlwapi. lib.
 
 ## <a name="in-this-section"></a>В этом разделе
 
