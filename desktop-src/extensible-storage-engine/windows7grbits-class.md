@@ -24,16 +24,16 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 900943a30295631dafcb49a5fe866e3728c22a11
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3725ef2ea1c3a2c84bb5d087527b0370fff6385e0638e764f1180ff756712130
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263455"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119967164"
 ---
 # <a name="windows7grbits-class"></a>Класс Windows7Grbits
 
-Грбитс, добавленные в версию ESENT Windows 7.
+грбитс, добавленные в версию ESENT Windows 7.
 
 ## <a name="inheritance-hierarchy"></a>Иерархия наследования
 
@@ -60,7 +60,7 @@ public static class Windows7Grbits
 
 Любые общедоступные статичные (общие в Visual Basic) члены этого типа являются потокобезопасными. Потокобезопасная работа с членами экземпляров типа не гарантируется.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

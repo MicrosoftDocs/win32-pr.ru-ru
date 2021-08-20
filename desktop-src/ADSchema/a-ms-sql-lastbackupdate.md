@@ -1,11 +1,11 @@
 ---
-title: Атрибут MS-SQL-Ластбаккупдате
+title: атрибут MS-SQL-ластбаккупдате
 description: Последняя Дата резервного копирования базы данных.
 ms.assetid: 09bd6c2a-85fe-46af-8569-5bc3cbc8411d
 ms.tgt_platform: multiple
 keywords:
-- Схема AD атрибута MS-SQL-Ластбаккупдате
-- Схема AD атрибута mS-SQL-Ластбаккупдате
+- схема AD атрибута ластбаккупдате MS-SQL-
+- схема AD атрибута ластбаккупдате mS-SQL-
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d91cadf953ab51185882c73d4d999a5ccb3fed9
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 12cdd1134ffea311444bfbd8af09a6236451d86d1f1be10dda5ff30ce60944a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103989847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118016409"
 ---
-# <a name="ms-sql-lastbackupdate-attribute"></a>Атрибут MS-SQL-Ластбаккупдате
+# <a name="ms-sql-lastbackupdate-attribute"></a>атрибут MS-SQL-ластбаккупдате
 
 Последняя Дата резервного копирования базы данных.
 
@@ -29,8 +29,8 @@ ms.locfileid: "103989847"
 
 | Ввод | Значение |
 |-------------------|---------------------------------------------|
-| CN                | MS-SQL-Ластбаккупдате                       |
-| LDAP-отображаемое имя | mS-SQL-Ластбаккупдате                       |
+| CN                | MS-SQL-ластбаккупдате                       |
+| LDAP-отображаемое имя | mS-SQL-ластбаккупдате                       |
 | Размер              | \-                                          |
 | Привилегия обновления  | Это значение задается системой.            |
 | Частота обновления  | При резервном копировании базы данных.             |
@@ -66,7 +66,7 @@ ms.locfileid: "103989847"
 | Range-Upper            | \-                                                                                                                            |
 | Search-Flags           | 0x00000000                                                                                                                    |
 | System-Flags           | 0x00000010                                                                                                                    |
-| Классы, используемые в        | [**MS-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**MS-SQL-Олапдатабасе**](c-ms-sql-olapdatabase.md)<br/> |
+| Классы, используемые в        | [**MS-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**MS-SQL-олапдатабасе**](c-ms-sql-olapdatabase.md)<br/> |
 
 
 
@@ -87,7 +87,7 @@ ms.locfileid: "103989847"
 | Range-Upper            | \-                                                                                                                            |
 | Search-Flags           | 0x00000000                                                                                                                    |
 | System-Flags           | 0x00000010                                                                                                                    |
-| Классы, используемые в        | [**MS-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**MS-SQL-Олапдатабасе**](c-ms-sql-olapdatabase.md)<br/> |
+| Классы, используемые в        | [**MS-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**MS-SQL-олапдатабасе**](c-ms-sql-olapdatabase.md)<br/> |
 
 
 
@@ -100,7 +100,7 @@ ms.locfileid: "103989847"
 | Идентификатор ссылки                | \-                                                                                                                            |
 | MAPI-Id                | \-                                                                                                                            |
 | System-Only            | Неверно                                                                                                                         |
-| Является однозначным       | True                                                                                                                          |
+| Является однозначным       | Верно                                                                                                                          |
 | Индексируется             | Неверно                                                                                                                         |
 | В глобальном каталоге      | Неверно                                                                                                                         |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                  |
@@ -108,7 +108,7 @@ ms.locfileid: "103989847"
 | Range-Upper            | \-                                                                                                                            |
 | Search-Flags           | 0x00000000                                                                                                                    |
 | System-Flags           | 0x00000010                                                                                                                    |
-| Классы, используемые в        | [**MS-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**MS-SQL-Олапдатабасе**](c-ms-sql-olapdatabase.md)<br/> |
+| Классы, используемые в        | [**MS-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**MS-SQL-олапдатабасе**](c-ms-sql-olapdatabase.md)<br/> |
 
 
 
@@ -129,7 +129,7 @@ ms.locfileid: "103989847"
 | Range-Upper            | \-                                                                                                                            |
 | Search-Flags           | 0x00000000                                                                                                                    |
 | System-Flags           | 0x00000010                                                                                                                    |
-| Классы, используемые в        | [**MS-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**MS-SQL-Олапдатабасе**](c-ms-sql-olapdatabase.md)<br/> |
+| Классы, используемые в        | [**MS-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**MS-SQL-олапдатабасе**](c-ms-sql-olapdatabase.md)<br/> |
 
 
 
@@ -150,7 +150,7 @@ ms.locfileid: "103989847"
 | Range-Upper            | \-                                                                                                                            |
 | Search-Flags           | 0x00000000                                                                                                                    |
 | System-Flags           | 0x00000010                                                                                                                    |
-| Классы, используемые в        | [**MS-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**MS-SQL-Олапдатабасе**](c-ms-sql-olapdatabase.md)<br/> |
+| Классы, используемые в        | [**MS-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**MS-SQL-олапдатабасе**](c-ms-sql-olapdatabase.md)<br/> |
 
 
 
@@ -171,7 +171,7 @@ ms.locfileid: "103989847"
 | Range-Upper            | \-                                                                                                                            |
 | Search-Flags           | 0x00000000                                                                                                                    |
 | System-Flags           | 0x00000010                                                                                                                    |
-| Классы, используемые в        | [**MS-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**MS-SQL-Олапдатабасе**](c-ms-sql-olapdatabase.md)<br/> |
+| Классы, используемые в        | [**MS-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**MS-SQL-олапдатабасе**](c-ms-sql-olapdatabase.md)<br/> |
 
 
 

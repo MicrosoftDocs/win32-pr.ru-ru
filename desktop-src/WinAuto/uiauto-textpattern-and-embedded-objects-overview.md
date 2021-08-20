@@ -17,18 +17,18 @@ keywords:
 - предоставление внедренных объектов
 ms.topic: article
 ms.date: 08/31/2019
-ms.openlocfilehash: 8e9e0a8b9f70677778238908f8faf04e21ed9619
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 2cb5a571d61353d2c8458b42fb65eac19eab0fb228f1e157539470075e392b8d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119899362"
 ---
 # <a name="how-ui-automation-exposes-embedded-objects"></a>Как модель автоматизации пользовательского интерфейса предоставляет внедренные объекты
 
 В этом разделе описывается, как автоматизация пользовательского интерфейса Майкрософт использует шаблоны элементов управления Text и TextRange для предоставления внедренных объектов (дочерних и дочерних элементов) в текстовом документе или контейнере.
 
-Для автоматизации пользовательского интерфейса внедренный объект — это любой элемент с нетекстовыми границами, такими как изображение, гиперссылка, таблица или тип документа (электронная таблица Microsoft Excel, файл Microsoft Windows Media и т. д.).
+для автоматизации пользовательского интерфейса внедренный объект — это любой элемент с нетекстовыми границами, такими как изображение, гиперссылка, таблица или тип документа (Microsoft Excel электронная таблица, файл мультимедиа Microsoft Windows и т. д.).
 
 > [!NOTE]
 > Это отличается от определения OLE COM (см. [внедренные объекты](../com/embedded-objects.md)), где элемент создается в одном приложении и внедряется или связывается в другом приложении. Может ли объект быть отредактирован в исходном приложении в контексте модели автоматизации пользовательского интерфейса.
@@ -59,7 +59,7 @@ ms.locfileid: "111443325"
 - DataGrid
 - Документ
 - Изменить
-- Group
+- Группа
 - Заголовок
 - HeaderItem
 - Список
@@ -106,8 +106,8 @@ ms.locfileid: "111443325"
 
 | Объекты  | Совместимые внедренные объекты | Несовместимые внедренные объекты |
 | --- | --- | --- |
-| Не TextPattern внедренные объекты | В Microsoft ребро<br>Таблица данных в Microsoft ребро | В RichTextBlock в Microsoft XAML Framework<br>Изображения с Alt-Text в Microsoft ребро<br>ListView с ListItems в RichTextBlock в Microsoft XAML Framework |
-| Внедренные объекты TextPattern | Элемент управления вводом типа "Text" в Microsoft ребро<br>Таблица в документе Word | Элемент TextBox в документе Microsoft Word |
+| Не TextPattern внедренные объекты | Кнопка в Microsoft Edge<br>Таблица данных в Microsoft Edge | В RichTextBlock в Microsoft XAML Framework<br>Изображения с Alt-Text в Microsoft Edge<br>ListView с ListItems в RichTextBlock в Microsoft XAML Framework |
+| Внедренные объекты TextPattern | Элемент управления вводом типа "Text" в Microsoft Edge<br>Таблица в документе Word | элемент TextBox в Microsoft Word документе |
 
 ## <a name="exposing-embedded-objects"></a>Предоставление внедренных объектов
 
@@ -259,7 +259,7 @@ ms.locfileid: "111443325"
 | Ячейка с изображением                                            | Ячейка с текстом |
 |------------------------------------------------------------|----------------|
 | ![Иллюстрация списка выбора](images/shuttle.jpg)           | X              |
-| ![Иллюстрация пространства и области действия](images/space.jpg) | Y              |
+| ![Иллюстрация пространства и области действия](images/space.jpg) | Д              |
 | ![Иллюстрация микрообласти](images/microscope.jpg)     | Z              |
 
 Вызов методов [**иуиаутоматионгридпаттерн::**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationgridpattern-getitem)иуиаутоматионтекстпаттерн: [**: ранжефромчилд**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextpattern-rangefromchild)и [**иуиаутоматионтекстранже:: GetEnclosingElement**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getenclosingelement) приводит к поведению, описанному в следующей таблице.

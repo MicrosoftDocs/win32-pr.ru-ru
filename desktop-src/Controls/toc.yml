@@ -1,4 +1,4 @@
-- name: Элементы управления Windows
+- name: Windows Элементы управления
   href: window-controls.md
   items:
     - name: Общие сведения об элементах управления
@@ -11,9 +11,9 @@
         - name: Поддержка Юникода для стандартных элементов управления
           href: unicode-support.md
         - name: Поддержка локализации для стандартных элементов управления
-          href: cc-faq-localization.md
+          href: cc-faq-localization.yml
         - name: Часто задаваемые вопросы об элементах управления
-          href: cc-faq.md
+          href: cc-faq.yml
     - name: Управляющие сообщения
       href: control-messages.md
     - name: Пользовательские элементы управления
@@ -43,7 +43,7 @@
               items:
                 - name: нмкустомдрав
                   href: /windows/win32/api/Commctrl/ns-commctrl-nmcustomdraw
-    - name: 'Вопросы безопасности: элементы управления Microsoft Windows'
+    - name: 'вопросы безопасности: элементы управления Microsoft Windows'
       href: sec-comctls.md
     - name: Библиотека элементов управления
       href: individual-control-info.md
@@ -1367,7 +1367,7 @@
                     - name: IImageList
                       href: /windows/desktop/api/CommonControls/nn-commoncontrols-iimagelist
                       items:
-                        - name: Добавить
+                        - name: Add
                           href: /windows/desktop/api/CommonControls/nf-commoncontrols-iimagelist-add
                         - name: аддмаскед
                           href: /windows/desktop/api/CommonControls/nf-commoncontrols-iimagelist-addmasked
@@ -1407,7 +1407,7 @@
                           href: /windows/desktop/api/CommonControls/nf-commoncontrols-iimagelist-getitemflags
                         - name: жетоверлайимаже
                           href: /windows/desktop/api/CommonControls/nf-commoncontrols-iimagelist-getoverlayimage
-                        - name: Объединение
+                        - name: Объединить
                           href: /windows/desktop/api/CommonControls/nf-commoncontrols-iimagelist-merge
                         - name: Удалить
                           href: /windows/desktop/api/CommonControls/nf-commoncontrols-iimagelist-remove
@@ -2846,7 +2846,7 @@
             - name: Обзоры страниц свойств
               href: bumper-property-sheet-property-sheets-overviews.md
               items:
-                - name: О страницах свойств
+                - name: Сведения о страницах свойств
                   href: property-sheets.md
                 - name: Использование страниц свойств
                   href: using-property-sheets.md
@@ -3254,7 +3254,7 @@
                       href: use-word-and-line-break-information.md
                     - name: Использование многофункциональных операций редактирования буфера обмена
                       href: use-rich-edit-clipboard-operations.md
-                    - name: Использование потоков
+                    - name: использование Потоки
                       href: use-streams.md
                     - name: Автоматическое изменение размера элементов управления Rich Edit
                       href: automatically-resize-rich-edit-controls.md
@@ -4218,7 +4218,7 @@
                               href: /windows/desktop/api/Tom/nf-tom-itextrange-copy
                             - name: Вырезать
                               href: /windows/desktop/api/Tom/nf-tom-itextrange-cut
-                            - name: DELETE
+                            - name: Удалить
                               href: /windows/desktop/api/Tom/nf-tom-itextrange-delete
                             - name: ендоф
                               href: /windows/desktop/api/Tom/nf-tom-itextrange-endof
@@ -4284,7 +4284,7 @@
                               href: /windows/desktop/api/Tom/nf-tom-itextrange-paste
                             - name: скроллинтовиев
                               href: /windows/desktop/api/Tom/nf-tom-itextrange-scrollintoview
-                            - name: Выберите пункт
+                            - name: Выбор
                               href: /windows/desktop/api/Tom/nf-tom-itextrange-select
                             - name: SetChar
                               href: /windows/desktop/api/Tom/nf-tom-itextrange-setchar
@@ -4545,7 +4545,7 @@
                               href: /windows/desktop/api/Tom/nf-tom-itextstoryranges-_newenum
                             - name: GetCount
                               href: /windows/desktop/api/Tom/nf-tom-itextstoryranges-getcount
-                            - name: Элемент
+                            - name: Компонент
                               href: /windows/desktop/api/Tom/nf-tom-itextstoryranges-item
                         - name: ITextStoryRanges2
                           href: /windows/desktop/api/Tom/nn-tom-itextstoryranges2
@@ -4958,7 +4958,7 @@
                       href: wm-ctlcolorstatic.md
                 - name: Стили статических элементов управления
                   href: static-control-styles.md
-        - name: Строка состояния
+        - name: Status Bar
           href: status-bar-reference.md
           items:
             - name: Общие сведения о панелях состояния
@@ -5391,9 +5391,9 @@
                     - name: Использование "горячего" отслеживания с панелями инструментов
                       href: use-hot-tracking-with-toolbars.md
                     - name: Создание панели инструментов в стиле Internet Explorer
-                      href: cc-faq-ietoolbar.md
+                      href: cc-faq-ietoolbar.yml
                     - name: Создание строки меню в стиле Internet Explorer
-                      href: cc-faq-iemenubar.md
+                      href: cc-faq-iemenubar.yml
             - name: Справочник по элементу управления ToolBar
               href: bumper-toolbar-toolbar-control-reference.md
               items:
@@ -5712,7 +5712,7 @@
                       href: toolbar-extended-styles.md
                     - name: Значения индекса изображения стандартной кнопки панели инструментов
                       href: toolbar-standard-button-image-index-values.md
-        - name: Всплывающая подсказка
+        - name: Подсказка
           href: tooltip-control-reference.md
           items:
             - name: Обзоры элементов управления ToolTip
@@ -5861,7 +5861,7 @@
                       href: process-trackbar-notification-messages.md
                     - name: Ограничение перемещения ползунка
                       href: limit-slider-movement.md
-                    - name: Использование дружественных окон
+                    - name: Использование дружественной Windows
                       href: use-buddy-windows.md
             - name: Справочник по элементу управления TrackBar
               href: bumper-trackbar-trackbar-control-reference.md

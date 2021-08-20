@@ -92,7 +92,7 @@ ms.locfileid: "119841444"
 
     
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 
 [Руководство по программированию](-wic-programming-guide.md)
 

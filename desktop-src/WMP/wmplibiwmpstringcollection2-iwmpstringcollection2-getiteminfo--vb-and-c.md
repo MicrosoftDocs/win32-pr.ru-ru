@@ -3,9 +3,9 @@ title: IWMPStringCollection2 getItemInfo, метод
 description: Метод getItemInfo возвращает строку, соответствующую указанному индексу и имени элемента коллекции строк.
 ms.assetid: 4a107e85-9eb7-42be-b1f9-8e9e92e6e509
 keywords:
-- getItemInfo метод Windows Media Player
-- getItemInfo метод проигрывателя Windows Media Player, интерфейс IWMPStringCollection2
-- Интерфейс IWMPStringCollection2 Windows Media Player, метод getItemInfo
+- проигрыватель Windows Media метода getItemInfo
+- проигрыватель Windows Media метода getItemInfo, интерфейс IWMPStringCollection2
+- проигрыватель Windows Media интерфейса IWMPStringCollection2, метод getItemInfo
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4741c4a3ba74b03038974d8b66bc42c23830ebb3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6f3f5371d55384544e4135e702b686cc7ce36707d204529ca7a4e68a3734d8ec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708467"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119899844"
 ---
 # <a name="iwmpstringcollection2getiteminfo-method"></a>Метод IWMPStringCollection2:: getItemInfo
 
@@ -73,25 +73,25 @@ Implements IWMPStringCollection2.getItemInfo
 
 **Строка System. String** , которая является именем элемента коллекции строк. Для атрибутов, базовым значением которых является **System. Boolean**, возвращается строка «true» или «false».
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы получить атрибуты с несколькими значениями и атрибутами со сложными значениями, используйте метод **жетитеминфобитипе** .
 
 Чтобы использовать этот метод, требуется доступ на чтение к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 11.<br/>                                                                                    |
+| Версия<br/>   | проигрыватель Windows Media 11.<br/>                                                                                    |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

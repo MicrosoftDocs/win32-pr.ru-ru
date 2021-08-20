@@ -3,19 +3,19 @@ title: Элемент VIDEO
 description: Элемент VIDEO
 ms.assetid: 817e0d2e-cbc3-4b61-81c0-876104125f39
 keywords:
-- Обложки проигрывателя Windows Media, элемент VIDEO
+- обложки проигрыватель Windows Media, элемент VIDEO
 - обложки, элемент VIDEO
 - Элемент VIDEO
 - Справочник по обложкам, элементу VIDEO
 - элементы, видео
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dbd8ab6bd014d2968483120fd1dd98804905faa4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f7b72df7472829fe9979c9f7a30558e340a69aeb2f7024641623ba6be1a46424
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103776640"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054202"
 ---
 # <a name="video-element"></a>Элемент VIDEO
 
@@ -39,7 +39,7 @@ ms.locfileid: "103776640"
 
 
 
- 
+ 
 
 Элемент **Video** может реализовывать следующие обработчики событий.
 
@@ -52,7 +52,7 @@ ms.locfileid: "103776640"
 
 
 
- 
+ 
 
 Элемент **Video** поддерживает атрибуты окружения и может реализовывать обработчики событий окружения, за исключением случаев, когда отмечено. Дополнительные сведения см. в разделе [атрибуты окружения](ambient-attributes.md) и [обработчики событий окружения](ambient-event-handlers.md).
 
@@ -66,18 +66,18 @@ ms.locfileid: "103776640"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Справочник по программированию для обложки**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

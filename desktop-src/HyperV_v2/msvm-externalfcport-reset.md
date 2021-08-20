@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 91674f0dd12e8e84337b2c5557b9ff1ffa83a991
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e94154698b59572addc3ee44d7df417cec87db849f52eefab78b42eb13d8e0c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108119042"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118148161"
 ---
 # <a name="reset-method-of-the-msvm_externalfcport-class"></a>Метод Reset \_ класса мсвм екстерналфкпорт
 
@@ -49,7 +49,7 @@ uint32 Reset();
 **Не поддерживается** (1)
 </dt> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: c17167ab-e9a0-4290-955c-484d038b82af
 title: Исполнение элементов панели управления
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc1e2bc84ce5225176585f2da221fab6110ce79f9ff68dfc83b3c66125d623d4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5bb941bb7542b0d786d682e6626e8d78faea8bd7
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118224280"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478420"
 ---
 # <a name="executing-control-panel-items"></a>Исполнение элементов панели управления
 
@@ -139,51 +139,9 @@ WinExec("%systemroot%\system32\control.exe /name Microsoft.WindowsUpdate", SW_NO
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>control.exe Desktop</td>
-<td>Открывает окно <strong>Свойства экрана</strong> .
-<blockquote>
-[!Note]<br />
-Выпуски Starter и Basic не поддерживают эту команду.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>Цвет control.exe</td>
-<td>Открывает окно <strong>свойства отображения</strong> с выделенной вкладкой <strong>Оформление</strong> .</td>
-</tr>
-<tr class="odd">
-<td>Дата и время control.exe</td>
-<td>Открывает окно <strong>Свойства даты и времени</strong> .</td>
-</tr>
-<tr class="even">
-<td>control.exe Международная</td>
-<td>Открывает окно язык <strong>и региональные параметры</strong> .</td>
-</tr>
-<tr class="odd">
-<td>control.exe мыши</td>
-<td>Запускает окно <strong>свойств мыши</strong> .</td>
-</tr>
-<tr class="even">
-<td>control.exe клавиатура</td>
-<td>Запускает окно <strong>Свойства клавиатуры</strong> .</td>
-</tr>
-<tr class="odd">
-<td>control.exe принтеры</td>
-<td>Отображает папку <strong>Принтеры и факсы</strong> .</td>
-</tr>
-<tr class="even">
-<td>control.exe шрифты</td>
-<td>Отображает папку <strong>Fonts</strong> .</td>
-</tr>
-</tbody>
-</table>
+
+| | | control.exe Desktop | Открывает окно <strong>Свойства экрана</strong> .<blockquote>[!Note]<br />Выпуски Starter и Basic не поддерживают эту команду.</blockquote><br /> | | Цвет control.exe | Открывает окно <strong>свойства отображения</strong> с выделенной вкладкой <strong>Оформление</strong> . | | control.exe Дата и время | Открывает окно <strong>Свойства даты и времени</strong> . | | control.exe Международная | Открывает окно язык <strong>и региональные параметры</strong> . | | control.exe мыши | Запускает окно <strong>свойств мыши</strong> . | | control.exe клавиатура | Запускает окно <strong>Свойства клавиатуры</strong> . | | control.exe принтеры | Отображает папку <strong>Принтеры и факсы</strong> . | | control.exe шрифты | Отображает папку <strong>Fonts</strong> . | 
+
 
 
 

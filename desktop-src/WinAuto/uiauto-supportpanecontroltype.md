@@ -21,12 +21,12 @@ keywords:
 - типы элементов управления, область
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15e4a7225869c0752e65aece7e4eca00a416614315c8d5af810bdeb57d29aae0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6b335496d8d40d20ccc68f6bc2b048c87ff608dd
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118825534"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474260"
 ---
 # <a name="pane-control-type"></a>Тип элемента управления панели
 
@@ -51,28 +51,11 @@ ms.locfileid: "118825534"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Представление элемента управления</th>
-<th>Представление содержимого</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Панель</li>
-</ul></td>
-<td><ul>
-<li>Панель</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Представление элемента управления | Представление содержимого | 
+|--------------|--------------|
+| <ul><li>Панель</li></ul> | <ul><li>Панель</li></ul> | 
+
 
 
 
@@ -154,50 +137,11 @@ ms.locfileid: "118825534"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Дерево модели автоматизации пользовательского интерфейса — представление элемента управления</th>
-<th>Дерево модели автоматизации пользовательского интерфейса — представление содержимого</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Панель
-<ul>
-<li>Tree (шаблон Scroll)
-<ul>
-<li>TreeItem</li>
-<li>...</li>
-</ul></li>
-</ul></li>
-<li>Панель
-<ul>
-<li>Изменить (шаблон прокрутки)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>Панель
-<ul>
-<li>Tree (шаблон Scroll)
-<ul>
-<li>TreeItem</li>
-<li>...</li>
-</ul></li>
-<li>Панель
-<ul>
-<li>Изменить (шаблон прокрутки)</li>
-</ul></li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Дерево модели автоматизации пользовательского интерфейса — представление элемента управления | Дерево модели автоматизации пользовательского интерфейса — представление содержимого | 
+|-----------------------------------|-----------------------------------|
+| <ul><li>Панель<ul><li>Tree (шаблон Scroll)<ul><li>TreeItem</li><li>...</li></ul></li></ul></li><li>Панель<ul><li>Изменить (шаблон прокрутки)</li></ul></li></ul> | <ul><li>Панель<ul><li>Tree (шаблон Scroll)<ul><li>TreeItem</li><li>...</li></ul></li><li>Панель<ul><li>Изменить (шаблон прокрутки)</li></ul></li></ul></li></ul> | 
+
 
 
 

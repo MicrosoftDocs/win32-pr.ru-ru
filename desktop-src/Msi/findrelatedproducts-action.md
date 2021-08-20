@@ -4,12 +4,12 @@ ms.assetid: 7efcb767-9bdf-43a4-83b8-61b6fc84adf6
 title: Действие Финдрелатедпродуктс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a87973631e51315df17a156bc8c57aa9facd84f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8201a2e86f9dec09931b17cd4dd594c45e4bf78de32ba438b8824a6f540563fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104347165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118142883"
 ---
 # <a name="findrelatedproducts-action"></a>Действие Финдрелатедпродуктс
 
@@ -27,7 +27,7 @@ ms.locfileid: "104347165"
 
 Действие Финдрелатедпродуктс использует свойство [**UpgradeCode**](upgradecode.md) и сведения о версии и языке, созданные в таблице обновления, для обнаружения установленных продуктов, затрагиваемых ожидающим обновлением. Он добавляет код продукта обнаруженных продуктов к свойству в столбце Актионпроперти объекта Упградетабле.
 
-Финдрелатедпродуктс распознает только существующие продукты, установленные с помощью установщик Windows с файлом MSI, который определяет свойство [**UpgradeCode**](upgradecode.md) , свойство [**ProductVersion**](productversion.md) и значение для свойства [**продуктлангуаже**](productlanguage.md) , которое является одним из языков, перечисленных в свойстве [**сводки шаблона**](template-summary.md) .
+финдрелатедпродуктс распознает только существующие продукты, установленные с помощью установщик Windows с .msi, который определяет свойство [**UpgradeCode**](upgradecode.md) , свойство [**ProductVersion**](productversion.md) и значение для свойства [**продуктлангуаже**](productlanguage.md) , которое является одним из языков, перечисленных в свойстве [**сводки по шаблону**](template-summary.md) .
 
 Обратите внимание, что Финдрелатедпродуктс использует язык, возвращенный [**мсижетпродуктинфо**](/windows/desktop/api/Msi/nf-msi-msigetproductinfoa). Для правильной работы Финдрелатедпродуктс автор пакета должен убедиться, что для свойства [**продуктлангуаже**](productlanguage.md) в [таблице свойств](property-table.md) задан язык, который также указан в свойстве [**сводки шаблона**](template-summary.md) . См. статью [Подготовка приложения к последующим основным обновлениям](preparing-an-application-for-future-major-upgrades.md).
 

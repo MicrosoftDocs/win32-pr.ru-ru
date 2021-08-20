@@ -4,12 +4,12 @@ ms.assetid: 37362642-1b8a-4fb3-950d-ed1afe3696e5
 title: Источник MP3-файла
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 89b5649f1bdbc9d9b3dfa0af2f04878dfa64852af85ff8e829d4d2d4c4d20d8e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5c95e54319fb189fa3bcc366b554b4d6555b2f4a
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118240109"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122479840"
 ---
 # <a name="mp3-file-source"></a>Источник MP3-файла
 
@@ -61,41 +61,14 @@ ms.locfileid: "118240109"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Service GUID</th>
-<th>Интерфейс</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>MF_METADATA_PROVIDER_SERVICE</strong></td>
-<td><a href="/windows/desktop/api/mfidl/nn-mfidl-imfmetadataprovider"><strong>имфметадатапровидер</strong></a></td>
-</tr>
-<tr class="even">
-<td><strong>MF_PROPERTY_HANDLER_SERVICE</strong></td>
-<td><a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore"><strong>ипропертисторе</strong></a>
-<blockquote>
-[!Note]<br />
-См. раздел <a href="shell-metadata-providers.md">поставщики метаданных оболочки</a>.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><strong>MF_RATE_CONTROL_SERVICE</strong></td>
-<td><a href="/windows/desktop/api/mfidl/nn-mfidl-imfratecontrol"><strong>имфратеконтрол</strong></a></td>
-</tr>
-<tr class="even">
-<td><strong>MF_RATE_CONTROL_SERVICE</strong></td>
-<td><a href="/windows/desktop/api/mfidl/nn-mfidl-imfratesupport"><strong>имфратесуппорт</strong></a></td>
-</tr>
-</tbody>
-</table>
+
+| Service GUID | Интерфейс | 
+|--------------|-----------|
+| <strong>MF_METADATA_PROVIDER_SERVICE</strong> | <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmetadataprovider"><strong>имфметадатапровидер</strong></a> | 
+| <strong>MF_PROPERTY_HANDLER_SERVICE</strong> | <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore"><strong>ипропертисторе</strong></a><blockquote>[!Note]<br />См. раздел <a href="shell-metadata-providers.md">поставщики метаданных оболочки</a>.</blockquote><br /><br /> | 
+| <strong>MF_RATE_CONTROL_SERVICE</strong> | <a href="/windows/desktop/api/mfidl/nn-mfidl-imfratecontrol"><strong>имфратеконтрол</strong></a> | 
+| <strong>MF_RATE_CONTROL_SERVICE</strong> | <a href="/windows/desktop/api/mfidl/nn-mfidl-imfratesupport"><strong>имфратесуппорт</strong></a> | 
+
 
 
 
@@ -113,7 +86,7 @@ ms.locfileid: "118240109"
 
 
 
-## <a name="see-also"></a>См. также статью
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

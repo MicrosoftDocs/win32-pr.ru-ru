@@ -15,12 +15,12 @@ api_type:
 - Schema
 api_location:
 - Root
-ms.openlocfilehash: 53cfaa69afead4f436879f128a4d42e50d36fe67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4711f13afde50d512c3a7e210a0853ef9cc7606be096d95f86b144684a5add6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118820694"
 ---
 # <a name="__objectprovidercachecontrol-class"></a>\_\_Класс Обжектпровидеркачеконтрол
 
@@ -44,7 +44,7 @@ class __ObjectProviderCacheControl : __CacheControl
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ \_ обжектпровидеркачеконтрол** имеет следующие свойства.
 
@@ -63,7 +63,7 @@ class __ObjectProviderCacheControl : __CacheControl
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ \_ обжектпровидеркачеконтрол** является производным от [**\_ \_ CacheControl**](--cachecontrol.md). Дополнительные сведения об использовании этого класса см. [в разделе выгрузка поставщика](unloading-a-provider.md).
 
@@ -79,7 +79,7 @@ class __ObjectProviderCacheControl : __CacheControl
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

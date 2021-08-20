@@ -3,7 +3,7 @@ title: Структура MCI_OVLY_OPEN_PARMS (Ммсистем. h)
 description: '\_ \_ Структура овли Open ПАРМС в MCI \_ содержит сведения о команде MCI \_ Open для устройств наложения видео.'
 ms.assetid: 1559ae40-4aa5-4dfc-b337-7b056c706b67
 keywords:
-- MCI_OVLY_OPEN_PARMS структура мультимедиа Windows
+- структура MCI_OVLY_OPEN_PARMS Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e64b864b4b0366421828960504aff3f5a83836b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a2f13d0e9f8a7a4b9f5477459286bc56b9c98b1f9564e8432329681aeaef66d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104488988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118138281"
 ---
 # <a name="mci_ovly_open_parms-structure"></a>\_Структура MCI овли \_ Open \_ пармс
 
@@ -95,13 +95,13 @@ typedef struct {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При назначении данных членам этой структуры установите соответствующие флаги в параметре *фдвкомманд* функции [**мЦисендкомманд**](/previous-versions//dd757160(v=vs.85)) , чтобы проверить элементы.
 
 Структуру [**\_ \_ пармс для MCI**](mci-open-parms.md) можно использовать вместо **MCI \_ овли \_ Open \_ пармс** , если вы не используете расширенные элементы данных.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -113,7 +113,7 @@ typedef struct {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

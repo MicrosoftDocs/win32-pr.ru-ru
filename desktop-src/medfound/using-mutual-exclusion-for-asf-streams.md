@@ -1,17 +1,17 @@
 ---
-description: Использование взаимного исключения для потоков ASF
+description: использование взаимного исключения для ASF Потоки
 ms.assetid: fdd31eac-1dd6-45f0-90fb-d5a74c85db2e
-title: Использование взаимного исключения для потоков ASF
+title: использование взаимного исключения для ASF Потоки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 411b5aa0638ab1c56298b93d01e8de99920abc6c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 40c7fd104659064952803c16f572ee1e55dee0508144474e89ee7c0f362315c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105647269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034571"
 ---
-# <a name="using-mutual-exclusion-for-asf-streams"></a>Использование взаимного исключения для потоков ASF
+# <a name="using-mutual-exclusion-for-asf-streams"></a>использование взаимного исключения для ASF Потоки
 
 Содержимое ASF может содержать несколько взаимоисключающих потоков. Эти потоки не могут быть прочитаны одновременно, но только один из них читается за раз. Например, файл может содержать набор потоков, включающих то же содержимое, которое закодировано с разной скоростью. Используемый поток определяется пропускной способностью, доступной для приложения, которое осуществляет потоковую передачу содержимого. Объект взаимного исключения ASF, который является частью объекта Header, хранит сведения о группе взаимоисключающих потоков.
 
@@ -99,7 +99,7 @@ ms.locfileid: "105647269"
 
 5.  Вызовите [**имфасфпрофиле:: аддмутуалексклусион**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-addmutualexclusion) , чтобы добавить обновленный объект взаимного исключения в профиль.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

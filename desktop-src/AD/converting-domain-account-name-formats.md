@@ -5,12 +5,12 @@ ms.assetid: a8bb6331-5070-4f46-b03d-615a004b3982
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25ab1a6d0022b0a47979c1f6b3434e6227c23c30
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 9b27f0fa471cbdee4c3c195e010f152845d8ab1fa06f8a8b8246bfa3570ccaef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103789606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118021478"
 ---
 # <a name="converting-domain-account-name-formats"></a>Преобразование форматов имен учетных записей домена
 
@@ -18,6 +18,6 @@ ms.locfileid: "103789606"
 
 Для преобразования между различными форматами имен используйте функцию [**транслатенаме**](/windows/desktop/api/secext/nf-secext-translatenamea) , которая может преобразовывать имена в другие форматы, например имя участника-пользователя (UPN).
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 6df4655a-f707-4893-b6e6-f7e4d7f67b4e
 title: Типы заголовков битовых карт
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5910b0fb5be1166e807db1f3362186a206abc2b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c88839947845cc45633cbc07b7c36aec727318c91910bfc277680b1946080531
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103898457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119966414"
 ---
 # <a name="bitmap-header-types"></a>Типы заголовков битовых карт
 
@@ -26,7 +26,7 @@ ms.locfileid: "103898457"
 
 Форматы [**битмапкорехеадер**](/windows/win32/api/wingdi/ns-wingdi-bitmapcoreheader) и [**BITMAPV4HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv4header) были заменены форматами [**битмапинфохеадер**](/previous-versions//dd183376(v=vs.85)) и [**BITMAPV5HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv5header) соответственно. Форматы **битмапкорехеадер** и **BITMAPV4HEADER** представлены для полноты и обратной совместимости.
 
-Формат DIB приведен ниже (Дополнительные сведения см. в разделе [точечный рисунок](bitmap-storage.md) ).
+формат DIB приведен ниже (дополнительные сведения см. в разделе [Bitmap служба хранилища](bitmap-storage.md) ):
 
 -   Структура [**битмапфилехеадер**](/windows/win32/api/wingdi/ns-wingdi-bitmapfileheader)
 -   Структура [**битмапкорехеадер**](/windows/win32/api/wingdi/ns-wingdi-bitmapcoreheader), [**битмапинфохеадер**](/previous-versions//dd183376(v=vs.85)), [**BITMAPV4HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv4header)или [**BITMAPV5HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv5header) .

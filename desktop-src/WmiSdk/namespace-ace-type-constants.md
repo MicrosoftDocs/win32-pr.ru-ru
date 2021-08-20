@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winnt.h
-ms.openlocfilehash: 0c9f1f7e05f663782c0d748ddb296ca36ecbe29c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 99eb4f19cd4e669e7bb5f791b1e45246bf3e29d9ef20df003cefe21284f5ac63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118818000"
 ---
 # <a name="namespace-ace-type-constants"></a>Константы типа ACE пространства имен
 
@@ -60,11 +60,11 @@ ACE запрещает доступ к пространству имен.
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Файл Winnt. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Файл Winnt. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -77,7 +77,7 @@ ACE запрещает доступ к пространству имен.
 [Установка наследования безопасности пространства имен](establishing-inheritance-of-namespace-security.md)
 </dt> <dt>
 
-[**\_\_системсекурити**](--systemsecurity.md)
+[**\_\_SystemSecurity**](--systemsecurity.md)
 </dt> </dl>
 
  

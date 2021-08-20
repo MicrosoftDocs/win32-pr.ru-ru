@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b77f1050beaee2b269d12e69704018e3c5abee6e
-ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
+ms.openlocfilehash: 86549f441752e72fd11a741a061fcaf839eca0140f4766b0932094d74dc78085
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113129852"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119855074"
 ---
 # <a name="grammar"></a>Грамматика
 
@@ -116,7 +116,7 @@ ms.locfileid: "113129852"
 
 | Знак                                          | Описание                                                                |
 |-------------------------------------------|-----------------------------------------------------------------|
-| ц                                       | символов                                                     |
+| "c"                                       | символов                                                     |
 | ' \\ a ' ' \\ b ' ' \\ f ' ' \\ b ' ' \\ r \\ \\ ' ' ' ' v ' ' | экранирует                                                       |
 | '\\\#\#\#'                                | (восьмеричный escape-символ — \# это восьмеричная цифра)                       |
 | " \\ x \# "                                   | (шестнадцатеричный escape \# -символ, шестнадцатеричное число, любое количество цифр)            |

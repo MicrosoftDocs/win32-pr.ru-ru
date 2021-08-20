@@ -21,12 +21,12 @@ keywords:
 - типы элементов управления, вкладка
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 769a03617830c33fce4a8f64c594010b2120785b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f6a83263db87a68e258598ea46ca903af2ddb39c
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986604"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122482500"
 ---
 # <a name="tab-control-type"></a>Тип элемента управления Tab
 
@@ -42,7 +42,7 @@ ms.locfileid: "103986604"
 -   [Соответствующие свойства](#relevant-properties)
 -   [Обязательные шаблоны элементов управления](#required-control-patterns)
 -   [Обязательные события](#required-events)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="typical-tree-structure"></a>Типичная древовидная структура
 
@@ -50,91 +50,29 @@ ms.locfileid: "103986604"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Представление элемента управления</th>
-<th>Представление содержимого</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Вкладка
-<ul>
-<li>TabItem (1 или более)</li>
-<li>ScrollBar (0 или 1)
-<ul>
-<li>Button (0 или 2)</li>
-</ul></li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>Вкладка
-<ul>
-<li>TabItem (1 или более)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Представление элемента управления | Представление содержимого | 
+|--------------|--------------|
+| <ul><li>Вкладка<ul><li>TabItem (1 или более)</li><li>ScrollBar (0 или 1)<ul><li>Button (0 или 2)</li></ul></li></ul></li></ul> | <ul><li>Вкладка<ul><li>TabItem (1 или более)</li></ul></li></ul> | 
 
 
 
- 
 
-Элементы управления "Вкладка" имеют дочерние элементы автоматизации пользовательского интерфейса, основанные на типе элемента управления [TabItem](uiauto-supporttabitemcontroltype.md) . При группировании элементов вкладки (например, как в Microsoft Office приложениях) тип элемента управления **Tab** может также размещать типы элементов управления **группы** для элементов сгруппированной вкладки, как показано в следующей древовидной структуре.
+ 
 
-
-
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Представление элемента управления</th>
-<th>Представление содержимого</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Вкладка
-<ul>
-<li>TabItem (1 или более)</li>
-<li>Group (0 или более)
-<ul>
-<li>TabItem (0 или более)</li>
-</ul></li>
-<li>ScrollBar (0 или 1)
-<ul>
-<li>Button (0 или 2)</li>
-</ul></li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>Вкладка
-<ul>
-<li>TabItem (1 или более)</li>
-<li>Group (0 или более)
-<ul>
-<li>TabItem (0 или более)</li>
-</ul></li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+Элементы управления "Вкладка" имеют дочерние элементы автоматизации пользовательского интерфейса, основанные на типе элемента управления [TabItem](uiauto-supporttabitemcontroltype.md) . при группировании элементов вкладки (например, как в Microsoft Office приложениях) тип элемента управления **tab** может также размещать типы элементов управления **группы** для элементов сгруппированной вкладки, как показано в следующей древовидной структуре.
 
 
 
- 
+
+| Представление элемента управления | Представление содержимого | 
+|--------------|--------------|
+| <ul><li>Вкладка<ul><li>TabItem (1 или более)</li><li>Group (0 или более)<ul><li>TabItem (0 или более)</li></ul></li><li>ScrollBar (0 или 1)<ul><li>Button (0 или 2)</li></ul></li></ul></li></ul> | <ul><li>Вкладка<ul><li>TabItem (1 или более)</li><li>Group (0 или более)<ul><li>TabItem (0 или более)</li></ul></li></ul></li></ul> | 
+
+
+
+
+ 
 
 ## <a name="relevant-properties"></a>Соответствующие свойства
 
@@ -148,9 +86,9 @@ ms.locfileid: "103986604"
 | [**UIA \_ баундингректанглепропертид**](uiauto-automation-element-propids.md)       | См. примечания. | Внешний прямоугольник, содержащий весь элемент управления.                                                                                                                                                                                                                                                                                                                      |
 | [**UIA \_ кликкаблепоинтпропертид**](uiauto-automation-element-propids.md)             | Нет         | Элемент управления "Вкладка" не имеет точек, подуправляющих щелчками.                                                                                                                                                                                                                                                                                                                               |
 | [**UIA \_ контролтипепропертид**](uiauto-automation-element-propids.md)                   | **TAB**    |                                                                                                                                                                                                                                                                                                                                                                               |
-| [**UIA \_ исконтентелементпропертид**](uiauto-automation-element-propids.md)         | true       | Элемент управления "Вкладка" всегда включается в представление содержимого дерева модели автоматизации пользовательского интерфейса.                                                                                                                                                                                                                                                                                             |
-| [**UIA \_ исконтролелементпропертид**](uiauto-automation-element-propids.md)         | true       | Элемент управления "Вкладка" всегда включается в представление элемента управления дерева модели автоматизации пользовательского интерфейса.                                                                                                                                                                                                                                                                                             |
-| [**UIA \_ искэйбоардфокусаблепропертид**](uiauto-automation-element-propids.md)   | true       | Тип элемента управления Tab должен иметь возможность получать фокус клавиатуры. Как правило, клиент автоматизации пользовательского интерфейса вызывает [**иуиаутоматионелемент:: SetFocus**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-setfocus) на элементе управления Tab, и один из его элементов перемещает фокус клавиатуры на элемент управления Tab. Некоторые контейнеры вкладок могут получать фокус без установки фокуса в одном из их элементов. |
+| [**UIA \_ исконтентелементпропертид**](uiauto-automation-element-propids.md)         | TRUE       | Элемент управления "Вкладка" всегда включается в представление содержимого дерева модели автоматизации пользовательского интерфейса.                                                                                                                                                                                                                                                                                             |
+| [**UIA \_ исконтролелементпропертид**](uiauto-automation-element-propids.md)         | TRUE       | Элемент управления "Вкладка" всегда включается в представление элемента управления дерева модели автоматизации пользовательского интерфейса.                                                                                                                                                                                                                                                                                             |
+| [**UIA \_ искэйбоардфокусаблепропертид**](uiauto-automation-element-propids.md)   | TRUE       | Тип элемента управления Tab должен иметь возможность получать фокус клавиатуры. Как правило, клиент автоматизации пользовательского интерфейса вызывает [**иуиаутоматионелемент:: SetFocus**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-setfocus) на элементе управления Tab, и один из его элементов перемещает фокус клавиатуры на элемент управления Tab. Некоторые контейнеры вкладок могут получать фокус без установки фокуса в одном из их элементов. |
 | [**UIA \_ лабеледбипропертид**](uiauto-automation-element-propids.md)                       | См. примечания. | Элементы управления "Вкладка" обычно имеют метку со статическим текстом, на который ссылается это свойство.                                                                                                                                                                                                                                                                                        |
 | [**UIA \_ локализедконтролтипепропертид**](uiauto-automation-element-propids.md) | См. примечания. | Локализованная строка, соответствующая типу элемента управления **Tab** . Значение по умолчанию — "Tab" для en-US или English (США).                                                                                                                                                                                                                                                  |
 | [**UIA \_ намепропертид**](uiauto-automation-element-propids.md)                                 | См. примечания. | Элементу управления "Вкладка" редко требуется свойство **Name** .                                                                                                                                                                                                                                                                                                                          |
@@ -158,7 +96,7 @@ ms.locfileid: "103986604"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Обязательные шаблоны элементов управления
 
@@ -169,13 +107,13 @@ ms.locfileid: "103986604"
 | Шаблон элемента управления/свойство шаблона                                             | Поддержка/значение | Примечания                                                                                                                                                                  |
 |------------------------------------------------------------------------------|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**ISelectionProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iselectionprovider)                      | Обязательно      | Все элементы управления "Вкладка" должны поддерживать шаблон элемента управления [Selection](uiauto-implementingselection.md) .                                                                       |
-| [**исселектионрекуиред**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iselectionprovider-get_isselectionrequired) | true          | Элементы управления "Вкладка" всегда требуют, чтобы был сделан выбор.                                                                                                                  |
+| [**исселектионрекуиред**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iselectionprovider-get_isselectionrequired) | TRUE          | Элементы управления "Вкладка" всегда требуют, чтобы был сделан выбор.                                                                                                                  |
 | [**канселектмултипле**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iselectionprovider-get_canselectmultiple)     | FALSE         | Элементы управления "Вкладка" всегда являются контейнерами с возможностью выбора одного варианта.                                                                                                                   |
 | [**IScrollProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iscrollprovider)                            | Зависит       | Шаблон элемента управления [Scroll](uiauto-implementingscroll.md) должен поддерживаться, если элемент управления "Вкладка" содержит мини-приложения, позволяющие выполнять прокрутку набора элементов вкладки. |
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>Обязательные события
 
@@ -199,9 +137,9 @@ ms.locfileid: "103986604"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -214,9 +152,9 @@ ms.locfileid: "103986604"
 [Общие сведения о модели автоматизации пользовательского интерфейса](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: fb9c190157742aeca7c1ba6008a784005d054ca6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ec3f71a231fe137413cd6ebfebf11e2d9775f58c12525c25c74eca3de4231d2f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118172385"
 ---
 # <a name="win32_classiccomclasssettings-class"></a>\_Класс Win32 классиккомкласссеттингс
 
@@ -46,7 +46,7 @@ class Win32_ClassicCOMClassSettings : CIM_ElementSetting
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ классиккомкласссеттингс** имеет следующие свойства.
 
@@ -84,7 +84,7 @@ class Win32_ClassicCOMClassSettings : CIM_ElementSetting
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ классиккомкласссеттингс** является производным от [**CIM \_ елементсеттинг**](cim-elementsetting.md).
 
@@ -102,7 +102,7 @@ class Win32_ClassicCOMClassSettings : CIM_ElementSetting
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

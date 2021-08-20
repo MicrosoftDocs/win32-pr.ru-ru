@@ -21,12 +21,12 @@ keywords:
 - типы элементов управления, Группа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44b630d0ef736d937e4f024c8131adc4c843b6e4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fe0cee05f7132a35c8dd3f998ae9af5a89ac2a71
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410887"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122477750"
 ---
 # <a name="group-control-type"></a>Тип элемента управления Group
 
@@ -42,7 +42,7 @@ ms.locfileid: "104410887"
 -   [Соответствующие свойства](#relevant-properties)
 -   [Обязательные шаблоны элементов управления](#required-control-patterns)
 -   [Обязательные события](#required-events)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="typical-tree-structure"></a>Типичная древовидная структура
 
@@ -50,38 +50,15 @@ ms.locfileid: "104410887"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Представление элемента управления</th>
-<th>Представление содержимого</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Группа
-<ul>
-<li>0 или несколько элементов управления</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>Группа
-<ul>
-<li>0 или несколько элементов управления</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Представление элемента управления | Представление содержимого | 
+|--------------|--------------|
+| <ul><li>Группа<ul><li>0 или несколько элементов управления</li></ul></li></ul> | <ul><li>Группа<ul><li>0 или несколько элементов управления</li></ul></li></ul> | 
 
 
 
- 
+
+ 
 
 Элементы управления "Группа" обычно включают поддержку автоматизации пользовательского интерфейса для типов элементов управления, обнаруженных под ними в поддереве, включая типы [ListItem](uiauto-supportlistitemcontroltype.md), [TreeItem](uiauto-supporttreeitemcontroltype.md)и [DataItem](uiauto-supportdataitemcontroltype.md) . Поскольку элемент управления "Группа" является универсальным контейнером, любой тип элемента управления может находиться под элементом управления "Группа" в дереве.
 
@@ -106,7 +83,7 @@ ms.locfileid: "104410887"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Обязательные шаблоны элементов управления
 
@@ -120,7 +97,7 @@ ms.locfileid: "104410887"
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>Обязательные события
 
@@ -140,9 +117,9 @@ ms.locfileid: "104410887"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -155,9 +132,9 @@ ms.locfileid: "104410887"
 [Общие сведения о модели автоматизации пользовательского интерфейса](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

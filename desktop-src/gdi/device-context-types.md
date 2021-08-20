@@ -4,12 +4,12 @@ ms.assetid: eb06925c-db26-4292-858c-eab38a3adc55
 title: Типы контекста устройства
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f9ef309651d123f0d687cc10d1f7e6a92824f0f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 32e4158066d4ee17e95fe513fafeb2a72f6ff7244be59aec02e82dac1d5452ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104544519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119966034"
 ---
 # <a name="device-context-types"></a>Типы контекста устройства
 
@@ -22,7 +22,7 @@ ms.locfileid: "104544519"
 | [Дисплей](display-device-contexts.md)         | Поддерживает операции рисования на экране видео.      |
 | [Принтер](printer-device-contexts.md)         | Поддерживает операции рисования на принтере или плоттере. |
 | [Память](memory-device-contexts.md)           | Поддерживает операции рисования на точечном рисунке.             |
-| [Информация](information-device-contexts.md) | Поддерживает извлечение данных устройства.               |
+| [Сведения](information-device-contexts.md). | Поддерживает извлечение данных устройства.               |
 
 
 

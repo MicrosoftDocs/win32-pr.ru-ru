@@ -4,12 +4,12 @@ ms.assetid: 6206a61f-b0be-4a47-a4a4-bfbae05ac13e
 title: Справочник по элементам управления центра обработки вызовов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 160e31b2c7448d84ec512757e1c56fc8a17d4ef7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 879f3035676f38da5c10b2946849d28545cb7359fee1aff4f1a09dd6420bbd00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118870728"
 ---
 # <a name="call-center-controls-reference"></a>Справочник по элементам управления центра обработки вызовов
 
