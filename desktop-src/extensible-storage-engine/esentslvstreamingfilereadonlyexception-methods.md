@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102949
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 342ff01051dd51bcf8b74329c55401bcb2a689cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 926feee2d79fde97f33cdcde4cec434747e579aeb0676189bb555c861990c846
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119039696"
 ---
 # <a name="esentslvstreamingfilereadonlyexception-methods"></a>Методы EsentSLVStreamingFileReadOnlyException 
 
@@ -78,7 +78,7 @@ ms.locfileid: "104272655"
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

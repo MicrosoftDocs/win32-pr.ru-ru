@@ -4,12 +4,12 @@ description: Сведения о последовательности вызов
 ms.assetid: aac69e89-249d-4bc8-baef-1f0681f9f7ae
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ac9be0f6de228fd5b1ebf2d2c28320baf76e914
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 647a6a558d282ff4ae3691c23600b696b79764ee68a1007ccabb445c5a1fe65d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104134587"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119042792"
 ---
 # <a name="peer-method-api-call-sequence"></a>Последовательность вызовов API однорангового метода
 
@@ -31,22 +31,22 @@ ms.locfileid: "104134587"
 -   Вызывает [**еаппиршутдовн**](/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeershutdown) для выгрузки библиотеки DLL однорангового метода.
 -   Выгружает библиотеку методов EAP.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Последовательность вызовов API-интерфейса для запрашивающих сторон](supplicant-api-call-sequence.md)
 </dt> <dt>
 
-[Последовательность вызовов API метода средства проверки подлинности](authenticator-method-api-call-sequence.md)
+[Authenticator Последовательность вызовов API метода](authenticator-method-api-call-sequence.md)
 </dt> <dt>
 
 [Последовательности вызовов EAPHost](about-eaphost-call-sequences.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

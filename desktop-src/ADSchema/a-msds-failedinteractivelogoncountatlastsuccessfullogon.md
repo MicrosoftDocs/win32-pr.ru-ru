@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 02aaecb421454422516b2558275e88e2aafbf532
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 3541e8c19d33484b0fc093e24225c719fb1459ae42a8bc8689ddf094bd30f1b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103804691"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119552383"
 ---
 # <a name="ms-ds-failed-interactive-logon-count-at-last-successful-logon-attribute"></a>Атрибут ms-DS-Failed-logon-Count-with-Last-Directory-logon
 
@@ -54,16 +54,16 @@ ms.locfileid: "103804691"
 |------------------------|-----------------------------------|
 | Идентификатор ссылки                | \-                                |
 | MAPI-Id                | \-                                |
-| System-Only            | True                              |
-| Является однозначным       | True                              |
-| Индексируется             | Неверно                             |
-| В глобальном каталоге      | Неверно                             |
+| System-Only            | Верно                              |
+| Является однозначным       | Верно                              |
+| Индексируется             | Нет                             |
+| В глобальном каталоге      | Нет                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                      |
 | Range-Lower            | \-                                |
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -75,16 +75,16 @@ ms.locfileid: "103804691"
 |------------------------|-----------------------------------|
 | Идентификатор ссылки                | \-                                |
 | MAPI-Id                | \-                                |
-| System-Only            | True                              |
-| Является однозначным       | True                              |
-| Индексируется             | Неверно                             |
-| В глобальном каталоге      | Неверно                             |
+| System-Only            | Верно                              |
+| Является однозначным       | Верно                              |
+| Индексируется             | Нет                             |
+| В глобальном каталоге      | Нет                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                      |
 | Range-Lower            | \-                                |
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -96,10 +96,10 @@ ms.locfileid: "103804691"
 |------------------------|-----------------------------------|
 | Идентификатор ссылки                | \-                                |
 | MAPI-Id                | \-                                |
-| System-Only            | True                              |
-| Является однозначным       | True                              |
-| Индексируется             | Неверно                             |
-| В глобальном каталоге      | Неверно                             |
+| System-Only            | Верно                              |
+| Является однозначным       | Верно                              |
+| Индексируется             | Нет                             |
+| В глобальном каталоге      | Нет                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                      |
 | Range-Lower            | \-                                |
 | Range-Upper            | \-                                |

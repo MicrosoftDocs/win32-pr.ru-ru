@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec73b5cb9833c15a77c96a784e1ded88d266f9a6
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 614abaf4c124aa0a6e1ca5f7da347ab4a9a2264e174c91734e6a75b188500a3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "105681605"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014062"
 ---
 # <a name="use_epv-switch"></a>/TestCleanup используется \_ ЕПВ Switch
 
@@ -31,7 +31,7 @@ midl /use_epv
 
 Этот параметр не имеет параметров.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Как правило, приложениям требуется статическая связь с серверным приложением. Компилятор MIDL по умолчанию создает такой вызов. Однако если приложению требуется, чтобы серверная заглушка вызывала серверную подпрограмму с помощью ЕПВ, необходимо указать параметр **/TestCleanup используется \_ ЕПВ** . Если указан **параметр \_ ЕПВ/TestCleanup используется** , компилятор MIDL создает значение по умолчанию ЕПВ. Этот ЕПВ по умолчанию используется, если приложение не регистрирует другой ЕПВ через вызов [**рпксерверрегистериф**](/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterif) .
 
@@ -39,7 +39,7 @@ midl /use_epv
 
 **MIDL/TestCleanup используется \_ ЕПВ** *filename * * *. idl**
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -55,6 +55,6 @@ midl /use_epv
 [**рпксерверрегистериф**](/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterif)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

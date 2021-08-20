@@ -1,5 +1,5 @@
 ---
-description: Метод Клоседатабасе объекта Merge закрывает текущую открытую установщик Windows базу данных.
+description: метод клоседатабасе объекта Merge закрывает текущую открытую установщик Windows базу данных.
 ms.assetid: a89fe77a-0099-4c49-b484-c05ee351a66a
 title: Метод Merge. Клоседатабасе (Мержемод. h)
 ms.topic: reference
@@ -14,16 +14,16 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: 5df72b9423ad212264736d16db0ae73ded9afef5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3f3b250cbaebd565f14ef7f10cd8180e497f20347d00a7e96a74298d3e5dc770
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105674781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013032"
 ---
 # <a name="mergeclosedatabase-method"></a>Метод Merge. Клоседатабасе
 
-Метод **клоседатабасе** объекта [**Merge**](merge-object.md) закрывает текущую открытую установщик Windows базу данных.
+метод **клоседатабасе** объекта [**Merge**](merge-object.md) закрывает текущую открытую установщик Windows базу данных.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -51,7 +51,7 @@ Merge.CloseDatabase(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При закрытии базы данных удаляются все сведения о зависимостях, но не затрагиваются все ошибки, которые не были получены.
 
@@ -59,14 +59,14 @@ Merge.CloseDatabase(
 
 См. раздел Функция [**клоседатабасе**](/windows/win32/api/mergemod/nf-mergemod-imsmmerge-closedatabase) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Версия<br/> | Mergemod.dll 1,0 или более поздней версии<br/>                                                    |
-| Header<br/>  | <dl> <dt>Мержемод. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Мержемод. h</dt> </dl>   |
 | DLL<br/>     | <dl> <dt>Mergemod.dll</dt> </dl> |
 
 

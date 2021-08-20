@@ -4,12 +4,12 @@ description: Сравнение на уровне компонентов с пл
 ms.assetid: 658AF249-4935-41AF-972A-D8CDEABA76AA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c93d21d9ac044e2ad4d63e954a4732a15794b123
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: b8f7f7b9b670567256246ba508af19b98a74007b1e504f0a4f60e8d9d419b511
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104412161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118089867"
 ---
 # <a name="ge-sm4---asm"></a>GE (SM4-ASM)
 
@@ -36,7 +36,7 @@ ms.locfileid: "104412161"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Выполняет сравнение с плавающей запятой (*src0*  >=  *src1*) для каждого компонента и записывает результат в *dest*.
 
@@ -64,9 +64,9 @@ ms.locfileid: "104412161"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
-| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | да       |
-| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
+| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Да       |
+| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Да       |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Нет        |
@@ -75,7 +75,7 @@ ms.locfileid: "104412161"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: ceed4983-e088-44e8-9cfc-26afb3c35ba0
 title: Конфигурация 1. Одна подсеть с адресами локальной связи
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d09feb44c222b7213da18a6745fc632f3903209
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a541edd96175dc61ec0aba3b1358c2bbd9464668e6aa1a11aeb6f2097e5b13bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104072750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051741"
 ---
 # <a name="configuration-1-single-subnet-with-link-local-addresses"></a>Конфигурация 1. Одна подсеть с адресами локальной связи
 
@@ -92,7 +92,7 @@ Interface 1 (site 0): Loopback Pseudo-Interface
 
 **Проверка связи с использованием IPv6 между двумя узлами локальной связи**
 
-1.  Установите предварительную версию Microsoft IPv6 для Windows на двух узлах Windows (узлы A и B), которые находятся в одной и той же связи (подсеть).
+1.  установите предварительную версию Microsoft IPv6 для Windows на двух узлах Windows (узел A и узел B), которые находятся в одной и той же связи (подсети).
 2.  Используйте IPv6, если на узле A, чтобы получить адрес локальной связи для интерфейса Ethernet.
 
     Пример. адрес локальной ссылки узла A — FE80:: 210:5AFF: феаа: 20A2.
@@ -113,7 +113,7 @@ Interface 1 (site 0): Loopback Pseudo-Interface
 
 **ping6 FE80:: 260:97FF: FE02:6EA5% 4**
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

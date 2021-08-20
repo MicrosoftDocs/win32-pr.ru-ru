@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 63f283c9ad67e860656e2fcec2b35290d872ea86
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fcb070d34bdf09a12617c588ba1c1b713f9e3f4f72358aed76ed0c83669e79ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104264617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119041112"
 ---
 # <a name="esentinvalidloggedoperationexception-constructor"></a>Конструктор Есентинвалидлогжедоператионексцептион
 
@@ -52,7 +52,7 @@ Dim instance As New EsentInvalidLoggedOperationException()
 public EsentInvalidLoggedOperationException()
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Вызов Семисинчронаус с помощью C++
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c4546a7220d191b822e9f0f30a767e89e4dc26a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c4a550c5ad659ab9b640a1fcb3060b5f6cc7671f80c209d238cd859ad0ef6f49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104546178"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050702"
 ---
 # <a name="making-a-semisynchronous-call-with-c"></a>Вызов Семисинчронаус с помощью C++
 
@@ -100,7 +100,7 @@ void GetObjSemiSync(IWbemServices *pSvc)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

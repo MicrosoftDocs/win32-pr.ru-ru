@@ -1,17 +1,17 @@
 ---
-description: Интерфейсы для управления графом фильтра
+description: Интерфейсы для управления фильтром Graph
 ms.assetid: f7de0165-e356-45d5-baed-d127caeebaf6
-title: Интерфейсы для управления графом фильтра
+title: Интерфейсы для управления фильтром Graph
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61e88dc4ba2143bbbf33a58763a5ff9005254236
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ec8170b8d2da80272a5620abe163f938e53105cc5b471593a3799d4c36069fe1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103806479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118154095"
 ---
-# <a name="interfaces-for-controlling-a-filter-graph"></a>Интерфейсы для управления графом фильтра
+# <a name="interfaces-for-controlling-a-filter-graph"></a>Интерфейсы для управления фильтром Graph
 
 Эти интерфейсы предоставляют методы для управления графом фильтра.
 

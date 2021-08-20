@@ -1,19 +1,19 @@
 ---
-description: Все процессы (приложения или библиотеки DLL), вызывающие функции Winsock, должны инициализировать использование библиотеки DLL Windows Sockets перед выполнением других вызовов функций Winsock. Это также обеспечивает поддержку Winsock в системе.
+description: все процессы (приложения или библиотеки dll), вызывающие функции winsock, должны инициализировать использование библиотеки DLL Windows sockets перед выполнением других вызовов функций Winsock. Это также обеспечивает поддержку Winsock в системе.
 ms.assetid: 300858d8-bed3-4a3c-abb5-2cecd100e5d7
 title: Инициализация Winsock
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d9d3d02805c684c677c4358cf79c421d6a577f64
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4aad1dc5bffb09490a963bd86c61c6cc2a857fec45251b38111ab790db8a26e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104541570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051522"
 ---
 # <a name="initializing-winsock"></a>Инициализация Winsock
 
-Все процессы (приложения или библиотеки DLL), вызывающие функции Winsock, должны инициализировать использование библиотеки DLL Windows Sockets перед выполнением других вызовов функций Winsock. Это также обеспечивает поддержку Winsock в системе.
+все процессы (приложения или библиотеки dll), вызывающие функции winsock, должны инициализировать использование библиотеки DLL Windows sockets перед выполнением других вызовов функций Winsock. Это также обеспечивает поддержку Winsock в системе.
 
 **Инициализация Winsock**
 
@@ -40,13 +40,13 @@ ms.locfileid: "104541570"
 
 Функция [**сбой WSAStartup**](/windows/desktop/api/winsock/nf-winsock-wsastartup) вызывается для инициации использования WS2 \_32.dll.
 
-Структура [**всадата**](/windows/desktop/api/winsock/ns-winsock-wsadata) содержит сведения о реализации сокетов Windows. Параметр МАКЕВОРД (2, 2) [**сбой WSAStartup**](/windows/desktop/api/winsock/nf-winsock-wsastartup) отправляет запрос на использование Winsock версии 2,2 в системе и задает переданную версию в качестве наивысшей версии поддержки сокетов Windows, которую может использовать вызывающий объект.
+структура [**всадата**](/windows/desktop/api/winsock/ns-winsock-wsadata) содержит сведения о реализации сокетов Windows. параметр макеворд (2, 2) [**сбой wsastartup**](/windows/desktop/api/winsock/nf-winsock-wsastartup) отправляет запрос на использование Winsock версии 2,2 в системе и задает переданную версию в качестве наивысшей версии Windows поддержки сокетов, которую может использовать вызывающий объект.
 
 Следующий шаг для клиента: [создание сокета для клиента](creating-a-socket-for-the-client.md)
 
 Следующий шаг для сервера: [создание сокета для сервера](creating-a-socket-for-the-server.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

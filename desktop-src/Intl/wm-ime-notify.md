@@ -4,12 +4,12 @@ ms.assetid: 20e064b8-2baf-4b4c-8341-36c3e4643eff
 title: Сообщение WM_IME_NOTIFY (Winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ca5ab1b2a1fd62d159ab4f216bf9b1bb6892ed69
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a072ff41b5731662afa94e387ec48de7d14bc245906e581303fe976dcf455708
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682725"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014222"
 ---
 # <a name="wm_ime_notify-message"></a>Сообщение WM_IME_NOTIFY
 
@@ -72,7 +72,7 @@ LRESULT CALLBACK WindowProc(
 
 Возвращаемое значение зависит от отправленной команды.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение обрабатывает это сообщение, если оно отвечает за управление окном IME.
 
@@ -84,7 +84,7 @@ LRESULT CALLBACK WindowProc(
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                                                                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                                                                                                      |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h); </dt> <dt>IMM. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h);</dt> <dt>Imm. h (включает Windows. h)</dt> </dl> |
 
 
 

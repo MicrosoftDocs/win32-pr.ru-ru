@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2171515bffc41abf2b5fe9a25826c2a71d3939c2
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 5ea717048a89c626ef19d5b1c41fcd558a163f7b4ade9c05eee0e3ea362d50ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104487585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013942"
 ---
 # <a name="default-attribute"></a>default - атрибут
 
@@ -74,7 +74,7 @@ coclass coclass-name
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 [**Компонентный класс**](coclass.md) может иметь не более двух элементов **\[ по умолчанию \]** . Один представляет исходящий (исходный) интерфейс, а другой — входящий (приемник) интерфейс или DISP. Если атрибут **\[ по \] умолчанию** не указан ни для одного члена **класса coclass** или **котипа**, то первые исходящие и входящие члены, не имеющие **\[** атрибута [**Restricted**](restricted.md) , **\]** рассматриваются как значения по умолчанию.
 
@@ -121,6 +121,6 @@ coclass Hello
 [**источника**](source.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

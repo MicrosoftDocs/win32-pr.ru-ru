@@ -8,12 +8,12 @@ keywords:
 - Выбор поиска Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 818b0f9be56830a836453c5e52ceadd52928a522
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c2a509f84b479d832dde3f2269f2a72aa4fd4105412113b1952d4b3d2ece6b3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118019895"
 ---
 # <a name="deciding-what-to-find"></a>Выбор искомых
 

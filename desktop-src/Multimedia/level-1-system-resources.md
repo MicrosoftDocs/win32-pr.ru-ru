@@ -10,12 +10,12 @@ keywords:
 - MPC уровня 1, минимальная конфигурация
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5b6daa3b6849d53d6a0d68cdf448df170422e25
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1c098850061bda909d63ae996d522b6caa9ff102a5b01def172fe35ef437c5bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104486744"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118139862"
 ---
 # <a name="level-1-system-resources"></a>Системные ресурсы уровня 1
 
@@ -25,11 +25,11 @@ ms.locfileid: "104486744"
 -   Дисковод гибких дисков с высокой плотностью 3,5 дюймов
 -   Жесткий диск, содержащий не менее 30 МБ дискового пространства
 -   Цветовой монитор с разрешением экрана 640 на 480 пикселей с 16 цветами
--   Системное программное обеспечение, обеспечивающее двоичную совместимость с операционной системой Microsoft Windows версии 3,0
+-   системное программное обеспечение, обеспечивающее двоичную совместимость с операционной системой Microsoft Windows версии 3,0
 
- 
+ 
 
- 
+ 
 
 
 

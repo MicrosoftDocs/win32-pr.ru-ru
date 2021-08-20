@@ -3,7 +3,7 @@ title: Файловый ввод-вывод мультимедиа
 description: Файловый ввод-вывод мультимедиа
 ms.assetid: 8b41c157-c18d-4962-8709-b919a38ae9c4
 keywords:
-- Мультимедиа Windows, файловый ввод-вывод
+- Windows мультимедиа, файловый ввод-вывод
 - мультимедиа, файловый ввод-вывод
 - входные данные мультимедиа, файловый ввод-вывод
 - Ввод-вывод файлов мультимедиа, о программе
@@ -18,12 +18,12 @@ keywords:
 - Ввод-вывод в память
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4dd646cb3195189765d1a5b020632cd26940f817
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 30437732af68bb91942a92e8b98d126687e0ce9762b913a172afb9463cb3a488
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888748"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118136723"
 ---
 # <a name="multimedia-file-io"></a>Файловый ввод-вывод мультимедиа
 
@@ -33,9 +33,9 @@ ms.locfileid: "103888748"
 -   [Использование файлового ввода-вывода мультимедиа](using-multimedia-file-i-o.md)
 -   [Справочник по операциям файлового ввода-вывода мультимедиа](multimedia-file-i-o-reference.md)
 
- 
+ 
 
- 
+ 
 
 
 

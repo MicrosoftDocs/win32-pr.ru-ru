@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb4860aa20af91c36f266801e623bd6a0cf9098a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 88e254bee9dba9d58d7f748c6a9fa7e8521e155181069c3affea68786356168f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105655466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119553034"
 ---
 # <a name="ms-dns-nsec3-random-salt-length-attribute"></a>атрибут MS-DNS-NSEC3-Random-соли-length
 
@@ -52,10 +52,10 @@ ms.locfileid: "105655466"
 |------------------------|------------------------------------------|
 | Идентификатор ссылки                | \-                                       |
 | MAPI-Id                | \-                                       |
-| System-Only            | Неверно                                    |
-| Является однозначным       | True                                     |
-| Индексируется             | Неверно                                    |
-| В глобальном каталоге      | Неверно                                    |
+| System-Only            | Нет                                    |
+| Является однозначным       | Верно                                     |
+| Индексируется             | Нет                                    |
+| В глобальном каталоге      | Нет                                    |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                             |
 | Range-Lower            | 0                                        |
 | Range-Upper            | 255                                      |

@@ -1,6 +1,6 @@
 ---
-title: Implementation-Dependent переменные состояния Pixel-Depth
-description: Implementation-Dependent переменные состояния Pixel-Depth
+title: Переменные состояния глубины цвета, зависящие от реализации
+description: Переменные состояния глубины цвета, зависящие от реализации
 ms.assetid: 3e1de9fe-dce5-437f-ae21-875958660da9
 keywords:
 - Implementation-Dependent переменных состояния Pixel-Depth OpenGL
@@ -12,14 +12,14 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fbee3de10d0a4749aea88c238636040b023dc3fe
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 556e95ae587f44bf41fc1d6f3e9dd0e2fc1351c8dcef9171ffb5d6dba7de134d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119554094"
 ---
-# <a name="implementation-dependent-pixel-depth-state-variables"></a>Implementation-Dependent переменные состояния Pixel-Depth
+# <a name="implementation-dependent-pixel-depth-state-variables"></a>Переменные состояния глубины цвета, зависящие от реализации
 
 <dl> <dt><span id="GL_RED_BITS"></span><span id="gl_red_bits"></span>\_красные \_ биты GL</dt> <dd> 
 

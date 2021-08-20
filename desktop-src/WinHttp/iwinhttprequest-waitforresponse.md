@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: fe9e3508273a3ee52d72ede65fd6575d72decb8f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4f72edf2a3532c6d0f2641d979885e6d294c2ad923a28f19b71b348ea3a6377
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052002"
 ---
 # <a name="iwinhttprequestwaitforresponse-method"></a>Метод Ивинхттпрекуест:: Ваитфорреспонсе
 
@@ -70,14 +70,14 @@ HRESULT WaitForResponse(
 
 В случае успешного выполнения возвращается значение **S \_** , а в противном случае — значение ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод приостанавливает выполнение при ожидании ответа на асинхронный запрос. Этот метод должен вызываться после [**отправки**](iwinhttprequest-send.md). Вызывающие приложения могут задавать необязательное значение *времени ожидания* в секундах. Если этот метод истечет из-за истечения времени ожидания, запрос не прерывается. Таким образом, вызывающее приложение может продолжить ожидание запроса (при необходимости) при последующем вызове этого метода.
 
 Вызов этого свойства после того, как синхронный метод [**Send**](iwinhttprequest-send.md) немедленно возвращает результат и не оказывает никакого влияния.
 
 > [!Note]  
-> Для Windows XP и Windows 2000 см. раздел [требования к времени выполнения](winhttp-start-page.md) на начальной странице WinHTTP.
+> сведения о Windows XP и Windows 2000 см. в разделе [требования к времени выполнения](winhttp-start-page.md) на начальной странице WinHTTP.
 
  
 
@@ -199,14 +199,14 @@ WScript.Echo( WinHttpReq.ResponseText);
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>            |
-| Минимальная версия сервера<br/> | Windows Server 2003, Windows 2000 Server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>         |
+| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с SP3 \[ только для настольных приложений\]<br/>            |
+| Минимальная версия сервера<br/> | Windows сервер 2003, Windows 2000 server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>         |
 | Распространяемые компоненты<br/>          | WinHTTP 5,0 и Internet Explorer 5,01 или более поздней версии в Windows XP и Windows 2000.<br/> |
 | IDL<br/>                      | <dl> <dt>HttpRequest. idl</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>WinHTTP. lib</dt> </dl>     |
@@ -214,7 +214,7 @@ WScript.Echo( WinHttpReq.ResponseText);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -224,7 +224,7 @@ WScript.Echo( WinHttpReq.ResponseText);
 [**WinHttpRequest**](winhttprequest.md)
 </dt> <dt>
 
-[**Открыт**](iwinhttprequest-open.md)
+[**Открыть**](iwinhttprequest-open.md)
 </dt> <dt>
 
 [Версии WinHTTP](winhttp-versions.md)

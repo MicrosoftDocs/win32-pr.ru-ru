@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 787afd498480f600b25484a13e3e0798b501a371
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b0928130f74e3e6ae67054d273cd08487fac0297514dda2586af8bdb95f9e4d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119039952"
 ---
 # <a name="esentsessionwriteconflictexception-constructor"></a>Конструктор Есентсессионвритеконфликтексцептион
 
@@ -52,7 +52,7 @@ Dim instance As New EsentSessionWriteConflictException()
 public EsentSessionWriteConflictException()
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

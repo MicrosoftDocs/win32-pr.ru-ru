@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5c005d4f89ab9a9a00a4a0e0c8383565a202d9d5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c3531b371b0861e7fd7072ac2a7b85eb2b53a8cb6219bdb0b4d98e4b152eab1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712521"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118082425"
 ---
 # <a name="esentcannotnestddlexception-constructor"></a>Конструктор Есентканнотнестддлексцептион
 
@@ -52,7 +52,7 @@ Dim instance As New EsentCannotNestDDLException()
 public EsentCannotNestDDLException()
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

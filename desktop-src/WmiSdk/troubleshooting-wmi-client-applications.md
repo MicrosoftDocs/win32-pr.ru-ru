@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 0a84646aa42cd0ccd649e3937f0eba257343e9a3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7fb9eb8c438faab8915691ee2c9c8a4c77d247c6802f8f114683a79d2833bd15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265595"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050032"
 ---
 # <a name="troubleshooting-wmi-client-applications"></a>Устранение неполадок клиентских приложений WMI
 
@@ -72,11 +72,11 @@ instance of __FilterToConsumerBinding
 
 Если сообщения об ошибках указывают на сбой загрузки поставщика, используйте [**MSFT \_ события \_ лоадоператионфаилуривент**](/previous-versions/windows/desktop/wmisystemprov/msft-wmiprovider-loadoperationfailureevent) , чтобы определить, какой поставщик вызвал ошибку.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Устранение неполадок WMI](wmi-troubleshooting.md).
+[Устранение неполадок WMI](wmi-troubleshooting.md)
 </dt> <dt>
 
 [Классы устранения неполадок WMI](wmi-troubleshooting-classes.md)
