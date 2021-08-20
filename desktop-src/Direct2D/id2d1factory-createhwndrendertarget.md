@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 984de8aea923c5b90d05fb79bc0c9edc319fb4bb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 241d0977adb4ec19472303165538e1a4c1fcafe87d0b781cd64bd34cdac92190
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118002926"
 ---
 # <a name="id2d1factorycreatehwndrendertarget-methods"></a>Методы ID2D1Factory:: Креатехвндрендертаржет
 
@@ -34,7 +34,7 @@ ms.locfileid: "105657603"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При создании целевого объекта рендеринга и возможности аппаратного ускорения выделяются ресурсы на GPU компьютера. Создавая целевой объект рендеринга один раз и постоянно сохраняющий его, вы получаете выигрыш в производительности. Приложение должно создавать целевые объекты рендеринга один раз и удерживать их на протяжении всего жизненного цикла приложения или до тех пор, пока не будет получено сообщение об ошибке [**\_ повторного создания \_ D2DERR**](direct2d-error-codes.md) . При возникновении этой ошибки необходимо повторно создать целевой объект рендеринга (и все созданные им ресурсы).
 
@@ -68,13 +68,13 @@ hr = m_pD2DFactory->CreateHwndRenderTarget(
 
 | Требование | Значение |
 |--------------------|-------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D2d1. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>D2d1. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>D2d1. lib</dt> </dl> |
 | DLL<br/>     | <dl> <dt>D2d1.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

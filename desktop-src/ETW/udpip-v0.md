@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 845466d630a671416ac465d0b73d99976d4521e9
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6b6a2426a1bd42a028d40d166230b5e36941dbe2a460e6201caa49d1ed93571d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105422"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117813722"
 ---
 # <a name="udpip_v0-class"></a>\_Класс удпип v0
 
@@ -38,13 +38,13 @@ class UdpIp_V0 : MSNT_SystemTrace
 
 Класс **удпип \_ v0** не определяет никаких членов.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                   |
 
 

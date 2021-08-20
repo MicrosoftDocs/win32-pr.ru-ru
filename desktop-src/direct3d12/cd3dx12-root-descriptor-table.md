@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f675624526a959e6cf92172383b12590c36fc408
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 158f1d52be9502f3f886aebd3f0eb60a66d9b389367919bd5b941b880e2556ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118098463"
 ---
 # <a name="cd3dx12_root_descriptor_table-structure"></a>\_ \_ Структура таблицы дескрипторов CD3DX12 root \_
 
@@ -100,11 +100,11 @@ UINT Нумдескрипторранжес
 
 | Требование | Значение |
 |-------------------|-------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx12. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx12. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

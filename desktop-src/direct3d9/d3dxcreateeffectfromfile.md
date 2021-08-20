@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: d8b2afdd1e8008bc8e03efa670e5a4b37b6dc9f8
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: bf4b06ddf47f563ed6487cbc971650fb876054b07dbef8353901b4f61ff21b7a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108094322"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118096578"
 ---
 # <a name="d3dxcreateeffectfromfile-function"></a>Функция D3DXCreateEffectFromFile
 
@@ -137,7 +137,7 @@ HRESULT D3DXCreateEffectFromFile(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Effect. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Effect. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>     |
 
 

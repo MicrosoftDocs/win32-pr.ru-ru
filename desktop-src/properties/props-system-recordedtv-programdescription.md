@@ -4,12 +4,12 @@ ms.assetid: 19b0eba6-63af-482d-8ca6-18cb8db67169
 title: System. Рекордедтв. Програмдескриптион
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2886fdfb8051983f130ae9b2a7c03a8a6fc56fec
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f439c9181bffbd47ae33bde24eba958281c92850edef023f8af19312c3788464
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108091652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117865225"
 ---
 # <a name="systemrecordedtvprogramdescription"></a>System. Рекордедтв. Програмдескриптион
 
@@ -32,7 +32,7 @@ propertyDescription
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

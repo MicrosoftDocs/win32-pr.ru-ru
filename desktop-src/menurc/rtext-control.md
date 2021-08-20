@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bc56a870df7ebf5d2696e70573ae320220e803c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 8d0fa44cb1584195518ad39f27fbe7cd802cccc193086ebaf225ce18019b093d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104487709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117687067"
 ---
 # <a name="rtext-control"></a>Элемент управления РТЕКСТ
 
@@ -50,11 +50,11 @@ RTEXT text, id, x, y, width, height [, style [, extended-style]]
 RTEXT "Number of Messages", 4, 30, 50, 100, 10
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[**CONTROL**](control-control.md)
+[**ЭЛЕМЕНТА**](control-control.md)
 </dt> <dt>
 
 [**СТОЛБЕЦ CTEXT**](ctext-control.md)
@@ -66,6 +66,6 @@ RTEXT "Number of Messages", 4, 30, 50, 100, 10
 [**лтекст**](ltext-control.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

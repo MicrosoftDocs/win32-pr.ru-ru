@@ -1,5 +1,5 @@
 ---
-description: 'Для Windows 7 портативные устройства Windows поддерживают следующие атрибуты для форматов в службе устройств. Эти атрибуты возвращаются методом Ипортабледевицесервицекапабилитиес:: Жетформататтрибутес.'
+description: 'для Windows 7 Windows портативные устройства поддерживают следующие атрибуты для форматов в службе устройства. Эти атрибуты возвращаются методом Ипортабледевицесервицекапабилитиес:: Жетформататтрибутес.'
 ms.assetid: 53282e01-54da-4adf-8a09-2086d6398275
 title: Атрибуты формата (Портабледевице. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 559f731ec7d61007b05e4625ff67488b5ef482fd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d8144c8a290b6ab7e3d3b13b1f3ee53d377e015950fea6d7e1ebf6786fd9d854
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117652698"
 ---
 # <a name="format-attributes"></a>Атрибуты формата
 
-Для Windows 7 портативные устройства Windows поддерживают следующие атрибуты для форматов в службе устройств. Эти атрибуты возвращаются методом [**ипортабледевицесервицекапабилитиес:: жетформататтрибутес**](/windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getformatattributes) .
+для Windows 7 Windows портативные устройства поддерживают следующие атрибуты для форматов в службе устройства. Эти атрибуты возвращаются методом [**ипортабледевицесервицекапабилитиес:: жетформататтрибутес**](/windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getformatattributes) .
 
 
 
@@ -42,11 +42,11 @@ ms.locfileid: "105668680"
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Портабледевице. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Портабледевице. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -79,7 +79,7 @@ HRESULT SetObjects(
 
 Если значение *CObject* равно 1, этот метод вызывает метод [**кбасепропертипаже:: OnConnect**](cbasepropertypage-onconnect.md) . Если значение *CObject* равно 0, этот метод вызывает метод [**кбасепропертипаже:: ondisconnect**](cbasepropertypage-ondisconnect.md) . Производный класс должен переопределять оба этих метода. Дополнительные сведения см. в комментариях к этим методам.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -90,7 +90,7 @@ HRESULT SetObjects(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

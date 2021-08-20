@@ -4,12 +4,12 @@ ms.assetid: 6e60725d-aa01-48bb-86a5-f17f56b97d35
 title: Сообщение WM_CHILDACTIVATE (Winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a82564a63cfbbbfe5e3693e331c8e990fa934e53
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 54ff2e2e3e7c96880c38f63e5ff9975d44c37fcf21ce2bf2bd79bfc0b3ae9636
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103815464"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118031012"
 ---
 # <a name="wm_childactivate-message"></a>\_Сообщение ЧИЛДАКТИВАТЕ WM
 
@@ -56,11 +56,11 @@ ms.locfileid: "103815464"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

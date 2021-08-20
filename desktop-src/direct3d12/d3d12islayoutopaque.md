@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 971c44688e57dd1081d33a4a077a8dcadcb89abf
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 28db512ac96e4df41f3fc70d15cd8286a191cd56dd5e862d4061df4d69cd10ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118098137"
 ---
 # <a name="d3d12islayoutopaque-function"></a>Функция D3D12IsLayoutOpaque
 
@@ -62,13 +62,13 @@ bool inline D3D12IsLayoutOpaque(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx12. h</dt> </dl>  |
+| Заголовок<br/>  | <dl> <dt>D3dx12. h</dt> </dl>  |
 | Библиотека<br/> | <dl> <dt>D3D12. lib</dt> </dl> |
 | DLL<br/>     | <dl> <dt>D3D12.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

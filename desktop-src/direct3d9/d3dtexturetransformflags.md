@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 63426c0d57dee02823ee2f37327ba7c66d421b24
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 514b8066b19ea5a3f558d9edee7cd57bae69dbb443e9b662a0209c9b57b58f31
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273719"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118096609"
 ---
 # <a name="d3dtexturetransformflags-enumeration"></a>Перечисление D3DTEXTURETRANSFORMFLAGS
 
@@ -94,7 +94,7 @@ typedef enum D3DTEXTURETRANSFORMFLAGS {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Координаты текстуры можно преобразовать с помощью матрицы размером 4 x 4 до передачи результатов в средство программной прорисовки. Преобразования координат текстуры задаются путем вызова [**IDirect3DDevice9:: сеттекстурестажестате**](/windows/desktop/api)и передачи в \_ состояние этапа текстуры D3DTSS текстуретрансформфлагс и одного из значений из **D3DTEXTURETRANSFORMFLAGS**. Дополнительные сведения о преобразованиях текстур см. в разделе [преобразования координат текстуры (Direct3D 9)](texture-coordinate-transformations.md).
 
@@ -104,11 +104,11 @@ typedef enum D3DTEXTURETRANSFORMFLAGS {
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

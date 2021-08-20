@@ -3,15 +3,15 @@ title: Пример Стгкреатепропсетстг
 description: Показывает, как можно использовать функцию Стгкреатепропсетстг для создания интерфейса IPropertySetStorage поверх любого заданного интерфейса IStorage.
 ms.assetid: f0d0664a-2cfd-4eb0-b1d5-47d1545394fd
 keywords:
-- Структурированное хранилище Стрктд STG, примеры, Стгкреатепропсетстг
+- структурированные служба хранилища стрктд Stg, примеры, стгкреатепропсетстг
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5633089e10f5f98a6acd8cd75b5f8bc6e4a97e9a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7820563adbd165a620fadca29e4d75aefd2b33a81291f54ebdfeaadb5bbf6829
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104411261"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117960294"
 ---
 # <a name="stgcreatepropsetstg-sample"></a>Пример Стгкреатепропсетстг
 
@@ -123,9 +123,9 @@ extern "C" void wmain()
 
 
 
- 
+ 
 
- 
+ 
 
 
 

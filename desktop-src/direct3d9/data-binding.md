@@ -4,12 +4,12 @@ ms.assetid: 3fef353d-323a-4cc1-a8c9-2bf154754835
 title: Привязка данных
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b67305d4acc8a4ed9e0827203e4602db26a99da
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 66b3d51dcd0666925b4fd108f413ffb52966f7451291cdf628a05fdefe4d44b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104341542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118095163"
 ---
 # <a name="data-binding"></a>Привязка данных
 
@@ -27,7 +27,7 @@ ms.locfileid: "104341542"
 
 | Коллекция Сашостпараметервалуе    | Type            | Член                                       |
 |-------------------------------------|-----------------|----------------------------------------------|
-| [Time](#time)                       | FLOAT           | SAS. time. Now                                 |
+| [Время](#time)                       | FLOAT           | SAS. time. Now                                 |
 |                                     | FLOAT           | SAS. time. Last                                |
 |                                     | INT             | SAS. time. Фраменумбер                         |
 | [Схема среды](#environment-map) | текстурекубе     | SAS. Енвиронментмап                           |
@@ -161,7 +161,7 @@ float3 LightColors[6]
 
 Маркер индекса звездочки означает, что все элементы определенного массива значений енвирнмант узла (цвет в данном случае) должны быть привязаны в связанном параметре. Несколько маркеров индекса звездочки позволяют привязывать эффекты к вложенным элементам массива структур без необходимости привязки всей структуры. В этом примере значения цвета первых шести источников привязываются к параметру Effect.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

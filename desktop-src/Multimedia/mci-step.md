@@ -3,7 +3,7 @@ title: Команда MCI_STEP (Ммсистем. h)
 description: Команда MCI \_ Step пошаговое описание одного или нескольких кадров в проигрывателе. Это команда распознает устройства Digital-Video, ВИДЕОМАГНИТОФОН и Кав-Format видеодиск.
 ms.assetid: 8d976840-fe9d-4393-b9fc-10f847166b1b
 keywords:
-- MCI_STEP команды мультимедиа Windows
+- команда MCI_STEP Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd81b3ad0e1f10c14d68df12399045149f686a8c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 526d5f69d0b0c02d977cc8fc73cd81a7a1bf06c3e55088f11d53c05cfa72c0c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135079"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117986172"
 ---
 # <a name="mci_step-command"></a>\_Команда на шаге MCI
 
@@ -68,7 +68,7 @@ MCIERROR mciSendCommand(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта команда поддерживает устройства, которые возвращают **значение true** параметру MCI \_ жетдевкапс \_ с \_ флагом Video команды [MCI \_ жетдевкапс](mci-getdevcaps.md) .
 
@@ -140,11 +140,11 @@ MCIERROR mciSendCommand(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

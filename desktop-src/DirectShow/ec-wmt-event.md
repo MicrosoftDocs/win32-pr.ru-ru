@@ -67,7 +67,7 @@ ms.locfileid: "117819927"
 
 дополнительные сведения о включении воспроизведения файлов, защищенных с помощью DRM, см. в документации по пакету SDK для Windows Media Format.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -77,7 +77,7 @@ ms.locfileid: "117819927"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
