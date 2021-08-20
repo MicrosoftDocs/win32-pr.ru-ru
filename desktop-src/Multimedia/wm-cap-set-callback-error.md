@@ -3,7 +3,7 @@ title: Сообщение WM_CAP_SET_CALLBACK_ERROR (VFW. h)
 description: '\_ \_ \_ Сообщение об ошибке обратного вызова установки крепления WM \_ устанавливает функцию обратного вызова ошибки в клиентском приложении. Авикап вызывает эту процедуру при возникновении ошибок. Это сообщение можно отправить явно или с помощью макроса Капсеткаллбакконеррор.'
 ms.assetid: 4eb57515-9b5a-466c-bbaa-fdee3bca19db
 keywords:
-- WM_CAP_SET_CALLBACK_ERROR сообщения Windows мультимедиа
+- сообщение WM_CAP_SET_CALLBACK_ERROR Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 40f50d62112d71f78196a17b958dc7d3d10702e1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f2b631a66923fc614e1486405b1c8e64f152c0f0dd21c8abec292548c546d17b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118135106"
 ---
 # <a name="wm_cap_set_callback_error-message"></a>\_ \_ \_ Сообщение об ошибке обратного вызова установки крепления WM \_
 
@@ -49,7 +49,7 @@ lParam = (LPARAM) (LPVOID) (fpProc);
 
 Возвращает **значение true** в случае успеха или **false** , если выполняется захват потоковой передачи или однокадровый сеанс записи.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При необходимости приложения могут установить функцию обратного вызова ошибки. Если задано, Авикап вызывает процедуру Error в следующих ситуациях:
 
@@ -59,7 +59,7 @@ lParam = (LPARAM) (LPVOID) (fpProc);
 -   Число кадров, отбрасываемых во время записи, превышает указанный процент.
 -   Невозможно записать кадры из-за проблем с вертикальным прерыванием синхронизации.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -71,7 +71,7 @@ lParam = (LPARAM) (LPVOID) (fpProc);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
