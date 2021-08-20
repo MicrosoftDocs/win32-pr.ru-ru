@@ -4,12 +4,12 @@ ms.assetid: 513e0c9d-4c9e-4e7c-8314-bd7603489e89
 title: Определение окна по его функции
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 497f660d6690bd4dc37c252f82f2408da3e3655d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7a7b7255fd22b44d3aa7de8f9ef11a35db95f822d8029f0a56428b1c04f8ecf0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711127"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118044376"
 ---
 # <a name="identifying-a-window-by-its-function"></a>Определение окна по его функции
 

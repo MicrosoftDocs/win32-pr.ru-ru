@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0de474cce6eb91cdc605588f7f4a63d97f985769
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5c7d5be5dc8cfd9f654c09d989149a423351689f420a52ca1756fb197260e800
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118348635"
 ---
 # <a name="importlicensekeypackoffline-method-of-the-win32_tslicensekeypack-class"></a>Метод Импортлиценсекэйпаккоффлине \_ класса Win32 тслиценсекэйпакк
 
@@ -78,7 +78,7 @@ uint32 ImportLicenseKeyPackOffline(
 
 Если метод завершается с ошибкой, он возвращает ноль. Если метод завершился неудачно, он возвращает ненулевое значение. Список кодов ошибок см. в разделе [службы удаленных рабочих столов коды ошибок поставщика WMI](terminal-services-wmi-provider-error-codes.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -92,7 +92,7 @@ uint32 ImportLicenseKeyPackOffline(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

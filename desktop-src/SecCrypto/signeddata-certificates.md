@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 55c0fe432794289fabe67b37deeedfac43f7a7d0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2dc04092ad6deb46249dd1155f01bac500ef240ef328ef100dc622e9b62e5835
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117973975"
 ---
 # <a name="signeddatacertificates-property"></a>Сигнеддата. Certificates, свойство
 
@@ -50,7 +50,7 @@ SignedData.Certificates As Certificates
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

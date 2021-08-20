@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e51760191a1d3ff7ee35e05854373c39b1eb5e7
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: a80392ef65ec7e73c541a4d930fa2a0aad2773991e2d0b925f0267bf76218103
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104000099"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118013338"
 ---
 # <a name="ms-radius-framedipv6route-attribute"></a>атрибут MS-RADIUS-FramedIpv6Route
 
@@ -63,7 +63,7 @@ ms.locfileid: "104000099"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000010                        |
 | System-Flags           | 0x00000000                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -84,7 +84,7 @@ ms.locfileid: "104000099"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000010                        |
 | System-Flags           | 0x00000000                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 

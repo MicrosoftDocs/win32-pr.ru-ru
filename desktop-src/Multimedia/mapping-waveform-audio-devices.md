@@ -16,12 +16,12 @@ keywords:
 - звуковая волна, сопоставление устройств
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9cdd269e21eb992244dd0e5979c7e0d193ba92b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7b4204a79eebd5fed3c8f96712aa3cd83c50056b1c194bafe2ce485a5b4b68f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888099"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118138775"
 ---
 # <a name="mapping-waveform-audio-devices"></a>Сопоставление устройств Waveform-Audio
 
@@ -33,9 +33,9 @@ ACM является расширением базовой системы мул
 
 В дополнение к преобразованию формата ACM также предлагает службы для поддержки сжатия, распаковки, фильтрации, форматирования и выбора фильтра. Он предоставляет стандартный API, который он поддерживает, вызывая собственные драйверы.
 
- 
+ 
 
- 
+ 
 
 
 

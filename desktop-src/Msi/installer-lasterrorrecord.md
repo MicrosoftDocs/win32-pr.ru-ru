@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: b368f30b04734b2d253a7d5f2aa64f0d61c930e0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bb9dad1962cace623a4a52991d3650451a0a6d5f660aad88e46c4fe393ce4e4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651598"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118142113"
 ---
 # <a name="installerlasterrorrecord-method"></a>Метод Installer. Ластерроррекорд
 
@@ -41,14 +41,14 @@ Installer.LastErrorRecord()
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Объект [**Record**](record-object.md) сбрасывается после выполнения этой функции любой функции, которая создает запись об ошибке.
 
 Только следующие назначенные функции создают запись об ошибке:
 
 -   [**Метод Опендатабасе (объект установщика)**](installer-opendatabase.md)
--   [**Сохраните**](database-commit.md)
+-   [**Фиксация**](database-commit.md)
 -   [**OpenView**](database-openview.md)
 -   [**Импорт**](database-import.md)
 -   [**Экспорт**](database-export.md)
@@ -56,7 +56,7 @@ Installer.LastErrorRecord()
 -   [**Преобразование**](database-generatetransform.md)
 -   [**апплитрансформ**](database-applytransform.md)
 -   [**Работать**](view-execute.md)
--   [**Изменений**](view-modify.md)
+-   [**Изменить**](view-modify.md)
 -   [**сетстреам**](record-setstream.md)
 -   [**SummaryInformation**](database-summaryinformation.md)
 -   [**SourcePath**](session-sourcepath.md)
@@ -103,13 +103,13 @@ End If
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. установщик Windows в Windows Server 2003 или Windows XP<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |
 | IID<br/>     | IID \_ иинсталлер определен как 000C1090-0000-0000-C000-000000000046<br/>                                                                                                                                                                           |
 

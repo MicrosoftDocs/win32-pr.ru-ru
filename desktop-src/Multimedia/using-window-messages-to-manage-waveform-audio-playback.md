@@ -14,12 +14,12 @@ keywords:
 - Сообщение MM_WOM_OPEN
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce02794222274e10498e31e0f38939d930ef3745
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: a31d8a88cb74953a1d38285a77b18ac25cd7495c3e29e71c5259551b5c2c3453
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104337100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118135889"
 ---
 # <a name="using-window-messages-to-manage-waveform-audio-playback"></a>Использование оконных сообщений для управления воспроизведением Waveform-Audio
 
@@ -35,7 +35,7 @@ ms.locfileid: "104337100"
 
 
 
- 
+ 
 
 С каждым из этих сообщений связан параметр *wParam* и *lParam* . Параметр *wParam* всегда задает маркер открытого устройства аудио-аудио. Для сообщения [**о \_ \_ завершении вом mm**](mm-wom-done.md) параметр *lParam* указывает указатель на структуру [**вавехдр**](/windows/win32/api/mmeapi/ns-mmeapi-wavehdr) , которая идентифицирует завершенный блок данных. Параметр *lParam* не используется для открытых сообщений [**mm \_ вом \_ Close**](mm-wom-close.md) и [**mm \_ вом \_**](mm-wom-open.md) .
 
@@ -43,6 +43,6 @@ ms.locfileid: "104337100"
 
 Функция обратного вызова для устройств вывода аудио-аудиосигнала предоставляется приложением. Сведения об этой функции обратного вызова см. в описании функции [**вавеаутпрок**](/previous-versions//dd743869(v=vs.85)) .
 
- 
+ 
 
- 
+ 

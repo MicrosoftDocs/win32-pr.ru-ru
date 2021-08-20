@@ -4,16 +4,16 @@ ms.assetid: bde7cef8-f43e-4a11-8b77-fed5585d390a
 title: Реализация Имедиабуффер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3425b3f612667a0b6577de385d59362bd8dafd0
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 5033fcf18812f2a31e175c05b0d4d8eeee18484d0cc20e640ae30f9390a68f76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105674549"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118154122"
 ---
 # <a name="implementing-imediabuffer"></a>Реализация Имедиабуффер
 
-В модели потоковой передачи DMO по умолчанию Управление буферами осуществляется через интерфейс [**имедиабуффер**](/previous-versions/windows/desktop/api/Mediaobj/nn-mediaobj-imediabuffer) . Клиент DMO отвечает за реализацию объекта, предоставляющего этот интерфейс. Интерфейс **имедиабуффер** имеет три метода:
+в модели потоковой передачи DMO по умолчанию управление буферами осуществляется через интерфейс [**имедиабуффер**](/previous-versions/windows/desktop/api/Mediaobj/nn-mediaobj-imediabuffer) . клиент DMO отвечает за реализацию объекта, предоставляющего этот интерфейс. Интерфейс **имедиабуффер** имеет три метода:
 
 -   **Жетбуфферандленгс** возвращает адрес буфера (то есть реальный блок памяти, в котором хранятся данные) и размер всех допустимых данных в буфере.
 -   Функция **MaxLength** возвращает размер буфера.
@@ -169,7 +169,7 @@ public:
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

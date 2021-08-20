@@ -4,22 +4,22 @@ ms.assetid: 28181f8c-8c03-4962-a142-c35d0dd88940
 title: дисаблешаредкомпонент
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c7a1d4c2bae3f499722890e06502c7a289e6921
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de7576406e14b0f9ac48a26735b984302c2d765b784484022a85ec50244ee8df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104542743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118143105"
 ---
 # <a name="disablesharedcomponent"></a>дисаблешаредкомпонент
 
 Если для этой [системной политики](system-policy.md) на уровне компьютера задано значение 1, ни один из пакетов в системе не получает функции общего компонента, включенные атрибутом **Мсидбкомпонентаттрибутесшаред** в [таблице Component](component-table.md). Значение по умолчанию — 0, что обеспечивает функциональность общего компонента для компонентов, помеченных **мсидбкомпонентаттрибутесшаред** во всех пакетах.
 
-**[Установщик Windows 4,0 и более ранних версий](not-supported-in-windows-installer-4-0.md):** Не поддерживается. Эта функция доступна начиная с установщик Windows 4,5.
+**[установщик Windows 4,0 и более ранних версий](not-supported-in-windows-installer-4-0.md):** Не поддерживается. эта функция доступна начиная с установщик Windows 4,5.
 
 ## <a name="registry-key"></a>Ключ реестра
 
-**HKey \_ \_** \\ **Политики программного обеспечения** локального компьютера \\  \\  \\  \\ **установщик** Microsoft Windows
+**HKey \_ \_** \\ **политики программного обеспечения** локального компьютера \\  \\  \\  \\ **установщик** Microsoft Windows
 
 ## <a name="data-type"></a>Тип данных
 

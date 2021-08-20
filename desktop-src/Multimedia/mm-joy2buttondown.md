@@ -3,7 +3,7 @@ title: Сообщение MM_JOY2BUTTONDOWN (Ммсистем. h)
 description: '\_Сообщение JOY2BUTTONDOWN mm уведомляет окно с захваченным джойстиком JOYSTICKID2, что была нажата кнопка.'
 ms.assetid: b4cd48ea-91ad-48e9-b0ae-58d8ee124171
 keywords:
-- MM_JOY2BUTTONDOWN сообщения Windows мультимедиа
+- сообщение MM_JOY2BUTTONDOWN Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f155fcdc21247e01fd5d730f3f7d4daaba705e65
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 02e9ad78e914fb74e51f8ebe7a47a65677ac06d27d53eb8f64739ba641f235b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118137205"
 ---
 # <a name="mm_joy2buttondown-message"></a>MM \_ JOY2BUTTONDOWN, сообщение
 
@@ -88,7 +88,7 @@ yPos = HIWORD(lParam);
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -96,11 +96,11 @@ yPos = HIWORD(lParam);
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -3,7 +3,7 @@ title: Сообщение MCIWNDM_SETINACTIVETIMER (VFW. h)
 description: Сообщение МЦИВНДМ \_ сетинактиветимер устанавливает период обновления, используемый мЦивнд для обновления TrackBar в окне мЦивнд, обновляет сведения о положении в строке заголовка окна и отправляет сообщения уведомления родительскому окну, когда окно мЦивнд неактивно. Это сообщение можно отправить явно или с помощью макроса МЦивндсетинактиветимер.
 ms.assetid: 8900c372-0493-4a63-a027-ef6ecf8f8254
 keywords:
-- MCIWNDM_SETINACTIVETIMER сообщения Windows мультимедиа
+- сообщение MCIWNDM_SETINACTIVETIMER Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba4504d84b254dfb67616568f5f97bba8e3bc2e3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0e4161d52335e050fb8e9bcb702986492b5cd230713fcd15810a71590a92b030
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118137651"
 ---
 # <a name="mciwndm_setinactivetimer-message"></a>\_Сообщение мЦивндм сетинактиветимер
 
@@ -49,7 +49,7 @@ lParam = 0;
 
 Это сообщение не возвращает значение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -61,7 +61,7 @@ lParam = 0;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

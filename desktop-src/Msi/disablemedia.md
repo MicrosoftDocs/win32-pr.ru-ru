@@ -4,12 +4,12 @@ ms.assetid: 275a6d43-ecf8-4146-82eb-3b42b25b9a80
 title: дисаблемедиа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2ee50abf36225aa96e52332a53f0b2ab36f058c
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: d2337a1698865b0b977e179021f6490e2fa651a8c4baa3a56e808d037926ad39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103999852"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118143250"
 ---
 # <a name="disablemedia"></a>дисаблемедиа
 
@@ -17,17 +17,17 @@ ms.locfileid: "103999852"
 
 ## <a name="registry-key"></a>Ключ реестра
 
-**HKey \_ Текущие \_ политики пользовательского** \\ **программного обеспечения** \\  \\  \\  \\ **установщик** Microsoft Windows
+**HKey \_ текущие \_ политики пользовательского** \\ **программного обеспечения** \\  \\  \\  \\ **установщик** Microsoft Windows
 
 ## <a name="data-type"></a>Тип данных
 
 **REG \_ DWORD**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обратите внимание, что свойство [**дисаблемедиа**](-disablemedia.md) отличается от влияния политики дисаблемедиа. Установка системной политики Дисаблемедиа отключает только просмотр источников мультимедиа. Если задать свойство **дисаблемедиа** , установщик не сможет зарегистрировать какой-либо источник мультимедиа, например компакт-диск, в качестве допустимого источника для продукта. Однако если обзор включен, пользователь по-прежнему может перейти к источнику мультимедиа.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

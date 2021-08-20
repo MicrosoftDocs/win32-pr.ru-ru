@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: 079138c978ee670b681186c5ee265a8002881b79
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5a9dba853ad875e5167b8ff642c2cf106ba600dcb4c951def5c249e8230d0365
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668859"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118143980"
 ---
 # <a name="configurableitemdisplayname-property"></a>Конфигураблеитем. DisplayName, свойство
 
@@ -42,14 +42,14 @@ propVal = ConfigurableItem.DisplayName
 
 См. раздел [**Получение функции \_ DisplayName**](/windows/desktop/api/Mergemod/nf-mergemod-imsmconfigurableitem-get_displayname) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Версия<br/> | Mergemod.dll 2,0 или более поздней версии<br/>                                                    |
-| Header<br/>  | <dl> <dt>Мержемод. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Мержемод. h</dt> </dl>   |
 | DLL<br/>     | <dl> <dt>Mergemod.dll</dt> </dl> |
 
 

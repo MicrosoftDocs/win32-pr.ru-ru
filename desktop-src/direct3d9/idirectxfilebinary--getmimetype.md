@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dxof.lib
 - D3dxof.dll
-ms.openlocfilehash: 965006dc6fbad1176307341a19fd1f186e670104
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1a3443577a8d7b837ce43ef468d28d01ebde7b265b4e27dd72c481329b7003e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104000348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118093479"
 ---
 # <a name="idirectxfilebinarygetmimetype-method"></a>Метод Идиректксфилебинари:: Жетмиметипе
 
@@ -55,7 +55,7 @@ HRESULT GetMimeType(
 
 Если метод выполнен успешно, возвращается значение ДКСФИЛЕ \_ ОК. В случае сбоя метода возвращаемое значение может быть ДКСФИЛИРР \_ бадвалуе.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если в файле DirectX для двоичного объекта не указан тип MIME, функция устанавливает Псзмиметипе в **значение NULL**.
 
@@ -65,12 +65,12 @@ HRESULT GetMimeType(
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Дксфиле. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Дксфиле. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>D3dxof. lib</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

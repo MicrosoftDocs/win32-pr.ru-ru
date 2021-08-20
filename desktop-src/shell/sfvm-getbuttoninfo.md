@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: d0db40f7c1f54cd13d54765ba34a8eab31246809
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 03991e1d87ed9e607d0e55f2788921db88017499a5e81876f2e4d8622e2f52d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104985773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118048561"
 ---
 # <a name="sfvm_getbuttoninfo-message"></a>\_Сообщение сфвм жетбуттонинфо
 
@@ -46,7 +46,7 @@ SFVM_GETBUTTONINFO
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Кнопки можно добавлять или добавлять в начало стандартных кнопок представления объектов в системных папках или отображаться вместо стандартных кнопок. За этим сообщением следует сообщение [**сфвм \_**](sfvm-getbuttons.md) , которое извлекает сведения о характере для кнопки.
 

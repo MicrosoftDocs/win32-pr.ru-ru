@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: befd4e7256c9d1ca52d6f0239f5e56c21842a85d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be97e5e683c14a3b2f6adca300e9a78e0afaac10129f071114c62097a45bf7bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105713012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118084629"
 ---
 # <a name="apiretrievecolumnasdatetime-method-jet_sesid-jet_tableid-jet_columnid-retrievecolumngrbit"></a>Метод API. Ретриевеколумнасдатетиме (JET_SESID, JET_TABLEID, JET_COLUMNID, Ретриевеколумнгрбит)
 
@@ -97,7 +97,7 @@ public static Nullable<DateTime> RetrieveColumnAsDateTime(
 Тип: [System. Nullable](/dotnet/api/system.nullable-1)\<[DateTime](/dotnet/api/system.datetime)\>  
 Данные, полученные из столбца в виде даты и времени. Значение null, если столбец имеет значение null.  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

@@ -12,12 +12,12 @@ keywords:
 - Функция Ммиоинсталлиопрок
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1574b7076e7344fa8e800ef1f18ad13fcfd3f3af
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 4ec92542efe80c24e1e620983d78b4b9a6c246ff003934a1ace1cae159fbd1da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104412952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118140472"
 ---
 # <a name="installing-custom-io-procedures"></a>Установка пользовательских процедур ввода-вывода
 
@@ -41,6 +41,6 @@ mmioInstallIOProc (mmioFOURCC('A', 'R', 'C', ' '),
 
 Не забудьте удалить все установленные процедуры ввода-вывода перед выходом из приложения.
 
- 
+ 
 
- 
+ 

@@ -3,7 +3,7 @@ title: Код уведомления SBN_SIMPLEMODECHANGE (Коммктрл. h)
 description: Посылается элементом управления "строка состояния" при изменении простого режима из-за \_ простого сообщения SB. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: b2df8feb-5028-4488-a99b-4ceff5b48a92
 keywords:
-- SBN_SIMPLEMODECHANGE кода уведомления элементы управления Windows
+- SBN_SIMPLEMODECHANGE кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b998f0c39ecb00322bf5a423f99b3231338283f4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 813158c851e628a60a081a4a3eef90abb2eceac1a64fd81c33a75375229681da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105654602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118408860"
 ---
 # <a name="sbn_simplemodechange-notification-code"></a>\_Код уведомления СБН симплемодечанже
 
@@ -55,8 +55,8 @@ SBN_SIMPLEMODECHANGE
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

@@ -3,7 +3,7 @@ title: Функция обратного вызова Реадерскролл
 description: Определяемая приложением функция обратного вызова, используемая при перемещении указателя мыши в область окна режима модуля чтения, объявленная в качестве активной области прокрутки.
 ms.assetid: b1feb661-e3bc-4fcd-9acf-ac000c3066bd
 keywords:
-- Элементы управления Windows для функции обратного вызова Реадерскролл
+- функции обратного вызова реадерскролл Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0db5a80b84a30362e3bdbce45fe7485ad0dd6884
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 554530e556161b4128199cda0a1a9d791f4f0ed75e8915c311d8945445486ac3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988592"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118169114"
 ---
 # <a name="readerscroll-callback-function"></a>Функция обратного вызова Реадерскролл
 
@@ -77,7 +77,7 @@ BOOL CALLBACK ReaderScroll(
 
 Эта функция всегда должна возвращать **значение true**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Когда приложение получает уведомление от этой функции, приложение несет ответственность за прокрутку окна режима чтения в направлении, указанном параметрами *DX* и *dy* .
 
@@ -102,14 +102,14 @@ ReaderScrollCallback(PREADERMODEINFO prmi, int dx, int dy)
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows Vista, \[ только классические приложения Windows Vista\]<br/> |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>          |
+| Минимальная версия клиента<br/> | Windows vista, только для \[ классических приложений Windows vista\]<br/> |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>          |
 
 
 

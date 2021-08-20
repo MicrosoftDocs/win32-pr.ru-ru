@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d10fde34e490f26c287e63dcddae3c62761670bc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7591f26bb2678d6feefc69b46cc4380299347f7c59755b0721f329023e6f92bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105681962"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118127381"
 ---
 # <a name="setspecifiedlicenseserverlist-method-of-the-win32_terminalservicesetting-class"></a>Метод СетспеЦифиедлиценсесерверлист \_ класса Win32 терминалсервицесеттинг
 
@@ -54,7 +54,7 @@ uint32 SetSpecifiedLicenseServerList(
 
 Возвращает значение 0 при успешном выполнении, в противном случае возвращает код ошибки WMI. Список этих значений см. в разделе [службы удаленных рабочих столов коды ошибок поставщика WMI](terminal-services-wmi-provider-error-codes.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -68,7 +68,7 @@ uint32 SetSpecifiedLicenseServerList(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

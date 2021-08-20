@@ -4,12 +4,12 @@ description: Изменение параметров безопасности к
 ms.assetid: c6d84375-59ea-42d5-87f9-af514b6f7d7c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6607e7a17e7db1f8852dff42e62384c730090bbb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a7936e2d0bc1113b651fd40f94e84037f00f4ffbe12b7e0232f1dc6a6cd8aaeb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118105402"
 ---
 # <a name="modifying-the-security-defaults-for-a-computer"></a>Изменение параметров безопасности компьютера по умолчанию
 
@@ -22,7 +22,7 @@ ms.locfileid: "104410591"
 -   [Параметры реестра для System-Wide безопасности](registry-values-for-machine-wide-security.md)
 -   [Настройка безопасности System-Wide с помощью DCOMCNFG](setting-machine-wide-security-using-dcomcnfg.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -32,9 +32,9 @@ ms.locfileid: "104410591"
 [Настройка безопасности для приложений COM](setting-security-for-com-applications.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

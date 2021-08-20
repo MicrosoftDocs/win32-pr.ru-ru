@@ -53,7 +53,7 @@ DownloadItem.pause()
 
 Метод **Pause** не влияет на загрузку в режиме реального времени.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -64,7 +64,7 @@ DownloadItem.pause()
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: a12a848f818cbe2379462ea0da815c36510dbbb9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a9a861d331abc5c828bd7bcb2923b212e8a16cac30bc48f991ee7ca820578de0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669280"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118143990"
 ---
 # <a name="configurableitemhelpkeyword-property"></a>Свойство Конфигураблеитем. HelpKeyword
 
@@ -42,14 +42,14 @@ propVal = ConfigurableItem.HelpKeyword
 
 См. раздел [**Получение функции \_ HelpKeyword**](/windows/desktop/api/Mergemod/nf-mergemod-imsmconfigurableitem-get_helpkeyword) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Версия<br/> | Mergemod.dll 2,0 или более поздней версии<br/>                                                    |
-| Header<br/>  | <dl> <dt>Мержемод. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Мержемод. h</dt> </dl>   |
 | DLL<br/>     | <dl> <dt>Mergemod.dll</dt> </dl> |
 
 

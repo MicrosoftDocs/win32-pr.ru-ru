@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a5231c87d379decac8d4f6491042bff735c1ba2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a619da8130187a4ab5d39de390315dd99b3ee7a171005a4cf66e7bb5677ae87c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118130783"
 ---
 # <a name="generatereport-method-of-the-win32_tslicensereport-class"></a>Метод Женератерепорт \_ класса Win32 тслиценсерепорт
 
@@ -103,9 +103,9 @@ uint32 GenerateReport(
 
 Для вызова этого метода необходимо быть членом группы администраторов.
 
-Файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). MOF-файлы не устанавливаются в составе пакета средств разработки программного обеспечения Microsoft Windows (SDK). Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
+файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). файлы MOF не устанавливаются в составе пакета средств разработки программного обеспечения Microsoft Windows Software Development Kit (SDK). Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -116,13 +116,13 @@ uint32 GenerateReport(
 | Окончание поддержки клиента<br/>    | Ни одна версия не поддерживается<br/>                                                                 |
 | Поддержка конца сервера<br/>    | Windows Server 2008 R2<br/>                                                         |
 | Пространство имен<br/>                | Root\\CIMv2<br/>                                                                    |
-| Header<br/>                   | <dl> <dt>GPMgmt. h</dt> </dl>       |
+| Заголовок<br/>                   | <dl> <dt>GPMgmt. h</dt> </dl>       |
 | MOF<br/>                      | <dl> <dt>Тлсвмипров. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TlsWmiProv.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

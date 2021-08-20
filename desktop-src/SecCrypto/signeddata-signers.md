@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 5f4c58c2a69c483fc38412a6aa8377742d52d39a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0fbc8e8a4059bbedde4fff8f3b620aacddae5d0d82364df4a35165aa812d7ef2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117973745"
 ---
 # <a name="signeddatasigners-property"></a>Сигнеддата. Signs, свойство
 
@@ -50,7 +50,7 @@ SignedData.Signers As Signers
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

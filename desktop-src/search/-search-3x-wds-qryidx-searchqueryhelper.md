@@ -4,20 +4,20 @@ ms.assetid: 6e567c09-8763-4866-bf02-ad6651b454db
 title: Запрос индекса с помощью Исеарчкуерихелпер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56b9d970a1e3f416081d3b7fd3e9d6c2af0a2bca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1db9bf2fe8d593d95a1a8f58e25faebb4b76a65ac28fe4c1bc6d6dc2f25ab87d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262942"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118052106"
 ---
 # <a name="querying-the-index-with-isearchqueryhelper"></a>Запрос индекса с помощью Исеарчкуерихелпер
 
 Для запроса индекса можно использовать интерфейс [**исеарчкуерихелпер**](/windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper) . Этот интерфейс реализуется как вспомогательный класс для [**исеарчкаталогманажер**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcatalogmanager) (и [**ISearchCatalogManager2**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcatalogmanager2)) и получается путем вызова [**исеарчкаталогманажер:: жеткуерихелпер**](/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-getqueryhelper). Этот интерфейс позволяет выполнять следующие задачи:
 
--   Получите строку подключения OLE DB для подключения к базе данных Windows Search.
--   Преобразуйте запросы пользователей расширенного синтаксиса запросов (АКС) в Windows Search язык SQL (SQL).
--   Укажите ограничения запросов, которые могут быть выражены в SQL, но не в АКС.
+-   получите строку подключения OLE DB для подключения к Windows базе данных поиска.
+-   преобразуйте запросы пользователей расширенного синтаксиса запросов (акс) в Windows язык SQL поиска (SQL).
+-   укажите ограничения запроса, которые могут быть выражены в SQL, но не в акс.
 
 Этот раздел организован следующим образом:
 
@@ -27,11 +27,11 @@ ms.locfileid: "104262942"
 -   [Работа со свойствами и столбцами](#working-with-properties-and-columns)
 -   [Работа с расширением термина запроса](#working-with-query-term-expansion)
 -   [Работа с другими методами Исеарчкуерихелпер](#working-with-other-isearchqueryhelper-methods)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="getting-started-with-isearchqueryhelper"></a>начало работы с Исеарчкуерихелпер
 
-Существует несколько ключевых интерфейсов и методов, которые следует учитывать перед запуском программных запросов к поиску Windows с помощью интерфейса [**исеарчкуерихелпер**](/windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper) . На высоком уровне необходимо выполнить следующие действия.
+существует несколько ключевых интерфейсов и методов, о которых следует знать, прежде чем можно будет запустить программный запрос Windows поиска с помощью интерфейса [**исеарчкуерихелпер**](/windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper) . На высоком уровне необходимо выполнить следующие действия.
 
 1.  Создайте экземпляр [**исеарчманажер**](/windows/desktop/api/Searchapi/nn-searchapi-isearchmanager) .
     ```
@@ -44,7 +44,7 @@ ms.locfileid: "104262942"
 
     
 
-2.  Получите экземпляр [**исеарчкаталогманажер**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcatalogmanager) с помощью [**Исеарчманажер:: catalog**](/windows/desktop/api/Searchapi/nf-searchapi-isearchmanager-getcatalog). Имя системного каталога для поиска Windows — `SYSTEMINDEX` .
+2.  Получите экземпляр [**исеарчкаталогманажер**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcatalogmanager) с помощью [**Исеарчманажер:: catalog**](/windows/desktop/api/Searchapi/nf-searchapi-isearchmanager-getcatalog). имя системного каталога для Windows поиска: `SYSTEMINDEX` .
     ```
     // Create ISearchCatalogManager instance 
     ISearchCatalogManager* pSearchCatalogManager;
@@ -67,7 +67,7 @@ ms.locfileid: "104262942"
 
     
 
-4.  После создания экземпляра [**исеарчкуерихелпер**](/windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper)можно получить строку подключения, используемую для подключения к соединителю поиска Windows OLE DB Connector.
+4.  после создания экземпляра [**исеарчкуерихелпер**](/windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper)можно получить строку подключения, используемую для подключения к соединителю OLE DB индекса поиска Windows.
     ```
     // Call get_ConnectionString to get the OLE DB connection string
     LPWSTR pszConnectionString=NULL;
@@ -81,9 +81,9 @@ ms.locfileid: "104262942"
 
 ## <a name="using-the-generatesqlfromuserquery-method"></a>Использование метода Женератесклфромусеркуери
 
-Метод [**исеарчкуерихелпер:: женератесклфромусеркуери**](/windows/desktop/api/Searchapi/nf-searchapi-isearchqueryhelper-generatesqlfromuserquery) преобразовывает введенные пользователем данные в строку запроса SQL, которую затем можно отправить поставщику OLE DB для поиска Windows. Этот метод преобразует запрос [синтаксиса расширенных запросов](-search-3x-advancedquerysyntax.md) (АКС) или синтаксиса естественного запроса (НКС), введенный пользователем в SQL, и позволяет добавлять другие фрагменты SQL по мере необходимости.
+метод [**исеарчкуерихелпер:: женератесклфромусеркуери**](/windows/desktop/api/Searchapi/nf-searchapi-isearchqueryhelper-generatesqlfromuserquery) преобразует входные данные пользователя в строку запроса SQL, которую затем можно отправить поставщику OLE DB для Windows поиска. этот метод преобразует запрос [синтаксиса расширенных запросов](-search-3x-advancedquerysyntax.md) (акс) или синтаксиса естественного запроса (нкс), введенный пользователем в SQL, и позволяет добавлять другие фрагменты SQL по мере необходимости.
 
-Строка SQL-запроса возвращается в следующей форме:
+строка запроса SQL возвращается в следующей форме:
 
 
 ```
@@ -96,7 +96,7 @@ WHERE <Result of interpreting the user query passed into this function according
 
 
 
-Ниже приведен пример строки SQL, возвращаемой из вызова `GenerateSQLFromUserQuery("comput")` .
+ниже приведен пример строки SQL, возвращаемой из вызова `GenerateSQLFromUserQuery("comput")` :
 
 
 ```
@@ -127,7 +127,7 @@ ORDER BY "System.ItemUrl"
 
  
 
-Языковой стандарт **содержимого** и **ключевое слово locale** являются идентификаторами языкового стандарта (LCID), которые помогают поисковой подсистеме использовать правильные средства разбиения по словам, определяя язык терминов запроса и ключевые слова языка АКС. Они не всегда являются одинаковыми LCID, так как поиск Windows предлагается в нескольких международных версиях, а также включает пакеты многоязыкового интерфейса пользователя (MUI) для других языков. Языковой стандарт содержимого определяет код языка, на котором пользователи выполняют поисковый запрос в, а язык ключевых слов определяет код языка, используемый поисковой системой при анализе ключевых слов синтаксиса расширенных запросов (АКС).
+Языковой стандарт **содержимого** и **ключевое слово locale** являются идентификаторами языкового стандарта (LCID), которые помогают поисковой подсистеме использовать правильные средства разбиения по словам, определяя язык терминов запроса и ключевые слова языка АКС. они не всегда являются одинаковыми lcid, так как Windows поиск предоставляется в нескольких международных версиях, а также включает пакеты многоязычный пользовательский интерфейс (MUI) для других языков. Языковой стандарт содержимого определяет код языка, на котором пользователи выполняют поисковый запрос в, а язык ключевых слов определяет код языка, используемый поисковой системой при анализе ключевых слов синтаксиса расширенных запросов (АКС).
 
 Например, при наличии английской версии (без пакетов MUI) языковой стандарт содержимого и ключевое слово keyword имеют значение 1033. Если у вас установлена немецкая версия без пакетов MUI, то языковой стандарт содержимого и ключевое слово locale имеют значение 1031 (GR-GR). Однако если у вас установлена английская версия с пакетом MUI для румынского языка, то язык содержимого — 2072 (ro), а ключевое слово locale — 1033 (EN-US).
 
@@ -183,20 +183,20 @@ ORDER BY "System.ItemUrl"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Отправка программных запросов к индексу](-search-3x-wds-qryidx-overview.md)
 </dt> <dt>
 
-[Использование методов SQL и АКС для запроса индекса](-search-3x-wds-qryidx-overview.md)
+[использование SQL и подходов акс для запроса индекса](-search-3x-wds-qryidx-overview.md)
 </dt> <dt>
 
 [Запрос индекса с помощью протокола Search-MS](-search-3x-wds-qryidx-searchms.md)
 </dt> <dt>
 
-[Запрос к индексу с помощью синтаксиса SQL для поиска Windows](-search-sql-windowssearch-entry.md)
+[запрос к индексу с помощью Windows поискового синтаксиса SQL](-search-sql-windowssearch-entry.md)
 </dt> <dt>
 
 [Использование расширенного синтаксиса запросов программными средствами](-search-3x-advancedquerysyntax.md)

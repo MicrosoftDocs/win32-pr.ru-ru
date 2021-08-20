@@ -62,7 +62,7 @@ ms.locfileid: "118342988"
 
 | Элемент                                                              | Тип | Описание                            |
 |----------------------------------------------------------------------|------|----------------------------------------|
-| [**строка**](eventmanifestschema-string-stringtabletype-element.md) |      | Определяет локализованную строку.<br/> |
+| [**Строка**](eventmanifestschema-string-stringtabletype-element.md) |      | Определяет локализованную строку.<br/> |
 
 
 
@@ -82,7 +82,7 @@ ms.locfileid: "118342988"
 
 Можно ссылаться на строки из любого типа манифеста, содержащего атрибут Message. Чтобы сослаться на строку с Стрингтипе строки и идентификатором "Printer. Connection", используйте $ (String. Printer. Connection) в качестве значения атрибута Message.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

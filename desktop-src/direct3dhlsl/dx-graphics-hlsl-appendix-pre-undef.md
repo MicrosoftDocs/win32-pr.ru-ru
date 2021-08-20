@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7358dc60d002e784394f64773934a18f7413e493
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: f70ecdf2aca8386e730a06a982ab108cf7292c5d41af46f1b0e9ec8c9735ff97
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104334032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118091126"
 ---
 # <a name="undef-directive"></a>\#Директива undef
 
@@ -45,7 +45,7 @@ ms.locfileid: "104334032"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 \#Директиву undef можно применить к идентификатору, не имеющему предыдущего определения. Это гарантирует, что идентификатор не определен. Замена макросов не выполняется в \# операторах undef.
 
@@ -68,7 +68,7 @@ ms.locfileid: "104334032"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

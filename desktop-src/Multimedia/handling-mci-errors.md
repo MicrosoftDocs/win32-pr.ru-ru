@@ -6,12 +6,12 @@ keywords:
 - Функция МЦисендкомманд
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab8412c74153d5ddfb03a3aff895f9f2e0e73798
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: f8e2f3a9cc3e711db0d26f28c9ac7e3fd0a8c94eec96117a732f8024372bf9de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "105672259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118141026"
 ---
 # <a name="handling-mci-errors"></a>Обработка ошибок MCI
 
@@ -47,8 +47,8 @@ void showError(DWORD dwError)
 > [!Note]  
 > Чтобы самостоятельно интерпретировать возвращаемое значение ошибки [**мЦисендкомманд**](/previous-versions//dd757160(v=vs.85)) , необходимо замаскировать слово в высоком порядке (слово низкого порядка содержит код ошибки). При передаче возвращаемого значения ошибки в [**мЦижетеррорстринг**](/previous-versions//dd757158(v=vs.85))необходимо передать полное значение даублеворд.
 
- 
+ 
 
- 
+ 
 
- 
+ 

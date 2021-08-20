@@ -3,7 +3,7 @@ title: Сообщение PSM_CANCELTOCLOSE (Пршт. h)
 description: Отправляется приложением при выполнении изменений с момента последнего \_ уведомления об использовании PSN, которое не может быть отменено. Это сообщение можно отправить явным образом или с помощью \_ макроса пропшит канцелтоклосе.
 ms.assetid: 0a4b6176-7ddb-469f-8ebf-a31e533a8690
 keywords:
-- Элементы управления Windows для PSM_CANCELTOCLOSE сообщений
+- элементы управления Windows сообщений PSM_CANCELTOCLOSE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec1377801fddeeb52badee55869ace7e9c2277c4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 65c37c46e1232d8f99b8666e86058a13b840fbc975d94355d75ef40a810ee23c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118169820"
 ---
 # <a name="psm_canceltoclose-message"></a>\_Сообщение ПСМ канцелтоклосе
 
@@ -47,7 +47,7 @@ ms.locfileid: "104136963"
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **ПСМ \_ КАНЦЕЛТОКЛОСЕ** отключает кнопку **"Отмена** " и изменяет текст кнопки " **ОК** " на "Закрыть".
 
@@ -64,15 +64,15 @@ ms.locfileid: "104136963"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                               |
-| Header<br/>                   | <dl> <dt>Пршт. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                               |
+| Заголовок<br/>                   | <dl> <dt>Пршт. h</dt> </dl> |
 
 
 

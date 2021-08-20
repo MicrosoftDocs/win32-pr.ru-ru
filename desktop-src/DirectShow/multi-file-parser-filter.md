@@ -4,12 +4,12 @@ ms.assetid: 8ef06f49-fda4-49e2-9b07-70453a2e897c
 title: Фильтр синтаксического анализатора с несколькими файлами
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44fc83a56bb12c307b85be875a3a2e7e73b744d9
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d86663412400a4c1b116b6f831c80f72d66f88e648cf8f245be6581240d986bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105682259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118152992"
 ---
 # <a name="multi-file-parser-filter"></a>Фильтр синтаксического анализатора с несколькими файлами
 
@@ -85,7 +85,7 @@ https://server/share/captions.smi
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Фильтр создает один выходной ПИН-код для каждого файла, указанного в исходном файле. Тип выходных данных — MEDIATYPE \_ File, а блок формата для выходного типа — это строка расширенных символов, содержащая имя файла. Каждый ПИН-код подключается к экземпляру фильтра модуля [подготовки к потоку файлов](file-stream-renderer-filter.md) . Фильтр модуля подготовки к потоку файлов создает один выходной ПИН-код, который предоставляет интерфейс [**истреамбуилдер**](/windows/desktop/api/Strmif/nn-strmif-istreambuilder) . Закрепление вывода подготавливает к просмотру указанный файл. Данные мультимедиа не передаются между средством синтаксического анализа нескольких файлов и модулем подготовки потока файлов.
 
@@ -100,11 +100,11 @@ DEFINE_GUID(CLSID_MultFile,
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Фильтры DirectShow](directshow-filters.md)
+[DirectShow Фильтрующ](directshow-filters.md)
 </dt> </dl>
 
  

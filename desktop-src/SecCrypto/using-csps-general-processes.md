@@ -4,12 +4,12 @@ ms.assetid: 70053b89-4d39-4a86-985a-0e8f05fbc9c0
 title: 'Использование CSP: общие процессы'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93f067ef0e3cd837b1b347daac3e3da21543047d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 89d812e5a70b6df664247a92ec957808c87b7328d18d41d2fb88b3b4fd78f2c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117971565"
 ---
 # <a name="using-csps-general-processes"></a>Использование CSP: общие процессы
 

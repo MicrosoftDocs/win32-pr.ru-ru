@@ -4,12 +4,12 @@ ms.assetid: 6f2b3b9f-86e5-42af-8adc-29a1c768d106
 title: О подпрограммых обратного вызова очереди по умолчанию
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57dfd22a9fa260aa1e98a2085e0cb925ed1f3438
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c16ecb4bceec5bb9dc93def89172146ea9bbc2cffc2fcacfa87e614098fa0b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117966524"
 ---
 # <a name="about-the-default-queue-callback-routine"></a>О подпрограммых обратного вызова очереди по умолчанию
 

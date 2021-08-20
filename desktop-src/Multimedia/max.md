@@ -3,7 +3,7 @@ title: макрос Max (Минвиндеф. h)
 description: Макрос Max сравнивает два значения и возвращает значение большего. Тип данных может быть любым числовым типом данных, подписанным или неподписанным. Тип данных аргументов и возвращаемое значение одинаковы.
 ms.assetid: 224d2ef7-6764-49c0-9782-51bfadbfb77f
 keywords:
-- Максимальное число мультимедийных окон макросов
+- макрос max Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b484f2505958aca04745c63ca63a0dd131a51ed9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fc592fcc588c14ee04c1f595c5b5bc95c860b2ab0b761906886010db478d5f1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118138650"
 ---
 # <a name="max-macro"></a>max - макрос
 
@@ -59,7 +59,7 @@ ms.locfileid: "104534019"
 
 Возвращаемое значение — это большее из двух указанных значений.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Макрос **Max** определяется следующим образом:
 
@@ -70,7 +70,7 @@ ms.locfileid: "104534019"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

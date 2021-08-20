@@ -1,6 +1,6 @@
 ---
 title: Атрибут списка Global-Address-List
-description: Этот атрибут используется в контейнере Microsoft Exchange для хранения различающегося имени только что созданного глобального списка адресов (GAL).
+description: этот атрибут используется в контейнере Microsoft Exchange для хранения различающегося имени только что созданного глобального списка адресов (GAL).
 ms.assetid: 0da2bafe-ecdf-4b75-9461-08a35151b85c
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 28178dfd6621593ee60e6e07043be544445cb6e7
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ce21117dce4daa428f505d7eb6480d9c0f2532ec4398fa369dcf102304701b9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105654831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118176953"
 ---
 # <a name="global-address-list-attribute"></a>Атрибут списка Global-Address-List
 
-Этот атрибут используется в контейнере Microsoft Exchange для хранения различающегося имени только что созданного глобального списка адресов (GAL). Этот атрибут должен иметь запись, прежде чем можно будет включить клиентские интерфейсы MAPI для использования глобального списка адресов.
+этот атрибут используется в контейнере Microsoft Exchange для хранения различающегося имени только что созданного глобального списка адресов (GAL). Этот атрибут должен иметь запись, прежде чем можно будет включить клиентские интерфейсы MAPI для использования глобального списка адресов.
 
 
 

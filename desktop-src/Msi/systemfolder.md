@@ -4,32 +4,32 @@ ms.assetid: 23883638-8d3d-4c2a-8ebf-0c306cf01e05
 title: Системфолдер, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2abce6e4aa91289ef17134ab3cb878a665d3097c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1567942e981af161654d41988ef797b64116af5cdb25e07a3d4f1465fc4ce975
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675874"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118142012"
 ---
 # <a name="systemfolder-property"></a>Системфолдер, свойство
 
 Установщик задает для свойства **системфолдер** полный путь к системной папке.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Установщик задает это свойство. Например, в 32-разрядной Windows значение может быть C: \\ Windows \\ System32. В 64-разрядной версии Windows значением может быть C: \\ Windows \\ SysWOW64.
+Установщик задает это свойство. например, в 32-бит Windows значением может быть C: \\ Windows \\ System32. в 64-разрядной Windows значением может быть C: \\ Windows \\ SysWow64.
 
-Обычно эта папка является вложенной папкой папки Windows. Однако он находится на сервере, настроенном для совместно используемых окон.
+обычно эта папка является вложенной папкой Windows папки. Однако он находится на сервере, настроенном для совместного использования Windows.
 
-Эта папка является локальной, даже если она настроена для общих окон.
+Эта папка является локальной, даже если она настроена для общего Windows.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

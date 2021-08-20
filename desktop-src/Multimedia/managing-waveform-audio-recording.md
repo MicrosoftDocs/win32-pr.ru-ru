@@ -10,18 +10,18 @@ keywords:
 - Функция Вавеинаддбуффер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 539f722a705d489064d38eccdf6d89e80ccb1518
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: d798cb1b6a8a22f4c695bced89dd669346ad2bb6452179df1d3278af8681aa49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104336993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118138937"
 ---
 # <a name="managing-waveform-audio-recording"></a>Управление записью Waveform-Audio
 
 После открытия устройства ввода аудио-звука можно начать запись данных аудио-сигнала. Аудио-данные записываются в предоставляемые приложением буферы, заданные структурой [**вавехдр**](/windows/win32/api/mmeapi/ns-mmeapi-wavehdr) . Эти блоки данных должны быть подготовлены до их использования; Дополнительные сведения см. в разделе [Звуковые блоки данных](audio-data-blocks.md).
 
-Windows предоставляет следующие функции для управления записью аудио-звука.
+Windows предоставляет следующие функции для управления записью аудио-аудиосигнала.
 
 
 
@@ -34,7 +34,7 @@ Windows предоставляет следующие функции для уп
 
 
 
- 
+ 
 
 Используйте функцию [**вавеинаддбуффер**](/windows/win32/api/mmeapi/nf-mmeapi-waveinaddbuffer) для отправки буферов в драйвер устройства. Так как буферы заполнены записанными аудио-данными, приложение получает уведомление о окне, сообщение обратного вызова, сообщение потока или событие, в зависимости от флага, указанного при открытии устройства.
 
@@ -42,13 +42,13 @@ Windows предоставляет следующие функции для уп
 
 Перед закрытием устройства с помощью [**вавеинклосе**](/windows/win32/api/mmeapi/nf-mmeapi-waveinclose)вызовите [**вавеинресет**](/windows/win32/api/mmeapi/nf-mmeapi-waveinreset) , чтобы пометить все ожидающие блоки данных как выполненные.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Запись звука звукозаписи](recording-waveform-audio.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

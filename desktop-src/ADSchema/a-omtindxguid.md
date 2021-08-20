@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a8a8dd42262a71b7ee09a39dac5cd59b90dfb9a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 2a665542f9cf488084fde037781140a08c07ba67d22a46bbc81fbfa16e158659
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103893334"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118012864"
 ---
 # <a name="omt-indx-guid-attribute"></a>Атрибут ОМТ-Индкс-GUID
 

@@ -3,7 +3,7 @@ title: THEME. Опенвиеврелативе
 description: Метод Опенвиеврелативе открывает представление в новом окне с указанной начальной позицией относительно левого верхнего угла обложки.
 ms.assetid: fc31a1ce-e6b9-4084-b244-28fad486f485
 keywords:
-- Проигрыватель Windows Media THEME. Опенвиеврелативе
+- проигрыватель Windows Media THEME. опенвиеврелативе
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 80ec93055535640b84c33dde2b61ee59cd5bfdcf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6a26040bb8f47d85be99f0d8df602bdd69835cfa648ac6d5898f786e4518acdb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675559"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118117778"
 ---
 # <a name="themeopenviewrelative"></a>THEME. Опенвиеврелативе
 
@@ -57,7 +57,7 @@ ms.locfileid: "105675559"
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Позиция, указанная для **представления** , используется при первом вызове этого метода, после чего пользователь может перетащить **представление** в другое место. Новая заданная позицией сохраняется, и при последующих вызовах используется самая последняя.
 
@@ -78,17 +78,17 @@ ms.locfileid: "105675559"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

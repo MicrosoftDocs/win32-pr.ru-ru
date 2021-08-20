@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 91216b49dba7fabb25c128f3801d11bfa2fd95c2
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e1c640262c1629e2bfed9c84c3bf0e9914482847188a62f19d1e63cd6099fdf8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108114302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118093570"
 ---
 # <a name="id3dxtextureshadersetmatrixtranspose-method"></a>Метод ID3DXTextureShader:: Сетматрикстранспосе
 
@@ -75,7 +75,7 @@ HRESULT SetMatrixTranspose(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>     |
 
 

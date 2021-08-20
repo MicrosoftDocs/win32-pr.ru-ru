@@ -4,12 +4,12 @@ ms.assetid: 718a07f6-e2e4-4670-b9cf-982b53abffd2
 title: Основные типы (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e5722cbad713f2fb9ae876e58941bde44c2e110
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3764bffabb85b3b054fc7589d4eae9677adbc8835d0e4aa3029d31834eb887c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685426"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118153246"
 ---
 # <a name="major-types"></a>Основные типы
 
@@ -32,28 +32,28 @@ ms.locfileid: "105685426"
 | <span id="MEDIATYPE_ScriptCommand"></span><span id="mediatype_scriptcommand"></span><span id="MEDIATYPE_SCRIPTCOMMAND"></span><dl> <dt>**MEDIATYPE \_ команду скрипта**</dt> </dl> | Данные — это команда сценария, используемая закрытыми заголовками.<br/>                                             |
 | <span id="MEDIATYPE_Stream"></span><span id="mediatype_stream"></span><span id="MEDIATYPE_STREAM"></span><dl> <dt>**\_Поток MEDIATYPE**</dt> </dl>                             | Байтовый поток без отметок времени. См. раздел [**Stream подтипы**](stream-subtypes.md).<br/>               |
 | <span id="MEDIATYPE_Text"></span><span id="mediatype_text"></span><span id="MEDIATYPE_TEXT"></span><dl> <dt>**MEDIATYPE, \_ текст**</dt> </dl>                                     | Текст.<br/>                                                                                          |
-| <span id="MEDIATYPE_Timecode"></span><span id="mediatype_timecode"></span><span id="MEDIATYPE_TIMECODE"></span><dl> <dt>**Код \_ времени носителя**</dt> </dl>                     | Временные данные. Примечание. DirectShow не предоставляет фильтры, поддерживающие этот тип мультимедиа.<br/>     |
+| <span id="MEDIATYPE_Timecode"></span><span id="mediatype_timecode"></span><span id="MEDIATYPE_TIMECODE"></span><dl> <dt>**Код \_ времени носителя**</dt> </dl>                     | Временные данные. примечание. DirectShow не предоставляет фильтры, поддерживающие этот тип мультимедиа.<br/>     |
 | <span id="MEDIATYPE_URL_STREAM"></span><span id="mediatype_url_stream"></span><dl> <dt>**\_поток URL-адресов MEDIATYPE \_**</dt> </dl>                                                   | Является устаревшей. Не используйте.<br/>                                                                          |
 | <span id="MEDIATYPE_VBI"></span><span id="mediatype_vbi"></span><dl> <dt>**MEDIATYPE \_ ВБИ**</dt> </dl>                                                                         | Вертикальный интервал пустых значений (ВБИ) (для телевизора). То же, что и КСДАТАФОРМАТ \_ типа \_ ВБИ.<br/>       |
 | <span id="MEDIATYPE_Video"></span><span id="mediatype_video"></span><span id="MEDIATYPE_VIDEO"></span><dl> <dt>**\_Видео MEDIATYPE**</dt> </dl>                                 | Видео. См. [подтипы видео](video-subtypes.md).<br/>                                               |
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Идентификатор GUID подтипа дополнительно определяет формат. В некоторых форматах GUID подтипа может быть МЕДИАСУБТИПЕ \_ None, что означает, что формат не требует подтипа.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>DShow. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>DShow. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
