@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d4d6e54b963c9637c4f5a583fc9d8f44a0f2880e
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 93753d1aa73d378ff093cf2d315e144461f466a42910e1778060be05defb911a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "105681564"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014142"
 ---
 # <a name="no_format_opt-switch"></a>/но \_ Формат \_ неявного переключения
 
@@ -31,7 +31,7 @@ midl /no_format_opt
 
 Этот параметр не имеет параметров.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 По умолчанию MIDL устраняет дублирование дескрипторов типа и процедур, чтобы уменьшить размер созданного кода-заглушки. Использование параметра **/но \_ формата " \_ неявное** " отключает это поведение оптимизации.
 
@@ -49,9 +49,9 @@ midl /no_format_opt
 [**/Oi**](-oi.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

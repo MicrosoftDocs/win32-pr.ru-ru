@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c34bd96077c1d28aad196ee0d6b11de122725d68
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 565d31d04a31f72ea25b3477fb91d53d252f6173eec8bc2f40133db38eeb1619
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989309"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118998864"
 ---
 # <a name="ivmkeyboardtypekeysequence-method"></a>Метод Ивмкэйбоард:: Типекэйсекуенце
 
-\[Windows Virtual PC больше не доступна для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC больше не доступен для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Имитирует разделенный запятыми список вводимых ключей.
 
@@ -68,7 +68,7 @@ HRESULT TypeKeySequence(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Строка ключевой последовательности — это разделенный запятыми набор идентификаторов ключей, которые используются для имитации последовательности нажатия и выпуска стандартной клавиатуры с 101-ключом в стиле «английский (США)».
 
@@ -76,22 +76,22 @@ HRESULT TypeKeySequence(
 
 Например, модификатор DOWN отправит код нажатия клавиши для следующего идентификатора ключа, не отправляя код, освобожденный с помощью ключа. Это полезно для имитации клавиш CTRL, Alt и Shift, когда они сохраняются во время отправки других ключей. Чтобы освободить ключ, его необходимо снова добавить в строку ключа вместе с предыдущим модификатором UP.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                    |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                     |
 | Окончание поддержки клиента<br/>    | Windows 7<br/>                                                                          |
 | Продукт<br/>                  | Windows Virtual PC<br/>                                                                 |
-| Header<br/>                   | <dl> <dt>Впккоминтерфацес. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Впккоминтерфацес. h</dt> </dl> |
 | IID<br/>                      | IID \_ ивмкэйбоард определен как 00695f2e-c5ad-4d6e-b1ab-336ed121f8c4<br/>                |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

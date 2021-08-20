@@ -4,21 +4,21 @@ description: Атрибут Коннектлокс VML
 ms.assetid: d9295fa9-ac5e-4063-9709-f7ba6076a769
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7c43829ea355cb1707a893b8da1c874e2178f67
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a9a170a43aed8ef10f401e37503ebc4d04066e0bc3ea4e61334fed1d9a62fc41
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999274"
 ---
 # <a name="vml-connectlocs-attribute"></a>Атрибут Коннектлокс VML
 
-В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+в этом разделе описывается функция VML, которая является устаревшей по отношению к Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
 
 > [!Note]  
-> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
+> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). сведения, рекомендации и рекомендации относительно текущей версии Windows Internet explorer см. в [центре разработчиков internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Определяет расположение точек соединения по пути. Read/write. **Строка**.
 
@@ -34,8 +34,8 @@ ms.locfileid: "104413033"
 
 Точки соединения определяются строкой, состоящей из пар значений x и y, разделенных запятыми. Значением по умолчанию является строка **null** .
 
-*Атрибут расширений Microsoft Office*
+*Microsoft Office Extensions, атрибут*
 
- 
+ 
 
- 
+ 

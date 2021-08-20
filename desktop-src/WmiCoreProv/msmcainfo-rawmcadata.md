@@ -1,5 +1,5 @@
 ---
-description: Указывает журналы необработанных проверок компьютеров (MCA). Этот класс доступен только в 64-разрядных системах Windows.
+description: Указывает журналы необработанных проверок компьютеров (MCA). этот класс доступен только в 64-разрядных Windows системах.
 ms.assetid: d465ba8d-14b2-4911-ae19-19ebeb32126e
 title: Класс MSMCAInfo_RawMCAData
 ms.topic: reference
@@ -17,16 +17,16 @@ api_type:
 - DllExport
 api_location:
 - Wmiprov.dll
-ms.openlocfilehash: 6cafc16ddbc91181cc2114def07a193941988228
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2b7ac9f8c474a1aee55d0dd70a5a838102aec66bc8b3ba3d867070430c38a3ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104541495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118821868"
 ---
 # <a name="msmcainfo_rawmcadata-class"></a>\_Класс мсмкаинфо равмкадата
 
-**Мсмкаинфо \_ равмкадата** указывает журнал необработанных проверок машин (MCA). Этот класс доступен только в 64-разрядных системах Windows.
+**Мсмкаинфо \_ равмкадата** указывает журнал необработанных проверок машин (MCA). этот класс доступен только в 64-разрядных Windows системах.
 
 Следующий синтаксис упрощен из кода MOF-файл (MOF) и включает все его унаследованные свойства. Свойства и методы имеют алфавитный порядок, а не порядок MOF.
 
@@ -48,7 +48,7 @@ class MSMCAInfo_RawMCAData : MSMCAInfo
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсмкаинфо \_ равмкадата** имеет следующие свойства.
 
@@ -109,11 +109,11 @@ class MSMCAInfo_RawMCAData : MSMCAInfo
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **мсмкаинфо \_ равмкадата** является производным от [**мсмкаинфо**](msmcainfo.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -127,7 +127,7 @@ class MSMCAInfo_RawMCAData : MSMCAInfo
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

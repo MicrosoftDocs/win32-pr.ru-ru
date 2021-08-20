@@ -3,17 +3,17 @@ title: Отмена вызова
 description: Уведомление об отмене вызова отменяет операцию операций серверной службы и обратных вызовов модели служб.
 ms.assetid: dc371921-869f-4775-98d3-80a1006358ba
 keywords:
-- Вызов веб-служб отмены вызовов для Windows
+- Вызов веб-служб отмены для Windows
 - ввсапи
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5107f9ece421a3130f99c78b3b33788ee6c7e9f0
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: dda4ec4227403bed5239b68cfa05d2064976517a7473fa7926c8de5f56227645
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "105691714"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026702"
 ---
 # <a name="call-cancellation"></a>Отмена вызова
 

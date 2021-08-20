@@ -1,21 +1,21 @@
 ---
-description: Msitran.exe использует Мсидатабасеженератетрансформ, Мсикреатетрансформсуммаринфо и Мсидатабасеапплитрансформ для создания или применения файла преобразования. Это средство доступно только в компонентах Windows SDK для разработчиков установщик Windows.
+description: Msitran.exe использует Мсидатабасеженератетрансформ, Мсикреатетрансформсуммаринфо и Мсидатабасеапплитрансформ для создания или применения файла преобразования. это средство доступно только в компонентах Windows SDK для разработчиков установщик Windows.
 ms.assetid: cfc7b907-78d7-4a78-bab4-ede9012d5a36
 title: Msitran.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a69936155fb3880f43e0f7563bc6aabd59f53703
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e09803623024bb593897411a5e852aa953335c31fd88f9e2e1922b89b53e9abf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118944272"
 ---
 # <a name="msitranexe"></a>Msitran.exe
 
 Msitran.exe использует [**мсидатабасеженератетрансформ**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabasegeneratetransforma), [**мсикреатетрансформсуммаринфо**](/windows/desktop/api/Msiquery/nf-msiquery-msicreatetransformsummaryinfoa)и [**мсидатабасеапплитрансформ**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabaseapplytransforma) для создания или применения файла преобразования.
 
-Это средство доступно только в [компонентах Windows SDK для разработчиков установщик Windows](platform-sdk-components-for-windows-installer-developers.md).
+это средство доступно только в [компонентах Windows SDK для разработчиков установщик Windows](platform-sdk-components-for-windows-installer-developers.md).
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -50,7 +50,7 @@ Msitran.exe использует [**мсидатабасеженератетра
 |--------|----------------------------|
 | а      | Добавить существующую строку.          |
 | b      | Удаление несуществующей строки.   |
-| c      | Добавить существующую таблицу.        |
+| с      | Добавить существующую таблицу.        |
 | d      | Удаление несуществующей таблицы. |
 | й      | Изменить существующую строку.       |
 | f      | Изменить кодовую страницу.           |
@@ -75,18 +75,18 @@ Msitran.exe использует [**мсидатабасеженератетра
 | v      | Примененная версия базы данных < версия базовой базы данных.  |
 | w      | Примененная версия базы данных <= базовая версия базы данных. |
 | x      | Примененная версия базы данных = базовая версия базы данных.     |
-| да      | Примененная версия базы данных >= базовая версия базы данных. |
+| y      | Примененная версия базы данных >= базовая версия базы данных. |
 | z      | Примененная версия базы данных > версия базовой базы данных.  |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Средства разработки установщик Windows](windows-installer-development-tools.md)
+[Windows Средства разработки установщика](windows-installer-development-tools.md)
 </dt> <dt>
 
 [Преобразования баз данных](database-transforms.md)

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cffe000bc50b1185dc09da44d823edd999954194
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6146282421cb786ae7e460fa77069ba826f422f862fc44fb90be69c2b7403583
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103913175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118978154"
 ---
 # <a name="vistacoltyp-class"></a>Класс Вистаколтип
 
@@ -60,7 +60,7 @@ public static class VistaColtyp
 
 Любые общедоступные статичные (общие в Visual Basic) члены этого типа являются потокобезопасными. Потокобезопасная работа с членами экземпляров типа не гарантируется.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

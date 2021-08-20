@@ -48,7 +48,7 @@ UINT D3DX_FLOAT3_to_B8G8R8X8_UNORM(
 
 Упакованные данные шейдера.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -3,7 +3,7 @@ title: КНОПКА. иссказка
 description: Атрибут исправной подсказки указывает или получает текст подсказки, отображаемый при наведении мыши на кнопку, а кнопка находится в состоянии up.
 ms.assetid: 632248e8-1583-4b49-b06b-7f094e43387d
 keywords:
-- КНОПКА. всплывающая подсказка проигрыватель Windows Media
+- кнопка. проигрыватель Windows Media с подсказкой
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 074106cac238e7e8e718dd7654b8dc4771052205
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 482553400348951139b2faa8a3c8bbd6b240e4b476c7ddaacfb4f354f8df8379
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997844"
 ---
 # <a name="buttonuptooltip"></a>КНОПКА. иссказка
 
@@ -31,7 +31,7 @@ ms.locfileid: "105699247"
 
 Этот атрибут является **строкой** для чтения и записи со значением по умолчанию "" (пустая строка) и максимальной длиной 1024 символов.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если для этого атрибута задано значение "" (пустая строка), подсказка не отображается.
 
@@ -41,7 +41,7 @@ ms.locfileid: "105699247"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

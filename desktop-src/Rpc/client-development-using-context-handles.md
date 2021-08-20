@@ -4,12 +4,12 @@ description: Только клиентская программа имеет д�
 ms.assetid: fcbdfb1e-4f1e-4d22-9a3e-cf5a29d300d0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7c7d2dfca901085c743b25eb233ee2493b893e7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 72ff599bebdf042bc2021d53538cff1c0203d2de875bdc52c50a72675b73a47f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104532366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118931845"
 ---
 # <a name="client-development-using-context-handles"></a>Разработка клиентов с помощью дескрипторов контекста
 
@@ -73,9 +73,9 @@ if (RemoteClose(&phContext) < 0 )
 
 
 
- 
+ 
 
- 
+ 
 
 
 

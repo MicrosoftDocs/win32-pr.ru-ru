@@ -4,12 +4,12 @@ ms.assetid: 993b84a3-a5ac-4b00-bfb4-26ca1c9727c6
 title: Событие InkOverlay. Курсорбуттондовн (Мсинкаут. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fcae13afb67be0312959939e0793d89d99c841ba
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e73edfd6c8d9901a1eab0adf13c3c5439ef5716d1489ddb30e008079304d44b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108117082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967103"
 ---
 # <a name="inkoverlaycursorbuttondown-event"></a>Событие InkOverlay. Курсорбуттондовн
 
@@ -63,14 +63,14 @@ void CursorButtonDown(
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/>                                                       |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/>                                                       |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                                           |
-| Header<br/>                   | <dl> <dt>Мсинкаут. h (также требуется Мсинкаут \_ i. c)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Мсинкаут. h (также требуется Мсинкаут \_ i. c)</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

@@ -48,7 +48,7 @@ UINT D3DX_FLOAT4_to_R10G10B10A2_UNORM(
 
 Упакованные данные шейдера.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

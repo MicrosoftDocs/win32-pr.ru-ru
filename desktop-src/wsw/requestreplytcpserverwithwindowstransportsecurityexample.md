@@ -1,6 +1,6 @@
 ---
 title: Пример Рекуестреплиткпсервервисвиндовстранспортсекурити
-description: В этом примере показан TCP-сервер, принимающий канал и принимающий сообщения и отвечающий на него, с безопасностью, обеспечиваемой безопасностью транспорта на основе Windows SSPI.
+description: в этом примере показан TCP-сервер, принимающий канал и принимающий сообщения и отвечающий на него, с безопасностью, предоставляемой Windows безопасности транспорта на основе SSPI.
 ms.assetid: 690fa5cd-228b-4099-bd2b-cbf9c8d70c53
 keywords:
 - Рекуестреплиткпсервервисвиндовстранспортсекуритексампле Native-Web-Services
@@ -8,16 +8,16 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77ebfe259a25f31683e0f4c30b3a2568ca96dd4b
-ms.sourcegitcommit: b95a94ffffda33f9ebbdd41787c01866444b4cf4
+ms.openlocfilehash: 3a5e087a86174f0617a0f8ddf990ec1c5a4156a506750151e6c6d120bc8cd92d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "104133378"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962993"
 ---
 # <a name="requestreplytcpserverwithwindowstransportsecurity-example"></a>Пример Рекуестреплиткпсервервисвиндовстранспортсекурити
 
-В этом примере показан TCP-сервер, принимающий канал и принимающий сообщения и отвечающий на него, с безопасностью, обеспечиваемой безопасностью транспорта на основе Windows SSPI.
+в этом примере показан TCP-сервер, принимающий канал и принимающий сообщения и отвечающий на него, с безопасностью, предоставляемой Windows безопасности транспорта на основе SSPI.
 
 -   [Рекуестреплиткпсервервисвиндовстранспортсекурити. cpp](#requestreplytcpserverwithwindowstransportsecuritycpp)
 -   [PurchaseOrder. WSDL](#purchaseorderwsdl)
@@ -624,9 +624,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 

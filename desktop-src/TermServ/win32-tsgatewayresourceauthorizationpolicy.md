@@ -24,12 +24,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c262cb1ce3351c89dc5d7edf3b0d106116e83b7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9748ddc4feccd504d823025ea70877004417717d625c904ccae4445f05e6eb03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999824"
 ---
 # <a name="win32_tsgatewayresourceauthorizationpolicy-class"></a>\_Класс Win32 тсгатевайресаурцеаусоризатионполици
 
@@ -68,8 +68,8 @@ class Win32_TSGatewayResourceAuthorizationPolicy
 | Метод                                                                                          | Описание                                                                                                         |
 |:------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------|
 | [**аддусерграупнамес**](addusergroupnames-win32-tsgatewayresourceauthorizationpolicy.md)       | Добавляет указанные имена групп пользователей в существующие группы пользователей в свойстве **усерграупнамес** .<br/>      |
-| [**Создать**](create-win32-tsgatewayresourceauthorizationpolicy.md)                             | Создает политику авторизации ресурсов удаленных рабочих столов.<br/>                                                                                       |
-| [**Удалить**](delete-win32-tsgatewayresourceauthorizationpolicy.md)                             | Удаляет текущую политику авторизации ресурсов удаленных рабочих столов.<br/>                                                                              |
+| [**Создание**](create-win32-tsgatewayresourceauthorizationpolicy.md)                             | Создает политику авторизации ресурсов удаленных рабочих столов.<br/>                                                                                       |
+| [**Удален**](delete-win32-tsgatewayresourceauthorizationpolicy.md)                             | Удаляет текущую политику авторизации ресурсов удаленных рабочих столов.<br/>                                                                              |
 | [**ремовеусерграупнамес**](removeusergroupnames-win32-tsgatewayresourceauthorizationpolicy.md) | Удаляет указанные имена групп пользователей из существующих групп пользователей в свойстве **усерграупнамес** .<br/> |
 | [**SetDescription**](setdescription-win32-tsgatewayresourceauthorizationpolicy.md)             | Задает свойство **Description** для политики авторизации ресурсов удаленных рабочих столов.<br/>                                                        |
 | [**сетенаблед**](setenabled-win32-tsgatewayresourceauthorizationpolicy.md)                     | Включает или отключает политику авторизации ресурсов удаленных рабочих столов, устанавливая свойство **Enabled** .<br/>                                      |
@@ -77,7 +77,7 @@ class Win32_TSGatewayResourceAuthorizationPolicy
 | [**сетпортнумберс**](setportnumbers-win32-tsgatewayresourceauthorizationpolicy.md)             | Задает свойство **портнумберс** для политики авторизации ресурсов удаленных рабочих столов.<br/>                                                        |
 | [**сетресаурцеграуп**](setresourcegroup-win32-tsgatewayresourceauthorizationpolicy.md)         | Задает свойства **ресаурцеграуптипе** и **ResourceGroupName** .<br/>                                     |
 | [**сетусерграупнамес**](setusergroupnames-win32-tsgatewayresourceauthorizationpolicy.md)       | Задает свойство **усерграупнамес** для политики авторизации ресурсов удаленных рабочих столов.<br/>                                                     |
-| [**Обновляют**](update-win32-tsgatewayresourceauthorizationpolicy.md)                             | Обновляет текущую политику авторизации ресурсов удаленных рабочих столов.<br/>                                                                              |
+| [**Update**](update-win32-tsgatewayresourceauthorizationpolicy.md)                             | Обновляет текущую политику авторизации ресурсов удаленных рабочих столов.<br/>                                                                              |
 
 
 
@@ -102,7 +102,7 @@ class Win32_TSGatewayResourceAuthorizationPolicy
 
 </dd> <dt>
 
-**Enabled**
+**Включен**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **логический**
@@ -115,7 +115,7 @@ class Win32_TSGatewayResourceAuthorizationPolicy
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -219,11 +219,11 @@ CG
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для использования этого класса необходимо быть членом группы администраторов.
 
-Файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). MOF-файлы не устанавливаются в составе пакета средств разработки программного обеспечения Microsoft Windows (SDK). Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
+файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). файлы MOF не устанавливаются в составе пакета средств разработки программного обеспечения Microsoft Windows Software Development Kit (SDK). Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
 ## <a name="requirements"></a>Требования
 

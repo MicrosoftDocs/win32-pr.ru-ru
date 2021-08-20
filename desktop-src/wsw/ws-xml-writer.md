@@ -6,12 +6,12 @@ keywords:
 - WS_XML_WRITER
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aaad38a234b821ccfad4e1c12858286b3cf6ef98
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 40430020e44880395ed9e5eca0a90a7f70388957d9f5eaed1fe0206be07b927b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988833"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026112"
 ---
 # <a name="ws_xml_writer"></a>\_ \_ модуль записи XML WS
 
@@ -24,23 +24,23 @@ typedef struct _WS_XML_WRITER WS_XML_WRITER;
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот объект не является потокобезопасным. Дополнительные сведения см. в статье [безопасность потоков](thread-safety.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 7 \|\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 R2 \|\]<br/>                           |
-| Header<br/>                   | <dl> <dt>WebService. h</dt> </dl> |
+| Минимальная версия клиента<br/> | \[приложения UWP для классических приложений Windows 7 \|\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для настольных приложений Server 2008 R2 \|\]<br/>                           |
+| Заголовок<br/>                   | <dl> <dt>WebService. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

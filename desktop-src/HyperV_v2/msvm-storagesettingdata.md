@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: db061d048ce45a4d6fa076a5b0367e794cdf16e0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 315eb41b5c445d7ce8856f79054e9a227b2a62fc0986419172e519fc65a9ac31
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105651206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950113"
 ---
 # <a name="msvm_storagesettingdata-class"></a>\_Класс мсвм сторажесеттингдата
 
@@ -47,7 +47,7 @@ class Msvm_StorageSettingData : Msvm_SystemComponentSettingData
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ сторажесеттингдата** имеет следующие свойства.
 
@@ -144,13 +144,13 @@ class Msvm_StorageSettingData : Msvm_SystemComponentSettingData
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только для настольных приложений Windows 10 версии 1703\]<br/>                                               |
+| Минимальная версия клиента<br/> | Windows 10, только для \[ настольных приложений версии 1703\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows Server 2016<br/>                                                                          |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -158,7 +158,7 @@ class Msvm_StorageSettingData : Msvm_SystemComponentSettingData
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

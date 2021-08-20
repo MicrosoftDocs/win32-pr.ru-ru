@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: c04b60acd2f40b5ed3960c9932ce066b337d81cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a3ce58f462053b48e6cecdc7eb276a1e162f88b0e7de373648a537b3b712cf2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967333"
 ---
 # <a name="iinkanalyzeraddstroketocustomrecognizer-method"></a>Метод Иинканализер:: Аддстрокетокустомрекогнизер
 
@@ -98,7 +98,7 @@ HRESULT AddStrokeToCustomRecognizer(
 
 Описание возвращаемых значений см. в разделе [классы и интерфейсы — анализ рукописного ввода](classes-and-interfaces---ink-analysis.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Caution]  
 > Чтобы избежать утечки памяти, вызовите метод [**IUnknown:: Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) в *ппконтекстнодестрокеаддедто* , когда больше не нужно использовать объект.
@@ -121,20 +121,20 @@ HRESULT AddStrokeToCustomRecognizer(
 -   Параметр *пкустомрекогнизер* содержит пользовательский узел распознавателя, связанный с другим объектом [**иинканализер**](iinkanalyzer.md) .
 -   Параметр *пкустомрекогнизер* содержит [**иконтекстноде**](icontextnode.md) , который не относится к типу **кустомрекогнизер**.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/>                                                 |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/>                                                 |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                                     |
-| Header<br/>                   | <dl> <dt>Иаком. h (также требуется Иаком \_ i. c)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Иаком. h (также требуется Иаком \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

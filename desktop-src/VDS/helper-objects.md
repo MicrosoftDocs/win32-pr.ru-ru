@@ -4,16 +4,16 @@ ms.assetid: 0f809c71-a3bd-4c62-8086-9651ea1a3400
 title: Вспомогательные объекты
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac5193003abd10d9fa2c311b250272d9ad5847a2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 98464c31548309b50e21b2b8e3e20a867efe7ca647d7a9879efd0ef346e6a147
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999484"
 ---
 # <a name="helper-objects"></a>Вспомогательные объекты
 
-\[Начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API управления хранилищами Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API Windows служба хранилища управления](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 Служба VDS предоставляет два вспомогательных объекта: объект перечисления и асинхронный объект. В этом разделе описываются все эти объекты и приводятся ссылки на примеры работы вызывающих методов.
 
@@ -26,8 +26,8 @@ ms.locfileid: "104272765"
 | Тип                                              | Элемент                                  |
 |---------------------------------------------------|------------------------------------------|
 | Интерфейсы, которые всегда предоставляются этим объектом | [**иенумвдсобжект**](/windows/desktop/api/Vds/nn-vds-ienumvdsobject) |
-| Связанные перечисления                           | Нет.                                    |
-| Связанные структуры                             | Нет.                                    |
+| Связанные перечисления                           | Отсутствует.                                    |
+| Связанные структуры                             | Отсутствует.                                    |
 
 
 
@@ -55,14 +55,14 @@ ms.locfileid: "104272765"
 | Тип                                              | Элемент                        |
 |---------------------------------------------------|--------------------------------|
 | Интерфейсы, которые всегда предоставляются этим объектом | [**ивдсасинк**](/windows/desktop/api/Vds/nn-vds-ivdsasync) |
-| Связанные перечисления                           | Нет.                          |
-| Связанные структуры                             | Нет.                          |
+| Связанные перечисления                           | Отсутствует.                          |
+| Связанные структуры                             | Отсутствует.                          |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

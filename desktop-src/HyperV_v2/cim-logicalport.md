@@ -19,12 +19,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: eeed69e9669048377340cb0ca21e7a2e89f4baff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f226b2fe162047c724b6bd2795a3c2c8a5800347c0c1af1ffdaf97855f0893a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117812031"
 ---
 # <a name="cim_logicalport-class"></a>\_Класс CIM логикалпорт
 
@@ -51,7 +51,7 @@ class CIM_LogicalPort : CIM_LogicalDevice
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ логикалпорт** имеет следующие свойства.
 
@@ -217,7 +217,7 @@ class CIM_LogicalPort : CIM_LogicalDevice
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -231,7 +231,7 @@ class CIM_LogicalPort : CIM_LogicalDevice
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

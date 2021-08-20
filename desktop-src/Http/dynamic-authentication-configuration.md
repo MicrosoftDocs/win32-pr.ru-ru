@@ -4,12 +4,12 @@ description: Приложения могут изменять конфигура
 ms.assetid: 8a5cc119-0427-487d-a155-74c14e2104d4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 84c68daf04d870d4aa50596397f4f021ac1729af
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0fda33e150826ed7d84ac45c4ab0771136991aa9aeb2766d5d395a65da270775
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104328896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014842"
 ---
 # <a name="dynamic-authentication-configuration"></a>Настройка динамической проверки подлинности
 
@@ -17,9 +17,9 @@ ms.locfileid: "104328896"
 
 Для схем проверки подлинности, где требуется несколько циклов подтверждения подлинности, API-интерфейс сервера HTTP удаляет подтверждение, если текущая схема больше не поддерживается из-за изменений конфигурации приложения. Например, если приложение включает Negotiate и отключает NTLM, а API-интерфейс HTTP-сервера находится в промежуточной проверке подлинности для NTLM, подтверждение для NTLM отбрасывается и запрос передается в приложение. Приложение отправляет запрос на проверку подлинности 401 с новыми типами проверки подлинности, указанными в заголовке WWW-Authenticate.
 
- 
+ 
 
- 
+ 
 
 
 

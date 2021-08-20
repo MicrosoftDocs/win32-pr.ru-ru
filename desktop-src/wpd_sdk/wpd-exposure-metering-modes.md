@@ -82,7 +82,7 @@ typedef enum WPD_EXPOSURE_METERING_MODES {
 
 Указывает режим измерения для устройства. Это перечисление используется свойством "режим оценки вероятности" для [ \_ неподвижных \_ изображений \_ \_ \_ WPD](still-image-properties.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -92,7 +92,7 @@ typedef enum WPD_EXPOSURE_METERING_MODES {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

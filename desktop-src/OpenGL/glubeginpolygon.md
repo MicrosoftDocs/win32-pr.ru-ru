@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 60204e7d937b4686f3757b520c820886e168529e
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 98fe58a48a10d36a07e3a96bdfe612d8857f691233e19faac670eb6d987b42f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105664879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118937897"
 ---
 # <a name="glubeginpolygon-function"></a>Функция Глубегинполигон
 
@@ -53,7 +53,7 @@ void WINAPI gluBeginPolygon(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте **глубегинполигон** и **глуендполигон** для разделения определения многоугольника нонконвекс.
 
@@ -80,7 +80,7 @@ gluNextContour(tess, GLU_INTERIOR);
 gluEndPolygon(tess);
 ```
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -94,7 +94,7 @@ gluEndPolygon(tess);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

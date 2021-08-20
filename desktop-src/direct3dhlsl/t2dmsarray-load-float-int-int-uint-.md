@@ -84,7 +84,7 @@ ms.locfileid: "118506887"
 
 Возвращаемый тип соответствует типу в объявлении для объекта [**Texture2DMSArray**](sm5-object-texture2dmsarray.md) .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Представляет задание операции с хранилищем, созданным службой управления образами Microsoft Hyper-V.
+description: представляет задание операции с хранилищем, созданным службой управления образами Microsoft Hyper-V.
 ms.assetid: a1517c1f-7fb6-4203-a5ec-2ecdfcbc4e8c
 title: Класс Msvm_StorageJob
 ms.topic: reference
@@ -58,16 +58,16 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 3014cb9a8201d7baceaf39bb760b17c33844abeb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 740f5ab4df3e26c408aa94c607073f497c1458fa66a67958736945887dffd1ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103913700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950133"
 ---
 # <a name="msvm_storagejob-class"></a>\_Класс мсвм сторажежоб
 
-Представляет задание операции с хранилищем, созданным службой управления образами Microsoft Hyper-V.
+представляет задание операции с хранилищем, созданным службой управления образами Microsoft Hyper-V.
 
 Следующий синтаксис является упрощенным MOF-файлным (MOF) кодом и включает все наследуемые свойства.
 
@@ -167,7 +167,7 @@ class Msvm_StorageJob : CIM_ConcreteJob
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -563,7 +563,7 @@ class Msvm_StorageJob : CIM_ConcreteJob
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -981,25 +981,25 @@ class Msvm_StorageJob : CIM_ConcreteJob
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Доступ к классу **\_ сторажежоб мсвм** может быть ограничен фильтром контроля учетных записей. Дополнительные сведения см. в разделе [Управление учетными записями пользователей и инструментарий WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -1009,7 +1009,7 @@ class Msvm_StorageJob : CIM_ConcreteJob
 [**\_КОНКРЕТЕЖОБ CIM**](/previous-versions//cc136808(v=vs.85))
 </dt> <dt>
 
-[Классы хранения](storage-classes.md)
+[служба хранилища Класса](storage-classes.md)
 </dt> </dl>
 
  

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e1cfd94df2717c0da7256ee1fadcafbc809fa61f
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: c8eaae47708a6857e93a8901d90c47cf8def2ccb91bef31859656d030910cc47
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105693962"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997874"
 ---
 # <a name="map-valuemaptype-element"></a>Map (Валуемаптипе), элемент
 
@@ -38,8 +38,8 @@ ms.locfileid: "105693962"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

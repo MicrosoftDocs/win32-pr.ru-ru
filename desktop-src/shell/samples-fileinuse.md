@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 223e0addf201f3526654a17346963b4639e0d215
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 27e0a216aed33d7b0295303539c6f46e489b4c4cba37fa7aedf0a7f2eddd7b60
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104345925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968803"
 ---
 # <a name="file-is-in-use-sample"></a>Пример: файл используется
 
@@ -27,7 +27,7 @@ ms.locfileid: "104345925"
 -   [Создание примера](#building-the-sample)
 -   [Запуск примера](#running-the-sample)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -55,21 +55,21 @@ ms.locfileid: "104345925"
 1.  Откройте окно командной строки и перейдите в каталог проекта **филеисинусе** .
 2.  Введите `msbuild FileIsInUse.sln`.
 
-Чтобы создать пример с использованием Microsoft Visual Studio (предпочтительно):
+чтобы создать пример с использованием Microsoft Visual Studio (предпочтительно):
 
-1.  Откройте проводник Windows и перейдите в каталог проекта **филесинусе** . Например, полный путь установки по умолчанию — `C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\WinUI\Shell\AppPlatform\FileIsInUse` .
+1.  откройте обозреватель Windows и перейдите в каталог проекта **филесинусе** . Например, полный путь установки по умолчанию — `C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\WinUI\Shell\AppPlatform\FileIsInUse` .
 2.  Дважды щелкните значок файла Филеисинусесампле. sln, чтобы открыть проект в Visual Studio.
     > [!Note]  
-    > Расширение имени файла. sln не отображается в разделе Параметры папки по умолчанию. В этом случае его можно определить по его уникальному значку или описанию типа "Microsoft Visual Studio решение".
+    > Расширение имени файла. sln не отображается в разделе Параметры папки по умолчанию. в этом случае его можно определить по его уникальному значку или описанию типа "Microsoft Visual Studio решение".
 
      
 
-3.  В меню **Сборка** выберите пункт **построить решение**.
+3.  В меню **Построение** выберите пункт **Построить решение**.
 
 ## <a name="running-the-sample"></a>Запуск примера
 
-1.  Перейдите в каталог, содержащий новый исполняемый файл, с помощью окна командной строки или проводника Windows.
-2.  В командной строке введите `FileIsInUseSample.exe` или в проводнике Windows дважды щелкните значок FileIsInUseSample.exe.
+1.  перейдите в каталог, содержащий новый исполняемый файл, используя окно командной строки или проводник Windows.
+2.  в командной строке введите `FileIsInUseSample.exe` или в Windows Explorer дважды щелкните значок FileIsInUseSample.exe.
 
 Подробные сведения об этом примере кода см. в файле Ифилеисинусе \_sample.docx, прилагаемом к примеру.
 

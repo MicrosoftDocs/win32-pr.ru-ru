@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 9bacdf98a24d749b5128bc286f06e99299aef437
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b655be140a6c54902ef9c0f47babafeeaf7b3dc2cb7cd3b1eadb97808f7da82c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104997950"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968383"
 ---
 # <a name="shelllinkobjectshowcommand-property"></a>Шелллинкобжект. возвращающий showcommand, свойство
 
@@ -77,9 +77,9 @@ ShellLinkObject.ShowCommand(intShowCommand) = iShowCommand
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере показано правильное использование этого свойства в JScript, VBScript и Visual Basic.
+в следующем примере показано правильное использование этого свойства в JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -202,13 +202,13 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>                                           |
+| Минимальная версия клиента<br/> | Windows 2000 Professional с SP3 \[ только для настольных приложений\]<br/>                                           |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                          |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                        |

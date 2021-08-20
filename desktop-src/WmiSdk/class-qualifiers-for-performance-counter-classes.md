@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e4910af88ce7f96fda1b5f9b7ecd7a33479fc130
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5b8168dcc0523c629202ac4d5c4a0ea51ecc8bd68d5ac4498fb38059b940fd83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712476"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118820103"
 ---
 # <a name="class-qualifiers-for-performance-counter-classes"></a>Квалификаторы классов для классов счетчиков производительности
 
@@ -24,7 +24,7 @@ ms.locfileid: "105712476"
 -   [Квалификаторы для необработанных и форматированных Перформанцеклассес](#qualifiers-for-raw-and-formatted-performanceclasses)
 -   [Квалификаторы для необработанных классов производительности](#)
 -   [Квалификаторы для отформатированных классов производительности](#)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 
 Счетчик производительности — конкретные квалификаторы автоматически присоединяются поставщиком "Вбемперфкласс" к классам и свойствам [**Win32 \_ Перфравдата**](/windows/desktop/CIMWin32Prov/win32-perfrawdata) в корневом \\ CIMv2.
@@ -49,7 +49,7 @@ ms.locfileid: "105712476"
 <span id="DisplayName"></span><span id="displayname"></span><span id="DISPLAYNAME"></span>**DisplayName**
 </dt> <dd>
 
-**string**
+**строка**
 
 Имя объекта производительности. Дополнительные сведения см. в статье [Performance Counters](/windows/desktop/PerfCtrs/performance-counters-portal).
 
@@ -121,7 +121,7 @@ ms.locfileid: "105712476"
 <span id="Provider"></span><span id="provider"></span><span id="PROVIDER"></span>**Поставщики**
 </dt> <dd>
 
-**string**
+**строка**
 
 Имя поставщика экземпляра. Значение — "WbemPerfV2".
 
@@ -130,7 +130,7 @@ ms.locfileid: "105712476"
 <span id="RegistryKey"></span><span id="registrykey"></span><span id="REGISTRYKEY"></span>**RegistryKey**
 </dt> <dd>
 
-**string**
+**строка**
 
 Имя драйвера в разделе **hKey \_ Local \_ Machine \\ CurrentControlSet \\ Services** , в котором можно найти ключ производительности. Это имя также является именем службы, предоставляющей счетчик производительности.
 
@@ -196,13 +196,13 @@ ms.locfileid: "105712476"
 <span id="AutoCook_RawClass"></span><span id="autocook_rawclass"></span><span id="AUTOCOOK_RAWCLASS"></span>**\_Равкласс**
 </dt> <dd>
 
-**string**
+**строка**
 
 Имя необработанного класса, используемое для вычисления для форматированного класса. Этот квалификатор является обязательным.
 
 </dd> </dl>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

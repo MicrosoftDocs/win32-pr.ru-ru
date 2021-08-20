@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 46b1db7c8da8ab4399357a978ece2b7af7516fc6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c32704b0d91f2943bf65a9601255f6c4dbc78966cddca84f6871351ffb050930
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104345852"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118978722"
 ---
 # <a name="microsoftisamesentinteropserver2003-namespace"></a>Пространство имен Microsoft. ISAM. ESENT. Interop. server2003
 
@@ -37,17 +37,17 @@ ms.locfileid: "104345852"
 <tr class="odd">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Открытый класс" alt="Public class" /></td>
 <td><a href="dn351277(v=exchg.10).md">Server2003Api</a></td>
-<td>API, добавленные в версию ESENT для Windows Server 2003.</td>
+<td>api-интерфейсы, добавленные в Windows Server 2003 версии ESENT.</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Открытый класс" alt="Public class" /></td>
 <td><a href="dn351281(v=exchg.10).md">Server2003Grbits</a></td>
-<td>Грбитс, которые были добавлены в Windows Server 2003 версии ESENT.</td>
+<td>грбитс, которые были добавлены в версию ESENT Windows Server 2003.</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Открытый класс" alt="Public class" /></td>
 <td><a href="dn335279(v=exchg.10).md">Server2003Param</a></td>
-<td>Системные параметры, добавленные в версию ESENT для Windows Server 2003.</td>
+<td>системные параметры, добавленные в Windows Server 2003 версии ESENT.</td>
 </tr>
 </tbody>
 </table>

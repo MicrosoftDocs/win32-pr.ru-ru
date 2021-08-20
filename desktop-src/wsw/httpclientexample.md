@@ -1,6 +1,6 @@
 ---
 title: хттпклиентексампле
-description: Проверьте пример клиента HTTP, который использует API веб-служб Windows (ВВСАПИ). В этом примере показан HTTP-клиент, отправляющий сообщения типа "запрос-ответ".
+description: проверьте пример клиента HTTP, который использует API веб-служб Windows (ввсапи). В этом примере показан HTTP-клиент, отправляющий сообщения типа "запрос-ответ".
 ms.assetid: e32a35f7-df01-4d6d-966c-6cf079b1b3a7
 keywords:
 - Хттпклиентексампле Native-Web-Services
@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 180a1a0b40b2f4614ddd21caff7dc4595b8aac97
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: f023f3b3cfb0a342536ca9508757774dd17742e582972cf8ab16f0dd2d4ad075
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026462"
 ---
 # <a name="httpclientexample"></a>хттпклиентексампле
 

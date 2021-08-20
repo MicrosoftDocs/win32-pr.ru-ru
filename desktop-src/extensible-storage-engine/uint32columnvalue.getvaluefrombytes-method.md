@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0210452b297cbba669572c8428d175270b13511f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2fdc4ada75a0d3eb2254b5a5511125697869e25fd93db8a1c151005ca78935ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104156603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118978324"
 ---
 # <a name="uint32columnvaluegetvaluefrombytes-method"></a>UInt32ColumnValue. Жетвалуефромбитес, метод
 
@@ -69,7 +69,7 @@ protected override void GetValueFromBytes(
 
 #### <a name="parameters"></a>Параметры
 
-  - значение  
+  - Значение  
     Тип \[\]  
     
     Массив байтов.
@@ -83,7 +83,7 @@ protected override void GetValueFromBytes(
 
 <!-- end list -->
 
-  - count  
+  - количество  
     Тип: [System. Int32](/dotnet/api/system.int32)  
     
     Число байтов для декодирования.
@@ -95,7 +95,7 @@ protected override void GetValueFromBytes(
     
     Ошибка, возвращенная из ESENT.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

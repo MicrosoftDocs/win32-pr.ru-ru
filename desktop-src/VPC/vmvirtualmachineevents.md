@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de1e1d8f4d89c28f63886444537fb9d894fc42e4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5079aee6752c260cd6bab9ee9022d22fd891eb6adf36ad0ec4d1c9987b6ff508
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071922"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118998344"
 ---
 # <a name="vmvirtualmachineevents-enumeration"></a>Перечисление Вмвиртуалмачинивентс
 
-\[Windows Virtual PC больше не доступна для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC больше не доступен для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Указывает события виртуальной машины.
 
@@ -143,11 +143,11 @@ typedef enum  {
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                    |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                     |
 | Окончание поддержки клиента<br/>    | Windows 7<br/>                                                                          |
 | Продукт<br/>                  | Windows Virtual PC<br/>                                                                 |
-| Header<br/>                   | <dl> <dt>Впккоминтерфацес. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Впккоминтерфацес. h</dt> </dl> |
 
 
 

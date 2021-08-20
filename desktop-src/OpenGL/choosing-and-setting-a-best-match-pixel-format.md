@@ -3,16 +3,16 @@ title: Выбор и настройка формата пикселей Best-Mat
 description: В этом разделе описывается процедура сопоставления контекста устройства с форматом пикселей.
 ms.assetid: 7b974fb5-e34d-4781-858c-572c4e7754bc
 keywords:
-- OpenGL в Windows, ПКС
+- OpenGL на Windows, пикселей
 - наиболее подходящий формат пикселей OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 143800a9c43d8c8a7779bb5e6cd119c6737f8129
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 258364e18ff38cb67edd1315f261a55a91f58fe940b026e1fcb7b63ed2e12eac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105681442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119063304"
 ---
 # <a name="choosing-and-setting-a-best-match-pixel-format"></a>Выбор и настройка формата пикселей Best-Match
 
@@ -61,9 +61,9 @@ SetPixelFormat(hdc, iPixelFormat, &pfd);
 
 
 
- 
+ 
 
- 
+ 
 
 
 

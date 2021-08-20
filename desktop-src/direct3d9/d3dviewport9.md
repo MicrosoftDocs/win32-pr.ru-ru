@@ -126,7 +126,7 @@ typedef struct D3DVIEWPORT9 {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

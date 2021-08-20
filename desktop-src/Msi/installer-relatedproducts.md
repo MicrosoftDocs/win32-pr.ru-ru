@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: fb30be6ea5250a90ef8aa18065e9be679946e503
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 15e84a063b8f094dbeee02f3000bdd1c69356f5fa664f6e6f6aff87d19d07dd3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118946142"
 ---
 # <a name="installerrelatedproducts-property"></a>Свойство Installer. Релатедпродуктс
 
@@ -39,23 +39,23 @@ propVal = Installer.RelatedProducts
 
 Код обновления связанных продуктов, перечисленный установщиком.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы перечислить связанные продукты, приложение выполняет итерацию по [**стринглист**](stringlist-object.md) , используя для каждой конструкции. Так как связанные продукты не упорядочены, любой новый связанный продукт имеет произвольный индекс. Это означает, что функция может возвращать связанные продукты в любом порядке.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. установщик Windows в Windows Server 2003 или Windows XP<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |
 | IID<br/>     | IID \_ иинсталлер определен как 000C1090-0000-0000-C000-000000000046<br/>                                                                                                                                                                           |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

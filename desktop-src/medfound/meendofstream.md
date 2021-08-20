@@ -4,12 +4,12 @@ ms.assetid: e793131a-f737-411f-a9fc-03b5b3d09aea
 title: Событие Миндофстреам (Мфобжектс. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9eb70af021c1a35af829df9b3c80c0c2b71aa120
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 23a2db351d31558a617b72a8640d121b71c866021063d4791d19797108f34819
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103898386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117877777"
 ---
 # <a name="meendofstream-event"></a>Событие Миндофстреам
 
@@ -27,23 +27,23 @@ ms.locfileid: "103898386"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Когда [сеанс мультимедиа](media-session.md) получает событие миндофстреам, он вызывает [**Имфстреамсинк::P лацемаркер**](/windows/desktop/api/mfidl/nf-mfidl-imfstreamsink-placemarker) в соответствующем приемнике носителя с типом маркера **мфстреамсинк \_ маркеров \_ ендофсегмент** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Мфобжектс. h (включение Мфидл. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Мфобжектс. h (включение Мфидл. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

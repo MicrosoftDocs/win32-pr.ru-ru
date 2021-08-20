@@ -6,12 +6,12 @@ keywords:
 - Язык MIDL MIDL, задачи, создание библиотеки типов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 85f6e8f7ea6f65bc503c08872c9199ff3d5fd828
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: f8d9084631dc30eb1cff7f61f6f3f090f95bb92cff357b3902cb0959f2c4142f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "105650352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013852"
 ---
 # <a name="generating-a-type-library-with-midl"></a>Создание библиотеки типов с помощью MIDL
 
@@ -20,7 +20,7 @@ ms.locfileid: "105650352"
 > [!Note]  
 > Средство Mktyplib.exe устарело. Вместо этого используйте компилятор MIDL.
 
- 
+ 
 
 Атрибуты ODL можно применять к элементам, которые определены либо внутри, либо вне блока библиотеки. Эти атрибуты не действуют за пределами блока библиотеки, если только элемент, к которому они применяются, ссылается из блока библиотеки. Инструкции внутри блока библиотеки могут ссылаться на внешний элемент либо с помощью его базового типа, наследования от него, либо путем ссылки на него в строке, как показано ниже.
 
@@ -39,6 +39,6 @@ library a
 
 Дополнительные сведения о синтаксисе файлов ODL см. в разделе [синтаксис ODL File](/previous-versions/windows/desktop/automat/odl-file-syntax).
 
- 
+ 
 
- 
+ 
