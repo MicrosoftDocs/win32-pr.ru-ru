@@ -3,7 +3,7 @@ title: Сообщение CBEM_SETITEM (Коммктрл. h)
 description: Задает атрибуты элемента в элементе управления ComboBoxEx.
 ms.assetid: 752df8ea-fd5e-47fa-b729-d019bdde0904
 keywords:
-- Элементы управления Windows для CBEM_SETITEM сообщений
+- элементы управления Windows сообщений CBEM_SETITEM
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 50ae19287e3e30810b1d8c558be9b6153a86ab6b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7b1010c090283a47404ee93ef5f3bc1cf2d5ffe71a646d6d734cb443152bdd64
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103803700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119527934"
 ---
 # <a name="cbem_setitem-message"></a>\_Сообщение кбем сетитем
 
@@ -45,15 +45,15 @@ ms.locfileid: "103803700"
 
 Возвращает ненулевое значение в случае успеха или ноль в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **Кбем \_ СЕТИТЕМВ** (Юникод) и **кбем \_ сетитема** (ANSI)<br/>                 |
 
 

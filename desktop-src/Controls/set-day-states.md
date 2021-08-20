@@ -4,12 +4,12 @@ description: В этом разделе показано, как задать с
 ms.assetid: EA92D858-BC80-4D08-9768-29A2BBDF900C
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa1fc105c94a15e1a658218013dca00129c883c2
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 9e3ed2c99e6faf18f0e1d06ec06eaaf9a0d573faebe6f3697e43562603447571
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103988026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119078478"
 ---
 # <a name="how-to-set-day-states"></a>Как задать состояния дней
 
@@ -17,16 +17,16 @@ ms.locfileid: "103988026"
 
 Элементы управления "месячный календарь", в которых используются состояния дня поддержки в стиле [**\_ дайстате MCS**](month-calendar-control-styles.md) . Сведения о состоянии дня выражаются как 32-разрядный тип данных [**монсдайстате**](monthdaystate.md). Каждый бит в **монсдайстате** битовых битах (от 0 до 30) указывает состояние дня в месяце. Если бит включен, соответствующий день выводится полужирным шрифтом.
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
@@ -59,7 +59,7 @@ ms.locfileid: "103988026"
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

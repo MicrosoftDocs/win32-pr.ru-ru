@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: dfd6303f3682e29090db41fa83b38fc67f99121e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d7261096ed373620b8438ccce2d353ccf21f1c236028e8c829951fc64ee3725a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105647837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989034"
 ---
 # <a name="d3ddevinfo_d3d9interfacetimings-structure"></a>\_Структура D3D9INTERFACETIMINGS D3DDEVINFO
 
@@ -100,7 +100,7 @@ typedef struct D3DDEVINFO_D3D9INTERFACETIMINGS {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эти метрики помогают определить время ожидания драйвера и его ожидание. Высокие проценты не обязательно являются проблемой.
 
@@ -112,7 +112,7 @@ typedef struct D3DDEVINFO_D3D9INTERFACETIMINGS {
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
 
 
 

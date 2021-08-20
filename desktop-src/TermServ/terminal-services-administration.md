@@ -5,12 +5,12 @@ ms.assetid: 85a9ed9d-79d6-4011-93a4-00847c689747
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e763a652335c85931225746334bc21db0e6e086d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 46df6277b924d25608b3c4def5074c1f156738e23d114de075af01521953e7d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105672343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000284"
 ---
 # <a name="remote-desktop-services-administration"></a>службы удаленных рабочих столов администрирования
 
@@ -37,10 +37,10 @@ ms.locfileid: "105672343"
 
 
 
- 
+ 
 
 Некоторые из этих функций выделяют буферы для возвращения сведений вызывающему объекту. Завершив использование буфера, освободите его, вызвав функцию [**втсфримемори**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsfreememory) .
 
- 
+ 
 
- 
+ 

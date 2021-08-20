@@ -9,12 +9,12 @@ keywords:
 - Вспомогательное аудио, поддержка стандартного формата
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d0933a82ca8da53c89e1cb8b7d32b40dc89ae0c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 30a90d38f7419b6fbdb3de951c0aa2205ccd3dd9ff5366eb1e69eab945220db1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104069916"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119497284"
 ---
 # <a name="determining-nonstandard-format-support"></a>Определение поддержки нестандартного формата
 
@@ -47,6 +47,6 @@ MMRESULT IsFormatSupported(LPWAVEFORMATEX pwfx, UINT uDeviceID)
 
 Чтобы определить, поддерживается ли формат данных Wave-Audio любыми устройствами аудио-сигнала в системе, используйте методику, показанную в предыдущем примере, но укажите \_ константу СОПОСТАВИТЕЛЯ волн для параметра *удевицеид* .
 
- 
+ 
 
- 
+ 

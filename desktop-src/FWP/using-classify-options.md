@@ -4,12 +4,12 @@ description: В следующих примерах кода демонстри�
 ms.assetid: 02d57ea2-066b-4cb9-81f1-2ff9ee55f22f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b08363e26443f8d407be14d0db207e37412b1298
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bfbbe99bd155832534f9f1d7d27372dd49e13f6e6154fbc36739657477163193
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105681428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119535374"
 ---
 # <a name="using-classify-options"></a>Использование параметров классификации
 
@@ -297,16 +297,16 @@ DWORD wmain(int argc,
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Условия фильтрации, доступные на каждом слое фильтрации**](filtering-conditions-available-at-each-filtering-layer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

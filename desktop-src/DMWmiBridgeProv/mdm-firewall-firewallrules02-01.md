@@ -1,6 +1,6 @@
 ---
 title: Класс MDM_Firewall_FirewallRules02_01
-description: '\_Класс брандмауэра MDM \_ FirewallRules02 \_ 01 используется для настройки параметров брандмауэра защитника Windows.'
+description: '\_класс брандмауэра MDM \_ FirewallRules02 \_ 01 используется для настройки параметров брандмауэра Защитник Windows.'
 ms.assetid: b09cbd98-152e-486c-acb5-4e1d83e5f8e2
 keywords:
 - Класс MDM_Firewall_FirewallRules02_01
@@ -20,18 +20,18 @@ api_type:
 - DllExport
 api_location:
 - DMWmiBridgeProv.dll
-ms.openlocfilehash: 494be18ece91e7a1776780542f988b80cb822e42
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d6a0f1c4337f64b93ca043e9f7d4d744516b37f9e5b13a471aec56bae4602feb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135567"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119077238"
 ---
 # <a name="mdm_firewall_firewallrules02_01-class"></a>\_Класс брандмауэра MDM \_ FirewallRules02 \_ 01
 
-\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Майкрософт не дает никаких гарантий, явных или подразумеваемых, в отношении предоставленной здесь информации.\]
+\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, относительно предоставленной здесь информации.\]
 
-\_Класс брандмауэра MDM \_ FirewallRules02 \_ 01 используется для настройки параметров брандмауэра защитника Windows.
+\_класс брандмауэра MDM \_ FirewallRules02 \_ 01 используется для настройки параметров брандмауэра Защитник Windows.
 
 Следующий синтаксис упрощен из MOF-кода и включает все унаследованные свойства.
 
@@ -68,7 +68,7 @@ class MDM_Firewall_FirewallRules02_01
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ брандмауэра MDM \_ FirewallRules02 \_ 01** имеет эти свойства.
 
@@ -107,7 +107,7 @@ class MDM_Firewall_FirewallRules02_01
 
 </dd> <dt>
 
-[Enabled](/windows/client-management/mdm/firewall-csp#enabled)
+[Включен](/windows/client-management/mdm/firewall-csp#enabled)
 </dt> <dd> <dl> <dt>
 
 Тип данных: **логический**
@@ -127,7 +127,7 @@ class MDM_Firewall_FirewallRules02_01
 Тип доступа: чтение и запись
 </dt> </dl>
 
-TBD
+Подлежит уточнению
 
 </dd> <dt>
 
@@ -140,7 +140,7 @@ TBD
 Тип доступа: чтение и запись
 </dt> </dl>
 
-TBD
+Подлежит уточнению
 
 </dd> <dt>
 
@@ -202,7 +202,7 @@ TBD
 
 </dd> <dt>
 
-[Name](/windows/client-management/mdm/firewall-csp#name)
+[Имя](/windows/client-management/mdm/firewall-csp#name)
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -238,7 +238,7 @@ TBD
 
 </dd> <dt>
 
-[Протокол](/windows/client-management/mdm/firewall-csp#protocol)
+[протокол](/windows/client-management/mdm/firewall-csp#protocol);
 </dt> <dd> <dl> <dt>
 
 Тип данных: **Sint32**
@@ -282,13 +282,13 @@ TBD
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                     |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                     |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                       |
 | Пространство имен<br/>                | Корневой \\ CIMV2 \\ MDM \\ дммап<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1. mof</dt> </dl> |

@@ -3,8 +3,8 @@ title: Перечисление MPRESOLVED_REASON (Мпклиент. h)
 description: Возможные причины сбоя исправления.
 ms.assetid: 29E875D7-97DA-4129-AB71-B261CD0E682A
 keywords:
-- MPRESOLVED_REASON перечисления устаревшие функции среды Windows
-- PMPRESOLVED_REASON указателя перечисления устаревшие функции среды Windows
+- MPRESOLVED_REASON перечисления устаревших Windows компонентов среды
+- PMPRESOLVED_REASONные компоненты среды Windows указателя перечисления
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab31fc8b734852ccdf15278f535d916228b43976
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a365ef55d9fe2d76e619f3c772cc1df2e6c5e1c8c33721f24dc844d064b33398
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071789"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975984"
 ---
 # <a name="mpresolved_reason-enumeration"></a>\_Перечисление причин мпресолвед
 
@@ -70,9 +70,9 @@ typedef enum tagMPRESOLVED_REASON {
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
 
 
 

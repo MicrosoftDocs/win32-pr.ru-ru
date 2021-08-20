@@ -4,12 +4,12 @@ ms.assetid: e0c36f04-1694-40d8-94a1-06ee7de08777
 title: Проверка цепочки сертификатов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 13436513ae9199feb7ba5fcba399537da198ba85
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c63aab8cca71453aff456f145e8f04affd85b4b1f80aa770cbf589970874f33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072138"
 ---
 # <a name="validating-the-certificate-chain"></a>Проверка цепочки сертификатов
 
@@ -38,7 +38,7 @@ ms.locfileid: "104265259"
     -   **Сигнатуревалуе**. Это значение вычислено для элемента данных и вычислено в соответствии со схемой цифровых подписей РСАССА-PSS, определенной в Public-Key криптографических стандартах (PKCS) \# 1 (версия 2,1). Сведения о PKCS \# 1 см. в статье [https://www.rsa.com/](https://www.rsa.com/) .
     -   **KeyInfo**. Содержит открытый ключ RSA следующего сертификата в цепочке. Этот элемент используется для проверки того, что данные в элементе Data не были изменены. Этот элемент имеет тот же формат, что и элемент PublicKey.
 
-### <a name="certificate-validation"></a>Проверка сертификата
+### <a name="certificate-validation"></a>Проверка сертификатов
 
 Чтобы правильно проверить цепочку сертификатов, приложение должно выполнить следующие действия. В случае сбоя любого из шагов или если какой либо элемент, на который ссылается в этих процедурах, не существует, проверка завершится ошибкой.
 
@@ -104,7 +104,7 @@ ms.locfileid: "104265259"
 
 Выходные данные операции РСАССА-PSS-Verify указывают, является ли подпись допустимой или недопустимой.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

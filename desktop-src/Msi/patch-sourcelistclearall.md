@@ -39,7 +39,7 @@ Patch.SourceListClearAll(
 
 <dl> <dt>
 
-*Type* 
+*Тип* 
 </dt> <dd>
 
 Тип источника, например "сеть", "URL-адрес" или "носитель".
@@ -62,7 +62,7 @@ Patch.SourceListClearAll(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

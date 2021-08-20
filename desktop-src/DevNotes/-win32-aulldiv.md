@@ -14,19 +14,19 @@ api_location:
 api_name:
 - _aulldiv
 targetos: Windows
-ms.openlocfilehash: 2fce346ee9608f20667c76841a63a8a3fb9cfe21
-ms.sourcegitcommit: 1f6a1bfc1c4bb2641bc3ba44beb1f2727c94681b
+ms.openlocfilehash: 0a37dd5a88d668ed92d79f7bc939119068840741a54cfacb5a15119fcefb774e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "104487264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119538904"
 ---
 # <a name="_aulldiv-routine"></a>\_подпрограммы ауллдив
 
 Делит два целых числа **улонглонг** .
 Например, чтобы разделить два значения UInt64, компилятор может создать вызов подпрограммы **\_ ауллдив** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Подпрограммы **\_ ауллдив** — это вспомогательная подпрограммы для компилятора C.
 Будет ли компилятор использовать **\_ ауллдив** , полностью зависит от набора оптимизации.

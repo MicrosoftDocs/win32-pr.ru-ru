@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 1e7ccdca91af206862384ae14cf25a85d0817814
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 95f61c3a1cfc15f699e0e637dce8d58b9517ffe58ef36e529ec297661bff6a3c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104998138"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119671574"
 ---
 # <a name="sincos---ps"></a>синкос-PS
 
@@ -55,7 +55,7 @@ ms.locfileid: "104998138"
 -   DST — это регистр назначения, который должен быть [временным регистром](dx9-graphics-reference-asm-ps-registers-temporary.md) (r \# ). Регистр назначения должен иметь ровно одну из трех масок:. x \| . y \| . XY.
 -   src0 — это исходный регистр, который предоставляет угол ввода, который должен быть в пределах \[ -Pi, + PI \] . {x \| y \| z \| w} — это требуемая репликация свиззле.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -151,7 +151,7 @@ mad r0.x, r0.x, c0.z, -c0.x
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

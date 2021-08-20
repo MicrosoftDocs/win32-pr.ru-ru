@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d43b37d13a8b3f076cc3c5967dac9a95ed18a5a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d3f2c3a205a4849aed755bee01302da813cccf77bbf8255036f287d488b76591
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104987230"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989994"
 ---
 # <a name="d3dx11_effect_desc-structure"></a>\_Структура D3DX11 влияния на \_ структуру
 
@@ -40,7 +40,7 @@ typedef struct _D3DX11_EFFECT_DESC {
 
 
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 <dl> <dt>
 
@@ -99,21 +99,21 @@ typedef struct _D3DX11_EFFECT_DESC {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 D3DX11 \_ Effect \_ DESC используется с [**ID3DX11Effect:: DESC**](id3dx11effect-getdesc.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|-------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx11effect. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx11effect. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

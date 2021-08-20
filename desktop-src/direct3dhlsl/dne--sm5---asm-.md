@@ -4,12 +4,12 @@ description: Сравнение на основе компонентов с дв
 ms.assetid: 7C69A86D-0820-4640-AF5A-2993EC77D2AA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ae00e0e5f4c0269b14a7a0f330d5af8760a1312f
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: e95b86ea21aa55b3d9f13f414fb5c386c9719eee65bdd62aaea47fa38190a2b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104412186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986584"
 ---
 # <a name="dne-sm5---asm"></a>дне (SM5-ASM)
 
@@ -36,7 +36,7 @@ ms.locfileid: "104412186"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта инструкция выполняет сравнение с плавающей запятой двойной точности (*src0* ! = *src1*) для каждого компонента и записывает результат в *dest*.
 
@@ -71,7 +71,7 @@ ms.locfileid: "104412186"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
 | [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Нет        |
 | [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Нет        |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
@@ -82,7 +82,7 @@ ms.locfileid: "104412186"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

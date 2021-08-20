@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 244426175ea74bc0281f8822964c2fc0bfa37aa7
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: d1113fde7b0b29b6f1f7618e9d531df83070725b9e05e70e09f64f93b027abfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104411541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026942"
 ---
 # <a name="wmtrack"></a>WM/Track
 
@@ -31,7 +31,7 @@ g \_ всзвмтракк
 
 **\_Строка типа \_ ВМТ**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Многие существующие приложения записывают значение для **WM/Track** как **DWORD**. При создании приложения, которое воспроизводит файлы из неизвестных источников, необходимо включить код, обрабатывающий значения String и **DWORD** .
 
@@ -42,9 +42,9 @@ g \_ всзвмтракк
 [**Список атрибутов**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

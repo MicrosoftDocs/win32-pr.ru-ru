@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ctl3d32.dll
-ms.openlocfilehash: d0eecec5650ecc00b69c0745e58a3e1d0f931a00
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0d8a234736631517a0e77f5ab23f07688e3d80aa4c8b74a3b2ee51351beece90
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119654594"
 ---
 # <a name="ctl3denabled-function"></a>Функция Ctl3dEnabled
 
@@ -41,13 +41,13 @@ BOOL Ctl3dEnabled(void);
 
 Возвращает **значение true** , если элементы управления могут использовать трехмерные эффекты; в противном случае возвращается **значение false**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-В Windows 4,0 или более поздней версии **Ctl3dEnabled** и [**Ctl3dRegister**](ctl3dregister.md) возвращают **значение false**.
+в Windows 4,0 или более поздних версиях **Ctl3dEnabled** и [**Ctl3dRegister**](ctl3dregister.md) возвращают **значение FALSE**.
 
 Эта функция не имеет связанной библиотеки импорта или файла заголовка. его необходимо вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

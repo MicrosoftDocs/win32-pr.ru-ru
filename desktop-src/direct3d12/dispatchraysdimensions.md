@@ -12,12 +12,12 @@ api_name:
 - DispatchRaysDimensions
 api_type:
 - NA
-ms.openlocfilehash: e35c967ad831c82912d2962da72d9ad17eab1c15
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4f68b7bdd5f5ea92074b366b9f981f490a9801079b29def17ba66770abd3c5f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701292"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989494"
 ---
 # <a name="dispatchraysdimensions"></a>DispatchRaysDimensions
 
@@ -29,7 +29,7 @@ ms.locfileid: "105701292"
 uint3 DispatchRaysDimensions();
 ```
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эту функцию можно вызывать из следующих типов шейдеров райтраЦинг:
 

@@ -3,8 +3,8 @@ title: Интерфейс Ивмплибрари (VB и C) (WMP. h)
 description: Представляет библиотеку. Интерфейс Ивмплибрари предоставляет следующие свойства.
 ms.assetid: 956b2da1-5f01-48d6-8faa-e360c225afda
 keywords:
-- Ивмплибрари (VB и C) интерфейс проигрывателя Windows Media
-- Ивмплибрари (VB и C) интерфейс проигрывателя Windows Media, описание
+- проигрыватель Windows Media интерфейса ивмплибрари (VB и C)
+- проигрыватель Windows Media интерфейса ивмплибрари (VB и C), описание
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f9749d3a2363c3863180639f249d7261ec1b9694
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6a418192e45363b6757d7360e779b8f8134677d8a321228d81fddd3d49501075
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054832"
 ---
 # <a name="iwmplibrary-vb-and-c-interface"></a>Интерфейс Ивмплибрари (VB и C#)
 
@@ -77,21 +77,21 @@ ms.locfileid: "105689108"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>WMP. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>WMP. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[**Интерфейсы для Visual Basic .NET и C #**](interfaces-for-visual-basic--net-and-c.md)
+[**интерфейсы для Visual Basic .net и C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**Ивмплибрарисервицес. Жетлибрарибитипе (VB и C#)**](wmplibiwmplibraryservices-iwmplibraryservices-getlibrarybytype--vb-and-c.md)

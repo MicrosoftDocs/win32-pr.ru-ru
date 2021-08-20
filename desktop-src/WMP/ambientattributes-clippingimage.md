@@ -3,7 +3,7 @@ title: Амбиентаттрибутес. Клиппингимаже
 description: Атрибут Клиппингимаже указывает или получает область для обрезки элемента управления.
 ms.assetid: e4b51d31-f9c7-4398-983d-95867a2cab45
 keywords:
-- Проигрыватель Windows Media Амбиентаттрибутес. Клиппингимаже
+- амбиентаттрибутес. клиппингимаже проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e05e05ca9c7c3efdf842ffd4297da6f9fee035d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 15302483143b17075b6a6164fcd05da80eb1c7c666a83c76a460408d70ac72e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055192"
 ---
 # <a name="ambientattributesclippingimage"></a>Амбиентаттрибутес. Клиппингимаже
 
@@ -31,7 +31,7 @@ ms.locfileid: "105698928"
 
 Этот атрибут является **строкой** для чтения и записи, указывающей имя файла изображения. У него нет значения по умолчанию.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Атрибут **клиппингимаже** поддерживает файлы PNG, JPG, BMP и GIF (не включая анимированные GIF). Так как Жпгс являются утерянными и поэтому подвержены непредвиденному изменению цвета, их не рекомендуется использовать для обрезки изображений.
 
@@ -45,17 +45,17 @@ ms.locfileid: "105698928"
 
 Пример, иллюстрирующий использование этого атрибута, см. в атрибуте [буттонелемент. маппингколор](buttonelement-mappingcolor.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

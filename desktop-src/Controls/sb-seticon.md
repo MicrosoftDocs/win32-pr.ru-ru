@@ -3,7 +3,7 @@ title: Сообщение SB_SETICON (Коммктрл. h)
 description: Задает значок для части в строке состояния.
 ms.assetid: d8528cd1-54d2-44ba-b0d6-29111f75616a
 keywords:
-- Элементы управления Windows для SB_SETICON сообщений
+- элементы управления Windows сообщений SB_SETICON
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f720c414238eb89cf98bf0556ebabffefceae4b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d0e08b1c3b0ce1a453ca9050c20552a14169a594c8091708339b4a436f1fb1a3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119540074"
 ---
 # <a name="sb_seticon-message"></a>\_Сообщение SB сетикон
 
@@ -47,19 +47,19 @@ ms.locfileid: "103892349"
 
 Возвращает ненулевое значение в случае успеха или ноль в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Строка состояния не приведет к уничтожению значка. Это обязанность вызывающего приложения для наблюдения и уничтожения всех значков.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

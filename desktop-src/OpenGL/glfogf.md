@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dfe0509b30e91797752604110068701fcedaa266
-ms.sourcegitcommit: 7ef31bf778e76ce4196205d4c4c632fbdc649805
+ms.openlocfilehash: 497a053584df3e6993a8c7cf3965345923e7df0745765b320972f7003bb15bde
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "104081655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119580244"
 ---
 # <a name="glfogf-function"></a>Функция Глфогф
 
@@ -88,7 +88,7 @@ void WINAPI glFogf(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Вы включаете и отключаете туман с помощью [**гленабле**](glenable.md) и [**глдисабле**](gldisable.md), используя аргумент GL в виде \_ тумана. При включении туман влияет на растровую геометрию, точечные рисунки и блоки пикселей, но не на операции очистки буфера.
 
@@ -130,7 +130,7 @@ void WINAPI glFogf(
 
 [**глисенаблед**](glisenabled.md) с аргументом GL в виде \_ тумана
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -144,7 +144,7 @@ void WINAPI glFogf(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

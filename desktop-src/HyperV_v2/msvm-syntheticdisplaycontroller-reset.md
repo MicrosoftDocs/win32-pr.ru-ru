@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: f52463aa570942e7696aa0c8fea55bbb848fcc99
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 99d54850bb658ec4f3b0cd8a4904d944e6748b8ea5da562764a69bcd73022cb6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108109582"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118949903"
 ---
 # <a name="reset-method-of-the-msvm_syntheticdisplaycontroller-class"></a>Метод Reset \_ класса мсвм синсетикдисплайконтроллер
 
@@ -49,7 +49,7 @@ uint32 Reset();
 **Не поддерживается** (1)
 </dt> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

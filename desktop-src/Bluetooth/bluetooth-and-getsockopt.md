@@ -8,23 +8,23 @@ keywords:
 - Bluetooth и жетсоккопт
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dede19b27eea39b7d1e778b3e92312a5e148c0ec
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2ee63d8dc1665868023967dd88c5ba223cce538c1fa1d41dd151329f6bf52f7e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103792421"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119081088"
 ---
 # <a name="bluetooth-and-getsockopt"></a>Bluetooth и жетсоккопт
 
-Bluetooth использует функцию [**жетсоккопт**](/windows/desktop/api/winsock/nf-winsock-getsockopt) для запроса различных параметров, связанных с каналом сервера или соединением. Использование **жетсоккопт** с Bluetooth имеет следующие требования.
+Bluetooth использует функцию [**жетсоккопт**](/windows/desktop/api/winsock/nf-winsock-getsockopt) для запроса различных параметров, связанных с каналом сервера или соединением. использование **жетсоккопт** с Bluetooth имеет следующие требования.
 
--   Параметр *s* параметра [**жетсоккопт**](/windows/desktop/api/winsock/nf-winsock-getsockopt) должен быть допустимым сокетом Bluetooth.
+-   параметр *s* параметра [**жетсоккопт**](/windows/desktop/api/winsock/nf-winsock-getsockopt) должен быть допустимым сокетом Bluetooth.
 -   Параметр *Level* параметра [**ЖЕТСОККОПТ**](/windows/desktop/api/winsock/nf-winsock-getsockopt) должен быть Sol \_ RFCOMM.
 
-Список доступных параметров сокетов Bluetooth см. в разделе [Параметры Bluetooth и сокета](bluetooth-and-socket-options.md).
+список доступных параметров сокета Bluetooth см. в разделе [Bluetooth и параметры сокета](bluetooth-and-socket-options.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -34,6 +34,6 @@ Bluetooth использует функцию [**жетсоккопт**](/window
 [**жетсоккопт**](/windows/desktop/api/winsock/nf-winsock-getsockopt)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

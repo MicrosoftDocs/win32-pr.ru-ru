@@ -1,20 +1,20 @@
 ---
 title: Создание и исполнение представления
-description: Можно создать представление для данных, полученных из Active Directory. Имейте в виду, что только определение представления хранится в SQL Server, а не в фактическом результирующем наборе. Поэтому вы можете получить другой результат при вызове представления позднее.
+description: Можно создать представление для данных, полученных из Active Directory. имейте в виду, что только определение представления хранится в SQL Server, а не в фактическом результирующем наборе. Поэтому вы можете получить другой результат при вызове представления позднее.
 ms.assetid: c2892517-11e1-489f-a2f2-5118bccd605b
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a47a0956acb8f9d0268240e677f62a2e395b4fed
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 35c4676154ea32dd06e39498e9f943b55d8dbf39694ab9c1005e942cad85f7c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410605"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082728"
 ---
 # <a name="creating-and-executing-a-view"></a>Создание и исполнение представления
 
-Можно создать представление для данных, полученных из Active Directory. Имейте в виду, что только определение представления хранится в SQL Server, а не в фактическом результирующем наборе. Поэтому вы можете получить другой результат при вызове представления позднее.
+Можно создать представление для данных, полученных из Active Directory. имейте в виду, что только определение представления хранится в SQL Server, а не в фактическом результирующем наборе. Поэтому вы можете получить другой результат при вызове представления позднее.
 
 В следующем примере кода показано, как создать представление.
 
@@ -37,16 +37,16 @@ SELECT * from viewADUsers
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Создание разнородного объединения между SQL Server и Active Directory](creating-a-heterogeneous-join-between-sql-server-and-active-directory.md)
+[создание разнородного объединения между SQL Server и Active Directory](creating-a-heterogeneous-join-between-sql-server-and-active-directory.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: f36238dc-2152-4faf-835e-1027ef1af73b
 title: Свойство Авенквидеуутпутскантипе (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 908936c3277c429f7216c930b648083744793530
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 31b2e5912b67a88249389987c5ac7e6796f611160d483527cdbb9e4165636180
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103805819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119540584"
 ---
 # <a name="avencvideooutputscantype-property"></a>Авенквидеуутпутскантипе, свойство
 
@@ -29,19 +29,19 @@ ms.locfileid: "103805819"
 
 Значение этого свойства является членом перечисления [**еавенквидеуутпутскантипе**](/windows/win32/api/codecapi/ne-codecapi-eavencvideooutputscantype) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
-| Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Заголовок<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

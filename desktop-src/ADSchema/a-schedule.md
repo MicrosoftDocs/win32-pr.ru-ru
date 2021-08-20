@@ -1,6 +1,6 @@
 ---
 title: Атрибут расписания
-description: Большой двоичный объект расписания, определенный службой заданий Windows NT. Используется репликацией.
+description: большой двоичный объект расписания, как определено в службе заданий Windows NT. Используется репликацией.
 ms.assetid: 5eb6409d-3fb5-4368-8b7f-ce19567b7260
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: abf53e86f77ecffc872d8b007e32b1f964ae244e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 6b65ff20b9eaba0c8429f5fec164e44a3e4b842e82bfddcca61461f6832f55d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104138479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022222"
 ---
 # <a name="schedule-attribute"></a>Атрибут расписания
 
-Большой двоичный объект расписания, определенный службой заданий Windows NT. Используется репликацией.
+большой двоичный объект расписания, как определено в службе заданий Windows NT. Используется репликацией.
 
 
 
@@ -59,7 +59,7 @@ ms.locfileid: "104138479"
 | Идентификатор ссылки                | \-                                                                                                                                                                                                                                                                               |
 | MAPI-Id                | \-                                                                                                                                                                                                                                                                               |
 | System-Only            | Неверно                                                                                                                                                                                                                                                                            |
-| Является однозначным       | True                                                                                                                                                                                                                                                                             |
+| Является однозначным       | Верно                                                                                                                                                                                                                                                                             |
 | Индексируется             | Неверно                                                                                                                                                                                                                                                                            |
 | В глобальном каталоге      | Неверно                                                                                                                                                                                                                                                                            |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                                                                                                                                     |
@@ -67,7 +67,7 @@ ms.locfileid: "104138479"
 | Range-Upper            | \-                                                                                                                                                                                                                                                                               |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                       |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                       |
-| Классы, используемые в        | [**NTDS — подключение**](c-ntdsconnection.md)<br/> [**NTDS-Site-Settings**](c-ntdssitesettings.md)<br/> [**NTFRS-Set-реплика**](c-ntfrsreplicaset.md)<br/> [**NTFRS — подписчик**](c-ntfrssubscriber.md)<br/> [**Ссылка на сайт**](c-sitelink.md)<br/> |
+| Классы, используемые в        | [**NTDS — подключение**](c-ntdsconnection.md)<br/> [**NTDS-Site-Параметры**](c-ntdssitesettings.md)<br/> [**NTFRS-Set-реплика**](c-ntfrsreplicaset.md)<br/> [**NTFRS — подписчик**](c-ntfrssubscriber.md)<br/> [**Ссылка на сайт**](c-sitelink.md)<br/> |
 
 
 
@@ -80,7 +80,7 @@ ms.locfileid: "104138479"
 | Идентификатор ссылки                | \-                                                                                                                                                                                                                                                                               |
 | MAPI-Id                | \-                                                                                                                                                                                                                                                                               |
 | System-Only            | Неверно                                                                                                                                                                                                                                                                            |
-| Является однозначным       | True                                                                                                                                                                                                                                                                             |
+| Является однозначным       | Верно                                                                                                                                                                                                                                                                             |
 | Индексируется             | Неверно                                                                                                                                                                                                                                                                            |
 | В глобальном каталоге      | Неверно                                                                                                                                                                                                                                                                            |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                                                                                                                                     |
@@ -88,7 +88,7 @@ ms.locfileid: "104138479"
 | Range-Upper            | \-                                                                                                                                                                                                                                                                               |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                       |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                       |
-| Классы, используемые в        | [**NTDS — подключение**](c-ntdsconnection.md)<br/> [**NTDS-Site-Settings**](c-ntdssitesettings.md)<br/> [**NTFRS-Set-реплика**](c-ntfrsreplicaset.md)<br/> [**NTFRS — подписчик**](c-ntfrssubscriber.md)<br/> [**Ссылка на сайт**](c-sitelink.md)<br/> |
+| Классы, используемые в        | [**NTDS — подключение**](c-ntdsconnection.md)<br/> [**NTDS-Site-Параметры**](c-ntdssitesettings.md)<br/> [**NTFRS-Set-реплика**](c-ntfrsreplicaset.md)<br/> [**NTFRS — подписчик**](c-ntfrssubscriber.md)<br/> [**Ссылка на сайт**](c-sitelink.md)<br/> |
 
 
 
@@ -101,7 +101,7 @@ ms.locfileid: "104138479"
 | Идентификатор ссылки                | \-                                                                                                                                                            |
 | MAPI-Id                | \-                                                                                                                                                            |
 | System-Only            | Неверно                                                                                                                                                         |
-| Является однозначным       | True                                                                                                                                                          |
+| Является однозначным       | Верно                                                                                                                                                          |
 | Индексируется             | Неверно                                                                                                                                                         |
 | В глобальном каталоге      | Неверно                                                                                                                                                         |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                  |
@@ -109,7 +109,7 @@ ms.locfileid: "104138479"
 | Range-Upper            | \-                                                                                                                                                            |
 | Search-Flags           | 0x00000000                                                                                                                                                    |
 | System-Flags           | 0x00000010                                                                                                                                                    |
-| Классы, используемые в        | [**NTDS — подключение**](c-ntdsconnection.md)<br/> [**NTDS-Site-Settings**](c-ntdssitesettings.md)<br/> [**Ссылка на сайт**](c-sitelink.md)<br/> |
+| Классы, используемые в        | [**NTDS — подключение**](c-ntdsconnection.md)<br/> [**NTDS-Site-Параметры**](c-ntdssitesettings.md)<br/> [**Ссылка на сайт**](c-sitelink.md)<br/> |
 
 
 
@@ -122,7 +122,7 @@ ms.locfileid: "104138479"
 | Идентификатор ссылки                | \-                                                                                                                                                                                                                                                                               |
 | MAPI-Id                | \-                                                                                                                                                                                                                                                                               |
 | System-Only            | Неверно                                                                                                                                                                                                                                                                            |
-| Является однозначным       | True                                                                                                                                                                                                                                                                             |
+| Является однозначным       | Верно                                                                                                                                                                                                                                                                             |
 | Индексируется             | Неверно                                                                                                                                                                                                                                                                            |
 | В глобальном каталоге      | Неверно                                                                                                                                                                                                                                                                            |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                                                                                                                                     |
@@ -130,7 +130,7 @@ ms.locfileid: "104138479"
 | Range-Upper            | \-                                                                                                                                                                                                                                                                               |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                       |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                       |
-| Классы, используемые в        | [**NTDS — подключение**](c-ntdsconnection.md)<br/> [**NTDS-Site-Settings**](c-ntdssitesettings.md)<br/> [**NTFRS-Set-реплика**](c-ntfrsreplicaset.md)<br/> [**NTFRS — подписчик**](c-ntfrssubscriber.md)<br/> [**Ссылка на сайт**](c-sitelink.md)<br/> |
+| Классы, используемые в        | [**NTDS — подключение**](c-ntdsconnection.md)<br/> [**NTDS-Site-Параметры**](c-ntdssitesettings.md)<br/> [**NTFRS-Set-реплика**](c-ntfrsreplicaset.md)<br/> [**NTFRS — подписчик**](c-ntfrssubscriber.md)<br/> [**Ссылка на сайт**](c-sitelink.md)<br/> |
 
 
 
@@ -143,7 +143,7 @@ ms.locfileid: "104138479"
 | Идентификатор ссылки                | \-                                                                                                                                                                                                                                                                               |
 | MAPI-Id                | \-                                                                                                                                                                                                                                                                               |
 | System-Only            | Неверно                                                                                                                                                                                                                                                                            |
-| Является однозначным       | True                                                                                                                                                                                                                                                                             |
+| Является однозначным       | Верно                                                                                                                                                                                                                                                                             |
 | Индексируется             | Неверно                                                                                                                                                                                                                                                                            |
 | В глобальном каталоге      | Неверно                                                                                                                                                                                                                                                                            |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                                                                                                                                     |
@@ -151,7 +151,7 @@ ms.locfileid: "104138479"
 | Range-Upper            | \-                                                                                                                                                                                                                                                                               |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                       |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                       |
-| Классы, используемые в        | [**NTDS — подключение**](c-ntdsconnection.md)<br/> [**NTDS-Site-Settings**](c-ntdssitesettings.md)<br/> [**NTFRS-Set-реплика**](c-ntfrsreplicaset.md)<br/> [**NTFRS — подписчик**](c-ntfrssubscriber.md)<br/> [**Ссылка на сайт**](c-sitelink.md)<br/> |
+| Классы, используемые в        | [**NTDS — подключение**](c-ntdsconnection.md)<br/> [**NTDS-Site-Параметры**](c-ntdssitesettings.md)<br/> [**NTFRS-Set-реплика**](c-ntfrsreplicaset.md)<br/> [**NTFRS — подписчик**](c-ntfrssubscriber.md)<br/> [**Ссылка на сайт**](c-sitelink.md)<br/> |
 
 
 
@@ -164,7 +164,7 @@ ms.locfileid: "104138479"
 | Идентификатор ссылки                | \-                                                                                                                                                                                                                                                                               |
 | MAPI-Id                | \-                                                                                                                                                                                                                                                                               |
 | System-Only            | Неверно                                                                                                                                                                                                                                                                            |
-| Является однозначным       | True                                                                                                                                                                                                                                                                             |
+| Является однозначным       | Верно                                                                                                                                                                                                                                                                             |
 | Индексируется             | Неверно                                                                                                                                                                                                                                                                            |
 | В глобальном каталоге      | Неверно                                                                                                                                                                                                                                                                            |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                                                                                                                                     |
@@ -172,7 +172,7 @@ ms.locfileid: "104138479"
 | Range-Upper            | \-                                                                                                                                                                                                                                                                               |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                       |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                       |
-| Классы, используемые в        | [**NTDS — подключение**](c-ntdsconnection.md)<br/> [**NTDS-Site-Settings**](c-ntdssitesettings.md)<br/> [**NTFRS-Set-реплика**](c-ntfrsreplicaset.md)<br/> [**NTFRS — подписчик**](c-ntfrssubscriber.md)<br/> [**Ссылка на сайт**](c-sitelink.md)<br/> |
+| Классы, используемые в        | [**NTDS — подключение**](c-ntdsconnection.md)<br/> [**NTDS-Site-Параметры**](c-ntdssitesettings.md)<br/> [**NTFRS-Set-реплика**](c-ntfrsreplicaset.md)<br/> [**NTFRS — подписчик**](c-ntfrssubscriber.md)<br/> [**Ссылка на сайт**](c-sitelink.md)<br/> |
 
 
 
@@ -185,7 +185,7 @@ ms.locfileid: "104138479"
 | Идентификатор ссылки                | \-                                                                                                                                                                                                                                                                               |
 | MAPI-Id                | \-                                                                                                                                                                                                                                                                               |
 | System-Only            | Неверно                                                                                                                                                                                                                                                                            |
-| Является однозначным       | True                                                                                                                                                                                                                                                                             |
+| Является однозначным       | Верно                                                                                                                                                                                                                                                                             |
 | Индексируется             | Неверно                                                                                                                                                                                                                                                                            |
 | В глобальном каталоге      | Неверно                                                                                                                                                                                                                                                                            |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                                                                                                                                     |
@@ -193,7 +193,7 @@ ms.locfileid: "104138479"
 | Range-Upper            | \-                                                                                                                                                                                                                                                                               |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                       |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                       |
-| Классы, используемые в        | [**NTDS — подключение**](c-ntdsconnection.md)<br/> [**NTDS-Site-Settings**](c-ntdssitesettings.md)<br/> [**NTFRS-Set-реплика**](c-ntfrsreplicaset.md)<br/> [**NTFRS — подписчик**](c-ntfrssubscriber.md)<br/> [**Ссылка на сайт**](c-sitelink.md)<br/> |
+| Классы, используемые в        | [**NTDS — подключение**](c-ntdsconnection.md)<br/> [**NTDS-Site-Параметры**](c-ntdssitesettings.md)<br/> [**NTFRS-Set-реплика**](c-ntfrsreplicaset.md)<br/> [**NTFRS — подписчик**](c-ntfrssubscriber.md)<br/> [**Ссылка на сайт**](c-sitelink.md)<br/> |
 
 
 

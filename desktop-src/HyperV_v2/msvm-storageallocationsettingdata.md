@@ -54,12 +54,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: d889c262eee9d827a02547ddbfdff2cb121cb337
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ba95ef5f4eb0afd20b80ab97db1ab7fc9a37b11e45638188c31459f8003cbda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950223"
 ---
 # <a name="msvm_storageallocationsettingdata-class"></a>\_Класс мсвм сторажеаллокатионсеттингдата
 
@@ -123,7 +123,7 @@ class Msvm_StorageAllocationSettingData : CIM_StorageAllocationSettingData
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ сторажеаллокатионсеттингдата** имеет следующие свойства.
 
@@ -269,7 +269,7 @@ class Msvm_StorageAllocationSettingData : CIM_StorageAllocationSettingData
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -281,7 +281,7 @@ class Msvm_StorageAllocationSettingData : CIM_StorageAllocationSettingData
 Квалификаторы: **maxlen** (64)
 </dt> </dl>
 
-Краткое описание объекта. Это свойство наследуется от [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)и всегда имеет значение "параметры по умолчанию для образа жесткого диска".
+Краткое описание объекта. это свойство наследуется от [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)и всегда имеет значение "Параметры образа жесткого диска по умолчанию".
 
 </dd> <dt>
 
@@ -535,7 +535,7 @@ class Msvm_StorageAllocationSettingData : CIM_StorageAllocationSettingData
 
 Пропускная способность измеряется в нормализованных операциях ввода-вывода в секунду, а не в необработанных ЧИСЛАх. При использовании нормализованных операций ввода-вывода каждый запрос на ввод/вывод учитывается как 1 нормализованный ввод-вывод, если размер запроса меньше или равен предопределенному базовому размеру (8 КБ). Запросы, размер которых превышает базовый размер, задаются как N операций ввода-вывода, где N — округленное значение размера запроса, деленное на базовый размер. Например, если базовый размер равен 8 КБ, то запрос размером 16 КБ считается 2 нормализованными операциями ввода-вывода, запросом 32 КБ как 4 нормализованными операциями ввода-вывода и т. д.
 
-**Windows 8.1:** Это значение не поддерживается до Windows 8.1 и Windows Server 2012 R2.
+**Windows 8.1:** это значение не поддерживается до Windows 8.1 и Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -558,7 +558,7 @@ class Msvm_StorageAllocationSettingData : CIM_StorageAllocationSettingData
 
  
 
-**Windows 8.1:** Это значение не поддерживается до Windows 8.1 и Windows Server 2012 R2.
+**Windows 8.1:** это значение не поддерживается до Windows 8.1 и Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -583,7 +583,7 @@ class Msvm_StorageAllocationSettingData : CIM_StorageAllocationSettingData
 
  
 
-**Windows 8.1:** Это значение не поддерживается до Windows 8.1 и Windows Server 2012 R2.
+**Windows 8.1:** это значение не поддерживается до Windows 8.1 и Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -676,7 +676,7 @@ class Msvm_StorageAllocationSettingData : CIM_StorageAllocationSettingData
 
 Указывает, поддерживает ли виртуальный жесткий диск постоянные резервирования SCSI-3.
 
-**Windows 8.1:** Это значение не поддерживается до Windows 8.1 и Windows Server 2012 R2.
+**Windows 8.1:** это значение не поддерживается до Windows 8.1 и Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -789,10 +789,10 @@ class Msvm_StorageAllocationSettingData : CIM_StorageAllocationSettingData
 <span id="Tape_Drive"></span><span id="tape_drive"></span><span id="TAPE_DRIVE"></span>**Ленточный накопитель** (18)
 </dt> <dt>
 
-<span id="Storage_Extent"></span><span id="storage_extent"></span><span id="STORAGE_EXTENT"></span>**Область хранения** (19)
+<span id="Storage_Extent"></span><span id="storage_extent"></span><span id="STORAGE_EXTENT"></span>**экстент служба хранилища** (19)
 </dt> <dt>
 
-<span id="Other_Storage_Device"></span><span id="other_storage_device"></span><span id="OTHER_STORAGE_DEVICE"></span>**Другое запоминающее устройство** (20)
+<span id="Other_Storage_Device"></span><span id="other_storage_device"></span><span id="OTHER_STORAGE_DEVICE"></span>**другое устройство служба хранилища** (20)
 </dt> <dt>
 
 <span id="Serial_port"></span><span id="serial_port"></span><span id="SERIAL_PORT"></span>**Последовательный порт** (21)
@@ -828,7 +828,7 @@ class Msvm_StorageAllocationSettingData : CIM_StorageAllocationSettingData
 <span id="Logical_Disk"></span><span id="logical_disk"></span><span id="LOGICAL_DISK"></span>**Логический диск** (31)
 </dt> <dt>
 
-<span id="Storage_Volume"></span><span id="storage_volume"></span><span id="STORAGE_VOLUME"></span>**Том хранилища** (32)
+<span id="Storage_Volume"></span><span id="storage_volume"></span><span id="STORAGE_VOLUME"></span>**служба хранилища том** (32)
 </dt> <dt>
 
 <span id="Ethernet_connection"></span><span id="ethernet_connection"></span><span id="ETHERNET_CONNECTION"></span>**Ethernet-подключение** (33)
@@ -869,7 +869,7 @@ class Msvm_StorageAllocationSettingData : CIM_StorageAllocationSettingData
 Тип доступа: только для чтения
 </dt> </dl>
 
-Указывает уникальный идентификатор политики качества обслуживания хранилища, применяемой к этому экстенту виртуальной памяти.
+указывает уникальный идентификатор политики качества обслуживания служба хранилища, применяемой к этому экстенту виртуальной памяти.
 
 > [!Note]  
 > Добавлено в Windows 10.
@@ -958,7 +958,7 @@ class Msvm_StorageAllocationSettingData : CIM_StorageAllocationSettingData
 Указывает, какой метод усиления записи поддерживается диском.
 
 > [!Note]  
-> Это свойство было добавлено в Windows 10 версии 1703.
+> это свойство было добавлено в Windows 10 версии 1703.
 
  
 
@@ -994,14 +994,14 @@ class Msvm_StorageAllocationSettingData : CIM_StorageAllocationSettingData
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

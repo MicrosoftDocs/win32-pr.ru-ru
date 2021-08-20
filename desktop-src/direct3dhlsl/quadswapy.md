@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 72b5ede0df733e60ba4b1bcc01a04f1daaedc708
-ms.sourcegitcommit: f01bc6744cea55ad1aeeace7981a30b567e6fe60
+ms.openlocfilehash: 0f761a3588759e0c27143d16bd8fac5f674f05ae1819a0cdcebc55d6b4bdc6e2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104984100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119672404"
 ---
 # <a name="quadreadacrossy-function"></a>Функция Куадреадакросси
 
@@ -47,7 +47,7 @@ ms.locfileid: "104984100"
 
 Указанное исходное значение. Если исходная полоса неактивна, результаты будут неопределенными.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Дополнительные сведения об четырехъядерях см. в разделе [Общие сведения о модели шейдеров 6](hlsl-shader-model-6-0-features-for-direct3d-12.md).
 
@@ -57,7 +57,7 @@ ms.locfileid: "104984100"
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

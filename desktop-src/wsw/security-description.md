@@ -3,17 +3,17 @@ title: Описание безопасности
 description: Описание безопасности представляется \_ \_ структурой описания безопасности WS, а экземпляр описания безопасности предоставляется при вызове функции вскреатечаннел для создания безопасного канала или функции вскреателистенер для создания прослушивателя.
 ms.assetid: 252418fc-dad4-43f4-a5e2-38055da3779c
 keywords:
-- Описание безопасности веб-службы для Windows
+- Веб-службы описания безопасности для Windows
 - ввсапи
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c06e8553441b7eb813106213dbfa089810aad74c
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: 66a2395e2c1e894968f47fa41e98599ec333f6d2724cf6ffe6cbc5219396bca6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "104156979"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083167"
 ---
 # <a name="security-description"></a>Описание безопасности
 

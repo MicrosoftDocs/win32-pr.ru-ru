@@ -4,12 +4,12 @@ ms.assetid: 533f6934-dec8-455a-937c-d4e144be4335
 title: System. photo. яркость
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 131b7e2d51f402aa8da4d5e9b266fe1fc1b39b29
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d28d49464b5d5d081869e514a92fe892a95c1f5a2608412513a2a18b46a51f62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033352"
 ---
 # <a name="systemphotobrightness"></a>System. photo. яркость
 
@@ -31,13 +31,13 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
 Сравнение чисел [System. photo. яркость]() и Foot-Lambertных измерений см. в спецификации EXIF 2,2, приложении C. Это свойство вычисляется из [System. photo. бригхтнесснумератор](./props-system-photo-brightnessnumerator.md) и [System. photo. бригхтнессденоминатор](./props-system-photo-brightnessdenominator.md). Если числитель записанного значения — FFFFFFFF. H, должно быть указано "Unknown".
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

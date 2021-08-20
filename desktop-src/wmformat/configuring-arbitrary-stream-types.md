@@ -10,12 +10,12 @@ keywords:
 - женпрофиле
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59e04751bd33da6599fd7ff3766c4dc8350889c6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 260219e408872dc21ecf82bd64b59b6c12b014c6e073a687a1b55957b290b76f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105710079"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119548053"
 ---
 # <a name="configuring-arbitrary-stream-types"></a>Настройка произвольных типов потоков
 
@@ -29,30 +29,30 @@ ms.locfileid: "105710079"
 
 | Section                                                                                                                                        | Описание                                                                                 |
 |------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| [Настройка потоков скриптов](configuring-script-streams.md)                                                                                   | Описывает настройку потоков скриптов.                                                  |
-| [Настройка потоков обмена файлами](configuring-file-transfer-streams.md)                                                                     | Описывает настройку потоков обмена файлами.                                           |
-| [Настройка веб-потоков](configuring-web-streams.md)                                                                                         | Описывает настройку веб-потоков.                                                     |
-| [Настройка текстовых потоков](configuring-text-streams.md)                                                                                       | Описывает настройку текстовых потоков.                                                    |
-| [Настройка настраиваемых произвольных потоков](configuring-custom-arbitrary-streams.md)                                                               | Описывает настройку потоков для пользовательских произвольных типов потоков.                       |
-| [Вычисление скорости потока и значений окна буфера для произвольных потоков](calculating-bit-rate-and-buffer-window-values-for-arbitrary-streams.md) | Описывает, как вычислить скорость передачи и параметры окна буфера для произвольного потока. |
+| [настройка Потоки скриптов](configuring-script-streams.md)                                                                                   | Описывает настройку потоков скриптов.                                                  |
+| [настройка Потоки для перемещения файлов](configuring-file-transfer-streams.md)                                                                     | Описывает настройку потоков обмена файлами.                                           |
+| [настройка веб-Потоки](configuring-web-streams.md)                                                                                         | Описывает настройку веб-потоков.                                                     |
+| [настройка Потоки текста](configuring-text-streams.md)                                                                                       | Описывает настройку текстовых потоков.                                                    |
+| [настройка настраиваемых произвольных Потоки](configuring-custom-arbitrary-streams.md)                                                               | Описывает настройку потоков для пользовательских произвольных типов потоков.                       |
+| [вычисление скорости разрядности и значений окна буфера для произвольного Потоки](calculating-bit-rate-and-buffer-window-values-for-arbitrary-streams.md) | Описывает, как вычислить скорость передачи и параметры окна буфера для произвольного потока. |
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[**Произвольные потоки**](arbitrary-streams.md)
+[**произвольный Потоки**](arbitrary-streams.md)
 </dt> <dt>
 
-[**Настройка потоков**](configuring-streams.md)
+[**настройка Потоки**](configuring-streams.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: Сообщение EM_GETMARGINS (Winuser. h)
 description: Возвращает ширину левого и правого полей для элемента управления "поле ввода".
 ms.assetid: 2482354b-aae0-4abd-8287-65c423f30abb
 keywords:
-- Элементы управления Windows для EM_GETMARGINS сообщений
+- элементы управления Windows сообщений EM_GETMARGINS
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 239ad7e7888f5bceef60bf2719c3b67798b56220
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 33746bc44a7b1b0aadd11c573675fedd51e565a557da7601ebe35a4442ddc96c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103801373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119541074"
 ---
 # <a name="em_getmargins-message"></a>\_Сообщение EM прибыли
 
@@ -47,23 +47,23 @@ ms.locfileid: "103801373"
 
 Возвращает ширину левого поля в ЛОВОРД и ширину правого поля в HIWORD.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **Расширенное редактирование:** Сообщение **EM \_ прибыли** не поддерживается.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

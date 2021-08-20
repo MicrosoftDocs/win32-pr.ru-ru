@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 8573ff7e33a127d7c30af1fe512fbd3da298d0eb
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 1a4994c807ff1df99016aad734edf71e5e1ce6efe59fd53a4fb9bb3ee91a4b25
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104412184"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119671684"
 ---
 # <a name="sgn---vs"></a>СГН — VS
 
@@ -29,16 +29,16 @@ ms.locfileid: "104412184"
 
 
 
- 
+ 
 
-где
+where
 
 -   DST — это регистр назначения.
 -   src0 является исходным регистром.
 -   src1 — это временный регистр, содержащий промежуточные результаты. После выполнения, содержимое не определено.
 -   src2 — это временный регистр, содержащий промежуточные результаты. После выполнения, содержимое не определено.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -48,7 +48,7 @@ ms.locfileid: "104412184"
 
 
 
- 
+ 
 
 Эта инструкция работает, как показано ниже.
 
@@ -70,16 +70,16 @@ for each component in src0
 
 src1 и src2 должны быть разными [временными регистрами](dx9-graphics-reference-asm-vs-registers-temporary.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера вершин](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

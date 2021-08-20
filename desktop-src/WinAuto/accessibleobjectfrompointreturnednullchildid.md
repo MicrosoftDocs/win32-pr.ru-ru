@@ -4,12 +4,12 @@ description: акцессиблеобжектфромпоинтретурнед�
 ms.assetid: 20511B76-736B-4B43-8DC3-4306DF74CF73
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e03c708d13bd8abfe642b99310c8b5bea176e11
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8fb6ebf33cdfdef7b6e32ec4b9943accc06551d5f37f625fa77cb22e01b913df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103779733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994364"
 ---
 # <a name="accessibleobjectfrompointreturnednullchildid"></a>акцессиблеобжектфромпоинтретурнеднуллчилдид
 
@@ -19,7 +19,7 @@ ms.locfileid: "103779733"
 
 ## <a name="type"></a>Тип
 
-Ошибка
+Error
 
 ## <a name="description"></a>Описание
 
@@ -29,7 +29,7 @@ ms.locfileid: "103779733"
 
 Взаимодействие с пользователем во время проверки, например перемещение фокуса на нецелевой HWND, мешает процессу проверки.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -39,9 +39,9 @@ ms.locfileid: "103779733"
 [**акцессиблеобжектфромпоинт**](/windows/desktop/api/Oleacc/nf-oleacc-accessibleobjectfrompoint)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

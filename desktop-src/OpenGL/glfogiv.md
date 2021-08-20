@@ -131,7 +131,7 @@ void WINAPI glFogiv(
 
 [**глисенаблед**](glisenabled.md) с аргументом GL в виде \_ тумана
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -145,7 +145,7 @@ void WINAPI glFogiv(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

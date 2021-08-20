@@ -14,16 +14,16 @@ api_type:
 - DllExport
 api_location:
 - Shlwapi.dll
-ms.openlocfilehash: 8f76d516570725fe6da5e8a21ec5a29699276ee3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bfd640aaf0bbc68e8798f62f41542d794db34808674c0bdb47587c7396ad7bc9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119094199"
 ---
 # <a name="findresourcewrapw-function"></a>Функция Финдресаурцеврапв
 
-\[**Финдресаурцеврапв** доступен для использования в Windows XP. Она может быть недоступна в последующих версиях. Вместо этого следует использовать [**финдресаурцев**](/windows/win32/api/winbase/nf-winbase-findresourcea) .\]
+\[**финдресаурцеврапв** доступен для использования в Windows XP. Она может быть недоступна в последующих версиях. Вместо этого следует использовать [**финдресаурцев**](/windows/win32/api/winbase/nf-winbase-findresourcea) .\]
 
 Определяет расположение ресурса с указанным типом и именем в указанном модуле.
 
@@ -84,7 +84,7 @@ HRSRC FindResourceWrapW(
 
 Если функция завершается ошибкой, возвращается значение **null**. Чтобы получить расширенные сведения об ошибке, вызовите функцию [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Если необходимо указать определенную локализацию, используйте функцию [**финдресаурцеекс**](/windows/win32/api/winbase/nf-winbase-findresourceexa) , а не **финдресаурцеврапв**.
 
@@ -98,9 +98,9 @@ HRSRC FindResourceWrapW(
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Нет</dt> </dl>                               |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                          |
+| Заголовок<br/>                   | <dl> <dt>None</dt> </dl>                               |
 | DLL<br/>                      | <dl> <dt>Shlwapi.dll (версия 5,0 или более поздняя)</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **Финдресаурцеврапв** (Юникод)<br/>                                                                    |
 

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: e13cb3969fe09639bab7f9e39c46030d6ccd3576
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 615f74cabf3a93280e48849fbf561c281a43a03fad19bcb0555d5830d82391e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108106518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119070174"
 ---
 # <a name="image_v0-class"></a>\_Класс Image v0
 
@@ -38,7 +38,7 @@ class Image_V0 : MSNT_SystemTrace
 
 Класс **image \_ v0** не определяет никаких членов.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -56,7 +56,7 @@ class Image_V0 : MSNT_SystemTrace
 [**МСНТ \_ системтраце**](msnt-systemtrace.md)
 </dt> <dt>
 
-[**Эскиз**](image.md)
+[**Изображение**](image.md)
 </dt> <dt>
 
 [**\_Загрузка образа v0 \_**](image-v0-load.md)

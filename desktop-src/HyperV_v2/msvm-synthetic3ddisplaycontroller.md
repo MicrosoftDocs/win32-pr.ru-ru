@@ -73,16 +73,16 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 0cd102fe29cf34aa0930ca264c8820868da7daf9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83094be6dfa7642f64fcf436e3aa5ab514c9c772b116eede0906efbcf73fc747
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683171"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950053"
 ---
 # <a name="msvm_synthetic3ddisplaycontroller-class"></a>\_Класс мсвм Synthetic3DDisplayController
 
-Представляет синтетический трехмерный контроллер дисплея, назначенный виртуальной машине. Этот класс используется только с виртуальными машинами, использующими RemoteFX.
+Представляет синтетический трехмерный контроллер дисплея, назначенный виртуальной машине. Этот класс используется только для виртуальных машин, использующих RemoteFX.
 
 > [!IMPORTANT]
 > При добавлении искусственного контроллера дисплея в виртуальную машину необходимо отключить все синтетические контроллеры экрана ([**мсвм \_ синсетикдисплайконтроллер**](msvm-syntheticdisplaycontroller.md)), подключенные к этой виртуальной машине.
@@ -267,7 +267,7 @@ class Msvm_Synthetic3DDisplayController : CIM_DisplayController
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -566,7 +566,7 @@ class Msvm_Synthetic3DDisplayController : CIM_DisplayController
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -1043,21 +1043,21 @@ class Msvm_Synthetic3DDisplayController : CIM_DisplayController
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только Windows 8.1 Классические приложения\]<br/>                                                            |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2012 R2 \[\]<br/>                                                 |
+| Минимальная версия клиента<br/> | Windows 8.1 \[ только классические приложения\]<br/>                                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[Только классические приложения R2\]<br/>                                                 |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

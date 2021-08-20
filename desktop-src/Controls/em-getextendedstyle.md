@@ -3,7 +3,7 @@ title: Сообщение EM_GETEXTENDEDSTYLE (Коммктрл. h)
 description: Возвращает расширенный стиль для элемента управления "поле ввода". Отправьте это сообщение явным образом или с помощью \_ макроса Edit жетекстендедстиле.
 ms.assetid: 557f796e-c9d1-4ea1-b8a6-44ae0bed5ffc
 keywords:
-- Элементы управления Windows для EM_GETEXTENDEDSTYLE сообщений
+- элементы управления Windows сообщений EM_GETEXTENDEDSTYLE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 10/19/2018
-ms.openlocfilehash: 37dc117bccd57b51098a7ca8c19e8b178037bef8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 77aa5827cc256c040d34ca24574dfa0b12816accaff9e5c0e92b4400195cae2b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491814"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019672"
 ---
 # <a name="em_getextendedstyle-message-commctrlh"></a>Сообщение EM_GETEXTENDEDSTYLE (Коммктрл. h)
 
@@ -39,19 +39,19 @@ ms.locfileid: "104491814"
 
 Возвращает значение расширенного стиля. Дополнительные сведения о стилях см. в разделе [Правка Управление расширенными стилями](edit-control-window-extended-styles.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Расширенные стили для элемента управления "поле ввода" не имеют никаких действий с расширенными стилями, используемыми с функцией [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) или функцией [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только для настольных приложений Windows 10 версии 1809\]<br/>                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2019\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 10, версия 1809 \[ только классические приложения\]<br/>                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2019\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

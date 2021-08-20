@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: d6343cec0573a97656368d66426ec9b46c7255e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 44b034c5b91eb024bdbcde0b0d835ba12f0367bedc6dbd9c5c2d52dca1029f87
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909191"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068544"
 ---
 # <a name="cim_virtualsystemmigrationservice-class"></a>\_Класс CIM виртуалсистеммигратионсервице
 
@@ -56,7 +56,7 @@ class CIM_VirtualSystemMigrationService : CIM_Service
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -70,7 +70,7 @@ class CIM_VirtualSystemMigrationService : CIM_Service
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

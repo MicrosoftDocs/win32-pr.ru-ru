@@ -49,7 +49,7 @@ lParam2 = reserved
 
 Возвращает нуль, если файл успешно закрыт, или ошибка в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

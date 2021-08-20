@@ -3,7 +3,7 @@ title: Амбиентаттрибутес. Left
 description: Левый атрибут указывает или получает левую координату элемента управления.
 ms.assetid: fb1856f2-e286-4ba8-9ae4-b6cd8b0967b1
 keywords:
-- Амбиентаттрибутес. левый проигрыватель Windows Media
+- амбиентаттрибутес. left проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f881de6733637c0776dd9626a7efc02b145ec25f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3624113fbc92e8114cdd4924fb0452f1091803557e5e32995450f8d2fae6e60a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055092"
 ---
 # <a name="ambientattributesleft"></a>Амбиентаттрибутес. Left
 
@@ -31,17 +31,17 @@ ms.locfileid: "105699064"
 
 Этот атрибут является **числом** для чтения и записи (**длинным**), представляющим расстояние в пикселях от элемента управления до левого края родительского **представления** или подчиненного **представления**. Он имеет нулевое значение по умолчанию. Отрицательные числа разрешены, в этом случае элемент управления обрезается в левой границе **представления** или **подпредставления** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

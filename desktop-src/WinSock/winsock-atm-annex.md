@@ -4,12 +4,12 @@ ms.assetid: 532a876c-9b31-410e-9331-5e8aa98ccaee
 title: Приложение Winsock ATM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63ec056cc2b84c9449ed466a60a15683df29744b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 90f55c71b830fa8a5f27f083af0263c62766e7b037e433c04b73bfea5ba12960
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118822450"
 ---
 # <a name="winsock-atm-annex"></a>Приложение Winsock ATM
 

@@ -53,7 +53,7 @@ LRESULT CALLBACK WindowProc(
 
 Это сообщение отправляется только в окна верхнего уровня. Для всех остальных окон, которые он публикует.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -65,7 +65,7 @@ LRESULT CALLBACK WindowProc(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

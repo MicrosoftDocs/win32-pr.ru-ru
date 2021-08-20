@@ -1,15 +1,15 @@
 - name: "Windows Virtual\_PC"
   href: virtual-pc-portal.md
   items:
-    - name: Справочник по виртуальным ПК Windows
+    - name: Windows Справочник по Virtual PC
       href: virtual-pc-reference.md
       items:
-        - name: Константы виртуальных ПК Windows
+        - name: Windows Константы виртуальных ПК
           href: windows-virtual-pc-constants.md
           items:
-            - name: 'Коды HRESULT, характерные для Windows Virtual PC'
+            - name: 'коды HRESULT, характерные для Windows Virtual PC'
               href: hresult-codes-specific-to-windows-virtual-pc.md
-        - name: Перечисления Windows Virtual PC
+        - name: Windows Перечисления виртуальных ПК
           href: virtual-pc-enumerations.md
           items:
             - name: вмдисплайвидеомоде
@@ -54,7 +54,7 @@
               href: vmvirtualpcevent.md
             - name: вмвмстате
               href: vmvmstate.md
-        - name: Интерфейсы виртуальных ПК Windows
+        - name: Windows Интерфейсы виртуальных ПК
           href: virtual-pc-interfaces.md
           items:
             - name: ивмаккаунтант
@@ -886,7 +886,7 @@
                       href: ivmvirtualpcevents-oneventlogged.md
                     - name: Метод Онвмстатечанже
                       href: ivmvirtualpcevents-onvmstatechange.md
-        - name: Структуры виртуальных ПК Windows
+        - name: Windows Структуры виртуальных ПК
           href: windows-virtual-pc-structures.md
           items:
             - name: гуестосверсионинфоекс

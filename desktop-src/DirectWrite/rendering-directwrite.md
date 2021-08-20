@@ -1,17 +1,17 @@
 ---
-title: DirectWrite отрисовки
-description: DirectWrite отрисовки
+title: DirectWrite подготовки к просмотру
+description: DirectWrite подготовки к просмотру
 ms.assetid: e8099fac-b5d7-4fb1-b06d-a6e85da0d1dc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc7012bc4861a8befc9beb97c945dc0b03b4e761
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fa640b8963c427b9eaf1d17fd3e4691115a3965d477c5076deb1f5eb05a569db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413271"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119070594"
 ---
-# <a name="rendering-directwrite"></a>DirectWrite отрисовки
+# <a name="rendering-directwrite"></a>DirectWrite подготовки к просмотру
 
 ## <a name="rendering-options"></a>Параметры подготовки к просмотру
 
@@ -57,7 +57,7 @@ hr = pTextLayout_->Draw(
 
 Метод [**идвритетекстлайаут::D RAW**](/windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-draw) вызывает методы предоставляемого обратного вызова пользовательского модуля подготовки отчетов. Методы [**DrawGlyphRun**](/windows/win32/api/dwrite/nf-dwrite-idwritetextrenderer-drawglyphrun), [**дравундерлине**](/windows/win32/api/dwrite/nf-dwrite-idwritetextrenderer-drawunderline), [**дравинлинеобжект**](/windows/win32/api/dwrite/nf-dwrite-idwritetextrenderer-drawinlineobject)и [**дравстрикесраугх**](/windows/win32/api/dwrite/nf-dwrite-idwritetextrenderer-drawstrikethrough) выполняют функции рисования.
 
-[**Идвритетекстрендерер**](/windows/win32/api/dwrite/nn-dwrite-idwritetextrenderer) объявляет методы для рисования выполнения глифа, подчеркивания, перечеркивания и встроенных объектов. Реализация этих методов реализована в приложении. Создание пользовательского модуля подготовки текста позволяет приложению применять дополнительные эффекты при отрисовке текста, например пользовательской заливки или контура. Образец пользовательского обработчика текста включен в [пример Hello World DirectWrite](/samples/browse/?redirectedfrom=MSDN-samples).
+[**Идвритетекстрендерер**](/windows/win32/api/dwrite/nn-dwrite-idwritetextrenderer) объявляет методы для рисования выполнения глифа, подчеркивания, перечеркивания и встроенных объектов. Реализация этих методов реализована в приложении. Создание пользовательского модуля подготовки текста позволяет приложению применять дополнительные эффекты при отрисовке текста, например пользовательской заливки или контура. образец пользовательского обработчика текста включен в [пример DirectWrite Hello World](/samples/browse/?redirectedfrom=MSDN-samples).
 
 ## <a name="3-render-cleartype-to-a-gdi-surface"></a>3. отрисовка ClearType на поверхность GDI.
 
@@ -79,9 +79,9 @@ memoryHdc = g_pBitmapRenderTarget->GetMemoryDC();
 После выполнения рисования контроллер домена памяти объекта [**идвритебитмапрендертаржет**](/windows/win32/api/dwrite/nn-dwrite-idwritebitmaprendertarget) должен быть скопирован на целевую поверхность GDI.
 
 > [!Note]  
-> Вы также можете передать точечный рисунок на другой тип поверхности, например в область GDI+.
+> вы также можете передать точечный рисунок на другой тип, например на поверхность GDI+.
 
- 
+ 
 
 
 ```C++
@@ -101,13 +101,13 @@ BitBlt(
 > [!Note]  
 > Приложение несет ответственность за визуализацию всех элементов в окне в конце. Сюда входит текст и графика. Это приводит к снижению производительности. Кроме того, при подготовке к просмотру на КОНТРОЛЛЕРе памяти не используется аппаратный ускоренный интерфейс GDI.
 
- 
+ 
 
 Более подробный обзор взаимодействия с GDI см. в статье [взаимодействие с GDI](interoperating-with-gdi.md).
 
 ## <a name="4-render-grayscale-text-transparently-to-a-gdi-surface-windows-8-and-later"></a>4. Прозрачное отображение текста в градациях серого на поверхности GDI. (Windows 8 и более поздние версии)
 
-Начиная с Windows 8, можно прозрачно визуализировать текст в градациях серого до поверхности GDI для повышения производительности. Для этого необходимо выполнить следующие действия.
+начиная с Windows 8 можно прозрачно визуализировать текст в градациях серого до поверхности GDI для повышения производительности. Для этого необходимо выполнить следующие действия.
 
 1.  Очистите контроллер памяти, чтобы он был прозрачным.
 2.  Отрисовка текста в памяти HDC с помощью сглаживания в оттенках серого (ДВРИТЕ \_ \_ режим сглаживания текста в \_ \_ оттенках серого).
@@ -143,7 +143,7 @@ AlphaBlend(
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -159,6 +159,6 @@ AlphaBlend(
 [Взаимодействие с GDI](interoperating-with-gdi.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

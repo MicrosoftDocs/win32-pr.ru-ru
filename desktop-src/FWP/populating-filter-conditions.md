@@ -4,12 +4,12 @@ description: В следующем примере кода показано, к�
 ms.assetid: 6c7c8d55-2cd4-45fe-ad6b-e568941d6765
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48f86ef34ce1ce01cffdfed4bb1ac54ff97c1fbe
-ms.sourcegitcommit: 980c959800b3c629cd9886ba640146236c9b979c
+ms.openlocfilehash: 8a5f66f2cb3eaa28036e4861ba42397eb371dd73f8d15452fb172e957809105f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "104134831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068834"
 ---
 # <a name="populating-filter-conditions"></a>Заполнение условий фильтра
 

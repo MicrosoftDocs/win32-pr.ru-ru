@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Scsi.h
-ms.openlocfilehash: b5eacf9bee8c2cebf93b27c97a88c691852a3841
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 2f6b3bd9fd4353e396bc7fe4ff7273e598704d1348062fec1c2f64aed9380686
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "105647773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119075958"
 ---
 # <a name="sense_data-structure"></a>Структура данных с ОСМЫСЛЕНными \_ данными
 
@@ -159,7 +159,7 @@ typedef struct _SENSE_DATA {
 
 </dd> <dt>
 
-**Информация**
+**Сведения**.
 </dt> <dd>
 
 Данные типа устройства или команды.
@@ -208,23 +208,23 @@ typedef struct _SENSE_DATA {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Дополнительные сведения о формате осмысленных данных см. в разделе [команда датчика запросов SCSI](https://wikipedia.org/wiki/SCSI_command) ( https://wikipedia.org/wiki/SCSI_command) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                              |
-| Header<br/>                   | <dl> <dt>SCSI. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                              |
+| Заголовок<br/>                   | <dl> <dt>SCSI. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

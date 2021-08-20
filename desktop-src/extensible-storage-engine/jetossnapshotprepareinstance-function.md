@@ -18,23 +18,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8cc5179a55aabfa3324e3caab7005f4abe437a6d
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: bfd4fc15f3ea7d4f6275f0d4dd31ed96729715b6089397fff7ee73fc7d0c6e9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104424550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119614942"
 ---
 # <a name="jetossnapshotprepareinstance-function"></a>Функция Жетосснапшотпрепареинстанце
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jetossnapshotprepareinstance-function"></a>Функция Жетосснапшотпрепареинстанце
 
 Функция **жетосснапшотпрепареинстанце** выбирает конкретный экземпляр, который должен быть частью сеанса моментального снимка.
 
-**Windows Vista:** **жетосснапшотпрепареинстанце** был впервые появился в Windows Vista.
+**Windows Vista:** **жетосснапшотпрепареинстанце** был введен в Windows Vista.
 
 ```cpp
 JET_ERR JET_API JetOSSnapshotPrepareInstance(
@@ -60,7 +60,7 @@ JET_ERR JET_API JetOSSnapshotPrepareInstance(
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. Дополнительные сведения о возможных ошибках ESE см. в разделе [ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -98,7 +98,7 @@ JET_ERR JET_API JetOSSnapshotPrepareInstance(
 
 Если эта функция завершается неудачно, изменение состояния модуля не происходит.
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 Стандартный вызов последовательности API: [жетосснапшотпрепаре](./jetossnapshotprepare-function.md), при необходимости за одним или несколькими вызовами **жетосснапшотпрепареинстанце**, после которого следует [жетосснапшотфризе](./jetossnapshotfreeze-function.md). После запуска замораживания его можно завершить с помощью [жетосснапшотсав](./jetossnapshotthaw-function.md). В любое время после подготовки сеанс моментального снимка может внезапно завершиться с помощью [жетосснапшотаборт](./jetossnapshotabort-function.md). Записи журнала событий будут созданы для различных этапов создания моментального снимка.
 
@@ -108,7 +108,7 @@ JET_ERR JET_API JetOSSnapshotPrepareInstance(
 
   - Он обеспечивает обратную совместимость для вызывающих объектов API моментальных снимков.
 
-#### <a name="requirements"></a>Требования
+#### <a name="requirements"></a>Requirements (Требования)
 
 <table>
 <colgroup>
@@ -118,11 +118,11 @@ JET_ERR JET_API JetOSSnapshotPrepareInstance(
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista.</p></td>
+<td><p>требуется Windows Vista.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008.</p></td>
+<td><p><strong>Сервер</strong></p></td>
+<td><p>требуется Windows Server 2008.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>
@@ -143,7 +143,7 @@ JET_ERR JET_API JetOSSnapshotPrepareInstance(
 #### <a name="see-also"></a>См. также:
 
 [Параметры обработки ошибок](./error-handling-parameters.md)  
-[Ошибки расширяемого подсистемы хранилища](./extensible-storage-engine-errors.md)  
+[ошибки расширенного обработчика служба хранилища](./extensible-storage-engine-errors.md)  
 [JET_ERR](./jet-err.md)  
 [жетосснапшотаборт](./jetossnapshotabort-function.md)  
 [жетосснапшотенд](./jetossnapshotend-function.md)  

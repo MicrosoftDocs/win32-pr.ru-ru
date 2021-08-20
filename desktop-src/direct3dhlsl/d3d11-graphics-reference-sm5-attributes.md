@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 47177066cd88dec29331ab0cd6c845bd37a240c8
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 2ee8f008347d12a3b94a6497960628bbfbe2d9c81096d0f872728259e0cf6c1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104983821"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986904"
 ---
 # <a name="shader-model-5-attributes"></a>Атрибуты модели шейдеров 5
 
@@ -32,16 +32,16 @@ ms.locfileid: "104983821"
 
 Все эти атрибуты являются обязательными (за исключением атрибута **экземпляра** ). Невозможность их использования приведет к ошибкам компиляции.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Модель шейдера 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
