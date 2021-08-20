@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Qedit.h
-ms.openlocfilehash: 09923d6be01bdf4a213db645a34b038dda15d86f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 55d7c70dffbf57ae4d9788a10dfea02911a998e21ab5ea8e3d9ad7fffcf91624
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652093"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118952943"
 ---
 # <a name="dexterf_track_search_flags-enumeration"></a>\_ \_ \_ Перечисление флагов поиска декстерф Track
 
@@ -67,7 +67,7 @@ typedef enum  {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эти условия границ приведены в следующей таблице.
 
@@ -87,17 +87,17 @@ typedef enum  {
 -   Прерывать: время окончания полученного объекта.
 -   Время: указанное время поиска.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Кедит. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Кедит. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ description: Функции перечисления позволяют клие
 ms.assetid: 3caa019e-db40-4991-a229-166cb257bfed
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5337feb134e0f6786e407a93a36ca8f118c633cd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9599d7d6d378b579ce76b0b0beece8f573c2da125a47c6a8647c8996f5daec17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119674114"
 ---
 # <a name="enumerating-routing-table-entries"></a>Перечисление записей таблицы маршрутизации
 
@@ -17,9 +17,9 @@ ms.locfileid: "103888511"
 
 Пример кода, демонстрирующий использование этих функций, см. в разделе [перечисление всех назначений](enumerate-all-destinations.md) и [перечисление всех маршрутов](enumerate-all-routes.md).
 
- 
+ 
 
- 
+ 
 
 
 

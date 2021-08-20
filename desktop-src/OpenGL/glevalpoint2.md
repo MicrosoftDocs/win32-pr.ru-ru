@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fafe728249f988462b0929873bbb195fed1e7c9
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 6f0c188ec5f3e8171b8035e58b235bc0c5942e221d6d85a6dd4e5a8ff1786c80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105684957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119675564"
 ---
 # <a name="glevalpoint2-function"></a>Функция glEvalPoint2
 
@@ -59,7 +59,7 @@ void glEvalPoint2(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функции [**глмапгрид**](glmapgrid-functions.md) и [**глевалмеш**](glevalmesh-functions.md) используются совместно для эффективного создания и вычисления ряда значений домена сопоставлений с равными пробелами. **Глевалпоинт** можно использовать для вычисления одной точки сетки в том же гридспаце, которая проходит через **глевалмеш**. Вызов [**glEvalPoint1**](glevalpoint.md) эквивалентен вызову
 
@@ -93,7 +93,7 @@ where
 
 **глжет** с аргументами \_ \_ сегментами сетки GL MAP2 \_
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -107,7 +107,7 @@ where
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

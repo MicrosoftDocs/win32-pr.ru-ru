@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Fastprox.dll
-ms.openlocfilehash: 075be627b26d99a8b4f03c5a4a962b41f153c8a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20b7a70358364aed281015a86498d0a1a2af76347773d7bedf23bbd5c69861b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105683890"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118818872"
 ---
 # <a name="iwbemcausalityaccessgetrequestid-method"></a>Метод Ивбемкаусалитякцесс:: Жетрекуестид
 
@@ -59,12 +59,12 @@ HRESULT GetRequestId(
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Вбеминт. h</dt> </dl>    |
+| Заголовок<br/>                   | <dl> <dt>Вбеминт. h</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>Fastprox.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

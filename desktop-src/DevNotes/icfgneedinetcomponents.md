@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Icfgnt5.dll
-ms.openlocfilehash: c851ed7d5610d96af636afb60114a51be9c711f4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9b0d533e234986f54c6a4de668273bda08d9c810dc9f5a93acb3aaf030cea665
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657741"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119390664"
 ---
 # <a name="icfgneedinetcomponents-function"></a>Функция Икфгнидинеткомпонентс
 
@@ -49,7 +49,7 @@ HRESULT IcfgNeedInetComponents(
 
 | Значение                                                                                                                                                                                                                                  | Значение                                         |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| <span id="ICFG_INSTALLMAIL"></span><span id="icfg_installmail"></span><dl> <dt>**Икфг \_ ИНСТАЛЛМАИЛ**</dt> <dt>0x00000004</dt> </dl> | Требуется ли Exchange или Internet Mail?<br/> |
+| <span id="ICFG_INSTALLMAIL"></span><span id="icfg_installmail"></span><dl> <dt>**Икфг \_ ИНСТАЛЛМАИЛ**</dt> <dt>0x00000004</dt> </dl> | нужна ли Exchange или интернет-почта?<br/> |
 | <span id="ICFG_INSTALLRAS"></span><span id="icfg_installras"></span><dl> <dt>**Икфг \_ ИНСТАЛЛРАС**</dt> <dt>0x00000002</dt> </dl>    | Требуется ли RAS?<br/>                       |
 | <span id="ICFG_INSTALLTCP"></span><span id="icfg_installtcp"></span><dl> <dt>**Икфг \_ ИНСТАЛЛТКП**</dt> <dt>0x00000001</dt> </dl>    | Требуется ли TCP/IP?<br/>                    |
 

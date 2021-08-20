@@ -368,7 +368,7 @@ mc spooler.man
 mc -h <pathgoeshere> -r <pathgoeshere> spooler.man
 ```
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 | Требование | Значение |
 |--------------------------|-------------------------------------------------|

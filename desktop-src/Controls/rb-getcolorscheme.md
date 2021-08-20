@@ -3,7 +3,7 @@ title: Сообщение RB_GETCOLORSCHEME (Коммктрл. h)
 description: Извлекает сведения о цветовой схеме из элемента управления главной панели.
 ms.assetid: 01f81c4b-bbc9-43ae-a1f5-1e289c6fa278
 keywords:
-- Элементы управления Windows для RB_GETCOLORSCHEME сообщений
+- элементы управления Windows сообщений RB_GETCOLORSCHEME
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a3d154fd14b93127aa22148f2882f70018225cb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b918b46d1077c0074584be2d609d486097cc2e40f7a5c62a03db914fce58e320
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118169624"
 ---
 # <a name="rb_getcolorscheme-message"></a>\_Сообщение ЖЕТКОЛОРСЧЕМЕ RB
 
@@ -43,19 +43,19 @@ ms.locfileid: "104534664"
 
 Возвращает ненулевое значение в случае успеха или ноль в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

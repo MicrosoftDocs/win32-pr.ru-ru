@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 089357488c7eae18e26258018473e9008fb29d24
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4c2b76a37fa7088835ad0238065b0647ff0beb973c1c3ffa1b892f6e0958d97a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119489694"
 ---
 # <a name="glubuild1dmipmaps-function"></a>Функция gluBuild1DMipmaps
 
@@ -91,7 +91,7 @@ void WINAPI gluBuild1DMipmaps(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **gluBuild1DMipmaps** получает входной образ и создает все образы mipmap (с помощью [**глускалеимаже**](gluscaleimage.md)), чтобы входной образ можно было использовать в качестве изображения текстуры мипмаппед. Затем вызывается функция [**glTexImage1D**](glteximage1d.md) для загрузки каждого изображения. Если ширина входного изображения не является степенью двух, то изображение масштабируется до ближайшей степени числа двух перед созданием MIP-карты.
 
@@ -99,7 +99,7 @@ void WINAPI gluBuild1DMipmaps(
 
 Описание допустимых значений параметра *Format* см. в разделе **glTexImage1D**. Описание допустимых значений параметра *типа* см. в разделе [**глдравпикселс**](gldrawpixels.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -113,7 +113,7 @@ void WINAPI gluBuild1DMipmaps(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

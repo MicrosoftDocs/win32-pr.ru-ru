@@ -78,7 +78,7 @@ uint32 ChangeOwnerAuth(
 **Указанный поставщик** (32768.. 65535)
 </dt> </dl>
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -3,7 +3,7 @@ title: Сообщение MCIWNDM_GETERROR (VFW. h)
 description: МЦИВНДМ \_ сообщение об ошибке извлекает последнюю обнаруженную ошибку MCI. Это сообщение можно отправить явно или с помощью макроса МЦивнджетеррор.
 ms.assetid: f110a9b3-5b05-4bf0-85d1-b49ce7396222
 keywords:
-- MCIWNDM_GETERROR сообщения Windows мультимедиа
+- сообщение MCIWNDM_GETERROR Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c2977bb079351824b48da21f4ba3cc2dc5afe7e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b748aec6cf686ecf47baf8deae621514e620971f5e1da667f8e4f0aae708ab80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118137725"
 ---
 # <a name="mciwndm_geterror-message"></a>\_Сообщение об ошибке мЦивндм
 
@@ -56,11 +56,11 @@ lParam = (LPARAM) (LPVOID) lp;
 
 Возвращает целочисленное значение ошибки в случае успеха.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если *LP* является допустимым указателем, в его буфере возвращается строка, завершающаяся нулем, соответствующая ошибке. Если строка ошибки длиннее, чем буфер, МЦивнд усекает ее.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -72,7 +72,7 @@ lParam = (LPARAM) (LPVOID) lp;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

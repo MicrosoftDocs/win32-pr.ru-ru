@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2368b0e2abda3bcdd08872d730f8b9902dad43ac
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 882a356f47aa146ec8ba1b06d7af43235c8213334c0d82d0a241c590654bf2a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669409"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118157704"
 ---
 # <a name="cbaserendereronreceivefirstsample-method"></a>Кбасерендерер. Онрецеивефирстсампле, метод
 
@@ -53,24 +53,24 @@ virtual void OnReceiveFirstSample(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Метод [**кбасерендерер:: Receive**](cbaserenderer-receive.md) вызывает этот метод. Он не выполняет никаких действий в базовом классе, но производный класс может его переопределить. Этот метод предназначен в первую очередь для модулей подготовки видео. Когда модуль подготовки видео приостанавливается, он обычно отображает первый пример в виде изображения по-прежнему.
 
 При поиске графа во время приостановки также вызывается этот метод.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ренбасе. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>ренбасе. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

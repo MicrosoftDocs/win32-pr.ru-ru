@@ -3,7 +3,7 @@ title: Сообщение WM_CAP_GET_STATUS (VFW. h)
 description: '\_ \_ \_ Сообщение о состоянии крепления WM получает состояние окна сбора данных. Это сообщение можно отправить явно или с помощью макроса Капжетстатус.'
 ms.assetid: 31349599-a52c-45ba-8f08-91008773f317
 keywords:
-- WM_CAP_GET_STATUS сообщения Windows мультимедиа
+- сообщение WM_CAP_GET_STATUS Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 58ef6590770e8a9ece3eb8abaffb4dbca0b1a4d4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 805befc3f83c79b157e040004dcf382dccaf07b240b3b846892b8fb035f826ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118135160"
 ---
 # <a name="wm_cap_get_status-message"></a>\_ \_ Получение \_ сообщения о состоянии крепления WM
 
@@ -56,11 +56,11 @@ lParam = (LPARAM) (LPVOID) (LPCAPSTATUS) (s);
 
 Возвращает **значение true** в случае успеха или **false** , если окно записи не подключено к драйверу записи.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Структура [**капстатус**](/windows/win32/api/vfw/ns-vfw-capstatus) содержит текущее состояние окна сбора данных. Поскольку это состояние является динамическим и изменяется в ответ на различные сообщения, приложение должно инициализировать эту структуру после отправки сообщения [**\_ видеоформат WM \_ DLG \_**](wm-cap-dlg-videoformat.md) (или с помощью макроса [**капдлгвидеоформат**](/windows/desktop/api/Vfw/nf-vfw-capdlgvideoformat) ) и всякий раз, когда необходимо включить пункты меню или определить фактическое состояние окна.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -72,7 +72,7 @@ lParam = (LPARAM) (LPVOID) (LPCAPSTATUS) (s);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

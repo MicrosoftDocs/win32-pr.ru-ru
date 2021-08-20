@@ -34,12 +34,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 0ada39e4428040cf7e6732232ce789f7d837c9c8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e1171e5f303d5b122f0d2202978415206a26e94c15e69f09af73b811c33dcb2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118147810"
 ---
 # <a name="msvm_guestserviceinterfacecomponentsettingdata-class"></a>\_Класс мсвм гуестсервицеинтерфацекомпонентсеттингдата
 
@@ -83,7 +83,7 @@ class Msvm_GuestServiceInterfaceComponentSettingData : CIM_ResourceAllocationSet
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ гуестсервицеинтерфацекомпонентсеттингдата** имеет следующие свойства.
 
@@ -242,7 +242,7 @@ class Msvm_GuestServiceInterfaceComponentSettingData : CIM_ResourceAllocationSet
 
 Включенные и отключенные состояния элемента.
 
-Это свойство доступно только для чтения, но его можно изменить с помощью метода [**модифивиртуалсистемресаурцес**](/previous-versions/windows/desktop/virtual/modifyvirtualsystemresources-msvm-virtualsystemmanagementservice) (или [**модифиресаурцесеттингс**](cim-virtualsystemmanagementservice-modifyresourcesettings.md) в Windows 10 или более поздней версии) класса [**мсвм \_ виртуалсистемманажементсервице**](msvm-virtualsystemmanagementservice.md) .
+это свойство доступно только для чтения, но его можно изменить с помощью метода [**модифивиртуалсистемресаурцес**](/previous-versions/windows/desktop/virtual/modifyvirtualsystemresources-msvm-virtualsystemmanagementservice) (или [**модифиресаурцесеттингс**](cim-virtualsystemmanagementservice-modifyresourcesettings.md) в Windows 10 или более поздней версии) класса [**мсвм \_ виртуалсистемманажементсервице**](msvm-virtualsystemmanagementservice.md) .
 
 Допустимые значения:
 
@@ -480,7 +480,7 @@ class Msvm_GuestServiceInterfaceComponentSettingData : CIM_ResourceAllocationSet
 <span id="Graphics_controller"></span><span id="graphics_controller"></span><span id="GRAPHICS_CONTROLLER"></span>**Графический контроллер** (20)
 </dt> <dt>
 
-<span id="Storage_Extent"></span><span id="storage_extent"></span><span id="STORAGE_EXTENT"></span>**Область хранения** (21)
+<span id="Storage_Extent"></span><span id="storage_extent"></span><span id="STORAGE_EXTENT"></span>**экстент служба хранилища** (21)
 </dt> <dt>
 
 <span id="Disk"></span><span id="disk"></span><span id="DISK"></span>**Диск** (22)
@@ -541,21 +541,21 @@ class Msvm_GuestServiceInterfaceComponentSettingData : CIM_ResourceAllocationSet
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только Windows 8.1 Классические приложения\]<br/>                                                            |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2012 R2 \[\]<br/>                                                 |
+| Минимальная версия клиента<br/> | Windows 8.1 \[ только классические приложения\]<br/>                                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[Только классические приложения R2\]<br/>                                                 |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

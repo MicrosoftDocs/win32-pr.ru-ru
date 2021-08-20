@@ -1,19 +1,19 @@
 ---
-description: В этом разделе описывается шаг 5 руководства воспроизведение аудио-и видеороликов в DirectShow.
+description: В этом разделе приводится шаг 5 руководства воспроизведение аудио-и видеороликов в DirectShow.
 ms.assetid: 9d7a40e0-4327-4ca3-b430-2be02f80c16f
 title: Шаг 5. Добавление функции видео
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71f5ccf1ae3ca24a705506bc41620ac53a13d7e8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 968c35916f90f226305eb987058d14cc7891d250961e2b8a41a1756ec3794b1e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951783"
 ---
 # <a name="step-5-add-video-functionality"></a>Шаг 5. Добавление функции видео
 
-В этом разделе описывается шаг 5 руководства [Воспроизведение аудио-и видеороликов в DirectShow](audio-video-playback-in-directshow.md). Полный код приведен в разделе [Пример воспроизведения DirectShow](directshow-playback-example.md).
+В этом разделе приводится шаг 5 руководства [Воспроизведение аудио-и видеороликов в DirectShow](audio-video-playback-in-directshow.md). полный код приведен в разделе [пример воспроизведения DirectShow](directshow-playback-example.md).
 
 Чтобы убедиться, что видео отображается правильно, приложение должно реагировать на сообщения [**WM \_ Paint**](../gdi/wm-paint.md), [**WM \_ size**](../winmsg/wm-size.md)и [**WM \_ дисплайчанже**](../gdi/wm-displaychange.md) следующим образом.
 
@@ -200,19 +200,19 @@ HRESULT CVMR7::DisplayModeChanged()
 
 Евр не требует уведомления при изменении режима экрана.
 
-Далее: [Шаг 6. Работа с событиями графа](step-6--handle-graph-events.md).
+далее: [шаг 6. обработайте события Graph](step-6--handle-graph-events.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Воспроизведение звука и видео в DirectShow](audio-video-playback-in-directshow.md)
 </dt> <dt>
 
-[Пример воспроизведения DirectShow](directshow-playback-example.md)
+[DirectShow Пример воспроизведения](directshow-playback-example.md)
 </dt> <dt>
 
-[Использование фильтра Евр DirectShow](../medfound/using-the-directshow-evr-filter.md)
+[использование DirectShow фильтра евр](../medfound/using-the-directshow-evr-filter.md)
 </dt> <dt>
 
 [Использование модуля подготовки видео для микширования](using-the-video-mixing-renderer.md)

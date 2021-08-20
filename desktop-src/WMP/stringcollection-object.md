@@ -3,7 +3,7 @@ title: Объект StringCollection
 description: Объект StringCollection предоставляет способ управления коллекцией строк.
 ms.assetid: bd4f82e7-1a6a-47c5-b019-7aff520e621a
 keywords:
-- Проигрыватель Windows Media Object StringCollection
+- проигрыватель Windows Media объекта StringCollection
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0d1872bec7e00e87ada845f7518608ea4149f137
-ms.sourcegitcommit: 4f5016b1fbfd703dbf769c508db464c2518c0fa5
+ms.openlocfilehash: b7903a58de628d0da309f3d370b248feed62901853a216d22088e822f58a4cce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104334960"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118832158"
 ---
 # <a name="stringcollection-object"></a>Объект StringCollection
 
@@ -34,7 +34,7 @@ ms.locfileid: "104334960"
 
 
 
- 
+ 
 
 Объект **StringCollection** поддерживает следующие методы.
 
@@ -50,7 +50,7 @@ ms.locfileid: "104334960"
 
 
 
- 
+ 
 
 Доступ к объекту **StringCollection** осуществляется с помощью следующего метода.
 
@@ -62,20 +62,20 @@ ms.locfileid: "104334960"
 
 
 
- 
+ 
 
 В целях иллюстрации, *Player*. *медиаколлектион*. **жетаттрибутестрингколлектион**(*атрибут*, *mediaType*) используется в разделах синтаксиса Reference.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [**Справочник по объектной модели для создания сценариев**](object-model-reference-for-scripting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

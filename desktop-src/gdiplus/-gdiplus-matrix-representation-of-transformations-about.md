@@ -4,12 +4,12 @@ ms.assetid: 62215ae0-b095-42b2-911c-aa7607a8b61a
 title: Матричное представление преобразований
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0577cae38c401e842cff2ff14179594f9118dfd2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 122d59787038cd75a9806cac6cb0d225e8660eb13d7482d3ee1f47ff0732ca5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103809652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119036662"
 ---
 # <a name="matrix-representation-of-transformations"></a>Матричное представление преобразований
 
@@ -55,7 +55,7 @@ C (i, j) = (строка i из A) • (столбец j из B)
 
 ![Иллюстрация, показывающая, что первые два столбца наиболее важны для матрицы 3x3 с аффинное преобразованием](images/aboutgdip05-art10.png)
 
-В Windows GDI+ можно сохранить аффинное преобразование в объекте [**Matrix**](/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix) . Поскольку третий столбец матрицы, представляющий аффинное преобразование, всегда имеет значение (0, 0, 1), при построении объекта **Matrix** в первых двух столбцах указывается только шесть чисел. Оператор `Matrix myMatrix(0.0f, 1.0f, -1.0f, 0.0f, 3.0f, 4.0f);` конструирует матрицу, показанную на предыдущем рисунке.
+в Windows GDI+ можно сохранить аффинное преобразование в объекте [**матрицы**](/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix) . Поскольку третий столбец матрицы, представляющий аффинное преобразование, всегда имеет значение (0, 0, 1), при построении объекта **Matrix** в первых двух столбцах указывается только шесть чисел. Оператор `Matrix myMatrix(0.0f, 1.0f, -1.0f, 0.0f, 3.0f, 4.0f);` конструирует матрицу, показанную на предыдущем рисунке.
 
 ## <a name="composite-transformations"></a>Составные преобразования
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: d872a5f9ebf716142fb5bc506edb77bb0b66850a
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 5b5fcef771d6d06a1691d5c5e953b76b1c445c7c8df7b2da37b8b4220bef2b09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104412163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119485434"
 ---
 # <a name="texm3x3spec---ps"></a>texm3x3spec-PS
 
@@ -29,14 +29,14 @@ ms.locfileid: "104412163"
 
 
 
- 
+ 
 
-где
+where
 
 -   DST — это регистр назначения.
 -   src0 и src1 являются исходными регистрами.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -46,7 +46,7 @@ ms.locfileid: "104412163"
 
 
 
- 
+ 
 
 Эта инструкция выполняет последнюю строку матрицы 3x3, использует полученный вектор в качестве обычного вектора для отражения вектора с глазом, а затем использует отраженный вектор для выполнения поиска текстур. Шейдер считывает вектор глаза-Ray из регистра констант. Матрица 3x3, как правило, полезна для ориентации обычного вектора на правильное пространство тангенса для отрисовки поверхности.
 
@@ -125,16 +125,16 @@ mov r0, t3                // Output the result
 -   Набор координат текстуры m + 2 назначается строке 3 матрицы 3X3. Этапу m + 2 назначается том или текстура текстуры Куба. Текстура предоставляет данные цвета (RGBA).
 -   Глаз. вектор E имеет постоянный регистр E = c \# .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера пикселей](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

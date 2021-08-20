@@ -3,7 +3,7 @@ title: Сообщение WM_CAP_SET_VIDEOFORMAT (VFW. h)
 description: Сообщение WM \_ Cap \_ Set \_ видеоформат устанавливает формат записываемых видеоданных. Это сообщение можно отправить явно или с помощью макроса Капсетвидеоформат.
 ms.assetid: 4f9cf90d-7ccb-4fc7-aad5-3d7e082526be
 keywords:
-- WM_CAP_SET_VIDEOFORMAT сообщения Windows мультимедиа
+- сообщение WM_CAP_SET_VIDEOFORMAT Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ba6154ec1532bd83f482eb81a0e286795aa3341
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c543f613fedf54518579829d6825bd20dc4738ae03cb77f0996f8a58a123cb76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989320"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118135025"
 ---
 # <a name="wm_cap_set_videoformat-message"></a>\_ \_ Сообщение видеоформат установки крепления WM \_
 
@@ -56,11 +56,11 @@ lParam = (LPARAM) (LPVOID) (psVideoFormat);
 
 Возвращает **значение true** в случае успеха или **false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Так как форматы видео специфичны для конкретного устройства, приложения должны проверить возвращаемое значение этой функции, чтобы определить, принимается ли формат драйвером.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -72,7 +72,7 @@ lParam = (LPARAM) (LPVOID) (psVideoFormat);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: cfcb47dc0a440f4d48a457826985868bda6c05d1
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 9085b6d1d14974b14370fb92737985c4cfce494b0b5c57f618d92d35115d81d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108111602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118147533"
 ---
 # <a name="requeststatechange-method-of-the-msvm_metricservice-class"></a>Метод RequestStateChange \_ класса мсвм метриксервице
 
@@ -151,7 +151,7 @@ uint32 RequestStateChange(
 **Не поддерживается** (1)
 </dt> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
