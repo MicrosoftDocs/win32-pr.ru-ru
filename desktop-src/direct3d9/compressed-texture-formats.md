@@ -4,12 +4,12 @@ ms.assetid: a916d635-2be4-48be-ba70-a743b2969553
 title: Форматы сжатых текстур (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dcecf6e98d125f3a391ab0e7a7c569a8dbd27d0d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d3c4cfac9afa43ca25e3482d9674d5e0058444fd55a67e7a4304c13b0536894a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103807750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118097119"
 ---
 # <a name="compressed-texture-formats-direct3d-9"></a>Форматы сжатых текстур (Direct3D 9)
 
@@ -26,7 +26,7 @@ ms.locfileid: "103807750"
 
 Высота форматов Дкстн отличается от того, что было возвращено в DirectX 7,0. Шаг теперь измеряется в байтах (не блоках). Например, если у вас ширина 16, то у вас будет шаг четырех блоков (4 \* 8 для DXT1, 4 \* 16 для DXT2-5).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

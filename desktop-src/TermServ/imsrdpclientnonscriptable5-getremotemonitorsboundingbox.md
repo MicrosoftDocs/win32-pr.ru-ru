@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 97f67192b78c734359fc6113969eb5eb410e1bf3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a47b308bf95389dcf043e87565be365ec69ecc34500ac187ee11a679349f18ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118129892"
 ---
 # <a name="imsrdpclientnonscriptable5getremotemonitorsboundingbox-property"></a>Свойство IMsRdpClientNonScriptable5:: Жетремотемониторсбаундингбокс
 
@@ -55,11 +55,11 @@ HRESULT get_GetRemoteMonitorsBoundingBox(
 
 Получает нижнюю границу прямоугольника.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Все координаты находятся в координатах виртуального экрана, которые находятся относительно левого верхнего угла основного монитора. Если это не основной монитор, некоторые или все из этих значений могут быть отрицательными.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -73,7 +73,7 @@ HRESULT get_GetRemoteMonitorsBoundingBox(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

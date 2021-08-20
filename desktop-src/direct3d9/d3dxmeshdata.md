@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3dx9anim.h
-ms.openlocfilehash: 785284ba1330c957813a099eb6cf1c74521d3c90
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ba2f4df1b5234103916929d85dca24153b2f08b882e8566094276a9514699cc7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104354173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118095535"
 ---
 # <a name="d3dxmeshdata-structure"></a>Структура D3DXMESHDATA
 
@@ -82,11 +82,11 @@ typedef struct D3DXMESHDATA {
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx9anim. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx9anim. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

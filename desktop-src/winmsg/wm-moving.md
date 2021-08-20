@@ -4,12 +4,12 @@ ms.assetid: f56a36c1-dbaa-438a-9e52-d12697a9dac9
 title: Сообщение WM_MOVING (Winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b5847189d64601ec999321920ead716fbdf22e2c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 45c27a985d8f048cc5e1b73f021b1bcf48c4f2ecf6fac435c85ea40aa8f6fc93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118030786"
 ---
 # <a name="wm_moving-message"></a>\_Перемещение сообщения WM
 
@@ -56,11 +56,11 @@ ms.locfileid: "105673267"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

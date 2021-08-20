@@ -4,12 +4,12 @@ ms.assetid: 85EE663C-94B7-47EA-ABBA-A8371342EEB2
 title: Событие Мевидеокаптуредевицепримптед (Мфобжектс. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3968c0641d954741474b1d5ec7ffaa11dcad5f15
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78246d6560344735167fc6efd45ba0481095534977c67dac11a76ffae0947d1e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683130"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118061167"
 ---
 # <a name="mevideocapturedevicepreempted-event"></a>Событие Мевидеокаптуредевицепримптед
 
@@ -27,7 +27,7 @@ ms.locfileid: "105683130"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это событие отправляется [**имфмедиасаурце**](/windows/desktop/api/mfidl/nn-mfidl-imfmediasource) , который инкапсулирует устройство.
 
@@ -37,13 +37,13 @@ ms.locfileid: "105683130"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                               |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Мфобжектс. h (включение Мфидл. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                               |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Мфобжектс. h (включение Мфидл. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

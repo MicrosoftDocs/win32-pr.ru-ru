@@ -4,16 +4,16 @@ ms.assetid: ''
 title: Оценка движения видео Direct3D
 ms.topic: article
 ms.date: 08/19/2019
-ms.openlocfilehash: 7fdb6146e1bb77c673eb89d944bcf42a8babce49
-ms.sourcegitcommit: 7ef31bf778e76ce4196205d4c4c632fbdc649805
+ms.openlocfilehash: 0a49f7d3ec5e68ee6151b706be65866f1e156d6f876909c99b485356fb4df21c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "105719873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118064125"
 ---
 # <a name="direct3d-video-motion-estimation"></a>Оценка движения видео Direct3D
 
-Эта статья содержит рекомендации по оценке вектора движения с помощью API-интерфейсов видео Direct3D 12. Эта функция появилась в Windows 10 версии 2004 (10,0; Сборка 19041). Оценка движения — это процесс определения векторов движения, описывающих преобразование из одного 2D-изображения в другое. Оценка движения является важнейшей частью кодирования видео и может использоваться в алгоритмах преобразования частоты кадров. 
+Эта статья содержит рекомендации по оценке вектора движения с помощью API-интерфейсов видео Direct3D 12. эта функция появилась в Windows 10 версии 2004 (10,0; Сборка 19041). Оценка движения — это процесс определения векторов движения, описывающих преобразование из одного 2D-изображения в другое. Оценка движения является важнейшей частью кодирования видео и может использоваться в алгоритмах преобразования частоты кадров. 
 
 Хотя оценка движения может быть реализована с помощью шейдеров, целью функции оценки движения D3D12 является предоставление ускоренной функции для поиска движения с целью разгрузки этой части работы из трехмерной графики. Часто это происходит в форме предоставления средства оценки движения кодировщика видео GPU. Целью оценки движения D3D12 является оптический поток, но следует отметить, что средства оценки движения кодировщика могут быть оптимизированы для улучшения сжатия.
 
@@ -51,7 +51,7 @@ VERIFY_SUCCEEDED(spVideoDevice->CreateVideoMotionEstimator(
 
 
 
-## <a name="storage-of-motion-vectors"></a>Хранение векторов движения
+## <a name="storage-of-motion-vectors"></a>служба хранилища векторов движения
 
 [ID3D12VideoMotionVectorHeap](/windows/win32/api/d3d12video/nn-d3d12video-id3d12videomotionvectorheap) сохраняет векторы движения. Этот интерфейс используется структурой [D3D12_VIDEO_MOTION_ESTIMATOR_OUTPUT](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_video_motion_estimator_output) , возвращаемой из [ID3D12VideoEncodeCommandList:: естиматемотион](/windows/win32/api/d3d12video/nf-d3d12video-id3d12videoencodecommandlist-estimatemotion). Разрешаемая двухмерная текстура вывода — это [DXGI_FORMAT_R16G16_SINT](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) текстура, где R содержит горизонтальный компонент, а G содержит вертикальный компонент вектора движения. Эта текстура имеет размер, чтобы вместить одну пару компонентов на блок. Вызовите метод [ID3D12VideoEncodeCommandList:: ресолвемотионвекторхеап](/windows/win32/api/d3d12video/nf-d3d12video-id3d12videoencodecommandlist-resolvemotionvectorheap) , чтобы переводит выходные данные вектора движения **естиматемотион** из аппаратно зависимых форматов в единообразный формат, определенный API-интерфейсом оценки движения видео.
 
@@ -141,7 +141,7 @@ spCommandQueue->ExecuteCommandLists(1, ppCommandLists);
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 * [API-интерфейсы видео Direct3D 12](direct3d-12-video-apis.md)
 * [Media Foundationое программное руководством](media-foundation-programming-guide.md)

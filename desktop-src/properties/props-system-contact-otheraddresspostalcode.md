@@ -4,12 +4,12 @@ ms.assetid: 04dcee21-1f3b-4dee-95bf-d0df3a614094
 title: System. Contact. Осераддресспосталкоде
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: afe2af10790270efc055514e11e4dcdb70aecf24
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2c5386fe849fcf2b46cf6dbcad18c75d1ee0037fadd67fc5b8e62ab8a1eacc83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265334"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117684505"
 ---
 # <a name="systemcontactotheraddresspostalcode"></a>System. Contact. Осераддресспосталкоде
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

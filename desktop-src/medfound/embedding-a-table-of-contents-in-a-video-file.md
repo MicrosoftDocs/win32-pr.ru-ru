@@ -4,12 +4,12 @@ ms.assetid: 1546388a-7868-4411-be20-34d28becbe76
 title: Внедрение оглавления в видеофайл
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a8303082e454dde181de336ee0f64ff9d583312
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 92696b3ab1418bad55cdbfd78daf9708564e4c0fa2346367930571b51f156f8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104143120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118063999"
 ---
 # <a name="embedding-a-table-of-contents-in-a-video-file"></a>Внедрение оглавления в видеофайл
 
@@ -116,7 +116,7 @@ HRESULT InitTocParserAndCommit(IToc* pToc)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

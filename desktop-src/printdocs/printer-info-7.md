@@ -91,7 +91,7 @@ typedef struct _PRINTER_INFO_7 {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

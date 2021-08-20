@@ -4,12 +4,12 @@ ms.assetid: 722ebb14-c3e8-4f83-8fa2-e006b1094a59
 title: Атрибут MF_PD_TOTAL_FILE_SIZE (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ec7fc868c2438b576beff358ff722b3cb61851a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e2b8a99c51adc85c554a26a808299816d2026ca66a610fa2d430b652cb6f609
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103913163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118059581"
 ---
 # <a name="mf_pd_total_file_size-attribute"></a>\_ \_ Общий \_ \_ атрибут размера файла MF PD
 
@@ -19,7 +19,7 @@ ms.locfileid: "103913163"
 
 **UINT64**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Константа GUID для этого атрибута экспортируется из мфууид. lib.
 
@@ -29,13 +29,13 @@ ms.locfileid: "103913163"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows Vista \|\]<br/>                              |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 \|\]<br/>                        |
-| Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Приложения UWP для классических приложений Vista \|\]<br/>                              |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для классических приложений сервера 2008 \|\]<br/>                        |
+| Заголовок<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

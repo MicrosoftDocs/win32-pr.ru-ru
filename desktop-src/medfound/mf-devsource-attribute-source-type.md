@@ -4,12 +4,12 @@ ms.assetid: c6c05267-1c93-48e2-b463-b5a1514f1b7b
 title: Атрибут MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3445c74b1a77472bad564f6988f9ae2f4696fef7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1160242b32ce6b6b902d1575cba4d275388a38b980d69a0bad0a528f377085d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118060688"
 ---
 # <a name="mf_devsource_attribute_source_type-attribute"></a>\_ \_ \_ Атрибут типа источника атрибута MF девсаурце \_
 
@@ -38,7 +38,7 @@ ms.locfileid: "105701653"
 
 Чтобы задать этот атрибут, вызовите [**имфаттрибутес:: сетгуид**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setguid).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте этот атрибут в качестве входных данных для следующих функций:
 
@@ -56,13 +56,13 @@ ms.locfileid: "105701653"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                         |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                            |
-| Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                         |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                            |
+| Заголовок<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 44c69cfe537257076623e472f4bb1406f8bf7665
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f21e301150fe0f9f03f62180ac4b42fb19d498724a31ab390ca5c391d7190c6b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117812615"
 ---
 # <a name="cim_dvddrive-class"></a>\_Класс CIM двддриве
 
@@ -41,7 +41,7 @@ class CIM_DVDDrive : CIM_MediaAccessDevice
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ двддриве** имеет следующие свойства.
 
@@ -233,7 +233,7 @@ class CIM_DVDDrive : CIM_MediaAccessDevice
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

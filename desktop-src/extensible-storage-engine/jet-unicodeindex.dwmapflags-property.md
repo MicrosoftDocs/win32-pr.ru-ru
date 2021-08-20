@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a625da5f80271b52f6eff74a2427e749219e46a1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b7e7f7be15a52948a269544b606d90a290f129ff262240ddc92e33a67c9b24fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702618"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117892119"
 ---
 # <a name="jet_unicodeindexdwmapflags-property"></a>Свойство JET_UNICODEINDEX. Двмапфлагс
 
@@ -68,7 +68,7 @@ public uint dwMapFlags { get; set; }
 
 Тип: [System. UInt32](/dotnet/api/system.uint32)  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

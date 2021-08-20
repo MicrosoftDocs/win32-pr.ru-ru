@@ -4,12 +4,12 @@ ms.assetid: b3469cce-c40a-4cc5-8edb-5b0f714b0df2
 title: System. Рекордедтв. Еписоденаме
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18f8e6ee0ac04a24d85840273c70c8808842f09d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c0ec038f2bc73027f1bc6186822c173e01891bd822a154da846c7eaa1762ddd3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911404"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117682193"
 ---
 # <a name="systemrecordedtvepisodename"></a>System. Рекордедтв. Еписоденаме
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

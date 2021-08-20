@@ -4,18 +4,18 @@ ms.assetid: 07cfde25-6e46-47fa-a810-0f6b482981fd
 title: Об управлении устройствами
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9c8a11ceae55df48add64c68ba14bfbe6cd858c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 73046875cc52b1087593d5d2cb4c7f6a9e3f67cf4ae1a2f88f91c43c39ddb64f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104072451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118004754"
 ---
 # <a name="about-device-management"></a>Об управлении устройствами
 
 Система использует сообщения для уведомления приложений об изменениях устройств и изменении энергопотребления. Сообщения устройства уведомляют приложения о событиях изменения устройства; сообщения о питании уведомляют приложения о событиях управления питанием. Приложения и драйверы могут также определять и использовать пользовательские сообщения для включения уведомлений о других типах событий. В этом обзоре содержатся сведения по следующим темам:
 
--   [Сообщения устройства](device-messages.md)
+-   [Сообщения устройств](device-messages.md)
 -   [Типы событий устройств](device-event-types.md)
 -   [Уведомления устройства](device-notifications.md)
 -   [События устройства](device-events.md)

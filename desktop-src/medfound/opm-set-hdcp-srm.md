@@ -4,12 +4,12 @@ ms.assetid: ea18baba-0e03-4471-af0e-a588773c98d2
 title: OPM_SET_HDCP_SRM (Опмапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9283c493598f22a1715f687eccea985a27e0e6f0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 23601386353e0a18ed95238cee7a11ba9c39a84fbf1855b839bde0fd841ccd17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263501"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118058730"
 ---
 # <a name="opm_set_hdcp_srm"></a>ОПМ \_ Set \_ HDCP \_ СРМ
 
@@ -28,7 +28,7 @@ ms.locfileid: "104263501"
 
 Параметр *Пбаддитионалпараметерс* [**Иопмвидеуутпут:: Configure**](/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-configure) должен указывать на буфер, содержащий СРМ. Формат HDCP СРМ описан в спецификации HDCP. Установите параметр *уладдитионалпараметерссизе* равным размеру буфера в байтах.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Срмс используются для обновления списка отозванных устройств HDCP. Срмс доставляются с видеоматериалом.
 
@@ -55,13 +55,13 @@ ms.locfileid: "104263501"
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                      |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                |
-| Header<br/>                   | <dl> <dt>Опмапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                      |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                |
+| Заголовок<br/>                   | <dl> <dt>Опмапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

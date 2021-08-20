@@ -4,12 +4,12 @@ description: Здесь мы покажем, как скомпилировать
 ms.assetid: ED2EB1DE-3C25-4633-BFA7-C535ABBBAD28
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90124ca9753a390b924d5ba702e1986e32eee9e5
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: afb0f16d226357aca63259a9cc014a3c149d84b87d1b9340b1452b802e0df410
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104997146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117906442"
 ---
 # <a name="packaging-a-shader-library"></a>Упаковка библиотеки шейдеров
 
@@ -17,7 +17,7 @@ ms.locfileid: "104997146"
 
 **Цель:** Упаковка библиотеки шейдеров для использования при связывании с шейдером.
 
-## <a name="prerequisites"></a>Предварительные условия
+## <a name="prerequisites"></a>Необходимые компоненты
 
 Предполагается, что вы знакомы с C++. Также вы должны быть знакомы с основными принципами программирования графики.
 
@@ -122,13 +122,13 @@ cbuffer HiddenBuffer : register(b2)
 
 [Создание графа связывания функций и связывание его с скомпилированным кодом](constructing-a-function-linking-graph.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Использование связывания шейдера](using-shader-linking.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

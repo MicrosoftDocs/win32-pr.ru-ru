@@ -1,9 +1,9 @@
 ---
 title: Сообщение MM_MIM_OPEN (Ммсистем. h)
-description: '\_ \_ При открытии входного устройства MIDI в окне будет отправлено сообщение с открытым параметром mm MIM.'
+description: сообщение MM \_ MIM \_ OPEN отправляется в окно при открытии входного устройства MIDI.
 ms.assetid: 8dfc24a0-0ab8-4f49-954f-0c0a55fa28bc
 keywords:
-- MM_MIM_OPEN сообщения Windows мультимедиа
+- сообщение MM_MIM_OPEN Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b7d87e391336b948d0c784048baeffa7bba88b29
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 008d6b090968c4823ab14159772f5e8ba8531166a299bf1d9e90061739831d28
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117985524"
 ---
-# <a name="mm_mim_open-message"></a>\_ \_ Открытое сообщение для MIM
+# <a name="mm_mim_open-message"></a>MM \_ MIM \_ открыть сообщение
 
-При открытии входного устройства MIDI в окне будет отправлено сообщение с **\_ \_ открытым параметром mm MIM** .
+сообщение **MM \_ MIM \_ OPEN** отправляется в окно при открытии входного устройства MIDI.
 
 
 ```C++
@@ -64,11 +64,11 @@ lParam = reserved
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

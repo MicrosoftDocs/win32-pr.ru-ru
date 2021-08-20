@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 29a2427cfa19a84a8b8988cceacf3e0b836a031f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ba9114ca22a1052161000fcb05f38622ab9d210ec02b14715dad1bb85ce1365e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118130675"
 ---
 # <a name="getint32property-method-of-the-win32_rdshserver-class"></a>Метод GetInt32Property \_ класса Win32 рдшсервер
 
@@ -62,7 +62,7 @@ uint32 GetInt32Property(
 
 Возвращает значение 0 при успешном выполнении, в противном случае возвращает код ошибки WMI.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -71,13 +71,13 @@ uint32 GetInt32Property(
 | Минимальная версия клиента<br/> | Ни одна версия не поддерживается<br/>                                                                                      |
 | Минимальная версия сервера<br/> | Windows Server 2012<br/>                                                                                 |
 | Пространство имен<br/>                | Корневой \\ \\ rdms CIMv2<br/>                                                                                   |
-| Header<br/>                   | <dl> <dt>Microsoft. Diagnostics. аппаналисис. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Microsoft. Diagnostics. аппаналисис. h</dt> </dl> |
 | MOF<br/>                      | <dl> <dt>Рдманажемент. mof</dt> </dl>                    |
 | DLL<br/>                      | <dl> <dt>RDMS.dll</dt> </dl>                            |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

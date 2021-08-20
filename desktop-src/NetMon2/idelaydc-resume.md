@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 9c8c3b505e0e9fb306a444111cce22c8c580d015
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 224961408fc349cf3f7ebb55ba0f95ee248e680945a88b04cebbbda3391d03e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108109192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117981238"
 ---
 # <a name="idelaydcresume-method"></a>Метод Иделайдк:: Resume
 
@@ -49,8 +49,8 @@ HRESULT STDMETHODCALLTYPE Resume();
 | Код возврата                                                                                                | Описание                                                                                                                               |
 |------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_запись нмерр \_ не \_ приостановлена**</dt> </dl> | Запись не приостановлена. Вызовите [**иделайдк::P Аусе**](idelaydc-pause.md) , чтобы приостановить запись.<br/>                                |
-| <dl> <dt>**НМЕРР \_ не \_ подключен**</dt> </dl>       | НПП не подключен к сети. Вызовите [**иделайдк:: Connect**](idelaydc-connect.md) , чтобы подключить НПП к сети.<br/> |
-| <dl> <dt>**НМЕРР \_ не \_ отложена**</dt> </dl>         | НПП подключается к сети, но не с методом [**иделайдк:: Connect**](idelaydc-connect.md) .<br/>                     |
+| <dl> <dt>**НМЕРР \_ не \_ подключен**</dt> </dl>       | НПП не подключен к сети. вызовите [**иделайдк:: Подключение**](idelaydc-connect.md) , чтобы подключить нпп к сети.<br/> |
+| <dl> <dt>**НМЕРР \_ не \_ отложена**</dt> </dl>         | нпп подключается к сети, но не с помощью метода [**иделайдк:: Подключение**](idelaydc-connect.md) .<br/>                     |
 
 
 
@@ -84,7 +84,7 @@ HRESULT STDMETHODCALLTYPE Resume();
 [иделайдк](idelaydc.md)
 </dt> <dt>
 
-[**Иделайдк:: Connect**](idelaydc-connect.md)
+[**иделайдк:: Подключение**](idelaydc-connect.md)
 </dt> <dt>
 
 [**Иделайдк::P Аусе**](idelaydc-pause.md)

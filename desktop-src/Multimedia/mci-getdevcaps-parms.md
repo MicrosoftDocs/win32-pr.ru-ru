@@ -3,7 +3,7 @@ title: Структура MCI_GETDEVCAPS_PARMS (МЦиапи. h)
 description: '\_ \_ Структура пармс MCI жетдевкапс содержит сведения о устройства для команды MCI \_ жетдевкапс.'
 ms.assetid: a7b128c5-2121-49cd-b668-3a8466d49a73
 keywords:
-- MCI_GETDEVCAPS_PARMS структура мультимедиа Windows
+- структура MCI_GETDEVCAPS_PARMS Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a981f6fb9f156cecfa1b4b73046b1b3c654b32e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ce92984e164e5aaf3b3cd0abbc4168ffb17f26d10accd19a6d2eac0f60798a94
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117986584"
 ---
 # <a name="mci_getdevcaps_parms-structure"></a>\_ \_ Структура пармс MCI жетдевкапс
 
@@ -63,7 +63,7 @@ typedef struct {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При назначении данных членам этой структуры установите соответствующие флаги в параметре *фдвкомманд* функции [**мЦисендкомманд**](/previous-versions//dd757160(v=vs.85)) , чтобы проверить элементы.
 
@@ -79,7 +79,7 @@ typedef struct {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

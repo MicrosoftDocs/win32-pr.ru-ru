@@ -4,12 +4,12 @@ ms.assetid: 4f2885b6-c771-4577-880d-5feea671432e
 title: Атрибут MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_AUDCAP_ROLE (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 148ae6697151698eef58d3c0148de3ed81822a05
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ebe0aecb12a7831218fceb3c480c6c4e2a20a1ffa330675a642feefc14ecbe39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080488"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118060747"
 ---
 # <a name="mf_devsource_attribute_source_type_audcap_role-attribute"></a>\_ \_ \_ \_ \_ Атрибут роли АУДКАП для типа источника \_ атрибута MF девсаурце
 
@@ -25,7 +25,7 @@ ms.locfileid: "104080488"
 
 Чтобы задать этот атрибут, вызовите [**имфаттрибутес:: SetUINT32**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint32).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Тип перечисления **ероле** описан в основной документации по API аудио.
 
@@ -43,13 +43,13 @@ ms.locfileid: "104080488"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                         |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                            |
-| Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                         |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                            |
+| Заголовок<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

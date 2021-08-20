@@ -4,12 +4,12 @@ ms.assetid: 15e65aff-67d9-4d1a-a6a7-b921cecb3aec
 title: Код уведомления IMN_SETSTATUSWINDOWPOS (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 91d76a962e9cc509a6f9ffaac900b761b868f960
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d0c414de9ba8e75a85d6649d747173c73af274c3527cf9f0dc5b7540a3bf8669
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117810131"
 ---
 # <a name="imn_setstatuswindowpos-notification-code"></a>\_Код уведомления ИМН сетстатусвиндовпос
 
@@ -44,11 +44,11 @@ IMN_SETSTATUSWINDOWPOS
 
 Эта команда не имеет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение может получить сведения о положении окна состояния с помощью команды [**ИМК \_ жетстатусвиндовпос**](imc-getstatuswindowpos.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -56,11 +56,11 @@ IMN_SETSTATUSWINDOWPOS
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                           |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                 |
-| Заголовок<br/>                   | <dl> <dt>IMM. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Imm. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

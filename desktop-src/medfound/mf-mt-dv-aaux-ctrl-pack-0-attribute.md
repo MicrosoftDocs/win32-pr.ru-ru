@@ -4,12 +4,12 @@ ms.assetid: 483b5a5e-d385-4730-91dc-2e4dcca73ead
 title: Атрибут MF_MT_DV_AAUX_CTRL_PACK_0 (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7db455cacfce9c57eb0938401ab45a94d979ea3e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c57a29514047a01a5a3a6a7e8994ed75fed5e7a86f050cac2b0f74772c0e7a55
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103811849"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118060239"
 ---
 # <a name="mf_mt_dv_aaux_ctrl_pack_0-attribute"></a>\_Атрибут MF \_ DV \_ ааукс \_ CTRL \_ Pack \_ 0
 
@@ -19,9 +19,9 @@ ms.locfileid: "103811849"
 
 **UINT32**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Этот атрибут соответствует элементу **двдваауксктл** структуры [**двинфо**](/windows/win32/api/strmif/ns-strmif-dvinfo) DirectShow.
+этот атрибут соответствует элементу **двдваауксктл** структуры DirectShow [**двинфо**](/windows/win32/api/strmif/ns-strmif-dvinfo) .
 
 Константа GUID для этого атрибута экспортируется из мфууид. lib.
 
@@ -31,13 +31,13 @@ ms.locfileid: "103811849"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows Vista \|\]<br/>                              |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 \|\]<br/>                        |
-| Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Приложения UWP для классических приложений Vista \|\]<br/>                              |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для классических приложений сервера 2008 \|\]<br/>                        |
+| Заголовок<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

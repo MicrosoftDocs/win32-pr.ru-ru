@@ -4,16 +4,16 @@ description: Сведения о свойстве Visible объекта Ком�
 ms.assetid: 820a5298-6aaf-4aea-9e71-38a07148a08c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc17dc46e7f91d656c7b350a489b0506866932c7
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 33f1868abdffe40c7f8efed671a2efa49a5f5e3638bc1ae9df9007405bd3e346
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112396230"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118066924"
 ---
 # <a name="visible-property-commandswindow-object"></a>Свойство Visible (объект Коммандсвиндов)
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 <dl> <dt>
 

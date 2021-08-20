@@ -4,12 +4,12 @@ ms.assetid: a2489ba1-f322-4b63-a479-0d9879c30a8c
 title: Атрибут MF_MT_GEOMETRIC_APERTURE (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e194408dd8b6bf4a4dac717c7d41aaecbb06f306
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a59ff454812564180087fd7d5c1073cb2348b71f46fb77de9bf01021c2c5d62e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118060175"
 ---
 # <a name="mf_mt_geometric_aperture-attribute"></a>\_ \_ Атрибут геометрического \_ Апертура MF
 
@@ -19,7 +19,7 @@ ms.locfileid: "103991473"
 
 массив байтов;
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значением этого атрибута является структура [**мфвидеоареа**](/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoarea) .
 
@@ -61,13 +61,13 @@ HRESULT SetGeometricAperture(
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows Vista \|\]<br/>                              |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 \|\]<br/>                        |
-| Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Приложения UWP для классических приложений Vista \|\]<br/>                              |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для классических приложений сервера 2008 \|\]<br/>                        |
+| Заголовок<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

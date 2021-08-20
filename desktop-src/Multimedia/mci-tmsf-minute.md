@@ -3,7 +3,7 @@ title: Макрос MCI_TMSF_MINUTE (МЦиапи. h)
 description: Макрос MCI \_ тмсф \_ Minute извлекает компонент минут из параметра, содержащего Упакованные дорожки/минуты/секунды/кадры (тмсф).
 ms.assetid: 9a972579-240f-4641-b65e-9088f39cdf9e
 keywords:
-- MCI_TMSF_MINUTE макросов Windows мультимедиа
+- MCI_TMSF_MINUTE макрос Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b69a12c2622f3f97f04bdca89389c8ab9be7e948
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 673295aa92503c28ff7a285182fa9e5b1a71321dc59ab9a76536692adc836273
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117986125"
 ---
 # <a name="mci_tmsf_minute-macro"></a>\_Макрос MCI тмсф \_ Minute
 
@@ -51,7 +51,7 @@ BYTE MCI_TMSF_MINUTE(
 
 Возвращает компонент минут указанной информации ТМСФ.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Время в формате ТМСФ выражается как значение **DWORD** с наименьшим значащим байтом, содержащим дорожки, следующий младший значащий байт, содержащий минуты, следующий младший значащий байт, содержащий секунды, и самый значащий байт, содержащий кадры.
 
@@ -76,7 +76,7 @@ BYTE MCI_TMSF_MINUTE(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

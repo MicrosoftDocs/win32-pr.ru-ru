@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: e32676077cccd5c7e17fa551e904079f457b8d01
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d801f0ce1ecc6b30ff9ae5481047cbacf9fa3e20f2713a4cf39b723c5fa904ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682946"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117812821"
 ---
 # <a name="cim_devicesapimplementation-class-hyper-v-management"></a>Класс CIM_DeviceSAPImplementation (Управление Hyper-V)
 
@@ -43,7 +43,7 @@ class CIM_DeviceSAPImplementation : CIM_Dependency
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ девицесапимплементатион** имеет следующие свойства.
 
@@ -81,7 +81,7 @@ class CIM_DeviceSAPImplementation : CIM_Dependency
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -95,7 +95,7 @@ class CIM_DeviceSAPImplementation : CIM_Dependency
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

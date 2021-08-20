@@ -4,12 +4,12 @@ ms.assetid: c9f131ff-0b79-487c-9a46-a9b1350553a1
 title: Пример MPEG1Source
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c71bd541a7bd01621ca7359eb9e229a08e91a04
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 652a58877267eaa92f906de88d40e614ce5b598220d4b76030caffa2187c8626
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118058842"
 ---
 # <a name="mpeg1source-sample"></a>Пример MPEG1Source
 
@@ -29,9 +29,9 @@ ms.locfileid: "105650628"
 -   Асинхронные методы
 -   Асинхронный ввод-вывод
 
-В Windows SDK для Windows Server 2008 этот пример также включает пример видеодекодера MPEG-1, который отображает код времени для каждого кадра видео. (В действительности он не расшифровывает битовый поток MPEG-1.)
+в Windows SDK для Windows Server 2008 этот пример также включает пример видеодекодера MPEG-1, который отображает код времени для каждого кадра видео. (В действительности он не расшифровывает битовый поток MPEG-1.)
 
-Начиная с Windows SDK для Windows 7 декодер был перемещен в отдельный пример. См. [Пример декодера](decoder-sample.md).
+начиная с Windows SDK для Windows 7 декодер был перемещен в отдельный пример. См. [Пример декодера](decoder-sample.md).
 
 ## <a name="usage"></a>Использование
 
@@ -55,9 +55,9 @@ ms.locfileid: "105650628"
 
 ## <a name="downloading-the-sample"></a>Загрузка образца
 
-Этот пример доступен в [репозитории GitHub с классическими примерами Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/mpeg1source).
+этот пример доступен в [репозитории github для классических примеров Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/mpeg1source).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

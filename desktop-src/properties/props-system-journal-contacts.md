@@ -4,12 +4,12 @@ ms.assetid: f0da34f2-852d-4647-8150-979439fc0f4d
 title: System. журнал. контакты
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 266e7690afaf703f54dc4ff4819b85f6d004d6ae
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 3d796ccd356ac4f6e73d7dec76d98ca5d92fd7e47f9c738cc90e805901b99787
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108086972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117683776"
 ---
 # <a name="systemjournalcontacts"></a>System. журнал. контакты
 
@@ -32,7 +32,7 @@ propertyDescription
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

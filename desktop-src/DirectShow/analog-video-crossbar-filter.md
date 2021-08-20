@@ -4,22 +4,22 @@ ms.assetid: 668f6a8b-a4ed-4e4a-956c-a87f165225fa
 title: Фильтр аналогового микшера видео
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d17d8700131dbc658a5233d56f339c39eac7a3a0
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 75b92d75ecc18640e5e0c870d7a37a93496c16833eecbcf42865cecdabebc0cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118001572"
 ---
 # <a name="analog-video-crossbar-filter"></a>Фильтр аналогового микшера видео
 
-Фильтр аналогового микшера видео представляет микшер видео на устройстве видеозаписи, поддерживающем WDM (WDM).
+фильтр аналогового микшера видео представляет микшер видео на устройстве видеозаписи, поддерживающем WDM (WDM).
 
 Этот фильтр является фильтром оболочки для микширования на устройствах потоковой передачи WDM. Понятное имя фильтра берется с устройства. Каждый выходной ПИН-код представляет собой аппаратный путь для аналогового видео басебанд. Один из входных контактов поступает из ТВ-тюнера ( [фильтра ТВ-тюнера](tv-tuner-filter.md)). Другие входные ПИН-коды поддерживают видео-или звуковые потоки. Фильтр поддерживает все типы мультимедиа и форматы, которые поддерживаются в подчиненных соединениях.
 
 Этот фильтр нельзя создать напрямую с помощью CoCreateInstance. Интерфейс [**ICaptureGraphBuilder2**](/windows/desktop/api/Strmif/nn-strmif-icapturegraphbuilder2) автоматически добавляет этот фильтр к графу по мере необходимости.
 
-Дополнительные сведения о фильтрах оболочки и устройствах потоковой передачи WDM см. [в статье как устройства участвуют в графе фильтра](how-hardware-devices-participate-in-the-filter-graph.md).
+Дополнительные сведения о фильтрах оболочки и устройствах потоковой передачи WDM см. [в разделе как устройства участвуют в фильтре Graph](how-hardware-devices-participate-in-the-filter-graph.md).
 
 
 
@@ -44,7 +44,7 @@ ms.locfileid: "107909602"
 
 <dl> <dt>
 
-[Фильтры DirectShow](directshow-filters.md)
+[DirectShow Фильтрующ](directshow-filters.md)
 </dt> <dt>
 
 [Работа с микшерами](working-with-crossbars.md)

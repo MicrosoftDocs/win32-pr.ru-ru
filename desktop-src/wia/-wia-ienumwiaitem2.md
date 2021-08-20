@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: f6e41b3172793f696a9ea3c2d319bdee6ca3d691
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d9797a5b2349dd52c21204016d501fc2a34e4f6d2f71d7d4ee696aa208db01b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650590"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117670207"
 ---
 # <a name="ienumwiaitem2-interface"></a>Интерфейс IEnumWiaItem2
 
@@ -42,7 +42,7 @@ ms.locfileid: "105650590"
 | [**GetCount**](-wia-ienumwiaitem2-getcount.md) | Возвращает количество элементов, хранящихся в этом перечислителе. <br/>                                                          |
 | [**Далее**](-wia-ienumwiaitem2-next.md)         | Заполняет массив указателей на интерфейсы [**IWiaItem2**](-wia-iwiaitem2.md) .<br/>                                       |
 | [**Перезапуск**](-wia-ienumwiaitem2-reset.md)       | Сбрасывает ссылку перечисления на первый объект [**IWiaItem2**](-wia-iwiaitem2.md) . <br/>                          |
-| [**Пропустить**](-wia-ienumwiaitem2-skip.md)         | Пропускает указанное число элементов во время перечисления доступных объектов [**IWiaItem2**](-wia-iwiaitem2.md) .<br/> |
+| [**Сразу**](-wia-ienumwiaitem2-skip.md)         | Пропускает указанное число элементов во время перечисления доступных объектов [**IWiaItem2**](-wia-iwiaitem2.md) .<br/> |
 
 
 
@@ -54,9 +54,9 @@ ms.locfileid: "105650590"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                               |
-| Header<br/>                   | <dl> <dt>WIA. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                               |
+| Заголовок<br/>                   | <dl> <dt>WIA. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl> |
 
 

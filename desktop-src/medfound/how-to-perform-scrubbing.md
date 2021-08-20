@@ -4,12 +4,12 @@ ms.assetid: 3cf56caf-5c6d-4318-811a-c8bdc1959148
 title: Как выполнить очистку
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9dad1f06cb6abe6a570fd85407028450651e32a1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ab86ae39567132352592883b7441e4f325cb1b021b74e5b7a67f4a2755c3c947
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104543607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118063361"
 ---
 # <a name="how-to-perform-scrubbing"></a>Как выполнить очистку
 
@@ -82,7 +82,7 @@ HRESULT SkipToPosition (MFTIME SeekTime, IMFMediaSession *pMediaSession)
 
 Приложение может выполнять пошаговое выполнение кадра, устанавливая скорость воспроизведения равным нулю, а затем передавая **пропвариант** , для которого задано значение **VT \_ Empty** , в вызове [**имфмедиасессион:: Start**](/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-start).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -3,19 +3,19 @@ title: Устанавливаемые сообщения драйверов
 description: Устанавливаемые сообщения драйверов
 ms.assetid: 8d5065bb-1b72-433c-976b-63859b121484
 keywords:
-- Файлы мультимедиа Windows, устанавливаемые сообщения драйверов
+- Windows мультимедийных сообщений, устанавливаемых драйверов
 - устройства мультимедиа, устанавливаемые сообщения драйверов
 - устанавливаемые драйверы, сообщения
 - Ссылка на устанавливаемый драйвер, сообщения
 - Справочник по устанавливаемым драйверам, сообщениям
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c016992002bafeddfeacf381f4a604b7bd55476a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 133905e79e8cef7097ea348b31af63b3bf40887cfca27da0e17bd1d39a7cd92d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104532033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117986908"
 ---
 # <a name="installable-driver-messages"></a>Устанавливаемые сообщения драйверов
 
@@ -34,16 +34,16 @@ ms.locfileid: "104532033"
 -   [**DRV \_ куериконфигуре**](drv-queryconfigure.md)
 -   [**\_Удаление DRV**](drv-remove.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Справочник по устанавливаемому драйверу](installable-driver-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

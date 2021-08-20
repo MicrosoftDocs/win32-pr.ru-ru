@@ -4,12 +4,12 @@ ms.assetid: 270893C6-8B44-4A4D-AE2B-2E58E260F649
 title: Свойство CODECAPI_AVDecDDStereoDownMixMode (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de7caaed1af804e22b3ec6085241746bdf01eb7d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 81bba5cd5a75ecfbdbbd19ec7dbe063b06217322074559b8d24dae3073c244ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104423570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118065062"
 ---
 # <a name="codecapi_avdecddstereodownmixmode-property"></a>КОДЕКАПИ \_ авдекддстереодовнмиксмоде, свойство
 
@@ -27,7 +27,7 @@ ms.locfileid: "104423570"
 
 Значение этого свойства является членом перечисления [**еавдекддстереодовнмиксмоде**](/windows/win32/api/codecapi/ne-codecapi-eavdecddstereodownmixmode) .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут применяется, когда входные данные декодера являются звуком многоканального PCM, а выходные данные — стерео аудио.
 
@@ -37,13 +37,13 @@ ms.locfileid: "104423570"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8 \|\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 \|\]<br/>                           |
-| Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ приложения UWP для классических приложений \|\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ приложения UWP для классических приложений \|\]<br/>                           |
+| Заголовок<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
