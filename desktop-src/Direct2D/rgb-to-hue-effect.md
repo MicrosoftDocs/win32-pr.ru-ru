@@ -4,12 +4,12 @@ description: Преобразует изображение RGB в цветовы
 ms.assetid: 1def972d-8172-9217-8ce7-abce4a93f6e1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53ccb4d3f67d116426d7a3497c04c4e8fb115b74
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c474705d050c2ef2eff9050a759c60c5d8f1098440e06601ec1e3981e349aaff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118160390"
 ---
 # <a name="rgb-to-hue-effect"></a>Эффекты RGB-оттенков
 
@@ -26,7 +26,7 @@ HSL и HSV — это две различные модели для предст
 -   [Образец кода](#sample-code)
 -   [Свойства эффектов](#effect-properties)
 -   [Требования](#requirements)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="sample-code"></a>Пример кода
 
@@ -50,18 +50,18 @@ m_d2dContext->EndDraw();
 
 Свойства для эффектов контрастности определяются перечислением [**D2D1 \_ ргбтохуе \_ prop**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_rgbtohue_prop) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------------|---------------------------------------------------|
-| Минимальная версия клиента | Приложения для \[ магазина Windows для классических приложений Windows 10 \|\] |
-| Минимальная версия сервера | Приложения для \[ магазина Windows для классических приложений Windows 10 \|\] |
-| Header                   | d2d1effects \_ 2. h                                  |
+| Минимальная версия клиента | Windows 10 \[ классические приложения \| Windows приложения магазина\] |
+| Минимальная версия сервера | Windows 10 \[ классические приложения \| Windows приложения магазина\] |
+| Заголовок                   | d2d1effects \_ 2. h                                  |
 | Библиотека                  | D2D1. lib, дксгуид. lib                              |
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 * [Интерфейс ID2D1Effect](/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect)

@@ -10,12 +10,12 @@ keywords:
 - ADSI ADSI, пример кода C/C++, Поиск двоичных данных
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0973ff7a769d68abf85e6557fef2e1d434ba3ff4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9f77ead11f4e2d02c6e7ef3e25975a7059c2c057dbc62f71e406bbda3e24c3b2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120005424"
 ---
 # <a name="searching-binary-data"></a>Поиск двоичных данных
 
@@ -60,9 +60,9 @@ if(pwszSearch)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

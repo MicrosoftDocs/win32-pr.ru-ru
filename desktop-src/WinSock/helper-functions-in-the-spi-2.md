@@ -4,18 +4,18 @@ ms.assetid: 6fbe9c0c-ac1f-4f2b-a542-eae2195b1335
 title: Вспомогательные функции в SPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e687529bf1ede1598225708cf288e49bb7e9b5c1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0073eeb9310764ff100431da6491cedd322fa3c803f7465875980956d6059c45
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118112159"
 ---
 # <a name="helper-functions-in-the-spi"></a>Вспомогательные функции в SPI
 
 -   [**нспжетсервицеклассинфо**](/windows/desktop/api/Ws2spi/nc-ws2spi-lpnspgetserviceclassinfo)
 
-Функция [**нспжетсервицеклассинфо**](/windows/desktop/api/Ws2spi/nc-ws2spi-lpnspgetserviceclassinfo) извлекает сведения о схеме класса службы, которые были сохранены поставщиком пространства имен. Он также используется библиотекой DLL Windows Sockets 2 в своей реализации [**всажетсервицекласснамебиклассид**](/windows/desktop/api/Winsock2/nf-winsock2-wsagetserviceclassnamebyclassida).
+Функция [**нспжетсервицеклассинфо**](/windows/desktop/api/Ws2spi/nc-ws2spi-lpnspgetserviceclassinfo) извлекает сведения о схеме класса службы, которые были сохранены поставщиком пространства имен. он также используется библиотекой DLL Windows sockets 2 в своей реализации [**всажетсервицекласснамебиклассид**](/windows/desktop/api/Winsock2/nf-winsock2-wsagetserviceclassnamebyclassida).
 
 Следующие макросы определены в файле заголовка *свкгуид. h* и могут помочь в сопоставлении между известными классами служб и этими пространствами имен.
 

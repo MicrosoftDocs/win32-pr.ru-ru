@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 4cf3b5879da0346cefbb5b8835d6922dd736cfd3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9cab3211765f12812e08845165c41868049020573a3cbfb706fad01821a2c3bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105704014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118100206"
 ---
 # <a name="id3dx10threadpumpgetqueuestatus-method"></a>Метод ID3DX10ThreadPump:: Жеткуеуестатус
 
@@ -81,12 +81,12 @@ HRESULT GetQueueStatus(
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>D3DX10. lib</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

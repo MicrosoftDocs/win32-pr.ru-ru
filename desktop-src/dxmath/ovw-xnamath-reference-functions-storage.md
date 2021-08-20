@@ -4,12 +4,12 @@ ms.assetid: 0e7b66bd-bdb0-956d-2962-b33ae52b3016
 title: Функции хранения векторов из библиотеки DirectXMath
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 392429d9028aa0971a5b6ee6a90296c44c62066c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee06b3593b193c845b134816b23bfbf22abfa81ccd88708c4673f63890c2e4d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118087680"
 ---
 # <a name="directxmath-library-vector-store-functions"></a>Функции хранения векторов из библиотеки DirectXMath
 
@@ -80,5 +80,5 @@ ms.locfileid: "104080459"
 | [**XMStoreXDec4**](/windows/win32/api/directxpackedvector/nf-directxpackedvector-xmstorexdec4) | Сохраняет [**ксмвектор**](xmvector-data-type.md) в [**XMXDEC4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmxdec4). |
 | [**XMStoreXDecN4**](/windows/win32/api/directxpackedvector/nf-directxpackedvector-xmstorexdecn4) | Сохраняет [**ксмвектор**](xmvector-data-type.md) в [**XMXDECN4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmxdecn4). |
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 [Функции библиотеки Директксмас](ovw-xnamath-reference-functions.md)

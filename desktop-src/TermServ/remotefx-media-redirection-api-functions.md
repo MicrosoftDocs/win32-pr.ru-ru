@@ -1,20 +1,20 @@
 ---
-title: Функции API перенаправления носителей RemoteFX
-description: API перенаправления мультимедиа RemoteFX поддерживает следующие функции.
+title: RemoteFX Функции API перенаправления носителей
+description: API перенаправления носителей RemoteFX поддерживает следующие функции.
 ms.assetid: 31E9D0A2-BDB1-4FA8-88AE-E3F5D60C7433
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 501fc3e176fcd563526016c8aa4ccc3c4df3f24f
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 75045858e131f67a8568d1a2124abc2c634696c13487b17da85f919f4e30068a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104411841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118127803"
 ---
-# <a name="remotefx-media-redirection-api-functions"></a>Функции API перенаправления носителей RemoteFX
+# <a name="remotefx-media-redirection-api-functions"></a>RemoteFX Функции API перенаправления носителей
 
-API перенаправления мультимедиа RemoteFX поддерживает следующие функции.
+API перенаправления носителей RemoteFX поддерживает следующие функции.
 
 ## <a name="in-this-section"></a>Содержание раздела
 
@@ -27,9 +27,9 @@ API перенаправления мультимедиа RemoteFX поддер�
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

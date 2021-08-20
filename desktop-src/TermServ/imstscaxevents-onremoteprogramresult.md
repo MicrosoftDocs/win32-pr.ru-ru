@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 880e4fb3f6453114415f5bcc07a0afb9c176a1bd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 807fbd49cc6222925f34a7e7c007fef54cbc9a3db2566f024ebc0188e9c95113
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136322"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118129666"
 ---
 # <a name="imstscaxeventsonremoteprogramresult-method"></a>Метод Имстскаксевентс:: Онремотепрограмресулт
 
@@ -158,13 +158,13 @@ VOID OnRemoteProgramResult(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Реализуйте этот метод в приемнике событий, чтобы получить уведомление о том, что программа RemoteApp вернула результат.
 
-Этот метод вызывается сразу после того, как элемент управления ActiveX пытается запустить программу RemoteApp, а параметр *леррор* указывает результат попытки.
+этот метод вызывается сразу после того, как элемент управления ActiveX пытается запустить программу RemoteApp, а параметр *леррор* указывает результат попытки.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -178,7 +178,7 @@ VOID OnRemoteProgramResult(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

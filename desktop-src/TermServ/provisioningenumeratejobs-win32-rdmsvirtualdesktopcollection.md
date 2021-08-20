@@ -86,7 +86,7 @@ uint32 ProvisioningEnumerateJobs(
 
 Возвращает значение 0 при успешном выполнении, в противном случае возвращает код ошибки WMI.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -100,7 +100,7 @@ uint32 ProvisioningEnumerateJobs(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

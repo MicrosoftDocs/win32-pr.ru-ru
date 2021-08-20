@@ -4,12 +4,12 @@ ms.assetid: 26990b06-196a-4fb1-92d8-c5fa096d2b09
 title: Получение и отправка данных на сервере
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31ab20f074db750bef6459c6b9fcb5fd5636a522
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6f943fe9f1c4045c087b31861bc6db5f1eb394ad800ee0133e0ec8fb668fcbe1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105702102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119857854"
 ---
 # <a name="receiving-and-sending-data-on-the-server"></a>Получение и отправка данных на сервере
 
@@ -59,7 +59,7 @@ do {
 
 Следующий шаг: [Отключение сервера](disconnecting-the-server.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

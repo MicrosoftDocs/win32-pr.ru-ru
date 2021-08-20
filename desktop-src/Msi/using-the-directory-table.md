@@ -4,12 +4,12 @@ ms.assetid: 3f2e1cc2-6b36-4615-86e6-e78485edd2f7
 title: Использование таблицы Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7218fe6f6e2ca36bc0c52e74b564ad07d87053a7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0f550f32006df16db5811e0fbf5022253373a4b1551983ddda2db55655b4061f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104264827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118141323"
 ---
 # <a name="using-the-directory-table"></a>Использование таблицы Directory
 
@@ -26,7 +26,7 @@ ms.locfileid: "104264827"
 | TARGETDIR     |                   | SourceDir  |
 | екседир        | TARGETDIR         | Приложение        |
 | дллдир        | екседир            | Ячейка        |
-| DesktopFolder | TARGETDIR         | Персональный компьютер    |
+| DesktopFolder | TARGETDIR         | Рабочий стол    |
 
 
 
@@ -76,7 +76,7 @@ ms.locfileid: "104264827"
  
 
 > [!Note]  
-> Платформа Alpha не поддерживается установщик Windows.
+> платформа Alpha не поддерживается установщик Windows.
 
  
 

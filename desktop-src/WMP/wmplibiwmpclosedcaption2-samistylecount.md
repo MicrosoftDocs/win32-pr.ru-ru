@@ -3,9 +3,9 @@ title: IWMPClosedCaption2 Самистилекаунт, свойство
 description: Свойство Самистилекаунт возвращает количество стилей, поддерживаемых текущим файлом SAMI.
 ms.assetid: e2a0d194-6fa2-48c9-9fc7-0b60029d2e5d
 keywords:
-- Проигрыватель Windows Media для свойства Самистилекаунт
-- Самистилекаунт свойство проигрывателя Windows Media Player, интерфейс IWMPClosedCaption2
-- Интерфейс IWMPClosedCaption2 Windows Media Player, свойство Самистилекаунт
+- проигрыватель Windows Media свойства самистилекаунт
+- проигрыватель Windows Media свойства самистилекаунт, интерфейс IWMPClosedCaption2
+- проигрыватель Windows Media интерфейса IWMPClosedCaption2, свойство самистилекаунт
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff361b4c6d34f63e86e3d8458bff4d3308cae29f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9f73ab4e252386f790f74741053012239d0219b1e296e392146894f906e1556f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118115921"
 ---
 # <a name="iwmpclosedcaption2samistylecount-property"></a>Свойство IWMPClosedCaption2:: Самистилекаунт
 
@@ -48,23 +48,23 @@ Public ReadOnly Property SAMIStyleCount As System.Int32
 
 Объект **System. Int32** , который является числом стилей.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство возвращает значение 0, если файл цифрового мультимедиа не открыт (Аксвиндовсмедиаплайер. Опенстате равен 13).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

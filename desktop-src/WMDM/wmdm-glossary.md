@@ -5,12 +5,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 8fc30ada-1397-4d32-a242-8a70646ebf6e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36f502c79762f3c70d33c116f2412b51eaec1881
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ee6450be89c5b1b366f6fcb3fa5375a5bc6d87e0ff7a70c5620ff0da18b7ed99
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105691606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119862854"
 ---
 # <a name="wmdm-glossary"></a>Глоссарий ВМДМ
 
@@ -23,7 +23,7 @@ ms.locfileid: "105691606"
 <span id="projectid114.active_template_library__atl_"></span><span id="PROJECTID114.ACTIVE_TEMPLATE_LIBRARY__ATL_"></span>**Библиотека активных шаблонов (ATL)**
 </dt> <dd>
 
-Коллекция классов шаблонов для Microsoft Visual C++. Он используется для создания COM-серверов при написании поставщика услуг для диспетчер устройств Windows Media.
+Коллекция классов шаблонов для Microsoft Visual C++. он используется для создания COM-серверов при записи поставщика услуг для Windows Media диспетчер устройств.
 
 </dd> <dt>
 
@@ -72,7 +72,7 @@ ms.locfileid: "105691606"
 <span id="projectid114.clear_content"></span><span id="PROJECTID114.CLEAR_CONTENT"></span>**очистить содержимое**
 </dt> <dd>
 
-Незашифрованный файл Windows Media.
+Windows незашифрованный файл мультимедиа.
 
 </dd> <dt>
 
@@ -128,7 +128,7 @@ ms.locfileid: "105691606"
 <span id="projectid114.key"></span><span id="PROJECTID114.KEY"></span>**ключ**
 </dt> <dd>
 
-Фрагмент данных, необходимый для разблокировки упакованного файла Windows Media. Этот ключ включен в отдельную лицензию.
+фрагмент данных, необходимый для разблокировки упакованного Windows файла мультимедиа. Этот ключ включен в отдельную лицензию.
 
 </dd> <dt>
 
@@ -142,14 +142,14 @@ ms.locfileid: "105691606"
 <span id="projectid114.microsoft_secure_content_provider__scp_"></span><span id="PROJECTID114.MICROSOFT_SECURE_CONTENT_PROVIDER__SCP_"></span>**Поставщик безопасного содержимого (SCP) Майкрософт**
 </dt> <dd>
 
-Подключаемый модуль для диспетчер устройств Windows Media, предоставляющий службы управления цифровыми правами (DRM).
+подключаемый модуль для Windows Media диспетчер устройств, предоставляющий службы управления цифровыми правами (DRM).
 
 </dd> <dt>
 
-<span id="projectid114.microsoft_windows_media_player"></span><span id="PROJECTID114.MICROSOFT_WINDOWS_MEDIA_PLAYER"></span>**Проигрыватель Microsoft Windows Media**
+<span id="projectid114.microsoft_windows_media_player"></span><span id="PROJECTID114.MICROSOFT_WINDOWS_MEDIA_PLAYER"></span>**Microsoft проигрыватель Windows Media**
 </dt> <dd>
 
-Клиент или элемент управления, который получает поток с сервера Windows Media или локального содержимого для воспроизведения. Она может выполняться как автономная клиентская исполняемая программа или внедрена в веб-страницу, программу на языке C++ или в программу Microsoft Visual Basic, использующую клиентский элемент управления ActiveX.
+клиент или элемент управления, который получает поток от Windowsного сервера мультимедиа или локального содержимого для воспроизведения. он может выполняться как автономная клиентская исполняемая программа или внедрена в веб-страницу, программу на языке C++ или в программу Microsoft Visual Basic, использующую клиентский ActiveX элемент управления.
 
 </dd> <dt>
 
@@ -163,7 +163,7 @@ ms.locfileid: "105691606"
 <span id="projectid114.player"></span><span id="PROJECTID114.PLAYER"></span>**проигрыватель**
 </dt> <dd>
 
-Клиентская программа или элемент управления, который получает цифровое содержимое из потока на сервере или воспроизводится из локальных файлов. Проигрывателем Windows Media Player является пример проигрывателя.
+Клиентская программа или элемент управления, который получает цифровое содержимое из потока на сервере или воспроизводится из локальных файлов. проигрыватель Windows Media является примером проигрывателя.
 
 </dd> <dt>
 
@@ -209,34 +209,34 @@ ms.locfileid: "105691606"
 
 </dd> <dt>
 
-<span id="projectid114.windows_media_encoder"></span><span id="PROJECTID114.WINDOWS_MEDIA_ENCODER"></span>**Кодировщик Windows Media**
+<span id="projectid114.windows_media_encoder"></span><span id="PROJECTID114.WINDOWS_MEDIA_ENCODER"></span>**Windows Media Encoder**
 </dt> <dd>
 
-Технология, которая сжимает динамические или предварительно записанные аудио-и видеозаписи в поток Windows Media, который может быть либо немедленно распределен, либо сохранен как файл Windows Media для последующего распространения.
+технология, которая сжимает динамические или предварительно записанные аудио-и видеозаписи в Windows потоке мультимедиа, который может быть либо немедленно распределен, либо сохранен как файл мультимедиа Windows для последующего распространения.
 
 </dd> <dt>
 
-<span id="projectid114.windows_media_file"></span><span id="PROJECTID114.WINDOWS_MEDIA_FILE"></span>**Файл Windows Media**
+<span id="projectid114.windows_media_file"></span><span id="PROJECTID114.WINDOWS_MEDIA_FILE"></span>**Windows файл мультимедиа**
 </dt> <dd>
 
-Файл, содержащий данные аудио, видео или скрипта. Содержимое файла кодируется с помощью одного из кодеков Windows Media.
+Файл, содержащий данные аудио, видео или скрипта. содержимое файла кодируется одним из кодеков Windows мультимедиа.
 
 </dd> <dt>
 
-<span id="projectid114.windows_media_format"></span><span id="PROJECTID114.WINDOWS_MEDIA_FORMAT"></span>**Формат Windows Media**
+<span id="projectid114.windows_media_format"></span><span id="PROJECTID114.WINDOWS_MEDIA_FORMAT"></span>**формат носителя Windows**
 </dt> <dd>
 
-Формат файла или потока цифрового мультимедиа, закодированного с помощью кодеков Windows Media.
+формат файла или потока цифрового мультимедиа, закодированного с помощью кодеков Windows media.
 
 </dd> <dt>
 
-<span id="projectid114.windows_media_services"></span><span id="PROJECTID114.WINDOWS_MEDIA_SERVICES"></span>**Службы Windows Media**
+<span id="projectid114.windows_media_services"></span><span id="PROJECTID114.WINDOWS_MEDIA_SERVICES"></span>**службы Windows Media**
 </dt> <dd>
 
 Служба, используемая для потоковой передачи цифрового аудио и видео через Интернет или интрасеть.
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 

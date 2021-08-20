@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 9cf7a21e60369a928cc1d617e24db5f5fc70c522
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 8b63b383bc44c50049c6ab00bdccb1dd5e2081beeb98a82a0a17c35147b4e436
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105664809"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118146423"
 ---
 # <a name="destroyreferencepoint-method-of-the-msvm_virtualsystemreferencepointservice-class"></a>Метод Дестройреференцепоинт \_ класса Виртуалсистемреференцепоинтсервице мсвм
 
@@ -99,13 +99,13 @@ uint32 DestroyReferencePoint(
 **Недостаточно памяти** (32778)
 </dt> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                             |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                             |
 | Минимальная версия сервера<br/> | Windows Server 2016<br/>                                                                          |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -113,7 +113,7 @@ uint32 DestroyReferencePoint(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

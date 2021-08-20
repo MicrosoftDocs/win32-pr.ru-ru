@@ -4,16 +4,16 @@ ms.assetid: ae4d18f2-4d50-480c-bc7a-4eec0334707d
 title: Объекты запуска и службы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92beb0a4f825f767299a7ced74d43ef2487fa252
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d60a87c7e52a263d03e80f44911f72db5f49259baf33a7b2f90680f30bb3b2fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118125934"
 ---
 # <a name="startup-and-service-objects"></a>Объекты запуска и службы
 
-\[Начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API управления хранилищами Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API Windows служба хранилища управления](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 Служба VDS предоставляет объекты для выполнения действий, связанных со службами. В этом разделе описывается каждый объект.
 
@@ -33,8 +33,8 @@ ms.locfileid: "105674328"
 | Тип                                              | Элемент                                         |
 |---------------------------------------------------|-------------------------------------------------|
 | Интерфейсы, которые всегда предоставляются этим объектом | [**Ивдссервицелоадер**](/windows/desktop/api/Vds/nn-vds-ivdsserviceloader). |
-| Связанные перечисления                           | Нет.                                           |
-| Связанные структуры                             | Нет.                                           |
+| Связанные перечисления                           | Отсутствует.                                           |
+| Связанные структуры                             | Отсутствует.                                           |
 
 
 
@@ -69,7 +69,7 @@ ms.locfileid: "105674328"
 
  
 
-**\* Windows Server 2003:** эти интерфейсы не поддерживаются до Windows Server 2003 R2.
+**\* Windows server 2003:** эти интерфейсы не поддерживаются до Windows Server 2003 R2.
 
 ## <a name="initiator-adapter-object"></a>Объект адаптера инициатора
 
@@ -87,7 +87,7 @@ ms.locfileid: "105674328"
 
  
 
-**\* Windows Server 2003:** этот интерфейс не поддерживается до Windows Server 2003 R2.
+**\* Windows server 2003:** этот интерфейс не поддерживается до Windows Server 2003 R2.
 
 ## <a name="initiator-portal-object"></a>Объект портала инициатора
 
@@ -105,7 +105,7 @@ ms.locfileid: "105674328"
 
  
 
-**\* Windows Server 2003:** этот интерфейс не поддерживается до Windows Server 2003 R2.
+**\* Windows server 2003:** этот интерфейс не поддерживается до Windows Server 2003 R2.
 
 ## <a name="hba-port-object"></a>Объект порта HBA
 
@@ -125,9 +125,9 @@ ms.locfileid: "105674328"
 
  
 
-**\* Windows Server 2003:** этот интерфейс не поддерживается до Windows Server 2003 R2.
+**\* Windows server 2003:** этот интерфейс не поддерживается до Windows Server 2003 R2.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

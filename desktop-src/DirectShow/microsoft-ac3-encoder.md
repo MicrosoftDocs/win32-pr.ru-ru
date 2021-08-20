@@ -4,12 +4,12 @@ ms.assetid: 59d46ee2-d45f-4492-938d-39c55a7368e1
 title: Кодировщик Microsoft AC-3 (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 160b020e07bb3ba4e4dc5636b58dd0e66f581a6f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 35984975fc5a56b043f1b2ceda56505ee6fe74038034fb35deb09b6a5f6a0f41
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104139998"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118153172"
 ---
 # <a name="microsoft-ac-3-encoder"></a>Кодировщик Microsoft AC-3
 
@@ -69,27 +69,27 @@ msac3enc.dll
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот фильтр недоступен для использования сторонними приложениями.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows Vista Домашняя расширенная, Windows Vista Ultimate, Windows 7 Домашняя расширенная, Windows 7 Профессиональная, Windows 7 Корпоративная, \[ только классические приложения Windows 7 Ultimate\]<br/> |
+| Минимальная версия клиента<br/> | Windows главная Premium vista, Windows vista Ultimate, Windows 7 Домашняя расширенная, Windows 7 Профессиональная, Windows 7 Корпоративная, Windows 7 Максимальная \[ только классические приложения\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                                                                                                     |
-| Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl>                                                                                       |
+| Заголовок<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl>                                                                                       |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[Фильтры DirectShow](directshow-filters.md)
+[DirectShow Фильтрующ](directshow-filters.md)
 </dt> </dl>
 
  

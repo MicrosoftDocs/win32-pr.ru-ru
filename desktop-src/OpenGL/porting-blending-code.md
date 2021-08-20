@@ -10,12 +10,12 @@ keywords:
 - смешение
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7956c675848f454b660126a7a17869295a827438
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 13548a2f08821e4f80bf63230077f9a39540ba9b8a37763e7935d211ef0dcdc0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105661625"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119485914"
 ---
 # <a name="porting-blending-code"></a>Перенос кода смешения
 
@@ -32,7 +32,7 @@ ms.locfileid: "105661625"
 
 
 
- 
+ 
 
 Функция OpenGL **глблендфунк** и функция IRI GL **блендфунктион** практически идентичны. В следующей таблице перечислены Коэффициенты смешения и их эквиваленты OpenGL для ДИАФРАГМы.
 
@@ -54,13 +54,13 @@ ms.locfileid: "105661625"
 
 
 
- 
+ 
 
 ??
 
- 
+ 
 
- 
+ 
 
 
 

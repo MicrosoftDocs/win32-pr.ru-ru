@@ -4,12 +4,12 @@ ms.assetid: b4a2c3d7-8805-41de-b316-592e77076570
 title: Определение того, является ли каталог подключенной папкой
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ca7492a3114ff0c9c9ce0685c6d3e2b94724457
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 12c0af53a63f64164604a5f8f22532add3dded1a46d19d96354c0da37e12d4d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103912315"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118150597"
 ---
 # <a name="determining-whether-a-directory-is-a-mounted-folder"></a>Определение того, является ли каталог подключенной папкой
 
@@ -21,7 +21,7 @@ ms.locfileid: "103912315"
 
 Аналогичным образом можно определить, является ли точка повторной обработки символьной ссылкой, проверяя, является оно **ТЕГОМ повторного анализа ввода-вывода с помощью \_ \_ тега \_ символьную ссылку**.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

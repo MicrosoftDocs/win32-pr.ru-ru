@@ -4,19 +4,19 @@ description: Тип файла и модель сопоставлений URI
 ms.assetid: 4DE7DD08-088A-4E09-B1C7-AE9033EA533D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c78540a072405aade01a9f94503999ad105d2078
-ms.sourcegitcommit: ea4baf9953a78d2d6bd530b680601e39f3884541
+ms.openlocfilehash: aabcdb40bd38aeee24ee0e5d86f11651633a7eead1748810e8c1c6a846827690
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "104070758"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028862"
 ---
 # <a name="file-type-and-uri-associations-model"></a>Тип файла и модель сопоставлений URI
 
 ## <a name="platforms"></a>Платформы
 
- **Клиенты** — Windows 8  
-**Серверы** — Windows Server 2012  
+ **клиенты** — Windows 8  
+**серверы** — Windows Server 2012  
 
 
 
@@ -38,7 +38,7 @@ ms.locfileid: "104070758"
 -   Пользователям предлагается контекстно выбрать приложение по умолчанию для работы с типами файлов, схемами URI или обоими, если они не указаны.
 -   Пользователям предлагается изменить свой обработчик по умолчанию после установки новых приложений, которые могут работать с типом файлов или схемой URI.
 -   Панель управления программы по умолчанию позволяет пользователям задавать значения по умолчанию для приложения или для типа файла, схемы URI или и того, и другого. приложения могут ссылаться на панель управления
--   Значения по умолчанию можно изменить в проводнике Windows
+-   значения по умолчанию можно изменить в обозревателе Windows
 
 ## <a name="solution"></a>Решение
 
@@ -72,9 +72,9 @@ ms.locfileid: "104070758"
 
 ## <a name="resources"></a>Ресурсы
 
--   [Рекомендации по типу файлов и сопоставлению URI в классических приложениях Windows 8](/previous-versions/windows/desktop/legacy/cc144156(v=vs.85))
+-   [рекомендации по типу файлов и сопоставлению URI в Windows 8 классических приложениях](/previous-versions/windows/desktop/legacy/cc144156(v=vs.85))
 -   [Сопоставление типов файлов и автовоспроизведение создание конференций презентация](https://channel9.msdn.com/events/BUILD/BUILD2011/PLAT-282T)
 
- 
+ 
 
- 
+ 

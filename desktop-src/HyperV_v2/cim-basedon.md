@@ -18,12 +18,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 47d2e44d1106eba57f4c46c0957662c348c9ca1e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bd07a329388d1c4883674bc86f9cadf648746487ea44769141d91e90548722c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117995770"
 ---
 # <a name="cim_basedon-class-hyper-v-management"></a>Класс CIM_BasedOn (Управление Hyper-V)
 
@@ -49,7 +49,7 @@ class CIM_BasedOn : CIM_Dependency
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ BasedOn** имеет следующие свойства.
 
@@ -142,7 +142,7 @@ class CIM_BasedOn : CIM_Dependency
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

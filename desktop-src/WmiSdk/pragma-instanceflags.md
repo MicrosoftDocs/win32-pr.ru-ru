@@ -13,12 +13,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: acc05e201fcf153ab2156d4a360ce36b4539cd57
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 107325b329fcc51f474dd3ac9ea3a16e8882ff55114012d87a303ac73647bb37
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272578"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118817990"
 ---
 # <a name="pragma-instanceflags"></a>pragma инстанцефлагс
 
@@ -37,7 +37,7 @@ ms.locfileid: "104272578"
 
 
 
-| Flag       | Описание                                                                                                |
+| Флаг       | Описание                                                                                                |
 |------------|------------------------------------------------------------------------------------------------------------|
 | креатеонли | Предотвращает изменение компилятором существующих экземпляров в MOF-файле.                                |
 | упдатеонли | Запрещает компилятору создавать новые экземпляры, если экземпляр, указанный в MOF-файле, не существует. |
@@ -68,7 +68,7 @@ ms.locfileid: "104272578"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

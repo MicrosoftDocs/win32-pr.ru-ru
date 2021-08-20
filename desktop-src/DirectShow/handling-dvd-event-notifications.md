@@ -4,12 +4,12 @@ ms.assetid: 7a12aa36-f709-4ee2-aac6-45ab273ad3f9
 title: Обработка уведомлений о событиях DVD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8212f3eb9f868c494aa008602713c1750a6c6dc9
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7a4b6c4f9b2f8487b5b16012c0bc7b9e40ea249ce6e856f6ceab03b0ea08f818
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103990254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117999827"
 ---
 # <a name="handling-dvd-event-notifications"></a>Обработка уведомлений о событиях DVD
 
@@ -49,7 +49,7 @@ while (SUCCEEDED(m_pIME->GetEvent(&lEvent, &lParam1, &lParam2, lTimeOut)))
 
 События DVD могут содержать дополнительные сведения в параметрах *lParam1* или *lParam2* , как показано выше, когда текущее время содержится в *lParam1*. Предыдущий пример кода относится к примеру приложения DVD в Двдкоре. cpp. Полный список всех событий DVD и их параметров см. в статье [коды уведомлений о событиях DVD](dvd-notification-codes.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

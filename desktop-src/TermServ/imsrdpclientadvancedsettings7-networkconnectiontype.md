@@ -124,7 +124,7 @@ HRESULT get_NetworkConnectionType(
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -138,7 +138,7 @@ HRESULT get_NetworkConnectionType(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

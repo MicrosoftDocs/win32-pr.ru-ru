@@ -6,12 +6,12 @@ keywords:
 - набор команд видеодиск
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: facea09cd84f55b2cf8acb2abf042e3232289573
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a5ca5212d1fe121f2d5f8f3bb57772780b4b694f7c3069ff48fb19cbdd21f6ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103887896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118135572"
 ---
 # <a name="videodisc-command-set"></a>Набор команд видеодиск
 
@@ -33,18 +33,18 @@ ms.locfileid: "103887896"
 | [**поиска**](seek.md)             | [**\_Поиск MCI**](mci-seek.md)             |
 | [**параметр**](set.md)               | [**\_набор MCI**](mci-set.md)               |
 | [**оборот**](spin.md)             | [**\_Счетчик MCI**](mci-spin.md)             |
-| [**состояние**](status.md)         | [**\_состояние MCI**](mci-status.md)         |
+| [**status**](status.md)         | [**\_состояние MCI**](mci-status.md)         |
 | [**первом**](step.md)             | [**\_шаг MCI**](mci-step.md)             |
 | [**позиции**](stop.md)             | [**\_прерывание MCI**](mci-stop.md)             |
 | [сисинфо](sysinfo.md)           | [**\_СИСИНФО MCI**](mci-sysinfo.md)       |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

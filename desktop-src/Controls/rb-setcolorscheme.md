@@ -3,7 +3,7 @@ title: Сообщение RB_SETCOLORSCHEME (Коммктрл. h)
 description: Задает сведения о цветовой схеме для элемента управления главной панели.
 ms.assetid: ddf8f3e4-66b7-4b53-a04e-b4dd372f71c4
 keywords:
-- Элементы управления Windows для RB_SETCOLORSCHEME сообщений
+- элементы управления Windows сообщений RB_SETCOLORSCHEME
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b9c7725d3c0bc3f3a7a7a72db16e19626a3c4d2a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ce7715082a371c3632d8accb8fdf60bbac50d8d7d8182732d6a62c2dbb423c34
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118169280"
 ---
 # <a name="rb_setcolorscheme-message"></a>\_Сообщение СЕТКОЛОРСЧЕМЕ RB
 
@@ -43,23 +43,23 @@ ms.locfileid: "104534349"
 
 Возвращаемое значение для этого сообщения не используется.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент управления "Главная панель" использует сведения о цветовой схеме при рисовании трехмерных элементов в элементах управления и делений.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

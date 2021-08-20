@@ -4,12 +4,12 @@ description: Функции администрирования маршрути�
 ms.assetid: 767733eb-1cbd-4b8d-98b7-41d1d0f2c630
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 60fcf94ffc7d1e4d2239dbc2a436394675153371
-ms.sourcegitcommit: cb844c9ab17577ce171fd7b03add668645867bc7
+ms.openlocfilehash: b46e46885e5b6e1a5e9e6c05db6171a52c4524a412fdcc7a1fe20e1d88a8f836
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "104069650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119672914"
 ---
 # <a name="router-management-structures"></a>Структуры управления маршрутизаторами
 
@@ -58,9 +58,9 @@ ms.locfileid: "104069650"
 -   [**\_сведения о сертификате SSTP \_**](/windows/desktop/api/Mprapi/ns-mprapi-sstp_cert_info)
 -   [**\_Параметры конфигурации \_ SSTP**](/windows/desktop/api/Mprapi/ns-mprapi-sstp_config_params)
 
- 
+ 
 
- 
+ 
 
 
 

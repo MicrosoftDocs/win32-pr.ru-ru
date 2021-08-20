@@ -3,7 +3,7 @@ title: Код уведомления TTN_LINKCLICK (Коммктрл. h)
 description: Посылается при щелчке по текстовой ссылке внутри всплывающей подсказки. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: d3e76431-5b5f-4d67-8528-db21fd939917
 keywords:
-- TTN_LINKCLICK кода уведомления элементы управления Windows
+- TTN_LINKCLICK кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c90be24910c2739b4495b651abf97156342d955b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a2a31b1f942627ee22fb050bbddd0b74ac10dd09a7a8f14018189620f6c8155f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105654545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118166100"
 ---
 # <a name="ttn_linkclick-notification-code"></a>\_Код уведомления ТТН линккликк
 
@@ -40,7 +40,7 @@ TTN_LINKCLICK
 
 Возвращаемое значение не используется.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Ниже приведен пример того, когда будет отправлено это уведомление. Предположим, что всплывающая подсказка содержит следующий текст: "это <A>ссылка</A>". При нажатии ссылки элемент управления ToolTip отправляет \_ код уведомления ТТН линккликк.
 
@@ -49,15 +49,15 @@ TTN_LINKCLICK
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

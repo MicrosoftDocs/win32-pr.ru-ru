@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 710064436e0287b570700ff5812b728ca62be56d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c2e850cf89bf6f6dd05803228f02032a00d6e8ecdf8e55258c9fc043faf4e3bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118808521"
 ---
 # <a name="cd3dx12_root_descriptor-structure"></a>\_ \_ Структура дескриптора корня CD3DX12
 
@@ -100,11 +100,11 @@ UINT Шадеррегистер
 
 | Требование | Значение |
 |-------------------|-------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx12. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx12. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

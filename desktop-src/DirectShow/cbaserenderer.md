@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e30bae52cf5a7eba642354d002173291cb7d38b3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 81e529493bfd892607748423bb1bab9016eb232aaeb3ed22287fa2c1c1917687
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665430"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118954812"
 ---
 # <a name="cbaserenderer-class"></a>Класс Кбасерендерер
 
@@ -139,7 +139,7 @@ ms.locfileid: "105665430"
 | [**GetState**](cbaserenderer-getstate.md)                                   | Получает состояние фильтра (запущено, остановлено или приостановлено).                                                                             |
 | [**Пауза**](cbaserenderer-pause.md)                                         | Приостанавливает фильтр.                                                                                                                      |
 | [**Выполнить**](cbaserenderer-run.md)                                             | Выполняет фильтр.                                                                                                                        |
-| [**Stop**](cbaserenderer-stop.md)                                           | Останавливает фильтр.                                                                                                                       |
+| [**Позиции**](cbaserenderer-stop.md)                                           | Останавливает фильтр.                                                                                                                       |
 | Методы Ибасефилтер                                                          | Описание                                                                                                                             |
 | [**финдпин**](cbaserenderer-findpin.md)                                     | Извлекает ПИН-код с указанным идентификатором.                                                                                        |
 
@@ -147,13 +147,13 @@ ms.locfileid: "105665430"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ренбасе. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>ренбасе. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

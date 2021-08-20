@@ -14,12 +14,12 @@ keywords:
 - Сообщение MM_WIM_OPEN
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70bb1cfe1ed0f7ba6052fc1eb6af8fca8355d87d
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: c709df27be25a8a3f4c5a9be6528e28b4e8bab9251b04b6c397a7ef3fc8efd9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104487580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118135656"
 ---
 # <a name="using-window-messages-to-manage-waveform-audio-recording"></a>Использование оконных сообщений для управления записью Waveform-Audio
 
@@ -35,7 +35,7 @@ ms.locfileid: "104487580"
 
 
 
- 
+ 
 
 Параметр *lParam* [**\_ \_ данных типа mm**](mm-wim-data.md) указывает указатель на структуру [**вавехдр**](/windows/win32/api/mmeapi/ns-mmeapi-wavehdr) , которая идентифицирует буфер. Этот буфер может быть не полностью заполнен данными волны-Audio. запись может быть прервана до заполнения буфера. Используйте элемент **двбитесрекордед** структуры **вавехдр** , чтобы определить объем допустимых данных, имеющихся в буфере.
 
@@ -43,13 +43,13 @@ ms.locfileid: "104487580"
 
 Функция обратного вызова для устройств ввода аудио-сигналов предоставляется приложением. Сведения об этой функции обратного вызова см. в описании функции [**вавеинпрок**](/previous-versions//dd743849(v=vs.85)) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Запись звука звукозаписи](recording-waveform-audio.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

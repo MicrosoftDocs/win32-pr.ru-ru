@@ -1,20 +1,20 @@
 ---
-title: Перечисления сборщика событий Windows
-description: В следующей таблице перечислены перечисления пакета SDK сборщика событий Windows.
+title: Windows Перечисления сборщика событий
+description: в следующей таблице перечислены перечисления пакета SDK сборщика событий Windows.
 ms.assetid: 3775aa7c-ef35-4534-b709-15624fd7a90d
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 32d2617c6eb0052ec1ac41d5f197d9216c253054
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5503228b346803365cd929621c47131dcc51e1fcf24ff4d6976d1e2b125574d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104411040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118121246"
 ---
-# <a name="windows-event-collector-enumerations"></a>Перечисления сборщика событий Windows
+# <a name="windows-event-collector-enumerations"></a>Windows Перечисления сборщика событий
 
-В следующей таблице перечислены перечисления пакета SDK сборщика событий Windows.
+в следующей таблице перечислены перечисления пакета SDK сборщика событий Windows.
 
 
 
@@ -28,15 +28,15 @@ ms.locfileid: "104411040"
 | [**\_ \_ \_ \_ активное \_ состояние времени выполнения подписки EC**](/windows/desktop/api/Evcoll/ne-evcoll-ec_subscription_runtime_status_active_status) | Указывает состояние подписки или источника событий в отношении подписки.                                               |
 | [**\_ \_ \_ идентификатор сведений о состоянии среды выполнения \_ подписки EC \_**](/windows/desktop/api/Evcoll/ne-evcoll-ec_subscription_runtime_status_info_id)             | Задает значение, определяющее свойство состояния среды выполнения для источника события или подписки.                                |
 | [**\_Тип подписки \_ EC**](/windows/desktop/api/Evcoll/ne-evcoll-ec_subscription_type)                                                    | Указывает тип используемой подписки (инициированная источником или подписка, инициированная сборщиком).                                     |
-| [**\_тип варианта \_ EC**](/windows/desktop/api/Evcoll/ne-evcoll-ec_variant_type)                                                              | Определяет значения, указывающие типы данных, которые используются в функциях сборщика событий Windows.                                  |
+| [**\_тип варианта \_ EC**](/windows/desktop/api/Evcoll/ne-evcoll-ec_variant_type)                                                              | определяет значения, указывающие типы данных, которые используются в Windows функциях сборщика событий.                                  |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

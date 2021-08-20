@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 9404c6fff6b7d33fc0bd54a50c7a1cb52b60440a
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: af9f8f6914445f0f683e914d3cdbd530afd79d3d00954e8a46c5e3ad9c1cb6e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "105710355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118086563"
 ---
 # <a name="eapcommon-schema-elements"></a>Элементы схемы еапкоммон
 
@@ -25,7 +25,7 @@ ms.locfileid: "105710355"
 -   [**VendorId (Еапмесодтипе)**](eapcommonschema-vendorid-eapmethodtype-element.md)
 -   [**Вендортипе (Еапмесодтипе)**](eapcommonschema-vendortype-eapmethodtype-element.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -35,9 +35,9 @@ ms.locfileid: "105710355"
 [Схема еапкоммон](eapcommonschema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

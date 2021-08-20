@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 595beaf50c6cb0810c86a86bc69b1e7ab9160ee1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7446a02be2a82fc4d4bfbc6d3f9135e984e9079634b2b4c17d06e3588d1c903e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104346685"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118979844"
 ---
 # <a name="jet_objectinfogrbit-property"></a>Свойство JET_OBJECTINFO. грбит
 
@@ -62,7 +62,7 @@ public ObjectInfoGrbit grbit { get; private set; }
 
 Тип: [Microsoft. ISAM. ESENT. Interop. обжектинфогрбит](./objectinfogrbit-enumeration.md)  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

@@ -4,12 +4,12 @@ description: В этом разделе описывается использо�
 ms.assetid: 37146486-5922-4833-850c-cc4a51de0957
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae2e72d25177926c948f43996b6c57d42a7c557b
-ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
+ms.openlocfilehash: 480fb75c126d89cc8db5ae79950e437ff411fcc60f3e9bf006662d0ecc2e3d4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "112587881"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118099617"
 ---
 # <a name="getting-started-with-the-stream-output-stage"></a>Начало работы с этапом Stream-Output
 

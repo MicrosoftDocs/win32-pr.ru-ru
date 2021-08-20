@@ -70,7 +70,7 @@ WM_ADSPROP_NOTIFY_APPLY
 
 При добавлении страниц в оснастку консоли управления (MMC) Active Directory Manager Active Directory вкладки свойств MMC создают объекты уведомлений по вызову функции [**адспропкреатенотифйобж**](/windows/desktop/api/Adsprop/nf-adsprop-adspropcreatenotifyobj) , а затем передает этот обработчик объекта уведомления на каждую страницу свойств.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -78,11 +78,11 @@ WM_ADSPROP_NOTIFY_APPLY
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                             |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                       |
-| Header<br/>                   | <dl> <dt>Адспроп. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Адспроп. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

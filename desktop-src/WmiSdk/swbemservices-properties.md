@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Свойства SWbemServices
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eb9c3c5ffed63c254307caaf1cd0eb5db0b9b712
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 08ee9706ca271566f5f086001756b920043c248a9bf2c14acdf706ac9d1eee33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118107957"
 ---
 # <a name="swbemservices-properties"></a>Свойства SWbemServices
 

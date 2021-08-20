@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bfe21f2961cd4cb1df31a1fdb3f407a71d6e6d68
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 595139b91e0fb19ac6ef479831604663dea1981e401aa807ba2bb3cd24a29a41
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137378"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119488434"
 ---
 # <a name="glutessproperty-function"></a>Функция Глутесспроперти
 
@@ -79,11 +79,11 @@ void WINAPI gluTessProperty(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глутесспроперти** управляет свойствами, хранящимися в объекте тесселяции. Эти свойства влияют на способ интерпретации и отрисовки многоугольников.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -97,7 +97,7 @@ void WINAPI gluTessProperty(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
