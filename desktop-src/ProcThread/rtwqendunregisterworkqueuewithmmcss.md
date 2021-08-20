@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - RTWorkQ.dll
-ms.openlocfilehash: b55386b2a018b0e311a1d4dbb2084b136d49c2f6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 083f0ca787bb842850320b9dd1d320ef4d5b172ee0b6d9b117296e58b991bd0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103910355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117793404"
 ---
 # <a name="rtwqendunregisterworkqueuewithmmcss-function"></a>Функция Ртвкендунрегистерворккуеуевисммксс
 
@@ -56,9 +56,9 @@ HRESULT WINAPI RtwqEndUnregisterWorkQueueWithMMCSS(
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только Windows 8.1 Классические приложения\]<br/>                                           |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2012 R2 \[\]<br/>                                |
-| Header<br/>                   | <dl> <dt>Нет</dt> </dl>        |
+| Минимальная версия клиента<br/> | Windows 8.1 \[ только классические приложения\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[Только классические приложения R2\]<br/>                                |
+| Заголовок<br/>                   | <dl> <dt>None</dt> </dl>        |
 | Библиотека<br/>                  | <dl> <dt>Ртворкк. lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RTWorkQ.dll</dt> </dl> |
 

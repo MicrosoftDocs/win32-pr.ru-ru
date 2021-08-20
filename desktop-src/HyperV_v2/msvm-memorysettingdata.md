@@ -44,12 +44,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 47309fead7ee45936f34e1e4286ee94437823df7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8cde5351468a3fb4f90fee081168df30800ec33508e3429af4a5c1f3fa51286a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103998436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117811529"
 ---
 # <a name="msvm_memorysettingdata-class"></a>\_Класс мсвм меморисеттингдата
 
@@ -103,7 +103,7 @@ class Msvm_MemorySettingData : CIM_ResourceAllocationSettingData
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ меморисеттингдата** имеет следующие свойства.
 
@@ -174,7 +174,7 @@ class Msvm_MemorySettingData : CIM_ResourceAllocationSettingData
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -439,7 +439,7 @@ class Msvm_MemorySettingData : CIM_ResourceAllocationSettingData
 Указывает, включен ли SGX.
 
 > [!Note]  
-> Это свойство было добавлено в Windows 10 версии 1703.
+> это свойство было добавлено в Windows 10 версии 1703.
 
  
 
@@ -457,7 +457,7 @@ class Msvm_MemorySettingData : CIM_ResourceAllocationSettingData
 Объем памяти SGX, выделяемой для виртуальной машины (в МБ).
 
 > [!Note]  
-> Это свойство было добавлено в Windows 10 версии 1703.
+> это свойство было добавлено в Windows 10 версии 1703.
 
  
 
@@ -530,7 +530,7 @@ class Msvm_MemorySettingData : CIM_ResourceAllocationSettingData
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Доступ к классу **\_ меморисеттингдата мсвм** может быть ограничен фильтром контроля учетных записей. Дополнительные сведения см. в разделе [Управление учетными записями пользователей и инструментарий WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -596,8 +596,8 @@ if (WaitForResult($res) -ne 0)
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

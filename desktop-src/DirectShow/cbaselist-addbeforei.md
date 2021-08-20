@@ -65,7 +65,7 @@ POSITION AddBeforeI(
 
 Если *POS* имеет **значение NULL**, этот метод добавляет элемент в конец списка (эквивалентно вызову метода [**кбаселист:: аддтаили**](cbaselist-addtaili.md) ).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -76,7 +76,7 @@ POSITION AddBeforeI(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

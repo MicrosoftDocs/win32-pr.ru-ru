@@ -4,12 +4,12 @@ ms.assetid: 4364ff87-816e-4b64-b5e9-c53dd6c9bb33
 title: Атрибут VIDEO_ZOOM_RECT (Евр. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dda4efca5beab844baf3b3f53074d6b3012e8621
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c2e6ce19c808545d400f53b9c0091cdbcc20c8efbc13372ae5386e419d244143
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118737149"
 ---
 # <a name="video_zoom_rect-attribute"></a>\_ \_ Атрибут Rect масштаба видео
 
@@ -19,7 +19,7 @@ ms.locfileid: "105662680"
 
 массив байтов;
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значением этого атрибута является структура [**мфвидеонормализедрект**](/windows/desktop/api/evr/ns-evr-mfvideonormalizedrect) .
 
@@ -61,14 +61,14 @@ HRESULT SetMixerSourceRect(IMFTransform *pMixer, const MFVideoNormalizedRect& nr
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                   |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                             |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                   |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Евр. h</dt> </dl> |
 
 

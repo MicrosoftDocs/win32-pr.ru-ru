@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 2844fef209aedf6819aeaa5a5b6b8a2d698b39a8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b337cff6e8a21ab859c78625c613a71da45d134f1cae0ff40d7f501fa6ce3466
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105691360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118120382"
 ---
 # <a name="event-schema-complex-types"></a>Сложные типы схемы событий
 
@@ -25,8 +25,8 @@ ms.locfileid: "105691360"
 | Сложный тип                                                                       | Описание                                                                                                                                                                                               |
 |------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**комплексдататипе**](eventschema-complexdatatype-complextype.md)                 | Определяет структуру, содержащую один или несколько элементов данных.<br/>                                                                                                                                      |
-| [**DataType**](eventschema-datafieldtype-complextype.md)                          | Определяет элемент данных.<br/>                                                                                                                                                                           |
-| [**дебугдататипе**](eventschema-debugdatatype-complextype.md)                     | Определяет данные, которые могут регистрироваться для событий препроцессора трассировки программного обеспечения Windows (WPP).<br/>                                                                                                      |
+| [**Заданий**](eventschema-datafieldtype-complextype.md)                          | Определяет элемент данных.<br/>                                                                                                                                                                           |
+| [**дебугдататипе**](eventschema-debugdatatype-complextype.md)                     | определяет данные, которые могут быть зарегистрированы для Windows событий препроцессора (WPP) трассировки программного обеспечения.<br/>                                                                                                      |
 | [**евентдататипе**](eventschema-eventdatatype-complextype.md)                     | Определяет элементы данных событий и структуры, содержащие данные события.<br/>                                                                                                                      |
 | [**EventType**](eventschema-eventtype-complextype.md)                             | Определяет корневой узел схемы событий.<br/>                                                                                                                                                     |
 | [**процессинжеррордататипе**](eventschema-processingerrordatatype-complextype.md) | Определяет ошибку, которая произошла во время отображения данных события для события.<br/>                                                                                                                   |

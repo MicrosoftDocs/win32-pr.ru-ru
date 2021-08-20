@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 384950ca1f00d0115135cf9ae36a2883ec5470e7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d1671641a5088535777cb78bf3773f4c1e56e1c3d35e70d345a39df2dad7bd83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273784"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118526196"
 ---
 # <a name="d3dxcreatetorus-function"></a>Функция D3DXCreateTorus
 
@@ -115,7 +115,7 @@ HRESULT D3DXCreateTorus(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. Если функция завершается ошибкой, возвращаемое значение может быть одним из следующих: D3DERR \_ инвалидкалл, D3DXERR \_ INVALIDDATA, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Созданный Торус выравнивается по центру источника, а его ось — по оси z. Внутренний радиус торуса — это радиус перекрестной секции (дополнительный радиус), а внешний радиус Торус — радиус центрального отверстия.
 
@@ -129,7 +129,7 @@ HRESULT D3DXCreateTorus(
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9shape. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9shape. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>    |
 
 

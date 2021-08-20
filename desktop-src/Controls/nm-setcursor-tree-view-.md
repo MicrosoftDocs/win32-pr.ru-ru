@@ -3,7 +3,7 @@ title: Код уведомления NM_SETCURSOR (в виде дерева) (К
 description: Сообщает родительскому окну элемента управления древовидного представления о том, что элемент управления устанавливает курсор в ответ на \_ сообщение СЕТКУРСОР WM. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: 2b2f2e90-edef-484d-b67a-12983a1cde29
 keywords:
-- Элементы управления Windows для кода уведомления NM_SETCURSOR (представление в виде дерева)
+- NM_SETCURSOR (представление в виде дерева) код уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b40b733e32c72abc9620e0fd18a6ef554aee9214
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b7791ff62fa9ed097052ebd38dae0000d7165519133527044e9716bb7e39c655
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118410461"
 ---
 # <a name="nm_setcursor-tree-view-notification-code"></a>\_Код уведомления NM сеткурсор (в виде дерева)
 
@@ -55,8 +55,8 @@ NM_SETCURSOR
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

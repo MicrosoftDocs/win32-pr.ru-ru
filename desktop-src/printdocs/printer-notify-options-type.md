@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 4a82d0bc0481533a65fc90d32a992c51116b4595
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2b593a502a668345cdd0206b4f1363cf160074b6c9aa26696427b5b42a0fbdc9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712159"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118056281"
 ---
 # <a name="printer_notify_options_type-structure"></a>\_ \_ Структура типа параметров уведомления принтера \_
 
@@ -78,7 +78,7 @@ typedef struct _PRINTER_NOTIFY_OPTIONS_TYPE {
 
 </dd> <dt>
 
-**Reserved2**
+**Зарезервировано 2**
 </dt> <dd>
 
 Зарезервировано.
@@ -107,7 +107,7 @@ typedef struct _PRINTER_NOTIFY_OPTIONS_TYPE {
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Винспул. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>винспул. h (включает Windows. h)</dt> </dl> |
 
 
 

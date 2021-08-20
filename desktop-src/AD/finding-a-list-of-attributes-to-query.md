@@ -7,12 +7,12 @@ keywords:
 - Поиск списка атрибутов для запроса AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4b6fb6b4d948a7cbc4d76caba9b78e189324eaa
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 5e0edfee59c42a8cf07be05ab31e58c0298f7285c8a02de659257e3b3cd14bfc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103789535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118189194"
 ---
 # <a name="finding-a-list-of-attributes-to-query"></a>Поиск списка атрибутов для запроса
 
@@ -29,8 +29,8 @@ ms.locfileid: "103789535"
 > [!Note]  
 > Дополнительные сведения о предопределенных классах и атрибутах, входящих в систему, см. в разделе [Справочник по службам домен Active Directory](active-directory-domain-services-reference.md). На этих страницах перечислены обязательные и необязательные атрибуты каждого класса объектов. Для атрибутов эталонная страница указывает, является ли атрибут индексированным, сконструированным, связанным или в глобальном каталоге.
 
- 
+ 
 
- 
+ 
 
- 
+ 

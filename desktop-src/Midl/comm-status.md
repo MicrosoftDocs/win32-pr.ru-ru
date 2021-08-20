@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dd4952d03a80dbbffb135043d024b0c0eb18966f
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 719f66d6849a21d67d9349a9e9fd728defb4a0663e4436701d06f20209f4d5b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103784314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118384708"
 ---
 # <a name="comm_status-attribute"></a>\_атрибут состояния связи
 
@@ -66,7 +66,7 @@ ms.locfileid: "103784314"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Атрибут **\[ \_ состояния \]** связи может использоваться как атрибут функции или как атрибут параметра, но он может использоваться только один раз для каждой функции. Его можно применить либо к функции, либо к одному параметру в каждой функции.
 
@@ -95,9 +95,9 @@ ms.locfileid: "103784314"
 [**заполняет**](out-idl.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

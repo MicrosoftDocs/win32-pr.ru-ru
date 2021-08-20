@@ -3,7 +3,7 @@ title: THEME. closeView
 description: Метод closeView закрывает открытое представление.
 ms.assetid: 37b56a7d-8031-4055-95ad-0510105e1c1f
 keywords:
-- Проигрыватель Windows Media THEME. closeView
+- проигрыватель Windows Media THEME. closeView
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b39083979809fc2e747c54569db8d03298a951c6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e66a0c56ab2f5fc3d5d6a27d996d8b3f3cf7834c61e62113a40af3c42aeb4d59
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117932549"
 ---
 # <a name="themecloseview"></a>THEME. closeView
 
@@ -60,17 +60,17 @@ ms.locfileid: "105648652"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

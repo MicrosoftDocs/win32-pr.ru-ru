@@ -9,12 +9,12 @@ keywords:
 - Интерфейс протокола маршрутизации RRAS, описание
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bc663f249ca42ebbae509c164a828d603a9b968
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 76689e0e7ca40c2677491fc0673c596c902a73ee85b677161c208fe71d090367
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103777375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117792121"
 ---
 # <a name="about-routing-protocol-interface"></a>О интерфейсе протокола маршрутизации
 
@@ -28,9 +28,9 @@ ms.locfileid: "103777375"
 -   [Интерфейсы](interfaces.md)
 -   [Статические и автостатические маршруты](static-and-autostatic-routes.md)
 
- 
+ 
 
- 
+ 
 
 
 

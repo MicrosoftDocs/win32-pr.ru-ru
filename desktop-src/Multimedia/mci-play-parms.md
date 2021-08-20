@@ -3,7 +3,7 @@ title: Структура MCI_PLAY_PARMS (МЦиапи. h)
 description: Структура MCI \_ Play \_ пармс содержит сведения о размещении для \_ команды MCI Play.
 ms.assetid: f1bacf61-ec14-4391-b227-20b35c0bbbc3
 keywords:
-- MCI_PLAY_PARMS структура мультимедиа Windows
+- структура MCI_PLAY_PARMS Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f207737d4eb93e280355d0e5041b6e7bfc1b3048
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7bd45269cd74d15d2326bf4c6528d5778ef7a5a35e40dfd2a74134afafdbcb8a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117803475"
 ---
 # <a name="mci_play_parms-structure"></a>\_Структура MCI Play \_ пармс
 
@@ -63,7 +63,7 @@ typedef struct {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При назначении данных членам этой структуры установите соответствующие флаги в параметре *фдвкомманд* функции [**мЦисендкомманд**](/previous-versions//dd757160(v=vs.85)) , чтобы проверить элементы.
 

@@ -4,12 +4,12 @@ ms.assetid: 0c930348-8669-42cc-9d74-df9ef475bdc8
 title: Атрибут MF_MT_VIDEO_CHROMA_SITING (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa634cf9a9ca7f5c292eb0cf06c6a1a14c788d43
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d5954f6d1649c366056bf9362a4226314d79ad78708fd4140f355506f7ee637d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118741530"
 ---
 # <a name="mf_mt_video_chroma_siting-attribute"></a>\_ \_ \_ \_ Атрибут чрома заблокировано (MF MT Video)
 
@@ -19,20 +19,20 @@ ms.locfileid: "105712254"
 
 **UINT32**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значение этого атрибута является побитовым оператором **или** для флагов перечисления [**мфвидеочромасубсамплинг**](/windows/desktop/api/mfobjects/ne-mfobjects-mfvideochromasubsampling) .
 
 Константа GUID для этого атрибута экспортируется из мфууид. lib.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows Vista \|\]<br/>                              |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 \|\]<br/>                        |
+| Минимальная версия клиента<br/> | Windows \[Приложения UWP для классических приложений Vista \|\]<br/>                              |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для классических приложений сервера 2008 \|\]<br/>                        |
 | Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 

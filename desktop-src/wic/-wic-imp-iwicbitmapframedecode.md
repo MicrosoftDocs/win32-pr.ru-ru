@@ -4,12 +4,12 @@ ms.assetid: 7dc626ad-1158-4b67-8ca7-47b4cf88e278
 title: Реализация IWICBitmapFrameDecode
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 394b5858ec5eee37ef1c7f52b766806c4a0c1a92
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d4b49e3636f5d81202b1060d868ecb40bb99d095dd9f26b6afd0d40c5f5fd0d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103816096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118205768"
 ---
 # <a name="implementing-iwicbitmapframedecode"></a>Реализация IWICBitmapFrameDecode
 
@@ -48,7 +48,7 @@ HRESULT CopyPalette ( IWICPalette *pIPalette );
 
 ### <a name="getthumbnail"></a>GetThumbnail
 
-Параметр " [**эскиз**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframedecode-getthumbnail) " возвращает эскиз текущего кадра. По соображениям производительности эскизы чаще всего кодируются в формате JPEG. Точно так же, как и в предварительной версии декодера, не обязательно и не рекомендуется предоставлять собственный декодер JPEG для эскизов. Вместо этого следует делегировать декодеру JPEG, предоставляемому компонентом Windows Imaging Component (WIC).
+Параметр " [**эскиз**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframedecode-getthumbnail) " возвращает эскиз текущего кадра. По соображениям производительности эскизы чаще всего кодируются в формате JPEG. Точно так же, как и в предварительной версии декодера, не обязательно и не рекомендуется предоставлять собственный декодер JPEG для эскизов. вместо этого следует делегировать декодеру JPEG, предоставляемому компонентом Windows imaging (WIC).
 
 Дополнительные сведения о эскизах см. в описании метода [сетсумбнаил](-wic-imp-iwicbitmapframeencode.md) для [реализации ивикбитмапфраминкоде](-wic-imp-iwicbitmapframeencode.md).
 
@@ -114,7 +114,7 @@ hr = m_pComponentFactory->CreateQueryReaderFromBlockReader(
 [Написание WIC-Enabled КОДЕка](-wic-howtowriteacodec.md)
 </dt> <dt>
 
-[Общие сведения о компоненте создания образов Windows](-wic-about-windows-imaging-codec.md)
+[Windows Общие сведения о компонентах обработки изображений](-wic-about-windows-imaging-codec.md)
 </dt> </dl>
 
  

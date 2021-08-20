@@ -4,12 +4,12 @@ description: Архитектура обработчика
 ms.assetid: 93839b82-09cb-41af-ac0e-a8e9448bf04b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e2b02d0184d364ce438dc28f8219beea01c4868
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5c0da7846f31c94202d8d50ac0566c87ef5db085a0b9efb3f9250468346512db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118141097"
 ---
 # <a name="handler-architecture"></a>Архитектура обработчика
 
@@ -19,9 +19,9 @@ ms.locfileid: "104068076"
 
 В отличие от этого обработчик потока обрабатывает один тип данных и появляется в виде потока данных для приложения. Обработчик потока может предоставлять данные, которые он создает, или может получать данные из файла или из внешнего источника. Он предоставляет свои данные в формате, который может использовать приложение.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 198179b67a2812417e60a0a1e1512b686d52e98a
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 4f462b11b406920d1fce99592fdef00fd6c15ba08c50b35f818d68650a97b923
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104998178"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117723417"
 ---
 # <a name="texturecubearraygathercmpalphasfloatfloatuint-function"></a>Функция Текстурекубеаррай:: Гасеркмпалфа (S, float, float, uint)
 
@@ -84,7 +84,7 @@ TemplateType GatherCmpAlpha(
 
 Значение из четырех компонентов, тип которого совпадает с типом шаблона.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Примеры текстур можно использовать для интерполяции билинейной.
 
@@ -92,7 +92,7 @@ TemplateType GatherCmpAlpha(
 
 
 
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
+| Вершина | Поверхности | Домен | Геометрия | Пиксель | Службы вычислений |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

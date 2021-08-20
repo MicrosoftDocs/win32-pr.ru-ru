@@ -9,12 +9,12 @@ keywords:
 - волна — аудио-интерфейс, сведения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51c2108539a13f9c603198662039cec0bf1abd37
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0657381f061238d974ab7dde5fc934c2c3438a0116712b54801be0a9351f2d00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117800816"
 ---
 # <a name="waveform-audio-interface"></a>Интерфейс Waveform-Audio
 
@@ -24,9 +24,9 @@ ms.locfileid: "104067568"
 -   [Воспроизведение Waveform-Audio файлов](playing-waveform-audio-files.md)
 -   [Запись звука звукозаписи](recording-waveform-audio.md)
 
- 
+ 
 
- 
+ 
 
 
 

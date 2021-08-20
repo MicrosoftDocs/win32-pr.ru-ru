@@ -6,12 +6,12 @@ keywords:
 - WS_SECURITY_CONTEXT
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c041307eadd1ebcea379f9de0880fc011bd137ff
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c34f201c40e3079a3c26ced97e2664679f04ccec6b7804844dd305422abadfdd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136271"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118192360"
 ---
 # <a name="ws_security_context"></a>\_контекст безопасности \_ WS
 
@@ -24,18 +24,18 @@ typedef struct _WS_SECURITY_CONTEXT WS_SECURITY_CONTEXT;
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот объект не является потокобезопасным. Дополнительные сведения см. в статье [безопасность потоков](thread-safety.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 7 \|\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 R2 \|\]<br/>                           |
+| Минимальная версия клиента<br/> | \[приложения UWP для классических приложений Windows 7 \|\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для настольных приложений Server 2008 R2 \|\]<br/>                           |
 | Header<br/>                   | <dl> <dt>WebService. h</dt> </dl> |
 
 

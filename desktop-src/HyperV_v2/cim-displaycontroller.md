@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 59db37a89ce1f57e01a6a9a27fb9c24177221b00
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bbfd67f59ba46cb17f6022296c62de05d7c0f9e6bc334cb01e2e28a059e4b384
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117812642"
 ---
 # <a name="cim_displaycontroller-class"></a>\_Класс CIM дисплайконтроллер
 
@@ -59,7 +59,7 @@ class CIM_DisplayController : CIM_Controller
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ дисплайконтроллер** имеет следующие свойства.
 
@@ -481,7 +481,7 @@ class CIM_DisplayController : CIM_Controller
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -495,7 +495,7 @@ class CIM_DisplayController : CIM_Controller
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

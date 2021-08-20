@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 917a927ff80d4abe1b6509fd41281992a998c945
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 8d718b11c23fcf77f452e224a51439f7d6f422d3c81d5238167cbf87c7c3014a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103987081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117725418"
 ---
 # <a name="outputtopology"></a>аутпуттопологи
 
@@ -27,7 +27,7 @@ outputtopology(X)
 
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 X должен быть " [**точка**](dx-graphics-hlsl-geometry-shader.md)", " **линия**", " **треугольник \_**" или "треугольник" и должен быть заключен в кавычки. **\_** Ниже приведены допустимые параметры для этого атрибута.
 
@@ -45,15 +45,15 @@ X должен быть " [**точка**](dx-graphics-hlsl-geometry-shader.md)"
 
 
 
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
+| Вершина | Поверхности | Домен | Геометрия | Пиксель | Службы вычислений |
 |--------|------|--------|----------|-------|---------|
 |        | x    |        |          |       |         |
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -63,9 +63,9 @@ X должен быть " [**точка**](dx-graphics-hlsl-geometry-shader.md)"
 [Модель шейдера 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

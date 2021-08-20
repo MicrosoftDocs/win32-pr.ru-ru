@@ -64,7 +64,7 @@ Implements IWMPPlaylistCollection.isDeleted
 
 Значение **System. Boolean** , указывающее, был ли удален список воспроизведения.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

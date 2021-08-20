@@ -4,12 +4,12 @@ ms.assetid: 28AC864C-C63C-4BD4-9770-B7B48A2815C6
 title: Атрибут MF_SINK_WRITER_ENCODER_CONFIG (Мфреадврите. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1703eaa93254c5703f544641edd0063e2190a342
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6fb68348987ac406643cbe709dc6052d1add3c04e63b4e1f38d7c681a95c3ae7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103814889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118059088"
 ---
 # <a name="mf_sink_writer_encoder_config-attribute"></a>\_ \_ \_ Атрибут конфигурации кодировщика записи MF SINK \_
 
@@ -17,11 +17,11 @@ ms.locfileid: "103814889"
 
 ## <a name="data-type"></a>Тип данных
 
-**IUnknown \** _
+**IUnknown\***
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Значением этого атрибута является указатель [_ *ипропертисторе* *](/windows/win32/api/propsys/nn-propsys-ipropertystore) .
+Значение этого атрибута является указателем [**ипропертисторе**](/windows/win32/api/propsys/nn-propsys-ipropertystore) .
 
 Этот атрибут позволяет приложению задавать свойства кодировки при использовании [модуля записи приемника](sink-writer.md). Чтобы задать этот атрибут, выполните следующие действия.
 
@@ -39,9 +39,9 @@ ms.locfileid: "103814889"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8 \|\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 \|\]<br/>                              |
-| Header<br/>                   | <dl> <dt>Мфреадврите. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ приложения UWP для классических приложений \|\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ приложения UWP для классических приложений \|\]<br/>                              |
+| Заголовок<br/>                   | <dl> <dt>Мфреадврите. h</dt> </dl> |
 
 
 

@@ -100,7 +100,7 @@ HRESULT D3DX11GetImageInfoFromFile(
 
 Эта функция поддерживает строки в Юникоде и ANSI.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

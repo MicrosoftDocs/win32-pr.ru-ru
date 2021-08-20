@@ -4,18 +4,18 @@ ms.assetid: d10533d8-e919-4d2a-a173-16a8f723551d
 title: О CNG
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8883b5ad50a0e3e680d718afd0f448a5cd87dd18
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb13c50b98c80f9ca45a72d0b0967fc8b95d209dd88e206e1a9abc498d408032
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662170"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118909025"
 ---
 # <a name="about-cng"></a>О CNG
 
 API шифрования: следующее поколение (CNG) — это долгосрочная замена интерфейса [*CryptoAPI*](/windows/desktop/SecGloss/c-gly). CNG разработан для расширения на множестве уровней и шифрования, независимо от поведения.
 
-## <a name="features"></a>Компоненты
+## <a name="features"></a>Функции
 
 Дополнительные сведения о функциях CNG см. в разделе [функции CNG](cng-features.md).
 
@@ -23,9 +23,9 @@ API шифрования: следующее поколение (CNG) — это
 
 Дополнительные сведения о криптографических примитивах в CNG см. в разделе [криптографические примитивы](cryptographic-primitives.md).
 
-## <a name="key-storage-and-retrieval"></a>Хранение ключей и их получение
+## <a name="key-storage-and-retrieval"></a>ключевые служба хранилища и извлечение
 
-Дополнительные сведения о хранении и извлечении ключей в CNG см. в статье [хранение ключей и](key-storage-and-retrieval.md)их извлечение.
+дополнительные сведения о хранении и извлечении ключей в CNG см. в разделе [key служба хранилища и извлечение](key-storage-and-retrieval.md).
 
 ## <a name="key-import-and-export"></a>Импорт и экспорт ключей
 

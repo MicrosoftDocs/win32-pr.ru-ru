@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 98906f281c6c93a64754c1aa5cecfc6624599c40
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 02e4227e06d9c9303a5fe9b799afff6e452843bbb7c0dac096b39f925e568d25
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104346435"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118459897"
 ---
 # <a name="onusernamechanged-function"></a>Функция Онусернамечанжед
 
@@ -39,7 +39,7 @@ ms.locfileid: "104346435"
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Когда клиент [**перечисляет пользователей**](didiskquotauser-object.md)или вызывает метод [**adduser**](diskquotacontrol-adduser.md) или [**финдусер**](diskquotacontrol-finduser.md) , имя пользователя должно быть разрешено соответствующему идентификатору безопасности (SID). Поскольку эта процедура может занимать много времени, клиент может выполнять разрешение имен асинхронно в фоновом потоке. При разрешении имени пользователя объект [**дисккуотаконтрол**](diskquotacontrol-object.md) уведомляет свой клиент, выполнив событие **онусернамечанжед** . Объект **дидисккуотаусер** , связанный с пользователем, передается в качестве параметра. Этот объект позволяет клиенту изменять параметры квоты пользователя.
 

@@ -34,7 +34,7 @@ ms.locfileid: "118638294"
 
     
 
-    | Файл       | Компонент\_ | FileName   |
+    | File       | Компонент\_ | FileName   |
     |------------|-------------|------------|
     | readMe.txt | Comp1       | readMe.txt |
     | ReadMe.txt | Comp2       | readMe.txt |

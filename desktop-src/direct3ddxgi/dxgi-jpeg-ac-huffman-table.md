@@ -54,7 +54,7 @@ typedef struct DXGI_JPEG_AC_HUFFMAN_TABLE {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -64,7 +64,7 @@ typedef struct DXGI_JPEG_AC_HUFFMAN_TABLE {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

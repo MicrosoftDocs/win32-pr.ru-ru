@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 952038f7a956722db8a40634bfc4175612e530be
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: fcec7fb1e4ee30c0c6c7bfbab1e23002ff70b950048a2454a67e15ee7af8889f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103914364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117795055"
 ---
 # <a name="glrasterpos4i-function"></a>Функция glRasterPos4i
 
@@ -75,7 +75,7 @@ W-координата текущей разточечной точки.
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 OpenGL поддерживает трехмерное расположение в координатах окна. Это расположение, называемое растровой позицией, сохраняется с точностью до точки. Он используется для размещения операций записи пикселей и точечных рисунков. См. раздел [**глбитмап**](glbitmap.md), [**глдравпикселс**](gldrawpixels.md)и [**глкопипикселс**](glcopypixels.md).
 

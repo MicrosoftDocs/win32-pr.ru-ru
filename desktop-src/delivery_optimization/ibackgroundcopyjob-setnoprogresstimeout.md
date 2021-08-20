@@ -69,7 +69,7 @@ HRESULT SetNoProgressTimeout(
 
 Если не выполняется в течение периода повтора, то состояние задания перемещается с BG_JOB_STATE_TRANSIENT_ERROR на BG_JOB_STATE_ERROR. Если вы запрашиваете уведомление об ошибке, выполните вызов обратного вызова [**жоберрор**](https://www.bing.com/search?q=**JobError**) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

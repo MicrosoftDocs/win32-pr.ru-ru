@@ -4,12 +4,12 @@ ms.assetid: 1da9db13-6fdc-44b3-9985-de32d572675a
 title: Сообщение ABM_NEW (Шеллапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fad11e6712d0afd0c1a5e9de07fd3d690800db13
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 400439e6808d40eb74c18fa4219109a0abca1973cdac4dcb9de5154384fd0071
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103808884"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118460971"
 ---
 # <a name="abm_new-message"></a>АБМ \_ новое сообщение
 
@@ -43,7 +43,7 @@ fRegistered = (BOOL) SHAppBarMessage(ABM_NEW, pabd);
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                           |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                           |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                  |
 | Заголовок<br/>                   | <dl> <dt>Шеллапи. h</dt> </dl> |
 

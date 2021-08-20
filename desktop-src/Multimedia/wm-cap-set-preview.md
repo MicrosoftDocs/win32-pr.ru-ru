@@ -3,7 +3,7 @@ title: Сообщение WM_CAP_SET_PREVIEW (VFW. h)
 description: Сообщение " \_ Установка закрепления WM" \_ \_ включает или отключает режим предварительного просмотра.
 ms.assetid: ef6218d6-4fff-469f-b2e0-d7990998a3e5
 keywords:
-- WM_CAP_SET_PREVIEW сообщения Windows мультимедиа
+- сообщение WM_CAP_SET_PREVIEW Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b4a7e490809efa2e2d9f1ad27bca697c6333e682
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a25bf7f1ce2a61cb104c1e1764f9bca9c82d3aa40d44cc8a1eef9ce435584271
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137522"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118369388"
 ---
 # <a name="wm_cap_set_preview-message"></a>\_Сообщение для \_ \_ предварительного просмотра набора закрепления WM
 
@@ -49,7 +49,7 @@ lParam = 0L;
 
 Возвращает **значение true** в случае успеха или **false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В режиме предварительного просмотра используются существенные ресурсы ЦП. Приложения могут отключить предварительный просмотр или уменьшить частоту предварительной версии, когда фокус находится на другом приложении. Элемент **фливевиндов** структуры [**капстатус**](/windows/win32/api/vfw/ns-vfw-capstatus) указывает, включен ли режим предварительного просмотра в данный момент.
 

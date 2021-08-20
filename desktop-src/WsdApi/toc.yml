@@ -4,7 +4,7 @@
     - name: О веб-службах на устройствах
       href: about-web-services-for-devices.md
       items:
-        - name: Шаблоны сообщений обнаружения и обмена метаданными
+        - name: шаблоны сообщений обнаружения и метаданных Exchange
           href: discovery-and-metadata-exchange-message-patterns.md
           items:
             - name: Сообщение Hello
@@ -17,9 +17,9 @@
               href: resolve-message.md
             - name: Сообщение Ресолвематчес
               href: resolvematches-message.md
-            - name: Получение HTTP-запроса и сообщения об ошибке (обмен метаданными)
+            - name: получение HTTP-запроса и сообщения об ошибке (метаданные Exchange)
               href: get--metadata-exchange--http-request-and-message.md
-            - name: Сообщение о GetResponse (обмен метаданными)
+            - name: сообщение о выклике (метаданные Exchange)
               href: getresponse--metadata-exchange--message.md
             - name: Сообщение Bye
               href: bye-message.md
@@ -43,7 +43,7 @@
     - name: Использование веб-служб на устройствах
       href: using-web-services-on-devices.md
       items:
-        - name: Разработка приложений WSD в Windows
+        - name: Разработка приложений WSD на Windows
           href: wsd-application-development-on-windows.md
           items:
             - name: Средства разработки WSDAPI
@@ -66,7 +66,7 @@
         - name: Разработка устройств WSD
           href: wsd-device-development.md
           items:
-            - name: Рекомендации по реализации устройств WSD
+            - name: Рекомендации реализации устройства WSD
               href: wsd-device-implementation-recommendations.md
               items:
                 - name: Реализация многосетевого устройства WSD
@@ -106,15 +106,15 @@
                   href: downloading-netmon-and-sample-dpws-filters.md
                 - name: Включение трассировки WSDAPI
                   href: enabling-wsdapi-tracing.md
-                - name: Проверка параметров адаптера и брандмауэра
+                - name: проверка Параметры адаптера и брандмауэра
                   href: inspecting-adapter-and-firewall-settings.md
                 - name: Проверка трассировки сети для приложений с помощью направленного обнаружения
                   href: inspecting-network-traces-for-applications-using-directed-discovery.md
-                - name: Проверка трассировки сети для обмена метаданными HTTP
+                - name: Проверка трассировки сети для Exchange метаданных HTTP
                   href: inspecting-network-traces-for-http-metadata-exchange.md
                 - name: Проверка трассировки сети для UDP-WS-Discovery
                   href: inspecting-network-traces-for-udp-ws-discovery.md
-                - name: Использование универсального узла и клиента для обмена метаданными HTTP
+                - name: Использование универсального узла и клиента для метаданных HTTP Exchange
                   href: using-a-generic-host-and-client-for-http-metadata-exchange.md
                 - name: Использование универсального узла и клиента для UDP-WS-Discovery
                   href: using-a-generic-host-and-client-for-udp-ws-discovery.md
@@ -799,7 +799,7 @@
                   href: file.md
                 - name: функтиондекларатионс
                   href: functiondeclarations.md
-                - name: узел
+                - name: host
                   href: host.md
                 - name: хостбуилдердекларатион
                   href: hostbuilderdeclaration.md

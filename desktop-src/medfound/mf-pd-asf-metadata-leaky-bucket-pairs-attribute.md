@@ -4,12 +4,12 @@ ms.assetid: e45d055f-d404-47e9-b3c8-ac743b290138
 title: Атрибут MF_PD_ASF_METADATA_LEAKY_BUCKET_PAIRS (Вмконтаинер. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7426d15a806a8c61c9a2ea1fdfb0565372c5f48f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9444292ad437551622e1f418a6f21198ecd8341f01e4e5bda0a2047f847cfd37
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118740752"
 ---
 # <a name="mf_pd_asf_metadata_leaky_bucket_pairs-attribute"></a>\_ \_ \_ \_ \_ Атрибут пар контейнеров утечки метаданных MF PD ASF \_
 
@@ -19,7 +19,7 @@ ms.locfileid: "105712328"
 
 массив байтов;
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут применяется к дескрипторам представления для содержимого ASF.
 
@@ -46,18 +46,18 @@ typedef struct _WMLeakyBucketPair {
 Для каждой скорости потока элемент **мсбуффервиндов** указывает, сколько содержимого буферизовано до начала воспроизведения, в миллисекундах. Размер буфера в байтах равен **мсбуффервинов** x **двбитрате** /8000.
 
 > [!Note]  
-> Этот атрибут соответствует атрибуту **асфлеакибуккетпаирс** в пакете SDK формата Windows Media.
+> этот атрибут соответствует атрибуту **асфлеакибуккетпаирс** в пакете SDK для Windows Media Format.
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                     |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Вмконтаинер. h</dt> </dl> |
 
 

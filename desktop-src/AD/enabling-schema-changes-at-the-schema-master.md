@@ -1,31 +1,31 @@
 ---
 title: Включение изменений схемы на хозяине схемы
-description: По умолчанию изменение схемы отключено на всех контроллерах домена Windows 2000.
+description: по умолчанию изменение схемы отключено на всех контроллерах домена Windows 2000.
 ms.assetid: 08806a9e-283c-48d9-9557-bcb9719fc13c
 ms.tgt_platform: multiple
 keywords:
 - Включение изменений схемы в Active Directory хозяина схемы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4840c9928011179ce303c83f4d00ef598f38eb64
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 251716adaae4dab153b749b4db361bf7adca9b6aca2a800cec1b9d73943c595b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118191390"
 ---
 # <a name="enabling-schema-changes-at-the-schema-master"></a>Включение изменений схемы на хозяине схемы
 
-По умолчанию изменение схемы отключено на всех контроллерах домена Windows 2000. Возможность обновления схемы управляется следующим значением реестра на контроллере домена хозяина схемы:
+по умолчанию изменение схемы отключено на всех контроллерах домена Windows 2000. Возможность обновления схемы управляется следующим значением реестра на контроллере домена хозяина схемы:
 
 ```
 HKEY_LOCAL_MACHINE
-   System
-      CurrentControlSet
-         Services
-            NTDS
-               Parameters
-                  Schema Update Allowed
+   System
+      CurrentControlSet
+         Services
+            NTDS
+               Parameters
+                  Schema Update Allowed
 ```
 
 Это значение реестра является параметром **reg \_ DWORD** . Если это значение отсутствует или содержит ноль (0), изменение схемы отключено. Если это значение имеется и содержит значение, отличное от нуля, то изменение схемы включено.
@@ -191,9 +191,9 @@ HRESULT EnableSchemaUpdate(
 
 
 
- 
+ 
 
- 
+ 
 
 
 
