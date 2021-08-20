@@ -3,7 +3,7 @@ title: Макрос MCI_MAKE_HMS (МЦиапи. h)
 description: '\_ \_ Макрос make ХМс создает значение времени в формате "Упакованные часы/минуты/секунды (ХМс)" из заданных значений часов, минут и секунд.'
 ms.assetid: 470e89eb-36e1-4b05-babd-4c986adc88dd
 keywords:
-- MCI_MAKE_HMS макросов Windows мультимедиа
+- MCI_MAKE_HMS макрос Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f37c95df89ed6a799575e964ae274e01e329ef1c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 056605b0148abad27f9911d2e6db4687ca7d65be55075433940814b62ea844ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103803508"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117986371"
 ---
 # <a name="mci_make_hms-macro"></a>\_Макрос make \_ ХМс
 
@@ -42,14 +42,14 @@ DWORD MCI_MAKE_HMS(
 
 <dl> <dt>
 
-*суток* 
+*hours* 
 </dt> <dd>
 
 Количество часов.
 
 </dd> <dt>
 
-*тезис* 
+*minutes* 
 </dt> <dd>
 
 Количество минут.
@@ -67,7 +67,7 @@ DWORD MCI_MAKE_HMS(
 
 Возвращает время в упакованном формате ХМС.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Время в формате ХМС выражается как значение **DWORD** с наименьшим значащим байтом, содержащим часы, следующий младший значащий байт, содержащий минуты, и следующий младший значащий байт, содержащий секунды. Наиболее значимый байт не используется.
 
@@ -94,7 +94,7 @@ DWORD MCI_MAKE_HMS(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

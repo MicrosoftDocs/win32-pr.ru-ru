@@ -4,12 +4,12 @@ ms.assetid: a40d4a8f-d0b0-49fc-9e07-48669a1bf469
 title: System. DateCreated
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72fe6b707ec276f22bf9139913d86482943da3bc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7f1784022cd493e6d4afdb0529e122965eb08d7bea96f97f749b6f497e8851ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105719526"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118055063"
 ---
 # <a name="systemdatecreated"></a>System. DateCreated
 
@@ -46,11 +46,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

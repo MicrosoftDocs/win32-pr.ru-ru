@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 77b62e7dd028da3452082c973690ce0c0210b438
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d8d005833ed73c0439b9e198d03c28b3c0daf9f36b5b087ba921d827c27fafa2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117717001"
 ---
 # <a name="columnstreamwrite-method"></a>Колумнстреам. Write, метод
 
@@ -80,12 +80,12 @@ public override void Write(
 
 <!-- end list -->
 
-  - count  
+  - количество  
     Тип: [System. Int32](/dotnet/api/system.int32)  
     
     Количество записываемых байтов.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

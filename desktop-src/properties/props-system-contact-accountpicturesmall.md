@@ -4,12 +4,12 @@ ms.assetid: f1e2a362-8626-4cfa-9649-fcb2d42a77d6
 title: System. Contact. Аккаунтпиктуресмалл
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 490e8cd622e3c902d61b9ea72473ed136af940db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e49bd1ac0169aad586bdb36dff1d94afd84b83d3611250082aab0b6c18729aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105711986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118055633"
 ---
 # <a name="systemcontactaccountpicturesmall"></a>System. Contact. Аккаунтпиктуресмалл
 
@@ -30,11 +30,11 @@ propertyDescription
       type = Stream
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ description: При вызове одной из функций управлен
 ms.assetid: 4dfb3180-3ca5-4e22-b7a1-4e6b132431fb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8c6b646290ef6352a529a37243a6ea30c8b0d39
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 67326708e2b3c83d1e41ace30c2813ccd2449193530fd4affca450d8a0538961
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103890757"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117983263"
 ---
 # <a name="requirements-for-network-management-functions-on-active-directory-domain-controllers"></a>Требования к функциям управления сетью на контроллерах домен Active Directory
 
@@ -19,7 +19,7 @@ ms.locfileid: "103890757"
 
 ## <a name="queries"></a>Запросы
 
-Для запросов ACL по умолчанию разрешает всем прошедшим проверку подлинности пользователям и членам группы "[пред-Windows 2000 доступ](/windows/desktop/SecAuthZ/allowing-anonymous-access)" чтение и перечисление информации. Затрагиваются перечисленные ниже функции.
+для запросов ACL по умолчанию разрешает всем прошедшим проверку подлинности пользователям и членам группы "[пред-Windows 2000 совместимый доступ](/windows/desktop/SecAuthZ/allowing-anonymous-access)" читать и перечислять сведения. Затрагиваются перечисленные ниже функции.
 
 -   [**Нетграупенум**](/windows/desktop/api/Lmaccess/nf-lmaccess-netgroupenum), [**нетграупжетинфо**](/windows/desktop/api/Lmaccess/nf-lmaccess-netgroupgetinfo), [**нетграупжетусерс**](/windows/desktop/api/Lmaccess/nf-lmaccess-netgroupgetusers)
 -   [**Нетлокалграупенум**](/windows/desktop/api/Lmaccess/nf-lmaccess-netlocalgroupenum), [**нетлокалграупжетинфо**](/windows/desktop/api/Lmaccess/nf-lmaccess-netlocalgroupgetinfo), [**нетлокалграупжетмемберс**](/windows/desktop/api/Lmaccess/nf-lmaccess-netlocalgroupgetmembers)
@@ -29,9 +29,9 @@ ms.locfileid: "103890757"
 -   [**Нетусеренум**](/windows/desktop/api/Lmaccess/nf-lmaccess-netuserenum), [**нетусержетграупс**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusergetgroups), [**нетусержетинфо**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusergetinfo), [**нетусержетлокалграупс**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusergetlocalgroups), [**нетусермодалсжет**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusermodalsget)
 -   [**Нетвкстажетинфо**](/windows/desktop/api/Lmwksta/nf-lmwksta-netwkstagetinfo), [ **нетвкстаусеренум**](/windows/desktop/api/Lmwksta/nf-lmwksta-netwkstauserenum)
 
-Анонимный доступ к сведениям о группе требует явного добавления пользователя в группу "пред-Windows 2000 доступ". Это связано с тем, что анонимные маркеры не включают идентификатор безопасности группы «все».
+анонимный доступ к сведениям о группе требует явного добавления пользователя в группу "пред-Windows 2000 совместимый доступ". Это связано с тем, что анонимные маркеры не включают идентификатор безопасности группы «все».
 
-**Windows 2000:** По умолчанию группа "пред-Windows 2000 доступ к данным" включает в себя всех членов группы. Это обеспечивает анонимный доступ (анонимный вход) к информации, если система разрешает анонимный доступ. Администраторы могут в любое время удалить всех пользователей из группы "пред-Windows 2000 доступ". Удаление всех пользователей из группы запрещает доступ к данным только прошедшим проверку пользователям. Дополнительные сведения об анонимном доступе см. в разделе [идентификаторы безопасности](/windows/desktop/SecAuthZ/security-identifiers) и [хорошо известные](/windows/desktop/SecAuthZ/well-known-sids)идентификаторы SID.
+**Windows 2000:** по умолчанию группа "пред-Windows 2000 совместимый доступ" включает в себя всех членов группы. Это обеспечивает анонимный доступ (анонимный вход) к информации, если система разрешает анонимный доступ. администраторы могут в любое время удалить всех пользователей из группы "пред-Windows 2000 с правами доступа". Удаление всех пользователей из группы запрещает доступ к данным только прошедшим проверку пользователям. Дополнительные сведения об анонимном доступе см. в разделе [идентификаторы безопасности](/windows/desktop/SecAuthZ/security-identifiers) и [хорошо известные](/windows/desktop/SecAuthZ/well-known-sids)идентификаторы SID.
 
 Вы можете переопределить значение по умолчанию системы, задав в реестре следующий раздел в значении 1:
 
@@ -52,6 +52,6 @@ ms.locfileid: "103890757"
 
 Дополнительные сведения об управлении доступом к защищаемым объектам см. в разделе [Управление доступом](/windows/desktop/SecAuthZ/access-control), [права](/windows/desktop/SecAuthZ/privileges)доступа и [защищаемые объекты](/windows/desktop/SecAuthZ/securable-objects). Дополнительные сведения о вызове функций, требующих прав администратора, см. [в разделе Запуск с особыми привилегиями](/windows/desktop/SecBP/running-with-special-privileges).
 
- 
+ 
 
- 
+ 

@@ -3,7 +3,7 @@ title: Сообщение WM_CAP_SEQUENCE (VFW. h)
 description: '\_Последовательное сообщение с ограничением WM \_ инициирует потоковую передачу видео и звука в файл. Это сообщение можно отправить явно или с помощью макроса Капкаптуресекуенце.'
 ms.assetid: 33d53abc-e37e-48c6-bfc8-9cd02fde5cb6
 keywords:
-- WM_CAP_SEQUENCE сообщения Windows мультимедиа
+- сообщение WM_CAP_SEQUENCE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2ef945510d0d71f1aa0e0cb5827288a613f5991
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 023fd22d79fdfcd1df1f44b2862814ed809fd93c43ab9cd7122414ee1e27db39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117800269"
 ---
 # <a name="wm_cap_sequence-message"></a>\_Сообщение о \_ последовательности крепления WM
 
@@ -40,7 +40,7 @@ lParam = 0L;
 
 Если возникает ошибка и функция обратного вызова ошибки устанавливается с помощью сообщения [**\_ \_ \_ \_ об ошибке обратного вызова**](wm-cap-set-callback-error.md) , то вызывается функция обратного вызова ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если вы хотите изменить параметры, управляющие захватом потоковой передачи, используйте сообщение [**\_ установки закрепления WM \_ Set \_ Sequence \_**](wm-cap-set-sequence-setup.md) перед началом записи.
 
@@ -54,7 +54,7 @@ lParam = 0L;
 -   [**\_ \_ \_ VIDEOSTREAM обратного вызова Set крепления WM \_**](wm-cap-set-callback-videostream.md)
 -   [**\_ \_ \_ вавестреам обратного вызова Set крепления WM \_**](wm-cap-set-callback-wavestream.md)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -66,7 +66,7 @@ lParam = 0L;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

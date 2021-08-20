@@ -59,7 +59,7 @@ HRESULT Apply();
 
 Если флаг [**\_ бдирти кбасепропертипаже:: m**](cbasepropertypage-m-bdirty.md) имеет **значение true**, этот метод вызывает метод [**кбасепропертипаже:: онаппличанжес**](cbasepropertypage-onapplychanges.md) . Переопределите **онаппличанжес** , чтобы применить изменения к объекту.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -70,7 +70,7 @@ HRESULT Apply();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

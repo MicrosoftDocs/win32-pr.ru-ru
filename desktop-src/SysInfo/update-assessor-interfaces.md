@@ -4,12 +4,12 @@ ms.assetid: 4074C0EC-5985-4E10-8929-9E094FB7D78E
 title: Обновление интерфейсов центра оценки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b795a9fbca33db10d60a70bd87b1aff0a528d578
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ecc8fa6452994fd7e47e23c0dbb40c4d33c24520fed180302262be628fc9bac7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117957709"
 ---
 # <a name="update-assessor-interfaces"></a>Обновление интерфейсов центра оценки
 
@@ -17,7 +17,7 @@ ms.locfileid: "105662839"
 
 
 
-| Функция                               | Описание                                                                                                                 |
+| Функция                               | Описание:                                                                                                                 |
 |----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
 | [**иваасассессор**](/windows/desktop/api/waasapi/nn-waasapi-iwaasassessor) | Возвращает оценку обновления ОС, сравнивая последнюю сборку с Майкрософт с построением, которое работает на текущем устройстве. |
 

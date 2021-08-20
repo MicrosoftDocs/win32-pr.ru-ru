@@ -81,7 +81,7 @@ HRESULT DemoApp::CreateDeviceIndependentResources()
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -90,7 +90,7 @@ HRESULT DemoApp::CreateDeviceIndependentResources()
 | Минимальная версия клиента<br/> | Windows 7, Windows Vista с пакетом обновления 2 (SP2) и обновлением платформы для приложений для \[ классических приложений Windows Vista \|\]<br/>                          |
 | Минимальная версия сервера<br/> | Windows сервер 2008 R2, Windows Server 2008 с пакетом обновления 2 (SP2) и обновлением платформы для Windows Server 2008 приложения \[ UWP для классических приложений \|\]<br/> |
 | Минимальный поддерживаемый телефон<br/>  | Windows Phone 8,1 \[ Windows Phone Silverlight 8,1 и среда выполнения Windows приложения\]<br/>                                                  |
-| Header<br/>                   | <dl> <dt>D2d1. h</dt> </dl>                                                        |
+| Заголовок<br/>                   | <dl> <dt>D2d1. h</dt> </dl>                                                        |
 | Библиотека<br/>                  | <dl> <dt>D2d1. lib</dt> </dl>                                                      |
 | DLL<br/>                      | <dl> <dt>D2d1.dll</dt> </dl>                                                      |
 

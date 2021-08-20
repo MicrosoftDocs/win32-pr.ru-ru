@@ -16,12 +16,12 @@ keywords:
 - асинхронный читатель, воспроизведение приостанавливается или останавливается
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 728ce4c58f9198f605764d0f19d0d5f55c7f6c6b
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: d7ae7f3c1dd2c045a35b8d3ee8950ace849a032136371f9da7ff1bcc2b12de27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104532981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117845369"
 ---
 # <a name="to-pause-or-stop-playback"></a>Приостановка и остановка воспроизведения
 
@@ -35,7 +35,7 @@ ms.locfileid: "104532981"
 
 При вызове **ивмреадер::** halt для остановки воспроизведения файла средство чтения не отслеживает сведения о ходе воспроизведения. Чтобы использовать команду **остановить** и позже вернуться к точке останова, необходимо сохранить время презентации последнего примера и использовать его в вызове **Ивмреадер:: Start**.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -45,9 +45,9 @@ ms.locfileid: "104532981"
 [**Чтение файлов с помощью асинхронного модуля чтения**](reading-files-with-the-asynchronous-reader.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

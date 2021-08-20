@@ -4,12 +4,12 @@ description: Побитовое или.
 ms.assetid: BBC06F8C-4C86-4077-A1F9-383D6A8FBED3
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 62064189725b246cc48bbde03a9c094d13f8b9a0
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: a65d6ee2c5e5559d7d5e877a2bdef83b13a45a06ca0f00c980baa4811579f03c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104996943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118088747"
 ---
 # <a name="or-sm4---asm"></a>или (SM4-ASM)
 
@@ -36,7 +36,7 @@ ms.locfileid: "104996943"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта инструкция выполняет покомпонентную логическую операцию или для каждой пары 32-разрядных значений из *src0* и *src1*. 32-разрядные результаты помещаются в *dest*.
 
@@ -60,9 +60,9 @@ ms.locfileid: "104996943"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
-| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | да       |
-| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
+| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Да       |
+| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Да       |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Нет        |
@@ -71,7 +71,7 @@ ms.locfileid: "104996943"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

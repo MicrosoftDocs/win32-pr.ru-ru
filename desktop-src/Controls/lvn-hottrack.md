@@ -3,7 +3,7 @@ title: Код уведомления LVN_HOTTRACK (Коммктрл. h)
 description: Посылается элементом управления "представление списка", когда пользователь перемещает указатель мыши на элемент. Этот код уведомления отправляется только элементами управления "представление списка", имеющим \_ \_ Расширенный стиль представления списка LVS ex траккселект. Он отправляется в виде \_ сообщения WM notify.
 ms.assetid: 6bbfe6b8-9b67-49e4-9481-65abe98608bb
 keywords:
-- LVN_HOTTRACK кода уведомления элементы управления Windows
+- LVN_HOTTRACK кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c677b69fa21cdbe3680442304f6745cfb3a907de
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8ab311b17f287b695a6b21d333f7183fdda272029e2c57dfe468527d765d1602
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117830435"
 ---
 # <a name="lvn_hottrack-notification-code"></a>\_Код уведомления ЛВН хоттракк
 
@@ -55,8 +55,8 @@ LVN_HOTTRACK
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

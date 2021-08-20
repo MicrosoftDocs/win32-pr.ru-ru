@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d3047385f0c47da005466003062b3c2631900da0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1e8293bb52b7e492f3c8dfdc637d5c1a9f758d6b12bd057451c18ea106a4cb96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117705885"
 ---
 # <a name="indexinfopages-property"></a>Индексинфо. Pages, свойство
 
@@ -60,7 +60,7 @@ public int Pages { get; }
 
 Тип: [System. Int32](/dotnet/api/system.int32)  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

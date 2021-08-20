@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: eaf58b8b1ecc655489b7a7381db2cdc5f22e6fda
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5a5aaf876caa36ce634a007ef0d92fbc77b0e53a989f5399a152dd9681a8dfd3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081203"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118076856"
 ---
 # <a name="instancetermgrbit-property"></a>Свойство Instance. Термгрбит
 
@@ -64,7 +64,7 @@ public TermGrbit TermGrbit { get; set; }
 
 Тип: [Microsoft. ISAM. ESENT. Interop. термгрбит](./termgrbit-enumeration.md)  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

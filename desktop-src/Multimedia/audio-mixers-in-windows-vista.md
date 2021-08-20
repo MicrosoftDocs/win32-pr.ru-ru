@@ -1,25 +1,25 @@
 ---
-title: Audio Миксерс в Windows Vista
-description: Audio Миксерс в Windows Vista
+title: аудио миксерс в Windows Vista
+description: аудио миксерс в Windows Vista
 ms.assetid: 541cb5f3-b5ca-436f-88dd-6ef8459c6157
 keywords:
-- мультимедиа аудио, Windows Vista Audio миксерс
-- аудио, Windows Vista Audio миксерс
-- Audio миксерс, Windows Vista
+- мультимедиа аудио, Windows Vista audio миксерс
+- аудио, Windows Vista audio миксерс
+- аудио миксерс, Windows Vista
 - миксерс, Windows Vista
-- Windows Vista Audio миксерс
+- Windows Windows Vista Audio миксерс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0610e9f16e13c19a253fbd9f6fac5ef452fa68ad
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: eb4299a7c4d1dcbc3fa5d92e4bb18042793976dafac4e836f80ac5c70ac53f09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104561614"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117989603"
 ---
-# <a name="audio-mixers-in-windows-vista"></a>Audio Миксерс в Windows Vista
+# <a name="audio-mixers-in-windows-vista"></a>аудио миксерс в Windows Vista
 
-Начиная с Windows Vista, некоторые элементы управления микшера реализуются в программном обеспечении, а не на оборудовании. Например, элементы управления "Громкость" реализуются с помощью API Windows Audio Session (ВАСАПИ). Эти элементы управления непосредственно не влияют на параметры оборудования. Кроме того, они связаны с звуковым сеансом конкретного процесса, поэтому изменения затрагивают вызывающее приложение, но не влияют на другие приложения.
+начиная с Windows Vista, некоторые элементы управления микшера реализуются в программном обеспечении, а не на оборудовании. например, элементы управления "громкость" реализуются с помощью Windows API звуковых сеансов (васапи). Эти элементы управления непосредственно не влияют на параметры оборудования. Кроме того, они связаны с звуковым сеансом конкретного процесса, поэтому изменения затрагивают вызывающее приложение, но не влияют на другие приложения.
 
 Каждое устройство конечной точки имеет стандартный макет микшера, реализованный в программном обеспечении.
 
@@ -41,9 +41,9 @@ ms.locfileid: "104561614"
 
 Этот стандартный макет предназначен для совместимости с существующими приложениями, которые используют функции микшера звука. Новые приложения должны избегать использования этих функций.
 
- 
+ 
 
- 
+ 
 
 
 

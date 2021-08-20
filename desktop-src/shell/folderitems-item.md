@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: ed670ed4af3882e38faf2699429c3d1c076f3056
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e246a1ada6cdf9935ae2ce9f8ca2a0ae25ced8ea08db8e98fef59a8fbc66ef40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984180"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117679478"
 ---
 # <a name="folderitemsitem-method"></a>Фолдеритемс. Item, метод
 
@@ -54,9 +54,9 @@ FolderItems.Item(
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере **элемент** используется для получения объекта [**FolderItem**](folderitem.md) , представляющего файл Notepad.exe, который находится в папке Windows. Правильное использование показано в JScript, VBScript и Visual Basic.
+в следующем примере **элемент** используется для получения объекта [**FolderItem**](folderitem.md) , представляющего файл Notepad.exe, который находится в папке Windows. правильное использование отображается для JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -166,7 +166,7 @@ End Sub
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                           |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                         |
@@ -174,7 +174,7 @@ End Sub
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

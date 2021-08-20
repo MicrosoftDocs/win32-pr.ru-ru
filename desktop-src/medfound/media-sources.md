@@ -4,12 +4,12 @@ ms.assetid: 65132e7d-22f6-4209-bc58-f5ea86ebd514
 title: Источники мультимедиа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bbd69b63679ba73bc4049f37207b1d07940edada
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 0c378d86495188321b37e6326d56ed75c4a5c6dacf3045eaaad717e8a8df6d12
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104273244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118062115"
 ---
 # <a name="media-sources"></a>Источники мультимедиа
 
@@ -35,7 +35,7 @@ ms.locfileid: "104273244"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

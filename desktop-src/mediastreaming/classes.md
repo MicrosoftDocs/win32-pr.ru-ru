@@ -4,12 +4,12 @@ description: API потоковой передачи мультимедиа пр
 ms.assetid: E537FCE0-5AE5-41BC-903D-AE67CE9F4D78
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b90ace112563a5c1bf1fee7455877434371adb26
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 451a276950502db4df80b7c04d506702041d4c8d61cabdce7e7ebc67d8708c89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104414633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118056936"
 ---
 # <a name="classes-media-streaming-api"></a>Классы (API потоковой передачи мультимедиа)
 

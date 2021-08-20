@@ -4,12 +4,12 @@ ms.assetid: 8bf5e7a4-073f-4b2c-8e9c-49f6f11c9093
 title: Атрибут MF_PD_ASF_CONTENTENCRYPTIONEX_ENCRYPTION_DATA (Вмконтаинер. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 550e75f50a7f09556cd9dd89239b3f33fb74d289
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 03f6be55339d61a22dc98737c56213a5fdbe4e1eb7f881f7ba1c4d6b5a5ab7b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104344562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118059672"
 ---
 # <a name="mf_pd_asf_contentencryptionex_encryption_data-attribute"></a>\_ \_ \_ \_ Атрибут данных шифрования MF PD ASF контентенкриптионекс \_
 
@@ -19,7 +19,7 @@ ms.locfileid: "104344562"
 
 массив байтов;
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут применяется к дескрипторам представления для содержимого ASF.
 
@@ -31,13 +31,13 @@ ms.locfileid: "104344562"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                     |
-| Header<br/>                   | <dl> <dt>Вмконтаинер. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                     |
+| Заголовок<br/>                   | <dl> <dt>Вмконтаинер. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 232e39e8-551c-4fc3-b26f-5912f57722b6
 title: System.Devices.AudioDevice.Microphone.SensitivityInDbfs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69d895d278957480429f8fa122dd0c0078cb6423
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f295dd6c0ef4c1ab7fafc6f9e48f66683b1018587f06d9fcf0f97d0ac9b02c06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265094"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118054495"
 ---
 # <a name="systemdevicesaudiodevicemicrophonesensitivityindbfs"></a>System.Devices.AudioDevice.Microphone.SensitivityInDbfs
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

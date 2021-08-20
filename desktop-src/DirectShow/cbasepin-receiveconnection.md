@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 7d0a8134201af1d3c931121f59a20360020a53a0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 124e826fd0a183bd2eb1cc69bef91905ee6b41adc7676c83e1e92653d3a87a22
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657667"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118000924"
 ---
 # <a name="cbasepinreceiveconnection-method"></a>Кбасепин. Рецеивеконнектион, метод
 
@@ -75,7 +75,7 @@ HRESULT ReceiveConnection(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Закрепление вывода вызывает этот метод для входного ПИН-кода. Если закрепление ввода возвращает код ошибки, соединение завершается ошибкой.
 
@@ -96,12 +96,12 @@ HRESULT ReceiveConnection(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Амфилтер. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>амфилтер. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

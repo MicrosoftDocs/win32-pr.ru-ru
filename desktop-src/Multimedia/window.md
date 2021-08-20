@@ -3,7 +3,7 @@ title: команда окна
 description: Команда Window управляет окном просмотра.
 ms.assetid: 613dfedb-5ca8-45da-a4ba-ce465b933451
 keywords:
-- команда окна мультимедиа Windows
+- команда окна Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 21dde3304fa1445b0eaac68950cdfb91f48e5986
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5c65fe13309d30a3aff94e6e78dc0ab1fbcfec26aa1634e8dae72130370cc8e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104490473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117800708"
 ---
 # <a name="window-command"></a>команда окна
 
@@ -107,7 +107,7 @@ _stprintf_s(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Устройства наложения видео обычно создают и отображают окно при открытии. Если приложение предоставляет окно для драйвера, приложение несет ответственность за управление сообщениями, отправленными в окно.
 
@@ -132,7 +132,7 @@ window movie text "Welcome to the Movies" state show
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -26,16 +26,16 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5d7d837d7fff804926529ec67780e319d85031f5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b0e52100247a438d442d134bc3f31313b7da72df04591c44b1e6d70e159d0b7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703286"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118076647"
 ---
 # <a name="instanceparameterswaypointlatency-property"></a>Инстанцепараметерс. Вайпоинтлатенци, свойство
 
-Возвращает или задает число журналов, в которых ESENT будет откладывать сбросы базы данных для. Это можно использовать для повышения возможности восстановления базы данных, если ошибки приводят к потере файлов журнала. Поддерживается в Windows 7 и выше. Игнорируется в Windows XP, Windows Server 2003, Windows Vista и Windows Server 2008.
+Возвращает или задает число журналов, в которых ESENT будет откладывать сбросы базы данных для. Это можно использовать для повышения возможности восстановления базы данных, если ошибки приводят к потере файлов журнала. поддерживается в Windows 7 и выше. пропускается в Windows XP, Windows server 2003, Windows Vista и Windows server 2008.
 
 **Пространство имен:**  [Microsoft. ISAM. ESENT. Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Сборка:**  Microsoft. ISAM. ESENT. Interop (в Microsoft.Isam.Esent.Interop.dll)
@@ -64,7 +64,7 @@ public int WaypointLatency { get; set; }
 
 Тип: [System. Int32](/dotnet/api/system.int32)  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

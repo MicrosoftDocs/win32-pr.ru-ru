@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 9d0cc89d6f993b72763083e69bb88e848134e8bd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fa717361ac5cb270eb61f0199b92cb801a46fabd143a9dd1ed26e43e23383657
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665171"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117978575"
 ---
 # <a name="policyinformation-object"></a>Объект Полициинформатион
 
@@ -39,7 +39,7 @@ ms.locfileid: "105665171"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Объект **полициинформатион** имеет следующие свойства.
 
@@ -54,7 +54,7 @@ ms.locfileid: "105665171"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Не удается создать объект **полициинформатион** .
 

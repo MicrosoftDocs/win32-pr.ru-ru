@@ -4,16 +4,16 @@ ms.assetid: 383CAA20-56CA-4bdc-AC79-E57A1D59785C
 title: Элемент Сеарчконнектордескриптион (схема библиотеки)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: faa6c213d43a648ebea51b58b4c3103a0ee42f13
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 91be0345ae2770e28437f13cdc754a1855f050210b85a03a4eb5c6c3726af98b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104985896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117858253"
 ---
 # <a name="searchconnectordescription-element-library-schema"></a>Элемент Сеарчконнектордескриптион (схема библиотеки)
 
-<searchConnectorDescription>Элемент является элементом контейнера верхнего уровня определения соединителя поиска. <searchConnectorDescription>Элемент является расширением <searchConnectorDescriptionType> типа элемента, связанного с соединителями федеративного поиска Windows, однако в библиотеке нельзя включать соединители поиска для федеративного поиска Windows или обработчиков протоколов.
+<searchConnectorDescription>Элемент является элементом контейнера верхнего уровня определения соединителя поиска. <searchConnectorDescription>элемент является расширением <searchConnectorDescriptionType> типа элемента, связанного с Windows соединителями федеративного поиска. однако соединители поиска для Windows федеративного поиска или обработчиков протоколов в библиотеке использовать нельзя.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -97,7 +97,7 @@ ms.locfileid: "104985896"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-См. документацию по схеме в [Windows Search](/previous-versions/bb268030(v=msdn.10)) .
+см. документацию по схеме в [Windowsном поиске](/previous-versions/bb268030(v=msdn.10)) .
 
 
 
@@ -131,18 +131,18 @@ ms.locfileid: "104985896"
 
 | Атрибут | Описание                                                                      |
 |-----------|----------------------------------------------------------------------------------|
-| publisher | Необязательный параметр. Отображаемое имя издателя, предоставляющего соединитель поиска.      |
-| product   | Необязательный параметр. Отображаемое имя продукта, к которому применяется соединитель поиска. |
+| publisher | Необязательный элемент. Отображаемое имя издателя, предоставляющего соединитель поиска.      |
+| product   | Необязательный элемент. Отображаемое имя продукта, к которому применяется соединитель поиска. |
 
 
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
-<searchConnectorDescription>Элемент библиотеки использует то же определение схемы, что и <searchConnectorDescription> для федеративного поиска Windows. Несмотря на то что они используют одни и те же схемы, соединители поиска для федеративного поиска Windows не могут быть добавлены в библиотеку.
+<searchConnectorDescription>элемент библиотеки использует то же определение схемы, что и <searchConnectorDescription> для Windows федеративного поиска. несмотря на то что они используют одни и те же схемы, соединители поиска для Windows федеративного поиска не могут быть добавлены в библиотеку.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

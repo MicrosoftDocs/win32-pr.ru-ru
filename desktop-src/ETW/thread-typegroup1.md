@@ -26,12 +26,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 9693bef4449cc076710a74dd9cef88ae608754b3
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f1718b37b37de6b8e0d89e823aaf6ce25c35a8e2d68bc6698314e3c640f4a6b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105712"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117814362"
 ---
 # <a name="thread_typegroup1-class"></a>\_Класс TypeGroup1 потока
 
@@ -308,8 +308,8 @@ Win32StartAddr
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 
@@ -317,7 +317,7 @@ Win32StartAddr
 
 <dl> <dt>
 
-[**Thread**](thread.md)
+[**Поток**](thread.md)
 </dt> </dl>
 
  

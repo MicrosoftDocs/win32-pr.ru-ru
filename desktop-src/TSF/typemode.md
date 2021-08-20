@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 24054443802d0b8a759841cb6b3fc3cb5d510024
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4f9ae25435b48d1482441b8617a52bace8debabb210b62782a234837553e2c36
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672559"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117949841"
 ---
 # <a name="typemode-enumeration"></a>Перечисление ТИПЕМОДЕ
 
@@ -71,8 +71,8 @@ typedef enum tagTYPEMODE {
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                             |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                   |
-| Распространяемые компоненты<br/>          | TSF 1,0 в Windows 2000 профессиональная<br/>                                        |
-| Header<br/>                   | <dl> <dt>Софткбдк. h</dt> </dl>  |
+| Распространяемые компоненты<br/>          | TSF 1,0 на Windows 2000 Professional<br/>                                        |
+| Заголовок<br/>                   | <dl> <dt>Софткбдк. h</dt> </dl>  |
 | IDL<br/>                      | <dl> <dt>Софткбд. idl</dt> </dl> |
 
 

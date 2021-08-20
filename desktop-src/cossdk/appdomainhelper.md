@@ -11,12 +11,12 @@ api_name:
 - AppDomainHelper
 api_type:
 - COM
-ms.openlocfilehash: 6b4fbedbca631ec49dc2e416d939abdeb239e5b8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bab1ade7d97d3e911dbe0dc56cff69c5308d7d5e44baadb4641829c5f5a9d806
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104538735"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117917558"
 ---
 # <a name="appdomainhelper-class"></a>Класс Аппдомаинхелпер
 
@@ -42,11 +42,11 @@ ms.locfileid: "104538735"
 
 Используйте этот класс для доступа к методам [**иаппдомаинхелпер**](/windows/desktop/api/ComSvcs/nn-comsvcs-iappdomainhelper).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы создать этот объект, вызовите [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance).
 
-Чтобы использовать этот класс из Visual Basic Майкрософт, добавьте ссылку на библиотеку типов служб COM+. Объект Аппдомаинхелпер можно объявить с помощью "Комсвкслиб. Аппдомаинхелпер" в качестве имени класса.
+чтобы использовать этот класс из Visual Basic майкрософт, добавьте ссылку на библиотеку типов служб COM+. Объект Аппдомаинхелпер можно объявить с помощью "Комсвкслиб. Аппдомаинхелпер" в качестве имени класса.
 
 ## <a name="requirements"></a>Требования
 
@@ -54,13 +54,13 @@ ms.locfileid: "104538735"
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для настольных приложений Windows XP с пакетом обновления 1 \[\]<br/>                                 |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                 |
-| Header<br/>                   | <dl> <dt>Комсвкс. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows XP с пакетом обновления 1 (SP1), \[ только классические приложения\]<br/>                                 |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                 |
+| Заголовок<br/>                   | <dl> <dt>Комсвкс. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

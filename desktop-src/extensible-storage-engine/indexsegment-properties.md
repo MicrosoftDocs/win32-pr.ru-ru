@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.inde
 ms:contentKeyID: 55103256
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 155603f412a4e09d1c025f62d277eef6509584ed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fc495c6d8d2a58a1d59c205dffe48191c5393b97ba31a3180c92d3585c05cf1c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104559021"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118077160"
 ---
 # <a name="indexsegment-properties"></a>Свойства Индекссегмент
 
@@ -58,7 +58,7 @@ ms.locfileid: "104559021"
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmmkcert.dll
-ms.openlocfilehash: f90af11ada2bca330bbabeb83f4a8aa94e611630
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9c0372e9a6b5a4204182ac6cf3440ce94d7e1105e528900badec4024b7fef9df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118004089"
 ---
 # <a name="nmmakecert-function"></a>Функция Нммакецерт
 
@@ -102,7 +102,7 @@ void NmMakeCert(
 
 Возвращает значение 1, если функция завершается успешно, и – 1, если функция завершается ошибкой.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция не имеет связанной библиотеки импорта или файла заголовка. его необходимо вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 

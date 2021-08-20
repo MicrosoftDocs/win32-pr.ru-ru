@@ -3,7 +3,7 @@ title: Сообщение ICM_DRAW_GET_PALETTE (VFW. h)
 description: Сообщение ICM \_ \_ Get, получающая \_ палитру, запрашивает драйвер подготовки к просмотру для возврата палитры.
 ms.assetid: 02a9df7d-e0b9-4bde-9cda-c36d2a10a23c
 keywords:
-- ICM_DRAW_GET_PALETTE сообщения Windows мультимедиа
+- сообщение ICM_DRAW_GET_PALETTE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a03f3658d2a2653f940e18e9b82b7cc3d7690ad2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6ef07085bef92d6191cea69429a5b544d5d2f706e1771baa404741aa98a5812b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117987394"
 ---
 # <a name="icm_draw_get_palette-message"></a>\_Сообщение о \_ получении \_ палитры ICM Draw
 
@@ -50,7 +50,7 @@ lParam = 0;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

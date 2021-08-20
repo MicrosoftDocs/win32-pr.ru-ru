@@ -4,17 +4,17 @@ description: Этот раздел содержит общие сведения 
 ms.assetid: 7839C264-C15F-4E89-82B6-2963A5C61CEC
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bea823d2edd27b2c725cefdd73cd053e94124d7f
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 87328fc3d47925282c6302e143a05d332d5e432275f095cd4c4c87239064736d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104068780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118088909"
 ---
 # <a name="directcomposition-concepts"></a>Основные понятия DirectComposition
 
 > [!NOTE]
-> Для приложений в Windows 10 рекомендуется использовать интерфейсы API Windows. UI. компоновки вместо DirectComposition. Дополнительные сведения см. в разделе [модернизировать The классическое приложение с использованием визуального слоя](/windows/uwp/composition/visual-layer-in-desktop-apps).
+> для приложений на Windows 10 рекомендуется использовать интерфейсы api Windows. UI. компоновки вместо DirectComposition. Дополнительные сведения см. в разделе [модернизировать The классическое приложение с использованием визуального слоя](/windows/uwp/composition/visual-layer-in-desktop-apps).
 
 Этот раздел содержит общие сведения о DirectComposition.
 
@@ -30,14 +30,14 @@ ms.locfileid: "104068780"
 | [Преобразования](transforms.md)<br/>                                   | В этом разделе рассматривается поддержка DirectComposition преобразований двухмерной (линейная) и описание типов преобразований, поддерживаемых DirectComposition. <br/> |
 | [Эффекты](effects.md)<br/>                                         | В этом разделе обсуждаются основы DirectComposition эффектов и описываются типы эффектов, поддерживаемых DirectComposition. <br/>                                          |
 | [Анимация](animation.md)<br/>                                     | В этом разделе обсуждаются основы анимации DirectComposition. <br/>                                                                                                            |
-| [Вырезая](clipping.md)<br/>                                       | В этом разделе описывается поддержка DirectComposition для обрезки визуальных элементов.<br/>                                                                                                        |
+| [Усечение](clipping.md)<br/>                                       | В этом разделе описывается поддержка DirectComposition для обрезки визуальных элементов.<br/>                                                                                                        |
 | [Архитектура и компоненты](architecture-and-components.md)<br/> | В этом разделе описываются компоненты, составляющие DirectComposition.<br/>                                                                                                         |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

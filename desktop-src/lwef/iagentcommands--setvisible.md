@@ -4,16 +4,16 @@ description: Иаженткоммандс Сетвисибле
 ms.assetid: 4b99989a-29bb-4e0e-8155-cf734cc667fd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04a4bdb3c1a7f1e11c9548eb1e1af415d0f5d18f
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 7979651635c27f5633d5ebeada8e5f2866d383ece0b19a38dd32082596e4712b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "105710259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117692787"
 ---
 # <a name="iagentcommandssetvisible"></a>Иаженткоммандс:: Сетвисибле
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT SetVisible(
@@ -41,6 +41,6 @@ HRESULT SetVisible(
 [**Иаженткоммандс:: OnVisible**](iagentcommands--getvisible.md), [ **иаженткомманд:: сеткаптион**](iagentcommand--setcaption.md)
 
 
- 
+ 
 
- 
+ 

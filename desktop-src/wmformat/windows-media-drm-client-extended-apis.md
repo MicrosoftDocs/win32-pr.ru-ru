@@ -1,13 +1,13 @@
 ---
-title: Расширенные API клиента DRM Windows Media
-description: Расширенные API клиента DRM Windows Media
+title: Windows Расширенные API клиента DRM Media
+description: Windows Расширенные API клиента DRM Media
 ms.assetid: c0397aa8-1f5a-48f5-a96b-555079e9a292
 keywords:
-- Windows Media Format SDK, расширенные API клиента DRM
-- Пакет SDK для Windows Media Format, расширенные API клиента
-- Windows Media Format SDK, расширенные API
-- Windows Media Format SDK, API
-- Windows Media Format SDK, управление цифровыми правами (DRM)
+- Windows Пакет SDK для Media Format, расширенные API клиента DRM
+- Windows Пакет SDK для формата мультимедиа, расширенные API клиента
+- Windows Пакет SDK для формата мультимедиа, расширенные API
+- Windows Пакет SDK для формата мультимедиа, API
+- Windows Пакет SDK для формата мультимедиа, управление цифровыми правами (DRM)
 - Управление цифровыми правами (DRM), расширенные API клиента
 - DRM (Управление цифровыми правами), расширенные API клиента
 - Управление цифровыми правами (DRM), расширенные API
@@ -18,22 +18,22 @@ keywords:
 - Расширенные API клиента, о
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01c33ef3649f2cda63713ebd22a0116fdd025144
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d48153b3956bd76e8000db909f0e7ec791611fa66d3b50988bd15a8c679ebbcc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117844897"
 ---
-# <a name="windows-media-drm-client-extended-apis"></a>Расширенные API клиента DRM Windows Media
+# <a name="windows-media-drm-client-extended-apis"></a>Windows Расширенные API клиента DRM Media
 
-\[Компонент Windows Media DRM является устаревшим и не должен использоваться. Вместо этого используйте [Microsoft PlayReady](/windows/uwp/audio-video-camera/playready-client-sdk) .\]
+\[функция DRM Windows мультимедиа является устаревшей и не должна использоваться. вместо этого используйте [Microsoft PlayReady](/windows/uwp/audio-video-camera/playready-client-sdk) .\]
 
-В этой документации описываются расширенные API-интерфейсы Microsoft Windows Media Digital Rights Management (DRM). Расширенные API клиента DRM Windows Media включают объекты, которые можно использовать для управления операциями с цифровыми Rights Managementми Windows Media на клиентском компьютере.
+в этой документации описывается, как клиентские интерфейсы api Microsoft Windows Media Digital Rights Management (DRM) были расширены. расширенные api клиента DRM для Windows мультимедиа включают объекты, которые можно использовать для управления операциями Windows Media Digital Rights Management (DRM) на клиентском компьютере.
 
-Основной задачей этих API является Управление лицензиями для защищенного цифрового содержимого мультимедиа. Кроме того, API-интерфейсы можно использовать для обновления компонентов DRM на клиентском компьютере и для создания приложений, передающих содержимое с помощью Windows Media DRM для сетевых устройств.
+Основной задачей этих API является Управление лицензиями для защищенного цифрового содержимого мультимедиа. кроме того, api-интерфейсы можно использовать для обновления компонентов DRM на клиентском компьютере и для создания приложений, передающих содержимое с помощью Windows Media DRM для сетевых устройств.
 
-Эти интерфейсы API составляют клиентский аналог пакета SDK Windows Media Rights Manager. Когда Windows Media Rights Manager используется для создания веб-службы, защищающих файлы и выдающий лицензии, расширенные API клиента DRM Windows Media используются для создания приложений, использующих это содержимое.
+эти api-интерфейсы составляют клиентский аналог пакета SDK для Windows Media Rights Manager. когда Windows media Rights Manager используется для создания веб-службы, которые защищают файлы и выдают лицензии, для создания приложений, использующих это содержимое, используются расширенные api клиента DRM для Windows media.
 
 Этот документ содержит следующие разделы.
 
@@ -41,14 +41,14 @@ ms.locfileid: "104413041"
 
 | Section                                                                                                  | Описание                                                                                                                                                                            |
 |----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [О расширенных API-интерфейсах клиента DRM Windows Media](about-the-windows-media-drm-client-extended-apis.md) | Содержит обзор и общие сведения, с которыми следует ознакомиться до разработки приложений, использующих API-интерфейсы.                                                        |
+| [сведения о расширенных api-интерфейсах клиента DRM Windows Media](about-the-windows-media-drm-client-extended-apis.md) | Содержит обзор и общие сведения, с которыми следует ознакомиться до разработки приложений, использующих API-интерфейсы.                                                        |
 | [Руководство по программированию](drm-programming-guide.md)                                                           | Содержит подробные инструкции по выполнению различных операций управления цифровыми правами на стороне клиента.                                                                                                      |
-| [Справочник по программированию](drm-programming-reference.md)                                                   | Содержит справочные сведения о интерфейсах, методах, функциях, структурах, типах перечислений и константах, которые включены в расширенные API клиента DRM Windows Media. |
+| [Справочник по программированию](drm-programming-reference.md)                                                   | содержит справочные сведения о интерфейсах, методах, функциях, структурах, типах перечислений и константах, которые включены в расширенные api клиента DRM Windows Media. |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

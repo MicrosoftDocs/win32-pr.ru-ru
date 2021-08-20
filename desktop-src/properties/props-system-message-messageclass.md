@@ -1,19 +1,19 @@
 ---
-description: Тип сообщения Microsoft Outlook (встреча, задача, почта и т. д.).
+description: тип сообщения Microsoft Outlook (встреча, задача, почта и т. д.).
 ms.assetid: 421d1b44-588c-4fe6-ac0e-14fbac1330e3
 title: System. Message. Мессажекласс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 400cda166a6d2af4a94447aff5867f13adce0e9a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 31097b9d6456c8d460c8e3a7aecfc32d15a93dd233aa530a90260facc2cdebf1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711855"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118052805"
 ---
 # <a name="systemmessagemessageclass"></a>System. Message. Мессажекласс
 
-Тип сообщения Microsoft Outlook (встреча, задача, почта и т. д.).
+тип сообщения Microsoft Outlook (встреча, задача, почта и т. д.).
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10, версия 1703, Windows 10, версия 1607, Windows 10, версия 1511, Windows 10, версия 1507, Windows 8.1, Windows 8, Windows 7, Windows Vista
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

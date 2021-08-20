@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_
 ms:contentKeyID: 55103542
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: df4223ba850aa0f75abae7e6b4ff1099e7d72b3f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d99405b5e52b5a67288ab883d5daf22cc6ce81854707fd0f295d26d5f29a927c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118075658"
 ---
 # <a name="jet_convert-methods"></a>Методы JET_CONVERT
 
@@ -70,7 +70,7 @@ ms.locfileid: "104265571"
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

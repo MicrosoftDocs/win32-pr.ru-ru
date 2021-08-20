@@ -1,22 +1,22 @@
 ---
-title: Видео (пакет SDK для проигрывателя Windows Media)
+title: видео (проигрыватель Windows Media SDK)
 description: Видео
 ms.assetid: 3c654494-19b5-401e-bed8-02f7cc7d7f4e
 keywords:
-- Обложки Windows Media Player для мобильных устройств, видео
+- проигрыватель Windows Media Обложки для мобильных устройств, видео
 - обложки, видео
 - Справочник по обложкам, видео
 - видео в обложках, сведения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb3d505acec3f6917c7ed3d182c656ff5e9f29f0
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: c116be7371191780d4939e15c99b30437c895adb31de6d207e120be9225af628
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "105701001"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117931399"
 ---
-# <a name="video-windows-media-player-sdk"></a>Видео (пакет SDK для проигрывателя Windows Media)
+# <a name="video-windows-media-player-sdk"></a>видео (проигрыватель Windows Media SDK)
 
 Видеоизображение позволяет пользователю просматривать цифровые видеофайлы. Область отображения видео отображается только при воспроизведении или приостановке видео. При проектировании обложки необходимо зарезервировать пространство в фоновом изображении, чтобы оно содержало экран видео. В противном случае экран видео может переложить себя на любую видимую картинку, например на фоновый файл, кнопки и ползунки, что позволит пользователю использовать элементы управления на обложке.
 
@@ -58,7 +58,7 @@ ms.locfileid: "105701001"
 -   [Размер видео](video-size.md)
 -   [Раздел с примерами видео](sample-video-section.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 799ed66279a2856f0ba527ef9066ea5ef45680af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7bc423ad78065a339a3b70131315b9e63527f2186bc43b6b5d4e598e4340e333
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104565844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117718188"
 ---
 # <a name="apiretrievecolumnasdatetime-method"></a>API. Ретриевеколумнасдатетиме, метод
 
@@ -33,7 +33,7 @@ ms.locfileid: "104565844"
 <tr class="header">
 <th> </th>
 <th>Имя</th>
-<th>Описание</th>
+<th>Описание:</th>
 </tr>
 </thead>
 <tbody>
@@ -53,7 +53,7 @@ ms.locfileid: "104565844"
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

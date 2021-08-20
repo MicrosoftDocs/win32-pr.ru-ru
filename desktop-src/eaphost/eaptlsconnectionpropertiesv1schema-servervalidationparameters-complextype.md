@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: edebffd1f2023dd6f460505dc033e4505df338d7
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 5678a4f7cc585dd004b6755732a214ca95301cc39e8879779b9776a967851870
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105694024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117720312"
 ---
 # <a name="servervalidationparameters-complex-type-tls"></a>Сложный тип Сервервалидатионпараметерс (TLS)
 
@@ -63,12 +63,12 @@ ms.locfileid: "105694024"
 
 | Роль | Минимальная поддерживаемая версия ОС |
 |------|------------------------------|
-| Клиент<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Сервер<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Клиент<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Сервер<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

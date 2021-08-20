@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: cb07dc3a07a7a612e91e34bde91aefa277c2dc7c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 060840d7ed33cf91a21c69e13d79f28bba2f7e31e984efd8b19160a7f021d0b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704521"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118088603"
 ---
 # <a name="idcompositionshadoweffectsetred-methods"></a>Методы Идкомпоситионшадовеффект:: Сетред
 
@@ -34,17 +34,17 @@ ms.locfileid: "105704521"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Дкомп. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Дкомп. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

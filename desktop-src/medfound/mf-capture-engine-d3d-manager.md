@@ -4,12 +4,12 @@ ms.assetid: 1DFDE7AB-7DFF-4C39-9460-E42E37649AAC
 title: Атрибут MF_CAPTURE_ENGINE_D3D_MANAGER (Mfcaptureengine. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a3c5e87d4817f539f91ecd55aec10a2086afeaeb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5dd8db74da2a55bba4eb0a50f48d80a31d3f75514f5f20b5d0d1329a63b71a7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104154646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118061157"
 ---
 # <a name="mf_capture_engine_d3d_manager-attribute"></a>\_ \_ \_ Атрибут диспетчера D3D ядра записи MF \_
 
@@ -17,11 +17,11 @@ ms.locfileid: "104154646"
 
 ## <a name="data-type"></a>Тип данных
 
-**IUnknown \** _
+**IUnknown\***
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Значение этого атрибута является указателем на интерфейс [_ *имфдксгидевицеманажер* *](/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager) . Этот атрибут позволяет подсистеме захвата выделять видеоматериалы с помощью поверхностей DXGI и использовать аппаратное ускорение для обработки декодирования и видео.
+Значение этого атрибута является указателем на интерфейс [**имфдксгидевицеманажер**](/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager) . Этот атрибут позволяет подсистеме захвата выделять видеоматериалы с помощью поверхностей DXGI и использовать аппаратное ускорение для обработки декодирования и видео.
 
 ## <a name="requirements"></a>Требования
 
@@ -29,13 +29,13 @@ ms.locfileid: "104154646"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                   |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                         |
-| Header<br/>                   | <dl> <dt>Mfcaptureengine. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                   |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                         |
+| Заголовок<br/>                   | <dl> <dt>Mfcaptureengine. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: daaa017f-98e3-49d4-94ae-eb6d43f8019b
 title: Использование ресурсов связи
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 105d5ad89898d1bb223390311edbfa97a10fc062
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9ac0daebdae8897e9ec66fa52436904ee5c06f6d2b34e5edbd42c09af1249377
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118004335"
 ---
 # <a name="using-communications-resources"></a>Использование ресурсов связи
 

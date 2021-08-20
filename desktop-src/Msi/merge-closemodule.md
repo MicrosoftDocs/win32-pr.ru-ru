@@ -1,5 +1,5 @@
 ---
-description: Метод Клосемодуле объекта Merge закрывает открытый в данный момент модуль слияния установщик Windows.
+description: метод клосемодуле объекта merge закрывает открытый в данный момент модуль слияния установщик Windows.
 ms.assetid: a11f72cf-4c4e-4650-95f9-549169452622
 title: Метод Merge. Клосемодуле (Мержемод. h)
 ms.topic: reference
@@ -14,16 +14,16 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: 8688ae06cedca1e3b75290f7831f7d3539e3ec21
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 83f0238a1e65a6c3551b7fea5262fe91d74705287aba0714dfbb4b3cc3a37976
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117805055"
 ---
 # <a name="mergeclosemodule-method"></a>Метод Merge. Клосемодуле
 
-Метод **клосемодуле** объекта [**Merge**](merge-object.md) закрывает открытый в данный момент модуль слияния установщик Windows.
+метод **клосемодуле** объекта [**merge**](merge-object.md) закрывает открытый в данный момент модуль слияния установщик Windows.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -42,7 +42,7 @@ Merge.CloseModule()
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Закрытие модуля слияния не повлияет на ошибки, которые не были получены.
 
@@ -50,14 +50,14 @@ Merge.CloseModule()
 
 См. раздел Функция [**клосемодуле**](/windows/win32/api/mergemod/nf-mergemod-imsmmerge-closemodule) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Версия<br/> | Mergemod.dll 1,0 или более поздней версии<br/>                                                    |
-| Header<br/>  | <dl> <dt>Мержемод. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Мержемод. h</dt> </dl>   |
 | DLL<br/>     | <dl> <dt>Mergemod.dll</dt> </dl> |
 
 

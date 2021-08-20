@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a8af7aef94dd9453af690f0c5d83b1e978d3b058
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 79c0438491cb62d56584106d78f7639439d93d105fb635eeba0271759247f595
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989091"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117839764"
 ---
 # <a name="iadsprintqueueoperations-property-methods"></a>Методы свойств Иадспринткуеуеоператионс
 
@@ -240,7 +240,7 @@ HRESULT put_Name(
 
 ## <a name="examples"></a>Примеры
 
-В следующем Visual Basic примере кода проверяется, что принтер застрял.
+в следующем Visual Basic примере кода проверяется, что принтер застрял.
 
 
 ```VB
@@ -271,7 +271,7 @@ hr = pqo->Release();
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -279,13 +279,13 @@ hr = pqo->Release();
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                    |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                              |
-| Header<br/>                   | <dl> <dt>IAds. h</dt> </dl>           |
+| Заголовок<br/>                   | <dl> <dt>IAds. h</dt> </dl>           |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl>     |
 | IID<br/>                      | IID \_ иадспринткуеуеоператионс определен как 124BE5C0-156E-11CF-A986-00AA006BC149<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

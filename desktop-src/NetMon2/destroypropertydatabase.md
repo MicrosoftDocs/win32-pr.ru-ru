@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: baedae22e948b38d9ff162942269ac4529896826
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 28c70a95a9f735e37b16ae786623a805ccc06ed6020aa00781576a1e064faa11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999399"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117982848"
 ---
 # <a name="destroypropertydatabase-function"></a>Функция Дестройпропертидатабасе
 
@@ -63,7 +63,7 @@ DWORD WINAPI DestroyPropertyDatabase(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функцию **дестройпропертидатабасе** следует вызывать только при реализации функции [дерегистрации](deregister.md) экспорта для протокола. Для библиотек DLL синтаксического анализатора, поддерживающих несколько протоколов, функция **дестройпропертидатабасе** вызывается для каждой реализации **отмены регистрации**.
 
@@ -71,7 +71,7 @@ DWORD WINAPI DestroyPropertyDatabase(
 
 | Для получения информации о                                        | См.                                                    |
 |-----------------------------------------------------------|--------------------------------------------------------|
-| Какие анализаторы и как они работают с сетевой монитор. | [Анализаторы](parsers.md)                                 |
+| Какие анализаторы и как они работают с сетевой монитор. | [Средства синтаксического анализа](parsers.md)                                 |
 | Какие точки входа включены в библиотеку DLL средства синтаксического анализа.        | [Архитектура библиотеки DLL средства синтаксического анализа](parser-dll-architecture.md) |
 | Реализация **отмены регистрации**  включает пример.     | [Реализация отмены регистрации](implementing-deregister.md) |
 
@@ -93,7 +93,7 @@ DWORD WINAPI DestroyPropertyDatabase(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

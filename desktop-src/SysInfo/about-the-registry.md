@@ -4,12 +4,12 @@ ms.assetid: 7927862d-2e32-4b56-825d-78a35f520f0d
 title: Сведения о реестре
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28c7f567cd1f72a7c017cf4e7a9d32054a20445b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 827ec2d819cc2319694227f4495b524bbe3bd690fcee7afc822b12485055245e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117959008"
 ---
 # <a name="about-the-registry"></a>Сведения о реестре
 
@@ -18,7 +18,7 @@ ms.locfileid: "105664061"
 <dl>
 
 [Структура реестра](structure-of-the-registry.md)  
-[Место для хранения реестра](registry-storage-space.md)  
+[пространство служба хранилища реестра](registry-storage-space.md)  
 [Стандартные ключи](predefined-keys.md)  
 [Кусты реестра](registry-hives.md)  
 [Категории данных](categories-of-data.md)  

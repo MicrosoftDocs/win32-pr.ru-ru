@@ -6,12 +6,12 @@ ms.tgt_platform: multiple
 title: 'Методы Кфрамеворккуери:: Жетвалуесфорпроп (Фркуери. h)'
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: b5fd9dbc22289843141c517203809045abbf05a6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9dc0d51a93986a5ce39326ad7c6139b5dd989ad16f486aeac1b1da03c3b86149
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265614"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118109408"
 ---
 # <a name="cframeworkquerygetvaluesforprop-methods"></a>Методы Кфрамеворккуери:: Жетвалуесфорпроп
 
@@ -41,8 +41,8 @@ ms.locfileid: "104265614"
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                                                                                      |
-| Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                                                                                                |
-| Header<br/>                   | <dl> <dt>Фркуери. h (включение Фвкоммон. h)</dt> </dl>                                                     |
+| Минимальная версия сервера<br/> | Windows Сервер 2008<br/>                                                                                                                                |
+| Заголовок<br/>                   | <dl> <dt>Фркуери. h (включение Фвкоммон. h)</dt> </dl>                                                     |
 | Библиотека<br/>                  | <dl> <dt>Фрамедин. lib</dt> </dl>                                                                       |
 | DLL<br/>                      | <dl> <dt>FrameDynOS.dll; </dt> <dt>FrameDyn.dll</dt> </dl> |
 

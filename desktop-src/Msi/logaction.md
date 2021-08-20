@@ -4,18 +4,18 @@ ms.assetid: a16b7cb4-33e9-4fa5-8021-783fac90c330
 title: ЛОГАКТИОН, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 13d7667edfeb4ff527ccf8415c0509807581edd6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a3843a8731941696ba628da4e24dc514c7fa1b4929d45bbcb49eae3f7ce9f4e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117805166"
 ---
 # <a name="logaction-property"></a>ЛОГАКТИОН, свойство
 
 Свойство **логактион** представляет собой список имен действий, разделенных точкой с запятой, и без пробелов. Имена действий в этом свойстве не учитывают регистр, а список может заканчиваться точкой с запятой.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Установщик записывает сообщения данных действий в список действий, которые находятся в списке. Свойство не влияет на другие типы ведения журнала.
 
@@ -25,7 +25,7 @@ ms.locfileid: "105685210"
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

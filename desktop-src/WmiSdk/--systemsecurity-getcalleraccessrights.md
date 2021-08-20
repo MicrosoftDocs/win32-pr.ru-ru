@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - All
-ms.openlocfilehash: c86ea3044411e33026ed6328fcfc227e615648b1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 770a4a51a6a0ea9e38e8c5bd6fed944b473a41373933cee497e98fd8f9952422
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702751"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118110029"
 ---
 # <a name="getcalleraccessrights-method-of-the-__systemsecurity-class"></a>Метод Жеткаллеракцессригхтс \_ \_ класса системсекурити
 
@@ -149,7 +149,7 @@ HRESULT GetCallerAccessRights(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Этот метод возвращает **значение HRESULT** , указывающее состояние вызова метода. В следующем списке перечислены возвращаемые значения, которые являются значимыми для [**Set9XUserList**](--systemsecurity-set9xuserlist.md). Для сценариев и Visual Basic приложений результат можно получить из [параметров out. returnValue](parsing-outparameters-objects.md). Дополнительные сведения см. в разделе [Построение объектов параметров и анализ объектов параметров](constructing-inparameters-objects-and-parsing-outparameters-objects.md).
+Этот метод возвращает **значение HRESULT** , указывающее состояние вызова метода. В следующем списке перечислены возвращаемые значения, которые являются значимыми для [**Set9XUserList**](--systemsecurity-set9xuserlist.md). для сценариев и Visual Basic приложений результат можно получить из [параметров out. ReturnValue](parsing-outparameters-objects.md). Дополнительные сведения см. в разделе [Построение объектов параметров и анализ объектов параметров](constructing-inparameters-objects-and-parsing-outparameters-objects.md).
 
 <dl> <dt>
 
@@ -172,14 +172,14 @@ HRESULT GetCallerAccessRights(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [Системные классы WMI](wmi-system-classes.md)
 </dt> <dt>
 
-[**\_\_системсекурити**](--systemsecurity.md)
+[**\_\_SystemSecurity**](--systemsecurity.md)
 </dt> <dt>
 
 [**\_\_Системсекурити:: получает**](--systemsecurity-getsd.md)

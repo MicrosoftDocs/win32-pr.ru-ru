@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Перечисление WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d94f4a1fcff06423bad9d2bf5570ec1b9705fdef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 417e5ea2ae1a1216c567a1ddf257c34796b4344a807d323ad4ad7165f1707098
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117924700"
 ---
 # <a name="enumerating-wmi"></a>Перечисление WMI
 
@@ -64,7 +64,7 @@ foreach ($Drive in $objCol)
 
 ## <a name="enumerating-wmi-using-c-microsoftmanagementinfrastructure"></a>Перечисление WMI с помощью C# (Microsoft. Management. Infrastructure)
 
-1.  Добавьте ссылку на сборку ссылки на **Microsoft. Management. Infrastructure** . (Эта сборка входит в состав [пакета средств разработки программного обеспечения (SDK) для Windows 8](https://msdn.microsoft.com/library/windows/desktop/hh852363.aspx).)
+1.  Добавьте ссылку на сборку ссылки на **Microsoft. Management. Infrastructure** . (эта сборка поставляется в Windows составе [пакета средств разработки программного обеспечения (SDK) для Windows 8](https://msdn.microsoft.com/library/windows/desktop/hh852363.aspx).)
 2.  Добавьте инструкцию **using** для пространства имен **Microsoft. Management. Infrastructure** .
 
 ```CSharp
@@ -81,7 +81,7 @@ foreach ($Drive in $objCol)
 
     
 
-4.  Вызовите метод [**CimSession. куеринстанцес**](https://www.bing.com/search?q=**CimSession.QueryInstances**) , передав требуемое пространство имен CIM и WQL для использования. Следующий фрагмент кода возвратит два экземпляра, представляющие два стандартных процесса Windows, где свойство Handle (представляющее идентификатор процесса или PID) имеет значение 0 или 4.
+4.  Вызовите метод [**CimSession. куеринстанцес**](https://www.bing.com/search?q=**CimSession.QueryInstances**) , передав требуемое пространство имен CIM и WQL для использования. следующий фрагмент кода возвратит два экземпляра, представляющие два стандартных процесса Windows, в которых свойство handle (представляющее идентификатор процесса или PID) имеет значение 0 или 4.
 
 ```CSharp
     IEnumerable<CimInstance> queryInstances =     

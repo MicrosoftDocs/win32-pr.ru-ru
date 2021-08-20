@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Пример. вызов метода поставщика
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa20d6e3a90b7d2f7826d7f62b4092bc18d2d917
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b937ff23d7700b25f9acd9512da56a1dce87adefe8170b3651b564ec437973d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104346735"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118108949"
 ---
 # <a name="example-calling-a-provider-method"></a>Пример. вызов метода поставщика
 

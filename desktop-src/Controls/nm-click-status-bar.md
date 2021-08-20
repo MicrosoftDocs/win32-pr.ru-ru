@@ -3,7 +3,7 @@ title: Код уведомления NM_CLICK (строка состояния) 
 description: Сообщает родительскому окну элемента управления "строка состояния", что пользователь щелкнул левой кнопкой мыши в элементе управления. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: 179ccbe9-f51f-4356-b91a-10d7e3607b09
 keywords:
-- Элементы управления Windows для кода уведомления NM_CLICK (строка состояния)
+- элементы управления Windows кода уведомления NM_CLICK (строка состояния)
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e6066f76a8cf0b6ca34b5298cfcdcba2b11e3fa5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: de75d03fe5d84c3059bed49af269765ab0c22ee9e170f359f65080d8a9fec2de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892817"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118005297"
 ---
 # <a name="nm_click-status-bar-notification-code"></a>\_Код уведомления Click (строка состояния)
 
@@ -55,9 +55,9 @@ NM_CLICK
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

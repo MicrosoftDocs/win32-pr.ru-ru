@@ -5,12 +5,12 @@ ms.assetid: 80425fa8-2746-4eba-8e7d-4a61e222852a
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 443b095cfbb134cf031ae8e1403565bc1fa31aea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fbb8157a7b4e9637314eb8bb09cdb34e2d3d1d9c87202e6ad0ea4b08fddd3326
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118108558"
 ---
 # <a name="implementing-an-instance-provider-primary-interface"></a>Реализация основного интерфейса поставщика экземпляров
 
@@ -20,7 +20,7 @@ ms.locfileid: "105712461"
 
 
 
-| Метод                                                                   | Функция          |
+| Метод                                                                   | Компонент          |
 |--------------------------------------------------------------------------|------------------|
 | [**жетобжектасинк**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobjectasync)                   | Получения        |
 | [**путинстанцеасинк**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-putinstanceasync)               | Изменение     |

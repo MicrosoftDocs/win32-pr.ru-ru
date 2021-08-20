@@ -3,9 +3,9 @@ title: Метод шага IWMPControls2
 description: Метод Step заставляет текущий элемент мультимедиа перейти к следующему кадру или предыдущему кадру и заморозить воспроизведение.
 ms.assetid: c5cb720f-527f-45b6-ae8a-4da0e3e34618
 keywords:
-- Пошаговый метод проигрывателя Windows Media
-- Пошаговый метод проигрывателя Windows Media Player, интерфейс IWMPControls2
-- Интерфейс IWMPControls2 Windows Media Player, метод Step
+- проигрыватель Windows Media метода step
+- проигрыватель Windows Media метода step, интерфейс IWMPControls2
+- проигрыватель Windows Media интерфейса IWMPControls2, метод step
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cfb65dd20de506a8f303121b23668e2fbf14dc4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 310094a0b41381d729db3c5e5ef2f530a93b7da88c4a3116df8440e4ad3830c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117930226"
 ---
 # <a name="iwmpcontrols2step-method"></a>Метод IWMPControls2:: Step
 
@@ -64,7 +64,7 @@ Implements IWMPControls2.step
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В настоящее время этот метод поддерживает только параметры 1 или-1, поэтому можно пошаговым образом выполнять только один кадр.
 
@@ -74,13 +74,13 @@ Implements IWMPControls2.step
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

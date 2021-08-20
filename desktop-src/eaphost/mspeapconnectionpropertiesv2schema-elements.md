@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6877bfa62dd9ec4b243e7fd74760bf97920d91f4
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 7cb053fa58e635c366487961631b630a7bb3bf8b6cfb7d80c1b64aee722922a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "105710367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117719799"
 ---
 # <a name="mspeapconnectionpropertiesv2-schema-elements"></a>Элементы схемы mspeapconnectionpropertiesv2
 
@@ -27,7 +27,7 @@ ms.locfileid: "105710367"
 -   [**PeapExtensionsV2 (Пеапекстенсионстипе)**](mspeapconnectionpropertiesv2-peapextensionsv2-peapextensionstype-element.md)
 -   [**Перформсервервалидатион (Пеапекстенсионстипе)**](mspeapconnectionpropertiesv2-performservervalidation-peapextensionstype-element.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -40,9 +40,9 @@ ms.locfileid: "105710367"
 [Схема mspeapconnectionpropertiesv2](mspeapconnectionpropertiesv2schema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

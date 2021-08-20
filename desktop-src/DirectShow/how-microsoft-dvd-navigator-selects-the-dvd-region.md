@@ -4,12 +4,12 @@ ms.assetid: 407619c6-2d4b-4f7f-a861-42ee0f462ecd
 title: Как Microsoft DVD Navigator выбирает регион DVD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f8a2898725ad187946b50e567f7daa7e72a9886
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 822a546276c57296bb4514e3ab2c8917abfe7218fe3afeadd528ac6bd80066d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105672947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117999773"
 ---
 # <a name="how-microsoft-dvd-navigator-selects-the-dvd-region"></a>Как Microsoft DVD Navigator выбирает регион DVD
 
@@ -23,11 +23,11 @@ Microsoft DVD Navigator использует следующий алгоритм
 6.  Если регион диска соответствует региону диска, Навигатор DVD воспроизводит его.
 7.  В противном случае, если регион драйвера не соответствует региону диска, Навигатор DVD вызывает код для изменения региона диска. Если разрешенное число изменений региона исчерпано, попытка изменения региона завершится неудачей, и заголовок невозможно будет воспроизвести в этой системе.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Поддержка смены региона DVD в Windows](dvd-region-change-support-in-windows.md)
+[Поддержка изменения региона DVD в Windows](dvd-region-change-support-in-windows.md)
 </dt> </dl>
 
  

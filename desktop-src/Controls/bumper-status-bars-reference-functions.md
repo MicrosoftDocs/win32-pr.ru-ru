@@ -4,16 +4,16 @@ description: Функции строки состояния
 ms.assetid: 1a826302-e938-4ef6-aaed-0a89108a1529
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 375502292c552cce8980492adda651ba6006eb7c
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 6816f327ab3e35e6413190bdd8b4e7f8fc997bb0f511b5d4205346d12e9db76c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105651457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118007190"
 ---
 # <a name="status-bar-functions"></a>Функции строки состояния
 
-## <a name="in-this-section"></a>в этом разделе
+## <a name="in-this-section"></a>В этом разделе
 
 -   [**креатестатусвиндов**](/windows/desktop/api/Commctrl/nf-commctrl-createstatuswindowa)
 -   [**дравстатустекст**](/windows/desktop/api/Commctrl/nf-commctrl-drawstatustexta)

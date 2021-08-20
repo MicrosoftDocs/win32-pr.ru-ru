@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e4278279aa38b4d560a63bf9f69915f81666d8d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bfd6cbc194e6a48c0c1d7d6fc7332e2bcd71160e6828e2800ca183ec46e57782
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104543375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118077046"
 ---
 # <a name="initgrbit-enumeration"></a>Перечисление Инитгрбит
 
@@ -77,7 +77,7 @@ public enum InitGrbit
 </table>
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 
