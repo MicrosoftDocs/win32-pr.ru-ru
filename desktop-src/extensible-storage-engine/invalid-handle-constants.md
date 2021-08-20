@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f5614b36acfca8b5be4c13849d459d25f984336a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b6b87a75f8f0afc8a2f84c6f248c8b071ee5bb5682b2006772df118a0113fde
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118076414"
 ---
 # <a name="invalid-handle-constants"></a>Недопустимые константы Handle
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="invalid-handle-constants"></a>Недопустимые константы Handle
 
@@ -47,7 +47,7 @@ _**Применимо к:** Windows | Windows Server_
 <td><p>JET_instanceNil<br />
 (~ (JET_INSTANCE) 0)</p></td>
 <td><p>Недопустимый обработчик для экземпляра базы данных.<br />
-<strong>Windows XP:</strong> Впервые появился в Windows XP.</p></td>
+<strong>Windows XP:</strong> появилось в Windows XP.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_sesidNil<br />
@@ -67,7 +67,7 @@ _**Применимо к:** Windows | Windows Server_
 <tr class="odd">
 <td><p>JET_LSNil<br />
 (~ (JET_LS) 0)</p></td>
-<td><p>Недопустимый обработчик для локального хранилища.</p></td>
+<td><p>недопустимый обработчик для локального служба хранилища.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_dbidNil<br />
@@ -88,11 +88,11 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
+<td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
+<td><p><strong>Сервер</strong></p></td>
+<td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>

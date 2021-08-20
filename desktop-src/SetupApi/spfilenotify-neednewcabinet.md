@@ -4,12 +4,12 @@ ms.assetid: 01207429-11fb-4e2c-89ba-54321992e953
 title: Сообщение SPFILENOTIFY_NEEDNEWCABINET (Setupapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3187d48b89579c329a4d0163e151824288462344
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a78950c5557973e5e4e7ab696be11c14c5122884542ae67e8d5c7b4c1a134cf5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117964428"
 ---
 # <a name="spfilenotify_neednewcabinet-message"></a>\_Сообщение спфиленотифи нидневкабинет
 
@@ -63,7 +63,7 @@ SPFILENOTIFY_NEEDNEWCABINET
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если подпрограммы обратного вызова не возвращают \_ ошибку, [**сетупитератекабинет**](/windows/desktop/api/Setupapi/nf-setupapi-setupiteratecabineta) проверяет буфер, на который указывает *Param2*. Если буфер не пуст, он содержит новый исходный путь. Если буфер пуст, предполагается, что исходный путь не изменен.
 
@@ -75,9 +75,9 @@ SPFILENOTIFY_NEEDNEWCABINET
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Setupapi. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Setupapi. h</dt> </dl> |
 
 
 

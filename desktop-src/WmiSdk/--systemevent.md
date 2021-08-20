@@ -16,12 +16,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 7cc443c9e130106c2f5e8a05a1a2983927f1963e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 445b84e8b692283693c0849c43f603678cdbabde8fc6c313c4da973e3921a4e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118110171"
 ---
 # <a name="__systemevent-class"></a>\_\_Класс Системевент
 
@@ -45,7 +45,7 @@ class __SystemEvent : __ExtrinsicEvent
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ \_ системевент** имеет следующие свойства.
 
@@ -84,7 +84,7 @@ class __SystemEvent : __ExtrinsicEvent
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ \_ системевент** является производным от класса [**\_ \_ екстринсицевент**](--extrinsicevent.md) .
 
@@ -100,7 +100,7 @@ class __SystemEvent : __ExtrinsicEvent
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

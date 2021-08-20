@@ -3,7 +3,7 @@ title: Сообщение MCM_SETTODAY (Коммктрл. h)
 description: Задает \ 0034; сегодня \ 0034; Выбор элемента управления "месячный календарь". Это сообщение можно отправить явным образом или с помощью \_ макроса монскал сеттодай.
 ms.assetid: fcd4d33d-e661-4e02-8d19-666d80e1a070
 keywords:
-- Элементы управления Windows для MCM_SETTODAY сообщений
+- элементы управления Windows сообщений MCM_SETTODAY
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f2b725e5f61e3c08170a323b063616434acb857e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ea32e9ffc4d987ebf7d94e4508fbf7a057dbb5fe1115fea54ff82095f9d95938
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103804012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118005307"
 ---
 # <a name="mcm_settoday-message"></a>\_Сообщение MCM сеттодай
 
@@ -43,7 +43,7 @@ ms.locfileid: "103804012"
 
 Возвращаемое значение для этого сообщения не используется.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если для параметра «сегодня» выбрана любая дата, отличная от значения по умолчанию, применяются следующие условия.
 
@@ -56,13 +56,13 @@ ms.locfileid: "103804012"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

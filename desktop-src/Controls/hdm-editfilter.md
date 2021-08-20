@@ -3,7 +3,7 @@ title: Сообщение HDM_EDITFILTER (Коммктрл. h)
 description: Перемещает фокус ввода в поле ввода, когда фокус находится на кнопке фильтра.
 ms.assetid: 580f7872-4056-4d7d-8e69-274b4b4b5545
 keywords:
-- Элементы управления Windows для HDM_EDITFILTER сообщений
+- элементы управления Windows сообщений HDM_EDITFILTER
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 733c79bf747d3b55aa8dd38eb8fad8fdc83601e1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8636c17bfa9043891e5037df79be9c72c1ddc8f3aa2b4d13520f4289205b5099
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103802861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118006164"
 ---
 # <a name="hdm_editfilter-message"></a>\_Сообщение ЕДИТФИЛТЕР HDM
 
@@ -64,13 +64,13 @@ ms.locfileid: "103802861"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

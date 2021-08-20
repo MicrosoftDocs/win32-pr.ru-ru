@@ -4,12 +4,12 @@ ms.assetid: c59f7029-934f-4b04-bab3-3ea2e3ac3a0e
 title: System. Датеарчивед
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2032562b64f8c89a10bce29c0c3614b9374dbfb7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bdf0e4571221f01c7abbcf72a5dc387db4aced197cceef34b35ab9904d2ef462
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118055164"
 ---
 # <a name="systemdatearchived"></a>System. Датеарчивед
 
@@ -46,11 +46,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

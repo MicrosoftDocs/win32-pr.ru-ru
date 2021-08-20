@@ -1,6 +1,6 @@
 ---
 title: Иконфигасфвритер Конфигурефилтерусингпрофилеид, метод
-description: Метод Конфигурефилтерусингпрофилеид настраивает фильтр для записи ASF-файла с индексом идентификатора профиля из списка системного профиля. (Только для профилей Windows Media формата 4,0.)
+description: Метод Конфигурефилтерусингпрофилеид настраивает фильтр для записи ASF-файла с индексом идентификатора профиля из списка системного профиля. (только для профилей Windows Media Format 4,0.)
 ms.assetid: b0375785-83db-4540-aca9-7ba0bb81c1ef
 keywords:
 - Формат Windows Media, Конфигурефилтерусингпрофилеид метод
@@ -15,16 +15,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0226195d7657667e3947b55546b321edafa7befc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6321d259a213426df7e4490c3fc8a793e583a6fcdf58ec795a9f88e43645377f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105710304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118028488"
 ---
 # <a name="iconfigasfwriterconfigurefilterusingprofileid-method"></a>Метод Иконфигасфвритер:: Конфигурефилтерусингпрофилеид
 
-Метод **конфигурефилтерусингпрофилеид** настраивает фильтр для записи ASF-файла с индексом идентификатора профиля из списка системного профиля. (Только для профилей Windows Media формата 4,0.)
+Метод **конфигурефилтерусингпрофилеид** настраивает фильтр для записи ASF-файла с индексом идентификатора профиля из списка системного профиля. (только для профилей Windows Media Format 4,0.)
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -44,7 +44,7 @@ HRESULT ConfigureFilterUsingProfileId(
 *двпрофилеид* \[ окне\]
 </dt> <dd>
 
-Идентификатор профиля, определенный в версии 4,0 пакета SDK Windows Media Format.
+идентификатор профиля, определенный в версии 4,0 пакета SDK для Windows Media Format.
 
 </dd> </dl>
 
@@ -64,11 +64,11 @@ HRESULT ConfigureFilterUsingProfileId(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Этот метод устарел, так как в нем предполагается наличие профилей пакета SDK для формата Windows Media версии 4,0. Чтобы настроить фильтр для профилей версии 7,0 и более поздних, используйте [**иконфигасфвритер:: конфигурефилтерусингпрофиле**](iconfigasfwriter-configurefilterusingprofile.md) или [**Иконфигасфвритер:: конфигурефилтерусингпрофилегуид**](iconfigasfwriter-configurefilterusingprofileguid.md).
+этот метод устарел, поскольку предполагается, что он имеет версию 4,0 Windows профили пакета SDK для формата носителя. Чтобы настроить фильтр для профилей версии 7,0 и более поздних, используйте [**иконфигасфвритер:: конфигурефилтерусингпрофиле**](iconfigasfwriter-configurefilterusingprofile.md) или [**Иконфигасфвритер:: конфигурефилтерусингпрофилегуид**](iconfigasfwriter-configurefilterusingprofileguid.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
