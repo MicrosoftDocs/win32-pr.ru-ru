@@ -4,12 +4,12 @@ ms.assetid: 4fb29be9-0e3b-442a-b39e-89d2191b43e9
 title: Методы ImageAttributes
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 97eadb02e66c3f2c64079d32fdf141535fb429d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 078022a6bc696b52f175274a4ede5971ba9c55f015ec49ceb857afea0d501e3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118067827"
 ---
 # <a name="imageattributes-methods"></a>Методы ImageAttributes
 
@@ -28,7 +28,7 @@ ms.locfileid: "104264084"
 -   [**Клонировать**](/windows/desktop/api/Gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-clone)
 -   [**жетаджустедпалетте**](/windows/desktop/api/Gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-getadjustedpalette)
 -   [**жетластстатус**](/windows/desktop/api/Gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-getlaststatus)
--   [**Reset**](/windows/desktop/api/Gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-reset)
+-   [**Перезапуск**](/windows/desktop/api/Gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-reset)
 -   [**сетбрушремаптабле**](/windows/desktop/api/Gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-setbrushremaptable)
 -   [**сетколоркэй**](/windows/desktop/api/Gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-setcolorkey)
 -   [**сетколорматрицес**](/windows/desktop/api/Gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-setcolormatrices)

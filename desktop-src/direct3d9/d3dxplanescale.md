@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 39bd80ceebaee915b8175f2adf13b3b200000fa6
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 248236bd4b1952a8a53b25087f9acf2ce952e99ff7f39d0d9d20a49d314fa22f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105674675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118095452"
 ---
 # <a name="d3dxplanescale-function"></a>Функция D3DXPlaneScale
 
@@ -75,7 +75,7 @@ D3DXPLANE* D3DXPlaneScale(
 
 Указатель на структуру [**D3DXPLANE**](d3dxplane.md) , представляющую масштабированную плоскость.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре *тоска* . Поэтому эту функцию можно использовать в качестве параметра для другой функции.
 
@@ -85,12 +85,12 @@ D3DXPLANE* D3DXPlaneScale(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

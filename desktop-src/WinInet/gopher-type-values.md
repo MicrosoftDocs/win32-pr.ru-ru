@@ -35,12 +35,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 67402dd88211ae46c081c0b9e85e7a12b5379bb8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 36dd8a6b673ccdde6ff283d5b0ae58eb38540aeed12cc3ff095a2df2fe8a0b52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104416157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118113887"
 ---
 # <a name="gopher-type-values"></a>Значения типа Gopher
 
@@ -336,7 +336,7 @@ PDF-файл.
 
 </dt> </dl> </dd> <dt>
 
-<span id="GOPHER_TYPE_UNIX_UUENCODED"></span><span id="gopher_type_unix_uuencoded"></span>**\_тип Gopher \_ UNIX \_ ууенкодед**
+<span id="GOPHER_TYPE_UNIX_UUENCODED"></span><span id="gopher_type_unix_uuencoded"></span>**\_тип GOPHER \_ UNIX \_ ууенкодед**
 </dt> <dd> <dl> <dt>
 
 0x00000040
@@ -362,14 +362,14 @@ PDF-файл.
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
-> WinINet не поддерживает реализации серверов. Кроме того, его не следует использовать из службы. Для серверных реализаций или служб используйте [службы Microsoft Windows HTTP Services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet не поддерживает реализации серверов. Кроме того, его не следует использовать из службы. для серверных реализаций или служб используйте [Microsoft Windows HTTP services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -379,7 +379,7 @@ PDF-файл.
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                 |
 | Окончание поддержки клиента<br/>    | Windows XP<br/>                                                                |
 | Поддержка конца сервера<br/>    | Windows Server 2003 R2<br/>                                                    |
-| Header<br/>                   | <dl> <dt>WinInet. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>WinInet. h</dt> </dl> |
 
 
 

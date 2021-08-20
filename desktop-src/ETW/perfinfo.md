@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 93f12242fef86e5eab81bb702b783eb1f4c1915c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 641ebb361d14fa8abb0c8199cf113cfd85a2e6700e262447c1302f3f1b66231a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984513"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118151410"
 ---
 # <a name="perfinfo-class"></a>Класс Перфинфо
 
@@ -34,11 +34,11 @@ class PerfInfo : MSNT_SystemTrace
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **перфинфо** не определяет никаких членов.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Чтобы включить события отложенного вызова процедур (DPC) в сеансе ведения журнала ядра NT, при вызове функции [**старттраце**](/windows/win32/api/evntrace/nf-evntrace-starttracea) укажите флаг **\_ трассировки событий \_ \_ DPC** в элементе **енаблефлагс** структуры [**\_ \_ свойств трассировки событий**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) . Можно также указать один или несколько из следующих флагов:
 
@@ -64,14 +64,14 @@ class PerfInfo : MSNT_SystemTrace
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

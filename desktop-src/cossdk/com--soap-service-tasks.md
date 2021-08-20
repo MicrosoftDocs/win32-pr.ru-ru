@@ -4,12 +4,12 @@ ms.assetid: 12ed7cb5-19b0-4f64-81cd-601420bc9e5d
 title: Задачи службы COM+ SOAP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2f660bb08d3eeadd8996996251d584719883b1d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 71705dd7a489831cc60b5c87f6aa131768a8798edb4bfd80dd2961b4ca648cef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118102520"
 ---
 # <a name="com-soap-service-tasks"></a>Задачи службы COM+ SOAP
 
@@ -30,7 +30,7 @@ ms.locfileid: "103895813"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

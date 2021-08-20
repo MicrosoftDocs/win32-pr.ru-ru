@@ -4,12 +4,12 @@ ms.assetid: 4d795727-684c-4dc1-8b46-d72b69c455c3
 title: Выбор языка по умолчанию для модуля слияния с несколькими языками
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 758a3b47b7a41777652a11a1cdc1b7f380055cb7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7c174a3917538b1562626819f8ba2bf07864c9169c27e717a078cca8d64992ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118145660"
 ---
 # <a name="choosing-the-default-language-of-a-multiple-language-merge-module"></a>Выбор языка по умолчанию для модуля слияния с несколькими языками
 

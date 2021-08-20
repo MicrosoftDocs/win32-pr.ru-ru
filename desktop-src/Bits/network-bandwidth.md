@@ -4,12 +4,12 @@ description: Фоновая передача использует только �
 ms.assetid: c0b92a33-7afc-4250-8549-54cc46013239
 ms.topic: article
 ms.date: 10/09/2018
-ms.openlocfilehash: 39a38a0efd5f2caea432fc9d13f7a958b6bcd407
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 57b6583a99c16748c027fca1666571fc04d9e9aebe27fd104f7ab1215fa27a60
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118173367"
 ---
 # <a name="network-bandwidth"></a>Пропускная способность сети
 

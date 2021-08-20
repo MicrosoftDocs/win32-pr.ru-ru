@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0932138ce5aec85ad3d3e7058db0c2a93e131181
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: d452ebf68487dcf9b3177b5f89c81748b45760030dbddb6c3ae60070ca66bf0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104411792"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118091204"
 ---
 # <a name="line-directive"></a>\#Line, директива
 
@@ -46,7 +46,7 @@ ms.locfileid: "104411792"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Компилятор использует номер строки и имя файла для ссылки на ошибки, обнаруженные во время компиляции. Номер линии обычно указывает на текущую строку входных данных, а имя файла — на текущий входной файл. Номер строки увеличивается на единицу после обработки каждой строки. Если изменить номер линии и имя файла, компилятор игнорирует предыдущих значений и продолжит обработку с новыми значениями. \#Директива line обычно используется генераторами программ, чтобы сообщения об ошибках ссылались на исходный исходный файл, а не на созданную программу.
 
@@ -76,7 +76,7 @@ __LINE__, __FILE__ );}
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

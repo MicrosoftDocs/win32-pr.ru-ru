@@ -6,18 +6,18 @@ keywords:
 - Система доменных имен, стандарты
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 528198b429da4908f688bd56b430979810f1b08e
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 7fb93ca884e93c8e6435d89a8f78a8da6d7b88b1e557551c1bf63d6a8fa1e23c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "103788898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118164035"
 ---
 # <a name="dns-standards-documents"></a>Документы по стандартам DNS
 
 Система доменных имен (DNS) является открытым протоколом. Таким образом, совместная работа из отрасли в целом гарантирует, что ее реализация на различных системах не ограничивает взаимодействие. В основном тексте этих рекомендаций является «инженер по разработке веб-задач» (Internet Engineering Task Force – IETF). Ниже приведены запросы IETF для комментариев (RFC). Дополнительные сведения об этих документах см. по адресу [www.IETF.org](https://www.ietf.org/).
 
-## <a name="dns-rfcs"></a>Документы RFC в DNS
+## <a name="dns-rfcs"></a>Документы RFC по DNS
 
 -   [RFC 1034](https://www.ietf.org/rfc/rfc1034.txt): доменные имена — основные понятия и средства
 -   [RFC 1035](https://www.ietf.org/rfc/rfc1035.txt): доменные имена — реализация и спецификация
@@ -40,9 +40,9 @@ ms.locfileid: "103788898"
 -   [RFC 3596](https://www.ietf.org/rfc/rfc3596.txt): расширения DNS для поддержки IP версии 6
 -   [RFC 3645](https://www.ietf.org/rfc/rfc3645.txt): Универсальный алгоритм службы безопасности для проверки подлинности транзакций секретного ключа для DNS (GSS-тсиг)
 
- 
+ 
 
- 
+ 
 
 
 

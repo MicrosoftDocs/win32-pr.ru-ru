@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 16ffdd4d363c994efbecdb57fe4ad7203393fd1f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 54e096d706107ca812e569e46c980f56cdc7b8eba14f4742530f632570fd3d08
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118133949"
 ---
 # <a name="inapserverinfogetregisteredsystemhealthvalidators-method"></a>Метод Инапсерверинфо:: Жетрегистередсистемхеалсвалидаторс
 
@@ -86,21 +86,21 @@ HRESULT GetRegisteredSystemHealthValidators(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Ни одна версия не поддерживается<br/>                                                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                               |
-| Header<br/>                   | <dl> <dt>Напсерверманажемент. h</dt> </dl>   |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                               |
+| Заголовок<br/>                   | <dl> <dt>Напсерверманажемент. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Напсерверманажемент. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qsvrmgmt.dll</dt> </dl>            |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

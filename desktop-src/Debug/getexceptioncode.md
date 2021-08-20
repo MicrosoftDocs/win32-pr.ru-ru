@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 3b87b77ddb2d2e2af3a22e30d1204cf178ee6981
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5c1badd5317b5a12eb97ed6418873b5c576f520f4a8106361abb1a6f7c95921e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105656005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118162665"
 ---
 # <a name="getexceptioncode-macro"></a>Макрос GetExceptionCode
 
@@ -77,7 +77,7 @@ DWORD GetExceptionCode(void);
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функцию **GetExceptionCode** можно вызывать только внутри выражения фильтра или блока обработчика исключений обработчика исключений. Критерий фильтра вычисляется, если исключение возникает во время выполнения блока **\_ \_ try** и определяет, выполняется ли блок **\_ \_ except** .
 
@@ -93,18 +93,18 @@ DWORD GetExceptionCode(void);
 
 Пример см. в разделе [использование обработчика исключений](using-an-exception-handler.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

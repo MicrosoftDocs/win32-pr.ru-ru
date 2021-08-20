@@ -7,12 +7,12 @@ keywords:
 - группы AD, изменение области или типа группы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f65c64b4a2dafe4bf6c0e65463ef16e0270c0be3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 95babe931146078d78b15d1b1d2a33f79bb305acdc6e4449afde467a573514d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103772743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118023145"
 ---
 # <a name="changing-a-groups-scope-or-type"></a>Изменение области или типа группы
 
@@ -28,9 +28,9 @@ ms.locfileid: "103772743"
 
 Имейте в виду, что если группа используется для настройки контроля доступа, изменение области или типа может повлиять на записи управления доступом (ACE), содержащие эту группу. Система безопасности будет игнорировать ACE, содержащие группы, которые не являются группами безопасности.
 
- 
+ 
 
- 
+ 
 
 
 

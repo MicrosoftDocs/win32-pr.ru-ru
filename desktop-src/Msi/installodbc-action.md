@@ -4,16 +4,16 @@ ms.assetid: fbcf1fdc-5aef-4431-93fe-3ed02748b5ff
 title: Действие Инсталлодбк
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e5ac9becd2a528646805f4201cfb415a6bc61bd8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a371aed67ec412c46946d7df7fd4775f0a0d4e20d91cbb60d69f894371f203ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118142228"
 ---
 # <a name="installodbc-action"></a>Действие Инсталлодбк
 
-Действие Инсталлодбк устанавливает драйверы, переводчики и источники данных в [таблицу одбкдривер](odbcdriver-table.md), [таблицу Одбктранслатор](odbctranslator-table.md)и [таблицу одбкдатасаурце](odbcdatasource-table.md). Если драйвер или переводчик уже существует, действие Инсталлодбк выполняет вызовы SQL, необходимые для установки.
+Действие Инсталлодбк устанавливает драйверы, переводчики и источники данных в [таблицу одбкдривер](odbcdriver-table.md), [таблицу Одбктранслатор](odbctranslator-table.md)и [таблицу одбкдатасаурце](odbcdatasource-table.md). если драйвер или транслятор уже существует, действие инсталлодбк выполняет SQL вызовы, необходимые для установки.
 
 ## <a name="sequence-restrictions"></a>Ограничения последовательности
 
@@ -66,7 +66,7 @@ ms.locfileid: "105684354"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Диспетчер драйверов ODBC должен быть создан в пакете установщика Microsoft, и должен быть добавлен компонент с именем Одбкдриверманажер. При необходимости диспетчер устанавливается.
 
@@ -76,11 +76,11 @@ ms.locfileid: "105684354"
 -   Действие Инсталлодбк запрашивает [таблицу одбкдривер](odbcdriver-table.md) и [таблицу одбктранслатор](odbctranslator-table.md) для каждого драйвера и переводчика, выбранного для установки.
 -   Действие Инсталлодбк запрашивает [таблицу одбкаттрибуте](odbcattribute-table.md) для атрибутов драйверов и переводчиков.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Примеры установщик Windows](windows-installer-examples.md)
+[Windows Примеры установщика](windows-installer-examples.md)
 </dt> </dl>
 
  

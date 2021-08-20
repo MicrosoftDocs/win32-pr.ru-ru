@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7aebee99a693ac629d9cc8a372fba7589a9e29ef
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 47ac2d76c1197349fee9fc5c993d4268e69495367ce3f121b4a59004bff1b3a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "103890064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118090019"
 ---
 # <a name="temporary-register-hlsl-ps-reference"></a>Временный регистр (Справочник по HLSL PS)
 
@@ -37,7 +37,7 @@ no declaration is required
 
 
 
- 
+ 
 
 -   Существует 12 временных регистров построителя текстуры: r0 в R11.
 -   Эти регистры используются для хранения промежуточных результатов во время вычислений.
@@ -45,16 +45,16 @@ no declaration is required
 -   По меньшей мере точность с плавающей запятой.
 -   В одной инструкции можно использовать не более трех.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Регистры](dx9-graphics-reference-asm-ps-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

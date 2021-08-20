@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 5e9f196c5af3f8946460564e56bb425ffc24b51c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 93dfa4ca5ad1233f1d36323e5d59c31e194398df2b0b941036c8fc0ff182d505
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118146163"
 ---
 # <a name="presskey-method-of-the-msvm_keyboard-class"></a>Метод Пресскэй \_ класса клавиатуры мсвм
 
@@ -95,7 +95,7 @@ uint32 PressKey(
 **Недостаточно памяти** (32778)
 </dt> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Метод **пресскэй** сопоставляет ссылки на **\_ меню VK** (18), **VK \_ Control** (17) и **VK \_ SHIFT** (16) с **VK \_ лмену** (164), **VK \_ Лконтрол** (162) и **VK \_ лшифт** (160), соответственно, так как **\_ меню VK**, **VK \_ Control** и **VK \_ SHIFT** , не являются реальными ключами на клавиатуре.
 
@@ -185,7 +185,7 @@ namespace HyperVSamples
 
 
 
-Следующий пример Visual Basic Scripting Edition (VBScript) имитирует нажатие клавиши.
+следующий пример Visual Basic scripting Edition (VBScript) имитирует нажатие клавиши.
 
 
 ```VB
@@ -317,21 +317,21 @@ End Function
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

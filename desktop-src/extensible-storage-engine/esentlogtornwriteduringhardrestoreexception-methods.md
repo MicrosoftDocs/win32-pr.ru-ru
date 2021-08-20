@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102225
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: fb81c707ac4c93803ce3381aaa1f4b150f5ba2ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b1639ef8ef2714198f366f7a4b2ec749d0e5abc91e6b7a720dd5f88aaf169fd8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104561033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118080363"
 ---
 # <a name="esentlogtornwriteduringhardrestoreexception-methods"></a>Методы EsentLogTornWriteDuringHardRestoreException 
 
@@ -78,7 +78,7 @@ ms.locfileid: "104561033"
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

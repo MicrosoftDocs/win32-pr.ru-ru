@@ -3,7 +3,7 @@ title: Сообщение TB_MARKBUTTON (Коммктрл. h)
 description: Задает состояние выделения для данной кнопки в элементе управления ToolBar.
 ms.assetid: cba0e2d2-40a7-4e20-a1ef-d5f5444c96d9
 keywords:
-- Элементы управления Windows для TB_MARKBUTTON сообщений
+- элементы управления Windows сообщений TB_MARKBUTTON
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d42983f5fb0ef6e62716cefa2fa8db4fca87fa4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1af7ba20ed9ce3d1b289c0c28db8fc40c476dd99f4ffb1af1af28692c44cab1e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071858"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118168033"
 ---
 # <a name="tb_markbutton-message"></a>\_Сообщение МАРКБУТТОН ТБ
 
@@ -49,15 +49,15 @@ ms.locfileid: "104071858"
 
 Возвращает ненулевое значение в случае успеха или ноль в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

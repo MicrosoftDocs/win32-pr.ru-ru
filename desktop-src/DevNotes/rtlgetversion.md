@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ntdll.dll
 - NtosKrnl.exe
-ms.openlocfilehash: a6a026ee55a6ccd75162915729070ad76f621bc8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7420b9dba03e3b136331f4463f476908882ca5564d0fc7ac563036c7acccb356
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141255"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118161686"
 ---
 # <a name="rtlgetversion-function"></a>Функция Ртлжетверсион
 
@@ -51,15 +51,15 @@ NTSTATUS RtlGetVersion(
 
 Возвращает состояние \_ Success.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-**Ртлжетверсион** является эквивалентом функции [**GetVersionEx**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getversionexa) в Windows SDK. См. пример в Windows SDK, в котором показано, как получить версию системы.
+**ртлжетверсион** является эквивалентом функции [**GetVersionEx**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getversionexa) в Windows SDK. см. пример в Windows SDK, в котором показано, как получить версию системы.
 
 При использовании **ртлжетверсион** для определения того, запущена ли определенная версия операционной системы, вызывающая сторона должна проверить номера версий, которые больше или равны номеру требуемой версии. Это гарантирует, что тест версии будет выполнен для более поздних версий Windows.
 
 Поскольку функции операционной системы могут быть добавлены в распространяемую библиотеку DLL, проверка только основного и дополнительного номеров версий не является самым надежным способом проверки наличия определенного компонента системы. Драйвер должен использовать [**ртлверифиверсионинфо**](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlverifyversioninfo) для проверки наличия определенного компонента системы.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -67,14 +67,14 @@ NTSTATUS RtlGetVersion(
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                                                                     |
-| Целевая платформа<br/>          | <dl> <dt>[Универсальной](https://msdn.microsoft.com/Library/Windows/Hardware/EB2264A4-BAE8-446B-B9A5-19893936DDCA)</dt> </dl>                  |
-| Header<br/>                   | <dl> <dt>Нтддк. h (включение Нтддк. h)</dt> </dl>                                                     |
+| Целевая платформа<br/>          | <dl> <dt>[Универсальное](https://msdn.microsoft.com/Library/Windows/Hardware/EB2264A4-BAE8-446B-B9A5-19893936DDCA)</dt> </dl>                  |
+| Заголовок<br/>                   | <dl> <dt>Нтддк. h (включение Нтддк. h)</dt> </dl>                                                     |
 | Библиотека<br/>                  | <dl> <dt>NTDLL. lib; </dt> <dt>NtosKrnl. lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ntdll.dll; </dt> <dt>NtosKrnl.exe</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

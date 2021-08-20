@@ -10,12 +10,12 @@ keywords:
 - Перечисление битов, заданий
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9360043a9265248001dddb785edab3e8aac70abc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 293bf2449f12b43b018ed2f5f8c8e27d64f0f2a6e5f47dad95e4efdcc29a23b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104328555"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118010909"
 ---
 # <a name="enumerating-jobs-in-the-transfer-queue"></a>Перечисление заданий в очереди на перемещение
 
@@ -73,9 +73,9 @@ if (SUCCEEDED(hr))
 
 
 
- 
+ 
 
- 
+ 
 
 
 

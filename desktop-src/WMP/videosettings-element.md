@@ -3,19 +3,19 @@ title: ВИДЕОСЕТТИНГС, элемент
 description: ВИДЕОСЕТТИНГС, элемент
 ms.assetid: 2d147bd2-0010-41ab-8073-a4dc2979be1e
 keywords:
-- Обложки проигрывателя Windows Media, элемент ВИДЕОСЕТТИНГС
+- обложки проигрыватель Windows Media, элемент видеосеттингс
 - обложки, элемент ВИДЕОСЕТТИНГС
 - ВИДЕОСЕТТИНГС, элемент
 - Справочник по обложкам, элементу ВИДЕОСЕТТИНГС
 - элементы, ВИДЕОСЕТТИНГС
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61dd56c0103b5a4f6f95e913e967526ef1d46b78
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 43096cbe0ee196581a3ad3ed0632342f3fadf2faddf4e203641244687cd660fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103777519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118116860"
 ---
 # <a name="videosettings-element"></a>ВИДЕОСЕТТИНГС, элемент
 
@@ -34,7 +34,7 @@ ms.locfileid: "103777519"
 
 
 
- 
+ 
 
 Элемент **видеосеттингс** поддерживает следующий метод.
 
@@ -42,29 +42,29 @@ ms.locfileid: "103777519"
 
 | Метод                           | Описание                                    |
 |----------------------------------|------------------------------------------------|
-| [reset](videosettings-reset.md) | Сбрасывает все атрибуты в значения по умолчанию. |
+| [reset](videosettings-reset.md); | Сбрасывает все атрибуты в значения по умолчанию. |
 
 
 
- 
+ 
 
 Элемент **видеосеттингс** может реализовывать обработчики [событий \_ onChange атрибута](attribute-onchange.md) .
 
 > [!Note]  
-> Для этого элемента требуется проигрыватель Windows Media для Windows XP или более поздней версии.
+> для этого элемента требуется проигрыватель Windows Media для Windows XP или более поздней версии.
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Справочник по программированию для обложки**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

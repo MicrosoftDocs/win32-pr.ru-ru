@@ -4,12 +4,12 @@ ms.assetid: 2dae21f9-4509-40c0-8a72-486add26e769
 title: Отрисовка примитивов (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf7d1f2e12a12f8b4b2641cfd81cd99dbbb0ffea
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 47c97b5ae15c95fc9c4c964743ae3d44d878ecb6b1be395453cdbfb41bad7907
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104140195"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118092511"
 ---
 # <a name="rendering-primitives-direct3d-9"></a>Отрисовка примитивов (Direct3D 9)
 
@@ -20,7 +20,7 @@ ms.locfileid: "104140195"
 -   [Отрисовка из буферов вершин и индексов (Direct3D 9)](rendering-from-vertex-and-index-buffers.md)
 -   [Отрисовка из указателей памяти пользователя (Direct3D 9)](rendering-from-user-memory-pointers.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

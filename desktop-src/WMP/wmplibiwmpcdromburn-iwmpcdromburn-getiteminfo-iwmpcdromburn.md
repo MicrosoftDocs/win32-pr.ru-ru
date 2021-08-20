@@ -3,9 +3,9 @@ title: Ивмпкдромбурн getItemInfo, метод
 description: Метод getItemInfo извлекает значение указанного атрибута для компакт-диска.
 ms.assetid: 9ca54ec4-42be-40c1-931e-c3bfcbc2b370
 keywords:
-- getItemInfo метод Windows Media Player
-- getItemInfo метод проигрывателя Windows Media Player, интерфейс Ивмпкдромбурн
-- Интерфейс Ивмпкдромбурн Windows Media Player, метод getItemInfo
+- проигрыватель Windows Media метода getItemInfo
+- проигрыватель Windows Media метода getItemInfo, интерфейс ивмпкдромбурн
+- проигрыватель Windows Media интерфейса ивмпкдромбурн, метод getItemInfo
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9030bd230b2e17bab6ad54dc762a78d2cb343d03
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c2cf1a91ad60826e19051a59617157110fbcd8d75eff325f94f9b3f84d759aa4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105717981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118116232"
 ---
 # <a name="iwmpcdromburngetiteminfo-method"></a>Метод Ивмпкдромбурн:: getItemInfo
 
@@ -77,19 +77,19 @@ Implements IWMPCdromBurn.getItemInfo
 
 **Строка System. String** , которая является значением указанного атрибута.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 11<br/>                                                                                     |
+| Версия<br/>   | проигрыватель Windows Media 11<br/>                                                                                     |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

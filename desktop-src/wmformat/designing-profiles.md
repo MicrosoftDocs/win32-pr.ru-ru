@@ -3,16 +3,16 @@ title: Проектирование профилей
 description: Проектирование профилей
 ms.assetid: abf06fe4-0b5d-40a4-a263-a78150cd37c7
 keywords:
-- Windows Media Format SDK, профили
+- Windows Пакет SDK для формата мультимедиа, профили
 - профили, проектирование
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41f72ddab19e86d0460776fb39790e6f9531d009
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cf7b7239e38b97caffe65d10f0f06db80d85aef2b005a430d86cf47d6407147d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067438"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118029831"
 ---
 # <a name="designing-profiles"></a>Проектирование профилей
 
@@ -25,24 +25,24 @@ ms.locfileid: "104067438"
 | Section                                                                                    | Описание                                                                                                     |
 |--------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | [Выбор функций профиля](selecting-profile-features.md)                               | Описывает различные функции профиля и случаи их использования.                                                    |
-| [Выбор метода кодирования](choosing-an-encoding-method.md)                             | Описывает методы кодирования, доступные с помощью аудиокодеков Windows Media аудио и видео, и случаи их использования.  |
+| [Выбор метода кодирования](choosing-an-encoding-method.md)                             | описывает методы кодирования, доступные с помощью видеокодеков Windows Media Audio и Video, а также случаи их использования.  |
 | [Выбор скорости](selecting-bit-rates.md)                                             | Обсуждается процесс выбора правильных битовых ставок для потоков в профиле.                         |
 | [Работа с шаблонами соответствия устройств](working-with-device-conformance-templates.md) | Описание новых шаблонов соответствия устройств и способов их использования для адаптации содержимого целевой аудитории. |
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Работа с профилями**](working-with-profiles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

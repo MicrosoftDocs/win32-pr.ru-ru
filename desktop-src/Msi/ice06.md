@@ -4,12 +4,12 @@ ms.assetid: 0c3f21ae-49ea-4cfe-b465-6fdc2b19cbb9
 title: ICE06
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e9442d9b2c4089b88299106de875074bd7b0625
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: febccd205b78e90d3dac49f88d0750f803c8cd575b6b76b46cab79a684deea90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998804"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118142572"
 ---
 # <a name="ice06"></a>ICE06
 
@@ -56,7 +56,7 @@ ICE06 отправляет сообщение об ошибке, если в т�
 
 Столбец Version таблицы ModuleSignature отсутствует в базе данных или указан в \_ таблице Columns.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

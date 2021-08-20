@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: ac5676635bec961129078ed8689169d1a81cd87d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 39a36ed8a74accdc7da3eed4c98a96d9ee6abbaa4f52b5c71c367250321d28b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118044845"
 ---
 # <a name="icontextnodedeletecontextlink-method"></a>Иконтекстноде: метод:D Елетеконтекстлинк
 
@@ -50,7 +50,7 @@ HRESULT DeleteContextLink(
 
 Описание возвращаемых значений см. в разделе [классы и интерфейсы — анализ рукописного ввода](classes-and-interfaces---ink-analysis.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Ссылка на контекст имеет исходный узел и узел назначения (см. раздел [**иконтекстлинк:: жетсаурценоде**](icontextlink-getsourcenode.md) and [**Иконтекстлинк:: жетдестинатионноде**](icontextlink-getdestinationnode.md)). Этот метод удаляет [**иконтекстлинк**](icontextlink.md) из коллекции ссылок на исходный и конечный узлы (см. раздел [**Иконтекстноде:: жетконтекстлинкс**](icontextnode-getcontextlinks.md)).
 
@@ -60,14 +60,14 @@ HRESULT DeleteContextLink(
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/>                                                 |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/>                                                 |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                                     |
-| Header<br/>                   | <dl> <dt>Иаком. h (также требуется Иаком \_ i. c)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Иаком. h (также требуется Иаком \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

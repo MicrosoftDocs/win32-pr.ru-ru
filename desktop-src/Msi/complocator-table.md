@@ -4,12 +4,12 @@ ms.assetid: 8b527307-51bf-47b3-a0b2-3421cc5278b7
 title: Таблица Комплокатор
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e9fcb4a3c4f2e2c6f3ca3c92f6dc7466326bd11
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad6a51ad618521ff49b2a5b13f76fcfbae4207b5cdf4d77e76d3e128816bbb82
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104547010"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118145083"
 ---
 # <a name="complocator-table"></a>Таблица Комплокатор
 
@@ -21,9 +21,9 @@ ms.locfileid: "104547010"
 
 | Столбец      | Type                         | Ключ | Допускает значения NULL |
 |-------------|------------------------------|-----|----------|
-| Образец\_ | [Идентификатор](identifier.md) | Да   | Нет        |
+| Образец\_ | [Идентификатор](identifier.md) | Д   | Нет        |
 | ComponentId | [GUID](guid.md)             | Нет   | Нет        |
-| Тип        | [Integer](integer.md)       | Нет   | Да        |
+| Тип        | [Integer](integer.md)       | Нет   | Д        |
 
 
 
@@ -69,13 +69,13 @@ ms.locfileid: "104547010"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта таблица используется с [таблицей аппсеарч](appsearch-table.md).
 
 Как правило, столбцы в этой таблице не локализуются. Если автор решает выполнить поиск продуктов на нескольких языках, в таблице для каждого языка может присутствовать отдельная запись.
 
-Дополнительные сведения см. в разделе [Поиск существующих приложений, файлов, записей реестра или INI-файлов](searching-for-existing-applications-files-registry-entries-or--ini-file-entries.md).
+Дополнительные сведения см. в разделе [Поиск существующих приложений, файлов, записей реестра или .ini записей файлов](searching-for-existing-applications-files-registry-entries-or--ini-file-entries.md).
 
 ## <a name="validation"></a>Проверка
 

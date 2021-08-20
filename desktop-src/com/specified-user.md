@@ -4,12 +4,12 @@ description: Указанный пользователь
 ms.assetid: ec7684fb-a9f1-4ef2-a7d4-07caf24b6023
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: acce63aa502a8966cd0eb53c90dcca3c4454e80b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bc199409eb7496d4e2bb23d09a3ea5396606641fdfe33045197a8cea7852c9d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105700516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118104285"
 ---
 # <a name="specified-user"></a>Указанный пользователь
 
@@ -19,7 +19,7 @@ ms.locfileid: "105700516"
 
 Работа в качестве фиксированной учетной записи пользователя более безопасна, чем удостоверение интерактивного пользователя, поскольку это удостоверение может быть назначено приложению только тем, кто имеет пароль конкретного пользователя.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -35,9 +35,9 @@ ms.locfileid: "105700516"
 [Удостоверение службы](service-identity.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

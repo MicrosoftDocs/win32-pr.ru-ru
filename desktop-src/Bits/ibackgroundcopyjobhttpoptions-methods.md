@@ -4,12 +4,12 @@ description: Интерфейс Ибаккграундкопижобхттпоп
 ms.assetid: 08201A76-DA47-420F-B6DD-BDB5EF071554
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 11dc4175087b729db41e8229836e3162b93c2253
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 643bb9c051d89193feff7fc2627c6a2c18ca1383bcd443633fdadd48a6df512a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103773373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118010642"
 ---
 # <a name="ibackgroundcopyjobhttpoptions-methods"></a>Методы Ибаккграундкопижобхттпоптионс
 
@@ -26,9 +26,9 @@ ms.locfileid: "103773373"
 -   [**Метод Сеткустомхеадерс**](/windows/desktop/api/Bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setcustomheaders)
 -   [**Метод Сетсекуритифлагс**](/windows/desktop/api/Bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setsecurityflags)
 
- 
+ 
 
- 
+ 
 
 
 

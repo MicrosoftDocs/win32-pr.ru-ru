@@ -1,19 +1,19 @@
 ---
 title: Интерфейсы видео Direct3D
-description: В этом разделе перечислены интерфейсы видео Direct3D, доступные в Direct3D 9Ex и поддерживаемые в Windows 7 и более поздних версиях клиентских операционных систем Windows, а также в Windows Server 2008 R2 и более поздних версиях операционных систем Windows Server.
+description: в этом разделе перечислены интерфейсы видео direct3d, доступные в direct3d 9Ex, которые поддерживаются в Windows 7 и более поздних версиях Windows клиентских операционных системах и в Windows server 2008 R2 и более поздних версиях Windows серверных операционных систем.
 ms.assetid: 922AC983-B9C0-494C-BADD-CEF20931FC26
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95d20c86e172308d4be6f4c6218a110f49b033ee
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5b8c59882c85a0c9feba1c011f81def65744a86b4fb04a9f43683eba7a3c1a1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104487829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118099142"
 ---
 # <a name="direct3d-video-interfaces"></a>Интерфейсы видео Direct3D
 
-В этом разделе перечислены интерфейсы видео Direct3D, доступные в Direct3D 9Ex и поддерживаемые в Windows 7 и более поздних версиях клиентских операционных систем Windows, а также в Windows Server 2008 R2 и более поздних версиях операционных систем Windows Server. Вы можете использовать эти интерфейсы и их методы для получения возможностей защиты содержимого видео графического драйвера и аппаратных возможностей наложения устройства Direct3D. Вы также можете использовать эти интерфейсы и их методы для защиты видеосодержимого. Эти интерфейсы и их методы определены в D3d9. h и описаны в разделе [Microsoft Media Foundation](/windows/desktop/medfound/microsoft-media-foundation-sdk) .
+в этом разделе перечислены интерфейсы видео direct3d, доступные в direct3d 9Ex, которые поддерживаются в Windows 7 и более поздних версиях Windows клиентских операционных системах и в Windows server 2008 R2 и более поздних версиях Windows серверных операционных систем. Вы можете использовать эти интерфейсы и их методы для получения возможностей защиты содержимого видео графического драйвера и аппаратных возможностей наложения устройства Direct3D. Вы также можете использовать эти интерфейсы и их методы для защиты видеосодержимого. Эти интерфейсы и их методы определены в D3d9. h и описаны в разделе [Microsoft Media Foundation](/windows/desktop/medfound/microsoft-media-foundation-sdk) .
 
 
 
@@ -28,7 +28,7 @@ ms.locfileid: "104487829"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

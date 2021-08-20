@@ -12,12 +12,12 @@ keywords:
 - Неоднородный рациональный B-сплайн (НУРБС)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e0e56c06eea4e4a9a48f9062205277f8b999499
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: af6990d2292399cb1ccaf00ba6ec42d680c5ace887b2495daf8640db2da30ac5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104411125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118132413"
 ---
 # <a name="porting-nurbs-objects"></a>Перенос объектов НУРБС
 
@@ -33,7 +33,7 @@ OpenGL рассматривает НУРБС как объекты, аналог
 
 
 
- 
+ 
 
 При переносе кода IRI GL НУРБС в OpenGL следует учитывать следующие моменты:
 
@@ -43,9 +43,9 @@ OpenGL рассматривает НУРБС как объекты, аналог
 
 ??
 
- 
+ 
 
- 
+ 
 
 
 

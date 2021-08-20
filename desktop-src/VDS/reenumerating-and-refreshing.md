@@ -4,16 +4,16 @@ ms.assetid: 67d34946-47df-43e2-8ca7-628d0671b869
 title: Перечисление и обновление
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f4a6302c817390ea2eb6bda3d5da0302c4bfefbc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 42f19d28d44234b773988f3038666212caf447fb45dee39435b0d99169f92212
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118125924"
 ---
 # <a name="reenumerating-and-refreshing"></a>Перечисление и обновление
 
-\[Начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API управления хранилищами Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API Windows служба хранилища управления](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 Операция переперечисления находит только что подключенные и вновь Отключенные устройства. Операция обновления обновляет сведения о конфигурации существующих устройств.
 
@@ -37,7 +37,7 @@ ms.locfileid: "105693167"
 
 -   Вызовите метод [**ивдшвпровидер:: Refresh**](/windows/desktop/api/Vds/nf-vds-ivdshwprovider-refresh) , чтобы обновить кэш VDS сведений о существующих подсистемах, управляемых поставщиками оборудования VDS. Обратите внимание, что служба VDS автоматически обновляет кэш всякий раз, когда происходит изменение, запускающее уведомление. Кроме того, вызов [**обновления**](/windows/desktop/api/Vds/nf-vds-ivdsservice-refresh) в ответ на уведомление VDS может привести к отправке бесконечного цикла уведомлений. По этим причинам **Обновление** следует вызывать только в том случае, если кажется, что кэш не обновляется должным образом.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b4a5528424bbed10d1277c7d1fe750f6e86ea95b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: aa2fd8e1106eeb20a19b06949aa1f6e06238958a380011fcb8dbdf369dc69a65
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104072102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118011810"
 ---
 # <a name="print-number-up-attribute"></a>Print — атрибут-up
 
@@ -100,7 +100,7 @@ ms.locfileid: "104072102"
 | Идентификатор ссылки                | \-                                             |
 | MAPI-Id                | \-                                             |
 | System-Only            | Неверно                                          |
-| Является однозначным       | True                                           |
+| Является однозначным       | Верно                                           |
 | Индексируется             | Неверно                                          |
 | В глобальном каталоге      | Неверно                                          |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                   |

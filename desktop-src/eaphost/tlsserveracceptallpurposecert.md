@@ -4,12 +4,12 @@ description: Раздел реестра Тлссерверакцепталлп�
 ms.assetid: F0881397-5D8C-4C8F-8EB5-6D59454C55B7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c6561418d8d9cb06fb9618e6b93189cbd28e408
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: 804185773a948299aed3d8b8e2f581d8d8355d112720b66e860bd1f00b7fc3d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "105661675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118085756"
 ---
 # <a name="tlsserveracceptallpurposecert"></a>тлссерверакцепталлпурпосецерт
 
@@ -19,10 +19,10 @@ ms.locfileid: "105661675"
 
 ```
 HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Rasman\PPP\EAP\13
-   TlsServerAcceptAllPurposeCert = value
+   TlsServerAcceptAllPurposeCert = value
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это значение **reg \_ DWORD** .
 
@@ -35,20 +35,20 @@ HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Rasman\PPP\EAP\13
 
 
 
- 
+ 
 
 Если это значение реестра отсутствует, сервер и клиент принимают сертификаты всех целей, отправленные другой стороной для проверки подлинности EAP-TLS.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Параметры реестра EAPHost](eaphost-registry-settings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: Сообщение TB_MOVEBUTTON (Коммктрл. h)
 description: Перемещает кнопку из одного индекса в другой.
 ms.assetid: 030aedc5-2de5-4751-90b2-63794322f503
 keywords:
-- Элементы управления Windows для TB_MOVEBUTTON сообщений
+- элементы управления Windows сообщений TB_MOVEBUTTON
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8dac4cd303e895998b12e710910432ba2c38b230
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 857592f852b21d656be2a4ad5b59f691db9ac391f66960b98a70db138ea69f2b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118168044"
 ---
 # <a name="tb_movebutton-message"></a>\_Сообщение МОВЕБУТТОН ТБ
 
@@ -47,19 +47,19 @@ ms.locfileid: "104136810"
 
 Возвращает ненулевое значение в случае успеха или ноль в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
