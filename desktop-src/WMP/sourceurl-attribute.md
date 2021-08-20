@@ -3,7 +3,7 @@ title: Атрибут Саурцеурл
 description: Атрибут Саурцеурл является адресом элемента.
 ms.assetid: fcd47515-2b42-491d-98f1-48000056089e
 keywords:
-- Саурцеурл атрибут Windows Media Player
+- проигрыватель Windows Media атрибута саурцеурл
 topic_type:
 - apiref
 api_name:
@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e56dd294c733d00721d549185759a6a6759b2938
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: adba0a1ad16995f322fb31214477e368853351c39912d87469aededf0b09e42d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123054"
 ---
 # <a name="sourceurl-attribute"></a>Атрибут Саурцеурл
 
 Атрибут **саурцеурл** является адресом элемента.
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [Звуковые элементы](audio-item-attributes.md)
 -   [Другие элементы](other-item-attributes.md)
@@ -32,7 +32,7 @@ ms.locfileid: "105652139"
 -   [Элементы Радио](radio-item-attributes.md)
 -   [Элементы видео](video-item-attributes.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут хранится только в библиотеке.
 
@@ -44,11 +44,11 @@ ms.locfileid: "105652139"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

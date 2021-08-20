@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Msjter40.dll
-ms.openlocfilehash: 8a904a99577a6fa0fd6955f4c78906b470ea96b3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 39bd07b3ac75bed85ff26dd7f014420ebaca8be16d6f0195d40e9161c0905496
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669214"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118955763"
 ---
 # <a name="jeterridarawmessage-function"></a>Функция Жетерридаравмессаже
 
@@ -90,11 +90,11 @@ JET_ERR JetErrIDARawMessage(
 
 Если функция завершается успешно, она возвращает значение **Jet \_ еррсукцесс**; в противном случае возвращается неформатированное сообщение, указывающее конкретную причину сбоя.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция не имеет связанной библиотеки импорта или файла заголовка. его необходимо вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

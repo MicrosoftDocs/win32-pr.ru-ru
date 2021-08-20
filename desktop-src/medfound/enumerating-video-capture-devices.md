@@ -4,12 +4,12 @@ ms.assetid: b1267478-329b-4e46-a2ed-1ec11d2e2e6d
 title: Перечисление устройств видеозаписи
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57ccdbcf9df284cdccda09939d2d8a27174a2299
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 476c4b41e6f8913414200c7a811ba9625f2c4bc9cfea66875ec5f15b788bdc05
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104423538"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061624"
 ---
 # <a name="enumerating-video-capture-devices"></a>Перечисление устройств видеозаписи
 
@@ -25,7 +25,7 @@ ms.locfileid: "104423538"
 
 -   Вызовите метод [**имфактивате:: активатеобжект**](/windows/desktop/api/mfobjects/nf-mfobjects-imfactivate-activateobject) , чтобы получить указатель на интерфейс [**имфмедиасаурце**](/windows/desktop/api/mfidl/nn-mfidl-imfmediasource) .
 
-В следующем коде показаны следующие шаги.
+Следующий код показывает эти действия.
 
 
 ```C++
@@ -108,7 +108,7 @@ done:
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

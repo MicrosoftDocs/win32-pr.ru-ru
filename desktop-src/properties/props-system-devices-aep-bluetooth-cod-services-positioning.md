@@ -1,19 +1,19 @@
 ---
-description: Класс расположения службы устройства Bluetooth.
+description: класс Bluetooth позиционирования службы устройства.
 ms.assetid: 4183501e-d5a8-4b78-a419-98b7fa8e4fd6
-title: System. Devices. АЕП. Bluetooth. наложен. Services. Position
+title: System. Devices. АЕП. Bluetooth. Наложенный на. Services. позиционирование
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eea1a06322077b814ed1376943a0cb56496140e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 662a814e62ec2038a02e10a073303be79433fc8e383b3811cb0403dbd474f3f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119885914"
 ---
-# <a name="systemdevicesaepbluetoothcodservicespositioning"></a>System. Devices. АЕП. Bluetooth. наложен. Services. Position
+# <a name="systemdevicesaepbluetoothcodservicespositioning"></a>System. Devices. АЕП. Bluetooth. Наложенный на. Services. позиционирование
 
-Класс расположения службы устройства Bluetooth.
+класс Bluetooth позиционирования службы устройства.
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511"></a>Windows 10, версия 1703, Windows 10, версия 1607, Windows 10, версия 1511
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

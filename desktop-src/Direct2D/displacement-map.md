@@ -6,12 +6,12 @@ keywords:
 - результат распределения искривлений
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd0ad2deb0c584ccc9c55faebd60f803d66efa42
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 73888d8168e411bf0f8daee1f2e04801353ee8358d27ba4d5cc9b1f71630a762
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119833022"
 ---
 # <a name="displacement-map-effect"></a>Результат распределения искривлений
 
@@ -24,7 +24,7 @@ ms.locfileid: "104135186"
 -   [Цветовые каналы](#color-channels)
 -   [Битовая карта вывода](#output-bitmap)
 -   [Требования](#requirements)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="example-image"></a>Пример изображения
 
@@ -113,22 +113,22 @@ C "(x, y) = C (x + Scale \* (ксчаннелселектор (смещение 
 
 Выходное битовое изображение<sub>y</sub> пикселей = (размер входного рисунка<sub>y</sub>(DIP) + масштаб) \* (dpi пользователя/96)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента | Windows 8 и обновление платформы для \[ классических приложений Windows 7 \| приложения для Магазина Windows\] |
-| Минимальная версия сервера | Windows 8 и обновление платформы для \[ классических приложений Windows 7 \| приложения для Магазина Windows\] |
-| Header                   | d2d1effects. h                                                                      |
+| Минимальная версия клиента | Windows 8 и обновление платформы для Windows 7 \[ классических приложений \| Windows приложения магазина\] |
+| Минимальная версия сервера | Windows 8 и обновление платформы для Windows 7 \[ классических приложений \| Windows приложения магазина\] |
+| Заголовок                   | d2d1effects. h                                                                      |
 | Библиотека                  | D2D1. lib, дксгуид. lib                                                               |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

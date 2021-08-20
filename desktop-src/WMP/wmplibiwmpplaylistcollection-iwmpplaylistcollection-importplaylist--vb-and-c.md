@@ -3,9 +3,9 @@ title: Ивмпплайлистколлектион Импортплайлист
 description: Метод Импортплайлист добавляет статический список воспроизведения в библиотеку. | Ивмпплайлистколлектион Импортплайлист, метод
 ms.assetid: 7a64e618-920d-419d-8769-612ab5dff49b
 keywords:
-- Импортплайлист метод Windows Media Player
-- Импортплайлист метод проигрывателя Windows Media Player, интерфейс Ивмпплайлистколлектион
-- Интерфейс Ивмпплайлистколлектион Windows Media Player, метод Импортплайлист
+- проигрыватель Windows Media метода импортплайлист
+- проигрыватель Windows Media метода импортплайлист, интерфейс ивмпплайлистколлектион
+- проигрыватель Windows Media интерфейса ивмпплайлистколлектион, метод импортплайлист
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ad3ca727155d6ae859123d427812d93ebaa0b05c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3ee4c231a045b39454908753dc197c95e26d85c711968f07ab27dbd859c29c6f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122534"
 ---
 # <a name="iwmpplaylistcollectionimportplaylist-method"></a>Метод Ивмпплайлистколлектион:: Импортплайлист
 
@@ -64,7 +64,7 @@ Implements IWMPPlaylistCollection.importPlaylist
 
 Интерфейс **вмплиб. ивмпплайлист** для добавленного списка воспроизведения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Списки воспроизведения, которые не содержат элементов мультимедиа, не могут быть добавлены в библиотеку с помощью этого метода. Чтобы создать пустой список воспроизведения в библиотеке, используйте метод **невплайлист** . Затем можно заполнить итоговый список воспроизведения с помощью элементов мультимедиа, используя **ивмпплайлист. аппендитем** или **ивмпплайлист. insertItem**.
 
@@ -78,13 +78,13 @@ Implements IWMPPlaylistCollection.importPlaylist
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии.<br/>                                                                     |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии.<br/>                                                                     |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

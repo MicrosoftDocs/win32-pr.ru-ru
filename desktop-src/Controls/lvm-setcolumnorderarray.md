@@ -3,7 +3,7 @@ title: Сообщение LVM_SETCOLUMNORDERARRAY (Коммктрл. h)
 description: Устанавливает порядок столбцов слева направо в элементе управления "представление списка". Это сообщение можно отправить явным образом или использовать \_ макрос Сетколумнордераррай ListView.
 ms.assetid: 9b491832-42cc-4262-8f6c-23cbc2c889bf
 keywords:
-- Элементы управления Windows для LVM_SETCOLUMNORDERARRAY сообщений
+- элементы управления Windows сообщений LVM_SETCOLUMNORDERARRAY
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94fdeb27074a3f6762e7fb3788fd7ccc0a2dcc5f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9931a7d2c12da02f928c21727292d7d1ce4a430790660afb99ede4bf717c38c7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077304"
 ---
 # <a name="lvm_setcolumnorderarray-message"></a>\_Сообщение LVM сетколумнордераррай
 
@@ -47,15 +47,15 @@ ms.locfileid: "104071115"
 
 Возвращает ненулевое значение в случае успеха или ноль в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

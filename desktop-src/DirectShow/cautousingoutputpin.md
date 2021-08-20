@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b664267ce2ff0dbbeeba8bc74708c9c67e185ae4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 141c65507a0d983a2b4531b93617ed741e7403b8b2a5ead9c196f78dcf61acdf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118955383"
 ---
 # <a name="cautousingoutputpin-class"></a>Класс Каутаусингаутпутпин
 
@@ -40,7 +40,7 @@ ms.locfileid: "105669149"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При вызове определенных методов для [**кдинамикаутпутпин**](cdynamicoutputpin.md)вызывающий должен получить доступ к ПИН-коду, а затем освободить этот доступ. Для получения доступа вызывающий объект использует метод [**кдинамикаутпутпин:: стартусингаутпутпин**](cdynamicoutputpin-startusingoutputpin.md) . Чтобы освободить доступ, он вызывает метод [**кдинамикаутпутпин:: стопусингаутпутпин**](cdynamicoutputpin-stopusingoutputpin.md) . Класс **каутаусингаутпутпин** является вспомогательным классом, который обрабатывает эти задачи в конструкторе и методах деструктора. В следующем примере кода показано, как использовать этот класс:
 
@@ -71,18 +71,18 @@ HRESULT hr = S_OK;  // Important! Initialize to S_OK.
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Амфилтер. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>амфилтер. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: a4c306d8ea8cd08536cf259394cdd00010a22517
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c4afb51e1785e0e34822acdb0add5045d9183cb8b8a58ad040277dad5cebf7d8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104072244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892194"
 ---
 # <a name="span-idvspixengineresourcepairspanresourcepair-structure"></a><span id="vspixengine.resourcepair"></span>Структура Ресаурцепаир
 
@@ -43,9 +43,9 @@ ms.locfileid: "104072244"
 **value**  
 Строка COM, контианинг значение общего ресурса.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
 
  
 

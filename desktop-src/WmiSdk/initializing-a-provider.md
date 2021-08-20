@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Инициализация поставщика
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f14a724d72d5e5c58eff30f2fa61da64d77a493f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e373cf72d4715919a9d7fc59064d156e80a1f2371c585d698a7c6edff4f22fa5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103913368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097284"
 ---
 # <a name="initializing-a-provider"></a>Инициализация поставщика
 
@@ -47,7 +47,7 @@ ms.locfileid: "103913368"
 
     Инструментарий WMI освобождает указатель [**ивбемпровидеринит**](/windows/desktop/api/Wbemprov/nn-wbemprov-iwbemproviderinit) либо после того, как WMI получил указатель на основной интерфейс поставщика или после сбоя инициализации.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -1,6 +1,6 @@
 ---
-title: Запись потоков переменной скорости
-description: Запись потоков переменной скорости
+title: запись переменной скорости Потоки
+description: запись переменной скорости Потоки
 ms.assetid: 9eccde59-8342-44ad-90e6-032db022d7c5
 keywords:
 - Расширенный системный формат (ASF), написание потоков VBR
@@ -10,20 +10,20 @@ keywords:
 - потоки, запись VBR
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6981cbae04085c4bf4f771d9dd29e30752427cdc
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 694774613ada8b4be05eab55be3213898d423d3b6ac4438204d149a0bd606c90
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103788683"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119930263"
 ---
-# <a name="writing-variable-bit-rate-streams"></a>Запись потоков переменной скорости
+# <a name="writing-variable-bit-rate-streams"></a>запись переменной скорости Потоки
 
 Потоки с переменной скоростью (VBR) записываются так же, как потоки с постоянным битом потока (CBR). Единственное отличие заключается в обработке, выполняемой внутри модуля записи и кодеках. Однако скорость потока, основанная на скорости (как с ограниченными, так и с неограниченными), требует передачи предварительной обработки в модуль записи.
 
 Необходимо проверить возвращаемое значение для первого вызова, внесенного в [**ивмвритер:: вритесампле**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-writesample) для каждого потока. Если возвращен код ошибки NS \_ E \_ недопустимое \_ число \_ проходов, поток требует передачи предварительной обработки.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -33,9 +33,9 @@ ms.locfileid: "103788683"
 [**Запись файлов ASF**](writing-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

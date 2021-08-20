@@ -81,7 +81,7 @@ HRESULT SetMatrixTransposeArray(
 
 Если целевые матрицы меньше исходных матриц, то дополнительные компоненты исходных матриц будут игнорироваться.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -92,7 +92,7 @@ HRESULT SetMatrixTransposeArray(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

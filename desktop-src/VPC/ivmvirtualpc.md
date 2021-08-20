@@ -1,6 +1,6 @@
 ---
 title: Интерфейс Ивмвиртуалпк (Впккоминтерфацес. h)
-description: Определяет объект приложения для виртуальных ПК Windows верхнего уровня. Все остальные объекты интерфейса Virtual PC для Windows извлекаются через этот объект.
+description: определяет объект приложения верхнего уровня Windows приложении Virtual PC. все остальные Windows объекты интерфейса Virtual PC извлекаются через этот объект.
 ms.assetid: 519d3f1b-0a72-4c67-a2d9-124fda6c8b7a
 keywords:
 - Виртуальный ПК с интерфейсом Ивмвиртуалпк
@@ -15,18 +15,18 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d674fd1cbbe6c51881d15f91f0ebfb20f4f6749
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 69dd5eec832e95b2b93ff0fb0bee026428a937fa277f86ff14ef672bc66e0dd6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124654"
 ---
 # <a name="ivmvirtualpc-interface"></a>Интерфейс Ивмвиртуалпк
 
-\[Windows Virtual PC больше не доступна для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC больше не доступен для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
-Определяет объект приложения для виртуальных ПК Windows верхнего уровня. Все остальные объекты интерфейса Virtual PC для Windows извлекаются через этот объект.
+определяет объект приложения верхнего уровня Windows приложении Virtual PC. все остальные Windows объекты интерфейса Virtual PC извлекаются через этот объект.
 
 **Ивмвиртуалпк** может уведомлять клиентов о событиях с помощью исходящего интерфейса [**ивмвиртуалпцевентс**](ivmvirtualpcevents.md) .
 
@@ -86,14 +86,14 @@ ms.locfileid: "104071749"
 | [**максимумпараллелпортспервм**](ivmvirtualpc-maximumparallelportspervm.md)<br/>     | Только для чтения<br/>  | Максимальное количество параллельных портов на виртуальную машину.<br/>                                                                                  |
 | [**максимумсериалпортспервм**](ivmvirtualpc-maximumserialportspervm.md)<br/>         | Только для чтения<br/>  | Максимальное количество последовательных портов на одну виртуальную машину.<br/>                                                                                    |
 | [**минимуммеморипервм**](ivmvirtualpc-minimummemorypervm.md)<br/>                   | Только для чтения<br/>  | Минимальное допустимое количество физической памяти на виртуальную машину в мегабайтах.<br/>                                                       |
-| [**Имя**](ivmvirtualpc-name.md)<br/>                                               | Только для чтения<br/>  | Имя приложения Windows Virtual PC.<br/>                                                                                            |
-| [**сеарчпасс**](ivmvirtualpc-searchpaths.md)<br/>                                 | Чтение/запись<br/> | Пути файловой системы, используемые для поиска файлов, связанных с Windows Virtual PC.<br/>                                                      |
+| [**Имя**](ivmvirtualpc-name.md)<br/>                                               | Только для чтения<br/>  | имя приложения Windows Virtual PC.<br/>                                                                                            |
+| [**сеарчпасс**](ivmvirtualpc-searchpaths.md)<br/>                                 | Чтение/запись<br/> | пути файловой системы, используемые для поиска файлов, связанных с Windows Virtual PC.<br/>                                                      |
 | [**сугжестедмаксимуммеморипервм**](ivmvirtualpc-suggestedmaximummemorypervm.md)<br/> | Только для чтения<br/>  | Рекомендуемое максимально допустимое количество физической памяти на виртуальную машину в мегабайтах, чтобы избежать нехватки памяти на узле.<br/> |
-| [**Задания**](ivmvirtualpc-tasks.md)<br/>                                             | Только для чтения<br/>  | Коллекция задач.<br/>                                                                                                                     |
+| [**Операции**](ivmvirtualpc-tasks.md)<br/>                                             | Только для чтения<br/>  | Коллекция задач.<br/>                                                                                                                     |
 | [**унконнектеднетворкадаптерс**](ivmvirtualpc-unconnectednetworkadapters.md)<br/>   | Только для чтения<br/>  | Перечисляемая коллекция неподключенных сетевых интерфейсов.<br/>                                                                                |
-| [**Просто**](ivmvirtualpc-uptime.md)<br/>                                           | Только для чтения<br/>  | Количество секунд, в течение которых приложение Windows Virtual PC было запущено.<br/>                                                                 |
+| [**Просто**](ivmvirtualpc-uptime.md)<br/>                                           | Только для чтения<br/>  | количество секунд, в течение которых приложение Windows Virtual PC было запущено.<br/>                                                                 |
 | [**усбдевицеколлектион**](ivmvirtualpc-usbdevicecollection.md)<br/>                 | Только для чтения<br/>  | Перечисляемая коллекция всех USB-устройств, подключенных к узлу.<br/>                                                                         |
-| [**Версия**](ivmvirtualpc-version.md)<br/>                                         | Только для чтения<br/>  | Версия этого экземпляра Windows Virtual PC.<br/>                                                                                        |
+| [**Version**](ivmvirtualpc-version.md)<br/>                                         | Только для чтения<br/>  | версия данного экземпляра Windows Virtual PC.<br/>                                                                                        |
 | [**VirtualMachines**](ivmvirtualpc-virtualmachines.md)<br/>                         | Только для чтения<br/>  | Перечисляемая коллекция виртуальных машин.<br/>                                                                                              |
 | [**VirtualNetworks**](ivmvirtualpc-virtualnetworks.md)<br/>                         | Только для чтения<br/>  | Перечисляемая коллекция виртуальных сетей.<br/>                                                                                              |
 
@@ -107,11 +107,11 @@ ms.locfileid: "104071749"
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                    |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                     |
 | Окончание поддержки клиента<br/>    | Windows 7<br/>                                                                          |
 | Продукт<br/>                  | Windows Virtual PC<br/>                                                                 |
-| Header<br/>                   | <dl> <dt>Впккоминтерфацес. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Впккоминтерфацес. h</dt> </dl> |
 | IID<br/>                      | IID \_ ивмвиртуалпк определен как 236ba0d9-a24a-4292-A132-27c1421dfd01<br/>               |
 
 

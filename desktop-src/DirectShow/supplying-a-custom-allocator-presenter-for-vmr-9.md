@@ -4,12 +4,12 @@ ms.assetid: 61bb6b0d-25b5-481b-a241-74c6e421f109
 title: Предоставление пользовательского Allocator-Presenter для VMR-9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f004e119fc1cbfc167c2130852a4f59700706fcc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 21e5f87aaecf0b2e8576b60a2d0f6a8c74e60fcf0759a123015ded9136c079bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674337"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951723"
 ---
 # <a name="supplying-a-custom-allocator-presenter-for-vmr-9"></a>Предоставление пользовательского Allocator-Presenter для VMR-9
 
@@ -39,7 +39,7 @@ ms.locfileid: "105674337"
 -   В отличие от VMR-7, VMR-9 не предоставляет специальный эксклюзивный распределитель режима DirectDraw. Метод [**IVMRSurfaceAllocatorNotify9:: аллокатесурфацехелпер**](/previous-versions/windows/desktop/api/Vmr9/nf-vmr9-ivmrsurfaceallocatornotify9-allocatesurfacehelper) делает этот объект ненужным.
 -   Для видео с чередованием VMR-9 всегда переводится в режим чередования, прежде чем изображение будет представлено. Распределитель-выступающий больше не отвечает за дечередование образа перед его отображением.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f9970523811b49270906fc7abd686d48387ce51f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4cefdaa28d4331b1cc74c84de6b67d9d4d43336c90315c20bde8642ca9b9219c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105681929"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125394"
 ---
 # <a name="imstscax-interface"></a>Интерфейс Имстскакс
 
@@ -71,17 +71,17 @@ ms.locfileid: "105681929"
 | [**хоризонталскроллбарвисибле**](imstscax-horizontalscrollbarvisible.md)<br/> | Только для чтения<br/>  | Указывает, отображает ли элемент управления горизонтальную полосу прокрутки.<br/>                                           |
 | [**секуредсеттингс**](imstscax-securedsettings.md)<br/>                       | Только для чтения<br/>  | Указатель интерфейса [**имстсксекуредсеттингс**](imstscsecuredsettings-interface.md) .<br/>                          |
 | [**секуредсеттингсенаблед**](imstscax-securedsettingsenabled.md)<br/>         | Только для чтения<br/>  | Указывает, доступен ли интерфейс [**имстсксекуредсеттингс**](imstscsecuredsettings-interface.md) .<br/> |
-| [**Сервером**](imstscax-server.md)<br/>                                         | Чтение/запись<br/> | Имя сервера, к которому подключен текущий элемент управления.<br/>                                              |
+| [**Сервер**](imstscax-server.md)<br/>                                         | Чтение/запись<br/> | Имя сервера, к которому подключен текущий элемент управления.<br/>                                              |
 | [**стартконнектед**](imstscax-startconnected.md)<br/>                         | Чтение/запись<br/> | Указывает, будет ли элемент управления устанавливать соединение с сервером узла сеансов удаленных рабочих столов сразу после запуска.<br/>   |
 | [**Имен**](imstscax-username.md)<br/>                                     | Чтение/запись<br/> | Учетные данные имени пользователя для входа.<br/>                                                                                |
-| [**Версия**](imstscax-version.md)<br/>                                       | Только для чтения<br/>  | Номер версии текущего элемента управления.<br/>                                                                     |
+| [**Version**](imstscax-version.md)<br/>                                       | Только для чтения<br/>  | Номер версии текущего элемента управления.<br/>                                                                     |
 | [**вертикалскроллбарвисибле**](imstscax-verticalscrollbarvisible.md)<br/>     | Только для чтения<br/>  | Указывает, отображает ли элемент управления вертикальную полосу прокрутки.<br/>                                                  |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Дополнительные сведения о веб-подключение к удаленному рабочему столу см. в разделе [требования для веб-подключение к удаленному рабочему столу](requirements-for-remote-desktop-web-connection.md).
 
@@ -100,7 +100,7 @@ ms.locfileid: "105681929"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

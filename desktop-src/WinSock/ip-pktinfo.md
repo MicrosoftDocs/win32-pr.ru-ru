@@ -4,12 +4,12 @@ ms.assetid: C6246899-0220-4F88-B43B-CED1B1FF7DC3
 title: Параметр IP_PKTINFO Socket (Ws2ipdef. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a2134b31ead9efeb032b4ed72fcaedcd4cc9f67f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 56ba653b4ece11086706493b920e1ed650b66eecdd6e788a5edfe259cf9eb9f0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104343492"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097794"
 ---
 # <a name="ip_pktinfo-socket-option"></a>IP- \_ пктинфо сокета
 
@@ -103,8 +103,8 @@ int setsockopt(
 | <dl> <dt>**[WSANOTINITIALISED](windows-sockets-error-codes-2.md)**</dt> </dl> | Перед использованием этой функции должен быть выполнен успешный вызов [**сбой WSAStartup**](/windows/desktop/api/winsock/nf-winsock-wsastartup) .<br/>                                                                                                                                                     |
 | <dl> <dt>**[WSAENETDOWN](windows-sockets-error-codes-2.md)**</dt> </dl>             | Сбой сетевой подсистемы.<br/>                                                                                                                                                                                                               |
 | <dl> <dt>**[WSAEFAULT](windows-sockets-error-codes-2.md)**</dt> </dl>                 | Один из параметров *оптвал* или *оптлен* указывает на память, которая не находится в допустимой части адресного пространства пользователя. Эта ошибка также возвращается, если значение, на которое указывает параметр *оптлен* , меньше, чем размер значения **DWORD** .<br/> |
-| <dl> <dt>**[всаеинпрогресс](windows-sockets-error-codes-2.md)**</dt> </dl>       | Выполняется блокировка вызова Windows Sockets 1,1, или поставщик услуг все еще обрабатывает функцию обратного вызова.<br/>                                                                                                                            |
-| <dl> <dt>**[всаеинвал](windows-sockets-error-codes-2.md)**</dt> </dl>                 | Указан недопустимый аргумент. Эта ошибка возвращается, если параметр *уровня* неизвестен или недопустим. В Windows Vista и более поздних версиях эта ошибка также возвращается, если сокет находился в переходном состоянии.<br/>                                     |
+| <dl> <dt>**[всаеинпрогресс](windows-sockets-error-codes-2.md)**</dt> </dl>       | выполняется блокировка Windows сокеты 1,1, или поставщик услуг все еще обрабатывает функцию обратного вызова.<br/>                                                                                                                            |
+| <dl> <dt>**[всаеинвал](windows-sockets-error-codes-2.md)**</dt> </dl>                 | Указан недопустимый аргумент. Эта ошибка возвращается, если параметр *уровня* неизвестен или недопустим. в Windows Vista и более поздних версиях эта ошибка также возвращается, если сокет находился в переходном состоянии.<br/>                                     |
 | <dl> <dt>**[всаенопротупт](windows-sockets-error-codes-2.md)**</dt> </dl>       | Параметр неизвестен или не поддерживается указанным семейством протоколов. Эта ошибка возвращается, если параметр *типа* для дескриптора сокета, переданного в параметре *s* , не **Сокк \_ дграм** или **Сокк \_ RAW**. <br/>                          |
 | <dl> <dt>**[всаенотсокк](windows-sockets-error-codes-2.md)**</dt> </dl>             | Дескриптор не является сокетом.<br/>                                                                                                                                                                                                                 |
 
@@ -112,7 +112,7 @@ int setsockopt(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция [**жетсоккопт**](/windows/desktop/api/winsock/nf-winsock-getsockopt) , вызываемая с \_ параметром сокета IP пктинфо, позволяет приложению определить, должны ли сведения о пакете возвращаться функцией [**LPFN_WSARECVMSG (всареквмсг)**](/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg)для сокета IPv4.
 
@@ -128,19 +128,19 @@ int setsockopt(
 
 Обратите внимание, что заголовочный файл *Ws2ipdef. h* автоматически включается в *Ws2tcpip. h* и никогда не должен использоваться напрямую.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                                                |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                       |
-| Header<br/>                   | <dl> <dt>Ws2ipdef. h (включение Ws2tcpip. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                                                |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                       |
+| Заголовок<br/>                   | <dl> <dt>Ws2ipdef. h (включение Ws2tcpip. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

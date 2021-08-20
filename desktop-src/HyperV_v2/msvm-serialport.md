@@ -63,12 +63,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: bc9ff5e1ce4b0a750866a9957c0cffc4bc8501e9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 438d7017cdd6e56aa0ecaef00030d7ff4d0d61a5dea3c217d64eddec9d3019aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103910132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950613"
 ---
 # <a name="msvm_serialport-class"></a>\_Класс мсвм SerialPort
 
@@ -179,7 +179,7 @@ class Msvm_SerialPort : CIM_LogicalPort
 | Значение                                                                            | Значение                   |
 |----------------------------------------------------------------------------------|---------------------------|
 | <dl> <dt>1-6</dt> </dl> |                           |
-| <dl> <dt>6</dt> </dl>     | Не применимо<br/> |
+| <dl> <dt>6</dt> </dl>     | Н/Д<br/> |
 
 
 
@@ -202,7 +202,7 @@ class Msvm_SerialPort : CIM_LogicalPort
 
 | Значение                                                                        | Значение                   |
 |------------------------------------------------------------------------------|---------------------------|
-| <dl> <dt>6</dt> </dl> | Не применимо<br/> |
+| <dl> <dt>6</dt> </dl> | Н/Д<br/> |
 
 
 
@@ -223,7 +223,7 @@ class Msvm_SerialPort : CIM_LogicalPort
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -401,7 +401,7 @@ class Msvm_SerialPort : CIM_LogicalPort
 
 | Значение                                                                        | Значение                   |
 |------------------------------------------------------------------------------|---------------------------|
-| <dl> <dt>5</dt> </dl> | Не применимо<br/> |
+| <dl> <dt>5</dt> </dl> | Н/Д<br/> |
 
 
 
@@ -529,7 +529,7 @@ class Msvm_SerialPort : CIM_LogicalPort
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -681,7 +681,7 @@ class Msvm_SerialPort : CIM_LogicalPort
 
 | Значение                                                                        | Значение          |
 |------------------------------------------------------------------------------|------------------|
-| <dl> <dt>1</dt> </dl> | Другое<br/> |
+| <dl> <dt>1</dt> </dl> | Другие<br/> |
 
 
 
@@ -789,7 +789,7 @@ class Msvm_SerialPort : CIM_LogicalPort
 
 | Значение                                                                         | Значение                   |
 |-------------------------------------------------------------------------------|---------------------------|
-| <dl> <dt>12</dt> </dl> | Не применимо<br/> |
+| <dl> <dt>12</dt> </dl> | Н/Д<br/> |
 
 
 
@@ -937,25 +937,25 @@ class Msvm_SerialPort : CIM_LogicalPort
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Доступ к классу **мсвм \_ SerialPort** может быть ограничен фильтром контроля учетных записей. Дополнительные сведения см. в разделе [Управление учетными записями пользователей и инструментарий WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

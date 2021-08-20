@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2548e337f29778400bb173a8c15d928d7b06d988
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 62338280079ca5a3732ba3d72941fdb9b978720692b7211ae41612651f86387d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103989579"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022802"
 ---
 # <a name="alt-security-identities-attribute"></a>Атрибут "Alt-Security-identitys"
 
@@ -59,8 +59,8 @@ ms.locfileid: "103989579"
 | MAPI-Id                | \-                                                           |
 | System-Only            | Неверно                                                        |
 | Является однозначным       | Неверно                                                        |
-| Индексируется             | True                                                         |
-| В глобальном каталоге      | True                                                         |
+| Индексируется             | Верно                                                         |
+| В глобальном каталоге      | Верно                                                         |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                 |
 | Range-Lower            | \-                                                           |
 | Range-Upper            | \-                                                           |
@@ -80,8 +80,8 @@ ms.locfileid: "103989579"
 | MAPI-Id                | \-                                                           |
 | System-Only            | Неверно                                                        |
 | Является однозначным       | Неверно                                                        |
-| Индексируется             | True                                                         |
-| В глобальном каталоге      | True                                                         |
+| Индексируется             | Верно                                                         |
+| В глобальном каталоге      | Верно                                                         |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                 |
 | Range-Lower            | \-                                                           |
 | Range-Upper            | \-                                                           |
@@ -101,8 +101,8 @@ ms.locfileid: "103989579"
 | MAPI-Id                | \-                                                           |
 | System-Only            | Неверно                                                        |
 | Является однозначным       | Неверно                                                        |
-| Индексируется             | True                                                         |
-| В глобальном каталоге      | True                                                         |
+| Индексируется             | Верно                                                         |
+| В глобальном каталоге      | Верно                                                         |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                 |
 | Range-Lower            | \-                                                           |
 | Range-Upper            | \-                                                           |
@@ -122,8 +122,8 @@ ms.locfileid: "103989579"
 | MAPI-Id                | \-                                                           |
 | System-Only            | Неверно                                                        |
 | Является однозначным       | Неверно                                                        |
-| Индексируется             | True                                                         |
-| В глобальном каталоге      | True                                                         |
+| Индексируется             | Верно                                                         |
+| В глобальном каталоге      | Верно                                                         |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                 |
 | Range-Lower            | \-                                                           |
 | Range-Upper            | \-                                                           |
@@ -143,8 +143,8 @@ ms.locfileid: "103989579"
 | MAPI-Id                | \-                                                           |
 | System-Only            | Неверно                                                        |
 | Является однозначным       | Неверно                                                        |
-| Индексируется             | True                                                         |
-| В глобальном каталоге      | True                                                         |
+| Индексируется             | Верно                                                         |
+| В глобальном каталоге      | Верно                                                         |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                 |
 | Range-Lower            | \-                                                           |
 | Range-Upper            | \-                                                           |
@@ -164,8 +164,8 @@ ms.locfileid: "103989579"
 | MAPI-Id                | \-                                                           |
 | System-Only            | Неверно                                                        |
 | Является однозначным       | Неверно                                                        |
-| Индексируется             | True                                                         |
-| В глобальном каталоге      | True                                                         |
+| Индексируется             | Верно                                                         |
+| В глобальном каталоге      | Верно                                                         |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                 |
 | Range-Lower            | \-                                                           |
 | Range-Upper            | \-                                                           |

@@ -4,12 +4,12 @@ ms.assetid: 32a05150-a68a-4302-9983-b9c1269b368c
 title: Границы безопасности
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bfcfca8868677ba14c8544657aa77acf04262805
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 050be064c8a2fe3dc8eb81e2297e1699504f92ae7b8b4352d9b875dfc50e91a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047272"
 ---
 # <a name="security-boundaries"></a>Границы безопасности
 
@@ -43,7 +43,7 @@ ms.locfileid: "105701276"
 
 Кроме того, свойство безопасности не будет включено в контекст объекта. Это означает, что при использовании только проверок доступа на уровне процесса Настройка безопасности никогда не будет играть роль в способе активации объекта. Дополнительные сведения см. в разделе [свойство контекста безопасности](security-context-property.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

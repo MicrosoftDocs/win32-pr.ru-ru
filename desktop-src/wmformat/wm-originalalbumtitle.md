@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1197fe65492011da018630c6628df8bac593bcdb
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 8f7dfaa1daa79f4f3fb9d9188c4548677b22ed6a828f0953506324fcec4cdf4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104068852"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026992"
 ---
 # <a name="wmoriginalalbumtitle"></a>WM/Оригиналалбумтитле
 
@@ -31,16 +31,16 @@ g \_ всзвморигиналалбумтитле
 
 **\_Строка типа \_ ВМТ**
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [**Список атрибутов**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

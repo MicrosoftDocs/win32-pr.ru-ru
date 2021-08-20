@@ -43,7 +43,7 @@ Attributes.Item( _
 
 Объект [**атрибута**](attribute.md) , представляющий индексированный атрибут.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

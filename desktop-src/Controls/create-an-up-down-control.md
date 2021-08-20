@@ -1,34 +1,34 @@
 ---
 title: Создание элементов управления Up-Down
-description: Элементы управления "вверх-вниз" создаются путем вызова функции CreateWindowEx и передачи \_ класса значения для параметра класса Windows лпкласснаме.
+description: элементы управления "вверх-вниз" создаются путем вызова функции CreateWindowEx и передачи \_ класса значения для Windows параметра класса лпкласснаме.
 ms.assetid: 9B7A5F8B-4EE5-413B-A60C-800758DD1120
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 427361d7748270ad9c689867aa8100e95afbd6b0
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 0089941cd147f0c94dc86f2283fe2c8fa10ba5e141d4a8ef99d689a991668ce7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104134690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062964"
 ---
 # <a name="how-to-create-up-down-controls"></a>Создание элементов управления Up-Down
 
-Элементы управления "вверх-вниз" создаются путем вызова функции [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) и передачи [**\_ класса**](common-control-window-classes.md) значения для параметра класса Windows *лпкласснаме*.
+элементы управления "вверх-вниз" создаются путем вызова функции [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) и передачи [**\_ класса**](common-control-window-classes.md) значения для Windows параметра класса *лпкласснаме*.
 
-**Примечание**    . Функция [**креатеупдовнконтрол**](/windows/desktop/api/Commctrl/nf-commctrl-createupdowncontrol) является устаревшей. Вместо этого следует использовать `CreateWindowEx` функцию.
+**Примечание**   .   Функция [**креатеупдовнконтрол**](/windows/desktop/api/Commctrl/nf-commctrl-createupdowncontrol) является устаревшей. Вместо этого следует использовать `CreateWindowEx` функцию.
 
 В примере кода, приведенном в этом разделе, для обработки индикатора выполнения используется элемент управления "вверх-вниз".
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
@@ -105,7 +105,7 @@ icex.dwSize = sizeof(INITCOMMONCONTROLSEX);
 > [!Note]  
 > Достаточно инициализировать элемент **двсизе** только один раз, но необходимо вызывать функцию **InitCommonControlsEx** каждый раз при создании общего элемента управления.
 
- 
+ 
 
 ### <a name="step-4-create-a-parent-dialog-box-to-host-the-up-down-control"></a>Шаг 4. создание родительского диалогового окна для размещения элемента управления Up-Down
 
@@ -583,16 +583,16 @@ HWND CreateProgBar(HWND hwndParent)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Использование элементов управления Up-Down](using-up-down-controls.md)
 </dt> <dt>
 
-[Демонстрация стандартных элементов управления Windows (Кппвиндовскоммонконтролс)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[демонстрация Windows стандартных элементов управления (кппвиндовскоммонконтролс)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

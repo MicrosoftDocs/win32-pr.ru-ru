@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: febc9c79bdbc4a1ed1c14380af47f36309f12662
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0892f06b3fd5027939710be9ac74a2ae18c0dc0d712572d094b9a54fd6bb5b3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105682154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119888254"
 ---
 # <a name="gltexcoordpointer-function"></a>Функция Глтекскурдпоинтер
 
@@ -64,7 +64,7 @@ void WINAPI glTexCoordPointer(
 
 </dd> <dt>
 
-*указатель* 
+*вид* 
 </dt> <dd>
 
 Указатель на первую координату первого элемента в массиве.
@@ -89,7 +89,7 @@ void WINAPI glTexCoordPointer(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глтекскурдпоинтер** задает расположение и данные массива координат текстуры для использования при подготовке к просмотру. Параметр *size* задает количество координат, используемых для каждого элемента массива. Параметр *типа* задает тип данных для каждой координаты текстуры. Параметр *stride* определяет смещение в байтах от одного элемента массива к другому, позволяя упаковать вершин и атрибуты в одном массиве или хранилище в отдельных массивах. В некоторых реализациях хранение вершин и атрибутов в одном массиве может быть более эффективным, чем использование отдельных массивов. Дополнительные сведения см. в разделе [**глинтерлеаведаррайс**](glinterleavedarrays.md). Если задан массив координат текстуры, то размер, тип, шаг и указатель сохраняются в состоянии на стороне клиента.
 
@@ -115,7 +115,7 @@ void WINAPI glTexCoordPointer(
 
 [**глжетпоинтерв**](glgetpointerv.md) с аргументом **GL \_ текстура \_ курд \_ \_ указатель массива**
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -129,7 +129,7 @@ void WINAPI glTexCoordPointer(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

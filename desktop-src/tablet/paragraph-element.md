@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - windows.ui.xaml.documents.h
-ms.openlocfilehash: 2f246294c80814ec809c0a1ca035fcb4741c30c5
-ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
+ms.openlocfilehash: 877bede54ef714a011903424b1f323f004264affefedbcfae0ab44f2dcf58816
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111432236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119843404"
 ---
 # <a name="paragraph-element"></a>Элемент абзаца
 
@@ -32,13 +32,13 @@ ms.locfileid: "111432236"
 
 ## <a name="parent-elements"></a>Родительские элементы
 
-[**Содержани**](content-element--journal-reader.md)
+[**Содержимое**](content-element--journal-reader.md)
 
 [**граупноде**](groupnode-element.md)
 
 ## <a name="child-elements"></a>Дочерние элементы
 
-[**Штрих**](line-element.md)
+[**Линия**](line-element.md)
 
 [**параграфлинеметрикс**](paragraphlinemetrics-element.md)
 
@@ -73,7 +73,7 @@ ms.locfileid: "111432236"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

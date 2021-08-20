@@ -4,12 +4,12 @@ ms.assetid: 636b0ce8-cf08-4536-9b41-79512b02a066
 title: Событие WPCEVENT_WEB_URLVISIT (Впцевент. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b1075ae930cdaa9ee539dbc17a8c13d5c2a41add
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b9524909ee78d14395e2f208fe265b3abc31240d2036788b8b84c4fea05aac9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080744"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112704"
 ---
 # <a name="wpcevent_web_urlvisit-event"></a>\_Событие веб- \_ урлвисит впцевент
 
@@ -81,9 +81,9 @@ URL-адрес, который пытается открыть.
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                             |
-| Header<br/>                   | <dl> <dt>Впцевент. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Впцевент. h</dt> </dl> |
 
 
 

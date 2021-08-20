@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d4a77acdc81c06d1f78da8bbc0160bd0d21bcfd8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9bad1974233dade51f9c49d8508d3ad65f3dfc3f3a1bbb27a55bf4ea0828cc09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020432"
 ---
 # <a name="settcpwindowsize-method-of-the-win32_networkadapterconfiguration-class"></a>Метод Сетткпвиндовсизе \_ класса Win32 NetworkAdapterConfiguration
 
@@ -325,7 +325,7 @@ IPX не включен на адаптере.
 
 </dd> <dt>
 
-**Нет памяти**
+**Недостаточно памяти**
 </dt> <dd>
 
 92
@@ -404,7 +404,7 @@ DHCP не включен на адаптере.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В окне приема указывается число байтов, которое отправитель может передать без получения подтверждения. Как правило, увеличение скорости получения Windows повышает производительность сетей с высокой задержкой и высокой пропускной способностью. Для повышения эффективности окно приема должно быть четным, кратным максимальному размеру сегмента (MSS) TCP.
 
@@ -417,7 +417,7 @@ DHCP не включен на адаптере.
 
 В примере [изменения размера окна TCP для всех сетевых адаптеров](https://Gallery.TechNet.Microsoft.Com/74cf7be0-0044-4a88-85a3-9bc98490897b) VBScript задается размер окна TCP для всех сетевых адаптеров компьютера.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -433,7 +433,7 @@ DHCP не включен на адаптере.
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -59,12 +59,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0747f37cd5e85c62946c9b8e3a1587f736dd8af9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 58ce750f5f5dd9043648681558666df27528b22cdc7481426eca15fb0a5873a5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105681931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125503"
 ---
 # <a name="imstscadvancedsettingsdisablerdpdr-property"></a>Имстскадванцедсеттингс: свойство Исаблердпдр:D
 
@@ -95,7 +95,7 @@ HRESULT get_DisableRdpdr(
 
 При успешном выполнении возвращает значение **\_ ОК** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Дополнительные сведения о веб-подключение к удаленному рабочему столу см. в разделе [требования для веб-подключение к удаленному рабочему столу](requirements-for-remote-desktop-web-connection.md).
 
@@ -113,7 +113,7 @@ HRESULT get_DisableRdpdr(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

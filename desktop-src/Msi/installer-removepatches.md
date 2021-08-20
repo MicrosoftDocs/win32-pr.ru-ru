@@ -78,7 +78,7 @@ Installer.RemovePatches(
 
 Пример, демонстрирующий, как приложение может удалить исправление из всех доступных для пользователя продуктов, см. в разделе Удаление [исправлений](uninstalling-patches.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -90,7 +90,7 @@ Installer.RemovePatches(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

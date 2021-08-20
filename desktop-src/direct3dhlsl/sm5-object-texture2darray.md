@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f1aefa9171ed634934ea5e1306973fe3b22abdfa
-ms.sourcegitcommit: 5724b38883e518ac565e1b266defa85ad0941bb2
+ms.openlocfilehash: aab6e5c0a500a9f34cbd4e418a35e96687650f3df863e1fe77576c66ade718e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "104986160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120023404"
 ---
 # <a name="texture2darray"></a>Texture2DArray
 
@@ -42,7 +42,7 @@ ms.locfileid: "104986160"
 | [**Загрузить**](texture2darray-load.md)                                          | Считывает данные текстуры.                                                                                                                                 |
 | [**MIPS. Станции\[\]\[\]**](sm5-object-texture2darray-mipsoperatorindex.md) | Возвращает переменную ресурса, доступную только для чтения.                                                                                                                 |
 | [**Оператор\[\]**](sm5-object-texture2darray-operatorindex.md)              | Возвращает переменную ресурса, доступную только для чтения.                                                                                                                 |
-| [**Пример**](texture2darray-sample.md)                                      | Выбор текстуры.                                                                                                                                  |
+| [**Следующий**](texture2darray-sample.md)                                      | Выбор текстуры.                                                                                                                                  |
 | [**самплебиас**](texture2darray-samplebias.md)                              | Выбор текстуры после применения значения смещения к уровню mipmap.                                                                               |
 | [**самплекмп**](texture2darray-samplecmp.md)                                | Выбор текстуры с использованием значения сравнения для отклонения выборок.                                                                                      |
 | [**SampleCmpLevelZero**](texture2darray-samplecmplevelzero.md)              | Производит выборку текстуры (только mipmap уровень 0), используя значение сравнения для отклонения выборок.                                                                |
@@ -61,7 +61,7 @@ ms.locfileid: "104986160"
 
 | Модель шейдера                                                                | Поддерживается |
 |-----------------------------------------------------------------------------|-----------|
-| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | да       |
+| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | Да       |
 
 
 
@@ -79,7 +79,7 @@ ms.locfileid: "104986160"
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

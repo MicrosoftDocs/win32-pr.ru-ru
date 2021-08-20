@@ -1,5 +1,5 @@
 ---
-description: Метод класса WMI Сетвинссервер задает основной и дополнительный серверы Windows Internet Служба именования (WINS) в этом сетевом адаптере, привязанном к TCP/IP. Этот метод применяется независимо от сетевого адаптера.
+description: метод класса WMI сетвинссервер задает основной и дополнительный Windows серверы интернета Служба именования (WINS) в этом сетевом адаптере, привязанном к TCP/IP. Этот метод применяется независимо от сетевого адаптера.
 ms.assetid: fa8ce436-b67e-4975-a5c5-1a7d6aab4c8e
 ms.tgt_platform: multiple
 title: Метод Сетвинссервер класса Win32_NetworkAdapterConfiguration
@@ -14,16 +14,16 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 49bfb0103a7d9cbbd6ea3faa0e1a868bac7b0196
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9471684b3ca6032c846684bdf4a50dffbd0e2f455e4a887498fdcfe1f2a051ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020392"
 ---
 # <a name="setwinsserver-method-of-the-win32_networkadapterconfiguration-class"></a>Метод Сетвинссервер \_ класса Win32 NetworkAdapterConfiguration
 
-Метод  [класса WMI](/windows/desktop/WmiSdk/retrieving-a-class) сетвинссервер задает основной и дополнительный серверы Windows Internet служба именования (WINS) в этом сетевом адаптере, привязанном к TCP/IP. Этот метод применяется независимо от сетевого адаптера.
+метод  [класса WMI](/windows/desktop/WmiSdk/retrieving-a-class) сетвинссервер задает основной и дополнительный Windows серверы интернета Служба именования (WINS) в этом сетевом адаптере, привязанном к TCP/IP. Этот метод применяется независимо от сетевого адаптера.
 
 В этом разделе используется синтаксис MOF-файл (MOF). Дополнительные сведения об использовании этого метода см. [в разделе вызов метода](/windows/desktop/WmiSdk/calling-a-method).
 
@@ -343,7 +343,7 @@ IPX не включен на адаптере.
 
 </dd> <dt>
 
-**Нет памяти**
+**Недостаточно памяти**
 </dt> <dd>
 
 92
@@ -422,7 +422,7 @@ DHCP не включен на адаптере.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если для обоих *винспримарисервер* и *винссекондарисервер* задано значение "" (пустая строка), то явные WINS-серверы возвращаются обратно в службу DHCP.
 
@@ -452,7 +452,7 @@ Next
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -466,7 +466,7 @@ Next
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

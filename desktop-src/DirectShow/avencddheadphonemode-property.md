@@ -4,12 +4,12 @@ ms.assetid: f33259f4-bb96-4d6d-8d03-6975bc32e226
 title: Свойство Авенкддхеадфонемоде (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df75a6c726fc748e623ae9bded67ca6e1197b990
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b92b0c554bf7d6c1d6ef7c0fdd4ea1b51bf50d1beab444a8700777c3195487cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105682300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119690184"
 ---
 # <a name="avencddheadphonemode-property"></a>Авенкддхеадфонемоде, свойство
 
@@ -29,19 +29,19 @@ ms.locfileid: "105682300"
 
 Значение этого свойства является членом перечисления [**еавенкддхеадфонемоде**](/windows/desktop/api/codecapi/ne-codecapi-eavencddheadphonemode) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
-| Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Заголовок<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
