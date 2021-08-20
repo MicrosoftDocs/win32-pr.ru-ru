@@ -1,6 +1,6 @@
 ---
-description: Метод Shell. Windows — создает и возвращает объект Шеллвиндовс. Этот объект представляет коллекцию всех открытых окон, принадлежащих оболочке.
-title: Метод Shell. Windows (Шлдисп. h)
+description: Консоль. метод Windows — создает и возвращает объект шеллвиндовс. Этот объект представляет коллекцию всех открытых окон, принадлежащих оболочке.
+title: Метод Shell.Windows (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -13,14 +13,14 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: ffa6311c-8bbe-45c4-9b06-069779d2306d
-ms.openlocfilehash: bbe8ed55865322fc7436959fd80b478baa3c0b40
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: dbf87078cf5a05f5754d8e581eafbb0d3d68fc62166eb7a42a3cd3a54698b879
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109842615"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118047736"
 ---
-# <a name="shellwindows-method"></a>Shell. Windows, метод
+# <a name="shellwindows-method"></a>Консоль. метод Windows
 
 Создает и возвращает объект [**шеллвиндовс**](shellwindows.md) . Этот объект представляет коллекцию всех открытых окон, принадлежащих оболочке.
 
@@ -61,9 +61,9 @@ Shell.Windows() As IDispatch
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере **Windows** используется для получения объекта [**шеллвиндовс**](shellwindows.md) и отображает количество элементов, которые он содержит. Правильное использование показано в JScript, VBScript и Visual Basic.
+в следующем примере используется **Windows** для получения объекта [**шеллвиндовс**](shellwindows.md) и отображается количество содержащихся в нем элементов. правильное использование отображается для JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -132,13 +132,13 @@ End Sub
 
 
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                           |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                         |

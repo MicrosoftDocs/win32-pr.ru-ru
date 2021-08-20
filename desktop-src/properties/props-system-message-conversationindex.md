@@ -4,12 +4,12 @@ ms.assetid: 1bb9a0b7-b62c-403b-923d-59869ef2bf1c
 title: System. Message. Конверсатиониндекс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f2963897ce30eb52d16d11617586795766b82ec3
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 34dd11ac22555b283bdca81fdcf06a52bdf0348d3d8e8bec77c4be07164137f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108091902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118052926"
 ---
 # <a name="systemmessageconversationindex"></a>System. Message. Конверсатиониндекс
 
@@ -33,7 +33,7 @@ propertyDescription
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

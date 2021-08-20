@@ -4,16 +4,16 @@ description: Чарсперлине, свойство
 ms.assetid: 8493eb85-2c17-458d-8f1e-e76c978675a7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d61fc9954448f6a1ea528813f22ea41a9a20251
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: ca05023ac42ad899fea9a14914fec83ffc6d59852bd1e51db13b3074798e4887
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "105654305"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117694001"
 ---
 # <a name="charsperline-property"></a>Чарсперлине, свойство
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 <dl> <dt>
 
@@ -31,7 +31,7 @@ ms.locfileid: "105654305"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство возвращает среднее число символов (букв), отображаемых в тексте всплывающей подсказки в виде длинного целого числа. Значение можно задать с помощью свойства [**Style**](style-property.md) .
 
@@ -40,6 +40,6 @@ ms.locfileid: "105654305"
 [**Свойство Style**](style-property.md)
 
 
- 
+ 
 
- 
+ 

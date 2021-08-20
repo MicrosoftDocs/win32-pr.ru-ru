@@ -4,12 +4,12 @@ ms.assetid: a2725816-eea0-4e49-9134-8f6bcc00c72a
 title: System. Music. Контентграупдескриптион
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 694cdc9a788223f89a68d91e3d807d6ce79729bb
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 7e7511f948a7c0e9e7bcabae4b6eb40820e904458dbde714ea3f6a1fc95f8b3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108117432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118052653"
 ---
 # <a name="systemmusiccontentgroupdescription"></a>System. Music. Контентграупдескриптион
 
@@ -32,7 +32,7 @@ propertyDescription
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

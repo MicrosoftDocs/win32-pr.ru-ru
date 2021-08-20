@@ -4,12 +4,12 @@ ms.assetid: 38e3d462-ad70-4fde-b239-8fef0ab95656
 title: Прокси-сервер System. photo. Дигиталзум
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 281b40aa82f6b3222c35206e7405e31aeac62dca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa37ef22c13f89217e866120228e122f1e4989297c97f37c839a01d689362e1c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272830"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117667574"
 ---
 # <a name="systemphotodigitalzoom-proxy"></a>Прокси-сервер System. photo. Дигиталзум
 
@@ -39,7 +39,7 @@ VT \_ UI8
 
 Ловпарт Ухвал.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

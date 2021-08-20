@@ -5,12 +5,12 @@ ms.assetid: 399F5E91-B017-4F5E-9037-DC055407D96F
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2dad0da9f84d68fc1acbf53332d1cae4075f0faa
-ms.sourcegitcommit: 91110c16e4713ed82d7fb80562d3ddf40b5d76b2
+ms.openlocfilehash: c17645dd55a145a54bed2652624e90e76ab6763a94ca624ed604cca1a7570112
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "107492286"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117912210"
 ---
 # <a name="specifying-root-signatures-in-hlsl"></a>Определение корневых подписей в HLSL
 
@@ -287,7 +287,7 @@ fxc.exe /T rootsig_1_1 MyRS1.hlsl /E MyRS1 /Fo MyRS1.fxo
 
 
 
-| График | Командная строка                                                                 | Описание                                                                                                                                                                                                                              |
+| Линия | Командная строка                                                                 | Описание                                                                                                                                                                                                                              |
 |------|------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1    | `fxc /T ps_5_1 shaderWithRootSig.hlsl /Fo rs1.fxo`                           | Компилирует шейдер для целевого объекта шейдера Pixel 5,1, источник шейдера находится в файле Шадервисрутсиг. HLSL, который включает в себя корневую подпись. Шейдер и корневая подпись компилируются как отдельные большие двоичные объекты в двоичном файле RS1. фксо.    |
 | 2    | `fxc /dumpbin rs1.fxo /extractrootsignature /Fo rs1.rs.fxo`                  | Извлекает корневую подпись из файла, созданного в строке 1, поэтому файл RS1. RS. фксо содержит только корневую подпись.                                                                                                                      |

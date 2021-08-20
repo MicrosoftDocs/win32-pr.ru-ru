@@ -4,12 +4,12 @@ ms.assetid: f9868ad5-b6eb-45a3-99a3-8edec3a78636
 title: Методы Region. комплементарных
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: ec360aa718f697892ec58238341182228ed20139
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d37212b6aa2e1b3aca7a1c3dd356c00d52b9c3d9e91e615c49c9e9fa73f0ee32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104997610"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117697346"
 ---
 # <a name="regioncomplement-methods"></a>Методы Region. комплементарных
 

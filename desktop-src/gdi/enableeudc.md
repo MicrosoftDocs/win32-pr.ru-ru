@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Gdi32.dll
-ms.openlocfilehash: 755ce2e0a659593b17487e86e28f5d454e48122c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5767be62d23e992223500bf7192fc89efe04f03288280c73445378e083cc1613
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117699479"
 ---
 # <a name="enableeudc-function"></a>Функция Енаблиудк
 
@@ -52,15 +52,15 @@ BOOL EnableEUDC(
 
 Если функция выполняется неудачно, возвращается нулевое значение.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Если значение EUDC отключено, попытка отобразить символы EUDC приведет к отсутствующим или неправильным глифам.
 
 Во время нескольких сеансов эта функция влияет только на текущий сеанс.
 
-Рекомендуется использовать эту функцию в Windows XP с пакетом обновления 2 (SP2) или более поздней версии.
+рекомендуется использовать эту функцию с Windows XP с пакетом обновления 2 (SP2) или более поздней версии.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -1,17 +1,17 @@
 ---
 description: В примере в этом разделе показано, как использовать функции Rectangle. Он состоит из основной процедуры окна приложения, позволяющей пользователю перемещать и масштабировать точечный рисунок.
 ms.assetid: e8861240-9345-43e6-820d-d237247d1bd7
-title: Использование прямоугольников (Windows GDI)
+title: использование прямоугольников (Windows GDI)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6a93cfc456991bd903f98f2f5c0090d0d1db36b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 94313492222d2ca0a4cbffa99a565c2f82f66687764a06fa7c186ade41c03a0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999478"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117697886"
 ---
-# <a name="using-rectangles-windows-gdi"></a>Использование прямоугольников (Windows GDI)
+# <a name="using-rectangles-windows-gdi"></a>использование прямоугольников (Windows GDI)
 
 В примере в этом разделе показано, как использовать функции Rectangle. Он состоит из основной процедуры окна приложения, позволяющей пользователю перемещать и масштабировать точечный рисунок.
 

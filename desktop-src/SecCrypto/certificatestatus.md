@@ -73,7 +73,7 @@ ms.locfileid: "117770004"
 
 Объект **цертификатестатус** возвращается методом [**Certificate. IsValid**](certificate-isvalid.md) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -7,12 +7,12 @@ keywords:
 - Ипропертистораже Стрктд STG, реализации, различия
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 988f8a9cfdaca0a131bedf98cd8ff10ae8b89525
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cc30141d654665555fb8c98586365f213f0c1d3ac991ab838e23fe7b9c093240
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888183"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117962299"
 ---
 # <a name="differences-between-stand-alone-and-compound-file-implementations"></a>Различия между реализацией изолированного и составного файла
 
@@ -29,9 +29,9 @@ ms.locfileid: "103888183"
 
     В изолированной реализации клиент должен явным образом очистить буфер набора свойств путем вызова [**ипропертистораже:: Commit**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-commit) перед вызовом [**IStorage:: CopyTo**](/windows/desktop/api/Objidl/nf-objidl-istorage-copyto) или [**IStorage:: мовилементто**](/windows/desktop/api/Objidl/nf-objidl-istorage-moveelementto). Кроме того, клиент может использовать новое ПРОПСЕТФЛАГ \_ значение без буферизации для записи непосредственно в набор свойств вместо кэширования изменений в буфере набора свойств. Дополнительные сведения см. в разделе [**константы пропсетфлаг**](propsetflag-constants.md).
 
- 
+ 
 
- 
+ 
 
 
 

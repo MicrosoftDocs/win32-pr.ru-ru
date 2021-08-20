@@ -4,12 +4,12 @@ ms.assetid: d3a52d7d-f54d-40bc-b063-80885e3c9044
 title: Структуры служб внедрения шрифтов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed649fb550bf25643393e7998c4d5548fc3f138a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 668b84755794c2cdd8df6a616769b0b561f4f35729688354a8149e51562b8af0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103811950"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117699351"
 ---
 # <a name="font-embedding-services-structures"></a>Структуры служб внедрения шрифтов
 

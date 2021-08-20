@@ -4,12 +4,12 @@ ms.assetid: 66482541-63d4-439b-862f-7507605af5d8
 title: Атрибут MF_SESSION_CONTENT_PROTECTION_MANAGER (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c90321ae3c10fd7fa2ec39a4fb478e256291b049
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 753bd3e78be4d4996477cb597170c7a3396ae819766d3f4af9ac867055dd2dd1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117691594"
 ---
 # <a name="mf_session_content_protection_manager-attribute"></a>\_ \_ \_ Атрибут диспетчера защиты содержимого сеанса MF \_
 
@@ -17,11 +17,11 @@ ms.locfileid: "105712397"
 
 ## <a name="data-type"></a>Тип данных
 
-**IUnknown \** _
+**IUnknown\***
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Значение этого атрибута является указателем на интерфейс [_ *имфконтентпротектионманажер* *](/windows/desktop/api/mfidl/nn-mfidl-imfcontentprotectionmanager) приложения.
+Значение этого атрибута является указателем на интерфейс [**имфконтентпротектионманажер**](/windows/desktop/api/mfidl/nn-mfidl-imfcontentprotectionmanager) приложения.
 
 Установите этот атрибут в сеансе PMP с помощью параметра *пконфигуратион* функции [**мфкреатепмпмедиасессион**](/windows/desktop/api/mfidl/nf-mfidl-mfcreatepmpmediasession) .
 
@@ -33,13 +33,13 @@ ms.locfileid: "105712397"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                               |
-| Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                               |
+| Заголовок<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 50cb443a-15ae-4f8f-b5f7-b8708810a6c3
 title: Лайерпрефикс, элемент
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 98970013c72600affd7d4d9e7a71781f477cd87d
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 2a754b0fb7e6f90cd1a46fcaff3297a6c1d167c7c679fb596b22382a5287031c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107994701"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117920660"
 ---
 # <a name="layerprefix-element"></a>Лайерпрефикс, элемент
 
@@ -39,7 +39,7 @@ ms.locfileid: "107994701"
 
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Каждый сценарий генератора кода должен определить уникальную строку префикса для созданных модулей. Например, в сценариях с фреймами изображения используется префикс «ПФДЕМО».
 

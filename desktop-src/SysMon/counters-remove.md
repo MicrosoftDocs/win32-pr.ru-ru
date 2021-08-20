@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aa82a1a988be3554c265c097ba2a582035547391
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 77226d87c49fdfd2e9d8d26c2699bcb4606de29a21bf2bd20a12ad0b70d6daa4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117956656"
 ---
 # <a name="countersremove-method"></a>Метод Counters. Remove
 
@@ -65,7 +65,7 @@ Counters.Remove( _
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы удалить все счетчики из коллекции, можно вызвать [**системмонитор. Reset**](systemmonitor-reset.md).
 
@@ -81,11 +81,11 @@ Counters.Remove( _
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[**Счетчики**](counters.md)
+[**Counters**](counters.md)
 </dt> <dt>
 
 [**Системмонитор. Reset**](systemmonitor-reset.md)

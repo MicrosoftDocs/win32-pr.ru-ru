@@ -4,12 +4,12 @@ ms.assetid: 70b44f1e-06fc-4e7f-80cb-f9dd15891f75
 title: Свойство MFPKEY_DYN_BANDTRUNCATION (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 66a19b4671a57abe01ae9c5eb634a3c25bd90c93
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3a9a97a6a54cc5ea8d29251327c00d80b574b214fb090cf1fc10b8ea25ed4960
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117873511"
 ---
 # <a name="mfpkey_dyn_bandtruncation-property"></a>МФПКЭЙ \_ Дин \_ Бандтрункатион, свойство
 
@@ -23,18 +23,18 @@ ms.locfileid: "105708624"
 
 **Логическое значение VT \_**
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Клиент<br/> | Windows Vista или Windows 7<br/>                                                   |
-| Header<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 73ec52de-c74a-45b3-a453-7f32510b4484
 title: Свойство MFPKEY_ASFOVERHEADPERFRAME (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 208acf55871b18bb029279a27abd36a33ea8c79c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 481c99c50a305219d0548007755d6b6ba27239e39bef5cb47d61ff3d665dfa47
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117874090"
 ---
 # <a name="mfpkey_asfoverheadperframe-property"></a>МФПКЭЙ \_ асфоверхеадперфраме, свойство
 
@@ -27,23 +27,23 @@ VT \_ I4
 
 17
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если вы используете структуру файлов ASF, не изменяйте это значение по умолчанию. Если вы не храните данные в файле ASF, это значение необходимо задать равным 0.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
-| Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
+| Заголовок<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

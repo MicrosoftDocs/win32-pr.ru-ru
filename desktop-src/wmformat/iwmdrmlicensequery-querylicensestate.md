@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e101d4ad9b5405906d05ba5e5f230326a1a3f13a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 580a9bf635a7a817c63e990b0215bb6b124d468f2437ecc32a6e7d8e2ddc560c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694674"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117846824"
 ---
 # <a name="iwmdrmlicensequeryquerylicensestate-method"></a>Метод Ивмдрмлиценсекуери:: Куерилиценсестате
 
@@ -106,7 +106,7 @@ HRESULT QueryLicenseState(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Будет выполнен поиск и оценка всех лицензий, применимых к указанному ИДЕНТИФИКАТОРу ключа. Результаты суммируются, поэтому каждая структура **\_ \_ \_ данных состояния лицензии DRM** может содержать данные из нескольких лицензий.
 
@@ -116,12 +116,12 @@ HRESULT QueryLicenseState(
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Вмдрмсдк. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Вмдрмсдк. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>Вмдрмсдк. lib</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

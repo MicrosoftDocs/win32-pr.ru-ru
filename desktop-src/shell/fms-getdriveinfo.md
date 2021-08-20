@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Wfext.h
 ms.assetid: 14f8a90b-d0ed-4818-a719-8fc4ea617bef
-ms.openlocfilehash: 107e12e1076a2fc928ecb9b578ab01d64898a83a
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: a9225799eeb7d093d706dcb7063f998a2813eab4b2117e2ca776244e4fcf72a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109842235"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117679613"
 ---
 # <a name="fms_getdriveinfo-structure"></a>\_Структура FMS жетдривеинфо
 
@@ -98,7 +98,7 @@ typedef struct _FMS_GETDRIVEINFO {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
@@ -110,7 +110,7 @@ typedef struct _FMS_GETDRIVEINFO {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

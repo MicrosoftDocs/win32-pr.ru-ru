@@ -4,24 +4,24 @@ description: Порт 3 устарел для драйверов NDIS 6,30
 ms.assetid: 900BD08D-3EAF-43F3-A74A-359815474FAD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df0b4c7f6a33b179a14d3d7f8151d3850e16dd44
-ms.sourcegitcommit: ea4baf9953a78d2d6bd530b680601e39f3884541
+ms.openlocfilehash: 47d51c8b4b894c6edaa8b1ca6b1f99e881c67e025cf83dc86d4c1dfc509c4bd2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "104488409"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117671937"
 ---
 # <a name="port-3-is-deprecated-for-ndis-630-drivers"></a>Порт 3 устарел для драйверов NDIS 6,30
 
 ## <a name="platforms"></a>Платформы
 
-**Клиенты** — Windows 8  
-**Серверы** — Windows Server 2012  
+**клиенты** — Windows 8  
+**серверы** — Windows Server 2012  
 
 
 ## <a name="description"></a>Описание
 
-Windows 8 устраняет поддержку платформы для драйверов WLAN минипорта NDIS для создания или запуска порта расширяемости IHV (также известного как третий порт). Эта функция появилась в Windows 7 как мера промежуточного, а Wi-Fi Alliance (ВФА) разработала спецификацию Wi-Fi Direct. Теперь спецификация завершена, продукты, использующие Wi-Fi Direct, сертифицированы, а в Windows 8 появился собственный стек Wi-Fi Direct.
+Windows 8 удаляет поддержку платформы для драйверов WLAN минипорта NDIS для создания или запуска порта расширяемости IHV (также известного как третий порт). эта функция появилась в Windows 7 как мера промежуточного, а Wi-Fi Alliance (вфа) разработала спецификацию Wi-Fi Direct. теперь спецификация завершена, продукты, использующие Wi-Fi direct, являются сертифицированными, а Windows 8 вводит собственный Wi-Fi прямого стека.
 
 ## <a name="manifestation"></a>Проявление
 
@@ -31,9 +31,9 @@ Windows 8 устраняет поддержку платформы для дра
 
 Функция порта расширяемости доступна для существующих драйверов, не сообщающих NDIS 6,30 для обеспечения совместимости устройств. Однако новые драйверы WLAN, сообщающие о выпуске NDIS 6,30, не смогут запустить этот порт. Вместо этого разработчики этих драйверов должны использовать Wi-Fi Direct.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -6,12 +6,12 @@ keywords:
 - ILockBytes Стрктд STG, реализации, на основе файлов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93dfe09ab0157d2d24d81b7bb2798e984d3848f4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0f3dcfd11562f6a023d1f77af44b51ff7016cb61afdb16f2e4d72f81114fc132
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117961813"
 ---
 # <a name="ilockbytes---file-based-implementation"></a>Реализация ILockBytes-File-Based
 
@@ -21,7 +21,7 @@ ms.locfileid: "104410697"
 
 Методы [**ILockBytes**](/windows/desktop/api/Objidl/nn-objidl-ilockbytes) вызываются из составных реализаций файлов класса [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) и [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream) для объекта хранилища составных файлов, созданного с помощью вызова [**стгкреатедокфиле**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatedocfile), поэтому вам не нужно вызывать их напрямую.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Ниже приведены методы реализации File-Based [**ILockBytes**](/windows/desktop/api/Objidl/nn-objidl-ilockbytes) .
 
@@ -76,7 +76,7 @@ ms.locfileid: "104410697"
 
 </dd> </dl>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -89,9 +89,9 @@ ms.locfileid: "104410697"
 [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

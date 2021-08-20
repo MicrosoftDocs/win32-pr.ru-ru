@@ -4,12 +4,12 @@ ms.assetid: 36a09696-3fe7-41a0-93f1-712220f88b04
 title: Атрибут MFT_PREFERRED_OUTPUTTYPE_Attribute (Мфтрансформ. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 13cd079bee65f5324987d9b38dca845ec5b85f83
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3ec39f95182b9070aa442c20719d88801ea944e77d1d49ea67d8320c130610fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103898725"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117688907"
 ---
 # <a name="mft_preferred_outputtype_attribute-attribute"></a>\_ \_ Атрибут атрибута OUTPUTTYPE, предпочтительный для MFT \_
 
@@ -17,11 +17,11 @@ ms.locfileid: "103898725"
 
 ## <a name="data-type"></a>Тип данных
 
-**[](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes) Имфаттрибутес \** _ хранится как _*IUnknown \**_
+**[**Имфаттрибутес**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes) \* *_ хранится как _* IUnknown\***
 
 ## <a name="getset"></a>Get/Set
 
-Чтобы получить этот атрибут, вызовите [_ *имфаттрибутес:: ununknown* *](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getunknown).
+Чтобы получить этот атрибут, вызовите [**имфаттрибутес:: ununknown**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getunknown).
 
 Чтобы задать этот атрибут, вызовите [**имфаттрибутес:: сетункновн**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setunknown).
 
@@ -29,7 +29,7 @@ ms.locfileid: "103898725"
 
 [**имфактивате**](/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут может быть задан для объекта активации, возвращаемого функцией [**мфкреатетрансформактивате**](/windows/desktop/api/mftransform/nf-mftransform-mfcreatetransformactivate) . Атрибут применяется только в том случае, если объект активации настроен для создания кодировщика. Значением атрибута является тип мультимедиа. Объект активации задает этот тип выходных данных для кодировщика.
 
@@ -41,13 +41,13 @@ ms.locfileid: "103898725"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 7 \|\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 R2 \|\]<br/>                           |
-| Header<br/>                   | <dl> <dt>Мфтрансформ. h</dt> </dl> |
+| Минимальная версия клиента<br/> | \[приложения UWP для классических приложений Windows 7 \|\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для настольных приложений Server 2008 R2 \|\]<br/>                           |
+| Заголовок<br/>                   | <dl> <dt>Мфтрансформ. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

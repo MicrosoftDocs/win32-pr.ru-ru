@@ -17,12 +17,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: a166f1d0dfa7f027058be65c3371d5c055cdb7bd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 16fb08d020dcd59ed7caf22a0e93f4a4866b58642f12d0c131f3f0368bd3e7e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665454"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117769655"
 ---
 # <a name="ichain2certificates-property"></a>Свойство IChain2:: Certificates
 

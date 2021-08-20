@@ -4,16 +4,16 @@ ms.assetid: 70f23d93-2bca-419b-9de7-e52ce4fb1350
 title: Расшифровка сообщения в CAPICOM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba984bad7d9289eaf89725e9598a4330f16b49ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 744878378fbe2791e66151e451029be8adde2435b451d540196a1082c4e005f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105647357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117767762"
 ---
 # <a name="decrypting-a-message-in-capicom"></a>Расшифровка сообщения в CAPICOM
 
-\[CAPICOM — это 32-разрядный компонент, доступный для использования в следующих операционных системах: Windows Server 2008, Windows Vista и Windows XP. Вместо этого используйте платформа .NET Framework для реализации функций безопасности. Дополнительные сведения см. [в разделе альтернативы использованию элемента CAPICOM](alternatives-to-using-capicom.md).\]
+\[CAPICOM — это 32-разрядный компонент, доступный для использования в следующих операционных системах: Windows Server 2008, Windows Vista и Windows XP. вместо этого используйте платформа .NET Framework для реализации функций безопасности. Дополнительные сведения см. [в разделе альтернативы использованию элемента CAPICOM](alternatives-to-using-capicom.md).\]
 
 Эта подпрограммы принимает строку пароля, которая используется для создания ключа шифрования сеанса, и имя файла, из которого будет прочитано зашифрованное сообщение. Все параметры передаются в подпрограммы по значениям.
 

@@ -4,12 +4,12 @@ description: Модуль — это исполняемый файл или DLL.
 ms.assetid: e15b5e15-ca06-4733-bd0a-705058ba2db8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1625877832b7e57e68ec6baff79f0c34b4478176
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: bb2d2faeabd087c6926bbd4f3b12a024dc7f7591fa17572844ac3e222626dfbb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118051806"
 ---
 # <a name="module-information"></a>Информация модуля
 
@@ -19,13 +19,13 @@ ms.locfileid: "104413069"
 
 **Получение сведений о модуле из другого процесса**
 
-1.  Вызовите функцию [**жетмодулебасенаме**](/windows/desktop/api/Psapi/nf-psapi-getmodulebasenamea) . Эта функция принимает обработчик процесса и модуль в качестве входных данных и заполняет буфер базовым именем модуля (например, Kernel32.dll). Связанная функция [**жетмодулефиленамикс**](/windows/desktop/api/Psapi/nf-psapi-getmodulefilenameexa)принимает те же параметры, что и входные данные, но возвращает полный путь к модулю (например, C: \\ Windows \\ system32 \\Kernel32.dll).
+1.  Вызовите функцию [**жетмодулебасенаме**](/windows/desktop/api/Psapi/nf-psapi-getmodulebasenamea) . Эта функция принимает обработчик процесса и модуль в качестве входных данных и заполняет буфер базовым именем модуля (например, Kernel32.dll). связанная функция [**жетмодулефиленамикс**](/windows/desktop/api/Psapi/nf-psapi-getmodulefilenameexa)принимает те же параметры, что и входные данные, но возвращает полный путь к модулю (например, C: \\ Windows \\ System32 \\Kernel32.dll).
 2.  Вызовите функцию [**жетмодулеинформатион**](/windows/desktop/api/Psapi/nf-psapi-getmoduleinformation) . Эта функция принимает обработчик процесса и модуль и заполняет структуру [**MODULEINFO**](/windows/desktop/api/Psapi/ns-psapi-moduleinfo) с помощью адреса загрузки модуля, размера занимаемого им линейного адресного пространства и указателя на точку входа.
 
 Если приложению требуются сведения о модуле для текущего процесса, вместо функций модуля PSAPI следует использовать функцию [**GetModuleFileName**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulefilenamea) . Это помогает повысить производительность приложения двумя способами: функция **GetModuleFileName** более эффективна, чем функции модуля PSAPI, и приложение может избежать загрузки psapi.dll, если не использует какие-либо функции PSAPI.
 
 Функции [**жетмодулебасенаме**](/windows/desktop/api/Psapi/nf-psapi-getmodulebasenamea) и [**жетмодулефиленамикс**](/windows/desktop/api/Psapi/nf-psapi-getmodulefilenameexa) в основном предназначены для использования отладчиками и аналогичными приложениями, которые должны извлекать сведения о модулях из другого процесса. Если список модулей в целевом процессе поврежден или еще не инициализирован, или если список модулей изменяется во время вызова функции в результате загрузки или выгрузки библиотек DLL, эти функции могут завершиться ошибкой или возвращать неверные данные.
 
- 
+ 
 
- 
+ 

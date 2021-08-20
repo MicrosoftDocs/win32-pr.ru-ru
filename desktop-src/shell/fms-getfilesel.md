@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Wfext.h
 ms.assetid: d8339f87-ba05-40bf-b7d1-a9de29eb15a4
-ms.openlocfilehash: b1188840299a101081c5c29d0e5658963ca7a72e
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 4a57aa2063af14c90cf73a21ab9331442b889aada1c979a52ff986fe92676acc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109842225"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117679603"
 ---
 # <a name="fms_getfilesel-structure"></a>\_Структура FMS жетфилесел
 
@@ -86,7 +86,7 @@ typedef struct _FMS_GETFILESEL {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
@@ -98,7 +98,7 @@ typedef struct _FMS_GETFILESEL {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

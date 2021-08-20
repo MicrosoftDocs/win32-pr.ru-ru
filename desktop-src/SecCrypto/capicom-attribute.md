@@ -40,7 +40,7 @@ ms.locfileid: "117772820"
 
 Тип **перечисления \_ атрибутов CAPICOM** используется свойством [**Attribute.Name**](attribute-name.md) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

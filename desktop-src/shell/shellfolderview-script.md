@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 86926f2013dd78c2c6685163ae78f890c337a251
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 96f6c5a852f76742b5fa1d57e5529b342aa80e3f1aff6f920e6862b398546154
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104266170"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118047564"
 ---
 # <a name="shellfolderviewscript-property"></a>Шеллфолдервиев. script, свойство
 
-\[Это свойство не поддерживается в Windows XP и более поздних версиях.\]
+\[это свойство не поддерживается в Windows XP и более поздних версиях.\]
 
 Содержит объект скрипта для представления.
 
@@ -47,7 +47,7 @@ objScript = ShellFolderView.Script
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                           |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                         |

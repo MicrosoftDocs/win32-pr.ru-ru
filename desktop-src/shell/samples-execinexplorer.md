@@ -1,5 +1,5 @@
 ---
-description: Демонстрирует вызов функции ShellExecute из процесса проводника Windows.
+description: демонстрирует вызов функции ShellExecute из процесса Windows Explorer.
 title: 'Пример: выполнение операции в проводнике'
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 7a511f7ccc7edd218edd405de163501afd530f46
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a81255ae34d5e05691f4b226dc3882c884771de30e52985d6432879ab2837cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104985585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118049010"
 ---
 # <a name="execute-in-explorer-sample"></a>Пример: выполнение операции в проводнике
 
-Демонстрирует вызов функции [**ShellExecute**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea) из процесса проводника Windows. Это полезно при запуске непривилегированного процесса из процесса с повышенными правами.
+демонстрирует вызов функции [**ShellExecute**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea) из процесса Windows Explorer. Это полезно при запуске непривилегированного процесса из процесса с повышенными правами.
 
 В этом разделе содержатся следующие подразделы.
 
@@ -34,7 +34,7 @@ ms.locfileid: "104985585"
 | Продукт                                | Минимальная версия продукта |
 |----------------------------------------|-------------------------|
 | Windows                                | Windows Vista           |
-| Windows SDK | 7.0                     |
+| Windows SDK | 7,0                     |
 
 
 

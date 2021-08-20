@@ -4,12 +4,12 @@ ms.assetid: 047439EA-789B-41CF-87C2-66CFB3F20908
 title: Константы SID контейнера приложений (Winnt. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 300b5ed110bbdc88d32efb76b20f5ec0f8454970
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 53659e72a816661f0a9a85cb2efe74e49a5b1eb27d6974302fe60b90d242f94b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105651012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117784747"
 ---
 # <a name="app-container-sid-constants"></a>Константы SID контейнера приложений
 
@@ -24,8 +24,8 @@ ms.locfileid: "105651012"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                         |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                               |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                         |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Файл Winnt. h</dt> </dl> |
 
 

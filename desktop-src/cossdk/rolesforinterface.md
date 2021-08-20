@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 60c52e3cb48adc0ed52ef10bd9e0a73e716fabfc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 296a024f81973436898b5e7ca226467583b0ba103d6ceff9fb74d9fe330e626c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105710699"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117915955"
 ---
 # <a name="rolesforinterface-collection"></a>Коллекция Ролесфоринтерфаце
 
@@ -45,7 +45,7 @@ ms.locfileid: "105710699"
 
 Объект [**комадминкаталогобжект**](comadmincatalogobject.md) в коллекции поддерживает следующие свойства:
 
--   [Name](#name)
+-   [Имя](#name)
 
 ### <a name="name"></a>Имя
 
@@ -53,8 +53,8 @@ ms.locfileid: "105710699"
 
 | Ввод | Значение |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Описание    | Имя роли. Уже должна быть назначена приложению роли (отображается в коллекции ролей). Лишние пробелы в начале и конце строки удаляются. Это свойство возвращается при вызове метода свойства [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) или [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) для объекта этой коллекции. |
-| Access         | Флагом writeonce                                                                                                                                                                                                                                                                                                                                           |
+| Описание:    | Имя роли. Уже должна быть назначена приложению роли (отображается в коллекции ролей). Лишние пробелы в начале и конце строки удаляются. Это свойство возвращается при вызове метода свойства [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) или [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) для объекта этой коллекции. |
+| Доступ         | Флагом writeonce                                                                                                                                                                                                                                                                                                                                           |
 | Тип           | Строка                                                                                                                                                                                                                                                                                                                                              |
 | По умолчанию        | "Создать роль"                                                                                                                                                                                                                                                                                                                                          |
 | Минимальная система | Windows 2000                                                                                                                                                                                                                                                                                                                                        |
@@ -63,7 +63,7 @@ ms.locfileid: "105710699"
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

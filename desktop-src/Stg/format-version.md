@@ -4,12 +4,12 @@ description: Значение версии формата — это тип да
 ms.assetid: 38362a45-4f49-4a85-aabe-452ff32c2812
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 503019a3bfe3224e4137ac3bfd43fadbe1e15a3c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 048d85e25da227bd5256ea9aee57443fff145ed4d29775e0abd888a959663e1c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104533278"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117961931"
 ---
 # <a name="format-version"></a>Версия формата
 
@@ -21,6 +21,6 @@ ms.locfileid: "104533278"
 -   **Длинные имена свойств**. Наборы свойств версии 1, в отличие от наборов свойств версии 0, не ограничиваются длиной имен свойств. Дополнительные сведения о именах свойств см. в разделе [свойство с идентификатором 0](/windows/desktop/Stg/reserved-property-identifiers) .
 -   **Типы свойств**. Наборы свойств версии 1 могут содержать все типы свойств, которые могут храниться в наборе свойств версии 0, а также некоторые дополнительные типы. Дополнительные сведения об этих типах см. в разделе Структура [**пропвариант**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) .
 
- 
+ 
 
- 
+ 

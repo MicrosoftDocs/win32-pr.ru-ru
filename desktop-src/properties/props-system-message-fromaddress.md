@@ -4,12 +4,12 @@ ms.assetid: 9f28141e-e795-4740-891b-cd8226481da7
 title: System. Message. Фромаддресс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c0326e41cc812d610a4d0213cd7c3290102278f4
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: bb7bba5ce4afe4882a6aec9e2368ceace43cbe315ca9835612b8103e00a56720
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108097372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118052896"
 ---
 # <a name="systemmessagefromaddress"></a>System. Message. Фромаддресс
 
@@ -33,7 +33,7 @@ propertyDescription
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

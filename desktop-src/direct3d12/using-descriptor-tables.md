@@ -5,12 +5,12 @@ ms.assetid: 4ECEC07A-7ABC-4C5F-B23C-36F0D92643FE
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e589274fbb93e48e4d65e545a62999e654b7688f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 08f94c83adb655e9d2d13ba3f482aa225a5021a18dbd8fcecb165ad13df47b4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "74104336"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117911928"
 ---
 # <a name="using-descriptor-tables"></a>Использование таблиц дескрипторов
 
@@ -50,9 +50,9 @@ ms.locfileid: "74104336"
 [Таблицы дескрипторов](descriptor-tables.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

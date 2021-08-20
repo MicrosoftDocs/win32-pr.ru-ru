@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 62c50ac6a8f053039e819e8aacfcbb2c8ef4d47d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 831dae379d1e37cb59f63517ef178bb888ffe5794abce4bc948b89cf78d0abb5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104985829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117677922"
 ---
 # <a name="aero-wizards-sample"></a>Пример: мастеры Aero
 
