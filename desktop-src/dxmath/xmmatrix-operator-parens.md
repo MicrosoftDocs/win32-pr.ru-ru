@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 900af391208505d862bc1861534c8e3f1c34faf1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 085f2c66fb00b48dd98bf055e8e573fbc158f19cbec355d82e4fd93ccae5831c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118087302"
 ---
 # <a name="xmmatrix-operator--operators"></a>Операторы КСММАТРИКС operator ()
 
@@ -63,7 +63,7 @@ ms.locfileid: "105701844"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

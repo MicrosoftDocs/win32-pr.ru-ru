@@ -28,12 +28,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ef6a2820e0ca12552cb766536fd2ce703a6d95e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 453eb70ad2e4a7b9437442bb9481be4c59e18aabfa434adc1f1f67db0571510e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104264769"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118071686"
 ---
 # <a name="retrievekeygrbit-enumeration"></a>Перечисление Ретриевекэйгрбит
 
@@ -84,7 +84,7 @@ public enum RetrieveKeyGrbit
 </table>
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

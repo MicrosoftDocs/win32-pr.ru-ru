@@ -1,5 +1,5 @@
 ---
-description: Используется для сценариев, требующих проверки подлинности 802.1 X перед входом в Windows.
+description: используется для сценариев, требующих проверки подлинности 802.1 x перед Windows входа в систему.
 ms.assetid: 76c8d416-3912-41b1-ac9d-3e6e86a76ceb
 title: Пример профиля с одним Sign-On
 ms.topic: article
@@ -9,22 +9,22 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 077ed95095150e81ad9a3d7412d1940dcb1b33e2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f89f7e9c39123cd7bf55c8bc48ff69d007d150c086714c82c37619c477dd25b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117797963"
 ---
 # <a name="single-sign-on-profile-sample"></a>Пример профиля с одним Sign-On
 
-Образец профиля единого входа (SSO) можно использовать для сценариев, требующих проверки подлинности 802.1 X перед входом в Windows.
+образец профиля единого входа (SSO) можно использовать для сценариев, требующих проверки подлинности 802.1 x перед Windows входа.
 
-Этот пример настроен для использования защиты Wi-Fi защищенного доступа 2, работающей в режиме предприятия (WPA2-Enterprise). Для сетевой проверки подлинности используется защищенный протокол расширенной проверки подлинности с протоколом проверки подлинности Microsoft Challenge версии 2 (PEAP-MSCHAPv2). Учетные данные входа Windows используются для PEAP-MSCHAPv2 проверки подлинности.
+этот пример настроен для использования защиты Wi-Fi защищенного доступа 2, работающей в режиме Enterprise (WPA2-Enterprise). Для сетевой проверки подлинности используется защищенный протокол расширенной проверки подлинности с протоколом проверки подлинности Microsoft Challenge версии 2 (PEAP-MSCHAPv2). Windows учетные данные входа используются для проверки подлинности PEAP-MSCHAPv2.
 
 Хотя этот пример настроен для использования WPA2-Enterprise и протокола PEAP-MSCHAPv2, для профилей единого входа можно настроить другие типы безопасности и проверки подлинности.
 
-**Windows 7 и Windows Server 2008 R2 с установленной службой беспроводной локальной сети:** Изменения реализуются в Windows 7 и Windows Server 2008 R2 с установленной службой беспроводной локальной сети для оптимизации производительности беспроводных сетей. Параметр по умолчанию для [**автопереключения**](wlan-profileschema-autoswitch-wlanprofile-element.md) , если этот элемент не задан в профиле беспроводной локальной сети, изменился. Значение по умолчанию изменено на "false" в Windows 7 и Windows Server 2008 R2 с установленной службой беспроводной локальной сети. Значение по умолчанию — true в Windows Server 2008 и Windows Vista. Дополнительные сведения см. в описании элемента схемы [**автопереключения**](wlan-profileschema-autoswitch-wlanprofile-element.md) .
+**Windows 7 и Windows Server 2008 R2 с установленной службой беспроводной локальной сети:** изменения реализуются на Windows 7 и Windows Server 2008 R2 с установленной службой беспроводной локальной сети для оптимизации производительности беспроводных сетей. Параметр по умолчанию для [**автопереключения**](wlan-profileschema-autoswitch-wlanprofile-element.md) , если этот элемент не задан в профиле беспроводной локальной сети, изменился. значение по умолчанию изменено на "false" на Windows 7 и Windows сервере 2008 R2 с установленной службой беспроводной локальной сети. значение по умолчанию — true на Windows Server 2008 и Windows Vista. Дополнительные сведения см. в описании элемента схемы [**автопереключения**](wlan-profileschema-autoswitch-wlanprofile-element.md) .
 
 **Windows XP с SP3 и API беспроводной локальной сети для Windows XP с пакетом обновления 2 (SP2):** Дочерний элемент [**Name**](wlan-profileschema-name-wlanprofile-element.md) элемента [**вланпрофиле**](wlan-profileschema-wlanprofile-element.md) игнорируется. Имя профиля, хранящееся в хранилище профилей, является производным от дочернего элемента [**имени**](wlan-profileschema-name-ssid-element.md) [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md) . Дочерние элементы [**качеусердата**](onexschema-cacheuserdata-onex-element.md), [**максаусфаилурес**](onexschema-maxauthfailures-onex-element.md), [**аусмоде**](onexschema-authmode-onex-element.md)и [**singleSignOn**](onexschema-singlesignon-onex-element.md) элемента [**OneX**](onexschema-onex-element.md) не поддерживаются, и их следует удалить из профиля перед использованием.
 
@@ -95,7 +95,7 @@ ms.locfileid: "105674365"
 </WLANProfile>
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

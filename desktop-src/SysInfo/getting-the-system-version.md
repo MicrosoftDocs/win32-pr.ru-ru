@@ -4,12 +4,12 @@ ms.assetid: ae851aef-27d5-4eb7-aeb2-ccdfbf040e5a
 title: Получение версии системы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae0fa259378b81f9255846694927ee2b68e6f38f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5eb9cfd0c1a4cfe1ee0789cb609bf22319bdd019bf3310bf439dabf907bfd138
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103913828"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117958529"
 ---
 # <a name="getting-the-system-version"></a>Получение версии системы
 

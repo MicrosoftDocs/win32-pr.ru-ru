@@ -1,5 +1,5 @@
 ---
-description: Получает права удаленного доступа для списка отдельных пользователей на компьютерах, использующих устаревшие версии Windows, которые недоступны для управления доступом с помощью дескрипторов безопасности Windows.
+description: получает права удаленного доступа для списка отдельных пользователей на компьютерах с устаревшими версиями Windows, где управление доступом через Windows дескрипторы безопасности недоступно.
 ms.assetid: 79a596db-5f85-4664-8989-f309286eca0d
 ms.tgt_platform: multiple
 title: 'Метод __SystemSecurity:: Get9XUserList'
@@ -14,16 +14,16 @@ api_type:
 - COM
 api_location:
 - all
-ms.openlocfilehash: 521f2fe489089d486480c138293ebea39ca6f105
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cfb6f0b9bb503e212e00d5343b55d6a9e20fbc8acfb0a5b534e8848cc6d3d931
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105656665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118110107"
 ---
 # <a name="__systemsecurityget9xuserlist-method"></a>\_\_Метод Системсекурити:: Get9XUserList
 
-Метод [**\_ \_ системсекурити:: Set9XUserList**](--systemsecurity-set9xuserlist.md) получает права удаленного доступа для списка отдельных пользователей на компьютерах, использующих устаревшие версии Windows, которые недоступны для управления доступом с помощью дескрипторов безопасности Windows.
+метод [**\_ \_ системсекурити:: Set9XUserList**](--systemsecurity-set9xuserlist.md) получает права удаленного доступа для списка отдельных пользователей на компьютерах с устаревшими версиями Windows, где управление доступом через Windows дескрипторы безопасности недоступно.
 
 Эта функция аналогична дескриптору безопасности, но более ограничена. Группы не поддерживаются, и локальный доступ не контролируется, так как локальный пользователь всегда имеет полный доступ. Разрешены и Deny, и разрешить записи контроля доступа (ACE), и поэтому порядок ACE важен в списке управления доступом на уровне пользователей (DACL). Дополнительные сведения см. [в разделе порядок элементов ACE в списке DACL](/windows/desktop/SecAuthZ/order-of-aces-in-a-dacl).
 
@@ -51,7 +51,7 @@ HRESULT Get9XUserList(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Этот метод возвращает **значение HRESULT** , указывающее состояние вызова метода. В следующем списке перечислены возвращаемые значения, которые являются значимыми для **Get9XUserList**. Для сценариев и Visual Basic приложений результат может быть [параметром Parameters. returnValue](parsing-outparameters-objects.md). Дополнительные сведения см. в разделе [Построение объектов параметров и анализ объектов параметров](constructing-inparameters-objects-and-parsing-outparameters-objects.md).
+Этот метод возвращает **значение HRESULT** , указывающее состояние вызова метода. В следующем списке перечислены возвращаемые значения, которые являются значимыми для **Get9XUserList**. для сценариев и Visual Basic приложений результат может быть [параметром parameters. ReturnValue](parsing-outparameters-objects.md). Дополнительные сведения см. в разделе [Построение объектов параметров и анализ объектов параметров](constructing-inparameters-objects-and-parsing-outparameters-objects.md).
 
 <dl> <dt>
 
@@ -74,14 +74,14 @@ HRESULT Get9XUserList(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [Системные классы WMI](wmi-system-classes.md)
 </dt> <dt>
 
-[**\_\_системсекурити**](--systemsecurity.md)
+[**\_\_SystemSecurity**](--systemsecurity.md)
 </dt> <dt>
 
 [**\_\_Системсекурити:: получает**](--systemsecurity-getsd.md)

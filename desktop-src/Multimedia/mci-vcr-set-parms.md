@@ -3,7 +3,7 @@ title: Структура MCI_VCR_SET_PARMS (видеомагнитофон. h)
 description: '\_ \_ Структура ПАРМС видеомагнитофона MCI Set \_ содержит параметры для \_ команды MCI Set для устройств записи видеокассет.'
 ms.assetid: f55515f5-14f6-47e4-8be2-4524975fc950
 keywords:
-- MCI_VCR_SET_PARMS структура мультимедиа Windows
+- структура MCI_VCR_SET_PARMS Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0066adf80446843fe5a3e1e3defbb2109484cbb6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9fe32f93500ae4c294bad372868e9f7818c672824611bcbc29c3315eb75a9742
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104416013"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117802989"
 ---
 # <a name="mci_vcr_set_parms-structure"></a>\_ \_ Структура пармс набора видеомагнитофона MCI \_
 
@@ -159,11 +159,11 @@ typedef struct tagMCI_VCR_SET_PARMS {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При назначении данных членам этой структуры установите соответствующие флаги в параметре *фдвкомманд* функции [**мЦисендкомманд**](/previous-versions//dd757160(v=vs.85)) , чтобы проверить элементы.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -175,7 +175,7 @@ typedef struct tagMCI_VCR_SET_PARMS {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

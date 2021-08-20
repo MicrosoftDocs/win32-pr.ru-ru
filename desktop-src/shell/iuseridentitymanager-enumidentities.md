@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msident.dll
-ms.openlocfilehash: 3109867651b69e311639d8b2e70e5f02e33a3dc8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a6f7b241cd151e1b00069deb0d23d03a56486105bd9a85d203586723b5259d23
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104143027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117678391"
 ---
 # <a name="iuseridentitymanagerenumidentities-method"></a>Метод Иусеридентитиманажер:: Енумидентитиес
 
@@ -56,7 +56,7 @@ HRESULT EnumIdentities(
 
 Результат операции извлечения. В случае успеха возвращается значение S \_ ОК. Если не удалось создать объект перечисления, он возвращает E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Этот метод полезен для итерации по списку удостоверений в системе. Чтобы получить одиночное удостоверение с помощью файла cookie, не обращаясь к списку, вызовите [**иусеридентитиманажер:: жетидентитибикукие**](iuseridentitymanager-getidentitybycookie.md).
 
@@ -70,13 +70,13 @@ HRESULT EnumIdentities(
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                   |
 | Окончание поддержки клиента<br/>    | Windows 2000 Professional<br/>                                                   |
 | Поддержка конца сервера<br/>    | Windows 2000 Server<br/>                                                         |
-| Header<br/>                   | <dl> <dt>Мсидент. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Мсидент. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Мсидент. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Msident.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 0fa91c5b46d2eb7ca21ba14aa00b274d52e77eb1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a8d1bacb5629f03eb472f730f5df7ee00c5a4e469702f617d5b33c673606c76b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104496989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117981336"
 ---
 # <a name="idelaydcconfigure-method"></a>Метод Иделайдк:: Configure
 
@@ -75,7 +75,7 @@ HRESULT STDMETHODCALLTYPE Configure(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод необходимо применить для перезапуска НПП, который был запущен, остановлен, но не отключен.
 
@@ -94,14 +94,14 @@ BLOB-объект ошибки, возвращенный *херрорблоб* 
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [иделайдк](idelaydc.md)
 </dt> <dt>
 
-[Иделайдк:: Connect](idelaydc-connect.md)
+[иделайдк:: Подключение](idelaydc-connect.md)
 </dt> <dt>
 
 [Иделайдк:: Start](idelaydc-start.md)

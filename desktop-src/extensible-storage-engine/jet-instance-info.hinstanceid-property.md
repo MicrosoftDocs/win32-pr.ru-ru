@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 9fb86352ac2975022b9bc29c9c02a5940f5071d5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e44d2ae77b0f45f219938c742c5b2615792d128d6950c458287a7b3cf430abdc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118074659"
 ---
 # <a name="jet_instance_infohinstanceid-property"></a>Свойство JET_INSTANCE_INFO. Хинстанцеид
 
@@ -62,7 +62,7 @@ public JET_INSTANCE hInstanceId { get; private set; }
 
 Тип: [Microsoft.ISAM.ESENT.Interop.JET_INSTANCE](./jet-instance-structure.md)  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

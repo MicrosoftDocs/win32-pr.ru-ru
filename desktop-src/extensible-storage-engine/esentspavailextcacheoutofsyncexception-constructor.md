@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0641664a5c886097a5928e57daae33bd97797748
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d0df3dc17fee943eaf6ac2f962f5d11f93bd04e9dcfab9166317fc6f8918a697
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998770"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118078432"
 ---
 # <a name="esentspavailextcacheoutofsyncexception-constructor"></a>Конструктор Есентспаваилексткачеаутофсинцексцептион
 
@@ -52,7 +52,7 @@ Dim instance As New EsentSPAvailExtCacheOutOfSyncException()
 public EsentSPAvailExtCacheOutOfSyncException()
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

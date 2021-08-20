@@ -4,12 +4,12 @@ ms.assetid: 33bc28e8-0b83-4d58-a03e-ccf2a97887e6
 title: Свойства Иупдатесервице
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 84ff3cf92c89a5ba02b7d95f1a1c99f33de3202d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cbef15c3173812f3a50d01cacba2100206f622a576a170da5a1e0a3333cebd9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104497601"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118106437"
 ---
 # <a name="iupdateservice-properties"></a>Свойства Иупдатесервице
 
@@ -27,7 +27,7 @@ ms.locfileid: "104497601"
 | [**иссканпаккажесервице**](/windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_isscanpackageservice)   | Возвращает логическое значение, указывающее, основана ли служба на пакете сканирования.               |
 | [**иссуедате**](/windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_issuedate)                         | Возвращает дату, когда был выдан CAB-файл авторизации.                               |
 | [**Имя**](/windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_name)                                   | Возвращает имя службы.                                                                   |
-| [**офферсвиндовсупдатес**](/windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_offerswindowsupdates)   | Возвращает логическое значение, указывающее, предлагает ли текущая служба обновления из обновлений Windows. |
+| [**офферсвиндовсупдатес**](/windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_offerswindowsupdates)   | возвращает логическое значение, указывающее, поддерживает ли текущая служба обновления из Windows обновлений. |
 | [**редиректурлс**](/windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_redirecturls)                   | Возвращает URL-адрес ящика перенаправителя.                                                   |
 | [**ServiceID**](/windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_serviceid)                         | Возвращает идентификатор службы.                                                              |
 | [**ServiceUrl**](/windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_serviceurl)                       | Возвращает URL-адрес службы.                                                                   |

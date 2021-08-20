@@ -4,12 +4,12 @@ ms.assetid: c90a3efc-0d90-4eae-8651-a0dac04db862
 title: System. Рекордедтв. Исатскконтент
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f2d7b37055c55aced24db2b9ecdfaf3e4bdf7dec
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 2f3bb14aeb71067ac312a60a400a6ea08611372bb17dd83c1d12a5402f608487
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108091732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117682203"
 ---
 # <a name="systemrecordedtvisatsccontent"></a>System. Рекордедтв. Исатскконтент
 
@@ -46,7 +46,7 @@ propertyDescription
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

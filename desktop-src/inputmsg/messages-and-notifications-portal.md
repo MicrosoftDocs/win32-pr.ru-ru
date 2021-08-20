@@ -4,16 +4,16 @@ description: В этом разделе описываются входные с
 ms.assetid: BDF74777-101F-4089-94C1-5C28520CAD1A
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: ce062588a33be8b55a82100ee070f10634856909
-ms.sourcegitcommit: f2fe9d9bd65333b74f2af8e30eddbb1643b40c8f
+ms.openlocfilehash: d4bd0f35265f5359e1eea0e051f0df9d14cfc33d21361457cb77664100db3b26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "104133427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117695712"
 ---
 # <a name="pointer-input-messages-and-notifications"></a>Входные сообщения и уведомления указателя
 
-В этом разделе описываются входные сообщения, уведомления и связанные функции в приложениях Windows.
+в этом разделе описываются входные сообщения, уведомления и связанные функции в Windows приложениях.
 
 ## <a name="in-this-section"></a>В этом разделе
 

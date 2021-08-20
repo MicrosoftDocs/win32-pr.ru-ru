@@ -4,12 +4,12 @@ ms.assetid: 4e7b6af9-8816-49db-ab46-9aa49e5bd115
 title: Имена свойств
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4e60007f940980193c80cd721d84bd0e4646ffa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 96a5bb7cf6245ad135003c0f6c9d8dbb3079e983399144893b80762767029826
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664105"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117976722"
 ---
 # <a name="property-names"></a>Имена свойств
 

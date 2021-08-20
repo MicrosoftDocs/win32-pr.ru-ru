@@ -4,12 +4,12 @@ ms.assetid: 67a70bbc-3f4f-43ac-b886-88fc312b1aa1
 title: System.Docумент. ClientID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 046d58edc250f0b3f64a967342cbd250139f969c
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 68fb152dde2c14d9208a3c7e850983e55128c9c253d890c772ffb476b071925a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108114852"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118053787"
 ---
 # <a name="systemdocumentclientid"></a>System.Docумент. ClientID
 
@@ -32,7 +32,7 @@ propertyDescription
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ description: NTLMSSP
 ms.assetid: ae434165-4429-4ef0-b083-60abdfc50de0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 706c788f103d3d616b5a3087522b5f06b417e972
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: e786a586810a7404f242c9a129cbfccc03849a50f7ea6625288c7334e47e8787
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "105691676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118105301"
 ---
 # <a name="ntlmssp"></a>NTLMSSP
 
@@ -23,13 +23,13 @@ NTLM поддерживает взаимную проверку подлинно
 
 NTLM дополнительно поддерживает уровень олицетворения делегирования между потоками и между процессами (только локально).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Пакеты безопасности и COM](com-and-security-packages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

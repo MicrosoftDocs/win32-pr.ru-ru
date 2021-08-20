@@ -3,7 +3,7 @@ title: Сообщение LVM_SETUNICODEFORMAT (Коммктрл. h)
 description: LVM_SETUNICODEFORMAT сообщение — задает флаг формата символов Юникода для элемента управления.
 ms.assetid: e332ae88-821f-4341-a98d-59d8a01a126f
 keywords:
-- Элементы управления Windows для LVM_SETUNICODEFORMAT сообщений
+- элементы управления Windows сообщений LVM_SETUNICODEFORMAT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bb0f700cd057bc77eddc699404f37b19a6cc9c39
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1ec9830cd2f5e0ee43c4ed2cd331b15e59727643c03c4841f0e043078de85802
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108120152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117830685"
 ---
 # <a name="lvm_setunicodeformat-message"></a>\_Сообщение LVM сетуникодеформат
 
@@ -47,15 +47,15 @@ ms.locfileid: "108120152"
 
 Обсуждение этого сообщения см. в примечаниях по [**CCM \_ сетуникодеформат**](ccm-setunicodeformat.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

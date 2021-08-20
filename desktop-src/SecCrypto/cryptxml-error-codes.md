@@ -4,12 +4,12 @@ ms.assetid: c3678767-aab3-4771-b2f2-8d79545d420d
 title: Коды ошибок Криптксмл (Криптксмл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a5906c406f14081844ddce042f0e170668950e7b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ccb4b06070ca77f8b55f96d3e6c4732abc22c26970b83b6a70c720b7bade8a84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664476"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117767981"
 ---
 # <a name="cryptxml-error-codes"></a>Коды ошибок Криптксмл
 
@@ -45,8 +45,8 @@ ms.locfileid: "105664476"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                            |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                               |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Криптксмл. h</dt> </dl> |
 
 

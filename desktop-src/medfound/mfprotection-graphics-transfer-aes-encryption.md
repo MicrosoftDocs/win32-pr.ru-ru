@@ -4,12 +4,12 @@ ms.assetid: 8E270C97-E073-40D3-8D33-7BBFE1833940
 title: Атрибут MFPROTECTION_GRAPHICS_TRANSFER_AES_ENCRYPTION (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a528dca0b81ed179cc2d5898c7e2bc2a7f64283a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f45b2bd63bb37225e04dc856c495c562f167148d64c8779e2b6237d19777f0af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711703"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117872488"
 ---
 # <a name="mfprotection_graphics_transfer_aes_encryption-attribute"></a>\_ \_ \_ Атрибут шифрования AES мфпротектион \_ Graphics
 
@@ -19,19 +19,19 @@ ms.locfileid: "105711703"
 
 **GUID**
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только приложения UWP Windows 8\]<br/>                                             |
-| Минимальная версия сервера<br/> | Только приложения UWP для Windows Server 2012 \[\]<br/>                                   |
-| Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ Только приложения UWP\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ Только приложения UWP\]<br/>                                   |
+| Заголовок<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

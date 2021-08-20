@@ -4,12 +4,12 @@ ms.assetid: 637b1b2e-81e2-4ed2-bdf0-5da7aee403ab
 title: Получение контекста шифрования и создание ключей
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2af974c392f49c64e809a67a9676c71b6305be38
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1a3f7733e0f62ed00bd08e07a8a83f067bb78320516054982a6a3086ffe40523
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117774049"
 ---
 # <a name="acquiring-a-cryptographic-context-and-generating-keys"></a>Получение контекста шифрования и создание ключей
 

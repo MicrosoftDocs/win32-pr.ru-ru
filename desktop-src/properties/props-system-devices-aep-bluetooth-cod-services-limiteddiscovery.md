@@ -1,19 +1,19 @@
 ---
-description: Класс Bluetooth с ограниченным обнаружением службы устройств.
+description: класс Bluetooth с ограниченным обнаружением службы устройств.
 ms.assetid: 6972462b-cbda-4d5a-9d49-b0ec0d84d295
-title: System. Devices. АЕП. Bluetooth. наложенный. Services. Лимитеддисковери
+title: System. Devices. АЕП. Bluetooth. Наложенный на. Services. Лимитеддисковери
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5cbfa774881bd7c7ed67479cad5ac28bf5a5b66
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b26d72e06c186d971707dc5d9983ee8f351c5cfcef1d7682f81831c8b28214a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104545322"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118054657"
 ---
-# <a name="systemdevicesaepbluetoothcodserviceslimiteddiscovery"></a>System. Devices. АЕП. Bluetooth. наложенный. Services. Лимитеддисковери
+# <a name="systemdevicesaepbluetoothcodserviceslimiteddiscovery"></a>System. Devices. АЕП. Bluetooth. Наложенный на. Services. Лимитеддисковери
 
-Класс Bluetooth с ограниченным обнаружением службы устройств.
+класс Bluetooth с ограниченным обнаружением службы устройств.
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511"></a>Windows 10, версия 1703, Windows 10, версия 1607, Windows 10, версия 1511
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

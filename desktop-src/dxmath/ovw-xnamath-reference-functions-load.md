@@ -4,12 +4,12 @@ ms.assetid: 3434ea7d-edc3-a8eb-3481-9e76ba724800
 title: Функции загрузки векторов из библиотеки DirectXMath
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0fe794550cc3363101897c2a44fed5965dd9db31
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 51842e117cc55cc94e93bb5e06179d735b6e6666af138bc6c23ede9ed928028d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103811711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118087717"
 ---
 # <a name="directxmath-library-vector-load-functions"></a>Функции загрузки векторов из библиотеки DirectXMath
 
@@ -80,5 +80,5 @@ ms.locfileid: "103811711"
 | [**XMLoadXDec4**](/windows/win32/api/directxpackedvector/nf-directxpackedvector-xmloadxdec4) | Загружает [**XMXDEC4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmxdec4) в [**ксмвектор**](xmvector-data-type.md). |
 | [**XMLoadXDecN4**](/windows/win32/api/directxpackedvector/nf-directxpackedvector-xmloadxdecn4) | Загружает [**XMXDECN4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmxdecn4) в [**ксмвектор**](xmvector-data-type.md). |
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 [Функции библиотеки Директксмас](ovw-xnamath-reference-functions.md)

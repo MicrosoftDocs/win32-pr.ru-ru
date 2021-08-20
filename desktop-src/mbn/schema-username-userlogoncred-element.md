@@ -11,12 +11,12 @@ api_name:
 - UserName
 api_type:
 - Schema
-ms.openlocfilehash: 53ad1bde74f2d2a1649fa5fdee23ef70ab53b09d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 836a2d26c5de63da754b562ce418026db44a9603a303b63bec80b2959ff9cdc3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662391"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118065780"
 ---
 # <a name="username-userlogoncred-element"></a>Элемент UserName (Усерлогонкред)
 
@@ -40,12 +40,12 @@ ms.locfileid: "105662391"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 7 \|\]<br/> |
+| Минимальная версия клиента<br/> | \[приложения UWP для классических приложений Windows 7 \|\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                         |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

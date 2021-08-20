@@ -11,12 +11,12 @@ api_name:
 - SubscriberID
 api_type:
 - Schema
-ms.openlocfilehash: ca098383aadd51e1e05d6b02bdd02a563eb0a09c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 42290b0a80e85b2fdd1c794aced78571e939010b0e260bf1bdeba15f221cc103
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104542183"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118065888"
 ---
 # <a name="subscriberid-mbnprofile-element"></a>Субскриберид (Мбнпрофиле), элемент
 
@@ -42,12 +42,12 @@ ms.locfileid: "104542183"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 7 \|\]<br/> |
+| Минимальная версия клиента<br/> | \[приложения UWP для классических приложений Windows 7 \|\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                         |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

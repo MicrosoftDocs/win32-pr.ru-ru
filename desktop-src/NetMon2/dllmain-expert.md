@@ -13,12 +13,12 @@ api_type:
 - UserDefined
 api_location:
 - process.h
-ms.openlocfilehash: 914f50b75e83fdc67448770b32ac8d0f8e8ab656
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3aa546d4bc75b237d7c77ed3fa7179a0c957309a31964a7e6c498e1cc998c71e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103910888"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117796260"
 ---
 # <a name="dllmain-expert-callback-function"></a>Функция обратного вызова DllMain эксперта
 
@@ -72,7 +72,7 @@ BOOL WINAPI DllMain(
 
 Если функция завершается неудачно, возвращается значение **false**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Операционная система вызывает функцию эксперта **DllMain** , когда процесс загружает или ВЫГРУЖАЕТ библиотеку DLL эксперта. Функция **DllMain** эксперта должна быть экспортирована только в том случае, если эксперт имеет пользовательский интерфейс для просмотра конфигурации или результатов, а затем только возвращает правильное значение *HINSTANCE* .
 

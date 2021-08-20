@@ -3,7 +3,7 @@ title: Сообщение PGM_SETCHILD (Коммктрл. h)
 description: Задает вложенное окно для элемента управления страничного навигатора.
 ms.assetid: 717e6720-aa42-4ecd-9520-4618a04dc28d
 keywords:
-- Элементы управления Windows для PGM_SETCHILD сообщений
+- элементы управления Windows сообщений PGM_SETCHILD
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c934c3c5688ac79b5c5ce67aef68e28ad3627ce
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: da3424eabfb87d587ac8cd33802dfc03b3c3868d881b131360bfee2e8bc26730
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135710"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117830175"
 ---
 # <a name="pgm_setchild-message"></a>\_Сообщение СЕТЧИЛД PGM
 
@@ -43,15 +43,15 @@ ms.locfileid: "104135710"
 
 Возвращаемое значение не используется.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

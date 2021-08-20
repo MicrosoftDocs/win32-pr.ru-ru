@@ -4,12 +4,12 @@ ms.assetid: adf79bc8-e893-444a-b750-d7ffd09de7c9
 title: Конфигурации контекста теневого копирования
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bdb41d0e2604dcf92d27f490175cdcbafd49822c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1e156b0357813060adcc3e7e8b5072b7a17543b7c996db72686a4912f504fede
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104544954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117937766"
 ---
 # <a name="shadow-copy-context-configurations"></a>Конфигурации контекста теневого копирования
 

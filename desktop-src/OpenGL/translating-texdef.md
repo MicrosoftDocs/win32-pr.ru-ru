@@ -15,12 +15,12 @@ keywords:
 - тексдеф
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 479af06bcfd3a50daf56fb0629e4c32f24750081
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 92955b2b49d6960afc661d467da42a4ebcd7aff6caaf7c0bd386093968413f18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103889047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117980556"
 ---
 # <a name="translating-texdef"></a>Преобразование тексдеф
 

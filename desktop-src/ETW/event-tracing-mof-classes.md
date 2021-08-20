@@ -4,16 +4,16 @@ ms.assetid: b86c3863-b92c-4f6c-b953-3e0638bc915e
 title: Классы MOF трассировки событий
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c0a94fb5608ddcdd8a13df2d221adf3d032f6be8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e37d955b760eefeaa3aa98b9033ab8acee1a146df5ad8d94d412e7af056673f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117814794"
 ---
 # <a name="event-tracing-mof-classes"></a>Классы MOF трассировки событий
 
-Классы определяются в \\ корневом \\ пространстве имен WMI. Квалификатор **евентверсион** для событий ядра связывает класс с определенной операционной системой. Например, нулевая версия связана с Windows 2000, версией 1 с Windows XP и Windows Server 2003, а второй — с Windows Vista.
+Классы определяются в \\ корневом \\ пространстве имен WMI. Квалификатор **евентверсион** для событий ядра связывает класс с определенной операционной системой. например, нулевая версия связана с Windows 2000, версией 1 с Windows XP и Windows Server 2003 и версией 2 с Windows Vista.
 
 Следующие классы MOF определяют классы событий ETW.
 
@@ -60,7 +60,7 @@ ms.locfileid: "103990940"
 -   [**Хвконфиг \_ логдиск**](hwconfig-logdisk.md)
 -   [**\_Сетевой адаптер хвконфиг**](hwconfig-nic.md)
 -   [**Хвконфиг \_ фидиск**](hwconfig-phydisk.md)
--   [**Образ —**](image.md)
+-   [**Изображение**](image.md)
 -   [**\_Загрузка образа**](image-load.md)
 -   [**\_V0 изображения**](image-v0.md)
 -   [**\_Загрузка образа v0 \_**](image-v0-load.md)

@@ -3,7 +3,7 @@ title: Сообщение TB_INSERTBUTTON (Коммктрл. h)
 description: Вставляет кнопку на панель инструментов.
 ms.assetid: 6be27817-5d86-4649-bd63-173845197763
 keywords:
-- Элементы управления Windows для TB_INSERTBUTTON сообщений
+- элементы управления Windows сообщений TB_INSERTBUTTON
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e08eed328a99d4a8927a7e09084bf122f2e4e84
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 909a4e039450e001757cd054cf27a15d24af392d6a55841c2857e2312252145c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117829655"
 ---
 # <a name="tb_insertbutton-message"></a>\_Сообщение ИНСЕРТБУТТОН ТБ
 
@@ -49,15 +49,15 @@ ms.locfileid: "104135575"
 
 Возвращает **значение true** , если успешно, или **false** в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **ТБ \_ ИНСЕРТБУТТОНВ** (Юникод) и **ТБ \_ инсертбуттона** (ANSI)<br/>           |
 
 

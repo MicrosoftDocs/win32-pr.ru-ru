@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 78f8926d85b35b8cf5e55188c6cd76b014b3c4c8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ec854894a6b6f0a0a66c48aa21f277176d030a38128059413c2f022563c8aa6a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118050831"
 ---
 # <a name="cpl_stop-message"></a>\_Сообщение об ошибке CPL
 
@@ -46,7 +46,7 @@ ms.locfileid: "104984329"
 
 Если функция [**кплапплет**](/windows/win32/api/cpl/nc-cpl-applet_proc) успешно обрабатывает это сообщение, оно должно вернуть ноль.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 В ответ на это сообщение приложение панели управления должно выполнить очистку для данного диалогового окна.
 
@@ -56,13 +56,13 @@ ms.locfileid: "104984329"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                      |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                      |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                             |
 | Заголовок<br/>                   | <dl> <dt>CPL. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

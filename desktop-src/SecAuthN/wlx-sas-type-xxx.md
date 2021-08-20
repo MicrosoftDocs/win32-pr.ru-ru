@@ -4,21 +4,21 @@ ms.assetid: c0a1269b-f9d4-49e1-89ca-526fef148134
 title: WLX_SAS_TYPE_XXX (Винвлкс. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a75c7d7a71855700c4c8c233db3cfc18e06b9d7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 568308d064b576f036d18aaa2d150cb1c6b7f0a2d89ee60d9410fcad123351d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117785721"
 ---
 # <a name="wlx_sas_type_xxx"></a>\_тип SAS \_ влкс \_ xxx
 
-\[\_ \_ Константа типа SAS влкс \_ xxx больше не доступна для использования в Windows Server 2008 и Windows Vista.\]
+\[\_ \_ константа типа SAS влкс \_ XXX больше не доступна для использования в Windows Server 2008 и Windows Vista.\]
 
 Значения **\_ типа влкс \_ SAS \_ xxx** определяют конкретный тип SAS.
 
 > [!Note]  
-> Библиотеки DLL GINA не учитываются в Windows Vista.
+> библиотеки dll GINA не учитываются в Windows Vista.
 
  
 
@@ -44,8 +44,8 @@ ms.locfileid: "105647533"
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                         |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                         |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                |
 | Окончание поддержки клиента<br/>    | Windows XP<br/>                                                               |
 | Поддержка конца сервера<br/>    | Windows Server 2003<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Винвлкс. h</dt> </dl> |

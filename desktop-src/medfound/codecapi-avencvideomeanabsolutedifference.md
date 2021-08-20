@@ -4,12 +4,12 @@ ms.assetid: 61C0F431-FBF5-4B17-8F3A-0F6AD2BA33B7
 title: Свойство CODECAPI_AVEncVideoMeanAbsoluteDifference (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f58a7bc0da9fce88c0b8137d800d527d4717801c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8eb0d2e515187961b020ef4896f4e6669d378dbed2ca4ddb487cf271db684591
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118064755"
 ---
 # <a name="codecapi_avencvideomeanabsolutedifference-property"></a>КОДЕКАПИ \_ авенквидеомеанабсолутедифференце, свойство
 
@@ -23,7 +23,7 @@ ms.locfileid: "105692077"
 
 **КОДЕКАПИ \_ авенквидеомеанабсолутедифференце**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если приложение устанавливает ненулевое значение, кодировщику следует добавить к каждому выходному примеру атрибут [мфсампликстенсион \_ меанабсолутедифференце](mfsampleextension-meanabsolutedifference.md) Sample. Атрибут Мфсампликстенсион \_ меанабсолутедифференце показывает среднее абсолютное различие между исходными примерами и прогнозируемыми примерами на плоскости Y.
 
@@ -37,13 +37,13 @@ ms.locfileid: "105692077"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только Windows 8.1 Классические приложения\]<br/>                                          |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2012 R2 \[\]<br/>                               |
-| Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8.1 \[ только классические приложения\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[Только классические приложения R2\]<br/>                               |
+| Заголовок<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 6684d40302746a736701b824685a54faeff5354a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b603daafacaad1e3f2fdddd80f734e7b21f4ace39553088f6eafca67bb6aff2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117978045"
 ---
 # <a name="privatekeyisremovable-method"></a>PrivateKey. in, метод
 
@@ -43,7 +43,7 @@ PrivateKey.IsRemovable()
 
 Если значение — true, закрытый ключ находится в съемном хранилище.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемое значение этого метода зависит от используемого [*поставщика служб шифрования*](../secgloss/c-gly.md) (CSP). Этот метод возвращает надежное значение, если используется Microsoft CSP. Если CSP не является CSP Майкрософт, возвращаемое значение не может быть точным.
 
@@ -58,7 +58,7 @@ PrivateKey.IsRemovable()
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

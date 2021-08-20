@@ -3,7 +3,7 @@ title: Элемент SplitButton
 description: Представляет стандартный элемент управления "кнопка разворачивающейся кнопки".
 ms.assetid: dece1100-ed04-49a3-a16d-3c5d5e7a2225
 keywords:
-- Лента для элемента SplitButton Windows
+- элемент SplitButton Windows лента
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: cf03d85dd0402548d02f107dafb209b68c13bb72
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 53445bc3f57f8a861800f9edcd95d8af2ecfbd54f4055cf8787695dab1f25cb0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117850777"
 ---
 # <a name="splitbutton-element"></a>Элемент SplitButton
 
@@ -79,7 +79,7 @@ ms.locfileid: "111444405"
 
 | Элемент                                                                                   | Описание                                        |
 |-------------------------------------------------------------------------------------------|----------------------------------------------------|
-| [**Button**](windowsribbon-element-button.md)<br/>                                 | Может происходить один или несколько раз<br/> <br/> |
+| [**Кнопка**](windowsribbon-element-button.md)<br/>                                 | Может происходить один или несколько раз<br/> <br/> |
 | [**Установка**](windowsribbon-element-checkbox.md)<br/>                             | Может происходить один или несколько раз<br/> <br/> |
 | [**DropDownButton**](windowsribbon-element-dropdownbutton.md)<br/>                 | Может происходить один или несколько раз<br/> <br/> |
 | [**дропдовнколорпиккер**](windowsribbon-element-dropdowncolorpicker.md)<br/>       | Может происходить один или несколько раз<br/> <br/> |
@@ -119,7 +119,7 @@ ms.locfileid: "111444405"
 
 [**SplitButton. менуграупс**](windowsribbon-element-splitbutton-menugroups.md) должен быть выполнен один раз, если следующие элементы отсутствуют в качестве дочерних элементов **SplitButton**:
 
--   [**Button**](windowsribbon-element-button.md)
+-   [**Кнопка**](windowsribbon-element-button.md)
 -   [**Установка**](windowsribbon-element-checkbox.md)
 -   [**DropDownButton**](windowsribbon-element-dropdownbutton.md)
 -   [**дропдовнколорпиккер**](windowsribbon-element-dropdowncolorpicker.md)
@@ -211,7 +211,7 @@ ms.locfileid: "111444405"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-- **Минимальная поддерживаемая система**: Windows 7 
+- **минимальная поддерживаемая система**: Windows 7 
 - **Может быть пустым**: нет
 
 

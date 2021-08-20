@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 8ed41cbab38e24958705c24aefc9ea5e9e67357e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f7b63cbf6bc048350546b431b4f967c815450abf2d79c7ba79ab8f84e562a1bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118107842"
 ---
 # <a name="swbemservicesex-object"></a>Объект Свбемсервицесекс
 
@@ -47,7 +47,7 @@ ms.locfileid: "104155818"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Методы в этом классе могут вызываться либо в режиме семисинчронаус, либо в асинхронном режиме. Дополнительные сведения см. [в разделе вызов метода](calling-a-method.md).
 
@@ -59,7 +59,7 @@ ms.locfileid: "104155818"
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
 | Библиотека типов<br/>             | <dl> <dt>Wbemdisp. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | \_ИСВБЕМСЕРВИЦЕСЕКС CLSID<br/>                                                      |
@@ -67,7 +67,7 @@ ms.locfileid: "104155818"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

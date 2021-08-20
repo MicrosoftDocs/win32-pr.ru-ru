@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 57655ea50b56150813b1240112987a8f425079d2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d84845d792db5080d04772edc4ab0f469597987ec8118b0a07aec3e11026a77e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117825307"
 ---
 # <a name="id2d1svgstrokedasharrayupdatedashes-methods"></a>Методы ID2D1SvgStrokeDashArray:: Упдатедашес
 
@@ -34,17 +34,17 @@ ms.locfileid: "105679704"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|--------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D2d1svg. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D2d1svg. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,16 +4,16 @@ ms.assetid: 791a9816-4c40-4683-8b32-22f73d7fe84d
 title: Пример Еврпресентер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bde85de152c41f348b1aae74a8c0d67ca746cab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fe874483313d96f2ee6d9481fca7695d3ecfdba492f3e976f9f6c107c6114b1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104143111"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118063658"
 ---
 # <a name="evrpresenter-sample"></a>Пример Еврпресентер
 
-Показывает, как реализовать пользовательский объект Presenter для [расширенного модуля подготовки видео](enhanced-video-renderer.md) (Евр). Пользовательский Presenter можно использовать с фильтром DirectShow Евр или с приемником Microsoft Media Foundation Евр.
+Показывает, как реализовать пользовательский объект Presenter для [расширенного модуля подготовки видео](enhanced-video-renderer.md) (Евр). пользовательский presenter можно использовать с фильтром DirectShow евр или Microsoft Media Foundation приемником евр.
 
 ## <a name="apis-demonstrated"></a>Продемонстрированные API
 
@@ -39,11 +39,11 @@ ms.locfileid: "104143111"
 5.  В диалоговом окне **Открытие файла** выберите **Custom Евр Presenter (пользовательский выступающий).**
 6.  Выберите файл для воспроизведения.
 
-Чтобы использовать этот пример в DirectShow, сделайте следующее:
+Чтобы использовать этот пример в DirectShow:
 
 1.  Выполните сборку примера.
 2.  Зарегистрируйте EvrPresenter.dll.
-3.  Выполните сборку и запустите пример Еврплайер. Этот пример включен в примеры DirectShow в Windows SDK.
+3.  Выполните сборку и запустите пример Еврплайер. этот пример включен в примеры DirectShow в Windows SDK.
 4.  В меню **файл** выберите **Евр Presenter**.
 5.  Выберите файл для воспроизведения.
 
@@ -61,9 +61,9 @@ ms.locfileid: "104143111"
 
 ## <a name="downloading-the-sample"></a>Загрузка образца
 
-Этот пример доступен в [репозитории GitHub с классическими примерами Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/AudioClip).
+этот пример доступен в [репозитории github для классических примеров Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/AudioClip).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

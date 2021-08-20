@@ -4,12 +4,12 @@ ms.assetid: bceba978-a986-4d92-ae83-14bae1835f18
 title: Работа с кодеками дмос
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45839d6b86db47777aa4604fda08ffb7367ef42e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d3b7a57b84d39ba1271dafa904b1efaa1eba3d9af2be343d73843da536b8dfd9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118057188"
 ---
 # <a name="working-with-codec-dmos"></a>Работа с кодеками дмос
 
@@ -19,19 +19,19 @@ ms.locfileid: "104081167"
 
 | Раздел                                                                               | Описание                                                                                        |
 |-------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
-| [Основы DMO](dmobasics-ebet.md)                                                    | Содержит общие сведения о дмос в контексте интерфейсов аудиокодеков Windows Media Audio и Video. |
+| [DMO Основы](dmobasics-ebet.md)                                                    | содержит общие сведения о дмос в контексте интерфейсных кодеков Windows Media Audio и Video. |
 | [Создание экземпляра кодека дмос](instantiatingcodecdmos.md)                              | Объясняет, как получить экземпляры объектов мультимедиа DirectX (дмос).                        |
-| [Работа с типами мультимедиа DMO](workingwithmediatypes.md)                           | Описывает структуры, которые используются для описания типов мультимедиа с помощью кодека дмос.                  |
-| [Работа с буферами мультимедиа DMO](workingwithmediabuffers.md)                       | Описывает буферы, которые необходимо создать для обработки образцов с помощью кодека дмос.                 |
+| [работа с типами носителей DMO](workingwithmediatypes.md)                           | Описывает структуры, которые используются для описания типов мультимедиа с помощью кодека дмос.                  |
+| [работа с буферами мультимедиа DMO](workingwithmediabuffers.md)                       | Описывает буферы, которые необходимо создать для обработки образцов с помощью кодека дмос.                 |
 | [Настройка кодека дмос](enumeratingsupportedformats.md)                           | Описывает последовательность настройки кодека дмос.                                             |
-| [Обработка входных и выходных данных в коде DMO](processingsamples.md)                      | Описывает, как обрабатывать входные и выходные данные с помощью кодека дмос.                               |
-| [Использование кодеков Windows Media в DirectShow](usingthecodecdmoswithdirectshow.md) | Описывает использование объектов кодека в приложениях, использующих DirectShow.                        |
+| [обработка кодека DMO входных и выходных данных](processingsamples.md)                      | Описывает, как обрабатывать входные и выходные данные с помощью кодека дмос.                               |
+| [использование кодеков Windows мультимедиа в DirectShow](usingthecodecdmoswithdirectshow.md) | Описывает использование объектов кодека в приложениях, использующих DirectShow.                        |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

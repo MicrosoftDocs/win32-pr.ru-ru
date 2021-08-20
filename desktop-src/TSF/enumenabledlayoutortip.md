@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b192896dd95d5ab8f306158e33a8d248793bfc10
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 45b7f6ee6876042f2660e9430f096a96f3fa5ec40d78828041c6787f1e18bcd3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105681876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117953466"
 ---
 # <a name="enumenabledlayoutortip-function"></a>Функция Енуменабледлайаутортип
 
@@ -85,7 +85,7 @@ UINT EnumEnabledLayoutOrTip(
 
 Для языков редактора методов ввода (IME) возвращаются все редакторы IME, даже если включен только один редактор IME. Например, если у пользователя включен новый быстрый редактор IME для CHT, функция **енуменабледлайаутортип** возвращает все 5 редакторов IME для CHT.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Нет доступной библиотеки импорта, которая определяет эту функцию, поэтому необходимо получить указатель на эту функцию с помощью [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress).
 
@@ -117,8 +117,8 @@ typedef struct tagLAYOUTORTIPPROFILE {
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                 |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Input.dll</dt> </dl> |
 
 

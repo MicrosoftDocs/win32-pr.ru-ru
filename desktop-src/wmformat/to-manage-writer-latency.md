@@ -11,12 +11,12 @@ keywords:
 - Задержка
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3260be03344f1bf13252007b10614746ceda3e96
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: c0adb18814cc8153ae81ed9517834d62345f18b61f51de6aacd38e9028699331
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "105681582"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117845484"
 ---
 # <a name="to-manage-writer-latency"></a>Управление задержкой записи
 
@@ -26,16 +26,16 @@ ms.locfileid: "105681582"
 
 Следующий фактор, в котором обычно есть управление, — это порядок, в котором образцы передаются модулю чтения. Можно достичь более высокой задержки, передав образцы в порядке времени презентации и убедившись, что входные образцы хорошо синхронизированы между всеми входными потоками. Чем больше разница во времени показа между образцами для различных потоков, тем больше задержка будет возникать. Вы можете задать максимальное значение для несоответствия между входными образцами, вызвав [**ивмвритерадванцед:: сетсинктолеранце**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-setsynctolerance).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Запись файлов ASF**](writing-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
