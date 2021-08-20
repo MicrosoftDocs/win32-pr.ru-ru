@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7b0583218d8f3a1ec1f40f344de0eff5fc5ea1ef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f3df4c8472e83fecd69f26f867ad537fe49b26ec46a8f0abb2167c58b79869f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118070032"
 ---
 # <a name="vistaparamenableviewcache-field"></a>Вистапарам. Енаблевиевкаче, поле
 
@@ -53,7 +53,7 @@ value = VistaParam.EnableViewCache
 public const JET_param EnableViewCache
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

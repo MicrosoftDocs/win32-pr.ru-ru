@@ -3,7 +3,7 @@ title: Сообщение TTM_GETTOOLINFO (Коммктрл. h)
 description: Извлекает сведения о средстве, которые поддерживает элемент управления ToolTip.
 ms.assetid: b94d3b78-2437-4c60-ba46-b3f57cf9c876
 keywords:
-- Элементы управления Windows для TTM_GETTOOLINFO сообщений
+- элементы управления Windows сообщений TTM_GETTOOLINFO
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cc0de37b97be3bec495c8777b2ddd1cc6fc1bd42
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 77f19243603ab5d2ba62d498a5595528e39b33658c7a8e4aa0638888806684ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118166377"
 ---
 # <a name="ttm_gettoolinfo-message"></a>\_Сообщение ТТМ жеттулинфо
 
@@ -45,7 +45,7 @@ ms.locfileid: "104135934"
 
 Возвращает **значение true** , если успешно, или **false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если элемент управления ToolTip включает средство, структура [**тулинфо**](/windows/win32/api/commctrl/ns-commctrl-tttoolinfoa) получает сведения о средстве.
 
@@ -89,15 +89,15 @@ HRESULT MyToolTipClass::OffsetTooltip(int xOffset, int yOffset)
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **ТТМ \_ ЖЕТТУЛИНФОВ** (Юникод) и **ТТМ \_ жеттулинфоа** (ANSI)<br/>           |
 
 

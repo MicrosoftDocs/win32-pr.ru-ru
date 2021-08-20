@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 267d753789ed09115bea6bc873a6cda569483e10
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3c8d1259d8e34082bed0b10de0d58f84e4e08a6c4426d12a443f2a4bf7b923a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103912744"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118083299"
 ---
 # <a name="doublecolumnvalue-constructor"></a>Конструктор Даублеколумнвалуе
 
@@ -50,7 +50,7 @@ Dim instance As New DoubleColumnValue()
 public DoubleColumnValue()
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

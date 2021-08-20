@@ -19,21 +19,21 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: dadaa7eaa310c5b3a6a2730d316218bc2607d100
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7af59de6daf4161c6c7ea86574b97c0a4a7d5890630a9c42426bde5c48105f19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703279"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118072245"
 ---
 # <a name="jetresizedatabase-function"></a>Функция Жетресизедатабасе
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 Функция **жетресизедатабасе** расширяет или сжимает размер открытой в данный момент базы данных.
 
-Функция **жетресизедатабасе** была введена в операционной системе Windows 8.
+функция **жетресизедатабасе** была введена в операционной системе Windows 8.
 
 ``` c++
 JET_ERR JET_API JetResizeDatabase(
@@ -89,7 +89,7 @@ JET_ERR JET_API JetResizeDatabase(
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из кодов возврата, перечисленных в следующей таблице. Дополнительные сведения о возможных ошибках ESE см. в разделе [Расширенные ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из кодов возврата, перечисленных в следующей таблице. дополнительные сведения о служба хранилища возможных ошибках ESE см. в разделе [ошибки расширяемых](./extensible-storage-engine-errors.md) подсистемы служба хранилища и [параметры обработки ошибок](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -119,7 +119,7 @@ JET_ERR JET_API JetResizeDatabase(
 </table>
 
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 Если функция **жетресизедатабасе** вызывается до вставки больших объемов данных, файл базы данных будет увеличен за одну операцию. Это снизит вероятность того, что файл базы данных станет фрагментированным на уровне файловой системы, а также сократит число попыток увеличения размера файла базы данных. Увеличение файла базы данных выполняется один раз быстрее, чем в несколько раз.
 
@@ -140,7 +140,7 @@ JET_ERR JET_API JetResizeDatabase(
 <td><p>Требуется Windows 8.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
+<td><p><strong>Сервер</strong></p></td>
 <td><p>Требуется Windows Server 2012.</p></td>
 </tr>
 <tr class="odd">
@@ -159,7 +159,7 @@ JET_ERR JET_API JetResizeDatabase(
 </table>
 
 
-#### <a name="see-also"></a>См. также раздел
+#### <a name="see-also"></a>См. также
 
 [JET_ERR](./jet-err.md)  
 [JET_GRBIT](./jet-grbit.md)  

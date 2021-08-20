@@ -4,12 +4,12 @@ ms.assetid: 8dbae3e2-31bb-4ab0-bba8-b79061338ea4
 title: Атрибут height
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2875a7b14dfa887f200baf07463a96ce27238e27
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b5036cd5e38ad4f90827c3ee8c79ebb677992b5ad4fdc038dca5eaccab7c3085
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104140546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119564614"
 ---
 # <a name="height-attribute"></a>Атрибут height
 
@@ -24,15 +24,15 @@ ms.locfileid: "104140546"
 
 Значение с плавающей запятой. Значение должно включать начальный ноль перед десятичной запятой. Например, 0,3, а не. 3. Не используйте более семи десятичных знаков.
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 [**сгруппировать**](group-element.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Устанавливайте этот атрибут только в том случае, если атрибут **Type** имеет значение `video` .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

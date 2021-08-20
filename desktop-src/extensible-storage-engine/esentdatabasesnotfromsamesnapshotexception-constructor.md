@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 53d32ff9ee6cc16e3098e293b5990f90c0b9d8c7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1500a5e3dd8f9ef6be09f15040f3ab058f1d4aa010f832214ec38236ae02b95e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103898494"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119785064"
 ---
 # <a name="esentdatabasesnotfromsamesnapshotexception-constructor"></a>Конструктор Есентдатабасеснотфромсамеснапшотексцептион
 
@@ -52,7 +52,7 @@ Dim instance As New EsentDatabasesNotFromSameSnapshotException()
 public EsentDatabasesNotFromSameSnapshotException()
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

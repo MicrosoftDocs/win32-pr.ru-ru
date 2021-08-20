@@ -4,9 +4,9 @@ description: Удаляет все параметры из объекта Resour
 ms.assetid: 1b4d7f15-c56f-4b0d-9614-8376012abca7
 ms.tgt_platform: multiple
 keywords:
-- служба удаленного управления Windows метода Клеароптионс
-- Служба удаленного управления Windows метода Клеароптионс, объект ResourceLocator
-- Служба удаленного управления Windows объекта ResourceLocator, метод Клеароптионс
+- служба удаленного управления Windows метода клеароптионс
+- служба удаленного управления Windows метода клеароптионс, объект ResourceLocator
+- служба удаленного управления Windows объекта ResourceLocator, метод клеароптионс
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fda4be766b65756a9bcf8de02a4417fd15a3e7f2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ef695b949c62c0d56de45914e1a54996d4d7599f029d136ad78b03ac687365aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118112915"
 ---
 # <a name="resourcelocatorclearoptions-method"></a>ResourceLocator. Клеароптионс, метод
 
@@ -41,11 +41,11 @@ ResourceLocator.ClearOptions()
 
 Этот метод не имеет параметров.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **Ивсманресаурцелокатор:: клеароптионс** — соответствующий метод C++.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -53,14 +53,14 @@ ResourceLocator.ClearOptions()
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                 |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                           |
-| Header<br/>                   | <dl> <dt>Всмандисп. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Всмандисп. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Всмандисп. idl</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Всмандисп. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WSMAuto.dll</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

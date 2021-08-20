@@ -4,16 +4,16 @@ ms.assetid: 92013015-b0f5-4b92-937b-c2637f65810c
 title: Объект Volume
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e47092a237e7b0e9441b08c410d95d0836dbdb7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87887dae233a47ef168546bb4d0bab93389ab72e0e0617b64ea0c80fbfab0e83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674456"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118125394"
 ---
 # <a name="volume-object"></a>Объект Volume
 
-\[Начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API управления хранилищами Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API Windows служба хранилища управления](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 Объект тома моделирует логическую единицу хранения, созданную поставщиком программного обеспечения и представленную файловой системе в качестве диска. Каждый том состоит по крайней мере из одного плекса тома, который, в свою очередь, состоит из экстентов одного или нескольких дисков.
 
@@ -29,7 +29,7 @@ ms.locfileid: "105674456"
 
 ### <a name="volume-creation"></a>Создание тома
 
-Базовый и динамический поставщики программного обеспечения поддерживают частично направленное создание томов; вызывающий объект указывает только те атрибуты, которые относятся к определенному интересу, и позволяет поставщику выбрать остальные. Служба VDS автоматически подключает созданный том, за исключением платформ Windows Server 2003, Enterprise Edition и Windows Server 2003, Datacenter Edition.
+Базовый и динамический поставщики программного обеспечения поддерживают частично направленное создание томов; вызывающий объект указывает только те атрибуты, которые относятся к определенному интересу, и позволяет поставщику выбрать остальные. служба VDS автоматически подключает вновь созданный том, за исключением Windows server 2003, выпуск Enterprise и Windows server 2003, datacenter Edition.
 
 ### <a name="working-with-volumes"></a>Работа с томами
 
@@ -51,9 +51,9 @@ ms.locfileid: "105674456"
 
  
 
-**\* Windows Server 2003:** эти интерфейсы не поддерживаются до Windows Vista.
+**\* Windows Server 2003.** эти интерфейсы не поддерживаются до Windows Vista.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

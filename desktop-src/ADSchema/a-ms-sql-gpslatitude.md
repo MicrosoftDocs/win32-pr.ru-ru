@@ -1,11 +1,11 @@
 ---
-title: Атрибут MS-SQL-Гпслатитуде
-description: Атрибут MS-SQL-Гпслатитуде в настоящее время не используется.
+title: атрибут MS-SQL-гпслатитуде
+description: атрибут MS-SQL-гпслатитуде в настоящее время не используется.
 ms.assetid: 08f17252-7d06-4491-aa39-d9de017158fa
 ms.tgt_platform: multiple
 keywords:
-- Схема AD атрибута MS-SQL-Гпслатитуде
-- Схема AD атрибута mS-SQL-Гпслатитуде
+- схема AD атрибута гпслатитуде MS-SQL-
+- схема AD атрибута гпслатитуде mS-SQL-
 topic_type:
 - apiref
 api_name:
@@ -14,23 +14,23 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d41ae4010c2cce93d6128cae6d9a7055f234b20
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 965309cb004d62fce093ce5efdfdaa70c255cb2c2fc2179affd58ed96fec33af
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103989848"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119299804"
 ---
-# <a name="ms-sql-gpslatitude-attribute"></a>Атрибут MS-SQL-Гпслатитуде
+# <a name="ms-sql-gpslatitude-attribute"></a>атрибут MS-SQL-гпслатитуде
 
-Атрибут **MS-SQL-гпслатитуде** в настоящее время не используется.
+атрибут **MS-SQL-гпслатитуде** в настоящее время не используется.
 
 
 
 | Ввод | Значение |
 |-------------------|---------------------------------------------|
-| CN                | MS-SQL-Гпслатитуде                          |
-| LDAP-отображаемое имя | mS-SQL-Гпслатитуде                          |
+| CN                | MS-SQL-гпслатитуде                          |
+| LDAP-отображаемое имя | mS-SQL-гпслатитуде                          |
 | Размер              | \-                                          |
 | Привилегия обновления  | \-                                          |
 | Частота обновления  | \-                                          |

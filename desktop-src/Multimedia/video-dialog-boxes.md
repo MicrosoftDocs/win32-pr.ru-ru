@@ -13,12 +13,12 @@ keywords:
 - макрос Капдлгвидеокомпрессион
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 046fbb6cedbf86fd4ad7262c7685b10a5ff7b003
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 93674b8ed4e6f6ff594013cc27825aea601cc005fc082ca8a8954b661c1f4317
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105661517"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118135562"
 ---
 # <a name="video-dialog-boxes"></a>Диалоговые окна видео
 
@@ -32,9 +32,9 @@ ms.locfileid: "105661517"
 
 Диалоговое окно «сжатие видео» управляет атрибутами сжатия видео после записи. Если диалоговое окно поддерживается драйвером видеозаписи, его можно отобразить и обновить с помощью сообщения [**WM \_ \_ \_ видеокомпрессион DLG**](wm-cap-dlg-videocompression.md) (или макроса [**капдлгвидеокомпрессион**](/windows/desktop/api/Vfw/nf-vfw-capdlgvideocompression) ).
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ description: Вспомогательные методы реализации с
 ms.assetid: 18641a84-56f8-4d27-9ddb-fa64011ac8ba
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 264d3f26b179b3ecb659ef93785c8c223b6c524e
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 74a872fb52ae1a5f3c8a8c4bbda13b77efe9317f785a1ccd975512532943b4c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104413845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118105122"
 ---
 # <a name="out-of-process-server-implementation-helpers"></a>Вспомогательные методы реализации сервера
 
@@ -44,13 +44,13 @@ ms.locfileid: "104413845"
 -   В SCM выполняется только один вызов, независимо от количества зарегистрированных идентификаторов CLSID, что снижает общее время регистрации (и, следовательно, время запуска серверного приложения).
 -   Если сервер имеет несколько апартаментов и разные идентификаторы CLSID зарегистрированы в разных подразделениях или если сервер является свободным потоком сервера, то запросы на активацию не будут приходить до тех пор, пока сервер не вызовет [**коресумеклассобжектс**](/windows/desktop/api/combaseapi/nf-combaseapi-coresumeclassobjects), предоставляя серверу возможность регистрировать все свои идентификаторы CLSID и правильно настраиваться, прежде чем выполнять запросы на активацию и возобновление работы запросов.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Обязанности сервера COM](com-server-responsibilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

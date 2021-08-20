@@ -5,12 +5,12 @@ ms.assetid: 26e5107f-8204-4f64-bd07-b5b4f16103f4
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bdd550a3eed6aeb633f6db265260b6c65c17f993
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: fd4a7e9f43338cd3717fd57e056cfb8e8f48feddeaba21bb093d2f26686defc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104069810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118022568"
 ---
 # <a name="class-inheritance-in-the-active-directory-schema"></a>Наследование классов в схеме Active Directory
 
@@ -23,6 +23,6 @@ ms.locfileid: "104069810"
 
 Имейте в виду, что класс Object также может иметь много вспомогательных классов, которые указаны в атрибутах [**auxiliaryClass**](/windows/desktop/ADSchema/a-auxiliaryclass) и [**системауксилиарикласс**](/windows/desktop/ADSchema/a-systemauxiliaryclass) объекта **classSchema** . Класс объекта наследует значения [**mustContain**](/windows/desktop/ADSchema/a-mustcontain), [**mayContain**](/windows/desktop/ADSchema/a-maycontain), [**системмустконтаин**](/windows/desktop/ADSchema/a-systemmustcontain)и [**системмайконтаин**](/windows/desktop/ADSchema/a-systemmaycontain) из вспомогательных классов.
 
- 
+ 
 
- 
+ 

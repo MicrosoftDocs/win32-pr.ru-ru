@@ -136,7 +136,7 @@
                   href: registering-a-transient-subscription.md
                 - name: Публикация события
                   href: publishing-an-event.md
-                - name: Создание фильтра издателя
+                - name: создание фильтра Publisher
                   href: creating-a-publisher-filter.md
         - name: Основные понятия инструментария COM+
           href: com--instrumentation-concepts.md
@@ -590,11 +590,11 @@
             - name: 'Отладка компонентов, написанных на Visual Basic'
               href: debugging-components-written-in-visual-basic.md
               items:
-                - name: Отладка в интегрированной среде разработки Visual Basic
+                - name: отладка в интегрированной среде разработки Visual Basic
                   href: debugging-in-the-visual-basic-ide.md
-                - name: Отладка скомпилированных компонентов Visual Basic
+                - name: отладка скомпилированных компонентов Visual Basic
                   href: debugging-compiled-visual-basic-components.md
-                - name: Поддержка отладки Visual Basic COM+ отличается от MTS
+                - name: поддержка отладки Visual Basic COM+ отличается от MTS
                   href: com--visual-basic-debugging-support-contrasted-with-mts.md
         - name: Обработка ошибок в COM+
           href: handling-errors-in-com-.md
@@ -671,7 +671,7 @@
                       href: using-a-three-tier-architecture-model.md
                 - name: 'Физическая модель: архитектура приложения'
                   href: the-physical-model--application-architecture.md
-            - name: Общие рекомендации по проектированию для использования COM+
+            - name: общие Советы разработки для использования COM+
               href: general-design-tips-for-using-com-.md
               items:
                 - name: Проектирование для масштабируемости
@@ -849,7 +849,7 @@
                   items:
                     - name: Метод Баккупрегдб
                       href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-backupregdb
-                    - name: Метод Connect
+                    - name: Подключение Method
                       href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-connect
                     - name: Метод Експортаппликатион
                       href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-exportapplication

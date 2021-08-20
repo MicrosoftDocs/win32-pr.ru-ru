@@ -4,12 +4,12 @@ description: Раздел реестра Оверридиапцертифика�
 ms.assetid: 469FECA9-FF2A-46B1-9370-0FF28EF2FB33
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d958eeeffba96e7a060ee4dd3edaf8a9935a15d1
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: d93efec6968fb27b0d27d88c696101815f0b48c36c100f78092d5b559d4c0f7e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "103890088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118085918"
 ---
 # <a name="overrideeapcertificateselection"></a>оверридиапцертификатеселектион
 
@@ -19,10 +19,10 @@ ms.locfileid: "103890088"
 
 ```
 HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Rasman\PPP\EAP\13
-   OverrideEAPCertificateSelection = value
+   OverrideEAPCertificateSelection = value
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это **\_ двоичное значение reg** .
 
@@ -39,18 +39,18 @@ HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Rasman\PPP\EAP\13
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Параметры реестра EAPHost](eaphost-registry-settings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

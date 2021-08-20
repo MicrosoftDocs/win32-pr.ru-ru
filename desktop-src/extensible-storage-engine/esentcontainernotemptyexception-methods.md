@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101404
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: be1d5f858375b004cee7539469c7e5e4d40764be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 56dff3083d20d1bed9d547f2a5026acadb442b65eab36255ce6a35dc8b616f83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104496965"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117713493"
 ---
 # <a name="esentcontainernotemptyexception-methods"></a>Методы EsentContainerNotEmptyException 
 
@@ -28,7 +28,7 @@ ms.locfileid: "104496965"
 <tr class="header">
 <th> </th>
 <th>Имя</th>
-<th>Описание</th>
+<th>Описание:</th>
 </tr>
 </thead>
 <tbody>
@@ -78,7 +78,7 @@ ms.locfileid: "104496965"
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

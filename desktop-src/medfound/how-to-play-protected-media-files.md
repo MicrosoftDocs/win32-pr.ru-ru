@@ -4,12 +4,12 @@ ms.assetid: 85d98f49-8af2-42ce-9b36-a025aee93f73
 title: Воспроизведение защищенных файлов мультимедиа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0f8f7af78881e43f2f7f85e8f333ab31b1bc2de
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: c20a2b525f8acc3a602bcaae2630726d01269881beec07ac214f4d0bd02ee1cd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105703467"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119942344"
 ---
 # <a name="how-to-play-protected-media-files"></a>Воспроизведение защищенных файлов мультимедиа
 
@@ -117,7 +117,7 @@ hr = pEnablerActivate->ActivateObject(
 2.  Вызовите метод [**имфконтентенаблер:: жетенабледата**](/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-getenabledata) , чтобы получить данные HTTP POST.
 3.  Вызовите [**имфконтентенаблер:: мониторенабле**](/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-monitorenable). Этот метод заставляет модуль включения содержимого отслеживать ход выполнения действия получения прав.
 
-4.  Отправьте данные в URL-адрес получения прав с помощью действия HTTP POST. Можно использовать элемент управления Internet Explorer или API Windows Internet (WinINet).
+4.  Отправьте данные в URL-адрес получения прав с помощью действия HTTP POST. можно использовать элемент управления internet Explorer или api Windows интернета (WinINet).
 
 В следующем коде показаны шаги 1 – 3. Шаг 4 зависит от конкретных требований приложения.
 
@@ -197,7 +197,7 @@ SAFE_RELEASE(pResult);
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

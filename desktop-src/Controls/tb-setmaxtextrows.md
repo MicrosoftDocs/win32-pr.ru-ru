@@ -3,7 +3,7 @@ title: Сообщение TB_SETMAXTEXTROWS (Коммктрл. h)
 description: Задает максимальное число строк текста, отображаемых на кнопке панели инструментов.
 ms.assetid: a14d74e8-cc21-482d-9bca-38dc7c0528ec
 keywords:
-- Элементы управления Windows для TB_SETMAXTEXTROWS сообщений
+- элементы управления Windows сообщений TB_SETMAXTEXTROWS
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d0984c0b73280ec90c4e659d3bb3b4cc89cdcf4c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1d6a1e1a2cda7b3dced4cf538623578d48b41d38925629f2985a35974baed229
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118167484"
 ---
 # <a name="tb_setmaxtextrows-message"></a>\_Сообщение СЕТМАКСТЕКСТРОВС ТБ
 
@@ -43,19 +43,19 @@ ms.locfileid: "103988373"
 
 Возвращает ненулевое значение в случае успеха или ноль в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы переносить текст, необходимо задать максимальную ширину кнопки, отправив [**ТБ \_ сетбуттонвидс**](tb-setbuttonwidth.md) сообщение. Текст переносится при разрыве слова; разрывы строк (" \\ n") в тексте не учитываются. Текст в \_ панелях инструментов списка тбстиле всегда отображается в одной строке.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

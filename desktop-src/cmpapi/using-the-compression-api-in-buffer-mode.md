@@ -4,12 +4,12 @@ ms.assetid: 0A062E5D-E5FA-4098-B76E-E136FC74D853
 title: Использование API сжатия в режиме буфера
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 676a5bea1ea4fa673bbf9a8fc2caf9fe84d9bc1e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 79a63b8a7dabc7b61c85abb192f855f094a6e271a99997b9e98b849614d53527
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048942"
 ---
 # <a name="using-the-compression-api-in-buffer-mode"></a>Использование API сжатия в режиме буфера
 
@@ -19,7 +19,7 @@ ms.locfileid: "105692034"
 
 Приложения, использующие буфер или режим блокировки, имеют возможность указать настраиваемую подпрограмму выделения памяти при вызове [**креатекомпрессор**](/windows/desktop/api/compressapi/nf-compressapi-createcompressor) или [**креатедекомпрессор**](/windows/desktop/api/compressapi/nf-compressapi-createdecompressor). Пример простой настраиваемой подпрограммы выделения см. в разделе [Использование API сжатия в режиме блокировки](using-the-compression-api-in-block-mode.md) .
 
-**Windows 8 и Windows Server 2012:** Чтобы использовать следующий пример кода, необходимо работать под Windows 8 или Windows Server 2012 и иметь "компрессапи. h" и "cabinet.dll" и ссылаться на "Cabinet. lib".
+**Windows 8 и Windows Server 2012:** чтобы использовать следующий пример кода, необходимо запустить Windows 8 или Windows Server 2012 и иметь "компрессапи. h" и "cabinet.dll" и создать ссылку на "Cabinet. lib".
 
 В следующем фрагменте кода демонстрируется сжатие файлов с помощью алгоритма сжатия XPRESS и кодировка Хаффмана с использованием API сжатия в режиме буфера. Приложение принимает файл, сжимает его содержимое и создает сжатый файл. Сначала приложение вызывает [**креатекомпрессор**](/windows/desktop/api/compressapi/nf-compressapi-createcompressor) с **\_ алгоритмом сжатия \_ Xpress \_ Хаффа** , чтобы создать компрессор. Затем вызывается [**Сжатие**](/windows/desktop/api/compressapi/nf-compressapi-compress)с параметром *компресседбуфферсизе* , равным 0, для запроса требуемого размера сжатого буфера. Он выделяет выходной буфер для значения *компресседбуфферсизе* . Приложение вызывает **Сжатие** второй раз для выполнения фактического сжатия. Наконец, приложение записывает сжатые данные в выходной файл.
 

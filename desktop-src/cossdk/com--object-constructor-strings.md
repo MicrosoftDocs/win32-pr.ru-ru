@@ -4,12 +4,12 @@ ms.assetid: 5e630812-b2cf-4512-af67-6e919a02bf95
 title: Строки конструктора объектов COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a936df79f1efc2201f428384b929d6bb78e5b25
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 438960c778edb059885a51ae074027a9f626cee0abb9b629389132d436294c8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895630"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118102935"
 ---
 # <a name="com-object-constructor-strings"></a>Строки конструктора объектов COM+
 

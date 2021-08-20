@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 830c4937b30cca64de3063b42ad16dd3adc87c89
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: fe30aa09d401fc8ef35a3671e02a898776af26111ae0f8e31cd1f6ad3bff70b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105684926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119290174"
 ---
 # <a name="glpopname-function"></a>Функция Глпопнаме
 
@@ -55,7 +55,7 @@ void WINAPI glPopName(void);
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция [**глпушнаме**](glpushname.md) приводит к тому, что имя помещается в стек имен, который изначально пуст. Функция **глпопнаме** выводит одно имя из верхней части стека. В режиме выбора используется стек имен, чтобы обеспечить уникальную идентификацию наборов команд отрисовки. Он состоит из упорядоченного набора целых чисел без знака.
 
@@ -67,7 +67,7 @@ void WINAPI glPopName(void);
 
 [**глжет**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) с аргументом \_ , \_ \_ глубина стека максимальных имен \_
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -81,7 +81,7 @@ void WINAPI glPopName(void);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

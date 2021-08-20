@@ -182,7 +182,7 @@ void receiver(SOCKET sock, PSOCKADDR_STORAGE addr, LPFN_WSARECVMSG recvmsg)
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 * [всажетреквипекн](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsagetrecvipecn)
 * [всасетреквипекн](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsasetrecvipecn)

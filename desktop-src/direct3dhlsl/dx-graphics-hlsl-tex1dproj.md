@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 34fc1c019ab5479fe8a23446c94073e19ca68de7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 04b8de660e00b3e2e6a47b13dbc65d9a123a4d62040310b6fd5b19bc0c1f8ac6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104984052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118090532"
 ---
 # <a name="tex1dproj"></a>tex1Dproj
 

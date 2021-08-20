@@ -4,12 +4,12 @@ ms.assetid: 007a6da5-47cf-476a-b0f7-566a68ad19ce
 title: Мультиплексор ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 362a1e0be72e8bc516e37ec83c36446177816f53
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 86e1577f005004dbbe6bbb27e1ce7af346e56e134aff2b3201f5670175b015c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104072587"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035570"
 ---
 # <a name="asf-multiplexer"></a>Мультиплексор ASF
 
@@ -34,14 +34,14 @@ ms.locfileid: "104072587"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Компоненты ASF Вмконтаинер](wmcontainer-asf-components.md)
 </dt> <dt>
 
-[Учебник. копирование потоков ASF из одного файла в другой](tutorial--copying-asf-streams-from-one-file-to-another.md)
+[учебник. копирование ASF Потоки из одного файла в другой](tutorial--copying-asf-streams-from-one-file-to-another.md)
 </dt> <dt>
 
 [Руководство. запись файла WMA с помощью CBR Encoding](tutorial--writing-a-wma-file-by-using-cbr-encoding.md)

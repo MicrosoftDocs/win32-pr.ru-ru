@@ -16,12 +16,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 51c499549378700a90d8fc78d075bc07c1f874cf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0e0bb9104ee1bbd3f0f6c2e8cc04b691205f2e40cb2221b79b5e9f251492a3a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118129261"
 ---
 # <a name="irdvtaskpluginstarttask-method"></a>Метод Ирдвтаскплугин:: StartTask
 
@@ -69,18 +69,18 @@ HRESULT StartTask(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------|
-| Минимальная версия клиента<br/> | Windows 7 Корпоративная<br/>   |
+| Минимальная версия клиента<br/> | Windows 7 Корпоративная<br/>   |
 | Минимальная версия сервера<br/> | Windows Server 2008 R2<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

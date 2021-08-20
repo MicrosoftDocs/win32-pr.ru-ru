@@ -7,12 +7,12 @@ keywords:
 - Получение интерфейсов MIB
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05eb1bb10822ce7dc770e58c5aed36167340a9be
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d7f1fba73882ba81c17aeaf560b134358c9593e579babb6cf4d26dda8d968037
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074024"
 ---
 # <a name="obtaining-the-mib-ii-interfaces-table"></a>Получение таблицы интерфейсов MIB II
 
@@ -112,7 +112,7 @@ int __cdecl main(){
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -125,6 +125,6 @@ int __cdecl main(){
 [**мпрадминмибентрижет**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminmibentryget)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

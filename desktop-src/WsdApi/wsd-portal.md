@@ -4,12 +4,12 @@ ms.assetid: 590e0b0b-763c-44fb-a49f-606415f57b26
 title: Веб-службы на устройствах
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 267f8dba0fd56c383dd3cecabb3c00959aa0d90c
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 9c2046a2bdcded3eb4e6a156cb8c2908744d0a8b4366eae99fa1656cca25fb68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405757"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049662"
 ---
 # <a name="web-services-on-devices"></a>Веб-службы на устройствах
 
@@ -29,7 +29,7 @@ WSDAPI может использоваться для разработки об�
 
 ## <a name="run-time-requirements"></a>Требования к среде выполнения
 
-Клиентские приложения, использующие WSDAPI, поддерживаются начиная с Windows Vista и Windows Server 2008.
+клиентские приложения, использующие WSDAPI, поддерживаются начиная с Windows Vista и Windows Server 2008.
 
 ## <a name="in-this-section"></a>В этом разделе
 

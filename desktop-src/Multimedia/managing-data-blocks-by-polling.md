@@ -9,12 +9,12 @@ keywords:
 - Структура ВАВЕХДР
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7e5580ff64425eae1bc6650268b065e60b90f43
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 17c84e75eccaf34ef16ccadefb4dae42931854a0c6c4278003fb5c01b0c551f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104069865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118139172"
 ---
 # <a name="managing-data-blocks-by-polling"></a>Управление блоками данных путем опроса
 
@@ -22,6 +22,6 @@ ms.locfileid: "104069865"
 
 \_Для проверки элемента **dwFlags** можно использовать флаг вхдр Done. Как только \_ флаг вхдр Done задается в элементе **DwFlags** структуры **вавехдр** , драйвер завершается с блоком данных.
 
- 
+ 
 
- 
+ 

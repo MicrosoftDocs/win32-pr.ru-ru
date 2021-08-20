@@ -6,20 +6,20 @@ keywords:
 - зоны DNS DNS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba8914e699e00cbbc2e699c2b36d40c8d00b87c1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f3d6644fa8a2a4c4ac3b3c9b1973ccc8823cc6b51a304e6d9ddc4756f0fe69e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105654222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118163752"
 ---
 # <a name="dns-zones"></a>Зоны DNS
 
 Зона DNS — это набор файлов или записей (точнее, база данных записей ресурсов), которая соответствует части иерархического пространства имен DNS. Зоны DNS используются для определения того, какие DNS-серверы являются ответственными (полномочными) для разрешения запросов разрешения имен для определенного раздела иерархии DNS. Зоны DNS отличаются от структуры доменов следующим образом: зоны могут состоять из одного или нескольких доменов DNS. Одна зона в дереве доменов gadgets.widgets.microsoft.com может быть полномочной для мини-приложений и доменов widgets. Иными словами, нет необходимости, чтобы зоны DNS имели связь "один к одному" с доменами DNS.
 
- 
+ 
 
- 
+ 
 
 
 

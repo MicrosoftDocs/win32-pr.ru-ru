@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: 4436be457adcca37ba40f15bbe0ecd6b0445fb2f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fa0ade829cff2359e074a4c2faf9942e94aa5e063f0cce841a5a0f0a84a5f3e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118143733"
 ---
 # <a name="configurableitem-object"></a>Объект Конфигураблеитем
 
@@ -31,7 +31,7 @@ ms.locfileid: "105652196"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Объект **конфигураблеитем** имеет следующие свойства.
 
@@ -41,7 +41,7 @@ ms.locfileid: "105652196"
 |:-----------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Атрибуты**](configurableitem-attributes.md)<br/>     | Возвращает значение в поле Attributes записи этого объекта в таблице Модулеконфигуратион.<br/>                            |
 | [**Локального**](configurableitem-context.md)<br/>           | Возвращает значение в поле контекста записи этого объекта в таблице Модулеконфигуратион.<br/>                               |
-| [**DefaultValue**](configurableitem-defaultvalue.md)<br/> | Возвращает значение в поле DefaultValue записи этого объекта в таблице Модулеконфигуратион.<br/>                          |
+| [**Максимально**](configurableitem-defaultvalue.md)<br/> | Возвращает значение в поле DefaultValue записи этого объекта в таблице Модулеконфигуратион.<br/>                          |
 | [**Описание**](configurableitem-description.md)<br/>   | Возвращает значение в поле Description записи этого объекта в таблице Модулеконфигуратион.<br/>                           |
 | [**DisplayName**](configurableitem-displayname.md)<br/>   | Возвращает значение в поле DisplayName записи этого объекта в таблице Модулеконфигуратион.<br/>                           |
 | [**Формат**](configurableitem-format.md)<br/>             | Возвращает значение в поле Format записи этого объекта в таблице Модулеконфигуратион.<br/>                                |
@@ -70,14 +70,14 @@ ms.locfileid: "105652196"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Версия<br/> | Mergemod.dll 2,0 или более поздней версии<br/>                                                    |
-| Header<br/>  | <dl> <dt>Мержемод. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Мержемод. h</dt> </dl>   |
 | DLL<br/>     | <dl> <dt>Mergemod.dll</dt> </dl> |
 
 

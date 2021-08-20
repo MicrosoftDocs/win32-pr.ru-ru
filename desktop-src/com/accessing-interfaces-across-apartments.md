@@ -4,12 +4,12 @@ description: Доступ к интерфейсам в разных апарта
 ms.assetid: 4e0467b9-bbf1-410c-8aab-40450a7f963a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 626707daf721aee3b440bb79ba2d1e084d154a98
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e89e82fa29e768328e6c110349627d32e92ab010ce61fdf64141ad3ca7fe9a54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103774795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048922"
 ---
 # <a name="accessing-interfaces-across-apartments"></a>Доступ к интерфейсам в разных апартаментах
 
@@ -26,14 +26,14 @@ COM позволяет любому подразделению в процесс
 > [!Note]  
 > Глобальная таблица интерфейса не переносима между процессами или границами машин, поэтому ее нельзя использовать вместо обычного механизма передачи параметров.
 
- 
+ 
 
 Сведения о создании и использовании глобальной таблицы интерфейса см. в следующих разделах:
 
 -   [Создание глобальной таблицы интерфейса](creating-the-global-interface-table.md)
 -   [Когда следует использовать глобальную таблицу интерфейса](when-to-use-the-global-interface-table.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -55,9 +55,9 @@ COM позволяет любому подразделению в процесс
 [Подразделения с одним потоком](single-threaded-apartments.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

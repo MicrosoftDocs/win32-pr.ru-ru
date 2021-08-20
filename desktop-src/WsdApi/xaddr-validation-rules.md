@@ -4,12 +4,12 @@ ms.assetid: 6b5139b5-aa31-42bc-a281-8784006edfbe
 title: Правила проверки Ксаддр
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc91ce8a0e1bba267ea92fa79a6680b481297f24
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e3b167101b6012bcf20779381993cfff4ea7ea22d35eef5397ac1349baa2cdf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049512"
 ---
 # <a name="xaddr-validation-rules"></a>Правила проверки Ксаддр
 
@@ -33,7 +33,7 @@ ms.locfileid: "104263782"
 -   По крайней мере один IP-адрес, включенный в Ксаддрс (или IP-адрес, разрешенный с имени узла, включенного в Ксаддрс), должен находиться в той же подсети, что и адаптер, по которому было получено сообщение [ProbeMatch](probematches-message.md) или [ресолвематчес](resolvematches-message.md) .
 -   Адрес и порт, указанные в первом Ксаддр, должны быть доступны. WSDAPI пытается подключиться к этому адресу при установлении HTTP-соединения.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -43,7 +43,7 @@ ms.locfileid: "104263782"
 [ресолвематчес](resolvematches-message.md)
 </dt> <dt>
 
-[Шаблоны сообщений обнаружения и обмена метаданными](discovery-and-metadata-exchange-message-patterns.md)
+[шаблоны сообщений обнаружения и метаданных Exchange](discovery-and-metadata-exchange-message-patterns.md)
 </dt> </dl>
 
  

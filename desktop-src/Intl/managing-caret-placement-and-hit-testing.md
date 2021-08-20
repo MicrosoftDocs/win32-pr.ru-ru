@@ -4,12 +4,12 @@ ms.assetid: 50b4b643-af96-4a6f-80f9-27a71ce16b0e
 title: Управление размещением курсора и проверкой попадания
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 60396a668c89f7392b28adde0bb123060bf50348
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 02e1c6d3b9dbd54f3df2b458a3f7473d1021dceafd6772730b8482b06c4e1c4e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119788404"
 ---
 # <a name="managing-caret-placement-and-hit-testing"></a>Управление размещением курсора и проверкой попадания
 
@@ -52,7 +52,7 @@ ms.locfileid: "105682997"
 
 Чтобы помочь приложению установить допустимые расположения курсора при обработке клавиш со стрелками, Uniscribe предоставляет сведения о допустимых позициях курсора в элементе **фчарстоп** в логических атрибутах, возвращенных [**скриптбреак**](/windows/desktop/api/Usp10/nf-usp10-scriptbreak). **Значение true** возвращается для большинства символов и **false** для символов между кластерами в таких скриптах, как тайский. Приложение должно проверить значение **фнидскаретинфо** в структуре [**\_ свойств скрипта**](/windows/desktop/api/Usp10/ns-usp10-script_properties) для элемента, чтобы узнать, нужно ли вызывать **скриптбреак** для проверки допустимости позиций курсора. Если значение **фнидскаретинфо** равно **false**, то все кодовые точки являются допустимыми позициями курсора.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

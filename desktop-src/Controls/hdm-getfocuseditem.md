@@ -3,7 +3,7 @@ title: Сообщение HDM_GETFOCUSEDITEM (Коммктрл. h)
 description: Возвращает элемент в элементе управления "заголовок", который находится в фокусе. Отправляйте это сообщение явным образом или с помощью \_ макроса Жетфокуседитем заголовка.
 ms.assetid: 9ad8e497-6f81-4226-b138-d1101f2fd8b3
 keywords:
-- Элементы управления Windows для HDM_GETFOCUSEDITEM сообщений
+- элементы управления Windows сообщений HDM_GETFOCUSEDITEM
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c21fcb29f5f431e32ca3f07265b7e96620d5a67
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f71b1b374c4d12f6dfb493cb8f8e0ea46d9d48094f0aed3c95a037ab7f3ea4f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491478"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118006120"
 ---
 # <a name="hdm_getfocuseditem-message"></a>\_Сообщение ЖЕТФОКУСЕДИТЕМ HDM
 
@@ -45,13 +45,13 @@ ms.locfileid: "104491478"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

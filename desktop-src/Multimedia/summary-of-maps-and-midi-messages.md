@@ -1,6 +1,6 @@
 ---
-title: Сводка по картам и сообщениям MIDI
-description: Сводка по картам и сообщениям MIDI
+title: сводка по Карты и сообщениям MIDI
+description: сводка по Карты и сообщениям MIDI
 ms.assetid: cd0ec7b0-2ba1-4e75-b85c-f5b95ac9dfeb
 keywords:
 - Цифровой интерфейс MIDI, сопоставитель MIDI
@@ -13,14 +13,14 @@ keywords:
 - карты ключей
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ddd962f848343ea493204d494943a99eedcc56a5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a89c23d6326e19cb5680906155d5ee2e8dbcc32735fabd8625658410ef4ddfa0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103778839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119781854"
 ---
-# <a name="summary-of-maps-and-midi-messages"></a>Сводка по картам и сообщениям MIDI
+# <a name="summary-of-maps-and-midi-messages"></a>сводка по Карты и сообщениям MIDI
 
 Ниже приведены байты состояния для сообщений MIDI и типы карт, влияющие на каждое сообщение.
 
@@ -39,15 +39,15 @@ ms.locfileid: "103778839"
 
 
 
- 
+ 
 
 -   Старшие четыре бита представляют значение состояния. Младшие четыре бита представляют сведения о канале.
 -   Карты исправлений влияют только на контроллер 7 (основной том).
 -   Системные сообщения отправляются на все устройства, перечисленные в карте каналов.
 
- 
+ 
 
- 
+ 
 
 
 

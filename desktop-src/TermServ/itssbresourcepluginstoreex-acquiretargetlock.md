@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c18be0a544ebcea2d2cecb40dcea3a08e4bd35b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f80a2ab7068ec754a89e384028f2d43989345e9801c4ededb800117d211b0f8f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118128461"
 ---
 # <a name="itssbresourcepluginstoreexacquiretargetlock-method"></a>Метод Итссбресаурцеплугинсторикс:: Аккуиретаржетлокк
 
@@ -70,7 +70,7 @@ HRESULT AcquireTargetLock(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 После получения блокировки предполагается, что вызывающий поток имеет монопольный доступ к целевому объекту и, следовательно, ни один другой поток (на том же компьютере) не сможет его обновить. Поэтому вызывающий поток должен вызвать метод [**релеасетаржетлокк**](/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcepluginstore-releasetargetlock) , как только он внес необходимые обновления в целевой объект.
 
@@ -79,9 +79,9 @@ HRESULT AcquireTargetLock(
 
  
 
-Этот метод доступен в Windows Server 2012 R2 с [KB3091411](https://support.microsoft.com/kb/3091411) , установленным в интерфейсе [**итссбресаурцеплугинсторикс**](itssbresourcepluginstoreex.md) .
+этот метод доступен в Windows Server 2012 R2 с [KB3091411](https://support.microsoft.com/kb/3091411) , установленным в интерфейсе [**итссбресаурцеплугинсторикс**](itssbresourcepluginstoreex.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -95,7 +95,7 @@ HRESULT AcquireTargetLock(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

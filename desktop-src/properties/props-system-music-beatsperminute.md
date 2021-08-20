@@ -4,12 +4,12 @@ ms.assetid: ebf92204-d615-4bcc-a181-f98a9396abf5
 title: System. Music. Беатсперминуте
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb4a6a4d79fe7aacf0e0a8296f6a91274003ab77
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 602aa11dfc8befbec1388983bf896afefe9c172e0c23e19a2e9db5347fa0e628
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108100862"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118052795"
 ---
 # <a name="systemmusicbeatsperminute"></a>System. Music. Беатсперминуте
 
@@ -32,7 +32,7 @@ propertyDescription
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

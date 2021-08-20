@@ -6,12 +6,12 @@ keywords:
 - Сообщения MCI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ade9ac3ea5c2a3c74f94bab899305cdae7ec51c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 67b411c018c55254658972d3cdc21a9d721334d5e78635b38f636892e2c80797
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103791395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119784324"
 ---
 # <a name="mci-functions-macros-and-messages"></a>Макросы и сообщения функций MCI
 
@@ -47,10 +47,10 @@ ms.locfileid: "103791395"
 
 
 
- 
+ 
 
 Кроме того, MCI предоставляет два сообщения: [**mm \_ МЦинотифи**](mm-mcinotify.md) и [**mm \_ мЦисигнал**](mm-mcisignal.md). \_Сообщение МЦИНОТИФИ mm уведомляет приложение о результате выполнения команды MCI, когда эта команда задает флаг notify (уведомление MCI \_ ). \_Сообщение МЦИСИГНАЛ mm относится только к устройствам Digital-Video, оно уведомляет приложение о достижении указанной должности.
 
- 
+ 
 
- 
+ 
