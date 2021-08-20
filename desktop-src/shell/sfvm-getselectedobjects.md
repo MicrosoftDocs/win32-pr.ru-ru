@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 056a9bd6bea78ef5093f6654b9935eb90e3759ec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e892755b3c9bec0d955ddc786b818eac8d04e865acb710d1d5064c7f4102e77
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103913315"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117677230"
 ---
 # <a name="sfvm_getselectedobjects-message"></a>\_Сообщение сфвм жетселектедобжектс
 
@@ -46,7 +46,7 @@ SFVM_GETSELECTEDOBJECTS
 
 Возвращает число элементов в массиве.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 По завершении необходимо вызвать [**илфри**](/windows/desktop/api/shlobj_core/nf-shlobj_core-ilfree) для каждого члена массива, чтобы освободить память.
 

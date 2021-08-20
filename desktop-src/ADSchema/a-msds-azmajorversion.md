@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 71f01ec3adce798c0510274825a4953c7889a948
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 5fb33014e0203ee13aca0ad40652d66f758b403c7d84e9e33bcbe9c86f4a7df9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104138967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118015005"
 ---
 # <a name="ms-ds-az-major-version-attribute"></a>Атрибут ms-DS-AZ-Major-Version
 

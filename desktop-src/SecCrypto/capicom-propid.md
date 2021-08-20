@@ -79,7 +79,7 @@ ms.locfileid: "117772270"
 -   [**ExtendedProperty. PropID**](extendedproperty-propid.md)
 -   [**Расширенных свойств. Remove**](extendedproperties-remove.md)
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

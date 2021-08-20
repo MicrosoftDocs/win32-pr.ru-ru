@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f6afba59207855741a82bae7d5fb5019d049ee1
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 5c54411407bbc1e1cb004b15905ec1aba8a7db7df55cde398d65380a25e4674f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104536068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118016932"
 ---
 # <a name="meetingblob-attribute"></a>атрибут Митингблоб
 
@@ -99,7 +99,7 @@ ms.locfileid: "104536068"
 | Идентификатор ссылки                | \-                                      |
 | MAPI-Id                | \-                                      |
 | System-Only            | Неверно                                   |
-| Является однозначным       | True                                    |
+| Является однозначным       | Верно                                    |
 | Индексируется             | Неверно                                   |
 | В глобальном каталоге      | True                                    |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                            |

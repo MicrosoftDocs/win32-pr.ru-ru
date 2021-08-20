@@ -4,12 +4,12 @@ ms.assetid: 66147460-b8c2-4d80-9a87-a2eeeea66cfa
 title: Свойство MFPKEY_RESIZE_DST_TOP (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb4887dd0f7996dca973c690752bbdb8f8716927
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f40434f876fc18e2440a5cbd9e2539bd9e41cecbd671a3c451355824a866e4b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108092902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117689572"
 ---
 # <a name="mfpkey_resize_dst_top-property"></a>МФПКЭЙ \_ изменить размер \_ \_ свойства Top DST
 
@@ -23,7 +23,7 @@ ms.locfileid: "108092902"
 
 VT \_ I4
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [DSP изменения видеоконтроллеров](videoresizer.md)
 
@@ -33,9 +33,9 @@ VT \_ I4
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
-| Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
+| Заголовок<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 

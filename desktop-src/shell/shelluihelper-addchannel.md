@@ -1,5 +1,5 @@
 ---
-description: Добавляет новый канал в список каналов в меню Избранное Windows Internet Explorer и на панель каналов на рабочем столе.
+description: добавляет новый канал в список каналов в меню "избранное" Windows Internet Explorer и на панель каналов на рабочем столе.
 title: Шеллуихелпер. Аддчаннел, метод (Ексдисп. h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,19 +13,19 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: b62e6e82-429a-4d41-96d4-cba639b611f5
-ms.openlocfilehash: d08c1360cb2a96fbc7b87daecb650bbf46aa6ad9
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 6be928a7cae9d9349bb39fc3a27a49a16495a8609c8e1cb448de888ac190619b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841205"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118047517"
 ---
 # <a name="shelluihelperaddchannel-method"></a>Шеллуихелпер. Аддчаннел, метод
 
-Добавляет новый канал в список каналов в меню **Избранное** Windows Internet Explorer и на панель **каналов** на рабочем столе.
+добавляет новый канал в список каналов в меню **"избранное"** Windows Internet Explorer и на панель **каналов** на рабочем столе.
 
 > [!Note]  
-> Этот метод больше не поддерживается в Windows Vista. В этой операционной системе возвращается E \_ нотимпл.
+> этот метод больше не поддерживается в Windows Vista. В этой операционной системе возвращается E \_ нотимпл.
 
  
 
@@ -60,9 +60,9 @@ iRetVal = ShellUIHelper.AddChannel(
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере показано правильное использование этого метода для JScript Embedded в HTML и Visual Basic.
+в следующем примере показано правильное использование этого метода для JScript, внедренного в HTML и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -107,13 +107,13 @@ End Sub
 
 
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                           |
 | Заголовок<br/>                   | <dl> <dt>Ексдисп. h</dt> </dl>                            |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (версия 4,71 или более поздняя)</dt> </dl> |

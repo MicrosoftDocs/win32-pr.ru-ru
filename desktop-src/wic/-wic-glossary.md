@@ -2,17 +2,17 @@
 description: Определяет термины, используемые в WIC.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: b066757a-8841-4976-b20b-989ebba5eb3b
-title: Глоссарий по компонентам работы с образами Windows
+title: Windows Глоссарий по компонентам работы с образами
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee6812024571727c8f769df88f8233119eed13ed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c851b4a0be5d5f90a5ff0cc030d68cc1010a0259c316811a7ca1c3b92c383b7a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117668195"
 ---
-# <a name="windows-imaging-component-glossary"></a>Глоссарий по компонентам работы с образами Windows
+# <a name="windows-imaging-component-glossary"></a>Windows Глоссарий по компонентам работы с образами
 
 ## <a name="b"></a>B
 

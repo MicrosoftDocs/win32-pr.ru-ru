@@ -4,12 +4,12 @@ ms.assetid: 0b9a455d-a614-4698-90ab-e81f020fad3e
 title: Краткий справочник по элементам управления центра обработки вызовов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cbfc34f1f30fc1f06d543cb7d5fa811517040523
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8aa058d08edee533da950a1ca02a46c2867fd315ad22dff2aa7ba4cd72e1e88
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105673859"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117948236"
 ---
 # <a name="call-center-controls-quick-reference"></a>Краткий справочник по элементам управления центра обработки вызовов
 
@@ -17,7 +17,7 @@ ms.locfileid: "105673859"
 
 
 
-| Интерфейс центра обработки вызовов                              | Описание                                                              |
+| Интерфейс центра обработки вызовов                              | Описание:                                                              |
 |----------------------------------------------------|--------------------------------------------------------------------------|
 | [**итакдграуп**](/windows/win32/api/tapi3cc/nn-tapi3cc-itacdgroup)                   | Получает сведения о имени и очереди для ACD.                        |
 | [**итакдграупевент**](/windows/win32/api/tapi3cc/nn-tapi3cc-itacdgroupevent)         | Возвращает описание событий ACD Group.                                    |
@@ -43,7 +43,7 @@ ms.locfileid: "105673859"
 
 
 
-| Интерфейс перечислителя                           | Описание                                          |
+| Интерфейс перечислителя                           | Описание:                                          |
 |------------------------------------------------|------------------------------------------------------|
 | [**иенумакдграуп**](/windows/win32/api/tapi3cc/nn-tapi3cc-ienumacdgroup)         | Перечисляет [**итакдграуп**](/windows/win32/api/tapi3cc/nn-tapi3cc-itacdgroup).         |
 | [**иенумажент**](/windows/win32/api/tapi3cc/nn-tapi3cc-ienumagent)               | Перечисляет [**итажент**](/windows/win32/api/tapi3cc/nn-tapi3cc-itagent).               |
@@ -59,7 +59,7 @@ ms.locfileid: "105673859"
 
 
 
-| Интерфейс событий                                    | Описание                                                                  |
+| Интерфейс событий                                    | Описание:                                                                  |
 |----------------------------------------------------|------------------------------------------------------------------------------|
 | [**итакдграупевент**](/windows/win32/api/tapi3cc/nn-tapi3cc-itacdgroupevent)         | Извлекает описание событий группы автоматического распределения вызовов (ACD). |
 | [**итажентевент**](/windows/win32/api/tapi3cc/nn-tapi3cc-itagentevent)               | Извлекает описание событий агента.                                   |

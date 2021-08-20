@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 70aaaae3b4fcc6788a16d59477d5f8158b43b892
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e66eeeba5f80397aa422c465cb224064c58a4544f4d64ae2fba3bed5030b1c79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071567"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118020974"
 ---
 # <a name="cqpm_persist-message"></a>ККПМ \_ сообщение о сохранении
 
@@ -56,11 +56,11 @@ ms.locfileid: "104071567"
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                              |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                        |
-| Header<br/>                   | <dl> <dt>Кмнкуери. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Кмнкуери. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

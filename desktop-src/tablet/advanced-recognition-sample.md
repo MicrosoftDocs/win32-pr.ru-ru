@@ -4,12 +4,12 @@ ms.assetid: 4c9b9f31-c317-43fd-8404-35295b41d093
 title: Пример расширенного распознавания
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e23a078ded9c6967f8e45780f8cb3a739b246f6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de7c56a76e66870fdd881ff1d51c4b54acb929765fb21d45857d67c252b01628
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103807990"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117675632"
 ---
 # <a name="advanced-recognition-sample"></a>Пример расширенного распознавания
 
@@ -27,7 +27,7 @@ ms.locfileid: "103807990"
 
 Используются следующие интерфейсы: [**иинкрекогнизер**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer), **иинкрекоконтекст**, [**иинкрекогнитионресулт**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult), **иинкрекогнитионгуиде**, **иинквордлист**, [**IInkGesture**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkgesture), **IInkCollector**, **IInkDisp**, **IInkRenderer**, **IInkDrawingAttributes**, **IInkStrokes** и **IInkStroke**.
 
-## <a name="ink-and-project-headers"></a>Рукописный ввод и заголовки проектов
+## <a name="ink-and-project-headers"></a>заголовки рукописного ввода и Project
 
 Сначала включите заголовки для интерфейсов автоматизации планшетных ПК. Они устанавливаются вместе с пакетом SDK для платформы Tablet PC Platform. Файл Тпцеррор. h содержит определения кодов ошибок API для планшетных ПК.
 

@@ -59,12 +59,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: e3aa7f269d24c284eef3ad2c519f5fdbf48513a8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 19ab479f3c40fc820c8592e365cc8f83936f0be7a212970b64f9f548edf90cc9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103913131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117811721"
 ---
 # <a name="msvm_kvpexchangecomponent-class"></a>\_Класс мсвм квпексчанжекомпонент
 
@@ -171,7 +171,7 @@ class Msvm_KvpExchangeComponent : CIM_LogicalDevice
 | Значение                                                                            | Значение                   |
 |----------------------------------------------------------------------------------|---------------------------|
 | <dl> <dt>1-6</dt> </dl> |                           |
-| <dl> <dt>6</dt> </dl>     | Не применимо<br/> |
+| <dl> <dt>6</dt> </dl>     | Н/Д<br/> |
 
 
 
@@ -194,7 +194,7 @@ class Msvm_KvpExchangeComponent : CIM_LogicalDevice
 
 | Значение                                                                        | Значение                   |
 |------------------------------------------------------------------------------|---------------------------|
-| <dl> <dt>6</dt> </dl> | Не применимо<br/> |
+| <dl> <dt>6</dt> </dl> | Н/Д<br/> |
 
 
 
@@ -215,7 +215,7 @@ class Msvm_KvpExchangeComponent : CIM_LogicalDevice
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -538,7 +538,7 @@ class Msvm_KvpExchangeComponent : CIM_LogicalDevice
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -765,7 +765,7 @@ class Msvm_KvpExchangeComponent : CIM_LogicalDevice
 
 | Значение                                                                         | Значение                   |
 |-------------------------------------------------------------------------------|---------------------------|
-| <dl> <dt>12</dt> </dl> | Не применимо<br/> |
+| <dl> <dt>12</dt> </dl> | Н/Д<br/> |
 
 
 
@@ -877,25 +877,25 @@ class Msvm_KvpExchangeComponent : CIM_LogicalDevice
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Доступ к классу **\_ квпексчанжекомпонент мсвм** может быть ограничен фильтром контроля учетных записей. Дополнительные сведения см. в разделе [Управление учетными записями пользователей и инструментарий WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

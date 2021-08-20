@@ -4,12 +4,12 @@ description: Сопоставленный в память файл (или со�
 ms.assetid: b6ec2bc4-c504-4d0b-87f0-39bb1949accd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fdc6d33e7f3fe6bef36ea6e5a7f355b780d89b7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 231829be00a4ed3c695b85f94accbdca423850221ff7aa4e132da97688636560
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104134395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117680856"
 ---
 # <a name="memory-mapped-file-information"></a>Сведения о файле Memory-Mapped
 
@@ -21,6 +21,6 @@ ms.locfileid: "104134395"
 
 Дополнительные сведения о файлах, отображенных в памяти, см. в разделе [Сопоставление файлов](/windows/desktop/Memory/file-mapping). Пример преобразования имен файлов в форме устройства в буквы диска см. в разделе [Получение имени файла из маркера файла](/windows/desktop/Memory/obtaining-a-file-name-from-a-file-handle).
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: CA333C46-3C5A-40AC-9885-454E380428A7
 title: MFPKEY_MediaProtectionSystemIdMapping, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d6a8aef8840e29ef5651cf584589fa7dee57700d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ea69a30bbd7e49fbf0efcd3ee4a409d52fe237c5ec9fcbdbb2efd80e0948899b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117873298"
 ---
 # <a name="mfpkey_mediaprotectionsystemidmapping-property"></a>МФПКЭЙ \_ медиапротектионсистемидмаппинг, свойство
 
@@ -31,7 +31,7 @@ VT \_ Unknown
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот ключ свойства используется для передачи [**ипропертисет**](/uwp/api/Windows.Foundation.Collections.IPropertySet?view=winrt-19041) , содержащего СОПОСТАВЛЕНИЯ между идентификаторами GUID системы защиты и строками класса среды выполнения, в источнике мультимедиа.
 
@@ -41,11 +41,11 @@ VT \_ Unknown
 
 | Требование | Значение |
 |-------------------|--------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Мфидл. idl</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Мфидл. idl</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

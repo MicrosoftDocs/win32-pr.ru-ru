@@ -4,12 +4,12 @@ ms.assetid: 65ca9e71-9a0f-495f-b78c-3b1a8d66ee33
 title: Чтение свойств устройства
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 235ba701ed3356e09070709f3c99f2826c69c8c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf102fb2ade1a13b648e13f56f7f999dd35c41f721ac20d72914219c98311505
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117669264"
 ---
 # <a name="reading-device-properties"></a>Чтение свойств устройства
 
@@ -17,7 +17,7 @@ ms.locfileid: "103991152"
 
 Свойства устройства включают сведения об устройстве, описывающем возможности и параметры устройства. Список этих свойств см. в разделе [Свойства устройства](-wia-device-properties.md).
 
-К свойствам устройства, которые считываются с помощью [**ивиапропертистораже**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiapropertystorage) , относится идентификатор устройства, который затем используется для создания устройства для получения образа Windows (WIA). Дополнительные сведения см. в разделе [**ивиадевмгр:: креатедевице**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-createdevice) (или [**IWiaDevMgr2:: креатедевице**](-wia-iwiadevmgr2-createdevice.md)).
+к свойствам устройства, которые считываются с помощью [**ивиапропертистораже**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiapropertystorage) , относится идентификатор устройства, который затем используется для создания устройства Windowsного получения изображений (WIA). Дополнительные сведения см. в разделе [**ивиадевмгр:: креатедевице**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-createdevice) (или [**IWiaDevMgr2:: креатедевице**](-wia-iwiadevmgr2-createdevice.md)).
 
 В следующем примере считывается идентификатор устройства, имя устройства и описание устройства из массива свойств устройства, а затем эти свойства выводятся на консоль.
 

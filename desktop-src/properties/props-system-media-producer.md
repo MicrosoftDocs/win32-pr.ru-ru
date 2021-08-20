@@ -4,12 +4,12 @@ ms.assetid: 9cc672b2-75ea-4733-aaa3-0c4fd5afb4f6
 title: System. Media. Producer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7933746e875cbd4ae579cd5beadd594e548ecf39
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 63675a3614da1551acf6883c5b24fbff43de1026cd2124f8b38674247b24a23e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108092052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117683364"
 ---
 # <a name="systemmediaproducer"></a>System. Media. Producer
 
@@ -32,7 +32,7 @@ propertyDescription
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

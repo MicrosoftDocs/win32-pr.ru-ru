@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e3b2de1d1e0bfeed538e400436f8a88cd25ac563
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9b7cf3c5b47a68828fc4c4d35d682f9d1a79491e7b1b76489d0d1385ea765ccc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071214"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117940004"
 ---
 # <a name="removelicenseswithidcount-method-of-the-win32_tslicensekeypack-class"></a>Метод Ремовелиценсесвисидкаунт \_ класса Win32 тслиценсекэйпакк
 
@@ -76,7 +76,7 @@ uint32 RemoveLicensesWithIdCount(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -8,12 +8,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7564b5863d3efebdf8a335e2c46945aeebea93e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fbff2af55d3148d229b70fd724f3f26a7e39ea73f11280a7529202bad06f4127
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104549049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117912356"
 ---
 # <a name="managing-graphics-pipeline-state-in-direct3d-12"></a>Управление состоянием графического конвейера в Direct3D 12
 
@@ -46,12 +46,12 @@ ms.locfileid: "104549049"
 
 |Состояние|Метод|
 |-|-|
-|Привязки ресурсов|[**иасетиндексбуффер**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetindexbuffer)<br/>[**иасетвертексбуфферс**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetvertexbuffers)<br/>[**сосеттаржетс**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-sosettargets)<br/>[**омсетрендертаржетс**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-omsetrendertargets)<br/>[**сетдескрипторхеапс**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setdescriptorheaps)<br/>Все методы **сетграфиксрут...**<br/>Все методы **сеткомпутерут...**<br/>
-|Окна просмотра|<a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-rssetviewports">**рссетвиевпортс**</a>|
-|Прямоугольные прямоугольники|<a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-rssetscissorrects">**рссетсЦиссорректс**</a>|
-|Коэффициент смешения|<a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-omsetblendfactor">**омсетблендфактор**</a>|
-|Значение ссылки на трафарет глубины|<a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-omsetstencilref">**омсетстенЦилреф**</a>|
-|Порядок примитивной топологии и тип соседства для входного ассемблера|<a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetprimitivetopology">**иасетпримитиветопологи**</a>|
+|Привязки ресурсов|[**IASetIndexBuffer**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetindexbuffer)<br/>[**IASetVertexBuffers**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetvertexbuffers)<br/>[**SOSetTargets**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-sosettargets)<br/>[**OMSetRenderTargets**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-omsetrendertargets)<br/>[**SetDescriptorHeaps**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setdescriptorheaps)<br/>Все методы **сетграфиксрут...**<br/>Все методы **сеткомпутерут...**<br/>
+|Окна просмотра|<a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-rssetviewports">**RSSetViewports**</a>|
+|Прямоугольные прямоугольники|<a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-rssetscissorrects">**RSSetScissorRects**</a>|
+|Коэффициент смешения|<a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-omsetblendfactor">**OMSetBlendFactor**</a>|
+|Значение ссылки на трафарет глубины|<a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-omsetstencilref">**OMSetStencilRef**</a>|
+|Порядок примитивной топологии и тип соседства для входного ассемблера|<a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetprimitivetopology">**IASetPrimitiveTopology**</a>|
 
 ## <a name="graphics-pipeline-state-inheritance"></a>Наследование состояния графического конвейера
 
@@ -69,4 +69,4 @@ ms.locfileid: "104549049"
 
 ## <a name="related-topics"></a>Связанные темы
 
-* [Отправка рабочих заданий в Direct3D 12](command-queues-and-command-lists.md)
+* [Отправка работы в Direct3D 12](command-queues-and-command-lists.md)

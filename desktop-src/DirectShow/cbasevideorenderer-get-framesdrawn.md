@@ -57,7 +57,7 @@ HRESULT get_FramesDrawn(
 
 Эта функция члена реализует метод [**икуалпроп:: Get \_ фрамесдравн**](/previous-versions/windows/desktop/api/Amvideo/nf-amvideo-iqualprop-get_framesdrawn) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -68,7 +68,7 @@ HRESULT get_FramesDrawn(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

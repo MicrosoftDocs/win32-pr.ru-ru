@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 94c5405a29e11c3906dc1b21d6fc9fa9dbe84b49
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 95479a3bdc9a5ef5a00402db6708b817ade1e180182b47d604770045ccc77d16
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103998442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118046475"
 ---
 # <a name="user-profiles"></a>Профили пользователей
 

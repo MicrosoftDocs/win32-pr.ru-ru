@@ -4,12 +4,12 @@ ms.assetid: eb793620-f9ef-4d9e-af10-b7b1c638cd6c
 title: System. Sync. Хандлертипелабел
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 747c13e160167a99ce9c7de7f9a18e62b4a91bf2
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 62ff9c3d87c36e0ebe0962c4c4496441910018f010810269f7286b98c7d6e942
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108091452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117864446"
 ---
 # <a name="systemsynchandlertypelabel"></a>System. Sync. Хандлертипелабел
 
@@ -32,7 +32,7 @@ propertyDescription
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -41,7 +41,7 @@ ms.locfileid: "117772469"
 
 -   [**Certificates. Save**](certificates-save.md)
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

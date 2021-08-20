@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 58cc05338fa3960185a795422c62256a63e6f1ca
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 51a5f5b58ae1a5861f9d4434992b43014b6762ff181e848ed701cd346c31bc4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104262254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118015015"
 ---
 # <a name="ms-ds-az-operation-id-attribute"></a>Атрибут ms-DS-AZ-Operation-ID
 

@@ -4,12 +4,12 @@ ms.assetid: 6eb04f6e-2c02-44a8-92d1-b4c1c2ecd22b
 title: System. Contact. HomeAddress1Region
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8165e7c06aa21f117f6cadd77f08ed34b008f9d3
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: faad0092d8157e93dd4bfc62e2db1ea63b5939cad5db681016edc92eed282ce8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108102292"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117685018"
 ---
 # <a name="systemcontacthomeaddress1region"></a>System. Contact. HomeAddress1Region
 
@@ -32,7 +32,7 @@ propertyDescription
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

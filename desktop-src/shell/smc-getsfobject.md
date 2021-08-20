@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 612b43c193cd1919db4a5cf9dba3a8fdba1c81c7
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 0b0b5e9e170c9df4bd89279f2b96c80a76002ba2adbbe14ebd90afe458ece161
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108086612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118047076"
 ---
 # <a name="smc_getsfobject-message"></a>\_Сообщение SMC жетсфобжект
 

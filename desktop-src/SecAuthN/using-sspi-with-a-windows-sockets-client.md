@@ -1,23 +1,23 @@
 ---
-description: Этот пример программы работает с серверной программой с помощью SSPI и сервера Windows Sockets.
+description: этот пример программы работает с серверной программой, использующей SSPI, с сервером сокетов Windows.
 ms.assetid: 7ec15770-d3bd-4488-abe8-058115fec071
-title: Использование SSPI с клиентом сокетов Windows
+title: использование SSPI с клиентом Windowsных сокетов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9952d897f078ddf98ea53490ac27141430a0fbbb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 545ba485e905fa0e4d021f5b2a27f183acbb9cd307678792f9635cfb8dc9a73f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104546335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117785904"
 ---
-# <a name="using-sspi-with-a-windows-sockets-client"></a>Использование SSPI с клиентом сокетов Windows
+# <a name="using-sspi-with-a-windows-sockets-client"></a>использование SSPI с клиентом Windowsных сокетов
 
-Этот пример программы работает с серверной программой с [помощью SSPI и сервера Windows Sockets](using-sspi-with-a-windows-sockets-server.md). Примеры программ клиента и сервера предназначены для совместной работы. Обе программы используют заголовочный файл Сспиексампле. h, который можно найти в [файле заголовка для примеров клиента и сервера SSPI](header-file-for-sspi-client-and-server.md). Эта программа включает вызовы функций в Secur32. lib и Ws2 \_ 32. lib, которые должны быть включены в библиотеки ссылок.
+этот пример программы работает с серверной программой, [использующей SSPI, с сервером сокетов Windows](using-sspi-with-a-windows-sockets-server.md). Примеры программ клиента и сервера предназначены для совместной работы. Обе программы используют заголовочный файл Сспиексампле. h, который можно найти в [файле заголовка для примеров клиента и сервера SSPI](header-file-for-sspi-client-and-server.md). Эта программа включает вызовы функций в Secur32. lib и Ws2 \_ 32. lib, которые должны быть включены в библиотеки ссылок.
 
 Эта программа демонстрирует следующее.
 
--   Установка подключения Windows Sockets к серверу.
+-   установка подключения сокетов Windows к серверу.
 -   Инициализация сеанса SSPI с проверкой подлинности с помощью поставщика общих служб Negotiate.
 -   Соединение с сервером и установление безопасного сеанса связи.
 -   Получение и расшифровка сообщения с сервера в безопасном сеансе.

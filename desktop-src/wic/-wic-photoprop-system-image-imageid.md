@@ -4,12 +4,12 @@ ms.assetid: 2a092d16-e7b9-4ffe-9bdb-01ed328ca26f
 title: Политика метаданных фотографии System. Image. Имажеид
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bab812a8719c905002c91d33a65cc2b570d37cc2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 17453b989aba5ab0c750138ec6802d1c67a82b936dd1747d7413e39b38ae2256
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104545719"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117667604"
 ---
 # <a name="systemimageimageid-photo-metadata-policy"></a>Политика метаданных фотографии System. Image. Имажеид
 
@@ -45,7 +45,7 @@ VT \_ LPWSTR
 
 
 
-| Заказ | Путь                          | Формат диска |
+| Номер | Путь                          | Формат диска |
 |-------|-------------------------------|-------------|
 | 1     | /APP1/IFD/EXIF/{ushort = 42016} | ascii       |
 | 2     | /КСМП/ексиф: Imageuniqueid)       | Юникод     |
@@ -58,7 +58,7 @@ VT \_ LPWSTR
 
 
 
-| Заказ | Путь                          | Формат диска |
+| Номер | Путь                          | Формат диска |
 |-------|-------------------------------|-------------|
 | 1     | /APP1/IFD/EXIF/{ushort = 42016} | ascii       |
 | 2     | /КСМП/ексиф: Imageuniqueid)       | Юникод     |
@@ -71,7 +71,7 @@ VT \_ LPWSTR
 
 
 
-| Заказ | Путь                          |
+| Номер | Путь                          |
 |-------|-------------------------------|
 | 1     | /APP1/IFD/EXIF/{ushort = 42016} |
 | 2     | /КСМП/ексиф: Imageuniqueid)       |
@@ -86,7 +86,7 @@ VT \_ LPWSTR
 
 
 
-| Заказ | Путь                        | Формат диска |
+| Номер | Путь                        | Формат диска |
 |-------|-----------------------------|-------------|
 |       | /ИФД/ексиф/{ушорт = 42016}    | ascii       |
 |       | /ИФД/КСМП/ексиф: Imageuniqueid) | Юникод     |
@@ -99,7 +99,7 @@ VT \_ LPWSTR
 
 
 
-| Заказ | Путь                        | Формат диска |
+| Номер | Путь                        | Формат диска |
 |-------|-----------------------------|-------------|
 |       | /ИФД/ексиф/{ушорт = 42016}    | ascii       |
 |       | /ИФД/КСМП/ексиф: Imageuniqueid) | Юникод     |
@@ -112,7 +112,7 @@ VT \_ LPWSTR
 
 
 
-| Заказ | Путь                        |
+| Номер | Путь                        |
 |-------|-----------------------------|
 |       | /ИФД/ексиф/{ушорт = 42016}    |
 |       | /ИФД/КСМП/ексиф: Imageuniqueid) |
@@ -121,9 +121,9 @@ VT \_ LPWSTR
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Shlwapi.dll
-ms.openlocfilehash: 53f1bb88c2b3a79b58f3025daec31a7b1340b642
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a23a615030b357eec4e40bbd8d6bc4a210bc7115b7aec76b45d6999de49f52c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104985484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117679120"
 ---
 # <a name="gettimeformatwrapw-function"></a>Функция Жеттимеформатврапв
 
-\[**Жеттимеформатврапв** доступен для использования в Windows XP. Она может быть недоступна в последующих версиях. На своем месте следует использовать [**жеттимеформатв**](/windows/win32/api/datetimeapi/nf-datetimeapi-gettimeformata) .\]
+\[**жеттимеформатврапв** доступен для использования в Windows XP. Она может быть недоступна в последующих версиях. На своем месте следует использовать [**жеттимеформатв**](/windows/win32/api/datetimeapi/nf-datetimeapi-gettimeformata) .\]
 
 Форматирует время в виде строки времени для указанного языкового стандарта. Функция форматирует либо указанное время, либо локальное системное время.
 
@@ -162,9 +162,9 @@ int GetTimeFormatWrapW(
 *лптиме* \[ окне\]
 </dt> <dd>
 
-Тип: **const [**SYSTEMTIME**](/windows/win32/api/minwinbase/ns-minwinbase-systemtime) \** _
+Тип: **const [**SYSTEMTIME**](/windows/win32/api/minwinbase/ns-minwinbase-systemtime) \***
 
-Указатель на структуру [_ *SYSTEMTIME* *](/windows/win32/api/minwinbase/ns-minwinbase-systemtime) , которая содержит сведения о времени для форматирования. Если этот указатель равен **null**, функция использует текущее локальное системное время.
+Указатель на структуру [**SYSTEMTIME**](/windows/win32/api/minwinbase/ns-minwinbase-systemtime) , которая содержит сведения о времени для форматирования. Если этот указатель равен **null**, функция использует текущее локальное системное время.
 
 </dd> <dt>
 
@@ -214,9 +214,9 @@ int GetTimeFormatWrapW(
 **Ошибка \_ недопустимого \_ параметра**
 </dt> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
-**Жеттимеформатврапв** предоставляет возможность использования строк Юникода в операционных системах, предшествующих Windows XP. Предпочтительным методом является использование [**жеттимеформатв**](/windows/win32/api/datetimeapi/nf-datetimeapi-gettimeformata) в сочетании с уровнем Майкрософт для Юникода (мслу).
+**жеттимеформатврапв** предоставляет возможность использовать строки юникода в операционных системах, предшествующих Windows XP. Предпочтительным методом является использование [**жеттимеформатв**](/windows/win32/api/datetimeapi/nf-datetimeapi-gettimeformata) в сочетании с уровнем Майкрософт для Юникода (мслу).
 
 **Жеттимеформатврапв** должен вызываться напрямую из Shlwapi.dll с использованием порядкового номера 310.
 
@@ -226,13 +226,13 @@ int GetTimeFormatWrapW(
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                          |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Shlwapi.dll (версия 5,0 или более поздняя)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ecdb083684163798a68674628a8b1abc2460268
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8323d42719b28eb1f45921c70f77089f1a0e6f4e262b29a165e0cbb5d90c5866
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117952662"
 ---
 # <a name="isoftkbdenumsoftkeyboard-method"></a>Метод Исофткбд:: Енумсофткэйбоард
 
@@ -63,7 +63,7 @@ HRESULT EnumSoftKeyboard(
 
 
 
-| Значение                                                                                        | Описание                                   |
+| Значение                                                                                        | Описание:                                   |
 |----------------------------------------------------------------------------------------------|-----------------------------------------------|
 | <dl> <dt>**\_ОК**</dt> </dl>         | Метод успешно выполнен.<br/>         |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl> | Недопустимый параметр *LangID* .<br/> |
@@ -80,14 +80,14 @@ HRESULT EnumSoftKeyboard(
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                             |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                   |
-| Распространяемые компоненты<br/>          | TSF 1,0 в Windows 2000 профессиональная<br/>                                        |
-| Header<br/>                   | <dl> <dt>Софткбдк. h</dt> </dl>  |
+| Распространяемые компоненты<br/>          | TSF 1,0 на Windows 2000 Professional<br/>                                        |
+| Заголовок<br/>                   | <dl> <dt>Софткбдк. h</dt> </dl>  |
 | IDL<br/>                      | <dl> <dt>Софткбд. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Softkbd.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

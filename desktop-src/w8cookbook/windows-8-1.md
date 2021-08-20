@@ -4,16 +4,16 @@ description: Windows 8.1 и Windows Server 2012 R2
 ms.assetid: fab91746-3cd6-4526-b874-489b189d4ab2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 355132e731eb3348fea89a3ac5a5b52c63c472c6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 83de2416444d9873c95407c3b972dba478ed2700ab4d298d4063a52399818a91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104329024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117671579"
 ---
 # <a name="windows-81-and-windows-server-2012-r2"></a>Windows 8.1 и Windows Server 2012 R2
 
-В этом разделе *Cookbook* основное внимание уделяется темам, относящимся к Windows 8.1. Некоторые из этих разделов также относятся к Windows Server 2012 R2. Разделы сгруппированы в следующие разделы:
+В этом разделе *Cookbook* основное внимание уделяется темам, относящимся к Windows 8.1. некоторые из этих разделов также применимы к Windows Server 2012 R2. Разделы сгруппированы в следующие разделы:
 
 ## <a name="in-this-section"></a>В этом разделе
 

@@ -4,12 +4,12 @@ description: В этом разделе описываются структур�
 ms.assetid: C5145BDB-3FF9-4454-9CFD-1E769FBDA60E
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dcdc079e10f603b7971011a476d5b0e1895a5199
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0f5823613dccc6476b3a19b5a011a3ab39ea3c78f84ed56ad626d67d4730d828
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117675881"
 ---
 # <a name="software-device-api-structures"></a>Структуры API программного устройства
 
