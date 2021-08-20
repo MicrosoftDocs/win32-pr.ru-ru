@@ -4,12 +4,12 @@ ms.assetid: cbd33b60-6041-43e1-b5ff-adbba7495a14
 title: System. Message. Исфвдоррепли
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e17e5dd91e74c6325785da60020f886acaf0e735
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: efaee435619ed044971324b0c21819fd4d401c6e38270bc4ff0231b93e239896
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108114012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119598454"
 ---
 # <a name="systemmessageisfwdorreply"></a>System. Message. Исфвдоррепли
 
@@ -33,7 +33,7 @@ propertyDescription
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

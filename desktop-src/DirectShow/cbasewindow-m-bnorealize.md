@@ -16,16 +16,16 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e24368eb0da2ad16b66d7b06942c83f3e33937da
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 45dddb9d596929674adf03ba042d6464718c58c225ef33e568924ef526618e91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016572"
 ---
 # <a name="cbasewindowm_bnorealize-member"></a>Элемент Кбасевиндов:: m \_ бнореализе
 
-Флаг, указывающий, должен ли окно реализовать свою палитру. Если **значение — true**, окно не реализует свою палитру. Значение по умолчанию — **false**.
+Флаг, указывающий, должен ли окно реализовать свою палитру. Если **значение — true**, окно не реализует свою палитру. Значение по умолчанию — **FALSE**.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -42,12 +42,12 @@ BYTE m_bNoRealize;
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Винутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>винутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

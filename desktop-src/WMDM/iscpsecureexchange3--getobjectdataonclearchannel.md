@@ -1,6 +1,6 @@
 ---
 title: Метод Жетобжектдатаонклеарчаннел
-description: Метод Жетобжектдатаонклеарчаннел передает блок данных объекта на открытый канал обратно в Windows Media диспетчер устройств.
+description: метод жетобжектдатаонклеарчаннел передает блок данных объекта на открытый канал обратно в Windows диспетчер устройств мультимедиа.
 ms.assetid: 62122415-b45b-436e-8c5f-28be759ba8c0
 keywords:
 - Метод Жетобжектдатаонклеарчаннел Windows Media диспетчер устройств
@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 25b72df0dd27289153a97221fefbcb58f3a5ad13
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c10e09697653c2ef1235ae9a3ea3a93a45437d1cf45a1f4de72ec99b0812b9b7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119619874"
 ---
 # <a name="getobjectdataonclearchannel-method"></a>Метод Жетобжектдатаонклеарчаннел
 
-Метод **жетобжектдатаонклеарчаннел** передает блок данных объекта на открытый канал обратно в Windows Media Диспетчер устройств.
+метод **жетобжектдатаонклеарчаннел** передает блок данных объекта на открытый канал обратно в Windows диспетчер устройств мультимедиа.
 
 Этот метод идентичен [**искпсекуриксчанже:: ObjectData**](/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-objectdata) , за исключением того, что данные, возвращаемые этим методом, не шифруются. Поэтому этот метод является более эффективным.
 
@@ -84,24 +84,24 @@ HRESULT GetObjectDataOnClearChannel(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Для передачи данных Windows Media диспетчер устройств вызывает метод [трансферконтаинердатаонклеарчаннел](/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange3-transfercontainerdataonclearchannel) для получения данных контейнера. Затем вызывается **жетобжектдатаонклеарчаннел** для передачи блоков данных объекта от поставщика содержимого в Диспетчер устройств Windows Media. Если \_ параметр S ОК возвращается с *пдвсизе* , для которого установлено значение 0, Windows Media Диспетчер устройств не запрашивает никаких дополнительных данных.
+для передачи данных Windows Media диспетчер устройств вызывает метод [трансферконтаинердатаонклеарчаннел](/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange3-transfercontainerdataonclearchannel) для получения данных контейнера. затем вызывается **жетобжектдатаонклеарчаннел** для передачи блоков данных объекта от поставщика содержимого в Windows диспетчер устройств мультимедиа. если \_ параметр S ок возвращается с *пдвсизе* , которому присвоено значение 0, Windows Media диспетчер устройств не запрашивает дальнейшие данные.
 
 Этот метод идентичен [**искпсекуриксчанже:: ObjectData**](/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-objectdata) , за исключением того, что данные, возвращаемые этим методом, не шифруются. Поэтому этот метод является более эффективным.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>ВМСКП. idl</dt> </dl>    |
+| Заголовок<br/>  | <dl> <dt>ВМСКП. idl</dt> </dl>    |
 | Библиотека<br/> | <dl> <dt>Мссачлп. lib</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,6 +1,6 @@
 ---
 title: Цветовые фигуры
-description: В этой статье описываются цвета фигур в VML, а также функция, устаревшая до Windows Internet Explorer 9.
+description: в этой статье описываются цвета фигур в VML, а также функция, устаревшая по отношению к Windows Internet Explorer 9.
 ms.assetid: f528f0c7-1351-4bca-b309-67511431b711
 keywords:
 - Веб-семинар, цвета фигур
@@ -20,19 +20,19 @@ keywords:
 - Триады RGB
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c203debd01d4234ae58900a023944511f9fc73c1
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: f8edd8b067f1e3648d2b69f473c02c59392a10b5716afea74b8f7b0c9d093989
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119057055"
 ---
 # <a name="coloring-shapes"></a>Цветовые фигуры
 
-В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+в этом разделе описывается функция VML, которая является устаревшей по отношению к Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
 
 > [!Note]  
-> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
+> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). сведения, рекомендации и рекомендации относительно текущей версии Windows Internet explorer см. в [центре разработчиков internet explorer](https://msdn.microsoft.com/ie/).
 
  
 
@@ -84,7 +84,7 @@ fillcolor="#FDF9BA" strokecolor="blue"/>
 
 [![назад ](images/top.gif) к началу](#top)
 
-## <a name="summary"></a>Итоги
+## <a name="summary"></a>Сводка
 
 В VML можно представить цвет в одном из следующих форматов:
 

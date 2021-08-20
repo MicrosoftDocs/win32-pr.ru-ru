@@ -4,12 +4,12 @@ ms.assetid: e864b3fa-6d43-40fe-9556-474953098947
 title: System. Search. Урлтоиндекс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d4832279237cb7a3659b37d6502bd853caff113
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cb964f146831561174f3713d5b827a2c736c59f93e034ac8494f86a0fc6584bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117864770"
 ---
 # <a name="systemsearchurltoindex"></a>System. Search. Урлтоиндекс
 
@@ -30,13 +30,13 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Это свойство содержит URL-адрес и порождается обработчиком протокола для каждого дочернего URL-адреса или директой под текущим URL-адресом. Индексатор обращается к обработчику протокола и запрашивает индексирование этого документа. [System. Search. урлтоиндекс](/previous-versions/windows/desktop/legacy/bb760177(v=vs.85)) назывался PID \_ ГСР \_ дирлинк в более ранних версиях операционной системы Windows.
+Это свойство содержит URL-адрес и порождается обработчиком протокола для каждого дочернего URL-адреса или директой под текущим URL-адресом. Индексатор обращается к обработчику протокола и запрашивает индексирование этого документа. [System. Search. урлтоиндекс](/previous-versions/windows/desktop/legacy/bb760177(v=vs.85)) назывался PID \_ гср \_ дирлинк в более ранних версиях операционной системы Windows.
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -1,35 +1,35 @@
 ---
-title: мачинелаунчрестриктион
+title: MachineLaunchRestriction
 description: Задает политику ограничения на уровне компьютера для запуска и активации компонента.
 ms.assetid: 274e3d08-1f38-4179-b7e7-b218d6e184ee
 keywords:
 - COM-значение реестра Мачинелаунчрестриктион
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14dfcfe5535871c6b5b0fe310c94b920c522f05a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4d5cd235e2dd81e596448f25adfd72ad0b16c13d2da3860eb56fb95f93ef53cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104258919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048062"
 ---
-# <a name="machinelaunchrestriction"></a>мачинелаунчрестриктион
+# <a name="machinelaunchrestriction"></a>MachineLaunchRestriction
 
 Задает политику ограничения на уровне компьютера для запуска и активации компонента.
 
 > [!Caution]  
 > Изменение этого значения повлияет на все серверные приложения COM и может препятствовать их правильной работе. Если существуют приложения COM-сервера с ограничениями, которые менее строгими по сравнению с ограничениями на уровне компьютера, уменьшение ограничений на уровне компьютера может предоставить этим приложениям нежелательный доступ. И наоборот, при увеличении ограничений на уровне компьютера некоторые серверные приложения COM могут быть недоступны при вызове приложений.
 
- 
+ 
 
 ## <a name="registry-entry"></a>Запись реестра
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole
-   MachineLaunchRestriction = SECURITY_DESCRIPTOR
+   MachineLaunchRestriction = SECURITY_DESCRIPTOR
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это **\_ двоичное значение reg** .
 
@@ -37,16 +37,16 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole
 
 По умолчанию администраторы могут получать разрешения локального и удаленного запуска и активации, а члены группы «все» могут получить разрешения локальной активации и запуска.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Настройка безопасности для приложений COM](setting-security-for-com-applications.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

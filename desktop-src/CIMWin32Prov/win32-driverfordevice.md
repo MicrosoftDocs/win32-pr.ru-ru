@@ -85,7 +85,7 @@ class Win32_DriverForDevice : CIM_Dependency
 
 Класс **Win32 \_ дриверфордевице** является производным от [**\_ зависимости CIM**](cim-dependency.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -99,7 +99,7 @@ class Win32_DriverForDevice : CIM_Dependency
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

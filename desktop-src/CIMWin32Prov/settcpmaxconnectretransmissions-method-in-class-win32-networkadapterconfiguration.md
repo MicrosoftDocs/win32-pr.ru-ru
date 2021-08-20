@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 160d84c2a466bff34070a6dec4a34804d5a3a7fc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: de612b2ece1f186fef218d8642d8ce2e28154c159df1bb5203f0fe4692f6baab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104142874"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020462"
 ---
 # <a name="settcpmaxconnectretransmissions-method-of-the-win32_networkadapterconfiguration-class"></a>Метод Сетткпмаксконнектретрансмиссионс \_ класса Win32 NetworkAdapterConfiguration
 
@@ -325,7 +325,7 @@ IPX не включен на адаптере.
 
 </dd> <dt>
 
-**Нет памяти**
+**Недостаточно памяти**
 </dt> <dd>
 
 92
@@ -404,7 +404,7 @@ DHCP не включен на адаптере.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Начальное время ожидания повторной передачи составляет три секунды и удваивается для каждой последующей попытки.
 
@@ -412,21 +412,21 @@ DHCP не включен на адаптере.
 
 Пример [изменения максимального разрешенного подключения TCP с повторными передачами](https://Gallery.TechNet.Microsoft.Com/e599c6bc-fa37-457d-b7e3-3c003517ed46) позволяет настроить число повторных попыток подключения TCP, прежде чем отказаться от усилий.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows Vista, Windows Vista<br/>                                                 |
-| Минимальная версия сервера<br/> | Windows Server 2008, Windows Server 2008<br/>                                     |
+| Минимальная версия клиента<br/> | Windows vista, Windows vista<br/>                                                 |
+| Минимальная версия сервера<br/> | Windows сервер 2008, Windows server 2008<br/>                                     |
 | Пространство имен<br/>                | Корневой \\ CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

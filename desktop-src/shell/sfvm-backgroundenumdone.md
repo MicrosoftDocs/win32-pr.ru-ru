@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 22ee1239cd281ad741acfc04a6ae397d4de2ea7a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 41a9fafb2c2af3a836e042ae3c0fd2d142c760a64a9e65375d244fd9accfbcc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104156747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119592714"
 ---
 # <a name="sfvm_backgroundenumdone-message"></a>\_Сообщение сфвм баккграунденумдоне
 
@@ -38,7 +38,7 @@ ms.locfileid: "104156747"
 
 Это сообщение не содержит параметров.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

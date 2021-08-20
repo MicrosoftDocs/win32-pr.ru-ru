@@ -4,12 +4,12 @@ ms.assetid: a0c42f1c-543d-44f8-83d9-fe810de410ff
 title: Пример рукописного буфера обмена
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95c5da0bc0ba9a7e3a1b4e1a5c52784f10fb2023
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 73aa8acdf785321dc01706d4a4de50e0a2673a31250edbfa4316a27aecd0ce3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104541319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032332"
 ---
 # <a name="ink-clipboard-sample"></a>Пример рукописного буфера обмена
 
@@ -38,7 +38,7 @@ ms.locfileid: "104541319"
 
 ## <a name="collecting-ink-and-setting-up-the-form"></a>Сбор рукописных данных и настройка формы
 
-Во-первых, сослаться на интерфейсы автоматизации планшетных ПК, которые устанавливаются вместе с <entity type="reg"/> пакетом SDK для Microsoft Windows XP Tablet PC Edition.
+во-первых, сослаться на интерфейсы автоматизации планшетных пк, устанавливаемые с помощью <entity type="reg"/> пакета средств разработки программного обеспечения Microsoft Windows XP Tablet PC Edition (SDK).
 
 
 ```C++

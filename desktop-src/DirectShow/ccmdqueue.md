@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 78af7a975d54ba832bbdf1fb7f8027f87b747660
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 5aac6f7315df58a39d119c72fc481816bdc40aab3c449852041b7a490f22f44c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104139495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074408"
 ---
 # <a name="ccmdqueue-class"></a>Класс Ккмдкуеуе
 
@@ -58,8 +58,8 @@ ms.locfileid: "104139495"
 | [**ендрун**](ccmdqueue-endrun.md)                     | Переключается в режим "остановлено" или "приостановлено".                                                                    |
 | [**жеткомманддуефор**](ccmdqueue-getcommandduefor.md) | Извлекает отложенную команду, запланированную в указанное время.                                    |
 | [**жетдуекомманд**](ccmdqueue-getduecommand.md)       | Извлекает указатель на следующую команду из-за.                                                   |
-| [**Вставляет**](ccmdqueue-insert.md)                     | Добавляет объект [**кдеферредкомманд**](cdeferredcommand.md) в очередь.                             |
-| [**Оператор new**](ccmdqueue-new.md)                           | Инициализирует команду для выполнения и возвращает новый объект [**кдеферредкомманд**](cdeferredcommand.md) . |
+| [**Вставить**](ccmdqueue-insert.md)                     | Добавляет объект [**кдеферредкомманд**](cdeferredcommand.md) в очередь.                             |
+| [**Новые функции**](ccmdqueue-new.md)                           | Инициализирует команду для выполнения и возвращает новый объект [**кдеферредкомманд**](cdeferredcommand.md) . |
 | [**Отменит**](ccmdqueue-remove.md)                     | Удаляет объект [**кдеферредкомманд**](cdeferredcommand.md) из очереди.                        |
 | [**Выполнить**](ccmdqueue-run.md)                           | Переключается в режим выполнения.                                                                              |
 | [**сетсинксаурце**](ccmdqueue-setsyncsource.md)       | Задает часы, используемые для времени.                                                                        |

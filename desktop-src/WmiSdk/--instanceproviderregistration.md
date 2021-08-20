@@ -202,7 +202,7 @@ class __InstanceProviderRegistration : __ObjectProviderRegistration
 
 </dd> <dt>
 
-Нет.
+Нет
 </dt> <dd>
 
 Поставщик не поддерживает удаление данных и возвращает **поставщик WBEM E, \_ \_ \_ не \_ поддерживающий** [**делетеклассасинк**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-deleteclassasync) или [**делетеинстанцеасинк**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-deleteinstanceasync).
@@ -268,7 +268,7 @@ class __InstanceProviderRegistration : __ObjectProviderRegistration
 
 </dd> <dt>
 
-Нет.
+Нет
 </dt> <dd>
 
 Поставщик не поддерживает извлечение данных и возвращает **\_ поставщик WBEM E, \_ \_ не \_ поддерживающий** из [**жетобжектасинк**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobjectasync).
@@ -331,7 +331,7 @@ class __InstanceProviderRegistration : __ObjectProviderRegistration
 
 Класс **\_ \_ инстанцепровидеррегистратион** является производным от [**\_ \_ обжектпровидеррегистратион**](--objectproviderregistration.md), который является производным от [**\_ \_ провидеррегистратион**](--providerregistration.md). Только администраторы могут зарегистрировать поставщик экземпляра, создав экземпляр [**\_ \_ Win32Provider**](--win32provider.md) и **\_ \_ инстанцепровидеррегистратион**. Только администраторы могут удалить поставщика.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -343,7 +343,7 @@ class __InstanceProviderRegistration : __ObjectProviderRegistration
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

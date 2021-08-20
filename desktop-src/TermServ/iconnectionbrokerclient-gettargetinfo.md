@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 366bebf398c5c776e43d5cdee4b99e28e8c580fb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: df214f23c09b7439843f0d7e8947d40cc32b2bf30eece887c921aac34306fbdf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104533755"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119059192"
 ---
 # <a name="iconnectionbrokerclientgettargetinfo-method"></a>Метод Иконнектионброкерклиент:: Жеттаржетинфо
 
@@ -180,13 +180,13 @@ HRESULT GetTargetInfo(
 
 Возвращает значение " **E \_ Pending** ", если создается асинхронный запрос. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод является асинхронным. Параметры *птаржетинфо* и *пресулт* должны оставаться действительными до тех пор, пока метод [**иконнектионброкеррекуест:: CheckStatus**](iconnectionbrokerrequest-checkstatus.md) не получит **\_ \_ запрос \_ о состоянии CB**.
 
 Дополнительные сведения об использовании этого метода см. в разделе [Использование API клиента компонента Подключение к удаленному рабочему столу Broker](use-the-remote-desktop-connection-broker-client-api.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -194,13 +194,13 @@ HRESULT GetTargetInfo(
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 8<br/>                                                                    |
 | Минимальная версия сервера<br/> | Windows Server 2012<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Кбклиент. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Кбклиент. h</dt> </dl>   |
 | Библиотека<br/>                  | <dl> <dt>Кбклиент. lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Cbclient.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

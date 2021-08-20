@@ -12,31 +12,31 @@ keywords:
 - Сообщения MIDI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63a49e918a4f06efbafd5d8f61848111d3331153
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c45c7c9f101c931591857d3957df0f0cfd00a4ecaff61c31f6f69ef24b36deff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103775896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119525134"
 ---
 # <a name="midi-messages"></a>Сообщения MIDI
 
 В MIDI используются следующие сообщения.
 
--   [**\_закрытие MIM**](mim-close.md)
--   [**\_данные MIM**](mim-data.md)
--   [**\_Ошибка MIM**](mim-error.md)
--   [**\_ЛОНГДАТА MIM**](mim-longdata.md)
--   [**\_ЛОНЖЕРРОР MIM**](mim-longerror.md)
--   [**\_MOREDATA MIM**](mim-moredata.md)
--   [**\_Запуск MIM**](mim-open.md)
--   [**MM \_ MIM, \_ закрытие**](mm-mim-close.md)
--   [**MM \_ MIM \_ Data**](mm-mim-data.md)
--   [**MM \_ , \_ Ошибка MIM**](mm-mim-error.md)
+-   [**MIM \_ ВЫХОДА**](mim-close.md)
+-   [**MIM \_ DATA**](mim-data.md)
+-   [**MIM \_ ПЛАН**](mim-error.md)
+-   [**MIM \_ лонгдата**](mim-longdata.md)
+-   [**MIM \_ лонжеррор**](mim-longerror.md)
+-   [**MIM \_ MOREDATA**](mim-moredata.md)
+-   [**MIM \_ ОТКРЫТ**](mim-open.md)
+-   [**MM \_ MIM \_ CLOSE**](mm-mim-close.md)
+-   [**\_MIM \_ данных MM**](mm-mim-data.md)
+-   [**\_ошибка MIM \_ MM**](mm-mim-error.md)
 -   [**MM \_ MIM \_ лонгдата**](mm-mim-longdata.md)
 -   [**MM \_ MIM \_ лонжеррор**](mm-mim-longerror.md)
 -   [**MM \_ MIM \_ MOREDATA**](mm-mim-moredata.md)
--   [**MM \_ MIM \_ Open**](mm-mim-open.md)
+-   [**\_открыт MIM \_ мм**](mm-mim-open.md)
 -   [**\_закрытие mm MOM \_**](mm-mom-close.md)
 -   [**MM, \_ MOM \_**](mm-mom-done.md)
 -   [**\_ \_ открытая MOM mm**](mm-mom-open.md)
@@ -46,16 +46,16 @@ ms.locfileid: "103775896"
 -   [**диспетчер MOM \_ открыт**](mom-open.md)
 -   [**MOM \_ поситионкб**](mom-positioncb.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Справочник по MIDI](midi-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

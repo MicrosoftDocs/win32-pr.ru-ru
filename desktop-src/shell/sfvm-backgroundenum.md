@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: cb0b85abb3ca6830610a35502f55c0867a5ffbf2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 724f971f52b57a008ec17ac316b78839a6890e3e2efee5d5a037ab4fdcd7ebf8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104997827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119592744"
 ---
 # <a name="sfvm_backgroundenum-message"></a>\_Сообщение сфвм баккграунденум
 
@@ -38,11 +38,11 @@ ms.locfileid: "104997827"
 
 Это сообщение не содержит параметров.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 В ответ на это уведомление необходимо вернуть \_ значение ОК, чтобы включить перечисление фона. По умолчанию объект системной папки будет отображать анимацию "фонарик" во время перечисления. Чтобы задать пользовательскую анимацию, обработайте [**СФВМ \_ Animation**](sfvm-getanimation.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

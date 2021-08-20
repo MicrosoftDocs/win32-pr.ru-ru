@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 41d308af651f1aff0ff402c7070adbe631bff9eb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b8301371acc7624b4beb9b548191afa641ed267592b246cca7ba71ff170a9bdb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105681788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119059782"
 ---
 # <a name="principal-principaltype-element"></a>Элемент Principal (ПринЦипалтипе)
 
@@ -48,10 +48,10 @@ ms.locfileid: "105681788"
 
 | Элемент                                                                      | Тип                                                          | Описание                                                                                                |
 |------------------------------------------------------------------------------|---------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
-| [**DisplayName**](taskschedulerschema-displayname-principaltype-element.md) | **string**                                                    | Указывает имя участника, отображаемого в пользовательском интерфейсе планировщик задач.<br/>                 |
-| [**Идентификатор**](taskschedulerschema-groupid-principaltype-element.md)         | **string**                                                    | Указывает идентификатор группы пользователей, необходимой для выполнения задач, связанных с участником.<br/> |
+| [**DisplayName**](taskschedulerschema-displayname-principaltype-element.md) | **строка**                                                    | Указывает имя участника, отображаемого в пользовательском интерфейсе планировщик задач.<br/>                 |
+| [**Идентификатор**](taskschedulerschema-groupid-principaltype-element.md)         | **строка**                                                    | Указывает идентификатор группы пользователей, необходимой для выполнения задач, связанных с участником.<br/> |
 | [**LogonType**](taskschedulerschema-logontype-principaltype-element.md)     | [**logonType**](taskschedulerschema-logontype-simpletype.md) | Указывает метод входа в систему безопасности, необходимый для выполнения задач, связанных с участником.<br/>  |
-| [**UserId**](taskschedulerschema-userid-principaltype-element.md)           | **string**                                                    | Указывает идентификатор пользователя, необходимый для выполнения задач, связанных с участником.<br/>              |
+| [**UserId**](taskschedulerschema-userid-principaltype-element.md)           | **строка**                                                    | Указывает идентификатор пользователя, необходимый для выполнения задач, связанных с участником.<br/>              |
 
 
 
@@ -65,7 +65,7 @@ ms.locfileid: "105681788"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для разработки сценариев учетные данные безопасности участника указываются с помощью объекта [**Principal**](principal.md) .
 
@@ -104,18 +104,18 @@ ms.locfileid: "105681788"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

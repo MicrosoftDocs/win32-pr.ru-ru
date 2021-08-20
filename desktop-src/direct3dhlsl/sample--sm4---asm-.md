@@ -4,12 +4,12 @@ description: Выборка данных из указанного элемен�
 ms.assetid: 9055D3EE-FD4A-418C-A743-D12E8BDF69FF
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 397aba4a165f13721e73f87da82cff3e8918e33b
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 09b6fabb75c819bb2a95fcf500799fd1e8153d6dabfe66d33ba04c518c949fa1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104000201"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119671884"
 ---
 # <a name="sample-sm4---asm"></a>Пример (SM4-ASM)
 
@@ -37,7 +37,7 @@ ms.locfileid: "104000201"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Исходные данные могут поступать из любого типа ресурсов, кроме буферов.
 
@@ -120,9 +120,9 @@ ms.locfileid: "104000201"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
-| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | да       |
-| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
+| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Да       |
+| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Да       |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Нет        |
@@ -131,7 +131,7 @@ ms.locfileid: "104000201"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

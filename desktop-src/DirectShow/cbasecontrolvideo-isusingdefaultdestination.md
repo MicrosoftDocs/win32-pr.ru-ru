@@ -44,7 +44,7 @@ virtual HRESULT IsUsingDefaultDestination() = 0;
 
 \_При использовании назначения по умолчанию возвращает значение s ОК; в противном случае возвращает \_ false.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -55,7 +55,7 @@ virtual HRESULT IsUsingDefaultDestination() = 0;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

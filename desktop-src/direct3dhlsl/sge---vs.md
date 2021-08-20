@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7bad8816b87a32c5f10c73df27beb3cc2aef7716
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 1478a6e53889ed9b1aed725653f18791af7e6eda1fd4c888f87e0e938d850cff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104412185"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119671764"
 ---
 # <a name="sge---vs"></a>СЖЕ — VS
 
@@ -29,15 +29,15 @@ ms.locfileid: "104412185"
 
 
 
- 
+ 
 
-где
+where
 
 -   DST — это регистр назначения.
 -   src0 является исходным регистром.
 -   src1 является исходным регистром.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -47,7 +47,7 @@ ms.locfileid: "104412185"
 
 
 
- 
+ 
 
 В следующем фрагменте кода показаны выполняемые операции.
 
@@ -62,16 +62,16 @@ dest.w = (src0.w >= src1.w) ? 1.0f : 0.0f;
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера вершин](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

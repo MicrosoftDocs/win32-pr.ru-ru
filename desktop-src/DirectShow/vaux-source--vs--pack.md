@@ -4,18 +4,18 @@ ms.assetid: 5ffd2883-0e56-459f-b229-cc014b894237
 title: Пакет ВАУКС (VS)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28f7ad2a91f1be1291b564013041e6dfa23bb014
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 477e7a3257c11d6d8b42e16d2f066251452bc42a489abe9e666e374a565fa77c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105683770"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072105"
 ---
 # <a name="vaux-source-vs-pack"></a>Пакет ВАУКС (VS)
 
-В следующих таблицах перечислены значения, используемые драйвером МСДВ для заполнения элемента **двдвваукссрк** структуры [**двинфо**](/windows/desktop/api/strmif/ns-strmif-dvinfo) . Дополнительные сведения см. [в разделе Параметры полей двинфо в драйвере мсдв](dvinfo-field-settings-in-the-msdv-driver.md).
+В следующих таблицах перечислены значения, используемые драйвером МСДВ для заполнения элемента **двдвваукссрк** структуры [**двинфо**](/windows/desktop/api/strmif/ns-strmif-dvinfo) . дополнительные сведения см. [в разделе двинфо Field Параметры в драйвере мсдв](dvinfo-field-settings-in-the-msdv-driver.md).
 
-**Параметры ДВКР**
+**двкр Параметры**
 
 
 
@@ -143,7 +143,7 @@ EN (1)
 
  
 
-**Параметры DVCPRO 25 и DVCPRO 50 (запланированные)**
+**DVCPRO 25 и DVCPRO 50 Параметры (запланированный)**
 
 
 
@@ -271,7 +271,7 @@ EN (1)
 
  
 
-**Параметры ДВКР 100 (запланированные)**
+**двкр 100 Параметры (запланированная)**
 
 
 
@@ -375,7 +375,7 @@ EN (1)
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Ниже перечислены коды полей, которые представляют интерес:
 
@@ -400,14 +400,14 @@ EN (1)
     -   1:0100 = 1080/60i (60 Гц) или 1080/50i (50 Гц)
     -   1:1000 = 720/60p
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Цифровое видео в DirectShow](digital-video-in-directshow.md)
 </dt> <dt>
 
-[Параметры полей ДВИНФО в драйвере МСДВ](dvinfo-field-settings-in-the-msdv-driver.md)
+[Параметры поля двинфо в драйвере мсдв](dvinfo-field-settings-in-the-msdv-driver.md)
 </dt> </dl>
 
  

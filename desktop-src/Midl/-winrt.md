@@ -1,6 +1,6 @@
 ---
 title: /WinRT, параметр
-description: Параметр/WinRT включает семантику среда выполнения Windows.
+description: параметр/winrt включает семантику среда выполнения Windows.
 ms.assetid: 910F4106-1CA2-4486-BBD4-57DAC9B4A78F
 keywords:
 - MIDL/WinRT Switch
@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 25746064b18316edab9c497502b802c7d19adaf9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: add020d1228aaeae6e4a319875dd2118c5c0f185c4032ffcf11781768a4e289d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067434"
 ---
 # <a name="winrt-switch"></a>/WinRT, параметр
 
-Параметр [**/WinRT**](-winmd.md) включает семантику среда выполнения Windows.
+параметр [**/winrt**](-winmd.md) включает семантику среда выполнения Windows.
 
 ``` syntax
 midlrt /winrt 
@@ -37,7 +37,7 @@ midlrt /winrt
 
 **midlrt/WinRT**
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -48,7 +48,7 @@ midlrt /winrt
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

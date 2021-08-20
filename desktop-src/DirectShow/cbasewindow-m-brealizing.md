@@ -47,7 +47,7 @@ BYTE m_bRealizing;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

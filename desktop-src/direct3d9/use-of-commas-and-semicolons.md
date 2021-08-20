@@ -4,12 +4,12 @@ ms.assetid: 82582213-907c-4760-a849-e6cf5f6d60bc
 title: Использование запятых и точек с запятой
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ba238d50ff5d0dace017f16b75547df6b016e14
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b44d20d4a8e99a75522fa3703d58d82f3bf4dfe130e530d18141b7f45e572717
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104140699"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044062"
 ---
 # <a name="use-of-commas-and-semicolons"></a>Использование запятых и точек с запятой
 
@@ -122,7 +122,7 @@ container aContainer {
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

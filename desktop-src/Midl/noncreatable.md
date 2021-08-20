@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c2aa54be3416087c06651a4bb58902a0469e8f0c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 6e59c53d8e4c05d15d55a6ccd9d7fb2b5cd8783463d1f59d439c74240fdd93a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104337041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066944"
 ---
 # <a name="noncreatable-attribute"></a>noncreatable - атрибут
 
@@ -59,9 +59,9 @@ coclass coclass-name
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Используйте **\[ несоздаваемый \]** атрибут в операторе [**coclass**](coclass.md) , чтобы указать пользователям, что они не могут создать новый объект этого класса на верхнем уровне, то есть путем вызова **CreateInstance** **или CoCreateInstance**. Для создания экземпляра объекта этого класса требуется вызов метода другого объекта. Например, в Microsoft Excel объект Cell является несоздаваемым и должен быть получен из объекта листа Microsoft Excel.
+Используйте **\[ несоздаваемый \]** атрибут в операторе [**coclass**](coclass.md) , чтобы указать пользователям, что они не могут создать новый объект этого класса на верхнем уровне, то есть путем вызова **CreateInstance** **или CoCreateInstance**. Для создания экземпляра объекта этого класса требуется вызов метода другого объекта. например, в Microsoft Excel объект "Cell" является несоздаваемым и должен быть получен из объекта листа Microsoft Excel.
 
 Методы, возвращающие экземпляры несоздаваемых классов, должны возвращать точный тип объекта, а не типы **Variant** или **IDispatch** \* .
 
@@ -84,7 +84,7 @@ coclass MyCoClass
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -100,6 +100,6 @@ coclass MyCoClass
 [Создание библиотеки типов с помощью MIDL](generating-a-type-library-with-midl-2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

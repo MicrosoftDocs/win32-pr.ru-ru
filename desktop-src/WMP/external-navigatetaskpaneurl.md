@@ -3,9 +3,9 @@ title: External. Навигатетаскпанеурл, метод
 description: Обратите внимание, что в этом разделе описываются функции, предназначенные для использования в Интернет-магазинах. | External. Навигатетаскпанеурл, метод
 ms.assetid: c3a888c0-6589-4d21-9d47-37372d9069f4
 keywords:
-- Навигатетаскпанеурл метод Windows Media Player
-- Навигатетаскпанеурл метод Windows Media Player, внешний класс
-- Внешний класс проигрыватель Windows Media Player, метод Навигатетаскпанеурл
+- проигрыватель Windows Media метода навигатетаскпанеурл
+- проигрыватель Windows Media метода навигатетаскпанеурл, внешний класс
+- внешний класс проигрыватель Windows Media, метод навигатетаскпанеурл
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e70558c7616738f67d9dc1d6d29eca15e5c30d4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: eebcf8d799452a9966355f644f00ac5c4aecc4c066374254e8e580431b756b92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649034"
 ---
 # <a name="externalnavigatetaskpaneurl-method"></a>External. Навигатетаскпанеурл, метод
 
@@ -74,7 +74,7 @@ External.NavigateTaskPaneURL(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Переход к панели, не поддерживаемой Вашим Интернет-магазином, может привести к изменению текущего Интернет-магазина.
 
@@ -129,18 +129,18 @@ https://www.proseware.com/online store/html/navigate.asp?Pane=Store
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 10 или более поздней версии<br/>                                        |
+| Версия<br/> | проигрыватель Windows Media 10 или более поздней версии<br/>                                        |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

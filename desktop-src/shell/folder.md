@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shldisp.h
-ms.openlocfilehash: d37966b13a182161c1a6248c93eabaf5dfa3597c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: baf180149419178b489f3ba00042c561268b36e7b7ed7b0e2afab54b68f78466
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104539521"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032622"
 ---
 # <a name="folder-object"></a>Объект Folder
 
@@ -61,26 +61,26 @@ ms.locfileid: "104539521"
 | [**Приложение**](folder-application.md)<br/>   | Только для чтения<br/> | Содержит объект приложения папки.<br/> |
 | [**Parent**](folder-parent.md)<br/>             | Только для чтения<br/> | Не реализован.<br/>                          |
 | [**парентфолдер**](folder-parentfolder.md)<br/> | Только для чтения<br/> | Содержит объект родительской **папки** .<br/>    |
-| [**Заголовок**](folder-title.md)<br/>               | Только для чтения<br/> | Содержит заголовок папки.<br/>         |
+| [**Название**](folder-title.md)<br/>               | Только для чтения<br/> | Содержит заголовок папки.<br/>         |
 
 
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Не все методы реализуются для всех папок. Например, метод [**PARSENAME**](folder-parsename.md) не реализован для папки панели управления ( \_ элементы управления CSID). При попытке вызвать нереализованный метод возникнет ошибка 0x800A01BD (Decimal 445).
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                 |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                 |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                   |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl> |

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 09764017615809484ed4509eb488d36691218e71
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e27b7df443f0ed8576d9590eb39adf53f803b783160f701601e16a9561c3bf1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103811357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119038492"
 ---
 # <a name="windows8paramdurablecommitcallback-field"></a>Windows8Param. Дураблекоммиткаллбакк, поле
 
@@ -53,7 +53,7 @@ value = Windows8Param.DurableCommitCallback
 public const JET_param DurableCommitCallback
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

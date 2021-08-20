@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ee686c2f7f1ed94474275bb5cdb23a8f3f0eff47
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4652bcbe90e33737262cbc63914bda5467e27b2d04acaa786c676b4ecdc9fe79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119042371"
 ---
 # <a name="columnstreamflush-method"></a>Колумнстреам. Flush, метод
 
@@ -53,7 +53,7 @@ instance.Flush()
 public override void Flush()
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

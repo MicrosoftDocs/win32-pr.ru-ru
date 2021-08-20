@@ -19,12 +19,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: b70d9e84e2c85d4c5b702a638982df0b47d62193
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f49f105af3db5646b32c6aa5d78f28da76bf7b9806174e15f56b4d990de68e8f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103910728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119535514"
 ---
 # <a name="msvm_resourcepoolconfigurationcapabilities-class"></a>\_Класс мсвм ресаурцепулконфигуратионкапабилитиес
 
@@ -53,7 +53,7 @@ class Msvm_ResourcePoolConfigurationCapabilities : CIM_Capabilities
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ ресаурцепулконфигуратионкапабилитиес** имеет следующие свойства.
 
@@ -116,7 +116,7 @@ class Msvm_ResourcePoolConfigurationCapabilities : CIM_Capabilities
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -228,14 +228,14 @@ class Msvm_ResourcePoolConfigurationCapabilities : CIM_Capabilities
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только Windows 8.1 Классические приложения\]<br/>                                                            |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2012 R2 \[\]<br/>                                                 |
+| Минимальная версия клиента<br/> | Windows 8.1 \[ только классические приложения\]<br/>                                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[Только классические приложения R2\]<br/>                                                 |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

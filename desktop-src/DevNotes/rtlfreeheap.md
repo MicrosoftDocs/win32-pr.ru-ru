@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ntdll.dll
-ms.openlocfilehash: e51994c4bcd941bc96575eb3fdbb45d4111c1aeb
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3dd46808c898cd934bbb4ee8804027bcb926e4a5cd07eb1521e2814a2c4b0e1f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104538843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119538081"
 ---
 # <a name="rtlfreeheap-function"></a>Функция Ртлфрихеап
 
@@ -55,7 +55,7 @@ BOOLEAN RtlFreeHeap(
 
 
 
-| Flag                           | Значение                                                                                   |
+| Флаг                           | Значение                                                                                   |
 |--------------------------------|-------------------------------------------------------------------------------------------|
 | КУЧА \_ без \_ сериализации<br/> | Взаимное исключение не будет использоваться, если **ртлфрихеап** обращается к куче. <br/> |
 
@@ -77,11 +77,11 @@ BOOLEAN RtlFreeHeap(
 Возвращает **значение true** , если блок был успешно освобожден; В противном случае — **значение false** .
 
 > [!Note]  
-> Начиная с Windows 8 возвращаемое значение типизировано как **логическое**, имеющее размер, отличный от **логического**.
+> начиная с Windows 8 возвращаемое значение типизировано как **логическое**, имеющее размер, отличный от **логического**.
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -89,14 +89,14 @@ BOOLEAN RtlFreeHeap(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                                              |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                                                    |
-| Целевая платформа<br/>          | <dl> <dt>[Универсальной](https://msdn.microsoft.com/Library/Windows/Hardware/EB2264A4-BAE8-446B-B9A5-19893936DDCA)</dt> </dl> |
-| Header<br/>                   | <dl> <dt>Нтифс. h (включение Нтифс. h)</dt> </dl>                                    |
+| Целевая платформа<br/>          | <dl> <dt>[Универсальное](https://msdn.microsoft.com/Library/Windows/Hardware/EB2264A4-BAE8-446B-B9A5-19893936DDCA)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Нтифс. h (включение Нтифс. h)</dt> </dl>                                    |
 | Библиотека<br/>                  | <dl> <dt>NTDLL. lib</dt> </dl>                                                    |
 | DLL<br/>                      | <dl> <dt>Ntdll.dll</dt> </dl>                                                    |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

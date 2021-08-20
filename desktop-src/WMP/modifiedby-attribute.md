@@ -3,7 +3,7 @@ title: Атрибут ModifiedBy
 description: Строка, указывающая, были ли атрибуты элемента изменены пользователем.
 ms.assetid: 6967e82e-a2db-4c2a-8572-35a4f52bc451
 keywords:
-- ModifiedBy атрибут Windows Media Player
+- проигрыватель Windows Media атрибута ModifiedBy
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bf44c318628283627d4bf2f730c143081cee0990
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8afaddd2ed99af6d8b853da60c544694937600b480d6e620bfa2ab4637427fd4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648801"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119647644"
 ---
 # <a name="modifiedby-attribute"></a>Атрибут ModifiedBy
 
@@ -25,27 +25,27 @@ ms.locfileid: "105648801"
 
 Атрибут **ModifiedBy** — это строка, указывающая, были ли атрибуты элемента изменены пользователем.
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [DVD-диски](dvd-attributes.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут хранится только в цифровом файле мультимедиа.
 
 Чтобы определить, можно ли изменить значение этого атрибута, используйте метод [**Media. исреадонлитем**](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

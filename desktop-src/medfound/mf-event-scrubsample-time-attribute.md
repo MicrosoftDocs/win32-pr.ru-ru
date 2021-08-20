@@ -4,12 +4,12 @@ ms.assetid: 6ce52cf5-014b-49a2-abf7-2c9cc5340a42
 title: Атрибут MF_EVENT_SCRUBSAMPLE_TIME (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de7c4fb1a8015367fa3d48edb066cdb135983926
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a57045fcf5fd4faf20d2207778b91aa8ff0fd959dd42571882a21b5a1dceacba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104820"
 ---
 # <a name="mf_event_scrubsample_time-attribute"></a>\_ \_ Атрибут времени СКРУБСАМПЛЕ события MF \_
 
@@ -21,7 +21,7 @@ ms.locfileid: "103991479"
 
 Рассматривать как значение **лонглонг** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут используется с событием [местреамсинкскрубсамплекомплете](mestreamsinkscrubsamplecomplete.md) .
 
@@ -35,8 +35,8 @@ ms.locfileid: "103991479"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                               |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 

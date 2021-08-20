@@ -1,4 +1,4 @@
-- name: Пакет SDK для Windows Media диспетчер устройств 11
+- name: Windows Пакет SDK для Media диспетчер устройств 11
   href: windows-media-device-manager-11-sdk.md
   items:
     - name: Приступая к работе
@@ -6,7 +6,7 @@
       items:
         - name: Что входит в состав пакета SDK
           href: whats-included-with-the-sdk.md
-        - name: Архитектура диспетчер устройств Windows Media
+        - name: Windows Архитектура диспетчер устройств мультимедиа
           href: windows-media-device-manager-architecture.md
         - name: Средства для разработки
           href: tools-for-development.md
@@ -27,7 +27,7 @@
               items:
                 - name: Компиляция образца поставщика услуг с помощью NMAKE
                   href: compiling-the-sample-service-provider-using-nmake.md
-                - name: Компиляция примера поставщика служб с помощью Visual Studio
+                - name: Компиляция образца поставщика услуг с помощью Visual Studio
                   href: compiling-the-sample-service-provider-using-visual-studio.md
                 - name: Файлы кода для примера поставщика источника
                   href: code-files-for-the-source-provider-sample.md
@@ -54,7 +54,7 @@
               href: handling-protected-content.md
             - name: Получение и установка метаданных и атрибутов
               href: getting-and-setting-metadata-and-attributes.md
-        - name: Создание приложения диспетчер устройств Windows Media
+        - name: создание Windows мультимедиа диспетчер устройств приложение
           href: creating-a-windows-media-device-manager-application.md
           items:
             - name: Заявление о конфиденциальности
@@ -96,7 +96,7 @@
               href: enabling-notifications.md
             - name: Использование содержимого измерения
               href: metering-content-usage.md
-            - name: Сопоставление RSS-каналов со свойствами диспетчер устройств Windows Media
+            - name: сопоставление RSS-каналов с Windows свойствами диспетчер устройств мультимедиа
               href: mapping-rss-feeds-to-windows-media-device-manager-properties.md
         - name: Создание поставщика услуг
           href: creating-a-service-provider.md
@@ -119,9 +119,9 @@
               href: mandatory-and-optional-interfaces.md
             - name: Обработка защищенного содержимого в поставщике услуг
               href: handling-protected-content-in-the-service-provider.md
-            - name: Включение синхронизации с проигрывателем Windows Media
+            - name: включение синхронизации с проигрыватель Windows Media
               href: enabling-synchronization-with-windows-media-player.md
-            - name: Требования к отображению портативных проигрывателей в проводнике Windows
+            - name: 'требования к портативным проигрывателям, отображаемым в Windows Explorer'
               href: requirements-for-portable-audio-players-to-appear-in-windows-explorer.md
     - name: Справочник по программированию
       href: programming-reference.md
@@ -753,7 +753,7 @@
                   href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorageglobals-gettotalsize
                 - name: 'Имдспсторажеглобалс:: Initialize'
                   href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorageglobals-initialize
-        - name: Интерфейсы DRM-Implemented Windows Media
+        - name: Windows Интерфейсы DRM-Implemented мультимедиа
           href: windows-media-drm-implemented-interfaces.md
           items:
             - name: Интерфейс Ивмдрмдевице

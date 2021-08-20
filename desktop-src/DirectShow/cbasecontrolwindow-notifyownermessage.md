@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9073d37987404849ba8aa3acbda9919df840b410
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 35d71057027bd8fbd572dffd714f761ff101ba0de95dd42dcf058009b0cb1b04
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105658108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119526854"
 ---
 # <a name="cbasecontrolwindownotifyownermessage-method"></a>Кбасеконтролвиндов. Нотифйовнермессаже, метод
 
@@ -77,7 +77,7 @@ HRESULT NotifyOwnerMessage(
 
 НЕ возвращает \_ ошибку.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Когда окно видео является дочерним по отношению к другому окну, оно не получает определенные сообщения окна верхнего уровня. Эти сообщения могут быть ценными для модуля подготовки отчетов, так как они могут повлиять на его поведение. `NotifyOwnerMessage` передает любое из следующих сообщений в окно видео.
 
@@ -91,18 +91,18 @@ HRESULT NotifyOwnerMessage(
 
 Вы можете запросить, чтобы окно с подключаемым модулем [**ивидеовиндов**](/windows/desktop/api/Control/nn-control-ivideowindow) (PID) стало дочерним для другого окна. В этом случае PID будет искать определенные сообщения, которые могут быть отправлены в окно-владелец. Идентификатор процесса пересылает эти сообщения в собственное окно. Обработка сообщений по умолчанию заключается в синхронной отправке их в собственную процедуру окна путем вызова функции Win32 **SendMessage** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ктлутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>ктлутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

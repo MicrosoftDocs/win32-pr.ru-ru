@@ -4,12 +4,12 @@ ms.assetid: 37d9d1c6-c67d-493f-9660-bac5a47ac081
 title: UserID, атрибут
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6eb27a616670cd323efee4c1424f7968d00ba617
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bd01022f149eef73cbed164c15e2ab1c66fa378b9b4d440919941a374cfed068
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081091"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072218"
 ---
 # <a name="userid-attribute"></a>UserID, атрибут
 
@@ -24,11 +24,11 @@ ms.locfileid: "104081091"
 
 Значением должно быть целое число.
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 [**клип**](clip-element.md), [**составной**](composite-element.md), [**эффекты**](effect-element.md), [**Группа**](group-element.md), [**временная шкала**](timeline-element.md), [**Переход**](transition-element.md)
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: fdb6b0fa-0741-4edc-8902-763a461313b9
 title: System.ItemNameDisplay
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf735935ee7971acad7d11ee91636e18a6542252
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f34e21c0ded147789cadccc99aaf9b2a1910398430419edacc498214c6489d77
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103810984"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119598474"
 ---
 # <a name="systemitemnamedisplay"></a>System.ItemNameDisplay
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
@@ -39,19 +39,19 @@ propertyDescription
 
 Если элемент является файлом, это свойство содержит отображаемое имя, как показано в проводнике. Существуют допустимые случаи, когда указано свойство [System. имя_файла](./props-system-filename.md) , но значение этого свойства совершенно другое. Хорошим примером являются сообщения электронной почты. Если элемент является сообщением электронной почты, имя элемента обычно является темой. В этом случае значение должно быть объединением [System. итемнамепрефикс](./props-system-itemnameprefix.md) и [System. ItemName](./props-system-itemname.md). Поскольку значение System. Итемнамепрефикс исключает все конечные пробелы, при создании [System. итемнамедисплай]()сцепление должно включать пробел. Обратите внимание, что это свойство не обязательно должно быть уникальным, но оно предназначено для продвижения наиболее вероятного кандидата, который может быть уникальным и имеет смысл для конечных пользователей.
 
-Например, для документов можно использовать [System. Title](./props-system-title.md) в качестве [System. итемнамедисплай](), но на практике заголовок документов может оказаться неполезным или уникальным для работы в качестве единственного System. итемнамедисплай. Вместо этого лучше предоставлять [System. filename](./props-system-filename.md) как значение System. итемнамедисплай. В компоненте почта Windows электронная почта хранится в файловой системе в виде EML-файлов. Значения System. FileName для этих файлов не являются понятными, так как они являются идентификаторами GUID. В этом примере повышается смысл повышения уровня [System. subject](./props-system-subject.md) как System. итемнамедисплай.
+Например, для документов можно использовать [System. Title](./props-system-title.md) в качестве [System. итемнамедисплай](), но на практике заголовок документов может оказаться неполезным или уникальным для работы в качестве единственного System. итемнамедисплай. Вместо этого лучше предоставлять [System. filename](./props-system-filename.md) как значение System. итемнамедисплай. в Windows Mail электронная почта хранится в файловой системе в виде eml-файлов. Значения System. FileName для этих файлов не являются понятными, так как они являются идентификаторами GUID. В этом примере повышается смысл повышения уровня [System. subject](./props-system-subject.md) как System. итемнамедисплай.
 
 **Примечания по совместимости:**
 
--   Реализации папок оболочки в Windows Vista: используйте PKEY \_ итемнамедисплай для столбца Name, если нужно, чтобы Проводник Windows вызывал [**ишеллфолдер:: жетдисплайнамеоф**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof)(шгдн \_ нормаль) для получения значения имени. Используйте другой PKEY, например PKEY \_ ItemName, если нужно, чтобы Проводник Windows вызывал либо хранилище свойств папки, либо [**IShellFolder2:: жетдетаилсекс**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellfolder2-getdetailsex) , чтобы получить значение имени.
--   Реализации папок оболочки в Windows XP: первый столбец должен быть столбцом Name, а Проводник Windows вызывает [**ишеллфолдер:: жетдисплайнамеоф**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof) , чтобы получить значение имени. Значение PKEY/СЦИД не имеет значения.
+-   реализации папок оболочки в Windows Vista: используйте PKEY \_ итемнамедисплай для столбца name, если нужно, чтобы Windows Explorer вызывал [**ишеллфолдер:: жетдисплайнамеоф**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof)(шгдн \_ нормаль) для получения значения имени. используйте другой PKEY, например pkey \_ ItemName, если нужно, чтобы Windows Explorer вызывал либо хранилище свойств папки, либо [**IShellFolder2:: жетдетаилсекс**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellfolder2-getdetailsex) , чтобы получить значение имени.
+-   реализации папок оболочки в Windows XP: первый столбец должен быть столбцом name, а Windows Explorer вызывает [**ишеллфолдер:: жетдисплайнамеоф**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof) , чтобы получить значение имени. Значение PKEY/СЦИД не имеет значения.
 
 
 
 | Тип элемента     | Пример                   |
 |---------------|---------------------------|
-| Файл          | hello.txt                 |
-| Сообщение       | Re: где находится собрание? |
+| File          | hello.txt                 |
+| Message       | Re: где находится собрание? |
 | Папка устройства | песня. WMA                  |
 | Папка        | Документы                 |
 
@@ -59,7 +59,7 @@ propertyDescription
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

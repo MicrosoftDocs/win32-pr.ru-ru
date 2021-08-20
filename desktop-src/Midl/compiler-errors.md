@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b4bb2189e824f82cc9247abc68844068d083b2f0
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 56b610025d3012446daa7938e2f37c2efcf6c2ddb7edd2ee545db0a179953fad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104134715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067459"
 ---
 # <a name="compiler-errors"></a>Ошибки компилятора
 
@@ -718,7 +718,7 @@ ms.locfileid: "104134715"
 </tr>
 <tr class="even">
 <td><span id="MIDL2167"></span><span id="midl2167"></span><dl> <dt><strong>MIDL2167</strong></dt> </dl></td>
-<td><dl> <dt><span id="this_attribute_only_allowed_with_new_format_type_libraries"></span><span id="THIS_ATTRIBUTE_ONLY_ALLOWED_WITH_NEW_FORMAT_TYPE_LIBRARIES"></span>Этот атрибут разрешен только в новых библиотеках типов форматирования</dt> <dd> Чтобы использовать этот атрибут, требуется версия Oleaut32.dll, предоставляемая в Windows 2000 или более поздней версии.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="this_attribute_only_allowed_with_new_format_type_libraries"></span><span id="THIS_ATTRIBUTE_ONLY_ALLOWED_WITH_NEW_FORMAT_TYPE_LIBRARIES"></span>Этот атрибут разрешен только в новых библиотеках типов форматирования</dt> <dd> чтобы использовать этот атрибут, требуется версия Oleaut32.dll, поставляемая с Windows 2000 или более поздней версии.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="MIDL2168"></span><span id="midl2168"></span><dl> <dt><strong>MIDL2168</strong></dt> </dl></td>
@@ -1288,7 +1288,7 @@ ms.locfileid: "104134715"
 </tr>
 <tr class="even">
 <td><span id="MIDL2309"></span><span id="midl2309"></span><dl> <dt><strong>MIDL2309</strong></dt> </dl></td>
-<td><dl> <dt><span id="Too_many_delegation_methods_in_the_interface__require_Windows_2000_or_greater"></span><span id="too_many_delegation_methods_in_the_interface__require_windows_2000_or_greater"></span><span id="TOO_MANY_DELEGATION_METHODS_IN_THE_INTERFACE__REQUIRE_WINDOWS_2000_OR_GREATER"></span>В интерфейсе слишком много методов делегирования, требуется Windows 2000 или более поздней версии</dt> <dd> Один интерфейс может наследовать от другого. В этом случае методы базового интерфейса считаются делегированными. Ни один производный интерфейс не может содержать более 256 делегированных методов.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Too_many_delegation_methods_in_the_interface__require_Windows_2000_or_greater"></span><span id="too_many_delegation_methods_in_the_interface__require_windows_2000_or_greater"></span><span id="TOO_MANY_DELEGATION_METHODS_IN_THE_INTERFACE__REQUIRE_WINDOWS_2000_OR_GREATER"></span>слишком много методов делегирования в интерфейсе, требуется Windows 2000 или более</dt> <dd> Один интерфейс может наследовать от другого. В этом случае методы базового интерфейса считаются делегированными. Ни один производный интерфейс не может содержать более 256 делегированных методов.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="MIDL2310"></span><span id="midl2310"></span><dl> <dt><strong>MIDL2310</strong></dt> </dl></td>
@@ -1463,7 +1463,7 @@ ms.locfileid: "104134715"
 </tr>
 <tr class="odd">
 <td><span id="MIDL2352"></span><span id="midl2352"></span><dl> <dt><strong>MIDL2352</strong></dt> </dl></td>
-<td><dl> <dt><span id="string__varying_array__conformant_array_and_full_pointer_parameters_may_be_incompatible_with_pipe_parameters_during_run_time"></span><span id="STRING__VARYING_ARRAY__CONFORMANT_ARRAY_AND_FULL_POINTER_PARAMETERS_MAY_BE_INCOMPATIBLE_WITH_PIPE_PARAMETERS_DURING_RUN_TIME"></span>строки, различные массивы, согласованные массивы и параметры полного указателя могут быть несовместимы с параметрами канала во время выполнения</dt> <dd> Метод, объединяющий одну или несколько строк [in], различные массивы, согласованные массивы и параметры полного указателя, а также любой параметр канала [in] приводит к созданию заглушки, которая выполняется только для последовательностей протокола <strong>ncacn_ *</strong> и <a href="ncalrpc.md"><strong>Нкалрпк</strong></a> на компьютерах Windows. Использование заглушки для вызова последовательностей протокола <strong>ncadg_ *</strong> или приема вызовов от других поставщиков использование DCE RPC может привести к сбоям на сервере во время выполнения. Эта ошибка возникает, начиная с Windows Server 2003.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="string__varying_array__conformant_array_and_full_pointer_parameters_may_be_incompatible_with_pipe_parameters_during_run_time"></span><span id="STRING__VARYING_ARRAY__CONFORMANT_ARRAY_AND_FULL_POINTER_PARAMETERS_MAY_BE_INCOMPATIBLE_WITH_PIPE_PARAMETERS_DURING_RUN_TIME"></span>строки, различные массивы, согласованные массивы и параметры полного указателя могут быть несовместимы с параметрами канала во время выполнения</dt> <dd> метод, объединяющий одну или несколько строк [in], различные массивы, согласованные массивы и параметры полного указателя, а также любой параметр канала [in] приводит к созданию заглушки, которая выполняется только для последовательностей протокола <strong>ncacn_ *</strong> и <a href="ncalrpc.md"><strong>нкалрпк</strong></a> на Windows компьютерах. Использование заглушки для вызова последовательностей протокола <strong>ncadg_ *</strong> или приема вызовов от других поставщиков использование DCE RPC может привести к сбоям на сервере во время выполнения. эта ошибка возникает, начиная с Windows Server 2003.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="MIDL2353"></span><span id="midl2353"></span><dl> <dt><strong>MIDL2353</strong></dt> </dl></td>
@@ -1499,7 +1499,7 @@ ms.locfileid: "104134715"
 </tr>
 <tr class="odd">
 <td><span id="MIDL2360"></span><span id="midl2360"></span><dl> <dt><strong>MIDL2360</strong></dt> </dl></td>
-<td><dl> <dt><span id="invalid_type_redefinition"></span><span id="INVALID_TYPE_REDEFINITION"></span>недопустимое переопределение типа</dt> <dd> Новый тип был рекурсивно определен для несуществующего типа.<br/> Пример.<br/>
+<td><dl> <dt><span id="invalid_type_redefinition"></span><span id="INVALID_TYPE_REDEFINITION"></span>недопустимое переопределение типа</dt> <dd> Новый тип был рекурсивно определен для несуществующего типа.<br/> Пример<br/>
 <pre class="syntax" data-space="preserve"><code>typedef roo roo[10];    //MIDL 2360</code></pre>
 </dd> </dl></td>
 </tr>
@@ -1509,7 +1509,7 @@ ms.locfileid: "104134715"
 </tr>
 <tr class="odd">
 <td><span id="MIDL2363"></span><span id="midl2363"></span><dl> <dt><strong>MIDL2363</strong></dt> </dl></td>
-<td><dl> <dt><span id="too_many_methods_in_the_interface__requires_Windows_2000_or_greater"></span><span id="too_many_methods_in_the_interface__requires_windows_2000_or_greater"></span><span id="TOO_MANY_METHODS_IN_THE_INTERFACE__REQUIRES_WINDOWS_2000_OR_GREATER"></span>слишком много методов в интерфейсе, требуется Windows 2000 или более поздней версии</dt> <dd> Компилятор MIDL не позволяет использовать более 1024 методов в интерфейсе при компиляции в режиме <a href="-oi.md"><strong>/Oicf</strong></a> .<br/> </dd> </dl></td>
+<td><dl> <dt><span id="too_many_methods_in_the_interface__requires_Windows_2000_or_greater"></span><span id="too_many_methods_in_the_interface__requires_windows_2000_or_greater"></span><span id="TOO_MANY_METHODS_IN_THE_INTERFACE__REQUIRES_WINDOWS_2000_OR_GREATER"></span>слишком много методов в интерфейсе, требуется Windows 2000 или более</dt> <dd> Компилятор MIDL не позволяет использовать более 1024 методов в интерфейсе при компиляции в режиме <a href="-oi.md"><strong>/Oicf</strong></a> .<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="MIDL2364"></span><span id="midl2364"></span><dl> <dt><strong>MIDL2364</strong></dt> </dl></td>
@@ -1521,7 +1521,7 @@ ms.locfileid: "104134715"
 </tr>
 <tr class="even">
 <td><span id="MIDL2366"></span><span id="midl2366"></span><dl> <dt><strong>MIDL2366</strong></dt> </dl></td>
-<td><dl> <dt><span id="cannot_assign_a_default_value"></span><span id="CANNOT_ASSIGN_A_DEFAULT_VALUE"></span>Невозможно присвоить значение по умолчанию</dt> <dd> Присвоение параметру значения по умолчанию допускается в Visual Basic, но не в C++. Если используется C++, значение по умолчанию игнорируется.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="cannot_assign_a_default_value"></span><span id="CANNOT_ASSIGN_A_DEFAULT_VALUE"></span>Невозможно присвоить значение по умолчанию</dt> <dd> присвоение параметру значения по умолчанию допускается в Visual Basic, но не в C++. Если используется C++, значение по умолчанию игнорируется.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="MIDL2367"></span><span id="midl2367"></span><dl> <dt><strong>MIDL2367</strong></dt> </dl></td>
@@ -1533,7 +1533,7 @@ ms.locfileid: "104134715"
 </tr>
 <tr class="odd">
 <td><span id="MIDL2369"></span><span id="midl2369"></span><dl> <dt><strong>MIDL2369</strong></dt> </dl></td>
-<td><dl> <dt><span id="exceeded_stack_size_for__Oi__using__Os"></span><span id="exceeded_stack_size_for__oi__using__os"></span><span id="EXCEEDED_STACK_SIZE_FOR__OI__USING__OS"></span>Превышен размер стека для/OI с использованием/OS</dt> <dd> Режим оптимизации-Oi ограничен 128 байт пространства стека для параметров. Для обхода этого ограничения компилятор автоматически переключился на режим оптимизации ОС.<br/> Чтобы избежать этого предупреждения, используйте режимы оптимизации-Оикф или-OS. Режим оптимизации можно изменить в командной строке, указав параметр-Оикф или-OS вместо-Oi или добавив атрибут [optimize9 &quot; ICF &quot; )] или optimize [( &quot; s &quot; )] в функцию в файле ACF.<br/> Это предупреждение обычно происходит при передаче больших структур в качестве параметров по значению. Требуемый размер стека можно уменьшить, передав вместо него указатель на структуру.<br/> Пример.<br/>
+<td><dl> <dt><span id="exceeded_stack_size_for__Oi__using__Os"></span><span id="exceeded_stack_size_for__oi__using__os"></span><span id="EXCEEDED_STACK_SIZE_FOR__OI__USING__OS"></span>Превышен размер стека для/OI с использованием/OS</dt> <dd> Режим оптимизации-Oi ограничен 128 байт пространства стека для параметров. Для обхода этого ограничения компилятор автоматически переключился на режим оптимизации ОС.<br/> Чтобы избежать этого предупреждения, используйте режимы оптимизации-Оикф или-OS. Режим оптимизации можно изменить в командной строке, указав параметр-Оикф или-OS вместо-Oi или добавив атрибут [optimize9 &quot; ICF &quot; )] или optimize [( &quot; s &quot; )] в функцию в файле ACF.<br/> Это предупреждение обычно происходит при передаче больших структур в качестве параметров по значению. Требуемый размер стека можно уменьшить, передав вместо него указатель на структуру.<br/> Пример<br/>
 <pre class="syntax" data-space="preserve"><code>typedef struct
 {
 char a[127];
@@ -1551,7 +1551,7 @@ void bar (large *s, int a);</code></pre>
 </tr>
 <tr class="odd">
 <td><span id="MIDL2371"></span><span id="midl2371"></span><dl> <dt><strong>MIDL2371</strong></dt> </dl></td>
-<td><dl> <dt><span id="incorrect_range_specified"></span><span id="INCORRECT_RANGE_SPECIFIED"></span>указан неверный диапазон</dt> <dd> Наибольшее значение, указанное в атрибуте [<a href="range.md"><strong>Range</strong></a>], меньше наименьшего значения.<br/> Пример.<br/>
+<td><dl> <dt><span id="incorrect_range_specified"></span><span id="INCORRECT_RANGE_SPECIFIED"></span>указан неверный диапазон</dt> <dd> Наибольшее значение, указанное в атрибуте [<a href="range.md"><strong>Range</strong></a>], меньше наименьшего значения.<br/> Пример<br/>
 <pre class="syntax" data-space="preserve"><code>void roo([range(3,2)] int a);    //MIDL 2371</code></pre>
 </dd> </dl></td>
 </tr>
@@ -1651,7 +1651,7 @@ void bar(long s1, long s2, [size_is(s1,s2) long **a);//MIDL2393</code></pre>
 <td><dl> <dt><span id="type_or_construct_not_supported_in_a_library_block_because_Oleaut32.dll_support_for_64-KB_polymorphic_types_is_missing"></span><span id="type_or_construct_not_supported_in_a_library_block_because_oleaut32.dll_support_for_64-kb_polymorphic_types_is_missing"></span><span id="TYPE_OR_CONSTRUCT_NOT_SUPPORTED_IN_A_LIBRARY_BLOCK_BECAUSE_OLEAUT32.DLL_SUPPORT_FOR_64-KB_POLYMORPHIC_TYPES_IS_MISSING"></span>тип или конструкция не поддерживается в блоке библиотеки, так как отсутствует поддержка Oleaut32.dll для недопустимых типов 64 КБ</dt> <dd> OLE-автоматизация не поддерживает типы с полиморфизмом (такие как _int3264, INT_PTR и т. д.). Эти типы имеют несовместимые представления данных между 32-разрядными и 64-разрядными платформами. Удаленный вызов завершится ошибкой во время выполнения на 64-разрядных платформах.<br/>
 <blockquote>
 [!Note]<br />
-Обратите внимание, что начиная с версии Windows 2000, 64-разрядные файлы TLB поддерживаются службой автоматизации OLE путем преобразования 32-разрядных данных TLB во время выполнения. Поэтому MIDL поддерживает только 32-разрядное поколение TLB.
+обратите внимание, что начиная с версии Windows 2000, 64-разрядные файлы tlb поддерживаются службой автоматизации OLE путем преобразования 32-разрядных данных tlb во время выполнения. Поэтому MIDL поддерживает только 32-разрядное поколение TLB.
 </blockquote>
 <br/> Если MIDL используется только для создания файла заголовка, параметр <a href="-notlb.md"><strong>/notlb</strong></a> ПОДАВЛЯЕТ создание TLB-файла.<br/> </dd> </dl></td>
 </tr>
@@ -1665,11 +1665,11 @@ void bar(long s1, long s2, [size_is(s1,s2) long **a);//MIDL2393</code></pre>
 </tr>
 <tr class="even">
 <td><span id="MIDL2398"></span><span id="midl2398"></span><dl> <dt><strong>MIDL2398</strong></dt> </dl></td>
-<td><dl> <dt><span id="cannot_execute_MIDL_engine"></span><span id="cannot_execute_midl_engine"></span><span id="CANNOT_EXECUTE_MIDL_ENGINE"></span>не удается выполнить модуль MIDL</dt> <dd> Начиная с выпуска Windows 2000 (MIDL версии 5.03.279), компилятор MIDL реализуется с помощью двух исполняемых файлов: Midl.exe (драйвер) и Midlc.exe (обработчик компилятора). Эта ошибка означает, что Midl.exe не удалось запустить Midlc.exe. Убедитесь, что Midlc.exe находится в том же каталоге, что и Midl.exe, и что они имеют одинаковую версию.<br/> Ошибка могла быть вызвана копированием Midl.exe, но не Midlx.exe из последнего распространения. Выполните <strong>MIDL</strong> или <strong>мидлк</strong> в командной строке без параметров, чтобы просмотреть номер версии исполняемого файла.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="cannot_execute_MIDL_engine"></span><span id="cannot_execute_midl_engine"></span><span id="CANNOT_EXECUTE_MIDL_ENGINE"></span>не удается выполнить модуль MIDL</dt> <dd> начиная с выпуска Windows 2000 (midl версии 5.03.279), компилятор MIDL реализуется с помощью двух исполняемых файлов: Midl.exe (драйвер) и Midlc.exe (обработчик компилятора). Эта ошибка означает, что Midl.exe не удалось запустить Midlc.exe. Убедитесь, что Midlc.exe находится в том же каталоге, что и Midl.exe, и что они имеют одинаковую версию.<br/> Ошибка могла быть вызвана копированием Midl.exe, но не Midlx.exe из последнего распространения. Выполните <strong>MIDL</strong> или <strong>мидлк</strong> в командной строке без параметров, чтобы просмотреть номер версии исполняемого файла.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="MIDL2399"></span><span id="midl2399"></span><dl> <dt><strong>MIDL2399</strong></dt> </dl></td>
-<td><dl> <dt><span id="bad_commands_from_driver"></span><span id="BAD_COMMANDS_FROM_DRIVER"></span>неверные команды из драйвера</dt> <dd> Начиная с выпуска Windows 2000 (MIDL версии 5.03.279), компилятор MIDL реализуется с помощью двух исполняемых файлов: Midl.exe (драйвер) и Midlc.exe (обработчик компилятора). Эта ошибка означает, что временный файл, используемый для передачи команд из Midl.exe в Midlc.exe, отсутствует или поврежден. Убедитесь, что Midlc.exe находится в том же каталоге, что и Midl.exe, и что они имеют одинаковую версию.<br/> Ошибка могла быть вызвана попыткой запуска Midlc.exe напрямую или копированием Midl.exe, но не Midlc.exe из последнего дистрибутива. Выполните <strong>MIDL</strong> или <strong>мидлк</strong> в командной строке без параметров, чтобы просмотреть номер версии исполняемого файла.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="bad_commands_from_driver"></span><span id="BAD_COMMANDS_FROM_DRIVER"></span>неверные команды из драйвера</dt> <dd> начиная с выпуска Windows 2000 (midl версии 5.03.279), компилятор MIDL реализуется с помощью двух исполняемых файлов: Midl.exe (драйвер) и Midlc.exe (обработчик компилятора). Эта ошибка означает, что временный файл, используемый для передачи команд из Midl.exe в Midlc.exe, отсутствует или поврежден. Убедитесь, что Midlc.exe находится в том же каталоге, что и Midl.exe, и что они имеют одинаковую версию.<br/> Ошибка могла быть вызвана попыткой запуска Midlc.exe напрямую или копированием Midl.exe, но не Midlc.exe из последнего дистрибутива. Выполните <strong>MIDL</strong> или <strong>мидлк</strong> в командной строке без параметров, чтобы просмотреть номер версии исполняемого файла.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="MIDL2400"></span><span id="midl2400"></span><dl> <dt><strong>MIDL2400</strong></dt> </dl></td>
@@ -1697,11 +1697,11 @@ void bar(long s1, long s2, [size_is(s1,s2) long **a);//MIDL2393</code></pre>
 </tr>
 <tr class="even">
 <td><span id="MIDL2406"></span><span id="midl2406"></span><dl> <dt><strong>MIDL2406</strong></dt> </dl></td>
-<td><dl> <dt><span id="midl_driver_and_compiler_version_mismatch"></span><span id="MIDL_DRIVER_AND_COMPILER_VERSION_MISMATCH"></span>несоответствие версии драйвера MIDL и компилятора</dt> <dd> Начиная с версии Windows 2000 (MIDL версии 5.03.279) компилятор MIDL реализуется с помощью двух исполняемых файлов: Midl.exe (драйвер) и Midlc.exe (обработчик компилятора). Эта ошибка означает, что версия Midl.exe не соответствует версии Midlc.exe.<br/> Ошибка могла быть вызвана копированием Midl.exe, но не Midlc.exe из последнего распространения. Выполните <strong>MIDL</strong> или <strong>мидлк</strong> в командной строке без параметров, чтобы просмотреть номер версии исполняемого файла.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="midl_driver_and_compiler_version_mismatch"></span><span id="MIDL_DRIVER_AND_COMPILER_VERSION_MISMATCH"></span>несоответствие версии драйвера MIDL и компилятора</dt> <dd> начиная с выпуска Windows 2000 (midl версии 5.03.279) компилятор MIDL реализуется с помощью двух исполняемых файлов: Midl.exe (драйвер) и Midlc.exe (обработчик компилятора). Эта ошибка означает, что версия Midl.exe не соответствует версии Midlc.exe.<br/> Ошибка могла быть вызвана копированием Midl.exe, но не Midlc.exe из последнего распространения. Выполните <strong>MIDL</strong> или <strong>мидлк</strong> в командной строке без параметров, чтобы просмотреть номер версии исполняемого файла.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="MIDL2407"></span><span id="midl2407"></span><dl> <dt><strong>MIDL2407</strong></dt> </dl></td>
-<td><dl> <dt><span id="no_intermediate_file_specified__use_Midl.exe"></span><span id="no_intermediate_file_specified__use_midl.exe"></span><span id="NO_INTERMEDIATE_FILE_SPECIFIED__USE_MIDL.EXE"></span>промежуточный файл не указан: используйте Midl.exe</dt> <dd> Начиная с выпуска Windows 2000 (MIDL версии 5.03.279), компилятор MIDL реализуется с помощью двух исполняемых файлов: Midl.exe (драйвер) и Midlc.exe (обработчик компилятора). Эта ошибка означает, что Midlc.exe был запущен напрямую вместо использования Midl.exe.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="no_intermediate_file_specified__use_Midl.exe"></span><span id="no_intermediate_file_specified__use_midl.exe"></span><span id="NO_INTERMEDIATE_FILE_SPECIFIED__USE_MIDL.EXE"></span>промежуточный файл не указан: используйте Midl.exe</dt> <dd> начиная с выпуска Windows 2000 (midl версии 5.03.279), компилятор MIDL реализуется с помощью двух исполняемых файлов: Midl.exe (драйвер) и Midlc.exe (обработчик компилятора). Эта ошибка означает, что Midlc.exe был запущен напрямую вместо использования Midl.exe.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="MIDL2408"></span><span id="midl2408"></span><dl> <dt><strong>MIDL2408</strong></dt> </dl></td>
@@ -1732,7 +1732,7 @@ void roo(LPSAFEAEEAY a);         //OK</code></pre>
 </tr>
 <tr class="even">
 <td><span id="MIDL2414"></span><span id="midl2414"></span><dl> <dt><strong>MIDL2414</strong></dt> </dl></td>
-<td><dl> <dt><span id="floating_point_or_complex_return_types_with__decode__are_not_supported_in_-Oicf__using_-OI"></span><span id="floating_point_or_complex_return_types_with__decode__are_not_supported_in_-oicf__using_-oi"></span><span id="FLOATING_POINT_OR_COMPLEX_RETURN_TYPES_WITH__DECODE__ARE_NOT_SUPPORTED_IN_-OICF__USING_-OI"></span>типы возвращаемых значений с плавающей запятой или сложные значения с [декодированием] не поддерживаются в параметре-Оикф с помощью-OI</dt> <dd> Процедуры с типами возвращаемых значений с плавающей запятой или структурой и объединением не поддерживаются в списке выбора стиля Оикф. Решение для 32-разрядной версии — использовать режим оптимизации-Oi при сериализации данных (с помощью [Encoded] и/или [дешифровки]). Тем не менее, поскольку поддержка интерпретатора стилей Old-Oi и поддержки выбора выводятся после выпуска Windows 2000, использование указателей настоятельно рекомендуется в качестве решения для этой проблемы. Также обратите внимание, что, как правило, изменение метода интерфейса для использования указателя [out, ref] вместо возвращаемого значения приводит к тому, что проблема полностью совместима на канале и может быть легко скрыта от уровня приложения. <br/> Это предупреждение можно отключить глобально, указав-Oi в командной строке MIDL или для отдельной функции, добавив атрибут [optimize ( &quot; i &quot; )] к функции в файле ACF.<br/> В следующем примере показана эта ошибка:<br/> ру. IDL: <br/>
+<td><dl> <dt><span id="floating_point_or_complex_return_types_with__decode__are_not_supported_in_-Oicf__using_-OI"></span><span id="floating_point_or_complex_return_types_with__decode__are_not_supported_in_-oicf__using_-oi"></span><span id="FLOATING_POINT_OR_COMPLEX_RETURN_TYPES_WITH__DECODE__ARE_NOT_SUPPORTED_IN_-OICF__USING_-OI"></span>типы возвращаемых значений с плавающей запятой или сложные значения с [декодированием] не поддерживаются в параметре-Оикф с помощью-OI</dt> <dd> Процедуры с типами возвращаемых значений с плавающей запятой или структурой и объединением не поддерживаются в списке выбора стиля Оикф. Решение для 32-разрядной версии — использовать режим оптимизации-Oi при сериализации данных (с помощью [Encoded] и/или [дешифровки]). тем не менее, так как поддержка интерпретатора стилей old-Oi и поддержки выбора выводятся после выпуска Windows 2000, использование указателей настоятельно рекомендуется в качестве решения для этой проблемы. Также обратите внимание, что, как правило, изменение метода интерфейса для использования указателя [out, ref] вместо возвращаемого значения приводит к тому, что проблема полностью совместима на канале и может быть легко скрыта от уровня приложения. <br/> Это предупреждение можно отключить глобально, указав-Oi в командной строке MIDL или для отдельной функции, добавив атрибут [optimize ( &quot; i &quot; )] к функции в файле ACF.<br/> В следующем примере показана эта ошибка:<br/> ру. IDL: <br/>
 <pre class="syntax" data-space="preserve"><code>double GetDouble();</code></pre>
 ру. ACF: <br/>
 <pre class="syntax" data-space="preserve"><code>[decode] GetDouble();</code></pre>

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 71b5022ac8b567d318dadad558561c7d23603017
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 7ae3688db038e7e4a643b390dd1d1e3ba8b9b6580920690b92d260d670911020
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108111102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119340414"
 ---
 # <a name="requeststatechange-method-of-the-msvm_videohead-class"></a>Метод RequestStateChange \_ класса мсвм видеохеад
 
@@ -151,7 +151,7 @@ uint32 RequestStateChange(
 **Не поддерживается** (1)
 </dt> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

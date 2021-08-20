@@ -1,17 +1,17 @@
 ---
-description: В этом справочном разделе описывается конфигурация для Windows и сообщений. Сведения о отображаемых элементах и системных метриках.
+description: в этом справочном разделе описывается конфигурация для Windows и сообщений. Сведения о отображаемых элементах и системных метриках.
 ms.assetid: aba21473-07cc-4de9-a310-ad9b43c133eb
-title: Конфигурация (Windows и сообщения)
+title: конфигурация (Windows и сообщения)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ffa516e87aa7d338d4e2fd46a160fcbd6dadb305
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 72a5c910fd9614d4d0e8fe9f6ba38d9dd59a0fd5649e836c3629427cde5d8617
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406347"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028472"
 ---
-# <a name="configuration-windows-and-messages"></a>Конфигурация (Windows и сообщения)
+# <a name="configuration-windows-and-messages"></a>конфигурация (Windows и сообщения)
 
 *Отображаемые элементы* — это части окна и отображения, отображаемые на экране монитора системы. *Системные метрики* — это измерения различных отображаемых элементов. К типичным системным метрикам относятся ширина границы окна, Высота значка и т. д. Системные метрики также описывают другие аспекты системы, например, установлена ли мышь, поддерживаются двухбайтовые символы или установлена отладочная версия операционной системы. Функция [**жетсистемметрикс**](/windows/win32/api/winuser/nf-winuser-getsystemmetrics) извлекает указанную системную метрику.
 

@@ -4,12 +4,12 @@ ms.assetid: 5b289e57-bfb9-4e93-82c6-a59e1d1ec0fe
 title: Интерфейсы COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b7f479e473c4dfb358cb86bbcad5e2b61285b5e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 12e2aee840cd3e0219ce81073920810387de27df4fa28e795eb05299d94c74eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104496080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047552"
 ---
 # <a name="com-interfaces"></a>Интерфейсы COM+
 
@@ -22,7 +22,7 @@ ms.locfileid: "104496080"
 | [**контекстинфо**](/windows/desktop/api/ComSvcs/nn-comsvcs-contextinfo)                                       | Извлекает сведения о транзакции, активности и контексте для текущего объекта контекста.                                                                                                                                                                                          |
 | [**ContextInfo2**](/windows/desktop/api/ComSvcs/nn-comsvcs-contextinfo2)                                     | Предоставляет дополнительные сведения о контексте объекта, дополненные сведениями, доступными через интерфейс [**контекстинфо**](/windows/desktop/api/ComSvcs/nn-comsvcs-contextinfo) .                                                                                                             |
 | [**иаппдомаинхелпер**](/windows/desktop/api/ComSvcs/nn-comsvcs-iappdomainhelper)                             | Привязывает управляемый объект к домену приложения, который является изолированной средой, в которой выполняются приложения.                                                                                                                                                                    |
-| [**иассемблилокатор**](/windows/desktop/api/ComSvcs/nn-comsvcs-iassemblylocator)                             | Извлекает сведения о сборке при использовании управляемого кода в платформа .NET Framework среде CLR.                                                                                                                                                                   |
+| [**иассемблилокатор**](/windows/desktop/api/ComSvcs/nn-comsvcs-iassemblylocator)                             | извлекает сведения о сборке при использовании управляемого кода в платформа .NET Framework среде clr.                                                                                                                                                                   |
 | [**иасинцеррорнотифи**](/windows/desktop/api/ComSvcs/nn-comsvcs-iasyncerrornotify)                           | Используется для реализации перехвата ошибок в асинхронной пакетной работе, которая отправляется через действие, созданное с помощью [**кокреатеактивити**](/windows/desktop/api/ComSvcs/nf-comsvcs-cocreateactivity).                                                                                                                  |
 | [**ичеккскссконфиг**](/windows/desktop/api/ComSvcs/nn-comsvcs-ichecksxsconfig)                               | Используется для проверки конфигурации текущей параллельной сборки.                                                                                                                                                                                                            |
 | [**икомактивитевентс**](/windows/desktop/api/ComSvcs/nn-comsvcs-icomactivityevents)                         | Уведомляет подписчика о том, что действие создано, уничтожено или истекло время ожидания.                                                                                                                                                                                                      |
@@ -30,7 +30,7 @@ ms.locfileid: "104496080"
 | [**IComApp2Events**](/windows/desktop/api/ComSvcs/nn-comsvcs-icomapp2events)                                 | Уведомляет подписчика о том, что серверное приложение COM+ загружено, выключено или приостановлено.                                                                                                                                                                                            |
 | [**икомкрмевентс**](/windows/desktop/api/ComSvcs/nn-comsvcs-icomcrmevents)                                   | Уведомляет подписчик о действиях функции компенсирующих диспетчер ресурсов (CRM) служб компонентов.                                                                                                                                                               |
 | [**икомексцептионевентс**](/windows/desktop/api/ComSvcs/nn-comsvcs-icomexceptionevents)                       | Уведомляет подписчика, когда в коде пользователя возникает необработанное исключение.                                                                                                                                                                                                   |
-| [**икомидентитевентс**](/windows/desktop/api/ComSvcs/nn-comsvcs-icomidentityevents)                         | Уведомляет подписчик о действии, которое является частью страницы службы IIS (IIS) Active Server Pages (ASP).                                                                                                                                                 |
+| [**икомидентитевентс**](/windows/desktop/api/ComSvcs/nn-comsvcs-icomidentityevents)                         | уведомляет подписчик о действии, которое является частью страницы службы IIS (IIS) Active Server pages (ASP).                                                                                                                                                 |
 | [**икоминстанцеевентс**](/windows/desktop/api/ComSvcs/nn-comsvcs-icominstanceevents)                         | Уведомляет подписчика о создании или выпуске объекта.                                                                                                                                                                                                                      |
 | [**IComInstance2Events**](/windows/desktop/api/ComSvcs/nn-comsvcs-icominstance2events)                       | Уведомляет подписчика о создании или освобождении объекта клиентом.                                                                                                                                                                                                         |
 | [**икомлбаргументс**](/windows/desktop/api/ComSvcs/nn-comsvcs-icomlbarguments)                               | Используется для активации службы балансировки нагрузки компонентов COM+.                                                                                                                                                                                                                      |

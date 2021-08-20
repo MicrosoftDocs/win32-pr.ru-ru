@@ -3,9 +3,9 @@ title: Метод external. download
 description: Обратите внимание, что в этом разделе описываются функции, предназначенные для использования в Интернет-магазинах. Использование этой функции вне контекста Интернет-магазина не поддерживается. Метод download инициирует загрузку набора элементов мультимедиа.
 ms.assetid: 10bae41c-0658-4712-8a7e-375a1ec6dc25
 keywords:
-- Загрузка метода Windows Media Player
-- метод загрузки Windows Media Player, внешний класс
-- Внешний класс проигрыватель Windows Media Player, метод download
+- проигрыватель Windows Media метода скачивания
+- метод download проигрыватель Windows Media, внешний класс
+- внешний класс проигрыватель Windows Media, метод download
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 35ef0c6e6c32e8959e402080796f29a3860fe728
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 766f96a6db5f2114724e7545eaac7a269bf52e2e657872a8078b490621c794df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649224"
 ---
 # <a name="externaldownload-method"></a>Метод external. download
 
@@ -66,18 +66,18 @@ External.download(
 
 Этот метод не возвращает значение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 11.<br/>                                                |
+| Версия<br/> | проигрыватель Windows Media 11.<br/>                                                |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

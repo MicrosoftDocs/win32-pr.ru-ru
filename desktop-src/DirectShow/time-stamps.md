@@ -4,12 +4,12 @@ ms.assetid: 445fe6b9-9d5b-45fd-9c9e-8c632c5228ae
 title: Метки времени
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 855d2c472d7964ccad6ec8bbc87efd39b1c4cdd6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6ed14f0155a0bfbf209719f4aff97cbbd19501e6aa32d57e9f0c1cbb2df0964b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684639"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072318"
 ---
 # <a name="time-stamps"></a>Метки времени
 
@@ -33,7 +33,7 @@ ms.locfileid: "105684639"
 
 Фильтры визуализации и мультиплексора могут использовать время мультимедиа, чтобы определить, были ли удалены фреймы или образцы, путем проверки наличия пропусков. Однако для установки времени мультимедиа фильтры не требуются. Чтобы задать время мультимедиа в образце, вызовите метод [**имедиасампле:: сетмедиатиме**](/windows/desktop/api/Strmif/nf-strmif-imediasample-setmediatime) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

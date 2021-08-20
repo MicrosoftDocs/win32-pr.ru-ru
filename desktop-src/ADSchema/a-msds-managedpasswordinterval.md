@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8412630a0b410e553847e58127f7cab1dba2e3fa
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: b9df8b17431e8000babe6ab67b99672a639005e0d78fdb9337ea47a9372f2324
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104536023"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119552134"
 ---
 # <a name="ms-ds-managedpasswordinterval-attribute"></a>Атрибут ms-DS-Манажедпассвординтервал
 
@@ -52,10 +52,10 @@ ms.locfileid: "104536023"
 |------------------------|---------------------------------------------------------------------------------------------|
 | Идентификатор ссылки                | \-                                                                                          |
 | MAPI-Id                | \-                                                                                          |
-| System-Only            | True                                                                                        |
-| Является однозначным       | True                                                                                        |
-| Индексируется             | Неверно                                                                                       |
-| В глобальном каталоге      | Неверно                                                                                       |
+| System-Only            | Верно                                                                                        |
+| Является однозначным       | Верно                                                                                        |
+| Индексируется             | Нет                                                                                       |
+| В глобальном каталоге      | Нет                                                                                       |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                |
 | Range-Lower            | \-                                                                                          |
 | Range-Upper            | \-                                                                                          |

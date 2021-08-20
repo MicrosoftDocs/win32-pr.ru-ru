@@ -1,6 +1,6 @@
 ---
 title: Интерфейс Ирмжетлиценсе
-description: Интерфейс Ирмжетлиценсе реализуется в библиотеке времени выполнения, которая устанавливается как часть пакета SDK Windows Media Format.
+description: интерфейс ирмжетлиценсе реализуется в библиотеке времени выполнения, которая устанавливается как часть пакета SDK для Windows Media Format.
 ms.assetid: 95a8cf57-72a4-496d-8d25-d094b47c3a57
 keywords:
 - Формат Windows Media в интерфейсе Ирмжетлиценсе
@@ -14,24 +14,24 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3aa63bc7b351aab0a02c36dc16cb3600e405b26f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3ad5f74400fd35356967942403ae4f3c3024b6259a4ab7e62ffa544267a308b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135010"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119585634"
 ---
 # <a name="irmgetlicense-interface"></a>Интерфейс Ирмжетлиценсе
 
 \[**Ирмжетлиценсе** доступен для использования в операционных системах, указанных в разделе требования. В последующих версиях он может быть изменен или недоступен. Вместо этого используйте [Microsoft PlayReady](https://www.microsoft.com/PlayReady/). \]
 
-Интерфейс **ирмжетлиценсе** реализуется в библиотеке времени выполнения, которая устанавливается как часть пакета SDK Windows Media Format. Он обеспечивает получение лицензий на стороне клиента. Поскольку этот метод используется издателями лицензий через веб-приложения, он описан в документации по пакету SDK для Windows Media Rights Manager.
+интерфейс **ирмжетлиценсе** реализуется в библиотеке времени выполнения, которая устанавливается как часть пакета SDK для Windows Media Format. Он обеспечивает получение лицензий на стороне клиента. поскольку этот метод используется издателями лицензий через веб-приложения, он описан в документации по пакету SDK Windows Media Rights Manager.
 
 ## <a name="members"></a>Элементы
 
 Интерфейс **ирмжетлиценсе** наследует от интерфейса [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) , но не содержит дополнительных элементов.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -42,7 +42,7 @@ ms.locfileid: "104135010"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
