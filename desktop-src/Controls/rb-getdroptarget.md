@@ -3,7 +3,7 @@ title: Сообщение RB_GETDROPTARGET (Коммктрл. h)
 description: Извлекает указатель интерфейса интерфейс IDropTarget элемента управления "Главная панель".
 ms.assetid: f429c5d1-406b-47f0-a654-47cabccc1d0e
 keywords:
-- Элементы управления Windows для RB_GETDROPTARGET сообщений
+- элементы управления Windows сообщений RB_GETDROPTARGET
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 55b7960cc13230a2715348bc55e5e65de6f72e5a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5793d2192ef65f193ff27d40cc14660c90d067034d8c1304e1bde1a354a4f493
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118169614"
 ---
 # <a name="rb_getdroptarget-message"></a>\_Сообщение ЖЕТДРОПТАРЖЕТ RB
 
@@ -47,15 +47,15 @@ ms.locfileid: "104491763"
 
 Возвращаемое значение для этого сообщения не используется.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

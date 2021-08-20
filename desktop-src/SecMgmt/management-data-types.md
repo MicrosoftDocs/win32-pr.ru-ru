@@ -4,12 +4,12 @@ ms.assetid: 1d3bdf0d-320c-4b25-9e9b-fda134876979
 title: Типы данных управления безопасностью
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae7efedb32ab545b903c61819042e32b7d83dbf2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c23c22ef996f54a9664dfa128a90fdb0c2825d60b68b7deafe7534d2b3b05737
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117969021"
 ---
 # <a name="security-management-data-types"></a>Типы данных управления безопасностью
 

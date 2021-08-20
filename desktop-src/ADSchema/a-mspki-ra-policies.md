@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b948dac7a95ae8b46972ace4d1ab46260b476da
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: a8963c4f189cde9fe11402b32644572c3ee084d3ce1a4a7e9a7ab68179895e30
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103989803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118013348"
 ---
 # <a name="ms-pki-ra-policies-attribute"></a>атрибут MS-PKI-RA-Policies
 

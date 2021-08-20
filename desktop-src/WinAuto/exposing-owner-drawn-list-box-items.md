@@ -4,12 +4,12 @@ description: Разработчикам приложений не требует
 ms.assetid: d54ce297-ce8a-46c0-a86d-4acffa1eda27
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fbb72285f55796a285cd6e1a8838a629218659b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4fed68477680376373da6c16f59b3fb556b6a435f15f04daae8f3f1262829dc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118115277"
 ---
 # <a name="exposing-owner-drawn-list-box-items"></a>Предоставление Owner-Drawn элементов списка
 
@@ -27,6 +27,6 @@ ms.locfileid: "104413423"
 -   При наличии списков переменных, рисуемых владельцем, созданных со стилем **фунта \_ овнердраввариабле**, используйте глобальную переменную или другой механизм, чтобы отследить, когда **итемдата элемент** [меасуреитемструкт](/windows/win32/api/winuser/ns-winuser-measureitemstruct) является допустимым. Глобальная переменная необходима, так как система отправляет сообщение [WM \_ меасуреитем](../controls/wm-measureitem.md) сразу после добавления строки, но перед присоединением данных элемента, и на данном этапе элемент **итемдата** является недопустимым.
 -   Чтобы изменить строку для элемента в поле со списком в стиле **фунта \_ хасстрингс** , удалите элемент с сообщением [ \_ делетестринг фунтов](../controls/lb-deletestring.md) и добавьте новую строку с \_ сообщением ADDSTRINGа фунтов.
 
- 
+ 
 
- 
+ 

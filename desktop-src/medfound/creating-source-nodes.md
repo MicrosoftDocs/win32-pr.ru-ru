@@ -4,12 +4,12 @@ ms.assetid: 44c26bcd-04a9-48c3-b536-25c2b18c34c1
 title: Создание исходных узлов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9b1e882dd6f8e9345244b56eace332c2fad4bc3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2358ca9ee0e5f3e114df8775108f8cdfeb8eeae2e3aeb35bccb66118118e4deb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118064593"
 ---
 # <a name="creating-source-nodes"></a>Создание исходных узлов
 
@@ -82,7 +82,7 @@ done:
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -92,7 +92,7 @@ done:
 [Источники мультимедиа](media-sources.md)
 </dt> <dt>
 
-[Топологии](topologies.md)
+[Топологий](topologies.md)
 </dt> <dt>
 
 [**имфтопологиноде**](/windows/desktop/api/mfidl/nn-mfidl-imftopologynode)

@@ -1,22 +1,22 @@
 ---
-title: Создание пользователей на рядовых серверах и Windows 2000 Professional
-description: В этом разделе описаны действия по созданию пользователя на рядовом сервере или компьютере с Windows 2000 Professional.
+title: создание пользователей на рядовых серверах и Windows 2000 Professional
+description: в этом разделе описаны действия по созданию пользователя на рядовом сервере или компьютере с Windows 2000 Professional.
 ms.assetid: 714a36d4-3407-426f-b4e9-27ec399f742a
 ms.tgt_platform: multiple
 keywords:
-- Создание пользователей на рядовых серверах и Windows 2000 Professional AD
-- Пользователи AD, создание пользователя на рядовых серверах и Windows 2000 Professional
+- создание пользователей на рядовых серверах и Windows 2000 Professional AD
+- пользователи AD, создание пользователя на рядовых серверах и Windows 2000 Professional
 - Active Directory, использование, пользователи, создание пользователя на рядовых серверах и Windows 2000 Professional
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3050c9e8ecf68465097f2c185d2d31e0195c25a6
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: a2d57bfee4c03aa930ef499b7776fcddb8ce1642ec90d1b376a6b2a934bf93b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104069792"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118020145"
 ---
-# <a name="creating-users-on-member-servers-and-windows-2000-professional"></a>Создание пользователей на рядовых серверах и Windows 2000 Professional
+# <a name="creating-users-on-member-servers-and-windows-2000-professional"></a>создание пользователей на рядовых серверах и Windows 2000 Professional
 
 **Создание пользователя**
 
@@ -27,6 +27,6 @@ ms.locfileid: "104069792"
 2.  Укажите "User" в качестве класса с помощью [**иадсконтаинер. Create**](/windows/desktop/api/iads/nf-iads-iadscontainer-create) , чтобы добавить пользователя.
 3.  Запишите пользователя в базу данных безопасности компьютера с помощью метода [**iAds. сетинфо**](/windows/desktop/api/iads/nf-iads-iads-setinfo).
 
- 
+ 
 
- 
+ 

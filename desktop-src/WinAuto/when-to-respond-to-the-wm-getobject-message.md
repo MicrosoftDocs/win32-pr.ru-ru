@@ -4,17 +4,17 @@ description: Если приложение поддерживает Microsoft Ac
 ms.assetid: cc99f7ef-1eb6-40c4-9ec0-8fb18cb4a3e5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18cfa8d6604a13e84ffa89bf1fcf93d5d13e66e4
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7cdb12edde21b7906fdda91d1bc5d46e453696214b93a331e26034527e163a06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104488137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118114619"
 ---
 # <a name="when-to-respond-to-the-wm_getobject-message"></a>Когда следует отвечать на сообщение WM \_ GetObject
 
 Если приложение поддерживает Microsoft Active Accessibility или автоматизацию пользовательского интерфейса для элемента пользовательского интерфейса, приложение не должно отвечать на сообщение [**WM \_ GetObject**](wm-getobject.md) , прежде чем объект, представляющий элемент пользовательского интерфейса, полностью инициализирован или после того, как приложение началось его закрытие. Когда приложение создает новое окно, система создает [**\_ объект события \_ CREATE**](event-constants.md) WinEvent для уведомления клиентов перед отправкой сообщения о [**\_ создании WM**](/windows/desktop/winmsg/wm-create) в процедуру окна приложения. Поскольку многие приложения используют приложение **WM \_ CREATE** для запуска процесса инициализации, любая реализация элемента пользовательского интерфейса не реагирует на сообщение [**WM \_ GetObject**](wm-getobject.md) до тех пор, пока приложение не завершит обработку сообщения **WM \_ CREATE** .
 
- 
+ 
 
- 
+ 

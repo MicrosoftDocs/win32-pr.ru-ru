@@ -3,7 +3,7 @@ title: Команда MCI_LOAD (Ммсистем. h)
 description: Команда MCI \_ Load загружает файл. Эта команда распознает цифровые видеоролики и устройства наложения видео.
 ms.assetid: 0f48afa0-e845-4de5-8433-15bbf4eae683
 keywords:
-- MCI_LOAD команды мультимедиа Windows
+- команда MCI_LOAD Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eb00ebe9dc9107c4673fc323fcb7719a89beffd4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e318e79bf24e51fec69f97a0dcb56395cb1a8917a31105deae062a865169b778
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988180"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118138542"
 ---
 # <a name="mci_load-command"></a>\_Команда загрузки MCI
 
@@ -68,7 +68,7 @@ MCIERROR mciSendCommand(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Следующий дополнительный флаг применяется ко всем устройствам, поддерживающим \_ загрузку MCI:
 
@@ -94,7 +94,7 @@ MCIERROR mciSendCommand(
 
 Для устройств с наложением параметр *лплоад* указывает на структуру [**MCI \_ овли \_ Load \_ пармс**](mci-ovly-load-parms.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -102,11 +102,11 @@ MCIERROR mciSendCommand(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

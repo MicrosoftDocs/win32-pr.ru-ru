@@ -64,12 +64,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 433da7d159f1fe5bf44114a0b76ed9b4d807046f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7342e47658e77d9fb29ef03ab1995e5263c78a8e31d2f020852e5fa10864a031
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118129676"
 ---
 # <a name="imstscaxconnectingtext-property"></a>Свойство Имстскакс:: Коннектингтекст
 
@@ -102,7 +102,7 @@ HRESULT get_ConnectingText(
 
 При возникновении ошибки возвращайте ненулевое **значение HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Пример текста соединения — «подключение к серверу...».
 
@@ -110,11 +110,11 @@ HRESULT get_ConnectingText(
 
 Это свойство может быть задано только в том случае, если элемент управления не находится в состоянии Connected. Он возвращает **E \_ Fail** , если он вызывается при соединении элемента управления. Проверить, подключен ли элемент управления, можно, отреагировать на события соединения в [**имстскаксевентс**](imstscaxevents-interface.md) или изучив свойство [**Connected**](imstscax-connected.md) .
 
-Метод свойства **Get \_ коннектингтекст** выделяет память, необходимую для буфера, на который указывает параметр *пконнектингтекст* . Вызов приложений C/C++ должен освободить память с помощью вызова функции [**сисфристринг**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) . Это не является обязательным для Visual Basic и скриптов клиентов.
+Метод свойства **Get \_ коннектингтекст** выделяет память, необходимую для буфера, на который указывает параметр *пконнектингтекст* . Вызов приложений C/C++ должен освободить память с помощью вызова функции [**сисфристринг**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) . это не является обязательным для Visual Basic и скриптов клиентов.
 
 Дополнительные сведения о веб-подключение к удаленному рабочему столу см. в разделе [требования для веб-подключение к удаленному рабочему столу](requirements-for-remote-desktop-web-connection.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -128,7 +128,7 @@ HRESULT get_ConnectingText(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

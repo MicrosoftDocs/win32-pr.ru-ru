@@ -3,9 +3,9 @@ title: Ивмпмедиа Жетитеминфобятом, метод
 description: Метод Жетитеминфобятом возвращает значение атрибута с указанным номером индекса.
 ms.assetid: d9a4b737-add1-4bbd-8e03-e58f45d65a62
 keywords:
-- Жетитеминфобятом метод Windows Media Player
-- Жетитеминфобятом метод проигрывателя Windows Media Player, интерфейс Ивмпмедиа
-- Интерфейс Ивмпмедиа Windows Media Player, метод Жетитеминфобятом
+- проигрыватель Windows Media метода жетитеминфобятом
+- проигрыватель Windows Media метода жетитеминфобятом, интерфейс ивмпмедиа
+- проигрыватель Windows Media интерфейса ивмпмедиа, метод жетитеминфобятом
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb37243960360120fbfe508a39db31e37728ac39
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 72a8820618b39418aa7be82faeef15a372e0e0f90c0db025e99c55be49d8c13e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669255"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118115701"
 ---
 # <a name="iwmpmediagetiteminfobyatom-method"></a>Метод Ивмпмедиа:: Жетитеминфобятом
 
@@ -64,7 +64,7 @@ Implements IWMPMedia.getItemInfoByAtom
 
 **Строка System. String** , которая является значением атрибута.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод можно использовать для получения метаданных для определенного элемента мультимедиа с помощью номера индекса атрибута. Свойство **аттрибутекаунт** можно использовать для определения количества атрибутов, доступных для элемента мультимедиа.
 
@@ -72,19 +72,19 @@ Implements IWMPMedia.getItemInfoByAtom
 
 Перед вызовом этого метода необходимо иметь доступ на чтение к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

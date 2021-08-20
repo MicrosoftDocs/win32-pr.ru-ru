@@ -4,12 +4,12 @@ description: В этом сценарии пользователь пытает�
 ms.assetid: e10fcc24-4670-461c-a145-3910c102e81f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 753636c1186243a96e3cef5a4ab73244556daec4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4fadeefe0413a5a6be5d3ec7f5676ef346e21bc1f4b9e4c3cca026b54d761784
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888148"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118133404"
 ---
 # <a name="troubleshooting-internet-connections"></a>Устранение неполадок подключения к Интернету
 
@@ -31,9 +31,9 @@ ms.locfileid: "103888148"
 
 С помощью сетевой монитор для просмотра и фильтрации данных трассировки количество событий, которые необходимо исследовать, уменьшилось с 1989 до 96.
 
- 
+ 
 
- 
+ 
 
 
 

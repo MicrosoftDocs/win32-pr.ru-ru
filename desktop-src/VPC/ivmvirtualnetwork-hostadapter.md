@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0485303c2328a85c70779f16652121729546f3ed
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 72db5d8349572b2bd3549c2ee54d20e994bdfe8aed6ba0fbe31875e04f6942f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071881"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118122684"
 ---
 # <a name="ivmvirtualnetworkhostadapter-property"></a>Свойство Ивмвиртуалнетворк:: Хостадаптер
 
-\[Windows Virtual PC больше не доступна для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC больше не доступен для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Извлекает имя адаптера, к которому подключена виртуальная сеть.
 
@@ -60,7 +60,7 @@ HRESULT get_HostAdapter(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Виртуальный сетевой адаптер позволяет виртуальной сети взаимодействовать с внешними сетями. Обычно на хост-компьютере установлен один адаптер для каждого адаптера Ethernet. Например, предположим, что на главном компьютере был адаптер с меткой "10/100 ЕНЕТ". Чтобы подключить виртуальный сетевой адаптер к сети, подключенной к "10/100 ЕНЕТ", задайте для свойства **Хостадаптер** сети виртуальной сети значение "10/100 енет" и подключите виртуальный сетевой адаптер к этой виртуальной сети.
 
@@ -68,22 +68,22 @@ HRESULT get_HostAdapter(
 
 Полный список адаптеров можно получить с помощью свойства [**ивмхостинфо:: адаптера**](ivmhostinfo-networkadapters.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                    |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                     |
 | Окончание поддержки клиента<br/>    | Windows 7<br/>                                                                          |
 | Продукт<br/>                  | Windows Virtual PC<br/>                                                                 |
-| Header<br/>                   | <dl> <dt>Впккоминтерфацес. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Впккоминтерфацес. h</dt> </dl> |
 | IID<br/>                      | IID \_ ивмвиртуалнетворк определен как 431cb7a1-2469-4563-b94e-38b987adca63<br/>          |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

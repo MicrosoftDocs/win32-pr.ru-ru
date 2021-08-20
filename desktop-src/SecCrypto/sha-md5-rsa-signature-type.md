@@ -4,12 +4,12 @@ ms.assetid: ca8be4fd-e7ca-4def-927d-b168628c566e
 title: Тип подписи RSA для алгоритма SHA/MD5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71dcd515c61a4baf3da1fb35e4b5e6d21d5c849e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c0f7f412f8baab053fe8668d6360af931d4759924f2eae3168bc425278382ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117974275"
 ---
 # <a name="shamd5-rsa-signature-type"></a>Тип подписи RSA для алгоритма SHA/MD5
 

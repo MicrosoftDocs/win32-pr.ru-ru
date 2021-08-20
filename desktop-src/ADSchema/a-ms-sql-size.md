@@ -1,11 +1,11 @@
 ---
-title: Атрибут MS-SQL-size
+title: атрибут MS-SQL-Size
 description: Размер базы данных в килобайтах.
 ms.assetid: 012984cb-5c4c-478e-b4dd-004aa305532a
 ms.tgt_platform: multiple
 keywords:
-- Схема AD атрибута Microsoft-SQL-size
-- Схема AD атрибута Microsoft-SQL-size
+- схема AD атрибута MS-SQL-Size
+- схема AD атрибута mS-SQL-Size
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df47e68ee21f57983c4f2aa774abf3d0a1545483
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1ce90f95a93092b0dcc46de20c0d28f63c201cfe881bcf7fa6de3c6ae75efeca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104536329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118016068"
 ---
-# <a name="ms-sql-size-attribute"></a>Атрибут MS-SQL-size
+# <a name="ms-sql-size-attribute"></a>атрибут MS-SQL-Size
 
 Размер базы данных в килобайтах.
 
@@ -29,14 +29,14 @@ ms.locfileid: "104536329"
 
 | Ввод | Значение |
 |-------------------|--------------------------------------|
-| CN                | MS-SQL-Размер                          |
-| LDAP-отображаемое имя | mS-SQL-Размер                          |
+| CN                | MS-SQL-Size                          |
+| LDAP-отображаемое имя | mS-SQL-Size                          |
 | Размер              | 8 байт                              |
 | Привилегия обновления  | Это значение задается системой.     |
 | Частота обновления  | При изменении размера базы данных.      |
 | Attribute-Id      | 1.2.840.113556.1.4.1396              |
 | System-ID — GUID    | e9098084-ccee-11d2-9993-0000f87a57d4 |
-| Синтаксис            | [**Пределах**](s-interval.md)       |
+| Синтаксис            | [**Интервал**](s-interval.md)       |
 
 
 
@@ -66,7 +66,7 @@ ms.locfileid: "104536329"
 | Range-Upper            | \-                                                                                                                                                                                    |
 | Search-Flags           | 0x00000000                                                                                                                                                                            |
 | System-Flags           | 0x00000010                                                                                                                                                                            |
-| Классы, используемые в        | [**MS-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**MS-SQL-Олапдатабасе**](c-ms-sql-olapdatabase.md)<br/> [**MS-SQL-Олапкубе**](c-ms-sql-olapcube.md)<br/> |
+| Классы, используемые в        | [**MS-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**MS-SQL-олапдатабасе**](c-ms-sql-olapdatabase.md)<br/> [**MS-SQL-олапкубе**](c-ms-sql-olapcube.md)<br/> |
 
 
 
@@ -87,7 +87,7 @@ ms.locfileid: "104536329"
 | Range-Upper            | \-                                                                                                                                                                                    |
 | Search-Flags           | 0x00000000                                                                                                                                                                            |
 | System-Flags           | 0x00000010                                                                                                                                                                            |
-| Классы, используемые в        | [**MS-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**MS-SQL-Олапдатабасе**](c-ms-sql-olapdatabase.md)<br/> [**MS-SQL-Олапкубе**](c-ms-sql-olapcube.md)<br/> |
+| Классы, используемые в        | [**MS-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**MS-SQL-олапдатабасе**](c-ms-sql-olapdatabase.md)<br/> [**MS-SQL-олапкубе**](c-ms-sql-olapcube.md)<br/> |
 
 
 
@@ -108,7 +108,7 @@ ms.locfileid: "104536329"
 | Range-Upper            | \-                                                                                                                                                                                    |
 | Search-Flags           | 0x00000000                                                                                                                                                                            |
 | System-Flags           | 0x00000010                                                                                                                                                                            |
-| Классы, используемые в        | [**MS-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**MS-SQL-Олапдатабасе**](c-ms-sql-olapdatabase.md)<br/> [**MS-SQL-Олапкубе**](c-ms-sql-olapcube.md)<br/> |
+| Классы, используемые в        | [**MS-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**MS-SQL-олапдатабасе**](c-ms-sql-olapdatabase.md)<br/> [**MS-SQL-олапкубе**](c-ms-sql-olapcube.md)<br/> |
 
 
 
@@ -129,7 +129,7 @@ ms.locfileid: "104536329"
 | Range-Upper            | \-                                                                                                                                                                                    |
 | Search-Flags           | 0x00000000                                                                                                                                                                            |
 | System-Flags           | 0x00000010                                                                                                                                                                            |
-| Классы, используемые в        | [**MS-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**MS-SQL-Олапдатабасе**](c-ms-sql-olapdatabase.md)<br/> [**MS-SQL-Олапкубе**](c-ms-sql-olapcube.md)<br/> |
+| Классы, используемые в        | [**MS-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**MS-SQL-олапдатабасе**](c-ms-sql-olapdatabase.md)<br/> [**MS-SQL-олапкубе**](c-ms-sql-olapcube.md)<br/> |
 
 
 
@@ -150,7 +150,7 @@ ms.locfileid: "104536329"
 | Range-Upper            | \-                                                                                                                                                                                    |
 | Search-Flags           | 0x00000000                                                                                                                                                                            |
 | System-Flags           | 0x00000010                                                                                                                                                                            |
-| Классы, используемые в        | [**MS-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**MS-SQL-Олапдатабасе**](c-ms-sql-olapdatabase.md)<br/> [**MS-SQL-Олапкубе**](c-ms-sql-olapcube.md)<br/> |
+| Классы, используемые в        | [**MS-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**MS-SQL-олапдатабасе**](c-ms-sql-olapdatabase.md)<br/> [**MS-SQL-олапкубе**](c-ms-sql-olapcube.md)<br/> |
 
 
 
@@ -171,7 +171,7 @@ ms.locfileid: "104536329"
 | Range-Upper            | \-                                                                                                                                                                                    |
 | Search-Flags           | 0x00000000                                                                                                                                                                            |
 | System-Flags           | 0x00000010                                                                                                                                                                            |
-| Классы, используемые в        | [**MS-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**MS-SQL-Олапдатабасе**](c-ms-sql-olapdatabase.md)<br/> [**MS-SQL-Олапкубе**](c-ms-sql-olapcube.md)<br/> |
+| Классы, используемые в        | [**MS-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**MS-SQL-олапдатабасе**](c-ms-sql-olapdatabase.md)<br/> [**MS-SQL-олапкубе**](c-ms-sql-olapcube.md)<br/> |
 
 
 

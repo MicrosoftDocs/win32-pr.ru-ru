@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ntdll.dll
-ms.openlocfilehash: 65f8c8490224213e0bef27fab5239a21eca24344
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bf4366633de321e27f6d3cdc0396fcdce81b0dac30b0d09a4c2c4675706d939e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118161666"
 ---
 # <a name="rtlmovememory-function"></a>Функция Ртлмовемемори
 
@@ -74,7 +74,7 @@ None
 
 Вызывающие объекты **ртлмовемемори** могут выполняться на любом уровне IRQL, если блоки памяти источника и назначения находятся в нестраничной системной памяти. В противном случае вызывающий объект должен работать на уровне IRQL <= APC \_ .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -82,14 +82,14 @@ None
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                                              |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                                                    |
-| Целевая платформа<br/>          | <dl> <dt>[Универсальной](https://msdn.microsoft.com/Library/Windows/Hardware/EB2264A4-BAE8-446B-B9A5-19893936DDCA)</dt> </dl> |
-| Header<br/>                   | <dl> <dt>WDM. h (включает WDM. h, Нтддк. h или Нтифс. h)</dt> </dl>                   |
+| Целевая платформа<br/>          | <dl> <dt>[Универсальное](https://msdn.microsoft.com/Library/Windows/Hardware/EB2264A4-BAE8-446B-B9A5-19893936DDCA)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>WDM. h (включает WDM. h, Нтддк. h или Нтифс. h)</dt> </dl>                   |
 | Библиотека<br/>                  | <dl> <dt>NTDLL. lib</dt> </dl>                                                    |
 | DLL<br/>                      | <dl> <dt>Ntdll.dll</dt> </dl>                                                    |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

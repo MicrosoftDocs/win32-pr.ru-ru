@@ -1,9 +1,9 @@
 ---
 title: Player. Settings
-description: Свойство Settings извлекает объект параметров.
+description: свойство settings извлекает объект Параметры.
 ms.assetid: 9edd7d27-893a-4a32-8aaf-5efec6c50903
 keywords:
-- Проигрыватель Windows Media Player. Settings
+- проигрыватель Windows Media проигрывателя. settings
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d5482574069ea94052016272ff22cde2ac563f6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fb14137fba6ba460dda0d3bbdc32f0b97c442d75979e603460a645241d37e84e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704403"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118337968"
 ---
 # <a name="playersettings"></a>Player. Settings
 
-Свойство **Settings** извлекает объект параметров.
+свойство **settings** извлекает объект Параметры.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -31,27 +31,27 @@ ms.locfileid: "105704403"
 
 ## <a name="possible-values"></a>Возможные значения
 
-Это свойство является объектом параметров, предназначенным только для чтения.
+это свойство является объектом Параметры только для чтения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [**Объект Player**](player-object.md)
 </dt> <dt>
 
-[**Объект параметров**](settings-object.md)
+[**Параметры Объектами**](settings-object.md)
 </dt> </dl>
 
  

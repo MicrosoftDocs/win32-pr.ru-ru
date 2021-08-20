@@ -10,12 +10,12 @@ keywords:
 - макрос Капкаптуресетсетуп
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a91d6ee7d07ed36c11cce7e888c9a9710f403cf9
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 6b5764f6b1853e1b161501f3c8df22ff0b7387649c517a28e7e36e7a094f35b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103789985"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118140054"
 ---
 # <a name="keys-ending-capture"></a>Завершение записи ключей
 
@@ -23,6 +23,6 @@ ms.locfileid: "103789985"
 
 Вы можете получить параметры для прерывания сеанса записи с помощью сообщения о [**\_ \_ \_ \_ настройке установки последовательностей WM Cap**](wm-cap-get-sequence-setup.md) (или макроса [**капкаптурежетсетуп**](/windows/desktop/api/Vfw/nf-vfw-capcapturegetsetup) ). Текущее нажатие клавиш сохраняется в элементе **вкэйаборт** структуры [**каптурепармс**](/windows/win32/api/vfw/ns-vfw-captureparms) . текущие параметры мыши хранятся в членах **фабортлефтмаусе** и **фабортригхтмаусе** . Можно задать новое сочетание клавиш или сочетаний клавиш, указав сочетание keyCode или KeyCode (как в сочетаниях клавиш CTRL или SHIFT) в качестве значения **вкэйаборт** или установите левую или правую кнопку мыши в качестве ключа прерывания, указав элемент **фабортлефтмаусе** или **фабортригхтмаусе** . После установки этих членов отправьте обновленную структуру **каптурепармс** в окно Capture с помощью сообщения [**\_ установки закрепления WM \_ Set \_ Sequence \_**](wm-cap-set-sequence-setup.md) (или макроса [**капкаптуресетсетуп**](/windows/desktop/api/Vfw/nf-vfw-capcapturesetsetup) ). Значение по умолчанию **вкэйаборт** — VK \_ Escape. Перед указанием нажатия клавиши, которая может прервать сеанс записи, необходимо вызвать функцию [RegisterHotKey](/windows/win32/api/winuser/nf-winuser-registerhotkey) . Значения **фабортлефтмаусе** и **фабортригхтмаусе** по умолчанию имеют **значение true**.
 
- 
+ 
 
- 
+ 

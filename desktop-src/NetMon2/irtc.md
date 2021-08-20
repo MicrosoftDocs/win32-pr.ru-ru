@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: c937d7d9233b1df063a7cf4a12e57e909145b8c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f330892da5844305d4d1f3ffa3aee0bf6e9ef50fb2a1cd951c332e2b17eb3b12
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118132933"
 ---
 # <a name="irtc-interface"></a>Интерфейс ИРТК
 
@@ -50,13 +50,13 @@ ms.locfileid: "103991571"
 | [**QueryStatus**](irtc-querystatus.md)                             | Получает состояние НПП.<br/>                                                                                                             |
 | [**Возобновить**](irtc-resume.md)                                       | Перезапускает приостановленную запись.<br/>                                                                                                                   |
 | [**Начать**](irtc-start.md)                                         | Запускает запись.<br/>                                                                                                                            |
-| [**Stop**](irtc-stop.md)                                           | Останавливает текущую запись.<br/>                                                                                                                   |
+| [**Позиции**](irtc-stop.md)                                           | Останавливает текущую запись.<br/>                                                                                                                   |
 
 
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

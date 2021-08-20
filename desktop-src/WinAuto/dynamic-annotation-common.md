@@ -4,12 +4,12 @@ description: Динамическая Аннотация ранее была д�
 ms.assetid: 1ad6cbe9-cafa-4f33-a810-e1440909b24e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fa7e78ae35f58b5e8312596b7a4ced9cfa039e1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 428c09112b9acd56e99a6c67b943e999e99e5642102e4bac160ca95eb4b6630d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103889224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118115287"
 ---
 # <a name="dynamic-annotation"></a>Динамическая Аннотация
 
@@ -17,9 +17,9 @@ ms.locfileid: "103889224"
 
 Дополнительные сведения см. в разделе [Динамическая Аннотация API](dynamic-annotation-api.md).
 
- 
+ 
 
- 
+ 
 
 
 

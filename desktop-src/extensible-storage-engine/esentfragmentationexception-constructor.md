@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 7bf233560a3e0b86324f732d93e5a97e9e8a3dff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4d6456a5ea687b90d08fbac62b3c618d3531d025f76d700a8e647efcf6a35523
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118081551"
 ---
 # <a name="esentfragmentationexception-constructor"></a>Конструктор Есентфрагментатионексцептион
 
@@ -53,7 +53,7 @@ ms.locfileid: "103999650"
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

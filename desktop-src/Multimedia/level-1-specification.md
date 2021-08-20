@@ -9,20 +9,20 @@ keywords:
 - MPC уровень 1, сведения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30741d8f2cc7e1944dd04cf9768fba182214a1c7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: eec49264c75bb132224df94932ae044f9b4fe8876c064279fe8072d85d564ee6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104253101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118139882"
 ---
 # <a name="level-1-specification"></a>Спецификация уровня 1
 
 Спецификация уровня 1 была разработана, чтобы способствовать внедрению базовых мультимедийных возможностей на минимальном уровне производительности. Наиболее распространенные мультимедийные компоненты, доступные в Marketplace при выпуске спецификации уровня 1, включают несколько компакт-дисков с объемом памяти (CD ROM), которые предоставляли данные при постоянном темпе передачи данных, от 90 до 150 КБ в секунду, 8-битные звуковые карты и видеоадаптеры для 16-и 256-Color (SVGA).
 
- 
+ 
 
- 
+ 
 
 
 

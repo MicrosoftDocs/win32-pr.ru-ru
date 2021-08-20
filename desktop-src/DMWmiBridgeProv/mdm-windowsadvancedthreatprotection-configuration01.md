@@ -1,6 +1,6 @@
 ---
 title: Класс MDM_WindowsAdvancedThreatProtection_Configuration01
-description: Класс MDM \_ виндовсадванцедсреатпротектион \_ Configuration01 используется для определения конфигурации конечных точек защитника Windows Advanced Threat protection (WDATP).
+description: класс MDM \_ виндовсадванцедсреатпротектион \_ Configuration01 используется для определения конфигурации конечных точек Защитник Windows с расширенной защитой от угроз (WDATP).
 ms.assetid: b4b2ff02-3836-4044-b8fa-d3405f433d8c
 keywords:
 - Класс MDM_WindowsAdvancedThreatProtection_Configuration01
@@ -19,18 +19,18 @@ api_type:
 - DllExport
 api_location:
 - Mofs\DMWmiBridgeProv.dll
-ms.openlocfilehash: c6cd6689a66735790c381ac307a443c08464a379
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6bcf9cb641151b282bb1bfc594eb9762e00e11101d8f9fbd865b2712bab5f8a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118164220"
 ---
 # <a name="mdm_windowsadvancedthreatprotection_configuration01-class"></a>\_Класс MDM виндовсадванцедсреатпротектион \_ Configuration01
 
-\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Майкрософт не дает никаких гарантий, явных или подразумеваемых, в отношении предоставленной здесь информации.\]
+\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, относительно предоставленной здесь информации.\]
 
-Класс **MDM \_ виндовсадванцедсреатпротектион \_ Configuration01** используется для определения конфигурации конечных точек защитника Windows Advanced Threat protection (WDATP).
+класс **MDM \_ виндовсадванцедсреатпротектион \_ Configuration01** используется для определения конфигурации конечных точек Защитник Windows с расширенной защитой от угроз (WDATP).
 
 Следующий синтаксис упрощен из MOF-кода и включает все унаследованные свойства.
 
@@ -54,7 +54,7 @@ class MDM_WindowsAdvancedThreatProtection_Configuration01
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **MDM \_ виндовсадванцедсреатпротектион \_ Configuration01** имеет следующие свойства.
 
@@ -69,7 +69,7 @@ class MDM_WindowsAdvancedThreatProtection_Configuration01
 Тип доступа: чтение и запись
 </dt> </dl>
 
-TBD
+Подлежит уточнению
 
 </dd> <dt>
 
@@ -127,13 +127,13 @@ TBD
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                          |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                          |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                            |
 | Пространство имен<br/>                | Корневой \\ CIMV2 \\ MDM \\ дммап<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1. mof</dt> </dl>      |
@@ -141,7 +141,7 @@ TBD
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,16 +4,16 @@ description: Сведения о свойстве Width объекта Character
 ms.assetid: ebada4cc-dbe6-4540-be1f-1f61e176765b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e17f11412774fcf34e887a2f00479ab7d96369de
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 7a566f0077fbbd9335853dbd9d8e8c1bbdff1a79f33914f0c4b4865092bd3506
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112395130"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118066762"
 ---
 # <a name="width-property-characters-object"></a>Свойство Width (объект characters)
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 <dl> <dt>
 

@@ -19,12 +19,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 41e603f7587435b3701ec0511587286e1a38bcc0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fc7e0cc7b45e457a2e0300e5e59ac1780a4ac4cd9ef023f10b6a73986a960574
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988340"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118130135"
 ---
 # <a name="imsrdpclientadvancedsettings8clientprotocolspec-property"></a>Свойство IMsRdpClientAdvancedSettings8:: Клиентпротоколспек
 
@@ -51,7 +51,7 @@ HRESULT get_ClientProtocolSpec(
 
 Значение перечисления [**клиентспек**](clientspec.md) , указывающее протокол удаленного рабочего стола, используемый между клиентом и сервером.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -64,7 +64,7 @@ HRESULT get_ClientProtocolSpec(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ description: дупликатеакцесскэй
 ms.assetid: D2F94C6D-65D6-4A73-9421-43C22BAFA085
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a31765803c2cd4df0ac035dca8cfe9dd9f1dd62f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 51c3a270cd5aefcbd118f9e2439699bae8fc8591ae91a8135c4d262cec24468a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103889227"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118115557"
 ---
 # <a name="duplicateaccesskey"></a>дупликатеакцесскэй
 
@@ -19,7 +19,7 @@ ms.locfileid: "103889227"
 
 ## <a name="type"></a>Тип
 
-Ошибка
+Error
 
 ## <a name="description"></a>Описание
 
@@ -27,7 +27,7 @@ ms.locfileid: "103889227"
 
 Эта проблема вызывает проблемы для тех, кто полагается на клавиатуру для навигации, так как может вызываться несколько элементов или циклировать фокус, используя один и тот же ярлык или сочетание клавиш.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -40,9 +40,9 @@ ms.locfileid: "103889227"
 [Кэйбоардшорткут, свойство](keyboardshortcut-property.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

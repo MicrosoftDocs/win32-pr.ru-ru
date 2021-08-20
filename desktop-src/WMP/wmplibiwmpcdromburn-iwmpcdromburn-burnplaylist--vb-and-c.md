@@ -3,9 +3,9 @@ title: Ивмпкдромбурн Бурнплайлист, свойство
 description: Свойство Бурнплайлист получает текущий список воспроизведения для записи на компакт-диск.
 ms.assetid: 973032de-7249-4ccd-9909-ccc888f4490f
 keywords:
-- Проигрыватель Windows Media для свойства Бурнплайлист
-- Бурнплайлист свойство проигрывателя Windows Media Player, интерфейс Ивмпкдромбурн
-- Интерфейс Ивмпкдромбурн Windows Media Player, свойство Бурнплайлист
+- проигрыватель Windows Media свойства бурнплайлист
+- проигрыватель Windows Media свойства бурнплайлист, интерфейс ивмпкдромбурн
+- проигрыватель Windows Media интерфейса ивмпкдромбурн, свойство бурнплайлист
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cae095696b9c106926fb7f363430574b2eb87cea
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 186996632a5b25c89019f9bbb692d9804ae33130650d4b0a29c0cb51e30d0792
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105717992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118116599"
 ---
 # <a name="iwmpcdromburnburnplaylist-property"></a>Свойство Ивмпкдромбурн:: Бурнплайлист
 
@@ -51,19 +51,19 @@ Public ReadOnly Property burnPlaylist As IWMPPlaylist
 
 Интерфейс **вмплиб. ивмпплайлист** списка воспроизведения для записи.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 11<br/>                                                                                     |
+| Версия<br/>   | проигрыватель Windows Media 11<br/>                                                                                     |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
