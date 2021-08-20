@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d8eea803eb9ae0430d3c47c6b32f98216f83ca3
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 18ceac7eb54fb6890b9a8c73134e411a1544ab4ad187a82b7c73f285e402094f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103989569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118177368"
 ---
 # <a name="employee-number-attribute"></a>Атрибут Employee-Number
 

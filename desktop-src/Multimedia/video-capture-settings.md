@@ -10,12 +10,12 @@ keywords:
 - макрос Капкаптуресетсетуп
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 990868502226a5c76867261d06e0dd538e165f93
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b50eb26170c8b1594d288cec903ef0c05867a24db2d5a89a6ad60f66eef4fd0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105661519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118135592"
 ---
 # <a name="video-capture-settings"></a>Параметры видеозаписи
 
@@ -31,9 +31,9 @@ ms.locfileid: "105661519"
 
 Вы можете получить текущие параметры записи в структуре [**каптурепармс**](/windows/win32/api/vfw/ns-vfw-captureparms) , отправив сообщение о [**\_ \_ \_ \_ настройке установки последовательностей WM Cap**](wm-cap-get-sequence-setup.md) (или макрос [**капкаптурежетсетуп**](/windows/desktop/api/Vfw/nf-vfw-capcapturegetsetup) ) в окно записи. Вы можете задать один или несколько текущих параметров записи, обновив соответствующие члены структуры **каптурепармс** , а затем отправив сообщение о [**\_ \_ \_ \_ настройке установки последовательностей WM Cap**](wm-cap-set-sequence-setup.md) (или макрос [**капкаптуресетсетуп**](/windows/desktop/api/Vfw/nf-vfw-capcapturesetsetup) ) и **каптурепармс** в окно записи.
 
- 
+ 
 
- 
+ 
 
 
 

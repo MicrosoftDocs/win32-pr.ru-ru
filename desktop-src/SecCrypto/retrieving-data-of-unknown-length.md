@@ -4,12 +4,12 @@ ms.assetid: ef99edef-39b2-4d78-9c01-13720215d47f
 title: Получение данных неизвестной длины
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd30620018f3c4871bd27299c3dd21ae42936c51
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d9a71a30e935dd20bee6cce8f6dbc00a3b61478a90f4ea2139d7daaddc6894da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103898630"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117975018"
 ---
 # <a name="retrieving-data-of-unknown-length"></a>Получение данных неизвестной длины
 

@@ -3,7 +3,7 @@ title: Структура MCI_OPEN_PARMS (МЦиапи. h)
 description: Структура MCI \_ Open \_ пармс содержит сведения для \_ команды MCI Open.
 ms.assetid: d22cefeb-3d49-47cf-a946-f73c77ae43fd
 keywords:
-- MCI_OPEN_PARMS структура мультимедиа Windows
+- структура MCI_OPEN_PARMS Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 658f97a9b2677347c9818265c1f05c2115c95fdd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f80d01f41db904cea583f83aa446e718d1067e99e4d8bac3a3c6791ef5696f83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118138309"
 ---
 # <a name="mci_open_parms-structure"></a>\_Структура Open \_ ПАРМС для MCI
 
@@ -79,11 +79,11 @@ typedef struct {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При назначении данных членам этой структуры установите соответствующие флаги в параметре *фдвкомманд* функции [**мЦисендкомманд**](/previous-versions//dd757160(v=vs.85)) , чтобы проверить элементы.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -95,7 +95,7 @@ typedef struct {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

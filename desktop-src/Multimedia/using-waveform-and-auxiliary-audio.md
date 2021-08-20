@@ -3,11 +3,11 @@ title: Использование волны и вспомогательного
 description: Использование волны и вспомогательного звука
 ms.assetid: fe3e1397-7cf9-4347-9093-be80341ead7c
 keywords:
-- Мультимедиа Windows, звуковая волна
+- Windows мультимедиа, звукозапись
 - мультимедиа, волна аудио
 - мультимедийные аудио, волна
 - аудио, волна
-- Мультимедиа Windows, вспомогательное аудио
+- Windows мультимедиа, вспомогательное аудио
 - мультимедиа, вспомогательное аудио
 - мультимедийные аудио, вспомогательные
 - аудио, вспомогательная
@@ -15,12 +15,12 @@ keywords:
 - Вспомогательное аудио, о программе
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2050760a3716ddbc0c59504f1e035a7364f02e78
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d59f27e845d6edd4b49bcd3a27263941859767b29c89cf770bbf31accfc6dadf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104258830"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118135933"
 ---
 # <a name="using-waveform-and-auxiliary-audio"></a>Использование волны и вспомогательного звука
 
@@ -32,9 +32,9 @@ ms.locfileid: "104258830"
 -   [Пример записи данных волны](example-of-writing-waveform-data.md)
 -   [Обработка сообщения о \_ \_ завершении вом mm](processing-the-mm-wom-done-message.md)
 
- 
+ 
 
- 
+ 
 
 
 

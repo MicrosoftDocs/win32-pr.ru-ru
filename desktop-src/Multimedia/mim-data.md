@@ -1,9 +1,9 @@
 ---
 title: Сообщение MIM_DATA (Ммсистем. h)
-description: '\_Сообщение данных MIM отправляется в функцию обратного вызова MIDI при получении сообщения MIDI входным устройством MIDI.'
+description: сообщение MIM \_ данных отправляется в функцию обратного вызова midi при получении сообщения midi входным устройством midi.
 ms.assetid: 966aab84-420a-42ce-9989-da5910ced9c0
 keywords:
-- MIM_DATA сообщения Windows мультимедиа
+- сообщение MIM_DATA Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a11d2701d488fe29ae6d0bc0742c32c803b28076
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: bebbb9ca6016706605de8fed29e5fa5ebaf6055f4a730fb563323f306606b866
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113118409"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118137293"
 ---
-# <a name="mim_data-message"></a>\_Сообщение данных MIM
+# <a name="mim_data-message"></a>MIM \_ Сообщение данных
 
-Сообщение **\_ данных MIM** отправляется в функцию обратного вызова MIDI при получении сообщения MIDI входным устройством MIDI.
+сообщение **MIM \_ данных** отправляется в функцию обратного вызова midi при получении сообщения midi входным устройством midi.
 
 
 ```C++
@@ -77,7 +77,7 @@ dwParam2 = dwTimestamp
 
 Это сообщение не отправляется, когда получено сообщение, исключающая систему MIDI.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -85,7 +85,7 @@ dwParam2 = dwTimestamp
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 

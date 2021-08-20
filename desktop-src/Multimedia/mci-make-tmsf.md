@@ -91,7 +91,7 @@ DWORD MCI_MAKE_TMSF(
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -103,7 +103,7 @@ DWORD MCI_MAKE_TMSF(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -3,7 +3,7 @@ title: Spin, команда
 description: Команда Spin запускает вращение диска или останавливает вращение диска. Устройства видеодиск распознают эту команду.
 ms.assetid: 1fdf4d09-fafd-4245-ad92-397114d0f473
 keywords:
-- Команда "вращение" Windows мультимедиа
+- команда spin Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c25e25f5a44ad6e6c9562d05653ab25cb2950b8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c4b643d1f641f7f7faf2711bc2fa8ec43efe7ca1e60a2fb178191870c5ce2354
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672703"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118136456"
 ---
 # <a name="spin-command"></a>Spin, команда
 
@@ -83,7 +83,7 @@ _stprintf_s(
 spin videodisc up
 ```
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -94,7 +94,7 @@ spin videodisc up
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

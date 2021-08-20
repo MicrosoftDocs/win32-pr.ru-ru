@@ -4,24 +4,24 @@ ms.assetid: 75e5e862-7158-4689-a6b3-46cd0e9ad983
 title: Усерлангуажеид, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e38fbc5070ccaaef07bff9143c308397004b1956
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 178ee8393c8fd42226e85d9659d519fb76f25d4453d8f2009c8d0120e6fec2e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651853"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118141490"
 ---
 # <a name="userlanguageid-property"></a>Усерлангуажеид, свойство
 
 Свойство **усерлангуажеид** является идентификатором языка по умолчанию для текущего пользователя. Установщик задает это свойство, вызывая **жетусердефаултлангид**.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

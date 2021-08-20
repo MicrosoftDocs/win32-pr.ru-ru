@@ -4,12 +4,12 @@ ms.assetid: 5dbf0fb3-53cb-4532-9a8f-bd955afe16c4
 title: Переходы состояний в поставщиках теневого копирования
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d628d11419158f947225b2e4cabd7f93975f421
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad6141b9b8f221a1e67e95fde1e6b33ad819c0cbdead57eeb676164e89acc392
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105693066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118121604"
 ---
 # <a name="state-transitions-in-shadow-copy-providers"></a>Переходы состояний в поставщиках теневого копирования
 

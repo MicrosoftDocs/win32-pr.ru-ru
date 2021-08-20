@@ -3,7 +3,7 @@ title: Команда MCI_SETTUNER (Ммсистем. h)
 description: Команда MCI \_ сеттунер устанавливает текущий канал на тюнере. Устройства ВИДЕОМАГНИТОФОНА распознают эту команду.
 ms.assetid: d9f4d6b8-ba73-40ec-a2f9-76adab0fd6f4
 keywords:
-- MCI_SETTUNER команды мультимедиа Windows
+- команда MCI_SETTUNER Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d5774a927e1f41cf5d3bf42d6e93e532e0c2961a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dc0e4d812a89c8b7ca5a8e65b322e19dcb4f7d4e7e2ef8c49745ebb16e22af65
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104072001"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118138110"
 ---
 # <a name="mci_settuner-command"></a>\_Команда MCI сеттунер
 
@@ -68,7 +68,7 @@ MCIERROR mciSendCommand(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Следующие дополнительные флаги применяются к устройствам ВИДЕОМАГНИТОФОНА:
 
@@ -116,7 +116,7 @@ MCIERROR mciSendCommand(
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -124,11 +124,11 @@ MCIERROR mciSendCommand(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

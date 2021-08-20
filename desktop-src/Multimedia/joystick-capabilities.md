@@ -11,12 +11,12 @@ keywords:
 - Джойстики, частота опроса
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b317d5a0c8deb48b49224fd051ecb7ce5a0bbced
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 311109468485a8174d9567516e747ef786019cc105c378ee91b55fa2f123c5cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103791190"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118140452"
 ---
 # <a name="joystick-capabilities"></a>Возможности джойстика
 
@@ -28,6 +28,6 @@ ms.locfileid: "103791190"
 
 Каждый джойстик имеет несколько возможностей, доступных для приложения. Возможности джойстика можно получить с помощью функции [**жойжетдевкапс**](/windows/win32/api/joystickapi/nf-joystickapi-joygetdevcaps) . Эта функция заполняет структуру [**жойкапс**](/windows/win32/api/joystickapi/ns-joystickapi-joycaps) с помощью таких возможностей джойстика, как минимальное и максимальное значения для своей системы координат, число кнопок на джойстике и минимальную и максимальную частоту опроса.
 
- 
+ 
 
- 
+ 

@@ -44,7 +44,7 @@ lParam = 0L;
 
 Сжатие не влияет на кадры, скопированные в буфер обмена.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -56,7 +56,7 @@ lParam = 0L;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

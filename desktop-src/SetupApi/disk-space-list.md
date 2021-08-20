@@ -4,12 +4,12 @@ ms.assetid: d77607e0-7718-4183-b961-a92b9d014a76
 title: Список Disk-Space
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94c8edc3b50b1799888cdc330af6375bf6f3ad22
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 124b33b95e3d558108b4bb2cc7c24be2919246ec74087331f456e8c46f571043
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662850"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117965910"
 ---
 # <a name="disk-space-list"></a>Список Disk-Space
 
