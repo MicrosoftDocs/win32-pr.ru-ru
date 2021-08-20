@@ -3,7 +3,7 @@ title: Команда MCI_LIST (Ммсистем. h)
 description: Команда MCI \_ List получает сведения о количестве и типах входных данных, доступных для устройства. Эта команда распознает устройства цифрового видео и ВИДЕОМАГНИТОФОНА.
 ms.assetid: 1977fbfa-cae4-4afe-9fc5-ac68177574ca
 keywords:
-- MCI_LIST команды мультимедиа Windows
+- команда MCI_LIST Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 15d5a616085028132c83fd71c46f7d409bf48a14
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f9bd3aa35875791d6fa916d9d6831bdcb83a6db43be6e5859ce582243606f666
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104535423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118138640"
 ---
 # <a name="mci_list-command"></a>\_Команда MCI List
 
@@ -68,7 +68,7 @@ MCIERROR mciSendCommand(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Следующие дополнительные флаги применяются к типу устройства **дигиталвидео** :
 
@@ -210,7 +210,7 @@ MCIERROR mciSendCommand(
 
 Для устройств ВИДЕОМАГНИТОФОНА *лплист* указывает на структуру пармс в виде [**\_ \_ списка \_ видеомагнитофонов MCI**](mci-vcr-list-parms.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -218,11 +218,11 @@ MCIERROR mciSendCommand(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

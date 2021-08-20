@@ -3,9 +3,9 @@ title: Ивмпмедиа Жетмаркертиме, метод
 description: Метод Жетмаркертиме Возвращает время маркера по указанному индексу.
 ms.assetid: 1c617e3a-0978-479c-a636-b655082232c1
 keywords:
-- Жетмаркертиме метод Windows Media Player
-- Жетмаркертиме метод проигрывателя Windows Media Player, интерфейс Ивмпмедиа
-- Интерфейс Ивмпмедиа Windows Media Player, метод Жетмаркертиме
+- проигрыватель Windows Media метода жетмаркертиме
+- проигрыватель Windows Media метода жетмаркертиме, интерфейс ивмпмедиа
+- проигрыватель Windows Media интерфейса ивмпмедиа, метод жетмаркертиме
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df171977adeee3b597cab1f40469af1d975425c9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 293ad08137df1b87f47f614781d92be2b7c310fa7282cc234b38e1f3e0e63586
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118115699"
 ---
 # <a name="iwmpmediagetmarkertime-method"></a>Метод Ивмпмедиа:: Жетмаркертиме
 
@@ -64,7 +64,7 @@ Implements IWMPMedia.getMarkerTime
 
 Значение **System. Double** , которое является временем метки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод возвращает **значение NULL** , если указанный маркер не существует.
 
@@ -135,19 +135,19 @@ End If
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

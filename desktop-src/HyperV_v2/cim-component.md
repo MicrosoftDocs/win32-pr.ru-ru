@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 56ff83a4da51ba18205a8d8ab5e6e57ea1a7794b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 321ea373f61806f06eee6b20250f089fea73c8e47fd36da850b2b4d1a8b80d96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105683619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117995716"
 ---
 # <a name="cim_component-class-hyper-v-management"></a>Класс CIM_Component (Управление Hyper-V)
 
@@ -43,7 +43,7 @@ class CIM_Component
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ компонента CIM** имеет эти свойства.
 

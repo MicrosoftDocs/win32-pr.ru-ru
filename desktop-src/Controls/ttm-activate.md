@@ -3,7 +3,7 @@ title: Сообщение TTM_ACTIVATE (Коммктрл. h)
 description: Активирует или деактивирует элемент управления ToolTip.
 ms.assetid: f37da001-748c-4c51-bb32-dc49031ff2fb
 keywords:
-- Элементы управления Windows для TTM_ACTIVATE сообщений
+- элементы управления Windows сообщений TTM_ACTIVATE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e200b769cd3d9e07cb63a5a540960bcc707f862d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f1b2a0c67fec22b11adc54f04ed7a6e4f3cb299ad67018b29f1239cebe0f8604
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071644"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118166397"
 ---
 # <a name="ttm_activate-message"></a>\_Сообщение о активации ТТМ
 
@@ -43,15 +43,15 @@ ms.locfileid: "104071644"
 
 Нет возвращаемого значения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

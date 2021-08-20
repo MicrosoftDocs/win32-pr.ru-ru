@@ -31,7 +31,7 @@ ms.locfileid: "118336787"
 
 Этот атрибут является **строкой** для чтения и записи, содержащей любое значение цвета Microsoft Internet Explorer. Он имеет значение по умолчанию «грайтекст».
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -41,7 +41,7 @@ ms.locfileid: "118336787"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

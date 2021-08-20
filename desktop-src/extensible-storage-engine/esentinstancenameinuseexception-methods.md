@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101875
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 02c1c7ba7f76dc5e6a23acfcfc7d0597dc8be64a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 94f8062d0c249a634f4918f5f0a743d4f910674f6d5727c7795ef617a018f451
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104559884"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118080552"
 ---
 # <a name="esentinstancenameinuseexception-methods"></a>Методы EsentInstanceNameInUseException 
 
@@ -78,7 +78,7 @@ ms.locfileid: "104559884"
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

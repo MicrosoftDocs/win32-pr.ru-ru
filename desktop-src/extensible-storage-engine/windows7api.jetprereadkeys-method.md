@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: b9861cba9188b08abdde2c6dec8392a8a448d510
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ffba035cc5f69ec33eb08129f25c07d1f40e7e3b0aa3a7c2bb7f77e3ea890c67
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104557144"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118069765"
 ---
 # <a name="windows7apijetprereadkeys-method"></a>Windows7Api. Жетпререадкэйс, метод
 
@@ -53,7 +53,7 @@ ms.locfileid: "104557144"
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

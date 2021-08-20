@@ -4,12 +4,12 @@ ms.assetid: f9def67a-c4ea-4014-929f-51fbd10d770a
 title: Общие сведения о сбросе и завершении восстановления
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 391e029cdb109589b42240b5482f6aba2ff43555
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e8ad0b7d40f3c0e5322810f96bb120f28effe4ec3f0d4e278af924962713b2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118122036"
 ---
 # <a name="overview-of-restore-clean-up-and-termination"></a>Общие сведения о сбросе и завершении восстановления
 

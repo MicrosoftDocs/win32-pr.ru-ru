@@ -4,15 +4,15 @@ ms.assetid: 1fa529cd-e95f-4997-8916-4212ebc6f676
 title: 'Метод Икэйфрамеконтрол:: Упдатепиктуре'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 83196a8882960e6c24876ce6da7a3b6abd9840ce
-ms.sourcegitcommit: 70f39ec77d19d3c32c376ee2831753d2cafae41a
+ms.openlocfilehash: 09e6fd183d5a20ec879d5aa2cdd60cefcc447c96df649a71d1b3632ae0233d90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103914299"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118865768"
 ---
 # <a name="ikeyframecontrolupdatepicture-method"></a>Метод Икэйфрамеконтрол:: Упдатепиктуре
 
-\[**Упдатепиктуре** недоступен для использования в Windows Vista, windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[**упдатепиктуре** недоступен для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Метод **упдатепиктуре** вызывается приложением для запроса отправителя видео об обновлении изображения. Каждый раз при вызове этого метода один запрос отправляется отправителю видео. Поток должен быть активным.

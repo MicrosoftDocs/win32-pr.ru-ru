@@ -3,7 +3,7 @@ title: Сообщение TB_SETANCHORHIGHLIGHT (Коммктрл. h)
 description: Задает параметр выделения закреплений для панели инструментов.
 ms.assetid: d31652d5-e9cf-4bf3-8f90-818eb078fa87
 keywords:
-- Элементы управления Windows для TB_SETANCHORHIGHLIGHT сообщений
+- элементы управления Windows сообщений TB_SETANCHORHIGHLIGHT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 809f71e446f7768d637258152db1dd2d56346dfd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 77a66193aebee80a2ffde97b7e802b5bab750f0a9e2f1773b32d872211d52150
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105654419"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118167987"
 ---
 # <a name="tb_setanchorhighlight-message"></a>\_Сообщение СЕТАНЧОРХИГХЛИГХТ ТБ
 
@@ -43,19 +43,19 @@ ms.locfileid: "105654419"
 
 Возвращает предыдущий параметр выделения привязки. Если это значение не равно нулю, выделение закреплений включено. Если это значение равно нулю, выделение закреплений отключено.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Выделение привязок на панели инструментов означает, что последний выделенный элемент останется выделенным, пока не будет выделен другой элемент. Это происходит, даже если курсор покидает элемент управления ToolBar.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

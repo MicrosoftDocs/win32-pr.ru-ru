@@ -1,9 +1,9 @@
 ---
 title: Сообщение MIM_LONGDATA (Ммсистем. h)
-description: '\_Сообщение ЛОНГДАТА MIM отправляется в функцию обратного вызова MIDI, когда системный буфер заполняется данными и возвращается приложению.'
+description: сообщение MIM \_ лонгдата отправляется в функцию обратного вызова MIDI, когда системный буфер заполняется данными и возвращается приложению.
 ms.assetid: 3a11ed21-e7c5-4b78-9536-f0d862e26a02
 keywords:
-- MIM_LONGDATA сообщения Windows мультимедиа
+- сообщение MIM_LONGDATA Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bc5f83b1f0468540da18d0d8317dae42cbf33bc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 82605835ce8ac231346014215c854abfe9ae7a55fd81e81b8d6214fb8a230327
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118137215"
 ---
-# <a name="mim_longdata-message"></a>\_Сообщение ЛОНГДАТА MIM
+# <a name="mim_longdata-message"></a>MIM \_ Сообщение ЛОНГДАТА
 
-Сообщение **\_ лонгдата MIM** отправляется в функцию ОБРАТНОго вызова MIDI, когда системный буфер заполняется данными и возвращается приложению.
+сообщение **MIM \_ лонгдата** отправляется в функцию обратного вызова MIDI, когда системный буфер заполняется данными и возвращается приложению.
 
 
 ```C++
@@ -56,11 +56,11 @@ dwParam2 = dwTimestamp
 
 Это сообщение не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращенный буфер может быть незаполненным. Чтобы определить число байтов, записанных в возвращенный буфер, используйте элемент **двбитесрекордед** структуры [**мидихдр**](/windows/win32/api/mmeapi/ns-mmeapi-midihdr) , заданную параметром *лпмидихдр*.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -68,11 +68,11 @@ dwParam2 = dwTimestamp
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

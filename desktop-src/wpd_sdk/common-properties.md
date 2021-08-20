@@ -43,7 +43,7 @@ Windows Портативные устройства (WPD) поддерживаю
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -53,7 +53,7 @@ Windows Портативные устройства (WPD) поддерживаю
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

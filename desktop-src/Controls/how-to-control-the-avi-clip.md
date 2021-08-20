@@ -4,27 +4,27 @@ description: В этом разделе показано, как использ�
 ms.assetid: 4B19F929-B306-4EBF-B82F-6539FAA42BA6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c11f7d8f519f98f3293d5be29fac0e0a40dd704
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 5fbabd3ea6e0694448e4bd8c01e53161333b2df3904cf1578252bdbe150d3d5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104488595"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118170765"
 ---
 # <a name="how-to-control-the-avi-clip"></a>Управление роликом AVI
 
 В этом разделе показано, как использовать макросы управления анимацией для воспроизведения, приостанавливать и закрывать связанный Audio-Video анимированный ролик (AVI).
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Необходимые компоненты
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 -   Файлы AVI
 
 ## <a name="instructions"></a>Инструкции
@@ -69,7 +69,7 @@ void DoAnimation(HWND hwndAnim, int nAction)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

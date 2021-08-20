@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Wfext.h
 ms.assetid: 8cd29a06-0f38-4285-9092-647a391b72d7
-ms.openlocfilehash: 6d1505ef7b330f0e935136eacaf808da3add8cd8
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: f902c7f812ecd02716c6981f21f3c1e2171fcba46979b518eb566cdf54775754
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109843155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118050434"
 ---
 # <a name="ext_button-structure"></a>\_Структура кнопки ext
 
@@ -74,7 +74,7 @@ typedef struct tagEXT_BUTTON {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
@@ -86,7 +86,7 @@ typedef struct tagEXT_BUTTON {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

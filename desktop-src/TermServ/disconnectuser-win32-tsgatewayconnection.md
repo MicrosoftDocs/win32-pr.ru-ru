@@ -69,13 +69,13 @@ uint32 DisconnectUser(
 | Минимальная версия клиента<br/> | Ни одна версия не поддерживается<br/>                                                                            |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                                       |
 | Пространство имен<br/>                | Корневой \\ CIMv2 \\ терминалсервицес<br/>                                                             |
-| Header<br/>                   | <dl> <dt>Тсгаусентикатионенгине. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Тсгаусентикатионенгине. h</dt> </dl> |
 | MOF<br/>                      | <dl> <dt>TSGateway. mof</dt> </dl>             |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>                |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

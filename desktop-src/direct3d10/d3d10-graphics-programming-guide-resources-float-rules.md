@@ -4,12 +4,12 @@ ms.assetid: 57221d13-8993-4db3-b1a0-88bdcf6f0167
 title: Правила точки Ффлоатинг (Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6909d037b11f9098bb3e0dbad0f1846b79b513e8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0d7f575810b1efb1bde65dd1c80de98837a0a0274c6b394207b612874f289054
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701198"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118100986"
 ---
 # <a name="floating-point-rules-direct3d-10"></a>Правила с плавающей точкой (Direct3D 10)
 
@@ -20,7 +20,7 @@ Direct3D 10 поддерживает несколько различных пр�
     -   [Отклонения или дополнительные требования из правил IEEE-754](#deviations-or-additional-requirements-from-ieee-754-rules)
 -   [16-разрядные правила Floating-Point](#16-bit-floating-point-rules)
 -   [11-разрядные и 10-разрядные правила Floating-Point](#11-bit-and-10-bit-floating-point-rules)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="32-bit-floating-point-rules"></a>32-разрядные правила Floating-Point
 
@@ -106,7 +106,7 @@ Direct3D 10 также поддерживает 11-разрядные и 10-ра
 -   10/11-разрядные числа с плавающей тачкой сохраняют денормализованные значения.
 -   Любая операция, которая может привести к числу меньше нуля, передается в ноль.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

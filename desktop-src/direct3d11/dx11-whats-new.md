@@ -1,19 +1,19 @@
 ---
-title: Новые возможности пакета SDK для Windows 7 августа 2009 и Direct3D 11
-description: Эта версия Windows 7 или Direct3D 11 поставляется в составе пакета SDK DirectX и содержит новые функции, средства и документацию.
+title: новые возможности пакета SDK для 2009 Windows 7 и Direct3D 11
+description: эта версия Windows 7/Direct3D 11 поставляется в составе пакета SDK DirectX и содержит новые функции, средства и документацию.
 ms.assetid: c2dc3726-70a0-49ff-bbad-8ef774bc4868
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb5e600e5dff679129bb9d007b9f1659bfd018d1
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 83c51f350065134893ed2303d8854eb9d24fc7f58e8ab762f71da019d89d45b2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "103794820"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119608914"
 ---
-# <a name="whats-new-in-the-august-2009-windows-7direct3d-11-sdk"></a>Новые возможности пакета SDK для Windows 7 августа 2009 и Direct3D 11
+# <a name="whats-new-in-the-august-2009-windows-7direct3d-11-sdk"></a>новые возможности пакета SDK для 2009 Windows 7 и Direct3D 11
 
-Эта версия Windows 7 или Direct3D 11 поставляется в составе пакета SDK DirectX и содержит новые функции, средства и документацию.
+эта версия Windows 7/Direct3D 11 поставляется в составе пакета SDK DirectX и содержит новые функции, средства и документацию.
 
 
 
@@ -35,7 +35,7 @@ ms.locfileid: "103794820"
 </tr>
 <tr class="even">
 <td><span id="DirectWrite"></span><span id="directwrite"></span><span id="DIRECTWRITE"></span>DirectWrite<br/></td>
-<td>DirectWrite обеспечивает поддержку высококачественной отрисовки текста, независимых от разрешения шрифтов, полную поддержку текста и макета в Юникоде, а также многое другое.<br/>
+<td>DirectWrite обеспечивает поддержку высококачественной отрисовки текста, независимых от разрешения шрифтов, полную поддержку текста и макета в юникоде и многое другое.<br/>
 <ul>
 <li>Независимая от устройства система макета текста, улучшающая удобочитаемость текста в документах и в пользовательском интерфейсе.<br/></li>
 <li>Высококачественная, Подпиксельная визуализация текста ClearType, которая может использовать GDI Direct3D, Direct2D или технологию отрисовки для конкретного приложения.<br/></li>
@@ -43,11 +43,11 @@ ms.locfileid: "103794820"
 <li>Поддержка расширенных типографских функций шрифтов OpenType.<br/></li>
 <li>Поддержка макета и отрисовки текста во всех языках, поддерживаемых Windows.<br/></li>
 </ul>
-Этот пакет SDK позволяет разработчикам оценивать API и создавать базовые приложения только в демонстрационных целях.<br/> <a href="/windows/win32/directwrite/direct-write-portal">Документация</a> и <a href="/windows/win32/directwrite/samples">примеры</a> для DirectWrite в настоящее время доступны на сайте MSDN.<br/></td>
+Этот пакет SDK позволяет разработчикам оценивать API и создавать базовые приложения только в демонстрационных целях.<br/> <a href="/windows/win32/directwrite/direct-write-portal">документация</a> и <a href="/windows/win32/directwrite/samples">примеры</a> для DirectWrite в настоящее время доступны на сайте MSDN.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="DXGI_1.1"></span><span id="dxgi_1.1"></span>DXGI 1,1<br/></td>
-<td><a href="/windows/desktop/direct3ddxgi/dx-graphics-dxgi-overviews">Dxgi 1,1</a> строится на DXGI 1,0 и будет доступно как в Windows Vista, так и в Windows 7. DXGI 1,1 добавляет несколько новых функций:<br/>
+<td><a href="/windows/desktop/direct3ddxgi/dx-graphics-dxgi-overviews">dxgi 1,1</a> строится на dxgi 1,0 и будет доступна как в Windows Vista, так и в Windows 7. DXGI 1,1 добавляет несколько новых функций:<br/>
 <ul>
 <li>Поддержка синхронизированных общих поверхностей. Это обеспечивает эффективное совместное использование поверхности чтения и записи для нескольких D3D (может быть между D3D10 и D3D11).<br/></li>
 <li>Поддержка формата BGRA. Это позволяет GDI отображаться на той же поверхности DXGI, которая предназначена для устройства Direct2D, Direct3D 10,1 или Direct3D 11. <br/></li>
@@ -72,7 +72,7 @@ ms.locfileid: "103794820"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

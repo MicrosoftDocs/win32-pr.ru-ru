@@ -30,12 +30,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 32c11c609f78cc96862f9c2f15d93266f40ae941
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a4eb56cd1c4ac9b38e4b7d372933497dea86f1486f93c55b2db32247ed291f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104343955"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118071264"
 ---
 # <a name="snapshotpreparegrbit-enumeration"></a>Перечисление Снапшотпрепарегрбит
 
@@ -91,7 +91,7 @@ public enum SnapshotPrepareGrbit
 </table>
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

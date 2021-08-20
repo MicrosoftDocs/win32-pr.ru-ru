@@ -64,7 +64,7 @@ public string szColumnName { get; set; }
 
 Тип: [System. String](/dotnet/api/system.string)  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

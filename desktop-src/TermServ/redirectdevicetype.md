@@ -15,12 +15,12 @@ api_type:
 - LibDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b7058313e7f987589ae17924cce6a95610d997ef
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e987e4f6424c030cdb4ff0699efadaf34f2f9ad14ec49dd8d7e7043f9b55cd9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672638"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118127904"
 ---
 # <a name="redirectdevicetype-enumeration"></a>Перечисление Редиректдевицетипе
 
@@ -48,7 +48,7 @@ USB-устройство.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -60,7 +60,7 @@ USB-устройство.
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

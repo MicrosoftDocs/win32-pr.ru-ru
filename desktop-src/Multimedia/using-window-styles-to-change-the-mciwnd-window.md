@@ -6,12 +6,12 @@ keywords:
 - Функция МЦивндкреате
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bef1471c4da280540b5b08ed43704b73a6b16f6
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 90212b43d6d51c82eb9b6e1a26bb06c7215c2568594e04980294b0d87bd53e43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "105661697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118135612"
 ---
 # <a name="using-window-styles-to-change-the-mciwnd-window"></a>Использование стилей окна для изменения окна МЦивнд
 
@@ -26,6 +26,6 @@ ms.locfileid: "105661697"
 
 Список стилей окон, относящихся к МЦивнд, см. в разделе [**мЦивндкреате**](/windows/desktop/api/Vfw/nf-vfw-mciwndcreatea).
 
- 
+ 
 
- 
+ 

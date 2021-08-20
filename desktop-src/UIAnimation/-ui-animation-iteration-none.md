@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c45f004421a273f6dd2e6ab2d61810d9332ca17
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0aceb8d343859f23018a5f29777599bbc7fc479828efdacaae3a4b87bb141b9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103802081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118126484"
 ---
 # <a name="ui_animation_iteration_none"></a>Итерация анимации пользовательского интерфейса — \_ \_ \_ нет
 
@@ -28,7 +28,7 @@ ms.locfileid: "103802081"
 <span id="UI_ANIMATION_ITERATION_NONE"></span><span id="ui_animation_iteration_none"></span>**Итерация анимации пользовательского интерфейса — \_ \_ \_ нет**
 </dt> <dd> <dl> <dt>
 
--1
+–1
 </dt> <dt>
 
 
@@ -38,7 +38,7 @@ ms.locfileid: "103802081"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -46,12 +46,12 @@ ms.locfileid: "103802081"
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 8, Windows 7 и обновление платформы \[ только для настольных приложений Windows 7\]<br/>    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                  |
-| Header<br/>                   | <dl> <dt>Уианиматион. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Уианиматион. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Уианиматион. idl</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

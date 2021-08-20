@@ -1,35 +1,35 @@
 ---
-title: Размещение элемента управления ActiveX без окна MSAA
-description: Узнайте, как создать контейнер элементов управления, который может содержать безоконные элементы управления Microsoft ActiveX, реализующие Microsoft Active Accessibility.
+title: размещение элемента управления ActiveX без окна MSAA
+description: узнайте, как создать контейнер элементов управления, который может размещать безоконные элементы управления microsoft ActiveX, реализующие microsoft Active Accessibility.
 ms.assetid: 9497561C-37ED-4094-A6B0-C219F63C04B6
 keywords:
-- MSAA, безоконный элемент управления ActiveX
-- Безоконный элемент управления ActiveX, MSAA
+- MSAA, безоконный контроль ActiveX
+- безоконный контроль ActiveX, MSAA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9de45313b19490af3c3fffb633f3822ad93d25a4
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b3d086fdc33c1b645294827ec62784612ffeb617f12caf5a101ea8472da3e765
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103791791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118115135"
 ---
-# <a name="how-to-host-an-msaa-windowless-activex-control"></a>Размещение элемента управления ActiveX без окна MSAA
+# <a name="how-to-host-an-msaa-windowless-activex-control"></a>размещение элемента управления ActiveX без окна MSAA
 
-Узнайте, как создать контейнер элементов управления, который может содержать безоконные элементы управления Microsoft ActiveX, реализующие Microsoft Active Accessibility. Выполнив описанные здесь действия, можно убедиться, что любые элементы управления без окон на Active Accessibility Майкрософт, размещенные в контейнере управления, доступны для клиентских приложений с поддержкой специальных возможностей (AT).
+узнайте, как создать контейнер элементов управления, который может размещать безоконные элементы управления microsoft ActiveX, реализующие microsoft Active Accessibility. Выполнив описанные здесь действия, можно убедиться, что любые элементы управления без окон на Active Accessibility Майкрософт, размещенные в контейнере управления, доступны для клиентских приложений с поддержкой специальных возможностей (AT).
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
 -   [Элементы управления ActiveX](/windows/desktop/com/activex-controls)
 -   [Microsoft Active Accessibility](microsoft-active-accessibility.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
 -   Программирование Microsoft Win32 и объектной модели компонентов (COM)
--   Элементы управления ActiveX без окон
+-   безоконные элементы управления ActiveX
 -   Серверы Microsoft Active Accessibility
 
 ## <a name="instructions"></a>Инструкции
@@ -60,7 +60,7 @@ ms.locfileid: "103791791"
 
     
 
-    | Основание диапазона | Размер диапазона | Control   |
+    | Основание диапазона | Размер диапазона | Элемент   |
     |------------|------------|-----------|
     | 1000       | 500        | Элемент управления 1 |
     | 1500       | 1000       | Управление 2 |
@@ -68,24 +68,24 @@ ms.locfileid: "103791791"
 
     
 
-     
+     
 
     Контейнер элементов управления должен поддерживать сопоставление диапазонов ИДЕНТИФИКАТОРов объектов с безоконными элементами управления для самого себя и всех безоконных дочерних элементов. Диапазоны ИДЕНТИФИКАТОРов объектов не должны быть смежными друг с другом. Кроме того, чтобы избежать атак типа "отказ в обслуживании", контейнер элемента управления может ограничить количество диапазонов, предоставленных конкретному элементу управления. Тем не менее, чтобы обеспечить увеличение размера элемента управления, полезно разрешать более одного диапазона для каждого элемента управления.
 
 ### <a name="step-4-optional-implement-the-iaccessiblehostingelementproviders-interface"></a>Шаг 4. необязательный: реализация интерфейса Иакцессиблехостинжелементпровидерс.
 
-Реализуйте интерфейс [**иакцессиблехостинжелементпровидерс**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iaccessiblehostingelementproviders) , если контейнер элемента управления имеет реализацию Microsoft Active Accessibility Server, а сервер является корнем дерева специальных возможностей, который включает элементы управления ActiveX без окон, поддерживающие АВТОМАТИЗАЦИЮ пользовательского интерфейса. Интерфейс **иакцессиблехостинжелементпровидерс** содержит один метод [**жетембеддедфрагментрутс**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irawelementproviderfragment-getembeddedfragmentroots), который получает указатели интерфейса [**Иравелементпровидерфрагментрут**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementproviderfragmentroot) для всех элементов управления ActiveX без окон модели автоматизации пользовательского интерфейса, размещенных в контейнере элементов управления.
+реализуйте интерфейс [**иакцессиблехостинжелементпровидерс**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iaccessiblehostingelementproviders) , если контейнер элемента управления имеет реализацию Microsoft Active Accessibility server, а сервер является корнем дерева специальных возможностей, который включает элементы управления ActiveX без окон, поддерживающие автоматизацию пользовательского интерфейса. интерфейс **иакцессиблехостинжелементпровидерс** содержит один метод [**жетембеддедфрагментрутс**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irawelementproviderfragment-getembeddedfragmentroots), который получает указатели интерфейса [**иравелементпровидерфрагментрут**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementproviderfragmentroot) для всех элементов управления без ActiveX окон модели автоматизации пользовательского интерфейса, которые размещаются в контейнере элементов управления.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Размещение элемента управления ActiveX без окон UI Automation](host-a-ui-automation-windowless-activex-control.md)
+[размещение элемента управления ActiveX без окон автоматизации пользовательского интерфейса](host-a-ui-automation-windowless-activex-control.md)
 </dt> <dt>
 
-[Специальные возможности элемента управления ActiveX без окон](windowless-activex-control-accessibility.md)
+[специальные возможности элемента управления ActiveX без окон](windowless-activex-control-accessibility.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

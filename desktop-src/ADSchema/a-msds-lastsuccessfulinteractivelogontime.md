@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 17660935dd55f22f3f592e15fa3e5095ed2931f9
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d272b03ff2168aa9cbc0f0e0b3931b25427494cba7aed8623f9fb89d021812e0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103805003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119295549"
 ---
 # <a name="ms-ds-last-successful-interactive-logon-time-attribute"></a>Атрибут ms-DS-Last-успешного выполнения интерактивного входа в систему
 
@@ -36,7 +36,7 @@ ms.locfileid: "103805003"
 | Частота обновления  | \-                                           |
 | Attribute-Id      | 1.2.840.113556.1.4.1970                      |
 | System-ID — GUID    | 011929e6-8b5d-4258-b64a-00b0b4949747         |
-| Синтаксис            | [**Пределах**](s-interval.md)               |
+| Синтаксис            | [**Интервал**](s-interval.md)               |
 
 
 
@@ -54,7 +54,7 @@ ms.locfileid: "103805003"
 |------------------------|-----------------------------------|
 | Идентификатор ссылки                | \-                                |
 | MAPI-Id                | \-                                |
-| System-Only            | True                              |
+| System-Only            | Верно                              |
 | Является однозначным       | True                              |
 | Индексируется             | Неверно                             |
 | В глобальном каталоге      | Неверно                             |
@@ -63,7 +63,7 @@ ms.locfileid: "103805003"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -75,7 +75,7 @@ ms.locfileid: "103805003"
 |------------------------|-----------------------------------|
 | Идентификатор ссылки                | \-                                |
 | MAPI-Id                | \-                                |
-| System-Only            | True                              |
+| System-Only            | Верно                              |
 | Является однозначным       | True                              |
 | Индексируется             | Неверно                             |
 | В глобальном каталоге      | Неверно                             |
@@ -84,7 +84,7 @@ ms.locfileid: "103805003"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -96,8 +96,8 @@ ms.locfileid: "103805003"
 |------------------------|-----------------------------------|
 | Идентификатор ссылки                | \-                                |
 | MAPI-Id                | \-                                |
-| System-Only            | True                              |
-| Является однозначным       | True                              |
+| System-Only            | Верно                              |
+| Является однозначным       | Верно                              |
 | Индексируется             | Неверно                             |
 | В глобальном каталоге      | Неверно                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                      |
