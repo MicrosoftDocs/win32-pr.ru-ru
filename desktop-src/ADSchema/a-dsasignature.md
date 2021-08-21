@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bdfed9e2cb871f3418c8bdbf4401d03c1e78492b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: b7b5c7375474cefadf61e8c4d605e4dc812f0b3d1f66680b09a0f13f0cb11abd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105654863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118177395"
 ---
 # <a name="dsa-signature-attribute"></a>Атрибут DSA-Signature
 
@@ -122,7 +122,7 @@ DSA-Signature объекта — это идентификатор вызова 
 | Идентификатор ссылки                | \-                              |
 | MAPI-Id                | 0x8077                          |
 | System-Only            | Неверно                           |
-| Является однозначным       | True                            |
+| Является однозначным       | Верно                            |
 | Индексируется             | Неверно                           |
 | В глобальном каталоге      | Неверно                           |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                    |

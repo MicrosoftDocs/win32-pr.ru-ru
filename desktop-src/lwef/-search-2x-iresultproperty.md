@@ -74,7 +74,7 @@ ms.locfileid: "118754587"
 
 Это элементы, возвращающие свойства.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 1d7e2149-d2ca-47da-be1f-8273fd9bd30a
 title: LPD3DXSHPRTSIMCB
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e5a7c4911bf2a7b7fa2aa83422a206644f6eb747
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: c81e510808dd2e14af1de0d9618591d8ea3b8587bb4015e72a3e01fa33157b5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110342809"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118799337"
 ---
 # <a name="lpd3dxshprtsimcb"></a>LPD3DXSHPRTSIMCB
 
@@ -39,7 +39,7 @@ typedef HRESULT (WINAPI *LPD3DXSHPRTSIMCB)(
 
 ## <a name="remarks"></a>Remarks
 
-Не забудьте указать соглашение о вызовах [**типов данных Windows**](../winprog/windows-data-types.md) при объявлении функции обратного вызова. В противном случае могут возникать переполняется стек.
+при объявлении функции обратного вызова необходимо указать соглашение о вызовах [**типов данных Windows**](../winprog/windows-data-types.md) . В противном случае могут возникать переполняется стек.
 
 
 

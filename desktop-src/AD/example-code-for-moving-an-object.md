@@ -8,12 +8,12 @@ keywords:
 - Active Directory примеры Active Directory, перемещение объекта
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 800147a4093712d71a56547ba1eabc592b715b1f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5f3c32f9bf00d96c42a6c7e019852b80b0e30654d7ff03af539b5196349c48ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103887680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118693388"
 ---
 # <a name="example-code-for-moving-an-object"></a>Пример кода для перемещения объекта
 
@@ -77,7 +77,7 @@ HRESULT MoveObject(IADs *padsToMove, IADs *padsDestination)
 
 
 
-В следующем Visual Basic примере кода показано, как использовать ADSI для перемещения объекта в домене.
+в следующем Visual Basic примере кода показано, как использовать ADSI для перемещения объекта в домене.
 
 
 ```VB
@@ -107,9 +107,9 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 
 
 
 

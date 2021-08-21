@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e455250ae99075af449793d634fd6b3c2fafc4b0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 704002e17d963897111949f559c4798c433c3d939946a735362876fa2e22f7ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103821541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118531415"
 ---
 # <a name="id3dx11effectvariableasscalar-method"></a>Метод ID3DX11EffectVariable:: Асскалар
 
@@ -47,7 +47,7 @@ ID3DX11EffectScalarVariable* AsScalar();
 
 Указатель на скалярную переменную. См. [**ID3DX11EffectScalarVariable**](id3dx11effectscalarvariable.md).
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Асскалар Возвращает версию переменной Effect, которая была специализированной для скалярной переменной. Как и в приведении, эта специализация возвращает недопустимый объект, если переменная действия не содержит скалярных данных.
 
@@ -58,18 +58,18 @@ ID3DX11EffectScalarVariable* AsScalar();
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
+| Заголовок<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
 | Библиотека<br/> | <dl> <dt>Н/д (библиотека Effects 11 доступна в сети в качестве общего источника.)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -6,12 +6,12 @@ keywords:
 - Система доменных имен, поставщик WMI, основные понятия
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 326fc3853cef81cfe993f15c7c88233633a9d726
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 080e39ca5a51f140a65666f7e3f2beb909a9916c4fb872ab1def5a30cbdc7d1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118164170"
 ---
 # <a name="dns-concepts"></a>Основные понятия DNS
 
@@ -26,9 +26,9 @@ ms.locfileid: "104067249"
 -   [Арбитры DNS](dns-resolvers.md)
 -   [Записи ресурсов](resource-records.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -23,12 +23,12 @@ api_type:
 - Schema
 api_location:
 - Root\snmp\SMIR
-ms.openlocfilehash: e21fcc32976c42f41cd33a519e5fa6c684acdfc9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d8da8533e9ac5c86dfa3291092fb5165b94e2e393e507c55f15b64c1e30cd6a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711656"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118816544"
 ---
 # <a name="snmpextendednotification-class"></a>Класс Снмпекстендеднотификатион
 
@@ -64,7 +64,7 @@ class SnmpExtendedNotification : __ExtrinsicEvent
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **снмпекстендеднотификатион** имеет следующие свойства.
 
@@ -131,7 +131,7 @@ class SnmpExtendedNotification : __ExtrinsicEvent
 Тип доступа: только для чтения
 </dt> </dl>
 
-Имя сообщества, связанное с экземпляром PDU. Имя сообщества выполняет проверку подлинности инициатора PDU. Это свойство является допустимым для типов и SNMPv2C.
+имя Community, связанное с экземпляром PDU. Имя сообщества выполняет проверку подлинности инициатора PDU. Это свойство является допустимым для типов и SNMPv2C.
 
 </dd> <dt>
 
@@ -147,7 +147,7 @@ class SnmpExtendedNotification : __ExtrinsicEvent
 Квалификаторы: **текстовое \_ соглашение** ("OBJECTIDENTIFIER"), **Кодировка** ("OBJECTIDENTIFIER") **, \_ синтаксис объекта** ("OBJECTIDENTIFIER") **, \_ идентификатор объекта** ("1.3.6.1.6.3.1.1.4.1")
 </dt> </dl>
 
-Удостоверяющая идентификация этого уведомления. Сопоставляется непосредственно с записью MIB, привязкой к переменной Снмптрапоид. Это свойство допустимо только для SNMPv2C.
+Удостоверяющая идентификация этого уведомления. Карты непосредственно к привязке снмптрапоид к переменной записи MIB. Это свойство допустимо только для SNMPv2C.
 
 </dd> <dt>
 
@@ -195,13 +195,13 @@ class SnmpExtendedNotification : __ExtrinsicEvent
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Макрос [типа уведомления](notification-type-macro.md) , содержащий ссылки на макрос [типа объекта](object-type-macro.md) с именем **timestamp** или **Identification** , приводит к конфликту сопоставления. В случае возникновения этого конфликта требуемые свойства имеют приоритет, и конфликтующие ссылки должны быть переименованы.
 
-Макрос [типа уведомления](notification-type-macro.md) , содержащий ссылки на макрос [типа объекта](object-type-macro.md) с именем **Community** , вызывает конфликт сопоставления. В случае возникновения этого конфликта требуемые свойства имеют приоритет, и конфликтующие ссылки должны быть переименованы.
+макрос [типа уведомления](notification-type-macro.md) , который содержит ссылки на макрос [типа объекта](object-type-macro.md) с именем **Community** вызывает конфликт сопоставления. В случае возникновения этого конфликта требуемые свойства имеют приоритет, и конфликтующие ссылки должны быть переименованы.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -214,7 +214,7 @@ class SnmpExtendedNotification : __ExtrinsicEvent
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 1d11b428e9a17819f850ce210e6854e4f1d17e52
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6454b6080a4841ef261233ce304725ec4a08a1a793cfb657c87e20ef56592df0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103816249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118647362"
 ---
 # <a name="cim_softwareelement-class-hyper-v-management"></a>Класс CIM_SoftwareElement (Управление Hyper-V)
 
@@ -63,7 +63,7 @@ class CIM_SoftwareElement : CIM_LogicalElement
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ софтварилемент** имеет следующие свойства.
 
@@ -149,7 +149,7 @@ class CIM_SoftwareElement : CIM_LogicalElement
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -327,7 +327,7 @@ class CIM_SoftwareElement : CIM_LogicalElement
 
 <span id="Tru64_UNIX"></span><span id="tru64_unix"></span><span id="TRU64_UNIX"></span>
 
-**TRU64 UNIX** (6)
+**UNIX Tru64** (6)
 
 
 </dt> <dd></dd> <dt>
@@ -453,7 +453,7 @@ class CIM_SoftwareElement : CIM_LogicalElement
 
 <span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>
 
-**Зависящая от UNIX** (24)
+**зависящие UNIX** (24)
 
 
 </dt> <dd></dd> <dt>
@@ -565,7 +565,7 @@ class CIM_SoftwareElement : CIM_LogicalElement
 
 <span id="Interactive_UNIX"></span><span id="interactive_unix"></span><span id="INTERACTIVE_UNIX"></span>
 
-**Интерактивная UNIX** (40)
+**интерактивный UNIX** (40)
 
 
 </dt> <dd></dd> <dt>
@@ -733,7 +733,7 @@ class CIM_SoftwareElement : CIM_LogicalElement
 
 <span id="Caldera_Open_UNIX"></span><span id="caldera_open_unix"></span><span id="CALDERA_OPEN_UNIX"></span>
 
-**Caldera Open UNIX** (64)
+**Caldera open UNIX** (64)
 
 
 </dt> <dd></dd> <dt>
@@ -775,14 +775,14 @@ class CIM_SoftwareElement : CIM_LogicalElement
 
 <span id="Microsoft_Windows_Server_2003_64-Bit"></span><span id="microsoft_windows_server_2003_64-bit"></span><span id="MICROSOFT_WINDOWS_SERVER_2003_64-BIT"></span>
 
-**Microsoft Windows Server 2003 64-bit** (70)
+**Microsoft Windows Server 2003 64-Bit** (70)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Windows_XP_64-Bit"></span><span id="windows_xp_64-bit"></span><span id="WINDOWS_XP_64-BIT"></span>
 
-**Windows XP 64-bit** (71)
+**Windows XP 64-Bit** (71)
 
 
 </dt> <dd></dd> <dt>
@@ -803,14 +803,14 @@ class CIM_SoftwareElement : CIM_LogicalElement
 
 <span id="Windows_Vista_64-Bit"></span><span id="windows_vista_64-bit"></span><span id="WINDOWS_VISTA_64-BIT"></span>
 
-**Windows Vista, 64-разрядная версия** (74)
+**Windows Vista 64-Bit** (74)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Windows_Embedded_for_Point_of_Service"></span><span id="windows_embedded_for_point_of_service"></span><span id="WINDOWS_EMBEDDED_FOR_POINT_OF_SERVICE"></span>
 
-**Windows Embedded для точки обслуживания** (75)
+**Windows, внедренный для точки обслуживания** (75)
 
 
 </dt> <dd></dd> <dt>
@@ -824,7 +824,7 @@ class CIM_SoftwareElement : CIM_LogicalElement
 
 <span id="Microsoft_Windows_Server_2008_64-Bit"></span><span id="microsoft_windows_server_2008_64-bit"></span><span id="MICROSOFT_WINDOWS_SERVER_2008_64-BIT"></span>
 
-**Microsoft Windows Server 2008 64-bit** (77)
+**Microsoft Windows Server 2008 64-Bit** (77)
 
 
 </dt> <dd></dd> <dt>
@@ -845,7 +845,7 @@ class CIM_SoftwareElement : CIM_LogicalElement
 
 <span id="RedHat_Enterprise_Linux_64-Bit"></span><span id="redhat_enterprise_linux_64-bit"></span><span id="REDHAT_ENTERPRISE_LINUX_64-BIT"></span>
 
-**RedHat Enterprise Linux 64-разр** . (80)
+**RedHat Enterprise Linux 64-Bit** (80)
 
 
 </dt> <dd></dd> <dt>
@@ -1041,14 +1041,14 @@ class CIM_SoftwareElement : CIM_LogicalElement
 
 <span id="Oracle_Enterprise_Linux_32-bit"></span><span id="oracle_enterprise_linux_32-bit"></span><span id="ORACLE_ENTERPRISE_LINUX_32-BIT"></span>
 
-**Oracle Enterprise Linux 32-разрядная версия** (108)
+**Oracle Enterprise Linux 32-bit** (108)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Oracle_Enterprise_Linux_64-bit"></span><span id="oracle_enterprise_linux_64-bit"></span><span id="ORACLE_ENTERPRISE_LINUX_64-BIT"></span>
 
-**Oracle Enterprise Linux 64-разрядная версия** (109)
+**Oracle Enterprise Linux 64-bit** (109)
 
 
 </dt> <dd></dd> <dt>
@@ -1062,7 +1062,7 @@ class CIM_SoftwareElement : CIM_LogicalElement
 
 </dd> <dt>
 
-**Version**
+**Версия**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**

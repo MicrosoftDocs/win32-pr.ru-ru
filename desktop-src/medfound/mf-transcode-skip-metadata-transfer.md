@@ -4,12 +4,12 @@ ms.assetid: 0fbfc035-c9d1-4014-a28a-93d7e6adc718
 title: Атрибут MF_TRANSCODE_SKIP_METADATA_TRANSFER (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 54978d76ec1392c3be731e1452a653d1423976a7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7874d7d8cc20bbf5222cd8fd2fa0ca938c0b597dbc42914ab809dad926968306
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118739426"
 ---
 # <a name="mf_transcode_skip_metadata_transfer-attribute"></a>\_Перекодировать \_ атрибут пропуска \_ метаданных \_
 
@@ -38,18 +38,18 @@ ms.locfileid: "104263358"
 
 Чтобы задать этот атрибут, вызовите [**имфаттрибутес:: SetUINT32**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint32).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Константа GUID для этого атрибута экспортируется из мфууид. lib.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                         |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                            |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                         |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                            |
 | Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 

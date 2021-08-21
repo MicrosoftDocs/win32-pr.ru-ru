@@ -4,12 +4,12 @@ description: В этом разделе показано, как создать 
 ms.assetid: 0e290b37-0807-42c7-9e50-fd2db6affb14
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8355eafff6e233b89be82fd9e58ca53224248e84
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 71ef97b261d9831c451c8a81bfc1f4d9d13b1cd423ac28f38de4b90c1d4ae100
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413295"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118530576"
 ---
 # <a name="how-to-create-a-swap-chain"></a>Как создать цепочку буферов
 
@@ -32,7 +32,7 @@ ms.locfileid: "104413295"
 
 -   Используйте функцию [**D3D11CreateDevice**](/windows/desktop/api/D3D11/nf-d3d11-d3d11createdevice) , если цепь подкачки уже создана с помощью [**Идксгифактори:: креатесвапчаин**](/windows/desktop/api/dxgi/nf-dxgi-idxgifactory-createswapchain).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -42,6 +42,6 @@ ms.locfileid: "104413295"
 [Использование Direct3D 11](how-to-use-direct3d-11.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

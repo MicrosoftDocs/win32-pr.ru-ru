@@ -60,7 +60,7 @@ public bool IsUtc { get; }
 
 Тип: [System. Boolean](/dotnet/api/system.boolean)  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

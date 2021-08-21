@@ -4,12 +4,12 @@ ms.assetid: 61878317-ac87-4f6e-9375-12a78969e29e
 title: Действие ExecuteAction
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2970a0fb4e9297264071769ac7415cd2acf866b9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20555af337f8774aec6c58769f2235da97ae763e044665e407a8dc29e75de750
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104497793"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118636891"
 ---
 # <a name="executeaction-action"></a>Действие ExecuteAction
 
@@ -23,11 +23,11 @@ ms.locfileid: "104497793"
 
 Нет сообщений Актиондата.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Действие ExecuteAction выполняется с системными привилегиями, если служба установщика включена. Действия верхнего уровня, такие как [действие установки](install-action.md), [действие объявления](advertise-action.md)и [Административное действие](admin-action.md) , включают внутреннюю логику, определяющую, требуется ли выполнение вызова действия ExecuteAction или последовательности выполнения или пользовательского интерфейса.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

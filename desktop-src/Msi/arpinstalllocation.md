@@ -4,18 +4,18 @@ ms.assetid: f4635241-ac18-4bc5-b043-c6e42c0b456e
 title: АРПИНСТАЛЛЛОКАТИОН, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 69e4e94cf4eb07b00a5534bf9b8b366ef361c6e4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 011f77e79f3e2acd8abd7862e249c3a2daeab6c7b2b1b04d109352a1f8d4b08e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665074"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118639436"
 ---
 # <a name="arpinstalllocation-property"></a>АРПИНСТАЛЛЛОКАТИОН, свойство
 
 Свойство **арпинсталллокатион** — это полный путь к первичной папке приложения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обычно требуется задать настраиваемым действием.
 
@@ -25,7 +25,7 @@ ms.locfileid: "105665074"
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

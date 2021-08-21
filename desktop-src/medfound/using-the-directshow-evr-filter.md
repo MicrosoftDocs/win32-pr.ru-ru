@@ -1,23 +1,23 @@
 ---
-description: Использование фильтра Евр DirectShow
+description: использование DirectShow фильтра евр
 ms.assetid: 4d85aed0-4b11-4c5f-bfc0-cad0a7d2f490
-title: Использование фильтра Евр DirectShow
+title: использование DirectShow фильтра евр
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02568a5ea9cbaa0310409a5a0966a2bea1bbfffe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3bc454b6d298546afdbb5a06b7081505d9ddd7c2ab87a816e79bdb13836e9a51
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118737317"
 ---
-# <a name="using-the-directshow-evr-filter"></a>Использование фильтра Евр DirectShow
+# <a name="using-the-directshow-evr-filter"></a>использование DirectShow фильтра евр
 
 Чтобы создать расширенный фильтр модуля подготовки видео (Евр), вызовите **CoCreateInstance**. CLSID — это CLSID \_ енханцедвидеорендерер, определенный в UUID. h. Для использования фильтра Евр не нужно вызывать [**мфстартуп**](/windows/desktop/api/mfapi/nf-mfapi-mfstartup) или [**мфшутдовн**](/windows/desktop/api/mfapi/nf-mfapi-mfshutdown) .
 
-Дополнительные сведения об использовании фильтра Евр в приложении DirectShow см. [в статье воспроизведение звука и видео в DirectShow](../directshow/audio-video-playback-in-directshow.md).
+дополнительные сведения об использовании фильтра евр в приложении DirectShow см. [в разделе воспроизведение звука и видео в DirectShow](../directshow/audio-video-playback-in-directshow.md).
 
-Фильтр Евр начинается с одного входного ПИН-кода, который соответствует потоку ссылок. Чтобы добавить контакты для вложенных потоков, запросите фильтр для интерфейса [**иеврфилтерконфиг**](/windows/desktop/api/evr/nn-evr-ievrfilterconfig) и вызовите [**Иеврфилтерконфиг:: сетнумберофстреамс**](/windows/desktop/api/evr/nf-evr-ievrfilterconfig-setnumberofstreams). Вызовите этот метод перед подключением входных ПИН-кодов. ПИН-код 0 всегда является ссылочным потоком. Подключайте этот ПИН-код перед любыми другими контактами, так как формат ссылочного потока может ограничить доступные форматы подпотока.
+Фильтр Евр начинается с одного входного ПИН-кода, который соответствует потоку ссылок. Чтобы добавить контакты для вложенных потоков, запросите фильтр для интерфейса [**иеврфилтерконфиг**](/windows/desktop/api/evr/nn-evr-ievrfilterconfig) и вызовите [**Иеврфилтерконфиг:: сетнумберофстреамс**](/windows/desktop/api/evr/nf-evr-ievrfilterconfig-setnumberofstreams). Вызовите этот метод перед подключением входных ПИН-кодов. ПИН-код 0 всегда является ссылочным потоком. Подключение этот пин-код перед любыми другими контактами, так как формат ссылочного потока может ограничить доступные форматы подпотока.
 
 Перед запуском графа задайте окно обрезки видео и прямоугольник назначения. Дополнительные сведения см. [в разделе Использование элементов управления отображением видео](using-the-video-display-controls.md).
 
@@ -29,7 +29,7 @@ ms.locfileid: "105683212"
 
 ## <a name="filter-interfaces"></a>Интерфейсы фильтра
 
-Фильтр Евр предоставляет следующие интерфейсы. Некоторые из этих интерфейсов описаны в пакете SDK для DirectShow. Используйте **QueryInterface** для получения указателей на эти интерфейсы:
+Фильтр Евр предоставляет следующие интерфейсы. некоторые из этих интерфейсов описаны в пакете SDK для DirectShow. Используйте **QueryInterface** для получения указателей на эти интерфейсы:
 
 -   [**Иамцертифиедаутпутпротектион**](/windows/win32/api/strmif/nn-strmif-iamcertifiedoutputprotection) (DirectShow)
 -   [**Иамфилтермискфлагс**](/windows/win32/api/strmif/nn-strmif-iamfiltermiscflags) (DirectShow)
@@ -59,7 +59,7 @@ ms.locfileid: "105683212"
 
 -   [**идиректксвидеомемориконфигуратион**](/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideomemoryconfiguration)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

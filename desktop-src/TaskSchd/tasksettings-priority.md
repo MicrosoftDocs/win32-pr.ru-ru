@@ -70,7 +70,7 @@ TaskSettings.Priority As Integer
 
 При чтении или записи XML для задачи этот параметр указывается в элементе [**Priority (сеттингстипе)**](taskschedulerschema-priority-settingstype-element.md) схемы планировщик задач.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -83,7 +83,7 @@ TaskSettings.Priority As Integer
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

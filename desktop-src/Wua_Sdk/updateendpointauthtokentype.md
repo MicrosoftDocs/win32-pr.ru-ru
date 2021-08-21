@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - UpdateEndpointAuth.h
-ms.openlocfilehash: c978841511b7cfff895a15936a41d169a8500927
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b9e3efbff48097dcede12d5c8d3117171ef622f20a3bf017b12c6d3ce13a1c00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105710897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118814716"
 ---
 # <a name="updateendpointauthtokentype-enumeration"></a>Перечисление Упдатиндпоинтаустокентипе
 
@@ -54,15 +54,15 @@ typedef enum tagUpdateEndpointAuthTokenType {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                              |
-| Header<br/>                   | <dl> <dt>Упдатиндпоинтаус. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                        |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                              |
+| Заголовок<br/>                   | <dl> <dt>Упдатиндпоинтаус. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Упдатиндпоинтаус. idl</dt> </dl> |
 
 

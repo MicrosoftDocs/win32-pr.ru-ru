@@ -4,12 +4,12 @@ description: Вычисление частоты изменения компон
 ms.assetid: 5752C85B-2965-489C-BF27-968FAF5EAA52
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 73061e3220704cf2c19e28b4d6d434fda43fb941
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: f6666750be76d673ddc6c5f0d66d23131096812c93b71be52eb7e0f6ebb403ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104998171"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118792660"
 ---
 # <a name="deriv_rtx_fine-sm5---asm"></a>наследование \_ RTX \_ прекрасно (SM5-ASM)
 
@@ -35,7 +35,7 @@ ms.locfileid: "104998171"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта инструкция оценивает скорость изменения содержимого каждого компонента float32 класса *src0* (POST-свиззле) с точки зрения рендертаржет x Direction (RTX) или рендертаржет y (см. статью о [наследовании \_ РТИ \_](deriv-rty-fine--sm5---asm-.md)). Каждый пиксель в отметке 2x2 получает уникальную пару вычислений, производных от x/y.
 
@@ -47,7 +47,7 @@ ms.locfileid: "104998171"
 
 
 
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
+| Вершина | Поверхности | Домен | Геометрия | Пиксель | Службы вычислений |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | X     |         |
 
@@ -63,7 +63,7 @@ ms.locfileid: "104998171"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
 | [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Нет        |
 | [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Нет        |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
@@ -74,7 +74,7 @@ ms.locfileid: "104998171"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

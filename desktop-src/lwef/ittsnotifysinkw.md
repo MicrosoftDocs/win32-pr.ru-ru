@@ -4,24 +4,24 @@ description: иттснотифисинкв
 ms.assetid: 6305dad6-c162-458a-899e-628f6486680e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5820f262779f86deeeca9982d0551b16d3a3406
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: f86cedf8c4a349da800f34f2f6acd7266f9cd0c3c383be9accb72dd162df8e7e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104412585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118748712"
 ---
 # <a name="ittsnotifysinkw"></a>иттснотифисинкв
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 Подсистема должна вызывать [**аудиостоп**](https://www.bing.com/search?q=**AudioStop**), [**аудиостарт**](https://www.bing.com/search?q=**AudioStart**)и [**Visual**](https://www.bing.com/search?q=**Visual**). **Визуальный** обратный вызов должен предоставлять IPA фонемы. (Международный фонетический алфавит \[ IPA \] — это универсальная нотация для описания фонетического содержимого речевого взаимодействия. Все произношенные фонемы имеют представления в IPA. Подробные сведения о IPA приведены в спецификации Microsoft Speech API, которая \[ входит в состав пакета SDK для для распознавания речи 4,0 \] [https://www.microsoft.com/speech/](https://msdn.microsoft.com/library/ee705648.aspx) .)
 
 Хотя [**визуальное**](https://www.bing.com/search?q=**Visual**) уведомление является довольно широким, Microsoft Agent использует только значение **Ципафонеме** для анимации рот в качестве символа. Любой модуль, совместимый с Microsoft Agent, должен обеспечивать тесно синхронизированный поток **визуальных** уведомлений, отражающих фонетическое содержимое созданного utterance. В этом случае «относительное своевременное уведомление» неадекватно, так как слышать-динамики весьма чувствительны к несоответствиям между положением и акустическим содержимым. **Визуальные** уведомления должны возвращаться быстро.
 
- 
+ 
 
- 
+ 
 
 
 

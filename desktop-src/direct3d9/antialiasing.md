@@ -4,12 +4,12 @@ ms.assetid: e5931c95-1de7-4b41-bc15-f07f8654df2d
 title: Сглаживание (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b27bece24ef5d058e26cbff5ce848150852c1323
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 29acf7bbd5aa769fda99d2665b696398f86cbd1865dbe7a16ab1b6b6adfd1085
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104142127"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118806379"
 ---
 # <a name="antialiasing-direct3d-9"></a>Сглаживание (Direct3D 9)
 
@@ -18,7 +18,7 @@ ms.locfileid: "104142127"
 -   [Сглаживание с полным монтажом](full-scene-antialiasing.md)
 -   [Размытие движения](motion-blur.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

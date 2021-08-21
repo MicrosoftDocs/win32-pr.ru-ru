@@ -4,12 +4,12 @@ ms.assetid: 089f42f2-1e5b-4d4b-98a4-9ef0ca2823c1
 title: Видео о YUV
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b57b4a453870af34c221683bdaf613b5038081d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3499a8adfe1a43a22fe9bdd9ff4e576b7a14c398a9dafc0b945647d7225ad581
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104541375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118744251"
 ---
 # <a name="about-yuv-video"></a>Видео о YUV
 
@@ -91,7 +91,7 @@ ms.locfileid: "104541375"
 
 
 
-| Цвет   | R   | G   | B   | &  | CB  | Cr  |
+| Color   | R   | G   | B   | &  | CB  | Cr  |
 |---------|-----|-----|-----|-----|-----|-----|
 | Черный   | 0   | 0   | 0   | 16  | 128 | 128 |
 | Красный     | 255 | 0   | 0   | 81  | 90  | 240 |
@@ -114,7 +114,7 @@ ms.locfileid: "104541375"
 -   Гнездо Кит. Секреты видео, пятый выпуск. Невнес, 2007.
 -   Чарльз A. Пойнтон. Техническое введение в цифровое видео. Wiley, 1996.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

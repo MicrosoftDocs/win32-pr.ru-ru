@@ -3,8 +3,8 @@ title: Перечисление MPSTATUS_FLAG (Мпклиент. h)
 description: Возможные общие битовые флаги состояния продукта.
 ms.assetid: BF2E6506-E76A-4785-8E91-99937B413548
 keywords:
-- MPSTATUS_FLAG перечисления устаревшие функции среды Windows
-- PMPSTATUS_FLAG указателя перечисления устаревшие функции среды Windows
+- MPSTATUS_FLAG перечисления устаревших Windows компонентов среды
+- PMPSTATUS_FLAGные компоненты среды Windows указателя перечисления
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c7175980c09c63938be04626091c31b53335756
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4d850f0e8de9a3b0ed18a1a1353dfdef40d41bcb1ce4d17265ec245e82ba73f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105661885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118747038"
 ---
 # <a name="mpstatus_flag-enumeration"></a>\_Перечисление флагов мпстатус
 
@@ -168,7 +168,7 @@ typedef enum tagMPSTATUS_FLAG {
 <span id="MP_STATUS_FLAG_NONGENUINE"></span><span id="mp_status_flag_nongenuine"></span>**флаг состояния пакета управления — \_ \_ \_ неподлинная**
 </dt> <dd>
 
-Продукт работает в режиме Windows без подлинности.
+продукт работает в режиме Windows без подлинности.
 
 </dd> <dt>
 
@@ -262,8 +262,8 @@ typedef enum tagMPSTATUS_FLAG {
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
 
 
