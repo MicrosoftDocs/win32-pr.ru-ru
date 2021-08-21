@@ -4,12 +4,12 @@ description: При получении \_ сообщения WM GetObject, со�
 ms.assetid: 455398b7-f748-4ab0-8953-3f74439e44f1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6223d75339f537ccf1939f9c9af46a42aa47bfdb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 02f066ee42ffaeee2d585ac5480e5af31acf14c87ba9994d3d338b65e6cf427a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103777252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052731"
 ---
 # <a name="how-to-handle-wm_getobject"></a>Как работать с WM \_ GetObject
 
@@ -26,13 +26,13 @@ ms.locfileid: "103777252"
 > [!Note]  
 > В этом разделе, как и в оставшейся части документации, при обсуждении указателя на интерфейс [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) этот указатель может фактически быть указателем на прокси-объект, который заключает в оболочку интерфейс **IAccessible** . Дополнительные сведения об объектах прокси см. в разделе [Создание прокси-объектов](creating-proxy-objects.md).
 
- 
+ 
 
 Общие сведения о [**WM \_ GetObject**](wm-getobject.md)см. в статье [как \_ работает WM GetObject](how-wm-getobject-works.md).
 
- 
+ 
 
- 
+ 
 
 
 

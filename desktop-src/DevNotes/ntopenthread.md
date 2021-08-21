@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Ntdll.dll
-ms.openlocfilehash: 8c1b64d2e024f3905d171ab5ca90e59df929ffc0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e5f459b12d90a12b7c75aabd44d25f6fcf352aff8914e6d991471acaee400260
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648751"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120079694"
 ---
 # <a name="ntopenthread-function"></a>Функция Нтопенсреад
 
-\[Эта функция может быть изменена или удалена из Windows без предварительного уведомления. Вместо этого используйте функцию [**опенсреад**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-openthread) .\]
+\[эта функция может быть изменена или удалена из Windows без предварительного уведомления. Вместо этого используйте функцию [**опенсреад**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-openthread) .\]
 
 Открывает обработчик для объекта потока с указанным доступом.
 
@@ -82,11 +82,11 @@ NTSTATUS NtOpenThread(
 
 Формы и значения кодов ошибок **NTSTATUS** перечислены в файле заголовка NTSTATUS. h, доступном в WDK, и описаны в документации по WDK.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция не имеет связанного файла заголовка. Связанная библиотека импорта, NTDLL. lib, доступна в WDK. Можно также использовать функции [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) для динамической привязки к Ntdll.dll.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

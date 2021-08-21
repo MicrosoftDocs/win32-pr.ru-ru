@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b90d068da3b8dca1bbcae361d1dbacafcf44464
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3993c3f3680dca46d2f880705fae44812a3bb5fd7a046084c1d818c3433ea7f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989094"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082388"
 ---
 # <a name="iadsnametranslate-property-methods"></a>Методы свойств Иадснаметранслате
 
@@ -59,7 +59,7 @@ HRESULT put_ChaseReferral(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Параметры прослеживания ссылок применяются только при использовании [**иадснаметранслате:: Set**](/windows/desktop/api/Iads/nf-iads-iadsnametranslate-set) и [**Иадснаметранслате:: Get**](/windows/desktop/api/Iads/nf-iads-iadsnametranslate-get). Эта функция недоступна в [**иадснаметранслате:: сетекс**](/windows/desktop/api/Iads/nf-iads-iadsnametranslate-setex) или [**Иадснаметранслате:: жетекс**](/windows/desktop/api/Iads/nf-iads-iadsnametranslate-getex).
 
@@ -67,7 +67,7 @@ HRESULT put_ChaseReferral(
 
 Включен параметр по умолчанию для прослеживания ссылок (**баннеры \_ \_ \_ всегда отслеживаются по ссылкам**). Без прослеживания ссылок можно выполнять преобразование имен для объектов, размещенных только на сервере подключенного каталога. Если вы не уверены, что нужный объект находится на указанном сервере, следует задать это свойство как **баннеры \_ \_ \_ всегда**.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -75,13 +75,13 @@ HRESULT put_ChaseReferral(
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
-| Header<br/>                   | <dl> <dt>IAds. h</dt> </dl>       |
+| Заголовок<br/>                   | <dl> <dt>IAds. h</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl> |
 | IID<br/>                      | IID \_ иадснаметранслате определен как B1B272A3-3625-11D1-A3A4-00C04FB950DC<br/>    |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -3,9 +3,9 @@ title: Ивмпмедиа Маркеркаунт, свойство
 description: Свойство Маркеркаунт возвращает количество маркеров в элементе мультимедиа.
 ms.assetid: d1ccaa9b-98fb-4c53-8064-ee4bf718d18a
 keywords:
-- Проигрыватель Windows Media для свойства Маркеркаунт
-- Маркеркаунт свойство проигрывателя Windows Media Player, интерфейс Ивмпмедиа
-- Интерфейс Ивмпмедиа Windows Media Player, свойство Маркеркаунт
+- проигрыватель Windows Media свойства маркеркаунт
+- проигрыватель Windows Media свойства маркеркаунт, интерфейс ивмпмедиа
+- проигрыватель Windows Media интерфейса ивмпмедиа, свойство маркеркаунт
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bdad591d8be66dcd20bc5e59d206a637d9b1181f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8afbc402858452c987bb6f2dcce0e1ad0428b8c67b81d2369de2a8cdbc6a7dd6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669242"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053632"
 ---
 # <a name="iwmpmediamarkercount-property"></a>Свойство Ивмпмедиа:: Маркеркаунт
 
@@ -51,7 +51,7 @@ Public ReadOnly Property markerCount As System.Int32
 
 Значение **System. Int32** , которое является счетчиком маркеров.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство возвращает нуль, если файл не имеет маркеров, или если элемент мультимедиа не совпадает с указанным в Аксвиндовсмедиаплайер. Куррентмедиа.
 
@@ -116,19 +116,19 @@ End If
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

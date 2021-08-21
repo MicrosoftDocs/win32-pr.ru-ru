@@ -4,12 +4,12 @@ ms.assetid: 65a7ae86-b426-4dd4-8cf5-f905dc2a1727
 title: Обновление файлов и атрибутов файлов для обновления
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6c1d749a61376d38e8c7793ba5766dd63133bc5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a2c56560432a18746b31e3bb983be1f465199c51b15601c3dfd47911fe7f6ab4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105651218"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119809894"
 ---
 # <a name="updating-files-and-file-attributes-for-an-upgrade"></a>Обновление файлов и атрибутов файлов для обновления
 
@@ -19,7 +19,7 @@ ms.locfileid: "105651218"
 
 
 
-| Файл         | Компонент\_ | FileName     | FileSize | Версия | Язык | Атрибуты | Последовательность |
+| File         | Компонент\_ | FileName     | FileSize | Версия | Язык | Атрибуты | Последовательность |
 |--------------|-------------|--------------|----------|---------|----------|------------|----------|
 | Baseba01.txt | Команды    | Baseba01.txt | 1000     |         |          | 0          | 1        |
 | Concer01.txt | Концерт     | Concer01.txt | 1000     |         |          | 0          | 1        |

@@ -1,6 +1,6 @@
 ---
 title: атрибут MS-PKI-Credential-роуминг-tokens
-description: Хранение зашифрованных BLOB-объектов маркера учетных данных пользователя для роуминга. | атрибут MS-PKI-Credential-роуминг-tokens
+description: служба хранилища зашифрованных blob-объектов маркера учетных данных пользователя для роуминга. | атрибут MS-PKI-Credential-роуминг-tokens
 ms.assetid: 35500e2b-7922-47c9-a9dd-e76ea6fd4313
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c35a0f949fd69aaad18db3b1cf965d808581c86
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 10c13392807c2c23b13d046a49e4b859964f1dc894b1024e8fa42f800892b303
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105656773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119081648"
 ---
 # <a name="ms-pki-credential-roaming-tokens-attribute"></a>атрибут MS-PKI-Credential-роуминг-tokens
 
-Хранение зашифрованных BLOB-объектов маркера учетных данных пользователя для роуминга.
+служба хранилища зашифрованных blob-объектов маркера учетных данных пользователя для роуминга.
 
 
 
@@ -43,7 +43,7 @@ ms.locfileid: "105656773"
 ## <a name="implementations"></a>Варианты реализации решения
 
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## <a name="windows-server-2008-r2"></a>Windows Server 2008 R2
 
@@ -53,16 +53,16 @@ ms.locfileid: "105656773"
 |------------------------|-----------------------------------|
 | Идентификатор ссылки                | 2162                              |
 | MAPI-Id                | \-                                |
-| System-Only            | Неверно                             |
-| Является однозначным       | Неверно                             |
-| Индексируется             | Неверно                             |
-| В глобальном каталоге      | Неверно                             |
+| System-Only            | Нет                             |
+| Является однозначным       | Нет                             |
+| Индексируется             | Нет                             |
+| В глобальном каталоге      | Нет                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                      |
 | Range-Lower            | \-                                |
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000080                        |
 | System-Flags           | 0x00000010                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -74,10 +74,10 @@ ms.locfileid: "105656773"
 |------------------------|-----------------------------------|
 | Идентификатор ссылки                | 2162                              |
 | MAPI-Id                | \-                                |
-| System-Only            | Неверно                             |
-| Является однозначным       | Неверно                             |
-| Индексируется             | Неверно                             |
-| В глобальном каталоге      | Неверно                             |
+| System-Only            | Нет                             |
+| Является однозначным       | Нет                             |
+| Индексируется             | Нет                             |
+| В глобальном каталоге      | Нет                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                      |
 | Range-Lower            | \-                                |
 | Range-Upper            | \-                                |

@@ -1,19 +1,19 @@
 ---
-description: В этих разделах описывается начальная загрузка установщик Windows.
+description: в этих разделах описывается начальная загрузка установщик Windows.
 ms.assetid: 122ea601-68a1-43c0-a8d1-42a881401ee1
-title: Начальная загрузка установщик Windows
+title: Windows Начальная загрузка установщика
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23a6e272f9f7cd8a8e307d5dde6f799e85618a92
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e5a1a466b2046e27313a8a5d3845c9514178b8cc932966d4bdfcac1f5523b459
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105673971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808904"
 ---
-# <a name="windows-installer-bootstrapping"></a>Начальная загрузка установщик Windows
+# <a name="windows-installer-bootstrapping"></a>Windows Начальная загрузка установщика
 
-[Начальной загрузки](bootstrapping.md)
+[Начальная загрузка](bootstrapping.md)
 
 [Начальная загрузка со скачиванием из Интернета](internet-download-bootstrapping.md)
 

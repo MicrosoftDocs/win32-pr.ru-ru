@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7aeb97bb16a1e3c4c29d1dfb1a5320c02f44404d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8da90b8e592f8cd9d1702c7810990042b3929ef40e70814e8fb7d3326d902cb4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071730"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082234"
 ---
 # <a name="glbitmap-function"></a>Функция Глбитмап
 
@@ -112,7 +112,7 @@ void WINAPI glBitmap(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Точечный рисунок представляет собой двоичное изображение. При рисовании точечный рисунок располагается относительно текущей позиции растрового изображения, а буфера кадров Пиксели, соответствующие 1 в точечном рисунке, записываются с использованием текущего растрового цвета или индекса. Буферы кадров, соответствующие нулевым значениям в точечном рисунке, не изменяются.
 
@@ -148,7 +148,7 @@ void WINAPI glBitmap(
 
 **глжет** с аргументом \_ текущей \_ точечной \_ позицией GL \_ допустимо
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -162,7 +162,7 @@ void WINAPI glBitmap(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

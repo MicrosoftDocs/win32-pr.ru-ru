@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: ee241b39f2d0c1939cf2cb0cc09e079abd3430a3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9daa65558c58849d406056ce3358c26fdf2ce1c604342f993babe6af553d130f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119629654"
 ---
 # <a name="id3dxlinebegin-method"></a>Метод ID3DXLine:: Begin
 
@@ -44,7 +44,7 @@ HRESULT Begin();
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК. В случае сбоя метода возвращаемое значение может быть одним из следующих: D3DERR \_ инвалидкалл, D3DXERR \_ INVALIDDATA.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Вызов **ID3DXLine:: Begin** является необязательным. Если вызывается за пределами последовательности ID3DXLine:: Begin/ID3DXLine:: end, функции рисования будут внутренним вызовом ID3DXLine:: Begin и ID3DXLine:: end. Чтобы избежать дополнительных издержек, следует использовать этот метод, если несколько функций рисования будут вызываться последовательно.
 
@@ -52,18 +52,18 @@ HRESULT Begin();
 
 ID3DXLine:: Begin не может использоваться в качестве замены для [**IDirect3DDevice9:: бегинсцене**](/windows/desktop/api) или [**ID3DXRenderToSurface:: бегинсцене**](id3dxrendertosurface--beginscene.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9core. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9core. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 686b0875-c7ec-45ee-bd3e-94bfd9e5dcda
 title: Реализация Ивикбитмапкодекпрогресснотификатион (декодер)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f92f05f02e77886d96d794be3f974c1eb0eed9dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ff9af6bbd8c0457a5bf97f2f8b378cdeaca9269e792f7ed4696ab8e6a23b89a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712039"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119088066"
 ---
 # <a name="implementing-iwicbitmapcodecprogressnotification-decoder"></a>Реализация Ивикбитмапкодекпрогресснотификатион (декодер)
 
@@ -122,7 +122,7 @@ typedef HRESULT (*PFNProgressNotification) (
 [Написание WIC-Enabled КОДЕка](-wic-howtowriteacodec.md)
 </dt> <dt>
 
-[Общие сведения о компоненте создания образов Windows](-wic-about-windows-imaging-codec.md)
+[Windows Общие сведения о компонентах обработки изображений](-wic-about-windows-imaging-codec.md)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ ms.assetid: 8a6aa39c-ec81-42ac-a26e-29f1f6960220
 title: Настройка и запуск сеанса трассировки событий
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f86ec57975e8f12ede17e5e2cda962c010aa1af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1650e503b8c54108d58f6e7cebda546eb9d9e32d8ef014da0c27e5d062af4567
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104986136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963164"
 ---
 # <a name="configuring-and-starting-an-event-tracing-session"></a>Настройка и запуск сеанса трассировки событий
 
@@ -17,7 +17,7 @@ ms.locfileid: "104986136"
 
 После указания свойств сеанса вызовите функцию [**старттраце**](/windows/win32/api/evntrace/nf-evntrace-starttracea) , чтобы запустить сеанс. Если функция выполнена, параметр *сессионхандле* будет содержать обработчик сеанса, а свойство **логжернамеоффсет** будет содержать смещение к имени сеанса.
 
-Чтобы включить поставщиков, которые будут регистрировать события в сеансе, вызовите функцию [**енаблетраце**](/windows/win32/api/evntrace/nf-evntrace-enabletrace) , чтобы включить классические поставщики и функцию [**енаблетрацеекс**](/windows/win32/api/evntrace/nf-evntrace-enabletraceex) для включения поставщиков [на основе манифеста](about-event-tracing.md) . Чтобы включить поставщиков, которые должны записывать события в журнал при фильтрации сеанса при определенных условиях Windows 8.1, Windows Server 2012 R2 и более поздних версиях, вызовите функцию [**EnableTraceEx2**](/windows/win32/api/evntrace/nf-evntrace-enabletraceex2) .
+Чтобы включить поставщиков, которые будут регистрировать события в сеансе, вызовите функцию [**енаблетраце**](/windows/win32/api/evntrace/nf-evntrace-enabletrace) , чтобы включить классические поставщики и функцию [**енаблетрацеекс**](/windows/win32/api/evntrace/nf-evntrace-enabletraceex) для включения поставщиков [на основе манифеста](about-event-tracing.md) . чтобы включить поставщиков, которые должны записывать события в журнал при фильтрации сеанса при определенных условиях Windows 8.1, Windows Server 2012 R2 и более поздних версиях, вызовите функцию [**EnableTraceEx2**](/windows/win32/api/evntrace/nf-evntrace-enabletraceex2) .
 
 Кроме того, можно также отслеживать дополнительные сведения о событии с помощью вызова функции [**трацесетинформатион**](/windows/win32/api/evntrace/nf-evntrace-tracesetinformation) . **Трацесетинформатион** помещает дополнительные сведения о трассировке в раздел расширенных данных события и может включать такие сведения, как сведения о версии трассировки или о том, какие поставщики в настоящее время зарегистрированы в системе. Дополнительные сведения см. в разделе [Получение дополнительных данных трассировки событий](retrieving-additional-event-tracing-data.md).
 
@@ -25,7 +25,7 @@ ms.locfileid: "104986136"
 
 Вы можете использовать любую из трех функций для включения поставщика, но при использовании [**енаблетраце**](/windows/win32/api/evntrace/nf-evntrace-enabletrace) для включения поставщика на основе манифеста можно потерять функциональность, так как вы не сможете предоставить значение матчаллкэйворд, указать расширенные элементы данных для включения в событие или предоставить данные фильтра, определенные поставщиком. Дополнительные сведения см. в разделе "Примечания" каждой функции.
 
-В Windows 8.1, в Windows Server 2012 R2 и более поздних версиях фильтры анализа полезных данных события, области действия и стека могут использоваться функцией [**EnableTraceEx2**](/windows/win32/api/evntrace/nf-evntrace-enabletraceex2) , [**а \_ \_ параметры включения трассировки**](/windows/win32/api/evntrace/ns-evntrace-enable_trace_parameters) и [**\_ \_ дескриптора фильтра событий**](/windows/desktop/api/Evntprov/ns-evntprov-event_filter_descriptor) — для фильтрации по конкретным условиям сеанса ведения журнала. Дополнительные сведения о фильтрах полезных данных событий см. в статьях функции [**тдхкреатепайлоадфилтер**](/windows/desktop/api/Tdh/nf-tdh-tdhcreatepayloadfilter)и [**тдхаггрегатепайлоадфилтерс**](/windows/desktop/api/Tdh/nf-tdh-tdhaggregatepayloadfilters) , а также структуры [**\_ \_ предикатов**](/windows/desktop/api/Tdh/ns-tdh-payload_filter_predicate) **включения \_ трассировки \_**, **\_ \_ дескриптора фильтра событий** и фильтра полезных данных.
+в Windows 8.1, Windows Server 2012 R2 и более поздних версиях фильтры анализа полезных данных события, области и стека могут использоваться функцией [**EnableTraceEx2**](/windows/win32/api/evntrace/nf-evntrace-enabletraceex2) , а [**параметры включения \_ трассировки \_**](/windows/win32/api/evntrace/ns-evntrace-enable_trace_parameters) и [**\_ \_ дескриптора фильтра событий**](/windows/desktop/api/Evntprov/ns-evntprov-event_filter_descriptor) — для фильтрации конкретных условий в сеансе ведения журнала. Дополнительные сведения о фильтрах полезных данных событий см. в статьях функции [**тдхкреатепайлоадфилтер**](/windows/desktop/api/Tdh/nf-tdh-tdhcreatepayloadfilter)и [**тдхаггрегатепайлоадфилтерс**](/windows/desktop/api/Tdh/nf-tdh-tdhaggregatepayloadfilters) , а также структуры [**\_ \_ предикатов**](/windows/desktop/api/Tdh/ns-tdh-payload_filter_predicate) **включения \_ трассировки \_**, **\_ \_ дескриптора фильтра событий** и фильтра полезных данных.
 
 Чтобы определить уровень и ключевые слова, используемые для включения поставщика на основе манифеста, используйте одну из следующих команд:
 
@@ -58,7 +58,7 @@ ms.locfileid: "104986136"
 -   [Настройка и запуск сеанса глобального журнала](configuring-and-starting-the-global-logger-session.md)
 -   [Настройка и запуск закрытого сеанса ведения журнала](configuring-and-starting-a-private-logger-session.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

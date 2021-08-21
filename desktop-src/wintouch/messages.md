@@ -3,15 +3,15 @@ title: Сообщения (сенсорный ввод)
 description: В этом разделе содержатся сообщения для входных данных Мультисенсорная.
 ms.assetid: ba52b5de-3123-4094-9a3c-42765fccb85a
 keywords:
-- Касание Windows, сообщения
+- Windows Касание, сообщения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a22099bd40ae1dc4f67e50f57c8c4a801233bbd
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 1960c8bb22957a6882ecdcbdf9be49cde09fa6c93bed70cbb79e2b4e4fc3ba0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104071020"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810294"
 ---
 # <a name="messages-touch-input"></a>Сообщения (сенсорный ввод)
 
@@ -29,14 +29,14 @@ ms.locfileid: "104071020"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Сенсорный ввод Windows](multi-touch-input.md)
+[Windows Сенсорный ввод](multi-touch-input.md)
 </dt> <dt>
 
-[Справочное руководством по программированию ввода Windows Touch](guide-multi-touch-input.md)
+[Windows Руководств по программированию для сенсорного ввода](guide-multi-touch-input.md)
 </dt> </dl>
 
  
