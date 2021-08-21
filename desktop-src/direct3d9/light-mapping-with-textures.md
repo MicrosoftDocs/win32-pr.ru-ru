@@ -4,12 +4,12 @@ ms.assetid: ff2037e4-2cf6-4247-b93f-13f0078f3b58
 title: Светлое сопоставление с текстурами (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5652446562e4c66390d67e11fa624a4a5659b85
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: de583f7cd7f29404fd627811b0df22d584e8c752133d9e4cfc246a4b52157f4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105701139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118092908"
 ---
 # <a name="light-mapping-with-textures-direct3d-9"></a>Светлое сопоставление с текстурами (Direct3D 9)
 
@@ -25,12 +25,12 @@ ms.locfileid: "105701139"
 
 Сведения об использовании наложения текстур Direct3D для создания сопоставлений освещения представлены в следующих разделах.
 
--   [Монохромные карты светлого цвета (Direct3D 9)](monochrome-light-maps.md)
+-   [Карты монохромного освещения (Direct3D 9)](monochrome-light-maps.md)
 -   [Карты цветового освещения (Direct3D 9)](color-light-maps.md)
 -   [Карты отраженного освещения (Direct3D 9)](specular-light-maps.md)
--   [Рассеянные световые карты (Direct3D 9)](diffuse-light-maps.md)
+-   [рассеянный свет Карты (Direct3D 9)](diffuse-light-maps.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

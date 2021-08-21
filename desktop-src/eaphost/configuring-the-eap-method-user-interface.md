@@ -4,12 +4,12 @@ description: Описание настройки запрашивающей ст
 ms.assetid: f6a23201-e221-4098-863f-71a81735d927
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9b82debadc075b1fcc12dad06484c0fd3617874
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: a6709e68bf20d8f38d3685f66e45313083e70e46b1a8a0bb0675616bdb4e8bcb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "105710223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118086708"
 ---
 # <a name="configuring-the-eap-method-user-interface"></a>Настройка пользовательского интерфейса метода EAP
 
@@ -21,7 +21,7 @@ ms.locfileid: "105710223"
     > [!Note]  
     > С помощью этого параметра можно отфильтровать отображаемый список методов на основе бит свойств метода, указанных **в \_ методе EAP \_ info. еаппропертиес**. Некоторые методы могут быть не подходящими для характеристик безопасности транспорта, предоставляемого вызывающим объектом, например.
 
-     
+     
 
 2.  После заполнения элементом управления пользовательского интерфейса набора возможных методов EAP пользователь выбирает метод, который требуется настроить. Как правило, запрашивающая сторона предоставляет пользователю кнопку **конфигурации** или **свойств** , чтобы получить доступ к свойствам конфигурации выбранного метода EAP.
     > [!Note]
@@ -29,14 +29,14 @@ ms.locfileid: "105710223"
     >
     > Дополнительные сведения см. в разделе [**Свойства метода EAP**](eap-method-properties.md).
 
-     
+     
 
 3.  Когда пользователь щелкает соответствующий элемент управления пользовательского интерфейса, он вызывает [**еафостпиринвокеконфигуи**](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeconfigui), передавая в функцию значение **HWND** для собственного пользовательского интерфейса вызывающего объекта, структуру [**\_ \_ типа метода EAP**](/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_type) , полученную из запроса, в [**структуру \_ \_ сведений о методе EAP**](/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_info) и другие необходимые параметры.
 4.  Вызов [**еафостпиринвокеконфигуи**](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeconfigui) вызывает собственный пользовательский интерфейс конфигурации метода EAP. При возврате из **еафостпиринвокеконфигуи** функция возвращает BLOB-объект конфигурации метода EAP в качестве выходного параметра.
 5.  В качестве объекта-отправительа хранится большой двоичный объект конфигурации, а также структура [**\_ \_ типа метода EAP**](/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_type) для использования с [**еафостпирбегинсессион**](/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerbeginsession).
 6.  Точный метод хранения большого двоичного объекта конфигурацию полностью зависит от него. Однако этот объект всегда должен хранить конфигурацию в подходящем и безопасном способе, подходящем для данных конфигурации проверки подлинности системы и пользователя.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -55,9 +55,9 @@ ms.locfileid: "105710223"
 [EAPHost отправителей запросов](eaphost-supplicants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

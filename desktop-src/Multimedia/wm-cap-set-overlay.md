@@ -3,7 +3,7 @@ title: Сообщение WM_CAP_SET_OVERLAY (VFW. h)
 description: '\_ \_ \_ Сообщение наложения WM Cap Set включает или отключает режим наложения. В режиме наложения видео отображается с помощью наложения оборудования. Это сообщение можно отправить явно или с помощью макроса Каповерлай.'
 ms.assetid: b74c0619-2b70-46e0-9acd-43d658529233
 keywords:
-- WM_CAP_SET_OVERLAY сообщения Windows мультимедиа
+- сообщение WM_CAP_SET_OVERLAY Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f197ae3a7df9ad1520b84cf27fd15a1c76524ab1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 10f2161f3c163fb5f6c411293770a2b2ba3907bef7eb03aad2d67b0e0637abbf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118135096"
 ---
 # <a name="wm_cap_set_overlay-message"></a>\_ \_ \_ Сообщение наложения WM Cap Set
 
@@ -49,7 +49,7 @@ lParam = 0L;
 
 Возвращает **значение true** в случае успеха или **false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Использование оверлея не требует ресурсов ЦП.
 
@@ -57,7 +57,7 @@ lParam = 0L;
 
 Включение режима наложения автоматически отключает режим предварительного просмотра.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -69,7 +69,7 @@ lParam = 0L;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

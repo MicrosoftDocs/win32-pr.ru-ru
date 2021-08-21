@@ -57,7 +57,7 @@ retVal = Player.newMedia(
 
 Параметр *URL-адреса* не должен быть пустой строкой или иметь значение null.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -68,7 +68,7 @@ retVal = Player.newMedia(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

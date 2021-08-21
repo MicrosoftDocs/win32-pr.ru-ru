@@ -3,7 +3,7 @@ title: Сообщение TB_GETSTATE (Коммктрл. h)
 description: Получает сведения о состоянии указанной кнопки на панели инструментов, такие как включение, нажатие или проверка.
 ms.assetid: e8a9e1ff-506f-413b-8f8c-986c25bce736
 keywords:
-- Элементы управления Windows для TB_GETSTATE сообщений
+- элементы управления Windows сообщений TB_GETSTATE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b3b5c50978da78218be7f3d47208c0ea430ff36c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: de1757cfd71427904dc7060cc0084c64b82f143e1a8db666e40fe9e08c64c7ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891598"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118168240"
 ---
 # <a name="tb_getstate-message"></a>\_Сообщение о состоянии ТБ
 
@@ -43,15 +43,15 @@ ms.locfileid: "103891598"
 
 Возвращает сведения о состоянии кнопки, если они успешно, или значение-1 в противном случае. Сведения о состоянии кнопки могут представлять собой сочетание значений, перечисленных в поле [**состояния кнопки на панели инструментов**](toolbar-button-states.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

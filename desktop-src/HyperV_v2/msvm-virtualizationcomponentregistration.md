@@ -1,5 +1,5 @@
 ---
-description: Представляет регистрацию службы на Microsoft Hyper-Vной платформе.
+description: представляет регистрацию службы на Microsoft Hyper-Vной платформе.
 ms.assetid: 706557C2-49D6-453F-9DC0-2C655888EEBE
 title: Класс Msvm_VirtualizationComponentRegistration
 ms.topic: reference
@@ -15,16 +15,16 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 7e9704dcade0474a10ca60383280941ec2e3591b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c7acd111ab95f59146763e874d40c4efb411313938c94b1a4527aa1e2d08490c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118146558"
 ---
 # <a name="msvm_virtualizationcomponentregistration-class"></a>\_Класс мсвм виртуализатионкомпонентрегистратион
 
-Представляет регистрацию службы на Microsoft Hyper-Vной платформе.
+представляет регистрацию службы на Microsoft Hyper-Vной платформе.
 
 Следующий синтаксис представляет собой упрощенный код MOF-файл (MOF).
 
@@ -44,7 +44,7 @@ class Msvm_VirtualizationComponentRegistration
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ виртуализатионкомпонентрегистратион** имеет следующие свойства.
 
@@ -76,19 +76,19 @@ class Msvm_VirtualizationComponentRegistration
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Доступ к классу **\_ виртуализатионкомпонентрегистратион мсвм** может быть ограничен фильтром контроля учетных записей. Дополнительные сведения см. в разделе [Управление учетными записями пользователей и инструментарий WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
-| Окончание поддержки клиента<br/>    | Windows 8.1<br/>                                                                                  |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
+| Окончание поддержки клиента<br/>    | Windows 8.1<br/>                                                                                  |
 | Поддержка конца сервера<br/>    | Windows Server 2012 R2<br/>                                                                       |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |

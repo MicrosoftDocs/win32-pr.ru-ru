@@ -8,12 +8,12 @@ keywords:
 - Привязка AD для проверки подлинности
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb80bbca4604a99011d3198eaf6b3e871cd3f84c
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 87eb07e05b9f817d894c13d089cf9ec1291ca14b58b640c9a4c26ae9cff8c44d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104487512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118024225"
 ---
 # <a name="authentication-ad-ds"></a>Проверка подлинности (AD DS)
 
@@ -21,6 +21,6 @@ ms.locfileid: "104487512"
 
 Когда приложение привязывается к объекту в каталоге, права доступа, которые приложение имеет к этому объекту, основаны на пользовательском контексте, указанном во время операции привязки. Для функций привязки и методов [**адсжетобжект**](/windows/desktop/api/adshlp/nf-adshlp-adsgetobject), [**ADsOpenObject**](/windows/desktop/api/adshlp/nf-adshlp-adsopenobject), **GetObject**, [**иадсопендсобжект:: опендсобжект**](/windows/desktop/api/iads/nf-iads-iadsopendsobject-opendsobject)приложение может неявно использовать учетные данные вызывающей стороны, явно указывать учетные данные учетной записи пользователя или использовать пользовательский контекст без проверки подлинности (Guest).
 
- 
+ 
 
- 
+ 

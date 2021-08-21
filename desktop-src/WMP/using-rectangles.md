@@ -1,5 +1,5 @@
 ---
-title: Использование прямоугольников (Windows Media Player SDK)
+title: использование прямоугольников (проигрыватель Windows Media SDK)
 description: Использование прямоугольников
 ms.assetid: b3fc16b4-dc93-43c0-a97d-5234e36437c8
 keywords:
@@ -10,16 +10,16 @@ keywords:
 - Функция Render, прямоугольники
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b48f16888d8e71c052d216a838683f2b7127e75
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 79dd46928ccf8f8a0a465fa71fbb6b1bc1b4f48cbdb5c37b4b93ffd21c78c6b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "105701015"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118117299"
 ---
-# <a name="using-rectangles-windows-media-player-sdk"></a>Использование прямоугольников (Windows Media Player SDK)
+# <a name="using-rectangles-windows-media-player-sdk"></a>использование прямоугольников (проигрыватель Windows Media SDK)
 
-Прямоугольники используются для указания прямоугольных областей в Microsoft Windows. В окне можно создать множество прямоугольников, но проигрыватель Windows Media предоставляет значения одного прямоугольника с помощью функции [ивмпеффектс:: Render](/previous-versions/windows/desktop/api/effects/nf-effects-iwmpeffects-render) . Если подключаемый модуль визуализируется с помощью окна, прямоугольник является клиентской областью окна. Это называется прямоугольником КНР и определяет прямоугольник, который проигрыватель Windows Media будет отображать для визуализации. Часто используйте этот параметр, чтобы не выходить за пределы прямоугольника, предоставляемого проигрывателем Windows Media.
+Прямоугольники используются для указания прямоугольных областей в Microsoft Windows. в окне можно создать множество прямоугольников, но проигрыватель Windows Media предоставляет значения одного прямоугольника с помощью функции [ивмпеффектс:: Render](/previous-versions/windows/desktop/api/effects/nf-effects-iwmpeffects-render) . Если подключаемый модуль визуализируется с помощью окна, прямоугольник является клиентской областью окна. это называется прямоугольником кнр и определяет прямоугольник, который проигрыватель Windows Media будет отображать визуализацию с помощью. часто используйте этот параметр, чтобы не выходить за пределы прямоугольника, предоставляемого проигрыватель Windows Media.
 
 Прямоугольник имеет четыре значения, определяющие его. Они отображаются слева, сверху, справа и снизу. Верхний левый угол прямоугольника определяется левым и верхним, а нижний и правый угол прямоугольника определяется снизу и справа.
 
@@ -47,7 +47,7 @@ int bottomside = prc->bottom;
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -99,7 +99,7 @@ typedef [decode [ , type-attribute-list] ] type-name;
 
 Дополнительные сведения об использовании этой поддержки сериализации см. в разделе [службы сериализации](/windows/desktop/Rpc/serialization-services) и **\[** [**кодирование**](encode.md) **\]** .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

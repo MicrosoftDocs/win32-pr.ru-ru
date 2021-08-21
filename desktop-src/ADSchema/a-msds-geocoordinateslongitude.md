@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 036ff3b4088413f8641028c9c76e708a9a47c2ea
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 455b03e0f9122ab49353f5fff3dcd5e91cb70c4191ca11c83534456b8bd79891
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103893846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118426716"
 ---
 # <a name="ms-ds-geocoordinates-longitude-attribute"></a>MS-DS-геокоординаты — атрибут долготы
 
@@ -36,7 +36,7 @@ ms.locfileid: "103893846"
 | Частота обновления  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.2185              |
 | System-ID — GUID    | 94c42110-bae4-4cea-8577-af813af5da25 |
-| Синтаксис            | [**Пределах**](s-interval.md)       |
+| Синтаксис            | [**Интервал**](s-interval.md)       |
 
 
 
@@ -52,10 +52,10 @@ ms.locfileid: "103893846"
 |------------------------|------------------------------------------------------|
 | Идентификатор ссылки                | \-                                                   |
 | MAPI-Id                | \-                                                   |
-| System-Only            | Неверно                                                |
-| Является однозначным       | True                                                 |
-| Индексируется             | True                                                 |
-| В глобальном каталоге      | Неверно                                                |
+| System-Only            | Нет                                                |
+| Является однозначным       | Верно                                                 |
+| Индексируется             | Верно                                                 |
+| В глобальном каталоге      | Нет                                                |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                         |
 | Range-Lower            | \-                                                   |
 | Range-Upper            | \-                                                   |

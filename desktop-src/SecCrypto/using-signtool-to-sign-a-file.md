@@ -4,16 +4,16 @@ ms.assetid: fa8ee4d3-8927-4f7d-a09e-dbcf75a164d3
 title: Использование средства SignTool для подписания файла
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 089026cde629278e5c6ac033164c2a9d26528917
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a71d8e85e8e22f65ccbe8b5f15453b0a0cac34fc27697bad648b1c815f255b10
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117971474"
 ---
 # <a name="using-signtool-to-sign-a-file"></a>Использование средства SignTool для подписания файла
 
-Следующая команда подписывает файл с именем MyControl.exe с помощью [*сертификата*](../secgloss/c-gly.md) , хранящегося в файле обмена личной информацией (PFX):
+следующая команда подписывает файл с именем MyControl.exe, используя [*сертификат*](../secgloss/c-gly.md) , хранящийся в файле личных данных Exchange (PFX):
 
 <pre>SignTool sign /f <b>MyCert</b>.pfx MyControl.exe</pre>
 
@@ -35,11 +35,11 @@ ms.locfileid: "104155082"
 
  
 
-Следующая команда подписывает файл с помощью сертификата, расположенного в хранилище My, с именем субъекта издателя компании:
+Следующая команда подписывает файл с помощью сертификата, расположенного в хранилище My, с именем субъекта моей компании Publisher:
 
 <pre>SignTool sign /n "<b>My Company Publisher</b>" MyControl.exe</pre>
 
-Следующая команда подписывает элемент управления ActiveX и предоставляет сведения, отображаемые Internet Explorer, когда пользователю предлагается установить элемент управления:
+следующая команда подписывает элемент управления ActiveX и предоставляет сведения, отображаемые Internet Explorer, когда пользователю предлагается установить элемент управления:
 
 <pre>SignTool sign /f <b>MyCert</b>.pfx /d "<b>My Product Name</b>" /du <b>"https://www.example.com/myproductinfo.html"</b> MyControl.exe</pre>
 

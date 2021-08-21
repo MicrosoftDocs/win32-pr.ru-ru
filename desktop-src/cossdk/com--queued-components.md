@@ -4,12 +4,12 @@ ms.assetid: 810305ad-c7fb-4627-8ca7-de37c5bef2f5
 title: Компоненты в очереди COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43e05e78ed4cfafcc9a1b079d6ce25e08c6a5d0f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0462599cc0fcf28f7fc24bf675c6c71bcbdc6cc132ca7d92af05758842559ac1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104538612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118102828"
 ---
 # <a name="com-queued-components"></a>Компоненты в очереди COM+
 

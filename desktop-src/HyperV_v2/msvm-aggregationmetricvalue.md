@@ -27,12 +27,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: f6842e5a23fbbf7cf1d639862cf5b9737bc1ff96
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 512ed39ea86bad6c1cb89bdf6ace7d528a6605b378a8c026b889be655f5c0a70
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118149314"
 ---
 # <a name="msvm_aggregationmetricvalue-class"></a>\_Класс мсвм аггрегатионметриквалуе
 
@@ -69,7 +69,7 @@ class Msvm_AggregationMetricValue : CIM_AggregationMetricValue
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ аггрегатионметриквалуе** имеет следующие свойства.
 
@@ -127,7 +127,7 @@ class Msvm_AggregationMetricValue : CIM_AggregationMetricValue
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -247,7 +247,7 @@ class Msvm_AggregationMetricValue : CIM_AggregationMetricValue
 
 </dd> <dt>
 
-**Независимо**
+**Переменный**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **логический**
@@ -260,14 +260,14 @@ class Msvm_AggregationMetricValue : CIM_AggregationMetricValue
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

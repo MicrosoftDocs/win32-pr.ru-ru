@@ -377,7 +377,7 @@ Cleanup:
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -385,13 +385,13 @@ Cleanup:
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                  |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                            |
-| Header<br/>                   | <dl> <dt>IAds. h</dt> </dl>         |
+| Заголовок<br/>                   | <dl> <dt>IAds. h</dt> </dl>         |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl>   |
 | IID<br/>                      | IID \_ иадссекуритидескриптор определен как B8C787CA-9BDD-11D0-852C-00C04FD8D503<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

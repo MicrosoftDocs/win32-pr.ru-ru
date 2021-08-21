@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: ec7fb2da335ecd84889b75e81c850d16368f31eb
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e971248b5510ec59e904b51d12f8ee03e45132e64561315c13bb8f826f37c970
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104081934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118094586"
 ---
 # <a name="id3dxallocatehierarchy-interface"></a>Интерфейс ID3DXAllocateHierarchy
 
@@ -48,7 +48,7 @@ ms.locfileid: "104081934"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Тип LPD3DXALLOCATEHIERARCHY определяется как указатель на этот интерфейс.
 
@@ -66,12 +66,12 @@ typedef interface ID3DXAllocateHierarchy *LPD3DXALLOCATEHIERARCHY;
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9anim. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9anim. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
