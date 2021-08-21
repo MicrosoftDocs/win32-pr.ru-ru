@@ -25,12 +25,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fa2cf2099c5177be6f295ef6455646762525b26
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7b91bf70333d4ba7d607e465851f7f217aec43b0a081ec020017321fe30a7ede
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105717903"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118565069"
 ---
 # <a name="object-identifiers-winuserh"></a>Идентификаторы объектов (Winuser. h)
 
@@ -69,7 +69,7 @@ ms.locfileid: "105717903"
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

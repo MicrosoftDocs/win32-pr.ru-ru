@@ -1,9 +1,9 @@
 ---
 title: ПЛАЙЕРАППЛИКАТИОН. Плайердоккед, атрибут
-description: Атрибут Плайердоккед извлекает значение, указывающее, находится ли проигрыватель Windows Media в закрепленном состоянии.
+description: атрибут плайердоккед извлекает значение, указывающее, находится ли проигрыватель Windows Media в закрепленном состоянии.
 ms.assetid: 8b95da72-037b-4179-a564-fc9bc63368ac
 keywords:
-- Проигрыватель Windows Media ПЛАЙЕРАППЛИКАТИОН. Плайердоккед
+- плайераппликатион. плайердоккед проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 21abe3dd5cb14906db39e8eb50a1d18302a92ff6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a8e05d186ab8123dcd4a03eff6c282cec4f7884225d8271540eebb8dc2e73eba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118571791"
 ---
 # <a name="playerapplicationplayerdocked"></a>ПЛАЙЕРАППЛИКАТИОН. Плайердоккед
 
-Атрибут **плайердоккед** извлекает значение, указывающее, находится ли проигрыватель Windows Media в закрепленном состоянии.
+атрибут **плайердоккед** извлекает значение, указывающее, находится ли проигрыватель Windows Media в закрепленном состоянии.
 
 ``` syntax
         elementID.playerDocked
@@ -35,16 +35,16 @@ ms.locfileid: "105704451"
 
 | Значение | Описание                       |
 |-------|-----------------------------------|
-| True  | Проигрыватель Windows Media закреплен.   |
-| Неверно | Проигрыватель Windows Media не закреплен. |
+| True  | проигрыватель Windows Media закреплена.   |
+| Нет | проигрыватель Windows Media не закреплена. |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Этот атрибут используется только при удаленном взаимодействии с элементом управления проигрывателя Windows Media.
+этот атрибут используется только при удаленном взаимодействии с элементом управления проигрыватель Windows Media.
 
 ## <a name="requirements"></a>Требования
 
@@ -52,7 +52,7 @@ ms.locfileid: "105704451"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 

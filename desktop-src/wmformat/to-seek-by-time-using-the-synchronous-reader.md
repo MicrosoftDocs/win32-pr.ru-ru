@@ -10,12 +10,12 @@ keywords:
 - синхронные читатели, поиск по времени
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4a43e914a6fc0d320860db61f4747cbee3033e9
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: f74fb0cb4f73e70821347b82a9e5a2544eb9759e733fb164077b2fc007163db3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103788809"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118432637"
 ---
 # <a name="to-seek-by-time-using-the-synchronous-reader"></a>Поиск по времени с помощью синхронного модуля чтения
 
@@ -26,7 +26,7 @@ ms.locfileid: "103788809"
 1.  Укажите время и длительность выполнения образца доставки, вызвав [**ивмсинкреадер:: SetRange**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmsyncreader-setrange). Этот метод не требует указания номера потока, так как время представления каждого потока должно быть уже синхронизировано.
 2.  Начало извлечения образцов с вызовами метода [**ивмсинкреадер:: жетнекстсампле**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmsyncreader-getnextsample). Продолжайте работу, как обычно с синхронным модулем чтения.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -36,9 +36,9 @@ ms.locfileid: "103788809"
 [**Чтение файлов с помощью синхронного модуля чтения**](reading-files-with-the-synchronous-reader.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

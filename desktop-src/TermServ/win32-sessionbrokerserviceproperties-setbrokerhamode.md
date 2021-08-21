@@ -1,6 +1,6 @@
 ---
 title: Метод Сетброкерхамоде класса Win32_SessionBrokerServiceProperties
-description: Переносит данные из локальной базы данных WID в новую базу данных на основе SQL Server. Он также настраивает сервер брокера для использования центрального SQL Server.
+description: переносит данные из локальной базы данных WID в новую базу данных на основе сервера SQL. он также настраивает сервер брокера для использования центрального SQL сервера.
 ms.assetid: 8f14590d-3042-403c-a1cb-a3b257866284
 ms.tgt_platform: multiple
 keywords:
@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4526f8ded96086ccf223b3c8e5aad72d9e0262cc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 17b72233b51686911e4b1d0a661f4e46fa9bcaa813bb6ccc973b2f8a5b12da24
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135894"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118604553"
 ---
 # <a name="setbrokerhamode-method-of-the-win32_sessionbrokerserviceproperties-class"></a>Метод Сетброкерхамоде \_ класса Win32 сессионброкерсервицепропертиес
 
-Переносит данные из локальной базы данных WID в новую базу данных на основе SQL Server. Он также настраивает сервер брокера для использования центрального SQL Server.
+переносит данные из локальной базы данных WID в новую базу данных на основе сервера SQL. он также настраивает сервер брокера для использования центрального SQL сервера.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -58,7 +58,7 @@ uint32 SetBrokerHAMode(
 
 Вторичная строка подключения к центральной базе данных.
 
-**Windows server 2012 R2 и Windows server 2012:** Этот параметр недоступен до Windows Server 2016.
+**Windows Server 2012 R2 и Windows Server 2012:** Этот параметр недоступен до Windows Server 2016.
 
 </dd> <dt>
 
@@ -74,7 +74,7 @@ uint32 SetBrokerHAMode(
 
 Имя активного брокера.
 
-**Windows server 2012 R2 и Windows server 2012:** Этот параметр недоступен до Windows Server 2016.
+**Windows Server 2012 R2 и Windows Server 2012:** Этот параметр недоступен до Windows Server 2016.
 
 </dd> </dl>
 
@@ -85,7 +85,7 @@ uint32 SetBrokerHAMode(
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Ни одна версия не поддерживается<br/>                                                              |
-| Минимальная версия сервера<br/> | Windows Server 2012<br/>                                                         |
+| Минимальная версия сервера<br/> | Windows Server 2012<br/>                                                         |
 | Пространство имен<br/>                | Корневой \\ CIMv2 \\ терминалсервицес<br/>                                               |
 | MOF<br/>                      | <dl> <dt>Тссдвми. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TssdWmi.dll</dt> </dl> |

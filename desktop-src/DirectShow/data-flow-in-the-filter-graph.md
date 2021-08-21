@@ -1,33 +1,33 @@
 ---
-description: Поток данных в графе фильтра
+description: Flow данных в фильтре Graph
 ms.assetid: 3fcfd874-39bc-42d2-9fc9-2d8945ffa8e3
-title: Поток данных в графе фильтра
+title: Flow данных в фильтре Graph
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a38e0e730dd78e3a42a1121e4a63a053e6016402
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 2febb5ea43ab4707d01c8fec1fa2bed090d78aef07343bc8bc70464436f07368
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103895137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118654444"
 ---
-# <a name="data-flow-in-the-filter-graph"></a>Поток данных в графе фильтра
+# <a name="data-flow-in-the-filter-graph"></a>Flow данных в фильтре Graph
 
-В этом разделе описывается перемещение данных мультимедиа с помощью графа фильтра. Обычно вам не нужно знать эти сведения для написания приложения DirectShow, хотя в некоторых ситуациях это может оказаться полезным. Если вы пишете фильтр DirectShow, то необходимо понимать этот материал.
+В этом разделе описывается перемещение данных мультимедиа с помощью графа фильтра. обычно вам не нужно знать эти сведения для написания DirectShow приложения, хотя в некоторых ситуациях это может оказаться полезным. если вы пишете фильтр DirectShow, вам потребуется ознакомиться с этим материалом.
 
 В этом разделе рассматриваются следующие вопросы.
 
--   [Общие сведения о потоке данных в DirectShow](overview-of-data-flow-in-directshow.md)
+-   [общие сведения о Flow данных в DirectShow](overview-of-data-flow-in-directshow.md)
 -   [Транспорты](transports.md)
 -   [Примеры и Распределительы](samples-and-allocators.md)
 -   [Фильтрация состояний](filter-states.md)
 -   [Модель опроса](pull-model.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Поток данных для разработчиков фильтров](data-flow-for-filter-developers.md)
+[Flow данных для разработчиков фильтров](data-flow-for-filter-developers.md)
 </dt> </dl>
 
  

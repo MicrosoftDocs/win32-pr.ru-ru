@@ -26,12 +26,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 92735718e339a0caf33910dec703276aea946a67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a9cecb30265de4a86c3b6bd6b07d7047607349a74cef9da379fb384ca5a5dc9d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684698"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119524194"
 ---
 # <a name="msvm_ethernetswitchportaclsettingdata-class"></a>\_Класс мсвм есернетсвитчпортаклсеттингдата
 
@@ -67,7 +67,7 @@ class Msvm_EthernetSwitchPortAclSettingData : Msvm_EthernetSwitchPortFeatureSett
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ есернетсвитчпортаклсеттингдата** имеет следующие свойства.
 
@@ -165,7 +165,7 @@ class Msvm_EthernetSwitchPortAclSettingData : Msvm_EthernetSwitchPortFeatureSett
 
 </dd> <dt>
 
-**Квартал**
+**Сущности, к которым применяется триггер**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **Uint8**
@@ -204,7 +204,7 @@ class Msvm_EthernetSwitchPortAclSettingData : Msvm_EthernetSwitchPortFeatureSett
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -213,7 +213,7 @@ class Msvm_EthernetSwitchPortAclSettingData : Msvm_EthernetSwitchPortFeatureSett
 Тип доступа: только для чтения
 </dt> </dl>
 
-Краткое описание объекта. Это свойство наследуется от [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)и всегда имеет значение "параметры ACL порта коммутатора Ethernet".
+Краткое описание объекта. это свойство наследуется от [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)и всегда имеет значение "ACL порта коммутатора Ethernet Параметры".
 
 </dd> <dt>
 
@@ -278,7 +278,7 @@ class Msvm_EthernetSwitchPortAclSettingData : Msvm_EthernetSwitchPortFeatureSett
 Тип доступа: только для чтения
 </dt> </dl>
 
-Отображаемое имя объекта. Это свойство наследуется от [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)и всегда имеет значение "параметры ACL порта коммутатора Ethernet".
+Отображаемое имя объекта. это свойство наследуется от [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)и всегда имеет значение "ACL порта коммутатора Ethernet Параметры".
 
 </dd> <dt>
 
@@ -330,7 +330,7 @@ class Msvm_EthernetSwitchPortAclSettingData : Msvm_EthernetSwitchPortFeatureSett
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -378,14 +378,14 @@ class Msvm_EthernetSwitchPortAclSettingData : Msvm_EthernetSwitchPortFeatureSett
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

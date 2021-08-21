@@ -3,7 +3,7 @@ title: Сообщение CBEM_HASEDITCHANGED (Коммктрл. h)
 description: Определяет, изменил ли пользователь текст элемента управления "поле ввода" ComboBoxEx.
 ms.assetid: 8bf8c40a-e1ab-4748-899b-a9ed27767884
 keywords:
-- Элементы управления Windows для CBEM_HASEDITCHANGED сообщений
+- элементы управления Windows сообщений CBEM_HASEDITCHANGED
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c5234b816a2ec080449ade072981b489968df8f9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ae5949827dbabf962ec9a9e9bd9d3b6d27d09a3b7e62f7fc71f2c4343e8ce370
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119528044"
 ---
 # <a name="cbem_haseditchanged-message"></a>\_Сообщение кбем хаседитчанжед
 
@@ -39,7 +39,7 @@ ms.locfileid: "103989379"
 
 Возвращает **значение true** , если текст в поле редактирования элемента управления был изменен, или **значение false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент управления ComboBoxEx использует элемент управления "поле ввода", если для него задан стиль [**\_ раскрывающегося списка CBS**](combo-box-styles.md) . Вы можете получить маркер окна элемента управления "поле ввода", отправив сообщение [**кбем \_ жетедитконтрол**](cbem-geteditcontrol.md) .
 
@@ -47,15 +47,15 @@ ms.locfileid: "103989379"
 
 [**\_ Простой стиль CBS**](combo-box-styles.md) работает неправильно с **кбем \_ хаседитчанжед**.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

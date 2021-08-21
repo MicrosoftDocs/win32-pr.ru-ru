@@ -4,12 +4,12 @@ ms.assetid: d1268f68-2893-4d7f-acd2-484346a20193
 title: Проверка (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ecc64a17aba21af4b43bd41cc060a8711e5bb4e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 4c3d6c49f3bdf3bc0ba75f52bd8138fa6f5d777c3613d105b2706929c01b3ee4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105710603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118519443"
 ---
 # <a name="validation-direct3d-9"></a>Проверка (Direct3D 9)
 
@@ -26,7 +26,7 @@ ms.locfileid: "105710603"
 
 Дополнительные сведения см. в разделе [состояния эффектов (Direct3D 9)](effect-states.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

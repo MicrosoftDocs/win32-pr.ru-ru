@@ -4,12 +4,12 @@ ms.assetid: e61bdfd5-0602-4964-b761-720fe58f5d31
 title: System. photo. ФотометриЦинтерпретатионтекст
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1eeef82b979ea2f4eb5256bc016e38e34ea6d83
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 726832227421d99c505faea785fd096d5387d76e148f53913fa9afba22ad6059
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118723702"
 ---
 # <a name="systemphotophotometricinterpretationtext"></a>System. photo. ФотометриЦинтерпретатионтекст
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

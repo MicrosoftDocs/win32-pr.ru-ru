@@ -3,7 +3,7 @@ title: Сообщение BM_CLICK (Winuser. h)
 description: Имитирует нажатие пользователем кнопки. Это сообщение приводит к тому, что кнопка получает \_ сообщения WM лбуттондовн и WM \_ лбуттонуп, а родительское окно кнопки — для получения млрд доллного \_ кода уведомления.
 ms.assetid: f76ca5eb-170c-43fc-a239-67af15497f08
 keywords:
-- Элементы управления Windows для BM_CLICK сообщений
+- элементы управления Windows сообщений BM_CLICK
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b86c4809ac1ded3a9b7c57d1b73b70ab1cebc3b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 97fdf1e206546bcdb3fa0888276414bd44b927e96a8478be4ae8a5ce2d2a5169
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118674986"
 ---
 # <a name="bm_click-message"></a>BM \_ щелкните сообщение
 
@@ -47,19 +47,19 @@ ms.locfileid: "104071330"
 
 Это сообщение не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если кнопка находится в диалоговом окне, а диалоговое окно неактивно, сообщение **BM \_ Click** может завершиться ошибкой. Чтобы обеспечить успешное выполнение в этой ситуации, вызовите функцию [**сетактивевиндов**](/windows/desktop/api/winuser/nf-winuser-setactivewindow) , чтобы активировать диалоговое окно перед отправкой сообщения о **\_ нажатии кнопки BM** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Header<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: dd06bcec9b3c435370ec3f12340c1c3aede3904c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 63ea3fa8ecbc6e644ccc5f4b1fac7a2fcd9c18270474f45dc08faa164f76cbec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105656981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118660779"
 ---
 # <a name="cbasecontrolwindowget_backgroundpalette-method"></a>Кбасеконтролвиндов. Get \_ баккграундпалетте, метод
 
@@ -53,17 +53,17 @@ HRESULT get_BackgroundPalette(
 
 Возвращает значение **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция члена реализует метод [**ивидеовиндов:: Get \_ баккграундпалетте**](/windows/desktop/api/Control/nf-control-ivideowindow-get_backgroundpalette) . Если видео будет воспроизводиться в другом приложении или документе, может потребоваться использовать собственную палитру приложения. Он может задать, чтобы видео использовало текущую палитру переднего плана, а не собственную, установив для этого флага значение 1. Если задано значение 0, окно будет установлено и использовать собственную предпочтительную палитру. Обратите внимание, что запрос на использование другой палитры приведет к значительному снижению производительности.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ктлутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>ктлутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

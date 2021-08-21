@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 827132338c3ba2b858a329ec108ef37b36ed54c2
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: e9346d3acc5422035d01dcc3f36b053825b9240ff10497af53207b05226efa09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104986584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118506606"
 ---
 # <a name="texturecubegathercmpsfloatfloatuint-function"></a>Функция Текстурекубе:: Гасеркмп (S, float, float, uint)
 
@@ -84,7 +84,7 @@ TemplateType GatherCmp(
 
 Значение из четырех компонентов, тип которого совпадает с типом шаблона.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Примеры текстур можно использовать для интерполяции билинейной.
 
@@ -100,7 +100,7 @@ TemplateType GatherCmp(
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

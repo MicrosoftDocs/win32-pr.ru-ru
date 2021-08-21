@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6c140052c861c8da3df6378fc3bc49816998c130
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 23efdb58b8effc0ccdaf32da31ad93dfaf8f6eae602c6769c947ffa0c0f505d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103792289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118510113"
 ---
 # <a name="appendstructuredbuffer"></a>аппендструктуредбуффер
 
@@ -28,12 +28,12 @@ ms.locfileid: "103792289"
 
 | Метод                                                                   | Описание                               |
 |--------------------------------------------------------------------------|-------------------------------------------|
-| [**Добавление**](sm5-object-appendstructuredbuffer-append.md)               | Добавляет значение в конец буфера. |
+| [**Добавить**](sm5-object-appendstructuredbuffer-append.md)               | Добавляет значение в конец буфера. |
 | [**GetDimensions**](sm5-object-appendstructuredbuffer-getdimensions.md) | Возвращает размеры ресурсов.             |
 
 
 
- 
+ 
 
 Формат UAV, привязанный к этому ресурсу, должен быть создан с \_ \_ неизвестным форматом DXGI.
 
@@ -49,11 +49,11 @@ UAV, привязанный к этому ресурсу, должен быть 
 
 | Модель шейдера                                                                | Поддерживается |
 |-----------------------------------------------------------------------------|-----------|
-| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | да       |
+| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | Да       |
 
 
 
- 
+ 
 
 Этот объект поддерживается для следующих типов шейдеров:
 
@@ -65,15 +65,15 @@ UAV, привязанный к этому ресурсу, должен быть 
 
 
 
- 
+ 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [Объекты модели шейдеров 5](d3d11-graphics-reference-sm5-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

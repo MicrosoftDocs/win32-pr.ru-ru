@@ -3,19 +3,19 @@ title: Объект свойств выходного носителя
 description: Объект свойств выходного носителя
 ms.assetid: 96fa7c66-59a0-4eb3-ace4-a827b139f978
 keywords:
-- Пакет SDK для формата Windows Media, объекты свойств выходных данных мультимедиа
+- Windows Пакет SDK для формата мультимедиа, объекты свойств выходных данных мультимедиа
 - Расширенный системный формат (ASF), объекты свойств выходных данных мультимедиа
 - ASF (Расширенный системный формат), объекты свойств выходных данных мультимедиа
 - объекты, выходные объекты свойств медиа
 - объекты свойств выходных данных мультимедиа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61490464381a0b4e58be7994dfaeb0dfec2baa76
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 6848270147a1a191faf93830f062cf7768a19ccd38a77598d15617197a1967a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104069700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119084640"
 ---
 # <a name="output-media-properties-object"></a>Объект свойств выходного носителя
 
@@ -39,9 +39,9 @@ ms.locfileid: "104069700"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -51,9 +51,9 @@ ms.locfileid: "104069700"
 [**Объект модуля чтения**](reader-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

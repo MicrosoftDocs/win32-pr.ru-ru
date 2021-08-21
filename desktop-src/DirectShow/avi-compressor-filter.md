@@ -4,12 +4,12 @@ ms.assetid: addde51d-2982-4964-b16a-406fea89a0ce
 title: Фильтр сжатия AVI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 212ab58eb3800e0ad5531ebc5c50d3b054e7866c
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: fa074f5ad4a72fe1e1a32f45baa4888a526b1a0532a562c2fadb7753ea71e0aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118159276"
 ---
 # <a name="avi-compressor-filter"></a>Фильтр сжатия AVI
 
@@ -20,7 +20,7 @@ ms.locfileid: "107909472"
 Если кодек поддерживает диалоговое окно настройки VFW старого стиля или диалоговое окно "о программе", приложение может отобразить его с помощью интерфейса [**иамвфвкомпрессдиалогс**](/windows/desktop/api/Strmif/nn-strmif-iamvfwcompressdialogs) .
 
 > [!Note]  
-> Программы сжатия MPEG никогда не реализуются как кодеки ВКМ, но только как собственные фильтры DirectShow.
+> программы сжатия MPEG никогда не реализуются как кодеки вкм, но только как собственные фильтры DirectShow.
 
  
 
@@ -47,7 +47,7 @@ ms.locfileid: "107909472"
 
 <dl> <dt>
 
-[Фильтры DirectShow](directshow-filters.md)
+[DirectShow Фильтрующ](directshow-filters.md)
 </dt> </dl>
 
  

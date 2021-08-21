@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 1c00c056bd5095d945af12fde3556d92b9a2d7ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 989d734d4c59d710c737c218b22591517347a8f5e434ff99e195887cbb4b6774
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663470"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119524844"
 ---
 # <a name="msvm_ethernetportsettingdatacomponent-class"></a>\_Класс мсвм есернетпортсеттингдатакомпонент
 
@@ -45,7 +45,7 @@ class Msvm_EthernetPortSettingDataComponent : CIM_Component
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ есернетпортсеттингдатакомпонент** имеет следующие свойства.
 
@@ -83,14 +83,14 @@ class Msvm_EthernetPortSettingDataComponent : CIM_Component
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

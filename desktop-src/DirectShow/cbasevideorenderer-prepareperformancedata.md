@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 12dd61dee7416ce8ca7ac07cba62cbc769df5973
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e8cb276b37e64b6bb34751ed2d034666f7ceeddd90d8e52e47b2a1fca499ff9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105656966"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118658338"
 ---
 # <a name="cbasevideorendererprepareperformancedata-method"></a>Кбасевидеорендерер. Препареперформанцедата, метод
 
@@ -61,24 +61,24 @@ void PreparePerformanceData(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция члена устанавливает **m \_ трлате** в значение *трлате* и **m \_ трфраме** в значение *трфраме*.
 
 Когда функция-член [**кбасевидеорендерер:: рекордфрамелатенесс**](cbasevideorenderer-recordframelateness.md) вызывается из [**Кбасевидеорендерер:: онрендерстарт**](cbasevideorenderer-onrenderstart.md) или [**кбасевидеорендерер:: OnDirectRender**](cbasevideorenderer-ondirectrender.md), она передает значения **m \_ trLate** и **m \_ trFrame** для обновления статистики. `PreparePerformanceData` вызывается из [**кбасевидеорендерер:: онваитенд**](cbasevideorenderer-onwaitend.md) для задания этих значений элементов данных.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ренбасе. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>ренбасе. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

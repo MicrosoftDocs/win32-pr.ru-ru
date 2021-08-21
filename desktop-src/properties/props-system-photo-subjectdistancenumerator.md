@@ -4,12 +4,12 @@ ms.assetid: 98d2c1e3-0068-45ed-a13f-b5a09261f30f
 title: System. photo. Субжектдистанценумератор
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92a9d9c51ced7f9264c952fec26595d449961896
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 02ebcef1ec4577a52800b78d0c54d05cb8c0d31556d85ea80c16b06ad51e1c34
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104345935"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118723548"
 ---
 # <a name="systemphotosubjectdistancenumerator"></a>System. photo. Субжектдистанценумератор
 
@@ -30,11 +30,11 @@ propertyDescription
       type = UInt32
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

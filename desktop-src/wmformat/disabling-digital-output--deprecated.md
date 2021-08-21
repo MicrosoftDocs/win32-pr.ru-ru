@@ -3,10 +3,10 @@ title: Отключение цифрового выхода (не рекомен
 description: Отключение цифрового выхода (не рекомендуется)
 ms.assetid: 208ceb23-e0a0-4dee-aeba-e9d640248f75
 keywords:
-- Пакет SDK для формата Windows Media, Microsoft Secure Audio Path (SAP)
+- Windows Пакет SDK для формата мультимедиа, Microsoft Secure Audio Path (SAP)
 - Управление цифровыми правами (DRM), Microsoft Secure Audio Path (SAP)
 - DRM (Управление цифровыми правами), Microsoft Secure Audio Path (SAP)
-- Windows Media Format SDK, защищенный звуковой путь (SAP)
+- Windows Пакет SDK для формата мультимедиа, защищенный звуковой путь (SAP)
 - Управление цифровыми правами (DRM), защищенный звуковой путь (SAP)
 - DRM (Управление цифровыми правами), безопасный звуковой путь (SAP)
 - Microsoft Secure Audio Path (SAP), отключение цифровых выходных данных
@@ -14,12 +14,12 @@ keywords:
 - SAP (безопасный звуковой путь), отключение цифровых выходных данных
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1a667034d6b56a3f764865205681847b195eaaf
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 95c7891fc541f926e28baa70bfc06e95f443d1b9e47bbc0650144a8ff7d4f1ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104411388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118704829"
 ---
 # <a name="disabling-digital-output-deprecated"></a>Отключение цифрового выхода (не рекомендуется)
 
@@ -29,16 +29,16 @@ ms.locfileid: "104411388"
 
 Эта функция позволяет владельцам содержимого или поставщикам лицензий отключить цифровые выходные данные, задав параметр в списке лицензий для своей музыки. Если этот параметр задан, звуковая карта отключает возможность использования цифровых выходных данных при воспроизведении защищенной музыки. Пользователи могут прослушивать расшифрованную музыку, но не могут создавать копии.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Путь безопасного аудио (Майкрософт)**](microsoft-secure-audio-path--deprecated.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

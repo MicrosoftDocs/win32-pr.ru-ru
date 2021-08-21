@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aa18c4a1da3137613e0106f828f59805e5615384
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c44c76498d192954dde50e3f997fe91ce405344fc2048697ce996723aa0e6d13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118595124"
 ---
 # <a name="ivmfloppydriveimagefile-property"></a>Свойство Ивмфлоппидриве:: ImageFile
 
-\[Windows Virtual PC больше не доступна для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC больше не доступен для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Извлекает полный путь к файлу изображения, к которому подключен гибкий диск.
 
@@ -66,11 +66,11 @@ HRESULT get_ImageFile(
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                    |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                     |
 | Окончание поддержки клиента<br/>    | Windows 7<br/>                                                                          |
 | Продукт<br/>                  | Windows Virtual PC<br/>                                                                 |
-| Header<br/>                   | <dl> <dt>Впккоминтерфацес. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Впккоминтерфацес. h</dt> </dl> |
 | IID<br/>                      | IID \_ ивмфлоппидриве определен как 661abee6-112a-4ed9-babf-3c874969f10e<br/>             |
 
 

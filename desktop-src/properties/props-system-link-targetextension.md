@@ -4,12 +4,12 @@ ms.assetid: b3271c47-31a5-46c9-83ac-b18c0f392def
 title: System. Link. Таржетекстенсион
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d212bcd9ad3b86c91e0ec1ceeb0cd7db9134f62
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 666144876ded3e71842d4a6305f5a6b81494c7ede0b2fe3cec061c8d5bdb6f45
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118726454"
 ---
 # <a name="systemlinktargetextension"></a>System. Link. Таржетекстенсион
 
@@ -30,11 +30,11 @@ propertyDescription
       type = Multivalue String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

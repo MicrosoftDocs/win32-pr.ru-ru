@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 976e779235dc330467d610406156534b5e72841d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b260c1112f7ec588b4d83655e5d0aa465b63682164f2ca745b63d3f421e5794c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118616576"
 ---
 # <a name="gldrawelements-function"></a>Функция Глдравелементс
 
@@ -64,7 +64,7 @@ void WINAPI glDrawElements(
 
 </dd> <dt>
 
-*увеличивают* 
+*indices* 
 </dt> <dd>
 
 Указатель на расположение, в котором хранятся индексы.
@@ -89,7 +89,7 @@ void WINAPI glDrawElements(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глдравелементс** позволяет указать несколько геометрических примитивов с небольшими вызовами функций. Вместо вызова функции OpenGL для передачи каждой отдельной вершины, нормали или цвета можно заранее указать отдельные массивы вершин, нормали и цвета и использовать их для определения последовательности примитивов (всех тех же типов) с одним вызовом **глдравелементс**.
 

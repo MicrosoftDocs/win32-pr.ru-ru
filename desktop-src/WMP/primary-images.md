@@ -3,36 +3,36 @@ title: Основные образы
 description: Основные образы
 ms.assetid: 6f8e4b33-c84f-4404-82a5-2f1eabe323d4
 keywords:
-- Обложки проигрывателя Windows Media, графические файлы
+- обложки проигрыватель Windows Media, файлы art
 - обложки, файлы Art
 - файлы для обложек, изображений
 - графические файлы для обложек, основные образы
-- Обложки проигрывателя Windows Media, основные образы
+- обложки проигрыватель Windows Media, основные образы
 - обложки, основные образы
 - Основные образы в обложках
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed3759dbfe22eb1a9bf0e3ac8812b797b5eb89f2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1cc3877ff59536318df27d726acd2766870ebbca8d24f9e48d0ab9058608feab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105700509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118571115"
 ---
 # <a name="primary-images"></a>Основные образы
 
 Для обложки потребуется создать основные образы. Основной образ состоит из одного фонового изображения, определенного элементом **View** , и всех других изображений, которые относятся к определенным элементам. Например, при создании элемента **Button** необходимо включить рисунок для этой кнопки и убедиться, что он имеет более высокий z-порядок, чем фоновое изображение.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Файлы изображений**](art-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: Команда MCI_UNFREEZE (Ммсистем. h)
 description: '\_Команда РАЗморозка MCI восстанавливает движение в область видеобуфера, замороженную \_ командой MCI Freeze. Эта команда распознает цифровые видеоролики, видеомагнитофоны и устройства наложения видео.'
 ms.assetid: 79ff1be5-6e30-4ef4-ab81-fc5643e3a72d
 keywords:
-- MCI_UNFREEZE команды мультимедиа Windows
+- команда MCI_UNFREEZE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8736e27998330f9337bb21569e145a4395e90020
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3011f3d2c05c304b37957c6f4cb78f2ada9389ab727a7af63a358fd4b5afdd3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137387"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119525574"
 ---
 # <a name="mci_unfreeze-command"></a>Команда "отменить \_ замораживание" MCI
 
@@ -68,7 +68,7 @@ MCIERROR mciSendCommand(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 С типом устройства **дигиталвидео** используется следующий дополнительный флаг:
 
@@ -109,7 +109,7 @@ MCI \_ ДГВ \_ Rect
 
 Для устройств с наложением параметр *лпунфризе* указывает на структуру [**MCI \_ овли \_ Rect \_ пармс**](mci-ovly-rect-parms.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -117,11 +117,11 @@ MCI \_ ДГВ \_ Rect
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

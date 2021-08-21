@@ -3,9 +3,9 @@ title: Ивмпплайлист Count, свойство
 description: Свойство Count возвращает количество элементов мультимедиа в списке воспроизведения.
 ms.assetid: dbff3c86-2d42-4d47-a5cb-b8199efac728
 keywords:
-- Свойство Count проигрывателя Windows Media Player
-- Свойство Count проигрывателя Windows Media Player, интерфейс Ивмпплайлист
-- Интерфейс Ивмпплайлист Windows Media Player, свойство Count
+- проигрыватель Windows Media свойства count
+- свойство count проигрыватель Windows Media, интерфейс ивмпплайлист
+- интерфейс ивмпплайлист проигрыватель Windows Media, свойство count
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 56d988fefc436b65652d2b0765320ca289417c9c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: aad690278b45563395c926adb4d0329bff8a01c7e8ace2f25ff3fefdb9c39cee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708402"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118568699"
 ---
 # <a name="iwmpplaylistcount-property"></a>Свойство Ивмпплайлист:: count
 
@@ -51,7 +51,7 @@ Public ReadOnly Property count As System.Int32
 
 Объект **System. Int32** , который является числом элементов мультимедиа в списке воспроизведения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Перед использованием этого свойства необходимо иметь доступ на чтение к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
@@ -63,7 +63,7 @@ Public ReadOnly Property count As System.Int32
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

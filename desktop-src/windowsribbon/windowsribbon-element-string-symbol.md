@@ -3,7 +3,7 @@ title: Свойство String. Symbol
 description: Представляет имя строкового ресурса.
 ms.assetid: 7c1d0197-2c9b-4f42-afba-73fd1c366deb
 keywords:
-- Лента для свойства String. Symbol
+- свойство String. Symbol Windows лента
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7bf7d30ddd8677b1c5ff0a5e55d4b9c119795ab
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fe6c071461fcdeb5f2bbbdbb15fce0f3f6e6031edddf4bd18e034416ba8c49e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118706866"
 ---
 # <a name="stringsymbol-property"></a>Свойство String. Symbol
 
@@ -47,7 +47,7 @@ ms.locfileid: "103891525"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Необязательный элемент.
 
@@ -82,8 +82,8 @@ ms.locfileid: "103891525"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>              |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>              |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/> |
 
 
 

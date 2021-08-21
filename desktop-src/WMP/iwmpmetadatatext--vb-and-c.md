@@ -3,8 +3,8 @@ title: Интерфейс Ивмпметадататекст (VB и C) (WMP. h)
 description: Предоставляет свойства для получения сведений о сложных атрибутах текстовых метаданных.
 ms.assetid: c0f300d2-6ddb-470b-849d-771d3719bb97
 keywords:
-- Ивмпметадататекст (VB и C) интерфейс проигрывателя Windows Media
-- Ивмпметадататекст (VB и C) интерфейс проигрывателя Windows Media, описание
+- проигрыватель Windows Media интерфейса ивмпметадататекст (VB и C)
+- проигрыватель Windows Media интерфейса ивмпметадататекст (VB и C), описание
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 146afd709d0805043603cfb3b14b1c1fc1838075
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 9e39e82b117bcf4425ac09d7d18357fbfe5bfb73ed5c2848087f1cc7cab95fde
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110424304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118575410"
 ---
 # <a name="iwmpmetadatatext-vb-and-c-interface"></a>Интерфейс Ивмпметадататекст (VB и C#)
 
@@ -65,11 +65,11 @@ ms.locfileid: "110424304"
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 
-[**Интерфейсы для Visual Basic .NET и C #**](interfaces-for-visual-basic--net-and-c.md)
+[**интерфейсы для Visual Basic .net и C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> </dl>
 
  

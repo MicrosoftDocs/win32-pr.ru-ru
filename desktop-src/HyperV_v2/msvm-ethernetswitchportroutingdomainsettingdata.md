@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 40e16a3c952e63ab89c345201742dafe24cdde7d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b0bc01c7e771996d46c29b0f6341e3a535860c4c36996562e7e526ca5db59a2e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103913888"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119523844"
 ---
 # <a name="msvm_ethernetswitchportroutingdomainsettingdata-class"></a>\_Класс мсвм есернетсвитчпортраутингдомаинсеттингдата
 
@@ -49,7 +49,7 @@ class Msvm_EthernetSwitchPortRoutingDomainSettingData : Msvm_EthernetSwitchPortF
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ есернетсвитчпортраутингдомаинсеттингдата** имеет следующие свойства.
 
@@ -119,13 +119,13 @@ GUID домена маршрутизации.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
+| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
 | Минимальная версия сервера<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -133,7 +133,7 @@ GUID домена маршрутизации.
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

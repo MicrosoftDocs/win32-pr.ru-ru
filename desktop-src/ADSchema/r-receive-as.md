@@ -1,6 +1,6 @@
 ---
 title: Receive-As расширенное право
-description: Exchange Right позволяет получать почту в виде заданного почтового ящика.
+description: Exchange право позволяет получать почту в виде заданного почтового ящика.
 ms.assetid: 3fa0cab3-5de4-4bd9-9e6c-95b0b6a4c0f8
 ms.tgt_platform: multiple
 keywords:
@@ -13,16 +13,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ca5a79de774579ac7c259d5a1c8ca9c590ac5cb2
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1a1e2d8650e2db18b5b76447446aa1e7d510f869e15d6ee0a1eccf4aa1d8d569
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103804277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118680227"
 ---
 # <a name="receive-as-extended-right"></a>Receive-As расширенное право
 
-Право Exchange: позволяет получать почту в виде заданного почтового ящика.
+Exchange right: позволяет получать почту в виде заданного почтового ящика.
 
 
 
@@ -49,7 +49,7 @@ ms.locfileid: "103804277"
 
 | Ввод | Значение |
 |-------------------------|-----------------------------------------------------------------------------|
-| Applies-To              | [**Нажат**](c-user.md)<br/> [**Компьютер**](c-computer.md)<br/> |
+| Applies-To              | [**Пользователь**](c-user.md)<br/> [**Компьютер**](c-computer.md)<br/> |
 | Локализация — идентификатор экрана | 5                                                                           |
 
 
@@ -60,7 +60,7 @@ ms.locfileid: "103804277"
 
 | Ввод | Значение |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**Нажат**](c-user.md)<br/> [**Компьютер**](c-computer.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
+| Applies-To              | [**Пользователь**](c-user.md)<br/> [**Компьютер**](c-computer.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | Локализация — идентификатор экрана | 5                                                                                                                               |
 
 
@@ -71,7 +71,7 @@ ms.locfileid: "103804277"
 
 | Ввод | Значение |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**Нажат**](c-user.md)<br/> [**Компьютер**](c-computer.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
+| Applies-To              | [**Пользователь**](c-user.md)<br/> [**Компьютер**](c-computer.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | Локализация — идентификатор экрана | 5                                                                                                                               |
 
 
@@ -82,7 +82,7 @@ ms.locfileid: "103804277"
 
 | Ввод | Значение |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**Нажат**](c-user.md)<br/> [**Компьютер**](c-computer.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
+| Applies-To              | [**Пользователь**](c-user.md)<br/> [**Компьютер**](c-computer.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | Локализация — идентификатор экрана | 5                                                                                                                               |
 
 
@@ -93,7 +93,7 @@ ms.locfileid: "103804277"
 
 | Ввод | Значение |
 |-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**Нажат**](c-user.md)<br/> [**Компьютер**](c-computer.md)<br/> [**Учетная запись MS-DS-Managed-Service-**](c-msds-managedserviceaccount.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
+| Applies-To              | [**Пользователь**](c-user.md)<br/> [**Компьютер**](c-computer.md)<br/> [**Учетная запись MS-DS-Managed-Service-**](c-msds-managedserviceaccount.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | Локализация — идентификатор экрана | 5                                                                                                                                                                                                                |
 
 
@@ -104,7 +104,7 @@ ms.locfileid: "103804277"
 
 | Ввод | Значение |
 |-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**Нажат**](c-user.md)<br/> [**Компьютер**](c-computer.md)<br/> [**Учетная запись MS-DS-Managed-Service-**](c-msds-managedserviceaccount.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
+| Applies-To              | [**Пользователь**](c-user.md)<br/> [**Компьютер**](c-computer.md)<br/> [**Учетная запись MS-DS-Managed-Service-**](c-msds-managedserviceaccount.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | Локализация — идентификатор экрана | 5                                                                                                                                                                                                                |
 
 

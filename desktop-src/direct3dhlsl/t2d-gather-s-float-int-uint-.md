@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d59ad2a29e7721309209b0a5ea9b773f64167c44
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 073465a005c66f9b85aaf8a08ea09ab1512001d7702c2ee32adb4bc9109d54aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104273610"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118507780"
 ---
 # <a name="texture2dgathersfloatintuint-function"></a>Функция Texture2D:: собрать (S, float, int, uint)
 
@@ -84,7 +84,7 @@ TemplateType Gather(
 
 Значение из четырех компонентов, тип которого совпадает с типом шаблона.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Примеры текстур можно использовать для интерполяции билинейной.
 
@@ -100,7 +100,7 @@ TemplateType Gather(
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

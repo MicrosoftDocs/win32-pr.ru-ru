@@ -3,7 +3,7 @@ title: Список воспроизведения. Дропдовнбаккгр
 description: Атрибут Дропдовнбаккграундимаже указывает или получает имя изображения, которое отображается в фоновом режиме раскрывающегося списка.
 ms.assetid: 40253d82-7178-4f6c-805b-7c1e92ea0636
 keywords:
-- Проигрыватель Windows Media Player. Дропдовнбаккграундимаже
+- проигрыватель Windows Media списка воспроизведения. дропдовнбаккграундимаже
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 23ac925d5c5b3985d04a9ad5afd622abae5042a3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a47f964e1aaa4b2d22a922d70ea41970b5c1ae667920dbebf49dd5e6cc1d4dff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118571464"
 ---
 # <a name="playlistdropdownbackgroundimage"></a>Список воспроизведения. Дропдовнбаккграундимаже
 
@@ -31,7 +31,7 @@ ms.locfileid: "105704443"
 
 Этот атрибут является **строкой** для чтения и записи, содержащей имя файла изображения. У него нет значения по умолчанию.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут поддерживает файлы PNG, JPG, BMP и GIF. Если изображение является 8-битным файлом BMP, его значения тона и насыщенности можно динамически изменить с помощью атрибутов **хуешифт** и **насыщенности** .
 
@@ -41,7 +41,7 @@ ms.locfileid: "105704443"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 

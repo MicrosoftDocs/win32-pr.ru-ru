@@ -1,11 +1,11 @@
 ---
 title: Аксвиндовсмедиаплайер. versionInfo, свойство
-description: Свойство versionInfo возвращает значение, указывающее версию проигрывателя Windows Media.
+description: свойство versionInfo возвращает значение, указывающее версию проигрыватель Windows Media.
 ms.assetid: e128bec5-1ae9-4710-800e-4f97df362909
 keywords:
-- Проигрыватель Windows Media для свойства versionInfo
-- versionInfo свойства проигрывателя Windows Media Player, класс Аксвиндовсмедиаплайер
-- Класс Аксвиндовсмедиаплайер Windows Media Player, свойство versionInfo
+- проигрыватель Windows Media свойства versionInfo
+- проигрыватель Windows Media свойства versionInfo, класс аксвиндовсмедиаплайер
+- проигрыватель Windows Media класса аксвиндовсмедиаплайер, свойство versionInfo
 topic_type:
 - apiref
 api_name:
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2f759c2aedb19e21c4b7d90f3634141e4c37ec8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2fd7491af0fc102f03da9855b78ecef79ac0a09ca9b3ab8b49f9bf6b948f0d86
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698848"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118841165"
 ---
 # <a name="axwindowsmediaplayerversioninfo-property"></a>Аксвиндовсмедиаплайер. versionInfo, свойство
 
-Свойство versionInfo возвращает значение, указывающее версию проигрывателя Windows Media.
+свойство versionInfo возвращает значение, указывающее версию проигрыватель Windows Media.
 
 Это свойство доступно только для чтения.
 
@@ -52,7 +52,7 @@ Public ReadOnly Property versionInfo As System.String
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере создается кнопка, которая при нажатии отображает окно сообщения, содержащее сведения о версии проигрывателя Windows Media. Объект Аксвмплиб. Аксвиндовсмедиаплайер представлен переменной с именем Player.
+в следующем примере создается кнопка, которая при нажатии отображает окно сообщения, содержащее сведения о версии для проигрыватель Windows Media. Объект Аксвмплиб. Аксвиндовсмедиаплайер представлен переменной с именем Player.
 
 
 ```CSharp
@@ -84,19 +84,19 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                          |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                          |
 | Пространство имен<br/> | **аксвмплиб**<br/>                                                                                                    |
 | Сборка<br/>  | <dl> <dt>AxInterop.WMPLib.dll (AxInterop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

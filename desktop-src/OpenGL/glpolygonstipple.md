@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a2eb0b2e4319f7e3e37191fb197cd7ff86a2a97
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e1f9098ab91af5f258f97e0878ae8cbcb19863ec3bc82765c2664683830539fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491127"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118614910"
 ---
 # <a name="glpolygonstipple-function"></a>Функция Глполигонстиппле
 
@@ -40,7 +40,7 @@ void WINAPI glPolygonStipple(
 
 <dl> <dt>
 
-*виде* 
+*mask* 
 </dt> <dd>
 
 Указатель на шаблон размером 32x32 стиппле, который будет распакован из памяти таким же образом, как [**глдравпикселс**](gldrawpixels.md) распаковать Пиксели.
@@ -63,7 +63,7 @@ void WINAPI glPolygonStipple(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глполигонстиппле** задает шаблон стипплинг многоугольника. Многоугольник стипплинг, как и Line стипплинг (см. [**гллинестиппле**](gllinestipple.md)), маскирует определенные фрагменты, созданные с помощью растрирования, создавая шаблон. Стипплинг не зависит от сглаживания многоугольников.
 

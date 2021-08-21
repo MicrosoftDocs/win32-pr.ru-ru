@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 87c0e5ba002a3941ebc1d3855309adb7851c9c7a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d4e921cb1b5f021a7c0edb2a60d80d2c8b9835af34295bb737bc403b0e733692
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105655224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118685833"
 ---
 # <a name="ms-dfsr-memberreference-attribute"></a>атрибут MS-DFSR-Мемберреференце
 
@@ -56,7 +56,7 @@ ms.locfileid: "105655224"
 | Идентификатор ссылки                | 2052                                                         |
 | MAPI-Id                | \-                                                           |
 | System-Only            | Неверно                                                        |
-| Является однозначным       | True                                                         |
+| Является однозначным       | Верно                                                         |
 | Индексируется             | Неверно                                                        |
 | В глобальном каталоге      | Неверно                                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                 |
@@ -77,7 +77,7 @@ ms.locfileid: "105655224"
 | Идентификатор ссылки                | 2052                                                         |
 | MAPI-Id                | \-                                                           |
 | System-Only            | Неверно                                                        |
-| Является однозначным       | True                                                         |
+| Является однозначным       | Верно                                                         |
 | Индексируется             | Неверно                                                        |
 | В глобальном каталоге      | Неверно                                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                 |
@@ -98,7 +98,7 @@ ms.locfileid: "105655224"
 | Идентификатор ссылки                | 2052                                                         |
 | MAPI-Id                | \-                                                           |
 | System-Only            | Неверно                                                        |
-| Является однозначным       | True                                                         |
+| Является однозначным       | Верно                                                         |
 | Индексируется             | Неверно                                                        |
 | В глобальном каталоге      | Неверно                                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                 |
@@ -119,7 +119,7 @@ ms.locfileid: "105655224"
 | Идентификатор ссылки                | 2052                                                         |
 | MAPI-Id                | \-                                                           |
 | System-Only            | Неверно                                                        |
-| Является однозначным       | True                                                         |
+| Является однозначным       | Верно                                                         |
 | Индексируется             | Неверно                                                        |
 | В глобальном каталоге      | Неверно                                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                 |
@@ -131,7 +131,7 @@ ms.locfileid: "105655224"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Атрибут **MS-DFSR-мемберреференце** является частью поддержки службы репликации распределенная ФАЙЛОВАЯ система (DFS).
 

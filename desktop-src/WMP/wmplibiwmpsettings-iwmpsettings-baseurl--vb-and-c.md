@@ -3,9 +3,9 @@ title: Ивмпсеттингс baseURL, свойство
 description: Свойство baseURL получает или задает базовый URL-адрес, используемый для разрешения относительных путей с помощью команд сценария URL-адреса, внедренных в мультимедийное содержимое.
 ms.assetid: e136303f-ba08-434f-ad7e-9fffa66785c4
 keywords:
-- Проигрыватель Windows Media для свойства baseURL
-- baseURL свойство проигрывателя Windows Media Player, интерфейс Ивмпсеттингс
-- Интерфейс Ивмпсеттингс Windows Media Player, свойство baseURL
+- проигрыватель Windows Media свойства baseURL
+- проигрыватель Windows Media свойства baseURL, интерфейс ивмпсеттингс
+- проигрыватель Windows Media интерфейса ивмпсеттингс, свойство baseURL
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 393575a93bf904f6fe312b13647ad5a7557b15bc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a3224a43a2689fd49dee2b2a66cc768250b1a829e61863d8cfbd029e3cdf783c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105717771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118568423"
 ---
 # <a name="iwmpsettingsbaseurl-property"></a>Свойство Ивмпсеттингс:: baseURL
 
@@ -48,7 +48,7 @@ Public Property baseURL As System.String
 
 **Строка System. String** , которая является базовым URL-адресом.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство указывает базовый URL-адрес HTTP, который передается в качестве параметра команды для события **аксвиндовсмедиаплайер \_ вмпокксевентс \_ скрипткоммандевент** . Базовый URL-адрес объединяется с относительным URL-адресом следующим образом:
 
@@ -59,7 +59,7 @@ Public Property baseURL As System.String
 
 **Примечание**
 
-Элемент управления проигрывателя Windows Media не поддерживает использование двух точек (..) в относительном URL-адресе для указания родителя текущего расположения.
+элемент управления проигрыватель Windows Media не поддерживает использование двух точек (..) в относительном URL-адресе для указания родителя текущего расположения.
 
 ## <a name="requirements"></a>Требования
 
@@ -67,7 +67,7 @@ Public Property baseURL As System.String
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

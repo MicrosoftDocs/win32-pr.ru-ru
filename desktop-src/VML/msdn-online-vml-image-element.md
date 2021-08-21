@@ -4,21 +4,21 @@ description: Элемент изображения VML
 ms.assetid: 9e8e71d3-6d18-4183-ac7a-d2a8d43db449
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f98d5c42327f1a95184c36a17f0365bf1c802f1c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 92a5419027e94605c3ae1cb088b7187649ff85e7f1e0abaaf4a5f3483223de30
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103792342"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118600504"
 ---
 # <a name="vml-image-element"></a>Элемент изображения VML
 
-В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+в этом разделе описывается функция VML, которая является устаревшей по отношению к Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
 
 > [!Note]  
-> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
+> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). сведения, рекомендации и рекомендации относительно текущей версии Windows Internet explorer см. в [центре разработчиков internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Предопределенная фигура изображения.
 
@@ -38,6 +38,6 @@ ms.locfileid: "103792342"
 
 
 
- 
+ 
 
- 
+ 

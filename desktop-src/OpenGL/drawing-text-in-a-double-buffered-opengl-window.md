@@ -3,15 +3,15 @@ title: Рисование текста в Double-Buffered окне OpenGL
 description: Вы рисуете текст в окне OpenGL с двойной буферизацией, создавая списки отображения для выбранных символов в шрифте, а затем выполняя соответствующий список отображения для каждого символа, который необходимо нарисовать.
 ms.assetid: 59ac0414-a845-4f40-be9c-9962fd1585f6
 keywords:
-- OpenGL в Windows, текст
+- OpenGL на Windows, текст
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b0bf4cc99a1806d734ccde5cfae98f4d367da13
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 84202f59ca1a232bae37603b2ff657cb5c61ae0a1d3961b960b624d061ab20cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103779481"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118618549"
 ---
 # <a name="drawing-text-in-a-double-buffered-opengl-window"></a>Рисование текста в Double-Buffered окне OpenGL
 
@@ -72,9 +72,9 @@ wglDeleteContext(hglrc);
 
 
 
- 
+ 
 
- 
+ 
 
 
 

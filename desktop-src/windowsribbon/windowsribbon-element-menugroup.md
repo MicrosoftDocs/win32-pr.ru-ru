@@ -3,7 +3,7 @@ title: Менуграуп, элемент
 description: Представляет контейнер элементов управления, отображаемых в коллекции, меню или панели инструментов.
 ms.assetid: 75da63fe-dd9e-46af-8f13-a8d8e7575641
 keywords:
-- Лента Windows для элемента Менуграуп
+- элемент менуграуп Windows лента
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 95cbda43fe2f652888a7b84539752b5d671868c3
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 854b33d1e11df15b5b383bf004986edc18418f6204ae1298c3171a6653cf5301
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111442855"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118707103"
 ---
 # <a name="menugroup-element"></a>Менуграуп, элемент
 
@@ -84,7 +84,7 @@ ms.locfileid: "111442855"
 
 | Элемент                                                                             | Описание                                        |
 |-------------------------------------------------------------------------------------|----------------------------------------------------|
-| [**Button**](windowsribbon-element-button.md)<br/>                           | Может происходить один или несколько раз<br/> <br/> |
+| [**Кнопка**](windowsribbon-element-button.md)<br/>                           | Может происходить один или несколько раз<br/> <br/> |
 | [**Установка**](windowsribbon-element-checkbox.md)<br/>                       | Может происходить один или несколько раз<br/> <br/> |
 | [**ComboBox**](windowsribbon-element-combobox.md)<br/>                       | Может происходить один или несколько раз<br/> <br/> |
 | [**DropDownButton**](windowsribbon-element-dropdownbutton.md)<br/>           | Может происходить один или несколько раз<br/> <br/> |
@@ -211,7 +211,7 @@ ms.locfileid: "111442855"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-* **Минимальная поддерживаемая система**: Windows 7
+* **минимальная поддерживаемая система**: Windows 7
 * **Может быть пустым**: нет
 
 

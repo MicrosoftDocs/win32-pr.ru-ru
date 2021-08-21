@@ -1,13 +1,13 @@
 ---
 title: Основные понятия (DRM)
-description: Основные понятия клиента DRM Windows Media
+description: Windows Основные понятия клиента DRM Media
 ms.assetid: e1d306db-5c56-45a7-b0e2-c20555858ad4
 keywords:
-- Windows Media Format SDK, расширенные API клиента DRM
-- Пакет SDK для Windows Media Format, расширенные API клиента
-- Windows Media Format SDK, расширенные API
-- Windows Media Format SDK, API
-- Windows Media Format SDK, управление цифровыми правами (DRM)
+- Windows Пакет SDK для Media Format, расширенные API клиента DRM
+- Windows Пакет SDK для формата мультимедиа, расширенные API клиента
+- Windows Пакет SDK для формата мультимедиа, расширенные API
+- Windows Пакет SDK для формата мультимедиа, API
+- Windows Пакет SDK для формата мультимедиа, управление цифровыми правами (DRM)
 - Управление цифровыми правами (DRM), расширенные API клиента
 - DRM (Управление цифровыми правами), расширенные API клиента
 - Управление цифровыми правами (DRM), расширенные API
@@ -18,16 +18,16 @@ keywords:
 - Расширенные API клиента, о
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f605395c5db172c94bf8b5bfada3bdc0aa33c433
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: d37e5bcd615aaf9ca9c36f20161c261320fc6e261aa5ac630572336309d1aae0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106389131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119085886"
 ---
 # <a name="concepts"></a>Основные понятия
 
-Следующие основные понятия важны для понимания расширенных API клиента DRM Windows Media.
+следующие основные понятия важны для понимания расширенных api-интерфейсов клиента DRM Windows Media.
 
 -   [Действия и права](actions-and-rights.md)
 -   [Ключ и идентификатор ключа](key-and-key-id.md)
@@ -39,7 +39,7 @@ ms.locfileid: "106389131"
 
 <dl> <dt>
 
-[**О расширенных API-интерфейсах клиента DRM Windows Media**](about-the-windows-media-drm-client-extended-apis.md)
+[**сведения о расширенных api-интерфейсах клиента DRM Windows Media**](about-the-windows-media-drm-client-extended-apis.md)
 </dt> </dl>
 
  

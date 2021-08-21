@@ -1,6 +1,6 @@
 ---
-description: IShellDispatch4. Виндовссекурити — отображает диалоговое окно "безопасность Windows".
-title: IShellDispatch4. Виндовссекурити, метод (Шлдисп. h)
+description: IShellDispatch4. виндовссекурити-метод — отображает диалоговое окно Безопасность Windows.
+title: Метод IShellDispatch4.WindowsSecurity (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -13,16 +13,16 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 665c4644-7749-446e-8212-3ecc9901a035
-ms.openlocfilehash: 6eadb580c73e5e56592c94e997bdc22c2cf894b4
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 8142867d8d0423729794460a077a0f7f12d97f5d9744a119571d3ddd2b90a592
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109843025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118720716"
 ---
 # <a name="ishelldispatch4windowssecurity-method"></a>IShellDispatch4. Виндовссекурити, метод
 
-Отображает диалоговое окно **Безопасность Windows** .
+отображает диалоговое окно **Безопасность Windows** .
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -66,9 +66,9 @@ IShellDispatch4.WindowsSecurity()
 
 ## <a name="examples"></a>Примеры
 
-В следующих примерах показано использование **виндовссекурити** для JScript, VBScript и Visual Basic.
+в следующих примерах показано использование **виндовссекурити** для JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -116,15 +116,15 @@ End Sub
 
 
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                                                   |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                          |
-| Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                          |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                                                   |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                          |
+| Header<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (версия 6,0 или более поздняя)</dt> </dl> |
 

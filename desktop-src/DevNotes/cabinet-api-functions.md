@@ -4,12 +4,12 @@ ms.assetid: 43afef50-8fd2-49ec-9fb4-dafd8ebc009e
 title: Функции API CAB-файла
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 327490332d2fe0cb9384eeaaad11215d551f4f0c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1b08234a47c84a604c78275632d88be2bcdeef68e47fd092bbf50e4d97dcf925
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895678"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118668358"
 ---
 # <a name="cabinet-api-functions"></a>Функции API CAB-файла
 
@@ -21,7 +21,7 @@ ms.locfileid: "103895678"
 
 
 
-| Функция                                   | Описание                                                                                                 |
+| Компонент                                   | Описание                                                                                                 |
 |--------------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | [**фЦиаддфиле**](/windows/desktop/api/Fci/nf-fci-fciaddfile)           | Добавляет файл в создается в данный момент.<br/>                                           |
 | [**фЦикреате**](/windows/desktop/api/Fci/nf-fci-fcicreate)             | Создает контекст FCI.<br/>                                                                          |
@@ -39,7 +39,7 @@ ms.locfileid: "103895678"
 
 
 
-| Функция                                         | Описание                                                                                       |
+| Компонент                                         | Описание                                                                                       |
 |--------------------------------------------------|---------------------------------------------------------------------------------------------------|
 | [**фдикопи**](/windows/desktop/api/Fdi/nf-fdi-fdicopy)                       | Извлекает файлы из CAB.<br/>                                                          |
 | [**фдикреате**](/windows/desktop/api/Fdi/nf-fdi-fdicreate)                   | Создает контекст FDI.<br/>                                                                |
@@ -58,7 +58,7 @@ ms.locfileid: "103895678"
 -   [**Распаковк**](extract.md)
 -   [**жетдллверсион**](getdllversion.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d06629185637ce6fa0d7d33d5454282d2bbb8ec2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a62bd164ce8eb8175c62658b19dd5ce6282d6c75b081db45f8b0af4994322579
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104000352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118524514"
 ---
 # <a name="d3dxsaveprtcompbuffertofile-function"></a>Функция D3DXSavePRTCompBufferToFile
 
@@ -54,7 +54,7 @@ HRESULT D3DXSavePRTCompBufferToFile(
 
 Если метод выполнен успешно, возвращается значение **D3D \_ ОК**. В случае сбоя метода возвращаемое значение может быть **D3DERR \_ инвалидкалл**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Параметр компилятора также определяет версию функции. Если определен Юникод, вызов функции разрешается в [D3DXSavePRTCompBufferToFileW](). В противном случае вызов функции разрешается в **D3DXSavePRTCompBufferToFileA**.
 
@@ -82,13 +82,13 @@ struct PRTCompressHeader
 
 Если *нумклустерс* больше 1, то файл заканчивается блоком данных идентификаторов кластеров (байт) `NumSamples * sizeof(UINT)` .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 [Предварительно вычисленные функции пересылки Радианце](dx9-graphics-reference-d3dx-functions-prt.md)

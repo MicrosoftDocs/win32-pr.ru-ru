@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Pstorec.dll
-ms.openlocfilehash: 3a882b9178160e8e82222943501c3317f8f11536
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e99a2ec9b39b035b4a4af24aa18c2936decd399043cc507ed0bf279c5696fd53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118667455"
 ---
 # <a name="ipstoredeleteitem-method"></a>Ипсторе: метод:D Елетеитем
 
-\[Защищенное хранилище (PStore) доступно для использования в Windows Server 2003 и Windows XP. Она доступна только для операций чтения в Windows Server 2008 и Windows Vista, но может быть недоступна в последующих версиях. PStore использует старую реализацию защиты данных. Разработчикам настоятельно рекомендуется использовать преимущества более надежной защиты данных, предоставляемые функциями [**CryptProtectData**](/windows/win32/api/dpapi/nf-dpapi-cryptprotectdata) и [**CryptUnprotectData**](/windows/win32/api/dpapi/nf-dpapi-cryptunprotectdata) .\]
+\[защищенные служба хранилища (Pstore) доступны для использования в Windows Server 2003 и Windows XP. она доступна только для операций чтения в Windows Server 2008 и Windows Vista, но может быть недоступна в последующих версиях. PStore использует старую реализацию защиты данных. Разработчикам настоятельно рекомендуется использовать преимущества более надежной защиты данных, предоставляемые функциями [**CryptProtectData**](/windows/win32/api/dpapi/nf-dpapi-cryptprotectdata) и [**CryptUnprotectData**](/windows/win32/api/dpapi/nf-dpapi-cryptunprotectdata) .\]
 
 Удаляет указанный элемент из защищенного хранилища.
 
@@ -113,13 +113,13 @@ HRESULT DeleteItem(
 
 Возвращаемое значение является значением **HRESULT** . Значение **PST \_ E \_ OK** указывает, что функция выполнена успешно.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>PStore. h</dt> </dl>    |
+| Заголовок<br/> | <dl> <dt>PStore. h</dt> </dl>    |
 | DLL<br/>    | <dl> <dt>Pstorec.dll</dt> </dl> |
 
 

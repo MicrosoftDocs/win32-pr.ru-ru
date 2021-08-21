@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 600bb15585ade3750fdd86615100b59de1c54ab7
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e873bca6dddd315b64a30d5fc5778551ace82c166b186bbe9a9f8e75146b5bf0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103989699"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118684863"
 ---
 # <a name="ms-ds-lockout-duration-attribute"></a>Атрибут ms-DS-блокировкой-Duration
 
@@ -36,7 +36,7 @@ ms.locfileid: "103989699"
 | Частота обновления  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.2018              |
 | System-ID — GUID    | 421f889a-472e-4fe4-8eb9-e1d0bc6071b2 |
-| Синтаксис            | [**Пределах**](s-interval.md)       |
+| Синтаксис            | [**Интервал**](s-interval.md)       |
 
 
 
@@ -55,7 +55,7 @@ ms.locfileid: "103989699"
 | Идентификатор ссылки                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
 | System-Only            | Неверно                                                                 |
-| Является однозначным       | True                                                                  |
+| Является однозначным       | Верно                                                                  |
 | Индексируется             | Неверно                                                                 |
 | В глобальном каталоге      | Неверно                                                                 |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                          |
@@ -63,7 +63,7 @@ ms.locfileid: "103989699"
 | Range-Upper            | \-                                                                    |
 | Search-Flags           | 0x00000000                                                            |
 | System-Flags           | 0x00000010                                                            |
-| Классы, используемые в        | [**MS-DS-Password-параметры**](c-msds-passwordsettings.md)<br/> |
+| Классы, используемые в        | [**ms-DS-Password-Параметры**](c-msds-passwordsettings.md)<br/> |
 
 
 
@@ -76,7 +76,7 @@ ms.locfileid: "103989699"
 | Идентификатор ссылки                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
 | System-Only            | Неверно                                                                 |
-| Является однозначным       | True                                                                  |
+| Является однозначным       | Верно                                                                  |
 | Индексируется             | Неверно                                                                 |
 | В глобальном каталоге      | Неверно                                                                 |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                          |
@@ -84,7 +84,7 @@ ms.locfileid: "103989699"
 | Range-Upper            | \-                                                                    |
 | Search-Flags           | 0x00000000                                                            |
 | System-Flags           | 0x00000010                                                            |
-| Классы, используемые в        | [**MS-DS-Password-параметры**](c-msds-passwordsettings.md)<br/> |
+| Классы, используемые в        | [**ms-DS-Password-Параметры**](c-msds-passwordsettings.md)<br/> |
 
 
 
@@ -97,7 +97,7 @@ ms.locfileid: "103989699"
 | Идентификатор ссылки                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
 | System-Only            | Неверно                                                                 |
-| Является однозначным       | True                                                                  |
+| Является однозначным       | Верно                                                                  |
 | Индексируется             | Неверно                                                                 |
 | В глобальном каталоге      | Неверно                                                                 |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                          |
@@ -105,7 +105,7 @@ ms.locfileid: "103989699"
 | Range-Upper            | \-                                                                    |
 | Search-Flags           | 0x00000000                                                            |
 | System-Flags           | 0x00000010                                                            |
-| Классы, используемые в        | [**MS-DS-Password-параметры**](c-msds-passwordsettings.md)<br/> |
+| Классы, используемые в        | [**ms-DS-Password-Параметры**](c-msds-passwordsettings.md)<br/> |
 
 
 

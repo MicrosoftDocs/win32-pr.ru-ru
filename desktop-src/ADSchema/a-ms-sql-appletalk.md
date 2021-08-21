@@ -1,11 +1,11 @@
 ---
-title: Атрибут MS-SQL-AppleTalk
+title: атрибут MS-SQL-AppleTalk
 description: Точка подключения AppleTalk.
 ms.assetid: f60835f9-4d7e-45c3-bb7d-769712f59a87
 ms.tgt_platform: multiple
 keywords:
-- Схема AD атрибута MS-SQL-AppleTalk
-- Схема AD атрибута mS-SQL-AppleTalk
+- схема AD атрибута MS-SQL-AppleTalk
+- схема AD атрибута mS-SQL-AppleTalk
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe81121fa453cfcf7e21e30d1eb780ae84b3ab2c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: dde288e86fdba9095233d7cfd55fd7ff76a914772a28bff094f146af9a9d882a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103893058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118686985"
 ---
-# <a name="ms-sql-appletalk-attribute"></a>Атрибут MS-SQL-AppleTalk
+# <a name="ms-sql-appletalk-attribute"></a>атрибут MS-SQL-AppleTalk
 
 Точка подключения AppleTalk.
 
@@ -58,7 +58,7 @@ ms.locfileid: "103893058"
 | Идентификатор ссылки                | \-                                                        |
 | MAPI-Id                | \-                                                        |
 | System-Only            | Неверно                                                     |
-| Является однозначным       | True                                                      |
+| Является однозначным       | Верно                                                      |
 | Индексируется             | Неверно                                                     |
 | В глобальном каталоге      | Неверно                                                     |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                              |
@@ -79,7 +79,7 @@ ms.locfileid: "103893058"
 | Идентификатор ссылки                | \-                                                        |
 | MAPI-Id                | \-                                                        |
 | System-Only            | Неверно                                                     |
-| Является однозначным       | True                                                      |
+| Является однозначным       | Верно                                                      |
 | Индексируется             | Неверно                                                     |
 | В глобальном каталоге      | Неверно                                                     |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                              |
@@ -100,7 +100,7 @@ ms.locfileid: "103893058"
 | Идентификатор ссылки                | \-                                                        |
 | MAPI-Id                | \-                                                        |
 | System-Only            | Неверно                                                     |
-| Является однозначным       | True                                                      |
+| Является однозначным       | Верно                                                      |
 | Индексируется             | Неверно                                                     |
 | В глобальном каталоге      | Неверно                                                     |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                              |
@@ -121,7 +121,7 @@ ms.locfileid: "103893058"
 | Идентификатор ссылки                | \-                                                        |
 | MAPI-Id                | \-                                                        |
 | System-Only            | Неверно                                                     |
-| Является однозначным       | True                                                      |
+| Является однозначным       | Верно                                                      |
 | Индексируется             | Неверно                                                     |
 | В глобальном каталоге      | Неверно                                                     |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                              |
@@ -142,7 +142,7 @@ ms.locfileid: "103893058"
 | Идентификатор ссылки                | \-                                                        |
 | MAPI-Id                | \-                                                        |
 | System-Only            | Неверно                                                     |
-| Является однозначным       | True                                                      |
+| Является однозначным       | Верно                                                      |
 | Индексируется             | Неверно                                                     |
 | В глобальном каталоге      | Неверно                                                     |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                              |
@@ -163,7 +163,7 @@ ms.locfileid: "103893058"
 | Идентификатор ссылки                | \-                                                        |
 | MAPI-Id                | \-                                                        |
 | System-Only            | Неверно                                                     |
-| Является однозначным       | True                                                      |
+| Является однозначным       | Верно                                                      |
 | Индексируется             | Неверно                                                     |
 | В глобальном каталоге      | Неверно                                                     |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                              |

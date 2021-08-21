@@ -4,12 +4,12 @@ ms.assetid: f4c377a7-979d-4a06-a8de-31b8e67d74f8
 title: Модель каскадного RealTimeStylus
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd2f61ea3cd44753d1d91fb2662226a716ee5590
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a69d7bb348485b1b53b04663faeaf9d4b38e1e6952b8b8305e755ff8d32677d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104561469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118715474"
 ---
 # <a name="the-cascaded-realtimestylus-model"></a>Модель каскадного RealTimeStylus
 
@@ -65,7 +65,7 @@ ms.locfileid: "104561469"
     <td>Этот метод возвращает сведения из основного объекта <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> .<br/> Если дополнительный объект <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> не присоединен к основному объекту <strong>RealTimeStylus</strong> , этот метод возвращает пустой массив.<br/></td>
     </tr>
     <tr class="even">
-    <td><a href="/previous-versions/ms824832(v=msdn.10)">Enabled</a></td>
+    <td><a href="/previous-versions/ms824832(v=msdn.10)">Включен</a></td>
     <td>Получение этого свойства возвращает сведения из основного объекта <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> .<br/> Если дополнительный объект <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> не присоединен к основному объекту <strong>RealTimeStylus</strong> , то получение этого свойства возвращает значение по умолчанию.<br/>
     <blockquote>
     [!Note]<br />
