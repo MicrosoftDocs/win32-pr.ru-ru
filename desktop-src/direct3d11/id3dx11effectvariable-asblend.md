@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 87f7e3d09a1299d00482e9a5cfbb75f563d4bba5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3fd9f6f76c0e3aa46e176b2f35960196fcc73eb021d4e5a250be4a5b245a5ca4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104998435"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118531606"
 ---
 # <a name="id3dx11effectvariableasblend-method"></a>Метод ID3DX11EffectVariable:: Асбленд
 
@@ -47,7 +47,7 @@ ID3DX11EffectBlendVariable* AsBlend();
 
 Указатель на переменную смешения эффектов. См. [**ID3DX11EffectBlendVariable**](id3dx11effectblendvariable.md).
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Асбленд Возвращает версию переменной Effect, которая была специализированной для переменной Effect-Blend. Как и в приведении, эта специализация возвращает недопустимый объект, если переменная действия не содержит данных о силе.
 
@@ -58,18 +58,18 @@ ID3DX11EffectBlendVariable* AsBlend();
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
+| Заголовок<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
 | Библиотека<br/> | <dl> <dt>Н/д (библиотека Effects 11 доступна в сети в качестве общего источника.)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

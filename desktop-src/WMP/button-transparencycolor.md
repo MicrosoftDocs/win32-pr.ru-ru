@@ -3,7 +3,7 @@ title: КНОПКА. Транспаренциколор
 description: Атрибут Транспаренциколор указывает или получает цвет, который будет прозрачным в изображениях кнопки.
 ms.assetid: c22f9965-3118-4c96-8ff5-7fbaa28cbb57
 keywords:
-- КНОПКА. Транспаренциколор Windows Media Player
+- кнопка. транспаренциколор проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 771249ddb070c596dc126b9b0c8c7d04a4b4268f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7d51e42b1636958edd772d27c4e5a29720fa0dd87a74784f28f3ffeb7891873c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118840467"
 ---
 # <a name="buttontransparencycolor"></a>КНОПКА. Транспаренциколор
 
@@ -43,7 +43,7 @@ ms.locfileid: "105699124"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Прозрачный цвет в изображении позволяет отображать все, что находится за изображением, с помощью прозрачных областей. **Кнопка** по-прежнему будет принимать щелчки в прозрачной области.
 
@@ -59,11 +59,11 @@ ms.locfileid: "105699124"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

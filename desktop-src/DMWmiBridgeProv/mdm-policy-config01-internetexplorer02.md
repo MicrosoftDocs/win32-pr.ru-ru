@@ -3071,7 +3071,7 @@ class MDM_Policy_Config01_InternetExplorer02
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

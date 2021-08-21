@@ -17,12 +17,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 29242335edeffbdc44deebb3acacd5631fcc7b68
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 49058a74e8c1f451731ee74eda56ec540135482ac612631fc568da5ef18ccadc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702382"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119568884"
 ---
 # <a name="__classdeletionevent-class"></a>\_\_Класс Классделетионевент
 
@@ -47,7 +47,7 @@ class __ClassDeletionEvent : __ClassOperationEvent
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ \_ классделетионевент** имеет следующие свойства.
 
@@ -94,11 +94,11 @@ class __ClassDeletionEvent : __ClassOperationEvent
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ \_ классделетионевент** является производным от [**\_ \_ классоператионевент**](--classoperationevent.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -110,7 +110,7 @@ class __ClassDeletionEvent : __ClassOperationEvent
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

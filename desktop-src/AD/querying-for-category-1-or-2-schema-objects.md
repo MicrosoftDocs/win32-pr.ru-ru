@@ -9,12 +9,12 @@ keywords:
 - схема AD, выполнение запросов к объектам схемы категории 1 или 2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c67b57821cbebc80b3b6e93d158bbb8af8f7103
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 7f934ba0401c7d782706e1e853819ba935c1315a267c668614878ec41045f63b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104336788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025352"
 ---
 # <a name="querying-for-category-1-or-2-schema-objects"></a>Запрос для объектов схемы категории 1 или 2
 
@@ -48,6 +48,6 @@ ms.locfileid: "104336788"
 
 Имейте в виду, что этот запрос также возвращает объекты **attributeSchema** , у которых нет свойства **systemFlags** , и, следовательно, неявным образом не задан заданный флаг.
 
- 
+ 
 
- 
+ 

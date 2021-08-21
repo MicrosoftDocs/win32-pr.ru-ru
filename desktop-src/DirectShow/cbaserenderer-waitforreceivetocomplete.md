@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9033474c71d23fed106205839071bad200df6a23
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c1f63efa53cc8e8829aba825e831f95595b16faf97bdf29777918c599aadade1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665083"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016792"
 ---
 # <a name="cbaserendererwaitforreceivetocomplete-method"></a>Кбасерендерер. Ваитфоррецеиветокомплете, метод
 
@@ -44,24 +44,24 @@ void WaitForReceiveToComplete();
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Методы [**кбасерендерер:: останавливают**](cbaserenderer-stop.md) и [**Кбасерендерер:: бегинфлуш**](cbaserenderer-beginflush.md) вызывают этот метод, чтобы синхронизировать изменение состояния с методом **Receive** .
 
 В частности, этот метод отправляет сообщения, пока он ожидает, пока флаг [**кбасерендерер:: m \_ бинрецеиве**](cbaserenderer-m-binreceive.md) не станет равным **false**. Флаг принимает **значение true** в методе [**Кбасерендерер::P репаререцеиве**](cbaserenderer-preparereceive.md) и возвращается в **значение false** после того, как метод **Receive** вызовет метод [**кбасерендерер::P репаререндер**](cbaserenderer-preparerender.md) . Производный класс может использовать **препаререндер** для установки палитры. Ожидание завершения **препаререндер** гарантирует, что сообщения о смене палитры будут отправлены, прежде чем произойдет изменение состояния. Это позволяет избежать возможной взаимоблокировки.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ренбасе. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>ренбасе. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,7 +1,7 @@
 ---
-description: Метод Connect завершает соединение с выходным закреплением.
+description: метод Подключение завершает соединение с выходным закреплением.
 ms.assetid: fb20ef5d-e00a-4154-a6da-25bef663c0e7
-title: Метод Кпуллпин. Connect (Пуллпин. h)
+title: Кпуллпин. метод Подключение (пуллпин. h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -16,14 +16,14 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 97e3b0b676e02dee0e3ebd82de9def56edc2ea28
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 37240be1b732410d1e91974922f8ed7dc464b57b2596faa381c646a7513daf26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119073508"
 ---
-# <a name="cpullpinconnect-method"></a>Кпуллпин. Connect, метод
+# <a name="cpullpinconnect-method"></a>Кпуллпин. метод Подключение
 
 `Connect`Метод завершает соединение с выходным закреплением.
 
@@ -81,7 +81,7 @@ HRESULT Connect(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Вызывайте этот метод во время подключения входного контакта. Если метод завершается сбоем, ПИН-код не должен подключиться.
 
@@ -89,18 +89,18 @@ HRESULT Connect(
 
 Если значение *бсинк* равно **true**, то объект **кпуллпин** выполняет синхронные запросы чтения путем вызова [**иасинкреадер:: синкреадалигнед**](/windows/desktop/api/Strmif/nf-strmif-iasyncreader-syncreadaligned)выходного контакта. В противном случае вызывается метод [**иасинкреадер:: request**](/windows/desktop/api/Strmif/nf-strmif-iasyncreader-request) для выполнения перекрывающихся запросов на чтение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Пуллпин. h</dt> </dl>                                                                                                       |
+| Заголовок<br/>  | <dl> <dt>Пуллпин. h</dt> </dl>                                                                                                       |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

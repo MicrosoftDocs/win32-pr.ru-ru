@@ -4,12 +4,12 @@ description: в этом примере кода демонстрируется 
 ms.assetid: 9196ae63-ca9e-43ae-8b4c-a30f1ef700f0
 ms.topic: article
 ms.date: 07/13/2021
-ms.openlocfilehash: b2a7ab939239bd3c0017dfeeeab1487bcb1dce26
-ms.sourcegitcommit: 63c93e0ad0b48d60b11008767196718feb475cb0
+ms.openlocfilehash: 33e257114a4b6da2ed8888f2b80c0eaaabb2584ad3ddb293256ded27a44afb73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "113691663"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028532"
 ---
 # <a name="simpleribbon-sample"></a>Пример Симплериббон
 
@@ -53,9 +53,9 @@ ms.locfileid: "113691663"
 
 | Требование | Значение |
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента | Windows 7<br/> Windows vista с пакетом обновления 2 (sp2) и [обновлением платформы для Windows Vista](https://msdn.microsoft.com/library/dd378748.aspx)<br/>         |
+| Минимальная версия клиента | Windows 7<br/> Windows vista с пакетом обновления 2 (sp2) и [обновлением платформы для Windows Vista](https://msdn.microsoft.com/library/dd378748.aspx)<br/>         |
 | Минимальная версия сервера | Windows Server 2008 R2<br/> Windows сервер 2008 с пакетом обновления 2 (SP2) и [обновлением платформы для Windows Server 2008](https://msdn.microsoft.com/library/dd378748.aspx)<br/> |
-| Пакет Windows SDK              | 7.0                                                                                                                                                                      |
+| Пакет Windows SDK              | 7,0                                                                                                                                                                      |
 | Visual Studio            | 2008                                                                                                                                                                     |
 | Заголовочные и IDL-файлы     | уириббон. h, уириббон. idl                                                                                                                                                 |
 

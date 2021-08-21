@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 01/18/2019
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 238ad815149f7d40dd1902b991608e0a3005eb35
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0df24d1f6de532b635fba03ba5d45fff0fa86393a8924a4b1b55ca565127eb19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105710485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118810758"
 ---
 # <a name="deliveryoptimizationfileproperty-enumeration"></a>Перечисление Деливерйоптимизатионфилепроперти
 
@@ -88,6 +88,6 @@ DOFilePropertyId_TotalSizeBytes
 
 | Требование | Значение |
 |-------------------------------|----------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только для настольных приложений Windows 10 версии 1803\]<br/>      |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server версии 1709\]<br/>  |
-| Header<br/>                   | <dl> <dt>Deliveryoptimization. h</dt> </dl>               |
+| Минимальная версия клиента<br/> | Windows 10, только для \[ настольных приложений версии 1803\]<br/>      |
+| Минимальная версия сервера<br/> | Windows Server, только для \[ настольных приложений версии 1709\]<br/>  |
+| Заголовок<br/>                   | <dl> <dt>Deliveryoptimization. h</dt> </dl>               |

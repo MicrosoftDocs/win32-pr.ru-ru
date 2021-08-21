@@ -15,18 +15,18 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b010e8f0fdce67f16750d0f66d1cf272c8ddb849
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 876fbb5e666680e85854196fb9136bfd4d765d6eecf8f16bf6101bb321a7039a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105647821"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118531291"
 ---
 # <a name="cd3dx12_default-structure"></a>\_Структура по умолчанию CD3DX12
 
 Передает D3D12 \_ по умолчанию в конструктор для каждой вспомогательной структуры. Эта структура просто используется в качестве механизма установки параметров по умолчанию для других вспомогательных структур.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта структура объявляется следующим образом:
 
@@ -39,17 +39,17 @@ extern const DECLSPEC_SELECTANY CD3DX12_DEFAULT D3D12_DEFAULT;
 
 \_Дескриптор CD3DX12 \_ ЦП \_ (CD3DX12 \_ по умолчанию) {PTR = 0;}
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|-------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx12. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx12. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

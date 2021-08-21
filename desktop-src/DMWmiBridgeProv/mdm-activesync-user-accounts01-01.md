@@ -183,7 +183,7 @@ class MDM_ActiveSync_User_Accounts01_01
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -197,7 +197,7 @@ class MDM_ActiveSync_User_Accounts01_01
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

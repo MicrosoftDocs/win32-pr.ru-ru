@@ -4,12 +4,12 @@ description: Синхронизация вызовов
 ms.assetid: e74407ef-f500-4d13-aef4-ca6bb37d5858
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec9254aceaaa8a6fa26d56d4a86987cc955b90dc
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 9969c968294a3dfdbfbc4cb78d40e64ad65c17392bf3b9fd09fc7a5f99b9049b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104070687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048742"
 ---
 # <a name="call-synchronization"></a>Синхронизация вызовов
 
@@ -40,7 +40,7 @@ ms.locfileid: "104070687"
 > [!Note]  
 > Хотя COM обрабатывает асинхронный вызов, синхронные вызовы не могут быть выполнены. Например, реализация [**ондатачанже**](/windows/desktop/api/ObjIdl/nf-objidl-iadvisesink-ondatachange) приложения-контейнера не может содержать вызов [**Иперсистстораже:: Save**](/windows/desktop/api/ObjIdl/nf-objidl-ipersiststorage-save). Эти вызовы являются единственными асинхронными вызовами, поддерживаемыми COM. В настоящее время невозможно создать настраиваемый интерфейс, который является асинхронным.
 
- 
+ 
 
 </dd> <dt>
 
@@ -66,6 +66,6 @@ ms.locfileid: "104070687"
 
 COM управляет вызовами методов путем присвоения идентификатора, называемого *идентификатором логического потока*. Новый назначается, когда пользователь выбирает команду меню или когда приложение инициирует новую операцию COM. Последующие вызовы, связанные с первоначальным вызовом COM, присваиваются тому же ИДЕНТИФИКАТОРу логического потока, что и начальный вызов.
 
- 
+ 
 
- 
+ 

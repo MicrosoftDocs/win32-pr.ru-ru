@@ -4,12 +4,12 @@ ms.assetid: 736715f4-c610-42cc-9fbb-c2b579da69e5
 title: Событие InkEdit. жеста (with. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a61f4fce033672fde8cc4d74dced727fe60b7f97
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a718106f4485682a1b6267f942ec3ef0f5a9fb670449e1f6023d86a5b03af56
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032082"
 ---
 # <a name="inkeditgesture-event"></a>Событие InkEdit. жест
 
@@ -67,7 +67,7 @@ HRESULT Gesture(
 
 Если это событие завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод события определен в интерфейсе **\_ иинкедитевентс** . Интерфейс **\_ иинкедитевентс** реализует интерфейс IDispatch с идентификатором DISPID \_ иижестуре.
 
@@ -102,20 +102,20 @@ HRESULT Gesture(
 2.  В обработчике событий **жеста** отмените событие **жеста** для жеста и выполните альтернативное действие для жеста.
 3.  В обработчике событий [**Stroke**](inkedit-stroke.md) отмените событие **Stroke** для объекта [**иинкстрокедисп**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp) , вызвавшего отмененное событие **жеста** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/>                                                 |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/>                                                 |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                                     |
-| Header<br/>                   | <dl> <dt>«С». h (также требует \_ ввода i. c)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>«С». h (также требует \_ ввода i. c)</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>InkEd.dll</dt> </dl>                          |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

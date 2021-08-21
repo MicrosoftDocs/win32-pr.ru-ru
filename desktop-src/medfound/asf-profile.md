@@ -4,12 +4,12 @@ ms.assetid: 03a0981b-29c3-450d-aa58-bc56a76e6cb6
 title: Профиль ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 616670e7de68fd73c168c474544fc6236f1586e0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4d38d5d2c869bd8af61289fa15361d216f686abac4eaa366b3c036f40338d355
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104539647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035530"
 ---
 # <a name="asf-profile"></a>Профиль ASF
 
@@ -36,21 +36,21 @@ ms.locfileid: "104539647"
 | Раздел                                                                                           | Описание                                                        |
 |-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
 | [Создание профиля ASF](creating-an-asf-profile.md)<br/>                               | Описывает создание объекта профиля ASF.<br/>          |
-| [Создание и настройка потоков ASF](creating-and-configuring-asf-streams.md)<br/>     | Описывает добавление потоков в профиль ASF.<br/>         |
-| [Использование взаимного исключения для потоков ASF](using-mutual-exclusion-for-asf-streams.md)<br/> | Описывает добавление взаимоисключающих исключений в потоки ASF. <br/> |
+| [создание и настройка ASF Потоки](creating-and-configuring-asf-streams.md)<br/>     | Описывает добавление потоков в профиль ASF.<br/>         |
+| [использование взаимного исключения для ASF Потоки](using-mutual-exclusion-for-asf-streams.md)<br/> | Описывает добавление взаимоисключающих исключений в потоки ASF. <br/> |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Типы носителей](media-types.md)
 </dt> <dt>
 
-[Учебник. 1. Передача кодирования мультимедиа Windows](tutorial--1-pass-windows-media-encoding.md)
+[учебник. 1. передача Windowsного кодирования мультимедиа](tutorial--1-pass-windows-media-encoding.md)
 </dt> <dt>
 
 [Руководство. запись файла WMA с помощью CBR Encoding](tutorial--writing-a-wma-file-by-using-cbr-encoding.md)

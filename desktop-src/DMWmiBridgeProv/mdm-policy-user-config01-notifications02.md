@@ -99,7 +99,7 @@ class MDM_Policy_User_Config01_Notifications02
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
