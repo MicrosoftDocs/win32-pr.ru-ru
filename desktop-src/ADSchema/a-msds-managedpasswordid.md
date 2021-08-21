@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 029128133e8e5003d2b3b1905ea597eb04ce7179
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 03ba91db79119515d70bc52e170307f4a2433a6680975d953a876d210b089797
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105655444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119552324"
 ---
 # <a name="ms-ds-managedpasswordid-attribute"></a>Атрибут ms-DS-Манажедпассвордид
 
@@ -52,10 +52,10 @@ ms.locfileid: "105655444"
 |------------------------|---------------------------------------------------------------------------------------------|
 | Идентификатор ссылки                | \-                                                                                          |
 | MAPI-Id                | \-                                                                                          |
-| System-Only            | True                                                                                        |
-| Является однозначным       | True                                                                                        |
-| Индексируется             | Неверно                                                                                       |
-| В глобальном каталоге      | Неверно                                                                                       |
+| System-Only            | Верно                                                                                        |
+| Является однозначным       | Верно                                                                                        |
+| Индексируется             | Нет                                                                                       |
+| В глобальном каталоге      | Нет                                                                                       |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                |
 | Range-Lower            | \-                                                                                          |
 | Range-Upper            | \-                                                                                          |

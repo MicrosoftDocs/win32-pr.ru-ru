@@ -8,12 +8,12 @@ keywords:
 - ADSI ADSI, использование с помощью интерфейса Идиректорйобжект
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3174402a629bc02df2b1fffe07cc8fba1d73193c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d085344e5d2d1afe975dd347ff9e9cf4cdad99c1177819e0094b7a83f2219fb8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103772893"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023090"
 ---
 # <a name="using-the-idirectoryobject-interface"></a>Использование интерфейса Идиректорйобжект
 
@@ -23,9 +23,9 @@ ms.locfileid: "103772893"
 
 На предыдущем рисунке в [**\_ \_ сведениях об объекте структуры ADS**](/windows/desktop/api/Iads/ns-iads-ads_object_info) определяются свойства, которые определяют объект по различающемся имени, относительное различающееся имя, по контейнеру (парентдн), по типу объекта (классдн) и по определению схемы (счемадн). [**\_ \_ Сведения о**](/windows/desktop/api/Iads/ns-iads-ads_attr_info) атрибутах attr дескриптора атрибута состоят из имени, типа данных, массива значений данных, показанного в [**адсвалуе**](/windows/desktop/api/Iads/ns-iads-adsvalue), и флага, направляющего базовую службу каталогов для выполнения определенных операций с атрибутами, подробно описанными в таблице [объявления \_ attr \_ \*](adsi-constants.md). Типы данных этих атрибутов включают расширенные типы синтаксиса ADSI, которые подробно описаны в [**адстипинум**](/windows/win32/api/iads/ne-iads-adstypeenum).
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,9 +3,9 @@ title: Считывание метаданных при воспроизведе
 description: Считывание метаданных при воспроизведении
 ms.assetid: 48d37a9e-5e22-4298-abc4-b69998906dcb
 keywords:
-- Windows Media Format SDK, чтение метаданных
-- Пакет SDK для Windows Media Format, асинхронный читатель
-- Пакет SDK для Windows Media Format, синхронные средства чтения
+- Windows Пакет SDK для формата мультимедиа, чтение метаданных
+- Windows Пакет SDK для формата мультимедиа, асинхронный читатель
+- Windows Пакет SDK для формата мультимедиа, синхронные средства чтения
 - Расширенный системный формат (ASF), чтение метаданных
 - ASF (Расширенный системный формат), чтение метаданных
 - Расширенный системный формат (ASF), асинхронный читатель
@@ -17,12 +17,12 @@ keywords:
 - метаданные, чтение при воспроизведении
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42a2515dd62092d02a45b0261fe2b501e0833a31
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: f62100da8c2f27e626e27ae6686e08f7217867ec2775f69292aac495d218fcb8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104069686"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027352"
 ---
 # <a name="reading-metadata-at-playback"></a>Считывание метаданных при воспроизведении
 
@@ -30,16 +30,16 @@ ms.locfileid: "104069686"
 
 Дополнительные сведения о доступе к метаданным см. [в разделе Работа с метаданными](working-with-metadata.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Чтение файлов ASF**](reading-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

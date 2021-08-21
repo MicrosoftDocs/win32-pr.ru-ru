@@ -4,12 +4,12 @@ description: Описывает перечислимые типы, которы�
 ms.assetid: d59f017e-df32-4826-954d-9ba338282d0d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db410564ab97f0477ecac8aeda2b54b8fd655d62
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 1db5f95aabc75fa0a179fd50295062c154d0c4c1c0d8b14b3cde7211f99fef64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104339760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119059852"
 ---
 # <a name="task-scheduler-20-enumerated-types"></a>Перечислимые типы планировщик задач 2,0
 
@@ -39,7 +39,7 @@ ms.locfileid: "104339760"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

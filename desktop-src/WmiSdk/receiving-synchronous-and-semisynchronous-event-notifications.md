@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Получение синхронных и Семисинчронаус уведомлений о событиях
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15327c66f7ba3e59824c94d54a206ec348c85952
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8657767150012124c3ccb0df8d95896f51b36ef47fa00998cf786df9beddf977
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693270"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118817263"
 ---
 # <a name="receiving-synchronous-and-semisynchronous-event-notifications"></a>Получение синхронных и Семисинчронаус уведомлений о событиях
 
@@ -20,7 +20,7 @@ ms.locfileid: "105693270"
 
 `Select * from Win32_NTLogEvent`
 
-Дополнительные сведения см. в статьях [Определение типа получаемого события](determining-the-type-of-event-to-receive.md), [Получение уведомлений о событиях](receiving-event-notifications.md)и [WQL (SQL для WMI)](wql-sql-for-wmi.md).
+дополнительные сведения см. в статьях [определение типа получаемого события](determining-the-type-of-event-to-receive.md), [получение уведомлений о событиях](receiving-event-notifications.md)и [WQL (SQL для WMI)](wql-sql-for-wmi.md).
 
 При вызове [**SWbemServices.Exeкнотификатионкуери**](swbemservices-execnotificationquery.md) по умолчанию используется обмен данными семисинчронаус. По умолчанию для параметра *ифлагс* заданы флаги **вбемфлагфорвардонли** и **вбемфлагретурниммедиатели** . Дополнительные сведения см. [в разделе вызов метода](calling-a-method.md).
 
@@ -34,7 +34,7 @@ ms.locfileid: "105693270"
 
 3.  При необходимости укажите экземпляр, например имя пространства имен при запросе будущих экземпляров [**\_ \_ намеспацемодификатионевент**](--namespacemodificationevent.md) для определенного пространства имен.
 
-4.  Укажите интервал опроса для инструментарий управления Windows (WMI) (WMI) в запросе, например "в течение 10", для опроса каждые 10 секунд. Дополнительные сведения см. [в разделе предложение внутри](within-clause.md).
+4.  укажите интервал опроса для инструментарий управления Windows (WMI) (WMI) в запросе, например "в течение 10", для опроса каждые 10 секунд. Дополнительные сведения см. [в разделе предложение внутри](within-clause.md).
 
 5.  Вызовите [**SWbemServices.Exeкнотификатионкуери**](swbemservices-execnotificationquery.md) с помощью запроса.
 

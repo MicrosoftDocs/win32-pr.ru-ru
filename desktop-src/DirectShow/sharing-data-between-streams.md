@@ -1,20 +1,20 @@
 ---
-description: Обмен данными между потоками
+description: обмен данными между Потоки
 ms.assetid: e18eecf8-9475-420a-9a60-4b1b5f8fd43a
-title: Обмен данными между потоками
+title: обмен данными между Потоки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee0b2f53fe1952bbc16711f7c7e39c3182ba94a7
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f4137d56a9d90f524ee2e5c67b6a4d726d9478e824513d0fe7879c95ce094af1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104495234"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072568"
 ---
-# <a name="sharing-data-between-streams"></a>Обмен данными между потоками
+# <a name="sharing-data-between-streams"></a>обмен данными между Потоки
 
 > [!Note]  
-> Эти API-интерфейсы являются устаревшими. Приложения должны использовать [**образец фильтра захвата**](sample-grabber-filter.md) или реализовать настраиваемый фильтр для получения данных из графа фильтра DirectShow.
+> Эти API-интерфейсы являются устаревшими. приложения должны использовать [**образец фильтра захвата**](sample-grabber-filter.md) или реализовать настраиваемый фильтр для получения данных из графа фильтра DirectShow.
 
  
 

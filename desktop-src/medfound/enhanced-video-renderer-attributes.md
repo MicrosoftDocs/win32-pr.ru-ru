@@ -4,12 +4,12 @@ ms.assetid: 33f9bb09-625f-4bbb-a884-70c6bba3700b
 title: Атрибуты Евр
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 508b036a7880c48e65d3c07a80ba5baaa5a52306
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8b5af186a909dc672876eb12846e842360ccabfd3f2cc1de8f203d3e40d94ce7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105710815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974543"
 ---
 # <a name="evr-attributes"></a>Атрибуты Евр
 
@@ -43,7 +43,7 @@ ms.locfileid: "105710815"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 1654af97-f4fe-427f-b562-3b109e921719
 title: Получение сведений из объектов заголовка ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f25155929c9e3ba7e59ee1b5f46ea7c5930c3e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 346e57721137fd6064e4d6b9fd21080d96c10e740bb7f7ed45bf3fef4cc92722
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105710813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974443"
 ---
 # <a name="getting-information-from-asf-header-objects"></a>Получение сведений из объектов заголовка ASF
 
@@ -67,7 +67,7 @@ HRESULT GetPlayDuration(
 
 Файл ASF может содержать несколько свойств метаданных, заданных во время кодирования файлов. Приложение может перечислить эти свойства с помощью объекта Контентинфо. Некоторые из этих свойств, такие как сведения о переменной скорости (VBR), доступны приложению с помощью атрибутов в дескрипторе представления, потоках и типах мультимедиа для файла мультимедиа. Эти атрибуты задаются для объекта Контентинфо во время инициализации через вызов [**парсехеадер**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-parseheader) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

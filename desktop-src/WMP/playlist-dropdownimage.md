@@ -3,7 +3,7 @@ title: Список воспроизведения. Дропдовнимаже
 description: Атрибут Дропдовнимаже указывает или получает имя изображения, используемого для кнопки раскрывающегося списка, которая отображается в правом крае раскрывающегося списка.
 ms.assetid: 92454a8a-1688-4b5d-887d-6847f4232d87
 keywords:
-- Проигрыватель Windows Media Player. Дропдовнимаже
+- проигрыватель Windows Media списка воспроизведения. дропдовнимаже
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f583fb0cb7b10bd56c19a3863649ac750f5b254a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b3173462cc7b055639a685917b87f1560adf5eabc8d0d7678788fa6a6c72129d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054212"
 ---
 # <a name="playlistdropdownimage"></a>Список воспроизведения. Дропдовнимаже
 
@@ -31,21 +31,21 @@ ms.locfileid: "105704209"
 
 Этот атрибут является **строкой** для чтения и записи, содержащей имя файла изображения. У него нет значения по умолчанию.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут поддерживает файлы PNG, JPG, BMP и GIF. Если изображение является 8-битным файлом BMP, его значения тона и насыщенности можно динамически изменить с помощью атрибутов **хуешифт** и **насыщенности** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

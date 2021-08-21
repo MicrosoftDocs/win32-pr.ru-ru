@@ -1,20 +1,20 @@
 ---
-title: Советы по повышению производительности OpenGL
-description: Советы по повышению производительности OpenGL
+title: Советы производительности OpenGL
+description: Советы производительности OpenGL
 ms.assetid: f85bf725-1361-49b9-894c-c803b2dead60
 keywords:
 - OpenGL, советы по повышению производительности
 - OpenGL, рекомендации
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7e5b6fa33f8d6841d0fd47d1a655ef99facc84e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0fe91602d4a30767ed1e66e62d33445bf37152ede2cf9f8450e056f577cb3045
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103776130"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118936834"
 ---
-# <a name="opengl-performance-tips"></a>Советы по повышению производительности OpenGL
+# <a name="opengl-performance-tips"></a>Советы производительности OpenGL
 
 Эти методики программирования оптимизируют производительность приложения:
 
@@ -40,9 +40,9 @@ ms.locfileid: "103776130"
 -   Старайтесь не вносить изменения в избыточный режим, например устанавливать для цвета одно и то же значение между вершинами плоского многоугольника.
 -   При рисовании или копировании изображений отключите растрирование и операции для отдельных фрагментов, чтобы оптимизировать ресурсы. OpenGL может применять текстуры к изображениям пикселей.
 
- 
+ 
 
- 
+ 
 
 
 

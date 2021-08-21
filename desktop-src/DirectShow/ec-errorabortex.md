@@ -4,12 +4,12 @@ ms.assetid: de7b5222-3a29-40cc-af1a-2672bd68b7c9
 title: EC_ERRORABORTEX (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b3bf1e1f24f9d5b07312f542c1ce4ea671f601d
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 18f0cb010e6ebf94f69cd8bbebfc7cdeea16d1d085069ad2f12fedb6fbf4a266
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108094612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015982"
 ---
 # <a name="ec_errorabortex"></a>EC \_ еррорабортекс
 
@@ -39,15 +39,15 @@ ms.locfileid: "108094612"
 
 ## <a name="remarks"></a>Remarks
 
-Устаревший фильтр [источника Windows Media](windows-media-source-filter.md) отправляет это событие. Новые фильтры не должны отсылать это событие.
+фильтр [источника Windows носителя](windows-media-source-filter.md) прежних версий отправляет это событие. Новые фильтры не должны отсылать это событие.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>DShow. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>DShow. h</dt> </dl> |
 
 
 

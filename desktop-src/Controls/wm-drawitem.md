@@ -3,7 +3,7 @@ title: Сообщение WM_DRAWITEM (Winuser. h)
 description: Посылается родительскому окну рисуемой владельцем кнопки, поля со списком, списка или меню при изменении визуального элемента кнопки, поля со списком, списка или меню.
 ms.assetid: e54bae5e-10d6-43b0-a766-1b270c8873a9
 keywords:
-- Элементы управления Windows для WM_DRAWITEM сообщений
+- элементы управления Windows сообщений WM_DRAWITEM
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d5bd6465a560a0590ed9f5b483afae4c0d72d637
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8f5d4b2addfa2de5f8c76ded636ca29a96fb3af7e0ab4157d25ac26a78c462c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103802171"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957523"
 ---
 # <a name="wm_drawitem-message"></a>\_Сообщение DRAWITEM WM
 
@@ -59,7 +59,7 @@ WM_DRAWITEM
 
 Если приложение обрабатывает это сообщение, оно должно возвращать **значение true**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 По умолчанию функция [**дефвиндовпрок**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) рисует прямоугольник фокуса для элемента списка, рисуемого владельцем.
 
@@ -67,19 +67,19 @@ WM_DRAWITEM
 
 Перед возвратом из обработки этого сообщения приложение должно убедиться, что контекст устройства, определенный членом *HDC* структуры [**дравитемструкт**](/windows/win32/api/winuser/ns-winuser-drawitemstruct) , находится в состоянии по умолчанию.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

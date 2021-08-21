@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8747d68673e7df81e7f1b0d6abb2058d17028bc7
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 0ad79b4eea451137c9efac7ffc3927e3e6aa69adce812702743272fb6f14f3db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104532624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083938"
 ---
 # <a name="wmparentalrating"></a>WM/Паренталратинг
 
@@ -42,18 +42,18 @@ g \_ всзвмпаренталратинг
 
 
 
- 
+ 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [**Список атрибутов**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

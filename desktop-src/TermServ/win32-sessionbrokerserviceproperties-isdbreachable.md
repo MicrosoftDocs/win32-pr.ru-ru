@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d3a59b8b0eba80dd832b3967b5e626642684f0c1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c1cd7aaf2035251c503d85683f9aa9e9fe7b7f6285084a97133f0573ba41d79c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104490581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118848421"
 ---
 # <a name="isdbreachable-method-of-the-win32_sessionbrokerserviceproperties-class"></a>Метод Исдбреачабле \_ класса Win32 сессионброкерсервицепропертиес
 
@@ -57,7 +57,7 @@ uint32 IsDbReachable(
 
 Вторичная строка подключения к центральной базе данных.
 
-**Windows server 2012 R2 и Windows server 2012:** Этот параметр недоступен до Windows Server 2016.
+**Windows Server 2012 R2 и Windows Server 2012:** Этот параметр недоступен до Windows Server 2016.
 
 </dd> <dt>
 
@@ -66,11 +66,11 @@ uint32 IsDbReachable(
 
 Имя активного брокера.
 
-**Windows server 2012 R2 и Windows server 2012:** Этот параметр недоступен до Windows Server 2016.
+**Windows Server 2012 R2 и Windows Server 2012:** Этот параметр недоступен до Windows Server 2016.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -84,7 +84,7 @@ uint32 IsDbReachable(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

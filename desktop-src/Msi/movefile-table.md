@@ -4,12 +4,12 @@ ms.assetid: 9ba47bdc-90c8-444a-ba8b-71c723b54556
 title: Таблица MoveFile
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2340626e745627c3c6146998c851a076d21ab81a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 49d90afe8a5fb950f2e6fdb96ba0f8af4f8969226a5dc219bc9cd0598481beb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103818577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118945099"
 ---
 # <a name="movefile-table"></a>Таблица MoveFile
 
@@ -21,11 +21,11 @@ ms.locfileid: "103818577"
 
 | Столбец       | Type                         | Ключ | Допускает значения NULL |
 |--------------|------------------------------|-----|----------|
-| филекэй      | [Идентификатор](identifier.md) | Да   | Нет        |
+| филекэй      | [Идентификатор](identifier.md) | Д   | Нет        |
 | Компонент\_  | [Идентификатор](identifier.md) | Нет   | Нет        |
-| SourceName   | [Text](text.md)             | Нет   | Да        |
-| дестнаме     | [Имя файла](filename.md)     | Нет   | Да        |
-| SourceFolder | [Идентификатор](identifier.md) | Нет   | Да        |
+| SourceName   | [Text](text.md)             | Нет   | Д        |
+| дестнаме     | [Имя файла](filename.md)     | Нет   | Д        |
+| SourceFolder | [Идентификатор](identifier.md) | Нет   | Д        |
 | DestFolder   | [Идентификатор](identifier.md) | Нет   | Нет        |
 | Параметры      | [Integer](integer.md)       | Нет   | Нет        |
 
@@ -97,7 +97,7 @@ ms.locfileid: "103818577"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если в столбце \* SourceName таблицы MoveFile указан подстановочный знак "", а имя целевого файла указано в столбце дестнаме, то все перемещенные или скопированные файлы сохранили имена в источниках.
 

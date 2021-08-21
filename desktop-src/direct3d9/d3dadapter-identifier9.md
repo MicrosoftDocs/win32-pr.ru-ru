@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 85401573956d29386b5ddabbd48711a7be140463
-ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
+ms.openlocfilehash: 843dff64de7ad4b97b2719f469bb8fb13813f06b8045d7de1b9f5ec4215a76ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113129973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989244"
 ---
 # <a name="d3dadapter_identifier9-structure"></a>\_Структура IDENTIFIER9 D3DADAPTER
 
@@ -49,11 +49,11 @@ typedef struct D3DADAPTER_IDENTIFIER9 {
 
 
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 <dl> <dt>
 
-**Драйвер**
+**Driver**
 </dt> <dd>
 
 Тип: **char**
@@ -181,7 +181,7 @@ typedef struct D3DADAPTER_IDENTIFIER9 {
 
 </dd> <dd>
 
-Используется для определения уровня проверки лаборатории WHQL для этой пары драйверов и устройств. DWORD — это упакованная структура даты, определяющая дату выпуска последнего теста WHQL, переданного драйвером. В этом значении допускается выполнение < и > операций. Ниже показан формат даты.
+используется для определения уровня проверки для этой пары драйверов и устройств — Windows уровне лаборатории WHQL. DWORD — это упакованная структура даты, определяющая дату выпуска последнего теста WHQL, переданного драйвером. В этом значении допускается выполнение < и > операций. Ниже показан формат даты.
 
 
 
@@ -210,7 +210,7 @@ typedef struct D3DADAPTER_IDENTIFIER9 {
 
 Различия между Direct3D 9 и Direct3D 9Ex:
 
-Для Direct3D9Ex, работающей в Windows Vista, Windows Server 2008, Windows 7 и Windows Server 2008 R2 (или более текущей операционной системы), [**IDirect3D9:: жетадаптеридентифиер**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-getadapteridentifier) возвращает 1 для уровня WHQL без проверки состояния драйвера.
+для Direct3D9Ex, работающей в Windows Vista, Windows server 2008, Windows 7 и Windows server 2008 R2 (или более текущей операционной системы), [**IDirect3D9:: жетадаптеридентифиер**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-getadapteridentifier) возвращает 1 для уровня WHQL без проверки состояния драйвера.
 
 </dd> </dl>
 
@@ -241,7 +241,7 @@ Build = LOWORD(DriverVersion.LowPart)
 
 Члены VendorId, DeviceId, Субсисид и Revision можно использовать совместно для обнаружения определенных наборов микросхем. Тем не менее, используйте эти члены с осторожностью.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

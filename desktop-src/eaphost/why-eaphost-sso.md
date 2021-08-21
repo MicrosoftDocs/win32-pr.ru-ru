@@ -4,12 +4,12 @@ description: Содержит два сценария, демонстрирую�
 ms.assetid: 2a5cbcae-74fe-4241-9e20-ec1ec5d9ed8a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 975310489758e299d1100584551296476c4690ca
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: 1bc9be7af26844004073f21154df5ac12cb44d4eaa04fddc457b729ffe5e1083
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "104133358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119042782"
 ---
 # <a name="sso-eaphost-scenario-overview"></a>Обзор сценария с единым входом EAPHost
 
@@ -35,16 +35,16 @@ ms.locfileid: "104133358"
 
 Пошаговый подход см. в разделе поведение при [изменении пароля единого входа](sso-password-change-behavior-.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Единый вход и PLAP](understanding-sso-and-plap.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

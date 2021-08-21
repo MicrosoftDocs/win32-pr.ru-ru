@@ -4,28 +4,28 @@ ms.assetid: 23688f1e-3ae8-4cd9-824c-36077cc7838f
 title: Костингкомплете, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 817b4d38b71e377bbf9b51588efef33e4fd6e93e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a5a512621e187be9897c07106ade8c6012d4ac4fa43543d71cb856e90027d549
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651778"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118948361"
 ---
 # <a name="costingcomplete-property"></a>Костингкомплете, свойство
 
 Свойство **костингкомплете** указывает, завершила ли программа установки затраты места на диске. Это свойство можно использовать для создания диалогового окна, запускаемого, если не было завершено расчет стоимости. Свойство задается динамически во время учета места на диске и устанавливается равным 1 сразу после завершения расчета стоимости. Это свойство инициализируется значением 0 с помощью [действия костфинализе](costfinalize-action.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Пример создания "Подождите. . . "диалоговое окно, которое появляется во время учета затрат места на диске, см. в разделе [создание условного выражения" Подождите... ". Окно сообщения](authoring-a-conditional-please-wait-------message-box.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

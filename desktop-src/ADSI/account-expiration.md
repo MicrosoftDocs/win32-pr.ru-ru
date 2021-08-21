@@ -8,12 +8,12 @@ keywords:
 - Поставщики LDAP ADSI, примеры управления пользователями, истечение срока действия учетной записи
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c03ea33d8d5abb219c2b562aa05058b5dec45919
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 645ce5e2e1ae72ace0a8a642642eb5c15e7eabd63d51dba3f03596869bfb9efc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "105654353"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024072"
 ---
 # <a name="account-expiration-ldap-provider"></a>Истечение срока действия учетной записи (поставщик LDAP)
 
@@ -86,8 +86,8 @@ HRESULT SetUserAccountExpirationDate(IADsUser *pUser, DATE date)
 > [!Note]  
 > Атрибут [**accountExpires**](/windows/desktop/ADSchema/a-accountexpires) содержит дату окончания срока действия учетной записи. В оснастке MMC "Active Directory пользователи и компьютеры" отображается дата истечения срока действия учетной записи в конце. То есть оснастка консоли управления Active Directory "пользователи и компьютеры" отобразит дату истечения срока действия учетной записи как один день раньше даты, содержащейся в атрибуте **accountExpires** .
 
- 
+ 
 
- 
+ 
 
- 
+ 

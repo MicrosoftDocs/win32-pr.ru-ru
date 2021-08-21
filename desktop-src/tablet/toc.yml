@@ -17,11 +17,11 @@
               href: which-library-version-to-reference.md
             - name: Управляемая библиотека и элементы управления (планшетный ПК)
               href: managed-library-and-controls--tablet-pc.md
-            - name: Windows Presentation Foundation (планшетный ПК)
+            - name: Windows Presentation Foundation (планшетный пк)
               href: windows-presentation-foundation--tablet-pc.md
-            - name: Библиотека COM и элементы ActiveX (планшетный ПК)
+            - name: COM-библиотека и элементы управления ActiveX (планшетный пк)
               href: com-library-and-activex-controls--tablet-pc.md
-        - name: Вопросы и ответы
+        - name: Часто задаваемые вопросы
           href: frequently-asked-questions.yml
     - name: Программирование для планшетных ПК
       href: programming-the-tablet-pc.md
@@ -106,7 +106,7 @@
                   href: understanding-wordlists--the-recognizercontext--and-factoids.md
                 - name: Использование словарей приложений с интерфейсами API платформы Tablet PC
                   href: using-application-dictionaries-with-the-tablet-pc-platform-apis.md
-                - name: Создание пользовательских словарей для распознавания рукописного текста в Windows 7 и Windows Server 2008 R2
+                - name: создание пользовательских словарей для распознавания рукописного текста в Windows 7 и Windows Server 2008 R2
                   href: creating-custom-dictionaries-for-handwriting-recognition-in-windows-7-and-windows-server-2008-r2.md
             - name: 'Свойство достоверности [о распознавании'
               href: confidence-property--about-recognition.md
@@ -190,7 +190,7 @@
               href: basic-recognition-and-ink-analysis.md
             - name: Прокси-сервер данных с анализом рукописного ввода
               href: data-proxy-with-ink-analysis.md
-            - name: Поток событий прокси-сервера данных
+            - name: Flow событий прокси-сервера данных
               href: data-proxy-event-flow.md
             - name: Объект разделителя
               href: the-divider-object.md
@@ -214,7 +214,7 @@
         - name: Элементы управления рукописным вводом
           href: ink-controls.md
           items:
-            - name: Добавление элементов управления рукописного ввода в проект
+            - name: Добавление элементов управления рукописного ввода в Project
               href: adding-ink-controls-to-a-project.md
             - name: Элемент управления InkEdit
               href: inkedit-control.md
@@ -276,7 +276,7 @@
               href: ink-recognition.md
             - name: Анализ рукописного ввода
               href: ink-analysis.md
-            - name: Распознавание рукописного текста в Windows Server 2008 R2
+            - name: распознавание рукописного ввода в Windows Server 2008 R2
               href: handwriting-recognition-in-windows-server-2008-r2.md
         - name: Программирование элемента управления математическими данными
           href: programming-the-math-input-control.md
@@ -314,7 +314,7 @@
                   href: factoid-support.md
                 - name: инфраструктуры текстовых служб (TSF)
                   href: text-services-framework.md
-                - name: Рекомендации
+                - name: Советы и рекомендации
                   href: best-practices.md
         - name: Рекомендации по потокам для планшетных ПК
           href: tablet-pc-threading-considerations.md
@@ -344,7 +344,7 @@
                   href: recognizercontext-object-events.md
                 - name: События коллекции штрихов
                   href: strokes-collection-events.md
-        - name: Поддержка ножниц в Windows Vista
+        - name: поддержка ножниц в Windows Vista
           href: snipping-tool-support-in-windows-vista.md
         - name: Речь и специальные возможности
           href: speech-and-accessibility.md
@@ -354,7 +354,7 @@
             - name: Предоставление доступа к элементам управления и меню
               href: exposing-controls-and-menus.md
               items:
-                - name: Использование стандартных элементов управления Windows
+                - name: использование стандартных элементов управления Windows
                   href: using-standard-windows-controls.md
                 - name: Использование пользовательских элементов управления
                   href: using-custom-controls.md
@@ -436,7 +436,7 @@
               href: scanned-paper-form-sample.md
             - name: Пример сведений о платформе Tablet PC
               href: tablet-pc-platform-info-sample.md
-        - name: Поддержка сенсорного ввода в Windows Vista
+        - name: поддержка сенсорного ввода в Windows Vista
           href: touch-input-support-in-windows-vista.md
         - name: Использование жестов
           href: using-gestures.md
@@ -2383,7 +2383,7 @@
                       href: /previous-versions/windows/desktop/legacy/dd317351(v=vs.85)
                     - name: Вставить метод
                       href: /previous-versions/windows/desktop/legacy/dd317352(v=vs.85)
-                    - name: Метод Paint
+                    - name: Paint Method
                       href: /previous-versions/windows/desktop/legacy/dd317353(v=vs.85)
                 - name: имасинпутконтрол
                   href: /windows/desktop/api/micaut/nn-micaut-imathinputcontrol

@@ -13,12 +13,12 @@ keywords:
 - шаблоны элементов управления, сведения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6a80fb7d4323f3f0ec51971d5fcbfc09989e634
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b5a7e8da8be870ad0159a98333ce358efb6efec31966de53bfaad58b21b9cdbc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105654215"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118827390"
 ---
 # <a name="custom-properties-events-and-control-patterns"></a>Пользовательские свойства, события и шаблоны элементов управления
 
@@ -29,7 +29,7 @@ API Microsoft UI Automation определяет предопределенны�
 -   [Разработка пользовательских свойств, событий и шаблонов элементов управления](uiauto-designingcustompropseventpatterns.md)
 -   [Регистрация пользовательских свойств, событий и шаблонов элементов управления](uiauto-regcustompropseventpatterns.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -48,9 +48,9 @@ API Microsoft UI Automation определяет предопределенны�
 [Основы модели автоматизации пользовательского интерфейса](entry-uiautocore-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

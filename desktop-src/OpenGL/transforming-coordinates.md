@@ -11,12 +11,12 @@ keywords:
 - Преобразование координат OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 504a5a58c723dcccfc54ce2f47a01710133ccc30
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fe3c2e4f8c0dd9540e8ba7963640072ebf44997cf9d99e807f31914ddf8eed4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103779472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119553574"
 ---
 # <a name="transforming-coordinates"></a>Преобразование координат
 
@@ -28,9 +28,9 @@ ms.locfileid: "103779472"
 
 Функция [**глуунпрожект**](gluunproject.md) выполняет обратное преобразование: оно Преобразует указанное окно координат *Винкс*, *Вини* и *Винз* в объектные координаты с помощью *моделматрикс*, *прожматрикс* и *окна просмотра*. Результат сохраняется в *обжкс*, *обжи* и *обжз*. Если функция выполнена удачно, возвращается значение GL \_ true. Если функция завершается ошибкой, возвращается значение GL \_ false.
 
- 
+ 
 
- 
+ 
 
 
 

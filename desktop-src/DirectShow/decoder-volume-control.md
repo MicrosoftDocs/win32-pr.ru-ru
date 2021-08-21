@@ -4,12 +4,12 @@ ms.assetid: 94d68722-a0c2-47a7-a0a0-ae315f8f31ed
 title: Регулятор громкости декодера
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4ce525f8b39e873d2c0002ac283014a9bcbe87c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 93e96ed9efb17a4fb32c41d8b10313edbe015c202b7f7d1f4287e1af20cca559
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104423098"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953153"
 ---
 # <a name="decoder-volume-control"></a>Регулятор громкости декодера
 
@@ -41,7 +41,7 @@ HKLM\SYSTEM\
 
 Для реализации регулятора громкости драйвер также должен поддерживать **кспропсетид \_ wave** и KsProperty.ID = кспроперти \_ Wave \_ . Это свойство передается в драйвер с помощью методов [**икспропертисет:: Get**](ikspropertyset-get.md) и [**Икспропертисет:: Set**](ikspropertyset-set.md) . В полях Лефтаттенуатион и Ригхтаттентуатион в качестве линейных значений в диапазоне от Символ 0x0000 до 0xFFFF.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

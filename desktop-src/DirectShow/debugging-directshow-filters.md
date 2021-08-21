@@ -1,19 +1,19 @@
 ---
-description: Многие из средств отладки, описываемых в этом разделе, реализуются в библиотеке базовых классов DirectShow. Дополнительные сведения см. в разделе базовые классы DirectShow.
+description: многие из средств отладки, описываемых в этом разделе, реализуются в DirectShow библиотеке базовых классов. дополнительные сведения см. в разделе DirectShow базовых классов.
 ms.assetid: 40b4f2ab-e629-41a0-b979-d74ac5fe83a2
-title: Отладка фильтров DirectShow
+title: отладка фильтров DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1198e17f438d57775ea0f74d5920f63dc4761743
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e54532b68df09b78b3b03aa95d7dda5c84cdf7d770cffd131e47228e6d88cba2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104538069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953293"
 ---
-# <a name="debugging-directshow-filters"></a>Отладка фильтров DirectShow
+# <a name="debugging-directshow-filters"></a>отладка фильтров DirectShow
 
-Многие из средств отладки, описываемых в этом разделе, реализуются в библиотеке базовых классов DirectShow. Дополнительные сведения см. в разделе [базовые классы DirectShow](directshow-base-classes.md).
+многие из средств отладки, описываемых в этом разделе, реализуются в DirectShow библиотеке базовых классов. дополнительные сведения см. в разделе [DirectShow базовых классов](directshow-base-classes.md).
 
 ## <a name="assertion-checking"></a>Проверка утверждения
 
@@ -63,7 +63,7 @@ DbgLog((LOG_TRACE, 3, TEXT("Disconnected pin %d"), iPin));
 
 Можно также использовать функцию [**дбглокктраце**](dbglocktrace.md) для трассировки при удержании или освобождении критических секций.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

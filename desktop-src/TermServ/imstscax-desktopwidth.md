@@ -64,12 +64,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 16cd1391c6aeb27d9ec0f87317b06e9084337fbb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ca982303208bb2badecf210c9590f627a7b3b57c5acd9ecd7f8fee0bbb70ec93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534133"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119058851"
 ---
 # <a name="imstscaxdesktopwidth-property"></a>Имстскакс: свойство Есктопвидс:D
 
@@ -100,20 +100,20 @@ HRESULT get_DesktopWidth(
 
 В случае успеха возвратите значение **\_ ОК** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Задание свойства **десктопвидс** является необязательным, но оно должно быть задано перед вызовом метода [**Connect**](imstscax-connect.md) . Если ширина рабочего стола не указана или имеет значение 0, ширина рабочего стола будет равна ширине элемента управления. Минимальное и максимальное значения зависят от версии операционной системы клиента удаленный рабочий стол.
+задание свойства **десктопвидс** является необязательным, но его необходимо задать перед вызовом метода [**Подключение**](imstscax-connect.md) . Если ширина рабочего стола не указана или имеет значение 0, ширина рабочего стола будет равна ширине элемента управления. Минимальное и максимальное значения зависят от версии операционной системы клиента удаленный рабочий стол.
 
 <dl> <dt>
 
-<span id="_"></span>Windows 8 или Windows Server 2012
+<span id="_"></span>Windows 8 и Windows Server 2012
 </dt> <dd>
 
 200 минимум, максимум 8192
 
 </dd> <dt>
 
-<span id="_"></span>Windows 7 или Windows Server 2008
+<span id="_"></span>Windows 7/Windows Server 2008
 </dt> <dd>
 
 200 минимум, максимум 2048
@@ -131,7 +131,7 @@ Windows Vista
 
 Дополнительные сведения о веб-подключение к удаленному рабочему столу см. в разделе [требования для веб-подключение к удаленному рабочему столу](requirements-for-remote-desktop-web-connection.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -145,7 +145,7 @@ Windows Vista
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

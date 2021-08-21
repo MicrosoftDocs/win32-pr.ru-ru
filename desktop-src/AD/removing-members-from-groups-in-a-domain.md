@@ -7,12 +7,12 @@ keywords:
 - группы AD, удаление участников из групп в домене
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ab7600d98e75447c55fd84d783ff5263fc63bde
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: f282cf2938996059ad13fe74bc9818e984967d1c8f3a4dbfffae7b505cbe1b9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103789486"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025162"
 ---
 # <a name="removing-members-from-groups-in-a-domain"></a>Удаление членов из групп в домене
 
@@ -20,6 +20,6 @@ ms.locfileid: "103789486"
 
 Самый простой способ удалить член из группы — вызвать метод [**иадсграуп. Remove**](/windows/desktop/api/iads/nf-iads-iadsgroup-remove) в интерфейсе [**иадсграуп**](/windows/desktop/api/iads/nn-iads-iadsgroup) объекта группы, из которого необходимо удалить элементы.
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: cb701070-cb7f-472a-97c7-1de9c0ddec0f
 title: Ipv6.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91e6fb0266609d22116cc72151e0db26006c415a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4e9debc9168e756b38d61c6a0c30484c887c8d727da0955a0af9e6bcc821ecd2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118822706"
 ---
 # <a name="ipv6exe"></a>Ipv6.exe
 

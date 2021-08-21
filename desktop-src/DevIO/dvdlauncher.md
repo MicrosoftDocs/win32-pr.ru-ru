@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - StorProp.dll
-ms.openlocfilehash: ef49be579052e5a9fd493f5bf246a2efbd217c34
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a52ac620e5ec9aa3d9060d35921fcfd9c5bcc6e73cebf71ef336ceb54fc0806e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104142214"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956913"
 ---
 # <a name="dvdlauncher-function"></a>Функция Двдлаунчер
 
@@ -58,11 +58,11 @@ BOOL WINAPI DvdLauncher(
 
 Если функция выполнена удачно и области совпадают, возвращаемое значение не равно нулю. В противном случае возвращаемое значение равно нулю.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция не имеет связанной библиотеки импорта. Для динамической привязки к StorProp.dll необходимо использовать функции [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -74,7 +74,7 @@ BOOL WINAPI DvdLauncher(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

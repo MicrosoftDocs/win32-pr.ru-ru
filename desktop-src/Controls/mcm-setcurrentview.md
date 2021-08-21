@@ -3,7 +3,7 @@ title: Сообщение MCM_SETCURRENTVIEW (Коммктрл. h)
 description: Задает текущее представление календаря. Это сообщение можно отправить явным образом или с помощью \_ макроса монскал сеткуррентвиев.
 ms.assetid: 26ccbb80-0dba-4241-a2eb-b79000fc3618
 keywords:
-- Элементы управления Windows для MCM_SETCURRENTVIEW сообщений
+- элементы управления Windows сообщений MCM_SETCURRENTVIEW
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d383c984932c19805f452cb39841c2edf36809b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 33cf7206fb7e778c0ab7d28ee8947b9327e8cc98bd8ae8c9063213814676a77e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989291"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019042"
 ---
 # <a name="mcm_setcurrentview-message"></a>\_Сообщение MCM сеткуррентвиев
 
@@ -60,15 +60,15 @@ ms.locfileid: "103989291"
 
 Возвращает ненулевое значение в случае успеха или ноль в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 
