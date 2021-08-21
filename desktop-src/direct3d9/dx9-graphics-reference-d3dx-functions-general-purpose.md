@@ -4,12 +4,12 @@ ms.assetid: cb2c6b6d-6ac5-47e2-96c2-4a68e86af00f
 title: Функции общего назначения (графика Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 228af2d89a0c26d8aacfb0127b7e7fe299d12965
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 4fbd3acbb3248708efb2d9aff4e2baf198f73d5426b186b5531b3d23907e3b33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104494907"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119122501"
 ---
 # <a name="general-purpose-functions-direct3d-9-graphics"></a>Функции общего назначения (графика Direct3D 9)
 
@@ -25,7 +25,7 @@ D3DX предоставляет следующие функции общего �
 -   [**D3DXCreateSprite**](d3dxcreatesprite.md)
 -   [**D3DXGetDriverLevel**](d3dxgetdriverlevel.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

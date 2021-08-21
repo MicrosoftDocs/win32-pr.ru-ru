@@ -1,5 +1,5 @@
 ---
-description: '\_Класс WMI потсмодем инструментария Win32 представляет службы и характеристики модема простой старой телефонной службы (POTS) в компьютерной системе под Windows.'
+description: '\_Класс WMI потсмодем инструментария Win32 представляет службы и характеристики модема простой старой телефонной службы (POTS) в компьютерной системе, на которой работает Windows.'
 ms.assetid: 24589942-e2c3-477e-8179-59ae4a4aa85a
 ms.tgt_platform: multiple
 title: Класс Win32_POTSModem
@@ -96,16 +96,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 6ec9634c5ee86d6819bf8f7a45dd521276565903
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e79cb842acd2063522f901d050c3fab6db3251a39a212a234f062935cc30b87c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895950"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020112"
 ---
 # <a name="win32_potsmodem-class"></a>\_Класс Win32 потсмодем
 
-Класс **WMI \_ потсмодем** [инструментария](../wmisdk/retrieving-a-class.md) Win32 представляет службы и характеристики модема простой старой телефонной службы (POTS) в компьютерной системе под Windows.
+Класс **WMI \_ потсмодем** [инструментария](../wmisdk/retrieving-a-class.md) Win32 представляет службы и характеристики модема простой старой телефонной службы (POTS) в компьютерной системе, на которой работает Windows.
 
 Следующий пример синтаксиса — упрощенный MOF-код, который включает все наследуемые свойства. Свойства перечислены в алфавитном порядке, а не в MOF.
 
@@ -542,7 +542,7 @@ class Win32_POTSModem : CIM_PotsModem
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -616,7 +616,7 @@ class Win32_POTSModem : CIM_PotsModem
 
 </dt> <dd>
 
-Другое
+Другие
 
 </dd> <dt>
 
@@ -762,12 +762,12 @@ V. 42bis
 
 <span id="The_driver_for_this_device_needs_a_resource_that_Windows_cannot_manage."></span><span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>
 
-<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**Драйверу для этого устройства требуется ресурс, который Windows не может управлять.** (5)
+<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**драйверу для этого устройства нужен ресурс, который Windows не может управлять.** (5)
 
 
 </dt> <dd>
 
-Драйверу для устройства требуется ресурс, который Windows не может управлять.
+драйверу для устройства требуется ресурс, который Windows не может управляться.
 
 </dd> <dt>
 
@@ -974,23 +974,23 @@ Windows не удается найти все ресурсы, используе
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Это устройство все еще настраивается Windows.** (25)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows все еще настраивает это устройство.** (25)
 
 
 </dt> <dd>
 
-Устройство все еще настраивается.
+Windows все еще настраивает устройство.
 
 </dd> <dt>
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Это устройство все еще настраивается Windows.** (26)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows все еще настраивает это устройство.** (26)
 
 
 </dt> <dd>
 
-Устройство все еще настраивается.
+Windows все еще настраивает устройство.
 
 </dd> <dt>
 
@@ -1040,7 +1040,7 @@ Windows не удается найти все ресурсы, используе
 
 <span id="This_device_is_not_working_properly_because_Windows_cannot_load_the_drivers_required_for_this_device."></span><span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>
 
-<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**Это устройство работает неправильно, так как Windows не может загрузить драйверы, необходимые для этого устройства.** 1-31
+<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**это устройство работает неправильно, так как Windows не может загрузить драйверы, необходимые для этого устройства.** 1-31
 
 
 </dt> <dd>
@@ -1176,7 +1176,7 @@ Windows не удается найти все ресурсы, используе
 Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| System \\ \\ CurrentControlSet \\ \\ Control \\ \\ класс управления \| по умолчанию")
 </dt> </dl>
 
-При **значении true** этот модем POTS является модемом по умолчанию в компьютерной системе под Windows.
+При **значении true** этот модем POTS является модемом по умолчанию в компьютерной системе, где работает Windows.
 
 </dd> <dt>
 
@@ -1491,7 +1491,7 @@ Windows не удается найти все ресурсы, используе
 Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| System \\ \\ CurrentControlSet \\ \\ Control \\ \\ класс \| фловконтрол \_ Hard")
 </dt> </dl>
 
-Командная строка, используемая для включения аппаратного управления потоком. Управление потоком состоит из сигналов, передаваемых между компьютерами и проверяющих готовность обоих компьютеров к передаче или получению данных.
+Командная строка, используемая для включения аппаратного управления потоком. Flow элемент управления состоит из сигналов, передаваемых между компьютерами и проверяющих готовность обоих компьютеров к передаче или приему данных.
 
 Пример: "&K1"
 
@@ -1509,7 +1509,7 @@ Windows не удается найти все ресурсы, используе
 Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) (" \| \\ \\ класс управления Win32Registry системы CurrentControlSet \\ \\ \\ \\ \| фловконтрол \_ Off")
 </dt> </dl>
 
-Командная строка, используемая для отключения управления потоком. Управление потоком состоит из сигналов, передаваемых между компьютерами и проверяющих готовность обоих компьютеров к передаче или получению данных.
+Командная строка, используемая для отключения управления потоком. Flow элемент управления состоит из сигналов, передаваемых между компьютерами и проверяющих готовность обоих компьютеров к передаче или приему данных.
 
 Пример: "&K0"
 
@@ -1527,7 +1527,7 @@ Windows не удается найти все ресурсы, используе
 Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| System \\ \\ CurrentControlSet \\ \\ Control \\ \\ класс \| фловконтрол \_ Soft")
 </dt> </dl>
 
-Командная строка, используемая для включения управления потоком программного обеспечения. Управление потоком состоит из сигналов, передаваемых между компьютерами и проверяющих готовность обоих компьютеров к передаче или получению данных.
+Командная строка, используемая для включения управления потоком программного обеспечения. Flow элемент управления состоит из сигналов, передаваемых между компьютерами и проверяющих готовность обоих компьютеров к передаче или приему данных.
 
 Пример: "&априорной оценкой K2"
 
@@ -1595,7 +1595,7 @@ Windows не удается найти все ресурсы, используе
 
 Пример: "1&08"
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** Это свойство доступно начиная с Windows Server 2016 и Windows 10.
+**Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** это свойство доступно, начиная с Windows Server 2016 и Windows 10.
 
 </dd> <dt>
 
@@ -1715,7 +1715,7 @@ Windows не удается найти все ресурсы, используе
 
 Путь к INF-файлу модема. Этот файл содержит сведения об инициализации модема и его драйвера.
 
-Пример: "C: \\ Windows \\ INF"
+пример: "C: \\ Windows \\ INF"
 
 </dd> <dt>
 
@@ -1872,7 +1872,7 @@ Windows не удается найти все ресурсы, используе
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -1902,7 +1902,7 @@ Windows не удается найти все ресурсы, используе
 Квалификаторы: [**схема**](../wmisdk/standard-qualifiers.md) ("Win32")
 </dt> </dl>
 
-Идентификатор устройства Windows самонастраивающийся логического устройства.
+Windows Самонастраивающийся идентификатор устройства логического устройства.
 
 Это свойство наследуется [**от \_ CIM**](cim-logicaldevice.md)-унаследованной модели.
 
@@ -2167,7 +2167,7 @@ Modem (Модем)
 Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| System \\ \\ CurrentControlSet \\ \\ Control \\ \\ Class \| респонсескэйнаме")
 </dt> </dl>
 
-Ответ. Этот модем может сообщить операционной системе о процессе подключения. Первые два символа указывают тип ответа. Два второго символа указывают сведения о выполняемом подключении. Два второго символа используются только для выполнения согласования или для соединения с кодами откликов. Следующие восемь символов указывают скорость линии модем-модема, согласованную в битах в секунду (бит/с). Символы представляют собой 32-разрядный длинный целочисленный формат без знака (байт и слово в обратных). Последние восемь символов указывают на то, что модем переводится на другой порт или скорость связи с терминальным оборудованием (DTE). Обычно это поле не используется, так как модемы подключаются к заблокированной скорости порта независимо от скорости передачи данных между модемом или устройством связи (DCE).
+Ответ. Этот модем может сообщить операционной системе о процессе подключения. Первые два символа указывают тип ответа. Два второго символа указывают сведения о выполняемом подключении. два второго символа используются только для выполнения согласования или для Подключение кодов ответа. Следующие восемь символов указывают скорость линии модем-модема, согласованную в битах в секунду (бит/с). Символы представляют собой 32-разрядный длинный целочисленный формат без знака (байт и слово в обратных). Последние восемь символов указывают на то, что модем переводится на другой порт или скорость связи с терминальным оборудованием (DTE). Обычно это поле не используется, так как модемы подключаются к заблокированной скорости порта независимо от скорости передачи данных между модемом или устройством связи (DCE).
 
 </dd> <dt>
 
@@ -2724,11 +2724,11 @@ Modem (Модем)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ потсмодем** является производным от [**CIM \_ потсмодем**](cim-potsmodem.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -2742,7 +2742,7 @@ Modem (Модем)
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 468d9c2a-0b3c-4a44-a049-3f3b78e952ba
 title: Пример сериализации рукописного ввода
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e898f91db17efcb7579c067e7db5c422da8213a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 80e71eed5c91bf4fa1524cc52af163516ced0c7362d0d20b8ecf52ac1a08ccd9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104540410"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032272"
 ---
 # <a name="ink-serialization-sample"></a>Пример сериализации рукописного ввода
 
@@ -27,7 +27,7 @@ HTML очень полезен в среде, в которой важно фо�
 
 ## <a name="collecting-ink"></a>Сбор рукописных данных
 
-Во-первых, обратитесь к API Tablet PC, который устанавливается вместе с пакетом SDK для Windows Vista и Windows XP Tablet PC Edition (пакет средств разработки программного обеспечения).
+в первую очередь, сослаться на API-интерфейс tablet pc, который устанавливается вместе с Windows Vista и Windows XP Tablet PC Edition Software Development Kit (SDK).
 
 
 ```C++

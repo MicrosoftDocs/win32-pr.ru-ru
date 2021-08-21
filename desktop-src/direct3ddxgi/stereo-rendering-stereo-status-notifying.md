@@ -4,12 +4,12 @@ ms.assetid: FB8AC57E-38DD-47B5-8666-1F4B73488F8B
 title: Отображение в стерео и уведомление о состоянии стерео
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 379c6335e0bd060cf0065fe92bf2ec6c086289c3
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 9f17f324a884c5784c98a8f5c21ef9c9dac7b048fc72ae7ed0ea1a75e61e2551
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104139203"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118987014"
 ---
 # <a name="rendering-in-stereo-and-notifying-about-stereo-status"></a>Отображение в стерео и уведомление о состоянии стерео
 
@@ -23,13 +23,13 @@ ms.locfileid: "104139203"
 
 -   Конфигурация пользователя.
 
-    Пользователи Windows могут включать или отключать отображение стерео с параметром включить стереоскопик 3D в панели управления изменить параметры отображения.
+    Windows пользователи могут включать или отключать экран стерео с параметром включить стереоскопик 3d в панели управления изменить Параметры.
 
 -   Возможности и Конфигурация компьютера, включая графический адаптер, графический драйвер и настройку монитора.
 
 [Образец Direct3D 11,1 Simple стерео 3D](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Direct3D%20stereoscopic%203D%20sample) показывает, как добавить трехмерный эффект стереоскопик и как реагировать на изменения системных стерео.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

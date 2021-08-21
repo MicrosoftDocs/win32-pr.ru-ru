@@ -3,7 +3,7 @@ title: Код уведомления TBN_BEGINDRAG (Коммктрл. h)
 description: Сообщает родительскому окну панели инструментов, что пользователь начал перетаскивать кнопку на панели инструментов. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: 244406e5-e13d-4c80-81fa-81b018b29ec1
 keywords:
-- TBN_BEGINDRAG кода уведомления элементы управления Windows
+- TBN_BEGINDRAG кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 72cfa7325d1a8e1eab27383d7df918c8896933bc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5283b2853709742713f79afb761cc39739f6df7467a1de869c545c705c8488ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119077978"
 ---
 # <a name="tbn_begindrag-notification-code"></a>\_Код уведомления ТБН бегиндраг
 
@@ -49,15 +49,15 @@ TBN_BEGINDRAG
 
 Нет возвращаемого значения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

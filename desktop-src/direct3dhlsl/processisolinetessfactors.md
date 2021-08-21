@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 10da0e5bf0f2138c57da3fcfe962bc6a88800068
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 34c6f4d579ee7fbaee9416d7a607e3856a7793021cca7149723d3d6e5a2b4a49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103784356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986294"
 ---
 # <a name="processisolinetessfactors-function"></a>Функция Процессисолинетессфакторс
 
@@ -28,10 +28,10 @@ ms.locfileid: "103784356"
 
 ``` syntax
 void ProcessIsolineTessFactors(
-  in  float RawDetailFactor,
-  in  float RawDensityFactor,
-  out float RoundedDetailFactor,
-  out float RoundedDensityFactor
+  in  float RawDetailFactor,
+  in  float RawDensityFactor,
+  out float RoundedDetailFactor,
+  out float RoundedDensityFactor
 );
 ```
 
@@ -79,7 +79,7 @@ void ProcessIsolineTessFactors(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 ### <a name="minimum-shader-model"></a>Минимальная модель шейдера
 
@@ -89,11 +89,11 @@ void ProcessIsolineTessFactors(
 
 | Модель шейдера                                                                | Поддерживается |
 |-----------------------------------------------------------------------------|-----------|
-| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | да       |
+| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | Да       |
 
 
 
- 
+ 
 
 Эта функция поддерживается в следующих типах шейдеров:
 
@@ -105,7 +105,7 @@ void ProcessIsolineTessFactors(
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -117,9 +117,9 @@ void ProcessIsolineTessFactors(
 [Модель шейдера 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

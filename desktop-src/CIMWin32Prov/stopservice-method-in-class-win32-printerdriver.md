@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: faed7e9ed22ddcacbd8720e589463fd9a75fd87a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0ec49d6f5b9c7efcb860ba99eaf7984fa89cfb0bc12cbdfcfe8bde0db95eff1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104072457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020402"
 ---
 # <a name="stopservice-method-of-the-win32_printerdriver-class"></a>Метод «начало» \_ класса Принтердривер Win32
 
@@ -69,7 +69,7 @@ uint32 StopService();
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                      |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                                |
 | Пространство имен<br/>                | Корневой \\ CIMV2<br/>                                                                        |
-| Header<br/>                   | <dl> <dt>Сдоиас. h</dt> </dl>           |
+| Заголовок<br/>                   | <dl> <dt>Сдоиас. h</dt> </dl>           |
 | MOF<br/>                      | <dl> <dt>Win32 \_ Printer. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl>       |
 

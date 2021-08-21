@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 9242a267085579cce52e66f2b9326a8e6298c87c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b419483329e5461de5bc98b3a37b556e37138a055932b1d6c80d3a19b13ae516
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104547967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118988904"
 ---
 # <a name="d3dlocked_rect-structure"></a>\_Структура Rect D3DLOCKED
 
@@ -62,7 +62,7 @@ typedef struct D3DLOCKED_RECT {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Высота форматов Дкстн отличается от того, что было возвращено в DirectX 7. Теперь он ссылается на число байтов в строке блоков. Например, если ширина 16, то у вас будет шаг 4 блока (4 \* 8 для DXT1, 4 \* 16 для DXT2-5).
 
@@ -72,7 +72,7 @@ typedef struct D3DLOCKED_RECT {
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
 
 
 

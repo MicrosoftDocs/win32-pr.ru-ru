@@ -4,12 +4,12 @@ description: Если класс должен быть доступен клие
 ms.assetid: 6d78c2ce-56d8-4866-9801-35125ec9cac4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4253c40cb3feb7e737368c947c0b20715f5becbd
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 017e4393a4c5422157c8f9b9e9b7f366c2fafc8cfe6af5722e451a3d1b9fa069
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104339364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047862"
 ---
 # <a name="registering-a-class-at-installation"></a>Регистрация класса при установке
 
@@ -27,7 +27,7 @@ ms.locfileid: "104339364"
 
 Классы, реализованные в исполняемых файлах, могут указывать, что COM должен выполнить свой процесс и подождать, пока процесс не зарегистрирует интерфейс [**IClassFactory**](/windows/win32/api/unknwn/nn-unknwn-iclassfactory) объекта класса с помощью вызова функции [**CoRegisterClassObject**](/windows/desktop/api/combaseapi/nf-combaseapi-coregisterclassobject) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -49,6 +49,6 @@ ms.locfileid: "104339364"
 [Самостоятельная регистрация](self-registration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

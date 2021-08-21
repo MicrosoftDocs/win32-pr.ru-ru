@@ -4,12 +4,12 @@ description: Преобразование в VBScript из JavaScript
 ms.assetid: f302e032-4e94-42f1-839b-022dab538760
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2eda8169a665dc93133f7ac933de12ecc612f3e4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6138a6d13710e87ae2b80c979b208d0360e28501ce5d763546a1605c49f0802a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105710051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047742"
 ---
 # <a name="translating-to-vbscript-from-javascript"></a>Преобразование в VBScript из JavaScript
 
@@ -25,16 +25,16 @@ JavaScript поддерживается в разнообразных веб-б�
 
 Сценарий VBScript поддерживает обработку ошибок через объект Err. JavaScript в настоящее время не предоставляет средств перехвата и обработки ошибок.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Преобразование в VBScript](translating-to-vbscript.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -9,16 +9,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 20c7ff5d2a171228223d52db28d3bae6007068c5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 805ffe89b1f9d14ca70da0a8121353e6bf766b8b6e433441350d1b55c4531415
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068011"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119958"
 ---
 # <a name="shader-model-4-assembly"></a>Сборка Shader Model 4
 
-Шейдер Model 4 требует программирования шейдеров в HLSL. Однако компилятор шейдера компилирует код HLSL в сборку, которая выполняется на устройстве. Если для отладки шейдеров используется PIX для Windows, можно выбрать отображение кода шейдера либо в HLSL, либо в сборке. В этом разделе перечислены инструкции по сборке шейдера 4 и шейдера 4,1, которые могут возникнуть при отладке шейдера.
+Шейдер Model 4 требует программирования шейдеров в HLSL. Однако компилятор шейдера компилирует код HLSL в сборку, которая выполняется на устройстве. если вы используете PIX для Windows отладки шейдеров, можно выбрать отображение кода шейдера в HLSL или в сборке. В этом разделе перечислены инструкции по сборке шейдера 4 и шейдера 4,1, которые могут возникнуть при отладке шейдера.
 
 <dl>
 
@@ -73,7 +73,7 @@ ms.locfileid: "104068011"
 [IAdd](iadd--sm4---asm-.md)  
 [ибфе](dne--sm5---asm-.md)  
 [иек](ieq--sm4---asm-.md)  
-[if](if--sm4---asm-.md)  
+[if](if--sm4---asm-.md) (если);  
 [иже](ige--sm4---asm-.md)  
 [илт](ilt--sm4---asm-.md)  
 [имад](imad--sm4---asm-.md)  
@@ -125,7 +125,7 @@ ms.locfileid: "104068011"
 [умул](umul--sm4---asm-.md)  
 [ушр](ushr--sm4---asm-.md)  
 [утоф](utof--sm4---asm-.md)  
-[xor](xor--sm4---asm-.md)  
+[XOR](xor--sm4---asm-.md)  
 </dl>
 
 ## <a name="shader-model-41-assembly"></a>Сборка Shader модели 4,1
@@ -141,7 +141,7 @@ ms.locfileid: "104068011"
 [самплепос](samplepos--sm4-1---asm-.md)  
 </dl>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -151,9 +151,9 @@ ms.locfileid: "104068011"
 [Модель шейдера 4](dx-graphics-hlsl-sm4.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

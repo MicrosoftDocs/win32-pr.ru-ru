@@ -1,17 +1,17 @@
 ---
 description: Операция удержания позволяет одному адресу работать с несколькими сеансами связи.
 ms.assetid: 65e22e4e-e346-41c2-929a-ba0d1f7f1732
-title: Нажмите
+title: Удержание
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2df54b246c5bde5914a14b53dd56b71688d92a5e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: afacd6d9664e9a095a1e8b0c725dc0171da709fdecffb88b428231a5b5359a4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897998"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003642"
 ---
-# <a name="hold"></a>Нажмите
+# <a name="hold"></a>Удержание
 
 Операция удержания позволяет одному адресу работать с несколькими сеансами связи. При размещении сеанса на жестком диске освобождается линия или адрес пользователя для выполнения других вызовов. Вызов на жестком удержании обычно не может быть передан или включен в конференцию, но вызов консультации может. Вызовы консультации инициируются с помощью [конференций](conference-ovr.md) или операций [перемещения](transfer-ovr.md) .
 

@@ -4,16 +4,16 @@ ms.assetid: 83b39751-b00f-4762-830b-13cafbcb1cfd
 title: Структура TAPI_STREAM_CONFIG_CAPS (Ипмсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 379ca481d3bebaf8ceb11bfc2dbdab6642ca20b6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6cbbb3b3ec72cc99810311cc510e36c2adc8242e2b3d98b321fd8bc8c6a9ab4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002652"
 ---
 # <a name="tapi_stream_config_caps-structure"></a>\_ \_ Структура Caps конфигурации потока TAPI \_
 
-\[ Эта структура недоступна для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[эта структура недоступна для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Структура **\_ Cap в \_ настройках \_ потока TAPI** содержит сведения о конфигурации видео или звукового потока.
 
@@ -58,7 +58,7 @@ ms.locfileid: "105675673"
 | Требование | Значение |
 |-------------------------|------------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 3,1<br/>                                                       |
-| Header<br/>       | <dl> <dt>Ипмсп. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>Ипмсп. h</dt> </dl> |
 
 
 

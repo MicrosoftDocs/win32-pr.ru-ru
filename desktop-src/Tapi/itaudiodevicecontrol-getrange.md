@@ -4,16 +4,16 @@ ms.assetid: df8985f4-8153-4f32-a90c-a5eb7c76b3c7
 title: Метод Итаудиодевицеконтрол::-Range (Ипмсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cbf5bf36d4ec754440e1612f2e228c495d165c0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 87779131dea5bb01a1575074e4f019dbfa2a62addebf5b91a7eee6e9cc041710
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003452"
 ---
 # <a name="itaudiodevicecontrolgetrange-method"></a>Метод Итаудиодевицеконтрол:: Range
 
-\[ Этот метод недоступен для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[этот метод недоступен для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Метод **дальнего действия** извлекает диапазон допустимых значений для заданного [**Свойства звукового устройства**](audiodeviceproperty.md).
 
@@ -96,7 +96,7 @@ HRESULT get_Terminal(
 | Требование | Значение |
 |-------------------------|--------------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 3,1<br/>                                                         |
-| Header<br/>       | <dl> <dt>Ипмсп. h</dt> </dl>   |
+| Заголовок<br/>       | <dl> <dt>Ипмсп. h</dt> </dl>   |
 | Библиотека<br/>      | <dl> <dt>UUID. lib</dt> </dl>  |
 | DLL<br/>          | <dl> <dt>Tapi3.dll</dt> </dl> |
 

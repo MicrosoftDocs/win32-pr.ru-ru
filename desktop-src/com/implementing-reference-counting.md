@@ -4,12 +4,12 @@ description: Реализация подсчета ссылок
 ms.assetid: d4fd98c9-afa4-4c5c-a3c9-44d34881cbdb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0d4dfe2b0faf2fc6557d1b089e33ae6ce4b98cb
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: efa2a3e9827d35d07fa88b62c6f1097fcb3ad3ae3b5b75764deeac1c9c271050
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "105710391"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048162"
 ---
 # <a name="implementing-reference-counting"></a>Реализация подсчета ссылок
 
@@ -26,13 +26,13 @@ ms.locfileid: "105710391"
 
 Безопасность потоков также является важной проблемой при реализации [**AddRef**](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref) и [**Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release). Дополнительные сведения см. в разделе [процессы, потоки и подразделения](processes--threads--and-apartments.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Управление жизненным циклом объектов с помощью подсчета ссылок](managing-object-lifetimes-through-reference-counting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

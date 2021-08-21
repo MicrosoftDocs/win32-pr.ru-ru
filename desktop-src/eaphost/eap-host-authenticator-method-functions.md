@@ -1,19 +1,19 @@
 ---
-title: Функции метода проверки подлинности EAPHost
-description: Дополнительные сведения о функциях API метода проверки подлинности EAPHost, таких как Еапмесодаусентикаторфриеррормемори.
+title: функции метода Authenticator EAPHost
+description: дополнительные сведения о функциях API метода EAPHost Authenticator, таких как еапмесодаусентикаторфриеррормемори.
 ms.assetid: 319516ee-b21d-4375-8c90-e3abe0a457e8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93fac5114085fe6c620084d564bbff97cc3b4535
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 1f3cc21d636c2a1b107897c3b000fca3f279288e13c14d1219f5b13515c2e8a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "105710361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984274"
 ---
-# <a name="eaphost-authenticator-method-functions"></a>Функции метода проверки подлинности EAPHost
+# <a name="eaphost-authenticator-method-functions"></a>функции метода Authenticator EAPHost
 
-Ниже приведены функции API метода проверки подлинности EAPHost.
+ниже приведены функции API метода EAPHost Authenticator.
 
 
 
@@ -35,11 +35,11 @@ ms.locfileid: "105710361"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

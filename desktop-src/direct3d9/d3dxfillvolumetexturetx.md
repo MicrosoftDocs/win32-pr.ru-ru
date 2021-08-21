@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 30aac53aa6451885bbd4ae2cac63050b01157974
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ead11a9febce994d729eab83a3906c4d6dcd4db6b1193ba49ea1a0e172dc5e6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108107632"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118988494"
 ---
 # <a name="d3dxfillvolumetexturetx-function"></a>Функция D3DXFillVolumeTextureTX
 
@@ -75,13 +75,13 @@ HRESULT D3DXFillVolumeTextureTX(
 
 Входные параметры могут быть в любом порядке. Пример см. в разделе [ **D3DXFillTextureTX**](d3dxfilltexturetx.md)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9tex. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9tex. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>  |
 
 

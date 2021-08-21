@@ -4,12 +4,12 @@ ms.assetid: 190d5865-c45b-42ea-8a16-10a4f0bda743
 title: Смешение геометрических объектов (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a19daa40f7d7d8193ae486640bc613dd7a666ec7
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c71bb449b592c69ae2cf41487aef229718149eb4c1465d90f8b358d30458b69c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103805188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119122180"
 ---
 # <a name="geometry-blending-direct3d-9"></a>Смешение геометрических объектов (Direct3D 9)
 
@@ -101,7 +101,7 @@ d3dDevice->DrawPrimitive( D3DPT_TRIANGLELIST, 0, numFaces );
 -   [Индексированное смешение вершин (Direct3D 9)](indexed-vertex-blending.md)
 -   [Анимированная анимация вершин (Direct3D 9)](vertex-tweening.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

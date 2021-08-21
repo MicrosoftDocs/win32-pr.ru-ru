@@ -4,12 +4,12 @@ ms.assetid: 573b102f-5e8a-49d0-a62d-6735a385118e
 title: Операторы XMDECN4
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3fc2f1b5a1e9ac5a28d50d21ba872b65a1184099
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 01d4da37979794d754a7b0d833baed3d17baf1dfb1f35134b60148b60cbc4727
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984994"
 ---
 # <a name="xmdecn4-operators"></a>Операторы XMDECN4
 
@@ -33,7 +33,7 @@ ms.locfileid: "104263576"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

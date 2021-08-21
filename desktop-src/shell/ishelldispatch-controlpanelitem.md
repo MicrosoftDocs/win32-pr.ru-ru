@@ -13,19 +13,19 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 9A9B6B3F-FBBC-4e76-8018-8858B6392276
-ms.openlocfilehash: 1a1c024b316472be00f119485326b704a4fe8dd0
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 89ea8431df7e8cac09a041bd9a16c805633cd3ec82a2cc506cb30fcf0f0cd39b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109842845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032262"
 ---
 # <a name="ishelldispatchcontrolpanelitem-method"></a>Ишеллдиспатч. ControlPanelItem, метод
 
 Запускает указанное приложение панели управления. Если приложение уже открыто, будет активирован запущенный экземпляр.
 
 > [!Note]  
-> Начиная с Windows Vista, большинство приложений панели управления являются элементами оболочки и не могут быть открыты с помощью этой функции. Чтобы открыть эти приложения панели управления, передайте каноническое имя в control.exe. Пример:
+> начиная с Windows Vista большинство приложений панели управления являются элементами оболочки и не могут быть открыты с помощью этой функции. Чтобы открыть эти приложения панели управления, передайте каноническое имя в control.exe. Пример:
 >
 > ``` syntax
 > control.exe /name Microsoft.Personalization
@@ -83,9 +83,9 @@ IShellDispatch.ControlPanelItem( _
 
 ## <a name="examples"></a>Примеры
 
-В следующих примерах используется [**ControlPanelItem**](shell-controlpanelitem.md) для запуска элемента **Свойства дисплея** панели управления. Сведения об использовании представлены для JScript, VBScript и Visual Basic.
+В следующих примерах используется [**ControlPanelItem**](shell-controlpanelitem.md) для запуска элемента **Свойства дисплея** панели управления. сведения об использовании отображаются для JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -141,7 +141,7 @@ End Sub
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                           |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                         |

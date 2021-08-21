@@ -4,12 +4,12 @@ description: Используя язык программирования C++, �
 ms.assetid: 2c8de3d9-3410-4153-b612-4afab8a69a18
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf63754782cba82819479a7e26535b518835580b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 73efe022fa09ce13a2d5e4e04978033fc3ab8f33abb6afb3b5abf493dab12178
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410663"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047752"
 ---
 # <a name="translating-to-java-from-c"></a>Перевод на Java из C++
 
@@ -27,16 +27,16 @@ Java не поддерживает многомерные массивы. Мет
 
 Логические значения в Java не могут быть приведены к 0 и 1.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Перевод на Java](translating-to-java.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

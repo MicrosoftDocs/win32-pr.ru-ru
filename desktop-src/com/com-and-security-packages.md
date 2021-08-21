@@ -1,19 +1,19 @@
 ---
 title: Пакеты безопасности и COM
-description: Windows поддерживает NTLMSSP (поставщик поддержки безопасности LAN Manager), протокол проверки подлинности Kerberos V5 и пакет безопасности SChannel, который предоставляет протоколы PCT 1,0, SSL 2,0, SSL 3,0 и TLS 1,0.
+description: Windows поддерживает NTLMSSP (поставщик поддержки безопасности LAN Manager), протокол проверки подлинности Kerberos v5 и пакет безопасности Schannel, который предоставляет протоколы PCT 1,0, ssl 2,0, ssl 3,0 и TLS 1,0.
 ms.assetid: a0c095a8-93b7-4350-aac6-a9a066cccffd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6720ddd56869c5ce93ae70eb313fbe12c140b42
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 15ec80a1ea610725716da3640b6e38b2fd0f3282ce6ce778e632c6a5c8e72c8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105710053"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048722"
 ---
 # <a name="com-and-security-packages"></a>Пакеты безопасности и COM
 
-Windows поддерживает NTLMSSP (поставщик поддержки безопасности LAN Manager), протокол проверки подлинности Kerberos V5 и пакет безопасности SChannel, который предоставляет протоколы PCT 1,0, SSL 2,0, SSL 3,0 и TLS 1,0. Также поддерживается снего, который проверяет наличие доступных пакетов безопасности и выбирает наиболее подходящий из них.
+Windows поддерживает NTLMSSP (поставщик поддержки безопасности LAN Manager), протокол проверки подлинности Kerberos v5 и пакет безопасности Schannel, который предоставляет протоколы PCT 1,0, ssl 2,0, ssl 3,0 и TLS 1,0. Также поддерживается снего, который проверяет наличие доступных пакетов безопасности и выбирает наиболее подходящий из них.
 
 В следующей таблице показаны уровни проверки подлинности, поддерживаемые различными пакетами безопасности.
 
@@ -37,7 +37,7 @@ Windows поддерживает NTLMSSP (поставщик поддержки 
 -   [Schannel](schannel.md)
 -   [снего](snego.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

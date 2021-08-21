@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 74a153d4b56ec16b80dec180287005666747d259
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 24aee1d7abfcec66fe9e005fdc65010be52b89fdb820374276f12091ddfe2903
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104986285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986254"
 ---
 # <a name="rwstructuredbufferloadintuint-function"></a>Функция Рвструктуредбуффер:: Load (int, uint)
 
@@ -64,7 +64,7 @@ ms.locfileid: "104986285"
 
 Возвращаемый тип соответствует типу в объявлении для объекта [**рвструктуредбуффер**](sm5-object-rwstructuredbuffer.md) .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта функция поддерживается для следующих типов шейдеров:
 

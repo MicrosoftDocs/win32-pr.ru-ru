@@ -3,7 +3,7 @@ title: Сообщение LVM_GETTOOLTIPS (Коммктрл. h)
 description: Извлекает элемент управления ToolTip, используемый элементом управления "представление списка" для отображения всплывающих подсказок. Это сообщение можно отправить явным образом или воспользоваться \_ макросом ListView.
 ms.assetid: a3522c64-9498-40b8-9062-c112b7c8cacc
 keywords:
-- Элементы управления Windows для LVM_GETTOOLTIPS сообщений
+- элементы управления Windows сообщений LVM_GETTOOLTIPS
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f409c85ed6157e8cfc837e5efa3a68488aec504
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a6ca4340a8c57c6551d3c46f9324e4b66250f383c9412a3772df3114f105c5f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104492402"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019292"
 ---
 # <a name="lvm_gettooltips-message"></a>Сообщение LVM с \_ ПОДсказками
 
@@ -45,9 +45,9 @@ ms.locfileid: "104492402"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

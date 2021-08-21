@@ -3,7 +3,7 @@ title: Сообщение MMIOM_WRITE (Ммсистем. h)
 description: Сообщение ММИОМ \_ Write отправляется в процедуру ввода-вывода с помощью функции ммиоврите, чтобы запросить запись данных в открытый файл.
 ms.assetid: 46e2dd9a-c4a7-4c99-86e4-a67b424411d1
 keywords:
-- MMIOM_WRITE сообщения Windows мультимедиа
+- сообщение MMIOM_WRITE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c27cf96827f803608c369cc9022faa6235add9ec
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 755b89d7e268e266b4761142dc3820bdd4d33d4bd4d86522ce5363b95e5be282
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989272"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065274"
 ---
 # <a name="mmiom_write-message"></a>\_Сообщение записи ммиом
 
@@ -56,11 +56,11 @@ lParam2 = (LPARAM) cbWrite
 
 Возвращает число байтов, фактически записанных в файл. Если возникает ошибка, возвращается значение 1.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Процедура ввода-вывода отвечает за обновление элемента **лдискоффсет** структуры [**ммиоинфо**](/previous-versions//dd757322(v=vs.85)) для отражения нового расположения файла после операции записи.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -68,7 +68,7 @@ lParam2 = (LPARAM) cbWrite
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 

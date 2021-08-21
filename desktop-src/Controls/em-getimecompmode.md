@@ -3,7 +3,7 @@ title: Сообщение EM_GETIMECOMPMODE (RichEdit. h)
 description: Извлекает текущий режим редактора метода ввода (IME) для элемента управления расширенного редактирования.
 ms.assetid: dac96833-4c3d-4da7-9ea4-52204434ec10
 keywords:
-- Элементы управления Windows для EM_GETIMECOMPMODE сообщений
+- элементы управления Windows сообщений EM_GETIMECOMPMODE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1feb2f5f31831e0e292bf002f24ca4978f25753a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 53b9c0242872446c22034502d92af00ead7289fc68b4d5a66d79c3ef68be5eaa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491805"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019552"
 ---
 # <a name="em_getimecompmode-message"></a>\_Сообщение ЖЕТИМЕКОМПМОДЕ EM
 
@@ -67,9 +67,9 @@ ms.locfileid: "104491805"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 
 

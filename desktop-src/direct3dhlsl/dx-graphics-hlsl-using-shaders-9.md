@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6455b47d24c1c83683ce8b85c48990bb32e221ae
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a1ef04c14682aa6e763222fd0c8db0e2eedf33abf747da97a16b2b1621e1c42a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104997047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119748"
 ---
 # <a name="using-shaders-in-direct3d-9"></a>Использование шейдеров в Direct3D 9
 
@@ -23,7 +23,7 @@ ms.locfileid: "104997047"
 -   [Привязка параметра шейдера к определенному регистру](#binding-a-shader-parameter-to-a-particular-register)
 -   [Визуализация программируемого шейдера](#rendering-a-programmable-shader)
 -   [Отладка шейдеров](#debugging-shaders)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="compiling-a-shader-for-specific-hardware"></a>Компиляция шейдера для определенного оборудования
 
@@ -85,15 +85,15 @@ float4 k_s : register(c12);
 
 ## <a name="debugging-shaders"></a>Отладка шейдеров
 
-Расширение DirectX для Microsoft Visual Studio .NET предоставляет полностью интегрированный отладчик HLSL в интегрированной среде разработки (IDE) Visual Studio .NET. Чтобы подготовиться к отладке шейдера, необходимо установить нужные инструменты на компьютере (см. раздел [Отладка шейдеров в Visual Studio (Direct3D 9)](dx-graphics-hlsl-debug-visual-studio.md)).
+расширение DirectX для Microsoft Visual Studio .net представляет собой полностью интегрированный отладчик HLSL в среде IDE Visual Studio, интегрированной в среду разработки .net. чтобы подготовиться к отладке шейдера, необходимо установить нужные инструменты на компьютере (см. раздел [отладка шейдеров в Visual Studio (Direct3D 9)](dx-graphics-hlsl-debug-visual-studio.md)).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Руководство по программированию для HLSL](dx-graphics-hlsl-pguide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

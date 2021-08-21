@@ -4,12 +4,12 @@ ms.assetid: d302819e-c522-470a-be5e-52625c9223a4
 title: Сообщения TAPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58307a0230b76c6ad98c57f4590098f0dcf6b236
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3dd0a73a5ed845901d3cbe937a366a357c149541e8973a423310345dc241b92d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002732"
 ---
 # <a name="tapi-messages"></a>Сообщения TAPI
 
@@ -33,7 +33,7 @@ ms.locfileid: "105684040"
 -   [Сообщения центра обработки вызовов](call-center-messages.md)
 -   [Отформатированные сообщения об ошибках](formatted-error-messages.md)
 -   [Сообщения устройства линии](line-device-messages.md)
--   [Сообщения телефонного устройства](phone-device-messages.md)
+-   [Телефон Сообщения устройства](phone-device-messages.md)
 
  
 

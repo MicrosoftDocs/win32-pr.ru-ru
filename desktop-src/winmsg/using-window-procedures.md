@@ -4,12 +4,12 @@ ms.assetid: acc68991-4689-44dc-8547-a7b6153b0f62
 title: Использование оконных процедур
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79e0508119a2ba62c813c32e8fd0c00bd3dd1e85
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f05e5999b216ad8c51be4de6fdec80b5f58ff94956f8c1129d74c3f7075a90eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103912608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028302"
 ---
 # <a name="using-window-procedures"></a>Использование оконных процедур
 
@@ -118,7 +118,7 @@ int APIENTRY WinMain(
 Чтобы создать подкласс экземпляра окна, вызовите функцию [**SetWindowLong**](/windows/win32/api/winuser/nf-winuser-setwindowlonga) и укажите в окне маркер, чтобы создать подкласс \_ флага ГВЛ WndProc и указатель на процедуру-подкласс. **SetWindowLong** возвращает указатель на исходную процедуру окна; Используйте этот указатель для передачи сообщений в исходную процедуру. Процедура окна подкласса должна использовать функцию [**каллвиндовпрок**](/windows/win32/api/winuser/nf-winuser-callwindowproca) для вызова исходной процедуры окна.
 
 > [!Note]  
-> Чтобы написать код, совместимый как с 32-разрядными, так и с 64-разрядными версиями Windows, используйте функцию [**сетвиндовлонгптр**](/windows/win32/api/winuser/nf-winuser-setwindowlongptra) .
+> чтобы написать код, совместимый с 32-разрядными и 64-разрядными версиями Windows, используйте функцию [**сетвиндовлонгптр**](/windows/win32/api/winuser/nf-winuser-setwindowlongptra) .
 
  
 
