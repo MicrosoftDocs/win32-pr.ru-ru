@@ -4,12 +4,12 @@ ms.assetid: 8b476164-fd44-4277-89bd-ba9929bf93a2
 title: Свойство Авенккоммонмултипассмоде (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f4302cf0a9524f16dee8e7b84060065a4c750e4e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e6fb909e58dbdfd5d1431d0101365db78efa83fd68e9299b8578f19770787fb7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103895021"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118159816"
 ---
 # <a name="avenccommonmultipassmode-property"></a>Авенккоммонмултипассмоде, свойство
 
@@ -29,25 +29,25 @@ ms.locfileid: "103895021"
 
 Это свойство возвращается в виде диапазона значений. Чтобы получить поддерживаемый диапазон, вызовите метод [**икодекапи:: жетпараметерранже**](/windows/desktop/api/Strmif/nf-strmif-icodecapi-getparameterrange).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Задержка декодирования определяется как объем данных, которые декодер должен забуферировать. Например, установка этого свойства в значение **\_ true** в кодировщике видео MPEG ОГРАНИЧИВАЕТ типы структур GOP, которые может использовать кодировщик.
 
 Чтобы задать текущий проход кодировки, задайте свойство [**авенккоммонпассстарт**](avenccommonpassstart-property.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
-| Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Заголовок<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

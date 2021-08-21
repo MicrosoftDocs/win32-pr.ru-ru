@@ -12,12 +12,12 @@ keywords:
 - Неоднородный рациональный B-сплайн (НУРБС)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7260750db4d221743d3e764d6dd30e2de499383
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0a57de3a3b413d909ed034e9d355f4099c196a89b1e7ed93a69fe99ea72fca54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103778050"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118132353"
 ---
 # <a name="porting-nurbs-surfaces"></a>Перенос поверхностей НУРБС
 
@@ -33,7 +33,7 @@ ms.locfileid: "103778050"
 
 
 
- 
+ 
 
 В следующей таблице перечислены параметры IRI GL для типов Surface и их эквивалентных параметров OpenGL.
 
@@ -51,7 +51,7 @@ ms.locfileid: "103778050"
 
 
 
- 
+ 
 
 Дополнительные сведения о доступных типах оценщиков см. в разделе [**glMap2**](glmap2.md).
 
@@ -191,9 +191,9 @@ int main(int argc, char** argv)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

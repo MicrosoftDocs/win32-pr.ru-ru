@@ -4,12 +4,12 @@ ms.assetid: 77724879-62e4-439e-9dd0-3642cd7f75ca
 title: Свойство Авдекммксс (UUIDs. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e0092ac516f9600929a9772d044f51e7e375548d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7b9084db3cce8d555afa44097271a6b08f58cfea2f2edcb7acb5845730afc86b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118159948"
 ---
 # <a name="avdecmmcss-property"></a>Авдекммксс, свойство
 
@@ -29,7 +29,7 @@ ms.locfileid: "105669294"
 
 Значением этого свойства является имя класса MMCSS.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Служба MMCSS позволяет приложениям обеспечивать приоритетную обработку с учетом времени доступа к ресурсам ЦП. Это работает путем повышения приоритета зарегистрированных потоков до большего количества потоков, в то же время периодически уменьшая их приоритеты для получения времени другим процессам.
 
@@ -37,17 +37,17 @@ ms.locfileid: "105669294"
 
 Если служба MMCSS недоступна или указанный класс MMCSS не существует, установка свойства не оказывает никакого влияния.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>UUID. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>UUID. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

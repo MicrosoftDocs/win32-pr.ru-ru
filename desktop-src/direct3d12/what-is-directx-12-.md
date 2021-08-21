@@ -5,12 +5,12 @@ ms.assetid: 09C586BF-11CE-4392-9BFD-A40B05DD0624
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 11/19/2018
-ms.openlocfilehash: f82b01ba33cfa6660f266a481b2eaaab20ade236
-ms.sourcegitcommit: 60ff57d8cf94ae7a47c6046ad49f7c7256a7edb6
+ms.openlocfilehash: 7d79c2e06f24a0d12466434d8bf7ad658f4ac86b90311333342418feb088c59f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/31/2021
-ms.locfileid: "115006799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118097516"
 ---
 # <a name="what-is-direct3d-12"></a>Что такое Direct3D 12?
 

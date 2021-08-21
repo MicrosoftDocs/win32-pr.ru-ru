@@ -123,7 +123,7 @@ HRESULT CreateSecureDecryptor(
 
 ## <a name="remarks"></a>Remarks
 
-Нет.
+Отсутствует.
 
 ## <a name="requirements"></a>Requirements (Требования)
 
@@ -135,7 +135,7 @@ HRESULT CreateSecureDecryptor(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

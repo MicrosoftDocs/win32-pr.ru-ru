@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 403e87288d906587a11f2a140a9f447ce8236aca
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 68556b18cdc00f2939bdbd50e2d38eb573f09d025ecde34017708d9ac59865db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105655205"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118014924"
 ---
 # <a name="ms-ds-cached-membership-time-stamp-attribute"></a>атрибут отметки времени членства MS-DS-Cache-Membership
 
@@ -36,7 +36,7 @@ ms.locfileid: "105655205"
 | Частота обновления  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1442              |
 | System-ID — GUID    | 3566bf1f-beee-4dcb-8abe-ef89fcfec6c1 |
-| Синтаксис            | [**Пределах**](s-interval.md)       |
+| Синтаксис            | [**Интервал**](s-interval.md)       |
 
 
 
@@ -65,7 +65,7 @@ ms.locfileid: "105655205"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000001                        |
 | System-Flags           | 0x00000011                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -86,7 +86,7 @@ ms.locfileid: "105655205"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000001                        |
 | System-Flags           | 0x00000011                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -100,14 +100,14 @@ ms.locfileid: "105655205"
 | MAPI-Id                | \-                                |
 | System-Only            | Неверно                             |
 | Является однозначным       | True                              |
-| Индексируется             | True                              |
+| Индексируется             | Верно                              |
 | В глобальном каталоге      | Неверно                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                      |
 | Range-Lower            | \-                                |
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000001                        |
 | System-Flags           | 0x00000011                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -128,7 +128,7 @@ ms.locfileid: "105655205"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000001                        |
 | System-Flags           | 0x00000011                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -142,7 +142,7 @@ ms.locfileid: "105655205"
 | MAPI-Id                | \-                                |
 | System-Only            | Неверно                             |
 | Является однозначным       | True                              |
-| Индексируется             | True                              |
+| Индексируется             | Верно                              |
 | В глобальном каталоге      | Неверно                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                      |
 | Range-Lower            | \-                                |

@@ -4,12 +4,12 @@ description: Сведения о сложном типе PeapExtensionsTypeV2. �
 ms.assetid: cb011182-afec-4813-bd56-add894c74c9c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 869e67f16bc9b42929d227755e08bf6924dcc737
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: baea42ec60fe84085ea5e4541848fd43b786419bedab17e938044ff0a713fa07
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103987897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118086033"
 ---
 # <a name="peapextensionstypev2-complex-type"></a>Сложный тип PeapExtensionsTypeV2
 
@@ -31,11 +31,11 @@ ms.locfileid: "103987897"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент **PeapExtensionsTypeV2** является необязательным.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -51,9 +51,9 @@ ms.locfileid: "103987897"
 [**пеапекстенсионстипе**](mspeapconnectionpropertiesv1schema-peapextensionstype-complextype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

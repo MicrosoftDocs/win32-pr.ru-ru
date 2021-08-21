@@ -4,12 +4,12 @@ description: Файлы cookie HTTP предоставляют серверу м
 ms.assetid: c3574592-572f-4fde-adfa-aed3e862f13f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a6855f0b105dc73760541bf9eb7a6da80dfb38e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f0ba5b2d3917ea8f140e334f5f78b1bd730908d25506d9023667403410833c80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105700883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118113718"
 ---
 # <a name="http-cookies"></a>Файлы cookie HTTP
 
@@ -92,7 +92,7 @@ Set-Cookie: <name>=<value>[; <name>=<value>]...
 
 Файл cookie также может быть помечен как безопасный, что указывает, что файл cookie может быть отправлен только на HTTPS-серверы.
 
-Наконец, файл cookie можно пометить как HttpOnly (атрибуты не учитывают регистр), чтобы указать, что файл cookie не является сценарным и не должен быть отображен клиентскому приложению по соображениям безопасности. В Windows Internet это означает, что файл cookie нельзя получить с помощью функции **интернетжеткукие** .
+Наконец, файл cookie можно пометить как HttpOnly (атрибуты не учитывают регистр), чтобы указать, что файл cookie не является сценарным и не должен быть отображен клиентскому приложению по соображениям безопасности. в Windows интернете это означает, что файл cookie нельзя извлечь с помощью функции **интернетжеткукие** .
 
 ### <a name="cookie-header"></a>Заголовок файла cookie
 
@@ -106,7 +106,7 @@ Cookie: <name>=<value> [;<name>=<value>]...
 
 ## <a name="generating-cookies"></a>Создание файлов cookie
 
-Существует три метода создания файлов cookie для Microsoft Internet Explorer: с помощью Microsoft JScript, с помощью функций WinINet и сценария CGI. Все методы должны задавать сведения, включенные в заголовок Set-Cookie.
+существует три метода создания файлов cookie для microsoft Internet Explorer: с помощью JScript майкрософт, функций WinINet и сценария CGI. Все методы должны задавать сведения, включенные в заголовок Set-Cookie.
 
 ### <a name="generating-a-cookie-using-the-dhtml-object-model"></a>Создание файла cookie с помощью объектной модели DHTML
 
@@ -137,10 +137,10 @@ print "Set-Cookie:Test=test_value;
 ```
 
 > [!Note]  
-> WinINet не поддерживает реализации серверов. Кроме того, его не следует использовать из службы. Для серверных реализаций или служб используйте [службы Microsoft Windows HTTP Services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet не поддерживает реализации серверов. Кроме того, его не следует использовать из службы. для серверных реализаций или служб используйте [Microsoft Windows HTTP services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
- 
+ 
 
- 
+ 
 
- 
+ 

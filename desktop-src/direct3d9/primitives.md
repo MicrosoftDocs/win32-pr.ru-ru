@@ -4,12 +4,12 @@ ms.assetid: vs|directx_sdk|~\primitives.htm
 title: Примитивы (графика Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38916e85add69574a2437b0e48c209b14a341e44
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 6af846ded9798a25238287be7dd017dcf6efecdfb2976723638881c7e00f9642
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104139274"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118092574"
 ---
 # <a name="primitives-direct3d-9-graphics"></a>Примитивы (графика Direct3D 9)
 
@@ -36,7 +36,7 @@ ms.locfileid: "104139274"
 
 Типы-примитивы можно визуализировать из приложения C++ с помощью любого из методов подготовки к просмотру интерфейса [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

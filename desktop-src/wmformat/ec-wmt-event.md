@@ -1,9 +1,9 @@
 ---
-title: EC_WMT_EVENT (пакет SDK для формата Windows Media 11)
+title: EC_WMT_EVENT (пакет SDK для Windows Media Format 11)
 description: '\_событие EC ВМТ \_'
 ms.assetid: 51d51659-8e7d-49b7-83f2-a80e99d39d78
 keywords:
-- Пакет SDK Windows Media Format, EC_WMT_EVENT
+- Windows Пакет SDK для формата мультимедиа, EC_WMT_EVENT
 - DirectShow, EC_WMT_EVENT
 - EC_WMT_EVENT
 - Управление цифровыми правами (DRM), EC_WMT_EVENT
@@ -12,16 +12,16 @@ keywords:
 - ASF (Расширенный системный формат), EC_WMT_EVENT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ebe74baaba676a97e609b4c03cd4db9010bd8f6a
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: dbe0e53a759515914a352707550e281aca3aebe096f168352c36c1ff4200b2ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104488748"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118029223"
 ---
-# <a name="ec_wmt_event-windows-media-format-11-sdk"></a>EC_WMT_EVENT (пакет SDK для формата Windows Media 11)
+# <a name="ec_wmt_event-windows-media-format-11-sdk"></a>EC_WMT_EVENT (пакет SDK для Windows Media Format 11)
 
-Отправляется пакетом SDK для формата Windows Media, когда приложение использует фильтр чтения ASF для воспроизведения файлов ASF, защищенных с помощью управления цифровыми правами (DRM).
+отправляется пакетом SDK для Windows Media Format, когда приложение использует фильтр чтения asf для воспроизведения файлов ASF, защищенных с помощью управления цифровыми правами (DRM).
 
 Параметры
 
@@ -45,7 +45,7 @@ ms.locfileid: "104488748"
 
 *lParam2*
 
-Указатель на структуру **\_ \_ \_ данных события ВМТ** , которая содержит сведения о событии в указателе на член **PData** , а также код состояния **HRESULT** , отправленный пакетом SDK Windows Media Format. Значение *lParam2* зависит от значения *lParam1*, как описано в следующей таблице. ( \_ Структуры WM определены в пакете SDK формата Windows Media.)
+указатель на структуру **\_ \_ \_ данных события вмт** , которая содержит сведения о событии в указателе на член **pData** , а также код состояния **HRESULT** , отправленный пакетом SDK для Windows Media Format. Значение *lParam2* зависит от значения *lParam1*, как описано в следующей таблице. ( \_ структуры WM определены в Windows пакете SDK формата носителя.)
 
 
 
@@ -61,14 +61,14 @@ ms.locfileid: "104488748"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Функции цифровых Rights Management**](digital-rights-management-features.md)
 </dt> <dt>
 
-[**Справочник по КАСФ DirectShow**](directshow-qasf-reference.md)
+[**DirectShow Справочник по КАСФ**](directshow-qasf-reference.md)
 </dt> <dt>
 
 [**Включение поддержки DRM**](enabling-drm-support.md)

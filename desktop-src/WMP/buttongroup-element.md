@@ -3,19 +3,19 @@ title: BUTTONGROUP, элемент
 description: BUTTONGROUP, элемент
 ms.assetid: 4756c016-3347-4129-be5e-e822270a24de
 keywords:
-- Обложки проигрывателя Windows Media, элемент BUTTONGROUP
+- обложки проигрыватель Windows Media, элемент BUTTONGROUP
 - обложки, элемент BUTTONGROUP
 - BUTTONGROUP, элемент
 - Справочник по обложкам, элементу BUTTONGROUP
 - элементы, BUTTONGROUP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4de489e779b5e20214778b56fd8d19c7627e444
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6021d29322b98fe4cea96a67998aaf82fbd11e1abe397578a9b0f8999179ee1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104133022"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118120048"
 ---
 # <a name="buttongroup-element"></a>BUTTONGROUP, элемент
 
@@ -43,7 +43,7 @@ ms.locfileid: "104133022"
 
 
 
- 
+ 
 
 Элемент **BUTTONGROUP** поддерживает следующие методы.
 
@@ -56,20 +56,20 @@ ms.locfileid: "104133022"
 
 
 
- 
+ 
 
 Элемент **BUTTONGROUP** поддерживает атрибуты окружения и может реализовывать обработчики событий окружения. Дополнительные сведения см. в разделе [атрибуты окружения](ambient-attributes.md) и [обработчики событий окружения](ambient-event-handlers.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Справочник по программированию для обложки**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

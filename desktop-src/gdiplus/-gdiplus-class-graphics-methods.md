@@ -4,12 +4,12 @@ ms.assetid: 6d6b71fc-b8a0-4a1e-8f9b-384ae3f4cf1c
 title: Графические методы
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fd8fd050d50927a337ce1d7ebe7295b49b83f66f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 38d4535e77acccffb02fcd1ec8e0d6dbb392ec1e444f9cc22091d0fcd9bc303c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104545063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118067854"
 ---
 # <a name="graphics-methods"></a>Графические методы
 
@@ -19,7 +19,7 @@ ms.locfileid: "104545063"
 -   [**Бегинконтаинер ()**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer-r3)
 -   [**Бегинконтаинер (Ректф&, Ректф&, Unit)**](/previous-versions//ms536157(v=vs.85))
 -   [**Бегинконтаинер (Rect&,& Rect, Unit)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrect__inconstrect__inunit))
--   [**Открытым**](/windows/win32/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-clear)
+-   [**Clear**](/windows/win32/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-clear)
 -   [**Драварк (перо \* , Rect&, вещественное, вещественное)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawarc(inconstpen_inconstrect__inreal_inreal))
 -   [**Драварк (перо \* , ректф&, вещественная, реальная)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawarc(inconstpen_inconstrectf__inreal_inreal))
 -   [**Драварк (перо \* , вещественное, вещественное, вещественное, вещественное, вещественное)**](/previous-versions//ms536154(v=vs.85))
@@ -177,7 +177,7 @@ ms.locfileid: "104545063"
 -   [**релеасехдк**](/windows/win32/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-releasehdc)
 -   [**ресетклип**](/windows/win32/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-resetclip)
 -   [**ресеттрансформ**](/windows/win32/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-resettransform)
--   [**Восстановлен**](/windows/win32/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-restore)
+-   [**Восстановить**](/windows/win32/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-restore)
 -   [**RotateTransform**](/windows/win32/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-rotatetransform)
 -   [**Сохранить**](/windows/win32/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-save)
 -   [**ScaleTransform**](/windows/win32/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-scaletransform)

@@ -60,12 +60,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: b65390c7cb03f195e9de39aedc3629688717e0fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47d8b46f9ae438f99965ee8e49b15b246a38a77685a141729330d842bc8edb9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104547207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118147263"
 ---
 # <a name="msvm_scsiprotocolcontroller-class"></a>\_Класс мсвм сксипротоколконтроллер
 
@@ -173,7 +173,7 @@ class Msvm_SCSIProtocolController : CIM_SCSIProtocolController
 | Значение                                                                            | Значение                   |
 |----------------------------------------------------------------------------------|---------------------------|
 | <dl> <dt>1-6</dt> </dl> |                           |
-| <dl> <dt>6</dt> </dl>     | Не применимо<br/> |
+| <dl> <dt>6</dt> </dl>     | Н/Д<br/> |
 
 
 
@@ -196,7 +196,7 @@ class Msvm_SCSIProtocolController : CIM_SCSIProtocolController
 
 | Значение                                                                        | Значение                   |
 |------------------------------------------------------------------------------|---------------------------|
-| <dl> <dt>6</dt> </dl> | Не применимо<br/> |
+| <dl> <dt>6</dt> </dl> | Н/Д<br/> |
 
 
 
@@ -217,7 +217,7 @@ class Msvm_SCSIProtocolController : CIM_SCSIProtocolController
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -395,7 +395,7 @@ class Msvm_SCSIProtocolController : CIM_SCSIProtocolController
 
 | Значение                                                                        | Значение                   |
 |------------------------------------------------------------------------------|---------------------------|
-| <dl> <dt>5</dt> </dl> | Не применимо<br/> |
+| <dl> <dt>5</dt> </dl> | Н/Д<br/> |
 
 
 
@@ -523,7 +523,7 @@ class Msvm_SCSIProtocolController : CIM_SCSIProtocolController
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -781,7 +781,7 @@ class Msvm_SCSIProtocolController : CIM_SCSIProtocolController
 
 | Значение                                                                         | Значение                   |
 |-------------------------------------------------------------------------------|---------------------------|
-| <dl> <dt>12</dt> </dl> | Не применимо<br/> |
+| <dl> <dt>12</dt> </dl> | Н/Д<br/> |
 
 
 
@@ -893,25 +893,25 @@ class Msvm_SCSIProtocolController : CIM_SCSIProtocolController
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Доступ к классу **\_ сксипротоколконтроллер мсвм** может быть ограничен фильтром контроля учетных записей. Дополнительные сведения см. в разделе [Управление учетными записями пользователей и инструментарий WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -921,7 +921,7 @@ class Msvm_SCSIProtocolController : CIM_SCSIProtocolController
 [**\_СКСИПРОТОКОЛКОНТРОЛЛЕР CIM**](/previous-versions/windows/desktop/iscsitarg/cim-protocolcontroller)
 </dt> <dt>
 
-[Классы хранения](storage-classes.md)
+[служба хранилища Класса](storage-classes.md)
 </dt> </dl>
 
  

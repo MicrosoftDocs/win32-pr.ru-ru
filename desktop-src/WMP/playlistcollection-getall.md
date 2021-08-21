@@ -3,9 +3,9 @@ title: Плайлистколлектион. Жеталл, метод
 description: Метод Жеталл извлекает объект Плайлистаррай, содержащий все списки воспроизведения в библиотеке.
 ms.assetid: ec3cb7d7-9c03-4dec-a0aa-ec8bf23547a5
 keywords:
-- Жеталл метод Windows Media Player
-- Жеталл метод Windows Media Player, класс Плайлистколлектион
-- Класс Плайлистколлектион Windows Media Player, метод Жеталл
+- проигрыватель Windows Media метода жеталл
+- проигрыватель Windows Media метода жеталл, класс плайлистколлектион
+- класс плайлистколлектион проигрыватель Windows Media, метод жеталл
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eb3c947b774093f83d6ef627a3ddc9f08381d971
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d662c86385bb948684cab0abba161fc70b2f502442cc4d9c093bdd148a2320b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105718036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118334962"
 ---
 # <a name="playlistcollectiongetall-method"></a>Плайлистколлектион. Жеталл, метод
 
@@ -44,7 +44,7 @@ retVal = PlaylistCollection.getAll()
 
 Этот метод возвращает объект **плайлистаррай** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы использовать этот метод, требуется доступ на чтение к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
@@ -54,7 +54,7 @@ retVal = PlaylistCollection.getAll()
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
@@ -69,10 +69,10 @@ retVal = PlaylistCollection.getAll()
 [**Объект Плайлистколлектион**](playlistcollection-object.md)
 </dt> <dt>
 
-[**Settings. Медиаакцессригхтс**](settings-mediaaccessrights.md)
+[**Параметры. медиаакцессригхтс**](settings-mediaaccessrights.md)
 </dt> <dt>
 
-[**Settings. Рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
+[**Параметры. рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
  

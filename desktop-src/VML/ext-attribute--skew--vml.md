@@ -4,21 +4,21 @@ description: Атрибут ext (асимметрия) (VML)
 ms.assetid: ff1dfb2f-9098-4418-a2f7-c7159328bd09
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 153273f613d188ae9e6fe733b2d0337c5010295d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1b0a001812a5504940509fac82333b2ca637ae76a913218f44cd3a06b4c18bfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104260936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118125364"
 ---
 # <a name="ext-attribute-skewvml"></a>Атрибут ext (асимметрия) (VML)
 
-В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+в этом разделе описывается функция VML, которая является устаревшей по отношению к Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
 
 > [!Note]  
-> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
+> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). сведения, рекомендации и рекомендации относительно текущей версии Windows Internet explorer см. в [центре разработчиков internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Определяет способ отображения наклона. Read/write. **Строка**.
 
@@ -46,8 +46,8 @@ ms.locfileid: "104260936"
 
 Если для расширения задано **изменение**, оно может игнорироваться средством просмотра программного обеспечения. Если задано значение **Просмотр**, то средство просмотра должно отображать растровое представление.
 
-*Атрибут расширений Microsoft Office*
+*Microsoft Office Extensions, атрибут*
 
- 
+ 
 
- 
+ 

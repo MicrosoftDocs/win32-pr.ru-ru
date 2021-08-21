@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9mesh.h
-ms.openlocfilehash: 8628cc27a0223580aa1f8072750f4c31a176533e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 21ec7fbb0356f951f6d2279a466de15e3f635bed7651f99475dd9f9153d0a8c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104354143"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118095489"
 ---
 # <a name="d3dxpatchinfo-structure"></a>Структура D3DXPATCHINFO
 
@@ -74,7 +74,7 @@ typedef struct D3DXPATCHINFO {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Сетка — это набор лиц, каждый из которых описывается простым многоугольником. Объекты можно создать, подключив несколько сеток друг к другу. Сетка исправлений создается на основе исправлений. Исправление — это 4-сторонняя фигура геометрии, созданная на основе кривых. Тип используемой кривой и порядок кривой могут быть различными, чтобы поверхность исправления соответствовала любой фигуре поверхности.
 
@@ -100,11 +100,11 @@ typedef struct D3DXPATCHINFO {
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx9mesh. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx9mesh. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

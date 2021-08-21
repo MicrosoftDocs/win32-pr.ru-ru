@@ -3,7 +3,7 @@ title: Controls. currentPosition
 description: Свойство currentPosition указывает или получает текущую позицию в элементе мультимедиа за считаные секунды с начала.
 ms.assetid: 374ad144-3f74-4d1b-bec5-1cd0f03777b7
 keywords:
-- Проигрыватель Windows Media Controls. currentPosition
+- controls. currentPosition проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 12c690c102bb95c1a58785f18d727ffdae2a82c4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: be64d23b65a396cfb15e9f7b19b4571bdb26cbb7f308241e9a381375b9d26a40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118341881"
 ---
 # <a name="controlscurrentposition"></a>Controls. currentPosition
 
@@ -36,7 +36,7 @@ player.controls.currentPosition
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере **CurrentPosition** используется для поиска расположения, предоставленного пользователем. Для выполнения кода JScript создается HTML-элемент BUTTON. Элемент ввода текста HTML с именем setPosition был создан для принятия значения в секундах от пользователя. Объект **Player** создан с идентификатором "Player".
+В следующем примере **CurrentPosition** используется для поиска расположения, предоставленного пользователем. для выполнения кода JScript создается HTML-элемент BUTTON. Элемент ввода текста HTML с именем setPosition был создан для принятия значения в секундах от пользователя. Объект **Player** создан с идентификатором "Player".
 
 
 ```JScript
@@ -58,7 +58,7 @@ player.controls.currentPosition
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

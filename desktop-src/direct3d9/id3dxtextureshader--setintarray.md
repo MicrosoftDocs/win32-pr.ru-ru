@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 0ddc00637bddf2810e73be7755a9dcfb8696053e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 461ace1b4e666e26b7f9bc5f1068b620f047c4408b7210c077ed8dd100bf7ca1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108097492"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118093631"
 ---
 # <a name="id3dxtextureshadersetintarray-method"></a>Метод ID3DXTextureShader:: Сетинтаррай
 
@@ -81,7 +81,7 @@ HRESULT SetIntArray(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>     |
 
 

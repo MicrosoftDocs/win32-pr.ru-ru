@@ -33,12 +33,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 150a7b5e54e371c11741dd7c763b0ae145354b09
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ddf58a10e85003a00e0d757f29db55a49f98f0ba22e8c3124b83a593f2a3908f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118148303"
 ---
 # <a name="msvm_ethernetswitchportoffloadsettingdata-class"></a>\_Класс мсвм есернетсвитчпортоффлоадсеттингдата
 
@@ -81,13 +81,13 @@ class Msvm_EthernetSwitchPortOffloadSettingData : Msvm_EthernetSwitchPortFeature
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ есернетсвитчпортоффлоадсеттингдата** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -96,7 +96,7 @@ class Msvm_EthernetSwitchPortOffloadSettingData : Msvm_EthernetSwitchPortFeature
 Тип доступа: только для чтения
 </dt> </dl>
 
-Краткое описание объекта. Это свойство наследуется от [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)и всегда имеет значение "параметры разгрузки порта коммутатора Ethernet".
+Краткое описание объекта. это свойство наследуется от [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)и всегда имеет значение "разгрузка порта коммутатора Ethernet Параметры".
 
 </dd> <dt>
 
@@ -122,7 +122,7 @@ class Msvm_EthernetSwitchPortOffloadSettingData : Msvm_EthernetSwitchPortFeature
 Тип доступа: только для чтения
 </dt> </dl>
 
-Отображаемое имя объекта. Это свойство наследуется от [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)и всегда имеет значение "параметры разгрузки порта коммутатора Ethernet".
+Отображаемое имя объекта. это свойство наследуется от [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)и всегда имеет значение "разгрузка порта коммутатора Ethernet Параметры".
 
 </dd> <dt>
 
@@ -328,7 +328,7 @@ class Msvm_EthernetSwitchPortOffloadSettingData : Msvm_EthernetSwitchPortFeature
 Включите разгрузку ВММК, если она поддерживается оборудованием. Значение по умолчанию — false.
 
 > [!Note]  
-> Это свойство было добавлено в Windows 10, версии 1703 и Windows Server 2016.
+> это свойство было добавлено в Windows 10, версии 1703 и Windows Server 2016.
 
  
 
@@ -349,7 +349,7 @@ class Msvm_EthernetSwitchPortOffloadSettingData : Msvm_EthernetSwitchPortFeature
 Число очередей, выделяемых при включении VRSS. Значение по умолчанию равно 16.
 
 > [!Note]  
-> Это свойство было добавлено в Windows 10, версии 1703 и Windows Server 2016.
+> это свойство было добавлено в Windows 10, версии 1703 и Windows Server 2016.
 
  
 
@@ -386,7 +386,7 @@ class Msvm_EthernetSwitchPortOffloadSettingData : Msvm_EthernetSwitchPortFeature
 Включите VRSS. Значение по умолчанию — true.
 
 > [!Note]  
-> Это свойство было добавлено в Windows 10, версии 1703 и Windows Server 2016.
+> это свойство было добавлено в Windows 10, версии 1703 и Windows Server 2016.
 
  
 
@@ -407,7 +407,7 @@ class Msvm_EthernetSwitchPortOffloadSettingData : Msvm_EthernetSwitchPortFeature
 Следует ли исключать основной процессор VMQ из таблицы косвенных обращений VRSS, если VRSS включен. Значение по умолчанию — false.
 
 > [!Note]  
-> Добавлено в Windows 10 версии 1709.
+> добавлено в Windows 10 версии 1709.
 
  
 
@@ -428,7 +428,7 @@ class Msvm_EthernetSwitchPortOffloadSettingData : Msvm_EthernetSwitchPortFeature
 Следует ли всегда выполнять VRSS на стороне узла при включении VRSS, независимо от настройки RSS виртуального сетевого адаптера. Значение по умолчанию — false.
 
 > [!Note]  
-> Добавлено в Windows 10 версии 1709.
+> добавлено в Windows 10 версии 1709.
 
  
 
@@ -449,7 +449,7 @@ class Msvm_EthernetSwitchPortOffloadSettingData : Msvm_EthernetSwitchPortFeature
 Минимальное число очередей, выделяемых при включении VRSS. Значение по умолчанию — 1.
 
 > [!Note]  
-> Добавлено в Windows 10 версии 1709.
+> добавлено в Windows 10 версии 1709.
 
  
 
@@ -470,7 +470,7 @@ class Msvm_EthernetSwitchPortOffloadSettingData : Msvm_EthernetSwitchPortFeature
 Режим планирования очереди, используемый при включении VRSS. По умолчанию используется статическое планирование.
 
 > [!Note]  
-> Добавлено в Windows 10 версии 1709.
+> добавлено в Windows 10 версии 1709.
 
  
 
@@ -491,20 +491,20 @@ class Msvm_EthernetSwitchPortOffloadSettingData : Msvm_EthernetSwitchPortFeature
 Политика сходства каналов VMBus, используемая при включении VRSS. Значение по умолчанию — strong.
 
 > [!Note]  
-> Добавлено в Windows 10 версии 1709.
+> добавлено в Windows 10 версии 1709.
 
  
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
