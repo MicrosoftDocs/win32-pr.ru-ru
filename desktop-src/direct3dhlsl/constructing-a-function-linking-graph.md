@@ -4,12 +4,12 @@ description: В этой статье мы покажем, как создава
 ms.assetid: 82C3109E-8571-49D2-A8BF-298E30E1281B
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c037e7ea111d11d24df173ffba7e56c8f486af82
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f58aa9f942d31e0321924a28ec9e9ea5d5e177d1631e38cfa9f14427de38212c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103890913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117909220"
 ---
 # <a name="constructing-a-function-linking-graph-and-linking-it-to-compiled-code"></a>Создание графа связывания функций и связывание его с скомпилированным кодом
 
@@ -17,7 +17,7 @@ ms.locfileid: "103890913"
 
 **Цель:** Для создания графа связывания функций и связывания его с скомпилированным кодом.
 
-## <a name="prerequisites"></a>Предварительные условия
+## <a name="prerequisites"></a>Необходимые компоненты
 
 Предполагается, что вы знакомы с C++. Также вы должны быть знакомы с основными принципами программирования графики.
 
@@ -263,7 +263,7 @@ ms.locfileid: "103890913"
 
 
 
-## <a name="summary"></a>Итоги
+## <a name="summary"></a>Сводка
 
 Мы использовали методы [**ID3D11FunctionLinkingGraph**](/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11functionlinkinggraph) для создания графиков шейдеров вершин и текстур, а также для задания структуры шейдера программным способом.
 
@@ -273,13 +273,13 @@ ms.locfileid: "103890913"
 
 Поздравляем! Теперь вы можете использовать связывание шейдеров в своих приложениях.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Использование связывания шейдера](using-shader-linking.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

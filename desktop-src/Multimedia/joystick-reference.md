@@ -3,7 +3,7 @@ title: Справочник по джойстику
 description: Справочник по джойстику
 ms.assetid: c2ad092f-a0c5-4e28-ada7-227dc52c3c83
 keywords:
-- Мультимедиа Windows, Справочник по джойстику
+- Windows мультимедиа, справочник по джойстику
 - мультимедиа, Справочник по джойстику
 - Ввод мультимедиа, Справочник по джойстику
 - Джойстики, справочные материалы
@@ -11,12 +11,12 @@ keywords:
 - Справочник по джойстику, сведения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 242f3fb21f9da9b1853ae8e9e7f694b9ad3bf711
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 5eb0386239b0d80d9bc23e324f5754a37e79b7caab7aaabc07649ddc655888f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103890493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118140253"
 ---
 # <a name="joystick-reference"></a>Справочник по джойстику
 
@@ -51,13 +51,13 @@ ms.locfileid: "103890493"
 -   [**\_JOY2MOVE мм**](mm-joy2move.md)
 -   [**\_JOY2ZMOVE мм**](mm-joy2zmove.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Джойстики](joysticks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

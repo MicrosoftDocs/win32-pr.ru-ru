@@ -4,12 +4,12 @@ ms.assetid: c38a1194-e2d8-42ca-8581-4054171f6f44
 title: Идентификаторы GUID для подтипов звука
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c04192f19f530c288b9aef7b5718b8329ea108bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5dee55534ac01fd8d29b3fb77bddc82d7ce0b5b046ebe07cc75c83130c509fef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104496851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118065278"
 ---
 # <a name="audio-subtype-guids"></a>Идентификаторы GUID для подтипов звука
 
@@ -45,7 +45,7 @@ ms.locfileid: "104496851"
 [!Note]<br />
 Эквивалентно MEDIASUBTYPE_MPEG_HEAAC, определенному в вмкодекдсп. h.
 </blockquote>
-<br/> Поток может содержать необработанные данные AAC или AAC данные в потоке передачи звуковых данных (ADTS).<br/> Дополнительные сведения можно найти в разделе<br/>
+<br/> Поток может содержать необработанные данные AAC или AAC данные в потоке передачи звуковых данных (ADTS).<br/> Дополнительные сведения см. в разделе:<br/>
 <ul>
 <li><a href="aac-decoder.md"><strong>Декодер AAC</strong></a></li>
 <li><a href="mpeg-4-file-source.md">Источник файла MPEG-4</a></li>
@@ -59,28 +59,28 @@ ms.locfileid: "104496851"
 </tr>
 <tr class="even">
 <td><strong>MFAudioFormat_ALAC</strong></td>
-<td>Аудиокодек Apple без потерь<br/> Поддерживается в Windows 10 и более поздних версиях.<br/></td>
+<td>Аудиокодек Apple без потерь<br/> поддерживается в Windows 10 и более поздних версиях.<br/></td>
 <td>WAVE_FORMAT_ALAC (0x6C61)</td>
 </tr>
 <tr class="odd">
 <td><strong>MFAudioFormat_AMR_NB</strong></td>
-<td>Адаптативе с несколькими скоростями<br/> Поддерживается в Windows 8.1 и более поздних версиях.<br/></td>
+<td>Адаптативе с несколькими скоростями<br/> поддерживается в Windows 8.1 и более поздних версиях.<br/></td>
 <td>WAVE_FORMAT_AMR_NB</td>
 </tr>
 <tr class="even">
 <td><strong>MFAudioFormat_AMR_WB</strong></td>
-<td>Адаптативе Multi-Rate Wideband Audio<br/> Поддерживается в Windows 8.1 и более поздних версиях.<br/></td>
+<td>Адаптативе Multi-Rate Wideband Audio<br/> поддерживается в Windows 8.1 и более поздних версиях.<br/></td>
 <td>WAVE_FORMAT_AMR_WB</td>
 </tr>
 <tr class="odd">
 <td><strong>MFAudioFormat_AMR_WP</strong></td>
-<td>Поддерживается в Windows 8.1 и более поздних версиях.<br/></td>
+<td>поддерживается в Windows 8.1 и более поздних версиях.<br/></td>
 <td>WAVE_FORMAT_AMR_WP</td>
 </tr>
 <tr class="even">
 <td><strong>MFAudioFormat_Dolby_AC3</strong></td>
 <td>Dolby Digital (AC-3).<br/> То же значение GUID, что и <strong>MEDIASUBTYPE_DOLBY_AC3</strong>, которое определено в ксууидс. h<br/></td>
-<td>Нет.</td>
+<td>Отсутствует.</td>
 </tr>
 <tr class="odd">
 <td><strong>MFAudioFormat_Dolby_AC3_SPDIF</strong></td>
@@ -108,7 +108,7 @@ ms.locfileid: "104496851"
 </tr>
 <tr class="odd">
 <td><strong>MFAudioFormat_FLAC</strong></td>
-<td>Бесплатный аудиокодек без потерь<br/> Поддерживается в Windows 10 и более поздних версиях.<br/></td>
+<td>Бесплатный аудиокодек без потерь<br/> поддерживается в Windows 10 и более поздних версиях.<br/></td>
 <td>WAVE_FORMAT_FLAC (0xF1AC)</td>
 </tr>
 <tr class="even">
@@ -133,12 +133,12 @@ ms.locfileid: "104496851"
 </tr>
 <tr class="even">
 <td><strong>MFAudioFormat_MSP1</strong></td>
-<td>Голосовой кодек Windows Media Audio 9.</td>
+<td>Windows Голосовой кодек Media Audio 9.</td>
 <td>WAVE_FORMAT_WMAVOICE9 (0x000A)</td>
 </tr>
 <tr class="odd">
 <td><strong>MFAudioFormat_Opus</strong></td>
-<td>Opus<br/> Поддерживается в Windows 10 и более поздних версиях.<br/></td>
+<td>Opus<br/> поддерживается в Windows 10 и более поздних версиях.<br/></td>
 <td>WAVE_FORMAT_OPUS (0x704F)</td>
 </tr>
 <tr class="even">
@@ -153,22 +153,22 @@ ms.locfileid: "104496851"
 </tr>
 <tr class="even">
 <td><strong>MFAudioFormat_WMASPDIF</strong></td>
-<td>Кодек Windows Media Audio 9 Professional через S/PDIF.</td>
+<td>Windows Media Audio 9 Professional кодек через S/PDIF.</td>
 <td>WAVE_FORMAT_WMASPDIF (0x0164)</td>
 </tr>
 <tr class="odd">
 <td><strong>MFAudioFormat_WMAudio_Lossless</strong></td>
-<td>Кодек Windows Media Audio 9 без потерь или кодек Windows Media Audio 9,1.</td>
+<td>Windows кодек мультимедиа media audio 9 без потерь или кодек Windows Media audio 9,1.</td>
 <td>WAVE_FORMAT_WMAUDIO_LOSSLESS (0x0163)</td>
 </tr>
 <tr class="even">
 <td><strong>MFAudioFormat_WMAudioV8</strong></td>
-<td>Кодек Windows Media Audio 8, кодек Windows Media Audio 9 или кодек Windows Media Audio 9,1.</td>
+<td>Windows кодек media audio 8, кодек Windows media audio 9 или кодек Windows Media audio 9,1.</td>
 <td>WAVE_FORMAT_WMAUDIO2 (0x0161)</td>
 </tr>
 <tr class="odd">
 <td><strong>MFAudioFormat_WMAudioV9</strong></td>
-<td>Кодек Windows Media Audio 9 Professional или кодек Windows Media Audio 9,1 Professional.</td>
+<td>Windows media audio 9 Professional кодек или Windows media audio 9,1 Professional кодека.</td>
 <td>WAVE_FORMAT_WMAUDIO3 (0x0162)</td>
 </tr>
 </tbody>
@@ -187,7 +187,7 @@ ms.locfileid: "104496851"
 
 Чтобы определить новую константу GUID, которая следует за этим шаблоном, можно использовать макрос [**define \_ MEDIATYPE \_ GUID**](/windows/desktop/api/mfapi/nf-mfapi-define_mediatype_guid) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

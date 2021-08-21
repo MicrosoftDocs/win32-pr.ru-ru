@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ece8f653d7d3d296e2f3e264f7c2e97941c0bc21
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 256204d1214b2486831376c7d038fd0c92f0ef519c752878f785518038bb7b09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103910499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118076424"
 ---
 # <a name="inullablejetstruct-interface"></a>Интерфейс Инуллаблежетструкт
 
@@ -51,7 +51,7 @@ Dim instance As INullableJetStruct
 public interface INullableJetStruct
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

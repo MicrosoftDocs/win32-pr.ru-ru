@@ -6,12 +6,12 @@ keywords:
 - COM раздела реестра ToolBoxBitmap32
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2ca6208586e961c0b6f8fa666c5731bab38faa6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d596c758cb6cc0cc34d4c4fc7b73dfe001345ef660f8d62e0268f65a69cfd0f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117917943"
 ---
 # <a name="toolboxbitmap32"></a>ToolBoxBitmap32
 
@@ -21,19 +21,19 @@ ms.locfileid: "104067796"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
-   {CLSID}
-      ToolBoxBitmap32 = filename,  resourceID
+   {CLSID}
+      ToolBoxBitmap32 = filename,  resourceID
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это значение **reg \_ SZ** , которое указывает имя модуля и идентификатор ресурса для точечного рисунка.
 
-Стандартный размер значка Windows слишком велик для использования в этой цели. Для этого требуются контейнеры элементов управления, имеющие режим конструктора, в котором один выбирает элементы управления и помещает их в разрабатываемую форму.
+размер значка стандартного Windows слишком велик для использования в этой цели. Для этого требуются контейнеры элементов управления, имеющие режим конструктора, в котором один выбирает элементы управления и помещает их в разрабатываемую форму.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ description: Побитовое не.
 ms.assetid: AC7EBBC2-4B52-4793-812C-B25897FB8D05
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e0bf224e6e5af7f2db6bcbaf7ae287ba2d399727
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: e74018cf7dcffcc557785b5f0cccd06e70f61786e800d6673e339bb12d44851c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104983885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118088980"
 ---
 # <a name="not-sm4---asm"></a>не (SM4-ASM)
 
@@ -35,7 +35,7 @@ ms.locfileid: "104983885"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта инструкция выполняет дополнение одного компонента для каждого 32-битного значения в *src0*. 32-разрядные результаты хранятся в *dest*.
 
@@ -59,9 +59,9 @@ ms.locfileid: "104983885"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
-| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | да       |
-| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
+| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Да       |
+| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Да       |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Нет        |
@@ -70,7 +70,7 @@ ms.locfileid: "104983885"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -182,7 +182,7 @@
               href: cryptographic-service-provider-functions.md
             - name: Функции хранилища сертификатов
               href: certificate-store-functions.md
-            - name: Функции обмена личной информацией
+            - name: персональные данные Exchange функции
               href: personal-information-exchange-functions.md
             - name: Вспомогательные функции
               href: helper-functions.md
@@ -226,7 +226,7 @@
               href: cryptoapi-cryptographic-service-providers.md
             - name: Поставщики алгоритмов шифрования CNG
               href: cng-cryptographic-algorithm-providers.md
-            - name: Поставщики хранилища ключей CNG
+            - name: поставщики служба хранилища ключей CNG
               href: cng-key-storage-providers.md
             - name: Перечисление установленных поставщиков
               href: enumerating-installed-providers.md

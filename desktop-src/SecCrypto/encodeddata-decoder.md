@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 334895ed683d0c582628b4b623a7343ca561be22
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7496aa3873fda9e4cd0adc86773a8c06ca60be25e3625c26f3b7a97508f48e0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117766827"
 ---
 # <a name="encodeddatadecoder-method"></a>Метод Енкодеддата. декодер
 
@@ -39,7 +39,7 @@ EncodedData.Decoder()
 
 Этот метод не имеет параметров.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если закодированные данные не имеют объекта декодера, возвращается **значение NULL** .
 

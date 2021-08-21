@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 4239375ece11954964b43cf548edf4de6ed5e389
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a35fd1b570e7424c567999f2eef7cb42ebbf3bcab2c637b728301fd08da96451
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118069225"
 ---
 # <a name="windows8grbits-class"></a>Класс Windows8Grbits
 
@@ -60,7 +60,7 @@ public static class Windows8Grbits
 
 Любые общедоступные статичные (общие в Visual Basic) члены этого типа являются потокобезопасными. Потокобезопасная работа с членами экземпляров типа не гарантируется.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

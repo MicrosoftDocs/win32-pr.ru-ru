@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: cd242efaaf3cdb44f424a603f2fc522dda540ec8
-ms.sourcegitcommit: 8276af9231bdbf5a7334299f0d13fc8ff069a065
+ms.openlocfilehash: ca0b1f93b3c5f56cd7a074571ec6657cedc924688606e3612a66ef0f9e40d51e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "104986148"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117726073"
 ---
 # <a name="programming-guide-for-hlsl"></a>Инструкции по программированию для HLSL
 
@@ -31,17 +31,17 @@ ms.locfileid: "104986148"
 | [Использование шейдеров в Direct3D 9](dx-graphics-hlsl-using-shaders-9.md) | |
 | [Использование шейдеров в Direct3D 10](dx-graphics-hlsl-using-shaders-10.md) | |
 | [Оптимизация шейдеров HLSL](dx-graphics-hlsl-optimize.md) | |
-| [Отладка шейдеров в Visual Studio](dx-graphics-hlsl-debug-visual-studio.md) | Новейшее средство для отладки шейдеров теперь поставляется как функция в Microsoft Visual Studio, которая называется отладчиком графики Visual Studio.  |
+| [Отладка шейдеров в Visual Studio](dx-graphics-hlsl-debug-visual-studio.md) | новейшее средство для отладки шейдеров теперь поставляется как функция в Microsoft Visual Studio, называемая Visual Studio графическим отладчиком.  |
 | [Компиляция шейдеров](dx-graphics-hlsl-part1.md) | Теперь рассмотрим различные способы компиляции кода шейдера и соглашений для расширений файлов для кода шейдера. |
-| [Указание целевых объектов компилятора](specifying-compiler-targets.md) | Здесь перечислены целевые объекты для различных профилей, которые поддерживаются функциями **D3DCompile \** _ и компилятором HLSL. |
+| [Указание целевых объектов компилятора](specifying-compiler-targets.md) | Здесь перечислены целевые объекты для различных профилей, которые поддерживаются функциями **D3DCompile \*** и компилятором HLSL. |
 | [Распаковка и \_ формат упаковки для редактирования образа In-Place](dx-graphics-hlsl-unpacking-packing-dxgi-format.md) | |
-| [Использование HLSL минимальной точности](using-hlsl-minimum-precision.md) | Начиная с Windows 8, графические драйверы могут реализовывать [скалярные типы данных](dx-graphics-hlsl-scalar.md) с минимальной точностью HLSL, используя любую точность, большую или равную указанной точности.  |
+| [Использование HLSL минимальной точности](using-hlsl-minimum-precision.md) | начиная с Windows 8, графические драйверы могут реализовывать [скалярные типы данных](dx-graphics-hlsl-scalar.md) с минимальной точностью HLSL, используя любую точность, которая больше или равна заданной точности разрядов.  |
 | [Модель шейдера HLSL 5](overviews-direct3d-11-hlsl.md) | |
 | [Модель шейдера HLSL 5,1](hlsl-shader-model-5-1-features-for-direct3d-12.md) | В этом разделе описываются возможности модели шейдеров 5,1, применяемые на практике к D3D12 и D3D 11.3. Все оборудование DirectX 12 поддерживает модель шейдера 5,1. |
-| [Модель шейдера HLSL 6,0](hlsl-shader-model-6-0-features-for-direct3d-12.md) | Описывает встроенные функции для операций Wave, добавленные в модель шейдера HLSL 6,0. |
+| [HLSL Shader Model 6.0](hlsl-shader-model-6-0-features-for-direct3d-12.md) | Описывает встроенные функции для операций Wave, добавленные в модель шейдера HLSL 6,0. |
 | [Модель шейдера HLSL 6,4](hlsl-shader-model-6-4-features-for-direct3d-12.md) | Описывает встроенные функции машинного обучения, добавленные в модель шейдера HLSL 6,4. |
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
-_ [HLSL](dx-graphics-hlsl.md)
+* [HLSL](dx-graphics-hlsl.md)
 * [Справочник по HLSL](dx-graphics-hlsl-reference.md)

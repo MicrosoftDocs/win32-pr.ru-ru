@@ -1,19 +1,19 @@
 ---
-description: Windows 7 и Windows Server 2008 R2 включают в себя следующие новые программные элементы для процессов и потоков.
+description: Windows 7 и Windows Server 2008 R2 включают следующие новые программные элементы для процессов и потоков.
 ms.assetid: 69cd8713-b40c-4fec-a256-9c2ee3d73da5
 title: Новые возможности в процессах и потоках
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee7dfb708a2890bab1fcd3fd66385f74bd8513b1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: efe8b53349f5c6f19dd9beda1ffe6b933fbff63533988a40937453194df57295
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909663"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117792962"
 ---
 # <a name="whats-new-in-processes-and-threads"></a>Новые возможности в процессах и потоках
 
-Windows 7 и Windows Server 2008 R2 включают в себя следующие новые программные элементы для процессов и потоков.
+Windows 7 и Windows Server 2008 R2 включают следующие новые программные элементы для процессов и потоков.
 
 ## <a name="new-capabilities"></a>Новые возможности
 

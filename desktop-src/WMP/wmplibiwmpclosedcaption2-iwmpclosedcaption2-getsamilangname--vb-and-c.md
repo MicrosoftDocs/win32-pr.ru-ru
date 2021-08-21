@@ -3,9 +3,9 @@ title: IWMPClosedCaption2 Жетсамилангнаме, метод
 description: Метод Жетсамилангнаме возвращает имя языка, поддерживаемого текущим файлом SAMI.
 ms.assetid: 52aaf1cc-89ef-4c4c-af43-3f88dc4a9539
 keywords:
-- Жетсамилангнаме метод Windows Media Player
-- Жетсамилангнаме метод проигрывателя Windows Media Player, интерфейс IWMPClosedCaption2
-- Интерфейс IWMPClosedCaption2 Windows Media Player, метод Жетсамилангнаме
+- проигрыватель Windows Media метода жетсамилангнаме
+- проигрыватель Windows Media метода жетсамилангнаме, интерфейс IWMPClosedCaption2
+- проигрыватель Windows Media интерфейса IWMPClosedCaption2, метод жетсамилангнаме
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e50df643fdd6b665de1275873fb8de9d5d094a42
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 99941c7c8c62480ea13572b22083a2d64bda9924cdf3d26200dbc9ac6ba9bdf1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689318"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117930307"
 ---
 # <a name="iwmpclosedcaption2getsamilangname-method"></a>Метод IWMPClosedCaption2:: Жетсамилангнаме
 
@@ -64,7 +64,7 @@ Implements IWMPClosedCaption2.getSAMILangName
 
 **Строка System. String** , которая представляет собой имя языка, указанное в файле Sami.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Языки в файле SAMI индексируются в порядке, указанном в файле, начиная с нуля.
 
@@ -76,7 +76,7 @@ Implements IWMPClosedCaption2.getSAMILangName
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

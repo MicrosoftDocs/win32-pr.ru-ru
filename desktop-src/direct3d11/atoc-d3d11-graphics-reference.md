@@ -4,12 +4,12 @@ description: В этом разделе содержатся справочны�
 ms.assetid: cbab1a44-3a79-4b55-94f4-48ad4761cf38
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af5efad07319abd60490e360c721ea4cd596f319
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: bc8ba326ef2185091d550f65fa2a707b718e2f70998e489c555117001721dfc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104412577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117734276"
 ---
 # <a name="direct3d-11-utilities-and-effects-reference"></a>Справочник по Direct3D 11, служебным программам и эффектам
 
@@ -30,7 +30,7 @@ ms.locfileid: "104412577"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

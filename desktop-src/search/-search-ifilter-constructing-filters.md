@@ -1,17 +1,17 @@
 ---
 description: Важно понимать необходимую структуру DLL обработчика фильтров (реализацию интерфейса IFilter).
 ms.assetid: a2b5a813-573a-44d3-8780-99603e3246c1
-title: Реализация обработчиков фильтров в поиске Windows
+title: реализация обработчиков фильтров в Windowsном поиске
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc5f326440b31b62ff5697274962f4d4a2cfe7c1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b1c55f0cfc50b75a6e206e2479ff6849d102a42a35b75026f8b6d3f37766b41
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105719314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117680883"
 ---
-# <a name="implementing-filter-handlers-in-windows-search"></a>Реализация обработчиков фильтров в поиске Windows
+# <a name="implementing-filter-handlers-in-windows-search"></a>реализация обработчиков фильтров в Windowsном поиске
 
 Важно понимать необходимую структуру DLL обработчика фильтров (реализацию интерфейса [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) ).
 
@@ -23,7 +23,7 @@ ms.locfileid: "105719314"
 - [Реализация методов COM-интерфейса](#implementing-the-com-interface-methods)
   - [Нереализованные методы COM](#com-methods-that-are-not-implemented)
 - [Дополнительные ресурсы](#additional-resources)
-- [См. также](#related-topics)
+- [Связанные темы](#related-topics)
 
 ## <a name="implementing-and-exporting-the-dll-entry-points"></a>Реализация и экспорт точек входа библиотеки DLL
 
@@ -46,11 +46,11 @@ ms.locfileid: "105719314"
 
 ## <a name="inheriting-the-com-interfaces"></a>Наследование COM-интерфейсов
 
-Windows Search 3,0 и более поздних версий требует использования [IPersistStream](/windows/win32/api/objidl/nn-objidl-ipersiststream) по следующим причинам:
+Windows В поиске 3,0 и более поздних версиях необходимо использовать [IPersistStream](/windows/win32/api/objidl/nn-objidl-ipersiststream) по следующим причинам:
 
 - Для обеспечения производительности и будущей совместимости.
 - Для повышения безопасности. IFilter, реализованные с помощью [IPersistStream](/windows/win32/api/objidl/nn-objidl-ipersiststream) , более безопасны, так как контекст, в котором выполняется интерфейс [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) , не требует наличия прав на открытие файлов на диске или по сети.
-- Хотя в Windows Search используется только [IPersistStream](/windows/win32/api/objidl/nn-objidl-ipersiststream), класс интерфейса [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) также может наследовать реализации интерфейса [IPersistFile](/windows/win32/api/objidl/nn-objidl-ipersistfile) и (или) интерфейсов [иперсистстораже](/windows/win32/api/objidl/nn-objidl-ipersiststorage) для обратной совместимости.
+- хотя Windows поиск использует только [IPersistStream](/windows/win32/api/objidl/nn-objidl-ipersiststream), класс интерфейса [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) также может наследовать реализации интерфейса [IPersistFile](/windows/win32/api/objidl/nn-objidl-ipersistfile) и (или) интерфейсов [иперсистстораже](/windows/win32/api/objidl/nn-objidl-ipersiststorage) для обратной совместимости.
 
 Эти интерфейсы объявляются в файлах, включаемых из \\ каталога мссдк include, и имеют предварительно определенные идентификаторы интерфейса (идентификаторов IID). Клиент индексирования содержимого запрашивает интерфейс [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) через [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) , чтобы определить, какой из этих интерфейсов следует использовать при фильтрации содержимого.
 
@@ -74,7 +74,7 @@ Windows Search 3,0 и более поздних версий требует ис
 
 Интерфейс [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) должен реализовывать по меньшей мере [IPersistStream](/windows/win32/api/objidl/nn-objidl-ipersiststream), но не должен реализовывать дополнительные интерфейсы, производные от IPersist.
 
-Поиску Windows не требуется реализовывать методы COM, перечисленные в следующей таблице.
+Windows Поиск не требует реализации методов COM, перечисленных в следующей таблице.
 
 | Необязательный метод                               | Описание                       |
 |-----------------------------------------------------------|-----------------------------------|
@@ -85,18 +85,18 @@ Windows Search 3,0 и более поздних версий требует ис
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-- Пример кода [ифилтерсампле](-search-sample-ifiltersample.md) , доступный на [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample), демонстрирует создание базового класса IFilter для реализации интерфейса [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) .
+- пример кода [ифилтерсампле](-search-sample-ifiltersample.md) , доступный на [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample), демонстрирует создание базового класса IFilter для реализации интерфейса [**ifilter**](/windows/win32/api/filter/nn-filter-ifilter) .
 - Общие сведения о процессе индексирования см. [в разделе процесс индексирования](-search-indexing-process-overview.md).
 - Общие сведения о типах файлов см. в разделе [типы файлов](../shell/fa-file-types.md).
 - Сведения о запросе атрибутов сопоставления файлов для типа файлов см. в разделе [перцеиведтипес, системфилеассоЦиатионс и регистрация приложения](/previous-versions/windows/desktop/legacy/cc144150(v=vs.85)).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 [Разработка обработчиков фильтров](-search-ifilter-conceptual.md)
 
-[Основные сведения о обработчиках фильтров в поиске Windows](-search-ifilter-about.md)
+[основные сведения о обработчиках фильтров в Windows поиске](-search-ifilter-about.md)
 
-[Рекомендации по созданию обработчиков фильтров в поиске Windows](-search-3x-wds-extidx-filters.md)
+[рекомендации по созданию обработчиков фильтров в Windowsном поиске](-search-3x-wds-extidx-filters.md)
 
 [Возвращение свойств из обработчика фильтра](-search-ifilter-property-filtering.md)
 

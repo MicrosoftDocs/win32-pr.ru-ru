@@ -4,12 +4,12 @@ description: Сдвиг влево. | Ишл (SM4-ASM)
 ms.assetid: FA0213B8-8A76-4916-8B2F-0983C404A838
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e14225f8c8b0e46cf0ba6eda61f96e4563a904e
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: fdbf71acbf137a63002ae87f2304140dfe26a863280dff98d1f260c87234a44a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104998158"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118089381"
 ---
 # <a name="ishl-sm4---asm"></a>Ишл (SM4-ASM)
 
@@ -36,7 +36,7 @@ ms.locfileid: "104998158"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта инструкция выполняет ориентированную на компоненты смену каждого 32-битного значения в *src0* влево на число беззнаковых целых чисел, предоставленное в ЛСБ 5 бит (диапазон 0-31) в *src1. Выберите \_ компонент*, вставив 0. Результаты 32-бит на компонент помещаются в *dest*. Счетчик — это скалярное значение, применяемое ко всем компонентам.
 
@@ -60,9 +60,9 @@ ms.locfileid: "104998158"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
-| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | да       |
-| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
+| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Да       |
+| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Да       |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Нет        |
@@ -71,7 +71,7 @@ ms.locfileid: "104998158"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

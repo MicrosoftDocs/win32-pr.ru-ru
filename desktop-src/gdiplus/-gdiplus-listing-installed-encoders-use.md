@@ -1,19 +1,19 @@
 ---
-description: Интерфейс GDI+ предоставляет функцию Жетимажеенкодерс, позволяющую определить, какие кодировщики изображений доступны на компьютере.
+description: GDI+ предоставляет функцию жетимажеенкодерс, позволяющую определить, какие кодировщики изображений доступны на компьютере.
 ms.assetid: a261cf61-b853-4208-984b-0d5040eb1667
 title: Список установленных кодировщиков
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f310e9d366cdacde019373724f2b9feb3b94aef8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 072b18d226d2ad09bc79cb1d1599ea5c0c62fa695a7aae2ff5969e27031e37b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104985156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118066885"
 ---
 # <a name="listing-installed-encoders"></a>Список установленных кодировщиков
 
-Интерфейс GDI+ предоставляет функцию [**жетимажеенкодерс**](/windows/desktop/api/Gdiplusimagecodec/nf-gdiplusimagecodec-getimageencoders) , позволяющую определить, какие кодировщики изображений доступны на компьютере. **Жетимажеенкодерс** возвращает массив объектов [**имажекодеЦинфо**](/windows/win32/api/gdiplusimaging/nl-gdiplusimaging-imagecodecinfo) . Перед вызовом **жетимажеенкодерс** необходимо выделить буфер, достаточно большой для получения этого массива. Чтобы определить размер требуемого буфера, можно вызвать [**жетимажеенкодерссизе**](/windows/desktop/api/Gdiplusimagecodec/nf-gdiplusimagecodec-getimageencoderssize) .
+GDI+ предоставляет функцию [**жетимажеенкодерс**](/windows/desktop/api/Gdiplusimagecodec/nf-gdiplusimagecodec-getimageencoders) , позволяющую определить, какие кодировщики изображений доступны на компьютере. **Жетимажеенкодерс** возвращает массив объектов [**имажекодеЦинфо**](/windows/win32/api/gdiplusimaging/nl-gdiplusimaging-imagecodecinfo) . Перед вызовом **жетимажеенкодерс** необходимо выделить буфер, достаточно большой для получения этого массива. Чтобы определить размер требуемого буфера, можно вызвать [**жетимажеенкодерссизе**](/windows/desktop/api/Gdiplusimagecodec/nf-gdiplusimagecodec-getimageencoderssize) .
 
 В следующем консольном приложении перечислены доступные кодировщики изображений:
 

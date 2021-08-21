@@ -4,12 +4,12 @@ ms.assetid: df313a66-e80f-499c-a9f2-a7cbaaf0a7d4
 title: MFT_MESSAGE_NOTIFY_END_STREAMING (Мфтрансформ. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ad2f13635b97db0c6d7751d9648f42b2b4ed8acc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae36412a35dd142efab89f17827b1c9cb6475494ff88f8af800bd8fee65d456f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104543911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117871968"
 ---
 # <a name="mft_message_notify_end_streaming"></a>\_ \_ уведомление о \_ завершении \_ ПОТОКовой передачи сообщения MFT
 
@@ -35,13 +35,13 @@ MFT может ответить на это сообщение, освобожд
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                     |
-| Header<br/>                   | <dl> <dt>Мфтрансформ. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                     |
+| Заголовок<br/>                   | <dl> <dt>Мфтрансформ. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

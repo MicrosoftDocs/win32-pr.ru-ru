@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1d7ec3bac73f5b82f82d2762a34084de25b63f82
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2b2635248721168910607558bad0a0c2256046a4c0379eb3d60636293bd0a826
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692112"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118084423"
 ---
 # <a name="apiretrievecolumnasstring-method-jet_sesid-jet_tableid-jet_columnid-encoding"></a>Метод API. Ретриевеколумнасстринг (JET_SESID, JET_TABLEID, JET_COLUMNID, Encoding)
 
@@ -97,7 +97,7 @@ public static string RetrieveColumnAsString(
 Тип: [System. String](/dotnet/api/system.string)  
 Данные, полученные из столбца в виде строки. Значение null, если столбец имеет значение null.  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

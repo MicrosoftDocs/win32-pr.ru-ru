@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b573280dc3f180d9f7a4f479670e9742c6797d7
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8aa796ed7b6567dba8b0bc5e7bcdcbf2df6ba3ddceaed7348e129cf1e218d337
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103893437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118013824"
 ---
 # <a name="msmq-qm-id-attribute"></a>Атрибут MSMQ-QM-ID
 
@@ -66,7 +66,7 @@ ObjectGUID объекта конфигурации MSMQ сервера.
 | Range-Upper            | 16                                                 |
 | Search-Flags           | 0x00000000                                         |
 | System-Flags           | 0x00000010                                         |
-| Классы, используемые в        | [**MSMQ — параметры**](c-msmqsettings.md)<br/> |
+| Классы, используемые в        | [**MSMQ — Параметры**](c-msmqsettings.md)<br/> |
 
 
 
@@ -87,7 +87,7 @@ ObjectGUID объекта конфигурации MSMQ сервера.
 | Range-Upper            | 16                                                 |
 | Search-Flags           | 0x00000000                                         |
 | System-Flags           | 0x00000010                                         |
-| Классы, используемые в        | [**MSMQ — параметры**](c-msmqsettings.md)<br/> |
+| Классы, используемые в        | [**MSMQ — Параметры**](c-msmqsettings.md)<br/> |
 
 
 
@@ -108,7 +108,7 @@ ObjectGUID объекта конфигурации MSMQ сервера.
 | Range-Upper            | 16                                                 |
 | Search-Flags           | 0x00000000                                         |
 | System-Flags           | 0x00000010                                         |
-| Классы, используемые в        | [**MSMQ — параметры**](c-msmqsettings.md)<br/> |
+| Классы, используемые в        | [**MSMQ — Параметры**](c-msmqsettings.md)<br/> |
 
 
 
@@ -129,7 +129,7 @@ ObjectGUID объекта конфигурации MSMQ сервера.
 | Range-Upper            | 16                                                 |
 | Search-Flags           | 0x00000000                                         |
 | System-Flags           | 0x00000010                                         |
-| Классы, используемые в        | [**MSMQ — параметры**](c-msmqsettings.md)<br/> |
+| Классы, используемые в        | [**MSMQ — Параметры**](c-msmqsettings.md)<br/> |
 
 
 
@@ -150,7 +150,7 @@ ObjectGUID объекта конфигурации MSMQ сервера.
 | Range-Upper            | 16                                                 |
 | Search-Flags           | 0x00000000                                         |
 | System-Flags           | 0x00000010                                         |
-| Классы, используемые в        | [**MSMQ — параметры**](c-msmqsettings.md)<br/> |
+| Классы, используемые в        | [**MSMQ — Параметры**](c-msmqsettings.md)<br/> |
 
 
 
@@ -171,7 +171,7 @@ ObjectGUID объекта конфигурации MSMQ сервера.
 | Range-Upper            | 16                                                 |
 | Search-Flags           | 0x00000000                                         |
 | System-Flags           | 0x00000010                                         |
-| Классы, используемые в        | [**MSMQ — параметры**](c-msmqsettings.md)<br/> |
+| Классы, используемые в        | [**MSMQ — Параметры**](c-msmqsettings.md)<br/> |
 
 
 

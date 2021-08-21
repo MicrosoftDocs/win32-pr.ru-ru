@@ -3,7 +3,7 @@ title: Сообщение TBM_GETBUDDY (Коммктрл. h)
 description: Получает маркер для окна элемента управления TrackBar в заданном месте. Указанное расположение задается относительно ориентации элемента управления (по горизонтали или по вертикали).
 ms.assetid: 69e4e467-150d-4505-b1c2-2ed9dd83f1a6
 keywords:
-- Элементы управления Windows для TBM_GETBUDDY сообщений
+- элементы управления Windows сообщений TBM_GETBUDDY
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b4c076f001a1dff62541c3aa32bc12744b30c012
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6e03053981ed16b97d68d5b2f0c77db64062d64fd2df7b5a347e4757736d4844
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117829618"
 ---
 # <a name="tbm_getbuddy-message"></a>\_Сообщение ТБМ приятель
 
@@ -60,8 +60,8 @@ ms.locfileid: "103989432"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

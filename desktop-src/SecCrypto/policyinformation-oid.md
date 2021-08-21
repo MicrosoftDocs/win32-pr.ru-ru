@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 9acab40130ef6c55bf014058b3e5a6d935ed8a7b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dbe0bba2775f236aa8aa9bce668f7c63f07220616bc03bc05fddfbf18e72ed5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685141"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117978720"
 ---
 # <a name="policyinformationoid-property"></a>Полициинформатион. OID, свойство
 
@@ -50,7 +50,7 @@ PolicyInformation.OID As OID
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

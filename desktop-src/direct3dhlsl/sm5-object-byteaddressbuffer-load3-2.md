@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1bf3ffda082b8d2ae9cf22db59c1c38682563136
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0db90d9536c069977f07cdb5ca285083314ff200014cefaec8ab874e123a3f52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104337532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117725348"
 ---
 # <a name="load3uint-uint-function"></a>Load3 (uint, uint), функция
 
@@ -28,8 +28,8 @@ ms.locfileid: "104337532"
 
 ``` syntax
 uint3 Load3(
-  in  uint Location,
-  out uint Status
+  in  uint Location,
+  out uint Status
 );
 ```
 
@@ -61,7 +61,7 @@ uint3 Load3(
 
 Три значения.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта функция поддерживается для следующих типов шейдеров:
 
@@ -73,7 +73,7 @@ uint3 Load3(
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -85,6 +85,6 @@ uint3 Load3(
 [**битеаддрессбуффер**](sm5-object-byteaddressbuffer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

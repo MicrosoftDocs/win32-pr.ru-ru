@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9xof.h
-ms.openlocfilehash: cab1cc5e70b6204c832fd9fe5b0fecac4276f578
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b6e106fc7163ed4ff66e74332336cc85b2a95afdc0fa6b712b00f3b32e2af248
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104157190"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118096069"
 ---
 # <a name="d3dxferr-return-values"></a>Возвращаемые значения D3DXFERR
 
@@ -152,7 +152,7 @@ ms.locfileid: "104157190"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 \_Для создания кодов ошибок используется FACD3DXF код механизма ошибок в файле x. Пример:
 
@@ -170,11 +170,11 @@ ms.locfileid: "104157190"
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx9xof. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx9xof. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

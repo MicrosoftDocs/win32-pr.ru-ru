@@ -4,12 +4,12 @@ ms.assetid: acb43921-f0d4-4151-9371-1b99e5d30c0e
 title: Состояние цвета Per-Vertex (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e0104b427753fa3d7b7cf5a0a5a10cfeb5d10f2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 4d6efd227c64785f7399ae3ba56d4623342c0910d901c3cfc404fc4a37f0d233
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104416404"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117727993"
 ---
 # <a name="per-vertex-color-state-direct3d-9"></a>Состояние цвета Per-Vertex (Direct3D 9)
 
@@ -28,7 +28,7 @@ SetRenderState(D3DRS_COLORVERTEX, TRUE);
 
 Если включен цвет на уровне вершины, то приложения могут настраивать источник, из которого система получает сведения о цвете для вершины. D3DRS \_ амбиентматериалсаурце, D3DRS \_ ДИФФУСЕМАТЕРИАЛСАУРЦЕ, D3DRS \_ емиссивематериалсаурце и D3DRS \_ спекуларматериалсаурце отображают источники для управления внешними, рассеянными, эмиссионный и отражающими цветовыми компонентами соответственно. Каждое состояние может быть задано для членов перечисляемого типа [**D3DMATERIALCOLORSOURCE**](./d3dmaterialcolorsource.md) , который определяет константы, которые указывают системе на использование текущего материала, рассеянного цвета или отраженного цвета в качестве источника для указанного компонента цвета.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

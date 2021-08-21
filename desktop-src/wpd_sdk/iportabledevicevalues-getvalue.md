@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: 6ab5ec24e67d5259eec86c6a33d32766a5426b38
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cce387bfc08c48547603d8b30a3952952f1e2decf70e06986ea4fb477fe4fdc7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105717841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117843037"
 ---
 # <a name="iportabledevicevaluesgetvalue-method"></a>Метод Ипортабледевицевалуес:: GetValue
 
@@ -70,24 +70,24 @@ HRESULT GetValue(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если VARTYPE для *pValue* является VT \_ Vector или VT \_ UI1, получение буфера **со значением NULL** или нулевым размером не поддерживается. Например, не допускаются значения pValue. Кауб. Пелемс = **null** или pValue. Кауб. целемс = 0.
 
 Этот метод можно использовать для получения значения любого типа из коллекции. Однако если вы заранее знакомы с типом значения, используйте один из специализированных методов извлечения этого интерфейса, чтобы избежать издержек на работу с ПРОПВАРИАНТ значениями напрямую.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Портабледевицетипес. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Портабледевицетипес. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>Портабледевицегуидс. lib</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
