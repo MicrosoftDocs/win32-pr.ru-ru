@@ -4,16 +4,16 @@ ms.assetid: ad218357-82c8-4fcb-b71b-ba17564a5ca5
 title: 'Метод Итмедиаколлектион:: get_Item (Сдпблб. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c68f3571dbd1f66e325dd7fa1bb30dfe6d6bc35
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3546c74201e5c1c886c6c024deb9d133072d962ca25e16dcba26fdd35972e0c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774874"
 ---
 # <a name="itmediacollectionget_item-method"></a>Метод Итмедиаколлектион:: Get \_ Item
 
-\[ В Windows Vista, Windows Server 2008 и последующих версиях операционной системы нельзя использовать встречные средства и элементы управления Конференц-телефонией и интерфейсы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[встречи и элементы управления встречными IP-телефонными соединениями недоступны для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Метод **Get \_ Item** получает указатель [**итмедиа**](itmedia.md) , соответствующий указанному индексу.
 
@@ -66,24 +66,24 @@ HRESULT get_Item(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Большинство списков C и C++ основаны на 0, но этот индекс основан на 1 для Visual Basic совместимости, то есть первый элемент имеет номер индекса 1.
+большинство списков C и C++ основаны на 0, но этот индекс основан на 1 для Visual Basic совместимости, то есть первый элемент имеет номер индекса 1.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------|---------------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 3,0 или более поздней версии<br/>                                                 |
-| Header<br/>       | <dl> <dt>Сдпблб. h</dt> </dl>   |
+| Заголовок<br/>       | <dl> <dt>Сдпблб. h</dt> </dl>   |
 | Библиотека<br/>      | <dl> <dt>UUID. lib</dt> </dl>   |
 | DLL<br/>          | <dl> <dt>Sdpblb.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

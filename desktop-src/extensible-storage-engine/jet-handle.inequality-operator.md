@@ -81,7 +81,7 @@ public static bool operator !=(
 Тип: [System. Boolean](/dotnet/api/system.boolean)  
 Значение true, если два экземпляра не равны.  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

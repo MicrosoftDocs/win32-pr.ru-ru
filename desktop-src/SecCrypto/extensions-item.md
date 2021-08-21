@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: b2cefe9ac1dd278c17161cc8e2349c051dccabff
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8e340aff8fb952e665bbfaae31f58a086459ccf2821954221ba9d730766638c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685327"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006852"
 ---
 # <a name="extensionsitem-property"></a>Свойство Extensions. Item
 
@@ -58,7 +58,7 @@ Extensions.Item( _
 
 <dl> <dt>
 
-[**Модули**](extensions.md)
+[**Расширения**](extensions.md)
 </dt> </dl>
 
  

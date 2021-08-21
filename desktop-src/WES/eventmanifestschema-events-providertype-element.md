@@ -32,7 +32,7 @@ ms.locfileid: "119055982"
 
 Элемент **Events** определяется сложным типом [**ProviderType**](eventmanifestschema-providertype-complextype.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -43,7 +43,7 @@ ms.locfileid: "119055982"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

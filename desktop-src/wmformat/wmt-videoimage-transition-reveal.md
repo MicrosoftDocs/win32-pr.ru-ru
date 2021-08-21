@@ -46,7 +46,7 @@ ms.locfileid: "119083738"
 </thead>
 <tbody>
 <tr class="odd">
-<td>расстояние;</td>
+<td>Расстояние</td>
 <td><strong>fEffectPara0</strong></td>
 <td>Размер нового изображения, выданного в пикселях. Это значение задается относительно исходной стороны кадра.</td>
 </tr>
@@ -77,7 +77,7 @@ ms.locfileid: "119083738"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -87,7 +87,7 @@ ms.locfileid: "119083738"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

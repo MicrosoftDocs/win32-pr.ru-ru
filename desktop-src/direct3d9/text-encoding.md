@@ -17,7 +17,7 @@ ms.locfileid: "119044202"
 
 В следующих разделах рассматривается содержимое и синтаксис формата файла, который использует расширение. x в пакете SDK DirectX.
 
--   [Данные](dx9-graphics-reference-x-file-textencoding-data.md)
+-   [Data](dx9-graphics-reference-x-file-textencoding-data.md)
 -   [Зарезервированные слова, заголовок и комментарии](reserved-words--header--and-comments.md)
 -   [Шаблоны](dx9-graphics-reference-x-file-textencoding-templates.md)
 -   [Использование запятых и точек с запятой](use-of-commas-and-semicolons.md)

@@ -40,7 +40,7 @@ ms.locfileid: "119035762"
 
 -   `[a-zA-Z\d]{1,20}`
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

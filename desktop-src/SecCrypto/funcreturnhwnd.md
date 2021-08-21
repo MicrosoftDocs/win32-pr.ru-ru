@@ -13,12 +13,12 @@ api_type:
 - UserDefined
 api_location:
 - Cspdk.h
-ms.openlocfilehash: 32fadef6c231aa2ca63305a3da9d2142d0abe9c2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 387e1e9140dac8081acf851eb7125a612506783adbeefe1174137ff7f74fae9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006752"
 ---
 # <a name="crypt_return_hwnd-function-pointer"></a>\_Функция шифрования возвращает \_ указатель функции HWND
 
@@ -56,9 +56,9 @@ typedef void ( WINAPI *CRYPT_RETURN_HWND)(
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                               |
-| Header<br/>                   | <dl> <dt>Кспдк. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                               |
+| Заголовок<br/>                   | <dl> <dt>Кспдк. h</dt> </dl> |
 
 
 

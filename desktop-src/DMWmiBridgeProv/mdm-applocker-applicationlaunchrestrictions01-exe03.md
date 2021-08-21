@@ -17,16 +17,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 58aeb86edc21fec974c099fd8d25bd2e3fb244ca
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bdaea9e1d1987e329b16f5dd8842a331b50ab9208feef7d48b609872961ad634
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119575330"
 ---
 # <a name="mdm_applocker_applicationlaunchrestrictions01_exe03-class"></a>\_Класс MDM AppLocker \_ ApplicationLaunchRestrictions01 \_ EXE03
 
-\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Майкрософт не дает никаких гарантий, явных или подразумеваемых, в отношении предоставленной здесь информации.\]
+\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, относительно предоставленной здесь информации.\]
 
 Класс **MDM \_ AppLocker \_ ApplicationLaunchRestrictions01 \_ EXE03** позволяет указать, какие приложения exe разрешено запускать.
 
@@ -52,7 +52,7 @@ class MDM_AppLocker_ApplicationLaunchRestrictions01_EXE03
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **MDM \_ AppLocker \_ ApplicationLaunchRestrictions01 \_ EXE03** имеет следующие свойства.
 
@@ -123,13 +123,13 @@ class MDM_AppLocker_ApplicationLaunchRestrictions01_EXE03
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                      |
 | Пространство имен<br/>                | Корневой \\ CIMv2 \\ MDM \\ дммап<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>Дмвмибриджепров. mof</dt> </dl> |
@@ -137,7 +137,7 @@ class MDM_AppLocker_ApplicationLaunchRestrictions01_EXE03
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

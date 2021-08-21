@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Mssign32.dll
-ms.openlocfilehash: bcd396c45333dee42bae4cb8bdfdd52792f1bdd6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c885c439014a26bafba3be8614981c67d200e9f87cd4e3c4f03e8cbcc1b77e38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104350125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006662"
 ---
 # <a name="getcryptprovfromcert-function"></a>Функция Жеткриптпровфромцерт
 
@@ -116,7 +116,7 @@ BOOL WINAPI GetCryptProvFromCert(
 
 При успешном выполнении эта функция возвращает **значение true**. Функция **жеткриптпровфромцерт** возвращает **значение false** в случае сбоя.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Средство [MakeCert](makecert.md) вызывает **жеткриптпровфромцерт** при вызове с помощью параметра командной строки **-** -.
 
@@ -130,8 +130,8 @@ BOOL WINAPI GetCryptProvFromCert(
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>Mssign32.dll</dt> </dl> |
 
 

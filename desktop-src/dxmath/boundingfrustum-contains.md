@@ -33,7 +33,7 @@ ms.locfileid: "119042882"
 | [**Баундингфрустум:: Contains (ФКСМВЕКТОР)**](/windows/desktop/api/directxcollision/nf-directxcollision-boundingfrustum-contains) | Проверяет, содержит ли [**баундингфрустум**](/windows/desktop/api/directxcollision/ns-directxcollision-boundingfrustum) указанную точку. |
 | [**Баундингфрустум:: Contains (ФКСМВЕКТОР, ФКСМВЕКТОР, ФКСМВЕКТОР)**](/windows/desktop/api/directxcollision/nf-directxcollision-boundingfrustum-contains(fxmvector_fxmvector_fxmvector)) | Проверяет, содержит ли [**баундингфрустум**](/windows/desktop/api/directxcollision/ns-directxcollision-boundingfrustum) указанный треугольник. |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 * [Методы Баундингфрустум](/windows/desktop/dxmath/boundingfrustum-methods)
 * [баундингфрустум](/windows/desktop/api/directxcollision/ns-directxcollision-boundingfrustum)

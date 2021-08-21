@@ -22,7 +22,7 @@ typedef unsigned __int64 TOPOID;
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -32,7 +32,7 @@ typedef unsigned __int64 TOPOID;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

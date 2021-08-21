@@ -7,12 +7,12 @@ keywords:
 - Асинхронный поиск ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bfe8b8fff875af18b85cdffa4ce67d631d94ed14
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a7bca36a30b3b0a46f983da54ecaee753a4b15a455b0e69f9399eacdec68aecd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082788"
 ---
 # <a name="asynchronous-searches"></a>Асинхронный поиск
 
@@ -27,12 +27,12 @@ ms.locfileid: "103986120"
 Дополнительные сведения об использовании асинхронных поисков с конкретным интерфейсом поиска см. в следующих статьях:
 
 -   [Синхронный и асинхронный поиск с помощью IDirectorySearch](synchronous-and-asynchronous-searches-with-idirectorysearch.md)
--   [Поиск с помощью объекты данных ActiveX](searching-with-activex-data-objects-ado.md)
+-   [поиск с помощью объекты данных ActiveX](searching-with-activex-data-objects-ado.md)
 -   [Поиск с помощью OLE DB](searching-with-ole-db.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 36477775-c937-44df-a5e3-20b389f665db
 title: HCRYPTPROV_LEGACY (Винкрипт. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fff215ce08456fa52c8b04dd5e5a23e4c9b9a54
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5a108c0106ac4e57d4276e28e3c8bd64d30dbe2a15f19426f9b8626084bab031
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104546415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006402"
 ---
 # <a name="hcryptprov_legacy"></a>ХКРИПТПРОВ, \_ устаревший
 
@@ -22,15 +22,15 @@ typedef ULONG_PTR HCRYPTPROV_LEGACY;
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Винкрипт. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Винкрипт. h</dt> </dl> |
 
 
 

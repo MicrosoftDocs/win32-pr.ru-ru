@@ -4,16 +4,16 @@ ms.assetid: 4da2046c-00fd-46a8-805f-503729cfa531
 title: Встречные конференции с IP-телефонией
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d1cbfc3a1e07fdc245af0ae6b93277c90083a75
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c1486f2ca730f1efb0391fdea5a3ad22bec65385a31bce9bf233f0f230b7ee5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119773574"
 ---
 # <a name="rendezvous-ip-telephony-conferencing"></a>Встречные конференции с IP-телефонией
 
-\[ В Windows Vista, Windows Server 2008 и последующих версиях операционной системы нельзя использовать встречные средства и элементы управления Конференц-телефонией и интерфейсы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[встречи и элементы управления встречными IP-телефонными соединениями недоступны для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Встречные элементы управления TAPI 3 позволяют программисту создавать приложения, которые могут создавать и обнаруживать многоадресные IP-конференции мультимедиа.
 

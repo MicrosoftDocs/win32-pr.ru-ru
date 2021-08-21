@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: a048cd5f29825c2d96a9d924473159e93d3e0be1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e311c6dc69f40d32163c70cabf6a38780a989764bd77f4023c61ede5c1ba713c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006962"
 ---
 # <a name="extension-object"></a>Объект расширения
 
@@ -40,7 +40,7 @@ ms.locfileid: "105685328"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Объект **расширения** имеет следующие свойства.
 
@@ -56,13 +56,13 @@ ms.locfileid: "105685328"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Не удается создать объект **расширения** .
 
 Объект **расширения** используется объектом коллекции [**Extensions**](extensions.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -71,7 +71,7 @@ ms.locfileid: "105685328"
 | Окончание поддержки клиента<br/> | Windows Vista<br/>                                                               |
 | Поддержка конца сервера<br/> | Windows Server 2008<br/>                                                         |
 | Распространяемые компоненты<br/>       | CAPICOM 2,0 или более поздней версии на Windows Server 2003 и Windows XP<br/>                  |
-| Header<br/>                | <dl> <dt>Ммкобж. h</dt> </dl>    |
+| Заголовок<br/>                | <dl> <dt>Ммкобж. h</dt> </dl>    |
 | DLL<br/>                   | <dl> <dt>Capicom.dll</dt> </dl> |
 
 

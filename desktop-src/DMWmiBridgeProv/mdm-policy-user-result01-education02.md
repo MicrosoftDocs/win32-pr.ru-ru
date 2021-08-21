@@ -119,7 +119,7 @@ class MDM_Policy_User_Result01_Education02
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

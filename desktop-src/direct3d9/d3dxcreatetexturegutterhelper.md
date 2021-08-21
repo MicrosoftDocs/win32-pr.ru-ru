@@ -99,7 +99,7 @@ HRESULT D3DXCreateTextureGutterHelper(
 
 Используйте [**D3DXConcatenateMeshes**](d3dxconcatenatemeshes.md) для преобразования сцены в новые координаты.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -110,7 +110,7 @@ HRESULT D3DXCreateTextureGutterHelper(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

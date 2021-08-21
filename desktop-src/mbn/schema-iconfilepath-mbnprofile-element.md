@@ -40,7 +40,7 @@ ms.locfileid: "119035822"
 
 Элемент **иконфилепас** определяется элементом [**мбнпрофиле**](schema-mbnprofile-element.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -51,7 +51,7 @@ ms.locfileid: "119035822"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
