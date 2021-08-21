@@ -34,12 +34,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2aba9950b8d602ca239d66364279a5876a432d04
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5847ef4ccb5798ea74cccecbcabbb04303df93f3cd9a8a6155cd94eabbc8a824
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988406"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118352288"
 ---
 # <a name="imsrdpclientadvancedsettings5redirectclipboard-property"></a>Свойство IMsRdpClientAdvancedSettings5:: Редиректклипбоард
 
@@ -66,7 +66,7 @@ HRESULT get_RedirectClipboard(
 
 Задает для режима перенаправления буфера обмена **значение true** или **false**. Если задано значение **true**, то включен режим перенаправления буфера обмена.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -80,7 +80,7 @@ HRESULT get_RedirectClipboard(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

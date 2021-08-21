@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 4d75cb129b18d87a07adba95604f914924605224
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fc543ca199b5db4a0ac298da5737ef8db2f100c5c3247f280514708a02ef942c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118081875"
 ---
 # <a name="esentfileiofailexception-constructor"></a>Конструктор Есентфилеиофаилексцептион
 
@@ -52,7 +52,7 @@ Dim instance As New EsentFileIOFailException()
 public EsentFileIOFailException()
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

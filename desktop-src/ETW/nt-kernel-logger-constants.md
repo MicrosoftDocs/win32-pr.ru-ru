@@ -4,12 +4,12 @@ ms.assetid: f64f05c1-b904-4847-8502-4abb9cf4d37f
 title: Константы средства ведения журнала ядра NT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 13767400ff851e358f6665c88e16767cc378a4da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dbd5b8176fb3b0ca6c63bc5a0aa3bf4bcd6d7067f4c3710a9a6e74b48603dc50
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104986005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118151460"
 ---
 # <a name="nt-kernel-logger-constants"></a>Константы средства ведения журнала ядра NT
 
@@ -42,7 +42,7 @@ ETW использует макрос DEFINE \_ GUID для определени
 <thead>
 <tr class="header">
 <th>Класс</th>
-<th>Код GUID</th>
+<th>GUID</th>
 </tr>
 </thead>
 <tbody>
@@ -87,7 +87,7 @@ ETW использует макрос DEFINE \_ GUID для определени
   );</code></pre></td>
 </tr>
 <tr class="odd">
-<td><a href="image.md"><strong>Образ —</strong></a></td>
+<td><a href="image.md"><strong>Изображение</strong></a></td>
 <td><pre class="syntax" data-space="preserve"><code>DEFINE_GUID ( /* 2cb15d1d-5fc1-11d2-abe1-00a0c911f518 */
     ImageLoadGuid,
     0x2cb15d1d,
@@ -183,7 +183,7 @@ ETW использует макрос DEFINE \_ GUID для определени
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Чтобы использовать идентификаторы GUID, скопируйте определения GUID, которые необходимо использовать в исходном коде. Необходимо включить \# Определение инитгуид перед определениями, включаемыми в исходный код, поэтому компилятор включит \_ константу определения GUID в постоянный идентификатор GUID. Например,
 

@@ -58,12 +58,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: f4a0a287d85b7a229b0e8e50a10c402fca734429
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c87667a8a16ff6b8e038c84d51b7229ce53c3397dca8ef8bb4708275512593ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118146173"
 ---
 # <a name="msvm_wifiendpoint-class"></a>\_Класс мсвм вифиендпоинт
 
@@ -310,7 +310,7 @@ class Msvm_WiFiEndpoint : CIM_WiFiEndpoint
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -543,7 +543,7 @@ class Msvm_WiFiEndpoint : CIM_WiFiEndpoint
 <span id="EAP-FAST_MSCHAPv2"></span><span id="eap-fast_mschapv2"></span><span id="EAP-FAST_MSCHAPV2"></span>**EAP-FAST/MSCHAPv2** (4)
 </dt> <dt>
 
-<span id="EAP-FAST_GTC"></span><span id="eap-fast_gtc"></span>**EAP-FAST/GTC** (5)
+<span id="EAP-FAST_GTC"></span><span id="eap-fast_gtc"></span>**EAP-FAST/гтк** (5)
 </dt> <dt>
 
 <span id="EAP-MD5"></span><span id="eap-md5"></span>**EAP-MD5** (6)
@@ -558,7 +558,7 @@ class Msvm_WiFiEndpoint : CIM_WiFiEndpoint
 <span id="EAP-AKA"></span><span id="eap-aka"></span>**EAP-AKA** (9)
 </dt> <dt>
 
-<span id="EAP-FAST_TLS"></span><span id="eap-fast_tls"></span>**EAP-FAST/TLS** (10)
+<span id="EAP-FAST_TLS"></span><span id="eap-fast_tls"></span>**EAP-FAST или tls** (10)
 </dt> <dt>
 
 <span id="DMTF_Reserved_"></span><span id="dmtf_reserved_"></span><span id="DMTF_RESERVED_"></span>**Зарезервировано DMTF** (11.. )
@@ -653,7 +653,7 @@ MAC-адрес, используемый для связи с конечной �
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -955,14 +955,14 @@ Start
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

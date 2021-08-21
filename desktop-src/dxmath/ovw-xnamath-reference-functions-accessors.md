@@ -4,12 +4,12 @@ ms.assetid: 6e7453b8-0dee-6fc5-cbac-fe20e4e3ef60
 title: Функции доступа векторной библиотеки Директксмас
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2107638a6ccd5805858b4c67b74c0811675f2492
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a164375d23b15f02debcb110297f7fce63c6032eb5828acb8454b3bde4e7a846
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118087805"
 ---
 # <a name="directxmath-library-vector-accessor-functions"></a>Функции доступа векторной библиотеки Директксмас
 
@@ -68,7 +68,7 @@ ms.locfileid: "105701856"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

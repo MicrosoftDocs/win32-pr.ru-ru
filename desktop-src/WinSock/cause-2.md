@@ -4,16 +4,16 @@ ms.assetid: 258b22d7-b58a-499a-be00-de548578db83
 title: Причина
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f93d2a2864db347183ca42f5458681e4de3ecc6d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3d0539918e745c9b158a5a56923c45f37f87d5069ce63ef74083d7270204c5a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118322385"
 ---
 # <a name="cause"></a>Причина
 
-В дополнение ко всем описанным выше информационным элементам, которые можно было бы указать в структуре [**QoS**](/windows/win32/api/winsock2/ns-winsock2-qos) , относящейся к ATM при вызове [**Всаконнект**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnect), существует причина, которая может использоваться только в выпуске вызова. При отключении подключения приложения Windows Sockets 2 могут дополнительно указать этот IE в качестве данных отключения в [**всасенддисконнект**](/windows/desktop/api/Winsock2/nf-winsock2-wsasenddisconnect). Удаленная сторона может получить этот IE через [**всареквдисконнект**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecvdisconnect) после получения \_ уведомления о закрытии демона.
+В дополнение ко всем описанным выше информационным элементам, которые можно было бы указать в структуре [**QoS**](/windows/win32/api/winsock2/ns-winsock2-qos) , относящейся к ATM при вызове [**Всаконнект**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnect), существует причина, которая может использоваться только в выпуске вызова. при отключении Windows сокеты 2 приложения могут дополнительно указать этот IE в качестве данных отключения в [**всасенддисконнект**](/windows/desktop/api/Winsock2/nf-winsock2-wsasenddisconnect). Удаленная сторона может получить этот IE через [**всареквдисконнект**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecvdisconnect) после получения \_ уведомления о закрытии демона.
 
 ``` syntax
 #include <windows.h>

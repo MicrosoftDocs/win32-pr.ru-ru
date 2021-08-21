@@ -3,7 +3,7 @@ title: BUTTONGROUP. Транспаренциколор
 description: Атрибут Транспаренциколор указывает или получает прозрачный цвет изображений BUTTONGROUP.
 ms.assetid: 604c5b29-50b9-4df6-9e48-488bf4fb7227
 keywords:
-- Проигрыватель Windows Media BUTTONGROUP. Транспаренциколор
+- BUTTONGROUP. транспаренциколор проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fbaf6fb70db7d2699a63eb7b4fd34009f7b8ba75
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cf97a25081e3f5c5729721bd675d9c59be1a4d52adc86acf6b9b75a0ee86dbac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694852"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118342667"
 ---
 # <a name="buttongrouptransparencycolor"></a>BUTTONGROUP. Транспаренциколор
 
@@ -43,7 +43,7 @@ ms.locfileid: "105694852"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Прозрачный цвет в изображении позволяет отображать все, что находится за изображением, с помощью областей прозрачности. Прозрачная область может быть нажата, если не обрезаться тегом **клиппингимаже** .
 
@@ -53,17 +53,17 @@ ms.locfileid: "105694852"
 
 Так как Жпгс являются утерянными и поэтому подвержены непредвиденному изменению цвета, они не рекомендуются при использовании **транспаренциколор** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

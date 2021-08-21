@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: afbd7ab192c65e99f4479e5380e57dc78c8a0a9c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 54ceb24806b21a06a9a0e8e82cf5fbb6ca96776d645b45679edb3adfcbd46c3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104156846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118150290"
 ---
 # <a name="cim_virtualsystemsettingdatacomponent-class"></a>\_Класс CIM виртуалсистемсеттингдатакомпонент
 
@@ -43,7 +43,7 @@ class CIM_VirtualSystemSettingDataComponent : CIM_Component
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ виртуалсистемсеттингдатакомпонент** имеет следующие свойства.
 
@@ -81,7 +81,7 @@ class CIM_VirtualSystemSettingDataComponent : CIM_Component
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -95,7 +95,7 @@ class CIM_VirtualSystemSettingDataComponent : CIM_Component
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

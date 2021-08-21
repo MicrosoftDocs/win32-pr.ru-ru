@@ -3,7 +3,7 @@ title: Команда MCI_QUALITY (Ммсистем. h)
 description: '\_Команда качества MCI определяет пользовательский уровень качества для сжатия данных в аудио, видео или по-прежнему. Устройство Digital-Video распознает эту команду.'
 ms.assetid: 91ad9704-0089-4b1f-b0f6-919ab5fd84e0
 keywords:
-- MCI_QUALITY команды мультимедиа Windows
+- команда MCI_QUALITY Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 996703c1a5b7d3adec1a001af58ebc8d916301a5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1237d9b70c9f06782342c404c19dd23cf6f0848f8c7b33523bce35990287fa27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104414729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118138225"
 ---
 # <a name="mci_quality-command"></a>\_Команда качества MCI
 
@@ -68,7 +68,7 @@ MCIERROR mciSendCommand(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Имя, определенное для этого уровня качества, можно использовать при настройке звука, видео или по-прежнему качества с помощью команд [MCI \_ Сетаудио](mci-setaudio.md) и [MCI \_ сетвидео](mci-setvideo.md) .
 
@@ -111,7 +111,7 @@ MCIERROR mciSendCommand(
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -119,11 +119,11 @@ MCIERROR mciSendCommand(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

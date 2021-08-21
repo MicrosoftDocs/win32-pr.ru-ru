@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 3d4e477e15bf8c49b5923d98930345cfe57ebfef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c5bcf674d8cfdea491f4435e14640b974a6cb92c2f3fc6fe156da2de7e8a7fa7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118085149"
 ---
 # <a name="apijetgettableindexinfo-method"></a>API. Жетжеттаблеиндексинфо, метод
 
@@ -73,7 +73,7 @@ ms.locfileid: "104155062"
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

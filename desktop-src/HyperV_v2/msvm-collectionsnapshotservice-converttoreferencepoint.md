@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 810761b67303ad33ced6fdaef857c96f65365091
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 97faedea1cdb852e26f6b94211586e5539075c0a225bf98f1a10cf45305d7296
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103913703"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118148870"
 ---
 # <a name="converttoreferencepoint-method-of-the-msvm_collectionsnapshotservice-class"></a>Метод Конверттореференцепоинт \_ класса Коллектионснапшотсервице мсвм
 
@@ -101,7 +101,7 @@ uint32 ConvertToReferencePoint(
 **Зависит от поставщика** (32768.65 535)
 </dt> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -115,7 +115,7 @@ uint32 ConvertToReferencePoint(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

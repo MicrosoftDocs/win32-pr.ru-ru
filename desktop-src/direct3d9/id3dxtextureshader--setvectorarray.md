@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 0878594baa8828c9cca4eca8dd2c20f225fb530e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e41f530946166e3bb20db5f1d7acccc7f3e55f12dbb8567bff901ee8da09f6d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108090192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118093534"
 ---
 # <a name="id3dxtextureshadersetvectorarray-method"></a>Метод ID3DXTextureShader:: Сетвектораррай
 
@@ -81,7 +81,7 @@ HRESULT SetVectorArray(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>     |
 
 

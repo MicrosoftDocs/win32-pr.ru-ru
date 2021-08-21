@@ -4,12 +4,12 @@ description: Получение информации об ошибке
 ms.assetid: 51a0e401-43f2-4738-9799-a96e2580a29f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6a5918ee7338d1b8428079da20ecb43c7b4b4ef
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 8e26844505b7c5de3e39c3199a6087c94f35bed9f64ef11a65d1c6df9a3dd4e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104070651"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118309656"
 ---
 # <a name="retrieving-error-information"></a>Получение информации об ошибке
 
@@ -22,6 +22,6 @@ ms.locfileid: "104070651"
 
 Если объект не готов к обработке ошибки, но ему необходимо распространить сведения об ошибке дальше по цепочке вызовов, он должен просто передать возвращаемое значение вызывающему объекту. Поскольку функция [**жетерроринфо**](/windows/win32/api/oleauto/nf-oleauto-geterrorinfo) удаляет сведения об ошибке и передает владение объекту-ошибке вызывающему объекту, функция должна вызываться только объектом, обрабатывающим ошибку.
 
- 
+ 
 
- 
+ 

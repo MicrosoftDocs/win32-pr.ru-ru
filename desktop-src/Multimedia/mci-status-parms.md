@@ -3,7 +3,7 @@ title: Структура MCI_STATUS_PARMS (МЦиапи. h)
 description: '\_ \_ Структура ПАРМС состояния MCI содержит сведения о \_ команде состояния MCI.'
 ms.assetid: c4897b34-4184-46aa-af17-2127edfbf82d
 keywords:
-- MCI_STATUS_PARMS структура мультимедиа Windows
+- структура MCI_STATUS_PARMS Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8295f2e747752889c10083c6bb794ba2df7ac273
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2685ec70f10dc8dcecb0149f3bcf1af6c9814dd360e8f7e185d31710c24d5527
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988310"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118138100"
 ---
 # <a name="mci_status_parms-structure"></a>\_ \_ Структура ПАРМС состояния MCI
 
@@ -71,11 +71,11 @@ typedef struct {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 \_ \_ Флаг элемента состояния MCI должен быть задан в параметре *фдвкомманд* функции [**мЦисендкомманд**](/previous-versions//dd757160(v=vs.85)) для проверки элемента **двитем** , который должен содержать одну из констант, указывающих, какие сведения о состоянии запрашиваются.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -87,7 +87,7 @@ typedef struct {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

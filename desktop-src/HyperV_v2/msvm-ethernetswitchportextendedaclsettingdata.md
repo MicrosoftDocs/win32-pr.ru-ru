@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 25ae81e4f00e87e41170ac5713ced0d9b523c844
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 27f94de089df73c246de887268d34c187bef2507391ceeb33dd7c8cc8068bc43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663590"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118148323"
 ---
 # <a name="msvm_ethernetswitchportextendedaclsettingdata-class"></a>\_Класс мсвм есернетсвитчпортекстендедаклсеттингдата
 
@@ -65,7 +65,7 @@ class Msvm_EthernetSwitchPortExtendedAclSettingData : Msvm_EthernetSwitchPortFea
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ есернетсвитчпортекстендедаклсеттингдата** имеет следующие свойства.
 
@@ -213,7 +213,7 @@ class Msvm_EthernetSwitchPortExtendedAclSettingData : Msvm_EthernetSwitchPortFea
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -229,7 +229,7 @@ class Msvm_EthernetSwitchPortExtendedAclSettingData : Msvm_EthernetSwitchPortFea
 
 </dd> <dt>
 
-**Протокол**
+**протокол**;
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -261,7 +261,7 @@ class Msvm_EthernetSwitchPortExtendedAclSettingData : Msvm_EthernetSwitchPortFea
 
 </dd> <dt>
 
-**ремотепорт**
+**RemotePort**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -309,13 +309,13 @@ class Msvm_EthernetSwitchPortExtendedAclSettingData : Msvm_EthernetSwitchPortFea
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
+| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
 | Минимальная версия сервера<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -323,7 +323,7 @@ class Msvm_EthernetSwitchPortExtendedAclSettingData : Msvm_EthernetSwitchPortFea
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

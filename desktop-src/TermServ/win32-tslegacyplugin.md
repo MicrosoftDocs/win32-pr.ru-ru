@@ -22,12 +22,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 548eadac272f6f87daf1c43020cb65485e434aec
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dbbfaa3e1f853867ebd2cb7d0a4b7afd618e585b7dc409e16d233c88432a1cf9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105681770"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118348856"
 ---
 # <a name="win32_tslegacyplugin-class"></a>\_Класс Win32 тслегациплугин
 
@@ -58,13 +58,13 @@ class Win32_TSLegacyPlugin : CIM_LogicalElement
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ тслегациплугин** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -115,7 +115,7 @@ class Win32_TSLegacyPlugin : CIM_LogicalElement
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -243,7 +243,7 @@ class Win32_TSLegacyPlugin : CIM_LogicalElement
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
