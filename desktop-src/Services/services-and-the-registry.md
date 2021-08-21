@@ -4,12 +4,12 @@ ms.assetid: 8ad6c081-7ac0-4557-88dc-d8f1ec139926
 title: Службы и реестр
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 669da912d5eb2a76981ff6e08293acccb1e313fb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a6bb5b20a5564805572c1863581bb041d8d886d660d727ead4aa3fb753a50609
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664363"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117967091"
 ---
 # <a name="services-and-the-registry"></a>Службы и реестр
 

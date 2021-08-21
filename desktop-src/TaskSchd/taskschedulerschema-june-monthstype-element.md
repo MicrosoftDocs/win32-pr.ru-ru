@@ -56,7 +56,7 @@ ms.locfileid: "120072474"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -67,7 +67,7 @@ ms.locfileid: "120072474"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

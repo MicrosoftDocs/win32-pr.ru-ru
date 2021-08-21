@@ -4,17 +4,17 @@ ms.assetid: bb1086e1-57e2-495a-9b7b-2d349a516e72
 title: сетделайтиме
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c7653777be7e6603494d9ba04a671ed46d3d949
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 26ebd119f20977c98aa2664518dc2125b7b5c157b44ff53c3a37740bf40a1677
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104494193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119683744"
 ---
 # <a name="setdelaytime"></a>сетделайтиме
 
 > [!Note]  
-> Этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
+> этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
 
  
 

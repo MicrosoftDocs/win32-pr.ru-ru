@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a7a0a59ae9e6724386cb2f7891a14e4bf9d4c1a6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c568afbe63ab01bd2866f180f968ea80101fec2ff22062707f4929d662ea47ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105661822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119519704"
 ---
 # <a name="gltexsubimage2d-function"></a>Функция glTexSubImage2D
 
@@ -122,7 +122,7 @@ void WINAPI glTexSubImage2D(
 
 </dd> <dt>
 
-*зависим* 
+*пиксели* 
 </dt> <dd>
 
 Указатель на данные изображения в памяти.
@@ -154,7 +154,7 @@ void WINAPI glTexSubImage2D(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Двухмерный текстурирование для примитива включается с помощью [**гленабле**](glenable.md) и **глдисабле** с аргументом GL \_ текстуры \_ 2D. Во время текстурирования часть указанного изображения текстуры сопоставляется с каждым включенным примитивом. Используйте функцию **glTexSubImage2D** для указания непрерывного подизображения существующего двухмерного изображения текстуры для текстурирования.
 
@@ -172,7 +172,7 @@ void WINAPI glTexSubImage2D(
 
 [**глисенаблед**](glisenabled.md) с аргументом GL \_ текстуры \_ 2D
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -186,7 +186,7 @@ void WINAPI glTexSubImage2D(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7533ee7fea7c522b6129bda06891630c3e5ad15
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8bae11edf7e6c603c534afb75fe5c90bcc868f1e359f1d78748dd94b18b5627e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119657074"
 ---
 # <a name="iremotedesktopclientevents-interface"></a>Интерфейс Иремотедесктопклиентевентс
 
@@ -60,7 +60,7 @@ ms.locfileid: "104071627"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -75,11 +75,11 @@ ms.locfileid: "104071627"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[Справочник по элементу управления ActiveX удаленный рабочий стол](remote-desktop-activex-control-reference.md)
+[справочник по элементу управления ActiveX удаленный рабочий стол](remote-desktop-activex-control-reference.md)
 </dt> </dl>
 
  

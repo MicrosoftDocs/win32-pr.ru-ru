@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e3bd6621c065192eb45176444257f1c29c897201
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2a7320e4e8474f88ac6721862b50b89534c098db74ac3dc844b50987cb08095d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119504954"
 ---
 # <a name="copy-method-of-the-win32_codecfile-class"></a>Метод Copy \_ класса Win32 кодекфиле
 
@@ -100,7 +100,7 @@ uint32 Copy(
 **12**
 </dt> <dd>
 
-Платформа не является Windows.
+Платформа не Windows.
 
 </dd> <dt>
 
@@ -146,7 +146,7 @@ uint32 Copy(
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -160,7 +160,7 @@ uint32 Copy(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

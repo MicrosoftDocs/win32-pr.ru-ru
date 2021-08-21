@@ -65,7 +65,7 @@ HRESULT GetFile(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -73,7 +73,7 @@ HRESULT GetFile(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 10, только для \[ настольных приложений версии 1709\]<br/>                                           |
 | Минимальная версия сервера<br/> | Windows Server, только для \[ настольных приложений версии 1709\]<br/>                                       |
-| Header<br/>                   | <dl> <dt>Deliveryoptimization. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Deliveryoptimization. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization. idl</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Досвк. lib</dt> </dl>                |
 | DLL<br/>                      | <dl> <dt>Dosvc.dll</dt> </dl>                |
@@ -81,7 +81,7 @@ HRESULT GetFile(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

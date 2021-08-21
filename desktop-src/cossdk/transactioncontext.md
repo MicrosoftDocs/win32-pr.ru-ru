@@ -11,12 +11,12 @@ api_name:
 - TransactionContext
 api_type:
 - COM
-ms.openlocfilehash: 595b5a3192b87420855eb43f1e1e33df37a45c23
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: aa0a90cee2b0af7d5ebe3679dca46aa04c6326fb5fd62fe5f57699d610b9efe8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119678154"
 ---
 # <a name="transactioncontext-class"></a>Класс Трансактионконтекст
 
@@ -44,13 +44,13 @@ ms.locfileid: "104262739"
 
 Класс **трансактионконтекст** ограничивает повторное использование бизнес-логики, влияющей на транзакцию. По этой причине рекомендуется использовать объекты, созданные из класса **трансактионконтекст** , с осторожностью.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы создать этот объект, вызовите метод [**иобжектконтекст:: CreateInstance**](/windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontext-createinstance).
 
-Чтобы использовать этот класс из Visual Basic Майкрософт, добавьте ссылку на библиотеку типов служб COM+. Объект Трансактионконтекст можно объявить с помощью "Комсвкслиб. Трансактионконтекст" в качестве имени класса.
+чтобы использовать этот класс из Visual Basic майкрософт, добавьте ссылку на библиотеку типов служб COM+. Объект Трансактионконтекст можно объявить с помощью "Комсвкслиб. Трансактионконтекст" в качестве имени класса.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -62,7 +62,7 @@ ms.locfileid: "104262739"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

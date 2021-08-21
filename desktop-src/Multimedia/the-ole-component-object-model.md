@@ -4,12 +4,12 @@ description: Объектная модель OLE Component
 ms.assetid: f3200d81-c2fa-4cc7-bf85-54f6c753a529
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 211c41de8c16eb1cabb1e62f475adbbf603e2c92
-ms.sourcegitcommit: 52d79b29f3b9933c8bef43207ff80c668a81cb73
+ms.openlocfilehash: 5de83641250c912efbe92d7181deb52b477af06e2b49598ee63762488a932687
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "103987981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805024"
 ---
 # <a name="the-ole-component-object-model"></a>Объектная модель OLE Component
 
@@ -25,6 +25,6 @@ ms.locfileid: "103987981"
 
 Большинство методов интерфейса OLE возвращают дескрипторы результатов, определенные с помощью типа данных **HRESULT** . Этот тип данных состоит из кода серьезности, контекстной информации, кода средства и кода состояния. Возвращаемый результат, который указывает, что Success имеет нулевое значение. Ненулевое значение указывает на сбой, а элемент кода состояния возвращаемого результата представляет собой базу для дополнительной интерпретации. Дополнительные сведения о возможностях возвращаемых дескрипторов OLE см. в *справочнике по программированию OLE*.
 
- 
+ 
 
- 
+ 

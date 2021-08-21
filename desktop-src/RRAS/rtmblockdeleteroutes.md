@@ -89,7 +89,7 @@ HANDLE RtmBlockDeleteRoutes(
 
 Функция создает соответствующие сообщения уведомления для всех зарегистрированных клиентов, включая вызывающего.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -98,13 +98,13 @@ HANDLE RtmBlockDeleteRoutes(
 | Минимальная версия клиента<br/> | Ни одна версия не поддерживается<br/>                                                          |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                               |
 | Поддержка конца сервера<br/>    | Windows Server 2003<br/>                                                     |
-| Header<br/>                   | <dl> <dt>RTM. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>RTM. h</dt> </dl>   |
 | Библиотека<br/>                  | <dl> <dt>RTM. lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Rtm.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

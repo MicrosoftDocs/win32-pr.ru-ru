@@ -18,12 +18,12 @@ api_location:
 - Ext-MS-Win-printer-Winspool-l1-1-1.dll
 - Ext-MS-Win-Printer-WinSpool-l1-1-2.dll
 - Ext-MS-Win-Printer-WinSpool-L1-1-3.dll
-ms.openlocfilehash: 07cf6262db0a1e3a3c4c098ee26e03b3fdad4002
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7a47b3a7a62ac9dd48a86a7ddf4d6634304a402b69d5dc191ce17e3f149ffb27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103814873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119950074"
 ---
 # <a name="deleteprinterdataex-function"></a>Функция Делетепринтердатаекс
 
@@ -77,14 +77,14 @@ DWORD DeletePrinterDataEx(
 
 Если функция завершается ошибкой, возвращаемое значение является кодом системной ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Это блокирующая или синхронная функция, которая может не возвращать значение немедленно. Скорость возврата этой функцией зависит от факторов времени выполнения, таких как состояние сети, Конфигурация сервера печати и факторы реализации драйвера принтера, которые трудно предсказать при написании приложения. Вызов этой функции из потока, который управляет взаимодействием с пользовательским интерфейсом, может привести к невозможности реагирования приложения.
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -92,14 +92,14 @@ DWORD DeletePrinterDataEx(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Винспул. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>винспул. h (включает Windows. h)</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Винспул. lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Винспул. drv</dt> </dl>                   |
 | Имя в кодировке Юникод и ANSI<br/>   | **Делетепринтердатаексв** (Юникод) и **делетепринтердатаекса** (ANSI)<br/>                         |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

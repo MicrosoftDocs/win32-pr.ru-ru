@@ -53,7 +53,7 @@ Implements IWMPCdromBurn.stopBurn
 
 Этот метод не возвращает значение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -65,7 +65,7 @@ Implements IWMPCdromBurn.stopBurn
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

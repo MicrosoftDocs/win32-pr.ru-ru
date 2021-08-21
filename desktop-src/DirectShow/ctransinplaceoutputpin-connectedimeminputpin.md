@@ -44,7 +44,7 @@ IMemInputPin* ConnectedIMemInputPin();
 
 Возвращает указатель на интерфейс [**имеминпутпин**](/windows/desktop/api/Strmif/nn-strmif-imeminputpin) для входного контакта нисходящего входа.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -55,7 +55,7 @@ IMemInputPin* ConnectedIMemInputPin();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

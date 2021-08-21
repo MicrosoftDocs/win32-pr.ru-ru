@@ -103,7 +103,7 @@ uint32 DiagnoseNetworkConnection(
 **Зависит от поставщика** (32768.65 535)
 </dt> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -117,7 +117,7 @@ uint32 DiagnoseNetworkConnection(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

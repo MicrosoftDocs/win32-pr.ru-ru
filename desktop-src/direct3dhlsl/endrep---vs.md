@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 8912edd9d520bb658e99047138df7df008f9e6f7
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 9ffaea3a572c363f34a19c06156b95f029d7c6d13beda0c335c169c3a6a43c45
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104412124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119949804"
 ---
 # <a name="endrep---vs"></a>ендреп — VS
 
@@ -29,9 +29,9 @@ ms.locfileid: "104412124"
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -41,9 +41,9 @@ ms.locfileid: "104412124"
 
 
 
- 
+ 
 
-### <a name="example"></a>Например, .
+### <a name="example"></a>Пример
 
 
 ```
@@ -54,16 +54,16 @@ endrep
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера вершин](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

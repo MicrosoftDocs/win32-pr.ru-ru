@@ -4,12 +4,12 @@ ms.assetid: de30a2c4-3e51-4f2b-b3f9-ed78e2d6512d
 title: Фильтр сжатия МЖПЕГ
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02928df4d09b50c0ac152aed99ed87dc6362fb70
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: d7891a85aa32b0ec7572a8c3be08f216c75f8655a7782261a675521aa952bf40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107910012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119791394"
 ---
 # <a name="mjpeg-compressor-filter"></a>Фильтр сжатия МЖПЕГ
 
@@ -34,7 +34,7 @@ ms.locfileid: "107910012"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот фильтр кодирует с помощью подтипа носителя МЕДИАСУБТИПЕ \_ мжпг, соответствующего коду FourCC "мжпг".
 
@@ -42,7 +42,7 @@ ms.locfileid: "107910012"
 
 <dl> <dt>
 
-[Фильтры DirectShow](directshow-filters.md)
+[DirectShow Фильтрующ](directshow-filters.md)
 </dt> </dl>
 
  

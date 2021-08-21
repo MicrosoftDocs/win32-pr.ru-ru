@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4752910ab9e8117bfdaf27f93d32be3377158ba5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 385b80d853c3b610971803c0b1d80a81b7b7c2335186fe4585e63f60c3e3cca3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105654494"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120104064"
 ---
 # <a name="modify-method-of-the-microsoftdns_afsdbtype-class"></a>Метод Modify \_ класса микрософтднс афсдбтипе
 
@@ -77,11 +77,11 @@ void Modify(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Любой параметр, не указанный, остается неизменным в измененной записи.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -94,7 +94,7 @@ void Modify(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

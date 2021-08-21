@@ -4,12 +4,12 @@ ms.assetid: 15f0cd9a-cd40-49df-85b8-15c4e626f8ee
 title: Создание и Настройка разделов COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf654c25c75cc2e12f55b7ee826184fdeb04a214
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a3cc9623272d4aba345cc666deb5c63965584af94f42dbf869b00cf7d52a2f30
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104538822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119858994"
 ---
 # <a name="creating-and-configuring-com-partitions"></a>Создание и Настройка разделов COM+
 
@@ -49,7 +49,7 @@ ms.locfileid: "104538822"
     -   Свойства Евенткласспартитионид и Субскриберпартитионид в коллекции [**субскриптионсфоркомпонент**](subscriptionsforcomponent.md) .
     -   Свойства Евенткласспартитионид и Субскриберпартитионид в коллекции [**трансиентсубскриптионс**](transientsubscriptions.md) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

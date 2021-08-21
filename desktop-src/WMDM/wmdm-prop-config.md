@@ -71,7 +71,7 @@ typedef struct _WMDM_PROP_CONFIG {
 
 Вызывающий объект необходим для высвобождения памяти, используемой **ппропдеск**. Пример того, как это сделать, см. в [**разделе \_ \_ функция форматирования вмдм**](wmdm-format-capability.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -81,7 +81,7 @@ typedef struct _WMDM_PROP_CONFIG {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

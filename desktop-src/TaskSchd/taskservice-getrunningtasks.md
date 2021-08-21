@@ -58,7 +58,7 @@ TaskService.GetRunningTasks( _
 
 Объект [**руннингтаскколлектион**](runningtaskcollection.md) , содержащий выполняемые в данный момент задачи.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -71,7 +71,7 @@ TaskService.GetRunningTasks( _
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

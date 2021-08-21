@@ -7,12 +7,12 @@ keywords:
 - Резервное копирование хранилища единственных копий (SIS)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 898f181a47a789cce8e68e0410f384e656543c5c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: db67e037fdc670ddde43f54dce42f2b4fb66e33d8ee0ca953962f7a163a4377b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118174022"
 ---
 # <a name="single-instance-store-and-sis-backup"></a>Резервное копирование хранилища Single-Instance и SIS
 
@@ -25,9 +25,9 @@ ms.locfileid: "104067518"
 -   [Преимущества использования SIS](advantages-of-using-sis.md)
 -   [Справочник по резервному копированию](backup-reference.md)
 
- 
+ 
 
- 
+ 
 
 
 

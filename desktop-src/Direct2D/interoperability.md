@@ -4,19 +4,19 @@ description: Описывает, как Direct2D взаимодействует 
 ms.assetid: 538e0ff7-50a8-40e2-ab34-d3eb6b7d0c6a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 872a090980618548fd73e43c6f82644962b8bd90
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8e867324c0b31bc78f83457e02039b23a587c413d38ad6fcb6f25e5aed7d12ae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104134038"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120076704"
 ---
 # <a name="interoperability"></a>Совместимость
 
 В подразделах этого раздела описывается, как Direct2D взаимодействует с другими системами, такими как GDI, Direct3D и WIC.
 
 > [!Note]  
-> Начиная с Windows 8, Direct2D предоставляет интерфейс [**ID2D1DeviceContext**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) , который обеспечивает простой способ взаимодействия. Дополнительные сведения см. в разделе [устройства и контексты устройств](devices-and-device-contexts.md) .
+> начиная с Windows 8, Direct2D предоставляет интерфейс [**ID2D1DeviceContext**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) , который обеспечивает простой способ взаимодействия. Дополнительные сведения см. в разделе [устройства и контексты устройств](devices-and-device-contexts.md) .
 
  
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 8df6f7b4be5a39335532dc86096f989727230942
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 726bd212947a37d69dd21e6003d550845799e4ac7aba237794d465ad3da5b509
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703821"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119856974"
 ---
 # <a name="d3dxvec4lerp-function"></a>Функция D3DXVec4Lerp
 
@@ -85,24 +85,24 @@ D3DXVECTOR4* D3DXVec4Lerp(
 
 Указатель на структуру [**D3DXVECTOR4**](d3dxvector4.md) , которая является результатом линейной интерполяции.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция выполняет линейную интерполяцию на основе следующей формулы: v1 + s (V2-v1).
 
 Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре *тоска* . Таким образом, функция **D3DXVec4Lerp** может использоваться в качестве параметра для другой функции.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -28,7 +28,7 @@ ms.locfileid: "120075744"
 
 Кодек преобразователя цветового пространства МСЮВ — это кодек ВКМ (Video Compression Manager). он используется в DirectShow в фильтре [распаковки AVI](avi-decompressor-filter.md) . Для более общего универсального преобразователя используйте [**конвертер для цветов DSP**](../medfound/colorconverter.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -38,7 +38,7 @@ ms.locfileid: "120075744"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

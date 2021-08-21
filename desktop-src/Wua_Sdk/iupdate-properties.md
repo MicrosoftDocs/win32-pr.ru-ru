@@ -4,12 +4,12 @@ ms.assetid: d87544f1-a107-440f-8ce0-77d9f2d90578
 title: Свойства Иупдате
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7df3f67f95936ea54dd09131e605da9e439caa43
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b93db8e7d8d6786e3f3f827d9eb2e9f97c43aae4781edf0a05fcf6d03e8fb1f0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104542282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119859864"
 ---
 # <a name="iupdate-properties"></a>Свойства Иупдате
 
@@ -19,7 +19,7 @@ ms.locfileid: "104542282"
 
 | Свойство                                                                           | Описание                                                                                                                                                                         |
 |------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**аутоселектонвебситес**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_autoselectonwebsites)                       | Возвращает логическое значение, указывающее, отмечено ли обновление автоматически выбранным Центр обновления Windows.                                                                   |
+| [**аутоселектонвебситес**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_autoselectonwebsites)                       | возвращает логическое значение, указывающее, отмечено ли обновление автоматически выбранным Центр обновления Windows.                                                                   |
 | [**бундледупдатес**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_bundledupdates)                                   | Возвращает интерфейс, содержащий сведения о упорядоченном списке пакетов обновлений для обновления.                                                                           |
 | [**канрекуиресаурце**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_canrequiresource)                               | Возвращает логическое значение, указывающее, требуется ли исходный носитель обновления для установки или удаления.                                                          |
 | [**Категории**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_categories)                                           | Возвращает интерфейс, содержащий коллекцию категорий, к которым относится обновление.                                                                                             |
@@ -34,7 +34,7 @@ ms.locfileid: "104542282"
 | [**еулатекст**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_eulatext)                                               | Возвращает полный локализованный текст условий лицензионного соглашения на использование программного обеспечения корпорации Майкрософт, связанных с обновлением.                                                                           |
 | [**хандлерид**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_handlerid)                                             | Возвращает обработчик установки обновления.                                                                                                                                             |
 | [**Идентификация**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_identity)                                               | Возвращает интерфейс, содержащий уникальный идентификатор обновления.                                                                                                                |
-| [**Образ**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_image)                                                     | Возвращает интерфейс, содержащий сведения об изображении, связанном с обновлением.                                                                                      |
+| [**Изображение**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_image)                                                     | Возвращает интерфейс, содержащий сведения об изображении, связанном с обновлением.                                                                                      |
 | [**инсталлатионбехавиор**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_installationbehavior)                       | Возвращает интерфейс, содержащий параметры установки обновления.                                                                                                             |
 | [**Бета-версия**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_isbeta)                                                   | Возвращает логическое значение, указывающее, является ли обновление бета-версией.                                                                                                           |
 | [**Загружено**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_isdownloaded)                                       | Возвращает логическое значение, указывающее, кэшируется ли все содержимое обновления на компьютере.                                                                                       |
@@ -56,7 +56,7 @@ ms.locfileid: "104542282"
 | [**секуритибуллетинидс**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_securitybulletinids)                         | Возвращает коллекцию строковых значений, содержащих идентификаторы бюллетеней безопасности, связанные с обновлением.                                                                      |
 | [**суперседедупдатеидс**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_supersededupdateids)                         | Возвращает коллекцию идентификаторов обновления. Эта коллекция идентификаторов указывает обновления, заменяемые обновлением.                                                    |
 | [**SupportUrl**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_supporturl)                                           | Возвращает гиперссылку на сведения о поддержке для конкретного языка обновления.                                                                                                       |
-| [**Заголовок**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_title)                                                     | Возвращает локализованное название обновления.                                                                                                                                             |
+| [**Название**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_title)                                                     | Возвращает локализованное название обновления.                                                                                                                                             |
 | [**Тип**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_type)                                                       | Возвращает тип обновления.                                                                                                                                                        |
 | [**унинсталлатионбехавиор**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_uninstallationbehavior)                   | Возвращает интерфейс, содержащий параметры удаления для обновления.                                                                                                          |
 | [**унинсталлатионнотес**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_uninstallationnotes)                         | Возвращает заметки об удалении для обновления.                                                                                                                                       |

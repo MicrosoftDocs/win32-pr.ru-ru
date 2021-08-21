@@ -4,16 +4,16 @@ ms.assetid: 7f05d62e-2bcc-4d98-8a71-97ed20a12af2
 title: Изменение известной конференции
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e5bd58003b276bd3cdd54da2e7ed0df4f154311e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 00b139b05f70f801a28b91ecb6c2773fd740f10df7c0fd2b8e86b904b210cc50
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119575604"
 ---
 # <a name="modifying-a-known-conference"></a>Изменение известной конференции
 
-\[В Windows Vista, Windows Server 2008 и последующих версиях операционной системы нельзя использовать встречные средства и элементы управления Конференц-телефонией и интерфейсы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[встречи и элементы управления встречными IP-телефонными соединениями недоступны для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 В следующем фрагменте кода показано изменение интервала времени Конференции. Интервал времени по умолчанию составляет тридцати минут. В этом фрагменте интервал времени установлен в один год.
 
@@ -28,7 +28,7 @@ ms.locfileid: "104262846"
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

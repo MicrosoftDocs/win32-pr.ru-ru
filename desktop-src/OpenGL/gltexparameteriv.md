@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 315f9b447742cfe40219877bb947c7cc5584a3e7
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 40df39c0d95d5719b0e066a1fadc089212619ecabf7868400e246001b69f579b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104000204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119490044"
 ---
 # <a name="gltexparameteriv-function"></a>Функция Глтекспараметерив
 
@@ -123,7 +123,7 @@ void WINAPI glTexParameterfv(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Сопоставление текстур — это метод, который применяет изображение к поверхности объекта, как если бы изображение было декал или целлофане сжимать. Изображение создается в пространстве текстуры с помощью системы координат (*s*, *t*). Текстура — это одно-или двухмерный изображение и набор параметров, определяющих, как выводятся образцы из изображения.
 
@@ -135,7 +135,7 @@ void WINAPI glTexParameterfv(
 
 [**глжеттекспараметер**](glgettexparameter.md)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -149,7 +149,7 @@ void WINAPI glTexParameterfv(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

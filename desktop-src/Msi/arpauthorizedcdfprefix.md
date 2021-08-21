@@ -4,24 +4,24 @@ ms.assetid: cefaf96a-046c-4c72-9781-111aa2edd8a2
 title: АРПАУСОРИЗЕДКДФПРЕФИКС, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 24f3fba03ba89f4b2e39bde2765310c3827b1456
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d0c3d55eb45e86b70cfb5e9bac0a5b32a4d6843eb716e6d96d8e6f7f4a7f962f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120078084"
 ---
 # <a name="arpauthorizedcdfprefix-property"></a>АРПАУСОРИЗЕДКДФПРЕФИКС, свойство
 
 Свойству **арпаусоризедкдфпрефикс** присваивается URL-адрес канала обновления для приложения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

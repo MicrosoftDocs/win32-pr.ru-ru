@@ -17,16 +17,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c2bf8b9563b2f681e71e355f4c21aa097eedf64a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c3661328e3e7d9854a2d298e2226a56838af652dc3732010baf95bd9c634f540
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104262204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120104294"
 ---
 # <a name="mdm_enterpriseapn_01-class"></a>\_Класс MDM EnterpriseAPN \_ 01
 
-\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Майкрософт не дает никаких гарантий, явных или подразумеваемых, в отношении предоставленной здесь информации.\]
+\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, относительно предоставленной здесь информации.\]
 
 Класс **MDM \_ EnterpriseAPN \_ 01** используется предприятием для предоставления точки доступа к Интернету.
 
@@ -60,7 +60,7 @@ class MDM_EnterpriseAPN_01
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **MDM \_ EnterpriseAPN \_ 01** имеет эти свойства.
 
@@ -110,7 +110,7 @@ class MDM_EnterpriseAPN_01
 
 </dd> <dt>
 
-[Enabled](/windows/client-management/mdm/enterpriseapn-csp#enterpriseapn-connectionname-enabled)
+[Включен](/windows/client-management/mdm/enterpriseapn-csp#enterpriseapn-connectionname-enabled)
 </dt> <dd> <dl> <dt>
 
 Тип данных: **логический**
@@ -144,7 +144,7 @@ class MDM_EnterpriseAPN_01
 Квалификаторы: [ **ключ**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
-Имя подключения, отображаемое диспетчером подключений Windows.
+имя соединения, отображаемое диспетчером соединений Windows.
 
 </dd> <dt>
 
@@ -197,7 +197,7 @@ class MDM_EnterpriseAPN_01
 
 </dd> <dt>
 
-[Роуминге](/windows/client-management/mdm/enterpriseapn-csp#enterpriseapn-connectionname-roaming)
+[Роуминг](/windows/client-management/mdm/enterpriseapn-csp#enterpriseapn-connectionname-roaming)
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -219,13 +219,13 @@ class MDM_EnterpriseAPN_01
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                      |
 | Пространство имен<br/>                | Корневой \\ CIMV2 \\ MDM \\ дммап<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>Дмвмибриджепров. mof</dt> </dl> |
@@ -233,7 +233,7 @@ class MDM_EnterpriseAPN_01
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

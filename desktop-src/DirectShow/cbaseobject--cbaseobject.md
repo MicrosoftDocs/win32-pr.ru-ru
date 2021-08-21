@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 552dbcc764f335e639cb50e2e01411dee200068f
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6508591f30a14e345cb67f9fe3a098dbaf357b6f60f57232af9f7af4570b6f6a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108096242"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119640184"
 ---
 # <a name="cbaseobjectcbaseobject-destructor"></a>Деструктор Кбасеобжект. ~ Кбасеобжект
 
@@ -40,13 +40,13 @@ ms.locfileid: "108096242"
 
 Этот метод уменьшает число активных объектов. (См. [**кбасеобжект:: обжектсактиве**](cbaseobject-objectsactive.md).)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Комбасе. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>комбасе. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
