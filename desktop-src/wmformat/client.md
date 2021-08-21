@@ -1,10 +1,10 @@
 ---
-title: Ведение журнала клиента (пакет SDK для формата Windows Media 11)
-description: Сведения о ведении журнала клиента для пакета SDK Windows Media Format 11. Ведение журнала позволяет серверу мультимедиа отвести наблюдение за активностью клиентов, подключающихся к нему.
+title: ведение журнала клиента (пакет SDK для Windows Media Format 11)
+description: сведения о ведении журнала клиента для Windows пакета SDK для формата мультимедиа 11. Ведение журнала позволяет серверу мультимедиа отвести наблюдение за активностью клиентов, подключающихся к нему.
 ms.assetid: 3e0d0fea-4370-41f8-b461-73a37de8d8bc
 keywords:
-- Пакет SDK для Windows Media Format, ведение журнала клиента
-- Windows Media Format SDK, ведение журнала
+- Windows Пакет SDK для формата мультимедиа, ведение журнала клиента
+- Windows Пакет SDK для формата мультимедиа, ведение журнала
 - Расширенный формат систем (ASF), ведение журнала клиента
 - ASF (Расширенный системный формат), ведение журнала клиента
 - Расширенный формат систем (ASF), ведение журнала
@@ -13,14 +13,14 @@ keywords:
 - Регистрация клиентов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 095e01fcf0730fdec8d06a931a9a988ca79ea77f
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 460058d6ad4009fab301c6ce322df3144bdd0e5d9bb4732d54126f7675cd9e2a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028032"
 ---
-# <a name="client-logging-windows-media-format-11-sdk"></a>Ведение журнала клиента (пакет SDK для формата Windows Media 11)
+# <a name="client-logging-windows-media-format-11-sdk"></a>ведение журнала клиента (пакет SDK для Windows Media Format 11)
 
 Когда объект чтения считывает данные с сервера, он отправляет данные журнала на сервер. Поставщики содержимого обычно используют эти сведения для измерения качества обслуживания, создания сведений о выставлении счетов или объявления. Данные ведения журнала не содержат персональных данных.
 

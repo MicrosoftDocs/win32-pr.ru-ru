@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6482aac80c1298ea403019f43ddc4effdc30b00a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ddf1da2d7f947bbaed9972a40a20497a81f84ebda68dba31cd5518b64f6e8434
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016532"
 ---
 # <a name="cbasewindowm_hinstance-member"></a>Элемент Кбасевиндов:: m \_ HINSTANCE
 
@@ -36,7 +36,7 @@ HINSTANCE m_hInstance;
 
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Функция точки входа библиотеки DLL задает глобальную переменную с помощью маркера экземпляра модуля. Класс **кбасевиндов** сохраняет этот обработчик в своем методе конструктора.
 
@@ -46,7 +46,7 @@ HINSTANCE m_hInstance;
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Винутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>винутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

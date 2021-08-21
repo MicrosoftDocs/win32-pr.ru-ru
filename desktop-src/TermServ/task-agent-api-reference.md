@@ -5,12 +5,12 @@ ms.assetid: 44EACE66-3BBD-4E32-B7BD-B13C390262C5
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c7c901f45a5be8b8f3dc82a1d075069f35b3444
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 88c19b4ad203636e3ca845a697974d8bcb4bcbd2d654140432e549790ff2f211
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "105672235"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000304"
 ---
 # <a name="personal-desktop-task-agent-api-reference"></a>Справочник по API агента задач персонального рабочего стола
 
@@ -34,9 +34,9 @@ API агента задачи личного рабочего стола под�
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

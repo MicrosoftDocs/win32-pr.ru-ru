@@ -69,7 +69,7 @@ HRESULT D3DXGetShaderConstantTable(
 
 Таблица констант создается [**D3DXCompileShader**](d3dxcompileshader.md) и внедряется в текст шейдера. Если требуется дополнительное виртуальное адресное пространство, см. раздел [**D3DXGetShaderConstantTableEx**](d3dxgetshaderconstanttableex.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -80,7 +80,7 @@ HRESULT D3DXGetShaderConstantTable(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

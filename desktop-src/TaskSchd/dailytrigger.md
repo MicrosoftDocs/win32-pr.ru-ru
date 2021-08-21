@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 22203ecf7a421f07ccb823745e6619e05f84f550
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a7b330906b309bbd672fcb9c333bc254fb02ee668549764d7dc1375f6ac405a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104489873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119060182"
 ---
 # <a name="dailytrigger-object"></a>Объект Даилитригжер
 
@@ -33,7 +33,7 @@ ms.locfileid: "104489873"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Объект **даилитригжер** имеет следующие свойства.
 
@@ -55,7 +55,7 @@ ms.locfileid: "104489873"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Время дня запуска задачи задается свойством [**стартбаундари**](trigger-startboundary.md) .
 
@@ -67,24 +67,24 @@ ms.locfileid: "104489873"
 
 Дополнительные сведения и пример кода для этого объекта скрипта см. в разделе [Пример ежедневного триггера (сценарии)](daily-trigger-example--scripting-.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                    |
 | Библиотека типов<br/>             | <dl> <dt>Тасксчд. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[**Необходимость**](trigger.md)
+[**Триггер**](trigger.md)
 </dt> <dt>
 
 [**тригжерколлектион**](triggercollection.md)

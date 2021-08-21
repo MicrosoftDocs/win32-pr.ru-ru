@@ -4,12 +4,12 @@ description: Для получения ловушек и уведомлений 
 ms.assetid: 2bccba35-bf5c-4e5c-94e4-59980f2b9776
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51e3a2d9fed1f7c34dd8191550d1dbc68ed984e5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 402a768aa28efb6f2fdc18994d749cfca2f2c412f748f853fb76fcd7fe3e41d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009382"
 ---
 # <a name="managing-traps-and-notifications"></a>Управление ловушками и уведомлениями
 
@@ -29,9 +29,9 @@ ms.locfileid: "103888868"
 
 Дополнительные сведения см. в разделе [Отправка SNMP-сообщений](sending-snmp-messages.md) и [Получение сообщений SNMP](receiving-snmp-messages.md). Дополнительные сведения о выделении и освобождении ресурсов для ловушек и уведомлений см. в разделе [выделение объектов WinSNMP Memory](allocating-winsnmp-memory-objects.md).
 
- 
+ 
 
- 
+ 
 
 
 

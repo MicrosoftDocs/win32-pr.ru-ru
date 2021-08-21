@@ -5,12 +5,12 @@ ms.assetid: a9fc7245-c045-460c-b725-85b18e1a22d4
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cbef853912cc25c74eb4dfa47b59c5775cec8ab
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7912108b7afec2da499314bf2be0a557138a039231d9fe9a1c59a1c130d52f82
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888135"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000084"
 ---
 # <a name="remote-desktop-services-audioendpoint-enumeration-types"></a>Типы перечисления службы удаленных рабочих столов Аудиоендпоинт
 
@@ -34,13 +34,13 @@ ms.locfileid: "103888135"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Службы удаленных рабочих столов API Аудиоендпоинт для использования в сценариях удаленный рабочий стол; Он не предназначен для клиентских приложений.
 
- 
+ 
 
- 
+ 
 
 
 

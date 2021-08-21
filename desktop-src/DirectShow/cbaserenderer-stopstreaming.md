@@ -48,7 +48,7 @@ virtual HRESULT StopStreaming();
 
 Этот метод вызывает метод [**кбасерендерер:: онстопстреаминг**](cbaserenderer-onstopstreaming.md) . Этот метод не выполняет никаких действий в базовом классе, но производный класс может его переопределить.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -59,7 +59,7 @@ virtual HRESULT StopStreaming();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

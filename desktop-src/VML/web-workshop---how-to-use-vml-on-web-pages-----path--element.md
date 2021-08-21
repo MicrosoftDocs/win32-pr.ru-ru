@@ -18,21 +18,21 @@ keywords:
 - Настройка контуров фигур
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba82d0ab946ef8937b68b4934f9c4d928bd25225
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6cbb27dbc2b039478903f697b02cefb14464b71a96ab2165db124d0a0053a400
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103793464"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119057191"
 ---
 # <a name="using-the-path-element"></a>Использование элемента Path
 
-В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+в этом разделе описывается функция VML, которая является устаревшей по отношению к Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
 
 > [!Note]  
-> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
+> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). сведения, рекомендации и рекомендации относительно текущей версии Windows Internet explorer см. в [центре разработчиков internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Вы узнали, что для рисования фигуры можно использовать предварительно определенные элементы формы VML, такие как `<oval>` ,, `<line>` ,, `<polyline>` `<curve>` `<rect>` , `<roundrect>` и `<arc>` --. В этом разделе будет показано, как использовать `<path>` вложенный элемент для настройки контура фигуры.
 
@@ -64,6 +64,6 @@ fillcolor="blue" coordorigin="0 0" coordsize="200 200">
 
 Дополнительные сведения об этом элементе см. в [спецификации VML](https://www.w3.org/TR/NOTE-VML#-toc416858391) .
 
- 
+ 
 
- 
+ 

@@ -1,19 +1,19 @@
 ---
-title: Структуры защитника Windows
-description: Структуры, используемые приложениями при обращении к запросам сканирования, обновлениям сигнатур или сведениям из защитника Windows.
+title: Защитник Windows Сотрудник
+description: структуры, используемые приложениями при вызове для просмотра запросов, обновлений сигнатур или сведений из Защитник Windows.
 ms.assetid: EF4116D3-DA50-4078-A024-2D624945D8C1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81d690de552137ce267b9d1d7a9cec711b161528
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: aa735805fd5f9b7f85e61bff748ee2714d915ab1ddf7f94eabb9fff316aba710
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103774492"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975384"
 ---
-# <a name="windows-defender-structures"></a>Структуры защитника Windows
+# <a name="windows-defender-structures"></a>Защитник Windows Сотрудник
 
-Структуры, используемые приложениями при обращении к запросам сканирования, обновлениям сигнатур или сведениям из защитника Windows.
+структуры, используемые приложениями при вызове для просмотра запросов, обновлений сигнатур или сведений из Защитник Windows.
 
 
 

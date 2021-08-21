@@ -17,12 +17,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 37352176ca460587343bed0a154ee992c12c2fff
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 156bb2eb1e136593bfec4310599200f2d2800e271defa0e4a3259a4a67acb648
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047082"
 ---
 # <a name="ibackgroundcopyfile2getfileranges-method"></a>Метод IBackgroundCopyFile2:: Жетфилеранжес
 
@@ -66,22 +66,22 @@ HRESULT GetFileRanges(
 
 | Код возврата                                                                              | Описание                                                                                                                                   |
 |------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>S_OK * * * *</dt> </dl> | Успешно<br/>                                                                                                                            |
+| <dl> <dt>S_OK * * * *</dt> </dl> | Success<br/>                                                                                                                            |
 | <dl> <dt>**S_FALSE**</dt> </dl>  | Не указаны диапазоны или задано задание отправки или отправки-ответа. *Ранжекаунт* имеет нулевое значение, а для *Ranges* задано **значение NULL**.<br/> |
 
 
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только для настольных приложений Windows 10 версии 1709\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server версии 1709\]<br/>                                       |
-| Header<br/>                   | <dl> <dt>Deliveryoptimization. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | Windows 10, только для \[ настольных приложений версии 1709\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Server, только для \[ настольных приложений версии 1709\]<br/>                                       |
+| Заголовок<br/>                   | <dl> <dt>Deliveryoptimization. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization. idl</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Досвк. lib</dt> </dl>                |
 | DLL<br/>                      | <dl> <dt>Dosvc.dll</dt> </dl>                |
@@ -89,7 +89,7 @@ HRESULT GetFileRanges(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

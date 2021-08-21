@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 73402ac178bcb2ac3dc03c0adda092d3b49f6ba3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 47a10315eca4fcbf96edf123699614d29a2c0b8974f563c52148b5de75310fc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892201"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000684"
 ---
 # <a name="imstscaxeventsonfatalerror-method"></a>Метод Имстскаксевентс:: Онфаталеррор
 
@@ -74,7 +74,7 @@ void OnFatalError(
 
 <span id="2"></span>
 
-<span id="2"></span>**открыт**
+<span id="2"></span>**2**
 
 
 </dt> <dd>
@@ -96,7 +96,7 @@ void OnFatalError(
 
 <span id="4"></span>
 
-<span id="4"></span>**четырех**
+<span id="4"></span>**4**
 
 
 </dt> <dd>
@@ -153,13 +153,13 @@ void OnFatalError(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В ответ на это событие контейнер отображает сообщение об ошибке и завершает работу.
 
 Дополнительные сведения о веб-подключение к удаленному рабочему столу см. в разделе [требования для веб-подключение к удаленному рабочему столу](requirements-for-remote-desktop-web-connection.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -173,7 +173,7 @@ void OnFatalError(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

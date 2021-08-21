@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 4b777bd729810b6fd63bd71def9858203b2ac559
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 52ca669b6b0136c0c1ae094958f3ffe4d27d5d86f291f3f203d8088a662cfd61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108107952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119046862"
 ---
 # <a name="id3dxmatrixstackmultmatrixlocal-method-d3dx10h"></a>Метод ID3DXMATRIXStack:: Мултматрикслокал (D3DX10. h)
 
@@ -68,13 +68,13 @@ m_pstack[m_currentPos] = (*pMat) * m_pstack[m_currentPos];
 
 Этот метод не добавляет элемент в стек, он заменяет текущую матрицу на продукт заданной матрицы и текущую матрицу.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>D3DX10. lib</dt> </dl> |
 
 

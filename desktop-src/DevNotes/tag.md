@@ -4,12 +4,12 @@ ms.assetid: c092592d-a4f4-4b2f-9b03-c07951ed214a
 title: TAG (Exposeenums2managed. h)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dacbd3c8d29e1f41d7aaabc989848c561415ae4a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dfc7e4df727245ead30ecefef0cd941148b8f4c76e2881ab19f41c3388934abd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105649007"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119075798"
 ---
 # <a name="tag"></a>TAG
 
@@ -133,7 +133,7 @@ ms.locfileid: "105649007"
 | <span id="TAG_APP_NAME_RC_ID"></span><span id="tag_app_name_rc_id"></span><dl> <dt>**Тег \_ Имя приложения идентификатор версии- \_ \_ кандидата \_**</dt> <dt>( \| **тип тега 0x24 \_ \_ DWORD**)</dt> </dl>               | Атрибут идентификатора ресурса имени приложения для записей AppHelp.<br/>                                   |
 | <span id="TAG_VENDOR_NAME_RC_ID"></span><span id="tag_vendor_name_rc_id"></span><dl> <dt>**Тег \_ Имя поставщика идентификатор версии- \_ \_ кандидата \_**</dt> <dt>( \| **тип тега 0x25 \_ \_ DWORD**)</dt> </dl>      | Атрибут идентификатора ресурса имени поставщика для записей AppHelp.<br/>                                        |
 | <span id="TAG_SUMMARY_MSG_RC_ID"></span><span id="tag_summary_msg_rc_id"></span><dl> <dt>**Тег \_ Идентификатор версии- \_ \_ \_ кандидата сводного сообщения**</dt> <dt>( \| **тип тега 0x26 \_ \_ DWORD**)</dt> </dl>      | Атрибут идентификатора ресурса сводного сообщения для записей AppHelp.<br/>                                    |
-| <span id="TAG_VISTA_SKU"></span><span id="tag_vista_sku"></span><dl> <dt>**Тег \_ \_SKU Vista**</dt> <dt>( \| **тип тега \_ 0x27 \_ DWORD**)</dt> </dl>                                | Атрибут SKU Windows Vista.<br/>                                                                          |
+| <span id="TAG_VISTA_SKU"></span><span id="tag_vista_sku"></span><dl> <dt>**Тег \_ \_SKU Vista**</dt> <dt>( \| **тип тега \_ 0x27 \_ DWORD**)</dt> </dl>                                | Windows Атрибут SKU Vista.<br/>                                                                          |
 | <span id="TAG_DESCRIPTION_RC_ID"></span><span id="tag_description_rc_id"></span><dl> <dt>**Тег \_ Описание \_ \_ идентификатора версии-кандидата**</dt> <dt>( \| **тип тега 0x28 \_ \_ DWORD**)</dt> </dl>       | Описание атрибута идентификатора ресурса для записей AppHelp.<br/>                                        |
 | <span id="TAG_PARAMETER1_RC_ID"></span><span id="tag_parameter1_rc_id"></span><dl> <dt>**Тег \_ ПАРАМЕТР1 \_ \_ идентификатор версии-кандидата**</dt> <dt>( \| **тип тега 0x29 \_ \_ DWORD**)</dt> </dl>          | Атрибут идентификатора ресурса параметр1 для записей AppHelp.<br/>                                         |
 | <span id="TAG_TAGID"></span><span id="tag_tagid"></span><dl> <dt>**Тег \_ TAGID**</dt> <dt>( \| **тип тега \_ 0x801 \_ DWORD**)</dt> </dl>                                            | Атрибут **TAGID** .<br/>                                                                                  |
@@ -222,17 +222,17 @@ ms.locfileid: "105649007"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Exposeenums2managed. h (включение Аксекстенденумс. h)</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Exposeenums2managed. h (включение Аксекстенденумс. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -7,12 +7,12 @@ keywords:
 - Справочник по API Аудиоендпоинт службы удаленных рабочих столов службы удаленных рабочих столов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1958b21643083a14110ddad77f68024cc464dd36
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ae9a7aa83b519ca10128f9bea3b945492f387c0498c81f8b2959cb9830b91dbc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104411200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000094"
 ---
 # <a name="remote-desktop-services-audioendpoint-api-reference"></a>Справочник по API службы удаленных рабочих столов Аудиоендпоинт
 
@@ -37,13 +37,13 @@ ms.locfileid: "104411200"
 -   [Интерфейсы службы удаленных рабочих столов Аудиоендпоинт](terminal-services-audioendpoint-interfaces.md)
 -   [службы удаленных рабочих столов структур Аудиоендпоинт](terminal-services-audioendpoint-structures.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Службы удаленных рабочих столов API Аудиоендпоинт для использования в сценариях удаленный рабочий стол; Он не предназначен для клиентских приложений.
 
- 
+ 
 
- 
+ 
 
 
 

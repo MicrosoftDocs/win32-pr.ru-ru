@@ -1,4 +1,4 @@
-- name: Средство оценки системы Windows
+- name: Windows Средство оценки системы
   href: windows-system-assessment-tool-portal.md
   items:
     - name: Использование WinSAT

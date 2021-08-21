@@ -3,21 +3,21 @@ title: Рекомендуемые сочетания шаблонов соотв
 description: Рекомендуемые сочетания шаблонов соответствия устройств
 ms.assetid: 044f3b4c-fa81-4dac-bdde-13c47be814c6
 keywords:
-- Windows Media Format SDK, шаблоны соответствия устройств
+- Windows Пакет SDK для формата мультимедиа, шаблоны соответствия устройств
 - Расширенный формат систем (ASF), шаблоны соответствия устройств
 - ASF (Расширенный системный формат), шаблоны соответствия устройств
-- Windows Media Format SDK, Рекомендуемые сочетания шаблонов соответствия устройств
+- Windows Пакет SDK для формата мультимедиа, Рекомендуемые сочетания шаблонов соответствия устройств
 - Расширенный формат систем (ASF), Рекомендуемые сочетания шаблонов соответствия устройств
 - ASF (Расширенный системный формат), Рекомендуемые сочетания шаблонов соответствия устройств
 - шаблоны соответствия устройств, Рекомендуемые сочетания
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98da6ddfba65800c5ca1b672e404843995781d07
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5f59606df5328fc7ca791196868fb9143e6d13bdc7a069b39947bed0c8404249
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027332"
 ---
 # <a name="recommended-device-conformance-template-combinations"></a>Рекомендуемые сочетания шаблонов соответствия устройств
 
@@ -25,7 +25,7 @@ ms.locfileid: "103986811"
 
 
 
-| Кодек Windows Media Video 9 | Кодек Windows Media Audio 9 | Голосовой кодек Windows Media Audio 9 | Кодек Windows Media Audio 9 Professional |
+| Windows Кодек Media Video 9 | Windows Кодек Media Audio 9 | Windows Голосовой кодек Media Audio 9 | Windows кодек Professional Media Audio 9 |
 |-----------------------------|-----------------------------|-----------------------------------|------------------------------------------|
 | SP@LL                       | L2                          | S2                                | \-                                       |
 | SP@ML                       | L2                          | S2                                | \-                                       |
@@ -35,9 +35,9 @@ ms.locfileid: "103986811"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -50,9 +50,9 @@ ms.locfileid: "103986811"
 [**Шаблоны соответствия видеоустройств**](video-device-conformance-templates.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

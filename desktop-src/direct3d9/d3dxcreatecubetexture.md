@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 8fa31945cea5e65cdf00eae512059308090bcbab
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 86518a98f9ac78c4c6410d6ff5aa76640dbd04c0d5e50158e4432b7fa5ab79ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105720974"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119045202"
 ---
 # <a name="d3dxcreatecubetexture-function"></a>Функция D3DXCreateCubeTexture
 
@@ -115,24 +115,24 @@ HRESULT D3DXCreateCubeTexture(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. Если функция завершается ошибкой, возвращаемое значение может быть одним из следующих: D3DERR \_ инвалидкалл, D3DERR \_ NOTAVAILABLE, D3DERR \_ аутофвидеомемори, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Текстуры Куба отличаются от других поверхностей тем, что они являются коллекциями поверхностей.
 
 На внутреннем уровне D3DXCreateCubeTexture использует [**D3DXCheckCubeTextureRequirements**](d3dxcheckcubetexturerequirements.md) для настройки параметров вызова. Таким образом, вызовы D3DXCreateCubeTexture часто завершаются успешно, когда вызовы [**креатекубетекстуре**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-createcubetexture) завершатся сбоем.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9tex. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9tex. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>  |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

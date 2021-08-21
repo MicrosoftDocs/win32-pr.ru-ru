@@ -4,12 +4,12 @@ ms.assetid: 75df5341-9297-4c4c-bab3-2d1fcbf66f82
 title: System. Contact. Ттитддтелефоне
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e9543e9e2ede98273bf02f706641cbb2bcce5d6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 40b559f3837798071c015ee1f541603bca2535e6531c10ff81e31cf751dc6c9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970533"
 ---
 # <a name="systemcontactttytddtelephone"></a>System. Contact. Ттитддтелефоне
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 54c0ebd1-d270-4e8b-88e6-d58698ddd208
 title: System. Оригиналфиленаме
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e5adeb0f9920698bd3b6896559a79081aa51382b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 477d0ed56873b71e9f7cbe71bb59aa28500385ea529e1e51466dbf853cd8ca59
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108104702"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970183"
 ---
 # <a name="systemoriginalfilename"></a>System. Оригиналфиленаме
 
@@ -32,9 +32,9 @@ propertyDescription
 
 Значения PKEY определены в списке PKEY. h.
 
-`label`Для Windows Vista с пакетом обновления 1 (SP1) был добавлен запрос на указанную косвенную ссылку на непрямое строковое значение атрибута **лабелинфо** .
+`label`для Windows Vista с пакетом обновления 1 (SP1) была добавлена обязательная ссылка на косвенную строку для атрибута **лабелинфо** .
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

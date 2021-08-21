@@ -4,12 +4,12 @@ description: С помощью Microsoft Active Accessibility элементы �
 ms.assetid: ab5669c3-33ce-4d56-a028-e36db25c0b28
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ba496e011d42fac9a3c4b047a7d8c3b9e0ecf84
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9591c4884826ba9d85192e5702d0528f25087797faf83d83314d5c00f172459b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104411366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994384"
 ---
 # <a name="accessible-objects"></a>Доступные объекты
 
@@ -19,9 +19,9 @@ ms.locfileid: "104411366"
 
 Дополнительные сведения о взаимосвязи между доступными объектами и простыми элементами см. в разделе [простые элементы](simple-elements.md).
 
- 
+ 
 
- 
+ 
 
 
 

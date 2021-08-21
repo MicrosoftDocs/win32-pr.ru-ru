@@ -17,16 +17,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 911c578bd0e3cbc56c61f2cf85438660e8f437b1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b2771b82525ad5fb7bebd42a63b7ad199d53acc2aadf9c3a086544deae38a1ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119076908"
 ---
 # <a name="mdm_windowslicensing_subscriptions01_01-class"></a>\_Класс MDM виндовслиценсинг \_ Subscriptions01 \_ 01
 
-\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Майкрософт не дает никаких гарантий, явных или подразумеваемых, в отношении предоставленной здесь информации.\]
+\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, относительно предоставленной здесь информации.\]
 
 Класс **MDM \_ виндовслиценсинг \_ Subscriptions01 \_ 01** предназначен для сценариев управления лицензированием, связанных с подпиской.
 
@@ -51,7 +51,7 @@ class MDM_WindowsLicensing_Subscriptions01_01
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **MDM \_ виндовслиценсинг \_ Subscriptions01 \_ 01** имеет эти свойства.
 
@@ -73,7 +73,7 @@ class MDM_WindowsLicensing_Subscriptions01_01
 
 </dd> <dt>
 
-[Name](/windows/client-management/mdm/windowslicensing-csp#subscriptions-subscriptionid-name)
+[Имя](/windows/client-management/mdm/windowslicensing-csp#subscriptions-subscriptionid-name)
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -111,13 +111,13 @@ class MDM_WindowsLicensing_Subscriptions01_01
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                      |
 | Пространство имен<br/>                | Корневой \\ CIMV2 \\ MDM \\ дммап<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>Дмвмибриджепров. mof</dt> </dl> |

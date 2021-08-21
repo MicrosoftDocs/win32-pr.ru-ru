@@ -4,12 +4,12 @@ ms.assetid: b0a94760-b4dd-4e50-a5ce-a1f674dde156
 title: Обработка изменений в потоке
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2adf3cbc0504a37fe611b77047c73f85b9d1e742
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e238073bf518bc875b7b2d536c758eab48c8502278aae6780999c7616430337e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974433"
 ---
 # <a name="handling-stream-changes"></a>Обработка изменений в потоке
 
@@ -118,7 +118,7 @@ MFT предоставляет этот атрибут через его мет�
 
 Дополнительные сведения см. [в разделе чередование флагов в примерах](video-interlacing.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

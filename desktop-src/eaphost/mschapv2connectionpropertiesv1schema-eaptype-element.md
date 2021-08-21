@@ -67,7 +67,7 @@ ms.locfileid: "118984064"
 
 Элемент **processContents** обеспечивает будущие улучшения схемы. Элемент **processContents** является необязательным.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -78,7 +78,7 @@ ms.locfileid: "118984064"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

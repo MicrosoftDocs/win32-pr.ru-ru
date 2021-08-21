@@ -3,8 +3,8 @@ title: Перечисление MPTHREAT_CATEGORY (Мпклиент. h)
 description: Возможные категории угроз.
 ms.assetid: 478ED59E-5D3C-43B3-A89D-44A649EDD086
 keywords:
-- MPTHREAT_CATEGORY перечисления устаревшие функции среды Windows
-- PMPTHREAT_CATEGORY указателя перечисления устаревшие функции среды Windows
+- MPTHREAT_CATEGORY перечисления устаревших Windows компонентов среды
+- PMPTHREAT_CATEGORYные компоненты среды Windows указателя перечисления
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a149ef6ce6ebadacbac6f0dd35247d793ca7000
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 70cfd95de751d51be3ab4b61bc361687738422a6d31c234576e812efcd57bd4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105710469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975974"
 ---
 # <a name="mpthreat_category-enumeration"></a>\_Перечисление категорий мпсреат
 
@@ -104,7 +104,7 @@ typedef enum tagMPTHREAT_CATEGORY {
 <span id="MP_THREAT_CATEGORY_NUKER"></span><span id="mp_threat_category_nuker"></span>**Пакет управления \_ \_ \_ Удалить категорию угроз** | Вредоносная программа, предназначенная для аварийного завершения работы устройства или уменьшения ее стабильности.
 <span id="MP_THREAT_CATEGORY_SECURITYDISABLER"></span><span id="mp_threat_category_securitydisabler"></span>**Пакет управления \_ \_Категория угроз \_ секуритидисаблер** | Вредоносная программа, которая отключает параметры безопасности или продукты.
 <span id="MP_THREAT_CATEGORY_JOKEPROGRAM"></span><span id="mp_threat_category_jokeprogram"></span>**Пакет управления \_ \_Категория угроз \_ жокепрограм** | Приложение, предназначенное для амусе или пугают пользователя без фактического ущерба для устройства.
-<span id="MP_THREAT_CATEGORY_HOSTILEACTIVEXCONTROL"></span><span id="mp_threat_category_hostileactivexcontrol"></span>**Пакет управления \_ \_Категория угроз \_ хостилеактивексконтрол** | Элемент управления ActiveX, разработанный злоумышленником для причинения вреда устройству. Элемент управления ActiveX — это разновидность надстройки браузера Internet Explorer.
+<span id="MP_THREAT_CATEGORY_HOSTILEACTIVEXCONTROL"></span><span id="mp_threat_category_hostileactivexcontrol"></span>**Пакет управления \_ \_Категория угроз \_ хостилеактивексконтрол** | элемент управления ActiveX, разработанный злоумышленником для причинения вреда устройству. элемент управления ActiveX — это разновидность браузера, характерная для Internet Explorer.
 <span id="MP_THREAT_CATEGORY_SOFTWAREBUNDLER"></span><span id="mp_threat_category_softwarebundler"></span>**Пакет управления \_ \_Категория угроз \_ софтваребундлер** | Программное обеспечение, устанавливающее другие потенциально нежелательные приложения, например рекламное по или шпионское по. Для работы с лицензионным соглашением по объединению программного обеспечения могут потребоваться другие компоненты.
 <span id="MP_THREAT_CATEGORY_STEALTHNOTIFIER"></span><span id="mp_threat_category_stealthnotifier"></span>**Пакет управления \_ \_Категория угроз \_ стеалснотифиер** | Вредоносная программа, которая подключается к удаленному серверу через скрытое подключение для уведомления злоумышленника об установке вредоносной программы.
 <span id="MP_THREAT_CATEGORY_SETTINGSMODIFIER"></span><span id="mp_threat_category_settingsmodifier"></span>**Пакет управления \_ \_Категория угроз \_ сеттингсмодифиер** | Потенциально нежелательное приложение, которое изменяет параметры пользователя без ведома или согласия пользователя.
@@ -127,7 +127,7 @@ typedef enum tagMPTHREAT_CATEGORY {
 <span id="MP_THREAT_CATEGORY_VIRUS"></span><span id="mp_threat_category_virus"></span>**Пакет управления \_ \_ \_ вирус категории угроз** | Вредоносные программы, которые реплицируют, как правило, заражая другие файлы в системе, тем самым позволяя выполнять код вредоносных программ и его распространение при активации этих файлов.
 <span id="MP_THREAT_CATEGORY_KNOWN"></span><span id="mp_threat_category_known"></span>**Пакет управления \_ \_ \_ известная категория угроз** | Неопределенная угроза вредоносных программ.
 <span id="MP_THREAT_CATEGORY_UNKNOWN"></span><span id="mp_threat_category_unknown"></span>**Пакет управления \_ \_Категория угрозы \_ неизвестна** | Неуказанная вредоносная программа, которая еще не была определена.
-<span id="MP_THREAT_CATEGORY_SPP"></span><span id="mp_threat_category_spp"></span>**Пакет управления \_ \_Категория угроз \_ SPP** | Технология борьбы с пиратством, которая требует, чтобы каждая установка продукта Windows была активирована корпорацией Майкрософт.
+<span id="MP_THREAT_CATEGORY_SPP"></span><span id="mp_threat_category_spp"></span>**Пакет управления \_ \_Категория угроз \_ SPP** | технология борьбы с пиратством, которая требует, чтобы каждая установка Windowsного продукта была активирована корпорацией майкрософт.
 <span id="MP_THREAT_CATEGORY_BEHAVIOR"></span><span id="mp_threat_category_behavior"></span>**Пакет управления \_ \_ \_ поведение категории угроз** | Тип обнаружения на основе действий с файлами, которые часто связаны с вредоносными действиями.
 <span id="MP_THREAT_CATEGORY_VULNERABILTIY"></span><span id="mp_threat_category_vulnerabiltiy"></span>**Пакет управления \_ \_Категория угроз \_ вулнерабилтий** | Любой недостаток, административный процесс или действие, которые делают устройство уязвимым для использования угрозой.
 <span id="MP_THREAT_CATEGORY_POLICY"></span><span id="mp_threat_category_policy"></span>**Пакет управления \_ \_ \_ Политика категории угроз** | Набор правил, определяемых администратором и управляющих функциями настольных и мобильных устройств, таких как обновления программного обеспечения.
@@ -138,4 +138,4 @@ typedef enum tagMPTHREAT_CATEGORY {
 |-|-|
 | Минимальная версия клиента | Windows 8 (только для классических приложений) |
 | Минимальная версия сервера | Windows Server 2012 (только для классических приложений) |
-| Header | Мпклиент. h |
+| Заголовок | Мпклиент. h |

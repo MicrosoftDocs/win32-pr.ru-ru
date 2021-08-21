@@ -1,6 +1,6 @@
 ---
 title: Метод Ивмдрмнеттрансмиттер Сетлиценсечалленже (Вмдрмсдк. h)
-description: Метод Сетлиценсечалленже обрабатывает запрос лицензии, отправленный получателем Windows Media DRM для приемника сетевых устройств.
+description: метод сетлиценсечалленже обрабатывает запрос лицензии, отправленный Windows Media DRM для приемника сетевых устройств.
 ms.assetid: 3d4cd029-a8f5-49fc-ba8c-d8615ff94366
 keywords:
 - Формат Windows Media, Сетлиценсечалленже метод
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94b83ca615896039a592d147fe8c14d15493cec0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 211f8de60cddb153e157af64ee300a4bbaf327d70a1564fbd9e622008c055cb9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675046"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027572"
 ---
 # <a name="iwmdrmnettransmittersetlicensechallenge-method"></a>Метод Ивмдрмнеттрансмиттер:: Сетлиценсечалленже
 
-Метод **сетлиценсечалленже** обрабатывает запрос лицензии, отправленный получателем Windows Media DRM для приемника сетевых устройств.
+метод **сетлиценсечалленже** обрабатывает запрос лицензии, отправленный Windows Media DRM для приемника сетевых устройств.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -71,7 +71,7 @@ HRESULT SetLicenseChallenge(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если этот метод завершится с ошибкой, последующие вызовы других методов **ивмдрмнеттрансмиттер** будут использовать информацию в обработанном вызове.
 
@@ -81,7 +81,7 @@ HRESULT SetLicenseChallenge(
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Вмдрмсдк. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмдрмсдк. h</dt> </dl> |
 
 
 
