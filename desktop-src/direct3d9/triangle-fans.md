@@ -4,12 +4,12 @@ ms.assetid: a1fbfd78-121f-4f79-9ba8-44f23356a432
 title: Треугольные вентиляторы (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2357af0d999cc759453e34cd278f61064a637cfd
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 806dc57545f4cb8341eee2b586aa062ba93d98568e6269e209dbf616fbb081d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104553828"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044185"
 ---
 # <a name="triangle-fans-direct3d-9"></a>Треугольные вентиляторы (Direct3D 9)
 
@@ -60,7 +60,7 @@ d3dDevice->DrawPrimitive( D3DPT_TRIANGLEFAN, 0, 4 );
 
 Вентиляторы с треугольниками не поддерживаются в Direct3D 10 и более поздних версиях.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

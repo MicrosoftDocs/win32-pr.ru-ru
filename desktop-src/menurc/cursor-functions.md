@@ -4,16 +4,16 @@ description: Функции работы с курсорами
 ms.assetid: fa74eed0-a862-4345-a13a-0c4234b6a5b6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7dd5d8f68127c912d37a8cb37757a0980e81982
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 0fc8c42921cdba625ba773cd1c349e6c115cd1465067a806eade044b06137130
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108112762"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034321"
 ---
 # <a name="cursor-functions"></a>Функции работы с курсорами
 
-## <a name="in-this-section"></a>в этом разделе
+## <a name="in-this-section"></a>В этом разделе
 
 -   [**клипкурсор**](/windows/desktop/api/Winuser/nf-winuser-clipcursor)
 -   [**копикурсор**](/windows/desktop/api/Winuser/nf-winuser-copycursor)

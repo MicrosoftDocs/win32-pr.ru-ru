@@ -4,12 +4,12 @@ ms.assetid: 7338cae2-5bc4-4643-9311-7845d5c08381
 title: System.Devices.Aep.IsPaired
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b86e40b46f36c8ad62fbf3f8fdfa079c7969d468
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 95b31cda52776a74fa5fdec45339f9863baad9c263900355ba4823014e96f69d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911411"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119938454"
 ---
 # <a name="systemdevicesaepispaired"></a>System.Devices.Aep.IsPaired
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

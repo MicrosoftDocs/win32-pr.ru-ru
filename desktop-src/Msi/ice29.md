@@ -4,20 +4,20 @@ ms.assetid: a51b641d-992b-4b6b-a208-d94bc7d05115
 title: ICE29
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6f606bd09314d045b643816c08349eba38bde72
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fcdef203e314a087e9eb11bcf1b958425d7608028d979db925edce1b42e4bebc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991579"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119528714"
 ---
 # <a name="ice29"></a>ICE29
 
 ICE29 проверяет, что усеченные имена потоков остаются уникальными. Проверяется любая таблица, в которой находится двоичный или столбец объекта. См. тип данных в [двоичном](binary.md) столбце.
 
-Обработка потоков с помощью реализации структурированного хранилища Win32 OLE ограничивает имена потоков. См. раздел [ограничения OLE для потоков](ole-limitations-on-streams.md). Установщик может сжимать имена потоков длиной до 62 символов. Имена, превышающие это, усекаются.
+Обработка потоков с помощью реализации структурированного хранилища Win32 OLE ограничивает имена потоков. см. раздел [ограничения OLE на Потоки](ole-limitations-on-streams.md). Установщик может сжимать имена потоков длиной до 62 символов. Имена, превышающие это, усекаются.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

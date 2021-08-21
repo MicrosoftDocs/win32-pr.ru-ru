@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f246fe8401e1f671f5935ff7d7454093ea1d3179
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0c04d4e24c621dd704b8aeba91646016e334a6f6bface4769578a710322a7cff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074558"
 ---
 # <a name="cbasewindowsetpalette-method-winutilh"></a>Кбасевиндов. Сетпалетте, метод (Винутил. h)
 
@@ -64,24 +64,24 @@ virtual HRESULT SetPalette(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если значение переменной-члена [**кбасевиндов:: m \_ Бнореализе**](cbasewindow-m-bnorealize.md) равно **false** (значение по умолчанию), этот метод выбирает палитру и реализует ее. В противном случае она выбирает палитру, но не реализует ее. Объект не удаляет предыдущую палитру, которая использовалась. Вызывающий объект отвечает за удаление палитр.
 
 Любой поток может безопасно вызвать этот метод, а не только поток, которому принадлежит окно. Окно отправляет частное сообщение самому себе, которое активирует вызов метода [**кбасевиндов:: онпалеттечанже**](cbasewindow-onpalettechange.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Винутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>винутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

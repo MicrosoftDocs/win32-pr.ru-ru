@@ -4,12 +4,12 @@ description: Объявите число точек управления вхо�
 ms.assetid: 2E524BF0-3DD0-446A-8437-0CF17B348D83
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f0a674a05bfd66b4c1d94da73958dc68f00fe21
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 68c5414d5c660cf0bbce2b6219769cd36d4da9bbf3e59d9d130bfce0e0dceea3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104412243"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119789884"
 ---
 # <a name="dcl_input_control_point_count-sm5---asm"></a>число контрольных \_ точек ввода дкл \_ \_ \_ (SM5-ASM)
 
@@ -34,7 +34,7 @@ ms.locfileid: "104412243"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Требуется по крайней мере одна контрольная точка ввода. оно может быть пустым, если оно не требуется.
 
@@ -58,7 +58,7 @@ ms.locfileid: "104412243"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
 | [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Нет        |
 | [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Нет        |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
@@ -69,7 +69,7 @@ ms.locfileid: "104412243"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

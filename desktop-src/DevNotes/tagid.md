@@ -4,12 +4,12 @@ ms.assetid: 2ff58e01-cc47-4612-a3bc-a87ccb343bd2
 title: TAGID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e7d8b8a25633d3505936d105b0eef7ed38746ce
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: cd4c65183170c7304bf05a670b1eadb3a5953d6f33b1f6415210f12db8898760
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119075787"
 ---
 # <a name="tagid"></a>TAGID
 
@@ -22,7 +22,7 @@ typedef DWORD TAGID;
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **TAGID** зависит от базы данных. Это может быть целочисленное значение, представляющее индекс, или одно из следующих значений:
 
@@ -42,18 +42,18 @@ typedef DWORD TAGID;
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -14,14 +14,14 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a5aef63d531b603c94369936374bc10531639254
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5e32e9b4abbae65c2c29020bdab191272921ee601eebff1e7b07e0c674c783dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119787424"
 ---
-# <a name="cdn_fileok-notification-code"></a>\_Код уведомления ФИЛЕОК CDN
+# <a name="cdn_fileok-notification-code"></a>CDN \_ Код уведомления ФИЛЕОК
 
 Отсылается диалоговым окном **открытия** или **сохранения** в стиле обозревателя, когда пользователь указывает имя файла и нажимает кнопку **ОК** .
 
@@ -51,7 +51,7 @@ ms.locfileid: "105672815"
 
 Указатель на структуру [**офнотифи**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya) .
 
-Структура [**офнотифи**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya) содержит структуру [**NMHDR**](/windows/win32/api/richedit/ns-richedit-nmhdr) , элемент **кода** которой указывает на сообщение **уведомления \_ филеок CDN** .
+структура [**офнотифи**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya) содержит структуру [**NMHDR**](/windows/win32/api/richedit/ns-richedit-nmhdr) , элемент **кода** которой указывает на сообщение уведомления о **CDN \_ филеок** .
 
 Структура [**офнотифи**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya) также содержит указатель на структуру [**OpenFileName**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea) , член **указанный** которой указывает адрес выбранного имени файла.
 
@@ -63,7 +63,7 @@ ms.locfileid: "105672815"
 
 Чтобы отклонить указанное имя файла и принудительно оставить диалоговое окно открытым, возвращайте ненулевое значение из процедуры-ловушки и вызовите функцию [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) , чтобы установить ненулевое значение **\_ мсгресулт DWL** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Система отправляет это уведомление только в том случае, если диалоговое окно было создано с помощью значения **\_ обозревателя ОФН** .
 
@@ -75,7 +75,7 @@ ms.locfileid: "105672815"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Коммдлг. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>коммдлг. h (включает Windows. h)</dt> </dl> |
 
 
 

@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 348384dd729c5c7e63a45fcb8b3f05d0189a7fec
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 22075c68ef30fda7360f25e76c84dbffbf7e306335a0ef20bda45559cb6dac09
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103803844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119472302"
 ---
 # <a name="ivmguestossuitemask-property"></a>Свойство Ивмгуестос:: Суитемаск
 
-\[Windows Virtual PC больше не доступна для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC больше не доступен для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Получает Суитемаск гостевой операционной системы, работающей на виртуальной машине.
 
@@ -52,18 +52,18 @@ HRESULT get_SuiteMask(
 | Значение                                                                                   | Значение                                                                                                                                                                |
 |-----------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>0x00000004</dt> </dl> | Компоненты Microsoft BackOffice установлены.<br/>                                                                                                              |
-| <dl> <dt>"0x00000400"</dt> </dl> | Установлен выпуск Windows Server 2003, Web Edition.<br/>                                                                                                              |
-| <dl> <dt>"0x00004000"</dt> </dl> | Windows Server 2003, выпуски Compute Cluster Edition установлены.<br/>                                                                                                  |
-| <dl> <dt>"0x00000080"</dt> </dl> | Windows Server 2008 R2 Datacenter, установлен Windows Server 2008 Datacenter, Windows Server 2003, Datacenter Edition или Windows 2000 Datacenter Server.<br/> |
-| <dl> <dt>0x00000002</dt> </dl> | Установлен Windows Server 2008 R2 Enterprise, Windows Server 2008 Enterprise, Windows Server 2003, Enterprise Edition или Windows 2000 Advanced Server.<br/>   |
-| <dl> <dt>0x00000040</dt> </dl> | Установлена операционная система Windows XP Embedded.<br/>                                                                                                                           |
-| <dl> <dt>"0x00000200"</dt> </dl> | Установлена ОС Windows Vista Home Premium, Windows Vista Домашняя базовая или Windows XP Home Edition.<br/>                                                              |
+| <dl> <dt>"0x00000400"</dt> </dl> | Windows Установлен сервер 2003, Web Edition.<br/>                                                                                                              |
+| <dl> <dt>"0x00004000"</dt> </dl> | Windows Сервер 2003, установлен выпуск Compute Cluster Edition.<br/>                                                                                                  |
+| <dl> <dt>"0x00000080"</dt> </dl> | Windows Server 2008 R2 Datacenter, Windows server 2008 datacenter, Windows server 2003, datacenter Edition или Windows 2000 datacenter Server.<br/> |
+| <dl> <dt>0x00000002</dt> </dl> | установлен Windows Server 2008 R2 Enterprise Windows server 2008 Enterprise, Windows server 2003, выпуск Enterprise или Windows 2000 Advanced server.<br/>   |
+| <dl> <dt>0x00000040</dt> </dl> | Windows Установлен XP Embedded.<br/>                                                                                                                           |
+| <dl> <dt>"0x00000200"</dt> </dl> | Windows установлена домашняя Premium Vista, Windows vista home Basic или Windows XP home Edition.<br/>                                                              |
 | <dl> <dt>0x00000100</dt> </dl> | Удаленный рабочий стол поддерживается, но поддерживается только один интерактивный сеанс.<br/>                                                                                 |
 | <dl> <dt>0x00000001</dt> </dl> | Microsoft Small Business Server был установлен в системе, но может быть обновлен до другой версии Windows.<br/>                                 |
 | <dl> <dt>0x00000020</dt> </dl> | Microsoft Small Business Server устанавливается с лицензией на клиентскую лицензию принудительно.<br/>                                                                  |
-| <dl> <dt>0x00002000</dt> </dl> | Установлен Windows Storage Server 2003 R2 или Windows Storage Server 2003.<br/>                                                                                 |
+| <dl> <dt>0x00002000</dt> </dl> | установлен Windows служба хранилища server 2003 R2 или Windows служба хранилища server 2003.<br/>                                                                                 |
 | <dl> <dt>0x00000010</dt> </dl> | Службы удаленных рабочих столов установлен. Это значение всегда задано.<br/>                                                                                             |
-| <dl> <dt>"0x00008000"</dt> </dl> | Установлен Windows Home Server.<br/>                                                                                                                           |
+| <dl> <dt>"0x00008000"</dt> </dl> | Windows Установлен домашний сервер.<br/>                                                                                                                           |
 
 
 
@@ -89,11 +89,11 @@ HRESULT get_SuiteMask(
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                    |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                     |
 | Окончание поддержки клиента<br/>    | Windows 7<br/>                                                                          |
 | Продукт<br/>                  | Windows Virtual PC<br/>                                                                 |
-| Header<br/>                   | <dl> <dt>Впккоминтерфацес. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Впккоминтерфацес. h</dt> </dl> |
 | IID<br/>                      | IID \_ ивмгуестос определен как 99fea0db-4880-499a-b6d8-73dff9bc91be<br/>                 |
 
 

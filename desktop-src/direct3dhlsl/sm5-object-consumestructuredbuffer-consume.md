@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9d5a43c53089a7e7b19d0f1ecef5c0e5608e8ee9
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: a76f8c27ed50c7d7eab1b37cd5c60257691b8db5e5af412f5b3bfe678c283bba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104069247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119486704"
 ---
 # <a name="consume-function"></a>Использование функции
 
@@ -40,7 +40,7 @@ T Consume(void);
 
 Значение удалено (может быть структурой).
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 T может быть любым типом данных, включая структуру.
 
@@ -54,9 +54,9 @@ T может быть любым типом данных, включая стр�
 
 
 
- 
+ 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -66,9 +66,9 @@ T может быть любым типом данных, включая стр�
 [Модель шейдера 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

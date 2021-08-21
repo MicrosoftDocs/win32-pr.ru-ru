@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c013b0e4805042ed0967e02df83f143d8bcfd991
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8c976eec51bed7087b1202ae4e4fd9a07435bfa4d6fd0d1fe2b964426bdf0ba5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105661825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119490604"
 ---
 # <a name="gltexenvi-function"></a>Функция Глтексенви
 
@@ -80,7 +80,7 @@ void WINAPI glTexEnvi(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В среде текстуры указывается способ интерпретации значений текстур при текстурировании фрагмента. *Целевой* параметр должен иметь значение GL \_ текстуры \_ env. Параметр *pname* имеет режим GL \_ текстуры \_ env \_ . Определены три функции текстуры: GL для \_ модуляции, GL \_ ДЕКАЛ и GL \_ Blend.
 
@@ -169,7 +169,7 @@ void WINAPI glTexEnvi(
 
 [**глтексжетенвив**](glgettexenviv.md)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -183,7 +183,7 @@ void WINAPI glTexEnvi(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

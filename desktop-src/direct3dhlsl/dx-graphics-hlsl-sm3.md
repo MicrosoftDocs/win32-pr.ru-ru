@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 9c53b8252f617c6ee3b95512a5d930a93f646479
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: ed2d64ccfb06fc0fe50e5bd0075732c1fd9cbb70ca1e05bda5afd24cd5c5f98f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104413920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119789544"
 ---
 # <a name="shader-model-3-hlsl-reference"></a>Модель шейдера 3 (Справочник по HLSL)
 
@@ -63,20 +63,20 @@ ms.locfileid: "104413920"
 
 
 
- 
+ 
 
 Дополнительные сведения о шейдерах модели 3 см. в следующих статьях:
 
 -   [Построитель текстуры 3,0](dx9-graphics-reference-asm-ps-3-0.md)
 -   [Шейдер вершин 3,0](dx9-graphics-reference-asm-vs-3-0.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Модели шейдеров и профили шейдеров](dx-graphics-hlsl-models.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

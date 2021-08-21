@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - UpdateEndpointAuth.dll
-ms.openlocfilehash: 7f9a25c444cf1ba8421d3787a9ead242750e5756
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2dada627d6e2b8832f4317c47e54a9c4417e14b821f6cd84bce44d9f53c99aaa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049252"
 ---
 # <a name="iupdateendpointauthtokentokenreferenceunattached-method"></a>Метод Иупдатиндпоинтаустокен:: Токенреференцеунаттачед
 
@@ -48,28 +48,28 @@ HRESULT TokenReferenceUnattached(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-При успешном выполнении возвращает значение **\_ ОК** . В противном случае возвращает код ошибки COM или Windows.
+При успешном выполнении возвращает значение **\_ ОК** . в противном случае возвращает код ошибки COM или Windows.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Неприсоединенная ссылка указывает на рефереце (например, сигнитуре, который использует маркер), не находящийся в сообщении, где находится маркер.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>                   |
-| Минимальная версия сервера<br/> | Windows Server 2003, Windows 2000 Server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>                |
-| Header<br/>                   | <dl> <dt>Упдатиндпоинтаус. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с SP3 \[ только для настольных приложений\]<br/>                   |
+| Минимальная версия сервера<br/> | Windows сервер 2003, Windows 2000 server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>                |
+| Заголовок<br/>                   | <dl> <dt>Упдатиндпоинтаус. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Упдатиндпоинтаус. idl</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Упдатиндпоинтаус. lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>UpdateEndpointAuth.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

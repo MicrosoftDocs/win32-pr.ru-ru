@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2a6a3c5dd4c9f11d45e1b719498d515a536e5ef8
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 51ae6614544cd7045689f674ce90e672e3bce4ea8ee36486775892f95a5385fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108084972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119538553"
 ---
 # <a name="ctransforminputpinreceive-method"></a>Ктрансформинпутпин. Receive, метод
 
@@ -70,13 +70,13 @@ HRESULT Receive(
 
 Если фильтру необходимо получить доступ к примеру после возврата этого метода, он должен содержать счетчик ссылок путем вызова метода **IUnknown:: AddRef** в примере. Например, некоторым фильтрам декодера требуется текущий пример для декодирования следующей выборки.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Трансфрм. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>трансфрм. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

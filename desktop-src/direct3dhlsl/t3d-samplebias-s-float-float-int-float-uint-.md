@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e6155bbd4a3b21b86add57d13bc14a1185c76b73
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: fc0ff4fab514ac283e88f9b6c44253a34708628d0bf7e4e617673570ca317d87
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104987293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043452"
 ---
 # <a name="samplebiassamplebiassfloatfloatintfloatuint-function-for-texture3d"></a>Функция Самплебиас:: Самплебиас (S, float, float, int, float, uint) для Texture3D
 
@@ -98,7 +98,7 @@ DXGI_FORMAT SampleBias(
 | Texture1D, Texture1DArray     | INT            |
 | Texture2D, Texture2DArray     | int2           |
 | Texture3D                     | int3           |
-| Текстурекубе, Текстурекубеаррай | не поддерживается  |
+| Текстурекубе, Текстурекубеаррай | Не поддерживается  |
 
 
 
@@ -130,7 +130,7 @@ DXGI_FORMAT SampleBias(
 
 Формат текстуры, который является одним из типизированных значений, перечисленных в [**\_ формате DXGI**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

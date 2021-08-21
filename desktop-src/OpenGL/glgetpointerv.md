@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 569861922514af88835fbb4e313dab3286b7c47d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fdbef5cc17a547e82dfa55876d927ef9fed87f106d9e5fa0d5d1c36a5ce269b6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105682023"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119493924"
 ---
 # <a name="glgetpointerv-function"></a>Функция Глжетпоинтерв
 
@@ -71,11 +71,11 @@ void WINAPI glGetPointerv(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глжетпоинтерв** возвращает сведения о указателе на массив. Параметр *pname* — это символьная константа, указывающая вид возвращаемого указателя массива, а *params* — это указатель на расположение для размещения возвращаемых данных.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -89,7 +89,7 @@ void WINAPI glGetPointerv(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

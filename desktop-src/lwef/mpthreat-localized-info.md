@@ -4,7 +4,7 @@ description: Локализованные сведения для угрозы.
 ms.assetid: 99DC9737-9A61-4407-B544-A7A979C5B556
 keywords:
 - MPTHREAT_LOCALIZED_INFO структуры устаревшие функции среды Windows
-- Функции PMPTHREAT_LOCALIZED_INFO указателя структур в устаревшей среде Windows
+- функции PMPTHREAT_LOCALIZED_INFO Windows указателя структур в устаревшей среде
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 87ea0bee7c8cae15389b40b64038aad92a56dd5f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4ff28c77c60421fcaabe31580400ad87823ad3edf3536d96ba3ba5eec177ad94
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415476"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119555954"
 ---
 # <a name="mpthreat_localized_info-structure"></a>\_Локализованная \_ информационная структура мпсреат
 
@@ -60,7 +60,7 @@ typedef struct tagMPTHREAT_LOCALIZED_INFO {
 
 </dd> <dt>
 
-**CategoryName**
+**Категория**
 </dt> <dd>
 
 Тип: **\_ \_ строка MP MIDL, LPWSTR**
@@ -148,15 +148,15 @@ URL-адрес веб-страницы, содержащей сведения о
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
 
 
 

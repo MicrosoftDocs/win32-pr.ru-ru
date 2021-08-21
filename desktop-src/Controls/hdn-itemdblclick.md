@@ -3,7 +3,7 @@ title: Код уведомления HDN_ITEMDBLCLICK (Коммктрл. h)
 description: Сообщает родительскому окну элемента управления заголовка, что пользователь дважды щелкнул элемент управления. Этот код уведомления отправляется в виде \_ сообщения WM notify. Только элементы управления "заголовок", для которых задан \_ стиль кнопки HDS, отправляют этот код уведомления.
 ms.assetid: 72bb00b9-226f-4409-b788-b623868f78b6
 keywords:
-- HDN_ITEMDBLCLICK кода уведомления элементы управления Windows
+- HDN_ITEMDBLCLICK кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e61117303ecc478a998da8799867988dbc1ca08
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7117ceb8d17447eed8003f7da3dab70a17252c750bfb3885cd3f235a70b7bb53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104262220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119544619"
 ---
 # <a name="hdn_itemdblclick-notification-code"></a>\_Код уведомления ХДН итемдблкликк
 
@@ -51,15 +51,15 @@ HDN_ITEMDBLCLICK
 
 Нет возвращаемого значения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **ХДН \_ ИТЕМДБЛКЛИККВ** (Юникод) и **ХДН \_ итемдблкликка** (ANSI)<br/>         |
 
 

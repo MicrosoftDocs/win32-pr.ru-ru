@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 534fef5a4eaf9d22d502097124dcecdb91433f73
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f34700666ecb830470e58a3f3389cd6207be68403e612f50ddafc841dd839ed2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104354383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119565064"
 ---
 # <a name="d3ddeclmethod-enumeration"></a>Перечисление D3DDECLMETHOD
 
@@ -124,7 +124,7 @@ typedef enum D3DDECLMETHOD {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Тесселяция просматривает метод, чтобы определить, какие данные следует вычислить из данных вершин во время тесселяции. В данных сетки должно использоваться значение по умолчанию. Исправления могут использовать любой из других реализованных типов.
 
@@ -132,17 +132,17 @@ typedef enum D3DDECLMETHOD {
 
 Помимо использования D3DDECLMETHOD \_ по умолчанию, обычная сетка может использовать методы D3DDECLMETHOD \_ Lookup и D3DDECLMETHOD \_ Лукуппресамплед, если N-патчи включены.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

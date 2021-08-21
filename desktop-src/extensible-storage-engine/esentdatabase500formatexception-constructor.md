@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0c893c511ec22409cd2af15de2d5f4693353354d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20245e9f7e4461e3c377a100f9898a76a1269f4ed2ea243785641a3a8ca628ad
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119785354"
 ---
 # <a name="esentdatabase500formatexception-constructor"></a>Конструктор EsentDatabase500FormatException
 
@@ -52,7 +52,7 @@ Dim instance As New EsentDatabase500FormatException()
 public EsentDatabase500FormatException()
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

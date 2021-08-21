@@ -3,7 +3,7 @@ title: Сообщение TCM_DELETEITEM (Коммктрл. h)
 description: Удаляет элемент из элемента управления "Вкладка". Это сообщение можно отправить явным образом или с помощью \_ макроса табктрл DeleteItem.
 ms.assetid: 54bfa446-580a-4ea7-b5e9-9429f4ee1c2b
 keywords:
-- Элементы управления Windows для TCM_DELETEITEM сообщений
+- элементы управления Windows сообщений TCM_DELETEITEM
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ad4f57b63c154ee98fc48a59ac81bf4fd61ba5a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0cc9e90ab63e34545628019cd9dcde74c7b4e953fb6ee0b9eed138151129e7b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989229"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119077878"
 ---
 # <a name="tcm_deleteitem-message"></a>\_Сообщение DELETEITEM TCM
 
@@ -43,15 +43,15 @@ ms.locfileid: "103989229"
 
 Возвращает **значение true** , если успешно, или **false** в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

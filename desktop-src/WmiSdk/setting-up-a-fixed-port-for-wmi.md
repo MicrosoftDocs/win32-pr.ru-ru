@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 49c6d6b0bf42951766cfd813ccb4b5eed041600a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b97ee9d0f2f407c0cae2c9c1466a1904cf79eaecb353b94ac11bb3373367ed2f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050252"
 ---
 # <a name="setting-up-a-fixed-port-for-wmi"></a>Настройка фиксированного порта для WMI
 
@@ -26,8 +26,8 @@ ms.locfileid: "105712941"
 **Настройка фиксированного порта для WMI**
 
 1.  В командной строке введите команду **Winmgmt-стандалонехост** .
-2.  Чтобы отключить службу WMI, введите команду **net останавливают "Инструментарий управления Windows (WMI)"** или используйте короткое имя команды **net останавливаться Winmgmt** .
-3.  Снова запустите службу WMI на новом узле службы, введя **net start "Инструментарий управления Windows (WMI)"** или **net start Winmgmt** .
+2.  чтобы отключить службу WMI, введите команду **net останавливают "инструментарий управления Windows (WMI)"** или используйте короткое имя команды **net останавливаться winmgmt** .
+3.  снова запустите службу WMI на новом узле службы, введя **net start "инструментарий управления Windows (WMI)"** или **net start winmgmt** .
 4.  Установите новый номер порта для службы WMI, введя **команду netsh firewall Add открытие портов TCP 24158 вмификседпорт**
 
 Чтобы отменить любые изменения, внесенные в WMI, введите команду **Winmgmt/шаредхост**, а затем закройте и снова запустите службу Winmgmt.
@@ -38,7 +38,7 @@ ms.locfileid: "105712941"
 
 или пример кода PowerShell, который включает или отключает параметры порта WMI, см. пример [Set-вмисинглепорт](https://Gallery.TechNet.Microsoft.Com/Set-WmiSinglePortps1-20fa8389) в коллекции TechNet.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

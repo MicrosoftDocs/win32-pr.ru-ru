@@ -1,9 +1,9 @@
-- name: "Журнал событий\_Windows"
+- name: Журнал событий Windows
   href: windows-event-log.md
   items:
     - name: What's New
       href: what-s-new.md
-    - name: Использование журнала событий Windows
+    - name: использование Windows журнала событий
       href: using-windows-event-log.md
       items:
         - name: Написание манифеста инструментирования
@@ -55,7 +55,7 @@
           href: accessing-remote-computers.md
         - name: Сохранение событий в файл журнала
           href: saving-events-to-a-log-file.md
-    - name: Справочник по журналам событий Windows
+    - name: Windows Справочник по журналам событий
       href: windows-event-log-reference.md
       items:
         - name: Схема Евентманифест
@@ -481,13 +481,13 @@
                   href: queryschema-querylisttype-complextype.md
                 - name: Сложный тип QueryType
                   href: queryschema-querytype-complextype.md
-        - name: Константы журнала событий Windows
+        - name: Windows Константы журнала событий
           href: windows-event-log-constants.md
-        - name: Типы данных журнала событий Windows
+        - name: Windows Типы данных журнала событий
           href: windows-event-log-data-types.md
-        - name: Константы ошибки журнала событий Windows
+        - name: Windows Константы ошибок журнала событий
           href: windows-event-log-error-constants.md
-        - name: Перечисления журнала событий Windows
+        - name: Windows Перечисления журнала событий
           href: windows-event-log-enumerations.md
           items:
             - name: EVT_CHANNEL_CLOCK_TYPE
@@ -538,7 +538,7 @@
               href: /windows/win32/api/WinEvt/ne-winevt-evt_system_property_id
             - name: EVT_VARIANT_TYPE
               href: /windows/win32/api/WinEvt/ne-winevt-evt_variant_type
-        - name: Функции журнала событий Windows
+        - name: Windows Функции журнала событий
           href: windows-event-log-functions.md
           items:
             - name: EVT_SUBSCRIBE_CALLBACK
@@ -613,14 +613,14 @@
               href: /windows/desktop/api/WinEvt/nf-winevt-evtsubscribe
             - name: евтупдатебукмарк
               href: /windows/desktop/api/WinEvt/nf-winevt-evtupdatebookmark
-        - name: Структуры журнала событий Windows
+        - name: Windows Структуры журнала событий
           href: windows-event-log-structures.md
           items:
             - name: EVT_RPC_LOGIN
               href: /windows/win32/api/WinEvt/ns-winevt-evt_rpc_login
             - name: EVT_VARIANT
               href: /windows/win32/api/WinEvt/ns-winevt-evt_variant
-        - name: Средства журнала событий Windows
+        - name: Windows Средства журнала событий
           href: windows-event-log-tools.md
           items:
             - name: Компилятор сообщений (MC.exe)

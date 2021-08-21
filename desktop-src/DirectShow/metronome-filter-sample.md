@@ -4,12 +4,12 @@ ms.assetid: bb279898-875a-4ce4-ac69-6c58f640fbbd
 title: Образец фильтра метрономе
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 361b46aafa84590243cfcc05445d91a56ce56e83
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 9ea1b321dd2602829697862e2716c9017573a44b6162b355e78e586e14d85003
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105682250"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072988"
 ---
 # <a name="metronome-filter-sample"></a>Образец фильтра метрономе
 
@@ -19,13 +19,13 @@ ms.locfileid: "105682250"
 
 ## <a name="usage"></a>Использование
 
-Создайте пример проекта и скопируйте файл DLL фильтра (Metronom.ax) в системный каталог Windows. Запустите файл метроном. reg, чтобы зарегистрировать библиотеку DLL.
+создайте пример проекта и скопируйте файл DLL фильтра (Metronom.ax) в системный каталог Windows. Запустите файл метроном. reg, чтобы зарегистрировать библиотеку DLL.
 
 Чтобы использовать фильтр, выполните следующие действия.
 
 1.  Создание графа фильтра в Графедит, который визуализирует видео-поток.
 2.  Удалите все обработанные звуковые потоки.
-3.  Добавьте фильтр Метрономе в граф. Он отображается в категории фильтры DirectShow.
+3.  Добавьте фильтр Метрономе в граф. он отображается в категории DirectShow фильтры.
 4.  Запустите граф. Воспроизведение видео начнется с нормальной скоростью.
 5.  Рукоплескания свои руки или используйте метрономе, чтобы установить новую скорость.
 
@@ -41,18 +41,18 @@ ms.locfileid: "105682250"
 
 ## <a name="downloading-the-sample"></a>Загрузка образца
 
-Чтобы скачать примеры пакета SDK для DirectShow, установите последнюю версию [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
+чтобы скачать примеры пакета SDK для DirectShow, установите последнюю версию [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
 
-Этот пример устанавливается по следующему пути: *\[ \] корневые примеры SDK* \\ \\ мультимедиа \\ DirectShow \\ фильтры \\ метрономе.
+этот пример устанавливается по следующему пути: *\[ \] корневые примеры SDK* \\ \\ мультимедиа \\ DirectShow \\ фильтры \\ метрономе.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Класс Кбасереференцеклокк**](cbasereferenceclock.md)
 </dt> <dt>
 
-[Примеры DirectShow](directshow-samples.md)
+[DirectShow Регистрируют](directshow-samples.md)
 </dt> </dl>
 
  

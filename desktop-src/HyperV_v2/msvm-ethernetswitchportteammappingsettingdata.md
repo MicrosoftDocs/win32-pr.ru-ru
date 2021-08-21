@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 3f0d7385499dcdf6e84c361de03950a4e78be0a9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c65926c01c2ec4d2b333ba4800a355eeb42cf63d905c6c339a81b9b9ed97a891
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119531344"
 ---
 # <a name="msvm_ethernetswitchportteammappingsettingdata-class"></a>\_Класс мсвм есернетсвитчпорттеаммаппингсеттингдата
 
@@ -45,7 +45,7 @@ class Msvm_EthernetSwitchPortTeamMappingSettingData : Msvm_EthernetSwitchPortFea
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ есернетсвитчпорттеаммаппингсеттингдата** имеет следующие свойства.
 
@@ -83,13 +83,13 @@ class Msvm_EthernetSwitchPortTeamMappingSettingData : Msvm_EthernetSwitchPortFea
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только для настольных приложений Windows 10 версии 1703\]<br/>                                               |
+| Минимальная версия клиента<br/> | Windows 10, только для \[ настольных приложений версии 1703\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows Server 2016<br/>                                                                          |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -97,7 +97,7 @@ class Msvm_EthernetSwitchPortTeamMappingSettingData : Msvm_EthernetSwitchPortFea
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

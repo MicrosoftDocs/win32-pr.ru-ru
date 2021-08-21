@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a68da290ecb04e9cb7ae49c5525997fbf4c112a3
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: d278a6104a6c47d84623b185f78b921d61899f296eeaa557a6c6c6d5344097b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104273586"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119487084"
 ---
 # <a name="setp_comp---ps"></a>сетп \_ comp-PS
 
@@ -52,7 +52,7 @@ ms.locfileid: "104273586"
 -   src0 является исходным регистром.
 -   src1 является исходным регистром.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -128,7 +128,7 @@ r1.y = r2.y + r3.y
 
 Кроме того, регистр предиката можно применить к инструкциям in [-PS](if-pred---ps.md), [каллнз пред-PS](callnz-pred---ps.md) и [бреакп-PS](break-p---ps.md) . Эти инструкции по управлению потоком не увеличивают число слотов инструкций при использовании регистра предиката.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

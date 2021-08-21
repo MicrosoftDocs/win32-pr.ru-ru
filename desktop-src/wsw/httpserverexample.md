@@ -1,6 +1,6 @@
 ---
 title: хттпсерверексампле
-description: См. пример HTTP-сервера, использующий интерфейс API Windows Web Services. В этом примере показан TCP-сервер, принимающий канал и принимающий сообщения и отвечающий на него.
+description: см. пример HTTP-сервера, использующий интерфейс API Windows Web Services. В этом примере показан TCP-сервер, принимающий канал и принимающий сообщения и отвечающий на него.
 ms.assetid: b8cf29af-f13f-47ae-9954-7845515135f9
 keywords:
 - Хттпсерверексампле Native-Web-Services
@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72859f9e59353fe926f18570e10de65cd40e0fd4
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: a5c5dac29464e8ce4258952b56647501f0fa394d54c3c2491910072b253c0a64
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409757"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119344914"
 ---
 # <a name="httpserverexample"></a>хттпсерверексампле
 

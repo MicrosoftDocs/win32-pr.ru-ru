@@ -5,19 +5,19 @@ ms.tgt_platform: multiple
 title: Поддержка класса Win32_PerfFormattedData
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54911105f5c485d3a80ddb93b96f0af2637c9506
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0bbed50bde7ef16f6362d28151744cf22d66e5d0f56df253ad48ab469b397d0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050132"
 ---
 # <a name="supporting-the-win32_perfformatteddata-class"></a>Поддержка класса Win32 \_ перфформаттеддата
 
 При написании высокопроизводительного поставщика, который наследует классы из [**Win32 \_ перфформаттеддата**](/windows/desktop/CIMWin32Prov/win32-perfformatteddata), необходимо соблюдать определенные соглашения, чтобы инструментарий WMI мог вычислить значения свойств.
 
 > [!Note]  
-> Создание высокопроизводительного поставщика WMI для создания счетчиков производительности не рекомендуется в любой версии операционной системы Windows. Дополнительные сведения см. в разделе [Создание поставщика экземпляров в поставщике High-Performance](making-an-instance-provider-into-a-high-performance-provider.md)и [библиотеках производительности и WMI](performance-libraries-and-wmi.md).
+> создание высокопроизводительного поставщика WMI для создания счетчиков производительности не рекомендуется в любой версии операционной системы Windows. Дополнительные сведения см. в разделе [Создание поставщика экземпляров в поставщике High-Performance](making-an-instance-provider-into-a-high-performance-provider.md)и [библиотеках производительности и WMI](performance-libraries-and-wmi.md).
 
  
 
@@ -33,12 +33,12 @@ ms.locfileid: "105702997"
     -   [**\_Равкласс**](class-qualifiers-for-performance-counter-classes.md)
     -   [**Обработанные**](class-qualifiers-for-performance-counter-classes.md)
     -   [**Требуют**](class-qualifiers-for-performance-counter-classes.md)
-    -   [**Динамический**](dynamic-qualifier.md)
+    -   [**динамически;**](dynamic-qualifier.md)
     -   [**HiPerf**](class-qualifiers-for-performance-counter-classes.md)
     -   [**Языкового стандарта**](class-qualifiers-for-performance-counter-classes.md)
     -   [**перфдефаулт**](class-qualifiers-for-performance-counter-classes.md)
     -   [**Поставщик**](class-qualifiers-for-performance-counter-classes.md)
-    -   [**Одноэлементный**](standard-wmi-qualifiers.md)
+    -   [**Единый**](standard-wmi-qualifiers.md)
 
     > [!Note]  
     > Не устанавливайте значения для **женерикперфктр**, **перфиндекс** или **хелпиндекс** , так как они будут установлены процессом ADAP. Дополнительные сведения см. в разделе [**Квалификаторы класса для классов счетчиков производительности**](class-qualifiers-for-performance-counter-classes.md).
@@ -55,7 +55,7 @@ ms.locfileid: "105702997"
 
 6.  Укажите следующие квалификаторы уровня свойств для всех свойств в классе в дополнение к квалификаторам **перфиндекс** и **перфдетаил** , используемым для свойств необработанного класса:
 
-    -   [**Из**](property-qualifiers-for-performance-counter-classes.md)
+    -   [**Основной**](property-qualifiers-for-performance-counter-classes.md)
     -   [**кукингтипе**](property-qualifiers-for-performance-counter-classes.md)
     -   [**Счетчик**](property-qualifiers-for-performance-counter-classes.md)
     -   [**перфтиместамп**](property-qualifiers-for-performance-counter-classes.md)
@@ -74,7 +74,7 @@ ms.locfileid: "105702997"
 -   Обновление данных может занимать не более 10 миллисекунд на операцию накопления. При общей операции обновления и получения все высокопроизводительные поставщики вместе не могут занимать более 800 миллисекунд.
 -   Общая нагрузка ЦП для всех высокопроизводительных поставщиков не может превышать 6-7% ресурсов ЦП в интерактивном режиме или 5% для ведения журнала.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

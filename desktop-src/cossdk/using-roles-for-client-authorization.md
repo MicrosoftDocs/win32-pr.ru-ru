@@ -4,12 +4,12 @@ ms.assetid: 8fc27fe1-e50a-44ba-a595-70b1fe463e24
 title: Использование ролей для авторизации клиентов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8ae748ddfec438a79e3d0440a00ed7c2f672aed
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1a808abc08d5360ba0b7fae0a7c31af80a4cab28c43e6014076c549204e6f28e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141785"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119499652"
 ---
 # <a name="using-roles-for-client-authorization"></a>Использование ролей для авторизации клиентов
 
@@ -45,7 +45,7 @@ ms.locfileid: "104141785"
 
 Осмысленная авторизация предполагает, что клиенты на самом деле имеют уверенность в том, что они говорят. Проверка удостоверения клиента обрабатывается отдельно службой проверки подлинности. Без проверки подлинности вы, по сути, разрабатываюте вызывающие объекты в системе учета принятых систем. Описание проверки подлинности по мере воздействия на приложения COM+ см. в разделе [Проверка подлинности клиента](client-authentication.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

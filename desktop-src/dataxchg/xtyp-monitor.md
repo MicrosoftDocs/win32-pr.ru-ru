@@ -1,9 +1,9 @@
 ---
 title: XTYP_MONITORная транзакция (Ддемл. h)
-description: Функция обратного вызова DDE в отладчике платформа динамических данных Exchange (DDE), Ддекаллбакк, получает \_ транзакцию монитора кстип при каждом возникновении в системе события DDE.
+description: функция обратного вызова dde в отладчике платформа динамических данных Exchange (dde), ддекаллбакк, получает \_ транзакцию монитора кстип при каждом возникновении в системе события DDE.
 ms.assetid: a27791b1-c1b4-4516-b050-71da164fa80a
 keywords:
-- XTYP_MONITOR обмена данными транзакций
+- XTYP_MONITOR данных транзакций Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e6a1cb86a1cbf7e0c02c082719e0a7d302d03975
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 11a86235c2964bbd09d51ce3adc2e602e23fed09597df14721e92e76c0cd8109
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415309"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047262"
 ---
 # <a name="xtyp_monitor-transaction"></a>\_Транзакция монитора кстип
 
-Функция обратного вызова DDE в отладчике платформа динамических данных Exchange (DDE), [*ддекаллбакк*](/windows/win32/api/ddeml/nc-ddeml-pfncallback), Получает транзакцию **\_ монитора кстип** при каждом возникновении в системе события DDE. Чтобы получить эту транзакцию, приложение должно указать значение **\_ монитора APPCLASS** при вызове функции [**ддеинитиализе**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea) .
+функция обратного вызова dde в отладчике платформа динамических данных Exchange (dde), [*ддекаллбакк*](/windows/win32/api/ddeml/nc-ddeml-pfncallback), получает транзакцию **\_ монитора кстип** при каждом возникновении в системе события DDE. Чтобы получить эту транзакцию, приложение должно указать значение **\_ монитора APPCLASS** при вызове функции [**ддеинитиализе**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea) .
 
 
 ```C++
@@ -114,7 +114,7 @@ ms.locfileid: "104415309"
 
 Если функция обратного вызова обрабатывает эту транзакцию, она должна возвращать значение 0.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -122,11 +122,11 @@ ms.locfileid: "104415309"
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                             |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                   |
-| Заголовок<br/>                   | <dl> <dt>Ддемл. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ддемл. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -163,7 +163,7 @@ ms.locfileid: "104415309"
 **Зрения**
 </dt> <dt>
 
-[Библиотека управления платформа динамических данных Exchange](dynamic-data-exchange-management-library.md)
+[библиотека управления Exchange платформа динамических данных](dynamic-data-exchange-management-library.md)
 </dt> </dl>
 
  

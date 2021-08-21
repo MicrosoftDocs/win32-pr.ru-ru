@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 36e35a6ea905f20e1cb30eddc5b270786614403b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 687738cce6bb311d7e8223877b716abdaef180340ab570f430659ee2e98458ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105661821"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119519444"
 ---
 # <a name="glupartialdisk-function"></a>Функция Глупартиалдиск
 
@@ -99,7 +99,7 @@ void WINAPI gluPartialDisk(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глупартиалдиск** визуализирует частичный диск на плоскости *z* = 0. Частичный диск аналогичен полному диску, за исключением того, что включается только подмножество диска с *startAngle* по *startAngle*  +  *свипангле* (где 0 градусов — это положительная ось y, 90 градусов — вдоль положительной оси x, 180 270 градусов — вдоль отрицательной оси x).
 
@@ -109,7 +109,7 @@ void WINAPI gluPartialDisk(
 
 Если вы включили текстурирование (с [**глукуадриктекстуре**](gluquadrictexture.md)), **глупартиалдиск** создает координаты текстуры линейно, например, где *r*  =  *аутеррадиус*, значение в (*r*, 0, 0) равно (1, 0,5); в (0, *r*, 0) это (0,5, 1); в (*r*, 0, 0) это (0, 0,5), а в (0, *r*, 0) — (0,5, 0).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -123,7 +123,7 @@ void WINAPI gluPartialDisk(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

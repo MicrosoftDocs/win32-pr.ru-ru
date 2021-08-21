@@ -4,12 +4,12 @@ ms.assetid: f1548b04-78c2-461a-a729-9a8c4856d0d8
 title: ICE38
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d001d244160f939a73e697e677bf43a1f5f825f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ae3f90b7f6c0624da266b23dee3a50489f34604d6c99783b337eeca77bb32ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119528464"
 ---
 # <a name="ice38"></a>ICE38
 
@@ -81,7 +81,7 @@ ICE38 сообщает о следующих ошибках в приведен�
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

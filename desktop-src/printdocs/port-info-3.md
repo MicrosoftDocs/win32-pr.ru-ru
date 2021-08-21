@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 49888ee6410f39745b848bbbf7fd95fa329c6f48
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cdd7f2fd931c7f503d566cdfc4ab38c5f595b51cea23d0cdf2fb326811cf7748
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105702207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033972"
 ---
 # <a name="port_info_3-structure"></a>\_Сведения о порте \_ 3 структура
 
@@ -102,11 +102,11 @@ typedef struct _PORT_INFO_3 {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если для параметра состояние порта принтера задано значение \_ \_ Ошибка тип состояния порта \_ , диспетчер очереди печати прекращает отправку заданий на порт. Диспетчер очереди печати не возобновляет отправку заданий в порт, пока не будет выполнен другой вызов [**сетпорт**](setport.md) для очистки состояния.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -114,12 +114,12 @@ typedef struct _PORT_INFO_3 {
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Винспул. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>винспул. h (включает Windows. h)</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **\_ \_ Сведения о \_ порте «кто** (Юникод) и **\_ \_ сведения о порте \_ 3a** (ANSI)<br/>                                 |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
