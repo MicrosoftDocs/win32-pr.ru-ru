@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 21af0f8a06faa9cdc61917dcb3b3b0672c47e0e7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 79fb5fe36b6fcff3622e0d12f0571e7f06c5f00d1ae930abc2bca805315f7dd4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118357103"
 ---
 # <a name="actions-tasktype-element"></a>Actions (taskType), элемент
 
@@ -67,7 +67,7 @@ ms.locfileid: "104415100"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Дочерние элементы, перечисленные ранее (максимум 32), определяются группой [**actionGroup**](taskschedulerschema-actiongroup-group.md) . Эти элементы можно добавлять в любом порядке.
 
@@ -79,18 +79,18 @@ ms.locfileid: "104415100"
 
 Дополнительные сведения и полный пример XML-кода для задачи, содержащей одно действие выполнения, см. в разделе [пример триггера времени (XML)](time-trigger-example--xml-.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

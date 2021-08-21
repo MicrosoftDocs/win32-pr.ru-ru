@@ -1,19 +1,19 @@
 ---
-description: В этом разделе описано, как настроить изображения с помощью свойства System. Windows. Forms. PictureBox. Сиземоде и как отображать рисунки в Microsoft Visual Studio .NET.
+description: В этом разделе описывается настройка изображений с помощью системы. Windows. forms. PictureBox. сиземоде и способы отображения изображений в Microsoft Visual Studio .net.
 ms.assetid: 9f4f0f96-68a3-447d-a239-599c9fd3e343
 title: Работа с изображениями
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af3a90c0d18253eaf4aea60eafc48bd1c24fcc3e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad6e3331d384f30084082e8ef29c5a3a5b44232843bc834a8282bf1786a088d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118449185"
 ---
 # <a name="working-with-pictures"></a>Работа с изображениями
 
-В этом разделе описано, как настроить изображения с помощью свойства [System. Windows. Forms. PictureBox. сиземоде](/dotnet/api/system.windows.forms.picturebox.sizemode?view=netcore-3.1) и как отображать рисунки в Microsoft Visual Studio .NET.
+В этом разделе описывается настройка изображений с помощью [System. Windows. forms. PictureBox. сиземоде](/dotnet/api/system.windows.forms.picturebox.sizemode?view=netcore-3.1) и способы отображения изображений в Microsoft Visual Studio .net.
 
 ## <a name="the-sizemode-property"></a>Свойство Сиземоде
 
@@ -24,13 +24,13 @@ ms.locfileid: "105692499"
 -   Центрирование изображения внутри границ элемента управления.
 -   Привязка изображения к левому верхнему краю элемента управления без изменения размера изображения или элемента управления (некоторые изображения могут быть недоступны для просмотра, если не изменить размер изображения или элемента управления).
 
-## <a name="working-with-pictures-in-visual-studio-net"></a>Работа с изображениями в Visual Studio .NET
+## <a name="working-with-pictures-in-visual-studio-net"></a>работа с изображениями в Visual Studio .net
 
-Для отображения изображения во время разработки в Visual Studio .NET:
+отображение изображения во время разработки в Visual Studio .net:
 
 1.  Перетащите элемент управления [InkPicture](/previous-versions/aa514604(v=msdn.10)) в форму или дважды щелкните элемент управления InkPicture на панели элементов.
 2.  В окне **Свойства** выберите свойство **Image** и нажмите кнопку с многоточием, чтобы открыть диалоговое окно **Открыть** .
-3.  Если вы ищете конкретный тип файла (например, JPG-файлы), выберите его в поле **файлы типа** .
+3.  Если вы ищете конкретный тип файла (например, .jpg файлы), выберите его в поле **файлы типа** .
 4.  Выберите файл, который требуется отобразить.
 
 Чтобы очистить изображение во время разработки:

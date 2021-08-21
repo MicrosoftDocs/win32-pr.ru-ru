@@ -4,12 +4,12 @@ ms.assetid: 287521e0-ade4-4abd-aec6-dde9a734cdf2
 title: Операторы XMUBYTEN2
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5be8322288017e8839a856e7e8224821e32507ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f6fdfcb0d6fbfb87400644dda49e0d7e22590ad8f005644ac8700cb02417e55f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105719444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118500928"
 ---
 # <a name="xmubyten2-operators"></a>Операторы XMUBYTEN2
 
@@ -32,7 +32,7 @@ ms.locfileid: "105719444"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

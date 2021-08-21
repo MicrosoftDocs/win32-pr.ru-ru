@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 08/23/2019
-ms.openlocfilehash: 521faefb2e2a76e94a0517c28a5fa812ef34ef5c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 55b26ae92889261e7a5fea3e57281d6407fc39fb03aad0124d00aa135f9ed438
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118757115"
 ---
 # <a name="wm_xbuttonup-message"></a>\_Сообщение КСБУТТОНУП WM
 
@@ -87,7 +87,7 @@ ms.locfileid: "103989027"
 
 Если приложение обрабатывает это сообщение, оно должно возвращать **значение true**. Дополнительные сведения об обработке возвращаемого значения см. в разделе "Примечания".
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте следующий код, чтобы получить сведения в параметре *wParam* :
 
@@ -116,7 +116,7 @@ yPos = GET_Y_LPARAM(lParam);
 
  
 
-В отличие от [**сообщений \_ WM лбуттонуп**](wm-lbuttonup.md), [**WM \_ мбуттонуп**](wm-mbuttonup.md)и [**WM \_ рбуттонуп**](wm-rbuttonup.md) , приложение должно вернуть **значение true** из этого сообщения, если оно обрабатывает его. Это позволит программному обеспечению имитировать это сообщение в системах Windows более ранних, чем Windows 2000, чтобы определить, обрабатывало ли это сообщение процедура окна или вызываемая [**дефвиндовпрок**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) для его обработки.
+В отличие от [**сообщений \_ WM лбуттонуп**](wm-lbuttonup.md), [**WM \_ мбуттонуп**](wm-mbuttonup.md)и [**WM \_ рбуттонуп**](wm-rbuttonup.md) , приложение должно вернуть **значение true** из этого сообщения, если оно обрабатывает его. это позволит программному обеспечению имитировать это сообщение в Windows системах, предшествующих Windows 2000, чтобы определить, обрабатывала ли окно сообщение или вызываемое [**дефвиндовпрок**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) для его обработки.
 
 ## <a name="requirements"></a>Требования
 

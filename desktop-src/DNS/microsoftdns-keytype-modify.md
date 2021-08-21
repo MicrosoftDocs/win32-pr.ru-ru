@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 44ee9182925f3f1d53fb90a4beefeb421f01c24f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ff5b657e940716a7afa2113dcbdc6836ab3680c1dfe37b88a454d9bdd0c7bc28
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118163261"
 ---
 # <a name="modify-method-of-the-microsoftdns_keytype-class"></a>Метод Modify \_ класса микрософтднс KEYType
 
@@ -72,8 +72,8 @@ void Modify(
 |----------------------------------------------------------------------------------------------------------|--------------------------|
 | <span id="1"></span><dl> <dt>**1**</dt> </dl>     | TLS<br/>           |
 | <span id="2"></span><dl> <dt>**2**</dt> </dl>     | E-Mail<br/>        |
-| <span id="3"></span><dl> <dt>**3-5**</dt> </dl>     | DNSSEC<br/>        |
-| <span id="4"></span><dl> <dt>**четырех**</dt> </dl>     | IPsec<br/>         |
+| <span id="3"></span><dl> <dt>**3**</dt> </dl>     | DNSSEC<br/>        |
+| <span id="4"></span><dl> <dt>**4**</dt> </dl>     | IPsec<br/>         |
 | <span id="255"></span><dl> <dt>**255**</dt> </dl> | Все протоколы<br/> |
 
 
@@ -93,8 +93,8 @@ void Modify(
 |------------------------------------------------------------------------------------------------------|----------------------------------------|
 | <span id="1"></span><dl> <dt>**1**</dt> </dl> | RSA/MD5 (RFC 2537)<br/>          |
 | <span id="2"></span><dl> <dt>**2**</dt> </dl> | Diffie-Hellman (RFC 2539)<br/>   |
-| <span id="3"></span><dl> <dt>**3-5**</dt> </dl> | DSA (RFC 2536)<br/>              |
-| <span id="4"></span><dl> <dt>**четырех**</dt> </dl> | Шифрование на основе эллиптических кривых<br/> |
+| <span id="3"></span><dl> <dt>**3**</dt> </dl> | DSA (RFC 2536)<br/>              |
+| <span id="4"></span><dl> <dt>**4**</dt> </dl> | Шифрование на основе эллиптических кривых<br/> |
 
 
 
@@ -120,11 +120,11 @@ void Modify(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Любой параметр, не указанный, остается неизменным в измененной записи.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -137,7 +137,7 @@ void Modify(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

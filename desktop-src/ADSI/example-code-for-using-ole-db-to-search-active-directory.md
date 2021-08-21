@@ -9,12 +9,12 @@ keywords:
 - запросы к ADSI, поиск с помощью OLE DB, пример кода для использования OLE DB для доступа к Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb98e84035cdfef3c95d47919354622df3808b86
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 5d55e115978025a95cc4c48f99f9ab05061c3cf384860eeb25b96f793d664605
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "105654393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118428447"
 ---
 # <a name="example-code-for-using-ole-db-to-search-active-directory"></a>Пример кода для использования OLE DB для поиска Active Directory
 
@@ -27,7 +27,7 @@ ms.locfileid: "105654393"
 
 В этом примере используется диалект LDAP.
 
-Метод [ICommandText:: SetCommandText](/previous-versions/windows/desktop/ms709757(v=vs.85)) также может принимать идентификатор GUID **DBGUID \_ по умолчанию** для диалекта. В этом случае ADSI будет пытаться сначала использовать диалект SQL; Если это не удается, ADSI будет пытаться использовать диалект LDAP. Дополнительные сведения см. в статье [диалект LDAP](ldap-dialect.md) и [диалект SQL](sql-dialect.md).
+Метод [ICommandText:: SetCommandText](/previous-versions/windows/desktop/ms709757(v=vs.85)) также может принимать идентификатор GUID **DBGUID \_ по умолчанию** для диалекта. в этом случае ADSI будет пытаться сначала использовать диалект SQL; Если это не удается, ADSI будет пытаться использовать диалект LDAP. дополнительные сведения см. в статье [диалект LDAP](ldap-dialect.md) и [диалект SQL](sql-dialect.md).
 
 Дополнительные сведения о OLE DB см. в разделе руководств программиста OLE DB.
 

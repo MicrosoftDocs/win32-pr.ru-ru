@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de89c34bd7aab20fbfbcbdedfd9d2f91bba866bc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c3bd1862dfde955d782527ca60fc0fb43ca31431ccb307574e875fe84a640655
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491589"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118348559"
 ---
 # <a name="addaccount-method-of-the-win32_tspermissionssetting-class"></a>Метод Аддаккаунт \_ класса Win32 тспермиссионссеттинг
 
@@ -76,7 +76,7 @@ uint32 AddAccount(
 
 </dt> <dd>
 
-Учетная запись имеет следующие разрешения: вход в систему, сведения о запросе, отправка сообщения и подключение.
+учетная запись имеет следующие разрешения: вход, сведения о запросе, отправка сообщения и Подключение.
 
 </dd> <dt>
 
@@ -95,11 +95,11 @@ uint32 AddAccount(
 
 Возвращает значение 0 при успешном выполнении, в противном случае возвращает код ошибки WMI. Список этих значений см. в разделе [службы удаленных рабочих столов коды ошибок поставщика WMI](terminal-services-wmi-provider-error-codes.md) .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). MOF-файлы не устанавливаются в составе пакета средств разработки программного обеспечения Microsoft Windows (SDK). Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
+файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). файлы MOF не устанавливаются в составе пакета средств разработки программного обеспечения Microsoft Windows Software Development Kit (SDK). Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -108,13 +108,13 @@ uint32 AddAccount(
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
 | Пространство имен<br/>                | Корневой \\ CIMv2 \\ терминалсервицес<br/>                                                |
-| Header<br/>                   | <dl> <dt>Факскомекс. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Факскомекс. h</dt> </dl>   |
 | MOF<br/>                      | <dl> <dt>Тскфгвми. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

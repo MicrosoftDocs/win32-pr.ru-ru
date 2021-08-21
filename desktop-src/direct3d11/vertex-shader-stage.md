@@ -4,12 +4,12 @@ description: Стадия вершинного шейдера (VS) обраба�
 ms.assetid: C6A39F48-A243-4049-8AED-0B521BEDFA76
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b19a291b4abed572da54f9a2616ce19e926e1c6f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3815f4c26c97e68ac0b4b20b72849052710f2f6adc0722bb3e42f5c8bf7a1c89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118530412"
 ---
 # <a name="vertex-shader-stage"></a>Стадия шейдера вершин
 
@@ -25,7 +25,7 @@ ms.locfileid: "104070032"
 
 Шейдер вершин может выполнять операции загрузки и дискретизации текстур, когда производные экранного пространства не требуются (с использованием встроенных функций HLSL: [Sample (объект текстуры DirectX HLSL)](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-sample), [SampleCmpLevelZero (объект текстуры DirectX HLSL)](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-samplecmplevelzero) и [SampleGrad (объект текстуры DirectX HLSL)](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-samplegrad)).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -35,6 +35,6 @@ ms.locfileid: "104070032"
 [Этапы конвейера (Direct3D 10)](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-pipeline-stages)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

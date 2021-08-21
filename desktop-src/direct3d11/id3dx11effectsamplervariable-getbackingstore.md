@@ -75,7 +75,7 @@ HRESULT GetBackingStore(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -86,7 +86,7 @@ HRESULT GetBackingStore(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

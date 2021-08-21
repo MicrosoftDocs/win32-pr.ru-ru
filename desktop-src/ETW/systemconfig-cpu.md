@@ -20,12 +20,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 07efa01bf58aeadfdfe12cd5db4d010a7f6dbca0
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 88503ee53714ea68bb95aca5077aefebd178aa58a7c10167e92358656f5051fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108106122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118151420"
 ---
 # <a name="systemconfig_cpu-class"></a>\_Класс ЦП системконфиг
 
@@ -94,7 +94,7 @@ class SystemConfig_CPU : SystemConfig
 
 </dd> <dt>
 
-**Имя_домена**
+**DomainName**
 </dt> <dd> <dl> <dt>
 
 Тип данных: массив **Char16**
@@ -190,14 +190,14 @@ class SystemConfig_CPU : SystemConfig
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

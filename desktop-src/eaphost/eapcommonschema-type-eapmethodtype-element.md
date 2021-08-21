@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6d45defd098f560d4deb8698e0fd569492668e0b
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 471cb15afc00593d90bec2c0525d8e7aeddc79db13779b7b93ce99d23ccab020
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104413736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118498418"
 ---
 # <a name="type-eapmethodtype-element"></a>Элемент Type (Еапмесодтипе)
 
@@ -35,18 +35,18 @@ ms.locfileid: "104413736"
 
 Элемент **Type** определяется сложным типом [**еапмесодтипе**](eapcommonschema-eapmethodtype-complextype.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Роль | Минимальная поддерживаемая версия ОС |
 |------|------------------------------|
-| Клиент<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Сервер<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Клиент<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Сервер<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

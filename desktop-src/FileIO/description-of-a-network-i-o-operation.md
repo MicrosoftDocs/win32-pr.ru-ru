@@ -1,19 +1,19 @@
 ---
-description: Описывает процесс сетевой операции ввода-вывода в Windows.
+description: Описывает процесс сетевой операции ввода-вывода в разделе Windows.
 ms.assetid: 72dc0c57-28ae-4289-bb0d-b399d294c126
 title: Описание сетевой операции ввода-вывода
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 371b72389554f1c3fa2ec43180b1a6e4c76dc012
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4d872f8eaf6f9a90ab313e6a7b17e3fe93073cdb13e5b039e401de41287f1c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104345802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118150829"
 ---
 # <a name="description-of-a-network-io-operation"></a>Описание сетевой операции ввода-вывода
 
-На следующем рисунке показан процесс сетевой операции ввода-вывода в Windows.
+На следующем рисунке показан процесс сетевой операции ввода-вывода в разделе Windows.
 
 ![сетевая операция ввода-вывода в Windows](images/fig4.png)
 

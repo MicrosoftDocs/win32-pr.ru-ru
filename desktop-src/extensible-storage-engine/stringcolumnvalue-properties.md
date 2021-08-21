@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.stri
 ms:contentKeyID: 55104024
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 822e469fae8de69137cbbe7a8e085137c290850a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a89a6beb40fe6d3c1784215bc01fa68ea1466e7701b14c4ab9cebc7b986935c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118071244"
 ---
 # <a name="stringcolumnvalue-properties"></a>Свойства Стрингколумнвалуе
 
@@ -83,7 +83,7 @@ ms.locfileid: "104265114"
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

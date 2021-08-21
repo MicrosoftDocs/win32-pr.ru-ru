@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 69d9da708d45524d15f735273d47f242104ee22f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 833f0f7ab9192d88440afff75a36fee744ac2fe053c6fe99d1940686c452799a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118158136"
 ---
 # <a name="cbasepropertypageonreceivemessage-method"></a>Кбасепропертипаже. Онрецеивемессаже, метод
 
@@ -48,7 +48,7 @@ virtual INT_PTR OnReceiveMessage(
 *HWND* 
 </dt> <dd>
 
-Обработчик для окна.
+Дескриптор для окна.
 
 </dd> <dt>
 
@@ -77,7 +77,7 @@ Message.
 
 Возвращает логическое значение. Процедура диалогового окна возвращает это значение. Дополнительные сведения см. в документации по пакету Platform SDK.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Реализация базового класса вызывает **дефвиндовпрок**. Переопределите этот метод, чтобы он обрабатывал сообщения, связанные с элементами управления диалогового окна. Если переопределяющий метод не обрабатывает конкретное сообщение, он должен вызвать метод базового класса.
 
@@ -121,18 +121,18 @@ void CMyProp::SetDirty()
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Кпроп. h (включение Streams. h)</dt> </dl>                                                                                     |
+| Заголовок<br/>  | <dl> <dt>кпроп. h (включает Потоки. h)</dt> </dl>                                                                                     |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

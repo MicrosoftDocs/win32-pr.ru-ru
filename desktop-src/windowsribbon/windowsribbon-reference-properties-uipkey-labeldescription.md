@@ -4,12 +4,12 @@ description: Определяет свойство UI \_ PKEY \_ лабелде�
 ms.assetid: e7dfbe7e-c9c9-44fe-9e2d-39e20f5f7062
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cb81e723d5f55dcfd63f1bb89bff4741b4e088e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d80a2db487988f66fcc393b3ba449dfda789248dabc3cd9e1d3e48acf9ba3473
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888651"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118438005"
 ---
 # <a name="ui_pkey_labeldescription"></a>UI \_ PKEY \_ лабелдескриптион
 
@@ -17,15 +17,15 @@ ms.locfileid: "103888651"
 
 ```
 propertyDescription
-   name = UI_PKEY_LabelDescription
-   shellPKey = UI_PKEY_LabelDescription
-   formatID = 00000002-7363-696e-8441798acf5aebb7
-   propID = 2
-   typeInfo
-      type = VT_LPWSTR
+   name = UI_PKEY_LabelDescription
+   shellPKey = UI_PKEY_LabelDescription
+   formatID = 00000002-7363-696e-8441798acf5aebb7
+   propID = 2
+   typeInfo
+      type = VT_LPWSTR
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 UI \_ PKEY \_ лабелдескриптион используется приложением для запроса описания, связанного с [ \_ \_ меткой PKEY пользовательского интерфейса](windowsribbon-reference-properties-uipkey-label.md).
 
@@ -34,7 +34,7 @@ UI \_ PKEY \_ лабелдескриптион используется прил
 > [!Note]  
 > Используйте ссылку на символ XML универсальной кодировки (UCS) `&#xA;` для указания разрыва строки.
 
- 
+ 
 
 Максимальная длина не ограничена.
 
@@ -44,7 +44,7 @@ UI \_ PKEY \_ лабелдескриптион используется прил
 
 ![снимок экрана, отображающий метку и связанное с ним описание метки в меню приложения.](images/properties/ui-pkey-labeldescription.png)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -57,9 +57,9 @@ UI \_ PKEY \_ лабелдескриптион используется прил
 [\_Метка PKEY пользовательского интерфейса \_](windowsribbon-reference-properties-uipkey-label.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

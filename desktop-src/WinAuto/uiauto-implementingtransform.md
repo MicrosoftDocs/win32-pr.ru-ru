@@ -15,12 +15,12 @@ keywords:
 - интерфейсы, Итрансформпровидер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1eae752b34ed0b64fd2c0a7b476377fd1142f9b2
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a5aceefa7d482cbbe6d9b1612c1fb9c65081796113e527d5122274ce5d8f8215
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104533344"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118826840"
 ---
 # <a name="transform-control-pattern"></a>Преобразование шаблона элемента управления
 
@@ -32,7 +32,7 @@ ms.locfileid: "104533344"
 
 -   [Правила и соглашения реализации](#implementation-guidelines-and-conventions)
 -   [Обязательные члены для **итрансформпровидер**](#required-members-for-itransformprovider)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="implementation-guidelines-and-conventions"></a>Правила и соглашения реализации
 
@@ -60,7 +60,7 @@ ms.locfileid: "104533344"
 
 
 
- 
+ 
 
 Для реализации интерфейса [**ITransformProvider2**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itransformprovider) требуются следующие дополнительные свойства и методы.
 
@@ -69,7 +69,7 @@ ms.locfileid: "104533344"
 | Обязательные члены                                              | Тип члена | Примечания |
 |---------------------------------------------------------------|-------------|-------|
 | [**канзум**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itransformprovider2-get_canzoom)     | Свойство    | Нет  |
-| [**Масштаб**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itransformprovider2-zoom)           | Метод      | Нет  |
+| [**Масштабирование**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itransformprovider2-zoom)           | Метод      | Нет  |
 | [**зумбюнит**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itransformprovider2-zoombyunit)   | Метод      | Нет  |
 | [**зумлевел**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itransformprovider2-get_zoomlevel)     | Свойство    | Нет  |
 | [**зуммаксимум**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itransformprovider2-get_zoommaximum) | Свойство    | Нет  |
@@ -77,11 +77,11 @@ ms.locfileid: "104533344"
 
 
 
- 
+ 
 
 Этот шаблон элемента управления не имеет связанных событий.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -94,6 +94,6 @@ ms.locfileid: "104533344"
 [Общие сведения о дереве модели автоматизации пользовательского интерфейса](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

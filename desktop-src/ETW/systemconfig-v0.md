@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 24f0c579f4fb9c947ea02ff677cd433da3103cfc
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6986e5ac907784a19c14fb8dc6b9c086031863f322c3c35a58edcf3fd4089ea8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105912"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118151224"
 ---
 # <a name="systemconfig_v0-class"></a>\_Класс системконфиг v0
 
@@ -40,16 +40,16 @@ class SystemConfig_V0 : MSNT_SystemTrace
 
 ## <a name="remarks"></a>Remarks
 
-Сведения о событиях конфигурации оборудования в Windows XP см. в разделе класс [**хвконфиг**](hwconfig.md) .
+сведения о событиях конфигурации оборудования в Windows XP см. в разделе класс [**хвконфиг**](hwconfig.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
 | Минимальная версия клиента<br/> | Ни одна версия не поддерживается<br/>                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/> |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/> |
 
 
 
