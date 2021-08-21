@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Cabinet.dll
-ms.openlocfilehash: 4ab032864e59d8e7379fe347d241874d9336e431
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 500de4df41c82f1956f50abcc25dc84f11484b693dc8d1a5f8bc53ab556ade0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657215"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118162095"
 ---
 # <a name="deleteextractedfiles-function"></a>Функция Делетикстрактедфилес
 
@@ -41,7 +41,7 @@ VOID WINAPI DeleteExtractedFiles(
 
 <dl> <dt>
 
-*ps* 
+*PS* 
 </dt> <dd>
 
 Указатель на структуру [**сеанса**](session.md) , содержащую сведения о текущем сеансе.
@@ -54,11 +54,11 @@ VOID WINAPI DeleteExtractedFiles(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция не имеет связанной библиотеки импорта или файла заголовка. его необходимо вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -68,7 +68,7 @@ VOID WINAPI DeleteExtractedFiles(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -32,12 +32,12 @@ api_name: ''
 targetos: Windows
 req.typenames: ''
 req.redist: ''
-ms.openlocfilehash: a042a1a92900713bdf49ba8d866031bfdcb5c6a8
-ms.sourcegitcommit: 61bde60d4c3bc09defc3dcdb64c0ddadf52b214e
+ms.openlocfilehash: ed2f3943667d09f42a7bc843adac69eaa4043454d93b409b193513b8ab43fd63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "105661685"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118437159"
 ---
 # <a name="keyboardproc-function"></a>Функция Кэйбоардпрок
 
@@ -105,7 +105,7 @@ LRESULT CALLBACK KeyboardProc(
 Если *код* больше или равен нулю и процедура обработчика не обработала сообщение, настоятельно рекомендуется вызвать **каллнекссукекс** и вернуть возвращаемое значение. в противном случае другие приложения, которые установили [WH_KEYBOARDные](about-hooks.md) обработчики, не будут получать уведомления о ловушках и могут вести себя неправильно.
 Если процедура обработки сообщения обрабатывала сообщение, она может вернуть ненулевое значение, чтобы система не могла передать сообщение остальной части цепочки обработчиков или конечной процедуры окна.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение устанавливает процедуру-обработчик, указывая тип обработчика **WH_KEYBOARD** и указатель на процедуру-обработчик в вызове функции **сетвиндовшукекс** .
 

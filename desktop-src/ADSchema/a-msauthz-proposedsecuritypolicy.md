@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ae4599f655a5b9950385bd2f8227a86813a7444a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: eae5db203a3b4ff53eccd94f202f3da8e0e2a00897653e2776d55c69fe6c47e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105654891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118015920"
 ---
 # <a name="ms-authz-proposed-security-policy-attribute"></a>MS-authz-предложенный-безопасность-атрибут политики
 

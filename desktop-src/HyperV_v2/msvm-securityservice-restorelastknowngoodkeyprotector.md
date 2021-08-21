@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 2e82fb3b40f4b85e74f92ed2690a411932af2eb3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ae16b3a6b3107ed4064c1036ec934f7f5e1c279e016c00967925fbe053cb2e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684691"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118147223"
 ---
 # <a name="restorelastknowngoodkeyprotector-method-of-the-msvm_securityservice-class"></a>Метод Рестореласткновнгудкэйпротектор \_ класса SecurityService мсвм
 
@@ -99,13 +99,13 @@ uint32 RestoreLastKnownGoodKeyProtector(
 **Недостаточно памяти** (32778)
 </dt> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только для настольных приложений Windows 10 версии 1703\]<br/>                                               |
+| Минимальная версия клиента<br/> | Windows 10, только для \[ настольных приложений версии 1703\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows Server 2016<br/>                                                                          |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -113,7 +113,7 @@ uint32 RestoreLastKnownGoodKeyProtector(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

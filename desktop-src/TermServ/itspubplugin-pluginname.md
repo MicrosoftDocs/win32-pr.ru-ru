@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 97f5aa6ff6659047e9be48fd7b7a41f652c5cfd9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5aa1cd3103e901255a6226db3e128e81bb17c02e6b586a48ca434ed44932861c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105681966"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118128643"
 ---
 # <a name="itspubpluginpluginname-property"></a>Итспубплугин: свойство Лугиннаме:p
 
@@ -46,7 +46,7 @@ HRESULT get_pluginName(
 
 Указатель на переменную **BSTR** , чтобы получить имя подключаемого модуля.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -58,7 +58,7 @@ HRESULT get_pluginName(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,16 +4,16 @@ description: Сообщения элемента управления ToolTip
 ms.assetid: 0ca52be0-ccce-4814-8aab-14a602304d73
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f182a47c8ea3eb840fbb954b91974ba832e5f72
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 0d4eabfab075a2ba474dd91eb25c398169e2a39b1130a239d8b291011e036b46
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105651517"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118415314"
 ---
 # <a name="tooltip-control-messages"></a>Сообщения элемента управления ToolTip
 
-## <a name="in-this-section"></a>в этом разделе
+## <a name="in-this-section"></a>В этом разделе
 
 -   [**\_Активация ТТМ**](ttm-activate.md)
 -   [**ТТМ \_ аддтул**](ttm-addtool.md)

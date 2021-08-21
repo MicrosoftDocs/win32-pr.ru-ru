@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 60e984fdb1577dc69a352c327c1af605e0d441d6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 66448d2c537a9ff22aff2d8ac402302a113f07067da7b7c5575bef730ed0dd6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104344252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118085216"
 ---
 # <a name="apijetgettablecolumninfo-method-jet_sesid-jet_tableid-string-jet_columndef"></a>Метод API. Жетжеттаблеколумнинфо (JET_SESID, JET_TABLEID, String, JET_COLUMNDEF)
 
@@ -89,7 +89,7 @@ public static void JetGetTableColumnInfo(
     
     Заполняется сведениями о столбце.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

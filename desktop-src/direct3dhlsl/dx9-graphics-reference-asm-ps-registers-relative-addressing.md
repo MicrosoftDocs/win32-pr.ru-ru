@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 8bdafe23696c460da75d87cf1f6d5a968c89ed28
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 4333560cc146057a4760e21353906b0523fef54c887dd5ffc3b2b03eddfec86c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118090090"
 ---
 # <a name="relative-addressing-hlsl-ps-reference"></a>Относительная адресация (Справочник по HLSL PS)
 
@@ -28,11 +28,11 @@ ms.locfileid: "112405487"
 
 
 
-| \[\]синтаксис                              | Эффективный индекс                       | Примеры                         |
+| Синтаксис \[ \]                              | Эффективный индекс                       | Примеры                         |
 |-------------------------------------------|---------------------------------------|----------------------------------|
 | R \[ A + M0 +... + MJ \]                  | A + M0 +... + MJ                     | c \[ a0. x + 3 + 7 \]              |
 | R \[ k \] (= ать)                         | k                                     | c \[ 10 \] (= C10)              |
-| R \[ A \]                                  | A                                     | c \[ a0. y \]                      |
+| R \[ A \]                                  | Объект                                     | c \[ a0. y \]                      |
 | Ать \[ N0 +... + Ni + A + M0 +... + MJ \] | A + k + N0 +... + Ni + M0 +... + MJ | C8 \[ 3 + 2 + a0. w + 5 + 6 + 1 \] |
 | R \[ N0 +... + Ni + A + M0 +... + MJ \]  | A + N0 +... + Ni + M0 +... + MJ     | c \[ 2 + 1 + Al + 3 + 4 + 5 \]    |
 | Ать \[ A \]                                 | A + k                                 | C12 \[ Al \] , C0 \[ a0. z \]        |

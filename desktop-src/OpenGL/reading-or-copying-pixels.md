@@ -7,20 +7,20 @@ keywords:
 - Конвейер обработки OpenGL, копирование пикселей
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35600f3fb803d4453a24f9c5a051859ac159bad6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 81fe1974c8d69e4425add4cd8a98f69f5631c7b2e4ca457bffe8e1bd06bbb5d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117980637"
 ---
 # <a name="reading-or-copying-pixels"></a>Чтение или копирование пикселей
 
 Можно считывать Пиксели из буфера кадров в память, кодировать их различными способами и сохранять закодированный результат в памяти с помощью [**глреадпикселс**](glreadpixels.md). Кроме того, можно скопировать прямоугольник значений пикселей из одной области буфера кадров в другую с [**глкопипикселс**](glcopypixels.md). Функция [**глреадбуффер**](glreadbuffer.md) определяет цветовой буфер, из которого пикселы считываются или копируются.
 
- 
+ 
 
- 
+ 
 
 
 

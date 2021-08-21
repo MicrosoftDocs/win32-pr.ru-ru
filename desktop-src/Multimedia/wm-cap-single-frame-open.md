@@ -3,7 +3,7 @@ title: Сообщение WM_CAP_SINGLE_FRAME_OPEN (VFW. h)
 description: '\_ \_ \_ При открытии сообщения с одним кадром WM Cap \_ открывается файл записи для однокадровой записи. Все предыдущие сведения в файле записи перезаписываются. Это сообщение можно отправить явно или с помощью макроса Капкаптуресинглефрамеопен.'
 ms.assetid: 4814737c-4395-4c01-a68e-fac43dd291fd
 keywords:
-- WM_CAP_SINGLE_FRAME_OPEN сообщения Windows мультимедиа
+- сообщение WM_CAP_SINGLE_FRAME_OPEN Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac38186e4b5a34bbc11563b7e37a1aefc3de18c2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4a58df70bea8971e10a769efbbc98220c46897ff6979e66ab45ae8f2ba81b971
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118134839"
 ---
 # <a name="wm_cap_single_frame_open-message"></a>\_ \_ \_ Сообщение об открытом одном кадре WM Cap \_
 
@@ -38,11 +38,11 @@ lParam = 0L;
 
 Возвращает **значение true** в случае успеха или **false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Дополнительные сведения об установке функций обратного вызова см. в разделе [**\_ \_ \_ \_ ошибка обратного вызова Set крепления WM**](wm-cap-set-callback-error.md) , а также сообщения [**\_ \_ \_ \_ кадра обратного вызова Set крепления WM**](wm-cap-set-callback-frame.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -54,7 +54,7 @@ lParam = 0L;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

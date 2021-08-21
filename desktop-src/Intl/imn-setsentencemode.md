@@ -4,12 +4,12 @@ ms.assetid: 72455193-cd17-45f8-b19c-a1f735ff81bf
 title: Код уведомления IMN_SETSENTENCEMODE (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0130c5b3d7284112e64cca698b358650f51f3642
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 30a5fa976bbd28e86d5b46eec074e5ed802cc0a32e1c7c1c86b0e01a4629fe13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105663064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118145950"
 ---
 # <a name="imn_setsentencemode-notification-code"></a>\_Код уведомления ИМН сетсентенцемоде
 
@@ -44,11 +44,11 @@ IMN_SETSENTENCEMODE
 
 Эта команда не имеет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение может получать сведения о режиме предложений с помощью функции [**иммжетконверсионстатус**](/windows/desktop/api/Imm/nf-imm-immgetconversionstatus) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -56,11 +56,11 @@ IMN_SETSENTENCEMODE
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                           |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                 |
-| Заголовок<br/>                   | <dl> <dt>IMM. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Imm. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

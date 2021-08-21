@@ -23,12 +23,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 94fb9e50344cfbdde4be67815b80e4074ab1a878
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 7121d56d2acf0890a75bccdaf397f184c8780f1f1d3152d3ce2ea4db7781ecaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105922"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118151373"
 ---
 # <a name="systemconfig_v0_video-class"></a>\_ \_ Класс видео системконфиг v0
 
@@ -259,14 +259,14 @@ class SystemConfig_V0_Video : SystemConfig_V0
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
 | Минимальная версия клиента<br/> | Ни одна версия не поддерживается<br/>                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/> |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/> |
 
 
 

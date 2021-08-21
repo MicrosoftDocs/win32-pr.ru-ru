@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_
 ms:contentKeyID: 55103698
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 9b125d1e0d1237219ef173fbbc58f42988b107ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 93a2e2ede9f8f0709bbf7cc7114b1542d1d6aa4245cd111d774b98b5b5231b51
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103910248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118074760"
 ---
 # <a name="jet_instance_info-properties"></a>Свойства JET_INSTANCE_INFO
 
@@ -58,7 +58,7 @@ ms.locfileid: "103910248"
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

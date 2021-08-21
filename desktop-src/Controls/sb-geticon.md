@@ -3,7 +3,7 @@ title: Сообщение SB_GETICON (Коммктрл. h)
 description: Возвращает значок для части в строке состояния.
 ms.assetid: f99508e3-afa8-48fd-b87a-fce41c4410ff
 keywords:
-- Элементы управления Windows для SB_GETICON сообщений
+- элементы управления Windows сообщений SB_GETICON
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab86809df54d796b8e83f05f2a2b9041450ce2fc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3df97598c1b002a794badb54f727632d58cc915f216947c019e452f5632a09fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118168770"
 ---
 # <a name="sb_geticon-message"></a>\_Сообщение о ПЕРЕзначке SB
 
@@ -43,15 +43,15 @@ ms.locfileid: "103892354"
 
 Возвращает маркер для значка в случае успеха или **значение NULL** в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

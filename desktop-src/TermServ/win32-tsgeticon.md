@@ -21,12 +21,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a0186e158f025be8e8a5e6cf3e87f3ad5d8b296
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: afe118acc9b0e722d881e6277469f2fe298e2a81042fe7b1c5e248c82c0cc196
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988753"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118126534"
 ---
 # <a name="win32_tsgeticon-class"></a>\_Класс Win32 тсжетикон
 
@@ -74,7 +74,7 @@ class Win32_TSGetIcon : CIM_LogicalElement
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -125,7 +125,7 @@ class Win32_TSGetIcon : CIM_LogicalElement
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -216,7 +216,7 @@ class Win32_TSGetIcon : CIM_LogicalElement
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

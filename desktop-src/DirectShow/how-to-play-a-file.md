@@ -13,15 +13,15 @@ ms.locfileid: "118401152"
 ---
 # <a name="how-to-play-a-file"></a>Воспроизведение файла
 
-эта статья предназначена для того, чтобы предоставить вам версию DirectShowного программирования. Он представляет простое консольное приложение, которое воспроизводит аудио-или видеофайл. программа состоит всего из нескольких строк, но она демонстрирует некоторые возможности DirectShow программирования.
+Эта статья призвана предоставить вам версию программирования DirectShow. Он представляет простое консольное приложение, которое воспроизводит аудио-или видеофайл. Программа состоит всего из нескольких строк, но она демонстрирует некоторые возможности программирования DirectShow.
 
-как описано в статье [DirectShow программировании приложений](introduction-to-directshow-application-programming.md) , DirectShow приложение всегда выполняет те же основные шаги:
+Как описано в статье [Введение в программирование приложений DirectShow](introduction-to-directshow-application-programming.md) , приложение DirectShow всегда выполняет те же основные действия:
 
-1.  создайте экземпляр [фильтра Graph Manager](filter-graph-manager.md).
-2.  используйте фильтр Graph Manager для создания графа фильтра.
+1.  Создайте экземпляр [диспетчера графа фильтров](filter-graph-manager.md).
+2.  Используйте диспетчер графа фильтров для создания графа фильтра.
 3.  Запустите граф, что приведет к перемещению данных по фильтрам.
 
-Чтобы скомпилировать и связать код в этом разделе, включите заголовочный файл DShow. h и укажите ссылку на файл статической библиотеки стрмиидс. lib. дополнительные сведения см. в разделе [создание DirectShow приложений](setting-up-the-build-environment.md).
+Чтобы скомпилировать и связать код в этом разделе, включите заголовочный файл DShow. h и укажите ссылку на файл статической библиотеки стрмиидс. lib. Дополнительные сведения см. в разделе [Создание приложений DirectShow](setting-up-the-build-environment.md).
 
 Начните [**с вызова CoInitialize**](/windows/desktop/api/objbase/nf-objbase-coinitialize) или [**CoInitializeEx**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex) для инициализации библиотеки COM:
 
@@ -38,7 +38,7 @@ if (FAILED(hr))
 
 Для простоты в этом примере игнорируется возвращаемое значение, но всегда следует проверять значение **HRESULT** из любого вызова метода.
 
-затем вызовите [**cocreateinstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) для создания фильтра Graph Manager:
+Затем вызовите [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) для создания диспетчера графа фильтров:
 
 
 ```C++
@@ -49,14 +49,14 @@ HRESULT hr = CoCreateInstance(CLSID_FilterGraph, NULL,
 
 
 
-Как показано, идентификатором класса является CLSID \_ филтерграф. диспетчер Graph Manager предоставляется внутри внутрипроцессного DLL, поэтому контекст выполнения — **клскткс \_ inproc \_ SERVER**. DirectShow поддерживает модель с произвольным потоком, поэтому можно также вызвать [**CoInitializeEx**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex) с флагом **\_ многопотоковой инициализации** .
+Как показано, идентификатором класса является CLSID \_ филтерграф. Диспетчер графов фильтров предоставляется внутри внутрипроцессного DLL, поэтому контекст выполнения — **КЛСКТКС \_ INPROC \_ Server**. DirectShow поддерживает модель свободной потоковой модели, поэтому можно также вызвать [**CoInitializeEx**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex) с флагом **\_ многопотоковой инициализации** .
 
 Вызов [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) возвращает интерфейс [**играфбуилдер**](/windows/desktop/api/Strmif/nn-strmif-igraphbuilder) , который в основном содержит методы для построения графа фильтра. Для этого примера необходимы два других интерфейса:
 
 -   [**Имедиаконтрол**](/windows/desktop/api/Control/nn-control-imediacontrol) управляет потоковой передачей. Он содержит методы для остановки и запуска графа.
--   [**имедиаевент**](/windows/desktop/api/Control/nn-control-imediaevent) имеет методы для получения событий из фильтра Graph Manager. В этом примере интерфейс используется для ожидания завершения воспроизведения.
+-   [**Имедиаевент**](/windows/desktop/api/Control/nn-control-imediaevent) имеет методы для получения событий из диспетчера графа фильтров. В этом примере интерфейс используется для ожидания завершения воспроизведения.
 
-оба этих интерфейса предоставляются фильтром Graph Manager. Используйте возвращенный указатель [**играфбуилдер**](/windows/desktop/api/Strmif/nn-strmif-igraphbuilder) для запроса этих запросов:
+Оба этих интерфейса предоставляются диспетчером графа фильтров. Используйте возвращенный указатель [**играфбуилдер**](/windows/desktop/api/Strmif/nn-strmif-igraphbuilder) для запроса этих запросов:
 
 
 ```C++
@@ -174,7 +174,7 @@ void main(void)
 
 <dl> <dt>
 
-[основные задачи DirectShow](basic-directshow-tasks.md)
+[Основные задачи DirectShow](basic-directshow-tasks.md)
 </dt> </dl>
 
  

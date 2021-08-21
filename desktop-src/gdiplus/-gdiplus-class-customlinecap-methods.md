@@ -4,12 +4,12 @@ ms.assetid: f0fc73f2-375b-4d7f-a0ac-1606ba6afeef
 title: Методы Кустомлинекап
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 97b683210e1e08bf1edda31f64126a9be9d24543
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f84a105379cb490dc487b15f03351d10b6f6e3e156cae481180b2d3c45f3927b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118067874"
 ---
 # <a name="customlinecap-methods"></a>Методы Кустомлинекап
 

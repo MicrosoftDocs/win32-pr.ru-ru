@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 86206b10eeb17468f2708205106b9321b4dd37ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 61743d1aa49200cf871b9ec37d3506ed3ccd040c87dfea5ca1f4150b57328278
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118083785"
 ---
 # <a name="columnvaluecolumnid-property"></a>Колумнвалуе. columnid, свойство
 
@@ -64,7 +64,7 @@ public JET_COLUMNID Columnid { get; set; }
 
 Тип: [Microsoft.ISAM.ESENT.Interop.JET_COLUMNID](./jet-columnid-structure.md)  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

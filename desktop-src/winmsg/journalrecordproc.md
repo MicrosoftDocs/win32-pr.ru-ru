@@ -32,12 +32,12 @@ api_name: ''
 targetos: Windows
 req.typenames: ''
 req.redist: ''
-ms.openlocfilehash: bc255441ca82c86542dd8dd4729564122df6c719
-ms.sourcegitcommit: 61bde60d4c3bc09defc3dcdb64c0ddadf52b214e
+ms.openlocfilehash: cc5e1bdbd99b234b347d0b9c10caa7125aead9b68138472e125c8e2a11180609
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "103987299"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118437121"
 ---
 # <a name="journalrecordproc-function"></a>Функция Жаурналрекордпрок
 
@@ -92,7 +92,7 @@ LRESULT CALLBACK JournalRecordProc(
 
 Возвращаемое значение игнорируется.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Процедура-обработчик **жаурналрекордпрок** должна копировать, но не изменять сообщения.
 После того как процедура подключения вернет управление в систему, сообщение будет продолжать обрабатываться.

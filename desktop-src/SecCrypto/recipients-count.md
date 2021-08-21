@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: eaeedff89d0e4cbf50bd9303cb8bbfca3ee4efee
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4879739177f0a2e91f7b76fe82b996d39eee73132d31e1efc803f5d4a8aea1f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117975431"
 ---
 # <a name="recipientscount-property"></a>Свойство Recipients. Count
 
@@ -50,7 +50,7 @@ Recipients.Count As Long
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

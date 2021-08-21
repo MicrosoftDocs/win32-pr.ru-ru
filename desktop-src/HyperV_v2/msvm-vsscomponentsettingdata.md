@@ -37,12 +37,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 5d37f46c10cc702c66a30fb484553a8c5da03d8a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3cb6c046da6b9a217c149784a11a319066a74ac7d783b845857a8b7ada921f8b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118146217"
 ---
 # <a name="msvm_vsscomponentsettingdata-class"></a>\_Класс мсвм всскомпонентсеттингдата
 
@@ -89,7 +89,7 @@ class Msvm_VssComponentSettingData : CIM_ResourceAllocationSettingData
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ всскомпонентсеттингдата** имеет следующие свойства.
 
@@ -160,7 +160,7 @@ class Msvm_VssComponentSettingData : CIM_ResourceAllocationSettingData
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -405,7 +405,7 @@ class Msvm_VssComponentSettingData : CIM_ResourceAllocationSettingData
 
 | Значение                                                                        | Значение          |
 |------------------------------------------------------------------------------|------------------|
-| <dl> <dt>1</dt> </dl> | Другое<br/> |
+| <dl> <dt>1</dt> </dl> | Другие<br/> |
 
 
 
@@ -452,25 +452,25 @@ class Msvm_VssComponentSettingData : CIM_ResourceAllocationSettingData
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Доступ к классу **\_ всскомпонентсеттингдата мсвм** может быть ограничен фильтром контроля учетных записей. Дополнительные сведения см. в разделе [Управление учетными записями пользователей и инструментарий WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

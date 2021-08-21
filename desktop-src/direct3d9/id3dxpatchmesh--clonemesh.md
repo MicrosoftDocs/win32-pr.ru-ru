@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 249b4282aa84e3f7c5ba619a0b42e8c0b1fdf846
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1418bf890ae0ba10adec9e0c7de74eb5f118f91566554eb325cc2badaedfc613
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104354323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118294385"
 ---
 # <a name="id3dxpatchmeshclonemesh-method"></a>Метод ID3DXPatchMesh:: Клонемеш
 
@@ -75,7 +75,7 @@ HRESULT CloneMesh(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК. В случае сбоя метода возвращаемое значение может быть одним из следующих: D3DERR \_ инвалидкалл, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **Клонемеш** Преобразует буфер вершин в новое объявление вершины. Записи в объявлении вершины, которые являются новыми для исходной сетки, имеют значение 0. Если текущая сеть имеет соседства, то новая сеть также будет иметь соседства.
 
@@ -85,7 +85,7 @@ HRESULT CloneMesh(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

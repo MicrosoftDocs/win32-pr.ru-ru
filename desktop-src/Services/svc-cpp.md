@@ -4,12 +4,12 @@ ms.assetid: dc968bd2-0397-4cec-a825-f807037b4c14
 title: Svc.cpp
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6388a51335883aa48d15a52667d89d2188ac4ea3
-ms.sourcegitcommit: 967ba3a2a618e6088cb607164a2a924530278645
+ms.openlocfilehash: 908e659bbc2dd257ea15e015dea5dadbd92db801c0b221e66de69fbaa6dd4082
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113102123"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117966885"
 ---
 # <a name="svccpp"></a>Svc.cpp
 

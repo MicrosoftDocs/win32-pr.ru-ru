@@ -3,7 +3,7 @@ title: Сообщение TDM_UPDATE_ELEMENT_TEXT (Коммктрл. h)
 description: TDM_UPDATE_ELEMENT_TEXT сообщение — обновляет текстовый элемент в диалоговом окне задачи.
 ms.assetid: 2df446c8-db87-42b5-b5bd-40fadbf9d45b
 keywords:
-- Элементы управления Windows для TDM_UPDATE_ELEMENT_TEXT сообщений
+- элементы управления Windows сообщений TDM_UPDATE_ELEMENT_TEXT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c155b426b92645c0b9cdbabe00c44ffa722b89f3
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 5abf6eb91b3eadfea71d0c9a4b5386e44db100c3a548998d5113636ff7f8cc29
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108085812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118166917"
 ---
 # <a name="tdm_update_element_text-message"></a>\_ \_ Текстовое сообщение элемента обновления TDM \_
 
@@ -68,15 +68,15 @@ ms.locfileid: "108085812"
 
 Приведенные выше также применяются к нижнему колонтитулу и \_ нижнему колонтитулу TDE.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

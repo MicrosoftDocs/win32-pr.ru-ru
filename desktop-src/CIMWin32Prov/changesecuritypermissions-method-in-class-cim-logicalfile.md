@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 929e05047af203d8e2344afa8175228e3bd969fd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0c85bbbe516fba9d86941edbb0a599b0483c4f3a843abab6fc5b13fb38f1d234
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118010369"
 ---
 # <a name="changesecuritypermissions-method-of-the-cim_logicalfile-class"></a>Метод Чанжесекуритипермиссионс \_ класса CIM LogicalFile
 
@@ -67,7 +67,7 @@ uint32 ChangeSecurityPermissions(
 
 `Option = 1 + 4`
 
-или
+или диспетчер конфигурации служб
 
 `Option = CHANGE_OWNER_SECURITY_INFORMATION | CHANGE_DACL_SECURITY_INFORMATION`
 
@@ -177,7 +177,7 @@ uint32 ChangeSecurityPermissions(
 
 </dd> <dt>
 
-**Платформа не NT/Windows 2000**
+**платформа не NT/Windows 2000**
 </dt> <dd>
 
 12
@@ -240,7 +240,7 @@ uint32 ChangeSecurityPermissions(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В настоящее время этот метод не реализован инструментарием WMI. Чтобы использовать этот метод, его необходимо реализовать в собственном поставщике.
 
@@ -260,7 +260,7 @@ uint32 ChangeSecurityPermissions(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -3,7 +3,7 @@ title: Сообщение WM_CAP_SET_PREVIEWRATE (VFW. h)
 description: '\_Сообщение превиеврате закрепления WM \_ \_ устанавливает частоту показа кадров в режиме предварительного просмотра. Это сообщение можно отправить явно или с помощью макроса Каппревиеврате.'
 ms.assetid: 1189ad4a-1f32-4684-920b-ee3c26ef97f8
 keywords:
-- WM_CAP_SET_PREVIEWRATE сообщения Windows мультимедиа
+- сообщение WM_CAP_SET_PREVIEWRATE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1134255b73e579841800af6cd5f6900965217106
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fa9b9a24614a40c5efb545b91a80069bf915c77c4b7d8fb289ed581f750ac0cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118135086"
 ---
 # <a name="wm_cap_set_previewrate-message"></a>\_ \_ Сообщение превиеврате установки крепления WM \_
 
@@ -49,11 +49,11 @@ lParam = 0L;
 
 Возвращает **значение true** в случае успеха или **false** , если окно записи не подключено к драйверу записи.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В режиме предварительного просмотра используются существенные ресурсы ЦП. Приложения могут отключить предварительный просмотр или уменьшить частоту предварительной версии, когда фокус находится на другом приложении. Во время потоковой передачи видео задача предварительного просмотра имеет более низкий приоритет, чем запись кадров на диск, а предварительный просмотр кадров отображается только в том случае, если другие буферы недоступны для записи.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -65,7 +65,7 @@ lParam = 0L;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

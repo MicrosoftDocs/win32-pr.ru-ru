@@ -1,6 +1,6 @@
 ---
 title: Имсрдпклиентшелл Исремотепрограмклиентинсталлед, свойство
-description: Получает значение, указывающее, поддерживает ли клиент подключение к удаленному рабочему столу (RDC) функции RemoteApp в Windows Server 2008 R2.
+description: возвращает значение, указывающее, поддерживает ли клиент подключение к удаленному рабочему столу (RDC) функции RemoteApp Windows Server 2008 R2.
 ms.assetid: ce2fec74-c567-48e1-91d6-655c539d1fb9
 ms.tgt_platform: multiple
 keywords:
@@ -18,16 +18,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 787d45f10e109a89429be5032fda245aa3609567
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3073bb9a9e5890ff7a6a46bb9ea0c03964bf54f1c91550dbb2746385a11fa809
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118129767"
 ---
 # <a name="imsrdpclientshellisremoteprogramclientinstalled-property"></a>Свойство Имсрдпклиентшелл:: Исремотепрограмклиентинсталлед
 
-Получает значение, указывающее, поддерживает ли клиент подключение к удаленному рабочему столу (RDC) функции RemoteApp в Windows Server 2008 R2.
+возвращает значение, указывающее, поддерживает ли клиент подключение к удаленному рабочему столу (RDC) функции RemoteApp Windows Server 2008 R2.
 
 Это свойство доступно только для чтения.
 
@@ -46,7 +46,7 @@ HRESULT get_IsRemoteProgramClientInstalled(
 
 Возвращает значение, указывающее, поддерживает ли клиент подключение к удаленному рабочему столу (RDC) функции RemoteApp.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -60,7 +60,7 @@ HRESULT get_IsRemoteProgramClientInstalled(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

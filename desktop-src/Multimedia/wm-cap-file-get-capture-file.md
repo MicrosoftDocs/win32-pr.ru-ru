@@ -3,7 +3,7 @@ title: Сообщение WM_CAP_FILE_GET_CAPTURE_FILE (VFW. h)
 description: '\_ \_ \_ Сообщение о получении файла записи с закреплением WM \_ \_ возвращает имя текущего файла записи. Это сообщение можно отправить явно или с помощью макроса Капфилежеткаптурефиле.'
 ms.assetid: 86ce2904-834d-449f-9ef8-5a158c55bbaa
 keywords:
-- WM_CAP_FILE_GET_CAPTURE_FILE сообщения Windows мультимедиа
+- сообщение WM_CAP_FILE_GET_CAPTURE_FILE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7008e0b217f29ad9602afbdc41cc97f9cb7ecaa3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 462f919458078129f6756782c2fde5322b3cd814c3108cb0ba8ee24e2f54c022
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891538"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118135322"
 ---
 # <a name="wm_cap_file_get_capture_file-message"></a>\_Сообщение о \_ \_ получении \_ файла записи \_ закрепления WM
 
@@ -56,11 +56,11 @@ lParam = (LPARAM) (LPVOID) (LPSTR) (szName);
 
 Возвращает **значение true** в случае успеха или **false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Имя файла для отслеживания по умолчанию — C: \\CAPTURE.AVI.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -72,7 +72,7 @@ lParam = (LPARAM) (LPVOID) (LPSTR) (szName);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

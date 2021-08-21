@@ -7,12 +7,12 @@ keywords:
 - Настройка ограничений срока жизни AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2cb3617bd59667f0284c4e383da54752adfbe25
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7e9e82d05ef07319f73f1f2a5d0abe1e6b076b3364b0bd318a6c47edad1f0c91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103772731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118022065"
 ---
 # <a name="configuration-of-ttl-limits"></a>Настройка ограничений TTL
 
@@ -25,7 +25,7 @@ ms.locfileid: "103772731"
 -   Значение TTL по умолчанию = 86400 секунд (1 день)
 -   Минимальное значение TTL = 900 секунд (15 минут)
 
-Настраиваемые параметры TTL будут храниться в виде записей AVA (утверждение значения атрибута) в формате "<значение-имя>=<value>в атрибуте **MS-DS-Other-Settings** объекта NTDS-Service, заданного следующим DN в разделе конфигурации:
+Настраиваемые параметры TTL будут храниться в виде записей AVA (утверждение значения атрибута) в формате "<значение-имя>=<value>в атрибуте **ms-DS-Other-Параметры** объекта NTDS-Service, заданного следующим DN-именем в разделе конфигурации:
 
 
 ```C++
@@ -52,9 +52,9 @@ DynamicObjectMinTTLSeconds=NNNN
 
 Эти значения могут быть заданы администратором с помощью программы командной строки Ntdsutil.
 
- 
+ 
 
- 
+ 
 
 
 

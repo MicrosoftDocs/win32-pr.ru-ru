@@ -1,32 +1,32 @@
 ---
 title: Как загрузить изображение в эффекты Direct2D с помощью операция filepicker
-description: Показывает, как использовать средство выбора хранилища Windows Филеопенпиккер для загрузки изображения в эффекты Direct2D.
+description: показывает, как использовать Windows филеопенпиккер служба хранилища для загрузки изображения в эффекты Direct2D.
 ms.assetid: 42158EF0-2FC8-45F3-8C92-E12318D4724F
 keywords:
 - FileOpenPicker
 - Операция filepicker
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4346cc0e337374fa41313cb77debf4faca781669
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 05bb23faf2b9d50f12219f3b99c07ec835558addc55e67d4843dee049946a60d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105681646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118160535"
 ---
 # <a name="how-to-load-an-image-into-direct2d-effects-using-the-filepicker"></a>Как загрузить изображение в эффекты Direct2D с помощью операция filepicker
 
-Показывает, как использовать [**Windows:: Storage::P иккерс:: филеопенпиккер**](/uwp/api/Windows.Storage.Pickers.FileOpenPicker) для загрузки изображения в [эффекты Direct2D](effects-overview.md). Если вы хотите позволить пользователю выбрать файл изображения из хранилища в приложении для Магазина Windows, рекомендуется использовать [**филеопенпиккер**](/uwp/api/Windows.Storage.Pickers.FileOpenPicker).
+показывает, как использовать [**Windows:: служба хранилища::P иккерс:: филеопенпиккер**](/uwp/api/Windows.Storage.Pickers.FileOpenPicker) для загрузки изображения в [эффекты Direct2D](effects-overview.md). если вы хотите разрешить пользователю выбрать файл изображения из хранилища в приложении Windows Store, рекомендуется использовать [**филеопенпиккер**](/uwp/api/Windows.Storage.Pickers.FileOpenPicker).
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
 -   [Direct2D](./direct2d-portal.md)
 -   [Эффекты Direct2D](effects-overview.md)
--   [**Windows:: Storage::P иккерс:: Филеопенпиккер**](/uwp/api/Windows.Storage.Pickers.FileOpenPicker)
+-   [**Windows:: служба хранилища::P иккерс:: филеопенпиккер**](/uwp/api/Windows.Storage.Pickers.FileOpenPicker)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   Для создания эффектов необходим объект [**ID2D1DeviceContext**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) .
 -   Для создания объектов WIC необходим объект [**IWICImagingFactory**](/windows/desktop/api/wincodec/nn-wincodec-iwicimagingfactory) .
@@ -82,7 +82,7 @@ ms.locfileid: "105681646"
 
 ### <a name="step-3-convert-the-file-stream"></a>Шаг 3. Преобразование файлового потока
 
-Используйте функцию [**креатестреамоверрандомакцессстреам**](/windows/desktop/api/shcore/nf-shcore-createstreamoverrandomaccessstream) для преобразования файлового потока. Среда выполнения Windows API представляют потоки с помощью [**IRandomAccessStream**](/previous-versions//hh438400(v=vs.85)), а [WIC](/windows/desktop/wic/-wic-api) использует [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream).
+Используйте функцию [**креатестреамоверрандомакцессстреам**](/windows/desktop/api/shcore/nf-shcore-createstreamoverrandomaccessstream) для преобразования файлового потока. Windows API среды выполнения представляют потоки с помощью [**IRandomAccessStream**](/previous-versions//hh438400(v=vs.85)), тогда как [WIC](/windows/desktop/wic/-wic-api) использует [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream).
 
 
 ```C++
@@ -100,7 +100,7 @@ ms.locfileid: "105681646"
 > [!Note]  
 > Чтобы использовать функцию [**креатестреамоверрандомакцессстреам**](/windows/desktop/api/shcore/nf-shcore-createstreamoverrandomaccessstream) , в проекте необходимо включить *шкоре. h* .
 
- 
+ 
 
 ### <a name="step-4-create-a-wic-decoder-and-get-the-frame"></a>Шаг 4. создание декодера WIC и получение рамки
 
@@ -177,7 +177,7 @@ ms.locfileid: "105681646"
 > [!Note]  
 > [Исходный эффект растрового изображения](bitmap-source.md) не принимает входные данные из метода [**сетинпут**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1effect-setinput) , такого как многие [эффекты Direct2D](effects-overview.md). Вместо этого объект [**IWICBitmapSource**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource) задается как свойство.
 
- 
+ 
 
 
 ```C++
@@ -291,6 +291,6 @@ void OpenFile(Windows::Storage::Streams::IRandomAccessStream^ fileStream)
 
 
 
- 
+ 
 
- 
+ 

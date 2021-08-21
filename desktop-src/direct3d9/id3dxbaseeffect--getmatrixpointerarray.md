@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: a841c321e641b74841a76432eab8b016f396f61a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c3abae67374f425540565cb959575a59f1839e55da53daa4b34ef732b15d649c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104000515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118296780"
 ---
 # <a name="id3dxbaseeffectgetmatrixpointerarray-method"></a>Метод ID3DXBaseEffect:: Жетматрикспоинтераррай
 
@@ -75,7 +75,7 @@ HRESULT GetMatrixPointerArray(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК. В случае сбоя метода возвращаемое значение может быть D3DERR \_ инвалидкалл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Матрица нонтранспосед содержит основные данные строки. то есть каждый вектор содержится в строке.
 
@@ -87,7 +87,7 @@ HRESULT GetMatrixPointerArray(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>     |
 
 

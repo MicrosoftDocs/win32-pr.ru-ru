@@ -4,12 +4,12 @@ ms.assetid: 3bfe4d42-a8a0-4613-9b0f-a80eef54b622
 title: Удаление службы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40b1e0e95e0ea943487a0d3fa513afa2c0563d3c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1e5f4f79b17de2e3726fcd8bc4ada8b34cc10c404789200ffa5eaa71373ff823
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117968201"
 ---
 # <a name="deleting-a-service"></a>Удаление службы
 
@@ -77,7 +77,7 @@ VOID __stdcall DoDeleteSvc()
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

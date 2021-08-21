@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a42cc793b69406e548f4c0967bea176419c1405
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 926bdefce05c42038c7184efa0c02f84a5b331853a0be22dea41f9d747b5e260
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104138514"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118011773"
 ---
 # <a name="print-pages-per-minute-attribute"></a>Атрибут print-Pages-per-minute
 
@@ -60,7 +60,7 @@ ms.locfileid: "104138514"
 | System-Only            | Неверно                                          |
 | Является однозначным       | True                                           |
 | Индексируется             | Неверно                                          |
-| В глобальном каталоге      | True                                           |
+| В глобальном каталоге      | Верно                                           |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                   |
 | Range-Lower            | \-                                             |
 | Range-Upper            | \-                                             |
@@ -102,7 +102,7 @@ ms.locfileid: "104138514"
 | System-Only            | Неверно                                          |
 | Является однозначным       | True                                           |
 | Индексируется             | Неверно                                          |
-| В глобальном каталоге      | True                                           |
+| В глобальном каталоге      | Верно                                           |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                   |
 | Range-Lower            | \-                                             |
 | Range-Upper            | \-                                             |
@@ -123,7 +123,7 @@ ms.locfileid: "104138514"
 | System-Only            | Неверно                                          |
 | Является однозначным       | True                                           |
 | Индексируется             | Неверно                                          |
-| В глобальном каталоге      | True                                           |
+| В глобальном каталоге      | Верно                                           |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                   |
 | Range-Lower            | \-                                             |
 | Range-Upper            | \-                                             |

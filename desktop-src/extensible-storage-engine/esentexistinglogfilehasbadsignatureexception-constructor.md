@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a09ae63bfdba6ae86c4aeb406a1aed915eda171b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 41245a26e922a77e34a5dbb9738b68c273652a2af4ce6138cf538a7afb71e943
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105673953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118496777"
 ---
 # <a name="esentexistinglogfilehasbadsignatureexception-constructor"></a>Конструктор Есентексистинглогфилехасбадсигнатуриксцептион
 
@@ -52,7 +52,7 @@ Dim instance As New EsentExistingLogFileHasBadSignatureException()
 public EsentExistingLogFileHasBadSignatureException()
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

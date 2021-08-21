@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef441754fd5de09e3792d9269f05d96ecc08aa23
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 76965f63afb751e810daa6feffe76774f03daaaf7278996b4c6800f0efa42dfa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415564"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118113688"
 ---
 # <a name="internetgetproxyinfo-function"></a>Функция InternetGetProxyInfo
 
@@ -91,7 +91,7 @@ BOOL InternetGetProxyInfo(
 
 Возвращает **значение true** , если успешно, или **false** в противном случае. Чтобы получить расширенные данные об ошибках, вызовите [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы вызвать **интернетжетпроксинфо**, необходимо динамически связать с ним, используя определенный тип указателя функции **пфнинтернетжетпроксинфо**. В следующем фрагменте кода показано, как объявить экземпляр этого типа указателя функции, а затем инициализировать и вызвать его.
 
@@ -122,9 +122,9 @@ BOOL InternetGetProxyInfo(
 Как и все остальные аспекты API WinINet, эта функция не может быть безопасно вызвана из DllMain или конструкторов и деструкторов глобальных объектов.
 
 > [!Note]  
-> WinINet не поддерживает реализации серверов. Кроме того, его не следует использовать из службы. Для серверных реализаций или служб используйте [службы Microsoft Windows HTTP Services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet не поддерживает реализации серверов. Кроме того, его не следует использовать из службы. для серверных реализаций или служб используйте [Microsoft Windows HTTP services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
@@ -132,7 +132,7 @@ BOOL InternetGetProxyInfo(
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                   |
 | DLL<br/>                      | <dl> <dt>JSProxy.dll</dt> </dl> |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 [**интернетинитиализеаутопроксидлл**](/windows/win32/api/winineti/nf-winineti-internetinitializeautoproxydll)
 

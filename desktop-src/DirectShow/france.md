@@ -4,12 +4,12 @@ ms.assetid: 852ead0e-3539-483d-943d-1779f7358ba5
 title: Франция
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 825efa71702dfe617325586d657665a302076369
-ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
+ms.openlocfilehash: 5f977adeb65300d4e064604c11318e962778db6e6893535cd650cccf4016de0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112068119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118401507"
 ---
 # <a name="france"></a>Франция
 
@@ -17,7 +17,7 @@ ms.locfileid: "112068119"
 
 Индексы частоты в таблицах Франции не подходят для использования в качестве номеров каналов.
 
--   [Windows 7 и более поздние версии](#windows-7-and-later)
+-   [Windows 7 и более поздних версий](#windows-7-and-later)
     -   [Широковещательные назначения Франции](#france-broadcast-assignments)
     -   [Франция назначения кабелей](#france-cable-assignments)
 -   [Предыдущие назначения каналов](#earlier-channel-assignments)
@@ -25,7 +25,7 @@ ms.locfileid: "112068119"
     -   [Франция назначения кабелей](#france-cable-assignments)
 -   [Связанные темы](#related-topics)
 
-## <a name="windows-7-and-later"></a>Windows 7 и более поздние версии
+## <a name="windows-7-and-later"></a>Windows 7 и более поздних версий
 
 ### <a name="france-broadcast-assignments"></a>Широковещательные назначения Франции
 

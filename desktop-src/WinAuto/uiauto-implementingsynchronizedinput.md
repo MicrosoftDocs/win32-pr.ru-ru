@@ -15,12 +15,12 @@ keywords:
 - интерфейсы, Исинчронизединпутпровидер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 105e75163fdac742adaad6b778c251b4b7b8ae70
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 91aa4ad93a30be26ebcbc463ade3a27d896d61727508965a86d1ed229b7d79be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105700641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118114855"
 ---
 # <a name="synchronizedinput-control-pattern"></a>Шаблон элемента управления Синчронизединпут
 
@@ -32,7 +32,7 @@ ms.locfileid: "105700641"
 
 -   [Правила и соглашения реализации](#implementation-guidelines-and-conventions)
 -   [Обязательные члены для **исинчронизединпутпровидер**](#required-members-for-isynchronizedinputprovider)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="implementation-guidelines-and-conventions"></a>Правила и соглашения реализации
 
@@ -60,18 +60,18 @@ ms.locfileid: "105700641"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Общие сведения о шаблонах элементов управления модели автоматизации пользовательского интерфейса](uiauto-controlpatternsoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 6fc19244-0f42-4d23-899d-c79e97018855
 title: Топологии
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a853cac385c8e77d2a9cdb2aa182c3c2f8a7616
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f25e141dc7338dcd2706b57a5beb47c399552075c7f04644c74376abe1cc6212
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118057699"
 ---
 # <a name="topologies"></a>Топологии
 
@@ -30,7 +30,7 @@ ms.locfileid: "105692786"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

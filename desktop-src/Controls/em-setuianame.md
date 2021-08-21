@@ -54,7 +54,7 @@ ms.locfileid: "118412329"
 
 Значение TRUE, если имя для UIA успешно установлено; в противном случае — значение FALSE.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
