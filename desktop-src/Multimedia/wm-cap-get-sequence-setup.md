@@ -3,7 +3,7 @@ title: Сообщение WM_CAP_GET_SEQUENCE_SETUP (VFW. h)
 description: Сообщение о \_ настройке "получение последовательности" WM Cap \_ \_ \_ получает текущие параметры параметров сбора потоковой передачи. Это сообщение можно отправить явно или с помощью макроса Капкаптурежетсетуп.
 ms.assetid: 2220c92a-1994-4f15-9730-1cf01972dda6
 keywords:
-- WM_CAP_GET_SEQUENCE_SETUP сообщения Windows мультимедиа
+- сообщение WM_CAP_GET_SEQUENCE_SETUP Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a5cd1585b165581f9c9646741b92c5dc841472ae
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 55122a98846f23c609eb371ab5698198729c39e967d7953295850b61764459af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118369542"
 ---
 # <a name="wm_cap_get_sequence_setup-message"></a>\_Сообщение о \_ \_ настройке получения последовательностей WM Cap \_
 
@@ -56,7 +56,7 @@ lParam = (LPARAM) (LPVOID) (LPCAPTUREPARMS) (s);
 
 Возвращает **значение true** в случае успеха или **false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Сведения о параметрах, используемых для управления потоковой передачей, см. в разделе Структура [**каптурепармс**](/windows/win32/api/vfw/ns-vfw-captureparms) .
 

@@ -4,12 +4,12 @@ ms.assetid: 79bf4d0b-624d-4652-8c4f-0ecd928a88e3
 title: Пользовательские действия отложенного выполнения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e09b91793f5d5bbc7be7099c92f8d8f212012d12
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8cec06600fa2cdb447ace579ecf9d19be62e5f4824ecf2d34d77ed879a717d06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998823"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118379181"
 ---
 # <a name="deferred-execution-custom-actions"></a>Пользовательские действия отложенного выполнения
 
@@ -25,7 +25,7 @@ ms.locfileid: "103998823"
 
 Обратите внимание, что отложенные настраиваемые действия, включая [откат настраиваемых действий](rollback-custom-actions.md) и [фиксация настраиваемых действий](commit-custom-actions.md), являются единственными типами действий, которые могут выполняться вне контекста безопасности пользователей.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

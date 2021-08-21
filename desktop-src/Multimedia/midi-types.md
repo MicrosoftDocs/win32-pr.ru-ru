@@ -12,12 +12,12 @@ keywords:
 - Типы MIDI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 723804b2673e489cd49788fba21434989acaea5a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5a06f035af217e04f89ac69be95e4665904fdce729dd8d412f59f6c633102bee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118137303"
 ---
 # <a name="midi-types"></a>Типы MIDI
 
@@ -26,16 +26,16 @@ ms.locfileid: "104067856"
 -   [кэйаррай](keyarray.md)
 -   [патчаррай](patcharray.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Справочник по MIDI](midi-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

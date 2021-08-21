@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Безопасное получение событий
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f27d156213553ee17a346d780cbea0ff82beca83
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d64db5b0289abd9a43caee6ddb3b68da94a9560b0ea8f591d95ee472cf900b4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118316531"
 ---
 # <a name="receiving-events-securely"></a>Безопасное получение событий
 
@@ -25,7 +25,7 @@ ms.locfileid: "105663773"
 -   [Олицетворение удостоверения поставщика событий](#impersonating-the-event-provider-identity)
 -   [Идентификаторы безопасности и постоянные подписки](#sids-and-permanent-subscriptions)
 -   [Создание постоянных подписок с использованием учетных записей домена](#creating-permanent-subscriptions-using-domain-accounts)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="securing-temporary-consumers"></a>Защита временных потребителей
 
@@ -110,7 +110,7 @@ HRESULT hRes = pEventFilterInstance->Put( L"EventAccess", 0,
 
 ## <a name="sids-and-permanent-subscriptions"></a>Идентификаторы безопасности и постоянные подписки
 
-Постоянная подписка не работает, если привязка, потребитель и фильтр созданы не одним пользователем. Это означает, что [**\_ \_ филтертоконсумербиндинг**](--filtertoconsumerbinding.md), [**\_ \_ евентконсумер**](--eventconsumer.md)и [**\_ \_ EventFilter**](--eventfilter.md) должны иметь одинаковое значение индивидуального идентификатора безопасности (SID) в свойстве **креаторсид** . Инструментарий управления Windows (WMI) (WMI) сохраняет это значение.
+Постоянная подписка не работает, если привязка, потребитель и фильтр созданы не одним пользователем. Это означает, что [**\_ \_ филтертоконсумербиндинг**](--filtertoconsumerbinding.md), [**\_ \_ евентконсумер**](--eventconsumer.md)и [**\_ \_ EventFilter**](--eventfilter.md) должны иметь одинаковое значение индивидуального идентификатора безопасности (SID) в свойстве **креаторсид** . Windows Инструментарий управления (WMI) сохраняет это значение.
 
 ## <a name="creating-permanent-subscriptions-using-domain-accounts"></a>Создание постоянных подписок с использованием учетных записей домена
 
@@ -143,9 +143,9 @@ HRESULT hRes = pEventFilterInstance->Put( L"EventAccess", 0,
     }
 ```
 
-В случае междоменных ситуаций добавьте пользователей, прошедших проверку подлинности, в группу доступа Windows Authorization.
+в случае междоменных ситуаций добавьте пользователей, прошедших проверку подлинности, в "Windows группу доступа авторизации".
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

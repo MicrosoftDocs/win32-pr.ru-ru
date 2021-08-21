@@ -27,7 +27,7 @@ ms.locfileid: "118449817"
 <xs:complexType name="LineType" />
 ```
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

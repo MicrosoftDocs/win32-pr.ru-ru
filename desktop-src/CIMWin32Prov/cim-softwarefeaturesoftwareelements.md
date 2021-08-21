@@ -112,7 +112,7 @@ class CIM_SoftwareFeatureSoftwareElements : CIM_Component
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

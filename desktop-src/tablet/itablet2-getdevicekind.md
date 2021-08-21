@@ -66,7 +66,7 @@ HRESULT GetDeviceKind(
 
 этот интерфейс и метод появились в Windows Vista.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

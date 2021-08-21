@@ -6,12 +6,12 @@ keywords:
 - Функция Авифилеинфо
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba1ffe866e454a898c5c3b91c7721c24f6a861ed
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ab95186b1ec8913623b0ab02e0d2bc5556302d4dcd03f7737ac12c5872b9f2fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068391"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118371709"
 ---
 # <a name="reading-from-a-file"></a>Чтение из файла
 
@@ -19,9 +19,9 @@ ms.locfileid: "104068391"
 
 Чтобы получить дополнительные сведения в файле AVI, используйте функцию [**авифилереаддата**](/windows/desktop/api/Vfw/nf-vfw-avifilereaddata) . Дополнительные сведения применимы ко всему файлу и не включаются в обычные заголовки файлов. Например, имя компании или лица, которые содержат авторские права на файл, могут быть дополнительными сведениями. Дополнительная информация не соответствует конкретному формату. Это может быть отдельный файл. **Авифилереаддата** Возвращает дополнительные сведения в буфер, предоставляемый приложением.
 
- 
+ 
 
- 
+ 
 
 
 

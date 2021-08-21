@@ -4,12 +4,12 @@ ms.assetid: 8c59577b-34ea-4675-aaea-a2732fd5ce14
 title: Управление файлами (службы компонентов)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e785b8fd39d94bcf623810bca950862d22ec8762
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 31685287e783dc5ae45d564897a37733568cc150d9af43322d5f435100e8f199
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104538723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118307319"
 ---
 # <a name="file-management"></a>Управление файлами
 
@@ -41,7 +41,7 @@ ms.locfileid: "104538723"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

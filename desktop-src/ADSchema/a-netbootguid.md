@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b7c09d6f9139580ad329b47f13999d348abf5a87
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d40eb39a4dcde5111e67734b7a0cc8cf3518f3fa8b03fa587744fb7fdec3a2c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103893738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118176288"
 ---
 # <a name="netboot-guid-attribute"></a>Атрибут нетбут-GUID
 
@@ -101,7 +101,7 @@ ms.locfileid: "103893738"
 | MAPI-Id                | \-                                        |
 | System-Only            | Неверно                                     |
 | Является однозначным       | True                                      |
-| Индексируется             | True                                      |
+| Индексируется             | Верно                                      |
 | В глобальном каталоге      | True                                      |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                              |
 | Range-Lower            | 16                                        |
@@ -165,7 +165,7 @@ ms.locfileid: "103893738"
 | System-Only            | Неверно                                     |
 | Является однозначным       | True                                      |
 | Индексируется             | True                                      |
-| В глобальном каталоге      | True                                      |
+| В глобальном каталоге      | Верно                                      |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                              |
 | Range-Lower            | 16                                        |
 | Range-Upper            | 16                                        |

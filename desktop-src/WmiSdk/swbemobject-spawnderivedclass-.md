@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 2b26e1d894e5ccc0d0fcec9d7ac9ad0101d18c7a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0ed0a01926c76ecfc4d393a4de8225d7d0c98a9904f113aed18cd1cb5f8ccabb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118313798"
 ---
 # <a name="swbemobjectspawnderivedclass_-method"></a>SWbemObject. Спавндериведкласс, \_ метод
 
@@ -89,7 +89,7 @@ objNewClass = .SpawnDerivedClass_( _
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемый объект автоматически становится подклассом текущего объекта. Это поведение не может быть переопределено. Нет других методов, с помощью которых можно создавать производные классы.
 

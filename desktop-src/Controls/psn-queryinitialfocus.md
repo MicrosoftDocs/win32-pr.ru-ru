@@ -3,7 +3,7 @@ title: Код уведомления PSN_QUERYINITIALFOCUS (Пршт. h)
 description: Посылается на страницу свойств, чтобы предоставить странице страницы свойств возможность указать, какой элемент управления диалогового окна должен получать исходный фокус. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: 29b5e598-75b2-4b6f-acdb-171b1f7a1850
 keywords:
-- PSN_QUERYINITIALFOCUS кода уведомления элементы управления Windows
+- PSN_QUERYINITIALFOCUS кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc542332440009f6564f384b415657e725edda00
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ffc82fe11893e728fbc9301868d9acdca5f7110bedfd37b4a16b473de0821f33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118169644"
 ---
 # <a name="psn_queryinitialfocus-notification-code"></a>\_Код уведомления PSN куеринитиалфокус
 
@@ -49,7 +49,7 @@ PSN_QUERYINITIALFOCUS
 
 Чтобы указать, какой элемент управления должен получать фокус, возвратите маркер элемента управления. В противном случае возвращается ноль и фокус перейдет к элементу управления по умолчанию. Чтобы задать возвращаемое значение, процедура диалогового окна должна вызвать функцию [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) со значением **DWL \_ Мсгресулт** и вернуть значение **true**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение не должно вызывать функцию [**SetFocus**](/windows/desktop/api/winuser/nf-winuser-setfocus) при обработке этого кода уведомления. Возвратить маркер элемента управления, который должен получать фокус, а диспетчер страниц свойств будет управлять изменением фокуса.
 
@@ -69,15 +69,15 @@ case PSN_QUERYINITIALFOCUS :
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                               |
-| Header<br/>                   | <dl> <dt>Пршт. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                               |
+| Заголовок<br/>                   | <dl> <dt>Пршт. h</dt> </dl> |
 
 
 

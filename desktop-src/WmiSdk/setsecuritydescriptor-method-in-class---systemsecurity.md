@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - All
-ms.openlocfilehash: fcdc192801b839451cee256f57090780818d2046
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d44322820514fc676c1b3ad304375f5f3ce8966a73217c6505f24659914f7853
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702559"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118315631"
 ---
 # <a name="setsecuritydescriptor-method-of-the-__systemsecurity-class"></a>Метод Сетсекуритидескриптор \_ \_ класса системсекурити
 
@@ -88,7 +88,7 @@ uint32 SetSecurityDescriptor(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Экземпляр [**Win32 \_ SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) представляет тип данных [**\_ \_ элемента управления дескриптора безопасности**](/windows/desktop/SecAuthZ/security-descriptor-control) и содержит [*список управления доступом на уровне пользователей*](/windows/desktop/SecGloss/d-gly) (DACL) и [*системный список управления доступом*](/windows/desktop/SecGloss/a-gly) (SACL). Дополнительные сведения см. в разделе [списки управления доступом](/windows/desktop/SecAuthZ/access-control-lists).
 
@@ -98,11 +98,11 @@ uint32 SetSecurityDescriptor(
 
 Следующие значения в [**\_ \_ элементе управления дескриптора безопасности**](/windows/desktop/SecAuthZ/security-descriptor-control) определяют, обновляются ли списки DACL или SACL или оба этих элемента.
 
--   **\_присутствие DACL \_ SE**
+-   **SE \_ \_имеется DACL**
 
     Указывает, что список DACL должен быть обновлен. Если значение не задано, Инструментарий WMI сохраняет исходное значение DACL.
 
--   **\_имеется список SACL для SE \_**
+-   **SE \_ Список SACL \_ имеется**
 
     Указывает, что список SACL должен быть обновлен. Если значение не задано, Инструментарий WMI сохраняет исходное значение списка SACL. Для обновления списка SACL учетная запись должна иметь права **SeSecurityPrivilege** . Для сценариев имя привилегии — **SeSecurityPrivilege**. Дополнительные сведения см. в разделе [**константы прав доступа**](privilege-constants.md).
 
@@ -126,7 +126,7 @@ uint32 SetSecurityDescriptor(
 
 <dl> <dt>
 
-[**\_\_системсекурити**](--systemsecurity.md)
+[**\_\_SystemSecurity**](--systemsecurity.md)
 </dt> <dt>
 
 [Настройка дескрипторов безопасности Намепаце](setting-namespace-security-descriptors.md)
