@@ -4,12 +4,12 @@ ms.assetid: 1fa6ea9f-fd30-4fa2-a0e6-1647273bcc35
 title: Атрибут MF_MP2DLNA_STATISTICS (Mfmp2dlna. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a51620c1ca093a422a5e4657edcfbfaa66ae6cd3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47a80bf0682cf6e46845a968122bf512a6e9cff15df8fb8e0312e1c63c8dab0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104544367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973623"
 ---
 # <a name="mf_mp2dlna_statistics-attribute"></a>\_ \_ Атрибут статистики MF MP2DLNA
 
@@ -23,25 +23,25 @@ ms.locfileid: "104544367"
 
 Чтобы получить этот атрибут, вызовите метод [**имфаттрибутес::-BLOB**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getblob).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Во время потоковой передачи приемник мультимедиа DLNA обновляет этот атрибут со статистикой о кодировке и мультиплексировании потоков MPEG-2. Приложение может в любое время запросить этот атрибут для получения последних значений.
 
 Установка этого атрибута для приемника мультимедиа DLNA не оказывает никакого воздействия.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                             |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                                |
-| Header<br/>                   | <dl> <dt>Mfmp2dlna. h</dt> </dl> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                                |
+| Заголовок<br/>                   | <dl> <dt>Mfmp2dlna. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

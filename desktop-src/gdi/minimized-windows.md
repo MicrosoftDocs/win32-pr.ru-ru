@@ -1,17 +1,17 @@
 ---
 description: Система сокращает главное окно приложения (перекрывает стиль) в уменьшенное окно, когда пользователь щелкает пункт "минимизировать" в меню "окно" или приложение вызывает функцию ShowWindow и задает значение, например "свести к сведению" \_ .
 ms.assetid: a52dba49-e4ec-45e2-a00f-211a58e28773
-title: Уменьшенные окна
+title: Сведенные Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c792a90dba2526b6d09fabf8281fc74ebfe96667
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1d9633c3bcba452e4708c6a48557fe547eff03c4e2a6801e3669da2faa768272
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103811933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118760034"
 ---
-# <a name="minimized-windows"></a>Уменьшенные окна
+# <a name="minimized-windows"></a>Сведенные Windows
 
 Система сокращает главное окно приложения (перекрывает стиль) в уменьшенное окно, когда пользователь щелкает пункт "минимизировать" в меню "окно" или приложение вызывает функцию [**ShowWindow**](/windows/win32/api/winuser/nf-winuser-showwindow) и задает значение, например "свести к сведению" \_ . Свертывание окна ускоряет производительность системы, уменьшая объем работы, которую должно выполнить приложение при обновлении главного окна.
 

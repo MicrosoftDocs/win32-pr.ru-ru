@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 65127d313309ca7d670a99c912531db0657a9b51
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1779c6bcd37baad4bd423d0a46abd3741dd3a7939c1615a5871e6746729558c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675023"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118952573"
 ---
 # <a name="ipropertysetterloadxml-method"></a>Метод Ипропертисеттер:: LoadXML
 
@@ -69,14 +69,14 @@ HRESULT LoadXML(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Как правило, приложениям не требуется использовать этот метод. Алгоритм DES использует его для внутренней загрузки свойств из файлов КСТЛ.
 
 Чтобы использовать этот метод, создайте объект **IXMLDocument** и используйте его для синтаксического анализа XML-файла. Затем используйте объект **IXMLDocument** для получения объектов **иксмлелемент** . Если у объекта есть свойства, можно передать указатель **иксмлелемент** в метод **LoadXml** . Метод загружает свойства в метод задания свойства.
 
 > [!Note]  
-> Интерфейсы **IXMLDocument** и **Иксмлелемент** реализуются в службах Microsoft XML Core Services (MSXML) версии 1,0, но не реализованы в более поздних версиях MSXML.
+> интерфейсы **IXMLDocument** и **иксмлелемент** реализуются в MSXML (MSXML) версии 1,0, но не реализованы в более поздних версиях MSXML.
 
  
 
@@ -86,22 +86,22 @@ HRESULT LoadXML(
  
 
 > [!Note]  
-> Чтобы получить Кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (SP1).
+> чтобы получить кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (sp1).
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Кедит. h</dt> </dl>      |
+| Заголовок<br/>  | <dl> <dt>Кедит. h</dt> </dl>      |
 | Библиотека<br/> | <dl> <dt>Стрмиидс. lib</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

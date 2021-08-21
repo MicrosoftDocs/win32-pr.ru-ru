@@ -17,12 +17,12 @@ keywords:
 - Реализация IAccessibleEx
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f45311deb8d3ec20fb8102285cddea1339373f0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9bb313205a69f6b69d07a377b006365837ee2a1410c51962000ea4ccff8b9037
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987566"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118823899"
 ---
 # <a name="adding-ui-automation-functionality-to-active-accessibility-servers"></a>Добавление функций автоматизации пользовательского интерфейса на серверы Active Accessibility
 
@@ -44,7 +44,7 @@ ms.locfileid: "103987566"
 
 -   [Предоставление IAccessibleEx](#exposing-iaccessibleex)
 -   [Реализация IAccessibleEx](#implementing-iaccessibleex)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="exposing-iaccessibleex"></a>Предоставление IAccessibleEx
 
@@ -119,13 +119,13 @@ HRESULT CListboxAccessibleObject::GetObjectForChild(long idChild, IAccessibleEx 
 
 Полный пример реализации см. в разделе [обеспечение доступности настраиваемых элементов управления, часть 5. Использование IAccessibleEx для добавления поддержки модели автоматизации пользовательского интерфейса в пользовательский элемент управления](/previous-versions/msdn10/cc307850(v=msdn.10)) в MSDN.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Рекомендации программиста поставщика модели автоматизации пользовательского интерфейса](uiauto-providerportal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -6,12 +6,12 @@ keywords:
 - тфедиткукие
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 69281bc38b5df6c22dd5306877aecdb8025af84a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: caa397354ea7aa8addca4008d321162a99073345efc0761b65687f704a573ef3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118874082"
 ---
 # <a name="tfeditcookie"></a>тфедиткукие
 
@@ -24,7 +24,7 @@ typedef DWORD TfEditCookie;
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Тип данных **тфедиткукие** предоставляется диспетчером TSF и используется клиентом (приложением или службой текстового ввода) для обнаружения сеанса изменения с блокировкой только для чтения или для чтения и записи в различных методах.
 
@@ -42,15 +42,15 @@ typedef DWORD TfEditCookie;
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                    |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                          |
-| Распространяемые компоненты<br/>          | TSF 1,0 в Windows 2000 профессиональная<br/>                                      |
-| Header<br/>                   | <dl> <dt>Мсктф. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                    |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                          |
+| Распространяемые компоненты<br/>          | TSF 1,0 на Windows 2000 Professional<br/>                                      |
+| Заголовок<br/>                   | <dl> <dt>Мсктф. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Мсктф. idl</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

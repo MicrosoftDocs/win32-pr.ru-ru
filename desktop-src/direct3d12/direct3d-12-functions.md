@@ -5,12 +5,12 @@ ms.assetid: C0F9A52C-483D-40B2-9E1F-CB92ADDC2856
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 11/27/2018
-ms.openlocfilehash: 99ec8516634a0a59262df9862e03732c9d6d579a
-ms.sourcegitcommit: 40a1246849dba8ececf54c716b2794b99c96ad50
+ms.openlocfilehash: 3b229932083d424d3ee767866e8465ff4f8de70dbb4bb9536f5096dcb607544b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "105700783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989703"
 ---
 # <a name="core-functions"></a>Базовые функции
 
@@ -28,7 +28,7 @@ ms.locfileid: "105700783"
 | [**D3D12SerializeRootSignature**](/windows/desktop/api/d3d12/nf-d3d12-d3d12serializerootsignature) | Сериализует корневую подпись версии 1,0, которую можно передать в [**ID3D12Device:: креатерутсигнатуре**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createrootsignature). |
 | [**D3D12SerializeVersionedRootSignature**](/windows/desktop/api/d3d12/nf-d3d12-d3d12serializeversionedrootsignature) | Сериализует корневую подпись любой версии, которую можно передать в [**ID3D12Device:: креатерутсигнатуре**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createrootsignature). |
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 * [Справочник по коду](direct3d-12-core-reference.md)
 * [Справочник по Direct3D 12](direct3d-12-reference.md)

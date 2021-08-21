@@ -4,12 +4,12 @@ description: Закладка определяет событие в канал�
 ms.assetid: e7eeafc3-deb9-4cdc-9763-f784db7333be
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64d7fb4aef883a51084420c5a2d78e4f0ff25dac
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d4ebc6c8f48bff25989fedf056e87a7eabe4d420b2e923d056ef24116b24a33f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105691547"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119056142"
 ---
 # <a name="bookmarking-events"></a>События закладок
 
@@ -461,6 +461,6 @@ cleanup:
 
 
 
- 
+ 
 
- 
+ 

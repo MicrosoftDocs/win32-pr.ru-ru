@@ -4,12 +4,12 @@ ms.assetid: 56b39a3d-48a4-4620-9652-ec41ea4d6423
 title: Device-Independent растровые изображения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1aa35201a9a27c2d16a5a18b0125d25a3938890c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5a6672857aadda714e7016616ca78654d7da102b48c1229c5b322953fc716f5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118761393"
 ---
 # <a name="device-independent-bitmaps"></a>Device-Independent растровые изображения
 
@@ -42,7 +42,7 @@ ms.locfileid: "104155646"
 
 Палитра представляется массивом структур [**ргбкуад**](/windows/win32/api/wingdi/ns-wingdi-rgbquad) , определяющих компоненты интенсивности красного, зеленого и синего для каждого цвета в цветовой палитре устройства показа. Каждый цветовой индекс в массиве палитры сопоставляется с конкретным пикселем в прямоугольной области, связанной с точечным рисунком. Размер этого массива в битах эквивалентен ширине прямоугольника в пикселях, умноженной на высоту прямоугольника (в пикселях), умноженную на число цветовых битов для устройства. Приложение может получить размер палитры устройства, вызвав функцию [**жетдевицекапс**](/windows/desktop/api/Wingdi/nf-wingdi-getdevicecaps) , указав нумколорс в качестве второго аргумента.
 
-Windows поддерживает сжатие массива палитры для 8-битовых и 4-битных рисунков DIB. Эти массивы можно сжимать с помощью схемы кодирования длины выполнения (RLE). Схема RLE использует 2-байтовые значения, первый байт, указывающий количество последовательных пикселов, использующих индекс цвета, и второй байт, указывающий индекс. Дополнительные сведения о сжатии растровых изображений см. в описании структур [**битмапинфохеадер**](/previous-versions//dd183376(v=vs.85)), [**битмапфилехеадер**](/windows/win32/api/wingdi/ns-wingdi-bitmapfileheader), [**BITMAPV4HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv4header)и [**BITMAPV5HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv5header) .
+Windows поддерживает сжатие массива палитры для 8-битовых и 4-битных рисунков dib. Эти массивы можно сжимать с помощью схемы кодирования длины выполнения (RLE). Схема RLE использует 2-байтовые значения, первый байт, указывающий количество последовательных пикселов, использующих индекс цвета, и второй байт, указывающий индекс. Дополнительные сведения о сжатии растровых изображений см. в описании структур [**битмапинфохеадер**](/previous-versions//dd183376(v=vs.85)), [**битмапфилехеадер**](/windows/win32/api/wingdi/ns-wingdi-bitmapfileheader), [**BITMAPV4HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv4header)и [**BITMAPV5HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv5header) .
 
 Приложение может создать DIB из DDB, инициализируя необходимые структуры и вызывая функцию [**жетдибитс**](/windows/desktop/api/Wingdi/nf-wingdi-getdibits) . Чтобы определить, поддерживает ли устройство эту функцию, вызовите функцию [**жетдевицекапс**](/windows/desktop/api/Wingdi/nf-wingdi-getdevicecaps) , указав \_ битовую карту RC di в \_ качестве флага растеркапс.
 

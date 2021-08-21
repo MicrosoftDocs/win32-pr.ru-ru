@@ -4,12 +4,12 @@ description: В этом разделе описаны перечисления,
 ms.assetid: 9E415188-6B50-40D7-A208-D1E3708CAC9A
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 281703092d2dba15b3901bb7528f18cd7480cc46
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e5578b6ab5efe9f81a8d26aebf975dfced16cb147f9f0a1856332dd2d85b489e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103792270"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043362"
 ---
 # <a name="directcomposition-enumerations"></a>Перечисления DirectComposition
 
@@ -32,7 +32,7 @@ ms.locfileid: "103792270"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

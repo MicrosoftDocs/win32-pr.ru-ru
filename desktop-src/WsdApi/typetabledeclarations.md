@@ -4,12 +4,12 @@ ms.assetid: e55a140c-3b2b-4f90-99e3-f62c892a8bae
 title: Типетабледекларатионс, элемент
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c983d1850c84295ff4128b20a655faa65c36995f
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: a88b26433ebad3d38512e5c5b3073c6ddf4205ac3c82265f77d61e463f6f12d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107995721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991534"
 ---
 # <a name="typetabledeclarations-element"></a>Типетабледекларатионс, элемент
 
@@ -39,7 +39,7 @@ ms.locfileid: "107995721"
 
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 На таблицы схем XML ссылается большая часть созданного кода. Этот элемент используется для создания включаемых файлов.
 

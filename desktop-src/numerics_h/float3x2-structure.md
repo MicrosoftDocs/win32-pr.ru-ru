@@ -98,8 +98,8 @@ ms.locfileid: "118971763"
 | Требование | Значение |
 |-|-|
 | Пространство имен | Windows:: Foundation:: numerics |
-| Header | <dl> <dt>Виндовснумерикс. h</dt> </dl> |
+| Заголовок | <dl> <dt>Виндовснумерикс. h</dt> </dl> |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 [API-интерфейсы виндовснумерикс. h](windowsnumerics-h-apis-portal.md)

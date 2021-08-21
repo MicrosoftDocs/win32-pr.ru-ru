@@ -1,6 +1,6 @@
 ---
 title: Архитектура (платформа текстовых служб)
-description: Архитектура
+description: Architecture
 ms.assetid: 6ef6ba1f-fcbb-4ede-bc6f-3da66135ea69
 keywords:
 - Платформа текстовых служб (TSF), архитектура
@@ -26,12 +26,12 @@ keywords:
 - Диспетчер TSF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e0a300307b3099b4a28a883d5c830c4078cd0bb
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 192c7e6694b4e6a0883cfe44a7251e089e13a855fc4bc266c21dfb2ea1b0e43e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104550114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118880157"
 ---
 # <a name="architecture-text-services-framework"></a>Архитектура (платформа текстовых служб)
 

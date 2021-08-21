@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Регистрация поставщика методов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a399f90c6fc6f97e9ada8051055505b43885da3b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 31a85fb93a30f6a996dd8e7255cc53f7a58a7fe37df35eb16bdca8de038e8704
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265370"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992564"
 ---
 # <a name="registering-a-method-provider"></a>Регистрация поставщика методов
 

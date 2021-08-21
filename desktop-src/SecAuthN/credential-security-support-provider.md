@@ -4,12 +4,12 @@ ms.assetid: b3006b89-d9fc-4444-a3c8-ad2698de501c
 title: Поставщик поддержки безопасности учетных данных
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e9aa961f37043d84dc21280ea7d5ecb9c27c075
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5b4059da0dcc1e6c963ab011ad03415175849191374732f3d1df395914aebe49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263470"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008742"
 ---
 # <a name="credential-security-support-provider"></a>Поставщик поддержки безопасности учетных данных
 
@@ -35,7 +35,7 @@ ms.locfileid: "104263470"
 
 | Раздел                                                                         | Описание                                                                                       |
 |-------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| [Параметры групповая политика CredSSP](credssp-group-policy-settings.md)<br/> | Делегирование учетных данных CredSSP можно контролировать с помощью параметров групповой политики.<br/> |
+| [групповая политика CredSSP Параметры](credssp-group-policy-settings.md)<br/> | Делегирование учетных данных CredSSP можно контролировать с помощью параметров групповой политики.<br/> |
 
 
 

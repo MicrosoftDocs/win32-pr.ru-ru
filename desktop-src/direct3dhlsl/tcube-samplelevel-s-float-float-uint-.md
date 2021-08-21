@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a31eaa2351b4758c29327aaa08ccee5ed0c3056c
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 844ccc5b3f340b2d219865adb34f7717996bfbd2285d3f80337ce2f9ea4d31df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104424557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043202"
 ---
 # <a name="samplelevelsamplelevelsfloatfloatuint-function-for-texturecube"></a>Функция Самплелевел:: Самплелевел (S, float, float, uint) для Текстурекубе
 

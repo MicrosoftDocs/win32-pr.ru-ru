@@ -4,12 +4,12 @@ ms.assetid: 7634bd05-fca0-4538-94da-7af6e3d8e6b8
 title: 'Пример программы на языке C: кодирование и декодирование данных'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b694bcb9836dfa750940ef75d41ba703251ee190
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 45c5840711fbbf71badd6bc50dec7cc154a7c8bf9bf7caaacc4fa9b5d9b00f7c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119007702"
 ---
 # <a name="example-c-program-encoding-and-decoding-data"></a>Пример программы на языке C: кодирование и декодирование данных
 

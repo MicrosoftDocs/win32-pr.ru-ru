@@ -10,12 +10,12 @@ keywords:
 - Active Directory, использование, привязка, бессерверная привязка
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 492a1ed115c4b0d9160305eb54b08c24db86abb8
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 2d3c88386ae95efdebd031199e135ff4c5d610e402b9cba522256df5eef097e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104487404"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024932"
 ---
 # <a name="serverless-binding-and-rootdse"></a>Бессерверная привязка и RootDSE
 
@@ -49,6 +49,6 @@ RootDSE — это хорошо известное и надежное расп�
 
 Дополнительные сведения и пример кода, в котором показано, как использовать бессерверную привязку и rootDSE, см. в разделе [пример кода для получения различающегося имени домена](example-code-for-getting-the-distinguished-name-of-the-domain.md).
 
- 
+ 
 
- 
+ 

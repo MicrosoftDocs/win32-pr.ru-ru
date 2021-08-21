@@ -1,17 +1,17 @@
 ---
 description: Для делегирования учетных данных протокол CredSSP необходимо указать, к каким серверам можно делегировать.
 ms.assetid: 15ed9a62-2eee-4f29-92c5-ccf2754cdf13
-title: Параметры групповая политика CredSSP
+title: групповая политика CredSSP Параметры
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a159b7a162df3eda692462a3d3972159e61797e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a8efaaab1b49efba89c9fa5788f60df372991f388c474d531eff8f59205af441
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105650882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008702"
 ---
-# <a name="credssp-group-policy-settings"></a>Параметры групповая политика CredSSP
+# <a name="credssp-group-policy-settings"></a>групповая политика CredSSP Параметры
 
 Для делегирования учетных данных [протокол CredSSP](credential-security-support-provider.md) необходимо указать, к каким серверам можно делегировать. Чтобы указать эти серверы, измените параметры в редакторе групповая политика (ГПЕ) оснастку консоли управления (MMC). Параметры ГПЕ, управляющие делегированием, находятся в разделе **Конфигурация компьютера \| Административные шаблоны \| \| Делегирование системных учетных данных**.
 

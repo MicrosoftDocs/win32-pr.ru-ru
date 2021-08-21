@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 3ec3e65cfc4acb5a903bcf18d2f707d39127e975
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 869bd40b49801a1469ca08baa3a493cc23e6f6238624380411c8d91de829c79b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694234"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118990374"
 ---
 # <a name="id3dx10meshgetdeviceindexbuffer-method"></a>Метод ID3DX10Mesh:: Жетдевицеиндексбуффер
 
@@ -55,7 +55,7 @@ HRESULT GetDeviceIndexBuffer(
 
 Возвращаемое значение является одним из значений, перечисленных в [кодах возврата Direct3D 10](d3d10-graphics-reference-returnvalues.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если буфер индексов сетки еще не зафиксирован на устройстве, этот API будет автоматически зафиксировать буфер, прежде чем он вернет указатель на буфер.
 
@@ -65,7 +65,7 @@ HRESULT GetDeviceIndexBuffer(
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>D3DX10. lib</dt> </dl> |
 
 

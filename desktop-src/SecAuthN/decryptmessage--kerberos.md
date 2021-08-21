@@ -4,12 +4,12 @@ ms.assetid: 9e699f7c-f738-4702-bdef-fb2c276c38fc
 title: Функция Декриптмессаже (Kerberos)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: b32968ea83ca0403a5d8dd1579c4e03f30776c19
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 62add8d4b33f356aeae5bbbf8fa16b19a0b5e419e0ab6c0a6847a3ed087ce726
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104154771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008542"
 ---
 # <a name="decryptmessage-kerberos-function"></a>Функция Декриптмессаже (Kerberos)
 
@@ -67,7 +67,7 @@ SECURITY_STATUS SEC_Entry DecryptMessage(
 | **с \_ \_ неполным \_ сообщением электронной почты** | Данные во входном буфере неполны. Приложению необходимо прочитать дополнительные данные с сервера и вызвать [**декриптмессаже (Kerberos)**](decryptmessage--kerberos.md) еще раз. |
 | **с \_ не \_ \_ по \_ порядку**   | Сообщение не было получено в правильной последовательности.                                                                                                                            |
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Иногда приложение считывает данные от удаленной стороны, попытается расшифровать их с помощью **декриптмессаже (Kerberos)** и обнаружит, что **декриптмессаже (Kerberos)** закончились, но выходные буферы пусты. Это нормальное поведение, и приложения должны уметь работать с ним.
 
@@ -75,17 +75,17 @@ SECURITY_STATUS SEC_Entry DecryptMessage(
 
 **Windows XP:** Эта функция также называлась **унсеалмессаже**. Теперь приложения должны использовать только **декриптмессаже (Kerberos)** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------|
-| Минимальная версия клиента | Только для \[ классических приложений Windows XP\]          |
-| Минимальная версия сервера | \[Только для настольных приложений Windows Server 2003\] |
-| Header                   | SSPI. h (включая Security. h)               |
+| Минимальная версия клиента | Windows \[Только классические приложения XP\]          |
+| Минимальная версия сервера | Windows Только для \[ настольных приложений сервера 2003\] |
+| Заголовок                   | SSPI. h (включая Security. h)               |
 | Библиотека                  | Secur32. lib                               |
 | DLL                      | Secur32.dll                               |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Функции SSPI](authentication-functions.md#sspi-functions)
 - [**Енкриптмессаже (Kerberos)**](encryptmessage--kerberos.md)

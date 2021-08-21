@@ -4,12 +4,12 @@ description: Раздел реестра Пеапсерверусеаллпур�
 ms.assetid: e239fb88-4bf3-49b6-a95c-67a8c060a50d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc90f083f9020ad02960d7620a2ab54706df203e
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: 3a5086a0067bab70a0e222def34d1adf236b37127c0d1ff6c91ac83b8b28c73c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "104335739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119042822"
 ---
 # <a name="peapserveruseallpurposecert"></a>пеапсерверусеаллпурпосецерт
 
@@ -19,10 +19,10 @@ ms.locfileid: "104335739"
 
 ```
 HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Rasman\PPP\EAP\25
-   PeapServerUseAllPurposeCert = value
+   PeapServerUseAllPurposeCert = value
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это значение **reg \_ DWORD** .
 
@@ -35,20 +35,20 @@ HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Rasman\PPP\EAP\25
 
 
 
- 
+ 
 
 Если это значение реестра отсутствует, для аутентификации PEAP выбираются сертификаты всех целей в хранилище сертификатов клиента или сервера.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Параметры реестра EAPHost](eaphost-registry-settings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

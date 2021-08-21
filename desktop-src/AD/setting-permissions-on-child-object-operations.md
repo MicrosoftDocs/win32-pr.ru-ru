@@ -8,12 +8,12 @@ keywords:
 - объекты AD, Child, установка разрешений для операций с дочерними объектами
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d407e9b0db865c5df8d5dab53bd97f9f1afa1497
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 1f136119d5e61ea312748d5cd64cabb8c0aee0b651d8b192519dc2d74e2045cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104133654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024772"
 ---
 # <a name="setting-permissions-on-child-object-operations"></a>Установка разрешений для операций с дочерними объектами
 
@@ -31,6 +31,6 @@ ms.locfileid: "104133654"
 
 Дополнительные сведения и пример кода, который можно использовать для задания ACE, управляющего операциями с дочерними объектами, см. в разделе [пример кода для настройки записи ACE в объекте каталога](example-code-for-setting-an-ace-on-a-directory-object.md).
 
- 
+ 
 
- 
+ 

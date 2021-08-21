@@ -4,12 +4,12 @@ ms.assetid: ca484eec-31c6-4790-9232-3ed67263f6fb
 title: Процесс создания теневой копии
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4239e2b671edcaeb35b404d9b9411b43316c0212
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dae0d0cff8e4afdbecb5c61a934be1a9c9b731cbdbee8778afd714f6802ca2ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103809850"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119056362"
 ---
 # <a name="the-shadow-copy-creation-process"></a>Процесс создания теневой копии
 
@@ -42,9 +42,9 @@ ms.locfileid: "103809850"
 
 ### <a name="transportable-shadow-copies-on-a-san"></a>Перепереносимые теневые копии в сети SAN
 
-Начиная с Windows Server 2003, Datacenter Edition и Windows Server 2003, Enterprise Edition, VSS позволяет переносить наборы теневых копий в сети SAN. С точки зрения поставщика, способного переносить LUN между узлами, между непереносимым и переносимым набором теневых копий не существует различий.
+начиная с Windows server 2003, datacenter Edition и Windows Server 2003 выпуск Enterprise, VSS позволяет переносить наборы теневых копий в сети SAN. С точки зрения поставщика, способного переносить LUN между узлами, между непереносимым и переносимым набором теневых копий не существует различий.
 
-**Windows server 2003, Standard Edition, Windows Server 2003, Web Edition и Windows XP:** Перепереносимые наборы теневых копий не поддерживаются. Все выпуски Windows Server 2003 с пакетом обновления 1 (SP1) поддерживают переносимые наборы теневых копий.
+**Windows server 2003, выпуск Standard, Windows server 2003, Web Edition и Windows XP:** Перепереносимые наборы теневых копий не поддерживаются. все выпуски Windows Server 2003 с пакетом обновления 1 (SP1) поддерживают переносимые наборы теневых копий.
 
 Перепереносимые наборы теневых копий должны создаваться с помощью атрибута **VSS \_ VOLSNAP \_ attr \_** , добавленного к контексту теневой копии, описанному в разделе Перечисление [**\_ \_ \_ \_ атрибутов моментальных снимков тома VSS**](/windows/desktop/api/Vss/ne-vss-vss_volume_snapshot_attributes) . Все тома в наборе должны быть перепереносимыми. При возврате успеха из [**ивсшардвареснапшотпровидер:: арелунссуппортед**](/windows/desktop/api/VsProv/nf-vsprov-ivsshardwaresnapshotprovider-arelunssupported)поставщик указывает, что он не поддерживает LUN, а также может передавать LUN. Создание транспортного набора теневых копий завершается, когда VSS записывает сведения о LUN в документ компонентов резервного копирования. Набор теневых копий может быть импортирован только один раз после первоначального создания.
 

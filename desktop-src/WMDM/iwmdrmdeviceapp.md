@@ -14,18 +14,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9cf44295c9972d7549eb4a82fda7c415ba81c31d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d618a0534592ebe01a961ba9b0fdd462fcda70597b5f909b30e8fb92f6bdbeb4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105691626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055632"
 ---
 # <a name="iwmdrmdeviceapp-interface"></a>Интерфейс Ивмдрмдевицеапп
 
-\[Компонент Windows Media DRM является устаревшим и не должен использоваться. Вместо этого используйте [Microsoft PlayReady](/windows/uwp/audio-video-camera/playready-client-sdk) .\]
+\[функция DRM Windows мультимедиа является устаревшей и не должна использоваться. вместо этого используйте [Microsoft PlayReady](/windows/uwp/audio-video-camera/playready-client-sdk) .\]
 
-Интерфейс **ивмдрмдевицеапп** позволяет приложению отслеживать, синхронизировать лицензии и обновлять компоненты DRM устройства. Этот интерфейс будет работать только с устройствами, поддерживающими Windows Media DRM 10 для переносных устройств.
+Интерфейс **ивмдрмдевицеапп** позволяет приложению отслеживать, синхронизировать лицензии и обновлять компоненты DRM устройства. этот интерфейс будет работать только с устройствами, которые поддерживают Windows Media DRM 10 для переносных устройств.
 
 Чтобы получить этот интерфейс, вызовите **CoCreateInstance**, передав CLSID \_ вмдрмдевицеапп.
 
@@ -58,7 +58,7 @@ ms.locfileid: "105691626"
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

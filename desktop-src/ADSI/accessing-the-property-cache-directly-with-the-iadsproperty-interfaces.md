@@ -9,12 +9,12 @@ keywords:
 - кэширование свойств ADSI с использованием интерфейсов Иадспроперти для доступа к кэшу свойств
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b48cd8675f4c439e3d3597e2d4fa59dac57e0896
-ms.sourcegitcommit: 460af18ea55f4b12d47d5b8d4b883896e21adf00
+ms.openlocfilehash: 9a68cd77a10d6631b52e48ed19650dd5cd18dff0ee59ba2332db73b7fce1a8bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "103987105"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024122"
 ---
 # <a name="accessing-property-cache-with-iadsproperty-interfaces"></a>Доступ к кэшу свойств с помощью интерфейсов Иадспроперти
 
@@ -29,9 +29,9 @@ ms.locfileid: "103987105"
 
 Дополнительные сведения и пример кода, который можно использовать для реализации этих интерфейсов, см. в разделе [пример кода для использования интерфейсов иадспроперти для доступа к кэшу свойств](example-code-for-using-iadsproperty-interfaces-to-access-the-property-cache.md).
 
- 
+ 
 
- 
+ 
 
 
 

@@ -8,12 +8,12 @@ keywords:
 - свойства ADSI, сохранение текущих значений свойств
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5965a46e5accd2a00adc006fe37511de13ff0df3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3e732cefa2d09b92f4fefec2b56f5f2ac8a99f77b2c7720822173cfaa647d7c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104328347"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023142"
 ---
 # <a name="the-setinfo-method"></a>Метод Сетинфо
 
@@ -23,9 +23,9 @@ ms.locfileid: "104328347"
 
 В момент вызова [**сетинфо**](/windows/desktop/api/Iads/nf-iads-iads-setinfo) , если какие-либо значения кэша свойств были записаны с помощью управляющего кода [**путекс**](/windows/desktop/api/Iads/nf-iads-iads-putex) (например, свойство \_ AD \_ Update или свойства ADS), то \_ \_ соответствующие запросы передаются в базовую службу каталогов.
 
- 
+ 
 
- 
+ 
 
 
 

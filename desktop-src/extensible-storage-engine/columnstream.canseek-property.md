@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 05b3e2112da46d9807a378525e16493ba4675dfb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f18581e79b3849a0d0753d4e1cad637adaede313218e1daa1cbf88adb3ed38cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647523"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119042402"
 ---
 # <a name="columnstreamcanseek-property"></a>Колумнстреам. CanSeek, свойство
 
@@ -60,7 +60,7 @@ public override bool CanSeek { get; }
 
 Тип: [System. Boolean](/dotnet/api/system.boolean)  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

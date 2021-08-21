@@ -1,24 +1,24 @@
 ---
 title: Поиск групп по области или типу в домене
-description: В доменах Windows 2000 существует один класс под названием Group для всех областей группы (локальный домен, глобальный, универсальный) и типы (безопасность, распространение).
+description: в доменах Windows 2000 существует один класс под названием group для всех областей группы (локальный домен, глобальный, универсальный) и типы (безопасность, распространение).
 ms.assetid: e32629d9-aa62-4953-aa49-43af726b7deb
 ms.tgt_platform: multiple
 keywords:
 - Поиск групп по области или типу в доменных службах Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ee9aae5e2c7be7b9cba590f9bc80f0517bca918
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 84d424ce21912aa1e7fa7104099fc8359a5a1c80beeae1fc143aa0bd4aea71d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103789469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024952"
 ---
 # <a name="searching-for-groups-by-scope-or-type-in-a-domain"></a>Поиск групп по области или типу в домене
 
-В доменах Windows 2000 существует один класс под названием [**Group**](/windows/desktop/ADSchema/c-group) для всех областей группы (локальный домен, глобальный, универсальный) и типы (безопасность, распространение). Атрибут [**groupType**](/windows/desktop/ADSchema/a-grouptype) объекта Group задает тип и область действия группы.
+в доменах Windows 2000 существует один класс под названием [**group**](/windows/desktop/ADSchema/c-group) для всех областей группы (локальный домен, глобальный, универсальный) и типы (безопасность, распространение). Атрибут [**groupType**](/windows/desktop/ADSchema/a-grouptype) объекта Group задает тип и область действия группы.
 
-Чтобы использовать тип или область для поиска групп в доменах Windows 2000, используйте фильтр, содержащий правило сопоставления для атрибута [**groupType**](/windows/desktop/ADSchema/a-grouptype) . Дополнительные сведения о правилах сопоставления см. в разделе [синтаксис фильтра поиска](/windows/desktop/ADSI/search-filter-syntax).
+чтобы использовать тип или область для поиска групп в доменах Windows 2000, используйте фильтр, содержащий правило сопоставления для атрибута [**groupType**](/windows/desktop/ADSchema/a-grouptype) . Дополнительные сведения о правилах сопоставления см. в разделе [синтаксис фильтра поиска](/windows/desktop/ADSI/search-filter-syntax).
 
 Дополнительные сведения и пример кода, демонстрирующий Поиск групп в домене, см. в разделе [пример кода для поиска групп в домене](example-code-for-performing-a-query-in-a-domain.md).
 
@@ -44,6 +44,6 @@ ms.locfileid: "103789469"
 
 
 
- 
+ 
 
- 
+ 
