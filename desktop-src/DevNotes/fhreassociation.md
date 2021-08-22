@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Fhcfg.idl
-ms.openlocfilehash: 1e303799a792e788fcb948ad6d3c6e2fd732e26e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f4b8cb55ce4b374f7f17f16044811a930623fc777a028ee98b5d8726bf714cce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655849"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119538514"
 ---
 # <a name="fhreassociation-class"></a>Класс ФхреассоЦиатион
 
@@ -28,15 +28,15 @@ ms.locfileid: "105655849"
 
 API истории файлов реализует этот класс. Чтобы создать экземпляр этого класса, используйте функцию [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                 |
-| Header<br/>                   | <dl> <dt>Фхкфг. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                 |
+| Заголовок<br/>                   | <dl> <dt>Фхкфг. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Фхкфг. idl</dt> </dl> |
 
 

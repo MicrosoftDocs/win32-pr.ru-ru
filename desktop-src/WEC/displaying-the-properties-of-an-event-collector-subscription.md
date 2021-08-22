@@ -5,12 +5,12 @@ ms.assetid: 984e21cf-3671-4aca-9e8e-bcad1fa2f02c
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4630bfc41ecbc0cc9372ae6bb99ce6d3184e4b6e
-ms.sourcegitcommit: 2e9db3c7d9a3dbea15196b03c883846fad6f32be
+ms.openlocfilehash: 0a39042997fd61b3e8bb96eb7fb8030d0fbe1c91d7aa84b9c1482319355db411
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "103784776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119620694"
 ---
 # <a name="display-event-collector-subscription-properties"></a>Отображение свойств подписки сборщика событий
 
@@ -22,7 +22,7 @@ ms.locfileid: "103784776"
 >
 > **wecutil GS** *SubscriptionName*
 
- 
+ 
 
 Чтобы отобразить его свойства, укажите имя подписки. Дополнительные сведения и пример кода C++ о том, как вывести список имен текущих подписок на локальном компьютере, см. в разделе список [подписок сборщика событий](listing-event-collector-subscriptions.md)или введите в командной строке следующую команду:
 
@@ -32,7 +32,7 @@ ms.locfileid: "103784776"
 
 **Отображение свойств подписки сборщика событий и ее источников событий**
 
-1.  Откройте подписку, указав имя подписки и права доступа в качестве параметров функции [**екопенсубскриптион**](/windows/desktop/api/Evcoll/nf-evcoll-ecopensubscription) . Дополнительные сведения о правах доступа см. в разделе [**константы сборщика событий Windows**](windows-event-collector-constants.md).
+1.  Откройте подписку, указав имя подписки и права доступа в качестве параметров функции [**екопенсубскриптион**](/windows/desktop/api/Evcoll/nf-evcoll-ecopensubscription) . дополнительные сведения о правах доступа см. в разделе [**Windows константы сборщика событий**](windows-event-collector-constants.md).
 2.  Получите и отобразите свойства подписки и источников событий, вызвав функцию [**екжетсубскриптионпроперти**](/windows/desktop/api/Evcoll/nf-evcoll-ecgetsubscriptionproperty) и функцию [**екжетобжектаррайпроперти**](/windows/desktop/api/Evcoll/nf-evcoll-ecgetobjectarrayproperty) . Дополнительные сведения о свойствах подписки и источника событий, которые могут быть отображены, см. в разделе Перечисление [**\_ \_ \_ идентификаторов свойств подписки EC**](/windows/desktop/api/Evcoll/ne-evcoll-ec_subscription_property_id) .
 3.  Закройте подписку, вызвав функцию [**екклосе**](/windows/desktop/api/Evcoll/nf-evcoll-ecclose) .
 
@@ -770,19 +770,19 @@ std::wstring ConvertEcSubscriptionType(DWORD code)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Список подписок сборщика событий](listing-event-collector-subscriptions.md)
 </dt> <dt>
 
-[Справочник по сборщикам событий Windows](windows-event-collector-reference.md)
+[Windows Справочник по сборщикам событий](windows-event-collector-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

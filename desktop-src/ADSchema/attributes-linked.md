@@ -5,12 +5,12 @@ ms.assetid: ed64c0bd-3d55-48c4-83b8-771025f3582a
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c57d86384f2df83453b8f6384dee1c5958c51f4
-ms.sourcegitcommit: 8ea1a82717bd3dbb3457be0697329aa37fb13f08
+ms.openlocfilehash: 4315e274df16ba3d8b380c7a8386eea0fdc72aec1faba97807546f971a92d324
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "104069464"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119644216"
 ---
 # <a name="linked-attributes-ad-schema"></a>Связанные атрибуты (схема AD)
 
@@ -33,7 +33,7 @@ ms.locfileid: "104069464"
 [**Имеет права владельца**](a-isprivilegeholder.md)  
 [**Под управлением**](a-managedby.md)  
 [**Управляемые объекты**](a-managedobjects.md)  
-[**Configuration**](a-manager.md)  
+[**Manager**](a-manager.md)  
 [**В основном**](a-masteredby.md)  
 [**Член**](a-member.md)  
 [**нетбут-SCP-BL**](a-netbootscpbl.md)  
@@ -71,7 +71,7 @@ ms.locfileid: "104069464"
 [**Имеет права владельца**](a-isprivilegeholder.md)  
 [**Под управлением**](a-managedby.md)  
 [**Управляемые объекты**](a-managedobjects.md)  
-[**Configuration**](a-manager.md)  
+[**Manager**](a-manager.md)  
 [**В основном**](a-masteredby.md)  
 [**Член**](a-member.md)  
 [**MS-COM-Партитионлинк**](a-mscom-partitionlink.md)  
@@ -168,7 +168,7 @@ ms.locfileid: "104069464"
 [**Имеет права владельца**](a-isprivilegeholder.md)  
 [**Под управлением**](a-managedby.md)  
 [**Управляемые объекты**](a-managedobjects.md)  
-[**Configuration**](a-manager.md)  
+[**Manager**](a-manager.md)  
 [**В основном**](a-masteredby.md)  
 [**Член**](a-member.md)  
 [**MS-COM-Партитионлинк**](a-mscom-partitionlink.md)  
@@ -240,7 +240,7 @@ ms.locfileid: "104069464"
 [**Имеет права владельца**](a-isprivilegeholder.md)  
 [**Под управлением**](a-managedby.md)  
 [**Управляемые объекты**](a-managedobjects.md)  
-[**Configuration**](a-manager.md)  
+[**Manager**](a-manager.md)  
 [**В основном**](a-masteredby.md)  
 [**Член**](a-member.md)  
 [**MS-COM-Партитионлинк**](a-mscom-partitionlink.md)  
@@ -332,7 +332,7 @@ ms.locfileid: "104069464"
 [**Имеет права владельца**](a-isprivilegeholder.md)  
 [**Под управлением**](a-managedby.md)  
 [**Управляемые объекты**](a-managedobjects.md)  
-[**Configuration**](a-manager.md)  
+[**Manager**](a-manager.md)  
 [**В основном**](a-masteredby.md)  
 [**Член**](a-member.md)  
 [**MS-COM-Партитионлинк**](a-mscom-partitionlink.md)  
@@ -435,7 +435,7 @@ ms.locfileid: "104069464"
 [**Имеет права владельца**](a-isprivilegeholder.md)  
 [**Под управлением**](a-managedby.md)  
 [**Управляемые объекты**](a-managedobjects.md)  
-[**Configuration**](a-manager.md)  
+[**Manager**](a-manager.md)  
 [**В основном**](a-masteredby.md)  
 [**Член**](a-member.md)  
 [**MS-authz-член-правила — в-центральном доступе — политика**](a-msauthz-memberrulesincentralaccesspolicy.md)  
@@ -454,7 +454,7 @@ ms.locfileid: "104069464"
 [**MS-DS-ClaimSet-shares-возможные значения — с**](a-msds-claimsharespossiblevalueswith.md)  
 [**MS-DS-ClaimSet-shares-возможные значения-with-BL**](a-msds-claimsharespossiblevalueswithbl.md)  
 [**MS-DS-заявка-тип — применяется к классу**](a-msds-claimtypeappliestoclass.md)  
-[**MS-DS-исходящий трафик — утверждения-преобразование — политика**](a-msds-egressclaimstransformationpolicy.md)  
+[**ms-DS-Egress-claims-преобразование — политика**](a-msds-egressclaimstransformationpolicy.md)  
 [**Функция ms-DS-Enabled**](a-msds-enabledfeature.md)  
 [**Поддержка MS-DS-Feature-BL**](a-msds-enabledfeaturebl.md)  
 [**MS-DS-имеет-Domain-NC**](a-msds-hasdomainncs.md)  
@@ -500,7 +500,7 @@ ms.locfileid: "104069464"
 [**MS-DS-Tasks-для-AZ-Role-BL**](a-msds-tasksforazrolebl.md)  
 [**MS-DS-Tasks-for-AZ-Task**](a-msds-tasksforaztask.md)  
 [**MS-DS-Tasks-for-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)  
-[**MS-DS-TDO-исходящий трафик — BL**](a-msds-tdoegressbl.md)  
+[**ms-DS-TDO-Egress-BL**](a-msds-tdoegressbl.md)  
 [**MS-DS-TDO-входящий трафик — BL**](a-msds-tdoingressbl.md)  
 [**Справочник по MS-DS-value-type-**](a-msds-valuetypereference.md)  
 [**MS-DS-value-type-Reference-BL**](a-msds-valuetypereferencebl.md)  
@@ -536,9 +536,9 @@ ms.locfileid: "104069464"
 [**Шаблон — Roots2**](a-templateroots2.md)  
 </dl>
 
- 
+ 
 
- 
+ 
 
 
 

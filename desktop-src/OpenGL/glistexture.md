@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8897cc0eb004da701f28b410f2ca28b6194c9d26
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7db28b6892d5aa0e9eaf98aec50b02ad102db8ba549474c673c6c0d918d799d6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104492603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119493354"
 ---
 # <a name="glistexture-function"></a>Функция Глистекстуре
 
@@ -59,7 +59,7 @@ GLboolean WINAPI glIsTexture(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если параметр *текстуры* в настоящее время является именем текстуры, функция **глистекстуре** возвращает \_ значение true. Функция **глистекстуре** возвращает \_ значение false, если *текстура* равна нулю. Он также возвращает значение GL \_ false, если это ненулевое значение, которое в настоящее время не является именем текстуры, или если возникает ошибка.
 
@@ -70,7 +70,7 @@ GLboolean WINAPI glIsTexture(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -84,7 +84,7 @@ GLboolean WINAPI glIsTexture(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -5,12 +5,12 @@ ms.assetid: eaeb6cfd-de62-46f1-972d-a11e0ccc11d9
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 979281fb7fa6e034894bffaecbd6246fe8a9aa94
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0c2258938020593014b5b6f5ea77516e7770f8589601cf4139971b3532b22fff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104488025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119569353"
 ---
 # <a name="how-to-clip-to-a-geometric-mask"></a>Как обрезать геометрическую маску
 
@@ -64,9 +64,9 @@ SafeRelease(&pSink);
 Вызовите [**креателайер**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)) , чтобы создать слой.
 
 > [!Note]  
-> Начиная с Windows 8, вам не нужно вызывать [**креателайер**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)). В большинстве случаев производительность лучше, если не вызывать этот метод, и Direct2D управляет ресурсами слоя.
+> начиная с Windows 8 вам не нужно вызывать [**креателайер**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)). В большинстве случаев производительность лучше, если не вызывать этот метод, и Direct2D управляет ресурсами слоя.
 
- 
+ 
 
 Вызовите [**пушлайер**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushlayer(constd2d1_layer_parameters__id2d1layer)) с помощью геометрической маски, чтобы отправить слой. Нарисуйте содержимое в Clip, а затем вызовите [**поплайер**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-poplayer) , чтобы открыть слой. При этом создается рисунок в форме звезды. В следующем примере кода показано, как это сделать:
 
@@ -111,7 +111,7 @@ HRESULT DemoApp::RenderWithLayer(ID2D1RenderTarget *pRT)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -121,6 +121,6 @@ HRESULT DemoApp::RenderWithLayer(ID2D1RenderTarget *pRT)
 [Справочник по Direct2D](reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

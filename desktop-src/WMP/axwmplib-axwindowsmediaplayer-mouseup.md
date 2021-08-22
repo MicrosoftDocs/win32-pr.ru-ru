@@ -3,7 +3,7 @@ title: Событие MouseUp объекта Аксвиндовсмедиапл�
 description: Событие MouseUp возникает, когда пользователь отпускает кнопку мыши. | Событие MouseUp объекта Аксвиндовсмедиаплайер
 ms.assetid: 26bb6e82-d744-4770-b4de-07c9f52b76ec
 keywords:
-- Событие MouseUp объекта Аксвиндовсмедиаплайер проигрыватель Windows Media
+- событие MouseUp объекта аксвиндовсмедиаплайер проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a2bf9c209b4fa263eb0a6cbcba2a32b0b1c46fa9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 10adcb3705182be7543eb1a89ea82d50cac096f3200a6341e10156de9262fa0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105695168"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119509444"
 ---
 # <a name="mouseup-event-of-the-axwindowsmediaplayer-object"></a>Событие MouseUp объекта Аксвиндовсмедиаплайер
 
@@ -56,19 +56,19 @@ Private Sub player_MouseUpEvent(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                          |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                          |
 | Пространство имен<br/> | **аксвмплиб**<br/>                                                                                                    |
 | Сборка<br/>  | <dl> <dt>AxInterop.WMPLib.dll (AxInterop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

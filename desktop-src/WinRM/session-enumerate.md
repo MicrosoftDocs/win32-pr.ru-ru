@@ -5,8 +5,8 @@ ms.assetid: ed8ad3ad-d033-45cb-b681-995c5f73b12e
 ms.tgt_platform: multiple
 keywords:
 - служба удаленного управления Windows метода перечисления
-- Служба удаленного управления Windows метода перечисления, объект Session
-- Объект Session служба удаленного управления Windows, Enumerate, метод
+- служба удаленного управления Windows метода перечисления, объект Session
+- объект Session служба удаленного управления Windows, enumerate, метод
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ca6b66b910251c641832cde3ddd93d6479f66be7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6dc40a45cc28179acd8e5dc9fff17df8b8accddd8dffda3ea299571e11d46564
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119642634"
 ---
 # <a name="sessionenumerate-method"></a>Session. Enumerate, метод
 
@@ -79,7 +79,7 @@ Session.Enumerate( _
 *диалект* \[ в необязательное\]
 </dt> <dd>
 
-Язык, используемый фильтром. [WQL](/windows/desktop/WmiSdk/wql-sql-for-wmi), подмножество SQL, используемое WMI, является единственным поддерживаемым языком.
+Язык, используемый фильтром. [WQL](/windows/desktop/WmiSdk/wql-sql-for-wmi)— подмножество SQL, используемое WMI, является единственным поддерживаемым языком.
 
 Если у вас есть объект [**ResourceLocator**](resourcelocator.md) для параметра *resourceURI* , этот параметр использовать не следует.
 
@@ -96,11 +96,11 @@ Session.Enumerate( _
 
 Объект [**перечислителя**](enumerator.md) , содержащий результаты перечисления.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Дополнительные сведения об ограничении сетевых вызовов во время перечисления см. в описании свойства [**батчитемс**](session-batchitems.md) .
 
-Имейте в виду, что если флаги содержат [**константы перечисления**](enumeration-constants.md) **всманфлагхиерарчидипбасепропсонли** или **всманфлагхиерарчишаллов** , то служба удаленного управления Windows служба возвращает код ошибки, **\_ \_ \_ \_ не поддерживаемый режимом полиморфизма WSMan**.
+имейте в виду, что если флаги содержат [**константы перечисления**](enumeration-constants.md) **всманфлагхиерарчидипбасепропсонли** или **всманфлагхиерарчишаллов** , то служба удаленного управления Windows служба возвращает код ошибки, **\_ \_ \_ \_ не поддерживаемый режимом полиморфизма WSMAN**.
 
 Если задан фильтр, он должен быть допустимым документом в отношении схемы ресурса. Параметр диалекта является необязательным. Однако если строка фильтра начинается с <, но не является фрагментом XML, следует либо включить параметр *диалекта* , либо установить флаг **всманфлагнонксмлтекст** в параметре *flags* . Дополнительные сведения см. в разделе [**константы перечисления**](enumeration-constants.md).
 
@@ -143,7 +143,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -151,18 +151,18 @@ End Sub
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                 |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                           |
-| Header<br/>                   | <dl> <dt>Всмандисп. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Всмандисп. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Всмандисп. idl</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Всмандисп. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WSMAuto.dll</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[**Session**](session.md)
+[**Сеанс**](session.md)
 </dt> <dt>
 
 [Запрос конкретных экземпляров ресурса](querying-for-specific-instances-of-a-resource.md)

@@ -3,8 +3,8 @@ title: Интерфейс Ивмпкуери (VB и C) (WMP. h)
 description: Представляет составной запрос.
 ms.assetid: b9cfeec9-f928-4b12-88c2-0f78b26f8687
 keywords:
-- Ивмпкуери (VB и C) интерфейс проигрывателя Windows Media
-- Ивмпкуери (VB и C) интерфейс проигрывателя Windows Media, описание
+- проигрыватель Windows Media интерфейса ивмпкуери (VB и C)
+- проигрыватель Windows Media интерфейса ивмпкуери (VB и C), описание
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 85468f6118f013bdd101ecbc527aa5d76e222088
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5e3b101d7fdc650eda5df3c34f8290e4dafc0d0d159f5f174bc84c48cf14c017
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119508584"
 ---
 # <a name="iwmpquery-vb-and-c-interface"></a>Интерфейс Ивмпкуери (VB и C#)
 
@@ -59,21 +59,21 @@ ms.locfileid: "105694436"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>WMP. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>WMP. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[**Интерфейсы для Visual Basic .NET и C #**](interfaces-for-visual-basic--net-and-c.md)
+[**интерфейсы для Visual Basic .net и C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**IWMPMediaCollection2. createQuery (VB и C#)**](wmplibiwmpmediacollection2-iwmpmediacollection2-createquery--vb-and-c.md)

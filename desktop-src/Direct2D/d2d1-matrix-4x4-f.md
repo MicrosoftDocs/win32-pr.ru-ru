@@ -6,12 +6,12 @@ keywords:
 - D2D1_MATRIX_4X4_F
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 535c7e38b77d8c33d79ae189b4090a18fae42a04
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3b164731a7ff3acfb0a3603e0bd5205a28a8ea59a4c54d4b0de1f9b37f0d54c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119569824"
 ---
 # <a name="d2d1_matrix_4x4_f"></a>\_Матрица D2D1 \_ 4x4 \_ F
 
@@ -24,24 +24,24 @@ typedef D2D_MATRIX_4X4_F D2D1_MATRIX_4X4_F;
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **D2D1 \_ МАТРИЦа \_ 4x4** — это новое имя для [**структуры \_ матрицы D2D \_ 4x4 \_ F**](/windows/desktop/api/dcommon/ns-dcommon-d2d_matrix_4x4_f) . Список полей, предоставляемых матрицей, см. в **разделе \_ Матрица D2D \_ 4x4 \_ F**.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 7, Windows Vista с пакетом обновления 2 (SP2) и обновлением платформы для \[ классических приложений Windows Vista \| приложения UWP\]<br/>                          |
-| Минимальная версия сервера<br/> | Windows Server 2008 R2, Windows Server 2008 с пакетом обновления 2 (SP2) и обновление платформы для Windows Server 2008 классические \[ приложения \| UWP\]<br/> |
+| Минимальная версия клиента<br/> | Windows 7, Windows Vista с пакетом обновления 2 (SP2) и обновлением платформы для приложений для \[ классических приложений Windows Vista \|\]<br/>                          |
+| Минимальная версия сервера<br/> | Windows сервер 2008 R2, Windows Server 2008 с пакетом обновления 2 (SP2) и обновлением платформы для Windows Server 2008 приложения \[ UWP для классических приложений \|\]<br/> |
 | Минимальный поддерживаемый телефон<br/>  | Windows Phone 8,1 \[ Windows Phone Silverlight 8,1 и среда выполнения Windows приложения\]<br/>                                                  |
-| Header<br/>                   | <dl> <dt>D2d1. h</dt> </dl>                                                        |
+| Заголовок<br/>                   | <dl> <dt>D2d1. h</dt> </dl>                                                        |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

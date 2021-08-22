@@ -67,12 +67,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 854a90f5b0fa4d331bd0478d104e50dd70b0cd65
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6c4a42432a11b5cde0df657ba2a9725a68d76a055fce3787bce56c10dfd227ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119539274"
 ---
 # <a name="microsoftdns_server-class"></a>\_Класс сервера микрософтднс
 
@@ -197,7 +197,7 @@ class MicrosoftDNS_Server : CIM_Service
 | <span id="0"></span><dl> <dt>**0**</dt> </dl> | Без ограничений.<br/>                                                                           |
 | <span id="1"></span><dl> <dt>**1**</dt> </dl> | Не допускает динамическое обновление записей SOA.<br/>                                             |
 | <span id="2"></span><dl> <dt>**2**</dt> </dl> | Не допускает динамическое обновление записей NS в корне зоны.<br/>                             |
-| <span id="4"></span><dl> <dt>**четырех**</dt> </dl> | Не допускает динамическое обновление записей NS, которые не находятся в корне зоны (записи делегирования NS).<br/> |
+| <span id="4"></span><dl> <dt>**4**</dt> </dl> | Не допускает динамическое обновление записей NS, которые не находятся в корне зоны (записи делегирования NS).<br/> |
 
 
 
@@ -235,10 +235,10 @@ class MicrosoftDNS_Server : CIM_Service
 
 | Значение                                                                                                | Значение                                                    |
 |------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
-| <span id="0"></span><dl> <dt>**0**</dt> </dl> | Нет.<br/>                                           |
+| <span id="0"></span><dl> <dt>**0**</dt> </dl> | Отсутствует.<br/>                                           |
 | <span id="1"></span><dl> <dt>**1**</dt> </dl> | Только серверы, допускающие динамические обновления.<br/>        |
 | <span id="2"></span><dl> <dt>**2**</dt> </dl> | Только серверы, которые не разрешают динамические обновления.<br/> |
-| <span id="4"></span><dl> <dt>**четырех**</dt> </dl> | Все серверы.<br/>                                    |
+| <span id="4"></span><dl> <dt>**4**</dt> </dl> | Все серверы.<br/>                                    |
 
 
 
@@ -283,7 +283,7 @@ class MicrosoftDNS_Server : CIM_Service
 | <span id="0"></span><dl> <dt>**0**</dt> </dl> | Неинициализированный.<br/>                    |
 | <span id="1"></span><dl> <dt>**1**</dt> </dl> | Загрузка из файла.<br/>                   |
 | <span id="2"></span><dl> <dt>**2**</dt> </dl> | Загрузка из реестра.<br/>               |
-| <span id="3"></span><dl> <dt>**3-5**</dt> </dl> | Загрузка из каталога и реестра.<br/> |
+| <span id="3"></span><dl> <dt>**3**</dt> </dl> | Загрузка из каталога и реестра.<br/> |
 
 
 
@@ -480,10 +480,10 @@ class MicrosoftDNS_Server : CIM_Service
 
 | Значение                                                                                                | Значение                                  |
 |------------------------------------------------------------------------------------------------------|------------------------------------------|
-| <span id="0"></span><dl> <dt>**0**</dt> </dl> | Нет.<br/>                         |
+| <span id="0"></span><dl> <dt>**0**</dt> </dl> | Отсутствует.<br/>                         |
 | <span id="1"></span><dl> <dt>**1**</dt> </dl> | Регистрировать только ошибки.<br/>              |
 | <span id="2"></span><dl> <dt>**2**</dt> </dl> | Регистрировать только предупреждения и ошибки.<br/> |
-| <span id="4"></span><dl> <dt>**четырех**</dt> </dl> | Регистрация всех событий.<br/>               |
+| <span id="4"></span><dl> <dt>**4**</dt> </dl> | Регистрация всех событий.<br/>               |
 
 
 
@@ -692,7 +692,7 @@ class MicrosoftDNS_Server : CIM_Service
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -722,7 +722,7 @@ class MicrosoftDNS_Server : CIM_Service
 |------------------------------------------------------------------------------------------------------|------------------------------|
 | <span id="0"></span><dl> <dt>**0**</dt> </dl> | Кодировка RFC (ANSI)<br/> |
 | <span id="1"></span><dl> <dt>**1**</dt> </dl> | Не RFC (ANSI)<br/>    |
-| <span id="3"></span><dl> <dt>**3-5**</dt> </dl> | Многобайтовая кодировка (UTF8)<br/>  |
+| <span id="3"></span><dl> <dt>**3**</dt> </dl> | Многобайтовая кодировка (UTF8)<br/>  |
 
 
 
@@ -808,7 +808,7 @@ class MicrosoftDNS_Server : CIM_Service
 | <span id="0"></span><dl> <dt>**0**</dt> </dl> | Нет<br/>        |
 | <span id="1"></span><dl> <dt>**1**</dt> </dl> | TCP<br/>         |
 | <span id="2"></span><dl> <dt>**2**</dt> </dl> | Именованные каналы<br/> |
-| <span id="4"></span><dl> <dt>**четырех**</dt> </dl> | ВЫЗОВА<br/>         |
+| <span id="4"></span><dl> <dt>**4**</dt> </dl> | ВЫЗОВА<br/>         |
 
 
 
@@ -955,7 +955,7 @@ class MicrosoftDNS_Server : CIM_Service
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -968,7 +968,7 @@ class MicrosoftDNS_Server : CIM_Service
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

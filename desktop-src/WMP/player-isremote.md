@@ -1,9 +1,9 @@
 ---
 title: Player. Remote
-description: Свойство «Remote» извлекает значение, указывающее, выполняется ли элемент управления проигрывателя Windows Media в удаленном режиме.
+description: свойство "remote" извлекает значение, указывающее, выполняется ли элемент управления проигрыватель Windows Media в удаленном режиме.
 ms.assetid: bfeab968-affb-4d5d-b88b-5caf50d34cee
 keywords:
-- Проигрыватель проигрывателя Windows Media Player
+- Player. remote проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b7c8d97ba212e032db16b43299d2a3a8a836f9b9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6afa0caf615563f4829f1a337f31521b1fb7dafd5ef6e2722f1d50c01dda1ba4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119616694"
 ---
 # <a name="playerisremote"></a>Player. Remote
 
-Свойство « **Remote** » извлекает значение, указывающее, выполняется ли элемент управления проигрывателя Windows Media в удаленном режиме.
+свойство " **remote** " извлекает значение, указывающее, выполняется ли элемент управления проигрыватель Windows Media в удаленном режиме.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -37,16 +37,16 @@ ms.locfileid: "105648059"
 
 | Значение | Описание                                   |
 |-------|-----------------------------------------------|
-| true  | Элемент управления "проигрыватель" работает в удаленном режиме. |
+| Да  | Элемент управления "проигрыватель" работает в удаленном режиме. |
 | false | Элемент управления "проигрыватель" выполняется в локальном режиме.  |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-**Проигрыватель Windows Media 10 Mobile:** Это свойство всегда возвращает значение false.
+**проигрыватель Windows Media 10 Mobile:** Это свойство всегда возвращает значение false.
 
 ## <a name="requirements"></a>Требования
 
@@ -54,7 +54,7 @@ ms.locfileid: "105648059"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии.<br/>                                 |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии.<br/>                                 |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

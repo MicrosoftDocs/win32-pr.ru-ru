@@ -4,12 +4,12 @@ ms.assetid: 8aacc6c0-b6fe-4b4a-bbe4-a0351baf1f30
 title: Сообщение SPFILENOTIFY_QUEUESCAN (Setupapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 66202a398f7e3f4e1121782f9469d2d6f299452c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ab9c680ff2aaa3056ab74db741a34bb9f0379ec7123821b1de4c20200997ab6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119664854"
 ---
 # <a name="spfilenotify_queuescan-message"></a>\_Сообщение спфиленотифи куеуескан
 
@@ -54,7 +54,7 @@ SPFILENOTIFY_QUEUESCAN
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -62,7 +62,7 @@ SPFILENOTIFY_QUEUESCAN
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                           |
 | Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Setupapi. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Setupapi. h</dt> </dl> |
 
 
 

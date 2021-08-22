@@ -5,8 +5,8 @@ ms.assetid: f291c11c-012f-45eb-b851-5661d881ee79
 ms.tgt_platform: multiple
 keywords:
 - служба удаленного управления Windows свойства ошибки
-- Служба удаленного управления Windows свойства ошибки, объект Session
-- Объект Session служба удаленного управления Windows, свойство Error
+- служба удаленного управления Windows свойства ошибки, объект Session
+- объект Session служба удаленного управления Windows, свойство Error
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2568fb7f51d6970d3d98f8434357b22efb7793d0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 11c053c2cd48dd9da7a4c24d3cbc0c8d8dd9c986688cbedec677676f29371c02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105710559"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119642594"
 ---
 # <a name="sessionerror-property"></a>Свойство Session. Error
 
@@ -130,7 +130,7 @@ to get more information in how to construct a resource URI:
 ></f:WSManFault>
 ```
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -138,18 +138,18 @@ to get more information in how to construct a resource URI:
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                 |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                           |
-| Header<br/>                   | <dl> <dt>Всмандисп. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Всмандисп. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Всмандисп. idl</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Всмандисп. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WSMAuto.dll</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[**Session**](session.md)
+[**Сеанс**](session.md)
 </dt> </dl>
 
  

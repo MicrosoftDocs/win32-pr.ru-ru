@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_
 ms:contentKeyID: 55103493
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: e37d1825465c39d578d2f535f69d28bc06c328d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f61dfff35c263d71a54012e5b01aac8a7845ce7b1f13be2c2fbad587900a6391
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104540074"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119617394"
 ---
 # <a name="jet_enumcolumn-methods"></a>Методы JET_ENUMCOLUMN
 
@@ -68,7 +68,7 @@ ms.locfileid: "104540074"
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

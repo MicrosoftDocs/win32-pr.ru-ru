@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Setupapi.dll
-ms.openlocfilehash: 78ee96e7e366fdff821e8202300ff28de0a14af3
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 189bb94b70366ad66f0fe4dd4c4c9d5884e762cf20638f7c3ae2dc9b587f15ab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108096652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119538474"
 ---
 # <a name="psetupstringtableinitializeex-function"></a>Функция Псетупстрингтаблеинитиализикс
 
-\[Эта функция недоступна в Windows Vista и Windows Server 2008.\]
+\[эта функция недоступна в Windows Vista или Windows Server 2008.\]
 
 Инициализирует таблицу строк.
 
@@ -60,7 +60,7 @@ PVOID pSetupStringTableInitializeEx(
 
 Эта функция не имеет связанной библиотеки импорта или файла заголовка. его необходимо вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

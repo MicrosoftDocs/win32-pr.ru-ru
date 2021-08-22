@@ -3,7 +3,7 @@ title: Атрибут Аккуиситионтимемонс
 description: Атрибут Аккуиситионтимемонс — это часть даты и времени добавления элемента в библиотеку.
 ms.assetid: c2807f4c-ab9b-4d50-9fbe-daa8c31cdc87
 keywords:
-- Аккуиситионтимемонс атрибут Windows Media Player
+- проигрыватель Windows Media атрибута аккуиситионтимемонс
 topic_type:
 - apiref
 api_name:
@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 22891910fb7ab0960278e52ae2469300e34e7ac9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 303cf82c7fdfeebc530269f48a937cac05d0a442747ec22dd0e84c9c37e6f561
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119619184"
 ---
 # <a name="acquisitiontimemonth-attribute"></a>Атрибут Аккуиситионтимемонс
 
 Атрибут **аккуиситионтимемонс** — это часть даты и времени добавления элемента в библиотеку.
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [Звуковые элементы](audio-item-attributes.md)
 -   [Другие элементы](other-item-attributes.md)
@@ -32,7 +32,7 @@ ms.locfileid: "105699036"
 -   [Элементы Радио](radio-item-attributes.md)
 -   [Элементы видео](video-item-attributes.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут хранится только в библиотеке.
 
@@ -44,7 +44,7 @@ ms.locfileid: "105699036"
 
 | Требование | Значение |
 |--------------------|------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 11<br/> |
+| Версия<br/> | проигрыватель Windows Media 11<br/> |
 
 
 

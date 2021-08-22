@@ -21,12 +21,12 @@ keywords:
 - шаблоны элементов управления, ItemContainer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb29232b06304079ad5b9dfdfb589ad510a5b51f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0e2c0e84f91af6bcaadef5af373b73057fb4a137480255f3ee1af4456e45eaf1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104331403"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119570374"
 ---
 # <a name="working-with-virtualized-items"></a>Работа с виртуализированными элементами
 
@@ -36,7 +36,7 @@ ms.locfileid: "104331403"
 -   [Как элемент управления поддерживает виртуализацию](#how-a-control-supports-virtualization)
 -   [Как клиенты находят и реализуют виртуализованные элементы](#how-clients-find-and-realize-virtualized-items)
 -   [Пример](#example)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="overview-of-virtualization"></a>Общие сведения о виртуализации
 
@@ -60,16 +60,16 @@ ms.locfileid: "104331403"
 
 Пример кода, демонстрирующий использование поддержки модели автоматизации пользовательского интерфейса для виртуализации, см. [в разделе Получение виртуализированного элемента](uiauto-howto-retrieve-virtualized-item.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Общие сведения о шаблонах элементов управления модели автоматизации пользовательского интерфейса](uiauto-controlpatternsoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

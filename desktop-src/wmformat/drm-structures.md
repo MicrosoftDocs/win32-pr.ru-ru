@@ -1,25 +1,25 @@
 ---
-title: Клиентские структуры DRM в Microsoft Windows Media
-description: Клиентские структуры DRM в Microsoft Windows Media
+title: клиентские структуры DRM Microsoft Windows Media
+description: клиентские структуры DRM Microsoft Windows Media
 ms.assetid: 794de1b7-d60c-435e-9f77-c4df109b5372
 keywords:
-- Windows Media Format SDK, структуры
+- Windows Пакет SDK для формата мультимедиа, структуры
 - Управление цифровыми правами (DRM), структуры
 - DRM (Управление цифровыми правами), структуры
 - Расширенные API клиента DRM, структуры
 - Расширенные API клиента, структуры
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43264c37ed9830026f87998823017d17c9d75f7e
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 145381cc6d702dd338176ffa89983de137285dcd7aef946d3ece956eb450880c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104414453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119447844"
 ---
-# <a name="microsoft-windows-media-drm-client-structures"></a>Клиентские структуры DRM в Microsoft Windows Media
+# <a name="microsoft-windows-media-drm-client-structures"></a>клиентские структуры DRM Microsoft Windows Media
 
-Расширенные API клиента DRM Windows Media поддерживают следующие структуры.
+в расширенных api-интерфейсах клиента DRM Windows Media поддерживаются следующие структуры.
 
 
 
@@ -46,16 +46,16 @@ ms.locfileid: "104414453"
 | [**\_Фильтр по лицензии WMDRM \_**](wmdrm-license-filter.md)                                      | Содержит сведения о фильтрации для создания перечислений лицензий.                                                                                           |
 | [**\_ \_ уровни защиты данных \_ WMDRM**](wmdrm-output-protection-levels.md)                 | Содержит уровни защиты выходных данных, необходимые для выполнения различных действий в лицензии.                                                                    |
 | [**вмдрмкриптодата**](wmdrmcryptodata.md)                                                  | Содержит сведения о алгоритме шифрования, используемом для шифрования и расшифровки содержимого.                                                                 |
-| [**\_Политика вмдрмнет**](wmdrmnet-policy.md)                                                 | Содержит политику, используемую для операций с сетевыми устройствами Windows Media DRM.                                                                        |
-| [**\_ \_ глобальные требования политики \_ вмдрмнет**](wmdrmnet-policy-global-requirements.md)       | Содержит глобальные требования для Windows Media DRM для сетевых устройств.                                                                                        |
-| [**\_ \_ Минимальная среда политики \_ вмдрмнет**](wmdrmnet-policy-minimum-environment.md)       | Содержит минимальные требования к безопасности для Windows Media DRM для сетевых устройств.                                                                       |
-| [**\_транскриптплай политика \_ вмдрмнет**](wmdrmnet-policy-transcryptplay.md)                  | Содержит сведения о политике для воспроизведения содержимого с помощью Windows Media DRM для сетевых устройств.                                                               |
+| [**\_Политика вмдрмнет**](wmdrmnet-policy.md)                                                 | содержит политику, используемую для операций с сетевыми устройствами Windows Media DRM.                                                                        |
+| [**\_ \_ глобальные требования политики \_ вмдрмнет**](wmdrmnet-policy-global-requirements.md)       | содержит глобальные требования для Windows Media DRM для сетевых устройств.                                                                                        |
+| [**\_ \_ Минимальная среда политики \_ вмдрмнет**](wmdrmnet-policy-minimum-environment.md)       | содержит минимальные требования к безопасности для Windows Media DRM для сетевых устройств.                                                                       |
+| [**\_транскриптплай политика \_ вмдрмнет**](wmdrmnet-policy-transcryptplay.md)                  | содержит сведения о политике для воспроизведения содержимого с помощью Windows Media DRM для сетевых устройств.                                                               |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

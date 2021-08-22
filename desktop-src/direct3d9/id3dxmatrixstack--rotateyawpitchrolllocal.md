@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 1d104676b6d346afd527552dbfba4bac23ed09cd
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 3cd1355039a570f0ef0e3546150cb9d8ebed5900b88ba14b6640f3d8a1799150
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108093452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119493193"
 ---
 # <a name="id3dxmatrixstackrotateyawpitchrolllocal-method-d3dx9mathh"></a>Метод ID3DXMATRIXStack:: Ротатэйавпитчролллокал (D3dx9math. h)
 
@@ -90,13 +90,13 @@ m_stack[m_currentPos] = tmp * m_stack[m_currentPos];
 
 Так как поворот влево умножается на стек матрицы, поворот происходит относительно локального пространства координат объекта.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

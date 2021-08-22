@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 98d0a8588331d775cecb667375e0db6d873f59e9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: aab168b185a20f0a6371e9d3182b1e120ec5b52d27331a412bb3c71564b8edd1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104489516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119620774"
 ---
 # <a name="imsrdpclienttransportsettings4gatewaybrokeringtype-property"></a>Свойство IMsRdpClientTransportSettings4:: Гатевайброкерингтипе
 
@@ -46,13 +46,13 @@ HRESULT put_GatewayBrokeringType(
 
 Тип.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                            |
+| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                            |
 | Минимальная версия сервера<br/> | Windows Server 2012 R2<br/>                                                                 |
 | Библиотека типов<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>            |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>            |
@@ -60,7 +60,7 @@ HRESULT put_GatewayBrokeringType(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

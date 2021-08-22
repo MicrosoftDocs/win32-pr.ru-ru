@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 58bb5fa33007ed0e167226edf7078d08c2e5c3de
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 150796912d2796a2697d3c088963c20e1523288f5a1301e9467a6859845db68c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265678"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119590322"
 ---
 # <a name="freeportabledevicepnpids-function"></a>Функция Фрипортабледевицепнпидс
 
@@ -58,7 +58,7 @@ void FreePortableDevicePnPIDs(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение отвечает за освобождение массива указателей, которые он выделяет.
 
@@ -84,15 +84,15 @@ if (pPnpDeviceIDs != NULL)
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 7 \|\]<br/>                                           |
+| Минимальная версия клиента<br/> | \[приложения UWP для классических приложений Windows 7 \|\]<br/>                                           |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                   |
-| Header<br/>                   | <dl> <dt>Портабледевице. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Портабледевице. h</dt> </dl> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: c1022538-ea9f-41e9-9075-c106e8b16b7b
 title: Атрибут MF_TOPONODE_MEDIASTOP (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a5b763d1d5adabc520900dde6839d1599ddcb3d
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: ea2abc172151afe404f3acc6cf8c75d03bd0ac495564cb0f322283998677f83b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105713289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119663874"
 ---
 # <a name="mf_toponode_mediastop-attribute"></a>\_Атрибут MF топоноде \_ медиастоп
 
@@ -31,7 +31,7 @@ ms.locfileid: "105713289"
 
 [**имфтопологиноде**](/windows/desktop/api/mfidl/nn-mfidl-imftopologynode)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут задает позицию в источнике, в которой воспроизведение останавливается в единицах с 100-наносекундных относительных загрузок относительно начала источника. Если атрибут не задан, воспроизведение останавливается в конце источника. Например, чтобы прерывать воспроизведение с 5-секундным отметкой, установите для этого атрибута значение 50000000. Задайте атрибут для исходных узлов в топологии (узлы с типом, равным **MF \_ \_ саурцестреам \_ node**). Задайте атрибут перед вызовом [**имфмедиасессион:: сеттопологи**](/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-settopology).
 
@@ -46,19 +46,19 @@ ms.locfileid: "105713289"
 
 Константа GUID для этого атрибута экспортируется из мфууид. lib.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                               |
-| Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                               |
+| Заголовок<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

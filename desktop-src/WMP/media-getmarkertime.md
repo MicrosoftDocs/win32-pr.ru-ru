@@ -3,9 +3,9 @@ title: Метод Media. Жетмаркертиме
 description: Метод Жетмаркертиме извлекает время маркера по указанному индексу.
 ms.assetid: c3e6bead-2831-4d84-9d13-dcb865efe472
 keywords:
-- Жетмаркертиме метод Windows Media Player
-- Жетмаркертиме метод Windows Media Player, класс мультимедиа
-- Класс мультимедиа проигрыватель Windows Media Player, метод Жетмаркертиме
+- проигрыватель Windows Media метода жетмаркертиме
+- проигрыватель Windows Media метода жетмаркертиме, класс мультимедиа
+- класс мультимедиа проигрыватель Windows Media, метод жетмаркертиме
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4398f89055a1996acb3f921d33c7675e52100ddd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0f90d1382302e4a053a6dee4dac911d2cc0c0aa67066469c8143f6f38b3bd889
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119508414"
 ---
 # <a name="mediagetmarkertime-method"></a>Метод Media. Жетмаркертиме
 
@@ -53,7 +53,7 @@ retVal = Media.getMarkerTime(
 
 Этот метод возвращает **число** (**Double**), задающее положение маркера в секундах от начала клипа.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод возвращает **значение NULL** , если указанный маркер не существует.
 
@@ -65,7 +65,7 @@ retVal = Media.getMarkerTime(
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере JScript используется *носитель*. **жетмаркертиме** для заполнения HTML-элемента textarea с именем мтимес расположением каждого маркера. Объект **Player** создан с идентификатором "Player".
+в следующем примере JScript используется *носитель*. **жетмаркертиме** для заполнения HTML-элемента textarea с именем мтимес расположением каждого маркера. Объект **Player** создан с идентификатором "Player".
 
 
 ```JScript
@@ -89,18 +89,18 @@ for (var i = 1;i < mcount + 1; i++){
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -113,10 +113,10 @@ for (var i = 1;i < mcount + 1; i++){
 [**Media. Маркеркаунт**](media-markercount.md)
 </dt> <dt>
 
-[**Settings. Медиаакцессригхтс**](settings-mediaaccessrights.md)
+[**Параметры. медиаакцессригхтс**](settings-mediaaccessrights.md)
 </dt> <dt>
 
-[**Settings. Рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
+[**Параметры. рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
  

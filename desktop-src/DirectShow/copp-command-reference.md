@@ -4,12 +4,12 @@ ms.assetid: b21db1cf-cac3-41d6-8189-6e01c8f91a7d
 title: Справочник по командам Копп
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50dfeebe42b877604ab880ef1855035242d6eca8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ef1a706863464b6f303e05cb88e28a075dffbfba7b6bf54f8289a2699e66a76f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105673097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119565974"
 ---
 # <a name="copp-command-reference"></a>Справочник по командам Копп
 
@@ -17,7 +17,7 @@ ms.locfileid: "105673097"
 
 
 
-| Get-Help              | Код GUID                             |
+| Команда              | GUID                             |
 |----------------------|----------------------------------|
 | Задать уровень защиты | **ДКСВА \_ коппсетпротектионлевел** |
 | Настройка сигнализации        | **ДКСВА \_ коппсетсигналинг**       |
@@ -46,7 +46,7 @@ ms.locfileid: "105673097"
 
 **Входные данные**: [**Структура \_ коппсетсигналингкмддата дксва**](/windows/desktop/api/dxva9typ/ns-dxva9typ-dxva_coppsetsignalingcmddata) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

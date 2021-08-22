@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Создание иерархий в WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5743c8da8c40fc0419a96a8ec9c65e7e112573a3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5a2649fb764c1710613b27e1c9bbe518dd4cb8d02215df935ddccb59c9d7e922
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263939"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119568784"
 ---
 # <a name="creating-hierarchies-within-wmi"></a>Создание иерархий в WMI
 
@@ -39,7 +39,7 @@ WMI определяет пространство имен как экземпл
 -   [Создание родственного пространства имен с помощью MOF-кода](creating-a-sibling-namespace-with-mof-code.md)
 -   [Создание пространства имен с помощью API инструментария WMI](creating-a-namespace-with-the-wmi-api.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

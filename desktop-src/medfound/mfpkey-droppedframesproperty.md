@@ -4,12 +4,12 @@ ms.assetid: e55db53e-ab70-42ce-b5cd-2e59a4e96b7b
 title: Свойство MFPKEY_DROPPEDFRAMES (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b31404218e4e179e19f53e30f5750976c71e0d7a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c701399684b15d07ca287813cf6bf9875bab7c17261bb1ae7b9fe2bda2e5254c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103812755"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119663553"
 ---
 # <a name="mfpkey_droppedframes-property"></a>МФПКЭЙ \_ дроппедфрамес, свойство
 
@@ -23,23 +23,23 @@ ms.locfileid: "103812755"
 
 VT \_ I4
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Кадры видео иногда пропускаются или удаляются во время кодирования из-за ограничений буфера.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
-| Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
+| Заголовок<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

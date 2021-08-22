@@ -7,7 +7,7 @@
       href: targetforwardingdestination.md
     - name: таржетфорвардингхистори
       href: targetforwardinghistory.md
-    - name: Control
+    - name: Элемент
       href: control.md
       items:
         - name: Метод Checkpoint

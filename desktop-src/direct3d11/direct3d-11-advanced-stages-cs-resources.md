@@ -9,12 +9,12 @@ keywords:
 - Неупорядоченный буфер доступа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4b7a75ec95917a5ee819126e42dce3117994574
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e6ab9e6f1677770b1a40766b846f4675df9eaa3809b42838783ddb834044bfe2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119566304"
 ---
 # <a name="new-resource-types"></a>Новые типы ресурсов
 
@@ -25,7 +25,7 @@ ms.locfileid: "104413297"
 -   [Буфер байтового адреса](#byte-address-buffer)
 -   [Неупорядоченный буфер или текстура доступа](#unordered-access-buffer-or-texture)
     -   [Добавление и использование буфера](#append-and-consume-buffer)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="readwrite-buffers-and-textures"></a>Буферы чтения и записи и текстуры
 
@@ -104,13 +104,13 @@ float4 myColor = mySb[27].Color;
 
 Используйте эти ресурсы в своих методах. Эти ресурсы не используют переменные ресурсов.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Общие сведения о вычислении шейдера](direct3d-11-advanced-stages-compute-shader.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

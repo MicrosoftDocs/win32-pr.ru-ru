@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 458b12a80fdc0e6d7883d966f2e50aa8c1f6d69b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c178ef476f88e4515c361967d0c367b8eb177bdfdbe5608456eda9461146393
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104545970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119619744"
 ---
 # <a name="esentresourceexception-constructor-string-jet_err"></a>Конструктор Есентресаурцеексцептион (String, JET_err)
 
@@ -59,7 +59,7 @@ protected EsentResourceException(
 
 #### <a name="parameters"></a>Параметры
 
-  - description;  
+  - description  
     Тип: [System. String](/dotnet/api/system.string)  
     
     Описание ошибки.
@@ -71,7 +71,7 @@ protected EsentResourceException(
     
     Код ошибки исключения.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

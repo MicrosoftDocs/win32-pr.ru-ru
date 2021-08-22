@@ -4,22 +4,22 @@ ms.assetid: 860c014e-1fde-45d1-b366-c279bfcf4079
 title: Средство регистрации событий завершения работы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4208914149bb84df34e67cca71b40cde66363211
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee2deaebde736ed2e0ba72f38e8849cf815b167da68fdddbecb92e713083699b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104345705"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119664364"
 ---
 # <a name="shutdown-event-tracker"></a>Средство регистрации событий завершения работы
 
 Средство *регистрации событий завершения работы* позволяет пользователю или приложению документировать причину завершения работы или перезапуска системы. Пользователю предлагается ввести сведения при выборе команды **Завершение работы** в меню " **Пуск** " или при использовании Shutdown.exe. Разработчики могут включать код причины при вызове функций [**ExitWindowsEx**](/windows/desktop/api/Winuser/nf-winuser-exitwindowsex) и [**инитиатесистемшутдовнекс**](/windows/desktop/api/Winreg/nf-winreg-initiatesystemshutdownexa) . Информация хранится в журнале событий.
 
-**Windows XP:** Хотя эта функция включена по умолчанию начиная с Windows Server 2003, ее необходимо включить в Windows XP. Дополнительные сведения см. в документации по средству регистрации событий завершения работы, включенному в систему или на сайте TechNet.
+**Windows XP:** хотя эта функция включена по умолчанию, начиная с Windows Server 2003, ее необходимо включить в Windows XP. Дополнительные сведения см. в документации по средству регистрации событий завершения работы, включенному в систему или на сайте TechNet.
 
 Функции [**ExitWindowsEx**](/windows/desktop/api/Winuser/nf-winuser-exitwindowsex) и [**инитиатесистемшутдовнекс**](/windows/desktop/api/Winreg/nf-winreg-initiatesystemshutdownexa) были обновлены для поддержки кодов причин завершения работы в параметре *параметр dwReason* . Используйте значения, определенные в поле Reason. h для создания кода причины завершения работы, или определите пользовательский код причины. Код причины завершения работы создается на основе основного флага, дополнительного флага и двух необязательных флагов. Дополнительные сведения см. в разделе [коды причин завершения работы системы](system-shutdown-reason-codes.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

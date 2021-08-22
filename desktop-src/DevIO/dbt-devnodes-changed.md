@@ -4,12 +4,12 @@ ms.assetid: 62acc633-7dad-4792-a5a2-1f95356479d1
 title: Событие DBT_DEVNODES_CHANGED (ДБТ. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1450e9a87d541e5df3d9a9286e48601697e6aaae
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 00d43873241c3f72336dd996fb9fa3486229d9ffcf522923d68ab606313afb7e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119539164"
 ---
 # <a name="dbt_devnodes_changed-event"></a>\_ \_ Событие изменения ДБТ девнодес
 
@@ -65,11 +65,11 @@ LRESULT CALLBACK WindowProc(
 
 Возвращает **значение true**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Дополнительные сведения о том, какое устройство было добавлено или удалено из системы, не существует. Приложения, для которых требуется дополнительная информация, должны регистрироваться для уведомления устройства с помощью функции [**регистердевиценотификатион**](/windows/desktop/api/Winuser/nf-winuser-registerdevicenotificationa) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -77,11 +77,11 @@ LRESULT CALLBACK WindowProc(
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows XP<br/>                                                            |
 | Минимальная версия сервера<br/> | Windows Server 2003<br/>                                                   |
-| Header<br/>                   | <dl> <dt>ДБТ. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ДБТ. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: ceb0cf92-2d5a-4f21-bf02-8999efd6d35a
 title: Свойство MFPKEY_FULLFRAMERATE (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cbc4078cd60e0de744ebdc5b2ca8fd0631ccf180
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 75e69d1f9db3b353d16d7c16fec950fe8e05b717ce354d920062005dde31c231
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119663574"
 ---
 # <a name="mfpkey_fullframerate-property"></a>МФПКЭЙ \_ фуллфрамерате, свойство
 
@@ -23,22 +23,22 @@ ms.locfileid: "105694839"
 
 **VT \_ I4**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если задать для этого свойства значение 1, кодировщик не будет удалять кадры. Если задать для этого свойства значение 0, кодировщик может удалить кадры.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Клиент<br/> | Windows XP, Windows Vista или Windows 7<br/>                                       |
-| Header<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

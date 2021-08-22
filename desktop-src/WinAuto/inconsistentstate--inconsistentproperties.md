@@ -4,12 +4,12 @@ description: Инконсистентстате, Инконсистентпро�
 ms.assetid: 82A2ECA8-0155-402A-A745-B97D3F633643
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5522025eff8aecbdf0f4313c0052afebd4a17958
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 30533125c342bd80134c9eab45f14917a3b3ad04af9d969140c49502cbfd192a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103774264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119644844"
 ---
 # <a name="inconsistentstate-inconsistentproperties"></a>Инконсистентстате, Инконсистентпропертиес
 
@@ -19,7 +19,7 @@ ms.locfileid: "103774264"
 
 ## <a name="type"></a>Тип
 
-Ошибка
+Error
 
 ## <a name="description"></a>Описание
 
@@ -35,7 +35,7 @@ ms.locfileid: "103774264"
 
 Для элемента или его родителя задано неправильное состояние MSAA.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -48,9 +48,9 @@ ms.locfileid: "103774264"
 [Состояния и свойства](uiauto-msaa.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

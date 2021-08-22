@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bf2ab2daec38d509e670771eef61824278bee4c4
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4365b47018112886a683a2160c7d305a061cd6bd2564e9bc9a7871929a0501ec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104536209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119508434"
 ---
 # <a name="ms-tpm-srk-pub-thumbprint-attribute"></a>атрибут MS-TPM-SRK-Pub-Thumbprint
 
@@ -52,10 +52,10 @@ ms.locfileid: "104536209"
 |------------------------|---------------------------------------------------------------------------|
 | Идентификатор ссылки                | \-                                                                        |
 | MAPI-Id                | \-                                                                        |
-| System-Only            | Неверно                                                                     |
-| Является однозначным       | True                                                                      |
-| Индексируется             | True                                                                      |
-| В глобальном каталоге      | Неверно                                                                     |
+| System-Only            | Нет                                                                     |
+| Является однозначным       | Верно                                                                      |
+| Индексируется             | Верно                                                                      |
+| В глобальном каталоге      | Нет                                                                     |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                              |
 | Range-Lower            | \-                                                                        |
 | Range-Upper            | \-                                                                        |

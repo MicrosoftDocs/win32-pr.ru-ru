@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5dde02c31ed0ef72e6df36a6cf0364b7f184304e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7135a07aedb879503d36011b274bdeab8035924b91bb5d9bc656d6d89dfbe201
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657578"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119567012"
 ---
 # <a name="cenumpins-class"></a>Класс Ценумпинс
 
@@ -47,19 +47,19 @@ ms.locfileid: "105657578"
 | [**Клонировать**](cenumpins-clone.md)           | Создает копию перечислителя с тем же состоянием перечисления. |
 | [**Далее**](cenumpins-next.md)             | Извлекает указанное число ПИН-кодов.                           |
 | [**Перезапуск**](cenumpins-reset.md)           | Сбрасывает последовательность перечисления в начало.               |
-| [**Пропустить**](cenumpins-skip.md)             | Пропускает указанное число ПИН-кодов.                          |
+| [**Сразу**](cenumpins-skip.md)             | Пропускает указанное число ПИН-кодов.                          |
 
 
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Амфилтер. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>амфилтер. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
