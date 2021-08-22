@@ -4,12 +4,12 @@ ms.assetid: 30624c0a-e30f-4383-bc0c-b43f42403e72
 title: Сохранение состояния пикселя с помощью Статеблокк (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80741d9f17939d5795163a3e84c58bcdb9003c70
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: eebc7cc408fe919b1569d51f5cdd4e3e5916968d05b90557a17a22377673fdfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104537943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118797924"
 ---
 # <a name="saving-pixel-state-with-a-stateblock-direct3d-9"></a>Сохранение состояния пикселя с помощью Статеблокк (Direct3D 9)
 
@@ -56,9 +56,9 @@ ms.locfileid: "104537943"
 | D3DRS \_ стенЦилпасс                         | D3DSTENCILOP \_ |
 | D3DRS \_ стенЦилфунк                         | D3DCMP \_ всегда     |
 | D3DRS \_ стенЦилреф                          | 0                  |
-| D3DRS \_ стенЦилмаск                         | 0xFFFFFFFF         |
-| D3DRS \_ стенЦилвритемаск                    | 0xFFFFFFFF         |
-| D3DRS \_ текстурефактор                       | 0xFFFFFFFF         |
+| D3DRS \_ стенЦилмаск                         | 0xffffffff         |
+| D3DRS \_ стенЦилвритемаск                    | 0xffffffff         |
+| D3DRS \_ текстурефактор                       | 0xffffffff         |
 | D3DRS \_ WRAP0                               | 0                  |
 | D3DRS \_ WRAP1                               | 0                  |
 | D3DRS \_ WRAP2                               | 0                  |
@@ -93,7 +93,7 @@ ms.locfileid: "104537943"
 | D3DRS \_ COLORWRITEENABLE1                   | 0x0000000f         |
 | D3DRS \_ COLORWRITEENABLE2                   | 0x0000000f         |
 | D3DRS \_ COLORWRITEENABLE3                   | 0x0000000f         |
-| D3DRS \_ блендфактор                         | 0xFFFFFFFF         |
+| D3DRS \_ блендфактор                         | 0xffffffff         |
 | D3DRS \_ сргбвритинабле                     | 0                  |
 | D3DRS \_ сепаратеалфабленденабле            | **FALSE**          |
 | D3DRS \_ сркблендалфа                       | D3DBLEND \_ один      |
@@ -163,7 +163,7 @@ ms.locfileid: "104537943"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

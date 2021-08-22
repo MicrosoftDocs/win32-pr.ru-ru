@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Получение событий реестра
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87f0da8c039f83e3d4eb1f51d6b6707d0edd6b3b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7d6f3c8f39be30beeb64e7c8d8ff7f1bacfba8a47b7f4bd0c70e7cf638bf726e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118817460"
 ---
 # <a name="receiving-registry-events"></a>Получение событий реестра
 
@@ -18,7 +18,7 @@ ms.locfileid: "104080533"
 
 Например, предположим, что потребитель регистрирует два события изменения дерева, запрашивая уведомления для экземпляров [**регистритричанжеевент**](/previous-versions/windows/desktop/regprov/registrytreechangeevent) . Каждая регистрация имеет одно и то же значение Hive (поддерево), но другое значение RootPath. Если ключи в обоих путях меняются несколько раз, поставщик системного реестра гарантирует, что потребитель получит уведомление для каждого пути. В зависимости от времени отклика реестра и поставщика системного реестра потребитель может получить столько уведомлений, сколько произошло событий.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

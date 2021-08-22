@@ -4,12 +4,12 @@ ms.assetid: f36b7e36-4377-4940-8951-6caba6e3ce8a
 title: Создание хэша с помощью CNG
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 735f95182b63facee687f408ea4a07e09399e562
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f57d56c4be7dc2f947dbb1869e63fb1789f57e9b4fe6b3a7a06e3cce15580ab8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118907823"
 ---
 # <a name="creating-a-hash-with-cng"></a>Создание хэша с помощью CNG
 
@@ -226,7 +226,7 @@ Cleanup:
 
 ## <a name="creating-a-reusable-hashing-object"></a>Создание повторно используемого объекта хэширования
 
-Начиная с Windows 8 и Windows Server 2012, можно создать многократно используемый объект хэширования для сценариев, требующих быстрого вычисления нескольких хэшей или кодов HMAC. Для этого укажите **\_ \_ \_ флаг повторного использования хэша BCRYPT** при вызове функции [**BCryptOpenAlgorithmProvider**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptopenalgorithmprovider) . Этот флаг поддерживается всеми поставщиками хэш-алгоритма (Майкрософт). Объект хэширования, созданный с помощью этого флага, можно повторно использовать сразу после вызова [**BCryptFinishHash**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptfinishhash) так же, как если бы он был создан с помощью вызова [**BCryptCreateHash**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptcreatehash). Чтобы создать повторно используемый объект хэширования, выполните следующие действия.
+начиная с Windows 8 и Windows Server 2012 можно создать многократно используемый объект хэширования для сценариев, требующих быстрого вычисления нескольких хэшей или кодов hmac. Для этого укажите **\_ \_ \_ флаг повторного использования хэша BCRYPT** при вызове функции [**BCryptOpenAlgorithmProvider**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptopenalgorithmprovider) . Этот флаг поддерживается всеми поставщиками хэш-алгоритма (Майкрософт). Объект хэширования, созданный с помощью этого флага, можно повторно использовать сразу после вызова [**BCryptFinishHash**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptfinishhash) так же, как если бы он был создан с помощью вызова [**BCryptCreateHash**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptcreatehash). Чтобы создать повторно используемый объект хэширования, выполните следующие действия.
 
 1.  Откройте поставщик алгоритма, который поддерживает требуемый алгоритм хэширования. Вызовите функцию [**BCryptOpenAlgorithmProvider**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptopenalgorithmprovider) и укажите соответствующий идентификатор алгоритма в параметре *ПСЗАЛГИД* и **\_ \_ \_ флаг повторного использования хэша BCRYPT** в параметре *dwFlags* . Функция возвращает маркер поставщику.
 2.  Чтобы создать объект хэширования, выполните следующие действия.

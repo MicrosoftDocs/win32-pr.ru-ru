@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Вызов метода WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c327bbf0c4c90ad05d1c5026e3308e5fd8447aec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1db6c8a74c8125e0bb1727839b8f59f4b486161d5ae629a0c7351481ade016ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118820091"
 ---
 # <a name="calling-a-wmi-method"></a>Вызов метода WMI
 
@@ -23,7 +23,7 @@ ms.locfileid: "105693750"
     -   [Синхронный режим](#synchronous-mode)
     -   [Асинхронный режим](#asynchronous-mode)
     -   [Режим семисинчронаус](#semisynchronous-mode)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="wmi-methods-compared-to-provider-methods"></a>Методы WMI по сравнению с методами поставщика
 
@@ -141,7 +141,7 @@ foreach ($objService in $colServices)
 
 Дополнительные сведения о режиме семисинчронаус см. в статьях [осуществление вызова семисинчронаус с помощью C++](making-a-semisynchronous-call-with-c--.md) и [выполнение семисинчронаус Call с помощью VBScript](making-a-semisynchronous-call-with-vbscript.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

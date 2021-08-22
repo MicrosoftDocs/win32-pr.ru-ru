@@ -4,12 +4,12 @@ ms.assetid: 93cdb10d-4b77-4511-8c5b-c27b290f9154
 title: Перекрестная сертификация
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b18fcb8317145b7239464893391c5d2231ab1cb4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 644e5326f9d3b9f7cbe87290c044dea7f401f8a888fa3904afa162118a98d89b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265639"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118904552"
 ---
 # <a name="cross-certification"></a>Перекрестная сертификация
 
@@ -19,7 +19,7 @@ ms.locfileid: "104265639"
 
 ![Схема перекрестной сертификации](images/cross-certification.png)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

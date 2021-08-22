@@ -25,12 +25,12 @@ keywords:
 - интерфейсы, Итекстранжепровидер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f53429dc8ec137a83b6a40db377b5c84aeb36120
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 99baf1af267e67ffe3f75a83fb970c991e9ebe5674497db2a2edad8d9cc328b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104550373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118826985"
 ---
 # <a name="text-and-textrange-control-patterns"></a>Шаблоны элементов управления Text и TextRange
 
@@ -46,7 +46,7 @@ ms.locfileid: "104550373"
 
 Дополнительные сведения о шаблонах элементов управления **Text** и **TextRange** см. в разделе [Поддержка модели автоматизации пользовательского интерфейса для текстового содержимого](uiauto-ui-automation-textpattern-overview.md).
 
-Начиная с поставщиков Windows 8.1 может реализовать интерфейс [**ITextRangeProvider2**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itextrangeprovider2) . Это позволяет вызывать контекстные меню, связанные с текстовым диапазоном. Это поддерживает такие сценарии, как Автозамена текста или выбор кандидатов редактора методов ввода (IME).
+начиная с поставщиков Windows 8.1 может реализовать интерфейс [**ITextRangeProvider2**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itextrangeprovider2) . Это позволяет вызывать контекстные меню, связанные с текстовым диапазоном. Это поддерживает такие сценарии, как Автозамена текста или выбор кандидатов редактора методов ввода (IME).
 
 В этом разделе содержатся следующие подразделы.
 
@@ -59,7 +59,7 @@ ms.locfileid: "104550373"
     -   [Получение текста из текстового диапазона](#acquiring-text-from-a-text-range)
     -   [Реализация Шовконтекстмену](#implementing-showcontextmenu)
 -   [Взаимодействие с системным курсором](#interoperability-with-the-system-caret)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="implementation-guidelines-and-conventions"></a>Правила и соглашения реализации
 
@@ -114,7 +114,7 @@ ms.locfileid: "104550373"
 
 
 
- 
+ 
 
 Для реализации интерфейса [**ITextProvider2**](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider2) требуются следующие дополнительные свойства и методы.
 
@@ -127,7 +127,7 @@ ms.locfileid: "104550373"
 
 
 
- 
+ 
 
 ## <a name="required-members-for-itextrangeprovider"></a>Обязательные члены для **итекстранжепровидер**
 
@@ -152,12 +152,12 @@ ms.locfileid: "104550373"
 | [**Переместить**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-move)                                   | Метод      | Нет  |
 | [**мовиндпоинтбюнит**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-moveendpointbyunit)       | Метод      | Нет  |
 | [**мовиндпоинтбиранже**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-moveendpointbyrange)     | Метод      | Нет  |
-| [**Метьте**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-select)                               | Метод      | Нет  |
+| [**Выберите пункт**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-select)                               | Метод      | Нет  |
 | [**скроллинтовиев**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-scrollintoview)               | Метод      | Нет  |
 
 
 
- 
+ 
 
 Для реализации интерфейса [**ITextRangeProvider2**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itextrangeprovider2) требуются следующие дополнительные свойства и методы.
 
@@ -169,7 +169,7 @@ ms.locfileid: "104550373"
 
 
 
- 
+ 
 
 Шаблон элемента управления **TextRange** не имеет связанных событий.
 
@@ -237,7 +237,7 @@ ms.locfileid: "104550373"
 
 Экранные координаты центра точечного изображения курсора системы должны всегда соответствовать расположению точки вставки. Таким образом, клиент может использовать координаты экрана курсора в вызове [**итекстпровидер:: ранжефромпоинт**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextprovider-rangefrompoint) для получения текстового диапазона, точно представляющего положение точки вставки.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -262,6 +262,6 @@ ms.locfileid: "104550373"
 [Общие сведения о дереве модели автоматизации пользовательского интерфейса](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

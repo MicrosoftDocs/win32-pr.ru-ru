@@ -8,12 +8,12 @@ keywords:
 - пространство имен ADSI, Иллюстрация доступа к пространству имен поставщиков услуг
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d350a9447a79dd2659a0fed79fb781c02d84bc8c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8ae1e9406e08a5ed79ea8e207eb61c5081388adb581d747b383480e59683169e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103773028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024111"
 ---
 # <a name="active-directory-service-interfaces-provider"></a>Поставщик интерфейсов служб Active Directory
 
@@ -21,9 +21,9 @@ ms.locfileid: "103773028"
 
 ![Поставщик интерфейсов службы Active Directory](images/ds2prov.png)
 
- 
+ 
 
- 
+ 
 
 
 

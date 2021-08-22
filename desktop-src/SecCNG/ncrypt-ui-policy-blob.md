@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Ncrypt_provider.h
-ms.openlocfilehash: c45b53e051f021ab3dcce6dab4e2317572338624
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 21f9f6c0f6956ffa89da45c9dcd23727c0b3cea2d4f31131713f9ed5a0c3a2fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104544994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118907604"
 ---
 # <a name="ncrypt_ui_policy_blob-structure"></a>\_ \_ \_ Структура большого двоичного объекта политики пользовательского интерфейса NCRYPT
 
@@ -89,18 +89,18 @@ typedef struct __NCRYPT_UI_POLICY_BLOB {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Эта структура содержится в \_ заголовке NCrypt provider. h. Чтобы использовать структуру, необходимо загрузить [пакет средств разработки поставщика служб шифрования](/collaborate/connect-redirect?InvitationID=CSDK-GYTG-R2PX&ProgramID=7264) из Microsoft Connect.
+Эта структура содержится в \_ заголовке NCrypt provider. h. чтобы использовать структуру, необходимо загрузить [пакет средств разработки поставщика служб шифрования](/collaborate/connect-redirect?InvitationID=CSDK-GYTG-R2PX&ProgramID=7264) из Microsoft Подключение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                          |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                          |
 | Header<br/>                   | <dl> <dt>NCrypt \_ provider. h</dt> </dl> |
 
 

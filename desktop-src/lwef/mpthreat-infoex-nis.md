@@ -4,7 +4,7 @@ description: Содержит сведения, относящиеся к NIS.
 ms.assetid: 3887C5BF-B1F6-4420-B40A-9585E44BE7A9
 keywords:
 - MPTHREAT_INFOEX_NIS структуры устаревшие функции среды Windows
-- Функции PMPTHREAT_INFOEX_NIS указателя структур в устаревшей среде Windows
+- функции PMPTHREAT_INFOEX_NIS Windows указателя структур в устаревшей среде
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b4ed68432a2d0ebe78535a139fcc7b0882b9ba7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8320070f80000ec5c2b235a815dc075f96f82ddd3c6d56c4022b9d60759c3e44
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118746903"
 ---
 # <a name="mpthreat_infoex_nis-structure"></a>\_ \_ Структура NIS мпсреат инфоекс
 
@@ -53,7 +53,7 @@ typedef struct tagMPTHREAT_INFOEX_NIS {
 
 </dd> <dd></dd> <dt>
 
-**дестинатионип**
+**DestinationIP**
 </dt> <dd>
 
 Тип: **\_ \_ строка MP MIDL, LPWSTR**
@@ -94,8 +94,8 @@ typedef struct tagMPTHREAT_INFOEX_NIS {
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
 
 

@@ -9,12 +9,12 @@ keywords:
 - Сенсорный ввод
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6967f3ddf3a31056c3cb2d77c7c7d9679396b688
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: c718c790b4dea62cc774843c14e0ed503a0502952bef1741c74eb4fc34a0c788
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104337369"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118757714"
 ---
 # <a name="touch-hit-testing-reference"></a>Ссылка на проверку нажатия касания
 
@@ -28,6 +28,6 @@ ms.locfileid: "104337369"
 | [Функции](functions.md)<br/>   | В подразделах этого раздела приводятся справочные сведения по функциям [проверки попадания в касание](touch-hit-testing-portal.md) .<br/>  |
 | [Структуры](structures.md)<br/> | В подразделах этого раздела приведены справочные сведения по структурам [проверки попадания в касание](touch-hit-testing-portal.md) .<br/> |
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 [Проверка нажатия касания](touch-hit-testing-portal.md)

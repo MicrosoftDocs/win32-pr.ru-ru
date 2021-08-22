@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 843583698c11c1b9ad8f08e83aa6e4b894b55db8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2966751c822213025d7107e4eff055900e6c8102711b66329e6f3c4fcbe1ed02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105656079"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118676700"
 ---
 # <a name="delete-method-of-the-win32_directory-class"></a>Метод DELETE \_ класса каталога Win32
 
@@ -91,7 +91,7 @@ uint32 Delete();
 **12**
 </dt> <dd>
 
-Платформа не является Windows.
+Платформа не Windows.
 
 </dd> <dt>
 
@@ -137,7 +137,7 @@ uint32 Delete();
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Папки не обязательно являются постоянными добавлениями в файловую систему. В какой-то момент может потребоваться удалить папки, возможно, потому, что они больше не требуются, так как роль компьютера изменилась или папки были созданы по ошибке.
 
@@ -164,7 +164,7 @@ Next
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -178,7 +178,7 @@ Next
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

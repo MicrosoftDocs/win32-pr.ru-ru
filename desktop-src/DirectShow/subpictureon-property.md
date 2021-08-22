@@ -4,17 +4,17 @@ ms.assetid: fa4500bc-48b4-41ed-8b88-0011a0e51c6f
 title: Субпиктуреон, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 83376793f20468bda88edd8897e8c956094c1a88
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 692df6b69bc960562e9acd223a0e4e156fe00de2206146f609ba15d550b7a961
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951773"
 ---
 # <a name="subpictureon-property"></a>Субпиктуреон, свойство
 
 > [!Note]  
-> Этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
+> этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
 
  
 
@@ -28,7 +28,7 @@ ms.locfileid: "105684395"
 
 Возвращает логическое значение, указывающее, отображается ли подизображение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство не влияет на отображение скрытых субтитров. Скрытые субтитры внедряются в поток видео. Подизображения DVD передаются в отдельном потоке.
 

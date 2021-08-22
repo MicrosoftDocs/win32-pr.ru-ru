@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Сообщения об ошибках компилятора SNMP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7a2d342b70c097330a477bdf58aac44f68bb70b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee615d271bff14760d9f869421f5b270c135117bc51ff6003c8a95f59d40f9d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118816660"
 ---
 # <a name="snmp-compiler-error-messages"></a>Сообщения об ошибках компилятора SNMP
 
@@ -44,7 +44,7 @@ ms.locfileid: "104272569"
 -   [Ошибки с 1451 по 1460](errors-1451-through-1460.md)
 -   [Ошибки с 1501 по 1510](errors-1501-through-1510.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

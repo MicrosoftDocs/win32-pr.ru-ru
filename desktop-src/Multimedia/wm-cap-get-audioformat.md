@@ -3,7 +3,7 @@ title: Сообщение WM_CAP_GET_AUDIOFORMAT (VFW. h)
 description: Сообщение о \_ получении крепления WM \_ \_ аудиоформат получает звуковой формат или размер звукового формата. Это сообщение можно отправить явно или с помощью макросов Капжетаудиоформат и Капжетаудиоформатсизе.
 ms.assetid: 25e58863-2b1e-4ed8-9f34-c39617a15bc1
 keywords:
-- WM_CAP_GET_AUDIOFORMAT сообщения Windows мультимедиа
+- сообщение WM_CAP_GET_AUDIOFORMAT Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f9508972c173c9e189bdc092a63d849adf3be739
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d247c035f251b387537f8e6c360adf79e6ed479d8d40e4f8fe8180e059dab3cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104414721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118940742"
 ---
 # <a name="wm_cap_get_audioformat-message"></a>\_Сообщение о \_ получении крепления WM \_ аудиоформат
 
@@ -56,7 +56,7 @@ lParam = (LPARAM) (LPVOID) (LPWAVEFORMATEX) (psAudioFormat);
 
 Возвращает размер звукового формата в байтах.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Так как сжатые аудио форматы зависят от требований к размеру, приложения должны сначала получить размер, затем выделить память и, наконец, запросить данные в звуковом формате.
 
@@ -72,7 +72,7 @@ lParam = (LPARAM) (LPVOID) (LPWAVEFORMATEX) (psAudioFormat);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

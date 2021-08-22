@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Win32_tpm.dll
-ms.openlocfilehash: 61dc2798973a82cfc75c803f2bf8307c8a43b3c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8e48fc7506b6b8ba8218d23bdeba75e960f2e3beca68c3d0a95b2aa4ea3c05e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118890869"
 ---
 # <a name="win32_tpmgetphysicalpresenceconfirmationstatus-method"></a>\_Метод Win32 TPM:: жетфисикалпресенцеконфирматионстатус
 
@@ -70,7 +70,7 @@ uint32 GetPhysicalPresenceConfirmationStatus(
 | <dl> <dt>16</dt> </dl>                                                       | Сетноппипровисион \_ true<br/>                       |
 | <dl> <dt>17</dt> </dl>                                                       | Сетноппиклеар \_ false<br/>                          |
 | <dl> <dt>стр</dt> </dl>                                                       | Сетноппиклеар \_ true<br/>                           |
-| <dl> <dt>стр</dt> </dl>                                                       | Сетноппимаинтенанце \_ false<br/>                    |
+| <dl> <dt>19</dt> </dl>                                                       | Сетноппимаинтенанце \_ false<br/>                    |
 | <dl> <dt>20</dt> </dl>                                                       | Сетноппимаинтенанце \_ true<br/>                     |
 | <dl> <dt>открыт</dt> </dl>                                                       | Включить + активировать + очистить<br/>                     |
 | <dl> <dt>22</dt> </dl>                                                       | Включить + активировать + очистить + включить + активировать<br/> |
@@ -120,9 +120,9 @@ uint32 GetPhysicalPresenceConfirmationStatus(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). MOF-файлы не устанавливаются в составе Windows SDK. Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](../wmisdk/managed-object-format--mof-.md).
+файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). MOF-файлы не устанавливаются в составе Windows SDK. Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](../wmisdk/managed-object-format--mof-.md).
 
 ## <a name="requirements"></a>Требования
 
@@ -130,8 +130,8 @@ uint32 GetPhysicalPresenceConfirmationStatus(
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                      |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                      |
 | Пространство имен<br/>                | \\\\.\\ корневой \\ CIMV2 \\ безопасности \\ микрософттпм<br/>                                     |
 | MOF<br/>                      | <dl> <dt>Win32 \_ TPM. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>\_tpm.dllWin32</dt> </dl> |

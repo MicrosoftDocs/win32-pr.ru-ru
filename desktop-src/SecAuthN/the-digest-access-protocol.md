@@ -4,12 +4,12 @@ ms.assetid: 7b2fd75e-dd0d-4a63-a84b-a64f08f883f2
 title: Протокол дайджест-доступа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86aa8f05580c27c866c0568dbc67c4d5ba5c2016
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 45fea65fc25df87ef434e7bfea5cb81690cdc06f82b72882438fe4475a1895b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104569325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118916441"
 ---
 # <a name="the-digest-access-protocol"></a>Протокол дайджест-доступа
 
@@ -41,7 +41,7 @@ ms.locfileid: "104569325"
 6.  Сервер получает HTTP-запрос 2, извлекает ответ на запрос, отправленный клиентом, и проверяет подлинность данных, вызывая функцию [**AcceptSecurityContext (General)**](/windows/win32/api/sspi/nf-sspi-acceptsecuritycontext) . Дополнительные сведения о процессе проверки подлинности см. в [статье Начальная проверка подлинности с помощью Microsoft Digest](initial-authentication-using-microsoft-digest.md).
 7.  Сервер отправляет ответ HTTP 2 обратно клиенту в качестве второго и последнего ответа, необходимого для протокола дайджест-доступа. Если проверка подлинности прошла успешно, этот ответ содержит запрошенный ресурс.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

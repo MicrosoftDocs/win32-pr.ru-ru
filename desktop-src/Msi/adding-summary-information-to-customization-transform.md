@@ -4,18 +4,18 @@ ms.assetid: 586f6c43-7449-4d06-9201-9b4b4919871e
 title: Добавление сводных данных в преобразование настройки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64957fcf8f29ab8793517015c7018292ba9a6e69
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4ea4c9aa505d425bfd06fe5cac1f45666e794624618db14100ee5f517dd3048
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118639474"
 ---
 # <a name="adding-summary-information-to-customization-transform"></a>Добавление сводных данных в преобразование настройки
 
 Чтобы применить преобразование настройки во время установки продукта, необходимо добавить [информационный поток сводки](summary-information-stream.md) в файл преобразования мнптранс. MST, созданный при [формировании преобразования настройки](generating-a-customization-transform.md).
 
-Вы можете создать сводные данные для преобразования с помощью [**мсикреатетрансформсуммаринфо**](/windows/desktop/api/Msiquery/nf-msiquery-msicreatetransformsummaryinfoa) или [**метода креатетрансформсуммаринфо**](database-createtransformsummaryinfo.md). Следующий фрагмент кода, Sum.vbs, иллюстрирует [**метод креатетрансформсуммаринфо**](database-createtransformsummaryinfo.md) и предназначен для использования с сервером сценариев Windows. Обратите внимание, что этот пример не выполняет проверку и подавляет состояние ошибки.
+Вы можете создать сводные данные для преобразования с помощью [**мсикреатетрансформсуммаринфо**](/windows/desktop/api/Msiquery/nf-msiquery-msicreatetransformsummaryinfoa) или [**метода креатетрансформсуммаринфо**](database-createtransformsummaryinfo.md). следующий фрагмент кода, Sum.vbs, иллюстрирует [**метод креатетрансформсуммаринфо**](database-createtransformsummaryinfo.md) и предназначен для использования с Windowsным узлом сценариев. Обратите внимание, что этот пример не выполняет проверку и подавляет состояние ошибки.
 
 
 ```VB

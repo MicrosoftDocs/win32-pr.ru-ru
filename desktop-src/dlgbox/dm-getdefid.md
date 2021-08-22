@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7fdcdfc2cd278ab452d48ecb1c254bdb00ffbb7c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6898ed6484a66e1c0d5fa498b0352498c0a57fbe91a74f738e2c6438511aef21
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104535267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118785826"
 ---
 # <a name="dm_getdefid-message"></a>\_Сообщение ЖЕТДЕФИД DM
 
@@ -55,7 +55,7 @@ ms.locfileid: "104535267"
 
 Если существует кнопка отправки по умолчанию, то в верхнем порядке слово возвращаемого значения будет содержаться значение **DC \_ хасдефид** , а в слове с низким порядком — идентификатор элемента управления. В противном случае возвращаемое значение равно нулю.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция [**дефдлгпрок**](/windows/desktop/api/Winuser/nf-winuser-defdlgprocw) обрабатывает это сообщение.
 
@@ -67,7 +67,7 @@ ms.locfileid: "104535267"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

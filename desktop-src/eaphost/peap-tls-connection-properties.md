@@ -4,12 +4,12 @@ description: Сведения о свойствах подключения PEAP-
 ms.assetid: 1128b3f7-eba7-484e-a3d8-070d37e9c57f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: efa368ca49b93cff8fa3cd60620ec075bfb8d3a5
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: be661834c6a1053d34ba5c6a8cee7f7d491537ce0153011772c1b29cf78ef89f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104533557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118784812"
 ---
 # <a name="peap-tls-connection-properties"></a>Свойства подключения PEAP-TLS
 
@@ -59,7 +59,7 @@ ms.locfileid: "104533557"
   </EapHostConfig>
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -69,9 +69,9 @@ ms.locfileid: "104533557"
 [EAPHost и схема прежних версий](eaphost-schemas.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

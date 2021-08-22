@@ -4,12 +4,12 @@ description: При обеспечении безопасности, описа�
 ms.assetid: 528ff35c-f37c-43d8-8cc1-dbc36a9a826c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34279e4fb8899db6b7e980a0e868e91c6edb8166
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 90647852d237f02a15db6900d234d7cc78979f7c7681c67cfe9620adf17634bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118929511"
 ---
 # <a name="how-secure-is-my-rpc-server-now"></a>Насколько защищен мой RPC-сервер?
 
@@ -17,9 +17,9 @@ ms.locfileid: "103986527"
 
 Если между вызовами RPC хранится состояние, убедитесь, что один клиент не приводит к выделению чрезмерных ресурсов, что может привести к отказу в обслуживании других клиентов.
 
- 
+ 
 
- 
+ 
 
 
 

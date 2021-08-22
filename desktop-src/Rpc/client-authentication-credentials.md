@@ -4,12 +4,12 @@ description: Каждый прошедший проверку подлиннос
 ms.assetid: d567e944-8d68-4d95-be6a-840e30f57ba9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3704663411fc33340a462d8e3b356041b6061468
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2410b073886ffd70409cd749ea90305faa8d4635754e8f9596547c47bb976800
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068551"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118932190"
 ---
 # <a name="client-authentication-credentials"></a>Учетные данные проверки подлинности клиента
 
@@ -26,9 +26,9 @@ ms.locfileid: "104068551"
 
 Если клиент использует явные учетные данные, Пятый параметр этих двух функций имеет тип [**\_ \_ \_ маркера идентификации RPC auth**](rpc-auth-identity-handle.md). Это гибкий тип, который является указателем на структуру данных. Содержимое структуры данных может различаться для каждой службы проверки подлинности. В настоящее время SSP, поддерживаемые RPC, потребовали, чтобы ваш **\_ \_ \_ обработчик удостоверений проверки подлинности RPC** настроил, чтобы он указывал на структуру [**\_ \_ \_ удостоверений WinNT auth в секунду**](/windows/desktop/api/Rpcdce/ns-rpcdce-sec_winnt_auth_identity_a) . Структура **\_ удостоверения для \_ проверки \_ подлинности в секунду (в секундах** ) содержит поля для имени пользователя, домена и пароля.
 
- 
+ 
 
- 
+ 
 
 
 

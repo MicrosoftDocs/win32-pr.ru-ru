@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 949bd41ddb04618d238c0ddf09782e12fb228b26
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 11d3321d58065d890d864ed967a4e6a66dad22cde2cc234b5907afab74986898
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104262207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023432"
 ---
 # <a name="iadspathname-property-methods"></a>Методы свойств Иадспаснаме
 
@@ -63,7 +63,7 @@ HRESULT get_EscapedMode(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **Ескапедмоде** представляет состояние. Его можно включить или отключить, задав для него AD \_ ескапедмоде \_ On или AD \_ ЕСКАПЕДМОДЕ \_ Off/AD \_ ескапедмоде \_ Off \_ ex. При включении или отключении все последующие извлечения создают экранированные или неэкранированные строки пути.
 
@@ -219,7 +219,7 @@ hr = pPathname->Release();
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -227,13 +227,13 @@ hr = pPathname->Release();
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
-| Header<br/>                   | <dl> <dt>IAds. h</dt> </dl>       |
+| Заголовок<br/>                   | <dl> <dt>IAds. h</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl> |
 | IID<br/>                      | IID \_ иадспаснаме определен как D592AED4-F420-11D0-A36E-00C04FB950DC<br/>         |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

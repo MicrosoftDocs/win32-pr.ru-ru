@@ -4,12 +4,12 @@ ms.assetid: d614130c-cf1b-4580-8903-064982ed738e
 title: Основные поля
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad24afa21787227b3fe47ab187a97c7886c9c9ae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d3dae9ceaa3ddd1c4ac8a8ce86425ec32eee45e82ca8b437ed0f0c27f44817ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118905089"
 ---
 # <a name="basic-fields"></a>Основные поля
 
@@ -94,7 +94,7 @@ ChoiceOfTime ::= CHOICE
 }
 ```
 
-## <a name="subject"></a>Субъект
+## <a name="subject"></a>Тема
 
 Содержит различающееся имя X.500 объекта, связанного с открытым ключом, содержащимся в сертификате.
 
@@ -134,7 +134,7 @@ AlgorithmIdentifier ::= SEQUENCE
 }
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

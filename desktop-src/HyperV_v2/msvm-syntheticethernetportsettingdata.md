@@ -43,12 +43,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 5b31b02782c0f215f70f3bb5d2767b01294c7261
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d82c1826b865d94ae0a9a9d5a63fb535ad804ad5e874dec9563c5b5e74bd67f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118949793"
 ---
 # <a name="msvm_syntheticethernetportsettingdata-class"></a>\_Класс мсвм синсетицесернетпортсеттингдата
 
@@ -101,7 +101,7 @@ class Msvm_SyntheticEthernetPortSettingData : CIM_EthernetPortAllocationSettingD
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ синсетицесернетпортсеттингдата** имеет следующие свойства.
 
@@ -158,7 +158,7 @@ class Msvm_SyntheticEthernetPortSettingData : CIM_EthernetPortAllocationSettingD
 Указывает, включена ли проекция PacketDirect для виртуальной машины.
 
 > [!Note]  
-> Добавлено в Windows 10, версии 1703 и Windows Server 2016.
+> добавлено в Windows 10, версии 1703 и Windows Server 2016.
 
  
 
@@ -190,7 +190,7 @@ class Msvm_SyntheticEthernetPortSettingData : CIM_EthernetPortAllocationSettingD
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -216,7 +216,7 @@ class Msvm_SyntheticEthernetPortSettingData : CIM_EthernetPortAllocationSettingD
 
 Это свойство доступно только для чтения, но его можно изменить с помощью метода [**модифиресаурцесеттингс**](modifyresourcesettings-msvm-virtualsystemmanagementservice.md) класса [**\_ виртуалсистемманажементсервице мсвм**](msvm-virtualsystemmanagementservice.md) .
 
-**Windows 8.1:** Это значение не поддерживается до Windows 8.1 и Windows Server 2012 R2.
+**Windows 8.1:** это значение не поддерживается до Windows 8.1 и Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -286,7 +286,7 @@ class Msvm_SyntheticEthernetPortSettingData : CIM_EthernetPortAllocationSettingD
 Это свойство доступно только для чтения, но его можно изменить с помощью метода [**модифивиртуалсистемресаурцес**](https://www.bing.com/search?q=**ModifyVirtualSystemResources**) класса [**\_ виртуалсистемманажементсервице мсвм**](msvm-virtualsystemmanagementservice.md) .
 
 > [!Note]  
-> Добавлено в Windows 10 и Windows Server 2016.
+> добавлено в Windows 10 и Windows Server 2016.
 
  
 
@@ -519,7 +519,7 @@ class Msvm_SyntheticEthernetPortSettingData : CIM_EthernetPortAllocationSettingD
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Доступ к классу **\_ синсетицесернетпортсеттингдата мсвм** может быть ограничен фильтром контроля учетных записей. Дополнительные сведения см. в разделе [Управление учетными записями пользователей и инструментарий WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -527,21 +527,21 @@ class Msvm_SyntheticEthernetPortSettingData : CIM_EthernetPortAllocationSettingD
 
 См. раздел [запросы к сетевым объектам](querying-networking-objects.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 51FD6E36-9CDF-4005-942F-7A92CA706F38
 title: Свойство CODECAPI_AVEncVideoUseLTRFrame (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 252933180e8212c94c3c2b2442397c53d0f9c559
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 19b4df79755ed03873f0393d93f7e21ab8046af6295309207dc976f87eb0ee99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103808165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118743810"
 ---
 # <a name="codecapi_avencvideouseltrframe-property"></a>КОДЕКАПИ \_ авенквидеауселтрфраме, свойство
 
@@ -61,7 +61,7 @@ ms.locfileid: "103808165"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **Кодировщики H. 264/AVC:**
 
@@ -71,14 +71,14 @@ ms.locfileid: "103808165"
 
 Вызов КОДЕКАПИ \_ авенквидеауселтрфраме в кадре небазового слоя является допустимым и применяется к кадру, не являющемуся базовым, без задержки в кадре базового слоя.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8.1 \|\]<br/>                                   |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 R2 \|\]<br/>                        |
+| Минимальная версия клиента<br/> | Windows 8.1 \[ приложения UWP для классических приложений \|\]<br/>                                   |
+| Минимальная версия сервера<br/> | Windows Server 2012 Приложения универсального \[ приложения UWP для настольных приложений \|\]<br/>                        |
 | Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 

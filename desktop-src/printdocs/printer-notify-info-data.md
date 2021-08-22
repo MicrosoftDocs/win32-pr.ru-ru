@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 4c76ffe70a8388e920b5f8576830e31ed23edc81
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e26f7ed7f002801d3bbdf60708d83234231fe3333675a1c211488431868a4236
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104264923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118731198"
 ---
 # <a name="printer_notify_info_data-structure"></a>\_ \_ Структура данных об УВЕДОМЛЕНии принтера \_
 
@@ -104,7 +104,7 @@ typedef struct _PRINTER_NOTIFY_INFO_DATA {
 
 </dd> <dt>
 
-**Data**
+**Данные**
 </dt> <dd> <dl> <dt>
 
 **кббуф**
@@ -121,7 +121,7 @@ typedef struct _PRINTER_NOTIFY_INFO_DATA {
 
 </dd> </dl> </dd> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если член **типа** указывает \_ тип уведомления принтера \_ , элемент **field** может иметь одно из следующих значений.
 
@@ -330,7 +330,7 @@ PRINTER_ATTRIBUTE_SHARED<br />
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Винспул. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>винспул. h (включает Windows. h)</dt> </dl> |
 
 
 

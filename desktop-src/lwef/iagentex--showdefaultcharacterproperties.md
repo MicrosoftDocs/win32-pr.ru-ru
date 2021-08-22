@@ -4,16 +4,16 @@ description: Иажентекс Шовдефаултчарактерпропер
 ms.assetid: 4817b52a-7168-4008-9cda-0b8d598daea0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65436135d9763f1cb75db6fb92b9e5f0672e17a8
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 362cffa8d4b34d70111505a60fd5eadc68a220cd45c3beb519e5e39ba62f1a81
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104487692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118749818"
 ---
 # <a name="iagentexshowdefaultcharacterproperties"></a>Иажентекс:: Шовдефаултчарактерпропертиес
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT ShowDefaultCharacterProperties(
@@ -49,17 +49,17 @@ HRESULT ShowDefaultCharacterProperties(
 Флаг расположения по умолчанию. Если этот параметр имеет **значение true**, то Microsoft Agent отображает окно страницы свойств для символа по умолчанию в последнем расположении.
 
 > [!Note]  
-> Для Windows 2000 может потребоваться вызвать новый API [**алловсетфореграундвиндов**](/windows/desktop/api/winuser/nf-winuser-allowsetforegroundwindow) , чтобы это окно стало передним планом. Дополнительные сведения о настройке окна переднего плана в Windows 2000 см. в документации по пакету SDK для платформы.
+> для Windows 2000 может потребоваться вызвать новый API [**алловсетфореграундвиндов**](/windows/desktop/api/winuser/nf-winuser-allowsetforegroundwindow) , чтобы это окно превратилось в передний план. дополнительные сведения о настройке окна переднего плана в разделе Windows 2000 см. в документации по пакету SDK для платформы.
 
- 
+ 
 
 </dd> </dl>
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [**Иажентнотифисинкекс::D Ефаултчарактерчанже**](iagentnotifysinkex--defaultcharacterchange.md)
 
 
- 
+ 
 
- 
+ 

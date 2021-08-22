@@ -1,19 +1,19 @@
 ---
-description: Windows-запрос/ответ (NTLM) — это протокол проверки подлинности, используемый в сетях, которые включают в себя системы, работающие под управлением операционной системы Windows и изолированных систем.
+description: Windows запрос/ответ (NTLM) — это протокол проверки подлинности, используемый в сетях, включающих системы, в которых используется операционная система Windows и автономные системы.
 ms.assetid: 35a38858-d36f-45c9-95f4-2541a182f5ac
 title: Microsoft NTLM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9723f24d5913adefe70d4e238de0591790a34bfd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fcb3d7f272c831c6bf9ac5efd30b8fa67bc7ad27d78d43794e5110fb63d1fe49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104541175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118921695"
 ---
 # <a name="microsoft-ntlm"></a>Microsoft NTLM
 
-Windows-запрос/ответ (NTLM) — это протокол проверки подлинности, используемый в сетях, которые включают в себя системы, работающие под управлением операционной системы Windows и изолированных систем.
+Windows запрос/ответ (NTLM) — это протокол проверки подлинности, используемый в сетях, включающих системы, в которых используется операционная система Windows и автономные системы.
 
 [*Пакет безопасности*](../secgloss/s-gly.md) Microsoft [*Kerberos*](../secgloss/k-gly.md) повышает безопасность, чем NTLM, для систем в сети. Несмотря на то, что Microsoft *Kerberos* является выбранным протоколом, NTLM по-прежнему поддерживается. NTLM также необходимо использовать для проверки подлинности входа в автономных системах. Дополнительные сведения о протоколе Kerberos см. в разделе [Microsoft Kerberos](microsoft-kerberos.md).
 

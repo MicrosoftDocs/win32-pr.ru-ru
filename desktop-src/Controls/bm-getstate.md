@@ -3,7 +3,7 @@ title: Сообщение BM_GETSTATE (Winuser. h)
 description: Получает состояние кнопки или флажка. Это сообщение можно отправить явным образом или воспользоваться макросом "Кнопка" \_ .
 ms.assetid: ca4c2f1a-b657-490a-ac8b-5f0cfef64d76
 keywords:
-- Элементы управления Windows для BM_GETSTATE сообщений
+- элементы управления Windows сообщений BM_GETSTATE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a3b5e69f067acfc13cd8661be8a585fcfc8e6fe4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cd44921c61477e26cd5570fcbaa6f96a4e61f96ee22ad1c705bf553788d8cfba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118674844"
 ---
 # <a name="bm_getstate-message"></a>Сообщение BM о \_ состоянии
 
@@ -63,23 +63,23 @@ ms.locfileid: "103988248"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Header<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-**Ссылки**
+**Ссылка**
 </dt> <dt>
 
 [**BM \_**](bm-getcheck.md)

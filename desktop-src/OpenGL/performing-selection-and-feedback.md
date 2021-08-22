@@ -11,12 +11,12 @@ keywords:
 - режим рендеринга OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be13ae103d33039c996851582823c23c30316731
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 95efe3f07e86056cd0364daaed1e6a9c0ef402afc18b14d74cca313c9835479f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104329995"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118936289"
 ---
 # <a name="performing-selection-and-feedback"></a>Выполнив выбор и обратную связь
 
@@ -30,9 +30,9 @@ ms.locfileid: "104329995"
 -   [Отзывы](feedback.md)
 -   [Ссылка на выбор и обратную связь](selection-and-feedback-reference.md)
 
- 
+ 
 
- 
+ 
 
 
 

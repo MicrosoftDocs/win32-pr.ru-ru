@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e1a270e36f8254ed5dbfcd9776cf013f9d10d4a1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4425707487994904d1bd2a622cd1ab66f286469c93e80a8eb01e71c0319426ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103801318"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118939581"
 ---
 # <a name="inapsohprocessorfindnextattribute-method"></a>Метод Инапсохпроцессор:: Финднекстаттрибуте
 
@@ -92,7 +92,7 @@ HRESULT FindNextAttribute(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Метод **финднекстаттрибуте** ищет атрибуты типа *сохаттрибутетипе* из индекса, заданного параметром *фромлокатион* , и выше, пока не будет найдено соответствие. Если совпадений не найдено, **возвращается \_ файл ошибки \_ не \_ найден** .
 
@@ -102,15 +102,15 @@ HRESULT FindNextAttribute(
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                       |
-| Header<br/>                   | <dl> <dt>Наппротокол. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                       |
+| Заголовок<br/>                   | <dl> <dt>Наппротокол. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Наппротокол. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qutil.dll</dt> </dl>       |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

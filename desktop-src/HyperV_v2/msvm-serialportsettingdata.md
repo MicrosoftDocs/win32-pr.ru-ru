@@ -14,12 +14,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 21a1ab58608c5631a328795272d6a04aa56aedf2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c7365ee67cdcf3f9046ac162f36a909f54da5ab4b9683f801827213d43d0fb79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103910131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950563"
 ---
 # <a name="msvm_serialportsettingdata-class"></a>\_Класс мсвм сериалпортсеттингдата
 
@@ -43,7 +43,7 @@ class Msvm_SerialPortSettingData : CIM_ResourceAllocationSettingData
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ сериалпортсеттингдата** имеет следующие свойства.
 
@@ -58,17 +58,17 @@ class Msvm_SerialPortSettingData : CIM_ResourceAllocationSettingData
 Тип доступа: чтение и запись
 </dt> </dl>
 
-**значение true** , если режим отладчика включен для виртуального последовательного порта; в противном случае — **значение false**. Режим отладчика улучшает использование отладчика ядра Microsoft Windows для виртуального последовательного порта.
+**значение true** , если режим отладчика включен для виртуального последовательного порта; в противном случае — **значение false**. режим отладчика улучшает использование отладчика ядра Microsoft Windows для виртуального последовательного порта.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                             |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                             |
 | Минимальная версия сервера<br/> | Windows Server 2016<br/>                                                                          |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -76,7 +76,7 @@ class Msvm_SerialPortSettingData : CIM_ResourceAllocationSettingData
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

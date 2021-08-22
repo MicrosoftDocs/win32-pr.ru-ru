@@ -6,12 +6,12 @@ keywords:
 - Удаленный вызов процедур RPC, задачи, разработка интерфейса
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68b6f720bcd492e784ad07fe20e221ac54951680
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c23829dcf143f63e791984e51194686d193d69cd575fadbc0e29c13a6f2279df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104134334"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118930612"
 ---
 # <a name="developing-the-interface"></a>Разработка интерфейса
 
@@ -34,6 +34,6 @@ ms.locfileid: "104134334"
 -   [Создание идентификаторов UUID интерфейса](generating-interface-uuids.md)
 -   [Использование MIDL](using-midl.md)
 
- 
+ 
 
- 
+ 

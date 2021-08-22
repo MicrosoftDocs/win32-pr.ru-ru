@@ -4,12 +4,12 @@ ms.assetid: 2a2d839f-523e-4c32-b6e8-5cdc6dca195e
 title: Контроль доступа для ресурсов приложения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d06e78f0a663fb4001a4d702ab484a7addc86b6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c6e7cb286f80f43fb53e73645638f290f3e1d9509aa480152610dde5beb1325e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105650870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118914672"
 ---
 # <a name="access-control-for-application-resources"></a>Контроль доступа для ресурсов приложения
 

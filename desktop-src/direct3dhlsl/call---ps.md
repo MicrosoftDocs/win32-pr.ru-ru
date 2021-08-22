@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 27be29c478afdf92c29fefd16a82319e0899d2ec
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 7ae1b8a19178b0a6633a98472814e225e9ac2f7de9e3e2f016720f2f5b1a9b3a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104998114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118794088"
 ---
 # <a name="call---ps"></a>Call-PS
 
@@ -35,7 +35,7 @@ ms.locfileid: "104998114"
 
 -   l \# — [Метка-PS](label---ps.md) , помечающая начало подпрограммы для вызова.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -52,7 +52,7 @@ ms.locfileid: "104998114"
 1.  Адрес принудительной отправки следующей инструкции в стек адресов возврата.
 2.  Продолжить выполнение из инструкции, помеченной меткой.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

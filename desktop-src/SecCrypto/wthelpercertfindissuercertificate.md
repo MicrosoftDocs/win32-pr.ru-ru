@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Wintrust.dll
-ms.openlocfilehash: 99135ac22509b288726732ca4a16248b304f294b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3c6c7957e969d04eaf65014e023a5f64e0826b6285fb878d9afefbd7cda25721
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104264676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118895836"
 ---
 # <a name="wthelpercertfindissuercertificate-function"></a>Функция Вселперцертфиндиссуерцертификате
 
@@ -120,7 +120,7 @@ PCCERT_CONTEXT WINAPI WTHelperCertFindIssuerCertificate(
 
 Сертификат издателя, соответствующий сертификату субъекта, указанному параметром *пчилдконтекст* .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для успешного поиска соответствующего сертификата издателя должны выполняться следующие требования.
 
@@ -129,14 +129,14 @@ PCCERT_CONTEXT WINAPI WTHelperCertFindIssuerCertificate(
 -   Значение параметра *псфтверифясоф* должно быть в пределах срока действия сертификата субъекта.
 -   Срок действия сертификата субъекта должен быть в пределах срока действия сертификата издателя.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>Wintrust.dll</dt> </dl> |
 
 

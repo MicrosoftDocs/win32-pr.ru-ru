@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Доступ к данным о производительности в C++
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b076e1ab15b934f347ee491711d7d3d1b8fbbe0f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8e566fb5803e598e42fac06d8f04fe3e71935008668e397a47d0226a96560eec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693753"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118820331"
 ---
 # <a name="accessing-performance-data-in-c"></a>Доступ к данным о производительности в C++
 
@@ -21,7 +21,7 @@ API высокой производительности WMI — это сери�
 -   [Обновление данных о производительности](#refreshing-performance-data)
 -   [Добавление перечислителей в обновитель WMI](#adding-enumerators-to-the-wmi-refresher)
 -   [Пример](#example)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="refreshing-performance-data"></a>Обновление данных о производительности
 
@@ -376,7 +376,7 @@ int __cdecl wmain(int argc, wchar_t* argv[])
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

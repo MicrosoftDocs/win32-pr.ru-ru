@@ -4,12 +4,12 @@ ms.assetid: 656556AA-0266-4318-9D3C-AED75BD728F6
 title: Поддержка декодирования видео Direct3D 11 в Media Foundation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 542f7244922dc7947f22e4d33027fdcac1962fe5
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: f95a1d1bc1dd9987fe59fe807e56aa9af1ea4ad597b72c077906483d623e11e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105664823"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972891"
 ---
 # <a name="supporting-direct3d-11-video-decoding-in-media-foundation"></a>Поддержка декодирования видео Direct3D 11 в Media Foundation
 
@@ -21,7 +21,7 @@ ms.locfileid: "105664823"
 -   [Откат к декодированию программного обеспечения](#fallback-to-software-decoding)
 -   [Выделение несжатых буферов](#allocating-uncompressed-buffers)
 -   [Декодирование](#supporting-direct3d-11-video-decoding-in-media-foundation)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="overview"></a>Обзор
 
@@ -137,7 +137,7 @@ Direct3D 11 использует те же структуры данных, чт
 
 Внутри каждой пары вызовов [**декодербегинфраме**](/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-decoderbeginframe) и [**субмитдекодербуффер**](/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-submitdecoderbuffers) вы можете вызывать [**жетдекодербуффер**](/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-getdecoderbuffer) несколько раз, но только один раз для каждого типа буфера. Если один и тот же тип буфера дважды используется без вызова **субмитдекодербуффер**, данные в буфере будут перезаписаны.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

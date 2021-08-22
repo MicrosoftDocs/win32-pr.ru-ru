@@ -1,5 +1,5 @@
 ---
-description: Свойство enablewins &\# 32; Статический метод класса WMI включает параметры Windows Internet Служба именования (WINS), относящиеся к TCP/IP, но не зависящие от сетевого адаптера.
+description: Свойство enablewins &\# 32; статический метод класса WMI позволяет Windows параметры интернета Служба именования (WINS), относящиеся к TCP/IP, но независимо от сетевого адаптера.
 ms.assetid: ce0fb170-978f-4d70-bced-e530e43da719
 ms.tgt_platform: multiple
 title: Метод свойство enablewins класса Win32_NetworkAdapterConfiguration
@@ -14,16 +14,16 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 77f5ba32606ff228908e8b7a1559a73ae5139e9c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1ce820e515bb72cbd2521521726f2b6962c49ee1b453781b5d17993c45e0d22d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104538693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118676507"
 ---
 # <a name="enablewins-method-of-the-win32_networkadapterconfiguration-class"></a>Метод свойство enablewins \_ класса Win32 NetworkAdapterConfiguration
 
-Статический метод класса **свойство enablewins** [WMI](/windows/desktop/WmiSdk/retrieving-a-class) включает параметры Windows Internet служба именования (WINS), относящиеся к TCP/IP, но не зависящие от сетевого адаптера.
+статический метод класса **свойство enablewins** [WMI](/windows/desktop/WmiSdk/retrieving-a-class) позволяет Windows параметры интернета Служба именования (WINS), относящиеся к TCP/IP, но независимо от сетевого адаптера.
 
 В этом разделе используется синтаксис MOF-файл (MOF). Дополнительные сведения об использовании этого метода см. [в разделе вызов метода](/windows/desktop/WmiSdk/calling-a-method).
 
@@ -200,7 +200,7 @@ uint32 EnableWINS(
 
 Пример кода " [включить WINS для всех сетевых адаптеров](https://Gallery.TechNet.Microsoft.Com/64cae6dd-4155-4825-ab25-5727503edf5a) " в коллекции TechNet использует **свойство ENABLEWINS** для включения WINS на всех сетевых адаптерах, установленных на компьютере.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -214,7 +214,7 @@ uint32 EnableWINS(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

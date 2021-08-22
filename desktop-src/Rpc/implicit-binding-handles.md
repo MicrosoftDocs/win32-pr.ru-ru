@@ -4,12 +4,12 @@ description: Неявные дескрипторы привязок позвол
 ms.assetid: cf4e179b-8d97-4597-89e6-c8967b9db6c7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f5fda8501224d66518ad2e86f13fb769c4b2fa0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3d49618ec505cc776c346a504fb19b65db539dadb90d030e45efbabcf08371db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118929079"
 ---
 # <a name="implicit-binding-handles"></a>Неявные дескрипторы привязки
 
@@ -18,7 +18,7 @@ ms.locfileid: "104070114"
 > [!Note]  
 > Неявные дескрипторы привязки не являются потокобезопасными. Поэтому многопоточные приложения не должны использовать неявные дескрипторы привязки.
 
- 
+ 
 
 Если приложение использует неявные привязки, клиент должен задать сведения о привязке, чтобы они могли создать привязку. После того как клиент создаст неявную привязку, ему не нужно передавать никакие дескрипторы привязки удаленным процедурам. Библиотека RPC обрабатывает оставшуюся часть механики сеанса связи.
 
@@ -55,6 +55,6 @@ status = RpcBindingFree(hHello);
 
 В предыдущем примере функции библиотеки времени выполнения RPC [**рпкбиндингфромстрингбиндинг**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingfromstringbinding) и [**рпкбиндингфри**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingfree) требовали передачи неявного маркера привязки в списки параметров. Однако Удаленная процедура Миремотепроцедуре не была, так как она не является функцией библиотеки времени выполнения RPC.
 
- 
+ 
 
- 
+ 

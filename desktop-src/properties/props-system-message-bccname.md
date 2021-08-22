@@ -4,12 +4,12 @@ ms.assetid: ad888d32-956d-45c1-a73d-4799cc3ed320
 title: System. Message. Бккнаме
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ce478d2ac0ec553b77d41f8741ce9dcf4ee1120
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fe861d6ad42cc7d293a79eeb5bf8be4cd7fe494c6a9ea430693e8d7c22d6bc81
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118724834"
 ---
 # <a name="systemmessagebccname"></a>System. Message. Бккнаме
 
@@ -30,11 +30,11 @@ propertyDescription
       type = Multivalue String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

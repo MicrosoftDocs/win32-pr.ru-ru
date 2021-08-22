@@ -8,48 +8,48 @@
           href: whats-new-in-directshow.md
         - name: Поддерживаемые форматы в DirectShow
           href: supported-formats-in-directshow.md
-        - name: Вопросы и ответы по DirectShow
+        - name: DirectShow ВОПРОСЫ И ОТВЕТЫ
           href: directshow-faq.yml
     - name: Приступая к работе
       href: getting-started.md
       items:
-        - name: Создание приложений DirectShow
+        - name: создание приложений DirectShow
           href: setting-up-the-build-environment.md
-        - name: Введение в программирование приложений DirectShow
+        - name: общие сведения о программировании приложений DirectShow
           href: introduction-to-directshow-application-programming.md
         - name: Воспроизведение файла
           href: how-to-play-a-file.md
     - name: О DirectShow
       href: about-directshow.md
       items:
-        - name: Обзор системы DirectShow
+        - name: DirectShow Обзор системы
           href: directshow-system-overview.md
-        - name: Граф фильтра и его компоненты
+        - name: фильтр Graph и его компоненты
           href: the-filter-graph-and-its-components.md
           items:
-            - name: О фильтрах DirectShow
+            - name: о фильтрах DirectShow
               href: about-directshow-filters.md
-            - name: О диспетчере графов фильтров
+            - name: о диспетчере Graph фильтра
               href: about-the-filter-graph-manager.md
             - name: О типах носителей
               href: about-media-types.md
             - name: О примерах носителей и распределителях
               href: about-media-samples-and-allocators.md
-            - name: Как аппаратные устройства участвуют в графе фильтра
+            - name: Как аппаратные устройства участвуют в фильтре Graph
               href: how-hardware-devices-participate-in-the-filter-graph.md
-        - name: Построение графа фильтра
+        - name: Создание фильтра Graph
           href: building-the-filter-graph.md
           items:
             - name: Компоненты Graph-Building
               href: graph-building-components.md
-            - name: Общие сведения о построении графов
+            - name: обзор Graph здания
               href: overview-of-graph-building.md
-            - name: Интеллектуальное подключение
+            - name: интеллектуальные Подключение
               href: intelligent-connect.md
-        - name: Поток данных в графе фильтра
+        - name: Flow данных в фильтре Graph
           href: data-flow-in-the-filter-graph.md
           items:
-            - name: Общие сведения о потоке данных в DirectShow
+            - name: общие сведения о Flow данных в DirectShow
               href: overview-of-data-flow-in-directshow.md
             - name: Транспорты
               href: transports.md
@@ -66,7 +66,7 @@
               href: overview-of-notification.md
             - name: Получение событий
               href: retrieving-events.md
-            - name: Обучение при возникновении события
+            - name: Обучение При возникновении события
               href: learning-when-an-event-occurs.md
         - name: Время и часы в DirectShow
           href: time-and-clocks-in-directshow.md
@@ -79,7 +79,7 @@
               href: time-stamps.md
             - name: Активные источники
               href: live-sources.md
-        - name: Построение динамического графа
+        - name: динамическая сборка Graph
           href: dynamic-graph-building.md
           items:
             - name: Динамическое повторное подключение
@@ -91,26 +91,26 @@
     - name: Использование DirectShow
       href: using-directshow.md
       items:
-        - name: Имитация построения графа с помощью Графедит
+        - name: имитация Graph сборки с помощью графедит
           href: simulating-graph-building-with-graphedit.md
           items:
             - name: Использование Графедит
               href: using-graphedit.md
-            - name: Загрузка графа из внешнего процесса
+            - name: загрузка Graph из внешнего процесса
               href: loading-a-graph-from-an-external-process.md
-            - name: Сохранение графа фильтра в файл Графедит
+            - name: сохранение Graph фильтра в файле графедит
               href: saving-a-filter-graph-to-a-graphedit-file.md
             - name: Программная загрузка файла Графедит
               href: loading-a-graphedit-file-programmatically.md
             - name: Формат файла Графедит
               href: graphedit-file-format.md
-        - name: Основные задачи DirectShow
+        - name: основные задачи DirectShow
           href: basic-directshow-tasks.md
           items:
             - name: Рендеринг видео
               href: video-rendering.md
               items:
-                - name: О отрисовке видео в DirectShow
+                - name: Сведения о отрисовке видео в DirectShow
                   href: about-video-rendering-in-directshow.md
                 - name: Выбор правильного модуля подготовки видео
                   href: choosing-the-right-renderer.md
@@ -127,7 +127,7 @@
                   href: using-the-system-device-enumerator.md
                 - name: Использование средства сопоставления фильтров
                   href: using-the-filter-mapper.md
-            - name: Перечисление объектов в графе фильтра
+            - name: Перечисление объектов в фильтре Graph
               href: enumerating-objects-in-a-filter-graph.md
               items:
                 - name: Перечисление фильтров
@@ -143,17 +143,17 @@
                   href: add-a-filter-by-clsid.md
                 - name: Поиск неподключенного ПИН-кода в фильтре
                   href: find-an-unconnected-pin-on-a-filter.md
-                - name: Соединение двух фильтров
+                - name: Подключение Два фильтра
                   href: connect-two-filters.md
                 - name: Поиск интерфейса в фильтре или ПИН-коде
                   href: find-an-interface-on-a-filter-or-pin.md
                 - name: Поиск однорангового узла фильтра
                   href: find-a-filters-peer.md
-                - name: Удаление всех фильтров в графе
+                - name: Удалите все фильтры в Graph
                   href: remove-all-the-filters-in-the-graph.md
-                - name: Построение диаграмм с помощью построителя графа записи
+                - name: построение диаграмм с помощью построителя Graph Capture
                   href: building-graphs-with-the-capture-graph-builder.md
-            - name: Поиск графа фильтра
+            - name: Поиск Graph фильтра
               href: seeking-the-filter-graph.md
               items:
                 - name: Запрос возможностей поиска
@@ -166,12 +166,12 @@
                   href: time-formats-for-seek-commands.md
                 - name: Реализация панели поиска
                   href: implementing-a-seek-bar.md
-            - name: Настройка часов графа
+            - name: настройка часов Graph
               href: setting-the-graph-clock.md
             - name: Отладка в DirectShow
               href: debugging-in-directshow.md
               items:
-                - name: Отладка фильтров DirectShow
+                - name: отладка фильтров DirectShow
                   href: debugging-directshow-filters.md
                 - name: Советы по устранению неполадок
                   href: troubleshooting-tips.md
@@ -186,17 +186,17 @@
               href: step-1--declare-the-dshowplayer-class.md
             - name: Шаг 2. объявление Квидеорендерер и производных классов
               href: step-2--declare-cvideorenderer-and-derived-classes.md
-            - name: Шаг 3. Создание графа фильтра
+            - name: Шаг 3. Создание фильтра Graph
               href: step-3--build-the-filter-graph.md
             - name: Шаг 4. Добавление модуля подготовки видео
               href: step-4--add-the-video-renderer.md
             - name: Шаг 5. Добавление функции видео
               href: step-5--add-video-functionality.md
-            - name: Шаг 6. Работа с событиями графа
+            - name: шаг 6. обработку событий Graph
               href: step-6--handle-graph-events.md
             - name: Шаг 7. элементы управления транспорта
               href: step-7--transport-controls.md
-            - name: Пример воспроизведения DirectShow
+            - name: DirectShow Пример воспроизведения
               href: directshow-playback-example.md
               items:
                 - name: воспроизведение. h
@@ -216,23 +216,23 @@
               href: about-the-audio-capture-filter.md
             - name: Выбор устройства записи
               href: selecting-a-capture-device.md
-            - name: Создание графика записи звука
+            - name: Создание Graph записи звука
               href: creating-an-audio-capture-graph.md
-            - name: Создание графика аудиозаписи с предварительной версией
+            - name: создание записи аудио Graph с предварительной версией
               href: creating-an-audio-capture-graph-with-preview.md
             - name: Настройка свойств записи звука
               href: setting-audio-capture-properties.md
         - name: Видеозапись
           href: video-capture.md
           items:
-            - name: Сведения о записи видео в DirectShow
+            - name: Сведения о захвате видео в DirectShow
               href: about-video-capture-in-directshow.md
               items:
-                - name: О построителе диаграмм записи
+                - name: о построителе Graph записи
                   href: about-the-capture-graph-builder.md
                 - name: О устройствах видеозаписи
                   href: about-video-capture-devices.md
-                - name: Фильтры захвата видео DirectShow
+                - name: DirectShow Фильтры записи видео
                   href: directshow-video-capture-filters.md
             - name: Выбор устройства записи
               href: selecting-a-capture-device.md
@@ -243,7 +243,7 @@
               items:
                 - name: Запись видео в файл AVI
                   href: capturing-video-to-an-avi-file.md
-                - name: Запись видео в файл Windows Media
+                - name: запись видео в Windowsный файл мультимедиа
                   href: capturing-video-to-a-windows-media-file.md
                 - name: Пользовательские форматы файлов
                   href: custom-file-formats.md
@@ -253,7 +253,7 @@
                   href: capturing-to-multiple-files.md
                 - name: Объединение видеозаписей и предварительной версии
                   href: combining-video-capture-and-preview.md
-            - name: Управление графиком записи
+            - name: Управление Graph записи
               href: controlling-a-capture-graph.md
             - name: Задачи записи видео
               href: video-capture-tasks.md
@@ -298,7 +298,7 @@
                       href: transmit-from-type-2-file.md
                 - name: Работа с видеоустройствами USB DV
                   href: working-with-usb-dv-video-devices.md
-                - name: Параметры полей ДВИНФО в драйвере МСДВ
+                - name: Параметры поля двинфо в драйвере мсдв
                   href: dvinfo-field-settings-in-the-msdv-driver.md
                   items:
                     - name: Исходный (AS) пакет ААУКС
@@ -358,7 +358,7 @@
                   href: working-with-pin-categories.md
                 - name: Использование фильтра Smart Tee
                   href: using-the-smart-tee-filter.md
-                - name: Использование микшера наложения в видеозаписи
+                - name: использование наложения Mixer в видеозаписи
                   href: using-the-overlay-mixer-in-video-capture.md
                 - name: ПИН-коды порта видео
                   href: video-port-pins.md
@@ -377,7 +377,7 @@
               href: dvd-support-features-in-directshow.md
             - name: Основные сведения о DVD
               href: dvd-basics.md
-            - name: Создание графа фильтра DVD
+            - name: Создание фильтра DVD Graph
               href: building-the-dvd-filter-graph.md
             - name: Получение указателей на DVD-интерфейсах
               href: obtaining-the-dvd-interface-pointers.md
@@ -387,7 +387,7 @@
               href: identifying-valid-dvd-operations.md
             - name: Синхронизация команд DVD
               href: synchronizing-dvd-commands.md
-            - name: Поток данных в навигаторе DVD
+            - name: Flow данных в навигаторе DVD
               href: data-flow-in-the-dvd-navigator.md
             - name: Обработка уведомлений о событиях DVD
               href: handling-dvd-event-notifications.md
@@ -401,13 +401,13 @@
               href: saving-and-restoring-dvdstate-objects.md
             - name: Работа с текстовыми строками DVD
               href: working-with-dvd-text-strings.md
-            - name: Воспроизведение звуковых потоков Караоке
+            - name: воспроизведение аудио Потоки караоке
               href: playing-karaoke-audio-streams.md
             - name: Обработка извлечения с диска
               href: handling-disc-ejections.md
-            - name: Усовершенствования воспроизведения DVD в Windows Vista
+            - name: усовершенствования воспроизведения DVD в Windows Vista
               href: dvd-playback-enhancements-in-windows-vista.md
-            - name: Конфигурация графа фильтра DVD
+            - name: конфигурация Graph фильтра DVD
               href: dvd-filter-graph-configuration.md
             - name: Ярлыки на страницы справочника по C++ DVD
               href: shortcuts-to-c-dvd-reference-pages.md
@@ -423,9 +423,9 @@
                   href: mpeg-2-demux-run-time-modes.md
                 - name: Настройка закрепления выходных данных демультиплексирование
                   href: configuring-the-demux-output-pins.md
-                - name: Использование демультиплексирование с простейшими потоками
+                - name: использование демультиплексирование с простейшим Потоки
                   href: using-the-demux-with-elementary-streams.md
-                - name: Использование демультиплексирование с потоками PSI
+                - name: использование демультиплексирование с PSI Потоки
                   href: using-the-demux-with-psi-streams.md
                 - name: Поведение демультиплексирование Clock
                   href: demux-clock-behavior.md
@@ -433,7 +433,7 @@
               href: using-the-mpeg-2-splitter.md
             - name: Примеры свойств MPEG
               href: mpeg-sample-properties.md
-        - name: Использование Windows Media в DirectShow
+        - name: использование Windows Media в DirectShow
           href: using-windows-media-in-directshow.md
           items:
             - name: Чтение файлов ASF в DirectShow
@@ -456,7 +456,7 @@
             - name: Создание файлов ASF в DirectShow
               href: creating-asf-files-in-directshow.md
               items:
-                - name: Пакет SDK для DirectShow и пакет SDK Windows Media Format
+                - name: пакет sdk для DirectShow и Windows Media Format sdk
                   href: the-directshow-sdk-and-the-windows-media-format-sdk.md
                 - name: Настройка модуля записи ASF
                   href: configuring-the-asf-writer.md
@@ -464,7 +464,7 @@
                   href: building-filter-graphs-to-write-asf-files.md
                 - name: Настройка профилей и других свойств ASF-файлов
                   href: configuring-profiles-and-other-asf-file-properties.md
-                - name: Разблокировка пакета SDK Windows Media Format
+                - name: разблокировка пакета SDK для Windows Media Format
                   href: unlocking-the-windows-media-format-sdk.md
         - name: Использование модуля подготовки видео для микширования
           href: using-the-video-mixing-renderer.md
@@ -474,7 +474,7 @@
               items:
                 - name: Свойства VMR
                   href: features-of-the-vmr.md
-                - name: VMR и предыдущие модули подготовки DirectShow
+                - name: VMR и предыдущие DirectShow модули подготовки отчетов
                   href: vmr-vs--previous-directshow-renderers.md
                 - name: Требования к системе VMR
                   href: vmr-system-requirements.md
@@ -487,7 +487,7 @@
                   href: vmr-windowed--compatibility--mode.md
                 - name: Режим без окон VMR
                   href: vmr-windowless-mode.md
-                - name: VMR с несколькими потоками (режим смешения)
+                - name: VMR с несколькими Потокиами (режим смешения)
                   href: vmr-with-multiple-streams--mixing-mode.md
                 - name: Режим воспроизведения VMR (пользовательский распределитель — выступающие)
                   href: vmr-renderless-playback-mode--custom-allocator-presenters.md
@@ -500,7 +500,7 @@
                       href: synchronizing-the-vmr-to-the-monitors-refresh-rate.md
                 - name: Монопольный режим DirectDraw
                   href: directdraw-exclusive-mode.md
-            - name: Создание графа фильтра VMR-9
+            - name: Создание фильтра VMR-9 Graph
               href: building-a-vmr-9-filter-graph.md
             - name: Использование режима смешения VMR
               href: using-vmr-mixing-mode.md
@@ -519,7 +519,7 @@
                   href: displaying-an-application-supplied-bitmap-on-the-composited-image.md
             - name: Настройка параметров чередования
               href: setting-deinterlace-preferences.md
-            - name: Использование VMR для разработчиков фильтров DirectShow
+            - name: использование VMR для разработчиков фильтров DirectShow
               href: using-the-vmr-for-directshow-filter-developers.md
               items:
                 - name: Требования к декодерам
@@ -565,14 +565,14 @@
                   href: copp-query-reference.md
                 - name: Справочник по командам Копп
                   href: copp-command-reference.md
-        - name: Написание фильтров DirectShow
+        - name: написание фильтров DirectShow
           href: writing-directshow-filters.md
           items:
-            - name: Введение в разработку фильтров DirectShow
+            - name: общие сведения о разработке фильтров DirectShow
               href: introduction-to-directshow-filter-development.md
-            - name: Создание фильтров DirectShow
+            - name: создание фильтров DirectShow
               href: building-directshow-filters.md
-            - name: Как подключаются фильтры
+            - name: как Подключение фильтры
               href: how-filters-connect.md
               items:
                 - name: Закрепление подключений
@@ -585,7 +585,7 @@
                   href: providing-a-custom-allocator.md
                 - name: Повторное подключение ПИН-кодов
                   href: reconnecting-pins.md
-            - name: Поток данных для разработчиков фильтров
+            - name: Flow данных для разработчиков фильтров
               href: data-flow-for-filter-developers.md
               items:
                 - name: Доставка образцов
@@ -628,7 +628,7 @@
                   href: stopping.md
                 - name: Получение буферов
                   href: getting-buffers.md
-                - name: Потоковая передача потоков и диспетчер графа фильтров
+                - name: потоки потоковой передачи и диспетчер Graph фильтра
                   href: streaming-threads-and-the-filter-graph-manager.md
                 - name: Сводка по потокам фильтров
                   href: summary-of-filter-threading.md
@@ -649,7 +649,7 @@
                       href: how-iunknown-works.md
                     - name: Использование Кункновн
                       href: using-cunknown.md
-                - name: Создание библиотеки DLL фильтра DirectShow
+                - name: создание библиотеки DLL для фильтра DirectShow
                   href: how-to-create-a-dll.md
                   items:
                     - name: Фабрики классов и шаблоны фабрики
@@ -658,7 +658,7 @@
                       href: factory-template-array.md
                     - name: Функции DLL
                       href: dll-functions.md
-                - name: Как зарегистрировать фильтры DirectShow
+                - name: как зарегистрировать фильтры DirectShow
                   href: how-to-register-directshow-filters.md
                   items:
                     - name: Структура разделов реестра
@@ -676,7 +676,7 @@
             - name: Запись фильтров источника
               href: writing-source-filters.md
               items:
-                - name: Написание фильтра источника для DirectShow
+                - name: Как записать фильтр источника для DirectShow
                   href: how-to-write-a-source-filter-for-directshow.md
                 - name: Поддержка поиска в фильтре источника
                   href: supporting-seeking-in-a-source-filter.md
@@ -786,11 +786,11 @@
               href: choosing-a-compression-filter.md
             - name: Задание свойств сжатия видео
               href: setting-video-compression-properties.md
-            - name: Построение графа повторного сжатия
+            - name: Создание Graph повторного сжатия
               href: building-the-recompression-graph.md
             - name: Запись файла
               href: writing-the-file.md
-    - name: Примеры DirectShow
+    - name: DirectShow Регистрируют
       href: directshow-samples.md
       items:
         - name: Пример Амкап
@@ -801,7 +801,7 @@
           href: ball-filter-sample.md
         - name: Пример Кутсцене
           href: cutscene-sample.md
-        - name: Демонстрационный пример DMO
+        - name: DMO Демонстрационный пример
           href: dmo-demo-sample.md
         - name: Пример Дмоенум
           href: dmoenum-sample.md
@@ -861,10 +861,10 @@
           href: wavdest-filter-sample.md
         - name: Пример без окон
           href: windowless-sample.md
-    - name: Справочник по DirectShow
+    - name: DirectShow IsReference
       href: directshow-reference.md
       items:
-        - name: Фильтры DirectShow
+        - name: DirectShow Фильтрующ
           href: directshow-filters.md
           items:
             - name: Фильтр оболочки ACM
@@ -893,7 +893,7 @@
               href: color-space-converter-filter.md
             - name: Фильтр модуля подготовки DirectSound
               href: directsound-renderer-filter.md
-            - name: Фильтр оболочки DMO
+            - name: DMO Фильтр оболочки
               href: dmo-wrapper-filter.md
             - name: Фильтр DV мультиплексор
               href: dv-muxer-filter.md
@@ -963,7 +963,7 @@
               href: multi-file-parser-filter.md
             - name: Фильтр смешивания наложений
               href: overlay-mixer-filter.md
-            - name: Наложение фильтра микшера 2
+            - name: фильтр оверлея Mixer 2
               href: overlay-mixer-2-filter.md
             - name: Фильтр раскомпрессоров QT
               href: qt-decompressor-filter.md
@@ -997,7 +997,7 @@
               href: wave-parser-filter.md
             - name: Фильтр записи видео WDM
               href: wdm-video-capture-filter.md
-            - name: Фильтр источников Windows Media
+            - name: Windows Фильтр источника мультимедиа
               href: windows-media-source-filter.md
             - name: Фильтр чтения WM ASF
               href: wm-asf-reader-filter.md
@@ -1012,7 +1012,7 @@
           items:
             - name: Интерфейсы для построения графов фильтра
               href: interfaces-for-building-filter-graphs.md
-            - name: Интерфейсы для управления графом фильтра
+            - name: Интерфейсы для управления фильтром Graph
               href: interfaces-for-controlling-a-filter-graph.md
             - name: Интерфейсы аудиозаписи и подготовки к просмотру
               href: audio-capture-and-rendering-interfaces.md
@@ -1026,7 +1026,7 @@
               href: interfaces-for-video-rendering-and-overlay.md
             - name: Интерфейсы управления внешними устройствами
               href: external-device-control-interfaces.md
-            - name: Алфавитный список интерфейсов DirectShow
+            - name: алфавитный список интерфейсов DirectShow
               href: alphabetical-list-of-directshow-interfaces.md
             - name: иаманалогвидеодекодер
               href: /windows/desktop/api/strmif/nn-strmif-iamanalogvideodecoder
@@ -3992,7 +3992,7 @@
                   href: /previous-versions/windows/desktop/api/amxmlgraphbuilder/nf-amxmlgraphbuilder-ixmlgraphbuilder-buildfromxmlfile
                 - name: Функции SaveToXML
                   href: /previous-versions/windows/desktop/api/amxmlgraphbuilder/nf-amxmlgraphbuilder-ixmlgraphbuilder-savetoxml
-        - name: Структуры DirectShow
+        - name: DirectShow Сотрудник
           href: directshow-structures.md
           items:
             - name: ALLOCATOR_PROPERTIES
@@ -4221,7 +4221,7 @@
               href: /previous-versions/dd757713(v=vs.85)
             - name: вавеформатекстенсибле
               href: /windows/desktop/api/mmreg/ns-mmreg-waveformatextensible
-        - name: Перечислимые типы DirectShow
+        - name: DirectShow Перечислимые типы
           href: directshow-enumerated-types.md
           items:
             - name: _AM_ASFWRITERCONFIG_PARAM
@@ -4725,7 +4725,7 @@
           items:
             - name: амжетеррортекст
               href: /windows/desktop/api/errors/nf-errors-amgeterrortexta
-        - name: Типы данных DirectShow
+        - name: DirectShow Типы данных
           href: directshow-data-types.md
           items:
             - name: DVD_REGISTER
@@ -4744,7 +4744,7 @@
               href: reftime.md
             - name: спрмаррай
               href: sprmarray.md
-        - name: Элемент управления ActiveX Мсвебдвд
+        - name: элемент управления ActiveX мсвебдвд
           href: mswebdvd-activex-control.md
           items:
             - name: Объект Мсвебдвд
@@ -5567,14 +5567,14 @@
                   href: /windows/desktop/api/codecapi/ne-codecapi-eavencvideosourcescantype
                 - name: еавфастдекодемоде
                   href: /windows/desktop/api/codecapi/ne-codecapi-eavfastdecodemode
-        - name: Объекты DirectShow
+        - name: DirectShow Объект
           href: directshow-objects.md
           items:
-            - name: Построитель диаграмм записи
+            - name: построитель Graph захвата
               href: capture-graph-builder.md
-            - name: Построитель DVD Graph
+            - name: построитель DVD-Graph
               href: dvd-graph-builder.md
-            - name: Диспетчер графа фильтров
+            - name: диспетчер Graph фильтра
               href: filter-graph-manager.md
             - name: Средство сопоставления фильтров
               href: filter-mapper.md
@@ -5586,14 +5586,14 @@
               href: system-reference-clock.md
             - name: Перечислитель системных устройств
               href: system-device-enumerator.md
-        - name: Базовые классы DirectShow
+        - name: DirectShow Базовые классы
           href: directshow-base-classes.md
           items:
-            - name: Использование базовых классов DirectShow
+            - name: использование базовых классов DirectShow
               href: using-the-directshow-base-classes.md
             - name: Общие сведения о базовых классах фильтров
               href: introduction-to-the-filter-base-classes.md
-            - name: Справочник по базовому классу DirectShow
+            - name: DirectShow Ссылка на базовый класс
               href: base-class-reference.md
               items:
                 - name: каггдиректдрав
@@ -5737,7 +5737,7 @@
                       href: cbaseallocator-commit.md
                     - name: Освобождения
                       href: cbaseallocator-decommit.md
-                    - name: Бесплатный
+                    - name: Free
                       href: cbaseallocator-free.md
                     - name: GetBuffer
                       href: cbaseallocator-getbuffer.md
@@ -6206,7 +6206,7 @@
                       href: cbaseoutputpin-m-pallocator.md
                     - name: m_pInputPin
                       href: cbaseoutputpin-m-pinputpin.md
-                    - name: Активна
+                    - name: Активен
                       href: cbaseoutputpin-active.md
                     - name: бегинфлуш
                       href: cbaseoutputpin-beginflush.md
@@ -6279,7 +6279,7 @@
                       href: cbasepin-m-tstop.md
                     - name: m_dRate
                       href: cbasepin-m-drate.md
-                    - name: Активна
+                    - name: Активен
                       href: cbasepin-active.md
                     - name: агримедиатипе
                       href: cbasepin-agreemediatype.md
@@ -6490,7 +6490,7 @@
                       href: cbaserenderer-m-signaltime.md
                     - name: m_ThreadSignal
                       href: cbaserenderer-m-threadsignal.md
-                    - name: Активна
+                    - name: Активен
                       href: cbaserenderer-active.md
                     - name: бегинфлуш
                       href: cbaserenderer-beginflush.md
@@ -6969,7 +6969,7 @@
                       href: cdynamicoutputpin-m-pgraphconfig.md
                     - name: m_bPinUsesReadOnlyAllocator
                       href: cdynamicoutputpin-m-bpinusesreadonlyallocator.md
-                    - name: Активна
+                    - name: Активен
                       href: cdynamicoutputpin-active.md
                     - name: асинчронаусблоккаутпутпин
                       href: cdynamicoutputpin-asynchronousblockoutputpin.md
@@ -7124,7 +7124,7 @@
                       href: cimageallocator-createdib.md
                     - name: креатеимажесампле
                       href: cimageallocator-createimagesample.md
-                    - name: Бесплатный
+                    - name: Free
                       href: cimageallocator-free.md
                     - name: нотифимедиатипе
                       href: cimageallocator-notifymediatype.md
@@ -7338,7 +7338,7 @@
                       href: cmediatype-format.md
                     - name: форматленгс
                       href: cmediatype-formatlength.md
-                    - name: форматтипе
+                    - name: FormatType
                       href: cmediatype-formattype.md
                     - name: жетсамплесизе
                       href: cmediatype-getsamplesize.md
@@ -7378,7 +7378,7 @@
                       href: cmediatype-setvariablesize.md
                     - name: Subtype
                       href: cmediatype-subtype.md
-                    - name: Type
+                    - name: Тип
                       href: cmediatype-type.md
                     - name: operator =
                       href: cmediatype-operator-.md
@@ -7401,7 +7401,7 @@
                       href: cmemallocator--cmemallocator.md
                     - name: CreateInstance
                       href: cmemallocator-createinstance.md
-                    - name: Бесплатный
+                    - name: Free
                       href: cmemallocator-free.md
                     - name: реаллифри
                       href: cmemallocator-reallyfree.md
@@ -7654,7 +7654,7 @@
                   items:
                     - name: m_pAlloc
                       href: cpullpin-m-palloc.md
-                    - name: Активна
+                    - name: Активен
                       href: cpullpin-active.md
                     - name: алигндовн
                       href: cpullpin-aligndown.md
@@ -7733,7 +7733,7 @@
                       href: crenderedinputpin-m-batendofstream.md
                     - name: m_bCompleteNotified
                       href: crenderedinputpin-m-bcompletenotified.md
-                    - name: Активна
+                    - name: Активен
                       href: crenderedinputpin-active.md
                     - name: крендерединпутпин
                       href: crenderedinputpin-crenderedinputpin.md
@@ -7748,7 +7748,7 @@
                   items:
                     - name: m_pRenderer
                       href: crendererinputpin-m-prenderer.md
-                    - name: Активна
+                    - name: Активен
                       href: crendererinputpin-active.md
                     - name: Allocator
                       href: crendererinputpin-allocator.md
@@ -7891,7 +7891,7 @@
                   items:
                     - name: m_pFilter
                       href: csourcestream-m-pfilter.md
-                    - name: Активна
+                    - name: Активен
                       href: csourcestream-active.md
                     - name: чеккмедиатипе
                       href: csourcestream-checkmediatype.md
@@ -8426,7 +8426,7 @@
           items:
             - name: Преимущества дмос
               href: benefits-of-dmos.md
-            - name: Архитектура DMO
+            - name: DMO AHA
               href: dmo-architecture.md
         - name: Использование дмос
           href: using-dmos.md
@@ -8434,28 +8434,28 @@
             - name: Непосредственное размещение DMO
               href: directly-hosting-a-dmo.md
               items:
-                - name: Настройка типов мультимедиа для DMO
+                - name: Настройка типов мультимедиа на DMO
                   href: setting-media-types-on-a-dmo.md
                 - name: Обработка данных в DMO
                   href: processing-data-in-a-dmo.md
                 - name: Обработка In-Place
                   href: in-place-processing.md
-                - name: Необязательные потоки
+                - name: необязательный Потоки
                   href: optional-streams.md
                 - name: Реализация Имедиабуффер
                   href: implementing-imediabuffer.md
             - name: Использование дмос в DirectShow
               href: using-dmos-in-directshow.md
-        - name: Написание DMO
+        - name: Запись DMO
           href: writing-a-dmo.md
           items:
-            - name: Минимальные требования DMO
+            - name: DMO Минимальные требования
               href: dmo-minimum-requirements.md
-            - name: Типы мультимедиа DMO
+            - name: DMO Типы носителей
               href: dmo-media-types.md
             - name: Регистрация DMO
               href: registering-a-dmo.md
-            - name: Использование шаблона класса DMO
+            - name: использование шаблона класса DMO
               href: using-the-dmo-class-template.md
             - name: Использование приложения Дмотест
               href: using-the-dmotest-application.md
@@ -8470,10 +8470,10 @@
               href: envelope-segments.md
             - name: Вычисление значений параметров
               href: calculating-parameter-values.md
-        - name: Справочник по DMO
+        - name: DMO IsReference
           href: dmo-reference.md
           items:
-            - name: Интерфейсы DMO
+            - name: DMO Интерфейс
               href: dmo-interfaces.md
               items:
                 - name: идмокуалитиконтрол
@@ -8598,7 +8598,7 @@
                       href: /previous-versions/windows/desktop/api/medparam/nf-medparam-imediaparams-setparam
                     - name: сеттимеформат
                       href: /previous-versions/windows/desktop/api/medparam/nf-medparam-imediaparams-settimeformat
-            - name: Структуры DMO
+            - name: DMO Сотрудник
               href: dmo-structures.md
               items:
                 - name: DMO_MEDIA_TYPE
@@ -8611,7 +8611,7 @@
                   href: /previous-versions/windows/desktop/api/medparam/ns-medparam-mp_envelope_segment
                 - name: MP_PARAMINFO
                   href: /previous-versions/windows/desktop/api/medparam/ns-medparam-mp_paraminfo
-            - name: Перечислимые типы DMO
+            - name: DMO Перечислимые типы
               href: dmo-enumerated-types.md
               items:
                 - name: DMO_ENUM_FLAGS
@@ -8636,7 +8636,7 @@
                   href: /previous-versions/windows/desktop/api/medparam/ne-medparam-mp_curve_type
                 - name: MP_TYPE
                   href: /previous-versions/windows/desktop/api/medparam/ne-medparam-mp_type
-            - name: Функции DMO
+            - name: DMO Функции
               href: dmo-functions.md
               items:
                 - name: дмоенум
@@ -8661,14 +8661,14 @@
                   href: /previous-versions/windows/desktop/api/dmort/nf-dmort-mofreemediatype
                 - name: моинитмедиатипе
                   href: /previous-versions/windows/desktop/api/dmort/nf-dmort-moinitmediatype
-            - name: Константы DMO
+            - name: DMO Постоянным
               href: dmo-constants.md
               items:
-                - name: Коды ошибок DMO
+                - name: DMO Коды ошибок
                   href: dmo-error-codes.md
-                - name: GUID DMO
+                - name: DMO Идентификаторы GUID
                   href: dmo-guids.md
-                - name: Идентификаторы GUID формата времени DMO
+                - name: DMO Идентификаторы GUID формата времени
                   href: dmo-time-format-guids.md
                 - name: Флаги возможностей параметров
                   href: parameter-capabilities-flags.md
@@ -8697,15 +8697,15 @@
                   href: /previous-versions/ms807649(v=msdn.10)
                 - name: Unlock
                   href: /previous-versions/ms809101(v=msdn.10)
-    - name: Службы редактирования DirectShow
+    - name: DirectShow Изменение служб
       href: directshow-editing-services.md
       items:
-        - name: Введение в службы редактирования DirectShow
+        - name: общие сведения о службах DirectShow editing Services
           href: introduction-to-directshow-editing-services.md
-        - name: начало работы с помощью служб редактирования DirectShow
+        - name: начало работы с DirectShow служб редактирования
           href: getting-started-with-directshow-editing-services.md
           items:
-            - name: Архитектура служб редактирования DirectShow
+            - name: DirectShow Архитектура служб редактирования
               href: directshow-editing-services-architecture.md
             - name: Модель временной шкалы
               href: the-timeline-model.md
@@ -8713,9 +8713,9 @@
               href: transitions.md
             - name: Композиция и разложение
               href: composition-and-layering.md
-            - name: Время в службах редактирования DirectShow
+            - name: время в DirectShow службы редактирования
               href: time-in-directshow-editing-services.md
-        - name: Использование служб редактирования DirectShow
+        - name: использование служб DirectShow editing Services
           href: using-directshow-editing-services.md
           items:
             - name: Общие сведения о компонентах временной шкалы
@@ -8727,14 +8727,14 @@
                   href: timeline-objects.md
                 - name: Подобъекты
                   href: subobjects.md
-            - name: Загрузка и предварительный просмотр проекта
+            - name: Загрузка и предварительный просмотр Project
               href: loading-and-previewing-a-project.md
               items:
-                - name: Загрузка файла проекта
+                - name: загрузка файла Project
                   href: loading-a-project-file.md
-                - name: Предварительный просмотр проекта
+                - name: Предварительный просмотр Project
                   href: previewing-the-project.md
-                - name: 'Предварительный просмотр проекта: пример кода'
+                - name: 'предварительный просмотр Project: пример кода'
                   href: previewing-a-project--example-code.md
             - name: Создание временной шкалы
               href: constructing-a-timeline.md
@@ -8773,18 +8773,18 @@
                   href: setting-properties-on-effects-and-transitions.md
                 - name: Направление перехода
                   href: transition-direction.md
-            - name: Подготовка проекта
+            - name: Подготовка Project
               href: rendering-a-project.md
               items:
                 - name: Сведения о механизмах подготовки отчетов
                   href: about-the-render-engines.md
-                - name: Предварительный просмотр проекта
+                - name: Предварительный просмотр Project
                   href: previewing-a-project.md
-                - name: Запись проекта в файл
+                - name: запись Project в файл
                   href: writing-a-project-to-a-file.md
                 - name: Предоставление пользовательского изменения размера видео
                   href: providing-a-custom-video-resizer.md
-                - name: Выбор декодера в службах редактирования DirectShow
+                - name: выбор декодера в службах DirectShow editing Services
                   href: selecting-a-decoder-in-directshow-editing-services.md
             - name: Регистрация ошибок
               href: logging-errors.md
@@ -8799,10 +8799,10 @@
                   href: setting-the-error-log.md
                 - name: 'Ведение журнала ошибок DES: пример кода'
                   href: des-error-logging--example-code.md
-            - name: Использование Windows Media с службами редактирования DirectShow
+            - name: использование Windows Media с DirectShow служб редактирования
               href: using-windows-media-with-directshow-editing-services.md
               items:
-                - name: Запись файла Windows Media в DES
+                - name: запись Windowsного файла мультимедиа в DES
                   href: writing-a-windows-media-file-in-des.md
             - name: Управление проектами редактирования видео
               href: managing-video-editing-projects.md
@@ -8813,7 +8813,7 @@
             - name: Зафрагментировать рамку афиши
               href: grabbing-a-poster-frame.md
               items:
-                - name: Шаг 1. Создание платформы Windows
+                - name: шаг 1. создание платформы Windows
                   href: step-1--create-the-windows-framework.md
                 - name: Шаг 2. Добавление команды меню для захвата афиши
                   href: step-2--add-a-menu-command-to-grab-a-poster-frame.md
@@ -8821,10 +8821,10 @@
                   href: step-3--implement-the-frame-grabbing-function.md
                 - name: Шаг 4. Рисование точечного рисунка в клиентской области
                   href: step-4--draw-the-bitmap-on-the-client-area.md
-        - name: Справочник по службам редактирования DirectShow в C++
+        - name: DirectShow Справочник по службам редактирования в C++
           href: directshow-editing-services-c---reference.md
           items:
-            - name: Интерфейсы для служб редактирования DirectShow
+            - name: интерфейсы для DirectShow редактирования служб
               href: interfaces-des.md
               items:
                 - name: иамеррорлог
@@ -9479,7 +9479,7 @@
                       href: ixml2dex-copyxml.md
                     - name: креатеграффромфиле
                       href: ixml2dex-creategraphfromfile.md
-                    - name: Удаление
+                    - name: Удалить
                       href: ixml2dex-delete.md
                     - name: пастексмл
                       href: ixml2dex-pastexml.md
@@ -9539,7 +9539,7 @@
                   href: volume-envelope-effect.md
                 - name: Источник цвета видео
                   href: video-color-source.md
-            - name: Объекты служб редактирования DirectShow
+            - name: DirectShow Изменение объектов служб
               href: directshow-editing-services-objects.md
               items:
                 - name: Базовый механизм визуализации
@@ -9548,7 +9548,7 @@
                   href: composition.md
                 - name: Действие
                   href: effect.md
-                - name: Group
+                - name: Группа
                   href: group.md
                 - name: Детектор мультимедиа (Медиадет)
                   href: media-detector--mediadet.md
@@ -9641,7 +9641,7 @@
                       href: samplingrate-attribute.md
                     - name: src
                       href: src-attribute.md
-                    - name: start
+                    - name: запуск
                       href: start-attribute.md
                     - name: stop
                       href: stop-attribute.md
@@ -9653,7 +9653,7 @@
                       href: swapinputs-attribute.md
                     - name: time
                       href: time-attribute.md
-                    - name: type
+                    - name: тип
                       href: type-attribute.md
                     - name: UserData
                       href: userdata-attribute.md
@@ -9661,7 +9661,7 @@
                       href: userid-attribute.md
                     - name: username
                       href: username-attribute.md
-                    - name: значение
+                    - name: Значение
                       href: value-attribute.md
                     - name: width
                       href: width-attribute.md
@@ -9694,9 +9694,9 @@
                   href: multimedia-streaming-object-and-interface-hierarchy.md
                 - name: Создание объектов потоков мультимедиа и образцов потоков
                   href: creating-multimedia-stream-objects-and-stream-samples.md
-                - name: Использование потоков мультимедиа в приложениях
+                - name: использование мультимедийных Потоки в приложениях
                   href: using-multimedia-streams-in-applications.md
-                - name: Обмен данными между потоками
+                - name: обмен данными между Потоки
                   href: sharing-data-between-streams.md
             - name: Список интерфейсов потоковой передачи мультимедиа
               href: list-of-multimedia-streaming-interfaces.md
@@ -9910,7 +9910,7 @@
                       href: /previous-versions/windows/desktop/api/mmstream/nf-mmstream-istreamsample-getsampletimes
                     - name: сетсамплетимес
                       href: /previous-versions/windows/desktop/api/mmstream/nf-mmstream-istreamsample-setsampletimes
-                    - name: Обновление
+                    - name: Update
                       href: /previous-versions/windows/desktop/api/mmstream/nf-mmstream-istreamsample-update
             - name: Типы перечислений потоковой передачи мультимедиа
               href: multimedia-streaming-types.md
@@ -10036,7 +10036,7 @@
                   href: /windows/desktop/api/strmif/nf-strmif-iamdevmemoryallocator-alloc
                 - name: чеккмемори
                   href: /windows/desktop/api/strmif/nf-strmif-iamdevmemoryallocator-checkmemory
-                - name: Бесплатный
+                - name: Free
                   href: /windows/desktop/api/strmif/nf-strmif-iamdevmemoryallocator-free
                 - name: жетдевмеморйобжект
                   href: /windows/desktop/api/strmif/nf-strmif-iamdevmemoryallocator-getdevmemoryobject
@@ -10278,7 +10278,7 @@
               href: avi-riff-file-reference.md
             - name: Данные DV в формате AVI
               href: dv-data-in-the-avi-file-format.md
-        - name: Поддержка смены региона DVD в Windows
+        - name: Поддержка изменения региона DVD в Windows
           href: dvd-region-change-support-in-windows.md
           items:
             - name: Источники сведений о регионе DVD
@@ -10289,7 +10289,7 @@
               href: how-microsoft-dvd-navigator-selects-the-dvd-region.md
             - name: Изменение следующего региона DVD
               href: subsequent-dvd-region-change.md
-            - name: Установка компонентов поддержки изменения региона Windows
+            - name: установка компонентов поддержки изменения региона Windows
               href: installing-the-windows-region-change-support-components.md
             - name: Добавление поддержки Region-Change в приложение
               href: adding-region-change-support-to-an-application.md

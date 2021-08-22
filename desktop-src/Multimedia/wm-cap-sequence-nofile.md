@@ -3,7 +3,7 @@ title: Сообщение WM_CAP_SEQUENCE_NOFILE (VFW. h)
 description: Сообщение о том, что \_ \_ файл с последовательностью закрепления WM \_ инициирует потоковую передачу видео без записи данных в файл. Это сообщение можно отправить явно или с помощью макроса Капкаптуресекуенценофиле.
 ms.assetid: 60cbcb62-3bfa-4182-a049-1e3cb2ede423
 keywords:
-- WM_CAP_SEQUENCE_NOFILE сообщения Windows мультимедиа
+- сообщение WM_CAP_SEQUENCE_NOFILE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e0a08f470989b8000e9757c1cb81924b875b5303
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3d9344b53a52caa2e536483a339439a6d942ff1fea0313767d0e1be520c09b48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135262"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118940732"
 ---
 # <a name="wm_cap_sequence_nofile-message"></a>Сообщение о том, что \_ файл имеет последовательность закрепления WM \_ \_
 
@@ -38,7 +38,7 @@ lParam = 0L;
 
 Возвращает **значение true** в случае успеха или **false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это сообщение можно использовать в сочетании с потоком видео или с функциями обратного вызова потоковой передачи аудио, которые позволяют вашему приложению напрямую применять видео и аудио данные.
 
@@ -66,7 +66,7 @@ lParam = 0L;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

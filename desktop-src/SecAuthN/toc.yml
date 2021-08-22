@@ -158,7 +158,7 @@
                     - name: Основные понятия проверки подлинности
                       href: basic-authentication-concepts.md
                       items:
-                        - name: Проверка подлинности с использованием ключа
+                        - name: Проверка подлинности ключа
                           href: key-authentication.md
                         - name: Authenticator Ошибка
                           href: authenticator-messages.md
@@ -239,7 +239,7 @@
                               href: tls-versus-ssl.md
                     - name: Коды проверки подлинности сообщений в SChannel
                       href: message-authentication-codes-in-schannel.md
-                    - name: Комплекты шифров в TLS/SSL (общедоступный поставщик услуг Schannel)
+                    - name: Комплекты шифров в TLS/SSL (Schannel SSP)
                       href: cipher-suites-in-schannel.md
                       items:
                         - name: комплекты шифров TLS в Windows 10 v21H1
