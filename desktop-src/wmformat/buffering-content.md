@@ -3,16 +3,16 @@ title: Буферизация содержимого
 description: Буферизация содержимого
 ms.assetid: e14e0130-aefd-4e46-b288-4302d2333de2
 keywords:
-- Windows Media Format SDK, буферизация содержимого
+- Windows Пакет SDK для формата мультимедиа, буферизация содержимого
 - буферизация содержимого
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a06b378431653f21be742c12b4e4a5ae2a994318
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3005895f7a196073566c32bb455f5808bf6f11feb491000b140e1bbf88b94b7a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105700475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119586994"
 ---
 # <a name="buffering-content"></a>Буферизация содержимого
 
@@ -24,7 +24,7 @@ ms.locfileid: "105700475"
 
 Как правило, для потока в профиле устанавливается скорость и окно буфера, а модуль записи обрабатывает остальное. Однако при передаче сжатых образцов в средство чтения необходимо обеспечить передачу правильных значений в новый файл, задав скорость потока и окно буфера в целевом профиле в качестве значений из сжатого потока.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -34,12 +34,12 @@ ms.locfileid: "105700475"
 [**Примеры носителей**](media-samples.md)
 </dt> <dt>
 
-[**Входы, потоки и выходные данные**](inputs-streams-and-outputs.md)
+[**входные данные, Потоки и выходные данные**](inputs-streams-and-outputs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

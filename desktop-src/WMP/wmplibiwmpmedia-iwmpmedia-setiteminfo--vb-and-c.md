@@ -3,9 +3,9 @@ title: Ивмпмедиа Сетитеминфо, метод
 description: Метод Сетитеминфо задает значение указанного атрибута для элемента мультимедиа.
 ms.assetid: 247bbba5-7d9b-489d-8e41-ae8ec6e266fd
 keywords:
-- Сетитеминфо метод Windows Media Player
-- Сетитеминфо метод проигрывателя Windows Media Player, интерфейс Ивмпмедиа
-- Интерфейс Ивмпмедиа Windows Media Player, метод Сетитеминфо
+- проигрыватель Windows Media метода сетитеминфо
+- проигрыватель Windows Media метода сетитеминфо, интерфейс ивмпмедиа
+- проигрыватель Windows Media интерфейса ивмпмедиа, метод сетитеминфо
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6702c80c13090a370e2922ccecade49bc06645de
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 24265e94880899df96aa954f2df30ca6e4f5ae1e5b4fc20c419085e3f9f0ab14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668586"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053642"
 ---
 # <a name="iwmpmediasetiteminfo-method"></a>Метод Ивмпмедиа:: Сетитеминфо
 
@@ -73,7 +73,7 @@ Implements IWMPMedia.setItemInfo
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Свойство **аттрибутекаунт** возвращает количество атрибутов, доступных для данного элемента мультимедиа. Номера индексов можно использовать с методом **жетаттрибутенаме** для определения имен встроенных атрибутов, которые могут использоваться с этим методом.
 
@@ -83,7 +83,7 @@ Implements IWMPMedia.setItemInfo
 
 Примечание
 
-При внедрении элемента управления проигрывателя Windows Media в приложение измененные атрибуты файла не будут записываться в файл мультимедиа до тех пор, пока пользователь не запустит проигрыватель Windows Media.
+при внедрении элемента управления проигрыватель Windows Media в приложение измененные атрибуты файла не будут записываться в файл мультимедиа до тех пор, пока пользователь не выполнит проигрыватель Windows Media.
 
 ## <a name="examples"></a>Примеры
 
@@ -134,19 +134,19 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

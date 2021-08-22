@@ -32,7 +32,7 @@ onmouseout
 
 Этот обработчик событий неприменим к элементу **списка воспроизведения** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -42,7 +42,7 @@ onmouseout
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

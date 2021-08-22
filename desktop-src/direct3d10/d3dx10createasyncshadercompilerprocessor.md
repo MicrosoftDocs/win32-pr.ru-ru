@@ -144,7 +144,7 @@ HRESULT D3DX10CreateAsyncShaderCompilerProcessor(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

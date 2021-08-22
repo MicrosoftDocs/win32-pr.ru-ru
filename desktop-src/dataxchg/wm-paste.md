@@ -3,7 +3,7 @@ title: Сообщение WM_PASTE (Winuser. h)
 description: Приложение отправляет \_ сообщение вставки WM в элемент управления или поле со списком, чтобы скопировать текущее содержимое буфера обмена в элемент управления "поле ввода" в текущей позиции курсора. Данные вставляются только в том случае, если буфер обмена содержит данные в \_ текстовом формате CF.
 ms.assetid: 6830b511-986f-46ef-a977-7adedffe86ea
 keywords:
-- Обмен данными с сообщениями WM_PASTE
+- WM_PASTE Exchange данных сообщений
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86b723830ecdd0f8b7e3faa9da9adcb51161b297
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1a3cc1815349a2194d5dd7e2a65eb1c9ae77a2947f41361a90e92bae73357f81
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415969"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119499124"
 ---
 # <a name="wm_paste-message"></a>\_Сообщение вставки WM
 
@@ -54,11 +54,11 @@ ms.locfileid: "104415969"
 
 Это сообщение не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При отправке в поле со списком сообщение **\_ вставки WM** обрабатывается его элементом управления "поле ввода". Это сообщение не действует при отправке в поле со списком со стилем [**\_ DROPDOWNLIST в CBS**](../controls/combo-box-styles.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -66,11 +66,11 @@ ms.locfileid: "104415969"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

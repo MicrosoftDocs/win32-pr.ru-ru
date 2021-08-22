@@ -30,12 +30,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: ff2c9725c8469b3e2c29d2e98a708d27e80378f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1caed7797343eac9babd320af42fd6c9aaaffeff054211cc55bda0d437582d57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068494"
 ---
 # <a name="cim_virtualsystemsettingdata-class"></a>\_Класс CIM виртуалсистемсеттингдата
 
@@ -73,7 +73,7 @@ class CIM_VirtualSystemSettingData : CIM_SettingData
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ виртуалсистемсеттингдата** имеет следующие свойства.
 
@@ -416,7 +416,7 @@ VS-Type = DMTF-value/другое-org-value/устаревшее значени�
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -430,7 +430,7 @@ VS-Type = DMTF-value/другое-org-value/устаревшее значени�
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

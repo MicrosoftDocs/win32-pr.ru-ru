@@ -4,12 +4,12 @@ ms.assetid: fbe53f17-940a-485e-82b2-c11ae39b3300
 title: Клиентские интерфейсы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5d7c85ec5cb9b35e30d68b1d784cdebf230fdaa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6b44db8fdd42b20fb2ff7a3224bccf5214147069baa9187facdb1c832c375a59
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911143"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119590402"
 ---
 # <a name="client-interfaces"></a>Клиентские интерфейсы
 
@@ -30,11 +30,11 @@ ms.locfileid: "103911143"
 | [**ипортабледевицепропертиесбулк**](/windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-iportabledevicepropertiesbulk)                 | Асинхронно считывает и записывает несколько свойств для нескольких объектов на устройстве.                                                                                                                                               |
 | [**ипортабледевицепропертиесбулккаллбакк**](/windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-iportabledevicepropertiesbulkcallback) | Реализуется приложением для отслеживания хода выполнения асинхронной операции, начатой с помощью интерфейса **ипортабледевицепропертиесбулк** .                                                                          |
 | [**ипортабледевицересаурцес**](/windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-iportabledeviceresources)                           | Предоставляет доступ к данным объекта.                                                                                                                                                                                                |
-| [**ипортабледевицесервице**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)                               | Только Windows 7. Обеспечивает низкий уровень доступа к службе портативных устройств.                                                                                                                                                             |
-| [**ипортабледевицесервицекапабилитиес**](/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities)              | Только Windows 7. Извлекает различные возможности службы, включая Поддерживаемые форматы, команды, методы и профили подготовки к просмотру.                                                                                                |
-| [**ипортабледевицесервицемесодс**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicemethods)                 | Только Windows 7. Вызывает методы синхронно и асинхронно для службы.                                                                                                                                                      |
-| [**ипортабледевицесервицемесодкаллбакк**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicemethodcallback)   | Только Windows 7. Реализовано приложением для того, чтобы отследить завершение асинхронной операции метода службы путем вызова [ **ипортабледевицесервицемесодс:: InvokeAsync**](/windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicemethods-invokeasync) |
-| [**ипортабледевицесервицеманажер**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicemanager)                 | Только Windows 7. Перечисляет службы, поддерживаемые устройством, и извлекает устройство, связанное со службой.                                                                                                             |
+| [**ипортабледевицесервице**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)                               | только Windows 7. Обеспечивает низкий уровень доступа к службе портативных устройств.                                                                                                                                                             |
+| [**ипортабледевицесервицекапабилитиес**](/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities)              | только Windows 7. Извлекает различные возможности службы, включая Поддерживаемые форматы, команды, методы и профили подготовки к просмотру.                                                                                                |
+| [**ипортабледевицесервицемесодс**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicemethods)                 | только Windows 7. Вызывает методы синхронно и асинхронно для службы.                                                                                                                                                      |
+| [**ипортабледевицесервицемесодкаллбакк**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicemethodcallback)   | только Windows 7. Реализовано приложением для того, чтобы отследить завершение асинхронной операции метода службы путем вызова [ **ипортабледевицесервицемесодс:: InvokeAsync**](/windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicemethods-invokeasync) |
+| [**ипортабледевицесервицеманажер**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicemanager)                 | только Windows 7. Перечисляет службы, поддерживаемые устройством, и извлекает устройство, связанное со службой.                                                                                                             |
 
 
 
@@ -44,7 +44,7 @@ ms.locfileid: "103911143"
 
 ![Схема, демонстрирующая создание и извлечение наиболее необходимых клиентских интерфейсов](images/wpd-sdk-interface-diagram.gif)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

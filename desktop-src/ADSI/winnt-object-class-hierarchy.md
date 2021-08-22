@@ -7,12 +7,12 @@ keywords:
 - Службы WinNT Service Provider ADSI, иерархия классов объектов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6facb31a41e3b03db8290dd6a11e56f9a56c06b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e893839393ad3b9aaa42557d90f9bf279ab0625e1225ab41f2d1a3c7e7980a1c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104531835"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119589764"
 ---
 # <a name="winnt-object-class-hierarchy"></a>Иерархия классов объектов WinNT
 
@@ -23,12 +23,12 @@ ms.locfileid: "104531835"
 | Класс объекта                   | Описание                                                                       |
 |--------------------------------|-----------------------------------------------------------------------------------|
 | Пространство имен<br/>           | Контейнер объектов верхнего уровня.<br/>                                            |
-| Домен<br/>              | Домен Windows NT.<br/>                                                 |
+| Домен<br/>              | домен Windows NT.<br/>                                                 |
 | Пользователь<br/>                | Учетная запись пользователя.<br/>                                                          |
 | Группа<br/>               | Учетная запись группы для управления правами доступа.<br/>                              |
 | усерграупколлектион<br/> | Набор групп пользователей, реализующих [**иадсмемберс**](/windows/desktop/api/Iads/nn-iads-iadsmembers).<br/>  |
 | GroupCollection<br/>     | Набор других групп, реализующих [**иадсмемберс**](/windows/desktop/api/Iads/nn-iads-iadsmembers).<br/> |
-| Компьютер<br/>            | Сервер или рабочая станция Windows NT 4,0.<br/>                                  |
+| Компьютер<br/>            | сервер Windows NT 4,0 или рабочая станция.<br/>                                  |
 | PrintJob<br/>            | Задание печати в очереди печати.<br/>                                          |
 | принтжобсколлектион<br/> | Набор заданий печати.<br/>                                                   |
 | PrintQueue<br/>          | Очередь печати в диспетчере очереди принтера.<br/>                                      |
@@ -41,7 +41,7 @@ ms.locfileid: "104531835"
 | Группа<br/>               | Локальная группа.<br/>                                                           |
 | усерколлектион<br/>      | Коллекция локальных пользователей.<br/>                                             |
 | GroupCollection<br/>     | Коллекция локальных групп.<br/>                                            |
-| схема<br/>              | Контейнер "WinNT Schema".<br/>                                                |
+| Схема<br/>              | Контейнер "WinNT Schema".<br/>                                                |
 | Класс<br/>               | Определение класса схемы.<br/>                                               |
 | Свойство<br/>            | Определение атрибута схемы.<br/>                                           |
 | Синтаксис<br/>              | Синтаксис свойства.<br/>                                                  |

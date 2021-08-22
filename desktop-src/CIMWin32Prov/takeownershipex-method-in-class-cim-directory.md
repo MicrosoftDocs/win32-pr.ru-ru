@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b02a6c40e99405c150a372f8eb15fe648f2df60a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5637e45c6dad7eec3f79ffd045a4a8d0dd3f3ba51ed5a60c09916c11802b1130
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104140987"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119332784"
 ---
 # <a name="takeownershipex-method-of-the-cim_directory-class"></a>Метод Такеовнершипекс \_ класса каталога CIM
 
@@ -135,7 +135,7 @@ uint32 TakeOwnerShipEx(
 
 12
 
-Платформа не является Windows.
+Платформа не Windows.
 
 </dd> <dt>
 
@@ -193,7 +193,7 @@ uint32 TakeOwnerShipEx(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В настоящее время этот метод не реализован инструментарием WMI. Чтобы использовать этот метод, его необходимо реализовать в собственном поставщике.
 
@@ -201,7 +201,7 @@ uint32 TakeOwnerShipEx(
 
 ## <a name="examples"></a>Примеры
 
-Следующий код скрипта Visual Basic вызывает метод **такеовнершипекс** , чтобы стать владельцем папки C: \\ TEMP.
+следующий код скрипта Visual Basic вызывает метод **такеовнершипекс** , чтобы стать владельцем папки C: \\ temp.
 
 
 ```VB
@@ -228,7 +228,7 @@ wscript.echo objOutParams.ReturnValue
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -242,7 +242,7 @@ wscript.echo objOutParams.ReturnValue
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

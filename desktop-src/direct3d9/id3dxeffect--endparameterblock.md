@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 3359e3b923d05e003ffbda18791e497d18ba627e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b1d68aa1bd716ee106a5d1588a7a7060adb851185115e97d2f5f2a5d7f857c02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104000382"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119494234"
 ---
 # <a name="id3dxeffectendparameterblock-method"></a>Метод ID3DXEffect:: Ендпараметерблокк
 
@@ -44,22 +44,22 @@ D3DXHANDLE EndParameterBlock();
 
 Возвращает маркер в блок состояния параметра.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Все параметры эффектов, изменяющие состояние (после вызова Бегинпараметерблокк и до вызова Ендпараметерблокк), будут сохранены в блоке состояния параметра effect. Используйте Апплипараметерблокк, чтобы применить этот блок изменений состояния к системе эффектов. После завершения работы с блоком состояния используйте Делетепараметерблокк, чтобы освободить память.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Effect. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Effect. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

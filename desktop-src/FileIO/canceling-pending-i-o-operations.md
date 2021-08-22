@@ -4,18 +4,18 @@ ms.assetid: adfe6d05-f30b-40a1-b3b0-58e2593e7b25
 title: Отмена ожидающих операций ввода-вывода
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3d108409eea32cf18a94f83bf7aacd282c60d3e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c6ca0f938420888934dccb28c9837bdff5dd8515bbdeeb1b3acf4078ae558ccd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684382"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119534124"
 ---
 # <a name="canceling-pending-io-operations"></a>Отмена ожидающих операций ввода-вывода
 
 Предоставление пользователям возможности отменять запросы ввода-вывода, которые замедляют или блокируется, может повысить удобство использования и надежность приложения. Например, если вызов функции [**OpenFile**](/windows/desktop/api/WinBase/nf-winbase-openfile) заблокирован, так как вызов выполняется на очень низком устройстве, отмена этого параметра позволяет снова выполнить вызов с новыми параметрами без завершения работы приложения.
 
-Windows Vista расширяет возможности отмены, а также поддерживает отмену синхронных операций.
+Windows Vista расширяет возможности отмены и включает поддержку отмены синхронных операций.
 
 **Примечание**  .  Вызов функции [**канцелиоекс**](cancelioex-func.md) не гарантирует, что операция ввода-вывода будет отменена. драйвер, обрабатывающий операцию, должен поддерживать отмену, и операция должна находиться в состоянии, которое может быть отменено.
 
@@ -303,7 +303,7 @@ MainUIThreadMessageHandler(HWND hwnd,
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

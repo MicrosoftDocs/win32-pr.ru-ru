@@ -4,16 +4,16 @@ ms.assetid: 2e542a2d-fc71-41d5-9abd-0dfa70719c0f
 title: Шаг 7. элементы управления транспорта
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b974ccc8c186b1915d2a6564870a0b177073544e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8253efab566f5dc14a0d0210a26e84cb0a50113389d54b7a871d818a17296ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072418"
 ---
 # <a name="step-7-transport-controls"></a>Шаг 7. элементы управления транспорта
 
-В этом разделе приводится шаг 7 руководства [Воспроизведение аудио-и видеороликов в DirectShow](audio-video-playback-in-directshow.md). Полный код приведен в разделе [Пример воспроизведения DirectShow](directshow-playback-example.md).
+В этом разделе приводится шаг 7 руководства [Воспроизведение аудио-и видеороликов в DirectShow](audio-video-playback-in-directshow.md). полный код приведен в разделе [пример воспроизведения DirectShow](directshow-playback-example.md).
 
 Последним шагом является добавление элементов управления транспорта (воспроизведение, пауза и остановка). Чтобы воспроизвести файл, вызовите [**имедиаконтрол:: Run**](/windows/desktop/api/Control/nf-control-imediacontrol-run).
 
@@ -81,14 +81,14 @@ HRESULT DShowPlayer::Stop()
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Воспроизведение звука и видео в DirectShow](audio-video-playback-in-directshow.md)
 </dt> <dt>
 
-[Пример воспроизведения DirectShow](directshow-playback-example.md)
+[DirectShow Пример воспроизведения](directshow-playback-example.md)
 </dt> <dt>
 
 [Фильтрация состояний](filter-states.md)

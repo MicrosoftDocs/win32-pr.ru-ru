@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f03029f31e1ce2133c74c92c0d6d57f192e4d85f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6985a71fe6351a81b2daef69401dfd5c65543e9984fd64c28a120704a34d5a8a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119512114"
 ---
 # <a name="imstscaxeventsonremotewindowdisplayed-method"></a>Метод Имстскаксевентс:: Онремотевиндовдисплайед
 
@@ -76,7 +76,7 @@ void OnRemoteWindowDisplayed(
 
 Этот метод не возвращает значение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -89,7 +89,7 @@ void OnRemoteWindowDisplayed(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

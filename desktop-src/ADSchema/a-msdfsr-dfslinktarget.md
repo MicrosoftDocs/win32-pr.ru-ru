@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 13d12a5259f16684aa7e42f6cbf5f73db335ffe6
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f7c8d481bf07816db141268c681ccecc1152d051f465535b0abc6aaf054f29bc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103804738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119298804"
 ---
 # <a name="ms-dfsr-dfslinktarget-attribute"></a>атрибут MS-DFSR-Дфслинктаржет
 
@@ -131,7 +131,7 @@ ms.locfileid: "103804738"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Атрибут **MS-DFSR-дфслинктаржет** является частью поддержки службы репликации распределенная ФАЙЛОВАЯ система (DFS).
 

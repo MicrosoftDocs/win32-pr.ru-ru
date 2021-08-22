@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: da38ca1d6605fdc3cd6cf73cdd017404b71961e7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b116bc4ae517d0767d794767ad5232d8537033d62a099a3906f9f2ca96a7166c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105661977"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119493754"
 ---
 # <a name="glgetteximage-function"></a>Функция Глжеттексимаже
 
@@ -72,7 +72,7 @@ void WINAPI glGetTexImage(
 
 </dd> <dt>
 
-*зависим* 
+*пиксели* 
 </dt> <dd>
 
 Возвращает изображение текстуры. Должен быть указателем на массив типа, указанного в *типе*.
@@ -97,7 +97,7 @@ void WINAPI glGetTexImage(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глжеттексимаже** возвращает изображение текстуры в *Пиксели*. Параметр *Target* указывает, является ли требуемое изображение текстуры единицей, заданным [**glTexImage1D**](glteximage1d.md)**(** \_ \_ плоская текстура 1d **)** или [**glTexImage2D**](glteximage2d.md)**(** \_ 2D-текстура GL \_ **)**. Параметр *Level* задает номер уровня детализации требуемого изображения. Параметры *Format* и *Type* определяют формат и тип нужного массива изображений. Описание допустимых значений параметров *Format* и *Type* соответственно см. в разделе **glTexImage1D** and [**глдравпикселс**](gldrawpixels.md).
 
@@ -125,7 +125,7 @@ void WINAPI glGetTexImage(
 
 **глжеттекслевелпараметер** с аргументом " \_ компоненты текстуры GL" \_
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -139,7 +139,7 @@ void WINAPI glGetTexImage(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -3,7 +3,7 @@ title: LISTBOX. readOnly
 description: Атрибут readOnly указывает или получает значение, указывающее, доступен ли текст только для чтения или может быть выбран пользователем. Можно задать только во время разработки.
 ms.assetid: 2c76c486-c533-4583-8615-82876317a908
 keywords:
-- Проигрыватель Windows Media LISTBOX. readOnly
+- проигрыватель Windows Media LISTBOX. readOnly
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec6e926d69d9d2c504d33591d9a72d741911193c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 201cc8350b3fb248d85b1d57fc186c526a9f814a7f3411703834ce81ca176c4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054652"
 ---
 # <a name="listboxreadonly"></a>LISTBOX. readOnly
 
@@ -35,24 +35,24 @@ ms.locfileid: "105704423"
 
 | Значение | Описание                                |
 |-------|--------------------------------------------|
-| true  | Текст доступен только для чтения.                         |
+| Да  | Текст доступен только для чтения.                         |
 | false | По умолчанию. Пользователь может выбрать текст. |
 
 
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 04f4efaac16325ec77721665a4dee14c9514a192
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 97f38fe7dfc99c5c9c1c6a7cae1a5fdd5750c5f3e9af37e56706b27300876da1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104337268"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067354"
 ---
 # <a name="defaultvalue-attribute"></a>defaultvalue - атрибут
 
@@ -93,7 +93,7 @@ interface interface-name
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значение по умолчанию, заданное для параметра, может быть любой константой или выражением, которое разрешается в константу, которое может быть представлено **вариантом**. В частности, атрибут **\[ \] DefaultValue** нельзя применять к параметру, который является структурой, массивом или типом **SAFEARRAY** .
 
@@ -157,6 +157,6 @@ interface QueryDef : IUnknown
 [типефлагс](/windows/win32/api/oaidl/ne-oaidl-typeflags)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

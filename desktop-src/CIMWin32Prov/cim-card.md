@@ -610,7 +610,7 @@ class CIM_Card : CIM_PhysicalPackage
 
 </dd> <dt>
 
-**Версия**
+**Version**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -686,7 +686,7 @@ class CIM_Card : CIM_PhysicalPackage
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

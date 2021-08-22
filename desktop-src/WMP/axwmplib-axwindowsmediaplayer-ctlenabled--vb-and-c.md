@@ -1,11 +1,11 @@
 ---
 title: Аксвиндовсмедиаплайер. Ктленаблед, свойство
-description: Свойство Ктленаблед Возвращает или задает значение, указывающее, включен ли элемент управления проигрывателя Windows Media.
+description: свойство ктленаблед получает или задает значение, указывающее, включен ли элемент управления проигрыватель Windows Media.
 ms.assetid: 2091e529-551a-4c02-9384-51b774c82ee6
 keywords:
-- Проигрыватель Windows Media для свойства ктленаблед
-- Ктленаблед свойства проигрывателя Windows Media Player, класс Аксвиндовсмедиаплайер
-- Класс Аксвиндовсмедиаплайер Windows Media Player, свойство Ктленаблед
+- проигрыватель Windows Media свойства ктленаблед
+- проигрыватель Windows Media свойства ктленаблед, класс аксвиндовсмедиаплайер
+- проигрыватель Windows Media класса аксвиндовсмедиаплайер, свойство ктленаблед
 topic_type:
 - apiref
 api_name:
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f0ec59a40346b7dab35069af4c3be5435a9493b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 64e27dcc517f9409ae2fc2b68788e88605ef5e33a88a5545b7896dbb62e181a2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119618964"
 ---
 # <a name="axwindowsmediaplayerctlenabled-property"></a>Аксвиндовсмедиаплайер. Ктленаблед, свойство
 
-Свойство Ктленаблед Возвращает или задает значение, указывающее, включен ли элемент управления проигрывателя Windows Media.
+свойство ктленаблед получает или задает значение, указывающее, включен ли элемент управления проигрыватель Windows Media.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -46,11 +46,11 @@ Public Property Ctlenabled As System.Boolean
 
 ## <a name="property-value"></a>Значение свойства
 
-Значение System. Boolean, указывающее, включен ли элемент управления проигрывателя Windows Media. Значение по умолчанию — true.
+значение System. Boolean, указывающее, включен ли элемент управления проигрыватель Windows Media. Значение по умолчанию — true.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Если свойство **ктленаблед** имеет значение false, проигрыватель Windows Media скрывает пользовательские элементы управления во время полноэкранного воспроизведения.
+если свойство **ктленаблед** имеет значение false, то проигрыватель Windows Media скрывает пользовательские элементы управления во время воспроизведения на полноэкранном режиме.
 
 ## <a name="requirements"></a>Требования
 
@@ -58,7 +58,7 @@ Public Property Ctlenabled As System.Boolean
 
 | Требование | Значение |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                          |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                          |
 | Пространство имен<br/> | **аксвмплиб**<br/>                                                                                                    |
 | Сборка<br/>  | <dl> <dt>AxInterop.WMPLib.dll (AxInterop.WMPLib.dll.dll)</dt> </dl> |
 

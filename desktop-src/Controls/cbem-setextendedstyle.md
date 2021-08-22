@@ -3,7 +3,7 @@ title: Сообщение CBEM_SETEXTENDEDSTYLE (Коммктрл. h)
 description: Задает расширенные стили в элементе управления ComboBoxEx.
 ms.assetid: 00848bd0-5a2f-4bfb-ae1f-ee3aa88ac57a
 keywords:
-- Элементы управления Windows для CBEM_SETEXTENDEDSTYLE сообщений
+- элементы управления Windows сообщений CBEM_SETEXTENDEDSTYLE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e0a60518d2f6130c2c89e379125308fc2e647c6a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: efd1083e838d85f9cb659acb9a28b74a1d8605934be4c53fd72993e7470fad2b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105654693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119527974"
 ---
 # <a name="cbem_setextendedstyle-message"></a>\_Сообщение кбем сетекстендедстиле
 
@@ -47,21 +47,21 @@ ms.locfileid: "105654693"
 
 Возвращает значение **типа DWORD** , содержащее расширенные стили, которые использовались ранее для элемента управления.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 *wParam* позволяет изменять один или несколько расширенных стилей без предварительного получения существующих стилей. Например, если передать [**кбес \_ ex \_ ноедитимаже**](comboboxex-control-extended-styles.md) для *wParam* и 0 для *lParam*, то стиль **кбес \_ ex \_ ноедитимаже** будет сброшен, но все остальные стили останутся прежними.
 
 Если вы попытаетесь задать расширенный стиль для элемента управления ComboBoxEx, созданного с помощью [**\_ простого стиля CBS**](combo-box-styles.md) , он может не перерисовываться должным образом.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

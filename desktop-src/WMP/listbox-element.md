@@ -3,19 +3,19 @@ title: Элемент LISTBOX
 description: Элемент LISTBOX
 ms.assetid: b83ba0cb-1838-494d-b4cb-55b4da18a038
 keywords:
-- Обложки проигрывателя Windows Media, элемент LISTBOX
+- обложки проигрыватель Windows Media, элемент LISTBOX
 - обложки, элемент LISTBOX
 - Элемент LISTBOX
 - Справочник по обложкам, элементу LISTBOX
 - элементы, LISTBOX
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1d9566d11586e995b289a0048dacb29a91921b4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5b9108d8e252260a8aa7a2d9f654118d62ff84f0d53a6f80bc934323a1107ffe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067761"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054772"
 ---
 # <a name="listbox-element"></a>Элемент LISTBOX
 
@@ -44,7 +44,7 @@ ms.locfileid: "104067761"
 
 
 
- 
+ 
 
 Элемент **ListBox** поддерживает следующие методы.
 
@@ -53,7 +53,7 @@ ms.locfileid: "104067761"
 | Метод                                                 | Описание                                                                                                           |
 |--------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | [аппендитем](listbox-appenditem.md)                   | Вставляет новый текст в конец элемента управления "список".                                                                  |
-| [deleteAll](listbox-deleteall.md)                     | Удаляет все элементы из элемента управления "список".                                                                          |
+| [deleteAll (удаление всех)](listbox-deleteall.md)                     | Удаляет все элементы из элемента управления "список".                                                                          |
 | [deleteItem](listbox-deleteitem.md)                   | Удаляет элемент управления "список" по указанному индексу.                                                             |
 | [Пуск](listbox-dismiss.md)                         | Скрывает элемент управления.                                                                                                    |
 | [findItem](listbox-finditem.md)                       | Выполняет поиск заданной строки, начиная с элемента, следующего за указанным индексом элемента.                                |
@@ -66,14 +66,14 @@ ms.locfileid: "104067761"
 
 
 
- 
+ 
 
 > [!Note]  
-> Для этого элемента требуется проигрыватель Windows Media для Windows XP или более поздней версии.
+> для этого элемента требуется проигрыватель Windows Media для Windows XP или более поздней версии.
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -83,9 +83,9 @@ ms.locfileid: "104067761"
 [**Справочник по программированию для обложки**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

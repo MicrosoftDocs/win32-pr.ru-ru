@@ -4,17 +4,17 @@ ms.assetid: 50db2c15-4064-4d18-94f0-f6cf05f1d236
 title: Метод Жетвидеосизе
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 89b96d01c3f22eaae78a442f3496f3c7c7416eac
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 21746242211357e9e58e825d8e217799953dd569e91765acabe11fc2252d17c7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105673103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119536594"
 ---
 # <a name="getvideosize-method"></a>Метод Жетвидеосизе
 
 > [!Note]  
-> Этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
+> этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
 
  
 

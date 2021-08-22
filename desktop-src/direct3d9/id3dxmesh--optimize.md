@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: debec1c0ee54e612ab0de832dbc5c2481dcefad8
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e4ea03bcaaab492ec09dd24ec93c6a9c9ca393c1399b05e12096a8ba1f4f9aa3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108093312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119493104"
 ---
 # <a name="id3dxmeshoptimize-method"></a>Метод ID3DXMesh:: OPTIMIZE
 
@@ -111,13 +111,13 @@ HRESULT Optimize(
 
 Этот метод очень похож на метод [**ID3DXBaseMesh:: клонемеш**](id3dxbasemesh--clonemesh.md) , за исключением того, что он может выполнять оптимизацию при формировании нового клона сетки. Выходная сетка наследует все параметры создания входной сетки.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

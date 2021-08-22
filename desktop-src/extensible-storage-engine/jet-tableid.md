@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e2eae9590d0151bcdb2dc5621ae6df9e41e068a4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fabc6b68d42765e2ad5551c8934a321e64933c4c1b472fb23158537c33af92ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119615794"
 ---
 # <a name="jet_tableid"></a>JET_TABLEID
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jet_tableid"></a>JET_TABLEID
 
@@ -41,7 +41,7 @@ JET_TABLEID
 
 Для указания недопустимого маркера курсора можно использовать **значение NULL** или [JET_tableidNil](./invalid-handle-constants.md) .
 
-### <a name="remarks"></a>Комментарии
+### <a name="remarks"></a>Remarks
 
 Курсор управляет использованием таблицы для ядра СУБД. Курсор может выполнять следующие задачи:
 
@@ -59,7 +59,7 @@ JET_TABLEID
 
 Курсор можно создать с помощью [жетопентабле](./jetopentable-function.md) или [жетопентемптабле](./jetopentemptable-function.md). Курсор можно дублировать с помощью [жетдупкурсор](./jetdupcursor-function.md). Курсор можно явно закрыть с помощью [жетклосетабле](./jetclosetable-function.md) или неявно закрыть с помощью [жетендсессион](./jetendsession-function.md) или [жеттерм](./jetterm-function.md). Курсор также может быть неявно закрыт [жетроллбакк](./jetrollback-function.md) , если он был открыт в транзакции, которая была прервана. Максимальное количество курсоров, которые могут быть созданы за один раз, управляется [JET_paramMaxCursors](./resource-parameters.md), которые можно настроить с помощью [жетсетсистемпараметер](./jetsetsystemparameter-function.md).
 
-### <a name="requirements"></a>Требования
+### <a name="requirements"></a>Requirements (Требования)
 
 <table>
 <colgroup>
@@ -69,11 +69,11 @@ JET_TABLEID
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
+<td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
+<td><p><strong>Сервер</strong></p></td>
+<td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>

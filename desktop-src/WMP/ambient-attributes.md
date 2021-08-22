@@ -3,19 +3,19 @@ title: Атрибуты окружения
 description: Атрибуты окружения
 ms.assetid: 9dc8c770-4de3-42d8-b388-4426a4b0e788
 keywords:
-- Обложки проигрывателя Windows Media, атрибуты окружения
+- обложки проигрыватель Windows Media, атрибуты окружения
 - обложки, атрибуты окружения
 - Справочник по обложкам, атрибутам окружения
 - атрибуты окружения
 - атрибуты, окружение
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5157dc3cbb528cf546ff91d879d00c9b3ec2de8f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fc81cdfb1775f985ecc63e8823bb36b3107d749a836a792dc9f72dc42b5832a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103887963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119509684"
 ---
 # <a name="ambient-attributes"></a>Атрибуты окружения
 
@@ -35,7 +35,7 @@ ms.locfileid: "103887963"
 | [клиппингколор](ambientattributes-clippingcolor.md)             | Указывает или получает цвет для отсечения из точечного рисунка **клиппингимаже** .                                                           |
 | [клиппингимаже](ambientattributes-clippingimage.md)             | Указывает или получает область для обрезки элемента управления.                                                                                 |
 | [elementType](ambientattributes-elementtype.md)                 | Извлекает тип элемента (например, **кнопка**).                                                                             |
-| [доступной](ambientattributes-enabled.md)                         | Указывает или получает значение, указывающее, включен ли элемент управления или отключен.                                                     |
+| [enabled](ambientattributes-enabled.md)                         | Указывает или получает значение, указывающее, включен ли элемент управления или отключен.                                                     |
 | [height](ambientattributes-height.md)                           | Указывает или получает высоту элемента управления.                                                                                         |
 | [horizontalAlignment](ambientattributes-horizontalalignment.md) | Указывает или получает значение, указывающее горизонтальное расположение элемента управления при изменении размера **представления** или родительского **подпредставления** . |
 | [id](ambientattributes-id.md)                                   | Указывает или получает идентификатор элемента управления. Можно задать только во время разработки.                                                       |
@@ -47,13 +47,13 @@ ms.locfileid: "103887963"
 | [tabStop](ambientattributes-tabstop.md)                         | Указывает или получает значение, указывающее, будет ли элемент управления находиться в порядке перехода.                                               |
 | [В начало](ambientattributes-top.md)                                 | Указывает или получает верхнюю координату элемента управления.                                                                                 |
 | [verticalAlignment](ambientattributes-verticalalignment.md)     | Указывает или получает значение, указывающее вертикальное расположение элемента управления при изменении размера **представления** или родительского **подпредставления** .   |
-| [ярлык](ambientattributes-visible.md)                         | Указывает или получает видимость элемента управления.                                                                                     |
+| [visible](ambientattributes-visible.md)                         | Указывает или получает видимость элемента управления.                                                                                     |
 | [width](ambientattributes-width.md)                             | Указывает или получает ширину элемента управления.                                                                                          |
 | [zIndex](ambientattributes-zindex.md)                           | Указывает или получает порядок, в котором отображается элемент управления.                                                                        |
 
 
 
- 
+ 
 
 Следующие методы являются внешними.
 
@@ -68,18 +68,18 @@ ms.locfileid: "103887963"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Справочник по программированию для обложки**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

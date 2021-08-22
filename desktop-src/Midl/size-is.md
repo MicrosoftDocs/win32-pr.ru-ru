@@ -105,7 +105,7 @@ HRESULT Proc6(
                                               calls the server. */
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -139,7 +139,7 @@ HRESULT Proc6(
 [**заполняет**](out-idl.md)
 </dt> <dt>
 
-[**строка**](string.md)
+[**Строка**](string.md)
 </dt> </dl>
 
  

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 29569c84d21dbb2cd69579c78747e844cfd23ba4
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: d6eb9fbca41f8ad9fe9564c45f3ece21af58e5e16b7bb4ac85d0f6b1d2b428bf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105684849"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119493774"
 ---
 # <a name="glgettexgeniv-function"></a>Функция Глжеттексженив
 
@@ -92,13 +92,13 @@ void WINAPI glGetTexGeniv(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глжеттексжен** *возвращает в* параметрах выбранных параметров функции создания координат текстуры, указанной с помощью **глтексжен**. Параметр *курд* называет одно из координат текстуры (*s*, *t*, *r*, *q*), используя символьную константу GL \_ , GL \_ t, GL \_ r или GL \_ q.
 
 Если возникает ошибка, содержимое *параметров* не изменяется.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -112,7 +112,7 @@ void WINAPI glGetTexGeniv(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

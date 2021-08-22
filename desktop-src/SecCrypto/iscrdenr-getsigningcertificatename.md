@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Scrdenrl.dll
-ms.openlocfilehash: 8d9a8a84067e82a18e5066721f3e7f39d075c339
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 29933856eb644e638e9e58c8da0b0e3d6234e4f0175925c8a1fb5b48b126e3ee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104423961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119622404"
 ---
 # <a name="iscrdenrgetsigningcertificatename-method"></a>Метод Искрденр:: Жетсигнингцертификатенаме
 
@@ -80,7 +80,7 @@ SCrdEnr.getSigningCertificateName( _
 
 Строка, представляющая имя сертификата подписи. Сертификат для подписи будет использоваться для подписания [*запроса на сертификат*](../secgloss/c-gly.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Метод **жетсигнингцертификатенаме** возвращает имя субъекта сертификата, выбранного вами (или другим администратором) в предыдущем успешном вызове [**Искрденр:: селектсигнингцертификате**](iscrdenr-selectsigningcertificate.md) или [**искрденр:: сетсигнингцертификате**](iscrdenr-setsigningcertificate.md). Этот метод вызывает функцию [**цертжетнаместринг**](/windows/desktop/api/Wincrypt/nf-wincrypt-certgetnamestringa) для получения имени субъекта в соответствии с последовательностью, описанной \_ для \_ \_ значения простого отображаемого типа сертификата для \_ параметра *двтипе* **цертжетнаместринг**.
 
@@ -91,13 +91,13 @@ SCrdEnr.getSigningCertificateName( _
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Ни одна версия не поддерживается<br/>                                                               |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>Scrdenrl.dll</dt> </dl> |
 | IID<br/>                      | IID \_ искрденр определен как 753988a1-1357-436d-9cf5-f089bdd67d64<br/>             |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

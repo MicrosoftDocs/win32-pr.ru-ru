@@ -24,16 +24,16 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5f6437a378d14be73b60274114e79708b6a97f76
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b59a4621dff6e12e0c0b91f6c3c0caa78a2a6d38bfc213c3ce0d2c737ff2c4e1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104344202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119559574"
 ---
 # <a name="server2003param-class"></a>Класс Server2003Param
 
-Системные параметры, добавленные в версию ESENT для Windows Server 2003.
+системные параметры, добавленные в Windows Server 2003 версии ESENT.
 
 ## <a name="inheritance-hierarchy"></a>Иерархия наследования
 
@@ -60,7 +60,7 @@ public static class Server2003Param
 
 Любые общедоступные статичные (общие в Visual Basic) члены этого типа являются потокобезопасными. Потокобезопасная работа с членами экземпляров типа не гарантируется.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

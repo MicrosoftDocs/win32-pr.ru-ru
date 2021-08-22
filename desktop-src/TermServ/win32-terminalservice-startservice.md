@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ce4bd12150223d7cdc1340b7557ba309a1e07da4
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 0a1a921f863ea2e06b7c84cf5ed66424d37f70be34f71c7c5975c95ff3d4308e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108084202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119514364"
 ---
 # <a name="startservice-method-of-the-win32_service-class-remote-desktop-services"></a>Метод StartService класса Win32_Service (службы удаленных рабочих столов)
 
@@ -182,7 +182,7 @@ uint32 StartService();
 
 </dd> <dt>
 
-**стр**
+**19**
 </dt> <dd>
 
 Служба выполняется с тем же именем.
@@ -235,7 +235,7 @@ uint32 StartService();
 
 При запуске остановленной службы, которая зависит от другой службы, запускаются обе службы. При запуске службы с помощью этого метода все зависимые службы не запускаются автоматически. Для поиска зависимых объектов и их запуска по отдельности необходимо использовать класс ассоциации [**Win32 \_ Депендентсервице**](/windows/desktop/CIMWin32Prov/win32-dependentservice) и [соединители](/windows/desktop/WmiSdk/associators-of-statement) запроса.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

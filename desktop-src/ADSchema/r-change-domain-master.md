@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5328b15d8cfa7e41102de82b42c5ccdda1027584
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 18254e42791c8e30c9e90ba96b65c4437f962f1a314ddef7942e3b9a88ff8f76
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105655523"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119532664"
 ---
 # <a name="change-domain-master-extended-right"></a>Изменение-домен-основное расширенное право
 

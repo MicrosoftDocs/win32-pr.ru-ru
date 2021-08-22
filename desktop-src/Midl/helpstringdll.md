@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dace4fb9ddc3908ce637cd2d8521a1ab4671d620
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: f773ed18e72f184305275ce238ddf0576c81447181a0b7fb420c30341935f5e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103987409"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067254"
 ---
 # <a name="helpstringdll-attribute"></a>атрибут хелпстрингдлл
 
@@ -66,7 +66,7 @@ library library-name
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте атрибут **\[ хелпстрингдлл \]** в операторе Library, чтобы указать в виде символьной строки полное имя файла библиотеки динамической компоновки. Это позволяет пользователю просматривать описание библиотеки DLL с помощью средства просмотра объектов.
 
@@ -76,7 +76,7 @@ library library-name
 
 <dl> <dt>
 
-[**библиотека**](library.md)
+[**Библиотечная**](library.md)
 </dt> <dt>
 
 [Синтаксис файла ODL](/previous-versions/windows/desktop/automat/odl-file-syntax)
@@ -88,6 +88,6 @@ library library-name
 [Создание библиотеки типов с помощью MIDL](generating-a-type-library-with-midl-2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

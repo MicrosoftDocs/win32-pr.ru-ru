@@ -3,9 +3,9 @@ title: External. Савекуррентвиевтолибрари, метод
 description: Метод Савекуррентвиевтолибрари создает список воспроизведения из элементов мультимедиа в текущем представлении и сохраняет список воспроизведения в локальной библиотеке.
 ms.assetid: cd87e932-d599-4298-bbee-6755999dda15
 keywords:
-- Савекуррентвиевтолибрари метод Windows Media Player
-- Савекуррентвиевтолибрари метод Windows Media Player, внешний класс
-- Внешний класс проигрыватель Windows Media Player, метод Савекуррентвиевтолибрари
+- проигрыватель Windows Media метода савекуррентвиевтолибрари
+- проигрыватель Windows Media метода савекуррентвиевтолибрари, внешний класс
+- внешний класс проигрыватель Windows Media, метод савекуррентвиевтолибрари
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 212f590f03c32821c0774c4898720c92558ecc73
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cf14a6f712a72116860e7251edae73c91c4ef1dfb70876fd5f80dc329591673a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648444"
 ---
 # <a name="externalsavecurrentviewtolibrary-method"></a>External. Савекуррентвиевтолибрари, метод
 
@@ -46,7 +46,7 @@ External.saveCurrentViewToLibrary(
 *Фриендлилистнаме* \[ окне\]
 </dt> <dd>
 
-**Строка** , указывающая понятное имя для списка воспроизведения. Проигрыватель Windows Media отображает это имя в пользовательском интерфейсе.
+**Строка** , указывающая понятное имя для списка воспроизведения. проигрыватель Windows Media отображает это имя в пользовательском интерфейсе.
 
 </dd> <dt>
 
@@ -61,18 +61,18 @@ External.saveCurrentViewToLibrary(
 
 Этот метод не возвращает значение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 11<br/>                                                 |
+| Версия<br/> | проигрыватель Windows Media 11<br/>                                                 |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

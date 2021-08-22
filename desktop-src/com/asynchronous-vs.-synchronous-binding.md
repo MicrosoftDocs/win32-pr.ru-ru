@@ -4,12 +4,12 @@ description: Асинхронная и синхронная привязка
 ms.assetid: 9852df19-5ae4-4425-9ce0-cac160d68456
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11b022df239221f0a019b972067248225210e585
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: cb498d083260db087e9f32cd3f24b67f03f9a788c0add2592dde36fe7a7905e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103794040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048862"
 ---
 # <a name="asynchronous-and-synchronous-binding"></a>Асинхронная и синхронная привязка
 
@@ -19,13 +19,13 @@ ms.locfileid: "103794040"
 
 Если клиент не возвращает \_ асинхронный флаг биндф из вызова моникера [**метода интерфейса IBindStatusCallback:: GetBindInfo**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775058(v=vs.85)), операция привязки будет выполняться синхронно, а требуемый объект или хранилище будут возвращены при последующих вызовах [**биндтубжект**](/windows/desktop/api/ObjIdl/nf-objidl-imoniker-bindtoobject) или [**биндтостораже**](/windows/desktop/api/ObjIdl/nf-objidl-imoniker-bindtostorage). Аналогичным образом, если клиент хочет выполнить синхронную операцию и не хочет получать уведомления о ходе выполнения или обратные вызовы, он может запросить асинхронное моникер, чтобы вести себя синхронно, не реализовав [**метода интерфейса IBindStatusCallback**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775060(v=vs.85)). В таких случаях асинхронное моникер будет вести себя как стандартное синхронное моникер.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Асинхронные моникеры](asynchronous-monikers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

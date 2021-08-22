@@ -1,5 +1,5 @@
 ---
-description: 'Позволяет объекту обратного вызова изменять всплывающее меню проводника Windows перед отображением. Используется Ишеллфолдервиевкб:: Мессажесфвкб.'
+description: 'позволяет объекту обратного вызова изменять всплывающее меню Windows Explorer перед отображением. Используется Ишеллфолдервиевкб:: Мессажесфвкб.'
 title: Сообщение SFVM_INITMENUPOPUP (Шлобж. h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,16 +13,16 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 1f9a2a169b232fe3ad16eeee8816536ed81c74dc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd69d19f753c1c72c1e0c143a0aface2cdb234cb2ace8c87d559834b97bbf0f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104986077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119592324"
 ---
 # <a name="sfvm_initmenupopup-message"></a>\_Сообщение сфвм инитменупопуп
 
-Позволяет объекту обратного вызова изменять всплывающее меню проводника Windows перед отображением. Используется [**ишеллфолдервиевкб:: мессажесфвкб**](/windows/win32/api/shlobj_core/nf-shlobj_core-ishellfolderviewcb-messagesfvcb).
+позволяет объекту обратного вызова изменять всплывающее меню Windows Explorer перед отображением. Используется [**ишеллфолдервиевкб:: мессажесфвкб**](/windows/win32/api/shlobj_core/nf-shlobj_core-ishellfolderviewcb-messagesfvcb).
 
 
 ```C++
@@ -55,7 +55,7 @@ SFVM_INITMENUPOPUP
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Объект представления системных папок отправляет это сообщение, если выбрано меню, но перед его отображением. Обработайте это сообщение, если, например, необходимо включить или отключить команды меню. Всплывающее меню может быть следующим:
 
@@ -63,7 +63,7 @@ SFVM_INITMENUPOPUP
 -   Меню верхнего уровня, определенное клиентом.
 -   Определяемое клиентом подменю.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -75,7 +75,7 @@ SFVM_INITMENUPOPUP
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
