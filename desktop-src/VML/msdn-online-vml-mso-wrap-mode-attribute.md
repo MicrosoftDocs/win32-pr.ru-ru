@@ -4,27 +4,27 @@ description: Атрибут VML MSO-Mode
 ms.assetid: 51c4e90d-62cc-4646-9c71-8a6bf3366b2f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5657192fcf9da72ff99dc25cff7930b6d2d9b6b9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 88e3743522b9286da8a7f30e9100e06205430b1b18fa3c62def60b57f54b65d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104338092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119136987"
 ---
 # <a name="vml-mso-wrap-mode-attribute"></a>Атрибут VML MSO-Mode
 
-В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+в этом разделе описывается функция VML, которая является устаревшей по отношению к Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
 
 > [!Note]  
-> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
+> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). сведения, рекомендации и рекомендации относительно текущей версии Windows Internet explorer см. в [центре разработчиков internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Определяет режим переноса текста. Read/write. **Строка**.
 
 **Применимо к**:
 
-[Фигурная](shape-element--vml.md)
+[Фигура](shape-element--vml.md)
 
 **Синтаксис тега**
 
@@ -46,15 +46,15 @@ ms.locfileid: "104338092"
 
 
 
- 
+ 
 
-Используется в Microsoft PowerPoint для сохранения в формате HTML, чтобы указать, включено ли перетекание слов в автофигуре (**квадрат**) или выключено (**нет**).
+используется в Microsoft PowerPoint для сохранения в формате HTML, чтобы указать, включено ли перетекание слов в автофигуре (**квадрат**) или выключено (**нет**).
 
-*Атрибут расширений Microsoft Office*
+*Microsoft Office Extensions, атрибут*
 
 **Пример**
 
-Следующий код показывает, что в PowerPoint включена функция переноса слов в автофигуре.
+Следующий код указывает, что функция WordWrap внутри автофигуры включена в PowerPoint.
 
 
 ```HTML
@@ -68,6 +68,6 @@ ms.locfileid: "104338092"
 
 
 
- 
+ 
 
- 
+ 

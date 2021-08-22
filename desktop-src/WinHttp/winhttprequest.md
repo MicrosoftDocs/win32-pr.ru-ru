@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: 907e94a731b2ec150a331347480c461d0d0fa319
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 92fdcb9c6eff502dc5f19cb62d92af5d4db60e15890667c894f96cfb55a9e5ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704455"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132917"
 ---
 # <a name="winhttprequest-object"></a>Объект WinHttpRequest
 
@@ -86,7 +86,7 @@ var WinHttpReq = new ActiveXObject("WinHttp.WinHttpRequest.5.1");
 | [**Рвал**](iwinhttprequest-abort.md)                                 | Прерывает метод Send [WinHTTP](about-winhttp.md) [](iwinhttprequest-send.md) .<br/>                                                              |
 | [**жеталлреспонсехеадерс**](iwinhttprequest-getallresponseheaders.md) | Извлекает все заголовки ответа HTTP.<br/>                                                                                                            |
 | [**жетреспонсехеадер**](iwinhttprequest-getresponseheader.md)         | Извлекает заголовки HTTP-ответа.<br/>                                                                                                            |
-| [**Открыт**](iwinhttprequest-open.md)                                   | Открывает HTTP-соединение с HTTP-ресурсом.<br/>                                                                                                   |
+| [**Открыть**](iwinhttprequest-open.md)                                   | Открывает HTTP-соединение с HTTP-ресурсом.<br/>                                                                                                   |
 | [**Отправить**](iwinhttprequest-send.md)                                   | Отправляет HTTP-запрос на сервер HTTP.<br/>                                                                                                        |
 | [**сетаутологонполици**](iwinhttprequest-setautologonpolicy.md)       | Задает текущую [политику автоматического входа в систему](authentication-in-winhttp.md).<br/>                                                |
 | [**сетклиентцертификате**](iwinhttprequest-setclientcertificate.md)   | Выбирает сертификат клиента для отправки на HTTPS-сервер.<br/>                                                    |
@@ -109,7 +109,7 @@ var WinHttpReq = new ActiveXObject("WinHttp.WinHttpRequest.5.1");
 | Свойство                                                            | Тип доступа           | Описание                                                                     |
 |:--------------------------------------------------------------------|:----------------------|:--------------------------------------------------------------------------------|
 | [**Параметр**](iwinhttprequest-option.md)<br/>                 | Чтение/запись<br/> | Задает или получает значение параметра WinHTTP.<br/>                            |
-| [**респонсебоди**](iwinhttprequest-responsebody.md)<br/>     | Только для чтения<br/>  | Извлекает тело объекта ответа в виде массива байтов без знака.<br/>    |
+| [**ResponseBody**](iwinhttprequest-responsebody.md)<br/>     | Только для чтения<br/>  | Извлекает тело объекта ответа в виде массива байтов без знака.<br/>    |
 | [**ResponseStream**](iwinhttprequest-responsestream.md)<br/> | Только для чтения<br/>  | Извлекает тело объекта ответа в виде [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream).<br/> |
 | [**респонсетекст**](iwinhttprequest-responsetext.md)<br/>     | Только для чтения<br/>  | Извлекает текст объекта ответа в виде текста.<br/>                          |
 | [**Состояние**](iwinhttprequest-status.md)<br/>                 | Только для чтения<br/>  | Извлекает код состояния HTTP из последнего ответа.<br/>               |
@@ -119,12 +119,12 @@ var WinHttpReq = new ActiveXObject("WinHttp.WinHttpRequest.5.1");
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Объект **WinHttpRequest** использует интерфейс [**IErrorInfo**](/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ierrorinfo) для предоставления данных об ошибках. Описание и числовое значение ошибки можно получить с помощью объекта [Err](/previous-versions//sbf5ze0e(v=vs.85)) в Microsoft Visual Basic Scripting Edition (VBScript) и объекта [ошибки](https://msdn.microsoft.com/library/dww52sbt.aspx) в Microsoft JScript. Младшие 16 разрядов номера ошибки соответствуют значениям, находящихся в [**сообщениях об ошибках**](error-messages.md).
+Объект **WinHttpRequest** использует интерфейс [**IErrorInfo**](/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ierrorinfo) для предоставления данных об ошибках. описание и числовое значение ошибки можно получить с помощью объекта [Err](/previous-versions//sbf5ze0e(v=vs.85)) в microsoft Visual Basic scripting Edition (VBScript) и объекта [ошибки](https://msdn.microsoft.com/library/dww52sbt.aspx) в microsoft JScript. Младшие 16 разрядов номера ошибки соответствуют значениям, находящихся в [**сообщениях об ошибках**](error-messages.md).
 
 > [!Note]  
-> Для Windows XP и Windows 2000 см. раздел [требования к времени выполнения](winhttp-start-page.md).
+> сведения о Windows XP и Windows 2000 см. в разделе [требования к времени выполнения](winhttp-start-page.md).
 
  
 
@@ -134,8 +134,8 @@ var WinHttpReq = new ActiveXObject("WinHttp.WinHttpRequest.5.1");
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>            |
-| Минимальная версия сервера<br/> | Windows Server 2003, Windows 2000 Server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>         |
+| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с SP3 \[ только для настольных приложений\]<br/>            |
+| Минимальная версия сервера<br/> | Windows сервер 2003, Windows 2000 server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>         |
 | Распространяемые компоненты<br/>          | WinHTTP 5,0 и Internet Explorer 5,01 или более поздней версии в Windows XP и Windows 2000.<br/> |
 | IDL<br/>                      | <dl> <dt>HttpRequest. idl</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>WinHTTP. lib</dt> </dl>     |

@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 500012231f6860fd94038b240355eda9aa2aee44
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3ef766f40742713b01648348bedb4c1a35494fdc02d02843f8f2a41f133938a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105721021"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083818"
 ---
 # <a name="wmdrm_encrypt_scatter_info-structure"></a>\_ \_ \_ Структура сведений о шифровании WMDRM
 
@@ -72,7 +72,7 @@ typedef struct WMDRM_ENCRYPT_SCATTER_INFO {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта структура используется методом [**ивмдрменкриптскаттер:: инитенкриптскаттер**](iwmdrmencryptscatter-initencryptscatter.md) .
 
@@ -82,7 +82,7 @@ typedef struct WMDRM_ENCRYPT_SCATTER_INFO {
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Вмдрмсдк. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмдрмсдк. h</dt> </dl> |
 
 
 

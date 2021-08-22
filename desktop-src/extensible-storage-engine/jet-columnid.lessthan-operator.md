@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 263cb7be0377da007e6294b29701613628ec692d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f4bc74fafe3a895af416c528726ee444ee0d425a3bbc658a69ec27c20b44b4e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119039332"
 ---
 # <a name="jet_columnidlessthan-operator"></a>JET_COLUMNID. Оператор LessThan
 
@@ -81,7 +81,7 @@ public static bool operator <(
 Тип: [System. Boolean](/dotnet/api/system.boolean)  
 Значение true, если LHS предшествует RHS.  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

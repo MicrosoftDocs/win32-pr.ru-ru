@@ -4,12 +4,12 @@ ms.assetid: 1938f6c5-d5a4-41ca-b272-1166a7688be2
 title: Прозрачный атрибут элемента управления
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1bb5e27c9c39ab6433c8ffa0547c7c6004a68c1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 347a2f3c9b7d6e934ad591e5917e89579c60911870dfbff51f92bef108b6017a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104072605"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119500154"
 ---
 # <a name="transparent-control-attribute"></a>Прозрачный атрибут элемента управления
 
@@ -31,7 +31,7 @@ ms.locfileid: "104072605"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 См. раздел [атрибуты элементов управления](control-attributes.md) и элемент управления, которые необходимо создать в элементах [управления](controls.md).
 

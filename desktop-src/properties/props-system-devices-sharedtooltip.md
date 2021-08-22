@@ -4,12 +4,12 @@ ms.assetid: CBD921A5-8488-48da-AA83-28DF4B1E3FBC
 title: System. Devices. Шаредтултип
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b45f39856697db7168c55a22544b823f040c519b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b4080c16c8c084d5362d96ac8b75809d43365f90274a3866c66233592295ed36
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103998359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119353054"
 ---
 # <a name="systemdevicessharedtooltip"></a>System. Devices. Шаредтултип
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

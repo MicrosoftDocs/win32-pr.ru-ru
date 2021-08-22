@@ -4,12 +4,12 @@ ms.assetid: c97bfd10-66ff-41e1-ba3b-f98a019948d5
 title: Создание подключенной папки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68ad8a16c4a8c06ae22fa7faf2c2b0a2e8cdfc38
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 19ee89e029a0ce546687341f3da929a22219dff2b128d793d9f7f5130774f834
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684565"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068674"
 ---
 # <a name="creating-a-mounted-folder"></a>Создание подключенной папки
 

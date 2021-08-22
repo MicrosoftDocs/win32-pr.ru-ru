@@ -14,12 +14,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: fe5358630a7ac5eb48751135d39c2fd998196bf7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 429e973d83e1f213b011998c75dfbfabd81fb7bb4921f0f8b9f61bcedd6080c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105683706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051102"
 ---
 # <a name="__cachecontrol-class"></a>\_\_Класс CacheControl
 
@@ -40,11 +40,11 @@ class __CacheControl : __SystemClass
 
 Класс **\_ \_ CacheControl** не определяет никаких членов.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ \_ CacheControl** является производным от [**\_ \_ системкласс**](--systemclass.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -56,7 +56,7 @@ class __CacheControl : __SystemClass
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

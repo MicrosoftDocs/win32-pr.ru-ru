@@ -4,16 +4,16 @@ ms.assetid: 0d415238-7558-4d90-a122-e65ae7760344
 title: Объекты поставщика программного обеспечения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c16f81cd975c892760d1851720e65584453e7745
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: 507abb00b67b51ad68eb0592ff4fa7b5201cff5be0587b7170662556238feb50
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "103913952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137165"
 ---
 # <a name="software-provider-objects"></a>Объекты поставщика программного обеспечения
 
-\[Начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API управления хранилищами Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API Windows служба хранилища управления](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 Объекты поставщика программного обеспечения моделируют физические устройства, такие как диски IDE и компакт-диски, а также виртуальные элементы, такие как пакеты, тома и плексов томов. На следующем рисунке показана связь между объектом поставщика и набором объектов поставщика программного обеспечения, а также отношение между различными объектами поставщика программного обеспечения.
 
@@ -21,7 +21,7 @@ ms.locfileid: "103913952"
 
 Объект поставщика может содержать ноль или более пакетов. Объект Pack может содержать ноль или более дисков и томов. Том состоит по крайней мере из одного плекса тома, и каждый Плекс тома может сопоставляться с одним или несколькими дисками в зависимости от типа плекса. Служба VDS управляет нераспределенными дисками напрямую без контейнера пакета. В остальных разделах этого раздела описываются объекты типа "пакет", "диск", "том" и "Плекс".
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

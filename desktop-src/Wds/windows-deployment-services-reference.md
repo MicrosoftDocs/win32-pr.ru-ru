@@ -1,29 +1,29 @@
 ---
-title: Справочник по службам развертывания Windows
+title: Windows Справочник по службам развертывания
 ms.assetid: 12a4ed8b-775c-47f1-9bb6-d82e3c94bf06
-description: 'Дополнительные сведения: Справочник по службам развертывания Windows'
+description: 'дополнительные сведения: справочник по службам развертывания Windows'
 keywords:
-- Службы развертывания Windows, справочные материалы
+- Windows службы развертывания Windows службы развертывания, справочные материалы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f1ba939e7d474c649a3891e67fadade166646ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a673684a05c45595209d0f4b31fe10b5edfaa97d623cac1ff946764e9d6c39d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103913803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053242"
 ---
-# <a name="windows-deployment-services-reference"></a>Справочник по службам развертывания Windows
+# <a name="windows-deployment-services-reference"></a>Windows Справочник по службам развертывания
 
-В этом разделе описаны элементы программирования, доступные в службах развертывания Windows.
+в этом разделе описаны элементы программирования, доступные в службах Windows Deployment Services:
 
--   [Клиентские функции служб развертывания Windows](windows-deployment-services-client-functions.md)
--   [Функции сервера служб развертывания Windows](windows-deployment-services-server-functions.md)
--   [Транспортные функции служб развертывания Windows](windows-deployment-services-transport--functions.md)
--   [Перечисления служб развертывания Windows](windows-deployment-services-enumerations.md)
--   [Структуры служб развертывания Windows](windows-deployment-services-structures.md)
--   [API управления транспортом служб развертывания Windows](windows-deployment-services-transport-management-api.md)
--   [Программа сетевой загрузки служб развертывания Windows](windows-deployment-services-network-boot-program.md)
+-   [Windows Клиентские функции служб развертывания](windows-deployment-services-client-functions.md)
+-   [Windows Функции сервера служб развертывания](windows-deployment-services-server-functions.md)
+-   [Windows Транспортные функции служб развертывания](windows-deployment-services-transport--functions.md)
+-   [Windows Перечисления служб развертывания](windows-deployment-services-enumerations.md)
+-   [Windows Структуры служб развертывания](windows-deployment-services-structures.md)
+-   [Windows API управления транспортом служб развертывания](windows-deployment-services-transport-management-api.md)
+-   [Windows Программа сетевой загрузки служб развертывания](windows-deployment-services-network-boot-program.md)
 
  
 

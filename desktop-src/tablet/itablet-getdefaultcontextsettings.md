@@ -14,12 +14,12 @@ api_type:
 api_location:
 - wisptis.exe
 - wisptis.exe.dll
-ms.openlocfilehash: 7e2f0977257553d8405b337dcc1f22d8b0fdff5a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 646756a924bd9b848f2141b796205f2cf2374140811b7dd87f8ffd64c69ee8d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103814824"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119336264"
 ---
 # <a name="itabletgetdefaultcontextsettings-method"></a>Метод Итаблет:: Жетдефаултконтекстсеттингс
 
@@ -62,7 +62,7 @@ HRESULT GetDefaultContextSettings(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Он отвечает за освобождение памяти, возвращаемой этим методом, с помощью [**CoTaskMemFree**](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree).
 
@@ -72,7 +72,7 @@ HRESULT GetDefaultContextSettings(
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/>                          |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/>                          |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                              |
 | Библиотека<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 

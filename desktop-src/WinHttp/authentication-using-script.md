@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 1d33b8042cd1fd15d46e15dfb3624e0d3b4a885b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 81e2dec50ccf765239bbbd1d6a71c8f8fb2be0e4f70f2db5717b0072f0b62d6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052102"
 ---
 # <a name="authentication-using-script"></a>Проверка подлинности с помощью скрипта
 
@@ -23,21 +23,21 @@ ms.locfileid: "105712035"
 -   [Необходимые условия и требования](#prerequisites-and-requirements)
 -   [Доступ к веб-сайту с проверкой подлинности](#accessing-a-web-site-with-authentication)
 -   [Проверка кодов состояния](#checking-the-status-codes)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="prerequisites-and-requirements"></a>Необходимые условия и требования
 
-В дополнение к опыту работы с Microsoft JScript для этого примера требуется следующее:
+в дополнение к опыту работы с Microsoft JScript, для этого примера требуется следующее:
 
--   Текущая версия пакета средств разработки программного обеспечения (SDK) для Microsoft Windows.
--   Средство настройки прокси-сервера для установки параметров прокси-сервера для служб Microsoft Windows HTTP (WinHTTP), если подключение к Интернету осуществляется через прокси-сервер. Дополнительные сведения см. [ в разделеProxycfg.exe, средство настройки прокси-сервера](proxycfg-exe--a-proxy-configuration-tool.md) .
+-   текущая версия пакета средств разработки Microsoft Windows Software Development Kit (SDK).
+-   средство настройки прокси-сервера для установки параметров прокси-сервера для служб Microsoft Windows HTTP (WinHTTP), если подключение к интернету осуществляется через прокси-сервер. Дополнительные сведения см. [ в разделеProxycfg.exe, средство настройки прокси-сервера](proxycfg-exe--a-proxy-configuration-tool.md) .
 -   Знакомство с [терминологией](network-terminology.md) и концепциями сети.
 
 ## <a name="accessing-a-web-site-with-authentication"></a>Доступ к веб-сайту с проверкой подлинности
 
 **Чтобы создать скрипт, демонстрирующий проверку подлинности, выполните следующие действия.**
 
-1.  Откройте текстовый редактор, например Microsoft Notepad.
+1.  откройте текстовый редактор, например Microsoft Блокнот.
 2.  Скопируйте следующий код в текстовый редактор после замены " \[ аусентикатионсите" на \] соответствующий текст, чтобы указать URL-адрес сайта, для которого требуется проверка подлинности HTTP.
 
     ```VB
@@ -214,7 +214,7 @@ function getText2() {
 
 Снова сохраните и запустите файл. Второй метод по-прежнему извлекает документ, но при необходимости предоставляет учетные данные. Функция "getText2" выполняет методы [**Open**](iwinhttprequest-open.md) и [**Send**](iwinhttprequest-send.md) , как если бы проверка подлинности не требовалась. Состояние извлекается со свойством [**Status**](iwinhttprequest-status.md) , а оператор switch реагирует на полученный код состояния. Если состояние равно 401 (сервер требует проверки подлинности) или 407 (прокси требует проверки подлинности), метод [**Open**](iwinhttprequest-open.md) выполняется снова. За ним следует метод [**сеткредентиалс**](iwinhttprequest-setcredentials.md) , который задает имя пользователя и пароль. Затем код перебирается обратно в метод [**Send**](iwinhttprequest-send.md) . Если после трех попыток не удается успешно получить ресурс, функция прекратит выполнение.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

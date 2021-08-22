@@ -15,12 +15,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 9d80d5fbe57565d64e9ea53587d7a2c3488e6cf2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3659d89baa94da0c3161f7bcd6c9ff94d27efef467af8caafa70adfe1c4a7b84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104156727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119070060"
 ---
 # <a name="obtypeevent-class"></a>Класс Обтипивент
 
@@ -40,13 +40,13 @@ class ObTypeEvent : ObTrace
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **обтипивент** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **обтипивент** имеет следующие свойства.
 
@@ -100,14 +100,14 @@ class ObTypeEvent : ObTrace
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                   |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                   |
 | MOF<br/>                      | <dl> <dt>Вмикоре. mof</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 3d40172b-6ba1-4e42-9a1a-519c8e88c2b1
 title: Всдкодежен, элемент
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9861617854e0e75575f2993717f5b2a86515fb0f
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 67ffac9696371f53b073fa71c0b1903c826544a6f695b9b741b48936c0250d2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107994681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049542"
 ---
 # <a name="wsdcodegen-element"></a>Всдкодежен, элемент
 
@@ -76,7 +76,7 @@ ms.locfileid: "107994681"
 
 Нет родительских элементов.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Как правило, элементы [**File**](file.md) должны выполняться последними, так как они создают код, использующий данные, указанные другими элементами.
 

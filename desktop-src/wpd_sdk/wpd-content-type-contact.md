@@ -4,12 +4,12 @@ ms.assetid: 3ff6191f-d3c0-4bd3-946e-c3fbf68f368c
 title: WPD_CONTENT_TYPE_CONTACT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3fed10e0abb36a482141e5c796f5494b00b99f7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a8354aa444f476e7c0b64d2e3d14d474c6eea02f90e8313c20073db2d0368fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083338"
 ---
 # <a name="wpd_content_type_contact"></a>\_ \_ контакт типа содержимого \_ WPD
 
@@ -98,7 +98,7 @@ ms.locfileid: "105702767"
 | [\_Обращайтесь в службу \_ мгновенных \_ MESSENGER2](contact-properties.md)                                      | Необязательный элемент.                                                                      |
 | [\_Обращайтесь в службу \_ мгновенных \_ MESSENGER3](contact-properties.md)                                      | Необязательный элемент.                                                                      |
 | [\_Контактное \_ название компании WPD \_](contact-properties.md)                                                  | Необязательный элемент.                                                                      |
-| [контакт WPD, \_ \_ фонетическая \_ компания \_](contact-properties.md)                               | Необязательно                                                                       |
+| [контакт WPD, \_ \_ фонетическая \_ компания \_](contact-properties.md)                               | Необязательный                                                                       |
 | [\_Контактная \_ роль WPD](contact-properties.md)                                                                   | Необязательный элемент.                                                                      |
 | [\_Адресная \_ Дата контакта WPD](contact-properties.md)                                                         | Необязательный элемент.                                                                      |
 | [\_ \_ основной Факс контакта \_ WPD](contact-properties.md)                                                                            | Необязательный элемент.                                                                      |
@@ -128,7 +128,7 @@ ms.locfileid: "105702767"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

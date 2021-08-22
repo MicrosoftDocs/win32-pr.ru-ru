@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 725691dd39b271894558567fb4f86511f75e2589
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5eb7e08b1b59899c25445373ba07d72ea9851ad4269365270b3b2ebdcd4223ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083768"
 ---
 # <a name="wmt_videoimage_transition_cross_fade"></a>\_ \_ \_ перекрестное выцветание перехода ВМТ видеоимаже \_
 
@@ -29,7 +29,7 @@ ms.locfileid: "105675125"
 
 Этот переход не принимает параметров.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Настройка этого перехода аналогична установке элемента **двеффекттипе** структуры **ВМТ \_ видеоимаже \_ SAMPLE2** в значение 0.
 
@@ -39,7 +39,7 @@ ms.locfileid: "105675125"
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Вмсдкидл. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмсдкидл. h</dt> </dl> |
 
 
 

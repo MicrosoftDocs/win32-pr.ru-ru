@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7cbf7c42b8523bcd12b19e9b474ecc50bd031939
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: edaafa00f792cf01b4166d525171cf15b7f781c8c0c943c17377b3bd9b3401dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104142751"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020592"
 ---
 # <a name="create-method-of-the-win32_clustershare-class"></a>Метод Create \_ класса Win32 клустершаре
 
@@ -45,7 +45,7 @@ static uint32 Create(
 *Путь* \[ окне\]
 </dt> <dd>
 
-Локальный путь к общей папке Windows.
+локальный путь к Windows общему ресурсу.
 
 Например, "C: \\ Program Files".
 
@@ -54,7 +54,7 @@ static uint32 Create(
 *Имя* \[ окне\]
 </dt> <dd>
 
-Псевдоним для пути, настроенного в качестве общего ресурса в компьютерной системе под Windows.
+Псевдоним для пути, настроенного в качестве общего ресурса в компьютерной системе, на которой работает Windows.
 
 Например, "Public".
 
@@ -140,7 +140,7 @@ IPC
 *Пароль* \[ в необязательное\]
 </dt> <dd>
 
-TBD
+Подлежит уточнению
 
 </dd> <dt>
 
@@ -151,7 +151,7 @@ TBD
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -165,7 +165,7 @@ TBD
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: d62f1d40-4f42-4684-96d7-de88db67dceb
 title: ХКРИПТКЭЙ (Винкрипт. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 56bda14169aa2f4d7c6e502d3444473ea0f00408
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c78d50f7fb005d877f6520172631b4546b8d498c415de58502defd26831c65fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006442"
 ---
 # <a name="hcryptkey"></a>хкрипткэй
 
@@ -28,9 +28,9 @@ typedef ULONG_PTR HCRYPTKEY;
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Винкрипт. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Винкрипт. h</dt> </dl> |
 
 
 

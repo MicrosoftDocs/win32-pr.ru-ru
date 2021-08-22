@@ -4,12 +4,12 @@ ms.assetid: 2134fa6e-9e8e-4a83-9593-b5ae8c6d3e42
 title: Свойство Авенквидеоинпутколорпримариес (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f83701f1a8b1ca6e668681b2a99dbf7a549b269a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a8553b224eb91e63215d0ad3b263e8c2cd93d908a3ee7e2ac44221859fa6c56a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104140443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119275344"
 ---
 # <a name="avencvideoinputcolorprimaries-property"></a>Авенквидеоинпутколорпримариес, свойство
 
@@ -29,14 +29,14 @@ ms.locfileid: "104140443"
 
 Значение этого свойства является членом перечисления [**еавенквидеоколорпримариес**](/windows/desktop/api/codecapi/ne-codecapi-eavencvideocolorprimaries) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 

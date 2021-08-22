@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: b6db952b432beddcec289602e61eb764416e780c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 68a60ea91b7ee5c4b50c994783d13b334db41e3fd2ec9d6e25385ff046188cc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006862"
 ---
 # <a name="extensionscount-property"></a>Extension. Count, свойство
 
@@ -56,7 +56,7 @@ Extensions.Count As Long
 
 <dl> <dt>
 
-[**Модули**](extensions.md)
+[**Расширения**](extensions.md)
 </dt> </dl>
 
  

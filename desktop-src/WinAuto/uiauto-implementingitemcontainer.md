@@ -15,12 +15,12 @@ keywords:
 - интерфейсы, Иитемконтаинерпровидер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55246abde51e7053bf0c3266ccbe9c2b080b2fe7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f69c0407a8f167a3a89b908c1b5555a9d32363b38b3ce5ab4d1794e726666a8c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103775224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119413462"
 ---
 # <a name="itemcontainer-control-pattern"></a>Шаблон элемента управления ItemContainer
 
@@ -44,7 +44,7 @@ ms.locfileid: "103775224"
 
 -   [Правила и соглашения реализации](#implementation-guidelines-and-conventions)
 -   [Обязательные члены для Иитемконтаинерпровидер](#required-members-for-iitemcontainerprovider)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="implementation-guidelines-and-conventions"></a>Правила и соглашения реализации
 
@@ -91,11 +91,11 @@ ms.locfileid: "103775224"
 
 
 
- 
+ 
 
 Шаблон элемента управления **ItemContainer** не имеет связанных свойств или событий.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -111,9 +111,9 @@ ms.locfileid: "103775224"
 [Шаблон элемента управления Виртуализедитем](uiauto-implementingvirtualizeditem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

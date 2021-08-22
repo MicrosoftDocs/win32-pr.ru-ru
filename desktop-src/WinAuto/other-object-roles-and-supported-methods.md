@@ -4,12 +4,12 @@ description: В этом разделе содержатся сведения о
 ms.assetid: 0c3a3ccf-f02a-4aca-9380-a13774598a19
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f17e8573142a57e0acf08980895fdae3ea6d1841
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: d4e29a4ef0345513912c8ad08e3a322e01b56bd3245291e9def64a49b35ac22b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052572"
 ---
 # <a name="other-object-roles-and-supported-methods-msaa-ui-element-reference"></a>Другие роли объектов и поддерживаемые методы (Справочник по элементам пользовательского интерфейса MSAA)
 

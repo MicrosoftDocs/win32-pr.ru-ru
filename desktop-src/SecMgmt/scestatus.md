@@ -4,12 +4,12 @@ ms.assetid: b3facb0f-384c-41c7-90fc-56fca2f1c9ab
 title: СЦЕСТАТУС (Сцесвк. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e7f22baf13cb82a281bcff83b9d9f2548ed9c9e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 626a4c3006ea7d8abb6e5824305d3a193b18999a9df5c4bf979cc3943de5e78c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991021"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119004952"
 ---
 # <a name="scestatus"></a>сцестатус
 
@@ -22,15 +22,15 @@ typedef DWORD SCESTATUS;
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                         |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                |
-| Header<br/>                   | <dl> <dt>Сцесвк. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                         |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                |
+| Заголовок<br/>                   | <dl> <dt>Сцесвк. h</dt> </dl> |
 
 
 

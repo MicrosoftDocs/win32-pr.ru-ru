@@ -5,12 +5,12 @@ ms.assetid: ddc665dd-3a06-4383-b747-e666b8c1090c
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6045c37e936afe1f5f70f4053c5ff5e134f6b79d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 879a3d46a806f9e1ade138887d47de0573dbcc7889e8eab9f0afa614441ef554
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104532156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139037"
 ---
 # <a name="remote-desktop-protocol-provider-enumerations"></a>Перечисления поставщика протокол удаленного рабочего стола
 
@@ -55,35 +55,35 @@ API поставщика протокол удаленного рабочего 
 
 </dd> <dt>
 
-[**\_тип сертификата \_ ВТС**](/windows/desktop/api/Wtsdefs/ne-wtsdefs-wts_cert_type)
+[**WTS \_ \_тип сертификата**](/windows/desktop/api/Wtsdefs/ne-wtsdefs-wts_cert_type)
 </dt> <dd>
 
 Содержит значения, указывающие тип сертификата, используемого для получения лицензии.
 
 </dd> <dt>
 
-[**\_ \_ \_ ответ перенаправителя ВТС Error logon \_**](/windows/desktop/api/Wtsdefs/ne-wtsdefs-wts_logon_error_redirector_response)
+[**WTS \_ \_ответ на \_ запрос перенаправления ошибки входа \_**](/windows/desktop/api/Wtsdefs/ne-wtsdefs-wts_logon_error_redirector_response)
 </dt> <dd>
 
 Содержит значения, указывающие предпочтительный ответ протокола на ошибку входа в систему.
 
 </dd> <dt>
 
-[**ВТС \_ RCM \_ \_ Состояние стока**](/windows/desktop/api/Wtsdefs/ne-wtsdefs-wts_rcm_drain_state)
+[**WTS \_ \_состояние очистки \_ RCM**](/windows/desktop/api/Wtsdefs/ne-wtsdefs-wts_rcm_drain_state)
 </dt> <dd>
 
 Содержит сведения о состоянии стока сервера узла сеансов удаленный рабочий стол (узел сеансов удаленных рабочих столов).
 
 </dd> <dt>
 
-[**\_ \_ состояние службы ВТС \_ RCM**](/windows/desktop/api/Wtsdefs/ne-wtsdefs-wts_rcm_service_state)
+[**WTS \_ \_состояние службы \_ RCM**](/windows/desktop/api/Wtsdefs/ne-wtsdefs-wts_rcm_service_state)
 </dt> <dd>
 
 Содержит сведения о состоянии службы службы удаленных рабочих столов.
 
 </dd> </dl>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -99,9 +99,9 @@ API поставщика протокол удаленного рабочего 
 [Объединения поставщиков протокол удаленного рабочего стола](custom-remote-protocol-unions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

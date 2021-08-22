@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - mfmediaengine.h
-ms.openlocfilehash: 4f0a42601698a9cd62dc6cb23ca9e69ac2cc8a49
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 7698d059bd7d930037096208668de91292bca9e67b13743d353d3f682ec905a4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105720053"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119357764"
 ---
 # <a name="imfmediakeysessiongeterror-method"></a>Метод Имфмедиакэйсессион:: Error
 
@@ -58,14 +58,14 @@ HRESULT GetError(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только Windows 8.1 Классические приложения\]<br/>                                                 |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2012 R2 \[\]<br/>                                      |
+| Минимальная версия клиента<br/> | Windows 8.1 \[ только классические приложения\]<br/>                                                 |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[Только классические приложения R2\]<br/>                                      |
 | IDL<br/>                      | <dl> <dt>Мфмедиаенгине. idl</dt> </dl> |
 
 

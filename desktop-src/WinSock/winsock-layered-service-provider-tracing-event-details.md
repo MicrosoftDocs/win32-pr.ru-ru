@@ -4,21 +4,21 @@ ms.assetid: 4C86618D-4E79-486E-997F-9E2509FBF6B6
 title: Сведения о трассировке изменений каталога Winsock
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6258ca87d5d1fba2de9364e5524110bb43c76513
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae8d949caf94d3b7bbbef32945c97cb3f1db258f798b84280570712ef5299cd3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155250"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051342"
 ---
 # <a name="winsock-catalog-change-tracing-details"></a>Сведения о трассировке изменений каталога Winsock
 
 > [!Note]  
-> Многоуровневые поставщики служб являются устаревшими. Начиная с Windows 8 и Windows Server 2012, используйте [платформу фильтрации Windows](../fwp/windows-filtering-platform-start-page.md).
+> Многоуровневые поставщики служб являются устаревшими. начиная с Windows 8 и Windows Server 2012 используйте [платформу фильтрации Windows](../fwp/windows-filtering-platform-start-page.md).
 
  
 
-Трассировка событий изменения каталога Winsock для многоуровневых поставщиков служб (LSP) связана с установкой LSP, удалением LSP, антивирусными ключами и операциями сброса каталога Winsock. Все следующие события записываются в канал *Microsoft-Windows-Winsock-WS2HELP/* Operation, который отличается от трассировки событий сети Winsock, зарегистрированной в Windows Vista и более поздних версиях.
+Трассировка событий изменения каталога Winsock для многоуровневых поставщиков служб (LSP) связана с установкой LSP, удалением LSP, антивирусными ключами и операциями сброса каталога Winsock. все следующие события записываются в канал *Microsoft-Windows-Winsock-WS2HELP/оперативный* , который отличается от трассировки событий сети winsock, зарегистрированной в Windows Vista и более поздних версиях.
 
 Ниже приведены сведения о каждом из событий LSP Winsock, которые можно отслеживать, и описание параметров и сведений, регистрируемых в журнале.
 
@@ -122,7 +122,7 @@ ms.locfileid: "104155250"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

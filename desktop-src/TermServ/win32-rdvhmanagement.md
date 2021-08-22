@@ -16,12 +16,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b01e2cde81173035d00587782dc45d9ddeb66fcf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4ea403621aa23cb999bdf2fe692e2d4e053866492608e71346d978cb764ab005
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119422584"
 ---
 # <a name="win32_rdvhmanagement-class"></a>\_Класс Win32 рдвхманажемент
 
@@ -64,7 +64,7 @@ class Win32_RdvhManagement
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

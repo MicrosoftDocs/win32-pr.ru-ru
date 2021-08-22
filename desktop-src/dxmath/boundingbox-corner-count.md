@@ -4,12 +4,12 @@ ms.assetid: a73c44f8-14f9-47aa-b02b-31dcd34cd6c5
 title: BoundingBox.CORNER_COUNT (Директксколлисион. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b354fcde4b32d0b0e10340fb186718410013af9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 395eabf0ff02bccf82cc9345a58b66fa58e7eafb51080729dcfdc058b5bc77e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105674803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119118591"
 ---
 # <a name="boundingboxcorner_count"></a>Число BoundingBox. УГЛОВ \_
 
@@ -23,11 +23,11 @@ public:
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 ### <a name="platform-requirements"></a>Требования к платформе
 
-Microsoft Visual Studio 2010 или Microsoft Visual Studio 2012 с Windows SDK для Windows 8. Поддерживается для классических приложений Win32, приложений для Магазина Windows и Windows Phone 8 приложений.
+Microsoft Visual Studio 2010 или Microsoft Visual Studio 2012 с Windows SDK для Windows 8. поддерживается для классических приложений Win32, приложений для магазина Windows и Windows Phone 8 приложений.
 
 ## <a name="requirements"></a>Требования
 
@@ -44,7 +44,7 @@ Microsoft Visual Studio 2010 или Microsoft Visual Studio 2012 с Windows SDK 
 
 <dl> <dt>
 
-[Fields](boundingbox-fields.md)
+[Поля](boundingbox-fields.md)
 </dt> <dt>
 
 **Ссылки**

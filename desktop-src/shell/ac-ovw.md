@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: fbbf0c53fc1b26002d1b46a9a6a6f67cd15e3ead
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 822f2554f51adfb99b1b4b2ad9d61fe064f802def3c8804371639ec20563b54b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119223714"
 ---
 # <a name="using-autocomplete"></a>Использование автозаполнения
 
-Автозаполнение расширяет строки, которые были частично введены в [элемент управления "Правка](/windows/desktop/Controls/edit-controls) ", в строки целиком. Например, когда пользователь начинает вводить URL-адрес в элемент управления «поле ввода адреса», внедренный в панель инструментов Windows Internet Explorer, автозаполнение расширяет строку на один или несколько полных параметров URL-адресов, которые соответствуют существующей частичной строке. Частичная строка URL-адреса, например "Mic", может быть расширена до " https://www.microsoft.com " или " https://www.microsoft.com/windows ". Автозаполнение обычно используется с элементами управления "поле ввода" или с элементами управления с внедренным элементом управления "поле ввода", например с элементом управления [ComboBoxEx](/windows/desktop/Controls/comboboxex-control-reference) .
+Автозаполнение расширяет строки, которые были частично введены в [элемент управления "Правка](/windows/desktop/Controls/edit-controls) ", в строки целиком. например, когда пользователь начинает вводить URL-адрес в элемент управления "поле ввода адреса", внедренный в Windows панели инструментов Internet Explorer, автозаполнение расширяет строку на один или несколько полных параметров URL-адресов, которые соответствуют существующей частичной строке. Частичная строка URL-адреса, например "Mic", может быть расширена до " https://www.microsoft.com " или " https://www.microsoft.com/windows ". Автозаполнение обычно используется с элементами управления "поле ввода" или с элементами управления с внедренным элементом управления "поле ввода", например с элементом управления [ComboBoxEx](/windows/desktop/Controls/comboboxex-control-reference) .
 
 ## <a name="adding-autocomplete-functionality-to-your-application"></a>Добавление функции автозаполнения в приложение
 

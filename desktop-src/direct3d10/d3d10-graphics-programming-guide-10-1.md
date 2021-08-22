@@ -4,12 +4,12 @@ ms.assetid: e60c6116-e2f9-46b7-aed8-13e3e5ae2b90
 title: Функции Direct3D 10,1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99935941f60a984407c688e4ae67f0a125b0130d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f674cc3ff5763fde77c13a3dac4a86a03d8bf8373bd5b34e9ffa74b21f563a47
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119371434"
 ---
 # <a name="direct3d-101-features"></a>Функции Direct3D 10,1
 
@@ -43,7 +43,7 @@ ms.locfileid: "105701199"
 
 Для новых функций требуется тип устройства 10,1 (см. [**интерфейс ID3D10Device1**](/windows/desktop/api/D3D10_1/nn-d3d10_1-id3d10device1)), который можно создать с помощью вызова [**D3D10CreateDevice1**](/windows/desktop/api/D3D10_1/nf-d3d10_1-d3d10createdevice1), или можно одновременно создать устройство и цепочку перекачки, вызвав [**D3D10CreateDeviceAndSwapChain1**](/windows/desktop/api/D3D10_1/nf-d3d10_1-d3d10createdeviceandswapchain1).
 
-В Windows Vista с пакетом обновления 1 (SP1) библиотеки Direct3D 10,0 и Direct3D 10,1 параллельно существуют в системе. Для доступа к функциям 10,1 выполните одно из следующих действий.
+в Windows Vista с пакетом обновления 1 (sp1) библиотеки direct3d 10,0 и direct3d 10,1 параллельно существуют в системе. Для доступа к функциям 10,1 выполните одно из следующих действий.
 
 ## <a name="accessing-101-features-on-vista-gold-and-vista-service-pack-1"></a>Доступ к функциям 10,1 в Vista Gold и Vista с пакетом обновления 1 (SP1)
 
@@ -61,7 +61,7 @@ ms.locfileid: "105701199"
 -   D3DX10 и FXC поддерживают обновленную модель шейдера 10,1 со следующими целевыми объектами: VS \_ 4 \_ 1, GS \_ 4 \_ 1, PS \_ 4 \_ 1 и FX \_ 4 \_ 1, которые можно привязать к устройству 10,1. Устройство 10,1 поддерживает шейдеры Shader Model 4,0 и 4,1.
 -   Платформа Direct3D 10,0 Effects поддерживает устройства 10,0 и 10,1, однако любой прием, включающий в себя модель шейдеров 4,1 шейдеры или новые компоненты 10,1, должен использовать устройство с кодом 10,1.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

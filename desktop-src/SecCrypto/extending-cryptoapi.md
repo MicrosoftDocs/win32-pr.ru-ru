@@ -4,12 +4,12 @@ ms.assetid: fe87ccb8-16a3-443d-93df-0df02b8787f6
 title: Расширение CryptoAPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62417f66b8a8bb2d06d145543f944f91868d366d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e0538e15f49e61dc26cacd4e81c42dd462aec092877428ebe865ab97c7729f0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119007023"
 ---
 # <a name="extending-cryptoapi"></a>Расширение CryptoAPI
 
@@ -24,7 +24,7 @@ ms.locfileid: "105664471"
 | Идентификаторы алгоритмов<br/>                                                                                 | Функции перечисления [**кпжетпровпарам**](https://www.bing.com/search?q=**CPGetProvParam**) позволяют приложениям динамически перечислять идентификаторы алгоритмов. В любое время можно определить новый [*симметричный*](../secgloss/s-gly.md), [*открытый ключ*](../secgloss/p-gly.md)и [*хэш-*](../secgloss/h-gly.md) алгоритмы.<br/> |
 | Типы пар открытого и [*закрытого ключей*](../secgloss/p-gly.md)<br/> | Хотя новые типы пар ключей могут быть определены по мере необходимости, используются только [*пары ключей обмена*](../secgloss/e-gly.md) подписями и ключей.<br/>                                                                                                                                                                                                                                           |
 | Типы больших двоичных объектов ключей<br/>                                                                                        | Новые типы [*больших двоичных объектов*](../secgloss/b-gly.md) ключей позволяют использовать ключи сеанса, открытые ключи и пары открытого и закрытого ключей для гибкого обмена данными с помощью функций [**кпекспорткэй**](https://www.bing.com/search?q=**CPExportKey**) и [**кпимпорткэй**](https://www.bing.com/search?q=**CPImportKey**) .<br/>                                                                                                                                            |
-| Параметры ключа<br/>                                                                                        | Параметры ключей отправляются и извлекаются с помощью [**кпсеткэйпарам**](https://www.bing.com/search?q=**CPSetKeyParam**) и [**кпжеткэйпарам**](https://www.bing.com/search?q=**CPGetKeyParam**). Новые параметры ключа могут включать поддержку многих разных типов ключей.<br/>                                                                                                                                                                                                                         |
+| Ключевые параметры<br/>                                                                                        | Параметры ключей отправляются и извлекаются с помощью [**кпсеткэйпарам**](https://www.bing.com/search?q=**CPSetKeyParam**) и [**кпжеткэйпарам**](https://www.bing.com/search?q=**CPGetKeyParam**). Новые параметры ключа могут включать поддержку многих разных типов ключей.<br/>                                                                                                                                                                                                                         |
 | Параметры хэш-объекта<br/>                                                                                | Параметры хэш-объекта отправляются и извлекаются с помощью [**кпсесашпарам**](https://www.bing.com/search?q=**CPSetHashParam**) и [**кпжесашпарам**](https://www.bing.com/search?q=**CPGetHashParam**). Новые параметры хэш-объекта могут включать поддержку множества различных типов [*хэшей*](../secgloss/h-gly.md).<br/>                                                                                                                                         |
 | Значения флагов<br/>                                                                                           | Большинство функций CryptoAPI и Криптоспи имеют параметр *dwFlags* . Новые значения *dwFlags* могут изменить поведение функций при необходимости.<br/>                                                                                                                                                                                                                                                                                                       |
 

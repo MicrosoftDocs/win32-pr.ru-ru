@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a75510f804525a5d71ea333357d72fc6536d0831
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5961a144e30ca8b28bbf90ea7a4ceec2372048273ea7ae5f3ed9791d353984ec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104140843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119218084"
 ---
 # <a name="reset-method-of-the-cim_flatpanel-class"></a>Метод Reset \_ класса CIM флатпанел
 
@@ -47,7 +47,7 @@ uint32 Reset();
 
 Возвращает 0 (ноль), если запрос был успешно выполнен, 1 (один), если запрос не поддерживается, и другое значение, если произошла ошибка.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В настоящее время этот метод не реализован инструментарием WMI. Чтобы использовать этот метод, его необходимо реализовать в собственном поставщике.
 

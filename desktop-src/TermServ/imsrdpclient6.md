@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ddb2b60d95650975955bc45abe23a354668c9bf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b4bbf8fb9cc532b1968b8fba99b62e49feaf4538fd618018666d0338736cc04d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104414917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119138917"
 ---
 # <a name="imsrdpclient6-interface"></a>Интерфейс IMsRdpClient6
 
@@ -33,13 +33,13 @@ ms.locfileid: "104414917"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Интерфейс **IMsRdpClient6** имеет следующие свойства.
 
 
 
-| Свойство                                                                  | Тип доступа          | Описание                                                                                           |
+| Свойство.                                                                  | Тип доступа          | Описание                                                                                           |
 |:--------------------------------------------------------------------------|:---------------------|:------------------------------------------------------------------------------------------------------|
 | [**AdvancedSettings7**](imsrdpclient6-advancedsettings7.md)<br/>   | Только для чтения<br/> | Интерфейс для [**IMsRdpClientAdvancedSettings6**](imsrdpclientadvancedsettings6.md).<br/>   |
 | [**TransportSettings2**](imsrdpclient6-transportsettings2.md)<br/> | Только для чтения<br/> | Интерфейс для [**IMsRdpClientTransportSettings2**](imsrdpclienttransportsettings2.md).<br/> |
@@ -48,7 +48,7 @@ ms.locfileid: "104414917"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Интерфейс **IMsRdpClient6** расширен следующими интерфейсами. каждый новый интерфейс наследует все методы и свойства предыдущих интерфейсов:
 

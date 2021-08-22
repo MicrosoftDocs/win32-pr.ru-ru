@@ -4,12 +4,12 @@ ms.assetid: 693b195e-1e69-4895-87dd-59714646cff9
 title: ICE58
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 152e3a528506861107bfc3c2d64c48935ea7320e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0be8cec8fda3a3ddc1efce397dfbd17a95a2baf37ab0392eb8e5ffd08c7df4a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119528234"
 ---
 # <a name="ice58"></a>ICE58
 
@@ -17,7 +17,7 @@ ICE58 проверяет, что в [таблице мультимедиа](medi
 
 ## <a name="result"></a>Результат
 
-Предупреждения, о которых сообщает ICE58, приводят к сбою установки, если пакет не установлен с установщик Windows 2,0 или более поздней версии. Начиная с установщик Windows 2,0, ограничение на более 80 записей таблицы мультимедиа удаляется. Если свойство [**сводки количества страниц**](page-count-summary.md) пакета больше или равно 150, предупреждение не выдается. Пакеты схемы 200 или более поздней версии можно установить только установщик Windows 2,0 или более поздней версии.
+предупреждения, о которых сообщает ICE58, приводят к сбою установки, если пакет не установлен с установщик Windows 2,0 или более поздней версии. начиная с установщик Windows 2,0, ограничение на более 80 записей таблицы мультимедиа удаляется. Если свойство [**сводки количества страниц**](page-count-summary.md) пакета больше или равно 150, предупреждение не выдается. пакеты схемы 200 или более поздней версии можно установить только установщик Windows 2,0 или более поздней версии.
 
 ## <a name="example"></a>Пример
 
@@ -44,7 +44,7 @@ This package has 81 media entries. Packages are limited to 80 entries in the med
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

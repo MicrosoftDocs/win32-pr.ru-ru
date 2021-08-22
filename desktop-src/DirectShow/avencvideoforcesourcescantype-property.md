@@ -4,12 +4,12 @@ ms.assetid: 59aeb20a-5e8b-4e27-8e69-9f373ff45b27
 title: Свойство Авенквидеофорцесаурцескантипе (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f16a5ee35aca1c4279052c5af2ad04d7dbbffbd
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 6d52cb3c7d0c6144fb918cdd27105163666b98aa9bde44071126d3f59dba442a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103894094"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119275734"
 ---
 # <a name="avencvideoforcesourcescantype-property"></a>Авенквидеофорцесаурцескантипе, свойство
 
@@ -29,14 +29,14 @@ ms.locfileid: "103894094"
 
 Значение этого свойства является членом перечисления [**еавенквидеосаурцескантипе**](/windows/desktop/api/codecapi/ne-codecapi-eavencvideosourcescantype) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 

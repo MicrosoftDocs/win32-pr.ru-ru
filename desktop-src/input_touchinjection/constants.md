@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: article
 ms.date: 02/06/2020
-ms.openlocfilehash: 76a763a7153bbb9aa67254ffeb5e994a55426e43
-ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
+ms.openlocfilehash: d86af0d67c48218e8cb3f5909b647ff59d8b0cdddddef24057e02521a7f253ce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106187737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119451744"
 ---
 # <a name="touch-injection-constants"></a>Константы внедрения касаний
 
@@ -33,13 +33,13 @@ ms.locfileid: "106187737"
 | **TOUCH_FEEDBACK_INDIRECT** 0x2 | Указывает непрямые сенсорные визуализации.<br/>               |
 | **TOUCH_FEEDBACK_NONE** 0x3             | Указывает отсутствие сенсорных визуализаций.<br/>                     |
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента | \[Только классические приложения Windows 8\]                                           |
-| Минимальная версия сервера | \[Только для настольных приложений Windows Server 2012\]                                 |
-| Заголовок                   | Winuser. h |
+| Минимальная версия клиента | Windows 8 \[ только классические приложения\]                                           |
+| Минимальная версия сервера | Windows Server 2012 \[ только классические приложения\]                                 |
+| Header                   | Winuser. h |
 
 ## <a name="see-also"></a>См. также раздел
 

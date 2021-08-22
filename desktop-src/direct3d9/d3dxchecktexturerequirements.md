@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d4fdc0998bfda2144e900c099919bc75c01e8ee3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 4c7166f981c0351054a2a6c359127a4ce1959b45a6e71c44db9e2546825bc5f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119496104"
 ---
 # <a name="d3dxchecktexturerequirements-function"></a>Функция D3DXCheckTextureRequirements
 
@@ -115,7 +115,7 @@ HRESULT D3DXCheckTextureRequirements(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. Если функция завершается ошибкой, возвращаемое значение может быть одним из следующих: D3DERR \_ инвалидкалл, D3DERR \_ NOTAVAILABLE.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если параметры для этой функции недопустимы, эта функция возвращает исправленные параметры.
 
@@ -127,18 +127,18 @@ HRESULT D3DXCheckTextureRequirements(
 -   Попробуйте не изменять число бит на канал.
 -   Старайтесь не преобразовывать типы форматов. Например, Избегайте преобразования формата ARGB в формат глубины.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9tex. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9tex. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>  |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

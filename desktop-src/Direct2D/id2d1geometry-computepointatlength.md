@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
-ms.openlocfilehash: 5b49be0b5a17dd828c9bd86ca41b4a3ff115f47a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6665d5317b5359228f2e27803a8fee443ed8233e893cf7e8986e3af1c21a9373
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105680022"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119342834"
 ---
 # <a name="id2d1geometrycomputepointatlength-methods"></a>Методы ID2D1Geometry:: Компутепоинтатленгс
 
@@ -62,7 +62,7 @@ hr = m_pPathGeometry->ComputePointAtLength(
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

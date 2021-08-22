@@ -4,16 +4,16 @@ ms.assetid: 3b17b28a-cac8-4753-8c4e-3e57f372d8e5
 title: Управление видеокамерой
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68d1c84edcd4738745bdd695fe41cf735d6df1a5
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 33636d073ec86fb6a6eb03afd211a1b170e4668c32b6ba3b3b5e78dfb54ec036
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105673061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119214064"
 ---
 # <a name="controlling-a-dv-camcorder"></a>Управление видеокамерой
 
-В этой статье описывается, как управлять цифровой видеокамерой (DV) с помощью DirectShow. Он содержит следующие подразделы:
+В этой статье описывается, как управлять цифровой видеокассетой (DV) с помощью DirectShow. Он содержит следующие подразделы:
 
 -   [Внешние интерфейсы устройств для цифровых видеокамер](external-device-interfaces-for-dv-camcorders.md)
 -   [Режим устройства](device-mode.md)
@@ -25,7 +25,7 @@ ms.locfileid: "105673061"
 -   [Поиск расположения на ленте](tape-location-search.md)
 -   [Выдача необработанных команд AV/C](issuing-raw-av-c-commands.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

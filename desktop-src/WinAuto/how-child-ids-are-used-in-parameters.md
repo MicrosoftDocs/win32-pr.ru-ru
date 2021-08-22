@@ -4,12 +4,12 @@ description: В этом разделе описываются входные п
 ms.assetid: 051ec5ba-540c-4ae1-b917-4c229557ca2f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c03026e6abf769efab95cc513231fad3af64511f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: abc0c3be970fb4a688a0a5447b72719428e78e074cbc7a17f2b6b698fcca177f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052728"
 ---
 # <a name="how-child-ids-are-used-in-parameters"></a>Использование дочерних идентификаторов в параметрах
 
@@ -50,7 +50,7 @@ Microsoft Active Accessibility предоставляет постоянную *
 
 Кроме того, существуют особые случаи для [**аккнавигате**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-accnavigate). Дополнительные сведения см. в разделе **IAccessible:: аккнавигате** , [пространственные и логическая Навигация](spatial-and-logical-navigation.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

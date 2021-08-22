@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 38bd1c704ca709fc1e4b6072bb68c2105dc5db9c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5c517384bdffd8723c1e9e0d96683cc4bd4918361acdf19df77286bfbac962b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006372"
 ---
 # <a name="icertcontextcertcontext-property"></a>Свойство Ицертконтекст:: Цертконтекст
 
@@ -50,13 +50,13 @@ CertContext.CertContext As Long
 
 Любое другое значение **HRESULT** указывает на сбой вызова.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы освободить контекст, необходимо вызвать метод [**фриконтекст**](icertcontext-freecontext.md) или функцию [**цертфрицертификатеконтекст**](/windows/desktop/api/Wincrypt/nf-wincrypt-certfreecertificatecontext) .
 
 Если задано свойство **цертконтекст** , состояние всего объекта [**сертификата**](certificate.md) сбрасывается.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -67,7 +67,7 @@ CertContext.CertContext As Long
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

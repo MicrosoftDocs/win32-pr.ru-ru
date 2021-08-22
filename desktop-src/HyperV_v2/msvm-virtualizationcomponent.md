@@ -1,5 +1,5 @@
 ---
-description: Представляет службу платформы Hyper-V Microsoft Windows.
+description: представляет службу платформы Hyper-V Microsoft Windows.
 ms.assetid: 309EFE4C-EEA4-454C-943D-CBF99D64FE15
 title: Класс Msvm_VirtualizationComponent
 ms.topic: reference
@@ -17,16 +17,16 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 19811b224a4e93e85420539248b7d010491335aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ab2d2d5652f2969ad20ee70077d23375371e3507991a16b6d5e6dda2245678ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068434"
 ---
 # <a name="msvm_virtualizationcomponent-class"></a>\_Класс мсвм виртуализатионкомпонент
 
-Представляет службу платформы Hyper-V Microsoft Windows.
+представляет службу платформы Hyper-V Microsoft Windows.
 
 Следующий синтаксис представляет собой упрощенный код MOF-файл (MOF).
 
@@ -49,7 +49,7 @@ class Msvm_VirtualizationComponent
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ виртуализатионкомпонент** имеет следующие свойства.
 
@@ -84,7 +84,7 @@ class Msvm_VirtualizationComponent
 
 </dd> <dt>
 
-**Enabled**
+**Включен**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **логический**
@@ -97,7 +97,7 @@ class Msvm_VirtualizationComponent
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -113,19 +113,19 @@ class Msvm_VirtualizationComponent
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Доступ к классу **\_ виртуализатионкомпонент мсвм** может быть ограничен фильтром контроля учетных записей. Дополнительные сведения см. в разделе [Управление учетными записями пользователей и инструментарий WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
-| Окончание поддержки клиента<br/>    | Windows 8.1<br/>                                                                                  |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
+| Окончание поддержки клиента<br/>    | Windows 8.1<br/>                                                                                  |
 | Поддержка конца сервера<br/>    | Windows Server 2012 R2<br/>                                                                       |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |

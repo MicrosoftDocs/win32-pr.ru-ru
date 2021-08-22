@@ -1,6 +1,6 @@
 ---
 title: Send-To расширенное право
-description: Exchange Right позволяет отправлять сообщения в почтовый ящик.
+description: Exchange право разрешает отправку в почтовый ящик.
 ms.assetid: 25dfbfd7-dbeb-48fa-a7c6-63bde03db2f4
 ms.tgt_platform: multiple
 keywords:
@@ -13,16 +13,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0995f887f899eb31ec6d45210a07a849f1c50dde
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c3d6007cf9c222ac0ae52e75cbf79b63765ee14f46a976f761521c3b1740cbab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103989497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021572"
 ---
 # <a name="send-to-extended-right"></a>Send-To расширенное право
 
-Право Exchange: разрешает отправку в почтовый ящик.
+Exchange right: разрешает отправку в почтовый ящик.
 
 
 

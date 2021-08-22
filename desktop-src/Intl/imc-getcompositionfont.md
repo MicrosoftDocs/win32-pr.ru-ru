@@ -4,12 +4,12 @@ ms.assetid: 43db70b6-f8bc-4241-9096-5d91fd1e332b
 title: Команда IMC_GETCOMPOSITIONFONT (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 696d9809cadbe4f2c0e632719401e882777888dc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ebf26592f2fd000f864685bd79d71b189fc24d695941691fe2e01d48132d00d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068104"
 ---
 # <a name="imc_getcompositionfont-command"></a>ИМК \_ жеткомпоситионфонт, команда
 
@@ -52,7 +52,7 @@ LRESULT IMC_GETCOMPOSITIONFONT
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                           |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                 |
-| Заголовок<br/>                   | <dl> <dt>IMM. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Imm. h (включает Windows. h)</dt> </dl> |
 
 
 
