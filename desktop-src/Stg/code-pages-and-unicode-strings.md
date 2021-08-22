@@ -6,12 +6,12 @@ keywords:
 - Кодовые страницы и строки в Юникоде
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 508d508ec21e7e763a683e534cf485ebbeec018d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 65a1d5a830d3d4e2fccbb61563e7a8a0447d74e7c427e5e2e0434e7194a2ad3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104328720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119663604"
 ---
 # <a name="code-pages-and-unicode-strings"></a>Кодовые страницы и строки в Юникоде
 
@@ -27,9 +27,9 @@ ms.locfileid: "104328720"
 
 Доступ к свойству с ИДЕНТИФИКАТОРом 1 можно получить через вызов [**ипропертистораже:: реадмултипле**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-readmultiple). Однако он доступен только для чтения и не может быть обновлен с помощью [**вритемултипле**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-writemultiple). Кроме того, он не может быть удален с помощью [**делетемултипле**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-deletemultiple).
 
- 
+ 
 
- 
+ 
 
 
 

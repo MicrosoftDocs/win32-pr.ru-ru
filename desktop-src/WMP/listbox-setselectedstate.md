@@ -3,7 +3,7 @@ title: LISTBOX. Сетселектедстате
 description: Метод Сетселектедстате выбирает или отменяет выбор элемента с указанным индексом.
 ms.assetid: a72aa461-f378-4612-b580-ecad735931cb
 keywords:
-- Проигрыватель Windows Media LISTBOX. Сетселектедстате
+- проигрыватель Windows Media LISTBOX. сетселектедстате
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 95ca3b5a1b81224d99aace1cefb9da0d616eedc2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c03702df06aa6faf885ec0d4bda01651f4e6ab2d8163047f0756ef5806b108ee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704418"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119616913"
 ---
 # <a name="listboxsetselectedstate"></a>LISTBOX. Сетселектедстате
 
@@ -50,21 +50,21 @@ ms.locfileid: "105704418"
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используется для выбора или выделения нескольких строк.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

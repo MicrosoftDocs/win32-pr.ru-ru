@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd4f9c0a5ec905ecb061ddb54984bf35ff8edc3d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e529bd83cff8ffb25c8853b7d896926e63982370387f7e2fb5d2ca30a394c1cd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119491514"
 ---
 # <a name="glstencilfunc-function"></a>Функция ГлстенЦилфунк
 
@@ -73,7 +73,7 @@ void WINAPI glStencilFunc(
 
 </dd> <dt>
 
-*виде* 
+*mask* 
 </dt> <dd>
 
 Маска, которая является **и** ED со значением ссылки и сохраненным значением трафарета после завершения теста.
@@ -97,7 +97,7 @@ void WINAPI glStencilFunc(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Набор элементов, например *z*-буферизация, включает и отключает рисование на уровне отдельных пикселов. Вы рисуете на плоскости трафаретов с помощью примитивов рисования OpenGL, затем визуализируете геометрию и изображения, используя плоскости трафаретов для маскирования частей экрана. Набор элементов обычно используется в алгоритмах многопроходной отрисовки для достижения специальных эффектов, таких как декалс, структурирование и конструктивностьная визуализация геометрических объектов.
 
@@ -121,7 +121,7 @@ void WINAPI glStencilFunc(
 
 [**глисенаблед**](glisenabled.md) с аргументом \_ Test трафарета GL \_
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -135,7 +135,7 @@ void WINAPI glStencilFunc(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec38d0afe2e04d8ed065a972ab2d4c8779d689c8
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1bd7b3ad4c65a2b88cc70b137314e4ebd4eb7f415710da875da12c6aca422a8f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103805081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119531884"
 ---
 # <a name="enable-per-user-reversibly-encrypted-password-extended-right"></a>Enable-for User-обратимо зашифрованный пароль — расширенное право
 

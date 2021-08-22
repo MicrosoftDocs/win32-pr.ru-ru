@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 033936eb1f8d5176eed1b052ba5ee5332c8c5a27
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b8597da3948ce9da7e14c2d16923092244f67bc600643e789e315170b2565553
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119730712"
 ---
 # <a name="jet_lsequals-method-object"></a>JET_LS. Метод Equals (Object)
 
@@ -67,7 +67,7 @@ public override bool Equals(
 Тип: [System. Boolean](/dotnet/api/system.boolean)  
 Значение true, если два экземпляра равны.  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

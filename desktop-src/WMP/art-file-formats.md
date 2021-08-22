@@ -1,27 +1,27 @@
 ---
 title: Форматы файлов изображений
-description: Сведения о форматах файлов изображений, распознаваемых проигрывателем Windows Media для обложек. К ним относятся точечные рисунки, GIF, JPEG и PNG.
+description: сведения о форматах файлов изображений, которые проигрыватель Windows Media распознает обложки. К ним относятся точечные рисунки, GIF, JPEG и PNG.
 ms.assetid: 803479e8-0e00-4724-80b7-9d86709c43db
 keywords:
-- Обложки проигрывателя Windows Media, графические файлы
+- обложки проигрыватель Windows Media, файлы art
 - обложки, файлы Art
 - файлы для обложек, изображений
 - графические файлы для обложек, форматы файлов
-- Обложки проигрывателя Windows Media, форматы файлов для иллюстрации
+- обложки проигрыватель Windows Media, форматы файлов для иллюстрации
 - обложки, форматы файлов для иллюстрации
 - форматы файлов для обложки Art
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b525bc316d6a9901e32e51a54b6fb938fa91208
-ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
+ms.openlocfilehash: 95872ef6bf98f690841372471c8170439c2b44ac7d8ee8027e91f0372b4b4437
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112262216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119573815"
 ---
 # <a name="art-file-formats"></a>Форматы файлов изображений
 
-Проигрыватель Windows Media распознает следующие форматы графических файлов для обложек:
+следующие форматы графических файлов распознаются проигрыватель Windows Media для обложек:
 
 
 

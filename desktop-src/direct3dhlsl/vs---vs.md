@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: baf773d7607aa575bd575339bde072b3dc04b224
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 3977e77c685adb3a181804c0db5b281ae3e54c6f085586023855259f532dde8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104412229"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119484234"
 ---
 # <a name="vs"></a>vs
 
@@ -43,9 +43,9 @@ vs_mainVer_subVer
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -55,7 +55,7 @@ vs_mainVer_subVer
 
 
 
- 
+ 
 
 Эта инструкция должна быть первой инструкцией, отличной от комментария, в шейдере вершин.
 
@@ -83,16 +83,16 @@ vs_2_sw
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера вершин](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

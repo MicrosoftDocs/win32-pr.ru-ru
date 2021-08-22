@@ -3,7 +3,7 @@ title: Сообщение WM_COMPAREITEM (Winuser. h)
 description: Отправляется, чтобы определить относительное расположение нового элемента в отсортированном списке рисуемого владельцем поля со списком или списка.
 ms.assetid: 22882730-9fd6-4b45-a563-d7b00ed26564
 keywords:
-- Элементы управления Windows для WM_COMPAREITEM сообщений
+- элементы управления Windows сообщений WM_COMPAREITEM
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f269b90f00e69cce2fb84e6b4efa76e554ad96f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 819df3c4dd36c784ef5747d4aa4cdf688b3a48dbd052254192a7c98574bbfa94
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104489006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119655774"
 ---
 # <a name="wm_compareitem-message"></a>\_Сообщение КОМПАРЕИТЕМ WM
 
@@ -70,25 +70,25 @@ WM_COMPAREITEM
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Когда владелец рисуемого владельцем поля со списком или списка получает это сообщение, владелец возвращает значение, указывающее, какие из элементов, указанных структурой [**COMPAREITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-compareitemstruct) , будут отображаться перед другой. Как правило, система отправляет это сообщение несколько раз до тех пор, пока оно не определит точную позицию для нового элемента.
 
 Если процедура диалогового окна обрабатывает это сообщение, необходимо привести требуемое возвращаемое значение к **логическому** типу и вернуть значение напрямую. \_Значение МСГРЕСУЛТ DWL, заданное функцией [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) , игнорируется.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

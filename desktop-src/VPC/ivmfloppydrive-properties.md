@@ -4,16 +4,16 @@ description: Интерфейс Ивмфлоппидриве предостав�
 ms.assetid: B05DB018-7E1E-4E1B-9171-1131950F36CC
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e0128df01b4f4029e362b98f31d962e8cf7ee62
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ba6f734a7880210ef3e1f58cdce4bbd7b38ccee434ff4bb4a0d822c85b4c6db8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105691552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119654094"
 ---
 # <a name="ivmfloppydrive-properties"></a>Свойства Ивмфлоппидриве
 
-\[Windows Virtual PC больше не доступна для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC больше не доступен для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Интерфейс [**ивмфлоппидриве**](ivmfloppydrive.md) предоставляет следующие свойства.
 
@@ -24,6 +24,6 @@ ms.locfileid: "105691552"
 -   [**Хостдривелеттер, свойство**](ivmfloppydrive-hostdriveletter.md)
 -   [**ImageFile, свойство**](ivmfloppydrive-imagefile.md)
 
- 
+ 
 
- 
+ 

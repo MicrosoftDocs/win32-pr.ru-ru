@@ -11,12 +11,12 @@ keywords:
 - команды бгн/End
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c25118d4e5050ea22d4b18fab596dfb9c92f562e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c63084b1f05d984fdc19254edaadaca9098d13f974a433f5c6ff7c5d370ec223
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104411272"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119485974"
 ---
 # <a name="porting-bgnend-commands"></a>Перенос команд бгн/End
 
@@ -64,7 +64,7 @@ glEnd();
 
 
 
- 
+ 
 
 Подробное описание различий между сетками, полосками и вентиляторами треугольников см. в разделе [Перенос треугольников](porting-triangles.md).
 
@@ -88,17 +88,17 @@ glEnd();
 
 
 
- 
+ 
 
 > [!Note]
 >
 > Если вы используете любую функцию OpenGL, отличную от перечисленных в предыдущей таблице в паре [**глбегин**](glbegin.md)  /  [**гленд**](glend.md) , вы получите непредсказуемые результаты или, возможно, ошибку.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

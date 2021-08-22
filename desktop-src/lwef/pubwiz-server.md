@@ -10,12 +10,12 @@ keywords:
 - сценарии, мастера публикации
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20b3b218bbca297be446016335d90fe717a88bba
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 075e5a18b2150e504b6424fae2591ed83fdf707a6a20231b8f1186ddb6f3a67b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103987516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119555814"
 ---
 # <a name="server-side-design"></a>Разработка Server-Side
 
@@ -30,7 +30,7 @@ ms.locfileid: "103987516"
 -   [Другие методы и свойства](#other-methods-and-properties)
     -   [Методы](#methods)
     -   [Свойства](#properties)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="implementing-navigation-script-functions"></a>Реализация функций скрипта навигации
 
@@ -67,7 +67,7 @@ ms.locfileid: "103987516"
 
 ### <a name="properties"></a>Свойства
 
--   [**Заголовок**](/previous-versions/windows/desktop/legacy/bb774352(v=vs.85))
+-   [**Caption**](/previous-versions/windows/desktop/legacy/bb774352(v=vs.85))
 -   [**Свойство**](/windows/desktop/shell/iwebwizardhost-property)
 
 В следующем примере кода показан код на стороне сервера для простой страницы мастера, которая реализует страницу ошибки веб-службы.
@@ -98,7 +98,7 @@ ms.locfileid: "103987516"
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -108,6 +108,6 @@ ms.locfileid: "103987516"
 [Регистрация службы](pubwiz-reg.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

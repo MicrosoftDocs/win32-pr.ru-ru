@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: b2d9d728065818b1e94fa436f4d1e9b62dbeb5cd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6049684798d6dda9030abd667c28a62f4b19f9b4e66a831ef4c1d2caa880fb1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119676874"
 ---
 # <a name="onloadingdll-function"></a>Функция Онлоадингдлл
 
@@ -105,7 +105,7 @@ HRESULT OnLoadingDLL(
 
 Если функция завершилась неудачно, МКСВК пропускает указанный монитор из всех списков; После этого невозможно создать монитор этого типа.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **онлоадингдлл** вызывается мксвк при первой загрузке библиотеки DLL. Затем библиотека DLL предоставляет значения по умолчанию, которые будут использоваться МКСВК при создании экземпляра монитора.
 
@@ -113,7 +113,7 @@ HRESULT OnLoadingDLL(
 
 Монитор должен использовать вспомогательные функции больших двоичных объектов для изменения фильтра BLOB.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

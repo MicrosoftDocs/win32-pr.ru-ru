@@ -5,26 +5,26 @@ ms.assetid: 7e9e25af-e3b9-40ba-a89d-50b3874e3e68
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ccb2ecc6d92a387107dc473bc7c7844c106da43
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2e3ec37354fc65e498664f266b9ca7823b0c5ab739111fa09c728d6e329480a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119676254"
 ---
 # <a name="adding-a-client"></a>Добавление клиента
 
-Следующий код Visual Basic добавляет новый клиент RADIUS и задает адрес и общий секрет для клиента.
+следующий код Visual Basic добавляет новый клиент RADIUS и задает адрес и общий секрет для клиента.
 
 > [!Note]  
-> Чтобы обеспечить правильную сборку, необходимо добавить ссылку COM в проект Visual Basic. Пример последовательности команд VB выглядит следующим образом: добавить ссылку на > COM-> "IAS SDO 1,0 Type Library". Это зависит от версии VB.
+> чтобы обеспечить правильную сборку, необходимо добавить ссылку COM в проект Visual Basic. Пример последовательности команд VB выглядит следующим образом: добавить ссылку на > COM-> "IAS SDO 1,0 Type Library". Это зависит от версии VB.
 
- 
+ 
 
 > [!Note]  
 > Этот пример не работает как код VBScript.
 
- 
+ 
 
 
 ```VB
@@ -171,7 +171,7 @@ End Class
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -193,6 +193,6 @@ End Class
 [**радиуспропертиес**](/windows/desktop/api/sdoias/ne-sdoias-radiusproperties)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

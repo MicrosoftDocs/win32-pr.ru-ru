@@ -1,6 +1,6 @@
 ---
 title: Интерфейс IMsRdpClientSecuredSettings2
-description: Определяет дополнительные свойства элемента управления ActiveX удаленный рабочий стол, которые ограничены конкретными зонами безопасности URL-адресов Internet Explorer.
+description: определяет дополнительные свойства элемента управления удаленный рабочий стол ActiveX, которые ограничены конкретными зонами безопасности URL-адресов Internet Explorer.
 ms.assetid: dde9824c-7adf-4783-bb1a-fb2bdbb7aead
 ms.tgt_platform: multiple
 keywords:
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b8ceaf322b51a4b619f8d73a898c444706d61f5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: da6ebbc3ef1c9f3fa264e4470377d38efb60fa3f4a38e4f7fe15f502139ef5fa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119574084"
 ---
 # <a name="imsrdpclientsecuredsettings2-interface"></a>Интерфейс IMsRdpClientSecuredSettings2
 
-Определяет дополнительные свойства элемента управления ActiveX удаленный рабочий стол, которые ограничены конкретными зонами безопасности URL-адресов Internet Explorer.
+определяет дополнительные свойства элемента управления удаленный рабочий стол ActiveX, которые ограничены конкретными зонами безопасности URL-адресов Internet Explorer.
 
 ## <a name="members"></a>Элементы
 
@@ -33,7 +33,7 @@ ms.locfileid: "105672643"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Интерфейс **IMsRdpClientSecuredSettings2** имеет следующие свойства.
 
@@ -47,7 +47,7 @@ ms.locfileid: "105672643"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -61,7 +61,7 @@ ms.locfileid: "105672643"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

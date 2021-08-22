@@ -1,19 +1,19 @@
 ---
-description: Версия 2 поставщика WMI для Hyper-V является новой для Windows 8 и Windows Server 2012.
+description: версия 2 поставщика WMI Hyper-V является новой для Windows 8 и Windows Server 2012.
 ms.assetid: A91ACF7A-AFE6-45B6-960C-C4AAA0083735
 title: Новые возможности поставщика WMI Hyper-V
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce222fd18955e88b9e33e1b706cf81ef5a806917
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bbaab65c08031c291eb11e8f865b77e256e5600deba060e0f8176ec8d13c3714
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103910999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119754934"
 ---
 # <a name="whats-new-in-hyper-v-wmi-provider"></a>Новые возможности поставщика WMI Hyper-V
 
-Версия 2 поставщика WMI для Hyper-V является новой для Windows 8 и Windows Server 2012.
+версия 2 поставщика WMI Hyper-V является новой для Windows 8 и Windows Server 2012.
 
 ## <a name="windows-10-version-1709"></a>Windows 10 версии 1709
 
@@ -97,7 +97,7 @@ ms.locfileid: "103910999"
 
 -   [**Мсвм \_ Виртуалсистемсеттингдата**](msvm-virtualsystemsettingdata.md): **парентпаккаже**
 
-## <a name="windows-10"></a>Windows 10
+## <a name="windows-10"></a>Windows 10,
 
 Новые классы:
 
@@ -252,9 +252,9 @@ Windows 8.1 и Windows Server 2012 R2 включают новые функции
     |----------------------------------------------|-------------|
     | **ReplicationState**                         | UInt16 (RO) |
     | **репликатионхеалс**                        | UInt16 (RO) |
-    | **ластрепликатионтиме**                      | Дата/время    |
+    | **ластрепликатионтиме**                      | Дата и время    |
     | **фаиледоверрепликатионтипе**                | UInt16      |
-    | **ластаппликатионконсистентрепликатионтиме** | Дата/время    |
+    | **ластаппликатионконсистентрепликатионтиме** | Дата и время    |
     | **ластрепликатионтипе**                      | UInt16      |
 
     

@@ -56,7 +56,7 @@ ms.locfileid: "119713144"
 <table>
 <thead>
 <tr class="header">
-<th>Свойство.</th>
+<th>Свойство</th>
 <th>Описание</th>
 </tr>
 </thead>
@@ -225,19 +225,19 @@ Read/write.<br />
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Клиент<br/> | Windows XP, Windows Vista или Windows 7<br/>                                       |
-| Header<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 | DLL<br/>    | <dl> <dt>Wmvsencd.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

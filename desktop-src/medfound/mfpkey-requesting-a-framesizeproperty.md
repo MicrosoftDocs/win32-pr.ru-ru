@@ -4,12 +4,12 @@ ms.assetid: c9baeff7-53fb-425f-b07b-4066a705ca54
 title: Свойство MFPKEY_REQUESTING_A_FRAMESIZE (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a3355e84318ba4ad7995ac5ad0f002f4d70767b4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3c39d1d9ecdba27e46a1e49949f1607fc60d53501d321e49c4899f9b8928ccf1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699262"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119555434"
 ---
 # <a name="mfpkey_requesting_a_framesize-property"></a>МФПКЭЙ \_ запрашивает \_ \_ свойство фрамесизе
 
@@ -23,25 +23,25 @@ ms.locfileid: "105699262"
 
 **Логическое значение VT \_**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы задать предпочтительный размер кадра, задайте следующие свойства.
 
 -   Задайте **для \_ мфпкэй \_ запрос \_ фрамесизе** к варианту \_ true.
 -   Задайте для параметра [**мфпкэй \_ предпочтительный \_ фрамесизе**](mfpkey-preferred-framesizeproperty.md) число выборок в каждом кадре.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Клиент<br/> | Windows Vista или Windows 7<br/>                                                   |
-| Header<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

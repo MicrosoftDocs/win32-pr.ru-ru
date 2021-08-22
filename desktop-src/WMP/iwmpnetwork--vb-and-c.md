@@ -3,8 +3,8 @@ title: Интерфейс Ивмпнетворк (VB и C) (WMP. h)
 description: Предоставляет свойства и методы для доступа к статистике, связанной с качеством сетевого подключения, а также для указания и получения параметров прокси-сервера сети. Интерфейс Ивмпнетворк предоставляет следующие свойства.
 ms.assetid: d385510f-11cf-4a2a-96be-b416cddc3d80
 keywords:
-- Ивмпнетворк (VB и C) интерфейс проигрывателя Windows Media
-- Ивмпнетворк (VB и C) интерфейс проигрывателя Windows Media, описание
+- проигрыватель Windows Media интерфейса ивмпнетворк (VB и C)
+- проигрыватель Windows Media интерфейса ивмпнетворк (VB и C), описание
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 301fe5c89d2eb5df3dd4c22927e75a5607e7abd0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 93110b25bd7d194c4f1d7c213228512fd8bc6000df15b726e3f32a6e6e79a62a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105688789"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119572454"
 ---
 # <a name="iwmpnetwork-vb-and-c-interface"></a>Интерфейс Ивмпнетворк (VB и C#)
 
@@ -99,21 +99,21 @@ ms.locfileid: "105688789"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>WMP. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>WMP. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[**Интерфейсы для Visual Basic .NET и C #**](interfaces-for-visual-basic--net-and-c.md)
+[**интерфейсы для Visual Basic .net и C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> </dl>
 
  

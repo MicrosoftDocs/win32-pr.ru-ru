@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 9efedc6011cb63b6465fd2d3ced4a7807c09f4da
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: 37bc9709effeb865651ca920a155094946b88753586174ecf6e1ab06eabd2fd0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112010877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119489414"
 ---
 # <a name="ps_2_x"></a>PS \_ 2 \_ x
 
@@ -27,7 +27,7 @@ ms.locfileid: "112010877"
 -   [Модификаторы исходного регистра Pixel Shader](dx9-graphics-reference-asm-ps-registers-modifiers-source.md) изменяют данные исходной регистрации перед выполнением инструкции.
 -   [Исходный регистр группирующие](dx9-graphics-reference-asm-ps-registers-modifiers-source-register-swizzling.md) обеспечивает дополнительный контроль над тем, какие компоненты регистрации считываются, копируются или записываются.
 
-## <a name="dynamic-flow-control"></a>Динамическое управление потоком
+## <a name="dynamic-flow-control"></a>динамический Flow элемент управления
 
 [**Динамикфловконтролдепс**](/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dpshadercaps2_0) представляет глубину вложения динамических инструкций по управлению потоком: [Если](if-bool---ps.md), если задано [значение \_](if-pred---ps.md) [, if, \_](if-comp---ps.md)то if [-PS](break---ps.md)или [break- \_ PS](break-comp---ps.md). Значение равно глубине вложения \_ блока if. Если это ограничение равно нулю, устройство не поддерживает инструкции динамического управления потоком.
 
@@ -35,7 +35,7 @@ ms.locfileid: "112010877"
 
 Количество временных регистров, поддерживаемое устройством. Диапазон — от 12 до 32.
 
-## <a name="static-flow-control-nesting-depth"></a>Глубина вложения статического управления потоком
+## <a name="static-flow-control-nesting-depth"></a>глубина вложения статического элемента управления Flow
 
 [**Статикфловконтролдепс**](/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dpshadercaps2_0) представляет глубину вложения двух типов статических инструкций по управлению потоком: « [цикл](loop---ps.md)  / [](rep---ps.md) » и « [вызов](call---ps.md)  / [каллнз](callnz-bool---ps.md)». инструкции цикла/REP могут быть вложены до **статикфловконтролдепс** Deep. По отдельности, инструкции Call/каллнз можно вложить в **статикфловконтролдепс** глубину.
 

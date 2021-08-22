@@ -1,6 +1,6 @@
 ---
 title: Имсрдпклиентсекуредсеттингс Кэйбоардхукмоде, свойство
-description: Задает параметры перенаправления клавиатуры, определяющие способ и время применения сочетания клавиш Windows (например, ALT + TAB).
+description: задает параметры перенаправления клавиатуры, определяющие способ и время применения Windows сочетания клавиш (например, ALT + TAB).
 ms.assetid: 16734580-9be9-476b-b8e7-1eca3ba24d61
 ms.tgt_platform: multiple
 keywords:
@@ -19,16 +19,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 948069b689d8799a98805148017a204b719d7645
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a291eeb26f8011440b8629ed46e1bb12c8b9cfb7adb937d33f80afe60a4d5cd7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415169"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119657594"
 ---
 # <a name="imsrdpclientsecuredsettingskeyboardhookmode-property"></a>Свойство Имсрдпклиентсекуредсеттингс:: Кэйбоардхукмоде
 
-Задает параметры перенаправления клавиатуры, определяющие способ и время применения сочетания клавиш Windows (например, ALT + TAB).
+задает параметры перенаправления клавиатуры, определяющие способ и время применения Windows сочетания клавиш (например, ALT + TAB).
 
 Это свойство доступно для чтения и записи.
 
@@ -78,7 +78,7 @@ HRESULT get_KeyboardHookMode(
 
 При успешном выполнении возвращает значение **\_ ОК** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эти свойства не могут быть заданы при соединении элемента управления.
 
@@ -86,7 +86,7 @@ HRESULT get_KeyboardHookMode(
 
 Дополнительные сведения о веб-подключение к удаленному рабочему столу см. в разделе [требования для веб-подключение к удаленному рабочему столу](requirements-for-remote-desktop-web-connection.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -100,7 +100,7 @@ HRESULT get_KeyboardHookMode(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

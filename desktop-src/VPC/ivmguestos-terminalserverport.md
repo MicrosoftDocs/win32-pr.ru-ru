@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e64415057eeeb91bfb85b664f5cbb44a66546005
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4b5b9eea5c545613f05dbd828a9436175fab6bfc5a05ba2fe5f59588f78da913
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119512164"
 ---
 # <a name="ivmguestosterminalserverport-property"></a>Свойство Ивмгуестос:: Терминалсерверпорт
 
-\[Windows Virtual PC больше не доступна для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC больше не доступен для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Порт, используемый службы удаленных рабочих столов (ранее назывался службами терминалов) в гостевой операционной системе.
 
@@ -74,19 +74,19 @@ HRESULT get_TerminalServerPort(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значение этого свойства является недопустимым, если свойство [**терминалсервицесинитиализед**](ivmguestos-terminalservicesinitialized.md) не имеет значение **Variant \_ true**.
 
 Если свойство [**терминалсервицесинитиализед**](ivmguestos-terminalservicesinitialized.md) имеет значение **Variant \_ false** из-за ошибки соединения в порте, то значение, возвращаемое свойством **терминалсерверпорт** , содержит ошибку.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                 |
 | Окончание поддержки клиента<br/>    | Windows 7<br/>                                                                      |
 | IDL<br/>                      | <dl> <dt>Ивмгуестос. idl</dt> </dl> |
@@ -94,7 +94,7 @@ HRESULT get_TerminalServerPort(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9math.h
-ms.openlocfilehash: 29d6743f0c0c365911ebbbba66cb4d44f10792e7
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 49b5d91f9ed87e3af218db9a72db9a7d196c98202e5e4381bc0838c26f2e9859
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108097582"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119675884"
 ---
 # <a name="d3dxvector3-structure-d3dx9mathh"></a>Структура D3DXVECTOR3 (D3dx9math. h)
 
@@ -63,7 +63,7 @@ typedef struct D3DXVECTOR3 {
 
 </dd> <dt>
 
-**z**
+**гармошкой**
 </dt> <dd>
 
 Тип: **[ **float**](../winprog/windows-data-types.md)**
@@ -151,13 +151,13 @@ public:
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx9math. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx9math. h</dt> </dl> |
 
 
 

@@ -15,12 +15,12 @@ keywords:
 - конец монопольного доступа (ЕОКС)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15778fc8a1a48c34b69915aafb7e3139153b5882
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 46c0073d9fc016e21e401e4cb2e7c28b4fd1aa5e3180801975df4e334243b953
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104336876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119689264"
 ---
 # <a name="resetting-midi-output"></a>Сброс выходных данных MIDI
 
@@ -29,8 +29,8 @@ ms.locfileid: "104336876"
 > [!Note]  
 > Завершение безсистемного сообщения без отправки ЕОКС (исключающий) байт может привести к проблемам с принимающим устройством. Функция **мидиаутресет** не ОТПРАВЛЯЕТ байт еокс, когда он завершает сообщение, исключающий систему, потому что приложения отвечают за это.
 
- 
+ 
 
- 
+ 
 
- 
+ 

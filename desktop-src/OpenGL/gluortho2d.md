@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1bf07fea583c5ae46680d888f6bf6c0a9c5aa9a0
-ms.sourcegitcommit: 88049609e29f91a42442235885abf56f598b06b3
+ms.openlocfilehash: b4a2f0d5fad1a2efb0df0c802dbb2cf51b54ff3e43402c3143bad982009f4f95
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110153557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119488864"
 ---
 # <a name="gluortho2d-function"></a>Функция gluOrtho2D
 
@@ -43,7 +43,7 @@ void WINAPI gluOrtho2D(
 
 <dl> <dt>
 
-*Левое* 
+*слева* 
 </dt> <dd>
 
 Координата для левой вертикальной плоскости обрезки.
@@ -79,7 +79,7 @@ void WINAPI gluOrtho2D(
 
 Функция **gluOrtho2D** устанавливает двухмерную ортогональную область просмотра. Это эквивалентно вызову [**глорсо**](glortho.md) с знеар =-1 и зфар = 1.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -4,12 +4,12 @@ description: Этот раздел содержит код, связанный �
 ms.assetid: 73678045-1518-46cd-ab55-5d272852ba73
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f9e4f42f908bc2ee63cfa273a5251b0bd8d9bf86
-ms.sourcegitcommit: b01ad017c152c6756f3638623fe335877644d414
+ms.openlocfilehash: 78f1186f923a1b882087f9db4ce6afdc467e074d8dafe90008ae6eeff8719a15
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "111549876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119599704"
 ---
 # <a name="using-resources"></a>Использование ресурсов
 

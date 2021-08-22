@@ -16,12 +16,12 @@ api_type:
 ms.topic: reference
 ms.date: 01/18/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 74113fca944e79e9ecba8f822f73769775631821
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 99ed42acb94f260e229abfe9df428aaa61d3658cb887892b84bb73fd6e7e63e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105713397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119635724"
 ---
 # <a name="ideliveryoptimizationfile2setproperty-method"></a>Метод IDeliveryOptimizationFile2:: SetProperty
 
@@ -60,22 +60,22 @@ HRESULT SetProperty(
 
 | Код возврата                  | Описание                                                        |
 |------------------------------|--------------------------------------------------------------------|
-| **S_OK**                     | Успешно                                                            |
+| **S_OK**                     | Success                                                            |
 | **DO_E_UNKNOWN_PROPERTY_ID** | Неизвестный идентификатор свойства                                                |
 | **DO_E_INVALID_STATE**       | Задание в настоящее время не находится в состоянии, допускающем установку свойства |
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Значение |
 |---------------------------|----------------------------------------------------------------------------------|
-| Минимальная версия клиента  | \[Только для настольных приложений Windows 10 версии 1803\]                                   |
-| Минимальная версия сервера  | \[Только для настольных приложений Windows Server версии 1709\]                               |
-| Header                    | Deliveryoptimization. h                                                           |
+| Минимальная версия клиента  | Windows 10, только для \[ настольных приложений версии 1803\]                                   |
+| Минимальная версия сервера  | Windows Server, только для \[ настольных приложений версии 1709\]                               |
+| Заголовок                    | Deliveryoptimization. h                                                           |
 | IDL                       | DeliveryOptimization. idl                                                         |
 | Библиотека                   | Досвк. lib                                                                        |
 | DLL                       | Dosvc.dll                                                                        |
 | IID                       | IID_IDeliveryOptimizationJob2 определен как 18995A26-BF59-4ABE-9F8B-D5092D5A2405 |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 [**IDeliveryOptimizationFile2**](ideliveryoptimizationfile2.md)

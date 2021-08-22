@@ -1,6 +1,6 @@
 ---
-title: Коды ошибок анимации Windows (Winerror. h)
-description: При возникновении ошибки анимация Windows возвращает код в виде значения HRESULT. В этом разделе содержится список кодов ошибок, относящихся к анимации Windows. Список общих кодов ошибок COM см. в разделе Коды ошибок COM.
+title: Windows Коды ошибок анимации (Winerror. h)
+description: при возникновении ошибки Windows анимация возвращает код в виде значения HRESULT. в этом разделе содержится список кодов ошибок, связанных с Windows анимацией. Список общих кодов ошибок COM см. в разделе Коды ошибок COM.
 ms.assetid: 38f15d61-d415-4c7d-b454-5144fc7c9b1e
 topic_type:
 - apiref
@@ -33,16 +33,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cb7c63066690b15ec8fad8ef5b9f74ed5cf2fbc5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 44d725874de9c511558cef6ebbe8652905a7f5dac6372230385eaa3253ba3454
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105691814"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119513664"
 ---
-# <a name="windows-animation-error-codes"></a>Коды ошибок анимации Windows
+# <a name="windows-animation-error-codes"></a>Windows Коды ошибок анимации
 
-При возникновении ошибки анимация Windows возвращает код в виде значения **HRESULT** . В этом разделе содержится список кодов ошибок, относящихся к анимации Windows. Список общих кодов ошибок COM см. в разделе [коды ошибок COM](/windows/desktop/com/com-error-codes).
+при возникновении ошибки Windows анимация возвращает код в виде значения **HRESULT** . в этом разделе содержится список кодов ошибок, связанных с Windows анимацией. Список общих кодов ошибок COM см. в разделе [коды ошибок COM](/windows/desktop/com/com-error-codes).
 
 <dl> <dt>
 
@@ -337,7 +337,7 @@ ms.locfileid: "105691814"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -345,15 +345,15 @@ ms.locfileid: "105691814"
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 7, Windows Vista и обновление платформы \[ только для настольных приложений Windows Vista\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                       |
-| Header<br/>                   | <dl> <dt>Winerror. h</dt> </dl>           |
+| Заголовок<br/>                   | <dl> <dt>Winerror. h</dt> </dl>           |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[Справочник по анимации Windows](windows-animation-reference.md)
+[Windows Справочник по анимации](windows-animation-reference.md)
 </dt> </dl>
 
  

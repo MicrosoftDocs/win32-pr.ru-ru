@@ -43,7 +43,7 @@ HRESULT get_Icons(
 
 Перечисляемая коллекция указателей интерфейса [**идевицеикон**](/previous-versions/windows/desktop/api/windows.media.streaming/nn-windows-media-streaming-ideviceicon) .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

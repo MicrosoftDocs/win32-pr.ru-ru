@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: bbf24d28179c4bf0d58d5a3fbdad602e1d2cf195
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d56fafd5a974a3e1aeb6405c7119743bc1247c9888176cad5cb4a4608fdd08c6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999438"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119559424"
 ---
 # <a name="vistacoltypguid-field"></a>Вистаколтип. GUID, поле
 
@@ -53,7 +53,7 @@ value = VistaColtyp.GUID
 public const JET_coltyp GUID
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

@@ -1,6 +1,6 @@
 ---
 title: Использование объекта Active Desktop
-description: Эта статья содержит сведения об объекте Активедесктоп, который является частью API оболочки Windows. Этот объект через его интерфейс Иактиведесктоп позволяет добавлять, удалять и изменять элементы на рабочем столе.
+description: эта статья содержит сведения об объекте активедесктоп, который входит в состав API оболочки Windows. Этот объект через его интерфейс Иактиведесктоп позволяет добавлять, удалять и изменять элементы на рабочем столе.
 ms.assetid: 68d72b0f-f5e9-4fff-bb13-4c60d1dd7009
 keywords:
 - Объект Активедесктоп
@@ -8,18 +8,18 @@ keywords:
 - Перечисление, элементы рабочего стола
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7e61a4a9145386fc4c84a454aa79558b8d5df79
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: e6daf1b5fbc73286619f07c8af76fbbce53bcaa8962cc88cf20f5af74bbdec82
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104487565"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119610664"
 ---
 # <a name="using-the-active-desktop-object"></a>Использование объекта Active Desktop
 
-\[Эта функция поддерживается только в Windows XP и более ранних версиях. \]
+\[эта функция поддерживается только в Windows XP и более ранних версиях. \]
 
-Эта статья содержит сведения об объекте **активедесктоп** , который является частью API оболочки Windows. Этот объект через его интерфейс [**иактиведесктоп**](/windows/win32/api/shlobj_core/nn-shlobj_core-iactivedesktop) позволяет добавлять, удалять и изменять элементы на рабочем столе.
+эта статья содержит сведения об объекте **активедесктоп** , который входит в состав API оболочки Windows. Этот объект через его интерфейс [**иактиведесктоп**](/windows/win32/api/shlobj_core/nn-shlobj_core-iactivedesktop) позволяет добавлять, удалять и изменять элементы на рабочем столе.
 
 ## <a name="overview-of-the-active-desktop-interface"></a>Общие сведения о интерфейсе Active Desktop
 
@@ -27,7 +27,7 @@ ms.locfileid: "104487565"
 -   [Добавление элемента рабочего стола](#adding-a-desktop-item)
 -   [Перечисление элементов рабочего стола](#enumerating-the-desktop-items)
 
-Активный рабочий стол — это функция, появившаяся в Microsoft Internet Explorer 4,0, которая позволяет включать HTML-документы и элементы (например, элементы управления Microsoft ActiveX и Java) непосредственно на Рабочий стол. Интерфейс [**иактиведесктоп**](/windows/win32/api/shlobj_core/nn-shlobj_core-iactivedesktop) , который является частью API оболочки Windows, используется для программного добавления, удаления и изменения элементов на рабочем столе. Элементы Active Desktop также можно добавить с помощью файла формата определения канала (CDF).
+Active Desktop — это функция, появившаяся в Microsoft Internet Explorer 4,0, позволяющая включать HTML-документы и элементы (например, элементы управления Microsoft ActiveX и java-приложения) непосредственно на рабочий стол. интерфейс [**иактиведесктоп**](/windows/win32/api/shlobj_core/nn-shlobj_core-iactivedesktop) , который является частью API оболочки Windows, используется для программного добавления, удаления и изменения элементов на рабочем столе. Элементы Active Desktop также можно добавить с помощью файла формата определения канала (CDF).
 
 ### <a name="accessing-the-active-desktop"></a>Доступ к активному рабочему столу
 
@@ -128,6 +128,6 @@ pActiveDesktop->Release();
 
 
 
- 
+ 
 
- 
+ 

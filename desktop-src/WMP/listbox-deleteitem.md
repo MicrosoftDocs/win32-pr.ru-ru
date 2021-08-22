@@ -3,7 +3,7 @@ title: LISTBOX. deleteItem
 description: Метод deleteItem удаляет элемент управления "список" по указанному индексу.
 ms.assetid: b7ed38b7-8495-426f-b799-e62cd149b397
 keywords:
-- Проигрыватель Windows Media LISTBOX. deleteItem
+- проигрыватель Windows Media LISTBOX. deleteItem
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 45f4df09c608500e9a618b310b6296febaf073c4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: caa0a8aa74536692f188df4117a41c69af8ead4c510f315125ac0100e690fb1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694985"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054782"
 ---
 # <a name="listboxdeleteitem"></a>LISTBOX. deleteItem
 
@@ -43,21 +43,21 @@ ms.locfileid: "105694985"
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Строки под удаленной строкой будут перемещаться вверх на одно значение индекса.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
