@@ -40,12 +40,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ad43dcecf65fdc9fb8dd53bdf686a077e6bdfa8a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0b2af9bfd69f81b518eba42f435a457c9baaa0d0ce8ddbac1424b997329a3ef0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119832684"
 ---
 # <a name="jet_tblinfo-enumeration"></a>Перечисление JET_TblInfo
 
@@ -80,7 +80,7 @@ public enum JET_TblInfo
 <tbody>
 <tr class="odd">
 <td></td>
-<td>Значение по умолчанию</td>
+<td>По умолчанию</td>
 <td>Параметр по умолчанию. Извлекает <a href="dn335219(v=exchg.10).md">JET_OBJECTINFO</a> , содержащий сведения о таблице. Используйте этот параметр с <a href="dn292198(v=exchg.10).md">жетжеттаблеинфо (JET_SESID, JET_TABLEID, JET_OBJECTINFO, JET_TblInfo)</a>.</td>
 </tr>
 <tr class="even">
@@ -122,7 +122,7 @@ public enum JET_TblInfo
 </table>
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

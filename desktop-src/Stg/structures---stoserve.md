@@ -4,12 +4,12 @@ description: Собумага упаковывает цвет, ширину и �
 ms.assetid: 25e68c39-5306-4ad6-85dd-a8a5e256abf0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a9868f38d7915185b8d3511bd1bf6faa9c7a1e1b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3f81b46f2f0a992f27ed405361734fe53db98cf9272697b88866451ef1d7d4b4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119796894"
 ---
 # <a name="structures---stoserve"></a>Структуры — Стосерве
 
@@ -74,9 +74,9 @@ ms.locfileid: "103986376"
 
 Даты создания и даты последнего изменения не включены в эти свойства бумаги, так как интерфейс [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) , используемый для доступа к составным файлам, управляет этими сведениями.
 
- 
+ 
 
- 
+ 
 
 
 

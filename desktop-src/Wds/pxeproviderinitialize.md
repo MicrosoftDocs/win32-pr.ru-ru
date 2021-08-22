@@ -3,7 +3,7 @@ title: Функция обратного вызова Пксепровидери
 description: Экспорт из библиотеки динамической компоновки (DLL) поставщика, которая инициализирует поставщик и подготавливает его для получения запросов клиентов.
 ms.assetid: 433b051c-9fde-4589-92e2-58d3774826ac
 keywords:
-- Функция обратного вызова Пксепровидеринитиализе службы развертывания Windows
+- функция обратного вызова пксепровидеринитиализе Windows службах развертывания
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2b8d8fed4c1cc91c2090b957894b4f6641adad32
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6eb7ba32049dc3ef70085a489b499d90b92ec6155323b650df0e2b2f839bbdf9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105701091"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098664"
 ---
 # <a name="pxeproviderinitialize-callback-function"></a>Функция обратного вызова Пксепровидеринитиализе
 
@@ -58,22 +58,22 @@ DWORD PXEAPI PxeProviderInitialize(
 
 Если инициализация поставщика завершается успешно, обратный вызов должен возвращать **ошибку \_ Success**. В случае сбоя должен возвращаться соответствующий код ошибки.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Ни одна версия не поддерживается<br/>                                                          |
-| Минимальная версия сервера<br/> | Windows Server 2008, Windows Server 2003 с пакетом обновления 2 (SP2), \[ только классические приложения\]<br/> |
+| Минимальная версия сервера<br/> | Windows сервер 2008, Windows server 2003 с пакетом обновления 2 (SP2), \[ только классические приложения\]<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[Функции сервера служб развертывания Windows](windows-deployment-services-server-functions.md)
+[Windows Функции сервера служб развертывания](windows-deployment-services-server-functions.md)
 </dt> <dt>
 
 [*пксепровидершутдовн*](pxeprovidershutdown.md)

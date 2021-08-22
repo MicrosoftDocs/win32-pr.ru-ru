@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b8d80c55b3182ec930732344cb7857f99c0dc411
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e633b663e9c4b35810585a2ac738c79ae2d39be06d7b91be0df75fd0455a5213
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105676016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028514"
 ---
 # <a name="rasadminportgetinfo-function"></a>Функция Расадминпортжетинфо
 
-\[Эта функция предоставляется только для обеспечения обратной совместимости с Windows NT Server 4,0. Он возвращает \_ вызов ошибки \_ \_ , не реализованный в Windows Server 2003. Приложения должны использовать функцию [**мпрадминпортжетинфо**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminportgetinfo) .\]
+\[эта функция предоставляется только для обеспечения обратной совместимости с Windows NT Server 4,0. он возвращает \_ вызов ошибки \_ \_ , не реализованный на сервере Windows 2003. Приложения должны использовать функцию [**мпрадминпортжетинфо**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminportgetinfo) .\]
 
 Функция **расадминпортжетинфо** извлекает сведения об указанном порте на указанном сервере.
 
@@ -100,7 +100,7 @@ DWORD RasAdminPortGetInfo(
 
 Расширенные сведения об ошибке для этой функции отсутствуют. не вызывайте [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -108,13 +108,13 @@ DWORD RasAdminPortGetInfo(
 |----------------------------------|----------------------------------------------------------------------------------------|
 | Окончание поддержки клиента<br/> | Windows 2000 Professional<br/>                                                   |
 | Поддержка конца сервера<br/> | Windows 2000 Server<br/>                                                         |
-| Header<br/>                | <dl> <dt>Рассапи. h</dt> </dl>   |
+| Заголовок<br/>                | <dl> <dt>Рассапи. h</dt> </dl>   |
 | Библиотека<br/>               | <dl> <dt>Рассапи. lib</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Rassapi.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

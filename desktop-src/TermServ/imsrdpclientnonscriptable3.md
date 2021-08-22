@@ -1,6 +1,6 @@
 ---
 title: Интерфейс IMsRdpClientNonScriptable3
-description: Предоставляет доступ к необрабатываемым свойствам удаленного сеанса клиента на удаленный рабочий стол элементе управления ActiveX. Является производным от интерфейса IMsRdpClientNonScriptable2.
+description: предоставляет доступ к необрабатываемым свойствам удаленного сеанса клиента на удаленный рабочий стол элементе управления ActiveX. Является производным от интерфейса IMsRdpClientNonScriptable2.
 ms.assetid: 40cfcd8e-5dd7-497d-8c57-da1f542136b8
 ms.tgt_platform: multiple
 keywords:
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c456393ee00c06bcd16135a7fbc73b0f1686259f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f65756224134392629a11cc0bbe2ef35f8d687cc
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988860"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474560"
 ---
 # <a name="imsrdpclientnonscriptable3-interface"></a>Интерфейс IMsRdpClientNonScriptable3
 
-Предоставляет доступ к необрабатываемым свойствам удаленного сеанса клиента на удаленный рабочий стол элементе управления ActiveX. Является производным от интерфейса [**IMsRdpClientNonScriptable2**](imsrdpclientnonscriptable2.md) . Доступ к методам этого интерфейса возможен только через таблицу vtable; они недоступны для использования в сценариях клиентов.
+предоставляет доступ к необрабатываемым свойствам удаленного сеанса клиента на удаленный рабочий стол элементе управления ActiveX. Является производным от интерфейса [**IMsRdpClientNonScriptable2**](imsrdpclientnonscriptable2.md) . Доступ к методам этого интерфейса возможен только через таблицу vtable; они недоступны для использования в сценариях клиентов.
 
 ## <a name="members"></a>Элементы
 
@@ -33,88 +33,27 @@ ms.locfileid: "103988860"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Интерфейс **IMsRdpClientNonScriptable3** имеет следующие свойства.
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Свойство</th>
-<th style="text-align: left;">Тип доступа</th>
-<th style="text-align: left;">Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-connectionbartext.md"><strong>коннектионбартекст</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Текстовая строка, отображаемая для панели подключения.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-devicecollection.md"><strong>Описания</strong></a><br/></td>
-<td style="text-align: left;">Только для чтения<br/></td>
-<td style="text-align: left;">Коллекция устройств PnP, доступных для перенаправления.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-drivecollection.md"><strong>дривеколлектион</strong></a><br/></td>
-<td style="text-align: left;">Только для чтения<br/></td>
-<td style="text-align: left;">Коллекция дисков, доступная для перенаправления.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-enablecredsspsupport.md"><strong>енаблекредсспсуппорт</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Указывает, включен ли CredSSP для этого соединения.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-negotiatesecuritylayer.md"><strong>неготиатесекуритилайер</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Указывает, поддерживается ли параметр Неготиатесекуритилайер для этого соединения.<br/>
-<blockquote>
-[!Note]<br />
-Если <a href="imsrdpclientnonscriptable3-enablecredsspsupport.md"><strong>кредсспсуппорт</strong></a> включен и находится на клиенте или если SSL (SSL) включен с проверкой подлинности пользователя, неготиатесекуритилайер игнорируется.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-promptforcredentials.md"><strong>промптфоркредентиалс</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Указывает, следует ли отображать диалоговое окно Запрос учетных данных.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-redirectdynamicdevices.md"><strong>редиректдинамикдевицес</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Указывает, доступны ли для перенаправления динамически подключаемые устройства PnP, перечисленные в сеансе.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-redirectdynamicdrives.md"><strong>редиректдинамикдривес</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Указывает, доступны ли для перенаправления динамически подключаемые диски PnP, перечисленные в сеансе.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-showredirectionwarningdialog.md"><strong>шовредиректионварнингдиалог</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Указывает, следует ли отображать диалоговое окно предупреждения безопасности перенаправления перед запуском сеанса.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-warnaboutclipboardredirection.md"><strong>варнабаутклипбоардредиректион</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Указывает, должно ли диалоговое окно "предупреждение системы безопасности" включать предупреждение о перенаправлении буфера обмена перед запуском сеанса.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-warnaboutsendingcredentials.md"><strong>варнабаутсендингкредентиалс</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Указывает, должно ли предупреждение безопасности включать предупреждение об отправке учетных данных на удаленный сервер перед запуском сеанса.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Свойство | Тип доступа | Описание | 
+|----------|-------------|-------------|
+| <a href="imsrdpclientnonscriptable3-connectionbartext.md"><strong>коннектионбартекст</strong></a><br /> | Чтение/запись<br /> | Текстовая строка, отображаемая для панели подключения.<br /> | 
+| <a href="imsrdpclientnonscriptable3-devicecollection.md"><strong>Описания</strong></a><br /> | Только для чтения<br /> | Коллекция устройств PnP, доступных для перенаправления.<br /> | 
+| <a href="imsrdpclientnonscriptable3-drivecollection.md"><strong>дривеколлектион</strong></a><br /> | Только для чтения<br /> | Коллекция дисков, доступная для перенаправления.<br /> | 
+| <a href="imsrdpclientnonscriptable3-enablecredsspsupport.md"><strong>енаблекредсспсуппорт</strong></a><br /> | Чтение/запись<br /> | Указывает, включен ли CredSSP для этого соединения.<br /> | 
+| <a href="imsrdpclientnonscriptable3-negotiatesecuritylayer.md"><strong>неготиатесекуритилайер</strong></a><br /> | Чтение/запись<br /> | Указывает, поддерживается ли параметр Неготиатесекуритилайер для этого соединения.<br /><blockquote>[!Note]<br />Если <a href="imsrdpclientnonscriptable3-enablecredsspsupport.md"><strong>кредсспсуппорт</strong></a> включен и находится на клиенте или если SSL (SSL) включен с проверкой подлинности пользователя, неготиатесекуритилайер игнорируется.</blockquote><br /> | 
+| <a href="imsrdpclientnonscriptable3-promptforcredentials.md"><strong>промптфоркредентиалс</strong></a><br /> | Чтение/запись<br /> | Указывает, следует ли отображать диалоговое окно Запрос учетных данных.<br /> | 
+| <a href="imsrdpclientnonscriptable3-redirectdynamicdevices.md"><strong>редиректдинамикдевицес</strong></a><br /> | Чтение/запись<br /> | Указывает, доступны ли для перенаправления динамически подключаемые устройства PnP, перечисленные в сеансе.<br /> | 
+| <a href="imsrdpclientnonscriptable3-redirectdynamicdrives.md"><strong>редиректдинамикдривес</strong></a><br /> | Чтение/запись<br /> | Указывает, доступны ли для перенаправления динамически подключаемые диски PnP, перечисленные в сеансе.<br /> | 
+| <a href="imsrdpclientnonscriptable3-showredirectionwarningdialog.md"><strong>шовредиректионварнингдиалог</strong></a><br /> | Чтение/запись<br /> | Указывает, следует ли отображать диалоговое окно предупреждения безопасности перенаправления перед запуском сеанса.<br /> | 
+| <a href="imsrdpclientnonscriptable3-warnaboutclipboardredirection.md"><strong>варнабаутклипбоардредиректион</strong></a><br /> | Чтение/запись<br /> | Указывает, должно ли диалоговое окно "предупреждение системы безопасности" включать предупреждение о перенаправлении буфера обмена перед запуском сеанса.<br /> | 
+| <a href="imsrdpclientnonscriptable3-warnaboutsendingcredentials.md"><strong>варнабаутсендингкредентиалс</strong></a><br /> | Чтение/запись<br /> | Указывает, должно ли предупреждение безопасности включать предупреждение об отправке учетных данных на удаленный сервер перед запуском сеанса.<br /> | 
+
 
 
 
@@ -135,7 +74,7 @@ ms.locfileid: "103988860"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

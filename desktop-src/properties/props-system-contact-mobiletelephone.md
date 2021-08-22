@@ -4,12 +4,12 @@ ms.assetid: 2c4536e2-ce2a-4246-89a3-b721ef8a831c
 title: System. Contact. Мобилетелефоне
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 365126b154df34b04bba282ced0e98354cc297f9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ba913114696a399276f41e8b279e56f6260bbf8db26bb0f5c7d07b9eb7852f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119946614"
 ---
 # <a name="systemcontactmobiletelephone"></a>System. Contact. Мобилетелефоне
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

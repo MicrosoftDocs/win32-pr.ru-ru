@@ -1,11 +1,11 @@
 ---
-title: Атрибут кодировки MS-SQL
+title: атрибут кодировки MS-SQL
 description: Кодировка для текущего экземпляра SQL Server.
 ms.assetid: 5c45058f-e883-455c-8e18-415ddae149f8
 ms.tgt_platform: multiple
 keywords:
-- Схема AD для атрибута кодировки MS-SQL
-- Схема AD для атрибута кодировки mS-SQL
+- схема AD атрибута кодировки MS-SQL
+- схема AD атрибута кодировки mS-SQL
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f2f3718c9e47393498e42c4091283ea768d5072
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 52754f476652e342c29f76763e2dd0788e1374e165957cadebecc100ed7030a4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103893910"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119300004"
 ---
-# <a name="ms-sql-characterset-attribute"></a>Атрибут кодировки MS-SQL
+# <a name="ms-sql-characterset-attribute"></a>атрибут кодировки MS-SQL
 
 Кодировка для текущего экземпляра SQL Server.
 
@@ -29,8 +29,8 @@ ms.locfileid: "103893910"
 
 | Ввод | Значение |
 |-------------------|--------------------------------------|
-| CN                | Кодировка MS-SQL                  |
-| LDAP-отображаемое имя | Кодировка mS-SQL                  |
+| CN                | MS-SQL-character                  |
+| LDAP-отображаемое имя | mS-SQL-character                  |
 | Размер              | \-                                   |
 | Привилегия обновления  | Это значение задается системой.     |
 | Частота обновления  | При запуске системы.                   |

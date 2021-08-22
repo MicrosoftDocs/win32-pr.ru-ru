@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: c02a6725f588aaa4c7d72c48d03d921503d4e6a6
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 15cae4986b7dc109c08011d2cc23e1b6133de9e5
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105701125"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625190"
 ---
 # <a name="span-idvspixenginepixelhistoryoperationspanpixelhistoryoperation-structure"></a><span id="vspixengine.pixelhistoryoperation"></span>Структура Пикселхисторйоператион
 
@@ -35,7 +35,7 @@ ms.locfileid: "105701125"
 } PixelHistoryOperation;
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 
 **Аль**  
 Идентификатор события графики, связанного с этой операцией.
@@ -166,12 +166,12 @@ true, если пиксель имеет значение перекрыто; в
 **инпутлайаут**  
 Строка COM, содержащая последовательность структур Инпутлайаутструкт, связанных с вызовом Draw.
 
-**Состав**  
+**HResult**  
 Значение HRESULT для DirectX. В случае проблемы это может быть использовано для вывода ошибки.
 
 ## <a name="requirements"></a>Требования
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
 
  
 

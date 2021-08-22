@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fd5a00c7cf68feea13dc0e617e5fe2adb34551032c8ec54bda6e0810fbb092e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7524e51908f7d941aa04b138cc67ba6c4ab6a2a8
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118195174"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122479500"
 ---
 # <a name="wmt_videoimage_transition_star"></a>ВМТ \_ видеоимаже \_ 1-2-3 \_
 
@@ -31,46 +31,14 @@ ms.locfileid: "118195174"
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Параметр</th>
-<th>Член структуры</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Центр по оси X</td>
-<td><strong>fEffectPara0</strong></td>
-<td>Координата по оси X относительно видеокадра центра звезды.</td>
-</tr>
-<tr class="even">
-<td>Центр по оси Y</td>
-<td><strong>fEffectPara1</strong></td>
-<td>Координата по оси Y относительно видеокадра центра звезды.</td>
-</tr>
-<tr class="odd">
-<td>Радиус.</td>
-<td><strong>fEffectPara2</strong></td>
-<td>Радиус (в пикселях) круга, определяемый точками звезды.</td>
-</tr>
-<tr class="even">
-<td>Композиция</td>
-<td><strong>fEffectPara3</strong></td>
-<td>Задайте одно из следующих значений:
-<ul>
-<li>0 — задает нормальную композицию, в которой предыдущее изображение является фоном, а текущее изображение — передним планом.</li>
-<li>1 — задает обратную композицию, в которой текущий рисунок является фоновым изображением, а предыдущее изображение — передний план.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Параметр | Член структуры | Описание | 
+|-----------|------------------|-------------|
+| Центр по оси X | <strong>fEffectPara0</strong> | Координата по оси X относительно видеокадра центра звезды. | 
+| Центр по оси Y | <strong>fEffectPara1</strong> | Координата по оси Y относительно видеокадра центра звезды. | 
+| Радиус. | <strong>fEffectPara2</strong> | Радиус (в пикселях) круга, определяемый точками звезды. | 
+| Композиция | <strong>fEffectPara3</strong> | Задайте одно из следующих значений:<ul><li>0 — задает нормальную композицию, в которой предыдущее изображение является фоном, а текущее изображение — передним планом.</li><li>1 — задает обратную композицию, в которой текущий рисунок является фоновым изображением, а предыдущее изображение — передний план.</li></ul> | 
+
 
 
 
@@ -86,7 +54,7 @@ ms.locfileid: "118195174"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

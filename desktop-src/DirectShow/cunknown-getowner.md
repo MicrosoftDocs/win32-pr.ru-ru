@@ -44,7 +44,7 @@ LPUNKNOWN GetOwner();
 
 Возвращает указатель на управляющий интерфейс **IUnknown** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

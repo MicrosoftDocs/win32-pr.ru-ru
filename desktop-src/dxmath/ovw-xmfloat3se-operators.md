@@ -4,12 +4,12 @@ ms.assetid: 5a802077-d90b-4fb1-9288-ea556b1b1318
 title: Операторы XMFLOAT3SE
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e0b425ecb8adf6f98985e4dfc33d3ec881e775ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b3b31a3e7cfb1f4889acd0f1f9e643be0131e2cd03ae46b2d3f72dea11a8a161
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692648"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119841624"
 ---
 # <a name="xmfloat3se-operators"></a>Операторы XMFLOAT3SE
 
@@ -33,7 +33,7 @@ ms.locfileid: "105692648"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: a0105aa8c0c8bc777ab97f751bdb7b2d819dcdb2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 62556e58f8574dc196655c8f11ca0f2bb0a670d7210aa100f96875e574a8b1b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263169"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967633"
 ---
 # <a name="flagtype-complex-type"></a>Сложный тип Флагтипе
 
@@ -27,13 +27,13 @@ ms.locfileid: "104263169"
 <xs:complexType name="FlagType" />
 ```
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/> |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                     |
 
 
