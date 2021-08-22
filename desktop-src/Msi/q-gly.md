@@ -1,17 +1,17 @@
 ---
-description: Сведения о установщик Windows концепциях, начинающихся с буквы Q, например квалифицированный компонент.
+description: сведения о установщик Windows концепциях, начинающихся с буквы Q, например квалифицированный компонент.
 ms.assetid: b3fb665e-9acf-414d-97c4-c69b81dd7309
-title: Вопрос (установщик Windows)
+title: вопрос (установщик Windows)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a75b4438be8ae6ce80204d8bc8d1c77568168de5
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: bd2e135facc7b6653fb05191841f7964cd7c78770b17527effabcdecc1a96b1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112011337"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119558144"
 ---
-# <a name="q-windows-installer"></a>Вопрос (установщик Windows)
+# <a name="q-windows-installer"></a>вопрос (установщик Windows)
 
 [A](a-gly.md) [B](b-gly.md) [C](c-gly.md) [D](d-gly.md) [E](e-gly.md) [F](f-gly.md) [G](g-gly.md) р [. J K](i-gly.md) L [M](m-gly.md) N [O](o-gly.md) [P](p-gly.md) Q [R](r-gly.md) [S](s-gly.md) [T](t-gly.md) [U](u-gly.md) [V](v-gly.md) W X Y Z
 

@@ -4,12 +4,12 @@ ms.assetid: ed78b7eb-bf15-4068-ab86-ae42a5e62096
 title: OPM_SET_ACP_AND_CGMSA_SIGNALING (Опмапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 02247c48b89e61d49afe7f8f6f3821da68ff050b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 265d2986c624e30d342a4b3bc5e957e04c56bd01d51e146536de5731db42ace8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104543858"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119343514"
 ---
 # <a name="opm_set_acp_and_cgmsa_signaling"></a>ОПМ \_ Установка \_ \_ сигнала ACP и \_ кгмса \_
 
@@ -26,7 +26,7 @@ ms.locfileid: "104543858"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта команда эквивалентна \_ команде дксва коппсетсигналинг, используемой в протоколе сертифицированной защиты выходных данных (Копп).
 
@@ -38,9 +38,9 @@ ms.locfileid: "104543858"
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                      |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                |
-| Header<br/>                   | <dl> <dt>Опмапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                      |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                |
+| Заголовок<br/>                   | <dl> <dt>Опмапи. h</dt> </dl> |
 
 
 

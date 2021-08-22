@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 293bb14dbaee0853aa1ef293502724458e02e26f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0c9d7a3653ad965141e691546866f599d8615f5f12feb92fa25c861d7c429b74
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262520"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119260604"
 ---
 # <a name="file_record_segment_header-structure"></a>\_ \_ Структура заголовка сегмента записи файла \_
 
@@ -70,7 +70,7 @@ typedef struct _FILE_RECORD_SEGMENT_HEADER {
 
 </dd> <dt>
 
-**Reserved2**
+**Зарезервировано 2**
 </dt> <dd>
 
 Зарезервировано.
@@ -125,7 +125,7 @@ typedef struct _FILE_RECORD_SEGMENT_HEADER {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обратите внимание, что для этой структуры нет связанного файла заголовка.
 

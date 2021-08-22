@@ -1,17 +1,17 @@
 ---
-title: Управление устройствами (мультимедиа Windows)
+title: управление устройством (Windows мультимедиа)
 description: Управление устройством
 ms.assetid: b4479803-f1da-4646-909e-c4ef412ebdcd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e0e0b59127d160cc44418fd4bce1f9f670d13de
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 6878e5e759f3eddb5e98d241d9a8d081005e3545dc2f0054b46630619eaa06fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104071001"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119497244"
 ---
-# <a name="device-control-windows-multimedia"></a>Управление устройствами (мультимедиа Windows)
+# <a name="device-control-windows-multimedia"></a>управление устройством (Windows мультимедиа)
 
 Для управления устройством MCI Откройте устройство, отправьте в него необходимые команды, а затем закройте устройство. Команды могут быть очень похожи, даже для совершенно разных устройств MCI. Например, приведенная ниже серия команд MCI выполняет шестой мониторинг звукового компакт-диска с помощью функции [**mciSendString**](/previous-versions//dd757161(v=vs.85)) :
 

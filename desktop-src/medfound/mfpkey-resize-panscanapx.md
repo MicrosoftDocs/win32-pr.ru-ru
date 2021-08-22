@@ -4,12 +4,12 @@ ms.assetid: 1aed8614-d856-4885-80fe-c3f2bf3304ad
 title: Свойство MFPKEY_RESIZE_PANSCANAPX (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 37a30f1bb97e1c21b651f975b43ad8bf871ff066
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22e127601764a9131a5dd494e3c8d6fddc2692106275ad5912bbfdd3b8026951
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119463224"
 ---
 # <a name="mfpkey_resize_panscanapx-property"></a>МФПКЭЙ \_ изменить размер \_ пансканапкс
 
@@ -23,11 +23,11 @@ ms.locfileid: "105711781"
 
 VT \_ I4
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [DSP изменения видеоконтроллеров](videoresizer.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значение является вещественным числом с фиксированной запятой. Целая часть числа хранится в более высоком 2 байтах, а дробная часть хранится в младших 2 байтах.
 
@@ -37,9 +37,9 @@ VT \_ I4
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
-| Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
+| Заголовок<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 

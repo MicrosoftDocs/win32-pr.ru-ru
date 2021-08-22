@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9xof.h
-ms.openlocfilehash: ee5dc27b551382a5fa5d1c7f4833c94b205e5521
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ddc105d3df7732e1572e41c3d9cb47a285caf69cba0a24f6ea65090706394592
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119564934"
 ---
 # <a name="d3dxf_fileloadresource-structure"></a>\_Структура ФИЛЕЛОАДРЕСАУРЦЕ D3DXF
 
@@ -74,21 +74,21 @@ typedef struct D3DXF_FILELOADRESOURCE {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта структура определяет ресурс для загрузки, когда приложение использует метод [**креатинумобжект**](id3dxfile--createenumobject.md) и задает флаг [D3DXF \_ филелоад \_ фромресаурце](d3dxf.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx9xof. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx9xof. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

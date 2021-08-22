@@ -1,11 +1,11 @@
 ---
-title: Атрибут MS-SQL-Алловснапшотфилесфтпдовнлоадинг
+title: атрибут MS-SQL-алловснапшотфилесфтпдовнлоадинг
 description: Значение true, если публикация позволяет скачивать файлы моментальных снимков с помощью FTP.
 ms.assetid: 227e1438-db8d-4e8f-b2dd-ffc6ef50e0d1
 ms.tgt_platform: multiple
 keywords:
-- Схема AD атрибута MS-SQL-Алловснапшотфилесфтпдовнлоадинг
-- Схема AD атрибута mS-SQL-Алловснапшотфилесфтпдовнлоадинг
+- схема AD атрибута алловснапшотфилесфтпдовнлоадинг MS-SQL-
+- схема AD атрибута алловснапшотфилесфтпдовнлоадинг mS-SQL-
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed32d824f4832294b3484da4e871303b31820878
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c4c0f78de1eee1b69b838feadcdbdf3e3390870332b0f53ceecfab3d365cb7e9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104139026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119300044"
 ---
-# <a name="ms-sql-allowsnapshotfilesftpdownloading-attribute"></a>Атрибут MS-SQL-Алловснапшотфилесфтпдовнлоадинг
+# <a name="ms-sql-allowsnapshotfilesftpdownloading-attribute"></a>атрибут MS-SQL-алловснапшотфилесфтпдовнлоадинг
 
 Значение true, если публикация позволяет скачивать файлы моментальных снимков с помощью FTP.
 
@@ -29,14 +29,14 @@ ms.locfileid: "104139026"
 
 | Ввод | Значение |
 |-------------------|-----------------------------------------|
-| CN                | MS-SQL-Алловснапшотфилесфтпдовнлоадинг |
-| LDAP-отображаемое имя | mS-SQL-Алловснапшотфилесфтпдовнлоадинг |
+| CN                | MS-SQL-алловснапшотфилесфтпдовнлоадинг |
+| LDAP-отображаемое имя | mS-SQL-алловснапшотфилесфтпдовнлоадинг |
 | Размер              | 4 байта                                 |
 | Привилегия обновления  | Это значение задается системой.        |
 | Частота обновления  | При установке репликации.              |
 | Attribute-Id      | 1.2.840.113556.1.4.1406                 |
 | System-ID — GUID    | c49b8be8-d34b-11d2-999a-0000f87a57d4    |
-| Синтаксис            | [**Логическая**](s-boolean.md)            |
+| Синтаксис            | [**Логическое**](s-boolean.md)            |
 
 
 
@@ -58,7 +58,7 @@ ms.locfileid: "104139026"
 | Идентификатор ссылки                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
 | System-Only            | Неверно                                                               |
-| Является однозначным       | True                                                                |
+| Является однозначным       | Верно                                                                |
 | Индексируется             | Неверно                                                               |
 | В глобальном каталоге      | Неверно                                                               |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                        |
@@ -66,7 +66,7 @@ ms.locfileid: "104139026"
 | Range-Upper            | \-                                                                  |
 | Search-Flags           | 0x00000000                                                          |
 | System-Flags           | 0x00000010                                                          |
-| Классы, используемые в        | [**MS-SQL-Склпубликатион**](c-ms-sql-sqlpublication.md)<br/> |
+| Классы, используемые в        | [**MS-SQL-склпубликатион**](c-ms-sql-sqlpublication.md)<br/> |
 
 
 
@@ -79,7 +79,7 @@ ms.locfileid: "104139026"
 | Идентификатор ссылки                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
 | System-Only            | Неверно                                                               |
-| Является однозначным       | True                                                                |
+| Является однозначным       | Верно                                                                |
 | Индексируется             | Неверно                                                               |
 | В глобальном каталоге      | Неверно                                                               |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                        |
@@ -87,7 +87,7 @@ ms.locfileid: "104139026"
 | Range-Upper            | \-                                                                  |
 | Search-Flags           | 0x00000000                                                          |
 | System-Flags           | 0x00000010                                                          |
-| Классы, используемые в        | [**MS-SQL-Склпубликатион**](c-ms-sql-sqlpublication.md)<br/> |
+| Классы, используемые в        | [**MS-SQL-склпубликатион**](c-ms-sql-sqlpublication.md)<br/> |
 
 
 
@@ -100,7 +100,7 @@ ms.locfileid: "104139026"
 | Идентификатор ссылки                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
 | System-Only            | Неверно                                                               |
-| Является однозначным       | True                                                                |
+| Является однозначным       | Верно                                                                |
 | Индексируется             | Неверно                                                               |
 | В глобальном каталоге      | Неверно                                                               |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                        |
@@ -108,7 +108,7 @@ ms.locfileid: "104139026"
 | Range-Upper            | \-                                                                  |
 | Search-Flags           | 0x00000000                                                          |
 | System-Flags           | 0x00000010                                                          |
-| Классы, используемые в        | [**MS-SQL-Склпубликатион**](c-ms-sql-sqlpublication.md)<br/> |
+| Классы, используемые в        | [**MS-SQL-склпубликатион**](c-ms-sql-sqlpublication.md)<br/> |
 
 
 
@@ -121,7 +121,7 @@ ms.locfileid: "104139026"
 | Идентификатор ссылки                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
 | System-Only            | Неверно                                                               |
-| Является однозначным       | True                                                                |
+| Является однозначным       | Верно                                                                |
 | Индексируется             | Неверно                                                               |
 | В глобальном каталоге      | Неверно                                                               |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                        |
@@ -129,7 +129,7 @@ ms.locfileid: "104139026"
 | Range-Upper            | \-                                                                  |
 | Search-Flags           | 0x00000000                                                          |
 | System-Flags           | 0x00000010                                                          |
-| Классы, используемые в        | [**MS-SQL-Склпубликатион**](c-ms-sql-sqlpublication.md)<br/> |
+| Классы, используемые в        | [**MS-SQL-склпубликатион**](c-ms-sql-sqlpublication.md)<br/> |
 
 
 
@@ -142,7 +142,7 @@ ms.locfileid: "104139026"
 | Идентификатор ссылки                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
 | System-Only            | Неверно                                                               |
-| Является однозначным       | True                                                                |
+| Является однозначным       | Верно                                                                |
 | Индексируется             | Неверно                                                               |
 | В глобальном каталоге      | Неверно                                                               |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                        |
@@ -150,7 +150,7 @@ ms.locfileid: "104139026"
 | Range-Upper            | \-                                                                  |
 | Search-Flags           | 0x00000000                                                          |
 | System-Flags           | 0x00000010                                                          |
-| Классы, используемые в        | [**MS-SQL-Склпубликатион**](c-ms-sql-sqlpublication.md)<br/> |
+| Классы, используемые в        | [**MS-SQL-склпубликатион**](c-ms-sql-sqlpublication.md)<br/> |
 
 
 
@@ -163,7 +163,7 @@ ms.locfileid: "104139026"
 | Идентификатор ссылки                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
 | System-Only            | Неверно                                                               |
-| Является однозначным       | True                                                                |
+| Является однозначным       | Верно                                                                |
 | Индексируется             | Неверно                                                               |
 | В глобальном каталоге      | Неверно                                                               |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                        |
@@ -171,7 +171,7 @@ ms.locfileid: "104139026"
 | Range-Upper            | \-                                                                  |
 | Search-Flags           | 0x00000000                                                          |
 | System-Flags           | 0x00000010                                                          |
-| Классы, используемые в        | [**MS-SQL-Склпубликатион**](c-ms-sql-sqlpublication.md)<br/> |
+| Классы, используемые в        | [**MS-SQL-склпубликатион**](c-ms-sql-sqlpublication.md)<br/> |
 
 
 

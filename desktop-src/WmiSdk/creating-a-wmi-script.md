@@ -10,16 +10,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 1ef13a5f9269dbc24566e95ce37101d10afa6c90
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a56eca450757086b3d334d8f64fa41c4cf297f903963498afe958bee802705eb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119464194"
 ---
 # <a name="creating-a-wmi-script"></a>Создание скрипта WMI
 
-Вы можете просматривать любую информацию, доступную через инструментарий WMI, или управлять ею с помощью сценариев. Сценарии могут быть написаны на любом языке сценариев, поддерживающем размещение сценариев Microsoft ActiveX, включая Visual Basic Scripting Edition (VBScript), PowerShell и Perl. Сервер сценариев Windows (WSH), Active Server страницы и Internet Explorer могут выполнять все сценарии WMI.
+Вы можете просматривать любую информацию, доступную через инструментарий WMI, или управлять ею с помощью сценариев. сценарии могут быть написаны на любом языке сценариев, поддерживающем размещение сценариев Microsoft ActiveX, включая Visual Basic scripting Edition (VBScript), PowerShell и Perl. Windows Сервер сценариев (WSH), Active Server страницы и Internet Explorer могут выполнять все сценарии WMI размещения.
 
 > [!Note]
 >
@@ -29,9 +29,9 @@ ms.locfileid: "103999654"
 
 ## <a name="wmi-scripting-languages"></a>Языки сценариев WMI
 
-Инструментарий WMI поддерживает два основных языка: PowerShell и VBScript (с помощью сервера сценариев Windows или WSH).
+инструментарий WMI поддерживает два основных языка: PowerShell и VBScript (с помощью сервера сценариев Windows или WSH).
 
--   **PowerShell** был разработан с учетом тесной интеграции с WMI. Таким образом, большая часть базовых элементов WMI встроена в командлеты WMI: [Get-WmiObject](/powershell/module/microsoft.powershell.management/get-wmiobject?view=powershell-5.1), [Set-WmiInstance](/powershell/module/microsoft.powershell.management/set-wmiinstance?view=powershell-5.1), [Invoke-WmiMethod](/powershell/module/microsoft.powershell.management/invoke-wmimethod?view=powershell-5.1)и [Remove-WmiObject](/powershell/module/microsoft.powershell.management/remove-wmiobject?view=powershell-5.1). В следующей таблице описаны общие процессы, используемые для доступа к данным WMI. Обратите внимание, что хотя в большинстве этих примеров используется Get-WMIObject, многие командлеты PowerShell WMI имеют одинаковые параметры, такие как *-Class* или *-Credential*. Поэтому многие из этих процессов также работают и для других объектов. Более подробное обсуждение PowerShell и инструментария WMI см. в разделе [использование командлета Get-WMiObject](/previous-versions/windows/it-pro/windows-powershell-1.0/ee176860(v=technet.10)) и [Windows PowerShell — WMI-подключения](/previous-versions/technet-magazine/cc162365(v=msdn.10)).
+-   **PowerShell** был разработан с учетом тесной интеграции с WMI. Таким образом, большая часть базовых элементов WMI встроена в командлеты WMI: [Get-WmiObject](/powershell/module/microsoft.powershell.management/get-wmiobject?view=powershell-5.1), [Set-WmiInstance](/powershell/module/microsoft.powershell.management/set-wmiinstance?view=powershell-5.1), [Invoke-WmiMethod](/powershell/module/microsoft.powershell.management/invoke-wmimethod?view=powershell-5.1)и [Remove-WmiObject](/powershell/module/microsoft.powershell.management/remove-wmiobject?view=powershell-5.1). В следующей таблице описаны общие процессы, используемые для доступа к данным WMI. Обратите внимание, что хотя в большинстве этих примеров используется Get-WMIObject, многие командлеты PowerShell WMI имеют одинаковые параметры, такие как *-Class* или *-Credential*. Поэтому многие из этих процессов также работают и для других объектов. более подробное обсуждение PowerShell и инструментария wmi см. в разделе [использование командлета Get-WMiObject](/previous-versions/windows/it-pro/windows-powershell-1.0/ee176860(v=technet.10)) и [Windows PowerShell-подключение WMI](/previous-versions/technet-magazine/cc162365(v=msdn.10)).
 
 -   Язык **VBScript**, напротив, явно обращается к [API сценариев для WMI](scripting-api-for-wmi.md), как упоминалось выше. Другие языки, такие как Perl, также могут использовать API скриптов для WMI. Однако в рамках этой документации большинство примеров, демонстрирующих API сценариев для WMI, будут использовать VBScript. Однако если методика программирования относится только к VBScript, она будет называться.
 
@@ -217,7 +217,7 @@ Get-WmiObject -Namespace root -Class __Namespace
 <span id="...retrieve_all_child_instances_of_a_class_"></span><span id="...RETRIEVE_ALL_CHILD_INSTANCES_OF_A_CLASS_"></span>... получить все дочерние экземпляры класса?
 </dt> <dd>
 
-Для языков, которые непосредственно используют API скриптов для WMI и PowerShell, WMI поддерживает получение дочерних классов базового класса. Таким образом, чтобы получить дочерние экземпляры, необходимо найти только родительский класс. В следующем примере выполняется поиск логического диска CIM, который является предварительно установленным классом WMI, представляющим логические диски в системе на основе Windows. [**\_**](/windows/desktop/CIMWin32Prov/cim-logicaldisk) Таким образом, при поиске этого родительского класса также возвращаются экземпляры [**Win32 \_ LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk), которые используются Windows для описания жестких дисков. Дополнительные сведения см. в разделе [модель CIM](common-information-model.md). Инструментарий WMI предоставляет всю схему таких предустановленных классов, которые позволяют получать доступ к управляемым объектам и управлять ими. Дополнительные сведения см. в разделе [Классы Win32](/windows/desktop/CIMWin32Prov/win32-provider) и [классы WMI](wmi-classes.md).
+Для языков, которые непосредственно используют API скриптов для WMI и PowerShell, WMI поддерживает получение дочерних классов базового класса. Таким образом, чтобы получить дочерние экземпляры, необходимо найти только родительский класс. в следующем примере выполняется поиск логического диска CIM, который является предварительно установленным классом WMI, представляющим логические диски на компьютере, основанном на Windows. [**\_**](/windows/desktop/CIMWin32Prov/cim-logicaldisk) таким образом, поиск этого родительского класса также возвращает экземпляры [**Win32 \_ LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk), который Windows использует для описания жестких дисков. Дополнительные сведения см. в разделе [модель CIM](common-information-model.md). Инструментарий WMI предоставляет всю схему таких предустановленных классов, которые позволяют получать доступ к управляемым объектам и управлять ими. Дополнительные сведения см. в разделе [Классы Win32](/windows/desktop/CIMWin32Prov/win32-provider) и [классы WMI](wmi-classes.md).
 
 
 ```VB

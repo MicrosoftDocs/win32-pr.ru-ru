@@ -3,7 +3,7 @@ title: Сообщение MCM_GETMONTHRANGE (Коммктрл. h)
 description: Извлекает сведения о дате (с использованием структур SYSTEMTIME), представляющие верхние и малые границы отображаемого элемента управления календаря. Это сообщение можно отправить явным образом или с помощью \_ макроса монскал жетмонсранже.
 ms.assetid: f50ac4b7-1f58-4639-8c78-341bb33db3c3
 keywords:
-- Элементы управления Windows для MCM_GETMONTHRANGE сообщений
+- элементы управления Windows сообщений MCM_GETMONTHRANGE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 022ca7e05cc0c69cd32f6ad92531420cdaed7c7a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bc55f9732199f2e6e031248003c6dcad4abe8cb713182081666cfbee6a4ce50b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105654728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119319584"
 ---
 # <a name="mcm_getmonthrange-message"></a>\_Сообщение MCM жетмонсранже
 
@@ -58,14 +58,14 @@ ms.locfileid: "105654728"
 
 Возвращает значение типа INT, представляющее диапазон в месяцах, охватываемый двумя ограничениями, возвращаемыми при *lParam*.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

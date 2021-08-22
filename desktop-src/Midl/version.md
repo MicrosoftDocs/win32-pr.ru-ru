@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bacbf7478ebfb745e5fc9b5e50959d0f1587dedf
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 9c72cc825183740d856c20b9e5c76ece472f82db405d9560e6502f6e32985b60
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104069026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119252114"
 ---
 # <a name="version-attribute"></a>атрибут version
 
@@ -45,7 +45,7 @@ version ( major-value[[. minor-value]] )
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Компилятор MIDL не поддерживает несколько версий COM-интерфейса. В результате список атрибутов интерфейса, включающий **\[** атрибут [**объекта**](object.md) , **\]** не может включать атрибут **\[ \] Version** . Чтобы создать новую версию существующего COM-интерфейса, используйте наследование интерфейса. Производный COM-интерфейс имеет другой UUID, но наследует функции-члены интерфейса, коды состояния и атрибуты интерфейса базового интерфейса.
 
@@ -98,12 +98,12 @@ version ( major-value[[. minor-value]] )
 [**объектами**](object.md)
 </dt> <dt>
 
-[**UUID**](uuid.md)
+[**uuid**](uuid.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

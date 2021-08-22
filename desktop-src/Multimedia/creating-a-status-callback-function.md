@@ -6,12 +6,12 @@ keywords:
 - макрос Капсеткаллбакконстатус
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 592a5582bca37f644810f3496a39321d22da43be
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3d7c7d8ed6adc409eef338213c8c4e1febf2ca0825e13d41735710938e733b97
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119497924"
 ---
 # <a name="creating-a-status-callback-function"></a>Создание функции обратного вызова состояния
 
@@ -49,16 +49,16 @@ LRESULT PASCAL StatusCallbackProc(HWND hWnd, int nID,
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Использование видеозаписи](using-video-capture.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

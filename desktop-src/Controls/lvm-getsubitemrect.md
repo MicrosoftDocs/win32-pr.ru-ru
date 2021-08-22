@@ -3,7 +3,7 @@ title: Сообщение LVM_GETSUBITEMRECT (Коммктрл. h)
 description: Извлекает сведения о ограничивающем прямоугольнике для подэлемента в элементе управления "представление списка".
 ms.assetid: 985876b2-6eb3-4c96-88ea-ddec67ef5b5a
 keywords:
-- Элементы управления Windows для LVM_GETSUBITEMRECT сообщений
+- элементы управления Windows сообщений LVM_GETSUBITEMRECT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd1184c52d60b86e008685b87c9f5555cf801b35
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 651be72c23113940fc30adb2e7a9de581289a8f4ddf580f27d01e2edf337c053
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137106"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119293894"
 ---
 # <a name="lvm_getsubitemrect-message"></a>\_Сообщение LVM жетсубитемрект
 
@@ -58,7 +58,7 @@ ms.locfileid: "104137106"
 
 Возвращает ненулевое значение в случае успеха или ноль в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Ниже приведены значения флагов, которые могут быть установлены.
 
@@ -75,15 +75,15 @@ ms.locfileid: "104137106"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

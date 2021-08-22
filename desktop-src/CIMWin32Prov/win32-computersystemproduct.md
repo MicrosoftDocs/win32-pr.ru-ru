@@ -22,12 +22,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 8cab3dc8679c606076eca2f5cf704867aa9833c9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 47312acde8f346ac4ac3b2260fe06a2a5270610f9b7265da2b627a4c92fb4b8f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141159"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119294034"
 ---
 # <a name="win32_computersystemproduct-class"></a>\_Класс Win32 компутерсистемпродукт
 
@@ -58,13 +58,13 @@ class Win32_ComputerSystemProduct : CIM_Product
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ компутерсистемпродукт** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -115,7 +115,7 @@ class Win32_ComputerSystemProduct : CIM_Product
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -165,7 +165,7 @@ class Win32_ComputerSystemProduct : CIM_Product
 
 Универсальный уникальный идентификатор (UUID) для этого продукта. UUID — это 128-разрядный идентификатор, который гарантированно отличается от других созданных UUID. Если UUID недоступен, используется UUID всех нулей.
 
-Это значение берется из **UUID** в структуре **сведений о системе** в сведениях SMBIOS.
+это значение берется из элемента **UUID** структуры **Сведения о системе** в сведениях SMBIOS.
 
 </dd> <dt>
 
@@ -205,7 +205,7 @@ class Win32_ComputerSystemProduct : CIM_Product
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ компутерсистемпродукт** является производным от [**\_ продукта CIM**](cim-product.md).
 

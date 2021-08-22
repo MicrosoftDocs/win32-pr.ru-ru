@@ -4,12 +4,12 @@ ms.assetid: d5e79055-e9e3-4a74-9b6c-805ade1438ba
 title: System. Message. Бккаддресс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3bbf45a23051b2c39fa0682df2e277ce6033766
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1df0e352505e82c489430c6f114329bc834690f9026c334349baa5b248dbe225
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711864"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119457204"
 ---
 # <a name="systemmessagebccaddress"></a>System. Message. Бккаддресс
 
@@ -30,11 +30,11 @@ propertyDescription
       type = Multivalue String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

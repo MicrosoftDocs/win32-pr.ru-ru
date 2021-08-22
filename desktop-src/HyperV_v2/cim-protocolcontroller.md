@@ -14,12 +14,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 27372bc57ad36f37689d75b3963ec0c4b1106956
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7dcd0f0ca1891914e2c4fc3fedbc0012d930dbaec99926f9db8e013435367f36
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119148516"
 ---
 # <a name="cim_protocolcontroller-class"></a>\_Класс CIM протоколконтроллер
 
@@ -41,7 +41,7 @@ class CIM_ProtocolController : CIM_LogicalDevice
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ протоколконтроллер** имеет следующие свойства.
 

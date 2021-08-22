@@ -24,16 +24,16 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c6651c5a97b1fac85621918a6805f406cc31df69
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3129d2db4424b54ccdf840ef454d7154bc4c0037e141c209547e9c2d6118b3a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104346945"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119106652"
 ---
 # <a name="windows7api-class"></a>Класс Windows7Api
 
-API ESENT, которые впервые поддерживались в Windows 7 (Windows Server 2008 R2).
+api ESENT, которые впервые поддерживались в Windows 7 (Windows Server 2008 R2).
 
 ## <a name="inheritance-hierarchy"></a>Иерархия наследования
 

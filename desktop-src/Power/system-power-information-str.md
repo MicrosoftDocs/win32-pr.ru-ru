@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: c32a8ad86b71ea680bd2961c9196a0896b055e5e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 665c19a99bffae46cf20af8c5c634e2e9594ecd07d02f003f56d42277ce9a46f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103998494"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143307"
 ---
 # <a name="system_power_information-structure"></a>\_Структура системной \_ информации о питании
 
@@ -81,7 +81,7 @@ typedef struct _SYSTEM_POWER_INFORMATION {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обратите внимание, что это определение структуры было случайно опущено в WinNT. h. Эта ошибка будет исправлена в будущем. Тем временем, чтобы скомпилировать приложение, включите в исходный код определение структуры, содержащееся в этом разделе.
 
@@ -91,8 +91,8 @@ typedef struct _SYSTEM_POWER_INFORMATION {
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/> |
 
 
 

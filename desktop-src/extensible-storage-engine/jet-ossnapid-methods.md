@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_
 ms:contentKeyID: 39510940
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 00abc9f7618f10ac398de59f762a61f6d8f24248
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 609c904bb72a0bf61823acd562aaffaf302e3121d10823706c5f19988e697ad4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104562498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119560024"
 ---
 # <a name="jet_ossnapid-methods"></a>Методы JET_OSSNAPID
 
@@ -78,7 +78,7 @@ ms.locfileid: "104562498"
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

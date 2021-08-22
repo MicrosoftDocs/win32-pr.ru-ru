@@ -3,7 +3,7 @@ title: Свойство Command. Смаллимажес
 description: Представляет контейнер изображений; в данном случае это небольшие изображения.
 ms.assetid: 15c00e61-543a-4cc8-b329-516985d02359
 keywords:
-- Лента Windows для свойства Command. Смаллимажес
+- свойство Command. смаллимажес, Windows лента
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b18556cf519c21b01c3e80b63cbfc9cdf9d7d153
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 63445f2dbfce88e9793b3563d0ce8ed9861f45fa0831680a455b1a0a04bb4bd1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104492516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119329274"
 ---
 # <a name="commandsmallimages-property"></a>Свойство Command. Смаллимажес
 
@@ -51,11 +51,11 @@ ms.locfileid: "104492516"
 
 | Элемент                                                     |
 |-------------------------------------------------------------|
-| [**Get-Help**](windowsribbon-element-command.md)<br/> |
+| [**Команда**](windowsribbon-element-command.md)<br/> |
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Необязательный элемент.
 
@@ -117,8 +117,8 @@ ms.locfileid: "104492516"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>              |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>              |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/> |
 
 
 

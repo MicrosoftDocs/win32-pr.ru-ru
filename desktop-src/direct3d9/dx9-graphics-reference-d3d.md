@@ -4,12 +4,12 @@ ms.assetid: d538abab-7fc9-4f29-b63a-1d84e060d403
 title: Справочник по Direct3D (графика Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1e1a5c7e7ecba9a356d500e0cafbea68901bc3d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 9a5fa0c32c05fec2e2a6f50ae6d3849e034e35003409d07ad4581500cce75eb1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104416413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119495094"
 ---
 # <a name="direct3d-reference-direct3d-9-graphics"></a>Справочник по Direct3D (графика Direct3D 9)
 
@@ -22,7 +22,7 @@ ms.locfileid: "104416413"
 -   [Перечисления Direct3D](dx9-graphics-reference-d3d-enums.md)
 -   [Константы Direct3D](dx9-graphics-reference-d3d-constants.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

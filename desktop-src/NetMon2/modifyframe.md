@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: af3ef6c2c5ccae2b6410ac8fc81c815f790b17a6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 04bc22af11d83078ecf98d0386b061b520fbf9a8dcab6f6beb360c45b1c6fe96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662449"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119555824"
 ---
 # <a name="modifyframe-function"></a>Функция Модифифраме
 
@@ -84,13 +84,13 @@ HFRAME WINAPI ModifyFrame(
 
 Если функция завершилась неудачно, возвращается значение **null**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если вызов выполнен успешно, функция **модифифраме** уничтожает исходный кадр.
 
 [*Эксперты*](e.md) и [*средства синтаксического анализа*](p.md) могут вызывать функцию **модифифраме** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

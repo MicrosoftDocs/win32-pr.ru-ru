@@ -3,7 +3,7 @@ title: Код уведомления PSN_WIZFINISH (Пршт. h)
 description: Уведомляет страницу о нажатии пользователем кнопки Готово в мастере. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: 8ef0a8a7-2d25-4969-9b8f-e42dcc1c8fb5
 keywords:
-- PSN_WIZFINISH кода уведомления элементы управления Windows
+- PSN_WIZFINISH кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0654384b0944d90731288922c32326e42019cdc8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b9a11b018a57126c0882862271fa209fcd507224a46180ebb5fbaed4355fc040
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491784"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119588184"
 ---
 # <a name="psn_wizfinish-notification-code"></a>\_Код уведомления PSN визфиниш
 
@@ -51,7 +51,7 @@ PSN_WIZFINISH
 -   [Версия 5,80.](common-control-versions.md) и более поздние версии. Возвращает маркер окна для предотвращения завершения работы мастера. Мастер настроит фокус на это окно. Окно должно принадлежать странице мастера.
 -   Возвращает **значение false** , чтобы разрешить завершение работы мастера.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы задать возвращаемое значение, процедура диалогового окна для страницы должна использовать функцию [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) с \_ значением мсгресулт DWL, а процедура диалогового окна должна возвращать значение **true**.
 
@@ -63,9 +63,9 @@ PSN_WIZFINISH
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                               |
-| Header<br/>                   | <dl> <dt>Пршт. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                               |
+| Заголовок<br/>                   | <dl> <dt>Пршт. h</dt> </dl> |
 
 
 

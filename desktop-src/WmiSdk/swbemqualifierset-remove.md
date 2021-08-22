@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 39c95f268328bc0cad3f3c0874b633fc36c4f5b2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3f4ca62276e39822964d33b58345b4718354bfd63039ec42ab30ac5daf95f6e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104544655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119463614"
 ---
 # <a name="swbemqualifiersetremove-method"></a>Свбемкуалифиерсет. Remove, метод
 
@@ -97,7 +97,7 @@ SWbemQualifierSet.Remove( _
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Невозможно выполнить итерацию коллекции при удалении элементов, так как при удалении элемента из коллекции указатель коллекции перемещается к следующему элементу. Дополнительные сведения см. [в разделе доступ к коллекции](accessing-a-collection.md).
 

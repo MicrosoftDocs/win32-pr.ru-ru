@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 2a4c134ebead08ef576337528a8ef75d8b8be21a
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d07c62fc6c6cc871f803b1f752201bd500e2705c3cfca272ff350ffd018f6018
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119499653"
 ---
 # <a name="usersinpartitionrole-collection"></a>Коллекция Усерсинпартитионроле
 
@@ -54,10 +54,10 @@ ms.locfileid: "108105552"
 | Ввод | Значение |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Описание    | Имя пользователя. Это свойство возвращается при вызове метода свойства [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) или [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) для объекта этой коллекции. |
-| Access         | Флагом writeonce                                                                                                                                                                             |
+| Доступ         | Флагом writeonce                                                                                                                                                                             |
 | Тип           | Строка                                                                                                                                                                                |
 | По умолчанию        | "Новый пользователь"                                                                                                                                                                            |
-| Минимальная система | Windows Server 2003                                                                                                                                                                   |
+| Минимальная система | Windows Server 2003                                                                                                                                                                   |
 
 
 

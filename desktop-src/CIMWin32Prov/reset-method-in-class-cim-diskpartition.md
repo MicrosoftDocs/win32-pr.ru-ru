@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: cce77ce076eb17132be6ed6908a49d1fcfc77f21
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 088230f2b09089fafaa1fbe4cb67684a873c97d14d612801383222d011e1ecfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108091012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119283744"
 ---
 # <a name="reset-method-of-the-cim_diskpartition-class"></a>Метод Reset \_ класса CIM дискпартитион
 
@@ -53,7 +53,7 @@ uint32 Reset();
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

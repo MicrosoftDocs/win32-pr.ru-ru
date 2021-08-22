@@ -75,12 +75,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c5bbd6e5120f387357dbec01629fc91a39ac9ec
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 03ec3eb9574dbed208a7c38714c838e567990fc76af137fca563de65142ac5f1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105718158"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119614664"
 ---
 # <a name="object-roles"></a>Роли объектов
 
@@ -105,7 +105,7 @@ ms.locfileid: "105718158"
 | <span id="ROLE_SYSTEM_BUTTONMENU"></span><span id="role_system_buttonmenu"></span><dl> <dt>**\_буттонмену системы \_ ролей**</dt> </dl>                         | Объект представляет кнопку, которая разворачивает меню.<br/>                                                                                                                                                                                                                                                                                                                                                                           |
 | <span id="ROLE_SYSTEM_CARET"></span><span id="role_system_caret"></span><dl> <dt>**\_курсор системы \_ роли**</dt> </dl>                                        | Объект представляет системный курсор.<br/>                                                                                                                                                                                                                                                                                                                                                                                       |
 | <span id="ROLE_SYSTEM_CELL"></span><span id="role_system_cell"></span><dl> <dt>**\_системная \_ ЯЧЕЙКа роли**</dt> </dl>                                           | Объект представляет ячейку в пределах таблицы.<br/>                                                                                                                                                                                                                                                                                                                                                                                  |
-| <span id="ROLE_SYSTEM_CHARACTER"></span><span id="role_system_character"></span><dl> <dt>**\_системный \_ символ роли**</dt> </dl>                            | Объект представляет мультипликационный графический объект, например помощник Microsoft Office, который отображается для предоставления помощи пользователям приложения.<br/>                                                                                                                                                                                                                                                                       |
+| <span id="ROLE_SYSTEM_CHARACTER"></span><span id="role_system_character"></span><dl> <dt>**\_системный \_ символ роли**</dt> </dl>                            | объект представляет мультипликационный графический объект, например помощник Microsoft Office, который отображается для предоставления помощи пользователям приложения.<br/>                                                                                                                                                                                                                                                                       |
 | <span id="ROLE_SYSTEM_CHART"></span><span id="role_system_chart"></span><dl> <dt>**\_системная \_ Диаграмма роли**</dt> </dl>                                        | Объект представляет графический рисунок, используемый для диаграммы данных.<br/>                                                                                                                                                                                                                                                                                                                                                                   |
 | <span id="ROLE_SYSTEM_CHECKBUTTON"></span><span id="role_system_checkbutton"></span><dl> <dt>**\_чеккбуттон системы \_ ролей**</dt> </dl>                      | Объект представляет элемент управления "флажок": параметр, который выбирается или удаляется независимо от других параметров.<br/>                                                                                                                                                                                                                                                                                                              |
 | <span id="ROLE_SYSTEM_CLIENT"></span><span id="role_system_client"></span><dl> <dt>**\_клиент системы \_ роли**</dt> </dl>                                     | Объект представляет клиентскую область окна. Microsoft Active Accessibility использует эту роль в качестве значения по умолчанию, если существует вопрос о роли элемента пользовательского интерфейса.<br/>                                                                                                                                                                                                                                                               |
@@ -163,13 +163,13 @@ ms.locfileid: "105718158"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|-------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Олеакк. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Олеакк. h</dt> </dl> |
 
 
 

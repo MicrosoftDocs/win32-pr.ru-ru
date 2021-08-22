@@ -4,12 +4,12 @@ ms.assetid: b6cc0c9d-9f28-4e80-b847-39c72d98bed6
 title: API диспетчера очереди печати
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be7287b9da3ac19d2ab9c39152d5917960e465e2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 64eaa89e0f28aa3bc5479e9b1bb872d0a114678ce3e641394c3919b28f37f4df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119460503"
 ---
 # <a name="print-spooler-api"></a>API диспетчера очереди печати
 
@@ -31,11 +31,11 @@ API диспетчера очереди печати используется п
 
  
 
-На следующей схеме показана связь API диспетчера очереди печати с другими интерфейсами API печати, которые может использовать собственное приложение Windows.
+на следующей схеме показана связь api диспетчера очереди печати с другими интерфейсами api печати, которые могут использоваться в собственном Windows приложении.
 
 ![Схема, показывающая связь API диспетчера очереди печати с другими интерфейсами API печати, которые может использовать собственное приложение Windows](images/print-apis-ps.png)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

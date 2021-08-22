@@ -4,12 +4,12 @@ ms.assetid: 6eadd648-bffb-4227-bdcd-cd733f692734
 title: Сообщение MICROSOFT_TIP_OPENING_MSG (Пенинпутпанел. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f0938b8a00e39f54817b8ec52e86e00aae52111
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0e183cc426cd5d73e52c6aaef007bc5579ceb3eb0f4ceaf3f9f4084677b7a556
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105718141"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119335904"
 ---
 # <a name="microsoft_tip_opening_msg-message"></a>\_Сообщение о \_ открывающем сообщении Microsoft TIP \_
 
@@ -37,7 +37,7 @@ ms.locfileid: "105718141"
 
 Приложения должны вызвать [**дефвиндовпрок**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) после обработки этого сообщения. Сведения о возвращаемых значениях см. в разделе **дефвиндовпрок** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это уведомление позволяет получить сведения о том, когда открывается панель ввода. Если вы хотите выполнить действие в этом случае, обработайте сообщение, выполните операцию в обработчике, а затем передайте сообщение в [**дефвиндовпрок**](/windows/desktop/api/winuser/nf-winuser-defwindowproca).
 
@@ -53,7 +53,7 @@ ms.locfileid: "105718141"
 | Требование | Значение |
 |-------------------|--------------------------------------------------------------------------------------------|
 | Клиент<br/> | Windows Vista<br/>                                                                   |
-| Header<br/> | <dl> <dt>Пенинпутпанел. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Пенинпутпанел. h</dt> </dl> |
 
 
 

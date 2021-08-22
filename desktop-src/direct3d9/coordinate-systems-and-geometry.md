@@ -4,12 +4,12 @@ ms.assetid: d351c20c-fc86-4736-915c-4dc12094bda4
 title: Системы координат и геометрия (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e19596aec2648f9b3d2a2bb0a2239aee7a9138d8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c0f0ecb8c0c506abd155c11d1d12c9af3dd815f1e8237f0c7044d59720de4b31
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103807870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119241844"
 ---
 # <a name="coordinate-systems-and-geometry-direct3d-9"></a>Системы координат и геометрия (Direct3D 9)
 
@@ -23,7 +23,7 @@ ms.locfileid: "103807870"
 -   [Интерполяция треугольника (Direct3D 9)](triangle-interpolation.md)
 -   [Векторы, вершины и кватернион (Direct3D 9)](vectors--vertices--and-quaternions.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

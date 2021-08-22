@@ -17,29 +17,29 @@ keywords:
 - расширение рамки окна на клиентскую область
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fcf7378cfcaff93aa9a54ce399890ec1bfd8cc1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: bfb7b357719ea3aa5a4853a933350ee2dda417842777354e2bbf1711e1cbeff1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119456089"
 ---
 # <a name="dwm-blur-behind-overview"></a>Обзорное размытие DWM
 
 Один из эффектов Signature диспетчер окон рабочего стола (DWM) является полупрозрачной и размытой неклиентской областью. Интерфейсы API DWM позволяют приложениям применять эти эффекты к клиентской области своих окон верхнего уровня.
 
 > [!Note]  
-> Windows Vista Home Basic Edition не поддерживает эффект прозрачного стекла. Области, которые обычно отображаются с эффектом прозрачного стекла в других выпусках Windows, отображаются как непрозрачные.
-> Начиная с Windows 8, вызов этой функции не приводит к эффекту размытия из-за изменения стиля в способе отрисовки окон.
+> Windows Выпуск Vista Home Basic не поддерживает эффект прозрачного стекла. области, которые обычно отображаются с эффектом прозрачного стекла на других Windows выпусках, выводятся как непрозрачные.
+> начиная с Windows 8, вызов этой функции не приводит к эффекту размытия из-за изменения стиля в способе отрисовки окон.
 
 
- 
+ 
 
 В этом разделе обсуждаются следующие сценарии размытия клиента, которые предоставляет DWM.
 
 -   [Добавление размытия в конкретный регион клиентской области](#adding-blur-to-a-specific-region-of-the-client-area)
 -   [Расширение рамки окна в клиентскую область](#extending-the-window-frame-into-the-client-area)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="adding-blur-to-a-specific-region-of-the-client-area"></a>Добавление размытия в конкретный регион клиентской области
 
@@ -145,7 +145,7 @@ HRESULT ExtendIntoClientAll(HWND hwnd)
 
 ![изображение, демонстрирующее эффект размытия в стиле окна "окно стекла"](images/dwm-sheetofglass.png)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -158,6 +158,6 @@ HRESULT ExtendIntoClientAll(HWND hwnd)
 [Вопросы производительности и рекомендации](bestpractices-ovw.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

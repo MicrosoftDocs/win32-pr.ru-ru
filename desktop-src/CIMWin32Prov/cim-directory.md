@@ -45,12 +45,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: cebab65cc067018b3a57aa5f6890fffad1cb4c7a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 38f41b28689ac8ae4bebc29248e27d8e6b17eae1b265237acd91ed2b03d97c9a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655965"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119321604"
 ---
 # <a name="cim_directory-class"></a>\_Класс каталога CIM
 
@@ -124,7 +124,7 @@ class CIM_Directory : CIM_LogicalFile
 | [**компрессекс**](compressex-method-in-class-cim-directory.md)                                   | Сжимает логический файл (или каталог), указанный в пути объекта. Не реализовано инструментарием WMI.<br/>                                              |
 | [**Копировать**](copy-method-in-class-cim-directory.md)                                               | Копирует логический файл (или каталог), указанный в пути к объекту, в расположение, указанное входным параметром. Не реализовано инструментарием WMI.<br/> |
 | [**копекс**](copyex-method-in-class-cim-directory.md)                                           | Копирует логический файл (или каталог), указанный в пути к объекту, в расположение, указанное входным параметром. Не реализовано инструментарием WMI.<br/> |
-| [**Удалить**](delete-method-in-class-cim-directory.md)                                           | Удаляет логический файл (или каталог), указанный в пути объекта. Не реализовано инструментарием WMI.<br/>                                                 |
+| [**Удален**](delete-method-in-class-cim-directory.md)                                           | Удаляет логический файл (или каталог), указанный в пути объекта. Не реализовано инструментарием WMI.<br/>                                                 |
 | [**делетикс**](deleteex-method-in-class-cim-directory.md)                                       | Удаляет логический файл (или каталог), указанный в пути объекта. Не реализовано инструментарием WMI.<br/>                                                 |
 | [**жетеффективепермиссион**](geteffectivepermission-method-in-class-cim-directory.md)           | Определяет, имеет ли вызывающий объект агрегированные разрешения, заданные аргументом **разрешения** . Не реализовано инструментарием WMI.<br/>                |
 | [**Имени**](rename-method-in-class-cim-directory.md)                                           | Переименовывает логический файл (или каталог), указанный в пути объекта. Не реализовано инструментарием WMI.<br/>                                                 |
@@ -284,7 +284,7 @@ class CIM_Directory : CIM_LogicalFile
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -540,7 +540,7 @@ class CIM_Directory : CIM_LogicalFile
 
 </dd> <dt>
 
-**Размер файла**
+**FileSize**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **UInt64**
@@ -706,7 +706,7 @@ class CIM_Directory : CIM_LogicalFile
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -722,7 +722,7 @@ class CIM_Directory : CIM_LogicalFile
 
 Это свойство наследуется от [**CIM \_ манажедсистемелемент**](cim-managedsystemelement.md).
 
-Пример: "C: \\ Windows \\ System \\win.ini"
+пример: "C: \\ Windows \\ system \\win.ini"
 
 </dd> <dt>
 
@@ -904,7 +904,7 @@ class CIM_Directory : CIM_LogicalFile
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ каталога CIM** является производным от [**CIM \_ LogicalFile**](cim-logicalfile.md).
 

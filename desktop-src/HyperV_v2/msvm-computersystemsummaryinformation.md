@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 35248bcfa14609e8db25b148088b6feb8d161116
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78ac2b89336a415bedd23e0ca4ecd6589abdefbf75a54900d716c78152d34d4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897421"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119531764"
 ---
 # <a name="msvm_computersystemsummaryinformation-class"></a>\_Класс мсвм компутерсистемсуммаринформатион
 
@@ -45,7 +45,7 @@ class Msvm_ComputerSystemSummaryInformation : CIM_ElementView
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ компутерсистемсуммаринформатион** имеет следующие свойства.
 
@@ -67,7 +67,7 @@ class Msvm_ComputerSystemSummaryInformation : CIM_ElementView
 
 > [!Note]
 >
-> Тип данных, обновленный с [**мсвм \_ ComputerSystem**](msvm-computersystem.md) в Windows 10, версия 1703.
+> тип данных, обновленный с [**мсвм \_ ComputerSystem**](msvm-computersystem.md) в Windows 10, версия 1703.
 
  
 
@@ -89,19 +89,19 @@ class Msvm_ComputerSystemSummaryInformation : CIM_ElementView
 
 > [!Note]
 >
-> Тип данных, обновленный из [**мсвм \_ SummaryInformation**](msvm-summaryinformation.md) в Windows 10, версия 1703.
+> тип данных, обновленный из [**мсвм \_ SummaryInformation**](msvm-summaryinformation.md) в Windows 10, версия 1703.
 
  
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                             |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                             |
 | Минимальная версия сервера<br/> | Windows Server 2016<br/>                                                                          |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -109,7 +109,7 @@ class Msvm_ComputerSystemSummaryInformation : CIM_ElementView
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
