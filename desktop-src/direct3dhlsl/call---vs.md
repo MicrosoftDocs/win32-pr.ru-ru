@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c797e7ef6745f5710752fe059d2a2ff1f94a8aa3
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: d2321224b10ca1f7822b19e48ebbb58c1e01c261720f64a8b39331fbceab75fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104000288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986894"
 ---
 # <a name="call---vs"></a>вызов — VS
 
@@ -33,7 +33,7 @@ ms.locfileid: "104000288"
 
 где l \# — [Метка — VS](label---vs.md) отмечает начало подпрограммы, которую необходимо вызвать.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -62,7 +62,7 @@ ms.locfileid: "104000288"
 
 Если подпрограмма ссылается на [регистр счетчиков циклов](dx9-graphics-reference-asm-vs-registers-loop-counter.md) (Al), расположенный за пределами подпрограммы, каждый экземпляр вызова этой подпрограммы должен быть заключен в [цикл](loop---vs.md)... блок [ендлуп](endloop---vs.md) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

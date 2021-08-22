@@ -13,17 +13,17 @@ api_type:
 - HeaderDef
 api_location:
 - ocidl.h
-ms.openlocfilehash: a52b20349c58e8bd44458266da6a0a33ea149c98
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 029798e66d8ed69dc18bbb23dafc8b047d770f1bc91ac1b86ca7bdb09963c2e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675344"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072788"
 ---
 # <a name="readystate-property"></a>Свойство ReadyState
 
 > [!Note]  
-> Этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
+> этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
 
  
 
@@ -51,19 +51,19 @@ ms.locfileid: "105675344"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство доступно только для чтения и не имеет значения по умолчанию.
 
 Любой объект, внедренный в веб-страницу, предоставляет `ReadyState` свойство.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>ОЦидл. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>ОЦидл. h</dt> </dl> |
 
 
 

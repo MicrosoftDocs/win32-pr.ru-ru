@@ -4,12 +4,12 @@ description: В следующем примере показано, как по�
 ms.assetid: 1533aa5c-c3f3-4bd6-b307-fb4bd4c9aa85
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99cb4c930250f74cc549d9b5a31f121b92abad0a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 37095f085b3124cfaa049de4bf61ae830c94191c94c5993f7532920b122b63d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413305"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053382"
 ---
 # <a name="assigning-a-drive-to-a-share"></a>Назначение диска общему ресурсу
 
@@ -71,6 +71,6 @@ else
 
 
 
- 
+ 
 
- 
+ 

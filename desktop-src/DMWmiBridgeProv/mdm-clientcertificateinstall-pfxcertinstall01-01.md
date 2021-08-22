@@ -17,16 +17,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aed0bbbfad0e61a95fa8130921e639de1772233d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 58d963c5e720cdc914e268e14c0541a399d6ce307b72abecccdcda2a8cb3a2b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136790"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018192"
 ---
 # <a name="mdm_clientcertificateinstall_pfxcertinstall01_01-class"></a>\_Класс MDM клиентцертификатеинсталл \_ PFXCertInstall01 \_ 01
 
-\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Майкрософт не дает никаких гарантий, явных или подразумеваемых, в отношении предоставленной здесь информации.\]
+\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, относительно предоставленной здесь информации.\]
 
 Класс **MDM \_ клиентцертификатеинсталл \_ PFXCertInstall01 \_ 01** позволяет Организации использовать уникальные идентификаторы для различения разных запросов на установку сертификатов.
 
@@ -60,13 +60,13 @@ class MDM_ClientCertificateInstall_PFXCertInstall01_01
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **MDM \_ клиентцертификатеинсталл \_ PFXCertInstall01 \_ 01** имеет эти свойства.
 
 <dl> <dt>
 
-[ContainerName](/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-pfxcertinstall-uniqueid-containername)
+[ContainerName;](/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-pfxcertinstall-uniqueid-containername)
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -202,13 +202,13 @@ class MDM_ClientCertificateInstall_PFXCertInstall01_01
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                      |
 | Пространство имен<br/>                | Корневой \\ CIMV2 \\ MDM \\ дммап<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>Дмвмибриджепров. mof</dt> </dl> |
@@ -216,7 +216,7 @@ class MDM_ClientCertificateInstall_PFXCertInstall01_01
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

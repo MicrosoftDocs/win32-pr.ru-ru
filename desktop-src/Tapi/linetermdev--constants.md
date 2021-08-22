@@ -4,12 +4,12 @@ ms.assetid: 3444d022-8225-4956-89a1-721b4662d557
 title: Константы LINETERMDEV_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 661bf56cd7a81fb73e7f8e8fd2ebfe0983ac3cda
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8c4c47e9b00d2c3281189ab5eae6bea79b422a86b263a7a33dbcd7d8d6785884
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002942"
 ---
 # <a name="linetermdev_-constants"></a>\_Константы линетермдев
 
@@ -47,20 +47,20 @@ ms.locfileid: "105685375"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Без расширяемости. Все 32 бит зарезервированы.
 
 Эти константы используются для определения устройства терминала линии и помогают приложению определить природу устройства терминала.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------|-----------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 2,0 или более поздней версии<br/>                                             |
-| Header<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
 
 
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 508565c518b67d31b0299014817b669f9484f743
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2b3c110e1aeb54d38805b5ee6ad116ed8fcbbdc7274d0548b582fd88b0e8ac1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702345"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118978564"
 ---
 # <a name="server2003grbitsenumerateignoreuserdefineddefault-field"></a>Server2003Grbits. Енумератеигнореусердефинеддефаулт, поле
 
@@ -53,11 +53,11 @@ value = Server2003Grbits.EnumerateIgnoreUserDefinedDefault
 public const EnumerateColumnsGrbit EnumerateIgnoreUserDefinedDefault
 ```
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
-Этот параметр доступен только для операционных систем Windows Server 2003 с пакетом обновления 1 (SP1) и более поздних версий.
+этот параметр доступен только для Windows Server 2003 с пакетом обновления 1 (SP1) и более поздних операционных систем.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

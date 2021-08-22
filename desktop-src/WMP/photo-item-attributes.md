@@ -3,24 +3,24 @@ title: Атрибуты элемента Photo
 description: Атрибуты элемента Photo
 ms.assetid: 3d3ed3a8-09ac-4e3d-b52d-3614b3a3fc05
 keywords:
-- Проигрыватель Windows Media, атрибуты элемента Photo
-- Проигрыватель Windows Media Mobile, атрибуты элемента Photo
-- Объектная модель проигрывателя Windows Media, атрибуты элемента Photo
+- проигрыватель Windows Media, атрибуты элемента photo
+- проигрыватель Windows Media Мобильные элементы, атрибуты фото
+- проигрыватель Windows Mediaная объектная модель, атрибуты элемента photo
 - Объектная модель, атрибуты элемента Photo
-- Элемент управления ActiveX, атрибуты элемента Photo
-- Элемент управления ActiveX проигрывателя Windows Media, атрибуты элемента Photo
-- Элемент управления ActiveX в проигрывателе Windows Media Mobile, атрибуты элемента Photo
+- ActiveX элемент управления, атрибуты элемента photo
+- проигрыватель Windows Media ActiveX элемента управления, атрибуты элемента photo
+- проигрыватель Windows Media мобильный ActiveX элемент управления, атрибуты элемента photo
 - Справочник по объектной модели, атрибутам фото
 - атрибуты, Фото, элементы
 - атрибуты элемента Photo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6482151e2d9bbb15cff236f420b1386e5b68bfec
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2c9a5d36e77e9b58b642469bf8900eb32b3b789882afb7862bf8f44f5ab8cc22
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105691262"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054422"
 ---
 # <a name="photo-item-attributes"></a>Атрибуты элемента Photo
 
@@ -60,16 +60,16 @@ ms.locfileid: "105691262"
 -   [**Атрибут WM/Видеохеигхт**](wm-videoheight-attribute.md)
 -   [**Атрибут WM/Видеовидс**](wm-videowidth-attribute.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Ссылка на атрибут**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

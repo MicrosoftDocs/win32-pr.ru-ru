@@ -3,7 +3,7 @@ title: Код уведомления NM_CHAR (Коммктрл. h)
 description: '\_Код уведомления NM char отправляется элементом управления при обработке клавиши знака. Этот код уведомления отправляется в виде \_ сообщения WM notify.'
 ms.assetid: b750f2a6-8642-4d76-96bb-bf58b00cd5c4
 keywords:
-- NM_CHAR кода уведомления элементы управления Windows
+- NM_CHAR кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e0910736bcb174c2f3ddb16174c153f4b22ac5bd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 73c35871410244bfb69f67c7e0b2c960d0dd50d432ad9cdcfd8765c7df449bf8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105654726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018952"
 ---
 # <a name="nm_char-notification-code"></a>\_Код уведомления "NM char"
 
@@ -49,19 +49,19 @@ NM_CHAR
 
 Возвращаемое значение игнорируется большинством элементов управления. Дополнительные сведения см. в документации по отдельным элементам управления.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,19 +1,19 @@
 ---
 title: Добавление клиентских эффектов рисования в макет текста
-description: Краткое руководство по добавлению эффектов рисования клиента в приложение DirectWrite, которое отображает текст с помощью интерфейса Идвритетекстлайаут и пользовательского модуля подготовки текста.
+description: краткое руководство по добавлению эффектов рисования клиента в DirectWrite приложение, которое отображает текст с помощью интерфейса идвритетекстлайаут и пользовательского модуля подготовки отчетов к тексту.
 ms.assetid: b66ff814-2113-48b0-8913-3d30a5d20077
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 338dc1a720bde80c1daf2b4baf7c7a4bad6d2cff
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7bae98813d8f8aa8fc8a7df0a1a53d11a0329c93abb22a7f60d60754b8edc91f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119071717"
 ---
 # <a name="how-to-add-client-drawing-effects-to-a-text-layout"></a>Добавление клиентских эффектов рисования в макет текста
 
-Краткое руководство по добавлению эффектов рисования клиента в приложение [DirectWrite](direct-write-portal.md) , которое отображает текст с помощью интерфейса [**идвритетекстлайаут**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) и пользовательского модуля подготовки текста.
+краткое руководство по добавлению эффектов рисования клиента в [DirectWrite](direct-write-portal.md) приложение, которое отображает текст с помощью интерфейса [**идвритетекстлайаут**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) и пользовательского модуля подготовки отчетов к тексту.
 
 Конечным продуктом этого учебника является приложение, которое отображает текст с диапазонами текста с разными цветами рисования на каждом изображении, как показано на следующем снимке экрана.
 
@@ -22,7 +22,7 @@ ms.locfileid: "104070259"
 > [!Note]  
 > Этот учебник является упрощенным примером создания пользовательских эффектов отрисовки клиента, а не примером простого метода для рисования цвета текста. Дополнительные сведения см. на странице справочника по [**идвритетекстлайаут:: сетдравинжеффект**](/windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-setdrawingeffect) .
 
- 
+ 
 
 Этот учебник содержит следующие компоненты.
 
@@ -121,7 +121,7 @@ pRT_(pRT)
 
 Запуск глифа — это набор глифов, имеющих одинаковый формат, включая эффекты рисования клиента. Метод [**DrawGlyphRun**](/windows/win32/api/dwrite/nf-dwrite-idwritetextrenderer-drawglyphrun) осуществляет отрисовку текста для указанного запуска глифа.
 
-Сначала создайте [**ID2D1PathGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1pathgeometry) и [**ID2D1GeometrySink**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometrysink), а затем извлеките структуру запуска глифов с помощью [**идвритефонтфаце:: жетглифрунаутлине**](/windows/win32/api/dwrite/nf-dwrite-idwritefontface-getglyphrunoutline). Затем преобразуйте источник геометрии с помощью метода [Direct2D](../direct2d/direct2d-portal.md) [**ID2D1Factory:: креатетрансформеджеометри**](../direct2d/id2d1factory-createtransformedgeometry.md) , как показано в следующем коде.
+Сначала создайте [**ID2D1PathGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1pathgeometry) и [**ID2D1GeometrySink**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometrysink), а затем извлеките структуру запуска глифов с помощью [**идвритефонтфаце:: жетглифрунаутлине**](/windows/win32/api/dwrite/nf-dwrite-idwritefontface-getglyphrunoutline). Затем преобразуйте источник геометрии с помощью метода [Direct2D](../direct2d/direct2d-portal.md) [**ID2D1Factory:: креатетрансформеджеометри**](../direct2d/id2d1factory-createtransformedgeometry.md) , как показано в следующем коде.
 
 
 ```C++
@@ -408,6 +408,6 @@ SafeRelease(&greenDrawingEffect_);
 
 
 
- 
+ 
 
- 
+ 

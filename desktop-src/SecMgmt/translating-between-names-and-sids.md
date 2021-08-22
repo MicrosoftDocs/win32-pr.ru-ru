@@ -4,12 +4,12 @@ ms.assetid: 8845b709-a8f9-4d0f-a4a6-86d23d6b01d5
 title: Преобразование между именами и идентификаторами безопасности
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 417034a99331c09f20546f2f352bc762a86f02e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d5f67bd95e41a9813522d635e737f4fc528a61aebceeab205a2d40e1f44d7c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119004812"
 ---
 # <a name="translating-between-names-and-sids"></a>Преобразование между именами и идентификаторами безопасности
 
@@ -81,7 +81,7 @@ void GetSIDInformation (LPWSTR AccountName,LSA_HANDLE PolicyHandle)
 
  
 
-Система управления доступом Windows также предоставляет функции, выполняющие переводы между идентификаторами безопасности и именами учетных записей: [**LookupAccountName**](/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea) и [**LookupAccountSid**](/windows/desktop/api/winbase/nf-winbase-lookupaccountsida). Если приложению требуется найти имя учетной записи или идентификатор безопасности и не использовать дополнительные функции политики LSA, используйте функции управления доступом Windows, а не функции политики LSA. Дополнительные сведения об этих функциях см. в разделе [Access Control](/windows/desktop/SecAuthZ/access-control).
+Windows Управление доступом также предоставляет функции, выполняющие переводы между идентификаторами безопасности и именами учетных записей: [**LookupAccountName**](/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea) и [**LookupAccountSid**](/windows/desktop/api/winbase/nf-winbase-lookupaccountsida). если приложению требуется найти имя учетной записи или идентификатор безопасности и не использовать дополнительные функции политики lsa, используйте функции управления доступом Windows, а не функции политики lsa. Дополнительные сведения об этих функциях см. в разделе [Access Control](/windows/desktop/SecAuthZ/access-control).
 
  
 

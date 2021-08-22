@@ -4,12 +4,12 @@ ms.assetid: 371ddb04-410a-425b-857f-ed3d4749b0f9
 title: Поворот строк текста
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 703dd4543caaa083d0b2d66512b53a0b5a213c9f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8e6ee17428e8f3727ed2d2798bacb4a1f6e43f39dc7422db2968f359359bb3cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119037642"
 ---
 # <a name="rotating-lines-of-text"></a>Поворот строк текста
 

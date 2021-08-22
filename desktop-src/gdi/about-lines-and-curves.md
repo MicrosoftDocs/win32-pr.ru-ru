@@ -4,18 +4,18 @@ ms.assetid: 0ee0c0a6-cb9f-480f-a75d-72b3659cc7fb
 title: О строках и кривых
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa121b53b120e8840fed5f9830a5b89be774f751
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 62d24e67d5c0c8e4554db03caec24bf257698c29e47f79d24ca0bbbedd768ea4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119038382"
 ---
 # <a name="about-lines-and-curves"></a>О строках и кривых
 
 Многие типы приложений используют линии и кривые для рисования графических данных на растровых устройствах. Автоматизированное проектирование (CAD) и рисование приложений используют линии и кривые для структурирования объектов, указания центров объектов, размеров объектов и т. д. В приложениях для работы с электронными таблицами линии и кривые используются для рисования сеток, диаграмм и графиков. Текстовые приложения используют линии для создания правил и границ на странице текста.
 
--   [Линии](lines.md)
+-   [Строки](lines.md)
 -   [Кривые](curves.md)
 -   [Объединенные линии и кривые](combined-lines-and-curves.md)
 -   [Атрибуты линий и кривых](line-and-curve-attributes.md)

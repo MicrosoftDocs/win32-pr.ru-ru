@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f8e66fd0754ec82de2354983e10e23ffc6329569
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 0db19c74efa323fa7e3abc4bfd17c14a471cbb9c81414ae78064f84bfc19fa7c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103987384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013582"
 ---
 # <a name="strict_context_handle-attribute"></a>атрибут с определенным \_ \_ маркером контекста
 
@@ -59,7 +59,7 @@ interface interface-name
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Как правило, когда вызов метода интерфейса создает маркер контекста, этот обработчик освобождается бесплатно для любого другого интерфейса. При использовании атрибута исключительного **\[ \_ \_ дескриптора \] контекста** гарантируется, что методы в этом интерфейсе будут принимать только дескрипторы контекста, созданные методом из того же интерфейса. Интерфейсы, скомпилированные без использования **\[ \_ \_ дескриптора \]** с определенными контекстами, не могут принимать дескрипторы контекста, созданные для интерфейсов, **\[ \_ \_ \] скомпилированных с помощью**
 
@@ -97,6 +97,6 @@ interface interface-name
 [Тип \_ строгого \_ \_ маркера контекста](type-strict-context-handle.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

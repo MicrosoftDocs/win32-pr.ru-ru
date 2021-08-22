@@ -4,12 +4,12 @@ ms.assetid: f90082e7-b39e-41fb-800b-1afa2b574f96
 title: Макросы управления каталогом
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7101c133b17319936214454bd30639741772a438
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: caa1ba9f40eafc5c57604b1953354493545e54b40151363b3f5de510985e44b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104497973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068824"
 ---
 # <a name="directory-management-macros"></a>Макросы управления каталогом
 

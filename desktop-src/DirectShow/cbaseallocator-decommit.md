@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 613af805f1c04a7bf375755ff8f3adba7b70be18
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 614986a912f08d918d4fbbaf6b3eeeb0d3b2c3eabc47748351934a08b8280cca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119017552"
 ---
 # <a name="cbaseallocatordecommit-method"></a>Кбасеаллокатор. uncommit, метод
 
@@ -44,24 +44,24 @@ HRESULT Decommit();
 
 Возвращает значение S \_ ОК.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 После вызова этого метода вызовы метода [**кбасеаллокатор::-buffer**](cbaseallocator-getbuffer.md) завершатся ошибкой. После выпуска образцов они возвращаются в бесплатный список. Когда возвращается последняя выборка, распределитель вызывает метод [**кбасеаллокатор:: Free**](cbaseallocator-free.md) , который освобождает выделенную память. (В базовом классе **Free** является чисто виртуальным методом.)
 
 Кроме того, этот метод освобождает все потоки, заблокированные в вызовах метода **buffer** . Вызовы метода " **buffer** " завершаются ошибкой.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Амфилтер. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>амфилтер. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

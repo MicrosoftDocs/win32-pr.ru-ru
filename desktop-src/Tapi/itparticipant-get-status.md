@@ -4,16 +4,16 @@ ms.assetid: 03ad763b-5223-41b5-b0cf-1f13c761f5c2
 title: 'Метод ИтпартиЦипант:: get_Status (Ипмсп. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2de39ac0833f856e35cc120b4f4e5b00bcd617de
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b1585c9605447e7b515885ecf9e30d060afb7a57d14c5b29a66025f2df9da05a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675486"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119060852"
 ---
 # <a name="itparticipantget_status-method"></a>Метод ИтпартиЦипант:: Get \_ status
 
-\[**получить \_ Состояние** недоступно для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[**получить \_ состояние** недоступно для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Метод **Get \_ Status** Возвращает тип Variant \_ bool, указывающий состояние участника.
 
@@ -65,7 +65,7 @@ HRESULT get_Status(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Включение или отключение состояния участника в потоке позволяет приложению по сути отключать данного участника.
 
@@ -76,7 +76,7 @@ HRESULT get_Status(
 | Требование | Значение |
 |-------------------------|--------------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 3,0 или более поздней версии<br/>                                                |
-| Header<br/>       | <dl> <dt>Ипмсп. h</dt> </dl>   |
+| Заголовок<br/>       | <dl> <dt>Ипмсп. h</dt> </dl>   |
 | Библиотека<br/>      | <dl> <dt>UUID. lib</dt> </dl>  |
 | DLL<br/>          | <dl> <dt>Tapi3.dll</dt> </dl> |
 

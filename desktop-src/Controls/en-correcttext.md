@@ -3,7 +3,7 @@ title: Код уведомления EN_CORRECTTEXT (RichEdit. h)
 description: Сообщает родительскому окну расширенного редактирования элемента управления, что Сив \_ правильный жест, давая родительскому окну возможность отменить исправление текста. Форматированный элемент управления "поле ввода" отправляет этот код уведомления в виде \_ сообщения WM notify.
 ms.assetid: d6f6278f-ff63-4f6a-a352-2b4d70df3e1a
 keywords:
-- EN_CORRECTTEXT кода уведомления элементы управления Windows
+- EN_CORRECTTEXT кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e5d1339513a94967ab60bdab2b9ee39172b19e76
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 48f03bf0d1bd31cc1f4139c24c6b0efa904f013231af4e108b0f97ef7f308bbb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135215"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019422"
 ---
 # <a name="en_correcttext-notification-code"></a>\_Код уведомления EN корректтекст
 
@@ -51,7 +51,7 @@ EN_CORRECTTEXT
 
 Возвращает ненулевое значение для обработки действия.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот код уведомления отправляется, только если доступны возможности пера.
 
@@ -62,19 +62,19 @@ EN_CORRECTTEXT
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

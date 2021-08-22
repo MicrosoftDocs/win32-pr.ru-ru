@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1495da3f1a1f5e69e7a6af9c64e69aa1ea354abc
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 194057a8769f32902388e733731fb1e3d987ecafd0eff26ea62c15d4fc8555d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105713369"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984024"
 ---
 # <a name="servervalidation-eaptype-element-peap"></a>Элемент Сервервалидатион (Еаптипе) (PEAP)
 
@@ -33,7 +33,7 @@ ms.locfileid: "105713369"
 
 Элемент **сервервалидатион** определяется элементом [**еаптипе**](mspeapconnectionpropertiesv1schema-eaptype-element.md) .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент **сервервалидатион** является необязательным.
 
@@ -43,8 +43,8 @@ ms.locfileid: "105713369"
 
 | Роль | Минимальная поддерживаемая версия ОС |
 |------|------------------------------|
-| Клиент<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Сервер<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Клиент<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Сервер<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

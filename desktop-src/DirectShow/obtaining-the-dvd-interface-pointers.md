@@ -4,16 +4,16 @@ ms.assetid: 3d9315fc-dcfb-483a-9437-55c440813dc2
 title: Получение указателей на DVD-интерфейсах
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24825b2d24ffae70e3def131e8aa522a987c11d0
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 70d965dff48813800fa76821c72fa06a2d2f652e623c8aaeb7c0b44f9f9fafc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105682218"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072947"
 ---
 # <a name="obtaining-the-dvd-interface-pointers"></a>Получение указателей на DVD-интерфейсах
 
-После построения графа фильтра приложение может получить указатели, необходимые для управления навигатором DVD, диспетчером графов фильтров и окном видео. Основные действия с проверкой ошибок и другим кодом, которые были оставлены для простоты, показаны в следующем примере кода. Полный код находится в примере приложения DVD в методе Кдвдкоре:: Буилдграф. (Дополнительные сведения см. в разделе [примеры DirectShow](directshow-samples.md).)
+после построения графа фильтра приложение может получить указатели, необходимые для управления навигатором DVD, фильтром Graph Manager и окном видео. Основные действия с проверкой ошибок и другим кодом, которые были оставлены для простоты, показаны в следующем примере кода. Полный код находится в примере приложения DVD в методе Кдвдкоре:: Буилдграф. (дополнительные сведения см. в разделе [DirectShow samples](directshow-samples.md).)
 
 
 ```C++
@@ -53,7 +53,7 @@ hr = m_pDvdGB->GetDvdInterface(IID_IAMLine21Decoder, reinterpret_cast<void**>(&p
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

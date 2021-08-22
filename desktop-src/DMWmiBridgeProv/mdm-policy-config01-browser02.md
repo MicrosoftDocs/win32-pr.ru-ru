@@ -17,16 +17,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba68b4d3f6798a448447e7773dc299977c54434c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 72af15222a90a76e3e0d71e38c0d8af54ff1aa8702a712314b8ddc17af393cd5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018082"
 ---
 # <a name="mdm_policy_config01_browser02-class"></a>\_Класс политики MDM \_ Config01 \_ Browser02
 
-\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Майкрософт не дает никаких гарантий, явных или подразумеваемых, в отношении предоставленной здесь информации.\]
+\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, относительно предоставленной здесь информации.\]
 
 Класс **\_ политики MDM \_ Config01 \_ Browser02** представляет доступные политики браузера.
 
@@ -83,7 +83,7 @@ class MDM_Policy_Config01_Browser02
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ политики MDM \_ Config01 \_ Browser02** имеет следующие свойства.
 
@@ -309,7 +309,7 @@ class MDM_Policy_Config01_Browser02
 
 </dd> <dt>
 
-[EnterpriseSiteListServiceUrl](/windows/client-management/mdm/policy-csp-browser#browser-enterprisesitelistserviceurl)
+[ентерприсесителистсервицеурл](/windows/client-management/mdm/policy-csp-browser#browser-enterprisesitelistserviceurl)
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -501,7 +501,7 @@ class MDM_Policy_Config01_Browser02
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                      |
 | Пространство имен<br/>                | Корневой \\ CIMv2 \\ MDM \\ дммап<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>Дмвмибриджепров. mof</dt> </dl> |

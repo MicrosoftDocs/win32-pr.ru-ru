@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: acaf5e45eac6a630d0589e3c8fad106ae29fa3dc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b1b73a54ae9b5ccabacfbb1153c5d0d91f951e83082a1bdd3c7f7551ad813804
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669145"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119017482"
 ---
 # <a name="cbaseallocatornotifysample-method"></a>Кбасеаллокатор. Нотифисампле, метод
 
@@ -44,7 +44,7 @@ void NotifySample();
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если имеются потоки, ожидающие выборки, значение [**кбасеаллокатор:: m \_ лваитинг**](cbaseallocator-m-lwaiting.md) больше нуля. Если значение *m \_ лваитинг* больше нуля, этот метод вызывает функцию **ReleaseSemaphore** для семафора [**кбасеаллокатор:: m \_ хсем**](cbaseallocator-m-hsem.md) , активируя все ожидающие потоки. Он также сбрасывает значение *m \_ лваитинг* до нуля.
 
@@ -56,7 +56,7 @@ void NotifySample();
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Амфилтер. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>амфилтер. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

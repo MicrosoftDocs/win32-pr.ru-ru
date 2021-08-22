@@ -4,12 +4,12 @@ ms.assetid: 06e4e739-5280-4e21-a6ce-2d4db1c5e6e1
 title: Логические типы кистей
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e0561ee33cd1d6e7e16d37637d32256d3d3575f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d5a401037ec4886d67b5569319868ae21ed60bdb055edbc357c808b32d7aada3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119037802"
 ---
 # <a name="logical-brush-types"></a>Логические типы кистей
 

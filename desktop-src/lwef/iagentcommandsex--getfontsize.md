@@ -4,16 +4,16 @@ description: Иаженткоммандсекс
 ms.assetid: 8173e026-d28f-43d8-a8b4-96d1d97a8b68
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48a2450d94e89dd9dddc00a11af7f37bf4837558
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e92f2ce1908ea5f37d24fb8a085204917440f61ae30feb1e596639d0240c353d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104411055"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976274"
 ---
 # <a name="iagentcommandsexgetfontsize"></a>Иаженткоммандсекс:: FontSize
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT GetFontSize(
@@ -43,9 +43,9 @@ HRESULT GetFontSize(
 [**Иаженткоммандсекс:: сетфонтсизе**](iagentcommandsex--setfontsize.md), [ **иаженткоммандсекс:: сетфонтнаме**](iagentcommandsex--setfontname.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: eda47b75398b8643f7010ff7468f72f4a7d8c199
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 2fee49698d323b55404b319e28a90e6741e8de51e96d3015d5b348bc741fee84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104986548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986344"
 ---
 # <a name="min---vs"></a>min — VS
 
@@ -31,19 +31,19 @@ ms.locfileid: "104986548"
 
  
 
-где
+where
 
 -   DST — это регистр назначения.
 -   src0 является исходным регистром.
 -   src1 является исходным регистром.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
 | Версии шейдеров вершин | 1\_1 | 2 \_ 0 | 2 \_ x | 2 \_ SW | 3 \_ 0 | 3 \_ SW |
 |------------------------|------|------|------|-------|------|-------|
-| мин                    | x    | x    | x    | x     | x    | x     |
+| мин.                    | x    | x    | x    | x     | x    | x     |
 
 
 
@@ -61,7 +61,7 @@ dest.w=(src0.w < src1.w) ? src0.w : src1.w;
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

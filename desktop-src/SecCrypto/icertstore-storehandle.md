@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 86f57159a2fdd444f22593ec66fa99510a5260b1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2858e7484c82663b2ba6866d0f17b5528921619dbfa80cbb76ec0eabbb39a332
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105688901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119005622"
 ---
 # <a name="icertstorestorehandle-property"></a>Свойство Ицертсторе:: Сторехандле
 
@@ -50,13 +50,13 @@ CertStore.StoreHandle As Long
 
 Любое другое значение **HRESULT** указывает на сбой вызова.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы освободить контекст, необходимо вызвать либо метод [**CloseHandle**](icertstore-closehandle.md) , либо функцию [**цертклосесторе**](/windows/desktop/api/Wincrypt/nf-wincrypt-certclosestore) .
 
 Если задано свойство **сторехандле** , состояние всего объекта [**Store**](store.md) сбрасывается.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -67,7 +67,7 @@ CertStore.StoreHandle As Long
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

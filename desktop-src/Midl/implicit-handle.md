@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 22f410fa048a27e1f7626690e6308de4c1a31c2a
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 17c53ded4c7459be8f0c8eb98f3770d88ff88a9b7da20cb3482c1032a4f74e96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103889464"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013812"
 ---
 # <a name="implicit_handle-attribute"></a>неявный \_ атрибут Handle
 
@@ -45,7 +45,7 @@ implicit_handle(handle-type handle-name)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Маркер, заданный **\[ неявным \_ \]** атрибутом Handle, используется различными способами в зависимости от характера процедуры. Если процедура является удаленной, то маркер будет использоваться в качестве маркера привязки для удаленного вызова. Неявный обработчик также может использоваться для установления начальной привязки для функции, использующей маркер контекста. Если процедура является процедурой сериализации, то этот маркер используется в качестве маркера сериализации, управляющего операцией. В случае сериализации типа этот маркер используется в качестве маркера сериализации для всех сериализованных типов.
 
@@ -70,7 +70,7 @@ interface iface
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -89,9 +89,9 @@ interface iface
 [**относится**](include.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

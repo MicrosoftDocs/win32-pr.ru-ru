@@ -4,16 +4,16 @@ ms.assetid: 6bc6f3d2-d630-4a00-9d74-fb5fa7626e3f
 title: Итаттрибутелист::D удалить метод (Сдпблб. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 729dd79b88198f671949aeb79caf06289abd9a75
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8391b1e505f08227bc28351b698f2ab97371a93b89e2850f2befee67b2461c47
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119061042"
 ---
 # <a name="itattributelistdelete-method"></a>Итаттрибутелист::D удалить метод
 
-\[ В Windows Vista, Windows Server 2008 и последующих версиях операционной системы нельзя использовать встречные средства и элементы управления Конференц-телефонией и интерфейсы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[встречи и элементы управления встречными IP-телефонными соединениями недоступны для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Метод **Delete** удаляет атрибут по указанному индексу.
 
@@ -64,7 +64,7 @@ HRESULT Delete(
 | Требование | Значение |
 |-------------------------|---------------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 3,0 или более поздней версии<br/>                                                 |
-| Header<br/>       | <dl> <dt>Сдпблб. h</dt> </dl>   |
+| Заголовок<br/>       | <dl> <dt>Сдпблб. h</dt> </dl>   |
 | Библиотека<br/>      | <dl> <dt>UUID. lib</dt> </dl>   |
 | DLL<br/>          | <dl> <dt>Sdpblb.dll</dt> </dl> |
 

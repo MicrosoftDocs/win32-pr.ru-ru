@@ -12,12 +12,12 @@ api_name:
 api_type:
 - UserDefined
 api_location: ''
-ms.openlocfilehash: 296d755a0b082b46122432936d30614019b8b9a8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9bb84cc6a8492c729926b644a246b8ee8a03e1de4c2eae6e3de1fd88c5ba339f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103809305"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119004922"
 ---
 # <a name="scesvcattachmentanalyze-callback-function"></a>Функция обратного вызова Сцесвкаттачментанализе
 
@@ -49,7 +49,7 @@ SCESTATUS WINAPI SceSvcAttachmentAnalyze(
 
 Если эта функция завершается успешно, возвращается СЦЕСТАТУС \_ Success. В противном случае возвращается код ошибки. Дополнительные сведения о кодах ошибок конфигурации безопасности см. в разделе [возвращаемые значения вложений](management-return-values.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **сцесвкаттачментанализе** должна выполнять следующие действия:
 
@@ -66,8 +66,8 @@ SCESTATUS WINAPI SceSvcAttachmentAnalyze(
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/> |
 
 
 

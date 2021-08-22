@@ -6,12 +6,12 @@ keywords:
 - Планировщик задач примеры планировщик задач, ежедневный триггер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ebb5b11e1942f342437347f1aa4a510e101c56df
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2f32a5ec9b7eb7c6f6888bec669c422ff5348e97b9c3c0f27ed8b554dc1c0b78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104330928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119059952"
 ---
 # <a name="starting-an-executable-daily"></a>Запуск исполняемого файла ежедневно
 
@@ -23,22 +23,22 @@ ms.locfileid: "104330928"
 
 ## <a name="daily-trigger-examples"></a>Примеры ежедневного триггера
 
-В следующих примерах показано, как создавать задачи, запускаемые с помощью блокнота на ежедневной основе.
+в следующих примерах показано, как создавать задачи, которые запускаются Блокнот ежедневно.
 
 -   [Пример ежедневного триггера (сценарии)](daily-trigger-example--scripting-.md)
 -   [Пример ежедневного триггера (C++)](daily-trigger-example--c---.md)
 -   [Пример ежедневного триггера (XML)](daily-trigger-example--xml-.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Использование планировщик задач](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

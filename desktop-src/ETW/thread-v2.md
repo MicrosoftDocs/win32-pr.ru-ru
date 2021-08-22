@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: b00067af61a55e61f70b0c799a1512edf284f11c
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d057f80d5cf29f6660ee3a2ebd651c468496529a56a11147225ebd504451184c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105622"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069394"
 ---
 # <a name="thread_v2-class"></a>\_Класс Thread v2
 
@@ -70,12 +70,12 @@ class Thread_V2 : MSNT_SystemTrace
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 
@@ -85,7 +85,7 @@ class Thread_V2 : MSNT_SystemTrace
 [**ксвитч**](cswitch.md)
 </dt> <dt>
 
-[**Thread**](thread.md)
+[**Поток**](thread.md)
 </dt> <dt>
 
 [**\_TypeGroup1 потока**](thread-typegroup1.md)

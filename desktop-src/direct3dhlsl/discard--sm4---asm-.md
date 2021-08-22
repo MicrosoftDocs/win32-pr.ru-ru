@@ -4,12 +4,12 @@ description: Условно отметьте результаты построи
 ms.assetid: 566C4A9A-B32A-4AA6-A888-70F6965B1B5A
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 57d98365ae6d80710f15cf7204f98d810be30a13
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: ba6b5744ee8cf8d2953247711d95fe5d5ec6f96c36c700e1a38ce4e0cb1e1ff5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103987075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986604"
 ---
 # <a name="discard-sm4---asm"></a>отменить (SM4-ASM)
 
@@ -34,7 +34,7 @@ ms.locfileid: "103987075"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта инструкция Помечает текущий пиксель как завершенный, продолжая выполнение, чтобы другие Пиксели, выполняющиеся параллельно, могли получить производные при необходимости. Несмотря на то, что выполнение продолжится, все выходные данные шейдера пиксельных записываются до или после инструкции **Discard** отбрасываются.
 
@@ -66,9 +66,9 @@ ms.locfileid: "103987075"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
-| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | да       |
-| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
+| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Да       |
+| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Да       |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Нет        |
@@ -77,7 +77,7 @@ ms.locfileid: "103987075"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

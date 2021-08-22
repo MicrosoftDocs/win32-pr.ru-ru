@@ -4,18 +4,18 @@ ms.assetid: 9d5dd89e-9084-409d-86c0-30b57645d33d
 title: Пакет управления версиями ВАУКС (VSC)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ed51363a15c0024dcaf3edca5d21217cb29396d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bcdc91d5c4b2cea460c85b696c59bfce7799d39aed0a6bfcbc03f3d3c522a6ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072078"
 ---
 # <a name="vaux-source-control-vsc-pack"></a>Пакет управления версиями ВАУКС (VSC)
 
-В следующих таблицах перечислены значения, используемые драйвером МСДВ для заполнения элемента **двдввауксктл** структуры [**двинфо**](/windows/desktop/api/strmif/ns-strmif-dvinfo) . Дополнительные сведения см. [в разделе Параметры полей двинфо в драйвере мсдв](dvinfo-field-settings-in-the-msdv-driver.md).
+В следующих таблицах перечислены значения, используемые драйвером МСДВ для заполнения элемента **двдввауксктл** структуры [**двинфо**](/windows/desktop/api/strmif/ns-strmif-dvinfo) . дополнительные сведения см. [в разделе двинфо Field Параметры в драйвере мсдв](dvinfo-field-settings-in-the-msdv-driver.md).
 
-**Параметры ДВКР**
+**двкр Параметры**
 
 
 
@@ -233,7 +233,7 @@ SC (1)
 
  
 
-**Параметры DVCPRO 25 и DVCPRO 50 (запланированные)**
+**DVCPRO 25 и DVCPRO 50 Параметры (запланированный)**
 
 
 
@@ -401,7 +401,7 @@ IL (1)
 
  
 
-**Параметры DVCPRO 100 (запланированные)**
+**DVCPRO 100 Параметры (запланированная)**
 
 
 
@@ -537,7 +537,7 @@ IL (1)
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Ниже перечислены коды полей, которые представляют интерес:
 
@@ -553,14 +553,14 @@ IL (1)
     -   0 = тип 0 (см. IEC 61880)
     -   1 = тип 1 (см. ЕТСИ EN 300 294)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Цифровое видео в DirectShow](digital-video-in-directshow.md)
 </dt> <dt>
 
-[Параметры полей ДВИНФО в драйвере МСДВ](dvinfo-field-settings-in-the-msdv-driver.md)
+[Параметры поля двинфо в драйвере мсдв](dvinfo-field-settings-in-the-msdv-driver.md)
 </dt> </dl>
 
  

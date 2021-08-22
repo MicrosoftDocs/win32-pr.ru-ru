@@ -1,19 +1,19 @@
 ---
-title: Объекты (платформа Windows для ленты)
-description: Справочная документация по объектам платформы Windows Ribbon.
+title: объекты (платформа ленты Windows)
+description: справочная документация по объектам платформы ленты Windows.
 ms.assetid: 8401efed-e753-4fcb-8fcf-208dc42a85ae
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bae641decce31c96b1d4f44c8de618bb9112503b
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 7bffeca2b10e3952d6b73b7d129f6e77bb2d7a5b93434aab8fa97885356cd745
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103988099"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119086537"
 ---
-# <a name="objects-windows-ribbon-framework"></a>Объекты (платформа Windows для ленты)
+# <a name="objects-windows-ribbon-framework"></a>объекты (платформа ленты Windows)
 
-Справочная документация по объектам платформы Windows Ribbon.
+справочная документация по объектам платформы ленты Windows.
 
 ### <a name="objects"></a>Объекты
 
@@ -28,11 +28,11 @@ ms.locfileid: "103988099"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Справочник по платформе ленты Windows](windowsribbon-reference-entry.md)
+[Windows Справочник по платформе ленты](windowsribbon-reference-entry.md)
 </dt> </dl>
 
  

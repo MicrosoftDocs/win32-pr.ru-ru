@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 019a06be10a4937127d98d508275b57dfe508399
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 187607b783678d3045224daec021eabf436fa8ba1884128789f44b06ac4365ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104532720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067654"
 ---
 # <a name="align-switch"></a>параметр/align
 
@@ -26,7 +26,7 @@ ms.locfileid: "104532720"
 > [!Note]  
 > Средство Mktyplib.exe устарело. Вместо этого используйте компилятор MIDL.
 
- 
+ 
 
 ``` syntax
 midl /align:alignment
@@ -43,7 +43,7 @@ midl /align:alignment
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При создании нового файла makefile используйте параметр [**/Zp**](-zp.md) .
 
@@ -65,9 +65,9 @@ midl /align:alignment
 [**/ZP**](-zp.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

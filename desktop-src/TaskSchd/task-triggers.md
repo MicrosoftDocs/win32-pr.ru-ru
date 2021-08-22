@@ -12,12 +12,12 @@ keywords:
 - триггеры, основанные на времени планировщик задач
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d465dfa015be19ff220a77d3c85f0cbb223c4899
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0b0060511556615c638eb8385a757e9c44147720b659bb11bfe4f0849e4499ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104252917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002302"
 ---
 # <a name="task-triggers"></a>Триггеры задач
 
@@ -39,7 +39,7 @@ ms.locfileid: "104252917"
 
 В планировщик задач 1,0 несколько триггеров можно рассматривать как расписание, набор времени, когда начинается задача. В этом случае расписанием является набор раз (заданный объединением всех триггеров, связанных с рабочим элементом), в которых будет выполняться рабочий элемент.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -55,9 +55,9 @@ ms.locfileid: "104252917"
 [Сведения о планировщик задач](about-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,26 +1,26 @@
 ---
-title: Примеры приложений клиента DRM Microsoft Windows Media
-description: Примеры приложений клиента DRM Microsoft Windows Media
+title: примеры приложений для клиента Microsoft Windows Media DRM
+description: примеры приложений для клиента Microsoft Windows Media DRM
 ms.assetid: 7bbcc238-2858-4a08-a76b-9502fc453f17
 keywords:
-- Windows Media Format SDK, примеры приложений
-- Windows Media Format SDK, примеры приложений
+- Windows Пакет SDK для формата мультимедиа, примеры приложений
+- Windows Пакет SDK для формата мультимедиа, примеры приложений
 - Управление цифровыми правами (DRM), примеры приложений
 - DRM (Управление цифровыми правами), примеры приложений
 - Управление цифровыми правами (DRM), примеры приложений
 - DRM (Управление цифровыми правами), примеры приложений
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f49d38a7a0f4865e319db0dc55841ce9e67c297e
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: efd21fc5351b1987eb2476e46a56ef09a51302004c5a29ef4d98bb09535521c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104414457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119085995"
 ---
-# <a name="microsoft-windows-media-drm-client-sample-applications"></a>Примеры приложений клиента DRM Microsoft Windows Media
+# <a name="microsoft-windows-media-drm-client-sample-applications"></a>примеры приложений для клиента Microsoft Windows Media DRM
 
-Примеры приложений, которые используют расширенные API клиента DRM Windows Media, предоставляются как проекты для Microsoft Visual Studio 2005.
+примеры приложений, использующих расширенные api клиента DRM для Windows мультимедиа, предоставляются в виде проектов для Microsoft Visual Studio 2005.
 
 В следующей таблице приводятся сводные данные по примерам. Дополнительные сведения о каждом образце, включая сведения об использовании, можно найти в файле readme.txt в каждом каталоге выборки.
 
@@ -35,11 +35,11 @@ ms.locfileid: "104414457"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[**О расширенных API-интерфейсах клиента DRM Windows Media**](about-the-windows-media-drm-client-extended-apis.md)
+[**сведения о расширенных api-интерфейсах клиента DRM Windows Media**](about-the-windows-media-drm-client-extended-apis.md)
 </dt> </dl>
 
  

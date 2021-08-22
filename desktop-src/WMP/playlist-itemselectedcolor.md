@@ -3,7 +3,7 @@ title: Список воспроизведения. Итемселектедко
 description: Атрибут Итемселектедколор указывает или получает значение, обозначающее цвет текста выбранного элемента в списке воспроизведения.
 ms.assetid: b7da5874-b8eb-46b3-8455-23bf146773cf
 keywords:
-- Проигрыватель Windows Media Player. Итемселектедколор
+- проигрыватель Windows Media списка воспроизведения. итемселектедколор
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ca82e9e8e68daefc746b5bb4a68a20452a584fdc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 51cddc80450f7051c4bdaacb78ecce62ed72a4f94f9b10ee583cae89209f027c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105649069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054222"
 ---
 # <a name="playlistitemselectedcolor"></a>Список воспроизведения. Итемселектедколор
 
@@ -29,19 +29,19 @@ ms.locfileid: "105649069"
 
 ## <a name="possible-values"></a>Возможные значения
 
-Этот атрибут является **строкой** для чтения и записи, представляющей цвет. Значение по умолчанию — цвет выделения текста Windows.
+Этот атрибут является **строкой** для чтения и записи, представляющей цвет. значение по умолчанию — Windows цвет выделения текста.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 10<br/> |
+| Версия<br/> | проигрыватель Windows Media 10<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
