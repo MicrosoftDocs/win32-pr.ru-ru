@@ -7,12 +7,12 @@ keywords:
 - Справочник по языку MIDL MIDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c543e8f49b2f79b49548bac3b1b0dfdb55775866
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 6313497b995ccc8ccc0f47827ab871e86a95dc6b4b09e5b9841fe32ba3c76e8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103987473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067144"
 ---
 # <a name="midl-language-reference"></a>Справочник по языку MIDL
 
@@ -21,7 +21,7 @@ ms.locfileid: "103987473"
 | Раздел | Описание |
 | - | - |
 | [Зарезервированные ключевые слова](reserved-keywords.md) | В этом разделе перечислены зарезервированные ключевые слова в MIDL. Вы не можете использовать эти ключевые слова в именах типов и членов. |
-| [Сериализация дескрипторов контекста в смешанном режиме](mixed-mode-serialization-of-context-handles.md) | В Microsoft Windows XP один интерфейс может содержать как сериализованные, так и несериализованные дескрипторы контекста, которые называются сериализацией в смешанном режиме. |
+| [Сериализация дескрипторов контекста в смешанном режиме](mixed-mode-serialization-of-context-handles.md) | в Microsoft Windows XP один интерфейс может содержать как сериализованные, так и несериализованные дескрипторы контекста, которые называются сериализацией в смешанном режиме. |
 
 Записи ссылок упорядочены в алфавитном порядке, каждая запись содержит синтаксис, примеры, описания и перекрестные ссылки.
 
@@ -32,13 +32,13 @@ ms.locfileid: "103987473"
 [**комментировани**](annotate.md)  
 [**appobject**](appobject.md)  
 [**массивы**](/windows/desktop/Rpc/arrays)  
-[**async**](async.md)  
+[**Async**](async.md)  
 [**асинхронный \_ UUID**](async-uuid.md)  
 [**Автоматическая \_ работа**](auto-handle.md)  
 [**bindable**](bindable.md)  
-[**Логическая**](boolean.md)  
+[**Логическое**](boolean.md)  
 [**транслировать**](broadcast.md)  
-[**byte**](byte.md)  
+[**двухбайтовых**](byte.md)  
 [**\_число байтов**](byte-count.md)  
 [**вызвать \_ как**](call-as.md)  
 [**обратный вызов**](callback.md)  
@@ -67,16 +67,16 @@ ms.locfileid: "103987473"
 [**двойной**](dual.md)  
 [**включить \_ выделение**](enable-allocate.md)  
 [**шифровать**](encode.md)  
-[**endpoint**](endpoint.md)  
+[**конечной**](endpoint.md)  
 [**операции**](entry.md)  
-[**перечисления**](enum.md)  
+[**enum**](enum.md)  
 [**\_состояние ошибки \_ t**](error-status-t.md)  
 [**явный \_ маркер**](explicit-handle.md)  
 [**\_состояние сбоя**](fault-status.md)  
 [**первый \_ —**](first-is.md)  
 [**сделать**](float.md)  
 [**принудительное \_ выделение**](force-allocate.md)  
-[**справиться**](handle.md)  
+[**handle**](handle.md)  
 [**Handle \_ t**](handle-t.md)  
 [**helpcontext**](helpcontext.md)  
 [**helpfile**](helpfile.md)  
@@ -84,7 +84,7 @@ ms.locfileid: "103987473"
 [**helpstringcontext**](helpstringcontext.md)  
 [**helpstringdll**](helpstringdll.md)  
 [**служеб**](hidden.md)  
-[**Hyper**](hyper.md)  
+[**hyper**](hyper.md)  
 [**удостоверения**](id.md)  
 [**idempotent**](idempotent.md)  
 [**обращать**](ignore.md)  
@@ -103,10 +103,10 @@ ms.locfileid: "103987473"
 [**Последний \_ —**](last-is.md)  
 [**намного**](lcid.md)  
 [**Длина \_ равна**](length-is.md)  
-[**библиотека**](library.md)  
+[**Библиотечная**](library.md)  
 [**обладателем**](licensed.md)  
 [**Языковые**](local.md)  
-[**поддерживаем**](long.md)  
+[**long**](long.md)  
 [**Максимальное \_ число**](max-is.md)  
 [**Ну**](maybe.md)  
 [**Сообщение**](message.md)  
@@ -146,15 +146,15 @@ ms.locfileid: "103987473"
 [**частичный \_ пропуск**](partial-ignore.md)  
 [**дать**](pipe.md)  
 [**Указатель \_ по умолчанию**](pointer-default.md)  
-[**pragma**](pragma.md)  
+[**включают**](pragma.md)  
 [**propget**](propget.md)  
 [**propput**](propput.md)  
 [**propputref**](propputref.md)  
 [**-**](proxy.md)  
-[**ptr**](ptr.md)  
+[**указатель**](ptr.md)  
 [**public**](public.md)  
 [**разнообраз**](range.md)  
-[**readonly**](readonly.md)  
+[**доступно**](readonly.md)  
 [**ref**](ref.md)  
 [**представлять \_ как**](represent-as.md)  
 [**requestedit**](requestedit.md)  
@@ -169,7 +169,7 @@ ms.locfileid: "103987473"
 [**Нечеткий \_ Контекстный \_ маркер**](strict-context-handle.md)  
 [**Строка**](string.md)  
 [**struct**](struct.md)  
-[**switch**](switch.md)  
+[**ключом**](switch.md)  
 [**параметр \_ имеет**](switch-is.md)  
 [**Тип коммутатора \_**](switch-type.md)  
 [**передать \_ как**](transmit-as.md)  
@@ -180,7 +180,7 @@ ms.locfileid: "103987473"
 [**без знака**](unsigned.md)  
 [**Пользовательская \_ Упаковка**](user-marshal.md)  
 [**usesgetlasterror**](usesgetlasterror.md)  
-[**UUID**](uuid.md)  
+[**uuid**](uuid.md)  
 [**\_перечисление v1**](v1-enum.md)  
 [**vararg**](vararg.md)  
 [**Версия**](version.md)  
@@ -189,6 +189,6 @@ ms.locfileid: "103987473"
 [**проводное \_ маршалирование**](wire-marshal.md)  
 </dl>
 
- 
+ 
 
- 
+ 

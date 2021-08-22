@@ -4,12 +4,12 @@ ms.assetid: 53939c65-3725-44cc-bec6-775c3b921770
 title: Синтаксис переменной Effect (Direct3D 10)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8068571ff393e83ba0ae11eb2f9cb62f0bbb49df
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2422ba2cebf18c72a14d621ef13a98700aefd2858169c6e96566b455ec21d2ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104423369"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119497714"
 ---
 # <a name="effect-variable-syntax-direct3d-10"></a>Синтаксис переменной Effect (Direct3D 10)
 
@@ -93,7 +93,7 @@ Texture2D g_MeshTexture;            // Color texture for mesh
 
 Выборка текстуры осуществляется с помощью образца текстуры. Чтобы настроить образец в результате, см. [тип образца](../direct3dhlsl/dx-graphics-hlsl-sampler.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

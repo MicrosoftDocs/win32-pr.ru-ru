@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: b4dc97f2e3b5f85d472cfcbfad6017ce4e051e4b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e4149afb638c01b31d51c45f5d55c6f43fe50b4a85b77c25b4f6a5e0ed5993fa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652001"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119498864"
 ---
 # <a name="viewmodify-method"></a>Метод представления. Modify
 
@@ -80,11 +80,11 @@ View.Modify(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод должен вызываться после метода [**EXECUTE**](view-execute.md) .
 
-Чтобы выполнить любую инструкцию SQL, необходимо создать представление. Однако представление, в котором не создается результирующий набор, например CREATE TABLE или INSERT INTO, не может использоваться с методом **Modify** для обновления таблиц, если это представление.
+для выполнения любой SQL инструкции необходимо создать представление. Однако представление, в котором не создается результирующий набор, например CREATE TABLE или INSERT INTO, не может использоваться с методом **Modify** для обновления таблиц, если это представление.
 
 Значения Мсивиевмодифивалидате, Мсивиевмодифивалидатенев, Мсивиевмодифивалидатефиелд и Мсивиевмодифивалидатеделете метода **Modify** не выполняют фактических обновлений; они гарантируют допустимость данных в записи. Для использования этих действий требуется, чтобы база данных содержала [ \_ таблицу проверки](-validation-table.md) .
 
@@ -97,13 +97,13 @@ View.Modify(
 
 В случае сбоя метода можно получить расширенные сведения об ошибке с помощью метода [**ластерроррекорд**](installer-lasterrorrecord.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. установщик Windows в Windows Server 2003 или Windows XP<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |
 | IID<br/>     | IID \_ IView определен как 000C109C-0000-0000-C000-000000000046<br/>                                                                                                                                                                                |
 

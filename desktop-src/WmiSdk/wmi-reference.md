@@ -5,19 +5,19 @@ ms.tgt_platform: multiple
 title: Справочник по инструментарию WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34e3ea56805528ce460101979553ca9aefdca490
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 85c3b1ce03ecb3d486730d9d1abd4cbe7e089a42f20eb4167b12833c93010dc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712098"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049882"
 ---
 # <a name="wmi-reference"></a>Справочник по инструментарию WMI
 
 В справочнике по WMI содержатся следующие разделы, в которых обсуждаются основные функции WMI.
 
 > [!Note]  
-> Кроме того, вы можете ознакомиться со справочником по инфраструктуре управления Windows (MI) по адресу MI.
+> кроме того, в справочнике по mi можно ознакомиться с справочником по инфраструктуре управления Windows (MI).
 
  
 
@@ -29,12 +29,12 @@ ms.locfileid: "105712098"
 | [Поставщики WMI](wmi-providers.md)                                                                                       | Список предварительно установленных поставщиков, которые могут запрашивать сведения из и отправить инструкции в управляемые объекты WMI.                                                                                                                                                                                                                                         |
 | [COM API для WMI](com-api-for-wmi.md)                                                                                   | Полный список COM-интерфейсов, используемых приложениями и поставщиками управления C и C++ для доступа к WMI.                                                                                                                                                                                                                                               |
 | [API сценариев для инструментария WMI](scripting-api-for-wmi.md)                                                                       | Полный список компонентов API скриптов для инструментария WMI.                                                                                                                                                                                                                                                                                            |
-| [WMI и SQL](wmi-and-sql.md)                                                                                           | Запросы WMI используют WQL, подмножество SQL с именем WQL.                                                                                                                                                                                                                                                                                                          |
+| [Инструментарий WMI и SQL](wmi-and-sql.md)                                                                                           | запросы WMI используют wql, подмножество SQL с именем WQL.                                                                                                                                                                                                                                                                                                          |
 | [Файлы журналов WMI](wmi-log-files.md)                                                                                       | Инструментарий WMI и поставщики WMI создают несколько файлов журналов, которые помогают устранять неполадки.                                                                                                                                                                                                                                                                       |
 | [Безопасность WMI](wmi-security.md)                                                                                         | В этом разделе содержится список объектов, используемых в дескрипторах безопасности, и константы, используемые в методах, управляющих дескрипторами безопасности или привилегиями.                                                                                                                                                                                                   |
 | [Средства Command-Line инструментария WMI](wmi-command-line-tools.md)                                                                     | Синтаксис, используемый [mofcomp](mofcomp.md), [Winmgmt](winmgmt.md), [**WMIC**](wmic.md), [**smi2smir**](smi2smir.md)и [wmiadap](wmiadap.md).                                                                                                                                                                                                           |
 | [Объекты и значения инфраструктуры WMI](wmi-infrastructure-objects-and-values.md)                                       | Сведения о кодах возврата WMI, событиях, [*квалификаторах*](gloss-q.md), синтаксисе [*MOF-файл (MOF)*](gloss-m.md) , типах счетчиков производительности и других данных, используемых поставщиками WMI, сценариями и приложениями.                                                                            |
-| [Управляемый Справочник по классам команд WMI Windows PowerShell](managed-reference-for-wmi-powershell-command-classes.md) | Windows PowerShell реализует функции инструментарий управления Windows (WMI) (WMI) с помощью набора командлетов. Эти командлеты можно использовать для выполнения комплексных задач, необходимых для управления локальными и удаленными компьютерами.<br/> Дополнительные сведения см. в разделе [Windows PowerShell](https://msdn.microsoft.com/library/dd835506(v=vs.85).aspx) .<br/> |
+| [управляемый справочник по классам команд WMI Windows PowerShell](managed-reference-for-wmi-powershell-command-classes.md) | Windows PowerShell реализует функции инструментарий управления Windows (WMI) (WMI) с помощью набора командлетов. Эти командлеты можно использовать для выполнения комплексных задач, необходимых для управления локальными и удаленными компьютерами.<br/> дополнительные сведения см. в разделе [Windows PowerShell](https://msdn.microsoft.com/library/dd835506(v=vs.85).aspx) .<br/> |
 
 
 

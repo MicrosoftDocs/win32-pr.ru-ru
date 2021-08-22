@@ -1,19 +1,19 @@
 ---
-title: Константы (Справочник по анимации Windows)
-description: Справочная документация по константам и перечислениям, определенным диспетчером анимации Windows.
+title: константы (справочник по Windows анимации)
+description: справочная документация по константам и перечислениям, определенным диспетчером анимации Windows.
 ms.assetid: c590cf68-28ce-4d7d-949d-2683ece3c12d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef2cceae981ea7cc0e2b78d9dadbea88075eb3ad
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 23964a2936b3879d551bcde9c2c25c2d63465e1cb4afb07cee25a3ce74a2a57f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "105672441"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119419133"
 ---
-# <a name="constants-windows-animation-reference"></a>Константы (Справочник по анимации Windows)
+# <a name="constants-windows-animation-reference"></a>константы (справочник по Windows анимации)
 
-Справочная документация по константам и перечислениям, определенным диспетчером анимации Windows.
+справочная документация по константам и перечислениям, определенным диспетчером анимации Windows.
 
 ## <a name="in-this-section"></a>В этом разделе
 
@@ -27,18 +27,18 @@ ms.locfileid: "105672441"
 | [**\_ \_ время бездействия анимации пользовательского интерфейса \_**](ui-animation-repeat-indefinitely.md)<br/>                                        | Указывает, что интервал между двумя опорными кадрами в раскадровке должен повторяться бессрочно, пока не будет вызван метод [**иуианиматионсторибоард:: заключение**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-conclude) .<br/>                                                            |
 | [**Анимация пользовательского интерфейса \_ \_ повторяется \_ \_ \_ на \_ завершающем этапе**](ui-animation-repeat-indefinitely-conclude-at-end.md)<br/>     | Указывает, что интервал между двумя опорными кадрами в раскадровке должен повторяться бессрочно, пока цикл кадров не завершится в конечном опорном кадре при вызове метода [**иуианиматионсторибоард::**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-conclude) Terminate.<br/>   |
 | [**\_Анимация пользовательского \_ интерфейса \_ в течение неопределенного времени \_ завершается \_ в \_ начале**](ui-animation-repeat-indefinitely-conclude-at-start.md)<br/> | Указывает, что интервал между двумя опорными кадрами в раскадровке должен повторяться бессрочно, пока цикл кадров не завершится на начальном опорном кадре при вызове метода [**иуианиматионсторибоард::**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-conclude) Terminate.<br/> |
-| [**время анимации пользовательского интерфейса, в \_ \_ \_ конце концов**](ui-animation-seconds-eventually.md)<br/>                                          | Указывает, что анимация Windows может задержать запланированное начало раскадровки на столько времени, сколько необходимо, чтобы избежать конфликтов планирования.<br/>                                                                                                                     |
+| [**время анимации пользовательского интерфейса, в \_ \_ \_ конце концов**](ui-animation-seconds-eventually.md)<br/>                                          | указывает, что Windows анимация может задержать запланированное начало раскадровки на столько времени, сколько необходимо, чтобы избежать конфликтов планирования.<br/>                                                                                                                     |
 | [**Анимация пользовательского интерфейса, \_ \_ с \_ бесконечностью**](ui-animation-seconds-infinite.md)<br/>                                              | Указывает, что нет запланированных событий.<br/>                                                                                                                                                                                                                   |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Справочник по анимации Windows](windows-animation-reference.md)
+[Windows Справочник по анимации](windows-animation-reference.md)
 </dt> </dl>
 
  

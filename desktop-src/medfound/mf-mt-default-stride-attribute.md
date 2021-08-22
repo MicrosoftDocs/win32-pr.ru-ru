@@ -4,12 +4,12 @@ ms.assetid: 71fda231-3497-49db-b82e-2fd79f6ade66
 title: Атрибут MF_MT_DEFAULT_STRIDE (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7b2b9633e14c8d414355ca41be29a9c6c2f8886
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e130918f62d6ff986ced7dd6449dcc2d381a00fc0d7c0342eeb4afcc03833bef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263621"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035242"
 ---
 # <a name="mf_mt_default_stride-attribute"></a>MF \_ , \_ по умолчанию, \_ атрибут STRIDE
 
@@ -21,7 +21,7 @@ ms.locfileid: "104263621"
 
 Рассматривать как значение **Int32** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значение атрибута хранится как **UINT32**, но должно быть приведено к значению 32-разрядного целого числа со знаком. Шаг может быть отрицательным.
 
@@ -35,19 +35,19 @@ ms.locfileid: "104263621"
 
 Константа GUID для этого атрибута экспортируется из мфууид. lib.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows Vista \|\]<br/>                              |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 \|\]<br/>                        |
-| Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Приложения UWP для классических приложений Vista \|\]<br/>                              |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для классических приложений сервера 2008 \|\]<br/>                        |
+| Заголовок<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: e9f8fef5-73da-424d-a239-09779b81a02b
 title: Свойство Авенквидеоинпутчромасубсамплинг (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 958237a50c42ef7e5387c89cb7476a12ae72968f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 0a956f9320f7c920e68cbb1038cf11537ef14d791205eef8affabc4c38f8f67e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103990198"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119342314"
 ---
 # <a name="avencvideoinputchromasubsampling-property"></a>Авенквидеоинпутчромасубсамплинг, свойство
 
@@ -29,14 +29,14 @@ ms.locfileid: "103990198"
 
 Значение этого свойства является побитовым для флагов перечисления [**еавенквидеочромасубсамплинг**](/windows/desktop/api/codecapi/ne-codecapi-eavencvideochromasubsampling) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 

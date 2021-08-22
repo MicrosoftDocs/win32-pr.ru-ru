@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 76c8fbcd9b6cb15dbbb735296a3aada8f5e568cb
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 0651a27419a369721806e9aa4717a20088f8f5fbbaa0063628d2feb69648c7cf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104068862"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119562684"
 ---
 # <a name="errorf-function"></a>Функция еррорф
 
@@ -28,8 +28,8 @@ ms.locfileid: "104068862"
 
 ``` syntax
 void errorf(
-   string format,
-    argument ...
+   string format,
+    argument ...
 );
 ```
 
@@ -55,7 +55,7 @@ void errorf(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта операция не выполняет никаких действий на устройствах, которые ее не поддерживают.
 
@@ -67,22 +67,22 @@ void errorf(
 
 | Модель шейдера                                                        | Поддерживается |
 |---------------------------------------------------------------------|-----------|
-| [Shader Model 4 (DirectX HLSL) или более поздней версии.](dx-graphics-hlsl-sm3.md) | да       |
+| [Shader Model 4 (DirectX HLSL) или более поздней версии.](dx-graphics-hlsl-sm3.md) | Да       |
 
 
 
- 
+ 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [Встроенные функции](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

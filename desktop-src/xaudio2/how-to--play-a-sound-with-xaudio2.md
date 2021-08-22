@@ -4,12 +4,12 @@ ms.assetid: 5172b31c-d2af-45aa-5bd4-b62502f3c047
 title: 'Руководство: воспроизведение звука при помощи XAudio2'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18ee2636ae9b6513dba9a479d63e0fd14be2c198
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2cfa5cb2a7a47b7fb54e6a7e9f098a545b0c630c6c27889d7aa6eff1242121d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104542535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082917"
 ---
 # <a name="how-to-play-a-sound-with-xaudio2"></a>Руководство: воспроизведение звука при помощи XAudio2
 
@@ -53,9 +53,9 @@ ms.locfileid: "104542535"
 
     
 
-## <a name="notes-for-windows-store-apps"></a>Примечания для приложений Магазина Windows
+## <a name="notes-for-windows-store-apps"></a>примечания для приложений магазина Windows
 
-Рекомендуется использовать [Интеллектуальный указатель](/previous-versions/visualstudio/visual-studio-2012/hh279674(v=vs.110)) для управления временем существования объектов XAUDIO2 в безопасном режиме исключения. Для приложений Магазина Windows можно использовать шаблон смарт-указателя [**ComPtr**](/previous-versions/visualstudio/visual-studio-2012/br244983(v=vs.110)) из библиотеки шаблонов среда выполнения Windows C++ (WRL).
+Рекомендуется использовать [Интеллектуальный указатель](/previous-versions/visualstudio/visual-studio-2012/hh279674(v=vs.110)) для управления временем существования объектов XAUDIO2 в безопасном режиме исключения. для приложений магазина Windows можно использовать шаблон смарт-указателя [**ComPtr**](/previous-versions/visualstudio/visual-studio-2012/br244983(v=vs.110)) из библиотеки шаблонов среда выполнения Windows C++ (WRL).
 
 
 ```
@@ -78,7 +78,7 @@ if ( FAILED(hr = SourceVoice->Start( 0 ) ) )
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

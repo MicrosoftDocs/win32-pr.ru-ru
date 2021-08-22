@@ -1,19 +1,19 @@
 ---
-description: В этом разделе описывается шаг 3 руководства воспроизведение аудио-и видеороликов в DirectShow.
+description: В этом разделе описывается шаг 3 руководства воспроизведение аудио-и видеофайлов в DirectShow.
 ms.assetid: 45679c14-2671-420d-9766-61f2b2bb713a
-title: Шаг 3. Создание графа фильтра
+title: Шаг 3. Создание фильтра Graph
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a770ad823a2578fab88a09cc44a3c7f2be4a4ca8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad4903e08b19e15721c8b62f130261bb4d05fcd94d544380b2e501f56d60704d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674178"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072508"
 ---
-# <a name="step-3-build-the-filter-graph"></a>Шаг 3. Создание графа фильтра
+# <a name="step-3-build-the-filter-graph"></a>Шаг 3. Создание фильтра Graph
 
-В этом разделе описывается шаг 3 руководства [Воспроизведение аудио-и видеороликов в DirectShow](audio-video-playback-in-directshow.md). Полный код приведен в разделе [Пример воспроизведения DirectShow](directshow-playback-example.md).
+В этом разделе описывается шаг 3 руководства [Воспроизведение аудио-и видеофайлов в DirectShow](audio-video-playback-in-directshow.md). полный код приведен в разделе [пример воспроизведения DirectShow](directshow-playback-example.md).
 
 Следующим шагом является создание графа фильтра для воспроизведения файла мультимедиа.
 
@@ -60,12 +60,12 @@ done:
 
 
 
-### <a name="creating-the-filter-graph-manager"></a>Создание диспетчера графа фильтров
+### <a name="creating-the-filter-graph-manager"></a>создание фильтра Graph Manager
 
 `DShowPlayer::InitializeGraph`Метод создает новый граф фильтра. Этот метод выполняет следующие действия:
 
-1.  Вызывает метод [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) для создания нового экземпляра [диспетчера графа фильтров](filter-graph-manager.md).
-2.  Запрашивает диспетчер графа фильтров для интерфейсов [**имедиаконтрол**](/windows/desktop/api/Control/nn-control-imediacontrol) и [**имедиаевентекс**](/windows/desktop/api/Control/nn-control-imediaeventex) .
+1.  вызывает метод [**cocreateinstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) для создания нового экземпляра [фильтра Graph Manager](filter-graph-manager.md).
+2.  запрашивает у фильтра Graph Manager интерфейсы [**имедиаконтрол**](/windows/desktop/api/Control/nn-control-imediacontrol) и [**имедиаевентекс**](/windows/desktop/api/Control/nn-control-imediaeventex) .
 3.  Вызывает [**имедиаевентекс:: сетнотифивиндов**](/windows/desktop/api/Control/nf-control-imediaeventex-setnotifywindow) для настройки уведомления о событии. Дополнительные сведения см. [в разделе уведомление о событии в DirectShow](event-notification-in-directshow.md).
 
 
@@ -110,13 +110,13 @@ done:
 
 
 
-### <a name="rendering-the-streams"></a>Подготовка потоков
+### <a name="rendering-the-streams"></a>подготовка к просмотру Потоки
 
 Следующим шагом является подключение фильтра источника к одному или нескольким фильтрам визуализации.
 
 `DShowPlayer::RenderStreams`Метод выполняет следующие действия.
 
-1.  Запрашивает диспетчер графа фильтров для интерфейса [**IFilterGraph2**](/windows/desktop/api/Strmif/nn-strmif-ifiltergraph2) .
+1.  запрашивает Graph диспетчера фильтров для интерфейса [**IFilterGraph2**](/windows/desktop/api/Strmif/nn-strmif-ifiltergraph2) .
 2.  Добавляет фильтр модуля обработки видео в граф фильтра.
 3.  Добавляет [Фильтр модуля подготовки отчетов DirectSound](directsound-renderer-filter.md) к графу фильтра для воспроизведения звука. Дополнительные сведения о добавлении фильтров к графу фильтра см. в разделе [Добавление фильтра по CLSID](add-a-filter-by-clsid.md).
 4.  Перечисляет выходные контакты в фильтре источника. Дополнительные сведения о перечислении ПИН-кодов см. в разделе [перечисление ПИН](enumerating-pins.md)-кодов.
@@ -239,7 +239,7 @@ HRESULT RemoveUnconnectedRenderer(IGraphBuilder *pGraph, IBaseFilter *pRenderer,
 
 
 
-### <a name="releasing-the-filter-graph"></a>Освобождение графа фильтра
+### <a name="releasing-the-filter-graph"></a>Освобождение Graph фильтра
 
 Когда приложение завершает работу, оно должно освободить граф фильтра, как показано в следующем коде.
 
@@ -268,17 +268,17 @@ void DShowPlayer::TearDownGraph()
 
 Далее. [Шаг 4. Добавление модуля подготовки видео](step-4--add-the-video-renderer.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Воспроизведение звука и видео в DirectShow](audio-video-playback-in-directshow.md)
 </dt> <dt>
 
-[Пример воспроизведения DirectShow](directshow-playback-example.md)
+[DirectShow Пример воспроизведения](directshow-playback-example.md)
 </dt> <dt>
 
-[Построение графа фильтра](building-the-filter-graph.md)
+[Создание фильтра Graph](building-the-filter-graph.md)
 </dt> <dt>
 
 [Общие методы Graph-Building](general-graph-building-techniques.md)

@@ -6,16 +6,16 @@ keywords:
 - Microsoft Agent, использование речевых модулей
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d008a3cbfe41d94add85147b67b909549cec2a9b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8f2be5bd7dda77ad091641b40cfd935e80d8d28d38dfd2e32dbb6d80ffa1dfb1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104330824"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119347664"
 ---
 # <a name="using-speech-engines-with-microsoft-agent"></a>Использование речевых модулей с Microsoft Agent
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 Корпорация Майкрософт предоставляет набор механизмов распознавания речи и речевых данных (да-to-Speech или TTS), которые можно использовать с приложениями или веб-страницами, поддерживающими Microsoft Agent. Использование этих ядер регулируется Лицензионным соглашением Microsoft Agent и дополнительным дополнением, отображаемым при установке ядер. Эта лицензия дает вам право распространять модули, но только при их использовании через API Microsoft Agent и с помощью видимого символа.
 
@@ -26,13 +26,13 @@ ms.locfileid: "104330824"
 -   [Нормализация текста для модулей преобразования текста в речь](text-to-speech-engines-text-normalization.md)
 -   [Другие обработчики речи, совместимые с Microsoft Agent](other-speech-engines-compatible-with-microsoft-agent.md)
 
-Найдите изменения в функциях распознавания речи и речи в Microsoft Agent для Windows Vista по ссылке ниже.
+найдите изменения в функциях распознавания речи и речи в Microsoft Agent для Windows Vista по следующей ссылке.
 
--   [Изменения Microsoft Agent в Windows Vista](microsoft-agent-changes-in-windows-vista.md)
+-   [изменения в Microsoft Agent в Windows Vista](microsoft-agent-changes-in-windows-vista.md)
 
- 
+ 
 
- 
+ 
 
 
 

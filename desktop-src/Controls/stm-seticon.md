@@ -3,7 +3,7 @@ title: Сообщение STM_SETICON (Winuser. h)
 description: Приложение отправляет \_ сообщение STM сетикон, чтобы связать значок с элементом управления "значок".
 ms.assetid: 105b0667-8e23-47ed-9fb1-0792a22d7100
 keywords:
-- Элементы управления Windows для STM_SETICON сообщений
+- элементы управления Windows сообщений STM_SETICON
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cb9c7e2a007c1f866a1c73b3a1c1a55b157add47
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 55ff1cbaa6a1083751b3619392fbb0d3b60695e829907c2dfe27fdb41170e167
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119281424"
 ---
 # <a name="stm_seticon-message"></a>\_Сообщение СЕТИКОН STM
 
@@ -53,9 +53,9 @@ ms.locfileid: "104071176"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

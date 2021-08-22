@@ -3,7 +3,7 @@ title: Атрибут WM/Оригиналалбумтитле
 description: Атрибут WM/Оригиналалбумтитле представляет собой имя альбома, в котором впервые появилась запись.
 ms.assetid: e670c793-bae3-4dc5-92a1-4407cb2a094b
 keywords:
-- Windows Media Player для атрибута WM/Оригиналалбумтитле
+- проигрыватель Windows Media атрибута WM/оригиналалбумтитле
 topic_type:
 - apiref
 api_name:
@@ -12,40 +12,40 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f0dc2344c95bf3d0b09448277f1522baa879c80
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2fd025d78c5d4fb3a3fca20cdb6ba6bf092c45465e7e738ddd4c1921301c6899
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105717870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053862"
 ---
 # <a name="wmoriginalalbumtitle-attribute"></a>Атрибут WM/Оригиналалбумтитле
 
 Атрибут **WM/оригиналалбумтитле** представляет собой имя альбома, в котором впервые появилась запись.
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [Музыкальные файлы](music-file-attributes.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут хранится только в музыкальном файле, который отсутствует в библиотеке.
 
-Константа Windows Media Format SDK для этого атрибута — g \_ всзвморигиналалбумтитле.
+константа пакета SDK Windows Media Format для этого атрибута — g \_ всзвморигиналалбумтитле.
 
 Чтобы определить, можно ли изменить значение этого атрибута, используйте метод [Media. исреадонлитем](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

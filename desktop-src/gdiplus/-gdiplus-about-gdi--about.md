@@ -1,21 +1,21 @@
 ---
-description: Windows GDI+ — это часть операционной системы Windows XP или ОС Windows Server 2003, которая предоставляет двухмерные векторную графику, изображения и типографию.
+description: Windows GDI+ — это часть операционной системы Windows XP или Windows Server 2003, которая предоставляет двухмерные векторную графику, изображения и типографии.
 ms.assetid: edb9c9da-fe49-4cdd-9a4d-c307894446da
 title: О GDI+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4384b8d79fa88feae3dad0ab490f5353f7504e73
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 97da89d947700cd0095a8dde8c93326b3e9a694ae26d2d97936d61f7649325d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104997602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119037172"
 ---
 # <a name="about-gdi"></a>О GDI+
 
-Windows GDI+ — это часть операционной системы Windows XP или ОС Windows Server 2003, которая предоставляет двухмерные векторную графику, изображения и типографию. GDI+ расширяет возможности Windows интерфейс графических устройств (GDI) (интерфейс графических устройств, входящий в состав более ранних версий Windows), добавляя новые функции и оптимизируя существующие.
+Windows GDI+ — это часть операционной системы Windows XP или Windows Server 2003, которая предоставляет двухмерные векторную графику, изображения и типографии. GDI+ расширяет Windows интерфейс графических устройств (GDI) (интерфейс графических устройств, включенный в более ранние версии Windows) путем добавления новых функций и оптимизации существующих компонентов.
 
-В следующих разделах содержатся сведения об API GDI+ с языком программирования C++.
+в следующих разделах содержатся сведения о GDI+ API с помощью языка программирования C++.
 
 -   [Введение в GDI+](-gdiplus-introduction-to-gdi--about.md)
 -   [Новые возможности GDI+](-gdiplus-what-s-new-in-gdi--about.md)

@@ -4,12 +4,12 @@ description: Microsoft Active Accessibility создает универсаль�
 ms.assetid: cc32528f-c454-4522-91b9-06f87cff8bf5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d87c8601ecd6344dc82bbdb416055c694687e6e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 881eb863c6b12f8e72a9f48ba5ea290a2ad2f2471fa60683ee17e70c6271dad3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103774807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119413274"
 ---
 # <a name="window-msaa-ui-element-reference"></a>Window (Справочник по элементу пользовательского интерфейса MSAA)
 
@@ -57,7 +57,7 @@ Microsoft Active Accessibility создает универсальный объ�
 
 Системные объекты [**событий \_ \_ драгдропстарт**](event-constants.md), [**\_ \_ драгдропенд системы**](event-constants.md)событий, [**объектов событий \_ \_ скрыты**](event-constants.md), а [**\_ объекты событий \_ парентчанже**](event-constants.md) не отправляются объектом Window. Это известная проблема, которая решена.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

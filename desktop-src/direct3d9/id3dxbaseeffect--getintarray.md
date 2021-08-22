@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: f13c6b8717c2108920d7b914da20b99f0451f5d9
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7f9f360c51007d7bc51fe39dfeeb13a2c0a5f4de0b3da1582075c865a3ff1e21
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104355900"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119279004"
 ---
 # <a name="id3dxbaseeffectgetintarray-method"></a>Метод ID3DXBaseEffect:: Жетинтаррай
 
@@ -81,7 +81,7 @@ HRESULT GetIntArray(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>     |
 
 

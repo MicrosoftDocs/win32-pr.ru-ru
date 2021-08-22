@@ -3,7 +3,7 @@ title: Сообщение HDM_GETITEMCOUNT (Коммктрл. h)
 description: Возвращает число элементов в элементе управления "заголовок". Это сообщение можно отправить явным образом или воспользоваться заголовком \_ макроса GetItemCount.
 ms.assetid: 0e6d2131-53b4-4927-bd0f-577b8eaf237a
 keywords:
-- Элементы управления Windows для HDM_GETITEMCOUNT сообщений
+- элементы управления Windows сообщений HDM_GETITEMCOUNT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 52ac0e647a675adf2bf29b9ff1f204bbd8b040d8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7e4500277528cc76012631734d6f7316b29fdcb7a5a92cec3cf7b6bbb42693ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136435"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119436034"
 ---
 # <a name="hdm_getitemcount-message"></a>\_Сообщение GETITEMCOUNT HDM
 
@@ -39,14 +39,14 @@ ms.locfileid: "104136435"
 
 Возвращает количество элементов в случае успеха или значение-1 в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

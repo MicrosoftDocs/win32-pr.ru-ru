@@ -55,12 +55,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 35bb97e531f8aca5f74801d55a71e5b3f2850c08
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 90e16e70f7b5bd0a075ffdef54cf0c591719d4993031f3abee19dd8186ec5996
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265055"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119148257"
 ---
 # <a name="msvm_replicationsettingdata-class"></a>\_Класс мсвм репликатионсеттингдата
 
@@ -125,7 +125,7 @@ class Msvm_ReplicationSettingData : CIM_VirtualSystemSettingData
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ репликатионсеттингдата** имеет следующие свойства.
 
@@ -142,7 +142,7 @@ class Msvm_ReplicationSettingData : CIM_VirtualSystemSettingData
 
 Дополнительные параметры репликации, которые может использовать поставщик конечной точки.
 
-**Windows 8.1:** Это значение не поддерживается до Windows 8.1 и Windows Server 2012 R2.
+**Windows 8.1:** это значение не поддерживается до Windows 8.1 и Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -329,7 +329,7 @@ class Msvm_ReplicationSettingData : CIM_VirtualSystemSettingData
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -338,7 +338,7 @@ class Msvm_ReplicationSettingData : CIM_VirtualSystemSettingData
 Тип доступа: только для чтения
 </dt> </dl>
 
-Краткое описание объекта. Это свойство наследуется от [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)и всегда имеет значение "Параметры репликации".
+Краткое описание объекта. это свойство наследуется от [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)и всегда имеет значение "Replication Параметры".
 
 </dd> <dt>
 
@@ -438,7 +438,7 @@ class Msvm_ReplicationSettingData : CIM_VirtualSystemSettingData
 Тип доступа: только для чтения
 </dt> </dl>
 
-Описание объекта. Это свойство наследуется от [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)и всегда имеет значение "данные параметров репликации виртуальной машины".
+Описание объекта. это свойство наследуется от [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)и всегда имеет значение "репликация Параметры данных виртуальной машины".
 
 </dd> <dt>
 
@@ -469,7 +469,7 @@ class Msvm_ReplicationSettingData : CIM_VirtualSystemSettingData
 
 Указывает, реплицируются ли все реплицируемые виртуальные жесткие диски виртуальной машины на тот же момент времени. Это гарантирует, что репликация будет учитывать порядок записи приложений на виртуальной машине.
 
-**Windows 8.1:** Начиная с Windows 8.1 и Windows Server 2012 R2 это свойство является устаревшим и всегда имеет значение **true**.
+**Windows 8.1:** начиная с Windows 8.1 и Windows Server 2012 R2, это свойство является устаревшим и всегда имеет значение **TRUE**.
 
 </dd> <dt>
 
@@ -501,7 +501,7 @@ class Msvm_ReplicationSettingData : CIM_VirtualSystemSettingData
 Квалификаторы: **ключ**
 </dt> </dl>
 
-Уникально идентифицирует экземпляр этого класса. Это свойство наследуется [**от \_ SettingData в CIM**](/previous-versions//cc136911(v=vs.85)). Для Windows 8 всегда устанавливается значение «Microsoft:*GUID* \\ HVR». Для Windows 8.1 задано значение "Microsoft:*GUID виртуальной машины* \\ HVR \\<0/1>". В Windows 8.1 значение 0 указывает на первичный, а 1 — на расширенную репликацию. Дополнительные сведения о расширенной репликации см. в разделе [**мсвм \_ репликатионрелатионшип**](msvm-replicationrelationship.md).
+Уникально идентифицирует экземпляр этого класса. Это свойство наследуется [**от \_ SettingData в CIM**](/previous-versions//cc136911(v=vs.85)). Для Windows 8 всегда имеет значение «Microsoft:*GUID* \\ HVR». для Windows 8.1 задано значение "Microsoft:*GUID виртуальной машины* \\ HVR \\<0/1>". в Windows 8.1 значение 0 указывает на первичный, а 1 — на расширенную репликацию. Дополнительные сведения о расширенной репликации см. в разделе [**мсвм \_ репликатионрелатионшип**](msvm-replicationrelationship.md).
 
 </dd> <dt>
 
@@ -668,7 +668,7 @@ class Msvm_ReplicationSettingData : CIM_VirtualSystemSettingData
 
 Значение по умолчанию — 300 секунд.
 
-**Windows 8.1:** Это значение не поддерживается до Windows 8.1 и Windows Server 2012 R2.
+**Windows 8.1:** это значение не поддерживается до Windows 8.1 и Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -683,7 +683,7 @@ class Msvm_ReplicationSettingData : CIM_VirtualSystemSettingData
 
 Путь к экземпляру класса [**мсвм \_ репликатионпровидер**](msvm-replicationprovider.md) , который идентифицирует конечную точку поставщика репликации.
 
-**Windows 8.1:** Это значение не поддерживается до Windows 8.1 и Windows Server 2012 R2.
+**Windows 8.1:** это значение не поддерживается до Windows 8.1 и Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -774,8 +774,8 @@ class Msvm_ReplicationSettingData : CIM_VirtualSystemSettingData
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

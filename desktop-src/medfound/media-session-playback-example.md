@@ -4,12 +4,12 @@ ms.assetid: 8c5ce48d-2202-4665-aa2a-302207424e37
 title: Пример воспроизведения сеанса мультимедиа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9aa9d75d2d35a2feb83925bf1defe284a730caa
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 9ef8c022dd683f439797ca1f6128e472e59c1629f333b22bf661d87a2aa769ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105713281"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119465014"
 ---
 # <a name="media-session-playback-example"></a>Пример воспроизведения сеанса мультимедиа
 
@@ -23,7 +23,7 @@ ms.locfileid: "105713281"
 -   [Resource. h](resource-h.md)
 -   [WinMain. cpp](winmain-cpp.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

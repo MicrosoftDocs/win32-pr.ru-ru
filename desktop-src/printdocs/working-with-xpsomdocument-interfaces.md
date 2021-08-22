@@ -4,12 +4,12 @@ ms.assetid: 96b92480-cc28-4a57-a184-c52d3ddc9b05
 title: Работа с интерфейсами Икспсомдокумент
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5299452195dc8f14ebd08508c3fd9a6e198781a7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad7e8c0908382a731532f2697f03c8d67cb732ddf902f0c1ea181fe221d075fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105693032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033762"
 ---
 # <a name="working-with-ixpsomdocument-interfaces"></a>Работа с интерфейсами Икспсомдокумент
 

@@ -4,12 +4,12 @@ ms.assetid: 61f6d244-7397-42af-af58-0ab9d07bf19e
 title: Метрики для переносимых документов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c840b1b8e8014086b97098a44890f170a6bd11d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3762846e6d8280c2680f47f3cb32cd847ea4e664dab47a8a0995f5505c393da3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984937"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119558504"
 ---
 # <a name="metrics-for-portable-documents"></a>Метрики для переносимых документов
 
@@ -17,7 +17,7 @@ ms.locfileid: "104984937"
 
 
 
-| Функция                                               | Метрика                | Использовать                                                                                                          |
+| Функция                                               | Метрика                | Назначение                                                                                                          |
 |--------------------------------------------------------|-----------------------|--------------------------------------------------------------------------------------------------------------|
 | [**EnumFontFamilies**](/windows/desktop/api/Wingdi/nf-wingdi-enumfontfamiliesa)           | **нтмсизим**         | Получение метрик проектирования; Преобразование в метрики устройства.                                                   |
 | [**жетчарабквидсс**](/windows/desktop/api/Wingdi/nf-wingdi-getcharabcwidthsa)           | **абквидсс**         | Точное размещение символов в начале и в конце полей, границы рисунка и другие разрывы текста. |

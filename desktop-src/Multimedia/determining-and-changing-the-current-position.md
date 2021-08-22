@@ -7,12 +7,12 @@ keywords:
 - Макрос МЦивнджетенд
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 84a8e7022bdfcede526a730014a07deaf22fe66d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 594aa63b4b620327cd8b9ae41c263c197e1a981405c2148545ae7b8d4df86c5c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104486861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119497344"
 ---
 # <a name="determining-and-changing-the-current-position"></a>Определение и изменение текущей должности
 
@@ -27,13 +27,13 @@ ms.locfileid: "104486861"
 > [!Note]  
 > Единицы, используемые для указания расположения, зависят от различных типов носителей и устройств. Например, позицией воспроизведения для AVI-файлов, используемых устройством МЦИАВИ, измеряется в кадрах. расположение для воспроизведения аудио-и звукового файлов и MIDI измеряется в миллисекундах.
 
- 
+ 
 
 Устройства для других типов мультимедиа и сторонних устройств могут использовать другие единицы. Дополнительные сведения об определении этих единиц см. в разделе [улучшения воспроизведения](playback-enhancements.md).
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: Сообщение LB_GETSELCOUNT (Winuser. h)
 description: Возвращает общее число выбранных элементов в списке с множественным выбором.
 ms.assetid: 1597f6d0-e8f2-4e10-8a0e-ef76192e6238
 keywords:
-- Элементы управления Windows для LB_GETSELCOUNT сообщений
+- элементы управления Windows сообщений LB_GETSELCOUNT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed73b387315d1b612241d41e47e6b613a3a75f12
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e8cacbf266931daaeba4a98c95c7c428630708d833af7603b0be09cef3071212
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119434114"
 ---
 # <a name="lb_getselcount-message"></a>Сообщение жетселкаунт балансировки нагрузки \_
 
@@ -47,15 +47,15 @@ ms.locfileid: "104135602"
 
 Возвращаемое значение — это количество выбранных элементов в списке. Если список является списком с одним выбором, возвращается значение фунтов \_ Err.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Header<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

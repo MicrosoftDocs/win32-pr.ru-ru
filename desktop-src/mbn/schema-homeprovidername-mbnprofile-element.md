@@ -11,12 +11,12 @@ api_name:
 - HomeProviderName
 api_type:
 - Schema
-ms.openlocfilehash: 3d0af51e4873915838f2d55f683d07e9098aad3f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1868be18dc7acf9d5146f987658feb006714fbcc3db35883007afd01c308609e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103809617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035832"
 ---
 # <a name="homeprovidername-mbnprofile-element"></a>Хомепровидернаме (Мбнпрофиле), элемент
 
@@ -32,18 +32,18 @@ ms.locfileid: "103809617"
 
 Элемент **хомепровидернаме** определяется элементом [**мбнпрофиле**](schema-mbnprofile-element.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 7 \|\]<br/> |
+| Минимальная версия клиента<br/> | \[приложения UWP для классических приложений Windows 7 \|\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                         |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

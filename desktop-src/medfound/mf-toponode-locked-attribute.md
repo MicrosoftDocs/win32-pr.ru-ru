@@ -4,12 +4,12 @@ ms.assetid: 8805ed63-1408-40bc-bb82-f3c51576dfa4
 title: Атрибут MF_TOPONODE_LOCKED (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 70776b1a5ba9c5c35cd2a2d97618de4b3a65abb9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2158a44480fa2b4e884cc2e700e8f479b4af042907e351b26bc5704d7fc20fb2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103811026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119356274"
 ---
 # <a name="mf_toponode_locked-attribute"></a>\_Атрибут MF топоноде \_ locked
 
@@ -21,7 +21,7 @@ ms.locfileid: "103811026"
 
 Рассматривать как логическое значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут применяется ко всем типам узлов.
 
@@ -29,14 +29,14 @@ ms.locfileid: "103811026"
 
 Константа GUID для этого атрибута экспортируется из мфууид. lib.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                               |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
