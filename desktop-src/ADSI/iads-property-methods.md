@@ -27,12 +27,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d1134260c780958bcdba8d1f14eac535ddbf4ab
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3326bbbf5ea7c2d2a98a6224f9b0a83a738c76a206d343a8629138d4d45e73b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104533818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082528"
 ---
 # <a name="iads-property-methods"></a>Методы свойства IADs
 
@@ -117,7 +117,7 @@ HRESULT get_GUID(
 
 </dt> </dl> </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl>
 
 Относительное имя объекта, именованное в базовой службе каталогов. Это имя отличает этот объект от его одноуровневых элементов.
@@ -194,7 +194,7 @@ HRESULT get_Schema(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В Active Directory **идентификатор GUID** , возвращенный из GUID, является строкой шестнадцатеричного числа. Используйте результирующий **идентификатор GUID** для непосредственной привязки к объекту.
 
@@ -212,7 +212,7 @@ Set x = GetObject("LDAP://servername/<GUID=xxx>")
 
 |             | Привязка с помощью DN                                           | Привязка с использованием идентификатора GUID                                             |
 |-------------|---------------------------------------------------------|-------------------------------------------------------------|
-| **Name**    | CN = Джефф Иванов                                           | CN = Джефф Иванов                                               |
+| **Имя**    | CN = Джефф Иванов                                           | CN = Джефф Иванов                                               |
 | **Родительский объект**  | LDAP://server/CN=Users,DC=Fabrikam,DC=com               | LDAP://server/CN=Users,DC=Fabrikam,DC=com                   |
 | **Действитель** | LDAP://server/CN=Jeff Смит, CN = Users, DC = Fabrikam, DC = com | LDAP://server/<GUID = c0f59dfcf507d311a99e0000f879f7c7> |
 
@@ -365,7 +365,7 @@ int main(int argc, char* argv[])
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -373,13 +373,13 @@ int main(int argc, char* argv[])
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
-| Header<br/>                   | <dl> <dt>IAds. h</dt> </dl>       |
+| Заголовок<br/>                   | <dl> <dt>IAds. h</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl> |
 | IID<br/>                      | IID \_ iAds определяется как FD8256D0-FD15-11CE-ABC4-02608C9E7553<br/>                 |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

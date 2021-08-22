@@ -4,16 +4,16 @@ ms.assetid: b65a6874-fffb-41af-8620-27d4036cc7b2
 title: Вычисление значений счетчиков
 ms.topic: article
 ms.date: 08/17/2020
-ms.openlocfilehash: c37c5cf128d31011f184baaa6b8543ecfa8c48c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 466c4e4066b0e45fa36a2822ef1439617be545585fd56a5cba8fb664e91f5cc5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105663251"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119061252"
 ---
 # <a name="calculating-counter-values"></a>Вычисление значений счетчиков
 
-Большинство типов счетчиков используют формулу для вычисления отображаемого значения счетчика. Список типов счетчиков и их формул см. в разделе Типы счетчиков [комплекта средств для развертывания Windows Server 2003](/previous-versions/windows/it-pro/windows-server-2003/cc776490(v=ws.10)). Если счетчику требуются два образца для вычисления отображаемого значения, устанавливается флаг типа счетчика `PERF_DELTA_COUNTER` .
+Большинство типов счетчиков используют формулу для вычисления отображаемого значения счетчика. список типов счетчиков и их формул см. в разделе типы счетчиков раздела [Windows Server 2003 Deployment Kit](/previous-versions/windows/it-pro/windows-server-2003/cc776490(v=ws.10)). Если счетчику требуются два образца для вычисления отображаемого значения, устанавливается флаг типа счетчика `PERF_DELTA_COUNTER` .
 
 В следующем примере показано, как использовать необработанные данные для вычисления отображаемого значения для каждого типа счетчика. Этот пример основан на примере [получения данных счетчика](retrieving-counter-data.md).
 

@@ -4,12 +4,12 @@ ms.assetid: 617dfdf6-f7a7-4e72-8c77-8cfa3ab232e7
 title: Выполнение примера кода клиента и сервера Winsock
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9b3588af6bac668f0b7c785bafe2f69de4ef2b6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cdb5a4b2385c9545410cfc29c913ea81660f6dc2810b92279fad22212781065c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132487"
 ---
 # <a name="running-the-winsock-client-and-server-code-sample"></a>Выполнение примера кода клиента и сервера Winsock
 
@@ -28,7 +28,7 @@ ms.locfileid: "103991116"
 
 Клиент пытается подключиться к серверу через TCP-порт 27015. После подключения клиента Клиент отправляет данные на сервер и получает от сервера любые данные, отправляемые обратно. Затем клиент закрывает сокет и завершает работу.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

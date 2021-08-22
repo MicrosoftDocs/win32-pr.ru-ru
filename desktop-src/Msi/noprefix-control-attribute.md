@@ -4,12 +4,12 @@ ms.assetid: b958eecb-2f44-420f-8c93-7a4bd8b589da
 title: Атрибут элемента управления "префикс"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae1e1a0c6da65605efca1aacc4582b34a8f673d2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 15345bb56ad85ec654cffe7a0bf2173973e032ac33aca633105d3a220647cf93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065884"
 ---
 # <a name="noprefix-control-attribute"></a>Атрибут элемента управления "префикс"
 
@@ -31,7 +31,7 @@ ms.locfileid: "104263597"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы задать этот атрибут для элемента управления, включите бит префикса в столбец Attributes записи элемента управления в [таблице Control](control-table.md).
 

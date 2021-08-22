@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - mxdc.h
-ms.openlocfilehash: 7c1a8370d2cfa1ada9fda2d2d99b9fe500b79d31
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f8e0a46766f38aec16758a1efc9c0cbc775c2131b1279dcc47f92ed41e77c0e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104346485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119099058"
 ---
 # <a name="mxdc_s0page_passthrough_escape_t-structure"></a>МКСДК \_ S0PAGE \_ сквозная \_ Escape- \_ Структура T
 
@@ -54,7 +54,7 @@ typedef struct tagMxdcS0PagePassthroughEscape {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта структура передается в параметре *лпсзиндата* функции [**екстескапе**](/windows/desktop/api/Wingdi/nf-wingdi-extescape) при вызове с помощью escape-escape-последовательности [**Мксдк \_**](mxdc-escape.md) , а элемент **кода операции** в структуре мксдк в виде заголовка в виде [**\_ \_ \_ T**](mxdcescapeheader.md) — **мксдкоп \_ Set \_ S0PAGE**. В результате конвертер XML-документов Microsoft (МКСДК) передает страницу на принтер, не обрабатывая его.
 
@@ -90,8 +90,8 @@ P_MXDC_S0PAGE_PASSTHROUGH_ESCAPE_T pS0PageEscapeData =
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                    |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                              |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                    |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                              |
 | Header<br/>                   | <dl> <dt>Мксдк. h</dt> </dl> |
 
 

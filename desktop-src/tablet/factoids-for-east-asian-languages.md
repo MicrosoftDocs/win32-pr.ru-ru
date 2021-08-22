@@ -4,12 +4,12 @@ ms.assetid: 780ffb2f-3233-46d0-aff5-d0e8acd4ef75
 title: Фактоидс для восточно-азиатских языков
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8225f94462d1879db22ffc7efca8611b79859722
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: af6f034fd644a5859e56b30ff73a750bee03614ea4f9c3f1ac472089d29dfa22
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701610"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119092660"
 ---
 # <a name="factoids-for-east-asian-languages"></a>Фактоидс для восточно-азиатских языков
 

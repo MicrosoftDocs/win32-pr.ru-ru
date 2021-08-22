@@ -1,18 +1,18 @@
 ---
-title: Изменение параметров коммутируемого подключения
-description: Изменение параметров коммутируемого подключения
+title: изменение Параметры удаленного доступа
+description: изменение Параметры удаленного доступа
 ms.assetid: db9d6d1c-2317-40ed-832b-f72f8e9e81bb
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9d2759ce57651b393debb810f534310c24f7a74
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5d0700bf5dfa0e7889fdc3b9171e0e8058404733a793bda1f6149911ead7dbb1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105681631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119063364"
 ---
-# <a name="changing-dial-in-settings"></a>Изменение параметров коммутируемого подключения
+# <a name="changing-dial-in-settings"></a>изменение Параметры удаленного доступа
 
 Следующий код VBScript задает бит и номер обратного вызова для пользователя.
 
@@ -240,7 +240,7 @@ End Sub
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -262,6 +262,6 @@ End Sub
 [**радиуспропертиес**](/windows/desktop/api/sdoias/ne-sdoias-radiusproperties)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

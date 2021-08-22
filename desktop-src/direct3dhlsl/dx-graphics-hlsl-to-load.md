@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 08d3964788a238492ff7d5189544603b35808465
-ms.sourcegitcommit: 4c00910ed754d7d0a68c9a833751d714c06e3b39
+ms.openlocfilehash: ba394fb13fd98793401b29e6343ef4fa9ff0194b7a86f22dda1e58439737b34b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "104139198"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119868"
 ---
 # <a name="load-directx-hlsl-texture-object"></a>Load (объект текстуры DirectX HLSL)
 
@@ -84,7 +84,7 @@ ms.locfileid: "104139198"
 
 | Тип текстуры                                                                                                   | Тип параметра |
 |----------------------------------------------------------------------------------------------------------------|----------------|
-| Texture1D, Texture1DArray, Texture2D, Texture2DArray, Texture3D, Texture2DArray, Текстурекубе, Текстурекубеаррай | не поддерживается  |
+| Texture1D, Texture1DArray, Texture2D, Texture2DArray, Texture3D, Texture2DArray, Текстурекубе, Текстурекубеаррай | Не поддерживается  |
 | Texture2DMS, Texture2DMSArray ¹                                                                                 | INT            |
 
 
@@ -142,9 +142,9 @@ ms.locfileid: "104139198"
 
 -   Модель шейдеров 4,1 доступна в Direct3D 10,1 или более поздней версии.
 
-## <a name="example"></a>Например, .
+## <a name="example"></a>Пример
 
-Этот частичный пример кода относится к файлу Paint. FX в [образце адванцедпартиклес](https://msdn.microsoft.com/library/Ee416394(v=VS.85).aspx).
+этот частичный пример кода относится к файлу Paint. fx в [образце адванцедпартиклес](https://msdn.microsoft.com/library/Ee416394(v=VS.85).aspx).
 
 
 ```
@@ -169,7 +169,7 @@ float4 PSPaint(PSQuadIn input) : SV_Target
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

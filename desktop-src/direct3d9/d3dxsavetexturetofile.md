@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c11cc8b512527fb0610c288fdbaeba6c976604a3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 954b761f8980a7397be1c79fbd8beb88ddbb29f29ce74557ca90cc77dee2ea5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118988322"
 ---
 # <a name="d3dxsavetexturetofile-function"></a>Функция D3DXSaveTextureToFile
 
@@ -85,7 +85,7 @@ HRESULT D3DXSaveTextureToFile(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. Если функция завершается ошибкой, возвращаемое значение может быть следующим: D3DERR \_ инвалидкалл
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Параметр компилятора также определяет версию функции. Если определен Юникод, вызов функции разрешается в D3DXSaveTextureToFileW. В противном случае вызов функции разрешается в D3DXSaveTextureToFileA, так как используются строки ANSI.
 
@@ -99,7 +99,7 @@ HRESULT D3DXSaveTextureToFile(
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9tex. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9tex. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>  |
 
 

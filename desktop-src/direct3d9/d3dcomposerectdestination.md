@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: 56843bc78943a4c76fe4fe0f5e18242728a979c8
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e6d859cb0bfd47c9be21f37feef287b38cdce4cc64360dd312b2b52bb825a23e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123314"
 ---
 # <a name="d3dcomposerectdestination-structure"></a>Структура D3DCOMPOSERECTDESTINATION
 
@@ -86,7 +86,7 @@ typedef struct _D3DCOMPOSERECTDESTINATION {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта структура используется в вызовах [**компосеректс**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-composerects) , чтобы указать, куда должны копироваться глифы расположения и какой именно глиф следует копировать. Буфер вершин (см. [**IDirect3DVertexBuffer9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dvertexbuffer9)), заполненный этими структурами, создается для хранения расположений глифов. Элементы USHORT используются для уменьшения объема памяти, насколько это возможно.
 
@@ -96,7 +96,7 @@ typedef struct _D3DCOMPOSERECTDESTINATION {
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3d9types. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3d9types. h</dt> </dl> |
 
 
 

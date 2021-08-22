@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Cabinet.dll
-ms.openlocfilehash: 1b1142bd2ece965a3f2fc58b6bb2f90586a8b391
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 14f2da8c6f8c786042c2abd5f41e02bdfab6f33d9b8aa42a5b5f90a6c4357103
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657130"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119390714"
 ---
 # <a name="getdllversion-function"></a>Функция Жетдллверсион
 
@@ -43,11 +43,11 @@ LPCSTR WINAPI GetDllVersion(void);
 
 Номер версии файла (см. [ресурс versionInfo](../menurc/versioninfo-resource.md)).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция не имеет связанной библиотеки импорта или файла заголовка. его необходимо вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -57,7 +57,7 @@ LPCSTR WINAPI GetDllVersion(void);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

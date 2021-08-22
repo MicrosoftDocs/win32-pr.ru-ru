@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e3f475c0a05d43cf0fbdd7097c1ee083f9040b07
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b4e34e95483d382b9fbb97596a7172c94a1a047bfbec0856a3ea17befc1459bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139437"
 ---
 # <a name="idlesettingsstoponidleend-property"></a>Идлесеттингс. Стопонидлинд, свойство
 
@@ -40,7 +40,7 @@ IdleSettings.StopOnIdleEnd As Boolean
 
 Логическое значение, указывающее, что планировщик задач будет завершать задачу, если условие простоя заканчивается до завершения задачи.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При чтении или записи XML для задачи этот параметр указывается в элементе [**стопонидлинд**](taskschedulerschema-terminateonidleend-idlesettingstype-element.md) схемы планировщик задач.
 
@@ -50,8 +50,8 @@ IdleSettings.StopOnIdleEnd As Boolean
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                    |
 | Библиотека типов<br/>             | <dl> <dt>Тасксчд. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

@@ -3,7 +3,7 @@ title: Сообщение TB_SETWINDOWTHEME (Коммктрл. h)
 description: Задает визуальный стиль элемента управления ToolBar.
 ms.assetid: 8b05c561-af66-47e7-8ef3-7f9f81da4840
 keywords:
-- Элементы управления Windows для TB_SETWINDOWTHEME сообщений
+- элементы управления Windows сообщений TB_SETWINDOWTHEME
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e0c293e974eee2e7827225efb06cc439fdf2c39
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d1f3f4ae5f6e7a3a05670a8ba9bfe533156e1ef3e6043ff2a039744da705da39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119078128"
 ---
 # <a name="tb_setwindowtheme-message"></a>\_Сообщение SETWINDOWTHEME ТБ
 
@@ -43,7 +43,7 @@ ms.locfileid: "104137834"
 
 Возвращаемое значение не используется.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Чтобы использовать это сообщение, необходимо указать манифест, указывающий Comclt32.dll версии 6,0. Дополнительные сведения о манифестах см. в разделе [Включение визуальных стилей](cookbook-overview.md).
@@ -52,15 +52,15 @@ ms.locfileid: "104137834"
 
 Отправка этого сообщения эквивалентна вызову [**SetWindowTheme**](/windows/desktop/api/Uxtheme/nf-uxtheme-setwindowtheme) на панели инструментов и ее элементе управления ToolTip, если таковой имеется.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: 737e1901a514a3940790ce83c7e9bc1f6f471371
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: a8dd14e196640b39b21acb680c642756a5d3ffa0d436897ffa95af930a83e0c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108102922"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128456"
 ---
 # <a name="d3dxvec4transform-function-d3dx10mathh"></a>Функция D3DXVec4Transform (D3DX10Math. h)
 
@@ -84,11 +84,11 @@ D3DXVECTOR4* D3DXVec4Transform(
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3DX10Math. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3DX10Math. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

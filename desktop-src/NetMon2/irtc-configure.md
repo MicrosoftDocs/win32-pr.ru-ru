@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 702a3883acdbb7509d79e76d8fcc73af1e167e4a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f70674d8e570a2640fe301179b21a9f48ec612a17de69e43bdf5c38db4e65af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119063914"
 ---
 # <a name="irtcconfigure-method"></a>Метод ИРТК:: Configure
 
@@ -83,7 +83,7 @@ HRESULT STDMETHODCALLTYPE Configure(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод необходимо применить для перезапуска НПП, который был запущен, остановлен, но не отключен.
 
@@ -109,7 +109,7 @@ BLOB-объект ошибки, возвращенный *херрорблоб* 
 [иртк](irtc.md)
 </dt> <dt>
 
-[ИРТК:: Connect](irtc-connect.md)
+[иртк:: Подключение](irtc-connect.md)
 </dt> <dt>
 
 [сетевой монитор большие двоичные объекты](network-monitor-blobs.md)

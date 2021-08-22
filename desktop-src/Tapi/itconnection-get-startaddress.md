@@ -4,16 +4,16 @@ ms.assetid: 3c4fec19-1b7d-4052-afd8-7aaf095907d0
 title: 'Метод Итконнектион:: get_StartAddress (Сдпблб. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 84266d1874e7d04acb594bcfb9d99b440b0390b2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f0c21f704d734c1d0cdccd7f796898e3770cfab19e0f3ab7ee728e86810b2a2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685322"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140357"
 ---
 # <a name="itconnectionget_startaddress-method"></a>Метод Итконнектион:: Get \_ стартаддресс
 
-\[ В Windows Vista, Windows Server 2008 и последующих версиях операционной системы нельзя использовать встречные средства и элементы управления Конференц-телефонией и интерфейсы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[встречи и элементы управления встречными IP-телефонными соединениями недоступны для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Метод **Get \_ стартаддресс** получает первый адрес, который будет использоваться для сеанса.
 
@@ -57,7 +57,7 @@ HRESULT get_StartAddress(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение должно использовать [**сисфристринг**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) для освобождения памяти, выделенной для параметра *ппстартаддресс* .
 

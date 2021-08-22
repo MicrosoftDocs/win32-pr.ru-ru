@@ -4,12 +4,12 @@ ms.assetid: fb52d2b7-70fa-497a-bbb4-42b25ea9d136
 title: Подключение к сокету
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03aa4461e1b00ba073320529d03e3b0fe32cdae1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 59a5a81c18089bdf5f35e96aa55a8ede87dc88598a98acd3bc5ab8338afb1208
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701551"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132677"
 ---
 # <a name="connecting-to-a-socket"></a>Подключение к сокету
 
@@ -53,7 +53,7 @@ if (ConnectSocket == INVALID_SOCKET) {
 
 Следующий шаг: [Отправка и получение данных на клиенте](sending-and-receiving-data-on-the-client.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

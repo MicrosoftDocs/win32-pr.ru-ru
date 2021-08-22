@@ -4,12 +4,12 @@ ms.assetid: 0c8aad3e-e726-49ce-8fc9-94dbd60cc5cb
 title: Инициализация контекста клиента
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 615ce5c157371f1ebfec685d6227bd11a1d76531
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a0c0f2912de57487c1f30fdac1ef40740553947b993ef6f5179a028625f132af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155910"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141187"
 ---
 # <a name="client-context-initialization"></a>Инициализация контекста клиента
 
@@ -18,7 +18,7 @@ ms.locfileid: "104155910"
 -   [**AcquireCredentialsHandle**](/windows/win32/api/sspi/nf-sspi-acquirecredentialshandlea) получает ссылку на ранее полученные [*учетные данные*](/windows/desktop/SecGloss/c-gly)для входа.
 -   [**InitializeSecurityContext (Общие)**](/windows/win32/api/sspi/nf-sspi-initializesecuritycontexta) создает исходные маркеры безопасности запроса проверки подлинности.
 
-Код для этого процесса можно увидеть в функции **женклиентконтекст** в [использовании SSPI с клиентом сокетов Windows](using-sspi-with-a-windows-sockets-client.md).
+код для этого процесса можно увидеть в функции **женклиентконтекст** в [использовании SSPI с клиентом сокетов Windows](using-sspi-with-a-windows-sockets-client.md).
 
 Если клиентская программа должна использовать учетные данные в дополнение к собственным учетным данным, таким как имя пользователя, имя домена и пароль, он предоставляет их в вызове [**AcquireCredentialsHandle**](/windows/win32/api/sspi/nf-sspi-acquirecredentialshandlea) с использованием структуры [**\_ \_ \_ удостоверения WinNT auth**](/windows/win32/api/sspi/ns-sspi-sec_winnt_auth_identity_a) с указанием дополнительных учетных данных. Дополнительные сведения о функциях учетных данных см. в разделе [Управление учетными](authentication-functions.md)данными.
 

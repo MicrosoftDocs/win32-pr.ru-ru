@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d817470f0f0617001fd83054e24e8881ac9a3a1f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7e0ef21c3fb9b5443cc488a3b6fc953953cffee6e5d0dc417dee69969907f86e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104354860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123294"
 ---
 # <a name="d3dxfillvolumetexture-function"></a>Функция D3DXFillVolumeTexture
 
@@ -75,7 +75,7 @@ HRESULT D3DXFillVolumeTexture(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. Если функция завершается с ошибкой, возвращаемое значение может быть одним из следующих значений: D3DERR \_ инвалидкалл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если том не является динамическим (поскольку при его создании используется значение 0) и находится в видеопамяти (пул памяти со значением D3DPOOL \_ по умолчанию), **D3DXFillVolumeTexture** не удастся, так как том не может быть заблокирован.
 
@@ -106,7 +106,7 @@ if (FAILED (hr = D3DXFillVolumeTexture (m_pTexture, ColorVolumeFill, NULL)))
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9tex. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9tex. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>  |
 
 

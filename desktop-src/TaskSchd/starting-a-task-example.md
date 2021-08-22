@@ -4,12 +4,12 @@ description: Чтобы запустить задачу, вызовите мет
 ms.assetid: 90f197de-7a32-4e4b-b4c0-d3f706e47de1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 325d8d990367a810351ec4eea8b03b7dc0240cd5
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f4176bf793e72acd3930d6e1e5cbc3d73e91c1d558e342a5a9804aa8f87526cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105681685"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139337"
 ---
 # <a name="starting-a-task-example"></a>Пример запуска задачи
 
@@ -33,15 +33,15 @@ ms.locfileid: "105681685"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Примеры планировщик задач 1,0](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

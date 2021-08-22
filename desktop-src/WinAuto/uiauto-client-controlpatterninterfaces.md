@@ -4,12 +4,12 @@ description: В этом разделе описываются интерфей�
 ms.assetid: 14358ef0-aa54-42c1-a3da-0f835f5f5ef6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c80c209b27039a17d6f1487ab87ec7d68a37628
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 27ee891ff3d7affb106002b014b2f41f0f7f3d2ed00729b2ba8fb959aeabf24b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105710295"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133477"
 ---
 # <a name="control-pattern-interfaces-for-clients"></a>Интерфейсы шаблонов элементов управления для клиентов
 
@@ -67,7 +67,7 @@ ms.locfileid: "105710295"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

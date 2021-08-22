@@ -4,12 +4,12 @@ ms.assetid: FDE5C004-9E8E-4890-8FDC-987C1569D8E5
 title: Макрос КСМГЛОБАЛКОНСТ
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6675b17138fca66e293321a9d848262a8bffc94e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be72254865aed46de86955c2a27a4d73351311c5aa63a44a6e218be7a3915d1c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119118004"
 ---
 # <a name="xmglobalconst-macro"></a>Макрос КСМГЛОБАЛКОНСТ
 
@@ -21,7 +21,7 @@ ms.locfileid: "105711475"
 #define XMGLOBALCONST  extern const __declspec(selectany)
 ```
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Использование КСМГЛОБАЛКОНСТ позволяет использовать спецификацию глобальных констант. Это позволяет уменьшить размер сегмента данных приложения, избежать создания избыточных объектов и уничтожения, а также сократить операции загрузки и сохранения.
 
@@ -29,7 +29,7 @@ ms.locfileid: "105711475"
 
 **Заголовок:** Объявлено в Директксмас. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

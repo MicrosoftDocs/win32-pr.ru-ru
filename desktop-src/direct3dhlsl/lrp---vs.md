@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 485d7720dc2c71ee599db93d179de8e665bfab77
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: d154f78b3e8ae5d3b7b8e553435d962ad3dbea9fe86f8dd772bf165c5eb542be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104998151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119188"
 ---
 # <a name="lrp---vs"></a>ЛРП — VS
 
@@ -31,14 +31,14 @@ ms.locfileid: "104998151"
 
  
 
-где
+where
 
 -   DST — это регистр назначения.
 -   src0 является исходным регистром.
 -   src1 является исходным регистром.
 -   src2 является исходным регистром.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -62,7 +62,7 @@ dest.w = src0.w * (src1.w - src2.w) + src2.w;
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

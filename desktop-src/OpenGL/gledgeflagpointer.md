@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4390a9838fef418763aa4bcafbf815ab0cdf3466
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fa648a15542a3f3f2f35f577760991da74bc978c0464c1373c8eddea38941a62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103802806"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119061642"
 ---
 # <a name="gledgeflagpointer-function"></a>Функция Гледжефлагпоинтер
 
@@ -48,7 +48,7 @@ void WINAPI glEdgeFlagPointer(
 
 </dd> <dt>
 
-*указатель* 
+*вид* 
 </dt> <dd>
 
 Указатель на первый флаг границы в массиве.
@@ -71,7 +71,7 @@ void WINAPI glEdgeFlagPointer(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **гледжефлагпоинтер** задает расположение и данные массива логических пограничных флагов, которые используются при подготовке к просмотру. Параметр *stride* определяет смещение в байтах от одного флага ребра к следующему, что позволяет упаковать вершины и атрибуты в одном массиве или хранилище в отдельные массивы. В некоторых реализациях хранение вершин и атрибутов в одном массиве может быть более эффективным, чем использование отдельных массивов.
 

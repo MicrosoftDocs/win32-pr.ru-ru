@@ -28,12 +28,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d78af398ebf7c137be5b31c9db427691a66a7a2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7927270f262d0a66722660bf4b2c8f15cf75f49bb807abcff604af9edf58d99b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104533788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137817"
 ---
 # <a name="win32_tslicensekeypack-class"></a>\_Класс Win32 тслиценсекэйпакк
 
@@ -237,9 +237,9 @@ class Win32_TSLicenseKeyPack
 
 | Значение | Описание |
 |-------|-------------|
-| "Windows Server 2012" | С этой лицензией поддерживаются только серверы под Windows Server 2012, Windows Server 2008 R2 или Windows Server 2008. |
-| Windows Server 7 | С этой лицензией поддерживаются только серверы, работающие под Windows Server 2008 R2 или Windows Server 2008. |
-| "Windows Server 2008" | Этот пакет ключей поддерживает только серверы под управлением Windows Server 2008. |
+| "Windows Server 2012" | с этой лицензией поддерживаются только серверы Windows Server 2012, Windows Server 2008 R2 или Windows Server 2008. |
+| "Windows Server 7" | с этой лицензией поддерживаются только серверы, работающие под Windows server 2008 R2 или Windows server 2008. |
+| "Windows Server 2008" | этот пакет ключей поддерживает только серверы, работающие под управлением Windows Server 2008. |
 
 **продуктверсионид**
 </dt> <dd> <dl> <dt>
@@ -258,9 +258,9 @@ class Win32_TSLicenseKeyPack
 | 1 | Не поддерживается |
 | 2 | Windows Server 2008 |
 | 3 | Windows Server 2008 R2 |
-| 4 | Windows Server 2012/Windows Server 2012 R2 |
+| 4 | Windows Server 2012 и Windows Server 2012 R2 |
 | 5 | Windows Server 2016 |
-| 6 | Windows Server 2019 |
+| 6 | Windows Server 2019 |
 
 **тоталлиценсес**
 </dt> <dd> <dl> <dt>
@@ -288,11 +288,11 @@ class Win32_TSLicenseKeyPack
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для использования этого класса необходимо быть членом группы администраторов.
 
-Файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). MOF-файлы не устанавливаются в составе пакета средств разработки программного обеспечения Microsoft Windows (SDK). Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
+файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). файлы MOF не устанавливаются в составе пакета средств разработки программного обеспечения Microsoft Windows Software Development Kit (SDK). Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
 ## <a name="requirements"></a>Требования
 

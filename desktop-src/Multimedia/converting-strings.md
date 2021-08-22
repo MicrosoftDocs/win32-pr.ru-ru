@@ -6,12 +6,12 @@ keywords:
 - Функция mciSendString
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d1db4cb4b3d02a93adecc82d6ce95de436fb2e7
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 4efeb5801c46d89686ed3fe9fcf25b311d57d4d553c220902907ac0e70a5b7e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103987381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144797"
 ---
 # <a name="converting-strings"></a>Преобразование строк
 
@@ -85,10 +85,10 @@ BOOL GetSourceRect(LPTSTR lpstrAlias, LPRECT lprc)
 
 
 > [!Note]  
-> Структуры **Rect** в MCI обрабатываются по-разному, чем в других частях Windows. в MCI **правый** элемент содержит ширину прямоугольника, а **Нижний** элемент содержит его высоту. В интерфейсе строки прямоугольник задается как *x1*, *Y1*, *x2* и *Y2*. Координаты *x1* и *Y1* указывают левый верхний угол прямоугольника, а координаты *x2* и *Y2* задают ширину и высоту.
+> Структуры **Rect** в MCI обрабатываются по-разному, чем в других частях Windows; в MCI **правый** элемент содержит ширину прямоугольника, а **Нижний** элемент содержит его высоту. В интерфейсе строки прямоугольник задается как *x1*, *Y1*, *x2* и *Y2*. Координаты *x1* и *Y1* указывают левый верхний угол прямоугольника, а координаты *x2* и *Y2* задают ширину и высоту.
 
- 
+ 
 
- 
+ 
 
- 
+ 

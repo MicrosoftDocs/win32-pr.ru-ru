@@ -4,16 +4,16 @@ description: Иаженткоммандсекс Жетдефаултид
 ms.assetid: 14079ae0-ad2c-4f38-9371-9914f8402e49
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e4380eca62a65758979a94fb23511348b11acdf
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 7e4dabfb1c957031b353303775921a352bf40d984ac5de1ee9c933f79a5e02cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104412961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105230"
 ---
 # <a name="iagentcommandsexgetdefaultid"></a>Иаженткоммандсекс:: Жетдефаултид
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT GetDefaultID(
@@ -38,11 +38,11 @@ HRESULT GetDefaultID(
 
 Это свойство применяется только к символу, используемому вашим клиентским приложением. Этот параметр не влияет на другие клиенты символов или других символов клиентского приложения.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [**Иаженткоммандсекс:: Сетдефаултид**](iagentcommandsex--setdefaultid.md)
 
 
- 
+ 
 
- 
+ 

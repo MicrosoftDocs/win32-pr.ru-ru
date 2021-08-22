@@ -4,12 +4,12 @@ ms.assetid: d19d851c-ab4a-4a9d-bcc4-8dd4e993fa2c
 title: Атрибут MF_EVENT_START_PRESENTATION_TIME (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 65bf6142ce12a7bf921fd26373ea5d10ab384560
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd623677de67d2101f4b1cbb3e17ce429f37f0788d99f802be0889a35dd3471e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104830"
 ---
 # <a name="mf_event_start_presentation_time-attribute"></a>\_ \_ \_ Атрибут времени начала презентации \_ события MF
 
@@ -21,7 +21,7 @@ ms.locfileid: "104081619"
 
 Рассматривать как значение **лонглонг** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут используется с событием [месессионнотифипресентатионтиме](mesessionnotifypresentationtime.md) .
 
@@ -35,8 +35,8 @@ ms.locfileid: "104081619"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                               |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 

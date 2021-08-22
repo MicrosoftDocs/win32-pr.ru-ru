@@ -4,12 +4,12 @@ ms.assetid: badd279b-ec71-4761-9066-d501aa2485c2
 title: Неблокируемые входные и выходные данные
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df9f6fec896c8daf1998e71a20a23a296b7b5a72
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5885e8a9b4c8badb2cd2c8e77b85d6fe097ed9a56be7b6146b586de81bbe6a62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104541530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119384484"
 ---
 # <a name="nonblocking-inputoutput"></a>Неблокируемые входные и выходные данные
 

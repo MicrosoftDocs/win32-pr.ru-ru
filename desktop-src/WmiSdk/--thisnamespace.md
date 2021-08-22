@@ -15,12 +15,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 440ccdf0eda794b5d648cae756f9a9c808eb2db6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 02e92bd8cb1c1827af86d23320e7347baa08c395d32def8c9b8adea2fcfd35bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132027"
 ---
 # <a name="__thisnamespace-class"></a>\_\_класс Сиснамеспаце
 
@@ -44,7 +44,7 @@ class __thisNAMESPACE : __SystemClass
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ \_ сиснамеспаце** имеет следующие свойства.
 
@@ -59,11 +59,11 @@ class __thisNAMESPACE : __SystemClass
 Тип доступа: только для чтения
 </dt> </dl>
 
-Дескриптор безопасности, описывающий, кто имеет доступ к пространству имен и кто может выполнять чтение из пространства имен или запись в него. Это свойство наследуется от [**\_ \_ события**](--event.md). Дополнительные сведения о формате дескрипторов безопасности см. в разделе [дескрипторы безопасности](/windows/desktop/SecAuthZ/security-descriptors) раздела Безопасность Windows SDK.
+Дескриптор безопасности, описывающий, кто имеет доступ к пространству имен и кто может выполнять чтение из пространства имен или запись в него. Это свойство наследуется от [**\_ \_ события**](--event.md). дополнительные сведения о формате дескрипторов безопасности см. в разделе [дескрипторы безопасности](/windows/desktop/SecAuthZ/security-descriptors) раздела безопасность Windows SDK.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Одноэлементный экземпляр **\_ \_ сиснамеспаце** доступен только для чтения. Чтобы изменить параметры свойства дескриптора безопасности, используйте методы класса [**\_ \_ системсекурити**](--systemsecurity.md) . Класс **\_ \_ сиснамеспаце** является производным от [**\_ \_ системкласс**](--systemclass.md).
 

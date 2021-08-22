@@ -3,7 +3,7 @@ title: Сообщение MM_WOM_CLOSE (Ммсистем. h)
 description: '\_ \_ При закрытии выходного устройства аудио-аудио в окно отправляется сообщение о закрытии вом mm. После отправки этого сообщения маркер устройства больше не действителен.'
 ms.assetid: 6505b688-88a1-43b2-ad4e-2f88e496430a
 keywords:
-- MM_WOM_CLOSE сообщения Windows мультимедиа
+- сообщение MM_WOM_CLOSE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b9dccdae49efc107a513e047282922f3a6de73e8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e7624c85554fca997ce9542170e370711f8b3c3cefc22cf0e8d2fe9ea3e88687
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105682160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065454"
 ---
 # <a name="mm_wom_close-message"></a>MM \_ ВОМ, \_ сообщение о закрытии
 
@@ -64,7 +64,7 @@ lParam = reserved
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 

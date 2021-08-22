@@ -4,16 +4,16 @@ description: Иажентнотифисинк перемещение
 ms.assetid: d1809fdb-df4b-4884-b9e8-2877a814dc9a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52563ff3838348b7bf8e6a2bcdfdf20a51c79723
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a16f32df3058a5b5c8e0a4e02a98f9a97afdbff56f349a63fceb5d70a9001391
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105185"
 ---
 # <a name="iagentnotifysinkmove"></a>Иажентнотифисинк:: Move
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT Move(
@@ -74,7 +74,7 @@ HRESULT Move(
 
 Это событие отправляется всем клиентам символа.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [**Иажентчарактер:: жетмовекаусе**](iagentcharacter--getmovecause.md), [ **иажентчарактер:: MoveTo**](iagentcharacter--moveto.md)
 

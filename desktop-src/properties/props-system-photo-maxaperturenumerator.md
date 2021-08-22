@@ -4,12 +4,12 @@ ms.assetid: 7c58998a-6b06-4e4c-b183-e894bcabba3c
 title: System. photo. Максапертуренумератор
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94e37cfcf104eb6be96b5b138f50f0da9680451e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4f202ce3522e867a7687fa46a12bdd3d6bdad4c99c96f3b5cf009c208a7a50c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119095926"
 ---
 # <a name="systemphotomaxaperturenumerator"></a>System. photo. Максапертуренумератор
 
@@ -30,11 +30,11 @@ propertyDescription
       type = UInt32
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

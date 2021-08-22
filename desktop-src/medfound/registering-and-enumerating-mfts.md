@@ -4,12 +4,12 @@ ms.assetid: 76d2a703-4162-428e-a4ff-643e346eacfb
 title: Регистрация и перечисление МФТС
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 771a22b469d472dbc59d07c2754405276883bef4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a3110351479f2a906d68b6c054d9e23886cbcd4cdb031fc8a4951a1d4b8d1e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119101833"
 ---
 # <a name="registering-and-enumerating-mfts"></a>Регистрация и перечисление МФТС
 
@@ -17,14 +17,14 @@ ms.locfileid: "103991416"
 
 -   [Перечисление МФТС](#registering-and-enumerating-mfts)
 -   [Регистрация МФТС](#registering-mfts)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="enumerating-mfts"></a>Перечисление МФТС
 
 Для обнаружения МФТС, зарегистрированных в системе, приложение может вызвать функцию [**мфтенумекс**](/windows/desktop/api/mfapi/nf-mfapi-mftenumex) .
 
 > [!Note]  
-> Для этой функции требуется Windows 7. До Windows 7 в приложениях вместо этого следует использовать функцию [**мфтенум**](/windows/desktop/api/mfapi/nf-mfapi-mftenum) .
+> эта функция требует Windows 7. до Windows 7 приложения должны использовать функцию [**мфтенум**](/windows/desktop/api/mfapi/nf-mfapi-mftenum) .
 
  
 
@@ -36,7 +36,7 @@ ms.locfileid: "103991416"
 
 Функция возвращает массив [**имфактиватеных**](/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate) указателей, каждый из которых представляет таблицу MFT, соответствующую критериям перечисления.
 
-Например, следующий код выполняет перечисление декодеров видео Windows Media:
+например, следующий код перечисляет Windows видеодекодеры мультимедиа:
 
 
 ```C++
@@ -108,7 +108,7 @@ hr = MFTEnumEx(
 
 При регистрации Media Foundation преобразования (MFT) в реестр записываются два типа данных:
 
--   Идентификатор CLSID MFT, чтобы клиенты могли вызывать **CoCreateInstance** или **кожетклассобжект** для создания экземпляра MFT. Эта запись реестра соответствует стандартному формату фабрик классов COM. Дополнительные сведения см. в документации по Windows SDK для модели COM.
+-   Идентификатор CLSID MFT, чтобы клиенты могли вызывать **CoCreateInstance** или **кожетклассобжект** для создания экземпляра MFT. Эта запись реестра соответствует стандартному формату фабрик классов COM. дополнительные сведения см. в документации по Windows SDK для модели COM.
 -   Сведения, позволяющие приложению перечислять МФТС по функциональной категории.
 
 Чтобы создать записи перечисления MFT в реестре, вызовите функцию [**мфтрегистер**](/windows/desktop/api/mfapi/nf-mfapi-mftregister) . Можно включить следующие сведения о MFT:
@@ -173,7 +173,7 @@ STDAPI DllUnregisterServer()
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

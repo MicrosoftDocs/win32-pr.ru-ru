@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: dc076e857dc6cb4e4a6461ed22acd5ad65a81f7d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 73e91413610e33875877cfbae1d162f7aae663945bf19e337597d67123783fd9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119384404"
 ---
 # <a name="cdrawimagenotifystartdraw-method"></a>Кдравимаже. Нотифистартдрав, метод
 
@@ -44,7 +44,7 @@ void NotifyStartDraw();
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В более ранних версиях библиотеки базового класса этот метод поддерживал измерения производительности для объекта [**кдравимаже**](cdrawimage.md) .
 
@@ -54,7 +54,7 @@ void NotifyStartDraw();
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Винутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>винутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

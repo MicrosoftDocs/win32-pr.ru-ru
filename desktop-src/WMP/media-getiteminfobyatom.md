@@ -3,9 +3,9 @@ title: Метод Media. Жетитеминфобятом
 description: Метод Жетитеминфобятом извлекает значение атрибута с указанным номером индекса.
 ms.assetid: 6e2dea0c-c722-4737-9e8e-f5cb74156cea
 keywords:
-- Жетитеминфобятом метод Windows Media Player
-- Жетитеминфобятом метод Windows Media Player, класс мультимедиа
-- Класс мультимедиа проигрыватель Windows Media Player, метод Жетитеминфобятом
+- проигрыватель Windows Media метода жетитеминфобятом
+- проигрыватель Windows Media метода жетитеминфобятом, класс мультимедиа
+- класс мультимедиа проигрыватель Windows Media, метод жетитеминфобятом
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf54d2ae177a65e1a71b5726090bba90f4ee4e5e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 26db8e87a52c0d8c8236b5e4b8b5e7325fb3bb0a995dcbd81da668ea760df660
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135137"
 ---
 # <a name="mediagetiteminfobyatom-method"></a>Метод Media. Жетитеминфобятом
 
@@ -53,7 +53,7 @@ strRetVal = Media.getItemInfoByAtom(
 
 Этот метод возвращает **строку** , представляющую значение указанного атрибута. Для атрибутов, базовое значение которых является **логическим**, оно возвращает строку "true" или "false".
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод можно использовать для получения метаданных для конкретного цифрового элемента мультимедиа с помощью номера индекса атрибута. Свойство **аттрибутекаунт** можно использовать для определения количества атрибутов, доступных для элемента мультимедиа.
 
@@ -61,9 +61,9 @@ strRetVal = Media.getItemInfoByAtom(
 
 Чтобы использовать этот метод, требуется доступ на чтение к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
-Сведения об атрибутах, поддерживаемых проигрывателем Windows Media, см. в [справочнике по атрибутам](attribute-reference.md)проигрывателя Windows Media.
+дополнительные сведения об атрибутах, поддерживаемых проигрыватель Windows Media, см. в [справочнике по атрибутам](attribute-reference.md)проигрыватель Windows Media.
 
-**Проигрыватель Windows Media 10 Mobile:** Атрибуты для элемента мультимедиа доступны только во время воспроизведения, если они не извлекаются из элемента через коллекцию мультимедиа.
+**проигрыватель Windows Media 10 Mobile:** Атрибуты для элемента мультимедиа доступны только во время воспроизведения, если они не извлекаются из элемента через коллекцию мультимедиа.
 
 ## <a name="requirements"></a>Требования
 
@@ -71,7 +71,7 @@ strRetVal = Media.getItemInfoByAtom(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
@@ -101,10 +101,10 @@ strRetVal = Media.getItemInfoByAtom(
 [**Считывание значений атрибутов**](reading-attribute-values.md)
 </dt> <dt>
 
-[**Settings. Медиаакцессригхтс**](settings-mediaaccessrights.md)
+[**Параметры. медиаакцессригхтс**](settings-mediaaccessrights.md)
 </dt> <dt>
 
-[**Settings. Рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
+[**Параметры. рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
  

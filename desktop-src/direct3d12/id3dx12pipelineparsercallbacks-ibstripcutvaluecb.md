@@ -17,12 +17,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f79fca93e76f43b97ffc8e133594805214fe84cc
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: fbdbbe2d66ae38a3bcd04ee84e6db15841d8f74a3b0d311552a51a892445b38f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713820"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124072"
 ---
 # <a name="id3dx12pipelineparsercallbacksibstripcutvaluecb-method"></a>Метод ID3DX12PipelineParserCallbacks:: Ибстрипкутвалуекб
 
@@ -62,7 +62,7 @@ void IBStripCutValueCb(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX12. h</dt> </dl>  |
+| Заголовок<br/>  | <dl> <dt>D3DX12. h</dt> </dl>  |
 | Библиотека<br/> | <dl> <dt>D3D12. lib</dt> </dl> |
 | DLL<br/>     | <dl> <dt>D3D12.dll</dt> </dl> |
 

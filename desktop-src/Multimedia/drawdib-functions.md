@@ -3,21 +3,21 @@ title: Функции Дравдиб
 description: Функции Дравдиб
 ms.assetid: 9ba47b8d-5328-477e-9272-21e897e54348
 keywords:
-- Мультимедиа Windows, функции Дравдиб
+- Windows мультимедиа, функции дравдиб
 - мультимедиа, функции Дравдиб
-- Видео для Windows (VFW), функции Дравдиб
-- VFW (видео для Windows), функции Дравдиб
+- видео для Windows (VFW), функции дравдиб
+- VFW (видео для Windows), функции дравдиб
 - Дравдиб, функции
 - Справочник по Дравдиб, функции
 - Справочник по Дравдиб, функциям
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f27d33581775f38383d72adcf6a1776c5fe6530b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a179a6102f3ec2f5e891d22d817a51af26ef7a5db4d031841ceef6152eb655c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103887816"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144447"
 ---
 # <a name="drawdib-functions"></a>Функции Дравдиб
 
@@ -39,16 +39,16 @@ ms.locfileid: "103887816"
 -   [**дравдибтиме**](/windows/desktop/api/Vfw/nf-vfw-drawdibtime)
 -   [**стретчдиб**](/windows/desktop/api/Vfw/nf-vfw-stretchdib)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Справочник по Дравдиб](drawdib-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
