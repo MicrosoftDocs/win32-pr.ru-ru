@@ -4,12 +4,12 @@ ms.assetid: e893963a-6130-4f65-b925-6f3d292fc86d
 title: Типы баз данных оболочек совместимости
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 789265ea945ce068d2b0b74e3358582d5e4ccd78
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f5cc36cbb198570618fbd1a6524e4e7c6dc6812fb01bd74fe04cf1bd91b31f9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103806905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119075928"
 ---
 # <a name="shim-database-types"></a>Типы баз данных оболочек совместимости
 
@@ -42,8 +42,8 @@ ms.locfileid: "103806905"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

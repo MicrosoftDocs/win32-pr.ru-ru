@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 67924bffc4d4d80b998e686d80d0e50afcd040ef
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6a0c57cf6826274169a5984dd794e1ba9a5b8e78c7ffb774b00b05f16384e4a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953413"
 ---
 # <a name="ctransformfilterreceive-method"></a>Ктрансформфилтер. Receive, метод
 
@@ -64,7 +64,7 @@ HRESULT Receive(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Входной ПИН-код фильтра вызывает этот метод при получении примера. Этот метод вызывает метод [**ктрансформфилтер:: инитиализеаутпутсампле**](ctransformfilter-initializeoutputsample.md) , подготавливающий новый образец выходных данных. Затем вызывается метод [**ктрансформфилтер:: Transform**](ctransformfilter-transform.md) , который должен реализовываться производным классом. Метод **Transform** обрабатывает входные данные и создает выходные данные.
 
@@ -76,7 +76,7 @@ HRESULT Receive(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Трансфрм. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>трансфрм. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

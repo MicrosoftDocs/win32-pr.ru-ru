@@ -3,7 +3,7 @@ title: Список воспроизведения. копирование
 description: Атрибут Copy извлекает значение, указывающее, находится ли элемент списка воспроизведения в процессе копирования.
 ms.assetid: 60f21f4a-51a1-43cd-9bfa-6bff19214a32
 keywords:
-- Список воспроизведения. копирование проигрывателя Windows Media
+- список воспроизведения. копирование проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 710926a966713901733ac9bbee3d188458ebcf65
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b9d803986626f728db78b03933d65629e06d6021f63a5b7806503d7eec7176b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054232"
 ---
 # <a name="playlistcopying"></a>Список воспроизведения. копирование
 
@@ -35,24 +35,24 @@ ms.locfileid: "105708584"
 
 | Значение | Описание                              |
 |-------|------------------------------------------|
-| true  | Выполняется копирование элемента **списка воспроизведения** .     |
+| Да  | Выполняется копирование элемента **списка воспроизведения** .     |
 | false | Элемент **списка воспроизведения** не копируется. |
 
 
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

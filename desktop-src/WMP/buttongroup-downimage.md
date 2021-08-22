@@ -3,7 +3,7 @@ title: BUTTONGROUP. Довнимаже
 description: Атрибут Довнимаже указывает или получает имя изображения, представляющего состояние down BUTTONGROUP.
 ms.assetid: 022e77e7-d3c0-41b5-984a-84d016a5a25a
 keywords:
-- Проигрыватель Windows Media BUTTONGROUP. Довнимаже
+- BUTTONGROUP. довнимаже проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 82b8a1d5bc2f4c68894a3bba1ad8ce9f2b3aa28a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 233c56951ec88444ab58de901732517a4ced4c249f8a9b75f3461eb38e86c975
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997754"
 ---
 # <a name="buttongroupdownimage"></a>BUTTONGROUP. Довнимаже
 
@@ -31,7 +31,7 @@ ms.locfileid: "105694957"
 
 Этот атрибут является **строкой** для чтения и записи.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Поддерживаются форматы изображений BMP, JPG, PNG и GIF. Если изображение является 8-битным файлом BMP, его значения тона и насыщенности можно динамически изменить с помощью атрибутов **хуешифт** и **насыщенности** .
 
@@ -47,7 +47,7 @@ ms.locfileid: "105694957"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

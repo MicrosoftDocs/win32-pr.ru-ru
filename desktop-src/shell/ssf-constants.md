@@ -39,12 +39,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: b26ba102ff72caf235a51d3888183ccafba9d639
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c022b1d93cb411f0cce73822a47f2d8f85b30e8093bbe2064fb3c50eab5c4870
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104997782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967943"
 ---
 # <a name="ssf-constants"></a>Константы ССФ
 
@@ -179,7 +179,7 @@ ms.locfileid: "104997782"
 
 
 
-Запрашивается элемент **фдесктофтмл** . Набор недоступен. Вместо этого для версий Windows, предшествовавших Windows XP, включите настольную HTML- [**иактиведесктоп**](/windows/win32/api/shlobj_core/nn-shlobj_core-iactivedesktop). Однако использование **иактиведесктоп** для этой цели не рекомендуется для Windows XP и более поздних версий Windows, и в Windows Vista оно является устаревшим.
+Запрашивается элемент **фдесктофтмл** . Набор недоступен. вместо этого для версий Windows, выпущенных до Windows XP, включите класс desktop HTML, [**иактиведесктоп**](/windows/win32/api/shlobj_core/nn-shlobj_core-iactivedesktop). однако использование **иактиведесктоп** для этой цели не рекомендуется для Windows XP и более поздних версий Windows и является устаревшим в Windows Vista.
 
 
 </dt> </dl> </dd> <dt>
@@ -324,7 +324,7 @@ ms.locfileid: "104997782"
 
 
 
-**Windows XP и более поздние версии**. Запрашивается элемент **фнонеткравлинг** .
+**Windows XP и более поздних версий**. Запрашивается элемент **фнонеткравлинг** .
 
 
 </dt> </dl> </dd> <dt>
@@ -337,7 +337,7 @@ ms.locfileid: "104997782"
 
 
 
-**Windows XP и более поздние версии**. Запрашивается элемент **фстартпанелон** .
+**Windows XP и более поздних версий**. Запрашивается элемент **фстартпанелон** .
 
 
 </dt> </dl> </dd> <dt>
@@ -363,7 +363,7 @@ ms.locfileid: "104997782"
 
 
 
-**Windows Vista и более поздние версии**. Запрашивается элемент **фауточеккселект** .
+**Windows Vista и более поздних версий**. Запрашивается элемент **фауточеккселект** .
 
 
 </dt> </dl> </dd> <dt>
@@ -376,7 +376,7 @@ ms.locfileid: "104997782"
 
 
 
-**Windows Vista и более поздние версии**. Запрашивается элемент **фиконсонли** .
+**Windows Vista и более поздних версий**. Запрашивается элемент **фиконсонли** .
 
 
 </dt> </dl> </dd> <dt>
@@ -389,7 +389,7 @@ ms.locfileid: "104997782"
 
 
 
-**Windows Vista и более поздние версии**. Запрашивается элемент **фшовтипеоверлай** .
+**Windows Vista и более поздних версий**. Запрашивается элемент **фшовтипеоверлай** .
 
 
 </dt> </dl> </dd> <dt>
@@ -407,7 +407,7 @@ ms.locfileid: "104997782"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

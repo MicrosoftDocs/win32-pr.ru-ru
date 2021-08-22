@@ -44,12 +44,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 62f913937c9a2ff01d4aabeaba48dcbdc8ddb21d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fcfb206e8479892b5c8e2e544d3c660c2dcfbd76c6dfe3c66f382c78c734e9bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104340370"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119001125"
 ---
 # <a name="imsrdpclientnonscriptable3promptforcredentials-property"></a>IMsRdpClientNonScriptable3: свойство Ромптфоркредентиалс:P
 
@@ -78,7 +78,7 @@ HRESULT get_PromptForCredentials(
 
 ## <a name="error-codes"></a>Коды ошибок
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -86,14 +86,14 @@ HRESULT get_PromptForCredentials(
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                      |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                                |
-| Header<br/>                   | <dl> <dt>Вуапи. h</dt> </dl>            |
+| Заголовок<br/>                   | <dl> <dt>Вуапи. h</dt> </dl>            |
 | Библиотека типов<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>        |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>        |
 | IID<br/>                      | IID \_ IMsRdpClientNonScriptable3 определен как b3378d90-0728-45c7-8ed7-b6159fb92219<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

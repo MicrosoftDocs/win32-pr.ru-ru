@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 41f74c02-b673-46d4-87f1-4dfa040a2f06
-ms.openlocfilehash: 166e35b375c46942a082a39c7656cd1f2c13e8a3
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: a090083330c3c725e6dc42e61dc29637060e41aa69e3f0246bea4a2ea97b9444
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109843235"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032802"
 ---
 # <a name="didiskquotauserquotalimittext-property"></a>Дидисккуотаусер. Куоталимиттекст, свойство
 
@@ -51,7 +51,7 @@ QuotaLimitText = DIDiskQuotaUser.QuotaLimitText
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

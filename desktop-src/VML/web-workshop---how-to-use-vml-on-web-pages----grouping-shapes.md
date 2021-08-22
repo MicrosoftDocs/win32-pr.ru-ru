@@ -1,6 +1,6 @@
 ---
 title: Группирование фигур
-description: В этой статье описывается Группирование фигур в VML, а также функция, устаревшая до Windows Internet Explorer 9.
+description: в этой статье описывается группирование фигур в VML, а также нерекомендуемая функция в Windows Internet Explorer 9.
 ms.assetid: 469c9e4d-d1ae-4285-b2cb-ac833ebe59ff
 keywords:
 - Веб-семинар, Группирование фигур
@@ -21,19 +21,19 @@ keywords:
 - Локальное пространство координат
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61e0c3073f55d23c15734b5d5ddfa886e7291530
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 2bc9ac6da1d38bb6b30f685ebfd0f5a1d9d6026620a0e0c65366ee021668240a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119056962"
 ---
 # <a name="grouping-shapes"></a>Группирование фигур
 
-В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+в этом разделе описывается функция VML, которая является устаревшей по отношению к Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
 
 > [!Note]  
-> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
+> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). сведения, рекомендации и рекомендации относительно текущей версии Windows Internet explorer см. в [центре разработчиков internet explorer](https://msdn.microsoft.com/ie/).
 
  
 
@@ -82,7 +82,7 @@ width:150pt;height:100pt; ...>
 
 [![назад ](images/top.gif) к началу](#top)
 
-## <a name="summary"></a>Итоги
+## <a name="summary"></a>Сводка
 
 Элемент можно использовать `<group>` для группировки многих фигур вместе, чтобы их можно было преобразовать как одну единицу.
 

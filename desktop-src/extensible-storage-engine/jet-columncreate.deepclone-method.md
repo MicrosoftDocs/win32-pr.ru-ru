@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 42662be479f3f22a7a50b5139b34813d486139ff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 08ff9b62bebf34a93df79c50ff0ccd95084c596508088c5ebd3402791a6ba1e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118980464"
 ---
 # <a name="jet_columncreatedeepclone-method"></a>JET_COLUMNCREATE. Метод Дипклоне
 
@@ -63,7 +63,7 @@ public JET_COLUMNCREATE DeepClone()
 
 [Идипклонеабле \<T\> . Дипклоне ()](./ideepcloneable-t-.deepclone-method.md)  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

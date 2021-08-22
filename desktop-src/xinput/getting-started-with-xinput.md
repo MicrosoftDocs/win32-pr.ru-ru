@@ -1,21 +1,21 @@
 ---
 title: начало работы с Ксинпут
-description: Ксинпут — это API, позволяющий приложениям принимать входные данные с контроллера Xbox для Windows. Поддерживаются эффекты румблеа контроллера, речевой ввод и вывод.
+description: Ксинпут — это API, позволяющий приложениям принимать входные данные от контроллера Xbox для Windows. Поддерживаются эффекты румблеа контроллера, речевой ввод и вывод.
 ms.assetid: 7b5eec3e-b3da-de5c-c926-8258c1418ef0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91f590f54bbb2641881cf89cd6d31539d75665c0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 68a9ca17e3046db676887290b9b9dcbb7318f2dc89d4dd9543cbe790bf271b60
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103791893"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962503"
 ---
 # <a name="getting-started-with-xinput"></a>начало работы с Ксинпут
 
-Ксинпут — это API, позволяющий приложениям принимать входные данные с контроллера Xbox для Windows. Поддерживаются эффекты румблеа контроллера, речевой ввод и вывод.
+Ксинпут — это API, позволяющий приложениям принимать входные данные от контроллера Xbox для Windows. Поддерживаются эффекты румблеа контроллера, речевой ввод и вывод.
 
-В этом разделе содержится краткий обзор возможностей Ксинпут и их настройки в приложении. Он включает в себя следующее:
+В этом разделе содержится краткий обзор возможностей Ксинпут и их настройки в приложении. Это включает в себя следующее:
 
 -   [Введение в Ксинпут](#introduction-to-xinput)
     -   [Контроллер Xbox](#the-xbox-controller)
@@ -26,11 +26,11 @@ ms.locfileid: "103791893"
     -   [Установка эффектов вибрации](#setting-vibration-effects)
     -   [Получение идентификаторов звуковых устройств](#getting-audio-device-identifiers)
     -   [Получение идентификаторов GUID DirectSound (только для устаревших пакетов SDK DirectX)](#getting-directsound-guids-legacy-directx-sdk-only)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="introduction-to-xinput"></a>Введение в Ксинпут
 
-Консоль Xbox использует игровой контроллер, совместимый с Windows. Приложения могут использовать API Ксинпут для взаимодействия с этими контроллерами при их подключении к компьютеру под управлением Windows (за один раз может быть подключено до четырех уникальных контроллеров).
+Консоль Xbox использует игровой контроллер, совместимый с Windows. приложения могут использовать API ксинпут для взаимодействия с этими контроллерами, когда они подключены к Windows компьютеру (за один раз может быть подключено до четырех уникальных контроллеров).
 
 С помощью этого API можно запрашивать состояние любого подключенного контроллера Xbox, а также устанавливать эффекты вибрации. Контроллеры, подключенные к гарнитуре, также могут быть запрошены для устройств ввода и вывода звука, которые можно использовать с гарнитурой для обработки голоса.
 
@@ -207,7 +207,7 @@ if ( FAILED(hr = pXAudio2->CreateMasteringVoice( &pMasterVoice, XAUDIO2_DEFAULT_
 Чтобы связать микрофон и наушники гарнитуры с соответствующими интерфейсами [DirectSound](/previous-versions/windows/desktop/ee416960(v=vs.85)) , необходимо получить директсаундгуидс для записи и отрисовки устройств, вызвав [**ксинпутжетдсаундаудиодевицегуидс**](/windows/desktop/api/XInput/nf-xinput-xinputgetdsoundaudiodeviceguids).
 
 > [!Note]  
-> Использование устаревшей [DirectSound](/previous-versions/windows/desktop/ee416960(v=vs.85)) не рекомендуется и недоступно в приложениях для Магазина Windows. Сведения в этом разделе относятся только к версии пакета SDK для DirectX Ксинпут (Ксинпут 1,3). Версия Ксинпут (Ксинпут 1,4) для Windows 8 использует только идентификаторы устройств API Windows Audio (ВАСАПИ), полученные через [**ксинпутжетаудиодевицеидс**](/windows/desktop/api/XInput/nf-xinput-xinputgetaudiodeviceids).
+> использование устаревшей [DirectSound](/previous-versions/windows/desktop/ee416960(v=vs.85)) не рекомендуется и недоступно в приложениях Windows Store. Сведения в этом разделе относятся только к версии пакета SDK для DirectX Ксинпут (Ксинпут 1,3). Windows 8 версия ксинпут (ксинпут 1,4) использует исключительно Windows идентификаторы устройств API аудио-сеансов (васапи), полученные через [**ксинпутжетаудиодевицеидс**](/windows/desktop/api/XInput/nf-xinput-xinputgetaudiodeviceids).
 
 ```cpp
 XInputGetDSoundAudioDeviceGuids( i, &dsRenderGuid, &dsCaptureGuid );
@@ -230,6 +230,6 @@ if( FAILED( hr = DirectSoundCaptureCreate8( &dsCaptureGuid, &pDSCapture, NULL ) 
    return hr;
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 [Справочник по программированию](programming-reference.md)

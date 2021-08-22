@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ee89eb1bd8228fb5aa6bf649bf3e703847f9d605
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8e740a4afcbec9d4852d920a8ab312fb871700c0a1fab56d70fa7b3239cea7e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104416177"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119017612"
 ---
 # <a name="matrix4x3fmatrix4x3f-constructor"></a>Конструктор Matrix4x3F:: Matrix4x3F ()
 
@@ -40,23 +40,23 @@ inline Matrix4x3F();
 
 Этот конструктор не имеет параметров.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 7, Windows Vista с пакетом обновления 2 (SP2) и обновлением платформы \[ только для настольных приложений Windows Vista\]<br/>                          |
-| Минимальная версия сервера<br/> | Windows Server 2008 R2, Windows Server 2008 с пакетом обновления 2 (SP2) и обновление платформы для Windows Server 2008 \[ только классические приложения\]<br/> |
+| Минимальная версия сервера<br/> | Windows server 2008 R2, Windows server 2008 с пакетом обновления 2 (SP2) и обновлением платформы для Windows Server 2008 \[ только классические приложения\]<br/> |
 | Минимальный поддерживаемый телефон<br/>  | Windows Phone 8,1 \[ Windows Phone Silverlight 8,1 и среда выполнения Windows приложения\]<br/>                                           |
 | Пространство имен<br/>                | D2D1<br/>                                                                                                                   |
-| Header<br/>                   | <dl> <dt>\_Вспомогательный метод D2d1. h</dt> </dl>                                         |
+| Заголовок<br/>                   | <dl> <dt>\_Вспомогательный метод D2d1. h</dt> </dl>                                         |
 | Библиотека<br/>                  | <dl> <dt>D2d1. lib</dt> </dl>                                               |
 | DLL<br/>                      | <dl> <dt>D2d1.dll</dt> </dl>                                               |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

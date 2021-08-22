@@ -4,12 +4,12 @@ ms.assetid: e145e862-b987-4962-a94b-f8370bbcd5ac
 title: Атрибут EVRConfig_AllowDropToBob (UUIDs. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3940edd0945999f7300060d963806e3572a5d0fa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0dea0dc405f746ad6bbcd37e5bf5428e1f50b5e32049e10c71a196b461f03f62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104423534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974483"
 ---
 # <a name="evrconfig_allowdroptobob-attribute"></a>Еврконфиг \_ алловдроптобоб, атрибут
 
@@ -25,7 +25,7 @@ ms.locfileid: "104423534"
 
 Чтобы задать этот атрибут, вызовите [**имфаттрибутес:: SetUINT32**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint32).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут можно задать в приемнике Еврмедиа. Чтобы задать атрибут, **QueryInterface** будет запрашивать приемник мультимедиа Евр для интерфейса [**имфаттрибутес**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes) .
 
@@ -39,9 +39,9 @@ ms.locfileid: "104423534"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                         |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                            |
-| Header<br/>                   | <dl> <dt>UUID. h</dt> </dl> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                         |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                            |
+| Заголовок<br/>                   | <dl> <dt>UUID. h</dt> </dl> |
 
 
 

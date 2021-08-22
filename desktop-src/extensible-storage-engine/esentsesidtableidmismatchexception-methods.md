@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102701
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 909401dab0e9c541f8fa88357df1220b3e898c6c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 729c442f0cbc23aee4a6522a97c86e793a8d2cb9544b2f4503e112a6b37e3693
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103814577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118981674"
 ---
 # <a name="esentsesidtableidmismatchexception-methods"></a>Методы EsentSesidTableIdMismatchException 
 
@@ -78,7 +78,7 @@ ms.locfileid: "103814577"
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

@@ -7,12 +7,12 @@ keywords:
 - DNS-сервер системы доменных имен, поставщик WMI, ресурсы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6179b0255c8865d0d87ea6a0615102d6612f388a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b2316eaa74fdd9c937d8625a4468e95c109840b07c5d88d5cf60ff2bb5ebad53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070133"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119076548"
 ---
 # <a name="resource-information-for-the-dns-wmi-provider"></a>Сведения о ресурсах для поставщика WMI DNS
 
@@ -22,13 +22,13 @@ ms.locfileid: "104070133"
 
 | Раздел                                                                         | Описание                                                                                                                                                                                                                   |
 |-------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Технический документ по DNS Windows 2000](https://www.microsoft.com/technet/prodtechnol/windows2000serv/plan/w2kdns2.mspx) | Применяет реализацию DNS в Windows 2000 с примерами и описывает критерии архитектуры, которые архитекторам и администраторам сети следует учитывать при проектировании пространства имен DNS для служб Active Directory. |
-| [Технологии сценариев Windows](/previous-versions/ms950396(v=msdn.10)) | Сведения о сценариях для различных технологий создания сценариев.                                                                                                                                                                |
+| [технический документ по DNS Windows 2000](https://www.microsoft.com/technet/prodtechnol/windows2000serv/plan/w2kdns2.mspx) | применяет реализацию Windows 2000 в DNS с примерами и описывает критерии архитектуры, которые архитекторам и администраторам сети следует учитывать при проектировании пространства имен DNS для служб Active Directory. |
+| [Windows Технологии сценариев](/previous-versions/ms950396(v=msdn.10)) | Сведения о сценариях для различных технологий создания сценариев.                                                                                                                                                                |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

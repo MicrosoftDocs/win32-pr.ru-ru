@@ -4,12 +4,12 @@ ms.assetid: 541a86e3-7736-4de4-b509-f8d61ef9bc58
 title: Атрибут частоты кадров (DirectShow)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f1af5deb8ae2a851b328fcd6d9ffa3923328708
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 2939126dbd849538bb30fcf7729e5f91dafa292b6db512398c915c8f8de2c9a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103990091"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015662"
 ---
 # <a name="framerate-attribute-directshow"></a>Атрибут частоты кадров (DirectShow)
 
@@ -24,11 +24,11 @@ ms.locfileid: "103990091"
 
 Значение с плавающей запятой. Значение должно включать начальный ноль перед десятичной запятой. Например, 0,3, а не. 3. Не используйте более семи десятичных знаков.
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 [**клип**](clip-element.md), [**Группа**](group-element.md), [**временная шкала**](timeline-element.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для элемента **Clip** этот атрибут указывает частоту кадров источника по умолчанию. Укажите атрибут для Анддиб последовательностей изображений. Для неподвижных изображений установите значение 0. Для последовательности DIB используйте ненулевое значение. Значение по умолчанию равно нулю.
 

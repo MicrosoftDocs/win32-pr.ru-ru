@@ -1,5 +1,5 @@
 ---
-description: В этом разделе описываются интерфейсы оболочки Windows.
+description: в этом разделе описываются интерфейсы оболочки Windows.
 title: 'Интерфейсы оболочки '
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 23bd87e86ba9e30ce443616920326bf37aba6d2c
-ms.sourcegitcommit: 9a614d8ce23dcca88873148683d9ec7d38be57b9
+ms.openlocfilehash: 8bf8a0669666ae45ba79fda014a8b3b92b57a974b6f72e06303c6c8a2e368bba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "104414268"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032372"
 ---
 # <a name="shell-interfaces"></a>Интерфейсы оболочки 
 
-В этом разделе описываются интерфейсы оболочки Windows.
+в этом разделе описываются интерфейсы оболочки Windows.
 
 ## <a name="in-this-section"></a>В этом разделе
 
@@ -70,14 +70,14 @@ ms.locfileid: "104414268"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationactivationmanager"><strong>иаппликатионактиватионманажер</strong></a><br/></td>
-<td>Предоставляет методы, активирующие приложения Магазина Windows для <a href="/previous-versions/windows/apps/hh464906(v=win.10)">расширений</a>запуска, файлов и протоколов. Обычно этот интерфейс будет использоваться в отладчиках и средствах проектирования.<br/></td>
+<td>предоставляет методы, которые активируют приложения Windows Store для <a href="/previous-versions/windows/apps/hh464906(v=win.10)">расширений</a>запуска, файлов и протоколов. Обычно этот интерфейс будет использоваться в отладчиках и средствах проектирования.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationassociationregistration"><strong>иаппликатионассоЦиатионрегистратион</strong></a><br/></td>
 <td>Предоставляет методы, которые запрашивают и устанавливают приложения по умолчанию для конкретного <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-associationtype"><strong>типа сопоставления</strong></a>файлов и протоколов на определенном <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-associationlevel"><strong>уровне взаимосвязей</strong></a>. <br/>
 <blockquote>
 [!Note]<br />
-Начиная с Windows 8, единственной функциональной возможностью этого интерфейса является <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationassociationregistration-querycurrentdefault"><strong>куерикуррентдефаулт</strong></a>.
+начиная с Windows 8, поддерживаются только функции этого интерфейса <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationassociationregistration-querycurrentdefault"><strong>куерикуррентдефаулт</strong></a>.
 </blockquote>
 <br/></td>
 </tr>
@@ -87,11 +87,11 @@ ms.locfileid: "104414268"
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdesignmodesettings"><strong>иаппликатиондесигнмодесеттингс</strong></a><br/></td>
-<td>Позволяет приложениям средств разработки динамически подделывать системные и пользовательские состояния, такие как собственное разрешение экрана, коэффициент масштабирования устройства и состояние представления приложения, в целях тестирования приложений Магазина Windows, работающих в режиме разработки, для широкого спектра форм-факторов без необходимости наличия реального оборудования. Также обеспечивает тестирование изменений в обычном управляемом пользователем состоянии для тестирования приложений Магазина Windows в различных сценариях.<br/></td>
+<td>позволяет приложениям средств разработки динамически подделывать системные и пользовательские состояния, такие как собственное разрешение экрана, коэффициент масштабирования устройства и состояние представления приложения, в целях тестирования Windows приложений магазина, работающих в режиме конструктора, для широкого спектра форм-факторов без необходимости реального оборудования. также позволяет тестировать изменения в обычном управляемом пользователем состоянии для тестирования Windows приложений магазина в различных сценариях.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdesignmodesettings2"><strong>IApplicationDesignModeSettings2</strong></a><br/></td>
-<td>Позволяет приложениям средств разработки динамически управлять состояниями системы и пользователей, такими как собственное разрешение экрана, коэффициент масштабирования устройства и макет представления приложений, переданные в приложения Магазина Windows для тестирования приложений Магазина Windows, работающих в режиме разработки, для широкого спектра форм-факторов без необходимости реального оборудования. Также обеспечивает тестирование изменений в обычном управляемом пользователем состоянии для тестирования приложений Магазина Windows в различных сценариях.<br/></td>
+<td>позволяет приложениям средств разработки динамически управлять состояниями системы и пользователями, такими как собственное разрешение экрана, коэффициент масштабирования устройства и макет представления приложений, о которых передается в Windows приложения магазина для тестирования Windows приложений магазина, работающих в режиме разработки, для широкого спектра форм-факторов без необходимости в фактическом оборудовании. также позволяет тестировать изменения в обычном управляемом пользователем состоянии для тестирования Windows приложений магазина в различных сценариях.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdestinations"><strong>иаппликатиондестинатионс</strong></a><br/></td>
@@ -107,7 +107,7 @@ ms.locfileid: "104414268"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iappvisibility"><strong>иаппвисибилити</strong></a><br/></td>
-<td>Предоставляет функциональные возможности, позволяющие определить, отображаются ли приложения для Магазина Windows.<br/></td>
+<td>предоставляет функциональные возможности для определения того, отображается ли дисплей Windows приложений магазина.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iappvisibilityevents"><strong>иаппвисибилитевентс</strong></a><br/></td>
@@ -163,7 +163,7 @@ ms.locfileid: "104414268"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icolumnmanager"><strong>иколумнманажер</strong></a><br/></td>
-<td>Предоставляет методы, обеспечивающие проверку и обработку столбцов в представлении подробностей проводника Windows. На каждый столбец ссылается структура <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey"><strong>PROPERTYKEY</strong></a> , которая именует свойство.<br/></td>
+<td>предоставляет методы, обеспечивающие проверку и обработку столбцов в представлении сведений обозревателя Windows. На каждый столбец ссылается структура <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey"><strong>PROPERTYKEY</strong></a> , которая именует свойство.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser"><strong>икоммдлгбровсер</strong></a><br/></td>
@@ -296,7 +296,7 @@ ms.locfileid: "104414268"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idatatransfermanagerinterop"><strong>идататрансферманажеринтероп</strong></a><br/></td>
-<td>Обеспечивает доступ к методам <a href="/uwp/api/Windows.ApplicationModel.DataTransfer.DataTransferManager"><strong>дататрансферманажер</strong></a> в приложении Магазина Windows, которое управляет несколькими окнами.<br/></td>
+<td>обеспечивает доступ к методам <a href="/uwp/api/Windows.ApplicationModel.DataTransfer.DataTransferManager"><strong>дататрансферманажер</strong></a> в приложении для магазина Windows, которое управляет несколькими окнами.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idefaultextracticoninit"><strong>идефаултекстрактиконинит</strong></a><br/></td>
@@ -336,7 +336,7 @@ ms.locfileid: "104414268"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow"><strong>идоккингвиндов</strong></a><br/></td>
-<td>Предоставляет методы, уведомляющие объект закрепляемого окна об изменениях, включая отображение, скрытие и отложенное удаление. Этот интерфейс реализуется объектами окна, которые можно закрепить в области границ окна проводника Windows.<br/></td>
+<td>Предоставляет методы, уведомляющие объект закрепляемого окна об изменениях, включая отображение, скрытие и отложенное удаление. этот интерфейс реализуется объектами окна, которые можно закрепить в области границы окна обозревателя Windows.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj/nn-shlobj-idockingwindowframe"><strong>идоккингвиндовфраме</strong></a><br/></td>
@@ -452,7 +452,7 @@ ms.locfileid: "104414268"
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerpanevisibility"><strong>иексплорерпаневисибилити</strong></a><br/></td>
-<td>Используется в проводнике Windows с реализацией <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>ишеллфолдер</strong></a> для предоставления предложений в представлении о том, какие области видимы. Кроме того, узел <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser"><strong>иексплорербровсер</strong></a> может использовать этот интерфейс для предоставления сведений о видимости области. Узел должен реализовать <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)"><strong>QueryService</strong></a> с <strong>SID_EXPLORERPANEVISIBILITY</strong> в качестве идентификатора службы. Узел должен находиться в цепочке сайтов. <br/> Реализация <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerpanevisibility"><strong>иексплорерпаневисибилити</strong></a> извлекается из папки оболочки. Папка Shell, в свою очередь, извлекается из представления. Расширение пространства имен может предоставить настраиваемое представление (<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>ишеллвиев</strong></a>) вместо использования объекта представления системной папки (дефвиев). В этом случае реализация <strong>ишеллвиев</strong> должна включать реализацию <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-getfolder"><strong>ифолдервиев::</strong></a> GetObject для возврата объекта <strong>иексплорерпаневисибилити</strong> .<br/> Расширение пространства имен может предоставлять пользовательское представление путем реализации самого <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>ишеллвиев</strong></a> , а не объекта представления системной папки (дефвиев). В этом случае реализация <strong>ишеллвиев</strong> должна включать реализацию <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-getfolder"><strong>ифолдервиев::</strong></a> , чтобы использовать <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerpanevisibility"><strong>иексплорерпаневисибилити</strong></a> .<br/></td>
+<td>используется в Windows Explorer реализацией <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>ишеллфолдер</strong></a> для предоставления предложений в представлении о том, какие области видимы. Кроме того, узел <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser"><strong>иексплорербровсер</strong></a> может использовать этот интерфейс для предоставления сведений о видимости области. Узел должен реализовать <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)"><strong>QueryService</strong></a> с <strong>SID_EXPLORERPANEVISIBILITY</strong> в качестве идентификатора службы. Узел должен находиться в цепочке сайтов. <br/> Реализация <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerpanevisibility"><strong>иексплорерпаневисибилити</strong></a> извлекается из папки оболочки. Папка Shell, в свою очередь, извлекается из представления. Расширение пространства имен может предоставить настраиваемое представление (<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>ишеллвиев</strong></a>) вместо использования объекта представления системной папки (дефвиев). В этом случае реализация <strong>ишеллвиев</strong> должна включать реализацию <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-getfolder"><strong>ифолдервиев::</strong></a> GetObject для возврата объекта <strong>иексплорерпаневисибилити</strong> .<br/> Расширение пространства имен может предоставлять пользовательское представление путем реализации самого <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>ишеллвиев</strong></a> , а не объекта представления системной папки (дефвиев). В этом случае реализация <strong>ишеллвиев</strong> должна включать реализацию <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-getfolder"><strong>ифолдервиев::</strong></a> , чтобы использовать <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerpanevisibility"><strong>иексплорерпаневисибилити</strong></a> .<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iextracticona"><strong>иекстрактикон</strong></a><br/></td>
@@ -548,7 +548,7 @@ ms.locfileid: "104414268"
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ifolderviewoptions"><strong>ифолдервиевоптионс</strong></a><br/></td>
-<td>Предоставляет методы, позволяющие управлять параметрами представления папки, характерными для представлений Windows 7 и более поздних версий.<br/></td>
+<td>предоставляет методы, позволяющие управлять параметрами представления папки, характерными для Windows 7 и более поздних представлений.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderviewsettings"><strong>ифолдервиевсеттингс</strong></a><br/></td>
@@ -619,8 +619,8 @@ ms.locfileid: "104414268"
 <td>Предоставляет метод, инициализирующий обработчик, например обработчик свойства, обработчик эскизов или обработчик просмотра, с потоком.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializewithwindow"><strong>иинитиализевисвиндов</strong></a><br/></td>
-<td>Предоставляет метод, с помощью которого клиент может предоставить окну-владельцу объект среда выполнения Windows, используемый в классическом приложении.<br/></td>
+<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializewithwindow"><strong>IInitializeWithWindow</strong></a><br/></td>
+<td>предоставляет метод, с помощью которого клиент может предоставить окну-владельцу объект среда выполнения Windows, используемый в классическом приложении.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobject"><strong>иинпутобжект</strong></a><br/></td>
@@ -636,11 +636,11 @@ ms.locfileid: "104414268"
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelconfiguration"><strong>иинпутпанелконфигуратион</strong></a><br/></td>
-<td>Предоставляет функциональные возможности для настольных приложений, чтобы принять участие в механизме отслеживания фокуса, используемом в приложениях для Магазина Windows.<br/></td>
+<td>предоставляет функциональные возможности для настольных приложений, чтобы принять участие в механизме отслеживания фокуса, используемом в приложениях Windows Store.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelinvocationconfiguration"><strong>иинпутпанелинвокатионконфигуратион</strong></a><br/></td>
-<td>Позволяет приложениям Магазина Windows отказаться от поведения автоматического вызова.<br/></td>
+<td>позволяет приложениям Windows магазина отказаться от поведения автоматического вызова.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iiocancelinformation"><strong>ииоканцелинформатион</strong></a><br/></td>
@@ -684,11 +684,11 @@ ms.locfileid: "104414268"
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-imodalwindow"><strong>имодалвиндов</strong></a><br/></td>
-<td>Предоставляет метод, представляющий модальное окно. Этот интерфейс используется в мастере паспорта Windows XP.<br/></td>
+<td>Предоставляет метод, представляющий модальное окно. этот интерфейс используется в мастере Windows XP Passport.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="imultimonitordockingsite.md"><strong>имултимонитордоккингсите</strong></a><br/></td>
-<td>Реализуется браузером. Предоставляет методы, управляющие монитором, содержащим панель задач Windows в системе с несколькими мониторами. <br/></td>
+<td>Реализуется браузером. предоставляет методы, управляющие монитором, который содержит Windows панели задач в системе с несколькими мониторами. <br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-inamedpropertybag"><strong>инамедпропертибаг</strong></a><br/></td>
@@ -740,7 +740,7 @@ ms.locfileid: "104414268"
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inewmenuclient"><strong>иневменуклиент</strong></a><br/></td>
-<td>Предоставляет методы, позволяющие управлять элементами в меню Windows 7.<br/></td>
+<td>предоставляет методы, которые позволяют управлять элементами в меню Windows 7.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj/nn-shlobj-inewshortcuthooka"><strong>иневшорткусук</strong></a><br/></td>
@@ -804,7 +804,7 @@ ms.locfileid: "104414268"
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iopensearchsource"><strong>иопенсеарчсаурце</strong></a><br/></td>
-<td>Предоставляет метод для получения результатов поиска из пользовательского источника данных OpenSearch на стороне клиента.<br/></td>
+<td>предоставляет метод для получения результатов поиска из пользовательского источника данных OpenSearch на стороне клиента.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ioperationsprogressdialog"><strong>иоператионспрогрессдиалог</strong></a><br/></td>
@@ -812,11 +812,11 @@ ms.locfileid: "104414268"
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ipackagedebugsettings"><strong>ипаккажедебугсеттингс</strong></a><br/></td>
-<td>Позволяет разработчикам отладчика управлять жизненным циклом приложения для Магазина Windows, например приостанавливать или возобновлять работу.<br/></td>
+<td>позволяет разработчикам отладчика управлять жизненным циклом приложения для магазина Windows, например приостановки или возобновления.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipackageexecutionstatechangenotification"><strong>ипаккажеексекутионстатечанженотификатион</strong></a><br/></td>
-<td>Включает получение уведомлений об изменениях состояния пакета во время отладки приложений для Магазина Windows.<br/></td>
+<td>позволяет получать уведомления об изменениях состояния пакета во время отладки приложений в хранилище Windows.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iparentanditem"><strong>ипарентандитем</strong></a><br/></td>
@@ -852,7 +852,7 @@ ms.locfileid: "104414268"
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/legacy/hh707033(v=vs.85)"><strong>иплайбаккманажер</strong></a><br/></td>
-<td>Предоставляет методы, позволяющие приложениям мультимедиа обмениваться данными с диспетчером воспроизведения Windows.<br/></td>
+<td>предоставляет методы, позволяющие приложениям мультимедиа обмениваться данными с диспетчером Windowsного воспроизведения.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/previous-versions/windows/desktop/legacy/hh707034(v=vs.85)"><strong>иплайбаккманажеревентс</strong></a><br/></td>
@@ -876,7 +876,7 @@ ms.locfileid: "104414268"
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ipreviousversionsinfo"><strong>ипревиаусверсионсинфо</strong></a><br/></td>
-<td>Предоставляет метод, проверяющий предыдущие версии файлов или папок сервера, которые хранятся в целях повторной версии с помощью технологии <em>теневого копирования</em> , предоставляемой в Windows Server 2003.<br/></td>
+<td>предоставляет метод, проверяющий предыдущие версии файлов или папок сервера, которые хранятся в целях повторной версии с помощью технологии <em>теневого копирования</em> , обеспечиваемой Windows server 2003.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="iprivateidentitymanager.md"><strong>иприватеидентитиманажер</strong></a><br/></td>
@@ -904,7 +904,7 @@ ms.locfileid: "104414268"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ipublishingwizard"><strong>ипублишингвизард</strong></a><br/></td>
-<td>Предоставляет методы для работы с мастером печати в сети, мастером веб-публикаций и мастером добавления сетевого размещения. В Windows Vista <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ipublishingwizard"><strong>ипублишингвизард</strong></a> больше не поддерживает мастер веб-публикаций или Мастер печати в режиме «в сети».<br/></td>
+<td>Предоставляет методы для работы с мастером печати в сети, мастером веб-публикаций и мастером добавления сетевого размещения. в Windows Vista <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ipublishingwizard"><strong>ипублишингвизард</strong></a> больше не поддерживает мастер веб-публикаций или мастер печати в режиме «в сети».<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations"><strong>икуеряссоЦиатионс</strong></a><br/></td>
@@ -984,7 +984,7 @@ ms.locfileid: "104414268"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelldetails"><strong>ишеллдетаилс</strong></a><br/></td>
-<td>Предоставляется папками оболочки для предоставления подробных сведений о элементах в папке. Это те же сведения, которые отображаются проводником Windows, если в качестве представления папки заданы подробные сведения. Для систем Windows 2000 и более поздних версий <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelldetails"><strong>ишеллдетаилс</strong></a> заменяется <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2"><strong>IShellFolder2</strong></a>.<br/></td>
+<td>Предоставляется папками оболочки для предоставления подробных сведений о элементах в папке. это те же сведения, которые отображаются в обозревателе Windows, когда для представления папки задано значение details. для Windows 2000 и более поздних систем <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelldetails"><strong>ишеллдетаилс</strong></a> заменяется <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2"><strong>IShellFolder2</strong></a>.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellextinit"><strong>ишеллекстинит</strong></a><br/></td>
@@ -1008,7 +1008,7 @@ ms.locfileid: "104414268"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishellfolderviewcb"><strong>ишеллфолдервиевкб</strong></a><br/></td>
-<td>Предоставляет метод, который разрешает обмен данными между проводником Windows и представлением папки, реализованным с помощью объекта представления системных папок (объект <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>ишеллвиев</strong></a> , возвращенный через <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderview"><strong>шкреатешеллфолдервиев</strong></a>), чтобы представление папки могла получать уведомления о событиях и изменять их представление соответствующим образом.<br/></td>
+<td>предоставляет метод, который разрешает обмен данными между проводником Windows и представлением папки, реализованным с помощью объекта представления системных папок (объект <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>ишеллвиев</strong></a> , возвращенный через <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderview"><strong>шкреатешеллфолдервиев</strong></a>), чтобы представление папки могла получать уведомления о событиях и изменять их представление соответствующим образом.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Shldisp/nn-shldisp-ishellfolderviewdual"><strong>ишеллфолдервиевдуал</strong></a><br/></td>
@@ -1100,7 +1100,7 @@ ms.locfileid: "104414268"
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>ишеллвиев</strong></a><br/></td>
-<td>Предоставляет методы, представляющие представление в проводнике Windows или в окнах папок.<br/></td>
+<td>предоставляет методы, представляющие представление в окнах проводника Windows или папок.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview2"><strong>IShellView2</strong></a><br/></td>
@@ -1263,7 +1263,7 @@ ms.locfileid: "104414268"
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist3"><strong>ITaskbarList3</strong></a><br/></td>
-<td>Расширяет <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist2"><strong>ITaskbarList2</strong></a> , предоставляя методы, поддерживающие унифицированную функцию кнопки панели задач "Запуск и переключение", добавленную в Windows 7. Эти функции включают в себя эскизы и переключатели, основанные на отдельных вкладках в приложении с вкладками, панелях инструментов эскиза, наложения уведомлений и состоянии, а также индикаторах хода выполнения.<br/></td>
+<td>расширяет <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist2"><strong>ITaskbarList2</strong></a> , предоставляя методы, поддерживающие унифицированную функцию кнопки панели задач "запуск и переключение", добавленную в Windows 7. Эти функции включают в себя эскизы и переключатели, основанные на отдельных вкладках в приложении с вкладками, панелях инструментов эскиза, наложения уведомлений и состоянии, а также индикаторах хода выполнения.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist4"><strong>ITaskbarList4</strong></a><br/></td>

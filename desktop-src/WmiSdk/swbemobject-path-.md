@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 773f6f9bb04aa31290bc351550a45d849d74e06f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5b87d2ad73fcaea2be2214a962940f154bb6df2b428f98d4646e0cb935ab2859
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991994"
 ---
 # <a name="swbemobjectpath_-property"></a>SWbemObject. Path, \_ свойство
 
@@ -42,7 +42,7 @@ SWbemObject.Path_ As Object
 
 ## <a name="property-value"></a>Значение свойства
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Можно изменить только свойство [**Class**](swbemobjectpath-class.md) возвращаемого экземпляра [**свбемобжектпас**](swbemobjectpath.md) . Если вы попытаетесь изменить какое-либо другое свойство или попытаетесь вызвать методы [**сетаскласс**](swbemobjectpath-setasclass.md) или [**сетассинглетон**](swbemobjectpath-setassingleton.md), вы получите ошибку **вбемеррреадонли** .
 
@@ -67,7 +67,7 @@ Next
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -75,7 +75,7 @@ Next
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
 | Библиотека типов<br/>             | <dl> <dt>Wbemdisp. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | \_SWBEMOBJECT CLSID<br/>                                                           |

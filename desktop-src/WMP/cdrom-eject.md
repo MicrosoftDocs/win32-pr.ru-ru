@@ -3,9 +3,9 @@ title: Метод CDROM. EJECT
 description: Метод Eject извлекает компакт-диск или DVD-диск из накопителя. | Метод CDROM. EJECT
 ms.assetid: f43c7f10-7de2-488c-833a-ecd3ac21744b
 keywords:
-- метод извлечения Windows Media Player
-- метод извлечения Windows Media Player, класс CDROM
-- Класс CDROM проигрыватель Windows Media Player, метод reeject
+- проигрыватель Windows Media метода извлечения
+- метод извлечения проигрыватель Windows Media, класс Cdrom
+- класс Cdrom проигрыватель Windows Media, метод извлечения
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 78326ca57dcf097344fc073681fae772222ea9ad
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: c9bd1c5a7a79c2a9b76b3a7a1997c43713fe0f3c1ae28e635a235feb82d214ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105693984"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997684"
 ---
 # <a name="cdromeject-method"></a>Метод CDROM. EJECT
 
@@ -44,13 +44,13 @@ Cdrom.eject()
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если дверца диска открыта, этот метод закрывает дверцу.
 
 Чтобы использовать этот метод, требуется доступ на чтение к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
-**Проигрыватель Windows Media 10 Mobile:** Этот метод не поддерживается.
+**проигрыватель Windows Media 10 Mobile:** Этот метод не поддерживается.
 
 ## <a name="examples"></a>Примеры
 
@@ -73,9 +73,9 @@ Cdrom.eject()
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                               |
-| Версия<br/>                  | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                               |
+| Версия<br/>                  | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>                      | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
@@ -90,10 +90,10 @@ Cdrom.eject()
 [**Player. Плайстате**](player-playstate.md)
 </dt> <dt>
 
-[**Settings. Медиаакцессригхтс**](settings-mediaaccessrights.md)
+[**Параметры. медиаакцессригхтс**](settings-mediaaccessrights.md)
 </dt> <dt>
 
-[**Settings. Рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
+[**Параметры. рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
  

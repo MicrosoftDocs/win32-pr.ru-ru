@@ -4,12 +4,12 @@ ms.assetid: 0C4609A9-A89E-400B-8DAD-92A471A8606F
 title: System. Devices. Плайбаккпоситионперцент
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 27e3f1edb9775d666485174bf5453e4425d06037
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 71a3946dcde36234f3fcbeefade4bec2fc576211bfe6c6e501f98b7b4c75e944
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119097490"
 ---
 # <a name="systemdevicesplaybackpositionpercent"></a>System. Devices. Плайбаккпоситионперцент
 
@@ -37,11 +37,11 @@ propertyDescription
             setValue = 0
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

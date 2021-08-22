@@ -3,19 +3,19 @@ title: Атрибуты внешнего события
 description: Атрибуты внешнего события
 ms.assetid: 56cd2701-53b3-4456-8fcd-d65f8a6aefd7
 keywords:
-- Обложки проигрывателя Windows Media, атрибуты событий окружения
+- обложки проигрыватель Windows Media, атрибуты событий окружения
 - обложки, атрибуты событий окружения
 - Справочник по обложкам, атрибутам событий окружения
 - атрибуты внешнего события
 - атрибуты, событие окружения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a40522a741509e56d2e4c9201c305126067a0fe3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7fe9cb8353b684597ba18d7b1dc2a7fb23c3d7e6e95b6f76d847bc9aa5eb39cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103774270"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055252"
 ---
 # <a name="ambient-event-attributes"></a>Атрибуты внешнего события
 
@@ -46,18 +46,18 @@ ms.locfileid: "103774270"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Справочник по программированию для обложки**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ description: Функции клиента
 ms.assetid: c6d3577c-6975-4708-a1bd-ee70992f851d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33a6adcd085a35a7eaabc5fecca0b04246825007
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1d3d5a2c8b20008dd179c12d3f81eb9d40e70cb9639e0d90dd9b3532ad5cba15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052832"
 ---
 # <a name="client-functions"></a>Функции клиента
 
@@ -38,7 +38,7 @@ ms.locfileid: "104413302"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

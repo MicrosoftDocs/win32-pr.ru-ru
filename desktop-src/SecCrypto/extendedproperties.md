@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 512c29e43b9099d9ef577cce61bbcc3a38d68ac6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0225582217df56f486a44f12e3ca6ea0003130fdb209fb67e9f9e4ee258764d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648821"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119007242"
 ---
 # <a name="extendedproperties-object"></a>Объект расширенных свойств
 
@@ -65,15 +65,15 @@ ms.locfileid: "105648821"
 
 | Свойство                                                   | Тип доступа          | Описание                                                                                                                                                                                                                     |
 |:-----------------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**\_NewEnum**](extendedproperties-newenum.md)<br/> | Только для чтения<br/> | Извлекает интерфейс [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) для объекта, который может быть использован для перечисления коллекции. Это свойство скрыто в Visual Basic Scripting Edition (VBScript).<br/> |
-| [**Расчета**](extendedproperties-count.md)<br/>       | Только для чтения<br/> | Возвращает число объектов [**ExtendedProperty**](extendedproperty.md) в коллекции.<br/>                                                                                                                      |
-| [**Элемент**](extendedproperties-item.md)<br/>         | Только для чтения<br/> | Извлекает объект [**ExtendedProperty**](extendedproperty.md) , представляющий индексированное расширенное свойство коллекции. Это свойство по умолчанию.<br/>                                                      |
+| [**\_NewEnum**](extendedproperties-newenum.md)<br/> | Только для чтения<br/> | Извлекает интерфейс [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) для объекта, который может быть использован для перечисления коллекции. это свойство скрыто в Visual Basic scripting Edition (VBScript).<br/> |
+| [**Count**](extendedproperties-count.md)<br/>       | Только для чтения<br/> | Возвращает число объектов [**ExtendedProperty**](extendedproperty.md) в коллекции.<br/>                                                                                                                      |
+| [**Компонент**](extendedproperties-item.md)<br/>         | Только для чтения<br/> | Извлекает объект [**ExtendedProperty**](extendedproperty.md) , представляющий индексированное расширенное свойство коллекции. Это свойство по умолчанию.<br/>                                                      |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Не удается создать объект **расширенных свойств** .
 

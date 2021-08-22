@@ -4,12 +4,12 @@ ms.assetid: 9beb1306-1378-499c-b9e1-c768a7b4c8bc
 title: Атрибуты преобразования
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e68240f5341319db2b06ad6160cf8153f107eca9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 80d5b7a5f4ff6174a48058c81fe1cdea382b18c058985da803efa4110eb12e29
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104497757"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034569"
 ---
 # <a name="transform-attributes"></a>Атрибуты преобразования
 
@@ -17,7 +17,7 @@ ms.locfileid: "104497757"
 
 
 
-| attribute                                                                                                     | Описание                                                                                                                                                                                   | Применение                  |
+| attribute                                                                                                     | Описание                                                                                                                                                                                   | Применяется к                  |
 |---------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------|
 | [**MF \_ Активация \_ MFT \_ заблокирована**](mf-activate-mft-locked-attribute.md)                                         | Указывает, будет ли загрузчик топологии изменять типы носителей в MFT.                                                                                                                  | мфтс                        |
 | [**С \_ \_ поддержкой D3D \_ SA**](mf-sa-d3d-aware-attribute.md)                                                       | Указывает, поддерживает ли преобразование Media Foundation (MFT) ускорение видео DirectX.                                                                                                     | мфтс                        |
@@ -52,7 +52,7 @@ ms.locfileid: "104497757"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

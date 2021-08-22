@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 255f54f78bb64659d1cd07eddb72eae55b0263c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5dac8aba93cc841211cbdc02bc5e75773ab444eaa2763c4b0367fbd36ada37b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155862"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992594"
 ---
 # <a name="receiving-a-wmi-event"></a>Получение события WMI
 
@@ -28,7 +28,7 @@ ms.locfileid: "104155862"
 -   [Потребители событий](#event-consumers)
 -   [Предоставление событий](#providing-events)
 -   [Квоты подписки](#subscription-quotas)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="event-queries"></a>Запросы событий
 
@@ -169,7 +169,7 @@ End Sub
 
 Администратор или пользователь с разрешением " **полный доступ на \_ запись** " в пространстве имен может изменить одноэлементный экземпляр [**\_ \_ арбитраторконфигуратион**](--arbitratorconfiguration.md). WMI отслеживает квоту для каждого пользователя.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

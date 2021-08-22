@@ -1,5 +1,5 @@
 ---
-description: Критическая секция, защищающая состояние фильтра. Дополнительные сведения см. в разделе поток данных для разработчиков фильтров.
+description: Критическая секция, защищающая состояние фильтра. дополнительные сведения см. в статье Flow данных для разработчиков фильтров.
 ms.assetid: 75b9c8b0-e911-41fd-8d07-b854dbe25551
 title: 'Элемент Ктрансформфилтер:: m_csFilter (Трансфрм. h)'
 ms.topic: reference
@@ -16,16 +16,16 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 991b07aa654ce42a651f4fa169e757d8380fdc8e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 58fc725c29ef322cc310aae2735ffb8fcd7298d29214a51037e49682028caa81
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657751"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953583"
 ---
 # <a name="ctransformfilterm_csfilter-member"></a>Элемент Ктрансформфилтер:: m \_ ксфилтер
 
-Критическая секция, защищающая состояние фильтра. Дополнительные сведения см. в разделе [поток данных для разработчиков фильтров](data-flow-for-filter-developers.md).
+Критическая секция, защищающая состояние фильтра. дополнительные сведения см. в статье [Flow данных для разработчиков фильтров](data-flow-for-filter-developers.md).
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -42,12 +42,12 @@ CCritSec m_csFilter;
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Трансфрм. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>трансфрм. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

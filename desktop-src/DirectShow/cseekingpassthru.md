@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 273f9b6686c4455452924dc43628801fae5d518a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3ffb8436623cb5ba5f415ceb8bbdafe00e22487da2bbfaba5d02ee4c8f189c10
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953773"
 ---
 # <a name="cseekingpassthru-class"></a>Класс Ксикингпасссру
 
@@ -41,19 +41,19 @@ ms.locfileid: "105685118"
 | [**~ Ксикингпасссру**](cseekingpassthru--cseekingpassthru.md) | Метод деструктора.                 |
 | [**CreateInstance**](cseekingpassthru-createinstance.md)       | Создает экземпляр объекта. |
 | Методы Исикингпасссру                                        | Описание                        |
-| [**Ini**](cseekingpassthru-init.md)                           | Инициализирует объект.            |
+| [**Init**](cseekingpassthru-init.md)                           | Инициализирует объект.            |
 
 
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Сикпт. h (включение Streams. h)</dt> </dl>                                                                                    |
+| Заголовок<br/>  | <dl> <dt>сикпт. h (включает Потоки. h)</dt> </dl>                                                                                    |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

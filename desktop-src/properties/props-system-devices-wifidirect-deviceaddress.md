@@ -4,12 +4,12 @@ ms.assetid: 06f7d944-f94b-4afc-8381-f60a329cb689
 title: System. Devices. Вифидирект. Девицеаддресс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f2f430127383fea0e9af561df07127aeaed384e9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ec76d56d5cd4c2321ece628e2436bacb381da03ae33c16ea90d117aff5fc20b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104264912"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119097013"
 ---
 # <a name="systemdeviceswifidirectdeviceaddress"></a>System. Devices. Вифидирект. Девицеаддресс
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

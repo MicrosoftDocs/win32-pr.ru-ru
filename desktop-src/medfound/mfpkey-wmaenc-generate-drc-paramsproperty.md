@@ -4,12 +4,12 @@ ms.assetid: 4ae424f1-10be-466a-8a98-163789fc9553
 title: Свойство MFPKEY_WMAENC_GENERATE_DRC_PARAMS (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bc29ffe9d68cce13afedf5ad694ef81b29957db
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 982a48f0a42d3fe050c07a349c75fadb0cff72abc39baa1d2058870c47d0fc0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105695048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973223"
 ---
 # <a name="mfpkey_wmaenc_generate_drc_params-property"></a>МФПКЭЙ \_ вмаенк \_ создать \_ \_ свойство params
 
@@ -27,18 +27,18 @@ ms.locfileid: "105695048"
 
 **ВАРИАНТ \_ true**
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Клиент<br/> | Windows Vista или Windows 7<br/>                                                   |
-| Header<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

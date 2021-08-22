@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Сопоставление классов Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a606cfacc2e9d56ef07973df182f5ce1a65be35
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bc38e91d52b59a206a0b64465d0f9710f6d515c9487853824477b7f4f6a126aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712337"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992904"
 ---
 # <a name="mapping-active-directory-classes"></a>Сопоставление классов Active Directory
 
@@ -180,7 +180,7 @@ ms.locfileid: "105712337"
 | Active Directory, элемент                                      | Тип данных WMI                                                           |
 |---------------------------------------------------------------|-------------------------------------------------------------------------|
 | [**Точка доступа**](/windows/desktop/ADSchema/s-object-access-point)            | **\_строка CIM**                                                         |
-| [**Логическая**](/windows/desktop/ADSchema/s-boolean)                             | **\_логическое значение CIM**                                                        |
+| [**Логическое**](/windows/desktop/ADSchema/s-boolean)                             | **\_логическое значение CIM**                                                        |
 | **Строка без учета регистра**                                   | **\_строка CIM**                                                         |
 | [**Строка с учетом регистра**](/windows/desktop/ADSchema/s-string-case-sensitive) | **\_строка CIM**                                                         |
 | [**Различающееся имя**](/windows/desktop/ADSchema/s-object-ds-dn)             | **\_строка CIM**                                                         |
@@ -199,7 +199,7 @@ ms.locfileid: "105712337"
 | Строка варианта печати                                             | **\_строка CIM**                                                         |
 | Ссылка на реплику                                                  | Внедренный объект класса **Uint8Array** , определенный ниже.<br/>       |
 | [**Строка (SID)**](/windows/desktop/ADSchema/s-string-sid)                      | Внедренный объект класса **Uint8Array** , определенный ниже.<br/>       |
-| Время                                                          | **\_Дата и время CIM**                                                       |
+| Time                                                          | **\_Дата и время CIM**                                                       |
 | Время кодирования в формате UTC                                                | **\_Дата и время CIM**                                                       |
 | Строка в Юникоде                                                | **\_строка CIM**                                                         |
 

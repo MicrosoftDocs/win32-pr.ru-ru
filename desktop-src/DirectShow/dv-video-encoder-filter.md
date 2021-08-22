@@ -4,12 +4,12 @@ ms.assetid: ac57bd11-de16-4a58-9f4b-da270a57ad08
 title: Фильтр кодировщика видео DV
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73b91da15fda0597e9b943c78fd5a6716021a3ae
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ff676fd5120ad76d2c9e6507f31ded9b8b67541c3d807befc948e7268397fd28
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103989949"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016072"
 ---
 # <a name="dv-video-encoder-filter"></a>Фильтр кодировщика видео DV
 
@@ -82,17 +82,17 @@ ms.locfileid: "103989949"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для 16-разрядного видео (МЕДИАСУБТИПЕ \_ RGB555 или медиасубтипе \_ RGB565) входное значение должно быть 720 x 480 ПИКСЕЛЕЙ для NTSC или 720 x 576 ПИКСЕЛЕЙ для PAL. Для 24-разрядного видео ограничения на размер входных данных отсутствуют.
 
 Выходные данные всегда 720 x 480 для NTSC или 720 x 576 для PAL; 24-разрядное видео масштабируется в соответствии с этими размерами.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Фильтры DirectShow](directshow-filters.md)
+[DirectShow Фильтрующ](directshow-filters.md)
 </dt> <dt>
 
 [Цифровое видео в DirectShow](digital-video-in-directshow.md)

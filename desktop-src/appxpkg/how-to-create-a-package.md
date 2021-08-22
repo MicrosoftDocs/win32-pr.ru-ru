@@ -1,23 +1,23 @@
 ---
 title: Создание пакета приложения (C++)
-description: Узнайте, как создать пакет приложения для приложения Windows с помощью API упаковки.
+description: узнайте, как создать пакет приложения для Windows приложения с помощью API упаковки.
 ms.assetid: FD677D75-50D5-4228-891F-73B5F40679B0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f1808ebf57d4c7125f5509db68e22b78ce949f7
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 9ac2e471443acd22a39128c046590eed29d320b75bafee0a65cb6d37fb4fb8d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "105700840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049062"
 ---
 # <a name="how-to-create-an-app-package-c"></a>Создание пакета приложения (C++)
 
-Узнайте, как создать пакет приложения для приложения Windows с помощью [API упаковки](interfaces.md).
+узнайте, как создать пакет приложения для Windows приложения с помощью [API упаковки](interfaces.md).
 
 Если вы хотите создать пакет для классических приложений вручную, можно также использовать средство MakeAppx.exe, использующее [API упаковки](interfaces.md). Дополнительные сведения см. в разделе [упаковщик приложений (MakeAppx.exe)](make-appx-package--makeappx-exe-.md) .
 
-Если вы используете Visual Studio, для упаковки приложения рекомендуется использовать мастер упаковки Visual Studio. Дополнительные сведения см. [в статье Упаковка приложения UWP с помощью Visual Studio](/windows/msix/package/packaging-uwp-apps).
+если вы используете Visual Studio, для упаковки приложения рекомендуется использовать мастер создания пакетов Visual Studio. Дополнительные сведения см. [в статье Упаковка приложения UWP с помощью Visual Studio](/windows/msix/package/packaging-uwp-apps).
 
 ## <a name="instructions"></a>Инструкции
 
@@ -293,7 +293,7 @@ CoUninitialize();
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -309,6 +309,6 @@ CoUninitialize();
 [**иаппкспаккажевритер**](/windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxpackagewriter)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

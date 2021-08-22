@@ -6,7 +6,7 @@
     - name: Руководство по программированию
       href: '-wic-programming-guide.md'
       items:
-        - name: Общие сведения о компоненте создания образов Windows
+        - name: Windows Общие сведения о компонентах обработки изображений
           href: '-wic-about-windows-imaging-codec.md'
         - name: Общие сведения об API WIC
           href: '-wic-api.md'
@@ -101,7 +101,7 @@
               items:
                 - name: Введение
                   href: '-wic-howtowriteacodec-intro.md'
-                - name: Принцип работы компонента Windows Imaging
+                - name: как работает компонент работы с образами Windows
                   href: '-wic-howwicworks.md'
                 - name: Реализация декодера WIC-Enabled
                   href: '-wic-implementingwicdecoder.md'
@@ -146,7 +146,7 @@
                       href: '-wic-encoderregentries.md'
                     - name: Decoder-Specific записи реестра
                       href: '-wic-decoderregentries.md'
-                    - name: Интеграция с Фотоальбомом Windows и проводником Windows
+                    - name: интеграция с Windows фотоальбома и обозревателем Windows
                       href: '-wic-integrationregentries.md'
                 - name: Заключение (написание WIC-Enabled кодека)
                   href: '-wic-howtowriteacodec-conclusion.md'
@@ -156,7 +156,7 @@
                 - name: Введение
                   href: '-wic-rawguidelines-intro.md'
                   items:
-                    - name: Форматы необработанных изображений в Windows Vista
+                    - name: форматы необработанных изображений в Windows Vista
                       href: '-wic-rawguidelines-intro-vista.md'
                     - name: Общие рекомендации по реализации необработанных кодеков
                       href: '-wic-rawguidelines-intro-implement.md'
@@ -173,7 +173,7 @@
                       href: '-wic-rawguidelines-metadata-encoding.md'
                 - name: Поддержка Ивикдевелоправ
                   href: '-wic-rawguidelines-iwicdevelopraw.md'
-                - name: Рекомендации по реализации сериализации параметров Ивикдевелоправ
+                - name: рекомендации по реализации сериализации ивикдевелоправ Параметры
                   href: '-wic-rawguidelines-iwicdevelopraw-serializing.md'
                 - name: Производительность
                   href: '-wic-rawguidelines-performance.md'
@@ -185,7 +185,7 @@
                   href: '-wic-rawguidelines-reliability-security.md'
                 - name: Доступность кодеков и поддержка платформ
                   href: '-wic-rawguidelines-availability.md'
-                - name: Требования к необработанным кодекам для Windows 7
+                - name: требования к необработанным кодекам для Windows 7
                   href: '-wic-rawguidelines-win7.md'
                 - name: Дополнительные сведения см. в разделе
                   href: '-wic-rawguidelines-moreinfo.md'

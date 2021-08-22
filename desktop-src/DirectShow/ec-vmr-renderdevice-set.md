@@ -4,12 +4,12 @@ ms.assetid: 815d1254-c6e3-4a6c-ba4a-bf3da7d35d1f
 title: EC_VMR_RENDERDEVICE_SET (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9855b23e25a2c3b955c1499b9505efffcc5637e8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fc2c8bef78156c4438e1e4e7aea45326562002ed8f4a3786377d7ee43a00a57c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015862"
 ---
 # <a name="ec_vmr_renderdevice_set"></a>\_ \_ набор рендердевицеов EC VMR \_
 
@@ -45,21 +45,21 @@ ms.locfileid: "105675781"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это событие отправляется с помощью VMR-7 и VMR-9 и перенаправляется в приложения. Обратите внимание, что VMR-9 поддерживает только целевые объекты отрисовки видео в памяти.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>DShow. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>DShow. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

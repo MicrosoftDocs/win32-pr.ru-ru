@@ -4,16 +4,16 @@ description: Интерфейс Ивмвиртуалмачине предост�
 ms.assetid: 9915F534-7615-4102-A4EB-00B2B826D870
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a897ecbfdd9c4547a2c4b26a0ac3d6050a9f4d38
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f4ec01c7e8e3b9a15b8d7359f39d45d12efa2cf8c62afbcf6f4b01679018439e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105691512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119056792"
 ---
 # <a name="ivmvirtualmachine-properties"></a>Свойства Ивмвиртуалмачине
 
-\[Windows Virtual PC больше не доступна для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC больше не доступен для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Интерфейс [**ивмвиртуалмачине**](ivmvirtualmachine.md) предоставляет следующие свойства.
 
@@ -53,6 +53,6 @@ ms.locfileid: "105691512"
 -   [**Свойство, которое следует отменить**](ivmvirtualmachine-undoable.md)
 -   [**Ундоактион, свойство**](ivmvirtualmachine-undoaction.md)
 
- 
+ 
 
- 
+ 

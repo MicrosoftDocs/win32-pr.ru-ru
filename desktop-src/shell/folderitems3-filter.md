@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 26a24dc3ef1f4d0de09dbd97a5dce4c8ed8c783b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dd4983d340645e916595534f17dccb2ef09e2f5c185b6eaf97cc7de2e52669dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103808003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032592"
 ---
 # <a name="folderitems3filter-method"></a>FolderItems3. Filter, метод
 
@@ -60,9 +60,9 @@ iRetVal = FolderItems3.Filter(
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере показано правильное использование **фильтра** для JScript, VBScript и Visual Basic.
+в следующем примере показано правильное использование **фильтра** для JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -165,7 +165,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -179,7 +179,7 @@ End Sub
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

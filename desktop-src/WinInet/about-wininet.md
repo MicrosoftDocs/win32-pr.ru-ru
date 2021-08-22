@@ -1,32 +1,32 @@
 ---
 title: О команде WinINet
-description: Прикладной программный интерфейс (API) Windows Internet (WinINet) позволяет приложению взаимодействовать с протоколами FTP и HTTP для доступа к Интернет-ресурсам.
+description: интерфейс прикладного программирования (API) Windows интернета (WinINet) позволяет приложению взаимодействовать с протоколами FTP и HTTP для доступа к интернет-ресурсам.
 ms.assetid: 0a06f2af-957a-4dff-a8cc-187370181b5c
 keywords:
 - О команде WinINet WinINet
 - WinINet WinINet, сведения
 - WinINet WinINet, начальная страница
-- Windows Internet WinINet
-- Интернет, Windows Internet WinINet
+- Windows Интернет WinINet
+- интернет, Windows internet WinINet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4513e5c3912a483fd4dbef96f452c5712717c8a5
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: be38840c33735a1e064e9bdc5e044651130d6e15a6fe22d004a2e8d7c29bf140
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "103987232"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051872"
 ---
 # <a name="about-wininet"></a>О команде WinINet
 
 > [!NOTE]
-> Для контейнеров приложений, начиная с Windows 10, версия 1709, HTTP/2 (см. [RFC7540](https://tools.ietf.org/html/rfc7540)) включена по умолчанию.
+> для контейнеров приложений с Windows 10 версия 1709, HTTP/2 (см. [RFC7540](https://tools.ietf.org/html/rfc7540)) включена по умолчанию.
 
-Прикладной программный интерфейс (API) Windows Internet (WinINet) позволяет приложению взаимодействовать с протоколами FTP и HTTP для доступа к Интернет-ресурсам. По мере развития стандартов эти функции обрабатывают изменения в базовых протоколах, позволяя им поддерживать единообразное поведение.
+интерфейс прикладного программирования (API) Windows интернета (WinINet) позволяет приложению взаимодействовать с протоколами FTP и HTTP для доступа к интернет-ресурсам. По мере развития стандартов эти функции обрабатывают изменения в базовых протоколах, позволяя им поддерживать единообразное поведение.
 
 **Windows XP и Windows Server 2003 R2 и более ранних версий:** Также включены приложения для взаимодействия с Gopher.
 
-Дополнительные сведения можно найти в разделе
+Дополнительные сведения см. в разделе:
 
 -   [WinINet и WinHTTP](wininet-vs-winhttp.md)
 -   [Дескрипторы ХИНТЕРНЕТ](appendix-a-hinternet-handles.md)

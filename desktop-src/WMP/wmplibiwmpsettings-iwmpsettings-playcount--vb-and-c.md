@@ -3,9 +3,9 @@ title: Ивмпсеттингс Плайкаунт, свойство
 description: Свойство Плайкаунт Возвращает или задает число воспроизводимых элементов мультимедиа.
 ms.assetid: 5d18909d-8b7a-448e-b54a-23a312041066
 keywords:
-- Проигрыватель Windows Media для свойства Плайкаунт
-- Плайкаунт свойство проигрывателя Windows Media Player, интерфейс Ивмпсеттингс
-- Интерфейс Ивмпсеттингс Windows Media Player, свойство Плайкаунт
+- проигрыватель Windows Media свойства плайкаунт
+- проигрыватель Windows Media свойства плайкаунт, интерфейс ивмпсеттингс
+- проигрыватель Windows Media интерфейса ивмпсеттингс, свойство плайкаунт
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fab28ce930e7ab64fe1214fba937cd0ba400ab9c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3a3ea6421b2e27f5154174d47b744f54bc0427fd9c28f513fb29e4967de7f09d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105718173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053402"
 ---
 # <a name="iwmpsettingsplaycount-property"></a>Ивмпсеттингс: свойство Лайкаунт:p
 
@@ -48,19 +48,19 @@ Public Property playCount As System.Int32
 
 Значение **System. Int32** , которое является счетчиком воспроизведения, с минимальным значением 1 и значением по умолчанию 1.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

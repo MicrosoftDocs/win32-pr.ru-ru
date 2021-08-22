@@ -4,12 +4,12 @@ ms.assetid: 584c0670-9051-4d03-9635-c8fadc8798c3
 title: Атрибуты узла топологии
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 904213752c0a3444bc4c9ea2b5cf2d5c21c8bd83
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b2ffd366c03607c4fc6646a09dae8571e6e4847a45b985f4996d28c15a828937
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034672"
 ---
 # <a name="topology-node-attributes"></a>Атрибуты узла топологии
 
@@ -98,7 +98,7 @@ ms.locfileid: "103991556"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

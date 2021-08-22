@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 36500aa037c8e33a48b4f9dd6e38e46eaac58da2
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 8d0cee50c0332d283c439448fd80c7abe319fec5065f39dcad4e053baf600bd3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105694006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055992"
 ---
 # <a name="eventstype-complex-type"></a>Сложный тип Евентстипе
 
@@ -92,16 +92,16 @@ ms.locfileid: "105694006"
 | message | [**стртаблереф**](eventmanifestschema-strtableref-simpletype.md) | Ссылка на локализованную строку в таблице строк.                               |
 | mid     | xs:string                                                        | Не используется.                                                                              |
 | символ  | [**ксимболтипе**](eventmanifestschema-csymboltype-simpletype.md) | Символьное имя, создаваемое компилятором сообщений для этой строки сообщения.|
-| значение   | [**UInt32Type**](eventmanifestschema-hexint32type-simpletype.md) | Число, используемое в качестве идентификатора сообщения для данного сообщения.                          |
+| Значение   | [**UInt32Type**](eventmanifestschema-hexint32type-simpletype.md) | Число, используемое в качестве идентификатора сообщения для данного сообщения.                          |
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Практический лимит количества поставщиков, которые можно определить в манифесте, составляет 16 поставщиков. При указании более 16 поставщиков необходимо использовать таблицу сообщений для явного присвоения номеров ресурсов строкам сообщений, на которые ссылается поставщик. Дополнительные сведения см. в элементе Message выше.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Значение |
 |--------------------------|-------------------------------------------|
-| Минимальная версия клиента | Только для \[ классических приложений Windows Vista\]       |
-| Минимальная версия сервера | \[Только для настольных приложений Windows Server 2008\] |
+| Минимальная версия клиента | Windows \[Только классические приложения Vista\]       |
+| Минимальная версия сервера | Windows Только для \[ настольных приложений сервера 2008\] |

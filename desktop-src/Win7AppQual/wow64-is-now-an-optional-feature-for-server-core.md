@@ -4,18 +4,18 @@ ms.assetid: 9a918cd3-60a0-4231-975a-bee12de5c812
 title: Состояние WoW64 в Server Core
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0fad947dac85707d3c9c89a2cffea38c4a4850a6
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6f836d361e172527bf23c7e51ea0071790d3857d6611d8a12ff62185226d3f1c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108084052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994474"
 ---
 # <a name="wow64-is-now-an-optional-feature-for-server-core"></a>Подсистема WoW64 теперь является дополнительным компонентом для Server Core
 
 ## <a name="affected-platforms"></a>Затронутые платформы
 
-**Серверы** — Windows Server 2008 R2  
+**серверы** — Windows Server 2008 R2  
 
 
 
@@ -30,9 +30,9 @@ ms.locfileid: "108084052"
 
 ## <a name="description"></a>Описание
 
-Вариант установки Server Core для Windows Server 2008 R2 позволяет удалить WoW64. WoW64 теперь является необязательным компонентом, который можно удалить, если не требуется выполнять 32-разрядный код.
+вариант установки server Core для Windows server 2008 R2 позволяет удалить WoW64. WoW64 теперь является необязательным компонентом, который можно удалить, если не требуется выполнять 32-разрядный код.
 
-Кроме того, для работы в Windows Server 2008 R2 роли Active Directory и службы Active Directory облегченного доступа к каталогам нуждаются в эмуляторе WoW64.
+кроме того, для работы в Windows Server 2008 R2 ролям Active Directory и службы Active Directory облегченного доступа к каталогам требуется WoW64.
 
 ## <a name="manifestation-of-impact"></a>Влияние на манифесты
 

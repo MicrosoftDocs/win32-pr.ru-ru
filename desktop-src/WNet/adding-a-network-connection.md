@@ -4,12 +4,12 @@ description: Чтобы установить соединение с сетев�
 ms.assetid: 0dab9eed-9019-4075-833b-324e5caee257
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 476e03193b919f17a2060e415db5e7ea60c8364e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8298216ab277c5f0ec4a0db8c4d6d1b6c592a8b643e6c30de96731ae2a32632b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105710325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053392"
 ---
 # <a name="adding-a-network-connection"></a>Добавление сетевого подключения
 
@@ -63,10 +63,10 @@ printf("Connected to the specified resource.\n");
 
 
 
-Функция [**внетаддконнектион**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnectiona) поддерживается для совместимости с более ранними версиями Windows для рабочих групп. Новые приложения должны вызывать функцию [**WNetAddConnection2**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnection2a) или функцию [**WNetAddConnection3**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnection3a) .
+функция [**внетаддконнектион**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnectiona) поддерживается для совместимости с более ранними версиями Windows для рабочих групп. Новые приложения должны вызывать функцию [**WNetAddConnection2**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnection2a) или функцию [**WNetAddConnection3**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnection3a) .
 
 Дополнительные сведения об использовании определяемого приложением обработчика ошибок см. в разделе [получение сетевых ошибок](retrieving-network-errors.md).
 
- 
+ 
 
- 
+ 

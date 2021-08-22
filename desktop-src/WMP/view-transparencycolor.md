@@ -3,7 +3,7 @@ title: VIEW. Транспаренциколор
 description: Атрибут Транспаренциколор указывает или получает цвет прозрачности фонового изображения.
 ms.assetid: f9351df1-d502-4a96-9250-13b805c115c8
 keywords:
-- Просмотреть. Транспаренциколор проигрыватель Windows Media
+- просмотреть. транспаренциколор проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b7758a63292c299ef113474dc9f65bb8a6b3d01
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 00be392baa607433d798ed22438b9b26bb21469f66c4f750ca6852114886d271
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105717882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054052"
 ---
 # <a name="viewtransparencycolor"></a>VIEW. Транспаренциколор
 
@@ -33,17 +33,17 @@ ms.locfileid: "105717882"
 
 Так как Жпгс являются утерянными и поэтому подвержены непредвиденному изменению цвета, они не рекомендуются при использовании **транспаренциколор** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

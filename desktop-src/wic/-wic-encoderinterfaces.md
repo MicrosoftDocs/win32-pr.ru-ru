@@ -4,17 +4,17 @@ ms.assetid: 02365401-8648-4be1-a447-fabd2cb77355
 title: Интерфейсы кодировщика
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5367a25f1a2a4caf486711f7569312a436f8f474
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d6169dcf55ffafe0bf4c006b45c173ecc7486555fb001456112f8f333a8ccf2f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965131"
 ---
 # <a name="encoder-interfaces"></a>Интерфейсы кодировщика
 
 
-В следующих таблицах показаны интерфейсы, реализованные кодировщиками компонента Windows Imaging Component (WIC), а на схеме классов показана иерархия наследования.
+в следующих таблицах показаны интерфейсы, реализованные с помощью кодировщиков Windows imaging Component (WIC), а на схеме классов показана иерархия наследования.
 
 Интерфейсы кодировщика Container-Level
 
@@ -47,7 +47,7 @@ ms.locfileid: "104265297"
 
 Вы заметите, что интерфейсы кодировщика являются практически зеркальными изображениями интерфейсов декодера, и что большинство методов в этих интерфейсах соответствуют методам в связанных интерфейсах декодера. Теперь, когда вы знакомы с реализацией декодера с поддержкой WIC, реализация кодировщика с поддержкой WIC будет казаться знакомой.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -63,7 +63,7 @@ ms.locfileid: "104265297"
 [Написание WIC-Enabled КОДЕка](-wic-howtowriteacodec.md)
 </dt> <dt>
 
-[Общие сведения о компоненте создания образов Windows](-wic-about-windows-imaging-codec.md)
+[Windows Общие сведения о компонентах обработки изображений](-wic-about-windows-imaging-codec.md)
 </dt> </dl>
 
  

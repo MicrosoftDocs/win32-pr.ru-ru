@@ -4,12 +4,12 @@ ms.assetid: d30ed536-d477-4f50-8c80-aacc35f948b9
 title: Реализация многосетевого устройства WSD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ac3537b96a577db47419d55cb5c6f732f8f7906
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24ac83b0fe3b951e02e77ef9efc6241ce5a7e1780106b1e85e4f00b987bbbe05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991744"
 ---
 # <a name="implementing-a-multi-homed-wsd-device"></a>Реализация многосетевого устройства WSD
 
@@ -29,7 +29,7 @@ ms.locfileid: "104272424"
 
 Существует альтернативный подход, в котором в ответ на все адреса службы отправляется одно сообщение с методом [GetResponse](getresponse--metadata-exchange--message.md) . Недостаток этого метода заключается в том, что частная информация, например топология непрямо доступных сетей, может быть раскрываться.
 
-В Windows Vista метаданные, предоставляемые WSDAPI, содержат только адреса, допустимые для интерфейса, на основе которого был получен запрос метаданных.
+в Windows Vista метаданные, предоставляемые WSDAPI, содержат только адреса, допустимые для интерфейса, на основе которого был получен запрос метаданных.
 
  
 

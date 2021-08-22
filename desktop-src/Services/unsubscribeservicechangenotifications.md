@@ -17,12 +17,12 @@ api_location:
 - API-MS-Win-Service-Private-L1-1-1.dll
 - Advapi32.dll
 - API-MS-Win-Service-Private-L1-1-2.dll
-ms.openlocfilehash: ebecfb133172c9c7a56ed6d28f7ad6b395d8afce
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e37f2b786d32ab9f42738e6a8522c6f4593aa6b21a490a6fdd969233b4a6dff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118888173"
 ---
 # <a name="unsubscribeservicechangenotifications-function"></a>Функция Унсубскрибесервицечанженотификатионс
 
@@ -54,7 +54,7 @@ ms.locfileid: "103911244"
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **Унсубскрибесервицечанженотификатионс** не возвращает, пока не будут завершены необработанные Обратные вызовы в процессе. Поэтому нельзя вызвать **унсубскрибесервицечанженотификатионс** в обратном вызове, не вызывая взаимоблокировки.
 
@@ -64,8 +64,8 @@ ms.locfileid: "103911244"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                   |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                   |
 | Header<br/>                   | <dl> <dt>Винсвкп. h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>SecHost.dll</dt> </dl> |
 
