@@ -4,12 +4,12 @@ description: Для задания передачи фоновая интелл�
 ms.assetid: 31db38f6-3639-4042-97f2-4f9d78942e15
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c4373cdf0c8b4c8afe7dff367fda9387eec0b54
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 844be330a34eaa5cfbe154fb3e22ec4a62aa807a355f54318fec207959baf5bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070604"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119701824"
 ---
 # <a name="specify-server-authentication-credentials-for-a-bits-transfer-job"></a>Укажите учетные данные проверки подлинности сервера для задания передачи BITS
 
@@ -86,7 +86,7 @@ ms.locfileid: "104070604"
     > [!Note]  
     > Этот шаг необходим только в том случае, если контейнер COM является однопотоковым апартаментом. Дополнительные сведения см. в разделе [Однопотоковые подразделения](../com/single-threaded-apartments.md).
 
-     
+     
 
     ```C++
     // Wait for QuitMessage from CallBack
@@ -361,7 +361,7 @@ void _cdecl _tmain(int argc, LPWSTR* argv)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -377,6 +377,6 @@ void _cdecl _tmain(int argc, LPWSTR* argv)
 [Пример. Общие классы](common-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

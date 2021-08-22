@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: a4d192a3da7bbcd262eef95bc5ebbd9394ac32eed206636e219b91382ccce305
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b9c03d58459f171979d12b0a06e4fd10bb8950a5
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119979034"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122465461"
 ---
 # <a name="xmfloat3pk-constructors"></a>Конструкторы XMFLOAT3PK
 
@@ -33,60 +33,18 @@ ms.locfileid: "119979034"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Конструктор</th>
-<th style="text-align: left;">Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmfloat3pk-xmfloat3pk(constfloat)"><strong>XMFLOAT3PK ()</strong></a></td>
-<td style="text-align: left;">Конструктор по умолчанию для <code>XMFLOAT3PK</code> .<br/> Конструктор по умолчанию для <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3pk"><strong>XMFLOAT3PK</strong></a>.<br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmfloat3pk-xmfloat3pk(uint32_t)"><strong>XMFLOAT3PK (uint32_t)</strong></a></td>
-<td style="text-align: left;">Инициализирует новый экземпляр <code>XMFLOAT3PK</code> из <code>uint32_t</code> переменной, содержащей данные компонента, в упакованном формате.<br/> Этот конструктор инициализирует новый экземпляр <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3pk"><strong>XMFLOAT3PK</strong></a> из <code>uint32_t</code> переменной, содержащей данные компонента, в упакованном формате.<br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmfloat3pk-xmfloat3pk(constfloat)"><strong>XMFLOAT3PK (const float *)</strong></a></td>
-<td style="text-align: left;">Инициализирует новый экземпляр класса <code>XMFLOAT3PK</code> из трех <code>float</code> аргументов массива элементов.<br/> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3pk"><strong>XMFLOAT3PK</strong></a> из трех <code>float</code> аргументов массива элементов.<br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmfloat3pk-xmfloat3pk(float_float_float)"><strong>XMFLOAT3PK (float, float, float)</strong></a></td>
-<td style="text-align: left;">Инициализирует новый экземпляр <code>XMFLOAT3PK</code> из трех <code>float</code> аргументов.<br/> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3pk"><strong>XMFLOAT3PK</strong></a> из трех <code>float</code> аргументов.<br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Конструктор | Описание | 
+|-------------|-------------|
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmfloat3pk-xmfloat3pk(constfloat)"><strong>XMFLOAT3PK ()</strong></a> | Конструктор по умолчанию для <code>XMFLOAT3PK</code> .<br /> Конструктор по умолчанию для <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3pk"><strong>XMFLOAT3PK</strong></a>.<br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmfloat3pk-xmfloat3pk(uint32_t)"><strong>XMFLOAT3PK (uint32_t)</strong></a> | Инициализирует новый экземпляр <code>XMFLOAT3PK</code> из <code>uint32_t</code> переменной, содержащей данные компонента, в упакованном формате.<br /> Этот конструктор инициализирует новый экземпляр <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3pk"><strong>XMFLOAT3PK</strong></a> из <code>uint32_t</code> переменной, содержащей данные компонента, в упакованном формате.<br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmfloat3pk-xmfloat3pk(constfloat)"><strong>XMFLOAT3PK (const float *)</strong></a> | Инициализирует новый экземпляр класса <code>XMFLOAT3PK</code> из трех <code>float</code> аргументов массива элементов.<br /> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3pk"><strong>XMFLOAT3PK</strong></a> из трех <code>float</code> аргументов массива элементов.<br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmfloat3pk-xmfloat3pk(float_float_float)"><strong>XMFLOAT3PK (float, float, float)</strong></a> | Инициализирует новый экземпляр <code>XMFLOAT3PK</code> из трех <code>float</code> аргументов.<br /> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3pk"><strong>XMFLOAT3PK</strong></a> из трех <code>float</code> аргументов.<br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
 
 
 
-## <a name="see-also"></a>См. также раздел
+
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

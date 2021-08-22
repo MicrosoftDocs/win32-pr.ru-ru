@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 142ac518c91c6378f1606235e25502be8c06dd6a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 505ff0e2d74f9eb4f252e4e663ceec00fd86469b3d69374623b2763915a08b0d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672621"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119491614"
 ---
 # <a name="glshademodel-function"></a>Функция Глшадемодел
 
@@ -64,7 +64,7 @@ void WINAPI glShadeModel(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Примитивы OpenGL могут иметь плоскую или плавную заливку. Плавное затенение, используемое по умолчанию, приводит к интерполяции вычисленных цветов вершин по мере растрирования примитива, обычно присваивая каждому фрагменту пиксела разные цвета. Плоская заливка выбирает вычисленный цвет только для одной вершины и назначает ее всем фрагментам пикселов, созданным с помощью растрирования одного примитива. В любом случае вычисленный цвет вершины является результатом освещения, если освещение включено, или текущим цветом на момент указания вершины, если освещение отключено.
 
@@ -91,7 +91,7 @@ void WINAPI glShadeModel(
 
 [**глжет**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) с аргументом \_ модели шейдера GL \_
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -105,7 +105,7 @@ void WINAPI glShadeModel(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

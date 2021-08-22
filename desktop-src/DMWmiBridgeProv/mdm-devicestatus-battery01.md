@@ -123,7 +123,7 @@ class MDM_DeviceStatus_Battery01
 
 </dd> </dl>
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

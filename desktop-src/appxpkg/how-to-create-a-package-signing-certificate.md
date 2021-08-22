@@ -1,28 +1,28 @@
 ---
 title: Создание сертификата для подписи пакета приложения
-description: Узнайте, как использовать MakeCert.exe и Pvk2Pfx.exe для создания тестового сертификата подписи кода, чтобы можно было подписывать пакеты приложений Windows.
+description: узнайте, как использовать MakeCert.exe и Pvk2Pfx.exe для создания тестового сертификата подписи кода, чтобы вы могли подписывать пакеты приложений Windows.
 ms.assetid: DEDD3727-3F0E-403D-9A6E-55949E98FE74
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 382771c23d57b580508017d0bbf24bd742a6eeaf
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: bdc495c27e63dc4ee3a42db1b2763f4f59f7647a3a98d20193d8049dcfad965c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104069828"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049072"
 ---
 # <a name="how-to-create-an-app-package-signing-certificate"></a>Создание сертификата для подписи пакета приложения
 
 > [!IMPORTANT]
 > MakeCert.exe не рекомендуется к использованию. Текущие рекомендации по созданию сертификата см. в разделе [Создание сертификата для подписания пакета](/windows/msix/package/create-certificate-package-signing).
 
- 
+ 
 
-Узнайте, как использовать [**MakeCert.exe**](/windows-hardware/drivers/devtest/makecert) и [**Pvk2Pfx.exe**](/windows-hardware/drivers/devtest/pvk2pfx) для создания тестового сертификата подписи кода, чтобы можно было подписывать пакеты приложений Windows.
+узнайте, как использовать [**MakeCert.exe**](/windows-hardware/drivers/devtest/makecert) и [**Pvk2Pfx.exe**](/windows-hardware/drivers/devtest/pvk2pfx) для создания тестового сертификата подписи кода, чтобы вы могли подписывать пакеты приложений Windows.
 
-Перед развертыванием пакетных приложений Windows необходимо выполнить цифровую подпись. Если вы не используете Microsoft Visual Studio 2012 для создания и подписи пакетов приложений, необходимо создать собственные сертификаты для подписи кода и управлять ими. Сертификаты можно создавать с помощью [**MakeCert.exe**](/windows-hardware/drivers/devtest/makecert) и [**Pvk2Pfx.exe**](/windows-hardware/drivers/devtest/pvk2pfx) из комплекта драйверов Windows (WDK). Затем можно использовать сертификаты для подписывания пакетов приложений, чтобы их можно было развернуть локально для тестирования.
+перед развертыванием пакетной Windows приложения необходимо подписать цифровой подписью. если вы не используете Microsoft Visual Studio 2012 для создания и подписи пакетов приложений, необходимо создать собственные сертификаты для подписи кода и управлять ими. сертификаты можно создавать с помощью [**MakeCert.exe**](/windows-hardware/drivers/devtest/makecert) и [**Pvk2Pfx.exe**](/windows-hardware/drivers/devtest/pvk2pfx) из набора драйверов Windows (WDK). Затем можно использовать сертификаты для подписывания пакетов приложений, чтобы их можно было развернуть локально для тестирования.
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
@@ -30,7 +30,7 @@ ms.locfileid: "104069828"
 -   [Пакеты и развертывание приложений](/previous-versions/windows/apps/hh464929(v=win.10))
 -   [Средства для подписывания драйверов](/windows-hardware/drivers/devtest/tools-for-signing-drivers)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   Средства [**MakeCert.exe**](/windows-hardware/drivers/devtest/makecert) и [**Pvk2Pfx.exe**](/windows-hardware/drivers/devtest/pvk2pfx) из WDK
 
@@ -38,7 +38,7 @@ ms.locfileid: "104069828"
 
 ### <a name="step-1-determine-the-publisher-name-of-the-package"></a>Шаг 1. Определение имени издателя пакета
 
-Чтобы сделать сертификат подписи, который вы создадите, использовать с пакетом приложения, который необходимо подписать, имя субъекта сертификата подписи должно соответствовать атрибуту **издателя** элемента [**Identity**](/uwp/schemas/appxpackage/appxmanifestschema/element-identity) в AppxManifest.xml этого приложения. Например, предположим, что AppxManifest.xml содержит:
+чтобы сделать сертификат подписи, который вы создадите, использовать с пакетом приложения, который необходимо подписать, имя субъекта сертификата подписи должно соответствовать атрибуту **Publisher** элемента [**Identity**](/uwp/schemas/appxpackage/appxmanifestschema/element-identity) в AppxManifest.xml для этого приложения. Например, предположим, что AppxManifest.xml содержит:
 
 ``` syntax
   <Identity Name="Contoso.AssetTracker" 
@@ -51,9 +51,9 @@ ms.locfileid: "104069828"
 > [!Note]  
 > Эта строка параметра указывается в кавычках и является учетом регистра и пробела.
 
- 
+ 
 
-Строка атрибута **издателя** , определенная для элемента [**Identity**](/uwp/schemas/appxpackage/appxmanifestschema/element-identity) в AppxManifest.xml, должна совпадать со строкой, указанной в параметре [**MakeCert**](/windows-hardware/drivers/devtest/makecert) /n для имени субъекта сертификата. Скопируйте и вставьте строку, где это возможно.
+строка атрибута **Publisher** , определенная для элемента [**Identity**](/uwp/schemas/appxpackage/appxmanifestschema/element-identity) в AppxManifest.xml, должна совпадать со строкой, указанной с помощью параметра [**MakeCert**](/windows-hardware/drivers/devtest/makecert) /n для имени субъекта сертификата. Скопируйте и вставьте строку, где это возможно.
 
 ### <a name="step-2-create-a-private-key-using-makecertexe"></a>Шаг 2. создание закрытого ключа с помощью MakeCert.exe
 
@@ -92,7 +92,7 @@ expirationDate /sv MyKey.pvk MyKey.cer
 > [!Note]  
 > Не ставьте пробел между двумя значениями, разделенными запятыми.
 
- 
+ 
 
 -   1.3.6.1.5.5.7.3.3 указывает, что сертификат действителен для подписывания кода. Всегда указывайте это значение, чтобы ограничить предполагаемое использование сертификата.
 -   1.3.6.1.4.1.311.10.3.13 указывает, что сертификат учитывает время существования подписи. Как правило, если подпись имеет отметку времени, при условии, что сертификат был действителен в момент времени, подпись остается действительной, даже если срок действия сертификата истек. Это расширенное EKU заставляет срок действия подписи истечь независимо от того, имеет ли подпись время отметки.
@@ -108,7 +108,7 @@ expirationDate /sv MyKey.pvk MyKey.cer
 
 Дополнительные сведения о других параметрах см. в разделе [**MakeCert**](/windows-hardware/drivers/devtest/makecert).
 
-### <a name="step-3-create-a-personal-information-exchange-pfx-file-using-pvk2pfxexe"></a>Шаг 3. Создание файла обмена личной информацией (PFX) с помощью Pvk2Pfx.exe
+### <a name="step-3-create-a-personal-information-exchange-pfx-file-using-pvk2pfxexe"></a>шаг 3. создание файла личных данных Exchange (. pfx) с помощью Pvk2Pfx.exe
 
 Используйте служебную программу [**Pvk2Pfx**](/windows-hardware/drivers/devtest/pvk2pfx) для преобразования файлов. PVK и. cer, созданных средством [**MakeCert**](/windows-hardware/drivers/devtest/makecert) , в PFX-файл, который можно использовать с средством [SignTool](/windows/desktop/SecCrypto/signtool) для подписания пакета приложения:
 
@@ -120,9 +120,9 @@ Pvk2Pfx /pvk MyKey.pvk /pi pvkPassword /spc MyKey.cer /pfx MyKey.pfx [/po pfxPas
 
 Дополнительные сведения о других параметрах см. в разделе [**Pvk2Pfx**](/windows-hardware/drivers/devtest/pvk2pfx).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-После создания PFX-файла можно использовать файл с помощью средства [SignTool](/windows/desktop/SecCrypto/signtool) для подписания пакета приложения. Дополнительные сведения см. [в разделе как подписать пакет приложения с помощью средства SignTool](how-to-sign-a-package-using-signtool.md). Но сертификат по-прежнему не является доверенным для локального компьютера для развертывания пакетов приложений, пока он не будет установлен в хранилище доверенных сертификатов на локальном компьютере. Вы можете использовать [Certutil.exe](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732443(v=ws.10)), входящий в состав Windows.
+После создания PFX-файла можно использовать файл с помощью средства [SignTool](/windows/desktop/SecCrypto/signtool) для подписания пакета приложения. Дополнительные сведения см. [в разделе как подписать пакет приложения с помощью средства SignTool](how-to-sign-a-package-using-signtool.md). Но сертификат по-прежнему не является доверенным для локального компьютера для развертывания пакетов приложений, пока он не будет установлен в хранилище доверенных сертификатов на локальном компьютере. Вы можете использовать [Certutil.exe](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732443(v=ws.10)), который поставляется вместе с Windows.
 
 **Установка сертификатов с помощью WindowsCertutil.exe**
 
@@ -149,7 +149,7 @@ Certutil -store TrustedPeople
 
 Добавив сертификат в [хранилища сертификатов локальной машины](/windows-hardware/drivers/install/local-machine-and-current-user-certificate-stores), вы меняете доверие сертификатов всех пользователей на компьютере. Рекомендуется установить все сертификаты подписи кода, необходимые для тестирования пакетов приложений в хранилище сертификатов "Доверенные лица". Немедленно удалите эти сертификаты, когда они больше не нужны, чтобы предотвратить их использование для компрометации доверия системы.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -171,6 +171,6 @@ Certutil -store TrustedPeople
 [Подписание пакета приложения](/previous-versions/br230260(v=vs.110))
 </dt> </dl>
 
- 
+ 
 
- 
+ 

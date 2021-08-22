@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: a27dc275ce900bfd6412599cb81ad14038f96405
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 16562f3b954c9968899b7af63729a105956c7f809d094bdfa6c508a160a6d51d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006652"
 ---
 # <a name="hasheddataalgorithm-property"></a>Хашеддата. algorithm, свойство
 
@@ -55,7 +55,7 @@ HashedData.Algorithm As CAPICOM_HASH_ALGORITHM
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -68,7 +68,7 @@ HashedData.Algorithm As CAPICOM_HASH_ALGORITHM
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

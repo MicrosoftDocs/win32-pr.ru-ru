@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101402
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: f179f4d8f03fdadf5c858a76581cf352d327e1bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 88176eda69c024ed3efa0c49ce857267455f92676cbabaeaabc61d6e6f6de86f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103811669"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120117314"
 ---
 # <a name="esentdatabaseinvalidpathexception-methods"></a>Методы EsentDatabaseInvalidPathException 
 
@@ -78,7 +78,7 @@ ms.locfileid: "103811669"
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

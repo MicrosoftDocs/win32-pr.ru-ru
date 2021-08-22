@@ -4,12 +4,12 @@ ms.assetid: 3c8fcb8d-2ea4-4b24-b649-7bd375c1133d
 title: Обработка повторяющихся имен экземпляров
 ms.topic: article
 ms.date: 08/17/2020
-ms.openlocfilehash: 220e5d7d0181a79c1d1415486cc946d484e11952
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f58f6ed11951c7b66951f5154009127c5029de3760a9419a7c9716781be8234f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105663231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144007"
 ---
 # <a name="handling-duplicate-instance-names"></a>Обработка повторяющихся имен экземпляров
 
@@ -19,7 +19,7 @@ ms.locfileid: "105663231"
 
 ## <a name="process-counterset"></a>Набор счетчиков процессов
 
-Эта проблема особенно связана с набором `Process` счетчиков, поскольку в нем используется только имя EXE-файла процесса в качестве имени экземпляра, несмотря на то, что имя исполняемого файла не является уникальным. Поведение по умолчанию для набора `Process` счетчиков в Windows не может быть изменено из-за проблем совместимости.
+Эта проблема особенно связана с набором `Process` счетчиков, поскольку в нем используется только имя EXE-файла процесса в качестве имени экземпляра, несмотря на то, что имя исполняемого файла не является уникальным. поведение по умолчанию набора `Process` счетчиков на Windows не может быть изменено из-за проблем совместимости.
 
 Можно изменить поведение `Process` и `Thread` каунтерсетс, чтобы использовать уникальные имена экземпляров, задав `ProcessNameFormat` `ThreadNameFormat` значения реестра или в разделе `HKLM\System\CurrentControlSet\Services\Perfproc\Performance` реестра.
 

@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 65f3f9836b52693e3f74bac5cfd94553e02d7bf9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 25f8b04aa8c581d8d7e40ab1d52162d305c97d0d8ce3f7d626cb3d29e7262666
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702363"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050092"
 ---
 # <a name="swbemdatetime-object"></a>Объект SWbemDateTime
 
@@ -67,7 +67,7 @@ ms.locfileid: "105702363"
 | [**Hours**](swbemdatetime-hours.md)<br/>                                 | Чтение/запись<br/> | Часы компонента дня в значении [даты и времени](datetime.md) CIM.<br/>                                              |
 | [**хаурсспеЦифиед**](swbemdatetime-hoursspecified.md)<br/>               | Чтение/запись<br/> | Указывает, указан ли час или оставлен в качестве подстановочного знака.<br/>                                                       |
 | [**Параметр "интервал"**](swbemdatetime-isinterval.md)<br/>                       | Чтение/запись<br/> | Указывает, что хотя бы один компонент [даты и времени](datetime.md) CIM представляет интервал, а не дату.<br/> |
-| [**Микросекундах**](swbemdatetime-microseconds.md)<br/>                   | Чтение/запись<br/> | Компонент микросекунд для значения [DateTime](datetime.md) CIM.<br/>                                                  |
+| [**Микросекунды**](swbemdatetime-microseconds.md)<br/>                   | Чтение/запись<br/> | Компонент микросекунд для значения [DateTime](datetime.md) CIM.<br/>                                                  |
 | [**микросекондсспеЦифиед**](swbemdatetime-microsecondsspecified.md)<br/> | Чтение/запись<br/> | Указывает, указан ли компонент микросекунд в качестве подстановочного знака.<br/>                                     |
 | [**Минуты**](swbemdatetime-minutes.md)<br/>                             | Чтение/запись<br/> | Компонент минут для значения [DateTime](datetime.md) CIM.<br/>                                                       |
 | [**минутесспеЦифиед**](swbemdatetime-minutesspecified.md)<br/>           | Чтение/запись<br/> | Указывает, указан ли компонент минут или оставлен в качестве подстановочного знака.<br/>                                          |
@@ -85,7 +85,7 @@ ms.locfileid: "105702363"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 WMI записывает отметки времени в формате UTC. Время в формате UTC не используется большинство разработчиков и ИТ-администраторов. Поэтому распространенной проблемой является определение способа перевода времени в формате UTC в более удобочитаемый формат. Дополнительные сведения о работе со временем в формате UTC см. в разделе [задачи WMI: даты и времени](wmi-tasks--dates-and-times.md) и [Работа с датами и временем с помощью WMI](/previous-versions/tn-archive/ee198928(v=technet.10)). Кроме того, можно прочитать [сведения о времени (и о датах)](/previous-versions/technet-magazine/cc160973(v=msdn.10)) , а также о том, [как вычесть указанное число дней из значения времени в формате UTC?](https://blogs.technet.com/b/heyscriptingguy/archive/2006/07/21/how-can-i-subtract-a-specified-number-of-days-from-a-utc-value.aspx) записи блога для получения дополнительных сведений.
 
@@ -273,7 +273,7 @@ $dateTime.Value = $os.InstallDate
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -281,7 +281,7 @@ $dateTime.Value = $os.InstallDate
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
 | Библиотека типов<br/>             | <dl> <dt>Wbemdisp. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | \_SWBEMDATETIME CLSID<br/>                                                         |
@@ -289,7 +289,7 @@ $dateTime.Value = $os.InstallDate
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

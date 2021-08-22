@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 98e419d3e77a27f211f0e063573caffcd6c61ce8
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 586f266fea0dbc035e8ff3a61e39cb18a7102d792ee05c44345a1b702cc1b574
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104998210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120118244"
 ---
 # <a name="rwbuffergetdimensions-function"></a>Функция Рвбуффер:: Dimension
 
@@ -47,9 +47,9 @@ void GetDimensions(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Nothing
+Ничего
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта функция поддерживается для следующих типов шейдеров:
 
@@ -63,7 +63,7 @@ Nothing
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

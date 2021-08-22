@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c6025c40465ecf2e8fe7a33dcda50ece07d34b9d
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: a7703a3539ff16c7f2dc78d51c62cfe05612dcb6e935bb5c5701f9a7b59a9f1d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "105650304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119869574"
 ---
 # <a name="optimize-attribute"></a>Оптимизация атрибута
 
@@ -26,7 +26,7 @@ ms.locfileid: "105650304"
 > [!Note]  
 > Это ключевое слово суперцеедед и не должно использоваться. В текущих компиляциях MIDL вместо этого следует использовать [**/Oicf**](-oi.md)[**/robust**](-robust.md) .
 
- 
+ 
 
 ``` syntax
 optimize ("optimization-options")
@@ -43,7 +43,7 @@ optimize ("optimization-options")
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта версия RPC предоставляет два метода для маршалирования данных: смешанный режим ("s") и интерпретируемый ("i"). Эти методы соответствуют параметрам командной строки [**/OS**](-os.md) и [**/Oi**](-oi.md) . Интерпретируемый метод выполняет передачу данных полностью в автономном режиме. Хотя это может значительно снизить размер заглушки, это может повлиять на производительность.
 
@@ -58,7 +58,7 @@ optimize ("s") HRESULT FasterProcedure(...);
 optimize ("i") HRESULT SmallerProcedure(...);
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -74,9 +74,9 @@ optimize ("i") HRESULT SmallerProcedure(...);
 [**/robust**](-robust.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

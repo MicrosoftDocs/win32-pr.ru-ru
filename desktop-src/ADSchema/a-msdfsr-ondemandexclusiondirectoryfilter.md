@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac6da8cff9dedf0baaa9557cb261e00714f71e1b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8b3910d3ec53f4780fb8c49fc2a73b9fce6c66995448a59f6cb632384f028180
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104536317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119298744"
 ---
 # <a name="ms-dfsr-ondemandexclusiondirectoryfilter-attribute"></a>атрибут MS-DFSR-Ондемандексклусиондиректорифилтер
 

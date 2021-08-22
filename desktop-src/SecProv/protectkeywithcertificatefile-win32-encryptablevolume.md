@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: d61a0bd0d31c14f13edd9ef610e8f6d3ed20f037
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e96667af5e9c16097e951f3162082a6fb06b13d0504da3e8582b9f1b7ebfd4cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108110571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119004462"
 ---
 # <a name="protectkeywithcertificatefile-method-of-the-win32_encryptablevolume-class"></a>Метод Протекткэйвисцертификатефиле \_ класса Win32 енкриптаблеволуме
 
@@ -55,7 +55,7 @@ uint32 ProtectKeyWithCertificateFile(
 
 Тип: **строка**
 
-Строка, указывающая расположение и имя CER-файла, используемого для включения BitLocker. Сертификат шифрования должен быть экспортирован в формате CER ([*distinguished Encoding Rules*](../secgloss/d-gly.md) (Der) Binary [*x. 509*](../secgloss/x-gly.md) или Base-64 Encoded x. 509). Сертификат шифрования может быть создан из PKI Майкрософт, стороннего PKI или самозаверяющего.
+Строка, указывающая расположение и имя CER-файла, используемого для включения BitLocker. сертификат шифрования должен быть экспортирован в формате cer ([*Distinguished Encoding Rules*](../secgloss/d-gly.md) (DER) binary [*x. 509*](../secgloss/x-gly.md) или Base-64 encoded x. 509). Сертификат шифрования может быть создан из PKI Майкрософт, стороннего PKI или самозаверяющего.
 
 </dd> <dt>
 
@@ -95,14 +95,14 @@ uint32 ProtectKeyWithCertificateFile(
 
 Если OID не совпадает с идентификатором, связанным с контроллером службы в реестре, этот метод завершается ошибкой. Это не дает пользователю вручную настраивать предохранители агента восстановления данных (DRA) на томе. Службы агентов DRA должны быть установлены только службой.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 7 Корпоративная, \[ только классические приложения Windows 7 Ultimate\]<br/>                               |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                                                 |
+| Минимальная версия клиента<br/> | Windows 7 Корпоративная, только Windows 7 Максимальная классические \[ приложения\]<br/>                               |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                                                 |
 | Пространство имен<br/>                | Корневой \\ CIMV2 \\ безопасности \\ микрософтволуминкриптион<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32 \_ енкриптаблеволуме. mof</dt> </dl> |
 

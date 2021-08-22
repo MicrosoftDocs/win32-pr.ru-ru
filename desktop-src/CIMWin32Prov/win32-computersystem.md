@@ -1,5 +1,5 @@
 ---
-description: Представляет компьютерную систему под Windows.
+description: Представляет компьютерную систему, на которой работает Windows.
 ms.assetid: fdb9fe36-1b8a-4dfa-a1cd-55065017ba2a
 ms.tgt_platform: multiple
 title: Класс Win32_ComputerSystem
@@ -79,16 +79,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5e5282c854bfdb1ce4b80f61a202ebecac990576
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6c6a2d965a764be8925fda55958302d815b62ad6180ce4d3abb48d399fc2e817
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119700004"
 ---
 # <a name="win32_computersystem-class"></a>\_Класс Win32 ComputerSystem
 
-[Класс WMI](/windows/desktop/WmiSdk/retrieving-a-class) **Win32 \_ ComputerSystem** представляет компьютер, работающий под Windows.
+[Класс WMI](/windows/desktop/WmiSdk/retrieving-a-class) **Win32 \_ ComputerSystem** представляет компьютерную систему, на которой работает Windows.
 
 Следующий пример синтаксиса — упрощенный MOF-код, который включает все наследуемые свойства.
 
@@ -204,7 +204,7 @@ class Win32_ComputerSystem : CIM_UnitaryComputerSystem
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) (" \| тип SMBIOS 24 \| Параметры безопасности оборудования \| админпассвордстатус")
+квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS \| Type 24 \| Hardware Security Параметры \| админпассвордстатус")
 </dt> </dl>
 
 Параметры безопасности оборудования системы для состояния пароля администратора.
@@ -413,7 +413,7 @@ class Win32_ComputerSystem : CIM_UnitaryComputerSystem
 
 Это значение берется из элемента **состояние загрузки** в структуре **сведений о загрузке системы** в сведениях SMBIOS.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** Это свойство не поддерживается до Windows 10 и Windows Server 2016.
+**Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** это свойство не поддерживается до Windows 10 и Windows Server 2016.
 
 </dd> <dt>
 
@@ -460,7 +460,7 @@ class Win32_ComputerSystem : CIM_UnitaryComputerSystem
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -512,7 +512,7 @@ class Win32_ComputerSystem : CIM_UnitaryComputerSystem
 
 <span id="Safe"></span><span id="safe"></span><span id="SAFE"></span>
 
-**Безопасность** (3)
+**Сейф** (3)
 
 
 </dt> <dd></dd> <dt>
@@ -556,7 +556,7 @@ class Win32_ComputerSystem : CIM_UnitaryComputerSystem
 
 Это значение берется из **номера SKU** в структуре **System корпуса или корпуса** в информации SMBIOS.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** Это свойство не поддерживается до Windows 10 и Windows Server 2016.
+**Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** это свойство не поддерживается до Windows 10 и Windows Server 2016.
 
 </dd> <dt>
 
@@ -749,7 +749,7 @@ class Win32_ComputerSystem : CIM_UnitaryComputerSystem
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) (" \| тип SMBIOS 24 \| Параметры безопасности оборудования \| фронтпанелресетстатус")
+квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS \| Type 24 \| Hardware Security Параметры \| фронтпанелресетстатус")
 </dt> </dl>
 
 В следующей таблице перечислены параметры безопасности оборудования для кнопки Сброс на компьютере.
@@ -800,7 +800,7 @@ class Win32_ComputerSystem : CIM_UnitaryComputerSystem
 
 Если задано **значение true**, низкоуровневая оболочка.
 
-**Windows server 2008 R2, Windows 7, Windows Server 2008 и Windows Vista:** Это свойство не поддерживается до Windows 8 и Windows Server 2012.
+**Windows server 2008 R2, Windows 7, Windows Server 2008 и Windows Vista:** это свойство не поддерживается до Windows 8 и Windows Server 2012.
 
 </dd> <dt>
 
@@ -864,7 +864,7 @@ class Win32_ComputerSystem : CIM_UnitaryComputerSystem
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) (" \| тип SMBIOS 24 \| Параметры безопасности оборудования \| кэйбоардпассвордстатус")
+квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS \| Type 24 \| Hardware Security Параметры \| кэйбоардпассвордстатус")
 </dt> </dl>
 
 Параметры безопасности оборудования системы для состояния пароля клавиатуры.
@@ -925,7 +925,7 @@ class Win32_ComputerSystem : CIM_UnitaryComputerSystem
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) (" \| \| поставщик сведений о системе SMBIOS Type 1 \| )"
+квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) (" \| тип SMBIOS 1 \| Сведения о системе \| Manufacturer")
 </dt> </dl>
 
 Имя изготовителя компьютера.
@@ -943,14 +943,14 @@ class Win32_ComputerSystem : CIM_UnitaryComputerSystem
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) (" \| тип SMBIOS 1 \| системная информация \| Название продукта")
+квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) (" \| тип SMBIOS 1 \| Сведения о системе \| название продукта")
 </dt> </dl>
 
 Название продукта, которое изготовитель передает компьютеру. Это свойство должно иметь значение.
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -1132,7 +1132,7 @@ class Win32_ComputerSystem : CIM_UnitaryComputerSystem
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API \| System Information Structures \| [**System \_ info**](/windows/desktop/api/sysinfoapi/ns-sysinfoapi-system_info) \| двнумберофпроцессорс")
+квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API \| Сведения о системе структурные \| [**\_ сведения о системе**](/windows/desktop/api/sysinfoapi/ns-sysinfoapi-system_info) \| двнумберофпроцессорс")
 </dt> </dl>
 
 Число физических процессоров, доступных в данный момент в системе. Это число включенных в систему процессоров, которые не включают отключенные процессоры. Если компьютерная система содержит два физических процессора, каждый из которых содержит два логических процессора, значение **NumberOfProcessors** равно 2, а **нумберофлогикалпроцессорс** — 4. Процессоры могут быть многоядерными, или же они могут быть процессорами технологии Hyper. Дополнительные сведения см. в подразделе "Примечания".
@@ -1251,7 +1251,7 @@ class Win32_ComputerSystem : CIM_UnitaryComputerSystem
 
 <span id="Enterprise_Server"></span><span id="enterprise_server"></span><span id="ENTERPRISE_SERVER"></span>
 
-<span id="Enterprise_Server"></span><span id="enterprise_server"></span><span id="ENTERPRISE_SERVER"></span>**Корпоративный сервер** (4)
+<span id="Enterprise_Server"></span><span id="enterprise_server"></span><span id="ENTERPRISE_SERVER"></span>**сервер Enterprise** (4)
 
 
 </dt> <dd></dd> <dt>
@@ -1263,7 +1263,7 @@ class Win32_ComputerSystem : CIM_UnitaryComputerSystem
 
 </dt> <dd>
 
-Небольшой офисный и домашний офисный сервер
+малый Office и домашний Office
 
 </dd> <dt>
 
@@ -1304,7 +1304,7 @@ class Win32_ComputerSystem : CIM_UnitaryComputerSystem
 
 Тип используемого компьютера, например портативный компьютер, Настольный компьютер или планшетный компьютер.
 
-**Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** Это свойство не поддерживается до Windows 8.1 и Windows Server 2012 R2.
+**Windows Server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows Server 2008 и Windows Vista:** это свойство не поддерживается до Windows 8.1 и Windows Server 2012 R2.
 
 <dt>
 
@@ -1338,7 +1338,7 @@ class Win32_ComputerSystem : CIM_UnitaryComputerSystem
 
 <span id="Enterprise_Server"></span><span id="enterprise_server"></span><span id="ENTERPRISE_SERVER"></span>
 
-**Корпоративный сервер** (4)
+**сервер Enterprise** (4)
 
 
 </dt> <dd></dd> <dt>
@@ -1502,7 +1502,7 @@ class Win32_ComputerSystem : CIM_UnitaryComputerSystem
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) (" \| тип SMBIOS 24 \| Параметры безопасности оборудования \| поверонпассвордстатус")
+квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS \| Type 24 \| Hardware Security Параметры \| поверонпассвордстатус")
 </dt> </dl>
 
 Параметры безопасности оборудования системы для Power-On состояние пароля.
@@ -1670,7 +1670,7 @@ Power Save Гибернация.
 
 <span id="Safe"></span><span id="safe"></span><span id="SAFE"></span>
 
-<span id="Safe"></span><span id="safe"></span><span id="SAFE"></span>**Безопасность** (3)
+<span id="Safe"></span><span id="safe"></span><span id="SAFE"></span>**Сейф** (3)
 
 
 </dt> <dd></dd> <dt>
@@ -1875,7 +1875,7 @@ Power Save Гибернация.
 Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) (" \| [](/windows/desktop/api/winbase/nf-winbase-getprivateprofilestring) \| сведения о поддержке Win32API жетприватепрофилестринг")
 </dt> </dl>
 
-Список контактных данных службы поддержки для операционной системы Windows.
+список контактных данных службы поддержки для Windows операционной системы.
 
 </dd> <dt>
 
@@ -1888,14 +1888,14 @@ Power Save Гибернация.
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) (" \| \| семейство системных сведений SMBIOS Type 1 \| ")
+квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) (" \| тип SMBIOS 1 \| Сведения о системе \| Family")
 </dt> </dl>
 
 Семейство, к которому принадлежит определенный компьютер. Семейство относится к набору компьютеров, которые похожи, но не идентичны с точки зрения оборудования или программного обеспечения.
 
-Это значение берется из члена **семьи** структуры **сведений о системе** в сведениях SMBIOS.
+это значение берется из члена **семьи** структуры **Сведения о системе** в сведениях SMBIOS.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** Это свойство не поддерживается до Windows 10 и Windows Server 2016.
+**Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** это свойство не поддерживается до Windows 10 и Windows Server 2016.
 
 </dd> <dt>
 
@@ -1908,14 +1908,14 @@ Power Save Гибернация.
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) (" \| тип SMBIOS 1 \| системы, \| номер SKU")
+квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) (" \| тип SMBIOS 1 \| Сведения о системе \| номер SKU")
 </dt> </dl>
 
 Определяет конфигурацию конкретного компьютера для продажи. Иногда он также называется ИДЕНТИФИКАТОРом продукта или номером заказа на покупку.
 
-Это значение берется из **номера SKU** в структуре **сведений о системе** в сведениях SMBIOS.
+это значение берется из **номера SKU** структуры **Сведения о системе** в сведениях SMBIOS.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** Это свойство не поддерживается до Windows 10 и Windows Server 2016.
+**Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** это свойство не поддерживается до Windows 10 и Windows Server 2016.
 
 </dd> <dt>
 
@@ -1976,10 +1976,10 @@ Power Save Гибернация.
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API \| System Information Structures \| [**System \_ info**](/windows/desktop/api/sysinfoapi/ns-sysinfoapi-system_info) \| впроцессорарчитектуре")
+квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API \| Сведения о системе структурные \| [**\_ сведения о системе**](/windows/desktop/api/sysinfoapi/ns-sysinfoapi-system_info) \| впроцессорарчитектуре")
 </dt> </dl>
 
-Система на компьютере под управлением Windows. Это свойство должно иметь значение.
+система, работающая на компьютере на базе Windows. Это свойство должно иметь значение.
 
 В следующем списке указаны некоторые из возможных значений этого свойства.
 
@@ -2093,7 +2093,7 @@ Power Save Гибернация.
 
 <span id="Safe"></span><span id="safe"></span><span id="SAFE"></span>
 
-**Безопасность** (3)
+**Сейф** (3)
 
 
 </dt> <dd></dd> <dt>
@@ -2150,7 +2150,7 @@ Power Save Гибернация.
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API \| System Information functions- \| [**username**](/windows/desktop/api/winbase/nf-winbase-getusernamea)")
+квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API \| Сведения о системе functions- \| [**username**](/windows/desktop/api/winbase/nf-winbase-getusernamea)")
 </dt> </dl>
 
 Имя пользователя, выполнившего вход в систему. Это свойство должно иметь значение. В сеансе служб терминалов **username** возвращает имя пользователя, вошедшего в консоль, а не пользователя, вошедшего в систему во время сеанса службы терминалов.
@@ -2168,12 +2168,12 @@ Power Save Гибернация.
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("тип SMBIOS \| 1 \| системная информация о \| типе пробуждения")
+квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) (" \| тип SMBIOS 1 \| Сведения о системе \| тип пробуждения")
 </dt> </dl>
 
 Событие, которое приводит к включению системы.
 
-Это значение берется из члена **типа пробуждения** в структуре **сведений о системе** в сведениях SMBIOS.
+это значение берется из члена **типа пробуждения** **Сведения о системе** структуры в сведениях SMBIOS.
 
 <dt>
 
@@ -2258,7 +2258,7 @@ Power Save Гибернация.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы определить общее число экземпляров процессора, связанных с объектом системы компьютера, используйте класс сопоставления [**Win32 \_ компутерсистемпроцессор**](win32-computersystemprocessor.md) .
 
@@ -2341,7 +2341,7 @@ else
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -2355,7 +2355,7 @@ else
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

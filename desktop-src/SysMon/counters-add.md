@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a36d2b9bdc2edc9565b1eac5ebae335e5fbad80752f572c48c0f1b05c9668de1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a8d8169980de00338c7fdd0b804013f986a5a7ca
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118883402"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122466011"
 ---
 # <a name="countersadd-method"></a>Метод Counters. Add
 
@@ -55,34 +55,17 @@ Counters.Add( _
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Тип исключения</th>
-<th>Условие</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>System. Runtime. InteropServices. COMException</strong></td>
-<td>Это исключение может быть получено по одной из следующих причин:
-<ul>
-<li>Указанный объект производительности не найден на компьютере. Значение Err. Number — 0xC0000BB8.</li>
-<li>Не удалось найти указанный счетчик. Значение Err. Number — 0xC0000BB9.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Тип исключения | Условие | 
+|----------------|-----------|
+| <strong>System. Runtime. InteropServices. COMException</strong> | Это исключение может быть получено по одной из следующих причин:<ul><li>Указанный объект производительности не найден на компьютере. Значение Err. Number — 0xC0000BB8.</li><li>Не удалось найти указанный счетчик. Значение Err. Number — 0xC0000BB9.</li></ul> | 
+
 
 
 
  
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
 Если в параметре *PathName* указан подстановочный знак, метод **Add** создает по одному объекту [**каунтеритем**](counteritem.md) для каждого развернутого пути. Метод **Add** возвращает указатель на первый добавленный **каунтеритем**.
 
@@ -104,7 +87,7 @@ Counters.Add( _
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

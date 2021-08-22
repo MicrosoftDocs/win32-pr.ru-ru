@@ -1,19 +1,19 @@
 ---
-description: Установщик задает для свойства Мситаблетпк ненулевое значение, если текущей операционной системой является Windows XP Tablet PC Edition.
+description: установщик задает для свойства мситаблетпк ненулевое значение, если текущей операционной системой является Windows XP Tablet PC Edition.
 ms.assetid: b178a98e-b6f8-4ff8-b554-e47c3b39f892
 title: Мситаблетпк, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bf2878dbaa895e0924a50900d331db0b879edc1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ac47dd0d8db3c0e882a965685bb1507dc0103f3e965dfbcb8f4857ada19e17ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119145616"
 ---
 # <a name="msitabletpc-property"></a>Мситаблетпк, свойство
 
-Установщик задает для свойства **мситаблетпк** ненулевое значение, если текущей операционной системой является Windows XP Tablet PC Edition. Установщик использует функцию [**жетсистемметрикс**](/windows/win32/api/winuser/nf-winuser-getsystemmetrics) с **SM \_ TABLETPC**, а свойство получает ненулевое значение, возвращаемое этой функцией. Если текущая система не является Windows XP Tablet PC Edition, функция **жетсистемметрикс** возвращает нуль, а установщик не устанавливает это свойство.
+установщик задает для свойства **мситаблетпк** ненулевое значение, если текущей операционной системой является Windows XP Tablet PC Edition. Установщик использует функцию [**жетсистемметрикс**](/windows/win32/api/winuser/nf-winuser-getsystemmetrics) с **SM \_ TABLETPC**, а свойство получает ненулевое значение, возвращаемое этой функцией. если текущая система не Windows XP Tablet PC Edition, функция **жетсистемметрикс** возвращает нуль, а установщик не устанавливает это свойство.
 
 ## <a name="requirements"></a>Требования
 
@@ -21,7 +21,7 @@ ms.locfileid: "105679612"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows 4,5 в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик 4,5 на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 
@@ -32,7 +32,7 @@ ms.locfileid: "105679612"
 [Свойства](properties.md)
 </dt> <dt>
 
-[Не поддерживается в установщик Windows 3,1 и более ранних версиях](not-supported-in-windows-installer-version-3-1.md)
+[не поддерживается в установщик Windows 3,1 и более ранних версиях](not-supported-in-windows-installer-version-3-1.md)
 </dt> </dl>
 
  

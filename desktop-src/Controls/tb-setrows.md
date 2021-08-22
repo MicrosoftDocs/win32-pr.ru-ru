@@ -3,7 +3,7 @@ title: Сообщение TB_SETROWS (Коммктрл. h)
 description: Задает количество строк кнопок на панели инструментов.
 ms.assetid: d8ea7b80-d23e-4593-8eb1-d23808173fc9
 keywords:
-- Элементы управления Windows для TB_SETROWS сообщений
+- элементы управления Windows сообщений TB_SETROWS
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d0065a3f5f6a277713e368177886ebd064ea132
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b2c0e95d6f0f19c2b1c9b76cf22a37da0086987b22fe144603cdb2afa8a1ad83
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104072028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119293644"
 ---
 # <a name="tb_setrows-message"></a>\_Сообщение СЕТРОВС ТБ
 
@@ -49,19 +49,19 @@ ms.locfileid: "104072028"
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Поскольку система не разбивает группы кнопок при задании числа строк, результирующее число строк может отличаться от запрошенного числа.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

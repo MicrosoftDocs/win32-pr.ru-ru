@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 51751adeb1f25f11f0c5da95e902f45fbc4b4b5a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6c2d32862ceba31ec30249d025e91c237fda2af10c9adde9c731cd1fd4c5fc79
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119494114"
 ---
 # <a name="glgetfloatv-function"></a>Функция Глжетфлоатв
 
@@ -305,7 +305,7 @@ void WINAPI glGetFloatv(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция возвращает значения для переменных простого состояния в OpenGL. Параметр *pname* представляет собой символьную константу, указывающую переменную состояния, которая должна быть возвращена, а *params* — это указатель на массив указанного типа, в который будут размещены возвращаемые данные.
 
@@ -317,7 +317,7 @@ void WINAPI glGetFloatv(
 
 С помощью [**глисенаблед**](glisenabled.md)можно легко запросить многие логические параметры.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -331,7 +331,7 @@ void WINAPI glGetFloatv(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

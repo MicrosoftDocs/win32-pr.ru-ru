@@ -20,12 +20,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 0f7b0d1318e4c24ab7381032877d16a8ea83868b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: caaedae456ded5b918a19b09f18ebcf7f32c0edf2c0eff6c16d8ff98519b1dd9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104143462"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068504"
 ---
 # <a name="cim_vlanendpoint-class"></a>\_Класс CIM вланендпоинт
 
@@ -53,7 +53,7 @@ class CIM_VLANEndpoint : CIM_ProtocolEndpoint
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ вланендпоинт** имеет следующие свойства.
 
@@ -119,7 +119,7 @@ class CIM_VLANEndpoint : CIM_ProtocolEndpoint
 
 <span id="Dot1Q_Tunnel"></span><span id="dot1q_tunnel"></span><span id="DOT1Q_TUNNEL"></span>
 
-**Туннель Dot1Q** (6)
+**Tunnel Dot1Q** (6)
 
 
 </dt> <dd></dd> <dt>
@@ -330,7 +330,7 @@ class CIM_VLANEndpoint : CIM_ProtocolEndpoint
 
 <span id="Dot1Q_Tunnel"></span><span id="dot1q_tunnel"></span><span id="DOT1Q_TUNNEL"></span>
 
-**Туннель Dot1Q** (6)
+**Tunnel Dot1Q** (6)
 
 
 </dt> <dd></dd> <dt>

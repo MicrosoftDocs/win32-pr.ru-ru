@@ -4,12 +4,12 @@ ms.assetid: 28b4c032-1c9a-4b3a-9a6a-2948456572b2
 title: Включение трассировки WSDAPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 951f8ddfee6043cc662a456c70960e78ed1a3625
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bd8f765249f4888a1dcfd2c6a44a81d3e2652a75bb983e85a881093d3c266b5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049702"
 ---
 # <a name="enabling-wsdapi-tracing"></a>Включение трассировки WSDAPI
 
@@ -19,7 +19,7 @@ ms.locfileid: "104080580"
 
 **Включение трассировки WSDAPI**
 
-1.  С помощью блокнота или другого текстового редактора создайте текстовый файл со следующим текстом:
+1.  с помощью Блокнот или другого текстового редактора создайте текстовый файл со следующим текстом:
 
     ``` syntax
     "{480217a9-f824-4bd4-bbe8-f371caaf9a0d}" 0xFF 0xFF
@@ -49,7 +49,7 @@ ms.locfileid: "104080580"
 
 После записи сбоя приложения \* ETL-файлы могут отправляться в службу поддержки Майкрософт. Эти файлы находятся в папке `C:\temp\wsd_*.etl` .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

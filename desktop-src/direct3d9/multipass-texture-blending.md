@@ -4,12 +4,12 @@ ms.assetid: 884cc928-305e-46b9-acbf-ca58dfbc05e6
 title: Многопроходное смешение текстур (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df0a042088694f686003a6dc259cf1d914db2b59
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 43ec4916cb3c86c0e3aa6e2c6ab9a5e03de8304989391b9c80b1070fc7b51594
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104139967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119491524"
 ---
 # <a name="multipass-texture-blending-direct3d-9"></a>Многопроходное смешение текстур (Direct3D 9)
 
@@ -31,7 +31,7 @@ ms.locfileid: "104139967"
 5.  Задайте для параметров \_ рендеринга D3DRS сркбленд и D3DRS \_ дестбленд, чтобы при необходимости изменить исходные и целевые Коэффициенты смешения. Система накладывает новые текстуры на существующие пиксели на целевой поверхности отрисовки в соответствии с этими параметрами.
 6.  Повторите шаги 3, 4 и 5 для всех необходимых текстур.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

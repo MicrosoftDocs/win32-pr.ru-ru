@@ -1,6 +1,6 @@
 ---
 description: Указывает определяемую приложением функцию обратного вызова, вызываемую диспетчером файлов для взаимодействия с расширением диспетчера файлов.
-title: Функция обратного вызова Фмекстенсионпрок (Вфекст. h)
+title: Функция обратного вызова FMExtensionProc (Wfext.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Wfext.h
 ms.assetid: 6e02d655-f7d8-460a-97d2-5b369493e941
-ms.openlocfilehash: 5e7b1f0142ea77967af15087131d3036aaec505e
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 7cd13fe534f3bb121a4056f67ceff47ddfa71fa5506c2020a243ab340768ce35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109842245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032662"
 ---
 # <a name="fmextensionproc-callback-function"></a>Функция обратного вызова Фмекстенсионпрок
 

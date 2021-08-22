@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: b64816589e3d4d0a2e3ace7be5c895e3d2cf22f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 27a43f8ea2902af7e2847e032da18543ffdbb228c2aa3e49fde63ce7cd727512
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119495014"
 ---
 # <a name="istats-interface"></a>Интерфейс Истатс
 
@@ -50,13 +50,13 @@ ms.locfileid: "105682906"
 | [**QueryStatus**](istats-querystatus.md)                             | Получает состояние НПП.<br/>                                                                                                               |
 | [**Возобновить**](istats-resume.md)                                       | Перезапускает приостановленную запись.<br/>                                                                                                                     |
 | [**Начать**](istats-start.md)                                         | Запускает запись.<br/>                                                                                                                            |
-| [**Stop**](istats-stop.md)                                           | Останавливает текущую запись.<br/>                                                                                                                     |
+| [**Позиции**](istats-stop.md)                                           | Останавливает текущую запись.<br/>                                                                                                                     |
 
 
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

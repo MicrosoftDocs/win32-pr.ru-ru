@@ -3,7 +3,7 @@ title: Просмотр. OnClose
 description: Обработчик событий OnClose обрабатывает событие, возникающее, когда представление собирается закрыться.
 ms.assetid: 25760c01-9e43-4744-8f20-336d8c198eab
 keywords:
-- Просмотр. закрывает проигрыватель Windows Media
+- проигрыватель Windows Media представления. onclose
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b3d7cdfd838d1683ba64d89b20da1256062878da
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3b801bbddd2c8d3d0fe3e1906ee17c0c5388631c81eb67c94243fe5dc2b60636
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105718057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054062"
 ---
 # <a name="viewonclose"></a>Просмотр. OnClose
 
@@ -28,17 +28,17 @@ ms.locfileid: "105718057"
 onclose
 ```
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

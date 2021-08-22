@@ -1,35 +1,35 @@
 ---
-description: 'Свойство Version9X предоставляет номер версии для версий операционной системы Windows 9x. Значение этого свойства является целым числом: MajorVersion \* 100 + minorversion.'
+description: 'свойство Version9X предоставляет номер версии для версий 9x Windows операционных систем. Значение этого свойства является целым числом: MajorVersion \* 100 + minorversion.'
 ms.assetid: 0a22de88-4958-46be-82c3-6465aec86d33
 title: Version9X, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e1df599629fdf978837a8f53df7d1faa4f476db1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: efbf76faef4ead06043e4824b6b8f0989a64e261b7c48e260c9c25fa58381cf0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105674928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119499004"
 ---
 # <a name="version9x-property"></a>Version9X, свойство
 
-Свойство **Version9X** предоставляет номер версии для версий операционной системы Windows 9x.
+свойство **Version9X** предоставляет номер версии для версий 9x Windows операционных систем.
 
 Значение этого свойства является целым числом: MajorVersion \* 100 + minorversion. Если операционная система не является версией 9x, свойство остается неопределенным. Дополнительные сведения см. в разделе [значения свойств операционной системы](operating-system-property-values.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Выражения условий могут проверять версию с помощью имени свойства или проверить версию с помощью оператора сравнения.
 
 В именах всех свойств учитывается регистр. Обратите внимание, что X в имени **Version9X** является прописной буквой.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

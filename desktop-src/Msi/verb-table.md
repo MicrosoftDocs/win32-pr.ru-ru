@@ -4,12 +4,12 @@ ms.assetid: 3749095c-f0c0-498c-969f-a6c445cfdd62
 title: Таблица команд
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7182c425e2613aa463f94bca0e6a1e62c1504c8c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e9fc546cd3db5fecb3861120fa15b1ffa3f21327b889599b77a1b067193c886c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119499114"
 ---
 # <a name="verb-table"></a>Таблица команд
 
@@ -21,11 +21,11 @@ ms.locfileid: "105674491"
 
 | Столбец      | Type                       | Ключ | Допускает значения NULL |
 |-------------|----------------------------|-----|----------|
-| Расширение\_ | [Text](text.md)           | Да   | Нет        |
-| Команда        | [Text](text.md)           | Да   | Нет        |
-| Последовательность    | [Integer](integer.md)     | Нет   | Да        |
-| Get-Help     | [Формате](formatted.md) | Нет   | Да        |
-| Аргумент    | [Формате](formatted.md) | Нет   | Да        |
+| Расширение\_ | [Text](text.md)           | Д   | Нет        |
+| Команда        | [Text](text.md)           | Д   | Нет        |
+| Последовательность    | [Integer](integer.md)     | Нет   | Д        |
+| Get-Help     | [Формате](formatted.md) | Нет   | Д        |
+| Аргумент    | [Формате](formatted.md) | Нет   | Д        |
 
 
 
@@ -72,7 +72,7 @@ ms.locfileid: "105674491"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта таблица упоминается при выполнении [действия регистерекстенсионинфо](registerextensioninfo-action.md) или [унрегистерекстенсионинфо](unregisterextensioninfo-action.md) .
 

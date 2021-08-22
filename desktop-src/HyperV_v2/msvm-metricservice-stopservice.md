@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: f716307f8c705c23df8e6efa303a2ab7863e0861
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 4ea646d756fa2204f3e492480b1c0946b745b82bf5e27dab42c9053d61ab9c77
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108111592"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119148327"
 ---
 # <a name="stopservice-method-of-the-msvm_metricservice-class"></a>Метод «начало» \_ класса мсвм метриксервице
 
@@ -63,7 +63,7 @@ uint32 StopService();
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

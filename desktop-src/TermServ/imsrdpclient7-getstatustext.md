@@ -79,14 +79,14 @@ HRESULT GetStatusText(
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 7<br/>                                                                     |
 | Минимальная версия сервера<br/> | Windows Server 2008 R2<br/>                                                        |
-| Header<br/>                   | <dl> <dt>OpenService. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>OpenService. h</dt> </dl> |
 | Библиотека типов<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>   |
 | IID<br/>                      | IID \_ IMsRdpClient7 определен как b2a5b5ce-3461-444a-91d4-add26d070638<br/>         |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

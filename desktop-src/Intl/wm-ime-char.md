@@ -4,12 +4,12 @@ ms.assetid: 1e1353c3-5215-4829-a00a-2fee47a430eb
 title: Сообщение WM_IME_CHAR (Winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: be0e2df06d9d837b0c1fbc0f9c9d9eb852252c47
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 337ca982cbd755e01f3dfab465d8b82948dfdbf053a4a7c03417a1d508bc42d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104424045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146787"
 ---
 # <a name="wm_ime_char-message"></a>\_Сообщение IME редактора WM \_
 
@@ -70,7 +70,7 @@ LRESULT CALLBACK WindowProc(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В отличие от сообщения [**WM \_ char**](../inputdev/wm-char.md) для окна, не поддерживающего Юникод, это сообщение может содержать двухбайтовые и однобайтовые значения. Для окна Юникода это сообщение будет таким же, как WM \_ char.
 
@@ -84,7 +84,7 @@ LRESULT CALLBACK WindowProc(
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

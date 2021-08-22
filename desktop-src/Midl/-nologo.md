@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 31ef8a505138385092c37f7092d6927bd533bd63
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: eddff02104933b3f8f4bbfaf1097b5422527b47848f0d5659c87a771a0b707a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104069117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067564"
 ---
 # <a name="nologo-switch"></a>Параметр/nologo
 
@@ -31,16 +31,16 @@ midl /nologo
 
 Этот параметр не имеет параметров.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [Общий синтаксис командной строки MIDL](general-midl-command-line-syntax.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,24 +3,24 @@ title: Атрибуты элемента видео
 description: Атрибуты элемента видео
 ms.assetid: 000bc03d-aa2e-4922-b611-7d6e8ebb22e9
 keywords:
-- Проигрыватель Windows Media, атрибуты видеозаписи
-- Проигрыватель Windows Media Mobile, атрибуты видео
-- Объектная модель проигрывателя Windows Media, атрибуты видеозаписи
+- проигрыватель Windows Media, атрибуты видеозаписи
+- проигрыватель Windows Media Мобильные элементы, атрибуты видео
+- проигрыватель Windows Media объектной модели, атрибуты видео
 - Объектная модель, атрибуты видео
-- Элемент управления ActiveX, атрибуты видео
-- Элемент управления ActiveX проигрывателя Windows Media, атрибуты видеозаписи
-- Элемент управления мобильными устройствами ActiveX проигрывателя Windows Media, атрибуты видеозаписи
+- ActiveX элемента управления, атрибуты видео
+- проигрыватель Windows Media ActiveX элемента управления, атрибуты видео
+- проигрыватель Windows Media мобильные ActiveX управления, атрибуты видео
 - Справочник по объектной модели, атрибутам видео
 - атрибуты, видеозаписи
 - атрибуты элемента видео
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ab23559ca6322ffd6ebc38517a73d802d7001ce
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e2b3fa64fe3898708a3df85b01fadbb372d1fad76abe99379ec914016c602585
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054182"
 ---
 # <a name="video-item-attributes"></a>Атрибуты элемента видео
 
@@ -99,7 +99,7 @@ ms.locfileid: "104067241"
 -   [**Атрибут WM/provider**](wm-provider-attribute.md)
 -   [**Атрибут WM/Провидерратинг**](wm-providerrating-attribute.md)
 -   [**Атрибут WM/Провидерстиле**](wm-providerstyle-attribute.md)
--   [**Атрибут WM/Publisher**](wm-publisher-attribute.md)
+-   [**атрибут WM/Publisher**](wm-publisher-attribute.md)
 -   [**Атрибут WM/Субскриптионконтентид**](wm-subscriptioncontentid-attribute.md)
 -   [**Атрибут WM/субтитр**](wm-subtitle-attribute.md)
 -   [**Атрибут WM/Субтитледескриптион**](wm-subtitledescription-attribute.md)
@@ -107,16 +107,16 @@ ms.locfileid: "104067241"
 -   [**Атрибут WM/Видеовидс**](wm-videowidth-attribute.md)
 -   [**Атрибут WM/Writer**](wm-writer-attribute.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Ссылка на атрибут**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fdc67d0a7dad18f8850c283f0d5eb224ff9ebbd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 562eb4040323452379659a068dbc4844a2e84c51009cb0ac843b2e5aa1b641a4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104341035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119493374"
 ---
 # <a name="glislist-function"></a>Функция Глислист
 
@@ -59,11 +59,11 @@ GLboolean WINAPI glIsList(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **гллслист** ВОЗВРАЩАЕТ значение GL \_ true, если *List* является именем списка отображаемых данных, и возвращает \_ значение GL false в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -77,7 +77,7 @@ GLboolean WINAPI glIsList(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
