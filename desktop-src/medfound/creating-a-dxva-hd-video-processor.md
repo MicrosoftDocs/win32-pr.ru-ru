@@ -4,12 +4,12 @@ ms.assetid: 43a97dc8-19b3-412c-a015-339099bf4f6c
 title: Создание видеопроцессора ДКСВА-HD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e89c5a361335f83296eec538a5a6a710b9e19604
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 4945153dfd3e14f1d2caae9b0a84f201745ea24722781bf998930477054138c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108102602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974823"
 ---
 # <a name="creating-a-dxva-hd-video-processor"></a>Создание видеопроцессора ДКСВА-HD
 
@@ -266,7 +266,7 @@ HRESULT CreateVPDevice(
 
 
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

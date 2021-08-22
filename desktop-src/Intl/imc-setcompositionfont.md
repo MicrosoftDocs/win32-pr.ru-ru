@@ -4,12 +4,12 @@ ms.assetid: 17b222e7-bf57-4cdd-8475-d9a8be03ab7f
 title: Команда IMC_SETCOMPOSITIONFONT (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dbb84c9e05ab19206064988a71b0ffc39b21a44b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8ebc9f435371d4ae08b12191419c95fd53c69256064f0e90bb654e75fab922f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118949275"
 ---
 # <a name="imc_setcompositionfont-command"></a>ИМК \_ сеткомпоситионфонт, команда
 
@@ -44,11 +44,11 @@ LRESULT IMC_SETCOMPOSITIONFONT
 
 Возвращает 0 в случае успеха или ненулевое значение в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При обработке этой команды окно IME изменяет текущий выбранный шрифт во входном контексте.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -56,11 +56,11 @@ LRESULT IMC_SETCOMPOSITIONFONT
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                           |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                 |
-| Заголовок<br/>                   | <dl> <dt>IMM. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Imm. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -6,12 +6,12 @@ keywords:
 - Стадия вывода потока (Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0879cde2ba2f1bb3ed9cc6121aaf378cd4af312
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 7f630208b60b107b211f8bb6f6ee0f1efac3ed736c96756dbe1e95e24032b02f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104488574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118538578"
 ---
 # <a name="stream-output-stage"></a>Стадия Stream-Output
 
@@ -48,7 +48,7 @@ ms.locfileid: "104488574"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

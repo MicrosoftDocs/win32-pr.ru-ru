@@ -1,5 +1,5 @@
 ---
-description: Создает иерархическое дерево объектов IWiaItem2 для устройства, поддерживающего получение изображений Windows (WIA) 2,0.
+description: создает иерархическое дерево объектов IWiaItem2 для устройства Windowsного получения изображений (WIA) 2,0.
 ms.assetid: df7f3cc2-da0a-4238-b280-89c72107753c
 title: 'Метод IWiaDevMgr2:: Креатедевице (WIA. h)'
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: a548a0ef43c2621b77c4ed10acde393af21d596d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a40267e77671b807f0e6969845a3a5a7096694e4f4e7978467ee9ca5909284d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965733"
 ---
 # <a name="iwiadevmgr2createdevice-method"></a>Метод IWiaDevMgr2:: Креатедевице
 
-Создает иерархическое дерево объектов [**IWiaItem2**](-wia-iwiaitem2.md) для устройства, поддерживающего получение изображений Windows (WIA) 2,0.
+создает иерархическое дерево объектов [**IWiaItem2**](-wia-iwiaitem2.md) для устройства Windowsного получения изображений (WIA) 2,0.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -74,21 +74,21 @@ HRESULT CreateDevice(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложения используют метод **IWiaDevMgr2:: креатедевице** для создания объекта устройства для устройств WIA 2,0, заданных параметром бстрдевицеид. При возврате метод **IWiaDevMgr2:: креатедевице** сохраняет адрес указателя в параметре *ppWiaItem2Root*, который указывает на корневой элемент дерева объектов [**IWiaItem2**](-wia-iwiaitem2.md) , созданных **IWiaDevMgr2:: креатедевице**. Приложения могут использовать это дерево объектов для управления и извлечения данных с устройства WIA 2,0.
 
 Приложения должны вызывать метод [IUnknown:: Release](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) для указателей, которые они получают с помощью параметра *ppWiaItem2Root* .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                               |
-| Header<br/>                   | <dl> <dt>WIA. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                               |
+| Заголовок<br/>                   | <dl> <dt>WIA. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl> |
 
 

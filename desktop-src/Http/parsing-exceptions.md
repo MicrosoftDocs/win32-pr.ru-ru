@@ -6,12 +6,12 @@ keywords:
 - Синтаксический анализ исключений
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa071f141539a159d09f6a53f2e78a81bf75327b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 28b546c5473641bbd5d719908903c2d9e19db25ade2ff6677a5ce5ec7ea472d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950733"
 ---
 # <a name="parsing-exceptions"></a>Синтаксический анализ исключений
 
@@ -19,11 +19,11 @@ API сервера HTTP предоставляет разделы реестра
 
 ```
 HKEY_LOCAL_MACHINE
-   System
-      CurrentControlSet
-         Services
-            Http
-               Parameters
+   System
+      CurrentControlSet
+         Services
+            Http
+               Parameters
 ```
 
 В следующей таблице перечислены разделы реестра, предоставляемые для поддержки перечисленных исключений. Чтобы включить исключение, установите соответствующее значение ключа равным 1 и перезапустите службу HTTP.
@@ -39,11 +39,11 @@ HKEY_LOCAL_MACHINE
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

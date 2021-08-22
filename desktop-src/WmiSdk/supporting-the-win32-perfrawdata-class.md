@@ -5,19 +5,19 @@ ms.tgt_platform: multiple
 title: Поддержка класса Win32_PerfRawData
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 835815c9171097bfe088d22e4154ac668d790c0e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e70c9899c88849c70265b019c1d73021c61cae4758c41f462349537bd2e806ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650658"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050122"
 ---
 # <a name="supporting-the-win32_perfrawdata-class"></a>Поддержка класса Win32 \_ перфравдата
 
 При написании высокопроизводительного поставщика, который наследует классы из [**Win32 \_ перфравдата**](/windows/desktop/CIMWin32Prov/win32-perfrawdata), необходимо соблюдать определенные соглашения, чтобы инструментарий WMI мог передать данные в значения свойств.
 
 > [!Note]  
-> Создание высокопроизводительного поставщика WMI для создания счетчиков производительности не рекомендуется в любой версии операционной системы Windows. Дополнительные сведения см. в разделе [Создание поставщика экземпляров в поставщике High-Performance](making-an-instance-provider-into-a-high-performance-provider.md)и [библиотеках производительности и WMI](performance-libraries-and-wmi.md).
+> создание высокопроизводительного поставщика WMI для создания счетчиков производительности не рекомендуется в любой версии операционной системы Windows. Дополнительные сведения см. в разделе [Создание поставщика экземпляров в поставщике High-Performance](making-an-instance-provider-into-a-high-performance-provider.md)и [библиотеках производительности и WMI](performance-libraries-and-wmi.md).
 
  
 
@@ -67,7 +67,7 @@ ms.locfileid: "105650658"
 
 9.  Убедитесь, что поставщик отвечает [требованиям к производительности](supporting-the-win32-perfformatteddata-class.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 2c941f57-cd22-4462-bc47-347c383705fd
 title: Пример Видеосумбнаил
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: caebe2e096ee45361dfe98b19071a5f1e388019e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 96fc361f443e870ffe7c3fadf3c4cdadf5b0c15d59819df02369597742d74a32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104558260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972591"
 ---
 # <a name="videothumbnail-sample"></a>Пример Видеосумбнаил
 
@@ -23,7 +23,7 @@ ms.locfileid: "104558260"
 
 -   [**имфсаурцереадер**](/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -37,9 +37,9 @@ ms.locfileid: "104558260"
 
 ## <a name="downloading-the-sample"></a>Загрузка образца
 
-Этот пример доступен в [репозитории GitHub с классическими примерами Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/VideoThumbnail).
+этот пример доступен в [репозитории github для классических примеров Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/VideoThumbnail).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

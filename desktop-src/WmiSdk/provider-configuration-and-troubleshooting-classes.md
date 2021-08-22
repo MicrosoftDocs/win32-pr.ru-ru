@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Классы для настройки и устранения неполадок поставщика
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be63fb5693898541bffae2abcb05b7595ae7fc9d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 77d37443047e9bbde709fc1c7367f0691d16215eff62e39196987b466aea0830
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050502"
 ---
 # <a name="provider-configuration-and-troubleshooting-classes"></a>Классы для настройки и устранения неполадок поставщика
 
@@ -25,11 +25,11 @@ ms.locfileid: "105712107"
 
 [Классы устранения неполадок WMI](wmi-troubleshooting-classes.md) называются, чтобы указать, срабатывает ли событие до или после события поставщика. Например, [**\_ \_ \_ Предварительный объект MSFT события AccessCheck**](/previous-versions/windows/desktop/wmisystemprov/msft-wmiprovider-accesscheck-pre) создается непосредственно перед вызовом реализации поставщика **ивбемевентсекурити:: AccessCheck**, а объект [**MSFT \_ события \_ AccessCheck \_**](/previous-versions/windows/desktop/wmisystemprov/msft-wmiprovider-accesscheck-post) вызывается сразу после.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Устранение неполадок WMI](wmi-troubleshooting.md).
+[Устранение неполадок WMI](wmi-troubleshooting.md)
 </dt> <dt>
 
 [Классы устранения неполадок WMI](wmi-troubleshooting-classes.md)

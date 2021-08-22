@@ -5,12 +5,12 @@ ms.assetid: 081199AD-1702-4EC8-95AD-B1148C676199
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e4fae3489d54ab7b6b7abfda56f54dd8d970962
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 15bb5893e944c5d495cf91fdb334bd6ab5f755b7f1e200648242cb46b281f695
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104549043"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119045780"
 ---
 # <a name="direct3d-12-conservative-rasterization"></a>Консервативная растрирование Direct3D 12
 
@@ -36,7 +36,7 @@ ms.locfileid: "104549043"
     -   [Взаимодействие Исфронтфаце](#isfrontface-interaction)
     -   [Взаимодействие режимов заливки](#fill-modes-interaction)
 -   [Сведения о реализации](#implementation-details)
--   [Сводка по API](#api-summary)
+-   [Сводные данные API](#api-summary)
 -   [Связанные темы](#related-topics)
 
 ## <a name="overview"></a>Обзор
@@ -209,15 +209,15 @@ ms.locfileid: "104549043"
 [Дополнительные обучающие видеоматериалы по DirectX: консервативная растрирование](https://www.youtube.com/watch?v=zL0oSY_YmDY)
 </dt> <dt>
 
-[Упорядоченные представления средства прорисовки](rasterizer-order-views.md)
+[Упорядоченные представления средства программной прорисовки](rasterizer-order-views.md)
 </dt> <dt>
 
 [Отрисовка](rendering.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

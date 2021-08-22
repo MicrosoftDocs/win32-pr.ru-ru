@@ -1,19 +1,19 @@
 ---
-description: В следующих примерах кода показано, как выполнять следующие задачи, связанные с сообщениями Windows и очередями сообщений.
+description: в следующих примерах кода показано, как выполнять следующие задачи, связанные с Windows сообщениями и очередями сообщений.
 ms.assetid: 62b4616c-37bf-4d9f-8891-7010c7035d18
 title: Использование сообщений и очередей сообщений
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a33f422a1a7c77f2c2fcd5913f931168a350a26
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee617f2c48325eccf5a2fdb07741bb88b47738dea812d372acda1454c9dd3d9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105656611"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028342"
 ---
 # <a name="using-messages-and-message-queues"></a>Использование сообщений и очередей сообщений
 
-В следующих примерах кода показано, как выполнять следующие задачи, связанные с сообщениями Windows и очередями сообщений.
+в следующих примерах кода показано, как выполнять следующие задачи, связанные с Windows сообщениями и очередями сообщений.
 
 -   [Создание цикла обработки сообщений](#creating-a-message-loop)
 -   [Проверка очереди сообщений](#examining-a-message-queue)
@@ -26,7 +26,7 @@ ms.locfileid: "105656611"
 
 Поскольку система направляет сообщения в отдельные окна приложения, поток должен создать по крайней мере одно окно перед началом цикла обработки сообщений. Большинство приложений содержат один поток, который создает Windows. Типичное приложение регистрирует класс окна для своего главного окна, создает и отображает главное окно, а затем запускает цикл обработки сообщений — все в функции [**WinMain**](/windows/win32/api/winbase/nf-winbase-winmain) .
 
-Цикл обработки сообщений создается с помощью функций [**DispatchMessage**](/windows/win32/api/winuser/nf-winuser-dispatchmessage) и [**Message**](/windows/win32/api/winuser/nf-winuser-getmessage) . Если приложение должно получать символьные данные от пользователя, включите функцию [**TranslateMessage**](/windows/win32/api/winuser/nf-winuser-translatemessage) в цикл. **TranslateMessage** преобразует сообщения виртуального ключа в символьные сообщения. В следующем примере показан цикл обработки сообщений в функции [**WinMain**](/windows/win32/api/winbase/nf-winbase-winmain) простого приложения на основе Windows.
+Цикл обработки сообщений создается с помощью функций [**DispatchMessage**](/windows/win32/api/winuser/nf-winuser-dispatchmessage) и [**Message**](/windows/win32/api/winuser/nf-winuser-getmessage) . Если приложение должно получать символьные данные от пользователя, включите функцию [**TranslateMessage**](/windows/win32/api/winuser/nf-winuser-translatemessage) в цикл. **TranslateMessage** преобразует сообщения виртуального ключа в символьные сообщения. в следующем примере показан цикл обработки сообщений в функции [**WinMain**](/windows/win32/api/winbase/nf-winbase-winmain) простого приложения на основе Windows.
 
 
 ```

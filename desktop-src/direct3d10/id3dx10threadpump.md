@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: aecab39b655998533c80f1fff56e3f10d941f551
-ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
+ms.openlocfilehash: ef95e4087d2d50e00bf7637119038f35378b8ef1657c23ac8b7a11e62acad3a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110335658"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119046872"
 ---
 # <a name="id3dx10threadpump-interface"></a>Интерфейс ID3DX10ThreadPump
 
@@ -50,7 +50,7 @@ ms.locfileid: "110335658"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Конвейер потоков загружает и обрабатывает данные в 3-этапном процессе. Он выглядит так:
 
@@ -126,7 +126,7 @@ ms.locfileid: "110335658"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

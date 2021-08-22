@@ -4,12 +4,12 @@ ms.assetid: fb22468c-9113-46ff-a576-8dee30c458be
 title: Шаг 4. Рисование точечного рисунка в клиентской области
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4975215e5d75de9909f029a3378bd6cc8bc60916
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 253e7d8a5b7508d5ae9f27195dbb7d59b30508ff2aacd8ec2713e0f4d6c909f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104424082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951793"
 ---
 # <a name="step-4-draw-the-bitmap-on-the-client-area"></a>Шаг 4. Рисование точечного рисунка в клиентской области
 
@@ -43,9 +43,9 @@ case WM_PAINT:
 
 
 
-Переменные *pBuffer* и *пбми* объявляются на [шаге 1: создание Windows Framework](step-1--create-the-windows-framework.md), а их значения получаются на [шаге 3. Реализация функции Frame-Grabbing](step-3--implement-the-frame-grabbing-function.md).
+переменные *pBuffer* и *пбми* объявляются на [шаге 1: создание платформы Windows](step-1--create-the-windows-framework.md)и их значения, полученные на [шаге 3. реализация функции Frame-Grabbing](step-3--implement-the-frame-grabbing-function.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

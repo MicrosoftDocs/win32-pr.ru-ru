@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Ошибки с 1501 по 1510
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4866965e832c3c1b186901ecf62364bb9f2aea95
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 194ab5b28ebe95d28bc6a5aa6974c87c640acdd27a99c69a6bc6d7670f08be5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050922"
 ---
 # <a name="errors-1501-through-1510"></a>Ошибки с 1501 по 1510
 

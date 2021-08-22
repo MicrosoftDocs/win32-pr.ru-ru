@@ -1,5 +1,5 @@
 ---
-description: Метод OpenView объекта Database возвращает объект представления, представляющий запрос, заданный строкой SQL.
+description: метод OpenView объекта Database возвращает объект представления, представляющий запрос, заданный SQL строкой.
 ms.assetid: 6afb2fdb-0e6a-468f-8faf-e48d8d1960b6
 title: Метод Database. OpenView (Цертвиев. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 8dc62ca38bfe28980da71ecf63eda8e6c39aaf0a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ccc37b72dd44064172672d1067dae293da30048853f3ca83f82fb50b0a90cfaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652255"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118947527"
 ---
 # <a name="databaseopenview-method"></a>Database. OpenView, метод
 
-Метод **OpenView** объекта [**Database**](database-object.md) возвращает объект [**представления**](view-object.md) , представляющий запрос, заданный строкой SQL.
+метод **OpenView** объекта [**Database**](database-object.md) возвращает объект [**представления**](view-object.md) , представляющий запрос, заданный SQL строкой.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -42,7 +42,7 @@ Database.OpenView(
 *sql* 
 </dt> <dd>
 
-Обязательная строка запроса SQL.
+обязательный SQL строки запроса.
 
 </dd> </dl>
 
@@ -50,26 +50,26 @@ Database.OpenView(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Сведения о синтаксисе SQL, реализованном в установщике, см. в разделе [синтаксис SQL](sql-syntax.md).
+сведения о синтаксисе SQL, реализованном в установщике, см. в разделе [синтаксис SQL](sql-syntax.md).
 
 В случае сбоя метода можно получить расширенные сведения об ошибке с помощью метода [**ластерроррекорд**](installer-lasterrorrecord.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. установщик Windows в Windows Server 2003 или Windows XP<br/> |
-| Header<br/>  | <dl> <dt>Цертвиев. h</dt> </dl>                                                                                                                                                                   |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP<br/> |
+| Заголовок<br/>  | <dl> <dt>Цертвиев. h</dt> </dl>                                                                                                                                                                   |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |
 | IID<br/>     | IID \_ идатабасе определяется как 000C109D-0000-0000-C000-000000000046<br/>                                                                                                                                                                            |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

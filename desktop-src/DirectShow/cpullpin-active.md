@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 461f6554f828dc096029ee1e7a1832e12a7c262a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a6572ad0b415f4c1a51133d080e84a2e869787dea0c23614478b09c7b86296b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119073528"
 ---
 # <a name="cpullpinactive-method"></a>Кпуллпин. активный метод
 
@@ -56,24 +56,24 @@ HRESULT Active();
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Вызывайте этот метод, когда фильтр владельца станет активным. (Если входной ПИН-код является производным от [**кбасепин**](cbasepin.md), переопределите метод [**Кбасепин:: Active**](cbasepin-active.md) .)
 
-Перед вызовом этого метода вызовите метод [**кпуллпин:: Connect**](cpullpin-connect.md) , чтобы установить соединение с выходным закреплением.
+перед вызовом этого метода вызовите метод [**кпуллпин:: Подключение**](cpullpin-connect.md) , чтобы установить соединение с выходным закреплением.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Пуллпин. h</dt> </dl>                                                                                                       |
+| Заголовок<br/>  | <dl> <dt>Пуллпин. h</dt> </dl>                                                                                                       |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,6 +1,6 @@
 ---
 title: Условия фильтрации, доступные на каждом слое фильтрации (Фвпму. h)
-description: Механизм фильтрации платформы фильтрации Windows (WFP) поддерживает разные наборы условий фильтрации на каждом из уровней фильтрации.
+description: механизм фильтрации Windows фильтрации платформы (WFP) поддерживает разные наборы условий фильтрации на каждом из уровней фильтрации.
 ms.assetid: 6faace21-44ec-49dd-8e77-e403c258c14a
 topic_type:
 - apiref
@@ -44,16 +44,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fd0c3806c7c3c7a5fa7f10af0e5e11c212bd93e3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c66aaceadec9a04e926806cf95859ffff2e4fa542b592edb4a11608a621a3338
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951203"
 ---
 # <a name="filtering-conditions-available-at-each-filtering-layer"></a>Условия фильтрации, доступные на каждом слое фильтрации
 
-Механизм фильтрации платформы фильтрации Windows (WFP) поддерживает разные наборы условий фильтрации на каждом из уровней фильтрации.
+механизм фильтрации Windows фильтрации платформы (WFP) поддерживает разные наборы условий фильтрации на каждом из уровней фильтрации.
 
 Список условий фильтрации, доступных на каждом уровне, выглядит следующим образом.
 
@@ -88,7 +88,7 @@ ms.locfileid: "103988182"
 - FWPM_CONDITION_IP_SOURCE_ADDRESS
 - FWPM_CONDITION_SOURCE_INTERFACE_INDEX
 - FWPM_CONDITION_SOURCE_SUB_INTERFACE_INDEX
-###  <a name="windows-7--and-later"></a>Windows 7 и более поздние версии
+###  <a name="windows-7--and-later"></a>Windows 7 и более поздних версий
 - FWPM_CONDITION_IP_PHYSICAL_ARRIVAL_INTERFACE 
 - FWPM_CONDITION_IP_PHYSICAL_NEXTHOP_INTERFACE
 - FWPM_CONDITION_ARRIVAL_INTERFACE_PROFILE_ID
@@ -106,7 +106,7 @@ ms.locfileid: "103988182"
 - FWPM_CONDITION_IP_REMOTE_PORT
 - FWPM_CONDITION_SUB_INTERFACE_INDEX
 - FWPM_CONDITION_TUNNEL_TYPE
-###  <a name="windows-7--and-later"></a>Windows 7 и более поздние версии
+###  <a name="windows-7--and-later"></a>Windows 7 и более поздних версий
 - FWPM_CONDITION_CURRENT_PROFILE_ID
 ## <a name="fwpm_layer_outbound_transport_v4--fwpm_layer_outbound_transport_v4_discard--fwpm_layer_outbound_transport_v6--fwpm_layer_outbound_transport_v6_discard"></a>FWPM_LAYER_OUTBOUND_TRANSPORT_V4/FWPM_LAYER_OUTBOUND_TRANSPORT_V4_DISCARD/FWPM_LAYER_OUTBOUND_TRANSPORT_V6/FWPM_LAYER_OUTBOUND_TRANSPORT_V6_DISCARD
 - FWPM_CONDITION_FLAGS
@@ -122,7 +122,7 @@ ms.locfileid: "103988182"
 - FWPM_CONDITION_IP_REMOTE_PORT
 - FWPM_CONDITION_SUB_INTERFACE_INDEX
 - FWPM_CONDITION_TUNNEL_TYPE
-###  <a name="windows-7--and-later"></a>Windows 7 и более поздние версии
+###  <a name="windows-7--and-later"></a>Windows 7 и более поздних версий
 - FWPM_CONDITION_CURRENT_PROFILE_ID
 ## <a name="fwpm_layer_stream_v4--fwpm_layer_stream_v4_discard--fwpm_layer_stream_v6--fwpm_layer_stream_v6_discard"></a>FWPM_LAYER_STREAM_V4/FWPM_LAYER_STREAM_V4_DISCARD/FWPM_LAYER_STREAM_V6/FWPM_LAYER_STREAM_V6_DISCARD
 - FWPM_CONDITION_DIRECTION
@@ -147,7 +147,7 @@ ms.locfileid: "103988182"
 - FWPM_CONDITION_SUB_INTERFACE_INDEX
 - FWPM_CONDITION_TUNNEL_TYPE
 ## <a name="fwpm_layer_stream_packet-v4--fwpm_layer_stream_packet-v6"></a>FWPM_LAYER_STREAM_PACKET V4/FWPM_LAYER_STREAM_PACKET V6
-###  <a name="windows-7--and-later"></a>Windows 7 и более поздние версии
+###  <a name="windows-7--and-later"></a>Windows 7 и более поздних версий
 - FWPM_CONDITION_DIRECTION
 - FWPM_CONDITION_FLAGS
 - FWPM_CONDITION_INTERFACE_INDEX
@@ -162,7 +162,7 @@ ms.locfileid: "103988182"
 ## <a name="fwpm_layer_inbound_icmp_error_v4--fwpm_layer_inbound_icmp_error_v4_discard--fwpm_layer_inbound_icmp_error_v6--fwpm_layer_inbound_icmp_error_v6_discard"></a>FWPM_LAYER_INBOUND_ICMP_ERROR_V4/FWPM_LAYER_INBOUND_ICMP_ERROR_V4_DISCARD/FWPM_LAYER_INBOUND_ICMP_ERROR_V6/FWPM_LAYER_INBOUND_ICMP_ERROR_V6_DISCARD
 - FWPM_CONDITION_ARRIVAL_INTERFACE_INDEX
 - FWPM_CONDITION_ARRIVAL_INTERFACE_TYPE
-- FWPM_CONDITION_ARRIVAL_SUB_INTERFACE_INDEX **Windows Vista или Windows 7:** FWPM_CONDITION_SUB_INTERFACE_INDEX
+- FWPM_CONDITION_ARRIVAL_SUB_INTERFACE_INDEX **Windows Vista/Windows 7:** FWPM_CONDITION_SUB_INTERFACE_INDEX
 - FWPM_CONDITION_ARRIVAL_TUNNEL_TYPE
 - FWPM_CONDITION_FLAGS
 - FWPM_CONDITION_ICMP_CODE
@@ -177,10 +177,10 @@ ms.locfileid: "103988182"
 - FWPM_CONDITION_IP_LOCAL_ADDRESS
 - FWPM_CONDITION_IP_LOCAL_INTERFACE
 - FWPM_CONDITION_IP_REMOTE_ADDRESS
-- FWPM_CONDITION_LOCAL_INTERFACE_INDEX **Windows Vista или Windows 7:** FWPM_CONDITION_INTERFACE_INDEX
-- FWPM_CONDITION_LOCAL_INTERFACE_TYPE **Windows Vista или Windows 7:** FWPM_CONDITION_INTERFACE_TYPE
-- FWPM_CONDITION_LOCAL_TUNNEL_TYPE **Windows Vista или Windows 7:** FWPM_CONDITION_TUNNEL_TYPE
-###  <a name="windows-7--and-later"></a>Windows 7 и более поздние версии
+- FWPM_CONDITION_LOCAL_INTERFACE_INDEX **Windows Vista/Windows 7:** FWPM_CONDITION_INTERFACE_INDEX
+- FWPM_CONDITION_LOCAL_INTERFACE_TYPE **Windows Vista/Windows 7:** FWPM_CONDITION_INTERFACE_TYPE
+- FWPM_CONDITION_LOCAL_TUNNEL_TYPE **Windows Vista/Windows 7:** FWPM_CONDITION_TUNNEL_TYPE
+###  <a name="windows-7--and-later"></a>Windows 7 и более поздних версий
 - FWPM_CONDITION_ARRIVAL_INTERFACE_PROFILE_ID
 ## <a name="fwpm_layer_outbound_icmp_error_v4--fwpm_layer_outbound_icmp_error_v4_discard--fwpm_layer_outbound_icmp_error_v6--fwpm_layer_outbound_icmp_error_v6_discard"></a>FWPM_LAYER_OUTBOUND_ICMP_ERROR_V4/FWPM_LAYER_OUTBOUND_ICMP_ERROR_V4_DISCARD/FWPM_LAYER_OUTBOUND_ICMP_ERROR_V6/FWPM_LAYER_OUTBOUND_ICMP_ERROR_V6_DISCARD
 - FWPM_CONDITION_FLAGS
@@ -195,10 +195,10 @@ ms.locfileid: "103988182"
 - FWPM_CONDITION_IP_REMOTE_ADDRESS
 - FWPM_CONDITION_SUB_INTERFACE_INDEX
 - FWPM_CONDITION_TUNNEL_TYPE
-###  <a name="windows-7--and-later"></a>Windows 7 и более поздние версии
+###  <a name="windows-7--and-later"></a>Windows 7 и более поздних версий
 - FWPM_CONDITION_NEXTHOP_INTERFACE_PROFILE_ID
 ## <a name="fwpm_layer_ale_bind_redirect_v4--fwpm_layer_ale_bind_redirect-v6"></a>FWPM_LAYER_ALE_BIND_REDIRECT_V4 И FWPM_LAYER_ALE_BIND_REDIRECT V6
-###  <a name="windows-7--and-later"></a>Windows 7 и более поздние версии
+###  <a name="windows-7--and-later"></a>Windows 7 и более поздних версий
 - FWPM_CONDITION_ALE_APP_ID
 - FWPM_CONDITION_ALE_USER_ID
 - FWPM_CONDITION_FLAGS
@@ -206,7 +206,7 @@ ms.locfileid: "103988182"
 - FWPM_CONDITION_IP_LOCAL_ADDRESS_TYPE
 - FWPM_CONDITION_IP_LOCAL_PORT
 - FWPM_CONDITION_IP_PROTOCOL
-###  <a name="windows-8--and-later"></a>Windows 8 и более поздние версии
+###  <a name="windows-8--and-later"></a>Windows 8 и более поздних версий
 - FWPM_CONDITION_ALE_PACKAGE_ID
 ## <a name="fwpm_layer_ale_resource_assignment_v4--fwpm_layer_ale_resource_assignment_v4_discard--fwpm_layer_ale_resource_assignment_v6--fwpm_layer_ale_resource_assignment_v6_discard"></a>FWPM_LAYER_ALE_RESOURCE_ASSIGNMENT_V4/FWPM_LAYER_ALE_RESOURCE_ASSIGNMENT_V4_DISCARD/FWPM_LAYER_ALE_RESOURCE_ASSIGNMENT_V6/FWPM_LAYER_ALE_RESOURCE_ASSIGNMENT_V6_DISCARD
 - FWPM_CONDITION_ALE_APP_ID
@@ -220,13 +220,13 @@ ms.locfileid: "103988182"
 - FWPM_CONDITION_IP_LOCAL_PORT
 - FWPM_CONDITION_IP_PROTOCOL
 - FWPM_CONDITION_TUNNEL_TYPE
-###  <a name="windows-7--and-later"></a>Windows 7 и более поздние версии
+###  <a name="windows-7--and-later"></a>Windows 7 и более поздних версий
 - FWPM_CONDITION_LOCAL_INTERFACE_PROFILE_ID
 - FWPM_CONDITION_ALE_SIO_FIREWALL_SYSTEM_PORT
-###  <a name="windows-8--and-later"></a>Windows 8 и более поздние версии
+###  <a name="windows-8--and-later"></a>Windows 8 и более поздних версий
 - FWPM_CONDITION_ALE_PACKAGE_ID
 ## <a name="fwpm_layer_ale_resource_release_v4--fwpm_layer_ale_resource_release_v6"></a>FWPM_LAYER_ALE_RESOURCE_RELEASE_V4 И FWPM_LAYER_ALE_RESOURCE_RELEASE_V6
-###  <a name="windows-7--and-later"></a>Windows 7 и более поздние версии
+###  <a name="windows-7--and-later"></a>Windows 7 и более поздних версий
 - FWPM_CONDITION_ALE_APP_ID
 - FWPM_CONDITION_ALE_USER_ID
 - FWPM_CONDITION_FLAGS
@@ -235,10 +235,10 @@ ms.locfileid: "103988182"
 - FWPM_CONDITION_IP_LOCAL_INTERFACE
 - FWPM_CONDITION_IP_LOCAL_PORT
 - FWPM_CONDITION_IP_PROTOCOL
-###  <a name="windows-8--and-later"></a>Windows 8 и более поздние версии
+###  <a name="windows-8--and-later"></a>Windows 8 и более поздних версий
 - FWPM_CONDITION_ALE_PACKAGE_ID
 ## <a name="fwpm_layer_ale_endpoint_closure_v4--fwpm_layer_ale_endpoint_closure_v6"></a>FWPM_LAYER_ALE_ENDPOINT_CLOSURE_V4 И FWPM_LAYER_ALE_ENDPOINT_CLOSURE_V6
-###  <a name="windows-7--and-later"></a>Windows 7 и более поздние версии
+###  <a name="windows-7--and-later"></a>Windows 7 и более поздних версий
 - FWPM_CONDITION_ALE_APP_ID
 - FWPM_CONDITION_ALE_USER_ID
 - FWPM_CONDITION_FLAGS
@@ -249,7 +249,7 @@ ms.locfileid: "103988182"
 - FWPM_CONDITION_IP_PROTOCOL
 - FWPM_CONDITION_IP_REMOTE_ADDRESS
 - FWPM_CONDITION_IP_REMOTE_PORT
-###  <a name="windows-8--and-later"></a>Windows 8 и более поздние версии
+###  <a name="windows-8--and-later"></a>Windows 8 и более поздних версий
 - FWPM_CONDITION_ALE_PACKAGE_ID
 ## <a name="fwpm_layer_ale_auth_listen_v4--fwpm_layer_ale_auth_listen_v4_discard--fwpm_layer_ale_auth_listen_v6--fwpm_layer_ale_auth_listen_v6_discard"></a>FWPM_LAYER_ALE_AUTH_LISTEN_V4/FWPM_LAYER_ALE_AUTH_LISTEN_V4_DISCARD/FWPM_LAYER_ALE_AUTH_LISTEN_V6/FWPM_LAYER_ALE_AUTH_LISTEN_V6_DISCARD
 - FWPM_CONDITION_ALE_APP_ID
@@ -261,10 +261,10 @@ ms.locfileid: "103988182"
 - FWPM_CONDITION_IP_LOCAL_INTERFACE
 - FWPM_CONDITION_IP_LOCAL_PORT
 - FWPM_CONDITION_TUNNEL_TYPE
-###  <a name="windows-7--and-later"></a>Windows 7 и более поздние версии
+###  <a name="windows-7--and-later"></a>Windows 7 и более поздних версий
 - FWPM_CONDITION_LOCAL_INTERFACE_PROFILE_ID
 - FWPM_CONDITION_ALE_SIO_FIREWALL_SYSTEM_PORT
-###  <a name="windows-8--and-later"></a>Windows 8 и более поздние версии
+###  <a name="windows-8--and-later"></a>Windows 8 и более поздних версий
 - FWPM_CONDITION_ALE_PACKAGE_ID
 ## <a name="fwpm_layer_ale_auth_recv_accept_v4--fwpm_layer_ale_auth_recv_accept_v4_discard--fwpm_layer_ale_auth_recv_accept_v6--fwpm_layer_ale_auth_recv_accept_v6_discard"></a>FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V4/FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V4_DISCARD/FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6/FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6_DISCARD
 - FWPM_CONDITION_ALE_APP_ID
@@ -275,7 +275,7 @@ ms.locfileid: "103988182"
 - FWPM_CONDITION_ALE_USER_ID
 - FWPM_CONDITION_ARRIVAL_INTERFACE_INDEX
 - FWPM_CONDITION_ARRIVAL_INTERFACE_TYPE
-- FWPM_CONDITION_ARRIVAL_SUB_INTERFACE_INDEX **Windows Vista или Windows 7:** FWPM_CONDITION_SUB_INTERFACE_INDEX
+- FWPM_CONDITION_ARRIVAL_SUB_INTERFACE_INDEX **Windows Vista/Windows 7:** FWPM_CONDITION_SUB_INTERFACE_INDEX
 - FWPM_CONDITION_ARRIVAL_TUNNEL_TYPE
 - FWPM_CONDITION_FLAGS
 - FWPM_CONDITION_IP_ARRIVAL_INTERFACE
@@ -286,10 +286,10 @@ ms.locfileid: "103988182"
 - FWPM_CONDITION_IP_PROTOCOL
 - FWPM_CONDITION_IP_REMOTE_ADDRESS
 - FWPM_CONDITION_IP_REMOTE_PORT
-- FWPM_CONDITION_LOCAL_INTERFACE_INDEX **Windows Vista или Windows 7:** FWPM_CONDITION_INTERFACE_INDEX
-- FWPM_CONDITION_LOCAL_INTERFACE_TYPE **Windows Vista или Windows 7:** FWPM_CONDITION_INTERFACE_TYPE
-- FWPM_CONDITION_LOCAL_TUNNEL_TYPE **Windows Vista или Windows 7:** FWPM_CONDITION_TUNNEL_TYPE
-###  <a name="windows-7--and-later"></a>Windows 7 и более поздние версии
+- FWPM_CONDITION_LOCAL_INTERFACE_INDEX **Windows Vista/Windows 7:** FWPM_CONDITION_INTERFACE_INDEX
+- FWPM_CONDITION_LOCAL_INTERFACE_TYPE **Windows Vista/Windows 7:** FWPM_CONDITION_INTERFACE_TYPE
+- FWPM_CONDITION_LOCAL_TUNNEL_TYPE **Windows Vista/Windows 7:** FWPM_CONDITION_TUNNEL_TYPE
+###  <a name="windows-7--and-later"></a>Windows 7 и более поздних версий
 - FWPM_CONDITION_NEXTHOP_SUB_INTERFACE_INDEX
 - FWPM_CONDITION_IP_NEXTHOP_INTERFACE
 - FWPM_CONDITION_NEXTHOP_INTERFACE_TYPE
@@ -299,10 +299,10 @@ ms.locfileid: "103988182"
 - FWPM_CONDITION_CURRENT_PROFILE_ID
 - FWPM_CONDITION_REAUTHORIZE_REASON
 - FWPM_CONDITION_ORIGINAL_ICMP_TYPE
-###  <a name="windows-8--and-later"></a>Windows 8 и более поздние версии
+###  <a name="windows-8--and-later"></a>Windows 8 и более поздних версий
 - FWPM_CONDITION_ALE_PACKAGE_ID
 ## <a name="fwpm_layer_ale_connect_redirect_v4--fwpm_layer_ale_connect_redirect-v6"></a>FWPM_LAYER_ALE_CONNECT_REDIRECT_V4 И FWPM_LAYER_ALE_CONNECT_REDIRECT V6
-###  <a name="windows-7--and-later"></a>Windows 7 и более поздние версии
+###  <a name="windows-7--and-later"></a>Windows 7 и более поздних версий
 - FWPM_CONDITION_ALE_APP_ID
 - FWPM_CONDITION_ALE_USER_ID
 - FWPM_CONDITION_FLAGS
@@ -313,7 +313,7 @@ ms.locfileid: "103988182"
 - FWPM_CONDITION_IP_REMOTE_PORT
 - FWPM_CONDITION_IP_REMOTE_ADDRESS
 - FWPM_CONDITION_IP_DESTINATION_ADDRESS_TYPE
-###  <a name="windows-8--and-later"></a>Windows 8 и более поздние версии
+###  <a name="windows-8--and-later"></a>Windows 8 и более поздних версий
 - FWPM_CONDITION_ALE_PACKAGE_ID
 ## <a name="fwpm_layer_ale_auth_connect_v4--fwpm_layer_ale_auth_connect_v4_discard--fwpm_layer_ale_auth_connect_v6--fwpm_layer_ale_auth_connect_v6_discard"></a>FWPM_LAYER_ALE_AUTH_CONNECT_V4/FWPM_LAYER_ALE_AUTH_CONNECT_V4_DISCARD/FWPM_LAYER_ALE_AUTH_CONNECT_V6/FWPM_LAYER_ALE_AUTH_CONNECT_V6_DISCARD
 - FWPM_CONDITION_ALE_APP_ID
@@ -335,8 +335,8 @@ ms.locfileid: "103988182"
 - FWPM_CONDITION_IP_ARRIVAL_INTERFACE
 - FWPM_CONDITION_ARRIVAL_INTERFACE_TYPE
 - FWPM_CONDITION_ARRIVAL_TUNNEL_TYPE
-- FWPM_CONDITION_ARRIVAL_INTERFACE_INDEX _sp1 и laterFWPM_CONDITION_INTERFACE_INDEX Windows Vista 
-###  <a name="windows-7--and-later"></a>Windows 7 и более поздние версии
+- FWPM_CONDITION_ARRIVAL_INTERFACE_INDEX Windows Vista _sp1 и laterFWPM_CONDITION_INTERFACE_INDEX 
+###  <a name="windows-7--and-later"></a>Windows 7 и более поздних версий
 - FWPM_CONDITION_NEXTHOP_SUB_INTERFACE_INDEX
 - FWPM_CONDITION_IP_NEXTHOP_INTERFACE
 - FWPM_CONDITION_NEXTHOP_INTERFACE_TYPE
@@ -347,7 +347,7 @@ ms.locfileid: "103988182"
 - FWPM_CONDITION_REAUTHORIZE_REASON
 - FWPM_CONDITION_PEER_NAME
 - FWPM_CONDITION_ORIGINAL_ICMP_TYPE
-###  <a name="windows-8--and-later"></a>Windows 8 и более поздние версии
+###  <a name="windows-8--and-later"></a>Windows 8 и более поздних версий
 - FWPM_CONDITION_ALE_PACKAGE_ID
 ## <a name="fwpm_layer_ale_flow_established_v4--fwpm_layer_ale_flow_established_v4_discard--fwpm_layer_ale_flow_established_v6--fwpm_layer_ale_flow_established_v6_discard"></a>FWPM_LAYER_ALE_FLOW_ESTABLISHED_V4/FWPM_LAYER_ALE_FLOW_ESTABLISHED_V4_DISCARD/FWPM_LAYER_ALE_FLOW_ESTABLISHED_V6/FWPM_LAYER_ALE_FLOW_ESTABLISHED_V6_DISCARD
 - FWPM_CONDITION_ALE_APP_ID
@@ -366,10 +366,10 @@ ms.locfileid: "103988182"
 - FWPM_CONDITION_IP_REMOTE_ADDRESS
 - FWPM_CONDITION_IP_REMOTE_PORT
 - FWPM_CONDITION_TUNNEL_TYPE
-###  <a name="windows-8--and-later"></a>Windows 8 и более поздние версии
+###  <a name="windows-8--and-later"></a>Windows 8 и более поздних версий
 - FWPM_CONDITION_ALE_PACKAGE_ID
 ## <a name="fwpm_layer_name_resolution_cache_v4--fwpm_layer_name_resolution_cache_v6"></a>FWPM_LAYER_NAME_RESOLUTION_CACHE_V4 И FWPM_LAYER_NAME_RESOLUTION_CACHE_V6
-###  <a name="windows-7--and-later"></a>Windows 7 и более поздние версии
+###  <a name="windows-7--and-later"></a>Windows 7 и более поздних версий
 - FWPM_CONDITION_ALE_USER_ID
 - FWPM_CONDITION_ALE_APP_ID
 - FWPM_CONDITION_IP_REMOTE_ADDRESS
@@ -383,13 +383,13 @@ ms.locfileid: "103988182"
 - FWPM_CONDITION_IP_PROTOCOL
 - FWPM_CONDITION_IP_REMOTE_ADDRESS
 - FWPM_CONDITION_IP_REMOTE_PORT
-###  <a name="windows-7--and-later"></a>Windows 7 и более поздние версии
+###  <a name="windows-7--and-later"></a>Windows 7 и более поздних версий
 - FWPM_CONDITION_IP_LOCAL_INTERFACE
 - FWPM_CONDITION_CURRENT_PROFILE_ID
 ## <a name="fwpm_layer_ikeext_v4--fwpm_layer_ikeext_v6"></a>FWPM_LAYER_IKEEXT_V4 И FWPM_LAYER_IKEEXT_V6
 - FWPM_CONDITION_IP_LOCAL_ADDRESS
 - FWPM_CONDITION_IP_REMOTE_ADDRESS
-###  <a name="windows-7--and-later"></a>Windows 7 и более поздние версии
+###  <a name="windows-7--and-later"></a>Windows 7 и более поздних версий
 - FWPM_CONDITION_IP_LOCAL_INTERFACE
 - FWPM_CONDITION_CURRENT_PROFILE_ID
 ## <a name="fwpm_layer_rpc_um"></a>FWPM_LAYER_RPC_UM
@@ -448,7 +448,7 @@ ms.locfileid: "103988182"
 - FWPM_CONDITION_RPC_SERVER_NAME
 - FWPM_CONDITION_RPC_SERVER_PORT
 ## <a name="fwpm_layer_km_authorization"></a>FWPM_LAYER_KM_AUTHORIZATION
-###  <a name="windows-7--and-later"></a>Windows 7 и более поздние версии
+###  <a name="windows-7--and-later"></a>Windows 7 и более поздних версий
 - FWPM_CONDITION_REMOTE_ID
 - FWPM_CONDITION_AUTHENTICATION_TYPE
 - FWPM_CONDITION_KM_TYPE
@@ -456,7 +456,7 @@ ms.locfileid: "103988182"
 - FWPM_CONDITION_DIRECTION
 - FWPM_CONDITION_IPSEC_POLICY_KEY
 ## <a name="fwpm_layer_inbound_mac_frame_ethernet--fwpm_layer_outbound_mac_frame_ethernet"></a>FWPM_LAYER_INBOUND_MAC_FRAME_ETHERNET И FWPM_LAYER_OUTBOUND_MAC_FRAME_ETHERNET
-###  <a name="windows-8--and-later"></a>Windows 8 и более поздние версии
+###  <a name="windows-8--and-later"></a>Windows 8 и более поздних версий
 - FWPM_CONDITION_INTERFACE_MAC_ADDRESS
 - FWPM_CONDITION_MAC_LOCAL_ADDRESS
 - FWPM_CONDITION_MAC_REMOTE_ADDRESS
@@ -469,7 +469,7 @@ ms.locfileid: "103988182"
 - FWPM_CONDITION_NDIS_PORT
 - FWPM_CONDITION_L2_FLAGS
 ##  <a name="fwpm_layer_inbound_mac_frame_native--fwpm_layer_outbound_mac_frame_native"></a>FWPM_LAYER_INBOUND_MAC_FRAME_NATIVE И FWPM_LAYER_OUTBOUND_MAC_FRAME_NATIVE
-###  <a name="windows-8--and-later"></a>Windows 8 и более поздние версии
+###  <a name="windows-8--and-later"></a>Windows 8 и более поздних версий
 - FWPM_CONDITION_NDIS_MEDIA_TYPE
 - FWPM_CONDITION_NDIS_PHYSICAL_MEDIA_TYPE
 - FWPM_CONDITION_INTERFACE
@@ -478,7 +478,7 @@ ms.locfileid: "103988182"
 - FWPM_CONDITION_NDIS_PORT
 - FWPM_CONDITION_L2_FLAGS
 ## <a name="fwpm_layer_egress_vswitch_ethernet--fwpm_layer_ingress_vswitch_ethernet"></a>FWPM_LAYER_EGRESS_VSWITCH_ETHERNET И FWPM_LAYER_INGRESS_VSWITCH_ETHERNET
-###  <a name="windows-8--and-later"></a>Windows 8 и более поздние версии
+###  <a name="windows-8--and-later"></a>Windows 8 и более поздних версий
 - FWPM_CONDITION_MAC_SOURCE_ADDRESS
 - FWPM_CONDITION_MAC_SOURCE_ADDRESS_TYPE
 - FWPM_CONDITION_MAC_DESTINATION_ADDRESS
@@ -493,7 +493,7 @@ ms.locfileid: "103988182"
 - FWPM_CONDITION_VSWITCH_SOURCE_VM_ID
 - FWPM_CONDITION_VSWITCH_L2_FLAGS
 ##  <a name="fwpm_layer_egress_vswitch_transport_v4--fwpm_layer_ingress_vswitch_transport_v4--fwpm_layer_egressvswitch_transport_v6--fwpm_layer_ingress_vswitch_transport_v6"></a>FWPM_LAYER_EGRESS_VSWITCH_TRANSPORT_V4/FWPM_LAYER_INGRESS_VSWITCH_TRANSPORT_V4/FWPM_LAYER_EGRESSVSWITCH_TRANSPORT_V6/FWPM_LAYER_INGRESS_VSWITCH_TRANSPORT_V6
-###  <a name="windows-8--and-later"></a>Windows 8 и более поздние версии
+###  <a name="windows-8--and-later"></a>Windows 8 и более поздних версий
 - FWPM_CONDITION_IP_SOURCE_ADDRESS
 - FWPM_CONDITION_IP_DESTINATION_ADDRESS
 - FWPM_CONDITION_IP_PROTOCOL
@@ -512,19 +512,19 @@ ms.locfileid: "103988182"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Суффиксы v4 и V6 в конце идентификаторов слоя указывают, находится ли слой в сетевом стеке IPv4 или в стеке сети IPv6.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                               |
-| Header<br/>                   | <dl> <dt>Фвпму. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                               |
+| Заголовок<br/>                   | <dl> <dt>Фвпму. h</dt> </dl> |
 
 
 

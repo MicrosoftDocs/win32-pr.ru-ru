@@ -4,12 +4,12 @@ ms.assetid: 910d6c1d-38d3-4680-b256-2bf30689ce11
 title: Аутофнорбдискспаце, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fa9cdd7c1d444e141103ca148344dd26ea1d2a5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 275eec4c78a1fe0074fe8e91f7dcab3b660cade46eb8810aa992edf6a45fb989
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118942774"
 ---
 # <a name="outofnorbdiskspace-property"></a>Аутофнорбдискспаце, свойство
 
@@ -19,13 +19,13 @@ ms.locfileid: "105652071"
 
 Свойство **аутофнорбдискспаце** является допустимым в любой момент после выполнения [действия костфинализе](costfinalize-action.md) . Состояние свойства **аутофнорбдискспаце** динамически обновляется каждый раз, когда общая стоимость установки пересчитывается (например, при каждом изменении состояния установки любой из компонентов с помощью [диалогового окна выбора](selection-dialog.md)). Действия по разрешению выбора используйте это значение для отмены установки и создания диалогового окна.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

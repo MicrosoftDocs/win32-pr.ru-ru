@@ -1,10 +1,10 @@
 ---
-title: Отзыв лицензий (клиент DRM Microsoft Windows Media)
-description: Отзыв лицензий (клиент DRM Microsoft Windows Media)
+title: отзыв лицензий (Microsoft Windows Media DRM Client)
+description: отзыв лицензий (Microsoft Windows Media DRM Client)
 ms.assetid: 615ddddf-4f2f-400d-9c4d-ff3a2851d699
 keywords:
-- Пакет SDK для Windows Media Format, лицензии
-- Пакет SDK для Windows Media Format, отзыв лицензий
+- Windows Пакет SDK для формата мультимедиа, лицензии
+- Windows Пакет SDK для формата мультимедиа, отзыв лицензий
 - Управление цифровыми правами (DRM), лицензии
 - DRM (Управление цифровыми правами), лицензии
 - Управление цифровыми правами (DRM), отзыв лицензий
@@ -17,14 +17,14 @@ keywords:
 - Отзыв лицензий, сведения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90388a7392c79f583143e06fb78ecfe45e188612
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 5f3cd295ddc1aec40c04f5284d791d7482854208a17875bdd3ed60d998f4ccf9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104273192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027842"
 ---
-# <a name="license-revocation-microsoft-windows-media-drm-client"></a>Отзыв лицензий (клиент DRM Microsoft Windows Media)
+# <a name="license-revocation-microsoft-windows-media-drm-client"></a>отзыв лицензий (Microsoft Windows Media DRM Client)
 
 Отзыв лицензии означает удаление лицензий из локального хранилища лицензий. Распространенный сценарий отзыва лицензий возникает, когда поставщик услуг, например служба подписки на музыку, должен отключить службу на компьютере пользователя.
 
@@ -39,7 +39,7 @@ ms.locfileid: "104273192"
 
 Дополнительные сведения о том, как работает отзыв лицензий, а также о том, как создать службу отзыва, см. в разделе [Реализация отзыва лицензий](/documentation/?url=%2flibrary%2fwmrm10%2fhtm%2fhowlicenserevokationworks.asp).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

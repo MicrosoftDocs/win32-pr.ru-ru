@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Свойства системы CIM для объектов MIB
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f0425afecc399c3cd1399e8bf565908b1c7c5d2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8448cbfa086b44542a4fee065599ef3fc1167454a2633f92b9268e3c06766958
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712112"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118820079"
 ---
 # <a name="cim-system-properties-for-mib-objects"></a>Свойства системы CIM для объектов MIB
 
@@ -43,7 +43,7 @@ WMI определяет набор системных свойств, кото�
 </tr>
 <tr class="odd">
 <td><strong>__GENUS</strong></td>
-<td><strong>UInt32</strong> Заполнен<br/> Тип объекта. Доступны следующие значения:<br/> <dl> 1 = класс<br />
+<td><strong>UInt32</strong> Заполнен<br/> Тип объекта. Возможны следующие значения.<br/> <dl> 1 = класс<br />
 2 = экземпляр<br />
 </dl></td>
 </tr>

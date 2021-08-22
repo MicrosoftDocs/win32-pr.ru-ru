@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 98eb602e7a882d4c202b4a81aefec9c31105ca0d
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: b470e9a0e1bc22a06f690cc9577944d73aab9d7381fc38102e5b0489e00c04de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105684963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119058982"
 ---
 # <a name="imsrdpclientadvancedsettingsrdpdrlocalprintingdocname-property"></a>Свойство Имсрдпклиентадванцедсеттингс:: Рдпдрлокалпринтингдокнаме
 
@@ -90,7 +90,7 @@ HRESULT get_RdpdrLocalPrintingDocName(
 
 Возвращает **\_ значение false**.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -105,7 +105,7 @@ HRESULT get_RdpdrLocalPrintingDocName(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ description: Определяет свойство UI \_ PKEY \_ фонтпро�
 ms.assetid: bd426910-9852-48e1-91c8-b94be5ef7199
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ae991cfe5f91b4aca4fe0b49a7b7c547e71b0fb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a9c013c41290f6e062b03572a9e3cb848752efcb12f1c779348a0253f94d40e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105681382"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028632"
 ---
 # <a name="ui_pkey_fontproperties_size"></a>\_ \_ Размер фонтпропертиес пользовательского интерфейса PKEY \_
 
@@ -17,15 +17,15 @@ ms.locfileid: "105681382"
 
 ```
 propertyDescription
-   name = UI_PKEY_FontProperties_Size
-   shellPKey = UI_PKEY_FontProperties_Size
-   formatID = 00000302-7363-696e-8441798acf5aebb7
-   propID = 302
-   typeInfo
-      type = VT_DECIMAL
+   name = UI_PKEY_FontProperties_Size
+   shellPKey = UI_PKEY_FontProperties_Size
+   formatID = 00000302-7363-696e-8441798acf5aebb7
+   propID = 302
+   typeInfo
+      type = VT_DECIMAL
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 \_ \_ Размер фонтпропертиес UI PKEY \_ используется приложением для запроса значения элемента управления **размером шрифта** .
 
@@ -44,11 +44,11 @@ propertyDescription
 > [!Note]  
 > Элемент управления " **Размер шрифта** " имеет значение "пусто", если размер шрифта программным образом имеет значение 0, например при выделении хетероженеаусли размера текста.
 
- 
+ 
 
 Если выбрано выполнение хетероженеаусли размера текста, приложение должно запрашивать [UI \_ PKEY \_ фонтпропертиес \_ делтасизе](windowsribbon-reference-properties-uipkey-fontproperties-deltasize.md) для захвата команд " **увеличить шрифт** " и " **Сжать шрифт** ".
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -58,9 +58,9 @@ propertyDescription
 [Элемент управления шрифтами](windowsribbon-controls-fontcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

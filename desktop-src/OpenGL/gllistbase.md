@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c46af03477afc1b656df3a321fd8aa652b034b35
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4ba7cbe7b179184efa739ac3492f4e74b36f56abe0f02498a0e1a688b85183a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118938521"
 ---
 # <a name="gllistbase-function"></a>Функция Гллистбасе
 
@@ -63,7 +63,7 @@ void WINAPI glListBase(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **гллистбасе** задает массив смещений. Имена отображаемых списков создаются путем добавления *базовых* для каждого смещения. Имена, которые ссылаются на допустимые списки вывода, выполняются; другие игнорируются.
 
@@ -71,7 +71,7 @@ void WINAPI glListBase(
 
 [**глжет**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) с аргументом \_ base GL List \_
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -85,7 +85,7 @@ void WINAPI glListBase(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

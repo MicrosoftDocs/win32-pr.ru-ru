@@ -4,12 +4,12 @@ ms.assetid: 70FFDD44-9FDE-4D86-AD65-60019AC4A2BC
 title: Атрибут MF_MEDIA_ENGINE_VIDEO_OUTPUT_FORMAT (Мфмедиаенгине. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 004025da1ad5258e5b04a3afba4a359f50f7444c
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: eaa0dab3c3ea1c9ce23d767458df0b68a9b3c787f80ca1af786061536343a356
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103820204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973733"
 ---
 # <a name="mf_media_engine_video_output_format-attribute"></a>\_ \_ \_ \_ Атрибут формата вывода видео для ОБРАБОТЧИКа передачи мультимедиа MF \_
 
@@ -19,7 +19,7 @@ ms.locfileid: "103820204"
 
 **DXGI \_ ФОРМАТ** хранится как **UINT32**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Установите этот атрибут при создании подсистемы мультимедиа в режиме "Frame-Server". Дополнительные сведения см. в разделе [**имфмедиаенгинеклассфактори:: CreateInstance**](/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineclassfactory-createinstance). Значением атрибута является значение [ \_ формата DXGI](../direct3d9/d3dformat.md) .
 
@@ -29,9 +29,9 @@ ms.locfileid: "103820204"
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8 \|\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 \|\]<br/>                                |
-| Header<br/>                   | <dl> <dt>Мфмедиаенгине. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ приложения UWP для классических приложений \|\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ приложения UWP для классических приложений \|\]<br/>                                |
+| Заголовок<br/>                   | <dl> <dt>Мфмедиаенгине. h</dt> </dl> |
 
 
 

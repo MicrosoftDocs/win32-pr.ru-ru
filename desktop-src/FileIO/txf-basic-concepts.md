@@ -4,12 +4,12 @@ ms.assetid: 18579c4a-a832-4c89-8fb1-cd2542e4375e
 title: Основные понятия TxF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7f2f5d0885795f20a8dfb5e0963468ff04bb8e0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c71b2ed4e906fab881fac93a686dcf3aff6e8a95fa72d785ef14320ef92c05ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104347822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950973"
 ---
 # <a name="basic-txf-concepts"></a>Основные понятия TxF
 

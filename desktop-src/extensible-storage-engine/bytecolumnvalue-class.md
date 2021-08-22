@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a79f3f382ee58465bb70d71b00e0ac79c67b1bc3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78ddaa281a65ed01030bcc97312f4fcf64c001a3f0ad976f771c64b46ddab4b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105719736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119042512"
 ---
 # <a name="bytecolumnvalue-class"></a>Класс Битеколумнвалуе
 
@@ -63,7 +63,7 @@ public class ByteColumnValue : ColumnValueOfStruct<byte>
 
 Любые общедоступные статичные (общие в Visual Basic) члены этого типа являются потокобезопасными. Потокобезопасная работа с членами экземпляров типа не гарантируется.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

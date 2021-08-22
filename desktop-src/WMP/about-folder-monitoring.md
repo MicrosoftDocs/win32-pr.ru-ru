@@ -3,31 +3,31 @@ title: О мониторинге папок
 description: О мониторинге папок
 ms.assetid: d3d83e60-ecc7-4501-a6dd-15f7680a6ec9
 keywords:
-- Проигрыватель Windows Media, мониторинг папок
-- Объектная модель проигрывателя Windows Media, мониторинг папок
+- проигрыватель Windows Media, мониторинг папок
+- проигрыватель Windows Media объектной модели, мониторинг папок
 - Объектная модель, мониторинг папок
-- Элемент управления ActiveX проигрывателя Windows Media, мониторинг папок
-- Элемент управления ActiveX, мониторинг папок
-- Элемент управления ActiveX мобильных устройств проигрывателя Windows Media, мониторинг папок
-- Проигрыватель Windows Media Mobile, мониторинг папок
+- проигрыватель Windows Media ActiveX элемент управления, мониторинг папок
+- контроль ActiveX, мониторинг папок
+- проигрыватель Windows Media управление мобильными ActiveXми, мониторинг папок
+- проигрыватель Windows Media Мобильные устройства, мониторинг папок
 - мониторинг папок
 - мониторинг папок
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c3d6af341df706cd85c4158197b27babad09c86
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: b1206defcdc387659567ceedcf7347a3ab99ca45d9926a9bd32c4f75280a8a46
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104412474"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055512"
 ---
 # <a name="about-folder-monitoring"></a>О мониторинге папок
 
-Проигрыватель Windows Media может отслеживать папки, содержащие цифровые файлы мультимедиа, и обновлять библиотеку при добавлении или удалении файлов. Эта функция мониторинга папок обеспечивается интерфейсом [ивмпфолдермониторсервицес](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpfoldermonitorservices) .
+проигрыватель Windows Media может отслеживать папки, содержащие цифровые файлы мультимедиа, и обновлять библиотеку при добавлении или удалении файлов. Эта функция мониторинга папок обеспечивается интерфейсом [ивмпфолдермониторсервицес](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpfoldermonitorservices) .
 
-Чтобы использовать службы наблюдения за папками, необходимо создать объект Player в удаленном состоянии. Дополнительные сведения об удаленном взаимодействии см. [в разделе Удаленное взаимодействие с элементом управления проигрывателя Windows Media](remoting-the-windows-media-player-control.md). После создания удаленного экземпляра проигрывателя получите указатель на интерфейс **ивмпфолдермониторсервицес** , вызвав **QueryInterface** в интерфейсе [ивмпплайер](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpplayer) .
+Чтобы использовать службы наблюдения за папками, необходимо создать объект Player в удаленном состоянии. дополнительные сведения об удаленном взаимодействии см. [в разделе удаленное взаимодействие элемента управления проигрыватель Windows Media](remoting-the-windows-media-player-control.md). После создания удаленного экземпляра проигрывателя получите указатель на интерфейс **ивмпфолдермониторсервицес** , вызвав **QueryInterface** в интерфейсе [ивмпплайер](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpplayer) .
 
-Проигрыватель Windows Media хранит список отслеживаемых папок. Чтобы получить список наблюдаемых папок, используйте методы [ивмпфолдермониторсервицес:: Get \_ Count](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-get_count) и [ивмпфолдермониторсервицес:: Item](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-item) . Чтобы добавить папки в список или удалить их из списка, используйте методы [ивмпфолдермониторсервицес:: Add](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-add) и [Remove](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-remove) соответственно.
+проигрыватель Windows Media сохранит список отслеживаемых папок. Чтобы получить список наблюдаемых папок, используйте методы [ивмпфолдермониторсервицес:: Get \_ Count](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-get_count) и [ивмпфолдермониторсервицес:: Item](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-item) . Чтобы добавить папки в список или удалить их из списка, используйте методы [ивмпфолдермониторсервицес:: Add](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-add) и [Remove](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-remove) соответственно.
 
 **Запуск проверки**
 
@@ -45,7 +45,7 @@ ms.locfileid: "104412474"
 
 После запуска второго прохода вызовите [Get \_ аддедфилескаунт](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-get_addedfilescount) , чтобы проверить, сколько файлов было добавлено в библиотеку. Метод [Get \_ updateProgress](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-get_updateprogress) сообщит о ходе выполнения второго прохода в процентах от 0 до 100.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -55,9 +55,9 @@ ms.locfileid: "104412474"
 [**Интерфейс Ивмпфолдермониторсервицес**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpfoldermonitorservices)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

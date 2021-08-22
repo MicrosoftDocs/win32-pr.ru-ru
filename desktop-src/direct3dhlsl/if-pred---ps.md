@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ead7c5936550715d48ee1ef6a3938b6219558823
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: a1a9e1c531e5dc6cd76bdd220a94730f2fb7b859eb99d9bba217a008fb02b4c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103784911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118511920"
 ---
 # <a name="if-pred---ps"></a>Если пред-PS
 
@@ -29,7 +29,7 @@ ms.locfileid: "103784911"
 
 
 
- 
+ 
 
 Где:
 
@@ -37,7 +37,7 @@ ms.locfileid: "103784911"
 -   "пред" является [регистром предиката](dx9-graphics-reference-asm-ps-registers-predicate.md).
 -   Репликатесвиззле — это один компонент, который копируется (или реплицируется) во все четыре компонента (свиззлед). Допустимые компоненты: \[ x, y, z, w \] или \[ r, g, b, a \] .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -47,7 +47,7 @@ ms.locfileid: "103784911"
 
 
 
- 
+ 
 
 Эта инструкция используется для пропуска блока кода на основе канала регистра предиката. Каждый, если \_ пред-блок должен завершаться инструкцией [else – PS](else---ps.md) или [endif-PS](endif---ps.md) .
 
@@ -57,16 +57,16 @@ ms.locfileid: "103784911"
 
 Блок «Если//// \_ » не может помешать блоку цикла; он должен быть полностью внутри него или заключаться в него.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера пикселей](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,7 +4,7 @@ description: Просмотр данных, передаваемых в обра
 ms.assetid: 6C9AAF1E-7566-43EE-A100-5112E9B8878C
 keywords:
 - MPSCAN_DATA структуры устаревшие функции среды Windows
-- Функции PMPSCAN_DATA указателя структур в устаревшей среде Windows
+- функции PMPSCAN_DATA Windows указателя структур в устаревшей среде
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e78508313f102e2baad19cf359a5c3a7c172db0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5b7c00357b8f104fff42b94de552d52979c364dee64a82bb8e438946319c8c13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104493059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975994"
 ---
 # <a name="mpscan_data-structure"></a>\_Структура данных мпскан
 
@@ -96,9 +96,9 @@ typedef struct tagMPSCAN_DATA {
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
 
 
 

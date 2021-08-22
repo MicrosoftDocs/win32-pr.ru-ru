@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 785fa3c973e7f90eeab20bd76826b9e5bf612891
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 43c561e6c848380326151af12aebf584fb53eb7332c8e6c0d61074da03f7d3de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119007342"
 ---
 # <a name="extendedkeyusageispresent-property"></a>Екстендедкэйусаже. Present, свойство
 
@@ -39,7 +39,7 @@ ExtendedKeyUsage.IsPresent As Boolean
 
 Если задано **значение true**, расширение EKU имеется.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -52,7 +52,7 @@ ExtendedKeyUsage.IsPresent As Boolean
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

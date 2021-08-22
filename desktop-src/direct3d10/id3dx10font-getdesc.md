@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 59a7e361ebb6254fcc49eab30ff44ab39c38fd76
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d684a0bf485db441a0a6bf23cd36496cc13fdfe766eaa890682259b76b3800c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105664991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118990444"
 ---
 # <a name="id3dx10fontgetdesc-method"></a>Метод ID3DX10Font:: DESC
 
@@ -55,7 +55,7 @@ HRESULT GetDesc(
 
 Если метод выполнен успешно, возвращается значение S \_ . Если метод завершается с ошибкой, будет возвращено следующее значение: D3DERR \_ инвалидкалл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод описывает объекты шрифтов Юникода, если задан Юникод. В противном случае вызывается метод-DESC, который возвращает указатель на \_ структуру D3DX10FONT DESC.
 
@@ -65,7 +65,7 @@ HRESULT GetDesc(
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>D3DX10. lib</dt> </dl> |
 
 

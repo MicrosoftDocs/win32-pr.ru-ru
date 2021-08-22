@@ -4,12 +4,12 @@ description: Привязка — это процесс создания лог�
 ms.assetid: 802e6da7-a329-4010-91bd-003ad2169121
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07973deb8319b44a82795a6402ef5e1a9310c2c8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 09eae434fde790531a6f723cab6dc0b0613ee2fc99d680478d697cb550d6a18b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104533233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118932344"
 ---
 # <a name="binding-handles"></a>Дескрипторы привязки
 
@@ -30,6 +30,6 @@ ms.locfileid: "104533233"
 -   [Функции-обработчики привязки](binding-handle-functions.md)
 -   [База данных службы имен RPC](the-rpc-name-service-database.md)
 
- 
+ 
 
- 
+ 

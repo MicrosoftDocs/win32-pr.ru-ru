@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: e1e509ea4695f143bd5399cbda004bcba53f514c
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: fa5d1a8dedd9620a3111a1973a26c62c69f138325a19b58632d978f25415b268
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108108562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118990860"
 ---
 # <a name="d3dxshevalsphericallight-function-d3dx10h"></a>Функция D3DXSHEvalSphericalLight (D3DX10. h)
 
@@ -153,12 +153,12 @@ HRESULT D3DXSHEvalSphericalLight(
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>D3DX10. lib</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

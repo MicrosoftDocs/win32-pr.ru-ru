@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 5a93be1f6fe75559d0284ca955ca5b6e9c516eed
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 927e219e22bd0e87c444b1ca3cb63b09a5ddc2fb9ac74e63ebb8f66c6ed75437
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119007322"
 ---
 # <a name="extendedkeyusage-object"></a>Объект Екстендедкэйусаже
 
@@ -32,7 +32,7 @@ ms.locfileid: "105648868"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Объект **екстендедкэйусаже** имеет следующие свойства.
 
@@ -48,7 +48,7 @@ ms.locfileid: "105648868"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Не удается создать объект **екстендедкэйусаже** .
 

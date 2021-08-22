@@ -8,12 +8,12 @@ keywords:
 - Active Directory, использование, безопасность и установка прав доступа к конкретным свойствам
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79bfa24b574639e64fbb17c33fabee1185cc014c
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 86c01070b5c5b23e7524bd3b54293576e578861e0120b431e6dc95b7a5b4cc4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104487392"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024742"
 ---
 # <a name="setting-rights-to-specific-properties-of-specific-types-of-objects"></a>Установка прав на определенные свойства объектов конкретных типов
 
@@ -30,10 +30,10 @@ ms.locfileid: "104487392"
 > [!IMPORTANT]
 > Установка ADS \_ ацефлаг \_ наследования \_ ACE для НАСЛЕДУЕМОГО элемента управления доступом. Кроме того, Set ADS \_ ацефлаг \_ наследует \_ только \_ ACE, если тип объекта, к которому применяется этот ACE, не соответствует типу объекта контейнера, в котором указан элемент управления доступом. Если это не сделано, запись ACE также вступит в силу в контейнере и может предоставить непредвиденные права.
 
- 
+ 
 
 Дополнительные сведения и примеры кода, которые можно использовать для задания этого типа ACE, см. в разделе [пример кода для настройки записи ACE в объекте каталога](example-code-for-setting-an-ace-on-a-directory-object.md).
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 4c27e2ec-624a-4b1f-bea9-3aaad1534c9b
 title: Атрибут MF_MP2DLNA_USE_MMCSS (Mfmp2dlna. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ccfdaf36ce51f1158e110dcb3682a5b072c060dc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 79e824451be89bf4aca485edd2c61ce381f0cf4e0a9d5eefff82bf6c99cef2eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104080868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104760"
 ---
 # <a name="mf_mp2dlna_use_mmcss-attribute"></a>MF \_ MP2DLNA \_ использовать \_ атрибут MMCSS
 
@@ -25,7 +25,7 @@ ms.locfileid: "104080868"
 
 Чтобы задать этот атрибут, вызовите [**имфаттрибутес:: SetUINT32**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint32).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы задать этот атрибут для приемника мультимедиа DLNA, запросите приемник мультимедиа для интерфейса [**имфаттрибутес**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes) . Задайте атрибут перед началом потоковой передачи.
 
@@ -37,8 +37,8 @@ ms.locfileid: "104080868"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                             |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                                |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Mfmp2dlna. h</dt> </dl> |
 
 

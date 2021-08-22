@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 67ee65a22c9e880c76d3b250c4859077f471b018
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0c0154de52dbefa6d29278ca05e924db6f6c1d84b124fe21b3092e728a0d07fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895369"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956143"
 ---
 # <a name="attribute_list_entry-structure"></a>\_ \_ Структура ввода списка атрибутов
 
@@ -123,7 +123,7 @@ typedef struct _ATTRIBUTE_LIST_ENTRY {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Список Attributes представляет собой упорядоченный список структур **\_ \_ элементов списка атрибутов** с куадворд по рассогласованию. Этот список сначала упорядочивается по коду типа атрибута, а затем по имени атрибута (если он есть). Ни один из двух атрибутов не может иметь одинаковый код типа, имя и наименьшее значение VCN. Таким образом, может существовать не более одного атрибута для каждого кода типа без имени.
 
@@ -131,7 +131,7 @@ typedef struct _ATTRIBUTE_LIST_ENTRY {
 
 Обратите внимание, что для этой структуры нет связанного файла заголовка.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

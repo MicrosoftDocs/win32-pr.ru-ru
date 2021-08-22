@@ -39,16 +39,16 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: c93bb67cd4a66c4ecc5f6820ff2de7cf3816b2b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3f8b9aa97aa57089cd88be3c24111a49231fdc5f922e956e98c4842eef461713
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683169"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950003"
 ---
 # <a name="msvm_synthetic3ddisplaycontrollersettingdata-class"></a>\_Класс мсвм Synthetic3DDisplayControllerSettingData
 
-Представляет параметры для искусственного трехмерного контроллера экрана для виртуальной машины. Этот класс используется только с виртуальными машинами, использующими RemoteFX.
+Представляет параметры для искусственного трехмерного контроллера экрана для виртуальной машины. Этот класс используется только для виртуальных машин, использующих RemoteFX.
 
 Следующий синтаксис является упрощенным MOF-файлным (MOF) кодом и включает все наследуемые свойства.
 
@@ -93,7 +93,7 @@ class Msvm_Synthetic3DDisplayControllerSettingData : CIM_ResourceAllocationSetti
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ Synthetic3DDisplayControllerSettingData** имеет следующие свойства.
 
@@ -166,7 +166,7 @@ class Msvm_Synthetic3DDisplayControllerSettingData : CIM_ResourceAllocationSetti
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -193,7 +193,7 @@ class Msvm_Synthetic3DDisplayControllerSettingData : CIM_ResourceAllocationSetti
 
 Устройство, к которому подключен этот ресурс. Это свойство наследуется от [**CIM \_ ресаурцеаллокатионсеттингдата**](/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata).
 
-Это свойство доступно только для чтения, но если значение равно 1), свойство **ResourceType** имеет значение 17 (последовательный порт) или 2), свойство **ResourceType** равно 21 (экстент хранения), а свойство **Ресаурцесубтипе** — "Microsoft Virtual жесткий диск", затем его можно изменить с помощью метода [**модифиресаурцесеттингс**](modifyresourcesettings-msvm-virtualsystemmanagementservice.md) класса [**мсвм \_ виртуалсистемманажементсервице**](msvm-virtualsystemmanagementservice.md) .
+это свойство только для чтения, но если значение равно 1), свойство **resourcetype** имеет значение 17 (последовательный порт) или 2), свойство **resourcetype** имеет значение 21 (служба хранилища экстент), а свойство **ресаурцесубтипе** — "Microsoft Virtual жесткий диск", затем его можно изменить с помощью метода [**модифиресаурцесеттингс**](modifyresourcesettings-msvm-virtualsystemmanagementservice.md) класса [**мсвм \_ виртуалсистемманажементсервице**](msvm-virtualsystemmanagementservice.md) .
 
 </dd> <dt>
 
@@ -392,7 +392,7 @@ class Msvm_Synthetic3DDisplayControllerSettingData : CIM_ResourceAllocationSetti
 Максимальное разрешение составляет 3840 2160.
 
 > [!Note]  
-> Добавлено в Windows 10 и Windows Server 2016. мсвм \_ синте
+> добавлено в Windows 10 и Windows Server 2016. мсвм \_ синте
 
  
 
@@ -516,7 +516,7 @@ class Msvm_Synthetic3DDisplayControllerSettingData : CIM_ResourceAllocationSetti
 Размер видеопамяти для виртуальной машины.
 
 > [!Note]  
-> Добавлено в Windows 10 и Windows Server 2016.
+> добавлено в Windows 10 и Windows Server 2016.
 
  
 
@@ -576,14 +576,14 @@ class Msvm_Synthetic3DDisplayControllerSettingData : CIM_ResourceAllocationSetti
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

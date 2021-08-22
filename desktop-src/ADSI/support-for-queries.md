@@ -7,12 +7,12 @@ keywords:
 - Поддержка запросов ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1304dcabd9c008b0f645982e695554225f59bac9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 30ad1892cf7c0e619ef55b9c3e5af6885d4cbdc7ac68fbcbd206524128b283d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105654099"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023232"
 ---
 # <a name="support-for-queries"></a>Поддержка запросов
 
@@ -27,9 +27,9 @@ ms.locfileid: "105654099"
 
 Дополнительные сведения о OLE DB см. в разделе Справочник программиста по OLE DB в пакете SDK для платформы.
 
- 
+ 
 
- 
+ 
 
 
 

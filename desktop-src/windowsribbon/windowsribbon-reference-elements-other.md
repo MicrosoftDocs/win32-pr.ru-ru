@@ -1,19 +1,19 @@
 ---
 title: Другие
-description: Справочная документация по дополнительным элементам разметки в платформе ленты Windows.
+description: справочная документация по дополнительным элементам разметки в платформе Windows Ribbon.
 ms.assetid: 9f80d65b-4912-4b93-9374-25913f0def08
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c5688dac144f555a4db53af7ccda44960fe1eb6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b2107e0872fe9471b264011440e767a20c8b46ebb321cda1cc2bc1ea2be53592
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028722"
 ---
 # <a name="others"></a>Другие
 
-Справочная документация по дополнительным элементам разметки в платформе ленты Windows.
+справочная документация по дополнительным элементам разметки в платформе Windows Ribbon.
 
 
 
@@ -29,8 +29,8 @@ ms.locfileid: "104068355"
 | [**контролсизедефинитион**](windowsribbon-element-controlsizedefinition.md)       | Представляет стиль макета группы элементов управления в пользовательском шаблоне.<br/>                                                                                                                            |
 | [**фловменулайаут**](windowsribbon-element-flowmenulayout.md)                     | Представляет горизонтальный макет с разрывами строк для элементов в коллекции.<br/>                                                                                                                             |
 | [**граупсизедефинитион**](windowsribbon-element-groupsizedefinition.md)           | Представляет размер макета для группы элементов управления в пользовательском шаблоне.<br/>                                                                                                                              |
-| [**Строка**](windowsribbon-element-row.md)                                           | Представляет строку элементов управления в пользовательском шаблоне макета Сизедефинитион.<br/>                                                                                                                            |
-| [**Измените**](windowsribbon-element-scale.md)                                       | Представляет предпочитаемый размер и макет [**группы**](windowsribbon-element-group.md) элементов управления с помощью пары {**Group**, [**сизедефинитион**](windowsribbon-element-sizedefinition.md)}.<br/> |
+| [**Строки**](windowsribbon-element-row.md)                                           | Представляет строку элементов управления в пользовательском шаблоне макета Сизедефинитион.<br/>                                                                                                                            |
+| [**Масштабирование**](windowsribbon-element-scale.md)                                       | Представляет предпочитаемый размер и макет [**группы**](windowsribbon-element-group.md) элементов управления с помощью пары {**Group**, [**сизедефинитион**](windowsribbon-element-sizedefinition.md)}.<br/> |
 | [**ScalingPolicy**](windowsribbon-element-scalingpolicy.md)                       | Представляет контейнер для спецификаций масштабирования.<br/>                                                                                                                                                  |
 | [**Скалингполици. Идеалсизес**](windowsribbon-element-scalingpolicy-idealsizes.md) | Представляет контейнер спецификаций масштабирования для предпочтительного шаблона [**сизедефинитион**](windowsribbon-element-sizedefinition.md) на основе размера ленты.<br/>                                   |
 | [**сизедефинитион**](windowsribbon-element-sizedefinition.md)                     | Представляет пользовательский шаблон макета для элементов управления ленты. <br/>                                                                                                                                            |

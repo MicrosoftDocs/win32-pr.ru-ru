@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 70a9389ed9e9f4fff16f82610cb611bc4da2c7a3
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 5408b2c8133947b948bc42eb6ff0c725584b0cf2c60ccf0731a9d584d3c898a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104996815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118512021"
 ---
 # <a name="evaluateattributesnapped-function"></a>Функция Евалуатеаттрибутеснаппед
 
@@ -28,8 +28,8 @@ ms.locfileid: "104996815"
 
 ``` syntax
 numeric EvaluateAttributeSnapped(
-  in attrib numeric value,
-  in 
+  in attrib numeric value,
+  in 
             int2 offset
 );
 ```
@@ -56,7 +56,7 @@ numeric EvaluateAttributeSnapped(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Диапазон для параметра *offset* должен быть определен с помощью следующего байтового кода.
 
@@ -82,7 +82,7 @@ numeric EvaluateAttributeSnapped(
 > [!Note]  
 > Левый и верхний края пикселя включаются в смещение; Однако нижний и правый края не включаются. Все остальные биты в 32-разрядном целом значении и смещении в V не учитываются.
 
- 
+ 
 
 Реализация может принимать смещение, предоставленное шейдером, и получать полное 32-разрядное значение с фиксированной точкой (28,4), которое охватывает допустимый диапазон, выполняя следующее вычисление:
 
@@ -110,11 +110,11 @@ fU = ((float)iU)/16
 
 | Модель шейдера                                                                | Поддерживается |
 |-----------------------------------------------------------------------------|-----------|
-| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | да       |
+| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | Да       |
 
 
 
- 
+ 
 
 Эта функция поддерживается в следующих типах шейдеров:
 
@@ -126,9 +126,9 @@ fU = ((float)iU)/16
 
 
 
- 
+ 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -138,9 +138,9 @@ fU = ((float)iU)/16
 [Модель шейдера 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

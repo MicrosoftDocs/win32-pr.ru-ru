@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 2ddb205c1201281a04977df42c094d40b4792572
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: b3dd02691f335a246e694b667181ed73814326b52b9e58f8c11ac13595f9eaf4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104412147"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118515022"
 ---
 # <a name="d3dcompiler-reference"></a>Справочник по D3DCompiler
 
@@ -25,16 +25,16 @@ API Direct3D определяет несколько элементов API дл
 -   [Перечисления](dx-graphics-d3dcompiler-reference-enums.md)
 -   [Константы](dx-graphics-d3dcompiler-reference-constants.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Справочник по HLSL](dx-graphics-hlsl-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

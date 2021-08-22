@@ -4,27 +4,27 @@ description: Атрибут Бордертопколор VML
 ms.assetid: bcf04df8-a994-4b33-8e9a-50a582660d68
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36084272b353c248b39ebaaf1c9d985c3f6ec936
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 95c92819c6bccdf21732f2ab002c556f29954c41bffb9173f8d2270e98621693
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070214"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999324"
 ---
 # <a name="vml-bordertopcolor-attribute"></a>Атрибут Бордертопколор VML
 
-В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+в этом разделе описывается функция VML, которая является устаревшей по отношению к Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
 
 > [!Note]  
-> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
+> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). сведения, рекомендации и рекомендации относительно текущей версии Windows Internet explorer см. в [центре разработчиков internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Цвет верхней границы встроенной фигуры. Read/write. **Вгколор**.
 
 **Применимо к**:
 
-[Фигурная](shape-element--vml.md)
+[Фигура](shape-element--vml.md)
 
 **Синтаксис тега**
 
@@ -32,7 +32,7 @@ ms.locfileid: "104070214"
 
 **Замечания**
 
-Используется в Microsoft Word.
+Используется Microsoft Word.
 
 К этим значениям относятся следующие.
 
@@ -46,10 +46,10 @@ ms.locfileid: "104070214"
 
 
 
- 
+ 
 
-*Атрибут расширений Microsoft Office*
+*Microsoft Office Extensions, атрибут*
 
- 
+ 
 
- 
+ 

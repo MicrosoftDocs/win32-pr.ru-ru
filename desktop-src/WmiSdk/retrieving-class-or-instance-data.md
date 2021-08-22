@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Получение данных класса или экземпляра WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56f9f345bb3c4dc4c11a60dad103064b8c76ab57
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d9fc9755c53a9efd999989cf2f562a3c72a6cb938f9a659e2cdb423dd0caa7b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703179"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050342"
 ---
 # <a name="retrieving-wmi-class-or-instance-data"></a>Получение данных класса или экземпляра WMI
 

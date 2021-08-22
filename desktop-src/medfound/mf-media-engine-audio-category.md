@@ -4,12 +4,12 @@ ms.assetid: 0F2DB9A7-64ED-4952-BCB3-F2B15BA37D2A
 title: Атрибут MF_MEDIA_ENGINE_AUDIO_CATEGORY
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d22cd3795886b78afae03ba4b592d4657857f76b
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 2939c5ac839544acb8dd65c2ecae1769c7dd79bb78b19fe40c1f8ae27865ca03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103999891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104790"
 ---
 # <a name="mf_media_engine_audio_category-attribute"></a>\_ \_ \_ Атрибут категории Audio Media Engine MF \_
 
@@ -19,7 +19,7 @@ ms.locfileid: "103999891"
 
 **[**Категория ЗВУКового \_ потока \_**](/windows/win32/api/audiosessiontypes/ne-audiosessiontypes-audio_stream_category)**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значение этого атрибута является членом перечисления [**\_ \_ категорий звуковых потоков**](/windows/win32/api/audiosessiontypes/ne-audiosessiontypes-audio_stream_category) .
 
@@ -31,8 +31,8 @@ ms.locfileid: "103999891"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8 \|\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 \|\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows 8 \[ приложения UWP для классических приложений \|\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ приложения UWP для классических приложений \|\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Мфмедиаенгине. idl</dt> </dl> |
 
 

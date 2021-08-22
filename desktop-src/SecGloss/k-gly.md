@@ -5,12 +5,12 @@ ms.assetid: f17042c3-ba1a-408f-af55-5f171b0dee33
 title: K (глоссарий по безопасности)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33e7d1b474b774b5cdb7a0b8d05a512a8d291573
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c7c92abf9b3df1eb49f0caaee90ccbce8755d003478683aba35570d9ea99fa2b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998888"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118895597"
 ---
 # <a name="k-security-glossary"></a>K (глоссарий по безопасности)
 
@@ -103,7 +103,7 @@ KDC Сетевая служба, предоставляющая билеты с�
 
 </dd> <dt>
 
-<span id="_security_key_exchange_algorithm_name_gly"></span><span id="_SECURITY_KEY_EXCHANGE_ALGORITHM_NAME_GLY"></span>**Алгоритм обмена ключами**
+<span id="_security_key_exchange_algorithm_name_gly"></span><span id="_SECURITY_KEY_EXCHANGE_ALGORITHM_NAME_GLY"></span>**алгоритм ключевого Exchange**
 </dt> <dd>
 
 (КЕА) Алгоритм обмена ключами, заданный \_ типом поставщика Prov Fortezza. Этот алгоритм является улучшенной версией алгоритма Diffie-Hellman.
