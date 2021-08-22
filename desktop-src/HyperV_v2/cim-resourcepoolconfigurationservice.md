@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: e8dbbce21f7749b7f436e2f49acb7ce6c7340faf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a289c21f4a741778bb88a154f5923cf844f0c78390c50b558d40a5bcc32aff1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118647669"
 ---
 # <a name="cim_resourcepoolconfigurationservice-class"></a>\_Класс CIM ресаурцепулконфигуратионсервице
 
@@ -64,7 +64,7 @@ class CIM_ResourcePoolConfigurationService : CIM_Service
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
+| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
 | Минимальная версия сервера<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |

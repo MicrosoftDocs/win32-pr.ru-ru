@@ -3,7 +3,7 @@ title: Сообщение WM_CAP_SET_CALLBACK_YIELD (VFW. h)
 description: Сообщение о выдачей \_ \_ \_ обратного вызова Set крепления WM \_ устанавливает функцию обратного вызова в приложении. Авикап вызывает эту процедуру, когда окно записи выдается во время потоковой записи. Это сообщение можно отправить явно или с помощью макроса Капсеткаллбаккониелд.
 ms.assetid: d978dc3b-4336-46a4-85ae-7d588a63489b
 keywords:
-- WM_CAP_SET_CALLBACK_YIELD сообщения Windows мультимедиа
+- сообщение WM_CAP_SET_CALLBACK_YIELD Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b95c9ba0be7a0abeb99c0590e255adb0bd442343
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ee12db79a9e4808442618ca295694611aa9e098a87c8f72b25f04360e156c8a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118622239"
 ---
 # <a name="wm_cap_set_callback_yield-message"></a>\_Сообщение о \_ \_ выдает ответ обратного вызова Set крепления WM \_
 
@@ -49,7 +49,7 @@ lParam = (LPARAM) (LPVOID) (fpProc);
 
 Возвращает **значение true** в случае успеха или **false** , если выполняется захват потоковой передачи или однокадровый сеанс записи.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При необходимости приложения могут устанавливать функцию обратного вызова yield. Функция обратного вызова yield вызывается по крайней мере один раз для каждого видеокадра, захваченного при захвате потоковой передачи. Если установлена функция обратного вызова yield, она будет вызываться независимо от состояния элемента **Фиелд** структуры [**каптурепармс**](/windows/win32/api/vfw/ns-vfw-captureparms) .
 

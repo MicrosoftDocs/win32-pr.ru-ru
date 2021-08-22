@@ -1,19 +1,19 @@
 ---
-title: Средства журнала событий Windows
-description: Журнал событий Windows содержит следующие средства, используемые для построения поставщика.
+title: Windows Средства журнала событий
+description: Windows В журнале событий содержатся следующие средства, используемые для построения поставщика.
 ms.assetid: 20087fdf-3e9f-4090-8103-5864f1c9753c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93e604c291ff1046789ef9f3efba00ebb7305122
-ms.sourcegitcommit: c2a1c4314550ea9bd202d28adfcc7bfe6180932f
+ms.openlocfilehash: ff7a0aef85e85e096381b65d41458f1cb955ba9701452498d21c45ff25cb3058
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "104412740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118587261"
 ---
-# <a name="windows-event-log-tools"></a>Средства журнала событий Windows
+# <a name="windows-event-log-tools"></a>Windows Средства журнала событий
 
-Журнал событий Windows содержит следующие средства, используемые для построения поставщика.
+Windows В журнале событий содержатся следующие средства, используемые для построения поставщика.
 
 
 

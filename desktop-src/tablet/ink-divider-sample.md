@@ -4,12 +4,12 @@ ms.assetid: 3350b643-11b3-4474-8dd0-bc3eb1b7121e
 title: Пример рукописного разделителя
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a272d6a5530938e6fecfeefc9f46ffdd0835d045
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4c74592606ba98ec913dd419deda1b2b766066e17545e95f18a14980f36dafde
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104497037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118452101"
 ---
 # <a name="ink-divider-sample"></a>Пример рукописного разделителя
 
@@ -21,7 +21,7 @@ ms.locfileid: "104497037"
 
 
 
-| проанализированная единица        | Цвет              | Увеличение пикселя |
+| проанализированная единица        | Color              | Увеличение пикселя |
 |----------------------|--------------------|-------------------|
 | Word<br/>      | Зеленый<br/>   | 1<br/>      |
 | Линия<br/>      | Пурпурный<br/> | 3<br/>      |

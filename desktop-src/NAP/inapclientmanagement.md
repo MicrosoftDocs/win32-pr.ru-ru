@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe90158d6f1e9a864f7d19448a412d70890133d2
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 56a9d338cdaad8ed46fd3c3c730ca3ae4c2065cda9803c283ae262addd939713
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104000206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118622120"
 ---
 # <a name="inapclientmanagement-interface"></a>Интерфейс Инапклиентманажемент
 
@@ -69,8 +69,8 @@ ms.locfileid: "104000206"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                               |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                               |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                         |
 | Header<br/>                   | <dl> <dt>Напманажемент. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Напманажемент. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>        |

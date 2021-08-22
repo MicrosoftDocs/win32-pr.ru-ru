@@ -1,5 +1,5 @@
 ---
-description: Метод Форцесаурцелистресолутион объекта Installer заставляет установщик Windows искать допустимый источник продукта в списке источников.
+description: метод форцесаурцелистресолутион объекта Installer заставляет установщик Windows искать допустимый источник продукта в списке источников.
 ms.assetid: d5097331-8cf5-494f-9e88-bcffcad3fe5d
 title: Метод Installer. Форцесаурцелистресолутион
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: cadc27f3eaa90cd6fb2729f73d07cbcfa1f96b73
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cafff03a392fc1977fd19b5b8415ca499d614c2c4ba3fb4f7104edd5344f3a86
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651601"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118630596"
 ---
 # <a name="installerforcesourcelistresolution-method"></a>Метод Installer. Форцесаурцелистресолутион
 
@@ -64,7 +64,7 @@ Installer.ForceSourceListResolution(
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. установщик Windows в Windows Server 2003 или Windows XP<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |
 | IID<br/>     | IID \_ иинсталлер определен как 000C1090-0000-0000-C000-000000000046<br/>                                                                                                                                                                           |
 

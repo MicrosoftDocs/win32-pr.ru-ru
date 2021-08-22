@@ -4,12 +4,12 @@ ms.assetid: 1079be89-515c-443e-8927-46ddf7891a59
 title: Действие Ремовефилес
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 174e477d512401c8ff6f1ff091b7c67f26e86f16
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b50e23a7d2eb3c9bb23575d83d000b053f0de06907541777e43b5476f8c722ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118626454"
 ---
 # <a name="removefiles-action"></a>Действие Ремовефилес
 
@@ -32,7 +32,7 @@ ms.locfileid: "105663845"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Таблицу [ремовефиле](removefile-table.md) можно опустить из базы данных установщика, если нет каких либо прочих файлов для удаления.
 

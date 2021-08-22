@@ -1,18 +1,18 @@
 ---
 title: Перечисление членов в группе
-description: Дополнительные сведения о перечислении членов в группе Azure Active Directory. Члены группы хранятся в атрибуте с несколькими значениями, называемом Member.
+description: дополнительные сведения о перечислении членов в группе Azure Active Directory. Члены группы хранятся в атрибуте с несколькими значениями, называемом Member.
 ms.assetid: 28cafdbe-e599-4b1d-a384-264f41d81c79
 ms.tgt_platform: multiple
 keywords:
 - Перечисление членов в группе
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 916b988cd26ee4df59eaf27cc5ffd690bca1458a
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 426e2fb4fdd47f5f5b277618cb0989d8d8b06b6491d505ece20139e373ebe01f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118429489"
 ---
 # <a name="enumerating-members-in-a-group"></a>Перечисление членов в группе
 

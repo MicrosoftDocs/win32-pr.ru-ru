@@ -3,7 +3,7 @@ title: Операции с буфером обмена
 description: Окно должно использовать буфер обмена при вырезании, копировании или вставлении данных. Окно помещает данные в буфер обмена для операций вырезания и копирования и извлекает данные из буфера обмена для операций вставки.
 ms.assetid: 27f9142c-3154-4de5-aea6-3c53f7e940ec
 keywords:
-- Пользовательский интерфейс Windows, буфер обмена
+- Windows Пользовательский интерфейс, буфер обмена
 - буфер обмена, Windows
 - буфер обмена, вырезание данных
 - буфер обмена, копирование данных
@@ -13,12 +13,12 @@ keywords:
 - буфер обмена, память
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cb2c3451cf562b35b976e137a974e19892acbb3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e8a0dfe82f6130f0435521ac4e17cf8e8b7162115074f7b3ff716187730f8bb7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104338913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118545438"
 ---
 # <a name="clipboard-operations"></a>Операции с буфером обмена
 

@@ -9,12 +9,12 @@ keywords:
 - ADSI, поиск, IDirectorySearch, другие параметры поиска, возврат только имен атрибутов, пример кода
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 344ce99fe9de606212d786ff2e7b88b5eba34d14
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 207fcfd2bd688f5bb6ddcd19dcb9b1a87a2e40ddb0a7db1e63e9457e671f9947
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103772968"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118428467"
 ---
 # <a name="example-code-for-searching-for-attributes"></a>Пример кода для поиска атрибутов
 
@@ -60,9 +60,9 @@ while( m_pSearch->GetNextColumnName( hSearch, &pszColumn ) != S_ADS_NOMORE_COLUM
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 07/03/2019
-ms.openlocfilehash: 01628ea29895012f60552e696b7f68854f426f8d
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: 30df22c7232ad1d28315e8152396ddd92bdab9a7cbf67d748af134c0f0760c33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "104412289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118543748"
 ---
 # <a name="do_download_range_info-structure"></a>Структура DO_DOWNLOAD_RANGE_INFO
 
@@ -48,6 +48,6 @@ typedef struct _DO_DOWNLOAD_RANGES_INFO
 
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| **Минимальная версия клиента** | Windows 10, \[ только приложения Win32 версии 1809\] |
-| **Минимальная версия сервера** | Windows Server, \[ только приложения Win32 версии 1809\] |
+| **Минимальная версия клиента** | Windows 10, версия 1809 \[ Только приложения Win32\] |
+| **Минимальная версия сервера** | Windows Сервер, \[ только приложения Win32 версии 1809\] |
 | **Header** | Do. h |

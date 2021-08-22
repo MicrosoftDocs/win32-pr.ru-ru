@@ -9,12 +9,12 @@ keywords:
 - Active Directory, использование, привязка, переименование, безопасного связывания
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7114fa6dfb44625433d8da1c57491a13aefa7cc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 446f669adc9a59f9f8aba93e852546fe3991952857469d6f37978d9cf91a7666
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104252788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118695323"
 ---
 # <a name="enabling-rename-safe-binding-with-the-otherwellknownobjects-property"></a>Включение привязки Rename-Safe с помощью свойства otherWellKnownObjects
 
@@ -68,9 +68,9 @@ LDAP://<WKGUID=df447b5eaa5b11d28d5300c04f79ab81,cn=MyContainer,dc=Fabrikam,dc=co
 
 Дополнительные сведения и пример кода, демонстрирующий Добавление объекта в атрибут **otherWellKnownObjects** , см. в разделе [пример кода для создания объекта контейнера](example-code-for-creating-a-container-object.md).
 
- 
+ 
 
- 
+ 
 
 
 

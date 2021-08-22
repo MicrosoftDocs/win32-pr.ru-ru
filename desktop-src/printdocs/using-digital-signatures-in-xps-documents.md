@@ -4,12 +4,12 @@ ms.assetid: 27c28313-d8db-4c40-9972-cb03bdaa125c
 title: Использование API цифровых подписей XPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c9037a1442a44b082caec21309c94390b3f783e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 84ea6e38704efa2a348a90fec247f37b9722857a3838b10233937e63dc37fdbd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118469356"
 ---
 # <a name="using-xps-digital-signature-api"></a>Использование API цифровых подписей XPS
 
@@ -25,7 +25,7 @@ API цифровой подписи XPS позволяет приложения�
     -   [Политика подписи цифровых подписей](#digital-signature-signing-policy)
     -   [Внедрение цепочки сертификатов](#embedding-a-certificate-chain)
     -   [Использование \_ структуры контекста CERT](#using-the-cert\_context-structure)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="xps-digital-signature-api-programming-tasks"></a>Задачи программирования API цифровых подписей XPS
 
@@ -81,7 +81,7 @@ API цифровой подписи XPS позволяет приложения�
 
 [**Сертификат \_ Структуры контекста**](/windows/desktop/api/wincrypt/ns-wincrypt-cert_context) , возвращаемые ФУНКЦИЯМИ API шифрования, должны освобождаться, если они больше не нужны. Чтобы освободить структуру **\_ контекста сертификата** , вызовите функцию [**цертфрицертификатеконтекст**](/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

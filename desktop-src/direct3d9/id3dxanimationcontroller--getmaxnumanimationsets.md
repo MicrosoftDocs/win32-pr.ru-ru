@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 25575da94276607f31c0c8f707611ccf3b14ed43
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 78b3a77127865d13c7a9d59b9b4f8821395720f7f2fe84d95db40947408ce072
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118522775"
 ---
 # <a name="id3dxanimationcontrollergetmaxnumanimationsets-method"></a>Метод ID3DXAnimationController:: Жетмакснуманиматионсетс
 
@@ -44,18 +44,18 @@ UINT GetMaxNumAnimationSets();
 
 Максимальное количество наборов анимации, которыми может управлять контроллер.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9anim. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9anim. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

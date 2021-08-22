@@ -5,12 +5,12 @@ ms.assetid: d0eb41cb-e9c0-4a60-aeac-77d1dd90a75b
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0d1dfc680c8a23ca1e80f52230736b3ab586cc8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9d1f604d7cea69bcc8866176f612c76d2e6820bc4a00aa58d3760761ef59270b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104337884"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118362310"
 ---
 # <a name="network-policy-server"></a>Сервер политики сети
 
@@ -31,7 +31,7 @@ API объектов данных сервера можно использова
 > [!Note]  
 > Политики сети в NPS эквивалентны политикам удаленного доступа в IAS.
 
- 
+ 
 
 ## <a name="developer-audience"></a>Аудитория разработчиков
 
@@ -41,11 +41,11 @@ API объектов данных сервера предназначен для
 
 ## <a name="run-time-requirements"></a>Требования к среде выполнения
 
-API расширений NPS поддерживается в Windows Server 2008 с установкой коммерческой Интернет-службы Майкрософт (МЦИС).
+API расширений NPS поддерживается на Windows Server 2008 с установкой коммерческой интернет-службы майкрософт (мЦис).
 
-API объектов данных сервера поддерживается в Windows Server 2008.
+API объектов данных сервера поддерживается на Windows server 2008.
 
-Сервер политики сети доступен в Windows Server 2008 с установкой коммерческой Интернет-службы Майкрософт (МЦИС).
+сервер политики сети доступен на Windows Server 2008 с установкой коммерческой интернет-службы майкрософт (мЦис).
 
 ## <a name="in-this-section"></a>Содержание раздела
 
@@ -72,14 +72,14 @@ API для управления конфигурацией политики се
 
 </dd> <dt>
 
-[Программирование SQL](sql-programmability.md)
+[SQL Программирования](sql-programmability.md)
 </dt> <dd>
 
 Примеры хранимых процедур, используемых для управления ведением журнала NPS (IAS).
 
 </dd> </dl>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -92,6 +92,6 @@ API для управления конфигурацией политики се
 [Защита доступа к сети](/windows/desktop/NAP/network-access-protection-start-page)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

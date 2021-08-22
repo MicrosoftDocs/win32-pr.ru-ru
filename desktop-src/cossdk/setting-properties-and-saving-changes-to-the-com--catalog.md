@@ -4,12 +4,12 @@ ms.assetid: d9af57ea-c5b3-4017-bdc2-e43b86b3ddcd
 title: Изменение свойств в каталоге COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94ed2bade8886fe08bb7ed1ece179b35677569f1
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 50ace2809fef4510a9c89b5faf31df555cb76426a06dd445aff9438c0d19e887
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103807355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118546235"
 ---
 # <a name="editing-properties-in-the-com-catalog"></a>Изменение свойств в каталоге COM+
 
@@ -27,7 +27,7 @@ ms.locfileid: "103807355"
 
 Кроме того, в COM+ есть средство, которое позволяет динамически создавать запросы, чтобы узнать, какие свойства доступны для элементов в данной коллекции. Дополнительные сведения см. в разделе [запрос доступных свойств](querying-for-available-properties.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

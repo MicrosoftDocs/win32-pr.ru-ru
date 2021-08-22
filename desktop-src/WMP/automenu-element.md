@@ -3,19 +3,19 @@ title: Элемент АВТОМЕНЮ
 description: Элемент АВТОМЕНЮ
 ms.assetid: 670c9d85-6362-4068-b283-e4ca17ed43b3
 keywords:
-- Обложки проигрывателя Windows Media, элемент АВТОМЕНЮ
+- обложки проигрыватель Windows Media, элемент автоменю
 - обложки, элемент АВТОМЕНЮ
 - Элемент АВТОМЕНЮ
 - Справочник по обложкам, элементу АВТОМЕНЮ
 - элементы, АВТОМЕНЮ
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77dc15db3089c48723084642d68787c04436d41a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 75a77036ffd88d514e890d92921deea5bae9d9fba1856fe324bd41c70dbbfc92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104331120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118582963"
 ---
 # <a name="automenu-element"></a>Элемент АВТОМЕНЮ
 
@@ -31,25 +31,25 @@ ms.locfileid: "104331120"
 
 
 
- 
+ 
 
 Элемент **АВТОМЕНЮ** поддерживает следующие атрибуты окружающей среды: Left и Top.
 
 > [!Note]  
-> Для этого элемента требуется проигрыватель Windows Media 9 Series или более поздней версии.
+> для этого элемента требуется проигрыватель Windows Media 9 Series или более поздней версии.
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Справочник по программированию для обложки**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

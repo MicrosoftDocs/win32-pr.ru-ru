@@ -3,7 +3,7 @@ title: Сообщение WM_CAP_SET_CALLBACK_WAVESTREAM (VFW. h)
 description: '\_ \_ \_ Сообщение вавестреам для обратного вызова Set крепления WM \_ устанавливает функцию обратного вызова в приложении.'
 ms.assetid: f2554cbb-73de-4f76-b785-6c18c82c2992
 keywords:
-- WM_CAP_SET_CALLBACK_WAVESTREAM сообщения Windows мультимедиа
+- сообщение WM_CAP_SET_CALLBACK_WAVESTREAM Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d36abc7848de082e033cfc25d4f15d90c86cf3b2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3e4a8ef585a3ceb35aa07fe4e31c5819ce3e56d20b0bfd2d6c5f588fc25c335b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104492948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118622523"
 ---
 # <a name="wm_cap_set_callback_wavestream-message"></a>\_Сообщение о \_ \_ вавестреам обратного вызова Set крепления WM \_
 
@@ -49,7 +49,7 @@ lParam = (LPARAM) (LPVOID) (fpProc);
 
 Возвращает **значение true** в случае успеха или **false** , если выполняется захват потоковой передачи или однокадровый сеанс записи.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Окно записи вызывает процедуру перед записью звукового буфера на диск. Это позволяет приложениям изменять аудио буфер при необходимости.
 

@@ -16,12 +16,12 @@ api_type:
 ms.topic: reference
 ms.date: 01/18/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c53167287cf821ceca26782dab9b8011d40a1785
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: d0f181eebe2aff8ccbbbf6d5400e3d5a78f123e2304567a413ecf4a35357229b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104353725"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118542094"
 ---
 # <a name="ideliveryoptimizationfile2getproperty-method"></a>IDeliveryOptimizationFile2:: метод Property
 
@@ -70,8 +70,8 @@ HRESULT GetProperty(
 
 | Требование | Значение |
 |---------------------------|----------------------------------------------------------------------------------|
-| Минимальная версия клиента  | \[Только для настольных приложений Windows 10 версии 1803\]                                   |
-| Минимальная версия сервера  | \[Только для настольных приложений Windows Server версии 1709\]                               |
+| Минимальная версия клиента  | Windows 10, только для \[ настольных приложений версии 1803\]                                   |
+| Минимальная версия сервера  | Windows Server, только для \[ настольных приложений версии 1709\]                               |
 | Header                    | Deliveryoptimization. h                                                           |
 | IDL                       | DeliveryOptimization. idl                                                         |
 | Библиотека                   | Досвк. lib                                                                        |

@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: ec9f497e687c52735784a5e3edad01905ac7a6a8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f29fad2ccfcac5cbca1c6ef13e0aeef5bdd0f4764e81dd14cabdfa58fd30fbde
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118563222"
 ---
 # <a name="iwinhttprequestresponsestream-property"></a>Свойство Ивинхттпрекуест:: ResponseStream
 
@@ -57,12 +57,12 @@ vtResponseStream = WinHttpRequest.ResponseStream
 
 Если предыдущая операция отправки не завершена, будет [**Отправлено сообщение**](iwinhttprequest-send.md) « **E \_ Pending** ».
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Вызовите [**QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) в возвращенном указателе, чтобы получить указатель на интерфейс [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) . Это свойство возвращает данные ответа в виде **IStream**. Это свойство может быть вызвано только после вызова метода [**Send**](iwinhttprequest-send.md) .
 
 > [!Note]  
-> Для Windows XP и Windows 2000 см. раздел [требования к времени выполнения](winhttp-start-page.md) на начальной странице WinHTTP.
+> сведения о Windows XP и Windows 2000 см. в разделе [требования к времени выполнения](winhttp-start-page.md) на начальной странице WinHTTP.
 
  
 
@@ -289,8 +289,8 @@ int main(int argc, char* argv[])
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>            |
-| Минимальная версия сервера<br/> | Windows Server 2003, Windows 2000 Server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>         |
+| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с SP3 \[ только для настольных приложений\]<br/>            |
+| Минимальная версия сервера<br/> | Windows сервер 2003, Windows 2000 server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>         |
 | Распространяемые компоненты<br/>          | WinHTTP 5,0 и Internet Explorer 5,01 или более поздней версии в Windows XP и Windows 2000.<br/> |
 | IDL<br/>                      | <dl> <dt>HttpRequest. idl</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>WinHTTP. lib</dt> </dl>     |
@@ -308,7 +308,7 @@ int main(int argc, char* argv[])
 [**WinHttpRequest**](winhttprequest.md)
 </dt> <dt>
 
-[**респонсебоди**](iwinhttprequest-responsebody.md)
+[**ResponseBody**](iwinhttprequest-responsebody.md)
 </dt> <dt>
 
 [**респонсетекст**](iwinhttprequest-responsetext.md)

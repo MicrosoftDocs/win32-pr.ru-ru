@@ -1,23 +1,23 @@
 ---
 description: Microsoft Windows Search, основанный на стандартах SQL-92 и SQL-99, улучшает поиск на основе полнотекстовых документов в приложениях управления документами и управления знаниями.
 ms.assetid: 136af1ea-452a-491b-bec7-8c45fa01f87f
-title: Расширения SQL в Microsoft Windows Search
+title: SQL расширения в Microsoft Windows Search
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 340766d5db99a749e8f508e2dc0bec6a549adfc4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c300b0960e97cba14237bd355e33ae7e42788b1925525e60462d15a5d014e6f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104540679"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118462462"
 ---
-# <a name="sql-extensions-in-microsoft-windows-search"></a>Расширения SQL в Microsoft Windows Search
+# <a name="sql-extensions-in-microsoft-windows-search"></a>SQL расширения в Microsoft Windows Search
 
-Microsoft Windows Search, основанный на стандартах SQL-92 и SQL-99, улучшает поиск на основе полнотекстовых документов в приложениях управления документами и управления знаниями. Улучшения поиска Windows включают следующие:
+Microsoft Windows Search, основанный на стандартах SQL-92 и SQL-99, улучшает поиск на основе полнотекстовых документов в приложениях управления документами и управления знаниями. Windows Улучшения поиска включают следующее.
 
 ## <a name="128-character-identifier-names"></a>128 — имена идентификаторов символов
 
-Хотя SQL-92 и SQL-99 ограничивают столбец и другие идентификаторы до 18 символов, Поиск Windows поддерживает имена столбцов, сокоторые 128 символов. Дополнительные сведения см. в статье [Идентификаторы](-search-sql-identifiers.md).
+хотя SQL-92 и SQL-99 ограничивают столбец и другие идентификаторы до 18 символов, Windows поиск поддерживает имена столбцов, сокоторые 128 символов. Дополнительные сведения: [Идентификаторы](-search-sql-identifiers.md).
 
 ## <a name="grouping-results-by-columns"></a>Группирование результатов по столбцам
 
@@ -25,7 +25,7 @@ Microsoft Windows Search, основанный на стандартах SQL-92 
 
 ## <a name="diacritic-insensitive-searching"></a>Diacritic-Insensitive Поиск
 
-Помимо поиска без учета регистра, Поиск Windows поддерживает поиск, не учитывающий диакритические знаки (диакритические знаки). Дополнительные сведения см. [в разделе чувствительность к диакритическим знакам в поиске](-search-sql-accentinsensitivitysearches.md).
+помимо поиска без учета регистра, Windows поиск поддерживает поиск, не учитывающий диакритические знаки (диакритические знаки). Дополнительные сведения см. [в разделе чувствительность к диакритическим знакам в поиске](-search-sql-accentinsensitivitysearches.md).
 
 ## <a name="column-weighting"></a>Взвешивание столбцов
 

@@ -13,16 +13,16 @@ api_type:
 api_location:
 - Shsvcs.dll
 ms.assetid: ff0ad023-42ea-4c74-adae-af55527b6ac3
-ms.openlocfilehash: c22f01835f9c526e95a4330e6ad35d370421e604
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 42f2da51bac93733a74113d3a567802975aca18be2a34f6fa349ff65349749c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118460558"
 ---
 # <a name="createhardwareeventmoniker-function"></a>Функция Креатехардваривентмоникер
 
-\[Эта функция доступна в Windows XP с пакетом обновления 2 (SP2) и Windows Server 2003. Он может быть изменен или недоступен в последующих версиях Windows.\]
+\[эта функция доступна в Windows XP с пакетом обновления 2 (sp2) и Windows Server 2003. Он может быть изменен или недоступен в последующих версиях Windows.\]
 
 Создает моникер, представляющий аппаратный компонент и связанный с ним обработчик событий. Функция автозапуска использует эту функцию, чтобы разрешить приложениям использовать события автозапуска.
 
@@ -102,15 +102,15 @@ HKEY_CLASSES_ROOT
          RunAs = Interactive User
 ```
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Заголовок<br/>                   | <dl> <dt>None</dt> </dl>       |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Header<br/>                   | <dl> <dt>Нет</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Shsvcs.dll</dt> </dl> |
 
 

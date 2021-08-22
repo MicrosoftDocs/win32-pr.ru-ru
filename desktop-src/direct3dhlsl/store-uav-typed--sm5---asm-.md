@@ -4,12 +4,12 @@ description: Произвольный доступ к записи элемен�
 ms.assetid: AD8E035B-DACD-4241-A05B-7D6DC8E3222C
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6243e6fbb2092bac699dbbce04cb3c3478880866
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: cc190662ebab4629c92bba8fafbe75fe23704f8543c7eb9ceba53b9ab02b1029
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104069334"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118508244"
 ---
 # <a name="store_uav_typed-sm5---asm"></a>хранить \_ UAV в \_ типизированном виде (SM5-ASM)
 
@@ -36,7 +36,7 @@ ms.locfileid: "104069334"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта инструкция выполняет 4 \* -разрядный элемент 32, записанный из *Src0* в *дстуав* по адресу в *дстаддресс*. *дстуав* — это типизированный UAV (u \# ).
 
@@ -82,7 +82,7 @@ ms.locfileid: "104069334"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
 | [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Нет        |
 | [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Нет        |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
@@ -93,7 +93,7 @@ ms.locfileid: "104069334"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

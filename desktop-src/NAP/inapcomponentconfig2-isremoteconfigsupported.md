@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a2d144926aafff6f5ad7e243efe2a81a2955f497
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a42ae316063fc14054c8ffeb6e3987794bc33021441621ee231c9e839fc00248
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988450"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118621771"
 ---
 # <a name="inapcomponentconfig2isremoteconfigsupported-method"></a>Метод INapComponentConfig2:: Исремотеконфигсуппортед
 
@@ -75,9 +75,9 @@ HRESULT IsRemoteConfigSupported(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Возвращает значение \_ ОК, если успешно, или один из стандартных кодов ошибок Windows.
+возвращает значение \_ ок, если успешно, или один из стандартных кодов ошибок Windows.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если ни [**инвокеуиформачине**](inapcomponentconfig2-invokeuiformachine.md) , ни [**инвокеуифромконфигблоб**](inapcomponentconfig2-invokeuifromconfigblob.md) не реализованы, удаленная настройка SHV невозможна.
 
@@ -88,7 +88,7 @@ HRESULT IsRemoteConfigSupported(
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Ни одна версия не поддерживается<br/>                                                                |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Напкоммон. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Напкоммон. idl</dt> </dl> |
 

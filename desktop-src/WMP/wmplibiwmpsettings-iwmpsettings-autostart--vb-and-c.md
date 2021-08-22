@@ -3,9 +3,9 @@ title: Свойство автозапуска Ивмпсеттингс
 description: Свойство автозапуска получает или задает значение, указывающее, начинается ли воспроизведение текущего элемента мультимедиа автоматически.
 ms.assetid: 01a1cb78-9951-478a-8ea3-1ae06164beab
 keywords:
-- свойство "Автозапуск" проигрывателя Windows Media
-- свойство "Автозапуск" проигрывателя Windows Media Player, интерфейс Ивмпсеттингс
-- Интерфейс Ивмпсеттингс Windows Media Player, свойство "Автозапуск"
+- проигрыватель Windows Media свойства автозапуска
+- свойство "автозапуск" проигрыватель Windows Media, интерфейс ивмпсеттингс
+- проигрыватель Windows Media интерфейса ивмпсеттингс, свойство "автозапуск"
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aaf6c1fb43107df11462737286e26fa7801360d0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ba7be64a030bbfe8abbd81830a7638094cd3da93939f3184ad3a4cfca0063c9e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105718030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118568471"
 ---
 # <a name="iwmpsettingsautostart-property"></a>Свойство Ивмпсеттингс:: Автозапуск
 
@@ -48,7 +48,7 @@ Public Property autoStart As System.Boolean
 
 Значение **System. Boolean** , указывающее, начинается ли воспроизведение текущего элемента мультимедиа автоматически. Значение по умолчанию — **true**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если параметру **автозапуска** присвоено значение **true**, воспроизведение элемента мультимедиа начнется при установке **аксвиндовсмедиаплайер. URL**, **аксвиндовсмедиаплайер. куррентплайлист** или **аксвиндовсмедиаплайер. currentMedia** . В противном случае воспроизведение элемента мультимедиа не начнется до тех пор, пока не будет вызван метод **ивмпконтролс. Play** .
 
@@ -60,7 +60,7 @@ Public Property autoStart As System.Boolean
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

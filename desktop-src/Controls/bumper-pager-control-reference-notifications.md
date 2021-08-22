@@ -4,16 +4,16 @@ description: Уведомления элемента управления стр
 ms.assetid: fa99d4b3-1d9d-4bda-bcca-84f9d01ce79e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80471e54fbf2bf0130adb701e726ac4e1f4d809a
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: fe821416ec3ff61903c85c1ffb9f0f6baa6a9a28339ccb3e311ca6dc3c18f433
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105651257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118416218"
 ---
 # <a name="pager-control-notifications"></a>Уведомления элемента управления страничного навигатора
 
-## <a name="in-this-section"></a>в этом разделе
+## <a name="in-this-section"></a>В этом разделе
 
 -   [NM \_ релеаседкаптуре (пейджер)](nm-releasedcapture-pager-.md)
 -   [ПГН \_ калксизе](pgn-calcsize.md)

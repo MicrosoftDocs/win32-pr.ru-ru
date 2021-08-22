@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Npptools.dll
-ms.openlocfilehash: 05b8bb3f7f95dc3246ef10f3945b9ab0868550cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ed344b3434e8ae53fe88e7ee97b77a6efa5bd3f0941af6cc9cbc6f2ff10304b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118363782"
 ---
 # <a name="setnpptriggerinblob-function"></a>Функция Сетнпптригжеринблоб
 
@@ -68,7 +68,7 @@ DWORD SetNPPTriggerInBlob(
 
 Если функция завершается неудачно, возвращается значение НМЕРР, указывающее на ошибку.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Данные триггера хранятся в категории **триггеров** большого двоичного объекта.
 

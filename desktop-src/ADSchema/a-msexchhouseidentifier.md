@@ -1,6 +1,6 @@
 ---
 title: атрибут MS-дов-House-identifier
-description: Этот атрибут содержит адрес контакта в адресной книге Exchange Server.
+description: этот атрибут содержит адрес контакта в адресной книге Exchange server.
 ms.assetid: 99a393c7-f36c-4ade-9b14-f339f42225ba
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a8d6e0fb0b6a65bc72697b863c8022a861508fdd
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 18024a765bac019ada8ab2a075fa20e60291abca029c92a3890ead565f794c0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104138931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118683048"
 ---
 # <a name="ms-exch-house-identifier-attribute"></a>атрибут MS-дов-House-identifier
 
-Этот атрибут содержит адрес контакта в адресной книге Exchange Server.
+этот атрибут содержит адрес контакта в адресной книге Exchange server.
 
 
 
@@ -57,7 +57,7 @@ ms.locfileid: "104138931"
 | Идентификатор ссылки                | \-                                                                 |
 | MAPI-Id                | 0x924                                                              |
 | System-Only            | Неверно                                                              |
-| Является однозначным       | True                                                               |
+| Является однозначным       | Верно                                                               |
 | Индексируется             | Неверно                                                              |
 | В глобальном каталоге      | Неверно                                                              |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                       |
@@ -78,7 +78,7 @@ ms.locfileid: "104138931"
 | Идентификатор ссылки                | \-                                                                 |
 | MAPI-Id                | 0x924                                                              |
 | System-Only            | Неверно                                                              |
-| Является однозначным       | True                                                               |
+| Является однозначным       | Верно                                                               |
 | Индексируется             | Неверно                                                              |
 | В глобальном каталоге      | Неверно                                                              |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                       |
@@ -99,7 +99,7 @@ ms.locfileid: "104138931"
 | Идентификатор ссылки                | \-                                                                 |
 | MAPI-Id                | 0x924                                                              |
 | System-Only            | Неверно                                                              |
-| Является однозначным       | True                                                               |
+| Является однозначным       | Верно                                                               |
 | Индексируется             | Неверно                                                              |
 | В глобальном каталоге      | Неверно                                                              |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                       |
@@ -120,7 +120,7 @@ ms.locfileid: "104138931"
 | Идентификатор ссылки                | \-                                                                 |
 | MAPI-Id                | 0x924                                                              |
 | System-Only            | Неверно                                                              |
-| Является однозначным       | True                                                               |
+| Является однозначным       | Верно                                                               |
 | Индексируется             | Неверно                                                              |
 | В глобальном каталоге      | Неверно                                                              |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                       |
@@ -141,7 +141,7 @@ ms.locfileid: "104138931"
 | Идентификатор ссылки                | \-                                                                 |
 | MAPI-Id                | 0x924                                                              |
 | System-Only            | Неверно                                                              |
-| Является однозначным       | True                                                               |
+| Является однозначным       | Верно                                                               |
 | Индексируется             | Неверно                                                              |
 | В глобальном каталоге      | Неверно                                                              |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                       |

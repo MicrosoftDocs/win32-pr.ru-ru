@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c562bb0acd546fd2c8f92a92074e599c8a505dc9
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 84a2ea48bc1472d69c2247f227b94193326927481838894e24efbce9e09afc87
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "105661725"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118642158"
 ---
 # <a name="ncacn_nb_nb-attribute"></a>\_ \_ атрибут NetBIOS нкакн
 
@@ -38,14 +38,14 @@ endpoint("ncacn_nb_nb:[port-name]")
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Синтаксис строки порта NetBIOS, как и все строки портов, определяется реализацией транспорта и не зависит от спецификации IDL. Компилятор MIDL выполняет ограниченную проверку синтаксиса, но не гарантирует, что указана правильная спецификация конечной точки. Некоторые классы ошибок могут выводиться во время выполнения, а не во время компиляции.
 
 > [!Note]  
 > Это семейство протоколов не поддерживается в Windows XP.
 
- 
+ 
 
 ## <a name="examples"></a>Примеры
 
@@ -65,7 +65,7 @@ interface iface
 
 <dl> <dt>
 
-[**endpoint**](endpoint.md)
+[**конечной**](endpoint.md)
 </dt> <dt>
 
 [Файл определения интерфейса (IDL)](interface-definition-idl-file.md)
@@ -89,6 +89,6 @@ interface iface
 [**Строковая привязка**](/windows/desktop/Rpc/string-binding)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

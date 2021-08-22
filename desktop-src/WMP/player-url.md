@@ -3,7 +3,7 @@ title: Player. URL
 description: Свойство URL указывает или получает имя элемента мультимедиа для воспроизведения.
 ms.assetid: 74987ffd-c625-4d30-9f5f-5170119158f9
 keywords:
-- Проигрыватель Windows Media Player. URL
+- проигрыватель Windows Media Player. URL
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 62d4f0c75ac0dddeeaced0f1a3a6f1247df4ae36
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a00a6513350ee9c39855aba8168faf9ced788a0686a0fdbe845013dcc521142f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118572043"
 ---
 # <a name="playerurl"></a>Player. URL
 
@@ -33,7 +33,7 @@ ms.locfileid: "105704341"
 
 Это свойство является **строкой** для чтения и записи и не имеет значения по умолчанию.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этому свойству можно задать только URL-адрес в зоне безопасности с тем же или менее ограниченным, чем зона безопасности вызывающей программы или веб-страницы.
 
@@ -43,7 +43,7 @@ ms.locfileid: "105704341"
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере создается HTML-элемент ввода текста и элемент ввода HTML-кнопки. Элемент TEXT позволяет пользователю ввести путь для указания файла цифрового мультимедиа для воспроизведения. Элемент BUTTON выполняет сценарий JScript, который открывает файл и запускает проигрыватель Windows Media. Объект **Player** создан с идентификатором "Player".
+В следующем примере создается HTML-элемент ввода текста и элемент ввода HTML-кнопки. Элемент TEXT позволяет пользователю ввести путь для указания файла цифрового мультимедиа для воспроизведения. элемент BUTTON выполняет JScript, открывающий файл и запускающий проигрыватель Windows Media. Объект **Player** создан с идентификатором "Player".
 
 
 ```JScript
@@ -70,7 +70,7 @@ ms.locfileid: "105704341"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

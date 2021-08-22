@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: ac831427901de481d313833e4ca8459ccd333384
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dd72049f72d14be41f1ef3601d04fd692af54271011849486ae72c1cce0e0e42
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999255"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118711437"
 ---
 # <a name="iwicimagingfactory_createbitmapscaler_proxy-function"></a>IWICImagingFactory \_ креатебитмапскалер \_ -функция
 
@@ -44,11 +44,11 @@ HRESULT IWICImagingFactory_CreateBitmapScaler_Proxy(
 *пфактори* \[ окне\]
 </dt> <dd>
 
-Тип: **[**IWICImagingFactory**](/windows/desktop/api/Wincodec/nn-wincodec-iwicimagingfactory) \** _
+Тип: **[ **IWICImagingFactory**](/windows/desktop/api/Wincodec/nn-wincodec-iwicimagingfactory)\***
 
 </dd> <dt>
 
-_ppIBitmapScaler * \[ out\]
+*ппибитмапскалер* \[ заполняет\]
 </dt> <dd>
 
 Тип: **[ **ивикбитмапскалер**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapscaler)\*\***
@@ -71,8 +71,8 @@ _ppIBitmapScaler * \[ out\]
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows XP с пакетом обновления 2 (SP2), \[ только классические приложения Windows Vista\]<br/>                                                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                                                                             |
+| Минимальная версия клиента<br/> | Windows XP с пакетом обновления 2 (SP2), Windows \[ только классические приложения Vista\]<br/>                                                                                              |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll; </dt> <dt>Винкодек. lib</dt> </dl> |
 
 

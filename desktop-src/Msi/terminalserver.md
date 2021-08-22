@@ -4,12 +4,12 @@ ms.assetid: 65bc1f73-8b52-4ebb-b408-96123db2176d
 title: Терминалсервер, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dec6000e638d965884e2922f4c2f285a2852e629
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3bf5caf18337e4fb8e3e8f3c62e47f88e64aa76f8445f2c2d780d0810386cb83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118623578"
 ---
 # <a name="terminalserver-property"></a>Терминалсервер, свойство
 
@@ -17,11 +17,11 @@ ms.locfileid: "105651733"
 
 ## <a name="default-value"></a>Значение по умолчанию
 
-Нет. Свойство не определено, если не работает в службах терминалов.
+Отсутствует. Свойство не определено, если не работает в службах терминалов.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Свойство [**ремотеадминтс**](remoteadmints.md) может быть установлено только в Microsoft Windows 2000 или более поздней версии. Свойство **терминалсервер** можно задать в Windows 2000.
+свойство [**ремотеадминтс**](remoteadmints.md) можно задать только в Microsoft Windows 2000 или более поздней версии. свойство **терминалсервер** можно задать в Windows 2000.
 
 ## <a name="requirements"></a>Требования
 
@@ -29,7 +29,7 @@ ms.locfileid: "105651733"
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

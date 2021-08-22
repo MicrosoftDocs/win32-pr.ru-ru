@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 308034fe607283ef9f1213cca1cabb4a7229765e
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 2243827fa1b955079aaf64b9805cf02ac82934bde814ed780570a5ba9b63ade8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113118899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118285500"
 ---
 # <a name="sv_tessfactor"></a>ОКП \_ тессфактор
 
@@ -60,7 +60,7 @@ ms.locfileid: "113118899"
 
 
 
-| Вершина | Поверхности | Домен | Geometry | Пиксель | Службы вычислений |
+| Вершина | Поверхности | Домен | Geometry | Пиксель | Вычисления |
 |--------|------|--------|----------|-------|---------|
 |        | x    | x      |          |       |         |
 
@@ -68,7 +68,7 @@ ms.locfileid: "113118899"
 
  
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

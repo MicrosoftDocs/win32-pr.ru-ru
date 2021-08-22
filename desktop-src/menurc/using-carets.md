@@ -22,12 +22,12 @@ keywords:
 - ввод с клавиатуры
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6450a3169588b3072d1fee271f4890a7cdeafd2
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 8c930931df8ce401fbed8cc9af16db3cb52de08ebe9cf539109b426497318d5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104069896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118472650"
 ---
 # <a name="using-carets"></a>Использование крышки
 
@@ -177,7 +177,7 @@ case WM_KILLFOCUS:
 
 ## <a name="adjusting-the-blink-time"></a>Настройка времени мерцания
 
-В 16-разрядных Windows приложение Windows может вызвать функцию [**жеткаретблинктиме**](/windows/desktop/api/Winuser/nf-winuser-getcaretblinktime) для сохранения текущего времени мигания, а затем вызвать функцию [**сеткаретблинктиме**](/windows/desktop/api/Winuser/nf-winuser-setcaretblinktime) для настройки времени мигания во время обработки сообщения [**WM \_ SETFOCUS**](/windows/desktop/inputdev/wm-setfocus) . Приложение Восстанавливает сохраненное время мигания для использования других приложений, вызывая **сеткаретблинктиме** во время обработки сообщения [**WM \_ киллфокус**](/windows/desktop/inputdev/wm-killfocus) . Однако этот метод не работает в многопоточных средах. В частности, деактивация одного приложения не синхронизирована с активацией другого приложения, чтобы при зависании одного приложения можно было активировать другое.
+в 16-разрядных Windowsах приложение на основе Windows может вызвать функцию [**жеткаретблинктиме**](/windows/desktop/api/Winuser/nf-winuser-getcaretblinktime) для сохранения текущего времени мигания, а затем вызвать функцию [**сеткаретблинктиме**](/windows/desktop/api/Winuser/nf-winuser-setcaretblinktime) для настройки времени мигания во время обработки сообщения [**WM \_ SETFOCUS**](/windows/desktop/inputdev/wm-setfocus) . Приложение Восстанавливает сохраненное время мигания для использования других приложений, вызывая **сеткаретблинктиме** во время обработки сообщения [**WM \_ киллфокус**](/windows/desktop/inputdev/wm-killfocus) . Однако этот метод не работает в многопоточных средах. В частности, деактивация одного приложения не синхронизирована с активацией другого приложения, чтобы при зависании одного приложения можно было активировать другое.
 
 Приложения должны учитывать время мерцания, выбранное пользователем. Функция [**сеткаретблинктиме**](/windows/desktop/api/Winuser/nf-winuser-setcaretblinktime) должна вызываться только приложением, которое позволяет пользователю задать время мерцания.
 
@@ -495,6 +495,6 @@ LONG APIENTRY MainWndProc(
 
 
 
- 
+ 
 
- 
+ 

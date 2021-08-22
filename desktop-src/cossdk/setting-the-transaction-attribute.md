@@ -4,12 +4,12 @@ ms.assetid: b0d701c7-47ef-4034-873f-dd4428efb4c7
 title: Установка атрибута Transaction
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c0690a50f79c77a18b089cec1865dfbb9e7f428
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: de6310d2544090d4b551a93782b4756b3d89f2d6d365dfc09aec4658d5d3e1b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104142367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118546221"
 ---
 # <a name="setting-the-transaction-attribute"></a>Установка атрибута Transaction
 
@@ -31,7 +31,7 @@ ms.locfileid: "104142367"
 
 ## <a name="to-set-the-attribute-value-programmatically"></a>Задание значения атрибута программным способом
 
-Программисты, использующие Microsoft Visual Basic, могут установить атрибут TRANSACTION с **мтстрансактионмоде**, свойством модуля класса для проектов DLL ActiveX. Visual Basic сопоставляет выбранные элементы с эквивалентным значением атрибута транзакции COM+ и публикует значение в библиотеке типов компонента.
+программисты, использующие Microsoft Visual Basic, могут задать атрибут transaction с помощью **мтстрансактионмоде**, свойства модуля класса для ActiveX проектов DLL. Visual Basic сопоставляет выбранные элементы с эквивалентным значением атрибута транзакции COM+ и публикует значение в библиотеке типов компонента.
 
 В следующей таблице каждое значение константы **мтстрансактионмоде** сопоставляется с эквивалентным ЗНАЧЕНИЕМ транзакции COM+.
 

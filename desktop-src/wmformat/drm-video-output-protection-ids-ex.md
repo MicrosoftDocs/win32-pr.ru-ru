@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a2e7cc5ec0b4b14d88deb317e62e3e1cd4f92b57
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f5482734c2ded470b4e3dc885e32505c556b3106a12518969622f8007cf6e4f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118704091"
 ---
 # <a name="drm_video_output_protection_ids_ex-structure"></a>\_ \_ Идентификатор защиты вывода видео DRM — \_ \_ \_ Структура ex
 
@@ -64,21 +64,21 @@ typedef struct DRM_VIDEO_OUTPUT_PROTECTION_IDS_EX {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Нет.
+Отсутствует.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Вмдрмсдк. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмдрмсдк. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3622f819679c2fd2b28d66e371a8b88e0a2d2f70
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3a0f18d9e3344e05348bba0e972a18b7bf64df5edf41fde1cabc3f6a5b106d11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118541949"
 ---
 # <a name="swarmstatus-enumeration"></a>Перечисление Свармстатус
 
@@ -78,8 +78,8 @@ typedef enum _SwarmStatus {
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только для настольных приложений Windows 10 версии 1709\]<br/>                                         |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server версии 1709\]<br/>                                     |
+| Минимальная версия клиента<br/> | Windows 10, только для \[ настольных приложений версии 1709\]<br/>                                         |
+| Минимальная версия сервера<br/> | Windows Server, только для \[ настольных приложений версии 1709\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization. h</dt> </dl> |
 
 

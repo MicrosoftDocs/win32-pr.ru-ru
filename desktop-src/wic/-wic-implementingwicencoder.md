@@ -4,18 +4,18 @@ ms.assetid: 9c1a4fa4-30b9-445f-8aee-46711355ace7
 title: Реализация кодировщика WIC-Enabled
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6e65f969ba7c65e6860009b2fc998024d358301
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b7f0bf3c073b3658c6c6edda6cf0761e3d594965b83b1b54206a48b62c96727
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118710933"
 ---
 # <a name="implementing-a-wic-enabled-encoder"></a>Реализация кодировщика WIC-Enabled
 
 ## <a name="introduction"></a>Введение
 
-Реализация кодировщика Windows Imaging Component (WIC) требует написания двух классов, как и для реализации декодера WIC. Интерфейсы в этих классах непосредственно соответствуют обязанностям кодировщика, описанным в разделе [кодирование](-wic-howwicworks.md) , как работает компонент Windows Imaging.
+для реализации кодировщика Windows imaging Component (WIC) требуется написание двух классов, как и для реализации декодера WIC. интерфейсы в этих классах непосредственно соответствуют обязанностям кодировщика, описанным в разделе [кодирование](-wic-howwicworks.md) , как работает компонент создания образов Windows.
 
 Один из классов предоставляет службы уровня контейнера и управляет сериализацией отдельных кадров изображения в контейнере. Этот класс реализует интерфейс [**ивикбитмапенкодер**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder) . Если формат изображения поддерживает метаданные уровня контейнера, необходимо также реализовать интерфейс [**ивикметадатаблокквритер**](/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockwriter) для этого класса.
 
@@ -45,7 +45,7 @@ ms.locfileid: "104265447"
 [Написание WIC-Enabled КОДЕка](-wic-howtowriteacodec.md)
 </dt> <dt>
 
-[Общие сведения о компоненте создания образов Windows](-wic-about-windows-imaging-codec.md)
+[Windows Общие сведения о компонентах обработки изображений](-wic-about-windows-imaging-codec.md)
 </dt> </dl>
 
  

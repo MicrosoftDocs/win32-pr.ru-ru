@@ -4,12 +4,12 @@ ms.assetid: b6d636e6-2af0-427c-a529-56c80b349b58
 title: Структуры API CAB-файлов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b6acae2a62d59353e10eb07e0e3f25e763b69eb
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 281e131d2a94f58cad15210ace0fa5f189e132bfb274c98b13d374b99baff9da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104072422"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118668282"
 ---
 # <a name="cabinet-api-structures"></a>Структуры API CAB-файлов
 
@@ -30,7 +30,7 @@ ms.locfileid: "104072422"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

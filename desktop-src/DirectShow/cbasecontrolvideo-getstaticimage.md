@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 13b0515e20202373954050b6fa18f10a20a76a6a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 69496754c8a1f80be341c475f422229aba6108dbc0e73cd1db9506a301690ffa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118660834"
 ---
 # <a name="cbasecontrolvideogetstaticimage-method"></a>Кбасеконтролвидео. ЖетстатиЦимаже, метод
 
@@ -61,7 +61,7 @@ virtual HRESULT GetStaticImage(
 
 Возвращает значение **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 С помощью интерфейса [**ибасиквидео**](/windows/desktop/api/Control/nn-control-ibasicvideo) приложение может запрашивать, что ему предоставляется копия текущего изображения в буфере памяти (некоторые модули подготовки отчетов могут возвращать в него значение E \_ нотимпл, если они не поддерживаются). Производный класс определяет способ получения изображения. Когда приложение вызывает **кбасеконтролвидео:: жетстатиЦимаже**, оно вызывает чистый виртуальный метод, который производный класс должен переопределить для его реализации. Это также вызывается функцией-членом [**кбасеконтролвидео:: жеткуррентимаже**](cbasecontrolvideo-getcurrentimage.md) .
 
@@ -95,13 +95,13 @@ HRESULT CVideoText::GetStaticImage(long *pBufferSize,long *pDIBImage)
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ктлутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>ктлутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

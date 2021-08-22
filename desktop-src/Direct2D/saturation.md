@@ -6,12 +6,12 @@ keywords:
 - воздействие на насыщенность
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d6912e64c9297a3554b4785128e1282a3974d36
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cf5f9a4bff56ed47a0ca182dab855899d98022252c6f20c250aef693451df4c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118665048"
 ---
 # <a name="saturation-effect"></a>Воздействие на насыщенность
 
@@ -22,7 +22,7 @@ ms.locfileid: "104071498"
 -   [Пример изображения](#example-image)
 -   [Свойства эффектов](#effect-properties)
 -   [Требования](#requirements)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="example-image"></a>Пример изображения
 
@@ -76,22 +76,22 @@ m_d2dContext->EndDraw();
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента | Windows 8 и обновление платформы для \[ классических приложений Windows 7 \| приложения для Магазина Windows\] |
-| Минимальная версия сервера | Windows 8 и обновление платформы для \[ классических приложений Windows 7 \| приложения для Магазина Windows\] |
-| Header                   | d2d1effects. h                                                                      |
+| Минимальная версия клиента | Windows 8 и обновление платформы для Windows 7 \[ классических приложений \| Windows приложения магазина\] |
+| Минимальная версия сервера | Windows 8 и обновление платформы для Windows 7 \[ классических приложений \| Windows приложения магазина\] |
+| Заголовок                   | d2d1effects. h                                                                      |
 | Библиотека                  | D2D1. lib, дксгуид. lib                                                               |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

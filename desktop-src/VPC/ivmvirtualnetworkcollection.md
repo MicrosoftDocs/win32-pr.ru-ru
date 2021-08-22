@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 76935fd4a67983847e211d8aa53f4a616bed9d4d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 32694b311482e58635ca28dc005fe68ab08495c15d251e176fb78266e7624e29
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103803461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118592275"
 ---
 # <a name="ivmvirtualnetworkcollection-interface"></a>Интерфейс Ивмвиртуалнетворкколлектион
 
-\[Windows Virtual PC больше не доступна для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC больше не доступен для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Определяет коллекцию объектов [**ивмвиртуалнетворк**](ivmvirtualnetwork.md) . Чтобы получить объект **ивмвиртуалнетворкколлектион** , используйте свойство [**Ивмвиртуалпк:: VirtualNetworks**](ivmvirtualpc-virtualnetworks.md) .
 
@@ -34,7 +34,7 @@ ms.locfileid: "103803461"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Интерфейс **ивмвиртуалнетворкколлектион** имеет следующие свойства.
 
@@ -43,8 +43,8 @@ ms.locfileid: "103803461"
 | Свойство                                                             | Тип доступа          | Описание                                                                                                   |
 |:---------------------------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------|
 | [**\_NewEnum**](ivmvirtualnetworkcollection--newenum.md)<br/> | Только для чтения<br/> | Перечислитель для коллекции.<br/>                                                                  |
-| [**Расчета**](ivmvirtualnetworkcollection-count.md)<br/>        | Только для чтения<br/> | Число виртуальных сетей в этой коллекции.<br/>                                                 |
-| [**Элемент**](ivmvirtualnetworkcollection-item.md)<br/>          | Только для чтения<br/> | Объект [**ивмвиртуалнетворк**](ivmvirtualnetwork.md) , соответствующий указанному индексу.<br/> |
+| [**Count**](ivmvirtualnetworkcollection-count.md)<br/>        | Только для чтения<br/> | Число виртуальных сетей в этой коллекции.<br/>                                                 |
+| [**Item**](ivmvirtualnetworkcollection-item.md)<br/>          | Только для чтения<br/> | Объект [**ивмвиртуалнетворк**](ivmvirtualnetwork.md) , соответствующий указанному индексу.<br/> |
 
 
 
@@ -56,11 +56,11 @@ ms.locfileid: "103803461"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                     |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                     |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                      |
 | Окончание поддержки клиента<br/>    | Windows 7<br/>                                                                           |
 | Продукт<br/>                  | Windows Virtual PC<br/>                                                                  |
-| Header<br/>                   | <dl> <dt>Впккоминтерфацес. h</dt> </dl>  |
+| Заголовок<br/>                   | <dl> <dt>Впккоминтерфацес. h</dt> </dl>  |
 | IID<br/>                      | IID \_ ивмвиртуалнетворкколлектион определен как 8ed680be-4242-4b2a-a21c-1982d8b0f675<br/> |
 
 

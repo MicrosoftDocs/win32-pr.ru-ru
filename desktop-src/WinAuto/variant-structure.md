@@ -4,12 +4,12 @@ description: Большинство функций Active Accessibility Microsof
 ms.assetid: 774dfac8-e258-4266-b81e-072eb3961fb1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cafc63388de27ae01b3e1ca478add6802ac6b85c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 063d1e17d998f3cb7d70a0a271e55f02628e7864164e00becb5a708af371e12c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104134103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118563552"
 ---
 # <a name="variant-structure"></a>Структура варианта
 
@@ -28,12 +28,12 @@ ms.locfileid: "104134103"
 
 
 
- 
+ 
 
 При получении сведений в структуре [**варианта**](/windows/win32/api/oaidl/ns-oaidl-variant) Проверьте элемент **VT** , чтобы узнать, какой элемент содержит допустимые данные. Аналогично, при отправке данных с использованием структуры **Variant** всегда задавайте **VT** для отражения члена объединения, содержащего эти сведения.
 
 Прежде чем использовать структуру, инициализируйте ее, вызвав функцию модели COM компонента [**вариантинит**](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantinit) . После завершения работы со структурой очистите ее, прежде чем память, содержащая [**вариант**](/windows/win32/api/oaidl/ns-oaidl-variant) , освобождается путем вызова [**вариантклеар**](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear).
 
- 
+ 
 
- 
+ 

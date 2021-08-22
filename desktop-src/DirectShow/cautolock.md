@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 866ca7164fdaef5a93679da000779c51fb4ddb24
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4b046111e3a7e22fcf9e380fae09bb2d2007a583e49c0507b8e214142505fe02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118661706"
 ---
 # <a name="cautolock-class"></a>Класс Каутолокк
 
@@ -49,10 +49,10 @@ CCritSec csMyLock;  // Critical section is not locked yet.
 
 
 
-| Защищенные переменные членов                 | Описание                                                      |
+| Защищенные переменные членов                 | Описание:                                                      |
 |--------------------------------------------|------------------------------------------------------------------|
 | [**m \_ плокк**](cautolock-m-plock.md)      | Критическая секция для этой блокировки.                                  |
-| Открытые методы                             | Описание                                                      |
+| Открытые методы                             | Описание:                                                      |
 | [**каутолокк**](cautolock-cautolock.md)   | Метод конструктора. Блокирует указанный объект критической секции. |
 | [**~ Каутолокк**](cautolock--cautolock.md) | Метод деструктора. Разблокирует объект критической секции.          |
 
@@ -60,13 +60,13 @@ CCritSec csMyLock;  // Critical section is not locked yet.
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Вксутил. h (включение Streams. h)</dt> </dl>                                                                                    |
+| Заголовок<br/>  | <dl> <dt>вксутил. h (включает Потоки. h)</dt> </dl>                                                                                    |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

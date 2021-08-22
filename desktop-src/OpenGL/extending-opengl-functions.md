@@ -3,24 +3,24 @@ title: Расширение функций OpenGL
 description: Библиотека OpenGL поддерживает несколько реализаций своих функций.
 ms.assetid: 9eb08fd4-899a-4610-9491-d7f377a19b46
 keywords:
-- OpenGL в Windows, функции расширения
+- OpenGL на Windows, функции расширения
 - функции расширения OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7dcbb59aa15a9690ac05728548f0d8073a334a2e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7dce68498d5a3e672e63da1ae05d9bb513a4121d110237d90cdad75df0ff84d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118361346"
 ---
 # <a name="extending-opengl-functions"></a>Расширение функций OpenGL
 
 Библиотека OpenGL поддерживает несколько реализаций своих функций. Функции расширения, поддерживаемые в одном контексте отрисовки, не обязательно поддерживаются в другом контексте отрисовки. Для данного контекста отрисовки в приложении, использующем функции расширения, используйте только адреса функций, возвращенные функцией [**вглжетпрокаддресс**](/windows/desktop/api/wingdi/nf-wingdi-wglgetprocaddress) .
 
- 
+ 
 
- 
+ 
 
 
 

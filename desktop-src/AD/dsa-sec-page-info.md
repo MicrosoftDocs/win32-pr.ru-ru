@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e4c8602a958c50c72942d89657a812d24f64571d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 26fa3dcfb983de8e1052b319bac7c3a594e256b594847c32b553353e6caee17d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118695652"
 ---
 # <a name="dsa_sec_page_info-structure"></a>\_ \_ \_ Структура сведений о странице DSA sec
 

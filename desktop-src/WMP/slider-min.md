@@ -3,7 +3,7 @@ title: SLIDER. min
 description: Атрибут min указывает или получает минимальное значение диапазона, определенного элементом управления "ползунок".
 ms.assetid: c67ef9b1-2bd0-4b05-823b-fe7cdb90721d
 keywords:
-- ПОЛЗУНок. min Windows Media Player
+- ползунок. min проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a33d57fbd3449ec0b0e320246e9277c8c4e707ea
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 12d1529ee7f27a2b0cafb392ed051eb89f92bf3ad21b69befa9f58b463bf46d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118569077"
 ---
 # <a name="slidermin"></a>SLIDER. min
 
@@ -31,7 +31,7 @@ ms.locfileid: "105698756"
 
 Этот атрибут является **числом** для чтения и записи (**float**) и значением по умолчанию 0.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значение, указанное для параметра **min** , должно быть меньше, чем значение параметра **Max**.
 
@@ -43,7 +43,7 @@ ms.locfileid: "105698756"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

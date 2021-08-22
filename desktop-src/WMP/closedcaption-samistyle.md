@@ -3,7 +3,7 @@ title: Клоседкаптион. Самистиле
 description: Свойство Самистиле указывает или получает стиль закрытых субтитров.
 ms.assetid: 5535fb31-f1c0-49c4-b758-df74964b1e67
 keywords:
-- Проигрыватель Windows Media Клоседкаптион. Самистиле
+- клоседкаптион. самистиле проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ebe81c2c2c4f4504d6167abe538c52ab769550a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ed4a12671877cf0d4d8abdb77d169b0f13000bc564e6c1dc37e65bf6eccdf005
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118580769"
 ---
 # <a name="closedcaptionsamistyle"></a>Клоседкаптион. Самистиле
 
@@ -33,7 +33,7 @@ player.closedCaption.SAMIStyle
 
 Это свойство является **строкой** для чтения и записи.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Файл SAMI может содержать несколько определений стиля формата. Стили SAMI определены между тегами <STYLE> и </STYLE> в файле Sami. Стиль определяется с помощью текстовой строки, предшествующей \# символу. Пример:
 
@@ -51,11 +51,11 @@ player.closedCaption.SAMIStyle
 
 Если параметр SAMI не указан, по умолчанию используется первый стиль, определенный в файле SAMI.
 
-**Проигрыватель Windows Media 10 Mobile:** Это свойство доступно только для чтения и всегда возвращает пустую строку.
+**проигрыватель Windows Media 10 Mobile:** Это свойство доступно только для чтения и всегда возвращает пустую строку.
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере JScript создается HTML-элемент SELECT, использующий *клоседкаптион*. **Самистиле** для изменения внешнего вида текста закрытого заголовка. Объект **Player** создан с идентификатором "Player".
+в следующем примере JScript создается HTML-элемент SELECT, использующий *клоседкаптион*. **Самистиле** для изменения внешнего вида текста закрытого заголовка. Объект **Player** создан с идентификатором "Player".
 
 
 ```JScript
@@ -82,7 +82,7 @@ player.closedCaption.SAMIStyle
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

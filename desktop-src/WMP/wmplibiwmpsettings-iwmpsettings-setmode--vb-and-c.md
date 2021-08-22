@@ -3,9 +3,9 @@ title: Ивмпсеттингс setMode, метод
 description: Метод setMode устанавливает активный или неактивный режим цикла или случайного режима.
 ms.assetid: e9d3765e-6edb-47a5-ac97-5e00b62498c2
 keywords:
-- setMode метод Windows Media Player
-- setMode метод проигрывателя Windows Media Player, интерфейс Ивмпсеттингс
-- Интерфейс Ивмпсеттингс Windows Media Player, метод setMode
+- проигрыватель Windows Media метода setMode
+- проигрыватель Windows Media метода setMode, интерфейс ивмпсеттингс
+- проигрыватель Windows Media интерфейса ивмпсеттингс, метод setMode
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f8dffede5e634c5c4f726cff1631b79781ed5179
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 529aadf412cdae869ae3c308d82dcd08a7dfd581aeb7ecc711052f6acd54b962
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105717783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118568411"
 ---
 # <a name="iwmpsettingssetmode-method"></a>Метод Ивмпсеттингс:: setMode
 
@@ -86,9 +86,9 @@ Implements IWMPSettings.setMode
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Когда активен режим Шовфраме, проигрыватель Windows Media должен получить доступ к содержимому дорожки, чтобы получить кадр видео. Используйте этот режим с осторожностью при воспроизведении содержимого, которое не является локальным.
+когда активен режим шовфраме, проигрыватель Windows Media должен получить доступ к содержимому дорожки для получения видеокадра. Используйте этот режим с осторожностью при воспроизведении содержимого, которое не является локальным.
 
 ## <a name="requirements"></a>Требования
 
@@ -96,7 +96,7 @@ Implements IWMPSettings.setMode
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

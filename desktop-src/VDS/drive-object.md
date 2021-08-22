@@ -4,16 +4,16 @@ ms.assetid: c1c17a97-cf4b-45b7-bc32-4bad94c3ddb2
 title: Объект Drive
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7df8501c79f9381dba80a1fe0276014dccdf7a34
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d04ec68fab408c4ed6412990296c0ebb265b8c3e4c4c9b05645b1f4bd1e625fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104264656"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118603424"
 ---
 # <a name="drive-object"></a>Объект Drive
 
-\[Начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API управления хранилищами Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API Windows служба хранилища управления](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 Объект Drive моделирует физический диск, содержащийся в подсистеме. Каждый диск подключается к шине, занимает слот и содержит набор экстентов диска. Каждый диск может добавлять экстенты в любое количество LUN. Диск также можно назначить горячим резервом.
 
@@ -36,7 +36,7 @@ ms.locfileid: "104264656"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

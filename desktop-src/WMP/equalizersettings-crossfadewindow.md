@@ -3,7 +3,7 @@ title: ЕКУАЛИЗЕРСЕТТИНГС. Кроссфадевиндов
 description: Атрибут Кроссфадевиндов указывает или получает объем перекрестной перекрытия в миллисекундах.
 ms.assetid: 312ec02a-8ac9-4011-945b-e56cf06c71c2
 keywords:
-- Проигрыватель Windows Media ЕКУАЛИЗЕРСЕТТИНГС. Кроссфадевиндов
+- екуализерсеттингс. кроссфадевиндов проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b6e95c5cf3f3dc559a7e9d3a6d8dd2a0e3a6f571
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 678e63011ac810c18567c9560103f20a27f85b9e6e2c7d6df29142fc079737f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118578399"
 ---
 # <a name="equalizersettingscrossfadewindow"></a>ЕКУАЛИЗЕРСЕТТИНГС. Кроссфадевиндов
 
@@ -37,7 +37,7 @@ ms.locfileid: "105699167"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 

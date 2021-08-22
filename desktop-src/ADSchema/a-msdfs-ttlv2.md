@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 52de0c57c159c0e875958d19611cadf42cc2b98d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ac2bf2c828be70fe5b35f182cf7ccd2ea663e63321a6f2ea5a63539d1adbc98c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104138215"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118686070"
 ---
 # <a name="ms-dfs-ttl-v2-attribute"></a>атрибут MS-DFS-TTL-v2
 
@@ -55,7 +55,7 @@ TTL, связанный с корнем DFS или ссылкой. Для исп
 | Идентификатор ссылки                | \-                                                                                                                |
 | MAPI-Id                | \-                                                                                                                |
 | System-Only            | Неверно                                                                                                             |
-| Является однозначным       | True                                                                                                              |
+| Является однозначным       | Верно                                                                                                              |
 | Индексируется             | Неверно                                                                                                             |
 | В глобальном каталоге      | Неверно                                                                                                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                      |
@@ -76,7 +76,7 @@ TTL, связанный с корнем DFS или ссылкой. Для исп
 | Идентификатор ссылки                | \-                                                                                                                |
 | MAPI-Id                | \-                                                                                                                |
 | System-Only            | Неверно                                                                                                             |
-| Является однозначным       | True                                                                                                              |
+| Является однозначным       | Верно                                                                                                              |
 | Индексируется             | Неверно                                                                                                             |
 | В глобальном каталоге      | Неверно                                                                                                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                      |
@@ -97,7 +97,7 @@ TTL, связанный с корнем DFS или ссылкой. Для исп
 | Идентификатор ссылки                | \-                                                                                                                |
 | MAPI-Id                | \-                                                                                                                |
 | System-Only            | Неверно                                                                                                             |
-| Является однозначным       | True                                                                                                              |
+| Является однозначным       | Верно                                                                                                              |
 | Индексируется             | Неверно                                                                                                             |
 | В глобальном каталоге      | Неверно                                                                                                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                      |
